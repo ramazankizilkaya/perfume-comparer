@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B · Editoryal — Anasayfa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F5F1E8; --ink:#16150F; --soft:#57534A; --faint:#8C8678;
+  --line:#DED7C7; --wine:#7A2E2E; --cream:#EDE7D9;
+  --serif:"Fraunces",Georgia,serif; --sans:"Inter",-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{max-width:1240px;margin:0 auto;padding:0 36px}
+.kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--wine);font-weight:500}
+
+/* masthead */
+.mast{border-bottom:2px solid var(--ink);padding:18px 0}
+.mast-in{display:flex;align-items:baseline;justify-content:space-between}
+.logo{font-family:var(--serif);font-weight:700;font-size:30px;letter-spacing:-.02em}
+.mast nav{display:flex;gap:30px;font-size:13px}
+.mast nav a{border-bottom:1px solid transparent}
+.mast nav a:hover{border-color:var(--ink)}
+.dateline{font-size:11px;color:var(--faint);letter-spacing:.1em;text-transform:uppercase}
+
+/* hero — asymmetric, headline overlaps image */
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:0;align-items:center;padding:70px 0 90px;position:relative}
+.hero-txt{position:relative;z-index:2}
+.hero h1{font-family:var(--serif);font-weight:700;font-size:clamp(48px,6.6vw,92px);line-height:.98;letter-spacing:-.03em;margin:18px 0 26px}
+.hero h1 em{font-style:italic;font-weight:400;color:var(--wine)}
+.hero p{max-width:38ch;color:var(--soft);font-size:16px;margin-bottom:32px}
+.hero-img{margin-left:-70px}
+.hero-img img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.cta{display:inline-block;background:var(--ink);color:var(--paper);padding:15px 34px;font-size:13px;font-weight:500}
+.cta:hover{background:var(--wine)}
+
+.rule{height:2px;background:var(--ink)}
+
+/* numbered picks */
+.picks{padding:80px 0}
+.picks-head{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:46px}
+.picks-head h2{font-family:var(--serif);font-weight:600;font-size:40px;letter-spacing:-.02em;margin-top:10px}
+.pick{display:grid;grid-template-columns:80px 200px 1fr auto;gap:34px;align-items:center;padding:30px 0;border-top:1px solid var(--line)}
+.pick:hover{background:var(--cream)}
+.num{font-family:var(--serif);font-size:46px;font-weight:400;color:var(--wine);line-height:1}
+.pick .ph{background:var(--cream);aspect-ratio:1;display:grid;place-items:center}
+.pick .ph img{max-height:80%;width:auto;mix-blend-mode:multiply}
+.pick h3{font-family:var(--serif);font-weight:600;font-size:27px;letter-spacing:-.01em}
+.pick .br{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin-bottom:6px}
+.pick .desc{color:var(--soft);font-size:14px;margin-top:8px;max-width:46ch}
+.pick .money{font-family:var(--serif);font-size:26px;text-align:right;white-space:nowrap}
+.tagline{display:inline-block;font-size:10px;letter-spacing:.16em;text-transform:uppercase;background:var(--wine);color:var(--paper);padding:3px 8px;margin-top:10px}
+
+/* versus spread */
+.spread{background:var(--ink);color:var(--paper);padding:90px 0;margin:60px 0}
+.spread .kicker{color:#D6A25F}
+.spread h2{font-family:var(--serif);font-weight:600;font-size:44px;letter-spacing:-.02em;margin:12px 0 50px;max-width:18ch}
+.duel{display:grid;grid-template-columns:1fr 120px 1fr;align-items:center;gap:20px}
+.duel .c{text-align:center}
+.duel .c img{height:220px;width:auto;margin:0 auto 20px}
+.duel .c h4{font-family:var(--serif);font-size:24px;font-weight:600}
+.duel .c .m{color:#B8B2A4;font-size:13px;margin-top:6px}
+.duel .mid{text-align:center}
+.duel .mid .pc{font-family:var(--serif);font-size:44px;color:#D6A25F}
+.duel .mid small{display:block;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8C8678}
+
+/* journal */
+.jr-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:40px;padding:20px 0 90px}
+.jr img{width:100%;object-fit:cover;margin-bottom:18px}
+.jr.lead img{aspect-ratio:16/11}
+.jr:not(.lead) img{aspect-ratio:4/3}
+.jr h3{font-family:var(--serif);font-weight:600;letter-spacing:-.01em;line-height:1.2;margin:10px 0 8px}
+.jr.lead h3{font-size:34px} .jr:not(.lead) h3{font-size:20px}
+.jr p{color:var(--soft);font-size:14px}
+
+footer{border-top:2px solid var(--ink);padding:44px 0;display:flex;justify-content:space-between;font-size:12px;color:var(--faint)}
+
+@media(max-width:900px){
+  .wrap{padding:0 20px}
+  .mast nav,.dateline{display:none}
+  .hero{grid-template-columns:1fr;gap:34px;padding:44px 0}
+  .hero-img{margin-left:0;order:-1}
+  .pick{grid-template-columns:52px 1fr;gap:18px}
+  .pick .ph{display:none}
+  .pick .money{grid-column:2;text-align:left}
+  .duel{grid-template-columns:1fr;gap:30px}
+  .jr-grid{grid-template-columns:1fr}
+  .jr.lead h3{font-size:26px}
+}
+</style>
+</head>
+<body>
+
+<div class="mast"><div class="wrap mast-in">
+  <span class="logo">AURA</span>
+  <nav><a href="#">Koleksiyon</a><a href="#">Karşılaştırma</a><a href="#">Muadiller</a><a href="#">Günlük</a></nav>
+  <span class="dateline">Sayı 04 · Temmuz</span>
+</div></div>
+
+<div class="wrap">
+  <div class="hero">
+    <div class="hero-txt">
+      <span class="kicker">Dosya · Muadil ekonomisi</span>
+      <h1>Aynı iz,<br><em>otuz kat</em><br>ucuza.</h1>
+      <p>Notaları ve fiyatları yan yana koyuyoruz. Hangi kokunun parasını ödemeye değer, hangisinin muadili yeter — kendiniz görün.</p>
+      <a class="cta" href="#">Karşılaştırmaya başla</a>
+    </div>
+    <div class="hero-img">
+      <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80&w=900" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="picks">
+    <div class="picks-head">
+      <div>
+        <span class="kicker">Bu ayın seçkisi</span>
+        <h2>Editörün beşlisi</h2>
+      </div>
+      <a href="#" style="font-size:13px;border-bottom:1px solid var(--ink)">Tüm koleksiyon →</a>
+    </div>
+
+    <a class="pick" href="#">
+      <span class="num">01</span>
+      <span class="ph"><img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/3/3/3348901755504.jpg" alt=""></span>
+      <span>
+        <span class="br">Dior</span>
+        <h3>Homme</h3>
+        <span class="tagline">Odunsu</span>
+        <p class="desc">Süsen çiçeğinin pudramsı zarafeti, deri ve odunsu notalarla olgunlaşıyor.</p>
+      </span>
+      <span class="money">₺9.926</span>
+    </a>
+
+    <a class="pick" href="#">
+      <span class="num">02</span>
+      <span class="ph"><img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/1/0/10778612465694_1.jpg" alt=""></span>
+      <span>
+        <span class="br">Carolina Herrera</span>
+        <h3>Good Girl Jasmine</h3>
+        <span class="tagline">Oryantal</span>
+        <p class="desc">Sambak yaseminin yoğunluğu, tonka ve kakaonun gurme derinliğiyle sarılıyor.</p>
+      </span>
+      <span class="money">₺8.216</span>
+    </a>
+
+    <a class="pick" href="#">
+      <span class="num">03</span>
+      <span class="ph"><img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/p/r/prada_26_lr_carbon_edp_100ml_functional_packshot_bottle_single_three_quarter-shadow_3614274490237_1_.jpg" alt=""></span>
+      <span>
+        <span class="br">Prada</span>
+        <h3>Luna Rossa Carbon</h3>
+        <span class="tagline">Odunsu</span>
+        <p class="desc">Metalik-mineral bir aura; lavanta açılışı ambroxanın temiz izine bağlanıyor.</p>
+      </span>
+      <span class="money">₺10.600</span>
+    </a>
+
+    <a class="pick" href="#">
+      <span class="num">04</span>
+      <span class="ph"><img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/8/4/8435415114356_1.jpg" alt=""></span>
+      <span>
+        <span class="br">Jean Paul Gaultier</span>
+        <h3>Le Male In Blue</h3>
+        <span class="tagline">Ferah</span>
+        <p class="desc">Nane ve deniz notalarının serinliği, klasik Gaultier imzasıyla buluşuyor.</p>
+      </span>
+      <span class="money">₺5.023</span>
+    </a>
+  </div>
+</div>
+
+<div class="spread"><div class="wrap">
+  <span class="kicker">Yan yana</span>
+  <h2>Privé Orange Méditerranée ve ₺500'lük gölgesi</h2>
+  <div class="duel">
+    <div class="c">
+      <img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/3/6/3614274643855_1.png" alt="">
+      <h4>Giorgio Armani Privé</h4>
+      <div class="m">EDT · 100 ml · ₺15.287</div>
+    </div>
+    <div class="mid">
+      <div class="pc">%90</div>
+      <small>benzerlik</small>
+    </div>
+    <div class="c">
+      <img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/3/6/3614274643855_1.png" alt="" style="filter:grayscale(.5) brightness(.9)">
+      <h4>Bargello Alternatifi</h4>
+      <div class="m">EDT · 50 ml · ₺500</div>
+    </div>
+  </div>
+</div></div>
+
+<div class="wrap">
+  <div class="jr-grid">
+    <a class="jr lead" href="#">
+      <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=900" alt="">
+      <span class="kicker">Uzun okuma</span>
+      <h3>Muadil parfüm gerçekten orijinali kadar iyi olabilir mi?</h3>
+      <p>Kör testte ne kadarını ayırt edebildik, hangi notalar ele veriyor — ve bu fiyat farkı neyi ödüyor?</p>
+    </a>
+    <a class="jr" href="#">
+      <img src="https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&q=80&w=600" alt="">
+      <span class="kicker">Rehber</span>
+      <h3>Koku piramidi nasıl okunur?</h3>
+      <p>Üst, orta ve alt notaların zaman çizelgesi.</p>
+    </a>
+    <a class="jr" href="#">
+      <img src="https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&q=80&w=600" alt="">
+      <span class="kicker">İpucu</span>
+      <h3>Kalıcılığı artırmanın yedi yolu</h3>
+      <p>Nemli cilt, nabız noktaları, doğru konsantrasyon.</p>
+    </a>
+  </div>
+</div>
+
+<div class="wrap"><footer>
+  <span>© 2026 AURA</span>
+  <span>Bağımsız koku rehberi</span>
+</footer></div>
+
+</body>
+</html>

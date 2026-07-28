@@ -1,0 +1,50 @@
+Kullanıcıların parfümlerle ilgili aramalarında traifk alabilecek, parfüm bilgileri veren ve parfümleri karşılaşrtırabilen TR pazarına yönelik bir uygulama yapmak istiyorum. User story ler şu şekilde
+
+1. bir parfümle ilgili aram yaptığımda aramalarda o parfümün bilgilerini içeren bir sayfa linki çıkar ve beni o parfümün sayfasına yönlendirir. Bu sayfada 
+    a. parfümün görseli olur
+    b. parfümün adı, markası, tipi, cinsiyeti, piyasaya çıkış yılı, notaları, mevsaimle ve yaş grubu uygunluğu olur.
+    c. sayfada breadcrumb olur ve tüm gruplar breadcrumda görünür. anasayfa>erkek>EDP>marka>seçili model ... breadcrumb üstüne hover ettiğimde bir selectlist olarak o kategorideki diğer seçenekler çıkar. mesela edp üzerinde hover ettiğimde EDT, EDP, EDC, Parfüm ekstresi, roll on vb seçenekler çıkar. Marka üzerinde hover ettiğimde o markanın diğer parfümleri çıkar. 
+    d. google ile login olan kullanıcılar parfüme comment atabilir ve puanlayabilir.
+    e. aynı sayfada parfümün muadil markalardaki modelinin linkleri bulunur
+    f. aynı sayfada parfümün alışveriş sitelerindeki güncel fiyatlarını gösteren linkler bulunur.
+     g. aynı sayfada parfümü favoırilerime eklemek için buton bulunur.
+    g. parfümü karşılaştırma listeme eklemek için bir buton bulunur.
+    h. yorumların ai ile değerlendirilmiş genellemesi olur. (en çok hangi notalarının beğenildiği, kalıcılığı, fark edilirligi vb.)
+    h. fiyatı düşünce haber ver butonu bulunur. 
+    
+2. Anasayfada bulunan filtreleme panelini kullanarak detaylı filrteleme yapabilir ve aradığım parfümleri hızlıca listeleyebilirim. Filtre seçenekleri şunlar olabilir:
+    a. Cinsiyet
+    b. Marka
+    c. Tip
+    d. Piyasaya çıkış yılı
+    e. Notalar
+    f. Mevsim
+    g. Yaş grubu
+    h. Puan aralığı
+    i. Fiyat aralığı
+3. anaysafada hızlıca aradığımı bulup ürün sayfasına gitmek için bir arama kutucuğu bulunur. kuvvetli bir arama motoru ile girilen bilgilerden ilgili ürünlerin listeleri populate edilir.
+4. Blog sayfasında seo amaçlı yazılar bulunur. Ayrıca kullanıcılar da blog yazısı yazabilir. Admin onayından sonra yazılar yayınlanır. 
+5. sistem sadece türkçe olacak ancak mutlilanguage altyapısı olacak. İleride başka diller eklenebilir.
+
+altyapı.
+Proje eğer seo açısından problem olmayacaksa blazorla yapmak istiyorum. Böylece frontend ve backendi tek bir yapı altında geliştirebilirim. Eğer blazor seo için uygun değilse ozaman backend api dotnet ve postgre olacak.Frontendde tercihim seo için uygun bir framework olacak.
+
+UI:
+UI tasarımı nasıl olacak? insanlar hangi tarzdaki UI ları seviyor? nelere dikkat etmeliyiz?
+
+seo.
+Uygulama tamamen aramalara dayalı olacağı için seo olmazsa olmaz. bu kapsamda detaylı bir seo planı lazım.
+
+data collection:
+parfümler genel olarak değişmediğiğ için ilk canlıya çıkmadan tüm dataları toplamak gerekiyor. bu data nasıl toplanacak? fiyat, içerik, resim vs.. ve muadil ürün veirsi nasıl çekilecek? Burda agentic ai yada web scarping ile bu işlem yapılabilir. 
+
+data maintaneance:
+mevcut dataların belirli aralıklarla konbtrolü ve bakımı nasıl yapılacak? örneğin yeni bir parfüm çıktığında sistem nasıl haberdar olacak? ya da bir parfümün muadili yapıldığında , fiyatları değiştiğinde sistem bunu nasıl fark edecek ve güncelleyecek?  
+
+db normalizyonu
+relational database in şeması nasıl olacak?
+
+para kazanma modeli:
+google ads bu tarz sitelre için uygun mu? insanlar reklamları gördüğünde kaçıyor mu? eğer öyleyse başka nasıl para kazanabiliriz?
+
+

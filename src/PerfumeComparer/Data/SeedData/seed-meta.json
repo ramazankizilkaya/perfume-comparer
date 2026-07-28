@@ -1,0 +1,224 @@
+{
+  "brands": [
+    {
+      "name": "Tom Ford",
+      "country": "United States",
+      "description": "Tom Ford, modern lüksün en prestijli markalarından biridir.",
+      "logo_url": "https://example.com/logos/tomford.png"
+    },
+    {
+      "name": "Rabbane",
+      "country": "Spain",
+      "description": "Paco Rabanne (Rabbane), cesur ve yenilikçi kokularıyla tanınır.",
+      "logo_url": null
+    },
+    {
+      "name": "Prada",
+      "country": "Italy",
+      "description": "Prada, İtalyan zarafetini ve sofistike tarzını yansıtır.",
+      "logo_url": null
+    },
+    {
+      "name": "Montblanc",
+      "country": "Germany",
+      "description": "Montblanc, klasik Alman işçiliğini ve Legend serisini sunar.",
+      "logo_url": null
+    },
+    {
+      "name": "Roberto Cavalli",
+      "country": "Italy",
+      "description": "Roberto Cavalli, enerjik, vahşi ve çekici koku tasarımlarına sahiptir.",
+      "logo_url": null
+    },
+    {
+      "name": "Chanel",
+      "country": "France",
+      "description": "Chanel, ikonik No. 5 ve Bleu de Chanel ile dünya parfüm liderlerindendir.",
+      "logo_url": null
+    },
+    {
+      "name": "Dior",
+      "country": "France",
+      "description": "Christian Dior, Sauvage ve Fahrenheit gibi efsanevi kokuların yaratıcısıdır.",
+      "logo_url": null
+    },
+    {
+      "name": "Bargello",
+      "country": "Turkey",
+      "description": "Bargello, Türkiye'nin en popüler alternatif koku üreticilerinden biridir.",
+      "logo_url": null
+    }
+  ],
+  "concentration_tokens": [
+    {
+      "token": "EAU DE PARFUM",
+      "name": "EDP"
+    },
+    {
+      "token": "EAU DE PARFÜM",
+      "name": "EDP"
+    },
+    {
+      "token": "EAU DE TOILETTE",
+      "name": "EDT"
+    },
+    {
+      "token": "EXTRAIT",
+      "name": "Extrait de Parfum"
+    },
+    {
+      "token": "EDP",
+      "name": "EDP"
+    },
+    {
+      "token": "EDT",
+      "name": "EDT"
+    },
+    {
+      "token": "EDC",
+      "name": "EDC"
+    },
+    {
+      "token": "COLOGNE",
+      "name": "Cologne"
+    },
+    {
+      "token": "PARFUM",
+      "name": "Parfum"
+    },
+    {
+      "token": "PARFÜM",
+      "name": "Parfum"
+    }
+  ],
+  "fragrance_family_rules": [
+    {
+      "token": "majestic leather",
+      "family": "Deri"
+    },
+    {
+      "token": "leather",
+      "family": "Deri"
+    },
+    {
+      "token": "oud",
+      "family": "Oryantal"
+    },
+    {
+      "token": "night elixir",
+      "family": "Oryantal"
+    },
+    {
+      "token": "1 million",
+      "family": "Oryantal"
+    },
+    {
+      "token": "good girl",
+      "family": "Oryantal"
+    },
+    {
+      "token": "the one",
+      "family": "Oryantal"
+    },
+    {
+      "token": "euphoria",
+      "family": "Oryantal"
+    },
+    {
+      "token": "solar",
+      "family": "Oryantal"
+    },
+    {
+      "token": "vetiver",
+      "family": "Odunsu"
+    },
+    {
+      "token": "carbon",
+      "family": "Odunsu"
+    },
+    {
+      "token": "homme",
+      "family": "Odunsu"
+    },
+    {
+      "token": "wild blue",
+      "family": "Ferah"
+    },
+    {
+      "token": "in blue",
+      "family": "Ferah"
+    },
+    {
+      "token": "sunset",
+      "family": "Ferah"
+    },
+    {
+      "token": "mist",
+      "family": "Ferah"
+    },
+    {
+      "token": "mediterranee",
+      "family": "Narenciye"
+    },
+    {
+      "token": "orange",
+      "family": "Narenciye"
+    },
+    {
+      "token": "pistachio",
+      "family": "Gurme"
+    },
+    {
+      "token": "latte",
+      "family": "Gurme"
+    },
+    {
+      "token": "cheirosa",
+      "family": "Gurme"
+    },
+    {
+      "token": "jelly",
+      "family": "Gurme"
+    },
+    {
+      "token": "cobalt",
+      "family": "Aromatik"
+    },
+    {
+      "token": "bad boy",
+      "family": "Aromatik"
+    },
+    {
+      "token": "le male",
+      "family": "Aromatik"
+    },
+    {
+      "token": "legend",
+      "family": "Fujer"
+    },
+    {
+      "token": "jasmine",
+      "family": "Çiçeksi"
+    },
+    {
+      "token": "rosea",
+      "family": "Çiçeksi"
+    },
+    {
+      "token": "purple glow",
+      "family": "Çiçeksi"
+    },
+    {
+      "token": "addict",
+      "family": "Çiçeksi"
+    },
+    {
+      "token": "cosmic",
+      "family": "Çiçeksi"
+    },
+    {
+      "token": "wild pink",
+      "family": "Çiçeksi"
+    }
+  ]
+}

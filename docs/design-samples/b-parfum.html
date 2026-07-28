@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B · Editoryal — Parfüm</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F5F1E8; --ink:#16150F; --soft:#57534A; --faint:#8C8678;
+  --line:#DED7C7; --wine:#7A2E2E; --cream:#EDE7D9;
+  --serif:"Fraunces",Georgia,serif; --sans:"Inter",-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{max-width:1180px;margin:0 auto;padding:0 36px}
+.kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--wine);font-weight:500}
+
+.mast{border-bottom:2px solid var(--ink);padding:18px 0}
+.mast-in{display:flex;align-items:baseline;justify-content:space-between}
+.logo{font-family:var(--serif);font-weight:700;font-size:30px;letter-spacing:-.02em}
+.mast nav{display:flex;gap:30px;font-size:13px}
+
+.crumb{padding:22px 0;font-size:12px;color:var(--faint)}
+.crumb a:hover{color:var(--wine)}
+
+/* opening spread: big title left, bottle right, bleeding */
+.open{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:end;padding-bottom:44px;border-bottom:2px solid var(--ink)}
+.open h1{font-family:var(--serif);font-weight:700;font-size:clamp(46px,7vw,88px);line-height:.95;letter-spacing:-.03em;margin:14px 0 20px}
+.brandline{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.chip{font-size:10px;letter-spacing:.14em;text-transform:uppercase;border:1px solid var(--ink);padding:4px 10px}
+.chip.fam{background:var(--wine);border-color:var(--wine);color:var(--paper)}
+.standfirst{font-family:var(--serif);font-style:italic;font-size:21px;line-height:1.55;color:var(--soft);max-width:40ch}
+.open-img{background:var(--cream);aspect-ratio:3/4;display:grid;place-items:center}
+.open-img img{max-height:82%;width:auto;mix-blend-mode:multiply}
+
+/* price as an editorial statement, not a table */
+.pricebar{display:grid;grid-template-columns:auto 1fr;gap:60px;align-items:center;padding:44px 0;border-bottom:1px solid var(--line)}
+.bigprice{font-family:var(--serif);font-weight:600;font-size:64px;line-height:1;letter-spacing:-.02em}
+.bigprice small{display:block;font-family:var(--sans);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+.stockists{display:flex;flex-wrap:wrap;gap:10px 28px;font-size:14px}
+.stockist{display:flex;align-items:baseline;gap:10px;padding:6px 0}
+.stockist b{font-family:var(--serif);font-weight:600;font-size:17px}
+.stockist span{color:var(--faint)}
+.stockist.best b{color:var(--wine)}
+
+/* body: two columns */
+.article{display:grid;grid-template-columns:1fr 300px;gap:70px;padding:64px 0}
+h2.sec{font-family:var(--serif);font-weight:600;font-size:32px;letter-spacing:-.02em;margin-bottom:8px}
+.sec-sub{color:var(--faint);font-size:13px;margin-bottom:28px}
+.block{margin-bottom:56px}
+
+/* notes as an editorial numbered list */
+.note-line{display:grid;grid-template-columns:44px 1fr;gap:20px;padding:18px 0;border-top:1px solid var(--line);align-items:baseline}
+.note-line .i{font-family:var(--serif);font-size:15px;color:var(--wine)}
+.note-line .t{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);display:block;margin-bottom:4px}
+.note-line .v{font-family:var(--serif);font-size:23px;font-weight:400}
+
+blockquote{border-left:3px solid var(--wine);padding-left:24px;margin:34px 0;font-family:var(--serif);font-style:italic;font-size:22px;line-height:1.5}
+.verdict{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:26px}
+.verdict h4{font-size:11px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:12px}
+.verdict ul{list-style:none;font-size:14px;color:var(--soft)}
+.verdict li{padding:6px 0;border-bottom:1px dotted var(--line)}
+
+/* sidebar */
+aside .card{border:1px solid var(--line);padding:24px;margin-bottom:22px;background:var(--cream)}
+aside h3{font-family:var(--serif);font-weight:600;font-size:19px;margin-bottom:16px}
+.meter{margin-bottom:14px;font-size:13px}
+.meter .row{display:flex;justify-content:space-between;margin-bottom:5px}
+.meter .tr{height:4px;background:#DCD4C2}
+.meter .tr i{display:block;height:100%;background:var(--wine)}
+
+.alt-card{border:2px solid var(--ink);padding:22px;display:flex;gap:16px;align-items:center}
+.alt-card img{width:60px;height:76px;object-fit:contain;mix-blend-mode:multiply}
+.alt-card b{font-family:var(--serif);font-size:18px;display:block}
+.alt-card .pr{font-family:var(--serif);font-size:22px;color:var(--wine)}
+
+.voices{border-top:2px solid var(--ink);padding-top:40px}
+.voice{padding:22px 0;border-bottom:1px solid var(--line)}
+.voice q{font-family:var(--serif);font-size:19px;font-style:italic;display:block;margin-bottom:8px;line-height:1.5}
+.voice .who{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+
+footer{border-top:2px solid var(--ink);padding:40px 0;font-size:12px;color:var(--faint);display:flex;justify-content:space-between}
+
+@media(max-width:900px){
+  .wrap{padding:0 20px}
+  .mast nav{display:none}
+  .open{grid-template-columns:1fr;gap:26px}
+  .open-img{order:-1;aspect-ratio:4/3}
+  .pricebar{grid-template-columns:1fr;gap:22px}
+  .article{grid-template-columns:1fr;gap:40px;padding:40px 0}
+  .verdict{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="mast"><div class="wrap mast-in">
+  <span class="logo">AURA</span>
+  <nav><a href="#">Koleksiyon</a><a href="#">Karşılaştırma</a><a href="#">Günlük</a></nav>
+</div></div>
+
+<div class="wrap">
+  <p class="crumb"><a href="#">Erkek</a> / <a href="#">EDP</a> / <a href="#">Jean Paul Gaultier</a> / Le Male In Blue</p>
+
+  <div class="open">
+    <div>
+      <span class="brandline">Jean Paul Gaultier</span>
+      <h1>Le Male<br>In Blue</h1>
+      <div class="chips">
+        <span class="chip fam">Ferah</span>
+        <span class="chip">EDP</span>
+        <span class="chip">75 ml</span>
+        <span class="chip">2024</span>
+      </div>
+      <p class="standfirst">Nane ve deniz notalarının serinliği, lavanta ve amberin klasik Gaultier imzasıyla buluşuyor.</p>
+    </div>
+    <div class="open-img">
+      <img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/8/4/8435415114356_1.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="pricebar">
+    <div class="bigprice"><small>En uygun</small>₺5.023</div>
+    <div class="stockists">
+      <span class="stockist best"><b>₺5.023</b><span>Trendyol</span></span>
+      <span class="stockist"><b>₺5.290</b><span>Sevil</span></span>
+      <span class="stockist"><b>₺5.796</b><span>Boyner</span></span>
+      <span class="stockist"><b>₺5.996</b><span>Sephora</span></span>
+    </div>
+  </div>
+
+  <div class="article">
+    <main>
+      <div class="block">
+        <h2 class="sec">Notalar</h2>
+        <p class="sec-sub">Ciltte açılış sırasına göre</p>
+        <div class="note-line"><span class="i">01</span><span><span class="t">Üst</span><span class="v">Bergamot, nane, deniz notaları</span></span></div>
+        <div class="note-line"><span class="i">02</span><span><span class="t">Orta</span><span class="v">Lavanta, adaçayı</span></span></div>
+        <div class="note-line"><span class="i">03</span><span><span class="t">Alt</span><span class="v">Amber, sedir, vetiver</span></span></div>
+      </div>
+
+      <div class="block">
+        <h2 class="sec">Hüküm</h2>
+        <p class="sec-sub">5 kullanıcı değerlendirmesinden derlendi</p>
+        <blockquote>“Her mevsim kullanılabilecek çok yönlü bir parfüm; kalıcılığı sekiz saati geçiyor.”</blockquote>
+        <div class="verdict">
+          <div>
+            <h4 style="color:var(--wine)">Beğenilen</h4>
+            <ul><li>Sekiz saati aşan kalıcılık</li><li>Fark edilir ama boğmayan yayılım</li><li>Tazeleyici açılış</li></ul>
+          </div>
+          <div>
+            <h4 style="color:var(--faint)">Eleştirilen</h4>
+            <ul><li>Fiyatı sık zamlanıyor</li><li>Sıcakta ilk sıkışta ağır gelebiliyor</li></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="voices">
+        <h2 class="sec" style="margin-bottom:24px">Ne diyorlar</h2>
+        <div class="voice"><q>Çok güzel ve kalıcı bir koku, özellikle üst notalardaki bergamot tazeliğini çok hissettiriyor.</q><span class="who">Burak Aksoy · 4 Temmuz</span></div>
+        <div class="voice"><q>İlk sıktığımda biraz ağır geldi ama bir saat sonra oturan dip notalar harika bir odunsu kokuya dönüştü.</q><span class="who">Elif Şahin · 28 Haziran</span></div>
+        <div class="voice"><q>Biraz fazla yaygınlaştı ama kalitesi tartışılmaz. Tam bir klasik.</q><span class="who">Can Kaya · 22 Temmuz</span></div>
+      </div>
+    </main>
+
+    <aside>
+      <div class="card">
+        <h3>Karakter</h3>
+        <div class="meter"><div class="row"><span>Kalıcılık</span><span>8 sa</span></div><div class="tr"><i style="width:78%"></i></div></div>
+        <div class="meter"><div class="row"><span>Yayılım</span><span>Orta</span></div><div class="tr"><i style="width:62%"></i></div></div>
+        <div class="meter"><div class="row"><span>Yaz</span><span>%86</span></div><div class="tr"><i style="width:86%"></i></div></div>
+        <div class="meter"><div class="row"><span>Kış</span><span>%34</span></div><div class="tr"><i style="width:34%"></i></div></div>
+      </div>
+
+      <span class="kicker">Muadil</span>
+      <div class="alt-card" style="margin-top:10px">
+        <img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/8/4/8435415114356_1.jpg" alt="">
+        <div>
+          <b>Bargello 107</b>
+          <span style="font-size:12px;color:var(--faint)">%87 benzerlik</span>
+          <div class="pr">₺460</div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<div class="wrap"><footer><span>© 2026 AURA</span><span>Bağımsız koku rehberi</span></footer></div>
+
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>C · Gece — Anasayfa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0B0B0C; --panel:#121213; --raise:#18181A;
+  --text:#EDE9E1; --soft:#9C968A; --faint:#6C675E;
+  --gold:#C9A227; --gold-soft:#E0C374;
+  --line:rgba(233,227,215,.10);
+  --display:"Marcellus",Georgia,serif; --sans:"Jost",-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:300;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{max-width:1220px;margin:0 auto;padding:0 38px}
+.label{font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
+
+header{position:sticky;top:0;z-index:20;background:rgba(11,11,12,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+.logo{font-family:var(--display);font-size:24px;letter-spacing:.24em;text-transform:uppercase}
+.logo b{color:var(--gold);font-weight:400}
+nav{display:flex;gap:36px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft)}
+nav a:hover{color:var(--gold-soft)}
+
+/* cinematic hero */
+.hero{position:relative;min-height:78vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:40px;padding:70px 0 90px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:-20% -10% auto auto;width:640px;height:640px;border-radius:50%;
+  background:radial-gradient(circle,rgba(201,162,39,.16),transparent 66%);filter:blur(30px);pointer-events:none}
+.hero h1{font-family:var(--display);font-size:clamp(44px,6.2vw,80px);line-height:1.08;letter-spacing:.01em;margin:22px 0 26px}
+.hero h1 span{color:var(--gold-soft)}
+.hero p{color:var(--soft);max-width:40ch;margin-bottom:36px;font-size:15px}
+.btn{display:inline-block;padding:15px 40px;border:1px solid var(--gold);color:var(--gold-soft);font-size:11px;letter-spacing:.22em;text-transform:uppercase;transition:.3s}
+.btn:hover{background:var(--gold);color:#0B0B0C}
+.hero-stage{position:relative;display:grid;place-items:center;min-height:420px}
+.hero-stage::after{content:"";position:absolute;bottom:8%;width:58%;height:26px;border-radius:50%;background:rgba(0,0,0,.6);filter:blur(22px)}
+/* Ürün fotoğrafları beyaz zeminli; koyu temada bilinçli "plaka" gibi sunuluyor. */
+.hero-stage img{max-height:430px;width:auto;position:relative;z-index:2;
+  background:#fff;border-radius:10px;padding:18px;
+  box-shadow:0 24px 50px rgba(0,0,0,.75), 0 0 70px rgba(201,162,39,.14)}
+
+.divider{height:1px;background:linear-gradient(90deg,transparent,var(--line),transparent)}
+
+section{padding:96px 0}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:48px}
+.sec-head h2{font-family:var(--display);font-size:36px;letter-spacing:.02em;margin-top:12px}
+.more{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+
+.rail{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(250px,1fr);gap:26px;overflow-x:auto;padding-bottom:14px;scroll-snap-type:x mandatory}
+.rail::-webkit-scrollbar{height:2px}
+.rail::-webkit-scrollbar-thumb{background:var(--line)}
+.tile{scroll-snap-align:start;background:var(--panel);border:1px solid var(--line);padding:28px 24px 24px;transition:.35s;position:relative;overflow:hidden}
+.tile:hover{border-color:rgba(201,162,39,.4);transform:translateY(-4px)}
+.tile .shot{height:190px;display:grid;place-items:center;margin-bottom:22px;
+  background:#fff;border-radius:8px;padding:16px}
+.tile .shot img{max-height:100%;width:auto}
+.tile .fam{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(201,162,39,.35);padding:3px 8px;display:inline-block;margin-bottom:12px}
+.tile .br{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint)}
+.tile h3{font-family:var(--display);font-size:21px;margin:6px 0 14px}
+.tile .row{display:flex;align-items:baseline;justify-content:space-between;padding-top:14px;border-top:1px solid var(--line)}
+.tile .pr{font-family:var(--display);font-size:20px;color:var(--gold-soft)}
+.tile .rt{font-size:11px;color:var(--faint)}
+
+/* duel band */
+.duel-band{background:var(--panel);border-block:1px solid var(--line);padding:90px 0}
+.duel{display:grid;grid-template-columns:1fr 150px 1fr;align-items:center;gap:24px;max-width:900px;margin:0 auto}
+.duel .c{text-align:center}
+.duel .c img{height:230px;width:auto;margin:0 auto 22px;
+  background:#fff;border-radius:8px;padding:14px;box-shadow:0 18px 36px rgba(0,0,0,.7)}
+.duel .c h4{font-family:var(--display);font-size:22px}
+.duel .c .m{color:var(--faint);font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin-top:8px}
+.duel .c .p{font-family:var(--display);font-size:26px;color:var(--gold-soft);margin-top:10px}
+.ring{width:118px;height:118px;margin:0 auto;border-radius:50%;border:1px solid rgba(201,162,39,.4);display:grid;place-items:center;
+  background:radial-gradient(circle,rgba(201,162,39,.12),transparent 70%)}
+.ring b{font-family:var(--display);font-size:30px;color:var(--gold);font-weight:400}
+.ring small{display:block;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);text-align:center}
+
+.jr-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:34px}
+.jr img{aspect-ratio:3/2;object-fit:cover;margin-bottom:18px;opacity:.86;transition:.35s}
+.jr:hover img{opacity:1}
+.jr h3{font-family:var(--display);font-size:21px;line-height:1.35;margin:10px 0 8px}
+.jr p{color:var(--soft);font-size:13px}
+
+footer{border-top:1px solid var(--line);padding:56px 0 40px}
+.ft{display:flex;justify-content:space-between;flex-wrap:wrap;gap:24px;color:var(--faint);font-size:12px}
+
+@media(max-width:900px){
+  .wrap{padding:0 20px}
+  nav{display:none}
+  .hero{grid-template-columns:1fr;min-height:auto;padding:44px 0}
+  .hero-stage{order:-1;min-height:300px}
+  .hero-stage img{max-height:280px}
+  .duel{grid-template-columns:1fr;gap:34px}
+  .jr-grid{grid-template-columns:1fr}
+  section{padding:60px 0}
+}
+</style>
+</head>
+<body>
+
+<header><div class="wrap hd">
+  <span class="logo">Aura<b>·</b></span>
+  <nav><a href="#">Koleksiyon</a><a href="#">Karşılaştır</a><a href="#">Muadiller</a><a href="#">Günlük</a></nav>
+  <span class="label">Ara</span>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <div>
+      <span class="label">Bağımsız koku rehberi</span>
+      <h1>Karanlıkta<br>tanınan <span>iz</span></h1>
+      <p>Notaları, koku ailesini ve fiyatı yan yana koyuyoruz. Gecenin hangi kokuya ait olduğuna siz karar verin.</p>
+      <a class="btn" href="#">Koleksiyonu keşfet</a>
+    </div>
+    <div class="hero-stage">
+      <img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/3/3/3348901755504.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<section class="wrap">
+  <div class="sec-head">
+    <div><span class="label">Seçki</span><h2>Öne çıkanlar</h2></div>
+    <a class="more" href="#">Tümü →</a>
+  </div>
+  <div class="rail">
+    <a class="tile" href="#">
+      <span class="shot"><img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/8/4/8435415114356_1.jpg" alt=""></span>
+      <span class="fam">Ferah</span>
+      <div class="br">Jean Paul Gaultier</div>
+      <h3>Le Male In Blue</h3>
+      <div class="row"><span class="pr">₺5.023</span><span class="rt">★ 4.4</span></div>
+    </a>
+    <a class="tile" href="#">
+      <span class="shot"><img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/1/0/10778612465694_1.jpg" alt=""></span>
+      <span class="fam">Oryantal</span>
+      <div class="br">Carolina Herrera</div>
+      <h3>Good Girl Jasmine</h3>
+      <div class="row"><span class="pr">₺8.216</span><span class="rt">★ 4.6</span></div>
+    </a>
+    <a class="tile" href="#">
+      <span class="shot"><img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/p/r/prada_26_lr_carbon_edp_100ml_functional_packshot_bottle_single_three_quarter-shadow_3614274490237_1_.jpg" alt=""></span>
+      <span class="fam">Odunsu</span>
+      <div class="br">Prada</div>
+      <h3>Luna Rossa Carbon</h3>
+      <div class="row"><span class="pr">₺10.600</span><span class="rt">★ 4.7</span></div>
+    </a>
+    <a class="tile" href="#">
+      <span class="shot"><img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/8/4/8411061124840_1.jpg" alt=""></span>
+      <span class="fam">Aromatik</span>
+      <div class="br">Carolina Herrera</div>
+      <h3>Bad Boy Cobalt</h3>
+      <div class="row"><span class="pr">₺7.863</span><span class="rt">★ 4.5</span></div>
+    </a>
+  </div>
+</section>
+
+<div class="duel-band"><div class="wrap">
+  <div style="text-align:center;margin-bottom:52px">
+    <span class="label">Yan yana</span>
+    <h2 style="font-family:var(--display);font-size:36px;margin-top:12px">Aynı iz, farklı bedel</h2>
+  </div>
+  <div class="duel">
+    <div class="c">
+      <img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/3/6/3614274643855_1.png" alt="">
+      <h4>Privé Orange Méditerranée</h4>
+      <div class="m">Giorgio Armani · 100 ml</div>
+      <div class="p">₺15.287</div>
+    </div>
+    <div class="ring"><div><b>%90</b><small>uyum</small></div></div>
+    <div class="c">
+      <img src="https://www.sevil.com.tr/media/catalog/product/cache/2a6b0744b87cbe1990f7a65c1fd3659e/3/6/3614274643855_1.png" alt="" style="filter:drop-shadow(0 18px 36px rgba(0,0,0,.8)) grayscale(.4)">
+      <h4>Bargello Alternatifi</h4>
+      <div class="m">Bargello · 50 ml</div>
+      <div class="p">₺500</div>
+    </div>
+  </div>
+</div></div>
+
+<section class="wrap">
+  <div class="sec-head">
+    <div><span class="label">Günlük</span><h2>Koku üzerine</h2></div>
+    <a class="more" href="#">Tüm yazılar →</a>
+  </div>
+  <div class="jr-grid">
+    <a class="jr" href="#">
+      <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80&w=700" alt="">
+      <span class="label">Rehber</span>
+      <h3>Koku piramidi nasıl okunur?</h3>
+      <p>Üst, orta ve alt notaların zaman içindeki yolculuğu.</p>
+    </a>
+    <a class="jr" href="#">
+      <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=700" alt="">
+      <span class="label">İpucu</span>
+      <h3>Kalıcılığı artırmanın yolları</h3>
+      <p>Nemli cilt, nabız noktaları ve doğru konsantrasyon.</p>
+    </a>
+    <a class="jr" href="#">
+      <img src="https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&q=80&w=700" alt="">
+      <span class="label">İnceleme</span>
+      <h3>Muadil gerçekten yakın mı?</h3>
+      <p>Kör testte ayırt edebildiklerimiz.</p>
+    </a>
+  </div>
+</section>
+
+<footer><div class="wrap ft">
+  <span class="logo" style="font-size:18px">Aura<b>·</b></span>
+  <span>© 2026 · Bağımsız koku rehberi</span>
+</div></footer>
+
+</body>
+</html>
