@@ -1,3 +1,14 @@
+"""
+Fragrantica TR üzerindeki belirli bir markanın (örn: Afnan, Dior) parfümlerini ve detay verilerini (notalar, oylar, görseller vb.) çeker.
+Çekilen her parfümü markanın kendi klasörüne (scrape_files/perfumes/<brand>/) tekil JSON dosyası olarak kaydeder ve işlem sonunda bir sonuç raporu (report.txt) üretir.
+
+Kullanım:
+    python scripts/scrape_perfumes.py <brand_name> [max_perfumes]
+Örnek:
+    python scripts/scrape_perfumes.py afnan
+    python scripts/scrape_perfumes.py dior 10
+"""
+
 import sys
 import os
 import json
@@ -23,18 +34,27 @@ def parse_perfume_page(page, perfume_url):
         const bodyText = document.body.innerText;
 
         // 1. Name & Target (For who)
-        const h1Text = document.querySelector('h1')?.innerText.trim() || '';
+        const h1El = document.querySelector('#toptop h1[itemprop="name"]') || document.querySelector('h1[itemprop="name"]') || document.querySelector('h1');
+        let perfumeName = '';
         let targetGender = '';
-        if (h1Text.includes('erkekler için')) targetGender = 'erkekler için';
-        else if (h1Text.includes('kadınlar için')) targetGender = 'kadınlar için';
-        else if (h1Text.includes('kadınlar ve erkekler için')) targetGender = 'kadınlar ve erkekler için';
-        else if (h1Text.includes('unisex')) targetGender = 'unisex';
 
-        // Clean perfume title
-        let perfumeName = h1Text;
-        for (let target of ['erkekler için', 'kadınlar için', 'kadınlar ve erkekler için', 'unisex']) {
-            if (perfumeName.includes(target)) {
-                perfumeName = perfumeName.replace(target, '').trim();
+        if (h1El) {
+            const spanEl = h1El.querySelector('span');
+            if (spanEl) {
+                targetGender = spanEl.innerText.trim();
+                const clone = h1El.cloneNode(true);
+                const cloneSpan = clone.querySelector('span');
+                if (cloneSpan) cloneSpan.remove();
+                perfumeName = clone.innerText.trim();
+            } else {
+                perfumeName = h1El.innerText.trim();
+                for (let target of ['kadınlar ve erkekler için', 'kadınlar için', 'erkekler için', 'unisex']) {
+                    if (perfumeName.includes(target)) {
+                        targetGender = target;
+                        perfumeName = perfumeName.replace(target, '').trim();
+                        break;
+                    }
+                }
             }
         }
 
@@ -229,6 +249,7 @@ def parse_perfume_page(page, perfume_url):
             name: perfumeName,
             targetGender: targetGender,
             image: image,
+            description: description,
             mainAccords: mainAccords,
             rating: {
                 score: scoreStr,
@@ -236,7 +257,6 @@ def parse_perfume_page(page, perfume_url):
                 breakdown: ratingBreakdown
             },
             seasons: seasonBreakdown,
-            description: description,
             notes: {
                 top: topNotes,
                 middle: middleNotes,
@@ -287,11 +307,14 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
         perfumes_list = perfumes_list[:max_perfumes]
         print(f"Limiting to first {max_perfumes} perfumes")
 
-    # Output directory for this brand's perfumes
+    # Output directory for this brand's perfumes (ensures directory exists)
     out_dir = os.path.join("scrape_files/perfumes", slug)
     os.makedirs(out_dir, exist_ok=True)
 
-    results = []
+    total_count = len(perfumes_list)
+    successful_count = 0
+    failed_list = []
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
@@ -301,6 +324,7 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
 
         for idx, item in enumerate(perfumes_list, 1):
             url = item.get("url", "")
+            item_name = item.get("name") or url
             # Ensure Turkish URL (.tr)
             tr_url = url.replace("www.fragrantica.com", "www.fragrantica.tr")
             if "/perfume/" in tr_url:
@@ -314,25 +338,51 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
             try:
                 p_data = parse_perfume_page(page, tr_url)
                 if p_data:
-                    p_data["url"] = tr_url
-                    p_data["brand"] = brand_data.get("title", brand_identifier)
+                    brand_name = brand_data.get("title", brand_identifier)
+                    ordered_data = {
+                        "name": p_data.get("name"),
+                        "targetGender": p_data.get("targetGender"),
+                        "image": p_data.get("image"),
+                        "url": tr_url,
+                        "brand": brand_name,
+                        "description": p_data.get("description"),
+                        "mainAccords": p_data.get("mainAccords"),
+                        "rating": p_data.get("rating"),
+                        "seasons": p_data.get("seasons"),
+                        "notes": p_data.get("notes"),
+                        "longevity": p_data.get("longevity"),
+                        "sillage": p_data.get("sillage"),
+                        "genderVoting": p_data.get("genderVoting"),
+                        "priceVoting": p_data.get("priceVoting"),
+                        "remindsMeOf": p_data.get("remindsMeOf"),
+                        "peopleAlsoLike": p_data.get("peopleAlsoLike")
+                    }
                     with open(out_file, "w", encoding="utf-8") as out_f:
-                        json.dump(p_data, out_f, ensure_ascii=False, indent=2)
-                    print(f"  --> Saved: {p_data['name']} ({p_data['rating']['score']}/5 score, {len(p_data['mainAccords'])} accords) to {out_file}")
-                    results.append(p_data)
+                        json.dump(ordered_data, out_f, ensure_ascii=False, indent=2)
+                    print(f"  --> Saved: {ordered_data['name']} ({ordered_data['rating']['score']}/5 score, {len(ordered_data['mainAccords'])} accords) to {out_file}")
+                    successful_count += 1
+                else:
+                    failed_list.append(item_name)
             except Exception as e:
                 print(f"  --> Failed to scrape {tr_url}: {e}")
+                failed_list.append(item_name)
 
             time.sleep(delay)
 
         browser.close()
 
-    # Save consolidated all_perfumes file for this brand
-    consolidated_file = os.path.join("scrape_files/perfumes", f"{slug}_all_perfumes_tr.json")
-    with open(consolidated_file, "w", encoding="utf-8") as c_out:
-        json.dump(results, c_out, ensure_ascii=False, indent=2)
+    # Create result report file inside brand folder
+    report_file = os.path.join(out_dir, "report.txt")
+    report_content = (
+        f"toplam parfüm: {total_count}\n"
+        f"çekilen parfüm: {successful_count}\n"
+        f"fail eden parfüm: {len(failed_list)}\n"
+        f"fail eden parfüm listesi: {', '.join(failed_list) if failed_list else 'Yok'}\n"
+    )
+    with open(report_file, "w", encoding="utf-8") as rf:
+        rf.write(report_content)
 
-    print(f"\nFinished brand '{brand_identifier}'! Total {len(results)} perfumes saved to {out_dir}/ and {consolidated_file}")
+    print(f"\nFinished brand '{brand_identifier}'! Total {total_count} perfumes processed. Report saved to {report_file}")
 
 if __name__ == "__main__":
     brand_arg = sys.argv[1] if len(sys.argv) > 1 else "giorgio_armani"

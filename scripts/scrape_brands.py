@@ -1,3 +1,13 @@
+"""
+Fragrantica üzerindeki marka (designer) sayfalarından markalara ait temel bilgileri ve parfüm listelerini/linklerini çeker.
+Toplanan marka verilerini ve parfüm linklerini `scrape_files/brands/` klasörüne JSON formatında kaydeder.
+
+Kullanım:
+    python scripts/scrape_brands.py <brand_url>
+Örnek:
+    python scripts/scrape_brands.py https://www.fragrantica.com/designers/Afnan.html
+"""
+
 import sys
 import os
 import json
