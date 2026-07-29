@@ -1,0 +1,952 @@
+{
+  "title": "Lalique parfüm ve kolonya",
+  "data_source_url": "https://www.fragrantica.tr/designers/Lalique.html",
+  "country": "France",
+  "mainActivity": "Jewelry",
+  "brandWebsite": "https://us.lalique.com/",
+  "parentCompany": "Lalique Group SA",
+  "logoUrl": "https://fimgs.net/mdimg/dizajneri/o.205.jpg",
+  "localLogoPath": "scrape_files/brand_images/lalique.webp",
+  "bio": [
+    "Lalique markasının koku veri tabanımızda 104 parfümü bulunmaktadır. En eski ürün 1992 yılında, en yenisi ise 2025 yılında piyasaya sürülmüştür. Lalique parfümler parfümörlerle işbirliği içinde yapılmıştır Michel Almairac, Mylène Alran, Beatrice Piquet, Max Gavarry, Emilie Coppermann, Jean-Claude Ellena, Alexis Dadier, Raphael Haury, Bertrand Duchaufour, Alex Lee, Christine Nagel, Mathilde Bijaoui, Mylène Alran, Nathalie Lorson, Maurice Roucel, Dominique Ropion, Philippe Romano, Karine Dubreuil-Sereni, Laurent Bruyere, Richard Ibanez, Anne Flipo, Annick Menardo, Fabrice Pellegrin, Sophia Grojsman, Vincent Ricord, Clément Marx, Julien Plos, Corrine Cachen, Julie Massé, Ane Ayo, Valerie Garnuch-Mentzel, Alexandra Monet, Sidonie Lancesseur, Olivier Cresp, Gerard Anthony, Christiane Plos, Cecile Matton, Violaine Collas, Dorothée Piot, Benoist Lapouza ve Barbara Zoebelein."
+  ],
+  "totalPerfumes": 104,
+  "perfumes": [
+    {
+      "title": "Azalee",
+      "brand": "Lalique",
+      "year": "2014",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Azalee-21855.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.21855.jpg"
+    },
+    {
+      "title": "Commedia",
+      "brand": "Lalique",
+      "year": "2007",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Commedia-1841.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.1841.jpg"
+    },
+    {
+      "title": "Eau de Lalique",
+      "brand": "Lalique",
+      "year": "2003",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Eau-de-Lalique-1836.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.1836.jpg"
+    },
+    {
+      "title": "Flacon Fusion",
+      "brand": "Lalique",
+      "year": "2022",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Flacon-Fusion-93718.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.93718.jpg"
+    },
+    {
+      "title": "Fleur de Cristal",
+      "brand": "Lalique",
+      "year": "2010",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Fleur-de-Cristal-10440.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.10440.jpg"
+    },
+    {
+      "title": "Flora Bella",
+      "brand": "Lalique",
+      "year": "2005",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Flora-Bella-1838.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.1838.jpg"
+    },
+    {
+      "title": "Fortune Leaves, Crystal Edition",
+      "brand": "Lalique",
+      "year": "2025",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Fortune-Leaves-Crystal-Edition-115802.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.115802.jpg"
+    },
+    {
+      "title": "Hommage à l'Homme Eau de Toilette",
+      "brand": "Lalique",
+      "year": "2012",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Hommage-a-l-Homme-Eau-de-Toilette-13401.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.13401.jpg"
+    },
+    {
+      "title": "Hommage à L'Homme Extrait de Parfum",
+      "brand": "Lalique",
+      "year": "2011",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Hommage-a-L-Homme-Extrait-de-Parfum-74507.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.74507.jpg"
+    },
+    {
+      "title": "Hommage a l'homme Voyageur",
+      "brand": "Lalique",
+      "year": "2014",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Hommage-a-l-homme-Voyageur-21854.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.21854.jpg"
+    },
+    {
+      "title": "Hommage Alain Delon",
+      "brand": "Lalique",
+      "year": "2024",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Hommage-Alain-Delon-97669.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.97669.jpg"
+    },
+    {
+      "title": "L'Amour",
+      "brand": "Lalique",
+      "year": "2013",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/L-Amour-16931.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.16931.jpg"
+    },
+    {
+      "title": "L'Amour Crystal Extrait de Parfum",
+      "brand": "Lalique",
+      "year": "2015",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/L-Amour-Crystal-Extrait-de-Parfum-29718.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.29718.jpg"
+    },
+    {
+      "title": "Lalique Eau de Parfum Homme Limited Edition 2009",
+      "brand": "Lalique",
+      "year": "2009",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-Eau-de-Parfum-Homme-Limited-Edition-2009-4984.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.4984.jpg"
+    },
+    {
+      "title": "Lalique Le Parfum",
+      "brand": "Lalique",
+      "year": "2005",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-Le-Parfum-1840.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.1840.jpg"
+    },
+    {
+      "title": "Lalique Pour Homme",
+      "brand": "Lalique",
+      "year": "1997",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-Pour-Homme-1844.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.1844.jpg"
+    },
+    {
+      "title": "Lalique Pour Homme Equus",
+      "brand": "Lalique",
+      "year": "2001",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-Pour-Homme-Equus-2683.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.2683.jpg"
+    },
+    {
+      "title": "Lalique Pour Homme Le Faune",
+      "brand": "Lalique",
+      "year": "2000",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-Pour-Homme-Le-Faune-2684.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.2684.jpg"
+    },
+    {
+      "title": "Lalique White",
+      "brand": "Lalique",
+      "year": "2008",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-White-3785.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.3785.jpg"
+    },
+    {
+      "title": "Lalique White in Black",
+      "brand": "Lalique",
+      "year": "2021",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-White-in-Black-66242.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.66242.jpg"
+    },
+    {
+      "title": "Le Baiser",
+      "brand": "Lalique",
+      "year": "1999",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Le-Baiser-4210.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.4210.jpg"
+    },
+    {
+      "title": "Living Lalique",
+      "brand": "Lalique",
+      "year": "2015",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Living-Lalique-29816.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.29816.jpg"
+    },
+    {
+      "title": "Louxor de Lalique",
+      "brand": "Lalique",
+      "year": "2006",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Louxor-de-Lalique-1843.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.1843.jpg"
+    },
+    {
+      "title": "Ombre Noire",
+      "brand": "Lalique",
+      "year": "2017",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Ombre-Noire-48063.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.48063.jpg"
+    },
+    {
+      "title": "Perles De Lalique",
+      "brand": "Lalique",
+      "year": "2006",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Perles-De-Lalique-1833.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.1833.jpg"
+    },
+    {
+      "title": "Range Rider Lalique x James Turrell",
+      "brand": "Lalique",
+      "year": "2025",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Range-Rider-Lalique-x-James-Turrell-120748.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.120748.jpg"
+    },
+    {
+      "title": "Rеve d'Infini",
+      "brand": "Lalique",
+      "year": "2015",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Reve-d-Infini-33161.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.33161.jpg"
+    },
+    {
+      "title": "Scorpios Limited Edition 2010",
+      "brand": "Lalique",
+      "year": "2010",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Scorpios-Limited-Edition-2010-7482.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.7482.jpg"
+    },
+    {
+      "title": "Tendre Kiss",
+      "brand": "Lalique",
+      "year": "2002",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Tendre-Kiss-1837.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.1837.jpg"
+    },
+    {
+      "title": "Encre Indigo",
+      "brand": "Lalique",
+      "year": "2023",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Encre-Indigo-87291.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.87291.jpg"
+    },
+    {
+      "title": "Encre Noire",
+      "brand": "Lalique",
+      "year": "2006",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Encre-Noire-1834.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.1834.jpg"
+    },
+    {
+      "title": "Encre Noire A L'Extreme",
+      "brand": "Lalique",
+      "year": "2015",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Encre-Noire-A-L-Extreme-32356.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.32356.jpg"
+    },
+    {
+      "title": "Encre Noire Pour Elle",
+      "brand": "Lalique",
+      "year": "2009",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Encre-Noire-Pour-Elle-6615.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.6615.jpg"
+    },
+    {
+      "title": "Encre Noire Sport",
+      "brand": "Lalique",
+      "year": "2013",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Encre-Noire-Sport-21369.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.21369.jpg"
+    },
+    {
+      "title": "L'Insoumis",
+      "brand": "Lalique",
+      "year": "2016",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/L-Insoumis-39442.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.39442.jpg"
+    },
+    {
+      "title": "L'Insoumis Ma Force",
+      "brand": "Lalique",
+      "year": "2018",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/L-Insoumis-Ma-Force-50099.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.50099.jpg"
+    },
+    {
+      "title": "Amethyst",
+      "brand": "Lalique",
+      "year": "2007",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Amethyst-1835.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.1835.jpg"
+    },
+    {
+      "title": "Amethyst Eclat",
+      "brand": "Lalique",
+      "year": "2014",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Amethyst-Eclat-26247.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.26247.jpg"
+    },
+    {
+      "title": "Amethyst Exquise",
+      "brand": "Lalique",
+      "year": "2017",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Amethyst-Exquise-47844.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.47844.jpg"
+    },
+    {
+      "title": "Lalique",
+      "brand": "Lalique",
+      "year": "1992",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-2540.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.2540.jpg"
+    },
+    {
+      "title": "Lalique de Lalique 20th Anniversary Chevrefeuille Extrait de Parfum",
+      "brand": "Lalique",
+      "year": "2012",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-20th-Anniversary-Chevrefeuille-Extrait-de-Parfum-15554.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.15554.jpg"
+    },
+    {
+      "title": "Lalique de Lalique 20th Anniversary Limited Edition",
+      "brand": "Lalique",
+      "year": "2012",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-20th-Anniversary-Limited-Edition-15553.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.15553.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Anemone Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2016",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Anemone-Crystal-Flacon-35916.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.35916.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Bacchantes Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2017",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Bacchantes-Crystal-Flacon-42192.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.42192.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Butterfly Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2003",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Butterfly-Crystal-Flacon-50663.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.50663.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Cascade Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2010",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Cascade-Crystal-Flacon-7481.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.7481.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Deux Coeurs Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2004",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Deux-Coeurs-Crystal-Flacon-11589.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.11589.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Deux Paons Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2014",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Deux-Paons-Crystal-Flacon-22310.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.22310.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Empreinte Animale Crystal Edition 2023",
+      "brand": "Lalique",
+      "year": "2023",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Empreinte-Animale-Crystal-Edition-2023-81841.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.81841.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Envol Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2011",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Envol-Crystal-Flacon-10638.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.10638.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Fougères Crystal Edition 2022",
+      "brand": "Lalique",
+      "year": "2021",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Fougeres-Crystal-Edition-2022-68956.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.68956.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Hirondelles Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2020",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Hirondelles-Crystal-Flacon-62212.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.62212.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Libellule Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2013",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Libellule-Crystal-Flacon-17049.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.17049.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Naiade Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2019",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Naiade-Crystal-Flacon-50666.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.50666.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Orchidee Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2019",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Orchidee-Crystal-Flacon-55175.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.55175.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Pivoine Crystal Edition 2021",
+      "brand": "Lalique",
+      "year": "2020",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Pivoine-Crystal-Edition-2021-62908.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.62908.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Plume Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2015",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Plume-Crystal-Flacon-29719.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.29719.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Seduction Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2018",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Seduction-Crystal-Flacon-45266.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.45266.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Sheherazade Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2008",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Sheherazade-Crystal-Flacon-50664.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.50664.jpg"
+    },
+    {
+      "title": "Lalique de Lalique Sillage Crystal Flacon",
+      "brand": "Lalique",
+      "year": "2012",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-de-Lalique-Sillage-Crystal-Flacon-50665.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.50665.jpg"
+    },
+    {
+      "title": "Lalique Eau de Parfum Femme Limited Edition 2009",
+      "brand": "Lalique",
+      "year": "2009",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lalique-Eau-de-Parfum-Femme-Limited-Edition-2009-4985.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.4985.jpg"
+    },
+    {
+      "title": "Blue Rise",
+      "brand": "Lalique",
+      "year": "2019",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Blue-Rise-57340.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.57340.jpg"
+    },
+    {
+      "title": "Chypre Silver",
+      "brand": "Lalique",
+      "year": "2015",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Chypre-Silver-30359.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.30359.jpg"
+    },
+    {
+      "title": "Electric Purple",
+      "brand": "Lalique",
+      "year": "2018",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Electric-Purple-50771.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.50771.jpg"
+    },
+    {
+      "title": "Electrum",
+      "brand": "Lalique",
+      "year": "2015",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Electrum-30361.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.30361.jpg"
+    },
+    {
+      "title": "Floral Bronze",
+      "brand": "Lalique",
+      "year": "2015",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Floral-Bronze-30360.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.30360.jpg"
+    },
+    {
+      "title": "Glorious Indigo",
+      "brand": "Lalique",
+      "year": "2020",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Glorious-Indigo-62759.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.62759.jpg"
+    },
+    {
+      "title": "Imperial Green",
+      "brand": "Lalique",
+      "year": "2020",
+      "gender": "male",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Imperial-Green-62760.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.62760.jpg"
+    },
+    {
+      "title": "Infinite Shine",
+      "brand": "Lalique",
+      "year": "2019",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Infinite-Shine-57339.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.57339.jpg"
+    },
+    {
+      "title": "Leather Copper",
+      "brand": "Lalique",
+      "year": "2016",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Leather-Copper-45217.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.45217.jpg"
+    },
+    {
+      "title": "Oriental Zinc",
+      "brand": "Lalique",
+      "year": "2016",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Oriental-Zinc-42344.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.42344.jpg"
+    },
+    {
+      "title": "Pink Paradise",
+      "brand": "Lalique",
+      "year": "2018",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Pink-Paradise-51397.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.51397.jpg"
+    },
+    {
+      "title": "Spicy Electrum",
+      "brand": "Lalique",
+      "year": "2017",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Spicy-Electrum-71679.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.71679.jpg"
+    },
+    {
+      "title": "Sweet Amber",
+      "brand": "Lalique",
+      "year": "2018",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Sweet-Amber-50770.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.50770.jpg"
+    },
+    {
+      "title": "Velvet Plum",
+      "brand": "Lalique",
+      "year": "2019",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Velvet-Plum-57338.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.57338.jpg"
+    },
+    {
+      "title": "Woody Gold",
+      "brand": "Lalique",
+      "year": "2015",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Woody-Gold-30358.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.30358.jpg"
+    },
+    {
+      "title": "Woody Gold 2020",
+      "brand": "Lalique",
+      "year": "2020",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Woody-Gold-2020-62761.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.62761.jpg"
+    },
+    {
+      "title": "Zamak",
+      "brand": "Lalique",
+      "year": "2015",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Zamak-30362.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.30362.jpg"
+    },
+    {
+      "title": "Rose Nebula Crystal Edition",
+      "brand": "Lalique",
+      "year": "2024",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Rose-Nebula-Crystal-Edition-93361.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.93361.jpg"
+    },
+    {
+      "title": "Hirondelles",
+      "brand": "Lalique",
+      "year": "2018",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Hirondelles-48737.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.48737.jpg"
+    },
+    {
+      "title": "Lumière",
+      "brand": "Lalique",
+      "year": "2017",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Lumiere-45091.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.45091.jpg"
+    },
+    {
+      "title": "Sensuel",
+      "brand": "Lalique",
+      "year": "2017",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Sensuel-45090.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.45090.jpg"
+    },
+    {
+      "title": "Tendre",
+      "brand": "Lalique",
+      "year": "2017",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Tendre-45092.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.45092.jpg"
+    },
+    {
+      "title": "Claire de Nilang",
+      "brand": "Lalique",
+      "year": "1997",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Claire-de-Nilang-1839.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.1839.jpg"
+    },
+    {
+      "title": "Nilang",
+      "brand": "Lalique",
+      "year": "1995",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Nilang-6104.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.6104.jpg"
+    },
+    {
+      "title": "Nilang 2011",
+      "brand": "Lalique",
+      "year": "2011",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Nilang-2011-13545.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.13545.jpg"
+    },
+    {
+      "title": "Nilang Extrait de Parfum 2011",
+      "brand": "Lalique",
+      "year": "2011",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Nilang-Extrait-de-Parfum-2011-13546.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.13546.jpg"
+    },
+    {
+      "title": "Deux Cigales",
+      "brand": "Lalique",
+      "year": "2017",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Deux-Cigales-47035.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.47035.jpg"
+    },
+    {
+      "title": "Elegance Animale",
+      "brand": "Lalique",
+      "year": "2014",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Elegance-Animale-28253.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.28253.jpg"
+    },
+    {
+      "title": "Fleur Universelle",
+      "brand": "Lalique",
+      "year": "2014",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Fleur-Universelle-28254.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.28254.jpg"
+    },
+    {
+      "title": "Fruits du Mouvement",
+      "brand": "Lalique",
+      "year": "2014",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Fruits-du-Mouvement-28251.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.28251.jpg"
+    },
+    {
+      "title": "Illusion Captive",
+      "brand": "Lalique",
+      "year": "2017",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Illusion-Captive-46801.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.46801.jpg"
+    },
+    {
+      "title": "Or Intemporel",
+      "brand": "Lalique",
+      "year": "2015",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Or-Intemporel-35015.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.35015.jpg"
+    },
+    {
+      "title": "Plume Blanche 1901",
+      "brand": "Lalique",
+      "year": "2020",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Plume-Blanche-1901-62909.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.62909.jpg"
+    },
+    {
+      "title": "Rose Royale",
+      "brand": "Lalique",
+      "year": "2014",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Rose-Royale-28252.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.28252.jpg"
+    },
+    {
+      "title": "Sculpteur d'Epices",
+      "brand": "Lalique",
+      "year": "2014",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Sculpteur-d-Epices-28250.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.28250.jpg"
+    },
+    {
+      "title": "Terres Aromatiques",
+      "brand": "Lalique",
+      "year": "2014",
+      "gender": "unisex",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Terres-Aromatiques-28255.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.28255.jpg"
+    },
+    {
+      "title": "Satine",
+      "brand": "Lalique",
+      "year": "2013",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Satine-17840.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.17840.jpg"
+    },
+    {
+      "title": "Satine Crystal Extract de Parfum",
+      "brand": "Lalique",
+      "year": "2013",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Satine-Crystal-Extract-de-Parfum-52646.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.52646.jpg"
+    },
+    {
+      "title": "Soleil",
+      "brand": "Lalique",
+      "year": "2019",
+      "gender": "female",
+      "ratingVotesCount": "1",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Soleil-55783.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.55783.jpg"
+    },
+    {
+      "title": "Soleil Crystal Edition Extrait de Parfum",
+      "brand": "Lalique",
+      "year": "2021",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Soleil-Crystal-Edition-Extrait-de-Parfum-65608.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.65608.jpg"
+    },
+    {
+      "title": "Soleil Hair Mist",
+      "brand": "Lalique",
+      "year": "2020",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Soleil-Hair-Mist-62003.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.62003.jpg"
+    },
+    {
+      "title": "Soleil Lunar",
+      "brand": "Lalique",
+      "year": "2024",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Soleil-Lunar-96192.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.96192.jpg"
+    },
+    {
+      "title": "Soleil Vibrant",
+      "brand": "Lalique",
+      "year": "2022",
+      "gender": "female",
+      "ratingVotesCount": "",
+      "url": "https://www.fragrantica.tr/perfumes/Lalique/Soleil-Vibrant-72448.html",
+      "image": "https://fimgs.net/mdimg/perfume-thumbs/m.72448.jpg"
+    }
+  ]
+}

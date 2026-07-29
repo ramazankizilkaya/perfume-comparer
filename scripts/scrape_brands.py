@@ -357,18 +357,32 @@ def scrape_designer(designer_url):
         }""")
 
         browser.close()
-        if data and data.get("logoUrl"):
+        if data:
             brand_slug = designer_url.split('/')[-1].replace('.html', '').lower().replace('-', '_')
-            local_logo = download_and_convert_logo(data["logoUrl"], brand_slug)
-            data["localLogoPath"] = local_logo
+            local_logo = download_and_convert_logo(data.get("logoUrl", ""), brand_slug) if data.get("logoUrl") else ""
+            
+            ordered_data = {
+                "title": data.get("title", ""),
+                "data_source_url": designer_url,
+                "country": data.get("country", ""),
+                "mainActivity": data.get("mainActivity", ""),
+                "brandWebsite": data.get("brandWebsite", ""),
+                "parentCompany": data.get("parentCompany", ""),
+                "logoUrl": data.get("logoUrl", ""),
+                "localLogoPath": local_logo,
+                "bio": data.get("bio", []),
+                "totalPerfumes": data.get("totalPerfumes", 0),
+                "perfumes": data.get("perfumes", [])
+            }
+            return ordered_data
         return data
 
-def batch_scrape_brands(urls=None, delay=1):
+def batch_scrape_brands(urls=None, delay=1, max_retries=3):
     if not urls:
         urls = get_popular_designer_urls(lang="tr")
     
     os.makedirs(BRANDS_DIR, exist_ok=True)
-    print(f"Starting batch scrape for {len(urls)} brand URLs into {BRANDS_DIR}...")
+    print(f"Starting batch scrape for {len(urls)} brand URLs into {BRANDS_DIR} (max retries: {max_retries})...")
 
     success_count = 0
     skip_count = 0
@@ -385,19 +399,33 @@ def batch_scrape_brands(urls=None, delay=1):
             continue
 
         print(f"[{idx}/{len(urls)}] Scraping {url}...")
-        try:
-            result = scrape_designer(url)
-            if result:
-                with open(out_filename, "w", encoding="utf-8") as out_f:
-                    json.dump(result, out_f, ensure_ascii=False, indent=2)
-                print(f"  --> Saved: {result['title']} ({result['totalPerfumes']} perfumes) -> {out_filename}")
-                success_count += 1
-            else:
-                print(f"  --> Failed to extract data for {url}")
-                failed_brands.append({"url": url, "error": "Extract returns None/Empty"})
-        except Exception as e:
-            print(f"  --> Error for {url}: {e}")
-            failed_brands.append({"url": url, "error": str(e)})
+        
+        result = None
+        last_error = None
+
+        for attempt in range(1, max_retries + 1):
+            try:
+                result = scrape_designer(url)
+                if result:
+                    break
+                else:
+                    last_error = "Extract returns None/Empty"
+            except Exception as e:
+                last_error = str(e)
+
+            if attempt < max_retries:
+                retry_wait = attempt * 3
+                print(f"  [Attempt {attempt}/{max_retries} Failed: {last_error}] Retrying in {retry_wait}s...")
+                time.sleep(retry_wait)
+
+        if result:
+            with open(out_filename, "w", encoding="utf-8") as out_f:
+                json.dump(result, out_f, ensure_ascii=False, indent=2)
+            print(f"  --> Saved: {result['title']} ({result['totalPerfumes']} perfumes) -> {out_filename}")
+            success_count += 1
+        else:
+            print(f"  --> Failed after {max_retries} attempts for {url} ({last_error})")
+            failed_brands.append({"url": url, "error": last_error})
 
         time.sleep(delay)
 
