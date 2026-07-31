@@ -1,12 +1,15 @@
 """
-Fragrantica TR üzerindeki belirli bir markanın (örn: Afnan, Dior) parfümlerini ve detay verilerini (notalar, oylar, görseller vb.) çeker.
-Çekilen her parfümü markanın kendi klasörüne (scrape_files/perfumes/<brand>/) tekil JSON dosyası olarak kaydeder ve işlem sonunda bir sonuç raporu (report.txt) üretir.
+Fragrantica TR üzerindeki markaların parfümlerini ve detay verilerini (notalar, oylar, görseller vb.) çeker.
 
 Kullanım:
-    python scripts/scrape_perfumes.py <brand_name> [max_perfumes]
-Örnek:
-    python scripts/scrape_perfumes.py afnan
-    python scripts/scrape_perfumes.py dior 10
+    - Parametresiz çalıştırıldığında `scrape_files/brands/` altındaki TÜM markaları sırayla çeker:
+        python scripts/scrape_perfumes.py
+    
+    - Tek bir marka çekmek için:
+        python scripts/scrape_perfumes.py afnan
+    
+    - Belirli bir markadan sınırlı sayıda parfüm çekmek için (örn: afnan markasından 10 parfüm):
+        python scripts/scrape_perfumes.py afnan 10
 """
 
 import sys
@@ -14,23 +17,32 @@ import os
 import json
 import time
 import re
+import io
+import ssl
+import urllib.request
+from PIL import Image
 from playwright.sync_api import sync_playwright
 
 def parse_perfume_page(page, perfume_url):
     print(f"Navigating to {perfume_url}...")
-    response = page.goto(perfume_url, wait_until="domcontentloaded", timeout=20000)
-    if not response or response.status != 200:
-        print(f"Failed to fetch {perfume_url}: status {response.status if response else 'No response'}")
-        return None
+    try:
+        response = page.goto(perfume_url, wait_until="domcontentloaded", timeout=20000)
+        if not response:
+            return None, "Sayfa yanıtı alınamadı (No response)"
+        if response.status != 200:
+            return None, f"HTTP Status {response.status}"
+    except Exception as e:
+        return None, f"Navigasyon hatası: {e}"
 
-    page.wait_for_timeout(2500)
+    try:
+        page.wait_for_timeout(2500)
 
-    # Scroll down step-by-step to trigger lazy loading of accords, votes, pyramid, reminds section
-    for i in range(1, 12):
-        page.evaluate(f"window.scrollTo(0, {i} * document.body.scrollHeight / 12)")
-        page.wait_for_timeout(300)
+        # Scroll down step-by-step to trigger lazy loading of accords, votes, pyramid, reminds section
+        for i in range(1, 12):
+            page.evaluate(f"window.scrollTo(0, {i} * document.body.scrollHeight / 12)")
+            page.wait_for_timeout(300)
 
-    data = page.evaluate(r"""() => {
+        data = page.evaluate(r"""() => {
         const bodyText = document.body.innerText;
 
         // 1. Name & Target (For who)
@@ -63,27 +75,40 @@ def parse_perfume_page(page, perfume_url):
         const image = imgEl ? imgEl.src : '';
 
         // 3. Main Accords (Ana akortlar)
-        const accordEls = Array.from(document.querySelectorAll('div.accord-bar, div[class*="accord-bar"]'));
-        const mainAccords = accordEls.map(el => {
-            const style = el.getAttribute('style') || '';
-            const widthMatch = style.match(/width:\s*([\d\.]+%)/);
-            return {
-                name: el.innerText.trim(),
-                width: widthMatch ? widthMatch[1] : ''
-            };
-        }).filter(a => a.name.length > 0);
+        let accordsContainer = Array.from(document.querySelectorAll('div')).find(d => {
+            const text = d.innerText ? d.innerText.trim().toLowerCase() : '';
+            return text === 'ana akortlar' || text.startsWith('ana akortlar\n');
+        })?.parentElement;
 
-        if (mainAccords.length === 0) {
-            const accordsBox = Array.from(document.querySelectorAll('div')).find(d => d.innerText && d.innerText.includes('ana akortlar'));
-            if (accordsBox) {
-                const lines = accordsBox.innerText.split('\n').map(s => s.trim()).filter(Boolean);
-                const idx = lines.indexOf('ana akortlar');
-                if (idx !== -1) {
-                    for (let i = idx + 1; i < Math.min(lines.length, idx + 12); i++) {
-                        if (lines[i].includes('Akorlara göre') || lines[i].includes('Satılık')) break;
-                        mainAccords.push({ name: lines[i], width: '' });
-                    }
-                }
+        if (!accordsContainer) {
+            accordsContainer = Array.from(document.querySelectorAll('div')).find(d => d.innerText && d.innerText.includes('ana akortlar'));
+        }
+
+        let accordEls = [];
+        if (accordsContainer) {
+            accordEls = Array.from(accordsContainer.querySelectorAll('div[style*="width"]'));
+        }
+        if (accordEls.length === 0) {
+            accordEls = Array.from(document.querySelectorAll('div.accord-bar, div[class*="accord-bar"], div[style*="width"]'));
+        }
+
+        const mainAccords = [];
+        const seenAccords = new Set();
+
+        for (let el of accordEls) {
+            const name = el.innerText ? el.innerText.trim() : '';
+            let width = el.style ? el.style.width : '';
+            if (!width) {
+                const styleAttr = el.getAttribute('style') || '';
+                const match = styleAttr.match(/width:\s*([\d\.]+%)/i);
+                if (match) width = match[1];
+            }
+            if (name && !name.includes('\n') && name.toLowerCase() !== 'ana akortlar' && !seenAccords.has(name)) {
+                seenAccords.add(name);
+                mainAccords.push({
+                    name: name,
+                    width: width || ''
+                });
             }
         }
 
@@ -271,7 +296,81 @@ def parse_perfume_page(page, perfume_url):
         };
     }""")
 
-    return data
+        if not data or not data.get("name"):
+            return None, "Sayfa içeriği tam okunamadı (Parfüm adı bulunamadı)"
+        return data, None
+    except Exception as e:
+        return None, f"Ayrıştırma hatası: {e}"
+
+def is_perfume_json_valid(file_path):
+    if not os.path.exists(file_path):
+        return False
+    if os.path.getsize(file_path) < 10:
+        return False
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            d = json.load(f)
+            return bool(d and d.get("name"))
+    except Exception:
+        return False
+
+def write_report(out_dir, total_count, successful_count, failed_list):
+    report_file = os.path.join(out_dir, "report.txt")
+    failed_count = len(failed_list)
+    
+    lines = [
+        f"toplam parfüm: {total_count}",
+        f"çekilen parfüm: {successful_count}",
+        f"fail eden parfüm: {failed_count}"
+    ]
+    
+    if failed_count == 0:
+        lines.append("fail eden parfüm listesi: Yok")
+    else:
+        lines.append("fail eden parfüm listesi:")
+        for f in failed_list:
+            lines.append(f"  - {f['url']} | Ad: {f['name']} | Hata: {f['error']}")
+            
+    with open(report_file, "w", encoding="utf-8") as rf:
+        rf.write("\n".join(lines) + "\n")
+        
+    print(f"\nRapor kaydedildi: {report_file} (Toplam: {total_count}, Çekilen: {successful_count}, Fail: {failed_count})")
+
+def download_and_convert_perfume_image(img_url, out_dir, perfume_slug):
+    if not img_url:
+        return
+
+    images_dir = os.path.join(out_dir, "images")
+    os.makedirs(images_dir, exist_ok=True)
+    output_webp_path = os.path.join(images_dir, f"{perfume_slug}.webp")
+
+    # Skip if already exists and non-empty
+    if os.path.exists(output_webp_path) and os.path.getsize(output_webp_path) > 0:
+        return
+
+    try:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        }
+        ssl_context = ssl._create_unverified_context()
+        req = urllib.request.Request(img_url, headers=headers)
+        with urllib.request.urlopen(req, context=ssl_context, timeout=30) as resp:
+            image_bytes = resp.read()
+
+        img = Image.open(io.BytesIO(image_bytes))
+        if img.mode in ("RGBA", "LA", "P"):
+            background = Image.new("RGB", img.size, (255, 255, 255))
+            if img.mode == "P":
+                img = img.convert("RGBA")
+            background.paste(img, mask=img.split()[-1] if img.mode == "RGBA" else None)
+            img = background
+        elif img.mode != "RGB":
+            img = img.convert("RGB")
+
+        img.save(output_webp_path, "WEBP", quality=85, optimize=True)
+        print(f"  --> Saved webp image: {output_webp_path}")
+    except Exception as e:
+        print(f"  --> Failed to download image ({img_url}): {e}")
 
 def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
     """
@@ -301,19 +400,57 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
         brand_data = json.load(f)
 
     perfumes_list = brand_data.get("perfumes", [])
-    print(f"Found {len(perfumes_list)} perfumes for brand '{brand_data.get('title', brand_identifier)}'")
-
     if max_perfumes:
         perfumes_list = perfumes_list[:max_perfumes]
-        print(f"Limiting to first {max_perfumes} perfumes")
-
-    # Output directory for this brand's perfumes (ensures directory exists)
-    out_dir = os.path.join("scrape_files/perfumes", slug)
-    os.makedirs(out_dir, exist_ok=True)
 
     total_count = len(perfumes_list)
-    successful_count = 0
-    failed_list = []
+    out_dir = os.path.join("scrape_files/perfumes", slug)
+    report_file = os.path.join(out_dir, "report.txt")
+
+    # Map each item in perfumes_list to its expected output file and urls
+    items_info = []
+    for item in perfumes_list:
+        url = item.get("url", "")
+        item_name = item.get("name") or url
+        tr_url = url.replace("www.fragrantica.com", "www.fragrantica.tr")
+        if "/perfume/" in tr_url:
+            tr_url = tr_url.replace("/perfume/", "/perfumes/")
+
+        perfume_slug = tr_url.split("/")[-1].replace(".html", "").lower().replace("-", "_")
+        out_file = os.path.join(out_dir, f"{perfume_slug}.json")
+        items_info.append({
+            "item_name": item_name,
+            "tr_url": tr_url,
+            "perfume_slug": perfume_slug,
+            "out_file": out_file
+        })
+
+    saved_items = [i for i in items_info if is_perfume_json_valid(i["out_file"])]
+    to_scrape_items = [i for i in items_info if not is_perfume_json_valid(i["out_file"])]
+
+    # Skip brand if report exists and all items are saved with 0 failures
+    if os.path.exists(report_file):
+        try:
+            with open(report_file, "r", encoding="utf-8") as rf:
+                rep_text = rf.read()
+            if "fail eden parfüm: 0" in rep_text and len(saved_items) == total_count:
+                print(f"[SKIP] Marka '{brand_identifier}' zaten eksiksiz tamamlanmış ({total_count}/{total_count} parfüm). Atlanıyor.")
+                return
+        except Exception:
+            pass
+
+    if len(to_scrape_items) == 0:
+        print(f"[SKIP] Marka '{brand_identifier}' için tüm {total_count} parfüm JSON'ları zaten kayıtlı. Rapor güncelleniyor...")
+        write_report(out_dir, total_count, len(saved_items), [])
+        return
+
+    print(f"\n==================================================")
+    print(f"Marka: {brand_data.get('title', brand_identifier)}")
+    print(f"Toplam Parfüm: {total_count} | Zaten Kayıtlı: {len(saved_items)} | Çekilecek: {len(to_scrape_items)}")
+    print(f"==================================================")
+
+    os.makedirs(out_dir, exist_ok=True)
+    failed_details = {}  # tr_url -> {"name": item_name, "error": error_str}
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -322,21 +459,15 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
         )
         page = context.new_page()
 
-        for idx, item in enumerate(perfumes_list, 1):
-            url = item.get("url", "")
-            item_name = item.get("name") or url
-            # Ensure Turkish URL (.tr)
-            tr_url = url.replace("www.fragrantica.com", "www.fragrantica.tr")
-            if "/perfume/" in tr_url:
-                tr_url = tr_url.replace("/perfume/", "/perfumes/")
+        for idx, i_info in enumerate(to_scrape_items, 1):
+            tr_url = i_info["tr_url"]
+            perfume_slug = i_info["perfume_slug"]
+            out_file = i_info["out_file"]
+            item_name = i_info["item_name"]
 
-            perfume_slug = tr_url.split("/")[-1].replace(".html", "").lower().replace("-", "_")
-            out_file = os.path.join(out_dir, f"{perfume_slug}.json")
-
-            # Force re-fetch or use cache
-            print(f"\n[{idx}/{len(perfumes_list)}] Scraping perfume: {tr_url}")
+            print(f"\n[{idx}/{len(to_scrape_items)}] Scraping perfume: {tr_url}")
             try:
-                p_data = parse_perfume_page(page, tr_url)
+                p_data, error_reason = parse_perfume_page(page, tr_url)
                 if p_data:
                     brand_name = brand_data.get("title", brand_identifier)
                     ordered_data = {
@@ -360,31 +491,73 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
                     with open(out_file, "w", encoding="utf-8") as out_f:
                         json.dump(ordered_data, out_f, ensure_ascii=False, indent=2)
                     print(f"  --> Saved: {ordered_data['name']} ({ordered_data['rating']['score']}/5 score, {len(ordered_data['mainAccords'])} accords) to {out_file}")
-                    successful_count += 1
+
+                    if p_data.get("image"):
+                        download_and_convert_perfume_image(p_data.get("image"), out_dir, perfume_slug)
                 else:
-                    failed_list.append(item_name)
+                    failed_details[tr_url] = {
+                        "name": item_name,
+                        "error": error_reason or "Bilinmeyen hata"
+                    }
+                    print(f"  --> HATA: {tr_url} - {error_reason}")
             except Exception as e:
-                print(f"  --> Failed to scrape {tr_url}: {e}")
-                failed_list.append(item_name)
+                failed_details[tr_url] = {
+                    "name": item_name,
+                    "error": str(e)
+                }
+                print(f"  --> HATA: {tr_url} - {e}")
 
             time.sleep(delay)
 
         browser.close()
 
-    # Create result report file inside brand folder
-    report_file = os.path.join(out_dir, "report.txt")
-    report_content = (
-        f"toplam parfüm: {total_count}\n"
-        f"çekilen parfüm: {successful_count}\n"
-        f"fail eden parfüm: {len(failed_list)}\n"
-        f"fail eden parfüm listesi: {', '.join(failed_list) if failed_list else 'Yok'}\n"
-    )
-    with open(report_file, "w", encoding="utf-8") as rf:
-        rf.write(report_content)
+    # Re-evaluate saved items and failed details
+    final_saved = [i for i in items_info if is_perfume_json_valid(i["out_file"])]
+    
+    # Collect all failed items (failed during this run or still missing)
+    all_failed_list = []
+    for i in items_info:
+        if not is_perfume_json_valid(i["out_file"]):
+            err_info = failed_details.get(i["tr_url"], {"name": i["item_name"], "error": "Çekilemedi / Eksik"})
+            all_failed_list.append({
+                "url": i["tr_url"],
+                "name": err_info["name"],
+                "error": err_info["error"]
+            })
 
-    print(f"\nFinished brand '{brand_identifier}'! Total {total_count} perfumes processed. Report saved to {report_file}")
+    write_report(out_dir, total_count, len(final_saved), all_failed_list)
+
+def scrape_all_brands(max_perfumes=None, delay=1.5):
+    """
+    scrape_files/brands/ klasöründeki tüm marka JSON dosyalarını tarar
+    ve her marka için sırayla parfümleri çeker.
+    """
+    brands_dir = "scrape_files/brands"
+    if not os.path.exists(brands_dir):
+        print(f"Hata: '{brands_dir}' klasörü bulunamadı.")
+        return
+
+    brand_files = sorted([f for f in os.listdir(brands_dir) if f.endswith(".json")])
+    print(f"'{brands_dir}' klasöründe {len(brand_files)} marka dosyası bulundu. Tüm markalar sırayla çekiliyor...\n")
+
+    for idx, b_file in enumerate(brand_files, 1):
+        brand_slug = b_file.replace("_fragrantica_tr.json", "").replace("_fragrantica.json", "")
+        print(f"\n==================================================")
+        print(f"[{idx}/{len(brand_files)}] Marka kontrol ediliyor: {b_file}")
+        print(f"==================================================")
+        try:
+            scrape_brand_perfumes(brand_slug, max_perfumes=max_perfumes, delay=delay)
+        except Exception as e:
+            print(f"Marka '{brand_slug}' çekilirken hata oluştu: {e}")
 
 if __name__ == "__main__":
-    brand_arg = sys.argv[1] if len(sys.argv) > 1 else "giorgio_armani"
-    limit_arg = int(sys.argv[2]) if len(sys.argv) > 2 else None
-    scrape_brand_perfumes(brand_arg, max_perfumes=limit_arg)
+    # Hiç parametre verilmezse veya --all verilirse TÜM markaları sırayla çeker!
+    if len(sys.argv) == 1 or sys.argv[1] == "--all":
+        limit_arg = int(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[2].isdigit() else (int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else None)
+        print("Parametre girilmedi veya --all seçildi. Tüm markalar sırayla çekiliyor...")
+        scrape_all_brands(max_perfumes=limit_arg)
+    else:
+        brand_arg = sys.argv[1]
+        limit_arg = int(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[2].isdigit() else None
+        scrape_brand_perfumes(brand_arg, max_perfumes=limit_arg)
+
