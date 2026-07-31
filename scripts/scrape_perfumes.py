@@ -16,12 +16,16 @@ import sys
 import os
 import json
 import time
+import random
 import re
 import io
 import ssl
 import urllib.request
 from PIL import Image
 from playwright.sync_api import sync_playwright
+
+class IPBlockedException(Exception):
+    pass
 
 def parse_perfume_page(page, perfume_url):
     print(f"Navigating to {perfume_url}...")
@@ -372,21 +376,18 @@ def download_and_convert_perfume_image(img_url, out_dir, perfume_slug):
     except Exception as e:
         print(f"  --> Failed to download image ({img_url}): {e}")
 
-def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
+def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=2.0):
     """
     Given a brand name or slug (e.g. 'giorgio_armani' or 'Xerjoff' or 'dior'),
     loads the brand JSON file, loops through its perfumes, and scrapes each detail page.
     """
-    # Standardize brand filename search
     slug = brand_identifier.lower().replace(" ", "_").replace("-", "_")
 
-    # Look for matching file in scrape_files/brands/
     brand_file = f"scrape_files/brands/{slug}_fragrantica_tr.json"
     if not os.path.exists(brand_file):
         brand_file = f"scrape_files/brands/{slug}_fragrantica.json"
     
     if not os.path.exists(brand_file):
-        # Search directory for partial match
         brands_dir = "scrape_files/brands"
         matches = [f for f in os.listdir(brands_dir) if slug in f] if os.path.exists(brands_dir) else []
         if matches:
@@ -407,7 +408,6 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
     out_dir = os.path.join("scrape_files/perfumes", slug)
     report_file = os.path.join(out_dir, "report.txt")
 
-    # Map each item in perfumes_list to its expected output file and urls
     items_info = []
     for item in perfumes_list:
         url = item.get("url", "")
@@ -428,7 +428,6 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
     saved_items = [i for i in items_info if is_perfume_json_valid(i["out_file"])]
     to_scrape_items = [i for i in items_info if not is_perfume_json_valid(i["out_file"])]
 
-    # Skip brand if report exists and all items are saved with 0 failures
     if os.path.exists(report_file):
         try:
             with open(report_file, "r", encoding="utf-8") as rf:
@@ -450,12 +449,17 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
     print(f"==================================================")
 
     os.makedirs(out_dir, exist_ok=True)
-    failed_details = {}  # tr_url -> {"name": item_name, "error": error_str}
+    failed_details = {}
+    consecutive_403_count = 0
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
-            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            extra_http_headers={
+                "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
+            }
         )
         page = context.new_page()
 
@@ -469,6 +473,7 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
             try:
                 p_data, error_reason = parse_perfume_page(page, tr_url)
                 if p_data:
+                    consecutive_403_count = 0
                     brand_name = brand_data.get("title", brand_identifier)
                     ordered_data = {
                         "name": p_data.get("name"),
@@ -495,6 +500,11 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
                     if p_data.get("image"):
                         download_and_convert_perfume_image(p_data.get("image"), out_dir, perfume_slug)
                 else:
+                    if error_reason and "403" in error_reason:
+                        consecutive_403_count += 1
+                    else:
+                        consecutive_403_count = 0
+
                     failed_details[tr_url] = {
                         "name": item_name,
                         "error": error_reason or "Bilinmeyen hata"
@@ -507,14 +517,42 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
                 }
                 print(f"  --> HATA: {tr_url} - {e}")
 
-            time.sleep(delay)
+            if consecutive_403_count >= 3:
+                browser.close()
+                final_saved = [i for i in items_info if is_perfume_json_valid(i["out_file"])]
+                all_failed_list = []
+                for i in items_info:
+                    if not is_perfume_json_valid(i["out_file"]):
+                        err_info = failed_details.get(i["tr_url"], {"name": i["item_name"], "error": "IP Engellendi (HTTP 403)"})
+                        all_failed_list.append({
+                            "url": i["tr_url"],
+                            "name": err_info["name"],
+                            "error": err_info["error"]
+                        })
+                write_report(out_dir, total_count, len(final_saved), all_failed_list)
+                print("\n" + "!"*65)
+                print(" HATA: Üst üste 3 kez HTTP 403 (Erişim Engellendi) alındı!")
+                print(" Fragrantica / Cloudflare IP adresinizi engelledi.")
+                print(" Güncel durum rapora kaydedildi.")
+                print(" Lütfen modeminizi kapatıp açarak IP yenileyin.")
+                print(" Devam etmek için ENTER tuşuna basın (çıkmak/durdurmak için Ctrl+C)...")
+                print("!"*65 + "\n")
+                
+                try:
+                    input(">>> Modemi yeniledikten sonra ENTER'a basın: ")
+                except (KeyboardInterrupt, EOFError):
+                    print("\nKullanıcı tarafından durduruldu. Son durum rapora kaydedildi.")
+                    return
+
+                print("\nYeni IP ile kalınan yerden devam ediliyor...\n")
+                return scrape_brand_perfumes(brand_identifier, max_perfumes=max_perfumes, delay=delay)
+
+            sleep_time = random.uniform(delay, delay + 2.5)
+            time.sleep(sleep_time)
 
         browser.close()
 
-    # Re-evaluate saved items and failed details
     final_saved = [i for i in items_info if is_perfume_json_valid(i["out_file"])]
-    
-    # Collect all failed items (failed during this run or still missing)
     all_failed_list = []
     for i in items_info:
         if not is_perfume_json_valid(i["out_file"]):
@@ -527,11 +565,7 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=1.5):
 
     write_report(out_dir, total_count, len(final_saved), all_failed_list)
 
-def scrape_all_brands(max_perfumes=None, delay=1.5):
-    """
-    scrape_files/brands/ klasöründeki tüm marka JSON dosyalarını tarar
-    ve her marka için sırayla parfümleri çeker.
-    """
+def scrape_all_brands(max_perfumes=None, delay=2.0):
     brands_dir = "scrape_files/brands"
     if not os.path.exists(brands_dir):
         print(f"Hata: '{brands_dir}' klasörü bulunamadı.")
@@ -550,8 +584,8 @@ def scrape_all_brands(max_perfumes=None, delay=1.5):
         except Exception as e:
             print(f"Marka '{brand_slug}' çekilirken hata oluştu: {e}")
 
+
 if __name__ == "__main__":
-    # Hiç parametre verilmezse veya --all verilirse TÜM markaları sırayla çeker!
     if len(sys.argv) == 1 or sys.argv[1] == "--all":
         limit_arg = int(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[2].isdigit() else (int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else None)
         print("Parametre girilmedi veya --all seçildi. Tüm markalar sırayla çekiliyor...")
