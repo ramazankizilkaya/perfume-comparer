@@ -1,0 +1,27 @@
+{
+  "name": "perfume-comparer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ramazankizilkaya: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@github.com/ramazankizilkaya/perfume-comparer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ramazankizilkaya/perfume-comparer/issues"
+  },
+  "homepage": "https://github.com/ramazankizilkaya/perfume-comparer#readme",
+  "dependencies": {
+    "joi": "^18.2.3"
+  }
+}

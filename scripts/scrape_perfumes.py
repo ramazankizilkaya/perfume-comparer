@@ -376,6 +376,15 @@ def download_and_convert_perfume_image(img_url, out_dir, perfume_slug):
     except Exception as e:
         print(f"  --> Failed to download image ({img_url}): {e}")
 
+import subprocess
+
+USER_AGENTS = [
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+]
+
 def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=2.0):
     """
     Given a brand name or slug (e.g. 'giorgio_armani' or 'Xerjoff' or 'dior'),
@@ -425,127 +434,142 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=2.0):
             "out_file": out_file
         })
 
-    saved_items = [i for i in items_info if is_perfume_json_valid(i["out_file"])]
-    to_scrape_items = [i for i in items_info if not is_perfume_json_valid(i["out_file"])]
-
-    if os.path.exists(report_file):
-        try:
-            with open(report_file, "r", encoding="utf-8") as rf:
-                rep_text = rf.read()
-            if "fail eden parfüm: 0" in rep_text and len(saved_items) == total_count:
-                print(f"[SKIP] Marka '{brand_identifier}' zaten eksiksiz tamamlanmış ({total_count}/{total_count} parfüm). Atlanıyor.")
-                return
-        except Exception:
-            pass
-
-    if len(to_scrape_items) == 0:
-        print(f"[SKIP] Marka '{brand_identifier}' için tüm {total_count} parfüm JSON'ları zaten kayıtlı. Rapor güncelleniyor...")
-        write_report(out_dir, total_count, len(saved_items), [])
-        return
-
-    print(f"\n==================================================")
-    print(f"Marka: {brand_data.get('title', brand_identifier)}")
-    print(f"Toplam Parfüm: {total_count} | Zaten Kayıtlı: {len(saved_items)} | Çekilecek: {len(to_scrape_items)}")
-    print(f"==================================================")
-
     os.makedirs(out_dir, exist_ok=True)
-    failed_details = {}
-    consecutive_403_count = 0
+    attempt_cooldown = 20
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-            extra_http_headers={
-                "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7",
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
-            }
-        )
-        page = context.new_page()
+        while True:
+            saved_items = [i for i in items_info if is_perfume_json_valid(i["out_file"])]
+            to_scrape_items = [i for i in items_info if not is_perfume_json_valid(i["out_file"])]
 
-        for idx, i_info in enumerate(to_scrape_items, 1):
-            tr_url = i_info["tr_url"]
-            perfume_slug = i_info["perfume_slug"]
-            out_file = i_info["out_file"]
-            item_name = i_info["item_name"]
+            if os.path.exists(report_file):
+                try:
+                    with open(report_file, "r", encoding="utf-8") as rf:
+                        rep_text = rf.read()
+                    if "fail eden parfüm: 0" in rep_text and len(saved_items) == total_count:
+                        print(f"[SKIP] Marka '{brand_identifier}' zaten eksiksiz tamamlanmış ({total_count}/{total_count} parfüm). Atlanıyor.")
+                        return
+                except Exception:
+                    pass
 
-            print(f"\n[{idx}/{len(to_scrape_items)}] Scraping perfume: {tr_url}")
-            try:
-                p_data, error_reason = parse_perfume_page(page, tr_url)
-                if p_data:
-                    consecutive_403_count = 0
-                    brand_name = brand_data.get("title", brand_identifier)
-                    ordered_data = {
-                        "name": p_data.get("name"),
-                        "targetGender": p_data.get("targetGender"),
-                        "image": p_data.get("image"),
-                        "url": tr_url,
-                        "brand": brand_name,
-                        "description": p_data.get("description"),
-                        "mainAccords": p_data.get("mainAccords"),
-                        "rating": p_data.get("rating"),
-                        "seasons": p_data.get("seasons"),
-                        "notes": p_data.get("notes"),
-                        "longevity": p_data.get("longevity"),
-                        "sillage": p_data.get("sillage"),
-                        "genderVoting": p_data.get("genderVoting"),
-                        "priceVoting": p_data.get("priceVoting"),
-                        "remindsMeOf": p_data.get("remindsMeOf"),
-                        "peopleAlsoLike": p_data.get("peopleAlsoLike")
-                    }
-                    with open(out_file, "w", encoding="utf-8") as out_f:
-                        json.dump(ordered_data, out_f, ensure_ascii=False, indent=2)
-                    print(f"  --> Saved: {ordered_data['name']} ({ordered_data['rating']['score']}/5 score, {len(ordered_data['mainAccords'])} accords) to {out_file}")
+            if len(to_scrape_items) == 0:
+                print(f"[SKIP] Marka '{brand_identifier}' için tüm {total_count} parfüm JSON'ları zaten kayıtlı. Rapor güncelleniyor...")
+                write_report(out_dir, total_count, len(saved_items), [])
+                return
 
-                    if p_data.get("image"):
-                        download_and_convert_perfume_image(p_data.get("image"), out_dir, perfume_slug)
-                else:
-                    if error_reason and "403" in error_reason:
-                        consecutive_403_count += 1
+            print(f"\n==================================================")
+            print(f"Marka: {brand_data.get('title', brand_identifier)}")
+            print(f"Toplam Parfüm: {total_count} | Zaten Kayıtlı: {len(saved_items)} | Çekilecek: {len(to_scrape_items)}")
+            print(f"==================================================")
+
+            failed_details = {}
+            consecutive_rate_limit_count = 0
+            rate_limit_triggered = False
+
+            ua = random.choice(USER_AGENTS)
+            browser = p.chromium.launch(
+                headless=True,
+                args=["--disable-blink-features=AutomationControlled", "--no-sandbox"]
+            )
+            context = browser.new_context(
+                user_agent=ua,
+                locale="tr-TR",
+                viewport={"width": 1280, "height": 800},
+                extra_http_headers={
+                    "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7",
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
+                }
+            )
+            context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+            page = context.new_page()
+
+            for idx, i_info in enumerate(to_scrape_items, 1):
+                tr_url = i_info["tr_url"]
+                perfume_slug = i_info["perfume_slug"]
+                out_file = i_info["out_file"]
+                item_name = i_info["item_name"]
+
+                print(f"\n[{idx}/{len(to_scrape_items)}] Scraping perfume: {tr_url}")
+                try:
+                    p_data, error_reason = parse_perfume_page(page, tr_url)
+                    if p_data:
+                        consecutive_rate_limit_count = 0
+                        brand_name = brand_data.get("title", brand_identifier)
+                        ordered_data = {
+                            "name": p_data.get("name"),
+                            "targetGender": p_data.get("targetGender"),
+                            "image": p_data.get("image"),
+                            "url": tr_url,
+                            "brand": brand_name,
+                            "description": p_data.get("description"),
+                            "mainAccords": p_data.get("mainAccords"),
+                            "rating": p_data.get("rating"),
+                            "seasons": p_data.get("seasons"),
+                            "notes": p_data.get("notes"),
+                            "longevity": p_data.get("longevity"),
+                            "sillage": p_data.get("sillage"),
+                            "genderVoting": p_data.get("genderVoting"),
+                            "priceVoting": p_data.get("priceVoting"),
+                            "remindsMeOf": p_data.get("remindsMeOf"),
+                            "peopleAlsoLike": p_data.get("peopleAlsoLike")
+                        }
+                        with open(out_file, "w", encoding="utf-8") as out_f:
+                            json.dump(ordered_data, out_f, ensure_ascii=False, indent=2)
+                        print(f"  --> Saved: {ordered_data['name']} ({ordered_data['rating']['score']}/5 score, {len(ordered_data['mainAccords'])} accords) to {out_file}")
+
+                        if p_data.get("image"):
+                            download_and_convert_perfume_image(p_data.get("image"), out_dir, perfume_slug)
                     else:
-                        consecutive_403_count = 0
+                        if error_reason and any(code in error_reason for code in ["400", "403", "429", "503", "Forbidden", "Too Many Requests", "Bad Request"]):
+                            consecutive_rate_limit_count += 1
+                        else:
+                            consecutive_rate_limit_count = 0
 
+                        failed_details[tr_url] = {
+                            "name": item_name,
+                            "error": error_reason or "Bilinmeyen hata"
+                        }
+                        print(f"  --> HATA: {tr_url} - {error_reason}")
+                except Exception as e:
                     failed_details[tr_url] = {
                         "name": item_name,
-                        "error": error_reason or "Bilinmeyen hata"
+                        "error": str(e)
                     }
-                    print(f"  --> HATA: {tr_url} - {error_reason}")
-            except Exception as e:
-                failed_details[tr_url] = {
-                    "name": item_name,
-                    "error": str(e)
-                }
-                print(f"  --> HATA: {tr_url} - {e}")
+                    print(f"  --> HATA: {tr_url} - {e}")
 
-            if consecutive_403_count >= 3:
+                if consecutive_rate_limit_count >= 3:
+                    rate_limit_triggered = True
+                    browser.close()
+                    break
+
+                sleep_time = random.uniform(delay + 0.5, delay + 3.0)
+                time.sleep(sleep_time)
+
+            if not rate_limit_triggered:
                 browser.close()
-                final_saved = [i for i in items_info if is_perfume_json_valid(i["out_file"])]
-                all_failed_list = []
-                for i in items_info:
-                    if not is_perfume_json_valid(i["out_file"]):
-                        err_info = failed_details.get(i["tr_url"], {"name": i["item_name"], "error": "IP Engellendi (HTTP 403)"})
-                        all_failed_list.append({
-                            "url": i["tr_url"],
-                            "name": err_info["name"],
-                            "error": err_info["error"]
-                        })
-                write_report(out_dir, total_count, len(final_saved), all_failed_list)
-                print("\n" + "!"*65)
-                print(" HATA: Üst üste 3 kez HTTP 403 (Erişim Engellendi) alındı!")
-                print(" Fragrantica / Cloudflare IP adresinizi engelledi.")
-                print(" Güncel durum rapora kaydedildi.")
-                print(" Lütfen modeminizi kapatıp açarak IP yenileyin.")
-                print(" Devam etmek için ENTER tuşuna basın (çıkmak/durdurmak için Ctrl+C)...")
-                print("!"*65 + "\n")
-                
-                try:
-                    input(">>> Modemi yeniledikten sonra ENTER'a basın: ")
-                except (KeyboardInterrupt, EOFError):
-                    print("\nKullanıcı tarafından durduruldu. Son durum rapora kaydedildi.")
-                    return
 
-                print("\nYeni IP ile kalınan yerden devam ediliyor...\n")
-                return scrape_brand_perfumes(brand_identifier, max_perfumes=max_perfumes, delay=delay)
+            final_saved = [i for i in items_info if is_perfume_json_valid(i["out_file"])]
+            all_failed_list = []
+            for i in items_info:
+                if not is_perfume_json_valid(i["out_file"]):
+                    err_info = failed_details.get(i["tr_url"], {"name": i["item_name"], "error": "IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)"})
+                    all_failed_list.append({
+                        "url": i["tr_url"],
+                        "name": err_info["name"],
+                        "error": err_info["error"]
+                    })
+            write_report(out_dir, total_count, len(final_saved), all_failed_list)
+
+            if rate_limit_triggered:
+                print("\n" + "!"*65)
+                print(f" [OTONOM MOD] Rate Limit / Kısıtlama hatası (HTTP 400/403/429) algılandı!")
+                print(f" Cloudflare kısıtlamasının geçmesi için {attempt_cooldown} saniye otomatik soğuma bekleniyor...")
+                print("!"*65 + "\n")
+                time.sleep(attempt_cooldown)
+                attempt_cooldown = min(attempt_cooldown + 15, 60)
+                print("\nOtomatik olarak taze oturum ile kalınan yerden devam ediliyor...\n")
+            else:
+                break
 
             sleep_time = random.uniform(delay, delay + 2.5)
             time.sleep(sleep_time)

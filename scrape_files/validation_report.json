@@ -1,0 +1,138 @@
+{
+  "timestamp": "2026-07-31T15:28:33.030Z",
+  "totalScrapedBrands": 10,
+  "grandTotalScraped": 1824,
+  "grandValidCount": 1820,
+  "grandInvalidCount": 4,
+  "grandMissingImages": 4,
+  "brandSummary": [
+    {
+      "slug": "acqua_di_parma",
+      "totalScraped": 106,
+      "valid": 106,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "adidas",
+      "totalScraped": 96,
+      "valid": 96,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "afnan",
+      "totalScraped": 135,
+      "valid": 135,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "ahmed_al_maghribi",
+      "totalScraped": 99,
+      "valid": 99,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "ajmal",
+      "totalScraped": 362,
+      "valid": 361,
+      "invalid": 1,
+      "missingImages": 1,
+      "issuesCount": 1
+    },
+    {
+      "slug": "al_haramain_perfumes",
+      "totalScraped": 372,
+      "valid": 372,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "amouage",
+      "totalScraped": 90,
+      "valid": 90,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "antonio_banderas",
+      "totalScraped": 100,
+      "valid": 97,
+      "invalid": 3,
+      "missingImages": 3,
+      "issuesCount": 3
+    },
+    {
+      "slug": "arabiyat",
+      "totalScraped": 64,
+      "valid": 64,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "bath_body_works",
+      "totalScraped": 400,
+      "valid": 400,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    }
+  ],
+  "details": [
+    {
+      "slug": "ajmal",
+      "totalScrapedPerfumes": 362,
+      "validCount": 361,
+      "invalidCount": 1,
+      "missingImagesCount": 1,
+      "issues": [
+        {
+          "perfumeFile": "ghair_1_15113.json",
+          "perfumeSlug": "ghair_1_15113",
+          "errors": [
+            "[RESİM EKSİK] WebP resmi bulunamadı: images/ghair_1_15113.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "antonio_banderas",
+      "totalScrapedPerfumes": 100,
+      "validCount": 97,
+      "invalidCount": 3,
+      "missingImagesCount": 3,
+      "issues": [
+        {
+          "perfumeFile": "diavolo_as_de_corazon_13916.json",
+          "perfumeSlug": "diavolo_as_de_corazon_13916",
+          "errors": [
+            "[RESİM EKSİK] WebP resmi bulunamadı: images/diavolo_as_de_corazon_13916.webp"
+          ]
+        },
+        {
+          "perfumeFile": "electric_blue_seduction_for_men_18075.json",
+          "perfumeSlug": "electric_blue_seduction_for_men_18075",
+          "errors": [
+            "[RESİM EKSİK] WebP resmi bulunamadı: images/electric_blue_seduction_for_men_18075.webp"
+          ]
+        },
+        {
+          "perfumeFile": "secret_absolu_97180.json",
+          "perfumeSlug": "secret_absolu_97180",
+          "errors": [
+            "[RESİM EKSİK] WebP resmi bulunamadı: images/secret_absolu_97180.webp"
+          ]
+        }
+      ]
+    }
+  ]
+}
