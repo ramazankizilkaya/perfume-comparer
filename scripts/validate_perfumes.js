@@ -82,7 +82,9 @@ const perfumeSchema = Joi.object({
     }),
     base: Joi.array().items(Joi.string()).required().messages({
       'any.required': 'Alt notalar (notes.base) eksik'
-    })
+    }),
+    // Piramit yayınlanmamış parfümlerde notalar üçe bölünmez, düz liste olarak gelir.
+    all: Joi.array().items(Joi.string()).default([])
   }).required().messages({
     'any.required': 'Notalar (notes) nesnesi eksik'
   }),

@@ -10,6 +10,18 @@ Kullanım:
     
     - Belirli bir markadan sınırlı sayıda parfüm çekmek için (örn: afnan markasından 10 parfüm):
         python scripts/scrape_perfumes.py afnan 10
+
+HTTP 400/403/429 (IP kısıtlaması) alındığında script iki kademeli olarak kendi IP'sini değiştirir:
+    1) NordVPN uygulamasını `nordvpn://connect` ile yeni bir sunucuya bağlar.
+    2) Bu yetmezse Nord'un SOCKS5 uçlarına geçer (başka ülkeler, sistem VPN'ine dokunmadan).
+
+İlgili ortam değişkenleri:
+    SCRAPER_VPN_ROTATE=0        -> VPN rotasyonunu tamamen kapatır
+    SCRAPER_VPN_MAX_ATTEMPTS=2  -> SOCKS5'e geçmeden önceki VPN rotasyon denemesi sayısı
+    NORD_SERVICE_USER / NORD_SERVICE_PASS
+        -> SOCKS5 kademesi için gerekli. Bunlar hesap şifren DEĞİL; Nord panelinden alınır:
+           nordaccount.com -> NordVPN -> Manual setup -> Service credentials
+        -> Tanımlı değilse 2. kademe atlanır, script kademeli soğuma ile devam eder.
 """
 
 import sys
@@ -192,9 +204,31 @@ def parse_perfume_page(page, perfume_url):
             return [];
         };
 
-        const topNotes = parseNotesSection('ÜST NOTALAR').length > 0 ? parseNotesSection('ÜST NOTALAR') : extractNotesFromText('Üst notalar');
-        const middleNotes = parseNotesSection('ORTA NOTALAR').length > 0 ? parseNotesSection('ORTA NOTALAR') : extractNotesFromText('orta notalar');
-        const baseNotes = parseNotesSection('ALT NOTALAR').length > 0 ? parseNotesSection('ALT NOTALAR') : extractNotesFromText('alt notalar');
+        // Fragrantica her iki durumda da aynı bileşeni kullanıyor:
+        //   3 konteyner -> üst/orta/alt piramidi
+        //   1 konteyner -> markanın piramit yayınlamadığı parfümler; tek düz liste (allNotes)
+        const noteContainers = Array.from(document.querySelectorAll('.pyramid-level-container'));
+        const readContainer = (c) => Array.from(c.querySelectorAll('a.pyramid-note-link .pyramid-note-label'))
+            .map(s => s.innerText.trim())
+            .filter(Boolean);
+
+        let topNotes = [], middleNotes = [], baseNotes = [], allNotes = [];
+
+        if (noteContainers.length >= 3) {
+            topNotes = readContainer(noteContainers[0]);
+            middleNotes = readContainer(noteContainers[1]);
+            baseNotes = readContainer(noteContainers[2]);
+        } else if (noteContainers.length > 0) {
+            // 1 (veya 2) konteyner: piramide bölmek tahmin olurdu, hepsini düz listede topla
+            allNotes = noteContainers.flatMap(readContainer);
+        }
+
+        // DOM'dan hiçbir şey çıkmazsa eski metin tabanlı ayrıştırmaya düş
+        if (!topNotes.length && !middleNotes.length && !baseNotes.length && !allNotes.length) {
+            topNotes = parseNotesSection('ÜST NOTALAR').length > 0 ? parseNotesSection('ÜST NOTALAR') : extractNotesFromText('Üst notalar');
+            middleNotes = parseNotesSection('ORTA NOTALAR').length > 0 ? parseNotesSection('ORTA NOTALAR') : extractNotesFromText('orta notalar');
+            baseNotes = parseNotesSection('ALT NOTALAR').length > 0 ? parseNotesSection('ALT NOTALAR') : extractNotesFromText('alt notalar');
+        }
 
         // 9. Longevity (Kalıcılık)
         const longevityBreakdown = {
@@ -289,7 +323,8 @@ def parse_perfume_page(page, perfume_url):
             notes: {
                 top: topNotes,
                 middle: middleNotes,
-                base: baseNotes
+                base: baseNotes,
+                all: allNotes
             },
             longevity: longevityBreakdown,
             sillage: sillageBreakdown,
@@ -340,7 +375,7 @@ def write_report(out_dir, total_count, successful_count, failed_list):
         
     print(f"\nRapor kaydedildi: {report_file} (Toplam: {total_count}, Çekilen: {successful_count}, Fail: {failed_count})")
 
-def download_and_convert_perfume_image(img_url, out_dir, perfume_slug):
+def download_and_convert_perfume_image(img_url, out_dir, perfume_slug, api_request=None):
     if not img_url:
         return
 
@@ -353,13 +388,25 @@ def download_and_convert_perfume_image(img_url, out_dir, perfume_slug):
         return
 
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-        }
-        ssl_context = ssl._create_unverified_context()
-        req = urllib.request.Request(img_url, headers=headers)
-        with urllib.request.urlopen(req, context=ssl_context, timeout=30) as resp:
-            image_bytes = resp.read()
+        image_bytes = None
+
+        # Tarayıcı bağlamı üzerinden indir: SOCKS5 proxy aktifse görseller de oradan geçsin.
+        if api_request is not None:
+            try:
+                resp = api_request.get(img_url, timeout=30000)
+                if resp.ok:
+                    image_bytes = resp.body()
+            except Exception:
+                image_bytes = None
+
+        if image_bytes is None:
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            }
+            ssl_context = ssl._create_unverified_context()
+            req = urllib.request.Request(img_url, headers=headers)
+            with urllib.request.urlopen(req, context=ssl_context, timeout=30) as resp:
+                image_bytes = resp.read()
 
         img = Image.open(io.BytesIO(image_bytes))
         if img.mode in ("RGBA", "LA", "P"):
@@ -378,6 +425,315 @@ def download_and_convert_perfume_image(img_url, out_dir, perfume_slug):
 
 import subprocess
 
+# NordVPN macOS uygulamasının CLI'ı yok; `nordvpn://connect` deeplink'i her çağrıldığında
+# "önerilen" sunucuya yeniden bağlanır ve çıkış IP'si değişir (ölçüm: ~11 sn, 6/6 farklı IP).
+# Deeplink country/country_id parametrelerini yok sayar, bu yüzden ülke seçilemiyor.
+VPN_ROTATE_ENABLED = os.environ.get("SCRAPER_VPN_ROTATE", "1") != "0"
+NORDVPN_APP_PATH = "/Applications/NordVPN.app"
+IP_CHECK_URLS = ["https://api.ipify.org", "https://ifconfig.me/ip", "https://icanhazip.com"]
+
+
+def get_public_ip(timeout=8):
+    for url in IP_CHECK_URLS:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "curl/8.0"})
+            with urllib.request.urlopen(req, context=ssl._create_unverified_context(), timeout=timeout) as resp:
+                ip = resp.read().decode("utf-8").strip()
+                if ip:
+                    return ip
+        except Exception:
+            continue
+    return None
+
+
+def rotate_vpn_ip(max_wait=90):
+    """
+    NordVPN'i yeni bir sunucuya bağlayarak çıkış IP'sini değiştirir.
+    Yeni IP'yi döner; değiştiremezse None döner (çağıran taraf normal cooldown'a düşer).
+    """
+    if not VPN_ROTATE_ENABLED:
+        return None
+    if sys.platform != "darwin" or not os.path.exists(NORDVPN_APP_PATH):
+        print("  [VPN] NordVPN.app bulunamadı, IP rotasyonu atlanıyor.")
+        return None
+
+    old_ip = get_public_ip()
+    print(f"  [VPN] Mevcut IP: {old_ip or 'bilinmiyor'} — yeni sunucuya bağlanılıyor...")
+
+    try:
+        subprocess.run(["open", "-g", "nordvpn://connect"], check=True, timeout=15)
+    except Exception as e:
+        print(f"  [VPN] Deeplink tetiklenemedi: {e}")
+        return None
+
+    waited = 0
+    while waited < max_wait:
+        time.sleep(3)
+        waited += 3
+        new_ip = get_public_ip()
+        if new_ip and new_ip != old_ip:
+            print(f"  [VPN] IP değişti: {old_ip} -> {new_ip} ({waited} sn)")
+            return new_ip
+
+    print(f"  [VPN] {max_wait} sn içinde IP değişmedi (hâlâ {old_ip}).")
+    return None
+
+
+# ---------------------------------------------------------------------------
+# 2. kademe: NordVPN SOCKS5 proxy'leri
+# VPN rotasyonu tüm IP'leri aynı /24 içinden verdiği için site blok'u blok bazlıysa
+# rotasyon yetmez. Bu kademe sistem VPN'ine dokunmadan başka ülkelerden çıkış sağlar.
+# ---------------------------------------------------------------------------
+import socket
+import struct
+import threading
+import select
+
+NORD_SOCKS_USER = os.environ.get("NORD_SERVICE_USER", "")
+NORD_SOCKS_PASS = os.environ.get("NORD_SERVICE_PASS", "")
+VPN_ROTATE_MAX_ATTEMPTS = int(os.environ.get("SCRAPER_VPN_MAX_ATTEMPTS", "2"))
+
+NORD_SOCKS_ENDPOINTS = [
+    ("amsterdam.nl.socks.nordhold.net", 1080),
+    ("stockholm.se.socks.nordhold.net", 1080),
+    ("nl.socks.nordhold.net", 1080),
+    ("se.socks.nordhold.net", 1080),
+    ("atlanta.us.socks.nordhold.net", 1080),
+    ("dallas.us.socks.nordhold.net", 1080),
+    ("los-angeles.us.socks.nordhold.net", 1080),
+    ("us.socks.nordhold.net", 1080),
+]
+
+
+def _recv_exact(sock, n):
+    buf = b""
+    while len(buf) < n:
+        chunk = sock.recv(n - len(buf))
+        if not chunk:
+            return None
+        buf += chunk
+    return buf
+
+
+def _read_socks_addr_packet(sock):
+    """VER/CMD(REP)/RSV/ATYP + adres + port paketini ham bayt olarak okur."""
+    head = _recv_exact(sock, 4)
+    if not head:
+        return None
+    atyp = head[3]
+    if atyp == 1:
+        addr = _recv_exact(sock, 4)
+    elif atyp == 3:
+        ln = _recv_exact(sock, 1)
+        if not ln:
+            return None
+        addr = ln + _recv_exact(sock, ln[0])
+    elif atyp == 4:
+        addr = _recv_exact(sock, 16)
+    else:
+        return None
+    port = _recv_exact(sock, 2)
+    if addr is None or port is None:
+        return None
+    return head + addr + port
+
+
+class NordSocksRelay:
+    """
+    Chromium kimlik doğrulamalı SOCKS5'i desteklemiyor (Playwright doğrudan
+    "Browser does not support socks5 proxy authentication" hatası veriyor).
+    Bu sınıf 127.0.0.1 üzerinde kimlik doğrulamasız bir SOCKS5 ucu açar ve
+    trafiği Nord'un kimlik doğrulamalı SOCKS5 sunucusuna aktarır.
+    """
+
+    def __init__(self, upstream_host, upstream_port, username, password):
+        self.upstream = (upstream_host, upstream_port)
+        self.username = username.encode()
+        self.password = password.encode()
+        self._stop = False
+        self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        self.sock.bind(("127.0.0.1", 0))
+        self.sock.listen(128)
+        self.port = self.sock.getsockname()[1]
+        self.thread = threading.Thread(target=self._serve, daemon=True)
+        self.thread.start()
+
+    def stop(self):
+        self._stop = True
+        try:
+            self.sock.close()
+        except Exception:
+            pass
+
+    def _serve(self):
+        while not self._stop:
+            try:
+                conn, _ = self.sock.accept()
+            except OSError:
+                return
+            threading.Thread(target=self._handle, args=(conn,), daemon=True).start()
+
+    def _handle(self, local):
+        up = None
+        try:
+            greeting = _recv_exact(local, 2)
+            if not greeting or greeting[0] != 5:
+                return
+            if _recv_exact(local, greeting[1]) is None:
+                return
+            local.sendall(b"\x05\x00")  # yerel tarafta kimlik doğrulama yok
+
+            request = _read_socks_addr_packet(local)
+            if request is None:
+                return
+
+            up = socket.create_connection(self.upstream, timeout=20)
+            up.sendall(b"\x05\x01\x02")  # sadece user/pass yöntemi
+            if _recv_exact(up, 2) != b"\x05\x02":
+                local.sendall(b"\x05\x01\x00\x01" + b"\x00" * 6)
+                return
+            up.sendall(
+                b"\x01"
+                + bytes([len(self.username)]) + self.username
+                + bytes([len(self.password)]) + self.password
+            )
+            auth = _recv_exact(up, 2)
+            if not auth or auth[1] != 0:
+                local.sendall(b"\x05\x01\x00\x01" + b"\x00" * 6)
+                return
+
+            up.sendall(request)
+            reply = _read_socks_addr_packet(up)
+            if reply is None:
+                local.sendall(b"\x05\x01\x00\x01" + b"\x00" * 6)
+                return
+            local.sendall(reply)
+            if reply[1] != 0:
+                return
+
+            self._pipe(local, up)
+        except Exception:
+            pass
+        finally:
+            for s in (local, up):
+                try:
+                    if s:
+                        s.close()
+                except Exception:
+                    pass
+
+    @staticmethod
+    def _pipe(a, b):
+        pair = [a, b]
+        while True:
+            try:
+                readable, _, errored = select.select(pair, [], pair, 120)
+            except Exception:
+                return
+            if errored or not readable:
+                return
+            for s in readable:
+                other = b if s is a else a
+                try:
+                    data = s.recv(65536)
+                    if not data:
+                        return
+                    other.sendall(data)
+                except Exception:
+                    return
+
+
+def probe_ip_via_socks(relay_port, timeout=15):
+    """Relay gerçekten çalışıyor mu ve hangi IP'den çıkıyoruz — kimlik bilgisi doğrulaması."""
+    host, port = "api.ipify.org", 443
+    try:
+        s = socket.create_connection(("127.0.0.1", relay_port), timeout=timeout)
+        s.settimeout(timeout)
+        s.sendall(b"\x05\x01\x00")
+        if _recv_exact(s, 2) != b"\x05\x00":
+            s.close()
+            return None
+        s.sendall(b"\x05\x01\x00\x03" + bytes([len(host)]) + host.encode() + struct.pack("!H", port))
+        reply = _read_socks_addr_packet(s)
+        if not reply or reply[1] != 0:
+            s.close()
+            return None
+
+        try:
+            tls = ssl.create_default_context().wrap_socket(s, server_hostname=host)
+        except ssl.SSLError:
+            # Bu Python kurulumunda CA kökleri yok; probe yalnızca kendi çıkış IP'mizi
+            # sorguladığı için doğrulamasız devam etmek yeterli.
+            s.close()
+            s = socket.create_connection(("127.0.0.1", relay_port), timeout=timeout)
+            s.settimeout(timeout)
+            s.sendall(b"\x05\x01\x00")
+            if _recv_exact(s, 2) != b"\x05\x00":
+                s.close()
+                return None
+            s.sendall(b"\x05\x01\x00\x03" + bytes([len(host)]) + host.encode() + struct.pack("!H", port))
+            reply = _read_socks_addr_packet(s)
+            if not reply or reply[1] != 0:
+                s.close()
+                return None
+            tls = ssl._create_unverified_context().wrap_socket(s, server_hostname=host)
+
+        tls.sendall(f"GET / HTTP/1.1\r\nHost: {host}\r\nConnection: close\r\nUser-Agent: curl/8.0\r\n\r\n".encode())
+        raw = b""
+        while True:
+            chunk = tls.recv(4096)
+            if not chunk:
+                break
+            raw += chunk
+        tls.close()
+
+        # chunked encoding'e takılmamak için gövdeden IP'yi doğrudan ayıkla
+        body = raw.split(b"\r\n\r\n", 1)[-1].decode("utf-8", "replace")
+        match = re.search(r"\b\d{1,3}(?:\.\d{1,3}){3}\b", body)
+        return match.group(0) if match else None
+    except Exception:
+        return None
+
+
+def start_next_socks_proxy(state):
+    """
+    Sıradaki Nord SOCKS5 ucuna geçer. Başarılıysa (relay, endpoint_adı, çıkış_ip)
+    döner, başka denenecek uç kalmadıysa veya kimlik bilgisi yoksa None döner.
+    """
+    if not (NORD_SOCKS_USER and NORD_SOCKS_PASS):
+        print("  [PROXY] NORD_SERVICE_USER / NORD_SERVICE_PASS tanımlı değil, SOCKS5 kademesi atlanıyor.")
+        print("  [PROXY] Bilgileri Nord panelinden alabilirsin: nordaccount.com -> NordVPN -> Manual setup -> Service credentials")
+        return None
+
+    while state["idx"] + 1 < len(NORD_SOCKS_ENDPOINTS):
+        state["idx"] += 1
+        host, port = NORD_SOCKS_ENDPOINTS[state["idx"]]
+
+        if state.get("relay"):
+            state["relay"].stop()
+            state["relay"] = None
+
+        print(f"  [PROXY] SOCKS5 ucuna geçiliyor: {host}:{port}")
+        try:
+            relay = NordSocksRelay(host, port, NORD_SOCKS_USER, NORD_SOCKS_PASS)
+        except Exception as e:
+            print(f"  [PROXY] Relay başlatılamadı: {e}")
+            continue
+
+        exit_ip = probe_ip_via_socks(relay.port)
+        if exit_ip:
+            state["relay"] = relay
+            print(f"  [PROXY] Bağlandı — çıkış IP: {exit_ip} (yerel relay 127.0.0.1:{relay.port})")
+            return relay, host, exit_ip
+
+        relay.stop()
+        print(f"  [PROXY] {host} üzerinden çıkış doğrulanamadı (kimlik bilgisi hatalı olabilir), sıradaki uç deneniyor...")
+
+    print("  [PROXY] Denenecek SOCKS5 ucu kalmadı.")
+    return None
+
+
 USER_AGENTS = [
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
@@ -390,6 +746,15 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=2.0):
     Given a brand name or slug (e.g. 'giorgio_armani' or 'Xerjoff' or 'dior'),
     loads the brand JSON file, loops through its perfumes, and scrapes each detail page.
     """
+    proxy_state = {"relay": None, "idx": -1}
+    try:
+        return _scrape_brand_perfumes(brand_identifier, max_perfumes, delay, proxy_state)
+    finally:
+        if proxy_state["relay"]:
+            proxy_state["relay"].stop()
+
+
+def _scrape_brand_perfumes(brand_identifier, max_perfumes, delay, proxy_state):
     slug = brand_identifier.lower().replace(" ", "_").replace("-", "_")
 
     brand_file = f"scrape_files/brands/{slug}_fragrantica_tr.json"
@@ -436,6 +801,7 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=2.0):
 
     os.makedirs(out_dir, exist_ok=True)
     attempt_cooldown = 20
+    vpn_attempts = 0
 
     with sync_playwright() as p:
         while True:
@@ -467,10 +833,14 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=2.0):
             rate_limit_triggered = False
 
             ua = random.choice(USER_AGENTS)
-            browser = p.chromium.launch(
-                headless=True,
-                args=["--disable-blink-features=AutomationControlled", "--no-sandbox"]
-            )
+            launch_kwargs = {
+                "headless": True,
+                "args": ["--disable-blink-features=AutomationControlled", "--no-sandbox"],
+            }
+            if proxy_state["relay"]:
+                # Relay kimlik doğrulamasız olduğu için Chromium'a user/pass vermiyoruz.
+                launch_kwargs["proxy"] = {"server": f"socks5://127.0.0.1:{proxy_state['relay'].port}"}
+            browser = p.chromium.launch(**launch_kwargs)
             context = browser.new_context(
                 user_agent=ua,
                 locale="tr-TR",
@@ -518,7 +888,9 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=2.0):
                         print(f"  --> Saved: {ordered_data['name']} ({ordered_data['rating']['score']}/5 score, {len(ordered_data['mainAccords'])} accords) to {out_file}")
 
                         if p_data.get("image"):
-                            download_and_convert_perfume_image(p_data.get("image"), out_dir, perfume_slug)
+                            download_and_convert_perfume_image(
+                                p_data.get("image"), out_dir, perfume_slug, api_request=context.request
+                            )
                     else:
                         if error_reason and any(code in error_reason for code in ["400", "403", "429", "503", "Forbidden", "Too Many Requests", "Bad Request"]):
                             consecutive_rate_limit_count += 1
@@ -563,11 +935,41 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=2.0):
             if rate_limit_triggered:
                 print("\n" + "!"*65)
                 print(f" [OTONOM MOD] Rate Limit / Kısıtlama hatası (HTTP 400/403/429) algılandı!")
-                print(f" Cloudflare kısıtlamasının geçmesi için {attempt_cooldown} saniye otomatik soğuma bekleniyor...")
                 print("!"*65 + "\n")
-                time.sleep(attempt_cooldown)
-                attempt_cooldown = min(attempt_cooldown + 15, 60)
-                print("\nOtomatik olarak taze oturum ile kalınan yerden devam ediliyor...\n")
+
+                escalated = False
+
+                # 1. kademe: sistem VPN'ini yeni bir sunucuya bağla.
+                if proxy_state["relay"] is None and vpn_attempts < VPN_ROTATE_MAX_ATTEMPTS:
+                    if rotate_vpn_ip():
+                        vpn_attempts += 1
+                        attempt_cooldown = 20
+                        escalated = True
+                        time.sleep(5)
+                        print(f"\nYeni IP ve taze oturum ile devam ediliyor "
+                              f"(VPN rotasyonu {vpn_attempts}/{VPN_ROTATE_MAX_ATTEMPTS}).\n")
+
+                # 2. kademe: VPN rotasyonu yetmedi (muhtemelen /24 bloğu banlı) -> SOCKS5.
+                if not escalated:
+                    if proxy_state["relay"] is None:
+                        print(f" VPN rotasyonu {vpn_attempts} denemede yetmedi, SOCKS5 proxy'ye geçiliyor.")
+                    else:
+                        print(" Mevcut SOCKS5 ucu da kısıtlandı, sıradaki uca geçiliyor.")
+
+                    result = start_next_socks_proxy(proxy_state)
+                    if result:
+                        _, endpoint, exit_ip = result
+                        attempt_cooldown = 20
+                        escalated = True
+                        time.sleep(5)
+                        print(f"\n{endpoint} ({exit_ip}) üzerinden taze oturum ile devam ediliyor.\n")
+
+                # Hiçbir kademe işe yaramadı: eskisi gibi kademeli soğuma.
+                if not escalated:
+                    print(f" IP değiştirilemedi. Kısıtlamanın geçmesi için {attempt_cooldown} saniye bekleniyor...")
+                    time.sleep(attempt_cooldown)
+                    attempt_cooldown = min(attempt_cooldown + 15, 60)
+                    print("\nOtomatik olarak taze oturum ile kalınan yerden devam ediliyor...\n")
             else:
                 break
 
@@ -588,6 +990,44 @@ def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=2.0):
             })
 
     write_report(out_dir, total_count, len(final_saved), all_failed_list)
+
+def check_proxy_setup():
+    """`--check-proxy`: VPN/SOCKS5 kurulumunu tarama yapmadan test eder."""
+    print(f"Doğrudan çıkış IP: {get_public_ip() or 'okunamadı'}\n")
+
+    if not (NORD_SOCKS_USER and NORD_SOCKS_PASS):
+        print("NORD_SERVICE_USER / NORD_SERVICE_PASS bu kabukta tanımlı DEĞİL.")
+        print("Kalıcı hale getirmek için ~/.zshrc dosyana ekle:")
+        print('  export NORD_SERVICE_USER="..."')
+        print('  export NORD_SERVICE_PASS="..."')
+        print("Sonra yeni bir terminal aç veya `source ~/.zshrc` çalıştır.")
+        print("\nBilgiler: nordaccount.com -> NordVPN -> Manual setup -> Service credentials")
+        print("(Hesap şifren DEĞİL, ayrı üretilen servis bilgileri.)")
+        return
+
+    print(f"Kimlik bilgisi bulundu: kullanıcı '{NORD_SOCKS_USER}', parola {len(NORD_SOCKS_PASS)} karakter")
+    print("SOCKS5 uçları test ediliyor...\n")
+
+    working = 0
+    for host, port in NORD_SOCKS_ENDPOINTS:
+        try:
+            relay = NordSocksRelay(host, port, NORD_SOCKS_USER, NORD_SOCKS_PASS)
+        except Exception as e:
+            print(f"  {host:<42} relay başlatılamadı: {e}")
+            continue
+        exit_ip = probe_ip_via_socks(relay.port)
+        relay.stop()
+        if exit_ip:
+            working += 1
+            print(f"  {host:<42} OK          -> {exit_ip}")
+        else:
+            print(f"  {host:<42} BAŞARISIZ")
+
+    print(f"\n{working}/{len(NORD_SOCKS_ENDPOINTS)} uç çalışıyor.")
+    if working == 0:
+        print("Hiçbir uç çalışmadı. En olası sebep kimlik bilgilerinin yanlış olması —")
+        print("hesap şifreni değil, panelden üretilen 'service credentials' bilgilerini kullanman gerekiyor.")
+
 
 def scrape_all_brands(max_perfumes=None, delay=2.0):
     brands_dir = "scrape_files/brands"
@@ -610,7 +1050,9 @@ def scrape_all_brands(max_perfumes=None, delay=2.0):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) == 1 or sys.argv[1] == "--all":
+    if len(sys.argv) > 1 and sys.argv[1] == "--check-proxy":
+        check_proxy_setup()
+    elif len(sys.argv) == 1 or sys.argv[1] == "--all":
         limit_arg = int(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[2].isdigit() else (int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else None)
         print("Parametre girilmedi veya --all seçildi. Tüm markalar sırayla çekiliyor...")
         scrape_all_brands(max_perfumes=limit_arg)
