@@ -162,7 +162,31 @@ POPULAR_BRANDS_HTML_SNIPPET = [
     "https://www.fragrantica.com/designers/Xerjoff.html",
     "https://www.fragrantica.com/designers/Yves-Saint-Laurent.html",
     "https://www.fragrantica.com/designers/Zara.html",
-    "https://www.fragrantica.com/designers/Zoologist-Perfumes.html"
+    "https://www.fragrantica.com/designers/Zoologist-Perfumes.html",
+
+    # Sevil Parfümeri kataloğunda olup listede eksik olanlar (2026-08-02'de
+    # Fragrantica TR üzerinde designer sayfalarının varlığı tek tek doğrulandı).
+    "https://www.fragrantica.com/designers/Viktor-Rolf.html",
+    "https://www.fragrantica.com/designers/Roberto-Cavalli.html",
+    "https://www.fragrantica.com/designers/Abercrombie-Fitch.html",
+    "https://www.fragrantica.com/designers/Atkinsons.html",
+    "https://www.fragrantica.com/designers/Trussardi.html",
+    "https://www.fragrantica.com/designers/Tous.html",
+    "https://www.fragrantica.com/designers/Alvarez-Gomez.html",
+    "https://www.fragrantica.com/designers/Korloff-Paris.html",
+    "https://www.fragrantica.com/designers/Laura-Biagiotti.html",
+    "https://www.fragrantica.com/designers/Zadig-Voltaire.html",
+    "https://www.fragrantica.com/designers/Haute-Fragrance-Company.html",
+    "https://www.fragrantica.com/designers/Carner-Barcelona.html",
+    "https://www.fragrantica.com/designers/Sol-de-Janeiro.html",
+    "https://www.fragrantica.com/designers/Halloween.html",
+    "https://www.fragrantica.com/designers/CoSTUME-NATIONAL.html",
+    "https://www.fragrantica.com/designers/Lancaster.html",
+    "https://www.fragrantica.com/designers/Scalpers.html",
+    "https://www.fragrantica.com/designers/Beso-Beach.html",
+    "https://www.fragrantica.com/designers/Kylie-Jenner.html",
+    "https://www.fragrantica.com/designers/DKNY.html",
+    "https://www.fragrantica.com/designers/Sevilla.html"
 ]
 
 def collect_all_designer_urls(lang="tr"):

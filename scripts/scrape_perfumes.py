@@ -11,6 +11,21 @@ Kullanım:
     - Belirli bir markadan sınırlı sayıda parfüm çekmek için (örn: afnan markasından 10 parfüm):
         python scripts/scrape_perfumes.py afnan 10
 
+    - Paralel çekim (markalar worker'lara bölünür, her worker ayrı SOCKS5 ucundan çıkar):
+        python scripts/scrape_perfumes.py --parallel        # uç sayısı kadar worker (en fazla 8)
+        python scripts/scrape_perfumes.py --parallel 4      # 4 worker
+        python scripts/scrape_perfumes.py --parallel 4 10   # 4 worker, marka başına 10 parfüm
+
+      Site limitleri IP başına uygulandığı için her worker ayrı bir çıkış IP'si kullanır;
+      böylece IP başına istek hızı tek worker'lı moddakiyle aynı kalır. NORD_SERVICE_USER /
+      NORD_SERVICE_PASS tanımlı değilse tüm worker'lar aynı IP'den çıkar ve limitlere hızlı
+      takılırsınız. Paralel modda sistem VPN'i tüm worker'ları birden etkileyeceği için
+      VPN rotasyonu kapalıdır. Ctrl+C çekimi temiz durdurur; kayıtlı JSON'lar korunur ve
+      aynı komut kaldığı yerden devam eder.
+
+    - VPN/SOCKS5 kurulumunu çekim yapmadan test etmek için:
+        python scripts/scrape_perfumes.py --check-proxy
+
 HTTP 400/403/429 (IP kısıtlaması) alındığında script iki kademeli olarak kendi IP'sini değiştirir:
     1) NordVPN uygulamasını `nordvpn://connect` ile yeni bir sunucuya bağlar.
     2) Bu yetmezse Nord'un SOCKS5 uçlarına geçer (başka ülkeler, sistem VPN'ine dokunmadan).
@@ -488,6 +503,8 @@ import socket
 import struct
 import threading
 import select
+import signal
+import multiprocessing
 
 NORD_SOCKS_USER = os.environ.get("NORD_SERVICE_USER", "")
 NORD_SOCKS_PASS = os.environ.get("NORD_SERVICE_PASS", "")
@@ -706,9 +723,13 @@ def start_next_socks_proxy(state):
         print("  [PROXY] Bilgileri Nord panelinden alabilirsin: nordaccount.com -> NordVPN -> Manual setup -> Service credentials")
         return None
 
-    while state["idx"] + 1 < len(NORD_SOCKS_ENDPOINTS):
-        state["idx"] += 1
-        host, port = NORD_SOCKS_ENDPOINTS[state["idx"]]
+    # Paralel modda her worker'a ayrılmış özel uç havuzu; tek worker'da tüm liste.
+    endpoints = state.get("endpoints") or NORD_SOCKS_ENDPOINTS
+
+    # Havuzda en fazla bir tam tur at (başa sararak), hepsi başarısızsa vazgeç.
+    for _ in range(len(endpoints)):
+        state["idx"] = (state["idx"] + 1) % len(endpoints)
+        host, port = endpoints[state["idx"]]
 
         if state.get("relay"):
             state["relay"].stop()
@@ -741,16 +762,22 @@ USER_AGENTS = [
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 ]
 
-def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=2.0):
+def scrape_brand_perfumes(brand_identifier, max_perfumes=None, delay=2.0, proxy_state=None):
     """
     Given a brand name or slug (e.g. 'giorgio_armani' or 'Xerjoff' or 'dior'),
     loads the brand JSON file, loops through its perfumes, and scrapes each detail page.
+
+    proxy_state: paralel modda worker'ın ömür boyu kullandığı, dışarıdan verilen relay
+    durumu. Verildiğinde relay burada açılıp kapanmaz — marka başına relay açmak Nord'un
+    eşzamanlı bağlantı limitini doldurup tüm uçları kullanılamaz hale getiriyordu.
     """
-    proxy_state = {"relay": None, "idx": -1}
+    owns_proxy = proxy_state is None
+    if owns_proxy:
+        proxy_state = {"relay": None, "idx": -1, "endpoints": None}
     try:
         return _scrape_brand_perfumes(brand_identifier, max_perfumes, delay, proxy_state)
     finally:
-        if proxy_state["relay"]:
+        if owns_proxy and proxy_state["relay"]:
             proxy_state["relay"].stop()
 
 
@@ -991,6 +1018,136 @@ def _scrape_brand_perfumes(brand_identifier, max_perfumes, delay, proxy_state):
 
     write_report(out_dir, total_count, len(final_saved), all_failed_list)
 
+def _watch_parent(parent_pid, interval=5):
+    """
+    Linux'taki PR_SET_PDEATHSIG'in macOS karşılığı yok. Parent `kill -9` yerse ya da
+    terminal kapanırsa worker'lar öksüz kalıp saatlerce çalışmaya devam ediyor ve
+    Nord'un bağlantı bütçesini tüketiyordu. Bu bekçi parent'ın ölümünü görüp çıkar.
+    """
+    while True:
+        time.sleep(interval)
+        if os.getppid() != parent_pid:
+            print("  [WORKER] Ana süreç kapandı, çıkılıyor.", flush=True)
+            os._exit(1)
+
+
+def _init_worker():
+    """Ctrl+C'yi yalnızca ana process ele alsın; yoksa her worker ayrı traceback basar."""
+    signal.signal(signal.SIGINT, signal.SIG_IGN)
+    threading.Thread(target=_watch_parent, args=(os.getppid(),), daemon=True).start()
+    # spawn edilen child'lar `python -u` bayrağını miras almaz; satır tamponuna
+    # geçmezsek worker çıktıları dakikalarca görünmez.
+    try:
+        sys.stdout.reconfigure(line_buffering=True)
+        sys.stderr.reconfigure(line_buffering=True)
+    except Exception:
+        pass
+
+
+def _worker_entry(task):
+    """Paralel modda tek bir worker process'i: kendi SOCKS5 ucundan kendi marka payını çeker."""
+    worker_id, brand_slugs, max_perfumes, delay, use_proxy, worker_count = task
+
+    prefix = f"[w{worker_id}]"
+
+    # Birden çok process aynı anda sistem VPN'ini değiştirmeye çalışmasın.
+    global VPN_ROTATE_ENABLED
+    VPN_ROTATE_ENABLED = False
+
+    # Uçlar worker'lar arasında paylaştırılıyor; böylece iki worker aynı çıkış IP'sine
+    # düşüp birbirinin limitini tüketmiyor.
+    proxy_state = {"relay": None, "idx": -1, "endpoints": None}
+    if use_proxy:
+        pool = [ep for i, ep in enumerate(NORD_SOCKS_ENDPOINTS) if i % worker_count == worker_id]
+        proxy_state["endpoints"] = pool or [NORD_SOCKS_ENDPOINTS[worker_id % len(NORD_SOCKS_ENDPOINTS)]]
+        print(f"{prefix} başlıyor — {len(brand_slugs)} marka, "
+              f"{len(proxy_state['endpoints'])} özel SOCKS5 ucu")
+        # Relay worker ömrü boyunca bir kez açılır ve tüm markalarda yeniden kullanılır.
+        if not start_next_socks_proxy(proxy_state):
+            print(f"{prefix} proxy açılamadı, doğrudan bağlantı ile devam ediliyor.")
+    else:
+        print(f"{prefix} başlıyor — {len(brand_slugs)} marka, doğrudan bağlantı")
+
+    done = 0
+    try:
+        for slug in brand_slugs:
+            try:
+                scrape_brand_perfumes(slug, max_perfumes=max_perfumes, delay=delay,
+                                      proxy_state=proxy_state)
+                done += 1
+            except Exception as e:
+                print(f"{prefix} '{slug}' çekilirken hata: {e}")
+    finally:
+        if proxy_state["relay"]:
+            proxy_state["relay"].stop()
+
+    print(f"{prefix} bitti — {done}/{len(brand_slugs)} marka tamamlandı.")
+    return done
+
+
+def scrape_all_brands_parallel(workers=None, max_perfumes=None, delay=2.0):
+    """
+    Markaları worker'lara bölüp paralel çeker. Site limitleri IP başına uygulandığı için
+    her worker ayrı bir Nord SOCKS5 ucundan çıkar; böylece IP başına istek hızı tek
+    worker'lı moddakiyle aynı kalır ama toplam hız worker sayısı kadar artar.
+    """
+    brands_dir = "scrape_files/brands"
+    if not os.path.exists(brands_dir):
+        print(f"Hata: '{brands_dir}' klasörü bulunamadı.")
+        return
+
+    use_proxy = bool(NORD_SOCKS_USER and NORD_SOCKS_PASS)
+    max_workers = len(NORD_SOCKS_ENDPOINTS) if use_proxy else 4
+    if workers is None:
+        workers = max_workers
+    workers = max(1, min(workers, max_workers))
+
+    if not use_proxy:
+        print("UYARI: NORD_SERVICE_USER/PASS yok — tüm worker'lar aynı IP'den çıkacak.")
+        print("       Limitlere daha hızlı takılırsınız ve VPN rotasyonu paralel modda kapalıdır.")
+
+    brand_files = sorted(f for f in os.listdir(brands_dir) if f.endswith(".json"))
+    slugs = [f.replace("_fragrantica_tr.json", "").replace("_fragrantica.json", "")
+             for f in brand_files]
+
+    # Round-robin bölme: büyük/küçük markalar worker'lara dengeli dağılsın.
+    chunks = [slugs[i::workers] for i in range(workers)]
+    tasks = [(i, chunks[i], max_perfumes, delay, use_proxy, workers)
+             for i in range(workers) if chunks[i]]
+
+    print(f"{len(slugs)} marka, {len(tasks)} worker'a bölündü. Başlatılıyor...\n")
+
+    ctx = multiprocessing.get_context("spawn")
+    pool = ctx.Pool(len(tasks), initializer=_init_worker)
+
+    def _shutdown(signum, frame):
+        print("\n\nDurduruluyor (Ctrl+C)... Kaydedilmiş JSON'lar korunuyor;")
+        print("aynı komutu tekrar çalıştırdığında kaldığı yerden devam eder.", flush=True)
+        pool.terminate()
+        # Worker'lar Playwright çağrısının içindeyse SIGTERM'e hemen yanıt vermez.
+        for child in multiprocessing.active_children():
+            child.join(timeout=5)
+            if child.is_alive():
+                child.kill()
+        # multiprocessing'in atexit handler'ı kalan child'ları join() etmeye çalışıp
+        # takılıyor; temizliği kendimiz yaptığımız için doğrudan çıkıyoruz.
+        os._exit(130)
+
+    signal.signal(signal.SIGINT, _shutdown)
+    signal.signal(signal.SIGTERM, _shutdown)
+
+    try:
+        results = pool.map(_worker_entry, tasks)
+        pool.close()
+        pool.join()
+    except Exception:
+        pool.terminate()
+        pool.join()
+        raise
+
+    print(f"\nTüm worker'lar bitti. Tamamlanan marka: {sum(results)}/{len(slugs)}")
+
+
 def check_proxy_setup():
     """`--check-proxy`: VPN/SOCKS5 kurulumunu tarama yapmadan test eder."""
     print(f"Doğrudan çıkış IP: {get_public_ip() or 'okunamadı'}\n")
@@ -1052,6 +1209,10 @@ def scrape_all_brands(max_perfumes=None, delay=2.0):
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--check-proxy":
         check_proxy_setup()
+    elif len(sys.argv) > 1 and sys.argv[1] == "--parallel":
+        n = int(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[2].isdigit() else None
+        limit = int(sys.argv[3]) if len(sys.argv) > 3 and sys.argv[3].isdigit() else None
+        scrape_all_brands_parallel(workers=n, max_perfumes=limit)
     elif len(sys.argv) == 1 or sys.argv[1] == "--all":
         limit_arg = int(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[2].isdigit() else (int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else None)
         print("Parametre girilmedi veya --all seçildi. Tüm markalar sırayla çekiliyor...")

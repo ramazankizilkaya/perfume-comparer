@@ -1,71 +1,104 @@
 toplam parfüm: 67
-çekilen parfüm: 0
-fail eden parfüm: 67
+çekilen parfüm: 42
+fail eden parfüm: 25
 fail eden parfüm listesi:
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Chic-2326.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Chic-2326.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Coral-32739.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Coral-32739.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Exotic-Blossom-47602.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Exotic-Blossom-47602.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Glam-Jasmine-18162.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Glam-Jasmine-18162.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Gold-13088.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Gold-13088.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Gold-Rose-Edition-15987.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Gold-Rose-Edition-15987.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Kors-2415.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Kors-2415.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-2416.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-2416.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-for-Men-2417.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-for-Men-2417.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-2418.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-2418.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-for-Men-26264.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-for-Men-26264.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Gold-Luxe-Edition-21758.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Gold-Luxe-Edition-21758.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Pour-Femme-92113.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Pour-Femme-92113.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Pour-Homme-92114.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Pour-Homme-92114.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-White-27494.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-White-27494.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Sheer-11931.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Sheer-11931.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Femme-Absolu-112767.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Femme-Absolu-112767.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Homme-Absolu-112768.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Homme-Absolu-112768.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Amber-18161.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Amber-18161.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Blossom-40924.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Blossom-40924.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Rio-de-Janeiro-27497.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Rio-de-Janeiro-27497.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Ruby-46182.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Ruby-46182.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Sunset-34276.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Sunset-34276.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sky-Blossom-52436.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sky-Blossom-52436.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sparkling-Blush-51371.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sparkling-Blush-51371.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sporty-Citrus-18160.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sporty-Citrus-18160.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Stylish-Amber-69408.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Stylish-Amber-69408.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Suede-14779.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Suede-14779.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Turquoise-41839.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Turquoise-41839.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Very-Hollywood-6047.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Very-Hollywood-6047.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Very-Hollywood-Sparkling-10480.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Very-Hollywood-Sparkling-10480.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Very-Michael-Kors-2402.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Very-Michael-Kors-2402.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Very-Pretty-4790.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Very-Pretty-4790.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Extreme-Blue-36507.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Extreme-Blue-36507.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Extreme-Journey-67499.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Extreme-Journey-67499.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Extreme-Night-44695.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Extreme-Night-44695.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Extreme-Rush-54240.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Extreme-Rush-54240.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Extreme-Sky-61093.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Extreme-Sky-61093.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Extreme-Speed-48579.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Extreme-Speed-48579.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/24K-Brilliant-Gold-31341.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/24K-Brilliant-Gold-31341.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Rose-Radiant-Gold-31342.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Rose-Radiant-Gold-31342.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/White-Luminous-Gold-31343.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/White-Luminous-Gold-31343.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Gorgeous-64629.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Gorgeous-64629.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Super-Gorgeous-68626.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Super-Gorgeous-68626.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Island-2327.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Island-2327.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Island-Bermuda-4780.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Island-Bermuda-4780.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Island-Capri-2328.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Island-Capri-2328.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Island-Fiji-2336.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Island-Fiji-2336.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Island-Hawaii-2414.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Island-Hawaii-2414.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Island-Palm-Beach-10890.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Island-Palm-Beach-10890.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Island-Very-Bali-13861.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Island-Very-Bali-13861.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Notes-from-Michael-Glenplaid-16970.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Notes-from-Michael-Glenplaid-16970.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Notes-from-Michael-Houndstooth-16971.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Notes-from-Michael-Houndstooth-16971.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Notes-from-Michael-Tattersall-16972.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Notes-from-Michael-Tattersall-16972.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Midnight-Shimmer-38989.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Midnight-Shimmer-38989.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Mystique-Shimmer-62282.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Mystique-Shimmer-62282.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Starlight-Shimmer-55826.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Starlight-Shimmer-55826.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Twilight-Shimmer-50396.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Twilight-Shimmer-50396.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Femme-Pink-Horizon-138648.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Femme-Pink-Horizon-138648.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Femme-Violet-Sunset-138645.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Femme-Violet-Sunset-138645.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Homme-Blue-Dusk-138646.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Homme-Blue-Dusk-138646.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Homme-Green-Infinity-138647.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Homme-Green-Infinity-138647.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Wonderlust-39459.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Wonderlust-39459.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Wonderlust-Eau-de-Voyage-63414.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Wonderlust-Eau-de-Voyage-63414.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Wonderlust-Eau-Fresh-50507.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Wonderlust-Eau-Fresh-50507.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Wonderlust-Sensual-Essence-45508.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Wonderlust-Sensual-Essence-45508.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Michael-Kors/Wonderlust-Sublime-55761.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Wonderlust-Sublime-55761.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Coral-32739.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Coral-32739.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Coral-32739.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Coral-32739.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Exotic-Blossom-47602.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Exotic-Blossom-47602.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Exotic-Blossom-47602.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Exotic-Blossom-47602.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Glam-Jasmine-18162.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Glam-Jasmine-18162.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Glam-Jasmine-18162.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Glam-Jasmine-18162.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Gold-13088.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Gold-13088.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Gold-13088.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Gold-13088.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Gold-Rose-Edition-15987.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Gold-Rose-Edition-15987.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Gold-Rose-Edition-15987.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Gold-Rose-Edition-15987.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Kors-2415.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Kors-2415.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Kors-2415.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Kors-2415.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-2416.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-2416.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-2416.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-2416.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-for-Men-2417.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-for-Men-2417.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-for-Men-2417.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-for-Men-2417.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-2418.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-2418.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-2418.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-2418.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-for-Men-26264.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-for-Men-26264.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-for-Men-26264.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-for-Men-26264.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Gold-Luxe-Edition-21758.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Gold-Luxe-Edition-21758.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Gold-Luxe-Edition-21758.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Gold-Luxe-Edition-21758.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Pour-Femme-92113.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Pour-Femme-92113.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Pour-Femme-92113.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Pour-Femme-92113.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Pour-Homme-92114.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Pour-Homme-92114.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Pour-Homme-92114.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-Pour-Homme-92114.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-White-27494.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-White-27494.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-White-27494.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Kors-White-27494.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Sheer-11931.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Sheer-11931.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Sheer-11931.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Michael-Sheer-11931.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Femme-Absolu-112767.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Femme-Absolu-112767.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Femme-Absolu-112767.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Femme-Absolu-112767.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Homme-Absolu-112768.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Homme-Absolu-112768.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Homme-Absolu-112768.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Pour-Homme-Absolu-112768.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Amber-18161.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Amber-18161.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Amber-18161.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Amber-18161.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Blossom-40924.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Blossom-40924.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Blossom-40924.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Blossom-40924.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Rio-de-Janeiro-27497.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Rio-de-Janeiro-27497.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Rio-de-Janeiro-27497.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Rio-de-Janeiro-27497.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Ruby-46182.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Ruby-46182.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Ruby-46182.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Ruby-46182.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Sunset-34276.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Sunset-34276.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Sunset-34276.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Sexy-Sunset-34276.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sky-Blossom-52436.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sky-Blossom-52436.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Sky-Blossom-52436.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Sky-Blossom-52436.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sparkling-Blush-51371.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sparkling-Blush-51371.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Sparkling-Blush-51371.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Sparkling-Blush-51371.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Michael-Kors/Sporty-Citrus-18160.html | Ad: https://www.fragrantica.tr/perfumes/Michael-Kors/Sporty-Citrus-18160.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Michael-Kors/Sporty-Citrus-18160.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Michael-Kors/Sporty-Citrus-18160.html", waiting until "domcontentloaded"
+

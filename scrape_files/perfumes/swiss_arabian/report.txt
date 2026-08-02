@@ -1,169 +1,488 @@
 toplam parfüm: 165
-çekilen parfüm: 0
-fail eden parfüm: 165
+çekilen parfüm: 44
+fail eden parfüm: 121
 fail eden parfüm listesi:
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Al-Amaken-22928.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Al-Amaken-22928.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Al-Waseem-10839.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Al-Waseem-10839.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Crystal-Rose-53854.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Crystal-Rose-53854.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Daeeman-19466.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Daeeman-19466.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Malaki-10841.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Malaki-10841.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-22990.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-22990.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-22991.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-22991.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-Intense-53911.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-Intense-53911.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-Intense-53912.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-Intense-53912.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Essence-de-la-Vie-72818.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Essence-de-la-Vie-72818.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Fadeitak-10844.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Fadeitak-10844.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Faith-19461.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Faith-19461.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghazi-56485.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghazi-56485.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghazi-Oud-56486.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghazi-Oud-56486.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hamsah-23113.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hamsah-23113.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayfa-20767.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayfa-20767.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Imperial-54039.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Imperial-54039.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Imperial-Arabia-54038.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Imperial-Arabia-54038.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Inara-56233.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Inara-56233.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Inara-Oud-56234.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Inara-Oud-56234.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Iris-Berry-129837.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Iris-Berry-129837.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Iris-and-Berry-130211.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Iris-and-Berry-130211.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-20749.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-20749.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-Black-54040.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-Black-54040.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-Green-54069.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-Green-54069.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-White-54068.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-White-54068.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jawad-20768.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jawad-20768.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kashkha-CPO-54144.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kashkha-CPO-54144.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kenzy-54145.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kenzy-54145.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Khateer-10846.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Khateer-10846.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Maysoon-19468.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Maysoon-19468.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Miss-Edge-56236.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Miss-Edge-56236.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mr-Edge-56237.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mr-Edge-56237.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mutamayez-52871.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mutamayez-52871.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Nawaf-22027.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Nawaf-22027.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Noon-54151.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Noon-54151.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Noora-19470.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Noora-19470.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Noora-Onyx-54152.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Noora-Onyx-54152.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Nouf-19459.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Nouf-19459.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Lychee-125045.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Lychee-125045.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Maknoon-54196.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Maknoon-54196.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Malaki-118007.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Malaki-118007.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Raaqi-54198.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Raaqi-54198.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rakaan-11300.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rakaan-11300.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rasheeqa-19472.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rasheeqa-19472.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Sandalia-20772.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Sandalia-20772.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shadha-19473.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shadha-19473.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shawq-54284.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shawq-54284.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spirit-19464.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spirit-19464.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spirit-Absolute-54285.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spirit-Absolute-54285.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Swiss-Musk-54287.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Swiss-Musk-54287.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Whisper-54290.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Whisper-54290.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Zahra-11296.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Zahra-11296.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/A-Whiff-of-Five-63956.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/A-Whiff-of-Five-63956.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Agadir-63977.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Agadir-63977.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Alchemy-63951.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Alchemy-63951.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Anfas-66498.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Anfas-66498.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Antalya-66497.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Antalya-66497.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Awtad-66505.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Awtad-66505.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dark-Magic-63971.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dark-Magic-63971.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghadeer-66501.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghadeer-66501.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Naeem-63976.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Naeem-63976.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-el-Naeem-66507.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-el-Naeem-66507.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jasmine-66500.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jasmine-66500.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mademoiselle-63974.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mademoiselle-63974.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Magnus-63978.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Magnus-63978.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Marrakesh-66503.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Marrakesh-66503.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-Tahara-63950.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-Tahara-63950.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mystique-66502.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mystique-66502.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Nice-and-Spice-63973.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Nice-and-Spice-63973.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Orient-Oud-66504.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Orient-Oud-66504.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Pacific-Isles-63955.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Pacific-Isles-63955.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Persian-66506.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Persian-66506.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Sands-66499.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Sands-66499.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Sea-Breeze-63953.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Sea-Breeze-63953.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spanish-Sandalwood-63975.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spanish-Sandalwood-63975.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Tangier-63972.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Tangier-63972.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/The-Bosphorus-63954.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/The-Bosphorus-63954.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/White-Musk-63952.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/White-Musk-63952.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Casablanca-42181.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Casablanca-42181.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Enigma-of-Taif-117521.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Enigma-of-Taif-117521.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/ESSENCE-OF-CASABLANCA-85514.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/ESSENCE-OF-CASABLANCA-85514.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Florence-54019.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Florence-54019.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/OPULENCE-OF-DUBAI-85517.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/OPULENCE-OF-DUBAI-85517.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/PASSION-OF-VENICE-85512.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/PASSION-OF-VENICE-85512.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Soul-of-Bali-107070.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Soul-of-Bali-107070.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/SPIRIT-OF-VALENCIA-85513.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/SPIRIT-OF-VALENCIA-85513.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amaali-48222.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amaali-48222.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amaani-55653.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amaani-55653.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Attar-Mubakhar-19465.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Attar-Mubakhar-19465.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Essence-Of-Casablanca-Oil-92884.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Essence-Of-Casablanca-Oil-92884.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Gharaam-Oil-92885.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Gharaam-Oil-92885.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hawa-Oil-92886.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hawa-Oil-92886.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayaa-56232.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayaa-56232.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jamila-20765.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jamila-20765.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kashkha-19456.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kashkha-19456.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-56235.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-56235.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-CPO-20754.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-CPO-20754.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-Rouge-54146.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-Rouge-54146.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mukhalat-Malaki-10849.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mukhalat-Malaki-10849.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-Malaki-54148.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-Malaki-54148.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Private-Musk-56240.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Private-Musk-56240.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Private-Oud-67011.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Private-Oud-67011.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-01-Oil-92887.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-01-Oil-92887.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-Malaki-54149.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-Malaki-54149.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Secret-Musk-56243.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Secret-Musk-56243.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Tonka-Oil-92888.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Tonka-Oil-92888.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Yulali-56246.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Yulali-56246.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Mubarak-19477.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Mubarak-19477.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Shaheen-55652.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Shaheen-55652.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Sambodi-10842.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Sambodi-10842.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-01-72627.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-01-72627.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-07-72628.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-07-72628.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Incense-01-102415.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Incense-01-102415.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-01-72629.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-01-72629.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-07-72630.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-07-72630.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-74-Poudre-88967.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-74-Poudre-88967.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-01-72624.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-01-72624.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-07-72625.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-07-72625.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-74-72626.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-74-72626.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Patchouli-01-125829.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Patchouli-01-125829.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-01-72631.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-01-72631.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Tobacco-01-98606.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Tobacco-01-98606.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Vanilla-01-117520.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Vanilla-01-117520.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Intense-Pride-67012.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Intense-Pride-67012.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Primal-Code-56239.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Primal-Code-56239.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Pure-Instinct-54197.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Pure-Instinct-54197.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Royal-Mystery-56241.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Royal-Mystery-56241.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Wild-Spirit-54292.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Wild-Spirit-54292.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Attar-Al-Ghutra-42195.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Attar-Al-Ghutra-42195.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Sehr-Al-Sheila-54281.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Sehr-Al-Sheila-54281.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shumoukh-Al-Ghutra-53846.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shumoukh-Al-Ghutra-53846.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/PRIVATE-FRANKINCENSE-CPO-85523.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/PRIVATE-FRANKINCENSE-CPO-85523.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/SECRET-FRANKINCENSE-CPO-85522.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/SECRET-FRANKINCENSE-CPO-85522.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/SECRET-ROSE-CPO-85524.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/SECRET-ROSE-CPO-85524.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/SHAGHAF-OUD-AHMAR-CPO-85520.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/SHAGHAF-OUD-AHMAR-CPO-85520.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/SHAGHAF-OUD-AZRAQ-CPO-85521.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/SHAGHAF-OUD-AZRAQ-CPO-85521.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/SHAGHAF-OUD-CPO-85519.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/SHAGHAF-OUD-CPO-85519.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Amber-Infusion-117519.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Amber-Infusion-117519.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Men-23114.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Men-23114.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Nectar-Blush-125828.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Nectar-Blush-125828.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-50582.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-50582.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Abyad-54282.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Abyad-54282.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Ahmar-82677.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Ahmar-82677.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Aswad-54283.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Aswad-54283.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Azraq-82383.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Azraq-82383.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Elixir-89408.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Elixir-89408.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Royale-88811.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Royale-88811.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Tonka-87744.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Tonka-87744.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Vanilla-Toffee-98548.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Vanilla-Toffee-98548.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Women-23115.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Women-23115.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-and-Apricot-89409.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-and-Apricot-89409.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Bergamot-and-Cedarwood-89413.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Bergamot-and-Cedarwood-89413.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Bergamot-and-Patchouli-89414.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Bergamot-and-Patchouli-89414.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Cardamom-and-Apple-89412.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Cardamom-and-Apple-89412.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jasmine-and-Honey-89410.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jasmine-and-Honey-89410.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mint-and-Wood-89415.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mint-and-Wood-89415.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-and-Patchouli-89411.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-and-Patchouli-89411.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Vetiver-and-Orange-123477.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Vetiver-and-Orange-123477.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Gharaam-56231.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Gharaam-56231.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hawa-66931.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hawa-66931.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayaam-56245.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayaam-56245.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ishq-67010.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ishq-67010.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Wajd-56244.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Wajd-56244.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Walaa-66932.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Walaa-66932.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Al-Amaken-22928.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Al-Amaken-22928.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Al-Amaken-22928.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Al-Amaken-22928.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Al-Waseem-10839.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Al-Waseem-10839.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Al-Waseem-10839.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Al-Waseem-10839.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Crystal-Rose-53854.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Crystal-Rose-53854.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Crystal-Rose-53854.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Crystal-Rose-53854.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Daeeman-19466.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Daeeman-19466.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Daeeman-19466.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Daeeman-19466.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Malaki-10841.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Malaki-10841.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Malaki-10841.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Malaki-10841.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-22990.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-22990.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-22990.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-22990.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-22991.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-22991.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-22991.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-22991.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-Intense-53911.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-Intense-53911.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-Intense-53911.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-Intense-53911.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-Intense-53912.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-Intense-53912.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-Intense-53912.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Edge-Intense-53912.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Essence-de-la-Vie-72818.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Essence-de-la-Vie-72818.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Essence-de-la-Vie-72818.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Essence-de-la-Vie-72818.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Fadeitak-10844.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Fadeitak-10844.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Fadeitak-10844.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Fadeitak-10844.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Faith-19461.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Faith-19461.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Faith-19461.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Faith-19461.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghazi-56485.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghazi-56485.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghazi-56485.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghazi-56485.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghazi-Oud-56486.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghazi-Oud-56486.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghazi-Oud-56486.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghazi-Oud-56486.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hamsah-23113.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hamsah-23113.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hamsah-23113.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hamsah-23113.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayfa-20767.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayfa-20767.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayfa-20767.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayfa-20767.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Imperial-54039.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Imperial-54039.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Imperial-54039.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Imperial-54039.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Imperial-Arabia-54038.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Imperial-Arabia-54038.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Imperial-Arabia-54038.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Imperial-Arabia-54038.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Inara-56233.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Inara-56233.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Inara-56233.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Inara-56233.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Inara-Oud-56234.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Inara-Oud-56234.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Inara-Oud-56234.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Inara-Oud-56234.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Iris-Berry-129837.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Iris-Berry-129837.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Iris-Berry-129837.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Iris-Berry-129837.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Iris-and-Berry-130211.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Iris-and-Berry-130211.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Iris-and-Berry-130211.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Iris-and-Berry-130211.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-20749.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-20749.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-20749.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-20749.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-Black-54040.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-Black-54040.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-Black-54040.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-Black-54040.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-Green-54069.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-Green-54069.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-Green-54069.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-Green-54069.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-White-54068.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-White-54068.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-White-54068.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Firdaus-White-54068.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jawad-20768.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jawad-20768.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jawad-20768.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jawad-20768.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kashkha-CPO-54144.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kashkha-CPO-54144.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kashkha-CPO-54144.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kashkha-CPO-54144.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kenzy-54145.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kenzy-54145.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kenzy-54145.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kenzy-54145.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Khateer-10846.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Khateer-10846.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Khateer-10846.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Khateer-10846.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Maysoon-19468.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Maysoon-19468.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Maysoon-19468.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Maysoon-19468.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Miss-Edge-56236.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Miss-Edge-56236.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Miss-Edge-56236.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Miss-Edge-56236.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mr-Edge-56237.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mr-Edge-56237.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mr-Edge-56237.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mr-Edge-56237.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Noora-19470.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Noora-19470.html | Hata: Navigasyon hatası: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Noora-19470.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Maknoon-54196.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Maknoon-54196.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Maknoon-54196.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Maknoon-54196.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Malaki-118007.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Malaki-118007.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Malaki-118007.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Oud-Malaki-118007.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Raaqi-54198.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Raaqi-54198.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Raaqi-54198.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Raaqi-54198.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rakaan-11300.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rakaan-11300.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rakaan-11300.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rakaan-11300.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rasheeqa-19472.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rasheeqa-19472.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rasheeqa-19472.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rasheeqa-19472.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Sandalia-20772.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Sandalia-20772.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Sandalia-20772.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Sandalia-20772.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shadha-19473.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shadha-19473.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shadha-19473.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shadha-19473.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shawq-54284.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shawq-54284.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shawq-54284.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shawq-54284.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spirit-19464.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spirit-19464.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spirit-19464.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spirit-19464.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spirit-Absolute-54285.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spirit-Absolute-54285.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spirit-Absolute-54285.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Spirit-Absolute-54285.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Swiss-Musk-54287.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Swiss-Musk-54287.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Swiss-Musk-54287.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Swiss-Musk-54287.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Whisper-54290.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Whisper-54290.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Whisper-54290.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Whisper-54290.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Zahra-11296.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Zahra-11296.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Zahra-11296.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Zahra-11296.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Antalya-66497.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Antalya-66497.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Antalya-66497.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Antalya-66497.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Awtad-66505.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Awtad-66505.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Awtad-66505.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Awtad-66505.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dark-Magic-63971.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dark-Magic-63971.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dark-Magic-63971.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dark-Magic-63971.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghadeer-66501.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghadeer-66501.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghadeer-66501.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ghadeer-66501.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Naeem-63976.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Naeem-63976.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Naeem-63976.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-El-Naeem-63976.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-el-Naeem-66507.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-el-Naeem-66507.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-el-Naeem-66507.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jannet-el-Naeem-66507.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jasmine-66500.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jasmine-66500.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jasmine-66500.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jasmine-66500.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mademoiselle-63974.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mademoiselle-63974.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mademoiselle-63974.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mademoiselle-63974.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Magnus-63978.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Magnus-63978.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Magnus-63978.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Magnus-63978.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Marrakesh-66503.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Marrakesh-66503.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Marrakesh-66503.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Marrakesh-66503.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-Tahara-63950.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-Tahara-63950.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-Tahara-63950.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-Tahara-63950.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mystique-66502.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mystique-66502.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mystique-66502.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mystique-66502.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Nice-and-Spice-63973.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Nice-and-Spice-63973.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Nice-and-Spice-63973.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Nice-and-Spice-63973.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Casablanca-42181.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Casablanca-42181.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Casablanca-42181.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Casablanca-42181.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Enigma-of-Taif-117521.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Enigma-of-Taif-117521.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Enigma-of-Taif-117521.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Enigma-of-Taif-117521.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/ESSENCE-OF-CASABLANCA-85514.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/ESSENCE-OF-CASABLANCA-85514.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/ESSENCE-OF-CASABLANCA-85514.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/ESSENCE-OF-CASABLANCA-85514.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Florence-54019.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Florence-54019.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Florence-54019.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Florence-54019.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/OPULENCE-OF-DUBAI-85517.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/OPULENCE-OF-DUBAI-85517.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/OPULENCE-OF-DUBAI-85517.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/OPULENCE-OF-DUBAI-85517.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/PASSION-OF-VENICE-85512.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/PASSION-OF-VENICE-85512.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/PASSION-OF-VENICE-85512.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/PASSION-OF-VENICE-85512.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Soul-of-Bali-107070.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Soul-of-Bali-107070.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Soul-of-Bali-107070.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Soul-of-Bali-107070.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/SPIRIT-OF-VALENCIA-85513.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/SPIRIT-OF-VALENCIA-85513.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/SPIRIT-OF-VALENCIA-85513.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/SPIRIT-OF-VALENCIA-85513.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amaali-48222.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amaali-48222.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amaali-48222.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amaali-48222.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amaani-55653.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amaani-55653.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amaani-55653.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amaani-55653.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Attar-Mubakhar-19465.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Attar-Mubakhar-19465.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Attar-Mubakhar-19465.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Attar-Mubakhar-19465.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Essence-Of-Casablanca-Oil-92884.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Essence-Of-Casablanca-Oil-92884.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Essence-Of-Casablanca-Oil-92884.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Essence-Of-Casablanca-Oil-92884.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Gharaam-Oil-92885.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Gharaam-Oil-92885.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Gharaam-Oil-92885.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Gharaam-Oil-92885.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hawa-Oil-92886.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hawa-Oil-92886.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hawa-Oil-92886.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hawa-Oil-92886.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayaa-56232.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayaa-56232.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayaa-56232.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayaa-56232.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jamila-20765.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jamila-20765.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jamila-20765.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jamila-20765.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kashkha-19456.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kashkha-19456.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kashkha-19456.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Kashkha-19456.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-56235.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-56235.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-56235.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-56235.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-CPO-20754.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-CPO-20754.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-CPO-20754.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-CPO-20754.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-Rouge-54146.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-Rouge-54146.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-Rouge-54146.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Layali-Rouge-54146.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mukhalat-Malaki-10849.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mukhalat-Malaki-10849.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mukhalat-Malaki-10849.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mukhalat-Malaki-10849.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-Malaki-54148.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-Malaki-54148.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-Malaki-54148.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-Malaki-54148.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Private-Musk-56240.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Private-Musk-56240.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Private-Musk-56240.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Private-Musk-56240.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Private-Oud-67011.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Private-Oud-67011.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Private-Oud-67011.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Private-Oud-67011.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-01-Oil-92887.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-01-Oil-92887.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-01-Oil-92887.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-01-Oil-92887.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-Malaki-54149.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-Malaki-54149.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-Malaki-54149.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-Malaki-54149.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Secret-Musk-56243.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Secret-Musk-56243.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Secret-Musk-56243.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Secret-Musk-56243.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Tonka-Oil-92888.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Tonka-Oil-92888.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Tonka-Oil-92888.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Tonka-Oil-92888.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Yulali-56246.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Yulali-56246.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Yulali-56246.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Yulali-56246.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Mubarak-19477.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Mubarak-19477.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Mubarak-19477.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Mubarak-19477.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Shaheen-55652.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Shaheen-55652.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Shaheen-55652.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Shaheen-55652.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Sambodi-10842.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Sambodi-10842.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Sambodi-10842.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Dehn-El-Oud-Sambodi-10842.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-01-72627.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-01-72627.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-01-72627.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-01-72627.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-07-72628.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-07-72628.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-07-72628.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-07-72628.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Incense-01-102415.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Incense-01-102415.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Incense-01-102415.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Incense-01-102415.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-01-72629.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-01-72629.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-01-72629.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Musk-01-72629.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Nectar-Blush-125828.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Nectar-Blush-125828.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Nectar-Blush-125828.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Nectar-Blush-125828.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-50582.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-50582.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-50582.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-50582.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Abyad-54282.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Abyad-54282.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Abyad-54282.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Abyad-54282.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Ahmar-82677.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Ahmar-82677.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Ahmar-82677.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Ahmar-82677.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Aswad-54283.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Aswad-54283.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Aswad-54283.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Aswad-54283.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Azraq-82383.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Azraq-82383.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Azraq-82383.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Azraq-82383.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Elixir-89408.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Elixir-89408.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Elixir-89408.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Elixir-89408.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Royale-88811.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Royale-88811.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Royale-88811.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Royale-88811.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Tonka-87744.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Tonka-87744.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Tonka-87744.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Oud-Tonka-87744.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Vanilla-Toffee-98548.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Vanilla-Toffee-98548.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Vanilla-Toffee-98548.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Vanilla-Toffee-98548.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Women-23115.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Women-23115.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Women-23115.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Shaghaf-Women-23115.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-and-Apricot-89409.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-and-Apricot-89409.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-and-Apricot-89409.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Amber-and-Apricot-89409.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Bergamot-and-Cedarwood-89413.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Bergamot-and-Cedarwood-89413.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Bergamot-and-Cedarwood-89413.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Bergamot-and-Cedarwood-89413.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Bergamot-and-Patchouli-89414.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Bergamot-and-Patchouli-89414.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Bergamot-and-Patchouli-89414.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Bergamot-and-Patchouli-89414.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Cardamom-and-Apple-89412.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Cardamom-and-Apple-89412.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Cardamom-and-Apple-89412.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Cardamom-and-Apple-89412.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jasmine-and-Honey-89410.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jasmine-and-Honey-89410.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jasmine-and-Honey-89410.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Jasmine-and-Honey-89410.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mint-and-Wood-89415.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mint-and-Wood-89415.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mint-and-Wood-89415.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Mint-and-Wood-89415.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-and-Patchouli-89411.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-and-Patchouli-89411.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-and-Patchouli-89411.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Rose-and-Patchouli-89411.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Vetiver-and-Orange-123477.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Vetiver-and-Orange-123477.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Vetiver-and-Orange-123477.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Vetiver-and-Orange-123477.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Gharaam-56231.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Gharaam-56231.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Gharaam-56231.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Gharaam-56231.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hawa-66931.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hawa-66931.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hawa-66931.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hawa-66931.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayaam-56245.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayaam-56245.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayaam-56245.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Hayaam-56245.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ishq-67010.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ishq-67010.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ishq-67010.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Ishq-67010.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Wajd-56244.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Wajd-56244.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Wajd-56244.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Wajd-56244.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Swiss-Arabian/Walaa-66932.html | Ad: https://www.fragrantica.tr/perfumes/Swiss-Arabian/Walaa-66932.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Swiss-Arabian/Walaa-66932.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Swiss-Arabian/Walaa-66932.html", waiting until "domcontentloaded"
+

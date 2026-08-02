@@ -1,12 +1,8 @@
 toplam parfüm: 8
-çekilen parfüm: 0
-fail eden parfüm: 8
+çekilen parfüm: 7
+fail eden parfüm: 1
 fail eden parfüm listesi:
-  - https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/B683-Extrait-64653.html | Ad: https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/B683-Extrait-64653.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Aldebaran-105331.html | Ad: https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Aldebaran-105331.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/B683-46802.html | Ad: https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/B683-46802.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/B87-135-129505.html | Ad: https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/B87-135-129505.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Encelade-74121.html | Ad: https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Encelade-74121.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Ganymede-54720.html | Ad: https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Ganymede-54720.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Ganymede-Extrait-79632.html | Ad: https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Ganymede-Extrait-79632.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Tilia-91688.html | Ad: https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Tilia-91688.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
+  - https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Tilia-91688.html | Ad: https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Tilia-91688.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Tilia-91688.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Marc-Antoine-Barrois/Tilia-91688.html", waiting until "domcontentloaded"
+

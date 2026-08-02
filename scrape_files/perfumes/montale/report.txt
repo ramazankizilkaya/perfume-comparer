@@ -1,123 +1,472 @@
 toplam parfüm: 119
-çekilen parfüm: 0
-fail eden parfüm: 119
+çekilen parfüm: 2
+fail eden parfüm: 117
 fail eden parfüm listesi:
-  - https://www.fragrantica.tr/perfumes/Montale/Amber-Spices-9560.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Amber-Spices-9560.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Montale/Amber-Musk-51491.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Amber-Musk-51491.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Cuir-d-Arabie-1143.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Cuir-d-Arabie-1143.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Flowers-3239.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Flowers-3239.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Forest-9559.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Forest-9559.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Lagoon-35974.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Lagoon-35974.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Leather-9224.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Leather-9224.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Lime-3755.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Lime-3755.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Musk-9558.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Musk-9558.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Night-28010.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Night-28010.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Purple-Rose-14841.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Purple-Rose-14841.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Queen-Roses-1139.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Queen-Roses-1139.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Safran-9557.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Safran-9557.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Sense-30508.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Sense-30508.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Aqua-Gold-48946.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aqua-Gold-48946.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Aqua-Palma-73226.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aqua-Palma-73226.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Arabians-45306.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Arabians-45306.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Arabians-Musk-97829.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Arabians-Musk-97829.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Arabians-Rose-Leather-104090.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Arabians-Rose-Leather-104090.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Arabians-Tonka-57384.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Arabians-Tonka-57384.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Attar-3674.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Attar-3674.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Bakhoor-51879.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Bakhoor-51879.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Be-My-Plum-116396.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Be-My-Plum-116396.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Beast-Love-90740.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Beast-Love-90740.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Black-Aoud-1142.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Black-Aoud-1142.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Black-Musk-12298.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Black-Musk-12298.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Blue-Amber-3759.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Blue-Amber-3759.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Blue-Matcha-68793.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Blue-Matcha-68793.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Boise-Fruite-6646.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Boise-Fruite-6646.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Boise-Vanille-4063.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Boise-Vanille-4063.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Bubble-Forever-90739.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Bubble-Forever-90739.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Cedrat-Lova-128866.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Cedrat-Lova-128866.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Chocolate-Greedy-2186.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Chocolate-Greedy-2186.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Crazy-In-Love-67108.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Crazy-In-Love-67108.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Crystal-Flowers-3772.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Crystal-Flowers-3772.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Dallachai-97830.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Dallachai-97830.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Dark-Aoud-12134.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Dark-Aoud-12134.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Dark-Purple-13280.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Dark-Purple-13280.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Dark-Vanilla-64050.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Dark-Vanilla-64050.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Day-Dreams-45055.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Day-Dreams-45055.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Fantastic-Oud-48945.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Fantastic-Oud-48945.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Fougeres-Marines-3761.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Fougeres-Marines-3761.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Full-Incense-9556.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Full-Incense-9556.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Golden-Sand-31770.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Golden-Sand-31770.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Herbal-Aquatica-78379.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Herbal-Aquatica-78379.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Holy-Musk-134981.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Holy-Musk-134981.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Holy-Neroli-87141.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Holy-Neroli-87141.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Honey-Aoud-30509.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Honey-Aoud-30509.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Infinity-81773.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Infinity-81773.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Intense-Amber-35156.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Amber-35156.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Intense-Black-Aoud-46714.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Black-Aoud-46714.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Intense-Cafe-18021.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Cafe-18021.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Intense-Cherry-43319.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Cherry-43319.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Intense-Iris-43413.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Iris-43413.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Intense-Pepper-28120.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Pepper-28120.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Intense-Roses-Musk-31893.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Roses-Musk-31893.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Intense-Tiare-3763.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Tiare-3763.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Jasmin-Full-3677.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Jasmin-Full-3677.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Leather-Patchouli-51492.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Leather-Patchouli-51492.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Lucky-Candy-87365.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Lucky-Candy-87365.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Mango-Manga-9470.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Mango-Manga-9470.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Mukhallat-3241.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Mukhallat-3241.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Musk-to-Musk-12299.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Musk-to-Musk-12299.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Nepal-Aoud-25614.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Nepal-Aoud-25614.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Orange-Aoud-23365.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Orange-Aoud-23365.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Oud-Dream-53632.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Dream-53632.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Oud-Edition-71994.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Edition-71994.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Oud-Fool-Roses-90741.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Fool-Roses-90741.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Oud-Island-82554.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Island-82554.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Oud-Pashmina-64641.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Pashmina-64641.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Oud-Sapparot-104089.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Sapparot-104089.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Oud-Tobacco-61494.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Tobacco-61494.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Oudmazing-36827.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oudmazing-36827.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Oudrising-60402.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oudrising-60402.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Oudyssee-81772.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oudyssee-81772.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Patchouli-Leaves-3764.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Patchouli-Leaves-3764.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Powder-Flowers-5142.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Powder-Flowers-5142.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Pretty-Fruity-12301.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Pretty-Fruity-12301.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Pure-Gold-9225.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Pure-Gold-9225.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Pure-Love-57886.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Pure-Love-57886.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Red-Aoud-3237.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Red-Aoud-3237.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Red-Vetiver-4061.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Red-Vetiver-4061.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Milan-75004.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Milan-75004.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Moscou-50025.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Moscou-50025.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Paris-82127.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Paris-82127.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Ristretto-Intense-Cafe-55001.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Ristretto-Intense-Cafe-55001.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Rose-Night-28011.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Rose-Night-28011.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Roses-Elixir-9222.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Roses-Elixir-9222.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Roses-Musk-1148.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Roses-Musk-1148.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Roses-Musk-Limited-Edition-56009.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Roses-Musk-Limited-Edition-56009.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Sandflowers-3766.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sandflowers-3766.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Santal-Wood-14842.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Santal-Wood-14842.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Sensual-Instinct-53675.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sensual-Instinct-53675.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Soleil-de-Capri-3767.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Soleil-de-Capri-3767.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Spicy-Aoud-41075.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Spicy-Aoud-41075.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Starry-Nights-31771.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Starry-Nights-31771.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Starry-Nights-Intense-116411.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Starry-Nights-Intense-116411.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Sunset-Flowers-3238.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sunset-Flowers-3238.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Sweet-Flowers-51489.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sweet-Flowers-51489.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Sweet-Oriental-Dream-3768.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sweet-Oriental-Dream-3768.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Sweet-Peony-46099.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sweet-Peony-46099.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Sweet-Vanilla-39411.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sweet-Vanilla-39411.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Tropical-Wood-35972.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Tropical-Wood-35972.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Vanilla-Cake-48948.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Vanilla-Cake-48948.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Vanilla-Extasy-4059.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Vanilla-Extasy-4059.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Vanille-Absolu-4064.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Vanille-Absolu-4064.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Velvet-Fantasy-59891.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Velvet-Fantasy-59891.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Velvet-Flowers-9561.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Velvet-Flowers-9561.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Vetiver-Patchouli-54890.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Vetiver-Patchouli-54890.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/White-Aoud-1146.html | Ad: https://www.fragrantica.tr/perfumes/Montale/White-Aoud-1146.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/White-Musk-3770.html | Ad: https://www.fragrantica.tr/perfumes/Montale/White-Musk-3770.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Wild-Aoud-6647.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Wild-Aoud-6647.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Wild-Pears-12302.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Wild-Pears-12302.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Wood-and-Spices-1147.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Wood-and-Spices-1147.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Wood-On-Fire-71301.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Wood-On-Fire-71301.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Diamond-Flowers-44865.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Diamond-Flowers-44865.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Diamond-Greedy-44867.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Diamond-Greedy-44867.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Diamond-Rose-44866.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Diamond-Rose-44866.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Montale/Rendez-Vous-Chez-Harrods-93893.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Rendez-Vous-Chez-Harrods-93893.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
+  - https://www.fragrantica.tr/perfumes/Montale/Amber-Spices-9560.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Amber-Spices-9560.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Amber-Spices-9560.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Amber-Spices-9560.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Amber-Musk-51491.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Amber-Musk-51491.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Amber-Musk-51491.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Amber-Musk-51491.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Cuir-d-Arabie-1143.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Cuir-d-Arabie-1143.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aoud-Cuir-d-Arabie-1143.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aoud-Cuir-d-Arabie-1143.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Flowers-3239.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Flowers-3239.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aoud-Flowers-3239.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aoud-Flowers-3239.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Forest-9559.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Forest-9559.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aoud-Forest-9559.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aoud-Forest-9559.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Lagoon-35974.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Lagoon-35974.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aoud-Lagoon-35974.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aoud-Lagoon-35974.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Leather-9224.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Leather-9224.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aoud-Leather-9224.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aoud-Leather-9224.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Lime-3755.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Lime-3755.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aoud-Lime-3755.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aoud-Lime-3755.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Musk-9558.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Musk-9558.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aoud-Musk-9558.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aoud-Musk-9558.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Night-28010.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Night-28010.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aoud-Night-28010.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aoud-Night-28010.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Purple-Rose-14841.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Purple-Rose-14841.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aoud-Purple-Rose-14841.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aoud-Purple-Rose-14841.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Queen-Roses-1139.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Queen-Roses-1139.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aoud-Queen-Roses-1139.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aoud-Queen-Roses-1139.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Safran-9557.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Safran-9557.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aoud-Safran-9557.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aoud-Safran-9557.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aoud-Sense-30508.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aoud-Sense-30508.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aoud-Sense-30508.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aoud-Sense-30508.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aqua-Gold-48946.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aqua-Gold-48946.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aqua-Gold-48946.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aqua-Gold-48946.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Aqua-Palma-73226.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Aqua-Palma-73226.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Aqua-Palma-73226.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Aqua-Palma-73226.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Arabians-45306.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Arabians-45306.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Arabians-45306.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Arabians-45306.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Arabians-Musk-97829.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Arabians-Musk-97829.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Arabians-Musk-97829.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Arabians-Musk-97829.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Arabians-Rose-Leather-104090.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Arabians-Rose-Leather-104090.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Arabians-Rose-Leather-104090.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Arabians-Rose-Leather-104090.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Arabians-Tonka-57384.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Arabians-Tonka-57384.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Arabians-Tonka-57384.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Arabians-Tonka-57384.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Attar-3674.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Attar-3674.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Attar-3674.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Attar-3674.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Bakhoor-51879.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Bakhoor-51879.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Bakhoor-51879.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Bakhoor-51879.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Be-My-Plum-116396.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Be-My-Plum-116396.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Be-My-Plum-116396.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Be-My-Plum-116396.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Beast-Love-90740.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Beast-Love-90740.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Beast-Love-90740.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Beast-Love-90740.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Black-Aoud-1142.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Black-Aoud-1142.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Black-Aoud-1142.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Black-Aoud-1142.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Black-Musk-12298.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Black-Musk-12298.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Black-Musk-12298.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Black-Musk-12298.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Blue-Amber-3759.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Blue-Amber-3759.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Blue-Amber-3759.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Blue-Amber-3759.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Blue-Matcha-68793.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Blue-Matcha-68793.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Blue-Matcha-68793.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Blue-Matcha-68793.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Boise-Fruite-6646.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Boise-Fruite-6646.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Boise-Fruite-6646.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Boise-Fruite-6646.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Boise-Vanille-4063.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Boise-Vanille-4063.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Boise-Vanille-4063.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Boise-Vanille-4063.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Bubble-Forever-90739.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Bubble-Forever-90739.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Bubble-Forever-90739.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Bubble-Forever-90739.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Cedrat-Lova-128866.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Cedrat-Lova-128866.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Cedrat-Lova-128866.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Cedrat-Lova-128866.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Chocolate-Greedy-2186.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Chocolate-Greedy-2186.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Chocolate-Greedy-2186.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Chocolate-Greedy-2186.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Crazy-In-Love-67108.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Crazy-In-Love-67108.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Crazy-In-Love-67108.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Crazy-In-Love-67108.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Crystal-Flowers-3772.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Crystal-Flowers-3772.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Crystal-Flowers-3772.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Crystal-Flowers-3772.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Dallachai-97830.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Dallachai-97830.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Dallachai-97830.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Dallachai-97830.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Dark-Aoud-12134.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Dark-Aoud-12134.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Dark-Aoud-12134.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Dark-Aoud-12134.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Dark-Purple-13280.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Dark-Purple-13280.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Dark-Purple-13280.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Dark-Purple-13280.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Dark-Vanilla-64050.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Dark-Vanilla-64050.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Dark-Vanilla-64050.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Dark-Vanilla-64050.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Day-Dreams-45055.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Day-Dreams-45055.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Day-Dreams-45055.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Day-Dreams-45055.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Fantastic-Oud-48945.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Fantastic-Oud-48945.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Fantastic-Oud-48945.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Fantastic-Oud-48945.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Fougeres-Marines-3761.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Fougeres-Marines-3761.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Fougeres-Marines-3761.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Fougeres-Marines-3761.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Full-Incense-9556.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Full-Incense-9556.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Full-Incense-9556.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Full-Incense-9556.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Golden-Sand-31770.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Golden-Sand-31770.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Golden-Sand-31770.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Golden-Sand-31770.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Holy-Neroli-87141.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Holy-Neroli-87141.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Holy-Neroli-87141.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Holy-Neroli-87141.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Honey-Aoud-30509.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Honey-Aoud-30509.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Honey-Aoud-30509.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Honey-Aoud-30509.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Infinity-81773.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Infinity-81773.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Infinity-81773.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Infinity-81773.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Intense-Amber-35156.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Amber-35156.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Intense-Amber-35156.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Intense-Amber-35156.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Intense-Black-Aoud-46714.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Black-Aoud-46714.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Intense-Black-Aoud-46714.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Intense-Black-Aoud-46714.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Intense-Cafe-18021.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Cafe-18021.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Intense-Cafe-18021.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Intense-Cafe-18021.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Intense-Cherry-43319.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Cherry-43319.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Intense-Cherry-43319.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Intense-Cherry-43319.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Intense-Iris-43413.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Iris-43413.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Intense-Iris-43413.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Intense-Iris-43413.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Intense-Pepper-28120.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Pepper-28120.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Intense-Pepper-28120.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Intense-Pepper-28120.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Intense-Roses-Musk-31893.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Roses-Musk-31893.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Intense-Roses-Musk-31893.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Intense-Roses-Musk-31893.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Intense-Tiare-3763.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Intense-Tiare-3763.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Intense-Tiare-3763.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Intense-Tiare-3763.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Jasmin-Full-3677.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Jasmin-Full-3677.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Jasmin-Full-3677.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Jasmin-Full-3677.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Leather-Patchouli-51492.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Leather-Patchouli-51492.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Leather-Patchouli-51492.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Leather-Patchouli-51492.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Lucky-Candy-87365.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Lucky-Candy-87365.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Lucky-Candy-87365.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Lucky-Candy-87365.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Mango-Manga-9470.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Mango-Manga-9470.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Mango-Manga-9470.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Mango-Manga-9470.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Mukhallat-3241.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Mukhallat-3241.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Mukhallat-3241.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Mukhallat-3241.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Musk-to-Musk-12299.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Musk-to-Musk-12299.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Musk-to-Musk-12299.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Musk-to-Musk-12299.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Nepal-Aoud-25614.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Nepal-Aoud-25614.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Nepal-Aoud-25614.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Nepal-Aoud-25614.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Orange-Aoud-23365.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Orange-Aoud-23365.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Orange-Aoud-23365.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Orange-Aoud-23365.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Oud-Dream-53632.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Dream-53632.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Oud-Dream-53632.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Oud-Dream-53632.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Oud-Edition-71994.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Edition-71994.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Oud-Edition-71994.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Oud-Edition-71994.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Oud-Fool-Roses-90741.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Fool-Roses-90741.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Oud-Fool-Roses-90741.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Oud-Fool-Roses-90741.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Oud-Island-82554.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Island-82554.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Oud-Island-82554.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Oud-Island-82554.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Oud-Pashmina-64641.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Pashmina-64641.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Oud-Pashmina-64641.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Oud-Pashmina-64641.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Oud-Sapparot-104089.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Sapparot-104089.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Oud-Sapparot-104089.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Oud-Sapparot-104089.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Oud-Tobacco-61494.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oud-Tobacco-61494.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Oud-Tobacco-61494.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Oud-Tobacco-61494.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Oudmazing-36827.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oudmazing-36827.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Oudmazing-36827.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Oudmazing-36827.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Oudrising-60402.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oudrising-60402.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Oudrising-60402.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Oudrising-60402.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Oudyssee-81772.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Oudyssee-81772.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Oudyssee-81772.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Oudyssee-81772.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Patchouli-Leaves-3764.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Patchouli-Leaves-3764.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Patchouli-Leaves-3764.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Patchouli-Leaves-3764.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Powder-Flowers-5142.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Powder-Flowers-5142.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Powder-Flowers-5142.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Powder-Flowers-5142.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Pretty-Fruity-12301.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Pretty-Fruity-12301.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Pretty-Fruity-12301.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Pretty-Fruity-12301.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Pure-Gold-9225.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Pure-Gold-9225.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Pure-Gold-9225.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Pure-Gold-9225.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Pure-Love-57886.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Pure-Love-57886.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Pure-Love-57886.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Pure-Love-57886.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Red-Aoud-3237.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Red-Aoud-3237.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Red-Aoud-3237.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Red-Aoud-3237.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Red-Vetiver-4061.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Red-Vetiver-4061.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Red-Vetiver-4061.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Red-Vetiver-4061.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Milan-75004.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Milan-75004.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Milan-75004.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Milan-75004.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Moscou-50025.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Moscou-50025.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Moscou-50025.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Moscou-50025.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Paris-82127.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Paris-82127.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Paris-82127.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Rendez-vous-a-Paris-82127.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Ristretto-Intense-Cafe-55001.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Ristretto-Intense-Cafe-55001.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Ristretto-Intense-Cafe-55001.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Ristretto-Intense-Cafe-55001.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Rose-Night-28011.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Rose-Night-28011.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Rose-Night-28011.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Rose-Night-28011.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Roses-Elixir-9222.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Roses-Elixir-9222.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Roses-Elixir-9222.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Roses-Elixir-9222.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Roses-Musk-1148.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Roses-Musk-1148.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Roses-Musk-1148.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Roses-Musk-1148.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Roses-Musk-Limited-Edition-56009.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Roses-Musk-Limited-Edition-56009.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Roses-Musk-Limited-Edition-56009.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Roses-Musk-Limited-Edition-56009.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Sandflowers-3766.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sandflowers-3766.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Sandflowers-3766.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Sandflowers-3766.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Santal-Wood-14842.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Santal-Wood-14842.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Santal-Wood-14842.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Santal-Wood-14842.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Sensual-Instinct-53675.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sensual-Instinct-53675.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Sensual-Instinct-53675.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Sensual-Instinct-53675.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Soleil-de-Capri-3767.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Soleil-de-Capri-3767.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Soleil-de-Capri-3767.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Soleil-de-Capri-3767.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Spicy-Aoud-41075.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Spicy-Aoud-41075.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Spicy-Aoud-41075.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Spicy-Aoud-41075.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Starry-Nights-31771.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Starry-Nights-31771.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Starry-Nights-31771.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Starry-Nights-31771.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Starry-Nights-Intense-116411.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Starry-Nights-Intense-116411.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Starry-Nights-Intense-116411.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Starry-Nights-Intense-116411.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Sunset-Flowers-3238.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sunset-Flowers-3238.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Sunset-Flowers-3238.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Sunset-Flowers-3238.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Sweet-Flowers-51489.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sweet-Flowers-51489.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Sweet-Flowers-51489.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Sweet-Flowers-51489.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Sweet-Oriental-Dream-3768.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sweet-Oriental-Dream-3768.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Sweet-Oriental-Dream-3768.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Sweet-Oriental-Dream-3768.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Sweet-Peony-46099.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sweet-Peony-46099.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Sweet-Peony-46099.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Sweet-Peony-46099.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Sweet-Vanilla-39411.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Sweet-Vanilla-39411.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Sweet-Vanilla-39411.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Sweet-Vanilla-39411.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Tropical-Wood-35972.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Tropical-Wood-35972.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Tropical-Wood-35972.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Tropical-Wood-35972.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Vanilla-Cake-48948.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Vanilla-Cake-48948.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Vanilla-Cake-48948.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Vanilla-Cake-48948.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Vanilla-Extasy-4059.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Vanilla-Extasy-4059.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Vanilla-Extasy-4059.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Vanilla-Extasy-4059.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Vanille-Absolu-4064.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Vanille-Absolu-4064.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Vanille-Absolu-4064.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Vanille-Absolu-4064.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Velvet-Fantasy-59891.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Velvet-Fantasy-59891.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Velvet-Fantasy-59891.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Velvet-Fantasy-59891.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Velvet-Flowers-9561.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Velvet-Flowers-9561.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Velvet-Flowers-9561.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Velvet-Flowers-9561.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Vetiver-Patchouli-54890.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Vetiver-Patchouli-54890.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Vetiver-Patchouli-54890.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Vetiver-Patchouli-54890.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/White-Aoud-1146.html | Ad: https://www.fragrantica.tr/perfumes/Montale/White-Aoud-1146.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/White-Aoud-1146.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/White-Aoud-1146.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/White-Musk-3770.html | Ad: https://www.fragrantica.tr/perfumes/Montale/White-Musk-3770.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/White-Musk-3770.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/White-Musk-3770.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Wild-Aoud-6647.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Wild-Aoud-6647.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Wild-Aoud-6647.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Wild-Aoud-6647.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Wild-Pears-12302.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Wild-Pears-12302.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Wild-Pears-12302.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Wild-Pears-12302.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Wood-and-Spices-1147.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Wood-and-Spices-1147.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Wood-and-Spices-1147.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Wood-and-Spices-1147.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Wood-On-Fire-71301.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Wood-On-Fire-71301.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Wood-On-Fire-71301.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Wood-On-Fire-71301.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Diamond-Flowers-44865.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Diamond-Flowers-44865.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Diamond-Flowers-44865.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Diamond-Flowers-44865.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Diamond-Greedy-44867.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Diamond-Greedy-44867.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Diamond-Greedy-44867.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Diamond-Greedy-44867.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Diamond-Rose-44866.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Diamond-Rose-44866.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Diamond-Rose-44866.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Diamond-Rose-44866.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Montale/Rendez-Vous-Chez-Harrods-93893.html | Ad: https://www.fragrantica.tr/perfumes/Montale/Rendez-Vous-Chez-Harrods-93893.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Montale/Rendez-Vous-Chez-Harrods-93893.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Montale/Rendez-Vous-Chez-Harrods-93893.html", waiting until "domcontentloaded"
+

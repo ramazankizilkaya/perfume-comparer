@@ -2,46 +2,175 @@ toplam parfüm: 43
 çekilen parfüm: 0
 fail eden parfüm: 43
 fail eden parfüm listesi:
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Alcazar-24448.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Alcazar-24448.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Altamir-2740.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Altamir-2740.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Black-Soul-6761.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Black-Soul-6761.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Black-Soul-Imperial-12949.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Black-Soul-Imperial-12949.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Blueted-2741.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Blueted-2741.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-28823.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-28823.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-1984-806.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-1984-806.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-de-Minuit-30519.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-de-Minuit-30519.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-The-Vert-5515.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-The-Vert-5515.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Fantasme-2742.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Fantasme-2742.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Fou-D-Elle-2743.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Fou-D-Elle-2743.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/L-Homme-131309.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/L-Homme-131309.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/La-Femme-131304.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/La-Femme-131304.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Cool-Night-84952.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Cool-Night-84952.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-5943.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-5943.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Black-Extreme-17085.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Black-Extreme-17085.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Gold-Extreme-29571.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Gold-Extreme-29571.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Sport-32627.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Sport-32627.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Woman-3554.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Woman-3554.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lovely-Fantasme-5604.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lovely-Fantasme-5604.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Orissima-41998.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Orissima-41998.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Orissima-Divine-54064.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Orissima-Divine-54064.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Poker-Face-51205.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Poker-Face-51205.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-22894.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-22894.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-Fever-77707.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-Fever-77707.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-Passion-15254.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-Passion-15254.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Silk-Way-5766.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Silk-Way-5766.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Ted-5942.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Ted-5942.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Intenso-55364.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Intenso-55364.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Pour-Elle-5940.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Pour-Elle-5940.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Pour-Lui-5941.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Pour-Lui-5941.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/White-Soul-11130.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/White-Soul-11130.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/White-Soul-Gold-Diamonds-18358.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/White-Soul-Gold-Diamonds-18358.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Oud-Blanc-28824.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Oud-Blanc-28824.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Oud-Noir-28825.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Oud-Noir-28825.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Divine-Passion-63840.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Divine-Passion-63840.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Seduction-Vibes-63843.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Seduction-Vibes-63843.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Sensual-Hero-63836.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Sensual-Hero-63836.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Sexy-Muse-63842.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Sexy-Muse-63842.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Suave-Skin-63841.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Suave-Skin-63841.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Supreme-Desire-63839.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Supreme-Desire-63839.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Torrid-Tempo-63837.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Torrid-Tempo-63837.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Wild-Attraction-63838.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Wild-Attraction-63838.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Alcazar-24448.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Alcazar-24448.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Alcazar-24448.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Alcazar-24448.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Altamir-2740.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Altamir-2740.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Altamir-2740.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Altamir-2740.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Black-Soul-6761.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Black-Soul-6761.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Black-Soul-6761.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Black-Soul-6761.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Black-Soul-Imperial-12949.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Black-Soul-Imperial-12949.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Black-Soul-Imperial-12949.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Black-Soul-Imperial-12949.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Blueted-2741.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Blueted-2741.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Blueted-2741.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Blueted-2741.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-28823.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-28823.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-28823.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-28823.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-1984-806.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-1984-806.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-1984-806.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-1984-806.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-de-Minuit-30519.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-de-Minuit-30519.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-de-Minuit-30519.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-de-Minuit-30519.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-The-Vert-5515.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-The-Vert-5515.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-The-Vert-5515.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Creation-The-Vert-5515.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Fantasme-2742.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Fantasme-2742.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Fantasme-2742.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Fantasme-2742.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Fou-D-Elle-2743.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Fou-D-Elle-2743.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Fou-D-Elle-2743.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Fou-D-Elle-2743.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/L-Homme-131309.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/L-Homme-131309.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/L-Homme-131309.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/L-Homme-131309.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/La-Femme-131304.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/La-Femme-131304.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/La-Femme-131304.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/La-Femme-131304.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Cool-Night-84952.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Cool-Night-84952.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Cool-Night-84952.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Cool-Night-84952.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-5943.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-5943.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-5943.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-5943.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Black-Extreme-17085.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Black-Extreme-17085.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Black-Extreme-17085.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Black-Extreme-17085.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Gold-Extreme-29571.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Gold-Extreme-29571.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Gold-Extreme-29571.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Gold-Extreme-29571.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Sport-32627.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Sport-32627.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Sport-32627.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Pour-Homme-Sport-32627.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Woman-3554.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Woman-3554.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Woman-3554.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lapidus-Woman-3554.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lovely-Fantasme-5604.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lovely-Fantasme-5604.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lovely-Fantasme-5604.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Lovely-Fantasme-5604.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Orissima-41998.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Orissima-41998.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Orissima-41998.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Orissima-41998.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Orissima-Divine-54064.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Orissima-Divine-54064.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Orissima-Divine-54064.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Orissima-Divine-54064.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Poker-Face-51205.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Poker-Face-51205.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Poker-Face-51205.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Poker-Face-51205.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-22894.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-22894.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-22894.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-22894.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-Fever-77707.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-Fever-77707.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-Fever-77707.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-Fever-77707.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-Passion-15254.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-Passion-15254.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-Passion-15254.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Rumba-Passion-15254.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Silk-Way-5766.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Silk-Way-5766.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Silk-Way-5766.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Silk-Way-5766.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Ted-5942.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Ted-5942.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Ted-5942.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Ted-5942.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Intenso-55364.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Intenso-55364.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Intenso-55364.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Intenso-55364.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Pour-Elle-5940.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Pour-Elle-5940.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Pour-Elle-5940.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Pour-Elle-5940.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Pour-Lui-5941.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Pour-Lui-5941.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Pour-Lui-5941.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/TL-Pour-Lui-5941.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/White-Soul-11130.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/White-Soul-11130.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/White-Soul-11130.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/White-Soul-11130.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/White-Soul-Gold-Diamonds-18358.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/White-Soul-Gold-Diamonds-18358.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/White-Soul-Gold-Diamonds-18358.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/White-Soul-Gold-Diamonds-18358.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Oud-Blanc-28824.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Oud-Blanc-28824.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Oud-Blanc-28824.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Oud-Blanc-28824.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Oud-Noir-28825.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Oud-Noir-28825.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Oud-Noir-28825.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Oud-Noir-28825.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Divine-Passion-63840.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Divine-Passion-63840.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Divine-Passion-63840.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Divine-Passion-63840.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Seduction-Vibes-63843.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Seduction-Vibes-63843.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Seduction-Vibes-63843.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Seduction-Vibes-63843.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Sensual-Hero-63836.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Sensual-Hero-63836.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Sensual-Hero-63836.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Sensual-Hero-63836.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Sexy-Muse-63842.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Sexy-Muse-63842.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Sexy-Muse-63842.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Sexy-Muse-63842.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Suave-Skin-63841.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Suave-Skin-63841.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Suave-Skin-63841.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Suave-Skin-63841.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Supreme-Desire-63839.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Supreme-Desire-63839.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Supreme-Desire-63839.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Supreme-Desire-63839.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Torrid-Tempo-63837.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Torrid-Tempo-63837.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Torrid-Tempo-63837.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Torrid-Tempo-63837.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Ted-Lapidus/Wild-Attraction-63838.html | Ad: https://www.fragrantica.tr/perfumes/Ted-Lapidus/Wild-Attraction-63838.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Ted-Lapidus/Wild-Attraction-63838.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Ted-Lapidus/Wild-Attraction-63838.html", waiting until "domcontentloaded"
+

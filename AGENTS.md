@@ -65,7 +65,9 @@ cd src/perfume-comparer-web && npm run build && npm run lint
 
 Scraping / data:
 ```bash
-python3 scripts/scrape_perfumes.py                 # every brand (long!)
+python3 scripts/scrape_perfumes.py                 # every brand, single worker (~30h for the full set)
+python3 scripts/scrape_perfumes.py --parallel      # every brand, one worker per SOCKS5 endpoint (~4h)
+python3 scripts/scrape_perfumes.py --parallel 4    # same, but 4 workers
 python3 scripts/scrape_perfumes.py afnan           # one brand
 python3 scripts/scrape_perfumes.py afnan 10        # one brand, first 10
 python3 scripts/scrape_perfumes.py --check-proxy   # test VPN + SOCKS5 credentials
@@ -87,6 +89,8 @@ Env vars:
 - `NORD_SERVICE_USER` / `NORD_SERVICE_PASS` — Nord **service credentials** (not the account password; from nordaccount.com → NordVPN → Manual setup). Without them tier 2 is skipped.
 
 Scraping is resumable: existing valid JSON files are skipped, and `report.txt` per brand records totals and failures.
+
+**Parallel mode** (`--parallel [workers]`) splits the brands round-robin across processes. Each worker gets an exclusive slice of the SOCKS5 endpoint list and opens **one relay for its whole lifetime**, reused across every brand — opening a relay per brand floods Nord's concurrent-connection limit, which makes every endpoint start failing its probe and collapses the run. Keep the relay worker-scoped. VPN rotation is disabled in parallel mode because the system VPN is global and would affect every worker at once. Without Nord credentials all workers share one IP, which hits limits much faster.
 
 ## Scraped Perfume JSON Shape
 `name`, `targetGender`, `image`, `url`, `brand`, `description`, `mainAccords[{name,width}]`,

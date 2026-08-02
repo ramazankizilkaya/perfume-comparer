@@ -2,58 +2,223 @@ toplam parfüm: 55
 çekilen parfüm: 0
 fail eden parfüm: 55
 fail eden parfüm listesi:
-  - https://www.fragrantica.tr/perfumes/Nishane/A-Date-With-Oud-114860.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/A-Date-With-Oud-114860.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Nishane/Meant-To-Be-Seen-116224.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Meant-To-Be-Seen-116224.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Nishane/Meltemia-137049.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Meltemia-137049.html | Hata: HTTP Status 429
-  - https://www.fragrantica.tr/perfumes/Nishane/Nanshe-64093.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Nanshe-64093.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Duftblueten-30582.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Duftblueten-30582.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Rosa-Turca-30585.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Rosa-Turca-30585.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Tuberoza-30581.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Tuberoza-30581.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Vjola-30584.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Vjola-30584.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Shinanay-91734.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Shinanay-91734.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Unutamam-54787.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Unutamam-54787.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Colognise-49401.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Colognise-49401.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Hesperide-Colognise-87331.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Hesperide-Colognise-87331.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Safran-Colognise-54790.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Safran-Colognise-54790.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Favonius-70388.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Favonius-70388.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Oudous-Lux-Solis-111174.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Oudous-Lux-Solis-111174.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/B-612-49214.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/B-612-49214.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Vain-Naive-49215.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Vain-Naive-49215.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Ambra-Calabria-30568.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Ambra-Calabria-30568.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Boszporusz-30569.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Boszporusz-30569.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Munegu-30573.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Munegu-30573.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Pasion-Choco-30570.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Pasion-Choco-30570.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Santalove-30571.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Santalove-30571.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Spice-Bazaar-30572.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Spice-Bazaar-30572.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Sultan-Vetiver-30574.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Sultan-Vetiver-30574.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Wulong-Cha-30567.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Wulong-Cha-30567.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Ani-54785.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Ani-54785.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/EGE-AIGAIO-64092.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/EGE-AIGAIO-64092.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Florane-54789.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Florane-54789.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Muskane-54788.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Muskane-54788.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Hacivat-Oud-80999.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Hacivat-Oud-80999.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Mana-72701.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Mana-72701.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Nefs-54786.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Nefs-54786.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Shem-66277.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Shem-66277.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Fan-Your-Flames-37603.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Fan-Your-Flames-37603.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Hundred-Silent-Ways-37602.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Hundred-Silent-Ways-37602.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Thorns-Become-Roses-134972.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Thorns-Become-Roses-134972.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Oudous-Cerasus-113630.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Oudous-Cerasus-113630.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Hacivat-44174.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Hacivat-44174.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Karagoz-44176.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Karagoz-44176.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Zenne-44175.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Zenne-44175.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Afrika-Olifant-30589.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Afrika-Olifant-30589.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Musiqa-Oud-30588.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Musiqa-Oud-30588.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Pachuli-Kozha-30587.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Pachuli-Kozha-30587.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Suede-et-Safran-30586.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Suede-et-Safran-30586.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Deziro-93684.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Deziro-93684.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Kredo-74670.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Kredo-74670.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Papilefiko-74667.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Papilefiko-74667.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Tempfluo-74668.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Tempfluo-74668.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Tero-74669.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Tero-74669.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Ani-X-80464.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Ani-X-80464.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Fan-Your-Flames-X-80466.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Fan-Your-Flames-X-80466.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Hacivat-X-80462.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Hacivat-X-80462.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Hundred-Silent-Ways-X-80463.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Hundred-Silent-Ways-X-80463.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Tuberoza-X-90964.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Tuberoza-X-90964.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
-  - https://www.fragrantica.tr/perfumes/Nishane/Wulong-Cha-X-80465.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Wulong-Cha-X-80465.html | Hata: IP Engellendi / Kısıtlandı (HTTP 400 / 403 / 429)
+  - https://www.fragrantica.tr/perfumes/Nishane/A-Date-With-Oud-114860.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/A-Date-With-Oud-114860.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/A-Date-With-Oud-114860.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/A-Date-With-Oud-114860.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Meant-To-Be-Seen-116224.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Meant-To-Be-Seen-116224.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Meant-To-Be-Seen-116224.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Meant-To-Be-Seen-116224.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Meltemia-137049.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Meltemia-137049.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Meltemia-137049.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Meltemia-137049.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Nanshe-64093.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Nanshe-64093.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Nanshe-64093.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Nanshe-64093.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Duftblueten-30582.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Duftblueten-30582.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Duftblueten-30582.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Duftblueten-30582.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Rosa-Turca-30585.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Rosa-Turca-30585.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Rosa-Turca-30585.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Rosa-Turca-30585.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Tuberoza-30581.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Tuberoza-30581.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Tuberoza-30581.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Tuberoza-30581.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Vjola-30584.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Vjola-30584.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Vjola-30584.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Vjola-30584.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Shinanay-91734.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Shinanay-91734.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Shinanay-91734.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Shinanay-91734.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Unutamam-54787.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Unutamam-54787.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Unutamam-54787.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Unutamam-54787.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Colognise-49401.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Colognise-49401.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Colognise-49401.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Colognise-49401.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Hesperide-Colognise-87331.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Hesperide-Colognise-87331.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Hesperide-Colognise-87331.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Hesperide-Colognise-87331.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Safran-Colognise-54790.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Safran-Colognise-54790.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Safran-Colognise-54790.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Safran-Colognise-54790.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Favonius-70388.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Favonius-70388.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Favonius-70388.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Favonius-70388.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Oudous-Lux-Solis-111174.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Oudous-Lux-Solis-111174.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Oudous-Lux-Solis-111174.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Oudous-Lux-Solis-111174.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/B-612-49214.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/B-612-49214.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/B-612-49214.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/B-612-49214.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Vain-Naive-49215.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Vain-Naive-49215.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Vain-Naive-49215.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Vain-Naive-49215.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Ambra-Calabria-30568.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Ambra-Calabria-30568.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Ambra-Calabria-30568.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Ambra-Calabria-30568.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Boszporusz-30569.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Boszporusz-30569.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Boszporusz-30569.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Boszporusz-30569.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Munegu-30573.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Munegu-30573.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Munegu-30573.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Munegu-30573.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Pasion-Choco-30570.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Pasion-Choco-30570.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Pasion-Choco-30570.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Pasion-Choco-30570.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Santalove-30571.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Santalove-30571.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Santalove-30571.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Santalove-30571.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Spice-Bazaar-30572.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Spice-Bazaar-30572.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Spice-Bazaar-30572.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Spice-Bazaar-30572.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Sultan-Vetiver-30574.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Sultan-Vetiver-30574.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Sultan-Vetiver-30574.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Sultan-Vetiver-30574.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Wulong-Cha-30567.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Wulong-Cha-30567.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Wulong-Cha-30567.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Wulong-Cha-30567.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Ani-54785.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Ani-54785.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Ani-54785.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Ani-54785.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/EGE-AIGAIO-64092.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/EGE-AIGAIO-64092.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/EGE-AIGAIO-64092.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/EGE-AIGAIO-64092.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Florane-54789.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Florane-54789.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Florane-54789.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Florane-54789.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Muskane-54788.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Muskane-54788.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Muskane-54788.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Muskane-54788.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Hacivat-Oud-80999.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Hacivat-Oud-80999.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Hacivat-Oud-80999.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Hacivat-Oud-80999.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Mana-72701.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Mana-72701.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Mana-72701.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Mana-72701.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Nefs-54786.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Nefs-54786.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Nefs-54786.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Nefs-54786.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Shem-66277.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Shem-66277.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Shem-66277.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Shem-66277.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Fan-Your-Flames-37603.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Fan-Your-Flames-37603.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Fan-Your-Flames-37603.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Fan-Your-Flames-37603.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Hundred-Silent-Ways-37602.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Hundred-Silent-Ways-37602.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Hundred-Silent-Ways-37602.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Hundred-Silent-Ways-37602.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Thorns-Become-Roses-134972.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Thorns-Become-Roses-134972.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Thorns-Become-Roses-134972.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Thorns-Become-Roses-134972.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Oudous-Cerasus-113630.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Oudous-Cerasus-113630.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Oudous-Cerasus-113630.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Oudous-Cerasus-113630.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Hacivat-44174.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Hacivat-44174.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Hacivat-44174.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Hacivat-44174.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Karagoz-44176.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Karagoz-44176.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Karagoz-44176.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Karagoz-44176.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Zenne-44175.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Zenne-44175.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Zenne-44175.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Zenne-44175.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Afrika-Olifant-30589.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Afrika-Olifant-30589.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Afrika-Olifant-30589.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Afrika-Olifant-30589.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Musiqa-Oud-30588.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Musiqa-Oud-30588.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Musiqa-Oud-30588.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Musiqa-Oud-30588.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Pachuli-Kozha-30587.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Pachuli-Kozha-30587.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Pachuli-Kozha-30587.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Pachuli-Kozha-30587.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Suede-et-Safran-30586.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Suede-et-Safran-30586.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Suede-et-Safran-30586.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Suede-et-Safran-30586.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Deziro-93684.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Deziro-93684.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Deziro-93684.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Deziro-93684.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Kredo-74670.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Kredo-74670.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Kredo-74670.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Kredo-74670.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Papilefiko-74667.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Papilefiko-74667.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Papilefiko-74667.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Papilefiko-74667.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Tempfluo-74668.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Tempfluo-74668.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Tempfluo-74668.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Tempfluo-74668.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Tero-74669.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Tero-74669.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Tero-74669.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Tero-74669.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Ani-X-80464.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Ani-X-80464.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Ani-X-80464.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Ani-X-80464.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Fan-Your-Flames-X-80466.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Fan-Your-Flames-X-80466.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Fan-Your-Flames-X-80466.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Fan-Your-Flames-X-80466.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Hacivat-X-80462.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Hacivat-X-80462.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Hacivat-X-80462.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Hacivat-X-80462.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Hundred-Silent-Ways-X-80463.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Hundred-Silent-Ways-X-80463.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Hundred-Silent-Ways-X-80463.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Hundred-Silent-Ways-X-80463.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Tuberoza-X-90964.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Tuberoza-X-90964.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Tuberoza-X-90964.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Tuberoza-X-90964.html", waiting until "domcontentloaded"
+
+  - https://www.fragrantica.tr/perfumes/Nishane/Wulong-Cha-X-80465.html | Ad: https://www.fragrantica.tr/perfumes/Nishane/Wulong-Cha-X-80465.html | Hata: Navigasyon hatası: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.fragrantica.tr/perfumes/Nishane/Wulong-Cha-X-80465.html
+Call log:
+  - navigating to "https://www.fragrantica.tr/perfumes/Nishane/Wulong-Cha-X-80465.html", waiting until "domcontentloaded"
+
