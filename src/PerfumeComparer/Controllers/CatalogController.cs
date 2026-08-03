@@ -14,7 +14,11 @@ namespace PerfumeComparer.Controllers;
 
 [ApiController]
 [Route("api")]
-public class CatalogController(ICatalogService catalog, AppDbContext db, ITokenService tokens) : ControllerBase
+public class CatalogController(
+    ICatalogService catalog,
+    IUsageService usage,
+    AppDbContext db,
+    ITokenService tokens) : ControllerBase
 {
     [HttpGet("perfumes")]
     public async Task<IActionResult> GetPerfumes([FromQuery] PerfumeListQuery query, CancellationToken ct)
@@ -49,6 +53,28 @@ public class CatalogController(ICatalogService catalog, AppDbContext db, ITokenS
     {
         var result = await catalog.GetFilterMetaAsync(ct);
         return Ok(result);
+    }
+
+    public record UsageDto(string AgeGroup);
+
+    /// <summary>
+    /// "Bu parfümü kullanıyorum" bildirimi. Yaş grubu dağılımının tek kaynağı budur;
+    /// giriş zorunlu değildir, ama girişli kullanıcı parfüm başına yalnızca bir kez sayılır.
+    /// </summary>
+    [HttpPost("perfumes/{slug}/kullaniyorum")]
+    public async Task<IActionResult> RecordUsage(string slug, [FromBody] UsageDto dto, CancellationToken ct)
+    {
+        var userId = tokens.Validate(Request.Headers.Authorization.ToString())?.UserId;
+
+        try
+        {
+            var result = await usage.RecordAsync(slug, dto.AgeGroup, userId, ct);
+            return result is null ? NotFound(new { message = "Parfüm bulunamadı." }) : Ok(result);
+        }
+        catch (ArgumentException)
+        {
+            return BadRequest(new { message = "Lütfen geçerli bir yaş grubu seçin." });
+        }
     }
 
     /// <summary>
@@ -142,10 +168,11 @@ public class CatalogController(ICatalogService catalog, AppDbContext db, ITokenS
         db.PerfumeComments.Add(comment);
         await db.SaveChangesAsync(ct);
 
-        // Parfümün ortalama puanını ve değerlendirme sayısını güncelle
+        // Site kullanıcılarının ortalamasını güncelle. Kartlarda görünen AvgRating
+        // topluluk puanıdır (kaynak veriden gelir), buradan değişmez.
         var ratings = await db.Ratings.Where(r => r.PerfumeId == perfume.Id).Select(r => r.Score).ToListAsync(ct);
-        perfume.RatingCount = ratings.Count;
-        perfume.AvgRating = ratings.Count > 0 ? (decimal)ratings.Average(r => r) : 0m;
+        perfume.UserRatingCount = ratings.Count;
+        perfume.UserAvgRating = ratings.Count > 0 ? (decimal)ratings.Average(r => r) : 0m;
 
         await db.SaveChangesAsync(ct);
 

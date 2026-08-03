@@ -10,6 +10,7 @@ public class PerfumeSearchRow
     // Ham enum adları ("Edp" / "Floral"); etiket ve slug bunlardan türetilir.
     public string? Concentration { get; set; }
     public string? FragranceFamily { get; set; }
+    public int? ReleaseYear { get; set; }
     public string? ImageUrl { get; set; }
     public decimal AvgRating { get; set; }
     public int RatingCount { get; set; }

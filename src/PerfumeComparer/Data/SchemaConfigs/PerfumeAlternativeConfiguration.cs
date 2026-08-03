@@ -8,9 +8,11 @@ public class PerfumeAlternativeConfiguration : IEntityTypeConfiguration<PerfumeA
 {
     public void Configure(EntityTypeBuilder<PerfumeAlternative> builder)
     {
-        builder.HasKey(pa => new { pa.SourcePerfumeId, pa.TargetPerfumeId });
+        builder.HasKey(pa => new { pa.SourcePerfumeId, pa.TargetPerfumeId, pa.Kind });
 
+        builder.Property(pa => pa.Kind).HasConversion<string>().HasMaxLength(20);
         builder.Property(pa => pa.Note).HasMaxLength(500);
+        builder.Property(pa => pa.CreatedAt).HasDefaultValueSql("now()");
 
         builder.HasOne(pa => pa.SourcePerfume)
             .WithMany(p => p.AlternativesAsSource)

@@ -8,9 +8,14 @@ public class BrandConfiguration : IEntityTypeConfiguration<Brand>
 {
     public void Configure(EntityTypeBuilder<Brand> builder)
     {
-        builder.Property(b => b.Name).HasMaxLength(100);
-        builder.Property(b => b.Slug).HasMaxLength(120);
+        builder.Property(b => b.Name).HasMaxLength(120);
+        builder.Property(b => b.Slug).HasMaxLength(140);
         builder.Property(b => b.Country).HasMaxLength(60);
+        builder.Property(b => b.MainActivity).HasMaxLength(120);
+        builder.Property(b => b.WebsiteUrl).HasMaxLength(300);
+        builder.Property(b => b.ParentCompany).HasMaxLength(120);
+        builder.Property(b => b.SourceUrl).HasMaxLength(500);
+        builder.Property(b => b.LogoUrl).HasMaxLength(300);
         builder.Property(b => b.CreatedAt).HasDefaultValueSql("now()");
 
         builder.HasIndex(b => b.Slug).IsUnique();

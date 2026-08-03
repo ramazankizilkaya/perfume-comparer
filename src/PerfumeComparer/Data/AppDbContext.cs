@@ -7,9 +7,13 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
 {
     public DbSet<Brand> Brands => Set<Brand>();
     public DbSet<Perfume> Perfumes => Set<Perfume>();
+    public DbSet<Note> Notes => Set<Note>();
+    public DbSet<Accord> Accords => Set<Accord>();
+    public DbSet<PerfumeAccord> PerfumeAccords => Set<PerfumeAccord>();
     public DbSet<PerfumeNote> PerfumeNotes => Set<PerfumeNote>();
     public DbSet<PerfumeSeason> PerfumeSeasons => Set<PerfumeSeason>();
     public DbSet<PerfumeAgeGroup> PerfumeAgeGroups => Set<PerfumeAgeGroup>();
+    public DbSet<PerfumeUsage> PerfumeUsages => Set<PerfumeUsage>();
     public DbSet<AppUser> Users => Set<AppUser>();
     public DbSet<Rating> Ratings => Set<Rating>();
     public DbSet<PerfumeComment> PerfumeComments => Set<PerfumeComment>();

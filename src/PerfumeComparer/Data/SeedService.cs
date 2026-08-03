@@ -1,15 +1,9 @@
 using System;
 using System.Collections.Generic;
-using System.Globalization;
-using System.IO;
 using System.Linq;
-using System.Text.Json;
-using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using PerfumeComparer.Domain;
 using PerfumeComparer.Domain.Entities;
@@ -18,26 +12,26 @@ using PerfumeComparer.Data.Persistence;
 namespace PerfumeComparer.Data;
 
 /// <summary>
-/// Şemaları tek tek tohumlar. Otomatik çalışmaz; /admin ekranından tetiklenir.
-/// Her adım idempotenttir: zaten dolu olan şemayı atlar.
+/// Örnek kullanıcı, blog ve yorum verisini tohumlar. Otomatik çalışmaz; /admin
+/// ekranından tetiklenir ve her adım idempotenttir.
+/// Marka ve parfüm katalogu buradan gelmez: gerçek veri scrape_files klasöründedir
+/// ve scripts/import_data.py ile aktarılır.
 /// </summary>
-public partial class SeedService(
-    AppDbContext db,
-    IWebHostEnvironment env,
-    IConfiguration configuration,
-    ILogger<SeedService> logger) : ISeedService
+public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedService
 {
-    [GeneratedRegex(@"(\d+)\s*ML", RegexOptions.IgnoreCase)]
-    private static partial Regex SizeRegex();
+    /// <summary>Örnek yorum basılan parfüm sayısı (en çok oy alanlar).</summary>
+    private const int CommentedPerfumeCount = 60;
+
+    /// <summary>Karşılaştırma yorumu için çift kurulan parfüm havuzu.</summary>
+    private const int ComparedPerfumeCount = 40;
 
     /// <summary>Adım sırası = bağımlılık sırası. "Hepsini tohumla" bu sırayla çalışır.</summary>
     private static readonly (string Key, string Label, string Description, string Requires)[] Steps =
     [
-        ("katalog", "Katalog", "Markalar, parfümler, notalar, mevsim ve yaş grubu skorları", ""),
         ("kullanicilar", "Kullanıcılar", "Yorum ve blog yazarı olarak kullanılan örnek hesaplar", ""),
         ("bloglar", "Blog yazıları", "Koku rehberi yazıları", "kullanicilar"),
-        ("yorumlar", "Parfüm yorumları", "Kullanıcı yorumları + puanlar (ortalama puanı da günceller)", "katalog, kullanicilar"),
-        ("karsilastirma-yorumlari", "Karşılaştırma yorumları", "İki parfüm hakkındaki tartışmalar", "katalog, kullanicilar"),
+        ("yorumlar", "Parfüm yorumları", "Kullanıcı yorumları + puanlar", "parfüm verisi, kullanicilar"),
+        ("karsilastirma-yorumlari", "Karşılaştırma yorumları", "İki parfüm hakkındaki tartışmalar", "parfüm verisi, kullanicilar"),
     ];
 
     // ---------------------------------------------------------------- şema
@@ -82,7 +76,6 @@ public partial class SeedService(
 
         var counts = new Dictionary<string, int>
         {
-            ["katalog"] = await db.Perfumes.CountAsync(ct),
             ["kullanicilar"] = await db.Users.CountAsync(ct),
             ["bloglar"] = await db.BlogPosts.CountAsync(ct),
             ["yorumlar"] = await db.PerfumeComments.CountAsync(ct),
@@ -106,7 +99,6 @@ public partial class SeedService(
 
         return key switch
         {
-            "katalog" => await SeedCatalogAsync(ct),
             "kullanicilar" => await SeedUsersAsync(ct),
             "bloglar" => await SeedBlogPostsAsync(ct),
             "yorumlar" => await SeedPerfumeCommentsAsync(ct),
@@ -121,149 +113,6 @@ public partial class SeedService(
         foreach (var step in Steps)
             results.Add(await SeedStepAsync(step.Key, ct));
         return results;
-    }
-
-    private async Task<SeedStepResult> SeedCatalogAsync(CancellationToken ct)
-    {
-        const string key = "katalog";
-        const string label = "Katalog";
-
-        if (await db.Perfumes.AnyAsync(ct))
-            return new SeedStepResult(key, label, true, "Zaten dolu, atlandı.", await db.Perfumes.CountAsync(ct));
-
-        var seedPath = Path.GetFullPath(Path.Combine(
-            env.ContentRootPath,
-            configuration["SeedData:PerfumesJson"] ?? "../../docs/perfumes.json"));
-
-        var metaPath = Path.GetFullPath(Path.Combine(
-            env.ContentRootPath,
-            configuration["SeedData:MetaJson"] ?? "Data/SeedData/seed-meta.json"));
-
-        if (!File.Exists(seedPath))
-            return new SeedStepResult(key, label, false, $"Katalog dosyası bulunamadı: {seedPath}", 0);
-        if (!File.Exists(metaPath))
-            return new SeedStepResult(key, label, false, $"Meta dosyası bulunamadı: {metaPath}", 0);
-
-        var jsonOptions = new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower };
-
-        var meta = JsonSerializer.Deserialize<SeedMeta>(await File.ReadAllTextAsync(metaPath, ct), jsonOptions)
-            ?? new SeedMeta([], [], []);
-
-        var rows = JsonSerializer.Deserialize<List<SeedRow>>(await File.ReadAllTextAsync(seedPath, ct), jsonOptions)
-            ?? [];
-
-        // Nota, konsantrasyon, koku ailesi, mevsim ve yaş grubu enum — tablo tohumlanmaz.
-        var allNotes = Enum.GetValues<Note>();
-        var allSeasons = Enum.GetValues<Season>();
-        var allAgeGroups = Enum.GetValues<AgeGroup>();
-
-        var brands = meta.Brands
-            .Select(b => new Brand
-            {
-                Name = b.Name,
-                Slug = SlugHelper.Slugify(b.Name),
-                Country = b.Country,
-                Description = b.Description,
-                LogoUrl = b.LogoUrl,
-            })
-            .ToDictionary(b => b.Name, StringComparer.OrdinalIgnoreCase);
-        db.Brands.AddRange(brands.Values);
-
-        var perfumes = new Dictionary<string, Perfume>();
-        var familyFallback = 0;
-        var concentrationFallback = 0;
-
-        foreach (var row in rows)
-        {
-            var brandName = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(row.Brand.ToLowerInvariant());
-            if (!brands.TryGetValue(brandName, out var brand))
-            {
-                brand = new Brand { Name = brandName, Slug = SlugHelper.Slugify(brandName) };
-                brands[brandName] = brand;
-                db.Brands.Add(brand);
-            }
-
-            var (cleanName, concentrationName, _) = ParseName(row.Name, brandName, meta.ConcentrationTokens);
-
-            // Her parfümün bir konsantrasyonu olmalı: URL ve breadcrumb seviyeleri
-            // aksi halde parfümden parfüme değişiyor (kadın/erkek sayfaları farklı görünüyordu).
-            var concentration = Lookups.ConcentrationFromName(concentrationName)
-                ?? FallbackConcentration(concentrationFallback++);
-
-            var slug = SlugHelper.Slugify($"{brand.Slug} {cleanName} {concentration.Slug()}");
-            if (!perfumes.ContainsKey(slug))
-            {
-                var perfume = new Perfume
-                {
-                    Brand = brand,
-                    Name = cleanName,
-                    Slug = slug,
-                    Gender = ParseGender(row.Gender, row.Name),
-                    Concentration = concentration,
-                    FragranceFamily = ResolveFamily(row.Name, meta.FragranceFamilyRules, familyFallback++),
-                    ImageUrl = row.ImageUrl,
-                    IsPublished = true,
-                };
-                perfumes[slug] = perfume;
-                db.Perfumes.Add(perfume);
-            }
-        }
-
-        var i = 0;
-        foreach (var perfume in perfumes.Values)
-        {
-            // Her katmana birden fazla, katmanlar arası çakışmayan nota ekle.
-            void AddNotes(NoteLayer layer, params int[] offsets)
-            {
-                foreach (var off in offsets)
-                {
-                    var note = allNotes[(i + off) % allNotes.Length];
-                    if (!perfume.Notes.Any(n => n.Note == note))
-                        perfume.Notes.Add(new PerfumeNote { Note = note, Layer = layer });
-                }
-            }
-            AddNotes(NoteLayer.Top, 0, 1, 6);
-            AddNotes(NoteLayer.Middle, 3, 8, 11);
-            AddNotes(NoteLayer.Base, 5, 10, 13);
-
-            // Tüm mevsim ve yaş gruplarına puan ver; barlar tek satır değil dolu görünsün.
-            for (var s = 0; s < allSeasons.Length; s++)
-                perfume.Seasons.Add(new PerfumeSeason { Season = allSeasons[s], Score = (short)(45 + (i * 7 + s * 13) % 55) });
-            for (var a = 0; a < allAgeGroups.Length; a++)
-                perfume.AgeGroups.Add(new PerfumeAgeGroup { AgeGroup = allAgeGroups[a], Score = (short)(40 + (i * 5 + a * 17) % 55) });
-
-            perfume.ReleaseYear = 2015 + (i % 11);
-            perfume.Description = BuildDescription(perfume);
-            i++;
-        }
-
-        await db.SaveChangesAsync(ct);
-
-        // Muadil Markalar ve Örnek Muadil Seed Verisi
-        var dupeBrands = new List<DupeBrand>
-        {
-            new() { Name = "MAD Parfüm", Slug = "mad-parfum", OfficialUrl = "https://www.madparfum.com" },
-            new() { Name = "Bargello", Slug = "bargello", OfficialUrl = "https://www.bargello.com.tr" },
-            new() { Name = "Muscent", Slug = "muscent", OfficialUrl = "https://www.muscent.com.tr" },
-        };
-        db.DupeBrands.AddRange(dupeBrands);
-        await db.SaveChangesAsync(ct);
-
-        var samplePerfume = perfumes.Values.FirstOrDefault();
-        if (samplePerfume is not null)
-        {
-            db.PerfumeDupes.AddRange(new[]
-            {
-                new PerfumeDupe { PerfumeId = samplePerfume.Id, DupeBrandId = dupeBrands[0].Id, ProductCode = "E101", Url = "https://www.madparfum.com", SimilarityRate = 90 },
-                new PerfumeDupe { PerfumeId = samplePerfume.Id, DupeBrandId = dupeBrands[1].Id, ProductCode = "561", Url = "https://www.bargello.com.tr", SimilarityRate = 85 },
-            });
-            await db.SaveChangesAsync(ct);
-        }
-
-        logger.LogInformation("Katalog tohumlandı: {Brands} marka, {Perfumes} parfüm", brands.Count, perfumes.Count);
-
-        return new SeedStepResult(key, label, true,
-            $"{brands.Count} marka, {perfumes.Count} parfüm eklendi.", perfumes.Count);
     }
 
     private async Task<SeedStepResult> SeedUsersAsync(CancellationToken ct)
@@ -387,13 +236,34 @@ public partial class SeedService(
         const string key = "yorumlar";
         const string label = "Parfüm yorumları";
 
-        var perfumes = await db.Perfumes.ToListAsync(ct);
+        // Katalogda 16 binden fazla parfüm var; örnek yorumu hepsine değil
+        // sadece en çok oy alan parfümlere basıyoruz.
+        var perfumes = await db.Perfumes
+            .OrderByDescending(p => p.RatingCount)
+            .Take(CommentedPerfumeCount)
+            .ToListAsync(ct);
+
         if (perfumes.Count == 0)
-            return new SeedStepResult(key, label, false, "Önce “Katalog” şemasını tohumlayın.", 0);
+            return new SeedStepResult(key, label, false, "Önce parfüm verisini içe aktarın: scripts/import_data.py", 0);
 
         var users = await db.Users.OrderBy(u => u.Id).ToListAsync(ct);
         if (users.Count == 0)
             return new SeedStepResult(key, label, false, "Önce “Kullanıcılar” şemasını tohumlayın.", 0);
+
+        // Mevcut kayıtları tek sorguda al; parfüm başına ayrı sorgu atmıyoruz.
+        var perfumeIds = perfumes.Select(p => p.Id).ToList();
+        var commented = (await db.PerfumeComments
+                .Where(c => perfumeIds.Contains(c.PerfumeId))
+                .Select(c => c.PerfumeId)
+                .Distinct()
+                .ToListAsync(ct))
+            .ToHashSet();
+        var rated = (await db.Ratings
+                .Where(r => perfumeIds.Contains(r.PerfumeId))
+                .Select(r => new { r.PerfumeId, r.UserId })
+                .ToListAsync(ct))
+            .Select(r => (r.PerfumeId, r.UserId))
+            .ToHashSet();
 
         var random = new Random(42); // deterministik mock veri
 
@@ -413,7 +283,7 @@ public partial class SeedService(
 
         foreach (var p in perfumes)
         {
-            if (await db.PerfumeComments.AnyAsync(c => c.PerfumeId == p.Id, ct))
+            if (commented.Contains(p.Id))
                 continue;
 
             var commentCount = random.Next(3, 7); // her parfüme 3-6 yorum
@@ -428,7 +298,7 @@ public partial class SeedService(
                 var score = (short)random.Next(3, 6); // 3, 4 veya 5 yıldız
                 perfumeRatings.Add(score);
 
-                if (!await db.Ratings.AnyAsync(r => r.PerfumeId == p.Id && r.UserId == user.Id, ct))
+                if (rated.Add((p.Id, user.Id)))
                 {
                     db.Ratings.Add(new Rating
                     {
@@ -451,8 +321,8 @@ public partial class SeedService(
                 added++;
             }
 
-            p.RatingCount = perfumeRatings.Count;
-            p.AvgRating = perfumeRatings.Count > 0 ? (decimal)perfumeRatings.Average(r => r) : 0m;
+            p.UserRatingCount = perfumeRatings.Count;
+            p.UserAvgRating = perfumeRatings.Count > 0 ? (decimal)perfumeRatings.Average(r => r) : 0m;
         }
 
         await db.SaveChangesAsync(ct);
@@ -467,9 +337,14 @@ public partial class SeedService(
         const string key = "karsilastirma-yorumlari";
         const string label = "Karşılaştırma yorumları";
 
-        var perfumes = await db.Perfumes.ToListAsync(ct);
+        // Sadece en popüler parfümlerden çift kuruyoruz; tüm katalogu belleğe almıyoruz.
+        var perfumes = await db.Perfumes
+            .OrderByDescending(p => p.RatingCount)
+            .Take(ComparedPerfumeCount)
+            .ToListAsync(ct);
+
         if (perfumes.Count < 2)
-            return new SeedStepResult(key, label, false, "Önce “Katalog” şemasını tohumlayın.", 0);
+            return new SeedStepResult(key, label, false, "Önce parfüm verisini içe aktarın: scripts/import_data.py", 0);
 
         var users = await db.Users.OrderBy(u => u.Id).ToListAsync(ct);
         if (users.Count == 0)
@@ -528,118 +403,4 @@ public partial class SeedService(
             await db.ComparisonComments.CountAsync(ct));
     }
 
-    // ------------------------------------------------------------ yardımcı
-
-    /// <summary>Adında konsantrasyon geçmeyen parfümlere deterministik bir konsantrasyon dağıtır.</summary>
-    private static Concentration FallbackConcentration(int index)
-    {
-        Concentration[] common = [Concentration.Edp, Concentration.Edt];
-        return common[index % common.Length];
-    }
-
-    private static (string Name, string? Concentration, int? SizeMl) ParseName(
-        string rawName,
-        string brandName,
-        List<SeedConcentrationToken> concentrationTokens)
-    {
-        var name = rawName.Replace("İ", "I").Replace("̇", "");
-
-        int? sizeMl = null;
-        var sizeMatch = SizeRegex().Match(name);
-        if (sizeMatch.Success)
-        {
-            sizeMl = int.Parse(sizeMatch.Groups[1].Value);
-            name = name.Remove(sizeMatch.Index);
-        }
-
-        string? concentrationName = null;
-        foreach (var item in concentrationTokens)
-        {
-            int idx;
-            while ((idx = name.IndexOf($" {item.Token}", StringComparison.OrdinalIgnoreCase)) >= 0)
-            {
-                concentrationName ??= item.Name;
-                name = name.Remove(idx, item.Token.Length + 1);
-            }
-        }
-
-        var compactBrand = brandName.Replace(" ", "", StringComparison.Ordinal);
-        var words = name.Split(' ', StringSplitOptions.RemoveEmptyEntries).ToList();
-        while (words.Count > 1 && compactBrand.Contains(words[0], StringComparison.OrdinalIgnoreCase))
-            words.RemoveAt(0);
-
-        words.RemoveAll(w => w.Equals("Unisex", StringComparison.OrdinalIgnoreCase));
-
-        var deduped = new List<string>();
-        foreach (var word in words)
-            if (deduped.Count == 0 || !deduped[^1].Equals(word, StringComparison.OrdinalIgnoreCase))
-                deduped.Add(word);
-
-        return (string.Join(' ', deduped), concentrationName, sizeMl);
-    }
-
-    /// <summary>
-    /// Parfüm adındaki anahtar kelimeden koku ailesini bulur.
-    /// Kurallar sırayla denenir (özel token'lar genel olanlardan önce gelmeli).
-    /// Eşleşme yoksa aileler deterministik olarak sırayla dağıtılır.
-    /// </summary>
-    private static FragranceFamily ResolveFamily(
-        string rawName,
-        List<SeedFragranceFamilyRule> rules,
-        int fallbackIndex)
-    {
-        foreach (var rule in rules)
-        {
-            if (rawName.Contains(rule.Token, StringComparison.OrdinalIgnoreCase)
-                && Lookups.FamilyFromName(rule.Family) is { } matched)
-            {
-                return matched;
-            }
-        }
-
-        var all = Enum.GetValues<FragranceFamily>();
-        return all[fallbackIndex % all.Length];
-    }
-
-    private static Gender ParseGender(string gender, string rawName) =>
-        rawName.Contains("unisex", StringComparison.OrdinalIgnoreCase)
-            ? Gender.Unisex
-            : gender.ToLowerInvariant() switch
-            {
-                "men" or "male" => Gender.Male,
-                "women" or "female" => Gender.Female,
-                _ => Gender.Unisex,
-            };
-
-    /// <summary>Parfüm için markaya, aileye ve cinsiyete göre değişen zengin bir Türkçe tanıtım metni üretir.</summary>
-    private static string BuildDescription(Perfume p)
-    {
-        var family = p.FragranceFamily?.Label().ToLowerInvariant() ?? "imzasal";
-        var audience = p.Gender switch
-        {
-            Gender.Male => "erkekler",
-            Gender.Female => "kadınlar",
-            _ => "kadın ve erkek herkes",
-        };
-        var conc = p.Concentration?.Label() ?? "parfüm";
-
-        return
-            $"{p.Brand.Name} {p.Name}, {audience} için tasarlanmış {family} koku ailesinden özenli bir {conc}. " +
-            $"Açılışta ferah ve davetkâr bir giriş sunarken, kalbinde {family} karakterini öne çıkaran dengeli bir yapı kurar; " +
-            $"böylece hem gündelik kullanımda hem de özel anlarda rahatça taşınabilir. " +
-            $"Dengeli kalıcılığı ve ölçülü yayılımıyla ten üzerinde zamanla evrilir. " +
-            $"{p.Name}, sadelikten ödün vermeden karakter arayanlar için modern ve zamansız bir tercih olarak öne çıkar.";
-    }
-
-    private sealed record SeedRow(string Brand, string Name, string Price, string Gender, string Url, string ImageUrl);
-
-    // seed-meta.json eşleme modelleri
-    private record SeedMeta(
-        List<SeedBrand> Brands,
-        List<SeedConcentrationToken> ConcentrationTokens,
-        List<SeedFragranceFamilyRule> FragranceFamilyRules);
-
-    private record SeedFragranceFamilyRule(string Token, string Family);
-    private record SeedBrand(string Name, string? Country, string? Description, string? LogoUrl);
-    private record SeedConcentrationToken(string Token, string Name);
 }

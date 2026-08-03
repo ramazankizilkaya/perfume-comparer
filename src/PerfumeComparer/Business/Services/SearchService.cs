@@ -15,6 +15,9 @@ public class SearchService(IUnitOfWork uow) : ISearchService
 {
     private const int MaxPageSize = 50;
 
+    /// <summary>Kartta gösterilen ana akor sayısı.</summary>
+    private const int CardAccordCount = 3;
+
     public async Task<PagedResult<PerfumeCardDto>> SearchAsync(string q, int page, int pageSize, CancellationToken ct = default)
     {
         var term = q.Trim();
@@ -30,7 +33,8 @@ public class SearchService(IUnitOfWork uow) : ISearchService
             .Take(pageSize)
             .ToListAsync(ct);
 
-        var cards = items.Select(ToCard).ToList();
+        var accords = await LoadAccordsAsync(items.Select(i => i.Slug).ToList(), ct);
+        var cards = items.Select(r => ToCard(r, accords)).ToList();
 
         return new PagedResult<PerfumeCardDto>(cards, page, pageSize, totalCount);
     }
@@ -53,9 +57,7 @@ public class SearchService(IUnitOfWork uow) : ISearchService
                 PerfumeUrl.Path(r.Gender, ConcSlug(r.Concentration), r.BrandSlug, r.Slug)))
             .ToList();
 
-        var brandRepo = uow.GetRepository<Brand>();
-
-        var brands = await brandRepo.AsNoTracking()
+        var brands = await uow.GetRepository<Brand>().AsNoTracking()
             .Where(b => EF.Functions.ILike(EF.Functions.Unaccent(b.Name), EF.Functions.Unaccent(pattern))
                 || EF.Functions.TrigramsSimilarity(EF.Functions.Unaccent(b.Name), EF.Functions.Unaccent(term)) > 0.3)
             .OrderByDescending(b => EF.Functions.TrigramsSimilarity(EF.Functions.Unaccent(b.Name), EF.Functions.Unaccent(term)))
@@ -63,33 +65,45 @@ public class SearchService(IUnitOfWork uow) : ISearchService
             .Select(b => new AutocompleteItemDto(b.Name, b.Slug))
             .ToListAsync(ct);
 
-        // Notalar artık enum: 16 kayıtlık sabit liste, bellekte eşleştiriliyor.
-        var notes = Enum.GetValues<Note>()
-            .Where(n => Fold(n.Label()).Contains(Fold(term), StringComparison.Ordinal))
+        // Notalar artık tablo; en yaygın eşleşenler öneriliyor.
+        var notes = await uow.GetRepository<Note>().AsNoTracking()
+            .Where(n => EF.Functions.ILike(EF.Functions.Unaccent(n.Name), EF.Functions.Unaccent(pattern)))
+            .OrderByDescending(n => n.PerfumeCount)
             .Take(5)
-            .Select(n => new AutocompleteItemDto(n.Label(), n.Slug()))
-            .ToList();
+            .Select(n => new AutocompleteItemDto(n.Name, n.Slug))
+            .ToListAsync(ct);
 
         return new AutocompleteDto(perfumes, brands, notes);
     }
 
-    /// <summary>Türkçe karakterleri sadeleştirip küçük harfe çevirir (aksan toleranslı arama için).</summary>
-    private static string Fold(string value) => value
-        .ToLowerInvariant()
-        .Replace('ı', 'i').Replace('ğ', 'g').Replace('ü', 'u')
-        .Replace('ş', 's').Replace('ö', 'o').Replace('ç', 'c');
+    /// <summary>Kart satırları için en baskın akorları tek sorguda toplar.</summary>
+    private async Task<Dictionary<string, List<string>>> LoadAccordsAsync(List<string> slugs, CancellationToken ct)
+    {
+        if (slugs.Count == 0) return [];
+
+        var rows = await uow.GetRepository<PerfumeAccord>().AsNoTracking()
+            .Where(pa => slugs.Contains(pa.Perfume.Slug) && pa.Rank < CardAccordCount)
+            .OrderBy(pa => pa.Rank)
+            .Select(pa => new { pa.Perfume.Slug, pa.Accord.Name })
+            .ToListAsync(ct);
+
+        return rows
+            .GroupBy(r => r.Slug)
+            .ToDictionary(g => g.Key, g => g.Select(r => r.Name).ToList());
+    }
 
     private static string? ConcSlug(string? enumName) =>
         Enum.TryParse<Concentration>(enumName, out var c) ? c.Slug() : null;
 
-    private static PerfumeCardDto ToCard(PerfumeSearchRow r)
+    private static PerfumeCardDto ToCard(PerfumeSearchRow r, Dictionary<string, List<string>> accords)
     {
         var conc = Enum.TryParse<Concentration>(r.Concentration, out var c) ? c : (Concentration?)null;
         var fam = Enum.TryParse<FragranceFamily>(r.FragranceFamily, out var f) ? f : (FragranceFamily?)null;
         return new(
             r.Name, r.Slug, new BrandRefDto(r.BrandName, r.BrandSlug),
             r.Gender, conc?.Label(), fam?.Label(), fam?.Slug(),
-            r.ImageUrl, r.AvgRating, r.RatingCount,
+            r.ReleaseYear, r.ImageUrl, r.AvgRating, r.RatingCount,
+            accords.GetValueOrDefault(r.Slug) ?? [],
             PerfumeUrl.Path(r.Gender, conc?.Slug(), r.BrandSlug, r.Slug));
     }
 
@@ -99,7 +113,7 @@ public class SearchService(IUnitOfWork uow) : ISearchService
                    b.name AS brand_name, b.slug AS brand_slug,
                    p.gender, p.concentration AS concentration,
                    p.fragrance_family AS fragrance_family,
-                   p.image_url, p.avg_rating, p.rating_count,
+                   p.release_year, p.image_url, p.avg_rating, p.rating_count,
                    GREATEST(
                        similarity(f_unaccent(lower(p.name)), f_unaccent(lower({q}))),
                        similarity(f_unaccent(lower(b.name)), f_unaccent(lower({q}))),

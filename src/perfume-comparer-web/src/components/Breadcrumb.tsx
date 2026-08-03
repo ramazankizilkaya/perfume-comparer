@@ -86,11 +86,16 @@ export default function Breadcrumb({ items }: { items: Crumb[] }) {
                         );
                     }
                     const param = PARAM[item.level];
+                    // Marka seviyesi kendi sayfasına gider; diğerleri filtreli aramaya.
+                    const fallback = item.level === "brand"
+                        ? `/marka/${item.slug}`
+                        : param ? `/ara?${param}=${item.slug}` : "/ara";
                     return (
                         <li key={i}>
                             <CrumbDrop
                                 label={item.label}
-                                selfHref={item.href ?? (param ? `/ara?${param}=${item.slug}` : "/ara")}
+                                selfHref={item.href ?? fallback}
+                                level={item.level}
                                 param={param}
                                 options={optionsFor(item.level)}
                             />
@@ -112,7 +117,7 @@ export function PageBreadcrumb({ trail }: { trail: { label: string; href?: strin
     return <Breadcrumb items={items} />;
 }
 
-function CrumbDrop({ label, selfHref, param, options }: { label: string; selfHref: string; param?: string; options: Opt[] }) {
+function CrumbDrop({ label, selfHref, level, param, options }: { label: string; selfHref: string; level?: string; param?: string; options: Opt[] }) {
     const [open, setOpen] = useState(false);
     const ref = useRef<HTMLSpanElement>(null);
 
@@ -142,7 +147,7 @@ function CrumbDrop({ label, selfHref, param, options }: { label: string; selfHre
                     {options.map((o) => (
                         <Link
                             key={o.slug}
-                            href={`/ara?${param}=${o.slug}`}
+                            href={level === "brand" ? `/marka/${o.slug}` : `/ara?${param}=${o.slug}`}
                             className="crumb-menu-item"
                             onClick={() => setOpen(false)}
                         >

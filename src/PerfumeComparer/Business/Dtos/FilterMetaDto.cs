@@ -7,6 +7,8 @@ public record FilterMetaDto(
     List<RefItemDto> Concentrations,
     List<RefItemDto> FragranceFamilies,
     List<NoteDto> Notes,
+    /// <summary>En yaygın ana akorlar (parfüm sayısına göre).</summary>
+    List<RefItemDto> Accords,
     List<RefItemDto> Seasons,
     List<RefItemDto> AgeGroups,
     List<string> Genders);

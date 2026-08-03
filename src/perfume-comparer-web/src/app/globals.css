@@ -2833,3 +2833,273 @@ body.dark-mode .matrix-head img {
 .admin-log li.err {
     color: var(--bad);
 }
+
+/* =============================================================================
+   Marka sayfası, akorlar, oylamalar ve "kullanıyorum" bildirimi
+   ============================================================================= */
+
+/* --- marka başlığı ---------------------------------------------------------- */
+
+.brand-head {
+    display: grid;
+    gap: var(--s4);
+    grid-template-columns: auto 1fr;
+    align-items: start;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: var(--s4);
+    margin-block-end: var(--s5);
+}
+
+@media (min-width: 900px) {
+    .brand-head {
+        grid-template-columns: 96px 1fr 280px;
+    }
+}
+
+.brand-logo {
+    inline-size: 96px;
+    block-size: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--surface-alt);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.brand-logo img {
+    inline-size: 100%;
+    block-size: 100%;
+    object-fit: contain;
+    padding: var(--s2);
+}
+
+.brand-logo-fallback {
+    font-size: var(--fs-2xl);
+    font-weight: 700;
+    color: var(--ink-faint);
+}
+
+.brand-name {
+    font-size: var(--fs-2xl);
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.brand-desc {
+    margin-block-start: var(--s2);
+    font-size: var(--fs-sm);
+    color: var(--ink-soft);
+    line-height: 1.55;
+    max-inline-size: 68ch;
+}
+
+.brand-spec {
+    grid-column: 1 / -1;
+}
+
+@media (min-width: 900px) {
+    .brand-spec {
+        grid-column: auto;
+    }
+}
+
+/* --- marka sayfası araç çubuğu ---------------------------------------------- */
+
+.brand-tools {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s3);
+    margin-block-end: var(--s4);
+}
+
+.quick-filters {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s2);
+}
+
+.quick-filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--s2);
+}
+
+.chip-active {
+    border-color: var(--accent);
+    background: var(--accent-wash);
+    color: var(--accent);
+}
+
+.chip-count {
+    font-size: var(--fs-xs);
+    color: var(--ink-faint);
+    margin-inline-start: 0.25rem;
+}
+
+.chip-active .chip-count {
+    color: var(--accent);
+}
+
+.chip-clear {
+    border-style: dashed;
+}
+
+.load-more {
+    display: flex;
+    justify-content: center;
+    padding-block: var(--s5);
+}
+
+/* --- marka listesi ---------------------------------------------------------- */
+
+.brand-group {
+    margin-block-end: var(--s5);
+}
+
+.brand-group-letter {
+    font-size: var(--fs-md);
+    font-weight: 700;
+    color: var(--accent);
+    padding-block-end: var(--s1);
+    border-block-end: 1px solid var(--line);
+    margin-block-end: var(--s2);
+}
+
+.brand-list {
+    display: grid;
+    gap: var(--s1) var(--s3);
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+}
+
+.brand-list-item {
+    font-size: var(--fs-sm);
+    padding: 0.3rem 0;
+    color: var(--ink-soft);
+}
+
+.brand-list-item:hover {
+    color: var(--accent);
+}
+
+/* --- ana akorlar ------------------------------------------------------------ */
+
+.card-accords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+}
+
+.accord-chip {
+    font-size: var(--fs-xs);
+    padding: 0.1rem 0.4rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface-alt);
+    color: var(--ink-soft);
+}
+
+a.accord-chip:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+/* --- oylama panelleri ------------------------------------------------------- */
+
+.vote-grid {
+    display: grid;
+    gap: var(--s4);
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.vote-panel {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: var(--s3);
+    background: var(--surface);
+}
+
+.vote-panel .panel-title {
+    margin-block-end: var(--s2);
+}
+
+/* --- "bu parfümü kullanıyorum" ---------------------------------------------- */
+
+.usage-vote {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--s3);
+    margin-block-start: var(--s3);
+}
+
+.usage-count {
+    font-size: var(--fs-sm);
+}
+
+.usage-picker {
+    inline-size: 100%;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface-alt);
+    padding: var(--s3);
+}
+
+.usage-picker-title {
+    font-size: var(--fs-sm);
+    font-weight: 600;
+}
+
+.usage-picker .chip-nav {
+    margin-block-start: var(--s2);
+}
+
+.usage-picker-note {
+    font-size: var(--fs-xs);
+    margin-block-start: var(--s2);
+}
+
+/* --- benzer parfümler ------------------------------------------------------- */
+
+.related-grid {
+    display: grid;
+    gap: var(--s3);
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+}
+
+.related-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    text-align: center;
+    font-size: var(--fs-xs);
+    color: var(--ink-soft);
+}
+
+.related-item img {
+    inline-size: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: contain;
+    background: var(--surface-alt);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+}
+
+.related-brand {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-faint);
+}
+
+.related-name {
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.25;
+}
+
+.related-item:hover .related-name {
+    color: var(--accent);
+}

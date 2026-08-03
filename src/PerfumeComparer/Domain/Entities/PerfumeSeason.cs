@@ -6,6 +6,9 @@ public class PerfumeSeason
     public Perfume Perfume { get; set; } = null!;
     public Season Season { get; set; }
 
-    /// <summary>Uygunluk skoru (0-100).</summary>
+    /// <summary>Bu mevsime verilen ham oy sayısı.</summary>
+    public int Votes { get; set; }
+
+    /// <summary>Parfümün en yüksek oy alan mevsimine göre normalize edilmiş skor (0-100).</summary>
     public short Score { get; set; }
 }

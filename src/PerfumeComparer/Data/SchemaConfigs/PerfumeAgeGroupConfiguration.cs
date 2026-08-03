@@ -14,6 +14,7 @@ public class PerfumeAgeGroupConfiguration : IEntityTypeConfiguration<PerfumeAgeG
 
         builder.HasOne(pa => pa.Perfume)
             .WithMany(p => p.AgeGroups)
-            .HasForeignKey(pa => pa.PerfumeId);
+            .HasForeignKey(pa => pa.PerfumeId)
+            .OnDelete(DeleteBehavior.Cascade);
     }
 }

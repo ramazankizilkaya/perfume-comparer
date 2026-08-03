@@ -10,7 +10,8 @@ import FavButton from "@/components/FavButton";
 import CompareButton from "@/components/CompareButton";
 import LoginPrompt from "@/components/LoginPrompt";
 import Breadcrumb from "@/components/Breadcrumb";
-import { API_BASE, formatDate, genderLabel } from "@/lib/urls";
+import UsageVote, { type AgeGroupScore } from "@/components/UsageVote";
+import { API_BASE, formatDate, genderLabel, brandHref, perfumeHref, mediaUrl } from "@/lib/urls";
 import { noteIcon } from "@/lib/notes";
 import { useAuth, type PerfumeRef } from "@/lib/stores";
 
@@ -24,12 +25,34 @@ interface ScoredRef {
     name: string;
     slug: string;
     score: number;
+    votes: number;
+}
+
+interface VoteBar {
+    name: string;
+    slug: string;
+    votes: number;
+    percent: number;
+}
+
+interface Accord {
+    name: string;
+    slug: string;
+    width: number;
 }
 
 interface BreadcrumbItem {
     level: string;
     label: string;
     slug: string;
+}
+
+interface RelatedPerfume {
+    perfumeName: string;
+    perfumeSlug: string;
+    brand: { name: string; slug: string };
+    imageUrl?: string | null;
+    path: string;
 }
 
 interface PerfumeDetail {
@@ -47,10 +70,22 @@ interface PerfumeDetail {
     imageUrl?: string;
     avgRating: number;
     ratingCount: number;
-    notes: { top: Note[]; middle: Note[]; base: Note[] };
+    ratingBreakdown: VoteBar[];
+    userAvgRating: number;
+    userRatingCount: number;
+    accords: Accord[];
+    notes: { top: Note[]; middle: Note[]; base: Note[]; all: Note[] };
     seasons: ScoredRef[];
-    ageGroups: ScoredRef[];
+    timeOfDay: ScoredRef[];
+    longevity: VoteBar[];
+    sillage: VoteBar[];
+    genderVotes: VoteBar[];
+    priceVotes: VoteBar[];
+    ageGroups: AgeGroupScore[];
+    usageCount: number;
     breadcrumb: BreadcrumbItem[];
+    alternatives: RelatedPerfume[];
+    alsoLiked: RelatedPerfume[];
     path: string;
 }
 
@@ -153,8 +188,18 @@ export default function PerfumeDetailPage() {
 
     const aiSummary = comments.find((c) => c.isAiSummary) ?? null;
     const userComments = comments.filter((c) => !c.isAiSummary);
-    const bestSeason = perfume.seasons?.length ? [...perfume.seasons].sort((a, b) => b.score - a.score)[0] : null;
-    const bestAge = perfume.ageGroups?.length ? [...perfume.ageGroups].sort((a, b) => b.score - a.score)[0] : null;
+    const bestSeason = pickTop(perfume.seasons);
+    const bestTime = pickTop(perfume.timeOfDay);
+    const bestAge = pickTop(perfume.ageGroups);
+    const topLongevity = pickTopBar(perfume.longevity);
+    const topSillage = pickTopBar(perfume.sillage);
+
+    // Piramit yayımlamayan markalarda notalar tek düz liste olarak gelir.
+    const hasPyramid =
+        perfume.notes.top.length > 0 || perfume.notes.middle.length > 0 || perfume.notes.base.length > 0;
+    const allNotes = hasPyramid
+        ? [...perfume.notes.top, ...perfume.notes.middle, ...perfume.notes.base]
+        : perfume.notes.all;
 
     const ref: PerfumeRef = {
         slug: perfume.slug,
@@ -164,17 +209,23 @@ export default function PerfumeDetailPage() {
         path: perfume.path,
     };
 
+    const applyUsage = (result: { usageCount: number; ageGroups: AgeGroupScore[] }) =>
+        setPerfume((prev) =>
+            prev ? { ...prev, usageCount: result.usageCount, ageGroups: result.ageGroups } : prev);
+
     return (
         <>
             <Breadcrumb items={perfume.breadcrumb} />
 
             <div className="detail-head">
                 <figure className="detail-media">
-                    <img src={perfume.imageUrl || PLACEHOLDER} alt={perfume.name} />
+                    <img src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt={perfume.name} />
                 </figure>
 
                 <div>
-                    <div className="detail-brand">{perfume.brand.name}</div>
+                    <Link href={brandHref(perfume.brand.slug)} className="detail-brand">
+                        {perfume.brand.name}
+                    </Link>
                     <h1 className="detail-name">{perfume.name}</h1>
 
                     <div className="detail-rating">
@@ -192,14 +243,22 @@ export default function PerfumeDetailPage() {
                         {perfume.releaseYear && <span className="tag">{perfume.releaseYear}</span>}
                     </div>
 
-                    {perfume.fragranceFamilyDescription && (
-                        <p className="detail-lede">{perfume.fragranceFamilyDescription}</p>
+                    {perfume.accords.length > 0 && (
+                        <div className="tag-row">
+                            {perfume.accords.slice(0, 5).map((a) => (
+                                <Link key={a.slug} href={`/ara?accord=${a.slug}`} className="accord-chip">
+                                    {a.name}
+                                </Link>
+                            ))}
+                        </div>
                     )}
 
                     <div className="detail-actions">
                         <CompareButton perfume={ref} />
                         <FavButton perfume={ref} />
                     </div>
+
+                    <UsageVote slug={perfume.slug} usageCount={perfume.usageCount} onVoted={applyUsage} />
                 </div>
             </div>
 
@@ -221,24 +280,95 @@ export default function PerfumeDetailPage() {
                                 <SpecRow label="Cinsiyet" value={genderLabel(perfume.gender)} />
                                 <SpecRow label="Konsantrasyon" value={perfume.concentration} />
                                 <SpecRow label="Çıkış yılı" value={perfume.releaseYear?.toString()} />
-                                <SpecRow label="Puan" value={`${perfume.avgRating.toFixed(1)} / 5 (${perfume.ratingCount} değerlendirme)`} />
-                                <SpecRow label="Üst notalar" value={perfume.notes.top.map((n) => n.name).join(", ")} />
-                                <SpecRow label="Orta notalar" value={perfume.notes.middle.map((n) => n.name).join(", ")} />
-                                <SpecRow label="Alt notalar" value={perfume.notes.base.map((n) => n.name).join(", ")} />
-                                {bestSeason && <SpecRow label="En uygun mevsim" value={`${bestSeason.name} (%${bestSeason.score})`} />}
-                                {bestAge && <SpecRow label="En uygun yaş grubu" value={`${bestAge.name} (%${bestAge.score})`} />}
+                                <SpecRow
+                                    label="Puan"
+                                    value={`${perfume.avgRating.toFixed(2)} / 5 (${perfume.ratingCount.toLocaleString("tr-TR")} oy)`}
+                                />
+                                <SpecRow label="Ana akorlar" value={perfume.accords.slice(0, 5).map((a) => a.name).join(", ")} />
+                                {hasPyramid ? (
+                                    <>
+                                        <SpecRow label="Üst notalar" value={perfume.notes.top.map((n) => n.name).join(", ")} />
+                                        <SpecRow label="Orta notalar" value={perfume.notes.middle.map((n) => n.name).join(", ")} />
+                                        <SpecRow label="Alt notalar" value={perfume.notes.base.map((n) => n.name).join(", ")} />
+                                    </>
+                                ) : (
+                                    <SpecRow label="Notalar" value={perfume.notes.all.map((n) => n.name).join(", ")} />
+                                )}
+                                {topLongevity && <SpecRow label="Kalıcılık" value={`${topLongevity.name} (%${topLongevity.percent})`} />}
+                                {topSillage && <SpecRow label="Yayılım" value={`${topSillage.name} (%${topSillage.percent})`} />}
+                                {bestSeason && bestSeason.votes > 0 && (
+                                    <SpecRow label="En uygun mevsim" value={`${bestSeason.name} (%${bestSeason.score})`} />
+                                )}
+                                {bestTime && bestTime.votes > 0 && (
+                                    <SpecRow label="Gün içi kullanım" value={bestTime.name} />
+                                )}
+                                {bestAge && bestAge.votes > 0 && (
+                                    <SpecRow label="En yaygın yaş grubu" value={`${bestAge.name} (%${bestAge.score})`} />
+                                )}
                             </tbody>
                         </table>
                     </section>
 
+                    {perfume.accords.length > 0 && (
+                        <section className="block">
+                            <h2 className="block-title">Ana akorlar</h2>
+                            <div className="bars">
+                                {perfume.accords.map((a) => (
+                                    <div key={a.slug} className="bar-row">
+                                        <span>{a.name}</span>
+                                        <span className="bar-track">
+                                            <span className="bar-fill" style={{ width: `${a.width}%` }} />
+                                        </span>
+                                        <span className="bar-val">%{Math.round(a.width)}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
+                    )}
+
                     <section className="block">
                         <h2 className="block-title">Koku piramidi</h2>
-                        <div className="pyramid">
-                            <Tier label="Üst notalar" notes={perfume.notes.top} />
-                            <Tier label="Orta notalar" notes={perfume.notes.middle} />
-                            <Tier label="Alt notalar" notes={perfume.notes.base} />
+                        {hasPyramid ? (
+                            <div className="pyramid">
+                                <Tier label="Üst notalar" notes={perfume.notes.top} />
+                                <Tier label="Orta notalar" notes={perfume.notes.middle} />
+                                <Tier label="Alt notalar" notes={perfume.notes.base} />
+                            </div>
+                        ) : (
+                            <div className="pyramid">
+                                <Tier label="Notalar" notes={allNotes} />
+                                <p className="faint">
+                                    Bu parfüm için markası bir koku piramidi yayımlamamış; notalar tek liste hâlinde.
+                                </p>
+                            </div>
+                        )}
+                    </section>
+
+                    <section className="block">
+                        <h2 className="block-title">Kullanıcı oylamaları</h2>
+                        <div className="vote-grid">
+                            <VotePanel title="Kalıcılık" items={perfume.longevity} />
+                            <VotePanel title="Yayılım" items={perfume.sillage} />
+                            <VotePanel title="Kime gider?" items={perfume.genderVotes} />
+                            <VotePanel title="Fiyat / değer" items={perfume.priceVotes} />
                         </div>
                     </section>
+
+                    {perfume.alternatives.length > 0 && (
+                        <RelatedBlock
+                            title="Bunu hatırlatıyor"
+                            description="Kokusal olarak benzer bulunan parfümler."
+                            items={perfume.alternatives}
+                        />
+                    )}
+
+                    {perfume.alsoLiked.length > 0 && (
+                        <RelatedBlock
+                            title="Bunu sevenler şunu da sevdi"
+                            description="Aynı kullanıcıların beğendiği diğer parfümler."
+                            items={perfume.alsoLiked}
+                        />
+                    )}
 
                     <section className="block">
                         <h2 className="block-title">Yorumlar ({userComments.length})</h2>
@@ -294,11 +424,22 @@ export default function PerfumeDetailPage() {
                         <div className="panel-score">
                             <Score value={perfume.avgRating} count={perfume.ratingCount} lg caption="/ 100" />
                             <div className="panel-score-meta">
-                                <strong>{perfume.avgRating.toFixed(1)} / 5</strong>
-                                {perfume.ratingCount} değerlendirme
+                                <strong>{perfume.avgRating.toFixed(2)} / 5</strong>
+                                {perfume.ratingCount.toLocaleString("tr-TR")} oy
                             </div>
                         </div>
+                        <Bars items={toScored(perfume.ratingBreakdown)} sort={false} />
                     </div>
+
+                    {perfume.userRatingCount > 0 && (
+                        <div className="panel">
+                            <div className="panel-title">Site kullanıcı puanı</div>
+                            <div className="panel-score-meta">
+                                <strong>{perfume.userAvgRating.toFixed(1)} / 5</strong>
+                                {perfume.userRatingCount} değerlendirme
+                            </div>
+                        </div>
+                    )}
 
                     <div className="panel">
                         <div className="panel-title">Mevsim uyumu</div>
@@ -306,8 +447,19 @@ export default function PerfumeDetailPage() {
                     </div>
 
                     <div className="panel">
+                        <div className="panel-title">Gündüz / gece</div>
+                        <Bars items={perfume.timeOfDay} />
+                    </div>
+
+                    <div className="panel">
                         <div className="panel-title">Yaş grubu</div>
-                        <Bars items={perfume.ageGroups} />
+                        {perfume.usageCount > 0 ? (
+                            <Bars items={perfume.ageGroups} />
+                        ) : (
+                            <p className="empty">
+                                Henüz kimse bildirmedi. &quot;Bu parfümü kullanıyorum&quot; diyerek ilk siz olun.
+                            </p>
+                        )}
                     </div>
                 </aside>
             </div>
@@ -327,6 +479,21 @@ export function AiSummary({ comment }: { comment: CommentData }) {
             <p className="ai-summary-body">{comment.body}</p>
         </div>
     );
+}
+
+function pickTop<T extends { score: number }>(items?: T[]): T | null {
+    if (!items?.length) return null;
+    return [...items].sort((a, b) => b.score - a.score)[0];
+}
+
+function pickTopBar(items?: VoteBar[]): VoteBar | null {
+    if (!items?.length) return null;
+    const top = [...items].sort((a, b) => b.votes - a.votes)[0];
+    return top.votes > 0 ? top : null;
+}
+
+function toScored(items: VoteBar[]): ScoredRef[] {
+    return items.map((i) => ({ name: i.name, slug: i.slug, score: i.percent, votes: i.votes }));
 }
 
 function SpecRow({ label, value }: { label: string; value?: string | null }) {
@@ -358,12 +525,25 @@ function Tier({ label, notes }: { label: string; notes: Note[] }) {
     );
 }
 
-function Bars({ items }: { items: ScoredRef[] }) {
+function VotePanel({ title, items }: { title: string; items: VoteBar[] }) {
+    const total = items.reduce((sum, i) => sum + i.votes, 0);
+    return (
+        <div className="vote-panel">
+            <div className="panel-title">
+                {title}
+                {total > 0 && <span className="muted"> · {total.toLocaleString("tr-TR")} oy</span>}
+            </div>
+            {total > 0 ? <Bars items={toScored(items)} sort={false} /> : <p className="empty">Bilgi yok</p>}
+        </div>
+    );
+}
+
+function Bars({ items, sort = true }: { items: ScoredRef[]; sort?: boolean }) {
     if (!items?.length) return <p className="empty">Bilgi yok</p>;
-    const sorted = [...items].sort((a, b) => b.score - a.score);
+    const rows = sort ? [...items].sort((a, b) => b.score - a.score) : items;
     return (
         <div className="bars">
-            {sorted.map((s) => (
+            {rows.map((s) => (
                 <div key={s.slug} className="bar-row">
                     <span>{s.name}</span>
                     <span className="bar-track">
@@ -373,5 +553,31 @@ function Bars({ items }: { items: ScoredRef[] }) {
                 </div>
             ))}
         </div>
+    );
+}
+
+function RelatedBlock({
+    title,
+    description,
+    items,
+}: {
+    title: string;
+    description: string;
+    items: RelatedPerfume[];
+}) {
+    return (
+        <section className="block">
+            <h2 className="block-title">{title}</h2>
+            <p className="section-desc">{description}</p>
+            <div className="related-grid">
+                {items.slice(0, 12).map((r) => (
+                    <Link key={r.perfumeSlug} href={perfumeHref(r.path, r.perfumeSlug)} className="related-item">
+                        <img src={mediaUrl(r.imageUrl) || PLACEHOLDER} alt="" loading="lazy" />
+                        <span className="related-brand">{r.brand.name}</span>
+                        <span className="related-name">{r.perfumeName}</span>
+                    </Link>
+                ))}
+            </div>
+        </section>
     );
 }

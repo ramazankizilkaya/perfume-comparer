@@ -7,7 +7,7 @@ import Icon from "@/components/Icon";
 import Stars from "@/components/Stars";
 import LoginPrompt from "@/components/LoginPrompt";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
-import { API_BASE, perfumeHref, formatDate, genderLabel } from "@/lib/urls";
+import { API_BASE, perfumeHref, formatDate, genderLabel, mediaUrl } from "@/lib/urls";
 import { noteIcon } from "@/lib/notes";
 import { useCompare, useAuth, MAX_COMPARE } from "@/lib/stores";
 
@@ -21,6 +21,20 @@ interface ScoredRef {
     name: string;
     slug: string;
     score: number;
+    votes: number;
+}
+
+interface VoteBar {
+    name: string;
+    slug: string;
+    votes: number;
+    percent: number;
+}
+
+interface Accord {
+    name: string;
+    slug: string;
+    width: number;
 }
 
 interface PerfumeDetail {
@@ -34,9 +48,14 @@ interface PerfumeDetail {
     imageUrl?: string;
     avgRating: number;
     ratingCount: number;
-    notes: { top: Note[]; middle: Note[]; base: Note[] };
+    accords: Accord[];
+    notes: { top: Note[]; middle: Note[]; base: Note[]; all: Note[] };
     seasons: ScoredRef[];
+    timeOfDay: ScoredRef[];
+    longevity: VoteBar[];
+    sillage: VoteBar[];
     ageGroups: ScoredRef[];
+    usageCount: number;
     path: string;
 }
 
@@ -165,7 +184,10 @@ function CompareInner() {
 /** Tekil parfüm sayfasındaki verilerin tamamını satır satır gösteren tablo. */
 function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRemove: (slug: string) => void }) {
     const seasonSlugs = dedupe(perfumes.flatMap((p) => p.seasons.map((s) => s.slug)));
-    const ageSlugs = dedupe(perfumes.flatMap((p) => p.ageGroups.map((a) => a.slug)));
+    // Yaş grubu tamamen site kullanıcılarından geliyor; kimse bildirmediyse satırı hiç açma.
+    const ageSlugs = perfumes.some((p) => p.usageCount > 0)
+        ? dedupe(perfumes.flatMap((p) => p.ageGroups.map((a) => a.slug)))
+        : [];
 
     const seasonName = (slug: string) =>
         perfumes.flatMap((p) => p.seasons).find((s) => s.slug === slug)?.name ?? slug;
@@ -183,7 +205,7 @@ function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRe
                                 <button className="matrix-remove" onClick={() => onRemove(p.slug)} aria-label={`${p.name} kaldır`}>
                                     <Icon name="close" size={13} />
                                 </button>
-                                <img src={p.imageUrl || PLACEHOLDER} alt="" />
+                                <img src={mediaUrl(p.imageUrl) || PLACEHOLDER} alt="" />
                                 <span className="card-brand">{p.brand.name}</span>
                                 <br />
                                 <Link href={perfumeHref(p.path, p.slug)} className="card-title" style={{ fontSize: "0.95rem" }}>
@@ -203,11 +225,33 @@ function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRe
                         perfumes={perfumes}
                         render={(p) => <Stars value={p.avgRating} size={16} showValue />}
                     />
-                    <Row label="Değerlendirme" perfumes={perfumes} render={(p) => `${p.ratingCount} kişi`} />
+                    <Row label="Değerlendirme" perfumes={perfumes} render={(p) => `${p.ratingCount.toLocaleString("tr-TR")} oy`} />
+
+                    <Row
+                        label="Ana akorlar"
+                        perfumes={perfumes}
+                        render={(p) => (
+                            <div className="tag-row">
+                                {p.accords.slice(0, 4).map((a) => (
+                                    <span key={a.slug} className="accord-chip">{a.name}</span>
+                                ))}
+                            </div>
+                        )}
+                    />
+
+                    <Row label="Kalıcılık" perfumes={perfumes} render={(p) => topVote(p.longevity)} />
+                    <Row label="Yayılım" perfumes={perfumes} render={(p) => topVote(p.sillage)} />
 
                     <Row label="Üst notalar" perfumes={perfumes} render={(p) => <NoteList notes={p.notes.top} />} />
                     <Row label="Orta notalar" perfumes={perfumes} render={(p) => <NoteList notes={p.notes.middle} />} />
                     <Row label="Alt notalar" perfumes={perfumes} render={(p) => <NoteList notes={p.notes.base} />} />
+                    {perfumes.some((p) => p.notes.all.length > 0) && (
+                        <Row
+                            label="Notalar (piramitsiz)"
+                            perfumes={perfumes}
+                            render={(p) => <NoteList notes={p.notes.all} />}
+                        />
+                    )}
 
                     {seasonSlugs.map((slug) => (
                         <Row
@@ -236,6 +280,13 @@ function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRe
             </table>
         </div>
     );
+}
+
+/** Bir oylamada en çok oy alan seçenek; hiç oy yoksa tire. */
+function topVote(items: VoteBar[]): string {
+    if (!items?.length) return "—";
+    const top = [...items].sort((a, b) => b.votes - a.votes)[0];
+    return top.votes > 0 ? `${top.name} (%${top.percent})` : "—";
 }
 
 function dedupe(values: string[]): string[] {
@@ -479,7 +530,7 @@ function PerfumePicker({
                             type="button"
                             onClick={() => { onPick(r); setQuery(""); setOpen(false); }}
                         >
-                            {r.imageUrl && <img className="ac-thumb" src={r.imageUrl} alt="" />}
+                            {r.imageUrl && <img className="ac-thumb" src={mediaUrl(r.imageUrl)} alt="" />}
                             <span>
                                 <span className="ac-name">{r.name}</span>
                                 <span className="ac-meta">{r.brandName}</span>

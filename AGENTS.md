@@ -24,8 +24,8 @@ Goal: keep the implementation simple, extensible and clean (SoC, no spaghetti).
 
 ## Product Summary
 - Users browse, search and compare perfumes: notes, accords, ratings, longevity, sillage, season/time-of-day voting.
-- Data comes from scraping Fragrantica TR (`scripts/scrape_perfumes.py`), lands as per-perfume JSON + WebP images under `scrape_files/`, and is seeded into Postgres by the .NET API on startup.
-- Key routes: `/` home, `/ara` search, `/parfum/...` detail, `/karsilastir` compare, `/blog`, `/admin`, `/giris` login.
+- Data comes from scraping Fragrantica TR (`scripts/scrape_perfumes.py`), lands as per-perfume JSON + WebP images under `scrape_files/`, and is loaded into Postgres by `scripts/import_data.py`. There is **no mock catalog**: every brand and perfume in the DB comes from `scrape_files/`.
+- Key routes: `/` home, `/ara` search, `/marka` brand index, `/marka/<slug>` brand page, `/parfum/...` detail, `/karsilastir` compare, `/blog`, `/admin`, `/giris` login.
 
 ## Design Direction (important)
 The UI must read like an **information portal — epey.com is the reference**: dense, tabular, sans-serif, spec-sheet oriented, lots of comparable numbers per screen.
@@ -39,10 +39,11 @@ It must NOT look like an editorial magazine: no oversized hero imagery, no long-
 
 ## Repository Layout
 - `src/PerfumeComparer/` — .NET API
-  - `Data/SeedService.cs` — reads `scrape_files/` and seeds the DB
+  - `Data/SeedService.cs` — sample **users, blogs and comments only** (triggered from `/admin`). It does not touch the catalog.
   - `Controllers/` — Catalog, Search, Compare, Blog, Auth, Admin
 - `src/perfume-comparer-web/` — Next.js client
 - `scripts/`
+  - `import_data.py` — loads `scrape_files/` into Postgres (see "Data import")
   - `scrape_brands.py` — brand listings
   - `scrape_perfumes.py` — perfume detail scraper (rate-limit aware)
   - `validate_perfumes.js` — Joi schema validation over scraped JSON
@@ -62,6 +63,17 @@ cd src/PerfumeComparer && dotnet run --launch-profile http     # :5026
 cd src/perfume-comparer-web && npm run dev                     # :3000
 cd src/perfume-comparer-web && npm run build && npm run lint
 ```
+
+Data import (schema must exist first — start the API once so EF creates it):
+```bash
+python3 scripts/import_data.py --reset            # wipe the catalog and load everything (~10 s)
+python3 scripts/import_data.py --reset-all        # also wipes users, blogs and comments
+python3 scripts/import_data.py --reset --limit 5  # first 5 brands only, for quick dev loops
+python3 scripts/import_data.py --dry-run          # parse and report, write nothing
+```
+Without a reset flag the script refuses to run on a non-empty catalog, so a second
+run can never duplicate the data. It writes through `psql` with `COPY`, so no extra
+Python package is needed.
 
 Scraping / data:
 ```bash
@@ -92,6 +104,17 @@ Scraping is resumable: existing valid JSON files are skipped, and `report.txt` p
 
 **Parallel mode** (`--parallel [workers]`) splits the brands round-robin across processes. Each worker gets an exclusive slice of the SOCKS5 endpoint list and opens **one relay for its whole lifetime**, reused across every brand — opening a relay per brand floods Nord's concurrent-connection limit, which makes every endpoint start failing its probe and collapses the run. Keep the relay worker-scoped. VPN rotation is disabled in parallel mode because the system VPN is global and would affect every worker at once. Without Nord credentials all workers share one IP, which hits limits much faster.
 
+## Database Shape (what the import produces)
+- `brands` — name, slug, country, bio, local logo path, main activity, website, parent company, perfume count.
+- `perfumes` — name, slug, gender, concentration (parsed from the name, often null), fragrance family (derived from the top accord), release year, description, local image path, plus flat vote columns: rating + breakdown, longevity, sillage, gender voting, price voting, day/night.
+  - `avg_rating` / `rating_count` are the **community (Fragrantica) score**; `user_avg_rating` / `user_rating_count` are our own site users'.
+- `notes` and `accords` are **tables, not enums** (~1,300 notes, ~100 accords). `perfume_notes` carries the pyramid layer (`Top`/`Middle`/`Base`, or `All` when the brand published no pyramid); `perfume_accords` carries the dominance width.
+- `perfume_alternatives` holds both "reminds me of" and "people also like", separated by `kind`.
+- `perfume_age_groups` / `perfume_usages` are **not scraped**: they fill up from the "Bu parfümü kullanıyorum" button on the detail page (`POST /api/perfumes/{slug}/kullaniyorum`).
+
+Images are served by the API from `scrape_files/` under `/media/...` (no copying). The
+DB stores the relative path; the frontend prefixes it with `mediaUrl()` in `lib/urls.ts`.
+
 ## Scraped Perfume JSON Shape
 `name`, `targetGender`, `image`, `url`, `brand`, `description`, `mainAccords[{name,width}]`,
 `rating{score,votesCount,breakdown}`, `seasons`, `notes{top,middle,base,all}`,
@@ -102,7 +125,8 @@ Scraping is resumable: existing valid JSON files are skipped, and `report.txt` p
 Any change to this shape must be mirrored in `scripts/validate_perfumes.js` and the frontend types.
 
 ## Agent Guardrails
-- **"Mock data" always means seeding the real Postgres DB through `SeedService` — never a fake data layer in the frontend.**
+- **Never invent catalog data.** Brands and perfumes come only from `scrape_files/` via `scripts/import_data.py`. Sample users, blogs and comments may still be seeded through `SeedService` from `/admin`; never build a fake data layer in the frontend.
+- The accord → fragrance family mapping exists in two places and must stay in sync: `Domain/Lookups.cs` (`FamilyFromAccord`) and `scripts/import_data.py` (`ACCORD_TO_FAMILY`). Same for `SlugHelper.Slugify` and the script's `slugify`.
 - Preserve separation of concerns: controllers stay thin, business logic in `Business/Services`, data access via `Repository`/`UnitOfWork`. No EF queries inside controllers.
 - Prefer small, focused edits over broad rewrites.
 - Do not change API response shapes or the scraped JSON schema unless explicitly asked.
@@ -114,6 +138,8 @@ Any change to this shape must be mirrored in `scripts/validate_perfumes.js` and 
 - Stale `src/perfume-comparer-web/.next` cache produces phantom 404s — delete it and restart.
 - `dotnet` build output (`src/PerfumeComparer/obj`, `bin`) shows up as git noise.
 - `scrape_files/validation_report.json` is regenerated by the validator — don't hand-edit.
+- Re-importing renumbers perfume ids, so it cascades away comments, ratings and favourites. Re-seed them from `/admin` afterwards.
+- The scraper adds files while it runs, so two imports minutes apart can report different perfume counts. That is expected.
 - Passing a perfume limit (`scrape_perfumes.py <brand> <n>`) rewrites that brand's `report.txt` as if the brand only had `n` perfumes.
 - This Python install has no CA roots, so scraper HTTPS helpers fall back to unverified SSL contexts.
 
@@ -121,8 +147,9 @@ Any change to this shape must be mirrored in `scripts/validate_perfumes.js` and 
 1. Backend builds and runs (`dotnet run --launch-profile http`).
 2. Frontend builds (`npm run build`) and lints (`npm run lint`).
 3. If scraped JSON changed, `node scripts/validate_perfumes.js` passes.
-4. No regressions on detail (`/parfum/...`), search (`/ara`), compare (`/karsilastir`).
-5. Workspace clean — no leftover temp/debug files.
+4. If the DB schema changed, `python3 scripts/import_data.py --reset` still succeeds.
+5. No regressions on detail (`/parfum/...`), search (`/ara`), brand (`/marka/...`), compare (`/karsilastir`).
+6. Workspace clean — no leftover temp/debug files.
 
 ## Prompt Templates
 

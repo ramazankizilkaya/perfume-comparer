@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { mediaUrl } from "@/lib/urls";
 import Icon from "./Icon";
 import { useCompare } from "@/lib/stores";
 
@@ -25,7 +26,7 @@ export default function CompareBar() {
                 <div className="compare-bar-items">
                     {items.map((i) => (
                         <div key={i.slug} className="compare-chip" title={i.name}>
-                            <img src={i.imageUrl || PLACEHOLDER} alt="" />
+                            <img src={mediaUrl(i.imageUrl) || PLACEHOLDER} alt="" />
                             <span className="compare-chip-name">{i.name}</span>
                             <button onClick={() => remove(i.slug)} aria-label={`${i.name} listeden çıkar`}>
                                 <Icon name="close" size={12} />

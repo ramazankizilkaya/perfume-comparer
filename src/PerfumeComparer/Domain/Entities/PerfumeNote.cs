@@ -5,8 +5,11 @@ public class PerfumeNote
     public int PerfumeId { get; set; }
     public Perfume Perfume { get; set; } = null!;
 
-    /// <summary>Nota artık enum; ayrı bir lookup tablosu yok.</summary>
-    public Note Note { get; set; }
+    public int NoteId { get; set; }
+    public Note Note { get; set; } = null!;
 
     public NoteLayer Layer { get; set; }
+
+    /// <summary>Katman içindeki sıra; kaynaktaki listeleme sırasını korur.</summary>
+    public short SortOrder { get; set; }
 }

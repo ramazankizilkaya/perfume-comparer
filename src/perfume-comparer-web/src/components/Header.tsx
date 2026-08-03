@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import Icon from "./Icon";
 import GenderControl from "./GenderControl";
 import UserMenu from "./UserMenu";
-import { API_BASE, perfumeHref, genderLabel } from "@/lib/urls";
+import { API_BASE, perfumeHref, brandHref, genderLabel, mediaUrl } from "@/lib/urls";
 
 interface AutocompletePerfume {
     name: string;
@@ -138,7 +138,7 @@ export default function Header() {
                                     <div>
                                         <div className="ac-group-title">Markalar</div>
                                         {results.brands.map((b) => (
-                                            <button key={b.slug} className="ac-item" onClick={() => goto(`/ara?brand=${b.slug}`)}>
+                                            <button key={b.slug} className="ac-item" onClick={() => goto(brandHref(b.slug))}>
                                                 <span className="ac-name">{b.name}</span>
                                             </button>
                                         ))}
@@ -154,7 +154,7 @@ export default function Header() {
                                                 className="ac-item"
                                                 onClick={() => goto(perfumeHref(p.path, p.slug))}
                                             >
-                                                {p.imageUrl && <img className="ac-thumb" src={p.imageUrl} alt="" />}
+                                                {p.imageUrl && <img className="ac-thumb" src={mediaUrl(p.imageUrl)} alt="" />}
                                                 <span>
                                                     <span className="ac-name">{p.name}</span>
                                                     <span className="ac-meta">
@@ -172,6 +172,7 @@ export default function Header() {
 
                     <nav className="site-nav">
                         <Link href="/ara" className="nav-link">Ara</Link>
+                        <Link href="/marka" className="nav-link">Markalar</Link>
                         <Link href="/blog" className="nav-link">Rehber</Link>
                         <GenderControl />
                         <button className="icon-btn" onClick={toggleTheme} aria-label="Temayı değiştir">

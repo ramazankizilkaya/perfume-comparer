@@ -3,7 +3,7 @@ import Stars from "./Stars";
 import Score from "./Score";
 import FavButton from "./FavButton";
 import CompareButton from "./CompareButton";
-import { perfumeHref, genderLabel } from "@/lib/urls";
+import { perfumeHref, brandHref, genderLabel, mediaUrl } from "@/lib/urls";
 import type { PerfumeRef } from "@/lib/stores";
 
 export interface PerfumeCardData {
@@ -13,9 +13,11 @@ export interface PerfumeCardData {
     gender: string;
     concentration?: string | null;
     fragranceFamily?: string | null;
+    releaseYear?: number | null;
     imageUrl?: string | null;
     avgRating: number;
     ratingCount: number;
+    accords?: string[];
     path: string;
 }
 
@@ -31,21 +33,23 @@ export function PerfumeCard({ perfume }: { perfume: PerfumeCardData }) {
     const ref = toRef(perfume);
 
     const specs = [
-        perfume.fragranceFamily,
         perfume.concentration,
         genderLabel(perfume.gender),
+        perfume.releaseYear?.toString(),
     ].filter(Boolean) as string[];
 
     return (
         <article className="card">
             <div className="card-media">
                 <Link href={href} className="card-media-link" aria-label={perfume.name}>
-                    <img src={perfume.imageUrl || PLACEHOLDER} alt="" loading="lazy" />
+                    <img src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt="" loading="lazy" />
                 </Link>
                 <FavButton perfume={ref} className="card-fav" />
             </div>
             <div className="card-body">
-                <span className="card-brand">{perfume.brand.name}</span>
+                <Link href={brandHref(perfume.brand.slug)} className="card-brand">
+                    {perfume.brand.name}
+                </Link>
                 <Link href={href} className="card-title">
                     {perfume.name}
                 </Link>
@@ -54,6 +58,13 @@ export function PerfumeCard({ perfume }: { perfume: PerfumeCardData }) {
                         <span key={s}>{s}</span>
                     ))}
                 </div>
+                {perfume.accords && perfume.accords.length > 0 && (
+                    <div className="card-accords">
+                        {perfume.accords.map((a) => (
+                            <span key={a} className="accord-chip">{a}</span>
+                        ))}
+                    </div>
+                )}
                 <div className="card-foot">
                     <Stars value={perfume.avgRating} count={perfume.ratingCount} size={16} />
                 </div>
@@ -71,7 +82,7 @@ export function PerfumeRank({ perfume, rank }: { perfume: PerfumeCardData; rank:
         <div className="rank-row">
             <span className="rank-num">{rank}</span>
             <Link href={href} aria-label={perfume.name}>
-                <img className="rank-thumb" src={perfume.imageUrl || PLACEHOLDER} alt="" loading="lazy" />
+                <img className="rank-thumb" src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt="" loading="lazy" />
             </Link>
             <div className="rank-body">
                 <Link href={href} className="rank-name">

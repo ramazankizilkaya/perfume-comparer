@@ -14,6 +14,7 @@ public class PerfumeSeasonConfiguration : IEntityTypeConfiguration<PerfumeSeason
 
         builder.HasOne(ps => ps.Perfume)
             .WithMany(p => p.Seasons)
-            .HasForeignKey(ps => ps.PerfumeId);
+            .HasForeignKey(ps => ps.PerfumeId)
+            .OnDelete(DeleteBehavior.Cascade);
     }
 }

@@ -17,6 +17,7 @@ interface Meta {
     brands: Ref[];
     concentrations: Ref[];
     fragranceFamilies: Ref[];
+    accords: Ref[];
     notes: { name: string; slug: string; category?: string }[];
 }
 
@@ -30,6 +31,7 @@ const SORTS = [
     { v: "", label: "Öne çıkanlar" },
     { v: "rating", label: "En yüksek puan" },
     { v: "newest", label: "En yeni" },
+    { v: "oldest", label: "En eski" },
     { v: "name", label: "İsim (A-Z)" },
 ];
 
@@ -51,6 +53,7 @@ function SearchInner() {
     const [family, setFamily] = useState<string[]>(initList("family"));
     const [concentration, setConcentration] = useState<string[]>(initList("concentration"));
     const [brand, setBrand] = useState<string[]>(initList("brand"));
+    const [accord, setAccord] = useState<string[]>(initList("accord"));
     const [note, setNote] = useState<string[]>(initList("note"));
     const [sort, setSort] = useState(sp.get("sort") ?? "");
 
@@ -83,6 +86,7 @@ function SearchInner() {
             if (family.length) p.set("family", family.join(","));
             if (concentration.length) p.set("concentration", concentration.join(","));
             if (brand.length) p.set("brand", brand.join(","));
+            if (accord.length) p.set("accord", accord.join(","));
             if (note.length) p.set("note", note.join(","));
             if (sort) p.set("sort", sort);
             p.set("pageSize", "48");
@@ -104,14 +108,15 @@ function SearchInner() {
         }, 300);
         return () => clearTimeout(t);
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [q, gender, family, concentration, brand, note, sort]);
+    }, [q, gender, family, concentration, brand, accord, note, sort]);
 
     const activeCount =
-        gender.length + family.length + concentration.length + brand.length + note.length + (q.trim() ? 1 : 0);
+        gender.length + family.length + concentration.length + brand.length +
+        accord.length + note.length + (q.trim() ? 1 : 0);
 
     const clearAll = () => {
         setQ(""); setGender([]); setFamily([]); setConcentration([]);
-        setBrand([]); setNote([]); setSort("");
+        setBrand([]); setAccord([]); setNote([]); setSort("");
     };
 
     // Tek bir cinsiyet seçiliyse kırıntıda görünsün (erkek/kadın sayfaları aynı derinlikte olsun).
@@ -173,6 +178,12 @@ function SearchInner() {
                     <FilterGroup title="Konsantrasyon">
                         {(meta?.concentrations ?? []).map((c) => (
                             <Check key={c.slug} label={c.name} checked={concentration.includes(c.slug)} onChange={() => toggle(concentration, setConcentration, c.slug)} />
+                        ))}
+                    </FilterGroup>
+
+                    <FilterGroup title="Ana akorlar" scroll>
+                        {(meta?.accords ?? []).map((a) => (
+                            <Check key={a.slug} label={a.name} checked={accord.includes(a.slug)} onChange={() => toggle(accord, setAccord, a.slug)} />
                         ))}
                     </FilterGroup>
 

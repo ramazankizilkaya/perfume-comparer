@@ -15,23 +15,23 @@ public record PerfumeListQuery(
     string? Concentration = null,
     /// <summary>Koku ailesi slug'ları: oryantal,odunsu</summary>
     string? Family = null,
+    /// <summary>Ana akor slug'ları: odunsu,vanilya</summary>
+    string? Accord = null,
     string? Note = null,
     string? Season = null,
     string? AgeGroup = null,
-
     [Range(1900, 2100, ErrorMessage = "Başlangıç yılı 1900 ile 2100 arasında olmalıdır.")]
     int? MinYear = null,
-
     [Range(1900, 2100, ErrorMessage = "Bitiş yılı 1900 ile 2100 arasında olmalıdır.")]
     int? MaxYear = null,
-
     [Range(0.0, 5.0, ErrorMessage = "Puan en az 0.0, en fazla 5.0 olabilir.")]
     decimal? MinRating = null,
-
+    /// <summary>En az bu kadar oy almış parfümler. "En yüksek puanlı" listesinde
+    /// tek oyla 5 almış parfümlerin başa geçmesini engeller.</summary>
+    [Range(0, int.MaxValue, ErrorMessage = "Oy sayısı negatif olamaz.")]
+    int? MinVotes = null,
     string? Sort = null,
-
     [Range(1, int.MaxValue, ErrorMessage = "Sayfa numarası 1 veya daha büyük olmalıdır.")]
     int Page = 1,
-
     [Range(1, 100, ErrorMessage = "Sayfa boyutu 1 ile 100 arasında olmalıdır.")]
     int PageSize = 24);

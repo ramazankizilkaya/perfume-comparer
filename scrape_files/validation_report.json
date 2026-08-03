@@ -1,11 +1,19 @@
 {
-  "timestamp": "2026-07-31T15:28:33.030Z",
-  "totalScrapedBrands": 10,
-  "grandTotalScraped": 1824,
-  "grandValidCount": 1820,
-  "grandInvalidCount": 4,
-  "grandMissingImages": 4,
+  "timestamp": "2026-08-02T22:34:29.019Z",
+  "totalScrapedBrands": 140,
+  "grandTotalScraped": 16169,
+  "grandValidCount": 16158,
+  "grandInvalidCount": 11,
+  "grandMissingImages": 11,
   "brandSummary": [
+    {
+      "slug": "abercrombie_fitch",
+      "totalScraped": 78,
+      "valid": 77,
+      "invalid": 1,
+      "missingImages": 1,
+      "issuesCount": 1
+    },
     {
       "slug": "acqua_di_parma",
       "totalScraped": 106,
@@ -55,6 +63,14 @@
       "issuesCount": 0
     },
     {
+      "slug": "alvarez_gomez",
+      "totalScraped": 51,
+      "valid": 51,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
       "slug": "amouage",
       "totalScraped": 90,
       "valid": 90,
@@ -64,14 +80,366 @@
     },
     {
       "slug": "antonio_banderas",
-      "totalScraped": 100,
-      "valid": 97,
+      "totalScraped": 101,
+      "valid": 98,
       "invalid": 3,
       "missingImages": 3,
       "issuesCount": 3
     },
     {
       "slug": "arabiyat",
+      "totalScraped": 112,
+      "valid": 112,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "ard_al_zaafaran",
+      "totalScraped": 115,
+      "valid": 115,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "armaf",
+      "totalScraped": 366,
+      "valid": 366,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "atelier_cologne",
+      "totalScraped": 59,
+      "valid": 59,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "atkinsons",
+      "totalScraped": 75,
+      "valid": 75,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "azzaro",
+      "totalScraped": 103,
+      "valid": 102,
+      "invalid": 1,
+      "missingImages": 1,
+      "issuesCount": 1
+    },
+    {
+      "slug": "bath_body_works",
+      "totalScraped": 843,
+      "valid": 843,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "bdk_parfums",
+      "totalScraped": 28,
+      "valid": 28,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "benetton",
+      "totalScraped": 109,
+      "valid": 109,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "beso_beach",
+      "totalScraped": 12,
+      "valid": 12,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "boadicea_the_victorious",
+      "totalScraped": 191,
+      "valid": 191,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "bond_no_9",
+      "totalScraped": 175,
+      "valid": 175,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "burberry",
+      "totalScraped": 104,
+      "valid": 104,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "bvlgari",
+      "totalScraped": 150,
+      "valid": 150,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "by_kilian",
+      "totalScraped": 105,
+      "valid": 105,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "byredo",
+      "totalScraped": 99,
+      "valid": 99,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "cacharel",
+      "totalScraped": 78,
+      "valid": 78,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "calvin_klein",
+      "totalScraped": 202,
+      "valid": 202,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "carner_barcelona",
+      "totalScraped": 36,
+      "valid": 36,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "carolina_herrera",
+      "totalScraped": 229,
+      "valid": 229,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "cartier",
+      "totalScraped": 124,
+      "valid": 124,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "chanel",
+      "totalScraped": 162,
+      "valid": 162,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "chloe",
+      "totalScraped": 76,
+      "valid": 76,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "clinique",
+      "totalScraped": 50,
+      "valid": 50,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "clive_christian",
+      "totalScraped": 92,
+      "valid": 92,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "coach",
+      "totalScraped": 42,
+      "valid": 42,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "comme_des_garcons",
+      "totalScraped": 107,
+      "valid": 107,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "costume_national",
+      "totalScraped": 23,
+      "valid": 23,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "creed",
+      "totalScraped": 107,
+      "valid": 107,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "davidoff",
+      "totalScraped": 108,
+      "valid": 108,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "dior",
+      "totalScraped": 302,
+      "valid": 302,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "diptyque",
+      "totalScraped": 102,
+      "valid": 102,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "dolce_gabbana",
+      "totalScraped": 157,
+      "valid": 157,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "electimuss",
+      "totalScraped": 34,
+      "valid": 34,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "elie_saab",
+      "totalScraped": 40,
+      "valid": 40,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "elizabeth_arden",
+      "totalScraped": 106,
+      "valid": 106,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "emir",
+      "totalScraped": 1,
+      "valid": 1,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "escentric_molecules",
+      "totalScraped": 28,
+      "valid": 28,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "essential_parfums",
+      "totalScraped": 19,
+      "valid": 19,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "etat_libre_d_orange",
+      "totalScraped": 57,
+      "valid": 57,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "ex_nihilo",
+      "totalScraped": 83,
+      "valid": 83,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "ferragamo",
+      "totalScraped": 120,
+      "valid": 120,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "fragrance_du_bois",
+      "totalScraped": 58,
+      "valid": 58,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "fragrance_world",
+      "totalScraped": 469,
+      "valid": 469,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "frederic_malle_editions_de_parfums",
       "totalScraped": 64,
       "valid": 64,
       "invalid": 0,
@@ -79,15 +447,703 @@
       "issuesCount": 0
     },
     {
-      "slug": "bath_body_works",
-      "totalScraped": 400,
-      "valid": 400,
+      "slug": "french_avenue",
+      "totalScraped": 146,
+      "valid": 146,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "fueguia_1833",
+      "totalScraped": 164,
+      "valid": 164,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "giardini_di_toscana",
+      "totalScraped": 20,
+      "valid": 20,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "giorgio_armani",
+      "totalScraped": 257,
+      "valid": 257,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "givenchy",
+      "totalScraped": 281,
+      "valid": 281,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "gritti",
+      "totalScraped": 49,
+      "valid": 49,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "gucci",
+      "totalScraped": 131,
+      "valid": 131,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "guerlain",
+      "totalScraped": 548,
+      "valid": 548,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "guess",
+      "totalScraped": 73,
+      "valid": 73,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "halloween",
+      "totalScraped": 31,
+      "valid": 29,
+      "invalid": 2,
+      "missingImages": 2,
+      "issuesCount": 2
+    },
+    {
+      "slug": "haute_fragrance_company",
+      "totalScraped": 41,
+      "valid": 41,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "hermes",
+      "totalScraped": 125,
+      "valid": 125,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "houbigant",
+      "totalScraped": 46,
+      "valid": 46,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "hugo_boss",
+      "totalScraped": 154,
+      "valid": 154,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "initio_parfums_prives",
+      "totalScraped": 28,
+      "valid": 28,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "issey_miyake",
+      "totalScraped": 120,
+      "valid": 120,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "jaguar",
+      "totalScraped": 41,
+      "valid": 41,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "jean_paul_gaultier",
+      "totalScraped": 186,
+      "valid": 186,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "jimmy_choo",
+      "totalScraped": 48,
+      "valid": 48,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "jo_malone_london",
+      "totalScraped": 219,
+      "valid": 219,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "joop",
+      "totalScraped": 53,
+      "valid": 53,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "juliette_has_a_gun",
+      "totalScraped": 43,
+      "valid": 43,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "kajal",
+      "totalScraped": 27,
+      "valid": 27,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "kayali_fragrances",
+      "totalScraped": 43,
+      "valid": 43,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "kenzo",
+      "totalScraped": 166,
+      "valid": 166,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "khadlaj_perfumes",
+      "totalScraped": 117,
+      "valid": 117,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "korloff_paris",
+      "totalScraped": 47,
+      "valid": 47,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "kylie_jenner",
+      "totalScraped": 9,
+      "valid": 8,
+      "invalid": 1,
+      "missingImages": 1,
+      "issuesCount": 1
+    },
+    {
+      "slug": "l_artisan_parfumeur",
+      "totalScraped": 119,
+      "valid": 119,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "lalique",
+      "totalScraped": 104,
+      "valid": 104,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "lancaster",
+      "totalScraped": 16,
+      "valid": 16,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "lancome",
+      "totalScraped": 197,
+      "valid": 197,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "lattafa_perfumes",
+      "totalScraped": 344,
+      "valid": 344,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "laura_biagiotti",
+      "totalScraped": 42,
+      "valid": 42,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "le_labo",
+      "totalScraped": 65,
+      "valid": 65,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "liquides_imaginaires",
+      "totalScraped": 45,
+      "valid": 45,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "loewe",
+      "totalScraped": 128,
+      "valid": 128,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "lorenzo_pazzaglia",
+      "totalScraped": 37,
+      "valid": 37,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "louis_vuitton",
+      "totalScraped": 54,
+      "valid": 54,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "maison_alhambra",
+      "totalScraped": 297,
+      "valid": 297,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "maison_crivelli",
+      "totalScraped": 23,
+      "valid": 23,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "maison_francis_kurkdjian",
+      "totalScraped": 57,
+      "valid": 57,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "maison_martin_margiela",
+      "totalScraped": 49,
+      "valid": 49,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "mancera",
+      "totalScraped": 55,
+      "valid": 54,
+      "invalid": 1,
+      "missingImages": 1,
+      "issuesCount": 1
+    },
+    {
+      "slug": "marc_antoine_barrois",
+      "totalScraped": 7,
+      "valid": 6,
+      "invalid": 1,
+      "missingImages": 1,
+      "issuesCount": 1
+    },
+    {
+      "slug": "marc_jacobs",
+      "totalScraped": 19,
+      "valid": 19,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "matiere_premiere",
+      "totalScraped": 20,
+      "valid": 20,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "memoize_london",
+      "totalScraped": 52,
+      "valid": 52,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "michael_kors",
+      "totalScraped": 42,
+      "valid": 42,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "mizensir",
+      "totalScraped": 33,
+      "valid": 33,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "montale",
+      "totalScraped": 2,
+      "valid": 2,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "montblanc",
+      "totalScraped": 4,
+      "valid": 4,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "moschino",
+      "totalScraped": 3,
+      "valid": 3,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "mugler",
+      "totalScraped": 10,
+      "valid": 10,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "nasomatto",
+      "totalScraped": 9,
+      "valid": 9,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "natura",
+      "totalScraped": 544,
+      "valid": 544,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "nautica",
+      "totalScraped": 31,
+      "valid": 31,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "o_boticario",
+      "totalScraped": 77,
+      "valid": 77,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "orto_parisi",
+      "totalScraped": 3,
+      "valid": 3,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "parfum_d_empire",
+      "totalScraped": 8,
+      "valid": 8,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "parfums_de_marly",
+      "totalScraped": 25,
+      "valid": 25,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "paris_corner",
+      "totalScraped": 197,
+      "valid": 197,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "penhaligon_s",
+      "totalScraped": 73,
+      "valid": 73,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "police",
+      "totalScraped": 8,
+      "valid": 8,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "profumum_roma",
+      "totalScraped": 24,
+      "valid": 24,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "puma",
+      "totalScraped": 32,
+      "valid": 32,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "rabanne",
+      "totalScraped": 142,
+      "valid": 142,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "ralph_lauren",
+      "totalScraped": 55,
+      "valid": 55,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "rasasi",
+      "totalScraped": 403,
+      "valid": 403,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "serge_lutens",
+      "totalScraped": 113,
+      "valid": 113,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "sol_de_janeiro",
+      "totalScraped": 26,
+      "valid": 26,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "sospiro_perfumes",
+      "totalScraped": 31,
+      "valid": 31,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "stephane_humbert_lucas_777",
+      "totalScraped": 24,
+      "valid": 24,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "swiss_arabian",
+      "totalScraped": 44,
+      "valid": 44,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "the_house_of_oud",
+      "totalScraped": 35,
+      "valid": 35,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "tom_ford",
+      "totalScraped": 134,
+      "valid": 134,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "tous",
+      "totalScraped": 55,
+      "valid": 55,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "trussardi",
+      "totalScraped": 23,
+      "valid": 23,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "valentino",
+      "totalScraped": 21,
+      "valid": 21,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "versace",
+      "totalScraped": 27,
+      "valid": 27,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "victoria_s_secret",
+      "totalScraped": 264,
+      "valid": 264,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "viktor_rolf",
+      "totalScraped": 107,
+      "valid": 107,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "xerjoff",
+      "totalScraped": 186,
+      "valid": 186,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "yves_saint_laurent",
+      "totalScraped": 276,
+      "valid": 276,
+      "invalid": 0,
+      "missingImages": 0,
+      "issuesCount": 0
+    },
+    {
+      "slug": "zara",
+      "totalScraped": 923,
+      "valid": 923,
       "invalid": 0,
       "missingImages": 0,
       "issuesCount": 0
     }
   ],
   "details": [
+    {
+      "slug": "abercrombie_fitch",
+      "totalScrapedPerfumes": 78,
+      "validCount": 77,
+      "invalidCount": 1,
+      "missingImagesCount": 1,
+      "issues": [
+        {
+          "perfumeFile": "first_instinct_blue_50034.json",
+          "perfumeSlug": "first_instinct_blue_50034",
+          "errors": [
+            "[RESİM EKSİK] WebP resmi bulunamadı: images/first_instinct_blue_50034.webp"
+          ]
+        }
+      ]
+    },
     {
       "slug": "ajmal",
       "totalScrapedPerfumes": 362,
@@ -106,8 +1162,8 @@
     },
     {
       "slug": "antonio_banderas",
-      "totalScrapedPerfumes": 100,
-      "validCount": 97,
+      "totalScrapedPerfumes": 101,
+      "validCount": 98,
       "invalidCount": 3,
       "missingImagesCount": 3,
       "issues": [
@@ -130,6 +1186,93 @@
           "perfumeSlug": "secret_absolu_97180",
           "errors": [
             "[RESİM EKSİK] WebP resmi bulunamadı: images/secret_absolu_97180.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "azzaro",
+      "totalScrapedPerfumes": 103,
+      "validCount": 102,
+      "invalidCount": 1,
+      "missingImagesCount": 1,
+      "issues": [
+        {
+          "perfumeFile": "sea_54974.json",
+          "perfumeSlug": "sea_54974",
+          "errors": [
+            "[RESİM EKSİK] WebP resmi bulunamadı: images/sea_54974.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "halloween",
+      "totalScrapedPerfumes": 31,
+      "validCount": 29,
+      "invalidCount": 2,
+      "missingImagesCount": 2,
+      "issues": [
+        {
+          "perfumeFile": "halloween_kiss_4791.json",
+          "perfumeSlug": "halloween_kiss_4791",
+          "errors": [
+            "[RESİM EKSİK] WebP resmi bulunamadı: images/halloween_kiss_4791.webp"
+          ]
+        },
+        {
+          "perfumeFile": "mia_me_mine_43752.json",
+          "perfumeSlug": "mia_me_mine_43752",
+          "errors": [
+            "[RESİM EKSİK] WebP resmi bulunamadı: images/mia_me_mine_43752.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kylie_jenner",
+      "totalScrapedPerfumes": 9,
+      "validCount": 8,
+      "invalidCount": 1,
+      "missingImagesCount": 1,
+      "issues": [
+        {
+          "perfumeFile": "blush_wood_138317.json",
+          "perfumeSlug": "blush_wood_138317",
+          "errors": [
+            "[RESİM EKSİK] WebP resmi bulunamadı: images/blush_wood_138317.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mancera",
+      "totalScrapedPerfumes": 55,
+      "validCount": 54,
+      "invalidCount": 1,
+      "missingImagesCount": 1,
+      "issues": [
+        {
+          "perfumeFile": "amore_caffe_87409.json",
+          "perfumeSlug": "amore_caffe_87409",
+          "errors": [
+            "[RESİM EKSİK] WebP resmi bulunamadı: images/amore_caffe_87409.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "marc_antoine_barrois",
+      "totalScrapedPerfumes": 7,
+      "validCount": 6,
+      "invalidCount": 1,
+      "missingImagesCount": 1,
+      "issues": [
+        {
+          "perfumeFile": "ganymede_extrait_79632.json",
+          "perfumeSlug": "ganymede_extrait_79632",
+          "errors": [
+            "[RESİM EKSİK] WebP resmi bulunamadı: images/ganymede_extrait_79632.webp"
           ]
         }
       ]

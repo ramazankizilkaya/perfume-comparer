@@ -29,8 +29,13 @@ const FAMILIES: { label: string; slug: string }[] = [
     { label: "Fujer", slug: "fujer" },
 ];
 
+/** "En yüksek puanlı" listesinde tek oyla 5 almış parfümler başa geçmesin. */
+const TOP_RATED_MIN_VOTES = 2000;
+
 export default function Home() {
     const [perfumes, setPerfumes] = useState<PerfumeCardData[]>([]);
+    const [topRated, setTopRated] = useState<PerfumeCardData[]>([]);
+    const [total, setTotal] = useState(0);
     const [blogs, setBlogs] = useState<BlogPost[]>([]);
     const [loading, setLoading] = useState(true);
     const [failed, setFailed] = useState(false);
@@ -42,13 +47,19 @@ export default function Home() {
         (async () => {
             try {
                 const g = gender && gender !== "all" ? `&gender=${gender}` : "";
-                const [pRes, bRes] = await Promise.all([
+                // Sıralamayı API yapıyor: 16 binlik katalogda ilk sayfayı
+                // tarayıcıda sıralamak "en yüksek puanlı"yı yanlış gösterir.
+                const [pRes, tRes, bRes] = await Promise.all([
                     fetch(`${API_BASE}/api/perfumes?pageSize=24${g}`),
+                    fetch(`${API_BASE}/api/perfumes?sort=rating&minVotes=${TOP_RATED_MIN_VOTES}&pageSize=6${g}`),
                     fetch(`${API_BASE}/api/blogs`),
                 ]);
 
                 if (!pRes.ok) throw new Error("perfumes");
-                setPerfumes((await pRes.json()).items ?? []);
+                const page = await pRes.json();
+                setPerfumes(page.items ?? []);
+                setTotal(page.totalCount ?? 0);
+                if (tRes.ok) setTopRated((await tRes.json()).items ?? []);
                 if (bRes.ok) setBlogs(await bRes.json());
             } catch {
                 setFailed(true);
@@ -76,9 +87,9 @@ export default function Home() {
         );
     }
 
-    const popular = [...perfumes].sort((a, b) => b.ratingCount - a.ratingCount).slice(0, 12);
-    const mostRated = [...perfumes].sort((a, b) => b.ratingCount - a.ratingCount).slice(0, 6);
-    const topRated = [...perfumes].sort((a, b) => b.avgRating - a.avgRating).slice(0, 6);
+    // API varsayılan sıralaması zaten oy sayısına göre; ilk 24 kayıt popüler listesi.
+    const popular = perfumes.slice(0, 12);
+    const mostRated = perfumes.slice(0, 6);
 
     return (
         <>
@@ -90,8 +101,8 @@ export default function Home() {
                     Parfümleri notasına, ailesine ve <em>karakterine</em> göre karşılaştırın
                 </h1>
                 <p className="intro-sub">
-                    {perfumes.length}+ parfümün koku piramidini, mevsim ve yaş uyumunu, kullanıcı puanlarını
-                    ve yorum özetlerini tek sayfada görün.
+                    {total.toLocaleString("tr-TR")} parfümün koku piramidini, ana akorlarını, mevsim uyumunu,
+                    kalıcılık ve yayılım oylamalarını tek sayfada görün.
                 </p>
                 <div className="chip-nav">
                     {FAMILIES.map((f) => (

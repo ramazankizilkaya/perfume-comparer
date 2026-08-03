@@ -8,15 +8,18 @@ public class PerfumeConfiguration : IEntityTypeConfiguration<Perfume>
 {
     public void Configure(EntityTypeBuilder<Perfume> builder)
     {
-        builder.Property(p => p.Name).HasMaxLength(150);
-        builder.Property(p => p.Slug).HasMaxLength(180);
+        builder.Property(p => p.Name).HasMaxLength(200);
+        builder.Property(p => p.Slug).HasMaxLength(240);
+        builder.Property(p => p.SourceUrl).HasMaxLength(500);
+        builder.Property(p => p.ImageUrl).HasMaxLength(300);
         builder.Property(p => p.Gender).HasConversion<string>().HasMaxLength(10);
 
-        // Sabit lookup'lar artık enum; okunabilir olsun diye string olarak saklanır.
+        // Sabit lookup'lar enum; okunabilir olsun diye string olarak saklanır.
         builder.Property(p => p.Concentration).HasConversion<string>().HasMaxLength(20);
         builder.Property(p => p.FragranceFamily).HasConversion<string>().HasMaxLength(20);
 
         builder.Property(p => p.AvgRating).HasPrecision(3, 2);
+        builder.Property(p => p.UserAvgRating).HasPrecision(3, 2);
         builder.Property(p => p.CreatedAt).HasDefaultValueSql("now()");
         builder.Property(p => p.UpdatedAt).HasDefaultValueSql("now()");
 
@@ -25,6 +28,9 @@ public class PerfumeConfiguration : IEntityTypeConfiguration<Perfume>
 
         // Filtre panelinin ana kombinasyonu
         builder.HasIndex(p => new { p.Gender, p.Concentration, p.ReleaseYear });
+
+        // Marka sayfasının varsayılan sıralaması (marka + popülerlik)
+        builder.HasIndex(p => new { p.BrandId, p.RatingCount });
 
         builder.HasIndex(p => p.Name)
             .HasMethod("gin")

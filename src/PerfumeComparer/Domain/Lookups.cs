@@ -62,133 +62,13 @@ public static class Lookups
         _ => null,
     };
 
-    // --- Note --------------------------------------------------------------
-    public static string Label(this Note n) => n switch
-    {
-        Note.Bergamot => "Bergamot",
-        Note.Lemon => "Limon",
-        Note.Lavender => "Lavanta",
-        Note.Ambroxan => "Ambroxan",
-        Note.Vanilla => "Vanilya",
-        Note.Oud => "Oud",
-        Note.Cedar => "Sedir",
-        Note.Vetiver => "Vetiver",
-        Note.Patchouli => "Paçuli",
-        Note.BlackPepper => "Kara Biber",
-        Note.Cinnamon => "Tarçın",
-        Note.Rose => "Gül",
-        Note.Jasmine => "Yasemin",
-        Note.Musk => "Misk",
-        Note.Leather => "Deri",
-        Note.Tobacco => "Tütün",
-        Note.Mandarin => "Mandalina",
-        Note.Grapefruit => "Greyfurt",
-        Note.OrangeBlossom => "Portakal Çiçeği",
-        Note.Iris => "İris",
-        Note.Amber => "Amber",
-        Note.TonkaBean => "Tonka Fasulyesi",
-        Note.Cardamom => "Kardamom",
-        Note.PinkPepper => "Pembe Biber",
-        Note.Sandalwood => "Sandal Ağacı",
-        Note.Fig => "İncir",
-        Note.SeaNotes => "Deniz Notaları",
-        Note.Mint => "Nane",
-        Note.Other => "Diğer",
-        _ => n.ToString(),
-    };
-
-    public static string Slug(this Note n) => n switch
-    {
-        Note.Bergamot => "bergamot",
-        Note.Lemon => "limon",
-        Note.Lavender => "lavanta",
-        Note.Ambroxan => "ambroxan",
-        Note.Vanilla => "vanilya",
-        Note.Oud => "oud",
-        Note.Cedar => "sedir",
-        Note.Vetiver => "vetiver",
-        Note.Patchouli => "paculi",
-        Note.BlackPepper => "kara-biber",
-        Note.Cinnamon => "tarcin",
-        Note.Rose => "gul",
-        Note.Jasmine => "yasemin",
-        Note.Musk => "misk",
-        Note.Leather => "deri-notasi",
-        Note.Tobacco => "tutun",
-        Note.Mandarin => "mandalina",
-        Note.Grapefruit => "greyfurt",
-        Note.OrangeBlossom => "portakal-cicegi",
-        Note.Iris => "iris",
-        Note.Amber => "amber",
-        Note.TonkaBean => "tonka-fasulyesi",
-        Note.Cardamom => "kardamom",
-        Note.PinkPepper => "pembe-biber",
-        Note.Sandalwood => "sandal-agaci",
-        Note.Fig => "incir",
-        Note.SeaNotes => "deniz-notalari",
-        Note.Mint => "nane",
-        Note.Other => "diger",
-        _ => n.ToString().ToLowerInvariant(),
-    };
-
-    /// <summary>Notanın ait olduğu koku ailesi (görsel gruplama için).</summary>
-    public static string Category(this Note n) => n switch
-    {
-        Note.Bergamot or Note.Lemon or Note.Mandarin or Note.Grapefruit => "Narenciye",
-        Note.Lavender or Note.Mint => "Aromatik",
-        Note.Ambroxan or Note.Amber => "Amber",
-        Note.Vanilla or Note.TonkaBean => "Tatlı",
-        Note.Oud or Note.Cedar or Note.Vetiver or Note.Patchouli or Note.Sandalwood => "Odunsu",
-        Note.BlackPepper or Note.Cinnamon or Note.Cardamom or Note.PinkPepper => "Baharatlı",
-        Note.Rose or Note.Jasmine or Note.OrangeBlossom or Note.Iris => "Çiçeksi",
-        Note.Musk => "Hayvansal",
-        Note.Leather => "Deri",
-        Note.Tobacco => "Tütün",
-        Note.Fig or Note.SeaNotes => "Ferah",
-        Note.Other => "Diğer",
-        _ => "",
-    };
-
-    public static Note? NoteFromSlug(string? slug) => slug?.Trim().ToLowerInvariant() switch
-    {
-        "bergamot" => Note.Bergamot,
-        "limon" => Note.Lemon,
-        "lavanta" => Note.Lavender,
-        "ambroxan" => Note.Ambroxan,
-        "vanilya" => Note.Vanilla,
-        "oud" => Note.Oud,
-        "sedir" => Note.Cedar,
-        "vetiver" => Note.Vetiver,
-        "paculi" or "paçuli" => Note.Patchouli,
-        "kara-biber" => Note.BlackPepper,
-        "tarcin" or "tarçın" => Note.Cinnamon,
-        "gul" or "gül" => Note.Rose,
-        "yasemin" => Note.Jasmine,
-        "misk" => Note.Musk,
-        "deri-notasi" => Note.Leather,
-        "tutun" or "tütün" => Note.Tobacco,
-        "mandalina" => Note.Mandarin,
-        "greyfurt" => Note.Grapefruit,
-        "portakal-cicegi" or "portakal-çiçeği" => Note.OrangeBlossom,
-        "iris" or "süsen" => Note.Iris,
-        "amber" => Note.Amber,
-        "tonka-fasulyesi" => Note.TonkaBean,
-        "kardamom" or "kakule" => Note.Cardamom,
-        "pembe-biber" => Note.PinkPepper,
-        "sandal-agaci" or "sandal-ağacı" => Note.Sandalwood,
-        "incir" => Note.Fig,
-        "deniz-notalari" or "deniz-notaları" => Note.SeaNotes,
-        "nane" => Note.Mint,
-        "diger" or "diğer" => Note.Other,
-        _ => null,
-    };
-
     // --- Concentration -----------------------------------------------------
     public static string Label(this Concentration c) => c switch
     {
         Concentration.Edt => "EDT",
         Concentration.Edp => "EDP",
         Concentration.Edc => "EDC",
+        Concentration.EauFraiche => "Eau Fraiche",
         Concentration.Parfum => "Parfum",
         Concentration.Extrait => "Extrait de Parfum",
         Concentration.Cologne => "Cologne",
@@ -202,6 +82,7 @@ public static class Lookups
         Concentration.Edt => "edt",
         Concentration.Edp => "edp",
         Concentration.Edc => "edc",
+        Concentration.EauFraiche => "eau-fraiche",
         Concentration.Parfum => "parfum",
         Concentration.Extrait => "extrait-de-parfum",
         Concentration.Cologne => "cologne",
@@ -215,6 +96,7 @@ public static class Lookups
         "edt" => Concentration.Edt,
         "edp" => Concentration.Edp,
         "edc" => Concentration.Edc,
+        "eau-fraiche" => Concentration.EauFraiche,
         "parfum" => Concentration.Parfum,
         "extrait-de-parfum" or "extrait" => Concentration.Extrait,
         "cologne" => Concentration.Cologne,
@@ -229,6 +111,7 @@ public static class Lookups
         "edt" => Concentration.Edt,
         "edp" => Concentration.Edp,
         "edc" => Concentration.Edc,
+        "eau fraiche" => Concentration.EauFraiche,
         "parfum" => Concentration.Parfum,
         "extrait de parfum" => Concentration.Extrait,
         "cologne" => Concentration.Cologne,
@@ -317,5 +200,30 @@ public static class Lookups
         "chypre" => FragranceFamily.Chypre,
         "diğer" or "diger" => FragranceFamily.Other,
         _ => null,
+    };
+
+    // --- Accord -> FragranceFamily -------------------------------------------
+    /// <summary>
+    /// Kaynak veride koku ailesi alanı yok; sadece ana akorlar var.
+    /// Parfümün en baskın akoru buradaki eşlemeyle bir aileye çevrilir,
+    /// böylece filtreler ve /ara sayfası çalışmaya devam eder.
+    /// </summary>
+    public static FragranceFamily? FamilyFromAccord(string? accordName) => accordName?.Trim().ToLowerInvariant() switch
+    {
+        "narenciye" or "tuzlu" or "ekşi" => FragranceFamily.Citrus,
+        "çiçeksi" or "beyaz çiçeksi" or "sarı çiçeksi" or "gül" or "iris" or "menekşe" or "tüberöz" or "pudralı"
+            => FragranceFamily.Floral,
+        "odunsu" or "paçuli" or "ud" or "toprak" or "kozalaklı" or "kum" => FragranceFamily.Woody,
+        "amber" or "balsamik" or "vanilya" or "bal" or "balmumu" or "rom" => FragranceFamily.Oriental,
+        "tatlı" or "karamel" or "çikolata" or "kakao" or "kahve" or "badem" or "fındıksı" or "hindistancevizi"
+            or "laktonik" or "sütlü" or "gurme" or "kiraz" or "meyvemsi" or "tropikal" => FragranceFamily.Gourmand,
+        "taze" or "sulu" or "deniz" or "ozonik" or "mineral" or "yeşil" or "sabunsu" or "metalik" or "aldehitli"
+            or "kafur" => FragranceFamily.Fresh,
+        "aromatik" or "bitkisel" or "anason" or "taze baharatlı" or "sıcak baharatlı" or "yumuşak baharatlı"
+            or "baharatlı" or "tarçın" or "terpenik" => FragranceFamily.Aromatic,
+        "lavanta" or "yosunlu" => FragranceFamily.Fougere,
+        "deri" or "animalik" or "misk" or "dumanlı" or "tütün" => FragranceFamily.Leather,
+        null or "" => null,
+        _ => FragranceFamily.Other,
     };
 }

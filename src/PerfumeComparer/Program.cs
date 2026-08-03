@@ -1,4 +1,6 @@
 using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.StaticFiles;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.EntityFrameworkCore;
 using PerfumeComparer.Business.Services;
 using PerfumeComparer.Data;
@@ -40,6 +42,7 @@ try
     // Services
     builder.Services.AddScoped<ICatalogService, CatalogService>();
     builder.Services.AddScoped<ISearchService, SearchService>();
+    builder.Services.AddScoped<IUsageService, UsageService>();
     builder.Services.AddScoped<ISeedService, SeedService>();
     builder.Services.AddSingleton<ITokenService, TokenService>();
 
@@ -68,6 +71,31 @@ try
     app.UseExceptionHandler();
     
     app.UseCors("DevCors");
+
+    // Scrape edilen marka ve parfüm görselleri: repo içindeki scrape_files klasörü
+    // /media altından servis edilir (DB'de "/media/perfumes/<marka>/<dosya>.webp" durur).
+    // Kopyalama yok, tek kaynak scrape_files.
+    var mediaRoot = Path.GetFullPath(Path.Combine(
+        builder.Environment.ContentRootPath,
+        builder.Configuration["Media:Root"] ?? "../../scrape_files"));
+
+    if (Directory.Exists(mediaRoot))
+    {
+        var contentTypes = new FileExtensionContentTypeProvider();
+        contentTypes.Mappings[".webp"] = "image/webp";
+
+        app.UseStaticFiles(new StaticFileOptions
+        {
+            FileProvider = new PhysicalFileProvider(mediaRoot),
+            RequestPath = "/media",
+            ContentTypeProvider = contentTypes,
+            ServeUnknownFileTypes = false,
+        });
+    }
+    else
+    {
+        Log.Warning("Görsel klasörü bulunamadı, /media kapalı: {MediaRoot}", mediaRoot);
+    }
 
     if (app.Environment.IsDevelopment())
     {
