@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PerfumeComparer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92a6aa80897492ab1b8edfe5074304e747c3bcc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33b574d74f337254e1b3f2852b311b3fa8164f32")]
 [assembly: System.Reflection.AssemblyProductAttribute("PerfumeComparer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PerfumeComparer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

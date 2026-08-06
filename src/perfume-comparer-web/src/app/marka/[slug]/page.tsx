@@ -65,6 +65,8 @@ export default function BrandPage() {
     const [loadingMore, setLoadingMore] = useState(false);
 
     const sentinelRef = useRef<HTMLDivElement | null>(null);
+    const toolsRef = useRef<HTMLElement | null>(null);
+    const isFirstList = useRef(true);
 
     // --- marka bilgisi
     useEffect(() => {
@@ -104,6 +106,16 @@ export default function BrandPage() {
     // --- filtre/arama değişince listeyi baştan kur
     useEffect(() => {
         if (!slug) return;
+
+        // Liste sıfırlanıyor: kullanıcı listenin ortasındaysa arama kutusuna geri
+        // getir, yoksa kısalan listede boşluğa bakıyor olur. İlk yüklemede karışma.
+        if (isFirstList.current) {
+            isFirstList.current = false;
+        } else if (toolsRef.current) {
+            const top = toolsRef.current.getBoundingClientRect().top + window.scrollY;
+            if (window.scrollY > top) window.scrollTo({ top, behavior: "smooth" });
+        }
+
         let cancelled = false;
         setListLoading(true);
         (async () => {
@@ -205,21 +217,13 @@ export default function BrandPage() {
             />
 
             <header className="brand-head">
+                {/* Logo üst bloğun solunu komple kaplar; yüksekliği sağdaki
+                    künye tablosu belirler, logo o alana sığdığı kadar büyür. */}
                 <div className="brand-logo">
                     {brand.logoUrl ? (
                         <img src={mediaUrl(brand.logoUrl)} alt={`${brand.name} logosu`} />
                     ) : (
-                        <span className="brand-logo-fallback">{brand.name.charAt(0)}</span>
-                    )}
-                </div>
-
-                <div className="brand-head-main">
-                    <h1 className="brand-name">{brand.name}</h1>
-                    {brand.description && <p className="brand-desc">{brand.description}</p>}
-                    {brand.websiteUrl && (
-                        <a className="link-more" href={brand.websiteUrl} target="_blank" rel="noreferrer noopener">
-                            Resmi site <Icon name="arrow-right" size={13} />
-                        </a>
+                        <span className="brand-logo-fallback">{brand.name}</span>
                     )}
                 </div>
 
@@ -239,9 +243,19 @@ export default function BrandPage() {
                         />
                     </tbody>
                 </table>
+
+                <div className="brand-head-main">
+                    <h1 className="brand-name">{brand.name}</h1>
+                    {brand.description && <p className="brand-desc">{brand.description}</p>}
+                    {brand.websiteUrl && (
+                        <a className="link-more" href={brand.websiteUrl} target="_blank" rel="noreferrer noopener">
+                            Resmi site <Icon name="arrow-right" size={13} />
+                        </a>
+                    )}
+                </div>
             </header>
 
-            <section className="brand-tools">
+            <section className="brand-tools" ref={toolsRef}>
                 <div className="field">
                     <Icon name="search" />
                     <input

@@ -4,16 +4,19 @@ import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import Icon from "@/components/Icon";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
-import { API_BASE, brandHref } from "@/lib/urls";
+import { API_BASE, brandHref, mediaUrl } from "@/lib/urls";
 
-interface BrandRef {
+interface BrandCard {
     id: number;
     name: string;
     slug: string;
+    logoUrl?: string | null;
+    country?: string | null;
+    perfumeCount: number;
 }
 
 export default function BrandsPage() {
-    const [brands, setBrands] = useState<BrandRef[]>([]);
+    const [brands, setBrands] = useState<BrandCard[]>([]);
     const [query, setQuery] = useState("");
     const [loading, setLoading] = useState(true);
 
@@ -38,7 +41,7 @@ export default function BrandsPage() {
 
     // Baş harfe göre grupla; uzun listede göz taraması kolaylaşsın.
     const groups = useMemo(() => {
-        const map = new Map<string, BrandRef[]>();
+        const map = new Map<string, BrandCard[]>();
         for (const brand of filtered) {
             const letter = brand.name.charAt(0).toLocaleUpperCase("tr");
             const key = /[0-9]/.test(letter) ? "#" : letter;
@@ -81,16 +84,36 @@ export default function BrandsPage() {
                 groups.map(([letter, items]) => (
                     <section key={letter} className="brand-group">
                         <h2 className="brand-group-letter">{letter}</h2>
-                        <div className="brand-list">
+                        <div className="brand-card-grid">
                             {items.map((b) => (
-                                <Link key={b.slug} href={brandHref(b.slug)} className="brand-list-item">
-                                    {b.name}
-                                </Link>
+                                <BrandTile key={b.slug} brand={b} />
                             ))}
                         </div>
                     </section>
                 ))
             )}
         </>
+    );
+}
+
+/**
+ * Kartın içinde sadece logo var. Markanın adı ekranda yazmadığı için
+ * bağlantıya `aria-label` ve `title` veriyoruz: ekran okuyucu okuyabilsin,
+ * fareyle üstüne gelen de hangi marka olduğunu görebilsin.
+ */
+function BrandTile({ brand }: { brand: BrandCard }) {
+    return (
+        <Link
+            href={brandHref(brand.slug)}
+            className="brand-card"
+            aria-label={brand.name}
+            title={`${brand.name} · ${brand.perfumeCount} parfüm`}
+        >
+            {brand.logoUrl ? (
+                <img className="brand-card-logo" src={mediaUrl(brand.logoUrl)} alt={brand.name} loading="lazy" />
+            ) : (
+                <span className="brand-card-fallback">{brand.name}</span>
+            )}
+        </Link>
     );
 }

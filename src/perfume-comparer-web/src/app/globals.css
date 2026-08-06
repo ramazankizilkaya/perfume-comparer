@@ -2843,8 +2843,7 @@ body.dark-mode .matrix-head img {
 .brand-head {
     display: grid;
     gap: var(--s4);
-    grid-template-columns: auto 1fr;
-    align-items: start;
+    grid-template-columns: 1fr;
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: var(--radius);
@@ -2854,33 +2853,49 @@ body.dark-mode .matrix-head img {
 
 @media (min-width: 900px) {
     .brand-head {
-        grid-template-columns: 96px 1fr 280px;
+        /* Sol: logo, sağ: künye tablosu. Ad ve açıklama ikisinin altında,
+           tam genişlikte. Böylece logo sol bloğun tamamını kaplayabiliyor. */
+        grid-template-columns: 1fr 300px;
     }
 }
 
 .brand-logo {
-    inline-size: 96px;
-    block-size: 96px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--surface-alt);
+    /* Yükseklik kesin olmalı: görsele "kutunun %100'ü" dediğimiz için kutu
+       içeriğe göre büyürse görsel kendini şişirir. 260px, sağdaki 6 satırlık
+       künye tablosunun yüksekliğiyle aynı hizada duruyor. */
+    block-size: 260px;
+    padding: var(--s4);
+    background: var(--surface);
     border: 1px solid var(--line);
     border-radius: var(--radius);
-    overflow: hidden;
 }
 
+/* Kaynak görseller 300-1080 piksel arasında; sadece "en fazla" desek küçük
+   logolar kutuyu doldurmuyor. Kutuyu tamamen kaplat, contain oranı korusun. */
 .brand-logo img {
     inline-size: 100%;
     block-size: 100%;
     object-fit: contain;
-    padding: var(--s2);
+}
+
+/* Logo dosyalarının zemini beyaz olduğu için koyu temada kutuyu da beyaz tut. */
+body.dark-mode .brand-logo {
+    background: #FFFFFF;
 }
 
 .brand-logo-fallback {
     font-size: var(--fs-2xl);
     font-weight: 700;
+    text-align: center;
+    line-height: 1.15;
     color: var(--ink-faint);
+}
+
+.brand-head-main {
+    grid-column: 1 / -1;
 }
 
 .brand-name {
@@ -2894,17 +2909,11 @@ body.dark-mode .matrix-head img {
     font-size: var(--fs-sm);
     color: var(--ink-soft);
     line-height: 1.55;
-    max-inline-size: 68ch;
+    max-inline-size: 90ch;
 }
 
 .brand-spec {
-    grid-column: 1 / -1;
-}
-
-@media (min-width: 900px) {
-    .brand-spec {
-        grid-column: auto;
-    }
+    align-self: start;
 }
 
 /* --- marka sayfası araç çubuğu ---------------------------------------------- */
@@ -2969,20 +2978,53 @@ body.dark-mode .matrix-head img {
     margin-block-end: var(--s2);
 }
 
-.brand-list {
+.brand-card-grid {
     display: grid;
-    gap: var(--s1) var(--s3);
-    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: var(--s3);
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 }
 
-.brand-list-item {
-    font-size: var(--fs-sm);
-    padding: 0.3rem 0;
+/* Kartın kendisi logonun kutusu: içeride ikinci bir çerçeve yok.
+   3/2 oran hem kare logolara (listenin çoğu) hem de 3:1, 8:1 gibi çok geniş
+   logolara yer bırakıyor; contain sayesinde ikisi de taşmadan büyüyor. */
+.brand-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 3 / 2;
+    padding: var(--s4);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    transition: border-color 0.12s ease;
+}
+
+.brand-card:hover {
+    border-color: var(--accent);
+}
+
+.brand-card-logo {
+    max-inline-size: 100%;
+    max-block-size: 100%;
+    object-fit: contain;
+}
+
+/* Logo dosyalarının kendi zemini beyaz (şeffaf değil). Koyu temada kart koyu
+   kalırsa her logonun altında ayrı bir beyaz dikdörtgen görünüyor; kartı da
+   beyaz yapınca ikisi birleşiyor ve ızgara derli toplu duruyor. */
+body.dark-mode .brand-card {
+    background: #FFFFFF;
+}
+
+/* Logosu olmayan marka: adı okunur biçimde yazılır.
+   Marka detay sayfasındaki .brand-logo-fallback'ten ayrı bir sınıf, yoksa
+   oradaki tek harflik büyük yazıyı da ezerdi. */
+.brand-card-fallback {
+    font-size: var(--fs-md);
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
     color: var(--ink-soft);
-}
-
-.brand-list-item:hover {
-    color: var(--accent);
 }
 
 /* --- ana akorlar ------------------------------------------------------------ */

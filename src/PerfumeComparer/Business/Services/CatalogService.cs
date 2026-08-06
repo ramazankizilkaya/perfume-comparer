@@ -69,13 +69,13 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
         return new PagedResult<PerfumeCardDto>(rows.Select(ToCard).ToList(), page, pageSize, totalCount);
     }
 
-    public async Task<IReadOnlyList<RefItemDto>> GetBrandsAsync(CancellationToken ct = default)
+    public async Task<IReadOnlyList<BrandCardDto>> GetBrandsAsync(CancellationToken ct = default)
     {
         var brandRepo = uow.GetRepository<Brand>();
         return await brandRepo
             .AsNoTracking()
             .OrderBy(b => b.Name)
-            .Select(b => new RefItemDto(b.Id, b.Name, b.Slug))
+            .Select(b => new BrandCardDto(b.Id, b.Name, b.Slug, b.LogoUrl, b.Country, b.PerfumeCount))
             .ToListAsync(ct);
     }
 

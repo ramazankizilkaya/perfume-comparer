@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CompareBar from "@/components/CompareBar";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
     title: "Aura Compare · Parfüm Karşılaştırma ve Koku Rehberi",
@@ -18,6 +19,7 @@ export default function RootLayout({
     return (
         <html lang="tr">
             <body>
+                <ScrollToTop />
                 <Header />
                 <main className="main-content">
                     <div className="shell">{children}</div>

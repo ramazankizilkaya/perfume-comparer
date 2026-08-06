@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect, useRef, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Icon from "@/components/Icon";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
@@ -57,6 +57,9 @@ function SearchInner() {
     const [note, setNote] = useState<string[]>(initList("note"));
     const [sort, setSort] = useState(sp.get("sort") ?? "");
 
+    const toolbarRef = useRef<HTMLDivElement | null>(null);
+    const isFirstSearch = useRef(true);
+
     const [meta, setMeta] = useState<Meta | null>(null);
     const [results, setResults] = useState<PerfumeCardData[]>([]);
     const [total, setTotal] = useState(0);
@@ -78,6 +81,15 @@ function SearchInner() {
         set(list.includes(val) ? list.filter((x) => x !== val) : [...list, val]);
 
     useEffect(() => {
+        // Sonuçlar değişiyor: kullanıcı listenin ortasındaysa araç çubuğuna geri
+        // getir. İlk yüklemede (adresten gelen filtrelerle) karışma.
+        if (isFirstSearch.current) {
+            isFirstSearch.current = false;
+        } else if (toolbarRef.current) {
+            const top = toolbarRef.current.getBoundingClientRect().top + window.scrollY;
+            if (window.scrollY > top) window.scrollTo({ top, behavior: "smooth" });
+        }
+
         const t = setTimeout(async () => {
             setLoading(true);
             const p = new URLSearchParams();
@@ -201,7 +213,7 @@ function SearchInner() {
                 </aside>
 
                 <div className="search-results">
-                    <div className="search-toolbar">
+                    <div className="search-toolbar" ref={toolbarRef}>
                         <span className="muted">{loading ? "Aranıyor…" : `${total} sonuç`}</span>
                         <div className="search-toolbar-right">
                             <button className="btn btn-ghost btn-sm filter-toggle" onClick={() => setFiltersOpen((o) => !o)}>
