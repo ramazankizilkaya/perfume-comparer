@@ -10,6 +10,8 @@ export type IconName =
     | "arrow-left"
     | "chevron-right"
     | "chevron-down"
+    | "chevron-up"
+    | "star"
     | "swap"
     | "sun"
     | "moon"
@@ -39,6 +41,8 @@ const PATHS: Record<IconName, React.ReactNode> = {
     "arrow-left": <path d="M19 12H5M11 18l-6-6 6-6" />,
     "chevron-right": <path d="m9 6 6 6-6 6" />,
     "chevron-down": <path d="m6 9 6 6 6-6" />,
+    "chevron-up": <path d="m18 15-6-6-6 6" />,
+    star: <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />,
     swap: <path d="M7 8h13l-3-3M17 16H4l3 3" />,
     sun: (
         <>

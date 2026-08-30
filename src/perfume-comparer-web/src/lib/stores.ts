@@ -12,7 +12,7 @@ export interface PerfumeRef {
     path: string;
 }
 
-export type GenderPref = "male" | "female" | "all" | null;
+export type GenderPref = "erkek" | "kadin" | "unisex" | "all" | "male" | "female" | null;
 
 export interface AuthUser {
     id: number;
@@ -30,7 +30,16 @@ export const MAX_COMPARE = 4;
 
 /** Cinsiyet tercihi: ilk ziyarette null → kullanıcıya sorulur, sonra saklanır. */
 export function useGenderPref() {
-    const [gender, setGender, ready] = useLocalState<GenderPref>("gender-pref", null);
+    const [rawGender, setRawGender, ready] = useLocalState<GenderPref>("gender-pref", null);
+    
+    // Normalize legacy "male"/"female" to "erkek"/"kadin"
+    const gender: GenderPref = rawGender === "male" ? "erkek" : rawGender === "female" ? "kadin" : rawGender;
+    
+    const setGender = useCallback((g: GenderPref) => {
+        const norm = g === "male" ? "erkek" : g === "female" ? "kadin" : g;
+        setRawGender(norm);
+    }, [setRawGender]);
+
     return { gender, setGender, ready };
 }
 

@@ -1,42 +1,23 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
-import Icon from "@/components/Icon";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
-import { PerfumeCard, PerfumeRank, type PerfumeCardData } from "@/components/PerfumeCard";
-import { API_BASE, formatDate } from "@/lib/urls";
+import { PerfumeCard, type PerfumeCardData } from "@/components/PerfumeCard";
+import HorizontalSlider from "@/components/HorizontalSlider";
+import ComparisonCard, { type ComparisonPairData } from "@/components/ComparisonCard";
+import BlogSlider, { type BlogPost } from "@/components/BlogSlider";
+import { API_BASE } from "@/lib/urls";
 import { useGenderPref } from "@/lib/stores";
 
-interface BlogPost {
-    id: number;
-    title: string;
-    slug: string;
-    excerpt: string;
-    coverImageUrl?: string;
-    publishedAt: string;
-    authorName: string;
-}
-
-const FAMILIES: { label: string; slug: string }[] = [
-    { label: "Oryantal", slug: "oryantal" },
-    { label: "Odunsu", slug: "odunsu" },
-    { label: "Ferah", slug: "ferah" },
-    { label: "Çiçeksi", slug: "ciceksi" },
-    { label: "Narenciye", slug: "narenciye" },
-    { label: "Aromatik", slug: "aromatik" },
-    { label: "Gurme", slug: "gurme" },
-    { label: "Fujer", slug: "fujer" },
-];
-
-/** "En yüksek puanlı" listesinde tek oyla 5 almış parfümler başa geçmesin. */
-const TOP_RATED_MIN_VOTES = 2000;
-
 export default function Home() {
-    const [perfumes, setPerfumes] = useState<PerfumeCardData[]>([]);
-    const [topRated, setTopRated] = useState<PerfumeCardData[]>([]);
-    const [total, setTotal] = useState(0);
     const [blogs, setBlogs] = useState<BlogPost[]>([]);
+    const [popularPerfumes, setPopularPerfumes] = useState<PerfumeCardData[]>([]);
+    const [comparisons, setComparisons] = useState<ComparisonPairData[]>([]);
+    const [newestPerfumes, setNewestPerfumes] = useState<PerfumeCardData[]>([]);
+    const [mostCommentedPerfumes, setMostCommentedPerfumes] = useState<PerfumeCardData[]>([]);
+    const [mostRatedPerfumes, setMostRatedPerfumes] = useState<PerfumeCardData[]>([]);
+    const [topRatedPerfumes, setTopRatedPerfumes] = useState<PerfumeCardData[]>([]);
+    
     const [loading, setLoading] = useState(true);
     const [failed, setFailed] = useState(false);
     const { gender, ready: genderReady } = useGenderPref();
@@ -47,20 +28,32 @@ export default function Home() {
         (async () => {
             try {
                 const g = gender && gender !== "all" ? `&gender=${gender}` : "";
-                // Sıralamayı API yapıyor: 16 binlik katalogda ilk sayfayı
-                // tarayıcıda sıralamak "en yüksek puanlı"yı yanlış gösterir.
-                const [pRes, tRes, bRes] = await Promise.all([
-                    fetch(`${API_BASE}/api/perfumes?pageSize=24${g}`),
-                    fetch(`${API_BASE}/api/perfumes?sort=rating&minVotes=${TOP_RATED_MIN_VOTES}&pageSize=6${g}`),
+                
+                const [
+                    blogsRes,
+                    popRes,
+                    compRes,
+                    newRes,
+                    commRes,
+                    votesRes,
+                    topRes,
+                ] = await Promise.all([
                     fetch(`${API_BASE}/api/blogs`),
+                    fetch(`${API_BASE}/api/perfumes?sort=views&pageSize=12${g}`),
+                    fetch(`${API_BASE}/api/compare/popular`),
+                    fetch(`${API_BASE}/api/perfumes?sort=newest&pageSize=12${g}`),
+                    fetch(`${API_BASE}/api/perfumes?sort=comments&pageSize=12${g}`),
+                    fetch(`${API_BASE}/api/perfumes?sort=votes&pageSize=12${g}`),
+                    fetch(`${API_BASE}/api/perfumes?sort=rating&minVotes=500&pageSize=12${g}`),
                 ]);
 
-                if (!pRes.ok) throw new Error("perfumes");
-                const page = await pRes.json();
-                setPerfumes(page.items ?? []);
-                setTotal(page.totalCount ?? 0);
-                if (tRes.ok) setTopRated((await tRes.json()).items ?? []);
-                if (bRes.ok) setBlogs(await bRes.json());
+                if (blogsRes.ok) setBlogs(await blogsRes.json());
+                if (popRes.ok) setPopularPerfumes((await popRes.json()).items ?? []);
+                if (compRes.ok) setComparisons(await compRes.json());
+                if (newRes.ok) setNewestPerfumes((await newRes.json()).items ?? []);
+                if (commRes.ok) setMostCommentedPerfumes((await commRes.json()).items ?? []);
+                if (votesRes.ok) setMostRatedPerfumes((await votesRes.json()).items ?? []);
+                if (topRes.ok) setTopRatedPerfumes((await topRes.json()).items ?? []);
             } catch {
                 setFailed(true);
             } finally {
@@ -73,12 +66,12 @@ export default function Home() {
         return (
             <div className="state">
                 <div className="spinner" />
-                <p>Yükleniyor…</p>
+                <p>Parfümler ve listeler yükleniyor...</p>
             </div>
         );
     }
 
-    if (failed || perfumes.length === 0) {
+    if (failed && popularPerfumes.length === 0) {
         return (
             <div className="state">
                 <h2>Veriler yüklenemedi</h2>
@@ -87,112 +80,98 @@ export default function Home() {
         );
     }
 
-    // API varsayılan sıralaması zaten oy sayısına göre; ilk 24 kayıt popüler listesi.
-    const popular = perfumes.slice(0, 12);
-    const mostRated = perfumes.slice(0, 6);
+    const gParam = gender && gender !== "all" ? `&gender=${gender}` : "";
 
     return (
-        <>
+        <div className="home-layout">
             <PageBreadcrumb trail={[]} />
 
-            <section className="intro">
-                <span className="eyebrow">Bağımsız koku bilgi portalı</span>
-                <h1 className="intro-title">
-                    Parfümleri notasına, ailesine ve <em>karakterine</em> göre karşılaştırın
-                </h1>
-                <p className="intro-sub">
-                    {total.toLocaleString("tr-TR")} parfümün koku piramidini, ana akorlarını, mevsim uyumunu,
-                    kalıcılık ve yayılım oylamalarını tek sayfada görün.
-                </p>
-                <div className="chip-nav">
-                    {FAMILIES.map((f) => (
-                        <Link key={f.slug} href={`/ara?family=${f.slug}`} className="chip">
-                            {f.label}
-                        </Link>
+            {/* 1. Üst Blog Hero Slider'ı */}
+            {blogs.length > 0 && <BlogSlider blogs={blogs} />}
+
+            {/* 2. Popüler Parfümler */}
+            {popularPerfumes.length > 0 && (
+                <HorizontalSlider
+                    title="Popüler Parfümler"
+                    viewAllHref={`/ara?sort=views${gParam}`}
+                >
+                    {popularPerfumes.map((p) => (
+                        <div key={p.slug} className="slider-item">
+                            <PerfumeCard perfume={p} />
+                        </div>
                     ))}
-                </div>
-            </section>
-
-            <div className="home-grid">
-                <div className="col-main">
-                    <section>
-                        <div className="section-head">
-                            <div>
-                                <h2 className="section-title">Popüler parfümler</h2>
-                            </div>
-                            <Link href="/ara" className="link-more">
-                                Tümü <Icon name="arrow-right" size={13} />
-                            </Link>
-                        </div>
-                        <div className="grid-cards">
-                            {popular.map((p) => (
-                                <PerfumeCard key={p.slug} perfume={p} />
-                            ))}
-                        </div>
-                    </section>
-                </div>
-
-                <aside className="col-aside">
-                    <div>
-                        <div className="section-head">
-                            <h2 className="section-title">En çok değerlendirilen</h2>
-                        </div>
-                        <div className="rank">
-                            {mostRated.map((p, i) => (
-                                <PerfumeRank key={p.slug} perfume={p} rank={i + 1} />
-                            ))}
-                        </div>
-                    </div>
-
-                    <div>
-                        <div className="section-head">
-                            <h2 className="section-title">En yüksek puanlı</h2>
-                        </div>
-                        <div className="rank">
-                            {topRated.map((p, i) => (
-                                <PerfumeRank key={p.slug} perfume={p} rank={i + 1} />
-                            ))}
-                        </div>
-                    </div>
-                </aside>
-            </div>
-
-            {blogs.length > 0 && (
-                <section className="section">
-                    <div className="section-head">
-                        <div>
-                            <h2 className="section-title">Koku rehberi</h2>
-                            <p className="section-desc">Parfüm dünyasından bilgi yazıları ve ipuçları.</p>
-                        </div>
-                        <Link href="/blog" className="link-more">
-                            Tüm yazılar <Icon name="arrow-right" size={13} />
-                        </Link>
-                    </div>
-                    <div className="blog-grid">
-                        {blogs.slice(0, 4).map((b) => (
-                            <BlogCard key={b.slug} blog={b} />
-                        ))}
-                    </div>
-                </section>
+                </HorizontalSlider>
             )}
-        </>
-    );
-}
 
-function BlogCard({ blog }: { blog: BlogPost }) {
-    return (
-        <Link href={`/blog/${blog.slug}`} className="blog-card">
-            <div className="blog-cover">
-                <img src={blog.coverImageUrl} alt="" loading="lazy" />
-            </div>
-            <div className="blog-body">
-                <div className="blog-meta">
-                    <span>{formatDate(blog.publishedAt)}</span>
-                    <span>{blog.authorName}</span>
-                </div>
-                <h3 className="blog-title">{blog.title}</h3>
-                <p className="blog-excerpt">{blog.excerpt}</p>
-            </div>
-        </Link>
+            {/* 3. Popüler Karşılaştırmalar */}
+            {comparisons.length > 0 && (
+                <HorizontalSlider
+                    title="Popüler Karşılaştırmalar"
+                    viewAllHref="/karsilastir"
+                >
+                    {comparisons.map((c, idx) => (
+                        <div key={`${c.perfume1.slug}-${c.perfume2.slug}-${idx}`} className="slider-item slider-item-compare">
+                            <ComparisonCard pair={c} />
+                        </div>
+                    ))}
+                </HorizontalSlider>
+            )}
+
+            {/* 4. Yeni Gelenler */}
+            {newestPerfumes.length > 0 && (
+                <HorizontalSlider
+                    title="Yeni Gelenler"
+                    viewAllHref={`/ara?sort=newest${gParam}`}
+                >
+                    {newestPerfumes.map((p) => (
+                        <div key={p.slug} className="slider-item">
+                            <PerfumeCard perfume={p} />
+                        </div>
+                    ))}
+                </HorizontalSlider>
+            )}
+
+            {/* 5. En Çok Yorum Alanlar */}
+            {mostCommentedPerfumes.length > 0 && (
+                <HorizontalSlider
+                    title="En Çok Yorum Alanlar"
+                    viewAllHref={`/ara?sort=comments${gParam}`}
+                >
+                    {mostCommentedPerfumes.map((p) => (
+                        <div key={p.slug} className="slider-item">
+                            <PerfumeCard perfume={p} />
+                        </div>
+                    ))}
+                </HorizontalSlider>
+            )}
+
+            {/* 6. En Çok Değerlendirilenler */}
+            {mostRatedPerfumes.length > 0 && (
+                <HorizontalSlider
+                    title="En Çok Değerlendirilenler"
+                    viewAllHref={`/ara?sort=votes${gParam}`}
+                >
+                    {mostRatedPerfumes.map((p) => (
+                        <div key={p.slug} className="slider-item">
+                            <PerfumeCard perfume={p} />
+                        </div>
+                    ))}
+                </HorizontalSlider>
+            )}
+
+            {/* 7. En Yüksek Puanlılar */}
+            {topRatedPerfumes.length > 0 && (
+                <HorizontalSlider
+                    title="En Yüksek Puanlılar"
+                    viewAllHref={`/ara?sort=rating${gParam}`}
+                >
+                    {topRatedPerfumes.map((p) => (
+                        <div key={p.slug} className="slider-item">
+                            <PerfumeCard perfume={p} />
+                        </div>
+                    ))}
+                </HorizontalSlider>
+            )}
+        </div>
     );
 }

@@ -1,9 +1,9 @@
 import Link from "next/link";
-import Stars from "./Stars";
-import Score from "./Score";
+import Icon from "./Icon";
 import FavButton from "./FavButton";
 import CompareButton from "./CompareButton";
-import { perfumeHref, brandHref, genderLabel, mediaUrl } from "@/lib/urls";
+import { ConcentrationBadge, FamilyBadge } from "./Badges";
+import { perfumeHref, brandHref, mediaUrl } from "@/lib/urls";
 import type { PerfumeRef } from "@/lib/stores";
 
 export interface PerfumeCardData {
@@ -32,49 +32,41 @@ export function PerfumeCard({ perfume }: { perfume: PerfumeCardData }) {
     const href = perfumeHref(perfume.path, perfume.slug);
     const ref = toRef(perfume);
 
-    const specs = [
-        perfume.concentration,
-        genderLabel(perfume.gender),
-        perfume.releaseYear?.toString(),
-    ].filter(Boolean) as string[];
-
     return (
-        <article className="card">
+        <article className="card card-clean">
             <div className="card-media">
                 <Link href={href} className="card-media-link" aria-label={perfume.name}>
-                    <img src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt="" loading="lazy" />
+                    <img src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt={perfume.name} loading="lazy" />
                 </Link>
-                <FavButton perfume={ref} className="card-fav" />
+                <div className="card-hover-actions">
+                    <FavButton perfume={ref} className="card-action-btn" />
+                    <CompareButton perfume={ref} className="card-action-btn" />
+                </div>
             </div>
             <div className="card-body">
-                <Link href={brandHref(perfume.brand.slug)} className="card-brand">
+                <Link href={brandHref(perfume.brand.slug)} className="card-brand" title={`${perfume.brand.name} markasının tüm parfümleri`}>
                     {perfume.brand.name}
                 </Link>
-                <Link href={href} className="card-title">
+                <Link href={href} className="card-title" title={perfume.name}>
                     {perfume.name}
                 </Link>
-                <div className="card-specs">
-                    {specs.map((s) => (
-                        <span key={s}>{s}</span>
-                    ))}
-                </div>
-                {perfume.accords && perfume.accords.length > 0 && (
-                    <div className="card-accords">
-                        {perfume.accords.map((a) => (
-                            <span key={a} className="accord-chip">{a}</span>
-                        ))}
+                <div className="card-badge-row">
+                    <div className="card-badge-left">
+                        <ConcentrationBadge concentration={perfume.concentration} />
+                        <FamilyBadge family={perfume.fragranceFamily} />
                     </div>
-                )}
-                <div className="card-foot">
-                    <Stars value={perfume.avgRating} count={perfume.ratingCount} size={16} />
+                    {perfume.avgRating > 0 && (
+                        <span className="card-rating-badge" title={`Fragrantica Puanı: ${perfume.avgRating.toFixed(2)} (${perfume.ratingCount} oy)`}>
+                            <Icon name="star" filled size={11} />
+                            <span>{perfume.avgRating.toFixed(1)}</span>
+                        </span>
+                    )}
                 </div>
-                <CompareButton perfume={ref} block />
             </div>
         </article>
     );
 }
 
-/** Numaralı sıralama satırı — "en çok değerlendirilen" gibi listeler için. */
 export function PerfumeRank({ perfume, rank }: { perfume: PerfumeCardData; rank: number }) {
     const href = perfumeHref(perfume.path, perfume.slug);
 
@@ -89,7 +81,6 @@ export function PerfumeRank({ perfume, rank }: { perfume: PerfumeCardData; rank:
                     {perfume.brand.name} {perfume.name}
                 </Link>
             </div>
-            <Score value={perfume.avgRating} count={perfume.ratingCount} />
         </div>
     );
 }

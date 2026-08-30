@@ -7,6 +7,8 @@ import { PageBreadcrumb } from "@/components/Breadcrumb";
 import { PerfumeCard, type PerfumeCardData } from "@/components/PerfumeCard";
 import { API_BASE } from "@/lib/urls";
 
+import { useGenderPref } from "@/lib/stores";
+
 interface Ref {
     id?: number;
     name: string;
@@ -28,10 +30,13 @@ const GENDERS = [
 ];
 
 const SORTS = [
-    { v: "", label: "Öne çıkanlar" },
-    { v: "rating", label: "En yüksek puan" },
-    { v: "newest", label: "En yeni" },
-    { v: "oldest", label: "En eski" },
+    { v: "", label: "Varsayılan" },
+    { v: "views", label: "Popüler (En Çok Ziyaret)" },
+    { v: "rating", label: "Puanı En Yüksek" },
+    { v: "votes", label: "En Çok Değerlendirilen" },
+    { v: "comments", label: "En Çok Yorum Alan" },
+    { v: "newest", label: "En Yeni Gelenler" },
+    { v: "oldest", label: "En Eski" },
     { v: "name", label: "İsim (A-Z)" },
 ];
 
@@ -46,16 +51,54 @@ export default function SearchPage() {
 function SearchInner() {
     const sp = useSearchParams();
     const router = useRouter();
+    const { gender: prefGender, ready: prefReady } = useGenderPref();
 
-    const initList = (k: string) => (sp.get(k) ? sp.get(k)!.split(",").filter(Boolean) : []);
+    const normalizeGender = (g: string) => (g === "male" ? "erkek" : g === "female" ? "kadin" : g);
+    const initList = (k: string) => {
+        const val = sp.get(k);
+        if (val) {
+            const list = val.split(",").filter(Boolean);
+            return k === "gender" ? list.map(normalizeGender) : list;
+        }
+        if (k === "gender" && prefReady && prefGender && prefGender !== "all") {
+            return [normalizeGender(prefGender)];
+        }
+        return [];
+    };
+
     const [q, setQ] = useState(sp.get("q") ?? "");
-    const [gender, setGender] = useState<string[]>(initList("gender"));
-    const [family, setFamily] = useState<string[]>(initList("family"));
-    const [concentration, setConcentration] = useState<string[]>(initList("concentration"));
-    const [brand, setBrand] = useState<string[]>(initList("brand"));
-    const [accord, setAccord] = useState<string[]>(initList("accord"));
-    const [note, setNote] = useState<string[]>(initList("note"));
+    const [gender, setGender] = useState<string[]>(() => initList("gender"));
+    const [family, setFamily] = useState<string[]>(() => initList("family"));
+    const [concentration, setConcentration] = useState<string[]>(() => initList("concentration"));
+    const [brand, setBrand] = useState<string[]>(() => initList("brand"));
+    const [accord, setAccord] = useState<string[]>(() => initList("accord"));
+    const [note, setNote] = useState<string[]>(() => initList("note"));
     const [sort, setSort] = useState(sp.get("sort") ?? "");
+
+    // When global pref is ready and no explicit gender in URL, apply user's gender preference
+    useEffect(() => {
+        if (!sp.get("gender") && prefReady && prefGender && prefGender !== "all") {
+            setGender([prefGender]);
+        }
+    }, [prefGender, prefReady, sp]);
+
+    // Sync only when URL changes externally (not by our own internal router.replace)
+    const lastSpString = useRef(sp.toString());
+    useEffect(() => {
+        const cur = sp.toString();
+        if (cur !== lastSpString.current) {
+            lastSpString.current = cur;
+            setQ(sp.get("q") ?? "");
+            setGender(initList("gender"));
+            setFamily(initList("family"));
+            setConcentration(initList("concentration"));
+            setBrand(initList("brand"));
+            setAccord(initList("accord"));
+            setNote(initList("note"));
+            setSort(sp.get("sort") ?? "");
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [sp]);
 
     const toolbarRef = useRef<HTMLDivElement | null>(null);
     const isFirstSearch = useRef(true);
@@ -116,7 +159,12 @@ function SearchInner() {
             }
             const url = new URLSearchParams(p);
             url.delete("pageSize");
-            router.replace(`/ara${url.toString() ? "?" + url.toString() : ""}`, { scroll: false });
+            const newQuery = url.toString() ? "?" + url.toString() : "";
+            const currentQuery = typeof window !== "undefined" ? window.location.search : "";
+            if (newQuery !== currentQuery) {
+                lastSpString.current = url.toString();
+                router.replace(`/ara${newQuery}`, { scroll: false });
+            }
         }, 300);
         return () => clearTimeout(t);
         // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -124,7 +172,7 @@ function SearchInner() {
 
     const activeCount =
         gender.length + family.length + concentration.length + brand.length +
-        accord.length + note.length + (q.trim() ? 1 : 0);
+        accord.length + note.length + (q.trim() ? 1 : 0) + (sort ? 1 : 0);
 
     const clearAll = () => {
         setQ(""); setGender([]); setFamily([]); setConcentration([]);
@@ -147,7 +195,7 @@ function SearchInner() {
 
             <header style={{ marginBottom: "1rem" }}>
                 <span className="eyebrow">Detaylı arama</span>
-                <h1 className="page-title">Parfüm ara ve filtrele</h1>
+                <h1 className="page-title">Detaylı arama</h1>
             </header>
 
             <div className="field" style={{ marginBottom: "1.25rem" }}>
@@ -174,6 +222,17 @@ function SearchInner() {
                         </span>
                         {activeCount > 0 && <button className="link-more" onClick={clearAll}>Temizle</button>}
                     </div>
+
+                    <FilterGroup title="Sıralama & Liste">
+                        {SORTS.filter((s) => s.v !== "").map((s) => (
+                            <Check
+                                key={s.v}
+                                label={s.label}
+                                checked={sort === s.v}
+                                onChange={() => setSort(sort === s.v ? "" : s.v)}
+                            />
+                        ))}
+                    </FilterGroup>
 
                     <FilterGroup title="Cinsiyet">
                         {GENDERS.map((g) => (
@@ -230,6 +289,42 @@ function SearchInner() {
                         </div>
                     </div>
 
+                    {activeCount > 0 && (
+                        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem", marginBlockEnd: "1rem", alignItems: "center" }}>
+                            {sort && (
+                                <span className="badge badge-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                    {SORTS.find((s) => s.v === sort)?.label}
+                                    <button type="button" onClick={() => setSort("")} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                </span>
+                            )}
+                            {gender.map((g) => (
+                                <span key={g} className="badge badge-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                    {GENDERS.find((x) => x.slug === g)?.label ?? g}
+                                    <button type="button" onClick={() => toggle(gender, setGender, g)} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                </span>
+                            ))}
+                            {family.map((f) => (
+                                <span key={f} className="badge badge-success" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                    {meta?.fragranceFamilies.find((x) => x.slug === f)?.name ?? f}
+                                    <button type="button" onClick={() => toggle(family, setFamily, f)} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                </span>
+                            ))}
+                            {concentration.map((c) => (
+                                <span key={c} className="badge badge-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                    {meta?.concentrations.find((x) => x.slug === c)?.name ?? c}
+                                    <button type="button" onClick={() => toggle(concentration, setConcentration, c)} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                </span>
+                            ))}
+                            {brand.map((b) => (
+                                <span key={b} className="badge badge-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                    {meta?.brands.find((x) => x.slug === b)?.name ?? b}
+                                    <button type="button" onClick={() => toggle(brand, setBrand, b)} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                </span>
+                            ))}
+                            <button onClick={clearAll} className="link-more" style={{ fontSize: "0.75rem", marginInlineStart: "0.25rem" }}>Tümünü Temizle</button>
+                        </div>
+                    )}
+
                     {loading && results.length === 0 ? (
                         <div className="state"><div className="spinner" /><p>Yükleniyor…</p></div>
                     ) : results.length > 0 ? (
@@ -247,11 +342,31 @@ function SearchInner() {
     );
 }
 
-function FilterGroup({ title, children, scroll }: { title: string; children: React.ReactNode; scroll?: boolean }) {
+function FilterGroup({
+    title,
+    children,
+    scroll,
+    defaultOpen = true,
+}: {
+    title: string;
+    children: React.ReactNode;
+    scroll?: boolean;
+    defaultOpen?: boolean;
+}) {
+    const [open, setOpen] = useState(defaultOpen);
+
     return (
         <div className="filter-group">
-            <h3 className="filter-title">{title}</h3>
-            <div className={`filter-opts ${scroll ? "scroll" : ""}`}>{children}</div>
+            <button
+                type="button"
+                className="filter-title-btn"
+                onClick={() => setOpen(!open)}
+                aria-expanded={open}
+            >
+                <span className="filter-title">{title}</span>
+                <Icon name={open ? "chevron-up" : "chevron-down"} size={13} />
+            </button>
+            {open && <div className={`filter-opts ${scroll ? "scroll" : ""}`}>{children}</div>}
         </div>
     );
 }

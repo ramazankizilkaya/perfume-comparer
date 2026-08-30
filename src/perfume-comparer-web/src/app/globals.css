@@ -2659,13 +2659,32 @@ body.dark-mode .matrix-head img {
     padding-block-end: 0;
 }
 
+.filter-title-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+    margin-block-end: var(--s2);
+    color: var(--ink-faint);
+    transition: color 0.15s ease;
+}
+
+.filter-title-btn:hover {
+    color: var(--ink);
+}
+
 .filter-title {
     font-size: var(--fs-xs);
     font-weight: 700;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: var(--ink-faint);
-    margin-block-end: var(--s2);
+    margin-block-end: 0;
 }
 
 .filter-opts {
@@ -3286,4 +3305,634 @@ a.accord-chip:hover {
 
 .related-item:hover .related-name {
     color: var(--accent);
+}
+
+/* ==========================================================================
+   HOMEPAGE HORIZONTAL SLIDERS & BOOTSTRAP BADGE STYLES
+   ========================================================================== */
+
+.home-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+    margin-block-end: 3rem;
+}
+
+/* --- Standard Bootstrap Badges -------------------------------------------- */
+
+.badge {
+    display: inline-block;
+    padding: 0.26em 0.55em;
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    text-transform: lowercase;
+}
+
+.badge-primary {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.badge-success {
+    background-color: #198754;
+    color: #ffffff;
+}
+
+/* --- Clean Card (DekantParfum Style) -------------------------------------- */
+
+.card-clean {
+    position: relative;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-clean:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+    border-color: var(--line-strong);
+}
+
+.card-media {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    background: var(--surface-alt);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--s3);
+}
+
+.card-media img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    transition: transform 0.25s ease;
+}
+
+.card-clean:hover .card-media img {
+    transform: scale(1.04);
+}
+
+.card-hover-actions {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    opacity: 0;
+    transform: translateY(-4px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 10;
+}
+
+.card-clean:hover .card-hover-actions {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card-action-btn {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.15s ease;
+    color: var(--ink);
+    position: relative;
+}
+
+.card-action-btn:hover {
+    background: var(--surface-alt);
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Tooltip on Action Buttons */
+.card-action-btn.has-tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    right: calc(100% + 8px);
+    top: 50%;
+    transform: translateY(-50%) scale(0.92);
+    background: #0f172a;
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.68rem;
+    font-weight: 600;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.card-action-btn.has-tooltip::before {
+    content: "";
+    position: absolute;
+    right: calc(100% + 2px);
+    top: 50%;
+    transform: translateY(-50%);
+    border: 4px solid transparent;
+    border-left-color: #0f172a;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease, visibility 0.15s;
+    z-index: 100;
+}
+
+.card-action-btn.has-tooltip:hover::after {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) scale(1);
+}
+
+.card-action-btn.has-tooltip:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-clean .card-body {
+    display: flex;
+    flex-direction: column;
+    padding: var(--s3);
+    gap: 0.3rem;
+    flex: 1;
+}
+
+.card-clean .card-brand {
+    font-size: var(--fs-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: var(--ink-faint);
+    text-decoration: none;
+    transition: color 0.15s ease, text-decoration 0.15s ease;
+    display: inline-block;
+}
+
+.card-clean .card-brand:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.card-clean .card-title {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 2.4rem;
+    text-decoration: none;
+}
+
+.card-clean .card-title:hover {
+    color: #0d6efd;
+}
+
+.card-badge-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.35rem;
+    margin-block-start: auto;
+    padding-block-start: 0.4rem;
+}
+
+.card-badge-left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    align-items: center;
+}
+
+.card-rating-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #b45309;
+    background: #fef3c7;
+    padding: 0.2em 0.45em;
+    border-radius: 0.25rem;
+    border: 1px solid #fde68a;
+    line-height: 1;
+    white-space: nowrap;
+    margin-inline-start: auto;
+}
+
+body.dark-mode .card-rating-badge {
+    background: #451a03;
+    color: #fde68a;
+    border-color: #78350f;
+}
+
+/* --- Search Page 4-Column Grid -------------------------------------------- */
+
+.search-results .grid-cards {
+    display: grid;
+    gap: var(--s3);
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 500px) {
+    .search-results .grid-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 860px) {
+    .search-results .grid-cards {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1180px) {
+    .search-results .grid-cards {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+/* --- Horizontal Sliders ---------------------------------------------------- */
+
+.slider-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+
+.slider-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block-end: 0.5rem;
+    border-block-end: 1px solid var(--line);
+}
+
+.slider-title {
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin: 0;
+}
+
+.slider-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.slider-side-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--ink);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 20;
+    transition: all 0.18s ease;
+}
+
+.slider-side-nav:hover {
+    background: var(--surface-alt);
+    color: #0d6efd;
+    border-color: #0d6efd;
+    transform: translateY(-50%) scale(1.08);
+}
+
+.slider-side-prev {
+    left: -16px;
+}
+
+.slider-side-next {
+    right: -16px;
+}
+
+@media (max-width: 768px) {
+    .slider-side-prev {
+        left: 2px;
+    }
+    .slider-side-next {
+        right: 2px;
+    }
+}
+
+.slider-track {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding-block: 0.35rem 0.65rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    width: 100%;
+}
+
+.slider-track::-webkit-scrollbar {
+    height: 5px;
+}
+
+.slider-track::-webkit-scrollbar-thumb {
+    background: var(--line);
+    border-radius: 3px;
+}
+
+.slider-item {
+    flex: 0 0 200px;
+    scroll-snap-align: start;
+}
+
+.slider-item-compare {
+    flex: 0 0 320px;
+}
+
+/* --- Comparison Card ------------------------------------------------------- */
+
+.compare-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    height: 100%;
+}
+
+.compare-card:hover {
+    border-color: var(--line-strong);
+    box-shadow: 0 10px 20px -3px rgba(0, 0, 0, 0.08);
+    transform: translateY(-4px);
+}
+
+.compare-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: var(--s3);
+    height: 100%;
+}
+
+.compare-sides {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: var(--s2);
+    align-items: center;
+}
+
+.compare-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.25rem;
+}
+
+.compare-img-wrap {
+    width: 80px;
+    height: 95px;
+    background: var(--surface-alt);
+    border-radius: var(--radius);
+    padding: 0.35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--line);
+}
+
+.compare-img-wrap img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.compare-brand {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: var(--ink-faint);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 110px;
+}
+
+.compare-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.25;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 2rem;
+}
+
+.compare-badges {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 100%;
+    align-items: center;
+}
+
+.compare-vs-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #0d6efd;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    box-shadow: 0 2px 8px rgba(13, 110, 253, 0.3);
+}
+
+/* --- Hero Blog Slider (DekantParfum Banner Style) -------------------------- */
+
+.hero-blog-slider {
+    position: relative;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    border-radius: var(--radius-lg);
+    padding: 2.5rem 3.5rem;
+    color: #ffffff;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.12);
+}
+
+.hero-blog-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    font-size: 0.8rem;
+    color: #94a3b8;
+    margin-bottom: 0.65rem;
+}
+
+.hero-blog-badge {
+    background: rgba(13, 110, 253, 0.25);
+    color: #60a5fa;
+    border: 1px solid rgba(96, 165, 250, 0.3);
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.hero-blog-title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #f8fafc;
+    line-height: 1.3;
+    margin: 0 0 0.6rem;
+}
+
+.hero-blog-title-link {
+    text-decoration: none;
+}
+
+.hero-blog-title-link:hover .hero-blog-title {
+    color: #60a5fa;
+}
+
+.hero-blog-excerpt {
+    font-size: 0.92rem;
+    color: #cbd5e1;
+    line-height: 1.5;
+    max-width: 820px;
+    margin: 0 0 1.25rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.hero-blog-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #0d6efd;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.88rem;
+    padding: 0.5rem 1.15rem;
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: background 0.15s ease;
+    align-self: flex-start;
+}
+
+.hero-blog-btn:hover {
+    background: #0b5ed7;
+}
+
+.hero-blog-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.hero-blog-nav:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.hero-blog-prev { left: 1rem; }
+.hero-blog-next { right: 1rem; }
+
+.hero-blog-dots {
+    position: absolute;
+    bottom: 0.85rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.4rem;
+}
+
+.hero-blog-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.hero-blog-dot.active {
+    width: 22px;
+    border-radius: 4px;
+    background: #60a5fa;
+}
+
+@media (max-width: 768px) {
+    .slider-item {
+        flex: 0 0 170px;
+    }
+    .slider-item-compare {
+        flex: 0 0 290px;
+    }
+    .hero-blog-slider {
+        padding: 1.75rem 1.5rem;
+    }
+    .hero-blog-title {
+        font-size: 1.25rem;
+    }
+    .hero-blog-nav {
+        display: none;
+    }
 }

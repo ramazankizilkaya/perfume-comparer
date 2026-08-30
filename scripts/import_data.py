@@ -484,7 +484,7 @@ class Catalog:
             self.skipped["adsız"] += 1
             return False
 
-        concentration = parse_concentration(name)
+        concentration = data.get("concentration") or parse_concentration(name)
         conc_slug = CONCENTRATION_SLUGS.get(concentration or "", "")
         base_slug = slugify(f"{brand_slug} {name} {conc_slug}".strip())
         fragrantica_id = re.search(r"-(\d+)\.html$", url or "")

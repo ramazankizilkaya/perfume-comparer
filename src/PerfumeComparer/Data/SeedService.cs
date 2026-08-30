@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -12,10 +14,7 @@ using PerfumeComparer.Data.Persistence;
 namespace PerfumeComparer.Data;
 
 /// <summary>
-/// Örnek kullanıcı, blog ve yorum verisini tohumlar. Otomatik çalışmaz; /admin
-/// ekranından tetiklenir ve her adım idempotenttir.
-/// Marka ve parfüm katalogu buradan gelmez: gerçek veri scrape_files klasöründedir
-/// ve scripts/import_data.py ile aktarılır.
+/// Veritabanı tohumlama servisi. /admin ekranından adım adım veya topluca çalıştırılır.
 /// </summary>
 public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedService
 {
@@ -28,10 +27,12 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
     /// <summary>Adım sırası = bağımlılık sırası. "Hepsini tohumla" bu sırayla çalışır.</summary>
     private static readonly (string Key, string Label, string Description, string Requires)[] Steps =
     [
+        ("katalog", "Parfüm ve Marka Kataloğu", "Scrape edilmiş dosyalardan (scrape_files) tüm markalar, parfümler, notalar ve akorlar", ""),
         ("kullanicilar", "Kullanıcılar", "Yorum ve blog yazarı olarak kullanılan örnek hesaplar", ""),
         ("bloglar", "Blog yazıları", "Koku rehberi yazıları", "kullanicilar"),
-        ("yorumlar", "Parfüm yorumları", "Kullanıcı yorumları + puanlar", "parfüm verisi, kullanicilar"),
-        ("karsilastirma-yorumlari", "Karşılaştırma yorumları", "İki parfüm hakkındaki tartışmalar", "parfüm verisi, kullanicilar"),
+        ("muadiller", "Muadil Parfümler (Dupes)", "Popüler muadil markalar (Mad, Bargello, Muscent vb.) ve eşleşen ürünler", "katalog"),
+        ("yorumlar", "Parfüm yorumları", "Kullanıcı yorumları + puanlar", "katalog, kullanicilar"),
+        ("karsilastirma-yorumlari", "Karşılaştırma yorumları", "İki parfüm hakkındaki tartışmalar", "katalog, kullanicilar"),
     ];
 
     // ---------------------------------------------------------------- şema
@@ -76,8 +77,10 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
 
         var counts = new Dictionary<string, int>
         {
+            ["katalog"] = await db.Perfumes.CountAsync(ct),
             ["kullanicilar"] = await db.Users.CountAsync(ct),
             ["bloglar"] = await db.BlogPosts.CountAsync(ct),
+            ["muadiller"] = await db.PerfumeDupes.CountAsync(ct),
             ["yorumlar"] = await db.PerfumeComments.CountAsync(ct),
             ["karsilastirma-yorumlari"] = await db.ComparisonComments.CountAsync(ct),
         };
@@ -99,8 +102,10 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
 
         return key switch
         {
+            "katalog" => await SeedCatalogAsync(ct),
             "kullanicilar" => await SeedUsersAsync(ct),
             "bloglar" => await SeedBlogPostsAsync(ct),
+            "muadiller" => await SeedDupesAsync(ct),
             "yorumlar" => await SeedPerfumeCommentsAsync(ct),
             "karsilastirma-yorumlari" => await SeedComparisonCommentsAsync(ct),
             _ => new SeedStepResult(key, step.Label, false, "Bilinmeyen şema.", 0),
@@ -403,4 +408,134 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
             await db.ComparisonComments.CountAsync(ct));
     }
 
+    private async Task<SeedStepResult> SeedCatalogAsync(CancellationToken ct)
+    {
+        const string key = "katalog";
+        const string label = "Parfüm ve Marka Kataloğu";
+
+        try
+        {
+            var currentDir = Directory.GetCurrentDirectory();
+            var scriptPath = Path.Combine(currentDir, "scripts", "import_data.py");
+            var workDir = currentDir;
+
+            if (!File.Exists(scriptPath))
+            {
+                var candidate = Path.GetFullPath(Path.Combine(currentDir, "..", "..", "scripts", "import_data.py"));
+                if (File.Exists(candidate))
+                {
+                    scriptPath = candidate;
+                    workDir = Path.GetDirectoryName(Path.GetDirectoryName(candidate))!;
+                }
+            }
+
+            if (!File.Exists(scriptPath))
+            {
+                return new SeedStepResult(key, label, false, $"import_data.py betiği bulunamadı: {scriptPath}", 0);
+            }
+
+            var psi = new ProcessStartInfo
+            {
+                FileName = "python3",
+                Arguments = $"\"{scriptPath}\" --reset",
+                WorkingDirectory = workDir,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                UseShellExecute = false,
+                CreateNoWindow = true,
+            };
+
+            using var proc = Process.Start(psi);
+            if (proc is null)
+            {
+                return new SeedStepResult(key, label, false, "Python işlemi başlatılamadı.", 0);
+            }
+
+            var stdoutTask = proc.StandardOutput.ReadToEndAsync(ct);
+            var stderrTask = proc.StandardError.ReadToEndAsync(ct);
+
+            await proc.WaitForExitAsync(ct);
+            var stdout = await stdoutTask;
+            var stderr = await stderrTask;
+
+            var count = await db.Perfumes.CountAsync(ct);
+            var ok = proc.ExitCode == 0 && count > 0;
+            return new SeedStepResult(
+                key,
+                label,
+                ok,
+                ok ? $"{count} parfüm ve markalar başarıyla içe aktarıldı." : $"Hata (Çıkış kodu {proc.ExitCode}): {stderr} {stdout}".Trim(),
+                count);
+        }
+        catch (Exception ex)
+        {
+            logger.LogError(ex, "Katalog tohumlama hatası");
+            return new SeedStepResult(key, label, false, $"Hata: {ex.Message}", 0);
+        }
+    }
+
+    private async Task<SeedStepResult> SeedDupesAsync(CancellationToken ct)
+    {
+        const string key = "muadiller";
+        const string label = "Muadil Parfümler (Dupes)";
+
+        var perfumes = await db.Perfumes.OrderByDescending(p => p.RatingCount).Take(50).ToListAsync(ct);
+        if (perfumes.Count == 0)
+            return new SeedStepResult(key, label, false, "Önce “Parfüm ve Marka Kataloğu”nu tohumlayın.", 0);
+
+        var dupeBrands = new List<DupeBrand>
+        {
+            new() { Name = "Mad Parfüm", Slug = "mad-parfum", OfficialUrl = "https://www.madparfum.com", CreatedAt = DateTimeOffset.UtcNow },
+            new() { Name = "Bargello", Slug = "bargello", OfficialUrl = "https://www.bargello.com.tr", CreatedAt = DateTimeOffset.UtcNow },
+            new() { Name = "Muscent", Slug = "muscent", OfficialUrl = "https://www.muscent.com.tr", CreatedAt = DateTimeOffset.UtcNow },
+            new() { Name = "David Walker", Slug = "david-walker", OfficialUrl = "https://www.davidwalker.com.tr", CreatedAt = DateTimeOffset.UtcNow },
+            new() { Name = "Loris Parfüm", Slug = "loris-parfum", OfficialUrl = "https://www.lorisparfum.com", CreatedAt = DateTimeOffset.UtcNow },
+        };
+
+        foreach (var b in dupeBrands)
+        {
+            if (!await db.DupeBrands.AnyAsync(dbb => dbb.Slug == b.Slug, ct))
+                db.DupeBrands.Add(b);
+        }
+        await db.SaveChangesAsync(ct);
+
+        var savedBrands = await db.DupeBrands.ToListAsync(ct);
+        var added = 0;
+        var random = new Random(42);
+
+        foreach (var p in perfumes)
+        {
+            if (await db.PerfumeDupes.AnyAsync(d => d.PerfumeId == p.Id, ct)) continue;
+
+            var count = random.Next(1, 3);
+            for (int i = 0; i < count; i++)
+            {
+                var dBrand = savedBrands[(p.Id + i) % savedBrands.Count];
+                var codePrefix = dBrand.Slug switch
+                {
+                    "bargello" => (p.Gender == Gender.Female ? "1" : "5") + random.Next(10, 99).ToString(),
+                    "mad-parfum" => (p.Gender == Gender.Female ? "W" : "M") + random.Next(100, 250).ToString(),
+                    "muscent" => (p.Gender == Gender.Female ? "F" : "H") + random.Next(10, 99).ToString(),
+                    "david-walker" => (p.Gender == Gender.Female ? "E" : "B") + random.Next(10, 99).ToString(),
+                    _ => "K" + random.Next(100, 300).ToString()
+                };
+
+                db.PerfumeDupes.Add(new PerfumeDupe
+                {
+                    PerfumeId = p.Id,
+                    DupeBrandId = dBrand.Id,
+                    ProductCode = codePrefix,
+                    SimilarityRate = (byte)random.Next(85, 96),
+                    IsActive = true,
+                    CreatedAt = DateTimeOffset.UtcNow,
+                });
+                added++;
+            }
+        }
+        await db.SaveChangesAsync(ct);
+
+        return new SeedStepResult(key, label, true,
+            added == 0 ? "Zaten dolu, atlandı." : $"{added} muadil parfüm eşleşmesi eklendi.",
+            await db.PerfumeDupes.CountAsync(ct));
+    }
 }

@@ -4,14 +4,15 @@ import { useState, useEffect, useRef } from "react";
 import Icon from "./Icon";
 import { useGenderPref, type GenderPref } from "@/lib/stores";
 
-const OPTS: { key: Exclude<GenderPref, null>; label: string; ico: string }[] = [
-    { key: "male", label: "Erkek", ico: "♂" },
-    { key: "female", label: "Kadın", ico: "♀" },
+const OPTS: { key: "erkek" | "kadin" | "all"; label: string; ico: string }[] = [
+    { key: "erkek", label: "Erkek", ico: "♂" },
+    { key: "kadin", label: "Kadın", ico: "♀" },
     { key: "all", label: "Hepsi", ico: "⚥" },
 ];
 
 function opt(g: GenderPref) {
-    return OPTS.find((o) => o.key === g) ?? OPTS[2];
+    const norm = g === "male" ? "erkek" : g === "female" ? "kadin" : g;
+    return OPTS.find((o) => o.key === norm) ?? OPTS[2];
 }
 
 export default function GenderControl() {

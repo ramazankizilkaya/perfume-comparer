@@ -61,7 +61,8 @@ echo "▶  Backend  başlatılıyor → http://localhost:${API_PORT}"
 ( cd "$API_DIR" && exec dotnet run --launch-profile http ) &
 
 echo "▶  Frontend başlatılıyor → http://localhost:${WEB_PORT}"
-( cd "$WEB_DIR" && exec npm run dev ) &
+rm -rf "$WEB_DIR/.next"
+( cd "$WEB_DIR" && exec env NODE_OPTIONS="--max-old-space-size=4096" npm run dev ) &
 
 echo ""
 echo "✅ İkisi de çalışıyor. Durdurmak için Ctrl+C."

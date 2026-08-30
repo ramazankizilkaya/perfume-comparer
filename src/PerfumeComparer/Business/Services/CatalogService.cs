@@ -77,6 +77,8 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
         query = q.Sort switch
         {
             "rating" => query.OrderByDescending(p => p.AvgRating).ThenByDescending(p => p.RatingCount),
+            "votes" => query.OrderByDescending(p => p.RatingCount).ThenByDescending(p => p.AvgRating),
+            "comments" => query.OrderByDescending(p => p.UserRatingCount).ThenByDescending(p => p.RatingCount),
             "newest" => query.OrderByDescending(p => p.ReleaseYear).ThenByDescending(p => p.RatingCount),
             "oldest" => query.OrderBy(p => p.ReleaseYear).ThenByDescending(p => p.RatingCount),
             "name" => query.OrderBy(p => p.Name),

@@ -19,6 +19,81 @@ namespace PerfumeComparer.Controllers;
 [Route("api/compare")]
 public class CompareController(AppDbContext db, ITokenService tokens) : ControllerBase
 {
+    /// <summary>Anasayfa için popüler karşılaştırma çiftleri.</summary>
+    [HttpGet("popular")]
+    public async Task<IActionResult> GetPopularComparisons(CancellationToken ct)
+    {
+        var list = new List<object>();
+        var seenPairs = new HashSet<string>();
+
+        var commentPairs = await db.ComparisonComments
+            .AsNoTracking()
+            .Where(c => c.Status == ModerationStatus.Approved)
+            .GroupBy(c => new { c.Perfume1Id, c.Perfume2Id })
+            .OrderByDescending(g => g.Count())
+            .Take(12)
+            .Select(g => new { g.Key.Perfume1Id, g.Key.Perfume2Id })
+            .ToListAsync(ct);
+
+        if (commentPairs.Count > 0)
+        {
+            var pIds = commentPairs.SelectMany(x => new[] { x.Perfume1Id, x.Perfume2Id }).Distinct().ToList();
+            var perfumes = await db.Perfumes
+                .AsNoTracking()
+                .Include(p => p.Brand)
+                .Where(p => pIds.Contains(p.Id))
+                .ToDictionaryAsync(p => p.Id, ct);
+
+            foreach (var pair in commentPairs)
+            {
+                if (perfumes.TryGetValue(pair.Perfume1Id, out var p1) && perfumes.TryGetValue(pair.Perfume2Id, out var p2))
+                {
+                    var key = $"{pair.Perfume1Id}-{pair.Perfume2Id}";
+                    seenPairs.Add(key);
+                    list.Add(new
+                    {
+                        Perfume1 = new { p1.Name, p1.Slug, BrandName = p1.Brand.Name, p1.ImageUrl, p1.Gender, p1.Concentration, p1.FragranceFamily, Path = PerfumeUrl.Path(p1.Gender, p1.Concentration?.Slug(), p1.Brand.Slug, p1.Slug) },
+                        Perfume2 = new { p2.Name, p2.Slug, BrandName = p2.Brand.Name, p2.ImageUrl, p2.Gender, p2.Concentration, p2.FragranceFamily, Path = PerfumeUrl.Path(p2.Gender, p2.Concentration?.Slug(), p2.Brand.Slug, p2.Slug) },
+                    });
+                }
+            }
+        }
+
+        if (list.Count < 12)
+        {
+            var alternatives = await db.PerfumeAlternatives
+                .AsNoTracking()
+                .Where(a => a.Kind == PerfumeRelationKind.RemindsMeOf && a.SourcePerfume.RatingCount > 200 && a.TargetPerfume.RatingCount > 200)
+                .OrderByDescending(a => a.SimilarityRate)
+                .ThenByDescending(a => a.SourcePerfume.RatingCount + a.TargetPerfume.RatingCount)
+                .Take(24)
+                .Select(a => new
+                {
+                    p1 = a.SourcePerfume,
+                    p1Brand = a.SourcePerfume.Brand,
+                    p2 = a.TargetPerfume,
+                    p2Brand = a.TargetPerfume.Brand,
+                })
+                .ToListAsync(ct);
+
+            foreach (var item in alternatives)
+            {
+                if (list.Count >= 12) break;
+                var key = item.p1.Id < item.p2.Id ? $"{item.p1.Id}-{item.p2.Id}" : $"{item.p2.Id}-{item.p1.Id}";
+                if (seenPairs.Contains(key)) continue;
+                seenPairs.Add(key);
+
+                list.Add(new
+                {
+                    Perfume1 = new { item.p1.Name, item.p1.Slug, BrandName = item.p1Brand.Name, item.p1.ImageUrl, item.p1.Gender, item.p1.Concentration, item.p1.FragranceFamily, Path = PerfumeUrl.Path(item.p1.Gender, item.p1.Concentration?.Slug(), item.p1Brand.Slug, item.p1.Slug) },
+                    Perfume2 = new { item.p2.Name, item.p2.Slug, BrandName = item.p2Brand.Name, item.p2.ImageUrl, item.p2.Gender, item.p2.Concentration, item.p2.FragranceFamily, Path = PerfumeUrl.Path(item.p2.Gender, item.p2.Concentration?.Slug(), item.p2Brand.Slug, item.p2.Slug) },
+                });
+            }
+        }
+
+        return Ok(list);
+    }
+
     /// <summary>Bir karşılaştırma (parfüm çifti) hakkındaki yorumlar ve AI özeti.</summary>
     [HttpGet("{p1Slug}-vs-{p2Slug}/comments")]
     public async Task<IActionResult> GetComparisonComments(string p1Slug, string p2Slug, CancellationToken ct)
