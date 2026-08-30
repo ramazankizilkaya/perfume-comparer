@@ -503,7 +503,7 @@ class Catalog:
                 perfume_id, accord_id, round(min(parse_decimal(accord.get("width")), 100.0), 2), rank,
             ])
 
-        family = family_from_accord(accords[0]["name"]) if accords else None  # ham ad: eşleme küçük harfli
+        family = data.get("fragranceFamily") or (family_from_accord(accords[0]["name"]) if accords else None)
 
         # Notalar: piramit varsa katmanlı, yoksa tek düz liste (All).
         notes = data.get("notes") or {}
@@ -564,6 +564,7 @@ class Catalog:
             parse_votes((data.get("seasons") or {}).get("day")),
             parse_votes((data.get("seasons") or {}).get("night")),
             0,      # usage_count
+            0,      # view_count
             True,   # is_published
         ])
 
@@ -611,7 +612,7 @@ PERFUME_COLUMNS = (
     "longevity_eternal, sillage_intimate, sillage_moderate, sillage_strong, sillage_enormous, "
     "gender_vote_female, gender_vote_more_female, gender_vote_unisex, gender_vote_more_male, "
     "gender_vote_male, price_way_overpriced, price_overpriced, price_fair, price_good_value, "
-    "price_great_value, day_votes, night_votes, usage_count, is_published"
+    "price_great_value, day_votes, night_votes, usage_count, view_count, is_published"
 )
 
 SEQUENCES = ["brands", "notes", "accords", "perfumes"]

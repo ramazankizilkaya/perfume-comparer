@@ -18,7 +18,7 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
     /// <summary>Kartta gösterilen ana akor sayısı.</summary>
     private const int CardAccordCount = 3;
 
-    public async Task<PerfumeDetailDto?> GetPerfumeDetailAsync(string slug, CancellationToken ct = default)
+    public async Task<PerfumeDetailDto?> GetPerfumeDetailAsync(string slug, string? ipAddress = null, CancellationToken ct = default)
     {
         var perfumeRepo = uow.GetRepository<Perfume>();
 
@@ -35,7 +35,39 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
             .Include(p => p.AlternativesAsSource).ThenInclude(a => a.TargetPerfume).ThenInclude(tp => tp.Brand)
             .FirstOrDefaultAsync(ct);
 
-        return perfume is null ? null : MapDetail(perfume);
+        if (perfume is null) return null;
+
+        if (!string.IsNullOrWhiteSpace(ipAddress))
+        {
+            var viewRepo = uow.GetRepository<PerfumeView>();
+            var alreadyViewed = await viewRepo.AnyAsync(v => v.PerfumeId == perfume.Id && v.IpAddress == ipAddress, ct);
+            if (!alreadyViewed)
+            {
+                try
+                {
+                    viewRepo.Add(new PerfumeView
+                    {
+                        PerfumeId = perfume.Id,
+                        IpAddress = ipAddress,
+                        ViewedAt = DateTimeOffset.UtcNow,
+                    });
+
+                    var tracked = perfumeRepo.GetById(perfume.Id);
+                    if (tracked is not null)
+                    {
+                        tracked.ViewCount++;
+                        perfume.ViewCount = tracked.ViewCount;
+                    }
+                    await uow.SaveChangesAsync();
+                }
+                catch
+                {
+                    // Concurrency / duplicate unique index race condition
+                }
+            }
+        }
+
+        return MapDetail(perfume);
     }
 
     public async Task<PagedResult<PerfumeCardDto>> GetPerfumesAsync(PerfumeListQuery q, CancellationToken ct = default)
@@ -48,7 +80,8 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
             "newest" => query.OrderByDescending(p => p.ReleaseYear).ThenByDescending(p => p.RatingCount),
             "oldest" => query.OrderBy(p => p.ReleaseYear).ThenByDescending(p => p.RatingCount),
             "name" => query.OrderBy(p => p.Name),
-            _ => query.OrderByDescending(p => p.RatingCount).ThenByDescending(p => p.AvgRating).ThenBy(p => p.Name),
+            "views" => query.OrderByDescending(p => p.ViewCount).ThenByDescending(p => p.RatingCount).ThenByDescending(p => p.AvgRating).ThenBy(p => p.Name),
+            _ => query.OrderByDescending(p => p.ViewCount).ThenByDescending(p => p.RatingCount).ThenByDescending(p => p.AvgRating).ThenBy(p => p.Name),
         };
 
         var page = Math.Max(1, q.Page);
@@ -365,6 +398,7 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
                 })
                 .ToList(),
             perfume.UsageCount,
+            perfume.ViewCount,
             breadcrumb,
             perfume.Dupes
                 .Where(d => d.IsActive)

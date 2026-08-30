@@ -35,6 +35,7 @@ public record PerfumeDetailDto(
     /// <summary>"Bu parfümü kullanıyorum" diyenlerin yaş dağılımı.</summary>
     List<ScoredRefDto> AgeGroups,
     int UsageCount,
+    int ViewCount,
     List<BreadcrumbItemDto> Breadcrumb,
     List<PerfumeDupeDto> Dupes,
     /// <summary>"Bana bunu hatırlatıyor" ilişkisiyle bağlı parfümler.</summary>

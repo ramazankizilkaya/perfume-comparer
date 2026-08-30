@@ -54,6 +54,41 @@ from playwright.sync_api import sync_playwright
 class IPBlockedException(Exception):
     pass
 
+ACCORD_TO_FAMILY = {
+    "Citrus": ["narenciye", "tuzlu", "ekşi"],
+    "Floral": ["çiçeksi", "beyaz çiçeksi", "sarı çiçeksi", "gül", "iris", "menekşe", "tüberöz", "pudralı"],
+    "Woody": ["odunsu", "paçuli", "ud", "toprak", "kozalaklı", "kum"],
+    "Oriental": ["amber", "balsamik", "vanilya", "bal", "balmumu", "rom"],
+    "Gourmand": ["tatlı", "karamel", "çikolata", "kakao", "kahve", "badem", "fındıksı",
+                 "hindistancevizi", "laktonik", "sütlü", "gurme", "kiraz", "meyvemsi", "tropikal"],
+    "Fresh": ["taze", "sulu", "deniz", "ozonik", "mineral", "yeşil", "sabunsu", "metalik",
+              "aldehitli", "kafur"],
+    "Aromatic": ["aromatik", "bitkisel", "anason", "taze baharatlı", "sıcak baharatlı",
+                 "yumuşak baharatlı", "baharatlı", "tarçın", "terpenik"],
+    "Fougere": ["lavanta", "yosunlu"],
+    "Leather": ["deri", "animalik", "misk", "dumanlı", "tütün"],
+}
+
+FAMILY_BY_ACCORD = {accord: family for family, accords in ACCORD_TO_FAMILY.items() for accord in accords}
+ACCORD_NOISE_PATTERNS = [
+    re.compile(r"^\$+$"),
+    re.compile(r"satın al", re.IGNORECASE),
+    re.compile(r"satılık", re.IGNORECASE),
+    re.compile(r"şurada ara", re.IGNORECASE),
+]
+ACCORD_NOISE_NAMES = {"kadın", "erkek", "unisex"}
+
+def is_noise_accord(name: str) -> bool:
+    lowered = name.strip().lower()
+    if lowered in ACCORD_NOISE_NAMES:
+        return True
+    return any(pattern.search(name) for pattern in ACCORD_NOISE_PATTERNS)
+
+def family_from_accord(accord_name: str | None) -> str | None:
+    if not accord_name:
+        return None
+    return FAMILY_BY_ACCORD.get(accord_name.strip().lower(), "Other")
+
 def parse_perfume_page(page, perfume_url):
     print(f"Navigating to {perfume_url}...")
     try:
@@ -352,6 +387,10 @@ def parse_perfume_page(page, perfume_url):
 
         if not data or not data.get("name"):
             return None, "Sayfa içeriği tam okunamadı (Parfüm adı bulunamadı)"
+
+        accords = [a for a in (data.get("mainAccords") or [])
+                   if a.get("name") and not is_noise_accord(a["name"])]
+        data["fragranceFamily"] = family_from_accord(accords[0]["name"]) if accords else None
         return data, None
     except Exception as e:
         return None, f"Ayrıştırma hatası: {e}"
@@ -895,6 +934,7 @@ def _scrape_brand_perfumes(brand_identifier, max_perfumes, delay, proxy_state):
                         ordered_data = {
                             "name": p_data.get("name"),
                             "targetGender": p_data.get("targetGender"),
+                            "fragranceFamily": p_data.get("fragranceFamily"),
                             "image": p_data.get("image"),
                             "url": tr_url,
                             "brand": brand_name,

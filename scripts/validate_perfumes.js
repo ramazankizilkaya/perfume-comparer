@@ -24,6 +24,7 @@ const perfumeSchema = Joi.object({
   targetGender: Joi.string().allow('').required().messages({
     'any.required': 'Hedef cinsiyet (targetGender) alanı eksik'
   }),
+  fragranceFamily: Joi.string().allow(null, '').optional(),
   image: Joi.string().allow('').required().messages({
     'any.required': 'Resim URL (image) alanı eksik'
   }),

@@ -31,6 +31,7 @@ public class PerfumeConfiguration : IEntityTypeConfiguration<Perfume>
 
         // Marka sayfasının varsayılan sıralaması (marka + popülerlik)
         builder.HasIndex(p => new { p.BrandId, p.RatingCount });
+        builder.HasIndex(p => p.ViewCount);
 
         builder.HasIndex(p => p.Name)
             .HasMethod("gin")

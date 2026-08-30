@@ -30,8 +30,25 @@ public class CatalogController(
     [HttpGet("perfumes/{slug}")]
     public async Task<IActionResult> GetPerfumeDetail(string slug, CancellationToken ct)
     {
-        var dto = await catalog.GetPerfumeDetailAsync(slug, ct);
+        var ip = GetClientIp();
+        var dto = await catalog.GetPerfumeDetailAsync(slug, ip, ct);
         return dto is not null ? Ok(dto) : NotFound();
+    }
+
+    private string? GetClientIp()
+    {
+        if (Request.Headers.TryGetValue("X-Forwarded-For", out var forwarded) && !string.IsNullOrWhiteSpace(forwarded))
+        {
+            var ip = forwarded.ToString().Split(',')[0].Trim();
+            if (!string.IsNullOrWhiteSpace(ip)) return ip;
+        }
+
+        if (Request.Headers.TryGetValue("X-Real-IP", out var realIp) && !string.IsNullOrWhiteSpace(realIp))
+        {
+            return realIp.ToString().Trim();
+        }
+
+        return HttpContext.Connection.RemoteIpAddress?.ToString();
     }
 
     [HttpGet("brands")]

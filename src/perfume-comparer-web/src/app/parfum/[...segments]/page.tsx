@@ -83,6 +83,7 @@ interface PerfumeDetail {
     priceVotes: VoteBar[];
     ageGroups: AgeGroupScore[];
     usageCount: number;
+    viewCount?: number;
     breadcrumb: BreadcrumbItem[];
     alternatives: RelatedPerfume[];
     alsoLiked: RelatedPerfume[];

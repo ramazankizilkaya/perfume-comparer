@@ -69,6 +69,9 @@ public class Perfume
     /// <summary>"Bu parfümü kullanıyorum" diyen kişi sayısı.</summary>
     public int UsageCount { get; set; }
 
+    /// <summary>IP bazlı tekil sayfa görüntülenme sayısı.</summary>
+    public int ViewCount { get; set; }
+
     public bool IsPublished { get; set; }
     public DateTimeOffset CreatedAt { get; set; }
     public DateTimeOffset UpdatedAt { get; set; }
