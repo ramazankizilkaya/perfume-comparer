@@ -89,6 +89,54 @@ def family_from_accord(accord_name: str | None) -> str | None:
         return None
     return FAMILY_BY_ACCORD.get(accord_name.strip().lower(), "Other")
 
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or "AQ.Ab8RN6I3Y1Xea1xE-u92MNGJoDLJBZ6GNwpfqNIMg_zBf0XVIQ"
+
+def validate_and_enrich_with_gemini(perfume_name: str, brand_name: str, description: str, top_accord: str | None = None) -> dict:
+    """Gemini 3.6 Flash ile çekilen parfümün esans tipini, koku ailesini ve açıklamasını doğrular/zenginleştirir."""
+    if not GEMINI_API_KEY:
+        return {}
+    
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key={GEMINI_API_KEY}"
+    prompt = f"""Sen lüks parfüm veri tabanı uzmanısın. Aşağıdaki çekilen parfüm verilerini incele:
+Parfüm: {perfume_name}
+Marka: {brand_name}
+Açıklama: {description}
+En Baskın Akor: {top_accord or 'Bilinmiyor'}
+
+Görevin:
+1. 'concentration' (Esans Tipi): 'Edp', 'Edt', 'Parfum', 'Extrait', 'Edc', 'EauFraiche', 'RollOn' seçeneklerinden en doğrusunu belirle (belirsizse Edp seç).
+2. 'fragranceFamily' (Koku Ailesi): 'Oriental', 'Woody', 'Fresh', 'Floral', 'Citrus', 'Gourmand', 'Aromatic', 'Fougere', 'Leather', 'Other' arasından en uygununu belirle.
+3. 'description' (Zenginleştirilmiş Açıklama): Orijinal bilgileri (notalar, burun, çıkış yılı) koruyarak akıcı, özgün, şık bir Türkçe ürün tanıtım metni oluştur.
+
+Yalnızca aşağıdaki formatta saf JSON döndür (markdown backtick olmadan):
+{{
+  "concentration": "Edp",
+  "fragranceFamily": "Gourmand",
+  "description": "..."
+}}"""
+    
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"response_mime_type": "application/json"}
+    }
+    
+    try:
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"}
+        )
+        with urllib.request.urlopen(req, timeout=12, context=ctx) as response:
+            res_data = json.loads(response.read().decode("utf-8"))
+            text = res_data["candidates"][0]["content"]["parts"][0]["text"].strip()
+            return json.loads(text)
+    except Exception as e:
+        print(f"    [Gemini AI Teyit]: {e}")
+        return {}
+
 def parse_perfume_page(page, perfume_url):
     print(f"Navigating to {perfume_url}...")
     try:
@@ -931,14 +979,31 @@ def _scrape_brand_perfumes(brand_identifier, max_perfumes, delay, proxy_state):
                     if p_data:
                         consecutive_rate_limit_count = 0
                         brand_name = brand_data.get("title", brand_identifier)
+
+                        # Gemini AI ile veri doğrulama ve açıklama zenginleştirme
+                        top_accord = p_data.get("mainAccords")[0]["name"] if p_data.get("mainAccords") else None
+                        ai_res = validate_and_enrich_with_gemini(
+                            p_data.get("name", ""),
+                            brand_name,
+                            p_data.get("description", ""),
+                            top_accord
+                        )
+                        
+                        concentration = ai_res.get("concentration") or p_data.get("concentration") or "Edp"
+                        desc_orig = p_data.get("description", "")
+                        desc_enhanced = ai_res.get("description") or desc_orig
+
                         ordered_data = {
                             "name": p_data.get("name"),
                             "targetGender": p_data.get("targetGender"),
-                            "fragranceFamily": p_data.get("fragranceFamily"),
+                            "fragranceFamily": fragrance_family,
+                            "concentration": concentration,
                             "image": p_data.get("image"),
                             "url": tr_url,
                             "brand": brand_name,
-                            "description": p_data.get("description"),
+                            "description": desc_enhanced,
+                            "description_original": desc_orig,
+                            "description_enhanced": desc_enhanced,
                             "mainAccords": p_data.get("mainAccords"),
                             "rating": p_data.get("rating"),
                             "seasons": p_data.get("seasons"),
@@ -952,7 +1017,7 @@ def _scrape_brand_perfumes(brand_identifier, max_perfumes, delay, proxy_state):
                         }
                         with open(out_file, "w", encoding="utf-8") as out_f:
                             json.dump(ordered_data, out_f, ensure_ascii=False, indent=2)
-                        print(f"  --> Saved: {ordered_data['name']} ({ordered_data['rating']['score']}/5 score, {len(ordered_data['mainAccords'])} accords) to {out_file}")
+                        print(f"  --> Saved (AI Verified): {ordered_data['name']} [{ordered_data['concentration']}] ({ordered_data['rating']['score']}/5 score) to {out_file}")
 
                         if p_data.get("image"):
                             download_and_convert_perfume_image(

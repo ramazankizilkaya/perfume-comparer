@@ -280,7 +280,9 @@ def load_brands(selected: list[str] | None, limit: int | None) -> list[dict]:
             continue
 
         data = json.loads(path.read_text(encoding="utf-8"))
-        bio = data.get("bio") or []
+        bio = data.get("bio_enhanced") or data.get("bio") or []
+        if isinstance(bio, str):
+            bio = [bio]
         brands.append({
             "key": key,
             "name": brand_display_name(data),
@@ -539,11 +541,13 @@ class Catalog:
         image = f"perfumes/{brand_key}/images/{path.stem}.webp"
         image_url = f"/media/{image}" if (SCRAPE_DIR / image).exists() else None
 
+        perfume_desc = (data.get("description_enhanced") or data.get("description") or data.get("description_original") or "").strip() or None
+
         self.perfumes.append([
             perfume_id, brand_id, name, perfume_slug,
             parse_gender(listed.get("gender"), data.get("targetGender")),
             concentration, family, parse_year(listed.get("year")),
-            (data.get("description") or "").strip() or None,
+            perfume_desc,
             image_url, url,
             round(min(parse_decimal(rating.get("score")), 5.0), 2), parse_votes(rating.get("votesCount")),
             parse_votes(breakdown.get("love")), parse_votes(breakdown.get("like")),

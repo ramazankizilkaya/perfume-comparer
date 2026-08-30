@@ -24,6 +24,48 @@ PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 BRANDS_DIR = os.path.join(PROJECT_ROOT, "scrape_files", "brands")
 BRAND_IMAGES_DIR = os.path.join(PROJECT_ROOT, "scrape_files", "brand_images")
 
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or "AQ.Ab8RN6I3Y1Xea1xE-u92MNGJoDLJBZ6GNwpfqNIMg_zBf0XVIQ"
+
+def enhance_brand_bio_with_gemini(brand_name: str, country: str, bio_paragraphs: list) -> str:
+    """Gemini 3.6 Flash ile marka tanıtım yazısını edebi, zenginleştirilmiş ve akıcı Türkçe ile yeniden yazar."""
+    raw_bio = "\n\n".join(bio_paragraphs) if bio_paragraphs else ""
+    if not GEMINI_API_KEY:
+        return raw_bio
+    
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key={GEMINI_API_KEY}"
+    prompt = f"""Sen lüks koku ve parfüm markaları uzmanı bir baş editörsün.
+Aşağıdaki parfüm markasının tanıtım metnini Türk parfüm meraklıları için zenginleştirilmiş, edebi, akıcı ve bilgilendirici bir marka hikayesi (bio) olarak Türkçe yeniden yaz:
+
+Marka Adı: {brand_name}
+Menşei Ülke: {country or 'Bilinmiyor'}
+Mevcut Bilgi:
+"{raw_bio}"
+
+Kurallar:
+1. Varsa kurucusu, kuruluş yılı, parfümörleri ve marka felsefesini doğal biçimde harmanla.
+2. Fragrantica'nın ham çeviri tarzından ("koku veri tabanımızda X parfüm var...") tamamen uzaklaş, özgün bir marka inceleme yazısı oluştur.
+3. Yalnızca oluşturduğun Türkçe metni döndür (tırnak veya başlık ekleme)."""
+
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}]
+    }
+
+    try:
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"}
+        )
+        with urllib.request.urlopen(req, timeout=12, context=ctx) as response:
+            res_data = json.loads(response.read().decode("utf-8"))
+            return res_data["candidates"][0]["content"]["parts"][0]["text"].strip()
+    except Exception as e:
+        print(f"    [Gemini Marka AI]: {e}")
+        return raw_bio
+
 POPULAR_BRANDS_HTML_SNIPPET = [
     "https://www.fragrantica.com/designers/Acqua-di-Parma.html",
     "https://www.fragrantica.com/designers/Adidas.html",
@@ -395,6 +437,11 @@ def scrape_designer(designer_url):
             brand_slug = designer_url.split('/')[-1].replace('.html', '').lower().replace('-', '_')
             local_logo = download_and_convert_logo(data.get("logoUrl", ""), brand_slug) if data.get("logoUrl") else ""
             
+            bio_orig = data.get("bio", [])
+            brand_name = data.get("title", "").replace(" parfüm ve kolonya", "").strip()
+            bio_enhanced_text = enhance_brand_bio_with_gemini(brand_name, data.get("country", ""), bio_orig)
+            bio_enhanced = [bio_enhanced_text] if bio_enhanced_text else bio_orig
+
             ordered_data = {
                 "title": data.get("title", ""),
                 "data_source_url": designer_url,
@@ -404,7 +451,9 @@ def scrape_designer(designer_url):
                 "parentCompany": data.get("parentCompany", ""),
                 "logoUrl": data.get("logoUrl", ""),
                 "localLogoPath": local_logo,
-                "bio": data.get("bio", []),
+                "bio": bio_enhanced,
+                "bio_original": bio_orig,
+                "bio_enhanced": bio_enhanced,
                 "totalPerfumes": data.get("totalPerfumes", 0),
                 "perfumes": data.get("perfumes", [])
             }

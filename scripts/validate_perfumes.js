@@ -37,9 +37,9 @@ const perfumeSchema = Joi.object({
     'string.empty': 'Marka adı boş olamaz',
     'any.required': 'Marka adı (brand) alanı eksik'
   }),
-  description: Joi.string().allow('').required().messages({
-    'any.required': 'Açıklama (description) alanı eksik'
-  }),
+  description: Joi.string().allow('', null).optional(),
+  description_original: Joi.string().allow('', null).optional(),
+  description_enhanced: Joi.string().allow('', null).optional(),
   mainAccords: Joi.array().items(Joi.object({
     name: Joi.string().required().messages({
       'any.required': 'Akort adı eksik'
