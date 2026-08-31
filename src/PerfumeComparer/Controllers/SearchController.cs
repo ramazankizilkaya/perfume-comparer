@@ -21,4 +21,11 @@ public class SearchController(ISearchService search) : ControllerBase
         var result = await search.AutocompleteAsync(q ?? "", ct);
         return Ok(result);
     }
+
+    [HttpGet("ai")]
+    public async Task<IActionResult> AiSearch([FromQuery] string? q, CancellationToken ct)
+    {
+        var result = await search.AiSearchAsync(q ?? "", ct);
+        return Ok(result);
+    }
 }

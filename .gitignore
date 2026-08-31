@@ -47,3 +47,7 @@ ENV/
 ehthumbs.db
 Thumbs.db
 .env*.local
+
+# Yerel sırlar (API anahtarları) - asla commit edilmez
+appsettings.Local.json
+src/PerfumeComparer/appsettings.Local.json

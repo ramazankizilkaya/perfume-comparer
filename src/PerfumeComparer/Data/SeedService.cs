@@ -63,10 +63,20 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
             AS $func$ SELECT public.unaccent('public.unaccent'::regdictionary, input) $func$;
             """, ct);
 
-        await db.Database.ExecuteSqlRawAsync(
-            "CREATE INDEX IF NOT EXISTS ix_perfumes_name_unaccent_trgm ON perfumes USING gin (f_unaccent(lower(name)) gin_trgm_ops);", ct);
-        await db.Database.ExecuteSqlRawAsync(
-            "CREATE INDEX IF NOT EXISTS ix_brands_name_unaccent_trgm ON brands USING gin (f_unaccent(lower(name)) gin_trgm_ops);", ct);
+        // Arama tüm veriyi taradığı için isim, marka, nota, akor ve açıklama ayrı ayrı indekslenir.
+        string[] indexes =
+        [
+            "CREATE INDEX IF NOT EXISTS ix_perfumes_name_unaccent_trgm ON perfumes USING gin (f_unaccent(lower(name)) gin_trgm_ops);",
+            "CREATE INDEX IF NOT EXISTS ix_brands_name_unaccent_trgm ON brands USING gin (f_unaccent(lower(name)) gin_trgm_ops);",
+            "CREATE INDEX IF NOT EXISTS ix_notes_name_unaccent_trgm ON notes USING gin (f_unaccent(lower(name)) gin_trgm_ops);",
+            "CREATE INDEX IF NOT EXISTS ix_accords_name_unaccent_trgm ON accords USING gin (f_unaccent(lower(name)) gin_trgm_ops);",
+            "CREATE INDEX IF NOT EXISTS ix_perfumes_description_trgm ON perfumes USING gin (f_unaccent(lower(coalesce(description, ''))) gin_trgm_ops);",
+            "CREATE INDEX IF NOT EXISTS ix_perfume_notes_note_id ON perfume_notes (note_id);",
+            "CREATE INDEX IF NOT EXISTS ix_perfume_accords_accord_id ON perfume_accords (accord_id);",
+        ];
+
+        foreach (var sql in indexes)
+            await db.Database.ExecuteSqlRawAsync(sql, ct);
     }
 
     // -------------------------------------------------------------- durum

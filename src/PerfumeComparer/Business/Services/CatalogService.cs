@@ -247,7 +247,10 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
             foreach (var term in q.Q.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries))
             {
                 var pat = $"%{term}%";
-                query = query.Where(p => EF.Functions.ILike(p.Name, pat) || EF.Functions.ILike(p.Brand.Name, pat));
+                query = query.Where(p => EF.Functions.ILike(p.Name, pat)
+                    || EF.Functions.ILike(p.Brand.Name, pat)
+                    || p.Notes.Any(n => EF.Functions.ILike(n.Note.Name, pat))
+                    || p.Accords.Any(a => EF.Functions.ILike(a.Accord.Name, pat)));
             }
         }
 

@@ -108,6 +108,8 @@ function SearchInner() {
     const [total, setTotal] = useState(0);
     const [loading, setLoading] = useState(true);
     const [filtersOpen, setFiltersOpen] = useState(false);
+    const [aiSummary, setAiSummary] = useState<string | null>(null);
+    const [aiUsed, setAiUsed] = useState(false);
 
     useEffect(() => {
         (async () => {
@@ -124,8 +126,6 @@ function SearchInner() {
         set(list.includes(val) ? list.filter((x) => x !== val) : [...list, val]);
 
     useEffect(() => {
-        // Sonuçlar değişiyor: kullanıcı listenin ortasındaysa araç çubuğuna geri
-        // getir. İlk yüklemede (adresten gelen filtrelerle) karışma.
         if (isFirstSearch.current) {
             isFirstSearch.current = false;
         } else if (toolbarRef.current) {
@@ -135,6 +135,30 @@ function SearchInner() {
 
         const t = setTimeout(async () => {
             setLoading(true);
+            const isAi = sp.get("ai") === "1";
+
+            if (isAi && q.trim()) {
+                try {
+                    const r = await fetch(`${API_BASE}/api/search/ai?q=${encodeURIComponent(q.trim())}`);
+                    if (r.ok) {
+                        const d = await r.json();
+                        setResults(d.items ?? []);
+                        setTotal(d.totalCount ?? d.items?.length ?? 0);
+                        setAiSummary(d.aiSummary ?? null);
+                        setAiUsed(Boolean(d.aiUsed));
+                    }
+                } catch {
+                    setResults([]);
+                    setAiSummary(null);
+                    setAiUsed(false);
+                } finally {
+                    setLoading(false);
+                }
+                return;
+            }
+
+            setAiSummary(null);
+            setAiUsed(false);
             const p = new URLSearchParams();
             if (q.trim()) p.set("q", q.trim());
             if (gender.length) p.set("gender", gender.join(","));
@@ -168,7 +192,7 @@ function SearchInner() {
         }, 300);
         return () => clearTimeout(t);
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [q, gender, family, concentration, brand, accord, note, sort]);
+    }, [q, gender, family, concentration, brand, accord, note, sort, sp]);
 
     const activeCount =
         gender.length + family.length + concentration.length + brand.length +
@@ -177,6 +201,7 @@ function SearchInner() {
     const clearAll = () => {
         setQ(""); setGender([]); setFamily([]); setConcentration([]);
         setBrand([]); setAccord([]); setNote([]); setSort("");
+        setAiSummary(null);
     };
 
     // Tek bir cinsiyet seçiliyse kırıntıda görünsün (erkek/kadın sayfaları aynı derinlikte olsun).
@@ -203,8 +228,8 @@ function SearchInner() {
                 <input
                     value={q}
                     onChange={(e) => setQ(e.target.value)}
-                    placeholder="Parfüm veya marka ara… (ör. dior sauvage)"
-                    aria-label="Ara"
+                    placeholder="Sonuçlar içinde filtrele… (ör. sauvage, vanilya, edp)"
+                    aria-label="Sonuçlar içinde filtrele"
                 />
                 {q && (
                     <button onClick={() => setQ("")} aria-label="Temizle">
@@ -322,6 +347,16 @@ function SearchInner() {
                                 </span>
                             ))}
                             <button onClick={clearAll} className="link-more" style={{ fontSize: "0.75rem", marginInlineStart: "0.25rem" }}>Tümünü Temizle</button>
+                        </div>
+                    )}
+
+                    {aiSummary && (
+                        <div className="ai-search-banner">
+                            <div className="ai-banner-header">
+                                <Icon name="sparkle" size={16} />
+                                <span>{aiUsed ? "Yapay Zeka Arama Analizi" : "Arama Sonucu"}</span>
+                            </div>
+                            <p className="ai-banner-text">{aiSummary}</p>
                         </div>
                     )}
 

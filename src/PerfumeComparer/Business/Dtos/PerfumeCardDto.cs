@@ -15,4 +15,6 @@ public record PerfumeCardDto(
     /// <summary>En baskın üç ana akor; kartta etiket olarak gösterilir.</summary>
     List<string> Accords,
     /// <summary>SEO yolu, /parfum/ öneki olmadan. Örn: erkek/edp/dior/dior-homme-edp</summary>
-    string Path);
+    string Path,
+    /// <summary>Bu sonucu yapay zekâ mı buldu? Kartta "AI" rozeti bunu kullanır.</summary>
+    bool IsAi = false);

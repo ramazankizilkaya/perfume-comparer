@@ -24,6 +24,7 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
     public DbSet<PerfumeDupe> PerfumeDupes => Set<PerfumeDupe>();
     public DbSet<PerfumeAlternative> PerfumeAlternatives => Set<PerfumeAlternative>();
     public DbSet<PerfumeView> PerfumeViews => Set<PerfumeView>();
+    public DbSet<PerfumeUserPhoto> PerfumeUserPhotos => Set<PerfumeUserPhoto>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

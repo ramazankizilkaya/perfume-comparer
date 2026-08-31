@@ -15,6 +15,9 @@ try
 {
     var builder = WebApplication.CreateBuilder(args);
 
+    // API anahtarları git'e girmesin diye ayrı, .gitignore'lu dosyadan okunur.
+    builder.Configuration.AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true);
+
     builder.Host.UseSerilog((context, services, configuration) => configuration
         .ReadFrom.Configuration(context.Configuration)
         .ReadFrom.Services(services)
@@ -45,6 +48,9 @@ try
     builder.Services.AddScoped<IUsageService, UsageService>();
     builder.Services.AddScoped<ISeedService, SeedService>();
     builder.Services.AddSingleton<ITokenService, TokenService>();
+    builder.Services.AddSingleton<IGeminiClient, GeminiClient>();
+    builder.Services.AddScoped<IAiSearchPlanner, AiSearchPlanner>();
+    builder.Services.AddMemoryCache();
 
     // AI özetleri: arka plan işi belirli aralıklarla yorumları özetleyip
     // sonucu yorum tablosuna (is_ai_summary) yazar.

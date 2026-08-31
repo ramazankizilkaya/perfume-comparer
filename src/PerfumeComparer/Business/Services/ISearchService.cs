@@ -10,4 +10,5 @@ public interface ISearchService
 
     Task<PagedResult<PerfumeCardDto>> SearchAsync(string q, int page, int pageSize, CancellationToken ct = default);
     Task<AutocompleteDto> AutocompleteAsync(string q, CancellationToken ct = default);
+    Task<AiSearchResultDto> AiSearchAsync(string q, CancellationToken ct = default);
 }

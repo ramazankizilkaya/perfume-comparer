@@ -11,6 +11,8 @@ import CompareButton from "@/components/CompareButton";
 import LoginPrompt from "@/components/LoginPrompt";
 import Breadcrumb from "@/components/Breadcrumb";
 import UsageVote, { type AgeGroupScore } from "@/components/UsageVote";
+import ImageLightboxModal from "@/components/ImageLightboxModal";
+import PerfumeReviewModal from "@/components/PerfumeReviewModal";
 import { API_BASE, formatDate, genderLabel, brandHref, perfumeHref, mediaUrl } from "@/lib/urls";
 import { noteIcon } from "@/lib/notes";
 import { useAuth, type PerfumeRef } from "@/lib/stores";
@@ -111,7 +113,13 @@ export default function PerfumeDetailPage() {
     const { token } = useAuth();
     const [perfume, setPerfume] = useState<PerfumeDetail | null>(null);
     const [comments, setComments] = useState<CommentData[]>([]);
+    const [userPhotos, setUserPhotos] = useState<{ id: number; imageUrl: string; authorName: string; createdAt: string }[]>([]);
     const [loading, setLoading] = useState(true);
+
+    const [lightboxOpen, setLightboxOpen] = useState(false);
+    const [lightboxSrc, setLightboxSrc] = useState("");
+    const [lightboxAlt, setLightboxAlt] = useState("");
+    const [reviewModalOpen, setReviewModalOpen] = useState(false);
 
     const [rating, setRating] = useState(5);
     const [commentText, setCommentText] = useState("");
@@ -123,12 +131,14 @@ export default function PerfumeDetailPage() {
         (async () => {
             setLoading(true);
             try {
-                const [pRes, cRes] = await Promise.all([
+                const [pRes, cRes, photosRes] = await Promise.all([
                     fetch(`${API_BASE}/api/perfumes/${slug}`),
                     fetch(`${API_BASE}/api/perfumes/${slug}/comments`),
+                    fetch(`${API_BASE}/api/perfumes/${slug}/photos`),
                 ]);
                 setPerfume(pRes.ok ? await pRes.json() : null);
                 if (cRes.ok) setComments(await cRes.json());
+                if (photosRes.ok) setUserPhotos(await photosRes.json());
             } catch {
                 setPerfume(null);
             } finally {
@@ -219,8 +229,19 @@ export default function PerfumeDetailPage() {
             <Breadcrumb items={perfume.breadcrumb} />
 
             <div className="detail-head">
-                <figure className="detail-media">
+                <figure
+                    className="detail-media"
+                    onClick={() => {
+                        setLightboxSrc(mediaUrl(perfume.imageUrl) || PLACEHOLDER);
+                        setLightboxAlt(perfume.name);
+                        setLightboxOpen(true);
+                    }}
+                    title="Fotoğrafı büyütmek için tıklayın"
+                >
                     <img src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt={perfume.name} />
+                    <span className="media-zoom-badge">
+                        <Icon name="search" size={12} /> Büyüt
+                    </span>
                 </figure>
 
                 <div>
@@ -255,16 +276,56 @@ export default function PerfumeDetailPage() {
                     )}
 
                     <div className="detail-actions">
+                        <button
+                            type="button"
+                            className="btn btn-primary"
+                            onClick={() => setReviewModalOpen(true)}
+                        >
+                            <Icon name="star" size={14} /> Bu parfümü değerlendir
+                        </button>
                         <CompareButton perfume={ref} />
                         <FavButton perfume={ref} />
                     </div>
-
-                    <UsageVote slug={perfume.slug} usageCount={perfume.usageCount} onVoted={applyUsage} />
                 </div>
             </div>
 
             <div className="detail-body">
                 <div className="col-main">
+                    {/* Kullanıcılardan Gelen Fotoğraflar */}
+                    {userPhotos.length > 0 && (
+                        <section className="block user-photos-section">
+                            <div className="flex-between" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBlockEnd: "0.75rem" }}>
+                                <h2 className="block-title" style={{ margin: 0 }}>
+                                    Kullanıcılardan Gelen Fotoğraflar ({userPhotos.length})
+                                </h2>
+                                <button
+                                    type="button"
+                                    className="btn btn-ghost btn-sm"
+                                    onClick={() => setReviewModalOpen(true)}
+                                >
+                                    <Icon name="plus" size={12} /> Fotoğraf Ekle
+                                </button>
+                            </div>
+                            <div className="user-photos-slider">
+                                {userPhotos.map((photo) => (
+                                    <div
+                                        key={photo.id}
+                                        className="user-photo-card"
+                                        onClick={() => {
+                                            setLightboxSrc(mediaUrl(photo.imageUrl) || PLACEHOLDER);
+                                            setLightboxAlt(`${perfume.name} - @${photo.authorName}`);
+                                            setLightboxOpen(true);
+                                        }}
+                                        title={`@${photo.authorName} tarafından yüklendi. Büyütmek için tıklayın.`}
+                                    >
+                                        <img src={mediaUrl(photo.imageUrl)} alt={photo.authorName} className="user-photo-img" loading="lazy" />
+                                        <span className="user-photo-author">@{photo.authorName}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
+                    )}
+
                     {perfume.description && (
                         <section className="block">
                             <h2 className="block-title">Ürün açıklaması</h2>
@@ -464,6 +525,29 @@ export default function PerfumeDetailPage() {
                     </div>
                 </aside>
             </div>
+
+            <ImageLightboxModal
+                src={lightboxSrc}
+                alt={lightboxAlt}
+                isOpen={lightboxOpen}
+                onClose={() => setLightboxOpen(false)}
+            />
+
+            <PerfumeReviewModal
+                slug={perfume.slug}
+                perfumeName={perfume.name}
+                isOpen={reviewModalOpen}
+                onClose={() => setReviewModalOpen(false)}
+                onReviewSubmitted={async () => {
+                    const fresh = await fetch(`${API_BASE}/api/perfumes/${slug}`);
+                    if (fresh.ok) setPerfume(await fresh.json());
+                    const cFresh = await fetch(`${API_BASE}/api/perfumes/${slug}/comments`);
+                    if (cFresh.ok) setComments(await cFresh.json());
+                }}
+                onPhotoUploaded={(photo) => {
+                    setUserPhotos((prev) => [photo, ...prev]);
+                }}
+            />
         </>
     );
 }

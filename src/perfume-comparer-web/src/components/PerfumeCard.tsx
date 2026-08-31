@@ -19,6 +19,8 @@ export interface PerfumeCardData {
     ratingCount: number;
     accords?: string[];
     path: string;
+    /** Sonucu yapay zekâ bulduysa kartta "AI" rozeti gösterilir. */
+    isAi?: boolean;
 }
 
 const PLACEHOLDER =
@@ -54,6 +56,9 @@ export function PerfumeCard({ perfume }: { perfume: PerfumeCardData }) {
                     <div className="card-badge-left">
                         <ConcentrationBadge concentration={perfume.concentration} />
                         <FamilyBadge family={perfume.fragranceFamily} />
+                        {perfume.isAi && (
+                            <span className="card-ai-tag" title="Bu sonucu yapay zekâ araması buldu">AI</span>
+                        )}
                     </div>
                     {perfume.avgRating > 0 && (
                         <span className="card-rating-badge" title={`Fragrantica Puanı: ${perfume.avgRating.toFixed(2)} (${perfume.ratingCount} oy)`}>

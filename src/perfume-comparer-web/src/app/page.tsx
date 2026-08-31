@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { PageBreadcrumb } from "@/components/Breadcrumb";
 import { PerfumeCard, type PerfumeCardData } from "@/components/PerfumeCard";
 import HorizontalSlider from "@/components/HorizontalSlider";
 import ComparisonCard, { type ComparisonPairData } from "@/components/ComparisonCard";
@@ -84,8 +83,6 @@ export default function Home() {
 
     return (
         <div className="home-layout">
-            <PageBreadcrumb trail={[]} />
-
             {/* 1. Üst Blog Hero Slider'ı */}
             {blogs.length > 0 && <BlogSlider blogs={blogs} />}
 
