@@ -457,9 +457,53 @@ button {
     border: 1px solid var(--line-strong);
     border-radius: var(--radius);
     box-shadow: 0 12px 32px rgb(0 0 0 / 0.16);
-    max-height: 65vh;
+    /* Yapay zeka sonuçları normal sonuçların üstüne eklendiği için liste uzuyor;
+       kaydırılabilir olması gerekiyor. */
+    max-height: 70vh;
     overflow-y: auto;
+    overscroll-behavior: contain;
     z-index: 60;
+}
+
+.ac-ai-trigger {
+    display: flex;
+    align-items: center;
+    gap: var(--s3);
+    width: 100%;
+    padding: 0.7rem 0.85rem;
+    /* Liste kaydırılırken bu satır tepede kalsın. */
+    position: sticky;
+    inset-block-start: 0;
+    background: linear-gradient(90deg, rgb(15 76 92 / 0.10) 0%, rgb(227 100 20 / 0.08) 100%);
+    backdrop-filter: blur(6px);
+    border: none;
+    border-block-end: 1px solid var(--line-strong);
+    color: var(--accent);
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    cursor: pointer;
+    text-align: start;
+    z-index: 1;
+    transition: background 0.15s ease;
+}
+
+.ac-ai-trigger:hover:not(:disabled) {
+    background: linear-gradient(90deg, rgb(15 76 92 / 0.18) 0%, rgb(227 100 20 / 0.15) 100%);
+}
+
+.ac-ai-trigger:disabled {
+    cursor: default;
+    color: var(--ink-faint);
+    font-weight: 500;
+    background: var(--surface-alt, var(--surface));
+}
+
+.ac-ai-trigger-text {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .ac-ai-shortcut {

@@ -73,7 +73,14 @@ public class SearchService(
         if (terms.Text.Length < ISearchService.MinQueryLength)
             return new AutocompleteDto([], [], [], [], []);
 
+        // Kısa kelimelerde "içinde geçiyor" kuralı çöp getiriyor ("ud" -> "Ahududu",
+        // "Pudralı"). Bu yüzden 4 harften kısa aramalarda yalnızca kelime başı
+        // eşleşmesi, uzunlarda ise içerme veya %50 yazım benzerliği kabul edilir.
         var pattern = $"%{terms.Text}%";
+        var startPattern = $"{terms.Text} %";
+        var wordPattern = $"% {terms.Text}%";
+        var isShortTerm = terms.Text.Length < 4;
+        var exact = terms.Text;
 
         var rows = await BuildTextRowsAsync(terms, ct);
         var perfumes = (await rows
@@ -86,25 +93,46 @@ public class SearchService(
                 PerfumeUrl.Path(r.Gender, ConcSlug(r.Concentration), r.BrandSlug, r.Slug)))
             .ToList();
 
-        var brands = await uow.GetRepository<Brand>().AsNoTracking()
-            .Where(b => EF.Functions.ILike(EF.Functions.Unaccent(b.Name), EF.Functions.Unaccent(pattern))
-                || EF.Functions.TrigramsSimilarity(EF.Functions.Unaccent(b.Name), EF.Functions.Unaccent(terms.Text)) > 0.25)
-            .OrderByDescending(b => EF.Functions.TrigramsSimilarity(EF.Functions.Unaccent(b.Name), EF.Functions.Unaccent(terms.Text)))
+        var brandQuery = uow.GetRepository<Brand>().AsNoTracking();
+        brandQuery = isShortTerm
+            ? brandQuery.Where(b =>
+                EF.Functions.Unaccent(b.Name).ToLower() == exact
+                || EF.Functions.ILike(EF.Functions.Unaccent(b.Name), startPattern)
+                || EF.Functions.ILike(EF.Functions.Unaccent(b.Name), wordPattern))
+            : brandQuery.Where(b => EF.Functions.ILike(EF.Functions.Unaccent(b.Name), pattern)
+                || EF.Functions.TrigramsSimilarity(EF.Functions.Unaccent(b.Name), terms.Text) >= 0.5);
+
+        var brands = await brandQuery
+            .OrderByDescending(b => EF.Functions.TrigramsSimilarity(EF.Functions.Unaccent(b.Name), terms.Text))
             .Take(5)
             .Select(b => new AutocompleteItemDto(b.Name, b.Slug))
             .ToListAsync(ct);
 
-        var notes = await uow.GetRepository<Note>().AsNoTracking()
-            .Where(n => EF.Functions.ILike(EF.Functions.Unaccent(n.Name), EF.Functions.Unaccent(pattern))
-                || EF.Functions.TrigramsSimilarity(EF.Functions.Unaccent(n.Name), EF.Functions.Unaccent(terms.Text)) > 0.25)
+        var noteQuery = uow.GetRepository<Note>().AsNoTracking();
+        noteQuery = isShortTerm
+            ? noteQuery.Where(n =>
+                EF.Functions.Unaccent(n.Name).ToLower() == exact
+                || EF.Functions.ILike(EF.Functions.Unaccent(n.Name), startPattern)
+                || EF.Functions.ILike(EF.Functions.Unaccent(n.Name), wordPattern))
+            : noteQuery.Where(n => EF.Functions.ILike(EF.Functions.Unaccent(n.Name), pattern)
+                || EF.Functions.TrigramsSimilarity(EF.Functions.Unaccent(n.Name), terms.Text) >= 0.5);
+
+        var notes = await noteQuery
             .OrderByDescending(n => n.PerfumeCount)
             .Take(5)
             .Select(n => new AutocompleteItemDto(n.Name, n.Slug))
             .ToListAsync(ct);
 
-        var accords = await uow.GetRepository<Accord>().AsNoTracking()
-            .Where(a => EF.Functions.ILike(EF.Functions.Unaccent(a.Name), EF.Functions.Unaccent(pattern))
-                || EF.Functions.TrigramsSimilarity(EF.Functions.Unaccent(a.Name), EF.Functions.Unaccent(terms.Text)) > 0.25)
+        var accordQuery = uow.GetRepository<Accord>().AsNoTracking();
+        accordQuery = isShortTerm
+            ? accordQuery.Where(a =>
+                EF.Functions.Unaccent(a.Name).ToLower() == exact
+                || EF.Functions.ILike(EF.Functions.Unaccent(a.Name), startPattern)
+                || EF.Functions.ILike(EF.Functions.Unaccent(a.Name), wordPattern))
+            : accordQuery.Where(a => EF.Functions.ILike(EF.Functions.Unaccent(a.Name), pattern)
+                || EF.Functions.TrigramsSimilarity(EF.Functions.Unaccent(a.Name), terms.Text) >= 0.5);
+
+        var accords = await accordQuery
             .OrderByDescending(a => a.PerfumeCount)
             .Take(5)
             .Select(a => new AutocompleteItemDto(a.Name, a.Slug))
@@ -606,9 +634,20 @@ public class SearchService(
         var ids = await uow.SqlQuery<IdRow>($"""
             SELECT DISTINCT n.id
             FROM notes n, unnest({probes}::text[]) AS probe
-            WHERE length(probe) >= 3
-              AND (f_unaccent(lower(n.name)) LIKE '%' || probe || '%'
-                OR f_unaccent(lower(n.name)) % probe)
+            WHERE
+                -- 4 harf ve üzeri: kelime adın içinde geçiyor ya da yazım hatası
+                -- toleransıyla benziyor. İlk harf şartı "yazlık" kelimesinin
+                -- "Sazlık" notasına benzetilmesini engelliyor.
+                (length(probe) >= 4 AND (
+                     f_unaccent(lower(n.name)) LIKE '%' || probe || '%'
+                  OR (similarity(f_unaccent(lower(n.name)), probe) >= 0.5
+                      AND left(f_unaccent(lower(n.name)), 1) = left(probe, 1))))
+                -- 2-3 harf: sadece kelime başında geçebilir; yoksa "ud" kelimesi
+                -- "Ahududu" ve "Pudramsı" notalarını da getiriyordu.
+             OR (length(probe) BETWEEN 2 AND 3 AND (
+                     f_unaccent(lower(n.name)) = probe
+                  OR f_unaccent(lower(n.name)) LIKE probe || ' %'
+                  OR f_unaccent(lower(n.name)) LIKE '% ' || probe || '%'))
             """).Select(r => r.Id).Take(40).ToListAsync(ct);
 
         return [.. ids];
@@ -622,9 +661,15 @@ public class SearchService(
         var ids = await uow.SqlQuery<IdRow>($"""
             SELECT DISTINCT a.id
             FROM accords a, unnest({probes}::text[]) AS probe
-            WHERE length(probe) >= 3
-              AND (f_unaccent(lower(a.name)) LIKE '%' || probe || '%'
-                OR f_unaccent(lower(a.name)) % probe)
+            WHERE
+                (length(probe) >= 4 AND (
+                     f_unaccent(lower(a.name)) LIKE '%' || probe || '%'
+                  OR (similarity(f_unaccent(lower(a.name)), probe) >= 0.5
+                      AND left(f_unaccent(lower(a.name)), 1) = left(probe, 1))))
+             OR (length(probe) BETWEEN 2 AND 3 AND (
+                     f_unaccent(lower(a.name)) = probe
+                  OR f_unaccent(lower(a.name)) LIKE probe || ' %'
+                  OR f_unaccent(lower(a.name)) LIKE '% ' || probe || '%'))
             """).Select(r => r.Id).Take(20).ToListAsync(ct);
 
         return [.. ids];
@@ -639,7 +684,8 @@ public class SearchService(
             FROM brands b, unnest({probes}::text[]) AS probe
             WHERE length(probe) >= 3
               AND (f_unaccent(lower(b.name)) LIKE '%' || probe || '%'
-                OR f_unaccent(lower(b.name)) % probe)
+                OR (similarity(f_unaccent(lower(b.name)), probe) >= 0.5
+                    AND left(f_unaccent(lower(b.name)), 1) = left(probe, 1)))
             """).Select(r => r.Id).Take(20).ToListAsync(ct);
 
         return [.. ids];

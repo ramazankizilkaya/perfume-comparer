@@ -7,7 +7,6 @@ import { PageBreadcrumb } from "@/components/Breadcrumb";
 import { PerfumeCard, type PerfumeCardData } from "@/components/PerfumeCard";
 import { API_BASE } from "@/lib/urls";
 
-import { useGenderPref } from "@/lib/stores";
 
 interface Ref {
     id?: number;
@@ -51,17 +50,12 @@ export default function SearchPage() {
 function SearchInner() {
     const sp = useSearchParams();
     const router = useRouter();
-    const { gender: prefGender, ready: prefReady } = useGenderPref();
-
     const normalizeGender = (g: string) => (g === "male" ? "erkek" : g === "female" ? "kadin" : g);
     const initList = (k: string) => {
         const val = sp.get(k);
         if (val) {
             const list = val.split(",").filter(Boolean);
             return k === "gender" ? list.map(normalizeGender) : list;
-        }
-        if (k === "gender" && prefReady && prefGender && prefGender !== "all") {
-            return [normalizeGender(prefGender)];
         }
         return [];
     };
@@ -74,13 +68,6 @@ function SearchInner() {
     const [accord, setAccord] = useState<string[]>(() => initList("accord"));
     const [note, setNote] = useState<string[]>(() => initList("note"));
     const [sort, setSort] = useState(sp.get("sort") ?? "");
-
-    // When global pref is ready and no explicit gender in URL, apply user's gender preference
-    useEffect(() => {
-        if (!sp.get("gender") && prefReady && prefGender && prefGender !== "all") {
-            setGender([prefGender]);
-        }
-    }, [prefGender, prefReady, sp]);
 
     // Sync only when URL changes externally (not by our own internal router.replace)
     const lastSpString = useRef(sp.toString());

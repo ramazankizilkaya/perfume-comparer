@@ -151,9 +151,6 @@ export default function Header() {
         runAiSearch(q);
     };
 
-    // Sorgunun doğal dil olup olmadığına sunucu karar veriyor (aiUsed).
-    const isNatural = aiResult?.aiUsed === true;
-
     const aiPerfumes = aiResult?.items ?? aiResult?.perfumes ?? [];
 
     const aiMapped = aiPerfumes.map((p) => ({
@@ -176,9 +173,10 @@ export default function Header() {
         isAi: false,
     }));
 
-    const allPerfumes = isNatural && aiMapped.length > 0
-        ? [...aiMapped, ...stdMapped].filter((p, index, self) => index === self.findIndex((t) => t.slug === p.slug))
-        : [...stdMapped, ...aiMapped].filter((p, index, self) => index === self.findIndex((t) => t.slug === p.slug));
+    // Kullanıcı "yapay zeka ile ara" dediyse önce onun sonuçları, ardından
+    // normal arama sonuçları listelenir; aynı parfüm iki kez görünmez.
+    const allPerfumes = [...aiMapped, ...stdMapped]
+        .filter((p, index, self) => index === self.findIndex((t) => t.slug === p.slug));
 
     const hasResults =
         allPerfumes.length > 0 ||
@@ -238,6 +236,23 @@ export default function Header() {
 
                         {open && (
                             <div className="autocomplete autocomplete-rich">
+                                {query.trim().length >= 2 && !aiLoading && (
+                                    <button
+                                        type="button"
+                                        className="ac-ai-trigger"
+                                        onClick={() => runAiSearch(query)}
+                                        disabled={aiPerfumes.length > 0}
+                                    >
+                                        <Icon name="sparkle" size={15} />
+                                        <span className="ac-ai-trigger-text">
+                                            {aiPerfumes.length > 0
+                                                ? <>Yapay zeka sonuçları listelendi</>
+                                                : <>Yapay zeka ile arat: <strong>{query.trim()}</strong></>}
+                                        </span>
+                                        {aiPerfumes.length === 0 && <span className="ac-ai-tag">AI</span>}
+                                    </button>
+                                )}
+
                                 {aiLoading && (
                                     <div className="ac-ai-loading">
                                         <Icon name="sparkle" size={14} />
