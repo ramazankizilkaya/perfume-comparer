@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useSearchParams, useRouter } from "next/navigation";
 import Icon from "@/components/Icon";
 import Stars from "@/components/Stars";
+import Score from "@/components/Score";
 import LoginPrompt from "@/components/LoginPrompt";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import { API_BASE, perfumeHref, formatDate, genderLabel, mediaUrl } from "@/lib/urls";
@@ -205,12 +206,14 @@ function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRe
                                 <button className="matrix-remove" onClick={() => onRemove(p.slug)} aria-label={`${p.name} kaldır`}>
                                     <Icon name="close" size={13} />
                                 </button>
-                                <img src={mediaUrl(p.imageUrl) || PLACEHOLDER} alt="" />
-                                <span className="card-brand">{p.brand.name}</span>
-                                <br />
-                                <Link href={perfumeHref(p.path, p.slug)} className="card-title" style={{ fontSize: "0.95rem" }}>
-                                    {p.name}
-                                </Link>
+                                <div className="matrix-head-cell">
+                                    <img src={mediaUrl(p.imageUrl) || PLACEHOLDER} alt="" />
+                                    <span className="card-brand">{p.brand.name}</span>
+                                    <Link href={perfumeHref(p.path, p.slug)} className="card-title">
+                                        {p.name}
+                                    </Link>
+                                    <Score value={p.avgRating} count={p.ratingCount} />
+                                </div>
                             </td>
                         ))}
                     </tr>
@@ -223,9 +226,13 @@ function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRe
                     <Row
                         label="Puan"
                         perfumes={perfumes}
-                        render={(p) => <Stars value={p.avgRating} size={16} showValue />}
+                        render={(p) => (
+                            <span className="matrix-score">
+                                <Stars value={p.avgRating} size={15} showValue />
+                                <small>{p.ratingCount.toLocaleString("tr-TR")} oy</small>
+                            </span>
+                        )}
                     />
-                    <Row label="Değerlendirme" perfumes={perfumes} render={(p) => `${p.ratingCount.toLocaleString("tr-TR")} oy`} />
 
                     <Row
                         label="Ana akorlar"
@@ -253,29 +260,23 @@ function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRe
                         />
                     )}
 
-                    {seasonSlugs.map((slug) => (
-                        <Row
-                            key={slug}
-                            label={seasonName(slug)}
-                            perfumes={perfumes}
-                            render={(p) => {
-                                const s = p.seasons.find((x) => x.slug === slug);
-                                return s ? <Meter score={s.score} /> : "—";
-                            }}
-                        />
-                    ))}
+                    <Row
+                        label="Mevsim uyumu"
+                        perfumes={perfumes}
+                        render={(p) => <FacetCell items={p.seasons} order={seasonSlugs} nameOf={seasonName} />}
+                    />
 
-                    {ageSlugs.map((slug) => (
-                        <Row
-                            key={slug}
-                            label={ageName(slug)}
-                            perfumes={perfumes}
-                            render={(p) => {
-                                const a = p.ageGroups.find((x) => x.slug === slug);
-                                return a ? <Meter score={a.score} /> : "—";
-                            }}
-                        />
-                    ))}
+                    <Row
+                        label="Gündüz / gece"
+                        perfumes={perfumes}
+                        render={(p) => <FacetCell items={p.timeOfDay} />}
+                    />
+
+                    <Row
+                        label="Yaş grubu"
+                        perfumes={perfumes}
+                        render={(p) => <FacetCell items={p.ageGroups} order={ageSlugs} nameOf={ageName} />}
+                    />
                 </tbody>
             </table>
         </div>
@@ -324,14 +325,52 @@ function NoteList({ notes }: { notes: Note[] }) {
     );
 }
 
-function Meter({ score }: { score: number }) {
+/** Karşılaştırma hücresinde mevsim / gün içi / yaş grubunu ikon kutusu olarak gösterir. */
+const FACET_ICONS: Record<string, string> = {
+    ilkbahar: "🌸",
+    yaz: "☀️",
+    sonbahar: "🍂",
+    kis: "❄️",
+    gunduz: "🌤️",
+    gece: "🌙",
+    genc: "🧑",
+    "orta-yas": "🧔",
+    olgun: "🧓",
+    diger: "👥",
+};
+
+function FacetCell({
+    items,
+    order,
+    nameOf,
+}: {
+    items: ScoredRef[];
+    order?: string[];
+    nameOf?: (slug: string) => string;
+}) {
+    const rows = order
+        ? order.map((slug) => items.find((i) => i.slug === slug)
+            ?? { slug, name: nameOf ? nameOf(slug) : slug, score: 0, votes: 0 })
+        : items;
+
+    if (!rows.length || rows.every((r) => r.score === 0)) return <span className="faint">—</span>;
+
+    const best = Math.max(...rows.map((r) => r.score));
+
     return (
-        <span className="meter">
-            <span className="bar-track">
-                <span className="bar-fill" style={{ width: `${score}%` }} />
-            </span>
-            <span className="bar-val">%{score}</span>
-        </span>
+        <div className="matrix-facets">
+            {rows.map((r) => (
+                <div
+                    key={r.slug}
+                    className={`facet-tile${r.score === best && best > 0 ? " is-best" : ""}`}
+                    title={`${r.name} — %${r.score}`}
+                >
+                    <span className="facet-ico" aria-hidden="true">{FACET_ICONS[r.slug] ?? "•"}</span>
+                    <span className="facet-name">{r.name}</span>
+                    <span className="facet-val">%{r.score}</span>
+                </div>
+            ))}
+        </div>
     );
 }
 

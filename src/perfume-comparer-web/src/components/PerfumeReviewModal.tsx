@@ -5,6 +5,7 @@ import Icon from "./Icon";
 import { API_BASE } from "@/lib/urls";
 import { useAuth } from "@/lib/stores";
 import Link from "next/link";
+import PerfumePicker, { type PickedPerfume } from "./PerfumePicker";
 
 interface PerfumeReviewModalProps {
     slug: string;
@@ -70,6 +71,8 @@ export default function PerfumeReviewModal({
     const [genderOpinion, setGenderOpinion] = useState<string>("");
     const [seasons, setSeasons] = useState<string[]>([]);
     const [comment, setComment] = useState<string>("");
+    const [remindsOf, setRemindsOf] = useState<PickedPerfume[]>([]);
+    const [similarTo, setSimilarTo] = useState<PickedPerfume[]>([]);
 
     // Photo upload states
     const [selectedPhoto, setSelectedPhoto] = useState<File | null>(null);
@@ -119,6 +122,8 @@ export default function PerfumeReviewModal({
                 priceValue ||
                 genderOpinion ||
                 seasons.length > 0 ||
+                remindsOf.length > 0 ||
+                similarTo.length > 0 ||
                 comment.trim().length > 0;
 
             if (hasCriteria) {
@@ -136,6 +141,8 @@ export default function PerfumeReviewModal({
                         genderOpinion: genderOpinion || null,
                         seasons: seasons.length > 0 ? seasons : null,
                         comment: comment.trim() || null,
+                        remindsOfPerfumes: remindsOf.length > 0 ? remindsOf.map((p) => p.slug) : null,
+                        similarPerfumes: similarTo.length > 0 ? similarTo.map((p) => p.slug) : null,
                     }),
                 });
 
@@ -360,9 +367,36 @@ export default function PerfumeReviewModal({
                             )}
                         </div>
 
-                        {/* 8. Yorum */}
+                        {/* 8-9. Benzer kokular ve hatırlattıkları */}
                         <div className="review-section">
-                            <label className="review-section-title">8. Görüş ve Yorumunuz (İsteğe Bağlı)</label>
+                            <PerfumePicker
+                                label="8. Bu Parfüm Size Neyi Hatırlatıyor? (İsteğe Bağlı)"
+                                placeholder="Parfüm veya marka adı yazın…"
+                                excludeSlug={slug}
+                                selected={remindsOf}
+                                onChange={setRemindsOf}
+                            />
+                            <p className="section-hint">
+                                Seçtikleriniz bu parfümün sayfasındaki &quot;Benzer kokular&quot; bölümünde görünür.
+                            </p>
+                        </div>
+
+                        <div className="review-section">
+                            <PerfumePicker
+                                label="9. Bunu Sevenler Başka Neyi Sever? (İsteğe Bağlı)"
+                                placeholder="Parfüm veya marka adı yazın…"
+                                excludeSlug={slug}
+                                selected={similarTo}
+                                onChange={setSimilarTo}
+                            />
+                            <p className="section-hint">
+                                Seçtikleriniz &quot;Bu parfümü sevenler şunları da sevdi&quot; bölümüne eklenir.
+                            </p>
+                        </div>
+
+                        {/* 10. Yorum */}
+                        <div className="review-section">
+                            <label className="review-section-title">10. Görüş ve Yorumunuz (İsteğe Bağlı)</label>
                             <textarea
                                 className="review-textarea"
                                 placeholder="Bu parfüm hakkındaki deneyimlerinizi, açılış ve dip notalardaki hislerinizi paylaşın…"

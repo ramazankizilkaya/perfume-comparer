@@ -18,6 +18,9 @@ public record PerfumeListQuery(
     /// <summary>Ana akor slug'ları: odunsu,vanilya</summary>
     string? Accord = null,
     string? Note = null,
+    /// <summary>Nota filtresini tek bir piramit katmanına daraltır: ust / orta / alt.
+    /// Boş bırakılırsa nota hangi katmanda olursa olsun eşleşir.</summary>
+    string? NoteLayer = null,
     string? Season = null,
     string? AgeGroup = null,
     [Range(1900, 2100, ErrorMessage = "Başlangıç yılı 1900 ile 2100 arasında olmalıdır.")]

@@ -31,6 +31,21 @@ Goal: keep the implementation simple, extensible and clean (SoC, no spaghetti).
 The UI must read like an **information portal — epey.com is the reference**: dense, tabular, sans-serif, spec-sheet oriented, lots of comparable numbers per screen.
 It must NOT look like an editorial magazine: no oversized hero imagery, no long-form prose layouts, no decorative whitespace.
 
+### UI change checklist (non-negotiable)
+Every UI change must be verified in all four of these before it is called done:
+1. **Desktop** (1440px) — the layout it was designed for.
+2. **Mobile responsiveness** — 375px and 768px. Nothing may overflow horizontally,
+   text must stay readable without zoom, tables and wide grids must either collapse to
+   one column or scroll inside their own `overflow-x: auto` container. Never let a
+   desktop-only grid or a fixed pixel width survive into the mobile breakpoint.
+3. **Light mode** — the default palette.
+4. **Dark mode** (`body.dark-mode`) — contrast must hold. Every colour goes through a
+   token so dark mode is a token swap; never hard-code `#FFFFFF`, `#000`, or an
+   `rgb(255 255 255 / …)` overlay in a component, because those do not swap and they
+   are exactly what breaks dark-mode contrast.
+
+Screenshot all four states with `/browse` before reporting a UI change as finished.
+
 ## Tech Stack
 - Backend: .NET, EF Core, Postgres. Layered: `Controllers/` → `Business/Services` → `Data/` (`Repository`, `UnitOfWork`), entities in `Domain/Entities`.
 - Frontend: Next.js App Router + TypeScript + React.
@@ -95,7 +110,7 @@ Fragrantica returns HTTP 400 when it rate-limits an IP. After **3 consecutive** 
 
 Chromium cannot authenticate to SOCKS5, so `NordSocksRelay` runs a local unauthenticated SOCKS5 endpoint that forwards to Nord with RFC 1929 auth. Do not "simplify" this away.
 
-Env vars:
+Env vars (plain environment variables — see "Secrets"):
 - `SCRAPER_VPN_ROTATE=0` — disable VPN rotation entirely
 - `SCRAPER_VPN_MAX_ATTEMPTS` — VPN attempts before switching to SOCKS5 (default 2)
 - `NORD_SERVICE_USER` / `NORD_SERVICE_PASS` — Nord **service credentials** (not the account password; from nordaccount.com → NordVPN → Manual setup). Without them tier 2 is skipped.
@@ -103,6 +118,30 @@ Env vars:
 Scraping is resumable: existing valid JSON files are skipped, and `report.txt` per brand records totals and failures.
 
 **Parallel mode** (`--parallel [workers]`) splits the brands round-robin across processes. Each worker gets an exclusive slice of the SOCKS5 endpoint list and opens **one relay for its whole lifetime**, reused across every brand — opening a relay per brand floods Nord's concurrent-connection limit, which makes every endpoint start failing its probe and collapses the run. Keep the relay worker-scoped. VPN rotation is disabled in parallel mode because the system VPN is global and would affect every worker at once. Without Nord credentials all workers share one IP, which hits limits much faster.
+
+## Secrets
+Secrets are split by who consumes them, and **neither file is ever committed**.
+
+**Backend → `src/PerfumeComparer/appsettings.Local.json`** (gitignored; committed template:
+`appsettings.Local.example.json`). Holds `ConnectionStrings:Default`, `Gemini:ApiKey`,
+`Ai:ApiKey`, `Auth:Secret` and the AI tuning values. `Program.cs` loads it after the other
+JSON files and registers `AddEnvironmentVariables()` last, so in production a real
+environment variable overrides any file value and no file is needed at all.
+
+**Frontend → root `.env`** (gitignored; template `.env.example`). Only `NEXT_PUBLIC_*`
+lives here. `next.config.ts` reads the root `.env` because Next auto-loads only from its
+own folder. Everything `NEXT_PUBLIC_*` ships to the browser, so it is configuration, not
+a secret — never put a real key there.
+
+**Python scripts** read the backend's file through `scripts/app_settings.py`
+(`setting("Gemini:ApiKey", env_var="GEMINI_API_KEY")`), so the Gemini key is stored once.
+`import_data.py` resolves the connection string the same way.
+
+Scraper-only knobs (`NORD_SERVICE_USER`/`NORD_SERVICE_PASS`, `SCRAPER_VPN_*`) stay plain
+environment variables — see "Scraper Anti-Blocking Design".
+
+Never hard-code a key in source. Adding a backend secret means adding it to
+`appsettings.Local.example.json` with a `_comment` and to your own `appsettings.Local.json`.
 
 ## Database Shape (what the import produces)
 - `brands` — name, slug, country, bio, local logo path, main activity, website, parent company, perfume count.

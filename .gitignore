@@ -49,5 +49,8 @@ Thumbs.db
 .env*.local
 
 # Yerel sırlar (API anahtarları) - asla commit edilmez
+# .env gerçek anahtarları taşır; .env.example commit edilen şablondur.
+.env
+!.env.example
 appsettings.Local.json
 src/PerfumeComparer/appsettings.Local.json

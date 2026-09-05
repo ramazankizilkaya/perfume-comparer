@@ -19,7 +19,8 @@ public class CatalogController(
     IUsageService usage,
     AppDbContext db,
     ITokenService tokens,
-    IGeminiClient gemini) : ControllerBase
+    IGeminiClient gemini,
+    AiSummaryJob aiSummary) : ControllerBase
 {
     [HttpGet("perfumes")]
     public async Task<IActionResult> GetPerfumes([FromQuery] PerfumeListQuery query, CancellationToken ct)
@@ -93,6 +94,27 @@ public class CatalogController(
         {
             return BadRequest(new { message = "Lütfen geçerli bir yaş grubu seçin." });
         }
+    }
+
+    /// <summary>
+    /// Bir parfümün AI yorum özetini üretir (yoksa) ve döndürür. Detay sayfası
+    /// açılışta bunu çağırır; yorum sayısı eşiğin altındaysa 204 döner.
+    /// </summary>
+    [HttpPost("perfumes/{slug}/ai-summary")]
+    public async Task<IActionResult> EnsureAiSummary(string slug, CancellationToken ct)
+    {
+        var summary = await aiSummary.EnsurePerfumeSummaryAsync(slug, ct);
+        if (summary is null) return NoContent();
+
+        return Ok(new
+        {
+            summary.Id,
+            summary.Body,
+            summary.CreatedAt,
+            summary.UpdatedAt,
+            summary.IsAiSummary,
+            summary.SourceCommentCount,
+        });
     }
 
     /// <summary>
@@ -215,7 +237,11 @@ public class CatalogController(
         string? PriceValue,
         string? GenderOpinion,
         string[]? Seasons,
-        string? Comment);
+        string? Comment,
+        /// <summary>"Bunu sevenler şunları da sevdi" için kullanıcının seçtiği parfüm slug'ları.</summary>
+        string[]? SimilarPerfumes = null,
+        /// <summary>"Bunu hatırlatıyor" için kullanıcının seçtiği parfüm slug'ları.</summary>
+        string[]? RemindsOfPerfumes = null);
 
     /// <summary>
     /// Kapsamlı parfüm değerlendirmesi (Puan, Mevsim, Kalıcılık, Silaj, Fiyat/Değer, Cinsiyet, Yorum).
@@ -327,8 +353,65 @@ public class CatalogController(
             }
         }
 
+        // 7. Kullanıcının bildirdiği benzer / hatırlatan parfümler.
+        // Slug'lar id'ye çevrilip perfume_alternatives merge tablosuna yazılır;
+        // aynı ikili tekrar gelirse tarihi tazelenir, böylece listenin başına geçer.
+        await SaveRelationsAsync(perfume.Id, dto.RemindsOfPerfumes, PerfumeRelationKind.RemindsMeOf, ct);
+        await SaveRelationsAsync(perfume.Id, dto.SimilarPerfumes, PerfumeRelationKind.PeopleAlsoLike, ct);
+
         await db.SaveChangesAsync(ct);
         return Ok(new { message = "Değerlendirmeniz başarıyla kaydedildi!" });
+    }
+
+    /// <summary>
+    /// Kullanıcı seçimlerini parfüm id'lerine çevirip ilişki tablosuna yazar.
+    /// Kendine bağlama ve bilinmeyen slug sessizce atlanır.
+    /// </summary>
+    private async Task SaveRelationsAsync(
+        int sourceId, string[]? slugs, PerfumeRelationKind kind, CancellationToken ct)
+    {
+        if (slugs is null || slugs.Length == 0) return;
+
+        var wanted = slugs
+            .Where(s => !string.IsNullOrWhiteSpace(s))
+            .Select(s => s.Trim())
+            .Distinct()
+            .ToArray();
+
+        if (wanted.Length == 0) return;
+
+        var targets = await db.Perfumes.AsNoTracking()
+            .Where(p => wanted.Contains(p.Slug) && p.Id != sourceId)
+            .Select(p => p.Id)
+            .ToListAsync(ct);
+
+        if (targets.Count == 0) return;
+
+        var existing = await db.PerfumeAlternatives
+            .Where(a => a.SourcePerfumeId == sourceId && a.Kind == kind && targets.Contains(a.TargetPerfumeId))
+            .ToListAsync(ct);
+
+        var now = DateTimeOffset.UtcNow;
+
+        foreach (var targetId in targets)
+        {
+            var row = existing.FirstOrDefault(a => a.TargetPerfumeId == targetId);
+            if (row is null)
+            {
+                db.PerfumeAlternatives.Add(new PerfumeAlternative
+                {
+                    SourcePerfumeId = sourceId,
+                    TargetPerfumeId = targetId,
+                    Kind = kind,
+                    SortOrder = 0,
+                    CreatedAt = now,
+                });
+            }
+            else
+            {
+                row.CreatedAt = now;
+            }
+        }
     }
 
     /// <summary>

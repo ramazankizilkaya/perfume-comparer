@@ -51,6 +51,8 @@ import urllib.request
 from PIL import Image
 from playwright.sync_api import sync_playwright
 
+import app_settings
+
 class IPBlockedException(Exception):
     pass
 
@@ -89,7 +91,7 @@ def family_from_accord(accord_name: str | None) -> str | None:
         return None
     return FAMILY_BY_ACCORD.get(accord_name.strip().lower(), "Other")
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or "AQ.Ab8RN6I3Y1Xea1xE-u92MNGJoDLJBZ6GNwpfqNIMg_zBf0XVIQ"
+GEMINI_API_KEY = app_settings.gemini_api_key()
 
 def validate_and_enrich_with_gemini(perfume_name: str, brand_name: str, description: str, top_accord: str | None = None) -> dict:
     """Gemini 3.6 Flash ile çekilen parfümün esans tipini, koku ailesini ve açıklamasını doğrular/zenginleştirir."""
@@ -996,7 +998,7 @@ def _scrape_brand_perfumes(brand_identifier, max_perfumes, delay, proxy_state):
                         ordered_data = {
                             "name": p_data.get("name"),
                             "targetGender": p_data.get("targetGender"),
-                            "fragranceFamily": fragrance_family,
+                            "fragranceFamily": ai_res.get("fragranceFamily") or p_data.get("fragranceFamily"),
                             "concentration": concentration,
                             "image": p_data.get("image"),
                             "url": tr_url,

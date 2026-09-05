@@ -20,7 +20,11 @@ interface Meta {
     fragranceFamilies: Ref[];
     accords: Ref[];
     notes: { name: string; slug: string; category?: string }[];
+    seasons: Ref[];
+    ageGroups: Ref[];
 }
+
+const LAYER_LABELS: Record<string, string> = { ust: "Üst", orta: "Orta", alt: "Alt" };
 
 const GENDERS = [
     { label: "Erkek", slug: "erkek" },
@@ -67,6 +71,10 @@ function SearchInner() {
     const [brand, setBrand] = useState<string[]>(() => initList("brand"));
     const [accord, setAccord] = useState<string[]>(() => initList("accord"));
     const [note, setNote] = useState<string[]>(() => initList("note"));
+    // Parfüm detayındaki "alt notalar" bağlantıları buraya ust/orta/alt olarak gelir.
+    const [noteLayer, setNoteLayer] = useState(sp.get("noteLayer") ?? "");
+    const [season, setSeason] = useState<string[]>(() => initList("season"));
+    const [ageGroup, setAgeGroup] = useState<string[]>(() => initList("ageGroup"));
     const [sort, setSort] = useState(sp.get("sort") ?? "");
 
     // Sync only when URL changes externally (not by our own internal router.replace)
@@ -154,6 +162,9 @@ function SearchInner() {
             if (brand.length) p.set("brand", brand.join(","));
             if (accord.length) p.set("accord", accord.join(","));
             if (note.length) p.set("note", note.join(","));
+            if (note.length && noteLayer) p.set("noteLayer", noteLayer);
+            if (season.length) p.set("season", season.join(","));
+            if (ageGroup.length) p.set("ageGroup", ageGroup.join(","));
             if (sort) p.set("sort", sort);
             p.set("pageSize", "48");
             try {
@@ -179,15 +190,17 @@ function SearchInner() {
         }, 300);
         return () => clearTimeout(t);
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [q, gender, family, concentration, brand, accord, note, sort, sp]);
+    }, [q, gender, family, concentration, brand, accord, note, noteLayer, season, ageGroup, sort, sp]);
 
     const activeCount =
         gender.length + family.length + concentration.length + brand.length +
-        accord.length + note.length + (q.trim() ? 1 : 0) + (sort ? 1 : 0);
+        accord.length + note.length + season.length + ageGroup.length +
+        (q.trim() ? 1 : 0) + (sort ? 1 : 0);
 
     const clearAll = () => {
         setQ(""); setGender([]); setFamily([]); setConcentration([]);
-        setBrand([]); setAccord([]); setNote([]); setSort("");
+        setBrand([]); setAccord([]); setNote([]); setNoteLayer("");
+        setSeason([]); setAgeGroup([]); setSort("");
         setAiSummary(null);
     };
 
@@ -258,6 +271,18 @@ function SearchInner() {
                         ))}
                     </FilterGroup>
 
+                    <FilterGroup title="Mevsim">
+                        {(meta?.seasons ?? []).map((s2) => (
+                            <Check key={s2.slug} label={s2.name} checked={season.includes(s2.slug)} onChange={() => toggle(season, setSeason, s2.slug)} />
+                        ))}
+                    </FilterGroup>
+
+                    <FilterGroup title="Yaş grubu">
+                        {(meta?.ageGroups ?? []).map((a) => (
+                            <Check key={a.slug} label={a.name} checked={ageGroup.includes(a.slug)} onChange={() => toggle(ageGroup, setAgeGroup, a.slug)} />
+                        ))}
+                    </FilterGroup>
+
                     <FilterGroup title="Konsantrasyon">
                         {(meta?.concentrations ?? []).map((c) => (
                             <Check key={c.slug} label={c.name} checked={concentration.includes(c.slug)} onChange={() => toggle(concentration, setConcentration, c.slug)} />
@@ -272,7 +297,7 @@ function SearchInner() {
 
                     <FilterGroup title="Notalar" scroll>
                         {(meta?.notes ?? []).map((n) => (
-                            <Check key={n.slug} label={n.name} checked={note.includes(n.slug)} onChange={() => toggle(note, setNote, n.slug)} />
+                            <Check key={n.slug} label={n.name} checked={note.includes(n.slug)} onChange={() => { setNoteLayer(""); toggle(note, setNote, n.slug); }} />
                         ))}
                     </FilterGroup>
 
@@ -286,6 +311,16 @@ function SearchInner() {
                 <div className="search-results">
                     <div className="search-toolbar" ref={toolbarRef}>
                         <span className="muted">{loading ? "Aranıyor…" : `${total} sonuç`}</span>
+                        {note.length > 0 && noteLayer && (
+                            <button
+                                type="button"
+                                className="layer-chip"
+                                onClick={() => setNoteLayer("")}
+                                title="Katman daraltmasını kaldır"
+                            >
+                                {LAYER_LABELS[noteLayer] ?? noteLayer} notası <Icon name="close" size={11} />
+                            </button>
+                        )}
                         <div className="search-toolbar-right">
                             <button className="btn btn-ghost btn-sm filter-toggle" onClick={() => setFiltersOpen((o) => !o)}>
                                 <Icon name="filter" size={14} /> Filtreler{activeCount > 0 ? ` (${activeCount})` : ""}

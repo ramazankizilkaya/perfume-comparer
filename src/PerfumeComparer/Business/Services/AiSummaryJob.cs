@@ -29,7 +29,10 @@ public class AiSummaryJob(
     private readonly TimeSpan _interval = TimeSpan.FromMinutes(
         configuration.GetValue<double?>("Ai:IntervalMinutes") ?? 30);
 
-    private readonly int _minComments = configuration.GetValue<int?>("Ai:MinComments") ?? 3;
+    /// <summary>Özet üretmek için gereken en az kullanıcı yorumu sayısı.</summary>
+    public int MinComments { get; } = configuration.GetValue<int?>("Ai:MinComments") ?? 10;
+
+    private int _minComments => MinComments;
 
     private readonly TimeSpan _startupDelay = TimeSpan.FromSeconds(
         configuration.GetValue<double?>("Ai:StartupDelaySeconds") ?? 20);
@@ -91,6 +94,75 @@ public class AiSummaryJob(
             logger.LogInformation(
                 "AI özetleri güncellendi: {Perfumes} parfüm, {Comparisons} karşılaştırma",
                 perfumeCount, comparisonCount);
+    }
+
+    /// <summary>
+    /// Tek bir parfüm için istek üzerine özet üretir. Detay sayfası açıldığında
+    /// çağrılır: yeterli yorum yoksa null döner, özet güncelse yeniden üretmez.
+    /// </summary>
+    public async Task<PerfumeComment?> EnsurePerfumeSummaryAsync(string slug, CancellationToken ct)
+    {
+        if (!ai.IsEnabled) return null;
+
+        using var scope = services.CreateScope();
+        var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+
+        var perfume = await db.Perfumes
+            .AsNoTracking()
+            .Include(p => p.Brand)
+            .FirstOrDefaultAsync(p => p.Slug == slug, ct);
+
+        if (perfume is null) return null;
+
+        var count = await db.PerfumeComments
+            .AsNoTracking()
+            .CountAsync(c => c.PerfumeId == perfume.Id && !c.IsAiSummary
+                             && c.Status == ModerationStatus.Approved, ct);
+
+        var existing = await db.PerfumeComments
+            .FirstOrDefaultAsync(c => c.PerfumeId == perfume.Id && c.IsAiSummary, ct);
+
+        // Eşiğin altındaysa üretme; eldeki eski özet varsa onu döndür.
+        if (count < MinComments) return existing;
+
+        // Özet zaten aynı yorum sayısıyla üretilmişse tekrar üretme.
+        if (existing is not null && existing.SourceCommentCount == count) return existing;
+
+        var bodies = await db.PerfumeComments
+            .AsNoTracking()
+            .Where(c => c.PerfumeId == perfume.Id && !c.IsAiSummary
+                        && c.Status == ModerationStatus.Approved)
+            .OrderByDescending(c => c.CreatedAt)
+            .Take(50)
+            .Select(c => c.Body)
+            .ToListAsync(ct);
+
+        var summary = await ai.SummarizePerfumeAsync(perfume.Name, perfume.Brand.Name, bodies, ct);
+        if (string.IsNullOrWhiteSpace(summary)) return existing;
+
+        if (existing is null)
+        {
+            existing = new PerfumeComment
+            {
+                PerfumeId = perfume.Id,
+                Body = summary,
+                IsAiSummary = true,
+                SourceCommentCount = count,
+                Status = ModerationStatus.Approved,
+                CreatedAt = DateTimeOffset.UtcNow,
+                UpdatedAt = DateTimeOffset.UtcNow,
+            };
+            db.PerfumeComments.Add(existing);
+        }
+        else
+        {
+            existing.Body = summary;
+            existing.SourceCommentCount = count;
+            existing.UpdatedAt = DateTimeOffset.UtcNow;
+        }
+
+        await db.SaveChangesAsync(ct);
+        return existing;
     }
 
     private async Task<int> SummarizePerfumesAsync(AppDbContext db, CancellationToken ct)

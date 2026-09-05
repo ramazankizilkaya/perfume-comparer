@@ -50,8 +50,8 @@ export default function Stars({ value, size = 18, count, showValue = false }: St
 
 /** Yorum formundaki tıklanabilir puanlama. */
 export function StarInput({
-    value, onChange, size = 30,
-}: { value: number; onChange: (n: number) => void; size?: number }) {
+    value, onChange, size = 30, disabled = false,
+}: { value: number; onChange: (n: number) => void; size?: number; disabled?: boolean }) {
     return (
         <span className="star-input">
             {[1, 2, 3, 4, 5].map((n) => (
@@ -60,6 +60,7 @@ export function StarInput({
                     type="button"
                     className={n <= value ? "on" : ""}
                     onClick={() => onChange(n)}
+                    disabled={disabled}
                     aria-label={`${n} yıldız`}
                     aria-pressed={n <= value}
                 >

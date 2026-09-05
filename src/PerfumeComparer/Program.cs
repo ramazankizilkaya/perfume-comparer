@@ -15,8 +15,12 @@ try
 {
     var builder = WebApplication.CreateBuilder(args);
 
-    // API anahtarları git'e girmesin diye ayrı, .gitignore'lu dosyadan okunur.
+    // Backend sırları (API anahtarları, bağlantı dizesi, JWT secret) git'e girmesin
+    // diye .gitignore'lu appsettings.Local.json'dan okunur; şablonu
+    // appsettings.Local.example.json. Ortam değişkenleri en sonda eklenir ki
+    // deploy'da dosya olmadan da her ayar ezilebilsin.
     builder.Configuration.AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true);
+    builder.Configuration.AddEnvironmentVariables();
 
     builder.Host.UseSerilog((context, services, configuration) => configuration
         .ReadFrom.Configuration(context.Configuration)
@@ -53,8 +57,15 @@ try
     builder.Services.AddMemoryCache();
 
     // AI özetleri: arka plan işi belirli aralıklarla yorumları özetleyip
-    // sonucu yorum tablosuna (is_ai_summary) yazar.
-    builder.Services.AddSingleton<IAiSummaryClient, AnthropicSummaryClient>();
+    // sonucu yorum tablosuna (is_ai_summary) yazar. Anthropic anahtarı varsa o
+    // kullanılır; yoksa ücretsiz Gemini istemcisine düşülür.
+    builder.Services.AddSingleton<AnthropicSummaryClient>();
+    builder.Services.AddSingleton<GeminiSummaryClient>();
+    builder.Services.AddSingleton<IAiSummaryClient>(sp =>
+    {
+        var anthropic = sp.GetRequiredService<AnthropicSummaryClient>();
+        return anthropic.IsEnabled ? anthropic : sp.GetRequiredService<GeminiSummaryClient>();
+    });
     builder.Services.AddSingleton<AiSummaryJob>();
     builder.Services.AddHostedService(sp => sp.GetRequiredService<AiSummaryJob>());
 
@@ -77,6 +88,10 @@ try
     app.UseExceptionHandler();
     
     app.UseCors("DevCors");
+
+    // wwwroot: blog arka planı gibi uygulamayla birlikte gelen statik görseller
+    // (/blog_backgrounds/... olarak servis edilir).
+    app.UseStaticFiles();
 
     // Scrape edilen marka ve parfüm görselleri: repo içindeki scrape_files klasörü
     // /media altından servis edilir (DB'de "/media/perfumes/<marka>/<dosya>.webp" durur).

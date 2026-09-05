@@ -19,12 +19,14 @@ import urllib.request
 from PIL import Image
 from playwright.sync_api import sync_playwright
 
+import app_settings
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 BRANDS_DIR = os.path.join(PROJECT_ROOT, "scrape_files", "brands")
 BRAND_IMAGES_DIR = os.path.join(PROJECT_ROOT, "scrape_files", "brand_images")
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or "AQ.Ab8RN6I3Y1Xea1xE-u92MNGJoDLJBZ6GNwpfqNIMg_zBf0XVIQ"
+GEMINI_API_KEY = app_settings.gemini_api_key()
 
 def enhance_brand_bio_with_gemini(brand_name: str, country: str, bio_paragraphs: list) -> str:
     """Gemini 3.6 Flash ile marka tanıtım yazısını edebi, zenginleştirilmiş ve akıcı Türkçe ile yeniden yazar."""

@@ -62,6 +62,17 @@ public static class Lookups
         _ => null,
     };
 
+    // --- NoteLayer ---------------------------------------------------------
+    /// <summary>Piramit katmanı slug'ı: ust / orta / alt. Boş veya tanınmayan değer null döner
+    /// ve arama katmandan bağımsız çalışır.</summary>
+    public static NoteLayer? NoteLayerFromSlug(string? slug) => slug?.Trim().ToLowerInvariant() switch
+    {
+        "ust" or "üst" or "top" => NoteLayer.Top,
+        "orta" or "middle" => NoteLayer.Middle,
+        "alt" or "base" => NoteLayer.Base,
+        _ => null,
+    };
+
     // --- Concentration -----------------------------------------------------
     public static string Label(this Concentration c) => c switch
     {

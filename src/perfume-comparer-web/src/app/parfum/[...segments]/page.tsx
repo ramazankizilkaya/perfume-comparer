@@ -1,16 +1,15 @@
 "use client";
 
-import { useState, useEffect, FormEvent } from "react";
+import { useState, useEffect, FormEvent, ReactNode } from "react";
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { useParams, usePathname } from "next/navigation";
 import Icon from "@/components/Icon";
 import Stars, { StarInput } from "@/components/Stars";
 import Score from "@/components/Score";
 import FavButton from "@/components/FavButton";
 import CompareButton from "@/components/CompareButton";
-import LoginPrompt from "@/components/LoginPrompt";
 import Breadcrumb from "@/components/Breadcrumb";
-import UsageVote, { type AgeGroupScore } from "@/components/UsageVote";
+import { type AgeGroupScore } from "@/components/UsageVote";
 import ImageLightboxModal from "@/components/ImageLightboxModal";
 import PerfumeReviewModal from "@/components/PerfumeReviewModal";
 import { API_BASE, formatDate, genderLabel, brandHref, perfumeHref, mediaUrl } from "@/lib/urls";
@@ -105,12 +104,34 @@ export interface CommentData {
 const PLACEHOLDER =
     "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=800";
 
+/** Mevsim / gün içi / yaş grubu için ikonlar: uzun yüzde çubuğu yerine tek bakışta okunur. */
+const FACET_ICONS: Record<string, string> = {
+    ilkbahar: "🌸",
+    yaz: "☀️",
+    sonbahar: "🍂",
+    kis: "❄️",
+    gunduz: "🌤️",
+    gece: "🌙",
+    genc: "🧑",
+    "orta-yas": "🧔",
+    olgun: "🧓",
+    diger: "👥",
+};
+
+/** /ara cinsiyet filtresi erkek/kadin/unisex slug'ları bekler; detay DTO'su enum adı döner. */
+function genderSlug(gender?: string | null): string {
+    if (gender === "Male") return "erkek";
+    if (gender === "Female") return "kadin";
+    return "unisex";
+}
+
 export default function PerfumeDetailPage() {
     const params = useParams();
     const segments = (params.segments as string[]) ?? [];
     const slug = segments[segments.length - 1];
 
-    const { token } = useAuth();
+    const { token, user } = useAuth();
+    const pathname = usePathname();
     const [perfume, setPerfume] = useState<PerfumeDetail | null>(null);
     const [comments, setComments] = useState<CommentData[]>([]);
     const [userPhotos, setUserPhotos] = useState<{ id: number; imageUrl: string; authorName: string; createdAt: string }[]>([]);
@@ -137,8 +158,27 @@ export default function PerfumeDetailPage() {
                     fetch(`${API_BASE}/api/perfumes/${slug}/photos`),
                 ]);
                 setPerfume(pRes.ok ? await pRes.json() : null);
-                if (cRes.ok) setComments(await cRes.json());
+
+                let loaded: CommentData[] = [];
+                if (cRes.ok) {
+                    loaded = await cRes.json();
+                    setComments(loaded);
+                }
                 if (photosRes.ok) setUserPhotos(await photosRes.json());
+
+                // Özeti olmayan parfümlerde AI özetini arka planda ürettir.
+                // Eşiğin altındaysa API 204 döner ve sayfa olduğu gibi kalır.
+                if (!loaded.some((c) => c.isAiSummary)) {
+                    try {
+                        const aiRes = await fetch(`${API_BASE}/api/perfumes/${slug}/ai-summary`, { method: "POST" });
+                        if (aiRes.ok && aiRes.status !== 204) {
+                            const fresh = await aiRes.json();
+                            setComments((prev) => [fresh as CommentData, ...prev]);
+                        }
+                    } catch {
+                        /* özet üretilemezse sayfa özetsiz çalışmaya devam eder */
+                    }
+                }
             } catch {
                 setPerfume(null);
             } finally {
@@ -220,310 +260,342 @@ export default function PerfumeDetailPage() {
         path: perfume.path,
     };
 
-    const applyUsage = (result: { usageCount: number; ageGroups: AgeGroupScore[] }) =>
-        setPerfume((prev) =>
-            prev ? { ...prev, usageCount: result.usageCount, ageGroups: result.ageGroups } : prev);
+    const openLightbox = (src: string, alt: string) => {
+        setLightboxSrc(src);
+        setLightboxAlt(alt);
+        setLightboxOpen(true);
+    };
 
     return (
         <>
             <Breadcrumb items={perfume.breadcrumb} />
 
+            {/* Üst künye: solda büyük görsel, sağda marka/model/puan + künye + açıklama. */}
             <div className="detail-head">
-                <figure
-                    className="detail-media"
-                    onClick={() => {
-                        setLightboxSrc(mediaUrl(perfume.imageUrl) || PLACEHOLDER);
-                        setLightboxAlt(perfume.name);
-                        setLightboxOpen(true);
-                    }}
-                    title="Fotoğrafı büyütmek için tıklayın"
-                >
-                    <img src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt={perfume.name} />
-                    <span className="media-zoom-badge">
-                        <Icon name="search" size={12} /> Büyüt
-                    </span>
-                </figure>
+                <div className="detail-media-col">
+                    <figure
+                        className="detail-media"
+                        onClick={() => openLightbox(mediaUrl(perfume.imageUrl) || PLACEHOLDER, perfume.name)}
+                        title="Fotoğrafı büyütmek için tıklayın"
+                    >
+                        <img src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt={perfume.name} />
+                        <div className="media-actions" onClick={(e) => e.stopPropagation()}>
+                            <CompareButton perfume={ref} />
+                            <FavButton perfume={ref} />
+                        </div>
+                    </figure>
+                </div>
 
-                <div>
+                <div className="detail-info">
                     <Link href={brandHref(perfume.brand.slug)} className="detail-brand">
                         {perfume.brand.name}
                     </Link>
                     <h1 className="detail-name">{perfume.name}</h1>
 
                     <div className="detail-rating">
-                        <Stars value={perfume.avgRating} size={20} showValue count={perfume.ratingCount} />
-                    </div>
-
-                    <div className="tag-row">
-                        {perfume.fragranceFamily && (
-                            <span className="tag tag-family" title={perfume.fragranceFamilyDescription}>
-                                {perfume.fragranceFamily}
+                        <Score value={perfume.avgRating} count={perfume.ratingCount} lg caption="/ 100" />
+                        <div className="detail-rating-meta">
+                            <Stars value={perfume.avgRating} size={18} />
+                            <span>
+                                <strong>{perfume.avgRating.toFixed(2)}</strong> / 5 ·{" "}
+                                {perfume.ratingCount.toLocaleString("tr-TR")} oy
                             </span>
-                        )}
-                        <span className="tag">{genderLabel(perfume.gender)}</span>
-                        {perfume.concentration && <span className="tag">{perfume.concentration}</span>}
-                        {perfume.releaseYear && <span className="tag">{perfume.releaseYear}</span>}
-                    </div>
-
-                    {perfume.accords.length > 0 && (
-                        <div className="tag-row">
-                            {perfume.accords.slice(0, 5).map((a) => (
-                                <Link key={a.slug} href={`/ara?accord=${a.slug}`} className="accord-chip">
-                                    {a.name}
-                                </Link>
-                            ))}
                         </div>
-                    )}
-
-                    <div className="detail-actions">
-                        <button
-                            type="button"
-                            className="btn btn-primary"
-                            onClick={() => setReviewModalOpen(true)}
-                        >
-                            <Icon name="star" size={14} /> Bu parfümü değerlendir
-                        </button>
-                        <CompareButton perfume={ref} />
-                        <FavButton perfume={ref} />
                     </div>
+
+                    {/* Cinsiyet · aile · çıkış yılı: yan yana, tek satırda okunur künye. */}
+                    <dl className="detail-facts">
+                        <FactCell label="Ürün cinsi" value={genderLabel(perfume.gender)} href={`/ara?gender=${genderSlug(perfume.gender)}`} />
+                        <FactCell
+                            label="Koku ailesi"
+                            value={perfume.fragranceFamily}
+                            href={perfume.fragranceFamilySlug ? `/ara?family=${perfume.fragranceFamilySlug}` : undefined}
+                        />
+                        <FactCell
+                            label="Çıkış yılı"
+                            value={perfume.releaseYear?.toString()}
+                        />
+                        <FactCell
+                            label="Konsantrasyon"
+                            value={perfume.concentration}
+                            href={perfume.concentrationSlug ? `/ara?concentration=${perfume.concentrationSlug}` : undefined}
+                        />
+                    </dl>
+
+                    {perfume.description && <p className="detail-desc">{perfume.description}</p>}
+
+                    <button
+                        type="button"
+                        className="btn btn-primary detail-review-btn"
+                        onClick={() => setReviewModalOpen(true)}
+                    >
+                        <Icon name="star" size={14} /> Bu parfümü değerlendir
+                    </button>
                 </div>
             </div>
 
+            {/* Koku piramidi doğrudan künyenin altında. */}
+            <section className="block">
+                <h2 className="block-title">Koku piramidi</h2>
+                {hasPyramid ? (
+                    <div className="pyramid">
+                        <Tier label="Üst notalar" layer="ust" notes={perfume.notes.top} />
+                        <Tier label="Orta notalar" layer="orta" notes={perfume.notes.middle} />
+                        <Tier label="Alt notalar" layer="alt" notes={perfume.notes.base} />
+                    </div>
+                ) : (
+                    <div className="pyramid">
+                        <Tier label="Notalar" notes={allNotes} />
+                        <p className="faint">
+                            Bu parfüm için markası bir koku piramidi yayımlamamış; notalar tek liste hâlinde.
+                        </p>
+                    </div>
+                )}
+            </section>
+
+            {/* Künye ve piramidin altındaki her şey tek kapsayıcıda. */}
             <div className="detail-body">
-                <div className="col-main">
-                    {/* Kullanıcılardan Gelen Fotoğraflar */}
-                    {userPhotos.length > 0 && (
-                        <section className="block user-photos-section">
-                            <div className="flex-between" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBlockEnd: "0.75rem" }}>
-                                <h2 className="block-title" style={{ margin: 0 }}>
-                                    Kullanıcılardan Gelen Fotoğraflar ({userPhotos.length})
-                                </h2>
-                                <button
-                                    type="button"
-                                    className="btn btn-ghost btn-sm"
-                                    onClick={() => setReviewModalOpen(true)}
+                {userPhotos.length > 0 && (
+                    <section className="block user-photos-section">
+                        <div className="block-title-row">
+                            <h2 className="block-title">Kullanıcılardan gelen fotoğraflar ({userPhotos.length})</h2>
+                            <button
+                                type="button"
+                                className="btn btn-ghost btn-sm"
+                                onClick={() => setReviewModalOpen(true)}
+                            >
+                                <Icon name="plus" size={12} /> Fotoğraf ekle
+                            </button>
+                        </div>
+                        <div className="user-photos-slider">
+                            {userPhotos.map((photo) => (
+                                <div
+                                    key={photo.id}
+                                    className="user-photo-card"
+                                    onClick={() =>
+                                        openLightbox(
+                                            mediaUrl(photo.imageUrl) || PLACEHOLDER,
+                                            `${perfume.name} - @${photo.authorName}`)
+                                    }
+                                    title={`@${photo.authorName} tarafından yüklendi. Büyütmek için tıklayın.`}
                                 >
-                                    <Icon name="plus" size={12} /> Fotoğraf Ekle
-                                </button>
-                            </div>
-                            <div className="user-photos-slider">
-                                {userPhotos.map((photo) => (
-                                    <div
-                                        key={photo.id}
-                                        className="user-photo-card"
-                                        onClick={() => {
-                                            setLightboxSrc(mediaUrl(photo.imageUrl) || PLACEHOLDER);
-                                            setLightboxAlt(`${perfume.name} - @${photo.authorName}`);
-                                            setLightboxOpen(true);
-                                        }}
-                                        title={`@${photo.authorName} tarafından yüklendi. Büyütmek için tıklayın.`}
-                                    >
-                                        <img src={mediaUrl(photo.imageUrl)} alt={photo.authorName} className="user-photo-img" loading="lazy" />
-                                        <span className="user-photo-author">@{photo.authorName}</span>
-                                    </div>
-                                ))}
-                            </div>
-                        </section>
-                    )}
+                                    <img src={mediaUrl(photo.imageUrl)} alt={photo.authorName} className="user-photo-img" loading="lazy" />
+                                    <span className="user-photo-author">@{photo.authorName}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+                )}
 
-                    {perfume.description && (
-                        <section className="block">
-                            <h2 className="block-title">Ürün açıklaması</h2>
-                            <p className="prose">{perfume.description}</p>
-                        </section>
-                    )}
-
-                    <section className="block">
-                        <h2 className="block-title">Öne çıkan özellikler</h2>
-                        <table className="spec">
-                            <tbody>
-                                <SpecRow label="Marka" value={perfume.brand.name} />
-                                <SpecRow label="Koku ailesi" value={perfume.fragranceFamily} />
-                                <SpecRow label="Cinsiyet" value={genderLabel(perfume.gender)} />
-                                <SpecRow label="Konsantrasyon" value={perfume.concentration} />
-                                <SpecRow label="Çıkış yılı" value={perfume.releaseYear?.toString()} />
-                                <SpecRow
-                                    label="Puan"
+                <section className="block">
+                    <h2 className="block-title">Öne çıkan özellikler</h2>
+                    <table className="spec">
+                        <tbody>
+                            <SpecRow label="Marka">
+                                <SpecLink value={perfume.brand.name} href={`/ara?brand=${perfume.brand.slug}`} />
+                            </SpecRow>
+                            <SpecRow label="Koku ailesi">
+                                <SpecLink
+                                    value={perfume.fragranceFamily}
+                                    href={perfume.fragranceFamilySlug ? `/ara?family=${perfume.fragranceFamilySlug}` : undefined}
+                                />
+                            </SpecRow>
+                            <SpecRow label="Cinsiyet">
+                                <SpecLink value={genderLabel(perfume.gender)} href={`/ara?gender=${genderSlug(perfume.gender)}`} />
+                            </SpecRow>
+                            <SpecRow label="Konsantrasyon">
+                                <SpecLink
+                                    value={perfume.concentration}
+                                    href={perfume.concentrationSlug ? `/ara?concentration=${perfume.concentrationSlug}` : undefined}
+                                />
+                            </SpecRow>
+                            <SpecRow label="Çıkış yılı">
+                                <SpecLink value={perfume.releaseYear?.toString()} />
+                            </SpecRow>
+                            <SpecRow label="Puan">
+                                <SpecLink
                                     value={`${perfume.avgRating.toFixed(2)} / 5 (${perfume.ratingCount.toLocaleString("tr-TR")} oy)`}
                                 />
-                                <SpecRow label="Ana akorlar" value={perfume.accords.slice(0, 5).map((a) => a.name).join(", ")} />
-                                {hasPyramid ? (
-                                    <>
-                                        <SpecRow label="Üst notalar" value={perfume.notes.top.map((n) => n.name).join(", ")} />
-                                        <SpecRow label="Orta notalar" value={perfume.notes.middle.map((n) => n.name).join(", ")} />
-                                        <SpecRow label="Alt notalar" value={perfume.notes.base.map((n) => n.name).join(", ")} />
-                                    </>
-                                ) : (
-                                    <SpecRow label="Notalar" value={perfume.notes.all.map((n) => n.name).join(", ")} />
-                                )}
-                                {topLongevity && <SpecRow label="Kalıcılık" value={`${topLongevity.name} (%${topLongevity.percent})`} />}
-                                {topSillage && <SpecRow label="Yayılım" value={`${topSillage.name} (%${topSillage.percent})`} />}
-                                {bestSeason && bestSeason.votes > 0 && (
-                                    <SpecRow label="En uygun mevsim" value={`${bestSeason.name} (%${bestSeason.score})`} />
-                                )}
-                                {bestTime && bestTime.votes > 0 && (
-                                    <SpecRow label="Gün içi kullanım" value={bestTime.name} />
-                                )}
-                                {bestAge && bestAge.votes > 0 && (
-                                    <SpecRow label="En yaygın yaş grubu" value={`${bestAge.name} (%${bestAge.score})`} />
-                                )}
-                            </tbody>
-                        </table>
-                    </section>
+                            </SpecRow>
+                            <SpecRow label="Ana akorlar">
+                                <SpecLinkList items={perfume.accords.slice(0, 5)} hrefFor={(s) => `/ara?accord=${s}`} />
+                            </SpecRow>
+                            {hasPyramid ? (
+                                <>
+                                    <SpecRow label="Üst notalar">
+                                        <SpecLinkList items={perfume.notes.top} hrefFor={(s) => `/ara?note=${s}&noteLayer=ust`} />
+                                    </SpecRow>
+                                    <SpecRow label="Orta notalar">
+                                        <SpecLinkList items={perfume.notes.middle} hrefFor={(s) => `/ara?note=${s}&noteLayer=orta`} />
+                                    </SpecRow>
+                                    <SpecRow label="Alt notalar">
+                                        <SpecLinkList items={perfume.notes.base} hrefFor={(s) => `/ara?note=${s}&noteLayer=alt`} />
+                                    </SpecRow>
+                                </>
+                            ) : (
+                                <SpecRow label="Notalar">
+                                    <SpecLinkList items={perfume.notes.all} hrefFor={(s) => `/ara?note=${s}`} />
+                                </SpecRow>
+                            )}
+                            {topLongevity && (
+                                <SpecRow label="Kalıcılık">
+                                    <SpecLink value={`${topLongevity.name} (%${topLongevity.percent})`} />
+                                </SpecRow>
+                            )}
+                            {topSillage && (
+                                <SpecRow label="Yayılım">
+                                    <SpecLink value={`${topSillage.name} (%${topSillage.percent})`} />
+                                </SpecRow>
+                            )}
+                            {bestSeason && bestSeason.votes > 0 && (
+                                <SpecRow label="En uygun mevsim">
+                                    <SpecLink value={`${bestSeason.name} (%${bestSeason.score})`} href={`/ara?season=${bestSeason.slug}`} />
+                                </SpecRow>
+                            )}
+                            {bestTime && bestTime.votes > 0 && (
+                                <SpecRow label="Gün içi kullanım">
+                                    <SpecLink value={bestTime.name} />
+                                </SpecRow>
+                            )}
+                            {bestAge && bestAge.votes > 0 && (
+                                <SpecRow label="En yaygın yaş grubu">
+                                    <SpecLink value={`${bestAge.name} (%${bestAge.score})`} href={`/ara?ageGroup=${bestAge.slug}`} />
+                                </SpecRow>
+                            )}
+                        </tbody>
+                    </table>
+                </section>
 
-                    {perfume.accords.length > 0 && (
-                        <section className="block">
-                            <h2 className="block-title">Ana akorlar</h2>
-                            <div className="bars">
-                                {perfume.accords.map((a) => (
-                                    <div key={a.slug} className="bar-row">
-                                        <span>{a.name}</span>
-                                        <span className="bar-track">
-                                            <span className="bar-fill" style={{ width: `${a.width}%` }} />
-                                        </span>
-                                        <span className="bar-val">%{Math.round(a.width)}</span>
-                                    </div>
-                                ))}
-                            </div>
-                        </section>
-                    )}
-
+                {perfume.accords.length > 0 && (
                     <section className="block">
-                        <h2 className="block-title">Koku piramidi</h2>
-                        {hasPyramid ? (
-                            <div className="pyramid">
-                                <Tier label="Üst notalar" notes={perfume.notes.top} />
-                                <Tier label="Orta notalar" notes={perfume.notes.middle} />
-                                <Tier label="Alt notalar" notes={perfume.notes.base} />
-                            </div>
-                        ) : (
-                            <div className="pyramid">
-                                <Tier label="Notalar" notes={allNotes} />
-                                <p className="faint">
-                                    Bu parfüm için markası bir koku piramidi yayımlamamış; notalar tek liste hâlinde.
-                                </p>
-                            </div>
-                        )}
-                    </section>
-
-                    <section className="block">
-                        <h2 className="block-title">Kullanıcı oylamaları</h2>
-                        <div className="vote-grid">
-                            <VotePanel title="Kalıcılık" items={perfume.longevity} />
-                            <VotePanel title="Yayılım" items={perfume.sillage} />
-                            <VotePanel title="Kime gider?" items={perfume.genderVotes} />
-                            <VotePanel title="Fiyat / değer" items={perfume.priceVotes} />
+                        <h2 className="block-title">Ana akorlar</h2>
+                        <div className="accord-strips">
+                            {perfume.accords.map((a) => (
+                                <Link
+                                    key={a.slug}
+                                    href={`/ara?accord=${a.slug}`}
+                                    className="accord-strip"
+                                    style={{ ["--fill" as string]: `${Math.round(a.width)}%` }}
+                                    title={`${a.name} — %${Math.round(a.width)}`}
+                                >
+                                    <span className="accord-strip-name">{a.name}</span>
+                                    <span className="accord-strip-val">%{Math.round(a.width)}</span>
+                                </Link>
+                            ))}
                         </div>
                     </section>
+                )}
 
-                    {perfume.alternatives.length > 0 && (
-                        <RelatedBlock
-                            title="Bunu hatırlatıyor"
-                            description="Kokusal olarak benzer bulunan parfümler."
-                            items={perfume.alternatives}
+                {/* Mevsim / gün içi / yaş grubu: çubuk yerine ikon kutuları. */}
+                <section className="block">
+                    <h2 className="block-title">Ne zaman, kime uygun?</h2>
+                    <div className="facet-groups">
+                        <FacetGroup title="Mevsim uyumu" items={perfume.seasons} hrefFor={(s) => `/ara?season=${s}`} />
+                        <FacetGroup title="Gündüz / gece" items={perfume.timeOfDay} />
+                        <FacetGroup
+                            title="Yaş grubu"
+                            items={perfume.usageCount > 0 ? perfume.ageGroups : []}
+                            empty='Henüz kimse bildirmedi. "Bu parfümü kullanıyorum" diyerek ilk siz olun.'
+                            hrefFor={(s) => `/ara?ageGroup=${s}`}
                         />
-                    )}
+                    </div>
+                </section>
 
-                    {perfume.alsoLiked.length > 0 && (
-                        <RelatedBlock
-                            title="Bunu sevenler şunu da sevdi"
-                            description="Aynı kullanıcıların beğendiği diğer parfümler."
-                            items={perfume.alsoLiked}
-                        />
-                    )}
+                {perfume.alternatives.length > 0 && (
+                    <RelatedBlock
+                        title="Benzer kokular"
+                        items={perfume.alternatives}
+                    />
+                )}
 
-                    <section className="block">
-                        <h2 className="block-title">Yorumlar ({userComments.length})</h2>
+                {perfume.alsoLiked.length > 0 && (
+                    <RelatedBlock
+                        title="Bu parfümü sevenler şunları da sevdi"
+                        items={perfume.alsoLiked}
+                    />
+                )}
 
-                        {aiSummary && <AiSummary comment={aiSummary} />}
-
-                        <div className="comment-form-wrap">
-                            <LoginPrompt label="Yorum yapmak ve puan vermek için giriş yapın">
-                                <form onSubmit={submitComment}>
-                                    <div className="form-group">
-                                        <label>Puanınız</label>
-                                        <StarInput value={rating} onChange={setRating} />
-                                    </div>
-                                    <div className="form-group">
-                                        <label htmlFor="c-body">Yorumunuz</label>
-                                        <textarea
-                                            id="c-body"
-                                            className="textarea"
-                                            placeholder="Kalıcılık, yayılım ve genel izleniminizi yazın…"
-                                            value={commentText}
-                                            onChange={(e) => setCommentText(e.target.value)}
-                                            required
-                                        />
-                                    </div>
-                                    <button className="btn btn-primary" disabled={sending}>
-                                        <Icon name="send" size={14} /> Gönder
-                                    </button>
-                                    {commentStatus && <p className="form-note ok">{commentStatus}</p>}
-                                </form>
-                            </LoginPrompt>
-                        </div>
-
-                        {userComments.length > 0 ? (
-                            userComments.map((c) => (
-                                <div key={c.id} className="comment">
-                                    <div className="comment-head">
-                                        <span className="comment-author">{c.authorName ?? "Kullanıcı"}</span>
-                                        <span className="comment-date">{formatDate(c.createdAt)}</span>
-                                    </div>
-                                    {c.rating && <Stars value={c.rating} size={16} />}
-                                    <p className="comment-body">{c.body}</p>
+                {/* Bütün oylamalar tek panelde, yorumların hemen üstünde. */}
+                <section className="block">
+                    <h2 className="block-title">Kullanıcı oylamaları</h2>
+                    <div className="vote-grid">
+                        <VotePanel title="Genel puan dağılımı" items={perfume.ratingBreakdown} />
+                        <VotePanel title="Kalıcılık" items={perfume.longevity} />
+                        <VotePanel title="Yayılım" items={perfume.sillage} />
+                        <VotePanel title="Kime gider?" items={perfume.genderVotes} />
+                        <VotePanel title="Fiyat / değer" items={perfume.priceVotes} />
+                        {perfume.userRatingCount > 0 && (
+                            <div className="vote-panel">
+                                <div className="panel-title">Site kullanıcı puanı</div>
+                                <div className="panel-score-meta">
+                                    <strong>{perfume.userAvgRating.toFixed(1)} / 5</strong>
+                                    {perfume.userRatingCount} değerlendirme
                                 </div>
-                            ))
-                        ) : (
-                            <p className="empty">Henüz yorum yok. İlk yorumu siz yazın.</p>
+                            </div>
                         )}
-                    </section>
-                </div>
-
-                <aside className="detail-aside">
-                    <div className="panel">
-                        <div className="panel-title">Genel puan</div>
-                        <div className="panel-score">
-                            <Score value={perfume.avgRating} count={perfume.ratingCount} lg caption="/ 100" />
-                            <div className="panel-score-meta">
-                                <strong>{perfume.avgRating.toFixed(2)} / 5</strong>
-                                {perfume.ratingCount.toLocaleString("tr-TR")} oy
-                            </div>
-                        </div>
-                        <Bars items={toScored(perfume.ratingBreakdown)} sort={false} />
                     </div>
+                </section>
 
-                    {perfume.userRatingCount > 0 && (
-                        <div className="panel">
-                            <div className="panel-title">Site kullanıcı puanı</div>
-                            <div className="panel-score-meta">
-                                <strong>{perfume.userAvgRating.toFixed(1)} / 5</strong>
-                                {perfume.userRatingCount} değerlendirme
-                            </div>
-                        </div>
-                    )}
+                <section className="block">
+                    <h2 className="block-title">Yorumlar ({userComments.length})</h2>
 
-                    <div className="panel">
-                        <div className="panel-title">Mevsim uyumu</div>
-                        <Bars items={perfume.seasons} />
-                    </div>
+                    {aiSummary && <AiSummary comment={aiSummary} />}
 
-                    <div className="panel">
-                        <div className="panel-title">Gündüz / gece</div>
-                        <Bars items={perfume.timeOfDay} />
-                    </div>
-
-                    <div className="panel">
-                        <div className="panel-title">Yaş grubu</div>
-                        {perfume.usageCount > 0 ? (
-                            <Bars items={perfume.ageGroups} />
-                        ) : (
-                            <p className="empty">
-                                Henüz kimse bildirmedi. &quot;Bu parfümü kullanıyorum&quot; diyerek ilk siz olun.
+                    <div className="comment-form-wrap">
+                        {/* Form giriş yapılmadan da görünür: kullanıcı yorum yazabileceğini
+                            görsün diye alanlar kilitli gösterilir, üstte giriş linki durur. */}
+                        {!user && (
+                            <p className="login-prompt">
+                                <Link href={`/giris?next=${encodeURIComponent(pathname)}`} className="link-more">
+                                    Yorum yapmak ve puan vermek için giriş yapın
+                                </Link>
                             </p>
                         )}
+                        <form onSubmit={submitComment} className={user ? "comment-form" : "comment-form is-locked"}>
+                            <div className="form-group">
+                                <label>Puanınız</label>
+                                <StarInput value={rating} onChange={setRating} disabled={!user} />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="c-body">Yorumunuz</label>
+                                <textarea
+                                    id="c-body"
+                                    className="textarea"
+                                    placeholder="Kalıcılık, yayılım ve genel izleniminizi yazın…"
+                                    value={commentText}
+                                    disabled={!user}
+                                    onChange={(e) => {
+                                        e.target.setCustomValidity("");
+                                        setCommentText(e.target.value);
+                                    }}
+                                    onInvalid={(e) =>
+                                        e.currentTarget.setCustomValidity("Lütfen bu alanı doldurun.")
+                                    }
+                                    required
+                                />
+                            </div>
+                            <button className="btn btn-primary" disabled={sending || !user}>
+                                <Icon name="send" size={14} /> Gönder
+                            </button>
+                            {commentStatus && <p className="form-note ok">{commentStatus}</p>}
+                        </form>
                     </div>
-                </aside>
+
+                    {userComments.length > 0 ? (
+                        userComments.map((c) => (
+                            <div key={c.id} className="comment">
+                                <div className="comment-head">
+                                    <span className="comment-author">{c.authorName ?? "Kullanıcı"}</span>
+                                    <span className="comment-date">{formatDate(c.createdAt)}</span>
+                                </div>
+                                {c.rating && <Stars value={c.rating} size={16} />}
+                                <p className="comment-body">{c.body}</p>
+                            </div>
+                        ))
+                    ) : (
+                        <p className="empty">Henüz yorum yok. İlk yorumu siz yazın.</p>
+                    )}
+                </section>
             </div>
 
             <ImageLightboxModal
@@ -581,31 +653,114 @@ function toScored(items: VoteBar[]): ScoredRef[] {
     return items.map((i) => ({ name: i.name, slug: i.slug, score: i.percent, votes: i.votes }));
 }
 
-function SpecRow({ label, value }: { label: string; value?: string | null }) {
+/** Künyedeki tek hücre: etiket üstte, değer altta; değer filtrelenebilirse bağlantı olur. */
+function FactCell({ label, value, href }: { label: string; value?: string | null; href?: string }) {
+    return (
+        <div className="fact-cell">
+            <dt>{label}</dt>
+            <dd>{value ? href ? <Link href={href}>{value}</Link> : value : "—"}</dd>
+        </div>
+    );
+}
+
+function SpecRow({ label, children }: { label: string; children: ReactNode }) {
     return (
         <tr>
             <th>{label}</th>
-            <td>{value || "—"}</td>
+            <td>{children}</td>
         </tr>
     );
 }
 
-function Tier({ label, notes }: { label: string; notes: Note[] }) {
+function SpecLink({ value, href }: { value?: string | null; href?: string }) {
+    if (!value) return <span className="faint">—</span>;
+    return href ? <Link href={href} className="spec-link">{value}</Link> : <>{value}</>;
+}
+
+/** Nota/akor listesi: her öğe detaylı aramaya ilgili sorguyla gider. */
+function SpecLinkList({
+    items,
+    hrefFor,
+}: {
+    items: { name: string; slug: string }[];
+    hrefFor: (slug: string) => string;
+}) {
+    if (!items.length) return <span className="faint">—</span>;
+    return (
+        <span className="spec-links">
+            {items.map((i, idx) => (
+                <Link key={`${i.slug}-${idx}`} href={hrefFor(i.slug)} className="spec-link">
+                    {i.name}
+                </Link>
+            ))}
+        </span>
+    );
+}
+
+function Tier({ label, notes, layer }: { label: string; notes: Note[]; layer?: string }) {
+    const href = (slug: string) => (layer ? `/ara?note=${slug}&noteLayer=${layer}` : `/ara?note=${slug}`);
     return (
         <div className="tier">
             <span className="tier-label">{label}</span>
             <div className="tag-row">
                 {notes.length > 0 ? (
                     notes.map((n, i) => (
-                        <span key={i} className="note-chip">
+                        <Link key={`${n.slug}-${i}`} href={href(n.slug)} className="note-chip">
                             <span className="note-ico" aria-hidden="true">{noteIcon(n.name, n.category)}</span>
                             {n.name}
-                        </span>
+                        </Link>
                     ))
                 ) : (
                     <span className="faint">Bilgi yok</span>
                 )}
             </div>
+        </div>
+    );
+}
+
+/** Mevsim, gün içi ve yaş grubu için ikon kutuları; en yüksek oyu alan vurgulanır. */
+function FacetGroup({
+    title,
+    items,
+    empty = "Bilgi yok",
+    hrefFor,
+}: {
+    title: string;
+    items: ScoredRef[];
+    empty?: string;
+    hrefFor?: (slug: string) => string;
+}) {
+    const hasVotes = items.some((i) => i.votes > 0 || i.score > 0);
+    const best = hasVotes ? Math.max(...items.map((i) => i.score)) : 0;
+
+    return (
+        <div className="facet-group">
+            <div className="panel-title">{title}</div>
+            {hasVotes ? (
+                <div className="facet-tiles">
+                    {items.map((i) => {
+                        const tile = (
+                            <>
+                                <span className="facet-ico" aria-hidden="true">{FACET_ICONS[i.slug] ?? "•"}</span>
+                                <span className="facet-name">{i.name}</span>
+                                <span className="facet-val">%{i.score}</span>
+                            </>
+                        );
+                        const cls = `facet-tile${i.score === best && best > 0 ? " is-best" : ""}`;
+                        return hrefFor ? (
+                            <Link key={i.slug} href={hrefFor(i.slug)} className={cls} title={`${i.name} — %${i.score}`}>
+                                {tile}
+                            </Link>
+                        ) : (
+                            <div key={i.slug} className={cls} title={`${i.name} — %${i.score}`}>
+                                {tile}
+                            </div>
+                        );
+                    })}
+                </div>
+            ) : (
+                <p className="empty">{empty}</p>
+            )}
         </div>
     );
 }
@@ -643,17 +798,14 @@ function Bars({ items, sort = true }: { items: ScoredRef[]; sort?: boolean }) {
 
 function RelatedBlock({
     title,
-    description,
     items,
 }: {
     title: string;
-    description: string;
     items: RelatedPerfume[];
 }) {
     return (
         <section className="block">
             <h2 className="block-title">{title}</h2>
-            <p className="section-desc">{description}</p>
             <div className="related-grid">
                 {items.slice(0, 12).map((r) => (
                     <Link key={r.perfumeSlug} href={perfumeHref(r.path, r.perfumeSlug)} className="related-item">

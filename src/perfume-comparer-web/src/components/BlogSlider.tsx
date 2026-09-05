@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Icon from "./Icon";
-import { formatDate } from "@/lib/urls";
+import { formatDate, API_BASE, mediaUrl } from "@/lib/urls";
 
 export interface BlogPost {
     id: number;
@@ -14,6 +14,18 @@ export interface BlogPost {
     publishedAt: string;
     authorName: string;
 }
+
+/**
+ * Yazının kendi kapak görseli yoksa kullanılacak arka planlar. API'nin wwwroot'undan
+ * servis edilir; slayt sırasına göre dönerek her yazıya farklı bir zemin düşer.
+ */
+const FALLBACK_BACKGROUNDS = [
+    "/blog_backgrounds/pictures_1_3.webp",
+    "/blog_backgrounds/pictures_1_4.webp",
+    "/blog_backgrounds/pictures_1_5.webp",
+    "/blog_backgrounds/pictures_1_8.webp",
+    "/blog_backgrounds/pictures_1_9.webp",
+];
 
 export default function BlogSlider({ blogs }: { blogs: BlogPost[] }) {
     const [currentIdx, setCurrentIdx] = useState(0);
@@ -39,13 +51,31 @@ export default function BlogSlider({ blogs }: { blogs: BlogPost[] }) {
     if (!blogs || blogs.length === 0) return null;
 
     const current = blogs[currentIdx];
+    const background = current.coverImageUrl
+        ? mediaUrl(current.coverImageUrl)
+        : `${API_BASE}${FALLBACK_BACKGROUNDS[currentIdx % FALLBACK_BACKGROUNDS.length]}`;
 
     return (
         <section className="hero-blog-slider">
+            {blogs.map((b, idx) => (
+                <div
+                    key={b.id}
+                    className={`hero-blog-bg${idx === currentIdx ? " is-active" : ""}`}
+                    style={{
+                        backgroundImage: `url(${idx === currentIdx
+                            ? background
+                            : b.coverImageUrl
+                                ? mediaUrl(b.coverImageUrl)
+                                : `${API_BASE}${FALLBACK_BACKGROUNDS[idx % FALLBACK_BACKGROUNDS.length]}`})`,
+                    }}
+                    aria-hidden="true"
+                />
+            ))}
+
             <div className="hero-blog-slide">
                 <div className="hero-blog-content">
                     <div className="hero-blog-meta">
-                        <span className="hero-blog-badge">Öne Çıkan Rehber</span>
+                        <span className="hero-blog-badge">Öne çıkan rehber</span>
                         <span className="hero-blog-author">{current.authorName}</span>
                         <span>•</span>
                         <span>{formatDate(current.publishedAt)}</span>
@@ -78,6 +108,9 @@ export default function BlogSlider({ blogs }: { blogs: BlogPost[] }) {
             </button>
 
             <div className="hero-blog-dots">
+                <span className="hero-blog-count">
+                    {currentIdx + 1} / {blogs.length}
+                </span>
                 {blogs.map((_, idx) => (
                     <button
                         key={idx}

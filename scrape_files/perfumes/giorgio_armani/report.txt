@@ -1,4 +1,7 @@
-toplam parfüm: 257
+toplam parfüm: 260
 çekilen parfüm: 257
-fail eden parfüm: 0
-fail eden parfüm listesi: Yok
+fail eden parfüm: 3
+fail eden parfüm listesi:
+  - https://www.fragrantica.tr/perfumes/Giorgio-Armani/I-Will-138759.html | Ad: https://www.fragrantica.tr/perfumes/Giorgio-Armani/I-Will-138759.html | Hata: name 'fragrance_family' is not defined
+  - https://www.fragrantica.tr/perfumes/Giorgio-Armani/Cuir-Dore-139156.html | Ad: https://www.fragrantica.tr/perfumes/Giorgio-Armani/Cuir-Dore-139156.html | Hata: name 'fragrance_family' is not defined
+  - https://www.fragrantica.tr/perfumes/Giorgio-Armani/Cuir-Rubis-139155.html | Ad: https://www.fragrantica.tr/perfumes/Giorgio-Armani/Cuir-Rubis-139155.html | Hata: name 'fragrance_family' is not defined

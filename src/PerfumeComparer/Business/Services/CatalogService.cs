@@ -271,7 +271,14 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
             query = query.Where(p => p.Accords.Any(a => accordSlugs.Contains(a.Accord.Slug)));
 
         if (Split(q.Note) is { } noteSlugs)
-            query = query.Where(p => p.Notes.Any(n => noteSlugs.Contains(n.Note.Slug)));
+        {
+            // Katman verilmezse nota hangi katmanda olursa olsun eşleşir; verilirse
+            // (ör. "alt notasında tonka fasulyesi olanlar") yalnızca o katmana bakılır.
+            var noteLayer = Lookups.NoteLayerFromSlug(q.NoteLayer);
+            query = noteLayer is null
+                ? query.Where(p => p.Notes.Any(n => noteSlugs.Contains(n.Note.Slug)))
+                : query.Where(p => p.Notes.Any(n => noteSlugs.Contains(n.Note.Slug) && n.Layer == noteLayer));
+        }
 
         // Mevsim filtresi "bu mevsime uygun" demek; her parfüm her mevsimden oy aldığı
         // için eşik koymadan filtre hiçbir şey elemez.
@@ -332,9 +339,11 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
         var maxTimeVote = Math.Max(perfume.DayVotes, perfume.NightVotes);
         var ageTotal = perfume.AgeGroups.Sum(a => a.Votes);
 
+        // En son eklenen ilişki en üstte; aynı anda gelenlerde kaynak sırası korunur.
         List<PerfumeAlternativeDto> Related(PerfumeRelationKind kind) => perfume.AlternativesAsSource
             .Where(a => a.Kind == kind)
-            .OrderBy(a => a.SortOrder)
+            .OrderByDescending(a => a.CreatedAt)
+            .ThenBy(a => a.SortOrder)
             .Select(a => new PerfumeAlternativeDto(
                 a.TargetPerfume.Name,
                 a.TargetPerfume.Slug,

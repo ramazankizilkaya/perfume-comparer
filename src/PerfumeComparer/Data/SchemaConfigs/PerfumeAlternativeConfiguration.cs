@@ -25,5 +25,8 @@ public class PerfumeAlternativeConfiguration : IEntityTypeConfiguration<PerfumeA
             .OnDelete(DeleteBehavior.Cascade);
 
         builder.HasIndex(pa => pa.TargetPerfumeId);
+
+        // Detay sayfası ilişkileri kaynak + tür ile çekip tarihe göre sıralıyor.
+        builder.HasIndex(pa => new { pa.SourcePerfumeId, pa.Kind, pa.CreatedAt });
     }
 }
