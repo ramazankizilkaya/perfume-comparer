@@ -60,6 +60,13 @@ public class CatalogController(
         return Ok(result);
     }
 
+    [HttpGet("brands/random")]
+    public async Task<IActionResult> GetRandomBrands([FromQuery] int count = 20, CancellationToken ct = default)
+    {
+        var result = await catalog.GetRandomBrandsAsync(count, ct);
+        return Ok(result);
+    }
+
     [HttpGet("brands/{slug}")]
     public async Task<IActionResult> GetBrandDetail(string slug, CancellationToken ct)
     {

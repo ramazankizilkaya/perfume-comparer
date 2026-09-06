@@ -1,20 +1,12 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import Link from "next/link";
 import Icon from "./Icon";
-import { brandHref, mediaUrl } from "@/lib/urls";
+import BrandCard, { BrandCardData } from "./BrandCard";
 
-export interface BrandCard {
-    id: number;
-    name: string;
-    slug: string;
-    logoUrl?: string | null;
-    country?: string | null;
-    perfumeCount: number;
-}
+export type { BrandCardData as BrandCard };
 
-export default function BrandsFilterClient({ initialBrands }: { initialBrands: BrandCard[] }) {
+export default function BrandsFilterClient({ initialBrands }: { initialBrands: BrandCardData[] }) {
     const [query, setQuery] = useState("");
 
     const filtered = useMemo(() => {
@@ -24,7 +16,7 @@ export default function BrandsFilterClient({ initialBrands }: { initialBrands: B
     }, [initialBrands, query]);
 
     const groups = useMemo(() => {
-        const map = new Map<string, BrandCard[]>();
+        const map = new Map<string, BrandCardData[]>();
         for (const brand of filtered) {
             const letter = brand.name.charAt(0).toLocaleUpperCase("tr");
             const key = /[0-9]/.test(letter) ? "#" : letter;
@@ -60,34 +52,12 @@ export default function BrandsFilterClient({ initialBrands }: { initialBrands: B
                         <h2 className="brand-group-letter">{letter}</h2>
                         <div className="brand-card-grid">
                             {items.map((b) => (
-                                <BrandTile key={b.slug} brand={b} />
+                                <BrandCard key={b.slug} brand={b} />
                             ))}
                         </div>
                     </section>
                 ))
             )}
         </>
-    );
-}
-
-function BrandTile({ brand }: { brand: BrandCard }) {
-    const logo = mediaUrl(brand.logoUrl);
-    return (
-        <Link
-            href={brandHref(brand.slug)}
-            className="brand-card"
-            title={`${brand.name} (${brand.perfumeCount} parfüm)`}
-            aria-label={`${brand.name} parfümleri (${brand.perfumeCount} adet)`}
-        >
-            <div className="brand-card-logo">
-                {logo ? (
-                    <img src={logo} alt="" loading="lazy" />
-                ) : (
-                    <span className="brand-card-fallback">{brand.name}</span>
-                )}
-            </div>
-            <span className="brand-card-name">{brand.name}</span>
-            <span className="brand-card-count">{brand.perfumeCount}</span>
-        </Link>
     );
 }

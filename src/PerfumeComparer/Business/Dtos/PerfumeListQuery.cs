@@ -34,6 +34,7 @@ public record PerfumeListQuery(
     [Range(0, int.MaxValue, ErrorMessage = "Oy sayısı negatif olamaz.")]
     int? MinVotes = null,
     string? Sort = null,
+    int? RandomPool = null,
     [Range(1, int.MaxValue, ErrorMessage = "Sayfa numarası 1 veya daha büyük olmalıdır.")]
     int Page = 1,
     [Range(1, 100, ErrorMessage = "Sayfa boyutu 1 ile 100 arasında olmalıdır.")]

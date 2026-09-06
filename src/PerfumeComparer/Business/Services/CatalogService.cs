@@ -82,9 +82,16 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
             "newest" => query.OrderByDescending(p => p.ReleaseYear).ThenByDescending(p => p.RatingCount),
             "oldest" => query.OrderBy(p => p.ReleaseYear).ThenByDescending(p => p.RatingCount),
             "name" => query.OrderBy(p => p.Name),
+            "random" => query.OrderBy(_ => EF.Functions.Random()),
             "views" => query.OrderByDescending(p => p.ViewCount).ThenByDescending(p => p.RatingCount).ThenByDescending(p => p.AvgRating).ThenBy(p => p.Name),
             _ => query.OrderByDescending(p => p.ViewCount).ThenByDescending(p => p.RatingCount).ThenByDescending(p => p.AvgRating).ThenBy(p => p.Name),
         };
+
+        if (q.RandomPool is > 0)
+        {
+            var poolLimit = Math.Clamp(q.RandomPool.Value, 1, 1000);
+            query = query.Take(poolLimit).OrderBy(_ => EF.Functions.Random());
+        }
 
         var page = Math.Max(1, q.Page);
         var pageSize = Math.Clamp(q.PageSize, 1, MaxPageSize);
@@ -110,6 +117,18 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
         return await brandRepo
             .AsNoTracking()
             .OrderBy(b => b.Name)
+            .Select(b => new BrandCardDto(b.Id, b.Name, b.Slug, b.LogoUrl, b.Country, b.PerfumeCount))
+            .ToListAsync(ct);
+    }
+
+    public async Task<IReadOnlyList<BrandCardDto>> GetRandomBrandsAsync(int count = 20, CancellationToken ct = default)
+    {
+        var brandRepo = uow.GetRepository<Brand>();
+        return await brandRepo
+            .AsNoTracking()
+            .Where(b => b.PerfumeCount > 0)
+            .OrderBy(_ => EF.Functions.Random())
+            .Take(Math.Clamp(count, 1, 50))
             .Select(b => new BrandCardDto(b.Id, b.Name, b.Slug, b.LogoUrl, b.Country, b.PerfumeCount))
             .ToListAsync(ct);
     }

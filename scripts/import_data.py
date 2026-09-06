@@ -670,12 +670,36 @@ def main() -> int:
                              "Parfüme bağlı yorum, puan ve favoriler de silinir.")
     parser.add_argument("--reset-all", action="store_true",
                         help="Kullanıcı ve blog dahil bütün tabloları uçurur.")
+    parser.add_argument("--wipe", action="store_true",
+                        help="Katalog tablolarını (marka, parfüm, nota, akor) temizler, yeni veri basmaz.")
+    parser.add_argument("--wipe-all", action="store_true",
+                        help="Bütün tabloları (kullanıcı ve blog dahil) temizler, yeni veri basmaz.")
     parser.add_argument("--brands", help="Sadece bu markalar (virgülle): chanel,dior")
     parser.add_argument("--limit", type=int, help="İlk N markayı aktar (deneme için).")
     parser.add_argument("--dry-run", action="store_true",
                         help="Veritabanına hiçbir şey yazmaz, sadece ne olacağını raporlar.")
     parser.add_argument("--sql-out", help="SQL'i çalıştırmak yerine bu dosyaya yazar.")
     args = parser.parse_args()
+
+    if args.wipe or args.wipe_all:
+        env = connection_env()
+        ensure_schema(env)
+        tables = ALL_TABLES if args.wipe_all else CATALOG_TABLES
+        sql = (
+            "BEGIN;\n"
+            f"TRUNCATE {', '.join(tables)} RESTART IDENTITY CASCADE;\n"
+            "COMMIT;\n"
+        )
+        process = subprocess.Popen(
+            ["psql", "-X", "-q", "-v", "ON_ERROR_STOP=1", "-f", "-"],
+            env=env, stdin=subprocess.PIPE, text=True, encoding="utf-8")
+        process.stdin.write(sql)
+        process.stdin.close()
+        if process.wait() != 0:
+            raise SystemExit("Veritabanı temizleme işlemi başarısız oldu.")
+        scope = "Bütün tablolar (kullanıcı ve blog dahil)" if args.wipe_all else "Katalog tabloları"
+        print(f"Başarılı: {scope} temizlendi, hiçbir veri basılmadı.")
+        return 0
 
     if not BRANDS_DIR.is_dir() or not PERFUMES_DIR.is_dir():
         raise SystemExit(f"scrape_files bulunamadı: {SCRAPE_DIR}")

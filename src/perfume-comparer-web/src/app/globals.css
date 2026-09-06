@@ -4013,6 +4013,8 @@ body.dark-mode .brand-logo {
    3/2 oran hem kare logolara (listenin çoğu) hem de 3:1, 8:1 gibi çok geniş
    logolara yer bırakıyor; contain sayesinde ikisi de taşmadan büyüyor. */
 .brand-card {
+    position: relative;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -4032,6 +4034,43 @@ body.dark-mode .brand-logo {
     max-inline-size: 100%;
     max-block-size: 100%;
     object-fit: contain;
+}
+
+.brand-card-hover-name {
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translate(-50%, 4px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--ink);
+    color: var(--surface);
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    text-align: center;
+    padding: 0.2rem 0.55rem;
+    border-radius: var(--radius);
+    white-space: nowrap;
+    max-width: calc(100% - 12px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    z-index: 5;
+}
+
+.brand-card:hover .brand-card-hover-name {
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
+
+body.dark-mode .brand-card-hover-name {
+    background: var(--page);
+    color: var(--ink);
+    border: 1px solid var(--line-strong);
 }
 
 /* Logo dosyalarının kendi zemini beyaz (şeffaf değil). Koyu temada kart koyu
@@ -4754,6 +4793,10 @@ body.dark-mode .card-rating-badge {
     flex: 0 0 320px;
 }
 
+.slider-item-brand {
+    flex: 0 0 160px;
+}
+
 /* --- Comparison Card ------------------------------------------------------- */
 
 .compare-card {
@@ -5048,6 +5091,9 @@ body.dark-mode .card-rating-badge {
     }
     .slider-item-compare {
         flex: 0 0 290px;
+    }
+    .slider-item-brand {
+        flex: 0 0 130px;
     }
     .hero-blog-slider {
         min-height: 280px;

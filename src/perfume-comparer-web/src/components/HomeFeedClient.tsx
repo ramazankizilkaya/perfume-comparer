@@ -5,13 +5,16 @@ import { PerfumeCard, type PerfumeCardData } from "./PerfumeCard";
 import HorizontalSlider from "./HorizontalSlider";
 import ComparisonCard, { type ComparisonPairData } from "./ComparisonCard";
 import BlogSlider, { type BlogPost } from "./BlogSlider";
+import BrandCard, { type BrandCardData } from "./BrandCard";
 import { API_BASE } from "@/lib/urls";
 import { useGenderPref } from "@/lib/stores";
 
 export interface HomeFeedData {
     blogs: BlogPost[];
+    explorePerfumes: PerfumeCardData[];
     popularPerfumes: PerfumeCardData[];
     comparisons: ComparisonPairData[];
+    randomBrands: BrandCardData[];
     newestPerfumes: PerfumeCardData[];
     mostCommentedPerfumes: PerfumeCardData[];
     mostRatedPerfumes: PerfumeCardData[];
@@ -38,26 +41,32 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
             try {
                 const [
                     blogsRes,
+                    exploreRes,
                     popRes,
                     compRes,
+                    brandsRes,
                     newRes,
                     commRes,
                     votesRes,
                     topRes,
                 ] = await Promise.all([
                     fetch(`${API_BASE}/api/blogs`),
-                    fetch(`${API_BASE}/api/perfumes?sort=views&pageSize=12${g}`),
+                    fetch(`${API_BASE}/api/perfumes?sort=random&pageSize=20${g}`),
+                    fetch(`${API_BASE}/api/perfumes?sort=views&randomPool=500&pageSize=20${g}`),
                     fetch(`${API_BASE}/api/compare/popular`),
-                    fetch(`${API_BASE}/api/perfumes?sort=newest&pageSize=12${g}`),
-                    fetch(`${API_BASE}/api/perfumes?sort=comments&pageSize=12${g}`),
-                    fetch(`${API_BASE}/api/perfumes?sort=votes&pageSize=12${g}`),
-                    fetch(`${API_BASE}/api/perfumes?sort=rating&minVotes=500&pageSize=12${g}`),
+                    fetch(`${API_BASE}/api/brands/random?count=20`),
+                    fetch(`${API_BASE}/api/perfumes?sort=newest&randomPool=500&pageSize=20${g}`),
+                    fetch(`${API_BASE}/api/perfumes?sort=comments&randomPool=500&pageSize=20${g}`),
+                    fetch(`${API_BASE}/api/perfumes?sort=votes&randomPool=500&pageSize=20${g}`),
+                    fetch(`${API_BASE}/api/perfumes?sort=rating&minVotes=500&randomPool=500&pageSize=20${g}`),
                 ]);
 
                 setData({
                     blogs: blogsRes.ok ? await blogsRes.json() : initialData.blogs,
+                    explorePerfumes: exploreRes.ok ? (await exploreRes.json()).items ?? [] : [],
                     popularPerfumes: popRes.ok ? (await popRes.json()).items ?? [] : [],
                     comparisons: compRes.ok ? await compRes.json() : [],
+                    randomBrands: brandsRes.ok ? await brandsRes.json() : initialData.randomBrands,
                     newestPerfumes: newRes.ok ? (await newRes.json()).items ?? [] : [],
                     mostCommentedPerfumes: commRes.ok ? (await commRes.json()).items ?? [] : [],
                     mostRatedPerfumes: votesRes.ok ? (await votesRes.json()).items ?? [] : [],
@@ -76,7 +85,21 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
             {/* 1. Üst Blog Hero Slider'ı */}
             {data.blogs.length > 0 && <BlogSlider blogs={data.blogs} />}
 
-            {/* 2. Popüler Parfümler */}
+            {/* 2. Keşfet (Rastgele Parfümler - Havuzsuz, Tüm Katalogdan) */}
+            {data.explorePerfumes.length > 0 && (
+                <HorizontalSlider
+                    title="Keşfet"
+                    viewAllHref={`/ara?sort=random${gParam}`}
+                >
+                    {data.explorePerfumes.map((p) => (
+                        <div key={p.slug} className="slider-item">
+                            <PerfumeCard perfume={p} />
+                        </div>
+                    ))}
+                </HorizontalSlider>
+            )}
+
+            {/* 3. Popüler Parfümler (En İyi 500 Havuzundan Rastgele 20) */}
             {data.popularPerfumes.length > 0 && (
                 <HorizontalSlider
                     title="Popüler Parfümler"
@@ -90,7 +113,7 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
                 </HorizontalSlider>
             )}
 
-            {/* 3. Popüler Karşılaştırmalar */}
+            {/* 4. Popüler Karşılaştırmalar */}
             {data.comparisons.length > 0 && (
                 <HorizontalSlider
                     title="Popüler Karşılaştırmalar"
@@ -104,7 +127,21 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
                 </HorizontalSlider>
             )}
 
-            {/* 4. Yeni Gelenler */}
+            {/* 5. Rastgele Markalar Slider'ı */}
+            {data.randomBrands.length > 0 && (
+                <HorizontalSlider
+                    title="Markalar"
+                    viewAllHref="/marka"
+                >
+                    {data.randomBrands.map((b) => (
+                        <div key={b.slug} className="slider-item slider-item-brand">
+                            <BrandCard brand={b} />
+                        </div>
+                    ))}
+                </HorizontalSlider>
+            )}
+
+            {/* 6. Yeni Gelenler (En Yeni 500 Havuzundan Rastgele 20) */}
             {data.newestPerfumes.length > 0 && (
                 <HorizontalSlider
                     title="Yeni Gelenler"
@@ -118,7 +155,7 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
                 </HorizontalSlider>
             )}
 
-            {/* 5. En Çok Yorum Alanlar */}
+            {/* 7. En Çok Yorum Alanlar (En Çok Yorumlu 500 Havuzundan Rastgele 20) */}
             {data.mostCommentedPerfumes.length > 0 && (
                 <HorizontalSlider
                     title="En Çok Yorum Alanlar"
@@ -132,7 +169,7 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
                 </HorizontalSlider>
             )}
 
-            {/* 6. En Çok Değerlendirilenler */}
+            {/* 8. En Çok Değerlendirilenler (En Çok Oylu 500 Havuzundan Rastgele 20) */}
             {data.mostRatedPerfumes.length > 0 && (
                 <HorizontalSlider
                     title="En Çok Değerlendirilenler"
@@ -146,7 +183,7 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
                 </HorizontalSlider>
             )}
 
-            {/* 7. En Yüksek Puanlılar */}
+            {/* 9. En Yüksek Puanlılar (En Yüksek Puanlı 500 Havuzundan Rastgele 20) */}
             {data.topRatedPerfumes.length > 0 && (
                 <HorizontalSlider
                     title="En Yüksek Puanlılar"

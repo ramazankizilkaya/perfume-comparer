@@ -148,6 +148,7 @@ POPULAR_BRANDS_HTML_SNIPPET = [
     "https://www.fragrantica.com/designers/Lattafa-Perfumes.html",
     "https://www.fragrantica.com/designers/Le-Labo.html",
     "https://www.fragrantica.com/designers/Liquides-Imaginaires.html",
+    "https://www.fragrantica.tr/designers/Liz-Claiborne.html",
     "https://www.fragrantica.com/designers/Loewe.html",
     "https://www.fragrantica.com/designers/Lorenzo-Pazzaglia.html",
     "https://www.fragrantica.com/designers/Louis-Vuitton.html",
