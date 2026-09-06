@@ -1,20 +1,17 @@
-"use client";
-
-import { useState, useEffect, FormEvent, ReactNode } from "react";
+import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import Link from "next/link";
-import { useParams, usePathname } from "next/navigation";
-import Icon from "@/components/Icon";
-import Stars, { StarInput } from "@/components/Stars";
 import Score from "@/components/Score";
-import FavButton from "@/components/FavButton";
-import CompareButton from "@/components/CompareButton";
+import Stars from "@/components/Stars";
 import Breadcrumb from "@/components/Breadcrumb";
-import { type AgeGroupScore } from "@/components/UsageVote";
-import ImageLightboxModal from "@/components/ImageLightboxModal";
-import PerfumeReviewModal from "@/components/PerfumeReviewModal";
-import { API_BASE, formatDate, genderLabel, brandHref, perfumeHref, mediaUrl } from "@/lib/urls";
+import PerfumeHeroMedia from "@/components/PerfumeHeroMedia";
+import PerfumeReviewButton from "@/components/PerfumeReviewButton";
+import PerfumeUserPhotos from "@/components/PerfumeUserPhotos";
+import PerfumeCommentsSection, { type CommentData } from "@/components/PerfumeCommentsSection";
+import { API_BASE, genderLabel, brandHref, perfumeHref, mediaUrl } from "@/lib/urls";
 import { noteIcon } from "@/lib/notes";
-import { useAuth, type PerfumeRef } from "@/lib/stores";
+import type { PerfumeRef } from "@/lib/stores";
+import type { AgeGroupScore } from "@/components/UsageVote";
 
 interface Note {
     name: string;
@@ -91,20 +88,13 @@ interface PerfumeDetail {
     path: string;
 }
 
-export interface CommentData {
-    id: number;
-    body: string;
-    createdAt: string;
-    updatedAt?: string | null;
-    isAiSummary: boolean;
-    authorName?: string | null;
-    rating?: number;
+interface PageProps {
+    params: Promise<{ segments: string[] }>;
 }
 
 const PLACEHOLDER =
     "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=800";
 
-/** Mevsim / gün içi / yaş grubu için ikonlar: uzun yüzde çubuğu yerine tek bakışta okunur. */
 const FACET_ICONS: Record<string, string> = {
     ilkbahar: "🌸",
     yaz: "☀️",
@@ -118,111 +108,87 @@ const FACET_ICONS: Record<string, string> = {
     diger: "👥",
 };
 
-/** /ara cinsiyet filtresi erkek/kadin/unisex slug'ları bekler; detay DTO'su enum adı döner. */
 function genderSlug(gender?: string | null): string {
     if (gender === "Male") return "erkek";
     if (gender === "Female") return "kadin";
     return "unisex";
 }
 
-export default function PerfumeDetailPage() {
-    const params = useParams();
-    const segments = (params.segments as string[]) ?? [];
-    const slug = segments[segments.length - 1];
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+    const { segments } = await params;
+    const slug = segments?.[segments.length - 1];
+    if (!slug) {
+        return { title: "Parfüm | Aura Compare" };
+    }
 
-    const { token, user } = useAuth();
-    const pathname = usePathname();
-    const [perfume, setPerfume] = useState<PerfumeDetail | null>(null);
-    const [comments, setComments] = useState<CommentData[]>([]);
-    const [userPhotos, setUserPhotos] = useState<{ id: number; imageUrl: string; authorName: string; createdAt: string }[]>([]);
-    const [loading, setLoading] = useState(true);
-
-    const [lightboxOpen, setLightboxOpen] = useState(false);
-    const [lightboxSrc, setLightboxSrc] = useState("");
-    const [lightboxAlt, setLightboxAlt] = useState("");
-    const [reviewModalOpen, setReviewModalOpen] = useState(false);
-
-    const [rating, setRating] = useState(5);
-    const [commentText, setCommentText] = useState("");
-    const [commentStatus, setCommentStatus] = useState("");
-    const [sending, setSending] = useState(false);
-
-    useEffect(() => {
-        if (!slug) return;
-        (async () => {
-            setLoading(true);
-            try {
-                const [pRes, cRes, photosRes] = await Promise.all([
-                    fetch(`${API_BASE}/api/perfumes/${slug}`),
-                    fetch(`${API_BASE}/api/perfumes/${slug}/comments`),
-                    fetch(`${API_BASE}/api/perfumes/${slug}/photos`),
-                ]);
-                setPerfume(pRes.ok ? await pRes.json() : null);
-
-                let loaded: CommentData[] = [];
-                if (cRes.ok) {
-                    loaded = await cRes.json();
-                    setComments(loaded);
-                }
-                if (photosRes.ok) setUserPhotos(await photosRes.json());
-
-                // Özeti olmayan parfümlerde AI özetini arka planda ürettir.
-                // Eşiğin altındaysa API 204 döner ve sayfa olduğu gibi kalır.
-                if (!loaded.some((c) => c.isAiSummary)) {
-                    try {
-                        const aiRes = await fetch(`${API_BASE}/api/perfumes/${slug}/ai-summary`, { method: "POST" });
-                        if (aiRes.ok && aiRes.status !== 204) {
-                            const fresh = await aiRes.json();
-                            setComments((prev) => [fresh as CommentData, ...prev]);
-                        }
-                    } catch {
-                        /* özet üretilemezse sayfa özetsiz çalışmaya devam eder */
-                    }
-                }
-            } catch {
-                setPerfume(null);
-            } finally {
-                setLoading(false);
-            }
-        })();
-    }, [slug]);
-
-    const submitComment = async (e: FormEvent) => {
-        e.preventDefault();
-        if (!commentText.trim()) return;
-        setSending(true);
-        setCommentStatus("");
-        try {
-            const res = await fetch(`${API_BASE}/api/perfumes/${slug}/comments`, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    ...(token ? { Authorization: `Bearer ${token}` } : {}),
-                },
-                body: JSON.stringify({ rating, content: commentText }),
-            });
-            if (res.ok) {
-                setCommentStatus("Yorumunuz eklendi.");
-                setCommentText("");
-                const fresh = await fetch(`${API_BASE}/api/perfumes/${slug}/comments`);
-                if (fresh.ok) setComments(await fresh.json());
-            } else {
-                setCommentStatus("Yorum eklenemedi.");
-            }
-        } catch {
-            setCommentStatus("Bağlantı hatası.");
-        } finally {
-            setSending(false);
+    try {
+        const res = await fetch(`${API_BASE}/api/perfumes/${slug}`, { next: { revalidate: 60 } });
+        if (!res.ok) {
+            return { title: "Parfüm Bulunamadı | Aura Compare" };
         }
-    };
+        const perfume: PerfumeDetail = await res.json();
+        const brandName = perfume.brand?.name ?? "";
+        const title = `${perfume.name} - ${brandName} Parfüm İncelemesi ve Notaları | Aura Compare`;
 
-    if (loading) {
+        const descParts: string[] = [];
+        if (perfume.gender) descParts.push(genderLabel(perfume.gender));
+        if (perfume.fragranceFamily) descParts.push(`${perfume.fragranceFamily} koku ailesi`);
+        if (perfume.accords?.length > 0) {
+            descParts.push(`ana akorlar: ${perfume.accords.slice(0, 3).map((a) => a.name).join(", ")}`);
+        }
+        if (perfume.releaseYear) descParts.push(`${perfume.releaseYear} çıkışlı`);
+        const description = `${perfume.name} (${brandName}) ${descParts.join(" · ")}. Koku piramidi, kalıcılık ve kullanıcı yorumları.`;
+        const img = mediaUrl(perfume.imageUrl) || PLACEHOLDER;
+
+        return {
+            title,
+            description,
+            openGraph: {
+                title,
+                description,
+                images: img ? [{ url: img }] : [],
+            },
+            alternates: {
+                canonical: `/parfum/${perfume.path || slug}`,
+            },
+        };
+    } catch {
+        return { title: "Parfüm | Aura Compare" };
+    }
+}
+
+export default async function PerfumeDetailPage({ params }: PageProps) {
+    const { segments } = await params;
+    const slug = segments?.[segments.length - 1];
+
+    if (!slug) {
         return (
             <div className="state">
-                <div className="spinner" />
-                <p>Yükleniyor…</p>
+                <h2>Parfüm bulunamadı</h2>
+                <p>Geçersiz sayfa bağlantısı.</p>
+                <Link href="/" className="btn btn-ghost" style={{ marginTop: "1rem" }}>
+                    Anasayfaya dön
+                </Link>
             </div>
         );
+    }
+
+    let perfume: PerfumeDetail | null = null;
+    let comments: CommentData[] = [];
+    let userPhotos: { id: number; imageUrl: string; authorName: string; createdAt: string }[] = [];
+
+    try {
+        const [pRes, cRes, photosRes] = await Promise.all([
+            fetch(`${API_BASE}/api/perfumes/${slug}`, { next: { revalidate: 60 } }),
+            fetch(`${API_BASE}/api/perfumes/${slug}/comments`, { next: { revalidate: 60 } }),
+            fetch(`${API_BASE}/api/perfumes/${slug}/photos`, { next: { revalidate: 60 } }),
+        ]);
+
+        if (pRes.ok) perfume = await pRes.json();
+        if (cRes.ok) comments = await cRes.json();
+        if (photosRes.ok) userPhotos = await photosRes.json();
+    } catch {
+        perfume = null;
     }
 
     if (!perfume) {
@@ -237,15 +203,12 @@ export default function PerfumeDetailPage() {
         );
     }
 
-    const aiSummary = comments.find((c) => c.isAiSummary) ?? null;
-    const userComments = comments.filter((c) => !c.isAiSummary);
     const bestSeason = pickTop(perfume.seasons);
     const bestTime = pickTop(perfume.timeOfDay);
     const bestAge = pickTop(perfume.ageGroups);
     const topLongevity = pickTopBar(perfume.longevity);
     const topSillage = pickTopBar(perfume.sillage);
 
-    // Piramit yayımlamayan markalarda notalar tek düz liste olarak gelir.
     const hasPyramid =
         perfume.notes.top.length > 0 || perfume.notes.middle.length > 0 || perfume.notes.base.length > 0;
     const allNotes = hasPyramid
@@ -260,31 +223,12 @@ export default function PerfumeDetailPage() {
         path: perfume.path,
     };
 
-    const openLightbox = (src: string, alt: string) => {
-        setLightboxSrc(src);
-        setLightboxAlt(alt);
-        setLightboxOpen(true);
-    };
-
     return (
         <>
             <Breadcrumb items={perfume.breadcrumb} />
 
-            {/* Üst künye: solda büyük görsel, sağda marka/model/puan + künye + açıklama. */}
             <div className="detail-head">
-                <div className="detail-media-col">
-                    <figure
-                        className="detail-media"
-                        onClick={() => openLightbox(mediaUrl(perfume.imageUrl) || PLACEHOLDER, perfume.name)}
-                        title="Fotoğrafı büyütmek için tıklayın"
-                    >
-                        <img src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt={perfume.name} />
-                        <div className="media-actions" onClick={(e) => e.stopPropagation()}>
-                            <CompareButton perfume={ref} />
-                            <FavButton perfume={ref} />
-                        </div>
-                    </figure>
-                </div>
+                <PerfumeHeroMedia perfume={ref} />
 
                 <div className="detail-info">
                     <Link href={brandHref(perfume.brand.slug)} className="detail-brand">
@@ -303,9 +247,12 @@ export default function PerfumeDetailPage() {
                         </div>
                     </div>
 
-                    {/* Cinsiyet · aile · çıkış yılı: yan yana, tek satırda okunur künye. */}
                     <dl className="detail-facts">
-                        <FactCell label="Ürün cinsi" value={genderLabel(perfume.gender)} href={`/ara?gender=${genderSlug(perfume.gender)}`} />
+                        <FactCell
+                            label="Ürün cinsi"
+                            value={genderLabel(perfume.gender)}
+                            href={`/ara?gender=${genderSlug(perfume.gender)}`}
+                        />
                         <FactCell
                             label="Koku ailesi"
                             value={perfume.fragranceFamily}
@@ -324,17 +271,10 @@ export default function PerfumeDetailPage() {
 
                     {perfume.description && <p className="detail-desc">{perfume.description}</p>}
 
-                    <button
-                        type="button"
-                        className="btn btn-primary detail-review-btn"
-                        onClick={() => setReviewModalOpen(true)}
-                    >
-                        <Icon name="star" size={14} /> Bu parfümü değerlendir
-                    </button>
+                    <PerfumeReviewButton slug={perfume.slug} perfumeName={perfume.name} />
                 </div>
             </div>
 
-            {/* Koku piramidi doğrudan künyenin altında. */}
             <section className="block">
                 <h2 className="block-title">Koku piramidi</h2>
                 {hasPyramid ? (
@@ -353,39 +293,12 @@ export default function PerfumeDetailPage() {
                 )}
             </section>
 
-            {/* Künye ve piramidin altındaki her şey tek kapsayıcıda. */}
             <div className="detail-body">
-                {userPhotos.length > 0 && (
-                    <section className="block user-photos-section">
-                        <div className="block-title-row">
-                            <h2 className="block-title">Kullanıcılardan gelen fotoğraflar ({userPhotos.length})</h2>
-                            <button
-                                type="button"
-                                className="btn btn-ghost btn-sm"
-                                onClick={() => setReviewModalOpen(true)}
-                            >
-                                <Icon name="plus" size={12} /> Fotoğraf ekle
-                            </button>
-                        </div>
-                        <div className="user-photos-slider">
-                            {userPhotos.map((photo) => (
-                                <div
-                                    key={photo.id}
-                                    className="user-photo-card"
-                                    onClick={() =>
-                                        openLightbox(
-                                            mediaUrl(photo.imageUrl) || PLACEHOLDER,
-                                            `${perfume.name} - @${photo.authorName}`)
-                                    }
-                                    title={`@${photo.authorName} tarafından yüklendi. Büyütmek için tıklayın.`}
-                                >
-                                    <img src={mediaUrl(photo.imageUrl)} alt={photo.authorName} className="user-photo-img" loading="lazy" />
-                                    <span className="user-photo-author">@{photo.authorName}</span>
-                                </div>
-                            ))}
-                        </div>
-                    </section>
-                )}
+                <PerfumeUserPhotos
+                    slug={perfume.slug}
+                    perfumeName={perfume.name}
+                    initialPhotos={userPhotos}
+                />
 
                 <section className="block">
                     <h2 className="block-title">Öne çıkan özellikler</h2>
@@ -486,7 +399,6 @@ export default function PerfumeDetailPage() {
                     </section>
                 )}
 
-                {/* Mevsim / gün içi / yaş grubu: çubuk yerine ikon kutuları. */}
                 <section className="block">
                     <h2 className="block-title">Ne zaman, kime uygun?</h2>
                     <div className="facet-groups">
@@ -515,7 +427,6 @@ export default function PerfumeDetailPage() {
                     />
                 )}
 
-                {/* Bütün oylamalar tek panelde, yorumların hemen üstünde. */}
                 <section className="block">
                     <h2 className="block-title">Kullanıcı oylamaları</h2>
                     <div className="vote-grid">
@@ -536,105 +447,13 @@ export default function PerfumeDetailPage() {
                     </div>
                 </section>
 
-                <section className="block">
-                    <h2 className="block-title">Yorumlar ({userComments.length})</h2>
-
-                    {aiSummary && <AiSummary comment={aiSummary} />}
-
-                    <div className="comment-form-wrap">
-                        {/* Form giriş yapılmadan da görünür: kullanıcı yorum yazabileceğini
-                            görsün diye alanlar kilitli gösterilir, üstte giriş linki durur. */}
-                        {!user && (
-                            <p className="login-prompt">
-                                <Link href={`/giris?next=${encodeURIComponent(pathname)}`} className="link-more">
-                                    Yorum yapmak ve puan vermek için giriş yapın
-                                </Link>
-                            </p>
-                        )}
-                        <form onSubmit={submitComment} className={user ? "comment-form" : "comment-form is-locked"}>
-                            <div className="form-group">
-                                <label>Puanınız</label>
-                                <StarInput value={rating} onChange={setRating} disabled={!user} />
-                            </div>
-                            <div className="form-group">
-                                <label htmlFor="c-body">Yorumunuz</label>
-                                <textarea
-                                    id="c-body"
-                                    className="textarea"
-                                    placeholder="Kalıcılık, yayılım ve genel izleniminizi yazın…"
-                                    value={commentText}
-                                    disabled={!user}
-                                    onChange={(e) => {
-                                        e.target.setCustomValidity("");
-                                        setCommentText(e.target.value);
-                                    }}
-                                    onInvalid={(e) =>
-                                        e.currentTarget.setCustomValidity("Lütfen bu alanı doldurun.")
-                                    }
-                                    required
-                                />
-                            </div>
-                            <button className="btn btn-primary" disabled={sending || !user}>
-                                <Icon name="send" size={14} /> Gönder
-                            </button>
-                            {commentStatus && <p className="form-note ok">{commentStatus}</p>}
-                        </form>
-                    </div>
-
-                    {userComments.length > 0 ? (
-                        userComments.map((c) => (
-                            <div key={c.id} className="comment">
-                                <div className="comment-head">
-                                    <span className="comment-author">{c.authorName ?? "Kullanıcı"}</span>
-                                    <span className="comment-date">{formatDate(c.createdAt)}</span>
-                                </div>
-                                {c.rating && <Stars value={c.rating} size={16} />}
-                                <p className="comment-body">{c.body}</p>
-                            </div>
-                        ))
-                    ) : (
-                        <p className="empty">Henüz yorum yok. İlk yorumu siz yazın.</p>
-                    )}
-                </section>
+                <PerfumeCommentsSection
+                    key={perfume.slug}
+                    slug={perfume.slug}
+                    initialComments={comments}
+                />
             </div>
-
-            <ImageLightboxModal
-                src={lightboxSrc}
-                alt={lightboxAlt}
-                isOpen={lightboxOpen}
-                onClose={() => setLightboxOpen(false)}
-            />
-
-            <PerfumeReviewModal
-                slug={perfume.slug}
-                perfumeName={perfume.name}
-                isOpen={reviewModalOpen}
-                onClose={() => setReviewModalOpen(false)}
-                onReviewSubmitted={async () => {
-                    const fresh = await fetch(`${API_BASE}/api/perfumes/${slug}`);
-                    if (fresh.ok) setPerfume(await fresh.json());
-                    const cFresh = await fetch(`${API_BASE}/api/perfumes/${slug}/comments`);
-                    if (cFresh.ok) setComments(await cFresh.json());
-                }}
-                onPhotoUploaded={(photo) => {
-                    setUserPhotos((prev) => [photo, ...prev]);
-                }}
-            />
         </>
-    );
-}
-
-/** Yorumlardan üretilen AI özeti — ayrı bir tabloda değil, işaretli bir yorum. */
-export function AiSummary({ comment }: { comment: CommentData }) {
-    return (
-        <div className="ai-summary">
-            <div className="ai-summary-head">
-                <Icon name="sparkle" size={14} />
-                <span>Yorumların yapay zekâ özeti</span>
-                <span className="comment-date">{formatDate(comment.updatedAt || comment.createdAt)}</span>
-            </div>
-            <p className="ai-summary-body">{comment.body}</p>
-        </div>
     );
 }
 
@@ -653,7 +472,6 @@ function toScored(items: VoteBar[]): ScoredRef[] {
     return items.map((i) => ({ name: i.name, slug: i.slug, score: i.percent, votes: i.votes }));
 }
 
-/** Künyedeki tek hücre: etiket üstte, değer altta; değer filtrelenebilirse bağlantı olur. */
 function FactCell({ label, value, href }: { label: string; value?: string | null; href?: string }) {
     return (
         <div className="fact-cell">
@@ -677,7 +495,6 @@ function SpecLink({ value, href }: { value?: string | null; href?: string }) {
     return href ? <Link href={href} className="spec-link">{value}</Link> : <>{value}</>;
 }
 
-/** Nota/akor listesi: her öğe detaylı aramaya ilgili sorguyla gider. */
 function SpecLinkList({
     items,
     hrefFor,
@@ -718,7 +535,6 @@ function Tier({ label, notes, layer }: { label: string; notes: Note[]; layer?: s
     );
 }
 
-/** Mevsim, gün içi ve yaş grubu için ikon kutuları; en yüksek oyu alan vurgulanır. */
 function FacetGroup({
     title,
     items,
@@ -730,7 +546,7 @@ function FacetGroup({
     empty?: string;
     hrefFor?: (slug: string) => string;
 }) {
-    const hasVotes = items.some((i) => i.votes > 0 || i.score > 0);
+    const hasVotes = items?.some((i) => i.votes > 0 || i.score > 0);
     const best = hasVotes ? Math.max(...items.map((i) => i.score)) : 0;
 
     return (
@@ -766,7 +582,7 @@ function FacetGroup({
 }
 
 function VotePanel({ title, items }: { title: string; items: VoteBar[] }) {
-    const total = items.reduce((sum, i) => sum + i.votes, 0);
+    const total = items?.reduce((sum, i) => sum + i.votes, 0) ?? 0;
     return (
         <div className="vote-panel">
             <div className="panel-title">

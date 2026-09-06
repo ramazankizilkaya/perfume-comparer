@@ -1,8 +1,5 @@
-"use client";
-
-import { useState, useEffect } from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
-import { useParams } from "next/navigation";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import { API_BASE, formatDate } from "@/lib/urls";
 
@@ -15,32 +12,45 @@ interface BlogPostDetail {
     authorName: string;
 }
 
-export default function BlogDetailPage() {
-    const { slug } = useParams() as { slug: string };
-    const [blog, setBlog] = useState<BlogPostDetail | null>(null);
-    const [loading, setLoading] = useState(true);
+interface PageProps {
+    params: Promise<{ slug: string }>;
+}
 
-    useEffect(() => {
-        if (!slug) return;
-        (async () => {
-            try {
-                const res = await fetch(`${API_BASE}/api/blogs/${slug}`);
-                setBlog(res.ok ? await res.json() : null);
-            } catch {
-                setBlog(null);
-            } finally {
-                setLoading(false);
-            }
-        })();
-    }, [slug]);
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+    const { slug } = await params;
+    if (!slug) return { title: "Blog | Aura Compare" };
 
-    if (loading) {
-        return (
-            <div className="state">
-                <div className="spinner" />
-                <p>Yükleniyor…</p>
-            </div>
-        );
+    try {
+        const res = await fetch(`${API_BASE}/api/blogs/${slug}`, { next: { revalidate: 60 } });
+        if (!res.ok) return { title: "Yazı Bulunamadı | Aura Compare" };
+        const blog: BlogPostDetail = await res.json();
+
+        const title = `${blog.title} | Aura Compare Blog`;
+        const description = (blog.body || "").slice(0, 160).replace(/\n+/g, " ");
+
+        return {
+            title,
+            description,
+            openGraph: {
+                title,
+                description,
+                images: blog.coverImageUrl ? [{ url: blog.coverImageUrl }] : [],
+            },
+        };
+    } catch {
+        return { title: "Blog | Aura Compare" };
+    }
+}
+
+export default async function BlogDetailPage({ params }: PageProps) {
+    const { slug } = await params;
+
+    let blog: BlogPostDetail | null = null;
+    try {
+        const res = await fetch(`${API_BASE}/api/blogs/${slug}`, { next: { revalidate: 60 } });
+        if (res.ok) blog = await res.json();
+    } catch {
+        blog = null;
     }
 
     if (!blog) {

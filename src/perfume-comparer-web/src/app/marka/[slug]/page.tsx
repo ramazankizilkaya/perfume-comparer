@@ -1,197 +1,66 @@
-"use client";
-
-import { useState, useEffect, useRef, useCallback } from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
-import { useParams } from "next/navigation";
 import Icon from "@/components/Icon";
 import Breadcrumb from "@/components/Breadcrumb";
-import { PerfumeCard, type PerfumeCardData } from "@/components/PerfumeCard";
+import BrandPerfumesClient, { type BrandDetail } from "@/components/BrandPerfumesClient";
+import type { PerfumeCardData } from "@/components/PerfumeCard";
 import { API_BASE, mediaUrl } from "@/lib/urls";
 
-interface Facet {
-    name: string;
-    slug: string;
-    count: number;
+interface PageProps {
+    params: Promise<{ slug: string }>;
 }
 
-interface BrandDetail {
-    name: string;
-    slug: string;
-    country?: string | null;
-    description?: string | null;
-    logoUrl?: string | null;
-    mainActivity?: string | null;
-    websiteUrl?: string | null;
-    parentCompany?: string | null;
-    perfumeCount: number;
-    firstYear?: number | null;
-    lastYear?: number | null;
-    avgRating: number;
-    genders: Facet[];
-    concentrations: Facet[];
-    families: Facet[];
-    accords: Facet[];
-}
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+    const { slug } = await params;
+    if (!slug) return { title: "Marka | Aura Compare" };
 
-const PAGE_SIZE = 24;
+    try {
+        const res = await fetch(`${API_BASE}/api/brands/${slug}`, { next: { revalidate: 60 } });
+        if (!res.ok) return { title: "Marka Bulunamadı | Aura Compare" };
+        const brand: BrandDetail = await res.json();
 
-const SORTS = [
-    { v: "", label: "Öne çıkanlar" },
-    { v: "rating", label: "En yüksek puan" },
-    { v: "newest", label: "En yeni" },
-    { v: "oldest", label: "En eski" },
-    { v: "name", label: "İsim (A-Z)" },
-];
+        const title = `${brand.name} Parfümleri ve Fiyat Karşılaştırması | Aura Compare`;
+        const descParts: string[] = [];
+        if (brand.country) descParts.push(`${brand.country} menşeili`);
+        if (brand.perfumeCount) descParts.push(`${brand.perfumeCount} parfüm`);
+        if (brand.firstYear && brand.lastYear) descParts.push(`${brand.firstYear} - ${brand.lastYear}`);
+        const description = `${brand.name} parfümleri (${descParts.join(", ")}). En popüler kokuları, koku piramidi ve kullanıcı yorumları.`;
 
-/** Hızlı filtre satırındaki bir grup: aynı anda tek seçim yapılır. */
-type FilterKey = "gender" | "concentration" | "family" | "accord";
-
-export default function BrandPage() {
-    const params = useParams();
-    const slug = params.slug as string;
-
-    const [brand, setBrand] = useState<BrandDetail | null>(null);
-    const [brandLoading, setBrandLoading] = useState(true);
-
-    const [query, setQuery] = useState("");
-    const [debouncedQuery, setDebouncedQuery] = useState("");
-    const [filters, setFilters] = useState<Partial<Record<FilterKey, string>>>({});
-    const [sort, setSort] = useState("");
-
-    const [perfumes, setPerfumes] = useState<PerfumeCardData[]>([]);
-    const [total, setTotal] = useState(0);
-    const [page, setPage] = useState(1);
-    const [listLoading, setListLoading] = useState(true);
-    const [loadingMore, setLoadingMore] = useState(false);
-
-    const sentinelRef = useRef<HTMLDivElement | null>(null);
-    const toolsRef = useRef<HTMLElement | null>(null);
-    const isFirstList = useRef(true);
-
-    // --- marka bilgisi
-    useEffect(() => {
-        if (!slug) return;
-        (async () => {
-            setBrandLoading(true);
-            try {
-                const res = await fetch(`${API_BASE}/api/brands/${slug}`);
-                setBrand(res.ok ? await res.json() : null);
-            } catch {
-                setBrand(null);
-            } finally {
-                setBrandLoading(false);
-            }
-        })();
-    }, [slug]);
-
-    // --- arama kutusu: her tuşta istek atmasın
-    useEffect(() => {
-        const timer = setTimeout(() => setDebouncedQuery(query.trim()), 300);
-        return () => clearTimeout(timer);
-    }, [query]);
-
-    const buildUrl = useCallback(
-        (targetPage: number) => {
-            const p = new URLSearchParams({ brand: slug, page: String(targetPage), pageSize: String(PAGE_SIZE) });
-            if (debouncedQuery) p.set("q", debouncedQuery);
-            if (sort) p.set("sort", sort);
-            for (const [key, value] of Object.entries(filters)) {
-                if (value) p.set(key, value);
-            }
-            return `${API_BASE}/api/perfumes?${p.toString()}`;
-        },
-        [slug, debouncedQuery, sort, filters],
-    );
-
-    // --- filtre/arama değişince listeyi baştan kur
-    useEffect(() => {
-        if (!slug) return;
-
-        // Liste sıfırlanıyor: kullanıcı listenin ortasındaysa arama kutusuna geri
-        // getir, yoksa kısalan listede boşluğa bakıyor olur. İlk yüklemede karışma.
-        if (isFirstList.current) {
-            isFirstList.current = false;
-        } else if (toolsRef.current) {
-            const top = toolsRef.current.getBoundingClientRect().top + window.scrollY;
-            if (window.scrollY > top) window.scrollTo({ top, behavior: "smooth" });
-        }
-
-        let cancelled = false;
-        setListLoading(true);
-        (async () => {
-            try {
-                const res = await fetch(buildUrl(1));
-                if (!res.ok) throw new Error("liste");
-                const data = await res.json();
-                if (cancelled) return;
-                setPerfumes(data.items ?? []);
-                setTotal(data.totalCount ?? 0);
-                setPage(1);
-            } catch {
-                if (!cancelled) {
-                    setPerfumes([]);
-                    setTotal(0);
-                }
-            } finally {
-                if (!cancelled) setListLoading(false);
-            }
-        })();
-        return () => {
-            cancelled = true;
-        };
-    }, [slug, buildUrl]);
-
-    const hasMore = perfumes.length < total;
-
-    const loadMore = useCallback(async () => {
-        if (loadingMore || listLoading || !hasMore) return;
-        setLoadingMore(true);
-        try {
-            const next = page + 1;
-            const res = await fetch(buildUrl(next));
-            if (res.ok) {
-                const data = await res.json();
-                setPerfumes((prev) => [...prev, ...(data.items ?? [])]);
-                setPage(next);
-            }
-        } catch {
-            /* sonsuz kaydırma kritik değil; "Daha fazla" butonu kalıyor */
-        } finally {
-            setLoadingMore(false);
-        }
-    }, [buildUrl, hasMore, listLoading, loadingMore, page]);
-
-    // --- sonsuz kaydırma: liste sonuna gelince sonraki sayfa
-    useEffect(() => {
-        const node = sentinelRef.current;
-        if (!node || !hasMore) return;
-
-        const observer = new IntersectionObserver(
-            (entries) => {
-                if (entries[0].isIntersecting) loadMore();
+        return {
+            title,
+            description,
+            openGraph: {
+                title,
+                description,
+                images: brand.logoUrl ? [{ url: mediaUrl(brand.logoUrl)! }] : [],
             },
-            { rootMargin: "400px" },
-        );
-        observer.observe(node);
-        return () => observer.disconnect();
-    }, [hasMore, loadMore]);
+        };
+    } catch {
+        return { title: "Marka | Aura Compare" };
+    }
+}
 
-    const toggleFilter = (key: FilterKey, value: string) =>
-        setFilters((prev) => ({ ...prev, [key]: prev[key] === value ? undefined : value }));
+export default async function BrandPage({ params }: PageProps) {
+    const { slug } = await params;
 
-    const activeFilters = Object.values(filters).filter(Boolean).length;
-    const clearFilters = () => {
-        setFilters({});
-        setQuery("");
-    };
+    let brand: BrandDetail | null = null;
+    let initialPerfumes: PerfumeCardData[] = [];
+    let initialTotal = 0;
 
-    if (brandLoading) {
-        return (
-            <div className="state">
-                <div className="spinner" />
-                <p>Yükleniyor…</p>
-            </div>
-        );
+    try {
+        const [brandRes, perfumesRes] = await Promise.all([
+            fetch(`${API_BASE}/api/brands/${slug}`, { next: { revalidate: 60 } }),
+            fetch(`${API_BASE}/api/perfumes?brand=${slug}&page=1&pageSize=24`, { next: { revalidate: 60 } }),
+        ]);
+
+        if (brandRes.ok) brand = await brandRes.json();
+        if (perfumesRes.ok) {
+            const data = await perfumesRes.json();
+            initialPerfumes = data.items ?? [];
+            initialTotal = data.totalCount ?? 0;
+        }
+    } catch {
+        brand = null;
     }
 
     if (!brand) {
@@ -217,8 +86,6 @@ export default function BrandPage() {
             />
 
             <header className="brand-head">
-                {/* Logo üst bloğun solunu komple kaplar; yüksekliği sağdaki
-                    künye tablosu belirler, logo o alana sığdığı kadar büyür. */}
                 <div className="brand-logo">
                     {brand.logoUrl ? (
                         <img src={mediaUrl(brand.logoUrl)} alt={`${brand.name} logosu`} />
@@ -255,86 +122,12 @@ export default function BrandPage() {
                 </div>
             </header>
 
-            <section className="brand-tools" ref={toolsRef}>
-                <div className="field">
-                    <Icon name="search" />
-                    <input
-                        value={query}
-                        onChange={(e) => setQuery(e.target.value)}
-                        placeholder={`${brand.name} parfümlerinde ara…`}
-                        aria-label={`${brand.name} parfümlerinde ara`}
-                    />
-                    {query && (
-                        <button onClick={() => setQuery("")} aria-label="Temizle">
-                            <Icon name="close" size={14} />
-                        </button>
-                    )}
-                </div>
-
-                <div className="quick-filters">
-                    <FilterChips
-                        items={brand.genders}
-                        active={filters.gender}
-                        onPick={(value) => toggleFilter("gender", value)}
-                    />
-                    <FilterChips
-                        items={brand.concentrations}
-                        active={filters.concentration}
-                        onPick={(value) => toggleFilter("concentration", value)}
-                    />
-                    <FilterChips
-                        items={brand.families.slice(0, 6)}
-                        active={filters.family}
-                        onPick={(value) => toggleFilter("family", value)}
-                    />
-                    <FilterChips
-                        items={brand.accords.slice(0, 8)}
-                        active={filters.accord}
-                        onPick={(value) => toggleFilter("accord", value)}
-                    />
-                    {(activeFilters > 0 || query) && (
-                        <button className="chip chip-clear" onClick={clearFilters}>
-                            <Icon name="close" size={12} /> Filtreleri temizle
-                        </button>
-                    )}
-                </div>
-
-                <div className="search-toolbar">
-                    <span className="muted">{listLoading ? "Yükleniyor…" : `${total} parfüm`}</span>
-                    <label className="sort-select">
-                        <span className="muted">Sırala:</span>
-                        <select value={sort} onChange={(e) => setSort(e.target.value)}>
-                            {SORTS.map((s) => (
-                                <option key={s.v} value={s.v}>{s.label}</option>
-                            ))}
-                        </select>
-                    </label>
-                </div>
-            </section>
-
-            {listLoading && perfumes.length === 0 ? (
-                <div className="state"><div className="spinner" /><p>Yükleniyor…</p></div>
-            ) : perfumes.length > 0 ? (
-                <>
-                    <div className="grid-cards">
-                        {perfumes.map((p) => (
-                            <PerfumeCard key={p.slug} perfume={p} />
-                        ))}
-                    </div>
-
-                    <div ref={sentinelRef} className="load-more">
-                        {hasMore ? (
-                            <button className="btn btn-ghost" onClick={loadMore} disabled={loadingMore}>
-                                {loadingMore ? "Yükleniyor…" : "Daha fazla göster"}
-                            </button>
-                        ) : (
-                            <span className="muted">Tüm parfümler listelendi.</span>
-                        )}
-                    </div>
-                </>
-            ) : (
-                <p className="empty">Bu filtrelere uyan parfüm bulunamadı. Filtreleri gevşetmeyi deneyin.</p>
-            )}
+            <BrandPerfumesClient
+                slug={slug}
+                brand={brand}
+                initialPerfumes={initialPerfumes}
+                initialTotal={initialTotal}
+            />
         </>
     );
 }
@@ -346,30 +139,5 @@ function BrandSpec({ label, value }: { label: string; value?: string | null }) {
             <th>{label}</th>
             <td>{value}</td>
         </tr>
-    );
-}
-
-function FilterChips({
-    items,
-    active,
-    onPick,
-}: {
-    items: Facet[];
-    active?: string;
-    onPick: (slug: string) => void;
-}) {
-    if (items.length === 0) return null;
-    return (
-        <div className="quick-filter-row">
-            {items.map((item) => (
-                <button
-                    key={item.slug}
-                    className={`chip ${active === item.slug ? "chip-active" : ""}`}
-                    onClick={() => onPick(item.slug)}
-                >
-                    {item.name} <span className="chip-count">{item.count}</span>
-                </button>
-            ))}
-        </div>
     );
 }

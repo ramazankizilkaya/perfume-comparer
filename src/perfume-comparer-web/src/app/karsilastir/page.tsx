@@ -1,144 +1,75 @@
-"use client";
-
-import { useState, useEffect, useRef, useMemo, Suspense, FormEvent } from "react";
-import Link from "next/link";
-import { useSearchParams, useRouter } from "next/navigation";
-import Icon from "@/components/Icon";
-import Stars from "@/components/Stars";
-import Score from "@/components/Score";
-import LoginPrompt from "@/components/LoginPrompt";
+import type { Metadata } from "next";
+import { Suspense } from "react";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
-import { API_BASE, perfumeHref, formatDate, genderLabel, mediaUrl } from "@/lib/urls";
-import { noteIcon } from "@/lib/notes";
-import { useCompare, useAuth, MAX_COMPARE } from "@/lib/stores";
+import CompareClient, { type PerfumeDetail } from "@/components/CompareClient";
+import { API_BASE } from "@/lib/urls";
+import { MAX_COMPARE } from "@/lib/stores";
 
-interface Note {
-    name: string;
-    slug: string;
-    category?: string;
+interface PageProps {
+    searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }
 
-interface ScoredRef {
-    name: string;
-    slug: string;
-    score: number;
-    votes: number;
+function parseSlugs(sp: { [key: string]: string | string[] | undefined }): string[] {
+    const itemsRaw = typeof sp.items === "string" ? sp.items : undefined;
+    if (itemsRaw) {
+        return itemsRaw.split(",").filter(Boolean).slice(0, MAX_COMPARE);
+    }
+    const p1 = typeof sp.p1 === "string" ? sp.p1 : undefined;
+    const p2 = typeof sp.p2 === "string" ? sp.p2 : undefined;
+    return [p1, p2].filter(Boolean) as string[];
 }
 
-interface VoteBar {
-    name: string;
-    slug: string;
-    votes: number;
-    percent: number;
-}
+export async function generateMetadata({ searchParams }: PageProps): Promise<Metadata> {
+    const sp = await searchParams;
+    const slugs = parseSlugs(sp);
 
-interface Accord {
-    name: string;
-    slug: string;
-    width: number;
-}
-
-interface PerfumeDetail {
-    name: string;
-    slug: string;
-    brand: { name: string; slug: string };
-    gender: string;
-    concentration?: string;
-    fragranceFamily?: string;
-    releaseYear?: number;
-    imageUrl?: string;
-    avgRating: number;
-    ratingCount: number;
-    accords: Accord[];
-    notes: { top: Note[]; middle: Note[]; base: Note[]; all: Note[] };
-    seasons: ScoredRef[];
-    timeOfDay: ScoredRef[];
-    longevity: VoteBar[];
-    sillage: VoteBar[];
-    ageGroups: ScoredRef[];
-    usageCount: number;
-    path: string;
-}
-
-interface ComparisonComment {
-    id: number;
-    body: string;
-    createdAt: string;
-    updatedAt?: string | null;
-    isAiSummary: boolean;
-    authorName?: string | null;
-    preferredSlug?: string | null;
-}
-
-interface Suggestion {
-    name: string;
-    slug: string;
-    brandName: string;
-    imageUrl?: string;
-    path: string;
-}
-
-const PLACEHOLDER =
-    "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=400";
-
-export default function ComparePage() {
-    return (
-        <Suspense fallback={<div className="state"><div className="spinner" /><p>Yükleniyor…</p></div>}>
-            <CompareInner />
-        </Suspense>
-    );
-}
-
-function CompareInner() {
-    const searchParams = useSearchParams();
-    const router = useRouter();
-    const { remove } = useCompare();
-
-    // Eski ?p1=&p2= linkleri de items ile aynı tabloyu açar.
-    const slugs = useMemo(() => {
-        const items = searchParams.get("items");
-        if (items) return items.split(",").filter(Boolean).slice(0, MAX_COMPARE);
-        const pair = [searchParams.get("p1"), searchParams.get("p2")].filter(Boolean) as string[];
-        return pair;
-    }, [searchParams]);
-
-    const [perfumes, setPerfumes] = useState<PerfumeDetail[]>([]);
-    const [loading, setLoading] = useState(slugs.length > 0);
-
-    useEffect(() => {
-        if (slugs.length === 0) {
-            setPerfumes([]);
-            setLoading(false);
-            return;
-        }
-        (async () => {
-            setLoading(true);
-            try {
-                const list = await Promise.all(
-                    slugs.map((s) => fetch(`${API_BASE}/api/perfumes/${s}`).then((r) => (r.ok ? r.json() : null))),
-                );
-                setPerfumes(list.filter(Boolean) as PerfumeDetail[]);
-            } catch {
-                setPerfumes([]);
-            } finally {
-                setLoading(false);
+    if (slugs.length >= 2) {
+        try {
+            const list = await Promise.all(
+                slugs.slice(0, 3).map((s) =>
+                    fetch(`${API_BASE}/api/perfumes/${s}`, { next: { revalidate: 60 } }).then((r) =>
+                        r.ok ? r.json() : null,
+                    ),
+                ),
+            );
+            const valid = list.filter(Boolean) as PerfumeDetail[];
+            if (valid.length >= 2) {
+                const names = valid.map((p) => p.name).join(" vs ");
+                return {
+                    title: `${names} Karşılaştırması | Aura Compare`,
+                    description: `${names} parfümlerinin nota piramidi, kalıcılık, yayılım, kullanıcı puanları ve mevsim uyumu karşılaştırması.`,
+                };
             }
-        })();
-    }, [slugs]);
+        } catch {
+            /* varsayılana dön */
+        }
+    }
 
-    const go = (next: string[]) => {
-        router.replace(next.length ? `/karsilastir?items=${next.join(",")}` : "/karsilastir", { scroll: false });
+    return {
+        title: "Koku Karşılaştırma - Parfümleri Yan Yana Kıyaslayın | Aura Compare",
+        description: "En popüler parfümleri koku piramidi, kalıcılık, yayılım ve kullanıcı oylarıyla tek tabloda yan yana karşılaştırın.",
     };
+}
 
-    const drop = (slug: string) => {
-        remove(slug);
-        go(slugs.filter((s) => s !== slug));
-    };
+export default async function ComparePage({ searchParams }: PageProps) {
+    const sp = await searchParams;
+    const slugs = parseSlugs(sp);
 
-    const add = (slug: string) => {
-        if (slugs.includes(slug) || slugs.length >= MAX_COMPARE) return;
-        go([...slugs, slug]);
-    };
+    let initialPerfumes: PerfumeDetail[] = [];
+    if (slugs.length > 0) {
+        try {
+            const list = await Promise.all(
+                slugs.map((s) =>
+                    fetch(`${API_BASE}/api/perfumes/${s}`, { next: { revalidate: 60 } }).then((r) =>
+                        r.ok ? r.json() : null,
+                    ),
+                ),
+            );
+            initialPerfumes = list.filter(Boolean) as PerfumeDetail[];
+        } catch {
+            initialPerfumes = [];
+        }
+    }
 
     return (
         <>
@@ -152,432 +83,9 @@ function CompareInner() {
                 </p>
             </header>
 
-            <div className="compare-picker">
-                <PerfumePicker
-                    label={slugs.length === 0 ? "Parfüm ekle" : "Listeye parfüm ekle"}
-                    disabled={slugs.length >= MAX_COMPARE}
-                    onPick={(s) => add(s.slug)}
-                />
-            </div>
-
-            {loading ? (
-                <div className="state"><div className="spinner" /><p>Yükleniyor…</p></div>
-            ) : perfumes.length === 0 ? (
-                <div className="state">
-                    <h2>Karşılaştırma listeniz boş</h2>
-                    <p>Yukarıdan parfüm arayın ya da parfüm kartlarındaki “Karşılaştır” ile ekleyin.</p>
-                    <Link href="/ara" className="btn btn-primary" style={{ marginTop: "1rem" }}>
-                        <Icon name="search" size={14} /> Parfüm ara
-                    </Link>
-                </div>
-            ) : (
-                <>
-                    <CompareMatrix perfumes={perfumes} onRemove={drop} />
-                    {perfumes.length === 2 && (
-                        <ComparisonComments p1={perfumes[0]} p2={perfumes[1]} />
-                    )}
-                </>
-            )}
+            <Suspense fallback={<div className="state"><div className="spinner" /><p>Yükleniyor…</p></div>}>
+                <CompareClient initialPerfumes={initialPerfumes} initialSlugs={slugs} />
+            </Suspense>
         </>
-    );
-}
-
-/** Tekil parfüm sayfasındaki verilerin tamamını satır satır gösteren tablo. */
-function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRemove: (slug: string) => void }) {
-    const seasonSlugs = dedupe(perfumes.flatMap((p) => p.seasons.map((s) => s.slug)));
-    // Yaş grubu tamamen site kullanıcılarından geliyor; kimse bildirmediyse satırı hiç açma.
-    const ageSlugs = perfumes.some((p) => p.usageCount > 0)
-        ? dedupe(perfumes.flatMap((p) => p.ageGroups.map((a) => a.slug)))
-        : [];
-
-    const seasonName = (slug: string) =>
-        perfumes.flatMap((p) => p.seasons).find((s) => s.slug === slug)?.name ?? slug;
-    const ageName = (slug: string) =>
-        perfumes.flatMap((p) => p.ageGroups).find((a) => a.slug === slug)?.name ?? slug;
-
-    return (
-        <div className="matrix-wrap">
-            <table className="matrix">
-                <tbody>
-                    <tr className="matrix-head">
-                        <th className="row-label" />
-                        {perfumes.map((p) => (
-                            <td key={p.slug}>
-                                <button className="matrix-remove" onClick={() => onRemove(p.slug)} aria-label={`${p.name} kaldır`}>
-                                    <Icon name="close" size={13} />
-                                </button>
-                                <div className="matrix-head-cell">
-                                    <img src={mediaUrl(p.imageUrl) || PLACEHOLDER} alt="" />
-                                    <span className="card-brand">{p.brand.name}</span>
-                                    <Link href={perfumeHref(p.path, p.slug)} className="card-title">
-                                        {p.name}
-                                    </Link>
-                                    <Score value={p.avgRating} count={p.ratingCount} />
-                                </div>
-                            </td>
-                        ))}
-                    </tr>
-
-                    <Row label="Marka" perfumes={perfumes} render={(p) => p.brand.name} />
-                    <Row label="Koku ailesi" perfumes={perfumes} render={(p) => p.fragranceFamily ?? "—"} />
-                    <Row label="Cinsiyet" perfumes={perfumes} render={(p) => genderLabel(p.gender)} />
-                    <Row label="Konsantrasyon" perfumes={perfumes} render={(p) => p.concentration ?? "—"} />
-                    <Row label="Çıkış yılı" perfumes={perfumes} render={(p) => p.releaseYear?.toString() ?? "—"} />
-                    <Row
-                        label="Puan"
-                        perfumes={perfumes}
-                        render={(p) => (
-                            <span className="matrix-score">
-                                <Stars value={p.avgRating} size={15} showValue />
-                                <small>{p.ratingCount.toLocaleString("tr-TR")} oy</small>
-                            </span>
-                        )}
-                    />
-
-                    <Row
-                        label="Ana akorlar"
-                        perfumes={perfumes}
-                        render={(p) => (
-                            <div className="tag-row">
-                                {p.accords.slice(0, 4).map((a) => (
-                                    <span key={a.slug} className="accord-chip">{a.name}</span>
-                                ))}
-                            </div>
-                        )}
-                    />
-
-                    <Row label="Kalıcılık" perfumes={perfumes} render={(p) => topVote(p.longevity)} />
-                    <Row label="Yayılım" perfumes={perfumes} render={(p) => topVote(p.sillage)} />
-
-                    <Row label="Üst notalar" perfumes={perfumes} render={(p) => <NoteList notes={p.notes.top} />} />
-                    <Row label="Orta notalar" perfumes={perfumes} render={(p) => <NoteList notes={p.notes.middle} />} />
-                    <Row label="Alt notalar" perfumes={perfumes} render={(p) => <NoteList notes={p.notes.base} />} />
-                    {perfumes.some((p) => p.notes.all.length > 0) && (
-                        <Row
-                            label="Notalar (piramitsiz)"
-                            perfumes={perfumes}
-                            render={(p) => <NoteList notes={p.notes.all} />}
-                        />
-                    )}
-
-                    <Row
-                        label="Mevsim uyumu"
-                        perfumes={perfumes}
-                        render={(p) => <FacetCell items={p.seasons} order={seasonSlugs} nameOf={seasonName} />}
-                    />
-
-                    <Row
-                        label="Gündüz / gece"
-                        perfumes={perfumes}
-                        render={(p) => <FacetCell items={p.timeOfDay} />}
-                    />
-
-                    <Row
-                        label="Yaş grubu"
-                        perfumes={perfumes}
-                        render={(p) => <FacetCell items={p.ageGroups} order={ageSlugs} nameOf={ageName} />}
-                    />
-                </tbody>
-            </table>
-        </div>
-    );
-}
-
-/** Bir oylamada en çok oy alan seçenek; hiç oy yoksa tire. */
-function topVote(items: VoteBar[]): string {
-    if (!items?.length) return "—";
-    const top = [...items].sort((a, b) => b.votes - a.votes)[0];
-    return top.votes > 0 ? `${top.name} (%${top.percent})` : "—";
-}
-
-function dedupe(values: string[]): string[] {
-    return values.filter((v, i) => values.indexOf(v) === i);
-}
-
-function Row({
-    label, perfumes, render,
-}: {
-    label: string;
-    perfumes: PerfumeDetail[];
-    render: (p: PerfumeDetail) => React.ReactNode;
-}) {
-    return (
-        <tr>
-            <th className="row-label">{label}</th>
-            {perfumes.map((p) => (
-                <td key={p.slug}>{render(p)}</td>
-            ))}
-        </tr>
-    );
-}
-
-function NoteList({ notes }: { notes: Note[] }) {
-    if (!notes?.length) return <span className="faint">—</span>;
-    return (
-        <div className="tag-row">
-            {notes.map((n, i) => (
-                <span key={i} className="note-chip">
-                    <span className="note-ico" aria-hidden="true">{noteIcon(n.name, n.category)}</span>
-                    {n.name}
-                </span>
-            ))}
-        </div>
-    );
-}
-
-/** Karşılaştırma hücresinde mevsim / gün içi / yaş grubunu ikon kutusu olarak gösterir. */
-const FACET_ICONS: Record<string, string> = {
-    ilkbahar: "🌸",
-    yaz: "☀️",
-    sonbahar: "🍂",
-    kis: "❄️",
-    gunduz: "🌤️",
-    gece: "🌙",
-    genc: "🧑",
-    "orta-yas": "🧔",
-    olgun: "🧓",
-    diger: "👥",
-};
-
-function FacetCell({
-    items,
-    order,
-    nameOf,
-}: {
-    items: ScoredRef[];
-    order?: string[];
-    nameOf?: (slug: string) => string;
-}) {
-    const rows = order
-        ? order.map((slug) => items.find((i) => i.slug === slug)
-            ?? { slug, name: nameOf ? nameOf(slug) : slug, score: 0, votes: 0 })
-        : items;
-
-    if (!rows.length || rows.every((r) => r.score === 0)) return <span className="faint">—</span>;
-
-    const best = Math.max(...rows.map((r) => r.score));
-
-    return (
-        <div className="matrix-facets">
-            {rows.map((r) => (
-                <div
-                    key={r.slug}
-                    className={`facet-tile${r.score === best && best > 0 ? " is-best" : ""}`}
-                    title={`${r.name} — %${r.score}`}
-                >
-                    <span className="facet-ico" aria-hidden="true">{FACET_ICONS[r.slug] ?? "•"}</span>
-                    <span className="facet-name">{r.name}</span>
-                    <span className="facet-val">%{r.score}</span>
-                </div>
-            ))}
-        </div>
-    );
-}
-
-function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }) {
-    const { token } = useAuth();
-    const [comments, setComments] = useState<ComparisonComment[]>([]);
-    const [commentText, setCommentText] = useState("");
-    const [preferred, setPreferred] = useState("");
-    const [posting, setPosting] = useState(false);
-    const [status, setStatus] = useState("");
-
-    const endpoint = `${API_BASE}/api/compare/${p1.slug}-vs-${p2.slug}/comments`;
-
-    const load = async () => {
-        try {
-            const res = await fetch(endpoint);
-            if (res.ok) setComments(await res.json());
-        } catch {
-            /* yorumlar kritik değil */
-        }
-    };
-
-    useEffect(() => {
-        load();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [endpoint]);
-
-    const submit = async (e: FormEvent) => {
-        e.preventDefault();
-        if (!commentText.trim()) return;
-        setPosting(true);
-        setStatus("");
-        try {
-            const res = await fetch(endpoint, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    ...(token ? { Authorization: `Bearer ${token}` } : {}),
-                },
-                body: JSON.stringify({ content: commentText, preferredSlug: preferred || null }),
-            });
-            if (res.ok) {
-                setCommentText("");
-                setPreferred("");
-                setStatus("Yorumunuz eklendi.");
-                await load();
-            } else {
-                setStatus("Yorum eklenemedi.");
-            }
-        } catch {
-            setStatus("Bağlantı hatası.");
-        } finally {
-            setPosting(false);
-        }
-    };
-
-    const ai = comments.find((c) => c.isAiSummary) ?? null;
-    const userComments = comments.filter((c) => !c.isAiSummary);
-
-    return (
-        <section className="block">
-            <h2 className="block-title">Bu karşılaştırma hakkında ({userComments.length})</h2>
-
-            {ai && (
-                <div className="ai-summary">
-                    <div className="ai-summary-head">
-                        <Icon name="sparkle" size={14} />
-                        <span>Yorumların yapay zekâ özeti</span>
-                        <span className="comment-date">{formatDate(ai.updatedAt || ai.createdAt)}</span>
-                    </div>
-                    <p className="ai-summary-body">{ai.body}</p>
-                </div>
-            )}
-
-            <div className="comment-form-wrap">
-                <LoginPrompt label="Bu karşılaştırma hakkında yorum yapmak için giriş yapın">
-                    <form onSubmit={submit}>
-                        <div className="form-group">
-                            <label htmlFor="cmp-body">Yorumunuz</label>
-                            <textarea
-                                id="cmp-body"
-                                className="textarea"
-                                placeholder="İkisini karşılaştıran deneyiminizi paylaşın…"
-                                value={commentText}
-                                onChange={(e) => setCommentText(e.target.value)}
-                                required
-                            />
-                        </div>
-                        <div className="form-group">
-                            <label>Hangisini tercih ediyorsunuz?</label>
-                            <div className="tag-row">
-                                <PrefButton label={p1.name} slug={p1.slug} preferred={preferred} setPreferred={setPreferred} />
-                                <PrefButton label={p2.name} slug={p2.slug} preferred={preferred} setPreferred={setPreferred} />
-                            </div>
-                        </div>
-                        <button className="btn btn-primary" disabled={posting}>
-                            <Icon name="send" size={14} /> Gönder
-                        </button>
-                        {status && <p className="form-note ok">{status}</p>}
-                    </form>
-                </LoginPrompt>
-            </div>
-
-            {userComments.length > 0 ? (
-                userComments.map((c) => {
-                    const pref =
-                        c.preferredSlug === p1.slug ? p1.name : c.preferredSlug === p2.slug ? p2.name : null;
-                    return (
-                        <div key={c.id} className="comment">
-                            <div className="comment-head">
-                                <span className="comment-author">{c.authorName ?? "Kullanıcı"}</span>
-                                <span className="comment-date">{formatDate(c.createdAt)}</span>
-                            </div>
-                            {pref && <span className="tag tag-choice">tercihi: {pref}</span>}
-                            <p className="comment-body">{c.body}</p>
-                        </div>
-                    );
-                })
-            ) : (
-                <p className="empty">Bu karşılaştırma için henüz yorum yok.</p>
-            )}
-        </section>
-    );
-}
-
-function PrefButton({
-    label, slug, preferred, setPreferred,
-}: { label: string; slug: string; preferred: string; setPreferred: (s: string) => void }) {
-    const on = preferred === slug;
-    return (
-        <button
-            type="button"
-            className={on ? "tag tag-family tag-choice" : "tag tag-choice"}
-            onClick={() => setPreferred(on ? "" : slug)}
-        >
-            {label}
-        </button>
-    );
-}
-
-function PerfumePicker({
-    label, onPick, disabled,
-}: { label: string; onPick: (s: Suggestion) => void; disabled?: boolean }) {
-    const [query, setQuery] = useState("");
-    const [results, setResults] = useState<Suggestion[]>([]);
-    const [open, setOpen] = useState(false);
-    const boxRef = useRef<HTMLDivElement>(null);
-
-    useEffect(() => {
-        if (query.trim().length < 2) {
-            setResults([]);
-            return;
-        }
-        const t = setTimeout(async () => {
-            try {
-                const res = await fetch(`${API_BASE}/api/search/autocomplete?q=${encodeURIComponent(query)}`);
-                if (res.ok) {
-                    const data = await res.json();
-                    setResults(data.perfumes ?? []);
-                    setOpen(true);
-                }
-            } catch {
-                /* yoksay */
-            }
-        }, 220);
-        return () => clearTimeout(t);
-    }, [query]);
-
-    useEffect(() => {
-        function onOutside(e: MouseEvent) {
-            if (boxRef.current && !boxRef.current.contains(e.target as Node)) setOpen(false);
-        }
-        document.addEventListener("mousedown", onOutside);
-        return () => document.removeEventListener("mousedown", onOutside);
-    }, []);
-
-    return (
-        <div className="form-group" style={{ position: "relative", margin: 0 }} ref={boxRef}>
-            <label>{label}</label>
-            <div className="field">
-                <Icon name="search" />
-                <input
-                    value={query}
-                    disabled={disabled}
-                    onChange={(e) => setQuery(e.target.value)}
-                    onFocus={() => results.length > 0 && setOpen(true)}
-                    placeholder={disabled ? `En fazla ${MAX_COMPARE} parfüm` : "Parfüm ara…"}
-                />
-            </div>
-            {open && results.length > 0 && (
-                <div className="autocomplete">
-                    {results.map((r) => (
-                        <button
-                            key={r.slug}
-                            className="ac-item"
-                            type="button"
-                            onClick={() => { onPick(r); setQuery(""); setOpen(false); }}
-                        >
-                            {r.imageUrl && <img className="ac-thumb" src={mediaUrl(r.imageUrl)} alt="" />}
-                            <span>
-                                <span className="ac-name">{r.name}</span>
-                                <span className="ac-meta">{r.brandName}</span>
-                            </span>
-                        </button>
-                    ))}
-                </div>
-            )}
-        </div>
     );
 }
