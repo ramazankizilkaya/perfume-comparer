@@ -25,14 +25,46 @@
     {
       "name": "çiçeksi",
       "width": "63.1934%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "5",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "4.34",
-    "votesCount": "173",
+    "score": "4.35",
+    "votesCount": "176",
     "breakdown": {
-      "love": "89",
-      "like": "62",
+      "love": "91",
+      "like": "63",
       "ok": "16",
       "dislike": "4",
       "hate": "2"
@@ -40,32 +72,38 @@
   },
   "seasons": {
     "winter": "14",
-    "spring": "91",
-    "summer": "76",
+    "spring": "92",
+    "summer": "78",
     "autumn": "22",
-    "day": "91",
+    "day": "93",
     "night": "17"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Bubbaloo",
+      "Çilek",
+      "Prosecco",
+      "Düğün çiçeği"
+    ]
   },
   "longevity": {
     "veryWeak": "10",
-    "weak": "23",
-    "moderate": "43",
+    "weak": "24",
+    "moderate": "44",
     "longLasting": "5",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "20",
-    "moderate": "43",
+    "moderate": "44",
     "strong": "16",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "73",
+    "female": "74",
     "moreFemale": "8",
     "unisex": "2",
     "moreMale": "0",
@@ -100,10 +138,6 @@
       "name": "Pink Berry Pop"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "Khair Fusion"
-    },
-    {
       "brand": "KENSİE",
       "name": "Buttercup Babe"
     },
@@ -112,8 +146,8 @@
       "name": "Sun-Ripened Raspberry"
     },
     {
-      "brand": "THE HOUSE OF OUD",
-      "name": "Doux Ennui"
+      "brand": "PARIS CORNER",
+      "name": "Khair Fusion"
     },
     {
       "brand": "BODYCOLOGY",
@@ -124,12 +158,12 @@
       "name": "Strawberry Shortcake"
     },
     {
-      "brand": "CHRİSTİAN AUDİGİER",
-      "name": "Ed Hardy Love Is..."
+      "brand": "THE HOUSE OF OUD",
+      "name": "Doux Ennui"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Ghoul Friend"
+      "brand": "CHRİSTİAN AUDİGİER",
+      "name": "Ed Hardy Love Is..."
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -138,6 +172,10 @@
     {
       "brand": "COACH",
       "name": "Coach Love Eau de Parfum"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Ghoul Friend"
     }
   ],
   "peopleAlsoLike": [
@@ -201,5 +239,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Warm Vanilla Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

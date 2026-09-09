@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.91511.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Brightest-Bloom-91511.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Brightest Bloom parfümü, kadınlar için Çiçeksi bir kokudur. Brightest Bloom, 2024 yılında piyasaya sürüldü. Kokuda Müge, Karanfil, Yasemin Sambac ve Sedir notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Brightest Bloom parfümü, kadınlar için Çiçeksi bir kokudur. Brightest Bloom, 2024 yılında piyasaya sürüldü. Kokuda Müge, Karanfil, Yasemin Sambac ve Sedir notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Brightest Bloom parfümü, kadınlar için Çiçeksi bir kokudur. Brightest Bloom, 2024 yılında piyasaya sürüldü. Kokuda Müge, Karanfil, Yasemin Sambac ve Sedir notaları bulunur.",
+  "description": "Bath & Body Works markasının Brightest Bloom parfümü, kadınlar için Çiçeksi bir kokudur. Brightest Bloom, 2024 yılında piyasaya sürüldü. Kokuda Müge, Karanfil, Sambac Yasemini ve Sedir notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Brightest Bloom parfümü, kadınlar için Çiçeksi bir kokudur. Brightest Bloom, 2024 yılında piyasaya sürüldü. Kokuda Müge, Karanfil, Sambac Yasemini ve Sedir notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Brightest Bloom parfümü, kadınlar için Çiçeksi bir kokudur. Brightest Bloom, 2024 yılında piyasaya sürüldü. Kokuda Müge, Karanfil, Sambac Yasemini ve Sedir notaları bulunur.",
   "mainAccords": [
     {
       "name": "beyaz çiçeksi",
@@ -16,55 +16,85 @@
     },
     {
       "name": "çiçeksi",
-      "width": "74.3649%"
+      "width": "73.0632%"
     },
     {
       "name": "taze",
-      "width": "58.7568%"
+      "width": "58.2658%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "58.473%"
+      "width": "57.2912%"
     },
     {
       "name": "odunsu",
-      "width": "52.7027%"
+      "width": "52.1518%"
     },
     {
       "name": "yeşil",
-      "width": "47.4054%"
+      "width": "47.0126%"
     },
     {
-      "name": "aromatik",
-      "width": "44.473%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.14",
-    "votesCount": "331",
+    "votesCount": "337",
     "breakdown": {
-      "love": "136",
-      "like": "126",
-      "ok": "49",
+      "love": "139",
+      "like": "128",
+      "ok": "50",
       "dislike": "19",
       "hate": "1"
     }
   },
   "seasons": {
     "winter": "16",
-    "spring": "180",
-    "summer": "121",
+    "spring": "183",
+    "summer": "123",
     "autumn": "23",
-    "day": "144",
+    "day": "146",
     "night": "18"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Müge",
+      "Karanfil",
+      "Sambac Yasemini",
+      "Sedir"
+    ]
   },
   "longevity": {
-    "veryWeak": "26",
+    "veryWeak": "27",
     "weak": "54",
     "moderate": "85",
     "longLasting": "8",
@@ -78,17 +108,17 @@
   },
   "genderVoting": {
     "female": "154",
-    "moreFemale": "25",
-    "unisex": "10",
+    "moreFemale": "26",
+    "unisex": "11",
     "moreMale": "2",
     "male": "1"
   },
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "4",
-    "fair": "49",
+    "fair": "50",
     "goodValue": "75",
-    "greatValue": "68"
+    "greatValue": "69"
   },
   "remindsMeOf": [
     {
@@ -198,12 +228,12 @@
       "name": "Cheirosa '62"
     },
     {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Fantasy"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "At the Beach"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -213,5 +243,6 @@
       "brand": "BURBERRY",
       "name": "Goddess"
     }
-  ]
+  ],
+  "comments": []
 }

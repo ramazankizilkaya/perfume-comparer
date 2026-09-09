@@ -37,6 +37,34 @@
     {
       "name": "misk",
       "width": "44.4873%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,7 +110,8 @@
       "Vetiver",
       "Kahve",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
@@ -167,12 +196,12 @@
       "name": "Fancy Nights"
     },
     {
-      "brand": "ISSEY MİYAKE",
-      "name": "L'Eau d'Issey Pour Homme"
-    },
-    {
       "brand": "DİOR",
       "name": "Fahrenheit"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau d'Issey Pour Homme"
     },
     {
       "brand": "PRADA",
@@ -198,5 +227,6 @@
       "brand": "L'OCCİTANE EN PROVENCE",
       "name": "Eau des Baux"
     }
-  ]
+  ],
+  "comments": []
 }

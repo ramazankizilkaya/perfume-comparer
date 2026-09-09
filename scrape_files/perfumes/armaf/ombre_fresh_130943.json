@@ -1,7 +1,7 @@
 {
   "name": "Ombre Fresh Armaf",
   "targetGender": "kadınlar ve erkekler için",
-  "fragranceFamily": "Citrus",
+  "fragranceFamily": "Woody",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.130943.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Armaf/Ombre-Fresh-130943.html",
@@ -11,15 +11,7 @@
   "description_enhanced": "Armaf markasının Ombre Fresh parfümü, kadınlar ve erkekler için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Ombre Fresh, 2026 yılında piyasaya sürüldü. Üst nota: Yeşil Mandalina; orta notalar: Lavanta ve Kakule; alt notalar Vanilya ve Odunsu Notalar.",
   "mainAccords": [
     {
-      "name": "narenciye",
-      "width": "100%"
-    },
-    {
-      "name": "lavanta",
-      "width": "100%"
-    },
-    {
-      "name": "vanilya",
+      "name": "odunsu",
       "width": "100%"
     },
     {
@@ -27,7 +19,15 @@
       "width": "100%"
     },
     {
-      "name": "odunsu",
+      "name": "vanilya",
+      "width": "100%"
+    },
+    {
+      "name": "lavanta",
+      "width": "100%"
+    },
+    {
+      "name": "narenciye",
       "width": "100%"
     },
     {
@@ -39,23 +39,51 @@
       "width": "54.5001%"
     },
     {
-      "name": "taze baharatlı",
-      "width": "51.0003%"
-    },
-    {
       "name": "pudralı",
       "width": "51.0003%"
     },
     {
-      "name": "meyvemsi",
+      "name": "taze baharatlı",
+      "width": "51.0003%"
+    },
+    {
+      "name": "bitkisel",
       "width": "44.0002%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "5.00",
-    "votesCount": "3",
+    "votesCount": "4",
     "breakdown": {
-      "love": "3",
+      "love": "4",
       "like": "0",
       "ok": "0",
       "dislike": "0",
@@ -66,7 +94,7 @@
     "winter": "1",
     "spring": "1",
     "summer": "1",
-    "autumn": "3",
+    "autumn": "4",
     "day": "2",
     "night": "0"
   },
@@ -81,7 +109,8 @@
     "base": [
       "Vanilya",
       "Odunsu Notalar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -97,11 +126,11 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "1",
+    "female": "2",
     "moreFemale": "0",
     "unisex": "1",
     "moreMale": "0",
-    "male": "1"
+    "male": "2"
   },
   "priceVoting": {
     "wayOverpriced": "1",
@@ -110,11 +139,20 @@
     "goodValue": "1",
     "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AZZARO",
+      "name": "The Most Wanted Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AFNAN",
       "name": "Lynked Freedom"
+    },
+    {
+      "brand": "ARABİYAT PRESTİGE",
+      "name": "Mahd Al Dhahab"
     },
     {
       "brand": "AFNAN",
@@ -129,48 +167,45 @@
       "name": "Pure Crystal"
     },
     {
-      "brand": "ARMAF",
-      "name": "Dubai Nights Midnight"
-    },
-    {
-      "brand": "ARABİYAT PRESTİGE",
-      "name": "Aristo"
+      "brand": "MİCHAEL MALUL LONDON",
+      "name": "Ginger+Mist"
     },
     {
       "brand": "AROMATİX X FRENCH AVENUE",
       "name": "Forbidden Fruit"
     },
     {
-      "brand": "MİCHAEL MALUL LONDON",
-      "name": "Ginger+Mist"
+      "brand": "FRENCH AVENUE",
+      "name": "Liquid Brun"
     },
     {
       "brand": "DUMONT",
       "name": "Soprano Ice"
     },
     {
+      "brand": "ARABİYAT PRESTİGE",
+      "name": "Aariz"
+    },
+    {
       "brand": "FRENCH AVENUE",
       "name": "Obsidian"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Art of Arabia III"
+      "brand": "ARABİYAT PRESTİGE",
+      "name": "Revolt Uprising"
     },
     {
-      "brand": "DUMONT",
-      "name": "Nitro White"
+      "brand": "AFNAN",
+      "name": "Turathi Blue"
     },
     {
       "brand": "AFNAN",
       "name": "Turathi Electric"
     },
     {
-      "brand": "AHMED AL MAGHRİBİ",
-      "name": "Kaaf"
-    },
-    {
       "brand": "ARABİYAT PRESTİGE",
       "name": "Fahad Regal"
     }
-  ]
+  ],
+  "comments": []
 }

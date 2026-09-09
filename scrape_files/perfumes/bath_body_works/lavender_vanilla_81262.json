@@ -16,11 +16,11 @@
     },
     {
       "name": "aromatik",
-      "width": "57.9999%"
+      "width": "58%"
     },
     {
       "name": "vanilya",
-      "width": "57.9999%"
+      "width": "56%"
     },
     {
       "name": "taze baharatlı",
@@ -29,57 +29,89 @@
     {
       "name": "bitkisel",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.87",
-    "votesCount": "155",
+    "score": "3.88",
+    "votesCount": "163",
     "breakdown": {
-      "love": "50",
-      "like": "56",
-      "ok": "33",
-      "dislike": "11",
+      "love": "53",
+      "like": "59",
+      "ok": "34",
+      "dislike": "12",
       "hate": "5"
     }
   },
   "seasons": {
-    "winter": "39",
-    "spring": "62",
-    "summer": "35",
-    "autumn": "37",
-    "day": "31",
-    "night": "63"
+    "winter": "43",
+    "spring": "66",
+    "summer": "38",
+    "autumn": "39",
+    "day": "33",
+    "night": "67"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Lavanta",
+      "Vanilya Absolutu"
+    ]
   },
   "longevity": {
     "veryWeak": "21",
-    "weak": "22",
+    "weak": "23",
     "moderate": "19",
     "longLasting": "3",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "32",
+    "intimate": "33",
     "moderate": "19",
     "strong": "3",
     "enormous": "1"
   },
   "genderVoting": {
     "female": "22",
-    "moreFemale": "27",
-    "unisex": "23",
+    "moreFemale": "28",
+    "unisex": "24",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "2",
-    "fair": "33",
-    "goodValue": "32",
+    "fair": "34",
+    "goodValue": "34",
     "greatValue": "14"
   },
   "remindsMeOf": [
@@ -112,16 +144,20 @@
       "name": "Rêve Du Matin"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Angham"
-    },
-    {
       "brand": "KUUMBA MADE",
       "name": "Lavender Lace"
     },
     {
+      "brand": "BURBERRY",
+      "name": "Goddess"
+    },
+    {
       "brand": "AXE",
       "name": "Blue Lavender"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Angham"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -138,10 +174,6 @@
     {
       "brand": "LİZ CLAİBORNE",
       "name": "Curve Crush"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Dark Kiss"
     }
   ],
   "peopleAlsoLike": [
@@ -174,6 +206,10 @@
       "name": "Snowflakes & Cashmere"
     },
     {
+      "brand": "NEST",
+      "name": "Indigo"
+    },
+    {
       "brand": "BATH & BODY WORKS",
       "name": "Champagne Toast"
     },
@@ -191,10 +227,6 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "At the Beach"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "In The Stars"
     },
     {
@@ -205,5 +237,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Winter Candy Apple"
     }
-  ]
+  ],
+  "comments": []
 }

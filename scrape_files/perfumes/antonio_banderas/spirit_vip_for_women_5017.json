@@ -33,6 +33,34 @@
     {
       "name": "tatlı",
       "width": "49.1739%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -57,7 +85,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Misk",
+      "Odunsu Notalar",
+      "Çiçeksi Notalar",
+      "Meyvemsi notalar"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -130,12 +164,12 @@
       "name": "Cinéma"
     },
     {
-      "brand": "ANTONİO BANDERAS",
-      "name": "Blue Seduction"
-    },
-    {
       "brand": "MUGLER",
       "name": "Angel"
+    },
+    {
+      "brand": "ANTONİO BANDERAS",
+      "name": "Blue Seduction"
     },
     {
       "brand": "LADY GAGA",
@@ -161,5 +195,6 @@
       "brand": "DONNA KARAN",
       "name": "DKNY Delicious Night"
     }
-  ]
+  ],
+  "comments": []
 }

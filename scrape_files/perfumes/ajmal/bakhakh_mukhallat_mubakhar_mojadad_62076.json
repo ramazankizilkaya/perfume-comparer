@@ -25,6 +25,30 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -49,7 +73,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Agar ağacı (Oud)",
+      "Baharatlı Notalar",
+      "Çiçeksi Notalar"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -79,5 +108,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

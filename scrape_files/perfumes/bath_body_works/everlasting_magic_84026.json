@@ -29,13 +29,41 @@
     {
       "name": "pudralı",
       "width": "49.25%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.27",
-    "votesCount": "170",
+    "votesCount": "171",
     "breakdown": {
-      "love": "81",
+      "love": "82",
       "like": "60",
       "ok": "24",
       "dislike": "4",
@@ -43,17 +71,22 @@
     }
   },
   "seasons": {
-    "winter": "48",
+    "winter": "50",
     "spring": "28",
     "summer": "20",
-    "autumn": "103",
-    "day": "72",
+    "autumn": "104",
+    "day": "73",
     "night": "75"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Meyvemsi Notlar",
+      "Misk",
+      "Çiçek yaprakları"
+    ]
   },
   "longevity": {
     "veryWeak": "16",
@@ -100,10 +133,6 @@
       "name": "Cheirosa '40"
     },
     {
-      "brand": "TAYLOR SWİFT",
-      "name": "Wonderstruck Enchanted"
-    },
-    {
       "brand": "JUİCY COUTURE",
       "name": "Decadent Queen"
     },
@@ -114,6 +143,10 @@
     {
       "brand": "JENNİFER LOPEZ",
       "name": "L.A. Glow"
+    },
+    {
+      "brand": "TAYLOR SWİFT",
+      "name": "Wonderstruck Enchanted"
     },
     {
       "brand": "LOR PARİS",
@@ -147,15 +180,15 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Strawberry Snowflakes"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Strawberry Pound Cake"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Marshmallow Pumpkin Latte"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Cotton Candy Clouds"
     },
     {
       "brand": "ARİANA GRANDE",
@@ -189,5 +222,6 @@
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
     }
-  ]
+  ],
+  "comments": []
 }

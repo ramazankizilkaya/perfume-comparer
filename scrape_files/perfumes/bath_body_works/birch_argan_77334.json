@@ -23,11 +23,11 @@
       "width": "71.5626%"
     },
     {
-      "name": "rom",
+      "name": "dumanlı",
       "width": "68.5%"
     },
     {
-      "name": "dumanlı",
+      "name": "rom",
       "width": "68.5%"
     },
     {
@@ -41,6 +41,34 @@
     {
       "name": "tatlı",
       "width": "48.8125%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -65,7 +93,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Vanilya",
+      "Huş",
+      "Rom",
+      "Argan"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -166,12 +200,13 @@
       "name": "Light Blue"
     },
     {
-      "brand": "BVLGARİ",
-      "name": "Omnia Coral"
-    },
-    {
       "brand": "PARFUMS DE MARLY",
       "name": "Delina"
+    },
+    {
+      "brand": "DİOR",
+      "name": "J'adore"
     }
-  ]
+  ],
+  "comments": []
 }

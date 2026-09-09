@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15074.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Haalih-15074.html",
   "brand": "Ajmal parfüm ve kolonya",
-  "description": "Ajmal markasının Haalih parfümü, kadınlar için Oryantal Odunsu bir kokudur. Üst notalar: Kakule, Brezilya gül ağacı ve Pembe biber; orta notalar: Agar ağacı (Oud), Labdanum ve Ladin; alt notalar Paçuli, Ambergris ve Misk.",
-  "description_original": "Ajmal markasının Haalih parfümü, kadınlar için Oryantal Odunsu bir kokudur. Üst notalar: Kakule, Brezilya gül ağacı ve Pembe biber; orta notalar: Agar ağacı (Oud), Labdanum ve Ladin; alt notalar Paçuli, Ambergris ve Misk.",
-  "description_enhanced": "Ajmal markasının Haalih parfümü, kadınlar için Oryantal Odunsu bir kokudur. Üst notalar: Kakule, Brezilya gül ağacı ve Pembe biber; orta notalar: Agar ağacı (Oud), Labdanum ve Ladin; alt notalar Paçuli, Ambergris ve Misk.",
+  "description": "Ajmal markasının Haalih parfümü, kadınlar için Oryantal Odunsu bir kokudur. Üst notalar: Kakule, Brezilya gül ağacı ve Pembe biber; orta notalar: Agar ağacı (Oud), Labdanum ve Köknar; alt notalar Paçuli, Ambergris ve Misk.",
+  "description_original": "Ajmal markasının Haalih parfümü, kadınlar için Oryantal Odunsu bir kokudur. Üst notalar: Kakule, Brezilya gül ağacı ve Pembe biber; orta notalar: Agar ağacı (Oud), Labdanum ve Köknar; alt notalar Paçuli, Ambergris ve Misk.",
+  "description_enhanced": "Ajmal markasının Haalih parfümü, kadınlar için Oryantal Odunsu bir kokudur. Üst notalar: Kakule, Brezilya gül ağacı ve Pembe biber; orta notalar: Agar ağacı (Oud), Labdanum ve Köknar; alt notalar Paçuli, Ambergris ve Misk.",
   "mainAccords": [
     {
       "name": "odunsu",
@@ -49,6 +49,30 @@
     {
       "name": "tatlı",
       "width": "52.1492%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,13 +103,14 @@
     "middle": [
       "Agar ağacı (Oud)",
       "Labdanum",
-      "Ladin"
+      "Köknar"
     ],
     "base": [
       "Paçuli",
       "Ambergris",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -181,5 +206,6 @@
       "brand": "GUERLAİN",
       "name": "Jardins de Bagatelle"
     }
-  ]
+  ],
+  "comments": []
 }

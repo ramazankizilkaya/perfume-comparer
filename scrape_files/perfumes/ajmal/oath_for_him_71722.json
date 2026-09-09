@@ -35,11 +35,11 @@
       "width": "60.4908%"
     },
     {
-      "name": "yosunlu",
+      "name": "pudralı",
       "width": "60.0613%"
     },
     {
-      "name": "pudralı",
+      "name": "yosunlu",
       "width": "60.0613%"
     },
     {
@@ -49,13 +49,37 @@
     {
       "name": "beyaz çiçeksi",
       "width": "51.4724%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.85",
-    "votesCount": "26",
+    "score": "3.89",
+    "votesCount": "27",
     "breakdown": {
-      "love": "5",
+      "love": "6",
       "like": "14",
       "ok": "5",
       "dislike": "2",
@@ -65,9 +89,9 @@
   "seasons": {
     "winter": "6",
     "spring": "9",
-    "summer": "9",
-    "autumn": "13",
-    "day": "13",
+    "summer": "10",
+    "autumn": "14",
+    "day": "14",
     "night": "6"
   },
   "notes": {
@@ -94,7 +118,8 @@
       "Vetiver",
       "Sedir",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
@@ -167,12 +192,12 @@
       "name": "Club de Nuit Intense Man"
     },
     {
-      "brand": "ARMAF",
-      "name": "Oud"
-    },
-    {
       "brand": "PRADA",
       "name": "Prada L'Homme Intense"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "Wanted by Night"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -202,5 +227,6 @@
       "brand": "ARMAF",
       "name": "Craze"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -57,85 +57,43 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Şeftali",
+      "Çay",
+      "Nektarin",
+      "Elma çiçeği",
+      "Yasemin"
+    ]
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "3",
-    "moderate": "3",
-    "longLasting": "1",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "3",
-    "strong": "1",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "10",
-    "moreFemale": "2",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "4",
-    "greatValue": "4"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Honeysuckle & Peach Spritz"
-    },
-    {
-      "brand": "ELİZABETH ARDEN",
-      "name": "Green Tea Nectarine Blossom"
-    },
-    {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Peach"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Tobacolor"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Love Spell"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Peach Prosecco Macaron"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Plumeria"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Peach Glow Eau de Parfum"
-    },
-    {
-      "brand": "FLAVİA",
-      "name": "Peach Honey"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Love Spell Candied"
-    },
-    {
-      "brand": "SORCE",
-      "name": "A Sign Painted Peaches"
-    },
-    {
-      "brand": "AVON",
-      "name": "Far Away Endless Sun"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "ARİANA GRANDE",
@@ -150,12 +108,12 @@
       "name": "Champagne Apple & Honey"
     },
     {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Fantasy"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Pink Pineapple Sunrise"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Fantasy"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -197,5 +155,6 @@
       "brand": "ARİANA GRANDE",
       "name": "Cloud"
     }
-  ]
+  ],
+  "comments": []
 }

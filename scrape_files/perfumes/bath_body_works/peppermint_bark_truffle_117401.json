@@ -37,21 +37,49 @@
     {
       "name": "kakao",
       "width": "52.6801%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.80",
-    "votesCount": "130",
+    "score": "3.77",
+    "votesCount": "131",
     "breakdown": {
       "love": "39",
-      "like": "48",
-      "ok": "23",
+      "like": "47",
+      "ok": "24",
       "dislike": "18",
-      "hate": "2"
+      "hate": "3"
     }
   },
   "seasons": {
-    "winter": "73",
+    "winter": "74",
     "spring": "3",
     "summer": "3",
     "autumn": "19",
@@ -61,7 +89,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Bitter çikolata",
+      "Baharatlı nane",
+      "Kek",
+      "Beyaz çikolata"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
@@ -86,7 +120,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "2",
-    "fair": "23",
+    "fair": "24",
     "goodValue": "23",
     "greatValue": "18"
   },
@@ -175,11 +209,11 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Cereal Milk Soft Serve"
+      "name": "Warm Vanilla Sugar"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Warm Vanilla Sugar"
+      "name": "Cereal Milk Soft Serve"
     },
     {
       "brand": "SOL DE JANEİRO",
@@ -213,5 +247,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
     }
-  ]
+  ],
+  "comments": []
 }

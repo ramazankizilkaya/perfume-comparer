@@ -49,6 +49,30 @@
     {
       "name": "narenciye",
       "width": "46.25%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +97,21 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Gül",
+      "Misk",
+      "Muskat",
+      "Karabiber",
+      "Baharatlı Notalar",
+      "Sandal ağacı",
+      "Agar ağacı (Oud)",
+      "Karanfil",
+      "Tonka fasulyesi",
+      "Limon",
+      "Kimyon",
+      "Yasemin"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -164,5 +202,6 @@
       "brand": "GUERLAİN",
       "name": "Vol de Nuit"
     }
-  ]
+  ],
+  "comments": []
 }

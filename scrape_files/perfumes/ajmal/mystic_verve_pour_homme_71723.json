@@ -23,10 +23,6 @@
       "width": "65%"
     },
     {
-      "name": "amber",
-      "width": "55.9259%"
-    },
-    {
       "name": "misk",
       "width": "55.9259%"
     },
@@ -39,12 +35,40 @@
       "width": "55.9259%"
     },
     {
+      "name": "amber",
+      "width": "55.9259%"
+    },
+    {
       "name": "yumuşak baharatlı",
       "width": "48.1481%"
     },
     {
       "name": "toprak",
       "width": "45.5556%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -80,7 +104,8 @@
       "Amber",
       "Vetiver",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -110,5 +135,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

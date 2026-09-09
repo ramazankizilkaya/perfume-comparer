@@ -37,6 +37,30 @@
     {
       "name": "pudralı",
       "width": "50.625%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +97,8 @@
       "Misk",
       "Amber",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -170,12 +195,12 @@
       "name": "Luna"
     },
     {
-      "brand": "MUGLER",
-      "name": "Angel"
-    },
-    {
       "brand": "LOLİTA LEMPİCKA",
       "name": "Lolita Lempicka"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel"
     },
     {
       "brand": "TOM FORD",
@@ -193,5 +218,6 @@
       "brand": "CHANEL",
       "name": "Gabrielle"
     }
-  ]
+  ],
+  "comments": []
 }

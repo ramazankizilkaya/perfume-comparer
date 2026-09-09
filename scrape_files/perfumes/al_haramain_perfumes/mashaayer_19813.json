@@ -37,6 +37,34 @@
     {
       "name": "tarçın",
       "width": "45.3846%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,7 +89,16 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Baharatlı Notalar",
+      "Ardıç",
+      "Bitter çikolata",
+      "Safran",
+      "Misk",
+      "Tarçın",
+      "Çiçeksi Notalar"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -90,17 +127,8 @@
     "goodValue": "0",
     "greatValue": "0"
   },
-  "remindsMeOf": [
-    {
-      "brand": "BYREDO",
-      "name": "Accord Oud"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
-    {
-      "brand": "AMOUAGE",
-      "name": "Memoir Woman"
-    },
     {
       "brand": "DİOR",
       "name": "Dolce Vita"
@@ -156,6 +184,11 @@
     {
       "brand": "CHANEL",
       "name": "Chanel N°5 Eau Premiere"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Dia Woman"
     }
-  ]
+  ],
+  "comments": []
 }

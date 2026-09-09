@@ -45,25 +45,49 @@
     {
       "name": "amber",
       "width": "46.2578%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.72",
-    "votesCount": "39",
+    "score": "3.80",
+    "votesCount": "45",
     "breakdown": {
-      "love": "11",
+      "love": "15",
       "like": "15",
-      "ok": "8",
+      "ok": "10",
       "dislike": "1",
       "hate": "4"
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "9",
-    "summer": "16",
+    "summer": "18",
     "autumn": "2",
-    "day": "9",
+    "day": "10",
     "night": "1"
   },
   "notes": {
@@ -82,32 +106,33 @@
       "Açık renkli odunlar",
       "Sedir ağacı",
       "Günlük"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
     "weak": "1",
-    "moderate": "3",
+    "moderate": "4",
     "longLasting": "6",
     "eternal": "1"
   },
   "sillage": {
     "intimate": "4",
-    "moderate": "3",
+    "moderate": "4",
     "strong": "2",
     "enormous": "1"
   },
   "genderVoting": {
     "female": "4",
     "moreFemale": "1",
-    "unisex": "9",
+    "unisex": "10",
     "moreMale": "1",
     "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "6",
+    "wayOverpriced": "7",
     "overpriced": "4",
-    "fair": "8",
+    "fair": "10",
     "goodValue": "0",
     "greatValue": "0"
   },
@@ -137,10 +162,6 @@
       "name": "Acqua di Parma Colonia"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Bracken Woman"
-    },
-    {
       "brand": "AL HARAMAİN PERFUMES",
       "name": "Portfolio Neroli Canvas"
     },
@@ -157,6 +178,10 @@
       "name": "Cologne"
     },
     {
+      "brand": "AMOUAGE",
+      "name": "Bracken Woman"
+    },
+    {
       "brand": "CELİNE",
       "name": "Saint-Germain-Des-Pres"
     },
@@ -167,28 +192,40 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Sedley"
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Vibrato"
     },
     {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Acqua di Parma Blu Mediterraneo Bergamotto di Calabria"
+      "brand": "GUERLAİN",
+      "name": "Néroli Outrenoir"
+    },
+    {
+      "brand": "GOLDFİELD & BANKS AUSTRALİA",
+      "name": "Ingenious Ginger"
     },
     {
       "brand": "ACQUA Dİ PARMA",
       "name": "Buongiorno"
     },
     {
-      "brand": "CHANEL",
-      "name": "Bleu de Chanel Eau de Parfum"
+      "brand": "LOUİS VUİTTON",
+      "name": "On The Beach"
     },
     {
       "brand": "EX NİHİLO",
       "name": "Blue Talisman"
     },
     {
+      "brand": "XERJOFF",
+      "name": "Torino21"
+    },
+    {
       "brand": "LOUİS VUİTTON",
       "name": "Imagination"
+    },
+    {
+      "brand": "CREED",
+      "name": "Aventus Cologne"
     },
     {
       "brand": "PARFUMS DE MARLY",
@@ -203,28 +240,17 @@
       "name": "Taormina Orange"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Bigarade Concentree"
-    },
-    {
       "brand": "CREED",
       "name": "Wild Vetiver"
     },
     {
-      "brand": "LE LABO",
-      "name": "The Noir 29"
+      "brand": "DİPTYQUE",
+      "name": "Orphéon Eau de Parfum"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Acqua di Giò Profumo"
-    },
-    {
-      "brand": "ESSENTİAL PARFUMS",
-      "name": "Bois Impérial"
-    },
-    {
-      "brand": "CREED",
-      "name": "Aventus"
+      "brand": "LOUİS VUİTTON",
+      "name": "Afternoon Swim"
     }
-  ]
+  ],
+  "comments": []
 }

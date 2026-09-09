@@ -45,21 +45,45 @@
     {
       "name": "aromatik",
       "width": "44.5318%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.70",
-    "votesCount": "46",
+    "score": "3.73",
+    "votesCount": "49",
     "breakdown": {
-      "love": "13",
-      "like": "18",
+      "love": "14",
+      "like": "20",
       "ok": "8",
       "dislike": "2",
       "hate": "5"
     }
   },
   "seasons": {
-    "winter": "4",
+    "winter": "5",
     "spring": "16",
     "summer": "17",
     "autumn": "6",
@@ -80,7 +104,8 @@
       "Misk tohumu",
       "Misk",
       "Ambroksan"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
@@ -99,7 +124,7 @@
     "female": "8",
     "moreFemale": "3",
     "unisex": "6",
-    "moreMale": "0",
+    "moreMale": "1",
     "male": "0"
   },
   "priceVoting": {
@@ -119,48 +144,56 @@
       "name": "Laundry"
     },
     {
-      "brand": "DİPTYQUE",
-      "name": "L'Eau Papier"
-    },
-    {
       "brand": "ACQUA Dİ PARMA",
       "name": "Fico di Amalfi La Riserva"
+    },
+    {
+      "brand": "NOSEWAY 迷香人",
+      "name": "Threaded Sky 空織雲"
     },
     {
       "brand": "HOUBİGANT",
       "name": "Iris des Champs"
     },
     {
-      "brand": "DİPTYQUE",
-      "name": "Fleur de Peau Eau de Parfum"
-    },
-    {
       "brand": "SALON DE NEVAEH",
       "name": "Pure Water"
     },
     {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "724"
+      "brand": "DİPTYQUE",
+      "name": "L'Eau Papier"
     },
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Aqua Media Cologne Forte"
     },
     {
-      "brand": "LOEWE",
-      "name": "Ópera"
-    },
-    {
       "brand": "DİPTYQUE",
       "name": "Fleur de Peau Eau de Toilette"
     },
     {
-      "brand": "NİSHANE",
-      "name": "Meant To Be Seen"
+      "brand": "LE LABO",
+      "name": "Violette 30"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Fleur de Peau Eau de Parfum"
     },
     {
       "brand": "BJORK AND BERRİES",
       "name": "Fjällsjö"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Ilio"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "724"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Ópera"
     }
   ],
   "peopleAlsoLike": [
@@ -185,16 +218,16 @@
       "name": "Black Tie"
     },
     {
-      "brand": "MATİERE PREMİERE",
+      "brand": "MATİÈRE PREMİÈRE",
       "name": "Neroli Oranger"
-    },
-    {
-      "brand": "LOUİS VUİTTON",
-      "name": "Imagination"
     },
     {
       "brand": "DİPTYQUE",
       "name": "Ilio"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Imagination"
     },
     {
       "brand": "ETAT LİBRE D'ORANGE",
@@ -224,5 +257,6 @@
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Baccarat Rouge 540"
     }
-  ]
+  ],
+  "comments": []
 }

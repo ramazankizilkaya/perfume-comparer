@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.14028.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Aurum-14028.html",
   "brand": "Ajmal parfüm ve kolonya",
-  "description": "Ajmal markasının Aurum parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Aurum, 2011 yılında piyasaya sürüldü. Üst notalar: Ahududu ve Limon; orta notalar: Meyvemsi notalar, Gardenya, Portakal çiçeği, Yasemin ve Baharatlı notalar; alt notalar Pudramsı notalar, Vanilya, Misk, Amber ve Odunsu Notalar.",
-  "description_original": "Ajmal markasının Aurum parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Aurum, 2011 yılında piyasaya sürüldü. Üst notalar: Ahududu ve Limon; orta notalar: Meyvemsi notalar, Gardenya, Portakal çiçeği, Yasemin ve Baharatlı notalar; alt notalar Pudramsı notalar, Vanilya, Misk, Amber ve Odunsu Notalar.",
-  "description_enhanced": "Ajmal markasının Aurum parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Aurum, 2011 yılında piyasaya sürüldü. Üst notalar: Ahududu ve Limon; orta notalar: Meyvemsi notalar, Gardenya, Portakal çiçeği, Yasemin ve Baharatlı notalar; alt notalar Pudramsı notalar, Vanilya, Misk, Amber ve Odunsu Notalar.",
+  "description": "Ajmal markasının Aurum parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Aurum, 2011 yılında piyasaya sürüldü. Üst notalar: Ahududu ve Limon; orta notalar: Meyvemsi notalar, Gardenya, Portakal çiçeği, Yasemin ve Baharatlı Notalar; alt notalar Pudramsı notalar, Vanilya, Misk, Amber ve Odunsu Notalar.",
+  "description_original": "Ajmal markasının Aurum parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Aurum, 2011 yılında piyasaya sürüldü. Üst notalar: Ahududu ve Limon; orta notalar: Meyvemsi notalar, Gardenya, Portakal çiçeği, Yasemin ve Baharatlı Notalar; alt notalar Pudramsı notalar, Vanilya, Misk, Amber ve Odunsu Notalar.",
+  "description_enhanced": "Ajmal markasının Aurum parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Aurum, 2011 yılında piyasaya sürüldü. Üst notalar: Ahududu ve Limon; orta notalar: Meyvemsi notalar, Gardenya, Portakal çiçeği, Yasemin ve Baharatlı Notalar; alt notalar Pudramsı notalar, Vanilya, Misk, Amber ve Odunsu Notalar.",
   "mainAccords": [
     {
       "name": "beyaz çiçeksi",
@@ -16,55 +16,83 @@
     },
     {
       "name": "meyvemsi",
-      "width": "95.8978%"
+      "width": "95.9055%"
     },
     {
       "name": "tatlı",
-      "width": "82.3081%"
+      "width": "82.2754%"
     },
     {
       "name": "pudralı",
-      "width": "69.3007%"
+      "width": "69.2264%"
     },
     {
       "name": "narenciye",
-      "width": "54.5461%"
+      "width": "54.6319%"
     },
     {
       "name": "vanilya",
-      "width": "50.7749%"
+      "width": "50.7359%"
     },
     {
       "name": "misk",
-      "width": "47.7317%"
+      "width": "47.698%"
     },
     {
       "name": "animalik",
-      "width": "46.7392%"
+      "width": "46.734%"
     },
     {
       "name": "amber",
-      "width": "46.6728%"
+      "width": "46.6414%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": ""
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.75",
-    "votesCount": "947",
+    "votesCount": "953",
     "breakdown": {
-      "love": "215",
-      "like": "466",
+      "love": "217",
+      "like": "469",
       "ok": "91",
-      "dislike": "165",
+      "dislike": "166",
       "hate": "10"
     }
   },
   "seasons": {
-    "winter": "154",
-    "spring": "179",
-    "summer": "163",
-    "autumn": "227",
-    "day": "257",
-    "night": "148"
+    "winter": "155",
+    "spring": "182",
+    "summer": "166",
+    "autumn": "230",
+    "day": "260",
+    "night": "149"
   },
   "notes": {
     "top": [
@@ -76,7 +104,7 @@
       "Gardenya",
       "Portakal çiçeği",
       "Yasemin",
-      "Baharatlı notalar"
+      "Baharatlı Notalar"
     ],
     "base": [
       "Pudramsı notalar",
@@ -84,25 +112,26 @@
       "Misk",
       "Amber",
       "Odunsu Notalar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "26",
-    "weak": "48",
+    "weak": "49",
     "moderate": "112",
-    "longLasting": "125",
+    "longLasting": "126",
     "eternal": "69"
   },
   "sillage": {
-    "intimate": "54",
+    "intimate": "55",
     "moderate": "112",
     "strong": "152",
     "enormous": "111"
   },
   "genderVoting": {
-    "female": "160",
-    "moreFemale": "37",
-    "unisex": "38",
+    "female": "162",
+    "moreFemale": "38",
+    "unisex": "39",
     "moreMale": "3",
     "male": "0"
   },
@@ -111,7 +140,7 @@
     "overpriced": "14",
     "fair": "91",
     "goodValue": "56",
-    "greatValue": "45"
+    "greatValue": "46"
   },
   "remindsMeOf": [
     {
@@ -163,12 +192,12 @@
       "name": "565 by Swedoft"
     },
     {
-      "brand": "GUCCİ",
-      "name": "Flora by Gucci Eau de Parfum"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Italian Cypress"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Flora by Gucci Eau de Parfum"
     },
     {
       "brand": "RİCHARD",
@@ -217,12 +246,12 @@
       "name": "Tobacco Vanille"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Black Orchid"
-    },
-    {
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -235,6 +264,208 @@
     {
       "brand": "VERSACE",
       "name": "Crystal Noir"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent712196",
+      "author": "Stararmour",
+      "date": "2023-04-17",
+      "text": "Elimde bu üründen büyük boy bir şişe vardı, kırıldı ve odam günlerce cennet gibi koktu.\n\nOn yıldan fazla bir süre sonra, hatırladığım kokunun hala aynı olup olmadığını görmek için 10 ml'lik deneme boyunu sipariş ettim. Çok farklı yorumlar vardı...\n\nNihayet bugün elime ulaştı ve bileğime küçük bir miktar sürdüm. Açılışta biraz yoğun ve tütsülü çiçeksi bir kokuya sahip, ancak çok geçmeden oldukça yumuşak bir beyaz çiçek karışımına dönüşüyor. Misk ve pudra notaları, çok yaseminli veya çok tatlı olmayan beyaz çiçeklerin kalbini adeta sarıyor.\n\nYaklaşık 22 yıl önce, ben okuldayken Ponds Dream Flower talk pudrası vardı, yanlış hatırlamıyorsam. Kuruduktan sonraki kokusu da ona çok benziyor, bu yüzden benim için çok nostaljik.\n\nBeyaz çiçeksi veya pudralı notaları sevmiyorsanız ağır ve bunaltıcı gelebilir, ancak seviyorsanız koku koleksiyonunuzda mutlaka bulunması gereken bir ürün. Duştan yeni çıkmışken veya cilt bakımınıza yeni başlamışken hafifçe sürün... Evden çıktığınızda, o mükemmel, yumuşak, enfes ve narin çiçeksi kokuya dönüşmüş olacak...",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.71975.jpg"
+    },
+    {
+      "id": "parent712205",
+      "author": "ValeVari",
+      "date": "2022-09-13",
+      "text": "Merhaba! Bu parfümü yazın aldım ama çok yoğun olduğu için kullanamadım. Kış bittiğine göre sonunda denemeye cesaret ettim ve şaşırdım. Ciltte 24 saate kadar kalıcı, neredeyse hissedilmeyen ama kesinlikle var olan yumuşak bir koku. Parfümün çok yoğun olacağını düşündüğüm dip notaları konusunda endişeliydim, bu yüzden gerçekten beğendim. Ancak, kendim kullanmak bir zevkti. Bazı parfümler gibi paylaşmak için değil, kendinize bir ödül olarak alabileceğiniz bir şey. Kesinlikle satın almaya değerdi.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.10649.jpg"
+    },
+    {
+      "id": "parent712195",
+      "author": "Manya3",
+      "date": "2021-10-18",
+      "text": "Resmi web sitesinden yaptığım bir alışverişle birlikte bu ürünü de örnek olarak aldım; diğer iki örnek ise Sacrifice (kokusu muhteşem ama maalesef şişesi sızdı) ve Amaze (veritabanında yok ama kısaca söylemek gerekirse, Burberry'nin Body+Her'ine benziyor, hiç benim tarzım değil ama çok yoğun, çıkaramadım!).\nAurum ise çok hoş, kaliteli, batılı tasarımcı tarzı bir parfüm; bana 2000'ler-2010'larda üretilenlerin yarısını hatırlatıyor. Burada baharatlı veya Arap esintili hiçbir şey yok, daha çok Fransız parfümünün bir yorumu; eğer kör tadım yapsaydım ve bunun J'adore'un bir flanker'ı olduğu söylenseydi, inanırdım. Meyveli tatlı notaları nedeniyle El Nabil'in Musk Gold'unu hatırlatıyor.\nTatlı, sulu limon, hafif sucul ahududu, ayırt edilemeyen beyaz çiçekler ve pudralı vanilya notaları alıyorum. İçinde biraz da misk var ki, genellikle misk notalarını pek sevmesem de bu hoşuma gidiyor. Altın külçesi gibi pürüzsüz, yekpare bir kompozisyon.\nBu, parfüm meraklısı olmayan sıradan insanlar için harika bir hediye olurdu 🤭 ya da günlük işler ve iş için tercih edilebilecek bir koku olarak da düşünebilirim. Az miktarda kullanıldığında kimseyi rahatsız etmez veya boğmaz.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.42604.jpg"
+    },
+    {
+      "id": "parent712215",
+      "author": "Radixi",
+      "date": "2021-07-20",
+      "text": "Bugün, beklenmedik bir şekilde, bu Darling'i özellikle beğendim. Bir aydır süren bunaltıcı sıcaktan sonra, duş jeli, sabun ve su dışında hiçbir parfüm istemiyordum. Ve taze, canlı karpuz.\nBugün hava sadece +20 derece, harika - ve Aurum bir tür sihirli kozaya dönüşmüş. Uzaktan duyulabiliyor, nefes almak kolay, neon gibi tüm renklerle parıldıyor.\nRive Gauche gibi bir parfüm dükkanı olarak başladı ve sonra havai fişekler gibi, tam olarak tarif edilemeyen farklı tonlarda kıvılcımlara dönüştü. Ancak her nüans, çeşitli olumlu duygular uyandırıyor. İçinde pudra, acılık, vanilya, burukluk, fougere, şeker ve çimen olmasına rağmen... bu koku bugün beklenmedik bir bukalemun gibi davrandı.\nOnu serin ara sokakta yürüyüşe çıkaracağım.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.126657.jpg"
+    },
+    {
+      "id": "parent712211",
+      "author": "Thanaquil",
+      "date": "2021-05-04",
+      "text": "Melly bu kokuyu mükemmel bir şekilde tanımlamış, onun kapsamlı incelemesine eklenecek pek bir şey yok gerçekten!!\n\nYağlı boya versiyonu, altın snitch, aynı izlenimler.\nParfüm parmakla sürülüyor ☺☺ ve anında canlı ve parlak meyvemsi notalara dönüşüyor; hafif ekşi ve \"sulu\" bu notalar, yaratımın ana kahramanlarını temsil ediyor: iyi yapılmış ve yapay değil, kesinlikle hoş olmayan bir koku değil: bolca narenciye ve bazı kırmızı meyveler kokusu alıyorum... sonra beyaz çiçekler, odunsu notalar ve bazı baharatlar biraz belirsiz bir şekilde ortaya çıkıyor... bu, parfümün Rabanne'nin Lady Million'ına dönüştüğü aşama, ancak daha meyvemsi, daha az hoş ve daha egzotik bir havaya sahip.\nBurada gerçek anlamda Arap olan ya da öyle olduğu varsayılan hiçbir şey yok; Batı, evriminin her anında egemen konumda ve kendine ve gençlik tazeliğine sadık kalıyor.\nAurum canlı, tene yapışan ama kendini fazla hissettirmeyen, samimi ortamlarda, belki de sıcak bir banyo veya güzel bir duşun buharıyla ısınmış tende keyifle kullanılabilecek, çok zarif bir koku.\nBurnum pudralı notaları veya amber bileşenini algılamıyor... ama koku kesinlikle hoş ve rahatsız edici değil.\nİhtiyatlı.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.46802.jpg"
+    },
+    {
+      "id": "parent712198",
+      "author": "Anamandy",
+      "date": "2021-01-22",
+      "text": "Bu kokuda çok çekici bir şey var. Ne olduğunu bilmiyorum ve şu anda ne kokladığımdan bile emin değilim. Meyve mi? Gardenya mı? Baharatlar mı? Jelibon mu?! LOL. Gerçekten emin değilim ama tüm notaların birleşimi etrafımda harika kokuyor, çok sıra dışı ve sıradan bir parfüme hiç benzemiyor. Garip ve tarif etmesi zor, ama harika kokuyor. Lady Million'ı hiç koklamadım, bu yüzden ona benziyor mu bilmiyorum, ama bundan daha iyi kokabileceğini hayal edemiyorum.\n\n2/2025 - Sonunda Lady Million'ın bir örneğini edindim ve tahminlerim doğru çıktı; bundan daha güzel kokmuyor. Lady Million, buna kıyasla çok parfümlü, bayıcı ve eski moda.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1174774.gif"
+    },
+    {
+      "id": "parent712210",
+      "author": "MellyHelly",
+      "date": "2020-12-14",
+      "text": "Yağ versiyonu\nArap bağlamında bir başka uygun fiyatlı alışveriş, bir başka göreceli merkez ve özellikle göreceli diyorum.\nNeden mi? Çünkü kesinlikle giyilebilir ve hoş, ama belki de ona bayılmıyorum.\nYağ bazlı versiyonunun, tahmin edebileceğiniz gibi, çok az kalıcılığı var, bu nedenle daha çok özel günler için kullanılan bir parfüm olarak kalıyor.\nAurum isminin tipik bir karışımı mı ifade ettiğini yoksa Latince'deki altın kelimesinden esinlenerek farklı parfümlere mi verildiğini söyleyemem.\nŞişe küçük, tamamen altın renginde ve biraz soyulmaya meyilli kağıt bir etikete sahip, ama çok şirin. Şişenin içinde altın yapraklar bulunan alkollü versiyonu değil.\nBu yağlı versiyon, kalıcı bir koku yayılımı olmamasına rağmen, oldukça yoğun ve güçlü. Az miktarda olmasına rağmen, açılışı oldukça güçlü. Ancak, Batı parfümeri kültürümüzden soyut bir şey gibi gelmiyor bana.\nOrta Doğu'ya özgü bir havası var ama genel olarak oldukça tanıdık bir koku, biraz 80'ler-90'lar tarzı baharatlı bir kokuya benziyor. Beyaz çiçek notaları da içeren, oldukça karmaşık, tatlı-odunsu, meyveli-baharatlı bir koku olarak tanımlayabilirim; biraz sıradan ama hoş.\nNe yazık ki benim için bu parfüm, açılışta etkisini gösteriyor ve bu etki ilk 10 dakika içinde gerçekleşiyor, ardından koku oldukça hızlı bir şekilde kayboluyor. Kalıcılık açısından oldukça uzun bir süre ciltte kalıyor, ancak kesinlikle çok hafif bir şekilde ve burnunuzu tam olarak uygulandığı noktaya yaklaştırmadığınız sürece fark edilmiyor.\nAlkollü versiyonunun farklı davrandığını tahmin ediyorum. Bu versiyonu en iyi nasıl kullanacağımı bulmam gerekiyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.8.jpg"
+    },
+    {
+      "id": "parent712227",
+      "author": "Tierelantijntje",
+      "date": "2020-06-21",
+      "text": "Vay canına! Ne harika bir keşif! Koku, meyve ve çiçek notalarıyla dolu, güzelce harmanlanmış, sıcak bir şekilde açılıyor. Meyve notaları dolgun ve sulu, çiçek notaları ise tam anlamıyla açmış durumda. Yumuşak, tatlı (ama gerçekten gurme değil), sıcak ve balzamik. Kuruduktan sonra misk, odun ve pudramsı bir nota hissediyorum. Kokunun tamamı çok zengin ve dolgun. Çok şehvetli! İçinde paçuli veya öd ağacı yok (ki buna sevindim).\n\nSize bir fikir vermesi açısından, kokusu biraz Lady Million'ı anımsatıyor.\n\nArap parfümleri yoğunlukları ve kaliteleriyle bilinir. Elime sadece bir damla sıktığımda ilk başta muazzam bir koku yayılımı vardı. 3-4 saat sonra ise kokusunu çok hafif hissedebiliyordum.\nBu benim ilk Attar parfümüm (alkolsüz, yağ bazlı versiyonunu kullanıyorum) ve sadece çok hoş bir sürpriz olduğunu söyleyebilirim. Bu parfüm kesinlikle favorilerim arasına girecek! Daha fazla deneme yaptıktan sonra kalıcılık ve yayılım konusunda daha iyi bir anlayışa sahip olursam, yorumumu güncelleyeceğim.\n\nArap parfümlerinden farklı beklentilerim vardı: çok ağır, yoğun ve tütsü gibi. Ama bu parfüm öyle değil. Bu koku çok zengin, ancak hafif ve kesinlikle oryantal bir çarşı deneyimi değil. Ne kadar da önyargılıymışım, değil mi? Bu mücevheri keşfettiğime göre, bu önyargılarımı kendim için ortadan kaldırdığıma çok sevindim!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.nl",
+      "avatar": "https://fimgs.net/mdimg/avatarinl/m.11563.jpg"
+    },
+    {
+      "id": "parent712192",
+      "author": "Linda JK",
+      "date": "2019-12-26",
+      "text": "Tasarımcı Ajmal'ı bu yılın sonlarında, Ajmal'ın \"Dawn\" adlı parfümünün (bulması zor olan ve Fragrantica'nın veritabanında görünmeyen) bir örneğini aldığımda tanıdım. Dawn'dan o kadar etkilendim ki, hem Dawn hem de \"Aurum\"un 100 ml'lik küçük boylarını almaya karar verdim.\n\nİkisi de olgun, sofistike ve dolgun kokular. Bu yüzden hafif ve tatlı bir koku arıyorsanız lütfen bunları tercih etmeyin.\n\nAurum'un meyvemsi bir açılışa sahip olduğunu ve kadifemsi, sıcak, kremsi bir bitişe sahip olduğunu söyleyenler haklı. Bu kokunun ne kadar tanıdık geldiğine şaşırdım.\n\nAjmal parfümlerinin vücut kimyası tarafından son derece iyi taşındığını gördüğüm birçok kişide bu kokuyu duydum. Eğer zarif/hafifletilmiş tatlı bir unsur içeren ud/baharatlı kokuları seviyorsanız, bu seriyi mutlaka denemelisiniz.\n\nAurum, mükemmel bir şekilde harmanlanmış, uzun ömürlü ve etkileyici bir koku. Açılışta meyvemsi ve çiçeksi notalar belirgin ve temiz (limon, portakal çiçeği ve gardenya en çok öne çıkıyor).\n\nAurum'un zevkle işlenmiş odunsu ve vanilya notaları, kremsi, yumuşak ve temiz bir bitişe yol açıyor.\n\nAurum'u ilk kullandığım gün, cildimde ve üstümde tüm gün kaldı. Çok fazla sıkılırsa (özellikle kıyafetlere), yapışkan bir his bırakabilir/baş ağrısına neden olabilir, bu yüzden bu seride az kullanmak daha iyidir.\n\nHiçbir nota çok tiz veya baskın değil (en azından benim için), yeter ki çok sert çalmayın.\n\nŞişe çok güzel, bu yüzden bittiğinde dekoratif amaçlı saklayacağım.\n\nAurum'u yıl boyunca kullanabileceğimi düşünüyorum, ancak muhtemelen sadece sıcak aylarda akşamları kullanırım. Dawn daha çok yönlü ve sıcak aylarda bile işe yarıyor, ancak boyun bölgeme/dekolte bölgeme sıkmazdım.\n\nAurum ve Dawn, özellikle bu soğuk kış havalarında hızla favori parfümlerim arasına giriyor. Stokta kalmadıkları sürece kesinlikle tekrar satın alacağımı düşünüyorum.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1064128.jpg"
+    },
+    {
+      "id": "parent712219",
+      "author": "Jasolcia",
+      "date": "2019-11-12",
+      "text": "Bir süredir bu parfümden bir şişe almayı neden düşündüğümü bilmiyorum. Bir örnek (yağın) aldım ve ilk başta klişe olduğunu düşündüm; birçok Avrupa parfümüne benziyordu. Ancak, meyve ve pudra içeren beyaz çiçek kokularının hayranı değilim, bunu aklınızda bulundurun. Benim tarzım değil. Ama bu parfümde öyle sıcak, rahatlatıcı bir özellik var ki... Bu yüzden onu genel olarak denemeye başladım ve şaşırtıcı bir şekilde kendimi oldukça rahat hissettim. Annemin kollarında olmak gibi... Güvenli ve rahat, garip bir şekilde tanıdık. Çoğunlukla beyaz çiçekler, ön planda portakal çiçeği kokusu alıyorum, ancak taze ve canlı değil, daha çok pudralı, tatlı ve sarhoş edici bir şekilde. Makyaj çantasındaki pudranın kokusuna benziyor. Ve bana tam olarak bunu hatırlatıyor: bir annenin pürüzsüz, kadifemsi yanağı, sıcaklık ve pudra yayıyor, öpülmeye hazır. ;) Bu parfümün sıcak bir özelliği var. Önemsiz gibi görünebilir ama Avrupa tarzı bir koku olmaması beni cezbediyor. Ama muhtemelen bir şişe almayacağım... Yine de, eğer bir gün kadınsı, sıcak, narin ve zarif kokmak istersem, hatırlayacağım ;) Koku çok kalıcı, Arap yağları gibi (EDP'yi bilmiyorum) ve aynı zamanda çok yoğun değil.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.8154.jpg"
+    },
+    {
+      "id": "parent712231",
+      "author": "Borsh99",
+      "date": "2018-11-14",
+      "text": "Parfümün içeriğini çözene kadar biraz zorlandım. Pudra ve ahududu kokusu alıyorum. Eşim de burada piramidte yer almayan ud kokusu alıyor. Kalıcılığı etkileyici. Eşim bu parfümü saçına sıktı ve birazı bluzuna bulaştı. 3 gün sonra plajdan ayrıldığımızda ve aynı bluzu giydiğinde, bu kokuyu bir buçuk metre mesafeden alabiliyordum. 3 gün boyunca, üstelik Arap sıcağında ve neminde. \"Arap Chanel'i\" seviyesinde ve orada daha ucuz şişelenmiş parfümlerde ve attarlarda sık sık taklit edildiği anlaşılıyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ua",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent712197",
+      "author": "SuzanneS",
+      "date": "2018-08-20",
+      "text": "Fiyatına göre inanılmaz bir koku. Meyveli beyaz çiçeksi bir parfüm. Lady Million ve Pure Poison'ı seviyorsanız (bence Amouage Honour biraz abartılı çünkü Honour gibi sucul ve hafif değil - bu daha yoğun bir çiçeksi koku), kremsi gardenya ve meyveli ahududu harika bir uyum içinde. Vanilya tatlılığı koruyor. Pudralı bir nüans ise ona kadınsı bir hava katıyor. Baharatlı, odunsu ve miskli bir bitişe sahip. Çok baştan çıkarıcı. Kalıcılığı uzun ve yayılımı çok güçlü.\nÜst: Taze Meyveli\nKalp: Meyveli, Çiçeksi, Baharatlı\nTemel Notalar: Odunsu, Miskli, Pudralı",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.989138.jpg"
+    },
+    {
+      "id": "parent712194",
+      "author": "Planet_X",
+      "date": "2018-03-16",
+      "text": "Son derece güçlü ve yayılan, meyvemsi notalar içeren beyaz çiçeksi bir koku.\nDokusu kremsi, dolgun, kalıcılığı ve yayılımı muazzam; bu nedenle parfümleri çok çabuk emen kişiler bu yayılımdan fazlasıyla memnun kalacaklardır.\n\nKendi hafızamdan hatırladığım kadarıyla bu koku bana en çok Covet Bloom SJP'yi hatırlatıyor, ancak buradaki meyve karışımı Avrupa parfümleri için alışılmadık; reçel gibi veya sulu değil, daha çok çırpılmış sufle gibi. Şahsen parfümlerde çok sevdiğim ahududuyu algılayamıyorum. Parfümün yapısı çok yumuşak ve bal gibi.\nBeyaz çiçeklerden hoşlananlar için genel olarak etkileyici.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.669901.jpg"
+    },
+    {
+      "id": "parent712232",
+      "author": "Jane",
+      "date": "2017-03-03",
+      "text": "Ahududu ve meyve aromaları, aşırı tatlı olmadan, gerçekçi bir şekilde hissediliyor ve güzel vanilya-çiçeksi nüanslar içeriyor. Ancak dip notalar daha sade.\nCildimde inanılmaz derecede uzun süre kalıcı bir koku.\nBu alışveriş, çok nazik bir kız olan lika28 sayesinde Fragrantica'daki ilk ve başarılı değişim deneyimim oldu.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ua",
+      "avatar": "https://fimgs.net/mdimg/avatariua/m.671.jpg"
+    },
+    {
+      "id": "parent712216",
+      "author": "peace.love.masha",
+      "date": "2016-09-28",
+      "text": "Bu muhteşem bir parfüm. Şişe tasarımından kokusuna kadar her şeyine bayılıyorum. En sevdiğim parfümlerden biri. İkinci şişenin yarısına bile geldim ve sırf bu parfüm için tekrar Birleşik Arap Emirlikleri'ne gitmeye hazırım.\n\nNefret ettiğim ahududu kokusunu hiç almadığıma çok sevindim. Bana göre bu, beyaz çiçekler, amber, baharatlar ve miskin karmaşık bir karışımı.\n\nLady Million ile yapılan kıyaslamayı anlamıyorum. Bana göre aralarındaki tek benzerlik şişenin rengi, çünkü Lady Million çok pop ve sentetikken, Aurum şeyhin eşine yakışır şekilde pahalı ve karmaşık bir kokuya sahip.\n\nKalıcılığı inanılmaz: kıyafetlerinizde haftalarca kokusu kalabiliyor ve duştan sonra bile cildimde ve saçımda kokusunu alabiliyorum. Yayılımı da harika; her zaman bir sürü iltifat alıyorum ve \"bu nedir?\" ve \"nereden satın alabilirim?\" gibi sorularla karşılaşıyorum.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.197546.jpg"
+    },
+    {
+      "id": "parent712193",
+      "author": "peace.love.masha",
+      "date": "2016-09-28",
+      "text": "Şişe tasarımından kokunun kendisine kadar muhteşem bir eser, en sevdiğim parfümlerden biri. İkinci şişemin yarısını bitirdim bile ve sadece bir tane daha almak için Emirates'e tekrar gitmekten mutluluk duyarım.\n\nNeyse ki burada hiç ahududu kokusu alamıyorum (ahudududan nefret ederim), onun yerine ağırlıklı olarak beyaz çiçekler, amber, baharatlar ve misk kokusu geliyor.\n\nLady Million ile yapılan kıyaslamayı anlamıyorum. Bence tek benzerlik şişenin rengi, çünkü Lady Million çok sentetik ve basit bir kokuya sahipken, Aurum pahalı ve karmaşık bir kokuya sahip, bir Şeyhin eşinin kullanacağı türden bir parfüm.\n\nKalıcılığı inanılmaz, kıyafetlerde günlerce kalabiliyor, ciltte ve saçta duştan sonra bile hissedebiliyorum. Yayılımı da harika, sürekli iltifat alıyorum ve ne kullandığımı, nereden aldığımı soruyorlar, artık açıklamaktan yoruldum.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.985825.jpg"
+    },
+    {
+      "id": "parent712221",
+      "author": "Savanoja",
+      "date": "2014-08-23",
+      "text": "Bu parfümü denemeden önce çok yüksek beklentilerim vardı, hatta fazla yüksek... Ancak iki kez denedikten sonra, istek listemden çıkardım. Parfüm ilgi çekici, evet, ama sadece başlangıçta. Sulu, tatlı ve enerjik başlıyor. Ancak meyvemsi notalar kayboldukça, kompozisyon kuru, pudralı bir karakter kazanıyor. Bahsedilen notalar tutarlı, ancak her şey bir şekilde yavan. Çok sentetik ve bence keskinlikten yoksun. Cilde yakın ve monoton, açıkça bir şeyler eksik. Sonbahar için çok zayıf, çok belirsiz, çok sıkıcı. İlkbahar ve yaz için çok kuru. Aramızda hiçbir kıvılcım yok.\nParametreler ortalamanın altında ve beğendiğim tek şey şişe.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.3550.jpg"
+    },
+    {
+      "id": "parent712220",
+      "author": "Almaria",
+      "date": "2014-05-21",
+      "text": "Çok zengin bir koku. Açılışta çiçeksi ve meyvemsi notalar var, benim için meyvemsi notalar daha baskın. Gardenya ve ahududu açıkça hissediliyor, hafif ekşi bir portakal da var. Kalıcı, tüy gibi hafif bir amber notası her şeyin üzerinde dolaşıyor. Garip bir şekilde, kutu bu kokuyla dolu ve hafifçe kalıcı bir kokuya sahip. Hiçbir pudra notası algılamıyorum. Daha kuru bir versiyonu olmadığı sürece vanilya da yok. Koku, \"Arap\" bir parfüm için şaşırtıcı derecede hafif. Sıcak veya yumuşak değil, ama bir canlılığı var. Sonlara doğru koku kuruyor, meyve ve çiçeklerin hafif tatlılığı kayboluyor, geriye odunsu notalar, amber ve misk kalıyor. Görünüşe göre bir amber notası var, ama nasıl koktuğunu bilmiyorum. Cilde oldukça yakın ve kalıcılığı iyi. Muhteşem bir koku. Her geçen an değişiyor. Kesinlikle sıkılmayacaksınız. Keşfetmeye değer.\nŞişe muhtemelen metalden yapılmış, ağır, altın rengi bir silindir.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.3358.jpg"
+    },
+    {
+      "id": "parent712214",
+      "author": "Spline",
+      "date": "2014-05-12",
+      "text": "Aurum, inanılmaz derecede incelikli ve karmaşık bir aromaya sahip; ekimi oldukça değişken ve her bireyde farklı şekilde kendini gösteriyor, bunu da gözlemleme fırsatım oldu.\nBaşta onu koleksiyonuma eklemek istemedim - ruh halim bile tenimde nasıl yayılacağını etkiliyordu, kaprislerinden korkuyordum.\nAma belki de koleksiyonumda böylesine belirsiz bir kokuya sahip olma arzusu ağır bastı ve işte karşınızda.\nTasarım harika, ama belki de bana nasıl geldiği üzerinde daha çok durmalıyım.\nTenimde Lady Million'a hiç benzemiyor, en ufak bir benzerlik bile yok. İkisini de kendi tenimde dikkatlice karşılaştırdım.\nAurum bende çiçeksi, kehribar, turunçgil ve odunsu bir koku bırakıyor, başka hiçbir şey yok. Yılın zamanı, günün saati ve hava koşullarıyla ilgili denemeler sırasında kesinlikle hiçbir meyve, hiçbir ahududu kokusu tespit edilmedi.\nÇiçekler çok canlı; yasemin ve gardenya. Yasemin en baskın olanı, ama daha önce oryantal parfümeride bile koklamadığım eşsiz bir yasemin. Biraz havalı, hatta biraz kibirli ve küstah.\nAmber ve portakal çiçeği, kokunun gelişiminin bir sonraki aşamasını oluşturur ve zamanla giderek yoğunlaşır. Amber, çiçeksi yoğunluğun içinde oldukça baskın hale gelir ve koku belirgin bir şekilde sıcak bir hal alır.\nBelki de bu parfümün benim için en büyük gizemi ve ayırt edici özelliği, soğuk ve kibirli çiçeksi-narenciye-amber karışımından sıcak amber-çiçeksi-odunsu bir karışıma dönüşmesidir. Koku algısında ve ciltteki ruh halindeki bu dramatik değişim büyüleyici ve bu kompozisyonun yaratıcısına büyük saygı duymamı sağlıyor.\nTaban, son derece uyumlu bir şekilde örülmüş yumuşak bir ahşap dokusu ortaya koyuyor.\nMisk ve sıcak baharatlar sesin geri kalanını bastırmıyor, muhteşem.\nTekrar söyleyeyim, bu Ajmal da özellikle cilde uygulanmak üzere tasarlanmıştır. Kıyafetlere sürmenin, bir kağıda denemenin veya doğrudan şişeden kullanmanın hiçbir anlamı yok; tamamen farklı bir koku alacaksınız.\nKalıcılığı mükemmel, yaydığı koku büyüleyici ve neredeyse tüm gün sürüyor.\nAma hemen ve diplomatik bir dil kullanmadan söyleyeyim: Bunu anlamak ve kabul etmek sizin için zor olabilir.\nSonuçta aralarında samimi bir dostluk oluştu.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.116763.jpg"
+    },
+    {
+      "id": "parent712191",
+      "author": "MarkT",
+      "date": "2013-02-25",
+      "text": "Koku, olgun, sulu kırmızı meyveler ve hafif bir vanilya dokunuşuyla hemen açılıyor. Vanilya oldukça hızlı bir şekilde kayboluyor ve yerini biraz keskin bir nota alıyor, muhtemelen lavanta? Keskin nota dağılıyor ve yerini hafif tuzlu bir dokunuşla (muhtemelen ambergris?) birlikte hafif sucul bir kavun/salatalık notası (çok hafif, meyveler baskın) alıyor. Meyveler daha az tatlı hale geliyor ama kalıcı oluyor. Bu ilk aşamanın tamamlanması cildimde yaklaşık 20 dakika sürdü; bu tür kokuların bende nasıl tepki verdiğini bildiğim için, cilt kimyası normal olan bir kadında bunun bir saat kadar süreceğini tahmin ediyorum. İkinci saatte kavun/salatalık notası kayboluyor ve yerini çiçeksi bir unsur alıyor, ya neroli ya da tipik Orta Doğu yasemini ya da her ikisi birden. Çiçeksi nota artmaya devam ediyor, meyveler daha az baskın hale geliyor ve hafif tuzlu nota kademeli olarak girip çıkıyor, elmayı andıran bir şey fark ediliyor, belki de bir tür balsam/reçine algılıyorum? Yaklaşık 3-4 saat sonra koku son aşamasına gelir; hafif meyvemsi çiçeksi bir kokuya dönüşür, dip notalarında hafif tuzlu bir unsur bulunur ve onu dengeleyen başka bir unsur - bir tür balsam veya reçine - vardır. Son kuruma aşamasında meyvemsi notalar kaybolur, ara sıra hafif esintiler kalır ve bal benzeri bir koku (tatlı bir odun türü mü?) ve çok az miktarda baharat fark edilir hale gelir. Çok hafif, neredeyse algılanamaz bir Kamboçya udunun bu etkiyi yaratmış olması mümkündür.\nGenel olarak iyi harmanlanmış ve hoş bir koku, gerçekten kibar bir insanın kullanacağı türden bir koku gibi görünüyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.295080.jpg"
     }
   ]
 }

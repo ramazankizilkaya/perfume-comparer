@@ -29,6 +29,34 @@
     {
       "name": "narenciye",
       "width": "42.7885%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Ahududu",
+      "Renkli şekerlemeler",
+      "Şampanya",
+      "Tatlı Notlar"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
@@ -104,16 +138,20 @@
       "name": "Barbe a Papa"
     },
     {
-      "brand": "ESCADA",
-      "name": "Party Love"
-    },
-    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Chrome Peony"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Raspberry Chiffon"
+    },
+    {
+      "brand": "STÉPHANE HUMBERT LUCAS 777",
+      "name": "Pink Boa"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Party Love"
     },
     {
       "brand": "PARIS CORNER",
@@ -138,10 +176,6 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Champagne Toast"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Blue Raspberry Burst"
     }
   ],
   "peopleAlsoLike": [
@@ -205,5 +239,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Coconut Cream Pie"
     }
-  ]
+  ],
+  "comments": []
 }

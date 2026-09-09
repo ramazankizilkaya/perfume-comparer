@@ -49,6 +49,30 @@
     {
       "name": "narenciye",
       "width": "50.2582%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +97,15 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Erik",
+      "Gül",
+      "Sandal ağacı",
+      "Misk",
+      "Yasemin",
+      "Mandalina"
+    ]
   },
   "longevity": {
     "veryWeak": "4",
@@ -134,10 +166,6 @@
     {
       "brand": "GİNESTET",
       "name": "Botrytis"
-    },
-    {
-      "brand": "PARFUMS GUY ALARİ",
-      "name": "Wild Cats"
     }
   ],
   "peopleAlsoLike": [
@@ -201,5 +229,6 @@
       "brand": "DİOR",
       "name": "Pure Poison"
     }
-  ]
+  ],
+  "comments": []
 }

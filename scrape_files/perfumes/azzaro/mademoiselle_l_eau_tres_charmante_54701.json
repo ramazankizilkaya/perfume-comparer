@@ -41,15 +41,43 @@
     {
       "name": "gül",
       "width": "45.4135%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.58",
-    "votesCount": "113",
+    "votesCount": "112",
     "breakdown": {
       "love": "20",
       "like": "50",
-      "ok": "19",
+      "ok": "18",
       "dislike": "23",
       "hate": "1"
     }
@@ -74,7 +102,8 @@
     "base": [
       "Misk",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
@@ -99,7 +128,7 @@
   "priceVoting": {
     "wayOverpriced": "4",
     "overpriced": "6",
-    "fair": "19",
+    "fair": "18",
     "goodValue": "7",
     "greatValue": "2"
   },
@@ -190,5 +219,6 @@
       "brand": "TRUSSARDİ",
       "name": "Trussardi Donna (2011)"
     }
-  ]
+  ],
+  "comments": []
 }

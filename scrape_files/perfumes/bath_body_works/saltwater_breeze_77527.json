@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.77527.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Saltwater-Breeze-77527.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Saltwater Breeze parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Saltwater Breeze, 2020 yılında piyasaya sürüldü. Kokuda Su çiçekleri, Misk ve Keten notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Saltwater Breeze parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Saltwater Breeze, 2020 yılında piyasaya sürüldü. Kokuda Su çiçekleri, Misk ve Keten notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Saltwater Breeze parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Saltwater Breeze, 2020 yılında piyasaya sürüldü. Kokuda Su çiçekleri, Misk ve Keten notaları bulunur.",
+  "description": "Bath & Body Works markasının Saltwater Breeze parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Saltwater Breeze, 2020 yılında piyasaya sürüldü. Kokuda Su çiçekleri, Beyaz Misk ve Keten notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Saltwater Breeze parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Saltwater Breeze, 2020 yılında piyasaya sürüldü. Kokuda Su çiçekleri, Beyaz Misk ve Keten notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Saltwater Breeze parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Saltwater Breeze, 2020 yılında piyasaya sürüldü. Kokuda Su çiçekleri, Beyaz Misk ve Keten notaları bulunur.",
   "mainAccords": [
     {
       "name": "misk",
@@ -32,118 +32,62 @@
     }
   ],
   "rating": {
-    "score": "4.17",
-    "votesCount": "229",
+    "score": "4.18",
+    "votesCount": "233",
     "breakdown": {
-      "love": "107",
-      "like": "74",
+      "love": "110",
+      "like": "75",
       "ok": "30",
       "dislike": "16",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "12",
-    "spring": "67",
-    "summer": "139",
+    "winter": "13",
+    "spring": "68",
+    "summer": "142",
     "autumn": "20",
-    "day": "116",
+    "day": "119",
     "night": "29"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Su çiçekleri",
+      "Beyaz Misk",
+      "Keten"
+    ]
   },
   "longevity": {
-    "veryWeak": "14",
-    "weak": "49",
-    "moderate": "46",
-    "longLasting": "6",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "24",
-    "moderate": "46",
-    "strong": "7",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "27",
-    "moreFemale": "33",
-    "unisex": "65",
-    "moreMale": "4",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "30",
-    "goodValue": "49",
-    "greatValue": "49"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Princess Ariel"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Saltwater Breeze"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue Eau Intense"
-    },
-    {
-      "brand": "MİX:BAR",
-      "name": "Salt Petals"
-    },
-    {
-      "brand": "ELİZABETH ARDEN",
-      "name": "Mediterranean"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Mayar Natural Intense"
-    },
-    {
-      "brand": "DAVİDOFF",
-      "name": "Cool Water"
-    },
-    {
-      "brand": "SANCTUARY",
-      "name": "Vaquita Dolphin"
-    },
-    {
-      "brand": "YVES ROCHER",
-      "name": "Jardin des Nymphes"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Acqua Di Gioia Eau Fraiche"
-    },
-    {
-      "brand": "TİFFANY",
-      "name": "Tiffany & Love For Her"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Bombshell Isle"
-    },
-    {
-      "brand": "SKYLAR",
-      "name": "Pink Canyon"
-    },
-    {
-      "brand": "LE LABO",
-      "name": "Another 13"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Coastal Blooms"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -156,6 +100,10 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "In The Stars"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Gingham Gorgeous"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -174,10 +122,6 @@
       "name": "Pure Wonder"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Gingham Love"
-    },
-    {
       "brand": "ARİANA GRANDE",
       "name": "Cloud"
     },
@@ -190,6 +134,10 @@
       "name": "At the Beach"
     },
     {
+      "brand": "MUGLER",
+      "name": "Alien"
+    },
+    {
       "brand": "BATH & BODY WORKS",
       "name": "Sunset Glow"
     },
@@ -200,10 +148,7 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Butterfly"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Warm Vanilla Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

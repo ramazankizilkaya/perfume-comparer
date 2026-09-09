@@ -29,6 +29,34 @@
     {
       "name": "aromatik",
       "width": "35.9156%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "14",
+    "winter": "15",
     "spring": "47",
     "summer": "29",
     "autumn": "15",
@@ -53,7 +81,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Marşmelov",
+      "Nergis",
+      "Kruvasan"
+    ]
   },
   "longevity": {
     "veryWeak": "11",
@@ -63,7 +96,7 @@
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "18",
+    "intimate": "19",
     "moderate": "8",
     "strong": "1",
     "enormous": "0"
@@ -104,32 +137,32 @@
       "name": "Love Don't Be Shy"
     },
     {
-      "brand": "HOLLİSTER",
-      "name": "Festival Nite For Her"
-    },
-    {
-      "brand": "ARİANA GRANDE",
-      "name": "Ari"
-    },
-    {
       "brand": "BY KİLİAN",
       "name": "Love, don't be shy Anniversary Edition"
     },
     {
-      "brand": "OAKCHA",
-      "name": "Marshmallow Mist"
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Very Sexy Blush"
     },
     {
       "brand": "ZARA",
       "name": "Zara Hello Kitty Magic Rainbow"
     },
     {
-      "brand": "ARİANA GRANDE",
-      "name": "Sweet Like Candy Limited Edition"
+      "brand": "OAKCHA",
+      "name": "Marshmallow Mist"
     },
     {
       "brand": "ARİANA GRANDE",
-      "name": "Moonlight"
+      "name": "Ari"
+    },
+    {
+      "brand": "HOLLİSTER",
+      "name": "Festival Nite For Her"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Sweet Like Candy Limited Edition"
     },
     {
       "brand": "ZARA",
@@ -205,5 +238,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Gingham Gorgeous"
     }
-  ]
+  ],
+  "comments": []
 }

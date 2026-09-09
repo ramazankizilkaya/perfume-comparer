@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102631.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Smooth-Sandalwood-102631.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Smooth Sandalwood parfümü, kadınlar için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Smooth Sandalwood, 2025 yılında piyasaya sürüldü. Kokuda Sandal ağacı, Baharatlı notalar ve Misk notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Smooth Sandalwood parfümü, kadınlar için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Smooth Sandalwood, 2025 yılında piyasaya sürüldü. Kokuda Sandal ağacı, Baharatlı notalar ve Misk notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Smooth Sandalwood parfümü, kadınlar için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Smooth Sandalwood, 2025 yılında piyasaya sürüldü. Kokuda Sandal ağacı, Baharatlı notalar ve Misk notaları bulunur.",
+  "description": "Bath & Body Works markasının Smooth Sandalwood parfümü, kadınlar için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Smooth Sandalwood, 2025 yılında piyasaya sürüldü. Kokuda Sandal ağacı, Baharatlar ve Misk notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Smooth Sandalwood parfümü, kadınlar için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Smooth Sandalwood, 2025 yılında piyasaya sürüldü. Kokuda Sandal ağacı, Baharatlar ve Misk notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Smooth Sandalwood parfümü, kadınlar için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Smooth Sandalwood, 2025 yılında piyasaya sürüldü. Kokuda Sandal ağacı, Baharatlar ve Misk notaları bulunur.",
   "mainAccords": [
     {
       "name": "odunsu",
@@ -53,93 +53,41 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Sandal ağacı",
+      "Baharatlar",
+      "Misk"
+    ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "4",
-    "moderate": "7",
-    "longLasting": "4",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "7",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "19",
-    "moreMale": "2",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "6",
-    "goodValue": "6",
-    "greatValue": "12"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "COMMODİTY",
-      "name": "Paper +"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Lost in Santal"
-    },
-    {
-      "brand": "KATY PERRY",
-      "name": "Katy Perry's Indi"
-    },
-    {
-      "brand": "FİNE'RY.",
-      "name": "Jungle Santal"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Santal Blush"
-    },
-    {
-      "brand": "LE LABO",
-      "name": "Santal 33 Perfume Oil"
-    },
-    {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Sandalwood"
-    },
-    {
-      "brand": "PACİFİCA",
-      "name": "Montana Sky"
-    },
-    {
-      "brand": "ETAT LİBRE D'ORANGE",
-      "name": "She Was An Anomaly"
-    },
-    {
-      "brand": "SCENTS OF WOOD",
-      "name": "Sandalwood in Oak"
-    },
-    {
-      "brand": "OAKCHA",
-      "name": "Ruhe"
-    },
-    {
-      "brand": "GLOSSİER",
-      "name": "You Doux"
-    },
-    {
-      "brand": "LE LABO",
-      "name": "Santal 33"
-    },
-    {
-      "brand": "SANA JARDİN",
-      "name": "Sandalwood Temple"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON MARTİN MARGİELA",
@@ -194,12 +142,13 @@
       "name": "Cheirosa '62"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Vanilla Café"
-    },
-    {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "Jazz Club"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Vanilla Café"
     }
-  ]
+  ],
+  "comments": []
 }

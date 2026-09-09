@@ -29,6 +29,34 @@
     {
       "name": "taze",
       "width": "45%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -59,7 +87,8 @@
     ],
     "base": [
       "Calissons d'Aix"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -175,5 +204,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

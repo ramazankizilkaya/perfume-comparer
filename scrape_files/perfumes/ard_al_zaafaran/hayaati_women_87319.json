@@ -41,6 +41,34 @@
     {
       "name": "fındıksı",
       "width": "47.7333%"
+    },
+    {
+      "name": "Online satın alın 50 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -77,7 +105,8 @@
       "Şeftali",
       "Vanilya",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -93,7 +122,7 @@
     "enormous": "2"
   },
   "genderVoting": {
-    "female": "23",
+    "female": "24",
     "moreFemale": "5",
     "unisex": "5",
     "moreMale": "1",
@@ -104,7 +133,7 @@
     "overpriced": "0",
     "fair": "3",
     "goodValue": "10",
-    "greatValue": "20"
+    "greatValue": "21"
   },
   "remindsMeOf": [
     {
@@ -120,16 +149,16 @@
       "name": "Reb'l Fleur Love Always"
     },
     {
-      "brand": "VERA WANG",
-      "name": "Princess"
-    },
-    {
       "brand": "ZARA",
       "name": "Majestic Opulence"
     },
     {
       "brand": "PRADA",
       "name": "Prada Paradoxe"
+    },
+    {
+      "brand": "VERA WANG",
+      "name": "Princess"
     },
     {
       "brand": "DİOR",
@@ -197,5 +226,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Ameer Al Oudh Intense Oud"
     }
-  ]
+  ],
+  "comments": []
 }

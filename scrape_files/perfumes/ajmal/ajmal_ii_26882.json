@@ -41,14 +41,38 @@
     {
       "name": "misk",
       "width": "45.2174%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.09",
-    "votesCount": "32",
+    "score": "4.10",
+    "votesCount": "31",
     "breakdown": {
       "love": "14",
-      "like": "13",
+      "like": "12",
       "ok": "1",
       "dislike": "2",
       "hate": "2"
@@ -65,7 +89,18 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Gül",
+      "Sandal ağacı",
+      "Karanfil",
+      "Kakule",
+      "Agar ağacı (Oud)",
+      "Beyaz Misk",
+      "Bergamot",
+      "Baharatlı Notalar",
+      "Greyfurt"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -174,6 +209,10 @@
       "name": "Samsara Eau de Parfum"
     },
     {
+      "brand": "LANCÔME",
+      "name": "Trésor"
+    },
+    {
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Baccarat Rouge 540"
     },
@@ -190,16 +229,13 @@
       "name": "Jubilation 25 Woman"
     },
     {
-      "brand": "SERGE LUTENS",
-      "name": "Arabie"
-    },
-    {
       "brand": "BOADİCEA THE VİCTORİOUS",
       "name": "Valiant"
     },
     {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Hanuman"
+      "brand": "SERGE LUTENS",
+      "name": "Arabie"
     }
-  ]
+  ],
+  "comments": []
 }

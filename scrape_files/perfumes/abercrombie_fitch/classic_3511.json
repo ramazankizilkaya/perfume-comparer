@@ -29,6 +29,34 @@
     {
       "name": "tatlı",
       "width": "40.08%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,33 +89,46 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "7",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "7",
+    "strong": "1",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "2",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "THE DUA BRAND",
+      "name": "The Essential"
+    },
+    {
+      "brand": "NEST",
+      "name": "White Sandalwood"
+    },
+    {
+      "brand": "DS&DURGA",
+      "name": "Debaser"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CLİNİQUE",
@@ -148,6 +189,42 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Twilight Woods"
+    }
+  ],
+  "comments": [],
+  "article": "Abercrombie & Fitch parfüm ve kolonya Classic Abercrombie & Fitch incelemesi, lüks koku dünyasında ferahlık ve zarafeti bir araya getiren özel bir deneyim sunar. 2011 yılında kadınlar için piyasaya sürülen bu imza koku, narenciye ve çiçeksi akorların kusursuz uyumuyla dikkat çeker. Gelin, bu ikonik kokunun derinliklerine birlikte inelim.\n\n## Koku Profili ve Açılış Notaları\nClassic Abercrombie & Fitch notaları incelendiğinde, parfümün citrus (narenciye) ağırlıklı ve beyaz çiçeksi karakteri hemen fark edilir. Üst ve orta notaları gizemli bir şekilde saklı tutulsa da, düz nota listesinde yer alan canlandırıcı Limon ve Portakal, açılışta zindelik katan kristal bir parlaklık yaratır. Kalpteki kremsi ve zarif Gardenya ise bu canlı narenciye dalgasına feminen, laktonik ve sofistike bir derinlik kazandırır.\n\n## Kalıcılık, Yayılım ve Performans Değerlendirmesi\nBir Edp esans tipi olarak sunulan Classic Abercrombie & Fitch kalıcılığı, topluluk oylarına göre ılımlı (moderate) seviyede bir performans sergiler. Ten üzerinde ortalama bir süre kalan koku, yayılım (silaj) tarafında ise oldukça iddialıdır. Kullanıcı oylamalarındaki yüksek \"enormous\" ve \"moderate\" oranları, bu parfümün bulunduğu ortamda fark edilme oranının yüksek olduğunu, tenle bütünleştiğinde etkileyici bir bulut bıraktığını kanıtlar.\n\n## Kimler ve Hangi Ortamlar İçin Uygun?\nMevsim tercihlerinde özellikle ilkbahar ve yaz aylarının enerjisini yansıtan bu parfüm, gündüz kullanımına kusursuz bir şekilde uyum sağlar. Bununla birlikte, hafif tatlı ve aromatik dokunuşları sayesinde serin sonbahar akşamlarında da teninizde hoş bir ışıltı bırakacaktır. Ofis buluşmalarından açık hava etkinliklerine kadar geniş bir kullanım yelpazesi sunar.\n\n## Gerçek Kullanıcı Görüşleri ve Genel İzlenim\nKullanıcı yorumları genel olarak parfümün ferahlatıcı, temiz ve gün boyu taze hissettiren yapısına odaklanır. Popüler kültürde ve koku tutkunları arasında narenciye-gardenya dengesini sevenlerin koleksiyonlarında mutlak surette yer vermesi gereken, zamansız ve neşeli bir koku profili olarak öne çıkmaktadır.",
+  "faq": [
+    {
+      "question": "Classic Abercrombie & Fitch hangi markaya aittir?",
+      "answer": "Classic Abercrombie & Fitch, Amerikan moda ve yaşam tarzı markası Abercrombie & Fitch'e aittir. Marka, genç ve dinamik koku imzasını bu parfümde de başarıyla yansıtmaktadır."
+    },
+    {
+      "question": "Classic Abercrombie & Fitch hangi yıl piyasaya sürülmüştür ve tasarımcısı (parfümörü) kimdir?",
+      "answer": "Bu özel koku 2011 yılında piyasaya sürülmüştür. Tasarımcısının (parfümörünün) adı resmi kayıtlarda özel olarak belirtilmemiştir."
+    },
+    {
+      "question": "Classic Abercrombie & Fitch parfümünün konsantrasyonu (esans tipi) nedir?",
+      "answer": "Classic Abercrombie & Fitch, Eau de Parfum (Edp) esans tipine sahiptir ve zengin bir koku yoğunluğu sunar."
+    },
+    {
+      "question": "Classic Abercrombie & Fitch hangi mevsime ve hava şartlarına uygundur?",
+      "answer": "Topluluk oylarına göre ağırlıklı olarak ilkbahar ve yaz mevsimlerinde, ayrıca gündüz saatlerinde kullanılmak üzere tasarlanmıştır; ancak sonbaharda da rahatlıkla tercih edilebilir."
+    },
+    {
+      "question": "Classic Abercrombie & Fitch parfümünün kalıcılığı ve yayılımı (silajı) ne kadardır?",
+      "answer": "Parfüm orta seviyede (moderate) bir kalıcılığa sahipken, yayılımı genellikle güçlü ile orta seviye arasında değişen dikkat çekici bir silaj sunar."
+    },
+    {
+      "question": "Classic Abercrombie & Fitch hangi ortamlarda ve yaş gruplarında tercih edilmelidir?",
+      "answer": "Günlük kullanım, ofis ortamları ve sosyal buluşmalar için ideal olan bu koku, dinamik ruhunu korumak isteyen her yaş grubundaki kadınlar için uygundur."
+    },
+    {
+      "question": "Classic Abercrombie & Fitch hangi parfümlere benzer ve koku karakteri nasıldır?",
+      "answer": "Limon, portakal ve gardenya notalarıyla şekillenen koku; narenciye, beyaz çiçeksi, laktonik ve tatlı ana akorlara sahip, ferah ve kremsi bir karaktere sahiptir."
+    },
+    {
+      "question": "Classic Abercrombie & Fitch kör alışa (denemeden almaya) uygun bir parfüm müdür?",
+      "answer": "Narenciye ve gardenya kombinasyonunu, ferah ve çiçeksi parfümleri sevenler için kör alışa genel olarak uygundur; ancak gardenya notasının kremsi/laktonik yapısını test etmek her zaman en güvenli yoldur."
     }
   ]
 }

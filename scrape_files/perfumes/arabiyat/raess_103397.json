@@ -41,14 +41,42 @@
     {
       "name": "misk",
       "width": "44.2132%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.83",
-    "votesCount": "18",
+    "score": "4.80",
+    "votesCount": "20",
     "breakdown": {
-      "love": "15",
-      "like": "3",
+      "love": "16",
+      "like": "4",
       "ok": "0",
       "dislike": "0",
       "hate": "0"
@@ -76,18 +104,19 @@
     "base": [
       "Paçuli",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
     "weak": "0",
-    "moderate": "4",
+    "moderate": "5",
     "longLasting": "10",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "2",
-    "moderate": "4",
+    "moderate": "5",
     "strong": "3",
     "enormous": "0"
   },
@@ -95,7 +124,7 @@
     "female": "4",
     "moreFemale": "0",
     "unisex": "1",
-    "moreMale": "1",
+    "moreMale": "2",
     "male": "11"
   },
   "priceVoting": {
@@ -103,7 +132,7 @@
     "overpriced": "0",
     "fair": "0",
     "goodValue": "2",
-    "greatValue": "10"
+    "greatValue": "11"
   },
   "remindsMeOf": [
     {
@@ -137,6 +166,10 @@
   ],
   "peopleAlsoLike": [
     {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Giò Parfum"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Al Nashama Caprice"
     },
@@ -153,12 +186,12 @@
       "name": "Détour Noir"
     },
     {
-      "brand": "ARABİYAT PRESTİGE",
-      "name": "Marwa"
-    },
-    {
       "brand": "AFNAN",
       "name": "Supremacy Not Only Intense"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Lumière Garçon"
     },
     {
       "brand": "ARMAF",
@@ -173,8 +206,8 @@
       "name": "Turathi Blue"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Emporio Armani Stronger With You Absolutely"
+      "brand": "RASASİ",
+      "name": "Hawas Ice"
     },
     {
       "brand": "RASASİ",
@@ -185,16 +218,13 @@
       "name": "Asad"
     },
     {
+      "brand": "AFNAN",
+      "name": "Supremacy Collector's Edition Pour Homme"
+    },
+    {
       "brand": "ARABİYAT PRESTİGE",
       "name": "Raees Luxury Edition"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Qaed Al Fursan"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Qaa'ed"
     }
-  ]
+  ],
+  "comments": []
 }

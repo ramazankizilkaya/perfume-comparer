@@ -29,58 +29,90 @@
     {
       "name": "tatlı",
       "width": "38.6154%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.17",
-    "votesCount": "129",
+    "score": "4.18",
+    "votesCount": "133",
     "breakdown": {
-      "love": "57",
+      "love": "60",
       "like": "50",
-      "ok": "12",
+      "ok": "13",
       "dislike": "7",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "63",
+    "winter": "67",
     "spring": "7",
     "summer": "6",
-    "autumn": "78",
-    "day": "43",
-    "night": "60"
+    "autumn": "82",
+    "day": "45",
+    "night": "63"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kahve",
+      "Fındık"
+    ]
   },
   "longevity": {
     "veryWeak": "7",
     "weak": "13",
-    "moderate": "30",
+    "moderate": "31",
     "longLasting": "3",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "13",
-    "moderate": "30",
+    "moderate": "31",
     "strong": "1",
     "enormous": "1"
   },
   "genderVoting": {
     "female": "5",
     "moreFemale": "6",
-    "unisex": "52",
+    "unisex": "53",
     "moreMale": "4",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "0",
-    "fair": "12",
+    "fair": "13",
     "goodValue": "23",
-    "greatValue": "29"
+    "greatValue": "30"
   },
   "remindsMeOf": [
     {
@@ -116,10 +148,6 @@
       "name": "Espresso Please"
     },
     {
-      "brand": "BROWN GİRL JANE",
-      "name": "Chalet"
-    },
-    {
       "brand": "KAYALİ FRAGRANCES",
       "name": "Freedom Musk Latte | 41 Eau de Parfum"
     },
@@ -132,6 +160,10 @@
       "name": "French Coffee"
     },
     {
+      "brand": "BROWN GİRL JANE",
+      "name": "Chalet"
+    },
+    {
       "brand": "THE DUA BRAND",
       "name": "Espresso Martini Lounge"
     },
@@ -142,12 +174,12 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Vanilla Café"
-    },
-    {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "By the Fireplace"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Vanilla Café"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -187,7 +219,7 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Strawberry Pound Cake"
+      "name": "Vanilla Ease"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -195,11 +227,12 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Vanilla Ease"
+      "name": "Strawberry Pound Cake"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Covered In Roses"
     }
-  ]
+  ],
+  "comments": []
 }

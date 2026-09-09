@@ -29,47 +29,80 @@
     {
       "name": "pudralı",
       "width": "41.6667%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.16",
-    "votesCount": "102",
+    "score": "4.14",
+    "votesCount": "105",
     "breakdown": {
-      "love": "43",
+      "love": "44",
       "like": "39",
-      "ok": "14",
+      "ok": "16",
       "dislike": "5",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "5",
-    "spring": "53",
-    "summer": "41",
-    "autumn": "9",
-    "day": "48",
+    "winter": "6",
+    "spring": "56",
+    "summer": "43",
+    "autumn": "10",
+    "day": "51",
     "night": "9"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Ahududu",
+      "Şeker",
+      "Misk"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "7",
-    "moderate": "17",
+    "moderate": "18",
     "longLasting": "5",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "4",
-    "moderate": "17",
+    "moderate": "18",
     "strong": "6",
     "enormous": "1"
   },
   "genderVoting": {
-    "female": "31",
+    "female": "33",
     "moreFemale": "3",
     "unisex": "0",
     "moreMale": "0",
@@ -78,7 +111,7 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "2",
-    "fair": "14",
+    "fair": "16",
     "goodValue": "6",
     "greatValue": "7"
   },
@@ -112,14 +145,6 @@
       "name": "Ari"
     },
     {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Raspberry"
-    },
-    {
-      "brand": "ANNA SUİ",
-      "name": "Fantasia"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Raspberry Sugar"
     },
@@ -128,20 +153,28 @@
       "name": "Raspberry Candied Violets"
     },
     {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Raspberry Jam"
-    },
-    {
       "brand": "DOLCE&GABBANA",
       "name": "Dolce&Gabbana Pour Femme"
     },
     {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Circus Fantasy"
+      "brand": "ANNA SUİ",
+      "name": "Fantasia"
+    },
+    {
+      "brand": "DEMETER FRAGRANCE",
+      "name": "Raspberry"
+    },
+    {
+      "brand": "DEMETER FRAGRANCE",
+      "name": "Raspberry Jam"
     },
     {
       "brand": "FLORENCE BY MİLLS",
       "name": "Soft Girl Sheer Vanilla"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Mod Blush"
     }
   ],
   "peopleAlsoLike": [
@@ -205,5 +238,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Pistachio Glaze"
     }
-  ]
+  ],
+  "comments": []
 }

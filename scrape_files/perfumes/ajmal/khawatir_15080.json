@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15080.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Khawatir-15080.html",
   "brand": "Ajmal parfüm ve kolonya",
-  "description": "Ajmal markasının Khawatir parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Khawatir, 2010 yılında piyasaya sürüldü. Üst notalar: Gül ve Litchi; orta notalar: Odunsu Notalar ve Baharatlı notalar; alt notalar Safran ve Misk.",
-  "description_original": "Ajmal markasının Khawatir parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Khawatir, 2010 yılında piyasaya sürüldü. Üst notalar: Gül ve Litchi; orta notalar: Odunsu Notalar ve Baharatlı notalar; alt notalar Safran ve Misk.",
-  "description_enhanced": "Ajmal markasının Khawatir parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Khawatir, 2010 yılında piyasaya sürüldü. Üst notalar: Gül ve Litchi; orta notalar: Odunsu Notalar ve Baharatlı notalar; alt notalar Safran ve Misk.",
+  "description": "Ajmal markasının Khawatir parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Khawatir, 2010 yılında piyasaya sürüldü. Üst notalar: Gül ve Litchi; orta notalar: Odunsu Notalar ve Baharatlar; alt notalar Safran ve Misk.",
+  "description_original": "Ajmal markasının Khawatir parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Khawatir, 2010 yılında piyasaya sürüldü. Üst notalar: Gül ve Litchi; orta notalar: Odunsu Notalar ve Baharatlar; alt notalar Safran ve Misk.",
+  "description_enhanced": "Ajmal markasının Khawatir parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Khawatir, 2010 yılında piyasaya sürüldü. Üst notalar: Gül ve Litchi; orta notalar: Odunsu Notalar ve Baharatlar; alt notalar Safran ve Misk.",
   "mainAccords": [
     {
       "name": "gül",
@@ -31,7 +31,7 @@
       "width": "52.05%"
     },
     {
-      "name": "çiçeksi",
+      "name": "misk",
       "width": "51%"
     },
     {
@@ -39,7 +39,7 @@
       "width": "51%"
     },
     {
-      "name": "misk",
+      "name": "çiçeksi",
       "width": "51%"
     },
     {
@@ -49,6 +49,30 @@
     {
       "name": "tütün",
       "width": "45.75%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -77,12 +101,13 @@
     ],
     "middle": [
       "Odunsu Notalar",
-      "Baharatlı notalar"
+      "Baharatlar"
     ],
     "base": [
       "Safran",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -113,7 +138,7 @@
   },
   "remindsMeOf": [
     {
-      "brand": "MATİERE PREMİERE",
+      "brand": "MATİÈRE PREMİÈRE",
       "name": "Crystal Saffron"
     }
   ],
@@ -178,5 +203,6 @@
       "brand": "GUERLAİN",
       "name": "Shalimar Parfum Initial"
     }
-  ]
+  ],
+  "comments": []
 }

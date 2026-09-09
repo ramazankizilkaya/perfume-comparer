@@ -17,58 +17,85 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.50",
-    "votesCount": "236",
+    "score": "4.47",
+    "votesCount": "240",
     "breakdown": {
-      "love": "159",
+      "love": "161",
       "like": "54",
       "ok": "7",
       "dislike": "13",
-      "hate": "3"
+      "hate": "5"
     }
   },
   "seasons": {
-    "winter": "108",
-    "spring": "50",
-    "summer": "44",
-    "autumn": "89",
-    "day": "55",
-    "night": "97"
+    "winter": "109",
+    "spring": "51",
+    "summer": "45",
+    "autumn": "90",
+    "day": "56",
+    "night": "98"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Agar ağacı (Oud)"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "6",
     "moderate": "20",
-    "longLasting": "58",
+    "longLasting": "60",
     "eternal": "83"
   },
   "sillage": {
     "intimate": "7",
     "moderate": "20",
-    "strong": "97",
+    "strong": "98",
     "enormous": "38"
   },
   "genderVoting": {
     "female": "6",
     "moreFemale": "1",
-    "unisex": "50",
+    "unisex": "51",
     "moreMale": "25",
-    "male": "51"
+    "male": "52"
   },
   "priceVoting": {
-    "wayOverpriced": "7",
+    "wayOverpriced": "8",
     "overpriced": "6",
     "fair": "7",
     "goodValue": "38",
-    "greatValue": "36"
+    "greatValue": "37"
   },
   "remindsMeOf": [
     {
@@ -77,27 +104,23 @@
     },
     {
       "brand": "AJMAL",
-      "name": "Al Shams Special Edition"
-    },
-    {
-      "brand": "AJMAL",
       "name": "Mukhallat Shams"
     },
     {
       "brand": "AJMAL",
-      "name": "Bakhoor Khas"
+      "name": "Al Shams Special Edition"
     },
     {
       "brand": "KEMİ BLENDİNG MAGİC",
       "name": "'ilm"
     },
     {
-      "brand": "XERJOFF",
-      "name": "Malesia"
+      "brand": "AJMAL",
+      "name": "Bakhoor Khas"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "The Night"
+      "brand": "XERJOFF",
+      "name": "Malesia"
     },
     {
       "brand": "FRAGRANCE DU BOİS",
@@ -108,8 +131,12 @@
       "name": "Dahn Al Oudh Qadeem"
     },
     {
-      "brand": "RASASİ",
-      "name": "Al Oudh Al Mumaiz"
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "The Night"
+    },
+    {
+      "brand": "HİND AL OUD",
+      "name": "Sheikh A"
     },
     {
       "brand": "KATANA PARFUMS",
@@ -120,12 +147,12 @@
       "name": "Dhanal Oudh Jurrah"
     },
     {
-      "brand": "AJMAL",
-      "name": "Dahn Al Oudh Arzan"
+      "brand": "RASASİ",
+      "name": "Al Oudh Al Mumaiz"
     },
     {
-      "brand": "HİND AL OUD",
-      "name": "Sheikh A"
+      "brand": "AJMAL",
+      "name": "Dahn Al Oudh Arzan"
     },
     {
       "brand": "AHMED AL MAGHRİBİ",
@@ -193,5 +220,6 @@
       "brand": "TOM FORD",
       "name": "Tuscan Leather"
     }
-  ]
+  ],
+  "comments": []
 }

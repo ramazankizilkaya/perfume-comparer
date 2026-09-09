@@ -61,6 +61,9 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
             RETURNS text
             LANGUAGE sql IMMUTABLE PARALLEL SAFE STRICT
             AS $func$ SELECT public.unaccent('public.unaccent'::regdictionary, input) $func$;
+
+            ALTER TABLE perfumes ADD COLUMN IF NOT EXISTS article text;
+            ALTER TABLE perfumes ADD COLUMN IF NOT EXISTS faq_json text;
             """, ct);
 
         // Arama tüm veriyi taradığı için isim, marka, nota, akor ve açıklama ayrı ayrı indekslenir.

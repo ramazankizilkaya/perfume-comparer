@@ -49,25 +49,53 @@
     {
       "name": "laktonik",
       "width": "48.375%"
+    },
+    {
+      "name": "Online satın alın 18 üzerinde ürün",
+      "width": ""
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.73",
-    "votesCount": "184",
+    "score": "3.74",
+    "votesCount": "191",
     "breakdown": {
-      "love": "43",
-      "like": "76",
-      "ok": "40",
-      "dislike": "23",
-      "hate": "2"
+      "love": "45",
+      "like": "80",
+      "ok": "41",
+      "dislike": "22",
+      "hate": "3"
     }
   },
   "seasons": {
-    "winter": "8",
-    "spring": "70",
-    "summer": "66",
+    "winter": "10",
+    "spring": "73",
+    "summer": "69",
     "autumn": "26",
-    "day": "68",
+    "day": "69",
     "night": "18"
   },
   "notes": {
@@ -85,7 +113,8 @@
     "base": [
       "Misk",
       "Benzoin"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "9",
@@ -110,7 +139,7 @@
   "priceVoting": {
     "wayOverpriced": "12",
     "overpriced": "24",
-    "fair": "40",
+    "fair": "41",
     "goodValue": "3",
     "greatValue": "0"
   },
@@ -194,10 +223,6 @@
       "name": "Osmanthus Eau de Parfum"
     },
     {
-      "brand": "BYREDO",
-      "name": "Mojave Ghost"
-    },
-    {
       "brand": "ACQUA Dİ PARMA",
       "name": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi"
     },
@@ -218,12 +243,16 @@
       "name": "Acqua di parma Blue Mediterraneo - Mirto di Panarea"
     },
     {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Acqua di Parma Blu Mediterraneo - Mandorlo di Sicilia"
+    },
+    {
       "brand": "TOM FORD",
       "name": "Black Orchid"
     },
     {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Parfum"
+      "brand": "CREED",
+      "name": "Aventus"
     },
     {
       "brand": "BYREDO",
@@ -237,5 +266,6 @@
       "brand": "CASAMORATİ 1888",
       "name": "Lira"
     }
-  ]
+  ],
+  "comments": []
 }

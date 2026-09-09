@@ -1,7 +1,7 @@
 {
   "name": "Hayawiya Ajmal",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Leather",
+  "fragranceFamily": "Aromatic",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15075.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Hayawiya-15075.html",
@@ -11,44 +11,68 @@
   "description_enhanced": "Ajmal markasının Hayawiya parfümü, kadınlar için Oryantal bir kokudur. Üst notalar: Meyvemsi notalar ve Narenciye; orta notalar: Baharatlar, Yasemin ve Gül; alt notalar Misk ve Sandal ağacı.",
   "mainAccords": [
     {
-      "name": "misk",
+      "name": "sıcak baharatlı",
       "width": "100%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "100%"
+      "width": "94.8148%"
     },
     {
-      "name": "sıcak baharatlı",
-      "width": "98.25%"
-    },
-    {
-      "name": "pudralı",
-      "width": "73.75%"
+      "name": "misk",
+      "width": "94.8148%"
     },
     {
       "name": "meyvemsi",
-      "width": "65%"
-    },
-    {
-      "name": "gül",
-      "width": "65%"
-    },
-    {
-      "name": "çiçeksi",
-      "width": "54.5%"
-    },
-    {
-      "name": "tatlı",
-      "width": "54.5%"
+      "width": "94.8148%"
     },
     {
       "name": "narenciye",
-      "width": "49.25%"
+      "width": "83.1478%"
+    },
+    {
+      "name": "pudralı",
+      "width": "81.8519%"
     },
     {
       "name": "odunsu",
-      "width": "47.5%"
+      "width": "68.8885%"
+    },
+    {
+      "name": "tatlı",
+      "width": "68.8885%"
+    },
+    {
+      "name": "taze",
+      "width": "62.4074%"
+    },
+    {
+      "name": "gül",
+      "width": "55.9257%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,7 +107,8 @@
     "base": [
       "Misk",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -112,11 +137,20 @@
     "goodValue": "0",
     "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Eau de Dolce Vita"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CARLA FRACCİ",
       "name": "Medea"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Pomegranate Noir"
     },
     {
       "brand": "BY KİLİAN",
@@ -127,44 +161,32 @@
       "name": "Lyric Woman"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Memoir Woman"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Pomegranate Noir"
+      "brand": "SERGE LUTENS",
+      "name": "Arabie"
     },
     {
       "brand": "AMOUAGE",
       "name": "Ubar"
     },
     {
-      "brand": "AJMAL",
-      "name": "Maraam"
+      "brand": "PENHALİGON'S",
+      "name": "Malabah"
     },
     {
       "brand": "GİORGİO ARMANİ",
       "name": "Rose Alexandrie"
     },
     {
-      "brand": "SERGE LUTENS",
-      "name": "Arabie"
+      "brand": "AJMAL",
+      "name": "Maraam"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Memoir Woman"
     },
     {
       "brand": "MAJDA BEKKALİ",
       "name": "Fusion Sacrée Obscur"
-    },
-    {
-      "brand": "PENHALİGON'S",
-      "name": "Malabah"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Epic Woman"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Fate Woman"
     },
     {
       "brand": "L'ARTİSAN PARFUMEUR",
@@ -173,6 +195,15 @@
     {
       "brand": "AMOUAGE",
       "name": "Interlude Woman"
+    },
+    {
+      "brand": "THE VAGABOND PRİNCE",
+      "name": "Enchanted Forest"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Epic Woman"
     }
-  ]
+  ],
+  "comments": []
 }

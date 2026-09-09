@@ -49,6 +49,34 @@
     {
       "name": "tatlı",
       "width": "44.2882%"
+    },
+    {
+      "name": "Online satın alın 50 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,7 +110,8 @@
     ],
     "base": [
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
@@ -113,16 +142,16 @@
   },
   "remindsMeOf": [
     {
+      "brand": "MESSİ",
+      "name": "Messi Eau de Parfum"
+    },
+    {
       "brand": "GİORGİO ARMANİ",
       "name": "Armani Code"
     },
     {
       "brand": "DİPTYQUE",
       "name": "Philosykos Eau de Parfum"
-    },
-    {
-      "brand": "MESSİ",
-      "name": "Messi Eau de Parfum"
     },
     {
       "brand": "M.E.C - MY EXCLUSİVE COLLECTİON",
@@ -137,40 +166,40 @@
       "name": "Eros"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Emporio Armani Night"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Pegasus"
-    },
-    {
       "brand": "NEW NOTES",
       "name": "Latte Pistachio"
-    },
-    {
-      "brand": "FERRARİ",
-      "name": "Noble Fig"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Liam"
     },
     {
+      "brand": "EX NİHİLO",
+      "name": "The Hedonist"
+    },
+    {
       "brand": "FRAGRANCE ONE",
       "name": "Office For Men"
     },
     {
-      "brand": "EX NİHİLO",
-      "name": "The Hedonist"
+      "brand": "FERRARİ",
+      "name": "Noble Fig"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Pegasus"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Night"
     },
     {
       "brand": "CREED",
       "name": "Tabarome Millésime"
     },
     {
-      "brand": "FRAGRANCE ONE",
-      "name": "Most Masculine"
+      "brand": "RABANNE",
+      "name": "Invictus"
     }
   ],
   "peopleAlsoLike": [
@@ -199,12 +228,12 @@
       "name": "Bleu de Chanel"
     },
     {
-      "brand": "CHANEL",
-      "name": "Allure Homme"
-    },
-    {
       "brand": "ISSEY MİYAKE",
       "name": "L'Eau d'Issey Pour Homme"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Allure Homme"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -234,5 +263,6 @@
       "brand": "GİVENCHY",
       "name": "Pi"
     }
-  ]
+  ],
+  "comments": []
 }

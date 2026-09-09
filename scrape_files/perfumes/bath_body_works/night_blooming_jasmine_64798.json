@@ -53,65 +53,49 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Elma çiçeği",
+      "Yasemin",
+      "Beyaz Misk"
+    ]
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "7",
-    "moderate": "13",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "13",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "20",
-    "moreFemale": "7",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "9",
-    "greatValue": "9"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "DİOR",
-      "name": "Sakura"
-    },
-    {
-      "brand": "THYMES",
-      "name": "Goldleaf Gardenia"
-    },
-    {
-      "brand": "JOVAN",
-      "name": "Night Blooming Jasmine"
-    },
-    {
-      "brand": "ISSEY MİYAKE",
-      "name": "A Drop d'Issey"
-    },
-    {
-      "brand": "PACİFİCA",
-      "name": "French Lilac"
-    },
-    {
-      "brand": "ESTÉE LAUDER",
-      "name": "Modern Muse"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BRİTNEY SPEARS",
       "name": "Curious"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Japanese Cherry Blossom"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -136,10 +120,6 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Moonlight Path"
-    },
-    {
-      "brand": "MONTBLANC",
-      "name": "Signature"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -169,5 +149,6 @@
       "brand": "ELİZABETH ARDEN",
       "name": "Green Tea"
     }
-  ]
+  ],
+  "comments": []
 }

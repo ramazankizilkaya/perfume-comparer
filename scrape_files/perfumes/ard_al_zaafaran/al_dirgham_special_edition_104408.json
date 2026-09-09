@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.104408.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ard-Al-Zaafaran/Al-Dirgham-Special-Edition-104408.html",
   "brand": "Ard Al Zaafaran parfüm ve kolonya",
-  "description": "Ard Al Zaafaran markasının Al Dirgham Special Edition parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Al Dirgham Special Edition, 2023 yılında piyasaya sürüldü. Üst notalar: Tarçın ve Muskat; orta notalar: Kakule ve Meyvemsi notalar; alt notalar Vanilya, Antep fıstığı ve Baharatlı notalar.",
-  "description_original": "Ard Al Zaafaran markasının Al Dirgham Special Edition parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Al Dirgham Special Edition, 2023 yılında piyasaya sürüldü. Üst notalar: Tarçın ve Muskat; orta notalar: Kakule ve Meyvemsi notalar; alt notalar Vanilya, Antep fıstığı ve Baharatlı notalar.",
-  "description_enhanced": "Ard Al Zaafaran markasının Al Dirgham Special Edition parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Al Dirgham Special Edition, 2023 yılında piyasaya sürüldü. Üst notalar: Tarçın ve Muskat; orta notalar: Kakule ve Meyvemsi notalar; alt notalar Vanilya, Antep fıstığı ve Baharatlı notalar.",
+  "description": "Ard Al Zaafaran markasının Al Dirgham Special Edition parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Al Dirgham Special Edition, 2023 yılında piyasaya sürüldü. Üst notalar: Tarçın ve Muskat; orta notalar: Kakule ve Meyvemsi notalar; alt notalar Vanilya, Antep fıstığı ve Baharatlar.",
+  "description_original": "Ard Al Zaafaran markasının Al Dirgham Special Edition parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Al Dirgham Special Edition, 2023 yılında piyasaya sürüldü. Üst notalar: Tarçın ve Muskat; orta notalar: Kakule ve Meyvemsi notalar; alt notalar Vanilya, Antep fıstığı ve Baharatlar.",
+  "description_enhanced": "Ard Al Zaafaran markasının Al Dirgham Special Edition parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Al Dirgham Special Edition, 2023 yılında piyasaya sürüldü. Üst notalar: Tarçın ve Muskat; orta notalar: Kakule ve Meyvemsi notalar; alt notalar Vanilya, Antep fıstığı ve Baharatlar.",
   "mainAccords": [
     {
       "name": "sıcak baharatlı",
@@ -27,18 +27,46 @@
       "width": "44.5429%"
     },
     {
-      "name": "aromatik",
+      "name": "pudralı",
       "width": "43.5735%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.23",
-    "votesCount": "99",
+    "score": "4.22",
+    "votesCount": "102",
     "breakdown": {
-      "love": "53",
-      "like": "29",
-      "ok": "9",
-      "dislike": "3",
+      "love": "55",
+      "like": "28",
+      "ok": "10",
+      "dislike": "4",
       "hate": "5"
     }
   },
@@ -62,8 +90,9 @@
     "base": [
       "Vanilya",
       "Antep fıstığı",
-      "Baharatlı notalar"
-    ]
+      "Baharatlar"
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -88,7 +117,7 @@
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "0",
-    "fair": "9",
+    "fair": "10",
     "goodValue": "14",
     "greatValue": "50"
   },
@@ -134,24 +163,24 @@
       "name": "Zumorod"
     },
     {
+      "brand": "ADİL QADRİ",
+      "name": "Raazi"
+    },
+    {
+      "brand": "AL ABSAR",
+      "name": "Sahra"
+    },
+    {
       "brand": "LE FALCONÉ PERFUMES",
       "name": "Hayba Royalty"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Vanilla Romance"
-    },
-    {
-      "brand": "AZZARO",
-      "name": "The Most Wanted"
     },
     {
       "brand": "BOND NO 9",
       "name": "Lafayette Street"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "Rifaaqat"
+      "brand": "BATH & BODY WORKS",
+      "name": "Vanilla Romance"
     }
   ],
   "peopleAlsoLike": [
@@ -215,5 +244,6 @@
       "brand": "ARD AL ZAAFARAN",
       "name": "Al Dirgham"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -45,6 +45,34 @@
     {
       "name": "animalik",
       "width": "48.9%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,7 +88,7 @@
   },
   "seasons": {
     "winter": "2",
-    "spring": "2",
+    "spring": "3",
     "summer": "5",
     "autumn": "3",
     "day": "5",
@@ -82,7 +110,8 @@
       "Çiçeksi Notalar",
       "Ylang-Ylang",
       "Tarçın"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
@@ -120,19 +149,19 @@
   "peopleAlsoLike": [
     {
       "brand": "SWİSS ARABİAN",
-      "name": "ESSENCE OF CASABLANCA"
-    },
-    {
-      "brand": "SWİSS ARABİAN",
       "name": "Tobacco 01"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Ana Abiyedh Poudrée"
+      "brand": "SWİSS ARABİAN",
+      "name": "ESSENCE OF CASABLANCA"
     },
     {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Musk Orchid"
+      "brand": "DİOR",
+      "name": "Poison"
+    },
+    {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Fursan White"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -147,28 +176,28 @@
       "name": "Peace & Love"
     },
     {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Musk Orchid"
+    },
+    {
       "brand": "KHADLAJ PERFUMES",
       "name": "Karus Secret Musk"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Mayar"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Art Of Nature II"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Angham"
     },
     {
-      "brand": "ARABİYAT PRESTİGE",
-      "name": "Nyla Vani-Elle"
-    },
-    {
       "brand": "SWİSS ARABİAN",
       "name": "Shaghaf Vanilla Toffee"
-    },
-    {
-      "brand": "SWİSS ARABİAN",
-      "name": "Incense 01"
-    },
-    {
-      "brand": "MANCERA",
-      "name": "Roses Vanille"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -178,5 +207,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Ajwad Pink to Pink"
     }
-  ]
+  ],
+  "comments": []
 }

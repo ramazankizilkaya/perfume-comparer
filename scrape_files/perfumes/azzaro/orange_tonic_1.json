@@ -37,13 +37,41 @@
     {
       "name": "beyaz çiçeksi",
       "width": "48.4295%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.46",
-    "votesCount": "96",
+    "score": "3.47",
+    "votesCount": "97",
     "breakdown": {
-      "love": "14",
+      "love": "15",
       "like": "50",
       "ok": "1",
       "dislike": "28",
@@ -53,7 +81,7 @@
   "seasons": {
     "winter": "7",
     "spring": "17",
-    "summer": "32",
+    "summer": "33",
     "autumn": "12",
     "day": "46",
     "night": "5"
@@ -80,7 +108,8 @@
       "Amber",
       "Sedir",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "4",
@@ -111,12 +140,16 @@
   },
   "remindsMeOf": [
     {
+      "brand": "HERMÈS",
+      "name": "Eau des Merveilles"
+    },
+    {
       "brand": "L'ERBOLARİO",
       "name": "Citrus"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Eau des Merveilles"
+      "brand": "GOUTAL",
+      "name": "Le Chevrefeuille"
     },
     {
       "brand": "RANCE 1795",
@@ -133,10 +166,6 @@
     {
       "brand": "HERMÈS",
       "name": "Concentré d'Orange Verte"
-    },
-    {
-      "brand": "GOUTAL",
-      "name": "Le Chevrefeuille"
     },
     {
       "brand": "KENZO",
@@ -204,5 +233,6 @@
       "brand": "LANCÔME",
       "name": "Trésor"
     }
-  ]
+  ],
+  "comments": []
 }

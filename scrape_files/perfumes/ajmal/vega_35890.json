@@ -27,11 +27,7 @@
       "width": "73.9445%"
     },
     {
-      "name": "misk",
-      "width": "68.8889%"
-    },
-    {
-      "name": "paçuli",
+      "name": "menekşe",
       "width": "68.8889%"
     },
     {
@@ -39,7 +35,11 @@
       "width": "68.8889%"
     },
     {
-      "name": "menekşe",
+      "name": "paçuli",
+      "width": "68.8889%"
+    },
+    {
+      "name": "misk",
       "width": "68.8889%"
     },
     {
@@ -49,6 +49,30 @@
     {
       "name": "çiçeksi",
       "width": "60.7222%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,7 +110,8 @@
       "Paçuli",
       "Misk",
       "Vanilya"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -161,5 +186,6 @@
       "brand": "ROBERTO CAVALLİ",
       "name": "Roberto Cavalli Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

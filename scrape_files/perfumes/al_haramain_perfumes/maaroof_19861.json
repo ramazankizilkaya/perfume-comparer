@@ -45,6 +45,34 @@
     {
       "name": "balsamik",
       "width": "46.7257%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -69,7 +97,16 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Baharatlı Notalar",
+      "Odunsu Notalar",
+      "Vanilya",
+      "Paçuli",
+      "Amber",
+      "Misk",
+      "Bitkisel Notlar"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -104,12 +141,12 @@
       "name": "Attar Al Kaaba"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Akaster"
-    },
-    {
       "brand": "RASASİ",
       "name": "Maisam"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Akaster"
     }
   ],
   "peopleAlsoLike": [
@@ -173,5 +210,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

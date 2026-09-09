@@ -39,11 +39,11 @@
       "width": "51%"
     },
     {
-      "name": "sulu",
+      "name": "rom",
       "width": "47.5%"
     },
     {
-      "name": "rom",
+      "name": "sulu",
       "width": "47.5%"
     }
   ],
@@ -69,61 +69,43 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Mango",
+      "Deniz Notaları",
+      "Mai Tai Kokteyli",
+      "Misk",
+      "Sandal ağacı"
+    ]
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "5",
-    "moderate": "1",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "1",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "3",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "4",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Tiki Mango Mai Tai"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Rio Pineapple Mango"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Dewy Dragonfruit Nectar"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Mango Smash"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa 67"
-    },
-    {
-      "brand": "ULYKA PARFUMS",
-      "name": "Nota Loca"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BRİTNEY SPEARS",
@@ -185,5 +167,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Vanilla Bean Noel"
     }
-  ]
+  ],
+  "comments": []
 }

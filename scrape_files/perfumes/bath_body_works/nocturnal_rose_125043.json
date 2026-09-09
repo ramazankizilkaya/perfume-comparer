@@ -29,13 +29,41 @@
     {
       "name": "sıcak baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.05",
-    "votesCount": "39",
+    "score": "4.08",
+    "votesCount": "40",
     "breakdown": {
-      "love": "14",
+      "love": "15",
       "like": "17",
       "ok": "4",
       "dislike": "4",
@@ -43,33 +71,38 @@
     }
   },
   "seasons": {
-    "winter": "13",
-    "spring": "14",
-    "summer": "9",
-    "autumn": "11",
-    "day": "14",
-    "night": "14"
+    "winter": "15",
+    "spring": "15",
+    "summer": "10",
+    "autumn": "12",
+    "day": "15",
+    "night": "15"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Yabani Gül",
+      "Karabiber",
+      "Sedir ağacı"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
     "weak": "1",
-    "moderate": "7",
+    "moderate": "8",
     "longLasting": "1",
     "eternal": "1"
   },
   "sillage": {
     "intimate": "2",
-    "moderate": "7",
+    "moderate": "8",
     "strong": "0",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "1",
+    "female": "2",
     "moreFemale": "2",
     "unisex": "12",
     "moreMale": "1",
@@ -79,7 +112,7 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "4",
-    "goodValue": "5",
+    "goodValue": "6",
     "greatValue": "4"
   },
   "remindsMeOf": [
@@ -88,12 +121,12 @@
       "name": "Nocturnal Rose"
     },
     {
-      "brand": "MOSCHİNO",
-      "name": "Toy Boy"
-    },
-    {
       "brand": "INİTİO PARFUMS PRİVES",
       "name": "Atomic Rose"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Toy Boy"
     },
     {
       "brand": "JO MALONE LONDON",
@@ -146,36 +179,28 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Delina"
+      "brand": "BETTER WORLD FRAGRANCE HOUSE",
+      "name": "Summer Mink"
     },
     {
-      "brand": "BALMAİN BEAUTY",
-      "name": "Destin"
-    },
-    {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "By the Fireplace"
+      "brand": "BATH & BODY WORKS",
+      "name": "Vanilla Romance"
     },
     {
       "brand": "BY KİLİAN",
       "name": "Angels' Share"
     },
     {
-      "brand": "KAYALİ FRAGRANCES",
-      "name": "Eden Juicy Apple | 01 Eau De Parfum"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Vanilla Ease"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Snowflakes & Cashmere"
-    },
-    {
       "brand": "JO MALONE LONDON",
       "name": "Wood Sage & Sea Salt"
+    },
+    {
+      "brand": "PHİLOSOPHY",
+      "name": "Fresh Cream Warm Cashmere"
     },
     {
       "brand": "LE LABO",
@@ -186,24 +211,33 @@
       "name": "You"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Love Don't Be Shy"
+      "brand": "PARFUMS DE MARLY",
+      "name": "Oriana"
     },
     {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Jazz Club"
+      "brand": "BY KİLİAN",
+      "name": "Love Don't Be Shy"
     },
     {
       "brand": "ELLİS BROOKLYN",
       "name": "Guava Granita"
     },
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Into The Night"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born in Roma Green Stravaganza"
+    },
+    {
       "brand": "KAYALİ FRAGRANCES",
-      "name": "Utopia Vanilla Coco 21"
+      "name": "Yum Boujee Marshmallow | 81"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Luminous"
+      "name": "Vanilla Bean Noel"
     }
-  ]
+  ],
+  "comments": []
 }

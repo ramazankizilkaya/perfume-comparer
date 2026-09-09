@@ -49,6 +49,34 @@
     {
       "name": "amber",
       "width": "46.2462%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "27",
-    "spring": "174",
-    "summer": "171",
+    "spring": "175",
+    "summer": "172",
     "autumn": "59",
-    "day": "202",
+    "day": "203",
     "night": "42"
   },
   "notes": {
@@ -85,18 +113,19 @@
       "Odunsu Notalar",
       "Süet",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
     "weak": "19",
-    "moderate": "97",
+    "moderate": "98",
     "longLasting": "54",
     "eternal": "11"
   },
   "sillage": {
     "intimate": "23",
-    "moderate": "97",
+    "moderate": "98",
     "strong": "52",
     "enormous": "20"
   },
@@ -105,13 +134,13 @@
     "moreFemale": "0",
     "unisex": "16",
     "moreMale": "23",
-    "male": "23"
+    "male": "24"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "4",
     "fair": "12",
-    "goodValue": "21",
+    "goodValue": "22",
     "greatValue": "9"
   },
   "remindsMeOf": [
@@ -237,5 +266,6 @@
       "brand": "HERMÈS",
       "name": "Terre d'Hermès"
     }
-  ]
+  ],
+  "comments": []
 }

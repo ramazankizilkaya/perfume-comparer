@@ -41,25 +41,53 @@
     {
       "name": "taze",
       "width": "47.9048%"
+    },
+    {
+      "name": "Online satın alın 30 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.73",
-    "votesCount": "131",
+    "votesCount": "133",
     "breakdown": {
       "love": "27",
-      "like": "59",
-      "ok": "30",
+      "like": "60",
+      "ok": "31",
       "dislike": "13",
       "hate": "2"
     }
   },
   "seasons": {
     "winter": "20",
-    "spring": "55",
+    "spring": "56",
     "summer": "55",
     "autumn": "30",
-    "day": "60",
+    "day": "61",
     "night": "18"
   },
   "notes": {
@@ -76,24 +104,25 @@
       "Tatlı Notlar",
       "Misk",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "9",
     "weak": "21",
-    "moderate": "33",
+    "moderate": "34",
     "longLasting": "8",
     "eternal": "4"
   },
   "sillage": {
     "intimate": "21",
-    "moderate": "33",
+    "moderate": "34",
     "strong": "8",
     "enormous": "9"
   },
   "genderVoting": {
     "female": "59",
-    "moreFemale": "4",
+    "moreFemale": "5",
     "unisex": "2",
     "moreMale": "1",
     "male": "0"
@@ -101,8 +130,8 @@
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "5",
-    "fair": "30",
-    "goodValue": "22",
+    "fair": "31",
+    "goodValue": "23",
     "greatValue": "21"
   },
   "remindsMeOf": [
@@ -169,10 +198,6 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "LANCÔME",
-      "name": "La Nuit Trésor"
-    },
-    {
       "brand": "MUGLER",
       "name": "Angel"
     },
@@ -181,8 +206,8 @@
       "name": "J'adore"
     },
     {
-      "brand": "CACHAREL",
-      "name": "Amor Amor"
+      "brand": "CHLOÉ",
+      "name": "Nomade"
     },
     {
       "brand": "BY KİLİAN",
@@ -193,6 +218,10 @@
       "name": "Nebras"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Eclaire"
+    },
+    {
       "brand": "CALVİN KLEİN",
       "name": "Euphoria"
     },
@@ -201,8 +230,8 @@
       "name": "Hypnotic Poison"
     },
     {
-      "brand": "DİOR",
-      "name": "Dolce Vita"
+      "brand": "PRADA",
+      "name": "Prada Paradoxe"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -217,8 +246,8 @@
       "name": "Lolita Lempicka"
     },
     {
-      "brand": "LANCÔME",
-      "name": "Poeme"
+      "brand": "DOLCE&GABBANA",
+      "name": "Devotion"
     },
     {
       "brand": "CHANEL",
@@ -228,5 +257,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Armani Code for Women"
     }
-  ]
+  ],
+  "comments": []
 }

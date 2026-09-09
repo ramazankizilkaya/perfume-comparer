@@ -49,6 +49,34 @@
     {
       "name": "gül",
       "width": "45.2727%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,7 +114,8 @@
       "Amber",
       "Reçineler",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -198,5 +227,6 @@
       "brand": "TOM FORD",
       "name": "Oud Wood"
     }
-  ]
+  ],
+  "comments": []
 }

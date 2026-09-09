@@ -49,15 +49,39 @@
     {
       "name": "sulu",
       "width": "50.9999%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.62",
-    "votesCount": "8",
+    "score": "3.56",
+    "votesCount": "9",
     "breakdown": {
       "love": "4",
       "like": "1",
-      "ok": "0",
+      "ok": "1",
       "dislike": "2",
       "hate": "1"
     }
@@ -87,7 +111,8 @@
       "Sandal ağacı",
       "Misk",
       "Ambroksan"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -112,7 +137,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "0",
+    "fair": "1",
     "goodValue": "4",
     "greatValue": "2"
   },
@@ -132,8 +157,8 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Mia Dolcezza"
+      "brand": "GİVENCHY",
+      "name": "Amarige"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -160,10 +185,6 @@
       "name": "Shahd"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "Khair Felicity"
-    },
-    {
       "brand": "MAİSON ALHAMBRA",
       "name": "Philos Opus Noir"
     },
@@ -172,24 +193,29 @@
       "name": "Ansaam Gold"
     },
     {
-      "brand": "JİMMY CHOO",
-      "name": "I Want Choo With Love"
+      "brand": "ZİMAYA",
+      "name": "INEKAS SOLIS"
+    },
+    {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "La Fede Crystallia Imperio"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "SECRET FRANKINCENSE CPO"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Petra"
-    },
-    {
-      "brand": "RASASİ",
-      "name": "Hawas Diva"
+      "name": "Art of Arabia III"
     },
     {
       "brand": "PARIS CORNER",
       "name": "Qissa Delicious"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "December Vanilla"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "The Artist No.1"
     }
-  ]
+  ],
+  "comments": []
 }

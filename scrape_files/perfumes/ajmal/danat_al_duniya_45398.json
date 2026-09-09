@@ -33,6 +33,30 @@
     {
       "name": "pudralı",
       "width": "56.25%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -65,7 +89,8 @@
     "base": [
       "Misk",
       "Odunsu Notalar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -173,5 +198,6 @@
       "brand": "IMAGİNARY AUTHORS",
       "name": "Telegrama"
     }
-  ]
+  ],
+  "comments": []
 }

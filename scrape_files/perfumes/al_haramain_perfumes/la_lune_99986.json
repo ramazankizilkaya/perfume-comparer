@@ -19,19 +19,19 @@
       "width": "83.6666%"
     },
     {
-      "name": "deri",
-      "width": "76.6667%"
-    },
-    {
       "name": "odunsu",
       "width": "76.6667%"
     },
     {
-      "name": "amber",
-      "width": "65%"
+      "name": "deri",
+      "width": "76.6667%"
     },
     {
       "name": "vanilya",
+      "width": "65%"
+    },
+    {
+      "name": "amber",
       "width": "65%"
     },
     {
@@ -41,6 +41,34 @@
     {
       "name": "pudralı",
       "width": "57.4167%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -78,7 +106,8 @@
       "Tütün",
       "Pudramsı notalar",
       "Beyaz Çiçekler"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -101,7 +130,7 @@
     "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "0",
+    "wayOverpriced": "1",
     "overpriced": "0",
     "fair": "1",
     "goodValue": "2",
@@ -131,12 +160,12 @@
       "name": "Asad Elixir"
     },
     {
-      "brand": "DRİES VAN NOTEN",
-      "name": "Havana Gold"
-    },
-    {
       "brand": "SWİSS ARABİAN",
       "name": "Tobacco 01"
+    },
+    {
+      "brand": "DRİES VAN NOTEN",
+      "name": "Havana Gold"
     },
     {
       "brand": "FRENCH AVENUE",
@@ -171,12 +200,12 @@
       "name": "Gentleman Eau de Parfum Reserve Privée"
     },
     {
-      "brand": "FRENCH AVENUE",
-      "name": "Thunder Extrait"
-    },
-    {
       "brand": "XERJOFF",
       "name": "Via Manzoni 20"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Thunder Extrait"
     },
     {
       "brand": "MAX PHİLİP",
@@ -186,5 +215,6 @@
       "brand": "VAN CLEEF & ARPELS",
       "name": "Moonlight Cherry"
     }
-  ]
+  ],
+  "comments": []
 }

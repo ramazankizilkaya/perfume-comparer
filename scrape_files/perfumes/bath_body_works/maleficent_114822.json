@@ -29,31 +29,64 @@
     {
       "name": "çiçeksi",
       "width": "49.0908%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.55",
-    "votesCount": "85",
+    "score": "3.53",
+    "votesCount": "88",
     "breakdown": {
-      "love": "20",
+      "love": "21",
       "like": "29",
-      "ok": "19",
+      "ok": "20",
       "dislike": "12",
-      "hate": "5"
+      "hate": "6"
     }
   },
   "seasons": {
-    "winter": "23",
+    "winter": "25",
     "spring": "15",
     "summer": "9",
-    "autumn": "40",
+    "autumn": "41",
     "day": "15",
-    "night": "32"
+    "night": "34"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Sedir ağacı",
+      "Gül",
+      "Misk"
+    ]
   },
   "longevity": {
     "veryWeak": "9",
@@ -78,7 +111,7 @@
   "priceVoting": {
     "wayOverpriced": "2",
     "overpriced": "1",
-    "fair": "19",
+    "fair": "20",
     "goodValue": "14",
     "greatValue": "10"
   },
@@ -96,12 +129,12 @@
       "name": "Gucci Guilty Absolute Pour Femme"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Black Orchid"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Into The Night"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -205,5 +238,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Warm Vanilla Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

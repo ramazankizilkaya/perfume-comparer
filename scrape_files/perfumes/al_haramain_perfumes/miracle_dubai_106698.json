@@ -39,16 +39,44 @@
       "width": "61.5%"
     },
     {
-      "name": "çiçeksi",
+      "name": "taze",
       "width": "51%"
     },
     {
-      "name": "taze",
+      "name": "çiçeksi",
       "width": "51%"
     },
     {
       "name": "animalik",
       "width": "48.9583%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "3",
-    "spring": "9",
-    "summer": "9",
-    "autumn": "5",
-    "day": "9",
-    "night": "5"
+    "winter": "4",
+    "spring": "10",
+    "summer": "10",
+    "autumn": "6",
+    "day": "10",
+    "night": "6"
   },
   "notes": {
     "top": [
@@ -90,18 +118,19 @@
       "Amber",
       "Pudramsı notalar",
       "Balsamik Notlar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
-    "moderate": "7",
+    "moderate": "8",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
-    "moderate": "7",
+    "moderate": "8",
     "strong": "4",
     "enormous": "0"
   },
@@ -129,10 +158,6 @@
       "name": "Miracle"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Delina Exclusif"
-    },
-    {
       "brand": "LANCÔME",
       "name": "Idôle"
     },
@@ -141,30 +166,22 @@
       "name": "Mayar"
     },
     {
-      "brand": "ASDAAF",
-      "name": "Raneen"
+      "brand": "PARFUMS DE MARLY",
+      "name": "Delina Exclusif"
     }
   ],
   "peopleAlsoLike": [
     {
-      "brand": "MAISON ASRAR",
-      "name": "Lily"
-    },
-    {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "L'Aventure Grapefruit"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Ajwad Pink to Pink"
-    },
-    {
-      "brand": "KENZO",
-      "name": "Flower by Kenzo La Récolte Parisienne"
+      "brand": "GİVENCHY",
+      "name": "Ysatis"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Sublime"
+    },
+    {
+      "brand": "EX NİHİLO",
+      "name": "Blue Talisman"
     },
     {
       "brand": "GİVENCHY",
@@ -175,16 +192,8 @@
       "name": "Opulent Dubai"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Emporio Armani Stronger With You Sandalwood"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Art Of Universe"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Barénia"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -195,16 +204,33 @@
       "name": "Gentleman Eau de Parfum Reserve Privée"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Honour Woman"
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Palm Dubai"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Angels' Share"
     },
     {
       "brand": "SERGE LUTENS",
       "name": "Le perce-vent"
     },
     {
+      "brand": "TOM FORD",
+      "name": "Tobacco Vanille"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Habik For Men"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Spectre Wraith"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Pinnace"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -33,31 +33,64 @@
     {
       "name": "çiçeksi",
       "width": "48.75%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.22",
-    "votesCount": "36",
+    "score": "4.19",
+    "votesCount": "37",
     "breakdown": {
       "love": "16",
       "like": "14",
-      "ok": "4",
+      "ok": "5",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "12",
-    "spring": "15",
+    "winter": "14",
+    "spring": "16",
     "summer": "9",
-    "autumn": "13",
+    "autumn": "14",
     "day": "14",
     "night": "3"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Menekşe",
+      "Böğürtlen",
+      "Vanilya"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
@@ -82,7 +115,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "4",
+    "fair": "5",
     "goodValue": "7",
     "greatValue": "3"
   },
@@ -177,5 +210,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Into the Night"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,13 +49,37 @@
     {
       "name": "balsamik",
       "width": "55.3012%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.33",
-    "votesCount": "3",
+    "score": "4.50",
+    "votesCount": "4",
     "breakdown": {
-      "love": "2",
+      "love": "3",
       "like": "0",
       "ok": "1",
       "dislike": "0",
@@ -63,11 +87,11 @@
     }
   },
   "seasons": {
-    "winter": "2",
+    "winter": "3",
     "spring": "1",
-    "summer": "2",
+    "summer": "3",
     "autumn": "1",
-    "day": "2",
+    "day": "3",
     "night": "1"
   },
   "notes": {
@@ -86,7 +110,8 @@
       "Deri",
       "Sedir",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -99,12 +124,12 @@
     "intimate": "1",
     "moderate": "1",
     "strong": "2",
-    "enormous": "2"
+    "enormous": "3"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "2",
+    "unisex": "3",
     "moreMale": "0",
     "male": "1"
   },
@@ -112,14 +137,19 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "1",
-    "goodValue": "2",
+    "goodValue": "3",
     "greatValue": "1"
   },
   "remindsMeOf": [
     {
       "brand": "AL HARAMAİN PERFUMES",
       "name": "White Oudh"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Shuhrah Pour Homme"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

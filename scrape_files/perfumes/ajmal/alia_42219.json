@@ -16,49 +16,73 @@
     },
     {
       "name": "odunsu",
-      "width": "99.1981%"
+      "width": "98.8336%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "87.8474%"
+      "width": "87.847%"
     },
     {
       "name": "ud",
-      "width": "74.2361%"
-    },
-    {
-      "name": "narenciye",
-      "width": "66.9443%"
+      "width": "74.2358%"
     },
     {
       "name": "misk",
-      "width": "66.8959%"
+      "width": "67.1877%"
     },
     {
-      "name": "pudralı",
-      "width": "64.4166%"
+      "name": "narenciye",
+      "width": "66.9444%"
     },
     {
       "name": "paçuli",
-      "width": "63.0557%"
+      "width": "63.0556%"
+    },
+    {
+      "name": "pudralı",
+      "width": "62.7152%"
     },
     {
       "name": "toprak",
-      "width": "60.1389%"
+      "width": "60.139%"
     },
     {
       "name": "bitkisel",
-      "width": "59.3612%"
+      "width": "59.4096%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.85",
-    "votesCount": "182",
+    "score": "3.84",
+    "votesCount": "184",
     "breakdown": {
       "love": "47",
-      "like": "90",
+      "like": "91",
       "ok": "16",
-      "dislike": "28",
+      "dislike": "29",
       "hate": "1"
     }
   },
@@ -66,14 +90,27 @@
     "winter": "46",
     "spring": "15",
     "summer": "17",
-    "autumn": "49",
+    "autumn": "50",
     "day": "36",
     "night": "34"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Agar ağacı (Oud)",
+      "Kakule",
+      "Pembe biber",
+      "Paçuli",
+      "Vetiver",
+      "Pelin otu",
+      "Misk",
+      "Sedir",
+      "Menekşe",
+      "Limon",
+      "Bergamot"
+    ]
   },
   "longevity": {
     "veryWeak": "7",
@@ -90,8 +127,8 @@
   },
   "genderVoting": {
     "female": "9",
-    "moreFemale": "6",
-    "unisex": "26",
+    "moreFemale": "5",
+    "unisex": "27",
     "moreMale": "2",
     "male": "2"
   },
@@ -100,7 +137,7 @@
     "overpriced": "1",
     "fair": "16",
     "goodValue": "14",
-    "greatValue": "6"
+    "greatValue": "7"
   },
   "remindsMeOf": [
     {
@@ -110,6 +147,10 @@
     {
       "brand": "PENHALİGON'S",
       "name": "The Inimitable William Penhaligon"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "1 Million"
     },
     {
       "brand": "FUGAZZİ",
@@ -122,10 +163,6 @@
     {
       "brand": "LES EAUX PRİMORDİALES",
       "name": "Iris Palladium 2015"
-    },
-    {
-      "brand": "RABANNE",
-      "name": "1 Million"
     },
     {
       "brand": "AMOUAGE",
@@ -190,12 +227,12 @@
       "name": "Black Orchid"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain"
-    },
-    {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez For Her"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Mon Guerlain"
     },
     {
       "brand": "GUERLAİN",
@@ -221,5 +258,6 @@
       "brand": "TOM FORD",
       "name": "Velvet Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

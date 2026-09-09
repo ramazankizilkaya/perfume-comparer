@@ -1,8 +1,8 @@
 {
   "name": "Adidas 1958 Goool! Adidas",
   "targetGender": "erkekler için",
-  "fragranceFamily": "Citrus",
-  "concentration": "Edt",
+  "fragranceFamily": "Fresh",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.63046.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Adidas/Adidas-1958-Goool-63046.html",
   "brand": "Adidas parfüm ve kolonya",
@@ -11,11 +11,11 @@
   "description_enhanced": "Adidas markasının Adidas 1958 Goool! parfümü, erkekler için Odunsu Aromatik bir kokudur. Adidas 1958 Goool!, 2013 yılında piyasaya sürüldü. Kokuda Bitkisel Notlar, Narenciye ve Yeşil Notalar notaları bulunur.",
   "mainAccords": [
     {
-      "name": "narenciye",
+      "name": "yeşil",
       "width": "100%"
     },
     {
-      "name": "yeşil",
+      "name": "narenciye",
       "width": "100%"
     },
     {
@@ -29,6 +29,30 @@
     {
       "name": "aromatik",
       "width": "33.5%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +77,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Bitkisel Notlar",
+      "Narenciye",
+      "Yeşil Notalar"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -88,5 +117,6 @@
       "name": "This is Her"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

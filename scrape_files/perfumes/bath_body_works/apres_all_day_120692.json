@@ -25,21 +25,49 @@
     {
       "name": "ozonik",
       "width": "53.3333%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "63",
+    "score": "4.05",
+    "votesCount": "66",
     "breakdown": {
       "love": "25",
-      "like": "22",
-      "ok": "12",
+      "like": "24",
+      "ok": "13",
       "dislike": "3",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "34",
+    "winter": "36",
     "spring": "25",
     "summer": "11",
     "autumn": "7",
@@ -49,13 +77,17 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kar",
+      "Şeker"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
     "weak": "6",
     "moderate": "14",
-    "longLasting": "3",
+    "longLasting": "4",
     "eternal": "1"
   },
   "sillage": {
@@ -67,15 +99,15 @@
   "genderVoting": {
     "female": "19",
     "moreFemale": "5",
-    "unisex": "3",
+    "unisex": "4",
     "moreMale": "0",
     "male": "1"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "12",
-    "goodValue": "11",
+    "fair": "13",
+    "goodValue": "12",
     "greatValue": "15"
   },
   "remindsMeOf": [
@@ -128,16 +160,16 @@
       "name": "I Want Choo With Love"
     },
     {
-      "brand": "CHANEL",
-      "name": "Chance Eau Splendide"
-    },
-    {
       "brand": "KATE SPADE",
       "name": "Kate Spade New York Sparkle"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Delina"
+      "brand": "HENRY JACQUES",
+      "name": "Rose Snow De HJ"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Strawberries and Champagne"
     }
   ],
   "peopleAlsoLike": [
@@ -151,11 +183,11 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Milk Bar Birthday Cake"
+      "name": "Covered In Roses"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Covered In Roses"
+      "name": "Milk Bar Birthday Cake"
     },
     {
       "brand": "KAYALİ FRAGRANCES",
@@ -166,8 +198,8 @@
       "name": "Warm Vanilla Sugar"
     },
     {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '40"
+      "brand": "BATH & BODY WORKS",
+      "name": "Inner Angel"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -201,5 +233,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Midnight Addiction"
     }
-  ]
+  ],
+  "comments": []
 }

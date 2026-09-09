@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.43409.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Acqua-di-Parma/Colonia-Ebano-43409.html",
   "brand": "Acqua di Parma parfüm ve kolonya",
-  "description": "Acqua di Parma markasının Colonia Ebano parfümü, erkekler için Odunsu bir kokudur. Colonia Ebano, 2017 yılında piyasaya sürüldü. Üst notalar: Reçineler, Pimento, Petitgrain ve Bergamot; orta notalar: Abanoz ve Bal; alt notalar Vetiver ve Paçuli.",
-  "description_original": "Acqua di Parma markasının Colonia Ebano parfümü, erkekler için Odunsu bir kokudur. Colonia Ebano, 2017 yılında piyasaya sürüldü. Üst notalar: Reçineler, Pimento, Petitgrain ve Bergamot; orta notalar: Abanoz ve Bal; alt notalar Vetiver ve Paçuli.",
-  "description_enhanced": "Acqua di Parma markasının Colonia Ebano parfümü, erkekler için Odunsu bir kokudur. Colonia Ebano, 2017 yılında piyasaya sürüldü. Üst notalar: Reçineler, Pimento, Petitgrain ve Bergamot; orta notalar: Abanoz ve Bal; alt notalar Vetiver ve Paçuli.",
+  "description": "Acqua di Parma markasının Colonia Ebano parfümü, erkekler için Odunsu bir kokudur. Colonia Ebano, 2017 yılında piyasaya sürüldü. Üst notalar: Reçineler, Kırmızı Biber, Petitgrain ve Bergamot; orta notalar: Abanoz ve Bal; alt notalar Vetiver ve Paçuli.",
+  "description_original": "Acqua di Parma markasının Colonia Ebano parfümü, erkekler için Odunsu bir kokudur. Colonia Ebano, 2017 yılında piyasaya sürüldü. Üst notalar: Reçineler, Kırmızı Biber, Petitgrain ve Bergamot; orta notalar: Abanoz ve Bal; alt notalar Vetiver ve Paçuli.",
+  "description_enhanced": "Acqua di Parma markasının Colonia Ebano parfümü, erkekler için Odunsu bir kokudur. Colonia Ebano, 2017 yılında piyasaya sürüldü. Üst notalar: Reçineler, Kırmızı Biber, Petitgrain ve Bergamot; orta notalar: Abanoz ve Bal; alt notalar Vetiver ve Paçuli.",
   "mainAccords": [
     {
       "name": "odunsu",
@@ -41,13 +41,37 @@
     {
       "name": "balsamik",
       "width": "46.0123%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.05",
-    "votesCount": "337",
+    "votesCount": "336",
     "breakdown": {
-      "love": "134",
+      "love": "133",
       "like": "133",
       "ok": "25",
       "dislike": "44",
@@ -65,7 +89,7 @@
   "notes": {
     "top": [
       "Reçineler",
-      "Pimento",
+      "Kırmızı Biber",
       "Petitgrain",
       "Bergamot"
     ],
@@ -76,7 +100,8 @@
     "base": [
       "Vetiver",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "8",
@@ -115,12 +140,12 @@
       "name": "Piment Brulant"
     },
     {
-      "brand": "BRİONİ",
-      "name": "Brioni Eau de Parfum Suave"
-    },
-    {
       "brand": "BİNET-PAPİLLON",
       "name": "Nº 3 Cologne Curieuse"
+    },
+    {
+      "brand": "BRİONİ",
+      "name": "Brioni Eau de Parfum Suave"
     },
     {
       "brand": "JO MALONE LONDON",
@@ -139,6 +164,10 @@
       "name": "Ebony Wood"
     },
     {
+      "brand": "GUCCİ",
+      "name": "Gucci Nobile"
+    },
+    {
       "brand": "BOTTEGA VENETA",
       "name": "Parco Palladiano XII: Quercia"
     },
@@ -147,24 +176,20 @@
       "name": "Koala"
     },
     {
-      "brand": "GUCCİ",
-      "name": "Gucci Nobile"
+      "brand": "ALFRED DUNHİLL",
+      "name": "Icon Elite"
     },
     {
       "brand": "ROSENDO MATEU OLFACTİVE EXPRESSİONS",
       "name": "Rosendo Mateu Nº 2 Citrus, Wood, Suede Leather"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Layton Exclusif"
-    },
-    {
-      "brand": "ALFRED DUNHİLL",
-      "name": "Icon Elite"
-    },
-    {
       "brand": "HERMÈS",
       "name": "Terre d'Hermes Flacon H 2019 Eau de Toilette"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Giò Absolu Instinct"
     }
   ],
   "peopleAlsoLike": [
@@ -197,10 +222,6 @@
       "name": "Gucci Guilty Absolute"
     },
     {
-      "brand": "CREED",
-      "name": "Royal Oud"
-    },
-    {
       "brand": "HERMÈS",
       "name": "Terre d'Hermes Parfum"
     },
@@ -221,6 +242,10 @@
       "name": "Essenza di Colonia"
     },
     {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
+    },
+    {
       "brand": "CREED",
       "name": "Green Irish Tweed"
     },
@@ -228,5 +253,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

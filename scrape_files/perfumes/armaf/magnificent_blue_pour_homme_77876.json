@@ -37,26 +37,54 @@
     {
       "name": "bitkisel",
       "width": "45%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.86",
-    "votesCount": "70",
+    "votesCount": "73",
     "breakdown": {
-      "love": "22",
-      "like": "28",
-      "ok": "10",
+      "love": "23",
+      "like": "29",
+      "ok": "11",
       "dislike": "8",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "15",
-    "spring": "46",
-    "summer": "48",
-    "autumn": "34",
-    "day": "42",
-    "night": "22"
+    "winter": "16",
+    "spring": "48",
+    "summer": "50",
+    "autumn": "36",
+    "day": "44",
+    "night": "23"
   },
   "notes": {
     "top": [
@@ -76,33 +104,34 @@
       "Sedir",
       "Vetiver",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "1",
-    "moderate": "23",
-    "longLasting": "25",
+    "moderate": "24",
+    "longLasting": "26",
     "eternal": "3"
   },
   "sillage": {
     "intimate": "2",
-    "moderate": "23",
+    "moderate": "24",
     "strong": "20",
-    "enormous": "5"
+    "enormous": "6"
   },
   "genderVoting": {
     "female": "3",
     "moreFemale": "0",
     "unisex": "1",
-    "moreMale": "12",
-    "male": "41"
+    "moreMale": "13",
+    "male": "42"
   },
   "priceVoting": {
     "wayOverpriced": "2",
     "overpriced": "2",
-    "fair": "10",
-    "goodValue": "16",
+    "fair": "11",
+    "goodValue": "18",
     "greatValue": "26"
   },
   "remindsMeOf": [
@@ -115,16 +144,12 @@
       "name": "Sauvage"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Opulent Red"
-    },
-    {
       "brand": "ARMAF",
       "name": "Odyssey Tyrant Special Edition"
     },
     {
-      "brand": "PRADA",
-      "name": "Luna Rossa Carbon Eau de Toilette"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Opulent Red"
     },
     {
       "brand": "ARMAF",
@@ -133,6 +158,10 @@
     {
       "brand": "ARD AL ZAAFARAN",
       "name": "I Am The King"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Luna Rossa Carbon Eau de Toilette"
     },
     {
       "brand": "DİOR",
@@ -177,12 +206,20 @@
       "name": "Versace Pour Homme"
     },
     {
-      "brand": "VERSACE",
-      "name": "Versace Man Eau Fraiche"
+      "brand": "CHANEL",
+      "name": "Bleu de Chanel Eau de Parfum"
     },
     {
       "brand": "MİSSONİ",
       "name": "Missoni Wave"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club De Nuit Urban Elixir"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Luna Rossa Carbon Eau de Toilette"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -205,28 +242,21 @@
       "name": "Turathi Blue"
     },
     {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Intense Man"
-    },
-    {
       "brand": "VERSACE",
       "name": "Eros"
-    },
-    {
-      "brand": "MONTBLANC",
-      "name": "Individuel"
     },
     {
       "brand": "RASASİ",
       "name": "Hawas for Him"
     },
     {
-      "brand": "BENTLEY",
-      "name": "Bentley for Men Intense"
+      "brand": "ARMAF",
+      "name": "Tres Nuit"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Asad"
+      "brand": "BENTLEY",
+      "name": "Bentley for Men Intense"
     }
-  ]
+  ],
+  "comments": []
 }

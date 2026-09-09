@@ -19,10 +19,6 @@
       "width": "73.6066%"
     },
     {
-      "name": "lavanta",
-      "width": "58.6886%"
-    },
-    {
       "name": "beyaz çiçeksi",
       "width": "58.6886%"
     },
@@ -32,6 +28,10 @@
     },
     {
       "name": "ud",
+      "width": "58.6886%"
+    },
+    {
+      "name": "lavanta",
       "width": "58.6886%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "yeşil",
       "width": "50.6557%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,25 +116,26 @@
       "Vanilya",
       "Misk",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
     "moderate": "0",
-    "longLasting": "0",
+    "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
     "moderate": "0",
-    "strong": "0",
+    "strong": "1",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "0",
+    "unisex": "1",
     "moreMale": "0",
     "male": "0"
   },
@@ -118,5 +147,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

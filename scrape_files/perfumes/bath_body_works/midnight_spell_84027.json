@@ -29,13 +29,41 @@
     {
       "name": "animalik",
       "width": "41.6667%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.96",
-    "votesCount": "129",
+    "score": "3.97",
+    "votesCount": "130",
     "breakdown": {
-      "love": "56",
+      "love": "57",
       "like": "32",
       "ok": "27",
       "dislike": "8",
@@ -43,17 +71,22 @@
     }
   },
   "seasons": {
-    "winter": "47",
+    "winter": "48",
     "spring": "10",
     "summer": "6",
-    "autumn": "69",
+    "autumn": "70",
     "day": "22",
     "night": "61"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Dağ havası",
+      "Odunsu Notalar",
+      "Kristal Amber"
+    ]
   },
   "longevity": {
     "veryWeak": "10",
@@ -97,10 +130,6 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Ivory Cashmere"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Moonlit Martini"
     },
     {
@@ -112,24 +141,16 @@
       "name": "Luna Rossa Black"
     },
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Ivory Cashmere"
+    },
+    {
       "brand": "ZARA",
       "name": "Nuit"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Juniper Breeze"
-    },
-    {
       "brand": "MİX:BAR",
       "name": "Cloud Musk"
-    },
-    {
-      "brand": "ARİANA GRANDE",
-      "name": "God Is A Woman"
-    },
-    {
-      "brand": "BİLLİE EİLİSH",
-      "name": "Eilish No 2"
     }
   ],
   "peopleAlsoLike": [
@@ -139,11 +160,11 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Wicked Vanilla Woods"
+      "name": "Into The Night"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Into The Night"
+      "name": "Wicked Vanilla Woods"
     },
     {
       "brand": "MAİSON MARTİN MARGİELA",
@@ -193,5 +214,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Vampire Blood"
     }
-  ]
+  ],
+  "comments": []
 }

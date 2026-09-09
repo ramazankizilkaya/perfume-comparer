@@ -37,6 +37,34 @@
     {
       "name": "pudralı",
       "width": "45.5556%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -51,7 +79,7 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "21",
     "summer": "43",
     "autumn": "4",
@@ -61,7 +89,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Armut",
+      "Zambak",
+      "Nektarin"
+    ]
   },
   "longevity": {
     "veryWeak": "8",
@@ -130,10 +163,6 @@
       "name": "Ari"
     },
     {
-      "brand": "BURBERRY",
-      "name": "Burberry Her"
-    },
-    {
       "brand": "ARİANA GRANDE",
       "name": "Moonlight"
     },
@@ -176,6 +205,11 @@
     {
       "brand": "ARİANA GRANDE",
       "name": "Cloud"
+    },
+    {
+      "brand": "BİLLİE EİLİSH",
+      "name": "Eilish"
     }
-  ]
+  ],
+  "comments": []
 }

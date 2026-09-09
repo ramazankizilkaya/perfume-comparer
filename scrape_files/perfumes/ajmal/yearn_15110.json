@@ -33,6 +33,30 @@
     {
       "name": "pudralı",
       "width": "48.7419%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -68,7 +92,8 @@
     "base": [
       "Misk",
       "Kaşmir ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -113,12 +138,12 @@
       "name": "Noa"
     },
     {
-      "brand": "NARCİSO RODRİGUEZ",
-      "name": "Narciso Rodriguez For Her"
-    },
-    {
       "brand": "LADY GAGA",
       "name": "Fame"
+    },
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez For Her"
     },
     {
       "brand": "GİVENCHY",
@@ -164,5 +189,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

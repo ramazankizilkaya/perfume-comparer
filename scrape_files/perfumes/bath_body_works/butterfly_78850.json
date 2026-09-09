@@ -41,47 +41,80 @@
     {
       "name": "gül",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.91",
-    "votesCount": "129",
+    "score": "3.89",
+    "votesCount": "132",
     "breakdown": {
       "love": "45",
       "like": "44",
-      "ok": "27",
+      "ok": "30",
       "dislike": "9",
       "hate": "4"
     }
   },
   "seasons": {
     "winter": "8",
-    "spring": "70",
-    "summer": "46",
+    "spring": "72",
+    "summer": "48",
     "autumn": "11",
-    "day": "57",
+    "day": "59",
     "night": "11"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Ahududu",
+      "İris",
+      "Vanilya"
+    ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "27",
+    "veryWeak": "3",
+    "weak": "28",
     "moderate": "32",
     "longLasting": "3",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "22",
+    "intimate": "24",
     "moderate": "32",
     "strong": "2",
     "enormous": "1"
   },
   "genderVoting": {
-    "female": "62",
+    "female": "63",
     "moreFemale": "9",
     "unisex": "1",
     "moreMale": "0",
@@ -90,8 +123,8 @@
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "2",
-    "fair": "27",
-    "goodValue": "34",
+    "fair": "30",
+    "goodValue": "35",
     "greatValue": "11"
   },
   "remindsMeOf": [
@@ -104,20 +137,20 @@
       "name": "Sweet Pea"
     },
     {
-      "brand": "MARC JACOBS",
-      "name": "Daisy Love Eau So Sweet"
-    },
-    {
       "brand": "VAN CLEEF & ARPELS",
       "name": "Feerie"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Insolence Eau de Parfum"
+      "brand": "MARC JACOBS",
+      "name": "Daisy Love Eau So Sweet"
     },
     {
       "brand": "MARC JACOBS",
       "name": "Daisy Love Eau So Sweet Petals"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Insolence Eau de Parfum"
     },
     {
       "brand": "RALPH LAUREN",
@@ -148,12 +181,12 @@
       "name": "Vanilla Gelato"
     },
     {
-      "brand": "LANCÔME",
-      "name": "La Vie est Belle L'Elixir"
-    },
-    {
       "brand": "MARC JACOBS",
       "name": "Daisy Love Pop"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Confetti Daydream"
     }
   ],
   "peopleAlsoLike": [
@@ -217,5 +250,6 @@
       "brand": "VİKTOR&ROLF",
       "name": "Flowerbomb"
     }
-  ]
+  ],
+  "comments": []
 }

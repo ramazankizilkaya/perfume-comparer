@@ -41,15 +41,43 @@
     {
       "name": "karamel",
       "width": "44.3043%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.60",
-    "votesCount": "268",
+    "votesCount": "269",
     "breakdown": {
       "love": "39",
-      "like": "146",
-      "ok": "23",
+      "like": "145",
+      "ok": "25",
       "dislike": "58",
       "hate": "2"
     }
@@ -81,7 +109,8 @@
       "Karamel",
       "Vanilya",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "14",
@@ -106,7 +135,7 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "7",
-    "fair": "23",
+    "fair": "25",
     "goodValue": "18",
     "greatValue": "9"
   },
@@ -128,16 +157,12 @@
       "name": "Expressions by Reese Witherspoon: Live Without Regrets"
     },
     {
-      "brand": "AZZARO",
-      "name": "Mademoiselle"
-    },
-    {
       "brand": "AVON",
       "name": "Viva la Vita"
     },
     {
-      "brand": "ABERCROMBİE & FİTCH",
-      "name": "Authentic Woman"
+      "brand": "AZZARO",
+      "name": "Mademoiselle"
     },
     {
       "brand": "ADOPT PARFUMS",
@@ -162,6 +187,10 @@
     {
       "brand": "ORİFLAME",
       "name": "Solar"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "Authentic Woman"
     },
     {
       "brand": "VİCTORİA'S SECRET",
@@ -233,5 +262,6 @@
       "brand": "MOSCHİNO",
       "name": "Cheap & Chic I Love Love"
     }
-  ]
+  ],
+  "comments": []
 }

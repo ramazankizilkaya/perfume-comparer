@@ -37,6 +37,30 @@
     {
       "name": "hindistancevizi",
       "width": "45.4764%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,7 +85,18 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Çilek",
+      "Şeker",
+      "Kavun",
+      "Vanilya",
+      "Hindistan cevizi",
+      "Elma",
+      "Portakal",
+      "Misk",
+      "Amber"
+    ]
   },
   "longevity": {
     "veryWeak": "26",
@@ -154,6 +189,10 @@
       "name": "Tobacco Vanille"
     },
     {
+      "brand": "LALİQUE",
+      "name": "Amethyst"
+    },
+    {
       "brand": "DOLCE&GABBANA",
       "name": "D&G Anthology L'Imperatrice 3"
     },
@@ -186,16 +225,84 @@
       "name": "Lost Cherry"
     },
     {
-      "brand": "MONTALE",
-      "name": "Chocolate Greedy"
-    },
-    {
       "brand": "CHANEL",
       "name": "Chance Eau Tendre"
     },
     {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez For Her"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent1028450",
+      "author": ">Agnette<",
+      "date": "2025-11-27",
+      "text": "Çok ilginç bir koku. Çilek ve kavun kokusu oldukça belirgin, bu da çiçeksi bir hava veriyor; en azından beni biraz yanılttı 😁 Ciltte 10 saat kalıcı. Yayılımına gelince, yanımızda oturan kişi bu kokuyu alabiliyor. Birkaç saat sonra koku daha çok narenciyeye dönüşüyor. Şişe de işini yapıyor ve çoğu Arap parfümünde olduğu gibi daha iyi özelliklere sahip. İlkbahar veya yaz için harika bir koku.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.36293.jpg"
+    },
+    {
+      "id": "parent1028443",
+      "author": "Lunar Lover",
+      "date": "2025-07-17",
+      "text": "Bu parfüm biraz hayal kırıklığı yarattı. Notaları zengin ve yazın rahatlıkla sürülebilecek bir parfüm için ara sıra gelen çocukça kokusu da beni rahatsız etmez.\nNe yazık ki diğer yorumcuların da belirttiği gibi, çocuk parfümü gibi kokuyor. Kısa bir süre sonra biraz daha olgun ve dengeli bir meyveli-çiçeksi kokuya dönüşüyor. Ancak kalıcılığı ortalamanın altında ve ben bu parfümden keyif alamadım.\nBu ürünü indirimden satın aldım, ancak burada Avustralya'da yurtdışında bulunan fiyatlardan hala daha pahalı - bu yüzden buna değdiğini düşünmedim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2584455.jpg"
+    },
+    {
+      "id": "parent1028442",
+      "author": "Just1Sniff",
+      "date": "2025-06-17",
+      "text": "Hafif, yapay, keskin metalik/ozonik bir çilek kokusu. Aslında bunu küçük ofis odamın kokusunu güzelleştirmek için kullanıyorum.\nKokunun 10 dakika içinde kaybolacağını bildiğiniz için, 6 yaşındaki kızınız için bir pazardan alabileceğiniz türden bir şey; hatta kızınız bunu peluş oyuncaklarına ve bebeklerine bile sıkabilir.\nHer anlamda ucuz, ama 32 avro bile bu ürün için fazla.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2557730.jpg"
+    },
+    {
+      "id": "parent1028449",
+      "author": "JullyOwl",
+      "date": "2020-11-20",
+      "text": "Uzun süre sakız kokusuna ihtiyacım olup olmadığını düşündüm. Evet, var! Bayıldım. Harika bir meyve tatlılığı ve arka plandaki hindistan cevizi, bunun bir milkshake olabileceğine bile ikna ediyor. Neşeli bir ruh hali yaratmak için gereken bir koku, sanki: al, baştan aşağı üzerine dök ve rüzgara doğru koş. Tüm Ajmal ürünleri gibi bunu da sadece açık havada kullanıyorum, rüzgarda muhteşem bir iz bırakıyor.\nBana biraz basit geliyor (bu yüzden seviyorum), ama erkekler ve çocuklar her zaman ona bayılıyor, çok iltifat ediliyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.263797.jpg"
+    },
+    {
+      "id": "parent1028441",
+      "author": "mister_chaz",
+      "date": "2018-01-22",
+      "text": "Kokunun başlangıcı ekşi ve mayhoş vişne notalarıyla açılıyor ve kısa sürede miskli, meyveli ve su esintili bir kokuya dönüşüyor. Beklediğim kadar tatlı değil. Daha sonra ise meyveli sakız kokusunu andırıyor. Şişe tasarımı ilginç; şişenin üst kısmında gerçek kurutulmuş çiçek yaprakları bulunuyor ve şişenin kapağı yok.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.22287.jpg"
+    },
+    {
+      "id": "parent1028447",
+      "author": "SHION",
+      "date": "2017-04-14",
+      "text": "Evet, bu parfüm ciddi bir koku değil! Peki hanımlar ne istiyor? Suratlarını asıp, örneğin Şalimar'ı sürerek tüm erkekleri fethetmeye mi çıkmak istiyorlar... \"Bakın ne kadar ciddi ve heybetliyim!\" gibi.\nBence hayır... Azmal (parfümler) gibi kokuları erkekler tam da sever, benim deneyimlerim bunu gösteriyor (tekrar ediyorum, benim ve sadece benim). Çoğu erkek karmaşık, ciddi kokuları sevmez, hele de çiçek, meyve ve benzeri kokuları açıkça içermeyenleri.\n\nBence bu parfümde Doğu'nun bir havası var (Doğu'yu özel bir zihniyet, felsefe ve kültür olarak düşünürsek), ama bu Doğu baharatları değil, tatlı Mısır portakalları, Fas kavunu, Endonezya hindistan cevizi, belki de İran'dan tatlı çilek!\n\nBurada bu kokunun diğerleriyle benzerliği belirtilmişti... Evet, belki bir şeye benziyor olabilir... Ama! Kokunun karakterine tamamen uyan bu muhteşem, şık şişeyi gerçekten es geçip, başka ama benzer bir şey mi alayım... Hayır, asla!\n\nBravo! Burnum ve gözlerim bu kokuya tamamen hayran kaldı! İstiyorum! Bu arada, Riv Gosch'ta aşırı pahalı... 6 bin ruble'den fazla. Orijinal parfüm satan sitelerden birinde 2 bin ruble'nin biraz üzerinde buldum...",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.160012.jpg"
+    },
+    {
+      "id": "parent1028448",
+      "author": "Vip-Olesya",
+      "date": "2016-08-21",
+      "text": "Son derece ferah ve tatlı, ama hiç de bayat değil; yumuşak, kremsi-hindistan cevizi kokulu ve lezzetli. Bu kokuda çocukça ve basit hiçbir şey yok. Taze, gençlik dolu notalar ile daha olgun, ayakları yere basan notalar arasında mükemmel bir denge var. Eğer \"terli koltuk altı\" kokularını seviyorsanız, elbette Cerise size uygun olmayacaktır). Şişesi de özel bir ilgiyi hak ediyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.196423.jpg"
     }
   ]
 }

@@ -43,12 +43,40 @@
       "width": "47.8723%"
     },
     {
+      "name": "gül",
+      "width": "44.8936%"
+    },
+    {
       "name": "ud",
       "width": "44.8936%"
     },
     {
-      "name": "gül",
-      "width": "44.8936%"
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,7 +114,8 @@
       "Amber",
       "Vanilya",
       "Oud"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -137,15 +166,19 @@
       "name": "Wild and Tobacco"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Exclusif Tabac"
-    },
-    {
       "brand": "AL WATANİAH",
       "name": "Kayaan Terra"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Exclusif Tabac"
     }
   ],
   "peopleAlsoLike": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Qaed Al Fursan Untamed"
+    },
     {
       "brand": "MERCEDES-BENZ",
       "name": "Mercedes Benz Club Black Eau de Toilette"
@@ -157,10 +190,6 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Al Nashama Caprice"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Art of Arabia III"
     },
     {
       "brand": "VERSACE",
@@ -206,5 +235,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Vintage Radio"
     }
-  ]
+  ],
+  "comments": []
 }

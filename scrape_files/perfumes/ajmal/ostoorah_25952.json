@@ -11,11 +11,11 @@
   "description_enhanced": "Ajmal markasının Ostoorah parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Üst nota: Çiçeksi Notalar; orta notalar: Gül, Misk ve Çiçeksi Notalar; alt notalar Agar ağacı (Oud), Odunsu Notalar ve Amber.",
   "mainAccords": [
     {
-      "name": "çiçeksi",
+      "name": "gül",
       "width": "100%"
     },
     {
-      "name": "gül",
+      "name": "çiçeksi",
       "width": "100%"
     },
     {
@@ -41,6 +41,30 @@
     {
       "name": "animalik",
       "width": "46.24%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -75,7 +99,8 @@
       "Agar ağacı (Oud)",
       "Odunsu Notalar",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
@@ -101,7 +126,7 @@
     "wayOverpriced": "0",
     "overpriced": "1",
     "fair": "3",
-    "goodValue": "1",
+    "goodValue": "2",
     "greatValue": "1"
   },
   "remindsMeOf": [
@@ -195,5 +220,6 @@
       "brand": "AMOUAGE",
       "name": "Interlude Woman"
     }
-  ]
+  ],
+  "comments": []
 }

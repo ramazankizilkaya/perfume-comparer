@@ -33,6 +33,38 @@
     {
       "name": "çiçeksi",
       "width": "48.5294%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -47,7 +79,7 @@
     }
   },
   "seasons": {
-    "winter": "12",
+    "winter": "13",
     "spring": "6",
     "summer": "5",
     "autumn": "19",
@@ -57,7 +89,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kırmızı meyveler",
+      "Gül"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -131,11 +167,11 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Strawberry Snowflakes"
+      "name": "A Thousand Wishes"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "A Thousand Wishes"
+      "name": "Strawberry Snowflakes"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -171,11 +207,12 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Imperfect Beauty"
+      "name": "Into The Night"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Into The Night"
+      "name": "Imperfect Beauty"
     }
-  ]
+  ],
+  "comments": []
 }

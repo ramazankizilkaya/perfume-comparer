@@ -37,6 +37,34 @@
     {
       "name": "animalik",
       "width": "50%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -68,7 +96,8 @@
     ],
     "base": [
       "Agar ağacı (Oud)"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
@@ -104,12 +133,12 @@
       "name": "Alf Lail o Lail"
     },
     {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Oud Cashmere Mood"
-    },
-    {
       "brand": "MANCERA",
       "name": "Black Line"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Oud Cashmere Mood"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -159,5 +188,6 @@
       "brand": "GEOFFREY BEENE",
       "name": "Grey Flannel"
     }
-  ]
+  ],
+  "comments": []
 }

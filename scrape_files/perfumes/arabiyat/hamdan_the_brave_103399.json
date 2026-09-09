@@ -45,13 +45,41 @@
     {
       "name": "taze",
       "width": "48.857%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.35",
-    "votesCount": "26",
+    "score": "4.37",
+    "votesCount": "27",
     "breakdown": {
-      "love": "16",
+      "love": "17",
       "like": "4",
       "ok": "5",
       "dislike": "1",
@@ -62,7 +90,7 @@
     "winter": "10",
     "spring": "12",
     "summer": "3",
-    "autumn": "17",
+    "autumn": "18",
     "day": "13",
     "night": "18"
   },
@@ -79,7 +107,8 @@
     "base": [
       "Sandal ağacı",
       "Sedir ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -89,7 +118,7 @@
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "1",
+    "intimate": "2",
     "moderate": "4",
     "strong": "7",
     "enormous": "0"
@@ -126,20 +155,36 @@
       "name": "Boss Bottled Elixir"
     },
     {
-      "brand": "GİVENCHY",
-      "name": "Fantasque"
-    },
-    {
-      "brand": "ALT. FRAGRANCES",
-      "name": "Crystal Smash"
+      "brand": "AZZARO",
+      "name": "The Most Wanted Parfum"
     },
     {
       "brand": "ARMAF",
       "name": "Private Key To My Dreams"
     },
     {
+      "brand": "GİVENCHY",
+      "name": "Fantasque"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Ripple"
+    },
+    {
+      "brand": "RİİFFS PERFUMES",
+      "name": "Fareed"
+    },
+    {
+      "brand": "ALT. FRAGRANCES",
+      "name": "Crystal Smash"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Al Nashama Caprice"
+    },
+    {
+      "brand": "ARABİYAT PRESTİGE",
+      "name": "Marwa"
     },
     {
       "brand": "RASASİ",
@@ -148,22 +193,6 @@
     {
       "brand": "FRENCH AVENUE",
       "name": "Thunder Extrait"
-    },
-    {
-      "brand": "AZZARO",
-      "name": "The Most Wanted Parfum"
-    },
-    {
-      "brand": "XERJOFF",
-      "name": "Duran Duran Black Moonlight"
-    },
-    {
-      "brand": "ARABİYAT PRESTİGE",
-      "name": "Marwa"
-    },
-    {
-      "brand": "RİİFFS PERFUMES",
-      "name": "Fareed"
     }
   ],
   "peopleAlsoLike": [
@@ -176,10 +205,6 @@
       "name": "Lalique Pour Homme"
     },
     {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Blue Iconic"
-    },
-    {
       "brand": "ISSEY MİYAKE",
       "name": "L'Eau d'Issey Pour Homme"
     },
@@ -190,6 +215,10 @@
     {
       "brand": "VERSACE",
       "name": "Versace Pour Homme"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water"
     },
     {
       "brand": "DOLCE&GABBANA",
@@ -208,10 +237,6 @@
       "name": "Hawas Black"
     },
     {
-      "brand": "AFNAN",
-      "name": "Turathi Blue"
-    },
-    {
       "brand": "XERJOFF",
       "name": "XJ 1861 Naxos"
     },
@@ -220,12 +245,17 @@
       "name": "Supremacy Not Only Intense"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas for Him"
+      "brand": "ARMAF",
+      "name": "Club de Nuit Intense Man Parfum"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Amber Oud Aqua Dubai"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "The Kingdom For Men"
     }
-  ]
+  ],
+  "comments": []
 }

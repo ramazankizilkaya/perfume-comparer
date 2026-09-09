@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "amber",
+      "name": "misk",
       "width": "76.6667%"
     },
     {
-      "name": "misk",
+      "name": "amber",
       "width": "76.6667%"
     },
     {
@@ -31,11 +31,11 @@
       "width": "65%"
     },
     {
-      "name": "metalik",
+      "name": "pudralı",
       "width": "53.3333%"
     },
     {
-      "name": "pudralı",
+      "name": "metalik",
       "width": "53.3333%"
     },
     {
@@ -43,12 +43,36 @@
       "width": "48.6667%"
     },
     {
-      "name": "balsamik",
+      "name": "tütün",
       "width": "44%"
     },
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +97,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Agar ağacı (Oud)",
+      "Ambergris",
+      "Safran",
+      "Misk"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -164,5 +194,6 @@
       "brand": "CARON",
       "name": "Fleur de Rocaille (1993)"
     }
-  ]
+  ],
+  "comments": []
 }

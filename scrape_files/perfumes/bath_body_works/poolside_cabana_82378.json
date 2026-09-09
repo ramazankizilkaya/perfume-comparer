@@ -15,27 +15,27 @@
       "width": "100%"
     },
     {
-      "name": "aldehitli",
-      "width": "76.6667%"
-    },
-    {
       "name": "tatlı",
       "width": "76.6667%"
     },
     {
-      "name": "sulu",
-      "width": "67.3333%"
+      "name": "aldehitli",
+      "width": "76.6667%"
     },
     {
       "name": "odunsu",
       "width": "67.3333%"
     },
     {
-      "name": "taze",
-      "width": "58%"
+      "name": "sulu",
+      "width": "67.3333%"
     },
     {
       "name": "mineral",
+      "width": "58%"
+    },
+    {
+      "name": "taze",
       "width": "58%"
     },
     {
@@ -45,6 +45,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "44.9333%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -59,7 +87,7 @@
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "2",
     "spring": "19",
     "summer": "30",
     "autumn": "4",
@@ -69,23 +97,28 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Armut",
+      "Güneş notaları",
+      "Sandal ağacı"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
     "weak": "9",
-    "moderate": "5",
+    "moderate": "6",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "5",
+    "intimate": "4",
+    "moderate": "6",
     "strong": "1",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "13",
+    "female": "14",
     "moreFemale": "8",
     "unisex": "3",
     "moreMale": "0",
@@ -118,10 +151,6 @@
     {
       "brand": "CREED",
       "name": "Viking"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Emerald Mist"
     }
   ],
   "peopleAlsoLike": [
@@ -185,5 +214,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Into The Night"
     }
-  ]
+  ],
+  "comments": []
 }

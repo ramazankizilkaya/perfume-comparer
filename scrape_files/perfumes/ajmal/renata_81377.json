@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.81377.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Renata-81377.html",
   "brand": "Ajmal parfüm ve kolonya",
-  "description": "Ajmal markasının Renata parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Renata, 2019 yılında piyasaya sürüldü. Üst notalar: Pembe biber, Ylang-Ylang ve Portakal; orta notalar: Sümbülteber, Orkide ve Yasemin Sambac; alt notalar Misk, Amber ve Paçuli.",
-  "description_original": "Ajmal markasının Renata parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Renata, 2019 yılında piyasaya sürüldü. Üst notalar: Pembe biber, Ylang-Ylang ve Portakal; orta notalar: Sümbülteber, Orkide ve Yasemin Sambac; alt notalar Misk, Amber ve Paçuli.",
-  "description_enhanced": "Ajmal markasının Renata parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Renata, 2019 yılında piyasaya sürüldü. Üst notalar: Pembe biber, Ylang-Ylang ve Portakal; orta notalar: Sümbülteber, Orkide ve Yasemin Sambac; alt notalar Misk, Amber ve Paçuli.",
+  "description": "Ajmal markasının Renata parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Renata, 2019 yılında piyasaya sürüldü. Üst notalar: Pembe biber, Ylang-Ylang ve Portakal; orta notalar: Sümbülteber, Orkide ve Sambac Yasemini; alt notalar Misk, Amber ve Paçuli.",
+  "description_original": "Ajmal markasının Renata parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Renata, 2019 yılında piyasaya sürüldü. Üst notalar: Pembe biber, Ylang-Ylang ve Portakal; orta notalar: Sümbülteber, Orkide ve Sambac Yasemini; alt notalar Misk, Amber ve Paçuli.",
+  "description_enhanced": "Ajmal markasının Renata parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Renata, 2019 yılında piyasaya sürüldü. Üst notalar: Pembe biber, Ylang-Ylang ve Portakal; orta notalar: Sümbülteber, Orkide ve Sambac Yasemini; alt notalar Misk, Amber ve Paçuli.",
   "mainAccords": [
     {
       "name": "beyaz çiçeksi",
@@ -49,6 +49,30 @@
     {
       "name": "narenciye",
       "width": "47.9487%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,13 +103,14 @@
     "middle": [
       "Sümbülteber",
       "Orkide",
-      "Yasemin Sambac"
+      "Sambac Yasemini"
     ],
     "base": [
       "Misk",
       "Amber",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -142,8 +167,8 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "GİVENCHY",
-      "name": "Ysatis"
+      "brand": "CACHAREL",
+      "name": "Noa"
     },
     {
       "brand": "GİVENCHY",
@@ -201,5 +226,6 @@
       "brand": "PRADA",
       "name": "Prada Candy"
     }
-  ]
+  ],
+  "comments": []
 }

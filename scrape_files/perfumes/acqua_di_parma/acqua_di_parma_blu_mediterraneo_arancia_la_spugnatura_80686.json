@@ -29,26 +29,50 @@
     {
       "name": "odunsu",
       "width": "41.5244%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.12",
-    "votesCount": "271",
+    "votesCount": "275",
     "breakdown": {
-      "love": "134",
+      "love": "137",
       "like": "71",
       "ok": "39",
-      "dislike": "19",
+      "dislike": "20",
       "hate": "8"
     }
   },
   "seasons": {
-    "winter": "14",
-    "spring": "106",
-    "summer": "156",
-    "autumn": "24",
-    "day": "134",
-    "night": "31"
+    "winter": "15",
+    "spring": "108",
+    "summer": "159",
+    "autumn": "25",
+    "day": "136",
+    "night": "32"
   },
   "notes": {
     "top": [
@@ -63,31 +87,32 @@
     "base": [
       "Sedir",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "4",
     "weak": "36",
-    "moderate": "92",
+    "moderate": "94",
     "longLasting": "16",
     "eternal": "7"
   },
   "sillage": {
     "intimate": "26",
-    "moderate": "92",
+    "moderate": "94",
     "strong": "12",
     "enormous": "2"
   },
   "genderVoting": {
     "female": "3",
     "moreFemale": "13",
-    "unisex": "117",
+    "unisex": "119",
     "moreMale": "31",
     "male": "12"
   },
   "priceVoting": {
     "wayOverpriced": "28",
-    "overpriced": "66",
+    "overpriced": "68",
     "fair": "39",
     "goodValue": "9",
     "greatValue": "6"
@@ -116,14 +141,6 @@
     {
       "brand": "M. MİCALLEF",
       "name": "Les 4 Saisons: Ete"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "L’Homme Idéal Cologne"
-    },
-    {
-      "brand": "ESSENTİAL PARFUMS",
-      "name": "Orange X Santal"
     },
     {
       "brand": "BDK PARFUMS",
@@ -199,5 +216,6 @@
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "Jazz Club"
     }
-  ]
+  ],
+  "comments": []
 }

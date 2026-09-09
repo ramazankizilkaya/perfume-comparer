@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "misk",
+      "name": "odunsu",
       "width": "96.5%"
     },
     {
-      "name": "odunsu",
+      "name": "misk",
       "width": "96.5%"
     },
     {
@@ -29,6 +29,30 @@
     {
       "name": "pudralı",
       "width": "63.25%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +77,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Çiçeksi Notalar",
+      "Odunsu Notalar",
+      "Misk",
+      "Baharatlar"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -102,10 +132,6 @@
     {
       "brand": "MONTALE",
       "name": "Amber & Spices"
-    },
-    {
-      "brand": "RAMÓN BÉJAR",
-      "name": "Mar Eterna Extrait De Parfum"
     }
   ],
   "peopleAlsoLike": [
@@ -158,16 +184,17 @@
       "name": "Shalimar Eau de Parfum"
     },
     {
+      "brand": "HERMÈS",
+      "name": "24 Faubourg"
+    },
+    {
       "brand": "MANCERA",
       "name": "Roses Vanille"
     },
     {
       "brand": "AMOUAGE",
       "name": "Fate Woman"
-    },
-    {
-      "brand": "KENZO",
-      "name": "Kenzo Jungle L'Elephant"
     }
-  ]
+  ],
+  "comments": []
 }

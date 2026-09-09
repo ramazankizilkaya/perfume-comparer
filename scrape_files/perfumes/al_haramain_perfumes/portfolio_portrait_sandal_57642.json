@@ -49,6 +49,34 @@
     {
       "name": "pudralı",
       "width": "45.5184%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,7 +115,8 @@
       "Ambergris",
       "Vanilya",
       "Tonka fasulyesi"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -122,28 +151,28 @@
       "name": "Santal Royal"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Santal Royal"
-    },
-    {
       "brand": "XERJOFF",
       "name": "More Than Words"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Santal Royal"
     },
     {
       "brand": "KORLOFF PARİS",
       "name": "In Love"
     },
     {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Wild Leather"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khalta Blend Of Lattafa"
+    },
+    {
       "brand": "CHANEL",
       "name": "Egoiste"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Promise"
-    },
-    {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Portfolio Cupid's Rose"
     },
     {
       "brand": "MONTALE",
@@ -154,16 +183,16 @@
       "name": "Amber"
     },
     {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Promise"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Portfolio Cupid's Rose"
+    },
+    {
       "brand": "DİPTYQUE",
       "name": "Lunamaris"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Wild Leather"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Khalta Blend Of Lattafa"
     }
   ],
   "peopleAlsoLike": [
@@ -188,12 +217,12 @@
       "name": "Mortal Skin"
     },
     {
-      "brand": "STÉPHANE HUMBERT LUCAS 777",
-      "name": "Black Gemstone"
-    },
-    {
       "brand": "YVES SAİNT LAURENT",
       "name": "La Nuit de l'Homme"
+    },
+    {
+      "brand": "STÉPHANE HUMBERT LUCAS 777",
+      "name": "Black Gemstone"
     },
     {
       "brand": "DİOR",
@@ -227,5 +256,6 @@
       "brand": "CREED",
       "name": "Aventus"
     }
-  ]
+  ],
+  "comments": []
 }

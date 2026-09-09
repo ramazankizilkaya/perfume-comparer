@@ -1,7 +1,7 @@
 {
   "name": "Apple Blossom & Lavender Bath & Body Works",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Oriental",
+  "fragranceFamily": "Leather",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78195.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Apple-Blossom-Lavender-78195.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Bath & Body Works markasının Apple Blossom & Lavender parfümü, kadınlar için Aromatik Meyvemsi bir kokudur. Apple Blossom & Lavender, 2015 yılında piyasaya sürüldü. Üst notalar: Yeşil Elma, Kayısı, Çarkıfelek ve Klementin; orta notalar: Ayva, Elma çiçeği, Manolya, Lavanta ve Yasemin; alt notalar Amber ağacı, Misk, Sandal ağacı ve Vanilya.",
   "mainAccords": [
     {
-      "name": "amber",
+      "name": "misk",
       "width": "100%"
     },
     {
-      "name": "misk",
+      "name": "amber",
       "width": "100%"
     },
     {
@@ -29,6 +29,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "41.6667%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -69,7 +97,8 @@
       "Misk",
       "Sandal ağacı",
       "Vanilya"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -99,5 +128,6 @@
     "greatValue": "1"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

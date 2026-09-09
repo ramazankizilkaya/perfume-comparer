@@ -29,15 +29,43 @@
     {
       "name": "balsamik",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.25",
-    "votesCount": "48",
+    "score": "4.22",
+    "votesCount": "49",
     "breakdown": {
       "love": "31",
       "like": "8",
-      "ok": "3",
+      "ok": "4",
       "dislike": "2",
       "hate": "4"
     }
@@ -59,7 +87,8 @@
     ],
     "base": [
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -84,7 +113,7 @@
   "priceVoting": {
     "wayOverpriced": "12",
     "overpriced": "8",
-    "fair": "3",
+    "fair": "4",
     "goodValue": "1",
     "greatValue": "1"
   },
@@ -105,6 +134,10 @@
     {
       "brand": "CREED",
       "name": "Royal Oud"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Musc Ravageur"
     },
     {
       "brand": "AMOUAGE",
@@ -145,10 +178,7 @@
     {
       "brand": "AMOUAGE",
       "name": "Journey Man"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Interlude Man"
     }
-  ]
+  ],
+  "comments": []
 }

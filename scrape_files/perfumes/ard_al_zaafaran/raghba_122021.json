@@ -49,26 +49,54 @@
     {
       "name": "balsamik",
       "width": "52.3188%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.12",
-    "votesCount": "8",
+    "score": "4.10",
+    "votesCount": "10",
     "breakdown": {
-      "love": "3",
+      "love": "4",
       "like": "3",
-      "ok": "2",
+      "ok": "3",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "2",
+    "winter": "5",
     "spring": "0",
     "summer": "1",
-    "autumn": "2",
-    "day": "3",
-    "night": "3"
+    "autumn": "4",
+    "day": "5",
+    "night": "4"
   },
   "notes": {
     "top": [
@@ -87,13 +115,14 @@
       "Deri",
       "Misk",
       "Tütsü"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "1",
     "moderate": "3",
-    "longLasting": "1",
+    "longLasting": "2",
     "eternal": "0"
   },
   "sillage": {
@@ -105,16 +134,16 @@
   "genderVoting": {
     "female": "1",
     "moreFemale": "0",
-    "unisex": "4",
+    "unisex": "5",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "2",
+    "fair": "3",
     "goodValue": "1",
-    "greatValue": "4"
+    "greatValue": "5"
   },
   "remindsMeOf": [
     {
@@ -132,40 +161,9 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Althaïr"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Noble Blush"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Teriaq Intense"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dior Addict"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah Qahwa"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Hypnotic Poison"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Khaltaat Al Arabia Royal Blends"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Lost Cherry"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "Philosykos Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

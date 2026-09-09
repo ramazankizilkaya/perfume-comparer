@@ -37,6 +37,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "46.4708%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -51,7 +79,7 @@
     }
   },
   "seasons": {
-    "winter": "11",
+    "winter": "12",
     "spring": "11",
     "summer": "4",
     "autumn": "14",
@@ -61,7 +89,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Süet",
+      "Vanilya çubuğu",
+      "Sandal ağacı"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -100,6 +133,10 @@
       "name": "If You Musk"
     },
     {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bare Sueded Vanilla"
+    },
+    {
       "brand": "LANCÔME",
       "name": "Hypnôse"
     },
@@ -118,10 +155,6 @@
     {
       "brand": "BADGLEY MİSCHKA",
       "name": "Vanilla Fleur"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Bare Sueded Vanilla"
     }
   ],
   "peopleAlsoLike": [
@@ -175,15 +208,16 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Sweetheart Cherry"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Belle"
     },
     {
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Inner Angel"
     }
-  ]
+  ],
+  "comments": []
 }

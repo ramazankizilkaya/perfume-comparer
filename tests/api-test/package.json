@@ -1,0 +1,25 @@
+{
+  "name": "perfume-comparer-api-test",
+  "version": "1.0.0",
+  "description": "API Test Suite for Aura Compare Backend using Playwright and Cucumber",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:wip": "cucumber-js --tags @wip",
+    "test:wip:debug": "cucumber-js --tags @wip --parallel 1 --format @cucumber/pretty-formatter",
+    "test:wip:serial": "cucumber-js --tags @wip --parallel 1",
+    "test:serial": "cucumber-js --parallel 1",
+    "report:generate": "allure generate reports/allure-results -o reports/allure-report --clean",
+    "report:open": "allure open reports/allure-report",
+    "report": "npm run report:generate && npm run report:open"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.8.1",
+    "@playwright/test": "^1.59.1",
+    "allure-commandline": "^2.38.1",
+    "allure-cucumberjs": "^3.7.1",
+    "joi": "^18.1.2"
+  }
+}

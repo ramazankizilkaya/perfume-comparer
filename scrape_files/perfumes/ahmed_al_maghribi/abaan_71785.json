@@ -49,13 +49,41 @@
     {
       "name": "vanilya",
       "width": "50.0003%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "2.87",
-    "votesCount": "15",
+    "score": "3.00",
+    "votesCount": "16",
     "breakdown": {
-      "love": "4",
+      "love": "5",
       "like": "1",
       "ok": "3",
       "dislike": "3",
@@ -63,10 +91,10 @@
     }
   },
   "seasons": {
-    "winter": "3",
+    "winter": "4",
     "spring": "3",
-    "summer": "4",
-    "autumn": "4",
+    "summer": "5",
+    "autumn": "5",
     "day": "5",
     "night": "4"
   },
@@ -86,7 +114,8 @@
       "Orris kökü",
       "Odunsu Notalar",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -104,7 +133,7 @@
   "genderVoting": {
     "female": "8",
     "moreFemale": "0",
-    "unisex": "4",
+    "unisex": "5",
     "moreMale": "0",
     "male": "1"
   },
@@ -182,5 +211,6 @@
       "brand": "FRENCH AVENUE",
       "name": "After Effect"
     }
-  ]
+  ],
+  "comments": []
 }

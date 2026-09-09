@@ -41,6 +41,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "47.3267%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -55,7 +83,7 @@
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "2",
     "spring": "4",
     "summer": "3",
     "autumn": "3",
@@ -65,7 +93,20 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Narenciye",
+      "Vetiver",
+      "Sandal ağacı",
+      "Biberiye",
+      "Limon verbenası",
+      "Yasemin",
+      "Lavanta",
+      "Paçuli",
+      "Misk",
+      "Amber",
+      "Şam Gülü"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -104,22 +145,22 @@
       "name": "Acqua di Parma Colonia Assoluta"
     },
     {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Acqua di Parma Colonia Pura"
-    },
-    {
       "brand": "DANA",
       "name": "Canoe"
     },
     {
       "brand": "ACQUA Dİ PARMA",
       "name": "Essenza di Colonia"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Acqua di Parma Colonia Pura"
     }
   ],
   "peopleAlsoLike": [
     {
-      "brand": "CREED",
-      "name": "Bois du Portugal"
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
     },
     {
       "brand": "ACQUA Dİ PARMA",
@@ -138,16 +179,16 @@
       "name": "Royal Mayfair"
     },
     {
-      "brand": "DİOR",
-      "name": "Eau Sauvage Parfum 2017"
-    },
-    {
       "brand": "ACQUA Dİ PARMA",
       "name": "Essenza di Colonia"
     },
     {
       "brand": "MANCERA",
       "name": "Cedrat Boise"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Ralph's Club New York"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -158,16 +199,8 @@
       "name": "Terre d'Hermes Parfum"
     },
     {
-      "brand": "CREED",
-      "name": "Viking"
-    },
-    {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Acqua di Parma Colonia Pura"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Vetiver Pamplemousse"
+      "brand": "TOM FORD",
+      "name": "Oud Wood"
     },
     {
       "brand": "DİOR",
@@ -176,6 +209,15 @@
     {
       "brand": "TOM FORD",
       "name": "Beau De Jour Eau de Parfum"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Black"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "By the Fireplace"
     }
-  ]
+  ],
+  "comments": []
 }

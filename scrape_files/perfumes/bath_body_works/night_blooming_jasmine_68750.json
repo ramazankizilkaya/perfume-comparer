@@ -19,11 +19,11 @@
       "width": "76.6667%"
     },
     {
-      "name": "çiçeksi",
+      "name": "pudralı",
       "width": "53.3333%"
     },
     {
-      "name": "pudralı",
+      "name": "çiçeksi",
       "width": "53.3333%"
     },
     {
@@ -53,41 +53,41 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Yasemin",
+      "Beyaz Misk",
+      "Elma çiçeği"
+    ]
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "2",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "2",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "0",
-    "greatValue": "3"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ALFRED SUNG",
-      "name": "Shi"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -149,5 +149,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Champagne Apple & Honey"
     }
-  ]
+  ],
+  "comments": []
 }

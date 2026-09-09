@@ -49,26 +49,54 @@
     {
       "name": "menekşe",
       "width": "46.129%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.54",
-    "votesCount": "50",
+    "score": "4.51",
+    "votesCount": "57",
     "breakdown": {
-      "love": "36",
-      "like": "9",
-      "ok": "3",
+      "love": "39",
+      "like": "12",
+      "ok": "4",
       "dislike": "0",
       "hate": "2"
     }
   },
   "seasons": {
     "winter": "8",
-    "spring": "37",
-    "summer": "35",
-    "autumn": "26",
-    "day": "38",
-    "night": "22"
+    "spring": "38",
+    "summer": "36",
+    "autumn": "27",
+    "day": "39",
+    "night": "23"
   },
   "notes": {
     "top": [
@@ -89,13 +117,14 @@
       "Sandal ağacı",
       "Sedir ağacı",
       "Oud"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
     "weak": "4",
     "moderate": "10",
-    "longLasting": "25",
+    "longLasting": "26",
     "eternal": "3"
   },
   "sillage": {
@@ -108,14 +137,14 @@
     "female": "1",
     "moreFemale": "0",
     "unisex": "1",
-    "moreMale": "12",
-    "male": "28"
+    "moreMale": "13",
+    "male": "30"
   },
   "priceVoting": {
-    "wayOverpriced": "1",
+    "wayOverpriced": "2",
     "overpriced": "0",
-    "fair": "3",
-    "goodValue": "14",
+    "fair": "4",
+    "goodValue": "15",
     "greatValue": "21"
   },
   "remindsMeOf": [
@@ -154,20 +183,12 @@
       "name": "Emeer"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Al Nashama Caprice"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Acqua di Giò Profumo"
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
     },
     {
       "brand": "ARABİYAT PRESTİGE",
       "name": "Marwa"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Sauvage Elixir"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -176,6 +197,10 @@
     {
       "brand": "ARMAF",
       "name": "Club de Nuit Sillage"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Dynasty"
     },
     {
       "brand": "VERSACE",
@@ -194,10 +219,6 @@
       "name": "Turathi Blue"
     },
     {
-      "brand": "GİVENCHY",
-      "name": "Gentleman Eau de Parfum Reserve Privée"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad Bourbon"
     },
@@ -208,6 +229,15 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Teriaq Intense"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Vulcan Feu"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "MYSLF Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

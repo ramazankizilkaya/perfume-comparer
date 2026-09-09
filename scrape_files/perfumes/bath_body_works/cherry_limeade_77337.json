@@ -19,11 +19,11 @@
       "width": "70%"
     },
     {
-      "name": "kola",
+      "name": "tatlı",
       "width": "63.3333%"
     },
     {
-      "name": "tatlı",
+      "name": "kola",
       "width": "63.3333%"
     },
     {
@@ -33,15 +33,43 @@
     {
       "name": "ekşi",
       "width": "45.3334%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.90",
-    "votesCount": "31",
+    "score": "3.88",
+    "votesCount": "32",
     "breakdown": {
       "love": "10",
       "like": "12",
-      "ok": "5",
+      "ok": "6",
       "dislike": "4",
       "hate": "0"
     }
@@ -57,7 +85,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Lime",
+      "Köpüklü şarap",
+      "Kiraz",
+      "Coca-Cola"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
@@ -82,7 +116,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "5",
+    "fair": "6",
     "goodValue": "4",
     "greatValue": "6"
   },
@@ -153,5 +187,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Vampire Blood"
     }
-  ]
+  ],
+  "comments": []
 }

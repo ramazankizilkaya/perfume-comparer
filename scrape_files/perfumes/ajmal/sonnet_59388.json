@@ -49,6 +49,30 @@
     {
       "name": "fındıksı",
       "width": "55.8803%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,7 +107,8 @@
       "Vanilya",
       "Amber",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -177,6 +202,10 @@
   "peopleAlsoLike": [
     {
       "brand": "GİVENCHY",
+      "name": "L'Interdit Eau de Parfum"
+    },
+    {
+      "brand": "GİVENCHY",
       "name": "Organza"
     },
     {
@@ -205,10 +234,6 @@
     },
     {
       "brand": "LALİQUE",
-      "name": "Satine"
-    },
-    {
-      "brand": "LALİQUE",
       "name": "Lalique Le Parfum"
     },
     {
@@ -228,12 +253,13 @@
       "name": "Casmir"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Samsara Eau de Parfum"
+      "brand": "MARİAH CAREY",
+      "name": "M"
     },
     {
-      "brand": "VERSACE",
-      "name": "Crystal Noir"
+      "brand": "GUERLAİN",
+      "name": "Samsara Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

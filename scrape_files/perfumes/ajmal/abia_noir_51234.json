@@ -45,6 +45,30 @@
     {
       "name": "balsamik",
       "width": "51%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -69,7 +93,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Paçuli",
+      "Süet",
+      "Menekşe",
+      "Kaşmeran"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -160,5 +190,6 @@
       "brand": "GİVENCHY",
       "name": "Ange ou Demon"
     }
-  ]
+  ],
+  "comments": []
 }

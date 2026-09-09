@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94569.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Coastal-Cliffs-94569.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Coastal Cliffs parfümü, erkekler için Aromatik Akuatik bir kokudur. Coastal Cliffs , 2024 yılında piyasaya sürüldü. Kokuda Lavanta, Sulu Notlar ve Misk ve Misk notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Coastal Cliffs parfümü, erkekler için Aromatik Akuatik bir kokudur. Coastal Cliffs , 2024 yılında piyasaya sürüldü. Kokuda Lavanta, Sulu Notlar ve Misk ve Misk notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Coastal Cliffs parfümü, erkekler için Aromatik Akuatik bir kokudur. Coastal Cliffs , 2024 yılında piyasaya sürüldü. Kokuda Lavanta, Sulu Notlar ve Misk ve Misk notaları bulunur.",
+  "description": "Bath & Body Works markasının Coastal Cliffs parfümü, erkekler için Aromatik Akuatik bir kokudur. Coastal Cliffs, 2024 yılında piyasaya sürüldü. Kokuda Lavanta, Sulu Notalar, Misk ve Beyaz Misk notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Coastal Cliffs parfümü, erkekler için Aromatik Akuatik bir kokudur. Coastal Cliffs, 2024 yılında piyasaya sürüldü. Kokuda Lavanta, Sulu Notalar, Misk ve Beyaz Misk notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Coastal Cliffs parfümü, erkekler için Aromatik Akuatik bir kokudur. Coastal Cliffs, 2024 yılında piyasaya sürüldü. Kokuda Lavanta, Sulu Notalar, Misk ve Beyaz Misk notaları bulunur.",
   "mainAccords": [
     {
       "name": "lavanta",
@@ -23,12 +23,40 @@
       "width": "58%"
     },
     {
+      "name": "taze baharatlı",
+      "width": "51%"
+    },
+    {
       "name": "taze",
       "width": "51%"
     },
     {
-      "name": "taze baharatlı",
-      "width": "51%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Lavanta",
+      "Sulu Notalar",
+      "Misk",
+      "Beyaz Misk"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -144,5 +178,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "MYSLF Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

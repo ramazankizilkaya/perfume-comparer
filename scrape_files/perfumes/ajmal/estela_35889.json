@@ -35,11 +35,11 @@
       "width": "69.6226%"
     },
     {
-      "name": "amber",
+      "name": "misk",
       "width": "56.4151%"
     },
     {
-      "name": "misk",
+      "name": "amber",
       "width": "56.4151%"
     },
     {
@@ -49,6 +49,30 @@
     {
       "name": "yeşil",
       "width": "51.7925%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -85,7 +109,8 @@
       "Odunsu Notalar",
       "Amber",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -185,5 +210,6 @@
       "brand": "MUGLER",
       "name": "A*Men Pure Havane"
     }
-  ]
+  ],
+  "comments": []
 }

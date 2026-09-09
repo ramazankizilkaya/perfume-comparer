@@ -16,59 +16,87 @@
     },
     {
       "name": "sulu",
-      "width": "99.2553%"
+      "width": "99.4852%"
     },
     {
       "name": "çiçeksi",
-      "width": "82.5288%"
+      "width": "84.0152%"
     },
     {
       "name": "pudralı",
-      "width": "78.261%"
-    },
-    {
-      "name": "lavanta",
-      "width": "74.6811%"
+      "width": "80.0977%"
     },
     {
       "name": "misk",
-      "width": "74.1079%"
+      "width": "75.7513%"
     },
     {
-      "name": "narenciye",
-      "width": "72.3896%"
+      "name": "lavanta",
+      "width": "74.0356%"
     },
     {
       "name": "odunsu",
-      "width": "71.4733%"
+      "width": "73.0636%"
+    },
+    {
+      "name": "narenciye",
+      "width": "71.7485%"
     },
     {
       "name": "taze baharatlı",
-      "width": "64.5992%"
+      "width": "64.0848%"
     },
     {
       "name": "aromatik",
-      "width": "64.313%"
+      "width": "64.0277%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": ""
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.94",
-    "votesCount": "427",
+    "score": "3.93",
+    "votesCount": "437",
     "breakdown": {
-      "love": "149",
-      "like": "166",
-      "ok": "65",
-      "dislike": "32",
-      "hate": "15"
+      "love": "151",
+      "like": "170",
+      "ok": "66",
+      "dislike": "34",
+      "hate": "16"
     }
   },
   "seasons": {
-    "winter": "26",
-    "spring": "188",
-    "summer": "265",
-    "autumn": "74",
-    "day": "248",
-    "night": "64"
+    "winter": "27",
+    "spring": "190",
+    "summer": "271",
+    "autumn": "75",
+    "day": "251",
+    "night": "66"
   },
   "notes": {
     "top": [
@@ -84,39 +112,44 @@
       "Misk",
       "Sandal ağacı",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "16",
-    "weak": "60",
-    "moderate": "136",
+    "veryWeak": "17",
+    "weak": "61",
+    "moderate": "138",
     "longLasting": "80",
     "eternal": "14"
   },
   "sillage": {
-    "intimate": "52",
-    "moderate": "136",
+    "intimate": "54",
+    "moderate": "138",
     "strong": "59",
     "enormous": "27"
   },
   "genderVoting": {
-    "female": "9",
+    "female": "10",
     "moreFemale": "2",
-    "unisex": "36",
+    "unisex": "37",
     "moreMale": "88",
-    "male": "129"
+    "male": "131"
   },
   "priceVoting": {
     "wayOverpriced": "9",
     "overpriced": "6",
-    "fair": "65",
+    "fair": "66",
     "goodValue": "81",
-    "greatValue": "115"
+    "greatValue": "117"
   },
   "remindsMeOf": [
     {
       "brand": "ABERCROMBİE & FİTCH",
       "name": "Fierce"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Kaaf"
     },
     {
       "brand": "MONTBLANC",
@@ -127,16 +160,16 @@
       "name": "Cerulean Blue"
     },
     {
-      "brand": "AHMED AL MAGHRİBİ",
-      "name": "Kaaf"
-    },
-    {
       "brand": "AJMAL",
       "name": "Mystery"
     },
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Percival"
+    },
+    {
+      "brand": "MERCEDES-BENZ",
+      "name": "Mercedes Benz Man"
     },
     {
       "brand": "ARMAF",
@@ -147,16 +180,12 @@
       "name": "Black Star Him"
     },
     {
-      "brand": "MERCEDES-BENZ",
-      "name": "Mercedes Benz Man"
+      "brand": "REEF PERFUMES",
+      "name": "REEF15"
     },
     {
       "brand": "MİCHAEL MALUL LONDON",
       "name": "Visionair Midnight Blue"
-    },
-    {
-      "brand": "REEF PERFUMES",
-      "name": "REEF15"
     },
     {
       "brand": "AJMAL",
@@ -189,10 +218,6 @@
       "name": "L'Eau d'Issey Pour Homme"
     },
     {
-      "brand": "LALİQUE",
-      "name": "Encre Noire Sport"
-    },
-    {
       "brand": "RASASİ",
       "name": "Hawas for Him"
     },
@@ -209,16 +234,16 @@
       "name": "Versace Pour Homme"
     },
     {
-      "brand": "VERSACE",
-      "name": "Versace Man Eau Fraiche"
-    },
-    {
       "brand": "MONTBLANC",
       "name": "Explorer"
     },
     {
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Man Eau Fraiche"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -229,6 +254,10 @@
       "name": "Cool Water"
     },
     {
+      "brand": "PRADA",
+      "name": "Prada L'Homme"
+    },
+    {
       "brand": "HERMÈS",
       "name": "Terre d'Hermès"
     },
@@ -236,5 +265,6 @@
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
     }
-  ]
+  ],
+  "comments": []
 }

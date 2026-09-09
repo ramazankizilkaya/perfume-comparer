@@ -33,6 +33,34 @@
     {
       "name": "çiçeksi",
       "width": "48.4615%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -57,7 +85,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Menekşe",
+      "Böğürtlen",
+      "Vanilya",
+      "Sorbe"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -92,10 +126,6 @@
       "name": "Sugared Violet"
     },
     {
-      "brand": "DİOR",
-      "name": "Addict Purple Glow Eau De Parfum"
-    },
-    {
       "brand": "MARC JACOBS",
       "name": "Daisy Eau So Fresh Twinkle"
     },
@@ -108,16 +138,20 @@
       "name": "Daisy Eau So Fresh Pop"
     },
     {
+      "brand": "DİOR",
+      "name": "Addict Purple Glow Eau De Parfum"
+    },
+    {
       "brand": "BATH & BODY WORKS",
       "name": "Very Violet"
     },
     {
-      "brand": "LANMAN & KEMP",
-      "name": "Agua de Violetas Cologne"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Butterfly"
+    },
+    {
+      "brand": "LANMAN & KEMP",
+      "name": "Agua de Violetas Cologne"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -183,6 +217,10 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Champagne Sprinkles"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Strawberry Pound Cake"
     },
     {
@@ -192,10 +230,6 @@
     {
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Snowflakes & Cashmere"
     },
     {
       "brand": "ARİANA GRANDE",
@@ -209,5 +243,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Wrapped in Vanilla"
     }
-  ]
+  ],
+  "comments": []
 }

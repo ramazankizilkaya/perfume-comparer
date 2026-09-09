@@ -45,23 +45,47 @@
     {
       "name": "taze",
       "width": "45.5299%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.14",
-    "votesCount": "71",
+    "score": "4.13",
+    "votesCount": "76",
     "breakdown": {
-      "love": "26",
-      "like": "33",
-      "ok": "8",
+      "love": "28",
+      "like": "34",
+      "ok": "10",
       "dislike": "4",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "3",
-    "spring": "32",
-    "summer": "41",
+    "winter": "4",
+    "spring": "33",
+    "summer": "42",
     "autumn": "7",
     "day": "35",
     "night": "6"
@@ -81,17 +105,18 @@
       "Sedir ağacı",
       "Amber",
       "Ardıç"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "4",
-    "weak": "9",
+    "weak": "10",
     "moderate": "19",
     "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "8",
+    "intimate": "10",
     "moderate": "19",
     "strong": "4",
     "enormous": "0"
@@ -99,22 +124,18 @@
   "genderVoting": {
     "female": "2",
     "moreFemale": "2",
-    "unisex": "24",
-    "moreMale": "8",
+    "unisex": "25",
+    "moreMale": "9",
     "male": "1"
   },
   "priceVoting": {
     "wayOverpriced": "0",
-    "overpriced": "10",
-    "fair": "8",
+    "overpriced": "11",
+    "fair": "10",
     "goodValue": "2",
     "greatValue": "2"
   },
   "remindsMeOf": [
-    {
-      "brand": "MAİSON CRİVELLİ",
-      "name": "Absinthe Boréale"
-    },
     {
       "brand": "ACQUA Dİ PARMA",
       "name": "Acqua di parma Blue Mediterraneo - Mirto di Panarea"
@@ -124,16 +145,16 @@
       "name": "Essenza di un'Isola Acqua"
     },
     {
+      "brand": "MAİSON CRİVELLİ",
+      "name": "Absinthe Boréale"
+    },
+    {
       "brand": "ACQUA Dİ PARMA",
       "name": "Mirto Di Panarea Forte Special Edition Eau De Toilette"
     },
     {
       "brand": "CALVİN KLEİN",
       "name": "CK One"
-    },
-    {
-      "brand": "BURBERRY",
-      "name": "Burberry Sport for Women"
     },
     {
       "brand": "EL GANSO",
@@ -150,6 +171,10 @@
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Aqua Universalis"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Sport for Women"
     },
     {
       "brand": "ATTAR COLLECTİON",
@@ -172,6 +197,10 @@
     {
       "brand": "ACQUA Dİ PARMA",
       "name": "Buongiorno"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Torino21"
     },
     {
       "brand": "HERMÈS",
@@ -198,12 +227,12 @@
       "name": "You Or Someone Like You"
     },
     {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Acqua di Parma Blu Mediterraneo Arancia di Capri"
+      "brand": "VERSACE",
+      "name": "Eros Energy"
     },
     {
-      "brand": "CHANEL",
-      "name": "Chance Eau Tendre"
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Acqua di Parma Blu Mediterraneo Arancia di Capri"
     },
     {
       "brand": "TOM FORD",
@@ -216,10 +245,7 @@
     {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "By the Fireplace"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

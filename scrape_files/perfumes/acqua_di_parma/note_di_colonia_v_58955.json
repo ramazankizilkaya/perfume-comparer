@@ -33,25 +33,53 @@
     {
       "name": "pudralı",
       "width": "46.4766%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": ""
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.14",
-    "votesCount": "88",
+    "score": "4.13",
+    "votesCount": "90",
     "breakdown": {
-      "love": "39",
+      "love": "40",
       "like": "29",
-      "ok": "13",
+      "ok": "14",
       "dislike": "7",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "5",
-    "spring": "37",
-    "summer": "41",
-    "autumn": "10",
-    "day": "45",
+    "spring": "38",
+    "summer": "42",
+    "autumn": "11",
+    "day": "46",
     "night": "13"
   },
   "notes": {
@@ -67,18 +95,19 @@
     "base": [
       "Sedir",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "9",
     "weak": "10",
-    "moderate": "26",
+    "moderate": "27",
     "longLasting": "8",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "21",
-    "moderate": "26",
+    "intimate": "22",
+    "moderate": "27",
     "strong": "5",
     "enormous": "3"
   },
@@ -86,15 +115,15 @@
     "female": "1",
     "moreFemale": "1",
     "unisex": "32",
-    "moreMale": "20",
-    "male": "3"
+    "moreMale": "21",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "36",
+    "wayOverpriced": "37",
     "overpriced": "19",
-    "fair": "13",
+    "fair": "14",
     "goodValue": "0",
-    "greatValue": "0"
+    "greatValue": "1"
   },
   "remindsMeOf": [
     {
@@ -106,16 +135,36 @@
       "name": "Opus 1870"
     },
     {
-      "brand": "LE LABO",
-      "name": "Bergamote 22"
-    },
-    {
       "brand": "HERMÈS",
       "name": "Eau de Citron Noir"
     },
     {
+      "brand": "LE LABO",
+      "name": "Bergamote 22"
+    },
+    {
       "brand": "ESCENTRİC MOLECULES",
       "name": "Escentric 01"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Sillage"
+    },
+    {
+      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
+      "name": "Eau de Yuzu"
+    },
+    {
+      "brand": "DER DUFT",
+      "name": "Match"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Mandarino di Amalfi"
+    },
+    {
+      "brand": "KENZO",
+      "name": "L'Eau par Kenzo"
     },
     {
       "brand": "ROJA DOVE",
@@ -126,36 +175,16 @@
       "name": "Light Blue pour Homme"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Terre d'Hermès Eau Givree"
-    },
-    {
-      "brand": "DER DUFT",
-      "name": "Match"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Sillage"
-    },
-    {
-      "brand": "KENZO",
-      "name": "L'Eau par Kenzo"
-    },
-    {
-      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
-      "name": "Eau de Yuzu"
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Gio Essenza"
     },
     {
       "brand": "TOM FORD",
       "name": "Rive d’Ambre"
     },
     {
-      "brand": "ZARA",
-      "name": "WO/03 Café Et Cèdre"
-    },
-    {
-      "brand": "WİLGERMAİN",
-      "name": "Inconfessable"
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès Eau Givree"
     }
   ],
   "peopleAlsoLike": [
@@ -178,6 +207,10 @@
     {
       "brand": "ACQUA Dİ PARMA",
       "name": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Note di Colonia I"
     },
     {
       "brand": "TOM FORD",
@@ -214,10 +247,7 @@
     {
       "brand": "ACQUA Dİ PARMA",
       "name": "Note di Colonia III"
-    },
-    {
-      "brand": "CREED",
-      "name": "Aventus"
     }
-  ]
+  ],
+  "comments": []
 }

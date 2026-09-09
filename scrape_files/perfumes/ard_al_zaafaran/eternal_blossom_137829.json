@@ -3,7 +3,7 @@
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Citrus",
   "concentration": "Edp",
-  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137829.jpg?t=1784282532",
+  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137829.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ard-Al-Zaafaran/Eternal-Blossom-137829.html",
   "brand": "Ard Al Zaafaran parfüm ve kolonya",
   "description": "Ard Al Zaafaran markasının Eternal Blossom parfümü, kadınlar ve erkekler için Çiçeksi Odunsu Misk bir kokudur. Bu yeni bir parfüm. Eternal Blossom, 2026 yılında piyasaya sürüldü. Üst notalar: Lavanta, Mandalina ve Armut; orta notalar: Ylang Ylang, Yasemin ve Portakal; alt notalar Sandal ağacı, Vanilya ve Yosun.",
@@ -35,11 +35,11 @@
       "width": "64.9997%"
     },
     {
-      "name": "lavanta",
+      "name": "yosunlu",
       "width": "64.9997%"
     },
     {
-      "name": "yosunlu",
+      "name": "lavanta",
       "width": "64.9997%"
     },
     {
@@ -49,26 +49,54 @@
     {
       "name": "pudralı",
       "width": "58.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.20",
-    "votesCount": "5",
+    "score": "4.22",
+    "votesCount": "9",
     "breakdown": {
-      "love": "3",
-      "like": "1",
+      "love": "4",
+      "like": "4",
       "ok": "0",
       "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "2",
-    "spring": "2",
-    "summer": "0",
-    "autumn": "2",
-    "day": "2",
-    "night": "2"
+    "winter": "3",
+    "spring": "5",
+    "summer": "2",
+    "autumn": "4",
+    "day": "3",
+    "night": "3"
   },
   "notes": {
     "top": [
@@ -85,7 +113,8 @@
       "Sandal ağacı",
       "Vanilya",
       "Yosun"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -109,7 +138,7 @@
   },
   "priceVoting": {
     "wayOverpriced": "0",
-    "overpriced": "0",
+    "overpriced": "1",
     "fair": "0",
     "goodValue": "0",
     "greatValue": "0"
@@ -130,51 +159,69 @@
     {
       "brand": "ARMAF",
       "name": "Gold"
-    },
-    {
-      "brand": "PRADA",
-      "name": "Prada Paradoxe"
-    },
-    {
-      "brand": "136,047",
-      "name": "Koku Yorumları"
-    },
-    {
-      "brand": "2,763",
-      "name": "Şu an çevrimiçi"
-    },
-    {
-      "brand": "1.",
-      "name": "Liquid Brun French Avenue"
-    },
-    {
-      "brand": "2.",
-      "name": "Khamrah Lattafa Perfumes"
-    },
-    {
-      "brand": "3.",
-      "name": "Emporio Armani Stronger With You Intensely Giorgio Armani"
-    },
-    {
-      "brand": "4.",
-      "name": "Imagination Louis Vuitton"
-    },
-    {
-      "brand": "5.",
-      "name": "Supremacy Collector's Edition Pour Homme Afnan"
-    },
-    {
-      "brand": "6.",
-      "name": "Khamrah Qahwa Lattafa Perfumes"
-    },
-    {
-      "brand": "7.",
-      "name": "Le Male Le Parfum Jean Paul Gaultier"
-    },
-    {
-      "brand": "8.",
-      "name": "Y Eau de Parfum Yves Saint Laurent"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Céleste"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Delilah Blanc"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Opulent Dubai"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "L'eau de Lily Soleil"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Erba Pura"
+    },
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Manaal"
+    },
+    {
+      "brand": "AL WATANİAH",
+      "name": "Sabah Al Ward"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Signature Elixir"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club De Nuit Maleka"
+    },
+    {
+      "brand": "ASDAAF",
+      "name": "Raneen"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Angham Second Song"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Atheeri"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara Elixir"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "FAYORA"
+    }
+  ],
+  "comments": []
 }

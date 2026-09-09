@@ -37,6 +37,34 @@
     {
       "name": "tatlı",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,7 +89,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Vanilya",
+      "Kahve",
+      "Viski"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -182,8 +215,8 @@
       "name": "Yara"
     },
     {
-      "brand": "SABRİNA CARPENTER",
-      "name": "Sweet Tooth Caramel Dream"
+      "brand": "BATH & BODY WORKS",
+      "name": "Dream Bright"
     },
     {
       "brand": "SOL DE JANEİRO",
@@ -194,12 +227,13 @@
       "name": "Sweetheart Cherry"
     },
     {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '71"
-    },
-    {
       "brand": "ARİANA GRANDE",
       "name": "Cloud"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "In The Stars"
     }
-  ]
+  ],
+  "comments": []
 }

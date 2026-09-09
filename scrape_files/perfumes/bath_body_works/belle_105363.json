@@ -16,60 +16,93 @@
     },
     {
       "name": "vanilya",
-      "width": "83.7209%"
+      "width": "83.2607%"
     },
     {
       "name": "çiçeksi",
-      "width": "78.3488%"
+      "width": "77.6303%"
     },
     {
       "name": "pudralı",
-      "width": "46.1163%"
+      "width": "45.9782%"
     },
     {
       "name": "tatlı",
-      "width": "40.7442%"
+      "width": "40.6521%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.03",
-    "votesCount": "155",
+    "score": "4.01",
+    "votesCount": "160",
     "breakdown": {
       "love": "62",
-      "like": "51",
-      "ok": "30",
+      "like": "54",
+      "ok": "31",
       "dislike": "9",
-      "hate": "3"
+      "hate": "4"
     }
   },
   "seasons": {
-    "winter": "34",
-    "spring": "65",
-    "summer": "36",
-    "autumn": "50",
-    "day": "63",
-    "night": "17"
+    "winter": "36",
+    "spring": "66",
+    "summer": "37",
+    "autumn": "52",
+    "day": "64",
+    "night": "18"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Gül",
+      "Vanilya",
+      "Düğün çiçeği"
+    ]
   },
   "longevity": {
     "veryWeak": "8",
-    "weak": "24",
+    "weak": "26",
     "moderate": "20",
     "longLasting": "0",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "11",
+    "intimate": "12",
     "moderate": "20",
     "strong": "3",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "50",
+    "female": "51",
     "moreFemale": "10",
     "unisex": "2",
     "moreMale": "0",
@@ -78,8 +111,8 @@
   "priceVoting": {
     "wayOverpriced": "2",
     "overpriced": "0",
-    "fair": "30",
-    "goodValue": "24",
+    "fair": "31",
+    "goodValue": "25",
     "greatValue": "25"
   },
   "remindsMeOf": [
@@ -140,8 +173,8 @@
       "name": "Belle Rencontre / Rose Vanille"
     },
     {
-      "brand": "OLİVİNA NAPA VALLEY",
-      "name": "Buttercup"
+      "brand": "UNİC",
+      "name": "Rose & Vanilla"
     }
   ],
   "peopleAlsoLike": [
@@ -152,6 +185,10 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Warm Vanilla Sugar"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Pistachio Glaze"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -182,12 +219,8 @@
       "name": "Cotton Candy Clouds"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Wicked Vanilla Woods"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Tiana"
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -195,7 +228,7 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "At the Beach"
+      "name": "Tiana"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -205,5 +238,6 @@
       "brand": "AQUOLİNA",
       "name": "Pink Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

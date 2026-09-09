@@ -41,13 +41,37 @@
     {
       "name": "sıcak baharatlı",
       "width": "52.8212%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.58",
-    "votesCount": "104",
+    "votesCount": "106",
     "breakdown": {
-      "love": "74",
+      "love": "76",
       "like": "22",
       "ok": "3",
       "dislike": "4",
@@ -78,7 +102,8 @@
       "Hayvansal notalar",
       "Misk",
       "Pudramsı notalar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -91,7 +116,7 @@
     "intimate": "4",
     "moderate": "13",
     "strong": "36",
-    "enormous": "17"
+    "enormous": "18"
   },
   "genderVoting": {
     "female": "4",
@@ -129,10 +154,6 @@
       "name": "Mukhallat Oudh Siufi"
     },
     {
-      "brand": "STRANGELOVE NYC",
-      "name": "Dead of Night"
-    },
-    {
       "brand": "MAKSİM PERFUME",
       "name": "Cologne d'Agar"
     }
@@ -153,6 +174,10 @@
     {
       "brand": "AJMAL",
       "name": "Amir Two"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Gold Man"
     },
     {
       "brand": "AJMAL",
@@ -193,10 +218,7 @@
     {
       "brand": "LALİQUE",
       "name": "Encre Noire"
-    },
-    {
-      "brand": "AJMAL",
-      "name": "Amir One"
     }
-  ]
+  ],
+  "comments": []
 }

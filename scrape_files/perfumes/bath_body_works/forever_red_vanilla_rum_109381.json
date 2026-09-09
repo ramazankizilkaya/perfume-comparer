@@ -29,48 +29,82 @@
     {
       "name": "çiçeksi",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.19",
-    "votesCount": "52",
+    "score": "4.25",
+    "votesCount": "57",
     "breakdown": {
-      "love": "24",
-      "like": "16",
+      "love": "28",
+      "like": "17",
       "ok": "10",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "19",
+    "winter": "21",
     "spring": "8",
     "summer": "6",
-    "autumn": "20",
+    "autumn": "22",
     "day": "11",
-    "night": "19"
+    "night": "21"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Yasemin",
+      "Vanilya",
+      "Kaşmeran",
+      "Rom"
+    ]
   },
   "longevity": {
     "veryWeak": "4",
     "weak": "7",
-    "moderate": "8",
+    "moderate": "9",
     "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "5",
-    "moderate": "8",
+    "moderate": "9",
     "strong": "0",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "10",
-    "moreFemale": "4",
+    "moreFemale": "5",
     "unisex": "2",
     "moreMale": "0",
     "male": "0"
@@ -80,7 +114,7 @@
     "overpriced": "0",
     "fair": "10",
     "goodValue": "4",
-    "greatValue": "12"
+    "greatValue": "13"
   },
   "remindsMeOf": [
     {
@@ -104,20 +138,20 @@
       "name": "Cashmere Glow"
     },
     {
-      "brand": "MUGLER",
-      "name": "Alien Extraintense"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Velvet Sugar"
-    },
-    {
       "brand": "COACH",
       "name": "Coach Dreams Sunset"
     },
     {
       "brand": "MERCEDES-BENZ",
       "name": "Mercedes-Benz Woman In Red"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Alien Extraintense"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Velvet Sugar"
     }
   ],
   "peopleAlsoLike": [
@@ -150,6 +184,10 @@
       "name": "Viva Vanilla"
     },
     {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '62"
+    },
+    {
       "brand": "BATH & BODY WORKS",
       "name": "Forever Red"
     },
@@ -171,15 +209,12 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "In The Stars"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Be Enchanted"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Sweetheart Cherry"
     }
-  ]
+  ],
+  "comments": []
 }

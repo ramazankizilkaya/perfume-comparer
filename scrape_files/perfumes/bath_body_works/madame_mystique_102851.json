@@ -33,13 +33,41 @@
     {
       "name": "çiçeksi",
       "width": "51%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.01",
-    "votesCount": "74",
+    "score": "4.03",
+    "votesCount": "75",
     "breakdown": {
-      "love": "26",
+      "love": "27",
       "like": "28",
       "ok": "17",
       "dislike": "1",
@@ -47,7 +75,7 @@
     }
   },
   "seasons": {
-    "winter": "23",
+    "winter": "24",
     "spring": "23",
     "summer": "22",
     "autumn": "29",
@@ -57,7 +85,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Gül",
+      "Kırmızı meyveler"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -128,24 +160,24 @@
       "name": "Hyper Violet"
     },
     {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Mon Paris Intensement"
+    },
+    {
       "brand": "BATH & BODY WORKS",
       "name": "Into The Night"
     },
     {
-      "brand": "CHANEL",
-      "name": "Chance Eau Tendre"
+      "brand": "DEFİNEME",
+      "name": "Payton"
     },
     {
       "brand": "JEROBOAM",
       "name": "Gozo"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Mon Paris Intensement"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Angel"
+      "brand": "CHANEL",
+      "name": "Chance Eau Tendre"
     }
   ],
   "peopleAlsoLike": [
@@ -156,6 +188,10 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Gingham Gorgeous"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Dark Kiss"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -172,6 +208,10 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "All Eyes On Her"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Champagne Toast"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -198,16 +238,9 @@
       "name": "Yara"
     },
     {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Into The Night"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Coco Mademoiselle"
     }
-  ]
+  ],
+  "comments": []
 }

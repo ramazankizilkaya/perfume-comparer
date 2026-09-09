@@ -37,56 +37,91 @@
     {
       "name": "balsamik",
       "width": "46.0607%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.19",
-    "votesCount": "88",
+    "score": "4.26",
+    "votesCount": "98",
     "breakdown": {
-      "love": "64",
+      "love": "73",
       "like": "6",
-      "ok": "2",
+      "ok": "3",
       "dislike": "3",
       "hate": "13"
     }
   },
   "seasons": {
-    "winter": "42",
-    "spring": "43",
-    "summer": "44",
-    "autumn": "43",
-    "day": "44",
-    "night": "41"
+    "winter": "48",
+    "spring": "49",
+    "summer": "51",
+    "autumn": "48",
+    "day": "49",
+    "night": "46"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Günlük",
+      "Aldehitler",
+      "Narenciye",
+      "Mür",
+      "Labdanum"
+    ]
   },
   "longevity": {
     "veryWeak": "10",
     "weak": "1",
     "moderate": "8",
-    "longLasting": "18",
-    "eternal": "17"
+    "longLasting": "19",
+    "eternal": "24"
   },
   "sillage": {
     "intimate": "12",
     "moderate": "8",
-    "strong": "11",
-    "enormous": "12"
+    "strong": "13",
+    "enormous": "17"
   },
   "genderVoting": {
-    "female": "11",
+    "female": "12",
     "moreFemale": "0",
-    "unisex": "31",
-    "moreMale": "12",
-    "male": "3"
+    "unisex": "34",
+    "moreMale": "14",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "30",
+    "wayOverpriced": "36",
     "overpriced": "6",
-    "fair": "2",
+    "fair": "3",
     "goodValue": "3",
     "greatValue": "5"
   },
@@ -96,8 +131,32 @@
       "name": "New Look 2024"
     },
     {
+      "brand": "AMOUAGE",
+      "name": "Purpose 50"
+    },
+    {
       "brand": "AVON",
       "name": "Parisian Chic"
+    },
+    {
+      "brand": "AVON",
+      "name": "Outspoken by Fergie"
+    },
+    {
+      "brand": "AVON",
+      "name": "Avon Luck Summer Sparkle"
+    },
+    {
+      "brand": "AVON",
+      "name": "Avon Sensuelle"
+    },
+    {
+      "brand": "LES LİQUİDES IMAGİNAİRES",
+      "name": "Sancti"
+    },
+    {
+      "brand": "AVON",
+      "name": "Avon Luck for Her"
     },
     {
       "brand": "AVON",
@@ -112,44 +171,20 @@
       "name": "Far Away Rebel"
     },
     {
-      "brand": "AVON",
-      "name": "Avon Luck for Her"
+      "brand": "AMADO",
+      "name": "Blue Incense"
     },
     {
       "brand": "AVON",
-      "name": "Avon Sensuelle"
-    },
-    {
-      "brand": "AVON",
-      "name": "Avon Luck Summer Sparkle"
-    },
-    {
-      "brand": "AVON",
-      "name": "Outspoken by Fergie"
-    },
-    {
-      "brand": "LES LİQUİDES IMAGİNAİRES",
-      "name": "Sancti"
-    },
-    {
-      "brand": "AVON",
-      "name": "Avon Luck La Vie"
+      "name": "Crystal Aura"
     },
     {
       "brand": "AMOUAGE",
-      "name": "Purpose 50"
-    },
-    {
-      "brand": "AVON",
-      "name": "Avon Luck Limitless for Her"
+      "name": "Purpose"
     },
     {
       "brand": "AVON",
       "name": "Avon Luck Eau So Loved"
-    },
-    {
-      "brand": "AVON",
-      "name": "Flower by Cynthia Rowley EDP"
     }
   ],
   "peopleAlsoLike": [
@@ -178,12 +213,12 @@
       "name": "Purpose"
     },
     {
-      "brand": "LOUİS VUİTTON",
-      "name": "Imagination"
-    },
-    {
       "brand": "AMOUAGE",
       "name": "Purpose 50"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Imagination"
     },
     {
       "brand": "SOSPİRO PERFUMES",
@@ -213,5 +248,6 @@
       "brand": "NİSHANE",
       "name": "Hacivat"
     }
-  ]
+  ],
+  "comments": []
 }

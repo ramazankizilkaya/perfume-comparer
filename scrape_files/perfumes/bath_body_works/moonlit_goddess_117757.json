@@ -41,31 +41,64 @@
     {
       "name": "meyvemsi",
       "width": "46.6553%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.47",
-    "votesCount": "129",
+    "score": "4.48",
+    "votesCount": "132",
     "breakdown": {
-      "love": "71",
-      "like": "50",
-      "ok": "6",
+      "love": "74",
+      "like": "49",
+      "ok": "7",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "59",
-    "spring": "42",
-    "summer": "20",
-    "autumn": "48",
-    "day": "52",
-    "night": "46"
+    "winter": "62",
+    "spring": "44",
+    "summer": "21",
+    "autumn": "50",
+    "day": "53",
+    "night": "47"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Vanilya",
+      "Lavanta",
+      "Armut çiçeği"
+    ]
   },
   "longevity": {
     "veryWeak": "6",
@@ -82,7 +115,7 @@
   },
   "genderVoting": {
     "female": "39",
-    "moreFemale": "16",
+    "moreFemale": "17",
     "unisex": "2",
     "moreMale": "0",
     "male": "0"
@@ -90,7 +123,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "6",
+    "fair": "7",
     "goodValue": "24",
     "greatValue": "30"
   },
@@ -112,6 +145,10 @@
       "name": "Mon Guerlain"
     },
     {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Warm Vanilla Woods"
+    },
+    {
       "brand": "GUESS",
       "name": "Seductive Desire Women"
     },
@@ -120,24 +157,12 @@
       "name": "Million Gold For Her"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Warm Vanilla Woods"
-    },
-    {
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue Escape to Panarea"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Vanilla Romance"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Angham Mist"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "No.3 Lavender"
     }
   ],
   "peopleAlsoLike": [
@@ -152,6 +177,10 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Angham"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -196,10 +225,7 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "A Thousand Wishes"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Covered In Roses"
     }
-  ]
+  ],
+  "comments": []
 }

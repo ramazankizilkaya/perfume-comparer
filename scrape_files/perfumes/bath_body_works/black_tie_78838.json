@@ -33,15 +33,43 @@
     {
       "name": "pudralı",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.79",
-    "votesCount": "42",
+    "score": "3.77",
+    "votesCount": "44",
     "breakdown": {
       "love": "10",
-      "like": "17",
-      "ok": "11",
+      "like": "18",
+      "ok": "12",
       "dislike": "4",
       "hate": "0"
     }
@@ -52,15 +80,20 @@
     "summer": "11",
     "autumn": "18",
     "day": "12",
-    "night": "19"
+    "night": "20"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Adaçayı",
+      "Tonka fasulyesi",
+      "Sandal ağacı"
+    ]
   },
   "longevity": {
-    "veryWeak": "5",
+    "veryWeak": "6",
     "weak": "4",
     "moderate": "12",
     "longLasting": "0",
@@ -76,14 +109,14 @@
     "female": "0",
     "moreFemale": "0",
     "unisex": "3",
-    "moreMale": "14",
+    "moreMale": "15",
     "male": "11"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "11",
-    "goodValue": "9",
+    "fair": "12",
+    "goodValue": "10",
     "greatValue": "6"
   },
   "remindsMeOf": [
@@ -181,5 +214,6 @@
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
     }
-  ]
+  ],
+  "comments": []
 }

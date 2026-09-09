@@ -23,11 +23,11 @@
       "width": "65%"
     },
     {
-      "name": "ozonik",
+      "name": "tatlı",
       "width": "53.3333%"
     },
     {
-      "name": "tatlı",
+      "name": "ozonik",
       "width": "53.3333%"
     },
     {
@@ -35,12 +35,40 @@
       "width": "50.4167%"
     },
     {
+      "name": "vanilya",
+      "width": "47.5%"
+    },
+    {
       "name": "tropikal",
       "width": "47.5%"
     },
     {
-      "name": "vanilya",
-      "width": "47.5%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -72,31 +100,31 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -149,16 +177,17 @@
       "name": "Mon Guerlain"
     },
     {
-      "brand": "LANCÔME",
-      "name": "La Vie Est Belle Vanille Nude"
-    },
-    {
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle Vanille Nude"
     },
     {
       "brand": "GİVENCHY",
       "name": "Irresistible Givenchy"
     }
-  ]
+  ],
+  "comments": []
 }

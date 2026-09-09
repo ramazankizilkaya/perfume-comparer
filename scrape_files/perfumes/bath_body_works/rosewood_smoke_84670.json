@@ -25,6 +25,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "38.75%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -49,7 +77,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Brezilya gül ağacı",
+      "Duman"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -157,5 +189,6 @@
       "brand": "VERSACE",
       "name": "Versace Pour Homme Oud Noir"
     }
-  ]
+  ],
+  "comments": []
 }

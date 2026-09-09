@@ -49,6 +49,34 @@
     {
       "name": "odunsu",
       "width": "52.12%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -85,7 +113,8 @@
       "Amber",
       "Misk",
       "Sedir"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -213,5 +242,6 @@
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male"
     }
-  ]
+  ],
+  "comments": []
 }

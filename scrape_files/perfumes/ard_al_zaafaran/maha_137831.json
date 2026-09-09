@@ -3,12 +3,12 @@
   "targetGender": "kadınlar için",
   "fragranceFamily": "Gourmand",
   "concentration": "Edp",
-  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137831.jpg?t=1784282733",
+  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137831.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ard-Al-Zaafaran/Maha-137831.html",
   "brand": "Ard Al Zaafaran parfüm ve kolonya",
-  "description": "Ard Al Zaafaran markasının Maha parfümü, kadınlar için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Maha, 2026 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü, Badem ve Şeftali; orta notalar: Yasemin ve Hindistan cevizi; alt notalar Tonka fasulyesi, Amber ve Misk.",
-  "description_original": "Ard Al Zaafaran markasının Maha parfümü, kadınlar için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Maha, 2026 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü, Badem ve Şeftali; orta notalar: Yasemin ve Hindistan cevizi; alt notalar Tonka fasulyesi, Amber ve Misk.",
-  "description_enhanced": "Ard Al Zaafaran markasının Maha parfümü, kadınlar için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Maha, 2026 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü, Badem ve Şeftali; orta notalar: Yasemin ve Hindistan cevizi; alt notalar Tonka fasulyesi, Amber ve Misk.",
+  "description": "Ard Al Zaafaran markasının Maha parfümü, kadınlar için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Maha, 2026 yılında piyasaya sürüldü. Üst notalar: Siyah Frenk Üzümü, Badem ve Şeftali; orta notalar: Yasemin ve Hindistan cevizi; alt notalar Tonka fasulyesi, Amber ve Misk.",
+  "description_original": "Ard Al Zaafaran markasının Maha parfümü, kadınlar için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Maha, 2026 yılında piyasaya sürüldü. Üst notalar: Siyah Frenk Üzümü, Badem ve Şeftali; orta notalar: Yasemin ve Hindistan cevizi; alt notalar Tonka fasulyesi, Amber ve Misk.",
+  "description_enhanced": "Ard Al Zaafaran markasının Maha parfümü, kadınlar için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Maha, 2026 yılında piyasaya sürüldü. Üst notalar: Siyah Frenk Üzümü, Badem ve Şeftali; orta notalar: Yasemin ve Hindistan cevizi; alt notalar Tonka fasulyesi, Amber ve Misk.",
   "mainAccords": [
     {
       "name": "meyvemsi",
@@ -23,10 +23,6 @@
       "width": "77.7272%"
     },
     {
-      "name": "misk",
-      "width": "61.8183%"
-    },
-    {
       "name": "beyaz çiçeksi",
       "width": "61.8183%"
     },
@@ -35,11 +31,15 @@
       "width": "61.8183%"
     },
     {
-      "name": "badem",
+      "name": "misk",
       "width": "61.8183%"
     },
     {
       "name": "hindistancevizi",
+      "width": "61.8183%"
+    },
+    {
+      "name": "badem",
       "width": "61.8183%"
     },
     {
@@ -49,30 +49,58 @@
     {
       "name": "fındıksı",
       "width": "55.4548%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.67",
-    "votesCount": "3",
+    "score": "4.36",
+    "votesCount": "11",
     "breakdown": {
-      "love": "2",
-      "like": "1",
+      "love": "6",
+      "like": "4",
       "ok": "0",
-      "dislike": "0",
+      "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "0",
-    "spring": "0",
-    "summer": "0",
-    "autumn": "0",
-    "day": "0",
-    "night": "1"
+    "winter": "2",
+    "spring": "4",
+    "summer": "4",
+    "autumn": "3",
+    "day": "3",
+    "night": "4"
   },
   "notes": {
     "top": [
-      "Frenk üzümü",
+      "Siyah Frenk Üzümü",
       "Badem",
       "Şeftali"
     ],
@@ -84,23 +112,24 @@
       "Tonka fasulyesi",
       "Amber",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
     "moderate": "0",
-    "longLasting": "0",
+    "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
     "moderate": "0",
-    "strong": "0",
+    "strong": "1",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "0",
+    "female": "5",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "0",
@@ -110,8 +139,8 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "3",
+    "greatValue": "1"
   },
   "remindsMeOf": [
     {
@@ -119,26 +148,30 @@
       "name": "Born in Roma Extradose Donna"
     },
     {
-      "brand": "LE FALCONÉ PERFUMES",
-      "name": "Juman Precious"
-    },
-    {
       "brand": "ARABİYAT PRESTİGE",
       "name": "Extradose Femme"
+    },
+    {
+      "brand": "LE FALCONÉ PERFUMES",
+      "name": "Juman Precious"
     }
   ],
   "peopleAlsoLike": [
     {
-      "brand": "RİHANNA",
-      "name": "Reb'l Fleur"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Petra"
     },
     {
-      "brand": "JESSİCA SİMPSON",
-      "name": "Fancy"
+      "brand": "PARIS CORNER",
+      "name": "Marshmallow Blush"
     },
     {
-      "brand": "JUİCY COUTURE",
-      "name": "Viva la Juicy"
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Extreme 2025"
+    },
+    {
+      "brand": "KAYALİ FRAGRANCES",
+      "name": "Yum Boujee Marshmallow | 81"
     },
     {
       "brand": "KAYALİ FRAGRANCES",
@@ -146,11 +179,19 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Affection"
+      "name": "Nebras"
     },
     {
-      "brand": "KHADLAJ PERFUMES",
-      "name": "Cream Velvet"
+      "brand": "BATH & BODY WORKS",
+      "name": "Strawberry Pound Cake"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Born in Roma Extradose Donna"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Affection"
     },
     {
       "brand": "KAYALİ FRAGRANCES",
@@ -169,24 +210,13 @@
       "name": "Angham"
     },
     {
-      "brand": "HARAJUKU LOVERS",
-      "name": "Harajuku Lovers G"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Alien Goddess"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Eros"
-    },
-    {
       "brand": "YVES SAİNT LAURENT",
-      "name": "Black Opium Le Parfum"
+      "name": "Black Opium Glitter"
     },
     {
-      "brand": "VİKTOR&ROLF",
-      "name": "Flowerbomb"
+      "brand": "FRAGRANCE WORLD",
+      "name": "Creme of Clouds"
     }
-  ]
+  ],
+  "comments": []
 }

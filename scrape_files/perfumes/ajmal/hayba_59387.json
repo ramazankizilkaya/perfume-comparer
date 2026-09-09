@@ -29,6 +29,30 @@
     {
       "name": "metalik",
       "width": "44.041%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -67,7 +91,8 @@
       "Guayak ağacı",
       "Misk",
       "Sedir"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -160,6 +185,10 @@
   ],
   "peopleAlsoLike": [
     {
+      "brand": "AJMAL",
+      "name": "Amber Wood"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Maahir Black Edition"
     },
@@ -178,10 +207,6 @@
     {
       "brand": "BENTLEY",
       "name": "Bentley for Men Intense"
-    },
-    {
-      "brand": "ESSENTİAL PARFUMS",
-      "name": "Bois Impérial"
     },
     {
       "brand": "LALİQUE",
@@ -219,5 +244,6 @@
       "brand": "AMOUAGE",
       "name": "Interlude Man"
     }
-  ]
+  ],
+  "comments": []
 }

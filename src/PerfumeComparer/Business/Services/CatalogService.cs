@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
@@ -374,6 +375,19 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
                     a.TargetPerfume.Brand.Slug, a.TargetPerfume.Slug)))
             .ToList();
 
+        List<FaqItemDto>? faq = null;
+        if (!string.IsNullOrWhiteSpace(perfume.FaqJson))
+        {
+            try
+            {
+                faq = JsonSerializer.Deserialize<List<FaqItemDto>>(perfume.FaqJson, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            }
+            catch
+            {
+                faq = null;
+            }
+        }
+
         return new PerfumeDetailDto(
             perfume.Name,
             perfume.Slug,
@@ -386,6 +400,8 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
             perfume.FragranceFamily?.Description(),
             perfume.ReleaseYear,
             perfume.Description,
+            perfume.Article,
+            faq,
             perfume.ImageUrl,
             perfume.AvgRating,
             perfume.RatingCount,

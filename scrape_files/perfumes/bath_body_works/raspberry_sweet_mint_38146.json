@@ -89,69 +89,37 @@
       "Amber",
       "Misk",
       "Teak Ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "3",
-    "moderate": "2",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "2",
-    "strong": "1",
-    "enormous": "4"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "3",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Dream Angels Kiss Eau de Parfum"
-    },
-    {
-      "brand": "YVES ROCHER",
-      "name": "Framboise & Menthe Poivrée"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Dream Angels Wish"
-    },
-    {
-      "brand": "ARİANA GRANDE",
-      "name": "Ari"
-    },
-    {
-      "brand": "JİVAGO",
-      "name": "The Gift Le Cadeau"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Blue Raspberry Burst"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Twisted Peppermint"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Blackberry & Basil"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "PARİS HİLTON",
@@ -213,5 +181,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Twilight Woods"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -37,58 +37,91 @@
     {
       "name": "sıcak baharatlı",
       "width": "45.5217%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.11",
-    "votesCount": "128",
+    "votesCount": "140",
     "breakdown": {
-      "love": "60",
-      "like": "39",
-      "ok": "16",
-      "dislike": "9",
+      "love": "65",
+      "like": "43",
+      "ok": "18",
+      "dislike": "10",
       "hate": "4"
     }
   },
   "seasons": {
-    "winter": "23",
-    "spring": "64",
-    "summer": "57",
-    "autumn": "25",
-    "day": "63",
-    "night": "27"
+    "winter": "26",
+    "spring": "69",
+    "summer": "61",
+    "autumn": "26",
+    "day": "68",
+    "night": "28"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Müge",
+      "Mandalina",
+      "Amber ağacı"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
     "weak": "12",
-    "moderate": "20",
+    "moderate": "23",
     "longLasting": "9",
     "eternal": "4"
   },
   "sillage": {
     "intimate": "7",
-    "moderate": "20",
+    "moderate": "23",
     "strong": "7",
-    "enormous": "3"
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "31",
+    "female": "33",
     "moreFemale": "17",
-    "unisex": "9",
+    "unisex": "11",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "2",
+    "wayOverpriced": "3",
     "overpriced": "0",
-    "fair": "16",
-    "goodValue": "16",
-    "greatValue": "34"
+    "fair": "18",
+    "goodValue": "18",
+    "greatValue": "35"
   },
   "remindsMeOf": [
     {
@@ -112,12 +145,12 @@
       "name": "Fleur Narcotique"
     },
     {
-      "brand": "AFNAN",
-      "name": "Mystique Bouquet"
-    },
-    {
       "brand": "KHADLAJ PERFUMES",
       "name": "Musk Ice"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Mystique Bouquet"
     },
     {
       "brand": "VİCTORİA'S SECRET",
@@ -140,16 +173,16 @@
       "name": "Illúsio"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Afeef"
-    },
-    {
       "brand": "BEYONCÉ",
       "name": "Cé Lumière"
     },
     {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue"
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "8"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Ehsas"
     }
   ],
   "peopleAlsoLike": [
@@ -213,5 +246,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Yara"
     }
-  ]
+  ],
+  "comments": []
 }

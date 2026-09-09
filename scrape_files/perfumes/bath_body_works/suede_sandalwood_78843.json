@@ -29,6 +29,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "58%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Sandal ağacı",
+      "Süet"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -106,12 +138,12 @@
       "name": "Vintage Radio"
     },
     {
-      "brand": "CHANEL",
-      "name": "Allure Homme Sport Eau Extreme"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Vanilla Noir"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Allure Homme Sport Eau Extreme"
     },
     {
       "brand": "ARAMİS",
@@ -157,5 +189,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah Qahwa"
     }
-  ]
+  ],
+  "comments": []
 }

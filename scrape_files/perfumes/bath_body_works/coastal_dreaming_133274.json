@@ -16,75 +16,104 @@
     },
     {
       "name": "tuzlu",
-      "width": "89.8183%"
+      "width": "97.8462%"
     },
     {
       "name": "deniz",
-      "width": "77.7274%"
+      "width": "83.3077%"
     },
     {
       "name": "odunsu",
-      "width": "65.6364%"
+      "width": "68.7694%"
     },
     {
       "name": "pudralı",
-      "width": "51%"
+      "width": "51.0001%"
     },
     {
-      "name": "tatlı",
-      "width": "44.0001%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.25",
-    "votesCount": "80",
+    "score": "4.21",
+    "votesCount": "102",
     "breakdown": {
-      "love": "48",
-      "like": "16",
-      "ok": "8",
-      "dislike": "4",
+      "love": "58",
+      "like": "22",
+      "ok": "11",
+      "dislike": "7",
       "hate": "4"
     }
   },
   "seasons": {
-    "winter": "2",
-    "spring": "29",
-    "summer": "55",
-    "autumn": "10",
-    "day": "46",
-    "night": "11"
+    "winter": "5",
+    "spring": "33",
+    "summer": "63",
+    "autumn": "12",
+    "day": "52",
+    "night": "12"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Vanilya",
+      "Deniz Tuzu",
+      "Sürüklenen odun"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
-    "weak": "7",
-    "moderate": "12",
-    "longLasting": "2",
+    "weak": "8",
+    "moderate": "16",
+    "longLasting": "4",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "9",
-    "moderate": "12",
+    "intimate": "12",
+    "moderate": "16",
     "strong": "0",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "11",
+    "female": "12",
     "moreFemale": "6",
-    "unisex": "11",
+    "unisex": "17",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "1",
-    "overpriced": "0",
-    "fair": "8",
-    "goodValue": "14",
-    "greatValue": "6"
+    "overpriced": "1",
+    "fair": "11",
+    "goodValue": "16",
+    "greatValue": "9"
   },
   "remindsMeOf": [
     {
@@ -104,20 +133,32 @@
       "name": "Vanilla Vibes"
     },
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Beach Nights"
+    },
+    {
       "brand": "SALTAİR",
       "name": "Salt Water Vanilla"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Beach Nights"
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Fursan White"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Queen Of Arabia"
     },
     {
       "brand": "GUERLAİN",
       "name": "Aqua Allegoria Forte Bosca Vanilla"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Queen Of Arabia"
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bombshell Santorini"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Privé Bleu Turquoise"
     },
     {
       "brand": "LANCÔME",
@@ -128,24 +169,12 @@
       "name": "Vanilla & Dreamy"
     },
     {
-      "brand": "ARQUİSTE",
-      "name": "The Architects Club"
-    },
-    {
-      "brand": "LOVESHACKFANCY",
-      "name": "Secret Crush"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Bombshell Santorini"
-    },
-    {
       "brand": "LAKE & SKYE",
       "name": "11 11 Vanilla"
     },
     {
-      "brand": "VİKTOR&ROLF",
-      "name": "Salty Flower"
+      "brand": "GUESS",
+      "name": "Seductive Desire Women"
     }
   ],
   "peopleAlsoLike": [
@@ -154,28 +183,28 @@
       "name": "Vanilla Romance"
     },
     {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '62"
+    },
+    {
       "brand": "BATH & BODY WORKS",
       "name": "Warm Vanilla Sugar"
     },
     {
-      "brand": "LANCÔME",
-      "name": "La Vie Est Belle Vanille Nude"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '62"
+      "brand": "BATH & BODY WORKS",
+      "name": "Vanilla Romance"
     },
     {
       "brand": "BURBERRY",
       "name": "Goddess"
     },
     {
-      "brand": "RARE BEAUTY",
-      "name": "Rare"
+      "brand": "BATH & BODY WORKS",
+      "name": "Warm Musk"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Warm Musk"
+      "name": "Pink Obsessed"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -194,6 +223,10 @@
       "name": "Cotton Candy Clouds"
     },
     {
+      "brand": "GLOSSİER",
+      "name": "You Fleur"
+    },
+    {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '59"
     },
@@ -202,12 +235,9 @@
       "name": "Eclaire"
     },
     {
-      "brand": "GLOSSİER",
-      "name": "You Fleur"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "At the Beach"
     }
-  ]
+  ],
+  "comments": []
 }

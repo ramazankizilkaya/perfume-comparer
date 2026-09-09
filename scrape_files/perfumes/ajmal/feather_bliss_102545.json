@@ -27,10 +27,6 @@
       "width": "64.1464%"
     },
     {
-      "name": "aromatik",
-      "width": "64.1464%"
-    },
-    {
       "name": "menekşe",
       "width": "64.1464%"
     },
@@ -47,8 +43,36 @@
       "width": "64.1464%"
     },
     {
+      "name": "aromatik",
+      "width": "64.1464%"
+    },
+    {
       "name": "çiçeksi",
       "width": "59.0241%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,7 +108,8 @@
       "Tonka fasulyesi",
       "Sedir ağacı",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -114,5 +139,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

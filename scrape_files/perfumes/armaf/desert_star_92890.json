@@ -16,51 +16,83 @@
     },
     {
       "name": "misk",
-      "width": "75.7362%"
+      "width": "73.826%"
     },
     {
       "name": "aromatik",
-      "width": "61.994%"
+      "width": "61.5507%"
     },
     {
       "name": "amber",
-      "width": "57.6995%"
+      "width": "56.174%"
     },
     {
       "name": "yumuşak baharatlı",
-      "width": "55.8743%"
+      "width": "55.8695%"
     },
     {
       "name": "pudralı",
-      "width": "51.7407%"
+      "width": "51.2536%"
     },
     {
       "name": "narenciye",
-      "width": "50.3989%"
+      "width": "50.2898%"
     },
     {
       "name": "toprak",
-      "width": "49.9693%"
+      "width": "49.4783%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "4.34",
-    "votesCount": "129",
+    "score": "4.33",
+    "votesCount": "140",
     "breakdown": {
-      "love": "80",
-      "like": "30",
-      "ok": "10",
+      "love": "86",
+      "like": "33",
+      "ok": "11",
       "dislike": "1",
-      "hate": "8"
+      "hate": "9"
     }
   },
   "seasons": {
-    "winter": "74",
-    "spring": "76",
-    "summer": "52",
-    "autumn": "81",
-    "day": "69",
-    "night": "75"
+    "winter": "79",
+    "spring": "82",
+    "summer": "56",
+    "autumn": "87",
+    "day": "76",
+    "night": "80"
   },
   "notes": {
     "top": [
@@ -75,34 +107,35 @@
       "Sedir ağacı",
       "Beyaz Misk",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
-    "weak": "2",
+    "weak": "3",
     "moderate": "10",
-    "longLasting": "53",
-    "eternal": "25"
+    "longLasting": "57",
+    "eternal": "26"
   },
   "sillage": {
     "intimate": "3",
     "moderate": "10",
-    "strong": "65",
+    "strong": "69",
     "enormous": "8"
   },
   "genderVoting": {
-    "female": "4",
+    "female": "5",
     "moreFemale": "1",
     "unisex": "13",
-    "moreMale": "32",
-    "male": "48"
+    "moreMale": "34",
+    "male": "52"
   },
   "priceVoting": {
     "wayOverpriced": "6",
-    "overpriced": "0",
-    "fair": "10",
-    "goodValue": "40",
-    "greatValue": "34"
+    "overpriced": "2",
+    "fair": "11",
+    "goodValue": "42",
+    "greatValue": "36"
   },
   "remindsMeOf": [
     {
@@ -118,62 +151,62 @@
       "name": "SHK I"
     },
     {
-      "brand": "LOEWE",
-      "name": "Loewe 7 Natural"
-    },
-    {
       "brand": "AFNAN",
       "name": "Highness VI"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Loewe 7 Natural"
     },
     {
       "brand": "AZZARO",
       "name": "Visit For Men"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Wajood"
-    },
-    {
-      "brand": "LOEWE",
-      "name": "Loewe 7 Anonimo"
-    },
-    {
       "brand": "LOEWE",
       "name": "Loewe 7 Cobalt"
     },
     {
-      "brand": "KENZO",
-      "name": "Kenzo Homme Eau de Parfum"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Wajood"
     },
     {
       "brand": "ANFAR LONDON",
       "name": "Azule Elite"
     },
     {
-      "brand": "GENYUM",
-      "name": "Painter"
+      "brand": "LOEWE",
+      "name": "Loewe 7 Anonimo"
     },
     {
-      "brand": "RİSALA",
-      "name": "Unique Blend"
+      "brand": "LE LABO",
+      "name": "Santal 33"
     },
     {
       "brand": "CACHAREL",
       "name": "Cacharel pour L'Homme"
     },
     {
-      "brand": "ESSENTİAL PARFUMS",
-      "name": "Bois Impérial"
+      "brand": "KENZO",
+      "name": "Kenzo Homme Eau de Parfum"
+    },
+    {
+      "brand": "RİSALA",
+      "name": "Unique Blend"
+    },
+    {
+      "brand": "DKHOON EMİRATES",
+      "name": "Dkhoon Oud"
     }
   ],
   "peopleAlsoLike": [
     {
-      "brand": "ARMAF",
-      "name": "Club De Nuit Urban Elixir"
-    },
-    {
       "brand": "ESSENTİAL PARFUMS",
       "name": "Bois Impérial"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club De Nuit Urban Elixir"
     },
     {
       "brand": "ARMAF",
@@ -200,16 +233,20 @@
       "name": "Dior Homme Intense 2011"
     },
     {
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme Dylan Blue"
+    },
+    {
       "brand": "MAİSON ALHAMBRA",
       "name": "Jean Lowe Immortal"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Asad"
+      "name": "Ameer Al Oudh Intense Oud"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Ameer Al Oudh Intense Oud"
+      "name": "Asad"
     },
     {
       "brand": "ARMAF",
@@ -220,12 +257,150 @@
       "name": "Supremacy Collector's Edition Pour Homme"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas for Him"
-    },
-    {
       "brand": "MANCERA",
       "name": "Red Tobacco"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent798631",
+      "author": "val_daniel",
+      "date": "2025-11-09",
+      "text": "İlginç bir şekilde oluşturulmuş Arap kokusu. Afnan'ın güzel Tribute Blue'suna çok benziyor ve Genyum'un muhteşem Painter'ıyla aynı çizgide - koleksiyonumda var. Bu parfümü güzel olarak nitelendirebilirim.\nTüm \"doğallığına\" rağmen Avrupa tarzında bir koku. Baharatlar, aromatik bitkiler, odunsu kokular, tatlı ve hoş bir amber.\nSanırım rafıma ekleyeceğim.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.466831.jpg"
+    },
+    {
+      "id": "parent798641",
+      "author": "Th.pereira84",
+      "date": "2025-10-24",
+      "text": "Düşünün: cildinize uyguladığınızda, ilk anda bergamotun hafif ve berrak bir narenciye kokusu hissedersiniz. Ardından, koku hızla değişir: vetiver ve kaşmir ağacı kokusu ortaya çıkar ve neredeyse sofistike bir \"zarif ahşap\" dokusu getirir. Pembe biber, \"özel bir akor\" dokunuşu, baharatlı bir keskinlik katar.\nSaatler geçtikçe, amber ve misk ortaya çıkar ve \"sıcak bir iz\" bırakır — çok tatlı değil, ama rahatlatıcı, saran. Sonunda bende kalan izlenim: hem gece dışarı çıkmak hem de daha özel bir etkinlik için uygun, ama gündüz de kullanılabilen (aşırıya kaçmadan) bir parfüm.\nEğer bir puan vermem gerekirse: 0'dan 10'a kadar, 8/10 gibi bir puan verirdim, çünkü vaat ettiklerini yerine getiriyor, karakteri var ve fiyatına göre iyi bir performans sergiliyor. Şişesi çok güzel ve sunumu 10 puan!\n\nKarar: \"Ahşap + amber + misk kokularını seviyorum ve etkileyici bir şey istiyorum\" profiline uyuyorsanız, bu parfüm mükemmel bir seçim olacaktır. Daha \"güvenli\" bir şey veya çok rahat kullanım için bir şey istiyorsanız, belki \"ideal olmayan\" bir seçim olabilir.\n\nÖzetle, bu parfümü tavsiye ederim. Benzersiz ve iddialı kokuları olan parfümleri severim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.199776.jpg"
+    },
+    {
+      "id": "parent798615",
+      "author": "ScentlessApprenticeship",
+      "date": "2025-08-22",
+      "text": "Bu, karşılaştığım en baş döndürücü ve inanılmaz kokulardan biriydi. Taze bir koku ama bir şekilde odunsu ve rahatlatıcı, bu yüzden yıl boyunca kullanıma uygun. Bu serideki diğer kokular da güzel ama Desert Star hemen dikkat çekiyor ve o kadar akılda kalıcı ki, en yakın parfüm mağazasına gidip satın almadan önce haftalarca aklımdan çıkmadı.\n\nEn son üretilen partide, bir türlü alışamadığım biraz balık kokusu var. Burnumun geliştiğini ve zevkimin değiştiğini düşündüm, ama kız arkadaşım bile bunun eskisi gibi olmadığını söyledi. Bir zamanlar benim üzerimde en sevdiği kokuydu. Şimdi fena değil, ama balık tuttuğunuzda/balıkla uğraştığınızda ellerinize sinen kokuya benziyor. Tam olarak ne olduğunu anlayamıyorum, ama ne yazık ki bu koku favorilerim listesinde aşağıya düştü.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent798616",
+      "author": "Vincent Law",
+      "date": "2025-06-10",
+      "text": "WTF?\nÇocukken arkadaşlarınızla yolda oynarken her zaman kokladığınız yazın sıcak katran kokusunu hayal edin, onu taze, giyilebilir, çok yönlü ve hatta biraz seksi hale getirin.\n\nİşte Desert Star budur.\n\nÇılgın bir niş koku ve performansı muhteşem.\n\n@TripleBee 'ye cevap vermek gerekirse, Kenzo karşılaştırmasıyla ne demek istediğini anlıyorum, ancak Desert Star'da deniz kokusu hiç yok. Kenzo EDTI'nin klonu olan Wajood'a sahibim ve ikisi de aynı havayı paylaşıyor ama kokuları tamamen farklı.\n\nGüncelleme: Kız arkadaşım deniz gibi koktuğunu söylüyor, sanırım burnum bozuk lol.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1607073.jpg"
+    },
+    {
+      "id": "parent798618",
+      "author": "otteromkram",
+      "date": "2025-05-18",
+      "text": "@sürekli koleksiyoncu\n\nMacerasyonun parfüm, yağlar, alkoller vb. maddelerin karıştırılması ve bir süre bekletilmesi olduğunu doğru bir şekilde belirtmişsiniz.\n\nAncak bu işlem parfüm üreticisi tarafından yapılır, tüketici tarafından değil.\n\nTembel görünüyorsun (ne sürpriz!), bu yüzden bir parfüm distribütörünün tanımını paylaşıyorum (bağlantı en altta):\n\n\"Macerasyon nedir?\n\n\"Macerasyon, bir parfümün üretimi sırasında gerçekleşir. Bu, yağlar, alkol ve diğer bileşenler gibi tüm malzemelerin karıştırılıp bir süre bekletilmesi işlemidir. Her şeyin iyi karıştığından emin olmak için parfümün \"yerleşmesi\" olarak düşünün.\n\n\" Neden önemlidir: Macerasyon, parfümün tutarlı olmasını ve parfüm üreticisinin istediği gibi kokmasını sağlar. Macerasyon olmadan, koku keskin veya dengesiz gelebilir.\n\n\" Ne kadar sürer: Parfümün karmaşıklığına bağlı olarak genellikle birkaç hafta ila birkaç ay sürer.\n\n\"Bu işlem tamamlandıktan sonra parfüm süzülür ve şişelenir.\"\n\n\"Olgunlaşma nedir?\n\n\"Olgunlaşma, parfüm şişelendikten sonra gerçekleşir. Zamanla, kokudaki bileşenler etkileşime girmeye ve gelişmeye devam edebilir. Bu süreç, parfümün kokusunu değiştirebilir, bazen daha iyi yönde.\n\n\"Neden önemlidir: Olgunlaşma, kokuyu daha yumuşak ve zengin hale getirebilir. Bu, özellikle odun veya baharat gibi birçok doğal bileşen içeren kokularda belirgindir.\n\n\"Ne kadar sürer: Bu değişir. Bazı kokular birkaç yıl içinde güzel bir şekilde olgunlaşırken, diğerleri o kadar zarif bir şekilde yaşlanmaz.\"\n\nLütfen yanlış terim kullanmayı bırakmayı öğren, şampiyon.\n\nKaynaklar:\n\n- https://fomofragrances.com/maceration-vs-maturation-in-fragrances-whats-the-difference/",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1302803.jpg"
+    },
+    {
+      "id": "parent798627",
+      "author": "jescobao",
+      "date": "2025-04-28",
+      "text": "Bu ne olduğunu bilmiyorum, ama insanı cennete götürüyor. Parfümeriden anlamam, ama notaları ve akorları bilmeden beğendiğim şeyi alırım. Aroma bombası gibi, 4 püskürtmeyle 2 saat boyunca kokusu kalıyor, sonra kişisel auranızda sürekli esintiler halinde kalıyor. Bir şişe daha alacağım, çünkü bu parfüm olmazsa olmaz.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent798622",
+      "author": "HakkenJantje",
+      "date": "2025-04-24",
+      "text": "Tanrım, bu şey cildinizi gerçekten yakıyor, neredeyse nükleer bir performans, kesinlikle giysiler üzerinde. Bu çok iyi harmanlanmış ve şahsen bu koku profilini çok seviyorum, ama bu kadar çok iltifat beklemiyordum; bazı insanlar için biraz cesur bir koku olduğunu da tahmin edebiliyorum.\n\nBu koku, cildinizden doğrudan kokladığınızda olduğundan çok daha iyi kokuyor. Desert Star, çoğu insanın kullandığından çok farklı, ama işe yarıyor, bu kesin!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent798632",
+      "author": "Ksieciunio3231",
+      "date": "2025-04-15",
+      "text": "Muhteşem ama artık piyasadan kaldırılmış Loewe 7'nin yerine geçecek bir ürün ararken, harika bir yenilikle karşılaştım. Bu, bu yazının kahramanı. Yabancı Fragnantice sitesini ve bu ürünle ilgili yorumları okudum ve hiç tereddüt etmeden sipariş verdim. Kolay olmadı, çünkü farklı siteler Desert Star'ı sunuyor, ancak fotoğrafta Desert Star Night var, bu yüzden riske girmedim. Yabancı bir siteden sipariş verdim.\nKısaca, çünkü yazacak çok şey yok -\nAşık oldum. Bu, açılışında elma içermeyen Loewe 7. Atomik parametrelerde. Bütün gün kokusunu hissettim. Ama rahatsız edici değildi. Öğlen 11'de 5 dozajladım ve 23:00'da işten döndüğümde eşim bana ne koktuğumu sordu :-)\n\nBu kokuyu kimin yarattığını bilmiyorum, ama Quentin olsa şaşırmazdım...\nSıcak tavsiye ederim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.15986.jpg"
+    },
+    {
+      "id": "parent798628",
+      "author": "ManucoSeven",
+      "date": "2025-03-15",
+      "text": "Aslında, Montblanc'ın Black Meisterstück'üne çok benziyor. Loewe 7'nin sabunsu kokusuna da sahip ama Loewe, tütsü ve ultra ferah notasıyla çok keskin ve gürültülü (hoşuma gitmiyor).\n\nStar, Montblanc'ın sahip olduğu tütsü havasına sahip, zarif ve odunsu bir koku. Birbirlerine çok benziyorlar, ancak bu armaf bana daha yeşil ve ferah geliyor (keskin ve gürültülü değil), Montblanc ise daha gösterişli ve narin. Bence Paskalya haftasında kullanmak için mükemmel bir parfüm ve her mevsim, gündüz ve gece için çok çekici.\n\nSantal serisini takip ettiğini sanmıyorum, bu parfümün benzerleri veya kopyaları nedeniyle odunsu yönünü anlıyorum, ancak Armaf ve Montblanc koyu, yeşilimsi ve tütsü kokulu. (Desert Star bunu belirtmese de, Armaf ve Montblanc arasındaki farkın burada olduğunu düşünüyorum. Tütsü olsaydı, Montblanc gibi biraz daha opak ve muhteşem olurdu, ama bir şekilde oldukça iyi bir şekilde notayı taklit ediyor) ve Santal 33 taze, zengin ve çiçeksi bir odunsu parfüm.\n\nGenel olarak, parfüm çok yönlü ve zariftir. Bentley absolute (bu çok kirli) gibi odunsu, yeşil ve koyu kokuları seviyorsanız, temiz sandal ağacı kokulu herhangi bir parfüm, tf oud wood, ysl ultime, HB parfum, loewe'nin tütsü serisi vb. (odunsu kokular) bu parfümü körü körüne satın alabilirsiniz.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.212312.jpg"
+    },
+    {
+      "id": "parent798621",
+      "author": "NeroliCannoli",
+      "date": "2025-01-01",
+      "text": "İlk başta kafam karıştı, ilk sıktığımda neredeyse hiçbir koku almadım ama koku bütün gün giysilerimde kaldı. Orta Doğu kokularının şişeye oksijen girdikten sonra biraz zaman geçmesi gerektiğini biliyorum. Odunsu ve baharatlı bir kaşmir kokusu, çok doğrusal olmasına rağmen yine de çok güzel. Bu baharatlı koku, neredeyse kremsi kaşmir odunu ile çok iyi uyum sağlıyor ve hafif toprak kokulu Vetiver ile dengeleniyor. Çok güzel!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2156139.jpg"
+    },
+    {
+      "id": "parent798620",
+      "author": "talcumcouture",
+      "date": "2024-09-23",
+      "text": "Benim gibi Dior Homme 2020'nin alternatifi olarak bu parfümü satın almayı planlıyorsanız, hayal kırıklığına uğrayabilirsiniz. Ancak açıkçası, Desert Star'ı gittikçe daha fazla kullandıkça, aldığım bolca iltifatlar nedeniyle bu parfümün cazibesine kapıldım.\n\nDior Homme 2020'nin kitlelere hitap eden, şık, temiz ve odunsu profilinden farklı olarak, bu koku çok yeşil, miskli, dumanlı, muhtemelen vintage ve vetiver ağırlıklıdır, bazıları için alışılması gereken bir koku olabilir.\n\nSadece ilgi ve iltifatları düşünürsek (kim bazen düşünmez ki), sınırsız performansı ve erkeksi koku profili nedeniyle, benimle aynı sonuçları alacağınızdan şüphem yok.\n\nVetiver, yosunlu ve koyu odunsu yönleri en parlak şekilde ortaya çıktığı için bu kokunun ön planda yer alıyor, ancak fazla sıkıldığında baş ağrısına neden olabilir. Lattafa Ameer Al Oudh'da da bulunan, neredeyse dumanlı bir tütsü notası kalıyor. Kaşmir, kuruma süreci boyunca keskin kenarları bir araya getiriyor ve olgunlaşan kuruma, açılış kokusundan daha ulaşılabilir bir koku yaratıyor.\n\n40 dolarlık fiyatına göre şişe ve ambalajı çok güzel, estetik açıdan Christian Clive atomizer kapağını hatırlatıyor. Atomizer ortalama, manyetik kapak yok, güzel kutu ve hoş bir ağırlık hissi, dikkate alınması gereken diğer notlar.\n\nDüzenleme: Vetiver ve tütsü, günümüzün ağır vanilya bazlı kokularına kıyasla çok benzersiz olduğu için bu kokuyu giderek daha fazla seviyorum. Dior Homme Intense'den birkaç sprey ile karıştırmayı seviyorum, bu ikisinin de pudra notalarını artırıyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1787345.jpg"
+    },
+    {
+      "id": "parent798626",
+      "author": "Agarza",
+      "date": "2024-08-31",
+      "text": "Neden hala kimse bu parfümden bahsetmiyor anlamıyorum, bir decant aldım ve kokladığım anda tam şişeyi almaya karar verdim, dün decant'ı kullandım çünkü tabii ki tam şişe ve bir sürü iltifat gelene kadar bundan yararlanmak lazım. Sabah 6'da sürdüm ve akşam 9'a kadar mükemmel bir koku yaydı. Umarım bunu deneyen herkesin de benim kadar uzun süre kokusu kalır. Kokusu 10/10, ferah, miskli, temiz ve odunsu, çok yönlü ve onu kullananların ve çevrenizdekilerin çok seveceği bir koku.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent798619",
+      "author": "Vlam",
+      "date": "2024-08-15",
+      "text": "Artık bir parfümün popüler hale gelmeden önce nasıl bir his olduğunu biliyorum. İlk kez, YouTube'da 1 İngilizce yorum ve Fragrantica'da 1 yorum bulunan bir parfümü körü körüne satın aldım.\n\nNqobie, buradaki yorumun o kadar ilgi çekiciydi ki, satın almaya karar verdim ve tamamen hayran kaldım. Armaf'ın bu kadar kaliteli bir parfüm üretebileceğini bilmiyordum ve o şişe, VAY CANINA (genelde sunuma önem vermeyen biri olarak söylüyorum).\n\n\"Bana şunu hatırlatıyor\" bölümünden Dior Home 2020'nin bir örneğini aldım ve bazı benzerlikler görebiliyorum ama bu çok daha iyi! Torino 21'i koklamadım ama Bibbi Swimming Pool'u uzun zaman önce koklamıştım. Kesinlikle misk kokulu, neredeyse kremsi pürüzsüzlükte ve bazı odunsu kokular da var. Torino 21 ve Bibbi Swimming Pool'un notalarına baktığımda çok yeşil bir koku bekliyordum ama Armaf Desert Star, yeşil kokmadan yeşil bir his uyandırdı, eğer bu mantıklı geliyorsa.\n\nBunu daha fazla kullanmak için sabırsızlanıyorum ve ilk kez bir parfümün yedek şişesini almayı düşünüyorum. Bu parfümün kalıcılığını ve yayılmasını test etmem gerekiyor, ama ilk izlenimlerim oldukça iyiydi ve duştan sonra bile kokusunu hala alabiliyorum.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1223589.jpg"
+    },
+    {
+      "id": "parent798617",
+      "author": "Nqobie0303",
+      "date": "2024-08-07",
+      "text": "Hiçbir zaman bir parfümden bir günde bu kadar çok iltifat almamıştım. Tabii ki, bu parfümü denedikten sonra, başka bir niş parfüm seçtiğim için onu dükkanda bıraktım ve işe giderken arabada güneş doğrudan yüzüme vuruyordu ve bu parfüm burnumda patlamaya başladı. O anda inanamadım. Çok etkilenmiş ve şaşırmıştım. Arkamı döndüm ve dükkana geri dönüp onu satın aldım, çünkü onu orada bırakırsam kendimi affetmeyeceğimi biliyordum. Ertesi gün heyecanla onu işe giderken sürdüm, kışın yoğun havasında kokusu duyulmayabilir diye düşündüm, ama duyuldu, belki de sıcaklık 22°C'nin altında olmasına rağmen güneşli olduğu içindi. Resepsiyonist bayan, resepsiyondan koridora ve ofisime kadar koku izi bıraktığımı söyledi. O anda anladım; aradığım parfüm buydu. Gün ilerledikçe, karşılaştığım her insandan övgü aldım. Dürüst olmak gerekirse, 11 övgü aldım ve ertesi gün iki iş arkadaşım bana dün ne sürdüğünü sordu. İlk kez bir parfümü saklamak istediğimi fark ettim, ki bu nadiren yaptığım bir şeydir.\n\nPerformansından bahsedelim Koku beklediğimden çok daha uzun süre kaldı ve gece bile hala övgüler alıyordum; 9 püskürtmeyle 12 saatten fazla sürdü. Aromatik odunsu bir koku olması hoşuma gitti ve eklemem gerekirse, parfüm danışmanı, kolumda test ettikten sonra kokusunu aldıktan sonra bana Xerjof'un Torino 21'ini önerdi ve Desert Star'ı kağıt şeritte test ettiğimde, bunun Torino DNA'sının bir varyasyonu olduğunu söyleyebiliriz. Bu, 2024'ün en iyi satın alımlarından ve keşiflerinden biri olmalı. Bunu gerçekten keyifle kullanmak için bahar ve yazın gelmesini sabırsızlıkla bekliyorum. Kokusu benim burnuma unisex gibi geliyor ama biraz erkeklere daha uygun. Armaf bu parfümde harika bir iş çıkarmış; bu parfüm mükemmellikten başka bir şey değil ve beyler, bu fırsatı kaçırmayın.\n\nNot: Bibbi Paris'in yüzme havuzu DNA'sını da alacağım.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1480684.jpg"
     }
   ]
 }

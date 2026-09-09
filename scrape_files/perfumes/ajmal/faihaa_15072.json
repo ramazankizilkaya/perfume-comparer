@@ -27,15 +27,15 @@
       "width": "77.5471%"
     },
     {
-      "name": "amber",
-      "width": "66.9811%"
-    },
-    {
       "name": "beyaz çiçeksi",
       "width": "66.9811%"
     },
     {
       "name": "meyvemsi",
+      "width": "66.9811%"
+    },
+    {
+      "name": "amber",
       "width": "66.9811%"
     },
     {
@@ -47,8 +47,32 @@
       "width": "54.566%"
     },
     {
-      "name": "metalik",
+      "name": "pudralı",
       "width": "53.7736%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,7 +108,8 @@
     "base": [
       "Agar ağacı (Oud)",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -114,5 +139,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

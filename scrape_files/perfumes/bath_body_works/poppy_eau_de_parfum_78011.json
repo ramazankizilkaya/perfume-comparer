@@ -31,11 +31,11 @@
       "width": "69.0698%"
     },
     {
-      "name": "aromatik",
+      "name": "taze baharatlı",
       "width": "54.4186%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "aromatik",
       "width": "54.4186%"
     },
     {
@@ -45,6 +45,34 @@
     {
       "name": "pudralı",
       "width": "44.6512%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -59,7 +87,7 @@
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "2",
     "spring": "27",
     "summer": "27",
     "autumn": "2",
@@ -69,7 +97,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Armut",
+      "Haşhaş",
+      "Ravent",
+      "Çiy damlası"
+    ]
   },
   "longevity": {
     "veryWeak": "5",
@@ -124,12 +158,12 @@
       "name": "Red Poppies"
     },
     {
-      "brand": "ARİANA GRANDE",
-      "name": "Mod Blush"
-    },
-    {
       "brand": "VİNCE CAMUTO",
       "name": "Wonderbloom"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Mod Blush"
     },
     {
       "brand": "DOLCE&GABBANA",
@@ -213,5 +247,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Sunset Glow"
     }
-  ]
+  ],
+  "comments": []
 }

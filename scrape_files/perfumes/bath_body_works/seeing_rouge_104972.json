@@ -63,7 +63,7 @@
     }
   },
   "seasons": {
-    "winter": "32",
+    "winter": "33",
     "spring": "24",
     "summer": "29",
     "autumn": "39",
@@ -73,97 +73,42 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Amber",
+      "Safran",
+      "Yosun",
+      "Siyah Frenk Üzümü"
+    ]
   },
   "longevity": {
-    "veryWeak": "10",
-    "weak": "12",
-    "moderate": "24",
-    "longLasting": "4",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "20",
-    "moderate": "24",
-    "strong": "4",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "9",
-    "moreFemale": "22",
-    "unisex": "22",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "3",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "21",
-    "goodValue": "20",
-    "greatValue": "16"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Baccarat Rouge 540"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "In The Stars"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Seeing Rouge"
-    },
-    {
-      "brand": "ARİANA GRANDE",
-      "name": "Cloud"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "In The Stars"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '68"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Rouge Rebel"
-    },
-    {
-      "brand": "FİNE'RY.",
-      "name": "The New Rouge"
-    },
-    {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Baccarat Rouge 540 Extrait de Parfum"
-    },
-    {
-      "brand": "SALT & STONE",
-      "name": "Saffron & Cedar"
-    },
-    {
-      "brand": "ARİANA GRANDE",
-      "name": "Cloud Intense"
-    },
-    {
-      "brand": "ARİANA GRANDE",
-      "name": "Mod Vanilla"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Red Zara Temptation Nectar"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Amber Blush"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Rouge Rebel Cologne Mist"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -203,6 +148,10 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Platinum"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Midnight Addiction"
     },
     {
@@ -220,10 +169,7 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Pistachio Glaze"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Yara"
     }
-  ]
+  ],
+  "comments": []
 }

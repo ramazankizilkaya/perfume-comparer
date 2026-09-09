@@ -33,6 +33,34 @@
     {
       "name": "taze",
       "width": "44.1256%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -68,33 +96,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "3",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NAUTİCA",
+      "name": "Nautica Voyage"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Platinum"
+    },
+    {
+      "brand": "BOND NO 9",
+      "name": "Beekman Place"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ABERCROMBİE & FİTCH",
@@ -151,6 +192,42 @@
     {
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
+    }
+  ],
+  "comments": [],
+  "article": "Abercrombie & Fitch parfüm ve kolonya koleksiyonunun maskülen ve karakteristik üyesi olan A & F 1892 Cobalt Abercrombie & Fitch incelemesi ile karşınızdayız. Odunsu ve aromatik koku ailesinin başarılı bir temsilcisi olan bu Edp, modern erkeğin doğayla olan bağını şehirli bir dinamizmle harmanlıyor. Koku piramidi ve teknik detaylarıyla parfüm severlerin radarında olan bu eseri, kıdemli bir parfümör gözüyle tüm yönleriyle ele alıyoruz.\n\n## Koku Profili ve Açılış Notaları\nA & F 1892 Cobalt Abercrombie & Fitch notaları incelendiğinde, açılışın canlandırıcı narenciye dokunuşlarıyla yapıldığı görülür. İlk sıktığınız anda sizi karşılayan ferah ve enerjik narenciye dalgası, kısa sürede yerini daha derin ve maskülen bir kalbe bırakır. Orta notada yer alan vetiver, kompozisyona topraksi ve yeşil bir karakter kazandırırken, bu geçiş parfümün odunsu kimliğinin inşasında köprü görevi görür. Dip notalarda yer alan meşe yosunu ve sedir ise kokuya derinlik, ağırlık ve güçlü bir kalıcılık katmaktadır.\n\n## Kalıcılık, Yayılım ve Performans Değerlendirmesi\nBir parfümün başarısını belirleyen en önemli unsurlardan biri olan A & F 1892 Cobalt Abercrombie & Fitch kalıcılığı, EDP konsantrasyonunun hakkını veren bir performans sergiler. Topluluk oylamalarına göre orta ile kalıcı arasında değişen bir kalıcılık sunarken, yayılım (silaj) konusunda oldukça iddialıdır. Güçlü ve yoğun yayılım profili sayesinde ortamda kendinizi kolayca fark ettirmenizi sağlar. Sıcak yaz günlerinde dahi dengesini kaybetmeyen yapısı, performansını gün boyu korumasına olanak tanır.\n\n## Kimler ve Hangi Ortamlar İçin Uygun?\nBu özel koku, özellikle yaz mevsiminde gündüz kullanımına son derece uygundur. Bununla birlikte, güçlü yayılımı sayesinde gece buluşmalarında ve sosyal ortamlarda da rahatlıkla tercih edilebilir. Odunsu, toprak ve yosunlu ana akorlarıyla kendine güvenen, maskülen ve net bir imaj çizmek isteyen erkekler için ideal bir imza koku adaydır.\n\n## Gerçek Kullanıcı Görüşleri ve Genel İzlenim\nGerçek kullanıcı yorumları ve istatistiksel veriler incelendiğinde, parfümün narenciye ve vetiver dengesinin beğeni topladığı görülmektedir. 5 üzerinden 3.50 gibi dengeli bir puana sahip olan A & F 1892 Cobalt, özellikle taze ve odunsu parfümleri seven koleksiyonerlerin dikkatini çekmektedir. Sıra dışı yapısı ve karakterli duruşuyla parfüm gardırobunuzda mutlaka yer vermeniz gereken alternatiflerden biridir.",
+  "faq": [
+    {
+      "question": "A & F 1892 Cobalt Abercrombie & Fitch hangi markaya aittir?",
+      "answer": "A & F 1892 Cobalt Abercrombie & Fitch, adını aldığı Amerikan moda markası Abercrombie & Fitch'in parfüm ve kolonya koleksiyonuna aittir."
+    },
+    {
+      "question": "A & F 1892 Cobalt Abercrombie & Fitch hangi yıl piyasaya sürülmüştür ve tasarımcısı (parfümörü) kimdir?",
+      "answer": "Bu parfüm 2011 yılında piyasaya sürülmüştür. Tasarımcısına (parfümörüne) dair resmi ve net bir bilgi üretici marka tarafından paylaşılmamıştır."
+    },
+    {
+      "question": "A & F 1892 Cobalt Abercrombie & Fitch parfümünün konsantrasyonu (esans tipi) nedir?",
+      "answer": "A & F 1892 Cobalt, Eau de Parfum (Edp) konsantrasyonuna sahiptir; bu da ortalamanın üzerinde esans yoğunluğu barındırdığını gösterir."
+    },
+    {
+      "question": "A & F 1892 Cobalt Abercrombie & Fitch hangi mevsime ve hava şartlarına uygundur?",
+      "answer": "Kullanıcı oyları ve koku profili göz önüne alındığında, özellikle yaz mevsiminde ve sıcak hava koşullarında en iyi performansını sergilemektedir."
+    },
+    {
+      "question": "A & F 1892 Cobalt Abercrombie & Fitch parfümünün kalıcılığı ve yayılımı (silajı) ne kadardır?",
+      "answer": "Parfüm orta ile uzun süreli bir kalıcılığa sahip olup, güçlü ila devasa (enormous) arasında değişen oldukça iddialı bir yayılım silajı sunar."
+    },
+    {
+      "question": "A & F 1892 Cobalt Abercrombie & Fitch hangi ortamlarda ve yaş gruplarında tercih edilmelidir?",
+      "answer": "Hem gündüz kullanımına hem de gece aktivitelerine uygun olan bu koku, dinamik ve modern tarzı benimseyen genç ve orta yaş aralığındaki erkekler için idealdir."
+    },
+    {
+      "question": "A & F 1892 Cobalt Abercrombie & Fitch hangi parfümlere benzer ve koku karakteri nasıldır?",
+      "answer": "Odunsu, toprak, yosunlu ve aromatik ana akorlara sahip olan parfüm; taze narenciye açılışı, vetiver kalbi ve sedir-meşe yosunu dip notalarıyla klasik odunsu parfümlerin modern bir yorumudur."
+    },
+    {
+      "question": "A & F 1892 Cobalt Abercrombie & Fitch kör alışa (denemeden almaya) uygun bir parfüm müdür?",
+      "answer": "Vetiver ve meşe yosunu gibi topraksi notalar ağırlıkta olduğu için, odunsu ve aromatik parfümleri sevenlerin denemeden alması risk içerebilir; ancak taze odunsu kokuları sevenler için güvenli bir alternatiftir."
     }
   ]
 }

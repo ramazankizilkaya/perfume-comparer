@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15107.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Verve-15107.html",
   "brand": "Ajmal parfüm ve kolonya",
-  "description": "Ajmal markasının Verve parfümü, kadınlar için Odunsu Baharatlı bir kokudur. Verve, 2008 yılında piyasaya sürüldü. Üst notalar: Su ve Narenciye; orta notalar: Baharatlı notalar ve Çiçeksi Notalar; alt notalar Odunsu Notlar ve Ambergris.",
-  "description_original": "Ajmal markasının Verve parfümü, kadınlar için Odunsu Baharatlı bir kokudur. Verve, 2008 yılında piyasaya sürüldü. Üst notalar: Su ve Narenciye; orta notalar: Baharatlı notalar ve Çiçeksi Notalar; alt notalar Odunsu Notlar ve Ambergris.",
-  "description_enhanced": "Ajmal markasının Verve parfümü, kadınlar için Odunsu Baharatlı bir kokudur. Verve, 2008 yılında piyasaya sürüldü. Üst notalar: Su ve Narenciye; orta notalar: Baharatlı notalar ve Çiçeksi Notalar; alt notalar Odunsu Notlar ve Ambergris.",
+  "description": "Ajmal markasının Verve parfümü, kadınlar için Odunsu Baharatlı bir kokudur. Verve, 2008 yılında piyasaya sürüldü. Üst notalar: Su Notaları ve Narenciye; orta notalar: Baharatlar ve Çiçeksi Notalar; alt notalar Odunsu Notalar ve Ambergris.",
+  "description_original": "Ajmal markasının Verve parfümü, kadınlar için Odunsu Baharatlı bir kokudur. Verve, 2008 yılında piyasaya sürüldü. Üst notalar: Su Notaları ve Narenciye; orta notalar: Baharatlar ve Çiçeksi Notalar; alt notalar Odunsu Notalar ve Ambergris.",
+  "description_enhanced": "Ajmal markasının Verve parfümü, kadınlar için Odunsu Baharatlı bir kokudur. Verve, 2008 yılında piyasaya sürüldü. Üst notalar: Su Notaları ve Narenciye; orta notalar: Baharatlar ve Çiçeksi Notalar; alt notalar Odunsu Notalar ve Ambergris.",
   "mainAccords": [
     {
       "name": "odunsu",
@@ -19,16 +19,40 @@
       "width": "67.6923%"
     },
     {
-      "name": "taze",
+      "name": "sıcak baharatlı",
       "width": "48.8462%"
     },
     {
-      "name": "sıcak baharatlı",
+      "name": "taze",
       "width": "48.8462%"
     },
     {
       "name": "amber",
       "width": "46.1538%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -52,17 +76,18 @@
   },
   "notes": {
     "top": [
-      "Su",
+      "Su Notaları",
       "Narenciye"
     ],
     "middle": [
-      "Baharatlı notalar",
+      "Baharatlar",
       "Çiçeksi Notalar"
     ],
     "base": [
-      "Odunsu Notlar",
+      "Odunsu Notalar",
       "Ambergris"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -153,5 +178,6 @@
       "brand": "ALREHAB PERFUMES",
       "name": "Khaliji"
     }
-  ]
+  ],
+  "comments": []
 }

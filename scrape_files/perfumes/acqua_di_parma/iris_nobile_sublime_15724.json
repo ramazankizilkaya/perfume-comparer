@@ -45,6 +45,34 @@
     {
       "name": "çiçeksi",
       "width": "44.9855%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -59,7 +87,7 @@
     }
   },
   "seasons": {
-    "winter": "35",
+    "winter": "36",
     "spring": "64",
     "summer": "32",
     "autumn": "50",
@@ -81,7 +109,8 @@
       "Huş",
       "Siyah akasya",
       "Sedir"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "4",
@@ -193,5 +222,6 @@
       "brand": "BOTTEGA VENETA",
       "name": "Bottega Veneta"
     }
-  ]
+  ],
+  "comments": []
 }

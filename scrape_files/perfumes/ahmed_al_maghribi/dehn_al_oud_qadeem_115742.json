@@ -17,6 +17,30 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -41,13 +65,16 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Hint Oud"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
     "moderate": "1",
-    "longLasting": "2",
+    "longLasting": "3",
     "eternal": "4"
   },
   "sillage": {
@@ -110,12 +137,12 @@
       "name": "Shaghaf Oud Elixir"
     },
     {
-      "brand": "AHMED AL MAGHRİBİ",
-      "name": "Bin Shaikh"
-    },
-    {
       "brand": "SWİSS ARABİAN",
       "name": "Shaghaf Oud Azraq"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Zumar"
     },
     {
       "brand": "PARFUMS DUSİTA",
@@ -130,16 +157,17 @@
       "name": "Luxor"
     },
     {
-      "brand": "ALFRED DUNHİLL",
-      "name": "Century"
-    },
-    {
       "brand": "AJMAL",
       "name": "Qasida Dahabia"
     },
     {
       "brand": "SERGE LUTENS",
       "name": "Muscs Koublai Khan"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Alf Lail o Lail"
     }
-  ]
+  ],
+  "comments": []
 }

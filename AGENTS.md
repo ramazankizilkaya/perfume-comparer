@@ -20,7 +20,7 @@ Goal: keep the implementation simple, extensible and clean (SoC, no spaghetti).
 - **ADVISE-FIRST RULE:** a reported issue does not automatically mean a fix is needed. Read the code, diagnose, advise. Prefer pointing the user to the fix so they can solve it themselves. The more you touch code, the sooner it breaks.
 - **COMMIT RULE:** never `git commit` / `git push` without direct permission.
 - **CLEANUP RULE:** leave no temp files, debug scripts, or screenshots behind.
-- **TESTING RULE:** once a change is approved and applied, verify it — run the affected script or page. Before committing, always run `npm run build` in the frontend.
+- **TESTING RULE:** once a change is approved and applied, verify it — run the affected script or page. Bundan sonra yapılan her değişiklik için eğer testle cover edilmediyse mutlaka test eklenecek (API testleri `tests/api-test` altında; ileride UI testleri eklendiğinde aynı kural UI için de geçerli olacaktır). Before committing, always run `npm run build` in the frontend and run tests in `tests/api-test`.
 
 ## Product Summary
 - Users browse, search and compare perfumes: notes, accords, ratings, longevity, sillage, season/time-of-day voting.

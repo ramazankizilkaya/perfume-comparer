@@ -6,16 +6,16 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88084.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Golden-Berry-Mistletoe-88084.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Golden Berry Mistletoe parfümü, kadınlar için Aromatik Meyvemsi bir kokudur. Golden Berry Mistletoe, 2023 yılında piyasaya sürüldü. Kokuda Kırmızı meyveler, Şeker, Ladin ve Dağ havası notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Golden Berry Mistletoe parfümü, kadınlar için Aromatik Meyvemsi bir kokudur. Golden Berry Mistletoe, 2023 yılında piyasaya sürüldü. Kokuda Kırmızı meyveler, Şeker, Ladin ve Dağ havası notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Golden Berry Mistletoe parfümü, kadınlar için Aromatik Meyvemsi bir kokudur. Golden Berry Mistletoe, 2023 yılında piyasaya sürüldü. Kokuda Kırmızı meyveler, Şeker, Ladin ve Dağ havası notaları bulunur.",
+  "description": "Bath & Body Works markasının Golden Berry Mistletoe parfümü, kadınlar için Aromatik Meyvemsi bir kokudur. Golden Berry Mistletoe, 2023 yılında piyasaya sürüldü. Kokuda Kırmızı meyveler, Şeker, Köknar ve Dağ havası notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Golden Berry Mistletoe parfümü, kadınlar için Aromatik Meyvemsi bir kokudur. Golden Berry Mistletoe, 2023 yılında piyasaya sürüldü. Kokuda Kırmızı meyveler, Şeker, Köknar ve Dağ havası notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Golden Berry Mistletoe parfümü, kadınlar için Aromatik Meyvemsi bir kokudur. Golden Berry Mistletoe, 2023 yılında piyasaya sürüldü. Kokuda Kırmızı meyveler, Şeker, Köknar ve Dağ havası notaları bulunur.",
   "mainAccords": [
     {
-      "name": "meyvemsi",
+      "name": "tatlı",
       "width": "100%"
     },
     {
-      "name": "tatlı",
+      "name": "meyvemsi",
       "width": "100%"
     },
     {
@@ -48,14 +48,14 @@
     }
   ],
   "rating": {
-    "score": "3.62",
+    "score": "3.61",
     "votesCount": "90",
     "breakdown": {
       "love": "22",
       "like": "38",
       "ok": "10",
-      "dislike": "14",
-      "hate": "6"
+      "dislike": "13",
+      "hate": "7"
     }
   },
   "seasons": {
@@ -69,77 +69,42 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kırmızı meyveler",
+      "Şeker",
+      "Köknar",
+      "Dağ havası"
+    ]
   },
   "longevity": {
-    "veryWeak": "8",
-    "weak": "24",
-    "moderate": "12",
-    "longLasting": "2",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "12",
-    "moderate": "12",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "16",
-    "moreFemale": "20",
-    "unisex": "12",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "10",
-    "goodValue": "24",
-    "greatValue": "12"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Peace Iced Raspberry Bellini"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Champagne Toast"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Winterberry Wonder"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Merry Berry Christmans"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Bright Christmas Morning"
-    },
-    {
-      "brand": "BRÛMÉE",
-      "name": "Pine Tree + Vetiver"
-    },
-    {
-      "brand": "BODYCOLOGY",
-      "name": "Moonlight Berries"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Into The Night"
-    },
-    {
-      "brand": "ELLİS BROOKLYN",
-      "name": "Apres"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Carioca Crush"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -182,12 +147,12 @@
       "name": "Winter Candy Apple"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Butterfly"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Butterfly"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -201,5 +166,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Cozy Vanilla Bourbon"
     }
-  ]
+  ],
+  "comments": []
 }

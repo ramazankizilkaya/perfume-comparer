@@ -1,7 +1,7 @@
 {
   "name": "Faith Al Haramain Perfumes",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Floral",
+  "fragranceFamily": "Gourmand",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.19808.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Al-Haramain-Perfumes/Faith-19808.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Al Haramain Perfumes markasının Faith parfümü, kadınlar için Çiçeksi bir kokudur. Kokuda Çiçeksi Notalar, Tatlı Notlar ve Deniz Notaları notaları bulunur.",
   "mainAccords": [
     {
-      "name": "çiçeksi",
+      "name": "tatlı",
       "width": "100%"
     },
     {
-      "name": "tatlı",
+      "name": "çiçeksi",
       "width": "100%"
     },
     {
@@ -33,6 +33,34 @@
     {
       "name": "sulu",
       "width": "46.8%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -57,7 +85,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Çiçeksi Notalar",
+      "Tatlı Notlar",
+      "Deniz Notaları"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -92,5 +125,6 @@
       "name": "Haramain Signature Rose Gold"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

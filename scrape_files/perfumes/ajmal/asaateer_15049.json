@@ -49,6 +49,30 @@
     {
       "name": "çiçeksi",
       "width": "52.9091%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,7 +110,8 @@
       "Meşe yosunu",
       "Vetiver",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -182,5 +207,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

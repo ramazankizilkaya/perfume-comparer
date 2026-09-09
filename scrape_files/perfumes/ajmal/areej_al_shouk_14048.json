@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "misk",
+      "name": "odunsu",
       "width": "77.2093%"
     },
     {
-      "name": "odunsu",
+      "name": "misk",
       "width": "77.2093%"
     },
     {
@@ -29,6 +29,30 @@
     {
       "name": "pudralı",
       "width": "53.6047%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +77,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Çiçeksi Notalar",
+      "Baharatlar",
+      "Misk",
+      "Odunsu Notalar"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -144,5 +174,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -29,6 +29,34 @@
     {
       "name": "menekşe",
       "width": "43.8961%"
+    },
+    {
+      "name": "Online satın alın 7 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "15",
+    "winter": "16",
     "spring": "72",
     "summer": "60",
     "autumn": "30",
@@ -65,7 +93,8 @@
     "base": [
       "Misk",
       "Vanilya"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "5",
@@ -116,6 +145,10 @@
       "name": "Acqua di Parma Iris Nobile Edizione Speciale 2008"
     },
     {
+      "brand": "NOBİLE 1942",
+      "name": "Pontevecchio W"
+    },
+    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Trench"
     },
@@ -138,10 +171,6 @@
     {
       "brand": "BALENCİAGA",
       "name": "Balenciaga Paris"
-    },
-    {
-      "brand": "NOBİLE 1942",
-      "name": "Pontevecchio W"
     },
     {
       "brand": "ACQUA Dİ PARMA",
@@ -217,5 +246,6 @@
       "brand": "CHANEL",
       "name": "Coco Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

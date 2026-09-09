@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "amber",
+      "name": "misk",
       "width": "57.0968%"
     },
     {
-      "name": "misk",
+      "name": "amber",
       "width": "57.0968%"
     },
     {
@@ -41,25 +41,53 @@
     {
       "name": "taze",
       "width": "46.7097%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.87",
-    "votesCount": "95",
+    "score": "3.89",
+    "votesCount": "97",
     "breakdown": {
-      "love": "36",
+      "love": "38",
       "like": "30",
-      "ok": "14",
-      "dislike": "11",
+      "ok": "13",
+      "dislike": "12",
       "hate": "4"
     }
   },
   "seasons": {
     "winter": "24",
     "spring": "48",
-    "summer": "30",
+    "summer": "29",
     "autumn": "35",
-    "day": "36",
+    "day": "37",
     "night": "18"
   },
   "notes": {
@@ -75,7 +103,8 @@
     "base": [
       "Amber",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
@@ -100,7 +129,7 @@
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "5",
-    "fair": "14",
+    "fair": "13",
     "goodValue": "32",
     "greatValue": "17"
   },
@@ -130,20 +159,32 @@
       "name": "Hibiscus Mahajád"
     },
     {
-      "brand": "LPDO",
-      "name": "Rose Sensuelle"
+      "brand": "MONTALE",
+      "name": "Intense Roses Musk"
     },
     {
-      "brand": "ZARA",
-      "name": "Rose Gourmand For Her"
+      "brand": "LPDO",
+      "name": "Rose Sensuelle"
     },
     {
       "brand": "BYREDO",
       "name": "Rose Of No Man's Land"
     },
     {
+      "brand": "ZARA",
+      "name": "Rose Gourmand For Her"
+    },
+    {
       "brand": "SWİSS ARABİAN",
       "name": "Crystal Rose"
+    },
+    {
+      "brand": "LPDO",
+      "name": "Vanitose"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Lovely Garden"
     },
     {
       "brand": "SWİSS ARABİAN",
@@ -152,18 +193,6 @@
     {
       "brand": "ALEXANDRİA FRAGRANCES",
       "name": "Accent"
-    },
-    {
-      "brand": "CHLOÉ",
-      "name": "Chloé Roses de Chloé"
-    },
-    {
-      "brand": "MANCERA",
-      "name": "Lovely Garden"
-    },
-    {
-      "brand": "MANCERA",
-      "name": "Roses Greedy"
     }
   ],
   "peopleAlsoLike": [
@@ -174,6 +203,10 @@
     {
       "brand": "ARMAF",
       "name": "Club de Nuit White Imperiale"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Delina"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -201,10 +234,6 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Musamam White Intense"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
       "name": "Yara"
     },
     {
@@ -227,5 +256,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

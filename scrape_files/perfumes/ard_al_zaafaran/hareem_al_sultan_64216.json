@@ -31,11 +31,11 @@
       "width": "69.9801%"
     },
     {
-      "name": "gül",
+      "name": "odunsu",
       "width": "64.8257%"
     },
     {
-      "name": "odunsu",
+      "name": "gül",
       "width": "64.8257%"
     },
     {
@@ -49,25 +49,53 @@
     {
       "name": "çikolata",
       "width": "57.8607%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.03",
-    "votesCount": "229",
+    "score": "4.02",
+    "votesCount": "232",
     "breakdown": {
       "love": "81",
-      "like": "97",
-      "ok": "32",
+      "like": "98",
+      "ok": "33",
       "dislike": "16",
-      "hate": "3"
+      "hate": "4"
     }
   },
   "seasons": {
     "winter": "37",
-    "spring": "102",
-    "summer": "84",
+    "spring": "103",
+    "summer": "85",
     "autumn": "52",
-    "day": "106",
+    "day": "108",
     "night": "43"
   },
   "notes": {
@@ -81,18 +109,19 @@
     "base": [
       "Vanilya",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "9",
-    "weak": "25",
-    "moderate": "63",
+    "weak": "26",
+    "moderate": "62",
     "longLasting": "30",
     "eternal": "4"
   },
   "sillage": {
     "intimate": "25",
-    "moderate": "63",
+    "moderate": "62",
     "strong": "20",
     "enormous": "4"
   },
@@ -106,7 +135,7 @@
   "priceVoting": {
     "wayOverpriced": "6",
     "overpriced": "2",
-    "fair": "32",
+    "fair": "33",
     "goodValue": "43",
     "greatValue": "79"
   },
@@ -124,6 +153,10 @@
       "name": "Blush for Her"
     },
     {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Hareem Al Sultan Milky Water"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Mahasin Crystal"
     },
@@ -132,16 +165,20 @@
       "name": "La Vie est Belle L'Éclat"
     },
     {
-      "brand": "ARD AL ZAAFARAN",
-      "name": "Hareem Al Sultan Milky Water"
+      "brand": "TİZİANA TERENZİ",
+      "name": "Andromeda"
     },
     {
       "brand": "AL HARAMAİN PERFUMES",
       "name": "Junoon Rose"
     },
     {
-      "brand": "TİZİANA TERENZİ",
-      "name": "Andromeda"
+      "brand": "GUERLAİN",
+      "name": "Idylle"
+    },
+    {
+      "brand": "LAVERNE",
+      "name": "Miss Laverne"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -152,20 +189,12 @@
       "name": "Pink Suede"
     },
     {
-      "brand": "LAVERNE",
-      "name": "Miss Laverne"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Idylle"
-    },
-    {
       "brand": "EX NİHİLO",
       "name": "Lust in Paradise"
     },
     {
-      "brand": "AVON",
-      "name": "Eve Privé"
+      "brand": "FRAGRANCE WORLD",
+      "name": "Mocha Wood"
     },
     {
       "brand": "GABRİELA SABATİNİ",
@@ -186,10 +215,6 @@
       "name": "Mohra Silky Rose"
     },
     {
-      "brand": "ARD AL ZAAFARAN",
-      "name": "Dirham Wardi"
-    },
-    {
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
     },
@@ -198,8 +223,12 @@
       "name": "Nebras"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Black Opium"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Qaed Al Fursan Unlimited"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Fantasy"
     },
     {
       "brand": "ALREHAB PERFUMES",
@@ -233,5 +262,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Raghba"
     }
-  ]
+  ],
+  "comments": []
 }

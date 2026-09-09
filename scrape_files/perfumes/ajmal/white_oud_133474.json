@@ -16,36 +16,60 @@
     },
     {
       "name": "çiçeksi",
-      "width": "68.889%"
+      "width": "76.6666%"
     },
     {
       "name": "pudralı",
-      "width": "63.8334%"
-    },
-    {
-      "name": "narenciye",
-      "width": "53.3333%"
+      "width": "64.125%"
     },
     {
       "name": "odunsu",
-      "width": "45.5556%"
+      "width": "59.1668%"
+    },
+    {
+      "name": "narenciye",
+      "width": "41.6667%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.00",
-    "votesCount": "6",
+    "votesCount": "8",
     "breakdown": {
-      "love": "3",
+      "love": "4",
       "like": "2",
-      "ok": "0",
+      "ok": "1",
       "dislike": "0",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "4",
-    "summer": "4",
+    "summer": "7",
     "autumn": "2",
     "day": "3",
     "night": "0"
@@ -62,34 +86,35 @@
     "base": [
       "Misk",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
-    "weak": "1",
-    "moderate": "4",
+    "weak": "2",
+    "moderate": "6",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "1",
-    "moderate": "4",
+    "moderate": "6",
     "strong": "0",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "4",
+    "unisex": "8",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "1",
-    "fair": "0",
+    "fair": "1",
     "goodValue": "3",
-    "greatValue": "0"
+    "greatValue": "2"
   },
   "remindsMeOf": [
     {
@@ -99,8 +124,21 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "ALREHAB PERFUMES",
-      "name": "Choco Musk"
+      "brand": "AJMAL",
+      "name": "Cyan Oud"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Intense Man"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Oud Nirvana"
+    },
+    {
+      "brand": "RİİFFS PERFUMES",
+      "name": "Costa de Amalfi"
     }
-  ]
+  ],
+  "comments": []
 }

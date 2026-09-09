@@ -49,6 +49,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "46.4915%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,7 +117,8 @@
       "Labdanum",
       "Reçineler",
       "Vetiver"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -164,6 +193,10 @@
       "name": "Farsah"
     },
     {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Seduction Dark Orchid"
+    },
+    {
       "brand": "MAİSON LOUİS MARİE",
       "name": "No.14 Icila"
     },
@@ -174,10 +207,6 @@
     {
       "brand": "VİCTORİA'S SECRET",
       "name": "Rush Night"
-    },
-    {
-      "brand": "TOCCA",
-      "name": "Cleopatra"
     }
   ],
   "peopleAlsoLike": [
@@ -190,12 +219,12 @@
       "name": "Midnight Fantasy"
     },
     {
-      "brand": "JESSİCA SİMPSON",
-      "name": "Fancy"
-    },
-    {
       "brand": "MUGLER",
       "name": "Angel"
+    },
+    {
+      "brand": "JESSİCA SİMPSON",
+      "name": "Fancy"
     },
     {
       "brand": "TOM FORD",
@@ -241,5 +270,6 @@
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
     }
-  ]
+  ],
+  "comments": []
 }

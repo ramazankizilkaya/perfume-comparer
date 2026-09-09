@@ -16,61 +16,93 @@
     },
     {
       "name": "tatlı",
-      "width": "62.742%"
+      "width": "62.5353%"
     },
     {
       "name": "taze",
-      "width": "41.2903%"
+      "width": "42.324%"
     },
     {
       "name": "yeşil",
-      "width": "32.258%"
+      "width": "32.4647%"
     },
     {
       "name": "ekşi",
-      "width": "31.9194%"
+      "width": "31.7747%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.91",
-    "votesCount": "85",
+    "score": "3.92",
+    "votesCount": "100",
     "breakdown": {
-      "love": "25",
-      "like": "36",
-      "ok": "17",
-      "dislike": "5",
+      "love": "32",
+      "like": "38",
+      "ok": "22",
+      "dislike": "6",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "8",
-    "spring": "43",
-    "summer": "31",
-    "autumn": "24",
-    "day": "47",
+    "winter": "10",
+    "spring": "51",
+    "summer": "35",
+    "autumn": "28",
+    "day": "54",
     "night": "4"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kırmızı elma",
+      "Meyvemsi Notlar"
+    ]
   },
   "longevity": {
-    "veryWeak": "8",
+    "veryWeak": "9",
     "weak": "6",
     "moderate": "10",
-    "longLasting": "2",
+    "longLasting": "3",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "9",
     "moderate": "10",
-    "strong": "3",
+    "strong": "4",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "19",
-    "moreFemale": "8",
+    "female": "21",
+    "moreFemale": "9",
     "unisex": "2",
     "moreMale": "0",
     "male": "0"
@@ -78,8 +110,8 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "17",
-    "goodValue": "12",
+    "fair": "22",
+    "goodValue": "14",
     "greatValue": "10"
   },
   "remindsMeOf": [
@@ -98,10 +130,6 @@
     {
       "brand": "NİNA RİCCİ",
       "name": "Nina"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Applejuice"
     },
     {
       "brand": "BY KİLİAN",
@@ -128,12 +156,12 @@
       "name": "Mood Ring"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Ruby Apple & Rosewood"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Dalal"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Applejuice"
     },
     {
       "brand": "CLEAN",
@@ -142,6 +170,10 @@
     {
       "brand": "VİCTORİA'S SECRET",
       "name": "Apple Dream"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Evil Queen"
     }
   ],
   "peopleAlsoLike": [
@@ -179,11 +211,11 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Mulan"
+      "name": "Into The Night"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Into The Night"
+      "name": "Mulan"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -205,5 +237,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Pink Obsessed"
     }
-  ]
+  ],
+  "comments": []
 }

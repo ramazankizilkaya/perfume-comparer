@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.27688.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Armaf/De-La-Marque-Brune-27688.html",
   "brand": "Armaf parfüm ve kolonya",
-  "description": "Armaf markasının De La Marque Brune parfümü, erkekler için Oryantal Fujer bir kokudur. Üst notalar: Limon, Deniz Notaları, Karabiber ve Erik; orta notalar: Lavanta, Tarçın, Kekik, İris ve Misk Adaçayı; alt notalar Misk, Vanilya, Sandal ağacı, Sedir ve Paçuli.",
-  "description_original": "Armaf markasının De La Marque Brune parfümü, erkekler için Oryantal Fujer bir kokudur. Üst notalar: Limon, Deniz Notaları, Karabiber ve Erik; orta notalar: Lavanta, Tarçın, Kekik, İris ve Misk Adaçayı; alt notalar Misk, Vanilya, Sandal ağacı, Sedir ve Paçuli.",
-  "description_enhanced": "Armaf markasının De La Marque Brune parfümü, erkekler için Oryantal Fujer bir kokudur. Üst notalar: Limon, Deniz Notaları, Karabiber ve Erik; orta notalar: Lavanta, Tarçın, Kekik, İris ve Misk Adaçayı; alt notalar Misk, Vanilya, Sandal ağacı, Sedir ve Paçuli.",
+  "description": "Armaf markasının De La Marque Brune parfümü, erkekler için Oryantal Fujer bir kokudur. Üst notalar: Limon, Deniz Notaları, Karabiber ve Erik; orta notalar: Lavanta, Tarçın, Kekik, İris ve Misk Adaçayı; alt notalar Beyaz Misk, Vanilya, Sandal ağacı, Sedir ve Paçuli.",
+  "description_original": "Armaf markasının De La Marque Brune parfümü, erkekler için Oryantal Fujer bir kokudur. Üst notalar: Limon, Deniz Notaları, Karabiber ve Erik; orta notalar: Lavanta, Tarçın, Kekik, İris ve Misk Adaçayı; alt notalar Beyaz Misk, Vanilya, Sandal ağacı, Sedir ve Paçuli.",
+  "description_enhanced": "Armaf markasının De La Marque Brune parfümü, erkekler için Oryantal Fujer bir kokudur. Üst notalar: Limon, Deniz Notaları, Karabiber ve Erik; orta notalar: Lavanta, Tarçın, Kekik, İris ve Misk Adaçayı; alt notalar Beyaz Misk, Vanilya, Sandal ağacı, Sedir ve Paçuli.",
   "mainAccords": [
     {
       "name": "aromatik",
@@ -49,6 +49,34 @@
     {
       "name": "misk",
       "width": "53.4995%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -85,12 +113,13 @@
       "Misk Adaçayı"
     ],
     "base": [
-      "Misk",
+      "Beyaz Misk",
       "Vanilya",
       "Sandal ağacı",
       "Sedir",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
@@ -157,12 +186,12 @@
       "name": "Sex Appeal"
     },
     {
-      "brand": "TRUSSARDİ",
-      "name": "Trussardi Black Extreme"
-    },
-    {
       "brand": "GİORGİO ARMANİ",
       "name": "Armani Code Ultimate"
+    },
+    {
+      "brand": "TRUSSARDİ",
+      "name": "Trussardi Black Extreme"
     }
   ],
   "peopleAlsoLike": [
@@ -226,5 +255,6 @@
       "brand": "BENTLEY",
       "name": "Bentley for Men Intense"
     }
-  ]
+  ],
+  "comments": []
 }

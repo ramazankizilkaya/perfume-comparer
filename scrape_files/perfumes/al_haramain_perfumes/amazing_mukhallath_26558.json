@@ -49,6 +49,34 @@
     {
       "name": "balsamik",
       "width": "47.1613%"
+    },
+    {
+      "name": "Online satın alın 11 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,7 +112,8 @@
     "base": [
       "Vetiver",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -100,7 +129,7 @@
     "enormous": "16"
   },
   "genderVoting": {
-    "female": "0",
+    "female": "1",
     "moreFemale": "1",
     "unisex": "8",
     "moreMale": "1",
@@ -123,12 +152,12 @@
       "name": "UDV"
     },
     {
-      "brand": "CASAMORATİ 1888",
-      "name": "Dama Bianca"
-    },
-    {
       "brand": "MİLLER ET BERTAUX",
       "name": "#2 Spiritus / Land"
+    },
+    {
+      "brand": "CASAMORATİ 1888",
+      "name": "Dama Bianca"
     },
     {
       "brand": "DİOR",
@@ -165,10 +194,6 @@
       "name": "The Library Collection Opus VII"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Jubilation XXV Man"
-    },
-    {
       "brand": "LALİQUE",
       "name": "Encre Noire"
     },
@@ -183,6 +208,10 @@
     {
       "brand": "XERJOFF",
       "name": "Alexandria II"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "1740 Marquis de Sade"
     },
     {
       "brand": "SERGE LUTENS",
@@ -208,5 +237,6 @@
       "brand": "PARFUMS DE MARLY",
       "name": "Herod"
     }
-  ]
+  ],
+  "comments": []
 }

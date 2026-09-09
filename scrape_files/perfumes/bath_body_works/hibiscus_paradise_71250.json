@@ -45,47 +45,80 @@
     {
       "name": "misk",
       "width": "44.7778%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.77",
-    "votesCount": "64",
+    "score": "3.76",
+    "votesCount": "66",
     "breakdown": {
       "love": "23",
-      "like": "18",
-      "ok": "10",
+      "like": "19",
+      "ok": "11",
       "dislike": "11",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "1",
-    "spring": "13",
-    "summer": "41",
+    "winter": "2",
+    "spring": "15",
+    "summer": "43",
     "autumn": "3",
-    "day": "37",
+    "day": "38",
     "night": "6"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Hibisküs",
+      "Hindistan cevizi",
+      "Guava"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
     "weak": "10",
-    "moderate": "18",
+    "moderate": "19",
     "longLasting": "5",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "8",
-    "moderate": "18",
+    "moderate": "19",
     "strong": "8",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "29",
+    "female": "30",
     "moreFemale": "4",
     "unisex": "3",
     "moreMale": "0",
@@ -94,7 +127,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "10",
+    "fair": "11",
     "goodValue": "15",
     "greatValue": "12"
   },
@@ -221,5 +254,6 @@
       "brand": "BY KİLİAN",
       "name": "Angels' Share"
     }
-  ]
+  ],
+  "comments": []
 }

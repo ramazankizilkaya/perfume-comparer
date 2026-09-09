@@ -1,7 +1,7 @@
 {
   "name": "Raaea Ajmal",
   "targetGender": "kadınlar ve erkekler için",
-  "fragranceFamily": "Oriental",
+  "fragranceFamily": "Floral",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.48684.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Raaea-48684.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Ajmal markasının Raaea parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Raaea, 2017 yılında piyasaya sürüldü. Üst notalar: Çiçeksi Notalar ve Baharatlı Notalar; orta notalar: Baharatlı Notalar ve Odunsu Notalar; alt notalar Amber, Misk ve Deri.",
   "mainAccords": [
     {
-      "name": "amber",
+      "name": "çiçeksi",
       "width": "100%"
     },
     {
-      "name": "çiçeksi",
+      "name": "amber",
       "width": "100%"
     },
     {
@@ -23,7 +23,7 @@
       "width": "79%"
     },
     {
-      "name": "deri",
+      "name": "odunsu",
       "width": "76.6667%"
     },
     {
@@ -31,7 +31,7 @@
       "width": "76.6667%"
     },
     {
-      "name": "odunsu",
+      "name": "deri",
       "width": "76.6667%"
     },
     {
@@ -41,6 +41,30 @@
     {
       "name": "pudralı",
       "width": "63.8333%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -75,7 +99,8 @@
       "Amber",
       "Misk",
       "Deri"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -128,12 +153,12 @@
       "name": "Narciso Rodriguez For Her"
     },
     {
-      "brand": "ESCENTRİC MOLECULES",
-      "name": "Escentric 01"
-    },
-    {
       "brand": "DİOR",
       "name": "Poison"
+    },
+    {
+      "brand": "ESCENTRİC MOLECULES",
+      "name": "Escentric 01"
     },
     {
       "brand": "SERGE LUTENS",
@@ -171,5 +196,6 @@
       "brand": "CHANEL",
       "name": "Chanel N°19"
     }
-  ]
+  ],
+  "comments": []
 }

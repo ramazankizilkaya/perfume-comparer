@@ -41,6 +41,30 @@
     {
       "name": "gül",
       "width": "45.1667%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,7 +103,8 @@
       "Agar ağacı (Oud)",
       "Deri",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -179,5 +204,6 @@
       "brand": "AFNAN",
       "name": "9 PM Rebel"
     }
-  ]
+  ],
+  "comments": []
 }

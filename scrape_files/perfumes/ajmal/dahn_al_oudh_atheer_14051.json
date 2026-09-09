@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.14051.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Dahn-Al-Oudh-Atheer-14051.html",
   "brand": "Ajmal parfüm ve kolonya",
-  "description": "Ajmal markasının Dahn Al Oudh Atheer parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu kokunun arkasındaki burun Nazir Ajmal. Kokuda Agar ağacı (Oud) ve Baharatlı notalar notaları bulunur.",
-  "description_original": "Ajmal markasının Dahn Al Oudh Atheer parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu kokunun arkasındaki burun Nazir Ajmal. Kokuda Agar ağacı (Oud) ve Baharatlı notalar notaları bulunur.",
-  "description_enhanced": "Ajmal markasının Dahn Al Oudh Atheer parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu kokunun arkasındaki burun Nazir Ajmal. Kokuda Agar ağacı (Oud) ve Baharatlı notalar notaları bulunur.",
+  "description": "Ajmal markasının Dahn Al Oudh Atheer parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu kokunun arkasındaki burun Nazir Ajmal. Kokuda Agar ağacı (Oud) ve Baharatlar notaları bulunur.",
+  "description_original": "Ajmal markasının Dahn Al Oudh Atheer parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu kokunun arkasındaki burun Nazir Ajmal. Kokuda Agar ağacı (Oud) ve Baharatlar notaları bulunur.",
+  "description_enhanced": "Ajmal markasının Dahn Al Oudh Atheer parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu kokunun arkasındaki burun Nazir Ajmal. Kokuda Agar ağacı (Oud) ve Baharatlar notaları bulunur.",
   "mainAccords": [
     {
       "name": "ud",
@@ -21,6 +21,30 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -45,7 +69,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Agar ağacı (Oud)",
+      "Baharatlar"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -145,5 +173,6 @@
       "brand": "MUGLER",
       "name": "A*Men Pure Havane"
     }
-  ]
+  ],
+  "comments": []
 }

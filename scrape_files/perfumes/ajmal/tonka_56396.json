@@ -49,13 +49,37 @@
     {
       "name": "pudralı",
       "width": "54.1364%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.29",
-    "votesCount": "118",
+    "score": "4.30",
+    "votesCount": "120",
     "breakdown": {
-      "love": "64",
+      "love": "66",
       "like": "37",
       "ok": "7",
       "dislike": "7",
@@ -63,12 +87,12 @@
     }
   },
   "seasons": {
-    "winter": "53",
-    "spring": "32",
+    "winter": "54",
+    "spring": "33",
     "summer": "20",
-    "autumn": "52",
-    "day": "35",
-    "night": "46"
+    "autumn": "53",
+    "day": "36",
+    "night": "47"
   },
   "notes": {
     "top": [
@@ -85,19 +109,20 @@
       "Agar ağacı (Oud)",
       "Tütün",
       "Kaşmeran"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
     "weak": "4",
     "moderate": "12",
     "longLasting": "32",
-    "eternal": "29"
+    "eternal": "30"
   },
   "sillage": {
     "intimate": "1",
     "moderate": "12",
-    "strong": "35",
+    "strong": "36",
     "enormous": "20"
   },
   "genderVoting": {
@@ -108,7 +133,7 @@
     "male": "10"
   },
   "priceVoting": {
-    "wayOverpriced": "8",
+    "wayOverpriced": "9",
     "overpriced": "8",
     "fair": "7",
     "goodValue": "15",
@@ -128,16 +153,12 @@
       "name": "Cashmeran in Cognac"
     },
     {
-      "brand": "LES INDEMODABLES",
-      "name": "Vanille Havane"
+      "brand": "NOMENCLATURE",
+      "name": "Para-iso"
     },
     {
       "brand": "AJMAL",
       "name": "Rhythm of Oud"
-    },
-    {
-      "brand": "NOMENCLATURE",
-      "name": "Para-iso"
     },
     {
       "brand": "GOUTAL",
@@ -148,16 +169,20 @@
       "name": "Tonka"
     },
     {
-      "brand": "XERJOFF",
-      "name": "XJ 1861 Naxos"
+      "brand": "AJMAL",
+      "name": "Amber Wood Noir"
     },
     {
-      "brand": "MONTALE",
-      "name": "Dark Vanilla"
+      "brand": "LES INDEMODABLES",
+      "name": "Vanille Havane"
     },
     {
       "brand": "ARQUİSTE",
       "name": "Almond Suede"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Dark Vanilla"
     }
   ],
   "peopleAlsoLike": [
@@ -221,5 +246,6 @@
       "brand": "DİOR",
       "name": "Fahrenheit"
     }
-  ]
+  ],
+  "comments": []
 }

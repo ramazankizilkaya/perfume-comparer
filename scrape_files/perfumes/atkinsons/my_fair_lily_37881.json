@@ -49,6 +49,34 @@
     {
       "name": "çiçeksi",
       "width": "49.7867%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,33 +114,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "13",
+    "moderate": "30",
+    "longLasting": "12",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "30",
+    "strong": "25",
+    "enormous": "18"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "26",
+    "moreFemale": "9",
+    "unisex": "9",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "10",
     "fair": "14",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Lys Mediterranee"
+    },
+    {
+      "brand": "BRERA6 PERFUMES",
+      "name": "Liberty"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Honeysuckle (Chevrefeuille)"
+    },
+    {
+      "brand": "NAYASSİA",
+      "name": "Terre Blanche"
+    },
+    {
+      "brand": "KAMİLA ROBİNSON",
+      "name": "Caer hasta"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'eau d'Issey Eau de Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -121,6 +174,10 @@
     {
       "brand": "GİVENCHY",
       "name": "L'Interdit Eau de Parfum"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Pleasures"
     },
     {
       "brand": "MUGLER",
@@ -152,15 +209,15 @@
     },
     {
       "brand": "AMOUAGE",
-      "name": "Memoir Woman"
-    },
-    {
-      "brand": "AMOUAGE",
       "name": "Lilac Love"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "En Passant"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Velvet Orchid"
     },
     {
       "brand": "AMOUAGE",
@@ -169,10 +226,7 @@
     {
       "brand": "SERGE LUTENS",
       "name": "Feminité du Bois"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Chanel No 5 L'Eau"
     }
-  ]
+  ],
+  "comments": []
 }

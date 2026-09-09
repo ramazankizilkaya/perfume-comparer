@@ -33,26 +33,54 @@
     {
       "name": "animalik",
       "width": "44%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.21",
     "votesCount": "185",
     "breakdown": {
-      "love": "93",
-      "like": "58",
+      "love": "94",
+      "like": "57",
       "ok": "14",
       "dislike": "19",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "89",
-    "spring": "26",
-    "summer": "11",
-    "autumn": "88",
-    "day": "59",
-    "night": "77"
+    "winter": "90",
+    "spring": "27",
+    "summer": "12",
+    "autumn": "89",
+    "day": "60",
+    "night": "78"
   },
   "notes": {
     "top": [
@@ -63,18 +91,19 @@
     ],
     "base": [
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "8",
     "weak": "5",
-    "moderate": "49",
+    "moderate": "50",
     "longLasting": "47",
     "eternal": "11"
   },
   "sillage": {
     "intimate": "15",
-    "moderate": "49",
+    "moderate": "50",
     "strong": "43",
     "enormous": "30"
   },
@@ -83,7 +112,7 @@
     "moreFemale": "1",
     "unisex": "10",
     "moreMale": "21",
-    "male": "40"
+    "male": "41"
   },
   "priceVoting": {
     "wayOverpriced": "0",
@@ -120,6 +149,10 @@
     {
       "brand": "HUGO BOSS",
       "name": "Bottled Absolu"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad Elixir"
     },
     {
       "brand": "HUGO BOSS",
@@ -180,12 +213,12 @@
       "name": "Bvlgari Man In Black"
     },
     {
-      "brand": "PRADA",
-      "name": "Prada L'Homme Intense"
-    },
-    {
       "brand": "YVES SAİNT LAURENT",
       "name": "La Nuit de l'Homme"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Prada L'Homme Intense"
     },
     {
       "brand": "AZZARO",
@@ -203,5 +236,6 @@
       "brand": "VERSACE",
       "name": "Versace Pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

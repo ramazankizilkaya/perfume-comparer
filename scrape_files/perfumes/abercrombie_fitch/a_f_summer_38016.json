@@ -45,6 +45,34 @@
     {
       "name": "misk",
       "width": "46.3333%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -77,33 +105,38 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "5",
+    "longLasting": "0",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "5",
+    "strong": "2",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "2",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AZZARO",
+      "name": "Chrome"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ABERCROMBİE & FİTCH",
@@ -164,6 +197,42 @@
     {
       "brand": "CREED",
       "name": "Aventus"
+    }
+  ],
+  "comments": [],
+  "article": "## Koku Profili ve Açılış Notaları\nAbercrombie & Fitch parfüm ve kolonya dünyasının özgün kreasyonlarından biri olan A & F Summer Abercrombie & Fitch incelemesi, markanın yaz ruhunu yansıtan minimalist ama etkileyici yaklaşımını gözler önüne seriyor. Aromatic koku ailesine mensup olan bu özel Edp, taze ve erkeksi dokunuşlarıyla dikkat çekiyor. A & F Summer Abercrombie & Fitch notaları incelendiğinde; adaçayı, yosun ve biber üçlüsünün minimalist fakat son derece maskülen bir uyum yakaladığı görülüyor. Taze baharatlı ve otsu başlangıcı, topraksı yosun akorlarıyla derinleşerek kullanıcısına ferah ama karakterli bir imza sunuyor.\n\n## Kalıcılık, Yayılım ve Performans Değerlendirmesi\nBir parfümün başarısını belirleyen en önemli unsurlardan biri olan kalıcılık ve yayılım, kullanıcı istatistiklerinde dengeli bir profil çiziyor. A & F Summer Abercrombie & Fitch kalıcılığı, 5 üzerinden verilen 3.87'lik topluluk puanıyla desteklenirken; EDP formülasyonuna rağmen ten üzerinde orta düzeyde bir kalıcılık sergiliyor. Yayılım dağılımı incelendiğinde ise parfümün teni saran (intimate) ve orta (moderate) seviyede bir silaja sahip olduğu, çevreyi rahatsız etmeyen taze bir bulut bıraktığı net bir şekilde anlaşılıyor.\n\n## Kimler ve Hangi Ortamlar İçin Uygun?\nTopluluk oylamalarına göre bu koku, adeta yaz ayları için tasarlanmış bir ferahlık abidesidir. İlkbahar ve özellikle yaz mevsiminde gündüz kullanımına kusursuz uyum sağlar. Sıcak yaz günlerinde ofiste, sahilde, açık havada yapılan buluşmalarda veya günlük spor aktivitelerinde ferahlatıcı etkisiyle öne çıkar. Gece kullanımından ziyade güneşli günlerin enerjisini yükseltmek isteyen erkekler için ideal bir tercihtir.\n\n## Gerçek Kullanıcı Görüşleri ve Genel İzlenim\nKullanıcı yorumları ve topluluk istatistikleri, bu kokunun özellikle sıcak hava koşullarındaki başarısını doğrulamaktadır. Doğrudan ağır tatlılıklardan uzak durup aromatik ve topraksı notaların ferahlığını arayanlar için A & F Summer, güvenilir bir alternatif oluşturuyor. Modern erkeğin günlük gardırobunda vazgeçilmez bir yaz kokusu olarak yer bulabilecek niteliktedir.",
+  "faq": [
+    {
+      "question": "A & F Summer Abercrombie & Fitch hangi markaya aittir?",
+      "answer": "A & F Summer Abercrombie & Fitch, Amerikan genç giyim ve yaşam tarzı markası Abercrombie & Fitch parfüm ve kolonya koleksiyonuna aittir."
+    },
+    {
+      "question": "A & F Summer Abercrombie & Fitch hangi yıl piyasaya sürülmüştür ve tasarımcısı kimdir?",
+      "answer": "Bu parfüm 2015 yılında piyasaya sürülmüştür; resmi verilere göre tasarımcısı (parfümörü) kamuoyuna özel olarak belirtilmemiştir."
+    },
+    {
+      "question": "A & F Summer Abercrombie & Fitch parfümünün konsantrasyonu nedir?",
+      "answer": "A & F Summer, Edp (Eau de Parfum) esans tipine sahiptir ve yoğunlaştırılmış formülü sayesinde taze karakterine rağmen tatmin edici bir kalıcılık sunar."
+    },
+    {
+      "question": "A & F Summer Abercrombie & Fitch hangi mevsime ve hava şartlarına uygundur?",
+      "answer": "Oylama tercihlerine göre bu parfüm ağırlıklı olarak yaz ve ilkbahar mevsimlerinde, sıcak hava koşullarında gündüz kullanımına son derece uygundur."
+    },
+    {
+      "question": "A & F Summer Abercrombie & Fitch parfümünün kalıcılığı ve yayılımı ne kadardır?",
+      "answer": "Parfüm orta seviye kalıcılığa sahip olup, yayılım (silaj) açısından genellikle tene yakın ve orta mesafede hissedilen dengeli bir performans sergiler."
+    },
+    {
+      "question": "A & F Summer Abercrombie & Fitch hangi ortamlarda ve yaş gruplarında tercih edilmelidir?",
+      "answer": "Genellikle günlük kullanım, ofis ortamı ve açık hava aktiviteleri için idealdir. Genç yetişkinlerden olgun erkeklere kadar geniş bir yaş grubuna hitap eder."
+    },
+    {
+      "question": "A & F Summer Abercrombie & Fitch hangi parfümlere benzer ve koku karakteri nasıldır?",
+      "answer": "Adaçayı, biber ve yosun notalarının harmanlandığı; aromatik, bitkisel, topraksı ve taze baharatlı ana akorlara sahip, ferah bir koku karakterindedir."
+    },
+    {
+      "question": "A & F Summer Abercrombie & Fitch kör alışa (denemeden almaya) uygun bir parfüm müdür?",
+      "answer": "Aromatik ve yosunlu parfümleri sevenler için güvenli olsa da, üst ve dip notaların minimalist yapısı nedeniyle, taze koku sevenlerin önce ten üzerinde denemesi önerilir."
     }
   ]
 }

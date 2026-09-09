@@ -29,6 +29,30 @@
     {
       "name": "tatlı",
       "width": "44.0001%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,7 +84,8 @@
     ],
     "base": [
       "Oud"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -111,8 +136,8 @@
       "name": "Luxury Summer Swim"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "The Moon"
+      "brand": "LUXURY PERFUMES",
+      "name": "Luxury Tea"
     }
   ],
   "peopleAlsoLike": [
@@ -139,6 +164,10 @@
     {
       "brand": "VİKTOR&ROLF",
       "name": "Spicebomb"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Cashmere Wood"
     },
     {
       "brand": "AMOUAGE",
@@ -171,10 +200,7 @@
     {
       "brand": "AJMAL",
       "name": "Santal"
-    },
-    {
-      "brand": "AJMAL",
-      "name": "Khallab"
     }
-  ]
+  ],
+  "comments": []
 }

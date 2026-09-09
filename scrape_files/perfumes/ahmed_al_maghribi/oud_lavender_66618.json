@@ -29,58 +29,86 @@
     {
       "name": "bitkisel",
       "width": "43.9999%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.98",
-    "votesCount": "124",
+    "votesCount": "127",
     "breakdown": {
-      "love": "54",
+      "love": "56",
       "like": "36",
-      "ok": "19",
+      "ok": "20",
       "dislike": "7",
       "hate": "8"
     }
   },
   "seasons": {
-    "winter": "51",
+    "winter": "53",
     "spring": "58",
     "summer": "40",
-    "autumn": "62",
-    "day": "64",
-    "night": "49"
+    "autumn": "64",
+    "day": "66",
+    "night": "50"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Lavanta",
+      "Agar ağacı (Oud)"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
     "weak": "9",
-    "moderate": "19",
+    "moderate": "20",
     "longLasting": "40",
-    "eternal": "26"
+    "eternal": "27"
   },
   "sillage": {
     "intimate": "7",
-    "moderate": "19",
-    "strong": "40",
+    "moderate": "20",
+    "strong": "41",
     "enormous": "16"
   },
   "genderVoting": {
     "female": "12",
-    "moreFemale": "15",
-    "unisex": "53",
+    "moreFemale": "16",
+    "unisex": "54",
     "moreMale": "16",
     "male": "15"
   },
   "priceVoting": {
     "wayOverpriced": "1",
-    "overpriced": "6",
-    "fair": "19",
+    "overpriced": "7",
+    "fair": "20",
     "goodValue": "37",
-    "greatValue": "29"
+    "greatValue": "30"
   },
   "remindsMeOf": [
     {
@@ -100,10 +128,6 @@
       "name": "Accent"
     },
     {
-      "brand": "ASGHARALİ",
-      "name": "Shurooq"
-    },
-    {
       "brand": "CHANEL",
       "name": "Chance Eau de Parfum"
     },
@@ -118,6 +142,10 @@
     {
       "brand": "SHİSEİDO",
       "name": "Zen"
+    },
+    {
+      "brand": "ASGHARALİ",
+      "name": "Shurooq"
     },
     {
       "brand": "SOSPİRO PERFUMES",
@@ -154,24 +182,24 @@
       "name": "Oud & Roses"
     },
     {
-      "brand": "DİOR",
-      "name": "Dior Homme Intense 2011"
-    },
-    {
       "brand": "GİORGİO ARMANİ",
       "name": "Acqua di Giò Profumo"
-    },
-    {
-      "brand": "MONTBLANC",
-      "name": "Explorer"
     },
     {
       "brand": "AFNAN",
       "name": "9pm"
     },
     {
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme"
+    },
+    {
       "brand": "HERMÈS",
       "name": "Terre d'Hermès"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Rare Carbon"
     },
     {
       "brand": "AFNAN",
@@ -187,6 +215,10 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
+      "name": "Asad"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
     },
     {
@@ -198,12 +230,9 @@
       "name": "Hawas Black"
     },
     {
-      "brand": "MANCERA",
-      "name": "Cedrat Boise"
-    },
-    {
       "brand": "NİSHANE",
       "name": "Hacivat"
     }
-  ]
+  ],
+  "comments": []
 }

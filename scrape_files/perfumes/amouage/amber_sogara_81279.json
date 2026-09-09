@@ -37,15 +37,43 @@
     {
       "name": "aromatik",
       "width": "44.875%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.97",
-    "votesCount": "33",
+    "score": "3.94",
+    "votesCount": "34",
     "breakdown": {
       "love": "16",
       "like": "6",
-      "ok": "7",
+      "ok": "8",
       "dislike": "2",
       "hate": "2"
     }
@@ -67,7 +95,8 @@
     ],
     "base": [
       "Misk tohumu"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -92,7 +121,7 @@
   "priceVoting": {
     "wayOverpriced": "8",
     "overpriced": "6",
-    "fair": "7",
+    "fair": "8",
     "goodValue": "1",
     "greatValue": "1"
   },
@@ -102,11 +131,19 @@
       "name": "Rose Lace (Розовые Кружева)"
     },
     {
+      "brand": "THE DUA BRAND",
+      "name": "Omani Amber"
+    },
+    {
       "brand": "BY KİLİAN",
       "name": "Musk Butterfly"
     }
   ],
   "peopleAlsoLike": [
+    {
+      "brand": "AMOUAGE",
+      "name": "Lyric Man"
+    },
     {
       "brand": "AMOUAGE",
       "name": "Gold Woman"
@@ -116,16 +153,8 @@
       "name": "Guidance 46"
     },
     {
-      "brand": "ROJA DOVE",
-      "name": "Amber Aoud"
-    },
-    {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Portrait of a Lady"
-    },
-    {
-      "brand": "CREED",
-      "name": "Aventus"
     },
     {
       "brand": "AMOUAGE",
@@ -133,11 +162,19 @@
     },
     {
       "brand": "AMOUAGE",
-      "name": "Oud Ulya"
+      "name": "Orris Wakan"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "The Moon"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Oud Ulya"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Jubilation XXV Man"
     },
     {
       "brand": "GUERLAİN",
@@ -149,10 +186,6 @@
     },
     {
       "brand": "AMOUAGE",
-      "name": "Purpose 50"
-    },
-    {
-      "brand": "AMOUAGE",
       "name": "Santal Sohar"
     },
     {
@@ -161,11 +194,12 @@
     },
     {
       "brand": "AMOUAGE",
-      "name": "Memoir Man"
+      "name": "Overture Man"
     },
     {
       "brand": "AMOUAGE",
       "name": "Decision"
     }
-  ]
+  ],
+  "comments": []
 }

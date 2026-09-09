@@ -29,6 +29,30 @@
     {
       "name": "narenciye",
       "width": "41.6667%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -64,7 +88,8 @@
       "Çiçeksi Notalar",
       "Misk",
       "Baharatlı Notalar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -100,24 +125,40 @@
       "name": "Nanshe"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "Beauty"
+      "brand": "LORENZO VİLLORESİ",
+      "name": "Teint de Neige"
     },
     {
-      "brand": "RASASİ",
-      "name": "Mehrab"
+      "brand": "CASAMORATİ 1888",
+      "name": "Dama Bianca"
     },
     {
-      "brand": "PRADA",
-      "name": "Prada Candy"
+      "brand": "CERRUTİ",
+      "name": "1881"
     },
     {
-      "brand": "VERSACE",
-      "name": "Blonde"
+      "brand": "JEAN CHARLES BROSSEAU",
+      "name": "Ombre Rose L'Original"
+    },
+    {
+      "brand": "SENTİFİQUE",
+      "name": "Dangereuse"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chanel No 5 Parfum"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "24 Faubourg"
     },
     {
       "brand": "GİVENCHY",
       "name": "Amarige"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Insolence Eau de Parfum"
     },
     {
       "brand": "MUGLER",
@@ -136,20 +177,9 @@
       "name": "Pure Poison"
     },
     {
-      "brand": "MUGLER",
-      "name": "Alien Essence Absolue"
-    },
-    {
-      "brand": "NİSHANE",
-      "name": "Hundred Silent Ways"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Alien"
-    },
-    {
-      "brand": "PRADA",
-      "name": "Infusion de Fleur d'Oranger (2015)"
+      "brand": "DİOR",
+      "name": "Pure Poison Elixir"
     }
-  ]
+  ],
+  "comments": []
 }

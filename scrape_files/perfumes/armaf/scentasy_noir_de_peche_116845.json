@@ -39,32 +39,60 @@
       "width": "49.9999%"
     },
     {
+      "name": "tatlı",
+      "width": "44.9999%"
+    },
+    {
       "name": "taze",
       "width": "44.9999%"
     },
     {
-      "name": "tatlı",
-      "width": "44.9999%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.31",
-    "votesCount": "45",
+    "score": "3.25",
+    "votesCount": "48",
     "breakdown": {
       "love": "20",
       "like": "5",
-      "ok": "3",
+      "ok": "5",
       "dislike": "3",
-      "hate": "14"
+      "hate": "15"
     }
   },
   "seasons": {
-    "winter": "21",
-    "spring": "10",
+    "winter": "23",
+    "spring": "11",
     "summer": "6",
-    "autumn": "12",
-    "day": "14",
-    "night": "18"
+    "autumn": "15",
+    "day": "16",
+    "night": "20"
   },
   "notes": {
     "top": [
@@ -76,43 +104,40 @@
     ],
     "base": [
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "8",
+    "veryWeak": "7",
     "weak": "2",
     "moderate": "4",
     "longLasting": "10",
     "eternal": "3"
   },
   "sillage": {
-    "intimate": "7",
+    "intimate": "6",
     "moderate": "4",
-    "strong": "9",
+    "strong": "10",
     "enormous": "3"
   },
   "genderVoting": {
     "female": "7",
     "moreFemale": "1",
-    "unisex": "11",
+    "unisex": "13",
     "moreMale": "3",
     "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "6",
+    "wayOverpriced": "7",
     "overpriced": "0",
-    "fair": "3",
+    "fair": "5",
     "goodValue": "5",
-    "greatValue": "11"
+    "greatValue": "12"
   },
   "remindsMeOf": [
     {
       "brand": "LE MONDE GOURMAND",
       "name": "Pêche Délicieuse"
-    },
-    {
-      "brand": "MAİSON MATAHA",
-      "name": "Pêche Velours"
     },
     {
       "brand": "FEDERİCO CANTELLİ EXCLUSİVE COLLECTİON",
@@ -131,6 +156,10 @@
       "name": "Neroli Pesca"
     },
     {
+      "brand": "MAİSON MATAHA",
+      "name": "Pêche Velours"
+    },
+    {
       "brand": "PARIS CORNER",
       "name": "Khair Peach Delulu"
     },
@@ -139,8 +168,8 @@
       "name": "Peach Glow Eau de Parfum"
     },
     {
-      "brand": "SARAH BAKER PERFUMES",
-      "name": "Peach's Revenge"
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Peach Velvet"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -149,6 +178,10 @@
     {
       "brand": "OAKCHA",
       "name": "Peach Rings"
+    },
+    {
+      "brand": "SARAH BAKER PERFUMES",
+      "name": "Peach's Revenge"
     },
     {
       "brand": "VOSKANİAN PARFUMS",
@@ -161,10 +194,6 @@
     {
       "brand": "BOTTEGA VERDE",
       "name": "Pesca Nettarina"
-    },
-    {
-      "brand": "LUSH",
-      "name": "Peaches"
     }
   ],
   "peopleAlsoLike": [
@@ -228,5 +257,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Musamam White Intense"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.129762.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ahmed-Al-Maghribi/Tanuf-129762.html",
   "brand": "Ahmed Al Maghribi parfüm ve kolonya",
-  "description": "Ahmed Al Maghribi markasının Tanuf parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Ananas, Bergamot, Mandalina ve Elma; orta notalar: Portakal çiçeği ve Gül; alt notalar Sandal ağacı, Amber, Misk, Vanilya ve Oud.",
-  "description_original": "Ahmed Al Maghribi markasının Tanuf parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Ananas, Bergamot, Mandalina ve Elma; orta notalar: Portakal çiçeği ve Gül; alt notalar Sandal ağacı, Amber, Misk, Vanilya ve Oud.",
-  "description_enhanced": "Ahmed Al Maghribi markasının Tanuf parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Ananas, Bergamot, Mandalina ve Elma; orta notalar: Portakal çiçeği ve Gül; alt notalar Sandal ağacı, Amber, Misk, Vanilya ve Oud.",
+  "description": "Ahmed Al Maghribi markasının Tanuf parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Ananas, Bergamot, Mandalina ve Elma; orta notalar: Portakal çiçeği ve Gül; alt notalar Sandal ağacı, Misk, Oud, Amber ve Vanilya.",
+  "description_original": "Ahmed Al Maghribi markasının Tanuf parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Ananas, Bergamot, Mandalina ve Elma; orta notalar: Portakal çiçeği ve Gül; alt notalar Sandal ağacı, Misk, Oud, Amber ve Vanilya.",
+  "description_enhanced": "Ahmed Al Maghribi markasının Tanuf parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Ananas, Bergamot, Mandalina ve Elma; orta notalar: Portakal çiçeği ve Gül; alt notalar Sandal ağacı, Misk, Oud, Amber ve Vanilya.",
   "mainAccords": [
     {
       "name": "pudralı",
@@ -49,13 +49,37 @@
     {
       "name": "amber",
       "width": "58.9656%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.80",
-    "votesCount": "5",
+    "score": "4.14",
+    "votesCount": "7",
     "breakdown": {
-      "love": "2",
+      "love": "4",
       "like": "0",
       "ok": "3",
       "dislike": "0",
@@ -63,12 +87,12 @@
     }
   },
   "seasons": {
-    "winter": "3",
-    "spring": "1",
+    "winter": "5",
+    "spring": "2",
     "summer": "1",
-    "autumn": "3",
-    "day": "1",
-    "night": "3"
+    "autumn": "4",
+    "day": "2",
+    "night": "4"
   },
   "notes": {
     "top": [
@@ -83,29 +107,30 @@
     ],
     "base": [
       "Sandal ağacı",
-      "Amber",
       "Misk",
-      "Vanilya",
-      "Oud"
-    ]
+      "Oud",
+      "Amber",
+      "Vanilya"
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
     "moderate": "2",
-    "longLasting": "1",
+    "longLasting": "2",
     "eternal": "1"
   },
   "sillage": {
     "intimate": "0",
     "moderate": "2",
-    "strong": "0",
+    "strong": "1",
     "enormous": "1"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "1",
+    "unisex": "2",
     "moreMale": "2",
     "male": "0"
   },
@@ -113,7 +138,7 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "3",
-    "goodValue": "1",
+    "goodValue": "2",
     "greatValue": "2"
   },
   "remindsMeOf": [
@@ -122,5 +147,6 @@
       "name": "Absolutely Dark"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "amber",
+      "name": "toprak",
       "width": "67.8038%"
     },
     {
-      "name": "toprak",
+      "name": "amber",
       "width": "67.8038%"
     },
     {
@@ -27,11 +27,11 @@
       "width": "62.1962%"
     },
     {
-      "name": "yosunlu",
+      "name": "sarı çiçeksi",
       "width": "57.7228%"
     },
     {
-      "name": "sarı çiçeksi",
+      "name": "yosunlu",
       "width": "57.7228%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "paçuli",
       "width": "53.3123%"
+    },
+    {
+      "name": "Online satın alın 30 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,9 +91,9 @@
     }
   },
   "seasons": {
-    "winter": "15",
+    "winter": "16",
     "spring": "18",
-    "summer": "13",
+    "summer": "14",
     "autumn": "25",
     "day": "25",
     "night": "18"
@@ -88,13 +116,14 @@
       "Sandal ağacı",
       "Vetiver",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "4",
-    "weak": "1",
+    "weak": "0",
     "moderate": "7",
-    "longLasting": "9",
+    "longLasting": "10",
     "eternal": "5"
   },
   "sillage": {
@@ -114,7 +143,7 @@
     "wayOverpriced": "0",
     "overpriced": "1",
     "fair": "1",
-    "goodValue": "1",
+    "goodValue": "2",
     "greatValue": "0"
   },
   "remindsMeOf": [
@@ -240,5 +269,6 @@
       "brand": "ROCHAS",
       "name": "Femme Rochas"
     }
-  ]
+  ],
+  "comments": []
 }

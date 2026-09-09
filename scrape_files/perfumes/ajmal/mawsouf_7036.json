@@ -1,7 +1,7 @@
 {
   "name": "Mawsouf Ajmal",
   "targetGender": "kadınlar ve erkekler için",
-  "fragranceFamily": "Oriental",
+  "fragranceFamily": "Woody",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.7036.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Mawsouf-7036.html",
@@ -11,24 +11,48 @@
   "description_enhanced": "Ajmal markasının Mawsouf parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Kokuda Amber, Agar ağacı (Oud), Vanilya ve Gül notaları bulunur.",
   "mainAccords": [
     {
-      "name": "amber",
-      "width": "100%"
-    },
-    {
       "name": "ud",
       "width": "100%"
     },
     {
-      "name": "gül",
-      "width": "73.75%"
+      "name": "amber",
+      "width": "100%"
     },
     {
       "name": "vanilya",
       "width": "73.75%"
     },
     {
+      "name": "gül",
+      "width": "73.75%"
+    },
+    {
       "name": "pudralı",
       "width": "53.625%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +77,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Amber",
+      "Agar ağacı (Oud)",
+      "Vanilya",
+      "Gül"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -144,5 +174,6 @@
       "brand": "GUERLAİN",
       "name": "Mitsouko Eau de Toilette"
     }
-  ]
+  ],
+  "comments": []
 }

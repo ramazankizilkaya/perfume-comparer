@@ -29,21 +29,49 @@
     {
       "name": "animalik",
       "width": "40.3125%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.04",
+    "score": "4.00",
     "votesCount": "24",
     "breakdown": {
-      "love": "8",
-      "like": "10",
+      "love": "7",
+      "like": "11",
       "ok": "5",
       "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "6",
+    "winter": "7",
     "spring": "10",
     "summer": "7",
     "autumn": "8",
@@ -53,7 +81,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Meyveler",
+      "Misk"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -185,5 +217,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Sweetheart Cherry"
     }
-  ]
+  ],
+  "comments": []
 }

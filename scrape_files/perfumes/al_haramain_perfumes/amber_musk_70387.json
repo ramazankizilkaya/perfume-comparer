@@ -49,15 +49,43 @@
     {
       "name": "tatlı",
       "width": "47.2162%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.15",
-    "votesCount": "65",
+    "score": "4.14",
+    "votesCount": "66",
     "breakdown": {
       "love": "34",
       "like": "18",
-      "ok": "4",
+      "ok": "5",
       "dislike": "7",
       "hate": "2"
     }
@@ -67,8 +95,8 @@
     "spring": "22",
     "summer": "10",
     "autumn": "34",
-    "day": "17",
-    "night": "36"
+    "day": "18",
+    "night": "37"
   },
   "notes": {
     "top": [
@@ -86,32 +114,33 @@
       "Amber ağacı",
       "Benzoin",
       "Sardunya"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
     "weak": "0",
     "moderate": "7",
-    "longLasting": "33",
+    "longLasting": "34",
     "eternal": "11"
   },
   "sillage": {
     "intimate": "3",
     "moderate": "7",
-    "strong": "32",
+    "strong": "33",
     "enormous": "6"
   },
   "genderVoting": {
     "female": "4",
     "moreFemale": "1",
-    "unisex": "27",
+    "unisex": "28",
     "moreMale": "11",
     "male": "20"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "5",
-    "fair": "4",
+    "fair": "5",
     "goodValue": "29",
     "greatValue": "12"
   },
@@ -131,6 +160,10 @@
     {
       "brand": "XERJOFF",
       "name": "More Than Words"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Interlude Man"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -226,5 +259,6 @@
       "brand": "AFNAN",
       "name": "Turathi Blue"
     }
-  ]
+  ],
+  "comments": []
 }

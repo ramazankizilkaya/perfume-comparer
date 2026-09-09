@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.129846.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Peepin-It-Real-129846.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Peepin’ It Real parfümü, kadınlar için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Peepin’ It Real, 2026 yılında piyasaya sürüldü. Kokuda Marşmelov, Şeker ve Vanilya notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Peepin’ It Real parfümü, kadınlar için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Peepin’ It Real, 2026 yılında piyasaya sürüldü. Kokuda Marşmelov, Şeker ve Vanilya notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Peepin’ It Real parfümü, kadınlar için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Peepin’ It Real, 2026 yılında piyasaya sürüldü. Kokuda Marşmelov, Şeker ve Vanilya notaları bulunur.",
+  "description": "Bath & Body Works markasının Peepin’ It Real parfümü, kadınlar için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Peepin’ It Real, 2026 yılında piyasaya sürüldü. Kokuda Şeker, Marşmelov ve Vanilya notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Peepin’ It Real parfümü, kadınlar için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Peepin’ It Real, 2026 yılında piyasaya sürüldü. Kokuda Şeker, Marşmelov ve Vanilya notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Peepin’ It Real parfümü, kadınlar için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Peepin’ It Real, 2026 yılında piyasaya sürüldü. Kokuda Şeker, Marşmelov ve Vanilya notaları bulunur.",
   "mainAccords": [
     {
       "name": "tatlı",
@@ -16,60 +16,93 @@
     },
     {
       "name": "vanilya",
-      "width": "70.7273%"
+      "width": "71.1548%"
     },
     {
       "name": "pudralı",
-      "width": "56.7273%"
+      "width": "56.5486%"
     },
     {
       "name": "balsamik",
-      "width": "33.8182%"
+      "width": "33.8583%"
     },
     {
       "name": "yumuşak baharatlı",
-      "width": "32.5454%"
+      "width": "32.5722%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.34",
-    "votesCount": "71",
+    "score": "4.35",
+    "votesCount": "77",
     "breakdown": {
-      "love": "43",
-      "like": "15",
-      "ok": "9",
+      "love": "47",
+      "like": "16",
+      "ok": "10",
       "dislike": "2",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "23",
-    "spring": "40",
+    "winter": "27",
+    "spring": "41",
     "summer": "32",
-    "autumn": "20",
-    "day": "38",
-    "night": "17"
+    "autumn": "22",
+    "day": "40",
+    "night": "20"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Şeker",
+      "Marşmelov",
+      "Vanilya"
+    ]
   },
   "longevity": {
-    "veryWeak": "8",
+    "veryWeak": "9",
     "weak": "13",
-    "moderate": "5",
+    "moderate": "6",
     "longLasting": "1",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "16",
-    "moderate": "5",
+    "intimate": "17",
+    "moderate": "6",
     "strong": "2",
     "enormous": "2"
   },
   "genderVoting": {
-    "female": "16",
+    "female": "19",
     "moreFemale": "4",
     "unisex": "3",
     "moreMale": "1",
@@ -78,8 +111,8 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "0",
-    "fair": "9",
-    "goodValue": "7",
+    "fair": "10",
+    "goodValue": "9",
     "greatValue": "9"
   },
   "remindsMeOf": [
@@ -88,12 +121,16 @@
       "name": "Matcha Latte"
     },
     {
+      "brand": "MAİSON MATAHA",
+      "name": "Escapade Gourmande"
+    },
+    {
       "brand": "DEMETER FRAGRANCE",
       "name": "Marshmallow"
     },
     {
-      "brand": "MAİSON MATAHA",
-      "name": "Escapade Gourmande"
+      "brand": "THE DUA BRAND",
+      "name": "Sweet Peepin'"
     },
     {
       "brand": "DEMETER FRAGRANCE",
@@ -112,10 +149,6 @@
       "name": "Marshmallow Mist"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "Marshmallow Blush"
-    },
-    {
       "brand": "THE DUA BRAND",
       "name": "Heavenly Dream of Marshmallow Loaf"
     },
@@ -128,11 +161,15 @@
       "name": "Falak"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Vanilla Mousse"
+      "brand": "PARIS CORNER",
+      "name": "Marshmallow Blush"
     }
   ],
   "peopleAlsoLike": [
+    {
+      "brand": "SABRİNA CARPENTER",
+      "name": "Sweet Tooth"
+    },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Wrapped in Vanilla"
@@ -167,11 +204,7 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Strawberry Snowflakes"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '71"
+      "name": "Covered In Roses"
     },
     {
       "brand": "BURBERRY",
@@ -187,11 +220,12 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Warm Musk"
+      "name": "Champagne Toast"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Champagne Toast"
+      "name": "Warm Musk"
     }
-  ]
+  ],
+  "comments": []
 }

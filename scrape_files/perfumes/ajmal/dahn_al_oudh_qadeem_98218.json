@@ -17,6 +17,30 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -41,7 +65,10 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Oud"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -80,24 +107,16 @@
       "name": "Dahn Oudh Al Shams"
     },
     {
-      "brand": "BORTNİKOFF",
-      "name": "Oud Hindi"
-    },
-    {
       "brand": "KHALİS",
       "name": "Oud Al Fakhir"
     },
     {
+      "brand": "BORTNİKOFF",
+      "name": "Oud Hindi"
+    },
+    {
       "brand": "KHADLAJ PERFUMES",
       "name": "Mystical Indian Oud Pure"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "The Night"
-    },
-    {
-      "brand": "NABEEL",
-      "name": "Dahn Al Oud Hindi"
     }
   ],
   "peopleAlsoLike": [
@@ -161,5 +180,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Kouros"
     }
-  ]
+  ],
+  "comments": []
 }

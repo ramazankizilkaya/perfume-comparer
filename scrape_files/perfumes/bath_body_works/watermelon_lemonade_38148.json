@@ -80,97 +80,37 @@
     "base": [
       "Misk",
       "Sedir"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "12",
-    "weak": "26",
-    "moderate": "20",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "24",
-    "moderate": "20",
-    "strong": "1",
-    "enormous": "7"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "34",
-    "moreFemale": "11",
-    "unisex": "5",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "20",
-    "goodValue": "18",
-    "greatValue": "20"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BODYCOLOGY",
-      "name": "Watermelon Splash"
-    },
-    {
-      "brand": "ESCADA",
-      "name": "Sorbetto Rosso"
-    },
-    {
-      "brand": "RAMMSTEİN",
-      "name": "Dynamit for Her"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Watermelon Mojito"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Groovy Watermelon"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Romantic Wish"
-    },
-    {
-      "brand": "AVON",
-      "name": "Crazy Fun Attitude"
-    },
-    {
-      "brand": "LE MONDE GOURMAND",
-      "name": "Punch Aux Fruits"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Pink Watermelon Blast"
-    },
-    {
-      "brand": "RALPH LAUREN",
-      "name": "Ralph Fresh"
-    },
-    {
-      "brand": "BOY SMELLS",
-      "name": "Water Melons"
-    },
-    {
-      "brand": "HOLLİSTER",
-      "name": "Watermelon + Mint"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Melon Sorbet"
-    },
-    {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Jungle Fantasy"
-    },
-    {
-      "brand": "OAKCHA",
-      "name": "Watermelon Jam"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "MARC JACOBS",
@@ -232,5 +172,6 @@
       "brand": "BRİTNEY SPEARS",
       "name": "Midnight Fantasy"
     }
-  ]
+  ],
+  "comments": []
 }

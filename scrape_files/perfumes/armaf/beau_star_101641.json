@@ -33,6 +33,34 @@
     {
       "name": "tuzlu",
       "width": "46.8%"
+    },
+    {
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -67,7 +95,8 @@
     ],
     "base": [
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -148,6 +177,10 @@
       "name": "Club de Nuit Blue Iconic"
     },
     {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Urban Man"
+    },
+    {
       "brand": "DİOR",
       "name": "Sauvage"
     },
@@ -168,12 +201,12 @@
       "name": "Vintage Radio"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas Black"
-    },
-    {
       "brand": "PRADA",
       "name": "Luna Rossa Ocean"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Black"
     },
     {
       "brand": "ARMAF",
@@ -182,10 +215,7 @@
     {
       "brand": "ARMAF",
       "name": "El Cielo Pour Homme"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Odyssey Homme"
     }
-  ]
+  ],
+  "comments": []
 }

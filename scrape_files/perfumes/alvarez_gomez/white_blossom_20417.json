@@ -29,13 +29,41 @@
     {
       "name": "çiçeksi",
       "width": "42.1739%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "1",
+    "score": "4.50",
+    "votesCount": "2",
     "breakdown": {
-      "love": "0",
+      "love": "1",
       "like": "1",
       "ok": "0",
       "dislike": "0",
@@ -43,12 +71,12 @@
     }
   },
   "seasons": {
-    "winter": "0",
-    "spring": "0",
-    "summer": "1",
-    "autumn": "1",
-    "day": "0",
-    "night": "1"
+    "winter": "1",
+    "spring": "1",
+    "summer": "2",
+    "autumn": "2",
+    "day": "1",
+    "night": "2"
   },
   "notes": {
     "top": [],
@@ -67,17 +95,17 @@
     "veryWeak": "0",
     "weak": "0",
     "moderate": "2",
-    "longLasting": "0",
+    "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "1",
     "moderate": "2",
     "strong": "2",
-    "enormous": "1"
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "0",
+    "female": "1",
     "moreFemale": "0",
     "unisex": "1",
     "moreMale": "0",
@@ -88,7 +116,7 @@
     "overpriced": "0",
     "fair": "0",
     "goodValue": "0",
-    "greatValue": "0"
+    "greatValue": "1"
   },
   "remindsMeOf": [
     {
@@ -108,5 +136,6 @@
       "name": "Miu Miu Fleur D’Argent"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

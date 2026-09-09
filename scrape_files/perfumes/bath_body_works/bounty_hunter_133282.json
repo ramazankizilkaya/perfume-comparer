@@ -27,11 +27,11 @@
       "width": "57.6316%"
     },
     {
-      "name": "toprak",
+      "name": "deniz",
       "width": "52.1052%"
     },
     {
-      "name": "deniz",
+      "name": "toprak",
       "width": "52.1052%"
     },
     {
@@ -41,42 +41,76 @@
     {
       "name": "balsamik",
       "width": "46.5788%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.87",
-    "votesCount": "15",
+    "score": "3.79",
+    "votesCount": "19",
     "breakdown": {
-      "love": "4",
-      "like": "8",
-      "ok": "1",
-      "dislike": "1",
+      "love": "5",
+      "like": "9",
+      "ok": "2",
+      "dislike": "2",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "7",
-    "spring": "3",
-    "summer": "3",
-    "autumn": "7",
-    "day": "5",
-    "night": "3"
+    "winter": "9",
+    "spring": "5",
+    "summer": "4",
+    "autumn": "9",
+    "day": "7",
+    "night": "5"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Paçuli",
+      "Deniz Tuzu",
+      "Odunsu Notalar",
+      "Güneş notaları"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
-    "weak": "1",
-    "moderate": "2",
+    "weak": "2",
+    "moderate": "3",
     "longLasting": "2",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "2",
+    "intimate": "2",
+    "moderate": "3",
     "strong": "0",
     "enormous": "0"
   },
@@ -85,12 +119,12 @@
     "moreFemale": "0",
     "unisex": "1",
     "moreMale": "4",
-    "male": "3"
+    "male": "5"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "1",
+    "fair": "2",
     "goodValue": "1",
     "greatValue": "0"
   },
@@ -118,32 +152,28 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "LUSH",
-      "name": "Lord of Misrule"
+      "brand": "BATH & BODY WORKS",
+      "name": "Bounty Hunter Body Spray"
     },
     {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "Autumn Vibes"
     },
     {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Sailing Day"
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bombshell Celebration"
     },
     {
-      "brand": "IMAGİNARY AUTHORS",
-      "name": "The Language Of Glaciers"
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bare Sueded Vanilla"
     },
     {
       "brand": "VALENTİNO",
       "name": "Valentino Donna Born In Roma"
     },
     {
-      "brand": "ALREHAB PERFUMES",
-      "name": "Choco Musk Eau de Parfum"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '59"
+      "brand": "GİVENCHY",
+      "name": "L'Interdit Eau de Parfum"
     },
     {
       "brand": "GUCCİ",
@@ -155,11 +185,19 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Nocturnal Rose"
+      "name": "Winter Candy Apple"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Choco Musk"
     },
     {
       "brand": "HERETİC PARFUM",
       "name": "Nosferatu"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Very Sexy Blush"
     },
     {
       "brand": "PRADA",
@@ -170,12 +208,9 @@
       "name": "Hawas Ice"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Dressed In White"
-    },
-    {
-      "brand": "BURBERRY",
-      "name": "Goddess"
+      "brand": "MARC JACOBS",
+      "name": "Daisy"
     }
-  ]
+  ],
+  "comments": []
 }

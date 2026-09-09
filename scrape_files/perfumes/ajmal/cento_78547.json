@@ -27,11 +27,11 @@
       "width": "76.6667%"
     },
     {
-      "name": "çiçeksi",
+      "name": "deri",
       "width": "68.8889%"
     },
     {
-      "name": "deri",
+      "name": "çiçeksi",
       "width": "68.8889%"
     },
     {
@@ -41,15 +41,39 @@
     {
       "name": "animalik",
       "width": "49.4445%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.83",
+    "score": "3.88",
     "votesCount": "24",
     "breakdown": {
       "love": "8",
-      "like": "6",
-      "ok": "9",
+      "like": "7",
+      "ok": "8",
       "dislike": "0",
       "hate": "1"
     }
@@ -75,7 +99,8 @@
       "Yosun",
       "Deri",
       "Odunsu Notalar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -100,7 +125,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "2",
-    "fair": "9",
+    "fair": "8",
     "goodValue": "2",
     "greatValue": "11"
   },
@@ -108,18 +133,6 @@
     {
       "brand": "ALFRED SUNG",
       "name": "Sung Homme"
-    },
-    {
-      "brand": "COSTUME NATIONAL",
-      "name": "Cyber Garden"
-    },
-    {
-      "brand": "AJMAL",
-      "name": "Verde"
-    },
-    {
-      "brand": "EIGHT & BOB",
-      "name": "Le Trou 19 du Phare"
     },
     {
       "brand": "ORİFLAME",
@@ -130,12 +143,20 @@
       "name": "Spiceair"
     },
     {
+      "brand": "EIGHT & BOB",
+      "name": "Le Trou 19 du Phare"
+    },
+    {
       "brand": "CHANEL",
       "name": "Egoiste Platinum"
     },
     {
       "brand": "AJMAL",
       "name": "Vision"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Verde"
     }
   ],
   "peopleAlsoLike": [
@@ -199,5 +220,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
     }
-  ]
+  ],
+  "comments": []
 }

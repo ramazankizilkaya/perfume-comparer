@@ -23,41 +23,73 @@
       "width": "82.4999%"
     },
     {
-      "name": "aromatik",
+      "name": "taze",
       "width": "56.25%"
     },
     {
-      "name": "taze",
+      "name": "aromatik",
       "width": "56.25%"
     },
     {
       "name": "ozonik",
       "width": "47.5001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.52",
-    "votesCount": "29",
+    "score": "4.47",
+    "votesCount": "32",
     "breakdown": {
-      "love": "19",
-      "like": "8",
-      "ok": "1",
+      "love": "20",
+      "like": "9",
+      "ok": "2",
       "dislike": "0",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "5",
-    "spring": "6",
-    "summer": "6",
-    "autumn": "5",
-    "day": "5",
-    "night": "5"
+    "winter": "6",
+    "spring": "8",
+    "summer": "8",
+    "autumn": "6",
+    "day": "6",
+    "night": "6"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Okaliptus",
+      "Çay"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -82,11 +114,15 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "0",
-    "fair": "1",
+    "fair": "2",
     "goodValue": "3",
     "greatValue": "3"
   },
   "remindsMeOf": [
+    {
+      "brand": "CURATRİX",
+      "name": "Private Eye"
+    },
     {
       "brand": "DEMETER FRAGRANCE",
       "name": "Black Tea"
@@ -157,5 +193,6 @@
       "brand": "BURBERRY",
       "name": "Burberry Her"
     }
-  ]
+  ],
+  "comments": []
 }

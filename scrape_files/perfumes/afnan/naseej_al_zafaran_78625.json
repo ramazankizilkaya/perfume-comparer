@@ -15,32 +15,56 @@
       "width": "100%"
     },
     {
-      "name": "ud",
-      "width": "59.9144%"
-    },
-    {
-      "name": "metalik",
-      "width": "59.9144%"
+      "name": "odunsu",
+      "width": "64.359%"
     },
     {
       "name": "taze baharatlı",
-      "width": "53.9316%"
+      "width": "61.7947%"
     },
     {
-      "name": "deri",
-      "width": "53.9316%"
+      "name": "ud",
+      "width": "60.7692%"
     },
     {
-      "name": "odunsu",
-      "width": "52.1368%"
+      "name": "metalik",
+      "width": "53.0769%"
     },
     {
       "name": "gül",
-      "width": "47.9488%"
+      "width": "50.5129%"
     },
     {
-      "name": "tütün",
-      "width": "47.9488%"
+      "name": "aromatik",
+      "width": "49.487%"
+    },
+    {
+      "name": "deri",
+      "width": "48.4615%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -76,7 +100,8 @@
     "base": [
       "Vetiver",
       "Tatlı Notlar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -120,24 +145,12 @@
       "name": "Amber Straps"
     },
     {
-      "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
-      "name": "Patchouli d'Or Light"
-    },
-    {
       "brand": "ANGEL SCHLESSER",
       "name": "Angel Schlesser Femme"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah"
-    },
-    {
       "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
-      "name": "Patchouli Magique"
-    },
-    {
-      "brand": "L'ARTİSAN PARFUMEUR",
-      "name": "Noir Exquis"
+      "name": "Patchouli d'Or Light"
     },
     {
       "brand": "ORİFLAME",
@@ -148,24 +161,37 @@
       "name": "Mistika (Мистика)"
     },
     {
-      "brand": "MONTALE",
-      "name": "Pure Love"
+      "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
+      "name": "Patchouli Magique"
+    },
+    {
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Noir Exquis"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah"
     },
     {
       "brand": "DİOR",
       "name": "Joy by Dior"
     },
     {
-      "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
-      "name": "Елена (Elena)"
+      "brand": "MONTALE",
+      "name": "Pure Love"
     },
     {
       "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
       "name": "Tete-a-Tete"
     },
     {
+      "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
+      "name": "Елена (Elena)"
+    },
+    {
       "brand": "YVES ROCHER",
       "name": "Clea"
     }
-  ]
+  ],
+  "comments": []
 }

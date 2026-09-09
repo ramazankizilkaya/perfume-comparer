@@ -21,6 +21,34 @@
     {
       "name": "deniz",
       "width": "35.6%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -45,7 +73,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Mineral notaları",
+      "Deniz Tuzu"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -157,5 +189,6 @@
       "brand": "ACQUA Dİ PARMA",
       "name": "Acqua di Parma Blu Mediterraneo Arancia di Capri"
     }
-  ]
+  ],
+  "comments": []
 }

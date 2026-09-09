@@ -1,7 +1,7 @@
 {
   "name": "Bounty Hunter Body Spray Bath & Body Works",
   "targetGender": "kadınlar ve erkekler için",
-  "fragranceFamily": "Fresh",
+  "fragranceFamily": "Woody",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.133283.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Bounty-Hunter-Body-Spray-133283.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Bath & Body Works markasının Bounty Hunter Body Spray parfümü, kadınlar ve erkekler için bir kokudur. Bu yeni bir parfüm. Bounty Hunter Body Spray, 2026 yılında piyasaya sürüldü. Kokuda Metalik notalar, Güneş notaları, Paçuli ve Deniz Tuzu notaları bulunur.",
   "mainAccords": [
     {
-      "name": "metalik",
+      "name": "paçuli",
       "width": "100%"
     },
     {
-      "name": "paçuli",
+      "name": "metalik",
       "width": "100%"
     },
     {
@@ -27,7 +27,7 @@
       "width": "71.9999%"
     },
     {
-      "name": "aldehitli",
+      "name": "sıcak baharatlı",
       "width": "64.9998%"
     },
     {
@@ -35,20 +35,48 @@
       "width": "64.9998%"
     },
     {
-      "name": "sıcak baharatlı",
+      "name": "aldehitli",
       "width": "64.9998%"
-    },
-    {
-      "name": "toprak",
-      "width": "58.0001%"
     },
     {
       "name": "deniz",
       "width": "58.0001%"
     },
     {
+      "name": "toprak",
+      "width": "58.0001%"
+    },
+    {
       "name": "balsamik",
       "width": "51%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +101,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Metalik notalar",
+      "Güneş notaları",
+      "Paçuli",
+      "Deniz Tuzu"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -118,13 +152,13 @@
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Kalan"
+    },
+    {
+      "brand": "ORTO PARİSİ",
+      "name": "Risvelium"
     }
   ],
   "peopleAlsoLike": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Glory Cologne Mist"
-    },
     {
       "brand": "GİORGİO ARMANİ",
       "name": "Acqua di Giò Profondo Eau de Parfum (2024)"
@@ -134,20 +168,16 @@
       "name": "Gentleman Eau de Parfum Boisée"
     },
     {
-      "brand": "GİVENCHY",
-      "name": "Gentleman Eau de Parfum Reserve Privée"
-    },
-    {
       "brand": "CHANEL",
       "name": "Allure Homme Sport Superleggera"
     },
     {
-      "brand": "MİCHAEL MALUL LONDON",
-      "name": "Cartoonist"
-    },
-    {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male Le Parfum"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "Fierce"
     },
     {
       "brand": "PRADA",
@@ -156,6 +186,10 @@
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "La Nuit de l'Homme"
+    },
+    {
+      "brand": "MİCHAEL MALUL LONDON",
+      "name": "Cartoonist"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -178,8 +212,13 @@
       "name": "Ralph's Club New York"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah"
+    },
+    {
       "brand": "GUERLAİN",
       "name": "L'Homme Idéal Extrême"
     }
-  ]
+  ],
+  "comments": []
 }

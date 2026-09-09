@@ -43,7 +43,7 @@
     }
   },
   "seasons": {
-    "winter": "16",
+    "winter": "17",
     "spring": "3",
     "summer": "3",
     "autumn": "3",
@@ -53,53 +53,44 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kavun",
+      "Armut",
+      "Buz",
+      "Kar",
+      "Elma",
+      "Misk"
+    ]
   },
   "longevity": {
-    "veryWeak": "7",
-    "weak": "3",
-    "moderate": "7",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "9",
-    "moderate": "7",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "16",
-    "moreFemale": "2",
-    "unisex": "4",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "3",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "9",
-    "goodValue": "5",
-    "greatValue": "7"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Fresh Sparkling Snow"
-    },
-    {
-      "brand": "PHİLOSOPHY",
-      "name": "Snow Angel"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Rapunzel"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Thailand Sweet Kiwi & Starfruit"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -161,5 +152,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Sunset Glow"
     }
-  ]
+  ],
+  "comments": []
 }

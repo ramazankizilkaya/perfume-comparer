@@ -49,17 +49,41 @@
     {
       "name": "sulu",
       "width": "51.0449%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.93",
-    "votesCount": "214",
+    "score": "3.91",
+    "votesCount": "216",
     "breakdown": {
       "love": "67",
       "like": "91",
       "ok": "34",
-      "dislike": "19",
-      "hate": "3"
+      "dislike": "20",
+      "hate": "4"
     }
   },
   "seasons": {
@@ -86,7 +110,8 @@
       "Amber",
       "Vanilya",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "11",
@@ -133,28 +158,28 @@
       "name": "Eaudemoiselle de Givenchy Ambre Velours"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Kismet for Men"
-    },
-    {
       "brand": "AFNAN",
       "name": "Turathi Brown"
     },
     {
-      "brand": "MEMO PARİS",
-      "name": "African Leather"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Kismet for Men"
     },
     {
       "brand": "RASASİ",
       "name": "Roohy Tehbak"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Café Rose (2023)"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Muna"
+    },
+    {
+      "brand": "MEMO PARİS",
+      "name": "African Leather"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Café Rose (2023)"
     },
     {
       "brand": "NİNA RİCCİ",
@@ -163,14 +188,6 @@
     {
       "brand": "ZARA",
       "name": "Perpetual Oud"
-    },
-    {
-      "brand": "JENNY GLOW",
-      "name": "Velvet & Oud"
-    },
-    {
-      "brand": "BVLGARİ",
-      "name": "Splendida Patchouli Tentation"
     }
   ],
   "peopleAlsoLike": [
@@ -234,5 +251,6 @@
       "brand": "JEAN PAUL GAULTİER",
       "name": "Classique"
     }
-  ]
+  ],
+  "comments": []
 }

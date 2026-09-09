@@ -33,26 +33,50 @@
     {
       "name": "amber",
       "width": "46.6669%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.35",
-    "votesCount": "20",
+    "score": "4.30",
+    "votesCount": "23",
     "breakdown": {
-      "love": "11",
-      "like": "5",
-      "ok": "4",
+      "love": "12",
+      "like": "6",
+      "ok": "5",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "4",
-    "spring": "9",
-    "summer": "7",
-    "autumn": "9",
-    "day": "10",
-    "night": "8"
+    "winter": "5",
+    "spring": "10",
+    "summer": "8",
+    "autumn": "10",
+    "day": "11",
+    "night": "9"
   },
   "notes": {
     "top": [
@@ -69,7 +93,8 @@
       "Paçuli",
       "Amber",
       "Beyaz bal"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -94,7 +119,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "4",
+    "fair": "5",
     "goodValue": "4",
     "greatValue": "4"
   },
@@ -126,12 +151,12 @@
       "name": "Her Confession"
     },
     {
-      "brand": "XERJOFF",
-      "name": "XJ 1861 Decas"
-    },
-    {
       "brand": "AHMED AL MAGHRİBİ",
       "name": "Rose Noir"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Decas"
     },
     {
       "brand": "AHMED AL MAGHRİBİ",
@@ -165,5 +190,6 @@
       "brand": "PARFUMS DE MARLY",
       "name": "Oajan"
     }
-  ]
+  ],
+  "comments": []
 }

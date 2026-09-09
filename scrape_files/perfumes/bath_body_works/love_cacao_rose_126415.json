@@ -1,7 +1,7 @@
 {
   "name": "Love Cacao Rose Bath & Body Works",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Gourmand",
+  "fragranceFamily": "Floral",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.126415.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Love-Cacao-Rose-126415.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Bath & Body Works markasının Love Cacao Rose parfümü, kadınlar için Çiçeksi bir kokudur. Love Cacao Rose, 2022 yılında piyasaya sürüldü. Kokuda Kakao kabuğu ve Gül notaları bulunur.",
   "mainAccords": [
     {
-      "name": "kakao",
+      "name": "gül",
       "width": "100%"
     },
     {
-      "name": "gül",
+      "name": "kakao",
       "width": "100%"
     },
     {
@@ -29,13 +29,41 @@
     {
       "name": "tatlı",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "",
-    "votesCount": "",
+    "score": "5.00",
+    "votesCount": "1",
     "breakdown": {
-      "love": "0",
+      "love": "1",
       "like": "0",
       "ok": "0",
       "dislike": "0",
@@ -43,33 +71,37 @@
     }
   },
   "seasons": {
-    "winter": "0",
-    "spring": "0",
+    "winter": "1",
+    "spring": "1",
     "summer": "0",
-    "autumn": "0",
-    "day": "0",
-    "night": "0"
+    "autumn": "1",
+    "day": "1",
+    "night": "1"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kakao kabuğu",
+      "Gül"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
-    "moderate": "0",
+    "moderate": "1",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
-    "moderate": "0",
+    "moderate": "1",
     "strong": "0",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "0",
+    "female": "1",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "0",
@@ -83,5 +115,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

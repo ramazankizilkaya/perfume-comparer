@@ -1,7 +1,7 @@
 {
   "name": "Leif Al Haramain Perfumes",
   "targetGender": "kadınlar ve erkekler için",
-  "fragranceFamily": "Aromatic",
+  "fragranceFamily": "Woody",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.133370.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Al-Haramain-Perfumes/Leif-133370.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Al Haramain Perfumes markasının Leif parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu yeni bir parfüm. Leif, 2025 yılında piyasaya sürüldü. Üst notalar: Pembe biber, Heliotrope, Bergamot ve Kakule; orta notalar: Badem, Lavanta, Sardunya ve Yasemin; alt notalar Guayak ağacı, Sandal ağacı, Vanilya, Amber ve Oud.",
   "mainAccords": [
     {
-      "name": "aromatik",
+      "name": "odunsu",
       "width": "100%"
     },
     {
-      "name": "odunsu",
+      "name": "aromatik",
       "width": "100%"
     },
     {
@@ -43,32 +43,60 @@
       "width": "65%"
     },
     {
-      "name": "amber",
+      "name": "beyaz çiçeksi",
       "width": "63.3334%"
     },
     {
-      "name": "beyaz çiçeksi",
+      "name": "ud",
       "width": "63.3334%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "4",
+    "score": "4.29",
+    "votesCount": "7",
     "breakdown": {
-      "love": "2",
-      "like": "1",
+      "love": "4",
+      "like": "2",
       "ok": "0",
       "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "2",
-    "spring": "2",
+    "winter": "4",
+    "spring": "5",
     "summer": "0",
-    "autumn": "2",
-    "day": "3",
-    "night": "1"
+    "autumn": "5",
+    "day": "6",
+    "night": "2"
   },
   "notes": {
     "top": [
@@ -89,13 +117,14 @@
       "Vanilya",
       "Amber",
       "Oud"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
     "moderate": "1",
-    "longLasting": "2",
+    "longLasting": "4",
     "eternal": "0"
   },
   "sillage": {
@@ -108,20 +137,20 @@
     "female": "0",
     "moreFemale": "0",
     "unisex": "0",
-    "moreMale": "0",
-    "male": "3"
+    "moreMale": "1",
+    "male": "5"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
     "fair": "0",
-    "goodValue": "2",
-    "greatValue": "0"
+    "goodValue": "3",
+    "greatValue": "1"
   },
   "remindsMeOf": [
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Pegasus Exclusif"
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Detour Noir Intense"
     },
     {
       "brand": "PARFUMS DE MARLY",
@@ -132,9 +161,31 @@
       "name": "Portfolio Royale Stallion"
     },
     {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Detour Noir Intense"
+      "brand": "ORİENTİCA PREMİUM",
+      "name": "XO Exclusif Oud Noir"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [
+    {
+      "brand": "AZZARO",
+      "name": "Azzaro pour Homme"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Sauvage"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Bleu de Chanel"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Supremacy Collector's Edition Pour Homme"
+    },
+    {
+      "brand": "NAUTİCA",
+      "name": "Nautica Voyage"
+    }
+  ],
+  "comments": []
 }

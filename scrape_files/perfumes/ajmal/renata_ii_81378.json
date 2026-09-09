@@ -27,8 +27,32 @@
       "width": "45.75%"
     },
     {
-      "name": "pudralı",
+      "name": "tatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -64,7 +88,8 @@
       "Sedir",
       "Tonka fasulyesi",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -113,6 +138,10 @@
       "name": "Alien Fusion"
     },
     {
+      "brand": "SLAVA ZAİTSEV",
+      "name": "Maroussia"
+    },
+    {
       "brand": "KENZO",
       "name": "Kenzo Jungle L'Elephant"
     },
@@ -123,6 +152,10 @@
     {
       "brand": "LANCÔME",
       "name": "Poeme"
+    },
+    {
+      "brand": "FRANCK OLİVİER",
+      "name": "Franck Olivier"
     },
     {
       "brand": "LANVİN",
@@ -149,16 +182,9 @@
       "name": "5th Avenue"
     },
     {
-      "brand": "DİOR",
-      "name": "Poison"
-    },
-    {
-      "brand": "AJMAL",
-      "name": "Shadow for Her"
-    },
-    {
       "brand": "AJMAL",
       "name": "Renata"
     }
-  ]
+  ],
+  "comments": []
 }

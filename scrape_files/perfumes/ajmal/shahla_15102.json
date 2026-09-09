@@ -1,7 +1,7 @@
 {
   "name": "Shahla Ajmal",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Floral",
+  "fragranceFamily": "Woody",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15102.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Shahla-15102.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Ajmal markasının Shahla parfümü, kadınlar için Çiçeksi bir kokudur. Shahla, 2007 yılında piyasaya sürüldü. Kokuda Sedir, Portakal çiçeği, Vanilya, Bergamot, Mandalina ve Çiçeksi Notalar notaları bulunur.",
   "mainAccords": [
     {
-      "name": "beyaz çiçeksi",
+      "name": "odunsu",
       "width": "100%"
     },
     {
-      "name": "odunsu",
+      "name": "beyaz çiçeksi",
       "width": "100%"
     },
     {
@@ -37,6 +37,30 @@
     {
       "name": "sabunsu",
       "width": "47.5%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,7 +85,15 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Sedir",
+      "Portakal çiçeği",
+      "Vanilya",
+      "Bergamot",
+      "Mandalina",
+      "Çiçeksi Notalar"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -145,12 +177,13 @@
       "name": "The Library Collection Opus V"
     },
     {
-      "brand": "KENZO",
-      "name": "Flower by Kenzo"
-    },
-    {
       "brand": "DAVİD JOURQUİN",
       "name": "Cuir Altesse"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Flower by Kenzo"
     }
-  ]
+  ],
+  "comments": []
 }

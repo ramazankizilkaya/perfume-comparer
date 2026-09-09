@@ -48,10 +48,10 @@
     }
   ],
   "rating": {
-    "score": "4.24",
-    "votesCount": "29",
+    "score": "4.27",
+    "votesCount": "30",
     "breakdown": {
-      "love": "15",
+      "love": "16",
       "like": "8",
       "ok": "4",
       "dislike": "2",
@@ -61,97 +61,51 @@
   "seasons": {
     "winter": "4",
     "spring": "5",
-    "summer": "13",
+    "summer": "14",
     "autumn": "9",
-    "day": "12",
+    "day": "13",
     "night": "5"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kayısı",
+      "Pembe şakayık",
+      "Vanilya",
+      "Misk",
+      "Pralin"
+    ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "3",
-    "moderate": "6",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "6",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "6",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "3",
-    "greatValue": "4"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Forever Sunshine"
-    },
-    {
-      "brand": "TOUS",
-      "name": "Your Moments"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Miss Dior Blooming Bouquet"
-    },
-    {
-      "brand": "JESSİCA SİMPSON",
-      "name": "Fancy Love"
-    },
-    {
-      "brand": "DAVİDOFF",
-      "name": "Cool Water Sea Rose"
-    },
-    {
-      "brand": "BODY FANTASİES",
-      "name": "Sweet Sunrise"
-    },
-    {
-      "brand": "AKRO",
-      "name": "Glow"
-    },
-    {
-      "brand": "BURBERRY",
-      "name": "Burberry Women"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Golden Sunflower"
-    },
-    {
-      "brand": "BOY SMELLS",
-      "name": "Sugar Baby"
-    },
-    {
-      "brand": "PHLUR",
-      "name": "Vanilla Nectar"
-    },
-    {
-      "brand": "COACH",
-      "name": "Coach Poppy Flower"
-    },
-    {
-      "brand": "LE MONDE GOURMAND",
-      "name": "000"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "SOL DE JANEİRO",
@@ -162,12 +116,16 @@
       "name": "Forever Sunshine"
     },
     {
-      "brand": "CLEAN",
-      "name": "Skin"
+      "brand": "ARİANA GRANDE",
+      "name": "Sweet Like Candy"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Among The Clouds"
+      "name": "Open Sky"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Fantasy"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -178,24 +136,16 @@
       "name": "Vanilla Candy Rock Sugar | 42"
     },
     {
-      "brand": "KAYALİ FRAGRANCES",
-      "name": "Yum Pistachio Gelato | 33"
-    },
-    {
       "brand": "GLOSSİER",
       "name": "You Fleur"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Black Opium"
+      "brand": "BATH & BODY WORKS",
+      "name": "Vanilla Bean Noel"
     },
     {
-      "brand": "COMMODİTY",
-      "name": "Milk"
-    },
-    {
-      "brand": "JUİCY COUTURE",
-      "name": "Viva la Juicy Gold Couture"
+      "brand": "BATH & BODY WORKS",
+      "name": "Whipped Coconut Milkshake"
     },
     {
       "brand": "PHLUR",
@@ -206,6 +156,10 @@
       "name": "Cheirosa '62"
     },
     {
+      "brand": "JUİCY COUTURE",
+      "name": "Viva la Juicy"
+    },
+    {
       "brand": "CAROLİNA HERRERA",
       "name": "Good Girl"
     },
@@ -213,5 +167,6 @@
       "brand": "PRADA",
       "name": "Prada Paradoxe"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -25,6 +25,30 @@
     {
       "name": "tatlı",
       "width": "37%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -49,7 +73,10 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Misk"
+    ]
   },
   "longevity": {
     "veryWeak": "4",
@@ -88,12 +115,12 @@
       "name": "Cotton flower"
     },
     {
-      "brand": "AJMAL",
-      "name": "Violet Musc"
-    },
-    {
       "brand": "CARİTA",
       "name": "Carita Eau de Parfum"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Violet Musc"
     },
     {
       "brand": "LOLLİA",
@@ -193,5 +220,6 @@
       "brand": "AMOUAGE",
       "name": "Epic Woman"
     }
-  ]
+  ],
+  "comments": []
 }

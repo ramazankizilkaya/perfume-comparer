@@ -33,6 +33,30 @@
     {
       "name": "pudralı",
       "width": "51.0549%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -68,7 +92,8 @@
       "Sandal ağacı",
       "Sedir",
       "Zeytin ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "9",
@@ -145,12 +170,12 @@
       "name": "Shalimar Eau de Parfum"
     },
     {
-      "brand": "DİOR",
-      "name": "Poison"
-    },
-    {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez For Her"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Poison"
     },
     {
       "brand": "CHANEL",
@@ -172,5 +197,6 @@
       "brand": "MUGLER",
       "name": "Alien"
     }
-  ]
+  ],
+  "comments": []
 }

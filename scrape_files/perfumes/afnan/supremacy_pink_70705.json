@@ -33,26 +33,54 @@
     {
       "name": "beyaz çiçeksi",
       "width": "51.7168%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.88",
-    "votesCount": "208",
+    "votesCount": "214",
     "breakdown": {
-      "love": "75",
-      "like": "67",
-      "ok": "37",
+      "love": "78",
+      "like": "68",
+      "ok": "39",
       "dislike": "23",
       "hate": "6"
     }
   },
   "seasons": {
     "winter": "26",
-    "spring": "94",
-    "summer": "74",
+    "spring": "98",
+    "summer": "78",
     "autumn": "48",
-    "day": "93",
-    "night": "24"
+    "day": "96",
+    "night": "25"
   },
   "notes": {
     "top": [
@@ -67,33 +95,34 @@
     "base": [
       "Misk",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
-    "weak": "11",
+    "weak": "12",
     "moderate": "52",
     "longLasting": "46",
     "eternal": "10"
   },
   "sillage": {
-    "intimate": "14",
+    "intimate": "15",
     "moderate": "52",
-    "strong": "42",
+    "strong": "43",
     "enormous": "10"
   },
   "genderVoting": {
-    "female": "110",
+    "female": "111",
     "moreFemale": "7",
     "unisex": "2",
     "moreMale": "2",
-    "male": "2"
+    "male": "4"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "3",
-    "fair": "37",
-    "goodValue": "44",
+    "fair": "39",
+    "goodValue": "45",
     "greatValue": "43"
   },
   "remindsMeOf": [
@@ -102,16 +131,24 @@
       "name": "Chloé Eau de Parfum"
     },
     {
-      "brand": "MONTALE",
-      "name": "Roses Musk"
-    },
-    {
       "brand": "ATTAR COLLECTİON",
       "name": "Rosa Galore"
     },
     {
+      "brand": "MONTALE",
+      "name": "Roses Musk"
+    },
+    {
       "brand": "MAUBOUSSİN",
       "name": "Mauboussin Rose Pour Elle"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'eau d'Issey"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Rose of Dreams"
     },
     {
       "brand": "TRUSSARDİ",
@@ -122,24 +159,16 @@
       "name": "Envy Me"
     },
     {
-      "brand": "ISSEY MİYAKE",
-      "name": "L'eau d'Issey"
-    },
-    {
-      "brand": "MONTALE",
-      "name": "Crystal Flowers"
-    },
-    {
       "brand": "BALMAİN BEAUTY",
       "name": "Eau d’Ivoire"
     },
     {
-      "brand": "ZİMAYA",
-      "name": "Rose of Dreams"
-    },
-    {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez For Her Musc Nude"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Crystal Flowers"
     },
     {
       "brand": "MARC JACOBS",
@@ -150,12 +179,12 @@
       "name": "Rose"
     },
     {
-      "brand": "CHANEL",
-      "name": "Chanel No 5 Parfum"
+      "brand": "MEMO PARİS",
+      "name": "Madurai"
     },
     {
-      "brand": "ESSENTİAL PARFUMS",
-      "name": "Rose Magnetic"
+      "brand": "LACOSTE FRAGRANCES",
+      "name": "L.12.12 Eau de Parfum Rose For Her"
     }
   ],
   "peopleAlsoLike": [
@@ -219,5 +248,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Nebras"
     }
-  ]
+  ],
+  "comments": []
 }

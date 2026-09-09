@@ -37,43 +37,76 @@
     {
       "name": "tatlı",
       "width": "44.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.30",
-    "votesCount": "30",
+    "votesCount": "37",
     "breakdown": {
-      "love": "20",
-      "like": "4",
-      "ok": "2",
+      "love": "23",
+      "like": "7",
+      "ok": "3",
       "dislike": "3",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "12",
-    "spring": "2",
-    "summer": "1",
-    "autumn": "10",
-    "day": "3",
-    "night": "9"
+    "winter": "17",
+    "spring": "5",
+    "summer": "2",
+    "autumn": "15",
+    "day": "6",
+    "night": "14"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Vanilya",
+      "Deri",
+      "Agar ağacı (Oud)"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
     "moderate": "0",
-    "longLasting": "6",
+    "longLasting": "7",
     "eternal": "5"
   },
   "sillage": {
     "intimate": "2",
     "moderate": "0",
-    "strong": "6",
+    "strong": "7",
     "enormous": "0"
   },
   "genderVoting": {
@@ -81,16 +114,20 @@
     "moreFemale": "0",
     "unisex": "8",
     "moreMale": "1",
-    "male": "5"
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "3",
+    "wayOverpriced": "4",
     "overpriced": "2",
-    "fair": "2",
+    "fair": "3",
     "goodValue": "2",
     "greatValue": "1"
   },
   "remindsMeOf": [
+    {
+      "brand": "CHANEL",
+      "name": "Le Lion Eau de Parfum"
+    },
     {
       "brand": "JOVOY PARİS",
       "name": "Private Label"
@@ -98,10 +135,6 @@
     {
       "brand": "VAN CLEEF & ARPELS",
       "name": "Rêve de Cashmere"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Le Lion Eau de Parfum"
     }
   ],
   "peopleAlsoLike": [
@@ -118,6 +151,10 @@
       "name": "The Night"
     },
     {
+      "brand": "AMOUAGE",
+      "name": "Epic Man"
+    },
+    {
       "brand": "LES INDEMODABLES",
       "name": "Vanille Havane"
     },
@@ -126,16 +163,20 @@
       "name": "Amber Aoud"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Material"
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Musc Ravageur"
     },
     {
       "brand": "XERJOFF",
-      "name": "Alexandria II"
+      "name": "XJ 1861 Naxos"
     },
     {
       "brand": "AMOUAGE",
-      "name": "Boundless"
+      "name": "Overture Man"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Angels' Share"
     },
     {
       "brand": "AMOUAGE",
@@ -151,19 +192,12 @@
     },
     {
       "brand": "AMOUAGE",
-      "name": "The Library Collection Rose Incense"
-    },
-    {
-      "brand": "AMOUAGE",
       "name": "Saffron Hamra"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Promise"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "Benjoin Bohème"
+      "brand": "AMOUAGE",
+      "name": "Reflection 45 Man"
     }
-  ]
+  ],
+  "comments": []
 }

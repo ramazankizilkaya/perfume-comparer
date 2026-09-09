@@ -2,7 +2,7 @@
   "name": "Art Du' Parfum Armaf",
   "targetGender": "erkekler için",
   "fragranceFamily": "Woody",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94299.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Armaf/Art-Du-Parfum-94299.html",
   "brand": "Armaf parfüm ve kolonya",
@@ -27,11 +27,11 @@
       "width": "75.9375%"
     },
     {
-      "name": "toprak",
+      "name": "lavanta",
       "width": "65%"
     },
     {
-      "name": "lavanta",
+      "name": "toprak",
       "width": "65%"
     },
     {
@@ -49,26 +49,54 @@
     {
       "name": "paçuli",
       "width": "51.875%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.15",
-    "votesCount": "67",
+    "score": "4.16",
+    "votesCount": "69",
     "breakdown": {
-      "love": "34",
-      "like": "21",
+      "love": "35",
+      "like": "22",
       "ok": "2",
       "dislike": "8",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "48",
-    "spring": "38",
+    "winter": "50",
+    "spring": "40",
     "summer": "19",
-    "autumn": "46",
-    "day": "29",
-    "night": "46"
+    "autumn": "48",
+    "day": "30",
+    "night": "49"
   },
   "notes": {
     "top": [
@@ -87,34 +115,35 @@
       "Amber",
       "Sandal ağacı",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
     "weak": "3",
     "moderate": "9",
-    "longLasting": "36",
-    "eternal": "7"
+    "longLasting": "39",
+    "eternal": "8"
   },
   "sillage": {
     "intimate": "2",
     "moderate": "9",
-    "strong": "35",
-    "enormous": "4"
+    "strong": "37",
+    "enormous": "5"
   },
   "genderVoting": {
     "female": "2",
     "moreFemale": "0",
     "unisex": "2",
     "moreMale": "12",
-    "male": "43"
+    "male": "47"
   },
   "priceVoting": {
     "wayOverpriced": "2",
     "overpriced": "1",
     "fair": "2",
-    "goodValue": "23",
-    "greatValue": "24"
+    "goodValue": "26",
+    "greatValue": "25"
   },
   "remindsMeOf": [
     {
@@ -168,12 +197,12 @@
       "name": "Club De Nuit Urban Elixir"
     },
     {
-      "brand": "ARMAF",
-      "name": "Odyssey Homme White Edition"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Odyssey Homme White Edition"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -223,5 +252,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -41,6 +41,38 @@
     {
       "name": "gül",
       "width": "46.4706%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "5",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -78,7 +110,8 @@
       "Meşe yosunu",
       "Sedir",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -98,7 +131,7 @@
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "0",
-    "male": "1"
+    "male": "2"
   },
   "priceVoting": {
     "wayOverpriced": "0",
@@ -108,6 +141,10 @@
     "greatValue": "1"
   },
   "remindsMeOf": [
+    {
+      "brand": "ARMAF",
+      "name": "Legesi Homme"
+    },
     {
       "brand": "RABANNE",
       "name": "XS"
@@ -123,11 +160,8 @@
     {
       "brand": "ARMAF",
       "name": "Ventana Pour Homme"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Legesi Homme"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

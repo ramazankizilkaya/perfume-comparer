@@ -33,6 +33,34 @@
     {
       "name": "aromatik",
       "width": "47.5%"
+    },
+    {
+      "name": "Online satın alın 19 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -72,33 +100,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "2",
+    "longLasting": "6",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "2",
+    "strong": "3",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "3",
+    "moreMale": "2",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ATKİNSONS",
+      "name": "Oud Save The Queen"
+    },
+    {
+      "brand": "PERRİS MONTE CARLO",
+      "name": "Ambre Gris"
+    },
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "I Am The Queen"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -160,5 +201,6 @@
       "brand": "LANVİN",
       "name": "Arpège"
     }
-  ]
+  ],
+  "comments": []
 }

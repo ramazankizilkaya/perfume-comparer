@@ -41,6 +41,34 @@
     {
       "name": "balsamik",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,33 +101,54 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "5",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "5",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Encounter"
+    },
+    {
+      "brand": "TRİSH MCEVOY",
+      "name": "Nº 8 Eau de Parfum"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bombshell Summer 2011"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bombshell Summer 2014"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Rare Carbon"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MARC JACOBS",
@@ -134,6 +183,10 @@
       "name": "Scandal By Night"
     },
     {
+      "brand": "DİOR",
+      "name": "Hypnotic Poison"
+    },
+    {
       "brand": "LOLİTA LEMPİCKA",
       "name": "Lolita Lempicka"
     },
@@ -156,10 +209,42 @@
     {
       "brand": "ARİANA GRANDE",
       "name": "Cloud"
+    }
+  ],
+  "comments": [],
+  "article": "## Koku Profili ve Açılış Notaları\nLüks parfüm dünyasında kendine özgü bir yer edinen Abercrombie & Fitch parfüm ve kolonya koleksiyonunun zarif üyelerinden biri olan **8 Wild Fields Abercrombie & Fitch incelemesi**, odunsu ve çiçeksi koku ailesinin en naif yansımalarından birini sunuyor. 2016 yılında kadınlar için piyasaya sürülen bu özel koku, **8 Wild Fields Abercrombie & Fitch notaları** incelendiğinde son derece sade ama bir o kadar da etkileyici bir üçlüyle karşımıza çıkıyor. Üst ve orta notalarında gizemli bir geçiş sunan kompozisyon; zengin sandal ağacı, büyüleyici gardenya ve egzotik orkide bileşenlerinden güç alıyor. Açılıştan itibaren cilde oturan bu yapı, pudralı ve laktonik dokunuşlarla zenginleşerek ten üzerinde adeta kadifemsi bir örtü oluşturuyor.\n\n## Kalıcılık, Yayılım ve Performans Değerlendirmesi\nBir parfümün başarısını belirleyen en temel unsurlardan biri olan performans, **8 Wild Fields Abercrombie & Fitch kalıcılığı** ve yayılım dengesiyle şekilleniyor. Edp formülasyonuyla sunulan bu zarif koku, topluluk oylamalarına göre 5 üzerinden 4.46 gibi oldukça yüksek bir puan alarak kalitesini kanıtlıyor. Topluluk verilerine ve kullanıcı istatistiklerine bakıldığında, parfümün yayılımı genellikle 'intimate' (tene yakın) ile 'moderate' (orta) seviyeler arasında değişiyor. Kalıcılık açısından ise ılımlı bir seyir izleyen koku, gün içerisinde tazelenmeye uygun, yormayan ve burun tıkamayan bir karaktere sahip.\n\n## Kimler ve Hangi Ortamlar İçin Uygun?\nHer mevsime uyum sağlayabilen esnek yapısıyla dikkat çeken 8 Wild Fields, mevsim tercihlerindeki dengeli dağılımıyla (özellikle sonbahar, yaz ve ilkbahar aylarında) yılın her günü dolabınızda bulundurabileceğiniz bir alternatiftir. Günlük kullanımda, ofis ortamlarında veya sakin buluşmalarda rafine tarzınızı yansıtmak için mükemmel bir seçimdir. Sıcak baharatlı ve odunsu alt tonları sayesinde hem gündüz hem de gece kullanımına rahatlıkla uyum sağlar.\n\n## Gerçek Kullanıcı Görüşleri ve Genel İzlenim\nGerçek kullanıcı yorumları ve istatistiksel oylar, bu parfümün özellikle doğal, taze ve çiçeksi kokuları seven kadınlarca cazip bulunduğunu gösteriyor. Yapaylıktan uzak, kremsi ve odunsu yapısıyla çevrenizdekileri rahatsız etmeden iz bırakan 8 Wild Fields Abercrombie & Fitch, imza koku arayışında olanlar için keşfedilmeyi bekleyen gizli bir hazine niteliğindedir.",
+  "faq": [
+    {
+      "question": "8 Wild Fields Abercrombie & Fitch hangi markaya aittir?",
+      "answer": "8 Wild Fields Abercrombie & Fitch, Amerikan merkezli global moda ve yaşam tarzı markası Abercrombie & Fitch'e aittir. Marka, parfüm ve kolonya koleksiyonlarında genç, dinamik ve modern koku trendlerini yansıtmaktadır."
     },
     {
-      "brand": "MARC JACOBS",
-      "name": "Daisy Dream"
+      "question": "8 Wild Fields Abercrombie & Fitch hangi yıl piyasaya sürülmüştür ve tasarımcısı (parfümörü) kimdir?",
+      "answer": "Bu özel kadın parfümü 2016 yılında piyasaya sürülmüştür. Parfümün resmi teknik verilerinde spesifik bir parfümör adı belirtilmemiştir."
+    },
+    {
+      "question": "8 Wild Fields Abercrombie & Fitch parfümünün konsantrasyonu (esans tipi) nedir?",
+      "answer": "8 Wild Fields, Edp (Eau de Parfum) esans tipine sahiptir. Bu konsantrasyon, koku bileşenlerinin yoğunluğunun ideal seviyede olduğunu ve tende dengeli bir kalıcılık sunduğunu gösterir."
+    },
+    {
+      "question": "8 Wild Fields Abercrombie & Fitch hangi mevsime ve hava şartlarına uygundur?",
+      "answer": "Kullanıcı oyları ve koku profili göz önüne alındığında, bu parfüm özellikle sonbahar, ilkbahar ve yaz aylarında dengeli bir performans sergiler. Hem serin hem de ılık hava koşullarında rahatlıkla kullanılabilir."
+    },
+    {
+      "question": "8 Wild Fields Abercrombie & Fitch parfümünün kalıcılığı ve yayılımı (silajı) ne kadardır?",
+      "answer": "Parfüm orta seviye kalıcılığa sahiptir ve yayılımı genellikle tene yakın (intimate) ile orta (moderate) mesafededir; bu da onu etrafı rahatsız etmeyen, zarif ve konforlu bir koku haline getirir."
+    },
+    {
+      "question": "8 Wild Fields Abercrombie & Fitch hangi ortamlarda ve yaş gruplarında tercih edilmelidir?",
+      "answer": "Odunsu, beyaz çiçeksi ve pudralı karakteri sayesinde ofis, günlük aktiviteler ve samimi buluşmalar için idealdir. Geniş bir yaş skalasına hitap etmekle birlikte, özellikle modern ve sofistike tarzı benimseyen kadınlar için uygundur."
+    },
+    {
+      "question": "8 Wild Fields Abercrombie & Fitch hangi parfümlere benzer ve koku karakteri nasıldır?",
+      "answer": "Koku karakteri temel olarak odunsu, beyaz çiçeksi, pudralı ve laktonik akorlar üzerine kuruludur. Sandal ağacı, gardenya ve orkidenin kremsi uyumuyla yumuşak, feminen ve sıcak bir yapı sergiler."
+    },
+    {
+      "question": "8 Wild Fields Abercrombie & Fitch kör alışa (denemeden almaya) uygun bir parfüm müdür?",
+      "answer": "Pudralı ve kremsi beyaz çiçek notalarını (gardenya ve orkide) ile sandal ağacını sevenler için güvenli bir kör alış seçeneği olabilir; ancak yoğun odunsu ve çiçeksi kombinasyonları denemeden önce incelemekte fayda vardır."
     }
   ]
 }

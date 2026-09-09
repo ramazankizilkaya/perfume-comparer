@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94694.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Single-Barrel-Bourbon-94694.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Single Barrel Bourbon parfümü, erkekler için Aromatik bir kokudur. Single Barrel Bourbon, 2024 yılında piyasaya sürüldü. Kokuda Baharatlı notalar, Tonka, Meşe ve Narenciye notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Single Barrel Bourbon parfümü, erkekler için Aromatik bir kokudur. Single Barrel Bourbon, 2024 yılında piyasaya sürüldü. Kokuda Baharatlı notalar, Tonka, Meşe ve Narenciye notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Single Barrel Bourbon parfümü, erkekler için Aromatik bir kokudur. Single Barrel Bourbon, 2024 yılında piyasaya sürüldü. Kokuda Baharatlı notalar, Tonka, Meşe ve Narenciye notaları bulunur.",
+  "description": "Bath & Body Works markasının Single Barrel Bourbon parfümü, erkekler için Aromatik bir kokudur. Single Barrel Bourbon, 2024 yılında piyasaya sürüldü. Kokuda Baharatlar, Tonka, Meşe ve Narenciye notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Single Barrel Bourbon parfümü, erkekler için Aromatik bir kokudur. Single Barrel Bourbon, 2024 yılında piyasaya sürüldü. Kokuda Baharatlar, Tonka, Meşe ve Narenciye notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Single Barrel Bourbon parfümü, erkekler için Aromatik bir kokudur. Single Barrel Bourbon, 2024 yılında piyasaya sürüldü. Kokuda Baharatlar, Tonka, Meşe ve Narenciye notaları bulunur.",
   "mainAccords": [
     {
       "name": "sıcak baharatlı",
@@ -41,6 +41,34 @@
     {
       "name": "taze",
       "width": "50.5882%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -65,7 +93,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Baharatlar",
+      "Tonka",
+      "Meşe",
+      "Narenciye"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
@@ -138,10 +172,6 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "VERSACE",
-      "name": "Eros Flame"
-    },
-    {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "By the Fireplace"
     },
@@ -150,12 +180,12 @@
       "name": "Le Male Le Parfum"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Vanilla Noir"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Vanilla Noir"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -186,8 +216,8 @@
       "name": "Y Eau de Parfum"
     },
     {
-      "brand": "AZZARO",
-      "name": "The Most Wanted Parfum"
+      "brand": "HUGO BOSS",
+      "name": "Bottled Absolu"
     },
     {
       "brand": "MAİSON MARTİN MARGİELA",
@@ -196,6 +226,11 @@
     {
       "brand": "VERSACE",
       "name": "Versace Pour Homme"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One"
     }
-  ]
+  ],
+  "comments": []
 }

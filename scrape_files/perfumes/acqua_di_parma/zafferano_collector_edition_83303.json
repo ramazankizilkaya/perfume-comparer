@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83303.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Acqua-di-Parma/Zafferano-Collector-Edition-83303.html",
   "brand": "Acqua di Parma parfüm ve kolonya",
-  "description": "Acqua di Parma markasının Zafferano Collector Edition parfümü, kadınlar ve erkekler için bir kokudur. Zafferano Collector Edition, 2023 yılında piyasaya sürüldü. Üst notalar: Acı portakal, Kişniş, Bergamot ve Mandalina; orta notalar: Safran, Sardunya, Portakal çiçeği, Gül ve Yasemin Sambac; alt notalar Vanilya, Paçuli ve Tonka.",
-  "description_original": "Acqua di Parma markasının Zafferano Collector Edition parfümü, kadınlar ve erkekler için bir kokudur. Zafferano Collector Edition, 2023 yılında piyasaya sürüldü. Üst notalar: Acı portakal, Kişniş, Bergamot ve Mandalina; orta notalar: Safran, Sardunya, Portakal çiçeği, Gül ve Yasemin Sambac; alt notalar Vanilya, Paçuli ve Tonka.",
-  "description_enhanced": "Acqua di Parma markasının Zafferano Collector Edition parfümü, kadınlar ve erkekler için bir kokudur. Zafferano Collector Edition, 2023 yılında piyasaya sürüldü. Üst notalar: Acı portakal, Kişniş, Bergamot ve Mandalina; orta notalar: Safran, Sardunya, Portakal çiçeği, Gül ve Yasemin Sambac; alt notalar Vanilya, Paçuli ve Tonka.",
+  "description": "Acqua di Parma markasının Zafferano Collector Edition parfümü, kadınlar ve erkekler için bir kokudur. Zafferano Collector Edition, 2023 yılında piyasaya sürüldü. Üst notalar: Acı portakal, Kişniş, Bergamot ve Mandalina; orta notalar: Safran, Sardunya, Portakal çiçeği, Gül ve Sambac Yasemini; alt notalar Vanilya, Paçuli ve Tonka.",
+  "description_original": "Acqua di Parma markasının Zafferano Collector Edition parfümü, kadınlar ve erkekler için bir kokudur. Zafferano Collector Edition, 2023 yılında piyasaya sürüldü. Üst notalar: Acı portakal, Kişniş, Bergamot ve Mandalina; orta notalar: Safran, Sardunya, Portakal çiçeği, Gül ve Sambac Yasemini; alt notalar Vanilya, Paçuli ve Tonka.",
+  "description_enhanced": "Acqua di Parma markasının Zafferano Collector Edition parfümü, kadınlar ve erkekler için bir kokudur. Zafferano Collector Edition, 2023 yılında piyasaya sürüldü. Üst notalar: Acı portakal, Kişniş, Bergamot ve Mandalina; orta notalar: Safran, Sardunya, Portakal çiçeği, Gül ve Sambac Yasemini; alt notalar Vanilya, Paçuli ve Tonka.",
   "mainAccords": [
     {
       "name": "narenciye",
@@ -49,13 +49,37 @@
     {
       "name": "metalik",
       "width": "49.663%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.84",
-    "votesCount": "44",
+    "score": "3.87",
+    "votesCount": "45",
     "breakdown": {
-      "love": "20",
+      "love": "21",
       "like": "11",
       "ok": "5",
       "dislike": "2",
@@ -63,10 +87,10 @@
     }
   },
   "seasons": {
-    "winter": "17",
+    "winter": "18",
     "spring": "21",
     "summer": "18",
-    "autumn": "25",
+    "autumn": "26",
     "day": "21",
     "night": "21"
   },
@@ -82,13 +106,14 @@
       "Sardunya",
       "Portakal çiçeği",
       "Gül",
-      "Yasemin Sambac"
+      "Sambac Yasemini"
     ],
     "base": [
       "Vanilya",
       "Paçuli",
       "Tonka"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "4",
@@ -213,12 +238,12 @@
       "name": "Costa Azzurra"
     },
     {
-      "brand": "LOUİS VUİTTON",
-      "name": "Imagination"
-    },
-    {
       "brand": "ACQUA Dİ PARMA",
       "name": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Imagination"
     },
     {
       "brand": "AMOUAGE",
@@ -240,5 +265,6 @@
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Baccarat Rouge 540"
     }
-  ]
+  ],
+  "comments": []
 }

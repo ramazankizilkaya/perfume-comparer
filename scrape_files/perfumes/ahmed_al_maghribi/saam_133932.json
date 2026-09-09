@@ -1,7 +1,7 @@
 {
   "name": "Saam Ahmed Al Maghribi",
   "targetGender": "erkekler için",
-  "fragranceFamily": "Oriental",
+  "fragranceFamily": "Floral",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.133932.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ahmed-Al-Maghribi/Saam-133932.html",
@@ -11,11 +11,7 @@
   "description_enhanced": "Ahmed Al Maghribi markasının Saam parfümü, erkekler için bir kokudur. Saam, 2019 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Marie Huguenot. Kokuda Kızılcık, Gül, Amber, Misk ve Deri notaları bulunur.",
   "mainAccords": [
     {
-      "name": "amber",
-      "width": "100%"
-    },
-    {
-      "name": "deri",
+      "name": "gül",
       "width": "100%"
     },
     {
@@ -23,7 +19,11 @@
       "width": "100%"
     },
     {
-      "name": "gül",
+      "name": "deri",
+      "width": "100%"
+    },
+    {
+      "name": "amber",
       "width": "100%"
     },
     {
@@ -39,7 +39,7 @@
       "width": "75.4998%"
     },
     {
-      "name": "çiçeksi",
+      "name": "dumanlı",
       "width": "51.0002%"
     },
     {
@@ -47,46 +47,77 @@
       "width": "51.0002%"
     },
     {
-      "name": "dumanlı",
+      "name": "çiçeksi",
       "width": "51.0002%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "",
-    "votesCount": "",
+    "score": "4.00",
+    "votesCount": "1",
     "breakdown": {
       "love": "0",
-      "like": "0",
+      "like": "1",
       "ok": "0",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "0",
-    "spring": "0",
-    "summer": "0",
-    "autumn": "0",
-    "day": "0",
-    "night": "0"
+    "winter": "1",
+    "spring": "1",
+    "summer": "1",
+    "autumn": "1",
+    "day": "1",
+    "night": "1"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kızılcık",
+      "Gül",
+      "Amber",
+      "Misk",
+      "Deri"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
     "moderate": "0",
     "longLasting": "0",
-    "eternal": "0"
+    "eternal": "1"
   },
   "sillage": {
     "intimate": "0",
     "moderate": "0",
     "strong": "0",
-    "enormous": "0"
+    "enormous": "1"
   },
   "genderVoting": {
     "female": "0",
@@ -103,5 +134,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

@@ -84,61 +84,37 @@
       "Kayısı",
       "Beyaz Odunlar",
       "Amber ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "4",
-    "moderate": "1",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "1",
-    "strong": "2",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "2",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "3",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "DONNA KARAN",
-      "name": "DKNY Be Delicious"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Acqua Di Gioia Jasmine"
-    },
-    {
-      "brand": "PARFUMS DE COEUR",
-      "name": "Body Fantasies Signature Apple"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue"
-    },
-    {
-      "brand": "PARFUMS DE COEUR",
-      "name": "Body Fantasies Sugar Apple Fantasy"
-    },
-    {
-      "brand": "ÉSİKA",
-      "name": "Mía Solar"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "PARİS HİLTON",
@@ -200,5 +176,6 @@
       "brand": "TAYLOR SWİFT",
       "name": "Wonderstruck Enchanted"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,30 @@
     {
       "name": "aromatik",
       "width": "54.5001%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -85,7 +109,8 @@
       "Tonka fasulyesi",
       "Benzoin",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -116,16 +141,16 @@
   },
   "remindsMeOf": [
     {
-      "brand": "MEGAN THEE STALLİON",
-      "name": "Hot Girl Summer"
-    },
-    {
       "brand": "NİSHANE",
       "name": "Hundred Silent Ways"
     },
     {
       "brand": "PARIS CORNER",
       "name": "AZM"
+    },
+    {
+      "brand": "MEGAN THEE STALLİON",
+      "name": "Hot Girl Summer"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -142,16 +167,20 @@
       "name": "Liquid Brun"
     },
     {
+      "brand": "RASASİ",
+      "name": "Hawas Pink"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara Elixir"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Peace & Love"
+      "name": "Angham"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Angham"
+      "name": "Peace & Love"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -162,36 +191,33 @@
       "name": "Nebras"
     },
     {
-      "brand": "AFNAN",
-      "name": "Lynked Forever"
-    },
-    {
       "brand": "KHADLAJ PERFUMES",
       "name": "Empire Victor"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Affection"
+      "name": "Mayar Cherry Intense"
     },
     {
       "brand": "RASASİ",
       "name": "Hawas for Her"
     },
     {
-      "brand": "MUGLER",
-      "name": "Angel"
+      "brand": "ZİMAYA",
+      "name": "Anhaar Dune"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Amethyst"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "Qissa Gala"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Artisan Ethnique"
     },
     {
       "brand": "ARİANA GRANDE",
       "name": "Ari"
     }
-  ]
+  ],
+  "comments": []
 }

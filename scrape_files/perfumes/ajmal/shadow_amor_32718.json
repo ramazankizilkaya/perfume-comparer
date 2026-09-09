@@ -45,6 +45,30 @@
     {
       "name": "taze",
       "width": "44.8077%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -69,7 +93,17 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Meyvemsi Notlar",
+      "Portakal",
+      "Misk",
+      "Frezya",
+      "Elma",
+      "Vanilya",
+      "Sandal ağacı",
+      "Sedir"
+    ]
   },
   "longevity": {
     "veryWeak": "8",
@@ -177,5 +211,6 @@
       "brand": "LANVİN",
       "name": "Eclat d’Arpège"
     }
-  ]
+  ],
+  "comments": []
 }

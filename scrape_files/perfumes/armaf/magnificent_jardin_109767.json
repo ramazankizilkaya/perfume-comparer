@@ -33,6 +33,38 @@
     {
       "name": "meyvemsi",
       "width": "47.5%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "5",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -77,7 +109,8 @@
       "Kakao kabuğu",
       "Tonka fasulyesi",
       "Sedir"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -112,10 +145,6 @@
       "name": "Yum Pistachio Gelato | 33"
     },
     {
-      "brand": "ESCADA",
-      "name": "Escada Magnetism"
-    },
-    {
       "brand": "FRENCH AVENUE",
       "name": "Luscious"
     },
@@ -124,12 +153,12 @@
       "name": "Pistache"
     },
     {
-      "brand": "ZİMAYA",
-      "name": "INEKAS SOLIS"
+      "brand": "ESCADA",
+      "name": "Escada Magnetism"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Yara"
+      "brand": "ZİMAYA",
+      "name": "INEKAS SOLIS"
     }
   ],
   "peopleAlsoLike": [
@@ -140,6 +169,10 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Eclaire"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Marshmallow Blush"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -155,15 +188,15 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
+      "name": "Affection"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
       "name": "Mayar Cherry Intense"
     },
     {
       "brand": "CALVİN KLEİN",
       "name": "Euphoria"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Yara Tous"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -175,7 +208,7 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Yara Elixir"
+      "name": "Yara Moi"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -187,11 +220,8 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Ekhtiari"
-    },
-    {
-      "brand": "PRADA",
-      "name": "Prada Paradoxe"
+      "name": "Mayar"
     }
-  ]
+  ],
+  "comments": []
 }

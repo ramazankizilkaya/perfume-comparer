@@ -29,13 +29,41 @@
     {
       "name": "aldehitli",
       "width": "37%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.82",
-    "votesCount": "119",
+    "score": "3.83",
+    "votesCount": "120",
     "breakdown": {
-      "love": "25",
+      "love": "26",
       "like": "58",
       "ok": "28",
       "dislike": "6",
@@ -43,9 +71,9 @@
     }
   },
   "seasons": {
-    "winter": "7",
+    "winter": "8",
     "spring": "44",
-    "summer": "79",
+    "summer": "80",
     "autumn": "8",
     "day": "66",
     "night": "8"
@@ -53,7 +81,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Portakal",
+      "Çilek"
+    ]
   },
   "longevity": {
     "veryWeak": "13",
@@ -69,7 +101,7 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "43",
+    "female": "44",
     "moreFemale": "10",
     "unisex": "4",
     "moreMale": "0",
@@ -201,5 +233,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Vanilla Bean Noel"
     }
-  ]
+  ],
+  "comments": []
 }

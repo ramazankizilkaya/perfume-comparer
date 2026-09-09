@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "aromatik",
+      "name": "taze baharatlı",
       "width": "94.75%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "aromatik",
       "width": "94.75%"
     },
     {
@@ -45,15 +45,39 @@
     {
       "name": "sıcak baharatlı",
       "width": "53.625%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.46",
-    "votesCount": "13",
+    "score": "3.43",
+    "votesCount": "14",
     "breakdown": {
       "love": "3",
       "like": "4",
-      "ok": "3",
+      "ok": "4",
       "dislike": "2",
       "hate": "1"
     }
@@ -82,7 +106,8 @@
     "base": [
       "Sedir",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -107,7 +132,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "3",
+    "fair": "4",
     "goodValue": "4",
     "greatValue": "3"
   },
@@ -154,5 +179,6 @@
       "brand": "AMOUAGE",
       "name": "Sunshine Woman"
     }
-  ]
+  ],
+  "comments": []
 }

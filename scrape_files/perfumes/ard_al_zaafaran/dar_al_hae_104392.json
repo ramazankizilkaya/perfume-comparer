@@ -15,10 +15,6 @@
       "width": "100%"
     },
     {
-      "name": "amber",
-      "width": "96.6666%"
-    },
-    {
       "name": "misk",
       "width": "96.6666%"
     },
@@ -27,15 +23,19 @@
       "width": "96.6666%"
     },
     {
+      "name": "amber",
+      "width": "96.6666%"
+    },
+    {
       "name": "odunsu",
       "width": "90%"
     },
     {
-      "name": "paçuli",
+      "name": "vanilya",
       "width": "63.3333%"
     },
     {
-      "name": "vanilya",
+      "name": "paçuli",
       "width": "63.3333%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "animalik",
       "width": "53.3333%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,7 +110,8 @@
     "base": [
       "Amber",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -99,7 +128,7 @@
   },
   "genderVoting": {
     "female": "0",
-    "moreFemale": "0",
+    "moreFemale": "1",
     "unisex": "4",
     "moreMale": "1",
     "male": "6"
@@ -139,12 +168,12 @@
       "name": "Bleu de Chanel"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Oud Mood Silver"
+      "brand": "ARMAF",
+      "name": "Club de Nuit Blue Iconic"
     },
     {
-      "brand": "JOOP!",
-      "name": "Joop! Jump"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Oud Mood Silver"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -156,7 +185,7 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Art Of Universe"
+      "name": "Eternal Oud"
     },
     {
       "brand": "CALVİN KLEİN",
@@ -172,15 +201,15 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
+      "name": "Ramz Lattafa (Gold)"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
       "name": "Maahir Black Edition"
     },
     {
       "brand": "DOLCE&GABBANA",
       "name": "The One for Men Eau de Parfum"
-    },
-    {
-      "brand": "RAYHAAN",
-      "name": "Aquatica"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -190,5 +219,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Vintage Radio"
     }
-  ]
+  ],
+  "comments": []
 }

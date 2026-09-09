@@ -49,6 +49,30 @@
     {
       "name": "toprak",
       "width": "44.5562%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +97,19 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Odunsu Notalar",
+      "Paçuli",
+      "Bitter çikolata",
+      "Vanilya",
+      "Amber",
+      "Ylang-Ylang",
+      "Bulgar Gülü",
+      "Misk",
+      "Yasemin",
+      "Neroli"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -105,12 +141,12 @@
   "remindsMeOf": [],
   "peopleAlsoLike": [
     {
-      "brand": "DİOR",
-      "name": "Dune"
-    },
-    {
       "brand": "TİZİANA TERENZİ",
       "name": "Maremma"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dune"
     },
     {
       "brand": "GUERLAİN",
@@ -164,5 +200,6 @@
       "brand": "SERGE LUTENS",
       "name": "Chergui"
     }
-  ]
+  ],
+  "comments": []
 }

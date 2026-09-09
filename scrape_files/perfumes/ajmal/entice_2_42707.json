@@ -41,6 +41,30 @@
     {
       "name": "odunsu",
       "width": "46.5%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -65,7 +89,14 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Çiçeksi Notalar",
+      "Misk",
+      "Meyvemsi notalar",
+      "Vanilya",
+      "Paçuli"
+    ]
   },
   "longevity": {
     "veryWeak": "5",
@@ -209,5 +240,6 @@
       "brand": "AJMAL",
       "name": "Sonnet"
     }
-  ]
+  ],
+  "comments": []
 }

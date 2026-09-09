@@ -43,12 +43,40 @@
       "width": "56.2799%"
     },
     {
-      "name": "toprak",
+      "name": "vanilya",
       "width": "55.8019%"
     },
     {
       "name": "yumuşak baharatlı",
       "width": "55.8019%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -66,9 +94,9 @@
     "winter": "29",
     "spring": "31",
     "summer": "12",
-    "autumn": "34",
-    "day": "29",
-    "night": "25"
+    "autumn": "35",
+    "day": "30",
+    "night": "26"
   },
   "notes": {
     "top": [
@@ -91,7 +119,8 @@
       "Benzoin",
       "Amber",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -109,13 +138,13 @@
   "genderVoting": {
     "female": "10",
     "moreFemale": "4",
-    "unisex": "28",
+    "unisex": "29",
     "moreMale": "8",
     "male": "8"
   },
   "priceVoting": {
     "wayOverpriced": "1",
-    "overpriced": "6",
+    "overpriced": "7",
     "fair": "17",
     "goodValue": "20",
     "greatValue": "9"
@@ -188,10 +217,6 @@
       "name": "Liam"
     },
     {
-      "brand": "DİOR",
-      "name": "Dior Homme Intense 2011"
-    },
-    {
       "brand": "GUERLAİN",
       "name": "Shalimar Eau de Parfum"
     },
@@ -242,6 +267,11 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah Qahwa"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Hacivat"
     }
-  ]
+  ],
+  "comments": []
 }

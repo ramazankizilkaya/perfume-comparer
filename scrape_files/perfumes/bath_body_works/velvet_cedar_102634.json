@@ -27,7 +27,7 @@
       "width": "46.1875%"
     },
     {
-      "name": "pudralı",
+      "name": "vanilya",
       "width": "43.9999%"
     }
   ],
@@ -53,97 +53,41 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Sedir ağacı",
+      "Şeker",
+      "Papatya"
+    ]
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "2",
-    "moderate": "1",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "1",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "7",
-    "moreMale": "1",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "0",
-    "greatValue": "5"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "AERİN",
-      "name": "Cedar Violet"
-    },
-    {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Cedar"
-    },
-    {
-      "brand": "BİLLİE EİLİSH",
-      "name": "Eilish No 2"
-    },
-    {
-      "brand": "FERRARİ",
-      "name": "Cedar Essence"
-    },
-    {
-      "brand": "PARLE MOİ DE PARFUM",
-      "name": "Cedar Woodpecker 10"
-    },
-    {
-      "brand": "HOUSE OF SİLLAGE",
-      "name": "Slytherin™ Parfum"
-    },
-    {
-      "brand": "CHOPARD",
-      "name": "Cedar Malaki"
-    },
-    {
-      "brand": "AÉROPOSTALE",
-      "name": "Cedar & Hemp"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Woodlands"
-    },
-    {
-      "brand": "ROSE ET MARİUS",
-      "name": "L'Homme qui Plantait des Arbres"
-    },
-    {
-      "brand": "ALREHAB PERFUMES",
-      "name": "Choco Musk"
-    },
-    {
-      "brand": "ZİELİNSKİ & ROZEN",
-      "name": "Cedarwood & Sandalwood & Amber, Patchouli"
-    },
-    {
-      "brand": "TO SUMMER | 观夏",
-      "name": "Cedarwood 昆仑煮雪"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Cedar Breeze"
-    },
-    {
-      "brand": "ALREHAB PERFUMES",
-      "name": "Choco Musk Eau de Parfum"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BİLLİE EİLİSH",
@@ -152,6 +96,10 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Lost in Santal"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Pink Woods"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -172,10 +120,6 @@
     {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Vanilla Ease"
     },
     {
       "brand": "ARİANA GRANDE",
@@ -205,5 +149,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Milk"
     }
-  ]
+  ],
+  "comments": []
 }

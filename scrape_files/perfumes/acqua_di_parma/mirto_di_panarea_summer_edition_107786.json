@@ -37,25 +37,53 @@
     {
       "name": "balsamik",
       "width": "44.2857%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": ""
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.54",
-    "votesCount": "24",
+    "score": "3.48",
+    "votesCount": "27",
     "breakdown": {
       "love": "6",
-      "like": "9",
-      "ok": "3",
-      "dislike": "4",
+      "like": "10",
+      "ok": "4",
+      "dislike": "5",
       "hate": "2"
     }
   },
   "seasons": {
     "winter": "1",
     "spring": "3",
-    "summer": "14",
+    "summer": "16",
     "autumn": "3",
-    "day": "14",
+    "day": "16",
     "night": "3"
   },
   "notes": {
@@ -75,32 +103,33 @@
       "Amber",
       "Ardıç",
       "Sedir"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "2",
+    "veryWeak": "3",
     "weak": "6",
-    "moderate": "6",
+    "moderate": "7",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "6",
+    "intimate": "4",
+    "moderate": "7",
     "strong": "1",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "4",
     "moreFemale": "0",
-    "unisex": "8",
+    "unisex": "10",
     "moreMale": "0",
     "male": "2"
   },
   "priceVoting": {
     "wayOverpriced": "4",
-    "overpriced": "2",
-    "fair": "3",
+    "overpriced": "3",
+    "fair": "4",
     "goodValue": "0",
     "greatValue": "1"
   },
@@ -169,6 +198,10 @@
   "peopleAlsoLike": [
     {
       "brand": "ACQUA Dİ PARMA",
+      "name": "Mirto di Panarea La Riserva Eau de Parfum"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
       "name": "Buongiorno"
     },
     {
@@ -186,6 +219,10 @@
     {
       "brand": "GUCCİ",
       "name": "Flora Gorgeous Jasmine"
+    },
+    {
+      "brand": "FUGAZZİ",
+      "name": "Orange Crush"
     },
     {
       "brand": "VERSACE",
@@ -212,20 +249,13 @@
       "name": "J'adore"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Bare"
-    },
-    {
       "brand": "KYLİE COSMETİCS",
       "name": "Cosmic Kylie Jenner"
-    },
-    {
-      "brand": "JİMMY CHOO",
-      "name": "I Want Choo"
     },
     {
       "brand": "GİORGİO ARMANİ",
       "name": "My Way Ylang"
     }
-  ]
+  ],
+  "comments": []
 }

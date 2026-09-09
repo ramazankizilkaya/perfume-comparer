@@ -43,19 +43,47 @@
       "width": "53.3333%"
     },
     {
-      "name": "yosunlu",
+      "name": "beyaz çiçeksi",
       "width": "51.2123%"
     },
     {
       "name": "paçuli",
       "width": "51.2123%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "4",
+    "score": "4.20",
+    "votesCount": "5",
     "breakdown": {
-      "love": "0",
+      "love": "1",
       "like": "4",
       "ok": "0",
       "dislike": "0",
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "0",
-    "spring": "3",
-    "summer": "4",
-    "autumn": "2",
-    "day": "4",
-    "night": "3"
+    "winter": "1",
+    "spring": "4",
+    "summer": "5",
+    "autumn": "3",
+    "day": "5",
+    "night": "4"
   },
   "notes": {
     "top": [
@@ -94,27 +122,27 @@
     "weak": "1",
     "moderate": "4",
     "longLasting": "0",
-    "eternal": "0"
+    "eternal": "1"
   },
   "sillage": {
     "intimate": "1",
     "moderate": "4",
     "strong": "0",
-    "enormous": "0"
+    "enormous": "1"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "0",
-    "male": "5"
+    "male": "6"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "0",
     "goodValue": "0",
-    "greatValue": "5"
+    "greatValue": "6"
   },
   "remindsMeOf": [
     {
@@ -122,12 +150,12 @@
       "name": "Bleu de Chanel"
     },
     {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Blue Iconic"
-    },
-    {
       "brand": "CHANEL",
       "name": "Bleu de Chanel Eau de Parfum"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Blue Iconic"
     },
     {
       "brand": "PRİNCESSE MARİNA DE BOURBON",
@@ -179,5 +207,6 @@
       "brand": "BANANA REPUBLİC",
       "name": "Midnight Hour"
     }
-  ]
+  ],
+  "comments": []
 }

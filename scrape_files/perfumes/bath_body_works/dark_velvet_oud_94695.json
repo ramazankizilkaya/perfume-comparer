@@ -29,6 +29,34 @@
     {
       "name": "çiçeksi",
       "width": "47.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "9",
+    "winter": "10",
     "spring": "3",
     "summer": "1",
     "autumn": "10",
@@ -53,7 +81,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Ahududu",
+      "Gül",
+      "Agar ağacı (Oud)",
+      "Şeker"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
@@ -88,8 +122,8 @@
       "name": "Shaghaf Oud"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "Eternity Intense"
+      "brand": "JO MALONE LONDON",
+      "name": "Velvet Rose & Oud"
     },
     {
       "brand": "FRANCK OLİVİER",
@@ -108,22 +142,22 @@
       "name": "Atomic Rose"
     },
     {
-      "brand": "JO MALONE LONDON",
-      "name": "Velvet Rose & Oud"
+      "brand": "CALVİN KLEİN",
+      "name": "Eternity Intense"
     }
   ],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Dark Velvet Oud"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Versace Pour Femme Dylan Blue"
+      "name": "Dark Kiss"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Champagne Toast"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Rose Gourmand For Her"
     },
     {
       "brand": "BRİTNEY SPEARS",
@@ -134,16 +168,16 @@
       "name": "Cloud"
     },
     {
-      "brand": "DOLCE&GABBANA",
-      "name": "Dolce Violet"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
     },
     {
       "brand": "DİOR",
       "name": "Hypnotic Poison"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '59"
     },
     {
       "brand": "DOLCE&GABBANA",
@@ -162,16 +196,17 @@
       "name": "Flora Gorgeous Orchid"
     },
     {
+      "brand": "PENHALİGON'S",
+      "name": "Luna"
+    },
+    {
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue Eau Intense"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Into The Night"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Gris Dior"
     }
-  ]
+  ],
+  "comments": []
 }

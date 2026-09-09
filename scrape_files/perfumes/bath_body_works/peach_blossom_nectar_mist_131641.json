@@ -16,11 +16,11 @@
     },
     {
       "name": "çiçeksi",
-      "width": "66.3636%"
+      "width": "65.7142%"
     },
     {
       "name": "tatlı",
-      "width": "60%"
+      "width": "59.9999%"
     },
     {
       "name": "pudralı",
@@ -29,48 +29,81 @@
     {
       "name": "laktonik",
       "width": "40%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.20",
-    "votesCount": "55",
+    "score": "4.25",
+    "votesCount": "72",
     "breakdown": {
-      "love": "22",
-      "like": "26",
-      "ok": "4",
+      "love": "30",
+      "like": "34",
+      "ok": "5",
       "dislike": "2",
       "hate": "1"
     }
   },
   "seasons": {
     "winter": "0",
-    "spring": "29",
-    "summer": "27",
-    "autumn": "0",
-    "day": "24",
+    "spring": "34",
+    "summer": "36",
+    "autumn": "1",
+    "day": "33",
     "night": "0"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Şeftali",
+      "Nektar",
+      "Frezya"
+    ]
   },
   "longevity": {
-    "veryWeak": "1",
+    "veryWeak": "2",
     "weak": "6",
-    "moderate": "9",
-    "longLasting": "0",
+    "moderate": "11",
+    "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "9",
-    "strong": "0",
+    "intimate": "12",
+    "moderate": "11",
+    "strong": "1",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "14",
-    "moreFemale": "4",
+    "female": "16",
+    "moreFemale": "6",
     "unisex": "0",
     "moreMale": "0",
     "male": "0"
@@ -78,22 +111,30 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "4",
-    "goodValue": "7",
-    "greatValue": "10"
+    "fair": "5",
+    "goodValue": "8",
+    "greatValue": "12"
   },
   "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Pretty As a Peach"
-    },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Peach Blossom & Nectar"
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Pretty As a Peach"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Zesty Peach"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Golden Mango Lagoon"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Nectarine Blossom & Honey"
     },
     {
       "brand": "DİPTYQUE",
@@ -112,6 +153,10 @@
       "name": "Tonkapeach"
     },
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Bridgerton Diamond of the Season"
+    },
+    {
       "brand": "SİMONE ANDREOLİ",
       "name": "Apricot Innocence"
     },
@@ -124,12 +169,12 @@
       "name": "Snowy Peach Berry"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "White Peach Mango"
-    },
-    {
       "brand": "KAYALİ FRAGRANCES",
       "name": "Eden Sweet Peach | 35 Eau de Parfum"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "White Peach Mango"
     }
   ],
   "peopleAlsoLike": [
@@ -193,5 +238,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
     }
-  ]
+  ],
+  "comments": []
 }

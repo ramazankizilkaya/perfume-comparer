@@ -19,11 +19,11 @@
       "width": "74.1418%"
     },
     {
-      "name": "taze",
+      "name": "odunsu",
       "width": "71.791%"
     },
     {
-      "name": "odunsu",
+      "name": "taze",
       "width": "71.791%"
     },
     {
@@ -49,15 +49,43 @@
     {
       "name": "sulu",
       "width": "44.6269%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.81",
-    "votesCount": "70",
+    "score": "3.79",
+    "votesCount": "71",
     "breakdown": {
-      "love": "26",
-      "like": "23",
-      "ok": "8",
+      "love": "25",
+      "like": "24",
+      "ok": "9",
       "dislike": "8",
       "hate": "5"
     }
@@ -66,25 +94,32 @@
     "winter": "12",
     "spring": "28",
     "summer": "19",
-    "autumn": "20",
-    "day": "30",
+    "autumn": "19",
+    "day": "31",
     "night": "10"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kiraz çiçeği",
+      "Sandal ağacı",
+      "Armut",
+      "Yasemin",
+      "Mimoza"
+    ]
   },
   "longevity": {
     "veryWeak": "4",
     "weak": "5",
-    "moderate": "15",
+    "moderate": "16",
     "longLasting": "7",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "9",
-    "moderate": "15",
+    "intimate": "10",
+    "moderate": "16",
     "strong": "8",
     "enormous": "0"
   },
@@ -98,7 +133,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "2",
-    "fair": "8",
+    "fair": "9",
     "goodValue": "12",
     "greatValue": "3"
   },
@@ -139,15 +174,11 @@
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Beautiful Day"
+      "name": "Japanese Cherry Blossom"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Bombshell"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Gingham"
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb"
     },
     {
       "brand": "BRİTNEY SPEARS",
@@ -164,6 +195,14 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Dahlia"
+    },
+    {
+      "brand": "JUİCY COUTURE",
+      "name": "Viva la Juicy Gold Couture"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -190,12 +229,9 @@
       "name": "Coco Mademoiselle"
     },
     {
-      "brand": "LOLİTA LEMPİCKA",
-      "name": "Lolita Lempicka"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "You're the One"
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '62"
     }
-  ]
+  ],
+  "comments": []
 }

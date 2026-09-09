@@ -1,7 +1,7 @@
 {
   "name": "Adventure Bay Ajmal",
   "targetGender": "erkekler için",
-  "fragranceFamily": "Oriental",
+  "fragranceFamily": "Fresh",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96590.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Adventure-Bay-96590.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Ajmal markasının Adventure Bay parfümü, erkekler için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Adventure Bay, 2024 yılında piyasaya sürüldü. Üst notalar: Çay ve Şeftali; orta notalar: Deniz Notaları ve Portakal çiçeği; alt notalar Amber, Paçuli ve Misk.",
   "mainAccords": [
     {
-      "name": "amber",
+      "name": "deniz",
       "width": "100%"
     },
     {
-      "name": "deniz",
+      "name": "amber",
       "width": "100%"
     },
     {
@@ -23,11 +23,11 @@
       "width": "79%"
     },
     {
-      "name": "aromatik",
+      "name": "yeşil",
       "width": "72%"
     },
     {
-      "name": "yeşil",
+      "name": "aromatik",
       "width": "72%"
     },
     {
@@ -39,7 +39,7 @@
       "width": "54.5%"
     },
     {
-      "name": "sulu",
+      "name": "tatlı",
       "width": "51%"
     },
     {
@@ -47,8 +47,36 @@
       "width": "51%"
     },
     {
-      "name": "tatlı",
+      "name": "sulu",
       "width": "51%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,7 +111,8 @@
       "Amber",
       "Paçuli",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -118,5 +147,6 @@
       "name": "Body Eau de Toilette"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

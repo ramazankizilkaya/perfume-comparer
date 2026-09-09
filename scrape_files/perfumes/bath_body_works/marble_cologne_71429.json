@@ -2,13 +2,13 @@
   "name": "Marble Cologne Bath & Body Works",
   "targetGender": "erkekler için",
   "fragranceFamily": "Oriental",
-  "concentration": "Edc",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.71429.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Marble-Cologne-71429.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Marble Cologne parfümü, erkekler için bir kokudur. Marble Cologne, 2021 yılında piyasaya sürüldü. Kokuda Amber ağacı, Su ve Sardunya notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Marble Cologne parfümü, erkekler için bir kokudur. Marble Cologne, 2021 yılında piyasaya sürüldü. Kokuda Amber ağacı, Su ve Sardunya notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Marble Cologne parfümü, erkekler için bir kokudur. Marble Cologne, 2021 yılında piyasaya sürüldü. Kokuda Amber ağacı, Su ve Sardunya notaları bulunur.",
+  "description": "Bath & Body Works markasının Marble Cologne parfümü, erkekler için bir kokudur. Marble Cologne, 2021 yılında piyasaya sürüldü. Kokuda Amber ağacı, Su Notaları ve Sardunya notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Marble Cologne parfümü, erkekler için bir kokudur. Marble Cologne, 2021 yılında piyasaya sürüldü. Kokuda Amber ağacı, Su Notaları ve Sardunya notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Marble Cologne parfümü, erkekler için bir kokudur. Marble Cologne, 2021 yılında piyasaya sürüldü. Kokuda Amber ağacı, Su Notaları ve Sardunya notaları bulunur.",
   "mainAccords": [
     {
       "name": "amber",
@@ -37,13 +37,41 @@
     {
       "name": "aromatik",
       "width": "50.6316%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "81",
+    "score": "4.07",
+    "votesCount": "82",
     "breakdown": {
-      "love": "24",
+      "love": "25",
       "like": "43",
       "ok": "10",
       "dislike": "3",
@@ -51,21 +79,26 @@
     }
   },
   "seasons": {
-    "winter": "25",
-    "spring": "42",
-    "summer": "39",
-    "autumn": "29",
-    "day": "46",
-    "night": "29"
+    "winter": "26",
+    "spring": "43",
+    "summer": "40",
+    "autumn": "30",
+    "day": "47",
+    "night": "30"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Amber ağacı",
+      "Su Notaları",
+      "Sardunya"
+    ]
   },
   "longevity": {
     "veryWeak": "7",
-    "weak": "13",
+    "weak": "14",
     "moderate": "30",
     "longLasting": "8",
     "eternal": "0"
@@ -81,14 +114,14 @@
     "moreFemale": "0",
     "unisex": "7",
     "moreMale": "27",
-    "male": "29"
+    "male": "30"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "2",
     "fair": "10",
     "goodValue": "25",
-    "greatValue": "16"
+    "greatValue": "17"
   },
   "remindsMeOf": [
     {
@@ -181,5 +214,6 @@
       "brand": "VERSACE",
       "name": "Versace Pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

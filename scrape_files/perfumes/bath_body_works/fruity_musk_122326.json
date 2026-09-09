@@ -33,47 +33,81 @@
     {
       "name": "pudralı",
       "width": "50.1571%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "102",
+    "score": "4.05",
+    "votesCount": "109",
     "breakdown": {
-      "love": "32",
-      "like": "50",
-      "ok": "14",
+      "love": "35",
+      "like": "51",
+      "ok": "17",
       "dislike": "6",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "18",
-    "spring": "44",
-    "summer": "35",
-    "autumn": "26",
-    "day": "41",
-    "night": "15"
+    "winter": "20",
+    "spring": "48",
+    "summer": "40",
+    "autumn": "29",
+    "day": "45",
+    "night": "17"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Ahududu",
+      "Misk",
+      "Şeker",
+      "Yosun"
+    ]
   },
   "longevity": {
-    "veryWeak": "7",
+    "veryWeak": "8",
     "weak": "9",
     "moderate": "8",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "17",
+    "intimate": "18",
     "moderate": "8",
     "strong": "2",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "19",
+    "female": "20",
     "moreFemale": "6",
     "unisex": "4",
     "moreMale": "0",
@@ -82,14 +116,18 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "0",
-    "fair": "14",
+    "fair": "17",
     "goodValue": "10",
-    "greatValue": "12"
+    "greatValue": "13"
   },
   "remindsMeOf": [
     {
       "brand": "RALPH LAUREN",
       "name": "Beyond Romance"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Petra Viola"
     },
     {
       "brand": "MONTALE",
@@ -100,28 +138,16 @@
       "name": "Raspberry Ripple"
     },
     {
-      "brand": "GİVENCHY",
-      "name": "Hot Couture Eau de Toilette"
+      "brand": "BATH & BODY WORKS",
+      "name": "Berry Bliss"
     },
     {
       "brand": "SKYLAR",
       "name": "Sweet Morningside"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Berry Bliss"
-    },
-    {
-      "brand": "NİNA RİCCİ",
-      "name": "Nina"
-    },
-    {
-      "brand": "PHİLOSOPHY",
-      "name": "Unconditional Love"
-    },
-    {
-      "brand": "PARFUMS DE COEUR",
-      "name": "Body Fantasies Signature Raspberry"
+      "brand": "GİVENCHY",
+      "name": "Hot Couture Eau de Toilette"
     },
     {
       "brand": "BRİTNEY SPEARS",
@@ -136,16 +162,24 @@
       "name": "Warm Vanilla Sugar"
     },
     {
+      "brand": "PARFUMS DE COEUR",
+      "name": "Body Fantasies Signature Raspberry"
+    },
+    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Sugar Blur"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Blue Raspberry Burst"
+      "brand": "AKRO",
+      "name": "Smile"
     },
     {
-      "brand": "ARİANA GRANDE",
-      "name": "Sweet Like Candy"
+      "brand": "PHİLOSOPHY",
+      "name": "Unconditional Love"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Suede Wonder"
     }
   ],
   "peopleAlsoLike": [
@@ -174,12 +208,12 @@
       "name": "Cotton Candy Clouds"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Eclaire"
+      "brand": "ARİANA GRANDE",
+      "name": "Cloud"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Love Unleashed"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Eclaire"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -199,15 +233,16 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Snowflakes & Cashmere"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Milk"
     },
     {
       "brand": "GLOSSİER",
       "name": "You"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Chocolate Amber Body Mist"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "çiçeksi",
+      "name": "meyvemsi",
       "width": "67.3333%"
     },
     {
-      "name": "meyvemsi",
+      "name": "çiçeksi",
       "width": "67.3333%"
     },
     {
@@ -49,57 +49,41 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Yaban meyveleri",
+      "Odunsu Notalar",
+      "Çiçekler"
+    ]
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "20",
-    "moderate": "8",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "7",
-    "moderate": "8",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "15",
-    "moreFemale": "16",
-    "unisex": "4",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "14",
-    "goodValue": "13",
-    "greatValue": "14"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Golden Hour Coast"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Taurus"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Manhattan Nightcap"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Yellow Diamond"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Yellow Diamond Intense"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -161,5 +145,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Butterfly"
     }
-  ]
+  ],
+  "comments": []
 }

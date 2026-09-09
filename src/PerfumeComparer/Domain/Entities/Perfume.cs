@@ -15,6 +15,8 @@ public class Perfume
 
     public int? ReleaseYear { get; set; }
     public string? Description { get; set; }
+    public string? Article { get; set; }
+    public string? FaqJson { get; set; }
 
     /// <summary>Yerel görsel yolu, örn: <c>/media/perfumes/chanel/bleu_de_chanel_9099.webp</c>.</summary>
     public string? ImageUrl { get; set; }

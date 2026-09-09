@@ -23,11 +23,11 @@
       "width": "76.6667%"
     },
     {
-      "name": "taze baharatlı",
-      "width": "53.3333%"
+      "name": "odunsu",
+      "width": "65%"
     },
     {
-      "name": "odunsu",
+      "name": "taze baharatlı",
       "width": "53.3333%"
     },
     {
@@ -37,26 +37,58 @@
     {
       "name": "balsamik",
       "width": "48.6667%"
+    },
+    {
+      "name": "pudralı",
+      "width": "46.3333%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.14",
-    "votesCount": "14",
+    "score": "4.17",
+    "votesCount": "18",
     "breakdown": {
-      "love": "6",
+      "love": "9",
       "like": "6",
       "ok": "0",
-      "dislike": "2",
+      "dislike": "3",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "7",
-    "spring": "4",
-    "summer": "1",
-    "autumn": "10",
-    "day": "3",
-    "night": "6"
+    "winter": "10",
+    "spring": "5",
+    "summer": "2",
+    "autumn": "13",
+    "day": "5",
+    "night": "8"
   },
   "notes": {
     "top": [],
@@ -86,21 +118,33 @@
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "0",
+    "unisex": "1",
     "moreMale": "6",
-    "male": "6"
+    "male": "7"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "0",
     "goodValue": "0",
-    "greatValue": "12"
+    "greatValue": "14"
   },
   "remindsMeOf": [
     {
       "brand": "HUGO BOSS",
       "name": "Bottled Absolu"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "By the Fireplace"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Oro di Roma"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Ombré Leather (2018)"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -109,32 +153,24 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "HUGO BOSS",
-      "name": "Bottled Absolu"
+      "brand": "GUERLAİN",
+      "name": "Les Absolus d'Orient Oud Essentiel"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Eau d'Ombré Leather"
+      "brand": "HUGO BOSS",
+      "name": "Bottled Absolu"
     },
     {
       "brand": "ZARA",
       "name": "Vibrant Leather Eau de Parfum"
     },
     {
-      "brand": "ALVAREZ GÓMEZ",
-      "name": "Sweet Tobacco"
+      "brand": "ARMAF",
+      "name": "Club de Nuit Intense Man"
     },
     {
       "brand": "ARMAF",
       "name": "Club De Nuit Urban Elixir"
-    },
-    {
-      "brand": "NİKE",
-      "name": "Nike Urban Wood Man"
-    },
-    {
-      "brand": "EL GANSO",
-      "name": "Bravo Monsieur"
     },
     {
       "brand": "BENETTON",
@@ -145,10 +181,6 @@
       "name": "Vibrant Leather Explosion"
     },
     {
-      "brand": "NİKOS",
-      "name": "Sculpture Homme"
-    },
-    {
       "brand": "ALVAREZ GÓMEZ",
       "name": "Agua de Colonia Concentrada Barberia"
     },
@@ -157,16 +189,29 @@
       "name": "Le Male Le Parfum"
     },
     {
+      "brand": "NİKOS",
+      "name": "Sculpture Homme"
+    },
+    {
+      "brand": "ALVAREZ GÓMEZ",
+      "name": "Sweet Tobacco"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ameer Al Oudh Intense Oud"
+    },
+    {
       "brand": "ZARA",
       "name": "Sunrise on the Red Sand Dunes Intense"
     },
     {
-      "brand": "TOMMY HİLFİGER",
-      "name": "Tommy"
-    },
-    {
       "brand": "DAVİDOFF",
       "name": "Cool Water"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah Qahwa"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -23,11 +23,11 @@
       "width": "84.8332%"
     },
     {
-      "name": "çiçeksi",
+      "name": "odunsu",
       "width": "76.6665%"
     },
     {
-      "name": "odunsu",
+      "name": "çiçeksi",
       "width": "76.6665%"
     },
     {
@@ -39,16 +39,40 @@
       "width": "64.9998%"
     },
     {
-      "name": "animalik",
+      "name": "yumuşak baharatlı",
       "width": "54.5%"
     },
     {
-      "name": "yumuşak baharatlı",
+      "name": "animalik",
       "width": "54.5%"
     },
     {
       "name": "narenciye",
       "width": "48.6664%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +97,16 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Zambak",
+      "Misk",
+      "Manolya",
+      "Biber",
+      "Sandal ağacı",
+      "Baharatlı Notalar",
+      "Sedir"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -118,12 +151,20 @@
       "name": "Royal Muska"
     },
     {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rouge"
+    },
+    {
       "brand": "HERMÈS",
       "name": "Jour d'Hermes Absolu"
     },
     {
       "brand": "TOM FORD",
       "name": "Velvet Orchid"
+    },
+    {
+      "brand": "TRUSSARDİ",
+      "name": "My Name"
     },
     {
       "brand": "BY KİLİAN",
@@ -160,14 +201,7 @@
     {
       "brand": "BY KİLİAN",
       "name": "Dangerously in Love"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain"
-    },
-    {
-      "brand": "LALİQUE",
-      "name": "Lalique Le Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

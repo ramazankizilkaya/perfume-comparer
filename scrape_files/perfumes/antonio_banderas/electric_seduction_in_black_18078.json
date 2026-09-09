@@ -49,6 +49,34 @@
     {
       "name": "tuzlu",
       "width": "58%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,7 +110,8 @@
     "base": [
       "Misk",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "4",
@@ -206,5 +235,6 @@
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male"
     }
-  ]
+  ],
+  "comments": []
 }

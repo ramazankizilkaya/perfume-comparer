@@ -33,25 +33,53 @@
     {
       "name": "tatlı",
       "width": "45.1351%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.33",
-    "votesCount": "6",
+    "score": "3.56",
+    "votesCount": "9",
     "breakdown": {
-      "love": "2",
-      "like": "2",
-      "ok": "0",
+      "love": "3",
+      "like": "3",
+      "ok": "1",
       "dislike": "0",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "0",
-    "spring": "3",
-    "summer": "3",
-    "autumn": "0",
-    "day": "3",
+    "winter": "1",
+    "spring": "5",
+    "summer": "5",
+    "autumn": "1",
+    "day": "5",
     "night": "1"
   },
   "notes": {
@@ -72,34 +100,35 @@
       "Vetiver",
       "Paçuli",
       "Cypriol Yağı veya Nagarmotha"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
-    "moderate": "1",
+    "moderate": "3",
     "longLasting": "1",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "1",
+    "intimate": "1",
+    "moderate": "3",
     "strong": "1",
     "enormous": "1"
   },
   "genderVoting": {
-    "female": "0",
+    "female": "3",
     "moreFemale": "2",
-    "unisex": "2",
-    "moreMale": "2",
+    "unisex": "6",
+    "moreMale": "1",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "0",
-    "fair": "0",
+    "fair": "1",
     "goodValue": "1",
-    "greatValue": "2"
+    "greatValue": "3"
   },
   "remindsMeOf": [
     {
@@ -118,11 +147,11 @@
     },
     {
       "brand": "ARMAF",
-      "name": "Odyssey Li'chi Lush"
+      "name": "Odyssey Pink Pop"
     },
     {
       "brand": "ARMAF",
-      "name": "Odyssey Pink Pop"
+      "name": "Odyssey Li'chi Lush"
     },
     {
       "brand": "ARMAF",
@@ -144,5 +173,6 @@
       "brand": "ARMAF",
       "name": "Club De Nuit Lionheart Woman"
     }
-  ]
+  ],
+  "comments": []
 }

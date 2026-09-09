@@ -29,6 +29,34 @@
     {
       "name": "misk",
       "width": "45.9091%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Adaçayı",
+      "Sedir ağacı"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -110,6 +142,10 @@
       "name": "Moonlight Path"
     },
     {
+      "brand": "NEST",
+      "name": "Indigo"
+    },
+    {
       "brand": "TOM FORD",
       "name": "Black Orchid"
     },
@@ -124,10 +160,6 @@
     {
       "brand": "MARC JACOBS",
       "name": "Daisy"
-    },
-    {
-      "brand": "BURBERRY",
-      "name": "Burberry Her"
     },
     {
       "brand": "JİMMY CHOO",
@@ -157,5 +189,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "Devotion"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -37,25 +37,53 @@
     {
       "name": "sıcak baharatlı",
       "width": "45.15%"
+    },
+    {
+      "name": "Online satın alın 11 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.78",
-    "votesCount": "348",
+    "score": "3.79",
+    "votesCount": "351",
     "breakdown": {
-      "love": "97",
-      "like": "135",
+      "love": "100",
+      "like": "134",
       "ok": "62",
-      "dislike": "52",
+      "dislike": "53",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "28",
-    "spring": "97",
-    "summer": "100",
-    "autumn": "43",
-    "day": "101",
+    "winter": "29",
+    "spring": "99",
+    "summer": "102",
+    "autumn": "44",
+    "day": "103",
     "night": "26"
   },
   "notes": {
@@ -79,33 +107,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "30",
+    "moderate": "49",
+    "longLasting": "29",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "33",
+    "moderate": "49",
+    "strong": "27",
+    "enormous": "27"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "5",
+    "unisex": "67",
+    "moreMale": "30",
+    "male": "11"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "14",
+    "overpriced": "27",
     "fair": "62",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ATKİNSONS",
+      "name": "The British Bouquet"
+    },
+    {
+      "brand": "THE ART OF SHAVİNG",
+      "name": "Green Lavender Cologne Intense"
+    },
+    {
+      "brand": "FERRARİ",
+      "name": "Pure Lavender"
+    },
+    {
+      "brand": "ATKİNSONS",
+      "name": "English Lavender"
+    },
+    {
+      "brand": "SANTA MARİA NOVELLA",
+      "name": "Fieno (Hay)"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Bohemian Bluebells"
+    },
+    {
+      "brand": "ZİPPO FRAGRANCES",
+      "name": "Helios"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Basil & Neroli"
+    },
+    {
+      "brand": "CHARME DE VİE",
+      "name": "Lennon Juice"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Aqua Allegoria Lavande Velours"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Chá de Camomila e Lavanda"
+    },
+    {
+      "brand": "CARON",
+      "name": "Pour Un Homme de Caron"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Vanilla Ease"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "154 Cologne"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Fille en Aiguilles"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ATKİNSONS",
@@ -167,5 +256,6 @@
       "brand": "BY KİLİAN",
       "name": "Angels' Share"
     }
-  ]
+  ],
+  "comments": []
 }

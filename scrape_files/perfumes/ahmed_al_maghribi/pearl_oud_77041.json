@@ -49,26 +49,50 @@
     {
       "name": "sıcak baharatlı",
       "width": "46.9356%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.69",
-    "votesCount": "35",
+    "score": "4.65",
+    "votesCount": "37",
     "breakdown": {
       "love": "26",
-      "like": "7",
+      "like": "9",
       "ok": "2",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "14",
-    "spring": "20",
-    "summer": "17",
-    "autumn": "16",
-    "day": "19",
-    "night": "19"
+    "winter": "16",
+    "spring": "22",
+    "summer": "19",
+    "autumn": "18",
+    "day": "21",
+    "night": "21"
   },
   "notes": {
     "top": [
@@ -85,27 +109,28 @@
       "Paçuli",
       "Misk",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
     "weak": "0",
-    "moderate": "7",
-    "longLasting": "8",
+    "moderate": "8",
+    "longLasting": "9",
     "eternal": "11"
   },
   "sillage": {
     "intimate": "0",
-    "moderate": "7",
-    "strong": "13",
+    "moderate": "8",
+    "strong": "14",
     "enormous": "3"
   },
   "genderVoting": {
-    "female": "22",
+    "female": "23",
     "moreFemale": "2",
-    "unisex": "4",
+    "unisex": "5",
     "moreMale": "0",
-    "male": "0"
+    "male": "1"
   },
   "priceVoting": {
     "wayOverpriced": "0",
@@ -136,7 +161,7 @@
       "name": "Ceremony"
     },
     {
-      "brand": "MATİERE PREMİERE",
+      "brand": "MATİÈRE PREMİÈRE",
       "name": "French Flower"
     },
     {
@@ -166,8 +191,16 @@
       "name": "Fakhar Rose"
     },
     {
+      "brand": "AFNAN",
+      "name": "Lynked Forever"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Petra"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Crystal Noir"
     },
     {
       "brand": "AHMED AL MAGHRİBİ",
@@ -178,16 +211,12 @@
       "name": "Khair Confection"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Peace & Love"
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Oud Couture"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Raghba"
-    },
-    {
-      "brand": "PARIS CORNER",
-      "name": "Marshmallow Blush"
+      "brand": "FRENCH AVENUE",
+      "name": "Liquid Brun"
     },
     {
       "brand": "PARIS CORNER",
@@ -202,10 +231,6 @@
       "name": "La Yuqawam Jasmine Wisp"
     },
     {
-      "brand": "AFNAN",
-      "name": "Delicious Bouquet"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Angham"
     },
@@ -214,12 +239,13 @@
       "name": "Yara"
     },
     {
-      "brand": "KHADLAJ PERFUMES",
-      "name": "Karus Secret Musk"
+      "brand": "AFNAN",
+      "name": "Delicious Bouquet"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah"
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Karus Secret Musk"
     }
-  ]
+  ],
+  "comments": []
 }

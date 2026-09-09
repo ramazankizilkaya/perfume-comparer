@@ -33,6 +33,34 @@
     {
       "name": "taze",
       "width": "46.1538%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,8 @@
     ],
     "base": [
       "Sedir"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -175,5 +204,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "The One for Men"
     }
-  ]
+  ],
+  "comments": []
 }

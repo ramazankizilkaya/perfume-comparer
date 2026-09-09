@@ -49,13 +49,41 @@
     {
       "name": "bitkisel",
       "width": "59.3416%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.12",
-    "votesCount": "33",
+    "score": "4.19",
+    "votesCount": "36",
     "breakdown": {
-      "love": "18",
+      "love": "21",
       "like": "8",
       "ok": "2",
       "dislike": "3",
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "21",
+    "winter": "24",
     "spring": "5",
     "summer": "5",
-    "autumn": "20",
-    "day": "9",
-    "night": "21"
+    "autumn": "23",
+    "day": "12",
+    "night": "25"
   },
   "notes": {
     "top": [
@@ -90,26 +118,27 @@
       "Oud",
       "Amber",
       "Beyaz Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
     "weak": "0",
-    "moderate": "6",
+    "moderate": "7",
     "longLasting": "19",
-    "eternal": "0"
+    "eternal": "1"
   },
   "sillage": {
     "intimate": "0",
-    "moderate": "6",
-    "strong": "16",
+    "moderate": "7",
+    "strong": "17",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "2",
-    "unisex": "11",
-    "moreMale": "12",
+    "unisex": "12",
+    "moreMale": "13",
     "male": "2"
   },
   "priceVoting": {
@@ -117,7 +146,7 @@
     "overpriced": "0",
     "fair": "2",
     "goodValue": "5",
-    "greatValue": "15"
+    "greatValue": "17"
   },
   "remindsMeOf": [
     {
@@ -176,11 +205,19 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
+      "name": "Nasheet"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
       "name": "Asad"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Oud for Glory"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -205,14 +242,7 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Eternal Oud"
-    },
-    {
-      "brand": "FRENCH AVENUE",
-      "name": "Liquid Brun"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Ameer Al Oudh Intense Oud"
     }
-  ]
+  ],
+  "comments": []
 }

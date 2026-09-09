@@ -23,19 +23,19 @@
       "width": "76.6667%"
     },
     {
-      "name": "taze baharatlı",
-      "width": "65%"
-    },
-    {
       "name": "bitkisel",
       "width": "65%"
     },
     {
-      "name": "taze",
-      "width": "59.1667%"
+      "name": "taze baharatlı",
+      "width": "65%"
     },
     {
       "name": "yeşil",
+      "width": "59.1667%"
+    },
+    {
+      "name": "taze",
       "width": "59.1667%"
     },
     {
@@ -65,53 +65,41 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Papatya",
+      "Narenciye",
+      "Güneş notaları"
+    ]
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "4",
-    "moderate": "2",
-    "longLasting": "4",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "2",
-    "strong": "2",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "6",
-    "moreFemale": "3",
-    "unisex": "3",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "5",
-    "greatValue": "6"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BODYCOLOGY",
-      "name": "Blue Denim"
-    },
-    {
-      "brand": "YOPPY",
-      "name": "Denim Style"
-    },
-    {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Daisy"
-    },
-    {
-      "brand": "KENSİE",
-      "name": "Buttercup Babe"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -159,11 +147,11 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Dark Kiss"
+      "name": "Vanilla Bean Noel"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Vanilla Bean Noel"
+      "name": "Dark Kiss"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -173,5 +161,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Pistachio Glaze"
     }
-  ]
+  ],
+  "comments": []
 }

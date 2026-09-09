@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94578.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Gingham-Unstoppable-94578.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Gingham Unstoppable parfümü, kadınlar ve erkekler için Narenciye Aromatik bir kokudur. Gingham Unstoppable, 2024 yılında piyasaya sürüldü. Kokuda Neroli, Sulu Notlar ve Misk notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Gingham Unstoppable parfümü, kadınlar ve erkekler için Narenciye Aromatik bir kokudur. Gingham Unstoppable, 2024 yılında piyasaya sürüldü. Kokuda Neroli, Sulu Notlar ve Misk notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Gingham Unstoppable parfümü, kadınlar ve erkekler için Narenciye Aromatik bir kokudur. Gingham Unstoppable, 2024 yılında piyasaya sürüldü. Kokuda Neroli, Sulu Notlar ve Misk notaları bulunur.",
+  "description": "Bath & Body Works markasının Gingham Unstoppable parfümü, kadınlar ve erkekler için Narenciye Aromatik bir kokudur. Gingham Unstoppable, 2024 yılında piyasaya sürüldü. Kokuda Neroli, Sulu Notalar ve Misk notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Gingham Unstoppable parfümü, kadınlar ve erkekler için Narenciye Aromatik bir kokudur. Gingham Unstoppable, 2024 yılında piyasaya sürüldü. Kokuda Neroli, Sulu Notalar ve Misk notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Gingham Unstoppable parfümü, kadınlar ve erkekler için Narenciye Aromatik bir kokudur. Gingham Unstoppable, 2024 yılında piyasaya sürüldü. Kokuda Neroli, Sulu Notalar ve Misk notaları bulunur.",
   "mainAccords": [
     {
       "name": "sulu",
@@ -19,23 +19,51 @@
       "width": "86%"
     },
     {
-      "name": "narenciye",
-      "width": "65%"
-    },
-    {
       "name": "beyaz çiçeksi",
       "width": "65%"
     },
     {
-      "name": "çiçeksi",
+      "name": "narenciye",
+      "width": "65%"
+    },
+    {
+      "name": "misk",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.95",
-    "votesCount": "21",
+    "score": "4.00",
+    "votesCount": "22",
     "breakdown": {
-      "love": "6",
+      "love": "7",
       "like": "9",
       "ok": "5",
       "dislike": "1",
@@ -44,34 +72,39 @@
   },
   "seasons": {
     "winter": "1",
-    "spring": "12",
-    "summer": "10",
+    "spring": "13",
+    "summer": "11",
     "autumn": "3",
-    "day": "12",
+    "day": "13",
     "night": "1"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Neroli",
+      "Sulu Notalar",
+      "Misk"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
     "weak": "3",
-    "moderate": "3",
+    "moderate": "4",
     "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "3",
-    "moderate": "3",
+    "moderate": "4",
     "strong": "2",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "2",
-    "unisex": "8",
+    "unisex": "9",
     "moreMale": "2",
     "male": "1"
   },
@@ -92,26 +125,34 @@
       "name": "Neroli Portofino"
     },
     {
-      "brand": "BANANA REPUBLİC",
-      "name": "Neroli Woods"
+      "brand": "MOSCHİNO",
+      "name": "Toy 2"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Mediterranean Blue Waters"
+    },
+    {
+      "brand": "BANANA REPUBLİC",
+      "name": "Neroli Woods"
     }
   ],
   "peopleAlsoLike": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Wild Madagascar Vanilla"
-    },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Brightest Bloom"
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Wild Madagascar Vanilla"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Gingham Fresh"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Dressed in White"
     },
     {
       "brand": "VERSACE",
@@ -119,7 +160,7 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Dressed in White"
+      "name": "Pink Suede"
     },
     {
       "brand": "JİMMY CHOO",
@@ -135,7 +176,7 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Champagne Toast"
+      "name": "Fairytale"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -147,19 +188,16 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Snowflakes & Cashmere"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Covered In Roses"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Dark Kiss"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Daffodil Daydreams"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '62"
+      "name": "Bonfire Bash"
     }
-  ]
+  ],
+  "comments": []
 }

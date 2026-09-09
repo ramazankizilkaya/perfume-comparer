@@ -37,31 +37,64 @@
     {
       "name": "aromatik",
       "width": "53.9474%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.21",
-    "votesCount": "72",
+    "score": "4.22",
+    "votesCount": "74",
     "breakdown": {
-      "love": "27",
-      "like": "35",
+      "love": "28",
+      "like": "36",
       "ok": "9",
       "dislike": "0",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "2",
-    "spring": "29",
-    "summer": "38",
+    "winter": "3",
+    "spring": "31",
+    "summer": "40",
     "autumn": "4",
-    "day": "32",
+    "day": "33",
     "night": "4"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Bergamot",
+      "Şakayık",
+      "Sedir ağacı"
+    ]
   },
   "longevity": {
     "veryWeak": "4",
@@ -79,7 +112,7 @@
   "genderVoting": {
     "female": "3",
     "moreFemale": "20",
-    "unisex": "14",
+    "unisex": "15",
     "moreMale": "2",
     "male": "0"
   },
@@ -108,16 +141,12 @@
       "name": "On The Horizon"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Acqua di Gioia Eau de Parfum Satinee"
-    },
-    {
       "brand": "JUİCY COUTURE",
       "name": "Oui Splash"
     },
     {
       "brand": "GİORGİO ARMANİ",
-      "name": "Acqua di Gioia Eau de Toilette"
+      "name": "Acqua di Gioia Eau de Parfum Satinee"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -125,11 +154,11 @@
     },
     {
       "brand": "GİORGİO ARMANİ",
-      "name": "Acqua di Gioia Essenza"
+      "name": "Acqua di Gioia Eau de Toilette"
     },
     {
       "brand": "GİORGİO ARMANİ",
-      "name": "Acqua Di Gioia Eau Fraiche"
+      "name": "Acqua di Gioia Essenza"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -140,16 +169,20 @@
       "name": "Cool Water Woman Exotic Summer"
     },
     {
-      "brand": "LAKE & SKYE",
-      "name": "11 11"
-    },
-    {
       "brand": "DAVİDOFF",
       "name": "Cool Water Woman Wave"
     },
     {
       "brand": "GİORGİO ARMANİ",
       "name": "Acqua di Gioia Hair & Body Mist"
+    },
+    {
+      "brand": "COMMODİTY",
+      "name": "Rain"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water Woman Summer Seas"
     }
   ],
   "peopleAlsoLike": [
@@ -190,20 +223,20 @@
       "name": "Snowflakes & Cashmere"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Love Don't Be Shy"
-    },
-    {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "By the Fireplace"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "All Eyes On Her"
+      "brand": "MARC JACOBS",
+      "name": "Perfect"
     },
     {
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy"
+    },
+    {
+      "brand": "GLOSSİER",
+      "name": "You"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -213,5 +246,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
     }
-  ]
+  ],
+  "comments": []
 }

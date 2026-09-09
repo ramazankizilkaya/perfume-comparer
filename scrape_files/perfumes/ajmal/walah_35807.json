@@ -27,11 +27,11 @@
       "width": "67.3333%"
     },
     {
-      "name": "gül",
+      "name": "sıcak baharatlı",
       "width": "62.6667%"
     },
     {
-      "name": "sıcak baharatlı",
+      "name": "gül",
       "width": "62.6667%"
     },
     {
@@ -41,6 +41,30 @@
     {
       "name": "animalik",
       "width": "48.6667%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +97,8 @@
     "base": [
       "Amber",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -134,12 +159,12 @@
       "name": "Nina"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Sunshine Woman"
-    },
-    {
       "brand": "SHİSEİDO",
       "name": "Zen"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Sunshine Woman"
     },
     {
       "brand": "MONTALE",
@@ -169,5 +194,6 @@
       "brand": "PİERRE GUİLLAUME PARİS",
       "name": "Tubereuse Couture 17"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "aromatik",
       "width": "52.3051%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +101,14 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Yeşil Elma",
+      "Bergamot",
+      "Sıklamen",
+      "Misk",
+      "Sedir"
+    ]
   },
   "longevity": {
     "veryWeak": "4",
@@ -142,12 +177,12 @@
       "name": "Versace Man Eau Fraiche"
     },
     {
-      "brand": "BVLGARİ",
-      "name": "Bvlgari Extreme"
-    },
-    {
       "brand": "HUGO BOSS",
       "name": "Boss Bottled"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Bvlgari Extreme"
     },
     {
       "brand": "ISSEY MİYAKE",
@@ -185,5 +220,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

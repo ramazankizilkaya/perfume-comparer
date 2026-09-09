@@ -33,31 +33,65 @@
     {
       "name": "taze",
       "width": "63.7271%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.30",
-    "votesCount": "20",
+    "score": "3.27",
+    "votesCount": "22",
     "breakdown": {
       "love": "3",
-      "like": "5",
+      "like": "6",
       "ok": "7",
-      "dislike": "5",
+      "dislike": "6",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "0",
-    "spring": "6",
+    "spring": "7",
     "summer": "4",
     "autumn": "0",
-    "day": "6",
+    "day": "7",
     "night": "0"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Nektarin",
+      "Portakal",
+      "Misk",
+      "Havuç"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -88,6 +122,10 @@
   },
   "remindsMeOf": [
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Poppy"
+    },
+    {
       "brand": "FUMPARFUM",
       "name": "Carrot Seed"
     },
@@ -96,12 +134,12 @@
       "name": "Carrot Blossom & Fennel"
     },
     {
-      "brand": "ZOOLOGİST PERFUMES",
-      "name": "Rabbit"
-    },
-    {
       "brand": "JO MALONE LONDON",
       "name": "Orange Marmalade"
+    },
+    {
+      "brand": "ZOOLOGİST PERFUMES",
+      "name": "Rabbit"
     }
   ],
   "peopleAlsoLike": [
@@ -165,5 +203,6 @@
       "brand": "RABANNE",
       "name": "Olympéa"
     }
-  ]
+  ],
+  "comments": []
 }

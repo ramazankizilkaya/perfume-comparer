@@ -1,7 +1,7 @@
 {
   "name": "Snowy Peach Berry Bath & Body Works",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Floral",
+  "fragranceFamily": null,
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.116155.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Snowy-Peach-Berry-116155.html",
@@ -40,30 +40,30 @@
     }
   ],
   "rating": {
-    "score": "4.17",
-    "votesCount": "12",
+    "score": "4.00",
+    "votesCount": "13",
     "breakdown": {
       "love": "5",
       "like": "4",
       "ok": "3",
-      "dislike": "0",
+      "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "4",
+    "winter": "5",
     "spring": "1",
     "summer": "1",
     "autumn": "0",
-    "day": "4",
+    "day": "5",
     "night": "1"
   },
   "notes": {
     "top": [],
-    "middle": [
-      "Şeftali çiçeği"
-    ],
-    "base": [
+    "middle": [],
+    "base": [],
+    "all": [
+      "Şeftali çiçeği",
       "Odunsu Notalar"
     ]
   },
@@ -96,16 +96,16 @@
   },
   "remindsMeOf": [
     {
-      "brand": "PARIS CORNER",
-      "name": "Taskeen"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Zesty Peach"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Peach Blossom & Nectar Mist"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Taskeen"
     }
   ],
   "peopleAlsoLike": [
@@ -169,5 +169,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Sweet Pea"
     }
-  ]
+  ],
+  "comments": []
 }

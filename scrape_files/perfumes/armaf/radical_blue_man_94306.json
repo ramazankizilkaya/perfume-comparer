@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94306.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Armaf/Radical-Blue-Man-94306.html",
   "brand": "Armaf parfüm ve kolonya",
-  "description": "Armaf markasının Radical Blue Man parfümü, erkekler için bir kokudur. Üst notalar: Karpuz ve Mine çiçeği; orta notalar: Lavanta, Fesleğen ve Zencefil; alt notalar Kaşmir, Tonka fasulyesi ve Paçuli.",
-  "description_original": "Armaf markasının Radical Blue Man parfümü, erkekler için bir kokudur. Üst notalar: Karpuz ve Mine çiçeği; orta notalar: Lavanta, Fesleğen ve Zencefil; alt notalar Kaşmir, Tonka fasulyesi ve Paçuli.",
-  "description_enhanced": "Armaf markasının Radical Blue Man parfümü, erkekler için bir kokudur. Üst notalar: Karpuz ve Mine çiçeği; orta notalar: Lavanta, Fesleğen ve Zencefil; alt notalar Kaşmir, Tonka fasulyesi ve Paçuli.",
+  "description": "Armaf markasının Radical Blue Man parfümü, erkekler için bir kokudur. Üst notalar: Karpuz ve Mine çiçeği; orta notalar: Lavanta, Fesleğen ve Zencefil; alt notalar Kaşmeran, Tonka fasulyesi ve Paçuli.",
+  "description_original": "Armaf markasının Radical Blue Man parfümü, erkekler için bir kokudur. Üst notalar: Karpuz ve Mine çiçeği; orta notalar: Lavanta, Fesleğen ve Zencefil; alt notalar Kaşmeran, Tonka fasulyesi ve Paçuli.",
+  "description_enhanced": "Armaf markasının Radical Blue Man parfümü, erkekler için bir kokudur. Üst notalar: Karpuz ve Mine çiçeği; orta notalar: Lavanta, Fesleğen ve Zencefil; alt notalar Kaşmeran, Tonka fasulyesi ve Paçuli.",
   "mainAccords": [
     {
       "name": "ozonik",
@@ -49,26 +49,54 @@
     {
       "name": "lavanta",
       "width": "55.4544%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.97",
-    "votesCount": "31",
+    "score": "3.94",
+    "votesCount": "32",
     "breakdown": {
       "love": "7",
       "like": "20",
-      "ok": "1",
+      "ok": "2",
       "dislike": "2",
       "hate": "1"
     }
   },
   "seasons": {
     "winter": "3",
-    "spring": "13",
-    "summer": "21",
-    "autumn": "7",
-    "day": "19",
-    "night": "10"
+    "spring": "14",
+    "summer": "22",
+    "autumn": "8",
+    "day": "20",
+    "night": "11"
   },
   "notes": {
     "top": [
@@ -81,21 +109,22 @@
       "Zencefil"
     ],
     "base": [
-      "Kaşmir",
+      "Kaşmeran",
       "Tonka fasulyesi",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
     "weak": "2",
-    "moderate": "13",
+    "moderate": "14",
     "longLasting": "4",
     "eternal": "2"
   },
   "sillage": {
     "intimate": "3",
-    "moderate": "13",
+    "moderate": "14",
     "strong": "6",
     "enormous": "3"
   },
@@ -104,13 +133,13 @@
     "moreFemale": "0",
     "unisex": "1",
     "moreMale": "4",
-    "male": "17"
+    "male": "18"
   },
   "priceVoting": {
     "wayOverpriced": "2",
     "overpriced": "0",
-    "fair": "1",
-    "goodValue": "7",
+    "fair": "2",
+    "goodValue": "8",
     "greatValue": "11"
   },
   "remindsMeOf": [
@@ -121,6 +150,10 @@
     {
       "brand": "MİRACULUM",
       "name": "Brutal Classic"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Ultra Male"
     },
     {
       "brand": "PENHALİGON'S",
@@ -153,32 +186,20 @@
       "name": "Club de Nuit Sillage"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "L'Homme"
-    },
-    {
       "brand": "RASASİ",
       "name": "Hawas for Him"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme"
     },
     {
       "brand": "VERSACE",
       "name": "Eros Flame"
     },
     {
-      "brand": "MANCERA",
-      "name": "Cedrat Boise"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male"
-    },
-    {
       "brand": "YVES SAİNT LAURENT",
       "name": "La Nuit de l'Homme"
-    },
-    {
-      "brand": "LOUİS VUİTTON",
-      "name": "Imagination"
     },
     {
       "brand": "RASASİ",
@@ -187,6 +208,10 @@
     {
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Odyssey Limoni Fresh"
     },
     {
       "brand": "AMOUAGE",
@@ -203,6 +228,15 @@
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "MYSLF Eau de Parfum"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "9pm"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Qaed Al Fursan"
     }
-  ]
+  ],
+  "comments": []
 }

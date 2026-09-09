@@ -39,16 +39,40 @@
       "width": "60.7222%"
     },
     {
-      "name": "amber",
+      "name": "misk",
       "width": "57.2222%"
     },
     {
-      "name": "misk",
+      "name": "amber",
       "width": "57.2222%"
     },
     {
       "name": "çiçeksi",
       "width": "56.8333%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +97,17 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Sedir",
+      "Erik",
+      "Gül",
+      "Biber",
+      "Bergamot",
+      "Ambergris",
+      "Misk",
+      "Yasemin"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -149,12 +183,12 @@
       "name": "J'ose"
     },
     {
-      "brand": "JOHN GALLİANO",
-      "name": "John Galliano"
-    },
-    {
       "brand": "DİOR",
       "name": "Pure Poison"
+    },
+    {
+      "brand": "JOHN GALLİANO",
+      "name": "John Galliano"
     },
     {
       "brand": "LANCÔME",
@@ -164,5 +198,6 @@
       "brand": "GUERLAİN",
       "name": "Mon Guerlain"
     }
-  ]
+  ],
+  "comments": []
 }

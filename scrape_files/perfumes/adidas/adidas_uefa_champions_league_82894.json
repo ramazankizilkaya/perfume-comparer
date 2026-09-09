@@ -2,13 +2,13 @@
   "name": "Adidas UEFA Champions League Adidas",
   "targetGender": "erkekler için",
   "fragranceFamily": "Aromatic",
-  "concentration": "Edt",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.82894.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Adidas/Adidas-UEFA-Champions-League-82894.html",
   "brand": "Adidas parfüm ve kolonya",
-  "description": "Adidas markasının Adidas UEFA Champions League parfümü, erkekler için Aromatik bir kokudur. Adidas UEFA Champions League, 2023 yılında piyasaya sürüldü. Üst notalar: Lavanta, Zencefil, Cin ve Nane; orta notalar: Sardunya, Labdanum ve Meyvemsi Notlar; alt notalar Kaşmir, Amber Xtreme ve Ladin.",
-  "description_original": "Adidas markasının Adidas UEFA Champions League parfümü, erkekler için Aromatik bir kokudur. Adidas UEFA Champions League, 2023 yılında piyasaya sürüldü. Üst notalar: Lavanta, Zencefil, Cin ve Nane; orta notalar: Sardunya, Labdanum ve Meyvemsi Notlar; alt notalar Kaşmir, Amber Xtreme ve Ladin.",
-  "description_enhanced": "Adidas markasının Adidas UEFA Champions League parfümü, erkekler için Aromatik bir kokudur. Adidas UEFA Champions League, 2023 yılında piyasaya sürüldü. Üst notalar: Lavanta, Zencefil, Cin ve Nane; orta notalar: Sardunya, Labdanum ve Meyvemsi Notlar; alt notalar Kaşmir, Amber Xtreme ve Ladin.",
+  "description": "Adidas markasının Adidas UEFA Champions League parfümü, erkekler için Aromatik bir kokudur. Adidas UEFA Champions League, 2023 yılında piyasaya sürüldü. Üst notalar: Lavanta, Zencefil, Cin ve Nane; orta notalar: Sardunya, Labdanum ve Meyvemsi Notlar; alt notalar Kaşmeran, Amber Xtreme ve Köknar.",
+  "description_original": "Adidas markasının Adidas UEFA Champions League parfümü, erkekler için Aromatik bir kokudur. Adidas UEFA Champions League, 2023 yılında piyasaya sürüldü. Üst notalar: Lavanta, Zencefil, Cin ve Nane; orta notalar: Sardunya, Labdanum ve Meyvemsi Notlar; alt notalar Kaşmeran, Amber Xtreme ve Köknar.",
+  "description_enhanced": "Adidas markasının Adidas UEFA Champions League parfümü, erkekler için Aromatik bir kokudur. Adidas UEFA Champions League, 2023 yılında piyasaya sürüldü. Üst notalar: Lavanta, Zencefil, Cin ve Nane; orta notalar: Sardunya, Labdanum ve Meyvemsi Notlar; alt notalar Kaşmeran, Amber Xtreme ve Köknar.",
   "mainAccords": [
     {
       "name": "aromatik",
@@ -45,25 +45,49 @@
     {
       "name": "taze",
       "width": "47.8182%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.31",
-    "votesCount": "89",
+    "score": "3.30",
+    "votesCount": "90",
     "breakdown": {
       "love": "9",
       "like": "32",
       "ok": "32",
-      "dislike": "10",
+      "dislike": "11",
       "hate": "6"
     }
   },
   "seasons": {
     "winter": "10",
-    "spring": "51",
-    "summer": "69",
+    "spring": "52",
+    "summer": "70",
     "autumn": "15",
-    "day": "62",
+    "day": "63",
     "night": "7"
   },
   "notes": {
@@ -79,10 +103,11 @@
       "Meyvemsi Notlar"
     ],
     "base": [
-      "Kaşmir",
+      "Kaşmeran",
       "Amber Xtreme",
-      "Ladin"
-    ]
+      "Köknar"
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "30",
@@ -117,12 +142,12 @@
       "name": "Club 6"
     },
     {
-      "brand": "MASQUE MİLANO",
-      "name": "Luci ed Ombre"
-    },
-    {
       "brand": "XERJOFF",
       "name": "Erba Pura"
+    },
+    {
+      "brand": "MASQUE MİLANO",
+      "name": "Luci ed Ombre"
     },
     {
       "brand": "EUDORA",
@@ -194,5 +219,6 @@
       "brand": "AFNAN",
       "name": "9pm"
     }
-  ]
+  ],
+  "comments": []
 }

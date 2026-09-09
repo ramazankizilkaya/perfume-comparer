@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.124605.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ahmed-Al-Maghribi/Royal-Wood-124605.html",
   "brand": "Ahmed Al Maghribi parfüm ve kolonya",
-  "description": "Ahmed Al Maghribi markasının Royal Wood parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Royal Wood, 2025 yılında piyasaya sürüldü. Üst notalar: Agar ağacı, Kakule ve Sichuan biberi; orta notalar: Brezilya gül ağacı, Sandal ağacı ve Vetiver; alt notalar Tonka fasulyesi, Vanilya, Amber ve Reçine.",
-  "description_original": "Ahmed Al Maghribi markasının Royal Wood parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Royal Wood, 2025 yılında piyasaya sürüldü. Üst notalar: Agar ağacı, Kakule ve Sichuan biberi; orta notalar: Brezilya gül ağacı, Sandal ağacı ve Vetiver; alt notalar Tonka fasulyesi, Vanilya, Amber ve Reçine.",
-  "description_enhanced": "Ahmed Al Maghribi markasının Royal Wood parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Royal Wood, 2025 yılında piyasaya sürüldü. Üst notalar: Agar ağacı, Kakule ve Sichuan biberi; orta notalar: Brezilya gül ağacı, Sandal ağacı ve Vetiver; alt notalar Tonka fasulyesi, Vanilya, Amber ve Reçine.",
+  "description": "Ahmed Al Maghribi markasının Royal Wood parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Royal Wood, 2025 yılında piyasaya sürüldü. Üst notalar: Agar ağacı, Kakule ve Sichuan biberi; orta notalar: Brezilya gül ağacı, Sandal ağacı ve Vetiver; alt notalar Amber, Reçine, Vanilya ve Tonka fasulyesi.",
+  "description_original": "Ahmed Al Maghribi markasının Royal Wood parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Royal Wood, 2025 yılında piyasaya sürüldü. Üst notalar: Agar ağacı, Kakule ve Sichuan biberi; orta notalar: Brezilya gül ağacı, Sandal ağacı ve Vetiver; alt notalar Amber, Reçine, Vanilya ve Tonka fasulyesi.",
+  "description_enhanced": "Ahmed Al Maghribi markasının Royal Wood parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Royal Wood, 2025 yılında piyasaya sürüldü. Üst notalar: Agar ağacı, Kakule ve Sichuan biberi; orta notalar: Brezilya gül ağacı, Sandal ağacı ve Vetiver; alt notalar Amber, Reçine, Vanilya ve Tonka fasulyesi.",
   "mainAccords": [
     {
       "name": "odunsu",
@@ -16,50 +16,74 @@
     },
     {
       "name": "amber",
-      "width": "82.5002%"
+      "width": "82.1114%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "78.1249%"
+      "width": "73.9447%"
     },
     {
       "name": "aromatik",
-      "width": "72.8751%"
-    },
-    {
-      "name": "vanilya",
-      "width": "67.1874%"
-    },
-    {
-      "name": "ud",
-      "width": "65%"
+      "width": "67.3336%"
     },
     {
       "name": "balsamik",
-      "width": "62.5936%"
+      "width": "62.8612%"
+    },
+    {
+      "name": "ud",
+      "width": "61.111%"
+    },
+    {
+      "name": "vanilya",
+      "width": "60.3333%"
     },
     {
       "name": "taze baharatlı",
-      "width": "60.6252%"
+      "width": "57.2225%"
     },
     {
       "name": "pudralı",
-      "width": "52.969%"
+      "width": "52.9444%"
     },
     {
       "name": "tatlı",
-      "width": "51.0001%"
+      "width": "48.2777%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.36",
-    "votesCount": "33",
+    "score": "4.22",
+    "votesCount": "36",
     "breakdown": {
-      "love": "20",
-      "like": "9",
+      "love": "19",
+      "like": "12",
       "ok": "1",
       "dislike": "2",
-      "hate": "1"
+      "hate": "2"
     }
   },
   "seasons": {
@@ -67,7 +91,7 @@
     "spring": "16",
     "summer": "5",
     "autumn": "22",
-    "day": "6",
+    "day": "7",
     "night": "22"
   },
   "notes": {
@@ -82,37 +106,38 @@
       "Vetiver"
     ],
     "base": [
-      "Tonka fasulyesi",
-      "Vanilya",
       "Amber",
-      "Reçine"
-    ]
+      "Reçine",
+      "Vanilya",
+      "Tonka fasulyesi"
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "2",
-    "moderate": "5",
-    "longLasting": "14",
+    "veryWeak": "2",
+    "weak": "1",
+    "moderate": "8",
+    "longLasting": "13",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "5",
-    "strong": "14",
+    "intimate": "5",
+    "moderate": "8",
+    "strong": "13",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "1",
     "moreFemale": "0",
-    "unisex": "3",
+    "unisex": "2",
     "moreMale": "4",
-    "male": "16"
+    "male": "20"
   },
   "priceVoting": {
-    "wayOverpriced": "0",
+    "wayOverpriced": "1",
     "overpriced": "1",
     "fair": "1",
-    "goodValue": "4",
+    "goodValue": "5",
     "greatValue": "14"
   },
   "remindsMeOf": [
@@ -133,10 +158,6 @@
       "name": "Zaffiro Collection Crafted Oud"
     },
     {
-      "brand": "AHMED AL MAGHRİBİ",
-      "name": "Laathani"
-    },
-    {
       "brand": "FRAGRANCE WORLD",
       "name": "Oud Wonder"
     },
@@ -151,44 +172,44 @@
       "name": "Oud Wood"
     },
     {
-      "brand": "RAYHAAN",
-      "name": "Terra"
+      "brand": "ARMAF",
+      "name": "Odyssey Homme"
     },
     {
       "brand": "AHMED AL MAGHRİBİ",
       "name": "Ighra'a"
     },
     {
-      "brand": "ARMAF",
-      "name": "Odyssey Homme"
+      "brand": "RAYHAAN",
+      "name": "Terra"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Emporio Armani Stronger With You Absolutely"
-    },
-    {
       "brand": "AHMED AL MAGHRİBİ",
       "name": "Blu Oud"
     },
     {
-      "brand": "FRENCH AVENUE",
-      "name": "Spectre Ghost"
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Stronger With You Absolutely"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male Le Parfum"
     },
     {
-      "brand": "RİİFFS PERFUMES",
-      "name": "Momento"
-    },
-    {
       "brand": "AHMED AL MAGHRİBİ",
       "name": "Aqua Oud"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Spectre Ghost"
+    },
+    {
+      "brand": "RİİFFS PERFUMES",
+      "name": "Momento"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -199,12 +220,13 @@
       "name": "Encre Noire Sport"
     },
     {
-      "brand": "FRENCH AVENUE",
-      "name": "Liquid Brun"
-    },
-    {
       "brand": "RASASİ",
       "name": "Hawas Black"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Liquid Brun"
     }
-  ]
+  ],
+  "comments": []
 }

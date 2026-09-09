@@ -1,7 +1,7 @@
 {
   "name": "Rahaal Afnan",
   "targetGender": "kadınlar ve erkekler için",
-  "fragranceFamily": "Gourmand",
+  "fragranceFamily": "Leather",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72319.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Afnan/Rahaal-72319.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Afnan markasının Rahaal parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Rahaal, 2019 yılında piyasaya sürüldü. Kokuda Kırmızı meyveler, Misk, Çiçeksi Notalar, Tonka fasulyesi, Amber ve Sandal ağacı notaları bulunur.",
   "mainAccords": [
     {
-      "name": "meyvemsi",
+      "name": "misk",
       "width": "100%"
     },
     {
-      "name": "misk",
+      "name": "meyvemsi",
       "width": "100%"
     },
     {
@@ -31,11 +31,11 @@
       "width": "82.5%"
     },
     {
-      "name": "çiçeksi",
+      "name": "odunsu",
       "width": "65%"
     },
     {
-      "name": "odunsu",
+      "name": "çiçeksi",
       "width": "65%"
     },
     {
@@ -43,12 +43,40 @@
       "width": "58%"
     },
     {
+      "name": "vanilya",
+      "width": "54.5%"
+    },
+    {
       "name": "ekşi",
       "width": "54.5%"
     },
     {
-      "name": "vanilya",
-      "width": "54.5%"
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": ""
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +101,15 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kırmızı meyveler",
+      "Misk",
+      "Çiçeksi Notalar",
+      "Tonka fasulyesi",
+      "Amber",
+      "Sandal ağacı"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -110,8 +146,16 @@
   ],
   "peopleAlsoLike": [
     {
+      "brand": "AFNAN",
+      "name": "Mystique Bouquet"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Marshmallow Blush"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
-      "name": "The Kingdom For Women"
+      "name": "Ramz Lattafa (Gold)"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -122,36 +166,28 @@
       "name": "Club De Nuit Maleka"
     },
     {
-      "brand": "MAISON ASRAR",
-      "name": "Heritage"
+      "brand": "ARMAF",
+      "name": "Club de Nuit White Imperiale"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Art of Arabia III"
+      "name": "Al Nashama"
+    },
+    {
+      "brand": "KAYALİ FRAGRANCES",
+      "name": "Yum Boujee Marshmallow | 81"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Yara Elixir"
-    },
-    {
-      "brand": "GULF ORCHİD",
-      "name": "Sweet Heaven"
-    },
-    {
-      "brand": "PARIS CORNER",
-      "name": "Dulzura"
+      "name": "Qaed Al Fursan Unlimited"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah"
+      "name": "Petra"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Angham"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Sehr"
     },
     {
       "brand": "ZİMAYA",
@@ -159,15 +195,16 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "La Collection D'antiquités 1886"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
       "name": "Teriaq Intense"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah Dukhan"
+      "name": "Khamrah Qahwa"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Roses Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

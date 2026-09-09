@@ -16,47 +16,71 @@
     },
     {
       "name": "aromatik",
-      "width": "79.3902%"
+      "width": "77.9632%"
     },
     {
       "name": "odunsu",
-      "width": "65.122%"
+      "width": "62.5252%"
     },
     {
       "name": "amber",
-      "width": "61.7073%"
+      "width": "60.6399%"
     },
     {
       "name": "yeşil",
-      "width": "56.8293%"
+      "width": "55.926%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "56.0977%"
+      "width": "54.9833%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "54.3903%"
-    },
-    {
-      "name": "paçuli",
-      "width": "54.3903%"
+      "width": "53.5691%"
     },
     {
       "name": "toprak",
-      "width": "54.3903%"
+      "width": "52.6261%"
+    },
+    {
+      "name": "paçuli",
+      "width": "51.2123%"
     },
     {
       "name": "bitkisel",
-      "width": "44.634%"
+      "width": "44.1416%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.78",
-    "votesCount": "55",
+    "score": "3.81",
+    "votesCount": "57",
     "breakdown": {
-      "love": "27",
-      "like": "7",
+      "love": "28",
+      "like": "8",
       "ok": "8",
       "dislike": "8",
       "hate": "5"
@@ -64,11 +88,11 @@
   },
   "seasons": {
     "winter": "11",
-    "spring": "23",
-    "summer": "21",
-    "autumn": "22",
-    "day": "20",
-    "night": "10"
+    "spring": "25",
+    "summer": "23",
+    "autumn": "24",
+    "day": "22",
+    "night": "11"
   },
   "notes": {
     "top": [
@@ -84,33 +108,34 @@
       "Paçuli",
       "Vetiver",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
     "weak": "1",
-    "moderate": "12",
-    "longLasting": "16",
+    "moderate": "13",
+    "longLasting": "18",
     "eternal": "6"
   },
   "sillage": {
     "intimate": "5",
-    "moderate": "12",
-    "strong": "12",
-    "enormous": "5"
+    "moderate": "13",
+    "strong": "13",
+    "enormous": "6"
   },
   "genderVoting": {
     "female": "5",
     "moreFemale": "0",
-    "unisex": "20",
-    "moreMale": "8",
-    "male": "14"
+    "unisex": "21",
+    "moreMale": "9",
+    "male": "15"
   },
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "5",
     "fair": "8",
-    "goodValue": "6",
+    "goodValue": "7",
     "greatValue": "5"
   },
   "remindsMeOf": [
@@ -139,10 +164,6 @@
       "name": "Loewe 7"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Honour Man"
-    },
-    {
       "brand": "BVLGARİ",
       "name": "Tygar"
     },
@@ -151,8 +172,16 @@
       "name": "B683"
     },
     {
+      "brand": "AMOUAGE",
+      "name": "Honour Man"
+    },
+    {
       "brand": "BURBERRY",
       "name": "Weekend for Men"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Signature Brown"
     },
     {
       "brand": "ISSEY MİYAKE",
@@ -169,28 +198,32 @@
     {
       "brand": "GİSSAH",
       "name": "Imperial Valley"
-    },
-    {
-      "brand": "LOEWE",
-      "name": "Loewe 7 Cobalt"
     }
   ],
   "peopleAlsoLike": [
     {
-      "brand": "LALİQUE",
-      "name": "Encre Noire A L'Extreme"
+      "brand": "ESSENTİAL PARFUMS",
+      "name": "Bois Impérial"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
     },
     {
       "brand": "LALİQUE",
       "name": "Encre Noire Sport"
     },
     {
-      "brand": "AJMAL",
-      "name": "Amber Wood"
+      "brand": "LALİQUE",
+      "name": "Encre Noire A L'Extreme"
     },
     {
       "brand": "CHANEL",
       "name": "Bleu de Chanel Eau de Parfum"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Amber Wood"
     },
     {
       "brand": "NİSHANE",
@@ -209,16 +242,8 @@
       "name": "Noir Extreme"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Armani Code Parfum"
-    },
-    {
       "brand": "GUCCİ",
       "name": "Gucci Guilty Absolute"
-    },
-    {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Amber Oud Dubai Night"
     },
     {
       "brand": "HERMÈS",
@@ -236,5 +261,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

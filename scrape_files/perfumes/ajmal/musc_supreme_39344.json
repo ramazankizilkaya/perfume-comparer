@@ -33,6 +33,30 @@
     {
       "name": "animalik",
       "width": "44.6177%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -57,7 +81,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Misk",
+      "Çiçeksi Notalar",
+      "Odunsu Notalar",
+      "Amber"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -114,12 +144,12 @@
       "name": "Shalimar Eau de Parfum"
     },
     {
-      "brand": "ESTÉE LAUDER",
-      "name": "White Linen"
-    },
-    {
       "brand": "DİOR",
       "name": "Poison"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "White Linen"
     },
     {
       "brand": "MUGLER",
@@ -153,5 +183,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -29,15 +29,43 @@
     {
       "name": "laktonik",
       "width": "49.9232%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.01",
-    "votesCount": "289",
+    "score": "4.00",
+    "votesCount": "292",
     "breakdown": {
       "love": "104",
       "like": "110",
-      "ok": "54",
+      "ok": "57",
       "dislike": "16",
       "hate": "5"
     }
@@ -53,14 +81,19 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Yaban meyveleri",
+      "Krem şanti",
+      "Vanilya"
+    ]
   },
   "longevity": {
     "veryWeak": "35",
     "weak": "50",
     "moderate": "64",
     "longLasting": "7",
-    "eternal": "1"
+    "eternal": "2"
   },
   "sillage": {
     "intimate": "49",
@@ -78,7 +111,7 @@
   "priceVoting": {
     "wayOverpriced": "5",
     "overpriced": "2",
-    "fair": "54",
+    "fair": "57",
     "goodValue": "64",
     "greatValue": "56"
   },
@@ -178,16 +211,16 @@
       "name": "Vanilla Bean Noel"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Butterfly"
-    },
-    {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
     },
     {
       "brand": "ARİANA GRANDE",
       "name": "Cloud"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Butterfly"
     },
     {
       "brand": "AQUOLİNA",
@@ -205,5 +238,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Gingham Gorgeous"
     }
-  ]
+  ],
+  "comments": []
 }

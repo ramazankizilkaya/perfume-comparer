@@ -25,6 +25,34 @@
     {
       "name": "aldehitli",
       "width": "33.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -39,7 +67,7 @@
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "2",
     "spring": "5",
     "summer": "5",
     "autumn": "1",
@@ -49,7 +77,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Limon",
+      "Jöle"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -90,6 +122,10 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Tutti Frutti Candy"
+    },
+    {
+      "brand": "STÉPHANE HUMBERT LUCAS 777",
+      "name": "Pink Boa"
     },
     {
       "brand": "OAKCHA",
@@ -139,11 +175,11 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Waikiki Beach Coconut"
+      "name": "Vampire Blood"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Vampire Blood"
+      "name": "Waikiki Beach Coconut"
     },
     {
       "brand": "SABRİNA CARPENTER",
@@ -161,5 +197,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Sweet Carrot Cake"
     }
-  ]
+  ],
+  "comments": []
 }

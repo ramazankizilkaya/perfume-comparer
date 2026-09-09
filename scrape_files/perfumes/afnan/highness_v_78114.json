@@ -49,14 +49,38 @@
     {
       "name": "pudralı",
       "width": "55.8336%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.54",
-    "votesCount": "24",
+    "score": "4.52",
+    "votesCount": "25",
     "breakdown": {
       "love": "17",
-      "like": "3",
+      "like": "4",
       "ok": "4",
       "dislike": "0",
       "hate": "0"
@@ -86,7 +110,8 @@
       "Misk",
       "Amber",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -125,12 +150,12 @@
       "name": "Minerva"
     },
     {
-      "brand": "THE WOODS COLLECTİON",
-      "name": "Secret"
-    },
-    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Supreme Bouquet"
+    },
+    {
+      "brand": "THE WOODS COLLECTİON",
+      "name": "Secret"
     },
     {
       "brand": "THE WOODS COLLECTİON",
@@ -147,6 +172,10 @@
   ],
   "peopleAlsoLike": [
     {
+      "brand": "MEMO PARİS",
+      "name": "Marfa"
+    },
+    {
       "brand": "MAİSON ALHAMBRA",
       "name": "Kismet for Women"
     },
@@ -156,35 +185,31 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "The Kingdom For Women"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Musamam White Intense"
+      "name": "Petra"
     },
     {
       "brand": "AFNAN",
       "name": "Souvenir Floral Bouquet"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Athena"
-    },
-    {
       "brand": "ARMAF",
       "name": "Club de Nuit Woman"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Ahmar"
     },
     {
       "brand": "AL HARAMAİN PERFUMES",
       "name": "Junoon Noir"
     },
     {
-      "brand": "ARMAF",
-      "name": "Club de Nuit White Imperiale"
+      "brand": "PARIS CORNER",
+      "name": "Eshal Vanilla"
     },
     {
-      "brand": "SWİSS ARABİAN",
-      "name": "Shaghaf Oud Ahmar"
+      "brand": "ARMAF",
+      "name": "Club de Nuit White Imperiale"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -206,5 +231,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Amethyst"
     }
-  ]
+  ],
+  "comments": []
 }

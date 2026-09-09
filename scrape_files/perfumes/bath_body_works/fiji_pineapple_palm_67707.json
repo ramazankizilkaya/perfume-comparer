@@ -49,6 +49,34 @@
     {
       "name": "deri",
       "width": "47.2043%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,7 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "8",
     "summer": "13",
     "autumn": "3",
@@ -88,7 +116,8 @@
       "Karamel",
       "Huş",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
@@ -149,10 +178,6 @@
       "name": "Champagne Toast"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Papaya Paradise Cove"
-    },
-    {
       "brand": "ARİANA GRANDE",
       "name": "Cloud"
     },
@@ -199,6 +224,11 @@
     {
       "brand": "CHLOÉ",
       "name": "Chloé Roses de Chloé"
+    },
+    {
+      "brand": "CLEAN",
+      "name": "Clean Warm Cotton"
     }
-  ]
+  ],
+  "comments": []
 }

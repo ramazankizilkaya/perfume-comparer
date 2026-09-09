@@ -2,7 +2,7 @@
   "name": "Adidas Craque Adidas",
   "targetGender": "erkekler için",
   "fragranceFamily": "Citrus",
-  "concentration": "Edt",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.63042.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Adidas/Adidas-Craque-63042.html",
   "brand": "Adidas parfüm ve kolonya",
@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "lavanta",
+      "name": "odunsu",
       "width": "65.0001%"
     },
     {
-      "name": "odunsu",
+      "name": "lavanta",
       "width": "65.0001%"
     },
     {
@@ -41,6 +41,30 @@
     {
       "name": "amber",
       "width": "47.5001%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -74,7 +98,8 @@
     "base": [
       "Odunsu Notalar",
       "Tonka fasulyesi"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
@@ -104,5 +129,6 @@
     "greatValue": "1"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

@@ -41,13 +41,41 @@
     {
       "name": "vanilya",
       "width": "44.2675%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.07",
-    "votesCount": "161",
+    "score": "4.06",
+    "votesCount": "159",
     "breakdown": {
-      "love": "61",
+      "love": "59",
       "like": "65",
       "ok": "22",
       "dislike": "12",
@@ -55,17 +83,23 @@
     }
   },
   "seasons": {
-    "winter": "8",
-    "spring": "75",
-    "summer": "61",
+    "winter": "9",
+    "spring": "76",
+    "summer": "62",
     "autumn": "13",
-    "day": "64",
+    "day": "65",
     "night": "16"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Şakayık",
+      "Elma",
+      "Sandal ağacı",
+      "Vanilya"
+    ]
   },
   "longevity": {
     "veryWeak": "4",
@@ -108,6 +142,26 @@
       "name": "Nectar Pulse"
     },
     {
+      "brand": "FİNE'RY.",
+      "name": "Flower Bed"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "La Bomba"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Miracle"
+    },
+    {
+      "brand": "ROAN",
+      "name": "Porcelain Pulse"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Poppy"
+    },
+    {
       "brand": "BATH & BODY WORKS",
       "name": "Hello Beautiful"
     },
@@ -116,28 +170,8 @@
       "name": "Cool Water Sea Rose"
     },
     {
-      "brand": "LANCÔME",
-      "name": "Miracle"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Poppy"
-    },
-    {
-      "brand": "FİNE'RY.",
-      "name": "Flower Bed"
-    },
-    {
       "brand": "THE BODY SHOP",
       "name": "The Spirit of Moonflower"
-    },
-    {
-      "brand": "CAROLİNA HERRERA",
-      "name": "La Bomba"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Angels Only"
     },
     {
       "brand": "MONTBLANC",
@@ -148,12 +182,12 @@
       "name": "Peony Picnic"
     },
     {
-      "brand": "PARİS HİLTON",
-      "name": "Iconic"
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Angels Only"
     },
     {
-      "brand": "JO MALONE LONDON",
-      "name": "Peony & Blush Suede"
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Peonia Nobile"
     }
   ],
   "peopleAlsoLike": [
@@ -183,10 +217,6 @@
     },
     {
       "brand": "ARİANA GRANDE",
-      "name": "Ari"
-    },
-    {
-      "brand": "ARİANA GRANDE",
       "name": "Sweet Like Candy"
     },
     {
@@ -210,6 +240,10 @@
       "name": "Coco Mademoiselle"
     },
     {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Gioia"
+    },
+    {
       "brand": "CAROLİNA HERRERA",
       "name": "Good Girl"
     },
@@ -217,5 +251,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "At the Beach"
     }
-  ]
+  ],
+  "comments": []
 }

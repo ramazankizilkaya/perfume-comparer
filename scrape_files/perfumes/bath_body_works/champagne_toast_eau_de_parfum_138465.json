@@ -3,7 +3,7 @@
   "targetGender": "kadınlar için",
   "fragranceFamily": "Citrus",
   "concentration": "Edp",
-  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138465.jpg?t=1785052810",
+  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138465.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Champagne-Toast-Eau-de-Parfum-138465.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
   "description": "Bath & Body Works markasının Champagne Toast Eau de Parfum parfümü, kadınlar için Narenciye Aromatik bir kokudur. Bu yeni bir parfüm. Champagne Toast Eau de Parfum, 2026 yılında piyasaya sürüldü. Kokuda Mandarin, Şampanya ve Meyveler notaları bulunur.",
@@ -29,14 +29,42 @@
     {
       "name": "aldehitli",
       "width": "56.9231%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "2.00",
-    "votesCount": "2",
+    "score": "2.67",
+    "votesCount": "3",
     "breakdown": {
       "love": "0",
-      "like": "0",
+      "like": "1",
       "ok": "0",
       "dislike": "2",
       "hate": "0"
@@ -44,20 +72,25 @@
   },
   "seasons": {
     "winter": "0",
-    "spring": "0",
-    "summer": "0",
+    "spring": "1",
+    "summer": "1",
     "autumn": "0",
-    "day": "1",
+    "day": "2",
     "night": "0"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Mandarin",
+      "Şampanya",
+      "Meyveler"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
-    "weak": "0",
+    "weak": "1",
     "moderate": "0",
     "longLasting": "0",
     "eternal": "0"
@@ -69,7 +102,7 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "0",
+    "female": "1",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "0",
@@ -100,5 +133,6 @@
       "name": "Champagne in Paris"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

@@ -27,19 +27,19 @@
       "width": "86%"
     },
     {
-      "name": "misk",
-      "width": "82.5%"
-    },
-    {
       "name": "gül",
       "width": "82.5%"
     },
     {
-      "name": "meyvemsi",
-      "width": "77.25%"
+      "name": "misk",
+      "width": "82.5%"
     },
     {
       "name": "tatlı",
+      "width": "77.25%"
+    },
+    {
+      "name": "meyvemsi",
       "width": "77.25%"
     },
     {
@@ -49,6 +49,30 @@
     {
       "name": "metalik",
       "width": "65%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,7 +108,8 @@
       "Amber",
       "Agar ağacı (Oud)",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -180,5 +205,6 @@
       "brand": "LANCÔME",
       "name": "Poeme"
     }
-  ]
+  ],
+  "comments": []
 }

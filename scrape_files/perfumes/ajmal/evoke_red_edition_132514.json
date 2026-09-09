@@ -41,26 +41,50 @@
     {
       "name": "misk",
       "width": "44.4828%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.50",
-    "votesCount": "4",
+    "votesCount": "6",
     "breakdown": {
-      "love": "3",
-      "like": "0",
+      "love": "4",
+      "like": "1",
       "ok": "1",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "2",
     "spring": "2",
     "summer": "1",
-    "autumn": "3",
+    "autumn": "5",
     "day": "0",
-    "night": "2"
+    "night": "4"
   },
   "notes": {
     "top": [
@@ -79,25 +103,26 @@
       "Amber",
       "Tonka fasulyesi",
       "Labdanum"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
     "moderate": "0",
-    "longLasting": "1",
+    "longLasting": "2",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
     "moderate": "0",
-    "strong": "1",
+    "strong": "2",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "0",
+    "unisex": "1",
     "moreMale": "1",
     "male": "0"
   },
@@ -105,7 +130,7 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "1",
-    "goodValue": "1",
+    "goodValue": "2",
     "greatValue": "0"
   },
   "remindsMeOf": [
@@ -118,5 +143,6 @@
       "name": "The Most Wanted Intense"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

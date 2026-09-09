@@ -35,11 +35,11 @@
       "width": "60.6742%"
     },
     {
-      "name": "metalik",
+      "name": "pudralı",
       "width": "53.5955%"
     },
     {
-      "name": "pudralı",
+      "name": "metalik",
       "width": "53.5955%"
     },
     {
@@ -49,6 +49,30 @@
     {
       "name": "deri",
       "width": "48.8764%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,7 +107,8 @@
       "Safran",
       "Baharatlar",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
@@ -174,5 +199,6 @@
       "brand": "AJMAL",
       "name": "Areej Al Shouk"
     }
-  ]
+  ],
+  "comments": []
 }

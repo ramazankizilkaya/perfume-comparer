@@ -11,11 +11,11 @@
   "description_enhanced": "Bath & Body Works markasının Bali Blue Surf parfümü, kadınlar için Narenciye bir kokudur. Bali Blue Surf, 2017 yılında piyasaya sürüldü. Kokuda Hindistan cevizi suyu, Tuz, Mandarin çiçeği ve Limon notaları bulunur.",
   "mainAccords": [
     {
-      "name": "narenciye",
+      "name": "tuzlu",
       "width": "100%"
     },
     {
-      "name": "tuzlu",
+      "name": "narenciye",
       "width": "100%"
     },
     {
@@ -29,14 +29,42 @@
     {
       "name": "aromatik",
       "width": "37.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.33",
-    "votesCount": "15",
+    "score": "4.31",
+    "votesCount": "16",
     "breakdown": {
       "love": "8",
-      "like": "5",
+      "like": "6",
       "ok": "1",
       "dislike": "1",
       "hate": "0"
@@ -45,7 +73,7 @@
   "seasons": {
     "winter": "0",
     "spring": "3",
-    "summer": "10",
+    "summer": "11",
     "autumn": "1",
     "day": "7",
     "night": "1"
@@ -53,11 +81,17 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Hindistan cevizi suyu",
+      "Tuz",
+      "Mandarin çiçeği",
+      "Limon"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
-    "weak": "1",
+    "weak": "2",
     "moderate": "3",
     "longLasting": "1",
     "eternal": "1"
@@ -71,7 +105,7 @@
   "genderVoting": {
     "female": "7",
     "moreFemale": "2",
-    "unisex": "0",
+    "unisex": "1",
     "moreMale": "0",
     "male": "0"
   },
@@ -79,7 +113,7 @@
     "wayOverpriced": "1",
     "overpriced": "0",
     "fair": "1",
-    "goodValue": "2",
+    "goodValue": "3",
     "greatValue": "3"
   },
   "remindsMeOf": [
@@ -153,5 +187,6 @@
       "brand": "RİHANNA",
       "name": "Rebelle"
     }
-  ]
+  ],
+  "comments": []
 }

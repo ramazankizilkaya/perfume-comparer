@@ -49,6 +49,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "45.7872%"
+    },
+    {
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,7 +118,8 @@
       "Misk",
       "Paçuli",
       "Meşe"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
@@ -151,12 +180,12 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "HERMÈS",
-      "name": "Terre d'Hermès"
-    },
-    {
       "brand": "CHANEL",
       "name": "Bleu de Chanel"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -203,12 +232,13 @@
       "name": "CK One Shock For Him"
     },
     {
-      "brand": "CREED",
-      "name": "Green Irish Tweed"
-    },
-    {
       "brand": "DAVİDOFF",
       "name": "Cool Water"
+    },
+    {
+      "brand": "CREED",
+      "name": "Green Irish Tweed"
     }
-  ]
+  ],
+  "comments": []
 }

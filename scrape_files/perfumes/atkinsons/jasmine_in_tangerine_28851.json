@@ -19,16 +19,44 @@
       "width": "84.8831%"
     },
     {
-      "name": "meyvemsi",
+      "name": "tatlı",
       "width": "46.4649%"
     },
     {
-      "name": "tatlı",
+      "name": "meyvemsi",
       "width": "46.4649%"
     },
     {
       "name": "çiçeksi",
       "width": "42.9023%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,33 +88,74 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "12",
+    "moderate": "36",
+    "longLasting": "19",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "36",
+    "strong": "15",
+    "enormous": "14"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "25",
+    "moreFemale": "11",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "12",
     "fair": "22",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentina Acqua Floreale"
+    },
+    {
+      "brand": "MİCHAEL KORS",
+      "name": "Glam Jasmine"
+    },
+    {
+      "brand": "WİLGERMAİN",
+      "name": "Aquafortis"
+    },
+    {
+      "brand": "AVON",
+      "name": "In Bloom"
+    },
+    {
+      "brand": "MORESQUE",
+      "name": "Regina Di Fiori"
+    },
+    {
+      "brand": "AVON",
+      "name": "C'est Moi"
+    },
+    {
+      "brand": "BOUCHERON",
+      "name": "Place Vendôme"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "L'Interdit Eau de Parfum"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Jasmin Rouge"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Jasmin Des Anges"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -148,5 +217,6 @@
       "brand": "BYREDO",
       "name": "La Tulipe"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -27,25 +27,53 @@
       "width": "53.3333%"
     },
     {
-      "name": "balsamik",
+      "name": "laktonik",
       "width": "37.7778%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.11",
-    "votesCount": "53",
+    "score": "4.12",
+    "votesCount": "56",
     "breakdown": {
-      "love": "19",
+      "love": "21",
       "like": "24",
-      "ok": "7",
+      "ok": "8",
       "dislike": "3",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "12",
-    "spring": "18",
-    "summer": "13",
+    "spring": "19",
+    "summer": "14",
     "autumn": "15",
     "day": "21",
     "night": "11"
@@ -53,7 +81,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Çilek",
+      "Bourbon Vanilya",
+      "Kayısı"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
@@ -78,7 +111,7 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "1",
-    "fair": "7",
+    "fair": "8",
     "goodValue": "9",
     "greatValue": "8"
   },
@@ -109,15 +142,7 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Strawberry Pound Cake"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Pink Jasmine & Strawberry"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Grandma's Fruitcake"
     },
     {
       "brand": "THE DUA BRAND",
@@ -132,8 +157,16 @@
       "name": "Yara Candy"
     },
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Strawberry Pound Cake"
+    },
+    {
       "brand": "NEST",
       "name": "Santa Barbara Strawberry"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Grandma's Fruitcake"
     },
     {
       "brand": "KATY PERRY",
@@ -146,12 +179,20 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Strawberry Pound Cake"
+      "brand": "ARİANA GRANDE",
+      "name": "Sweet Like Candy"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Cotton Candy Clouds"
+      "name": "Strawberry Snowflakes"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Dark Kiss"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Strawberry Pound Cake"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -174,16 +215,16 @@
       "name": "Sweet Tooth"
     },
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Warm Vanilla Sugar"
+    },
+    {
       "brand": "BİLLİE EİLİSH",
       "name": "Eilish"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Vanilla Bean Noel"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Dahlia"
     },
     {
       "brand": "ARİANA GRANDE",
@@ -196,14 +237,7 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Gingham Gorgeous"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '62"
-    },
-    {
-      "brand": "BURBERRY",
-      "name": "Goddess"
     }
-  ]
+  ],
+  "comments": []
 }

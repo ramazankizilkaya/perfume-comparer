@@ -19,11 +19,11 @@
       "width": "82.5001%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "tatlı",
       "width": "65.0002%"
     },
     {
-      "name": "tatlı",
+      "name": "taze baharatlı",
       "width": "65.0002%"
     },
     {
@@ -31,12 +31,40 @@
       "width": "58%"
     },
     {
+      "name": "taze",
+      "width": "50.9998%"
+    },
+    {
       "name": "aromatik",
       "width": "50.9998%"
     },
     {
-      "name": "taze",
-      "width": "50.9998%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -51,7 +79,7 @@
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "2",
     "spring": "6",
     "summer": "4",
     "autumn": "3",
@@ -61,7 +89,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Bergamot",
+      "Armut"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -139,7 +171,7 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Strawberry Snowflakes"
+      "name": "Bubble Gum Pop"
     },
     {
       "brand": "KAYALİ FRAGRANCES",
@@ -151,19 +183,7 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Bahamas Passionfruit & Banana Flower"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Dark Kiss"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Gingham Gorgeous"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Libre"
     },
     {
       "brand": "VALENTİNO",
@@ -171,15 +191,19 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Covered In Roses"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Sweetest Song"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Fairytale"
+      "brand": "KAYALİ FRAGRANCES",
+      "name": "Freedom Musk Santal | 34 Eau de Parfum"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Twisted Peppermint"
+      "name": "Butterfly"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -188,6 +212,15 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Magic In The Air"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Frosted Coconut Snowball"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Warm Vanilla Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

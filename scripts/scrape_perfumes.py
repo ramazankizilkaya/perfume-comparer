@@ -153,10 +153,10 @@ def parse_perfume_page(page, perfume_url):
     try:
         page.wait_for_timeout(2500)
 
-        # Scroll down step-by-step to trigger lazy loading of accords, votes, pyramid, reminds section
-        for i in range(1, 12):
-            page.evaluate(f"window.scrollTo(0, {i} * document.body.scrollHeight / 12)")
-            page.wait_for_timeout(300)
+        # Scroll down step-by-step to trigger lazy loading of accords, votes, pyramid, reminds and comments section
+        for i in range(1, 16):
+            page.evaluate(f"window.scrollTo(0, {i} * document.body.scrollHeight / 15)")
+            page.wait_for_timeout(250)
 
         data = page.evaluate(r"""() => {
         const bodyText = document.body.innerText;
@@ -408,6 +408,34 @@ def parse_perfume_page(page, perfume_url):
             }
         }
 
+        // 15. User Comments / Reviews (Kullanıcı Yorumları ve Değerlendirmeleri)
+        const comments = [];
+        const reviewCards = Array.from(document.querySelectorAll('[itemprop="review"]'));
+        for (const card of reviewCards) {
+            const author = card.querySelector('[itemprop="author"] meta[itemprop="name"]')?.content 
+                || card.querySelector('[itemprop="author"]')?.innerText.trim() || '';
+            const date = card.querySelector('[itemprop="datePublished"]')?.getAttribute('content') 
+                || card.querySelector('[itemprop="datePublished"]')?.innerText.trim() || '';
+            const rawText = (card.querySelector('.tw-review-prose')?.innerText || card.querySelector('[itemprop="reviewBody"]')?.innerText || '').replace(/Daha fazla göster$/i, '').trim();
+            const gradient = Array.from(card.classList).find(cls => cls.startsWith('tw-gradient-')) || '';
+            const sentiment = gradient ? gradient.replace('tw-gradient-', '') : '';
+            const source = card.querySelector('a[href*="focus-zone"]')?.innerText.replace('Orijinal inceleme kaynağı', '').trim() || 'Fragrantica';
+            const avatar = card.querySelector('img[itemprop="image"]')?.src || '';
+
+            if (rawText) {
+                comments.push({
+                    id: card.id || '',
+                    author: author,
+                    date: date,
+                    text: rawText,
+                    sentiment: sentiment,
+                    gradient: gradient,
+                    source: source,
+                    avatar: avatar
+                });
+            }
+        }
+
         return {
             name: perfumeName,
             targetGender: targetGender,
@@ -431,7 +459,8 @@ def parse_perfume_page(page, perfume_url):
             genderVoting: genderVoting,
             priceVoting: priceVoting,
             remindsMeOf: remindsMeOf.slice(0, 15),
-            peopleAlsoLike: peopleAlsoLike.slice(0, 15)
+            peopleAlsoLike: peopleAlsoLike.slice(0, 15),
+            comments: comments
         };
     }""")
 
@@ -453,7 +482,7 @@ def is_perfume_json_valid(file_path):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             d = json.load(f)
-            return bool(d and d.get("name"))
+            return bool(d and d.get("name") and "comments" in d)
     except Exception:
         return False
 
@@ -995,6 +1024,17 @@ def _scrape_brand_perfumes(brand_identifier, max_perfumes, delay, proxy_state):
                         desc_orig = p_data.get("description", "")
                         desc_enhanced = ai_res.get("description") or desc_orig
 
+                        existing_article = None
+                        existing_faq = None
+                        if os.path.exists(out_file):
+                            try:
+                                with open(out_file, "r", encoding="utf-8") as ef:
+                                    prev = json.load(ef)
+                                    existing_article = prev.get("article")
+                                    existing_faq = prev.get("faq")
+                            except Exception:
+                                pass
+
                         ordered_data = {
                             "name": p_data.get("name"),
                             "targetGender": p_data.get("targetGender"),
@@ -1015,8 +1055,14 @@ def _scrape_brand_perfumes(brand_identifier, max_perfumes, delay, proxy_state):
                             "genderVoting": p_data.get("genderVoting"),
                             "priceVoting": p_data.get("priceVoting"),
                             "remindsMeOf": p_data.get("remindsMeOf"),
-                            "peopleAlsoLike": p_data.get("peopleAlsoLike")
+                            "peopleAlsoLike": p_data.get("peopleAlsoLike"),
+                            "comments": p_data.get("comments") or []
                         }
+                        if existing_article:
+                            ordered_data["article"] = existing_article
+                        if existing_faq:
+                            ordered_data["faq"] = existing_faq
+
                         with open(out_file, "w", encoding="utf-8") as out_f:
                             json.dump(ordered_data, out_f, ensure_ascii=False, indent=2)
                         print(f"  --> Saved (AI Verified): {ordered_data['name']} [{ordered_data['concentration']}] ({ordered_data['rating']['score']}/5 score) to {out_file}")

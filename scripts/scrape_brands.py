@@ -148,7 +148,7 @@ POPULAR_BRANDS_HTML_SNIPPET = [
     "https://www.fragrantica.com/designers/Lattafa-Perfumes.html",
     "https://www.fragrantica.com/designers/Le-Labo.html",
     "https://www.fragrantica.com/designers/Liquides-Imaginaires.html",
-    "https://www.fragrantica.tr/designers/Liz-Claiborne.html",
+    "https://www.fragrantica.com/designers/Liz-Claiborne.html",
     "https://www.fragrantica.com/designers/Loewe.html",
     "https://www.fragrantica.com/designers/Lorenzo-Pazzaglia.html",
     "https://www.fragrantica.com/designers/Louis-Vuitton.html",
@@ -231,7 +231,42 @@ POPULAR_BRANDS_HTML_SNIPPET = [
     "https://www.fragrantica.com/designers/Beso-Beach.html",
     "https://www.fragrantica.com/designers/Kylie-Jenner.html",
     "https://www.fragrantica.com/designers/DKNY.html",
-    "https://www.fragrantica.com/designers/Sevilla.html"
+    "https://www.fragrantica.com/designers/Sevilla.html",
+
+    # Meşhur Arap Klon & Trending Markalar
+    "https://www.fragrantica.com/designers/Asdaaf.html",
+    "https://www.fragrantica.com/designers/Zimaya.html",
+    "https://www.fragrantica.com/designers/Al-Wataniah.html",
+    "https://www.fragrantica.com/designers/Orientica.html",
+    "https://www.fragrantica.com/designers/Dumont.html",
+    "https://www.fragrantica.com/designers/Al-Rehab.html",
+    "https://www.fragrantica.com/designers/Riiffs-Perfumes.html",
+    "https://www.fragrantica.com/designers/Nabeel.html",
+    "https://www.fragrantica.com/designers/Naseem.html",
+    "https://www.fragrantica.com/designers/Hamidi.html",
+
+    # Meşhur Fransız / Klasik & Niş Markalar
+    "https://www.fragrantica.com/designers/Rochas.html",
+    "https://www.fragrantica.com/designers/Guy-Laroche.html",
+    "https://www.fragrantica.com/designers/Boucheron.html",
+    "https://www.fragrantica.com/designers/Van-Cleef-Arpels.html",
+    "https://www.fragrantica.com/designers/Chopard.html",
+    "https://www.fragrantica.com/designers/Jacques-Bogart.html",
+    "https://www.fragrantica.com/designers/Lanvin.html",
+    "https://www.fragrantica.com/designers/Molinard.html",
+    "https://www.fragrantica.com/designers/Histoires-de-Parfums.html",
+    "https://www.fragrantica.com/designers/Jovoy-Paris.html",
+    "https://www.fragrantica.com/designers/Jeroboam.html",
+    "https://www.fragrantica.com/designers/Caron.html",
+
+    # Popüler Tasarımcı & İtalyan / Global Markalar
+    "https://www.fragrantica.com/designers/Tiziana-Terenzi.html",
+    "https://www.fragrantica.com/designers/Lacoste.html",
+    "https://www.fragrantica.com/designers/Tommy-Hilfiger.html",
+    "https://www.fragrantica.com/designers/Diesel.html",
+    "https://www.fragrantica.com/designers/Bentley.html",
+    "https://www.fragrantica.com/designers/Mercedes-Benz.html",
+    "https://www.fragrantica.com/designers/Alfred-Dunhill.html"
 ]
 
 def collect_all_designer_urls(lang="tr"):

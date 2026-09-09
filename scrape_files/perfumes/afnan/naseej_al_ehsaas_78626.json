@@ -17,6 +17,30 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -50,7 +74,8 @@
     "base": [
       "Agar ağacı (Oud)",
       "Kuru odun"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -103,6 +128,10 @@
       "name": "Eau de Santal"
     },
     {
+      "brand": "GOLDFİELD & BANKS AUSTRALİA",
+      "name": "Ingenious Ginger"
+    },
+    {
       "brand": "FLORİS",
       "name": "Bergamotto di Positano"
     },
@@ -126,5 +155,6 @@
       "brand": "AZZARO",
       "name": "The Most Wanted"
     }
-  ]
+  ],
+  "comments": []
 }

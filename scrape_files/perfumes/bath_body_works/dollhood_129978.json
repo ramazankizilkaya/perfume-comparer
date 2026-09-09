@@ -29,23 +29,51 @@
     {
       "name": "bitkisel",
       "width": "31.2575%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.77",
-    "votesCount": "13",
+    "score": "3.64",
+    "votesCount": "14",
     "breakdown": {
       "love": "5",
-      "like": "3",
-      "ok": "3",
+      "like": "2",
+      "ok": "5",
       "dislike": "1",
       "hate": "1"
     }
   },
   "seasons": {
     "winter": "6",
-    "spring": "11",
-    "summer": "8",
+    "spring": "12",
+    "summer": "9",
     "autumn": "5",
     "day": "10",
     "night": "1"
@@ -53,7 +81,14 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Çilek",
+      "Şeker",
+      "Açık renkli odunlar",
+      "Çiçeksi Notalar",
+      "Papatya"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -78,7 +113,7 @@
   "priceVoting": {
     "wayOverpriced": "2",
     "overpriced": "2",
-    "fair": "3",
+    "fair": "5",
     "goodValue": "2",
     "greatValue": "0"
   },
@@ -116,10 +151,6 @@
       "name": "Strawberry Milk Shake"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Strawberry Dip"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara Elixir"
     },
@@ -130,6 +161,10 @@
     {
       "brand": "MARC JACOBS",
       "name": "Daisy Eau So Intense"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Strawberry Dip"
     },
     {
       "brand": "ATRALİA",
@@ -150,12 +185,12 @@
       "name": "Strawberry Pound Cake"
     },
     {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Fantasy"
-    },
-    {
       "brand": "LAUREL BATH HOUSE",
       "name": "E-Mochi"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "God Is A Woman"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -166,6 +201,14 @@
       "name": "Mod Vanilla"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara"
+    },
+    {
+      "brand": "LAKE & SKYE",
+      "name": "11 11 Vanilla"
+    },
+    {
       "brand": "ELLİS BROOKLYN",
       "name": "Sweet"
     },
@@ -174,20 +217,20 @@
       "name": "Cheirosa '71"
     },
     {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Fantasy Intimate Edition"
-    },
-    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Cozy Vanilla Bourbon"
+      "name": "Sweetheart Cherry"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Sweetheart Cherry"
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Pear Inc"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ana Abiyedh Coral"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -196,14 +239,7 @@
     {
       "brand": "ALREHAB PERFUMES",
       "name": "Choco Musk Eau de Parfum"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Into The Night"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "At the Beach"
     }
-  ]
+  ],
+  "comments": []
 }

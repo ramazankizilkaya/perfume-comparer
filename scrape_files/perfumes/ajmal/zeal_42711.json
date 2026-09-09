@@ -49,42 +49,76 @@
     {
       "name": "yeşil",
       "width": "45.0055%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "132",
+    "score": "4.03",
+    "votesCount": "135",
     "breakdown": {
-      "love": "50",
-      "like": "56",
-      "ok": "13",
+      "love": "49",
+      "like": "57",
+      "ok": "16",
       "dislike": "10",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "33",
-    "spring": "65",
-    "summer": "70",
-    "autumn": "52",
-    "day": "75",
-    "night": "44"
+    "winter": "34",
+    "spring": "66",
+    "summer": "72",
+    "autumn": "53",
+    "day": "77",
+    "night": "46"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Çam",
+      "Lavanta",
+      "Paçuli",
+      "Bergamot",
+      "Limon",
+      "Sardunya",
+      "Portakal",
+      "Vetiver"
+    ]
   },
   "longevity": {
     "veryWeak": "9",
     "weak": "9",
-    "moderate": "61",
+    "moderate": "62",
     "longLasting": "41",
     "eternal": "3"
   },
   "sillage": {
     "intimate": "18",
-    "moderate": "61",
+    "moderate": "62",
     "strong": "37",
     "enormous": "11"
   },
@@ -93,14 +127,14 @@
     "moreFemale": "0",
     "unisex": "6",
     "moreMale": "13",
-    "male": "63"
+    "male": "64"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "2",
-    "fair": "13",
+    "fair": "16",
     "goodValue": "31",
-    "greatValue": "37"
+    "greatValue": "38"
   },
   "remindsMeOf": [
     {
@@ -140,12 +174,12 @@
       "name": "Spirit Absolute"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Salvo Intense"
-    },
-    {
       "brand": "INSTİTUTO ESPAÑOL",
       "name": "Poseidon Indómito"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Salvo Intense"
     },
     {
       "brand": "MAİSON ALHAMBRA",
@@ -160,8 +194,8 @@
       "name": "Ombré Leather (2018)"
     },
     {
-      "brand": "JO MALONE LONDON",
-      "name": "Silver Birch & Lavender Cologne"
+      "brand": "COACH",
+      "name": "Coach Platinum"
     }
   ],
   "peopleAlsoLike": [
@@ -174,8 +208,8 @@
       "name": "Fattan"
     },
     {
-      "brand": "MONTBLANC",
-      "name": "Explorer"
+      "brand": "VERSACE",
+      "name": "Versace Man Eau Fraiche"
     },
     {
       "brand": "VERSACE",
@@ -192,10 +226,6 @@
     {
       "brand": "LALİQUE",
       "name": "Encre Noire"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue Eau Intense Pour Homme"
     },
     {
       "brand": "DAVİDOFF",
@@ -224,6 +254,11 @@
     {
       "brand": "RASASİ",
       "name": "Hawas for Him"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Daarej pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

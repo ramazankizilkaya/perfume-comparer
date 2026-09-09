@@ -52,12 +52,12 @@
     }
   ],
   "rating": {
-    "score": "4.04",
-    "votesCount": "74",
+    "score": "4.03",
+    "votesCount": "76",
     "breakdown": {
       "love": "28",
-      "like": "28",
-      "ok": "11",
+      "like": "29",
+      "ok": "12",
       "dislike": "7",
       "hate": "0"
     }
@@ -65,105 +65,51 @@
   "seasons": {
     "winter": "4",
     "spring": "20",
-    "summer": "48",
+    "summer": "49",
     "autumn": "5",
-    "day": "42",
+    "day": "43",
     "night": "6"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Lime",
+      "Hindistan cevizi",
+      "Misk",
+      "Portakal çiçeği",
+      "Yasemin"
+    ]
   },
   "longevity": {
-    "veryWeak": "10",
-    "weak": "15",
-    "moderate": "9",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "11",
-    "moderate": "9",
-    "strong": "3",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "8",
-    "moreFemale": "14",
-    "unisex": "15",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
-    "fair": "11",
-    "goodValue": "22",
-    "greatValue": "10"
+    "wayOverpriced": "",
+    "overpriced": "",
+    "fair": "12",
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "PARIS CORNER",
-      "name": "Coconut Lagoon"
-    },
-    {
-      "brand": "CREED",
-      "name": "Virgin Island Water 2007"
-    },
-    {
-      "brand": "SİMONE ANDREOLİ",
-      "name": "Malibu - Party in the Bay"
-    },
-    {
-      "brand": "ELLİS BROOKLYN",
-      "name": "Isla Sirena"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Coconut Lime Verbena (mist)"
-    },
-    {
-      "brand": "SKYLAR",
-      "name": "Lime Sands"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Coconut Lime Verbena"
-    },
-    {
-      "brand": "LE BOTANİC",
-      "name": "Lime Coconut"
-    },
-    {
-      "brand": "ALEXANDRİA FRAGRANCES",
-      "name": "Hawaii Volcano"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Beach Blossom Limited Edition"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Coconut Lime"
-    },
-    {
-      "brand": "ROJA DOVE",
-      "name": "Elysium Pour Homme Parfum Cologne"
-    },
-    {
-      "brand": "NEST",
-      "name": "Balinese Coconut Eau de Parfum"
-    },
-    {
-      "brand": "ENGLİSH LAUNDRY",
-      "name": "Tahitian Waters"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Pure Seduction Radiant"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -225,5 +171,6 @@
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
     }
-  ]
+  ],
+  "comments": []
 }

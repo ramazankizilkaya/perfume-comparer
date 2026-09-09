@@ -73,53 +73,41 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Lavanta",
+      "Müge",
+      "Sürüklenen odun"
+    ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "3",
-    "moderate": "9",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "9",
-    "strong": "3",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "6",
-    "moreFemale": "5",
-    "unisex": "4",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "8",
-    "goodValue": "6",
-    "greatValue": "3"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "KİM KARDASHİAN",
-      "name": "Glam"
-    },
-    {
-      "brand": "BEİNG FRENSHE",
-      "name": "Lavender Cloud"
-    },
-    {
-      "brand": "BURBERRY",
-      "name": "Burberry Brit Rhythm for Women"
-    },
-    {
-      "brand": "ORMAİE",
-      "name": "Le Passant"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JUİCY COUTURE",
@@ -130,12 +118,12 @@
       "name": "Coco Mademoiselle"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Forever Red"
-    },
-    {
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy Gold Couture"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Forever Red"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -181,5 +169,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Bali Black Coconut Sands"
     }
-  ]
+  ],
+  "comments": []
 }

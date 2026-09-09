@@ -3,7 +3,7 @@
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Floral",
   "concentration": "Edp",
-  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137638.jpg?t=1784119920",
+  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137638.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Qasida-137638.html",
   "brand": "Ajmal parfüm ve kolonya",
   "description": "Ajmal markasının Qasida parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Üst notalar: Badem ve Neroli; orta notalar: Portakal çiçeği ve Gül; alt notalar Vanilya, Deri, Misk ve Oud.",
@@ -19,10 +19,6 @@
       "width": "78.9998%"
     },
     {
-      "name": "misk",
-      "width": "76.6664%"
-    },
-    {
       "name": "vanilya",
       "width": "76.6664%"
     },
@@ -35,11 +31,15 @@
       "width": "76.6664%"
     },
     {
-      "name": "badem",
+      "name": "misk",
       "width": "76.6664%"
     },
     {
       "name": "deri",
+      "width": "76.6664%"
+    },
+    {
+      "name": "badem",
       "width": "76.6664%"
     },
     {
@@ -49,6 +49,30 @@
     {
       "name": "animalik",
       "width": "69.6671%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,7 +108,8 @@
       "Deri",
       "Misk",
       "Oud"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -117,63 +142,8 @@
     {
       "brand": "XERJOFF",
       "name": "Erba Pura"
-    },
-    {
-      "brand": "136,138",
-      "name": "Koku Yorumları"
-    },
-    {
-      "brand": "2,787",
-      "name": "Şu an çevrimiçi"
-    },
-    {
-      "brand": "1.",
-      "name": "Liquid Brun French Avenue"
-    },
-    {
-      "brand": "2.",
-      "name": "Khamrah Lattafa Perfumes"
-    },
-    {
-      "brand": "3.",
-      "name": "Emporio Armani Stronger With You Intensely Giorgio Armani"
-    },
-    {
-      "brand": "4.",
-      "name": "Imagination Louis Vuitton"
-    },
-    {
-      "brand": "5.",
-      "name": "Supremacy Collector's Edition Pour Homme Afnan"
-    },
-    {
-      "brand": "6.",
-      "name": "Khamrah Qahwa Lattafa Perfumes"
-    },
-    {
-      "brand": "7.",
-      "name": "Le Male Le Parfum Jean Paul Gaultier"
-    },
-    {
-      "brand": "8.",
-      "name": "Y Eau de Parfum Yves Saint Laurent"
-    },
-    {
-      "brand": "9.",
-      "name": "Club de Nuit Intense Man Armaf"
-    },
-    {
-      "brand": "10.",
-      "name": "Vulcan Feu French Avenue"
-    },
-    {
-      "brand": "11.",
-      "name": "Le Male Elixir Jean Paul Gaultier"
-    },
-    {
-      "brand": "12.",
-      "name": "XJ 1861 Naxos Xerjoff"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

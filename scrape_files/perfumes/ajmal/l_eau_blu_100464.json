@@ -49,26 +49,54 @@
     {
       "name": "tatlı",
       "width": "58.2608%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": ""
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.37",
-    "votesCount": "30",
+    "score": "3.41",
+    "votesCount": "32",
     "breakdown": {
       "love": "7",
-      "like": "8",
+      "like": "10",
       "ok": "9",
       "dislike": "1",
       "hate": "5"
     }
   },
   "seasons": {
-    "winter": "3",
-    "spring": "16",
-    "summer": "18",
-    "autumn": "4",
-    "day": "17",
-    "night": "5"
+    "winter": "4",
+    "spring": "17",
+    "summer": "19",
+    "autumn": "5",
+    "day": "18",
+    "night": "6"
   },
   "notes": {
     "top": [
@@ -86,19 +114,20 @@
       "Vanilya",
       "Sandal ağacı",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
     "weak": "6",
-    "moderate": "5",
+    "moderate": "7",
     "longLasting": "2",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "2",
-    "moderate": "5",
-    "strong": "3",
+    "moderate": "7",
+    "strong": "4",
     "enormous": "0"
   },
   "genderVoting": {
@@ -106,14 +135,14 @@
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "9",
-    "male": "8"
+    "male": "9"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "2",
     "fair": "9",
-    "goodValue": "4",
-    "greatValue": "5"
+    "goodValue": "3",
+    "greatValue": "7"
   },
   "remindsMeOf": [
     {
@@ -129,28 +158,24 @@
       "name": "XX Artisan Teal"
     },
     {
-      "brand": "MONTBLANC",
-      "name": "Legend Special Edition 2012"
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Kaaf"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Y Eau de Parfum"
+      "brand": "MONTBLANC",
+      "name": "Legend Special Edition 2012"
     },
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Yves Saint Laurent Y"
     },
     {
-      "brand": "AHMED AL MAGHRİBİ",
-      "name": "Kaaf"
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Y Eau de Parfum"
     },
     {
       "brand": "ABERCROMBİE & FİTCH",
       "name": "Fierce"
-    },
-    {
-      "brand": "MONTBLANC",
-      "name": "Legend Eau de Parfum"
     },
     {
       "brand": "LALİQUE",
@@ -163,6 +188,10 @@
     {
       "brand": "MONTBLANC",
       "name": "Legend Special Edition 2013"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Legend Eau de Parfum"
     },
     {
       "brand": "MONTBLANC",
@@ -179,12 +208,12 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "SALVATORE FERRAGAMO",
-      "name": "Acqua Essenziale Blu"
-    },
-    {
       "brand": "COACH",
       "name": "Coach for Men"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Y Eau de Parfum"
     },
     {
       "brand": "PRADA",
@@ -195,10 +224,6 @@
       "name": "Bound For Men"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Qaed Al Fursan Untamed"
-    },
-    {
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
     },
@@ -207,24 +232,28 @@
       "name": "Daarej pour Homme"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "CK One Shock For Him"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad Bourbon"
     },
     {
-      "brand": "MERCEDES-BENZ",
-      "name": "Mercedes Benz Club Black Eau de Toilette"
+      "brand": "BURBERRY",
+      "name": "Hero Eau de Parfum"
     },
     {
       "brand": "VERSACE",
       "name": "Eros Flame"
     },
     {
+      "brand": "RABANNE",
+      "name": "Invictus Victory Elixir"
+    },
+    {
       "brand": "VERSACE",
       "name": "Versace Pour Homme"
     },
     {
-      "brand": "RALPH LAUREN",
-      "name": "Polo 67"
+      "brand": "BURBERRY",
+      "name": "Touch for Men"
     },
     {
       "brand": "MONTBLANC",
@@ -238,5 +267,6 @@
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
     }
-  ]
+  ],
+  "comments": []
 }

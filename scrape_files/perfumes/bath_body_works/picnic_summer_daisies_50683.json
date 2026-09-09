@@ -69,57 +69,42 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Nektarin",
+      "Papatya",
+      "Armut",
+      "Hanımeli"
+    ]
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "2",
-    "moderate": "2",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "2",
-    "strong": "0",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "MARC JACOBS",
-      "name": "Daisy"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Brightest Bloom"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Chance Eau Tendre"
-    },
-    {
-      "brand": "VİNCE CAMUTO",
-      "name": "Fiori"
-    },
-    {
-      "brand": "MARC JACOBS",
-      "name": "Daisy Wild Eau So Intense"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -181,5 +166,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue"
     }
-  ]
+  ],
+  "comments": []
 }

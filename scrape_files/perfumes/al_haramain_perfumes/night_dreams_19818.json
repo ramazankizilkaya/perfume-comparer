@@ -37,6 +37,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "51.8686%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,7 +89,15 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Agar ağacı (Oud)",
+      "Sandal ağacı",
+      "Sandal ağacı",
+      "Misk",
+      "Çiçeksi Notalar",
+      "Amber"
+    ]
   },
   "longevity": {
     "veryWeak": "6",
@@ -104,12 +140,12 @@
       "name": "Meeqat Gold"
     },
     {
-      "brand": "AJMAL",
-      "name": "Alf Lail o Lail"
-    },
-    {
       "brand": "AL HARAMAİN PERFUMES",
       "name": "Night Dreams Eau de Parfum"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Alf Lail o Lail"
     },
     {
       "brand": "RASASİ",
@@ -126,14 +162,6 @@
     {
       "brand": "27 87",
       "name": "Genetic Bliss"
-    },
-    {
-      "brand": "GUCCİ",
-      "name": "Gucci Premiere"
-    },
-    {
-      "brand": "PENHALİGON'S",
-      "name": "Belgravia Chypre"
     }
   ],
   "peopleAlsoLike": [
@@ -197,5 +225,6 @@
       "brand": "AL HARAMAİN PERFUMES",
       "name": "Sultan"
     }
-  ]
+  ],
+  "comments": []
 }

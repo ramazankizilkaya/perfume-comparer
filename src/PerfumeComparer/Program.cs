@@ -1,4 +1,7 @@
 using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Antiforgery;
+using Microsoft.AspNetCore.RateLimiting;
+using System.Threading.RateLimiting;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.EntityFrameworkCore;
@@ -82,12 +85,73 @@ try
         });
     });
 
+    // Rate Limiting
+    builder.Services.AddRateLimiter(options =>
+    {
+        options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+        options.OnRejected = async (context, token) =>
+        {
+            context.HttpContext.Response.ContentType = "application/json";
+            await context.HttpContext.Response.WriteAsync("{\"message\":\"Çok fazla istek gönderildi. Lütfen bir süre bekleyin.\"}", token);
+        };
+
+        options.AddFixedWindowLimiter("StrictRateLimit", opt =>
+        {
+            opt.PermitLimit = 5;
+            opt.Window = TimeSpan.FromSeconds(10);
+            opt.QueueLimit = 0;
+        });
+
+        options.GlobalLimiter = PartitionedRateLimiter.Create<HttpContext, string>(httpContext =>
+        {
+            var clientIp = httpContext.Connection.RemoteIpAddress?.ToString() ?? "unknown";
+            return RateLimitPartition.GetFixedWindowLimiter(clientIp, _ => new FixedWindowRateLimiterOptions
+            {
+                PermitLimit = 300,
+                Window = TimeSpan.FromMinutes(1),
+                QueueLimit = 0
+            });
+        });
+    });
+
+    // AntiForgery
+    builder.Services.AddAntiforgery(options =>
+    {
+        options.HeaderName = "X-XSRF-TOKEN";
+        options.Cookie.Name = "XSRF-TOKEN";
+        options.Cookie.SameSite = SameSiteMode.Lax;
+        options.Cookie.HttpOnly = false;
+    });
+
     var app = builder.Build();
 
     app.UseSerilogRequestLogging();
     app.UseExceptionHandler();
     
     app.UseCors("DevCors");
+    app.UseRateLimiter();
+    app.UseAntiforgery();
+
+    // Güvenlik ara yazılımı: Tarayıcı harici doğrudan çağrıları filtrelemek için X-Requested-With denetimi
+    app.Use(async (context, next) =>
+    {
+        var path = context.Request.Path;
+        if (path.StartsWithSegments("/api/security/client-header-check") || 
+            (path.StartsWithSegments("/api") && !path.StartsWithSegments("/media") && (HttpMethods.IsPost(context.Request.Method) || HttpMethods.IsPut(context.Request.Method) || HttpMethods.IsDelete(context.Request.Method))))
+        {
+            if (!path.StartsWithSegments("/api/security/antiforgery-token") && !path.StartsWithSegments("/api/security/rate-limit-check"))
+            {
+                if (!context.Request.Headers.TryGetValue("X-Requested-With", out var headerVal) || headerVal != "XMLHttpRequest")
+                {
+                    context.Response.StatusCode = StatusCodes.Status400BadRequest;
+                    context.Response.ContentType = "application/json";
+                    await context.Response.WriteAsync("{\"message\":\"Geçersiz veya eksik istemci başlığı (X-Requested-With zorunludur).\"}");
+                    return;
+                }
+            }
+        }
+        await next();
+    });
 
     // wwwroot: blog arka planı gibi uygulamayla birlikte gelen statik görseller
     // (/blog_backgrounds/... olarak servis edilir).
@@ -129,6 +193,28 @@ try
     }
 
     app.MapHealthChecks("/health");
+
+    // Güvenlik denetim uçları
+    app.MapGet("/api/security/client-header-check", () => Results.Ok(new { message = "İstemci başlığı doğrulandı." }));
+    app.MapGet("/api/security/rate-limit-check", () => Results.Ok(new { message = "Rate limit kontrolü başarılı." })).RequireRateLimiting("StrictRateLimit");
+    app.MapGet("/api/security/antiforgery-token", (IAntiforgery antiforgery, HttpContext context) =>
+    {
+        var tokens = antiforgery.GetAndStoreTokens(context);
+        return Results.Ok(new { token = tokens.RequestToken });
+    });
+    app.MapPost("/api/security/antiforgery-check", async (IAntiforgery antiforgery, HttpContext context) =>
+    {
+        try
+        {
+            await antiforgery.ValidateRequestAsync(context);
+            return Results.Ok(new { message = "Antiforgery doğrulaması başarılı." });
+        }
+        catch (AntiforgeryValidationException)
+        {
+            return Results.BadRequest(new { message = "Geçersiz veya eksik AntiForgery jetonu." });
+        }
+    });
+
     app.MapControllers();
 
     app.Run();

@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "narenciye",
+      "name": "misk",
       "width": "93.6364%"
     },
     {
-      "name": "misk",
+      "name": "narenciye",
       "width": "93.6364%"
     },
     {
@@ -33,6 +33,30 @@
     {
       "name": "aromatik",
       "width": "49.0909%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -57,7 +81,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Bergamot",
+      "Odunsu Notalar",
+      "Misk"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -87,5 +116,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

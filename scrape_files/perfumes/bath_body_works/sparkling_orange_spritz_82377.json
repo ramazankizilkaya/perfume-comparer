@@ -16,19 +16,47 @@
     },
     {
       "name": "aldehitli",
-      "width": "61.1316%"
+      "width": "61.6666%"
     },
     {
       "name": "taze",
-      "width": "41.9737%"
+      "width": "41.6666%"
     },
     {
       "name": "meyvemsi",
-      "width": "39.2105%"
+      "width": "39.3334%"
     },
     {
-      "name": "taze baharatlı",
-      "width": "34.7895%"
+      "name": "tatlı",
+      "width": "34.6666%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,17 +71,22 @@
     }
   },
   "seasons": {
-    "winter": "3",
-    "spring": "16",
-    "summer": "36",
+    "winter": "4",
+    "spring": "17",
+    "summer": "37",
     "autumn": "2",
-    "day": "35",
+    "day": "36",
     "night": "2"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Mandalina",
+      "Prosecco",
+      "Narenciye"
+    ]
   },
   "longevity": {
     "veryWeak": "11",
@@ -108,10 +141,6 @@
       "name": "n,345"
     },
     {
-      "brand": "THE BODY SHOP",
-      "name": "Satsuma"
-    },
-    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Light & Happy"
     },
@@ -140,6 +169,10 @@
       "name": "Mandarin Orange"
     },
     {
+      "brand": "THE BODY SHOP",
+      "name": "Satsuma"
+    },
+    {
       "brand": "DEMETER FRAGRANCE",
       "name": "Sweet Orange"
     }
@@ -150,12 +183,12 @@
       "name": "Iced Lemon Pound Cake"
     },
     {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Fruity Sherbet Scoop"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -195,15 +228,16 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Butterfly"
+      "name": "Twisted Peppermint"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Twisted Peppermint"
+      "name": "Butterfly"
     },
     {
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,30 @@
     {
       "name": "narenciye",
       "width": "55.8156%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,7 +108,8 @@
       "Agar ağacı (Oud)",
       "Sandal ağacı",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -136,12 +161,12 @@
       "name": "Black Orchid"
     },
     {
-      "brand": "DİOR",
-      "name": "Dune"
-    },
-    {
       "brand": "RASASİ",
       "name": "Sharina"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dune"
     },
     {
       "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
@@ -175,5 +200,6 @@
       "brand": "AMOUAGE",
       "name": "Interlude Woman"
     }
-  ]
+  ],
+  "comments": []
 }

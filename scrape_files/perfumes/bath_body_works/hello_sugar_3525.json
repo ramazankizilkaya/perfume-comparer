@@ -29,6 +29,34 @@
     {
       "name": "taze",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Limon",
+      "Şeker"
+    ]
   },
   "longevity": {
     "veryWeak": "4",
@@ -110,10 +142,6 @@
     {
       "brand": "VİCTORİA'S SECRET",
       "name": "Lemon Paradise"
-    },
-    {
-      "brand": "THEODOROS KALOTİNİS",
-      "name": "Lemon Tart"
     }
   ],
   "peopleAlsoLike": [
@@ -177,5 +205,6 @@
       "brand": "LOLİTA LEMPİCKA",
       "name": "Lolita Lempicka"
     }
-  ]
+  ],
+  "comments": []
 }

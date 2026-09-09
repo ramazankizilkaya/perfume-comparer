@@ -2,6 +2,8 @@ using System.Collections.Generic;
 
 namespace PerfumeComparer.Business.Dtos;
 
+public record FaqItemDto(string Question, string Answer);
+
 public record PerfumeDetailDto(
     string Name,
     string Slug,
@@ -14,6 +16,8 @@ public record PerfumeDetailDto(
     string? FragranceFamilyDescription,
     int? ReleaseYear,
     string? Description,
+    string? Article,
+    List<FaqItemDto>? Faq,
     string? ImageUrl,
     /// <summary>Topluluk puanı (5 üzerinden) ve oy sayısı.</summary>
     decimal AvgRating,

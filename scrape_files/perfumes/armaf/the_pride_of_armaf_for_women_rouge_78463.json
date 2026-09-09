@@ -41,6 +41,34 @@
     {
       "name": "misk",
       "width": "44.3182%"
+    },
+    {
+      "name": "Online satın alın 9 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -80,7 +108,8 @@
       "Yosun",
       "Amber",
       "Sedir"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
@@ -90,7 +119,7 @@
     "eternal": "19"
   },
   "sillage": {
-    "intimate": "6",
+    "intimate": "7",
     "moderate": "17",
     "strong": "22",
     "enormous": "11"
@@ -147,6 +176,10 @@
       "name": "Souvenir Blooming Bliss"
     },
     {
+      "brand": "RİSALA ELİTE",
+      "name": "Aura Musk"
+    },
+    {
       "brand": "MAUBOUSSİN",
       "name": "Mauboussin in Red"
     },
@@ -165,10 +198,6 @@
     {
       "brand": "MANCERA",
       "name": "Instant Crush"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Opulent Musk"
     }
   ],
   "peopleAlsoLike": [
@@ -205,10 +234,6 @@
       "name": "Kenzo Jungle L'Elephant"
     },
     {
-      "brand": "VERSACE",
-      "name": "Crystal Noir"
-    },
-    {
       "brand": "LALİQUE",
       "name": "Perles De Lalique"
     },
@@ -225,6 +250,10 @@
       "name": "Signature"
     },
     {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Intense Man"
+    },
+    {
       "brand": "ARİANA GRANDE",
       "name": "Cloud"
     },
@@ -232,5 +261,6 @@
       "brand": "ARMAF",
       "name": "Club de Nuit Woman"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,30 @@
     {
       "name": "toprak",
       "width": "46.1371%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,7 +108,8 @@
       "Mür",
       "Sedir",
       "Deri"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -168,12 +193,13 @@
       "name": "Rochas Man"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "Oud Satin"
-    },
-    {
       "brand": "CERRUTİ",
       "name": "Image Woman"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Oud Satin"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -29,6 +29,34 @@
     {
       "name": "yeşil",
       "width": "39.3333%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "2",
+    "winter": "3",
     "spring": "6",
     "summer": "4",
     "autumn": "2",
@@ -53,7 +81,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Armut",
+      "Açık renkli odunlar"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -155,10 +187,6 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Covered In Roses"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Champagne Toast"
     },
     {
@@ -167,7 +195,7 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Fruity Musk"
+      "name": "Life's a Fairytale"
     },
     {
       "brand": "KAYALİ FRAGRANCES",
@@ -175,7 +203,7 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Inner Angel"
+      "name": "Love Unleashed"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -191,10 +219,6 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Sweetheart Cherry"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Cozy Vanilla Bourbon"
     },
     {
@@ -203,7 +227,16 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Pistachio Glaze"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Fairytale"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Moonlit Goddess"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -82,62 +82,38 @@
       "Beyaz Amber",
       "Sedir",
       "Yosun"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "2",
-    "moderate": "1",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "1",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "3",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "OAKCHA",
-      "name": "Marshmallow Mist"
-    },
-    {
-      "brand": "ARİANA GRANDE",
-      "name": "God Is A Woman"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Merlot Pear"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Hope Winter Peach Marshmallow"
-    },
-    {
-      "brand": "ALREHAB PERFUMES",
-      "name": "Choco Musk Marshmallow"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
-    {
-      "brand": "ARİANA GRANDE",
-      "name": "Sweet Like Candy"
-    },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Covered In Roses"
@@ -156,11 +132,15 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Blueberry Sugar Pancakes"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Dahlia"
     },
     {
-      "brand": "JUİCY COUTURE",
-      "name": "Viva la Juicy"
+      "brand": "JİMMY CHOO",
+      "name": "I Want Choo"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -171,16 +151,16 @@
       "name": "Into The Night"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Black Currant Vanilla"
-    },
-    {
       "brand": "AQUOLİNA",
       "name": "Pink Sugar"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Fairytale"
+    },
+    {
+      "brand": "BİLLİE EİLİSH",
+      "name": "Eilish"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -194,5 +174,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Vanilla Bean Noel"
     }
-  ]
+  ],
+  "comments": []
 }

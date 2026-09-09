@@ -29,6 +29,34 @@
     {
       "name": "odunsu",
       "width": "39.8%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kum",
+      "Karabiber",
+      "Vetiver"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -126,16 +159,16 @@
       "name": "Touch for Men"
     },
     {
+      "brand": "BENTLEY",
+      "name": "Bentley for Men Intense"
+    },
+    {
       "brand": "BATH & BODY WORKS",
       "name": "Gingham Legend Cologne"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Ocean"
-    },
-    {
-      "brand": "BENTLEY",
-      "name": "Bentley for Men Intense"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -153,5 +186,6 @@
       "brand": "GİVENCHY",
       "name": "Pi"
     }
-  ]
+  ],
+  "comments": []
 }

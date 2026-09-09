@@ -45,26 +45,54 @@
     {
       "name": "balsamik",
       "width": "50.5882%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.47",
-    "votesCount": "15",
+    "score": "4.36",
+    "votesCount": "25",
     "breakdown": {
-      "love": "11",
-      "like": "2",
-      "ok": "1",
+      "love": "15",
+      "like": "6",
+      "ok": "3",
       "dislike": "0",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "8",
-    "spring": "4",
-    "summer": "2",
-    "autumn": "6",
-    "day": "3",
-    "night": "6"
+    "winter": "15",
+    "spring": "8",
+    "summer": "3",
+    "autumn": "13",
+    "day": "5",
+    "night": "12"
   },
   "notes": {
     "top": [
@@ -82,39 +110,48 @@
       "Şekerleme",
       "Vetiver",
       "Meşe"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
-    "moderate": "2",
-    "longLasting": "5",
+    "moderate": "3",
+    "longLasting": "8",
     "eternal": "1"
   },
   "sillage": {
     "intimate": "1",
-    "moderate": "2",
-    "strong": "3",
+    "moderate": "3",
+    "strong": "5",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
-    "moreFemale": "0",
-    "unisex": "7",
-    "moreMale": "1",
+    "moreFemale": "1",
+    "unisex": "10",
+    "moreMale": "2",
     "male": "1"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "1",
-    "goodValue": "4",
-    "greatValue": "2"
+    "fair": "3",
+    "goodValue": "5",
+    "greatValue": "3"
   },
   "remindsMeOf": [
     {
       "brand": "NİSHANE",
       "name": "Tero"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Mazaaj"
+    },
+    {
+      "brand": "RİTUALS",
+      "name": "Roi d'Orient"
     },
     {
       "brand": "ARMAF",
@@ -123,12 +160,8 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "The Tux"
-    },
-    {
-      "brand": "PARIS CORNER",
-      "name": "Rifaaqat"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -139,20 +172,20 @@
       "name": "Teriaq Intense"
     },
     {
+      "brand": "FRENCH AVENUE",
+      "name": "Spectre Ghost"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Liquid Brun"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Liam"
     },
     {
       "brand": "ARABİYAT PRESTİGE",
-      "name": "Mahd Al Dhahab"
-    },
-    {
-      "brand": "KHADLAJ PERFUMES",
-      "name": "Shiyaaka Shadow"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Eternal Oud"
+      "name": "Revolt Uprising"
     },
     {
       "brand": "FRENCH AVENUE",
@@ -163,24 +196,29 @@
       "name": "Dynasty"
     },
     {
-      "brand": "ARABİYAT PRESTİGE",
-      "name": "Revolt Uprising"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Vintage Radio"
     },
     {
-      "brand": "AROMATİX X FRENCH AVENUE",
-      "name": "Forbidden Fruit"
-    },
-    {
-      "brand": "RAYHAAN",
-      "name": "Italia"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Angham"
     },
     {
       "brand": "ARABİYAT PRESTİGE",
       "name": "Aristo"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Supremacy Collector's Edition Pour Homme"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Safari Breeze"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Kaaf"
     }
-  ]
+  ],
+  "comments": []
 }

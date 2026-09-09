@@ -29,6 +29,30 @@
     {
       "name": "taze baharatlı",
       "width": "42.25%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,7 +85,8 @@
     "base": [
       "Agar ağacı (Oud)",
       "Pudramsı notalar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
@@ -165,5 +190,6 @@
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
     }
-  ]
+  ],
+  "comments": []
 }

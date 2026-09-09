@@ -23,11 +23,11 @@
       "width": "70.2878%"
     },
     {
-      "name": "amber",
+      "name": "ud",
       "width": "55.1797%"
     },
     {
-      "name": "ud",
+      "name": "amber",
       "width": "55.1797%"
     },
     {
@@ -41,26 +41,54 @@
     {
       "name": "sıcak baharatlı",
       "width": "47.6259%"
+    },
+    {
+      "name": "Online satın alın 16 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.12",
-    "votesCount": "41",
+    "score": "4.04",
+    "votesCount": "46",
     "breakdown": {
-      "love": "22",
-      "like": "9",
-      "ok": "6",
+      "love": "23",
+      "like": "11",
+      "ok": "7",
       "dislike": "1",
-      "hate": "3"
+      "hate": "4"
     }
   },
   "seasons": {
-    "winter": "25",
-    "spring": "25",
-    "summer": "24",
-    "autumn": "27",
-    "day": "25",
-    "night": "21"
+    "winter": "26",
+    "spring": "26",
+    "summer": "25",
+    "autumn": "28",
+    "day": "26",
+    "night": "22"
   },
   "notes": {
     "top": [
@@ -72,19 +100,20 @@
     "base": [
       "Günlük",
       "Oud"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
     "weak": "2",
-    "moderate": "12",
-    "longLasting": "13",
+    "moderate": "13",
+    "longLasting": "14",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "2",
-    "moderate": "12",
-    "strong": "9",
+    "moderate": "13",
+    "strong": "10",
     "enormous": "0"
   },
   "genderVoting": {
@@ -92,14 +121,14 @@
     "moreFemale": "0",
     "unisex": "2",
     "moreMale": "8",
-    "male": "15"
+    "male": "18"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "0",
-    "fair": "6",
+    "fair": "7",
     "goodValue": "8",
-    "greatValue": "12"
+    "greatValue": "15"
   },
   "remindsMeOf": [
     {
@@ -123,6 +152,14 @@
       "name": "Qissati Chapter 04"
     },
     {
+      "brand": "PARIS CORNER",
+      "name": "Zodiac Stratos"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Fakhar Platin"
+    },
+    {
       "brand": "DUMONT",
       "name": "Soprano Ice"
     }
@@ -141,16 +178,16 @@
       "name": "Le Male Elixir Absolu"
     },
     {
-      "brand": "DUMONT",
-      "name": "Nitro Elixir"
+      "brand": "ARABİYAT PRESTİGE",
+      "name": "La Di Da For Him"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad Bourbon"
     },
     {
-      "brand": "ARABİYAT PRESTİGE",
-      "name": "La Di Da For Him"
+      "brand": "DUMONT",
+      "name": "Nitro Elixir"
     },
     {
       "brand": "AROMATİX X FRENCH AVENUE",
@@ -188,5 +225,6 @@
       "brand": "LOUİS VUİTTON",
       "name": "Imagination"
     }
-  ]
+  ],
+  "comments": []
 }

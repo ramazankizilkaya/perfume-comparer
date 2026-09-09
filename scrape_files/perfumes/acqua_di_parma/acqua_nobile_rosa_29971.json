@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.29971.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Acqua-di-Parma/Acqua-Nobile-Rosa-29971.html",
   "brand": "Acqua di Parma parfüm ve kolonya",
-  "description": "Acqua di Parma markasının Acqua Nobile Rosa parfümü, kadınlar için Çiçeksi bir kokudur. Acqua Nobile Rosa, 2015 yılında piyasaya sürüldü. Üst notalar: Mandalina, Bergamot ve Frenk üzümü; orta notalar: Gül, Şam Gülü, Frezya, Siklamen ve Karabiber; alt notalar Misk ve Ambergris.",
-  "description_original": "Acqua di Parma markasının Acqua Nobile Rosa parfümü, kadınlar için Çiçeksi bir kokudur. Acqua Nobile Rosa, 2015 yılında piyasaya sürüldü. Üst notalar: Mandalina, Bergamot ve Frenk üzümü; orta notalar: Gül, Şam Gülü, Frezya, Siklamen ve Karabiber; alt notalar Misk ve Ambergris.",
-  "description_enhanced": "Acqua di Parma markasının Acqua Nobile Rosa parfümü, kadınlar için Çiçeksi bir kokudur. Acqua Nobile Rosa, 2015 yılında piyasaya sürüldü. Üst notalar: Mandalina, Bergamot ve Frenk üzümü; orta notalar: Gül, Şam Gülü, Frezya, Siklamen ve Karabiber; alt notalar Misk ve Ambergris.",
+  "description": "Acqua di Parma markasının Acqua Nobile Rosa parfümü, kadınlar için Çiçeksi bir kokudur. Acqua Nobile Rosa, 2015 yılında piyasaya sürüldü. Üst notalar: Mandalina, Bergamot ve Siyah Frenk Üzümü; orta notalar: Gül, Şam Gülü, Frezya, Sıklamen ve Karabiber; alt notalar Misk ve Ambergris.",
+  "description_original": "Acqua di Parma markasının Acqua Nobile Rosa parfümü, kadınlar için Çiçeksi bir kokudur. Acqua Nobile Rosa, 2015 yılında piyasaya sürüldü. Üst notalar: Mandalina, Bergamot ve Siyah Frenk Üzümü; orta notalar: Gül, Şam Gülü, Frezya, Sıklamen ve Karabiber; alt notalar Misk ve Ambergris.",
+  "description_enhanced": "Acqua di Parma markasının Acqua Nobile Rosa parfümü, kadınlar için Çiçeksi bir kokudur. Acqua Nobile Rosa, 2015 yılında piyasaya sürüldü. Üst notalar: Mandalina, Bergamot ve Siyah Frenk Üzümü; orta notalar: Gül, Şam Gülü, Frezya, Sıklamen ve Karabiber; alt notalar Misk ve Ambergris.",
   "mainAccords": [
     {
       "name": "gül",
@@ -41,6 +41,30 @@
     {
       "name": "animalik",
       "width": "44.4757%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -55,7 +79,7 @@
     }
   },
   "seasons": {
-    "winter": "7",
+    "winter": "8",
     "spring": "48",
     "summer": "41",
     "autumn": "15",
@@ -66,19 +90,20 @@
     "top": [
       "Mandalina",
       "Bergamot",
-      "Frenk üzümü"
+      "Siyah Frenk Üzümü"
     ],
     "middle": [
       "Gül",
       "Şam Gülü",
       "Frezya",
-      "Siklamen",
+      "Sıklamen",
       "Karabiber"
     ],
     "base": [
       "Misk",
       "Ambergris"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "7",
@@ -207,6 +232,10 @@
       "name": "Chance Eau Fraiche"
     },
     {
+      "brand": "CHANEL",
+      "name": "Chanel No 5 Parfum"
+    },
+    {
       "brand": "HERMÈS",
       "name": "Le Jardin de Monsieur Li"
     },
@@ -225,10 +254,7 @@
     {
       "brand": "PRADA",
       "name": "Infusion d'Iris"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain"
     }
-  ]
+  ],
+  "comments": []
 }

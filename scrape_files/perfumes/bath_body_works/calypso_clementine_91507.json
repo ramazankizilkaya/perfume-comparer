@@ -29,41 +29,74 @@
     {
       "name": "meyvemsi",
       "width": "45.1937%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.99",
-    "votesCount": "192",
+    "score": "4.00",
+    "votesCount": "200",
     "breakdown": {
-      "love": "67",
-      "like": "81",
-      "ok": "28",
+      "love": "70",
+      "like": "84",
+      "ok": "30",
       "dislike": "7",
       "hate": "9"
     }
   },
   "seasons": {
     "winter": "10",
-    "spring": "62",
-    "summer": "100",
+    "spring": "65",
+    "summer": "105",
     "autumn": "23",
-    "day": "92",
+    "day": "95",
     "night": "16"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Klementin",
+      "Odunsu Notalar",
+      "Neroli"
+    ]
   },
   "longevity": {
-    "veryWeak": "14",
+    "veryWeak": "15",
     "weak": "38",
     "moderate": "34",
     "longLasting": "9",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "31",
+    "intimate": "32",
     "moderate": "34",
     "strong": "9",
     "enormous": "1"
@@ -71,15 +104,15 @@
   "genderVoting": {
     "female": "18",
     "moreFemale": "33",
-    "unisex": "45",
+    "unisex": "47",
     "moreMale": "3",
     "male": "2"
   },
   "priceVoting": {
     "wayOverpriced": "3",
-    "overpriced": "1",
-    "fair": "28",
-    "goodValue": "40",
+    "overpriced": "2",
+    "fair": "30",
+    "goodValue": "41",
     "greatValue": "36"
   },
   "remindsMeOf": [
@@ -96,28 +129,20 @@
       "name": "CK IN2U for Her"
     },
     {
-      "brand": "NEST",
-      "name": "Seville Orange Perfume Oil"
-    },
-    {
       "brand": "PHLUR",
       "name": "Tangerine Boy"
     },
     {
-      "brand": "JUST JACK",
-      "name": "Amalfi Coast"
+      "brand": "NEST",
+      "name": "Seville Orange Perfume Oil"
     },
     {
       "brand": "ATELİER COLOGNE",
       "name": "Clémentine California"
     },
     {
-      "brand": "MOSCHİNO",
-      "name": "Cheap & Chic I Love Love"
-    },
-    {
-      "brand": "ATELİER COLOGNE",
-      "name": "Orange Sanguine"
+      "brand": "JUST JACK",
+      "name": "Amalfi Coast"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -126,6 +151,14 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Mango Mandarin"
+    },
+    {
+      "brand": "ATELİER COLOGNE",
+      "name": "Orange Sanguine"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Cheap & Chic I Love Love"
     },
     {
       "brand": "ARMAF",
@@ -167,11 +200,11 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "In The Stars"
+      "name": "Chasing Fireflies"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Chasing Fireflies"
+      "name": "In The Stars"
     },
     {
       "brand": "BRİTNEY SPEARS",
@@ -205,5 +238,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "A Thousand Wishes"
     }
-  ]
+  ],
+  "comments": []
 }

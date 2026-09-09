@@ -45,14 +45,42 @@
     {
       "name": "tatlı",
       "width": "47.6576%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.26",
-    "votesCount": "46",
+    "score": "4.27",
+    "votesCount": "48",
     "breakdown": {
-      "love": "23",
-      "like": "17",
+      "love": "24",
+      "like": "18",
       "ok": "1",
       "dislike": "5",
       "hate": "0"
@@ -60,10 +88,10 @@
   },
   "seasons": {
     "winter": "4",
-    "spring": "33",
-    "summer": "27",
+    "spring": "36",
+    "summer": "30",
     "autumn": "9",
-    "day": "33",
+    "day": "35",
     "night": "5"
   },
   "notes": {
@@ -87,7 +115,7 @@
     "veryWeak": "1",
     "weak": "12",
     "moderate": "15",
-    "longLasting": "0",
+    "longLasting": "1",
     "eternal": "1"
   },
   "sillage": {
@@ -97,8 +125,8 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "14",
-    "moreFemale": "8",
+    "female": "15",
+    "moreFemale": "9",
     "unisex": "6",
     "moreMale": "0",
     "male": "0"
@@ -108,7 +136,7 @@
     "overpriced": "1",
     "fair": "1",
     "goodValue": "4",
-    "greatValue": "23"
+    "greatValue": "24"
   },
   "remindsMeOf": [
     {
@@ -120,26 +148,30 @@
       "name": "Pur Blanca Charm"
     },
     {
-      "brand": "FRAGONARD",
-      "name": "Lilas"
-    },
-    {
       "brand": "ZİMAYA",
       "name": "Swar Al Dahab"
     }
   ],
   "peopleAlsoLike": [
     {
+      "brand": "DİOR",
+      "name": "J'adore"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "A Drop d'Issey"
+    },
+    {
       "brand": "ALVAREZ GÓMEZ",
       "name": "Magnolia Blanca (White Magnolia)"
     },
     {
-      "brand": "DON ALGODON",
-      "name": "Don Algodon"
+      "brand": "CALVİN KLEİN",
+      "name": "CK One"
     },
     {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique"
+      "brand": "ADOLFO DOMİNGUEZ",
+      "name": "Agua Fresca de Azahar"
     },
     {
       "brand": "DİOR",
@@ -154,40 +186,33 @@
       "name": "Bergamota de Calabria"
     },
     {
-      "brand": "NİNA RİCCİ",
-      "name": "Nina"
-    },
-    {
       "brand": "MUGLER",
       "name": "Alien"
     },
     {
       "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Parfum"
+      "name": "Irresistible Givenchy"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Ultraviolet"
     },
     {
       "brand": "MOSCHİNO",
       "name": "Toy Boy"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Yara"
-    },
-    {
       "brand": "DİOR",
       "name": "Poison"
     },
     {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez for Her Eau de Parfum"
+    },
+    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
-    },
-    {
-      "brand": "PRADA",
-      "name": "Infusion d'Iris"
-    },
-    {
-      "brand": "DAVİDOFF",
-      "name": "Cool Water"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,30 @@
     {
       "name": "yeşil",
       "width": "60.1144%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,7 +113,8 @@
       "Agar ağacı (Oud)",
       "Labdanum",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -180,5 +205,6 @@
       "brand": "DİOR",
       "name": "Dior Addict"
     }
-  ]
+  ],
+  "comments": []
 }

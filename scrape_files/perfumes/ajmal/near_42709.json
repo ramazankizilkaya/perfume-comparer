@@ -45,6 +45,30 @@
     {
       "name": "çiçeksi",
       "width": "53.0953%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -69,7 +93,15 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Bal",
+      "Sümbülteber",
+      "Vanilya",
+      "Yasemin",
+      "Amber",
+      "Misk"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
@@ -181,5 +213,6 @@
       "brand": "PRADA",
       "name": "Prada Candy"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "çiçeksi",
+      "name": "paçuli",
       "width": "90.8695%"
     },
     {
-      "name": "paçuli",
+      "name": "çiçeksi",
       "width": "90.8695%"
     },
     {
@@ -27,11 +27,7 @@
       "width": "66.5217%"
     },
     {
-      "name": "meyvemsi",
-      "width": "60.4348%"
-    },
-    {
-      "name": "gül",
+      "name": "sıcak baharatlı",
       "width": "60.4348%"
     },
     {
@@ -39,7 +35,11 @@
       "width": "60.4348%"
     },
     {
-      "name": "sıcak baharatlı",
+      "name": "gül",
+      "width": "60.4348%"
+    },
+    {
+      "name": "meyvemsi",
       "width": "60.4348%"
     },
     {
@@ -47,7 +47,7 @@
       "width": "54.3478%"
     },
     {
-      "name": "balsamik",
+      "name": "pudralı",
       "width": "48.2608%"
     }
   ],
@@ -73,97 +73,41 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Nektarin",
+      "Şakayık",
+      "Paçuli"
+    ]
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "8",
-    "moderate": "19",
-    "longLasting": "2",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "19",
-    "strong": "3",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "15",
-    "moreFemale": "10",
-    "unisex": "7",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "10",
-    "goodValue": "14",
-    "greatValue": "11"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JİMMY CHOO",
-      "name": "Jimmy Choo"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Mon Paris"
-    },
-    {
-      "brand": "MARİAH CAREY",
-      "name": "Dreams"
-    },
-    {
-      "brand": "GUCCİ",
-      "name": "Flora by Gucci Eau de Parfum"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Oriental"
-    },
-    {
-      "brand": "MİCHEL GERMAİN",
-      "name": "Sexual Noir For Women"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Black Opium"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Into the Night"
-    },
-    {
-      "brand": "PARİS HİLTON",
-      "name": "Luxe Rush"
-    },
-    {
-      "brand": "AVON",
-      "name": "Little Black Dress"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Into The Night"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Dolce&Gabbana Pour Femme"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "A Thousand Wishes"
-    },
-    {
-      "brand": "FİNE'RY.",
-      "name": "Madame"
-    },
-    {
-      "brand": "FRENCH AVENUE",
-      "name": "Essence de Noir"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -215,15 +159,16 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Warm Vanilla Sugar"
+      "name": "Bonfire Bash"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Bonfire Bash"
+      "name": "Warm Vanilla Sugar"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Black Cherry Merlot"
     }
-  ]
+  ],
+  "comments": []
 }

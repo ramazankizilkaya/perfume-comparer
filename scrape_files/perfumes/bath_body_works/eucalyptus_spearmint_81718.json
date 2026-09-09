@@ -21,58 +21,89 @@
     {
       "name": "aromatik",
       "width": "56.2501%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.16",
-    "votesCount": "158",
+    "score": "4.11",
+    "votesCount": "168",
     "breakdown": {
-      "love": "72",
-      "like": "53",
-      "ok": "21",
+      "love": "74",
+      "like": "57",
+      "ok": "23",
       "dislike": "10",
-      "hate": "2"
+      "hate": "4"
     }
   },
   "seasons": {
     "winter": "39",
-    "spring": "61",
-    "summer": "47",
-    "autumn": "40",
-    "day": "60",
-    "night": "48"
+    "spring": "65",
+    "summer": "51",
+    "autumn": "42",
+    "day": "64",
+    "night": "50"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Okaliptus"
+    ]
   },
   "longevity": {
     "veryWeak": "8",
-    "weak": "31",
-    "moderate": "21",
+    "weak": "32",
+    "moderate": "22",
     "longLasting": "1",
     "eternal": "3"
   },
   "sillage": {
     "intimate": "17",
-    "moderate": "21",
-    "strong": "9",
+    "moderate": "22",
+    "strong": "10",
     "enormous": "1"
   },
   "genderVoting": {
     "female": "2",
     "moreFemale": "0",
-    "unisex": "69",
+    "unisex": "71",
     "moreMale": "3",
     "male": "1"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "2",
-    "fair": "21",
-    "goodValue": "32",
-    "greatValue": "22"
+    "fair": "23",
+    "goodValue": "33",
+    "greatValue": "23"
   },
   "remindsMeOf": [
     {
@@ -90,16 +121,20 @@
       "name": "Light Blue"
     },
     {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Not A Perfume"
+    },
+    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Bare Vanilla"
     },
     {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '62"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Into The Night"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '62"
     },
     {
       "brand": "CAROLİNA HERRERA",
@@ -134,10 +169,6 @@
       "name": "Champagne Toast"
     },
     {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Fantasy"
-    },
-    {
       "brand": "DİOR",
       "name": "J'adore"
     },
@@ -145,5 +176,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "At the Beach"
     }
-  ]
+  ],
+  "comments": []
 }

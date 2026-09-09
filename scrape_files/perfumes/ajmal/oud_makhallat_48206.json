@@ -25,6 +25,30 @@
     {
       "name": "odunsu",
       "width": "41.375%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -49,7 +73,8 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": [
+    "base": [],
+    "all": [
       "Agar ağacı (Oud)",
       "Duman"
     ]
@@ -78,7 +103,7 @@
     "wayOverpriced": "1",
     "overpriced": "1",
     "fair": "1",
-    "goodValue": "13",
+    "goodValue": "14",
     "greatValue": "3"
   },
   "remindsMeOf": [
@@ -113,6 +138,14 @@
       "name": "Khallab"
     },
     {
+      "brand": "AJMAL",
+      "name": "Mukhallat Shams"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Bade'e Al Oud Oud for Glory"
+    },
+    {
       "brand": "RASASİ",
       "name": "Shuhrah Pour Homme"
     },
@@ -125,28 +158,12 @@
       "name": "Encre Noire A L'Extreme"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Jubilation XXV Man"
-    },
-    {
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "Obsession"
-    },
-    {
       "brand": "TAUER PERFUMES",
       "name": "02 L'Air du Desert Marocain"
-    },
-    {
-      "brand": "AZZARO",
-      "name": "Azzaro pour Homme"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Black Orchid"
     },
     {
       "brand": "HERMÈS",
@@ -161,8 +178,17 @@
       "name": "Zino Davidoff"
     },
     {
+      "brand": "AZZARO",
+      "name": "Azzaro pour Homme"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
-      "name": "Asad"
+      "name": "Khamrah"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Oudh AL Boruzz Atheer Cambodia"
     }
-  ]
+  ],
+  "comments": []
 }

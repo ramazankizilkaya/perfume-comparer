@@ -49,6 +49,34 @@
     {
       "name": "tatlı",
       "width": "45.7658%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,18 +116,19 @@
       "Odunsu Notalar",
       "Vanilya",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
-    "weak": "1",
-    "moderate": "9",
+    "weak": "2",
+    "moderate": "8",
     "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "3",
-    "moderate": "9",
+    "moderate": "8",
     "strong": "0",
     "enormous": "0"
   },
@@ -121,6 +150,10 @@
     {
       "brand": "NİNA RİCCİ",
       "name": "L’Extase"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Idôle"
     },
     {
       "brand": "LANCÔME",
@@ -188,5 +221,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue"
     }
-  ]
+  ],
+  "comments": []
 }

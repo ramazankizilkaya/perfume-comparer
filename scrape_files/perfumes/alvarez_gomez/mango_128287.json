@@ -23,11 +23,11 @@
       "width": "76.6666%"
     },
     {
-      "name": "taze",
+      "name": "tatlı",
       "width": "65.0002%"
     },
     {
-      "name": "tatlı",
+      "name": "taze",
       "width": "65.0002%"
     },
     {
@@ -37,6 +37,34 @@
     {
       "name": "terpenik",
       "width": "47.5001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -68,32 +96,42 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "3"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water"
+    },
+    {
+      "brand": "ALVAREZ GÓMEZ",
+      "name": "Bergamota de Calabria"
+    }
+  ],
+  "comments": []
 }

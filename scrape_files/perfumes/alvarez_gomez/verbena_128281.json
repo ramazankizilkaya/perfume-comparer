@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "amber",
+      "name": "gül",
       "width": "67.8378%"
     },
     {
-      "name": "gül",
+      "name": "amber",
       "width": "67.8378%"
     },
     {
@@ -29,25 +29,53 @@
     {
       "name": "çiçeksi",
       "width": "41.3514%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.50",
-    "votesCount": "2",
+    "score": "4.00",
+    "votesCount": "7",
     "breakdown": {
-      "love": "1",
-      "like": "1",
-      "ok": "0",
-      "dislike": "0",
+      "love": "3",
+      "like": "2",
+      "ok": "1",
+      "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "0",
-    "spring": "2",
-    "summer": "2",
+    "spring": "4",
+    "summer": "4",
     "autumn": "1",
-    "day": "2",
+    "day": "3",
     "night": "1"
   },
   "notes": {
@@ -65,13 +93,13 @@
   },
   "longevity": {
     "veryWeak": "0",
-    "weak": "0",
+    "weak": "1",
     "moderate": "0",
     "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "0",
+    "intimate": "1",
     "moderate": "0",
     "strong": "0",
     "enormous": "1"
@@ -79,17 +107,23 @@
   "genderVoting": {
     "female": "1",
     "moreFemale": "0",
-    "unisex": "0",
+    "unisex": "1",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "0",
+    "fair": "1",
     "goodValue": "1",
     "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "YVES ROCHER",
+      "name": "Lemon Verbena (Verveine)"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

@@ -16,38 +16,74 @@
     },
     {
       "name": "amber",
-      "width": "58%"
-    },
-    {
-      "name": "beyaz çiçeksi",
-      "width": "58%"
-    },
-    {
-      "name": "taze baharatlı",
-      "width": "49.6001%"
+      "width": "100%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "43.9999%"
+      "width": "65%"
+    },
+    {
+      "name": "beyaz çiçeksi",
+      "width": "57.9998%"
+    },
+    {
+      "name": "vanilya",
+      "width": "54.5%"
+    },
+    {
+      "name": "taze baharatlı",
+      "width": "49.6%"
+    },
+    {
+      "name": "balsamik",
+      "width": "44.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.27",
-    "votesCount": "11",
+    "score": "4.17",
+    "votesCount": "12",
     "breakdown": {
       "love": "7",
       "like": "1",
-      "ok": "2",
+      "ok": "3",
       "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "2",
-    "spring": "6",
-    "summer": "6",
-    "autumn": "3",
-    "day": "5",
+    "spring": "7",
+    "summer": "7",
+    "autumn": "4",
+    "day": "6",
     "night": "2"
   },
   "notes": {
@@ -61,7 +97,8 @@
     "base": [
       "Benzoin",
       "Yosun"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -85,8 +122,8 @@
   },
   "priceVoting": {
     "wayOverpriced": "0",
-    "overpriced": "0",
-    "fair": "2",
+    "overpriced": "1",
+    "fair": "3",
     "goodValue": "1",
     "greatValue": "2"
   },
@@ -102,16 +139,21 @@
       "name": "Good Girl"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Terracotta Le Parfum"
+      "brand": "GİORGİO ARMANİ",
+      "name": "My Way Nectar"
     },
     {
       "brand": "GUERLAİN",
       "name": "Mon Guerlain"
     },
     {
+      "brand": "GUERLAİN",
+      "name": "Terracotta Le Parfum"
+    },
+    {
       "brand": "GİVENCHY",
       "name": "Very Irresistible Sensual"
     }
-  ]
+  ],
+  "comments": []
 }

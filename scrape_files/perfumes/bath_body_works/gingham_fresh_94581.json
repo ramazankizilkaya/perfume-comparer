@@ -71,89 +71,37 @@
     ],
     "base": [
       "Papatya"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "4",
-    "moderate": "5",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "5",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "13",
-    "moreFemale": "2",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "6",
-    "goodValue": "8",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Gingham Fresh"
-    },
-    {
-      "brand": "KENSİE",
-      "name": "Buttercup Babe"
-    },
-    {
-      "brand": "CALVİN KLEİN",
-      "name": "Escape"
-    },
-    {
-      "brand": "DONNA KARAN",
-      "name": "DKNY Be Delicious"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Irresistible Apple"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Pear Glace"
-    },
-    {
-      "brand": "AVON",
-      "name": "Viva la Vita"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Versace Pour Femme Dylan Blue"
-    },
-    {
-      "brand": "SLUMBERHOUSE",
-      "name": "Pear & Olive"
-    },
-    {
-      "brand": "HOUSE OF SİLLAGE",
-      "name": "Tweety™"
-    },
-    {
-      "brand": "OAKCHA",
-      "name": "Zen Escape"
-    },
-    {
-      "brand": "JULİETTE HAS A GUN",
-      "name": "Pear Inc"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Beautiful Day"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -170,6 +118,10 @@
     {
       "brand": "VERSACE",
       "name": "Bright Crystal"
+    },
+    {
+      "brand": "ELLİS BROOKLYN",
+      "name": "Dear Sky"
     },
     {
       "brand": "KAYALİ FRAGRANCES",
@@ -196,10 +148,6 @@
       "name": "Calypso Clementine"
     },
     {
-      "brand": "GİVENCHY",
-      "name": "Irresistible Givenchy"
-    },
-    {
       "brand": "VALENTİNO",
       "name": "Valentino Donna Born In Roma"
     },
@@ -215,5 +163,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "At the Beach"
     }
-  ]
+  ],
+  "comments": []
 }

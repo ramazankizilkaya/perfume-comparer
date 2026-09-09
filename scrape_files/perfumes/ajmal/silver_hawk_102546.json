@@ -39,16 +39,40 @@
       "width": "72%"
     },
     {
-      "name": "misk",
+      "name": "vanilya",
       "width": "65.0003%"
     },
     {
-      "name": "vanilya",
+      "name": "misk",
       "width": "65.0003%"
     },
     {
       "name": "balsamik",
       "width": "58.7002%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -85,7 +109,8 @@
       "Sedir ağacı",
       "Amber",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -115,5 +140,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

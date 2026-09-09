@@ -49,6 +49,34 @@
     {
       "name": "misk",
       "width": "60.4348%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -85,7 +113,8 @@
       "Vanilya",
       "Misk",
       "Vetiver"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "4",
@@ -144,12 +173,12 @@
       "name": "Prada La Femme"
     },
     {
-      "brand": "YVES ROCHER",
-      "name": "So Elixir"
-    },
-    {
       "brand": "ELLİS BROOKLYN",
       "name": "Bee"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "So Elixir"
     },
     {
       "brand": "NANETTE LEPORE",
@@ -202,12 +231,12 @@
       "name": "Angel"
     },
     {
-      "brand": "DİOR",
-      "name": "J'adore"
-    },
-    {
       "brand": "LANCÔME",
       "name": "Poeme"
+    },
+    {
+      "brand": "DİOR",
+      "name": "J'adore"
     },
     {
       "brand": "CALVİN KLEİN",
@@ -237,5 +266,6 @@
       "brand": "GUERLAİN",
       "name": "Mon Guerlain"
     }
-  ]
+  ],
+  "comments": []
 }

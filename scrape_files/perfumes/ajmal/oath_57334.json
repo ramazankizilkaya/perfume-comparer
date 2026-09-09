@@ -45,6 +45,30 @@
     {
       "name": "narenciye",
       "width": "45.5025%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -81,7 +105,8 @@
       "Misk",
       "Paçuli",
       "Vanilya"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
@@ -221,5 +246,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

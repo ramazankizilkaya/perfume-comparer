@@ -45,6 +45,30 @@
     {
       "name": "taze",
       "width": "44.2899%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -85,7 +109,8 @@
       "Kaşmir ağacı",
       "Vanilya",
       "Deri"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -169,5 +194,6 @@
       "brand": "ETAT LİBRE D'ORANGE",
       "name": "You Or Someone Like You"
     }
-  ]
+  ],
+  "comments": []
 }

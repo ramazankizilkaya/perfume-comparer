@@ -49,16 +49,40 @@
     {
       "name": "pudralı",
       "width": "54.1501%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.95",
+    "score": "3.91",
     "votesCount": "22",
     "breakdown": {
       "love": "11",
       "like": "4",
-      "ok": "4",
-      "dislike": "1",
+      "ok": "3",
+      "dislike": "2",
       "hate": "2"
     }
   },
@@ -84,14 +108,15 @@
       "Misk",
       "Huş",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
     "moderate": "1",
     "longLasting": "11",
-    "eternal": "5"
+    "eternal": "6"
   },
   "sillage": {
     "intimate": "2",
@@ -102,14 +127,14 @@
   "genderVoting": {
     "female": "1",
     "moreFemale": "1",
-    "unisex": "3",
+    "unisex": "4",
     "moreMale": "8",
     "male": "7"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "4",
+    "fair": "3",
     "goodValue": "4",
     "greatValue": "5"
   },
@@ -167,12 +192,12 @@
       "name": "Black Walnut"
     },
     {
-      "brand": "PRADA",
-      "name": "Prada L'Homme Absolu"
-    },
-    {
       "brand": "REEF PERFUMES",
       "name": "33 White"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Prada L'Homme Absolu"
     }
   ],
   "peopleAlsoLike": [
@@ -197,12 +222,12 @@
       "name": "Encre Noire A L'Extreme"
     },
     {
-      "brand": "AFNAN",
-      "name": "Highness X"
-    },
-    {
       "brand": "ROCHAS",
       "name": "Moustache Eau de Parfum"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Highness X"
     },
     {
       "brand": "RASASİ",
@@ -236,5 +261,6 @@
       "brand": "AFNAN",
       "name": "Highness III"
     }
-  ]
+  ],
+  "comments": []
 }

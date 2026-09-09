@@ -50,7 +50,7 @@
     "winter": "59",
     "spring": "5",
     "summer": "2",
-    "autumn": "54",
+    "autumn": "55",
     "day": "31",
     "night": "42"
   },
@@ -69,97 +69,37 @@
       "Krem şanti",
       "Sandal ağacı",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "9",
-    "weak": "12",
-    "moderate": "24",
-    "longLasting": "3",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "13",
-    "moderate": "24",
-    "strong": "10",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "24",
-    "moreFemale": "16",
-    "unisex": "11",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "10",
-    "goodValue": "18",
-    "greatValue": "24"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Spiced Gingerbread Swirl"
-    },
-    {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Ginger Cookie"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Marshmallow Pumpkin Latte"
-    },
-    {
-      "brand": "BODY FANTASİES",
-      "name": "Cozy Gingerbread"
-    },
-    {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Gingerbread"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Marshmallow Pumpkin Latte"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Ginger Biscuit"
-    },
-    {
-      "brand": "CERCHİ NELL’ACQUA",
-      "name": "Gingerbread"
-    },
-    {
-      "brand": "DOVE",
-      "name": "Gingerbread Delight"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Brown Sugar"
-    },
-    {
-      "brand": "BEİNG FRENSHE",
-      "name": "Moon Milk"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Artisan Ethnique"
-    },
-    {
-      "brand": "AVON",
-      "name": "Naturals Gingerbread"
-    },
-    {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Pumpkin Spice Latte"
-    },
-    {
-      "brand": "CASAMORATİ 1888",
-      "name": "Italica (2021)"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -180,6 +120,10 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Coconut Cream Pie"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Ari"
     },
     {
       "brand": "DİOR",
@@ -216,10 +160,7 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Twisted Peppermint"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '62"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,30 @@
     {
       "name": "sıcak baharatlı",
       "width": "68.675%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +87,7 @@
     }
   },
   "seasons": {
-    "winter": "9",
+    "winter": "10",
     "spring": "13",
     "summer": "10",
     "autumn": "11",
@@ -87,7 +111,8 @@
       "Labdanum",
       "Vetiver",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -118,6 +143,10 @@
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
+    {
+      "brand": "EX NİHİLO",
+      "name": "Blue Talisman"
+    },
     {
       "brand": "XERJOFF",
       "name": "Alexandria II"
@@ -167,10 +196,6 @@
       "name": "Jazz Club"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Oajan"
-    },
-    {
       "brand": "BY KİLİAN",
       "name": "Angels' Share"
     },
@@ -178,5 +203,6 @@
       "brand": "JO MALONE LONDON",
       "name": "Myrrh & Tonka"
     }
-  ]
+  ],
+  "comments": []
 }

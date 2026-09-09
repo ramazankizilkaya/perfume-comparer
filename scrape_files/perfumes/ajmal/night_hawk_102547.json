@@ -35,7 +35,7 @@
       "width": "54.0624%"
     },
     {
-      "name": "tarçın",
+      "name": "lavanta",
       "width": "51.8749%"
     },
     {
@@ -43,12 +43,36 @@
       "width": "51.8749%"
     },
     {
-      "name": "lavanta",
+      "name": "tarçın",
       "width": "51.8749%"
     },
     {
       "name": "sıcak baharatlı",
       "width": "47.4999%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,7 +111,8 @@
       "Deri",
       "Vetiver",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -117,5 +142,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

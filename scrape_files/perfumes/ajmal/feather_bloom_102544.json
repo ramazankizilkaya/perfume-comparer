@@ -35,10 +35,6 @@
       "width": "72.2062%"
     },
     {
-      "name": "hindistancevizi",
-      "width": "60.8826%"
-    },
-    {
       "name": "menekşe",
       "width": "60.8826%"
     },
@@ -47,8 +43,36 @@
       "width": "60.8826%"
     },
     {
+      "name": "hindistancevizi",
+      "width": "60.8826%"
+    },
+    {
       "name": "çiçeksi",
       "width": "53.6764%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,7 +110,8 @@
     "base": [
       "Sandal ağacı",
       "Deri"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -116,5 +141,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

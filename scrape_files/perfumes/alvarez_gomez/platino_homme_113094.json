@@ -23,11 +23,11 @@
       "width": "70%"
     },
     {
-      "name": "toprak",
+      "name": "odunsu",
       "width": "68%"
     },
     {
-      "name": "odunsu",
+      "name": "toprak",
       "width": "68%"
     },
     {
@@ -47,15 +47,43 @@
       "width": "45%"
     },
     {
-      "name": "yeşil",
+      "name": "bitkisel",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.60",
-    "votesCount": "20",
+    "score": "4.58",
+    "votesCount": "19",
     "breakdown": {
-      "love": "14",
+      "love": "13",
       "like": "5",
       "ok": "0",
       "dislike": "1",
@@ -88,13 +116,13 @@
   "longevity": {
     "veryWeak": "0",
     "weak": "1",
-    "moderate": "10",
+    "moderate": "11",
     "longLasting": "8",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "3",
-    "moderate": "10",
+    "moderate": "11",
     "strong": "4",
     "enormous": "0"
   },
@@ -102,7 +130,7 @@
     "female": "0",
     "moreFemale": "0",
     "unisex": "0",
-    "moreMale": "6",
+    "moreMale": "7",
     "male": "11"
   },
   "priceVoting": {
@@ -110,7 +138,7 @@
     "overpriced": "0",
     "fair": "0",
     "goodValue": "2",
-    "greatValue": "13"
+    "greatValue": "14"
   },
   "remindsMeOf": [
     {
@@ -152,6 +180,10 @@
       "name": "Hawas Black"
     },
     {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Blue Eau de Parfum"
+    },
+    {
       "brand": "INSTİTUTO ESPAÑOL",
       "name": "Poseidon Sport"
     },
@@ -172,16 +204,8 @@
       "name": "Cedrat Boise"
     },
     {
-      "brand": "MANCERA",
-      "name": "Aoud Lemon Mint"
-    },
-    {
       "brand": "ALVAREZ GÓMEZ",
       "name": "Titanio Homme"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Intense Man"
     },
     {
       "brand": "ISSEY MİYAKE",
@@ -194,6 +218,11 @@
     {
       "brand": "PRADA",
       "name": "Prada L'Homme"
+    },
+    {
+      "brand": "ALVAREZ GÓMEZ",
+      "name": "Bronce Homme"
     }
-  ]
+  ],
+  "comments": []
 }

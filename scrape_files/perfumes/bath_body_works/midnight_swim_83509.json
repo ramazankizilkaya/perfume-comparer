@@ -21,6 +21,34 @@
     {
       "name": "bitkisel",
       "width": "58.8236%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -35,7 +63,7 @@
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "2",
     "spring": "16",
     "summer": "43",
     "autumn": "4",
@@ -45,7 +73,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Su Notaları",
+      "Kum çimi"
+    ]
   },
   "longevity": {
     "veryWeak": "8",
@@ -173,5 +205,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Warm Vanilla Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

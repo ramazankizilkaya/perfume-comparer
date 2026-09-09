@@ -37,6 +37,30 @@
     {
       "name": "laktonik",
       "width": "44.2029%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,7 +85,15 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Erik",
+      "Pralin",
+      "Çarkıfelek",
+      "Gül",
+      "Amber",
+      "Maun"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -120,10 +152,6 @@
       "name": "In Woman"
     },
     {
-      "brand": "AVON",
-      "name": "Today Tomorrow Always Absolute"
-    },
-    {
       "brand": "CALVİN KLEİN",
       "name": "Euphoria"
     },
@@ -134,6 +162,10 @@
     {
       "brand": "CUBA PARİS",
       "name": "Cuba Tattoo"
+    },
+    {
+      "brand": "AVON",
+      "name": "Today Tomorrow Always Absolute"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -213,5 +245,6 @@
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rouge"
     }
-  ]
+  ],
+  "comments": []
 }

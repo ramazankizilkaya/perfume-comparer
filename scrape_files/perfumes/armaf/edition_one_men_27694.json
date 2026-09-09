@@ -1,7 +1,7 @@
 {
   "name": "Edition One Men Armaf",
   "targetGender": "erkekler için",
-  "fragranceFamily": "Aromatic",
+  "fragranceFamily": "Citrus",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.27694.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Armaf/Edition-One-Men-27694.html",
@@ -11,47 +11,79 @@
   "description_enhanced": "Armaf markasının Edition One Men parfümü, erkekler için Odunsu Aromatik bir kokudur. Üst notalar: Bergamot ve Narenciye; orta notalar: Adaçayı ve Lavanta; alt notalar Sedir ve Sandal ağacı.",
   "mainAccords": [
     {
-      "name": "aromatik",
+      "name": "narenciye",
       "width": "100%"
     },
     {
-      "name": "narenciye",
-      "width": "95.7718%"
+      "name": "aromatik",
+      "width": "98.4635%"
     },
     {
       "name": "odunsu",
-      "width": "82.2416%"
+      "width": "88.2193%"
     },
     {
       "name": "bitkisel",
-      "width": "72.4698%"
+      "width": "70.378%"
     },
     {
       "name": "lavanta",
-      "width": "69.4631%"
+      "width": "67.5611%"
     },
     {
       "name": "taze baharatlı",
-      "width": "65.1409%"
-    },
-    {
-      "name": "yumuşak baharatlı",
-      "width": "53.4899%"
+      "width": "66.0242%"
     },
     {
       "name": "pudralı",
-      "width": "50.4832%"
+      "width": "52.7075%"
+    },
+    {
+      "name": "yumuşak baharatlı",
+      "width": "52.1951%"
     },
     {
       "name": "taze",
-      "width": "45.9731%"
+      "width": "47.0733%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "3.86",
-    "votesCount": "80",
+    "score": "3.90",
+    "votesCount": "83",
     "breakdown": {
-      "love": "21",
+      "love": "24",
       "like": "42",
       "ok": "4",
       "dislike": "11",
@@ -60,11 +92,11 @@
   },
   "seasons": {
     "winter": "7",
-    "spring": "26",
-    "summer": "25",
+    "spring": "27",
+    "summer": "26",
     "autumn": "10",
-    "day": "30",
-    "night": "12"
+    "day": "31",
+    "night": "13"
   },
   "notes": {
     "top": [
@@ -78,19 +110,20 @@
     "base": [
       "Sedir",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "5",
     "weak": "7",
-    "moderate": "22",
-    "longLasting": "22",
+    "moderate": "23",
+    "longLasting": "23",
     "eternal": "10"
   },
   "sillage": {
     "intimate": "16",
-    "moderate": "22",
-    "strong": "19",
+    "moderate": "23",
+    "strong": "20",
     "enormous": "19"
   },
   "genderVoting": {
@@ -98,14 +131,14 @@
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "4",
-    "male": "8"
+    "male": "10"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "2",
     "fair": "4",
     "goodValue": "1",
-    "greatValue": "7"
+    "greatValue": "8"
   },
   "remindsMeOf": [
     {
@@ -151,20 +184,20 @@
       "name": "Tag-Him"
     },
     {
-      "brand": "ALFRED DUNHİLL",
-      "name": "Icon"
+      "brand": "VERSACE",
+      "name": "Versace Man Eau Fraiche"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "La Nuit de l'Homme"
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau d'Issey Pour Homme"
     },
     {
       "brand": "VERSACE",
       "name": "Versace Pour Homme"
     },
     {
-      "brand": "CHANEL",
-      "name": "Bleu de Chanel"
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de l'Homme"
     },
     {
       "brand": "DİOR",
@@ -175,20 +208,20 @@
       "name": "Dreamer The Original Edition"
     },
     {
-      "brand": "DOLCE&GABBANA",
-      "name": "The One for Men"
-    },
-    {
       "brand": "LALİQUE",
       "name": "Encre Noire"
     },
     {
       "brand": "DOLCE&GABBANA",
-      "name": "The One for Men Eau de Parfum"
+      "name": "The One for Men"
     },
     {
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "The One for Men Eau de Parfum"
     },
     {
       "brand": "ARMAF",
@@ -206,5 +239,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

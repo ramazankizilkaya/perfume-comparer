@@ -37,6 +37,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "46.6505%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +101,8 @@
       "Abanoz ağacı",
       "Misk",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "4",
@@ -134,12 +163,12 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "ISSEY MİYAKE",
-      "name": "L'Eau d'Issey Pour Homme"
-    },
-    {
       "brand": "VERSACE",
       "name": "Versace Man Eau Fraiche"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau d'Issey Pour Homme"
     },
     {
       "brand": "VERSACE",
@@ -193,5 +222,6 @@
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male"
     }
-  ]
+  ],
+  "comments": []
 }

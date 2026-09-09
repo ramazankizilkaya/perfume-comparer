@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.126689.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Acqua-di-Parma/Zafferano-Ambrosia-126689.html",
   "brand": "Acqua di Parma parfüm ve kolonya",
-  "description": "Acqua di Parma markasının Zafferano Ambrosia parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Bu yeni bir parfüm. Zafferano Ambrosia, 2026 yılında piyasaya sürüldü. Üst notalar: Kırmızı Mandalina, Kalabriya bergamotu ve Zencefil; orta notalar: Safran, Portakal çiçeği ve Yasemin Sambac; alt notalar Amber, Vanilya ve Paçuli.",
-  "description_original": "Acqua di Parma markasının Zafferano Ambrosia parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Bu yeni bir parfüm. Zafferano Ambrosia, 2026 yılında piyasaya sürüldü. Üst notalar: Kırmızı Mandalina, Kalabriya bergamotu ve Zencefil; orta notalar: Safran, Portakal çiçeği ve Yasemin Sambac; alt notalar Amber, Vanilya ve Paçuli.",
-  "description_enhanced": "Acqua di Parma markasının Zafferano Ambrosia parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Bu yeni bir parfüm. Zafferano Ambrosia, 2026 yılında piyasaya sürüldü. Üst notalar: Kırmızı Mandalina, Kalabriya bergamotu ve Zencefil; orta notalar: Safran, Portakal çiçeği ve Yasemin Sambac; alt notalar Amber, Vanilya ve Paçuli.",
+  "description": "Acqua di Parma markasının Zafferano Ambrosia parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Bu yeni bir parfüm. Zafferano Ambrosia, 2026 yılında piyasaya sürüldü. Üst notalar: Kırmızı Mandalina, Kalabriya bergamotu ve Zencefil; orta notalar: Safran, Portakal çiçeği ve Sambac Yasemini; alt notalar Amber, Vanilya ve Paçuli.",
+  "description_original": "Acqua di Parma markasının Zafferano Ambrosia parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Bu yeni bir parfüm. Zafferano Ambrosia, 2026 yılında piyasaya sürüldü. Üst notalar: Kırmızı Mandalina, Kalabriya bergamotu ve Zencefil; orta notalar: Safran, Portakal çiçeği ve Sambac Yasemini; alt notalar Amber, Vanilya ve Paçuli.",
+  "description_enhanced": "Acqua di Parma markasının Zafferano Ambrosia parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Bu yeni bir parfüm. Zafferano Ambrosia, 2026 yılında piyasaya sürüldü. Üst notalar: Kırmızı Mandalina, Kalabriya bergamotu ve Zencefil; orta notalar: Safran, Portakal çiçeği ve Sambac Yasemini; alt notalar Amber, Vanilya ve Paçuli.",
   "mainAccords": [
     {
       "name": "sıcak baharatlı",
@@ -49,6 +49,30 @@
     {
       "name": "paçuli",
       "width": "52.9505%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,13 +103,14 @@
     "middle": [
       "Safran",
       "Portakal çiçeği",
-      "Yasemin Sambac"
+      "Sambac Yasemini"
     ],
     "base": [
       "Amber",
       "Vanilya",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -202,16 +227,16 @@
       "name": "Oud for Greatness"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Cuir Béluga"
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi"
     },
     {
       "brand": "BY KİLİAN",
       "name": "Angels' Share"
     },
     {
-      "brand": "INİTİO PARFUMS PRİVES",
-      "name": "Narcotic Delight"
+      "brand": "GUERLAİN",
+      "name": "Cuir Béluga"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -221,5 +246,6 @@
       "brand": "CHANEL",
       "name": "Bleu de Chanel L'Exclusif"
     }
-  ]
+  ],
+  "comments": []
 }

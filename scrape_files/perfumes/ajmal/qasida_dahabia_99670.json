@@ -49,6 +49,30 @@
     {
       "name": "vanilya",
       "width": "56.25%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,7 +110,8 @@
       "Amber",
       "Misk",
       "Vanilya"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -190,5 +215,6 @@
       "brand": "LALİQUE",
       "name": "Lalique Pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

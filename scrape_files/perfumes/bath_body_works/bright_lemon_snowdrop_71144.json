@@ -29,6 +29,34 @@
     {
       "name": "aromatik",
       "width": "51%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Limon",
+      "Vanilya",
+      "Marşmelov"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -127,19 +160,15 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Happy Birthday Frosted Vanilla"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Confetti Cake Pop"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Bubble Gum Pop"
+      "name": "Vanilla Bean Noel"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Vanilla Bean Noel"
+      "name": "Bubble Gum Pop"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -158,8 +187,8 @@
       "name": "Bare Vanilla"
     },
     {
-      "brand": "ARİANA GRANDE",
-      "name": "Ari"
+      "brand": "BATH & BODY WORKS",
+      "name": "Marshmallow Pumpkin Latte"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -180,6 +209,11 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Midnight Amber Glow"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Raspberry Jam Donut"
     }
-  ]
+  ],
+  "comments": []
 }

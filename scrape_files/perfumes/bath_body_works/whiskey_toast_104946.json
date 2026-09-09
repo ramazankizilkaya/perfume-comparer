@@ -29,42 +29,75 @@
     {
       "name": "aromatik",
       "width": "37.5833%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.26",
-    "votesCount": "35",
+    "votesCount": "38",
     "breakdown": {
-      "love": "15",
-      "like": "14",
+      "love": "16",
+      "like": "16",
       "ok": "6",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "16",
-    "spring": "8",
+    "winter": "18",
+    "spring": "9",
     "summer": "3",
-    "autumn": "20",
-    "day": "12",
-    "night": "16"
+    "autumn": "22",
+    "day": "13",
+    "night": "18"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Viski",
+      "Meşe",
+      "Narenciye"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
     "weak": "6",
-    "moderate": "6",
-    "longLasting": "3",
+    "moderate": "7",
+    "longLasting": "4",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "6",
+    "intimate": "5",
+    "moderate": "7",
     "strong": "2",
     "enormous": "0"
   },
@@ -72,14 +105,14 @@
     "female": "0",
     "moreFemale": "0",
     "unisex": "2",
-    "moreMale": "10",
+    "moreMale": "13",
     "male": "6"
   },
   "priceVoting": {
     "wayOverpriced": "0",
-    "overpriced": "2",
+    "overpriced": "3",
     "fair": "6",
-    "goodValue": "10",
+    "goodValue": "11",
     "greatValue": "2"
   },
   "remindsMeOf": [
@@ -142,10 +175,6 @@
       "name": "Explorer"
     },
     {
-      "brand": "COACH",
-      "name": "Coach Green"
-    },
-    {
       "brand": "AZZARO",
       "name": "The Most Wanted Parfum"
     },
@@ -164,6 +193,10 @@
     {
       "brand": "VERSACE",
       "name": "Eros Flame"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Jazz Club"
     },
     {
       "brand": "CREED",
@@ -190,8 +223,9 @@
       "name": "Eros"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah"
+      "brand": "BATH & BODY WORKS",
+      "name": "Honorable"
     }
-  ]
+  ],
+  "comments": []
 }

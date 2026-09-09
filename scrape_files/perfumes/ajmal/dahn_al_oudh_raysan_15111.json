@@ -11,16 +11,40 @@
   "description_enhanced": "Ajmal markasının Dahn Al Oudh Raysan parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Kokuda Odunsu Notalar ve Agar ağacı (Oud) notaları bulunur.",
   "mainAccords": [
     {
-      "name": "ud",
+      "name": "odunsu",
       "width": "100%"
     },
     {
-      "name": "odunsu",
+      "name": "ud",
       "width": "100%"
     },
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -45,7 +69,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Odunsu Notalar",
+      "Agar ağacı (Oud)"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -136,5 +164,6 @@
       "brand": "SERGE LUTENS",
       "name": "Chergui"
     }
-  ]
+  ],
+  "comments": []
 }

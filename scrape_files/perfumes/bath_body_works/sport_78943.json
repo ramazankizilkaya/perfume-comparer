@@ -19,7 +19,7 @@
       "width": "79.7776%"
     },
     {
-      "name": "narenciye",
+      "name": "odunsu",
       "width": "61.1111%"
     },
     {
@@ -27,7 +27,7 @@
       "width": "61.1111%"
     },
     {
-      "name": "odunsu",
+      "name": "narenciye",
       "width": "61.1111%"
     },
     {
@@ -39,11 +39,11 @@
       "width": "53.3334%"
     },
     {
-      "name": "sulu",
+      "name": "taze baharatlı",
       "width": "51.7779%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "sulu",
       "width": "51.7779%"
     }
   ],
@@ -77,53 +77,37 @@
     "base": [
       "Deniz Tuzu",
       "Odunsu Notalar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "4",
-    "moderate": "7",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "7",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "4",
-    "male": "9"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "4",
-    "greatValue": "3"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "RALPH LAUREN",
-      "name": "Polo Blue"
-    },
-    {
-      "brand": "AZZARO",
-      "name": "Azzaro Sport"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Allure Homme Sport"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Soleil Neige (2025)"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -185,5 +169,6 @@
       "brand": "MANCERA",
       "name": "Red Tobacco"
     }
-  ]
+  ],
+  "comments": []
 }

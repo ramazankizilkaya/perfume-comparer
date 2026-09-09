@@ -49,26 +49,50 @@
     {
       "name": "çiçeksi",
       "width": "47.3098%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.31",
+    "score": "4.33",
     "votesCount": "67",
     "breakdown": {
       "love": "37",
-      "like": "16",
-      "ok": "12",
+      "like": "17",
+      "ok": "11",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "26",
-    "spring": "21",
-    "summer": "16",
-    "autumn": "30",
-    "day": "26",
-    "night": "28"
+    "spring": "22",
+    "summer": "17",
+    "autumn": "31",
+    "day": "27",
+    "night": "29"
   },
   "notes": {
     "top": [
@@ -85,32 +109,33 @@
       "Agar ağacı (Oud)",
       "Misk",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "2",
     "moderate": "16",
-    "longLasting": "12",
+    "longLasting": "13",
     "eternal": "5"
   },
   "sillage": {
     "intimate": "4",
     "moderate": "16",
-    "strong": "17",
+    "strong": "18",
     "enormous": "5"
   },
   "genderVoting": {
     "female": "1",
     "moreFemale": "3",
-    "unisex": "25",
+    "unisex": "26",
     "moreMale": "7",
     "male": "3"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "7",
-    "fair": "12",
+    "fair": "11",
     "goodValue": "6",
     "greatValue": "3"
   },
@@ -128,20 +153,16 @@
       "name": "Musc Ravageur"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Rouge Privé"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "The Moon"
-    },
-    {
       "brand": "FİLİPPO SORCİNELLİ",
       "name": "Io Non Ho Mani Che Mi Accarezzino il Volto"
     },
     {
       "brand": "FUGAZZİ",
       "name": "Cash Flower"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Habit Rouge Rouge Privé"
     },
     {
       "brand": "NİSHANE",
@@ -168,12 +189,16 @@
       "name": "Amber Room"
     },
     {
-      "brand": "ROJA DOVE",
-      "name": "Amber Aoud"
-    },
-    {
       "brand": "SERGE LUTENS",
       "name": "Santal Majuscule"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Habit Rouge L'Eau"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "L'Instant de Guerlain pour Homme Eau Extreme"
     }
   ],
   "peopleAlsoLike": [
@@ -198,10 +223,6 @@
       "name": "Ambre Sultan"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Portrait of a Lady"
-    },
-    {
       "brand": "AJMAL",
       "name": "Amber Wood"
     },
@@ -214,12 +235,12 @@
       "name": "Incense"
     },
     {
-      "brand": "SERGE LUTENS",
-      "name": "Chergui"
-    },
-    {
       "brand": "AJMAL",
       "name": "Saffron"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Chergui"
     },
     {
       "brand": "LALİQUE",
@@ -230,6 +251,10 @@
       "name": "Reflection Man"
     },
     {
+      "brand": "AJMAL",
+      "name": "Vetiver"
+    },
+    {
       "brand": "DİOR",
       "name": "Dior Homme Parfum"
     },
@@ -237,5 +262,6 @@
       "brand": "LALİQUE",
       "name": "Encre Noire"
     }
-  ]
+  ],
+  "comments": []
 }

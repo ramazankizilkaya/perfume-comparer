@@ -49,6 +49,34 @@
     {
       "name": "misk",
       "width": "55.23%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "19",
-    "spring": "22",
-    "summer": "18",
-    "autumn": "23",
-    "day": "23",
-    "night": "17"
+    "winter": "20",
+    "spring": "23",
+    "summer": "19",
+    "autumn": "24",
+    "day": "24",
+    "night": "18"
   },
   "notes": {
     "top": [
@@ -89,18 +117,19 @@
       "Misk",
       "Paçuli",
       "Vetiver"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
-    "moderate": "4",
+    "moderate": "5",
     "longLasting": "15",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "4",
+    "intimate": "2",
+    "moderate": "5",
     "strong": "9",
     "enormous": "1"
   },
@@ -108,7 +137,7 @@
     "female": "1",
     "moreFemale": "0",
     "unisex": "7",
-    "moreMale": "10",
+    "moreMale": "11",
     "male": "5"
   },
   "priceVoting": {
@@ -116,7 +145,7 @@
     "overpriced": "0",
     "fair": "4",
     "goodValue": "5",
-    "greatValue": "16"
+    "greatValue": "17"
   },
   "remindsMeOf": [
     {
@@ -152,12 +181,12 @@
       "name": "Vibrant Leather Bogoss"
     },
     {
-      "brand": "AHMED AL MAGHRİBİ",
-      "name": "Marj"
-    },
-    {
       "brand": "REEF PERFUMES",
       "name": "Reef 33"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Marj"
     }
   ],
   "peopleAlsoLike": [
@@ -174,8 +203,16 @@
       "name": "Vintage Radio"
     },
     {
+      "brand": "RASASİ",
+      "name": "Hawas for Him"
+    },
+    {
       "brand": "AFNAN",
       "name": "Supremacy Not Only Intense"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Jasoor"
     },
     {
       "brand": "ARMAF",
@@ -186,40 +223,33 @@
       "name": "Maahir Legacy"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Jean Lowe Immortal"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Emeer"
     },
     {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Amber Oud Aqua Dubai"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Jean Lowe Immortal"
     },
     {
       "brand": "ORİENTİCA PREMİUM",
       "name": "Royal Bleu"
     },
     {
-      "brand": "FRENCH AVENUE",
-      "name": "Cocoa Morado"
-    },
-    {
-      "brand": "FRENCH AVENUE",
-      "name": "Miraj Absolu"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Liam"
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Midnight Oud"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Hercules"
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Amber Oud Tobacco Edition"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Ansaam Silver"
+      "name": "The Kingdom For Men"
     }
-  ]
+  ],
+  "comments": []
 }

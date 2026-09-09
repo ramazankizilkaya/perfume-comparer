@@ -27,7 +27,7 @@
       "width": "39.3333%"
     },
     {
-      "name": "aromatik",
+      "name": "balsamik",
       "width": "37%"
     }
   ],
@@ -53,45 +53,42 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Sedir",
+      "Balsamik Notlar",
+      "Vanilya",
+      "Armut"
+    ]
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "3",
-    "moderate": "0",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "0",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "2",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Golden Clementine & Amber"
-    },
-    {
-      "brand": "BYREDO",
-      "name": "Gypsy Water"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -153,5 +150,6 @@
       "brand": "VERSACE",
       "name": "Crystal Noir"
     }
-  ]
+  ],
+  "comments": []
 }

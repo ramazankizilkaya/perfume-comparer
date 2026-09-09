@@ -49,26 +49,54 @@
     {
       "name": "aromatik",
       "width": "52.6262%"
+    },
+    {
+      "name": "Online satın alın 49 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.11",
-    "votesCount": "18",
+    "score": "4.05",
+    "votesCount": "22",
     "breakdown": {
-      "love": "10",
-      "like": "2",
-      "ok": "5",
+      "love": "11",
+      "like": "3",
+      "ok": "7",
       "dislike": "0",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "15",
+    "winter": "18",
     "spring": "7",
     "summer": "4",
-    "autumn": "11",
-    "day": "7",
-    "night": "11"
+    "autumn": "13",
+    "day": "9",
+    "night": "13"
   },
   "notes": {
     "top": [
@@ -82,19 +110,20 @@
     "base": [
       "Paçuli",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "2",
     "moderate": "5",
-    "longLasting": "10",
+    "longLasting": "12",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "2",
     "moderate": "5",
-    "strong": "8",
+    "strong": "10",
     "enormous": "1"
   },
   "genderVoting": {
@@ -102,13 +131,13 @@
     "moreFemale": "0",
     "unisex": "5",
     "moreMale": "7",
-    "male": "7"
+    "male": "9"
   },
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "0",
-    "fair": "5",
-    "goodValue": "5",
+    "fair": "7",
+    "goodValue": "7",
     "greatValue": "3"
   },
   "remindsMeOf": [
@@ -131,6 +160,10 @@
   ],
   "peopleAlsoLike": [
     {
+      "brand": "AJMAL",
+      "name": "Patchouli"
+    },
+    {
       "brand": "AFNAN",
       "name": "Ouddiction"
     },
@@ -143,28 +176,24 @@
       "name": "Red Tobacco"
     },
     {
-      "brand": "ETAT LİBRE D'ORANGE",
-      "name": "Experimentum Crucis"
-    },
-    {
       "brand": "VERSACE",
       "name": "Safran Royal"
+    },
+    {
+      "brand": "ETAT LİBRE D'ORANGE",
+      "name": "Experimentum Crucis"
     },
     {
       "brand": "DİPTYQUE",
       "name": "Tempo Eau de Parfum"
     },
     {
-      "brand": "VAN CLEEF & ARPELS",
-      "name": "Moonlight Patchouli"
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Amber Musk"
     },
     {
       "brand": "RASASİ",
       "name": "Shuhrah Pour Femme"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Acqua di Giò Parfum"
     },
     {
       "brand": "VALENTİNO",
@@ -190,5 +219,6 @@
       "brand": "XERJOFF",
       "name": "XJ 1861 Naxos"
     }
-  ]
+  ],
+  "comments": []
 }

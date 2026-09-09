@@ -35,11 +35,11 @@
       "width": "65%"
     },
     {
-      "name": "tropikal",
+      "name": "vanilya",
       "width": "49.25%"
     },
     {
-      "name": "vanilya",
+      "name": "tropikal",
       "width": "49.25%"
     }
   ],
@@ -65,69 +65,42 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Limon",
+      "Hindistan cevizi",
+      "Deniz Suyu",
+      "Krem"
+    ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "4",
-    "moderate": "4",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "4",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "1",
-    "unisex": "3",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "3",
-    "greatValue": "5"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "SKYLAR",
-      "name": "Lime Sands"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Coconut Lime Breeze"
-    },
-    {
-      "brand": "ORGÂNİCA",
-      "name": "Coconut & Lima"
-    },
-    {
-      "brand": "LOVESHACKFANCY",
-      "name": "Love on the Beach"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Coconut Lime Verbena"
-    },
-    {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Lime"
-    },
-    {
-      "brand": "ULYKA PARFUMS",
-      "name": "Nota Loca"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Beach Blossom Limited Edition"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "VİCTORİA'S SECRET",
@@ -152,6 +125,10 @@
     {
       "brand": "CHANEL",
       "name": "Chance Eau de Toilette"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -182,12 +159,9 @@
       "name": "Le Parfum"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Si"
-    },
-    {
       "brand": "DONNA KARAN",
       "name": "DKNY Be Delicious"
     }
-  ]
+  ],
+  "comments": []
 }

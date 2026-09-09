@@ -29,34 +29,69 @@
     {
       "name": "aromatik",
       "width": "44.7368%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.14",
-    "votesCount": "118",
+    "score": "4.13",
+    "votesCount": "120",
     "breakdown": {
-      "love": "48",
-      "like": "46",
-      "ok": "16",
-      "dislike": "8",
+      "love": "49",
+      "like": "47",
+      "ok": "15",
+      "dislike": "9",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "9",
-    "spring": "57",
-    "summer": "54",
-    "autumn": "21",
-    "day": "62",
-    "night": "9"
+    "spring": "58",
+    "summer": "55",
+    "autumn": "22",
+    "day": "63",
+    "night": "10"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Çay",
+      "Zencefil",
+      "Yuzu",
+      "Bergamot",
+      "Sardunya"
+    ]
   },
   "longevity": {
-    "veryWeak": "9",
+    "veryWeak": "10",
     "weak": "26",
     "moderate": "17",
     "longLasting": "1",
@@ -71,14 +106,14 @@
   "genderVoting": {
     "female": "15",
     "moreFemale": "27",
-    "unisex": "17",
+    "unisex": "18",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "0",
-    "overpriced": "3",
-    "fair": "16",
+    "overpriced": "4",
+    "fair": "15",
     "goodValue": "20",
     "greatValue": "23"
   },
@@ -96,12 +131,12 @@
       "name": "Green Tea"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "White Tea & Sage"
-    },
-    {
       "brand": "NEST",
       "name": "Indigo"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "White Tea & Sage"
     },
     {
       "brand": "LİİS",
@@ -162,6 +197,10 @@
       "name": "Light Blue"
     },
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Champagne Apple & Honey"
+    },
+    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Libre"
     },
@@ -200,10 +239,7 @@
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Luminous"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,30 @@
     {
       "name": "yeşil",
       "width": "44.8036%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -80,7 +104,8 @@
     ],
     "base": [
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -171,5 +196,6 @@
       "brand": "MUGLER",
       "name": "A*Men"
     }
-  ]
+  ],
+  "comments": []
 }

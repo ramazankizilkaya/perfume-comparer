@@ -49,13 +49,37 @@
     {
       "name": "tropikal",
       "width": "47.4377%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.20",
-    "votesCount": "56",
+    "score": "4.21",
+    "votesCount": "57",
     "breakdown": {
-      "love": "28",
+      "love": "29",
       "like": "17",
       "ok": "6",
       "dislike": "4",
@@ -86,7 +110,8 @@
       "Agar ağacı (Oud)",
       "Sedir",
       "Vanilya"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -104,7 +129,7 @@
   "genderVoting": {
     "female": "2",
     "moreFemale": "6",
-    "unisex": "18",
+    "unisex": "19",
     "moreMale": "5",
     "male": "2"
   },
@@ -131,6 +156,10 @@
     {
       "brand": "XERJOFF",
       "name": "Erba Pura"
+    },
+    {
+      "brand": "ASGHARALİ",
+      "name": "Step Up"
     },
     {
       "brand": "NE'EMAH FOR FRAGRANCE & OUDH",
@@ -163,10 +192,6 @@
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Althaïr"
-    },
-    {
-      "brand": "ASGHARALİ",
-      "name": "Step Up"
     }
   ],
   "peopleAlsoLike": [
@@ -203,6 +228,10 @@
       "name": "Patchouli"
     },
     {
+      "brand": "AJMAL",
+      "name": "Amber"
+    },
+    {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "Jazz Club"
     },
@@ -225,10 +254,7 @@
     {
       "brand": "LALİQUE",
       "name": "Encre Noire"
-    },
-    {
-      "brand": "NASOMATTO",
-      "name": "Baraonda"
     }
-  ]
+  ],
+  "comments": []
 }

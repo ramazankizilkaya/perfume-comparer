@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15076.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Ignite-15076.html",
   "brand": "Ajmal parfüm ve kolonya",
-  "description": "Ajmal markasının Ignite parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Ignite, 2004 yılında piyasaya sürüldü. Üst notalar: Yasemin ve Meyvemsi notalar; orta notalar: Kırmızı meyveler, Menekşe ve Baharatlı notalar; alt notalar Sandal ağacı, Misk ve Sedir.",
-  "description_original": "Ajmal markasının Ignite parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Ignite, 2004 yılında piyasaya sürüldü. Üst notalar: Yasemin ve Meyvemsi notalar; orta notalar: Kırmızı meyveler, Menekşe ve Baharatlı notalar; alt notalar Sandal ağacı, Misk ve Sedir.",
-  "description_enhanced": "Ajmal markasının Ignite parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Ignite, 2004 yılında piyasaya sürüldü. Üst notalar: Yasemin ve Meyvemsi notalar; orta notalar: Kırmızı meyveler, Menekşe ve Baharatlı notalar; alt notalar Sandal ağacı, Misk ve Sedir.",
+  "description": "Ajmal markasının Ignite parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Ignite, 2004 yılında piyasaya sürüldü. Üst notalar: Yasemin ve Meyvemsi notalar; orta notalar: Kırmızı meyveler, Menekşe ve Baharatlar; alt notalar Sandal ağacı, Misk ve Sedir.",
+  "description_original": "Ajmal markasının Ignite parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Ignite, 2004 yılında piyasaya sürüldü. Üst notalar: Yasemin ve Meyvemsi notalar; orta notalar: Kırmızı meyveler, Menekşe ve Baharatlar; alt notalar Sandal ağacı, Misk ve Sedir.",
+  "description_enhanced": "Ajmal markasının Ignite parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Ignite, 2004 yılında piyasaya sürüldü. Üst notalar: Yasemin ve Meyvemsi notalar; orta notalar: Kırmızı meyveler, Menekşe ve Baharatlar; alt notalar Sandal ağacı, Misk ve Sedir.",
   "mainAccords": [
     {
       "name": "meyvemsi",
@@ -49,6 +49,30 @@
     {
       "name": "ekşi",
       "width": "46.371%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -78,13 +102,14 @@
     "middle": [
       "Kırmızı meyveler",
       "Menekşe",
-      "Baharatlı notalar"
+      "Baharatlar"
     ],
     "base": [
       "Sandal ağacı",
       "Misk",
       "Sedir"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -184,5 +209,6 @@
       "brand": "CHANEL",
       "name": "Coco Noir"
     }
-  ]
+  ],
+  "comments": []
 }

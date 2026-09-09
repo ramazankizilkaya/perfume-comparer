@@ -25,6 +25,34 @@
     {
       "name": "yumuşak baharatlı",
       "width": "37%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -49,7 +77,10 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Amber"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -100,24 +131,12 @@
       "name": "Champagne Toast"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Winterberry Wonder"
-    },
-    {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '40"
     },
     {
-      "brand": "THE DUA BRAND",
-      "name": "Plum & Amber Wood"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Dreamy Plum Dahlia"
-    },
-    {
-      "brand": "LUSH",
-      "name": "Plum Rain Body Spray"
+      "brand": "BATH & BODY WORKS",
+      "name": "Winterberry Wonder"
     },
     {
       "brand": "AJMAL",
@@ -125,7 +144,23 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "A Thousand Christmas Wishes"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Dark Kiss"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Dreamy Plum Dahlia"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "Plum & Amber Wood"
+    },
+    {
+      "brand": "LUSH",
+      "name": "Plum Rain Body Spray"
     },
     {
       "brand": "CHRİSTİNA AGUİLERA",
@@ -134,10 +169,6 @@
     {
       "brand": "MELANGE PERFUME",
       "name": "Amber, Plum & Vanilla Orchid"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "The One Lace Edition"
     }
   ],
   "peopleAlsoLike": [
@@ -201,5 +232,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Strawberry Flirt"
     }
-  ]
+  ],
+  "comments": []
 }

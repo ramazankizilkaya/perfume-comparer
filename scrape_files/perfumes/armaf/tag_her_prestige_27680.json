@@ -41,6 +41,34 @@
     {
       "name": "balsamik",
       "width": "48.4128%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -72,7 +100,8 @@
     "base": [
       "Sandal ağacı",
       "Vanilya"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
@@ -149,12 +178,12 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain"
-    },
-    {
       "brand": "KENZO",
       "name": "Kenzo Jungle L'Elephant"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Mon Guerlain"
     },
     {
       "brand": "TOM FORD",
@@ -163,10 +192,6 @@
     {
       "brand": "CHOPARD",
       "name": "Casmir"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dune"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -181,6 +206,10 @@
       "name": "Tobacco Vanille"
     },
     {
+      "brand": "TOM FORD",
+      "name": "Noir Pour Femme"
+    },
+    {
       "brand": "DİOR",
       "name": "Poison"
     },
@@ -193,12 +222,12 @@
       "name": "Euphoria"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Eau de Parfum"
-    },
-    {
       "brand": "DİOR",
       "name": "Hypnotic Poison"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Shalimar Eau de Parfum"
     },
     {
       "brand": "VERSACE",
@@ -208,5 +237,6 @@
       "brand": "ARMAF",
       "name": "Club de Nuit Intense"
     }
-  ]
+  ],
+  "comments": []
 }

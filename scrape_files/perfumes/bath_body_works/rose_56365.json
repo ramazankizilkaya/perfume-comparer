@@ -29,47 +29,80 @@
     {
       "name": "pudralı",
       "width": "48.5294%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.13",
-    "votesCount": "268",
+    "score": "4.12",
+    "votesCount": "272",
     "breakdown": {
-      "love": "106",
-      "like": "114",
-      "ok": "28",
+      "love": "107",
+      "like": "116",
+      "ok": "29",
       "dislike": "16",
       "hate": "4"
     }
   },
   "seasons": {
-    "winter": "30",
-    "spring": "131",
-    "summer": "87",
+    "winter": "31",
+    "spring": "134",
+    "summer": "88",
     "autumn": "45",
-    "day": "123",
+    "day": "125",
     "night": "42"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Gül Suyu",
+      "Misk",
+      "Yasemin"
+    ]
   },
   "longevity": {
     "veryWeak": "15",
     "weak": "53",
-    "moderate": "50",
+    "moderate": "51",
     "longLasting": "14",
     "eternal": "4"
   },
   "sillage": {
     "intimate": "34",
-    "moderate": "50",
+    "moderate": "51",
     "strong": "11",
     "enormous": "8"
   },
   "genderVoting": {
-    "female": "99",
+    "female": "100",
     "moreFemale": "20",
     "unisex": "4",
     "moreMale": "0",
@@ -78,8 +111,8 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "4",
-    "fair": "28",
-    "goodValue": "52",
+    "fair": "29",
+    "goodValue": "53",
     "greatValue": "38"
   },
   "remindsMeOf": [
@@ -124,16 +157,16 @@
       "name": "Rose Violet"
     },
     {
-      "brand": "PARİS HİLTON",
-      "name": "Rosé Rush"
+      "brand": "FİORUCCİ",
+      "name": "Miss Fiorucci Only Love"
     },
     {
       "brand": "OSCAR DE LA RENTA",
       "name": "Rosamor"
     },
     {
-      "brand": "FİORUCCİ",
-      "name": "Miss Fiorucci Only Love"
+      "brand": "PARİS HİLTON",
+      "name": "Rosé Rush"
     },
     {
       "brand": "KAİ",
@@ -150,16 +183,16 @@
       "name": "Chloé Eau de Parfum"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Hello Beautiful"
-    },
-    {
       "brand": "VİKTOR&ROLF",
       "name": "Flowerbomb"
     },
     {
       "brand": "DİOR",
       "name": "J'adore"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Bright Crystal"
     },
     {
       "brand": "CHANEL",
@@ -205,5 +238,6 @@
       "brand": "BRİTNEY SPEARS",
       "name": "Midnight Fantasy"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -11,11 +11,11 @@
   "description_enhanced": "Bath & Body Works markasının Pumpkin Picking parfümü, kadınlar için Odunsu Baharatlı bir kokudur. Pumpkin Picking, 2018 yılında piyasaya sürüldü. Kokuda Kabak, Elma suyu, Saman ve Tarçın notaları bulunur.",
   "mainAccords": [
     {
-      "name": "meyvemsi",
+      "name": "tatlı",
       "width": "100%"
     },
     {
-      "name": "tatlı",
+      "name": "meyvemsi",
       "width": "100%"
     },
     {
@@ -27,16 +27,44 @@
       "width": "65%"
     },
     {
-      "name": "tarçın",
+      "name": "taze baharatlı",
       "width": "61.8182%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "tarçın",
       "width": "61.8182%"
     },
     {
       "name": "sıcak baharatlı",
       "width": "55.4545%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -51,7 +79,7 @@
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "2",
     "spring": "0",
     "summer": "0",
     "autumn": "3",
@@ -61,7 +89,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kabak",
+      "Elma suyu",
+      "Saman",
+      "Tarçın"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -104,6 +138,10 @@
       "name": "Pumpkin Spice"
     },
     {
+      "brand": "DEMETER FRAGRANCE",
+      "name": "Pumpkin Pie"
+    },
+    {
       "brand": "ALT. FRAGRANCES",
       "name": "Pumpkin Spice Latte"
     },
@@ -114,10 +152,6 @@
     {
       "brand": "LE MONDE GOURMAND",
       "name": "Pumpkin Creme"
-    },
-    {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Pumpkin Pie"
     },
     {
       "brand": "DEMETER FRAGRANCE",
@@ -182,16 +216,20 @@
       "name": "La Vie Est Belle"
     },
     {
-      "brand": "SABRİNA CARPENTER",
-      "name": "Sweet Tooth Lemon Pie"
+      "brand": "BATH & BODY WORKS",
+      "name": "Marshmallow Pumpkin Latte"
+    },
+    {
+      "brand": "SNİF",
+      "name": "Coco Shimmy"
     },
     {
       "brand": "SABRİNA CARPENTER",
       "name": "Sweet Tooth"
     },
     {
-      "brand": "SNİF",
-      "name": "Coco Shimmy"
+      "brand": "SABRİNA CARPENTER",
+      "name": "Sweet Tooth Lemon Pie"
     },
     {
       "brand": "SNİF",
@@ -206,12 +244,9 @@
       "name": "Beach Nights"
     },
     {
-      "brand": "NOYZ",
-      "name": "Sh**ty Day"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Velvet Petals"
+      "brand": "BATH & BODY WORKS",
+      "name": "Warm Vanilla Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,16 +49,44 @@
     {
       "name": "misk",
       "width": "51%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.40",
-    "votesCount": "10",
+    "score": "3.17",
+    "votesCount": "12",
     "breakdown": {
       "love": "3",
       "like": "3",
       "ok": "0",
-      "dislike": "3",
+      "dislike": "5",
       "hate": "1"
     }
   },
@@ -86,13 +114,14 @@
       "Sandal ağacı",
       "Deri",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
     "weak": "2",
     "moderate": "0",
-    "longLasting": "3",
+    "longLasting": "4",
     "eternal": "0"
   },
   "sillage": {
@@ -102,7 +131,7 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "2",
+    "female": "3",
     "moreFemale": "2",
     "unisex": "0",
     "moreMale": "0",
@@ -194,5 +223,6 @@
       "brand": "THE 7 VİRTUES",
       "name": "Vanilla Woods"
     }
-  ]
+  ],
+  "comments": []
 }

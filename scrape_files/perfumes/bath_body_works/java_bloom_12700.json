@@ -1,7 +1,7 @@
 {
   "name": "Java Bloom Bath & Body Works",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Oriental",
+  "fragranceFamily": "Woody",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.12700.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Java-Bloom-12700.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Bath & Body Works markasının Java Bloom parfümü, kadınlar için Oryantal Vanilya bir kokudur. Java Bloom 2000larda piyasaya sürüldü. Kokuda Vanilya, Odunsu Notalar ve Kahve notaları bulunur.",
   "mainAccords": [
     {
-      "name": "vanilya",
+      "name": "odunsu",
       "width": "100%"
     },
     {
-      "name": "odunsu",
+      "name": "vanilya",
       "width": "100%"
     },
     {
@@ -29,6 +29,34 @@
     {
       "name": "pudralı",
       "width": "51%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Vanilya",
+      "Odunsu Notalar",
+      "Kahve"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -144,5 +177,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Velvet Tuberose"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,23 +16,51 @@
     },
     {
       "name": "kahve",
-      "width": "87.8261%"
+      "width": "91.2498%"
     },
     {
       "name": "tatlı",
-      "width": "85.6957%"
+      "width": "87.1668%"
     },
     {
       "name": "çiçeksi",
-      "width": "81.7391%"
+      "width": "85.4166%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "64.6957%"
+      "width": "66.7499%"
     },
     {
       "name": "badem",
-      "width": "45.5217%"
+      "width": "46.6249%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -47,7 +75,7 @@
     }
   },
   "seasons": {
-    "winter": "58",
+    "winter": "59",
     "spring": "18",
     "summer": "7",
     "autumn": "55",
@@ -57,25 +85,30 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Erik",
+      "Kahve",
+      "Badem çiçeği"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
     "weak": "6",
-    "moderate": "30",
+    "moderate": "31",
     "longLasting": "12",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "10",
-    "moderate": "30",
+    "moderate": "31",
     "strong": "3",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "21",
     "moreFemale": "32",
-    "unisex": "10",
+    "unisex": "12",
     "moreMale": "0",
     "male": "0"
   },
@@ -83,7 +116,7 @@
     "wayOverpriced": "0",
     "overpriced": "2",
     "fair": "13",
-    "goodValue": "23",
+    "goodValue": "24",
     "greatValue": "21"
   },
   "remindsMeOf": [
@@ -178,28 +211,24 @@
       "name": "Flowerbomb"
     },
     {
-      "brand": "JUİCY COUTURE",
-      "name": "Viva la Juicy"
-    },
-    {
       "brand": "ARİANA GRANDE",
       "name": "Cloud"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Guilty As Fig"
     },
     {
       "brand": "SABRİNA CARPENTER",
       "name": "Sweet Tooth"
     },
     {
-      "brand": "VALENTİNO",
-      "name": "Valentino Donna Born In Roma"
+      "brand": "BATH & BODY WORKS",
+      "name": "Guilty As Fig"
     },
     {
       "brand": "KAYALİ FRAGRANCES",
       "name": "Vanilla | 28"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born In Roma"
     },
     {
       "brand": "BİLLİE EİLİSH",
@@ -208,6 +237,11 @@
     {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Devotion"
     }
-  ]
+  ],
+  "comments": []
 }

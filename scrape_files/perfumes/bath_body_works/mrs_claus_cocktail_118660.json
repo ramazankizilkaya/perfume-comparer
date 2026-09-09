@@ -23,16 +23,44 @@
       "width": "78.1765%"
     },
     {
-      "name": "taze",
+      "name": "odunsu",
       "width": "62.9412%"
     },
     {
-      "name": "odunsu",
+      "name": "taze",
       "width": "62.9412%"
     },
     {
       "name": "ekşi",
       "width": "54.2942%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -47,7 +75,7 @@
     }
   },
   "seasons": {
-    "winter": "5",
+    "winter": "6",
     "spring": "8",
     "summer": "12",
     "autumn": "2",
@@ -57,7 +85,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Narenciye",
+      "Kızılcık",
+      "Nar"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -139,6 +172,10 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Firecracker Pop"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Gingham Fresh"
     },
     {
@@ -163,10 +200,6 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Vanilla Romance"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Vanilla Ease"
     },
     {
@@ -185,5 +218,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Vanilla Café"
     }
-  ]
+  ],
+  "comments": []
 }

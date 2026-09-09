@@ -29,21 +29,49 @@
     {
       "name": "tatlı",
       "width": "36%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.28",
-    "votesCount": "29",
+    "score": "4.27",
+    "votesCount": "30",
     "breakdown": {
       "love": "16",
-      "like": "7",
+      "like": "8",
       "ok": "5",
       "dislike": "0",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "15",
+    "winter": "17",
     "spring": "11",
     "summer": "9",
     "autumn": "10",
@@ -51,13 +79,13 @@
     "night": "8"
   },
   "notes": {
-    "top": [
-      "Gül"
-    ],
-    "middle": [
+    "top": [],
+    "middle": [],
+    "base": [],
+    "all": [
+      "Gül",
       "Kakao"
-    ],
-    "base": []
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -122,6 +150,14 @@
       "name": "Inner Angel"
     },
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Fruity Musk"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Love Unleashed"
+    },
+    {
       "brand": "BURBERRY",
       "name": "Burberry Her"
     },
@@ -142,16 +178,8 @@
       "name": "Cereal Milk Soft Serve"
     },
     {
-      "brand": "JUİCY COUTURE",
-      "name": "Viva la Juicy"
-    },
-    {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Blueberry Bundt Cake"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -169,5 +197,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Virgo"
     }
-  ]
+  ],
+  "comments": []
 }

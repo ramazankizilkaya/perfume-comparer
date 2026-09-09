@@ -17,13 +17,37 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.68",
-    "votesCount": "130",
+    "votesCount": "131",
     "breakdown": {
-      "love": "98",
+      "love": "99",
       "like": "26",
       "ok": "2",
       "dislike": "4",
@@ -31,35 +55,38 @@
     }
   },
   "seasons": {
-    "winter": "64",
+    "winter": "65",
     "spring": "38",
     "summer": "31",
-    "autumn": "43",
+    "autumn": "44",
     "day": "38",
-    "night": "64"
+    "night": "66"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Agar ağacı (Oud)"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "2",
     "moderate": "5",
-    "longLasting": "28",
-    "eternal": "52"
+    "longLasting": "29",
+    "eternal": "53"
   },
   "sillage": {
     "intimate": "8",
     "moderate": "5",
     "strong": "26",
-    "enormous": "50"
+    "enormous": "51"
   },
   "genderVoting": {
     "female": "2",
     "moreFemale": "1",
-    "unisex": "23",
+    "unisex": "24",
     "moreMale": "14",
     "male": "25"
   },
@@ -68,7 +95,7 @@
     "overpriced": "4",
     "fair": "2",
     "goodValue": "14",
-    "greatValue": "17"
+    "greatValue": "18"
   },
   "remindsMeOf": [
     {
@@ -94,6 +121,10 @@
     {
       "brand": "AJMAL",
       "name": "Saif Al Hind"
+    },
+    {
+      "brand": "OMANLUXURY",
+      "name": "Dejan"
     },
     {
       "brand": "AJMAL",
@@ -161,5 +192,6 @@
       "brand": "LALİQUE",
       "name": "Encre Noire"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -6,36 +6,64 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.133046.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Sea-Salt-133046.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Sea Salt parfümü, kadınlar ve erkekler için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Sea Salt, 2026 yılında piyasaya sürüldü. Kokuda Deniz Tuzu, Misk, Yasemin ve Kavun notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Sea Salt parfümü, kadınlar ve erkekler için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Sea Salt, 2026 yılında piyasaya sürüldü. Kokuda Deniz Tuzu, Misk, Yasemin ve Kavun notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Sea Salt parfümü, kadınlar ve erkekler için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Sea Salt, 2026 yılında piyasaya sürüldü. Kokuda Deniz Tuzu, Misk, Yasemin ve Kavun notaları bulunur.",
+  "description": "Bath & Body Works markasının Sea Salt parfümü, kadınlar ve erkekler için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Sea Salt, 2026 yılında piyasaya sürüldü. Kokuda Deniz Tuzu, Misk, Kavun ve Yasemin notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Sea Salt parfümü, kadınlar ve erkekler için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Sea Salt, 2026 yılında piyasaya sürüldü. Kokuda Deniz Tuzu, Misk, Kavun ve Yasemin notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Sea Salt parfümü, kadınlar ve erkekler için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Sea Salt, 2026 yılında piyasaya sürüldü. Kokuda Deniz Tuzu, Misk, Kavun ve Yasemin notaları bulunur.",
   "mainAccords": [
     {
       "name": "tuzlu",
       "width": "100%"
     },
     {
-      "name": "misk",
-      "width": "88.3332%"
-    },
-    {
       "name": "deniz",
       "width": "65%"
     },
     {
-      "name": "pudralı",
-      "width": "59.1666%"
+      "name": "misk",
+      "width": "59.1667%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "59.1666%"
+      "width": "44.5834%"
+    },
+    {
+      "name": "pudralı",
+      "width": "44.5834%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.69",
-    "votesCount": "13",
+    "score": "3.87",
+    "votesCount": "15",
     "breakdown": {
-      "love": "3",
+      "love": "5",
       "like": "4",
       "ok": "5",
       "dislike": "1",
@@ -43,17 +71,23 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "2",
-    "summer": "6",
+    "summer": "8",
     "autumn": "0",
-    "day": "5",
+    "day": "6",
     "night": "0"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Deniz Tuzu",
+      "Misk",
+      "Kavun",
+      "Yasemin"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -154,20 +188,28 @@
       "name": "Libre"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Yara Candy"
+      "brand": "BATH & BODY WORKS",
+      "name": "Sweetest Song"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Imperfect Beauty"
     },
     {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "Beach Walk"
     },
     {
-      "brand": "HERETİC PARFUM",
-      "name": "Nosferatu"
-    },
-    {
       "brand": "IMAGİNARY AUTHORS",
       "name": "Fox in the Flowerbed"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Strawberry Flirt"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Crisp Pear"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -178,20 +220,12 @@
       "name": "Wild Vanilla"
     },
     {
-      "brand": "KAYALİ FRAGRANCES",
-      "name": "Vanilla Candy Rock Sugar | 42"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Eclaire Pistache"
+      "brand": "BATH & BODY WORKS",
+      "name": "Peepin’ It Real"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Crisp Pear"
-    },
-    {
-      "brand": "CİRQUE DU SOLEİL",
-      "name": "L'eau de Parfum"
+      "name": "Vampire Blood"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -201,5 +235,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Covered In Roses"
     }
-  ]
+  ],
+  "comments": []
 }

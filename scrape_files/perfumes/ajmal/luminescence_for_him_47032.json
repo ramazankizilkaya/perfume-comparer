@@ -11,11 +11,11 @@
   "description_enhanced": "Ajmal markasının Luminescence for Him parfümü, erkekler için Odunsu Aromatik bir kokudur. Luminescence for Him, 2017 yılında piyasaya sürüldü. Üst notalar: Elma ve Bergamot; orta notalar: Sardunya ve Lavanta; alt notalar Amber, Vetiver ve Misk.",
   "mainAccords": [
     {
-      "name": "aromatik",
+      "name": "taze baharatlı",
       "width": "100%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "aromatik",
       "width": "100%"
     },
     {
@@ -27,11 +27,11 @@
       "width": "68.6207%"
     },
     {
-      "name": "amber",
+      "name": "lavanta",
       "width": "61.0345%"
     },
     {
-      "name": "lavanta",
+      "name": "amber",
       "width": "61.0345%"
     },
     {
@@ -49,6 +49,30 @@
     {
       "name": "odunsu",
       "width": "53.7931%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,7 +107,8 @@
       "Amber",
       "Vetiver",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -215,5 +240,6 @@
       "brand": "RASASİ",
       "name": "Shuhrah Pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

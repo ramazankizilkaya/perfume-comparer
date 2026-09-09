@@ -29,6 +29,30 @@
     {
       "name": "taze baharatlı",
       "width": "38.4%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +77,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kamboçya Oud",
+      "Hint Oud"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -102,6 +130,10 @@
       "name": "Dahn Al Oudh Moattaq"
     },
     {
+      "brand": "CHANEL",
+      "name": "Egoiste"
+    },
+    {
       "brand": "DONNA KARAN",
       "name": "Black Cashmere"
     },
@@ -110,12 +142,12 @@
       "name": "Hasu-no-Hana"
     },
     {
-      "brand": "EMANUEL UNGARO",
-      "name": "Diva"
-    },
-    {
       "brand": "AJMAL",
       "name": "Dahn Oudh Al Shams"
+    },
+    {
+      "brand": "EMANUEL UNGARO",
+      "name": "Diva"
     },
     {
       "brand": "ROCHAS",
@@ -134,20 +166,17 @@
       "name": "Bal à Versailles"
     },
     {
-      "brand": "JEAN PATOU",
-      "name": "1000"
-    },
-    {
       "brand": "JEAN-LOUİS SCHERRER",
       "name": "Jean-Louis Scherrer"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Mitsouko Eau de Toilette"
+      "brand": "JEAN PATOU",
+      "name": "1000"
     },
     {
-      "brand": "CHANEL",
-      "name": "Coco Eau de Parfum"
+      "brand": "GUERLAİN",
+      "name": "Mitsouko Eau de Toilette"
     }
-  ]
+  ],
+  "comments": []
 }

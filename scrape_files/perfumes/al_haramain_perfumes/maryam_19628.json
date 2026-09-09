@@ -1,7 +1,7 @@
 {
   "name": "Maryam Al Haramain Perfumes",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Floral",
+  "fragranceFamily": "Gourmand",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.19628.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Al-Haramain-Perfumes/Maryam-19628.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Al Haramain Perfumes markasının Maryam parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Kokuda Çiçeksi Notalar ve Meyvemsi notalar notaları bulunur.",
   "mainAccords": [
     {
-      "name": "çiçeksi",
+      "name": "meyvemsi",
       "width": "100%"
     },
     {
-      "name": "meyvemsi",
+      "name": "çiçeksi",
       "width": "100%"
     },
     {
@@ -25,6 +25,34 @@
     {
       "name": "ekşi",
       "width": "33.5%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -49,7 +77,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Çiçeksi Notalar",
+      "Meyvemsi notalar"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -140,5 +172,6 @@
       "brand": "SARAH JESSİCA PARKER",
       "name": "Lovely"
     }
-  ]
+  ],
+  "comments": []
 }

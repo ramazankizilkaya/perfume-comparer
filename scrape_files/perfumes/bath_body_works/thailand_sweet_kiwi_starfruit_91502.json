@@ -29,13 +29,41 @@
     {
       "name": "ekşi",
       "width": "38.6874%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.20",
-    "votesCount": "153",
+    "score": "4.21",
+    "votesCount": "155",
     "breakdown": {
-      "love": "70",
+      "love": "72",
       "like": "51",
       "ok": "25",
       "dislike": "6",
@@ -43,17 +71,22 @@
     }
   },
   "seasons": {
-    "winter": "3",
-    "spring": "37",
-    "summer": "90",
+    "winter": "4",
+    "spring": "39",
+    "summer": "91",
     "autumn": "1",
-    "day": "72",
+    "day": "74",
     "night": "4"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kivi",
+      "Yıldız meyvesi (Karambola)",
+      "Güneş notaları"
+    ]
   },
   "longevity": {
     "veryWeak": "11",
@@ -112,12 +145,8 @@
       "name": "Fruit du Dragon"
     },
     {
-      "brand": "THE BODY SHOP",
-      "name": "Clementine & Starfruit"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Pure Paradise"
+      "brand": "LAURA BİAGİOTTİ",
+      "name": "Laura"
     },
     {
       "brand": "PLAYBOY",
@@ -136,8 +165,12 @@
       "name": "Love Always Wins"
     },
     {
-      "brand": "LAURA BİAGİOTTİ",
-      "name": "Laura"
+      "brand": "THE BODY SHOP",
+      "name": "Clementine & Starfruit"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Aqua Allegoria Bergamote Calabria"
     },
     {
       "brand": "ESCADA",
@@ -156,6 +189,10 @@
     {
       "brand": "BRİTNEY SPEARS",
       "name": "Fantasy"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Her"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -191,19 +228,16 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Cotton Candy Clouds"
+      "name": "At the Beach"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Viva Vanilla"
     },
     {
-      "brand": "ARİANA GRANDE",
-      "name": "Cloud"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Cozy Vanilla Bourbon"
     }
-  ]
+  ],
+  "comments": []
 }

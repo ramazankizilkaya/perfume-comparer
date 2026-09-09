@@ -29,6 +29,34 @@
     {
       "name": "tatlı",
       "width": "44.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Dondurma külahı",
+      "Yaban meyveleri",
+      "Vanilya"
+    ]
   },
   "longevity": {
     "veryWeak": "6",
@@ -96,16 +129,16 @@
       "name": "Accident À La Vanille - Crème De La Berry"
     },
     {
+      "brand": "SNİF",
+      "name": "Frooty Call Body Mist"
+    },
+    {
       "brand": "MYKONOS",
       "name": "Berry Caramel Pancake"
     },
     {
       "brand": "ARİANA GRANDE",
       "name": "Angels Kiss"
-    },
-    {
-      "brand": "SNİF",
-      "name": "Frooty Call Body Mist"
     },
     {
       "brand": "SNİF",
@@ -205,5 +238,6 @@
       "brand": "ARİANA GRANDE",
       "name": "Cloud"
     }
-  ]
+  ],
+  "comments": []
 }

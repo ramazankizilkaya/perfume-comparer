@@ -19,11 +19,11 @@
       "width": "79%"
     },
     {
-      "name": "taze",
+      "name": "meyvemsi",
       "width": "48.6667%"
     },
     {
-      "name": "meyvemsi",
+      "name": "taze",
       "width": "48.6667%"
     },
     {
@@ -33,21 +33,45 @@
     {
       "name": "çiçeksi",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.67",
-    "votesCount": "6",
+    "score": "4.25",
+    "votesCount": "8",
     "breakdown": {
-      "love": "4",
+      "love": "5",
       "like": "2",
       "ok": "0",
       "dislike": "0",
-      "hate": "0"
+      "hate": "1"
     }
   },
   "seasons": {
-    "winter": "5",
+    "winter": "6",
     "spring": "5",
     "summer": "1",
     "autumn": "4",
@@ -69,26 +93,27 @@
       "Sedir",
       "Paçuli",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
     "moderate": "2",
-    "longLasting": "3",
+    "longLasting": "4",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
     "moderate": "2",
-    "strong": "1",
+    "strong": "2",
     "enormous": "1"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
     "unisex": "3",
-    "moreMale": "1",
+    "moreMale": "2",
     "male": "0"
   },
   "priceVoting": {
@@ -96,9 +121,13 @@
     "overpriced": "0",
     "fair": "0",
     "goodValue": "1",
-    "greatValue": "1"
+    "greatValue": "2"
   },
   "remindsMeOf": [
+    {
+      "brand": "STRANGELOVE NYC",
+      "name": "Dead of Night"
+    },
     {
       "brand": "EMİRATES PRİDE PERFUMES",
       "name": "White Oud"
@@ -110,20 +139,20 @@
       "name": "Qasida Dahabia"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "CK One"
-    },
-    {
       "brand": "SWİSS ARABİAN",
       "name": "Oud 01"
     },
     {
-      "brand": "AJMAL",
-      "name": "Amir One"
+      "brand": "LOOTAH PERFUMES",
+      "name": "Silky Oud"
     },
     {
       "brand": "AHMED AL MAGHRİBİ",
       "name": "Zumar"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Amir One"
     },
     {
       "brand": "DİOR",
@@ -138,16 +167,8 @@
       "name": "Shay But Not Oud"
     },
     {
-      "brand": "AJMAL",
-      "name": "Wisal"
-    },
-    {
       "brand": "THE MERCHANT OF VENİCE",
       "name": "Venetian Blue"
-    },
-    {
-      "brand": "ARABİAN OUD",
-      "name": "Jabal Cotton"
     },
     {
       "brand": "AJMAL",
@@ -158,6 +179,14 @@
       "name": "Tobacco Body Oud"
     },
     {
+      "brand": "KHALTAT",
+      "name": "Gra"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Jabal Cotton"
+    },
+    {
       "brand": "DİOR",
       "name": "Oud Ispahan"
     },
@@ -165,5 +194,6 @@
       "brand": "AL-JAZEERA PERFUMES",
       "name": "Alligator"
     }
-  ]
+  ],
+  "comments": []
 }

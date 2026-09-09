@@ -15,20 +15,48 @@
       "width": "100%"
     },
     {
+      "name": "gül",
+      "width": "65.0001%"
+    },
+    {
       "name": "pudralı",
       "width": "65.0001%"
     },
     {
-      "name": "gül",
-      "width": "65.0001%"
+      "name": "çiçeksi",
+      "width": "40.5001%"
     },
     {
       "name": "animalik",
       "width": "40.5001%"
     },
     {
-      "name": "çiçeksi",
-      "width": "40.5001%"
+      "name": "Şurada ara",
+      "width": ""
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,7 +88,8 @@
     "base": [
       "Agar ağacı",
       "Oud"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -97,6 +126,10 @@
   ],
   "peopleAlsoLike": [
     {
+      "brand": "LORENZO VİLLORESİ",
+      "name": "Teint de Neige Eau de Parfum"
+    },
+    {
       "brand": "GLOSSİER",
       "name": "You"
     },
@@ -113,7 +146,7 @@
       "name": "Promise"
     },
     {
-      "brand": "MATİERE PREMİERE",
+      "brand": "MATİÈRE PREMİÈRE",
       "name": "Radical Rose"
     },
     {
@@ -123,14 +156,6 @@
     {
       "brand": "DİOR",
       "name": "Oud Ispahan"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Oud Nude"
-    },
-    {
-      "brand": "STRANGELOVE NYC",
-      "name": "Dead Of Night Oil"
     },
     {
       "brand": "CHANEL",
@@ -145,16 +170,21 @@
       "name": "Purple Oud"
     },
     {
+      "brand": "DİOR",
+      "name": "Vanilla Diorama"
+    },
+    {
       "brand": "LOUİS VUİTTON",
       "name": "Ombre Nomade"
     },
     {
-      "brand": "MAİSON CRİVELLİ",
-      "name": "Ambre Chromatique"
-    },
-    {
       "brand": "GUERLAİN",
       "name": "Néroli Outrenoir"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "Must de Cartier Gold"
     }
-  ]
+  ],
+  "comments": []
 }

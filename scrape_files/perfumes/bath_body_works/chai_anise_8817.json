@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.8817.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Chai-Anise-8817.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Chai Anise parfümü, kadınlar için Aromatik Baharatlı bir kokudur. Kokuda Baharatlı notalar, Pelin otu ve Kakule notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Chai Anise parfümü, kadınlar için Aromatik Baharatlı bir kokudur. Kokuda Baharatlı notalar, Pelin otu ve Kakule notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Chai Anise parfümü, kadınlar için Aromatik Baharatlı bir kokudur. Kokuda Baharatlı notalar, Pelin otu ve Kakule notaları bulunur.",
+  "description": "Bath & Body Works markasının Chai Anise parfümü, kadınlar için Aromatik Baharatlı bir kokudur. Kokuda Baharatlar, Pelin otu ve Kakule notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Chai Anise parfümü, kadınlar için Aromatik Baharatlı bir kokudur. Kokuda Baharatlar, Pelin otu ve Kakule notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Chai Anise parfümü, kadınlar için Aromatik Baharatlı bir kokudur. Kokuda Baharatlar, Pelin otu ve Kakule notaları bulunur.",
   "mainAccords": [
     {
       "name": "sıcak baharatlı",
@@ -29,6 +29,34 @@
     {
       "name": "acı",
       "width": "42.1333%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Baharatlar",
+      "Pelin otu",
+      "Kakule"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -165,5 +198,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Coconut Lime Verbena"
     }
-  ]
+  ],
+  "comments": []
 }

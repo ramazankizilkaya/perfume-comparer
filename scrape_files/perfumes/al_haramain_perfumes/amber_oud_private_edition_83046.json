@@ -49,26 +49,54 @@
     {
       "name": "sulu",
       "width": "48.225%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.97",
-    "votesCount": "109",
+    "votesCount": "117",
     "breakdown": {
-      "love": "55",
-      "like": "28",
-      "ok": "7",
+      "love": "58",
+      "like": "30",
+      "ok": "10",
       "dislike": "6",
       "hate": "13"
     }
   },
   "seasons": {
-    "winter": "53",
-    "spring": "51",
-    "summer": "35",
-    "autumn": "50",
-    "day": "42",
-    "night": "51"
+    "winter": "55",
+    "spring": "52",
+    "summer": "36",
+    "autumn": "51",
+    "day": "43",
+    "night": "52"
   },
   "notes": {
     "top": [
@@ -88,34 +116,35 @@
       "Misk",
       "Vanilya",
       "Odunsu Notalar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "5",
     "weak": "0",
     "moderate": "11",
-    "longLasting": "32",
+    "longLasting": "33",
     "eternal": "16"
   },
   "sillage": {
     "intimate": "6",
     "moderate": "11",
-    "strong": "33",
+    "strong": "34",
     "enormous": "9"
   },
   "genderVoting": {
     "female": "6",
     "moreFemale": "5",
-    "unisex": "22",
+    "unisex": "23",
     "moreMale": "28",
     "male": "18"
   },
   "priceVoting": {
     "wayOverpriced": "5",
     "overpriced": "5",
-    "fair": "7",
+    "fair": "10",
     "goodValue": "26",
-    "greatValue": "10"
+    "greatValue": "11"
   },
   "remindsMeOf": [
     {
@@ -175,8 +204,8 @@
       "name": "Jade"
     },
     {
-      "brand": "ORİENTİCA PREMİUM",
-      "name": "Exclusive Royal Amber"
+      "brand": "SUPERZ.",
+      "name": "Whoosh"
     }
   ],
   "peopleAlsoLike": [
@@ -205,6 +234,10 @@
       "name": "Qaed Al Fursan"
     },
     {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Stronger With You Intensely"
+    },
+    {
       "brand": "AFNAN",
       "name": "9pm"
     },
@@ -214,31 +247,28 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Art Of Universe"
+      "name": "Ameer Al Oudh Intense Oud"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male Elixir"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad Bourbon"
+    },
+    {
       "brand": "RASASİ",
       "name": "Hawas Ice"
     },
     {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Y Eau de Parfum"
+    },
+    {
       "brand": "AL HARAMAİN PERFUMES",
       "name": "Amber Oud Dubai Night"
-    },
-    {
-      "brand": "AFNAN",
-      "name": "Turathi Blue"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Intense Man"
-    },
-    {
-      "brand": "AFNAN",
-      "name": "Supremacy Not Only Intense"
     }
-  ]
+  ],
+  "comments": []
 }

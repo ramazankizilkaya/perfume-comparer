@@ -49,13 +49,45 @@
     {
       "name": "gül",
       "width": "47.7692%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "4.48",
-    "votesCount": "52",
+    "score": "4.50",
+    "votesCount": "54",
     "breakdown": {
-      "love": "32",
+      "love": "34",
       "like": "15",
       "ok": "4",
       "dislike": "0",
@@ -63,12 +95,12 @@
     }
   },
   "seasons": {
-    "winter": "23",
-    "spring": "33",
+    "winter": "25",
+    "spring": "34",
     "summer": "26",
-    "autumn": "31",
-    "day": "28",
-    "night": "31"
+    "autumn": "34",
+    "day": "30",
+    "night": "32"
   },
   "notes": {
     "top": [
@@ -84,18 +116,19 @@
       "Vanilya",
       "Sedir",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "2",
-    "moderate": "18",
+    "moderate": "19",
     "longLasting": "9",
     "eternal": "1"
   },
   "sillage": {
     "intimate": "1",
-    "moderate": "18",
+    "moderate": "19",
     "strong": "8",
     "enormous": "0"
   },
@@ -103,14 +136,14 @@
     "female": "1",
     "moreFemale": "0",
     "unisex": "1",
-    "moreMale": "19",
+    "moreMale": "20",
     "male": "11"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "4",
-    "goodValue": "15",
+    "goodValue": "16",
     "greatValue": "10"
   },
   "remindsMeOf": [
@@ -127,16 +160,12 @@
       "name": "Eros"
     },
     {
-      "brand": "FRAGRANCE WORLD",
-      "name": "Des Tentations Flame"
-    },
-    {
-      "brand": "ALFRED DUNHİLL",
-      "name": "Icon Racing Red"
-    },
-    {
       "brand": "RİSALA",
       "name": "Ameer"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Des Tentations Flame"
     }
   ],
   "peopleAlsoLike": [
@@ -153,6 +182,10 @@
       "name": "Ishq Al Shuyukh Silver"
     },
     {
+      "brand": "RASASİ",
+      "name": "Hawas Ice"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Vintage Radio"
     },
@@ -165,10 +198,6 @@
       "name": "Club De Nuit Urban Elixir"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas for Him"
-    },
-    {
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
     },
@@ -177,16 +206,16 @@
       "name": "Turathi Blue"
     },
     {
-      "brand": "ARMAF",
-      "name": "Odyssey Homme"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Najdia Intense"
     },
     {
       "brand": "AFNAN",
       "name": "9pm"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Odyssey Homme"
     },
     {
       "brand": "ARMAF",
@@ -200,5 +229,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Asad Bourbon"
     }
-  ]
+  ],
+  "comments": []
 }

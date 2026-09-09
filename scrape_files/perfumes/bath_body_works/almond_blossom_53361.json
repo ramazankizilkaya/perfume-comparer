@@ -41,31 +41,68 @@
     {
       "name": "laktonik",
       "width": "47.0625%"
+    },
+    {
+      "name": "Online satın alın 35 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "5",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "4.25",
-    "votesCount": "279",
+    "score": "4.24",
+    "votesCount": "280",
     "breakdown": {
-      "love": "135",
-      "like": "98",
-      "ok": "27",
+      "love": "134",
+      "like": "99",
+      "ok": "28",
       "dislike": "18",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "87",
-    "spring": "78",
-    "summer": "39",
-    "autumn": "107",
-    "day": "101",
-    "night": "52"
+    "winter": "88",
+    "spring": "80",
+    "summer": "40",
+    "autumn": "109",
+    "day": "102",
+    "night": "53"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Badem",
+      "Orkide",
+      "Misk"
+    ]
   },
   "longevity": {
     "veryWeak": "18",
@@ -90,7 +127,7 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "4",
-    "fair": "27",
+    "fair": "28",
     "goodValue": "43",
     "greatValue": "43"
   },
@@ -136,6 +173,10 @@
       "name": "Eau Gourmande Ambre Vanille"
     },
     {
+      "brand": "MUGLER",
+      "name": "Angel Blush"
+    },
+    {
       "brand": "THE DİFFERENT COMPANY",
       "name": "Pure eVe"
     },
@@ -150,10 +191,6 @@
     {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Honey & Crocus"
     }
   ],
   "peopleAlsoLike": [
@@ -202,12 +239,12 @@
       "name": "Pink Sugar"
     },
     {
-      "brand": "VALENTİNO",
-      "name": "Valentino Donna Born In Roma"
-    },
-    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born In Roma"
     },
     {
       "brand": "JUİCY COUTURE",
@@ -217,5 +254,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Vanilla Bean Noel"
     }
-  ]
+  ],
+  "comments": []
 }

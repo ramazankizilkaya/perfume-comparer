@@ -29,6 +29,34 @@
     {
       "name": "yeşil",
       "width": "47.164%"
+    },
+    {
+      "name": "Online satın alın 9 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "6",
+    "winter": "7",
     "spring": "74",
     "summer": "67",
     "autumn": "17",
@@ -53,7 +81,15 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Yasemin",
+      "Neroli",
+      "Petitgrain",
+      "Limon",
+      "Bergamot",
+      "Mandalina"
+    ]
   },
   "longevity": {
     "veryWeak": "6",
@@ -120,6 +156,10 @@
       "name": "Go Naked Perfume Oil"
     },
     {
+      "brand": "GENYUM",
+      "name": "Musician"
+    },
+    {
       "brand": "DİOR",
       "name": "Miss Dior Cherie L'Eau"
     },
@@ -138,10 +178,6 @@
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
       "name": "Oxford"
-    },
-    {
-      "brand": "NASOMATTO",
-      "name": "Narcotic Venus"
     }
   ],
   "peopleAlsoLike": [
@@ -205,5 +241,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Cinéma"
     }
-  ]
+  ],
+  "comments": []
 }

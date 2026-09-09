@@ -2,7 +2,7 @@
   "name": "Oud Save The King Extrait Atkinsons",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Leather",
-  "concentration": "Extrait",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.55989.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Atkinsons/Oud-Save-The-King-Extrait-55989.html",
   "brand": "Atkinsons parfüm ve kolonya",
@@ -33,6 +33,34 @@
     {
       "name": "dumanlı",
       "width": "51%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -70,33 +98,38 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "3",
+    "longLasting": "1",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "3",
+    "strong": "4",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "2",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ATKİNSONS",
+      "name": "Oud Save The King"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BVLGARİ",
@@ -123,12 +156,12 @@
       "name": "Custom"
     },
     {
-      "brand": "NASOMATTO",
-      "name": "Baraonda"
-    },
-    {
       "brand": "FERRARİ",
       "name": "Noble Fig"
+    },
+    {
+      "brand": "NASOMATTO",
+      "name": "Baraonda"
     },
     {
       "brand": "CREED",
@@ -155,8 +188,9 @@
       "name": "XJ 1861 Naxos"
     },
     {
-      "brand": "FERRARİ",
-      "name": "Radiant Bergamot"
+      "brand": "HOUBİGANT",
+      "name": "Fougere Royale (2010)"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -35,11 +35,11 @@
       "width": "47.7966%"
     },
     {
-      "name": "alkol",
+      "name": "odunsu",
       "width": "46.6102%"
     },
     {
-      "name": "odunsu",
+      "name": "alkol",
       "width": "46.6102%"
     }
   ],
@@ -78,49 +78,37 @@
     "base": [
       "Misk",
       "Votka"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "4",
-    "moderate": "2",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "2",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "6",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "4",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "AVON",
-      "name": "Sweet Sugar Plum & Vanille"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Golden Berry Mistletoe"
-    },
-    {
-      "brand": "PACİFİCA",
-      "name": "Himalayan Patchouli Berry"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -182,5 +170,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Cotton Candy Clouds"
     }
-  ]
+  ],
+  "comments": []
 }

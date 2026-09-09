@@ -49,6 +49,30 @@
     {
       "name": "yeşil",
       "width": "57%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,7 +108,8 @@
     "base": [
       "Misk",
       "Tonka fasulyesi"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -119,5 +144,6 @@
       "brand": "DİOR",
       "name": "Sauvage"
     }
-  ]
+  ],
+  "comments": []
 }

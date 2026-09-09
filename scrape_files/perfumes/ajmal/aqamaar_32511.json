@@ -49,6 +49,30 @@
     {
       "name": "odunsu",
       "width": "46.625%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +97,20 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Mandalina",
+      "Amber",
+      "Tarçın",
+      "Bergamot",
+      "Greyfurt",
+      "Pembe biber",
+      "Tonka fasulyesi",
+      "Vanilya",
+      "Sedir",
+      "Kakule",
+      "Muskat"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -134,10 +171,6 @@
       "name": "Narciso Rodriguez For Her"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Twilly d’Hermès"
-    },
-    {
       "brand": "ESTÉE LAUDER",
       "name": "Sensuous"
     },
@@ -172,6 +205,11 @@
     {
       "brand": "BURBERRY",
       "name": "Weekend for Women"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Organza"
     }
-  ]
+  ],
+  "comments": []
 }

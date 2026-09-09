@@ -27,11 +27,11 @@
       "width": "66.2125%"
     },
     {
-      "name": "ud",
+      "name": "pudralı",
       "width": "62.3326%"
     },
     {
-      "name": "pudralı",
+      "name": "ud",
       "width": "62.3326%"
     },
     {
@@ -49,13 +49,37 @@
     {
       "name": "taze baharatlı",
       "width": "54.2494%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.33",
-    "votesCount": "12",
+    "score": "4.38",
+    "votesCount": "13",
     "breakdown": {
-      "love": "7",
+      "love": "8",
       "like": "2",
       "ok": "3",
       "dislike": "0",
@@ -63,12 +87,12 @@
     }
   },
   "seasons": {
-    "winter": "4",
-    "spring": "5",
-    "summer": "6",
-    "autumn": "5",
-    "day": "6",
-    "night": "5"
+    "winter": "5",
+    "spring": "6",
+    "summer": "7",
+    "autumn": "6",
+    "day": "7",
+    "night": "6"
   },
   "notes": {
     "top": [
@@ -95,7 +119,8 @@
       "Yosun",
       "Tonka fasulyesi",
       "Vanilya"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -111,7 +136,7 @@
     "enormous": "3"
   },
   "genderVoting": {
-    "female": "1",
+    "female": "2",
     "moreFemale": "3",
     "unisex": "2",
     "moreMale": "0",
@@ -128,10 +153,6 @@
     {
       "brand": "ARMAF",
       "name": "Club de Nuit Intense"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Noir Extreme"
     },
     {
       "brand": "TOM FORD",
@@ -156,12 +177,12 @@
       "name": "Musk & Roses"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "Forbidden Sugar"
-    },
-    {
       "brand": "SWİSS ARABİAN",
       "name": "Shaghaf Oud Ahmar"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Forbidden Sugar"
     },
     {
       "brand": "AL HARAMAİN PERFUMES",
@@ -199,5 +220,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Si"
     }
-  ]
+  ],
+  "comments": []
 }

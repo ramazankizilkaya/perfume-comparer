@@ -2,7 +2,7 @@
   "name": "Maison Luxe Elixir Armaf",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Gourmand",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94313.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Armaf/Maison-Luxe-Elixir-94313.html",
   "brand": "Armaf parfüm ve kolonya",
@@ -45,6 +45,34 @@
     {
       "name": "amber",
       "width": "44.2276%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,7 +110,8 @@
       "Paçuli",
       "Olibanum",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -130,11 +159,11 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Ajwad Pink to Pink"
+      "name": "Art Of Nature I"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Art Of Nature I"
+      "name": "Ajwad Pink to Pink"
     },
     {
       "brand": "AROMATİX X FRENCH AVENUE",
@@ -147,12 +176,12 @@
       "name": "Supremacy Collector's Edition Pour Homme"
     },
     {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Precieux I"
-    },
-    {
       "brand": "JACQUES FATH",
       "name": "Fath de Fath (1993)"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Precieux I"
     },
     {
       "brand": "CHOPARD",
@@ -202,5 +231,6 @@
       "brand": "CARON",
       "name": "Aimez - Moi"
     }
-  ]
+  ],
+  "comments": []
 }

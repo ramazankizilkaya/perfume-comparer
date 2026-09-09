@@ -49,14 +49,38 @@
     {
       "name": "taze",
       "width": "55.0404%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.34",
-    "votesCount": "67",
+    "score": "4.33",
+    "votesCount": "69",
     "breakdown": {
       "love": "35",
-      "like": "22",
+      "like": "24",
       "ok": "8",
       "dislike": "2",
       "hate": "0"
@@ -82,7 +106,8 @@
     "base": [
       "Meyvemsi notalar",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -102,7 +127,7 @@
     "moreFemale": "2",
     "unisex": "39",
     "moreMale": "2",
-    "male": "5"
+    "male": "6"
   },
   "priceVoting": {
     "wayOverpriced": "1",
@@ -113,23 +138,27 @@
   },
   "remindsMeOf": [
     {
-      "brand": "FRENCH AVENUE",
-      "name": "Glorious Oud Royal Blanc"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Odyssey BA HA MAS"
-    },
-    {
-      "brand": "INİTİO PARFUMS PRİVES",
-      "name": "Musk Therapy"
+      "brand": "BORNTOSTANDOUT®",
+      "name": "Melon Malo"
     },
     {
       "brand": "MPF",
       "name": "The Voyager"
+    },
+    {
+      "brand": "FRAİS ET FRAİS",
+      "name": "Luxe Doré"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Odyssey BA HA MAS"
     }
   ],
   "peopleAlsoLike": [
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Kaaf"
+    },
     {
       "brand": "RASASİ",
       "name": "Hawas Ice"
@@ -141,6 +170,10 @@
     {
       "brand": "FRENCH AVENUE",
       "name": "Atlantis Extrait"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Vulcan Feu"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -159,12 +192,8 @@
       "name": "Khamrah"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Teriaq Intense"
-    },
-    {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Détour Noir"
+      "brand": "AFNAN",
+      "name": "Turathi Blue"
     },
     {
       "brand": "AFNAN",
@@ -175,10 +204,6 @@
       "name": "Rare Reef"
     },
     {
-      "brand": "RASASİ",
-      "name": "Daarej pour Homme"
-    },
-    {
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
     },
@@ -187,8 +212,9 @@
       "name": "Mashrabya"
     },
     {
-      "brand": "AHMED AL MAGHRİBİ",
-      "name": "Blu Oud"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah Qahwa"
     }
-  ]
+  ],
+  "comments": []
 }

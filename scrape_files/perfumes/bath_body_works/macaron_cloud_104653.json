@@ -17,13 +17,41 @@
     {
       "name": "karamel",
       "width": "76.6667%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.36",
-    "votesCount": "74",
+    "score": "4.38",
+    "votesCount": "76",
     "breakdown": {
-      "love": "36",
+      "love": "38",
       "like": "30",
       "ok": "7",
       "dislike": "1",
@@ -31,19 +59,20 @@
     }
   },
   "seasons": {
-    "winter": "28",
+    "winter": "29",
     "spring": "23",
     "summer": "16",
     "autumn": "20",
-    "day": "29",
+    "day": "30",
     "night": "21"
   },
   "notes": {
     "top": [],
-    "middle": [
+    "middle": [],
+    "base": [],
+    "all": [
       "Şeker pamuğu"
-    ],
-    "base": []
+    ]
   },
   "longevity": {
     "veryWeak": "4",
@@ -59,7 +88,7 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "25",
+    "female": "26",
     "moreFemale": "6",
     "unisex": "3",
     "moreMale": "0",
@@ -69,7 +98,7 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "7",
-    "goodValue": "14",
+    "goodValue": "15",
     "greatValue": "12"
   },
   "remindsMeOf": [
@@ -79,11 +108,11 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Boardwalk Taffy"
+      "name": "Whipped Berry Meringue"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Whipped Berry Meringue"
+      "name": "Boardwalk Taffy"
     },
     {
       "brand": "KAYALİ FRAGRANCES",
@@ -140,10 +169,6 @@
       "name": "Cheirosa '71"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Eclaire"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Cotton Candy Clouds"
     },
@@ -156,6 +181,10 @@
       "name": "Strawberry Pound Cake"
     },
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Strawberry Flirt"
+    },
+    {
       "brand": "KAYALİ FRAGRANCES",
       "name": "Yum Boujee Marshmallow | 81"
     },
@@ -164,8 +193,8 @@
       "name": "Milk Bar Birthday Cake"
     },
     {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Fantasy"
+      "brand": "PARIS CORNER",
+      "name": "Marshmallow Blush"
     },
     {
       "brand": "SOL DE JANEİRO",
@@ -195,5 +224,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Chocolate Amber Body Mist"
     }
-  ]
+  ],
+  "comments": []
 }

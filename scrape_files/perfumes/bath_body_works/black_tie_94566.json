@@ -27,11 +27,11 @@
       "width": "72.0001%"
     },
     {
-      "name": "amber",
+      "name": "pudralı",
       "width": "65%"
     },
     {
-      "name": "pudralı",
+      "name": "amber",
       "width": "65%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "yumuşak baharatlı",
       "width": "47.5002%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +101,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Tonka fasulyesi",
+      "Sandal ağacı",
+      "Adaçayı"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -114,16 +147,12 @@
       "name": "Khamrah"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Black Tie"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Vintage Radio"
     },
     {
       "brand": "AZZARO",
       "name": "The Most Wanted Parfum"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Vintage Radio"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -154,6 +183,10 @@
       "name": "Versace Pour Homme Dylan Blue"
     },
     {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Azraq"
+    },
+    {
       "brand": "AFNAN",
       "name": "Turathi Blue"
     },
@@ -162,12 +195,13 @@
       "name": "Hawas for Him"
     },
     {
-      "brand": "OAKCHA",
-      "name": "The Beekeeper"
-    },
-    {
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
+    },
+    {
+      "brand": "OAKCHA",
+      "name": "The Beekeeper"
     }
-  ]
+  ],
+  "comments": []
 }

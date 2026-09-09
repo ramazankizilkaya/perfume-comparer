@@ -29,6 +29,34 @@
     {
       "name": "bitkisel",
       "width": "38.7164%"
+    },
+    {
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,7 +89,8 @@
     ],
     "base": [
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -80,7 +109,7 @@
     "female": "0",
     "moreFemale": "0",
     "unisex": "1",
-    "moreMale": "5",
+    "moreMale": "6",
     "male": "1"
   },
   "priceVoting": {
@@ -138,16 +167,12 @@
       "name": "MYSLF Eau de Parfum"
     },
     {
-      "brand": "MİSSONİ",
-      "name": "Missoni Parfum Pour Homme"
-    },
-    {
       "brand": "ARD AL ZAAFARAN",
       "name": "Al Dirgham"
     },
     {
-      "brand": "LALİQUE",
-      "name": "Lalique White"
+      "brand": "MİSSONİ",
+      "name": "Missoni Wave"
     },
     {
       "brand": "AL HARAMAİN PERFUMES",
@@ -162,12 +187,12 @@
       "name": "Lalique White in Black"
     },
     {
-      "brand": "SALVATORE FERRAGAMO",
-      "name": "F by Ferragamo Black"
-    },
-    {
       "brand": "ARMAF",
       "name": "Legesi Homme"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Rifaaqat"
     },
     {
       "brand": "MAUBOUSSİN",
@@ -180,6 +205,11 @@
     {
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Toilette Intense"
     }
-  ]
+  ],
+  "comments": []
 }

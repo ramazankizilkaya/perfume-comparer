@@ -49,13 +49,41 @@
     {
       "name": "tatlı",
       "width": "52.7502%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": ""
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "2.67",
-    "votesCount": "6",
+    "score": "3.00",
+    "votesCount": "7",
     "breakdown": {
-      "love": "0",
+      "love": "1",
       "like": "2",
       "ok": "0",
       "dislike": "4",
@@ -84,25 +112,26 @@
     "base": [
       "Misk",
       "Beyaz Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
     "moderate": "0",
     "longLasting": "1",
-    "eternal": "1"
+    "eternal": "2"
   },
   "sillage": {
     "intimate": "0",
     "moderate": "0",
     "strong": "0",
-    "enormous": "1"
+    "enormous": "2"
   },
   "genderVoting": {
     "female": "1",
     "moreFemale": "1",
-    "unisex": "0",
+    "unisex": "1",
     "moreMale": "1",
     "male": "0"
   },
@@ -111,7 +140,7 @@
     "overpriced": "0",
     "fair": "0",
     "goodValue": "1",
-    "greatValue": "0"
+    "greatValue": "1"
   },
   "remindsMeOf": [
     {
@@ -125,8 +154,29 @@
       "name": "Eros Pour Femme"
     },
     {
+      "brand": "XERJOFF",
+      "name": "Erba Pura"
+    },
+    {
       "brand": "MONTBLANC",
       "name": "Signature"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Teriaq Intense"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Liam"
     }
-  ]
+  ],
+  "comments": []
 }

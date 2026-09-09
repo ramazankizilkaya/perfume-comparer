@@ -1,7 +1,7 @@
 {
   "name": "Zeyna Ajmal",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Floral",
+  "fragranceFamily": "Woody",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.14042.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Zeyna-14042.html",
@@ -11,16 +11,44 @@
   "description_enhanced": "Ajmal markasının Zeyna parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. Zeyna 2000larda piyasaya sürüldü. Bu kokunun arkasındaki burun Nazir Ajmal. Üst nota: Çiçeksi Notalar; orta notalar: Baharatlar ve Gül; alt notalar Odunsu Notalar ve Misk.",
   "mainAccords": [
     {
-      "name": "çiçeksi",
+      "name": "odunsu",
       "width": "100%"
     },
     {
-      "name": "odunsu",
+      "name": "çiçeksi",
       "width": "100%"
     },
     {
       "name": "sıcak baharatlı",
       "width": "79%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,8 @@
     "base": [
       "Odunsu Notalar",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -83,5 +112,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

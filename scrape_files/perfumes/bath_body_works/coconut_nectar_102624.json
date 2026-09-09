@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.102624.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Coconut-Nectar-102624.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Coconut Nectar parfümü, kadınlar ve erkekler için Aromatik Yeşil bir kokudur. Bu yeni bir parfüm. Coconut Nectar, 2025 yılında piyasaya sürüldü. Kokuda Hindistan cevizi, Palmiye yaprağı, Odunsu Notlar ve Tuz notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Coconut Nectar parfümü, kadınlar ve erkekler için Aromatik Yeşil bir kokudur. Bu yeni bir parfüm. Coconut Nectar, 2025 yılında piyasaya sürüldü. Kokuda Hindistan cevizi, Palmiye yaprağı, Odunsu Notlar ve Tuz notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Coconut Nectar parfümü, kadınlar ve erkekler için Aromatik Yeşil bir kokudur. Bu yeni bir parfüm. Coconut Nectar, 2025 yılında piyasaya sürüldü. Kokuda Hindistan cevizi, Palmiye yaprağı, Odunsu Notlar ve Tuz notaları bulunur.",
+  "description": "Bath & Body Works markasının Coconut Nectar parfümü, kadınlar ve erkekler için Aromatik Yeşil bir kokudur. Bu yeni bir parfüm. Coconut Nectar, 2025 yılında piyasaya sürüldü. Kokuda Hindistan cevizi, Palmiye yaprağı, Odunsu Notalar ve Tuz notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Coconut Nectar parfümü, kadınlar ve erkekler için Aromatik Yeşil bir kokudur. Bu yeni bir parfüm. Coconut Nectar, 2025 yılında piyasaya sürüldü. Kokuda Hindistan cevizi, Palmiye yaprağı, Odunsu Notalar ve Tuz notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Coconut Nectar parfümü, kadınlar ve erkekler için Aromatik Yeşil bir kokudur. Bu yeni bir parfüm. Coconut Nectar, 2025 yılında piyasaya sürüldü. Kokuda Hindistan cevizi, Palmiye yaprağı, Odunsu Notalar ve Tuz notaları bulunur.",
   "mainAccords": [
     {
       "name": "hindistancevizi",
@@ -35,11 +35,11 @@
       "width": "52.4%"
     },
     {
-      "name": "tropikal",
+      "name": "vanilya",
       "width": "50.9999%"
     },
     {
-      "name": "vanilya",
+      "name": "tropikal",
       "width": "50.9999%"
     },
     {
@@ -73,97 +73,42 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Hindistan cevizi",
+      "Palmiye yaprağı",
+      "Odunsu Notalar",
+      "Tuz"
+    ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "10",
-    "moderate": "2",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "2",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "4",
-    "unisex": "6",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "12",
-    "goodValue": "3",
-    "greatValue": "9"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Coconut 2024"
-    },
-    {
-      "brand": "PHLUR",
-      "name": "Coconut Skin"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Coconut Palm"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Coco Paradise Eau de Parfum"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '39"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Coco Paradise"
-    },
-    {
-      "brand": "MİX:BAR",
-      "name": "Coconut Palm"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Soleil Blanc"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Honolulu Sun"
-    },
-    {
-      "brand": "SKYLAR",
-      "name": "Coconut Cove"
-    },
-    {
-      "brand": "OAKCHA",
-      "name": "Bronze Summer"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Disco Daydream"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Coconut"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Fresh Coconut Colada"
-    },
-    {
-      "brand": "COMME DES GARCONS",
-      "name": "ERL Sunscreen"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -180,6 +125,10 @@
     {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
+    },
+    {
+      "brand": "KAYALİ FRAGRANCES",
+      "name": "Yum Boujee Marshmallow | 81"
     },
     {
       "brand": "LANCÔME",
@@ -220,10 +169,7 @@
     {
       "brand": "KAYALİ FRAGRANCES",
       "name": "Vanilla | 28"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Covered In Roses"
     }
-  ]
+  ],
+  "comments": []
 }

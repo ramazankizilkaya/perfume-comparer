@@ -49,6 +49,30 @@
     {
       "name": "beyaz çiçeksi",
       "width": "56.2032%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,7 +110,8 @@
       "Sedir",
       "Sandal ağacı",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -145,10 +170,6 @@
       "name": "Raghba"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "The Moon"
-    },
-    {
       "brand": "ARMAF",
       "name": "Desert Breeze"
     },
@@ -170,6 +191,10 @@
     }
   ],
   "peopleAlsoLike": [
+    {
+      "brand": "FRANCK OLİVİER",
+      "name": "Oud Touch"
+    },
     {
       "brand": "RASASİ",
       "name": "Oud Al Mubakhar"
@@ -203,10 +228,6 @@
       "name": "Tabu"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Eau de Parfum"
-    },
-    {
       "brand": "CALVİN KLEİN",
       "name": "Euphoria"
     },
@@ -230,5 +251,6 @@
       "brand": "LANCÔME",
       "name": "Poeme"
     }
-  ]
+  ],
+  "comments": []
 }

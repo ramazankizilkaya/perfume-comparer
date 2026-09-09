@@ -29,15 +29,43 @@
     {
       "name": "taze",
       "width": "44.9999%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.04",
-    "votesCount": "54",
+    "score": "4.02",
+    "votesCount": "56",
     "breakdown": {
       "love": "18",
-      "like": "23",
-      "ok": "11",
+      "like": "24",
+      "ok": "12",
       "dislike": "1",
       "hate": "1"
     }
@@ -45,19 +73,24 @@
   "seasons": {
     "winter": "10",
     "spring": "14",
-    "summer": "19",
+    "summer": "21",
     "autumn": "8",
-    "day": "18",
+    "day": "19",
     "night": "7"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Şampanya",
+      "Mürver",
+      "Müge"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
-    "weak": "5",
+    "weak": "6",
     "moderate": "11",
     "longLasting": "1",
     "eternal": "0"
@@ -69,7 +102,7 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "12",
+    "female": "13",
     "moreFemale": "3",
     "unisex": "1",
     "moreMale": "0",
@@ -78,8 +111,8 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "11",
-    "goodValue": "10",
+    "fair": "12",
+    "goodValue": "11",
     "greatValue": "8"
   },
   "remindsMeOf": [
@@ -117,10 +150,6 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Champagne Apple & Honey"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "A Thousand Wishes 2020 Edition"
     },
     {
@@ -142,12 +171,20 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "A Toast to You"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "A Thousand Wishes"
     }
   ],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
       "name": "Champagne Toast"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "A Thousand Wishes"
     },
     {
       "brand": "JUİCY COUTURE",
@@ -163,19 +200,15 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Into The Night"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Strawberry Snowflakes"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Gingham Gorgeous"
+      "name": "Into The Night"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Thailand Sweet Kiwi & Starfruit"
+      "name": "Gingham Gorgeous"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -199,11 +232,12 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "You're The One"
+      "name": "Warm Vanilla Sugar"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Covered In Roses"
     }
-  ]
+  ],
+  "comments": []
 }

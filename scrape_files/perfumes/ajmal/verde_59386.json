@@ -16,57 +16,81 @@
     },
     {
       "name": "taze baharatlı",
-      "width": "99.9033%"
+      "width": "99.0538%"
     },
     {
       "name": "yeşil",
-      "width": "90.3248%"
+      "width": "90.5404%"
     },
     {
       "name": "deri",
-      "width": "79.8274%"
+      "width": "80.1352%"
     },
     {
       "name": "aromatik",
-      "width": "76.3442%"
+      "width": "76.5879%"
     },
     {
       "name": "narenciye",
-      "width": "58.058%"
+      "width": "58.8512%"
     },
     {
       "name": "animalik",
-      "width": "55.5423%"
+      "width": "55.7532%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "54.1879%"
+      "width": "54.2163%"
     },
     {
       "name": "pudralı",
-      "width": "52.7851%"
+      "width": "53.1282%"
     },
     {
       "name": "balsamik",
-      "width": "52.0596%"
+      "width": "52.2768%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.81",
-    "votesCount": "392",
+    "votesCount": "394",
     "breakdown": {
       "love": "125",
-      "like": "148",
+      "like": "150",
       "ok": "59",
       "dislike": "40",
       "hate": "20"
     }
   },
   "seasons": {
-    "winter": "136",
-    "spring": "142",
+    "winter": "138",
+    "spring": "143",
     "summer": "70",
-    "autumn": "183",
+    "autumn": "184",
     "day": "152",
     "night": "122"
   },
@@ -84,34 +108,35 @@
       "Deri",
       "Sedir",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "5",
     "weak": "15",
     "moderate": "108",
-    "longLasting": "118",
-    "eternal": "29"
+    "longLasting": "119",
+    "eternal": "30"
   },
   "sillage": {
     "intimate": "28",
     "moderate": "108",
-    "strong": "97",
-    "enormous": "13"
+    "strong": "98",
+    "enormous": "14"
   },
   "genderVoting": {
     "female": "4",
     "moreFemale": "2",
     "unisex": "42",
     "moreMale": "61",
-    "male": "178"
+    "male": "180"
   },
   "priceVoting": {
     "wayOverpriced": "7",
     "overpriced": "4",
     "fair": "59",
     "goodValue": "78",
-    "greatValue": "146"
+    "greatValue": "148"
   },
   "remindsMeOf": [
     {
@@ -119,12 +144,12 @@
       "name": "Noir Anthracite"
     },
     {
-      "brand": "KOLMAZ",
-      "name": "Marijuana"
-    },
-    {
       "brand": "CARON",
       "name": "Yatagan"
+    },
+    {
+      "brand": "KOLMAZ",
+      "name": "Marijuana"
     },
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
@@ -139,28 +164,20 @@
       "name": "Polo"
     },
     {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Valor Enigma"
+    },
+    {
       "brand": "LES ABSTRAİTS",
       "name": "Des Cendres"
     },
     {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Miracle"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Endless Oud"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Maahir Honor"
+      "brand": "ETAT LİBRE D'ORANGE",
+      "name": "Eloge du Traitre"
     },
     {
       "brand": "CHOPARD",
       "name": "Leather Malaki"
-    },
-    {
-      "brand": "TAİF AL EMARAT",
-      "name": "Attractive"
     },
     {
       "brand": "MİLLER HARRİS",
@@ -171,8 +188,16 @@
       "name": "La Yuqawam Ambergris Showers"
     },
     {
-      "brand": "ETAT LİBRE D'ORANGE",
-      "name": "Eloge du Traitre"
+      "brand": "ORTO PARİSİ",
+      "name": "Cuoium"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Maahir Honor"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Miracle"
     }
   ],
   "peopleAlsoLike": [
@@ -183,6 +208,10 @@
     {
       "brand": "RASASİ",
       "name": "Shuhrah Pour Homme"
+    },
+    {
+      "brand": "ESSENTİAL PARFUMS",
+      "name": "Bois Impérial"
     },
     {
       "brand": "LALİQUE",
@@ -225,10 +254,6 @@
       "name": "Club de Nuit Intense Man"
     },
     {
-      "brand": "DİOR",
-      "name": "Dior Homme Parfum"
-    },
-    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Kouros"
     },
@@ -236,5 +261,6 @@
       "brand": "NASOMATTO",
       "name": "Black Afgano"
     }
-  ]
+  ],
+  "comments": []
 }

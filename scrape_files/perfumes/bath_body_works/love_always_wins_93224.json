@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.93224.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Love-Always-Wins-93224.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Love Always Wins parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Love Always Wins, 2024 yılında piyasaya sürüldü. Kokuda Sulu Notlar, Narenciye, Odunsu Notlar, Adaçayı ve Lotus notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Love Always Wins parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Love Always Wins, 2024 yılında piyasaya sürüldü. Kokuda Sulu Notlar, Narenciye, Odunsu Notlar, Adaçayı ve Lotus notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Love Always Wins parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Love Always Wins, 2024 yılında piyasaya sürüldü. Kokuda Sulu Notlar, Narenciye, Odunsu Notlar, Adaçayı ve Lotus notaları bulunur.",
+  "description": "Bath & Body Works markasının Love Always Wins parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Love Always Wins, 2024 yılında piyasaya sürüldü. Kokuda Sulu Notalar, Narenciye, Odunsu Notalar, Adaçayı ve Lotus notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Love Always Wins parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Love Always Wins, 2024 yılında piyasaya sürüldü. Kokuda Sulu Notalar, Narenciye, Odunsu Notalar, Adaçayı ve Lotus notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Love Always Wins parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Love Always Wins, 2024 yılında piyasaya sürüldü. Kokuda Sulu Notalar, Narenciye, Odunsu Notalar, Adaçayı ve Lotus notaları bulunur.",
   "mainAccords": [
     {
       "name": "sulu",
@@ -43,7 +43,7 @@
     }
   },
   "seasons": {
-    "winter": "5",
+    "winter": "6",
     "spring": "25",
     "summer": "38",
     "autumn": "8",
@@ -53,73 +53,43 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Sulu Notalar",
+      "Narenciye",
+      "Odunsu Notalar",
+      "Adaçayı",
+      "Lotus"
+    ]
   },
   "longevity": {
-    "veryWeak": "8",
-    "weak": "15",
-    "moderate": "11",
-    "longLasting": "0",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "12",
-    "moderate": "11",
-    "strong": "2",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "9",
-    "unisex": "34",
-    "moreMale": "1",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "10",
-    "goodValue": "17",
-    "greatValue": "15"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Salted Shorelines"
-    },
-    {
-      "brand": "ADİDAS",
-      "name": "Adidas Sport UPLFT For Her"
-    },
-    {
-      "brand": "TORY BURCH",
-      "name": "Electric Sky"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Love Always Wins"
-    },
-    {
-      "brand": "VİNCE CAMUTO",
-      "name": "Illuminare"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Starfruit Sangria"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue Eau Intense"
-    },
-    {
-      "brand": "RASASİ",
-      "name": "Shuhrah Pour Femme"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -181,5 +151,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Vampire Blood"
     }
-  ]
+  ],
+  "comments": []
 }

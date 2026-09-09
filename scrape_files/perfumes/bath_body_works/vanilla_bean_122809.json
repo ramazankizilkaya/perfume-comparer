@@ -29,6 +29,34 @@
     {
       "name": "balsamik",
       "width": "38.3334%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "2",
+    "winter": "3",
     "spring": "0",
     "summer": "0",
     "autumn": "0",
@@ -53,7 +81,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Tonka fasulyesi",
+      "Vanilya",
+      "Krema",
+      "Beyaz orkide"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -83,5 +117,6 @@
     "greatValue": "2"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

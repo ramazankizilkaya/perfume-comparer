@@ -16,19 +16,47 @@
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "79.1228%"
+      "width": "87.3769%"
     },
     {
       "name": "narenciye",
-      "width": "66.8421%"
+      "width": "75.9015%"
     },
     {
       "name": "vanilya",
-      "width": "54.9298%"
+      "width": "53.4097%"
     },
     {
       "name": "çiçeksi",
-      "width": "47.193%"
+      "width": "50.6556%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -48,12 +76,17 @@
     "summer": "9",
     "autumn": "5",
     "day": "12",
-    "night": "5"
+    "night": "6"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Şeker",
+      "Yasemin",
+      "Klementin"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
@@ -114,12 +147,20 @@
       "name": "Viva la Juicy"
     },
     {
-      "brand": "ARİANA GRANDE",
-      "name": "Sweet Like Candy"
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Libre"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Champagne Toast"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Sweet Like Candy"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Ari"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -130,32 +171,24 @@
       "name": "In Control Curious"
     },
     {
-      "brand": "ARİANA GRANDE",
-      "name": "Ari"
-    },
-    {
       "brand": "YVES SAİNT LAURENT",
-      "name": "Libre"
+      "name": "Black Opium"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Vanilla Bean Noel"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Black Opium"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "A Thousand Wishes"
     },
     {
-      "brand": "BİLLİE EİLİSH",
-      "name": "Eilish"
-    },
-    {
       "brand": "LANCÔME",
       "name": "Idôle"
+    },
+    {
+      "brand": "BİLLİE EİLİSH",
+      "name": "Eilish"
     },
     {
       "brand": "MUGLER",
@@ -166,8 +199,9 @@
       "name": "Cheirosa '62"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Sweet Cinnamon Pumpkin"
+      "brand": "VERSACE",
+      "name": "Bright Crystal"
     }
-  ]
+  ],
+  "comments": []
 }

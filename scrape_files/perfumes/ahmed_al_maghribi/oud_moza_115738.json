@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "deri",
+      "name": "ud",
       "width": "65%"
     },
     {
-      "name": "ud",
+      "name": "deri",
       "width": "65%"
     },
     {
@@ -29,16 +29,40 @@
     {
       "name": "dumanlı",
       "width": "40.5%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.67",
-    "votesCount": "6",
+    "score": "4.29",
+    "votesCount": "7",
     "breakdown": {
       "love": "4",
       "like": "2",
       "ok": "0",
-      "dislike": "0",
+      "dislike": "1",
       "hate": "0"
     }
   },
@@ -59,25 +83,26 @@
     ],
     "base": [
       "Oud"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
-    "moderate": "1",
+    "moderate": "2",
     "longLasting": "2",
     "eternal": "1"
   },
   "sillage": {
     "intimate": "0",
-    "moderate": "1",
+    "moderate": "2",
     "strong": "2",
     "enormous": "1"
   },
   "genderVoting": {
     "female": "1",
     "moreFemale": "1",
-    "unisex": "1",
+    "unisex": "2",
     "moreMale": "2",
     "male": "0"
   },
@@ -90,6 +115,10 @@
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
+    {
+      "brand": "MONTALE",
+      "name": "Honey Aoud"
+    },
     {
       "brand": "CHOPARD",
       "name": "Oud Malaki"
@@ -107,16 +136,8 @@
       "name": "Soir de Lune"
     },
     {
-      "brand": "CHANEL",
-      "name": "Egoiste"
-    },
-    {
       "brand": "GUERLAİN",
       "name": "Shalimar Eau de Parfum"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Opium Pour Homme"
     },
     {
       "brand": "COMME DES GARCONS",
@@ -139,16 +160,21 @@
       "name": "Reflection Man"
     },
     {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue"
+      "brand": "GUERLAİN",
+      "name": "Samsara Eau de Parfum"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Cinnabar"
     },
     {
       "brand": "DOLCE&GABBANA",
-      "name": "D&G Masculine"
+      "name": "Light Blue"
     },
     {
       "brand": "GİVENCHY",
       "name": "Pi"
     }
-  ]
+  ],
+  "comments": []
 }

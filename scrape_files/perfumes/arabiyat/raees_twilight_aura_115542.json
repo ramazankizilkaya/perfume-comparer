@@ -15,15 +15,7 @@
       "width": "100%"
     },
     {
-      "name": "amber",
-      "width": "69.2522%"
-    },
-    {
-      "name": "çiçeksi",
-      "width": "69.2522%"
-    },
-    {
-      "name": "misk",
+      "name": "odunsu",
       "width": "69.2522%"
     },
     {
@@ -31,7 +23,15 @@
       "width": "69.2522%"
     },
     {
-      "name": "odunsu",
+      "name": "misk",
+      "width": "69.2522%"
+    },
+    {
+      "name": "çiçeksi",
+      "width": "69.2522%"
+    },
+    {
+      "name": "amber",
       "width": "69.2522%"
     },
     {
@@ -41,25 +41,53 @@
     {
       "name": "tatlı",
       "width": "48.3177%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.60",
-    "votesCount": "20",
+    "score": "4.52",
+    "votesCount": "25",
     "breakdown": {
-      "love": "15",
-      "like": "4",
-      "ok": "0",
+      "love": "17",
+      "like": "6",
+      "ok": "1",
       "dislike": "0",
       "hate": "1"
     }
   },
   "seasons": {
     "winter": "2",
-    "spring": "19",
-    "summer": "18",
+    "spring": "22",
+    "summer": "21",
     "autumn": "10",
-    "day": "17",
+    "day": "20",
     "night": "4"
   },
   "notes": {
@@ -78,34 +106,35 @@
       "Amber",
       "Misk",
       "Tatlı Notlar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "1",
-    "moderate": "1",
-    "longLasting": "11",
-    "eternal": "4"
+    "moderate": "3",
+    "longLasting": "13",
+    "eternal": "5"
   },
   "sillage": {
     "intimate": "0",
-    "moderate": "1",
-    "strong": "14",
-    "enormous": "3"
+    "moderate": "3",
+    "strong": "16",
+    "enormous": "4"
   },
   "genderVoting": {
     "female": "0",
-    "moreFemale": "0",
-    "unisex": "11",
-    "moreMale": "4",
+    "moreFemale": "1",
+    "unisex": "14",
+    "moreMale": "5",
     "male": "1"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "0",
-    "goodValue": "8",
-    "greatValue": "8"
+    "fair": "1",
+    "goodValue": "9",
+    "greatValue": "11"
   },
   "remindsMeOf": [
     {
@@ -192,11 +221,12 @@
     },
     {
       "brand": "FRENCH AVENUE",
-      "name": "Liquid Brun"
+      "name": "Atlantis Extrait"
     },
     {
       "brand": "FRENCH AVENUE",
-      "name": "Atlantis Extrait"
+      "name": "Liquid Brun"
     }
-  ]
+  ],
+  "comments": []
 }

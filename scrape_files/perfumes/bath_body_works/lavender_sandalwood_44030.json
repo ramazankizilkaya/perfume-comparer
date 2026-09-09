@@ -64,9 +64,9 @@
   },
   "seasons": {
     "winter": "11",
-    "spring": "16",
-    "summer": "14",
-    "autumn": "9",
+    "spring": "17",
+    "summer": "15",
+    "autumn": "10",
     "day": "18",
     "night": "15"
   },
@@ -86,81 +86,37 @@
       "Misk",
       "Vanilya",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "9",
-    "moderate": "8",
-    "longLasting": "2",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "8",
-    "strong": "2",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "13",
-    "moreFemale": "2",
-    "unisex": "7",
-    "moreMale": "2",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "10",
-    "greatValue": "11"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Lovely Dreamer"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "French Lavender & Honey"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Lavender & Spring Apricot"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Dolce&Gabbana pour Homme (1994)"
-    },
-    {
-      "brand": "BEİNG FRENSHE",
-      "name": "Lavender Cloud"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Cozy Sunday Morning"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Lavender Iris"
-    },
-    {
-      "brand": "STRANGERS PARFUMERİE",
-      "name": "Rêve Du Matin"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "The Dreamer"
-    },
-    {
-      "brand": "FLORENCE BY MİLLS",
-      "name": "Wildy Me"
-    },
-    {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Kitten Fur"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -222,5 +178,6 @@
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy"
     }
-  ]
+  ],
+  "comments": []
 }

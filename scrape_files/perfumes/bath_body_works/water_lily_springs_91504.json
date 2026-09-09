@@ -37,6 +37,34 @@
     {
       "name": "animalik",
       "width": "50.1599%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -51,7 +79,7 @@
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "2",
     "spring": "41",
     "summer": "53",
     "autumn": "2",
@@ -61,7 +89,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Sulu Notalar",
+      "Zambak",
+      "Misk"
+    ]
   },
   "longevity": {
     "veryWeak": "4",
@@ -116,16 +149,16 @@
       "name": "Halloween"
     },
     {
+      "brand": "ALFRED SUNG",
+      "name": "Shi"
+    },
+    {
       "brand": "JO MALONE LONDON",
       "name": "Wild Bluebell"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Aqua Hour"
-    },
-    {
-      "brand": "ALFRED SUNG",
-      "name": "Shi"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -144,12 +177,12 @@
       "name": "Vaquita Dolphin"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Oceanside Splash"
-    },
-    {
       "brand": "JO MALONE LONDON",
       "name": "Crystal Campion Cologne"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Oceanside Splash"
     }
   ],
   "peopleAlsoLike": [
@@ -213,5 +246,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Viva Vanilla"
     }
-  ]
+  ],
+  "comments": []
 }

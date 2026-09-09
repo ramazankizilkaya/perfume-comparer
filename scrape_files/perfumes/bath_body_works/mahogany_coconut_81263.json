@@ -35,11 +35,11 @@
       "width": "54.5%"
     },
     {
-      "name": "tropikal",
+      "name": "vanilya",
       "width": "51%"
     },
     {
-      "name": "vanilya",
+      "name": "tropikal",
       "width": "51%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "fındıksı",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +101,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Hindistan cevizi",
+      "Lavanta",
+      "Maun"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -132,12 +165,12 @@
       "name": "Coconut Candy Apple"
     },
     {
-      "brand": "VALENTİNO",
-      "name": "Valentino Uomo Born in Roma Purple Melancholia"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Book Loft"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Uomo Born in Roma Purple Melancholia"
     }
   ],
   "peopleAlsoLike": [
@@ -201,5 +234,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Vanilla Noir"
     }
-  ]
+  ],
+  "comments": []
 }

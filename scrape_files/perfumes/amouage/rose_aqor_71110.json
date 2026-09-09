@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.71110.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Amouage/Rose-Aqor-71110.html",
   "brand": "Amouage parfüm ve kolonya",
-  "description": "Amouage markasının Rose Aqor parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Rose Aqor, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Cécile Zarokian. Kokuda Gül, Beyaz sakız, Labdanum ve Sandal ağacı notaları bulunur.",
-  "description_original": "Amouage markasının Rose Aqor parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Rose Aqor, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Cécile Zarokian. Kokuda Gül, Beyaz sakız, Labdanum ve Sandal ağacı notaları bulunur.",
-  "description_enhanced": "Amouage markasının Rose Aqor parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Rose Aqor, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Cécile Zarokian. Kokuda Gül, Beyaz sakız, Labdanum ve Sandal ağacı notaları bulunur.",
+  "description": "Amouage markasının Rose Aqor parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Rose Aqor, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Cécile Zarokian. Kokuda Gül, Olibanum, Labdanum ve Sandal ağacı notaları bulunur.",
+  "description_original": "Amouage markasının Rose Aqor parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Rose Aqor, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Cécile Zarokian. Kokuda Gül, Olibanum, Labdanum ve Sandal ağacı notaları bulunur.",
+  "description_enhanced": "Amouage markasının Rose Aqor parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Rose Aqor, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Cécile Zarokian. Kokuda Gül, Olibanum, Labdanum ve Sandal ağacı notaları bulunur.",
   "mainAccords": [
     {
       "name": "amber",
@@ -37,31 +37,65 @@
     {
       "name": "çiçeksi",
       "width": "47.3794%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.21",
-    "votesCount": "84",
+    "score": "4.23",
+    "votesCount": "88",
     "breakdown": {
-      "love": "48",
+      "love": "51",
       "like": "18",
-      "ok": "10",
+      "ok": "11",
       "dislike": "4",
       "hate": "4"
     }
   },
   "seasons": {
-    "winter": "36",
+    "winter": "37",
     "spring": "30",
     "summer": "15",
-    "autumn": "41",
-    "day": "31",
-    "night": "35"
+    "autumn": "43",
+    "day": "32",
+    "night": "36"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Gül",
+      "Olibanum",
+      "Labdanum",
+      "Sandal ağacı"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -86,7 +120,7 @@
   "priceVoting": {
     "wayOverpriced": "18",
     "overpriced": "9",
-    "fair": "10",
+    "fair": "11",
     "goodValue": "1",
     "greatValue": "0"
   },
@@ -158,16 +192,20 @@
       "name": "Jubilation XXV Man"
     },
     {
+      "brand": "ROJA DOVE",
+      "name": "Amber Aoud"
+    },
+    {
       "brand": "AMOUAGE",
       "name": "Incense Rori"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Promise"
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Oud Satin Mood"
     },
     {
-      "brand": "SERGE LUTENS",
-      "name": "Chergui"
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Promise"
     },
     {
       "brand": "TOM FORD",
@@ -192,10 +230,7 @@
     {
       "brand": "AMOUAGE",
       "name": "Reflection Man"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dior Homme Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

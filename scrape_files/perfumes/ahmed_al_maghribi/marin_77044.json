@@ -29,14 +29,38 @@
     {
       "name": "gül",
       "width": "41.41%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.16",
-    "votesCount": "44",
+    "score": "4.17",
+    "votesCount": "47",
     "breakdown": {
-      "love": "22",
-      "like": "13",
+      "love": "23",
+      "like": "15",
       "ok": "4",
       "dislike": "4",
       "hate": "1"
@@ -44,10 +68,10 @@
   },
   "seasons": {
     "winter": "4",
-    "spring": "26",
-    "summer": "32",
+    "spring": "27",
+    "summer": "35",
     "autumn": "10",
-    "day": "33",
+    "day": "34",
     "night": "9"
   },
   "notes": {
@@ -63,25 +87,26 @@
     "base": [
       "Vanilya",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
     "weak": "1",
     "moderate": "10",
     "longLasting": "16",
-    "eternal": "9"
+    "eternal": "10"
   },
   "sillage": {
     "intimate": "4",
     "moderate": "10",
     "strong": "20",
-    "enormous": "7"
+    "enormous": "8"
   },
   "genderVoting": {
     "female": "17",
-    "moreFemale": "11",
-    "unisex": "15",
+    "moreFemale": "12",
+    "unisex": "16",
     "moreMale": "2",
     "male": "0"
   },
@@ -90,7 +115,7 @@
     "overpriced": "1",
     "fair": "4",
     "goodValue": "13",
-    "greatValue": "19"
+    "greatValue": "21"
   },
   "remindsMeOf": [
     {
@@ -129,19 +154,23 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Yara"
+      "name": "Petra"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Petra"
+      "name": "Haya"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Noble Blush"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Endless"
     },
     {
       "brand": "ARMAF",
       "name": "Club De Nuit Maleka"
-    },
-    {
-      "brand": "SWİSS ARABİAN",
-      "name": "Shaghaf Oud Tonka"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -150,10 +179,6 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Eclaire"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Ana Abiyedh Coral"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -177,7 +202,8 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Sondos"
+      "name": "Victoria"
     }
-  ]
+  ],
+  "comments": []
 }

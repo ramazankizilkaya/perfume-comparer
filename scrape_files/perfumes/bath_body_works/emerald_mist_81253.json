@@ -29,6 +29,34 @@
     {
       "name": "ozonik",
       "width": "52.309%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "11",
+    "winter": "12",
     "spring": "76",
     "summer": "64",
     "autumn": "22",
@@ -53,7 +81,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Armut",
+      "Açık renkli odunlar",
+      "Yağmur Notları"
+    ]
   },
   "longevity": {
     "veryWeak": "15",
@@ -120,10 +153,6 @@
       "name": "Burberry Her Eau de Toilette"
     },
     {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue"
-    },
-    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Glazed Cool & Bright"
     },
@@ -132,12 +161,16 @@
       "name": "Greenwich Village"
     },
     {
+      "brand": "ARİANA GRANDE",
+      "name": "Thank U Next 2.0"
+    },
+    {
       "brand": "CUBA PARİS",
       "name": "Cuba Authentic Dark"
     },
     {
-      "brand": "ARİANA GRANDE",
-      "name": "Thank U Next 2.0"
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -205,5 +238,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Fairytale"
     }
-  ]
+  ],
+  "comments": []
 }

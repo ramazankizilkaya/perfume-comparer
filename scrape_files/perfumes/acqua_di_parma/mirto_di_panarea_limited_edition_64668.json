@@ -33,25 +33,49 @@
     {
       "name": "odunsu",
       "width": "51.8317%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.92",
-    "votesCount": "39",
+    "score": "3.93",
+    "votesCount": "41",
     "breakdown": {
-      "love": "8",
+      "love": "9",
       "like": "23",
-      "ok": "6",
+      "ok": "7",
       "dislike": "1",
       "hate": "1"
     }
   },
   "seasons": {
     "winter": "0",
-    "spring": "9",
-    "summer": "22",
+    "spring": "10",
+    "summer": "23",
     "autumn": "2",
-    "day": "16",
+    "day": "18",
     "night": "2"
   },
   "notes": {
@@ -71,32 +95,33 @@
       "Sedir",
       "Amber",
       "Mastik veya Lentisk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
     "weak": "10",
-    "moderate": "10",
+    "moderate": "11",
     "longLasting": "2",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "8",
-    "moderate": "10",
+    "moderate": "11",
     "strong": "3",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "2",
     "moreFemale": "4",
-    "unisex": "14",
+    "unisex": "15",
     "moreMale": "3",
     "male": "2"
   },
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "4",
-    "fair": "6",
+    "fair": "7",
     "goodValue": "5",
     "greatValue": "0"
   },
@@ -152,16 +177,8 @@
       "name": "Ambre Sultan"
     },
     {
-      "brand": "XERJOFF",
-      "name": "XJ 1861 Naxos"
-    },
-    {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Carnal Flower"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dior Homme Intense 2011"
     },
     {
       "brand": "BDK PARFUMS",
@@ -176,12 +193,21 @@
       "name": "Vanilla Diorama"
     },
     {
+      "brand": "BYREDO",
+      "name": "Mojave Ghost"
+    },
+    {
       "brand": "LE LABO",
       "name": "Santal 33"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Angels' Share"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Portrait of a Lady"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -27,15 +27,15 @@
       "width": "69.2%"
     },
     {
-      "name": "misk",
-      "width": "65%"
-    },
-    {
       "name": "vanilya",
       "width": "65%"
     },
     {
       "name": "paçuli",
+      "width": "65%"
+    },
+    {
+      "name": "misk",
       "width": "65%"
     },
     {
@@ -49,16 +49,40 @@
     {
       "name": "tatlı",
       "width": "51.0003%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.62",
-    "votesCount": "13",
+    "score": "3.50",
+    "votesCount": "14",
     "breakdown": {
       "love": "2",
       "like": "5",
       "ok": "5",
-      "dislike": "1",
+      "dislike": "2",
       "hate": "0"
     }
   },
@@ -83,17 +107,18 @@
       "Vanilya",
       "Misk",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "3",
+    "veryWeak": "4",
     "weak": "3",
     "moderate": "1",
     "longLasting": "0",
     "eternal": "2"
   },
   "sillage": {
-    "intimate": "4",
+    "intimate": "5",
     "moderate": "1",
     "strong": "0",
     "enormous": "0"
@@ -102,7 +127,7 @@
     "female": "2",
     "moreFemale": "0",
     "unisex": "7",
-    "moreMale": "1",
+    "moreMale": "2",
     "male": "2"
   },
   "priceVoting": {
@@ -114,17 +139,30 @@
   },
   "remindsMeOf": [
     {
-      "brand": "FABERGE",
-      "name": "Brut"
-    },
-    {
-      "brand": "KENNETH COLE",
-      "name": "Blue"
+      "brand": "AJMAL",
+      "name": "Mystery"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Al Qiam Silver"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Toro Pour Homme"
+    },
+    {
+      "brand": "ATTAR COLLECTİON",
+      "name": "Slate Blue"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Toro Pour Homme Glace"
+    },
+    {
+      "brand": "FABERGE",
+      "name": "Brut"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

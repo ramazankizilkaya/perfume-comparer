@@ -43,12 +43,36 @@
       "width": "59.6897%"
     },
     {
+      "name": "beyaz çiçeksi",
+      "width": "45.6897%"
+    },
+    {
       "name": "narenciye",
       "width": "45.6897%"
     },
     {
-      "name": "beyaz çiçeksi",
-      "width": "45.6897%"
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,7 +107,8 @@
     "base": [
       "Neroli",
       "Beyaz Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -155,16 +180,16 @@
       "name": "Злато Скифов (Or des Scythes)"
     },
     {
+      "brand": "ARABİAN OUD",
+      "name": "Ghroob"
+    },
+    {
       "brand": "MASAKİ MATSUSHİMA",
       "name": "Masaki Shiro"
     },
     {
       "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
       "name": "Espiegle Charmante"
-    },
-    {
-      "brand": "ARABİAN OUD",
-      "name": "Ghroob"
     },
     {
       "brand": "CACHAREL",
@@ -174,5 +199,6 @@
       "brand": "SERGE LUTENS",
       "name": "Nuit de Cellophane"
     }
-  ]
+  ],
+  "comments": []
 }

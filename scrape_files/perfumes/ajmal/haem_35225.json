@@ -41,6 +41,30 @@
     {
       "name": "animalik",
       "width": "46.8636%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +97,8 @@
     "base": [
       "Odunsu Notalar",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
@@ -173,5 +198,6 @@
       "brand": "LANCÔME",
       "name": "Poeme"
     }
-  ]
+  ],
+  "comments": []
 }

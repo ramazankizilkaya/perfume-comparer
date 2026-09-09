@@ -37,6 +37,34 @@
     {
       "name": "çiçeksi",
       "width": "45.75%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,7 +89,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "İncir",
+      "Kırmızı şarap",
+      "Menekşe"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -165,5 +198,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Bonfire Bash"
     }
-  ]
+  ],
+  "comments": []
 }

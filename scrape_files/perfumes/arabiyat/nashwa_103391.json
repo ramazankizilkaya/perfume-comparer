@@ -41,26 +41,54 @@
     {
       "name": "taze",
       "width": "45.909%"
+    },
+    {
+      "name": "Online satın alın 21 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.24",
-    "votesCount": "17",
+    "score": "4.05",
+    "votesCount": "19",
     "breakdown": {
       "love": "10",
       "like": "3",
-      "ok": "3",
-      "dislike": "0",
+      "ok": "4",
+      "dislike": "1",
       "hate": "1"
     }
   },
   "seasons": {
     "winter": "4",
-    "spring": "13",
-    "summer": "12",
+    "spring": "14",
+    "summer": "13",
     "autumn": "9",
-    "day": "14",
-    "night": "8"
+    "day": "15",
+    "night": "9"
   },
   "notes": {
     "top": [
@@ -75,17 +103,18 @@
       "Vetiver",
       "Misk",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
-    "weak": "0",
+    "weak": "2",
     "moderate": "2",
     "longLasting": "9",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "0",
+    "intimate": "1",
     "moderate": "2",
     "strong": "5",
     "enormous": "1"
@@ -94,13 +123,13 @@
     "female": "0",
     "moreFemale": "0",
     "unisex": "2",
-    "moreMale": "5",
+    "moreMale": "6",
     "male": "6"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "3",
+    "fair": "4",
     "goodValue": "8",
     "greatValue": "4"
   },
@@ -118,12 +147,16 @@
       "name": "Black Panther"
     },
     {
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Vibrato"
+    },
+    {
       "brand": "NİSHANE",
       "name": "Hacivat"
     },
     {
-      "brand": "SOSPİRO PERFUMES",
-      "name": "Vibrato"
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Empire Crown"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -138,8 +171,8 @@
       "name": "Private Key To My Life"
     },
     {
-      "brand": "KHADLAJ PERFUMES",
-      "name": "Empire Crown"
+      "brand": "EX NİHİLO",
+      "name": "The Hedonist Extrait de Parfum"
     }
   ],
   "peopleAlsoLike": [
@@ -203,5 +236,6 @@
       "brand": "AFNAN",
       "name": "9pm"
     }
-  ]
+  ],
+  "comments": []
 }

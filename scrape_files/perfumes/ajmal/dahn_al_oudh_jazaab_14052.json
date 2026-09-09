@@ -17,6 +17,30 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -41,7 +65,10 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Agar ağacı (Oud)"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
@@ -81,6 +108,10 @@
     }
   ],
   "peopleAlsoLike": [
+    {
+      "brand": "AJMAL",
+      "name": "Dahn Oudh Al Shams"
+    },
     {
       "brand": "AJMAL",
       "name": "Dahn Al Oudh Atheer"
@@ -136,10 +167,7 @@
     {
       "brand": "LALİQUE",
       "name": "Encre Noire"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "Chergui"
     }
-  ]
+  ],
+  "comments": []
 }

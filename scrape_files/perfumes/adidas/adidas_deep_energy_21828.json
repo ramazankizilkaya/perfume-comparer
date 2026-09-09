@@ -2,13 +2,13 @@
   "name": "Adidas Deep Energy Adidas",
   "targetGender": "erkekler için",
   "fragranceFamily": "Citrus",
-  "concentration": "Edt",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.21828.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Adidas/Adidas-Deep-Energy-21828.html",
   "brand": "Adidas parfüm ve kolonya",
-  "description": "Adidas markasının Adidas Deep Energy parfümü, erkekler için Odunsu Aromatik bir kokudur. Üst notalar: Mandalina ve Bergamot; orta notalar: Elma, Lavanta, Kakule ve Menekşe; alt notalar Misk, Sedir, Paçuli, Amber ve Guayak ağacı.",
-  "description_original": "Adidas markasının Adidas Deep Energy parfümü, erkekler için Odunsu Aromatik bir kokudur. Üst notalar: Mandalina ve Bergamot; orta notalar: Elma, Lavanta, Kakule ve Menekşe; alt notalar Misk, Sedir, Paçuli, Amber ve Guayak ağacı.",
-  "description_enhanced": "Adidas markasının Adidas Deep Energy parfümü, erkekler için Odunsu Aromatik bir kokudur. Üst notalar: Mandalina ve Bergamot; orta notalar: Elma, Lavanta, Kakule ve Menekşe; alt notalar Misk, Sedir, Paçuli, Amber ve Guayak ağacı.",
+  "description": "Adidas markasının Adidas Deep Energy parfümü, erkekler için Odunsu Aromatik bir kokudur. Üst notalar: Mandalina ve Bergamot; orta notalar: Elma, Lavanta, Menekşe ve Kakule; alt notalar Teksas Sediri, Misk, Paçuli, Amber ve Guayak ağacı.",
+  "description_original": "Adidas markasının Adidas Deep Energy parfümü, erkekler için Odunsu Aromatik bir kokudur. Üst notalar: Mandalina ve Bergamot; orta notalar: Elma, Lavanta, Menekşe ve Kakule; alt notalar Teksas Sediri, Misk, Paçuli, Amber ve Guayak ağacı.",
+  "description_enhanced": "Adidas markasının Adidas Deep Energy parfümü, erkekler için Odunsu Aromatik bir kokudur. Üst notalar: Mandalina ve Bergamot; orta notalar: Elma, Lavanta, Menekşe ve Kakule; alt notalar Teksas Sediri, Misk, Paçuli, Amber ve Guayak ağacı.",
   "mainAccords": [
     {
       "name": "narenciye",
@@ -49,15 +49,39 @@
     {
       "name": "lavanta",
       "width": "49.3102%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.73",
-    "votesCount": "186",
+    "votesCount": "189",
     "breakdown": {
-      "love": "32",
+      "love": "33",
       "like": "103",
-      "ok": "24",
+      "ok": "26",
       "dislike": "23",
       "hate": "4"
     }
@@ -65,9 +89,9 @@
   "seasons": {
     "winter": "22",
     "spring": "73",
-    "summer": "102",
+    "summer": "103",
     "autumn": "39",
-    "day": "108",
+    "day": "109",
     "night": "16"
   },
   "notes": {
@@ -78,43 +102,44 @@
     "middle": [
       "Elma",
       "Lavanta",
-      "Kakule",
-      "Menekşe"
+      "Menekşe",
+      "Kakule"
     ],
     "base": [
+      "Teksas Sediri",
       "Misk",
-      "Sedir",
       "Paçuli",
       "Amber",
       "Guayak ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "23",
     "weak": "57",
-    "moderate": "32",
+    "moderate": "33",
     "longLasting": "5",
     "eternal": "4"
   },
   "sillage": {
     "intimate": "47",
-    "moderate": "32",
-    "strong": "8",
+    "moderate": "33",
+    "strong": "9",
     "enormous": "5"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "7",
-    "moreMale": "14",
+    "unisex": "8",
+    "moreMale": "15",
     "male": "39"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "2",
-    "fair": "24",
+    "fair": "26",
     "goodValue": "16",
-    "greatValue": "27"
+    "greatValue": "28"
   },
   "remindsMeOf": [
     {
@@ -146,6 +171,10 @@
       "name": "Incidence Pour Homme"
     },
     {
+      "brand": "DUMONT",
+      "name": "Exciting Vert"
+    },
+    {
       "brand": "JOVAN",
       "name": "Make Them Talk"
     },
@@ -172,10 +201,6 @@
     {
       "brand": "DİLÍS PARFUM",
       "name": "Urban"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Citrus & Cedar Cologne Mist"
     }
   ],
   "peopleAlsoLike": [
@@ -239,5 +264,6 @@
       "brand": "VERSACE",
       "name": "Eros"
     }
-  ]
+  ],
+  "comments": []
 }

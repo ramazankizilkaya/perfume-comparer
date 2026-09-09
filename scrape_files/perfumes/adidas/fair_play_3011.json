@@ -2,7 +2,7 @@
   "name": "Fair Play Adidas",
   "targetGender": "erkekler için",
   "fragranceFamily": "Woody",
-  "concentration": "Edt",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3011.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Adidas/Fair-Play-3011.html",
   "brand": "Adidas parfüm ve kolonya",
@@ -35,11 +35,11 @@
       "width": "76.8572%"
     },
     {
-      "name": "amber",
+      "name": "paçuli",
       "width": "58.5714%"
     },
     {
-      "name": "paçuli",
+      "name": "amber",
       "width": "58.5714%"
     },
     {
@@ -49,6 +49,30 @@
     {
       "name": "taze baharatlı",
       "width": "48%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +97,15 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Menekşe",
+      "Lavanta",
+      "Teak Ağacı",
+      "Kakule",
+      "Amber",
+      "Paçuli"
+    ]
   },
   "longevity": {
     "veryWeak": "6",
@@ -173,5 +205,6 @@
       "brand": "CHANEL",
       "name": "Allure Homme Edition Blanche"
     }
-  ]
+  ],
+  "comments": []
 }

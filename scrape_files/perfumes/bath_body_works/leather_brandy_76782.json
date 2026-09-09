@@ -29,42 +29,74 @@
     {
       "name": "sıcak baharatlı",
       "width": "47.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.14",
-    "votesCount": "78",
+    "votesCount": "79",
     "breakdown": {
-      "love": "31",
+      "love": "32",
       "like": "33",
-      "ok": "10",
-      "dislike": "2",
+      "ok": "9",
+      "dislike": "3",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "43",
-    "spring": "23",
+    "winter": "44",
+    "spring": "24",
     "summer": "10",
-    "autumn": "49",
-    "day": "24",
-    "night": "44"
+    "autumn": "50",
+    "day": "25",
+    "night": "45"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Deri",
+      "Kanyak"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
     "weak": "8",
-    "moderate": "33",
+    "moderate": "34",
     "longLasting": "9",
     "eternal": "1"
   },
   "sillage": {
     "intimate": "6",
-    "moderate": "33",
+    "moderate": "34",
     "strong": "4",
     "enormous": "0"
   },
@@ -78,7 +110,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "10",
+    "fair": "9",
     "goodValue": "22",
     "greatValue": "19"
   },
@@ -157,5 +189,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Y Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

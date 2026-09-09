@@ -29,6 +29,34 @@
     {
       "name": "balsamik",
       "width": "50%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Sandal ağacı",
+      "Vanilya Absolutu"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -99,6 +131,10 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Wicked Vanilla Woods"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Sensual Amber"
     },
     {
@@ -122,14 +158,6 @@
       "name": "Black Opium"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Pink Obsessed"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Black Opium Le Parfum"
-    },
-    {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
     },
@@ -142,12 +170,17 @@
       "name": "Jazz Club"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Coco Paradise"
-    },
-    {
       "brand": "MUGLER",
       "name": "Alien Goddess Intense"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Moonlight Path"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Sweetheart Cherry"
     }
-  ]
+  ],
+  "comments": []
 }

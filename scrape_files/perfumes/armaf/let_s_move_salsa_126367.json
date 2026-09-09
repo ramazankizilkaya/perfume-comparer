@@ -41,6 +41,34 @@
     {
       "name": "vanilya",
       "width": "46.1538%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -57,7 +85,7 @@
   "seasons": {
     "winter": "1",
     "spring": "4",
-    "summer": "6",
+    "summer": "7",
     "autumn": "3",
     "day": "4",
     "night": "1"
@@ -78,23 +106,24 @@
       "Vanilya",
       "Sandal ağacı",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "1",
-    "moderate": "2",
+    "moderate": "3",
     "longLasting": "1",
-    "eternal": "1"
+    "eternal": "2"
   },
   "sillage": {
     "intimate": "1",
-    "moderate": "2",
-    "strong": "0",
+    "moderate": "3",
+    "strong": "1",
     "enormous": "1"
   },
   "genderVoting": {
-    "female": "3",
+    "female": "4",
     "moreFemale": "1",
     "unisex": "1",
     "moreMale": "0",
@@ -104,7 +133,7 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "3",
-    "goodValue": "6",
+    "goodValue": "7",
     "greatValue": "0"
   },
   "remindsMeOf": [
@@ -182,5 +211,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,43 +16,75 @@
     },
     {
       "name": "taze baharatlı",
-      "width": "83.7166%"
+      "width": "84.2027%"
     },
     {
       "name": "gül",
-      "width": "77.2473%"
+      "width": "74.5542%"
     },
     {
       "name": "aromatik",
-      "width": "67.5433%"
+      "width": "66.7501%"
     },
     {
       "name": "odunsu",
-      "width": "57.4803%"
+      "width": "58.7095%"
     },
     {
       "name": "çiçeksi",
-      "width": "50.4858%"
+      "width": "49.3684%"
+    },
+    {
+      "name": "taze",
+      "width": "44.8985%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.60",
-    "votesCount": "523",
+    "score": "4.58",
+    "votesCount": "597",
     "breakdown": {
-      "love": "383",
-      "like": "95",
-      "ok": "30",
-      "dislike": "8",
-      "hate": "7"
+      "love": "432",
+      "like": "110",
+      "ok": "35",
+      "dislike": "10",
+      "hate": "10"
     }
   },
   "seasons": {
-    "winter": "119",
-    "spring": "344",
-    "summer": "340",
-    "autumn": "286",
-    "day": "316",
-    "night": "268"
+    "winter": "130",
+    "spring": "392",
+    "summer": "389",
+    "autumn": "326",
+    "day": "362",
+    "night": "302"
   },
   "notes": {
     "top": [
@@ -70,34 +102,35 @@
       "Sedir",
       "Vetiver",
       "Kaşmir ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "9",
-    "moderate": "68",
-    "longLasting": "213",
-    "eternal": "32"
+    "veryWeak": "5",
+    "weak": "10",
+    "moderate": "80",
+    "longLasting": "243",
+    "eternal": "35"
   },
   "sillage": {
     "intimate": "9",
-    "moderate": "68",
-    "strong": "151",
-    "enormous": "25"
+    "moderate": "80",
+    "strong": "178",
+    "enormous": "27"
   },
   "genderVoting": {
     "female": "5",
     "moreFemale": "2",
-    "unisex": "28",
-    "moreMale": "89",
-    "male": "214"
+    "unisex": "31",
+    "moreMale": "104",
+    "male": "236"
   },
   "priceVoting": {
-    "wayOverpriced": "7",
-    "overpriced": "10",
-    "fair": "30",
-    "goodValue": "148",
-    "greatValue": "118"
+    "wayOverpriced": "9",
+    "overpriced": "11",
+    "fair": "35",
+    "goodValue": "171",
+    "greatValue": "132"
   },
   "remindsMeOf": [
     {
@@ -113,20 +146,20 @@
       "name": "Man Black Cologne"
     },
     {
-      "brand": "GİSSAH",
-      "name": "Mavro"
-    },
-    {
       "brand": "BVLGARİ",
       "name": "Tygar"
     },
     {
-      "brand": "BYREDO",
-      "name": "Bois Obscur"
+      "brand": "GİSSAH",
+      "name": "Mavro"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Jean Lowe Immortal"
+      "brand": "ARABİAN OUD",
+      "name": "Amiri"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Bois Obscur"
     },
     {
       "brand": "RİTUALS",
@@ -137,38 +170,34 @@
       "name": "Azzaro Pour Homme Ginger Lover"
     },
     {
-      "brand": "MİND GAMES",
-      "name": "Blockade"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Jean Lowe Immortal"
     },
     {
       "brand": "BROWN GİRL JANE",
       "name": "Chalet"
     },
     {
-      "brand": "ARABİAN OUD",
-      "name": "Amiri"
-    },
-    {
-      "brand": "PENHALİGON'S",
-      "name": "Luna"
-    },
-    {
       "brand": "RASASİ",
       "name": "Al Wisam Day"
     },
     {
-      "brand": "SALVATORE FERRAGAMO",
-      "name": "F by Ferragamo Black"
+      "brand": "MAISON ASRAR",
+      "name": "Majesty"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Fabulous Parfum"
+    },
+    {
+      "brand": "KARL LAGERFELD",
+      "name": "Bois de Vetiver"
     }
   ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON ALHAMBRA",
       "name": "Jean Lowe Immortal"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Blue Iconic"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -183,16 +212,12 @@
       "name": "Club de Nuit Intense Man"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas Ice"
-    },
-    {
       "brand": "AFNAN",
       "name": "Turathi Blue"
     },
     {
       "brand": "RASASİ",
-      "name": "Hawas Black"
+      "name": "Hawas Ice"
     },
     {
       "brand": "VERSACE",
@@ -211,6 +236,14 @@
       "name": "Supremacy Not Only Intense"
     },
     {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Precieux I"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Prada L'Homme"
+    },
+    {
       "brand": "AFNAN",
       "name": "Supremacy Collector's Edition Pour Homme"
     },
@@ -221,6 +254,218 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent522",
+      "author": "fatihG",
+      "date": "2026-07-28",
+      "text": "A perfume that made me grateful that I bought a decant instead of blind buying the full bottle.\n\nIf I had to sum it up in one sentence, I would say: the worst perfume I have ever smelled in my life.\n\nI’m not a fragrance expert, so I’m not going to analyze it based on its notes. However, there is one thing anyone considering buying this perfume should know:\n\nFrom the very first spray, you are hit with an incredibly strong and unpleasant smell. And this overpowering scent spread throughout the entire house. We had to air out every room.\n\nEven after washing the spot on my arm twice, the smell simply would not go away. It kept coming back little by little and hitting my nose again and again.\n\nAnd the result? Nausea and a headache.\n\nHonestly, this perfume taught me a very valuable lesson: I should never blind buy a fragrance for the rest of my life.\n\nBecause if I had blind bought this one, I probably wouldn’t be staring at a 3 ml decant in the trash right now. I’d be staring at a huge 105 ml bottle instead.\n\nYes, you read that right. I could only tolerate this torture for about 10 minutes after trying it before throwing it straight into the trash. That’s how bad it was for me.\n\nAbsolutely, positively do not blind buy this fragrance.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent698687",
+      "author": "CLONE",
+      "date": "2026-02-06",
+      "text": "ARMAF kaliteli bir ürün sunuyor. Koleksiyonumdaki en yeni parfüm ve beni oldukça şaşırttı. Hadi incelemeye geçelim!\n\nParfümün sunumundan başlayalım: kesinlikle muhteşem. Kutusu çok şık ve şişesi her koleksiyonda öne çıkıyor. Harika bir hediye fikri; alıcısını şaşırtacak.\n\nKokuya gelince, oldukça zarif. Açılışta baharatlı bir dokunuşla keskin bir narenciye kokusu var. Yaklaşık 15 dakika sonra, parfümün çiçeksi kısmı ortaya çıkıyor ki bu çok hoş. Tütün ona erkeksi bir hava katarken, amber kokuya tutarlılık sağlıyor. Cildimde ortalama 7-8 saat kaldı ve yayılımı orta düzeyde. İş, alışveriş ve randevu için harika bir seçenek.\n\nSonuç olarak, çok yönlü ve olgun bir parfüm. Kör alışveriş yapmanızı tavsiye etmem, çünkü kişisel zevkinize uymayabilir. Ben iyi bir fiyata (280 R$) aldığım için şanslıydım. Genel puan: 8/10.\n\nAroma: ⭐⭐⭐⭐⭐\nDeğerlendirme: ⭐⭐⭐⭐\nTahmin: ⭐⭐⭐\nÇok yönlülük: ⭐⭐⭐⭐⭐",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.210683.jpg"
+    },
+    {
+      "id": "parent698667",
+      "author": "Tom_",
+      "date": "2026-01-16",
+      "text": "GRBMK'nin anlattığı gibi düşünmezdim ama kesinlikle mantıklı 😃. Sadece pembe karabiberleri siyah karabiberlerle değiştirdiklerini eklemek isterim. (Ve karabiberler beyaz çiçekleri gölgede bıraktığı için, çiçekler dişil bir görünüm kazanmıyor.)\n\nEn az şu kadar:\n1. Hâlâ çok hoş bir koku ve uzun süre kalıcı.\n2. Urban Man El ve Infinity Silver'ın bulunmasının kesinlikle gereksiz olduğunu düşünmüyorum.\n\nAncak bu benzetme oldukça yerinde, bu nedenle UME'yi bilen biri için IS'yi bu şekilde hayal etmek daha kolay olabilir.\n\n\n\nDüzenleme: Şirket mutfağında, girişten yaklaşık 8 metre uzaklıkta, köşede 20 dakika oturdum ve bir kız içeri girip \"Aman Tanrım, burada ne kadar acımasız bir sürücü xD\" dedi 😅 yani püskürtme gücü iyi (yaklaşık 12 fıs kullandım).",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent698659",
+      "author": "Evgeni leher",
+      "date": "2025-12-02",
+      "text": "Vay canına! Bu bir başyapıt, arkadaşlar. YSL kenarda gergin bir şekilde sigara içiyor olmalı. Dün aldım, bileğime iki fıs sıktım ve bu sabah uyandığımda ilk fark ettiğim şey bu muhteşem eserin kokusuydu. Kaliteli bir parfüm almak için artık çılgın paralar harcamaya gerçekten gerek yok mu? Bence ArmaF bu yıl birçok Fransız parfümünün 10 kat üstüne çıktı. Şişeleri, tasarımı ve 50 dolar veya daha azına bu kadar güzel bir koku almak inanılmaz. Koleksiyonum sadece niş parfümlerden oluşuyor ve sonra ArmaF'ın ilk Presiux'ü ve bu güzellik, ikincisi geldi. Gerçekten çok şaşırdım ve bu parfümde klon aramamanızı tavsiye ederim çünkü bu bir klon değil, kendi başına bir koku ve iyi, hatta çok iyi bir koku.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.407505.jpg"
+    },
+    {
+      "id": "parent698645",
+      "author": "FabriS94er",
+      "date": "2025-08-23",
+      "text": "Öncelikle, L'Homme Ultime'ı hiç denemedim ama düzenli olarak YSL L'Homme EDT kullanıyorum. Yorumlardan anladığım kadarıyla, kullanıcıları bunun Homme'un geliştirilmiş bir versiyonu olduğunu söylüyorlardı, bu yüzden Afnan Infinity'nin de bir klon olduğu için hoşuma gitmesi mantıklıydı.\n\nBu tamamen yanlış. Ben bunu, Arap parfümlerinde bulunan ve çok daha gösterişli ve kaotik olan yeşil notalar ve bergamotun bir karışımı olarak buldum.\n\nKalıcılık ve yayılım oldukça belirgin.\n\nKoku olgunlaştıktan sonra yorumu güncelleyeceğim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.70380.jpg"
+    },
+    {
+      "id": "parent698608",
+      "author": "Bboystyle",
+      "date": "2025-08-08",
+      "text": "Vay canına. Bunu yeni aldım ve ilk kullanımda inanılmaz derecede etkileyici. Havada çok temiz, tatlı, meyveli ve çiçeksi bir koku bırakıyor ama hiç de kadınsı değil. Genellikle çiçekli kolonyaları çok kız gibi bulduğum için kullanmam ama bu çok iyi harmanlanmış. Narenciye ile hafif çiçeksi ve baharatlı bir kokuyu hayal edin. Teninizde harika ama havada bıraktığı koku inanılmaz ve farklı, güzel bir koku. Kesinlikle denemeden aldığım için çok mutluyum.\n\n\n\nDüzenleme: Tekrar baktığımda, Dylan Blue'nun çiçeksi kokusuna benzer bir kokusu var. Yine de harika bir koku profili!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent698686",
+      "author": "Henrique Talks",
+      "date": "2025-08-05",
+      "text": "Vay canına, bu parfüm büyük bir sürpriz oldu...\nAçılış tamamen keskin, delici, neredeyse kaotik. Sanki parfüm geç uyanmış, gömleğine kahve dökmüş ve dışarı fırlamış gibi... ama beş dakika sonra toparlanıyor, bir ceket giyiyor ve her şeyi değiştiren zarif ve aromatik beyaz bir çiçek kokusuyla ortaya çıkıyor.\n\nNarenciye notası varlığını sürdürüyor, ancak açılıştaki keskin narenciye etkisini kaybederek daha rafine bir tona bürünüyor. Zencefil, gül ile birlikte sahneye giriyor, ancak burada eski moda bir hava yok: sentetik ama dengeli bir şekilde ortaya çıkıyor. Bu bir bahçe gülü değil, kavramsal bir gül (bir gülün nasıl bir kokuya sahip olacağını hayal ettiğiniz koku). Ve koku sona yaklaşırken, odunsu notalar devreye girerek derinlik ve olgunluk katıyor.\n\nBu, kaosla başlayıp Tarantino filmlerine yakışır bir olay örgüsüyle biten türden bir parfüm. Ciltte yaklaşık 7 saat kalıcılık gösterdi, 1 saat boyunca orta düzeyde yayılımı vardı, ancak günlerin soğuk olduğunu ve bunun bu durumu etkilemiş olabileceğini hatırlamakta fayda var. Şüphesiz ki en önemli nokta, ilk 5 dakika ile kuruma aşaması arasındaki zaman dilimi. İşte o zaman gerçek yüzünü gösteriyor.\n\nBu parfüm tam anlamıyla bir auteur sineması örneği: Başlangıçta tuhaf, sonra da muhteşem olduğu ortaya çıkıyor.\n\nHer şeye ve her iklime uygun, özel tasarım parfüm. MUHTEŞEM!\n\n- Sabitleme: 8/10\nTahmin: 7/10\n- Hoşluk: 10/10\nÇok yönlülük: 9/10",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.187091.gif"
+    },
+    {
+      "id": "parent698606",
+      "author": "Ncruze",
+      "date": "2025-08-02",
+      "text": "Bu kadar iyi olduğuna gerçekten inanamıyorum. Neredeyse nutkum tutuldu. Önce havaya sıktım, sonra koluma sıktım ve bire bir aynı etkiyi veren nadir parfümlerden biri. Muhteşem bir koku. İlk başta gül, biber ve bergamot kokusunu kesinlikle alıyorsunuz ve çok iyi harmanlanmış. Kurudukça çiçek kokusu devam ediyor ama odunsu notalar ve biraz da tütün kokusu da ortaya çıkıyor.\n\nCilt üzerinden adeta yayılıyor. Sadece ön koluma iki kez sıktım ve bir saat boyunca burnuma yükselen hafif kokusunu hissettim. Sekiz fısla tam modda kullanmayı dört gözle bekliyorum! Bu koku yavaş yavaş en sevdiğim parfüm olma yolunda ilerliyor... hem de şimdiye kadarki en sevdiğim parfümlerden biri.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1908069.jpg"
+    },
+    {
+      "id": "parent698610",
+      "author": "GomBvs",
+      "date": "2025-07-31",
+      "text": "Genellikle parfümler için yorum yazmam ama bu bir istisna, çünkü beni gerçekten etkiledi. Öncelikle şunu söylemeliyim ki, 10 yıl önce parfümlerle ilgilenmediğim için Ultime'ı hiç koklamamıştım, bu yüzden fikrim sadece kokladığım şeye dayanıyor. Denemeden aldığım bir parfüm olarak gerçekten harika. Yani, ambalajı gerçekten muhteşem, biberli gül kokusu yılın her günü için mükemmel ve fiyatı da gerçekten inanılmaz, bence bu kadar abartıyı hak ediyor. Elimde ilk başta Bleu de Chanel'in narenciye açılışının daha yumuşak bir versiyonunu hissediyorum, ama sonra kendi tarzını ortaya koyuyor. Sanırım daha fazla şişe alacağım, bu ilkbahar ve yaz için imza kokum olabilir. Kalıcılığı yeterince iyi, yani benim için sıcak bir yaz gününde genellikle hiçbir parfüm sabahtan akşama kadar kalmaz, ama yine de yakından güzel kokmak için yeterince iyi. Ayrıca, bazı pazarlarda bu parfüme Infinity Black değil, Infinity Silver adı veriliyor, ancak yine de aynı parfüm.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent698616",
+      "author": "Vaporized",
+      "date": "2025-07-29",
+      "text": "Kör Alışveriş Günlükleri #10. Aman Tanrım! Son kör alışverişlerimde kazanma serisi yakaladım. Bu da koku listeme bir çentik daha. Birçok yorumda bunun YSL L'Homme Ultime'ın bir klonu olduğunu okuduğum anda ilgimi çekti. Öncelikle yukarıda belirtilen notalar yanlış. Armaf web sitesine göre doğru nota dağılımı şu şekildedir:\nÜst Notalar: Bergamot, Zencefil ve Greyfurt\nOrta Nota: Pembe Gül, Sardunya, Elma ve Kakule\nTemel Notalar: Sedir ağacı, vetiver ve kaşmir ağacı\nBu, eski YSL parfümlerini anımsatan, sanatsal bir koku. Zencefil notası çok güçlü, ki buna bayılıyorum. Taze, baharatlı, odunsu bir koku. Kalp notalarındaki kakule, elma ve sardunya, açılışla harmanlanıyor. Vetiver ve sedir ağacı sayesinde, son notalarda baharatlı ve odunsu bir koku kalıyor.\nHer mevsimde kullanılabilecek bir koku mu? Evet, her mevsimde kullanılabilecek seçkin bir beyefendi parfümü.\nUnisex mi? ​​Erkeksi mi?\nGözü kapalı almaya değer mi? Eğer YSL Ultime ürünlerini seviyorsanız, evet.\nPerformans? Yaklaşık 8-9 saat süren kalıcılığı, iyi yayılımı ve kalıcılığıyla dikkat çekiyor.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.899985.jpg"
+    },
+    {
+      "id": "parent698614",
+      "author": "Aakno",
+      "date": "2025-07-20",
+      "text": "Erkeklere hitap eden, şeker gibi tatlı bir koku; pürüzsüz bir şekilde harmanlanmış ve her şey harika bir şekilde bir araya gelmiş, kesinlikle fiyatına değer. Performansı da ortalamanın üzerinde. Armaf'ın en iyi parfümlerinden biri, hatta belki de en iyisi. Gül ve baharatların parıltısını gerçekten hissedebiliyorsunuz.\n\nBence bu parfüm, gözü kapalı satın alınabilecek kadar güvenli bir parfüm; en çok iltifat aldığım/dikkatimi çeken parfümlerden biri olduğu için oldukça geniş kitleye hitap ediyor gibi görünüyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2586858.jpg"
+    },
+    {
+      "id": "parent725098",
+      "author": "HakkenJantje",
+      "date": "2025-07-14",
+      "text": "Yaklaşık on iki kez tamamen kullandıktan sonra, bunun bugüne kadarki en iyi Armaf parfümü olduğunu confidently söyleyebilirim. Ve ilkbahar ve yaz için alınabilecek en iyi \"uygun fiyatlı\" parfümler arasında yer alıyor.\n\nO kadar iyi harmanlanmış ve şık ki. Birçok iltifat aldım, bazen uyguladıktan 8 saat sonra bile, performansı da inanılmaz (özellikle birkaç hafta/ay sonra).\n\nFiyatına göre (35 Euro ödedim)? Rahatlıkla 10 üzerinden 9.25!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent698632",
+      "author": "nachovorago",
+      "date": "2025-07-07",
+      "text": "Çok az evrim geçiren (ve buna ihtiyacı da olmayan) güzel bir koku. Beyaz çiçekler ve gül, baharatlar (belki biber, ama kakuleyi anımsatan bir şey de var, belki de kakule değil) ve odunsu amber bazını birleştiren erkeksi bir zarafet.\nYazın deniyorum ve sıcak hava için çok ağır.\nYakın zamanda aldım ve gelişimini henüz tam olarak test edemedim, ancak şu ana kadar, yılın bu zamanında, çok uzun süre etkili olduğunu ve oldukça güçlü olduğunu fark ettim. Ayrıca bağımlılık yapıyor; yorucu olmuyor. Oksidasyonla daha da iyileşirse, bence kesinlikle muhteşem olacak.\nHarika bir fırsat. İspanya'da çok uygun fiyata bulabilirsiniz.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent698683",
+      "author": "GabrielManoz",
+      "date": "2025-06-30",
+      "text": "Açılışı güzel, orta notaları ortalama, son notaları ise muhteşem. İlginç bir şekilde, kokladığım binlerce farklı parfüm arasında, bu yönü sergileyen tek parfüm bu. Çok kaliteli bir açılış, sonra orta notalarda biraz düşüşe geçiyor ve çok sentetikleşiyor, ancak bu aşama kısa sürüyor ve kısa süre sonra parfümün en iyi kısmı olan son notalar başlıyor. Artık üretilmeyen L'Homme Ultime'a çok benziyor. Bir tane vardı bende ama elden çıkardım, bu yüzden yan yana karşılaştıramadım, ancak hatırladığım kadarıyla çok benzer. Taze bir parfüm için mükemmel kalıcılık ve yayılım, orijinal Ultime'dan çok daha üstün. Uzun süre boyunca hoş bir koku aurası yaratıyor. İmza parfümü olarak iyi iş görüyor. Ultime'larını saklamak isteyenler için tavsiye ederim.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.159640.gif"
+    },
+    {
+      "id": "parent698604",
+      "author": "MrFragUK",
+      "date": "2025-06-06",
+      "text": "Burada gösterilen notalar yanlıştır. Doğru notalar şunlardır:\n\nÜST NOTALAR: Bergamot, Zencefil, Greyfurt ve Kakule\nORTA: Gül, Elma ve Sardunya\nTEMEL NOTALAR: Kaşmir, Sedir ve Vetiver\n\nOrijinaline sahibim ve bu, klonun sadece orijinali kadar iyi değil, bence daha da iyi olduğu nadir durumlardan biri. Ultime ile %100 aynı değil ama çok yakın. Gül dokunuşuyla güzel bir narenciye, biberli aromatik koku. Ultime daha ferah kokarken, Infinity daha sıcak ve baharatlı.\n\nŞaşırtıcı bir şekilde, Infinity kutusundan çıkar çıkmaz güçlü ve kesinlikle Ultime'den daha güçlü. Olgunlaşmaya gerek yok. Yaklaşık 6-8 saatlik sağlam bir kalıcılığa ve iyi bir yayılıma sahip. Giydikten günler sonra bile kıyafetlerimde kokusunu alabiliyordum. Bu, abartıyı hak eden ve hızla tükenen parfümlerden biri.\n\nInfinity'nin biberli aromaları bana Givenchy Gentleman Only'yi hatırlatıyor. Bazıları bunu eski tarz bulabilir, ama ben gerçekten çok beğeniyorum.\n\nBence kesinlikle satın almaya değer. Erkeksi, çok yönlü ve giymesi kolay. Armaf, Infinity ile gerçekten harika bir iş çıkarmış. Şiddetle tavsiye ederim.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2420942.jpg"
+    },
+    {
+      "id": "parent698602",
+      "author": "Felixthreeone",
+      "date": "2025-06-02",
+      "text": "Şişem az önce geldi, bu yüzden *ilk izlenimler* incelemesi yaparken lütfen sabırlı olun (bu benim uyarım), çünkü bir kolumda bu parfüm, diğer kolumda ise L'homme Ultime var.\n\nArmaf, Ultime'e ÇOK benziyor. Karşılaştırma için, Ultime şişem şu anda çok az kaldı ve bu Armaf yepyeni. Her iki koku için de kollarıma ikişer fıs sıktım. Armaf ilk uygulamada oldukça güçlü ve sıktığım yerde belirgin şekilde yağlı bir bölge bıraktı.\n\nYaklaşık 15 dakika sonra ikisi de sakinleşiyor. Farklar o kadar küçük ki, herhangi birini ayırt etmekte zorlanıyorum. Yani, bu delilik. Orijinaline doğrudan kıyasladığımda, şimdiye kadar kokladığım en yakın muadillerden biri bu. YSL belki biraz daha... hafif? Daha havadar? Aman Tanrım... çok yakın...\n\nRasasi 'Essential'ın Ultime'a oldukça yakın olduğunu düşünmüştüm. Muhtemelen onu şimdi başkasına vereceğim ve bunu saklayacağım. Bu, cildimde tamamen 'ayırt edilemez' durumda. Armaf kesinlikle YSL'den daha güçlü.\n\nBu kadar iyi olmasına çok şaşırdım. Kalıcılığı hakkında fikir sahibi olduktan sonra muhtemelen bir güncelleme yapacağım. (Ultime ciltte sadece bir veya iki saat dayanıyor... performans açısından daha kötü olan tek ürün orijinal YSL Homme.)\n\nUltime DNA'yı seviyorsanız, kesinlikle paranızın karşılığını fazlasıyla alacaksınız. Bazı ukala tipler buraya gelip \"bu hiç ona benzemiyor, falan filan\" gibi saçma sapan şeyler söyleyecekler. Şimdiden söyleyeyim, bu parfümü kötüleyen herkes ya:\n\nA) Hiçbir zaman Ultimate Team'e sahip olmadı ve saçma sapan konuşuyor.\nB) Klonlardan veya kopyalardan nefret ederler, bu yüzden onlara karşı kin beslerler.\nC)Ultime markasına sahip ama bu parfümü hiç denememiş.\nD) Kapı bekçiliği aşırı mı?\n\nBu ürün gerçekten çok iyi. Bakalım bir süre sonra dayanıklılığı nasıl olacak...\n\nDüzenleme/Güncelleme 15/06: Yaklaşık iki hafta ve birkaç kullanım sonrasında performansı ortalama. Toplamda yaklaşık 6 saat sürdüğünü düşünüyorum. Yaklaşık bir buçuk ila iki saat sonra ten kokusu hissediliyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1753657.jpg"
+    },
+    {
+      "id": "parent698628",
+      "author": "Canary Scent",
+      "date": "2025-05-30",
+      "text": "Merhaba, bu koku ferahlık konusunda oldukça iddialı. Son derece erkeksi, narenciye notaları içeriyor ve açıkça tütsüden bahsetmiyor, ki ben öyle algılıyorum. Ancak, narenciye, tütsü ve bir tutam gülün çok iyi dengelenmiş bir karışımı.\n\nUzun süre kalıcı, ama oldukça tek boyutlu bir koku olduğunu söylemeliyim. Bazı insanlar bunu sevmiyor; evrim geçirmeyen, bu tarz kokuların sadece oda spreyi gibi olduğunu duydum... Buna katılmıyorum.\n\nSpreyi kullanırken dikkatli olun, baş ağrısı yapabilir. Bu arada, tek şikayetim püskürtme başlığı; berbat.\n\nBu, 30-35 yaş ve üzeri erkekler için bir parfümdür.\n\nMümkün olan en kısa sürede bir şişe daha alacağım; Armaf'tan 10 üzerinden 10 puanlık bir ürün.\n\nHer zaman önce kendiniz deneyin.\n\nSelamlar",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.240468.jpg"
+    },
+    {
+      "id": "parent698631",
+      "author": "Eliwoo182",
+      "date": "2025-05-12",
+      "text": "Bu, Spicebomb Night Vision EDP ile Bvlgari'nin ilk unisex siyah parfümü olan Bvlgari Black 1997'nin birleşimi. İnanılmaz, erkeksi, şık, odunsu bir tabana sahip ancak bergamot ve beyaz çiçeklerle açılıyor. Erkeksi bir zarafet yayıyor. Kesinlikle denemeden alınabilecek bir parfüm ve Armaf'ın en az değer verilen parfümlerinden biri. İngilizcede \"gizli cevher\" derler; insanlar onu almak için neredeyse uyuyakalıyorlar!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent698612",
+      "author": "Eliwood90",
+      "date": "2025-05-11",
+      "text": "Bvlgari Black'i hatırlıyor musunuz? Yuvarlak siyah kauçuk şişe... İşte bu, Spicebomb Night Vision EDP ile birleştirilmiş hali, sadece biraz daha az deri içeriyor! Bu kokuyu çok özlemiştim! Erkeksi, odunsu, bence narenciye, taze odun, neroli veya limondan daha çok bergamot içeriyor. Hem kış hem de ilkbahar için mükemmel, aynı zamanda bir gece kokusu... Armaf'ın az bilinen bir parfümü, 10 üzerinden 10!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent698661",
+      "author": "Rymato",
+      "date": "2025-05-08",
+      "text": "Doğru piramit:\nÖzetle:\nBergamot, zencefil, greyfurt, kakule.\nKalp notaları:\ngül, elma, sardunya.\nTemel notalar:\nkaşmir, sedir, vetiver\n\nParlak, narenciye (tatlı narenciye), hafif baharatlı (çoğunlukla zencefil) bir başlangıç, hızla çiçeksi, odunsu ve biraz da meyvemsi notalar ekleniyor.\nKokusu ağır değil, her mevsim için uygun.\n\n17.08 tarihinden itibaren ekleme.\nİki aydır kullanıyorum. Kokusu yumuşadı ve daha doğal bir hal aldı. Başlangıçta daha baharatlı ve biraz da narenciye kokulu.\nKoku yayılımı ve kalıcılığı iyileşmiş ve ferah bir koku için oldukça iyi. Uygulamadan sonraki ilk iki saat boyunca odayı dolduruyor. Kalıcılığa gelince, sabah 8'de uyguladım ve akşam 5'te bile saçımda hafif bir koku hissedebiliyordum.\nBu, \"tipik Arap tabanı\" kategorisine girmiyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.389457.jpg"
+    },
+    {
+      "id": "parent698660",
+      "author": "marmon1972",
+      "date": "2025-05-08",
+      "text": "Armaf yine bir başyapıt ortaya koymuş. Birkaç yıldır Club de Nuit Intense Man Armaf, Club de Nuit Blue Iconic Armaf, Club de Nuit Sillage Armaf ve bu markanın diğer parfümlerini kullanıyorum. Infinity, benim burnuma göre, çok övülen CDNI'dan daha kötü değil, belki de daha iyi (kullanınca göreceğiz). Çok güzel bir çiçeksi-odunsu auraya sahip, başlangıçta narenciye notaları da var ama bunlar hızla kayboluyor... Başka bir şeye benziyor ama tam olarak ne olduğunu çıkaramıyorum. Kalıcılığı ve yayılımı henüz belli değil. İlk izlenimler olumlu.\nBir gün sonra: Kalıcılığı inanılmaz, koku yoğunluğu ilk sıktığım zamankiyle aynı, ancak dramatik bir şekilde değişti ve Lattafa Parfümleri'nin Al Qiam Silver'ına benzer bir hale geldi, ama bu sadece benim burnumun algısı (Silver'ı çok seviyorum ve muhtemelen tüm ferah kokularda onun nüanslarını arıyorum). Sonuç: Bahar için harika!!!\nAyrıca Dubai Nights Umbra Armaf ve Dubai Nights Midnight Armaf'ı da denemek isterim... ama parfüm koleksiyonumu genişletmem gerekiyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     }
   ]
 }

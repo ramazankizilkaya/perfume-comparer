@@ -49,25 +49,49 @@
     {
       "name": "taze",
       "width": "55.8523%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.83",
-    "votesCount": "76",
+    "score": "3.81",
+    "votesCount": "78",
     "breakdown": {
       "love": "21",
       "like": "33",
-      "ok": "11",
+      "ok": "13",
       "dislike": "10",
       "hate": "1"
     }
   },
   "seasons": {
     "winter": "6",
-    "spring": "34",
-    "summer": "38",
+    "spring": "35",
+    "summer": "39",
     "autumn": "11",
-    "day": "37",
+    "day": "38",
     "night": "12"
   },
   "notes": {
@@ -82,18 +106,19 @@
     "base": [
       "Misk",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
     "weak": "16",
-    "moderate": "31",
+    "moderate": "32",
     "longLasting": "11",
     "eternal": "4"
   },
   "sillage": {
     "intimate": "24",
-    "moderate": "31",
+    "moderate": "32",
     "strong": "14",
     "enormous": "14"
   },
@@ -101,14 +126,14 @@
     "female": "0",
     "moreFemale": "0",
     "unisex": "10",
-    "moreMale": "12",
+    "moreMale": "13",
     "male": "15"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "11",
-    "goodValue": "9",
+    "fair": "13",
+    "goodValue": "10",
     "greatValue": "13"
   },
   "remindsMeOf": [
@@ -198,5 +223,6 @@
       "brand": "CAROLİNA HERRERA",
       "name": "CH Men"
     }
-  ]
+  ],
+  "comments": []
 }

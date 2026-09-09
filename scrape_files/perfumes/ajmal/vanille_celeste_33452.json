@@ -45,6 +45,30 @@
     {
       "name": "sulu",
       "width": "45.5556%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -78,7 +102,8 @@
     "base": [
       "Armut",
       "Sedir"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "7",
@@ -230,5 +255,6 @@
       "brand": "LANCÔME",
       "name": "Trésor Midnight Rose"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "animalik",
+      "name": "paçuli",
       "width": "65%"
     },
     {
-      "name": "paçuli",
+      "name": "animalik",
       "width": "65%"
     },
     {
@@ -27,30 +27,58 @@
       "width": "56.2499%"
     },
     {
+      "name": "odunsu",
+      "width": "51.0001%"
+    },
+    {
       "name": "dumanlı",
       "width": "51.0001%"
     },
     {
-      "name": "odunsu",
-      "width": "51.0001%"
+      "name": "sıcak baharatlı",
+      "width": "47.5001%"
     },
     {
       "name": "tatlı",
       "width": "47.5001%"
     },
     {
-      "name": "sıcak baharatlı",
-      "width": "47.5001%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.88",
+    "score": "3.86",
     "votesCount": "49",
     "breakdown": {
       "love": "18",
       "like": "18",
-      "ok": "7",
-      "dislike": "1",
+      "ok": "6",
+      "dislike": "2",
       "hate": "5"
     }
   },
@@ -65,7 +93,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Deri",
+      "Paçuli",
+      "Armut"
+    ]
   },
   "longevity": {
     "veryWeak": "10",
@@ -90,7 +123,7 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "3",
-    "fair": "7",
+    "fair": "6",
     "goodValue": "6",
     "greatValue": "9"
   },
@@ -100,12 +133,12 @@
       "name": "Ombré Leather (2018)"
     },
     {
-      "brand": "MAHOGANY",
-      "name": "Pera e Gerânio"
-    },
-    {
       "brand": "MİLLER HARRİS",
       "name": "Poirier d'un Soir"
+    },
+    {
+      "brand": "MAHOGANY",
+      "name": "Pera e Gerânio"
     },
     {
       "brand": "SLUMBERHOUSE",
@@ -162,14 +195,6 @@
       "name": "Club de Nuit Intense Man"
     },
     {
-      "brand": "AZZARO",
-      "name": "Wanted by Night"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Layton"
-    },
-    {
       "brand": "BY KİLİAN",
       "name": "Angels' Share"
     },
@@ -182,8 +207,8 @@
       "name": "By the Fireplace"
     },
     {
-      "brand": "CHANEL",
-      "name": "Bleu de Chanel"
+      "brand": "NAUTİCA",
+      "name": "Nautica Voyage"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -194,14 +219,6 @@
       "name": "Ocean"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Y Eau de Parfum"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Whiskey Toast"
-    },
-    {
       "brand": "CREMO",
       "name": "Spice & Black Vanilla"
     },
@@ -210,12 +227,29 @@
       "name": "Jazz Club"
     },
     {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Le Parfum"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Eros Flame"
+    },
+    {
       "brand": "MONTBLANC",
       "name": "Legend Spirit"
     },
     {
       "brand": "VERSACE",
       "name": "Eros"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "The Most Wanted Parfum"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Noir"
     }
-  ]
+  ],
+  "comments": []
 }

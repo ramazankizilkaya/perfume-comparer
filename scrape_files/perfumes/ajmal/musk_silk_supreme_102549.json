@@ -29,13 +29,37 @@
     {
       "name": "yeşil",
       "width": "46.3333%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.43",
-    "votesCount": "28",
+    "score": "4.48",
+    "votesCount": "31",
     "breakdown": {
-      "love": "16",
+      "love": "19",
       "like": "8",
       "ok": "4",
       "dislike": "0",
@@ -43,12 +67,12 @@
     }
   },
   "seasons": {
-    "winter": "10",
-    "spring": "13",
-    "summer": "13",
-    "autumn": "9",
-    "day": "14",
-    "night": "9"
+    "winter": "11",
+    "spring": "14",
+    "summer": "15",
+    "autumn": "10",
+    "day": "15",
+    "night": "10"
   },
   "notes": {
     "top": [
@@ -60,25 +84,26 @@
     "base": [
       "Misk",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "1",
-    "moderate": "8",
-    "longLasting": "8",
+    "moderate": "7",
+    "longLasting": "9",
     "eternal": "1"
   },
   "sillage": {
     "intimate": "6",
-    "moderate": "8",
+    "moderate": "7",
     "strong": "4",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "4",
     "moreFemale": "3",
-    "unisex": "12",
+    "unisex": "13",
     "moreMale": "1",
     "male": "1"
   },
@@ -111,28 +136,16 @@
       "name": "Musk Is Great"
     },
     {
+      "brand": "BETTER WORLD FRAGRANCE HOUSE",
+      "name": "Carby Musk"
+    },
+    {
       "brand": "AL HARAMAİN PERFUMES",
       "name": "Hayati Spray"
     },
     {
       "brand": "JULİETTE HAS A GUN",
-      "name": "Not A Perfume"
-    },
-    {
-      "brand": "JULİETTE HAS A GUN",
       "name": "Musc Invisible"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "L'Eau Papier"
-    },
-    {
-      "brand": "ELLA K PARFUMS",
-      "name": "Musc K"
-    },
-    {
-      "brand": "BETTER WORLD FRAGRANCE HOUSE",
-      "name": "Carby Musk"
     },
     {
       "brand": "FRAGRANCE WORLD",
@@ -141,6 +154,18 @@
     {
       "brand": "LE LABO",
       "name": "Another 13"
+    },
+    {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Not A Perfume"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "L'Eau Papier"
+    },
+    {
+      "brand": "ELLA K PARFUMS",
+      "name": "Musc K"
     }
   ],
   "peopleAlsoLike": [
@@ -153,20 +178,20 @@
       "name": "Fleur de Peau Eau de Parfum"
     },
     {
+      "brand": "AJMAL",
+      "name": "Musk Silk"
+    },
+    {
+      "brand": "GLOSSİER",
+      "name": "You"
+    },
+    {
       "brand": "GUERLAİN",
       "name": "L'instant Magic Eau de Parfum"
     },
     {
-      "brand": "DİOR",
-      "name": "J'adore"
-    },
-    {
       "brand": "VERSACE",
       "name": "Crystal Noir"
-    },
-    {
-      "brand": "ISSEY MİYAKE",
-      "name": "L'eau d'Issey"
     },
     {
       "brand": "GUCCİ",
@@ -177,24 +202,24 @@
       "name": "Ani"
     },
     {
-      "brand": "BVLGARİ",
-      "name": "Omnia Amethyste"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Sì Passione"
+      "brand": "CHANEL",
+      "name": "Coco Noir"
     },
     {
       "brand": "GİVENCHY",
       "name": "Ange ou Demon"
     },
     {
-      "brand": "DİOR",
-      "name": "Dolce Vita"
-    },
-    {
       "brand": "CALVİN KLEİN",
       "name": "Euphoria"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Le Parfum"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "His Confession"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -204,5 +229,6 @@
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male Elixir"
     }
-  ]
+  ],
+  "comments": []
 }

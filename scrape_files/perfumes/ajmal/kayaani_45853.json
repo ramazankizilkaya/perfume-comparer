@@ -33,6 +33,30 @@
     {
       "name": "sıcak baharatlı",
       "width": "54.5%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -67,7 +91,8 @@
       "Odunsu Notalar",
       "Misk",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -158,5 +183,6 @@
       "brand": "AMOUAGE",
       "name": "Journey Man"
     }
-  ]
+  ],
+  "comments": []
 }

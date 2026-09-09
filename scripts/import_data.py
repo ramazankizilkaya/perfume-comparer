@@ -542,12 +542,16 @@ class Catalog:
         image_url = f"/media/{image}" if (SCRAPE_DIR / image).exists() else None
 
         perfume_desc = (data.get("description_enhanced") or data.get("description") or data.get("description_original") or "").strip() or None
+        article = (data.get("article") or "").strip() or None
+        faq_json = json.dumps(data.get("faq"), ensure_ascii=False) if data.get("faq") else None
 
         self.perfumes.append([
             perfume_id, brand_id, name, perfume_slug,
             parse_gender(listed.get("gender"), data.get("targetGender")),
             concentration, family, parse_year(listed.get("year")),
             perfume_desc,
+            article,
+            faq_json,
             image_url, url,
             round(min(parse_decimal(rating.get("score")), 5.0), 2), parse_votes(rating.get("votesCount")),
             parse_votes(breakdown.get("love")), parse_votes(breakdown.get("like")),
@@ -610,7 +614,7 @@ BRAND_COLUMNS = ("id, name, slug, country, description, logo_url, main_activity,
 
 PERFUME_COLUMNS = (
     "id, brand_id, name, slug, gender, concentration, fragrance_family, release_year, "
-    "description, image_url, source_url, avg_rating, rating_count, rating_love, rating_like, "
+    "description, article, faq_json, image_url, source_url, avg_rating, rating_count, rating_love, rating_like, "
     "rating_ok, rating_dislike, rating_hate, user_avg_rating, user_rating_count, "
     "longevity_very_weak, longevity_weak, longevity_moderate, longevity_long_lasting, "
     "longevity_eternal, sillage_intimate, sillage_moderate, sillage_strong, sillage_enormous, "

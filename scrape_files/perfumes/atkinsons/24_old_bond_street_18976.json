@@ -16,59 +16,87 @@
     },
     {
       "name": "aromatik",
-      "width": "91.4009%"
+      "width": "91.7201%"
     },
     {
       "name": "taze baharatlı",
-      "width": "74.3534%"
+      "width": "74.4207%"
     },
     {
       "name": "viski",
-      "width": "64.483%"
-    },
-    {
-      "name": "sıcak baharatlı",
-      "width": "58.8793%"
+      "width": "64.0072%"
     },
     {
       "name": "gül",
-      "width": "58.8793%"
+      "width": "59.3601%"
+    },
+    {
+      "name": "sıcak baharatlı",
+      "width": "59.2124%"
     },
     {
       "name": "yeşil",
-      "width": "55.0864%"
+      "width": "55.2201%"
     },
     {
       "name": "taze",
-      "width": "52.5864%"
+      "width": "52.6644%"
     },
     {
       "name": "misk",
-      "width": "44.8708%"
+      "width": "44.9968%"
     },
     {
       "name": "amber",
-      "width": "44.4397%"
+      "width": "44.5747%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.10",
-    "votesCount": "851",
+    "score": "4.09",
+    "votesCount": "872",
     "breakdown": {
-      "love": "318",
-      "like": "370",
-      "ok": "100",
-      "dislike": "54",
+      "love": "322",
+      "like": "378",
+      "ok": "107",
+      "dislike": "56",
       "hate": "9"
     }
   },
   "seasons": {
     "winter": "85",
-    "spring": "313",
-    "summer": "296",
-    "autumn": "215",
-    "day": "320",
-    "night": "94"
+    "spring": "319",
+    "summer": "301",
+    "autumn": "219",
+    "day": "326",
+    "night": "95"
   },
   "notes": {
     "top": [
@@ -88,33 +116,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "21",
+    "weak": "61",
+    "moderate": "218",
+    "longLasting": "85",
+    "eternal": "11"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "95",
+    "moderate": "218",
+    "strong": "73",
+    "enormous": "54"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "11",
+    "moreFemale": "6",
+    "unisex": "163",
+    "moreMale": "99",
+    "male": "72"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "100",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "22",
+    "overpriced": "72",
+    "fair": "107",
+    "goodValue": "28",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ATKİNSONS",
+      "name": "24 Old Bond Street Triple Extract"
+    },
+    {
+      "brand": "ATKİNSONS",
+      "name": "24 Old Bond Street Limited Edition"
+    },
+    {
+      "brand": "ATKİNSONS",
+      "name": "24 Old Bond Street Limited Edition 2016"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Infusion Mandarine"
+    },
+    {
+      "brand": "PORSCHE DESİGN",
+      "name": "The Essence"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Never-ending Summer"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Quercus"
+    },
+    {
+      "brand": "HERMETİCA",
+      "name": "Spiceair"
+    },
+    {
+      "brand": "SİR PARFUMER DNA 2030",
+      "name": "My Nirvana"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Les Parfums Mythiques - Extravagance d'Amarige"
+    },
+    {
+      "brand": "ORTİGİA SİCİLİA",
+      "name": "Florio"
+    },
+    {
+      "brand": "COTY",
+      "name": "Pret a Porter"
+    },
+    {
+      "brand": "IMPULSE",
+      "name": "Masquerade"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "Declaration"
+    },
+    {
+      "brand": "FRAPİN",
+      "name": "L'Humaniste"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LALİQUE",
@@ -139,6 +228,10 @@
     {
       "brand": "DİOR",
       "name": "Fahrenheit"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Musc Ravageur"
     },
     {
       "brand": "AMOUAGE",
@@ -171,10 +264,208 @@
     {
       "brand": "CREED",
       "name": "Aventus"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent747652",
+      "author": "_Who__nose_",
+      "date": "2025-05-24",
+      "text": "Bu çok temiz ve zarif bir koku. İçinde daha fazla viski olmasını umuyordum, ancak viski çok hafif. Geriye kalan ise gül, ardıç ve kakule ile kişilik kazanan çay, odun ve misk notalarının hoş bir yaz kokusu. Viski, ona biraz karakter katmak için yeterli miktarda var, ancak bunu bir 'viski kokusu' yapacak kadar değil. Beklediğim gibi değildi, ama yine de güzel kokuyor. Performansı şu ana kadar yok denecek kadar az. Bunu doğrulamak için biraz kullanmam gerekecek, ancak daha derin bir performans umarak koku yağı sipariş ettiğim için daha fazlasını bekliyordum.\n\nGüncelleme: Kurudukça viski tadı çok daha belirginleşiyor. Gerçekten çok güzel.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2034471.jpg"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Noir de Noir"
+      "id": "parent747651",
+      "author": "dadamvid",
+      "date": "2024-03-28",
+      "text": "Kendinize bir puro ve bir Old Fashioned kokteyli alın. Güneşten bronzlaşmış sarımsı saçlarınızın arasından parmaklarınızı geçirin. Kaplumbağa kabuğu desenli güneş gözlüklerinizi takın. Güneş çıktı ve siz, eski zengin, bej Panama takım elbiseli beyefendi, Fransız Rivierası'nda bir güne daha başlamanın vakti geldi.\n\nBu, günlük kullanıma uygun, sofistike bir erkek parfümünün en güzel örneği. Taze, yeşil, aromatik ve kakule dokunuşu onu mükemmel bir şekilde harmanlanmış bir kolonya haline getiriyor. Arka planda kalan alkollü nota ise ona son dokunuşu katıyor.\n\nÇok eşsiz. Dikkat çekiyor ve pek çok insan bunu bilmiyor veya böyle kokmuyor. Gerçekten harika, özgün bir parfüm.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent747687",
+      "author": "MARIATH20",
+      "date": "2024-01-25",
+      "text": "Tipik bir narenciye kolonyası olmaması beni çok etkiledi! Tam tersine! Çok özel!\nViski kokusunu kolayca alamıyorum ve tenimde neredeyse tamamen kaybolmuş, ancak siyah çay ve ambergris harika notalar ve bunları kolayca yakalayabiliyorum, arka planda ise kırmızı bir gül ayırt edebiliyorum. Kalıcılığı en fazla 3-4 saat. Çok uzun süre kalıcı değil. Tabii ki ilkbahar ve yaz için uygun.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.gr",
+      "avatar": "https://fimgs.net/mdimg/avatarigr/m.21550.jpg"
+    },
+    {
+      "id": "parent747690",
+      "author": "H.201",
+      "date": "2023-11-19",
+      "text": "Yıllar önce ilk denediğimde katı sabun ve sigara gibi kokmuştu 😅. Seyahat ederken tesadüfen tekrar kokladım ve ilk izlenimimden tamamen farklı bir koku olduğunu keşfettim! Belki de ilk izlenimimi veren viskiydi ve ferah bir koku veriyor... Bu versiyonu siyah olana tercih ediyorum; daha ferah, daha çekici ve daha güzel, üstelik unisex. Uzun süre kullandığım yaz parfümlerimden biri oldu ve hiç beklemediğim halde bağımlısı oldum! Ama deneyim muhteşem 👏.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragranticarabia.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent747658",
+      "author": "vitodito",
+      "date": "2023-09-15",
+      "text": "Çok zengin, çok zarif, tam anlamıyla İngiliz bir koku.\n\nÇok iyi harmanlanmış, bu yüzden belirgin bir nota öne çıkmıyor veya kolayca algılanmıyor, ancak zarafet ve klas bir hava veriyor; çok hoş, taze bir çiçek kokusu, daha çok erkeksi olduğunu söyleyebilirim ama unisex'e de yakın.\n\nÖnemli bir detayı vurgulamak istedim: \"tuvalet sirkesi\" etiketli şişeler de satılıyor. Bunlar, performans açısından belirgin bir fark gösteren tıraş sonrası losyonlarıdır.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.40111.jpg"
+    },
+    {
+      "id": "parent747683",
+      "author": "Tomaxa",
+      "date": "2023-08-03",
+      "text": "perfumeholic88'in aksine, kokuda çok az tatlılık olduğu için herhangi bir tatlılık tespit etmekte zorlanıyorum. Aynı şey içerik listesinde yer alan viski için de geçerli; belirtilen sınırlar içinde kalıyor. Koku taze, odunsu ve narenciye ağırlıklı, listede yer almayan zencefile benzeyen hoş bir ışıltı da içeriyor. Bu etkiyi muhtemelen kakule, siyah çay ve ardıç yaratıyor, ancak ISO E Super de olabilir, kim bilir... Kısacası, hoş ve enerjik, taze bir koku.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent747676",
+      "author": "MiraO",
+      "date": "2023-07-11",
+      "text": "ATKINSONS 24 Old Bond Street, incelikli, karmaşık ve zekice tasarlanmış, 5. nesil bir koku. Narin ama ayırt edici, gizemli ve yumuşak, bir şekilde içten gelen bir ışıltıya sahip. Neredeyse hiç yayılımı yok, teninize adeta değerli bir bakım kozası gibi yapışıyor. Sürekli elinizi kaldırıp bu eski dünyanın ruhani nektarını içinize çekmek istiyorsunuz... büyülü. 😇🙈😍🌹💥🌷",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.322762.jpg"
+    },
+    {
+      "id": "parent747677",
+      "author": "Elenavduhah",
+      "date": "2022-07-29",
+      "text": "Evrensel bir koku, koca bir kova aldım. Bu koku kesinlikle nerede, ne zaman ve neyle kullanacağınızı düşünmenizi gerektirmiyor. Günün veya gecenin herhangi bir saatinde, işte, randevuda, spor salonunda, plajda, yürüyüşte, vaftiz töreninde veya hatta cenazede... Her yere uyuyor. Bunu açıklayamam. Karakteristik özelliği yok veya hiç yokmuş gibi değil, ama çok uyumlu, sanki size ve etrafınızdaki her şeye uyum sağlıyor. Notalarına ayıramam, ama ne istediğinizi asla bilemediğiniz zamanlar için bir kokuya ihtiyacım vardı ve onu buldum.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.279742.jpg"
+    },
+    {
+      "id": "parent747679",
+      "author": "TheSilk_road",
+      "date": "2020-12-03",
+      "text": "Parfümeride \"politik doğruculuk\" kelimesinin kullanımını anlamıyorum. Bu parfüm hangi grupları rahatsız edebilir diye sorabilir miyim?\nAslında, bu kokunun kendisi hakkında saatlerce aşk şiirleri yazabilirim. Ardıç, viski ve gül çok belirgin. Dikkatlice dinlerseniz, diğer içerikler de fark ediliyor. Kokuyu hemen ve özellikle üzerimde hissediyorum; parfüm aynı kokuyor, sonra yavaş yavaş kayboluyor. Notalarla oynayan kolonyalara hiç rastlamadım; genellikle hep oldukça monoton geliyorlar. Onları ayaklarınızın altında ıslak yapraklarla yürüdüğünüz yağmurlu sonbaharla ilişkilendiriyorum. Şömine başında sıcak akşamlar, akşam sokaklarından gelen serin hava. Çok İngiliz. Alışılmadık geliyor. Molekülle bir benzerlik var, ama o kadar da değil. Her halükarda, koku orijinal. Bence tamamen unisex.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.203547.jpg"
+    },
+    {
+      "id": "parent747672",
+      "author": "andreaciliegia",
+      "date": "2020-11-15",
+      "text": "Lezzetli ama seksi değil; zarif ama baskın değil. Neredeyse oda parfümü gibi. Genç erkekler için bir parfüm değil. Bence resmi ama çok ciddi olmayan bir ortamda veya sadece değişiklik olsun diye, farklı bir şey denemek için kullanılabilecek bir şey. Kalıcılığının ve yayılımının zayıf olması üzücü.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.49923.jpg"
+    },
+    {
+      "id": "parent747682",
+      "author": "perfumeholic88",
+      "date": "2020-03-19",
+      "text": "Old Bond Street, pahalı, tasarımcı mağazalarıyla biliniyor ve muhtemelen bu yüzden oraya hiç ayak basmadım. Bu tür şeylerle ilgilenmiyorum; bence Londra'da ve hatta Birleşik Krallık'ta, parasıyla ne yapacağını bilmeyen snoblar için gidilecek yerlerden çok daha fazla yer var. Ama bu sadece benim fikrim. Tamam, peki Old Bond Street nasıl kokuyor? Çok tatlı ve daha da kötüsü, bu tatlılığın nereden geldiğinden emin değilim. Viski mi? Ama viski tatlı değil, ya da en azından o kadar tatlı değil! Anlayamıyorum ama sevmiyorum çünkü tatlılık her şeyi bastırıyor; ne yazık ki, aşırı derecede rahatsız edici bir tatlılık. Tatlılık çayın aromasıyla karışıyor, ama aynı zamanda müdahale ediyor ve diğer hiçbir bileşenin gerçekten parlamasına izin vermiyor. En sonda sadece narin bir misk beliriyor, ama çok fazla değişmiyor, parfümlü tuvalet sabununa dönüşüyor. Bu kompozisyon bana neyi hatırlatıyor? Ülkenin en büyük isimlerinin elit kesiminden oluştuğu pahalı ve gösterişli bir partide pahalı alkolle sarhoş olmak ve ardından mermer kaplı bir banyoda yine pahalı, parfümlü sabunla yıkanmak... Kötü geliyor, biliyorum, ama kokusunu hiç sevmedim. Körlemesine denemenizi tavsiye etmem!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.222.jpg"
+    },
+    {
+      "id": "parent747656",
+      "author": "wildkatzen",
+      "date": "2019-12-30",
+      "text": "Zarif ve şık, meşe fıçılarda olgunlaştırılmış viskiden elde edilen ve hafif unisex bir dokunuşla tasarlanmış bir parfüm. Bana göre kalıcılığı harika, bu tamamen pH'a bağlı, en azından benim için bu koku oldukça uzun süre kalıcı.\nİşte çok eski ve saygın bir markanın desteği; ne yaptıklarını biliyorlar.\nkalite:10\nSabitleme süresi 7-8 saat\nÖzgünlük: 9.5\nFiyat: Lüks aralık\nKoku ilk 5 saat içinde hissedilir, ardından kademeli olarak azalır.\nBelirli bir resmiyet seviyesi gerektiren etkinlikler veya randevular için %100 tavsiye edilir.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.15506.jpg"
+    },
+    {
+      "id": "parent747642",
+      "author": "acc",
+      "date": "2019-01-13",
+      "text": "Taze, rahat, modern bir gündüz kokusu. Listelenen notaları görünce şaşırdım çünkü koku oldukça doğrusal bir yol izliyor. Güçlü bir koku olmamasına rağmen, şaşırtıcı bir derinliğe sahip. Hafif çiçeksi, alkollü, baharatlı ve lezzetli olması ona harika bir karakter kazandırıyor.\n\nKakule, viski ve siyah çay bu kokuyu benim için özel kılıyor ve gülün hafifçe yankılanmasını da çok beğendim.\n\nİlk 3 saat boyunca iyi bir yayılıma sahip, neredeyse 8 saat boyunca kalıcı ve daha sonra ten kokusuna dönüşüyor. Kıyafetlerde kullanıldığında ise ertesi güne kadar etkisini sürdürüyor. Bu eau de cologne'un performansından çok memnun kaldım, çünkü çoğu tasarımcı parfümünden çok daha iyi.\n\nOfis ortamı veya günlük kullanım için ideal bir koku adayı.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.5150.jpg"
+    },
+    {
+      "id": "parent747648",
+      "author": "almondbreakfast",
+      "date": "2018-02-18",
+      "text": "Atkinsons ile ilk karşılaşmam yaklaşık iki yıl önce oldu.\n\nBir mağazadaydım ve birkaç parfümünü denedim. O an üzerimde pek bir izlenim bırakmadılar. Belki de markayı hiç tanımadığım içindi ve açıkçası fiyatları da oldukça yüksekti.\n\nİki hafta önce 24 Old Bond Street'e rastladım. İsmi çok hoşuma gitti. 24 numara ve Old Bond Street.\n\nHaritayı Google'da aradım ve işte, sevdiğim bina bu. Bir Noel zamanı Mayfair'de dolaşırken gözüme çarpan bir bina vardı. Kavşakta durup, detayları hayranlıkla incelemiştim. Bölgedeki en güzel bina/mağazaydı ve Salvatore Ferragamo tarafından kullanılıyordu. Anlaşılan, bu bina aslen Atkinson ailesine aitti.\n\n24 Old Bond Street'i seveceğimi hemen anladım.\n\nAtkinsons'ın en eski İngiliz parfüm evi olduğunu öğrenince, markaya olan saygım ve hayranlığım birkaç dakika içinde arttı. Hemen kendime bir şişe 24 Old Bond Street aldım ve bayılıyorum.\n\nBelki de hikayenin gücü, çağrışımı yüzünden, 24 Old Bond Street harika bir kolonya. Canlı, ferah ve şık. Siyah çay ve viski belirgin. Yayılımı da gayet orta seviyede, çünkü yüksek koku asla şık olmaz. Kalıcılığı daha iyi olabilirdi ama bir kolonya olduğu düşünüldüğünde yine de kabul edilebilir.\n\nBununla birlikte, Atkinson'larıma kesinlikle ikinci bir şans vereceğim.\n\n-AB-",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.45847.jpg"
+    },
+    {
+      "id": "parent747655",
+      "author": "mora",
+      "date": "2018-01-15",
+      "text": "Bu kokunun tenimde ve kıyafetlerimde en az 4 saat kalması harika olurdu. Lezzetli, ışıltılı ve aynı zamanda sıcak. İlk 30 dakika boyunca çok canlı olan enfes bir ardıç ve kakule notasıyla açılıyor, ardından sadece çok zayıf bir gül, odunsu notalar ve narin bir misk algılıyorum. İçinde olduğu iddia edilen viskiyi hiçbir noktada algılayamıyorum.\n\nKalıcılığının bu kadar zayıf olması gerçekten üzücü; iki saat sonra kokusundan eser kalmıyor. İlkbahar ve yaz aylarında kullanmayı çok isterdim.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.7501.jpg"
+    },
+    {
+      "id": "parent747695",
+      "author": "Dixon",
+      "date": "2016-09-11",
+      "text": "Aroma sade, karmaşık olmayan, saf ve çok güzel. Nefesini de not edeceğim ve kesinlikle hissediliyor: başlangıçta, ardıç notalarıyla birlikte bol miktarda İngiliz çayı var; buradan itibaren aroma odunsu bir alt ton kazanıyor; gül serinlik katıyor; ve biraz sonra ortaya çıkan viski, aromayı çok az da olsa ısıtıyor.\n\nKokunun kendisi milyonlarca nüans sunmasa da, doğal kokusu büyüleyici ve asil bir havası var. Kulüpteki gençler için uygun olmayabilir, ancak toplantıda şık giyimli bir adam için mükemmel. Bu daha çok kendi değerini bilen bir adamın kokusu. Retro esintileri olmadan modern bir his veriyor.\n\nŞişe, güzel tasarlanmış bir kutuda, sıçrama tarzında, düz bir tasarıma sahip; sprey versiyonları da mevcut olsa da, tutması çok keyifli. Kalıcılığı kısa olmalı, çünkü kolonya konsantrasyonunda piyasaya sürülüyor (benim versiyonum ise parfümlü tuvalet sirkesi olarak adlandırılıyor), ancak benimki yaklaşık dört saat sürüyor ve hafif bir iz bırakıyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ua",
+      "avatar": "https://fimgs.net/mdimg/avatariua/m.217.jpg"
+    },
+    {
+      "id": "parent747650",
+      "author": "Aquatic Mountain Pikachu",
+      "date": "2016-07-13",
+      "text": "Oldukça beğendim. Sakinleştirici bir koku, tıpkı her zaman güvenebileceğiniz eski bir arkadaş (ya da zengin bir sevgili) gibi. Douglas mağazasında tenimde denedim, kalıcılığı yaklaşık 4-5 saat. Büyük ihtimalle bir sonraki alışverişim olacak.\n\nGÜNCELLEME (15.07.2016): Dün aldım. Bu sabah (saat 8 civarında) bolca uyguladım ve bu da beklenenden daha güçlü bir yayılıma yol açtı. Sadece EDC olarak pazarlanmasına rağmen, Versace pour Homme'dan 2 kat daha güçlü bir yayılıma sahip. Saat 14:00'e kadar yoğun bir koku bulutu beni takip etti. Şimdi saat 17:00 ve hala zaman zaman viski kokusunu hissedebiliyorum, ki bu şu anda (ardıçtan sonra) en güçlü bileşen.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1009022.jpg"
+    },
+    {
+      "id": "parent747646",
+      "author": "racb",
+      "date": "2016-04-12",
+      "text": "Serin, pamuklu gömlekleri ve yeni yıkanmış saçları anında akla getiren temiz, ferah bir kolonya. Kurudukça hafif sabunsu bir koku bırakıyor, içinde (ardıç mı acaba?) Matey banyo köpüklerini anımsatan bir şey var ama bu sadece benim algım olabilir.\n\nHiç de tatsız değil aslında. Kurudukça çayın tadı ortaya çıkmaya başlıyor, ardıçla dengeleniyor ve belki de hafif bir viski dokunuşu da var. Ama sadece hafif bir dokunuş.\n\nUnisex bir koku olmasına rağmen, bence çok erkeksi ve çok hoş olsa da, benim için iki notadan (ardıç ve çay) oluşan bir koku; ben Penhaligon's Quercus veya Juniper Sling'i tercih ederim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.927134.jpg"
+    },
+    {
+      "id": "parent747640",
+      "author": "LANIER",
+      "date": "2013-10-27",
+      "text": "1799 yılında kurulan ünlü ve saygın İngiliz parfüm evi Atkinsons'ın bu yıl yeniden piyasaya sürülmesiyle yeniden doğuşunu keşfetmek çok heyecan verici. Yeni koleksiyon San Francisco'daki Barney's NY'ye yeni geldi ve koleksiyondaki beş kokunun her birinin güzelliğine hayran kaldım. Bunlar (Efsanevi Koleksiyon) Odd Fellows Bouquet, The Nuptial Bouquet, The British Bouquet, Fashion Decree Woman ve Emblematic Collection'dan 24 Old Bond Street'tir.\n\n24 Old Bond Street, göz alıcı, şık ve büyüleyici bir oryantal koku. Bu maskülen Eau de Cologne'da şıklık ve zarafet ön planda. Açılışta, cin benzeri ardıçın canlandırıcı ve ferahlatıcı bir patlamasıyla başlayan koku, hızla yumuşak bir çay notasına dönüşüyor. Burada, İngiliz sömürge dönemini ve sömürge imparatorluğunun sürekli parlayan İngiliz güneşi altında şekillendiği zamanları hatırlıyoruz. Ardıçla tatlandırılmış bu çay, hoş ve zarif bir İngiliz gülüyle birleşerek, iksire Tudor baharından bir dokunuş katıyor. Çay ön planda, gül ve ardıç arka planda kalırken, alttan gelen hoş ve alkollü viski notası sayesinde bir süre rahatlıyoruz. Bu, eski İngiliz meşe fıçılarında yıllandırılmış, zengin ve dumanlı bir güzelliğe dönüşen ince bir viski notası. Son olarak, Mayfair'deki bir beyefendi kulübünde viski ve puro sahnesiyle son buluyoruz.\n\nBu kolonyanın ömrü kısa ama muhteşem. Sonuçta eski tarz bir Eau de Cologne ve vahşi bir ayı gibi bir koku beklememelisiniz. Bu ayı bir beyefendi, bir canavar değil. Yayılımı orta düzeyde ve ben de bunu böyle seviyorum. 24 Old Bond Street, herhangi bir beyefendinin (veya hanımefendinin) tuvaletine mükemmel bir başlangıç ​​katacak ideal bir banyo veya duş sonrası kolonyasıdır. Ayrıca banyo ve duş esansı, vücut losyonu, sabun ve kokulu mum olarak da mevcuttur. Kişisel ve yakın bir eau de cologne olup, özgüven ve belki de biraz romantizm de uyandırır.\n\nEğer \"Ayıyı Cesaretle Geçmeye\" kararlıysanız, Atkinsons 1799'u ziyaret edin ve yeniden doğmuş bu muhteşem tarihi evi keşfedin.\n\n24 OLD BOND STREET ~ 5 Altın Yıldız *****\n\n(Eğer Bear hakkındaki tüm yorumumu okumak isterseniz, Scents Memory adlı bloguma göz atabilirsiniz.)",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.187731.jpg"
+    },
+    {
+      "id": "parent747644",
+      "author": "Broadbent",
+      "date": "2013-10-16",
+      "text": "Bu benim için hoş bir sürpriz oldu. Klasik ve sıra dışı İngiliz kokularının mükemmel bir birleşimi. Hafifçe Penhaligon's veya Floris'i anımsatıyor, ama biraz daha farklı. Hala zarif ve tanıdık, ama klasikliğin biraz dışında. Son birkaç gündür keyifle kullandım ve parfüm koleksiyonuma ekleyeceğim.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     }
   ]
 }

@@ -37,6 +37,30 @@
     {
       "name": "pudralı",
       "width": "44.2692%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,7 +85,16 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Zambak",
+      "Manolya",
+      "Müge",
+      "Misk",
+      "Biber",
+      "Sedir",
+      "Baharatlı Notalar"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -125,12 +158,12 @@
       "name": "Dune"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Memoir Woman"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Black Orchid"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Memoir Woman"
     },
     {
       "brand": "GUERLAİN",
@@ -152,5 +185,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

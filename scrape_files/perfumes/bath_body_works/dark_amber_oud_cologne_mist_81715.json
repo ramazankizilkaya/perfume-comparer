@@ -2,7 +2,7 @@
   "name": "Dark Amber & Oud Cologne Mist Bath & Body Works",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Woody",
-  "concentration": "Edc",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.81715.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Dark-Amber-Oud-Cologne-Mist-81715.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
@@ -29,6 +29,34 @@
     {
       "name": "balsamik",
       "width": "42%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Agar ağacı",
+      "Siyah Amber"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -73,11 +105,11 @@
     "moreFemale": "0",
     "unisex": "1",
     "moreMale": "12",
-    "male": "5"
+    "male": "6"
   },
   "priceVoting": {
     "wayOverpriced": "0",
-    "overpriced": "1",
+    "overpriced": "2",
     "fair": "5",
     "goodValue": "3",
     "greatValue": "6"
@@ -153,5 +185,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Guilty As Fig"
     }
-  ]
+  ],
+  "comments": []
 }

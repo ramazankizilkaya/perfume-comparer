@@ -29,6 +29,34 @@
     {
       "name": "vanilya",
       "width": "39.3334%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "2",
     "summer": "2",
     "autumn": "1",
@@ -53,7 +81,13 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Nar",
+      "Çilek",
+      "Ahududu",
+      "Şeker"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -91,6 +125,10 @@
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Santa's Blueberry Shortbread"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Pink Pineapple Sunrise"
     },
     {
@@ -104,6 +142,10 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Bubble Gum Pop"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Strawberry Soda"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -122,16 +164,12 @@
       "name": "Midnight Addiction"
     },
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Cotton Candy Clouds"
+    },
+    {
       "brand": "DOSSİER",
       "name": "Ambery Cherry"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Cereal Milk Soft Serve"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Lost Cherry"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -144,10 +182,7 @@
     {
       "brand": "BY KİLİAN",
       "name": "Love Don't Be Shy"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Little Black Party Dress"
     }
-  ]
+  ],
+  "comments": []
 }

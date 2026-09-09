@@ -45,26 +45,54 @@
     {
       "name": "meyvemsi",
       "width": "47.1428%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.29",
-    "votesCount": "31",
+    "score": "4.38",
+    "votesCount": "40",
     "breakdown": {
-      "love": "12",
-      "like": "18",
+      "love": "18",
+      "like": "21",
       "ok": "0",
       "dislike": "0",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "1",
-    "spring": "27",
-    "summer": "29",
-    "autumn": "4",
-    "day": "23",
-    "night": "4"
+    "winter": "3",
+    "spring": "34",
+    "summer": "37",
+    "autumn": "7",
+    "day": "31",
+    "night": "5"
   },
   "notes": {
     "top": [
@@ -79,18 +107,19 @@
     "base": [
       "Sandal ağacı",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "3",
-    "moderate": "14",
-    "longLasting": "8",
+    "moderate": "16",
+    "longLasting": "9",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "14",
+    "intimate": "2",
+    "moderate": "16",
     "strong": "2",
     "enormous": "0"
   },
@@ -98,20 +127,32 @@
     "female": "0",
     "moreFemale": "1",
     "unisex": "7",
-    "moreMale": "11",
-    "male": "7"
+    "moreMale": "12",
+    "male": "8"
   },
   "priceVoting": {
     "wayOverpriced": "2",
     "overpriced": "0",
     "fair": "0",
     "goodValue": "3",
-    "greatValue": "19"
+    "greatValue": "21"
   },
   "remindsMeOf": [
     {
       "brand": "RAYHAAN",
       "name": "Jungle Vibe"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Beau"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Kenzo Homme Marine"
+    },
+    {
+      "brand": "DRİES VAN NOTEN",
+      "name": "Santal Greenery"
     },
     {
       "brand": "DOLCE&GABBANA",
@@ -122,24 +163,12 @@
       "name": "Santal 33"
     },
     {
-      "brand": "NATURA",
-      "name": "Kaiak Oceano"
-    },
-    {
-      "brand": "DRİES VAN NOTEN",
-      "name": "Santal Greenery"
-    },
-    {
-      "brand": "KENZO",
-      "name": "Kenzo Homme Marine"
+      "brand": "ISSEY MİYAKE",
+      "name": "Fusion d'Issey"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Beau Paradise Garden"
-    },
-    {
-      "brand": "ISSEY MİYAKE",
-      "name": "Fusion d'Issey"
     }
   ],
   "peopleAlsoLike": [
@@ -168,8 +197,8 @@
       "name": "Club de Nuit Intense Man"
     },
     {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Beau Paradise Garden"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Art Of Universe"
     },
     {
       "brand": "NATURA",
@@ -196,12 +225,13 @@
       "name": "Toy Boy"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Bade'e Al Oud Honor & Glory"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Jean Lowe Immortal"
     },
     {
       "brand": "GİESSO",
       "name": "No. 01"
     }
-  ]
+  ],
+  "comments": []
 }

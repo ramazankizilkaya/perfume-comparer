@@ -61,7 +61,7 @@
   "seasons": {
     "winter": "0",
     "spring": "12",
-    "summer": "19",
+    "summer": "20",
     "autumn": "2",
     "day": "18",
     "night": "2"
@@ -82,57 +82,37 @@
       "Beyaz Odun",
       "Amber",
       "Yosun"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "3",
-    "moderate": "2",
-    "longLasting": "1",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "2",
-    "strong": "5",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "2",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "4",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Bombshell"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "Trésor Midnight Rose"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Acerola e Hibisco"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "D&G Feminine"
-    },
-    {
-      "brand": "ESCADA",
-      "name": "Escada Sexy Graffiti 2011"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "VİCTORİA'S SECRET",
@@ -140,11 +120,11 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Beautiful Day"
+      "name": "Hello Sunshine"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Hello Sunshine"
+      "name": "Beautiful Day"
     },
     {
       "brand": "BRİTNEY SPEARS",
@@ -194,5 +174,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Sunset by the Pool"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -37,16 +37,44 @@
     {
       "name": "vanilya",
       "width": "49.1075%"
+    },
+    {
+      "name": "Online satın alın 21 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.94",
-    "votesCount": "348",
+    "score": "3.93",
+    "votesCount": "350",
     "breakdown": {
-      "love": "125",
-      "like": "137",
-      "ok": "34",
-      "dislike": "44",
+      "love": "126",
+      "like": "136",
+      "ok": "35",
+      "dislike": "45",
       "hate": "8"
     }
   },
@@ -76,33 +104,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "9",
+    "moderate": "53",
+    "longLasting": "92",
+    "eternal": "18"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "17",
+    "moderate": "53",
+    "strong": "69",
+    "enormous": "25"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "3",
+    "unisex": "50",
+    "moreMale": "48",
+    "male": "35"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "34",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "11",
+    "overpriced": "26",
+    "fair": "35",
+    "goodValue": "8",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LUSH",
+      "name": "Cardamom Coffee"
+    },
+    {
+      "brand": "YOHJİ YAMAMOTO",
+      "name": "Yohji Homme"
+    },
+    {
+      "brand": "HOUSE OF NOYA",
+      "name": "Ode to Oud"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "The Bewitching Yasmine"
+    },
+    {
+      "brand": "CARNER BARCELONA",
+      "name": "Megalium"
+    },
+    {
+      "brand": "EIGHT & BOB",
+      "name": "Agneta"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Tero"
+    },
+    {
+      "brand": "AROMAS DE SALAZAR",
+      "name": "Cafe Oud"
+    },
+    {
+      "brand": "ONCE",
+      "name": "Desight"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Aoud Exclusif"
+    },
+    {
+      "brand": "MEMOİZE LONDON",
+      "name": "Invidia"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "Irrévérent"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Bois Pacifique"
+    },
+    {
+      "brand": "AXE",
+      "name": "Cool Metal"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Aoud Café"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MEMO PARİS",
@@ -164,5 +253,6 @@
       "brand": "HERMÈS",
       "name": "Terre d'Hermès"
     }
-  ]
+  ],
+  "comments": []
 }

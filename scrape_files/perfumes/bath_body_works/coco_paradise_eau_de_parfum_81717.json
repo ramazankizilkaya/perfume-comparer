@@ -49,23 +49,51 @@
     {
       "name": "laktonik",
       "width": "45.6383%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.50",
-    "votesCount": "44",
+    "score": "4.49",
+    "votesCount": "45",
     "breakdown": {
       "love": "26",
-      "like": "14",
+      "like": "15",
       "ok": "4",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "3",
+    "winter": "4",
     "spring": "15",
-    "summer": "28",
+    "summer": "29",
     "autumn": "7",
     "day": "25",
     "night": "17"
@@ -73,24 +101,32 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Hindistan cevizi",
+      "Monoi yağı",
+      "Neroli",
+      "Sandal ağacı",
+      "Şeker",
+      "Tuz"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "3",
-    "moderate": "13",
+    "moderate": "14",
     "longLasting": "5",
     "eternal": "1"
   },
   "sillage": {
     "intimate": "1",
-    "moderate": "13",
-    "strong": "3",
+    "moderate": "14",
+    "strong": "4",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "12",
-    "moreFemale": "10",
+    "moreFemale": "11",
     "unisex": "2",
     "moreMale": "0",
     "male": "1"
@@ -100,7 +136,7 @@
     "overpriced": "1",
     "fair": "4",
     "goodValue": "9",
-    "greatValue": "9"
+    "greatValue": "10"
   },
   "remindsMeOf": [
     {
@@ -148,16 +184,16 @@
       "name": "Coconut Jasmine Sugar"
     },
     {
-      "brand": "LOLLİA",
-      "name": "Imagine"
-    },
-    {
       "brand": "PHLUR",
       "name": "Beach Skin"
     },
     {
       "brand": "OAKCHA",
       "name": "Moontide"
+    },
+    {
+      "brand": "LOLLİA",
+      "name": "Imagine"
     },
     {
       "brand": "MUGLER",
@@ -194,12 +230,12 @@
       "name": "Sweet Like Candy"
     },
     {
-      "brand": "VALENTİNO",
-      "name": "Valentino Donna Born In Roma"
-    },
-    {
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy Gold Couture"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born In Roma"
     },
     {
       "brand": "MUGLER",
@@ -225,5 +261,6 @@
       "brand": "AQUOLİNA",
       "name": "Pink Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,30 @@
     {
       "name": "aromatik",
       "width": "47.8035%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,7 +108,8 @@
       "Vanilya",
       "Tonka fasulyesi",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "5",
@@ -115,22 +140,22 @@
   },
   "remindsMeOf": [
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Black Opium Nuit Blanche"
-    },
-    {
       "brand": "JİMMY CHOO",
       "name": "Jimmy Choo Fever"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Nuit Blanche"
     }
   ],
   "peopleAlsoLike": [
     {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique"
-    },
-    {
       "brand": "DİOR",
       "name": "Hypnotic Poison"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Angham"
     },
     {
       "brand": "MAUBOUSSİN",
@@ -173,16 +198,17 @@
       "name": "Khamrah Qahwa"
     },
     {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Woman"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Eternal Oud"
     },
     {
       "brand": "VERSACE",
       "name": "Crystal Noir"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Noble Blush"
     }
-  ]
+  ],
+  "comments": []
 }

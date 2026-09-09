@@ -29,6 +29,34 @@
     {
       "name": "vanilya",
       "width": "41.3514%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,7 +88,8 @@
     "base": [
       "Şeker",
       "Yaban mersini"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "4",
@@ -125,6 +154,10 @@
       "name": "Pink Pineapple Sunrise"
     },
     {
+      "brand": "NİCKİ MİNAJ",
+      "name": "Pink Friday"
+    },
+    {
       "brand": "BATH & BODY WORKS",
       "name": "Strawberry Snowflakes"
     },
@@ -139,6 +172,10 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Champagne Apple & Honey"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "A Thousand Wishes"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -158,10 +195,6 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Cozy Vanilla Bourbon"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Warm Vanilla Sugar"
     },
     {
@@ -171,10 +204,7 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Fairytale"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Pink Obsessed"
     }
-  ]
+  ],
+  "comments": []
 }

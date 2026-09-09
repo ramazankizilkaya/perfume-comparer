@@ -136,7 +136,22 @@ const perfumeSchema = Joi.object({
     name: Joi.string().required()
   })).required().messages({
     'any.required': 'Benzer beğenilenler (peopleAlsoLike) dizisi eksik'
-  })
+  }),
+  comments: Joi.array().items(Joi.object({
+    id: Joi.string().allow('', null).optional(),
+    author: Joi.string().allow('', null).optional(),
+    date: Joi.string().allow('', null).optional(),
+    text: Joi.string().allow('', null).optional(),
+    sentiment: Joi.string().allow('', null).optional(),
+    gradient: Joi.string().allow('', null).optional(),
+    source: Joi.string().allow('', null).optional(),
+    avatar: Joi.string().allow('', null).optional()
+  })).default([]).optional(),
+  article: Joi.string().allow('', null).optional(),
+  faq: Joi.array().items(Joi.object({
+    question: Joi.string().required(),
+    answer: Joi.string().required()
+  })).default([]).optional()
 });
 
 /**

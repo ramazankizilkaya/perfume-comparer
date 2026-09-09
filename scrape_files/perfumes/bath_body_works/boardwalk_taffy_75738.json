@@ -29,6 +29,34 @@
     {
       "name": "pudralı",
       "width": "45.2089%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +81,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Vanilya",
+      "Şeker",
+      "Kırmızı meyveler"
+    ]
   },
   "longevity": {
     "veryWeak": "4",
@@ -182,12 +215,12 @@
       "name": "Ari"
     },
     {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Fantasy"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Champagne Toast"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Fantasy"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -205,5 +238,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Twisted Peppermint"
     }
-  ]
+  ],
+  "comments": []
 }

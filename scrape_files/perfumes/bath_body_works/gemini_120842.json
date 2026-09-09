@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.120842.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Gemini-120842.html",
   "brand": "Bath & Body Works parfüm ve kolonya",
-  "description": "Bath & Body Works markasının Gemini parfümü, kadınlar ve erkekler için bir kokudur. Bu yeni bir parfüm. Gemini, 2025 yılında piyasaya sürüldü. Kokuda Narenciye, Şeftali ve Açık renkli odunlar notaları bulunur.",
-  "description_original": "Bath & Body Works markasının Gemini parfümü, kadınlar ve erkekler için bir kokudur. Bu yeni bir parfüm. Gemini, 2025 yılında piyasaya sürüldü. Kokuda Narenciye, Şeftali ve Açık renkli odunlar notaları bulunur.",
-  "description_enhanced": "Bath & Body Works markasının Gemini parfümü, kadınlar ve erkekler için bir kokudur. Bu yeni bir parfüm. Gemini, 2025 yılında piyasaya sürüldü. Kokuda Narenciye, Şeftali ve Açık renkli odunlar notaları bulunur.",
+  "description": "Bath & Body Works markasının Gemini parfümü, kadınlar ve erkekler için bir kokudur. Bu yeni bir parfüm. Gemini, 2025 yılında piyasaya sürüldü. Kokuda Narenciye, Beyaz Şeftali ve Açık renkli odunlar notaları bulunur.",
+  "description_original": "Bath & Body Works markasının Gemini parfümü, kadınlar ve erkekler için bir kokudur. Bu yeni bir parfüm. Gemini, 2025 yılında piyasaya sürüldü. Kokuda Narenciye, Beyaz Şeftali ve Açık renkli odunlar notaları bulunur.",
+  "description_enhanced": "Bath & Body Works markasının Gemini parfümü, kadınlar ve erkekler için bir kokudur. Bu yeni bir parfüm. Gemini, 2025 yılında piyasaya sürüldü. Kokuda Narenciye, Beyaz Şeftali ve Açık renkli odunlar notaları bulunur.",
   "mainAccords": [
     {
       "name": "narenciye",
@@ -29,6 +29,34 @@
     {
       "name": "taze baharatlı",
       "width": "44.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "2",
     "spring": "5",
     "summer": "7",
     "autumn": "3",
@@ -53,7 +81,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Narenciye",
+      "Beyaz Şeftali",
+      "Açık renkli odunlar"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -147,11 +180,11 @@
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Champagne Toast"
+      "name": "Be Enchanted"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Be Enchanted"
+      "name": "Champagne Toast"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -171,11 +204,11 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Fall in Bloom"
+      "name": "Winter Candy Apple"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Winter Candy Apple"
+      "name": "Fall in Bloom"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -205,5 +238,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Pink Obsessed"
     }
-  ]
+  ],
+  "comments": []
 }

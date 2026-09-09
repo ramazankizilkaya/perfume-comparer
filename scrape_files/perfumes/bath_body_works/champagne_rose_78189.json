@@ -29,31 +29,64 @@
     {
       "name": "animalik",
       "width": "37%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.36",
-    "votesCount": "14",
+    "score": "4.31",
+    "votesCount": "16",
     "breakdown": {
-      "love": "6",
+      "love": "7",
       "like": "7",
-      "ok": "1",
+      "ok": "2",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "7",
-    "spring": "4",
-    "summer": "3",
-    "autumn": "4",
-    "day": "5",
-    "night": "4"
+    "winter": "8",
+    "spring": "5",
+    "summer": "4",
+    "autumn": "5",
+    "day": "6",
+    "night": "5"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Gül",
+      "Prosecco",
+      "Amber"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -78,7 +111,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "1",
+    "fair": "2",
     "goodValue": "5",
     "greatValue": "1"
   },
@@ -165,5 +198,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Bubble Gum Pop"
     }
-  ]
+  ],
+  "comments": []
 }

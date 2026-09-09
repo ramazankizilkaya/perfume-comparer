@@ -31,11 +31,11 @@
       "width": "65%"
     },
     {
-      "name": "amber",
+      "name": "misk",
       "width": "53.3333%"
     },
     {
-      "name": "misk",
+      "name": "amber",
       "width": "53.3333%"
     },
     {
@@ -45,6 +45,34 @@
     {
       "name": "odunsu",
       "width": "44.5833%"
+    },
+    {
+      "name": "Online satın alın 9 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,7 +107,8 @@
     "base": [
       "Amber",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -99,7 +128,7 @@
     "moreFemale": "4",
     "unisex": "2",
     "moreMale": "0",
-    "male": "1"
+    "male": "2"
   },
   "priceVoting": {
     "wayOverpriced": "1",
@@ -199,5 +228,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "The Kingdom For Men"
     }
-  ]
+  ],
+  "comments": []
 }

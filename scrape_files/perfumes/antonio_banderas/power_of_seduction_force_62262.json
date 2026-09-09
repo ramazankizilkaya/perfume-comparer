@@ -49,14 +49,42 @@
     {
       "name": "çiçeksi",
       "width": "47.4441%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.95",
+    "score": "3.97",
     "votesCount": "59",
     "breakdown": {
-      "love": "17",
-      "like": "27",
+      "love": "18",
+      "like": "26",
       "ok": "10",
       "dislike": "5",
       "hate": "0"
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "11",
-    "spring": "35",
+    "spring": "36",
     "summer": "15",
     "autumn": "36",
-    "day": "35",
+    "day": "36",
     "night": "34"
   },
   "notes": {
@@ -82,7 +110,8 @@
     "base": [
       "Deri",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -151,10 +180,6 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "ANTONİO BANDERAS",
-      "name": "Power of Seduction"
-    },
-    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Y Eau de Parfum"
     },
@@ -175,16 +200,16 @@
       "name": "Club de Nuit Intense Man"
     },
     {
+      "brand": "MONTBLANC",
+      "name": "Starwalker"
+    },
+    {
       "brand": "HERMÈS",
       "name": "Terre d'Hermès"
     },
     {
       "brand": "ISSEY MİYAKE",
       "name": "L'Eau d'Issey Pour Homme"
-    },
-    {
-      "brand": "AZZARO",
-      "name": "Wanted by Night"
     },
     {
       "brand": "ANTONİO BANDERAS",
@@ -199,6 +224,10 @@
       "name": "Acqua di Gio"
     },
     {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code"
+    },
+    {
       "brand": "VERSACE",
       "name": "Eros"
     },
@@ -210,5 +239,6 @@
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
     }
-  ]
+  ],
+  "comments": []
 }

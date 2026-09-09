@@ -8,6 +8,9 @@ import PerfumeHeroMedia from "@/components/PerfumeHeroMedia";
 import PerfumeReviewButton from "@/components/PerfumeReviewButton";
 import PerfumeUserPhotos from "@/components/PerfumeUserPhotos";
 import PerfumeCommentsSection, { type CommentData } from "@/components/PerfumeCommentsSection";
+import PerfumeArticleSection from "@/components/PerfumeArticleSection";
+import PerfumeFaqSection, { type FaqItem } from "@/components/PerfumeFaqSection";
+import PerfumeWhereToBuySection from "@/components/PerfumeWhereToBuySection";
 import { API_BASE, genderLabel, brandHref, perfumeHref, mediaUrl } from "@/lib/urls";
 import { noteIcon } from "@/lib/notes";
 import type { PerfumeRef } from "@/lib/stores";
@@ -86,6 +89,8 @@ interface PerfumeDetail {
     alternatives: RelatedPerfume[];
     alsoLiked: RelatedPerfume[];
     path: string;
+    article?: string;
+    faq?: FaqItem[];
 }
 
 interface PageProps {
@@ -223,8 +228,104 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
         path: perfume.path,
     };
 
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://auracompare.com";
+    const perfumeUrl = `${siteUrl}/parfum/${perfume.path || slug}`;
+    const productImageUrl = mediaUrl(perfume.imageUrl);
+
+    const jsonLdProduct = {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        name: perfume.name,
+        image: productImageUrl ? [productImageUrl] : undefined,
+        description:
+            perfume.description ||
+            `${perfume.name} (${perfume.brand.name}) koku piramidi, notaları ve kullanıcı incelemeleri.`,
+        brand: {
+            "@type": "Brand",
+            name: perfume.brand.name,
+        },
+        category: perfume.fragranceFamily || "Parfüm",
+        url: perfumeUrl,
+        ...(perfume.ratingCount > 0
+            ? {
+                  aggregateRating: {
+                      "@type": "AggregateRating",
+                      ratingValue: Number(perfume.avgRating.toFixed(2)),
+                      bestRating: 5,
+                      worstRating: 1,
+                      ratingCount: perfume.ratingCount,
+                  },
+              }
+            : {}),
+    };
+
+    const crumbParamMap: Record<string, string> = {
+        gender: "gender",
+        concentration: "concentration",
+        brand: "brand",
+    };
+
+    const jsonLdBreadcrumb = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: (perfume.breadcrumb || []).map((item, idx) => {
+            let itemUrl = `${siteUrl}/ara`;
+            if (item.level === "home") itemUrl = `${siteUrl}/`;
+            else if (item.level === "brand") itemUrl = `${siteUrl}/marka/${item.slug}`;
+            else if (crumbParamMap[item.level]) itemUrl = `${siteUrl}/ara?${crumbParamMap[item.level]}=${item.slug}`;
+            else if (idx === (perfume.breadcrumb?.length ?? 0) - 1) itemUrl = perfumeUrl;
+
+            return {
+                "@type": "ListItem",
+                position: idx + 1,
+                name: item.label,
+                item: itemUrl,
+            };
+        }),
+    };
+
+    const enrichedFaq = buildEnrichedFaq(
+        perfume.faq,
+        perfume.name,
+        perfume.fragranceFamily,
+        perfume.fragranceFamilyDescription,
+        perfume.notes
+    );
+
+    const jsonLdFaq =
+        enrichedFaq.length > 0
+            ? {
+                  "@context": "https://schema.org",
+                  "@type": "FAQPage",
+                  mainEntity: enrichedFaq.map((f) => ({
+                      "@type": "Question",
+                      name: f.question,
+                      acceptedAnswer: {
+                          "@type": "Answer",
+                          text: f.answer,
+                      },
+                  })),
+              }
+            : null;
+
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdProduct) }}
+            />
+            {perfume.breadcrumb && perfume.breadcrumb.length > 0 && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumb) }}
+                />
+            )}
+            {jsonLdFaq && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFaq) }}
+                />
+            )}
             <Breadcrumb items={perfume.breadcrumb} />
 
             <div className="detail-head">
@@ -276,7 +377,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
             </div>
 
             <section className="block">
-                <h2 className="block-title">Koku piramidi</h2>
+                <h2 className="block-title">{hasPyramid ? "Koku piramidi" : "Koku notaları"}</h2>
                 {hasPyramid ? (
                     <div className="pyramid">
                         <Tier label="Üst notalar" layer="ust" notes={perfume.notes.top} />
@@ -286,9 +387,6 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                 ) : (
                     <div className="pyramid">
                         <Tier label="Notalar" notes={allNotes} />
-                        <p className="faint">
-                            Bu parfüm için markası bir koku piramidi yayımlamamış; notalar tek liste hâlinde.
-                        </p>
                     </div>
                 )}
             </section>
@@ -446,6 +544,11 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                         )}
                     </div>
                 </section>
+
+                <PerfumeWhereToBuySection perfumeName={perfume.name} brandName={perfume.brand.name} />
+
+                <PerfumeArticleSection article={perfume.article} perfumeName={perfume.name} />
+                <PerfumeFaqSection items={enrichedFaq} perfumeName={perfume.name} />
 
                 <PerfumeCommentsSection
                     key={perfume.slug}
@@ -634,3 +737,70 @@ function RelatedBlock({
         </section>
     );
 }
+
+function buildEnrichedFaq(
+    baseFaq: FaqItem[] | undefined,
+    perfumeName: string,
+    fragranceFamily?: string,
+    fragranceFamilyDescription?: string,
+    notes?: { top: Note[]; middle: Note[]; base: Note[]; all: Note[] }
+): FaqItem[] {
+    const list: FaqItem[] = baseFaq ? [...baseFaq] : [];
+
+    // Koku ailesi sorusu (bilgi yoksa eklenmez)
+    if (fragranceFamily && fragranceFamily.trim()) {
+        const hasFamilyQ = list.some((f) => f.question.toLowerCase().includes("koku ailesi"));
+        if (!hasFamilyQ) {
+            const answer = `${perfumeName}, ${fragranceFamily} koku ailesine aittir.${
+                fragranceFamilyDescription ? ` ${fragranceFamilyDescription}` : ""
+            }`;
+            const insertIndex = list.length >= 3 ? 3 : list.length;
+            list.splice(insertIndex, 0, {
+                question: `${perfumeName} hangi koku ailesine aittir?`,
+                answer,
+            });
+        }
+    }
+
+    // Notalar sorusu (bilgi yoksa eklenmez)
+    if (notes) {
+        const hasTop = notes.top && notes.top.length > 0;
+        const hasMiddle = notes.middle && notes.middle.length > 0;
+        const hasBase = notes.base && notes.base.length > 0;
+        const hasAll = notes.all && notes.all.length > 0;
+
+        const hasNotesQ = list.some(
+            (f) =>
+                f.question.toLowerCase().includes("notaları nelerdir") ||
+                f.question.toLowerCase().includes("koku piramidi")
+        );
+
+        if (!hasNotesQ) {
+            if (hasTop || hasMiddle || hasBase) {
+                const parts: string[] = [];
+                if (hasTop) parts.push(`üst notalarda ${notes.top.map((n) => n.name).join(", ")}`);
+                if (hasMiddle) parts.push(`orta (kalp) notalarda ${notes.middle.map((n) => n.name).join(", ")}`);
+                if (hasBase) parts.push(`dip notalarda ${notes.base.map((n) => n.name).join(", ")}`);
+
+                const answer = `${perfumeName} koku piramidinde; ${parts.join("; ")} yer almaktadır.`;
+                const insertIndex = list.length >= 4 ? 4 : list.length;
+                list.splice(insertIndex, 0, {
+                    question: `${perfumeName} parfümünün koku piramidi ve notaları nelerdir?`,
+                    answer,
+                });
+            } else if (hasAll) {
+                const answer = `${perfumeName} parfümünün öne çıkan koku notaları şunlardır: ${notes.all
+                    .map((n) => n.name)
+                    .join(", ")}.`;
+                const insertIndex = list.length >= 4 ? 4 : list.length;
+                list.splice(insertIndex, 0, {
+                    question: `${perfumeName} parfümünün notaları nelerdir?`,
+                    answer,
+                });
+            }
+        }
+    }
+
+    return list;
+}
+

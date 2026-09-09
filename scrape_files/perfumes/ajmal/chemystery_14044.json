@@ -41,13 +41,37 @@
     {
       "name": "lavanta",
       "width": "50.1923%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.86",
-    "votesCount": "71",
+    "score": "3.88",
+    "votesCount": "72",
     "breakdown": {
-      "love": "12",
+      "love": "13",
       "like": "45",
       "ok": "6",
       "dislike": "8",
@@ -55,12 +79,12 @@
     }
   },
   "seasons": {
-    "winter": "5",
-    "spring": "28",
-    "summer": "26",
-    "autumn": "16",
-    "day": "26",
-    "night": "9"
+    "winter": "6",
+    "spring": "29",
+    "summer": "27",
+    "autumn": "17",
+    "day": "27",
+    "night": "10"
   },
   "notes": {
     "top": [
@@ -81,19 +105,20 @@
       "Vanilya",
       "Sedir",
       "Tonka fasulyesi"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
     "weak": "2",
-    "moderate": "24",
+    "moderate": "25",
     "longLasting": "5",
     "eternal": "4"
   },
   "sillage": {
     "intimate": "6",
-    "moderate": "24",
-    "strong": "13",
+    "moderate": "25",
+    "strong": "14",
     "enormous": "7"
   },
   "genderVoting": {
@@ -101,14 +126,14 @@
     "moreFemale": "1",
     "unisex": "2",
     "moreMale": "8",
-    "male": "10"
+    "male": "11"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "0",
     "fair": "6",
     "goodValue": "5",
-    "greatValue": "8"
+    "greatValue": "9"
   },
   "remindsMeOf": [
     {
@@ -116,12 +141,16 @@
       "name": "Envy for Men"
     },
     {
-      "brand": "AFNAN",
-      "name": "Historic Olmeda"
-    },
-    {
       "brand": "FOMO",
       "name": "The Envy of FOMO"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Bracken Man"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Historic Olmeda"
     },
     {
       "brand": "CHANEL",
@@ -130,14 +159,6 @@
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Opium Pour Homme"
-    },
-    {
-      "brand": "JOOP!",
-      "name": "Joop! Go"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Bracken Man"
     }
   ],
   "peopleAlsoLike": [
@@ -201,5 +222,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -1,7 +1,7 @@
 {
   "name": "In The Sun Bath & Body Works",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Floral",
+  "fragranceFamily": null,
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109942.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/In-The-Sun-109942.html",
@@ -40,10 +40,10 @@
     }
   ],
   "rating": {
-    "score": "4.42",
-    "votesCount": "24",
+    "score": "4.44",
+    "votesCount": "25",
     "breakdown": {
-      "love": "10",
+      "love": "11",
       "like": "14",
       "ok": "0",
       "dislike": "0",
@@ -51,17 +51,18 @@
     }
   },
   "seasons": {
-    "winter": "0",
-    "spring": "6",
-    "summer": "13",
+    "winter": "1",
+    "spring": "7",
+    "summer": "14",
     "autumn": "2",
-    "day": "13",
+    "day": "14",
     "night": "3"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -124,6 +125,10 @@
       "name": "Invigorate Moodscentz"
     },
     {
+      "brand": "BEİNG FRENSHE",
+      "name": "Solar Fleur EDP"
+    },
+    {
       "brand": "TOM FORD",
       "name": "Eau de Soleil Blanc"
     },
@@ -134,28 +139,16 @@
   ],
   "peopleAlsoLike": [
     {
+      "brand": "MUGLER",
+      "name": "Alien"
+    },
+    {
       "brand": "BATH & BODY WORKS",
       "name": "Winter Candy Apple"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Sweetheart Cherry"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Alien"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Twisted Peppermint"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Covered In Roses"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Vanilla Bean Noel"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -167,7 +160,31 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Twisted Peppermint"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Vanilla Bean Noel"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "In The Sun"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Covered In Roses"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Saltwater Breeze"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Warm Vanilla Sugar"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "In The Stars"
     },
     {
       "brand": "CALVİN KLEİN",
@@ -180,18 +197,7 @@
     {
       "brand": "DİOR",
       "name": "Hypnotic Poison"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Luminous"
-    },
-    {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Midnight Fantasy"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "At the Beach"
     }
-  ]
+  ],
+  "comments": []
 }

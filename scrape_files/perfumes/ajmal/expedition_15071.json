@@ -49,6 +49,30 @@
     {
       "name": "toprak",
       "width": "45.2764%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,19 +112,20 @@
       "Paçuli",
       "Ambergris",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
     "weak": "3",
     "moderate": "15",
-    "longLasting": "13",
+    "longLasting": "14",
     "eternal": "1"
   },
   "sillage": {
     "intimate": "7",
     "moderate": "15",
-    "strong": "7",
+    "strong": "8",
     "enormous": "2"
   },
   "genderVoting": {
@@ -108,14 +133,14 @@
     "moreFemale": "0",
     "unisex": "6",
     "moreMale": "2",
-    "male": "12"
+    "male": "13"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "7",
     "goodValue": "8",
-    "greatValue": "10"
+    "greatValue": "11"
   },
   "remindsMeOf": [
     {
@@ -212,5 +237,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Acqua di Giò Profumo"
     }
-  ]
+  ],
+  "comments": []
 }

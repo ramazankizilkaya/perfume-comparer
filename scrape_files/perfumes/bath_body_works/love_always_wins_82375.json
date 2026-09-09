@@ -27,61 +27,94 @@
       "width": "51%"
     },
     {
+      "name": "tatlı",
+      "width": "44%"
+    },
+    {
       "name": "narenciye",
       "width": "44%"
     },
     {
-      "name": "tatlı",
-      "width": "44%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.84",
-    "votesCount": "103",
+    "score": "3.85",
+    "votesCount": "105",
     "breakdown": {
       "love": "31",
-      "like": "46",
+      "like": "48",
       "ok": "14",
       "dislike": "3",
       "hate": "9"
     }
   },
   "seasons": {
-    "winter": "6",
-    "spring": "39",
-    "summer": "65",
+    "winter": "7",
+    "spring": "40",
+    "summer": "66",
     "autumn": "9",
-    "day": "57",
+    "day": "58",
     "night": "11"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Yıldız meyvesi",
+      "Hindistan cevizi suyu",
+      "Sedir ağacı"
+    ]
   },
   "longevity": {
     "veryWeak": "6",
     "weak": "19",
-    "moderate": "24",
+    "moderate": "25",
     "longLasting": "6",
     "eternal": "1"
   },
   "sillage": {
     "intimate": "17",
-    "moderate": "24",
+    "moderate": "25",
     "strong": "5",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "17",
-    "moreFemale": "23",
+    "moreFemale": "24",
     "unisex": "26",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "3",
-    "overpriced": "1",
+    "overpriced": "2",
     "fair": "14",
     "goodValue": "25",
     "greatValue": "17"
@@ -112,20 +145,12 @@
       "name": "Tropical Punch"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Peach Swirl"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Love Always Wins"
     },
     {
-      "brand": "LEDDA",
-      "name": "Orris 22"
-    },
-    {
-      "brand": "FİNE'RY.",
-      "name": "I'm A Musk"
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Peach Swirl"
     },
     {
       "brand": "JİL SANDER",
@@ -136,16 +161,24 @@
       "name": "Waikiki Beach Coconut"
     },
     {
+      "brand": "FİNE'RY.",
+      "name": "I'm A Musk"
+    },
+    {
+      "brand": "LEDDA",
+      "name": "Orris 22"
+    },
+    {
       "brand": "BATH & BODY WORKS",
       "name": "Thailand Sweet Kiwi & Starfruit"
     },
     {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Fantasy"
+      "brand": "TOUS",
+      "name": "Tous Gems Party"
     },
     {
-      "brand": "CLEAN",
-      "name": "Radiant Nectar"
+      "brand": "BATH & BODY WORKS",
+      "name": "Sun-Washed Citrus"
     }
   ],
   "peopleAlsoLike": [
@@ -172,10 +205,6 @@
     {
       "brand": "ARİANA GRANDE",
       "name": "Ari"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Gingham Vibrant"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -208,6 +237,11 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Snowflakes & Cashmere"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Cloud"
     }
-  ]
+  ],
+  "comments": []
 }

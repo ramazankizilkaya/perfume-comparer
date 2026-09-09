@@ -33,43 +33,76 @@
     {
       "name": "tatlı",
       "width": "48.6665%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.23",
-    "votesCount": "134",
+    "score": "4.24",
+    "votesCount": "137",
     "breakdown": {
-      "love": "58",
-      "like": "58",
-      "ok": "12",
+      "love": "61",
+      "like": "57",
+      "ok": "13",
       "dislike": "3",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "65",
+    "winter": "66",
     "spring": "29",
     "summer": "12",
-    "autumn": "64",
+    "autumn": "65",
     "day": "31",
-    "night": "69"
+    "night": "70"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Amber",
+      "Tonka fasulyesi",
+      "Bergamot"
+    ]
   },
   "longevity": {
     "veryWeak": "5",
     "weak": "17",
-    "moderate": "55",
-    "longLasting": "8",
+    "moderate": "57",
+    "longLasting": "9",
     "eternal": "2"
   },
   "sillage": {
     "intimate": "12",
-    "moderate": "55",
-    "strong": "10",
+    "moderate": "57",
+    "strong": "11",
     "enormous": "1"
   },
   "genderVoting": {
@@ -77,13 +110,13 @@
     "moreFemale": "0",
     "unisex": "12",
     "moreMale": "39",
-    "male": "45"
+    "male": "47"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "3",
-    "fair": "12",
-    "goodValue": "47",
+    "fair": "13",
+    "goodValue": "49",
     "greatValue": "13"
   },
   "remindsMeOf": [
@@ -154,6 +187,10 @@
       "name": "Versace Pour Homme Dylan Blue"
     },
     {
+      "brand": "DOLCE&GABBANA",
+      "name": "The One for Men Eau de Parfum"
+    },
+    {
       "brand": "VERSACE",
       "name": "Eros Flame"
     },
@@ -194,10 +231,6 @@
       "name": "Hawas for Him"
     },
     {
-      "brand": "MONTBLANC",
-      "name": "Legend Spirit"
-    },
-    {
       "brand": "RALPH LAUREN",
       "name": "Polo 67"
     },
@@ -209,5 +242,6 @@
       "brand": "AZZARO",
       "name": "The Most Wanted Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

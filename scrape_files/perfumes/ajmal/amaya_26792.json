@@ -47,8 +47,32 @@
       "width": "60.8278%"
     },
     {
-      "name": "amber",
+      "name": "paçuli",
       "width": "50.8609%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -85,7 +109,8 @@
       "Misk",
       "Sandal ağacı",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -145,12 +170,12 @@
       "name": "Ultraviolet"
     },
     {
-      "brand": "KENZO",
-      "name": "Flower by Kenzo"
-    },
-    {
       "brand": "GUERLAİN",
       "name": "My Insolence"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Flower by Kenzo"
     },
     {
       "brand": "CALVİN KLEİN",
@@ -176,5 +201,6 @@
       "brand": "ESTÉE LAUDER",
       "name": "Sensuous Noir"
     }
-  ]
+  ],
+  "comments": []
 }

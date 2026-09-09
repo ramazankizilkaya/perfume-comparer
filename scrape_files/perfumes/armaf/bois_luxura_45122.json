@@ -49,6 +49,34 @@
     {
       "name": "bitkisel",
       "width": "62.5384%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,7 +115,8 @@
       "Vetiver",
       "Amber",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "5",
@@ -104,7 +133,7 @@
   },
   "genderVoting": {
     "female": "1",
-    "moreFemale": "0",
+    "moreFemale": "1",
     "unisex": "3",
     "moreMale": "3",
     "male": "16"
@@ -138,16 +167,16 @@
       "name": "Diavolo"
     },
     {
-      "brand": "ALFRED DUNHİLL",
-      "name": "Dunhill Fresh"
-    },
-    {
       "brand": "AJMAL",
       "name": "Vision"
     },
     {
       "brand": "ARMAF",
       "name": "Marjan Silver"
+    },
+    {
+      "brand": "ALFRED DUNHİLL",
+      "name": "Dunhill Fresh"
     },
     {
       "brand": "DİOR",
@@ -197,11 +226,11 @@
     },
     {
       "brand": "LALİQUE",
-      "name": "Encre Noire Sport"
+      "name": "Encre Noire"
     },
     {
-      "brand": "LALİQUE",
-      "name": "Encre Noire"
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -220,12 +249,12 @@
       "name": "Individuel"
     },
     {
-      "brand": "RASASİ",
-      "name": "Daarej pour Homme"
+      "brand": "DİOR",
+      "name": "Sauvage"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Acqua di Giò Profumo"
+      "brand": "RASASİ",
+      "name": "Daarej pour Homme"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -239,5 +268,6 @@
       "brand": "VERSACE",
       "name": "Versace Man Eau Fraiche"
     }
-  ]
+  ],
+  "comments": []
 }

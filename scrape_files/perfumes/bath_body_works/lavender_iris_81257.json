@@ -33,6 +33,34 @@
     {
       "name": "odunsu",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -57,7 +85,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "İris",
+      "Lavanta"
+    ]
   },
   "longevity": {
     "veryWeak": "6",
@@ -146,12 +178,12 @@
       "name": "God Is A Woman"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Libre"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Gingham"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Libre"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -189,5 +221,6 @@
       "brand": "CHLOÉ",
       "name": "Chloé Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

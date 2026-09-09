@@ -49,26 +49,50 @@
     {
       "name": "pudralı",
       "width": "46.0588%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.84",
-    "votesCount": "51",
+    "votesCount": "57",
     "breakdown": {
-      "love": "24",
-      "like": "12",
-      "ok": "3",
+      "love": "27",
+      "like": "13",
+      "ok": "4",
       "dislike": "7",
-      "hate": "5"
+      "hate": "6"
     }
   },
   "seasons": {
-    "winter": "17",
-    "spring": "16",
+    "winter": "18",
+    "spring": "17",
     "summer": "11",
-    "autumn": "18",
+    "autumn": "19",
     "day": "13",
-    "night": "19"
+    "night": "20"
   },
   "notes": {
     "top": [
@@ -85,40 +109,37 @@
       "Benzoin",
       "Paçuli",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "8",
     "weak": "1",
-    "moderate": "5",
+    "moderate": "6",
     "longLasting": "11",
     "eternal": "3"
   },
   "sillage": {
     "intimate": "7",
-    "moderate": "5",
+    "moderate": "6",
     "strong": "6",
     "enormous": "2"
   },
   "genderVoting": {
     "female": "8",
     "moreFemale": "1",
-    "unisex": "7",
+    "unisex": "8",
     "moreMale": "8",
     "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "10",
+    "wayOverpriced": "11",
     "overpriced": "2",
-    "fair": "3",
+    "fair": "4",
     "goodValue": "2",
     "greatValue": "2"
   },
   "remindsMeOf": [
-    {
-      "brand": "MAUBOUSSİN",
-      "name": "Cristal Oud"
-    },
     {
       "brand": "JAMES HEELEY",
       "name": "Cardinal"
@@ -128,20 +149,32 @@
       "name": "Sancti"
     },
     {
+      "brand": "MAUBOUSSİN",
+      "name": "Cristal Oud"
+    },
+    {
+      "brand": "DİOR",
+      "name": "New Look 2024"
+    },
+    {
+      "brand": "COMME DES GARCONS",
+      "name": "Comme des Garcons Series 3 Incense: Avignon"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "Encens Roi"
+    },
+    {
       "brand": "AZALEA PARFUMS",
       "name": "Crystal"
     },
     {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Celestial Whispers"
-    },
-    {
-      "brand": "FABERLİC",
-      "name": "Cristal"
-    },
-    {
       "brand": "AMOUAGE",
       "name": "Epic Man"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Celestial Whispers"
     },
     {
       "brand": "CARTİER",
@@ -152,28 +185,20 @@
       "name": "Triumphal Gold"
     },
     {
-      "brand": "JEAN-PİERRE SAND",
-      "name": "Gold Nugget"
-    },
-    {
-      "brand": "COMME DES GARCONS",
-      "name": "Comme des Garcons Series 3 Incense: Avignon"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Black Lacquer"
-    },
-    {
-      "brand": "HİSTOİRES DE PARFUMS",
-      "name": "Encens Roi"
-    },
-    {
-      "brand": "JEAN-PİERRE SAND",
-      "name": "Luxury Gold"
+      "brand": "FABERLİC",
+      "name": "Cristal"
     },
     {
       "brand": "JEAN-PİERRE SAND",
       "name": "Shopping Time Gold"
+    },
+    {
+      "brand": "JEAN-PİERRE SAND",
+      "name": "Gold Nugget"
+    },
+    {
+      "brand": "JEAN-PİERRE SAND",
+      "name": "Magical Lamp Gold"
     }
   ],
   "peopleAlsoLike": [
@@ -194,6 +219,10 @@
       "name": "Acqua di Parma Colonia"
     },
     {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Greenley"
+    },
+    {
       "brand": "ACQUA Dİ PARMA",
       "name": "Zafferano"
     },
@@ -206,16 +235,12 @@
       "name": "Angels' Share"
     },
     {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Masculin Pluriel"
-    },
-    {
       "brand": "ACQUA Dİ PARMA",
       "name": "Buongiorno"
     },
     {
       "brand": "ACQUA Dİ PARMA",
-      "name": "Colonia Il Profumo"
+      "name": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi"
     },
     {
       "brand": "PARFUMS DE MARLY",
@@ -227,15 +252,16 @@
     },
     {
       "brand": "XERJOFF",
-      "name": "Torino21"
-    },
-    {
-      "brand": "XERJOFF",
       "name": "40 Knots"
     },
     {
       "brand": "PENHALİGON'S",
       "name": "The Omniscient Mr Thompson"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
     }
-  ]
+  ],
+  "comments": []
 }

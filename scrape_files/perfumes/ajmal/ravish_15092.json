@@ -49,6 +49,30 @@
     {
       "name": "çiçeksi",
       "width": "47.5%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,7 +97,16 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Sandal ağacı",
+      "Meyvemsi notalar",
+      "Gül",
+      "Portakal çiçeği",
+      "Yasemin",
+      "Vanilya",
+      "Acı portakal"
+    ]
   },
   "longevity": {
     "veryWeak": "4",
@@ -116,16 +149,16 @@
       "name": "White for Her"
     },
     {
-      "brand": "VERSACE",
-      "name": "Crystal Noir Parfum"
-    },
-    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Dream Angels Heavenly"
     },
     {
       "brand": "BODYCOLOGY",
       "name": "Twilight Mist"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Crystal Noir Parfum"
     },
     {
       "brand": "LAURENCE DUMONT",
@@ -225,5 +258,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

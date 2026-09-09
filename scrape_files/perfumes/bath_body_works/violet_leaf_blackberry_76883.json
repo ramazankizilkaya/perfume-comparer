@@ -66,57 +66,41 @@
     "base": [
       "Vanilya çubuğu",
       "Pudramsı notalar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "2",
-    "moderate": "2",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "2",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "3",
-    "moreFemale": "4",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "1",
-    "greatValue": "4"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ARMAF",
-      "name": "Studio Flame The Lipstick"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Blush Cardigan"
-    },
-    {
-      "brand": "MİX:BAR",
-      "name": "Sugared Violet"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BRİTNEY SPEARS",
       "name": "Fantasy Intimate Edition"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Eau So Sexy Eau de Parfum"
     },
     {
       "brand": "DOLCE&GABBANA",
@@ -127,16 +111,16 @@
       "name": "Orchidée Vanille"
     },
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Vanilla Bean Noel"
+    },
+    {
       "brand": "KATY PERRY",
       "name": "Meow"
     },
     {
       "brand": "BRİTNEY SPEARS",
       "name": "Midnight Fantasy"
-    },
-    {
-      "brand": "ARİANA GRANDE",
-      "name": "Cloud"
     },
     {
       "brand": "SALVATORE FERRAGAMO",
@@ -155,6 +139,10 @@
       "name": "Fantasy"
     },
     {
+      "brand": "DOLCE&GABBANA",
+      "name": "The Only One"
+    },
+    {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
     },
@@ -170,5 +158,6 @@
       "brand": "CAROLİNA HERRERA",
       "name": "Good Girl"
     }
-  ]
+  ],
+  "comments": []
 }

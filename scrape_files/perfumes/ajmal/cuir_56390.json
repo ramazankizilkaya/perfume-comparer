@@ -37,6 +37,30 @@
     {
       "name": "tatlı",
       "width": "45.3999%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -51,7 +75,7 @@
     }
   },
   "seasons": {
-    "winter": "6",
+    "winter": "7",
     "spring": "3",
     "summer": "1",
     "autumn": "8",
@@ -71,7 +95,8 @@
     "base": [
       "Agar ağacı (Oud)",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -141,10 +166,6 @@
     },
     {
       "brand": "AJMAL",
-      "name": "Rhythm of Oud"
-    },
-    {
-      "brand": "AJMAL",
       "name": "Amber"
     },
     {
@@ -186,6 +207,11 @@
     {
       "brand": "BENTLEY",
       "name": "Bentley for Men Intense"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Patchouli"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -41,33 +41,34 @@
   ],
   "rating": {
     "score": "3.95",
-    "votesCount": "39",
+    "votesCount": "41",
     "breakdown": {
       "love": "15",
-      "like": "14",
+      "like": "16",
       "ok": "5",
       "dislike": "3",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "11",
+    "winter": "12",
     "spring": "14",
     "summer": "14",
-    "autumn": "15",
-    "day": "12",
-    "night": "15"
+    "autumn": "16",
+    "day": "13",
+    "night": "16"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
     "weak": "0",
     "moderate": "10",
-    "longLasting": "8",
+    "longLasting": "9",
     "eternal": "4"
   },
   "sillage": {
@@ -79,7 +80,7 @@
   "genderVoting": {
     "female": "10",
     "moreFemale": "2",
-    "unisex": "6",
+    "unisex": "7",
     "moreMale": "1",
     "male": "1"
   },
@@ -88,16 +89,12 @@
     "overpriced": "3",
     "fair": "5",
     "goodValue": "1",
-    "greatValue": "15"
+    "greatValue": "16"
   },
   "remindsMeOf": [
     {
       "brand": "XERJOFF",
       "name": "Erba Pura"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Ana Abiyedh"
     },
     {
       "brand": "ALREHAB PERFUMES",
@@ -110,6 +107,10 @@
     {
       "brand": "AL HARAMAİN PERFUMES",
       "name": "Amber Oud Gold Edition"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ana Abiyedh"
     },
     {
       "brand": "TOM FORD",
@@ -197,5 +198,6 @@
       "brand": "ROBERTO CAVALLİ",
       "name": "Serpentine"
     }
-  ]
+  ],
+  "comments": []
 }

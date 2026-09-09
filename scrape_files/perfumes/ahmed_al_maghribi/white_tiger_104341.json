@@ -29,6 +29,30 @@
     {
       "name": "odunsu",
       "width": "46.3333%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -51,11 +75,11 @@
     "night": "9"
   },
   "notes": {
-    "top": [
-      "Narenciye"
-    ],
+    "top": [],
     "middle": [],
-    "base": [
+    "base": [],
+    "all": [
+      "Narenciye",
       "Yosun"
     ]
   },
@@ -105,19 +129,19 @@
     },
     {
       "brand": "YVES SAİNT LAURENT",
-      "name": "L'Homme"
-    },
-    {
-      "brand": "NİSHANE",
-      "name": "Hacivat"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
       "name": "Y Le Parfum"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Najdia"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "L'Homme"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Hacivat"
     },
     {
       "brand": "AZZARO",
@@ -126,12 +150,8 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "ZİMAYA",
-      "name": "Mazaaj Infused"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Art Of Universe"
+      "brand": "VERSACE",
+      "name": "Eros Flame"
     },
     {
       "brand": "AFNAN",
@@ -140,6 +160,10 @@
     {
       "brand": "AFNAN",
       "name": "Supremacy Collector's Edition Pour Homme"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme Dylan Blue"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -158,20 +182,24 @@
       "name": "Instant Crush"
     },
     {
-      "brand": "VİKTOR&ROLF",
-      "name": "Flowerbomb"
+      "brand": "MUGLER",
+      "name": "Angel Stellar"
     },
     {
-      "brand": "BURBERRY",
-      "name": "London for Men"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Vintage Radio"
     },
     {
-      "brand": "DİOR",
-      "name": "J'adore"
+      "brand": "MOSCHİNO",
+      "name": "Toy Boy"
     },
     {
       "brand": "AFNAN",
       "name": "9pm"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Liam"
     },
     {
       "brand": "FRENCH AVENUE",
@@ -179,11 +207,8 @@
     },
     {
       "brand": "MANCERA",
-      "name": "Roses Vanille"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Emporio Armani Stronger With You Sandalwood"
+      "name": "Red Tobacco"
     }
-  ]
+  ],
+  "comments": []
 }

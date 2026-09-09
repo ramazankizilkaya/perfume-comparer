@@ -49,6 +49,30 @@
     {
       "name": "pudralı",
       "width": "48.2291%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,7 +111,8 @@
       "Misk",
       "Amber",
       "Tonka fasulyesi"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -113,8 +138,8 @@
     "wayOverpriced": "0",
     "overpriced": "2",
     "fair": "3",
-    "goodValue": "3",
-    "greatValue": "2"
+    "goodValue": "2",
+    "greatValue": "3"
   },
   "remindsMeOf": [
     {
@@ -188,12 +213,12 @@
       "name": "Riflesso Blue Vibe"
     },
     {
-      "brand": "MANCERA",
-      "name": "Eternal Wood"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Eternal Wood"
     },
     {
       "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
@@ -215,5 +240,6 @@
       "brand": "AFNAN",
       "name": "9pm"
     }
-  ]
+  ],
+  "comments": []
 }

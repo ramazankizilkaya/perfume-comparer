@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.131221.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Acqua-di-Parma/Fico-di-Amalfi-Limited-Edition-131221.html",
   "brand": "Acqua di Parma parfüm ve kolonya",
-  "description": "Acqua di Parma markasının Fico di Amalfi Limited Edition parfümü, kadınlar ve erkekler için Narenciye bir kokudur. Bu yeni bir parfüm. Fico di Amalfi Limited Edition, 2026 yılında piyasaya sürüldü. Üst notalar: Kalabriya bergamotu, Limon, Greyfurt ve Sedir; orta notalar: Pembe biber ve Yasemin; alt notalar İncir ağacı, Sedir ve Benzoin.",
-  "description_original": "Acqua di Parma markasının Fico di Amalfi Limited Edition parfümü, kadınlar ve erkekler için Narenciye bir kokudur. Bu yeni bir parfüm. Fico di Amalfi Limited Edition, 2026 yılında piyasaya sürüldü. Üst notalar: Kalabriya bergamotu, Limon, Greyfurt ve Sedir; orta notalar: Pembe biber ve Yasemin; alt notalar İncir ağacı, Sedir ve Benzoin.",
-  "description_enhanced": "Acqua di Parma markasının Fico di Amalfi Limited Edition parfümü, kadınlar ve erkekler için Narenciye bir kokudur. Bu yeni bir parfüm. Fico di Amalfi Limited Edition, 2026 yılında piyasaya sürüldü. Üst notalar: Kalabriya bergamotu, Limon, Greyfurt ve Sedir; orta notalar: Pembe biber ve Yasemin; alt notalar İncir ağacı, Sedir ve Benzoin.",
+  "description": "Acqua di Parma markasının Fico di Amalfi Limited Edition parfümü, kadınlar ve erkekler için Narenciye bir kokudur. Bu yeni bir parfüm. Fico di Amalfi Limited Edition, 2026 yılında piyasaya sürüldü. Üst notalar: Kalabriya bergamotu, Limon, Sedir ve Greyfurt; orta notalar: Pembe biber ve Yasemin; alt notalar İncir ağacı, Sedir ve Benzoin.",
+  "description_original": "Acqua di Parma markasının Fico di Amalfi Limited Edition parfümü, kadınlar ve erkekler için Narenciye bir kokudur. Bu yeni bir parfüm. Fico di Amalfi Limited Edition, 2026 yılında piyasaya sürüldü. Üst notalar: Kalabriya bergamotu, Limon, Sedir ve Greyfurt; orta notalar: Pembe biber ve Yasemin; alt notalar İncir ağacı, Sedir ve Benzoin.",
+  "description_enhanced": "Acqua di Parma markasının Fico di Amalfi Limited Edition parfümü, kadınlar ve erkekler için Narenciye bir kokudur. Bu yeni bir parfüm. Fico di Amalfi Limited Edition, 2026 yılında piyasaya sürüldü. Üst notalar: Kalabriya bergamotu, Limon, Sedir ve Greyfurt; orta notalar: Pembe biber ve Yasemin; alt notalar İncir ağacı, Sedir ve Benzoin.",
   "mainAccords": [
     {
       "name": "narenciye",
@@ -29,33 +29,57 @@
     {
       "name": "yumuşak baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "18",
+    "score": "3.96",
+    "votesCount": "24",
     "breakdown": {
-      "love": "7",
-      "like": "7",
-      "ok": "3",
-      "dislike": "0",
+      "love": "8",
+      "like": "10",
+      "ok": "4",
+      "dislike": "1",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "1",
-    "spring": "9",
-    "summer": "9",
+    "winter": "2",
+    "spring": "13",
+    "summer": "14",
     "autumn": "2",
-    "day": "10",
+    "day": "14",
     "night": "1"
   },
   "notes": {
     "top": [
       "Kalabriya bergamotu",
       "Limon",
-      "Greyfurt",
-      "Sedir"
+      "Sedir",
+      "Greyfurt"
     ],
     "middle": [
       "Pembe biber",
@@ -65,11 +89,12 @@
       "İncir ağacı",
       "Sedir",
       "Benzoin"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
-    "weak": "0",
+    "weak": "1",
     "moderate": "2",
     "longLasting": "0",
     "eternal": "3"
@@ -83,14 +108,14 @@
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "3",
-    "moreMale": "0",
+    "unisex": "5",
+    "moreMale": "2",
     "male": "1"
   },
   "priceVoting": {
     "wayOverpriced": "0",
-    "overpriced": "0",
-    "fair": "3",
+    "overpriced": "1",
+    "fair": "4",
     "goodValue": "0",
     "greatValue": "0"
   },
@@ -98,6 +123,10 @@
     {
       "brand": "GİVENCHY",
       "name": "Trouble-Fête"
+    },
+    {
+      "brand": "FLORAÏKU",
+      "name": "AO"
     },
     {
       "brand": "ACQUA Dİ PARMA",
@@ -108,19 +137,11 @@
       "name": "Eau Parfumée au Thé Rouge"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "Perseviron Fig Hug"
+      "brand": "BOTTEGA VENETA",
+      "name": "Illusione for Her"
     }
   ],
   "peopleAlsoLike": [
-    {
-      "brand": "CHANEL",
-      "name": "Bleu de Chanel Parfum"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Forte Nerolia Vetiver"
-    },
     {
       "brand": "GİORGİO ARMANİ",
       "name": "Acqua di Gio"
@@ -130,8 +151,20 @@
       "name": "Neroli Portofino"
     },
     {
-      "brand": "CLİVE CHRİSTİAN",
-      "name": "Rock Rose"
+      "brand": "CHANEL",
+      "name": "Allure Homme Sport Eau Extreme"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Paragon"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Bal d'Afrique"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Gris Charnel Extrait"
     },
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -158,20 +191,17 @@
       "name": "XJ 1861 Naxos"
     },
     {
-      "brand": "ANDREA MAACK",
-      "name": "Coven"
+      "brand": "BY KİLİAN",
+      "name": "Angels' Share"
     },
     {
-      "brand": "RAMON MONEGAL",
-      "name": "Alhambra Oud"
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Tonka Sarrapia Extrait 75"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Emporio Armani Stronger With You Intensely"
+      "brand": "PROFUMUM ROMA",
+      "name": "Ichnusa"
     }
-  ]
+  ],
+  "comments": []
 }

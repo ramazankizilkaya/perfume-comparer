@@ -19,11 +19,11 @@
       "width": "76.6666%"
     },
     {
-      "name": "narenciye",
+      "name": "deniz",
       "width": "73.75%"
     },
     {
-      "name": "deniz",
+      "name": "narenciye",
       "width": "73.75%"
     },
     {
@@ -37,14 +37,42 @@
     {
       "name": "tuzlu",
       "width": "47.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "5.00",
-    "votesCount": "1",
+    "score": "4.67",
+    "votesCount": "3",
     "breakdown": {
-      "love": "1",
-      "like": "0",
+      "love": "2",
+      "like": "1",
       "ok": "0",
       "dislike": "0",
       "hate": "0"
@@ -52,34 +80,39 @@
   },
   "seasons": {
     "winter": "0",
-    "spring": "1",
-    "summer": "2",
+    "spring": "3",
+    "summer": "4",
     "autumn": "0",
-    "day": "1",
+    "day": "3",
     "night": "0"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Sürüklenen odun",
+      "Nilüfer",
+      "Mandalina"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
-    "moderate": "1",
+    "moderate": "2",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
-    "moderate": "1",
+    "moderate": "2",
     "strong": "0",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "0",
+    "unisex": "1",
     "moreMale": "1",
     "male": "0"
   },
@@ -88,7 +121,7 @@
     "overpriced": "0",
     "fair": "0",
     "goodValue": "0",
-    "greatValue": "0"
+    "greatValue": "1"
   },
   "remindsMeOf": [
     {
@@ -96,5 +129,6 @@
       "name": "Saltwater Breeze"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

@@ -49,25 +49,49 @@
     {
       "name": "yumuşak baharatlı",
       "width": "53.876%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "2",
+    "score": "3.00",
+    "votesCount": "3",
     "breakdown": {
       "love": "0",
       "like": "2",
       "ok": "0",
       "dislike": "0",
-      "hate": "0"
+      "hate": "1"
     }
   },
   "seasons": {
     "winter": "0",
-    "spring": "0",
+    "spring": "1",
     "summer": "0",
-    "autumn": "0",
-    "day": "0",
+    "autumn": "1",
+    "day": "1",
     "night": "0"
   },
   "notes": {
@@ -88,35 +112,37 @@
       "Odunsu Notalar",
       "Deri",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
     "moderate": "0",
     "longLasting": "0",
-    "eternal": "0"
+    "eternal": "1"
   },
   "sillage": {
     "intimate": "0",
     "moderate": "0",
     "strong": "0",
-    "enormous": "0"
+    "enormous": "1"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "0",
-    "male": "0"
+    "male": "1"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "0",
     "goodValue": "0",
-    "greatValue": "0"
+    "greatValue": "1"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

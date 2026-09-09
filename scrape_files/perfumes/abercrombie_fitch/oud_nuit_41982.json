@@ -33,6 +33,34 @@
     {
       "name": "animalik",
       "width": "60.8823%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -67,33 +95,50 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "3",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "3",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "EMANUEL UNGARO",
+      "name": "Ungaro Pour L'Homme III Oud"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Intense Oud"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One Shock For Him"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Impact Masculin"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ARMAF",
@@ -154,6 +199,42 @@
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Layton"
+    }
+  ],
+  "comments": [],
+  "article": "Abercrombie & Fitch parfüm ve kolonya koleksiyonunun en cesur ve iddialı üyelerinden biri olan Oud Nuit Abercrombie & Fitch incelemesi ile karşınızdayız. Lüks koku dünyasında oryantal ve odunsu dokunuşlarıyla fark yaratan bu özel kompozisyon, markanın sıradan gençlik kokularının çok ötesine geçerek olgun ve maskülen bir karakter sergiliyor.\n\n## Koku Profili ve Açılış Notaları\nOud Nuit Abercrombie & Fitch notaları incelendiğinde, zıtlıkların muazzam uyumu dikkat çeker. Parfüm, taze bergamot ve portakalın enerjik narenciye patlamasıyla dinamik bir başlangıç yapar. Ancak bu ferahlık kısa sürede derinleşir ve kalpteki karanlık, mistik yapıya bürünür. Düz nota listesinde yer alan agar ağacı (oud) ve zengin deri akoru, kokuya animalik ve sofistike bir derinlik kazandırır. Dip notalardaki sıcak amber ise kompozisyonu tatlı ve baştan çıkarıcı bir kucaklamayla tamamlar.\n\n## Kalıcılık, Yayılım ve Performans Değerlendirmesi\nBir Edp esans tipi olarak sunulan bu parfüm, performansıyla beklentileri fazlasıyla karşılar. Oud Nuit Abercrombie & Fitch kalıcılığı istatistiksel verilere ve kullanıcı deneyimlerine göre son derece yüksek seviyededir; ten üzerindeki kalıcılığı uzun saatler boyunca sürer. Yayılım (silaj) açısından ise güçlü ve 'enormous' olarak nitelendirilen devasa bir bulut yaratır. Ortamdaki varlığını ilk sıktığınız andan itibaren hissettiren iddialı bir yapıya sahiptir.\n\n## Kimler ve Hangi Ortamlar İçin Uygun?\nOylama dağılımlarına göre bu koku özellikle sonbahar ve kış aylarının gece kullanımına mükemmel uyum sağlar. Sıcak ve yoğun karakteri yaz sıcağında ağır kaçabileceğinden, serin hava akşamlarında, özel davetlerde ve etkileyici olmak istediğiniz buluşmalarda en iyi performansını sergiler.\n\n## Gerçek Kullanıcı Görüşleri ve Genel İzlenim\nGerçek kullanıcı yorumları ve topluluk puanları (5 üzerinden 4.38 gibi yüksek bir oran), bu gizli hazinenin parfüm severler tarafından ne kadar takdir edildiğini gösteriyor. Kalite ve özgünlük arayan maskülen koku tutkunları için koleksiyonda mutlaka yer alması gereken nadide bir parçadır.",
+  "faq": [
+    {
+      "question": "Oud Nuit Abercrombie & Fitch hangi markaya aittir?",
+      "answer": "Oud Nuit Abercrombie & Fitch, Amerikan merkezli ikonik giyim ve yaşam tarzı markası Abercrombie & Fitch parfüm ve kolonya portföyüne aittir."
+    },
+    {
+      "question": "Oud Nuit Abercrombie & Fitch hangi yıl piyasaya sürülmüştür ve tasarımcısı (parfümörü) kimdir?",
+      "answer": "Oud Nuit Abercrombie & Fitch, 2016 yılında piyasaya sürülmüştür. Parfümün resmi tasarımcısı veya parfümörü markanın resmi verilerinde özel olarak belirtilmemiştir."
+    },
+    {
+      "question": "Oud Nuit Abercrombie & Fitch parfümünün konsantrasyonu (esans tipi) nedir?",
+      "answer": "Bu parfüm Edp (Eau de Parfum) konsantrasyonuna sahiptir; bu da yüksek esans yoğunluğu sayesinde ten üzerinde uzun süre kalıcı olmasını sağlar."
+    },
+    {
+      "question": "Oud Nuit Abercrombie & Fitch hangi mevsime ve hava şartlarına uygundur?",
+      "answer": "Koku profili itibarıyla yoğunluk kazanan bu parfüm, özellikle sonbahar ve kış aylarındaki serin ve soğuk hava koşulları için ideal bir tercihtir."
+    },
+    {
+      "question": "Oud Nuit Abercrombie & Fitch parfümünün kalıcılığı ve yayılımı (silajı) ne kadardır?",
+      "answer": "Topluluk verilerine göre yüksek kalıcılığa sahip olan parfüm, güçlü ve devasa (enormous) yayılımıyla bulunduğu ortamda kendini net bir şekilde fark ettirir."
+    },
+    {
+      "question": "Oud Nuit Abercrombie & Fitch hangi ortamlarda ve yaş gruplarında tercih edilmelidir?",
+      "answer": "Genellikle gece kullanımına, özel davetlere ve kış akşamlarına hitap eder. Olgun, karizmatik ve iddialı koku seven yetişkin erkekler için uygundur."
+    },
+    {
+      "question": "Oud Nuit Abercrombie & Fitch hangi parfümlere benzer ve koku karakteri nasıldır?",
+      "answer": "Narenciye, ud, deri, amber ve animalik akorların hakim olduğu; narenciyeli bir açılışla başlayıp karanlık, odunsu ve derimsi bir tünele evrilen oryantal-odunsu bir karakterdedir."
+    },
+    {
+      "question": "Oud Nuit Abercrombie & Fitch kör alışa (denemeden almaya) uygun bir parfüm müdür?",
+      "answer": "İçerdiği yoğun oud, deri ve animalik notalar nedeniyle herkesin beğenisine hitap etmeyebileceğinden, kör alış yerine önceden denenmesi tavsiye edilir."
     }
   ]
 }

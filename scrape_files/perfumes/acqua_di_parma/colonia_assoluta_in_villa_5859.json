@@ -29,6 +29,34 @@
     {
       "name": "taze baharatlı",
       "width": "43.0667%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "3",
+    "winter": "4",
     "spring": "12",
     "summer": "10",
     "autumn": "7",
@@ -53,7 +81,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Odunsu Notalar",
+      "Narenciye",
+      "Baharatlar"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -85,11 +118,11 @@
   "remindsMeOf": [
     {
       "brand": "ACQUA Dİ PARMA",
-      "name": "Acqua di Parma Colonia Pura"
+      "name": "Chinotto di Liguria"
     },
     {
       "brand": "ACQUA Dİ PARMA",
-      "name": "Chinotto di Liguria"
+      "name": "Acqua di Parma Colonia Pura"
     }
   ],
   "peopleAlsoLike": [
@@ -153,5 +186,6 @@
       "brand": "AMOUAGE",
       "name": "Interlude Man"
     }
-  ]
+  ],
+  "comments": []
 }

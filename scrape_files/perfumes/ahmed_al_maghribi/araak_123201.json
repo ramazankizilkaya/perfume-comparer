@@ -47,8 +47,32 @@
       "width": "45%"
     },
     {
-      "name": "amber",
+      "name": "vanilya",
       "width": "45%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,7 +111,8 @@
       "Vanilya",
       "Sedir",
       "Maltol"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -132,12 +157,12 @@
       "name": "Fakhar Rose"
     },
     {
-      "brand": "RASASİ",
-      "name": "La Yuqawam Jasmine Wisp"
+      "brand": "AFNAN",
+      "name": "Mystique Bouquet"
     },
     {
       "brand": "RASASİ",
-      "name": "Shuhrah Pour Femme"
+      "name": "La Yuqawam Jasmine Wisp"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -175,5 +200,6 @@
       "brand": "PARIS CORNER",
       "name": "Rifaaqat"
     }
-  ]
+  ],
+  "comments": []
 }

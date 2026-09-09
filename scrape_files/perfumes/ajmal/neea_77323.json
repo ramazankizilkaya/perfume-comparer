@@ -37,14 +37,38 @@
     {
       "name": "misk",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.24",
-    "votesCount": "17",
+    "score": "4.30",
+    "votesCount": "20",
     "breakdown": {
-      "love": "7",
-      "like": "7",
+      "love": "9",
+      "like": "8",
       "ok": "3",
       "dislike": "0",
       "hate": "0"
@@ -52,10 +76,10 @@
   },
   "seasons": {
     "winter": "1",
-    "spring": "8",
-    "summer": "9",
+    "spring": "10",
+    "summer": "12",
     "autumn": "1",
-    "day": "9",
+    "day": "12",
     "night": "0"
   },
   "notes": {
@@ -75,23 +99,24 @@
       "Beyaz Misk",
       "Sedir",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
-    "weak": "2",
+    "weak": "3",
     "moderate": "10",
     "longLasting": "1",
-    "eternal": "1"
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "3",
+    "intimate": "4",
     "moderate": "10",
-    "strong": "1",
+    "strong": "2",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "9",
+    "female": "11",
     "moreFemale": "2",
     "unisex": "3",
     "moreMale": "0",
@@ -102,7 +127,7 @@
     "overpriced": "2",
     "fair": "3",
     "goodValue": "7",
-    "greatValue": "4"
+    "greatValue": "5"
   },
   "remindsMeOf": [
     {
@@ -144,16 +169,8 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Delilah"
-    },
-    {
       "brand": "CHLOÉ",
       "name": "Chloé Eau de Parfum"
-    },
-    {
-      "brand": "RALPH LAUREN",
-      "name": "Romance"
     },
     {
       "brand": "ARMAF",
@@ -164,44 +181,53 @@
       "name": "Khair Fusion"
     },
     {
-      "brand": "AHMED AL MAGHRİBİ",
-      "name": "Rose Noir"
+      "brand": "DİOR",
+      "name": "J'adore"
+    },
+    {
+      "brand": "ELİE SAAB",
+      "name": "Le Parfum Royal"
     },
     {
       "brand": "AHMED AL MAGHRİBİ",
       "name": "Kaaf"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Yara Candy"
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "La Belle"
+    },
+    {
+      "brand": "SOFİA VERGARA",
+      "name": "Love"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Fakhar Rose"
     },
     {
-      "brand": "REEF PERFUMES",
-      "name": "Pesca"
+      "brand": "LANCÔME",
+      "name": "La Nuit Trésor"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Teriaq"
+      "brand": "VERSACE",
+      "name": "Crystal Noir"
     },
     {
       "brand": "GUERLAİN",
       "name": "Mon Guerlain"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Angham"
+      "brand": "ELİE SAAB",
+      "name": "Le Parfum"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Nebras"
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Libre Intense"
+      "brand": "GUCCİ",
+      "name": "Gucci Bamboo"
     }
-  ]
+  ],
+  "comments": []
 }

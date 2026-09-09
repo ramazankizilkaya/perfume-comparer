@@ -11,11 +11,11 @@
   "description_enhanced": "Ajmal markasının Dahn Oudh Al Nayyir parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Dahn Oudh Al Nayyir, 2015 yılında piyasaya sürüldü. Kokuda Hint Oud ve Kamboçya Oud notaları bulunur.",
   "mainAccords": [
     {
-      "name": "ud",
+      "name": "odunsu",
       "width": "100%"
     },
     {
-      "name": "odunsu",
+      "name": "ud",
       "width": "100%"
     },
     {
@@ -29,6 +29,30 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +77,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Hint Oud",
+      "Kamboçya Oud"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -92,5 +120,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

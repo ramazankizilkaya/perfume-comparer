@@ -33,6 +33,34 @@
     {
       "name": "yeşil",
       "width": "50.3166%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -57,7 +85,14 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Ladin",
+      "Biberiye",
+      "Agar ağacı (Oud)",
+      "Deri",
+      "Kimyon"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
@@ -88,16 +123,16 @@
   },
   "remindsMeOf": [
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Quasar Deep Blue"
+      "brand": "AMOUAGE",
+      "name": "Epic Man"
+    },
+    {
+      "brand": "AGATHO PARFUM",
+      "name": "Fauno"
     },
     {
       "brand": "ISSEY MİYAKE",
       "name": "L'Eau Bleue d'Issey Pour Homme"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Epic Man"
     },
     {
       "brand": "ELLEN BETRİX",
@@ -108,12 +143,8 @@
       "name": "Drakon"
     },
     {
-      "brand": "AGATHO PARFUM",
-      "name": "Giardinodiercole"
-    },
-    {
-      "brand": "AGATHO PARFUM",
-      "name": "Fauno"
+      "brand": "O BOTİCÁRİO",
+      "name": "Quasar Deep Blue"
     }
   ],
   "peopleAlsoLike": [
@@ -177,5 +208,6 @@
       "brand": "SERGE LUTENS",
       "name": "La Fille de Berlin"
     }
-  ]
+  ],
+  "comments": []
 }

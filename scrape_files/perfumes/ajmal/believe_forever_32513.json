@@ -41,6 +41,30 @@
     {
       "name": "balsamik",
       "width": "44.2731%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -65,7 +89,21 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Agar ağacı (Oud)",
+      "Guayak ağacı",
+      "Mür",
+      "Karabiber",
+      "Sedir",
+      "Safran",
+      "Gül",
+      "Sardunya",
+      "Greyfurt",
+      "Paçuli",
+      "Yasemin",
+      "Bergamot"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -156,5 +194,6 @@
       "brand": "LE LABO",
       "name": "Iris 39"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -2,13 +2,13 @@
   "name": "Adidas Pure Energy Adidas",
   "targetGender": "erkekler için",
   "fragranceFamily": "Citrus",
-  "concentration": "Edt",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3162.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Adidas/Adidas-Pure-Energy-3162.html",
   "brand": "Adidas parfüm ve kolonya",
-  "description": "Adidas markasının Adidas Pure Energy parfümü, erkekler için Çiçeksi Odunsu Misk bir kokudur. Adidas Pure Energy, 2007 yılında piyasaya sürüldü. Üst notalar: Mandalina ve Bergamot; orta notalar: Kakule, Lavanta, Elma ve Menekşe; alt notalar Misk, Sedir, Amber, Guayak ağacı ve Paçuli.",
-  "description_original": "Adidas markasının Adidas Pure Energy parfümü, erkekler için Çiçeksi Odunsu Misk bir kokudur. Adidas Pure Energy, 2007 yılında piyasaya sürüldü. Üst notalar: Mandalina ve Bergamot; orta notalar: Kakule, Lavanta, Elma ve Menekşe; alt notalar Misk, Sedir, Amber, Guayak ağacı ve Paçuli.",
-  "description_enhanced": "Adidas markasının Adidas Pure Energy parfümü, erkekler için Çiçeksi Odunsu Misk bir kokudur. Adidas Pure Energy, 2007 yılında piyasaya sürüldü. Üst notalar: Mandalina ve Bergamot; orta notalar: Kakule, Lavanta, Elma ve Menekşe; alt notalar Misk, Sedir, Amber, Guayak ağacı ve Paçuli.",
+  "description": "Adidas markasının Adidas Pure Energy parfümü, erkekler için Çiçeksi Odunsu Misk bir kokudur. Adidas Pure Energy, 2007 yılında piyasaya sürüldü. Üst notalar: Mandalina ve Bergamot; orta notalar: Kakule, Lavanta, Elma ve Menekşe; alt notalar Misk, Teksas Sediri, Amber, Guayak ağacı ve Paçuli.",
+  "description_original": "Adidas markasının Adidas Pure Energy parfümü, erkekler için Çiçeksi Odunsu Misk bir kokudur. Adidas Pure Energy, 2007 yılında piyasaya sürüldü. Üst notalar: Mandalina ve Bergamot; orta notalar: Kakule, Lavanta, Elma ve Menekşe; alt notalar Misk, Teksas Sediri, Amber, Guayak ağacı ve Paçuli.",
+  "description_enhanced": "Adidas markasının Adidas Pure Energy parfümü, erkekler için Çiçeksi Odunsu Misk bir kokudur. Adidas Pure Energy, 2007 yılında piyasaya sürüldü. Üst notalar: Mandalina ve Bergamot; orta notalar: Kakule, Lavanta, Elma ve Menekşe; alt notalar Misk, Teksas Sediri, Amber, Guayak ağacı ve Paçuli.",
   "mainAccords": [
     {
       "name": "narenciye",
@@ -49,6 +49,30 @@
     {
       "name": "misk",
       "width": "49.6875%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,11 +107,12 @@
     ],
     "base": [
       "Misk",
-      "Sedir",
+      "Teksas Sediri",
       "Amber",
       "Guayak ağacı",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -122,6 +147,10 @@
       "name": "Pure Nautica Discovery"
     },
     {
+      "brand": "AFNAN",
+      "name": "Rare Reef"
+    },
+    {
       "brand": "LES LİQUİDES IMAGİNAİRES",
       "name": "Blanche Bête"
     },
@@ -140,12 +169,12 @@
       "name": "Versace Man Eau Fraiche"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "CK One"
-    },
-    {
       "brand": "AZZARO",
       "name": "Chrome"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One"
     },
     {
       "brand": "CALVİN KLEİN",
@@ -195,5 +224,6 @@
       "brand": "JOOP!",
       "name": "Joop! Homme"
     }
-  ]
+  ],
+  "comments": []
 }

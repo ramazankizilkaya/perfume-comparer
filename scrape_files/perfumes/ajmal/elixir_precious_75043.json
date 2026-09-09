@@ -2,7 +2,7 @@
   "name": "Elixir Precious Ajmal",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Oriental",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.75043.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Elixir-Precious-75043.html",
   "brand": "Ajmal parfüm ve kolonya",
@@ -29,6 +29,30 @@
     {
       "name": "animalik",
       "width": "46.8%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -62,7 +86,8 @@
     "base": [
       "Amber",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -91,7 +116,12 @@
     "goodValue": "0",
     "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ETAT LİBRE D'ORANGE",
+      "name": "Exit The King"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MUGLER",
@@ -104,10 +134,6 @@
     {
       "brand": "GİORGİO ARMANİ",
       "name": "Armani Prive Vert Malachite"
-    },
-    {
-      "brand": "AJMAL",
-      "name": "Elixir Suave"
     },
     {
       "brand": "CASAMORATİ 1888",
@@ -152,6 +178,11 @@
     {
       "brand": "AL HARAMAİN PERFUMES",
       "name": "Amber Oud Tobacco Edition"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Encre Noire"
     }
-  ]
+  ],
+  "comments": []
 }

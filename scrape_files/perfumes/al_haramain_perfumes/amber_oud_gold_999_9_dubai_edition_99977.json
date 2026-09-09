@@ -49,26 +49,54 @@
     {
       "name": "aromatik",
       "width": "50.3%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.29",
-    "votesCount": "97",
+    "votesCount": "99",
     "breakdown": {
-      "love": "61",
-      "like": "19",
+      "love": "62",
+      "like": "20",
       "ok": "4",
       "dislike": "10",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "24",
-    "spring": "43",
-    "summer": "40",
-    "autumn": "35",
-    "day": "43",
-    "night": "30"
+    "winter": "25",
+    "spring": "44",
+    "summer": "41",
+    "autumn": "36",
+    "day": "44",
+    "night": "31"
   },
   "notes": {
     "top": [
@@ -90,26 +118,27 @@
       "Vanilya",
       "Paçuli",
       "Sedir"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "1",
+    "veryWeak": "2",
     "weak": "1",
     "moderate": "10",
-    "longLasting": "35",
-    "eternal": "17"
+    "longLasting": "37",
+    "eternal": "18"
   },
   "sillage": {
     "intimate": "1",
     "moderate": "10",
-    "strong": "26",
+    "strong": "27",
     "enormous": "12"
   },
   "genderVoting": {
     "female": "4",
     "moreFemale": "2",
     "unisex": "43",
-    "moreMale": "11",
+    "moreMale": "13",
     "male": "4"
   },
   "priceVoting": {
@@ -129,12 +158,12 @@
       "name": "Erba Pura"
     },
     {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Amber Oud Gold Edition Extreme Pure Perfume"
-    },
-    {
       "brand": "XERJOFF",
       "name": "Erba Gold"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Amber Oud Gold Edition Extreme Pure Perfume"
     },
     {
       "brand": "BHARARA",
@@ -149,12 +178,12 @@
       "name": "Ana Abiyedh"
     },
     {
-      "brand": "SOSPİRO PERFUMES",
-      "name": "Erba Pura Magica"
-    },
-    {
       "brand": "ARMAF",
       "name": "Club de Nuit Oud"
+    },
+    {
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Erba Pura Magica"
     },
     {
       "brand": "AHMED AL MAGHRİBİ",
@@ -234,5 +263,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah Qahwa"
     }
-  ]
+  ],
+  "comments": []
 }

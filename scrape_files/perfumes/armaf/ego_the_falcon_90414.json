@@ -49,6 +49,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "57.4999%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "15",
-    "spring": "10",
+    "winter": "16",
+    "spring": "11",
     "summer": "8",
-    "autumn": "17",
-    "day": "7",
-    "night": "11"
+    "autumn": "18",
+    "day": "8",
+    "night": "12"
   },
   "notes": {
     "top": [
@@ -89,7 +117,8 @@
       "Misk",
       "Vetiver",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -128,8 +157,16 @@
       "name": "Imperial Valley"
     },
     {
+      "brand": "XERJOFF",
+      "name": "Tony Iommi Monkey Special"
+    },
+    {
       "brand": "RASASİ",
       "name": "Hawas Fire"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Effects Of Uniq"
     },
     {
       "brand": "CALVİN KLEİN",
@@ -138,14 +175,6 @@
     {
       "brand": "PARIS CORNER",
       "name": "Khair"
-    },
-    {
-      "brand": "XERJOFF",
-      "name": "Tony Iommi Monkey Special"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Effects Of Uniq"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -160,6 +189,10 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Najdia Intense"
+    },
+    {
+      "brand": "GUY LAROCHE",
+      "name": "Drakkar Noir"
     },
     {
       "brand": "AFNAN",
@@ -198,20 +231,17 @@
       "name": "9pm"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Asad Bourbon"
-    },
-    {
       "brand": "ARMAF",
       "name": "Odyssey Homme"
     },
     {
-      "brand": "RUE BROCA",
-      "name": "Nexa Immortal"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad Bourbon"
     },
     {
       "brand": "AFNAN",
       "name": "Turathi Blue"
     }
-  ]
+  ],
+  "comments": []
 }

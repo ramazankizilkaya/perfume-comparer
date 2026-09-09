@@ -37,6 +37,34 @@
     {
       "name": "vanilya",
       "width": "49.6491%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,7 +89,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Yeşil Elma",
+      "Şeker",
+      "Bergamot"
+    ]
   },
   "longevity": {
     "veryWeak": "9",
@@ -116,12 +149,12 @@
       "name": "Candy Love"
     },
     {
-      "brand": "NAVİTUS PARFUMS",
-      "name": "Amorous Intense"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Champagne Apple & Honey"
+    },
+    {
+      "brand": "NAVİTUS PARFUMS",
+      "name": "Amorous Intense"
     },
     {
       "brand": "PARİS HİLTON",
@@ -132,8 +165,8 @@
       "name": "Khair Fusion"
     },
     {
-      "brand": "FENTY",
-      "name": "Green Raspberry"
+      "brand": "BATH & BODY WORKS",
+      "name": "Evil Queen"
     },
     {
       "brand": "BE LAYERED",
@@ -186,16 +219,16 @@
       "name": "Firecracker Pop"
     },
     {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Midnight Fantasy"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Strawberry Pound Cake"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Winter Candy Apple"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Cloud"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -213,5 +246,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Warm Vanilla Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

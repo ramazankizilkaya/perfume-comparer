@@ -49,6 +49,30 @@
     {
       "name": "animalik",
       "width": "52.3125%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,7 +106,8 @@
     "base": [
       "Meyvemsi notalar",
       "Odunsu Notalar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -178,5 +203,6 @@
       "brand": "KENZO",
       "name": "Kenzo Jungle L'Elephant"
     }
-  ]
+  ],
+  "comments": []
 }

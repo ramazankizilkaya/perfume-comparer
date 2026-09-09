@@ -29,26 +29,50 @@
     {
       "name": "yeşil",
       "width": "50.4473%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.12",
-    "votesCount": "50",
+    "score": "4.15",
+    "votesCount": "61",
     "breakdown": {
-      "love": "25",
-      "like": "10",
-      "ok": "11",
+      "love": "29",
+      "like": "16",
+      "ok": "12",
       "dislike": "4",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "3",
-    "spring": "16",
-    "summer": "25",
+    "winter": "4",
+    "spring": "21",
+    "summer": "32",
     "autumn": "3",
-    "day": "20",
-    "night": "6"
+    "day": "26",
+    "night": "7"
   },
   "notes": {
     "top": [
@@ -64,33 +88,34 @@
     "base": [
       "Vetiver",
       "Sedir ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
-    "weak": "11",
-    "moderate": "9",
-    "longLasting": "1",
+    "weak": "12",
+    "moderate": "11",
+    "longLasting": "2",
     "eternal": "3"
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "9",
+    "intimate": "11",
+    "moderate": "11",
     "strong": "1",
     "enormous": "2"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "14",
-    "moreMale": "7",
+    "unisex": "17",
+    "moreMale": "10",
     "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "5",
-    "overpriced": "9",
-    "fair": "11",
-    "goodValue": "2",
+    "wayOverpriced": "7",
+    "overpriced": "10",
+    "fair": "12",
+    "goodValue": "3",
     "greatValue": "0"
   },
   "remindsMeOf": [
@@ -99,61 +124,91 @@
       "name": "Acqua di Parma Blu Mediterraneo Bergamotto di Calabria"
     },
     {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Giò Eau de Parfum Intense"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
+    },
+    {
       "brand": "ACQUA Dİ PARMA",
       "name": "Bergamotto di Calabria La Spugnatura"
     },
     {
+      "brand": "L'OBJET",
+      "name": "Kérylos"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Colonia Il Profumo Millesimato"
+    },
+    {
       "brand": "ATELİER MATERİ",
       "name": "Poivre Pomelo"
-    },
-    {
-      "brand": "136,077",
-      "name": "Koku Yorumları"
-    },
-    {
-      "brand": "2,769",
-      "name": "Şu an çevrimiçi"
-    },
-    {
-      "brand": "1.",
-      "name": "Liquid Brun French Avenue"
-    },
-    {
-      "brand": "2.",
-      "name": "Khamrah Lattafa Perfumes"
-    },
-    {
-      "brand": "3.",
-      "name": "Emporio Armani Stronger With You Intensely Giorgio Armani"
-    },
-    {
-      "brand": "4.",
-      "name": "Imagination Louis Vuitton"
-    },
-    {
-      "brand": "5.",
-      "name": "Supremacy Collector's Edition Pour Homme Afnan"
-    },
-    {
-      "brand": "6.",
-      "name": "Khamrah Qahwa Lattafa Perfumes"
-    },
-    {
-      "brand": "7.",
-      "name": "Le Male Le Parfum Jean Paul Gaultier"
-    },
-    {
-      "brand": "8.",
-      "name": "Y Eau de Parfum Yves Saint Laurent"
-    },
-    {
-      "brand": "9.",
-      "name": "Club de Nuit Intense Man Armaf"
-    },
-    {
-      "brand": "10.",
-      "name": "Vulcan Feu French Avenue"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Acqua di Parma Blu Mediterraneo Bergamotto di Calabria"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Pacific Chill"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Acqua di Parma Blu Mediterraneo Arancia di Capri"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Imagination"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Afternoon Swim"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Neroli Portofino"
+    },
+    {
+      "brand": "CREED",
+      "name": "Silver Mountain Water"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Bleu de Chanel Parfum"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Buongiorno"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Torino21"
+    },
+    {
+      "brand": "CREED",
+      "name": "Aventus Cologne"
+    },
+    {
+      "brand": "CREED",
+      "name": "Aventus"
+    },
+    {
+      "brand": "CLİVE CHRİSTİAN",
+      "name": "Blonde Amber"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
+    }
+  ],
+  "comments": []
 }

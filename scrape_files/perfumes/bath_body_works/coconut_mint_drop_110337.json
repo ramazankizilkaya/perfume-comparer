@@ -23,11 +23,11 @@
       "width": "68.1114%"
     },
     {
-      "name": "misk",
+      "name": "tatlı",
       "width": "61.1112%"
     },
     {
-      "name": "tatlı",
+      "name": "misk",
       "width": "61.1112%"
     },
     {
@@ -39,31 +39,59 @@
       "width": "54.5001%"
     },
     {
-      "name": "tropikal",
+      "name": "vanilya",
       "width": "51.0001%"
     },
     {
-      "name": "vanilya",
+      "name": "tropikal",
       "width": "51.0001%"
     },
     {
       "name": "pudralı",
       "width": "45.5554%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.71",
-    "votesCount": "17",
+    "score": "4.61",
+    "votesCount": "18",
     "breakdown": {
-      "love": "12",
-      "like": "5",
+      "love": "11",
+      "like": "7",
       "ok": "0",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "11",
+    "winter": "13",
     "spring": "6",
     "summer": "4",
     "autumn": "3",
@@ -73,11 +101,16 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Hindistan cevizi",
+      "Baharatlı nane",
+      "Misk"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
-    "weak": "5",
+    "weak": "6",
     "moderate": "2",
     "longLasting": "0",
     "eternal": "0"
@@ -90,7 +123,7 @@
   },
   "genderVoting": {
     "female": "2",
-    "moreFemale": "6",
+    "moreFemale": "7",
     "unisex": "2",
     "moreMale": "0",
     "male": "0"
@@ -116,10 +149,6 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Twisted Peppermint"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Fresh Coconut & Cotton"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -154,16 +183,16 @@
       "name": "Cotton Candy Clouds"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Cereal Milk Soft Serve"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Bonfire Bash"
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born In Roma"
     },
     {
       "brand": "BURBERRY",
       "name": "Goddess"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Bonfire Bash"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -172,6 +201,11 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Beach Nights"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Prada Paradoxe"
     }
-  ]
+  ],
+  "comments": []
 }

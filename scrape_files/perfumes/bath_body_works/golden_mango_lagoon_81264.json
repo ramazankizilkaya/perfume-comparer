@@ -29,21 +29,49 @@
     {
       "name": "terpenik",
       "width": "51%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.22",
-    "votesCount": "144",
+    "votesCount": "147",
     "breakdown": {
-      "love": "64",
-      "like": "59",
-      "ok": "13",
+      "love": "65",
+      "like": "60",
+      "ok": "14",
       "dislike": "5",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "3",
+    "winter": "4",
     "spring": "37",
     "summer": "86",
     "autumn": "6",
@@ -53,7 +81,15 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Mango",
+      "Deniz Suyu",
+      "Güneş notaları",
+      "Mercan resifi",
+      "Çiçekler",
+      "Odunsu Notalar"
+    ]
   },
   "longevity": {
     "veryWeak": "12",
@@ -78,7 +114,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "6",
-    "fair": "13",
+    "fair": "14",
     "goodValue": "25",
     "greatValue": "27"
   },
@@ -90,6 +126,10 @@
     {
       "brand": "THE BODY SHOP",
       "name": "Mango"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Peach Blossom & Nectar Mist"
     },
     {
       "brand": "VİCTORİA'S SECRET",
@@ -108,12 +148,12 @@
       "name": "Taj Sunset"
     },
     {
-      "brand": "GOOD CHEMİSTRY",
-      "name": "Pink Palm"
-    },
-    {
       "brand": "SCENT-ORGANİX",
       "name": "Rise And Shine"
+    },
+    {
+      "brand": "GOOD CHEMİSTRY",
+      "name": "Pink Palm"
     },
     {
       "brand": "BELLAVİTA",
@@ -126,10 +166,6 @@
     {
       "brand": "VİCTORİA'S SECRET",
       "name": "Forbidden Fantasy"
-    },
-    {
-      "brand": "COSMOPOLİTAN",
-      "name": "Good Energy"
     },
     {
       "brand": "KHEİR FRAGRANCE HOUSE",
@@ -205,5 +241,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Sweetheart Cherry"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15088.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Neutron-15088.html",
   "brand": "Ajmal parfüm ve kolonya",
-  "description": "Ajmal markasının Neutron parfümü, erkekler için Odunsu Çiçeksi Misk bir kokudur. Neutron, 2011 yılında piyasaya sürüldü. Kokuda Narenciye, Misk, Çiçeksi Notalar, Baharatlı notalar, Odunsu Notlar ve Meyvemsi notalar notaları bulunur.",
-  "description_original": "Ajmal markasının Neutron parfümü, erkekler için Odunsu Çiçeksi Misk bir kokudur. Neutron, 2011 yılında piyasaya sürüldü. Kokuda Narenciye, Misk, Çiçeksi Notalar, Baharatlı notalar, Odunsu Notlar ve Meyvemsi notalar notaları bulunur.",
-  "description_enhanced": "Ajmal markasının Neutron parfümü, erkekler için Odunsu Çiçeksi Misk bir kokudur. Neutron, 2011 yılında piyasaya sürüldü. Kokuda Narenciye, Misk, Çiçeksi Notalar, Baharatlı notalar, Odunsu Notlar ve Meyvemsi notalar notaları bulunur.",
+  "description": "Ajmal markasının Neutron parfümü, erkekler için Odunsu Çiçeksi Misk bir kokudur. Neutron, 2011 yılında piyasaya sürüldü. Kokuda Narenciye, Misk, Çiçeksi Notalar, Baharatlar, Odunsu Notalar ve Meyvemsi notalar notaları bulunur.",
+  "description_original": "Ajmal markasının Neutron parfümü, erkekler için Odunsu Çiçeksi Misk bir kokudur. Neutron, 2011 yılında piyasaya sürüldü. Kokuda Narenciye, Misk, Çiçeksi Notalar, Baharatlar, Odunsu Notalar ve Meyvemsi notalar notaları bulunur.",
+  "description_enhanced": "Ajmal markasının Neutron parfümü, erkekler için Odunsu Çiçeksi Misk bir kokudur. Neutron, 2011 yılında piyasaya sürüldü. Kokuda Narenciye, Misk, Çiçeksi Notalar, Baharatlar, Odunsu Notalar ve Meyvemsi notalar notaları bulunur.",
   "mainAccords": [
     {
       "name": "narenciye",
@@ -49,15 +49,43 @@
     {
       "name": "taze baharatlı",
       "width": "44.0001%"
+    },
+    {
+      "name": "Online satın alın 42 üzerinde ürün",
+      "width": ""
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.59",
-    "votesCount": "169",
+    "votesCount": "170",
     "breakdown": {
       "love": "36",
       "like": "74",
-      "ok": "19",
+      "ok": "20",
       "dislike": "34",
       "hate": "6"
     }
@@ -67,13 +95,21 @@
     "spring": "70",
     "summer": "86",
     "autumn": "32",
-    "day": "82",
+    "day": "83",
     "night": "29"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Narenciye",
+      "Misk",
+      "Çiçeksi Notalar",
+      "Baharatlar",
+      "Odunsu Notalar",
+      "Meyvemsi notalar"
+    ]
   },
   "longevity": {
     "veryWeak": "7",
@@ -98,7 +134,7 @@
   "priceVoting": {
     "wayOverpriced": "4",
     "overpriced": "0",
-    "fair": "19",
+    "fair": "20",
     "goodValue": "20",
     "greatValue": "45"
   },
@@ -112,20 +148,20 @@
       "name": "Kiton Men"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "CK One"
-    },
-    {
       "brand": "CHANEL",
       "name": "Egoiste Platinum"
     },
     {
-      "brand": "KENNETH COLE",
-      "name": "Kenneth Cole Black for Men"
+      "brand": "CALVİN KLEİN",
+      "name": "CK One"
     },
     {
       "brand": "ESTÉE LAUDER",
       "name": "Pleasures For Men"
+    },
+    {
+      "brand": "KENNETH COLE",
+      "name": "Kenneth Cole Black for Men"
     },
     {
       "brand": "XERJOFF",
@@ -150,10 +186,6 @@
     {
       "brand": "CERRUTİ",
       "name": "1881 Men"
-    },
-    {
-      "brand": "CERRUTİ",
-      "name": "Nino Cerruti Pour Homme"
     }
   ],
   "peopleAlsoLike": [
@@ -166,8 +198,8 @@
       "name": "Versace Man Eau Fraiche"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Acqua di Gio"
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme"
     },
     {
       "brand": "CHANEL",
@@ -217,5 +249,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "La Nuit de l'Homme"
     }
-  ]
+  ],
+  "comments": []
 }

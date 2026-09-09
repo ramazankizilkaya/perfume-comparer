@@ -29,21 +29,45 @@
     {
       "name": "odunsu",
       "width": "44.4261%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.40",
-    "votesCount": "35",
+    "score": "4.38",
+    "votesCount": "37",
     "breakdown": {
       "love": "24",
-      "like": "5",
+      "like": "7",
       "ok": "3",
       "dislike": "2",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "4",
+    "winter": "5",
     "spring": "16",
     "summer": "24",
     "autumn": "9",
@@ -65,7 +89,8 @@
       "Sedir",
       "Misk",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
@@ -169,5 +194,6 @@
       "brand": "AMOUAGE",
       "name": "Enclave"
     }
-  ]
+  ],
+  "comments": []
 }

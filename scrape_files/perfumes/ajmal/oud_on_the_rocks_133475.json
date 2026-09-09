@@ -16,38 +16,62 @@
     },
     {
       "name": "sıcak baharatlı",
-      "width": "98.5%"
-    },
-    {
-      "name": "vanilya",
-      "width": "71.9999%"
-    },
-    {
-      "name": "aromatik",
-      "width": "62.9999%"
+      "width": "97.5498%"
     },
     {
       "name": "odunsu",
-      "width": "59.9999%"
+      "width": "65%"
+    },
+    {
+      "name": "vanilya",
+      "width": "64.3%"
+    },
+    {
+      "name": "aromatik",
+      "width": "56.6001%"
     },
     {
       "name": "amber",
-      "width": "59.9999%"
-    },
-    {
-      "name": "tatlı",
-      "width": "55.5%"
+      "width": "54.5002%"
     },
     {
       "name": "pudralı",
-      "width": "49.9998%"
+      "width": "51%"
+    },
+    {
+      "name": "tatlı",
+      "width": "50.65%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.67",
-    "votesCount": "6",
+    "score": "4.71",
+    "votesCount": "7",
     "breakdown": {
-      "love": "4",
+      "love": "5",
       "like": "2",
       "ok": "0",
       "dislike": "0",
@@ -55,7 +79,7 @@
     }
   },
   "seasons": {
-    "winter": "6",
+    "winter": "7",
     "spring": "1",
     "summer": "0",
     "autumn": "0",
@@ -75,34 +99,35 @@
     "base": [
       "Sandal ağacı",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
-    "moderate": "0",
-    "longLasting": "3",
+    "moderate": "2",
+    "longLasting": "4",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "0",
-    "strong": "1",
+    "intimate": "1",
+    "moderate": "2",
+    "strong": "2",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
     "unisex": "0",
-    "moreMale": "2",
-    "male": "1"
+    "moreMale": "4",
+    "male": "2"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "0",
     "goodValue": "0",
-    "greatValue": "3"
+    "greatValue": "5"
   },
   "remindsMeOf": [
     {
@@ -110,13 +135,14 @@
       "name": "Khamrah Qahwa"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah Dukhan"
-    },
-    {
       "brand": "ADİL QADRİ",
       "name": "Shanaya Gold"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah Dukhan"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

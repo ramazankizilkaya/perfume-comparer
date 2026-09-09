@@ -23,11 +23,11 @@
       "width": "68.7213%"
     },
     {
-      "name": "meyvemsi",
+      "name": "yeşil",
       "width": "59.2403%"
     },
     {
-      "name": "yeşil",
+      "name": "meyvemsi",
       "width": "59.2403%"
     },
     {
@@ -41,6 +41,34 @@
     {
       "name": "taze baharatlı",
       "width": "44.6203%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -56,22 +84,29 @@
   },
   "seasons": {
     "winter": "21",
-    "spring": "40",
+    "spring": "41",
     "summer": "31",
-    "autumn": "25",
-    "day": "40",
-    "night": "19"
+    "autumn": "26",
+    "day": "41",
+    "night": "20"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Misk",
+      "Çiçeksi Notalar",
+      "Nane",
+      "Meyvemsi notalar",
+      "Vanilya"
+    ]
   },
   "longevity": {
     "veryWeak": "1",
     "weak": "4",
     "moderate": "25",
-    "longLasting": "15",
+    "longLasting": "16",
     "eternal": "12"
   },
   "sillage": {
@@ -84,7 +119,7 @@
     "female": "5",
     "moreFemale": "12",
     "unisex": "9",
-    "moreMale": "0",
+    "moreMale": "1",
     "male": "0"
   },
   "priceVoting": {
@@ -120,6 +155,10 @@
       "name": "La Colle Noire (2018)"
     },
     {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Oud Satin Mood"
+    },
+    {
       "brand": "PARFUMS DE MARLY",
       "name": "Delina"
     },
@@ -150,8 +189,8 @@
       "name": "Coco Eau de Parfum"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Samsara Eau de Parfum"
+      "brand": "DİOR",
+      "name": "Poison"
     },
     {
       "brand": "CACHAREL",
@@ -189,5 +228,6 @@
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

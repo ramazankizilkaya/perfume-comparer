@@ -41,14 +41,42 @@
     {
       "name": "vanilya",
       "width": "46.1151%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.00",
-    "votesCount": "57",
+    "votesCount": "58",
     "breakdown": {
       "love": "18",
-      "like": "25",
+      "like": "26",
       "ok": "12",
       "dislike": "0",
       "hate": "2"
@@ -65,7 +93,15 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Nar",
+      "Mürver",
+      "Prosecco",
+      "Şeker",
+      "Yıldız Yasemini",
+      "Odunsu Notalar"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
@@ -83,7 +119,7 @@
   "genderVoting": {
     "female": "22",
     "moreFemale": "9",
-    "unisex": "3",
+    "unisex": "4",
     "moreMale": "0",
     "male": "2"
   },
@@ -146,12 +182,12 @@
       "name": "Pink Chiffon"
     },
     {
-      "brand": "ARİANA GRANDE",
-      "name": "Moonlight"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Fairytale"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Fantasy"
     },
     {
       "brand": "ARİANA GRANDE",
@@ -170,6 +206,10 @@
       "name": "Champagne Apple & Honey"
     },
     {
+      "brand": "ARİANA GRANDE",
+      "name": "Cloud"
+    },
+    {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
     },
@@ -183,15 +223,12 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Christmas Cookies"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Vanilla Bean Noel"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "A Thousand Wishes"
     }
-  ]
+  ],
+  "comments": []
 }

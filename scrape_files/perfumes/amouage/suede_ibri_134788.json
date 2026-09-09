@@ -33,31 +33,64 @@
     {
       "name": "çiçeksi",
       "width": "51%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.29",
-    "votesCount": "7",
+    "score": "3.40",
+    "votesCount": "10",
     "breakdown": {
-      "love": "3",
+      "love": "4",
       "like": "0",
-      "ok": "2",
+      "ok": "4",
       "dislike": "0",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "4",
-    "spring": "2",
-    "summer": "2",
-    "autumn": "3",
-    "day": "2",
-    "night": "4"
+    "winter": "5",
+    "spring": "3",
+    "summer": "3",
+    "autumn": "4",
+    "day": "3",
+    "night": "5"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Menekşe",
+      "Safran",
+      "Deri"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -82,11 +115,19 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "1",
-    "fair": "2",
+    "fair": "4",
     "goodValue": "0",
     "greatValue": "0"
   },
   "remindsMeOf": [
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Complex"
+    },
+    {
+      "brand": "GEOFFREY BEENE",
+      "name": "Grey Flannel"
+    },
     {
       "brand": "ETAT LİBRE D'ORANGE",
       "name": "Putain des Palaces"
@@ -96,5 +137,35 @@
       "name": "Spice and Wood"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [
+    {
+      "brand": "MARC-ANTOİNE BARROİS",
+      "name": "Ganymede"
+    },
+    {
+      "brand": "CREED",
+      "name": "Aventus"
+    },
+    {
+      "brand": "MDCI PARFUMS",
+      "name": "Invasion Barbare"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Spiritueuse Double Vanille"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
+    },
+    {
+      "brand": "ESSENTİAL PARFUMS",
+      "name": "Bois Impérial"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Tygar"
+    }
+  ],
+  "comments": []
 }

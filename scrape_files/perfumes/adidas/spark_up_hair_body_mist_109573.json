@@ -2,7 +2,7 @@
   "name": "Spark Up Hair & Body Mist Adidas",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Gourmand",
-  "concentration": "EauFraiche",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109573.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Adidas/Spark-Up-Hair-Body-Mist-109573.html",
   "brand": "Adidas parfüm ve kolonya",
@@ -27,17 +27,41 @@
       "width": "51%"
     },
     {
-      "name": "ekşi",
+      "name": "odunsu",
       "width": "37%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.36",
-    "votesCount": "11",
+    "score": "3.38",
+    "votesCount": "13",
     "breakdown": {
       "love": "1",
-      "like": "6",
-      "ok": "2",
+      "like": "7",
+      "ok": "3",
       "dislike": "0",
       "hate": "2"
     }
@@ -45,15 +69,19 @@
   "seasons": {
     "winter": "0",
     "spring": "6",
-    "summer": "7",
+    "summer": "8",
     "autumn": "1",
-    "day": "4",
+    "day": "5",
     "night": "1"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Mango",
+      "Limon"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -78,7 +106,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "2",
+    "fair": "3",
     "goodValue": "1",
     "greatValue": "2"
   },
@@ -149,5 +177,6 @@
       "brand": "GİVENCHY",
       "name": "L'Interdit Eau de Parfum Rouge"
     }
-  ]
+  ],
+  "comments": []
 }

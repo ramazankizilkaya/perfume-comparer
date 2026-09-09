@@ -65,97 +65,37 @@
       "Krem şanti",
       "Meringue",
       "Beyaz Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "11",
-    "moderate": "7",
-    "longLasting": "1",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "8",
-    "moderate": "7",
-    "strong": "3",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "12",
-    "moreFemale": "4",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "7",
-    "greatValue": "5"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Lemon Tart"
-    },
-    {
-      "brand": "GRANADO",
-      "name": "Verbena"
-    },
-    {
-      "brand": "BROCARD",
-      "name": "Lemon Curd"
-    },
-    {
-      "brand": "MARC JACOBS",
-      "name": "Daisy Sorbet"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Bright Lemon Snowdrop"
-    },
-    {
-      "brand": "KEROSENE",
-      "name": "Unknown Pleasures"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Margarita Cupcake"
-    },
-    {
-      "brand": "ZARA",
-      "name": "A Sweet Pastry In Paris"
-    },
-    {
-      "brand": "OSCAR DE LA RENTA",
-      "name": "Something Blue"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Hello Sugar!"
-    },
-    {
-      "brand": "ACCA KAPPA",
-      "name": "Tilia Cordata"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Limonada Gelada"
-    },
-    {
-      "brand": "LANVİN",
-      "name": "A Girl In Capri"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Belle"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Bombshell Amalfi"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "AQUOLİNA",
@@ -210,12 +150,13 @@
       "name": "Pink Chiffon"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Black Opium"
-    },
-    {
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy Gold Couture"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
     }
-  ]
+  ],
+  "comments": []
 }

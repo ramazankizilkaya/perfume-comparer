@@ -35,7 +35,7 @@
       "width": "68.4999%"
     },
     {
-      "name": "iris",
+      "name": "gül",
       "width": "65.0003%"
     },
     {
@@ -43,23 +43,47 @@
       "width": "65.0003%"
     },
     {
-      "name": "gül",
+      "name": "iris",
       "width": "65.0003%"
     },
     {
       "name": "çiçeksi",
       "width": "51.0003%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "3",
+    "score": "3.25",
+    "votesCount": "4",
     "breakdown": {
       "love": "2",
       "like": "0",
       "ok": "0",
       "dislike": "1",
-      "hate": "0"
+      "hate": "1"
     }
   },
   "seasons": {
@@ -84,23 +108,24 @@
     "base": [
       "Beyaz Misk",
       "İris"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
     "moderate": "0",
     "longLasting": "0",
-    "eternal": "0"
+    "eternal": "1"
   },
   "sillage": {
     "intimate": "0",
     "moderate": "0",
-    "strong": "0",
+    "strong": "1",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "0",
+    "female": "1",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "0",
@@ -110,9 +135,10 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "0",
-    "goodValue": "0",
+    "goodValue": "1",
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

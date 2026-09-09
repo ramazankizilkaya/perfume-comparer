@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "tatlı",
+      "name": "vanilya",
       "width": "81.8519%"
     },
     {
-      "name": "vanilya",
+      "name": "tatlı",
       "width": "81.8519%"
     },
     {
@@ -29,25 +29,53 @@
     {
       "name": "misk",
       "width": "55.9259%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.67",
-    "votesCount": "24",
+    "score": "4.26",
+    "votesCount": "42",
     "breakdown": {
-      "love": "19",
-      "like": "3",
-      "ok": "1",
-      "dislike": "1",
-      "hate": "0"
+      "love": "23",
+      "like": "12",
+      "ok": "3",
+      "dislike": "3",
+      "hate": "1"
     }
   },
   "seasons": {
     "winter": "0",
-    "spring": "17",
-    "summer": "15",
+    "spring": "20",
+    "summer": "20",
     "autumn": "7",
-    "day": "14",
+    "day": "16",
     "night": "4"
   },
   "notes": {
@@ -60,34 +88,35 @@
     "base": [
       "Vanilya",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
-    "moderate": "3",
-    "longLasting": "5",
+    "moderate": "2",
+    "longLasting": "8",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
-    "moderate": "3",
-    "strong": "4",
-    "enormous": "0"
+    "moderate": "2",
+    "strong": "6",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "4",
-    "unisex": "10",
+    "female": "3",
+    "moreFemale": "5",
+    "unisex": "11",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "1",
+    "fair": "3",
     "goodValue": "10",
-    "greatValue": "1"
+    "greatValue": "3"
   },
   "remindsMeOf": [
     {
@@ -95,16 +124,36 @@
       "name": "Happy Apple"
     },
     {
+      "brand": "SORA DORA",
+      "name": "Jany"
+    },
+    {
       "brand": "JO MALONE LONDON",
       "name": "Sunlit Cherimoya Cologne"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Haltane"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Aether"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "Marshmallow Chantilly & Berry Mousse"
     },
     {
       "brand": "JOOP!",
       "name": "All About Eve"
     },
     {
-      "brand": "SORA DORA",
-      "name": "Jany"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Bade'e Al Oud Sublime"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Kirkè Overdose"
     }
   ],
   "peopleAlsoLike": [
@@ -121,10 +170,6 @@
       "name": "Noble Blush"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "Eshal Vanilla"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara Elixir"
     },
@@ -133,40 +178,45 @@
       "name": "Forbidden"
     },
     {
+      "brand": "PARIS CORNER",
+      "name": "Qissa Delicious"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Dalal"
     },
     {
-      "brand": "LUNİCHE",
-      "name": "Aziza Fig Yourself X Daniel René"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Angham"
     },
     {
-      "brand": "MAISON ASRAR",
-      "name": "Vanilla Aura"
+      "brand": "AFNAN",
+      "name": "Turathi Electric"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Art Of Universe"
+      "name": "Khamrah Qahwa"
     },
     {
       "brand": "FRENCH AVENUE",
-      "name": "Liquid Brun Limited Edition"
+      "name": "Liquid Brun"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Angham Second Song"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Vintage Radio"
+    },
+    {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Sawaar Vanille Blanc"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Habik For Women"
-    },
-    {
-      "brand": "PARIS CORNER",
-      "name": "Qissa Gala"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Teriaq Intense"
-    },
-    {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi"
     }
-  ]
+  ],
+  "comments": []
 }

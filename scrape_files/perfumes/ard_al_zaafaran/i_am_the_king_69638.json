@@ -45,26 +45,54 @@
     {
       "name": "sıcak baharatlı",
       "width": "44.8112%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.25",
-    "votesCount": "199",
+    "votesCount": "203",
     "breakdown": {
-      "love": "101",
-      "like": "65",
-      "ok": "19",
+      "love": "103",
+      "like": "66",
+      "ok": "20",
       "dislike": "9",
       "hate": "5"
     }
   },
   "seasons": {
-    "winter": "80",
-    "spring": "125",
-    "summer": "117",
-    "autumn": "122",
-    "day": "125",
-    "night": "107"
+    "winter": "83",
+    "spring": "129",
+    "summer": "120",
+    "autumn": "126",
+    "day": "128",
+    "night": "110"
   },
   "notes": {
     "top": [
@@ -84,18 +112,19 @@
       "Ambroksan",
       "Sedir",
       "Labdanum"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "6",
     "weak": "12",
-    "moderate": "79",
-    "longLasting": "77",
+    "moderate": "83",
+    "longLasting": "78",
     "eternal": "13"
   },
   "sillage": {
     "intimate": "17",
-    "moderate": "79",
+    "moderate": "83",
     "strong": "44",
     "enormous": "6"
   },
@@ -104,14 +133,14 @@
     "moreFemale": "0",
     "unisex": "7",
     "moreMale": "33",
-    "male": "140"
+    "male": "143"
   },
   "priceVoting": {
     "wayOverpriced": "4",
     "overpriced": "3",
-    "fair": "19",
+    "fair": "20",
     "goodValue": "42",
-    "greatValue": "121"
+    "greatValue": "123"
   },
   "remindsMeOf": [
     {
@@ -151,14 +180,6 @@
       "name": "Nocturno"
     },
     {
-      "brand": "PRADA",
-      "name": "Luna Rossa Carbon Eau de Toilette"
-    },
-    {
-      "brand": "AJMAL",
-      "name": "Kuro"
-    },
-    {
       "brand": "ARMAF",
       "name": "Magnificent Blue Pour Homme"
     },
@@ -167,12 +188,20 @@
       "name": "Yumn Pour Homme"
     },
     {
+      "brand": "AJMAL",
+      "name": "Kuro"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Sauvage Eau Forte"
+    },
+    {
       "brand": "MAİSON ALHAMBRA",
       "name": "Salvo Intense"
     },
     {
-      "brand": "CHRİS ADAMS",
-      "name": "Green Corduroy Pour Homme"
+      "brand": "PRADA",
+      "name": "Luna Rossa Carbon Eau de Toilette"
     }
   ],
   "peopleAlsoLike": [
@@ -185,10 +214,6 @@
       "name": "Fakhar Black"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Y Eau de Parfum"
-    },
-    {
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
     },
@@ -199,6 +224,14 @@
     {
       "brand": "DOLCE&GABBANA",
       "name": "The One for Men Eau de Parfum"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de l'Homme"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Sillage"
     },
     {
       "brand": "AL HARAMAİN PERFUMES",
@@ -231,10 +264,7 @@
     {
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah"
     }
-  ]
+  ],
+  "comments": []
 }

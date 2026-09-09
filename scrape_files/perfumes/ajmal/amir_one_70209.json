@@ -49,26 +49,50 @@
     {
       "name": "çiçeksi",
       "width": "45.8022%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.48",
-    "votesCount": "198",
+    "votesCount": "204",
     "breakdown": {
-      "love": "132",
-      "like": "42",
+      "love": "135",
+      "like": "44",
       "ok": "15",
-      "dislike": "6",
+      "dislike": "7",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "94",
-    "spring": "95",
+    "winter": "96",
+    "spring": "98",
     "summer": "49",
-    "autumn": "101",
-    "day": "87",
-    "night": "86"
+    "autumn": "103",
+    "day": "88",
+    "night": "88"
   },
   "notes": {
     "top": [
@@ -88,40 +112,37 @@
       "Agar ağacı (Oud)",
       "Amber",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
+    "veryWeak": "1",
     "weak": "9",
     "moderate": "27",
-    "longLasting": "77",
+    "longLasting": "78",
     "eternal": "20"
   },
   "sillage": {
-    "intimate": "7",
+    "intimate": "8",
     "moderate": "27",
-    "strong": "53",
+    "strong": "54",
     "enormous": "5"
   },
   "genderVoting": {
     "female": "2",
     "moreFemale": "2",
     "unisex": "26",
-    "moreMale": "54",
+    "moreMale": "56",
     "male": "57"
   },
   "priceVoting": {
-    "wayOverpriced": "13",
-    "overpriced": "25",
+    "wayOverpriced": "14",
+    "overpriced": "26",
     "fair": "15",
-    "goodValue": "43",
+    "goodValue": "44",
     "greatValue": "18"
   },
   "remindsMeOf": [
-    {
-      "brand": "ROSENDO MATEU OLFACTİVE EXPRESSİONS",
-      "name": "Fresh Oud"
-    },
     {
       "brand": "AJMAL",
       "name": "Hatkora Wood"
@@ -131,12 +152,16 @@
       "name": "Oudh Al Boruzz Asrar Indonesia"
     },
     {
-      "brand": "EMİRATES PRİDE PERFUMES",
-      "name": "White Oud"
+      "brand": "ROSENDO MATEU OLFACTİVE EXPRESSİONS",
+      "name": "Fresh Oud"
     },
     {
       "brand": "AJMAL",
       "name": "Khallab"
+    },
+    {
+      "brand": "EMİRATES PRİDE PERFUMES",
+      "name": "White Oud"
     },
     {
       "brand": "ABDUL SAMAD AL QURASHİ",
@@ -147,8 +172,16 @@
       "name": "Ma Liberte"
     },
     {
-      "brand": "ARABİAN OUD",
-      "name": "Oriental Oud"
+      "brand": "PARFUMS DE MARLY",
+      "name": "Haltane"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "SHK I"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Ghaf"
     },
     {
       "brand": "DI SER",
@@ -173,32 +206,32 @@
       "name": "Amir Two"
     },
     {
-      "brand": "DİOR",
-      "name": "Sauvage Elixir"
-    },
-    {
       "brand": "AMOUAGE",
       "name": "Reflection Man"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Alexandria II"
     },
     {
       "brand": "TAUER PERFUMES",
       "name": "02 L'Air du Desert Marocain"
     },
     {
-      "brand": "NİSHANE",
-      "name": "Hacivat"
-    },
-    {
       "brand": "AMOUAGE",
       "name": "Epic Man"
     },
     {
-      "brand": "XERJOFF",
-      "name": "XJ 1861 Naxos"
+      "brand": "NİSHANE",
+      "name": "Hacivat"
     },
     {
       "brand": "LALİQUE",
       "name": "Encre Noire"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
     },
     {
       "brand": "AMOUAGE",
@@ -216,5 +249,6 @@
       "brand": "AMOUAGE",
       "name": "Beach Hut Man"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.26886.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Jaathbia-Collection-White-Musk-26886.html",
   "brand": "Ajmal parfüm ve kolonya",
-  "description": "Ajmal markasının Jaathbia Collection White Musk parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Kokuda Misk notaları bulunur.",
-  "description_original": "Ajmal markasının Jaathbia Collection White Musk parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Kokuda Misk notaları bulunur.",
-  "description_enhanced": "Ajmal markasının Jaathbia Collection White Musk parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Kokuda Misk notaları bulunur.",
+  "description": "Ajmal markasının Jaathbia Collection White Musk parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Kokuda Beyaz Misk notaları bulunur.",
+  "description_original": "Ajmal markasının Jaathbia Collection White Musk parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Kokuda Beyaz Misk notaları bulunur.",
+  "description_enhanced": "Ajmal markasının Jaathbia Collection White Musk parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Kokuda Beyaz Misk notaları bulunur.",
   "mainAccords": [
     {
       "name": "misk",
@@ -25,6 +25,30 @@
     {
       "name": "tatlı",
       "width": "37%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -49,7 +73,10 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Beyaz Misk"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -113,6 +140,10 @@
       "name": "Ma Griffe Eau de Parfum (Vintage)"
     },
     {
+      "brand": "GİVENCHY",
+      "name": "Amarige"
+    },
+    {
       "brand": "ROCHAS",
       "name": "Femme Rochas"
     },
@@ -123,10 +154,6 @@
     {
       "brand": "ESTÉE LAUDER",
       "name": "Azuree"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "Amarige"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -140,5 +167,6 @@
       "brand": "SERGE LUTENS",
       "name": "Ambre Sultan"
     }
-  ]
+  ],
+  "comments": []
 }

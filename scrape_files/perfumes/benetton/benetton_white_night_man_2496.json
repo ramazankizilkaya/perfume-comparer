@@ -33,6 +33,34 @@
     {
       "name": "aromatik",
       "width": "48.6667%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -55,11 +83,11 @@
     "night": "2"
   },
   "notes": {
-    "top": [
-      "Greyfurt"
-    ],
+    "top": [],
     "middle": [],
-    "base": [
+    "base": [],
+    "all": [
+      "Greyfurt",
       "Beyaz Misk",
       "Sedir"
     ]
@@ -166,5 +194,6 @@
       "brand": "MİCHAEL KORS",
       "name": "Michael for Men"
     }
-  ]
+  ],
+  "comments": []
 }

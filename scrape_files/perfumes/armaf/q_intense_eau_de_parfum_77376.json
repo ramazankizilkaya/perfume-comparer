@@ -49,6 +49,34 @@
     {
       "name": "paçuli",
       "width": "54.1379%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -64,11 +92,11 @@
   },
   "seasons": {
     "winter": "9",
-    "spring": "12",
-    "summer": "7",
-    "autumn": "15",
-    "day": "12",
-    "night": "13"
+    "spring": "13",
+    "summer": "8",
+    "autumn": "16",
+    "day": "13",
+    "night": "14"
   },
   "notes": {
     "top": [
@@ -88,7 +116,8 @@
       "Tonka fasulyesi",
       "Sandal ağacı",
       "Vanilya"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -141,6 +170,14 @@
   ],
   "peopleAlsoLike": [
     {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male"
+    },
+    {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Ultra Male"
     },
@@ -149,40 +186,36 @@
       "name": "La Nuit de l'Homme"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Acqua di Giò Profumo"
+      "brand": "DAVİDOFF",
+      "name": "Cool Water"
     },
     {
-      "brand": "CHANEL",
-      "name": "Coco Mademoiselle"
+      "brand": "RABANNE",
+      "name": "Invictus"
     },
     {
-      "brand": "AZZARO",
-      "name": "Wanted by Night"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad"
     },
     {
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
     },
     {
+      "brand": "LALİQUE",
+      "name": "Encre Noire"
+    },
+    {
       "brand": "MUGLER",
       "name": "A*Men"
     },
     {
-      "brand": "VERSACE",
-      "name": "Versace Pour Homme Oud Noir"
-    },
-    {
-      "brand": "ALFRED DUNHİLL",
-      "name": "Custom"
+      "brand": "BENTLEY",
+      "name": "Bentley for Men Intense"
     },
     {
       "brand": "VERSACE",
       "name": "The Dreamer"
-    },
-    {
-      "brand": "PRADA",
-      "name": "Prada L'Homme"
     },
     {
       "brand": "MANCERA",
@@ -195,10 +228,7 @@
     {
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
-    },
-    {
-      "brand": "BVLGARİ",
-      "name": "Bvlgari Man In Black"
     }
-  ]
+  ],
+  "comments": []
 }

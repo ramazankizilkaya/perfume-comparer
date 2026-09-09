@@ -28,42 +28,73 @@
     },
     {
       "name": "badem",
-      "width": "40.5%"
+      "width": "40.5001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.73",
-    "votesCount": "33",
+    "score": "3.71",
+    "votesCount": "34",
     "breakdown": {
       "love": "8",
       "like": "10",
-      "ok": "13",
+      "ok": "14",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "7",
+    "winter": "8",
     "spring": "13",
-    "summer": "18",
+    "summer": "19",
     "autumn": "13",
-    "day": "17",
+    "day": "18",
     "night": "6"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kiraz"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
-    "weak": "9",
+    "weak": "10",
     "moderate": "4",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "8",
+    "intimate": "9",
     "moderate": "4",
     "strong": "0",
     "enormous": "0"
@@ -71,25 +102,25 @@
   "genderVoting": {
     "female": "7",
     "moreFemale": "5",
-    "unisex": "4",
+    "unisex": "5",
     "moreMale": "2",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "0",
-    "fair": "13",
+    "fair": "14",
     "goodValue": "8",
     "greatValue": "4"
   },
   "remindsMeOf": [
     {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Fantasy Did it Again Edition"
-    },
-    {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '68"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Fantasy Did it Again Edition"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -111,11 +142,11 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Covered In Roses"
+      "name": "Sweetest Song"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Sweetest Song"
+      "name": "Covered In Roses"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -123,7 +154,15 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Gingham Fresh"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Inner Angel"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Dark Kiss"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -148,14 +187,7 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Chocolate Amber Body Mist"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Gingham"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Into The Night"
     }
-  ]
+  ],
+  "comments": []
 }

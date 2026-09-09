@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.35648.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Bling-Noir-35648.html",
   "brand": "Ajmal parfüm ve kolonya",
-  "description": "Ajmal markasının Bling Noir parfümü, kadınlar için Oryantal bir kokudur. Bling Noir, 2015 yılında piyasaya sürüldü. Kokuda Agar ağacı (Oud), Gül, Safran, Odunsu Notlar, Sandal ağacı, Baharatlı notalar ve Kakule notaları bulunur.",
-  "description_original": "Ajmal markasının Bling Noir parfümü, kadınlar için Oryantal bir kokudur. Bling Noir, 2015 yılında piyasaya sürüldü. Kokuda Agar ağacı (Oud), Gül, Safran, Odunsu Notlar, Sandal ağacı, Baharatlı notalar ve Kakule notaları bulunur.",
-  "description_enhanced": "Ajmal markasının Bling Noir parfümü, kadınlar için Oryantal bir kokudur. Bling Noir, 2015 yılında piyasaya sürüldü. Kokuda Agar ağacı (Oud), Gül, Safran, Odunsu Notlar, Sandal ağacı, Baharatlı notalar ve Kakule notaları bulunur.",
+  "description": "Ajmal markasının Bling Noir parfümü, kadınlar için Oryantal bir kokudur. Bling Noir, 2015 yılında piyasaya sürüldü. Kokuda Agar ağacı (Oud), Gül, Safran, Odunsu Notalar, Sandal ağacı, Baharatlı Notalar ve Kakule notaları bulunur.",
+  "description_original": "Ajmal markasının Bling Noir parfümü, kadınlar için Oryantal bir kokudur. Bling Noir, 2015 yılında piyasaya sürüldü. Kokuda Agar ağacı (Oud), Gül, Safran, Odunsu Notalar, Sandal ağacı, Baharatlı Notalar ve Kakule notaları bulunur.",
+  "description_enhanced": "Ajmal markasının Bling Noir parfümü, kadınlar için Oryantal bir kokudur. Bling Noir, 2015 yılında piyasaya sürüldü. Kokuda Agar ağacı (Oud), Gül, Safran, Odunsu Notalar, Sandal ağacı, Baharatlı Notalar ve Kakule notaları bulunur.",
   "mainAccords": [
     {
       "name": "sıcak baharatlı",
@@ -27,8 +27,32 @@
       "width": "58.066%"
     },
     {
-      "name": "aromatik",
+      "name": "metalik",
       "width": "43.2075%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -53,7 +77,16 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Agar ağacı (Oud)",
+      "Gül",
+      "Safran",
+      "Odunsu Notalar",
+      "Sandal ağacı",
+      "Baharatlı Notalar",
+      "Kakule"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -114,12 +147,12 @@
       "name": "Encre Noire"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Samsara Eau de Parfum"
-    },
-    {
       "brand": "CHANEL",
       "name": "Antaeus"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Samsara Eau de Parfum"
     },
     {
       "brand": "TOM FORD",
@@ -157,5 +190,6 @@
       "brand": "AJMAL",
       "name": "Raindrops"
     }
-  ]
+  ],
+  "comments": []
 }

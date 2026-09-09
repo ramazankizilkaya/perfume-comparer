@@ -29,15 +29,43 @@
     {
       "name": "pudralı",
       "width": "36.5625%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.05",
-    "votesCount": "73",
+    "score": "4.04",
+    "votesCount": "74",
     "breakdown": {
       "love": "31",
       "like": "22",
-      "ok": "15",
+      "ok": "16",
       "dislike": "3",
       "hate": "2"
     }
@@ -53,7 +81,11 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Yaban meyveleri",
+      "Vanilya"
+    ]
   },
   "longevity": {
     "veryWeak": "5",
@@ -78,7 +110,7 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "0",
-    "fair": "15",
+    "fair": "16",
     "goodValue": "12",
     "greatValue": "9"
   },
@@ -116,10 +148,6 @@
       "name": "Macaron Cloud"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Autumn Drive"
-    },
-    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Love Spell Daydream"
     },
@@ -130,6 +158,10 @@
     {
       "brand": "ARİANA GRANDE",
       "name": "Cloud Intense"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Autumn Drive"
     },
     {
       "brand": "FİNE'RY.",
@@ -197,5 +229,6 @@
       "brand": "AQUOLİNA",
       "name": "Pink Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

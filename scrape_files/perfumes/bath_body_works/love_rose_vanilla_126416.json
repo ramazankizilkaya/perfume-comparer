@@ -29,31 +29,63 @@
     {
       "name": "tatlı",
       "width": "39.3333%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.88",
-    "votesCount": "8",
+    "score": "3.90",
+    "votesCount": "10",
     "breakdown": {
-      "love": "2",
+      "love": "3",
       "like": "3",
-      "ok": "3",
+      "ok": "4",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "0",
-    "spring": "3",
-    "summer": "1",
+    "winter": "1",
+    "spring": "4",
+    "summer": "2",
     "autumn": "1",
-    "day": "3",
+    "day": "4",
     "night": "1"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Gül",
+      "Vanilya"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -78,11 +110,16 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "3",
+    "fair": "4",
     "goodValue": "1",
     "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MANCERA",
+      "name": "Roses Vanille"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "COACH",
@@ -144,5 +181,6 @@
       "brand": "VİCTORİA'S SECRET",
       "name": "Love Spell"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -29,14 +29,38 @@
     {
       "name": "narenciye",
       "width": "44.8077%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.96",
-    "votesCount": "27",
+    "votesCount": "28",
     "breakdown": {
       "love": "8",
-      "like": "14",
+      "like": "15",
       "ok": "1",
       "dislike": "4",
       "hate": "0"
@@ -44,10 +68,10 @@
   },
   "seasons": {
     "winter": "5",
-    "spring": "9",
-    "summer": "8",
-    "autumn": "5",
-    "day": "11",
+    "spring": "10",
+    "summer": "9",
+    "autumn": "6",
+    "day": "12",
     "night": "4"
   },
   "notes": {
@@ -61,7 +85,8 @@
     ],
     "base": [
       "Odunsu Notalar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "3",
@@ -161,5 +186,6 @@
       "brand": "BY KİLİAN",
       "name": "Back to Black"
     }
-  ]
+  ],
+  "comments": []
 }

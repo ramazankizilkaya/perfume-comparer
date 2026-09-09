@@ -33,6 +33,30 @@
     {
       "name": "beyaz çiçeksi",
       "width": "48.3607%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -67,7 +91,8 @@
     "base": [
       "Çiçeksi Notalar",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "0",
@@ -158,5 +183,6 @@
       "brand": "ESTÉE LAUDER",
       "name": "Knowing"
     }
-  ]
+  ],
+  "comments": []
 }

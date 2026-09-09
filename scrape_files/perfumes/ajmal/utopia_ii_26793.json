@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.26793.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ajmal/Utopia-II-26793.html",
   "brand": "Ajmal parfüm ve kolonya",
-  "description": "Ajmal markasının Utopia II parfümü, erkekler için Narenciye Aromatik bir kokudur. Utopia II, 2014 yılında piyasaya sürüldü. Üst notalar: Bergamot yaprağı, Elma ve Limon; orta notalar: Su, Sedir, Lavanta ve Kekik; alt notalar Amber, Meşe yosunu ve Paçuli.",
-  "description_original": "Ajmal markasının Utopia II parfümü, erkekler için Narenciye Aromatik bir kokudur. Utopia II, 2014 yılında piyasaya sürüldü. Üst notalar: Bergamot yaprağı, Elma ve Limon; orta notalar: Su, Sedir, Lavanta ve Kekik; alt notalar Amber, Meşe yosunu ve Paçuli.",
-  "description_enhanced": "Ajmal markasının Utopia II parfümü, erkekler için Narenciye Aromatik bir kokudur. Utopia II, 2014 yılında piyasaya sürüldü. Üst notalar: Bergamot yaprağı, Elma ve Limon; orta notalar: Su, Sedir, Lavanta ve Kekik; alt notalar Amber, Meşe yosunu ve Paçuli.",
+  "description": "Ajmal markasının Utopia II parfümü, erkekler için Narenciye Aromatik bir kokudur. Utopia II, 2014 yılında piyasaya sürüldü. Üst notalar: Bergamot yaprağı, Elma ve Limon; orta notalar: Su Notaları, Sedir, Lavanta ve Kekik; alt notalar Amber, Meşe yosunu ve Paçuli.",
+  "description_original": "Ajmal markasının Utopia II parfümü, erkekler için Narenciye Aromatik bir kokudur. Utopia II, 2014 yılında piyasaya sürüldü. Üst notalar: Bergamot yaprağı, Elma ve Limon; orta notalar: Su Notaları, Sedir, Lavanta ve Kekik; alt notalar Amber, Meşe yosunu ve Paçuli.",
+  "description_enhanced": "Ajmal markasının Utopia II parfümü, erkekler için Narenciye Aromatik bir kokudur. Utopia II, 2014 yılında piyasaya sürüldü. Üst notalar: Bergamot yaprağı, Elma ve Limon; orta notalar: Su Notaları, Sedir, Lavanta ve Kekik; alt notalar Amber, Meşe yosunu ve Paçuli.",
   "mainAccords": [
     {
       "name": "odunsu",
@@ -49,6 +49,30 @@
     {
       "name": "meyvemsi",
       "width": "63.9622%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -77,7 +101,7 @@
       "Limon"
     ],
     "middle": [
-      "Su",
+      "Su Notaları",
       "Sedir",
       "Lavanta",
       "Kekik"
@@ -86,7 +110,8 @@
       "Amber",
       "Meşe yosunu",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "4",
@@ -238,5 +263,6 @@
       "brand": "RASASİ",
       "name": "Daarej pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,26 +16,54 @@
     },
     {
       "name": "odunsu",
-      "width": "79.9999%"
+      "width": "78.75%"
     },
     {
       "name": "animalik",
-      "width": "74.7499%"
+      "width": "72%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "47%"
+      "width": "46.0001%"
     },
     {
       "name": "taze baharatlı",
-      "width": "33.9999%"
+      "width": "33.5001%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": ""
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.39",
-    "votesCount": "93",
+    "score": "4.41",
+    "votesCount": "96",
     "breakdown": {
-      "love": "52",
+      "love": "55",
       "like": "29",
       "ok": "9",
       "dislike": "2",
@@ -43,79 +71,87 @@
     }
   },
   "seasons": {
-    "winter": "57",
-    "spring": "31",
+    "winter": "59",
+    "spring": "33",
     "summer": "15",
-    "autumn": "60",
-    "day": "31",
-    "night": "60"
+    "autumn": "62",
+    "day": "33",
+    "night": "62"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Kamboçya Oud",
+      "Beyaz Oud",
+      "Agar ağacı (Oud)",
+      "Laos Oud",
+      "Tayland Oud",
+      "Hint Oud"
+    ]
   },
   "longevity": {
     "veryWeak": "2",
     "weak": "3",
-    "moderate": "19",
+    "moderate": "20",
     "longLasting": "43",
     "eternal": "17"
   },
   "sillage": {
     "intimate": "4",
-    "moderate": "19",
-    "strong": "35",
+    "moderate": "20",
+    "strong": "34",
     "enormous": "12"
   },
   "genderVoting": {
-    "female": "4",
+    "female": "6",
     "moreFemale": "5",
     "unisex": "38",
-    "moreMale": "26",
+    "moreMale": "28",
     "male": "23"
   },
   "priceVoting": {
-    "wayOverpriced": "0",
+    "wayOverpriced": "1",
     "overpriced": "1",
     "fair": "9",
     "goodValue": "24",
-    "greatValue": "50"
+    "greatValue": "52"
   },
   "remindsMeOf": [
     {
       "brand": "DİOR",
+      "name": "Oud Ispahan"
+    },
+    {
+      "brand": "DİOR",
       "name": "Rouge Trafalgar"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Oud Ispahan"
-    },
-    {
-      "brand": "ARABİAN OUD",
-      "name": "Madawi"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Oud Ispahan"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Velvet Desert Oud"
     },
     {
       "brand": "ABDUL SAMAD AL QURASHİ",
       "name": "Al Qurashi Blend"
     },
     {
-      "brand": "ATHENA FRAGRANCES",
-      "name": "QATAR 22"
+      "brand": "ARABİAN OUD",
+      "name": "Madawi"
     }
   ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
+      "name": "Opulent Oud"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
       "name": "Ameer Al Oudh Intense Oud"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Summer Oud"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Qaa'ed"
     },
     {
       "brand": "RASASİ",
@@ -123,11 +159,15 @@
     },
     {
       "brand": "AHMED AL MAGHRİBİ",
-      "name": "Oud & Roses"
+      "name": "Ignite Oud"
     },
     {
       "brand": "SWİSS ARABİAN",
       "name": "Shaghaf Oud"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Oud & Roses"
     },
     {
       "brand": "LALİQUE",
@@ -136,10 +176,6 @@
     {
       "brand": "MANCERA",
       "name": "Red Tobacco"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Godolphin"
     },
     {
       "brand": "AFNAN",
@@ -154,24 +190,13 @@
       "name": "La Nuit de l'Homme"
     },
     {
-      "brand": "RASASİ",
-      "name": "Daarej pour Homme"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Fakhar Black"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Bade'e Al Oud Honor & Glory"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Intense Man"
     }
-  ]
+  ],
+  "comments": []
 }

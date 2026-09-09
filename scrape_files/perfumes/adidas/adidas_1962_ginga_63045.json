@@ -1,8 +1,8 @@
 {
   "name": "Adidas 1962 Ginga Adidas",
   "targetGender": "erkekler için",
-  "fragranceFamily": "Citrus",
-  "concentration": "Edt",
+  "fragranceFamily": "Woody",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.63045.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Adidas/Adidas-1962-Ginga-63045.html",
   "brand": "Adidas parfüm ve kolonya",
@@ -11,7 +11,7 @@
   "description_enhanced": "Adidas markasının Adidas 1962 Ginga parfümü, erkekler için Aromatik Fujer bir kokudur. Adidas 1962 Ginga, 2013 yılında piyasaya sürüldü. Üst nota: Mandalina; orta nota: Paçuli; alt nota Misk.",
   "mainAccords": [
     {
-      "name": "narenciye",
+      "name": "paçuli",
       "width": "100%"
     },
     {
@@ -19,7 +19,7 @@
       "width": "100%"
     },
     {
-      "name": "paçuli",
+      "name": "narenciye",
       "width": "100%"
     },
     {
@@ -27,11 +27,11 @@
       "width": "72.0003%"
     },
     {
-      "name": "pudralı",
+      "name": "sıcak baharatlı",
       "width": "65.0002%"
     },
     {
-      "name": "sıcak baharatlı",
+      "name": "pudralı",
       "width": "65.0002%"
     },
     {
@@ -43,12 +43,36 @@
       "width": "51.0001%"
     },
     {
+      "name": "tatlı",
+      "width": "44.0001%"
+    },
+    {
       "name": "meyvemsi",
       "width": "44.0001%"
     },
     {
-      "name": "tatlı",
-      "width": "44.0001%"
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,7 +103,8 @@
     ],
     "base": [
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "6",
@@ -114,5 +139,6 @@
       "name": "VIP"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

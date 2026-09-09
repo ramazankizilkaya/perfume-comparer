@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.73211.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Al-Haramain-Perfumes/L-Aventure-Gold-73211.html",
   "brand": "Al Haramain Perfumes parfüm ve kolonya",
-  "description": "Al Haramain Perfumes markasının L'Aventure Gold parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. L'Aventure Gold, 2022 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü, Yeşil Yapraklar ve Bergamot; orta notalar: Müge, Erik, Gül, Orkide ve Yasemin; alt notalar Misk, Sandal ağacı ve Vanilya.",
-  "description_original": "Al Haramain Perfumes markasının L'Aventure Gold parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. L'Aventure Gold, 2022 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü, Yeşil Yapraklar ve Bergamot; orta notalar: Müge, Erik, Gül, Orkide ve Yasemin; alt notalar Misk, Sandal ağacı ve Vanilya.",
-  "description_enhanced": "Al Haramain Perfumes markasının L'Aventure Gold parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. L'Aventure Gold, 2022 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü, Yeşil Yapraklar ve Bergamot; orta notalar: Müge, Erik, Gül, Orkide ve Yasemin; alt notalar Misk, Sandal ağacı ve Vanilya.",
+  "description": "Al Haramain Perfumes markasının L'Aventure Gold parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. L'Aventure Gold, 2022 yılında piyasaya sürüldü. Üst notalar: Siyah Frenk Üzümü, Yeşil Yapraklar ve Bergamot; orta notalar: Müge, Erik, Gül, Orkide ve Yasemin; alt notalar Misk, Sandal ağacı ve Vanilya.",
+  "description_original": "Al Haramain Perfumes markasının L'Aventure Gold parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. L'Aventure Gold, 2022 yılında piyasaya sürüldü. Üst notalar: Siyah Frenk Üzümü, Yeşil Yapraklar ve Bergamot; orta notalar: Müge, Erik, Gül, Orkide ve Yasemin; alt notalar Misk, Sandal ağacı ve Vanilya.",
+  "description_enhanced": "Al Haramain Perfumes markasının L'Aventure Gold parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. L'Aventure Gold, 2022 yılında piyasaya sürüldü. Üst notalar: Siyah Frenk Üzümü, Yeşil Yapraklar ve Bergamot; orta notalar: Müge, Erik, Gül, Orkide ve Yasemin; alt notalar Misk, Sandal ağacı ve Vanilya.",
   "mainAccords": [
     {
       "name": "meyvemsi",
@@ -49,14 +49,42 @@
     {
       "name": "gül",
       "width": "56.9999%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.85",
-    "votesCount": "78",
+    "votesCount": "79",
     "breakdown": {
       "love": "24",
-      "like": "32",
+      "like": "33",
       "ok": "10",
       "dislike": "10",
       "hate": "2"
@@ -72,7 +100,7 @@
   },
   "notes": {
     "top": [
-      "Frenk üzümü",
+      "Siyah Frenk Üzümü",
       "Yeşil Yapraklar",
       "Bergamot"
     ],
@@ -87,7 +115,8 @@
       "Misk",
       "Sandal ağacı",
       "Vanilya"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "4",
@@ -103,7 +132,7 @@
     "enormous": "2"
   },
   "genderVoting": {
-    "female": "42",
+    "female": "43",
     "moreFemale": "9",
     "unisex": "6",
     "moreMale": "1",
@@ -122,12 +151,12 @@
       "name": "J'adore"
     },
     {
-      "brand": "CREED",
-      "name": "Aventus for Her"
-    },
-    {
       "brand": "DİOR",
       "name": "J'Adore Collector Anniversary Edition"
+    },
+    {
+      "brand": "CREED",
+      "name": "Aventus for Her"
     },
     {
       "brand": "DİOR",
@@ -136,6 +165,10 @@
     {
       "brand": "ELİZABETH ARDEN",
       "name": "Arden Beauty"
+    },
+    {
+      "brand": "AVON",
+      "name": "Incandessence"
     },
     {
       "brand": "ROOM 1015",
@@ -158,19 +191,15 @@
       "name": "L'Aventure Intense"
     },
     {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "L'Aventure Ciel"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Breeze"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "L'Aventure Ciel"
     }
   ],
   "peopleAlsoLike": [
-    {
-      "brand": "CHANEL",
-      "name": "Chance Eau Tendre"
-    },
     {
       "brand": "LANCÔME",
       "name": "Idôle"
@@ -188,16 +217,24 @@
       "name": "Amber Oud Gold Edition"
     },
     {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Woman"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Athena"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Yara"
+      "brand": "NİSHANE",
+      "name": "Ani"
     },
     {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez for Her Eau de Parfum"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Guidance"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Hypnotic Poison"
     },
     {
       "brand": "AL HARAMAİN PERFUMES",
@@ -220,12 +257,9 @@
       "name": "Nebras"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Bade'e Al Oud Amethyst"
-    },
-    {
       "brand": "LALİQUE",
       "name": "Encre Noire"
     }
-  ]
+  ],
+  "comments": []
 }

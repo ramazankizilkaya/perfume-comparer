@@ -49,26 +49,50 @@
     {
       "name": "taze",
       "width": "44.8995%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.02",
-    "votesCount": "88",
+    "score": "3.99",
+    "votesCount": "91",
     "breakdown": {
-      "love": "41",
+      "love": "42",
       "like": "24",
-      "ok": "13",
+      "ok": "14",
       "dislike": "4",
-      "hate": "6"
+      "hate": "7"
     }
   },
   "seasons": {
-    "winter": "25",
-    "spring": "29",
-    "summer": "19",
-    "autumn": "48",
+    "winter": "27",
+    "spring": "30",
+    "summer": "20",
+    "autumn": "49",
     "day": "31",
-    "night": "34"
+    "night": "35"
   },
   "notes": {
     "top": [
@@ -87,7 +111,8 @@
       "Sedir ağacı",
       "Vetiver",
       "Guayak ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "6",
@@ -112,7 +137,7 @@
   "priceVoting": {
     "wayOverpriced": "20",
     "overpriced": "14",
-    "fair": "13",
+    "fair": "14",
     "goodValue": "6",
     "greatValue": "2"
   },
@@ -124,10 +149,6 @@
     {
       "brand": "AVON",
       "name": "Avon Luck La Vie"
-    },
-    {
-      "brand": "XERJOFF",
-      "name": "Accento Overdose"
     },
     {
       "brand": "ERİC BUTERBAUGH FLORALS",
@@ -160,6 +181,10 @@
     {
       "brand": "AVON",
       "name": "Avon Colonia Frozen Magic"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Accento Overdose"
     },
     {
       "brand": "AVON",
@@ -220,12 +245,12 @@
       "name": "Pi"
     },
     {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Buongiorno"
-    },
-    {
       "brand": "INİTİO PARFUMS PRİVES",
       "name": "Side Effect"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Buongiorno"
     },
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -239,5 +264,6 @@
       "brand": "XERJOFF",
       "name": "XJ 1861 Naxos"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -1,8 +1,8 @@
 {
   "name": "Adidas Raça Adidas",
   "targetGender": "erkekler için",
-  "fragranceFamily": "Citrus",
-  "concentration": "Edt",
+  "fragranceFamily": "Woody",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.63043.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Adidas/Adidas-Raca-63043.html",
   "brand": "Adidas parfüm ve kolonya",
@@ -11,7 +11,7 @@
   "description_enhanced": "Adidas markasının Adidas Raça parfümü, erkekler için Aromatik Fujer bir kokudur. Adidas Raça, 2013 yılında piyasaya sürüldü. Üst notalar: Narenciye ve Bitkisel Notlar; orta notalar: Yeşil Notalar, Meyvemsi Notlar ve Kahve; alt notalar Odunsu Notalar ve Tonka fasulyesi.",
   "mainAccords": [
     {
-      "name": "narenciye",
+      "name": "odunsu",
       "width": "100%"
     },
     {
@@ -19,7 +19,7 @@
       "width": "100%"
     },
     {
-      "name": "odunsu",
+      "name": "narenciye",
       "width": "100%"
     },
     {
@@ -29,16 +29,40 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.00",
-    "votesCount": "4",
+    "score": "2.80",
+    "votesCount": "5",
     "breakdown": {
       "love": "0",
       "like": "1",
       "ok": "2",
-      "dislike": "1",
+      "dislike": "2",
       "hate": "0"
     }
   },
@@ -63,7 +87,8 @@
     "base": [
       "Odunsu Notalar",
       "Tonka fasulyesi"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "1",
@@ -93,5 +118,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

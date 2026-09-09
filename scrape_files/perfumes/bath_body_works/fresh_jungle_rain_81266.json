@@ -29,21 +29,49 @@
     {
       "name": "sulu",
       "width": "49.4444%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.93",
-    "votesCount": "56",
+    "score": "3.91",
+    "votesCount": "57",
     "breakdown": {
       "love": "17",
       "like": "24",
-      "ok": "9",
+      "ok": "10",
       "dislike": "6",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "3",
+    "winter": "4",
     "spring": "31",
     "summer": "29",
     "autumn": "8",
@@ -53,7 +81,12 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Palmiye yaprağı",
+      "Pitahaya",
+      "Yağmur Notları"
+    ]
   },
   "longevity": {
     "veryWeak": "3",
@@ -78,7 +111,7 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "0",
-    "fair": "9",
+    "fair": "10",
     "goodValue": "10",
     "greatValue": "10"
   },
@@ -177,5 +210,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Fairytale"
     }
-  ]
+  ],
+  "comments": []
 }

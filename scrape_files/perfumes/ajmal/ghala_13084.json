@@ -37,6 +37,30 @@
     {
       "name": "taze",
       "width": "45.6896%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,7 +85,15 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Sandal ağacı",
+      "Amber",
+      "Zencefil",
+      "Sedir",
+      "Karanfil",
+      "Kakule"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -129,12 +161,12 @@
       "name": "Tonka Imperiale"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Violet Blonde"
-    },
-    {
       "brand": "GİVENCHY",
       "name": "Pi"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Violet Blonde"
     },
     {
       "brand": "GUERLAİN",
@@ -152,5 +184,6 @@
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

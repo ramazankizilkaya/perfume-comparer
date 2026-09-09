@@ -17,6 +17,30 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -41,7 +65,10 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Agar ağacı (Oud)"
+    ]
   },
   "longevity": {
     "veryWeak": "0",
@@ -86,8 +113,16 @@
       "name": "Mukhallat Dewan Al Sharq"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Splendid Wood"
+      "brand": "TRNP",
+      "name": "Zeeba"
+    },
+    {
+      "brand": "CHOPARD",
+      "name": "Oud Malaki"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "More Than Words"
     },
     {
       "brand": "ARABİAN OUD",
@@ -106,20 +141,12 @@
       "name": "Interlude Man"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Journey Man"
-    },
-    {
       "brand": "SERGE LUTENS",
       "name": "Arabie"
     },
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Layton"
-    },
-    {
-      "brand": "COMME DES GARCONS",
-      "name": "Black Eau de Toilette"
     },
     {
       "brand": "AMOUAGE",
@@ -141,5 +168,6 @@
       "brand": "SERGE LUTENS",
       "name": "Chergui"
     }
-  ]
+  ],
+  "comments": []
 }

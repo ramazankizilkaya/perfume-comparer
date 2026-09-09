@@ -1,7 +1,7 @@
 {
   "name": "Citrus Bath & Body Works",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Citrus",
+  "fragranceFamily": null,
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.93228.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bath-Body-Works/Citrus-93228.html",
@@ -10,10 +10,6 @@
   "description_original": "Bath & Body Works markasının Citrus parfümü, kadınlar için Narenciye bir kokudur. Citrus, 2024 yılında piyasaya sürüldü.",
   "description_enhanced": "Bath & Body Works markasının Citrus parfümü, kadınlar için Narenciye bir kokudur. Citrus, 2024 yılında piyasaya sürüldü.",
   "mainAccords": [
-    {
-      "name": "Şurada ara",
-      "width": "100%"
-    },
     {
       "name": "kadın",
       "width": "6px"
@@ -41,10 +37,10 @@
   ],
   "rating": {
     "score": "3.97",
-    "votesCount": "36",
+    "votesCount": "38",
     "breakdown": {
       "love": "10",
-      "like": "17",
+      "like": "19",
       "ok": "7",
       "dislike": "2",
       "hate": "0"
@@ -52,16 +48,17 @@
   },
   "seasons": {
     "winter": "1",
-    "spring": "10",
-    "summer": "16",
+    "spring": "13",
+    "summer": "19",
     "autumn": "1",
-    "day": "15",
+    "day": "18",
     "night": "3"
   },
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
@@ -155,6 +152,14 @@
     },
     {
       "brand": "BATH & BODY WORKS",
+      "name": "Strawberry Snowflakes"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Snowflakes & Cashmere"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
       "name": "Covered In Roses"
     },
     {
@@ -167,7 +172,15 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Strawberry Snowflakes"
+      "name": "Champagne Apple & Honey"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Into The Night"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara"
     },
     {
       "brand": "SOL DE JANEİRO",
@@ -179,27 +192,12 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Snowflakes & Cashmere"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Bright Christmas Morning"
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Chasing Fireflies"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Milk"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Vanilla Bean Noel"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Floral Fantasy"
+      "name": "Gingham Gorgeous"
     }
-  ]
+  ],
+  "comments": []
 }
