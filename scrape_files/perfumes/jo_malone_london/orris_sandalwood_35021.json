@@ -62,7 +62,7 @@
     "winter": "124",
     "spring": "100",
     "summer": "36",
-    "autumn": "169",
+    "autumn": "170",
     "day": "146",
     "night": "119"
   },
@@ -82,94 +82,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "24",
-    "weak": "34",
-    "moderate": "104",
-    "longLasting": "48",
-    "eternal": "25"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "62",
-    "moderate": "104",
-    "strong": "87",
-    "enormous": "56"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "9",
-    "moreFemale": "15",
-    "unisex": "67",
-    "moreMale": "11",
-    "male": "7"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "16",
-    "overpriced": "27",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "28",
-    "goodValue": "10",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Orris & Sandalwood Limited Edition"
-    },
-    {
-      "brand": "SANTA MARİA NOVELLA",
-      "name": "Iris"
-    },
-    {
-      "brand": "HİSTOİRES DE PARFUMS",
-      "name": "1905 Madame Butterfly Puccini"
-    },
-    {
-      "brand": "MARİSSA ZAPPAS",
-      "name": "Violette Hay"
-    },
-    {
-      "brand": "ORMONDE JAYNE",
-      "name": "Montabaco"
-    },
-    {
-      "brand": "SANTA MARİA NOVELLA",
-      "name": "Sandalo"
-    },
-    {
-      "brand": "TEO CABANEL",
-      "name": "Encore"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Bois de Vincennes"
-    },
-    {
-      "brand": "HİSTOİRES DE PARFUMS",
-      "name": "1904 Madame Butterfly Puccini Absolu EdP"
-    },
-    {
-      "brand": "PHARRELL WİLLİAMS",
-      "name": "Girl"
-    },
-    {
-      "brand": "LE LABO",
-      "name": "Santal 33"
-    },
-    {
-      "brand": "MAD ET LEN",
-      "name": "Black Uddu"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "La Pausa Eau de Parfum"
-    },
-    {
-      "brand": "LESQUENDİEU",
-      "name": "Orris Amber"
-    },
-    {
-      "brand": "CALYPSO CHRİSTİANE CELLE",
-      "name": "Calypso Violette"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "PRADA",
@@ -231,5 +170,6 @@
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -41,25 +41,53 @@
     {
       "name": "taze baharatlı",
       "width": "45.2727%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.44",
-    "votesCount": "18",
+    "score": "3.41",
+    "votesCount": "22",
     "breakdown": {
       "love": "6",
-      "like": "4",
-      "ok": "3",
-      "dislike": "2",
+      "like": "6",
+      "ok": "4",
+      "dislike": "3",
       "hate": "3"
     }
   },
   "seasons": {
     "winter": "1",
-    "spring": "10",
-    "summer": "10",
-    "autumn": "7",
-    "day": "8",
+    "spring": "13",
+    "summer": "12",
+    "autumn": "8",
+    "day": "11",
     "night": "3"
   },
   "notes": {
@@ -81,57 +109,82 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "8",
+    "longLasting": "4",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "8",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "6",
+    "male": "7"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "0",
+    "fair": "4",
+    "goodValue": "6",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Invictus"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Aqua"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Aqua (2024)"
+    },
     {
       "brand": "MAİSON ALHAMBRA",
-      "name": "Jean Lowe Azure"
+      "name": "Victorioso"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas for Him"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Ice"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "BYBOZO",
+      "name": "Sea Breeze"
     },
     {
       "brand": "MONTALE",
       "name": "Soleil de Capri"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Jean Lowe Vibe"
-    },
-    {
       "brand": "AL WATANİAH",
       "name": "Sultan Al Lail"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Jour d'Hermes"
     },
     {
       "brand": "ZARKOPERFUME",
       "name": "Sending Love"
     },
     {
-      "brand": "SOUL OF RUSSİA",
-      "name": "Murmansk"
+      "brand": "MOSCHİNO",
+      "name": "Cheap and Chic Hippy Fizz"
     },
     {
       "brand": "VERSACE",
@@ -146,8 +199,12 @@
       "name": "Miracle"
     },
     {
-      "brand": "MANCERA",
-      "name": "Tonka Cola"
+      "brand": "BY KİLİAN",
+      "name": "Playing With The Devil"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Bal d'Afrique"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -158,16 +215,13 @@
       "name": "Invicto Victorious Elixir"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Victoria"
+      "brand": "LALİQUE",
+      "name": "Encre Noire Pour Elle"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Asad"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Nebras"
+      "name": "Khamrah"
     }
-  ]
+  ],
+  "comments": []
 }

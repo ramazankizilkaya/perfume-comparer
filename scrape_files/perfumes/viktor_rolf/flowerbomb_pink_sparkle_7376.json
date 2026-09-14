@@ -49,6 +49,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "50.8715%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "1",
+    "longLasting": "4",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "1",
+    "strong": "6",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Christmas 2010 Edition"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb La Vie En Rose"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Frozen Flower"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİKTOR&ROLF",
@@ -176,5 +221,6 @@
       "brand": "VERA WANG",
       "name": "Princess"
     }
-  ]
+  ],
+  "comments": []
 }

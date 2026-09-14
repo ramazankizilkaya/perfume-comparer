@@ -1,9 +1,9 @@
 {
   "name": "Éclat Bohème Solid Perfume Zara",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Oriental",
+  "fragranceFamily": "Gourmand",
   "concentration": "Edp",
-  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138468.jpg?t=1785053535",
+  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138468.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Zara/Eclat-Boheme-Solid-Perfume-138468.html",
   "brand": "Zara parfüm ve kolonya",
   "description": "Zara markasının Éclat Bohème Solid Perfume parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Bu yeni bir parfüm. Éclat Bohème Solid Perfume, 2026 yılında piyasaya sürüldü. Üst nota: Çilek; orta nota: Şakayık; alt nota Amber ağacı.",
@@ -11,7 +11,7 @@
   "description_enhanced": "Zara markasının Éclat Bohème Solid Perfume parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Bu yeni bir parfüm. Éclat Bohème Solid Perfume, 2026 yılında piyasaya sürüldü. Üst nota: Çilek; orta nota: Şakayık; alt nota Amber ağacı.",
   "mainAccords": [
     {
-      "name": "amber",
+      "name": "meyvemsi",
       "width": "100%"
     },
     {
@@ -19,15 +19,15 @@
       "width": "100%"
     },
     {
-      "name": "meyvemsi",
+      "name": "amber",
       "width": "100%"
     },
     {
-      "name": "taze",
+      "name": "odunsu",
       "width": "86.0003%"
     },
     {
-      "name": "odunsu",
+      "name": "taze",
       "width": "86.0003%"
     },
     {
@@ -41,6 +41,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "50.9999%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -58,9 +86,9 @@
     "winter": "0",
     "spring": "1",
     "summer": "0",
-    "autumn": "0",
+    "autumn": "1",
     "day": "2",
-    "night": "0"
+    "night": "1"
   },
   "notes": {
     "top": [
@@ -101,6 +129,12 @@
     "goodValue": "1",
     "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Attraction Instinct For Her"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

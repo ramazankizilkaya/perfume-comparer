@@ -95,46 +95,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "5",
-    "longLasting": "4",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "5",
-    "strong": "6",
-    "enormous": "6"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "4"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male"
-    },
-    {
-      "brand": "RALPH LAUREN",
-      "name": "Polo Red Extreme"
-    },
-    {
-      "brand": "BALMAİN BEAUTY",
-      "name": "BalMan"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -182,19 +169,20 @@
     },
     {
       "brand": "JEAN PAUL GAULTİER",
-      "name": "Fleur du Mâle"
-    },
-    {
-      "brand": "CALVİN KLEİN",
-      "name": "CK One"
+      "name": "Fleur du Mâle (2007)"
     },
     {
       "brand": "DİOR",
       "name": "Fahrenheit"
     },
     {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One"
+    },
+    {
       "brand": "CHANEL",
       "name": "Egoiste"
     }
-  ]
+  ],
+  "comments": []
 }

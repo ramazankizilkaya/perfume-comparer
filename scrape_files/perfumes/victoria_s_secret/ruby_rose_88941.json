@@ -29,15 +29,43 @@
     {
       "name": "narenciye",
       "width": "31.8958%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.10",
+    "score": "4.05",
     "votesCount": "41",
     "breakdown": {
       "love": "18",
-      "like": "14",
-      "ok": "5",
+      "like": "12",
+      "ok": "7",
       "dislike": "3",
       "hate": "1"
     }
@@ -74,7 +102,7 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "17",
+    "female": "18",
     "moreFemale": "2",
     "unisex": "0",
     "moreMale": "0",
@@ -82,8 +110,8 @@
   },
   "priceVoting": {
     "wayOverpriced": "0",
-    "overpriced": "0",
-    "fair": "5",
+    "overpriced": "1",
+    "fair": "7",
     "goodValue": "9",
     "greatValue": "3"
   },
@@ -117,8 +145,16 @@
       "name": "Rose Pompon Eau de Parfum 2020"
     },
     {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Splash of Berry"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Sakeena"
+    },
+    {
+      "brand": "NEST",
+      "name": "Lychee Rose"
     },
     {
       "brand": "PARİS HİLTON",
@@ -194,5 +230,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Libre"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "bitkisel",
       "width": "45.8077%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "5",
+    "moderate": "7",
+    "longLasting": "21",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "7",
+    "strong": "14",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "3",
+    "male": "17"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "3",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Rive Gauche pour Homme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Collection Rive Gauche Pour Homme"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "Azzaro Pour Homme L'Eau"
+    },
+    {
+      "brand": "GEO. F. TRUMPER",
+      "name": "Paisley"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Malakeos"
+    },
+    {
+      "brand": "PASCAL MORABİTO",
+      "name": "Or Black 2014"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Kouros Eau de Toilette Tonique 2014"
+    },
+    {
+      "brand": "ALEXANDRİA FRAGRANCES",
+      "name": "Dapper 1959"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Loewe Pour Homme"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Neroli Portofino Acqua"
+    },
+    {
+      "brand": "ZARA",
+      "name": "No Night"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -173,8 +246,9 @@
       "name": "Opium Pour Homme"
     },
     {
-      "brand": "CHANEL",
-      "name": "Egoiste"
+      "brand": "PRADA",
+      "name": "Prada Amber Pour Homme (Prada Man)"
     }
-  ]
+  ],
+  "comments": []
 }

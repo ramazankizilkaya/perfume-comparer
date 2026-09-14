@@ -2,7 +2,7 @@
   "name": "Ruade Parfum d'Empire",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Fresh",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88682.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Parfum-d-Empire/Ruade-88682.html",
   "brand": "Parfum d'Empire parfüm ve kolonya",
@@ -41,26 +41,54 @@
     {
       "name": "dumanlı",
       "width": "47.4112%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.99",
-    "votesCount": "135",
+    "score": "3.97",
+    "votesCount": "140",
     "breakdown": {
-      "love": "71",
-      "like": "30",
-      "ok": "10",
-      "dislike": "10",
-      "hate": "14"
+      "love": "74",
+      "like": "29",
+      "ok": "11",
+      "dislike": "11",
+      "hate": "15"
     }
   },
   "seasons": {
-    "winter": "37",
+    "winter": "38",
     "spring": "28",
-    "summer": "19",
-    "autumn": "44",
-    "day": "28",
-    "night": "37"
+    "summer": "20",
+    "autumn": "46",
+    "day": "29",
+    "night": "39"
   },
   "notes": {
     "top": [],
@@ -76,27 +104,27 @@
   "longevity": {
     "veryWeak": "2",
     "weak": "2",
-    "moderate": "15",
+    "moderate": "16",
     "longLasting": "16",
     "eternal": "14"
   },
   "sillage": {
     "intimate": "2",
-    "moderate": "15",
+    "moderate": "16",
     "strong": "12",
     "enormous": "5"
   },
   "genderVoting": {
     "female": "1",
     "moreFemale": "1",
-    "unisex": "20",
+    "unisex": "21",
     "moreMale": "18",
     "male": "17"
   },
   "priceVoting": {
     "wayOverpriced": "16",
     "overpriced": "25",
-    "fair": "10",
+    "fair": "11",
     "goodValue": "5",
     "greatValue": "2"
   },
@@ -114,10 +142,6 @@
       "name": "Kingmaker"
     },
     {
-      "brand": "MONTALE",
-      "name": "Aoud Cuir d’Arabie"
-    },
-    {
       "brand": "MASQUE MİLANO",
       "name": "Montecristo"
     },
@@ -130,6 +154,10 @@
       "name": "Oeilleres L'Objet Parfumant"
     },
     {
+      "brand": "MONTALE",
+      "name": "Aoud Cuir d’Arabie"
+    },
+    {
       "brand": "XERJOFF",
       "name": "Malesia"
     },
@@ -140,10 +168,6 @@
     {
       "brand": "LES INDEMODABLES",
       "name": "Cuir de Chine"
-    },
-    {
-      "brand": "CHOPARD",
-      "name": "Agar Royal"
     },
     {
       "brand": "XERJOFF",
@@ -164,12 +188,20 @@
       "name": "Fougere Bengale"
     },
     {
+      "brand": "NAOMİ GOODSİR",
+      "name": "Nuit de Bakélite"
+    },
+    {
       "brand": "PARFUM D'EMPİRE",
       "name": "Mal-Aimé"
     },
     {
       "brand": "PAPİLLON ARTİSAN PERFUMES",
       "name": "Salome"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "1740 Marquis de Sade"
     },
     {
       "brand": "MDCI PARFUMS",
@@ -206,14 +238,7 @@
     {
       "brand": "TAUER PERFUMES",
       "name": "Au Coeur du Désert"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "Ambre Sultan"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Carnal Flower"
     }
-  ]
+  ],
+  "comments": []
 }

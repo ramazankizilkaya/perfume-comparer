@@ -16,19 +16,19 @@
     },
     {
       "name": "misk",
-      "width": "95.3643%"
+      "width": "95.3646%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "91.5397%"
+      "width": "91.54%"
     },
     {
       "name": "amber",
-      "width": "88.6424%"
+      "width": "88.6427%"
     },
     {
       "name": "taze baharatlı",
-      "width": "80.5298%"
+      "width": "80.53%"
     },
     {
       "name": "odunsu",
@@ -36,7 +36,7 @@
     },
     {
       "name": "aromatik",
-      "width": "60.3642%"
+      "width": "60.3644%"
     },
     {
       "name": "balsamik",
@@ -44,26 +44,54 @@
     },
     {
       "name": "dumanlı",
-      "width": "52.9471%"
+      "width": "52.9473%"
     },
     {
       "name": "narenciye",
-      "width": "49.9338%"
+      "width": "49.9339%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.00",
-    "votesCount": "37",
+    "votesCount": "38",
     "breakdown": {
       "love": "18",
-      "like": "6",
+      "like": "7",
       "ok": "9",
       "dislike": "3",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "24",
+    "winter": "25",
     "spring": "16",
     "summer": "4",
     "autumn": "25",
@@ -100,41 +128,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "7",
+    "longLasting": "13",
+    "eternal": "17"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "7",
+    "strong": "16",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "1",
+    "unisex": "19",
+    "moreMale": "7",
+    "male": "7"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "1",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "10",
+    "greatValue": "15"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AMOUAGE",
+      "name": "Overture Man"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Gold Man"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Awraq Al Oud"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Overdose Killer Oud"
+    },
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Oud Romancea"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Sondos"
+    },
+    {
+      "brand": "MYSTİQ PARFUMS",
+      "name": "Elysian Oud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Kouros"
-    },
-    {
-      "brand": "BENTLEY",
-      "name": "Bentley for Men Intense"
     },
     {
       "brand": "GUERLAİN",
@@ -187,6 +240,11 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Ombré Leather (2018)"
     }
-  ]
+  ],
+  "comments": []
 }

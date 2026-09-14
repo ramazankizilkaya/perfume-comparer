@@ -37,6 +37,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "45.3333%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -70,33 +98,70 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "4",
+    "moderate": "7",
+    "longLasting": "2",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "11",
+    "moderate": "7",
+    "strong": "7",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "1",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES ROCHER",
+      "name": "Agrumes en Fleurs"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Aqua Allegoria Mandarine Basilic"
+    },
+    {
+      "brand": "IL PROFVMO",
+      "name": "Osmo Scents Mandarine"
+    },
+    {
+      "brand": "RİTUALS",
+      "name": "Rituals of Happy Buddha"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Escada Sport Sport Spirit"
+    },
+    {
+      "brand": "SİREN SONG ELİXİRS",
+      "name": "Fluffy Bunny"
+    },
+    {
+      "brand": "LUSH",
+      "name": "Sun"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Acqua di parma Blue Mediterraneo - Mirto di Panarea"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Q by Dolce & Gabbana"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -158,5 +223,6 @@
       "brand": "DİOR",
       "name": "Dior Addict"
     }
-  ]
+  ],
+  "comments": []
 }

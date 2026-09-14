@@ -49,25 +49,53 @@
     {
       "name": "misk",
       "width": "50.5882%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "35",
+    "score": "3.92",
+    "votesCount": "37",
     "breakdown": {
       "love": "10",
       "like": "18",
-      "ok": "4",
-      "dislike": "3",
+      "ok": "5",
+      "dislike": "4",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "2",
-    "spring": "12",
-    "summer": "16",
+    "spring": "14",
+    "summer": "18",
     "autumn": "5",
-    "day": "18",
+    "day": "20",
     "night": "5"
   },
   "notes": {
@@ -89,33 +117,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "9",
+    "longLasting": "1",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "9",
+    "strong": "3",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "7",
+    "moreMale": "1",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "1",
+    "fair": "5",
+    "goodValue": "6",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue pour Homme"
+    },
+    {
+      "brand": "AVON",
+      "name": "Neo Aventura"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Eternity For Men"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau d'Issey Pour Homme"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Quasar Evolution"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -130,16 +179,16 @@
       "name": "Blue Jeans"
     },
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Quasar Classic"
-    },
-    {
       "brand": "CAROLİNA HERRERA",
       "name": "212 Men"
     },
     {
       "brand": "AZZARO",
       "name": "Azzaro pour Homme"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Quasar Classic"
     },
     {
       "brand": "DİOR",
@@ -177,5 +226,6 @@
       "brand": "NATURA",
       "name": "Humor 6 Paz e Humor"
     }
-  ]
+  ],
+  "comments": []
 }

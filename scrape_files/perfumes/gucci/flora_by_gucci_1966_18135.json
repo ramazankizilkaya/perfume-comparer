@@ -63,10 +63,10 @@
     }
   },
   "seasons": {
-    "winter": "44",
+    "winter": "45",
     "spring": "59",
     "summer": "38",
-    "autumn": "63",
+    "autumn": "64",
     "day": "77",
     "night": "57"
   },
@@ -87,90 +87,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "17",
-    "moderate": "33",
-    "longLasting": "33",
-    "eternal": "20"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "28",
-    "moderate": "33",
-    "strong": "57",
-    "enormous": "37"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "23",
-    "moreFemale": "9",
-    "unisex": "12",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "14",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "5",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ZARA",
-      "name": "Fleur de Patchouli"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Elle"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Vanity Femme"
-    },
-    {
-      "brand": "CLİVE CHRİSTİAN",
-      "name": "L for Women Floral Chypre With Rich Patchouli"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Gris Dior"
-    },
-    {
-      "brand": "ROSENDO MATEU OLFACTİVE EXPRESSİONS",
-      "name": "Sweet Rose"
-    },
-    {
-      "brand": "FİNE'RY.",
-      "name": "Madame"
-    },
-    {
-      "brand": "PARFUMS GENTY",
-      "name": "He-art"
-    },
-    {
-      "brand": "LALİQUE",
-      "name": "Perles De Lalique"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Rouge Malachite Limited Edition L'Or de Russie"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Elle Intense Eau de Parfum"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Noir"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Armani Prive Rouge Malachite"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Athalia"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -232,5 +175,6 @@
       "brand": "DİOR",
       "name": "Pure Poison"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -33,15 +33,43 @@
     {
       "name": "tatlı",
       "width": "44.3003%"
+    },
+    {
+      "name": "Online satın alın 15 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "241",
+    "score": "4.05",
+    "votesCount": "243",
     "breakdown": {
       "love": "84",
       "like": "119",
-      "ok": "7",
+      "ok": "9",
       "dislike": "31",
       "hate": "0"
     }
@@ -72,33 +100,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "10",
+    "weak": "15",
+    "moderate": "34",
+    "longLasting": "10",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "31",
+    "moderate": "34",
+    "strong": "13",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "13",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "2",
+    "fair": "9",
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Forever Sunshine"
+    },
+    {
+      "brand": "VİCTORİNOX SWİSS ARMY",
+      "name": "Forget Me Not"
+    },
+    {
+      "brand": "AVON",
+      "name": "Outspoken Fresh"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "Amazing Paradise"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Eau So Fresh Sunshine"
+    },
+    {
+      "brand": "BRUT PARFUMS PRESTİGE",
+      "name": "Faberge Straw Hat"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Eau So Fresh"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Black Edition"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Femme Dylan Blue"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Daze"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "Sunflowers"
+    },
+    {
+      "brand": "JENNİFER LOPEZ",
+      "name": "Love & Glamour"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Eaudemoiselle de Givenchy Eau Florale"
+    },
+    {
+      "brand": "ATELİER COLOGNE",
+      "name": "Clémentine California"
+    },
+    {
+      "brand": "PHİLİPP PLEİN PARFUMS",
+      "name": "No Limit$ Gold"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MARC JACOBS",
@@ -160,5 +249,6 @@
       "brand": "VERSACE",
       "name": "Bright Crystal"
     }
-  ]
+  ],
+  "comments": []
 }

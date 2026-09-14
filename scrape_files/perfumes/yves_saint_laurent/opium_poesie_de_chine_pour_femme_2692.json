@@ -49,6 +49,34 @@
     {
       "name": "paçuli",
       "width": "53.3333%"
+    },
+    {
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -66,7 +94,7 @@
     "winter": "51",
     "spring": "26",
     "summer": "30",
-    "autumn": "64",
+    "autumn": "65",
     "day": "72",
     "night": "49"
   },
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "5",
+    "moderate": "29",
+    "longLasting": "55",
+    "eternal": "17"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "29",
+    "strong": "55",
+    "enormous": "18"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "4",
+    "unisex": "6",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium (1977)"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Orchidée de Chine"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Fraicheur d'Orient"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Collector's Edition 2013"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Collector Edition 2008"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Fleur Imperiale"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Eau D'ete Summer Fragrance 2003"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Fleur de Shanghai"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Eau de Parfum 2009"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Shanghai Lily"
+    },
+    {
+      "brand": "THE DİFFERENT COMPANY",
+      "name": "Jasmin de Nuit"
+    },
+    {
+      "brand": "PECKSNİFF'S",
+      "name": "Classic"
+    },
+    {
+      "brand": "ONSKAD",
+      "name": "Onskad 80'"
+    },
+    {
+      "brand": "MARİSSA ZAPPAS",
+      "name": "Ching Shih"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Le Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -175,8 +264,9 @@
       "name": "Chanel N°5 Eau Premiere"
     },
     {
-      "brand": "GİVENCHY",
-      "name": "Organza"
+      "brand": "CHANEL",
+      "name": "Chanel No 5 Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -82,7 +82,10 @@ export function useAuth() {
             try {
                 const res = await fetch(`${API_BASE}/api/auth/google`, {
                     method: "POST",
-                    headers: { "Content-Type": "application/json" },
+                    headers: {
+                        "Content-Type": "application/json",
+                        "X-Requested-With": "XMLHttpRequest",
+                    },
                     body: JSON.stringify({ credential }),
                 });
                 if (!res.ok) return false;
@@ -99,7 +102,10 @@ export function useAuth() {
         try {
             const res = await fetch(`${API_BASE}/api/auth/dev-login`, {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-Requested-With": "XMLHttpRequest",
+                },
                 body: JSON.stringify({}),
             });
             if (!res.ok) return false;

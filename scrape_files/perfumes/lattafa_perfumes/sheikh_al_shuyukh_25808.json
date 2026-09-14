@@ -45,26 +45,54 @@
     {
       "name": "yumuşak baharatlı",
       "width": "45.2362%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.56",
-    "votesCount": "237",
+    "votesCount": "240",
     "breakdown": {
-      "love": "60",
-      "like": "89",
-      "ok": "32",
+      "love": "61",
+      "like": "90",
+      "ok": "33",
       "dislike": "35",
       "hate": "21"
     }
   },
   "seasons": {
-    "winter": "67",
-    "spring": "97",
-    "summer": "62",
-    "autumn": "85",
-    "day": "89",
-    "night": "69"
+    "winter": "69",
+    "spring": "100",
+    "summer": "65",
+    "autumn": "89",
+    "day": "93",
+    "night": "70"
   },
   "notes": {
     "top": [
@@ -83,33 +111,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "8",
+    "weak": "13",
+    "moderate": "61",
+    "longLasting": "62",
+    "eternal": "20"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "17",
+    "moderate": "61",
+    "strong": "73",
+    "enormous": "35"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "2",
+    "unisex": "58",
+    "moreMale": "45",
+    "male": "43"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "32",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "7",
+    "overpriced": "1",
+    "fair": "33",
+    "goodValue": "27",
+    "greatValue": "74"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Sheikh Al Shuyukh"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Y Elixir"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Kaaf Noir"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ser Al Khulood"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Italiano Uomo"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Sheikh Al Shuyukh Markaz Concentrated"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "Nuit d’Issey"
+    },
+    {
+      "brand": "AVON",
+      "name": "Open Road (Prospect)"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water"
+    },
+    {
+      "brand": "BİLLİE EİLİSH",
+      "name": "Eilish No 2"
+    },
+    {
+      "brand": "TOSKOVAT'",
+      "name": "Inexcusable Evil"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Fakhar Black"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Aseel"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Boise Fruite"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY Women"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LALİQUE",
@@ -171,5 +260,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Raghba"
     }
-  ]
+  ],
+  "comments": []
 }

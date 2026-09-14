@@ -67,42 +67,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "0",
-    "longLasting": "2",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "0",
-    "strong": "0",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "4",
-    "unisex": "2",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "FUEGUİA 1833",
-      "name": "Valle De La Luna"
-    },
-    {
-      "brand": "FUEGUİA 1833",
-      "name": "Elogio de la Sombra"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "FUEGUİA 1833",
@@ -164,5 +155,6 @@
       "brand": "FUEGUİA 1833",
       "name": "Quebracho"
     }
-  ]
+  ],
+  "comments": []
 }

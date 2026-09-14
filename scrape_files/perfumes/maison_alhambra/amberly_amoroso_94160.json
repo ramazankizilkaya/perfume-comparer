@@ -49,13 +49,41 @@
     {
       "name": "aldehitli",
       "width": "48.75%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.46",
-    "votesCount": "24",
+    "score": "3.52",
+    "votesCount": "25",
     "breakdown": {
-      "love": "7",
+      "love": "8",
       "like": "6",
       "ok": "5",
       "dislike": "3",
@@ -92,33 +120,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "7",
+    "longLasting": "9",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "7",
+    "strong": "10",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "6",
+    "unisex": "8",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "0",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Musc Shamal"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Glamour"
+    },
+    {
+      "brand": "ALEXANDRE.J",
+      "name": "Altesse Mysore"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Dark Door Intense"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Amber 01"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Hayaati"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Turandot"
+    },
+    {
+      "brand": "MY PERFUMES SELECT",
+      "name": "Musk Le Sorcier"
+    },
+    {
+      "brand": "LE CHAMEAU",
+      "name": "Buds Night Petals"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Les Absolus d'Orient Musc Noble"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "KİLLER OUD",
@@ -141,12 +210,12 @@
       "name": "Nasheet"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Maharjan Gold"
+      "brand": "ZİMAYA",
+      "name": "Magma Love"
     },
     {
-      "brand": "SALVATORE FERRAGAMO",
-      "name": "Salvatore Ferragamo Pour Homme"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Maharjan Gold"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -155,10 +224,6 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah Dukhan"
-    },
-    {
-      "brand": "KHADLAJ PERFUMES",
-      "name": "Fursan White"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -179,6 +244,11 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Mayar"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Sehr"
     }
-  ]
+  ],
+  "comments": []
 }

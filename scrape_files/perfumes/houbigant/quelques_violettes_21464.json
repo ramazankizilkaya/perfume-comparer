@@ -90,46 +90,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "3",
-    "moderate": "4",
-    "longLasting": "5",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "4",
-    "strong": "7",
-    "enormous": "4"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "3",
-    "moreFemale": "2",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "HOUBİGANT",
-      "name": "Quelques Fleurs L'Original Collection Privee"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "Bois de Violette"
-    },
-    {
-      "brand": "MOLİNARD",
-      "name": "Les Fleurs Violette"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "VAN CLEEF & ARPELS",
@@ -191,5 +178,6 @@
       "brand": "HOUBİGANT",
       "name": "Orangers en Fleurs"
     }
-  ]
+  ],
+  "comments": []
 }

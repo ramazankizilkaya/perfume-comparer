@@ -66,70 +66,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "12",
-    "moderate": "32",
-    "longLasting": "15",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "16",
-    "moderate": "32",
-    "strong": "20",
-    "enormous": "15"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "22",
-    "moreMale": "3",
-    "male": "3"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "12",
-    "goodValue": "4",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ARQUİSTE",
-      "name": "The Architects Club"
-    },
-    {
-      "brand": "KİEHL'S",
-      "name": "Aromatic Blends: Vanilla & Cedarwood"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "Eau Lente Eau de Toilette"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "L'Eau de L'Eau"
-    },
-    {
-      "brand": "BALDESSARİNİ",
-      "name": "Private Affairs"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "154 Cologne"
-    },
-    {
-      "brand": "ELİZABETH AND JAMES",
-      "name": "Nirvana Black"
-    },
-    {
-      "brand": "BYREDO",
-      "name": "Byredo"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "L'Eau Papier"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BYREDO",
@@ -191,5 +154,6 @@
       "brand": "SERGE LUTENS",
       "name": "Chergui"
     }
-  ]
+  ],
+  "comments": []
 }

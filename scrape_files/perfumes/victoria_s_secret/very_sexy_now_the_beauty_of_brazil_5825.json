@@ -65,46 +65,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "2",
-    "moderate": "12",
-    "longLasting": "7",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "12",
-    "strong": "6",
-    "enormous": "6"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "10",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "4",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "At the Beach"
-    },
-    {
-      "brand": "PHİLOSOPHY",
-      "name": "Pure Grace Summer"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Alien Goddess"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BRİTNEY SPEARS",
@@ -166,5 +153,6 @@
       "brand": "DİOR",
       "name": "J'adore"
     }
-  ]
+  ],
+  "comments": []
 }

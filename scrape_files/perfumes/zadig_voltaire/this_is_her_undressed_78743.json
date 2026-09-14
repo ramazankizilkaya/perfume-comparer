@@ -16,59 +16,87 @@
     },
     {
       "name": "pudralı",
-      "width": "87.2728%"
+      "width": "87.1473%"
     },
     {
       "name": "odunsu",
-      "width": "84.2103%"
+      "width": "84.0881%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "77.5642%"
+      "width": "77.3745%"
     },
     {
       "name": "taze baharatlı",
-      "width": "68.0514%"
+      "width": "68.5797%"
     },
     {
       "name": "tatlı",
-      "width": "66.8789%"
+      "width": "66.9865%"
     },
     {
       "name": "sarı çiçeksi",
-      "width": "63.4471%"
+      "width": "63.7785%"
     },
     {
       "name": "narenciye",
-      "width": "63.2952%"
+      "width": "63.3322%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "56.4316%"
+      "width": "56.428%"
     },
     {
-      "name": "tuzlu",
-      "width": "53.8041%"
+      "name": "taze",
+      "width": "54.1122%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.78",
-    "votesCount": "1,022",
+    "votesCount": "1,055",
     "breakdown": {
-      "love": "332",
-      "like": "338",
-      "ok": "181",
-      "dislike": "141",
-      "hate": "30"
+      "love": "341",
+      "like": "353",
+      "ok": "184",
+      "dislike": "146",
+      "hate": "31"
     }
   },
   "seasons": {
-    "winter": "160",
-    "spring": "356",
-    "summer": "287",
-    "autumn": "264",
-    "day": "360",
-    "night": "133"
+    "winter": "162",
+    "spring": "364",
+    "summer": "293",
+    "autumn": "269",
+    "day": "366",
+    "night": "135"
   },
   "notes": {
     "top": [
@@ -89,20 +117,20 @@
   },
   "longevity": {
     "veryWeak": "29",
-    "weak": "57",
-    "moderate": "234",
+    "weak": "59",
+    "moderate": "238",
     "longLasting": "95",
     "eternal": "21"
   },
   "sillage": {
-    "intimate": "128",
-    "moderate": "234",
-    "strong": "55",
+    "intimate": "130",
+    "moderate": "238",
+    "strong": "56",
     "enormous": "5"
   },
   "genderVoting": {
-    "female": "311",
-    "moreFemale": "114",
+    "female": "315",
+    "moreFemale": "115",
     "unisex": "60",
     "moreMale": "1",
     "male": "2"
@@ -110,7 +138,7 @@
   "priceVoting": {
     "wayOverpriced": "24",
     "overpriced": "59",
-    "fair": "181",
+    "fair": "184",
     "goodValue": "94",
     "greatValue": "16"
   },
@@ -124,6 +152,10 @@
       "name": "LUCA"
     },
     {
+      "brand": "BİLLİE EİLİSH",
+      "name": "Your Turn II"
+    },
+    {
       "brand": "ANGELA CİAMPAGNA",
       "name": "Miracula"
     },
@@ -132,48 +164,44 @@
       "name": "Golden Rule"
     },
     {
-      "brand": "ROGER & GALLET",
-      "name": "Vanille Soleil"
-    },
-    {
-      "brand": "BİLLİE EİLİSH",
-      "name": "Your Turn II"
-    },
-    {
-      "brand": "NUXE",
-      "name": "Prodigieux Floral Le Parfum"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Capeline"
-    },
-    {
       "brand": "BİLL BLASS",
       "name": "Hot"
     },
     {
-      "brand": "AFFİNESSENCE",
-      "name": "Vanille Benjoin"
-    },
-    {
-      "brand": "ZARA",
-      "name": "(Flower Please)"
-    },
-    {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Natural Iris"
-    },
-    {
-      "brand": "ORİFLAME",
-      "name": "Bubble Tea Party"
+      "brand": "HERMÈS",
+      "name": "Twilly d’Hermès"
     },
     {
       "brand": "PARFUMS DUSİTA",
       "name": "Fleur de Lalita"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Twilly d’Hermès"
+      "brand": "NUXE",
+      "name": "Prodigieux Floral Le Parfum"
+    },
+    {
+      "brand": "ROGER & GALLET",
+      "name": "Vanille Soleil"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "Bubble Tea Party"
+    },
+    {
+      "brand": "ZARA",
+      "name": "(Flower Please)"
+    },
+    {
+      "brand": "AFFİNESSENCE",
+      "name": "Vanille Benjoin"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Capeline"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Natural Iris"
     }
   ],
   "peopleAlsoLike": [
@@ -214,6 +242,10 @@
       "name": "By the Fireplace"
     },
     {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Musc Noir Rose For Her"
+    },
+    {
       "brand": "GİVENCHY",
       "name": "L'Interdit Eau de Parfum"
     },
@@ -232,10 +264,208 @@
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Libre Intense"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent685150",
+      "author": "Federica76",
+      "date": "2025-11-03",
+      "text": "Burada söylenecek çok az şey var: Duştan sonra temizlenmiş ten gibi kokuyor. Tatlı değil, pudralı değil ama çok da ferah değil, sadece sabun ve ılık suyla yıkanmış ve ovulmuş temiz bir ten gibi. \"Giyinmemiş\" (Undressed) bunun için mükemmel bir isim.\nBu, temiz ama aynı zamanda laktonik ve odunsu kokan \"This is Her!\" adlı üründen çok farklı.\nBu kesinlikle mükemmel 🩷🛁🚿🫧🧼🧴🧺",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1521176.jpg"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain"
+      "id": "parent685153",
+      "author": "Saveria",
+      "date": "2025-10-01",
+      "text": "Bu kokuyu nasıl tarif edeceğimi gerçekten bilmiyorum - \"ten\" gibi kokuyor, ama en güzel şekilde: yumuşak, sıcak, rahatlatıcı bir koku. Tıpkı köpük banyosundan çıkmış gibi, cildiniz temiz ve hoş kokulu, ama yavaş yavaş doğal kokusuna geri dönüyor. Hem duyusal ve samimi bir yanı var, hem de rahatlatıcı bir his veriyor.\n\nNormalde benim tarzım bir koku değil ama yine de çok hoş buldum.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1847747.jpg"
+    },
+    {
+      "id": "parent685174",
+      "author": "La Clochard",
+      "date": "2025-08-19",
+      "text": "Bu parfümü beğendiyseniz, yorumları okumamanız en iyisi 😭\n\nİlk kokladığım andan itibaren bayıldım. Zadig'in This Is Her! parfümünü de beğeniyorum (bir süredir çok popüler gibi görünüyor) ve bu da beni çok etkiledi. Çok şehvetli buldum, kesinlikle çıplak bir kadının teni gibiydi. İsmi ve konsepti benim için tam isabetti ve yorumlarda diğer insanların da bunu böyle ilişkilendirmesi doğru.\n\nSandal ağacı ve yumuşak misk notalarıyla öne çıkan, ancak kendine özgü bir kişiliğe sahip bir parfüm. Bence diğerlerinden mükemmel bir şekilde ayırt edilebilen bir koku.\n\nSonra bazı yorumları okuyorsunuz ve çok fazla popo kokladıkları açıkça belli oluyor... 😭😭😭 Aman Tanrım, ne kadar iğrenç! Bunu kendinize saklayabilirdiniz, gerçekten 🤮🤮🤮 Ya da en azından bu konuda konuşurken bu kadar iğrenç olmazdınız!\n\nDediğim gibi, ben şahsen o terimi kullanmıyorum 🙄 bu yüzden biri bana bundan bahsederse, ıslak mendili hatırlatabilir. Ama aklıma bile gelmemişti. Şimdi bu insanların söylediklerini okuduktan sonra... Neyse, bazı şeyler gerçekten ıslak mendili hatırlatıyor, bazıları ise değil.\n\nLütfen iğrenç şeylerden bahsetmeyi bırakın. Herkesin kendi standartları var. Ve eğer hoşunuza gidiyorsa, kullanın. Bu berbat yorumların etkisinden kurtulana kadar beklemem gerekecek.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.265060.jpg"
+    },
+    {
+      "id": "parent685148",
+      "author": "comfortcookie",
+      "date": "2025-05-29",
+      "text": "Annem bir siparişle birlikte bunun bir örneğini almıştı ama beğenmediği için bana verdi. Ve ben de çok sevdim. Çok güzel bir ten kokusu. Önce narenciye notasıyla başlıyor, sonra teninize yakın kalan sıcak ve baharatlı bir kokuya dönüşüyor. 50 ml'lik bir şişe almıştım ve neredeyse bitti, bu yüzden 100 ml'lik bir şişe daha aldım çünkü bitireceğimi biliyordum. İmza kokum oldu ve iş arkadaşlarımdan ve benim gibi parfümlere takıntılı bir tanıdığımdan iltifatlar aldım. Dürüst olmak gerekirse, bu parfümün neden bu kadar az bilindiğini anlamıyorum.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2364020.jpg"
+    },
+    {
+      "id": "parent685200",
+      "author": "babinski",
+      "date": "2025-05-18",
+      "text": "Undressed, This Is Her'in en sevdiğim yan ürünüdür.\nBaharın ilk güneşli günleri gelir gelmez onu kullanma ihtiyacı hissediyorum, tıpkı klasik \"İşte o\" ifadesini alıp yeni ütülenmiş beyaz bir gömleğe basmak gibi.\nGenellikle beni rahatsız eden insan teni kokusu burada gerekli, ferahlatıcı bir duştan sonra güneşten bronzlaşmış gibi hissetmemi sağlıyor. Yasemin ve misk kremsi bir kucaklaşma içinde birleşiyor, seksi ama hafif, son derece şehvetli ama bunaltıcı değil.\nTemiz ama sıradan değil ve insanların dikkatini çeken bir patikaya sahip.\nKendimin \"çıplak ama havalı\" bir versiyonu gibi hissediyorum.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.61402.jpg"
+    },
+    {
+      "id": "parent685144",
+      "author": "Iveta IBM",
+      "date": "2024-06-23",
+      "text": "Düşük puanlama beni şaşırttı. Bence bu harika bir koku. Orijinal \"This Is Her\"ı da beğeniyorum ama sütlü notası cildimde ekşi bir etki yarattığı için kullanamıyorum. Bu koku, orijinalin o yumuşak, davetkar ve seksi havasını sütlü notası olmadan taşıyor. Lütfen buradaki düşük puanlamadan dolayı cesaretiniz kırılmasın ve kendiniz deneyin.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1679061.jpg"
+    },
+    {
+      "id": "parent685147",
+      "author": "AnlisaC",
+      "date": "2024-03-22",
+      "text": "Muhteşem bir koku! Bunu ilk kez Avrupa'da bir parfüm dükkanında denemiştim. Bayıldım ama o an satın almamıştım, bu da beni üzmüştü… ABD'ye döndükten sonra her yeri aradım ve sonunda bir Kanada web sitesinde buldum!\n\nBu, kadınsı bir yanı olan, güzel bir misk ve portakal çiçeği kokusu. Kalıcılığı cildimde yaklaşık 4-5 saat sürüyor. İlk başta odunsu portakal çiçeği kokusu geliyor, sonra kurudukça zencefil, tuz ve ylang ylang kokusu alıyorum ki buna bayılıyorum! Kurudukça kesinlikle rahatlatıcı, odunsu ve çiçeksi bir hal alıyor! Orijinalinden çok farklı ama oldukça eşsiz, ki bunu çok seviyorum! Odunsu olmasına rağmen harika bir bahar kokusu, neredeyse narenciye gibi geliyor ve elime geçtiğinde bunu bahar ve yaz aylarında daha çok kullanmam gerektiğini söylemiştim. Yayılımı kesinlikle şu anda piyasadaki her şeyden farklı!\nKesinlikle tavsiye ederim, 10/10, mutlaka edinin!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.491.jpg"
+    },
+    {
+      "id": "parent685184",
+      "author": "Alpenrose.2022",
+      "date": "2024-01-17",
+      "text": "Tatlı parfümlerden nefret ederim, bu yüzden This Is Her'i pek beğenmemiştim. Ama bu gerçekten bir mücevher. Ana akım parfümlerin hayranı değilim, ama bu hoş bir sürpriz oldu. Gerçekten de çok hoş yönleri var. İlk sıktığımda ağırlıklı olarak sandal ağacı kokusu aldım – sıcak, baharatlı ve misk kokulu. Ama kullandıkça, kokunun bana temiz, pudralı kokuları hatırlattığını fark etmeye başladım. Çok rahatlatıcı ve huzur verici! Kullandığımda iltifatlar aldım: \"alışılmadık bir koku.\" Ciltte kalıcılığı neredeyse felaket; neyse ki kumaşta iyi kalıyor. Bu da sonbahar/kış aylarında daha çok kullanılacağını düşündüğüm nedenlerden biri!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent685212",
+      "author": "ospr",
+      "date": "2023-12-17",
+      "text": "Önceki yorumuma ek olarak şunu belirtmek isterim: Soğukta kokusu cansızlaşıyor. 25-30°C ve üzeri sıcaklıklarda sanki lüks bir spadan yeni çıkmış gibi kokuyordum, şimdi kışın ise sanki vücut losyonu sürmüş ve tuzda yuvarlanmış gibi kokuyor. Soğukta kuru kokuyor ve sıcak havalardaki gibi incelikli notalara sahip değil. Muhtemelen havalar ısınana kadar bir kenara bırakacağım.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent685209",
+      "author": "ospr",
+      "date": "2023-09-23",
+      "text": "Hmm... çok karışık yorumlar. Ben tam tersine, bu versiyonu orijinal \"This is Her\"den daha sıcak buluyorum. Beyaz şişede algıladığım o soğuk, yağlı kremsi/laktonik kokuyu bunda algılamıyorum. \"Undressed\" versiyonu bana lezzetli bir vücut kremi gibi kokuyor. Temelde, koku piramidinde belirtilen her şeyi algılıyorum ve hepsini beğeniyorum :-) Uzun zamandır böyle sakin, günlük bir cilt bakım kokusu arıyordum. Özellikle parfümün 30°C ve üzeri sıcaklıklarda nasıl koktuğunu çok beğendim: zencefil, tuz ve sandal ağacı... kısacası, serin ve kalıcıydı, ancak hiç yayılımı yoktu. Satın almayı düşünüyorsanız, bir mağazada cildinizde denemeniz en iyisi (cildinizde denemeniz çok önemli! Bir test kağıdı sizi balzamik bir kakofoniyle bombardımana tutacaktır). Bu parfüm söz konusu olduğunda, herkesin tamamen farklı görüşleri olduğu için yorumlara güvenmezdim.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent685203",
+      "author": "MellyHelly",
+      "date": "2023-08-25",
+      "text": "Bah...\nBu markanın henüz gerçekten beğendiğim bir parfümünü bulamadım.\nBana sinir bozucu geliyorlar. Belki de çok özgün olmaya çalışıyorlar.\nSephora'da indirimli bir test ürününü gördüm ve denedim. Birkaç saat boyunca cildimde tuttum.\nBeğenmediğim bir parfümü tekrar tekrar deneme ihtiyacı duymuyorum.\nBir çeşit evrim geçirmiş olsa bile, açılış yine de sönük ve sinir bozucu olurdu, ama bu hiç evrim geçirmemiş.\nHiç de güçlü, yoğun bir koku değil. Sabunlandıktan sonra bile ciltte kalıyor, tıpkı kasvetli 1920'lerin en iyi Vynavil geleneğine uygun olarak, ancak iz bırakan bir koku değil.\nKokusu çok garip. Zencefil olması gereken asidik/köpüklü bir şey gibi kokuyor, portakal çiçeği notası olabilecek, biraz yang-ylang içeren, biraz da hayal gücü gerektiren genel bir beyaz çiçek kokusu var ve sonra da terli koltuk altı olmayan bir deri gibi hafif kirli bir koku geliyor. Çok da kötü bir koku değil, değil mi?\nBelki de bana biraz Naso-mollami'nin Nudiflorum'unu hatırlatan bir şey.\nSonra buraya geldim, notaları okudum ve her şey anlam kazandı. Listelenen notalar, kadınsı, hatta biraz yıpranmış, derimsi hissiyle biliniyor, bu yüzden parfümün adı da mantıklı.\nNudiflorum veya Ghost in the Shell tarzında bir koku olabilir, ama ne tatmin edici ne de benim tarzım bir parfüm. Sürekli sabunla yıkanan ve sadece kavurucu, nemli bir yaz gününde (sanırım) 12 saat yıkanmadığımda kötü kokan bende, küçük dozlarda çok fark edilmeyebilir, ama hijyene pek takıntılı olmayan genç, hormonlu bir ispinoz kuşuna ne yapacağını düşünmek bile istemiyorum.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.8.jpg"
+    },
+    {
+      "id": "parent685186",
+      "author": "RedMoon",
+      "date": "2023-05-16",
+      "text": "Misk, zencefil ve portakal çiçeği baskın notalardır.\n\n\"This is her\", \"This is her vibes of freedom\" ve \"This is love\" parfümlerine sahibim. Üçünün de ortak DNA'sı o kremsi sandal ağacı kokusu. Ancak bu parfümde kremsi bir şey yok; canlı, ışıltılı ve temiz.\n\nİlkbahar ve yaz ayları için uygundur.\n\nKalıcılığı ortalama, yayılımı ise orta ila yok denecek kadar azdır.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.29918.jpg"
+    },
+    {
+      "id": "parent685182",
+      "author": "Stephani",
+      "date": "2023-03-15",
+      "text": "Bu halini beğendim, ancak kestane notasıyla aram iyi değil.\nMisk ve sandal ağacının baskın olduğu bu parfüm, benim de hoşuma gidebilirdi. Açıklamada duyusal ve güneşli bir koku olarak tanımlanıyor.\n\nBu, bir şeylerin işe yarayabileceğini düşündürdü ama… hayır!\nTemiz ve hafifçe durgun olan bu koku hoşuma gidiyor, çiçekler çok belirgin değil ama üzerimde kokladığımda dilimde hiç hoş olmayan keskin bir tat bırakıyor.\n\nGenel dengede zencefilin tadı çok baskın. Ferahlatıcı olmaktan çok buruk bir tadı var.\n\nO olmasaydı harika olabilirdi, gerçekten çok yazık.\n\nBununla birlikte, performansı oldukça iyi; elde yıkama ve yemek pişirme sonrasında bile etkisi hissediliyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.27173.jpg"
+    },
+    {
+      "id": "parent685199",
+      "author": "Vee",
+      "date": "2023-03-04",
+      "text": "Kokunun kendisi temiz, cesur (ama sert olmayan) ve kendine özgü bir karaktere sahip: tatlı çiçeksi notalar ve pudralı, ama çocuksu olmayan bir kalite. Ne yazık ki, iki dakika sonra bana verdiği histerik migren çok kötü. Bana göre değil; dayanamıyorum.\nKişisel hoşnutsuzluğumu bir kenara bırakırsak, temiz ama aşırı deterjan kokusu içermeyen bir koku arayanlar için uygun, geçerli bir parfüm olabileceğini düşünüyorum. Ayrıca mükemmel kalıcılığa sahip ve yıkamaya bile dayanıklı.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.54230.jpg"
+    },
+    {
+      "id": "parent685171",
+      "author": "Miguelicious",
+      "date": "2023-03-03",
+      "text": "Bu koku beni tamamen büyüledi! Muhteşem \"This is him!\" hariç. Doğrusu, kadın parfümlerinin aksine, erkek parfümlerinin hiçbiri beni tam olarak etkilemedi; bence kadın parfümleri markanın en güçlü yönü.\nÖzellikle bu \"This is her! Undressed\" parfümü, hem tenimde hem de kıyafetlerimde bıraktığı kokuyla tam bir zevk. Bana her anlamda harika bir his ve temizlik duygusu veriyor. Bu parfümü kullandığımda çok fazla iltifat aldığımı da eklemeliyim. 10 üzerinden 10!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.61483.jpg"
+    },
+    {
+      "id": "parent685208",
+      "author": "Молли Смит",
+      "date": "2023-02-27",
+      "text": "Şişe fotoğraftakinden daha güzel; içindeki sıvı yumuşak bir leylak rengi. Bu beni muhtemelen şaşırttı çünkü koku piramidinde lavanta olduğundan emindim. Koku narenciye ile açılıyor (limon kokusu aldığımı sandım) ve neredeyse klişe bir sabun kokusuna dönüşüyor, ancak sonra dengeleniyor ve (var olmayan) lavanta ve hafif bir limon dokunuşuyla narin, taze bir vücut losyonuna dönüşüyor. Narenciye yavaş yavaş kayboluyor ve koku tatlılaşıyor ve ciltle bütünleşiyor. Özellikle orta kısmını çok beğendim. Her zaman cilt bakım kokuları arıyorum ve bu beni hoş bir şekilde şaşırttı.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.256535.jpg"
+    },
+    {
+      "id": "parent685156",
+      "author": "rockstarrshade",
+      "date": "2023-02-27",
+      "text": "Vay canına, çok etkilendim!! Z&V parfümlerinin hayranı hiç olmamıştım ama bu gerçekten beni etkiledi. Günümüz kokularından çok farklı, çok yumuşak ama aynı zamanda çok güçlü. Bir şişe sipariş ettim bile ve şimdiden bağımlısı oldum. Ne ten kokusu ne de zencefil kokusu alıyorum. Bunu tarif bile edemiyorum, 100'den fazla parfümüm var ama bunu hiçbirine benzetemiyorum. Doğrusu, uzun zamandır aradığım bir şeydi çünkü bu tür kokuları alışveriş merkezlerinde veya bazı kozmetik mağazalarında duymuştum ama hiç parfümde duymamıştım ve bayıldım.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.333907.jpg"
+    },
+    {
+      "id": "parent685169",
+      "author": "Simara",
+      "date": "2023-02-09",
+      "text": "Bu parfüm kadar bende bu kadar güçlü bir tiksinti uyandıran başka bir parfüm nadiren olmuştur. Ve beni tamamen hazırlıksız yakaladı, çünkü orijinal This is Her ve markanın diğer parfümlerini seviyorum. Aldığım koku, bebek kolonyasıyla vücut kokusunun karışımı gibiydi; ter değil, insana özgü bir koku, tıpkı bir çocuk gibi. Şimdi, bir çocuğun veya bebeğin kokusu hiç de kötü değil, ama bunu bir parfümde duymak bana inanılmaz derecede garip ve hoş olmayan bir his verdi. Sanki başkasının kokusunu sürmek gibi, Grenouille tarzı. Notalara baktım ve \"ten\" notası olduğunu gördüm (ki bunu ilk kez görüyorum), bu yüzden sanırım bu notanın misk ile karışımı bu garip çağrışımı yarattı.\nNeyse, söylediklerime tamamen güvenmeyin çünkü bu parfümle ilgili diğer yorum tamamen farklı, belki de sorun sadece bendedir. Ama yine de belirtmek istedim!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.85884.jpg"
+    },
+    {
+      "id": "parent685149",
+      "author": "evish",
+      "date": "2023-02-03",
+      "text": "Bu parfümde \"This is Her\" DNA'sını hissedebiliyorsunuz, ama çok hafif. Sıkıldığında misk, odunsu, kremsi, tuz ve zencefil notaları içeren bir koku. Temel notaları misk sandal ağacı, hayvansal notalar ve deri çok hafif, daha çok deri akoru gibi, bir çeşit tuzluluğu koruyor. Kestane ve krema notaları yok. Genel olarak, hoş, tatlı, kremsi, rahatlatıcı bir koku, hatta biraz daha fazlası diyebiliriz. Bence ismi ona yakışıyor. Fiyatı biraz fazla yüksek. Kalıcılığı çok zayıf, ancak yayılımı orta-güçlü. Dürüst olmak gerekirse, çok beğendim.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1500809.jpg"
+    },
+    {
+      "id": "parent685146",
+      "author": "FunkyTomo",
+      "date": "2023-01-12",
+      "text": "İşte yine o aptal ve çocukça \"şuna benziyor\" bölümü... Ahh... Hadi ama, biz yetişkin miyiz yoksa bir sürü okul çocuğu muyuz!?\n\n\"Onun soyunmuş hali\"nden çok daha kötü ve kışkırtıcı isimler var. Yeni parfümler listesinde bunu görünce düzgün yorumlar olabileceğini umuyordum.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.53170.jpg"
     }
   ]
 }

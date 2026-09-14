@@ -49,25 +49,53 @@
     {
       "name": "metalik",
       "width": "48.6034%"
+    },
+    {
+      "name": "Online satın alın 15 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.95",
-    "votesCount": "427",
+    "votesCount": "431",
     "breakdown": {
       "love": "170",
-      "like": "153",
-      "ok": "28",
+      "like": "158",
+      "ok": "27",
       "dislike": "65",
       "hate": "11"
     }
   },
   "seasons": {
     "winter": "62",
-    "spring": "107",
-    "summer": "107",
-    "autumn": "103",
-    "day": "115",
+    "spring": "108",
+    "summer": "108",
+    "autumn": "104",
+    "day": "116",
     "night": "83"
   },
   "notes": {
@@ -88,33 +116,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "10",
+    "weak": "21",
+    "moderate": "46",
+    "longLasting": "96",
+    "eternal": "28"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "39",
+    "moderate": "46",
+    "strong": "83",
+    "enormous": "33"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "18",
+    "moreFemale": "12",
+    "unisex": "71",
+    "moreMale": "11",
+    "male": "9"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "28",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "21",
+    "overpriced": "36",
+    "fair": "27",
+    "goodValue": "7",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GRİTTİ",
+      "name": "Dame de L'Île"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "Dream of Turquoise"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Foconero"
+    },
+    {
+      "brand": "RAMON MONEGAL",
+      "name": "#sunsetcafe (2023)"
+    },
+    {
+      "brand": "IMAGİNARY AUTHORS",
+      "name": "Slow Explosions"
+    },
+    {
+      "brand": "RİCHARD",
+      "name": "Blue Blood"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Layla"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "Declaration"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Al Wisam Day"
+    },
+    {
+      "brand": "DİVİNA TERRA",
+      "name": "07 Intesa"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '76"
+    },
+    {
+      "brand": "ALFRED DUNHİLL",
+      "name": "Desire Blue"
+    },
+    {
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "Orchidée Vanille"
+    },
+    {
+      "brand": "AGONİST",
+      "name": "Dark Saphir"
+    },
+    {
+      "brand": "MİND GAMES",
+      "name": "Prodigy"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
@@ -146,11 +235,11 @@
     },
     {
       "brand": "CASAMORATİ 1888",
-      "name": "Dolce Amalfi"
+      "name": "Lira"
     },
     {
       "brand": "CASAMORATİ 1888",
-      "name": "Lira"
+      "name": "Dolce Amalfi"
     },
     {
       "brand": "XERJOFF",
@@ -161,12 +250,12 @@
       "name": "02 L'Air du Desert Marocain"
     },
     {
-      "brand": "SERGE LUTENS",
-      "name": "Chergui"
-    },
-    {
       "brand": "BYREDO",
       "name": "Bal d'Afrique"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Chergui"
     },
     {
       "brand": "BY KİLİAN",
@@ -176,5 +265,6 @@
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Grand Soir"
     }
-  ]
+  ],
+  "comments": []
 }

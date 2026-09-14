@@ -20,7 +20,7 @@ export default function BrandCard({ brand }: { brand: BrandCardData }) {
             aria-label={`${brand.name} parfümleri`}
         >
             {logo ? (
-                <img src={logo} alt={brand.name} className="brand-card-logo" loading="lazy" />
+                <img src={logo} alt={`${brand.name} parfüm markası logosu`} className="brand-card-logo" loading="lazy" />
             ) : (
                 <span className="brand-card-fallback">{brand.name}</span>
             )}

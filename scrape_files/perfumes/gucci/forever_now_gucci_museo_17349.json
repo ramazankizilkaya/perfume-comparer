@@ -63,7 +63,7 @@
     }
   },
   "seasons": {
-    "winter": "18",
+    "winter": "19",
     "spring": "12",
     "summer": "5",
     "autumn": "30",
@@ -98,70 +98,37 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "4",
-    "moderate": "15",
-    "longLasting": "16",
-    "eternal": "11"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "13",
-    "moderate": "15",
-    "strong": "13",
-    "enormous": "23"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "1",
-    "unisex": "8",
-    "moreMale": "3",
-    "male": "2"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "3",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "LORENZO VİLLORESİ",
-      "name": "Theseus"
-    },
-    {
-      "brand": "LALİQUE",
-      "name": "Louxor de Lalique"
-    },
-    {
-      "brand": "CLİVE CHRİSTİAN",
-      "name": "X For Men"
-    },
-    {
-      "brand": "KİM KARDASHİAN",
-      "name": "Kim Kardashian"
-    },
-    {
-      "brand": "IMAGİNARY AUTHORS",
-      "name": "The Cobra and The Canary"
-    },
-    {
-      "brand": "FABYOULOUS",
-      "name": "Hello Gorgeous"
-    },
-    {
-      "brand": "GUCCİ",
-      "name": "Envy for Men"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
       "name": "Fahrenheit"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Coco Noir"
     },
     {
       "brand": "HERMÈS",
@@ -184,6 +151,10 @@
       "name": "Memoir Man"
     },
     {
+      "brand": "BY KİLİAN",
+      "name": "Straight to Heaven"
+    },
+    {
       "brand": "LALİQUE",
       "name": "Encre Noire"
     },
@@ -192,20 +163,16 @@
       "name": "Oud Wood"
     },
     {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
+    },
+    {
       "brand": "CHANEL",
       "name": "Egoiste"
     },
     {
       "brand": "TOM FORD",
-      "name": "Black Orchid"
-    },
-    {
-      "brand": "TOM FORD",
       "name": "Tuscan Leather"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Neroli Portofino"
     },
     {
       "brand": "CREED",
@@ -214,6 +181,11 @@
     {
       "brand": "HERMÈS",
       "name": "Un Jardin Sur Le Nil"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Jubilation XXV Man"
     }
-  ]
+  ],
+  "comments": []
 }

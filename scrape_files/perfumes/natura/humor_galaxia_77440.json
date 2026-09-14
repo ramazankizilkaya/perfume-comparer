@@ -49,14 +49,42 @@
     {
       "name": "taze",
       "width": "51.1567%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.99",
+    "score": "3.98",
     "votesCount": "166",
     "breakdown": {
-      "love": "55",
-      "like": "71",
+      "love": "54",
+      "like": "72",
       "ok": "24",
       "dislike": "15",
       "hate": "1"
@@ -91,33 +119,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "11",
+    "moderate": "77",
+    "longLasting": "16",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "18",
+    "moderate": "77",
+    "strong": "16",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "35",
+    "moreFemale": "23",
+    "unisex": "60",
+    "moreMale": "4",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "4",
     "fair": "24",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "47",
+    "greatValue": "16"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Amber Oud Gold Edition"
+    },
+    {
+      "brand": "FRAGANCİAS CANNON",
+      "name": "Ciel Nuit"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Erba Pura"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Midnight Poison"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Ristretto Intense Café"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Química de Humor"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Toy Boy"
+    },
+    {
+      "brand": "ORİENTİCA PREMİUM",
+      "name": "Royal Amber"
+    },
+    {
+      "brand": "IMAGİNARY AUTHORS",
+      "name": "In Love With Everything"
+    },
+    {
+      "brand": "BİLLİE EİLİSH",
+      "name": "Eilish No 2"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Midnight Fantasy"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Homem Íon"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Beijo de Humor"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -179,5 +260,6 @@
       "brand": "NATURA",
       "name": "Biografia Assinatura"
     }
-  ]
+  ],
+  "comments": []
 }

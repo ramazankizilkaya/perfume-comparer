@@ -49,26 +49,54 @@
     {
       "name": "kakao",
       "width": "53.3914%"
+    },
+    {
+      "name": "Online satın alın 56 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.53",
-    "votesCount": "121",
+    "score": "3.54",
+    "votesCount": "125",
     "breakdown": {
-      "love": "23",
-      "like": "50",
+      "love": "25",
+      "like": "51",
       "ok": "26",
-      "dislike": "12",
+      "dislike": "13",
       "hate": "10"
     }
   },
   "seasons": {
     "winter": "17",
-    "spring": "77",
-    "summer": "65",
-    "autumn": "45",
-    "day": "68",
-    "night": "28"
+    "spring": "81",
+    "summer": "69",
+    "autumn": "48",
+    "day": "72",
+    "night": "30"
   },
   "notes": {
     "top": [
@@ -86,13 +114,13 @@
   "longevity": {
     "veryWeak": "5",
     "weak": "11",
-    "moderate": "49",
+    "moderate": "52",
     "longLasting": "10",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "16",
-    "moderate": "49",
+    "moderate": "52",
     "strong": "4",
     "enormous": "1"
   },
@@ -101,19 +129,23 @@
     "moreFemale": "4",
     "unisex": "18",
     "moreMale": "43",
-    "male": "26"
+    "male": "29"
   },
   "priceVoting": {
     "wayOverpriced": "4",
     "overpriced": "6",
     "fair": "26",
     "goodValue": "26",
-    "greatValue": "8"
+    "greatValue": "10"
   },
   "remindsMeOf": [
     {
       "brand": "OPUS OİLS",
       "name": "Absintheo"
+    },
+    {
+      "brand": "DEMETER FRAGRANCE",
+      "name": "Chocolate Mint"
     },
     {
       "brand": "ZARA",
@@ -122,10 +154,6 @@
     {
       "brand": "NAVİTUS PARFUMS",
       "name": "Chocolate Queen"
-    },
-    {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Chocolate Mint"
     },
     {
       "brand": "CİNEMATİC INFUSİONS",
@@ -140,10 +168,6 @@
       "name": "CK One Shock Street Edition for Him"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "Eternity Aromatic Essence for Men"
-    },
-    {
       "brand": "ALKEMİA PERFUMES",
       "name": "Absinthe and Laudanum in the Afternoon"
     },
@@ -153,7 +177,7 @@
     },
     {
       "brand": "CALVİN KLEİN",
-      "name": "Defy Parfum"
+      "name": "Eternity Aromatic Essence for Men"
     },
     {
       "brand": "GANACHE PARFUMS",
@@ -166,6 +190,10 @@
     {
       "brand": "DAME PERFUMERY",
       "name": "Chocolate Perfume Oil"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Defy Parfum"
     },
     {
       "brand": "BY CANDY",
@@ -233,5 +261,6 @@
       "brand": "CALVİN KLEİN",
       "name": "Eternity Aqua for Men"
     }
-  ]
+  ],
+  "comments": []
 }

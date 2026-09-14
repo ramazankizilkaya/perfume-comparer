@@ -23,12 +23,40 @@
       "width": "52.1053%"
     },
     {
+      "name": "tüberöz",
+      "width": "48.4211%"
+    },
+    {
       "name": "paçuli",
       "width": "48.4211%"
     },
     {
-      "name": "tüberöz",
-      "width": "48.4211%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -68,45 +96,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "3",
+    "longLasting": "2",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "3",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Miss Dior Blooming Bouquet"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Lily Eau de Parfum 2021"
+    },
     {
       "brand": "NATURA",
       "name": "Essencial Exclusivo Floral"
-    },
-    {
-      "brand": "EUDORA",
-      "name": "Eudora Rosé"
-    },
-    {
-      "brand": "O BOTİCÁRİO",
-      "name": "Cuide-se Bem Nuvem de Alegria"
     },
     {
       "brand": "NATURA",
@@ -133,6 +162,10 @@
       "name": "Ilía Secreto"
     },
     {
+      "brand": "NATURA",
+      "name": "Luna Fascinante"
+    },
+    {
       "brand": "O BOTİCÁRİO",
       "name": "Thaty Princess"
     },
@@ -141,12 +174,12 @@
       "name": "Far Away"
     },
     {
-      "brand": "NATURA",
-      "name": "Una Somos"
+      "brand": "EUDORA",
+      "name": "Lyra"
     },
     {
-      "brand": "WE PİNK",
-      "name": "Obsessed"
+      "brand": "NATURA",
+      "name": "Una Somos"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -156,5 +189,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Coffee Woman Seduction"
     }
-  ]
+  ],
+  "comments": []
 }

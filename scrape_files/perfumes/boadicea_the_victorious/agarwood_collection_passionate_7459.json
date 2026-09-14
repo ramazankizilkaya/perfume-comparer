@@ -49,6 +49,10 @@
     {
       "name": "sıcak baharatlı",
       "width": "62.4681%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -82,57 +86,37 @@
     ],
     "base": [
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "4",
-    "longLasting": "3",
-    "eternal": "12"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "4",
-    "strong": "9",
-    "enormous": "19"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Intense"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Agarwood Collection Emprise"
-    },
-    {
-      "brand": "OLYMPİC ORCHİDS ARTİSAN PERFUMES",
-      "name": "Mardi Gras"
-    },
-    {
-      "brand": "AQUALİS",
-      "name": "Origin"
-    },
-    {
-      "brand": "TOKYO MİLK PARFUMERİE CURİOSİTE",
-      "name": "Honey and the Moon"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -194,5 +178,6 @@
       "brand": "TAUER PERFUMES",
       "name": "02 L'Air du Desert Marocain"
     }
-  ]
+  ],
+  "comments": []
 }

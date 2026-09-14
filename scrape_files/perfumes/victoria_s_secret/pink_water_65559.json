@@ -15,7 +15,7 @@
       "width": "100%"
     },
     {
-      "name": "sulu",
+      "name": "taze",
       "width": "83.4351%"
     },
     {
@@ -23,7 +23,7 @@
       "width": "83.4351%"
     },
     {
-      "name": "taze",
+      "name": "sulu",
       "width": "83.4351%"
     },
     {
@@ -73,54 +73,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "3",
-    "moderate": "3",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "3",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "2",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "3",
-    "greatValue": "3"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JULİETTE HAS A GUN",
-      "name": "Vanilla Vibes"
-    },
-    {
-      "brand": "UNE NUİT NOMADE",
-      "name": "Nothing but Sea and Sky"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Tease Crème Cloud"
-    },
-    {
-      "brand": "KKW FRAGRANCE",
-      "name": "Opal Drip"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Sea Daffodil"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -163,12 +142,12 @@
       "name": "Circus Fantasy"
     },
     {
-      "brand": "JUİCY COUTURE",
-      "name": "Viva la Juicy Gold Couture"
-    },
-    {
       "brand": "CHANEL",
       "name": "Chance Eau Tendre"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '59"
     },
     {
       "brand": "BRİTNEY SPEARS",
@@ -182,5 +161,6 @@
       "brand": "JUİCY COUTURE",
       "name": "Viva La Juicy Noir"
     }
-  ]
+  ],
+  "comments": []
 }

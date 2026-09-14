@@ -45,6 +45,34 @@
     {
       "name": "taze baharatlı",
       "width": "45.0972%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,33 +115,90 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "3",
+    "moderate": "22",
+    "longLasting": "6",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "22",
+    "strong": "12",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "1",
+    "unisex": "5",
+    "moreMale": "3",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ISABELLA ROSSELLİNİ",
+      "name": "Manifesto"
+    },
+    {
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "Néroli Amara"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Eau Torride"
+    },
+    {
+      "brand": "LANCASTER",
+      "name": "Aquasenses"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Moschino Funny!"
+    },
+    {
+      "brand": "BANANA REPUBLİC",
+      "name": "78 Vintage Green"
+    },
+    {
+      "brand": "FLORAL STREET",
+      "name": "London Poppy"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Pure Turquoise"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Aqua Allegoria Mandarine Basilic"
+    },
+    {
+      "brand": "DSQUARED²",
+      "name": "She Wood"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Aqua Universalis"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Chloé Fleur de Parfum"
+    },
+    {
+      "brand": "M.INT",
+      "name": "Vibrant Scent"
+    },
+    {
+      "brand": "SİMONE ANDREOLİ",
+      "name": "Malibu - Party in the Bay"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -175,5 +260,6 @@
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

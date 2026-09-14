@@ -45,6 +45,10 @@
     {
       "name": "toprak",
       "width": "52.4%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -83,53 +87,37 @@
       "Paçuli",
       "Yosun",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "5",
-    "longLasting": "6",
-    "eternal": "7"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "5",
-    "strong": "7",
-    "enormous": "7"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "7",
-    "moreMale": "6",
-    "male": "5"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "7",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "3",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "AZMAN",
-      "name": "Two Minutes After The Kiss"
-    },
-    {
-      "brand": "STRANGELOVE NYC",
-      "name": "Dead of Night"
-    },
-    {
-      "brand": "TAİF AL EMARAT",
-      "name": "Year of Zayed – Zayed the Benevolent"
-    },
-    {
-      "brand": "AVON",
-      "name": "Fluffy Chick"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
@@ -148,12 +136,12 @@
       "name": "Vibrato"
     },
     {
-      "brand": "CREED",
-      "name": "Royal Oud"
-    },
-    {
       "brand": "NİSHANE",
       "name": "Hacivat"
+    },
+    {
+      "brand": "CREED",
+      "name": "Royal Oud"
     },
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
@@ -165,23 +153,23 @@
     },
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Almas"
+      "name": "Green Sapphire"
     },
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Green Sapphire"
+      "name": "Almas"
     },
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
       "name": "Blue Sapphire"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Promise"
-    },
-    {
       "brand": "XERJOFF",
       "name": "Alexandria II"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Promise"
     },
     {
       "brand": "ROJA DOVE",
@@ -191,5 +179,6 @@
       "brand": "AMOUAGE",
       "name": "Reflection 45 Man"
     }
-  ]
+  ],
+  "comments": []
 }

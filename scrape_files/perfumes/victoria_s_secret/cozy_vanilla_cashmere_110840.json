@@ -1,7 +1,7 @@
 {
   "name": "Cozy Vanilla Cashmere Victoria's Secret",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Gourmand",
+  "fragranceFamily": "Oriental",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.110840.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Victoria-s-Secret/Cozy-Vanilla-Cashmere-110840.html",
@@ -11,20 +11,20 @@
   "description_enhanced": "Victoria's Secret markasının Cozy Vanilla Cashmere parfümü, kadınlar için bir kokudur. Bu yeni bir parfüm. Cozy Vanilla Cashmere, 2025 yılında piyasaya sürüldü. Üst notalar: Vanilya ve Frezya; orta notalar: Fındık ve Dalya; alt notalar Misk ve Amber.",
   "mainAccords": [
     {
-      "name": "fındıksı",
-      "width": "100%"
-    },
-    {
       "name": "vanilya",
       "width": "100%"
     },
     {
-      "name": "misk",
-      "width": "78.1249%"
+      "name": "fındıksı",
+      "width": "100%"
     },
     {
       "name": "pudralı",
-      "width": "77.0314%"
+      "width": "78.9998%"
+    },
+    {
+      "name": "misk",
+      "width": "78.1247%"
     },
     {
       "name": "odunsu",
@@ -32,25 +32,61 @@
     },
     {
       "name": "tatlı",
-      "width": "62.8126%"
+      "width": "62.8125%"
+    },
+    {
+      "name": "çiçeksi",
+      "width": "56.2499%"
+    },
+    {
+      "name": "amber",
+      "width": "56.2499%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.43",
-    "votesCount": "49",
+    "score": "4.40",
+    "votesCount": "52",
     "breakdown": {
-      "love": "29",
-      "like": "14",
-      "ok": "4",
+      "love": "30",
+      "like": "15",
+      "ok": "5",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "12",
+    "winter": "13",
     "spring": "4",
     "summer": "4",
-    "autumn": "26",
+    "autumn": "27",
     "day": "16",
     "night": "5"
   },
@@ -84,15 +120,15 @@
   },
   "genderVoting": {
     "female": "14",
-    "moreFemale": "4",
-    "unisex": "0",
+    "moreFemale": "3",
+    "unisex": "1",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "4",
+    "fair": "5",
     "goodValue": "7",
     "greatValue": "8"
   },
@@ -108,6 +144,10 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Eclaire"
+    },
+    {
+      "brand": "TPH BY TARAJI",
+      "name": "Indulge Me"
     },
     {
       "brand": "VİCTORİA'S SECRET",
@@ -126,14 +166,6 @@
       "name": "My Shiny Vanilla"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Cozy Vanilla Bourbon"
-    },
-    {
-      "brand": "TPH BY TARAJI",
-      "name": "Indulge Me"
-    },
-    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Bare Sueded Vanilla"
     },
@@ -148,6 +180,10 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Sensual Amber"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Cozy Vanilla Bourbon"
     }
   ],
   "peopleAlsoLike": [
@@ -164,28 +200,28 @@
       "name": "Bare Vanilla"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Pistachio Glaze"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Vanilla Lace"
-    },
-    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Vanilla Rebel"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Pistachio Glaze"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Snowflakes & Cashmere"
     },
     {
-      "brand": "MUGLER",
-      "name": "Alien Goddess"
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Vanilla Lace"
     },
     {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Warm Vanilla Sugar"
     },
     {
       "brand": "VİCTORİA'S SECRET",
@@ -208,8 +244,9 @@
       "name": "Vanilla Candy Rock Sugar | 42"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Coconut Passion"
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '59"
     }
-  ]
+  ],
+  "comments": []
 }

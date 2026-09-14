@@ -63,7 +63,7 @@
     }
   },
   "seasons": {
-    "winter": "31",
+    "winter": "32",
     "spring": "62",
     "summer": "54",
     "autumn": "43",
@@ -85,58 +85,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "16",
-    "weak": "13",
-    "moderate": "33",
-    "longLasting": "18",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "27",
-    "moderate": "33",
-    "strong": "26",
-    "enormous": "24"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "23",
-    "moreFemale": "0",
-    "unisex": "3",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "11",
-    "goodValue": "1",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUCCİ",
-      "name": "Gucci Guilty"
-    },
-    {
-      "brand": "GUCCİ",
-      "name": "Gucci Guilty Eau de Toilette"
-    },
-    {
-      "brand": "GUCCİ",
-      "name": "Gucci Guilty Eau de Parfum"
-    },
-    {
-      "brand": "GUCCİ",
-      "name": "Gucci Guilty Intense"
-    },
-    {
-      "brand": "GUCCİ",
-      "name": "Gucci Guilty Black Pour Femme"
-    },
-    {
-      "brand": "ELİZABETH ARDEN",
-      "name": "Untold"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -148,7 +123,7 @@
     },
     {
       "brand": "BVLGARİ",
-      "name": "Omnia Crystalline"
+      "name": "Omnia Crystalline Eau de Toilette"
     },
     {
       "brand": "CHANEL",
@@ -198,5 +173,6 @@
       "brand": "MUGLER",
       "name": "Alien"
     }
-  ]
+  ],
+  "comments": []
 }

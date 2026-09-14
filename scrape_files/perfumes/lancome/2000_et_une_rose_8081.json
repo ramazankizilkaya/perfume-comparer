@@ -37,6 +37,34 @@
     {
       "name": "vanilya",
       "width": "58.1708%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -77,33 +105,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "6",
+    "moderate": "18",
+    "longLasting": "9",
+    "eternal": "11"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "18",
+    "strong": "16",
+    "enormous": "22"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "19",
+    "moreFemale": "1",
+    "unisex": "1",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "3",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Mille et Une Roses"
+    },
+    {
+      "brand": "STELLA MCCARTNEY",
+      "name": "Stella Rose Absolute"
+    },
+    {
+      "brand": "AERİN",
+      "name": "Rose de Grasse"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Crystal Flowers"
+    },
+    {
+      "brand": "STELLA MCCARTNEY",
+      "name": "Stella"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Mille et Une Roses"
+    },
+    {
+      "brand": "ELLA K PARFUMS",
+      "name": "Mémoire de Daisen In"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Absolue 1001 Roses"
+    },
+    {
+      "brand": "FRAGONARD",
+      "name": "Ma Rose"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "A Song For The Rose Eau de Parfum"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "Volare"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Roses Musk"
+    },
+    {
+      "brand": "STELLA MCCARTNEY",
+      "name": "Stella Summer 2013"
+    },
+    {
+      "brand": "JAMES HEELEY",
+      "name": "Rose Aria"
+    },
+    {
+      "brand": "DİVİNE",
+      "name": "Spirituelle"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -165,5 +254,6 @@
       "brand": "DİOR",
       "name": "Dolce Vita"
     }
-  ]
+  ],
+  "comments": []
 }

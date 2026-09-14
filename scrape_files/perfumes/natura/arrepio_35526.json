@@ -49,6 +49,34 @@
     {
       "name": "pudralı",
       "width": "44.5799%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,33 +118,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "5",
+    "moderate": "12",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "12",
+    "strong": "5",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "3",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Frescor Ishpink"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Sì Passione"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "L’Ange Noir"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MUGLER",
@@ -178,5 +219,6 @@
       "brand": "NATURA",
       "name": "Frescor de Açaí"
     }
-  ]
+  ],
+  "comments": []
 }

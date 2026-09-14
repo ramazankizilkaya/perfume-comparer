@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Natura/Agua-de-Banho-Ekos-Cumaru-73001.html",
   "brand": "Natura parfüm ve kolonya",
   "description": "Natura markasının Água de Banho Ekos Cumaru parfümü, kadınlar ve erkekler için Aromatik bir kokudur. Água de Banho Ekos Cumaru, 2016 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Kokuda Kumarin ve Odunsu Notlar notaları bulunur.",
-  "description_original": "Natura markasının Água de Banho Ekos Cumaru parfümü, kadınlar ve erkekler için Aromatik bir kokudur. Água de Banho Ekos Cumaru, 2016 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Kokuda Kumarin ve Odunsu Notlar notaları bulunur.",
+  "description_original": "Natura markasının Água de Banho Ekos Cumaru parfümü, kadınlar ve erkekler için Aromatik bir kokudur. Água de Banho Ekos Cumaru, 2016 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Kokuda Kumarin ve Odunsu Notalar notaları bulunur.",
   "description_enhanced": "Natura markasının Água de Banho Ekos Cumaru parfümü, kadınlar ve erkekler için Aromatik bir kokudur. Água de Banho Ekos Cumaru, 2016 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Kokuda Kumarin ve Odunsu Notlar notaları bulunur.",
   "mainAccords": [
     {
@@ -33,6 +33,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "59.3162%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,37 +88,50 @@
     "base": [],
     "all": [
       "Kumarin",
-      "Odunsu Notlar"
+      "Odunsu Notalar"
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "3",
+    "moderate": "1",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "1",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "2",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JENNİFER LOPEZ",
+      "name": "Miami Glow"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Coconut Passion"
+    },
+    {
+      "brand": "MONOTHEME VENEZİA",
+      "name": "Vanilla Blossom"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -113,12 +154,12 @@
       "name": "Frescor Madeira em Flor"
     },
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Coffee Woman Paradiso"
-    },
-    {
       "brand": "NATURA",
       "name": "Ilía Secreto"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Coffee Woman Paradiso"
     },
     {
       "brand": "NATURA",
@@ -152,5 +193,6 @@
       "brand": "NATURA",
       "name": "Frescor de Açaí"
     }
-  ]
+  ],
+  "comments": []
 }

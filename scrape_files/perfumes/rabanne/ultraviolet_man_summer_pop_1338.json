@@ -49,6 +49,34 @@
     {
       "name": "tuzlu",
       "width": "50.4615%"
+    },
+    {
+      "name": "Online satın alın 14 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,33 +115,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "6",
+    "longLasting": "7",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "6",
+    "strong": "6",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "3",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "2",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Ultraviolet Man"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Ultraviolet Man Colours of Summer"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Gio Essenza"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Play Summer Vibrations"
+    },
+    {
+      "brand": "ETİENNE AİGNER",
+      "name": "Aigner Black Icedrops for Men"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Crave"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Tommy Summer 2010"
+    },
+    {
+      "brand": "S.T. DUPONT",
+      "name": "S.T. Dupont Essence Pure ICE Pour Homme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GİORGİO ARMANİ",
@@ -175,5 +236,6 @@
       "brand": "DİOR",
       "name": "Dior Homme 2005"
     }
-  ]
+  ],
+  "comments": []
 }

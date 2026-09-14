@@ -29,6 +29,34 @@
     {
       "name": "tatlı",
       "width": "42.25%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,33 +88,58 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "11",
+    "longLasting": "11",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "11",
+    "strong": "11",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "3",
+    "unisex": "17",
+    "moreMale": "5",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "6",
+    "overpriced": "9",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MAİSON TAHİTÉ – OFFİCİNE CREATİVE PROFUMİ",
+      "name": "Cacao2"
+    },
+    {
+      "brand": "LORENZO PAZZAGLİA",
+      "name": "Sugar Kisses"
+    },
+    {
+      "brand": "NASOMATTO",
+      "name": "Pardon"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Reception"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Sleek Suede"
+    },
+    {
+      "brand": "EXTRA VİRGO",
+      "name": "Cacao Ritual"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -148,5 +201,6 @@
       "brand": "XERJOFF",
       "name": "XJ 1861 Naxos"
     }
-  ]
+  ],
+  "comments": []
 }

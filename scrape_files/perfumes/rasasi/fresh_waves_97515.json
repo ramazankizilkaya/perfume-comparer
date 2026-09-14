@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Fresh-Waves-97515.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Fresh Waves parfümü, erkekler için Aromatik Fujer bir kokudur. Fresh Waves, 2023 yılında piyasaya sürüldü. Üst notalar: Bergamot, Galbanum, Aynısefa ve Limon; orta notalar: Sedir ağacı, Sardunya, Yasemin ve Lavanta; alt notalar Sandal ağacı, Kastoryum, Meşe yosunu ve Amber.",
-  "description_original": "Rasasi markasının Fresh Waves parfümü, erkekler için Aromatik Fujer bir kokudur. Fresh Waves, 2023 yılında piyasaya sürüldü. Üst notalar: Bergamot, Galbanum, Aynısefa ve Limon; orta notalar: Sedir ağacı, Sardunya, Yasemin ve Lavanta; alt notalar Sandal ağacı, Kastoryum, Meşe yosunu ve Amber.",
+  "description_original": "Rasasi markasının Fresh Waves parfümü, erkekler için Aromatik Fujer bir kokudur. Fresh Waves, 2023 yılında piyasaya sürüldü. Üst notalar: Bergamot, Galbanum, Kadife Çiçeği ve Limon; orta notalar: Sedir ağacı, Sardunya, Yasemin ve Lavanta; alt notalar Sandal ağacı, Kastoryum, Meşe yosunu ve Amber.",
   "description_enhanced": "Rasasi markasının Fresh Waves parfümü, erkekler için Aromatik Fujer bir kokudur. Fresh Waves, 2023 yılında piyasaya sürüldü. Üst notalar: Bergamot, Galbanum, Aynısefa ve Limon; orta notalar: Sedir ağacı, Sardunya, Yasemin ve Lavanta; alt notalar Sandal ağacı, Kastoryum, Meşe yosunu ve Amber.",
   "mainAccords": [
     {
@@ -31,16 +31,12 @@
       "width": "57.3438%"
     },
     {
-      "name": "balsamik",
-      "width": "54.0623%"
-    },
-    {
       "name": "yeşil",
       "width": "54.0623%"
     },
     {
-      "name": "lavanta",
-      "width": "51.8749%"
+      "name": "balsamik",
+      "width": "54.0623%"
     },
     {
       "name": "beyaz çiçeksi",
@@ -49,6 +45,38 @@
     {
       "name": "yosunlu",
       "width": "51.8749%"
+    },
+    {
+      "name": "deri",
+      "width": "51.8749%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -74,7 +102,7 @@
     "top": [
       "Bergamot",
       "Galbanum",
-      "Aynısefa",
+      "Kadife Çiçeği",
       "Limon"
     ],
     "middle": [
@@ -92,34 +120,47 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "2",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "2",
+    "strong": "3",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Sport"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Musamam Black Intense"
+    },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Al Nashama Caprice"
@@ -129,52 +170,53 @@
       "name": "Vintage Radio"
     },
     {
-      "brand": "LOUİS VUİTTON",
-      "name": "L’Immensité"
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Shiyaaka Shadow"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Jean Lowe Immortal"
+      "brand": "AFNAN",
+      "name": "9am Dive"
     },
     {
       "brand": "LOUİS VUİTTON",
       "name": "LV Lovers"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Ébène Fumé"
+      "brand": "AROMATİX X FRENCH AVENUE",
+      "name": "Teas Me"
+    },
+    {
+      "brand": "RAYHAAN",
+      "name": "Lion"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Rifaaqat"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "9 PM Night Out"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Raghba For Men"
+      "name": "Liam"
     },
     {
-      "brand": "LOUİS VUİTTON",
-      "name": "Imagination"
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Island Dreams"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Black Orchid"
+      "brand": "AL WATANİAH",
+      "name": "Kayaan Terra"
     },
     {
-      "brand": "XERJOFF",
-      "name": "XJ 1861 Naxos"
-    },
-    {
-      "brand": "LOUİS VUİTTON",
-      "name": "Ombre Nomade"
+      "brand": "AFNAN",
+      "name": "Supremacy Collector's Edition Pour Homme"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Ameer Al Oudh Intense Oud"
-    },
-    {
-      "brand": "LOUİS VUİTTON",
-      "name": "Nouveau Monde"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Tobacco Vanille"
+      "name": "Asad Elixir"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,47 +16,75 @@
     },
     {
       "name": "odunsu",
-      "width": "85.5555%"
+      "width": "85.0001%"
     },
     {
       "name": "amber",
-      "width": "77.7777%"
+      "width": "76.0002%"
     },
     {
       "name": "çiçeksi",
-      "width": "64.7777%"
-    },
-    {
-      "name": "misk",
-      "width": "58.6667%"
+      "width": "64%"
     },
     {
       "name": "aromatik",
-      "width": "58.0001%"
+      "width": "58%"
+    },
+    {
+      "name": "misk",
+      "width": "57.6001%"
     },
     {
       "name": "taze baharatlı",
-      "width": "50.9998%"
+      "width": "51.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.13",
-    "votesCount": "191",
+    "score": "4.08",
+    "votesCount": "246",
     "breakdown": {
-      "love": "87",
-      "like": "66",
-      "ok": "18",
-      "dislike": "15",
-      "hate": "5"
+      "love": "111",
+      "like": "81",
+      "ok": "25",
+      "dislike": "21",
+      "hate": "8"
     }
   },
   "seasons": {
-    "winter": "7",
-    "spring": "68",
-    "summer": "72",
-    "autumn": "17",
-    "day": "62",
-    "night": "17"
+    "winter": "11",
+    "spring": "82",
+    "summer": "91",
+    "autumn": "25",
+    "day": "82",
+    "night": "22"
   },
   "notes": {
     "top": [],
@@ -71,29 +99,29 @@
   },
   "longevity": {
     "veryWeak": "2",
-    "weak": "10",
-    "moderate": "21",
-    "longLasting": "14",
-    "eternal": "5"
+    "weak": "11",
+    "moderate": "30",
+    "longLasting": "16",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "16",
-    "moderate": "21",
-    "strong": "10",
+    "intimate": "19",
+    "moderate": "30",
+    "strong": "11",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "24",
-    "unisex": "31",
+    "female": "5",
+    "moreFemale": "30",
+    "unisex": "39",
     "moreMale": "5",
-    "male": "1"
+    "male": "2"
   },
   "priceVoting": {
     "wayOverpriced": "8",
-    "overpriced": "15",
-    "fair": "18",
-    "goodValue": "2",
+    "overpriced": "18",
+    "fair": "25",
+    "goodValue": "3",
     "greatValue": "1"
   },
   "remindsMeOf": [
@@ -102,54 +130,66 @@
       "name": "In This World"
     },
     {
+      "brand": "CHLOÉ",
+      "name": "Lavanda"
+    },
+    {
       "brand": "DİPTYQUE",
       "name": "Philosykos Eau de Parfum"
-    },
-    {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Fico di Amalfi La Riserva"
-    },
-    {
-      "brand": "KENZO",
-      "name": "Kenzo Homme Eau de Toilette Intense"
     },
     {
       "brand": "COACH",
       "name": "Coach"
     },
     {
-      "brand": "L'ARTİSAN PARFUMEUR",
-      "name": "Tonka Blanc"
+      "brand": "MATİÈRE PREMİÈRE",
+      "name": "Metal Lavender"
     },
     {
-      "brand": "MAİSON D'ETTO",
-      "name": "Noisette"
+      "brand": "JO MALONE LONDON",
+      "name": "Dark Amber & Ginger Lily"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Brit Rhythm for Women"
     },
     {
       "brand": "BASTİDE AİX EN PROVENCE",
       "name": "Lavande in Love"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Un Jardin en Méditerranée"
+      "brand": "MİLANO FRAGRANZE",
+      "name": "Naviglio"
     },
     {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male"
+      "brand": "CHLOÉ",
+      "name": "Chloé Eau de Parfum"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Muse"
+      "brand": "BYREDO",
+      "name": "Bal d'Afrique"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Love Story"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Kenzo Homme Eau de Toilette Intense"
+    },
+    {
+      "brand": "CELİNE",
+      "name": "Rimbaud"
+    },
+    {
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Tonka Blanc"
     }
   ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
       "name": "Guidance"
-    },
-    {
-      "brand": "DRİES VAN NOTEN",
-      "name": "Camomille Satin"
     },
     {
       "brand": "CHLOÉ",
@@ -164,44 +204,49 @@
       "name": "Orphéon Eau de Parfum"
     },
     {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "By the Fireplace"
+    },
+    {
       "brand": "CHLOÉ",
       "name": "Cedrus"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Grand Soir"
     },
     {
       "brand": "NİSHANE",
       "name": "Ani"
     },
     {
-      "brand": "INİTİO PARFUMS PRİVES",
-      "name": "Musk Therapy"
-    },
-    {
       "brand": "BDK PARFUMS",
       "name": "Gris Charnel"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "Eau Duelle Eau de Toilette"
     },
     {
       "brand": "GUERLAİN",
       "name": "Angélique Noire"
     },
     {
+      "brand": "DİPTYQUE",
+      "name": "L'Eau Papier"
+    },
+    {
       "brand": "PARFUMS DE MARLY",
       "name": "Delina"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Angels' Share"
     },
     {
       "brand": "JO MALONE LONDON",
       "name": "Wood Sage & Sea Salt"
     },
     {
-      "brand": "LES LİQUİDES IMAGİNAİRES",
-      "name": "Blanche Bête"
-    },
-    {
       "brand": "DRİES VAN NOTEN",
       "name": "Soie Malaquais"
     }
-  ]
+  ],
+  "comments": []
 }

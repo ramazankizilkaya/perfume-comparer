@@ -49,6 +49,34 @@
     {
       "name": "narenciye",
       "width": "45.9182%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -96,33 +124,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "11",
+    "moderate": "36",
+    "longLasting": "40",
+    "eternal": "33"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "26",
+    "moderate": "36",
+    "strong": "50",
+    "enormous": "38"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "7",
+    "moreMale": "2",
+    "male": "55"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "18",
+    "overpriced": "5",
     "fair": "11",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Balafre"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Balafre Brun"
+    },
+    {
+      "brand": "ANTONİO PUİG",
+      "name": "Agua Brava"
+    },
+    {
+      "brand": "MOLYNEUX",
+      "name": "Captain Eau de Toilette (1975)"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Sagamore"
+    },
+    {
+      "brand": "ROBERTO CAPUCCİ",
+      "name": "R de Capucci"
+    },
+    {
+      "brand": "CASTELBAJAC",
+      "name": "Jean-Charles de Castelbajac"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Eau Libre"
+    },
+    {
+      "brand": "MAUBOUSSİN",
+      "name": "Aequalis"
+    },
+    {
+      "brand": "PİNO SİLVESTRE",
+      "name": "Pino Silvestre Original"
+    },
+    {
+      "brand": "KORLOFF PARİS",
+      "name": "Korloff Pour Homme"
+    },
+    {
+      "brand": "SULTAN PASHA ATTARS",
+      "name": "Fougère Noire"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberrys for Men (1981)"
+    },
+    {
+      "brand": "WAJİD FARAH",
+      "name": "Enigma"
+    },
+    {
+      "brand": "MİLA SCHÖN",
+      "name": "Mila Schön Uomo (Original)"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUY LAROCHE",
@@ -181,8 +270,9 @@
       "name": "Terre d'Hermès"
     },
     {
-      "brand": "GUCCİ",
-      "name": "Envy for Men"
+      "brand": "DİOR",
+      "name": "Fahrenheit"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -43,20 +43,48 @@
       "width": "47.6965%"
     },
     {
+      "name": "beyaz çiçeksi",
+      "width": "44.9437%"
+    },
+    {
       "name": "balsamik",
       "width": "44.9437%"
     },
     {
-      "name": "beyaz çiçeksi",
-      "width": "44.9437%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.13",
-    "votesCount": "84",
+    "score": "4.14",
+    "votesCount": "86",
     "breakdown": {
-      "love": "36",
-      "like": "35",
+      "love": "37",
+      "like": "36",
       "ok": "3",
       "dislike": "8",
       "hate": "2"
@@ -65,9 +93,9 @@
   "seasons": {
     "winter": "3",
     "spring": "27",
-    "summer": "29",
+    "summer": "30",
     "autumn": "12",
-    "day": "29",
+    "day": "30",
     "night": "10"
   },
   "notes": {
@@ -84,33 +112,74 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "7",
+    "moderate": "12",
+    "longLasting": "6",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "12",
+    "strong": "6",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "1",
+    "moreMale": "1",
+    "male": "9"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "2",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TED LAPİDUS",
+      "name": "Lapidus Pour Homme Sport"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Kouros Summer Edition 2008"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Kouros Fraicheur"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Kouros"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "1828"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Cruise Collection - Escale a Portofino"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "154 Cologne"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Musk Aoud"
+    },
+    {
+      "brand": "REMİNİSCENCE",
+      "name": "Rem Homme"
+    },
+    {
+      "brand": "PARFUM D'EMPİRE",
+      "name": "Musc Tonkin"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -172,5 +241,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "La Nuit de l'Homme"
     }
-  ]
+  ],
+  "comments": []
 }

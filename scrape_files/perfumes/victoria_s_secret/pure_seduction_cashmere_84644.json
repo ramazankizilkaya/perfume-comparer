@@ -29,21 +29,49 @@
     {
       "name": "ekşi",
       "width": "46.36%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.29",
-    "votesCount": "118",
+    "score": "4.30",
+    "votesCount": "117",
     "breakdown": {
       "love": "62",
       "like": "36",
-      "ok": "13",
+      "ok": "12",
       "dislike": "6",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "28",
+    "winter": "29",
     "spring": "43",
     "summer": "35",
     "autumn": "31",
@@ -83,7 +111,7 @@
   "priceVoting": {
     "wayOverpriced": "4",
     "overpriced": "4",
-    "fair": "13",
+    "fair": "12",
     "goodValue": "31",
     "greatValue": "17"
   },
@@ -109,16 +137,20 @@
       "name": "Pure Sugar"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Fall in Bloom"
-    },
-    {
       "brand": "ARİANA GRANDE",
       "name": "Cloud Pink"
     },
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Fall in Bloom"
+    },
+    {
       "brand": "SELENA GOMEZ",
       "name": "Selena Gomez Eau de Parfum"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Pure Seduction Daydream"
     },
     {
       "brand": "VİCTORİA'S SECRET",
@@ -129,10 +161,6 @@
       "name": "Nocturnal Velvet"
     },
     {
-      "brand": "RAVE",
-      "name": "Now Women"
-    },
-    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Berry Elixir No. 16"
     },
@@ -141,12 +169,12 @@
       "name": "Pure Seduction Brulee"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Pure Seduction Daydream"
-    },
-    {
       "brand": "ARİANA GRANDE",
       "name": "Thank U Next 2.0"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Romantic"
     }
   ],
   "peopleAlsoLike": [
@@ -210,5 +238,6 @@
       "brand": "VİCTORİA'S SECRET",
       "name": "Coconut Passion"
     }
-  ]
+  ],
+  "comments": []
 }

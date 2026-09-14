@@ -49,13 +49,41 @@
     {
       "name": "taze",
       "width": "47.5%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.63",
-    "votesCount": "30",
+    "score": "4.65",
+    "votesCount": "31",
     "breakdown": {
-      "love": "20",
+      "love": "21",
       "like": "9",
       "ok": "1",
       "dislike": "0",
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "19",
-    "spring": "16",
-    "summer": "9",
-    "autumn": "17",
-    "day": "13",
-    "night": "16"
+    "winter": "20",
+    "spring": "17",
+    "summer": "10",
+    "autumn": "18",
+    "day": "14",
+    "night": "17"
   },
   "notes": {
     "top": [
@@ -88,33 +116,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "9",
+    "longLasting": "15",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "9",
+    "strong": "9",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "12",
+    "male": "12"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "10",
+    "greatValue": "11"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VALENTİNO",
+      "name": "V pour Homme"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Daarej pour Homme"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Very Valentino Pour Homme"
+    },
+    {
+      "brand": "JEAN MARC PARİS",
+      "name": "Sexy Secret Pour Homme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RASASİ",
@@ -176,5 +221,6 @@
       "brand": "LALİQUE",
       "name": "Encre Noire Sport"
     }
-  ]
+  ],
+  "comments": []
 }

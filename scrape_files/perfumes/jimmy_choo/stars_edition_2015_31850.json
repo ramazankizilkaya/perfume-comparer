@@ -64,42 +64,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "1",
-    "moderate": "5",
-    "longLasting": "5",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "5",
-    "strong": "11",
-    "enormous": "8"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "1",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "2",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JİMMY CHOO",
-      "name": "Stars"
-    },
-    {
-      "brand": "JİMMY CHOO",
-      "name": "Jimmy Choo Love"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "AQUOLİNA",
@@ -161,5 +152,6 @@
       "brand": "MARC JACOBS",
       "name": "Decadence"
     }
-  ]
+  ],
+  "comments": []
 }

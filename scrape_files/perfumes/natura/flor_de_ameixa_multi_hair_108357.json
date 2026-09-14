@@ -21,26 +21,54 @@
     {
       "name": "meyvemsi",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "8",
+    "score": "3.91",
+    "votesCount": "11",
     "breakdown": {
       "love": "2",
-      "like": "4",
-      "ok": "2",
+      "like": "6",
+      "ok": "3",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "4",
-    "spring": "3",
-    "summer": "3",
-    "autumn": "4",
-    "day": "4",
-    "night": "4"
+    "winter": "5",
+    "spring": "5",
+    "summer": "5",
+    "autumn": "6",
+    "day": "6",
+    "night": "5"
   },
   "notes": {
     "top": [],
@@ -51,33 +79,38 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "3",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "3",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "3",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "3",
+    "goodValue": "3",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Ameixa e Flor de Baunilha"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CALVİN KLEİN",
@@ -127,5 +160,6 @@
       "brand": "ZARA",
       "name": "Immortal Vanilla"
     }
-  ]
+  ],
+  "comments": []
 }

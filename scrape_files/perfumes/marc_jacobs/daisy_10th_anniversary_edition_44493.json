@@ -49,6 +49,34 @@
     {
       "name": "odunsu",
       "width": "50.0454%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,33 +117,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "6",
+    "longLasting": "3",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "6",
+    "strong": "2",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Anniversary Edition"
+    },
+    {
+      "brand": "AGUSTİN REYES",
+      "name": "Royal Violets"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Black Edition"
+    },
+    {
+      "brand": "ALVAREZ GÓMEZ",
+      "name": "Violet"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chance Eau Tendre Eau de Parfum"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Vibrant Jasmine"
+    },
+    {
+      "brand": "VİNCE CAMUTO",
+      "name": "Vince Camuto"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MARC JACOBS",
@@ -177,5 +238,6 @@
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
     }
-  ]
+  ],
+  "comments": []
 }

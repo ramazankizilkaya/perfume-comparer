@@ -16,59 +16,87 @@
     },
     {
       "name": "odunsu",
-      "width": "94.1862%"
+      "width": "94.5605%"
     },
     {
       "name": "yeşil",
-      "width": "72.6344%"
+      "width": "71.4287%"
     },
     {
       "name": "tatlı",
-      "width": "67.4431%"
+      "width": "67.2201%"
     },
     {
       "name": "meyvemsi",
-      "width": "65.8219%"
+      "width": "65.055%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "63.1209%"
+      "width": "63.6266%"
     },
     {
       "name": "pudralı",
-      "width": "59.5973%"
-    },
-    {
-      "name": "balsamik",
-      "width": "55.7214%"
+      "width": "59.8902%"
     },
     {
       "name": "taze baharatlı",
-      "width": "55.2516%"
+      "width": "55.8241%"
+    },
+    {
+      "name": "balsamik",
+      "width": "55.8241%"
     },
     {
       "name": "vanilya",
-      "width": "53.842%"
+      "width": "53.8462%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.84",
-    "votesCount": "103",
+    "score": "3.87",
+    "votesCount": "107",
     "breakdown": {
-      "love": "31",
-      "like": "45",
+      "love": "33",
+      "like": "47",
       "ok": "12",
       "dislike": "10",
       "hate": "5"
     }
   },
   "seasons": {
-    "winter": "26",
-    "spring": "44",
-    "summer": "33",
-    "autumn": "35",
-    "day": "48",
-    "night": "28"
+    "winter": "27",
+    "spring": "45",
+    "summer": "34",
+    "autumn": "36",
+    "day": "50",
+    "night": "29"
   },
   "notes": {
     "top": [
@@ -90,33 +118,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "20",
+    "moderate": "35",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "20",
+    "moderate": "35",
+    "strong": "4",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "17",
+    "moreFemale": "14",
+    "unisex": "36",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "12",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "21",
+    "greatValue": "19"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HERMÈS",
+      "name": "Eau de Rhubarbe Ecarlate"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Organza"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Trésor"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Bella"
+    },
+    {
+      "brand": "VİA PARİS PARFUMS",
+      "name": "Laloa"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Mate Green (Mate Verde)"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Cupuaçú"
+    },
+    {
+      "brand": "THE MAKER",
+      "name": "Paradiso"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Femme Dylan Purple"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -160,11 +225,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Biografia Assinatura"
+      "name": "Algodão"
     },
     {
       "brand": "NATURA",
-      "name": "Algodão"
+      "name": "Biografia Assinatura"
     },
     {
       "brand": "NATURA",
@@ -176,7 +241,8 @@
     },
     {
       "brand": "NATURA",
-      "name": "Acerola e Hibisco"
+      "name": "Ilía Completa"
     }
-  ]
+  ],
+  "comments": []
 }

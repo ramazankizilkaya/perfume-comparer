@@ -29,6 +29,10 @@
     {
       "name": "yeşil",
       "width": "46.992%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -70,94 +74,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "7",
-    "weak": "7",
-    "moderate": "24",
-    "longLasting": "31",
-    "eternal": "17"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "24",
-    "strong": "33",
-    "enormous": "30"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "26",
-    "moreFemale": "4",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "4",
-    "overpriced": "10",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "13",
-    "goodValue": "3",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOND NO 9",
-      "name": "Central Park South"
-    },
-    {
-      "brand": "MİCHAEL KORS",
-      "name": "Michael"
-    },
-    {
-      "brand": "PENHALİGON'S",
-      "name": "Ellenisia"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Velvet Tuberose"
-    },
-    {
-      "brand": "BYREDO",
-      "name": "Flowerhead"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Armani Prive Vert Malachite"
-    },
-    {
-      "brand": "TOCCA",
-      "name": "Florence"
-    },
-    {
-      "brand": "CRİSTİAN CAVAGNA",
-      "name": "Vittoria Alata"
-    },
-    {
-      "brand": "MİCHAEL KORS",
-      "name": "Michael Kors"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Champs Elysees Eau de Parfum"
-    },
-    {
-      "brand": "ESTÉE LAUDER",
-      "name": "Beyond Paradise"
-    },
-    {
-      "brand": "BOND NO 9",
-      "name": "Harrods Rose"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Tuberose Angelica Rich Extrait"
-    },
-    {
-      "brand": "MONTALE",
-      "name": "Gold Flowers"
-    },
-    {
-      "brand": "BY KİLİAN",
-      "name": "Beyond Love"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "ROBERT PİGUET",
@@ -219,5 +162,6 @@
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

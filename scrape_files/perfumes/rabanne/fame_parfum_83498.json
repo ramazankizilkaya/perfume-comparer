@@ -2,7 +2,7 @@
   "name": "Fame Parfum Rabanne",
   "targetGender": "kadınlar için",
   "fragranceFamily": "Gourmand",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83498.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Rabanne/Fame-Parfum-83498.html",
   "brand": "Rabanne parfüm ve kolonya",
@@ -16,59 +16,87 @@
     },
     {
       "name": "odunsu",
-      "width": "91.6574%"
+      "width": "91.8291%"
     },
     {
       "name": "amber",
-      "width": "88.3337%"
+      "width": "88.5174%"
     },
     {
       "name": "meyvemsi",
-      "width": "86%"
+      "width": "85.9998%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "79.4186%"
+      "width": "79.5741%"
     },
     {
       "name": "tatlı",
-      "width": "78.8348%"
+      "width": "78.8229%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "72.2645%"
+      "width": "72.3972%"
     },
     {
       "name": "pudralı",
-      "width": "63.7673%"
+      "width": "63.9842%"
     },
     {
       "name": "misk",
-      "width": "62.0285%"
+      "width": "62.2838%"
     },
     {
       "name": "balsamik",
-      "width": "54.2777%"
+      "width": "54.3539%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.12",
-    "votesCount": "1,188",
+    "votesCount": "1,217",
     "breakdown": {
-      "love": "535",
-      "like": "377",
-      "ok": "185",
-      "dislike": "62",
+      "love": "547",
+      "like": "387",
+      "ok": "189",
+      "dislike": "65",
       "hate": "29"
     }
   },
   "seasons": {
-    "winter": "366",
-    "spring": "378",
-    "summer": "352",
-    "autumn": "436",
-    "day": "408",
-    "night": "449"
+    "winter": "370",
+    "spring": "384",
+    "summer": "358",
+    "autumn": "446",
+    "day": "414",
+    "night": "458"
   },
   "notes": {
     "top": [
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "12",
+    "weak": "53",
+    "moderate": "294",
+    "longLasting": "188",
+    "eternal": "46"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "54",
+    "moderate": "294",
+    "strong": "157",
+    "enormous": "23"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "406",
+    "moreFemale": "148",
+    "unisex": "53",
+    "moreMale": "13",
+    "male": "7"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "185",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "45",
+    "overpriced": "189",
+    "fair": "189",
+    "goodValue": "57",
+    "greatValue": "15"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Fame"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Fame Intense"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara Tous"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Egeo Free Fire"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Memorable Aura"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Fame Feline"
+    },
+    {
+      "brand": "MAX PHİLİP",
+      "name": "Mango"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa 67"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Remas"
+    },
+    {
+      "brand": "AVON",
+      "name": "Far Away Exotic"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Million Gold For Her"
+    },
+    {
+      "brand": "ANFAR LONDON",
+      "name": "Date Nights"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Tropicale Tentation"
+    },
+    {
+      "brand": "FRAGRENZA",
+      "name": "Pepperia Woman"
+    },
+    {
+      "brand": "HEKAYAT ATTAR",
+      "name": "Hekayat Cherries"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RABANNE",
@@ -177,6 +266,208 @@
     {
       "brand": "MUGLER",
       "name": "Alien Goddess"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent631434",
+      "author": "nightdreamer",
+      "date": "2025-09-22",
+      "text": "Rabanne'nin Fame serisinin tamamını çok seviyorum ve şişelerin görünümünden son derece nefret etmeme rağmen üç versiyonuna da sahibim.\nBu parfümün ne kadar tatlı ve bayıcı olduğuna dair yorumları okuyunca şok oldum! Fame Parfüm'ü çok seviyorum. Dün ikinci şişemi sipariş ettim, yaz için stok yapmak amacıyla, çünkü bu yılki en sıcak günlerde bile kullandım. İçinde hiç tatlılık algılayamıyorum! İlk numuneyi aldığımda neredeyse çamaşır deterjanı kokusu almıştım, bu yüzden ancak bir süre sonra, ferah bir yaz kokusu ararken satın aldım. Chanel Chance tarzı bir ferahlık değil, daha çok temiz, hatta taze bir çamaşır kokusu gibi geliyor. Bazen hafif bir tatlılık notası fark etmiş olabilirim, ama çok ince. Şişem kesinlikle orijinal, çünkü tanınmış bir parfüm mağazasından satın alındı.\nÖzetlemek gerekirse, bence bu parfüm herkeste farklı duracak, tıpkı diğer tüm parfümler gibi. Benim için, sıcak günler veya uzun otobüs ya da uçak yolculukları için ideal bir seçim, çünkü kimseyi boğmak istemiyorum. Bu parfümü ve tüm Fame robotlarını gerçekten çok seviyorum, ancak parfüm versiyonu muhtemelen Intense'den sonra ikinci sırada geliyor :)",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.100999.jpg"
+    },
+    {
+      "id": "parent631359",
+      "author": "brownbarbie",
+      "date": "2025-08-12",
+      "text": "Fame Parfum, sulu bir mango notasıyla açılıyor ve hoş, sıcak, tatlı bir sandal ağacı-benzoin kokusuna dönüşüyor. Ancak parfümün orta aşaması onu diğerlerinden ayırıyor - ve inanın bana, iddialı bir etki yaratıyor. Cesur, güçlü, sıcak, biraz olgun, sıcak baharatlı bir tütsü kokusu, paçuli ile harmanlanmış (mango hala mevcut ama baskın değil) bir koku algılıyorum. Bunu nasıl yorumlayacağınız size kalmış! Bence sıcak tropikal bir tasarımcı parfümü olarak benzersiz, kesinlikle trend, biraz dışa dönük ve bu tarz bir havayı seven biri için mükemmel.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2320598.jpg"
+    },
+    {
+      "id": "parent631363",
+      "author": "DenaSmellsSweet85",
+      "date": "2025-07-17",
+      "text": "Bu parfümün kokusu muhteşem. Tütsü ve yasemin, meyve notalarıyla birlikte çok belirgin. Bu yüzden kesinlikle kadınsı, çok olgun bir kadın parfümü. Bu parfüm her zaman kullanılabilir, yıl boyunca, gündüz veya gece kullanabilirsiniz; ama ben bunu yaz geceleri için aldım. Gece kullanımı için yeterince seksi. Yayılımı güçlü, lütfen çok fazla sıkmayın! Ve birkaç saat boyunca kalıcı.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent631365",
+      "author": "jesuscerda1114",
+      "date": "2025-04-22",
+      "text": "Bunu sık kullanmıyorum ama bu parfüm mükemmel ötesi. Isındıktan sonra harika bir kokuya dönüşüyor, vücut kimyamla çok iyi uyum sağlıyor, çok iltifat alıyorum ve sonsuza kadar kalıcı, ayrıca çok güzel. Ayrıca, o kadar güzel ki. Yıl boyunca mükemmel, seksi bir adaya anında ışınlanma hissi veriyor. Kış aylarında daha çok seviyorum çünkü size o güneşli anı yaşatıyor, eğer bir anlam ifade ediyorsa. Kesinlikle tavsiye ederim, on üzerinden on.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1236026.jpg"
+    },
+    {
+      "id": "parent631413",
+      "author": "Galacticwolf",
+      "date": "2025-04-05",
+      "text": "Bu, kızlar için Phantom 😁 Sadece mango eklemişler. Ve mango çok sulu, lezzetli, çok kimyasal değil ve tatlı. Ben de, eşim de beğendik. Harika bir koku. Tatlı kokuları seviyorsanız, bu tam size göre. Mango kokusu zamanla kayboluyor ama çok hoş bir tatlılık kalıyor. Hafif bir paçuli kokusu da alıyorum. Mango Skin veya Max Philippe'e hiç benzemiyor. Bu daha tatlı ve daha yumuşak.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.323962.jpg"
+    },
+    {
+      "id": "parent631430",
+      "author": "gabriiela",
+      "date": "2025-01-24",
+      "text": "Mango ağırlıklı, çok tatlı ve tropikal bir koku, aynı zamanda çok zarif. Özellikle ilk iki saatte yoğun, belirgin bir kalıcılık bırakıyor. Ciltte 12 saate kadar kalıyor – boynuma sürdükten sonra bile kokusunu alabiliyorum, ancak 3-4 saat sonra cilde daha yakınlaşıyor. Sıcak havalar için en iyi seçim olmayabilir, ancak serin günlerde harika sonuç veriyor. Kış ortasında yazdan bir esinti katmak için mükemmel – tropikal aroma soğuk günleri aydınlatıyor.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.73482.jpg"
+    },
+    {
+      "id": "parent631361",
+      "author": "Motherofhavok",
+      "date": "2024-09-27",
+      "text": "Orijinal Fame'de mango var. Parfümde yok. Frangrantica'nın notaları nereden aldığını bilmiyorum. Rabanne web sitesi ve parfümün kendi prospektüsünde sadece dip notalarda tütsü, misk ve yasemin listeleniyor. Herkesin ürünün üzerinde listelenmeyen notaları koklamasına sinir olsam da, bu kokuyu kesinlikle çok sevdiğimi söylemeliyim. Tütsüyü çok tatlı bir şekilde, eski moda kokmadan veriyor. Bazen kolumu hareket ettirip o harika kokunun nereden geldiğini merak ediyorum, sonra bileğimden geldiğini anlıyorum. Bende neredeyse hiç yayılımı yok ama çok fazla kalıcılığı var. Bayıldım!!!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1494824.jpg"
+    },
+    {
+      "id": "parent631414",
+      "author": "Lissa Peterssen",
+      "date": "2024-05-04",
+      "text": "İkincil bir şey. İlk başta beyaz çiçekler gibi kokuyordu (nedenini bilmiyorum), sonra odun gibi. Koku piramidi hakkında okumamış olsaydım, hafif bir tropikal nota olmasına rağmen (en düşük seviyesinde Kirke), bunun bir mango kokusu olduğunu asla tahmin edemezdim.\nBir izi var, yalan söylemeyeceğim. Ama bu iz oldukça sıradan; sıcak, baharatlı bir odun kokusu. (Bu da pek kadınsı değil - en azından benim üzerimde.)\nVe bunda Police parfümlerini anımsatan bir şey var – ucuz, biraz farklı ama \"tam olarak doğru değil\".",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.278285.jpg"
+    },
+    {
+      "id": "parent631388",
+      "author": "BrisadeAbril",
+      "date": "2024-04-21",
+      "text": "Annemden doğum günü hediyesiydi. İlk başta bileğime sıktığımda biraz erkeksi buldum ama kutuyu açtığım için iade edemedim ve değiştiremedim. Sonra birkaç fıs sıkarak daha detaylı denedim ve özellikle son kokusuna bayıldım; hem çok meyvemsi hem de odunsu bir kokuya sahip.\nDaha önce hiç mango gibi kokan bir parfüm kullanmamıştım ve muhteşem! İnanılmaz derecede narin ve bana kadınsı bir hava veren bir koku; masum ve neşeli bir şekerleme gibi - harika bir keşif.\nCildimde yaklaşık 7-8 saat, kıyafetlerimde ise 2 günden fazla kaldı, bence bu iyi bir performans.\nAnnem asla yanılmaz çünkü bana verdiği tüm parfümler benim için unutulmaz oluyor ve bu parfümü de gerçekten çok beğendim!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.148263.jpg"
+    },
+    {
+      "id": "parent631368",
+      "author": "Coccobacillius",
+      "date": "2024-03-14",
+      "text": "İlk başta orijinalini hiç sevmemiştim ama bir süre sonra bunu da sevmeye başladım. Orijinalinin kalıcılığı sıfır, tıpkı vücut spreyi gibi. Bu parfümü denedim ve anında aşık oldum. Çok güzel! Mango çok sulu ve orijinal Fame'den biraz daha koyu ve dumanlı. Daha iyi kalıcılığa sahip ve harika kokuyor! Bence yıl boyunca ve her durumda kullanılabilir. Çok güzel!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1701669.jpg"
+    },
+    {
+      "id": "parent631373",
+      "author": "marietangerine",
+      "date": "2024-02-27",
+      "text": "Bu parfümü gerçekten çok beğendim. Kremsi, meyveli ve sıcak bir yapısı var. Mango notası güçlü ve tam olgunlaşmış. Benzoin ve yaseminden gelen tatlı, kremsi bir his alıyorum, güzel bir sandal ağacı tabanıyla birleşiyor. Orijinaline göre bunu tercih ediyorum. Orta derecede kalıcılığı ve yayılımı var. Şişeyi biraz saçma buldum ama parfümün kendisi güzel.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1463786.jpg"
+    },
+    {
+      "id": "parent631448",
+      "author": "Felipe Geminiano",
+      "date": "2024-01-31",
+      "text": "Tıpkı Phantom Parfum hakkındaki incelememde olduğu gibi, aşağıdaki tüm yorumlara katılıyorum ve parfüm versiyonunun orijinal parfümde (EDT) eksik olan bazı yönleri tamamladığını düşünüyorum. Fame Parfum, geleneksel olanla neredeyse aynı kokuya sahip, ancak çok daha üstün bir performans ve notaların uyumunda bir iyileşme sunuyor.\n\nEDT gibi, parfüm de vanilya ve meyveli mango akorundan gelen bir aromaya sahip, ancak burada sandal ağacı, benzoin ve tütsü, tatlı tarafla tezat oluşturarak biraz daha reçineli/balsamik bir dokunuş bırakıyor. Ayrıca hafif tütsü benzeri ve topraksı bir dokunuş da hissediyorum. Genel olarak, parfümün notalarının geliştirilmesi, orijinalinden çok daha karmaşık bir yapı kazandırdı. Gerçekten beğendim. Bence biraz tazeliğini kaybetti, biraz daha kapalı hale geldi, ancak yine de çoğu durumda kullanılabilir olduğunu düşünüyorum... Bence oldukça çok yönlü kalıyor.\n\nPerformans açısından, EDT versiyonundan çok daha iyi; cildimde yaklaşık 10 saat kalıyor ve ilk 2 saat boyunca güçlü bir yayılıma sahip, orijinalinin en zayıf noktasını gideriyor. İncelememi en basit tavsiyemle sonlandırıyorum: Harika bir parfüm, çok kullanışlı, hoş ve iltifat alıyor. Tıpkı EDT gibi, tatlı ve meyveli parfümleri seviyorsanız, denemeden satın almaya değer olduğunu düşünüyorum.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.94558.jpg"
+    },
+    {
+      "id": "parent631389",
+      "author": "aliid",
+      "date": "2023-12-28",
+      "text": "Hiçbir fikriniz yok. Bu parfüm bazılarına diğerlerinden daha çok hitap edebilir, ancak inanılmaz bir yayılımı var, günlerce sürüyor ve metrelerce uzağa yayılıyor. Koku yorgunluğunun ne olduğunu bilmiyorsunuz. Fikirlerinizi söylemeyi bırakın; kendi yöntemlerinizi kullanın. Bir parfümü saatlerce kullandıktan sonra, onun hakkında soru sorun. Her şeyde olduğu gibi, parfümleri bu kadar saçma sapan şeyler söyleyerek mahvetmeyin.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent631398",
+      "author": "Carla666",
+      "date": "2023-12-26",
+      "text": "Mükemmel koku.\nOlumsuz yorumları anlamıyorum.\nTropikal kokuları takdir etmelisiniz.\nMango, yasemin, sandal ağacı ve pembe biber, algıladığınız başlıca bileşenler. Kalıcılığı ve yayılımı iyi (muhteşem değil ama fena değil). Kokunun daha uzun süre kalmasını sağlamak için Sol de Janeiro krem ​​(turuncu olan) ile birleştirin ve <3 ile mükemmel bir şekilde uyum sağlar.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent631371",
+      "author": "PaulieDoodle",
+      "date": "2023-12-26",
+      "text": "Paco Rabanne Fame Parfümü:\n\n🗣İşte Orijinal Fame Edp'nin Gerçekten Nasıl Olmasını/Kokmasını İstediğim Şey!!\n\nBu benim için \"MUHTEŞEM\" ve cildimde gerçekten de çok uzun süre kalıyor!! Orijinal Fame'in böyle kokacağını düşünmüştüm!! Orijinalinde yanlış bir şey yok, sadece biraz daha hafif ve şu an İlkbahar/Yaz - Sıcak Havalarda kullanım için mükemmel, oysa bu daha ağır/yoğun ve Sonbahar/Kış - Soğuk Hava/Akşam kullanımı için daha uygun!! Bu iki Fame parfümünün de cildimde nasıl koktuğunu seviyorum, ancak bu parfümün gerçekten güzel, kremsi bir amber aromasına dönüşmesi çok hoşuma gidiyor, ayrıca iki fısla 14+ saat boyunca kalıcı oluyor!! Ayrıca, her sıktığımda beni güldüren ve gülümseten kadın robot tarzı şişeleri de ÇOK SEVİYORUM!! Sonuç olarak, Fame Parfümü kullandığımda kesinlikle kendimi iyi hissediyorum!! Biraz neşeli ve seksi hissediyorum sanırım!! 😍😘💕💗💗💗",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.843886.jpg"
+    },
+    {
+      "id": "parent631427",
+      "author": "kaktuska01",
+      "date": "2023-12-02",
+      "text": "Belirgin bir mango notası içeren tatlı bir koku. Tropikal bir havası var. Klasik Fame'i bilmiyorum, bu yüzden benzerlikler hakkında yorum yapamam, ancak bu versiyonu gerçekten beğendim. Angel eau Croisiere 2020'ye benziyor. Burada da tropikal meyveler var, ancak genel koku Croisiere gibi çoklu meyve suyu gibi değil, daha çok tatlı bir mango suyu gibi. Bu tarzı seviyorum, bu yüzden Fame Parfum'u yaz akşamları için mükemmel, başarılı bir koku olarak görüyorum.\n\nŞişeyi beğenmedim ve bence koku ne şişeye ne de isme uymuyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.5819.jpg"
+    },
+    {
+      "id": "parent631357",
+      "author": "lilyfarwest",
+      "date": "2023-10-27",
+      "text": "Açılış, cesur ama canlandırıcı, tatlı, kremsi ve tropikal bir karışım.\nCilde yerleştikçe mango tadı ortaya çıkmaya başlıyor ve gerçekten sulu ve doğal bir koku yayıyor.\nKuruduktan sonra beyaz çiçeksi bir koku alabiliyorum.\nGenel olarak güzel bir parfüm ve kalıcılığı da hiç fena değil.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1815594.jpg"
+    },
+    {
+      "id": "parent631390",
+      "author": "Sara74",
+      "date": "2023-10-12",
+      "text": "Bu parfüm bir sanat eseri; güçlü, çok uzun süre kalıcı ve parti havası uyandırıyor—adeta \"Mart!\" diye bağırıyor—bu yüzden de bu kadar hoş bir şekilde öne çıkıyor.\nBayıldım! Ayrıca günlük kullanım, yaz ve ilkbahar için daha uygun olduğunu düşündüğüm gümüş takım elbiseli Fame parfümüne de sahibim; bu parfüm ise sonbahar, kış ve akşamlar için farklı seçenekler sunarak onu tamamlıyor. Başka bir deyişle, sadece bu iki parfümle bile kokunuzdan tanınabilirsiniz, çünkü benzer olsalar da yoğunluk ve kalıcılık açısından önemli farklılıklar gösteriyorlar.\nSofistike ve modern bir kokuya sahip olan bu parfüm, temiz, meyvemsi bir kokuyu misk ve pudra notalarıyla birleştiren karmaşık bir karaktere sahiptir.\nBana göre bu mango, ananası veya tatlı ve sulu tropikal meyvelerin bir karışımını andırıyor. Ayrıca yasemin ve gül gibi çiçeksi notalar da mevcut, ancak neredeyse gizli. Odunsu notalar ve kaşmir gibi kadifemsi bir dokunuş da var.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent631447",
+      "author": "Diely",
+      "date": "2023-09-12",
+      "text": "Profilimde zaten orijinal Fame oyununa dair bir inceleme var ve onu çok seviyorum!\nParfüm versiyonunda neler olduğunu anlamak için temel kokunun nasıl olduğunu bilmek önemlidir.\n\nİki parfümün de vücut yapısı ve ilk izlenimleri birbirine çok benzer, ancak aralarındaki farkın ortaya çıkması için sadece birkaç dakika kuruması yeterlidir. Parfümde ek olarak daha baharatlı ve pudralı notalar bulunur, ancak koku piramidinde yer almayan ancak aromada çok belirgin olan bir koku ortaya çıkar: yanmış hindistan cevizi.\n\nİki parfüm de yaz ve güneş ışığını çağrıştırıyor, ancak bu versiyon güneşli bir gün için değil, serin bir gece için. Serin, evet, çünkü yoğunluğu tropikal olmasına rağmen aşırı sıcağa tam olarak uymuyor. Yanmış hindistan cevizi notası belki de sandal ağacından (ki daha dumanlı görünüyor) kaynaklanıyor ve inanılmaz bir nota. İki parfüm çok benzer olsa da, ikisine de sahip olmaya değer olduğunu düşünüyorum. Gerçekten de gündüz ve gece versiyonu, manga her ikisinde de çok belirgin, ancak orijinalinde ferahlık, parfümde ise yoğunluk çağrışımı yapıyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.70360.jpg"
+    },
+    {
+      "id": "parent631411",
+      "author": "vilka7",
+      "date": "2023-07-25",
+      "text": "Ne diyebilirim ki? Deti Free'de denedim ve daha doğal geldi. Aldım...\nİlk versiyonun etkisi bende çabuk geçiyor, ama bu versiyon bana daha odunsu, daha olgun, daha tatlı, daha yoğun ve daha zengin geliyor. İlk versiyonu pek hatırlamıyorum; çok uzun zaman önce kullanmıştım. Ne yazık ki, kalıcılığı bende oldukça ortalama.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.40395.jpg"
     }
   ]
 }

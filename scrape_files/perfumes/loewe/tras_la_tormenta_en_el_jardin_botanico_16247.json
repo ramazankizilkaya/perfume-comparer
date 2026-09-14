@@ -49,6 +49,34 @@
     {
       "name": "menekşe",
       "width": "45.2174%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "6",
+    "longLasting": "10",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "6",
+    "strong": "9",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "9",
+    "moreMale": "3",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "5",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LOEWE",
+      "name": "Un balcón sobre el paseo del Prado"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Aoud Damascus"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Oud Ispahan"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Oud Palao Eau de Parfum"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "L'incendiaire"
+    },
+    {
+      "brand": "ETAT LİBRE D'ORANGE",
+      "name": "Spice Must Flow"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LOEWE",
@@ -133,16 +186,16 @@
       "name": "Musc Ravageur"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Eau de Toilette"
-    },
-    {
       "brand": "PARFUMS DE MARLY",
       "name": "Layton"
     },
     {
       "brand": "TOM FORD",
       "name": "Black Orchid"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Bois d'Encens"
     },
     {
       "brand": "DİOR",
@@ -161,12 +214,12 @@
       "name": "Chergui"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Terre d'Hermès"
-    },
-    {
       "brand": "CREED",
       "name": "Original Santal"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
     },
     {
       "brand": "TAUER PERFUMES",
@@ -176,5 +229,6 @@
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

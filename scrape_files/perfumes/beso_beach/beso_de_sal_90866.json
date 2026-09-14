@@ -41,13 +41,17 @@
     {
       "name": "yeşil",
       "width": "44.7837%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
-    "score": "3.24",
-    "votesCount": "21",
+    "score": "3.46",
+    "votesCount": "24",
     "breakdown": {
-      "love": "2",
+      "love": "5",
       "like": "6",
       "ok": "9",
       "dislike": "3",
@@ -56,10 +60,10 @@
   },
   "seasons": {
     "winter": "0",
-    "spring": "6",
-    "summer": "15",
-    "autumn": "2",
-    "day": "14",
+    "spring": "9",
+    "summer": "18",
+    "autumn": "3",
+    "day": "16",
     "night": "2"
   },
   "notes": {
@@ -81,67 +85,38 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "2",
-    "moderate": "10",
-    "longLasting": "1",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "10",
-    "strong": "2",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "11",
-    "moreMale": "3",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "6",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "9",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Acqua di Parma Blu Mediterraneo Bergamotto di Calabria"
-    },
-    {
-      "brand": "ACQUA DELL ELBA",
-      "name": "Classica Men"
-    },
-    {
-      "brand": "ORTO PARİSİ",
-      "name": "Megamare"
-    },
-    {
-      "brand": "KARL LAGERFELD",
-      "name": "Karl New York Mercer Street"
-    },
-    {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Bergamotto di Calabria La Spugnatura"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dior Homme Cologne 2022"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Caviar Bergamot"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Wood Sage & Sea Salt"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
+    {
+      "brand": "XERJOFF",
+      "name": "Torino21"
+    },
     {
       "brand": "MARC-ANTOİNE BARROİS",
       "name": "Encelade"
@@ -155,12 +130,24 @@
       "name": "Ganymede"
     },
     {
+      "brand": "NİSHANE",
+      "name": "Hacivat"
+    },
+    {
       "brand": "ANGELA CİAMPAGNA",
       "name": "Rosarium"
     },
     {
       "brand": "MEMO PARİS",
       "name": "African Leather"
+    },
+    {
+      "brand": "ETRO",
+      "name": "Messe de Minuit"
+    },
+    {
+      "brand": "WOOT",
+      "name": "Beatum"
     },
     {
       "brand": "MAİSON LABEL",
@@ -177,6 +164,11 @@
     {
       "brand": "LES SOEURS DE NOE",
       "name": "Clandestine Rendez-vous"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Le Gemme Orom"
     }
-  ]
+  ],
+  "comments": []
 }

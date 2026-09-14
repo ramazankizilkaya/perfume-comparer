@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.22474.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Hermes/Eau-des-Merveilles-Limited-Edition-2013-22474.html",
   "brand": "Hermès parfüm ve kolonya",
-  "description": "Hermès markasının Eau des Merveilles Limited Edition 2013 parfümü, kadınlar için Oryantal Odunsu bir kokudur. Eau des Merveilles Limited Edition 2013, 2013 yılında piyasaya sürüldü. Üst notalar: Portakal, Elemi ve Limon; orta notalar: Amber, Biber, Pembe biber ve Menekşe; alt notalar Ladin, Yosun, Sedir ve Vetiver.",
-  "description_original": "Hermès markasının Eau des Merveilles Limited Edition 2013 parfümü, kadınlar için Oryantal Odunsu bir kokudur. Eau des Merveilles Limited Edition 2013, 2013 yılında piyasaya sürüldü. Üst notalar: Portakal, Elemi ve Limon; orta notalar: Amber, Biber, Pembe biber ve Menekşe; alt notalar Ladin, Yosun, Sedir ve Vetiver.",
-  "description_enhanced": "Hermès markasının Eau des Merveilles Limited Edition 2013 parfümü, kadınlar için Oryantal Odunsu bir kokudur. Eau des Merveilles Limited Edition 2013, 2013 yılında piyasaya sürüldü. Üst notalar: Portakal, Elemi ve Limon; orta notalar: Amber, Biber, Pembe biber ve Menekşe; alt notalar Ladin, Yosun, Sedir ve Vetiver.",
+  "description": "Hermès markasının Eau des Merveilles Limited Edition 2013 parfümü, kadınlar için Oryantal Odunsu bir kokudur. Eau des Merveilles Limited Edition 2013, 2013 yılında piyasaya sürüldü. Üst notalar: Portakal, Elemi ve Limon; orta notalar: Amber, Biber, Pembe biber ve Menekşe; alt notalar Köknar, Yosun, Sedir ve Vetiver.",
+  "description_original": "Hermès markasının Eau des Merveilles Limited Edition 2013 parfümü, kadınlar için Oryantal Odunsu bir kokudur. Eau des Merveilles Limited Edition 2013, 2013 yılında piyasaya sürüldü. Üst notalar: Portakal, Elemi ve Limon; orta notalar: Amber, Biber, Pembe biber ve Menekşe; alt notalar Köknar, Yosun, Sedir ve Vetiver.",
+  "description_enhanced": "Hermès markasının Eau des Merveilles Limited Edition 2013 parfümü, kadınlar için Oryantal Odunsu bir kokudur. Eau des Merveilles Limited Edition 2013, 2013 yılında piyasaya sürüldü. Üst notalar: Portakal, Elemi ve Limon; orta notalar: Amber, Biber, Pembe biber ve Menekşe; alt notalar Köknar, Yosun, Sedir ve Vetiver.",
   "mainAccords": [
     {
       "name": "narenciye",
@@ -49,6 +49,34 @@
     {
       "name": "toprak",
       "width": "47.6169%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,7 +111,7 @@
       "Menekşe"
     ],
     "base": [
-      "Ladin",
+      "Köknar",
       "Yosun",
       "Sedir",
       "Vetiver"
@@ -121,6 +149,10 @@
     {
       "brand": "HERMÈS",
       "name": "Eau des Merveilles"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Elixir des Merveilles"
     },
     {
       "brand": "HERMÈS",
@@ -192,5 +224,6 @@
       "brand": "HERMÈS",
       "name": "Un Jardin Sur Le Toit"
     }
-  ]
+  ],
+  "comments": []
 }

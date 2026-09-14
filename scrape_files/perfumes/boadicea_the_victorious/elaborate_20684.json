@@ -37,6 +37,10 @@
     {
       "name": "dumanlı",
       "width": "45.9092%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -53,7 +57,7 @@
   "seasons": {
     "winter": "18",
     "spring": "10",
-    "summer": "3",
+    "summer": "4",
     "autumn": "18",
     "day": "11",
     "night": "18"
@@ -61,89 +65,43 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Deri",
+      "Sivet",
+      "Agar ağacı (Oud)",
+      "Menekşe",
+      "Misk"
+    ]
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "1",
-    "moderate": "0",
-    "longLasting": "2",
-    "eternal": "21"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "0",
-    "strong": "7",
-    "enormous": "23"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "8",
-    "moreMale": "3",
-    "male": "7"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "1",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Complex"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Complex 2020"
-    },
-    {
-      "brand": "FRAGRANCE DU BOİS",
-      "name": "PM"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Fahrenheit Absolute"
-    },
-    {
-      "brand": "JD JEFFREY DAME",
-      "name": "JD Juste Filthy"
-    },
-    {
-      "brand": "JOVOY PARİS",
-      "name": "Psychedelique"
-    },
-    {
-      "brand": "RANİA J",
-      "name": "Cuir Andalou"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Oud Khôl"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Tuscan Leather"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Agarwood Collection Intricate"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Sterling"
-    },
-    {
-      "brand": "JOUSSET PARFUMS",
-      "name": "Hypnotic Leather"
-    },
-    {
-      "brand": "ORTO PARİSİ",
-      "name": "Cuoium"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -205,5 +163,6 @@
       "brand": "AMOUAGE",
       "name": "Journey Man"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,13 +49,41 @@
     {
       "name": "odunsu",
       "width": "53.0769%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.14",
-    "votesCount": "220",
+    "votesCount": "221",
     "breakdown": {
-      "love": "98",
+      "love": "99",
       "like": "79",
       "ok": "21",
       "dislike": "20",
@@ -87,33 +115,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "6",
+    "moderate": "38",
+    "longLasting": "44",
+    "eternal": "11"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "38",
+    "strong": "40",
+    "enormous": "21"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "20",
+    "moreFemale": "10",
+    "unisex": "42",
+    "moreMale": "6",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "10",
+    "overpriced": "20",
     "fair": "21",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Oud Satin Mood"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Exquisite Musk"
+    },
+    {
+      "brand": "MORESQUE",
+      "name": "Emiro"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Oud Bouquet Eau de Parfum"
+    },
+    {
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "Oud Blanc"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Velvet Rose & Oud"
+    },
+    {
+      "brand": "FLORAÏKU",
+      "name": "Volcanic Flowers"
+    },
+    {
+      "brand": "MİCHAEL KORS",
+      "name": "Starlight Shimmer"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Tabac Rose"
+    },
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Oud Sharqia"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Qasamat Mohraf Oud Moattar"
+    },
+    {
+      "brand": "ATELİER COLOGNE",
+      "name": "Rose Cuirée"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Oud Mood"
+    },
+    {
+      "brand": "ATELİER COLOGNE",
+      "name": "Rose Anonyme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -175,5 +264,6 @@
       "brand": "BY KİLİAN",
       "name": "Angels' Share"
     }
-  ]
+  ],
+  "comments": []
 }

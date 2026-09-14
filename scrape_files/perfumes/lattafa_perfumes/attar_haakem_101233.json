@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101233.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Lattafa-Perfumes/Attar-Haakem-101233.html",
   "brand": "Lattafa Perfumes parfüm ve kolonya",
-  "description": "Lattafa Perfumes markasının Attar Haakem parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Attar Haakem, 2025 yılında piyasaya sürüldü. Üst nota: Biberiye; orta nota: Baharatlı notalar; alt nota Paçuli.",
-  "description_original": "Lattafa Perfumes markasının Attar Haakem parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Attar Haakem, 2025 yılında piyasaya sürüldü. Üst nota: Biberiye; orta nota: Baharatlı notalar; alt nota Paçuli.",
-  "description_enhanced": "Lattafa Perfumes markasının Attar Haakem parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Attar Haakem, 2025 yılında piyasaya sürüldü. Üst nota: Biberiye; orta nota: Baharatlı notalar; alt nota Paçuli.",
+  "description": "Lattafa Perfumes markasının Attar Haakem parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Attar Haakem, 2025 yılında piyasaya sürüldü. Üst nota: Biberiye; orta nota: Baharatlar; alt nota Paçuli.",
+  "description_original": "Lattafa Perfumes markasının Attar Haakem parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Attar Haakem, 2025 yılında piyasaya sürüldü. Üst nota: Biberiye; orta nota: Baharatlar; alt nota Paçuli.",
+  "description_enhanced": "Lattafa Perfumes markasının Attar Haakem parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Attar Haakem, 2025 yılında piyasaya sürüldü. Üst nota: Biberiye; orta nota: Baharatlar; alt nota Paçuli.",
   "mainAccords": [
     {
       "name": "sıcak baharatlı",
@@ -33,6 +33,34 @@
     {
       "name": "toprak",
       "width": "45.7009%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -50,7 +78,7 @@
     "winter": "11",
     "spring": "10",
     "summer": "11",
-    "autumn": "11",
+    "autumn": "12",
     "day": "6",
     "night": "13"
   },
@@ -59,7 +87,7 @@
       "Biberiye"
     ],
     "middle": [
-      "Baharatlı notalar"
+      "Baharatlar"
     ],
     "base": [
       "Paçuli"
@@ -67,33 +95,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "4",
+    "longLasting": "9",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "4",
+    "strong": "5",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "3",
+    "unisex": "11",
+    "moreMale": "1",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "8"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BY KİLİAN",
+      "name": "Straight to Heaven"
+    },
+    {
+      "brand": "BETTER WORLD FRAGRANCE HOUSE",
+      "name": "Summer Mink"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "24 Carat White Gold"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -110,6 +151,10 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah Qahwa"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Liquid Brun"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -150,10 +195,7 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Attar Amoura"
     }
-  ]
+  ],
+  "comments": []
 }

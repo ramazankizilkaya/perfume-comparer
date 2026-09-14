@@ -29,26 +29,54 @@
     {
       "name": "yeşil",
       "width": "42.7365%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.59",
-    "votesCount": "51",
+    "score": "3.57",
+    "votesCount": "56",
     "breakdown": {
-      "love": "11",
-      "like": "19",
+      "love": "12",
+      "like": "21",
       "ok": "13",
-      "dislike": "5",
+      "dislike": "7",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "9",
-    "spring": "11",
-    "summer": "7",
-    "autumn": "9",
-    "day": "10",
-    "night": "11"
+    "winter": "11",
+    "spring": "13",
+    "summer": "8",
+    "autumn": "11",
+    "day": "11",
+    "night": "13"
   },
   "notes": {
     "top": [],
@@ -64,33 +92,46 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "7",
+    "longLasting": "4",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "7",
+    "strong": "5",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "7",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "7",
     "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Guilty Absolute Pour Femme"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Rose Prick"
+    },
+    {
+      "brand": "ALEXANDRE.J",
+      "name": "Black Muscs"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUCCİ",
@@ -117,12 +158,8 @@
       "name": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi"
     },
     {
-      "brand": "CHANEL",
-      "name": "Chance Eau Tendre"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Mandarine Basilic"
+      "brand": "CHLOÉ",
+      "name": "Nomade"
     },
     {
       "brand": "CHANEL",
@@ -131,6 +168,10 @@
     {
       "brand": "TOM FORD",
       "name": "Café Rose"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Dia Woman"
     },
     {
       "brand": "SERGE LUTENS",
@@ -142,15 +183,16 @@
     },
     {
       "brand": "TOM FORD",
-      "name": "Noir de Noir"
+      "name": "Black Orchid"
     },
     {
       "brand": "LANCÔME",
-      "name": "Absolue 1001 Roses"
+      "name": "Absolue 6AM Rose"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Black Orchid"
+      "brand": "GİVENCHY",
+      "name": "Organza"
     }
-  ]
+  ],
+  "comments": []
 }

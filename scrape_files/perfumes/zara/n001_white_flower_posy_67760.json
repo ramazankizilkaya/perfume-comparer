@@ -41,25 +41,53 @@
     {
       "name": "taze",
       "width": "46%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.02",
-    "votesCount": "106",
+    "score": "3.99",
+    "votesCount": "110",
     "breakdown": {
-      "love": "35",
-      "like": "47",
-      "ok": "16",
+      "love": "36",
+      "like": "48",
+      "ok": "17",
       "dislike": "7",
-      "hate": "1"
+      "hate": "2"
     }
   },
   "seasons": {
     "winter": "15",
-    "spring": "66",
-    "summer": "54",
-    "autumn": "31",
-    "day": "60",
+    "spring": "69",
+    "summer": "56",
+    "autumn": "32",
+    "day": "62",
     "night": "20"
   },
   "notes": {
@@ -80,19 +108,19 @@
   "longevity": {
     "veryWeak": "11",
     "weak": "7",
-    "moderate": "33",
+    "moderate": "34",
     "longLasting": "7",
     "eternal": "6"
   },
   "sillage": {
     "intimate": "25",
-    "moderate": "33",
+    "moderate": "34",
     "strong": "4",
     "enormous": "4"
   },
   "genderVoting": {
     "female": "44",
-    "moreFemale": "14",
+    "moreFemale": "15",
     "unisex": "7",
     "moreMale": "0",
     "male": "0"
@@ -100,9 +128,9 @@
   "priceVoting": {
     "wayOverpriced": "2",
     "overpriced": "2",
-    "fair": "16",
+    "fair": "17",
     "goodValue": "25",
-    "greatValue": "19"
+    "greatValue": "20"
   },
   "remindsMeOf": [
     {
@@ -148,10 +176,6 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "DİOR",
-      "name": "Pure Poison"
-    },
-    {
       "brand": "MUGLER",
       "name": "Alien"
     },
@@ -184,6 +208,10 @@
       "name": "Waterlily Tea Dress"
     },
     {
+      "brand": "DİOR",
+      "name": "Poison"
+    },
+    {
       "brand": "ZARA",
       "name": "Vetiver Pamplemousse"
     },
@@ -192,20 +220,21 @@
       "name": "Tubereuse Noir"
     },
     {
+      "brand": "DOLCE&GABBANA",
+      "name": "Devotion"
+    },
+    {
       "brand": "ZARA",
       "name": "Boldly Seoul"
     },
     {
+      "brand": "CHLOÉ",
+      "name": "Chloé Eau de Parfum"
+    },
+    {
       "brand": "ZARA",
       "name": "Ebony Wood"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Hypnotic Poison"
-    },
-    {
-      "brand": "ZARA",
-      "name": "No 1 Rose Petal Drops"
     }
-  ]
+  ],
+  "comments": []
 }

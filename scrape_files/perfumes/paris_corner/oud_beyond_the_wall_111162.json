@@ -43,21 +43,49 @@
       "width": "60.5233%"
     },
     {
+      "name": "vanilya",
+      "width": "49.9419%"
+    },
+    {
       "name": "balsamik",
       "width": "49.9419%"
     },
     {
-      "name": "vanilya",
-      "width": "49.9419%"
+      "name": "Online satın alın 9 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.00",
-    "votesCount": "24",
+    "votesCount": "29",
     "breakdown": {
-      "love": "11",
-      "like": "6",
-      "ok": "4",
+      "love": "12",
+      "like": "9",
+      "ok": "5",
       "dislike": "2",
       "hate": "1"
     }
@@ -66,7 +94,7 @@
     "winter": "4",
     "spring": "8",
     "summer": "7",
-    "autumn": "8",
+    "autumn": "9",
     "day": "6",
     "night": "6"
   },
@@ -89,37 +117,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "1",
+    "moderate": "6",
+    "longLasting": "6",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "6",
+    "strong": "7",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "2",
+    "unisex": "10",
+    "moreMale": "5",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "1",
+    "fair": "5",
+    "goodValue": "4",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Liam"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Gris Charnel"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Francique 63.55"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Niche Emarati Antique"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Velvet Musk"
+    },
+    {
+      "brand": "IBRAHİM AL QURASHİ",
+      "name": "White Regent Diamond"
+    },
+    {
+      "brand": "AROMATİX X FRENCH AVENUE",
+      "name": "Carnal Desire"
+    },
+    {
+      "brand": "AL WATANİAH",
+      "name": "Alya"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Liam"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Bottled Elixir"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Teriaq Intense"
     },
     {
       "brand": "PARIS CORNER",
@@ -138,6 +207,10 @@
       "name": "Khamrah"
     },
     {
+      "brand": "FRENCH AVENUE",
+      "name": "Liquid Brun"
+    },
+    {
       "brand": "PARIS CORNER",
       "name": "Khair Peach Delulu"
     },
@@ -146,8 +219,8 @@
       "name": "Khamrah Qahwa"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "Khair Confection"
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Stronger With You Intensely"
     },
     {
       "brand": "RİİFFS PERFUMES",
@@ -158,24 +231,13 @@
       "name": "Romance Reverie"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "Khair Pistachio"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Eternal Oud"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Dynasty"
-    },
-    {
-      "brand": "PARIS CORNER",
-      "name": "Strawberry Pound Cake"
-    },
-    {
-      "brand": "PARIS CORNER",
-      "name": "Marshmallow Blush"
-    },
-    {
-      "brand": "AFNAN",
-      "name": "Rare Reef"
     }
-  ]
+  ],
+  "comments": []
 }

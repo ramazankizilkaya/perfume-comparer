@@ -31,11 +31,11 @@
       "width": "70.3216%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "vanilya",
       "width": "70.117%"
     },
     {
-      "name": "vanilya",
+      "name": "taze baharatlı",
       "width": "70.117%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "menekşe",
       "width": "62.7486%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -91,33 +119,82 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "3",
+    "moderate": "8",
+    "longLasting": "13",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "8",
+    "strong": "10",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "3",
+    "moreMale": "7",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NİKOS",
+      "name": "Sculpture Homme"
+    },
+    {
+      "brand": "MYRURGİA",
+      "name": "Yacht Man Red"
+    },
+    {
+      "brand": "ALFRED DUNHİLL",
+      "name": "Desire for a Man"
+    },
+    {
+      "brand": "JACQUES BOGART",
+      "name": "Silver Scent"
+    },
+    {
+      "brand": "EMPER",
+      "name": "Legend"
+    },
+    {
+      "brand": "BOND NO 9",
+      "name": "Lafayette Street"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Uomo Born In Roma Yellow Dream"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Al Qiam Gold"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Wood and Spices"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Blue Lady"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Chastity Men"
+    },
+    {
+      "brand": "YARDLEY",
+      "name": "Yardley Gentleman Classic"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -148,8 +225,12 @@
       "name": "Terre d'Hermès"
     },
     {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Gio"
+    },
+    {
       "brand": "RASASİ",
-      "name": "Al Wisam Day"
+      "name": "Daarej pour Homme"
     },
     {
       "brand": "GİVENCHY",
@@ -160,12 +241,12 @@
       "name": "L'Eau Bleue d'Issey Pour Homme"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Terre d'Hermes Parfum"
-    },
-    {
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermes Parfum"
     },
     {
       "brand": "PRADA",
@@ -174,10 +255,7 @@
     {
       "brand": "DİOR",
       "name": "Fahrenheit"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "A*Men"
     }
-  ]
+  ],
+  "comments": []
 }

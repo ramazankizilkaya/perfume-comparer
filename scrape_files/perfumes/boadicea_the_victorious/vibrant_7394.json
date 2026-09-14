@@ -49,6 +49,10 @@
     {
       "name": "dumanlı",
       "width": "47.7692%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -82,41 +86,37 @@
       "Misk",
       "Deri",
       "Reçine"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "4",
-    "moderate": "0",
-    "longLasting": "3",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "0",
-    "strong": "4",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JOVAN",
-      "name": "Jovan Musk for Men"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CREED",
@@ -131,16 +131,16 @@
       "name": "Silver Mountain Water"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Vetiver Extraordinaire"
-    },
-    {
       "brand": "CLİVE CHRİSTİAN",
       "name": "C for Men"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Cologne Indélébile"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Vetiver Extraordinaire"
     },
     {
       "brand": "AMOUAGE",
@@ -175,8 +175,9 @@
       "name": "Memoir Man"
     },
     {
-      "brand": "SERGE LUTENS",
-      "name": "Ambre Sultan"
+      "brand": "NASOMATTO",
+      "name": "Black Afgano"
     }
-  ]
+  ],
+  "comments": []
 }

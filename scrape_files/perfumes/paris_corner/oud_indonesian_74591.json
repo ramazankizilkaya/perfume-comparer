@@ -19,11 +19,11 @@
       "width": "75.7694%"
     },
     {
-      "name": "amber",
+      "name": "paçuli",
       "width": "65%"
     },
     {
-      "name": "paçuli",
+      "name": "amber",
       "width": "65%"
     },
     {
@@ -45,6 +45,34 @@
     {
       "name": "çiçeksi",
       "width": "47.3653%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -81,33 +109,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "8",
+    "moderate": "32",
+    "longLasting": "26",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "32",
+    "strong": "21",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "2",
+    "unisex": "41",
+    "moreMale": "15",
+    "male": "14"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "5",
     "fair": "15",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "28",
+    "greatValue": "32"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ERMENEGİLDO ZEGNA",
+      "name": "Indonesian Oud Eau de Toilette"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Aoud Night"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "The One Mysterious Night"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "The Night"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Privé Rose d'Arabie"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Oudh Al Boruzz Asrar Indonesia"
+    },
+    {
+      "brand": "ERMENEGİLDO ZEGNA",
+      "name": "Indonesian Oud Eau de Parfum"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khaltaat Al Arabia Royal Blends"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Opus XII – Rose Incense"
+    },
+    {
+      "brand": "JUST JACK",
+      "name": "The Dark"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -169,5 +238,6 @@
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
     }
-  ]
+  ],
+  "comments": []
 }

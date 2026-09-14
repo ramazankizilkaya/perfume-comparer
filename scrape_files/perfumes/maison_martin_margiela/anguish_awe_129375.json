@@ -41,21 +41,49 @@
     {
       "name": "odunsu",
       "width": "45.3333%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.28",
-    "votesCount": "29",
+    "score": "4.12",
+    "votesCount": "33",
     "breakdown": {
-      "love": "19",
+      "love": "20",
       "like": "3",
-      "ok": "4",
+      "ok": "6",
       "dislike": "2",
-      "hate": "1"
+      "hate": "2"
     }
   },
   "seasons": {
-    "winter": "14",
+    "winter": "16",
     "spring": "3",
     "summer": "3",
     "autumn": "20",
@@ -77,49 +105,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "4",
+    "longLasting": "1",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "4",
+    "strong": "2",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "11",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "0",
+    "fair": "6",
+    "goodValue": "6",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Velvet Rose & Oud"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Kisses Don't Lie"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "As Sawira"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Oud Satin Mood"
+    },
+    {
+      "brand": "JEQUİTİ",
+      "name": "Ben 10"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "A Reason To Love"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Aqua Allegoria Forte Rosa Palissandro"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Rose Barbare"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Oud Satin Mood"
     },
     {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Delina"
+    },
+    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Y Eau de Parfum"
-    },
-    {
-      "brand": "KENZO",
-      "name": "Flower by Kenzo"
-    },
-    {
-      "brand": "ETAT LİBRE D'ORANGE",
-      "name": "You Or Someone Like You"
     },
     {
       "brand": "MAİSON MARTİN MARGİELA",
@@ -130,8 +187,8 @@
       "name": "Imagination"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "M7"
+      "brand": "NASOMATTO",
+      "name": "Baraonda"
     },
     {
       "brand": "VİKTOR&ROLF",
@@ -143,15 +200,11 @@
     },
     {
       "brand": "DİOR",
-      "name": "J'adore Intense"
+      "name": "Dior Homme Intense 2011"
     },
     {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "Tender Defiance"
-    },
-    {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Fit of Folly"
     },
     {
       "brand": "TOM FORD",
@@ -164,6 +217,15 @@
     {
       "brand": "VİKTOR&ROLF",
       "name": "Bonbon Cola Fizz"
+    },
+    {
+      "brand": "NASOMATTO",
+      "name": "Pardon"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Fit of Folly"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -19,11 +19,11 @@
       "width": "60.5053%"
     },
     {
-      "name": "amber",
+      "name": "lavanta",
       "width": "59.4737%"
     },
     {
-      "name": "lavanta",
+      "name": "amber",
       "width": "59.4737%"
     },
     {
@@ -63,7 +63,7 @@
     }
   },
   "seasons": {
-    "winter": "22",
+    "winter": "23",
     "spring": "14",
     "summer": "8",
     "autumn": "20",
@@ -91,66 +91,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "6",
-    "moderate": "16",
-    "longLasting": "12",
-    "eternal": "13"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "16",
-    "strong": "20",
-    "enormous": "26"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "19",
-    "moreFemale": "1",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "5",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "2",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mon Exclusif"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain Florale"
-    },
-    {
-      "brand": "NİNA RİCCİ",
-      "name": "Nina"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain L'Essence"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain Eau de Toilette"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain Limited Edition 2019"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain Limited Edition 2018"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -212,5 +179,6 @@
       "brand": "VERSACE",
       "name": "Crystal Noir"
     }
-  ]
+  ],
+  "comments": []
 }

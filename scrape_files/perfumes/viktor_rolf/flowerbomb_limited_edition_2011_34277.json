@@ -49,6 +49,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "45.2174%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,33 +118,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "4",
+    "longLasting": "3",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "4",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Christmas 2010 Edition"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Limited Edition 2015"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Crystal Edition 2013"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Extrait de Parfum"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb de Paris"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Extreme 2013"
+    },
+    {
+      "brand": "CHARRİOL",
+      "name": "Imperial Saphir"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİKTOR&ROLF",
@@ -163,12 +224,12 @@
       "name": "Valentino Donna"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Parfum Initial"
-    },
-    {
       "brand": "MUGLER",
       "name": "Angel"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Shalimar Parfum Initial"
     },
     {
       "brand": "GUERLAİN",
@@ -178,5 +239,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "Dolce&Gabbana Pour Femme"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,25 +49,53 @@
     {
       "name": "gül",
       "width": "52.5379%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.83",
-    "votesCount": "58",
+    "score": "3.80",
+    "votesCount": "59",
     "breakdown": {
       "love": "20",
-      "like": "18",
-      "ok": "10",
+      "like": "17",
+      "ok": "12",
       "dislike": "10",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "12",
-    "spring": "20",
-    "summer": "9",
-    "autumn": "13",
-    "day": "21",
+    "spring": "21",
+    "summer": "10",
+    "autumn": "14",
+    "day": "22",
     "night": "11"
   },
   "notes": {
@@ -85,21 +113,21 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
+    "veryWeak": "1",
     "weak": "6",
     "moderate": "10",
     "longLasting": "5",
     "eternal": "2"
   },
   "sillage": {
-    "intimate": "5",
+    "intimate": "6",
     "moderate": "10",
     "strong": "3",
     "enormous": "1"
   },
   "genderVoting": {
     "female": "20",
-    "moreFemale": "6",
+    "moreFemale": "7",
     "unisex": "3",
     "moreMale": "1",
     "male": "0"
@@ -107,7 +135,7 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "12",
-    "fair": "10",
+    "fair": "12",
     "goodValue": "0",
     "greatValue": "1"
   },
@@ -125,24 +153,24 @@
       "name": "212 VIP Rosé Elixir"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Emporio Armani Because It’s You"
-    },
-    {
       "brand": "LOUİS VUİTTON",
       "name": "Attrape-Rêves"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel Nova"
     },
     {
       "brand": "EUDORA",
       "name": "Eudora Rosé"
     },
     {
-      "brand": "MUGLER",
-      "name": "Angel"
-    },
-    {
       "brand": "RALPH LAUREN",
       "name": "Big Pony 2 for Women"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel"
     },
     {
       "brand": "MONTALE",
@@ -151,6 +179,10 @@
     {
       "brand": "MUGLER",
       "name": "Angel Etoile Seduisante"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Because It’s You"
     },
     {
       "brand": "NATURA",
@@ -162,10 +194,6 @@
     }
   ],
   "peopleAlsoLike": [
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Sì Passione"
-    },
     {
       "brand": "DİOR",
       "name": "Miss Dior Absolutely Blooming"
@@ -181,6 +209,14 @@
     {
       "brand": "LANCÔME",
       "name": "La Vie Est Belle Iris Absolu"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born In Roma"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Miracle"
     },
     {
       "brand": "LANCÔME",
@@ -204,23 +240,20 @@
     },
     {
       "brand": "LANCÔME",
-      "name": "La Nuit Trésor à la Folie"
-    },
-    {
-      "brand": "LANCÔME",
       "name": "La Vie Est Belle Intensément"
     },
     {
-      "brand": "PRADA",
-      "name": "Prada Paradoxe"
-    },
-    {
-      "brand": "CAROLİNA HERRERA",
-      "name": "Good Girl Légère"
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle Soleil Cristal"
     },
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Libre"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Libre Le Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,13 +49,41 @@
     {
       "name": "pudralı",
       "width": "45.4941%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.20",
-    "votesCount": "111",
+    "score": "4.21",
+    "votesCount": "113",
     "breakdown": {
-      "love": "55",
+      "love": "57",
       "like": "36",
       "ok": "10",
       "dislike": "7",
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "43",
-    "spring": "39",
-    "summer": "32",
-    "autumn": "51",
-    "day": "53",
-    "night": "38"
+    "winter": "45",
+    "spring": "40",
+    "summer": "33",
+    "autumn": "52",
+    "day": "54",
+    "night": "39"
   },
   "notes": {
     "top": [
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "9",
+    "moderate": "37",
+    "longLasting": "42",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "37",
+    "strong": "21",
+    "enormous": "16"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "6",
+    "moreMale": "12",
+    "male": "42"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "6",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "18",
+    "greatValue": "17"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LALİQUE",
+      "name": "Encre Noire"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Encre Noire A L'Extreme"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Encre Noire Sport"
+    },
+    {
+      "brand": "CREED",
+      "name": "Original Vetiver"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Grey Vetiver"
+    },
+    {
+      "brand": "THOMAS KOSMALA",
+      "name": "Tonic Vert"
+    },
+    {
+      "brand": "ROBERT PİGUET",
+      "name": "Bois Bleu"
+    },
+    {
+      "brand": "DSQUARED²",
+      "name": "He Wood Rocky Mountain Wood"
+    },
+    {
+      "brand": "Mİ6KA",
+      "name": "Wood Man"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Bakhoor"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Wood Blend"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Tam Dao Eau de Parfum"
+    },
+    {
+      "brand": "BANANA REPUBLİC",
+      "name": "Cypress Cedar"
+    },
+    {
+      "brand": "DAY THREE",
+      "name": "Silent Rescue"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TOM FORD",
@@ -151,8 +240,16 @@
       "name": "Cedrat Boise"
     },
     {
+      "brand": "GUCCİ",
+      "name": "Gucci Guilty Absolute"
+    },
+    {
       "brand": "BENTLEY",
       "name": "Bentley for Men Intense"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de l'Homme"
     },
     {
       "brand": "ISSEY MİYAKE",
@@ -169,14 +266,7 @@
     {
       "brand": "RASASİ",
       "name": "Shuhrah Pour Homme"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Intense Man"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Versace Pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

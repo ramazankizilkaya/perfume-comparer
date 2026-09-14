@@ -49,13 +49,41 @@
     {
       "name": "taze",
       "width": "52.75%"
+    },
+    {
+      "name": "Online satın alın 14 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.69",
-    "votesCount": "16",
+    "score": "3.76",
+    "votesCount": "17",
     "breakdown": {
-      "love": "3",
+      "love": "4",
       "like": "9",
       "ok": "2",
       "dislike": "0",
@@ -66,7 +94,7 @@
     "winter": "2",
     "spring": "6",
     "summer": "3",
-    "autumn": "8",
+    "autumn": "9",
     "day": "6",
     "night": "4"
   },
@@ -90,33 +118,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "5",
+    "longLasting": "2",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "5",
+    "strong": "3",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "THE HOUSE OF OUD",
+      "name": "Emerald Green"
+    },
+    {
+      "brand": "CHRİSTİAN AUDİGİER",
+      "name": "Ed Hardy Love & Luck"
+    },
+    {
+      "brand": "ORMONDE JAYNE",
+      "name": "Tanger"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NARCİSO RODRİGUEZ",
@@ -178,5 +219,6 @@
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "By the Fireplace"
     }
-  ]
+  ],
+  "comments": []
 }

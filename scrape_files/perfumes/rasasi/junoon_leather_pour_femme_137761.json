@@ -3,11 +3,11 @@
   "targetGender": "kadınlar için",
   "fragranceFamily": "Oriental",
   "concentration": "Edp",
-  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137761.jpg?t=1784218218",
+  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137761.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Junoon-Leather-Pour-Femme-137761.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Junoon Leather Pour Femme parfümü, kadınlar için Deri bir kokudur. Üst nota: Baharatlı notalar; orta notalar: Yasemin ve Sedir; alt notalar Deri, Tütün, Amber, Tonka, Misk ve Oud.",
-  "description_original": "Rasasi markasının Junoon Leather Pour Femme parfümü, kadınlar için Deri bir kokudur. Üst nota: Baharatlı notalar; orta notalar: Yasemin ve Sedir; alt notalar Deri, Tütün, Amber, Tonka, Misk ve Oud.",
+  "description_original": "Rasasi markasının Junoon Leather Pour Femme parfümü, kadınlar için Deri bir kokudur. Üst nota: Baharatlı Notalar; orta notalar: Yasemin ve Sedir; alt notalar Deri, Tütün, Amber, Tonka, Misk ve Oud.",
   "description_enhanced": "Rasasi markasının Junoon Leather Pour Femme parfümü, kadınlar için Deri bir kokudur. Üst nota: Baharatlı notalar; orta notalar: Yasemin ve Sedir; alt notalar Deri, Tütün, Amber, Tonka, Misk ve Oud.",
   "mainAccords": [
     {
@@ -31,7 +31,7 @@
       "width": "76.6665%"
     },
     {
-      "name": "deri",
+      "name": "ud",
       "width": "76.6665%"
     },
     {
@@ -39,40 +39,68 @@
       "width": "76.6665%"
     },
     {
-      "name": "ud",
+      "name": "deri",
       "width": "76.6665%"
+    },
+    {
+      "name": "sıcak baharatlı",
+      "width": "72.0004%"
     },
     {
       "name": "animalik",
       "width": "72.0004%"
     },
     {
-      "name": "sıcak baharatlı",
-      "width": "72.0004%"
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "3",
+    "score": "3.50",
+    "votesCount": "4",
     "breakdown": {
       "love": "1",
       "like": "1",
       "ok": "1",
-      "dislike": "0",
+      "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "3",
     "spring": "1",
     "summer": "0",
-    "autumn": "1",
+    "autumn": "4",
     "day": "1",
-    "night": "1"
+    "night": "2"
   },
   "notes": {
     "top": [
-      "Baharatlı notalar"
+      "Baharatlı Notalar"
     ],
     "middle": [
       "Yasemin",
@@ -89,32 +117,55 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "MANCERA",
+      "name": "Aoud Exclusif"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water Intense"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "F by Ferragamo Black"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Legend"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue Eau Intense Pour Homme"
+    }
+  ],
+  "comments": []
 }

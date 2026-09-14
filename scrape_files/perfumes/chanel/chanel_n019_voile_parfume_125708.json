@@ -39,32 +39,60 @@
       "width": "66.623%"
     },
     {
-      "name": "aromatik",
+      "name": "gül",
       "width": "61.2918%"
     },
     {
-      "name": "gül",
+      "name": "aromatik",
       "width": "61.2918%"
     },
     {
       "name": "taze baharatlı",
       "width": "60.1324%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.50",
-    "votesCount": "2",
+    "score": "4.00",
+    "votesCount": "3",
     "breakdown": {
       "love": "1",
       "like": "1",
-      "ok": "0",
+      "ok": "1",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "2",
-    "spring": "2",
+    "spring": "3",
     "summer": "2",
     "autumn": "2",
     "day": "2",
@@ -117,11 +145,15 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "0",
+    "fair": "1",
     "goodValue": "0",
     "greatValue": "1"
   },
   "remindsMeOf": [
+    {
+      "brand": "CHANEL",
+      "name": "Chanel N°19"
+    },
     {
       "brand": "CHANEL",
       "name": "Chanel No 19 Eau de Parfum"
@@ -136,12 +168,9 @@
     },
     {
       "brand": "CHANEL",
-      "name": "Chanel N°19"
-    },
-    {
-      "brand": "CHANEL",
       "name": "Chanel No 19 Poudre"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

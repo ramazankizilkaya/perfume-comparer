@@ -52,11 +52,11 @@
     }
   ],
   "rating": {
-    "score": "3.90",
-    "votesCount": "10",
+    "score": "3.91",
+    "votesCount": "11",
     "breakdown": {
       "love": "6",
-      "like": "1",
+      "like": "2",
       "ok": "1",
       "dislike": "0",
       "hate": "2"
@@ -88,46 +88,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "0",
-    "moderate": "1",
-    "longLasting": "3",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "1",
-    "strong": "5",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "3",
-    "male": "3"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "1",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "TOUS",
-      "name": "Baby"
-    },
-    {
-      "brand": "FİORUCCİ",
-      "name": "Baby"
-    },
-    {
-      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
-      "name": "Incense Oud"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -154,10 +141,6 @@
       "name": "Great Britain"
     },
     {
-      "brand": "BOGUE",
-      "name": "MEM"
-    },
-    {
       "brand": "AMOUAGE",
       "name": "Boundless"
     },
@@ -170,12 +153,12 @@
       "name": "Ambre Cuir De HJ"
     },
     {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Blue Sapphire"
-    },
-    {
       "brand": "AMOUAGE",
       "name": "Journey Man"
+    },
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Blue Sapphire"
     },
     {
       "brand": "BOGUE",
@@ -188,6 +171,11 @@
     {
       "brand": "DİOR",
       "name": "Fahrenheit"
+    },
+    {
+      "brand": "ORMONDE JAYNE",
+      "name": "Ormonde Man"
     }
-  ]
+  ],
+  "comments": []
 }

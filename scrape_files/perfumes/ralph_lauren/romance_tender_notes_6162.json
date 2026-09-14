@@ -45,6 +45,34 @@
     {
       "name": "meyvemsi",
       "width": "49.6839%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,33 +107,54 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "5",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "5",
+    "strong": "6",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "1",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MARKS & SPENCER",
+      "name": "Rosie for Autograph Summer Rose"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "English Pear & Freesia"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "Cartier De Lune"
+    },
+    {
+      "brand": "JİMMY CHOO",
+      "name": "Illicit"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -167,5 +216,6 @@
       "brand": "GUERLAİN",
       "name": "Samsara Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

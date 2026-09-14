@@ -68,54 +68,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "5",
-    "moderate": "6",
-    "longLasting": "1",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "6",
-    "strong": "16",
-    "enormous": "12"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "6",
-    "moreFemale": "3",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "6",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Les Voyages Olfactifs 01 Paris-Moscow"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Baiser de Russie"
-    },
-    {
-      "brand": "TERRY DE GUNZBURG",
-      "name": "Reve Opulent"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Coco Mademoiselle Fragrance Primer"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Pride Edition"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -143,11 +122,11 @@
     },
     {
       "brand": "GUERLAİN",
-      "name": "Mon Guerlain"
+      "name": "Mon Guerlain Florale"
     },
     {
       "brand": "GUERLAİN",
-      "name": "Mon Guerlain Florale"
+      "name": "Mon Guerlain"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -177,5 +156,6 @@
       "brand": "CHOPARD",
       "name": "Casmir"
     }
-  ]
+  ],
+  "comments": []
 }

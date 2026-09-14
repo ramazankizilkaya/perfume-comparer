@@ -33,25 +33,53 @@
     {
       "name": "pudralı",
       "width": "44.8672%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.03",
-    "votesCount": "37",
+    "score": "4.05",
+    "votesCount": "42",
     "breakdown": {
-      "love": "18",
-      "like": "9",
-      "ok": "4",
-      "dislike": "5",
+      "love": "19",
+      "like": "12",
+      "ok": "6",
+      "dislike": "4",
       "hate": "1"
     }
   },
   "seasons": {
     "winter": "5",
-    "spring": "17",
-    "summer": "16",
+    "spring": "20",
+    "summer": "19",
     "autumn": "8",
-    "day": "20",
+    "day": "23",
     "night": "5"
   },
   "notes": {
@@ -78,32 +106,36 @@
   },
   "longevity": {
     "veryWeak": "5",
-    "weak": "5",
+    "weak": "6",
     "moderate": "3",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "6",
+    "intimate": "7",
     "moderate": "3",
     "strong": "0",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "10",
+    "female": "12",
     "moreFemale": "3",
     "unisex": "1",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "1",
+    "wayOverpriced": "2",
     "overpriced": "4",
-    "fair": "4",
+    "fair": "6",
     "goodValue": "2",
     "greatValue": "1"
   },
   "remindsMeOf": [
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Cuide-se Bem Feira Cachos de Uva Hair"
+    },
     {
       "brand": "SALON LİNE",
       "name": "Kids Uva"
@@ -111,16 +143,16 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Botica 214 Verano en Firenze"
-    },
-    {
       "brand": "NATURA",
       "name": "Ilía Secreto"
     },
     {
       "brand": "EUDORA",
       "name": "Instance"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Egeo Dolce Illusion"
     },
     {
       "brand": "NATURA",
@@ -132,11 +164,11 @@
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Viagem Encantada"
+      "name": "Cuide-se Bem Pessegura"
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Cuide-se Bem Pessegura"
+      "name": "Viagem Encantada"
     },
     {
       "brand": "NATURA",
@@ -170,5 +202,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Cuide-se Bem Deleite Delight"
     }
-  ]
+  ],
+  "comments": []
 }

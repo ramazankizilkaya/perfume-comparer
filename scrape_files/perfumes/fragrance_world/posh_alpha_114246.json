@@ -49,6 +49,34 @@
     {
       "name": "taze baharatlı",
       "width": "45.8491%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,65 +118,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "0",
+    "moderate": "6",
+    "longLasting": "6",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "6",
+    "strong": "5",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "2",
+    "unisex": "8",
+    "moreMale": "2",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "11"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AMOUAGE",
+      "name": "Opus XII – Rose Incense"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "The Library Collection Rose Incense"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Perfume for Generation 02"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "AMOUAGE",
+      "name": "Opus XII – Rose Incense"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Art of Arabia III"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Al Awsaaf"
+    },
     {
       "brand": "RİİFFS PERFUMES",
       "name": "Momento"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Opium (1977)"
-    },
-    {
-      "brand": "ARD AL ZAAFARAN",
-      "name": "Midnight Oud"
+      "brand": "ARMAF",
+      "name": "Oud"
     },
     {
       "brand": "ASDAAF",
       "name": "Majd Al Sultan"
     },
     {
-      "brand": "SWİSS ARABİAN",
-      "name": "Shaghaf Oud Abyad"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Eau de Parfum"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Raghba"
-    },
-    {
-      "brand": "ESTÉE LAUDER",
-      "name": "Youth-Dew"
     },
     {
       "brand": "FRAGRANCE WORLD",
@@ -163,20 +200,25 @@
       "name": "Club de Nuit Intense"
     },
     {
-      "brand": "CHANEL",
-      "name": "Egoiste"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah Qahwa"
     },
     {
-      "brand": "LALİQUE",
-      "name": "Perles De Lalique"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Al Nashama Caprice"
     },
     {
-      "brand": "CREED",
-      "name": "Absolu Aventus 2023"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Glacier Le Noir"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Star Men Nebula"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Opulent Oud"
     }
-  ]
+  ],
+  "comments": []
 }

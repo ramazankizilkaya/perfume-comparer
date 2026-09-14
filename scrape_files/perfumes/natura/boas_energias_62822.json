@@ -1,7 +1,7 @@
 {
   "name": "Boas Energias Natura",
   "targetGender": "kadınlar ve erkekler için",
-  "fragranceFamily": "Gourmand",
+  "fragranceFamily": "Oriental",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.62822.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Natura/Boas-Energias-62822.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Natura markasının Boas Energias parfümü, kadınlar ve erkekler için Aromatik Akuatik bir kokudur. Boas Energias, 2018 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst notalar: Tropikal Meyveler ve Bitkisel Notlar; orta nota: Sulu Notalar; alt nota Vanilya.",
   "mainAccords": [
     {
-      "name": "tropikal",
+      "name": "vanilya",
       "width": "100%"
     },
     {
-      "name": "vanilya",
+      "name": "tropikal",
       "width": "100%"
     },
     {
@@ -41,6 +41,34 @@
     {
       "name": "pudralı",
       "width": "51%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -76,33 +104,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "5",
+    "moderate": "5",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "5",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "1",
+    "unisex": "5",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Surreal Ocean"
+    },
+    {
+      "brand": "BENETTON",
+      "name": "United Dreams One Love"
+    },
+    {
+      "brand": "KENZO",
+      "name": "L'Eau par Kenzo"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -164,5 +205,6 @@
       "brand": "NATURA",
       "name": "Essencial Palo Santo"
     }
-  ]
+  ],
+  "comments": []
 }

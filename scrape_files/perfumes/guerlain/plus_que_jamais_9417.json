@@ -91,38 +91,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "4",
-    "moderate": "8",
-    "longLasting": "3",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "8",
-    "strong": "4",
-    "enormous": "6"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "0",
-    "unisex": "3",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "180 Ans de Créations 1828-2008"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -177,12 +172,13 @@
       "name": "Angélique Noire"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Cuir Béluga"
-    },
-    {
       "brand": "SERGE LUTENS",
       "name": "Chergui"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Cuir Béluga"
     }
-  ]
+  ],
+  "comments": []
 }

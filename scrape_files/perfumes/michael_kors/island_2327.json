@@ -45,6 +45,34 @@
     {
       "name": "yeşil",
       "width": "46.75%"
+    },
+    {
+      "name": "Online satın alın 21 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -54,8 +82,8 @@
       "love": "73",
       "like": "173",
       "ok": "10",
-      "dislike": "72",
-      "hate": "1"
+      "dislike": "71",
+      "hate": "2"
     }
   },
   "seasons": {
@@ -83,33 +111,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "11",
+    "moderate": "28",
+    "longLasting": "18",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "28",
+    "strong": "16",
+    "enormous": "17"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "15",
+    "moreFemale": "3",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GRÈS",
+      "name": "Cabotine Bleu"
+    },
+    {
+      "brand": "MİCHAEL KORS",
+      "name": "Island Fiji"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "Amazing Paradise"
+    },
+    {
+      "brand": "GİRARD",
+      "name": "Provence Spring"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water Wave"
+    },
+    {
+      "brand": "ANNA SUİ",
+      "name": "Romantica Exotica"
+    },
+    {
+      "brand": "ANİMALE",
+      "name": "Instinct d'Animale"
+    },
+    {
+      "brand": "BORSARİ",
+      "name": "Acqua Azzurra dei Fiori Bianchi"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Chloé Collection 2005"
+    },
+    {
+      "brand": "CHLOROPHYLLA",
+      "name": "Águas Frescas Brisa"
+    },
+    {
+      "brand": "VİNCE CAMUTO",
+      "name": "Capri"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Gioia"
+    },
+    {
+      "brand": "NEST",
+      "name": "Passiflora"
+    },
+    {
+      "brand": "TOUS",
+      "name": "LoveMe The Emerald Elixir"
+    },
+    {
+      "brand": "OUAI",
+      "name": "Rue St Honore"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GİVENCHY",
@@ -171,5 +260,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

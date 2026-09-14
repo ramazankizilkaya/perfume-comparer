@@ -49,17 +49,45 @@
     {
       "name": "yeşil",
       "width": "46.9841%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.01",
-    "votesCount": "106",
+    "score": "3.98",
+    "votesCount": "107",
     "breakdown": {
       "love": "38",
       "like": "46",
       "ok": "8",
       "dislike": "13",
-      "hate": "1"
+      "hate": "2"
     }
   },
   "seasons": {
@@ -89,33 +117,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "8",
+    "moderate": "23",
+    "longLasting": "9",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "23",
+    "strong": "5",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "14",
+    "moreFemale": "10",
+    "unisex": "8",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "13",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Essence Eau de Musc"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Vôvó"
+    },
+    {
+      "brand": "SİSLEY",
+      "name": "Izia"
+    },
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Essence"
+    },
+    {
+      "brand": "GLOSSİER",
+      "name": "You"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Book Loft"
+    },
+    {
+      "brand": "LEİTE DE ROSAS",
+      "name": "Leite de Rosas"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -138,6 +195,10 @@
       "name": "Floratta in Blue"
     },
     {
+      "brand": "NATURA",
+      "name": "Frescor Madeira em Flor"
+    },
+    {
       "brand": "O BOTİCÁRİO",
       "name": "Accordes Harmonia"
     },
@@ -147,15 +208,7 @@
     },
     {
       "brand": "NATURA",
-      "name": "Luna Intenso"
-    },
-    {
-      "brand": "NATURA",
       "name": "Essencial Oud"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Kriska Jeans"
     },
     {
       "brand": "CHLOÉ",
@@ -174,8 +227,13 @@
       "name": "Biografia"
     },
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Thaty"
+      "brand": "NATURA",
+      "name": "Essencial Feminino"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor 1"
     }
-  ]
+  ],
+  "comments": []
 }

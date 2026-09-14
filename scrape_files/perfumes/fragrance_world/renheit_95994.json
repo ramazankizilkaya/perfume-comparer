@@ -49,26 +49,54 @@
     {
       "name": "paçuli",
       "width": "61.5%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.12",
-    "votesCount": "74",
+    "score": "4.13",
+    "votesCount": "76",
     "breakdown": {
-      "love": "28",
-      "like": "29",
-      "ok": "15",
+      "love": "30",
+      "like": "28",
+      "ok": "16",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "38",
+    "winter": "39",
     "spring": "25",
     "summer": "10",
-    "autumn": "46",
+    "autumn": "47",
     "day": "24",
-    "night": "42"
+    "night": "43"
   },
   "notes": {
     "top": [
@@ -94,37 +122,98 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "5",
+    "moderate": "27",
+    "longLasting": "15",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "27",
+    "strong": "9",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "5",
+    "moreMale": "5",
+    "male": "42"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "15",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "0",
+    "fair": "16",
+    "goodValue": "23",
+    "greatValue": "18"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Fahrenheit"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Fahrenheit Le Parfum"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Fortnight"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Fahrenheit Absolute"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Renheit"
+    },
+    {
+      "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
+      "name": "Цветочный (Floral)"
+    },
+    {
+      "brand": "SAPİL",
+      "name": "Disclosure"
+    },
+    {
+      "brand": "UNİQUE'E LUXURY",
+      "name": "Chypre Toscano"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Bade'e Al Oud Sublime"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Tuscan Leather"
+    },
+    {
+      "brand": "NİKE",
+      "name": "Nike Original"
+    },
+    {
+      "brand": "FOMO",
+      "name": "Gary's Den"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Emir Frenetic Red Tempt"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Hommage à l'Homme Eau de Toilette"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
       "name": "Fahrenheit"
+    },
+    {
+      "brand": "GUY LAROCHE",
+      "name": "Drakkar Noir"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -151,20 +240,12 @@
       "name": "Versace Man Eau Fraiche"
     },
     {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Blue Iconic"
-    },
-    {
       "brand": "BENTLEY",
       "name": "Bentley for Men Intense"
     },
     {
       "brand": "LALİQUE",
       "name": "Encre Noire Sport"
-    },
-    {
-      "brand": "CREED",
-      "name": "Aventus"
     },
     {
       "brand": "MAİSON ALHAMBRA",
@@ -181,6 +262,11 @@
     {
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue Forever pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,13 +49,45 @@
     {
       "name": "çiçeksi",
       "width": "54.5%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "3",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "3.94",
-    "votesCount": "65",
+    "score": "3.97",
+    "votesCount": "67",
     "breakdown": {
-      "love": "17",
+      "love": "19",
       "like": "36",
       "ok": "3",
       "dislike": "9",
@@ -63,12 +95,12 @@
     }
   },
   "seasons": {
-    "winter": "21",
-    "spring": "27",
+    "winter": "22",
+    "spring": "28",
     "summer": "5",
-    "autumn": "25",
-    "day": "19",
-    "night": "24"
+    "autumn": "26",
+    "day": "20",
+    "night": "25"
   },
   "notes": {
     "top": [
@@ -88,33 +120,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "2",
+    "moderate": "9",
+    "longLasting": "26",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "9",
+    "strong": "25",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "16",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "11"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "1 Million"
+    },
+    {
+      "brand": "HALLOWEEN",
+      "name": "Halloween Man Rock On"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "1 Million Intense"
+    },
+    {
+      "brand": "AVON",
+      "name": "Mesmerize Black for Him"
+    },
+    {
+      "brand": "FRANCK OLİVİER",
+      "name": "Passion Man"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "1 Million Absolutely Gold"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "Intense Embrace Him Eau de Toilette"
+    },
+    {
+      "brand": "ALFRED DUNHİLL",
+      "name": "Desire for a Man"
+    },
+    {
+      "brand": "JACQUES BOGART",
+      "name": "Bogart Pour Homme"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Tag-Him Prestige"
+    },
+    {
+      "brand": "KOLMAZ",
+      "name": "Abscond"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -176,5 +253,6 @@
       "brand": "LALİQUE",
       "name": "Encre Noire"
     }
-  ]
+  ],
+  "comments": []
 }

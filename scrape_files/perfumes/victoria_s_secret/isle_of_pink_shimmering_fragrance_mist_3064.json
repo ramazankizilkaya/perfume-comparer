@@ -92,38 +92,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "5",
-    "longLasting": "0",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "5",
-    "strong": "2",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ELLİS BROOKLYN",
-      "name": "Mango Milkshake"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BEYONCÉ",
@@ -185,5 +180,6 @@
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy"
     }
-  ]
+  ],
+  "comments": []
 }

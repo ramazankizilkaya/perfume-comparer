@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Zara/Femme-Glitter-92198.html",
   "brand": "Zara parfüm ve kolonya",
   "description": "Zara markasının Femme Glitter parfümü, kadınlar için bir kokudur. Femme Glitter, 2024 yılında piyasaya sürüldü. Üst notalar: Frangipani, Şakayık ve Bergamot; orta notalar: Tonka, Vanilya, Orkide ve Heliotrop; alt notalar Misk ve Odunsu Notlar.",
-  "description_original": "Zara markasının Femme Glitter parfümü, kadınlar için bir kokudur. Femme Glitter, 2024 yılında piyasaya sürüldü. Üst notalar: Frangipani, Şakayık ve Bergamot; orta notalar: Tonka, Vanilya, Orkide ve Heliotrop; alt notalar Misk ve Odunsu Notlar.",
+  "description_original": "Zara markasının Femme Glitter parfümü, kadınlar için bir kokudur. Femme Glitter, 2024 yılında piyasaya sürüldü. Üst notalar: Frangipani, Şakayık ve Bergamot; orta notalar: Tonka, Vanilya, Orkide ve Heliotrope; alt notalar Beyaz Misk ve Odunsu Notalar.",
   "description_enhanced": "Zara markasının Femme Glitter parfümü, kadınlar için bir kokudur. Femme Glitter, 2024 yılında piyasaya sürüldü. Üst notalar: Frangipani, Şakayık ve Bergamot; orta notalar: Tonka, Vanilya, Orkide ve Heliotrop; alt notalar Misk ve Odunsu Notlar.",
   "mainAccords": [
     {
@@ -41,6 +41,34 @@
     {
       "name": "aromatik",
       "width": "44.1573%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -72,16 +100,16 @@
       "Tonka",
       "Vanilya",
       "Orkide",
-      "Heliotrop"
+      "Heliotrope"
     ],
     "base": [
-      "Misk",
-      "Odunsu Notlar"
+      "Beyaz Misk",
+      "Odunsu Notalar"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
+    "veryWeak": "2",
     "weak": "6",
     "moderate": "5",
     "longLasting": "2",
@@ -155,10 +183,6 @@
       "name": "Eilish"
     },
     {
-      "brand": "MUGLER",
-      "name": "Alien Goddess Intense"
-    },
-    {
       "brand": "KAYALİ FRAGRANCES",
       "name": "Vanilla | 28"
     },
@@ -175,6 +199,10 @@
       "name": "La Vie Est Belle"
     },
     {
+      "brand": "PHLUR",
+      "name": "Father Figure"
+    },
+    {
       "brand": "DİPTYQUE",
       "name": "L'Eau Papier"
     },
@@ -183,24 +211,25 @@
       "name": "Yum Pistachio Gelato | 33"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Angels' Share"
+      "brand": "KAYALİ FRAGRANCES",
+      "name": "Yum Boujee Marshmallow | 81"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Teriaq"
+    },
+    {
+      "brand": "CASAMORATİ 1888",
+      "name": "Dolce Amalfi"
     },
     {
       "brand": "BVLGARİ",
       "name": "Baciami"
     },
     {
-      "brand": "BURBERRY",
-      "name": "Burberry Her Elixir de Parfum"
-    },
-    {
       "brand": "JO MALONE LONDON",
       "name": "English Pear & Freesia"
-    },
-    {
-      "brand": "BDK PARFUMS",
-      "name": "Gris Charnel"
     }
-  ]
+  ],
+  "comments": []
 }

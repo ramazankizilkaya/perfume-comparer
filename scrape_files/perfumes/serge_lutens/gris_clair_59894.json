@@ -49,25 +49,53 @@
     {
       "name": "iris",
       "width": "45.7895%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.03",
-    "votesCount": "271",
+    "votesCount": "273",
     "breakdown": {
       "love": "102",
-      "like": "109",
-      "ok": "33",
+      "like": "110",
+      "ok": "34",
       "dislike": "21",
       "hate": "6"
     }
   },
   "seasons": {
     "winter": "33",
-    "spring": "70",
-    "summer": "63",
-    "autumn": "60",
-    "day": "74",
+    "spring": "71",
+    "summer": "65",
+    "autumn": "61",
+    "day": "75",
     "night": "18"
   },
   "notes": {
@@ -84,33 +112,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "35",
+    "moderate": "59",
+    "longLasting": "16",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "41",
+    "moderate": "59",
+    "strong": "16",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "4",
+    "unisex": "81",
+    "moreMale": "22",
+    "male": "12"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "33",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "8",
+    "overpriced": "19",
+    "fair": "34",
+    "goodValue": "10",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Gris Clair"
+    },
+    {
+      "brand": "BLUMARİNE",
+      "name": "Let You Love Me"
+    },
+    {
+      "brand": "GENYUM",
+      "name": "Tattoo Artist"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Lavande Eau de Cologne"
+    },
+    {
+      "brand": "JEANNE EN PROVENCE",
+      "name": "Lavande & Vetiver"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "B-612"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "1725"
+    },
+    {
+      "brand": "ACCA KAPPA",
+      "name": "Blue Lavender"
+    },
+    {
+      "brand": "KUUMBA MADE",
+      "name": "Lavender Lace"
+    },
+    {
+      "brand": "ORMAİE",
+      "name": "Le Passant"
+    },
+    {
+      "brand": "CORPS VOLATİLS",
+      "name": "Magnified Narcissus"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Laine de Verre"
+    },
+    {
+      "brand": "FRANCESCO SMALTO",
+      "name": "Fullchoke"
+    },
+    {
+      "brand": "KHALİL T.",
+      "name": "Kryptonite"
+    },
+    {
+      "brand": "SENTİRE",
+      "name": "Atelier 14"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -121,12 +210,12 @@
       "name": "Ambre Sultan"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Eau de Parfum"
-    },
-    {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Musc Ravageur"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Shalimar Eau de Parfum"
     },
     {
       "brand": "SERGE LUTENS",
@@ -139,6 +228,10 @@
     {
       "brand": "SERGE LUTENS",
       "name": "Chergui"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -165,12 +258,9 @@
       "name": "Feminité du Bois"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Un Jardin Sur Le Nil"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "La Religieuse"
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Carnal Flower"
     }
-  ]
+  ],
+  "comments": []
 }

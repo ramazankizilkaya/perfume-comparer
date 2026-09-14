@@ -49,13 +49,41 @@
     {
       "name": "tatlı",
       "width": "46.0741%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.02",
-    "votesCount": "92",
+    "score": "4.03",
+    "votesCount": "93",
     "breakdown": {
-      "love": "38",
+      "love": "39",
       "like": "32",
       "ok": "11",
       "dislike": "8",
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "25",
-    "spring": "31",
-    "summer": "29",
-    "autumn": "24",
-    "day": "29",
-    "night": "31"
+    "winter": "26",
+    "spring": "32",
+    "summer": "30",
+    "autumn": "25",
+    "day": "30",
+    "night": "32"
   },
   "notes": {
     "top": [],
@@ -84,33 +112,46 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "5",
+    "moderate": "24",
+    "longLasting": "19",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "15",
+    "moderate": "24",
+    "strong": "20",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "6",
+    "moreMale": "15",
+    "male": "22"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "11",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "17",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Ultraviolet Man"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Habit Rouge L'Instinct"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male In Blue"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -169,8 +210,9 @@
       "name": "Pi"
     },
     {
-      "brand": "CREED",
-      "name": "Aventus"
+      "brand": "MUGLER",
+      "name": "A*Men"
     }
-  ]
+  ],
+  "comments": []
 }

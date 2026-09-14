@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/Men-32149.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının Men parfümü, erkekler için Odunsu Aromatik bir kokudur. Men, 2015 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Francisco Marano. Üst notalar: Sulu Notalar, Lime, Bergamot, Limon, Siyah ve pembe biber, Baharatlı notalar ve Kakule; orta notalar: Lavanta, Menekşe, Fesleğen, Sardunya, Muskat ve Müge; alt notalar Deri, Laden, Meşe yosunu, Misk, Amber, Labdanum, Sandal ağacı ve Kumarin.",
-  "description_original": "O Boticário markasının Men parfümü, erkekler için Odunsu Aromatik bir kokudur. Men, 2015 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Francisco Marano. Üst notalar: Sulu Notalar, Lime, Bergamot, Limon, Siyah ve pembe biber, Baharatlı notalar ve Kakule; orta notalar: Lavanta, Menekşe, Fesleğen, Sardunya, Muskat ve Müge; alt notalar Deri, Laden, Meşe yosunu, Misk, Amber, Labdanum, Sandal ağacı ve Kumarin.",
+  "description_original": "O Boticário markasının Men parfümü, erkekler için Odunsu Aromatik bir kokudur. Men, 2015 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Francisco Marano. Üst notalar: Sulu Notalar, Lime, Bergamot, Sicilya Limonu, Siyah ve pembe biber, Baharatlar ve Kakule; orta notalar: Lavanta, Menekşe, Fesleğen, Sardunya, Muskat ve Müge; alt notalar Deri, Laden, Meşe yosunu, Misk, Amber, Labdanum, Sandal ağacı ve Kumarin.",
   "description_enhanced": "O Boticário markasının Men parfümü, erkekler için Odunsu Aromatik bir kokudur. Men, 2015 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Francisco Marano. Üst notalar: Sulu Notalar, Lime, Bergamot, Limon, Siyah ve pembe biber, Baharatlı notalar ve Kakule; orta notalar: Lavanta, Menekşe, Fesleğen, Sardunya, Muskat ve Müge; alt notalar Deri, Laden, Meşe yosunu, Misk, Amber, Labdanum, Sandal ağacı ve Kumarin.",
   "mainAccords": [
     {
@@ -49,25 +49,53 @@
     {
       "name": "yeşil",
       "width": "48.0368%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.71",
-    "votesCount": "170",
+    "score": "3.70",
+    "votesCount": "171",
     "breakdown": {
       "love": "23",
       "like": "103",
-      "ok": "19",
+      "ok": "20",
       "dislike": "21",
       "hate": "4"
     }
   },
   "seasons": {
     "winter": "21",
-    "spring": "83",
-    "summer": "62",
+    "spring": "84",
+    "summer": "63",
     "autumn": "56",
-    "day": "100",
+    "day": "101",
     "night": "34"
   },
   "notes": {
@@ -75,9 +103,9 @@
       "Sulu Notalar",
       "Lime",
       "Bergamot",
-      "Limon",
+      "Sicilya Limonu",
       "Siyah ve pembe biber",
-      "Baharatlı notalar",
+      "Baharatlar",
       "Kakule"
     ],
     "middle": [
@@ -102,7 +130,7 @@
   },
   "longevity": {
     "veryWeak": "8",
-    "weak": "21",
+    "weak": "22",
     "moderate": "57",
     "longLasting": "8",
     "eternal": "2"
@@ -118,12 +146,12 @@
     "moreFemale": "1",
     "unisex": "5",
     "moreMale": "11",
-    "male": "45"
+    "male": "47"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "2",
-    "fair": "19",
+    "fair": "20",
     "goodValue": "25",
     "greatValue": "9"
   },
@@ -203,8 +231,8 @@
       "name": "Malbec Noir"
     },
     {
-      "brand": "CAROLİNA HERRERA",
-      "name": "212 VIP Men"
+      "brand": "AZZARO",
+      "name": "Azzaro pour Homme"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -218,5 +246,6 @@
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,59 +16,87 @@
     },
     {
       "name": "aromatik",
-      "width": "85.3823%"
+      "width": "85.7226%"
     },
     {
       "name": "taze baharatlı",
-      "width": "84.9704%"
+      "width": "85.2136%"
     },
     {
       "name": "odunsu",
-      "width": "83.4264%"
+      "width": "82.6388%"
     },
     {
       "name": "paçuli",
-      "width": "67.0591%"
+      "width": "65.4622%"
     },
     {
       "name": "meyvemsi",
-      "width": "60.745%"
+      "width": "60.5904%"
     },
     {
       "name": "yeşil",
-      "width": "59.3727%"
+      "width": "59.2953%"
     },
     {
       "name": "amber",
-      "width": "57.1077%"
+      "width": "55.2865%"
     },
     {
       "name": "kozalaklı",
-      "width": "51%"
+      "width": "50.9997%"
     },
     {
       "name": "taze",
-      "width": "49.2159%"
+      "width": "49.1191%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.23",
-    "votesCount": "596",
+    "score": "4.25",
+    "votesCount": "691",
     "breakdown": {
-      "love": "344",
-      "like": "142",
-      "ok": "45",
-      "dislike": "31",
+      "love": "400",
+      "like": "166",
+      "ok": "54",
+      "dislike": "37",
       "hate": "34"
     }
   },
   "seasons": {
-    "winter": "45",
-    "spring": "348",
-    "summer": "427",
-    "autumn": "115",
-    "day": "373",
-    "night": "85"
+    "winter": "47",
+    "spring": "410",
+    "summer": "507",
+    "autumn": "127",
+    "day": "446",
+    "night": "93"
   },
   "notes": {
     "top": [],
@@ -83,33 +111,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "31",
+    "weak": "13",
+    "moderate": "127",
+    "longLasting": "232",
+    "eternal": "38"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "37",
+    "moderate": "127",
+    "strong": "213",
+    "enormous": "30"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "35",
+    "moreFemale": "4",
+    "unisex": "96",
+    "moreMale": "226",
+    "male": "101"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "45",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "35",
+    "overpriced": "14",
+    "fair": "54",
+    "goodValue": "221",
+    "greatValue": "91"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "XERJOFF",
+      "name": "Torino21"
+    },
+    {
+      "brand": "AROMATİX X FRENCH AVENUE",
+      "name": "Platine Blanc"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Voux Zingy"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Maahir Honor"
+    },
+    {
+      "brand": "ARABİYAT PRESTİGE",
+      "name": "Bamboo Reflection"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Buongiorno"
+    },
+    {
+      "brand": "LE FALCONÉ PERFUMES",
+      "name": "Mirsaal Valentine"
+    },
+    {
+      "brand": "RİSALA ELİTE",
+      "name": "Fragaby I"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Fakhar Lattafa"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Rumz Al Rasasi 9453 Pour Lui"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Tamayuz Lattafa"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Jacques Yves Tempete"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Rasasi Pour Homme L'eau Verte"
+    },
+    {
+      "brand": "IN THE BOX",
+      "name": "Turim"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Somow Al Rasasi Ma’ali"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ARMAF",
@@ -144,16 +233,16 @@
       "name": "Hawas Ice"
     },
     {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Precieux I"
+    },
+    {
       "brand": "RASASİ",
       "name": "Hawas for Him"
     },
     {
       "brand": "AFNAN",
       "name": "Turathi Blue"
-    },
-    {
-      "brand": "RAYHAAN",
-      "name": "Aquatica"
     },
     {
       "brand": "FRENCH AVENUE",
@@ -170,6 +259,198 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad Bourbon"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent688152",
+      "author": "КнИгиня Ольга",
+      "date": "2026-01-28",
+      "text": "Keskin, yoğun narenciye kokulu, yer yer mentol benzeri, ferahlatıcı bir aroma.\nMaalesef, \"benzer\" olarak listelenen parfümlerin hiçbirine sahip değilim, bu yüzden onlarla karşılaştırma yapamıyorum. Ancak bu kokunun benim için neye benzediğini söyleyebilirim: Versace Versace Versence kadın parfümü ve Guerlain'in Aqua Aligoria Passiflora'sının bir karışımı. Sadece Havas, ikisinden de çok daha agresif. Keskin, ancak ferahlatıcı notalarıyla sizi boğmaması için burnunuzdan biraz daha uzakta uygulamanızı öneririm.\nBu asi çocuğu sevdim, daha yeni tanıdım onu. Belki daha sonra biraz yumuşar, göreceğiz... Ama onu böyle de kabul edebilirim.\nKoku tatlı değil, kesinlikle unisex, hatta biraz daha erkeksi bir tona sahip. Kalıcılığı hakkında henüz yorum yapmayacağım; yılın doğru zamanını bekleyeceğim ve seyahatten sonra bir süre daha kullanacağım.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.399630.jpg"
+    },
+    {
+      "id": "parent688163",
+      "author": "Finesy",
+      "date": "2025-12-11",
+      "text": "Torino21'e ve 21'i taklit etmeye çalışan sayısız Arap parfümüne çok benziyor. Burada nispeten doğal, hoş ve ferahlatıcı, rahatsız edici hiçbir şey yok. Kalıcılığı zayıf, ancak uygulandıktan sonraki deneyim çok hoş. Anlık bir ruh halini iyileştirmek için zaman kaybı bir parfüm, neredeyse hiçbir pratik değeri yok.\nBu parfüm henüz burada kolayca bulunmuyor; sadece internetten satın alınabildiği bir yer gördüm. Küçük bir numune aldım ve hepsini keyifle kullandım. Şu anki 200 PLN'lik fiyat, bu kalite için çok yüksek. Daha yaygın olarak bulunabilir hale gelmesini ve fiyatının 120-130 PLN civarına düşmesini bekleyelim, o zaman değerli bir alışveriş olur.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent688179",
+      "author": "migheru",
+      "date": "2025-12-07",
+      "text": "Fragrantica Brezilya'da bu harika parfümü ilk inceleyen kişi olmaktan onur duyuyorum, orijinal parfümü bilmesem de. Torino ile karşılaştırmadan sadece Hawas Verde'den bahsedeceğim.\n\n\nBu, tartışmasız serinin en iyi Hawa'larından biri; nane notalarıyla yeşilimsi bir narenciye aroması sunuyor ve fiyatına göre şaşırtıcı bir kaliteye sahip.\n\nÇok sulu bir limon ve tamamlayıcı bir nane notasıyla açılıyor; kurudukça nane daha belirgin hale geliyor. Şahsen, kokunun yapısında çok fazla değişiklik olmadığını, oldukça doğrusal olduğunu düşündüm ki bu kötü bir şey değil, çünkü baştan sona muhteşem. Eğer zaten 'mojito' içeceğini seviyorsanız, bu parfüm adeta şişelenmiş bir mojito gibi; bol limon ve nane ile sansasyonel bir ferahlık hissi veriyor.\n\nEn iyi performansı sergiliyor, yaklaşık 8,5 saat sürüyor ve 2 saat boyunca iyi bir şekilde yayılıyor, ardından orta seviyeye iniyor; yine de baskın olmadan kokuyu yakalamayı başarıyor.\n\n10/10.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.137294.gif"
+    },
+    {
+      "id": "parent688113",
+      "author": "jijuyu",
+      "date": "2025-12-05",
+      "text": "Fragrantica çok yardımcı oluyor. Çok hafiften sonsuza dek kalıcıya. Samimiden muazzama. Aşırı pahalıdan harika fiyata. Vay canına 🤩 Bu gerçekten ilginç bir koku olmalı. Mükemmel karışımdan aptalca bir flanker'a. Ve ben de ayda 500 dolarımı parfümlere harcadığım Almanya'da 🇩🇪 tamamen bilinmiyor. Bu kitleyi seviyorum. ❤️",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1729765.jpg"
+    },
+    {
+      "id": "parent723394",
+      "author": "FredFrag_",
+      "date": "2025-11-22",
+      "text": "Platine Blanc'a %98 oranında benziyor. PB'nin açılışında daha doğal, yumuşak nane ve narenciye notalarıyla birlikte hafif bir tonik suyu ferahlığı hissediliyor. Verde ise açılışta daha keskin ve biraz sentetik bir nane notasına sahip olsa da, daha iyi bir kalıcılığa sahip. Benzerliğin azaldığı nokta ise kuruma aşaması. PB'nin kuru sandal ağacı ve biberiye notalarıyla sonlanırken, Verde'nin amber, biberiye ve paçuli notalarıyla sonlanması dikkat çekiyor.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent688112",
+      "author": "MasterPerfumer1467",
+      "date": "2025-11-13",
+      "text": "Bugün kargoyla elime ulaştı. Benim burnuma göre bu, %70 Xerjoff Torino 21 ve %30 PDM Greenley karışımı. Tam olarak limon-nane-elma şampuanı gibi kokuyor. Başlangıçta oldukça keskin ve ekşi, bir saat kadar sonra limon kokusu azalıyor ve daha çok sabunlu/şampuan bir kokuya dönüşüyor, yaklaşık 3 saat sonra ise yeşil-kehribar bir koku baskın hale geliyor ve genel olarak ferah bir koku kalıyor.\n\nDaha önce Torino, Greenly, Aether ve Voux Zingy kullandım ve size söyleyebilirim ki, çoğunlukla Torino'ya benziyor, Greenly'den de hafif/ipuçları var. Ancak performansı yukarıdakilerin dördünden de daha iyi. Kutudan çıkar çıkmaz yaklaşık 8 saat kalıcılık sağladı ve unutmayın, bu Ekim ayı üretimi bir şişe, bu yüzden zamanla kullanmaya devam etmek için sabırsızlanıyorum. Eğer kafanız karıştıysa, bu, taze/yeşil kokuları veya Torino 21'i seven ama pahalı bulan kişiler için mutlaka alınması gereken bir ürün. Kaliteyi neredeyse aynı şekilde koruyor, ancak bire bir arıyorsanız, bu o değil.\n\nBilginize, açıklığa kavuşturmak gerekirse, bu LV Pacific Chill ile hiçbir ilgisi yok.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1925058.jpg"
+    },
+    {
+      "id": "parent688136",
+      "author": "BassoProfumo",
+      "date": "2025-11-10",
+      "text": "Bugün bu parfümü denedim ve izlenimlerim şöyle oldu;\nBence harika kokuyor, şık veya resmi değil, tam tersine günlük ve gayri resmi durumlar için ideal.\nBu bana kelimenin tam anlamıyla vücudunuza limon veya misket limonu kabuğu sürmeyi ve Arjantin'de satılan, parfümden ziyade \"nane\" veya naneli sakız içeren ithal bir sakızı hatırlatıyor.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.28025.jpg"
+    },
+    {
+      "id": "parent723390",
+      "author": "Tito1515",
+      "date": "2025-11-10",
+      "text": "Bu, ilginç bir değişiklikle Torino 21'in bir klonu: siyah frenk üzümü ve nane notalarının yerini yeşil elma ve paçuli alıyor. Sonuç olarak, orijinal DNA'sının yaklaşık %75'ini koruyan, ancak paçuli sayesinde daha taze, daha otsu bir karakter kazanan, yeşil alt tonlara sahip meyvemsi-narenciye bir koku ortaya çıkıyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent688131",
+      "author": "Eten",
+      "date": "2025-11-09",
+      "text": "Öncelikle, bu sayfadaki karşılaştırmalara veya değerlendirmelere aldanmayın; burada (çoğunlukla İngilizce olarak) bu topluluğu sabote etmek isteyen birçok trol ve hayatı olmayan insan var.\n3 gündür kullanıyorum. Şişede herhangi bir bozulma, oksidasyon veya benzeri bir belirti yok. Yayılımı mükemmel, yaklaşık 3 saat sürüyor. İlk başta yoğun, ancak 12 saat sonra ten kokusuna dönüşene kadar yavaş yavaş azalıyor. Kıyafetlerde 3 gün kalıyor; iş önlüğümde hala kokusunu alabiliyorum.\nAROMA: Hafif tatlı bir mojito gibi; yaklaşık 5 saat sonra narenciye kokusu yavaş yavaş kayboluyor ve biberiye baharatına doğru evriliyor, sonunda da tatlı bir paçuli şekerine benziyor.\nTorino, Greenly veya Pacific Chill'i koklamadım, bu yüzden karşılaştırma yapmayacağım, ancak Invictus Platinum'u kokladım ve biraz mentollü narenciye aromalı sakız kokusunu (Invictus'tan daha az sakız gibi olsa da) yeşil bir arka planla hatırlattığını söyleyebilirim.\nListelenen tüm notalar mevcut, özellikle de kokunun her yerinde hissedilen biberiye.\nBence bir erkeğin alabileceği en iyi yaz parfümü; ne çok genç ne de çok olgun. Paçuli, ona yarı resmi bir dokunuş katıyor ve bu da onu öne çıkmak istediğiniz yerlere (kulüpler, randevular, iş) giderken kullanmak için mükemmel kılıyor. Kapalı alanlarda sıkarken dikkatli olun; kimsenin rahatsız olacağını sanmıyorum ama biraz yoğun olabilir.\n10/10. Mükemmel bir alışveriş.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent688110",
+      "author": "Ste_McK",
+      "date": "2025-11-06",
+      "text": "Herkes dikkatli olsun: Tahminime göre bu parfüme oy veren yaklaşık 14-17 Hawas düşmanı var - şüphesiz ki, bu parfümü hiç koklamamışlar! Eğer daha önce bir Hawas parfümü kullandıysanız, inanılmaz bir performansa sahip olduklarını bilirsiniz. Yani, eğer bir Hawas parfümüne 'zayıf' ve 'samimi' diye oy veriyorsanız, siz bir Hawas düşmanısınız ve bu parfümün kokusunu bile almamışsınız demektir. Lütfen dikkatli olun!!!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1819241.jpg"
+    },
+    {
+      "id": "parent688177",
+      "author": "weudys",
+      "date": "2025-11-05",
+      "text": "🌿 RASASI, piyasadaki en iyi (belki de en iyisi) giriş seviyesi Arap parfüm markalarından biri ve bu durum, rakiplerini çıldırtıyor; bu yüzden markanın parfümleriyle ilgili bu saçmalık ortaya çıktı. Ancak bu durum, rakiplerini engellemek yerine, hangi parfümlerin seride yer aldığını öğrenmelerine yardımcı oluyor. Emeği geçen herkese tebrikler!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.91759.jpg"
+    },
+    {
+      "id": "parent688120",
+      "author": "L2DaLegend",
+      "date": "2025-11-03",
+      "text": "Az önce elime geçti. Açıkçası, başka bir Pacific Chill klonu olacağını düşünerek aldım ama hayır, Torino 21'miş. Ama boş verin, performansı inanılmaz! Bir fısfısla test şeridini tamamen yatak odamla doldurdum. Bu, önümüzdeki yaz benim vazgeçilmezim olacak!\n\nDevamını bekliyoruz, Rasasi!!!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2300424.jpg"
+    },
+    {
+      "id": "parent688121",
+      "author": "aNYCe23",
+      "date": "2025-11-02",
+      "text": "Şimdi Fragrantica'da neden bir süredir aktif olmadığımı hatırlıyorum. Burası, başkalarından DOĞRU bilgi edinebileceğiniz bir site olmalıydı/olması gerekiyordu. Şimdi ise sadece bir sürü... aman Allahım... Bu siteyi saçma sapan bilgilerle \"spamleyen\" insanlar için bir kelime bile bulamıyorum... Bu Hawas'ı koklamayı dört gözle bekliyorum.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1324571.jpg"
+    },
+    {
+      "id": "parent723393",
+      "author": "Manny956",
+      "date": "2025-10-30",
+      "text": "Hawas Verde'yi elime geçirdim ve bazıları LV Pacific Chill'e benzediğini söylese de, ben katılmıyorum. Bana göre, sahip olduğum ve çok sevdiğim Aromatix'in Platine Blanc'ına oldukça benziyor. Platine Blanc ise Xerjoff'un Torino 21'inden esinlenilmiş. Torino 21'i denememiş olsam da, Hawas Verde ve Platine Blanc bana büyük benzerlikler gösteriyor. Neredeyse birebir aynı.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2460667.jpg"
+    },
+    {
+      "id": "parent688118",
+      "author": "Wiskey's World",
+      "date": "2025-10-28",
+      "text": "Lattafa, Armaf gibi rakip kolonya şirketleri (hatta niş ve tasarımcı parfümlerin öncüleri diyebilirim) Fragrantica'daki puanı değiştirmenin ve manipüle etmenin Rasai Hawas'ın satışlarını olumsuz etkileyeceğini gerçekten düşünüyorlar, hahaha!!! Bu parfümün puanını düşürmek için ellerinden gelenin en iyisini yapan 46 kişi var (karşılaştırdığınız kolonyalarda bu çok açık belli oluyor lol).\n\nAslında bu parfüme sahibim. Greenly ve Torino 21'in bir karışımı gibi. Hatta Pacific Chill'in daha temiz veya daha sabunlu bir versiyonu bile diyebilirsiniz. Önemli olan şu ki, bu başyapıt aynı anda son derece ferah ve seksi, kalıcılığı ise 7 saatten fazla (yani... bu bir Hawas parfümü, bununla tanınıyorlar).\n\nYani, tekrar söylüyorum ki, Rasasi'nin sürekli olarak harika parfümler çıkarmaya devam etmesi yüzünden, parfümü hiç koklamamış bir grup insanın bu kadar itici ve yanlış değerlendirmeler yapması çok utanç verici. Eminim bu insanlar muhtemelen Armaf'ın Lattafa'sı için çalışıyorlardır, ya da daha da iyisi, belki de Louis Vuitton için çalışıyorlardır, kim bilir. İnsanlar, özellikle sizi bir tehdit olarak görüyorlarsa, insanların ürününüzü satın almasını engellemek için aşırı çabalara girerler. Ne yazık ki, parfüm şirketleri Rasasi'yi bir TEHDİT olarak görüyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2447282.jpg"
+    },
+    {
+      "id": "parent688161",
+      "author": "Brosz",
+      "date": "2025-10-27",
+      "text": "Bazı insanların vücutlarının belirli bir bölgesinde ne kadar çok acı çektiği şaşırtıcı; en popüler üreticilerin sunduğu fiyatlarla parfüm alamayan insanlar bile güzel kokan ve sıradan bir kişi için bazen aynı DNA'ya sahip daha pahalı parfümlerden ayırt edilemeyen bir şey satın alabiliyorlar.\nMuhtemelen rakiplerden paralı nefret yorumları.\nÇünkü piyasada bulunmayan parfümler için yapılan olumlu ve olumsuz yorumları başka nasıl açıklayabilirim ki? xD",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent688175",
+      "author": "jvassef",
+      "date": "2025-10-26",
+      "text": "Arap parfümlerinin birçok lansmanında gördüklerim çok can sıkıcı.\nBirçok insan, henüz uluslararası pazara sunulmamış veya lansman ve tanıtım etkinlikleri düzenlenmemiş parfümleri eleştiriyor.\nBunu birçok kez gördüm, özellikle Rasasi'nin Hawas serisinde, özellikle de Kobra gibi son çıkan parfümlerde. İnsanlar parfüm piyasaya sürülmeden önce bile olumsuz oy veriyorlardı.\nBence Arap parfümeri son zamanlarda birçok parfüm meraklısı arasında tepkiye neden oluyor; sıklıkla 2.000 ila 3.000 real fiyat aralığındaki niş parfümlere çok benzeyen, kaliteli parfümler üretiyorlar.\nBence bu olumlu bir şey çünkü bu, ilham kaynağı olan kokunun koku profilini öğrenmenin ve daha sonra niş parfümü satın almanın bir yolu olabilir; ayrıca, aksi takdirde erişimi olmayacak insanlar için daha fazla niş kokuyu demokratikleştirebilir (demokratikleşme).\nUmarım bu parfüm de markanın beni şimdiye kadar hayal kırıklığına uğratmayan diğer parfümleri kadar iyidir. Atlantis'i daha çok merak ediyordum ama görünüşe göre henüz hiçbir şey gelmedi, haha.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.201549.jpg"
+    },
+    {
+      "id": "parent688111",
+      "author": "Spencescents",
+      "date": "2025-10-26",
+      "text": "Hawas parfümlerinin çılgınlığına ayak uyduracak parası olmayan tüm nefret edenler, \"bana şunu hatırlatıyor\" bölümünde oy kullananlardır. Hepsini alamadıkları için hayal kırıklığına uğruyorlar, bu yüzden de tüm Hawas parfümlerinin aynı koktuğuna oy vererek bu saçmalığa katılıyorlar. Bakın, sadece kendi kötü yaşam seçimleriniz sizi bu kadar alçalmaya itiyor. Bu yüzden herkese uygun fiyatlı, kaliteli parfümler sunmaya çalışan parfüm şirketine nefret beslemeyin. Onlar sizin tarafınızda olanlar. Kokulu su için astronomik fiyatlar ödemenizi bekleyenler ise niş ve tasarımcı markalarıdır.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1506777.jpg"
+    },
+    {
+      "id": "parent688116",
+      "author": "AquaticJoe",
+      "date": "2025-10-26",
+      "text": "Pacific Chill'den esinlenilmiş çok iyi bir versiyon. Kesinlikle birebir kopyası değil ama o havayı kesinlikle veriyor. Açılışta biraz daha sabunsu, kuruma aşamasında ise biraz daha yeşilimsi olabilir ama fark ettiğim tek şey bu. Aslında bu sayede daha çok yönlü olabileceğini düşünüyorum.\n\nSanırım biri Rasasi'den kovulmuş ve kötü yorumlar bırakmış, hatta \"bana şunu hatırlatıyor\" bölümüne diğer Rasasi parfümlerini bile eklemiş. Çok fazla giriş çıkış yapmış, haha, birinin çok fazla boş zamanı var galiba.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2426450.jpg"
     }
   ]
 }

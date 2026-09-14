@@ -2,7 +2,7 @@
   "name": "Olympéa Parfum Rabanne",
   "targetGender": "kadınlar için",
   "fragranceFamily": "Floral",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90432.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Rabanne/Olympea-Parfum-90432.html",
   "brand": "Rabanne parfüm ve kolonya",
@@ -16,59 +16,87 @@
     },
     {
       "name": "vanilya",
-      "width": "99.8681%"
-    },
-    {
-      "name": "amber",
-      "width": "74.9057%"
+      "width": "98.838%"
     },
     {
       "name": "yumuşak baharatlı",
-      "width": "74.298%"
+      "width": "74.0406%"
+    },
+    {
+      "name": "amber",
+      "width": "73.9117%"
     },
     {
       "name": "misk",
-      "width": "60.1659%"
+      "width": "60.1697%"
     },
     {
       "name": "tatlı",
-      "width": "59.7963%"
+      "width": "59.6532%"
     },
     {
       "name": "aromatik",
-      "width": "59.4792%"
+      "width": "59.2915%"
     },
     {
       "name": "pudralı",
-      "width": "57.2077%"
+      "width": "57.0185%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "52.4528%"
+      "width": "51.9559%"
     },
     {
       "name": "yeşil",
-      "width": "51.1319%"
+      "width": "50.9228%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.86",
-    "votesCount": "762",
+    "score": "3.87",
+    "votesCount": "790",
     "breakdown": {
-      "love": "261",
-      "like": "259",
-      "ok": "138",
-      "dislike": "85",
+      "love": "273",
+      "like": "268",
+      "ok": "142",
+      "dislike": "88",
       "hate": "19"
     }
   },
   "seasons": {
-    "winter": "240",
-    "spring": "184",
-    "summer": "82",
-    "autumn": "264",
-    "day": "174",
-    "night": "247"
+    "winter": "246",
+    "spring": "187",
+    "summer": "84",
+    "autumn": "269",
+    "day": "181",
+    "night": "252"
   },
   "notes": {
     "top": [
@@ -89,33 +117,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "12",
+    "weak": "22",
+    "moderate": "147",
+    "longLasting": "93",
+    "eternal": "23"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "40",
+    "moderate": "147",
+    "strong": "58",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "230",
+    "moreFemale": "51",
+    "unisex": "21",
+    "moreMale": "6",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "138",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "26",
+    "overpriced": "76",
+    "fair": "142",
+    "goodValue": "30",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "The Only One Eau de Parfum Intense"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Vénus"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Olympéa Absolu"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Manifesto l'Elixir"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "Error 432"
+    },
+    {
+      "brand": "BUJAİRAMİ",
+      "name": "Aethera"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Succulent Flower"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Olympea Blossom"
+    },
+    {
+      "brand": "AVON",
+      "name": "Far Away Beyond The Moon"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Idôle Aura"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kriska Mania"
+    },
+    {
+      "brand": "WE PİNK",
+      "name": "VF Tropical"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "First Instinct Sheer"
+    },
+    {
+      "brand": "MAÏSSA PARFUMS",
+      "name": "Princesse de Galles"
+    },
+    {
+      "brand": "HAUTE FRAGRANCE COMPANY HFC",
+      "name": "Divine Blossom"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -166,16 +255,218 @@
       "name": "La Belle"
     },
     {
-      "brand": "LANCÔME",
-      "name": "La Vie Est Belle"
-    },
-    {
       "brand": "RABANNE",
       "name": "Olympéa Solar"
     },
     {
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle"
+    },
+    {
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent736855",
+      "author": "Smellgoodfeelgood84",
+      "date": "2025-04-09",
+      "text": "\"Bana şunu hatırlatıyor\" bölümüne katılmıyorum. O listedeki kokuların çoğunu seviyorum, özellikle de başındakileri, ama hiçbir benzerlik göremiyorum.\n\nBu, benim için kesinlikle serin havalar için bir koku. Sonbahar ve kış. Yazın da denedim ama bir noktadan sonra beğenmemeye başladım. Bu yüzden bir kenara bıraktım. Şimdi Avustralya'da sonbahar ve geceleri hava serinliyor. Bu gece tekrar sürüyorum ve yine aşık oluyorum. Sıcaklık dayanılmaz bir hal almıştı.\n\nAdaçayı yağından bolca alıyorum. Çok güzel. Havalar soğudukça bu güzelliği daha çok kullanmak için sabırsızlanıyorum.\n\nOrijinal Olympea'nın büyük bir hayranı değilim ama bu mükemmel. Yeni sürümünü de dört gözle bekliyorum.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent736859",
+      "author": "Drusilla",
+      "date": "2025-03-22",
+      "text": "Portakal çiçeği suyuyla süslenmiş vanilyalı puding.\n\nEkleyecek başka bir şey yok aslında.\nÖzetle: Dünyanın beklemediği bir yan ürün, belki de aşırı tatlı tatlılarla kendilerini süslemeyi sevenler hariç. Orijinal kokuyu bilen herkes, büyük bir hayal gücüyle, kökenini belirsiz bir şekilde anlayabilir. Parfümcüler ne düşünüyordu anlamıyorum. Zarif tasarımlı şişe bunu değiştirmiyor. Tamamen gösteriş, özden yoksun, ama içeride...",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.de",
+      "avatar": "https://fimgs.net/mdimg/avataride/m.11487.jpg"
+    },
+    {
+      "id": "parent736890",
+      "author": "Пловец Сов",
+      "date": "2025-02-03",
+      "text": "Hem görsel olarak hem de kompozisyon açısından çok güzel. Test kağıdından hiçbir şey anlayamazsınız; cildinize uygulamanız gerekiyor. Yasemin biraz rahatsız edici olabilir, ancak bazı yerlerde kesinlikle seksi, ama asla bayağı değil. Daha çok akşam kokusu, ama akşamlar geldiğinde birkaç kez işe giderken de kullandım—kışın da gayet uygun. 😁",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.260742.jpg"
+    },
+    {
+      "id": "parent736904",
+      "author": "irisja",
+      "date": "2025-01-13",
+      "text": "Uzun zamandır çıkan en iyi Olympea. Önceki flanker'ların çoğunun karakterden yoksun olduğunu düşünüyordum, ama bu sonunda biraz karakter kazandı. Pudralı, amber-vanilya kompozisyonu, yasemin ve gül ile zenginleştirilmiş; her şey pürüzsüz bir şekilde harmanlanmış, ancak yine de biraz sert – iyi anlamda, çünkü sıkıcı değil. Yüzeyin altında bir şeyler olduğunu, kokunun işlediğini, biber ve adaçayının kendi işlerini yaptığını, tatlılığın tazelikle harmanlandığını ve ayrıca daha karanlık bir yönün de olduğunu hissedebiliyorsunuz – ama yine olumlu anlamda – ilgi çekici ve cezbedici.\nŞişe içeriğiyle uyumlu. Parfüm zarif, kadınsı ve kesinlikle eşsiz, çünkü dürüst olmak gerekirse, benzerini bulmakta zorlanırdım. Burada bahsedilen kokuların hiçbiri bana göre benzer değil ve orijinal Olympea'dan tamamen farklı; tamamen farklı bir galaksi. Bu, kızlar veya gençler için değil, kadınlar için bir parfüm. Akşam, iş ve günlük kullanım için, ancak belirli bir kadın tipi için, kadınsı bir kadın için değil. Flört etmiyor, kandırmıyor, bağırmıyor, \"BENİM\" diyor ve bu yeterli.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.30935.jpg"
+    },
+    {
+      "id": "parent736853",
+      "author": "SandraTheresiaCarolina",
+      "date": "2025-01-11",
+      "text": "Daha önce hiçbir parfüm beni bu kadar şaşırtmamıştı! İlk başta notalarına bakarak pek önemsemedim, ama mağazada kokladığımda inanılmaz bir kokuyla karşılaştım. Ne kokladığımı tarif bile edemezdim, sadece akıl almazdı. Bu bir ay önceydi ve dün nihayet kendime bir şişe aldım ve daha mutlu olamazdım. Mağazadan sevinçten zıplayarak ve alkışlayarak çıktım ve erkek arkadaşım da ilk defa nedenini anladı. O da bu kokuyu çok beğendi (çok seçici biridir haha). Herkese bu parfüme bir şans vermesini şiddetle tavsiye ediyorum!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2004190.jpg"
+    },
+    {
+      "id": "parent736903",
+      "author": "malgorzataannawiktoria",
+      "date": "2024-11-17",
+      "text": "İki kez denedim, üçüncüsünde bu parfümü almayı planlıyorum.\nİlk püskürtme ile kokunun tam olarak gelişmesi arasındaki fark oldukça ilgi çekici.\nİlk üst notalarda yer alan Hindistan cevizi, adaçayı, pembe biber ve yeşil akor oldukça keskin olup, zamanla yasemin, portakal çiçeği ve gül yağı gibi çiçeksi kalp notalarına yumuşak bir şekilde dönüşür; koku zamanla sıcak ama bir o kadar da baharatlı bir hal alır - vanilya, benzoin ve misk gibi temel notalarla.\nÇok kadınsı bir koku - migren rahatsızlığı olan eşim çok memnun kaldı ve sürekli hangi koku olduğunu soruyor ♥️\nKalıcılık ve yayılım fena değil. Hiçbir şikayetim yok, ancak parfüm kategorisinde biraz daha güçlü olabilirlerdi.\nKendiniz denemenizi tavsiye ederim - ben çok olumlu bir şekilde şaşırdım.\nBu arada, bende de bir tane var, kullanıyorum ve hala çok memnunum 💯",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.70771.jpg"
+    },
+    {
+      "id": "parent736872",
+      "author": "Mizuki_San19",
+      "date": "2024-10-26",
+      "text": "Oldukça sıra dışı ama gerçekten çok iyi sonuç veren bir karışım: yasemin, vanilya, yeşil notalar, gül yağı ve misk; daha önce hiç bu kadar özgün ve otantik bir koku almamıştım.\nAyrıca çok iyi bir kalıcılığa sahip: ciltte 12 saatten fazla kalıyor, ilk 4 saat boyunca orta derecede belirginleşiyor, ardından yumuşamaya başlıyor ancak tamamen kaybolmuyor.\nOnu koleksiyonuma ekledim bile, ilk koklamada aşık oldum :)",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.110996.jpg"
+    },
+    {
+      "id": "parent736848",
+      "author": "baracaleksandra1",
+      "date": "2024-10-23",
+      "text": "Orijinal Olympea'yı çok seviyorum ama bu da muhteşem... Harika kokuyor, kadınsı, kendine güvenen kadınlar için... Olympea serisinden tamamen farklı ve beklenmedik bir şey. Bence Olympea EDP'yi sevmiyorsanız, bunu sevme olasılığınız çok yüksek çünkü aralarında hiçbir benzerlik yok... Çok kremsi... Rahatlatıcı... Yumuşak... Sonbahar ve kış için mükemmel... Sıcak bir koku...",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent736854",
+      "author": "peachygal",
+      "date": "2024-10-10",
+      "text": "İşte bu tam bir flanker! Tasarımcıların, orijinaline çoğu zaman hiç benzemeyen flanker'ları ardı ardına çıkarmalarından hoşlanmıyorum. Flanker aslında tamamen farklı bir parfüm olmalı. Bu tembelce ve özensiz bir iş gibi geliyor. Burada öyle yapmamışlar. Tam anlamıyla bir flanker olmuş.\n\nElimde orijinal Olympea'nın tam bir şişesi var ve kokusunu çok iyi biliyorum. Bu sadece bir örnek. Gerçekten de orijinalini hatırlatıyor, sadece daha az tuzlu karamel ve biraz daha çiçeksi; ama kesinlikle birbirlerini hatırlatıyorlar ve ikisi de yeterince farklı olduğu için ikisini de kullanabilirsiniz.\n\nBunun orijinalinden daha yumuşak olduğunu söyleyemem çünkü hala çok güçlü ve orijinalinin sahip olduğu o derinliğe sahip. Gerçekten çok güzel, 10/10 ama ben Olympea serisinin hayranıyım, bu yüzden biraz taraflı olabilirim!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent736895",
+      "author": "GUADELUPA",
+      "date": "2024-08-27",
+      "text": "Baharatlı-yeşil notalarla harmanlanmış, hoş ve kremsi bir koku. Çok narin ve yumuşak. Olympia'nın ruhuna uygun değil, daha çok kendine özgü bir koku. Ama bu olumsuz bir şey değil, çünkü gerçekten çok beğendim. Burada tuz kokusu yok, ama bolca kremsilik ve vanilya var, hem de iyi anlamda. Bu Olympia'yı anlıyorum ve kabul ediyorum. Kalıcılığı ve yayılımı mükemmel – koku uzun süre kalıyor ve sabahtan gece geç saatlere kadar net bir şekilde hissediliyor. Olympia koleksiyonuma eklemekten mutluluk duyuyorum. Değerli!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.278169.jpg"
+    },
+    {
+      "id": "parent736892",
+      "author": "Knightess",
+      "date": "2024-08-16",
+      "text": "Armani Code Donna. Kokuyu çok net alabiliyorum. Bolca vanilya, yasemin ve misk var. Bu, birkaç saat boyunca cildinizde denemeniz gereken kokulardan biri. Sonbahar/kış için, yün bir kazağın altına çok az miktarda sıkmak için mükemmel. Bayıldım. Hiç düşünmeden aldım.\nNot: Bunun neden bir flanker (yan ürün) olduğunu anlamıyorum. Orijinal Olympia'dan hiçbir şey yok burada. Tamamen bağımsız bir koku.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.187913.jpg"
+    },
+    {
+      "id": "parent736905",
+      "author": "MissRaskolnikov",
+      "date": "2024-08-05",
+      "text": "Kompozisyondaki adaçayı ilgimi çekti ve ilk olarak Black Olympea örneğini denemeye karar verdim – ama tamamen unutulabilir bir koku. Ve hatırlanması gereken bir şey varsa, o da bir süre sonra biraz tuhaflaşmaya başlamasıdır. İlk başta, evet, adaçayıdan gelen ince bir bitkisel nota var, ancak tatlı bir posa örtüsünün altında gizlenmiş durumda. Burnum vanilya soslu armut gibi bir tatlıyı özlüyor. Ve tatlının yanında, vazoda beyaz çiçekler, ağır, monoton bir aroma yayıyor. İlk başta koku tatlı, hafif yapışkan ve sıcak. Misk hoş bir yumuşaklık katıyor, ancak genel kokuyu oldukça boğucu, potansiyel olarak yorucu buluyorum. Ormanın derinliklerine doğru ilerledikçe daha da yorucu hale geliyor; genel koku yumuşak ve tatlı, ancak yakından bakıldığında garip küçük canavarlar ortaya çıkıyor – belki de yasemin ön plana çıktığında adaçayı oldukça rahatsız edici bir izlenim yaratıyor. Kışın tekrar deneyeceğim çünkü kesinlikle yaz için uygun bir koku değil.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.6634.jpg"
+    },
+    {
+      "id": "parent736870",
+      "author": "Delia77",
+      "date": "2024-07-25",
+      "text": "Tek kelimeyle mükemmel. Birçok kişiye başka parfümleri hatırlattığını görüyorum ama bana değil, ve sanırım bağımlısı oldum ve neredeyse hepsini biliyorum. Akşam için ideal bir koku, hayvansı ama baskın değil, zarif. Açılış notası muhteşem ve kalıcılığı da tam yerinde. Eskiden parfümlerin uzun süre kalıcı olmasının nedeninin, tehlikeli hormon bozucu maddeler olan ftalatların kullanımı olduğunu da belirtmeliyim. Bu kadar sıradanlığın arasında özgün bir parfüm.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent736874",
+      "author": "Alarli",
+      "date": "2024-06-03",
+      "text": "Bugün mağazada denedim ve şişesi zaten muhteşem, tamamen siyah. Olympea'yı hatırlattı, bu da dikkatimi çekti çünkü ona hiç benzemediğini duymuştum. Bu kesinlikle orijinalinin bir yan ürünü gibi görünüyor. Tuz kokusunu hemen aldım, ancak ilk Olympea'dan daha az tatlıydı. Sonra yeşil notalar geldi, bu da bana temiz bir his verdi. Hatta biraz Versace'nin Crystal Noir'ını hatırlattı; sanırım hindistan cevizi kokusu var ama çok hafif. Ondan sonra Fame'e benzerlik bulmaya başladım: kremsi mango ve vanilya. Üç saat sonra Olympea'ya benzedi, ancak daha temiz bir hisle, daha az yoğun. Elimde altı saattir duruyor ve hala orada. Kesinlikle koleksiyonuma eklerim 💘",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent736877",
+      "author": "Saveria",
+      "date": "2024-05-10",
+      "text": "Orijinal Olympéa'yı sevmiyorum; tuzlu kokusu bana korkunç bir baş ağrısı yapıyor.\n\nBu oldukça farklı. Tuz veya deniz kokusu yok. Oldukça belirsiz bir aromatik/narenciye kokusu (daha önce \"çok yeşil/narenciye\" olarak belirtmiştim) buldum, bu da ona ferah bir his veriyor. Ancak pembe biber kokusu burnum tarafından mükemmel bir şekilde algılanıyor ve hoş bir baharatlılık katıyor.\n\nUğruna canımı vereceğim türden bir parfüm değil ama hoş buldum ve -kaçınılmaz olarak benim durumumda- mide bulantısı yapmadığı için orijinalinden daha iyi.\n\nŞişe çok güzel.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.25185.jpg"
+    },
+    {
+      "id": "parent736850",
+      "author": "Maya lilac",
+      "date": "2024-04-14",
+      "text": "Eğer Olympea'nın parfüm versiyonu, orijinal Olympea'ya neredeyse hiç benzemediği için, Olympea'ya ait olmayan ayrı bir parfüm olarak, tamamen farklı bir isim altında satılsaydı, bence daha az eleştiri alırdı.\n\nBugün mağazada denedim ve gerçekten çok beğendim. Serinin DNA'sından çok, çok farklı ve bana göre daha çok misk bazlı, sıcak, aromatik, yeşil, beyaz çiçekli bir koku. Tuzlu vanilya DNA'sıyla hiçbir ilgisi olmayan, bağımsız bir koku. Evet, temelinde vanilya (ve yasemin) var ama geri kalan her şey orijinal Olympea'dan çok farklı.\n\nKendi başına değerlendirecek olursam, güzel, son yıllardaki çoğu tasarımcının ürünlerinden farklı, daha niş bir yöne doğru ilerliyor, ancak yine de çok beğenilebilir ve geniş kitlelere hitap ediyor.\n\nOlympea koleksiyonunun tamamında en az sevdiğim şişe bu; genel olarak siyah estetik benim tarzım değil, ama bahsetmem gereken en önemli nokta fiyatı. Yaşadığım yerde 50 ml'lik bir Olympea Parfüm şişesi, önceki versiyonların 80 ml'lik şişesinden daha pahalı! Bu inanılmaz! Bu Parfüm versiyonunun 80 ml'lik şişesi, bazı niş markalardan bile daha pahalı.\n\nFiyatı biraz daha uygun olsaydı, Olympea koleksiyonuma bir şişe daha eklerdim. Neredeyse hepsine sahibim, en azından beğendiklerime. Ama bu fiyatlarla, benim için uygun değil. Kötü bir koku olduğu için değil, aşırı pahalı olduğu için!\n\nEylül 2024 Güncellemesi: 80 ml'lik bir şişeyi yarı fiyatına buldum, bu yüzden Olympea'nın bu parfüm versiyonunu koleksiyonuma eklediğim için mutluyum! İlginç ve uzun süre kalıcı bir parfüm.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1705079.jpg"
+    },
+    {
+      "id": "parent736857",
+      "author": "Antiope",
+      "date": "2024-04-07",
+      "text": "Şehre Yeni Gelen Çocuk\n\nPlastic Bertrand League ve Barbie için takviyeler çoktan geldi!\n\nAncak, bu sevimli Belçikalı asi çocuk aslında yapay, jenerik dünyaları temsil etmiyor; sadece bu isim aklıma çok uygun geldiği için aklıma geldi!\n1970'ler, birçok alanda yaygınlaşan, sağlam ve her yerde bulunan plastik canavarlarla karakterize edilir; göz alıcı sarı, parlak turuncu, zehirli yeşil veya kobalt mavisi renklerle dolu olmayan bir köşe yoktu. Bu sert ve dayanıklı plastik eşyaları görmezden gelmek imkansızdı. Önemli olan modern olmaktı! Bahçe sandalyeleri, mutfak eşyaları, oyuncaklar veya giysiler olsun, liste uzayıp giderdi.\n\nOlympea PARFUM'da bu keskin, belirgin plastik kokusunu hemen fark ettim, ancak elbette şimdi ustaca yumuşak bir parfümle dengelenmiş durumda.\n\nVanilya ve misk baştan itibaren mevcut ve kokuya hakim.\nYasemin arka planda fark edilmeden duruyor; mutsuz mu yoksa sadece utangaç mı, söylemek imkansız. Portakal çiçeği ve güller de bugün yıldızlar değil, bu da kokularını yaymaları için onları pek teşvik etmiyor. Kırgın ve biraz da somurtkan bir şekilde yasemine katılıyor ve kendilerini daha fazla göstermeye ikna edilemiyorlar. Sadece biber bitkisi nispeten iyi bir ruh halinde görünüyor, adaçayıyla birlikte neşeyle dönüyor.\n_________________\n\nKokunun belirsiz bir havası var. Daha doğrusu, belirsizlik duygusu uyandırıyor.\nBeğenmek ve arzu etmek ile son derece sinir bozucu olmak arasında bir yerde.\nBu koku, burna acımasızca yaltaklanır ve orayı karargâhı olarak benimser. Oradan, tüm koku izleri sinapslara ulaşır, onları çevreler ve nüfuz eder. Başka bir deyişle, bu \"parfüm\", burnunuzdan veya kafanızdan bir türlü çıkaramadığınız maddelerden biridir. Bu, bir aşk-nefret ilişkisine dönüşebilir; çünkü kokunun verdiği zevk, sürekli varlığının verdiği rahatsızlıkla sürekli olarak değişir ve bu rahatsızlık acımasızca yaygın bir hale gelir.\n\nMesafemi korumayı tercih ederim.\nParfüm, Goethe'nin \"Büyücünün Çırağı\" adlı eserindeki parfüme çok benziyor ve ayrıca çağırdığım ruhlardan asla kurtulamayacağımdan da korkuyorum...",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.de",
+      "avatar": "https://fimgs.net/mdimg/avataride/m.7250.jpg"
+    },
+    {
+      "id": "parent736846",
+      "author": "Emera1d",
+      "date": "2024-03-30",
+      "text": "Bu tam bir koku bombası! Ve bir bakıma Good Girl'ü hatırlatıyor; tatlı, yumuşak, derin ve zengin bir koku, ama ikisi tamamen aynı değil. Kuruduktan sonra hafif bir hindistan cevizi kokusu aldığımı sanıyorum, ama notalara bakınca muhtemelen vanilya ve benzoin kombinasyonu. Bana hiç yeşilimsi gelmedi, baştan beri güçlü ve kadifemsi bir yumuşaklık. Saatlerce sürüyor ve kesinlikle soğuk havalar için ideal bir koku. Ne kadar çok koklarsam o kadar çok beğeniyorum. Ve orijinaliyle hiçbir ortak noktası yok, aynı serinin parçası olduğunu tahmin edemezdim. Bir kez olsun, altın kapaklı ve yanları olan daha büyük şişelerden ziyade tamamen siyah 30 ml'lik şişeyi tercih ediyorum.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1162562.jpg"
+    },
+    {
+      "id": "parent736844",
+      "author": "Maailman Katselija",
+      "date": "2024-03-20",
+      "text": "Bu parfümü bugün aldım (kör alışveriş!) ve diyebilirim ki aşık oldum! Diğer tüm Olympéa parfümlerini hiç sevmem ama bu çok farklı ve kendine özgü bir koku gibi. Notaları unutun: çiçek açmış bir yasemin ağacının dalında olgunlaşmış bir pamuk şeker gibi kokuyor. Gül yok, adaçayı yok (bunun için dünyanın tüm tanrılarına şükürler olsun, çünkü adaçayı kokusunu hiç sevmiyorum!). Ama bundan daha fazlasına gerçekten ihtiyacım yok. Kalıcılığı ve yayılımı çok iyi (yaklaşık 9-10 saat kalıcılık, 5-6 saat boyunca belirgin bir yayılım, ancak cildim çok hassas). Sonuçta, bu sadece bir \"parfüm\", EDP değil, bu yüzden buna sadık kalmasını bekliyordum. Fiyat konusuna gelince, sanırım hepimiz tasarımcı parfümlerinin fiyatlarının son 3-4 yılda fırladığını (bazılarının iki katına bile çıktığını!) kabul edebiliriz, ancak Olympéa Parfum, özellikle bu performans için oldukça iyi bir fiyata sahip.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent736841",
+      "author": "cbty",
+      "date": "2024-02-24",
+      "text": "Bunu mağazada denedim ve katılıyorum, Olympea'dan çok farklı. Şişesi muhteşem, kokusu oldukça yoğun ve keskin, yani birbirlerine çok yakışıyorlar.\nNotlarda belirtilmemiş olsa da, bana çok meyvemsi geldi? Koyu ve meyvemsi ama mutlaka orman meyvesi değil. Bilmiyorum, kesinlikle kötü değil, sadece beklenmedik bir koku. Daha fazla deneyeceğim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1624659.jpg"
     }
   ]
 }

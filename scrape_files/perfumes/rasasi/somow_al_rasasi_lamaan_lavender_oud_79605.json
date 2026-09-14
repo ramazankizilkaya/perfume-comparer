@@ -19,23 +19,51 @@
       "width": "65%"
     },
     {
-      "name": "aromatik",
+      "name": "taze baharatlı",
       "width": "58%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "aromatik",
       "width": "58%"
     },
     {
       "name": "bitkisel",
       "width": "44%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.36",
-    "votesCount": "11",
+    "score": "3.62",
+    "votesCount": "13",
     "breakdown": {
-      "love": "4",
+      "love": "6",
       "like": "3",
       "ok": "0",
       "dislike": "1",
@@ -43,12 +71,12 @@
     }
   },
   "seasons": {
-    "winter": "2",
-    "spring": "5",
-    "summer": "5",
-    "autumn": "5",
-    "day": "1",
-    "night": "3"
+    "winter": "4",
+    "spring": "6",
+    "summer": "6",
+    "autumn": "6",
+    "day": "2",
+    "night": "4"
   },
   "notes": {
     "top": [],
@@ -60,33 +88,50 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "2",
+    "longLasting": "3",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "2",
+    "strong": "1",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "1",
+    "unisex": "3",
+    "moreMale": "2",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Oud Lavender"
+    },
+    {
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Accento"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Accento"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -97,12 +142,12 @@
       "name": "Al Wasl"
     },
     {
-      "brand": "OMANLUXURY",
-      "name": "Zafar"
-    },
-    {
       "brand": "HİND AL OUD",
       "name": "Emarati Oud"
+    },
+    {
+      "brand": "OMANLUXURY",
+      "name": "Zafar"
     },
     {
       "brand": "PRİN",
@@ -117,12 +162,12 @@
       "name": "Ismi"
     },
     {
-      "brand": "RASASİ",
-      "name": "Somow Al Rasasi Ma’ali"
-    },
-    {
       "brand": "BOADİCEA THE VİCTORİOUS",
       "name": "King's Road"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Somow Al Rasasi Ma’ali"
     },
     {
       "brand": "NOBİLE 1942",
@@ -145,8 +190,9 @@
       "name": "La Yuqawam Homme"
     },
     {
-      "brand": "MATİERE PREMİERE",
+      "brand": "MATİÈRE PREMİÈRE",
       "name": "Encens Suave Extrait"
     }
-  ]
+  ],
+  "comments": []
 }

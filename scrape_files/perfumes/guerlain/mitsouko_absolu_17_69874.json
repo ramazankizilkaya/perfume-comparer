@@ -39,11 +39,11 @@
       "width": "61.8182%"
     },
     {
-      "name": "çiçeksi",
+      "name": "tatlı",
       "width": "61.1818%"
     },
     {
-      "name": "tatlı",
+      "name": "çiçeksi",
       "width": "61.1818%"
     },
     {
@@ -83,86 +83,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "0",
-    "moderate": "0",
-    "longLasting": "0",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "0",
-    "strong": "0",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Mitsouko Eau de Toilette"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Derby"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Equipage"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mitsouko Fleur de Lotus"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mitsouko Limited Edition 2019"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mitsouko Eau de Parfum"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mitsouko Eau de Parfum"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mitsouko Eau de Toilette"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mitsouko Extract"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Jules (2016)"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mitsouko Eau de Cologne"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Les Exclusifs de Chanel 31 Rue Cambon"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Les Creations de Monsieur Dior Dioressence"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CERRUTİ",
@@ -181,12 +128,12 @@
       "name": "Coco Eau de Parfum"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Shalimar L'Essence"
-    },
-    {
       "brand": "FRANCESCA BİANCHİ",
       "name": "The Lover's Tale"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Shalimar L'Essence"
     },
     {
       "brand": "CARTİER",
@@ -224,5 +171,6 @@
       "brand": "CHANEL",
       "name": "Le Lion Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,14 +49,42 @@
     {
       "name": "pudralı",
       "width": "51.3889%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.88",
-    "votesCount": "17",
+    "score": "4.08",
+    "votesCount": "24",
     "breakdown": {
-      "love": "8",
-      "like": "3",
+      "love": "12",
+      "like": "6",
       "ok": "3",
       "dislike": "2",
       "hate": "1"
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "1",
-    "spring": "7",
-    "summer": "11",
+    "spring": "10",
+    "summer": "15",
     "autumn": "1",
-    "day": "10",
+    "day": "14",
     "night": "1"
   },
   "notes": {
@@ -91,33 +119,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "4",
+    "moderate": "3",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "3",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "3",
+    "unisex": "1",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Mayar Natural Intense"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Gioia"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -128,32 +165,57 @@
       "name": "J'adore"
     },
     {
-      "brand": "SOL DE JANEİRO",
-      "name": "Água Mística"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Atheeri"
     },
     {
-      "brand": "SABRİNA CARPENTER",
-      "name": "Sweet Tooth Cherry Baby"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ansaam Gold"
     },
     {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Bubble Bath"
+      "brand": "COACH",
+      "name": "Coach Dreams Sunset"
     },
     {
-      "brand": "SABRİNA CARPENTER",
-      "name": "Sweet Tooth Me Espresso"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Mia Dolcezza"
     },
     {
-      "brand": "SOL DE JANEİRO",
-      "name": "Dança Mística"
+      "brand": "CHANEL",
+      "name": "Coco Mademoiselle"
     },
     {
-      "brand": "SABRİNA CARPENTER",
-      "name": "Sweet Tooth Caramel Dream"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Tharwah Gold"
     },
     {
-      "brand": "SABRİNA CARPENTER",
-      "name": "Sweet Tooth"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara Tous"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Her"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Opulent Dubai"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Marshmallow Blush"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Opera Rouge"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara Moi"
     }
-  ]
+  ],
+  "comments": []
 }

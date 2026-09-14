@@ -52,11 +52,11 @@
     }
   ],
   "rating": {
-    "score": "3.75",
-    "votesCount": "59",
+    "score": "3.77",
+    "votesCount": "62",
     "breakdown": {
-      "love": "21",
-      "like": "13",
+      "love": "22",
+      "like": "15",
       "ok": "15",
       "dislike": "9",
       "hate": "1"
@@ -64,10 +64,10 @@
   },
   "seasons": {
     "winter": "8",
-    "spring": "35",
-    "summer": "23",
-    "autumn": "33",
-    "day": "33",
+    "spring": "36",
+    "summer": "24",
+    "autumn": "34",
+    "day": "34",
     "night": "14"
   },
   "notes": {
@@ -88,50 +88,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "18",
-    "longLasting": "10",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "18",
-    "strong": "7",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "4",
-    "unisex": "22",
-    "moreMale": "5",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "15",
-    "goodValue": "14",
-    "greatValue": "8"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOND NO 9",
-      "name": "Bleecker Street"
-    },
-    {
-      "brand": "PHARRELL WİLLİAMS",
-      "name": "Girl"
-    },
-    {
-      "brand": "JOVAN",
-      "name": "Musk"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "The Library Collection Opus VII"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "FRENCH AVENUE",
@@ -154,16 +137,16 @@
       "name": "Musamam White Intense"
     },
     {
+      "brand": "FRENCH AVENUE",
+      "name": "Pisces"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Art Of Nature II"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara Candy"
-    },
-    {
-      "brand": "FRENCH AVENUE",
-      "name": "Pisces"
     },
     {
       "brand": "FRENCH AVENUE",
@@ -193,5 +176,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
     }
-  ]
+  ],
+  "comments": []
 }

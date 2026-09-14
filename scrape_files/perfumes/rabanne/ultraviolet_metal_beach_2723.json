@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rabanne/Ultraviolet-Metal-Beach-2723.html",
   "brand": "Rabanne parfüm ve kolonya",
   "description": "Rabanne markasının Ultraviolet Metal Beach parfümü, kadınlar için Oryantal Baharatlı bir kokudur. Ultraviolet Metal Beach, 2001 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Jacques Cavallier Belletrud. Üst notalar: Biber, Zencefil, Portakal biberi ve Pimento; orta notalar: Su zambağı, Osmanthus ve Siklamen; alt notalar Misk, Amber ve Vanilya.",
-  "description_original": "Rabanne markasının Ultraviolet Metal Beach parfümü, kadınlar için Oryantal Baharatlı bir kokudur. Ultraviolet Metal Beach, 2001 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Jacques Cavallier Belletrud. Üst notalar: Biber, Zencefil, Portakal biberi ve Pimento; orta notalar: Su zambağı, Osmanthus ve Siklamen; alt notalar Misk, Amber ve Vanilya.",
+  "description_original": "Rabanne markasının Ultraviolet Metal Beach parfümü, kadınlar için Oryantal Baharatlı bir kokudur. Ultraviolet Metal Beach, 2001 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Jacques Cavallier Belletrud. Üst notalar: Biber, Zencefil, Turuncu Biber ve Pimento; orta notalar: Nilüfer, Osmanthus ve Sıklamen; alt notalar Beyaz Misk, Amber ve Vanilya.",
   "description_enhanced": "Rabanne markasının Ultraviolet Metal Beach parfümü, kadınlar için Oryantal Baharatlı bir kokudur. Ultraviolet Metal Beach, 2001 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Jacques Cavallier Belletrud. Üst notalar: Biber, Zencefil, Portakal biberi ve Pimento; orta notalar: Su zambağı, Osmanthus ve Siklamen; alt notalar Misk, Amber ve Vanilya.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "vanilya",
       "width": "45.3747%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -74,49 +102,54 @@
     "top": [
       "Biber",
       "Zencefil",
-      "Portakal biberi",
+      "Turuncu Biber",
       "Pimento"
     ],
     "middle": [
-      "Su zambağı",
+      "Nilüfer",
       "Osmanthus",
-      "Siklamen"
+      "Sıklamen"
     ],
     "base": [
-      "Misk",
+      "Beyaz Misk",
       "Amber",
       "Vanilya"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "6",
+    "longLasting": "11",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "6",
+    "strong": "8",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "1",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Ultraviolet Liquid Metal for Woman"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -178,5 +211,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "animalik",
       "width": "50.0319%"
+    },
+    {
+      "name": "Online satın alın 7 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "2",
+    "moderate": "3",
+    "longLasting": "4",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "3",
+    "strong": "13",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "6",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SHAİK",
+      "name": "Opulent Shaik Classic No 33"
+    },
+    {
+      "brand": "JOOP!",
+      "name": "Joop! Homme"
+    },
+    {
+      "brand": "ANFASİC",
+      "name": "Shay"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Reflection Man"
+    },
+    {
+      "brand": "JUNAİD PERFUMES",
+      "name": "Hajar"
+    },
+    {
+      "brand": "JOOP!",
+      "name": "Joop! Femme"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Layton"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -176,5 +233,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

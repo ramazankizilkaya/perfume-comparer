@@ -16,59 +16,87 @@
     },
     {
       "name": "aromatik",
-      "width": "82.0433%"
+      "width": "82.0933%"
     },
     {
       "name": "misk",
-      "width": "78.0427%"
+      "width": "77.1338%"
     },
     {
       "name": "narenciye",
-      "width": "73.9292%"
+      "width": "75.344%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "71.8912%"
+      "width": "71.6148%"
     },
     {
       "name": "amber",
-      "width": "62.0035%"
+      "width": "62.3673%"
     },
     {
       "name": "taze baharatlı",
-      "width": "57.852%"
-    },
-    {
-      "name": "deri",
-      "width": "54.9081%"
+      "width": "58.7872%"
     },
     {
       "name": "toprak",
-      "width": "54.7572%"
+      "width": "54.462%"
     },
     {
       "name": "animalik",
-      "width": "54.7197%"
+      "width": "54.238%"
+    },
+    {
+      "name": "deri",
+      "width": "53.8654%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.34",
-    "votesCount": "121",
+    "score": "4.32",
+    "votesCount": "120",
     "breakdown": {
-      "love": "71",
-      "like": "32",
+      "love": "70",
+      "like": "31",
       "ok": "8",
-      "dislike": "8",
+      "dislike": "9",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "34",
-    "spring": "40",
-    "summer": "28",
-    "autumn": "53",
-    "day": "45",
-    "night": "35"
+    "winter": "32",
+    "spring": "39",
+    "summer": "25",
+    "autumn": "52",
+    "day": "44",
+    "night": "33"
   },
   "notes": {
     "top": [
@@ -97,27 +125,27 @@
   },
   "longevity": {
     "veryWeak": "6",
-    "weak": "5",
-    "moderate": "23",
+    "weak": "7",
+    "moderate": "24",
     "longLasting": "19",
-    "eternal": "10"
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "13",
-    "moderate": "23",
+    "intimate": "14",
+    "moderate": "24",
     "strong": "19",
-    "enormous": "17"
+    "enormous": "14"
   },
   "genderVoting": {
     "female": "2",
     "moreFemale": "0",
-    "unisex": "2",
+    "unisex": "5",
     "moreMale": "10",
-    "male": "29"
+    "male": "26"
   },
   "priceVoting": {
-    "wayOverpriced": "6",
-    "overpriced": "13",
+    "wayOverpriced": "8",
+    "overpriced": "14",
     "fair": "8",
     "goodValue": "3",
     "greatValue": "1"
@@ -132,14 +160,6 @@
       "name": "Courvoisier L’edition Imperiale"
     },
     {
-      "brand": "ROJA DOVE",
-      "name": "Reckless Pour Homme"
-    },
-    {
-      "brand": "ROJA DOVE",
-      "name": "Parfum De La Nuit No 2"
-    },
-    {
       "brand": "ORMONDE JAYNE",
       "name": "Zizan"
     },
@@ -149,7 +169,15 @@
     },
     {
       "brand": "ROJA DOVE",
+      "name": "Reckless Pour Homme"
+    },
+    {
+      "brand": "ROJA DOVE",
       "name": "Scandal Pour Homme"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Parfum De La Nuit No 2"
     }
   ],
   "peopleAlsoLike": [
@@ -174,20 +202,20 @@
       "name": "Parfum De La Nuit No 3"
     },
     {
+      "brand": "ROJA DOVE",
+      "name": "Sweetie Aoud"
+    },
+    {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Promise"
     },
     {
       "brand": "ROJA DOVE",
-      "name": "Sweetie Aoud"
+      "name": "Amber Aoud"
     },
     {
       "brand": "XERJOFF",
       "name": "Nio"
-    },
-    {
-      "brand": "ROJA DOVE",
-      "name": "Amber Aoud"
     },
     {
       "brand": "TOM FORD",
@@ -213,5 +241,6 @@
       "brand": "CREED",
       "name": "Aventus"
     }
-  ]
+  ],
+  "comments": []
 }

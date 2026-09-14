@@ -77,70 +77,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "14",
-    "moderate": "30",
-    "longLasting": "12",
-    "eternal": "10"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "17",
-    "moderate": "30",
-    "strong": "13",
-    "enormous": "13"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "1",
-    "unisex": "16",
-    "moreMale": "2",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "5",
-    "greatValue": "4"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "KARL LAGERFELD",
-      "name": "Bois de Vetiver"
-    },
-    {
-      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
-      "name": "Week End"
-    },
-    {
-      "brand": "KHALİS",
-      "name": "Ahlam"
-    },
-    {
-      "brand": "PARFUMS BERDOUES",
-      "name": "Assam of India"
-    },
-    {
-      "brand": "KORRES",
-      "name": "Philosia"
-    },
-    {
-      "brand": "LADY GAGA",
-      "name": "Eau de Gaga"
-    },
-    {
-      "brand": "JESUS DEL POZO",
-      "name": "Suede Breeze"
-    },
-    {
-      "brand": "MEMO PARİS",
-      "name": "Eau de Memo"
-    },
-    {
-      "brand": "CARNER BARCELONA",
-      "name": "Marbella"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -171,6 +134,10 @@
       "name": "Coco Mademoiselle"
     },
     {
+      "brand": "CHANEL",
+      "name": "Chance Eau Tendre"
+    },
+    {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez For Her"
     },
@@ -179,16 +146,12 @@
       "name": "Pure Poison"
     },
     {
-      "brand": "KENZO",
-      "name": "Totem Blue"
-    },
-    {
       "brand": "BYREDO",
       "name": "Bal d'Afrique"
     },
     {
-      "brand": "LANVİN",
-      "name": "Eclat d’Arpège"
+      "brand": "KENZO",
+      "name": "Totem Blue"
     },
     {
       "brand": "VERSACE",
@@ -202,5 +165,6 @@
       "brand": "CHLOÉ",
       "name": "Chloé Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

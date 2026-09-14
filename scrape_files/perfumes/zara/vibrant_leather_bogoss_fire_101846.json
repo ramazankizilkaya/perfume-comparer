@@ -33,25 +33,53 @@
     {
       "name": "tropikal",
       "width": "53.3333%"
+    },
+    {
+      "name": "Online satın alın 16 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.35",
-    "votesCount": "26",
+    "score": "3.36",
+    "votesCount": "28",
     "breakdown": {
       "love": "5",
-      "like": "7",
-      "ok": "8",
+      "like": "8",
+      "ok": "9",
       "dislike": "4",
       "hate": "2"
     }
   },
   "seasons": {
     "winter": "7",
-    "spring": "11",
-    "summer": "10",
-    "autumn": "8",
-    "day": "7",
+    "spring": "12",
+    "summer": "12",
+    "autumn": "9",
+    "day": "8",
     "night": "10"
   },
   "notes": {
@@ -68,7 +96,7 @@
   },
   "longevity": {
     "veryWeak": "2",
-    "weak": "5",
+    "weak": "6",
     "moderate": "8",
     "longLasting": "1",
     "eternal": "2"
@@ -76,21 +104,21 @@
   "sillage": {
     "intimate": "8",
     "moderate": "8",
-    "strong": "1",
+    "strong": "2",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
     "unisex": "2",
-    "moreMale": "12",
+    "moreMale": "13",
     "male": "3"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "8",
-    "goodValue": "5",
+    "fair": "9",
+    "goodValue": "6",
     "greatValue": "8"
   },
   "remindsMeOf": [
@@ -121,16 +149,20 @@
       "name": "Sand Desert At Sunset Intense"
     },
     {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Red"
+    },
+    {
       "brand": "ZARA",
       "name": "Zara For Him Intense"
     },
     {
-      "brand": "ZARA",
-      "name": "Sand Desert At Sunset"
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Y Eau de Parfum"
     },
     {
-      "brand": "DİOR",
-      "name": "Hypnotic Poison"
+      "brand": "ZARA",
+      "name": "Sand Desert At Sunset"
     },
     {
       "brand": "TOM FORD",
@@ -141,12 +173,12 @@
       "name": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi"
     },
     {
-      "brand": "ZARA",
-      "name": "Zara Man Green Savage Summer"
-    },
-    {
       "brand": "BVLGARİ",
       "name": "Bvlgari Man In Black Parfum"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Zara Man Green Savage Summer"
     },
     {
       "brand": "GİVENCHY",
@@ -163,10 +195,7 @@
     {
       "brand": "KENZO",
       "name": "Kenzo Homme Marine"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Ebony Wood"
     }
-  ]
+  ],
+  "comments": []
 }

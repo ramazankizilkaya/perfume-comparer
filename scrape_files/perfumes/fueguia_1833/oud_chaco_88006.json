@@ -60,46 +60,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "0",
-    "longLasting": "1",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "0",
-    "strong": "1",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "1",
-    "moreMale": "1",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "FUEGUİA 1833",
-      "name": "Malón"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "The Night"
-    },
-    {
-      "brand": "THE SPİRİT OF DUBAİ",
-      "name": "Oud"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -161,5 +148,6 @@
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Portrait of a Lady"
     }
-  ]
+  ],
+  "comments": []
 }

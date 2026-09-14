@@ -37,25 +37,53 @@
     {
       "name": "amber",
       "width": "45.5554%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.17",
-    "votesCount": "64",
+    "votesCount": "69",
     "breakdown": {
-      "love": "29",
-      "like": "22",
-      "ok": "8",
+      "love": "31",
+      "like": "24",
+      "ok": "9",
       "dislike": "5",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "1",
-    "spring": "37",
-    "summer": "54",
-    "autumn": "9",
-    "day": "54",
+    "spring": "39",
+    "summer": "57",
+    "autumn": "10",
+    "day": "58",
     "night": "9"
   },
   "notes": {
@@ -74,33 +102,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "14",
+    "moderate": "31",
+    "longLasting": "14",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "31",
+    "strong": "9",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "14",
+    "moreMale": "14",
+    "male": "33"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "9",
+    "goodValue": "10",
+    "greatValue": "45"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue Eau Intense Pour Homme"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue pour Homme"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Jour"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue Eau Intense"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue pour Homme Italian Love"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ISSEY MİYAKE",
@@ -109,10 +158,6 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Maahir Legacy"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Terre d'Hermès"
     },
     {
       "brand": "ARMAF",
@@ -151,6 +196,10 @@
       "name": "Odyssey Homme"
     },
     {
+      "brand": "AFNAN",
+      "name": "Supremacy Collector's Edition Pour Homme"
+    },
+    {
       "brand": "FRENCH AVENUE",
       "name": "Vulcan Feu"
     },
@@ -162,5 +211,6 @@
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
     }
-  ]
+  ],
+  "comments": []
 }

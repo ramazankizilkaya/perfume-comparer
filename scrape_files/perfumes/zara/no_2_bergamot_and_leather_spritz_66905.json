@@ -49,26 +49,54 @@
     {
       "name": "lavanta",
       "width": "49.3333%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.35",
-    "votesCount": "230",
+    "score": "4.36",
+    "votesCount": "231",
     "breakdown": {
-      "love": "127",
-      "like": "71",
+      "love": "129",
+      "like": "70",
       "ok": "20",
       "dislike": "10",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "142",
-    "spring": "81",
+    "winter": "143",
+    "spring": "82",
     "summer": "18",
-    "autumn": "147",
-    "day": "83",
-    "night": "125"
+    "autumn": "148",
+    "day": "84",
+    "night": "126"
   },
   "notes": {
     "top": [
@@ -88,29 +116,29 @@
   "longevity": {
     "veryWeak": "3",
     "weak": "5",
-    "moderate": "60",
+    "moderate": "59",
     "longLasting": "84",
-    "eternal": "17"
+    "eternal": "19"
   },
   "sillage": {
     "intimate": "4",
-    "moderate": "60",
-    "strong": "61",
+    "moderate": "59",
+    "strong": "64",
     "enormous": "6"
   },
   "genderVoting": {
     "female": "1",
     "moreFemale": "3",
-    "unisex": "84",
-    "moreMale": "70",
-    "male": "30"
+    "unisex": "83",
+    "moreMale": "71",
+    "male": "32"
   },
   "priceVoting": {
     "wayOverpriced": "2",
     "overpriced": "7",
     "fair": "20",
     "goodValue": "76",
-    "greatValue": "83"
+    "greatValue": "85"
   },
   "remindsMeOf": [
     {
@@ -138,16 +166,12 @@
       "name": "Iris Patchouli"
     },
     {
-      "brand": "AVON",
-      "name": "Premiere Luxe"
-    },
-    {
       "brand": "CHOPARD",
       "name": "Agar Royal"
     },
     {
-      "brand": "GİVENCHY",
-      "name": "Gentleman Eau de Parfum"
+      "brand": "AVON",
+      "name": "Premiere Luxe"
     },
     {
       "brand": "DİOR",
@@ -155,11 +179,11 @@
     },
     {
       "brand": "GİVENCHY",
-      "name": "Gentleman Eau de Parfum Reserve Privée"
+      "name": "Gentleman Eau de Parfum"
     },
     {
-      "brand": "PENHALİGON'S",
-      "name": "Alizarin"
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Parfum Reserve Privée"
     },
     {
       "brand": "HUGO BOSS",
@@ -172,6 +196,10 @@
     {
       "brand": "L'ERBOLARİO",
       "name": "Ambraliquida"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Coromandel Eau de Parfum"
     }
   ],
   "peopleAlsoLike": [
@@ -200,6 +228,10 @@
       "name": "Gucci Guilty Absolute"
     },
     {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Intense Man"
+    },
+    {
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     },
@@ -224,10 +256,6 @@
       "name": "Encre Noire A L'Extreme"
     },
     {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male"
-    },
-    {
       "brand": "LALİQUE",
       "name": "Encre Noire Sport"
     },
@@ -235,5 +263,6 @@
       "brand": "MOSCHİNO",
       "name": "Toy Boy"
     }
-  ]
+  ],
+  "comments": []
 }

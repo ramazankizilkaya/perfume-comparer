@@ -37,6 +37,34 @@
     {
       "name": "laktonik",
       "width": "57.8014%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -74,33 +102,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "15",
+    "moderate": "6",
+    "longLasting": "4",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "16",
+    "moderate": "6",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "3",
+    "unisex": "10",
+    "moreMale": "2",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "8",
+    "greatValue": "10"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Noz Pecã e Cacau"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Touch for Women"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Fields at Nightfall 2020"
+    },
+    {
+      "brand": "THE BODY SHOP",
+      "name": "Shea"
+    },
+    {
+      "brand": "ZADİG & VOLTAİRE",
+      "name": "This is Her"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -162,5 +211,6 @@
       "brand": "NATURA",
       "name": "Essencial Supreme"
     }
-  ]
+  ],
+  "comments": []
 }

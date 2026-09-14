@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Mugler/A-Men-Sunessence-Edition-Orage-d-Ete-8192.html",
   "brand": "Mugler parfüm ve kolonya",
   "description": "Mugler markasının A*Men Sunessence Edition Orage d'Ete parfümü, erkekler için Odunsu Baharatlı bir kokudur. A*Men Sunessence Edition Orage d'Ete, 2010 yılında piyasaya sürüldü. Kokuda Paçuli, Kahve, Baharatlı notalar ve Odunsu Notlar notaları bulunur.",
-  "description_original": "Mugler markasının A*Men Sunessence Edition Orage d'Ete parfümü, erkekler için Odunsu Baharatlı bir kokudur. A*Men Sunessence Edition Orage d'Ete, 2010 yılında piyasaya sürüldü. Kokuda Paçuli, Kahve, Baharatlı notalar ve Odunsu Notlar notaları bulunur.",
+  "description_original": "Mugler markasının A*Men Sunessence Edition Orage d'Ete parfümü, erkekler için Odunsu Baharatlı bir kokudur. A*Men Sunessence Edition Orage d'Ete, 2010 yılında piyasaya sürüldü. Kokuda Paçuli, Kahve, Baharatlar ve Odunsu Notalar notaları bulunur.",
   "description_enhanced": "Mugler markasının A*Men Sunessence Edition Orage d'Ete parfümü, erkekler için Odunsu Baharatlı bir kokudur. A*Men Sunessence Edition Orage d'Ete, 2010 yılında piyasaya sürüldü. Kokuda Paçuli, Kahve, Baharatlı notalar ve Odunsu Notlar notaları bulunur.",
   "mainAccords": [
     {
@@ -16,31 +16,59 @@
     },
     {
       "name": "odunsu",
-      "width": "85.5605%"
+      "width": "86.923%"
     },
     {
       "name": "paçuli",
-      "width": "79.4395%"
+      "width": "80%"
     },
     {
       "name": "kahve",
-      "width": "71.5919%"
+      "width": "70%"
     },
     {
       "name": "toprak",
-      "width": "49.7758%"
+      "width": "50%"
     },
     {
       "name": "balsamik",
-      "width": "44.8318%"
+      "width": "45%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.90",
-    "votesCount": "163",
+    "votesCount": "164",
     "breakdown": {
       "love": "51",
-      "like": "74",
+      "like": "75",
       "ok": "8",
       "dislike": "30",
       "hate": "0"
@@ -49,7 +77,7 @@
   "seasons": {
     "winter": "8",
     "spring": "54",
-    "summer": "60",
+    "summer": "61",
     "autumn": "22",
     "day": "62",
     "night": "20"
@@ -61,8 +89,8 @@
     "all": [
       "Paçuli",
       "Kahve",
-      "Baharatlı notalar",
-      "Odunsu Notlar"
+      "Baharatlar",
+      "Odunsu Notalar"
     ]
   },
   "longevity": {
@@ -152,12 +180,12 @@
       "name": "La Nuit de l'Homme"
     },
     {
-      "brand": "ROCHAS",
-      "name": "Rochas Man"
-    },
-    {
       "brand": "HERMÈS",
       "name": "Terre d'Hermès"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Rochas Man"
     },
     {
       "brand": "MUGLER",
@@ -191,5 +219,6 @@
       "brand": "CHANEL",
       "name": "Egoiste Platinum"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -29,6 +29,34 @@
     {
       "name": "ud",
       "width": "42.8049%"
+    },
+    {
+      "name": "Online satın alın 11 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -69,33 +97,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "8",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "1",
+    "strong": "3",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Sheikh Al Shuyukh"
+    },
+    {
+      "brand": "PEKJİ",
+      "name": "Holy Shit"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -130,12 +167,12 @@
       "name": "Dior Homme 2005"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Raghba"
-    },
-    {
       "brand": "BOADİCEA THE VİCTORİOUS",
       "name": "Explorer"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Raghba"
     },
     {
       "brand": "JOOP!",
@@ -157,5 +194,6 @@
       "brand": "BY KİLİAN",
       "name": "Back to Black"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -23,11 +23,11 @@
       "width": "54.5%"
     },
     {
-      "name": "tropikal",
+      "name": "vanilya",
       "width": "51%"
     },
     {
-      "name": "vanilya",
+      "name": "tropikal",
       "width": "51%"
     },
     {
@@ -47,7 +47,7 @@
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "2",
     "spring": "8",
     "summer": "16",
     "autumn": "1",
@@ -64,42 +64,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "8",
-    "moderate": "3",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "9",
-    "moderate": "3",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "12",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "4",
-    "greatValue": "3"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUESS",
-      "name": "Guess Amore Capri"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Gingham Glow"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "VİCTORİA'S SECRET",
@@ -118,6 +109,10 @@
       "name": "Amber Romance"
     },
     {
+      "brand": "BİLLİE EİLİSH",
+      "name": "Eilish"
+    },
+    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Tease Crème Cloud"
     },
@@ -128,10 +123,6 @@
     {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
-    },
-    {
-      "brand": "GUESS",
-      "name": "Seductive Red"
     },
     {
       "brand": "CAROLİNA HERRERA",
@@ -161,5 +152,6 @@
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy Gold Couture"
     }
-  ]
+  ],
+  "comments": []
 }

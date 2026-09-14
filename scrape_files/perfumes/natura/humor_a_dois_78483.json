@@ -16,59 +16,87 @@
     },
     {
       "name": "aromatik",
-      "width": "71.4401%"
+      "width": "71.5122%"
     },
     {
       "name": "narenciye",
-      "width": "65.1275%"
+      "width": "65.6098%"
     },
     {
       "name": "pudralı",
-      "width": "51.6366%"
+      "width": "52.073%"
     },
     {
       "name": "aldehitli",
-      "width": "50.3636%"
+      "width": "50.9758%"
     },
     {
       "name": "misk",
-      "width": "48.8362%"
+      "width": "49.5121%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "48.0729%"
+      "width": "48.0242%"
     },
     {
       "name": "odunsu",
-      "width": "47.0036%"
-    },
-    {
-      "name": "amber",
-      "width": "45.2726%"
+      "width": "47.244%"
     },
     {
       "name": "taze",
-      "width": "44.9673%"
+      "width": "45.4146%"
+    },
+    {
+      "name": "amber",
+      "width": "45.1221%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.80",
-    "votesCount": "315",
+    "score": "3.81",
+    "votesCount": "334",
     "breakdown": {
-      "love": "82",
-      "like": "133",
-      "ok": "67",
-      "dislike": "22",
-      "hate": "11"
+      "love": "87",
+      "like": "142",
+      "ok": "70",
+      "dislike": "23",
+      "hate": "12"
     }
   },
   "seasons": {
-    "winter": "87",
-    "spring": "167",
-    "summer": "100",
-    "autumn": "153",
-    "day": "174",
-    "night": "120"
+    "winter": "91",
+    "spring": "178",
+    "summer": "109",
+    "autumn": "165",
+    "day": "186",
+    "night": "129"
   },
   "notes": {
     "top": [
@@ -89,45 +117,110 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "44",
+    "moderate": "150",
+    "longLasting": "16",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "52",
+    "moderate": "150",
+    "strong": "21",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "80",
+    "moreMale": "57",
+    "male": "97"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "67",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "4",
+    "overpriced": "8",
+    "fair": "70",
+    "goodValue": "110",
+    "greatValue": "51"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Humor 2"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Tommy"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ryo Festa"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Y Eau de Toilette"
+    },
+    {
+      "brand": "ZARA",
+      "name": "A Night Fragrance"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Portinari Absoluto"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor 1"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "214 Arabian Oasis"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Verde"
+    },
+    {
+      "brand": "STELLA DUSTİN",
+      "name": "San Marino"
+    },
+    {
+      "brand": "NAUTİCA",
+      "name": "Color Green"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Arbo Atlântica"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Bottled Bold Citrus"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Bade'e Al Oud Sublime"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentlemen Only"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
       "name": "Essencial Masculino"
     },
     {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Men"
+    },
+    {
       "brand": "NATURA",
       "name": "Kaiak Urbe"
     },
     {
-      "brand": "CAROLİNA HERRERA",
-      "name": "212 Men"
+      "brand": "NATURA",
+      "name": "Homem"
     },
     {
       "brand": "NATURA",
@@ -144,10 +237,6 @@
     {
       "brand": "NATURA",
       "name": "Kaiak"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Essencial Ato"
     },
     {
       "brand": "NATURA",
@@ -176,6 +265,68 @@
     {
       "brand": "NATURA",
       "name": "Homem Tato"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent1035817",
+      "author": "Tomorrowsdust",
+      "date": "2025-12-19",
+      "text": "Andrés Croxatto'yu biraz beğenebilir ya da pek beğenmeyebilirsiniz. Benim için parfüm yorumları konusunda bir referans noktası değil, ama onu dinlemenin çok eğlenceli olduğunu kabul etmeliyim. Andrés'in Natura hakkındaki videosunu izledikten sonra, binlerce parfümü olan birinin, hiç ilgi görmeyen bu kokuyu tüm kataloğun en iyisi olarak seçmiş olması dikkatimi çekti. Bu yüzden bir mağazaya gidip denedim.\n\nOrada bunun arkasındaki mantığı biraz anladım. Andrés, en sevdiği iki parfüm olan Bvlgari Man In Black'i hatırlatan bir Homem Tato'yu ya da Montblanc Starwalker'ı hatırlatan bir Kaiak Urbe'yi seçmedi. Aksine, ona başka şeyleri hatırlatacak kokuları eledi ve sonunda kendisine özgün gelen bir parfümü seçti. Bu sayfada benzer kokular olarak sunulan önerilere baktığınızda bunu doğrulayabilirsiniz; bu parfümün doğrudan bir kopyası olan hiçbir öneri yok.\n\nKoku kendisi farklı ve biraz zorlayıcı, hiç de sıradan değil. İlk başta karabiber çok hissediliyor ve arka planda bir tür deniz tabanı kokusu var. 30 derecelik yaz sıcaklarında kesinlikle kullanmazdım, ancak klimalı bir ofiste işe yarayabilir. Kalıcılığı oldukça iyi, sürdüğünüz andan itibaren 6-7 saat boyunca sorunsuz kalır.\n\nÖzetle, çok fazla parfümünüz yoksa ve tüm yıl boyunca kullanabileceğiniz bir koku arıyorsanız, bu güzel ve ucuz bir seçenek.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.161061.jpg"
+    },
+    {
+      "id": "parent1035824",
+      "author": "TAFOLU144000",
+      "date": "2024-05-28",
+      "text": "Ne yazık ki sevgili Fragrântica BR, sadece fikir ayrılıklarını belirtmek için eşlerine aşağılayıcı ifadeler kullanan erkek şovenistleri, feministleri, yaş ayrımcıları, yabancı düşmanlarını, ırkçıları, homofobikleri, eşcinselleri, heteroseksüelleri ve hatta evli kişileri içeren tartışmaların ve saygısız ifadelerin sahnesi haline geldi\n\nİfade özgürlüğü konusunda, bu cümlenin hiç bu kadar anlamlı olduğunu düşünmemiştim: ifade özgürlüğü, aynı fikirde olmasanız bile başkalarının görüşlerine saygı duymaktır (Eduardo Lima)",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.126021.jpg"
+    },
+    {
+      "id": "parent1035822",
+      "author": "Angel Boy",
+      "date": "2023-12-06",
+      "text": "Alanasousa'ya katılıyorum, arcturus'un yorumu ne kadar korkunç! Bence Fragrantica burada yazılanları daha iyi denetlemeli. Yaş ayrımcılığı korkunç bir önyargıdır. Üstelik bazı kişilerin kişisel – ve saçma sapan – görüşleri, parfüm hakkındaki bilgilere hiçbir katkıda bulunmaz. Ülkenin en büyük parfümörlerinden biri olarak tanınan Verônica Kato'ya bu şekilde hitap etmek, saçma sapan bir saygısızlıktır. Ne yazık ki dünya, bu tür bir karakterin bile dayanamayacağı bir hızla kaosa sürükleniyor. Kendisine benzer insanlardan, yaptığı hakaretin aynısını derinden hissetmesi için uzun ömür dilerim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.13724.jpg"
+    },
+    {
+      "id": "parent1035823",
+      "author": "Humberto Freie",
+      "date": "2023-05-15",
+      "text": "%100 samimi bir yorum:\nBu parfümü dün aldım ve şu anda deniyorum, ne diyebilirim ki? Muhteşem bir kokusu var, başlangıçta bergamot çok belirgin, bu parfümü tavsiye etmemek imkansız, karabiber başından itibaren hissediliyor, çiçeksi kısmı da çok hoş ve kokunun ömrü boyunca oldukça belirgin ama baskın olan bu harika karabiber, sonunda sadece misk ve baharatlı bir kısım kalıyor, Eğer bir imza parfüm arıyorsanız, bunu alın. Benim tenimde yayılımı fena değil, bir saat boyunca orta ila yüksek düzeyde yayılıyor ama kalıcılığı biraz yetersiz. Ancak geleneksel Natura Homme'dan farklı olarak, fiyatı nedeniyle düşük kalıcılığı yüzünden onu yerden yere vurmayacağım, hatta bu kokuyu geleneksel Homme'dan daha iyi buluyorum (ki ondan 3 şişe bitirdim). Cidden, kalıcılığı yüzünden onu tavsiye etmemek imkansız, düşük mü? Evet! Ciltte 4 ila 6 saat sürer, ancak Aqua di Gio, Allure Homme Sport veya hatta bazı daha ferah Creed parfümlerini tavsiye edenler var ve bahsettiğim tümü en fazla 4 ila 6 saat sürüyor, bu yüzden ben de onu bu şekilde sınıflandıracağım, kokusu için değer, neşeli, ferah ve baharatlı bir parfüm, kokusuna bayıldım, normal boy bir şişe ve bir minyatür aldım ve bittiğinde kesinlikle yenileyeceğim, arkadaşlar çok tavsiye ederim, ucuz bir fiyata çok yönlü bir parfüm istiyorsanız (Shopee'de 80/90 real civarında), alabilirsiniz, örneğin Aqua di Gio'dan daha çok tavsiye ederim, harika bir parfüm. Günlük kullanım için mükemmel, tek bir parfümünüz olsun istiyorsanız bunu tavsiye ederim, ya da çok yönlü bir aromatik parfüm arıyorsanız yine bunu tercih edin, günümüzde taze parfümlerin %90'ında bulunan o sabun kokusu olmayan harika aroması sayesinde %100 onaylı. Muhteşem.\nGözlemler ve güncellemeler:\nGünün sonu 21:50, ciltte tanıdıklarıma hala kokuyu hissedip hissetmediklerini sordum, 6 saat geçtikten sonra kokunun az çok kaldığını söylediler, ben de sormayı bıraktım, ortalama süre gerçekten 6 saat, giysilerde ise 8 saattir duruyor, parfüm gerçekten çok değer, artık aynı şeylerin tekrarı olmadığı için taze ve çok yönlü parfümlere şüpheyle bakmamı engelledi.\nKoku: 8/10 Taze parfümleri sevmesem de bunu beğendim\nKalıcılık: 6/10\nYayılma: 6/10\nÇok yönlülük: 8,5/10",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent1035818",
+      "author": "DALINATI",
+      "date": "2023-04-07",
+      "text": "Kocam ve ben bu parfümü çok sevdik. Kokusu çok güzel; biber ve bergamotun ilk notaları oldukça güçlü. Alt notalar çok uzun süre kalıyor, sıcaklık ve koruma hissi bırakıyor. Bu parfümü süren erkeği kucaklamak geliyor içimden, hehehe. Ne yazık ki eşim onu bir hazine gibi saklıyordu ve kullanmak istediğimizde çoktan buharlaşmıştı. Ne olduğunu anlayamadık çünkü daha eski başka parfümlerimiz de vardı ve onlara Humor a dois şişesinde olanlar yaşanmadı. ,😔💔",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.93371.jpg"
+    },
+    {
+      "id": "parent1035819",
+      "author": "Nahuel Chiguay",
+      "date": "2023-02-27",
+      "text": "Kokusu çok güzel, bergamot ve karabiberin kokusu öne çıkıyor. Biraz Dior Sauvage'ı andırıyor... (birazcık).\nÇok yönlü! Her türlü aktivite için ideal.\nKoku: 8,5/10\nKalıcılık: orta\nYayılma: orta (1:30 saat)\nİklimler: tüm\nYaş: 20 yaş ve üzeri.\n\nKesinlikle tavsiye edilir💫",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.113764.jpg"
     }
   ]
 }

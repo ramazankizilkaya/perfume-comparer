@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.7449.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Boadicea-the-Victorious/Agarwood-Collection-Emprise-7449.html",
   "brand": "Boadicea the Victorious parfüm ve kolonya",
-  "description": "Boadicea the Victorious markasının Agarwood Collection Emprise parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Üst notalar: Amalfi Limonu ve Baharatlı notalar; orta notalar: Zambak, Reçine, Şeftali ve Zencefil; alt notalar Agar ağacı (Oud), Baharatlı notalar, Sandal ağacı ve Misk.",
-  "description_original": "Boadicea the Victorious markasının Agarwood Collection Emprise parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Üst notalar: Amalfi Limonu ve Baharatlı notalar; orta notalar: Zambak, Reçine, Şeftali ve Zencefil; alt notalar Agar ağacı (Oud), Baharatlı notalar, Sandal ağacı ve Misk.",
-  "description_enhanced": "Boadicea the Victorious markasının Agarwood Collection Emprise parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Üst notalar: Amalfi Limonu ve Baharatlı notalar; orta notalar: Zambak, Reçine, Şeftali ve Zencefil; alt notalar Agar ağacı (Oud), Baharatlı notalar, Sandal ağacı ve Misk.",
+  "description": "Boadicea the Victorious markasının Agarwood Collection Emprise parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Üst notalar: Amalfi Limonu ve Baharatlı Notalar; orta notalar: Zambak, Reçine, Şeftali ve Zencefil; alt notalar Agar ağacı (Oud), Baharatlar, Sandal ağacı ve Misk.",
+  "description_original": "Boadicea the Victorious markasının Agarwood Collection Emprise parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Üst notalar: Amalfi Limonu ve Baharatlı Notalar; orta notalar: Zambak, Reçine, Şeftali ve Zencefil; alt notalar Agar ağacı (Oud), Baharatlar, Sandal ağacı ve Misk.",
+  "description_enhanced": "Boadicea the Victorious markasının Agarwood Collection Emprise parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Üst notalar: Amalfi Limonu ve Baharatlı Notalar; orta notalar: Zambak, Reçine, Şeftali ve Zencefil; alt notalar Agar ağacı (Oud), Baharatlar, Sandal ağacı ve Misk.",
   "mainAccords": [
     {
       "name": "ud",
@@ -49,6 +49,10 @@
     {
       "name": "balsamik",
       "width": "60.8%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -73,7 +77,7 @@
   "notes": {
     "top": [
       "Amalfi Limonu",
-      "Baharatlı notalar"
+      "Baharatlı Notalar"
     ],
     "middle": [
       "Zambak",
@@ -83,56 +87,40 @@
     ],
     "base": [
       "Agar ağacı (Oud)",
-      "Baharatlı notalar",
+      "Baharatlar",
       "Sandal ağacı",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "0",
-    "longLasting": "2",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "0",
-    "strong": "6",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Agarwood Collection Passionate"
-    },
-    {
-      "brand": "FARMACİA SS. ANNUNZİATA",
-      "name": "Aromadite"
-    },
-    {
-      "brand": "LAURA BİAGİOTTİ",
-      "name": "Sotto Voce"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mahora"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -194,5 +182,6 @@
       "brand": "MUGLER",
       "name": "A*Men"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -43,7 +43,7 @@
     }
   },
   "seasons": {
-    "winter": "2",
+    "winter": "3",
     "spring": "1",
     "summer": "0",
     "autumn": "2",
@@ -63,58 +63,38 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "0",
-    "longLasting": "0",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "0",
-    "strong": "2",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "HOUSE OF SİLLAGE",
-      "name": "Ruby Flame"
-    },
-    {
-      "brand": "AGENT PROVOCATEUR",
-      "name": "Strip 2008"
-    },
-    {
-      "brand": "AGENT PROVOCATEUR",
-      "name": "Strip"
-    },
-    {
-      "brand": "ALEXANDRİA FRAGRANCES",
-      "name": "Egyptian King"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Material"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
       "name": "XJ 1861 Zefiro"
     }
-  ]
+  ],
+  "comments": []
 }

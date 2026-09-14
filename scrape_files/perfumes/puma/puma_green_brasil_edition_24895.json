@@ -39,16 +39,44 @@
       "width": "51.1029%"
     },
     {
-      "name": "lavanta",
+      "name": "beyaz çiçeksi",
       "width": "45.4412%"
     },
     {
-      "name": "beyaz çiçeksi",
+      "name": "lavanta",
       "width": "45.4412%"
     },
     {
       "name": "pudralı",
       "width": "44.9265%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "1",
+    "moderate": "5",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "5",
+    "strong": "3",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "2",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "PUMA",
+      "name": "Green"
+    },
+    {
+      "brand": "BANANA REPUBLİC",
+      "name": "Malachite"
+    },
+    {
+      "brand": "PUMA",
+      "name": "Jam Man"
+    },
+    {
+      "brand": "ADİDAS",
+      "name": "Moves"
+    },
+    {
+      "brand": "PUMA",
+      "name": "Time to Play Man"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CAROLİNA HERRERA",
@@ -131,10 +180,6 @@
     {
       "brand": "GİANFRANCO FERRE",
       "name": "Gianfranco Ferre Bergamotto Marino"
-    },
-    {
-      "brand": "MOLYNEUX",
-      "name": "Quartz pour Homme"
     },
     {
       "brand": "GUCCİ",
@@ -175,6 +220,11 @@
     {
       "brand": "VERSACE",
       "name": "Versace Man Eau Fraiche"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Moschino Forever"
     }
-  ]
+  ],
+  "comments": []
 }

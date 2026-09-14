@@ -2,12 +2,12 @@
   "name": "Regatta Nautica",
   "targetGender": "erkekler için",
   "fragranceFamily": "Citrus",
-  "concentration": "Edt",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.8656.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Nautica/Regatta-8656.html",
   "brand": "Nautica parfüm ve kolonya",
   "description": "Nautica markasının Regatta parfümü, erkekler için bir kokudur. Regatta, 2009 yılında piyasaya sürüldü. Üst notalar: Portakal, Mandalina, Bergamot ve Kakule; orta notalar: Deniz Suyu, Nane, Aynısefa ve Misk Adaçayı; alt notalar Odunsu Notalar ve Misk.",
-  "description_original": "Nautica markasının Regatta parfümü, erkekler için bir kokudur. Regatta, 2009 yılında piyasaya sürüldü. Üst notalar: Portakal, Mandalina, Bergamot ve Kakule; orta notalar: Deniz Suyu, Nane, Aynısefa ve Misk Adaçayı; alt notalar Odunsu Notalar ve Misk.",
+  "description_original": "Nautica markasının Regatta parfümü, erkekler için bir kokudur. Regatta, 2009 yılında piyasaya sürüldü. Üst notalar: Portakal, Mandalina, Bergamot ve Kakule; orta notalar: Deniz Suyu, Nane, Kadife Çiçeği ve Misk Adaçayı; alt notalar Odunsu Notalar ve Misk.",
   "description_enhanced": "Nautica markasının Regatta parfümü, erkekler için bir kokudur. Regatta, 2009 yılında piyasaya sürüldü. Üst notalar: Portakal, Mandalina, Bergamot ve Kakule; orta notalar: Deniz Suyu, Nane, Aynısefa ve Misk Adaçayı; alt notalar Odunsu Notalar ve Misk.",
   "mainAccords": [
     {
@@ -41,6 +41,34 @@
     {
       "name": "misk",
       "width": "44.9333%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -72,7 +100,7 @@
     "middle": [
       "Deniz Suyu",
       "Nane",
-      "Aynısefa",
+      "Kadife Çiçeği",
       "Misk Adaçayı"
     ],
     "base": [
@@ -82,33 +110,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "4",
+    "moderate": "13",
+    "longLasting": "3",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "13",
+    "strong": "4",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "4",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HALLE BERRY",
+      "name": "Closer"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue pour Homme"
+    },
+    {
+      "brand": "KENNETH COLE",
+      "name": "Blue"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GİORGİO ARMANİ",
@@ -170,5 +211,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Armani Code"
     }
-  ]
+  ],
+  "comments": []
 }

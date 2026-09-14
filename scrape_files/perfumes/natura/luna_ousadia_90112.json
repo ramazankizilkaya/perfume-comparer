@@ -33,26 +33,54 @@
     {
       "name": "tatlı",
       "width": "51.875%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.95",
-    "votesCount": "162",
+    "score": "3.94",
+    "votesCount": "163",
     "breakdown": {
-      "love": "66",
+      "love": "67",
       "like": "54",
-      "ok": "18",
-      "dislike": "16",
-      "hate": "8"
+      "ok": "17",
+      "dislike": "15",
+      "hate": "10"
     }
   },
   "seasons": {
-    "winter": "62",
-    "spring": "68",
-    "summer": "34",
-    "autumn": "67",
+    "winter": "61",
+    "spring": "67",
+    "summer": "33",
+    "autumn": "66",
     "day": "70",
-    "night": "60"
+    "night": "59"
   },
   "notes": {
     "top": [],
@@ -66,33 +94,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "9",
+    "moderate": "55",
+    "longLasting": "28",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "11",
+    "moderate": "55",
+    "strong": "16",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "72",
+    "moreFemale": "18",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "18",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "3",
+    "fair": "17",
+    "goodValue": "44",
+    "greatValue": "9"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Mon Paris"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Lyra Happy"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor de Salto Alto"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor Capitiú"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Romance Reverie"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Luna"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "My Party"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Circus Fantasy"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Dot"
+    },
+    {
+      "brand": "LOLİTA LEMPİCKA",
+      "name": "So Sweet"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Exubérance"
+    },
+    {
+      "brand": "O.U.İ ORİGİNAL UNİQUE INDİVİDUAL",
+      "name": "La Villette 470"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Niina Secrets"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Oui La Vie est Belle"
+    },
+    {
+      "brand": "L’OCCİTANE AU BRÉSİL",
+      "name": "Ninfa das Águas Fascínio"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -124,6 +213,10 @@
     },
     {
       "brand": "NATURA",
+      "name": "Essencial Atrai"
+    },
+    {
+      "brand": "NATURA",
       "name": "Biografia Assinatura"
     },
     {
@@ -140,19 +233,16 @@
     },
     {
       "brand": "NATURA",
+      "name": "Aura Alba"
+    },
+    {
+      "brand": "NATURA",
       "name": "Luna"
     },
     {
       "brand": "NATURA",
-      "name": "Una Somos"
-    },
-    {
-      "brand": "NATURA",
       "name": "Una Senses"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Essencial Exclusivo Floral"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,59 +16,87 @@
     },
     {
       "name": "meyvemsi",
-      "width": "95.1721%"
+      "width": "96.7187%"
     },
     {
       "name": "vanilya",
-      "width": "90.3446%"
+      "width": "91.2501%"
     },
     {
       "name": "odunsu",
-      "width": "78.2758%"
+      "width": "80.7499%"
     },
     {
       "name": "tatlı",
-      "width": "75.6207%"
+      "width": "76.2654%"
+    },
+    {
+      "name": "çiçeksi",
+      "width": "74.625%"
     },
     {
       "name": "fındıksı",
       "width": "72%"
     },
     {
-      "name": "çiçeksi",
-      "width": "70.5516%"
-    },
-    {
       "name": "taze baharatlı",
-      "width": "54.1381%"
+      "width": "55.375%"
     },
     {
       "name": "acı",
-      "width": "49.0691%"
+      "width": "49.6877%"
     },
     {
-      "name": "pudralı",
-      "width": "48.1035%"
+      "name": "ekşi",
+      "width": "48.3971%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.46",
-    "votesCount": "63",
+    "score": "4.43",
+    "votesCount": "69",
     "breakdown": {
-      "love": "43",
-      "like": "10",
+      "love": "46",
+      "like": "12",
       "ok": "7",
-      "dislike": "2",
+      "dislike": "3",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "35",
-    "spring": "26",
+    "winter": "40",
+    "spring": "28",
     "summer": "14",
-    "autumn": "40",
-    "day": "26",
-    "night": "37"
+    "autumn": "45",
+    "day": "28",
+    "night": "41"
   },
   "notes": {
     "top": [],
@@ -82,33 +110,62 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "7",
+    "moderate": "25",
+    "longLasting": "6",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "25",
+    "strong": "8",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "29",
+    "moreFemale": "6",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "19",
+    "greatValue": "12"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Floratta Red Passion"
+    },
+    {
+      "brand": "HALLOWEEN",
+      "name": "Halloween Blossom"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Diva Esplêndida"
+    },
+    {
+      "brand": "REVLON",
+      "name": "Charlie"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kriska Atitude"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Biografia Assinatura"
+    },
+    {
+      "brand": "WE PİNK",
+      "name": "Infinity Tawny"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -124,15 +181,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Humor 5"
-    },
-    {
-      "brand": "NATURA",
       "name": "Ilía Secreto"
     },
     {
       "brand": "NATURA",
-      "name": "Tâmara e Canela"
+      "name": "Essencial Atrai"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -144,7 +197,7 @@
     },
     {
       "brand": "NATURA",
-      "name": "Maçã Caramelada e Baunilha"
+      "name": "Essencial Exclusivo"
     },
     {
       "brand": "NATURA",
@@ -152,11 +205,15 @@
     },
     {
       "brand": "NATURA",
-      "name": "Humor Envolve"
+      "name": "Maçã Caramelada e Baunilha"
     },
     {
       "brand": "NATURA",
       "name": "Frescor de Maracujá"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor Envolve"
     },
     {
       "brand": "NATURA",
@@ -168,7 +225,8 @@
     },
     {
       "brand": "NATURA",
-      "name": "Cereja Negra e Praliné"
+      "name": "Ilía Completa"
     }
-  ]
+  ],
+  "comments": []
 }

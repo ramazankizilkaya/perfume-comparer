@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Danah-43298.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Danah parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Kokuda Gül, Baharatlı notalar, Sandal ağacı, Agar ağacı (Oud), Vanilya ve Amber notaları bulunur.",
-  "description_original": "Rasasi markasının Danah parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Kokuda Gül, Baharatlı notalar, Sandal ağacı, Agar ağacı (Oud), Vanilya ve Amber notaları bulunur.",
+  "description_original": "Rasasi markasının Danah parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Kokuda Gül, Baharatlı Notalar, Sandal ağacı, Agar ağacı (Oud), Vanilya ve Amber notaları bulunur.",
   "description_enhanced": "Rasasi markasının Danah parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Kokuda Gül, Baharatlı notalar, Sandal ağacı, Agar ağacı (Oud), Vanilya ve Amber notaları bulunur.",
   "mainAccords": [
     {
@@ -27,16 +27,44 @@
       "width": "56.8333%"
     },
     {
-      "name": "amber",
+      "name": "ud",
       "width": "53.3333%"
     },
     {
-      "name": "ud",
+      "name": "amber",
       "width": "53.3333%"
     },
     {
       "name": "çiçeksi",
       "width": "51%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -64,7 +92,7 @@
     "base": [],
     "all": [
       "Gül",
-      "Baharatlı notalar",
+      "Baharatlı Notalar",
       "Sandal ağacı",
       "Agar ağacı (Oud)",
       "Vanilya",
@@ -72,33 +100,42 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "0",
+    "strong": "2",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUY LAROCHE",
+      "name": "Fidji Parfum"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Bad Boy Sparkling Ice"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AL HARAMAİN PERFUMES",
@@ -160,5 +197,6 @@
       "brand": "NOBİLE 1942",
       "name": "Malia"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,25 +49,53 @@
     {
       "name": "metalik",
       "width": "44.6079%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.66",
-    "votesCount": "85",
+    "score": "3.62",
+    "votesCount": "86",
     "breakdown": {
       "love": "22",
-      "like": "29",
-      "ok": "20",
+      "like": "28",
+      "ok": "21",
       "dislike": "11",
-      "hate": "3"
+      "hate": "4"
     }
   },
   "seasons": {
-    "winter": "19",
+    "winter": "20",
     "spring": "33",
     "summer": "28",
-    "autumn": "36",
-    "day": "37",
+    "autumn": "37",
+    "day": "38",
     "night": "26"
   },
   "notes": {
@@ -89,33 +117,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "14",
+    "moderate": "25",
+    "longLasting": "18",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "19",
+    "moderate": "25",
+    "strong": "18",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "19",
+    "moreMale": "18",
+    "male": "15"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "20",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "2",
+    "fair": "21",
+    "goodValue": "16",
+    "greatValue": "22"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ULRİC DE VARENS",
+      "name": "UDV Blue"
+    },
+    {
+      "brand": "MARC-ANTOİNE BARROİS",
+      "name": "Ganymede"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "Fierce"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Najdia in Gold"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme"
+    },
+    {
+      "brand": "MATİÈRE PREMİÈRE",
+      "name": "Crystal Saffron"
+    },
+    {
+      "brand": "ROBERTO CAVALLİ",
+      "name": "Roberto Cavalli Sweet Ferocious"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Solace"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Najdia"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Opulent Musk"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Rouat Al Musk"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -177,5 +250,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

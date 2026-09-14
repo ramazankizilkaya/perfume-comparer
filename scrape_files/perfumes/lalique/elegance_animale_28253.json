@@ -49,15 +49,43 @@
     {
       "name": "pudralı",
       "width": "49.019%"
+    },
+    {
+      "name": "Online satın alın 15 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.78",
-    "votesCount": "270",
+    "votesCount": "272",
     "breakdown": {
       "love": "74",
       "like": "123",
-      "ok": "20",
+      "ok": "22",
       "dislike": "46",
       "hate": "7"
     }
@@ -88,33 +116,82 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "18",
+    "moderate": "38",
+    "longLasting": "42",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "20",
+    "moderate": "38",
+    "strong": "51",
+    "enormous": "41"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "9",
+    "moreFemale": "7",
+    "unisex": "46",
+    "moreMale": "7",
+    "male": "11"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "20",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "8",
+    "overpriced": "16",
+    "fair": "22",
+    "goodValue": "6",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Velvet Rose & Oud"
+    },
+    {
+      "brand": "JEROBOAM",
+      "name": "Oriento"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Mystic Aromatic"
+    },
+    {
+      "brand": "LAURENT MAZZONE PARFUMS",
+      "name": "Lost Paradise"
+    },
+    {
+      "brand": "RİİFFS PERFUMES",
+      "name": "Mon Privé"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Velvet Oud"
+    },
+    {
+      "brand": "S.ISHİRA",
+      "name": "Leather of Dahman"
+    },
+    {
+      "brand": "FRANCK BOCLET",
+      "name": "Jasmin"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Aswad"
+    },
+    {
+      "brand": "COMPORTA PERFUMES",
+      "name": "Muda"
+    },
+    {
+      "brand": "CHOPARD",
+      "name": "Miel d'Arabie"
+    },
+    {
+      "brand": "FEDERİCO FUMO",
+      "name": "Immersus Emergo"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -176,5 +253,6 @@
       "brand": "NASOMATTO",
       "name": "Black Afgano"
     }
-  ]
+  ],
+  "comments": []
 }

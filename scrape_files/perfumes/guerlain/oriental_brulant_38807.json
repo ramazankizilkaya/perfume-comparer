@@ -82,90 +82,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "2",
-    "moderate": "7",
-    "longLasting": "6",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "7",
-    "moderate": "7",
-    "strong": "12",
-    "enormous": "16"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "4",
-    "unisex": "2",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "5",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "6",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Elixir Charnel Oriental Brulant"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Cologne du 68"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "L’Eau de Parfum du 68"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Guerlain Le Parfum du 68"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Le Parfum du 68 Extrait Le Passeur du Temps"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Flacon Tortue"
-    },
-    {
-      "brand": "SYLVAİNE DELACOURTE",
-      "name": "Vanori"
-    },
-    {
-      "brand": "AVON",
-      "name": "Aromadisiac for Her"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Parfum"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Eau de Parfum"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Eau de Cologne"
-    },
-    {
-      "brand": "LES ECUADORS",
-      "name": "Ambre"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Eau de Toilette"
-    },
-    {
-      "brand": "GOSH",
-      "name": "Nothing"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -184,12 +127,12 @@
       "name": "Coco Eau de Parfum"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Cuir Béluga"
-    },
-    {
       "brand": "DİOR",
       "name": "Hypnotic Poison"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Cuir Béluga"
     },
     {
       "brand": "GUERLAİN",
@@ -227,5 +170,6 @@
       "brand": "CHANEL",
       "name": "Coco Noir"
     }
-  ]
+  ],
+  "comments": []
 }

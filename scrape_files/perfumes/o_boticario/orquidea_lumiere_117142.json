@@ -33,26 +33,54 @@
     {
       "name": "yumuşak baharatlı",
       "width": "44.4444%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.18",
-    "votesCount": "113",
+    "score": "4.15",
+    "votesCount": "128",
     "breakdown": {
-      "love": "58",
-      "like": "30",
-      "ok": "15",
+      "love": "61",
+      "like": "38",
+      "ok": "19",
       "dislike": "7",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "51",
-    "spring": "48",
-    "summer": "16",
-    "autumn": "53",
-    "day": "43",
-    "night": "54"
+    "winter": "55",
+    "spring": "50",
+    "summer": "19",
+    "autumn": "58",
+    "day": "48",
+    "night": "57"
   },
   "notes": {
     "top": [],
@@ -65,19 +93,19 @@
   },
   "longevity": {
     "veryWeak": "3",
-    "weak": "19",
-    "moderate": "18",
+    "weak": "22",
+    "moderate": "21",
     "longLasting": "8",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "12",
-    "moderate": "18",
-    "strong": "8",
+    "intimate": "13",
+    "moderate": "21",
+    "strong": "9",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "36",
+    "female": "43",
     "moreFemale": "5",
     "unisex": "1",
     "moreMale": "0",
@@ -86,8 +114,8 @@
   "priceVoting": {
     "wayOverpriced": "4",
     "overpriced": "8",
-    "fair": "15",
-    "goodValue": "13",
+    "fair": "19",
+    "goodValue": "16",
     "greatValue": "4"
   },
   "remindsMeOf": [
@@ -97,7 +125,11 @@
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Orquídea Noire"
+      "name": "L'eau de Lily Soleil"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Olympéa"
     },
     {
       "brand": "VAN CLEEF & ARPELS",
@@ -105,11 +137,19 @@
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "L'eau de Lily Soleil"
+      "name": "Caviar"
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Caviar"
+      "name": "Orquídea Noire"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Diva Fabulosa"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Lady Million"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -120,32 +160,12 @@
       "name": "Sabrina Sato"
     },
     {
-      "brand": "RABANNE",
-      "name": "Olympéa"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Rio Radiance"
-    },
-    {
-      "brand": "RABANNE",
-      "name": "Lady Million"
-    },
-    {
       "brand": "LAURA BİAGİOTTİ",
       "name": "Uva Dulcis"
     },
     {
       "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Toilette"
-    },
-    {
-      "brand": "O BOTİCÁRİO",
-      "name": "Glamour Just Shine"
-    },
-    {
-      "brand": "EUDORA",
-      "name": "Diva Fabulosa"
+      "name": "Ange ou Demon"
     },
     {
       "brand": "WE PİNK",
@@ -191,11 +211,11 @@
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Her Code Clímax"
+      "name": "Floratta Flores Secretas"
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Floratta Flores Secretas"
+      "name": "Her Code Clímax"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -213,5 +233,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Floratta Red Passion"
     }
-  ]
+  ],
+  "comments": []
 }

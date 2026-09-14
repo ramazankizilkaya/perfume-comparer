@@ -44,11 +44,11 @@
     }
   ],
   "rating": {
-    "score": "3.55",
-    "votesCount": "53",
+    "score": "3.56",
+    "votesCount": "54",
     "breakdown": {
       "love": "8",
-      "like": "26",
+      "like": "27",
       "ok": "9",
       "dislike": "7",
       "hate": "3"
@@ -58,7 +58,7 @@
     "winter": "5",
     "spring": "19",
     "summer": "29",
-    "autumn": "8",
+    "autumn": "9",
     "day": "26",
     "night": "6"
   },
@@ -75,66 +75,41 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "6",
-    "weak": "9",
-    "moderate": "15",
-    "longLasting": "7",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "11",
-    "moderate": "15",
-    "strong": "6",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "3",
-    "moreFemale": "0",
-    "unisex": "10",
-    "moreMale": "13",
-    "male": "13"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "3",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "9",
-    "goodValue": "7",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "CLEAN",
-      "name": "Sel Santal"
-    },
-    {
-      "brand": "FRAGONARD",
-      "name": "Beau de Provence"
-    },
-    {
-      "brand": "ETAT LİBRE D'ORANGE",
-      "name": "Sous Le Pont Mirabeau"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dune Pour Homme"
-    },
-    {
-      "brand": "KENZO",
-      "name": "Kenzo Homme Eau de Toilette Intense"
-    },
-    {
-      "brand": "TORY BURCH",
-      "name": "Electric Sky"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
-    {
-      "brand": "ISSEY MİYAKE",
-      "name": "Le Sel d’Issey"
-    },
     {
       "brand": "DİOR",
       "name": "Fahrenheit"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "Le Sel d’Issey"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -165,12 +140,12 @@
       "name": "Gentleman Eau de Parfum Reserve Privée"
     },
     {
-      "brand": "KENZO",
-      "name": "Kenzo Homme Eau de Parfum"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Ombré Leather (2018)"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Kenzo Homme Eau de Parfum"
     },
     {
       "brand": "AKRO",
@@ -188,5 +163,6 @@
       "brand": "RABANNE",
       "name": "1 Million"
     }
-  ]
+  ],
+  "comments": []
 }

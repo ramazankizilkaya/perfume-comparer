@@ -16,55 +16,83 @@
     },
     {
       "name": "sıcak baharatlı",
-      "width": "96.713%"
+      "width": "95.7252%"
     },
     {
       "name": "taze baharatlı",
-      "width": "77.8121%"
+      "width": "76.6342%"
     },
     {
       "name": "aromatik",
-      "width": "74.0269%"
+      "width": "73.4766%"
     },
     {
       "name": "amber",
-      "width": "57.8904%"
+      "width": "58.175%"
     },
     {
       "name": "vanilya",
-      "width": "55.4502%"
+      "width": "55.1631%"
     },
     {
       "name": "tatlı",
-      "width": "48.906%"
+      "width": "48.6927%"
     },
     {
       "name": "balsamik",
-      "width": "48.1787%"
+      "width": "47.9737%"
     },
     {
       "name": "iris",
-      "width": "45.9375%"
+      "width": "45.5446%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.05",
-    "votesCount": "262",
+    "score": "4.03",
+    "votesCount": "277",
     "breakdown": {
-      "love": "99",
-      "like": "103",
-      "ok": "42",
-      "dislike": "11",
+      "love": "101",
+      "like": "110",
+      "ok": "46",
+      "dislike": "13",
       "hate": "7"
     }
   },
   "seasons": {
-    "winter": "156",
-    "spring": "127",
-    "summer": "39",
-    "autumn": "160",
-    "day": "115",
-    "night": "155"
+    "winter": "163",
+    "spring": "133",
+    "summer": "40",
+    "autumn": "169",
+    "day": "124",
+    "night": "165"
   },
   "notes": {
     "top": [],
@@ -80,33 +108,90 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "11",
+    "moderate": "78",
+    "longLasting": "93",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "15",
+    "moderate": "78",
+    "strong": "38",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "2",
+    "unisex": "10",
+    "moreMale": "49",
+    "male": "130"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "42",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "3",
+    "overpriced": "9",
+    "fair": "46",
+    "goodValue": "89",
+    "greatValue": "24"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Homem Neo"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essencial Ato"
+    },
+    {
+      "brand": "KORRES",
+      "name": "Pimenta Preta"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 VIP Black"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Uomini Moto Soul"
+    },
+    {
+      "brand": "GİSADA",
+      "name": "Titanium"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "Decibel"
+    },
+    {
+      "brand": "BENTLEY",
+      "name": "Momentum Intense"
+    },
+    {
+      "brand": "KORRES",
+      "name": "Cedro"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de L'Homme Bleu Électrique"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Al Nashama Caprice"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Jack Of Clubs"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Parfum"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Starwalker Extreme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -141,12 +226,16 @@
       "name": "Essencial Atrai"
     },
     {
-      "brand": "NATURA",
-      "name": "Essencial Oud"
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Le Parfum"
     },
     {
       "brand": "NATURA",
       "name": "Homem Essence"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essencial Oud"
     },
     {
       "brand": "NATURA",
@@ -163,10 +252,7 @@
     {
       "brand": "NATURA",
       "name": "Homem Verum"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Essencial Sentir"
     }
-  ]
+  ],
+  "comments": []
 }

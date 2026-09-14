@@ -41,6 +41,34 @@
     {
       "name": "lavanta",
       "width": "47.1663%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -57,7 +85,7 @@
   "seasons": {
     "winter": "3",
     "spring": "19",
-    "summer": "18",
+    "summer": "19",
     "autumn": "14",
     "day": "18",
     "night": "10"
@@ -82,33 +110,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "5",
+    "longLasting": "14",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "5",
+    "strong": "11",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "7",
+    "moreMale": "4",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "2",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ROJA DOVE",
+      "name": "Kingdom of Bahrain"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Apex Eau Intense"
+    },
+    {
+      "brand": "CERRUTİ",
+      "name": "1881 Essentiel"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "L'Ombre Dans L'Eau Eau de Toilette"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Comandante"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
@@ -147,12 +196,12 @@
       "name": "Jubilation XXV Man"
     },
     {
-      "brand": "XERJOFF",
-      "name": "Alexandria II"
-    },
-    {
       "brand": "CREED",
       "name": "Aventus"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Alexandria II"
     },
     {
       "brand": "XERJOFF",
@@ -170,5 +219,6 @@
       "brand": "XERJOFF",
       "name": "Golden Dallah"
     }
-  ]
+  ],
+  "comments": []
 }

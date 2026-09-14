@@ -16,59 +16,87 @@
     },
     {
       "name": "aromatik",
-      "width": "61.3822%"
+      "width": "61.5631%"
     },
     {
       "name": "misk",
-      "width": "59.4117%"
+      "width": "59.7394%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "55.706%"
+      "width": "56.4849%"
     },
     {
       "name": "taze baharatlı",
-      "width": "51.0734%"
+      "width": "51.0562%"
     },
     {
       "name": "yeşil",
-      "width": "50.7353%"
+      "width": "50.8736%"
     },
     {
       "name": "odunsu",
-      "width": "48.3824%"
+      "width": "48.3908%"
     },
     {
       "name": "pudralı",
-      "width": "46.9705%"
+      "width": "47.1141%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "45.3529%"
+      "width": "45.6552%"
     },
     {
       "name": "tatlı",
-      "width": "44.5294%"
+      "width": "44.7014%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.92",
-    "votesCount": "291",
+    "votesCount": "311",
     "breakdown": {
-      "love": "106",
-      "like": "102",
-      "ok": "43",
-      "dislike": "33",
+      "love": "114",
+      "like": "107",
+      "ok": "48",
+      "dislike": "35",
       "hate": "7"
     }
   },
   "seasons": {
-    "winter": "17",
-    "spring": "90",
-    "summer": "108",
-    "autumn": "28",
-    "day": "106",
-    "night": "26"
+    "winter": "19",
+    "spring": "99",
+    "summer": "119",
+    "autumn": "31",
+    "day": "117",
+    "night": "27"
   },
   "notes": {
     "top": [],
@@ -86,33 +114,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "10",
+    "weak": "14",
+    "moderate": "71",
+    "longLasting": "30",
+    "eternal": "13"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "33",
+    "moderate": "71",
+    "strong": "33",
+    "enormous": "14"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "14",
+    "unisex": "66",
+    "moreMale": "21",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "43",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "45",
+    "overpriced": "32",
+    "fair": "48",
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GEOFFREY BEENE",
+      "name": "Grey Flannel"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Azure Lime"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Eau Sauvage"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "La La Lime"
+    },
+    {
+      "brand": "HOUSE OF SİLLAGE",
+      "name": "The Classic"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "37 Shades of Limette"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Chinotto di Liguria"
+    },
+    {
+      "brand": "GOLDFİELD & BANKS AUSTRALİA",
+      "name": "Bohemian Lime"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Beach Walk"
+    },
+    {
+      "brand": "MONOTHEME VENEZİA",
+      "name": "Citrusy Blossom"
+    },
+    {
+      "brand": "MUELHENS",
+      "name": "Sumatra Rain"
+    },
+    {
+      "brand": "ELLE",
+      "name": "So Cute!"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Eau De Magnolia"
+    },
+    {
+      "brand": "N.C.P. OLFACTİVES",
+      "name": "102 Ginger & Lime"
+    },
+    {
+      "brand": "EAU JEUNE",
+      "name": "Senteurs Fraiches"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LE LABO",
@@ -159,10 +248,6 @@
       "name": "Gaiac 10 Tokyo"
     },
     {
-      "brand": "LE LABO",
-      "name": "Vanille 44 Paris"
-    },
-    {
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Baccarat Rouge 540"
     },
@@ -173,6 +258,11 @@
     {
       "brand": "LE LABO",
       "name": "Benjoin 19 Moscow"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Portrait of a Lady"
     }
-  ]
+  ],
+  "comments": []
 }

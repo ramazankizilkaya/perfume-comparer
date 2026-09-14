@@ -33,15 +33,43 @@
     {
       "name": "tatlı",
       "width": "44.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.96",
-    "votesCount": "55",
+    "score": "3.97",
+    "votesCount": "60",
     "breakdown": {
-      "love": "21",
-      "like": "20",
-      "ok": "7",
+      "love": "22",
+      "like": "23",
+      "ok": "8",
       "dislike": "5",
       "hate": "2"
     }
@@ -66,45 +94,54 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "9",
+    "longLasting": "0",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "9",
+    "strong": "0",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "14",
+    "moreFemale": "5",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "11",
+    "fair": "8",
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "FRAGONARD",
+      "name": "Belle Chérie Parfum"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Buongiorno Amore Mio"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
       "name": "Devotion"
     },
     {
-      "brand": "BURBERRY",
-      "name": "Goddess"
-    },
-    {
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Oud Satin Mood"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Goddess"
     },
     {
       "brand": "BDK PARFUMS",
@@ -154,5 +191,6 @@
       "brand": "PENHALİGON'S",
       "name": "Halfeti"
     }
-  ]
+  ],
+  "comments": []
 }

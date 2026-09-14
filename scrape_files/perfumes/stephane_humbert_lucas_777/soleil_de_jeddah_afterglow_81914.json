@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Stephane-Humbert-Lucas-777/Soleil-de-Jeddah-Afterglow-81914.html",
   "brand": "Stéphane Humbert Lucas 777 parfüm ve kolonya",
   "description": "Stéphane Humbert Lucas 777 markasının Soleil de Jeddah - Afterglow parfümü, kadınlar ve erkekler için bir kokudur. Soleil de Jeddah - Afterglow, 2022 yılında piyasaya sürüldü. Üst notalar: Papatya, Tütsü ve Bergamot; orta notalar: İris yağı, Mür, Amber ve Orkide; alt notalar Benzoin, Vetiver, Vanilya ve Styrax.",
-  "description_original": "Stéphane Humbert Lucas 777 markasının Soleil de Jeddah - Afterglow parfümü, kadınlar ve erkekler için bir kokudur. Soleil de Jeddah - Afterglow, 2022 yılında piyasaya sürüldü. Üst notalar: Papatya, Tütsü ve Bergamot; orta notalar: İris yağı, Mür, Amber ve Orkide; alt notalar Benzoin, Vetiver, Vanilya ve Styrax.",
+  "description_original": "Stéphane Humbert Lucas 777 markasının Soleil de Jeddah - Afterglow parfümü, kadınlar ve erkekler için bir kokudur. Soleil de Jeddah - Afterglow, 2022 yılında piyasaya sürüldü. Üst notalar: Papatya, Tütsü ve Bergamot; orta notalar: Mür, İris yağı, Amber ve Orkide; alt notalar Benzoin, Vetiver, Vanilya ve Styrax.",
   "description_enhanced": "Stéphane Humbert Lucas 777 markasının Soleil de Jeddah - Afterglow parfümü, kadınlar ve erkekler için bir kokudur. Soleil de Jeddah - Afterglow, 2022 yılında piyasaya sürüldü. Üst notalar: Papatya, Tütsü ve Bergamot; orta notalar: İris yağı, Mür, Amber ve Orkide; alt notalar Benzoin, Vetiver, Vanilya ve Styrax.",
   "mainAccords": [
     {
@@ -41,26 +41,54 @@
     {
       "name": "vanilya",
       "width": "45.2149%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.05",
-    "votesCount": "209",
+    "score": "4.06",
+    "votesCount": "216",
     "breakdown": {
-      "love": "99",
-      "like": "59",
+      "love": "102",
+      "like": "63",
       "ok": "25",
       "dislike": "15",
       "hate": "11"
     }
   },
   "seasons": {
-    "winter": "59",
+    "winter": "60",
     "spring": "47",
     "summer": "40",
-    "autumn": "73",
+    "autumn": "74",
     "day": "54",
-    "night": "65"
+    "night": "66"
   },
   "notes": {
     "top": [
@@ -69,8 +97,8 @@
       "Bergamot"
     ],
     "middle": [
-      "İris yağı",
       "Mür",
+      "İris yağı",
       "Amber",
       "Orkide"
     ],
@@ -98,8 +126,8 @@
   "genderVoting": {
     "female": "10",
     "moreFemale": "8",
-    "unisex": "42",
-    "moreMale": "29",
+    "unisex": "43",
+    "moreMale": "30",
     "male": "13"
   },
   "priceVoting": {
@@ -107,7 +135,7 @@
     "overpriced": "29",
     "fair": "25",
     "goodValue": "5",
-    "greatValue": "4"
+    "greatValue": "5"
   },
   "remindsMeOf": [
     {
@@ -123,12 +151,8 @@
       "name": "Sparkling Sand"
     },
     {
-      "brand": "XERJOFF",
-      "name": "Aqua Regia"
-    },
-    {
-      "brand": "RASASİ",
-      "name": "Shuhrah Pour Homme"
+      "brand": "SOOUD",
+      "name": "Asmar"
     },
     {
       "brand": "PHİLLY&PHİLL",
@@ -140,7 +164,11 @@
     },
     {
       "brand": "RASASİ",
-      "name": "Shaghaf Pour Homme"
+      "name": "Shuhrah Pour Homme"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Aqua Regia"
     },
     {
       "brand": "THE DUA BRAND",
@@ -212,5 +240,6 @@
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

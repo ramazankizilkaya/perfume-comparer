@@ -16,59 +16,87 @@
     },
     {
       "name": "vanilya",
-      "width": "95.9423%"
+      "width": "93.6364%"
     },
     {
       "name": "amber",
-      "width": "74.1306%"
+      "width": "83.9236%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "66.5217%"
-    },
-    {
-      "name": "beyaz çiçeksi",
-      "width": "60.4349%"
+      "width": "70.1912%"
     },
     {
       "name": "çikolata",
-      "width": "54.3477%"
-    },
-    {
-      "name": "pudralı",
-      "width": "53.5868%"
+      "width": "56.7944%"
     },
     {
       "name": "animalik",
-      "width": "50.2899%"
+      "width": "55.4544%"
     },
     {
-      "name": "narenciye",
-      "width": "45.2174%"
+      "name": "beyaz çiçeksi",
+      "width": "53.4448%"
+    },
+    {
+      "name": "pudralı",
+      "width": "53.2774%"
     },
     {
       "name": "balsamik",
-      "width": "44.4566%"
+      "width": "47.5838%"
+    },
+    {
+      "name": "laktonik",
+      "width": "44.7368%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.82",
-    "votesCount": "33",
+    "score": "4.65",
+    "votesCount": "62",
     "breakdown": {
-      "love": "28",
-      "like": "4",
-      "ok": "1",
-      "dislike": "0",
+      "love": "47",
+      "like": "10",
+      "ok": "3",
+      "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "26",
-    "spring": "9",
-    "summer": "4",
-    "autumn": "24",
-    "day": "19",
-    "night": "25"
+    "winter": "42",
+    "spring": "13",
+    "summer": "5",
+    "autumn": "41",
+    "day": "30",
+    "night": "41"
   },
   "notes": {
     "top": [
@@ -89,41 +117,102 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "7",
+    "longLasting": "20",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "7",
+    "strong": "21",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "21",
+    "male": "10"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "3",
+    "goodValue": "8",
+    "greatValue": "14"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Althaïr"
+    },
     {
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
     },
     {
+      "brand": "FRENCH AVENUE",
+      "name": "Liquid Brun Limited Edition"
+    },
+    {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Island Vanilla Dunes"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Art Of Nature II"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Historic Sahara"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Monarque"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Brûlée"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "PERSEVIRON"
+    },
+    {
+      "brand": "BUJAİRAMİ",
+      "name": "Legacy"
+    },
+    {
+      "brand": "FERRARİ",
+      "name": "Ferrari Black"
+    },
+    {
+      "brand": "BLİND BARBER",
+      "name": "Speakeasy"
+    },
+    {
+      "brand": "GİSSAH",
+      "name": "Sanad"
+    },
+    {
+      "brand": "CAMARA PERFUMES",
+      "name": "Atelier"
+    },
+    {
+      "brand": "IBRAHİM AL QURASHİ",
+      "name": "Nude Coral Diamond"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Liquid Brun"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -134,10 +223,6 @@
       "name": "Hawas Elixir"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas Malibu"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
     },
@@ -146,16 +231,20 @@
       "name": "Asad Elixir"
     },
     {
+      "brand": "RASASİ",
+      "name": "Hawas Malibu"
+    },
+    {
       "brand": "AZZARO",
       "name": "Wanted by Night"
     },
     {
-      "brand": "AFNAN",
-      "name": "Supremacy Collector's Edition Pour Homme"
-    },
-    {
       "brand": "CALVİN KLEİN",
       "name": "CK One Shock For Him"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Supremacy Collector's Edition Pour Homme"
     },
     {
       "brand": "PARFUMS DE MARLY",
@@ -174,8 +263,9 @@
       "name": "Hawas Ice"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas Highness"
+      "brand": "MONTBLANC",
+      "name": "Explorer Extreme"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -33,6 +33,34 @@
     {
       "name": "animalik",
       "width": "45.0606%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -74,33 +102,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "1",
+    "moderate": "5",
+    "longLasting": "6",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "5",
+    "strong": "8",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "2",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Pure Poison"
+    },
+    {
+      "brand": "JESUS DEL POZO",
+      "name": "Jesus Del Pozo In White"
+    },
+    {
+      "brand": "DAVİD BECKHAM",
+      "name": "Intimately Beckham"
+    },
+    {
+      "brand": "AVON",
+      "name": "Rare Pearls"
+    },
+    {
+      "brand": "DAVİD BECKHAM",
+      "name": "Intimately Beckham Night"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Gardénia Antigua"
+    },
+    {
+      "brand": "NUANCİELO",
+      "name": "Letal Poison"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -135,14 +192,6 @@
       "name": "Pleasures"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Eau de Parfum"
-    },
-    {
-      "brand": "CERRUTİ",
-      "name": "1881"
-    },
-    {
       "brand": "SARAH JESSİCA PARKER",
       "name": "Lovely"
     },
@@ -161,6 +210,15 @@
     {
       "brand": "FRAGRANCE WORLD",
       "name": "Passion De Night"
+    },
+    {
+      "brand": "KENZO",
+      "name": "L'Eau par Kenzo"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Kenzo Jungle L'Elephant"
     }
-  ]
+  ],
+  "comments": []
 }

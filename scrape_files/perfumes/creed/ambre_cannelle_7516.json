@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.7516.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Creed/Ambre-Cannelle-7516.html",
   "brand": "Creed parfüm ve kolonya",
-  "description": "Creed markasının Ambre Cannelle parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi Gurme bir kokudur. Ambre Cannelle, 1949 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun James Henry Creed. Üst notalar: Kırmızı meyveler ve Bergamot; orta notalar: Gül tentürü ve Kişniş; alt notalar Amber, Baharatlı notalar ve Vanilya.",
-  "description_original": "Creed markasının Ambre Cannelle parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi Gurme bir kokudur. Ambre Cannelle, 1949 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun James Henry Creed. Üst notalar: Kırmızı meyveler ve Bergamot; orta notalar: Gül tentürü ve Kişniş; alt notalar Amber, Baharatlı notalar ve Vanilya.",
-  "description_enhanced": "Creed markasının Ambre Cannelle parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi Gurme bir kokudur. Ambre Cannelle, 1949 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun James Henry Creed. Üst notalar: Kırmızı meyveler ve Bergamot; orta notalar: Gül tentürü ve Kişniş; alt notalar Amber, Baharatlı notalar ve Vanilya.",
+  "description": "Creed markasının Ambre Cannelle parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi Gurme bir kokudur. Ambre Cannelle, 1949 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun James Henry Creed. Üst notalar: Kırmızı meyveler ve Bergamot; orta notalar: Gül tentürü ve Kişniş; alt notalar Amber, Baharatlar ve Vanilya.",
+  "description_original": "Creed markasının Ambre Cannelle parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi Gurme bir kokudur. Ambre Cannelle, 1949 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun James Henry Creed. Üst notalar: Kırmızı meyveler ve Bergamot; orta notalar: Gül tentürü ve Kişniş; alt notalar Amber, Baharatlar ve Vanilya.",
+  "description_enhanced": "Creed markasının Ambre Cannelle parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi Gurme bir kokudur. Ambre Cannelle, 1949 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun James Henry Creed. Üst notalar: Kırmızı meyveler ve Bergamot; orta notalar: Gül tentürü ve Kişniş; alt notalar Amber, Baharatlar ve Vanilya.",
   "mainAccords": [
     {
       "name": "amber",
@@ -49,14 +49,42 @@
     {
       "name": "yumuşak baharatlı",
       "width": "50.5484%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.84",
-    "votesCount": "67",
+    "votesCount": "68",
     "breakdown": {
       "love": "29",
-      "like": "18",
+      "like": "19",
       "ok": "1",
       "dislike": "18",
       "hate": "1"
@@ -81,7 +109,7 @@
     ],
     "base": [
       "Amber",
-      "Baharatlı notalar",
+      "Baharatlar",
       "Vanilya"
     ],
     "all": []
@@ -154,11 +182,15 @@
     },
     {
       "brand": "CREED",
-      "name": "Erolfa"
+      "name": "Tabarome"
     },
     {
-      "brand": "CREED",
-      "name": "Tabarome"
+      "brand": "CHANEL",
+      "name": "Bleu de Chanel"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Bel Ami"
     },
     {
       "brand": "TOM FORD",
@@ -191,10 +223,7 @@
     {
       "brand": "DİOR",
       "name": "Eau Sauvage"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Kouros"
     }
-  ]
+  ],
+  "comments": []
 }

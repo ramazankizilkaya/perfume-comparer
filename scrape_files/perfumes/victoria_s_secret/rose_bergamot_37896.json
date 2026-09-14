@@ -73,50 +73,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "4",
-    "moderate": "6",
-    "longLasting": "2",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "6",
-    "strong": "5",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "12",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "6",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JUNAİD JAMSHED",
-      "name": "J. Pour Femme"
-    },
-    {
-      "brand": "TRUSSARDİ",
-      "name": "Trussardi Delicate Rose"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "XO Victoria"
-    },
-    {
-      "brand": "MAİSON CRİVELLİ",
-      "name": "Rose SaltifOlia"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "PARFUMS DE MARLY",
@@ -132,11 +115,11 @@
     },
     {
       "brand": "VİCTORİA'S SECRET",
-      "name": "Eau So Sexy"
+      "name": "Bombshell"
     },
     {
       "brand": "VİCTORİA'S SECRET",
-      "name": "Bombshell"
+      "name": "Eau So Sexy"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -160,7 +143,7 @@
     },
     {
       "brand": "BVLGARİ",
-      "name": "Omnia Crystalline"
+      "name": "Omnia Crystalline Eau de Toilette"
     },
     {
       "brand": "KATY PERRY",
@@ -178,5 +161,6 @@
       "brand": "BRİTNEY SPEARS",
       "name": "Midnight Fantasy"
     }
-  ]
+  ],
+  "comments": []
 }

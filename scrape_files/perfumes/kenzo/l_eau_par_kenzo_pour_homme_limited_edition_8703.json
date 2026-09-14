@@ -77,46 +77,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "3",
-    "moderate": "7",
-    "longLasting": "2",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "7",
-    "strong": "2",
-    "enormous": "6"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "3",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "KENZO",
-      "name": "L'Eau par Kenzo pour Homme"
-    },
-    {
-      "brand": "KENZO",
-      "name": "L'Eau 2 Kenzo pour Homme"
-    },
-    {
-      "brand": "KENZO",
-      "name": "L'Eau par Kenzo Mirror Edition pour Homme"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -178,5 +165,6 @@
       "brand": "JOOP!",
       "name": "Joop! Homme"
     }
-  ]
+  ],
+  "comments": []
 }

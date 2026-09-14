@@ -16,50 +16,82 @@
     },
     {
       "name": "çiçeksi",
-      "width": "72.2059%"
+      "width": "86.356%"
     },
     {
       "name": "misk",
-      "width": "65%"
+      "width": "77.8532%"
     },
     {
       "name": "pudralı",
-      "width": "57.5884%"
+      "width": "64.4067%"
     },
     {
       "name": "narenciye",
-      "width": "53.6764%"
+      "width": "60.452%"
     },
     {
       "name": "meyvemsi",
-      "width": "52.2352%"
-    },
-    {
-      "name": "tatlı",
-      "width": "45.4413%"
+      "width": "53.7287%"
     },
     {
       "name": "yumuşak baharatlı",
-      "width": "45.2353%"
+      "width": "50.5648%"
+    },
+    {
+      "name": "taze",
+      "width": "48.9832%"
+    },
+    {
+      "name": "tatlı",
+      "width": "48.7853%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.70",
-    "votesCount": "43",
+    "score": "3.75",
+    "votesCount": "61",
     "breakdown": {
-      "love": "11",
-      "like": "14",
-      "ok": "13",
+      "love": "17",
+      "like": "20",
+      "ok": "18",
       "dislike": "4",
-      "hate": "1"
+      "hate": "2"
     }
   },
   "seasons": {
     "winter": "2",
-    "spring": "13",
-    "summer": "13",
-    "autumn": "3",
-    "day": "11",
+    "spring": "17",
+    "summer": "18",
+    "autumn": "4",
+    "day": "15",
     "night": "4"
   },
   "notes": {
@@ -83,19 +115,19 @@
   "longevity": {
     "veryWeak": "0",
     "weak": "1",
-    "moderate": "8",
-    "longLasting": "1",
+    "moderate": "12",
+    "longLasting": "2",
     "eternal": "1"
   },
   "sillage": {
     "intimate": "1",
-    "moderate": "8",
-    "strong": "1",
+    "moderate": "12",
+    "strong": "2",
     "enormous": "1"
   },
   "genderVoting": {
-    "female": "9",
-    "moreFemale": "6",
+    "female": "12",
+    "moreFemale": "9",
     "unisex": "3",
     "moreMale": "0",
     "male": "0"
@@ -103,7 +135,7 @@
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "4",
-    "fair": "13",
+    "fair": "18",
     "goodValue": "0",
     "greatValue": "1"
   },
@@ -117,29 +149,95 @@
       "name": "Chloé Eau de Parfum"
     },
     {
-      "brand": "EX NİHİLO",
-      "name": "Lust in Paradise"
+      "brand": "PAUL SMİTH",
+      "name": "Paul Smith Rose"
     },
     {
-      "brand": "LANCÔME",
-      "name": "Mille et Une Roses"
+      "brand": "EX NİHİLO",
+      "name": "Lust in Paradise"
     },
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Delina La Rosée"
     },
     {
+      "brand": "LANCÔME",
+      "name": "Mille et Une Roses"
+    },
+    {
+      "brand": "ANTHOLOGİE",
+      "name": "Rose Abricot"
+    },
+    {
+      "brand": "ANTİ",
+      "name": "Rosa Antiqua"
+    },
+    {
       "brand": "GRİTTİ",
       "name": "Monica"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "CREED",
+      "name": "Eladaria"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Delina"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Eau Rose Eau De Parfum"
     },
     {
       "brand": "MEMO PARİS",
       "name": "French Leather"
     },
     {
-      "brand": "PENHALİGON'S",
-      "name": "Luna"
+      "brand": "PARFUMS DE MARLY",
+      "name": "Delina Exclusif"
+    },
+    {
+      "brand": "CREED",
+      "name": "Wild Vetiver"
+    },
+    {
+      "brand": "MEMO PARİS",
+      "name": "Odéon"
+    },
+    {
+      "brand": "MEMO PARİS",
+      "name": "Inlé"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Mojave Ghost"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "L'Eau Papier"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "724"
+    },
+    {
+      "brand": "MEMO PARİS",
+      "name": "Ithaque"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Les Sables Roses"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Aqua Allegoria Pamplelune"
+    },
+    {
+      "brand": "MEMO PARİS",
+      "name": "Madurai"
     }
   ],
-  "peopleAlsoLike": []
+  "comments": []
 }

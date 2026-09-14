@@ -16,59 +16,87 @@
     },
     {
       "name": "taze baharatlı",
-      "width": "92.7451%"
+      "width": "92.1835%"
     },
     {
       "name": "aromatik",
-      "width": "91.4002%"
+      "width": "90.7111%"
     },
     {
       "name": "taze",
-      "width": "83.7916%"
+      "width": "85.4885%"
     },
     {
       "name": "odunsu",
-      "width": "76.183%"
+      "width": "76.6553%"
     },
     {
       "name": "sulu",
-      "width": "69.7777%"
+      "width": "70.8014%"
     },
     {
       "name": "yeşil",
-      "width": "62.9826%"
+      "width": "62.9498%"
     },
     {
       "name": "amber",
-      "width": "60.7887%"
+      "width": "60.8466%"
     },
     {
       "name": "yosunlu",
-      "width": "54.4184%"
+      "width": "54.8873%"
     },
     {
       "name": "toprak",
-      "width": "47.093%"
+      "width": "47.4211%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.07",
-    "votesCount": "474",
+    "score": "4.08",
+    "votesCount": "487",
     "breakdown": {
-      "love": "203",
-      "like": "158",
+      "love": "210",
+      "like": "163",
       "ok": "68",
-      "dislike": "33",
+      "dislike": "34",
       "hate": "12"
     }
   },
   "seasons": {
-    "winter": "75",
-    "spring": "256",
-    "summer": "274",
-    "autumn": "184",
-    "day": "311",
-    "night": "149"
+    "winter": "78",
+    "spring": "263",
+    "summer": "284",
+    "autumn": "190",
+    "day": "319",
+    "night": "153"
   },
   "notes": {
     "top": [
@@ -91,33 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "14",
+    "weak": "49",
+    "moderate": "201",
+    "longLasting": "56",
+    "eternal": "14"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "85",
+    "moderate": "201",
+    "strong": "40",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "1",
+    "unisex": "39",
+    "moreMale": "109",
+    "male": "194"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "65",
+    "overpriced": "117",
     "fair": "68",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "27",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CARTİER",
+      "name": "Declaration Essence"
+    },
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez For Him Bleu Noir Eau De Toilette Extreme"
+    },
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez for Him Bleu Noir"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "Declaration"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermes Eau Tres Fraiche"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Guerlain Homme L'Eau Boisée"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Emeer"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
+    },
+    {
+      "brand": "BRİONİ",
+      "name": "Brioni Eau de Parfum Eclat"
+    },
+    {
+      "brand": "IN THE BOX",
+      "name": "Terra"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès Eau Givree"
+    },
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez For Her"
+    },
+    {
+      "brand": "CONDÉ PARFUM",
+      "name": "Chypre Clair"
+    },
+    {
+      "brand": "ANİMALE",
+      "name": "Animale Sport"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Fire"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -138,10 +227,6 @@
     {
       "brand": "DİOR",
       "name": "Sauvage"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Homem"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -178,6 +263,92 @@
     {
       "brand": "O BOTİCÁRİO",
       "name": "The Blend Cardamom"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "The Blend Eau de Parfum"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent793294",
+      "author": "JusttheFactsMan",
+      "date": "2025-06-09",
+      "text": "\"Tour de Fragrance\" listemde 1285. sırada\n\nBunu değerlendirmek için 60 dolar ödedim, böylece siz ödemek zorunda kalmayacaksınız. Kesinlikle kimse \"Kullandığın kolonya nedir?\" diye sormayacak, çünkü kokusu kol mesafesinden bile yayılmıyor.\n\nBu, standart bir yazlık ferahlatıcı parfüm. Bu benim üçüncü Zaad parfümüm ve diğer ikisi gibi sıradan. Cartier \"Declaration Essence\"ın EDP versiyonu gibi ve bu parfümün eksikliği de yoktu. Bu, spor çantamda tuttuğum türden bir parfüm. Özel bir yanı yok. Brezilyalılar, Natura'nın \"Homem\" kokuları, \"Elo\", \"Neo\", \"Aromaticos\" ve \"Essencial\" ile benzerliğini fark edeceklerdir. Rasasi \"Hawas Black\" ve \"Fattan\", Lalique \"Pour Homme\" (Lion), Azzaro \"Chrome\" EDP ve Parfum, hepsi aynı kumaştan kesilmiş.\n\nEDT'den memnunsanız, Jaguar for Men (yeşil şişede), 90'ların eski favorisi \"Bob Mackie for Men\", bir düzine Nautica parfümünden herhangi biri, herhangi bir Lanvin blue da işinizi görür. Kaliteyi ve fazla püskürtme ihtiyacını hiç umursamıyorsanız, herhangi bir Adidas, Ferrari, Cremo veya Reebok da aynı işi görür. Tommy Bahama kolonyalarını da eklerdim, ama fiyatları aldığınız ürün için çok saçma. Hepsi temelde 15 dolardan daha ucuza ferahlamak için aptalca bir seçim. Ama aynı paraya Territoire EDP'leri alabilirsiniz, neden almayasınız? Harika değiller, ama öğle yemeğine kadar idare ederler.\n\nBu, araba paylaşımı, asansör ve küçük ofisler için uygundur. İş veya eğlence için yazlık giyim. Ama fiyatı göz önüne alındığında, ben bu parayı harcamazdım.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1733487.jpg"
+    },
+    {
+      "id": "parent793300",
+      "author": "AndressaFiglie",
+      "date": "2024-03-09",
+      "text": "Narenciye kokusu almıyorum, ama dayanılmaz bir tatlılığa ulaşan soğuk bir koku alıyorum. Bu parfüm beni birçok yönden heyecanlandırıyor. Erkek arkadaşıma hediye ettim ve onun üzerinde bu kokuyu çok seviyorum.\nBoticário'nun başarılı bir ürünü. Şişe, kapak, sprey, renkler çok kaliteli.\nAyrıca bu parfümün paylaşılabilir olduğunu düşünüyorum. Birçok kadın bu kokuyu sevebilir.\nBu serideki en sevdiğim parfüm.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.66408.jpg"
+    },
+    {
+      "id": "parent793298",
+      "author": "Trevisan",
+      "date": "2024-03-09",
+      "text": "Zaman, bu parfümün piyasaya sürüldüğü dönemde maruz kaldığı haksızlığı kanıtladı. İnsanlar, parfümün verdiği hissi anlamadan onu yerden yere vurdular. Benzer bir parfüm olan Declaration da aynı performansı sergiliyor.\n\nHarika bir parfüm! Huzur, ıslak toprak kokusu, yağmur, çok iyi bir his veriyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.85143.gif"
+    },
+    {
+      "id": "parent1023986",
+      "author": "Cadu Cadu",
+      "date": "2023-12-19",
+      "text": "Harika bir parfüm. Yorumlar yüzünden bunu denemek için epey bekledim. Bir daha başkalarının görüşleri yüzünden bir şeyi denemekten vazgeçmeyeceğim, başkalarının kafasından karar almayacağım.\n\nNeyse, ne hoş bir parfüm, kokladığımda ağzımdan bir gülümseme kaçtı, bu kadar güzel olacağına inanamıyordum. İlk başta, başlangıçtaki bu PORTAKAL kokusu yüzünden aklıma Terre Dhermes eau givre'nin açılışı geldi, bana çok benziyor, sonra insanların bunu hiç denemediğim geleneksel terre dhermes'e çok benzediğini düşündüklerini gördüm.\n\nYayılma ve kalıcılık konusunda, parfümün konseptinde hiçbir değişiklik yok. EAU GIVRE'nin performansı aynı ve fiyatı iki katından fazla. Ahh, fiyat-performans demişken, aşağıda fiyat ve performansı eleştiren ilk kişi, kendi top 5 listesinde 1000,00'dan fazla olan, düşük performanslı, samimi bir parfüm olan BLEU DE CHANEL PARFUM'u bulunduruyor. Anlayın artık.\n\nÖzetle; yerli ürünü küçümseme konusunda uzman yorumcular \"SAYESİNDE\", bu harika parfümü tanımam 5 ay sürdü.\n\nAncak eşim, su notaları içeren parfümlere karşı bir isteksizlik duyuyor, Calone. Parfümü sürdüğümde, 20 dakika sonra parfüm hakkında yorum yaptı. Yeni bir parfüm kullandığımı söyledim ve hangi kokuyu aldığını sordum. Bana yaklaştı ve yumurta kokusu geldiğini söyledi. Bir süre sonra yumurta kokusunun kaybolduğunu söyledi.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent793299",
+      "author": "Eu, Mateus.",
+      "date": "2023-08-20",
+      "text": "Koku çok hoş! Cildimde, zencefil ile birlikte Sicilya limonunun çok hoş bir kokusu hissedildi. Ayrıca bergamottan geldiği kesin olan bir narenciye kokusu da hissettim.\n\nGelişiminde çok narin, ferah bir koku ortaya çıkıyor. Çay kokusu, temiz cilt kokusu veren misk ve ayrıca sardunyadan gelen neşeli ve ışıltılı çiçeksi bir ferahlık dikkat çekiyor.\n\nOdunsu bir koku değil, odunsu notalar var ama belirgin değil. Hafif bir sedir kokusu var ama çok hafif.\n\nAyrıca bu parfümün çok soğuk veya deniz kokusu olduğunu da hissetmedim. Hayır. Hafif, rahat ve dengeli olması için özenle çalışılmış yapısından kaynaklanan bir tazelik var.\n\nPaylaşılabilir buldum. Bazı anlarda bana çok kokulu ve pahalı çay sabunlarını hatırlatıyor. Diğer anlarda ise daha çok amber akorunu fark ettim, ancak çok şeffaf, sabunsu bir koku veren reçineli bir koku.\n\nGenel olarak, Sicilya limonu, zencefil, çay, sardunya ve bir tutam sedir kokusunu çok hissettim.\n\nHepsi çok güzel. Çok uyumlu.\nÇok beğendim. Ağır olmayan, rahatsız edici olmayan, ferahlık isteyen ama çok bariz olmayan bir koku arayanlara bu parfümü denemelerini tavsiye ederim.\n\nZaad'ımın en zarif ferahlığı.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.35246.jpg"
+    },
+    {
+      "id": "parent1023984",
+      "author": "narceliobt",
+      "date": "2023-08-15",
+      "text": "Son derece hoş ve çok yönlü bir parfüm; bana göre çok zarif ve rafine, öne çıkan bir \"yeşil\" notası var.\n\nBende yaklaşık 7-8 saat kalıcıdır, 1,5 saatlik bir yayılımı vardır, sonrasında cilde daha yakın hale gelir, ancak hareket ettiğimde her zaman algılanabilir.\n\nNot: Aylar sonra Narciso Rodriguez Bleu Noir EDT'yi satın aldım ve arkadaşlar, kesin bir şekilde söyleyebilirim ki, birbirlerine en az %80 benziyorlar... İkisini birden almaya değmez ve fiyat-fayda oranı, biraz daha hafif olması ve dolayısıyla çok yönlülüğü nedeniyle Zaad'ı tercih ediyorum ve Narciso'dan vazgeçiyorum.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.55916.jpg"
+    },
+    {
+      "id": "parent1023985",
+      "author": "AndreFL",
+      "date": "2023-08-08",
+      "text": "Ne harika bir koku! Bu seri asla hayal kırıklığına uğratmaz; sadece harika kokular, kaliteli hammaddeler ve zarafet. Hiçbiri bomba gibi bir etki yaratmayı amaçlamıyor, en yoğun olan Santal bile, hepsi samimi ve zarif. Bu parfüm ferah, elemi kaynaklı olduğu tahmin edilen hafif bir tatlılık ve çok güzel bir yosun kokusu var. Akşam veya gece dışarı çıkarken güzel kokmak isteyenler için kesinlikle denemeye değer. Eğer sadece bombastik tatlı veya oryantal parfümler olsaydı işler çok zor olurdu. Tüm seri gibi bu Zaad da kesinlikle denemeye değer.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.97271.jpg"
+    },
+    {
+      "id": "parent793293",
+      "author": "robson_martello",
+      "date": "2023-06-03",
+      "text": "Parfümü gerçekten çok beğendim. Brezilya'da bu parfümün ne kadar uzun süre dayandığı konusunda büyük bir tartışma yaşandı, çünkü bu bir EDP (Eau de Parfum). Şahsen, YouTuber'ların ZAAD Arctic'in performansı hakkında yaptıkları tüm bu abartılı yorumlar ve karışık görüşlerin sadece akıllıca bir pazarlama stratejisi olduğunu düşünüyorum!\n\nBugün bir mağazada denedim ve altı saat sonra bile cildimde kokuyu hala alabiliyorum. Kesinlikle iddialarına uygun ve ben çok beğendim!",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1542000.jpg"
     }
   ]
 }

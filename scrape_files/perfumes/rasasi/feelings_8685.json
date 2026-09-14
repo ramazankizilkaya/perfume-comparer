@@ -49,6 +49,38 @@
     {
       "name": "gül",
       "width": "53.9726%"
+    },
+    {
+      "name": "Online satın alın 9 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -89,33 +121,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "9",
+    "moderate": "17",
+    "longLasting": "24",
+    "eternal": "11"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "17",
+    "strong": "19",
+    "enormous": "14"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "15",
+    "moreFemale": "4",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "0",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MONTALE",
+      "name": "Vanilla Extasy"
+    },
+    {
+      "brand": "DZİNTARS",
+      "name": "I Love Dreaming"
+    },
+    {
+      "brand": "ROBERTO CAVALLİ",
+      "name": "Just Cavalli Her"
+    },
+    {
+      "brand": "HALLE BERRY",
+      "name": "Halle"
+    },
+    {
+      "brand": "REVLON",
+      "name": "Love Her Madly"
+    },
+    {
+      "brand": "MİCHAEL KORS",
+      "name": "Midnight Shimmer"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Insolence Eau Glacée"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Eau Duelle Eau de Toilette"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Eau Duelle Eau de Parfum"
+    },
+    {
+      "brand": "GOUTAL",
+      "name": "Vanille Exquise"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Decadence"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Casablanca"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Le Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LALİQUE",
@@ -177,5 +262,6 @@
       "brand": "CALVİN KLEİN",
       "name": "Euphoria"
     }
-  ]
+  ],
+  "comments": []
 }

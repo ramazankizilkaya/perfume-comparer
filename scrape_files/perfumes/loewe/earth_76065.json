@@ -16,59 +16,87 @@
     },
     {
       "name": "menekşe",
-      "width": "83.3298%"
+      "width": "83.6792%"
     },
     {
       "name": "sarı çiçeksi",
-      "width": "79.0038%"
+      "width": "78.6373%"
     },
     {
       "name": "tatlı",
-      "width": "72.0671%"
+      "width": "71.6012%"
     },
     {
       "name": "meyvemsi",
-      "width": "68.5987%"
+      "width": "68.0829%"
     },
     {
       "name": "çiçeksi",
-      "width": "67.7785%"
+      "width": "67.7204%"
     },
     {
       "name": "toprak",
-      "width": "63.2288%"
+      "width": "62.316%"
     },
     {
       "name": "taze",
-      "width": "56.1054%"
+      "width": "55.969%"
     },
     {
       "name": "aromatik",
-      "width": "54.1663%"
+      "width": "54.0829%"
     },
     {
       "name": "sulu",
-      "width": "50.5859%"
+      "width": "50.3111%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.83",
-    "votesCount": "783",
+    "votesCount": "813",
     "breakdown": {
-      "love": "213",
-      "like": "321",
-      "ok": "168",
-      "dislike": "68",
-      "hate": "13"
+      "love": "221",
+      "like": "334",
+      "ok": "173",
+      "dislike": "70",
+      "hate": "15"
     }
   },
   "seasons": {
-    "winter": "76",
-    "spring": "303",
-    "summer": "215",
-    "autumn": "224",
-    "day": "289",
-    "night": "83"
+    "winter": "80",
+    "spring": "312",
+    "summer": "226",
+    "autumn": "232",
+    "day": "298",
+    "night": "89"
   },
   "notes": {
     "top": [],
@@ -83,33 +111,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "30",
+    "weak": "69",
+    "moderate": "183",
+    "longLasting": "63",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "162",
+    "moderate": "183",
+    "strong": "25",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "73",
+    "moreFemale": "100",
+    "unisex": "211",
+    "moreMale": "32",
+    "male": "11"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "168",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "29",
+    "overpriced": "132",
+    "fair": "173",
+    "goodValue": "25",
+    "greatValue": "8"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HERMÈS",
+      "name": "Eau des Merveilles"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Earth Elixir"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Eau des Merveilles Bleue"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Elixir des Merveilles"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Into the Blue"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "Eau de Cartier Essence de Bois"
+    },
+    {
+      "brand": "GUİLLAB",
+      "name": "Perseus"
+    },
+    {
+      "brand": "AGATHA RUİZ DE LA PRADA",
+      "name": "Agua de Agatha Ruiz de la Prada"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "L'Ombre Des Merveilles"
+    },
+    {
+      "brand": "LE LABO",
+      "name": "Baie 19"
+    },
+    {
+      "brand": "ZARA",
+      "name": "No 4 Amber & Fig Cashmere"
+    },
+    {
+      "brand": "MİLLER HARRİS",
+      "name": "Coeur de Jardin"
+    },
+    {
+      "brand": "CAUDALİE",
+      "name": "Thé Des Vignes"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Pink Paradise"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Aquawoman"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BYREDO",
@@ -132,16 +221,8 @@
       "name": "Black Orchid"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "CK One"
-    },
-    {
       "brand": "DİOR",
       "name": "Hypnotic Poison"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Coco Mademoiselle"
     },
     {
       "brand": "DOLCE&GABBANA",
@@ -160,6 +241,10 @@
       "name": "Pure Musc For Her"
     },
     {
+      "brand": "TOM FORD",
+      "name": "Tobacco Vanille"
+    },
+    {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "Jazz Club"
     },
@@ -170,6 +255,212 @@
     {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "By the Fireplace"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Encre Noire"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent614446",
+      "author": "CallistoMuse",
+      "date": "2025-07-07",
+      "text": "Gerçekten de yağmurlu bir sonbahar gününü andırıyor, ama romantik bir şekilde. İlk başta erkeksi bir havası var, ancak kurudukça armut notası daha belirgin hale geliyor. Sonuçta unisex bir koku, ama bence bir kadında özellikle sofistike duruyor.\n\nArmut notalarını seven biri olarak, daha ciddi ve uzun süre kalıcı bir koku istediğim yağmurlu veya soğuk günler için bunu mükemmel buluyorum.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2490601.jpg"
+    },
+    {
+      "id": "parent614478",
+      "author": "Elenixxx",
+      "date": "2025-04-16",
+      "text": "Bu parfüme duyulan ilgi, yaz aşkı kadar kısa sürüyor: İlk başta sizi o kadar çok cezbediyor ki, ne pahasına olursa olsun onu istiyorsunuz, ama Eylül ayına gelindiğinde ondan uzaklaşıyorsunuz ve onu özlemediğinizi fark ediyorsunuz.\nÇok güzel, spor salonuna giderken giyiyorum, orada her zaman çok popüler oluyor ama düşük tempolu kardiyo dersine göre daha kısa süre dayanıyor.\nToprakla ilgili belli bir havası var ama ismi biraz yanıltıcı.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.102318.jpg"
+    },
+    {
+      "id": "parent614443",
+      "author": "ElinfromtheMoon",
+      "date": "2025-03-27",
+      "text": "Sanırım bu, denediğim en sarı koku; açık sarıdan koyu sarıya doğru bir geçiş.\n\nAçılışta hafif, narenciye kokulu ve kaygısız bir kokuyla başlıyor, parlak çiçeksi limon sarısına dönüşüyor ve ardından daha pudralı, keşişlerin giydiği cübbeleri anımsatan koyu hardal rengine bürünüyor. Sonunda rahatlatıcı bir kahverengi, güvenli, topraksı, pudralı ve sıcak bir kokuya dönüşüyor.\nİçinde sonbahar yapraklarının kokusuna benzer, çok güzel ve zarif bir koku da var. Daha önce hiç sonbahar yaprağı gibi kokan bir parfüm kullanmamıştım ve ne kadar çok istediğimi bilmiyordum.\n\nŞahsen ben bayılıyorum, gerçek bir sanat eseri gibi hissettiren kokulardan biri.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1415666.jpg"
+    },
+    {
+      "id": "parent614444",
+      "author": "luvoxlixir",
+      "date": "2025-03-16",
+      "text": "Toprak, yağmurdan sonra toprağın nefesini kar gibi kristalleştiriyor; önce yükselen armut, saydam ama olgunlaşmış, gevrekliği daha olgun, daha yumuşak, altın rengi bir şeyin gölgesiyle karışmış. Güneşin ısıttığı ama nemli köklerin öptüğü, hâlâ dalda asılı duran bir armut. Sulu ama dolgun değil. Etrafında boşluk olan bir meyve.\n\nMimoza kokusu hafifçe hissediliyor, ancak bu sıradan, bal gibi yumuşak bir mimoza değil. Hayır, bu daha havadar, daha soluk, neredeyse pudra gibi kuru; çiçeksi notaları yayılmış, ağırlıksız bir şeye dönüşmüş. Belki de aldehitler, ferahlık katıyor? Sapların arasından kıvrılan, kompozisyonu yeşil olmayan bir şeye oturtan, toprak kokusu gibi ince bir mineral fısıltısı var. Trüf mantarı mı? Tamam, ama tam olarak değil. Daha çok, serin, nefes alan toprağın kokusu gibi.\n\nDenge kesinlikle hassas ve Loewe bunu başarıyor. Adına rağmen ağırlıksızlık üzerine bir çalışma. Batmıyor, için için yanmıyor; arada bir yerde, bağlı ama havada süzülüyor.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2357192.jpg"
+    },
+    {
+      "id": "parent614451",
+      "author": "veronodx",
+      "date": "2025-01-14",
+      "text": "Bu kokuya bayılıyorum. Parlak, sıcak, tatlı, zarif ve samimi. Kendimi işe giderken kullanırken hayal edebileceğim türden bir koku. Gerçekten unisex diyebilirim.\nÇiçeksi ama aynı zamanda topraksı bir koku. Başından itibaren mimoza ve armut kokusunu alabiliyorsunuz.\nBenim için çok beklenmedik bir şey, koklamaya değer!!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1741854.jpg"
+    },
+    {
+      "id": "parent614442",
+      "author": "Letmeregister",
+      "date": "2024-05-01",
+      "text": "Bayıldım, topraksı bir kokusu yok. Gerçekten zarif ve biraz tatlı. Trüf mantarı eklenmesi bağımlılık yapıyor, ayrıca mimoza ve menekşe kokusunu da alabiliyorum. Genel olarak çok eşsiz. Ayrıca Hermes parfümlerinin benzer olduğunu söyleyenlere de sesleniyorum, ben onları kokladım! Şaka mı yapıyorsunuz? Hiçbir benzerlik yok! Kim onlara oy veriyor ki???",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1920970.jpg"
+    },
+    {
+      "id": "parent614490",
+      "author": "Olya Son",
+      "date": "2024-03-07",
+      "text": "Çok güzel, narenciye, toprak ve yeşil tonlarında ferah bir koku. Tamamen unisex. Bunu bir kadında da rahatlıkla hayal edebiliyorum, ama tabii ki bu tür acı, narenciye ve bitkisel notaları kim sever ki? En geleneksel anlamda, muhtemelen tamamen kadınsı değil. Ama Hermès'in klasik Eau des Merveilles'ini denediyseniz kolayca anlayacaksınız; gerçekten de benzerler. Ancak bu daha derin, topraksı bir dokunuş, kökler ve reçinemsi bir yapıya sahip. Yakın akrabalar, ama bence bu daha rafine, daha ilginç. Şişenin rengi çok yanıltıcı, söylemeliyim. Tamamen farklı bir havası var - sakin bir yeşil; zümrüt yeşili çok daha uygun olurdu.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.353094.jpg"
+    },
+    {
+      "id": "parent614495",
+      "author": "Maciekdready1",
+      "date": "2024-02-14",
+      "text": "Bana göre bu, doğanın canlandığı ilk güneşli günler için mükemmel bir parfüm. Güneşin ısıttığı toprağın nemini hissedebiliyorum. Bahar menekşesi baskın nota ve ara sıra kendini gösteriyor. Armutun narin ve tatlı kokusu tüm kompozisyonu mükemmel bir şekilde tamamlıyor. Kesinlikle katılıyorum!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.50669.jpg"
+    },
+    {
+      "id": "parent614445",
+      "author": "Ground hound",
+      "date": "2023-12-05",
+      "text": "Merak ediyorum, insanlar bu son derece şüpheli notlara bakmasalardı, onları hiç fark edebilirler miydi?\nAçıklama olmadan, kör koklama yöntemiyle: Sucul, hafif narenciye, vetiver.\nArmut mu? Şey... o hafif meyvemsi koku armut mu acaba? Tamam... Eğer daha önce hiç güzel bir armut kokusu almadıysanız, Montale Wild Pears'ı mutlaka denemelisiniz.\nOna neden Dünya denildiğini veya renginin neden su mavisi veya turunçgil turuncusu olmadığını bilmiyorum.\nBana Hermes'in Eau de Merveilles parfümünü hatırlatıyor.\nTaze, çiçeksi ve sucul bir koku, herkesin beğeneceği, orta derecede tatlı, hafif meyvemsi bir havası var (tanımlanamayan bir meyve), çok sıradan değil, katmanlı, ancak bazı notaları tartışmalı.\nTaze, hoş. Ama mimoza? Armut?... Dünya? Nerede..?\nLoewe markasının hayranıyım ve sonuç burada iyi, ancak açıklama oldukça garip.\nBuna rahatlıkla yaz esintisi veya sabah yağmuru diyebilirsiniz ve nedenini anlamak kolay olur.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1589008.jpg"
+    },
+    {
+      "id": "parent614494",
+      "author": "Marietta",
+      "date": "2023-11-15",
+      "text": "Benim için dünya, havayla özdeşleşiyor. Bana göre, şehir dışında, egzoz dumanlarından uzakta, temiz ve ferah bir havanın kokusunu çağrıştırıyor. Sadece saf bir tazelik ve hafiflik.\nÇiçeklerden ve armuttan gelen hafif tatlı bir kokuya sahip olan bu parfüm, topraksı ama çok narin bir notayla birleşiyor ve aromatik reçinelerin hafif bir dokunuşuyla dengeleniyor. Ayrıca tatlı, sulu, hatta belki de sucul bir nota da mevcut. Bahar suyu gibi berrak, ama aynı zamanda temiz hava gibi de bir havası var.\nAynen öyle, ya da en fazla o kadar. Bence yeterli.\nBence unisex, herkes kendine uygun bir model bulacaktır.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.17587.jpg"
+    },
+    {
+      "id": "parent614502",
+      "author": "Leodh",
+      "date": "2023-09-18",
+      "text": "Bu parfüm, armut, mimoza ve elemi notalarını oldukça iyi harmanlayan, menekşe notasının ise diğerlerine göre daha az belirgin olduğu çok sade bir kokuya sahip. Trüf mantarı ise topraksı ama çok hafif bir koku. Black Orchid'deki trüf mantarından oldukça farklı. Hoş bir parfüm, iyi hissetme duygusu yaratıyor, ancak kalıcılığı çok kısa, sanırım 4-6 saat civarında. Loewe'nin etrafındaki abartı nedeniyle biraz daha pahalı, tam olarak fiyat performans açısından iyi bir parfüm değil, ama koleksiyonumda bulundurduğuma pişman değilim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.107880.jpg"
+    },
+    {
+      "id": "parent614487",
+      "author": "Муленруж",
+      "date": "2023-04-10",
+      "text": "Geçen gün denedim. Kokunun kendisi aslında oldukça iyi, düzgün, hem erkekler hem de kadınlar ve dünya için uygun. Ve teknik verilere göre, oldukça hafif, belirgin bir yayılımı yok (neredeyse tüm Loewe parfümleri gibi). Genel olarak, pudra tatlımsı, çiçekler yumuşak, topraksı bir şey yok. Resmi Loewe web sitesinde, kadınsı, çiçeksi-miskli bir koku olarak tanımlanıyor ve koku piramidinde bile ambergris veya onu taklit eden bir şey listeleniyor (neyse, anladınız). Bolca ıslattığım bir test kağıdıyla eve yürüdüm. Ah... o dip notalar... Evet, Hermes suları aradan sızıyor. Ama bir şey daha var - dip notalar %100 erkeksi Chanel Allure Sport! Bir zamanlar ona ne kadar bayılıyordum! (Tabii ki kendimde değil). Bir dahaki sefere Earth'ü cildimde daha detaylı denemem gerekecek. Eğer çok erkeksi çıkmazsa ve (Chanel Sport olarak tanımlanmazsa), belki satın bile alırım. Not: Hermes Waters'ı belirgin Elemi notası nedeniyle kullanamayanlar için, Earth'ü körü körüne satın almalarını önermem.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent614457",
+      "author": "Ambroxio",
+      "date": "2023-04-09",
+      "text": "Earth bana niş bir koku gibi geliyor; alışılmadık, ana akımın dışında, sıra dışı ve amaca yönelik, adına yakışır bir koku. Gerçi İngilizce isminin bir pazarlama taktiği olduğunu düşünüyorum. Fransızcası \"Terre de Loewe\" olurdu ki bu da kabaca, at arabası, koşum atı ve uzaktan gururla onu seyreden zarif beyefendinin yer aldığı Fransız moda evinin, çok ünlü ve artık klasikleşmiş parfümlerinden birine verdiği tuhaf bir ismi hatırlatırdı. Bu arada, deri işleriyle uğraşan bir Alman tarafından kurulan bir moda evi. Deri ürünleri mi yoksa eyer ve koşum takımı yapımı mı? Peki ya sadece Tierra? Ya da Terra? \"Tierra de Loewe.\" Elbette, yüksek fiyata toprak satılmasının da bir cazibesi var. Tamam, Earth bir parfüm için o kadar da kötü değil.\n\nSiyah, verimli toprak, çürüyen organik madde, tohumlar, mantarlar ile dolu... Kokulu, parfümlü solucan gübresi. Ani bir şimşek çakması ve gök gürültüsünün ardından aniden bastıran sağanak yağmurla hırpalanmış, rüzgarda sallanan bir sıra mimoza ağacı; yere düşüp kuşlar tarafından gagalanmadan önce aceleyle toplanmış armutlarla dolu eski bir hasır sepet, beklenmedik sağanak yağmurdan yarı ıslanmış, pürüzsüz, kaygan kabuklarında geçici dövmeler gibi duran dağınık yapraklar ve taç yaprakları; çamurlu toprak, bir şapka, bir yağmurluk ve uzun lastik çizmeler.\n\nNeşeli, tatil havası veren bir su kokusundan ziyade, nemli, içinize işleyen ve kemiklerinize kadar işleyen bir rutubet kokusu diyebilirim. Tozlu ve ozonik, asidik ve tatlı, çiçeksi ve fenolik. Ve evet, benim zevkime göre, bunların hepsi güzel ve rahatlatıcı kokuyor. Çok fazla değişmiyor; ilk şaşkınlığı yavaş yavaş azalıyor, fırtına diniyor, insani bir hal alıyor ve sonunda neredeyse yok oluyor, toprağa dönen bir anıya dönüşüyor.\n\nGerçekten de çiçeksi bir şipre gibi geliyor bana ve daha da detaylandırırsam, uzun zamandır bu terimi anladığımız şekliyle belki de daha çok kadınsı bir tona yakın olduğunu söyleyebilirim. Ancak biraz kişisel olmayan bir koku olduğunu ve belki de daha olgun bir yaş için daha uygun olduğunu düşünüyorum. İlkbahar ve sonbahar günleri için ideal. Yaz geceleri veya güneşli kış günleri için de mükemmel. Hafif, havadar ve kimseyi bunaltmaz. Bazen olmasını dilediğimiz toprak gibi nazik.\n\nBana çok garip geldiği için hoşuma gitti.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.47902.jpg"
+    },
+    {
+      "id": "parent614493",
+      "author": "vanilka133",
+      "date": "2023-03-04",
+      "text": "Uzun süre kalıcı olmasını istediğim, güzel bir çiçeksi parfüm. Bu, bal özüyle dolu, bunaltıcı bir kokuya sahip bir bahçe değil. Hayır! Daha çok, şelaleden akan suyun havayı tatlı bir esintiyle doldurduğu, çiçeklerin tatlılığıyla karıştığı bir su kenarı bahçesi gibi. Zamanla pudramsı bir nota ortaya çıkıyor, ama menekşenin güzelliği de burada yatıyor ve bu da onu ferahlatıcı bulmamı engellemiyor. Erkekler de beğeniyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.25491.jpg"
+    },
+    {
+      "id": "parent614483",
+      "author": "JazzGirlsAround",
+      "date": "2023-01-06",
+      "text": "Henüz kimsenin buraya bir şey yazmamış olması şaşırtıcı. Güzel, politik olarak doğru bir koku. Cilde yakın duruyor. Armut kokuları arasında İngiliz armudu ve frezyasını anımsatıyor, ancak daha samimi. Güzel dengelenmiş bir koku. Armut, menekşe ve mimoza - hepsi güzelce bir araya getirilmiş.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.278650.jpg"
+    },
+    {
+      "id": "parent614448",
+      "author": "tilapia_johnson",
+      "date": "2022-12-10",
+      "text": "Şekerlenmiş armut ve menekşe eşit oranlarda, ardından mimozadan gelen hafif pudramsı bir koku. Hermes'in Eau des Merveilles'indeki elemi gibi reçineli bir sıcaklık alıyorum, ancak öne çıkan şey tatlı, bahar tazeliği. Özellikle sulu meyvelerin ve ıslak çiçeklerin şeffaf bir uyum içinde bir araya geldiği Monsieur Li olmak üzere, Hermes'in Jardin parfümlerine de çok benziyor. Trüften gelen kirli veya topraksı bir unsur bekliyordum, ancak varsa da en evrensel olarak beğenilen yönlerini sunuyor. Loewe Earth gerçekten çok güzel, ancak her iki boyuttaki şişe için de biraz pahalı (Polonya'dan güzel bir büyük dekant aldım).",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent614475",
+      "author": "Nibbiolini",
+      "date": "2022-10-27",
+      "text": "Yüksek beklentiler... hayal kırıklığı. Koku açısından havai fişekler, aşırı, içgüdüsel, utanmazca topraksı, neredeyse vahşi, güçlü ve enerjik bir şey bekliyordum... Ama bunların hiçbiri yok! Hafif meyvemsi, hafif aromatik, hafif çiçeksi bir koku olarak kaldı; hiçbir nota diğerlerinden öne çıkmıyor ve her şey özgünlükten yoksun bir şekilde birbirine karışıyor. Ortalama kalıcılık, sınırlı yayılım. Söyleyecek başka pek bir şeyim yok; diğer muhteşem Loewe kreasyonlarıyla, çılgın ve büyülü olanlarla karşılaştırıldığında, her açıdan o kadar sıradan ki, benim için pek bir anlam ifade etmeyen sıradan bir vücut losyonu gibi görünüyor. Ne yazık!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.62515.jpg"
+    },
+    {
+      "id": "parent614441",
+      "author": "Asturiias",
+      "date": "2022-10-27",
+      "text": "Özellikle belirgin bir armut aromasıyla öne çıkan meyvemsi bir başlangıçla karakterize edilir.\n\n'Earth' markası ve trüf mantarından bahseden not tablosu olmasaydı, pek çok kişinin sözde trüf mantarı notasını veya topraksı temayı fark edeceğinden şüpheliyim. Diğer birçok toprak veya turba temalı parfümün aksine, onu görebilmek için özellikle aramanız ve çok çaba sarf etmeniz gerekiyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1237821.jpg"
+    },
+    {
+      "id": "parent614461",
+      "author": "Eucalipto",
+      "date": "2022-10-13",
+      "text": "Loewe'den bir başka yeni ürün daha; görünüşe göre marka, her yıl veya altı ayda bir yeni parfüm çıkarma alışkanlığına kapılmış durumda.\n\nGerçek şu ki, Loewe, kalite, sunum ve özgünlük açısından önemli bir düşüş yaşamış olsa da, tasarımcı dünyasının en iyilerinden biri olmaya devam ediyor; ancak bu, en son çıkan parfümlerinden ziyade geçmişteki parfümlerinin değerinden kaynaklanıyor. Earth de bu konuda bir istisna değil; bir koku olarak, diğer parfümlere aşırı derecede benzemese de, yenilikçi veya çığır açıcı bir şey sunmuyor. Son dönemdeki unisex parfümcülük çizgisini koruyor ve kabul edilebilir şekilde, ortalamanın üzerinde bir kaliteye sahip notalar içeriyor, ancak yüksek bir fiyata sahip olduğunu da belirtmek gerekir.\n\nSunum beni hâlâ çok rahatsız ediyor. Renkleri tükendiğinde sırada ne bulacaklarını merak ediyorum… ve aroma açısından, üzerine yapıştırdıkları isimle neredeyse hiçbir ilgisi yok. Toprak mı? Affedersiniz ama hayır. Bu, çiçeksi olmasa da portakal çiçeği ve neroli gibi çiçeksi aromaları çağrıştıran bir parfüm. Arada sırada hafif tatlı, çok kadifemsi bir armut kokusu kalıyor ve başka da pek bir şey yok. Orta aşaması ve kuruma aşaması nedeniyle, çağrıştırması gereken topraksı kokudan ziyade, daha çok kolonya gibi bir parfüm.\n\nAçılışı benim zevkime pek uymuyor; kesinlikle tatsız değil, ama sadece benim hoşuma gitmiyor. Kişisel bir tercih; başkaları beğenebilir. Ancak umut verici görünüyor, çünkü anladığım kadarıyla trüf mantarı menekşeyle birleşince belirli bir çikolata veya topraksı atmosfer yaratıyor, çok uçucu ve geçici, ki bu da kısa sürede bahsettiğim neroli, portakal çiçeği gibi kolonya kokusuyla yer değiştiriyor…\n\nSayfada şimdiden belirmeye başlayan karşılaştırmanın yerinde olduğunu düşünüyorum, çünkü bu koku bana birçok yönden önceki sürüm Atlas'ı hatırlattı; daha az odunsu, daha az çiçeksi, hiç tuzlu değil ve biraz daha az ferahlatıcı ama aynı zamanda daha kötü bir performansa sahip. Bu konuda da Earth öne çıkmıyor, çünkü hem kalıcılığı hem de yayılımı oldukça sınırlı ve çok uzun sürmüyor.\n\nBu parfümü farklı zamanlarda üç kez deneme fırsatım oldu ve parfüm dükkanından biraz hayal kırıklığına uğramış bir şekilde ayrıldım; bu parfümü hiç tavsiye edilebilir bulmuyorum. Çok yönlü, evet, ama aromatik olarak gereksiz olduğu kadar önemsiz de.\nBence Loewe durup nereye doğru gittiğine bakmalı çünkü, dediğim gibi, parfümleri günümüzdekilerle karşılaştırıldığında kötü olmasa da, sadık müşterilerinin beklediği kalite ve özgünlükten yoksunlar. Bu durum, İspanyol markasının temellerini baltalayan yeniden formülasyonlarla birleşince, onlar için kasvetli bir gelecek öngörüyorum. Ancak, hâlâ bildikleri gibi, ya da daha doğrusu eskiden bildikleri gibi işler yapma zamanları var.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.37090.jpg"
+    },
+    {
+      "id": "parent614459",
+      "author": "Boinaverde2009",
+      "date": "2022-09-26",
+      "text": "Loewe Toprak\n\nBu parfümü aldığımda ilk izlenimim oldukça rahatsız ediciydi. Fragrantica web sitesine göre, koku çoğunlukla topraksı, çiçeksi ve pudralı bir parfüm olmalıydı, ancak bu tamamen doğru değil.\n\nAçılışta, mimoza çiçeğinin canlı ve parlak notasıyla birlikte, aldehitler ve bir tutam narenciye eşliğinde ferahlatıcı bir su hissi karşılanıyor.\nBirkaç dakika sonra, son derece hoş, hiç de bayıcı olmayan, meyvemsi armut akoru, çok ölçülü ve neşeli bir tatlılıkla ortaya çıkıyor. Yaklaşık 40 dakika sonra, taze bir menekşe notası beliriyor ve koku geliştikçe hafif pudramsı bir nitelik kazanıyor.\n\nSon olarak, parfüm, derinlik sağlayan hafif tatlı bir reçine olan elemi notasıyla son buluyor; bu derinlik, belki de trüf mantarından gelen topraksı bir dokunuşla birleşiyor. Bu \"mutfak siyah elması\"nın kilosu 1000 €'ya mal olan bu mantarın kendi başına nasıl koktuğunu bilme fırsatım olmadı itiraf etmeliyim... ancak son kuruma aşamasındaki topraksı nota mevcut ve bu paçuli sayesinde değil.\n\nBu parfümün adı kesinlikle aromatik gelişimini yansıtmıyor; burada topraksı, yosunlu veya paçuli ağırlıklı bir koku yok. Ancak, enerjik ve canlı unsurlarla dolu hoş bir deneyim… her durum ve hava koşulu için ideal, mükemmel, kalıcı bir koku; tamamen unisex, ciltte iyi bir kalıcılığa ve orta düzeyde yayılıma sahip.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.55159.jpg"
     }
   ]
 }

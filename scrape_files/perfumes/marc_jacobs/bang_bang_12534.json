@@ -41,16 +41,44 @@
     {
       "name": "yeşil",
       "width": "52.6726%"
+    },
+    {
+      "name": "Online satın alın 32 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.90",
-    "votesCount": "439",
+    "score": "3.89",
+    "votesCount": "441",
     "breakdown": {
       "love": "124",
       "like": "225",
-      "ok": "15",
-      "dislike": "71",
+      "ok": "16",
+      "dislike": "72",
       "hate": "4"
     }
   },
@@ -60,7 +88,7 @@
     "summer": "61",
     "autumn": "117",
     "day": "132",
-    "night": "67"
+    "night": "68"
   },
   "notes": {
     "top": [
@@ -77,33 +105,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "12",
+    "weak": "20",
+    "moderate": "63",
+    "longLasting": "37",
+    "eternal": "16"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "44",
+    "moderate": "63",
+    "strong": "29",
+    "enormous": "21"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "16",
+    "male": "18"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "15",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "5",
+    "fair": "16",
+    "goodValue": "6",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Rush for Men"
+    },
+    {
+      "brand": "ZARA",
+      "name": "No Night"
+    },
+    {
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Caligna"
+    },
+    {
+      "brand": "L'ERBOLARİO",
+      "name": "Periplo"
+    },
+    {
+      "brand": "NİCOLE FARHİ",
+      "name": "Homme"
+    },
+    {
+      "brand": "AESOP",
+      "name": "Hwyl"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Amphorae 17"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Soul"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "Visit For Men"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Loewe 001 Man"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Lalique Pour Homme Equus"
+    },
+    {
+      "brand": "CHARRİOL",
+      "name": "Charriol Homme Sport"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Chapter 2"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -142,12 +223,12 @@
       "name": "Le Male"
     },
     {
-      "brand": "MARC JACOBS",
-      "name": "Bang"
-    },
-    {
       "brand": "DİOR",
       "name": "Fahrenheit"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Bang"
     },
     {
       "brand": "DOLCE&GABBANA",
@@ -165,5 +246,6 @@
       "brand": "MUGLER",
       "name": "A*Men"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,13 +49,41 @@
     {
       "name": "fındıksı",
       "width": "53.1251%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.34",
-    "votesCount": "155",
+    "votesCount": "156",
     "breakdown": {
-      "love": "89",
+      "love": "90",
       "like": "41",
       "ok": "17",
       "dislike": "4",
@@ -63,11 +91,11 @@
     }
   },
   "seasons": {
-    "winter": "71",
+    "winter": "74",
     "spring": "58",
     "summer": "36",
     "autumn": "65",
-    "day": "66",
+    "day": "67",
     "night": "51"
   },
   "notes": {
@@ -91,33 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "9",
+    "moderate": "30",
+    "longLasting": "58",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "30",
+    "strong": "35",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "73",
+    "moreFemale": "12",
+    "unisex": "12",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "1",
     "fair": "17",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "49",
+    "greatValue": "35"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl"
+    },
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Bint Hooran"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Sonnet"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Rawaa"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Qimmah for Women"
+    },
+    {
+      "brand": "JESSİCA SİMPSON",
+      "name": "Fancy"
+    },
+    {
+      "brand": "JİMMY CHOO",
+      "name": "I Want Choo"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl Légère"
+    },
+    {
+      "brand": "PHİLİPP PLEİN PARFUMS",
+      "name": "Plein Fatale"
+    },
+    {
+      "brand": "FRANCK OLİVİER",
+      "name": "Pure Femme"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Mademoiselle Rochas Couture"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "Authentic Night Femme"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "La Yuqawam Jasmine Wisp"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Rawan"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Nuit Trésor"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -156,12 +245,12 @@
       "name": "Alien"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Black Orchid"
-    },
-    {
       "brand": "VERSACE",
       "name": "Crystal Noir"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     },
     {
       "brand": "CHANEL",
@@ -179,5 +268,6 @@
       "brand": "CALVİN KLEİN",
       "name": "Euphoria"
     }
-  ]
+  ],
+  "comments": []
 }

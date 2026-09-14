@@ -45,6 +45,34 @@
     {
       "name": "pudralı",
       "width": "46.0453%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,33 +110,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "6",
+    "moderate": "3",
+    "longLasting": "2",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "3",
+    "strong": "3",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "2",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Gioia"
+    },
+    {
+      "brand": "MASAKİ MATSUSHİMA",
+      "name": "Fluo"
+    },
+    {
+      "brand": "GİORGİO BEVERLY HİLLS",
+      "name": "Giorgio Beverly Hills Blue"
+    },
+    {
+      "brand": "GİORGİO BEVERLY HİLLS",
+      "name": "Giorgio Blue"
+    },
+    {
+      "brand": "JAFRA",
+      "name": "Eau d'Arômes Ozone"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Twilly d'Hermès Eau Ginger"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -170,5 +223,6 @@
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

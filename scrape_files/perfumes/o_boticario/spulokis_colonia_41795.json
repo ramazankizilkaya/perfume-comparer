@@ -29,6 +29,34 @@
     {
       "name": "yeşil",
       "width": "47.6191%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -71,33 +99,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "3",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Victoria's Secret Heavenly Summer (2015)"
+    },
+    {
+      "brand": "SAMY ANDRAUS FRAGRANCES",
+      "name": "Blue Sapphire"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -159,5 +196,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Intense Oopss!"
     }
-  ]
+  ],
+  "comments": []
 }

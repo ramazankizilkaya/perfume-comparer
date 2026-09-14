@@ -49,6 +49,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "60.1835%"
+    },
+    {
+      "name": "Online satın alın 23 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -93,33 +121,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "9",
+    "moderate": "58",
+    "longLasting": "33",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "18",
+    "moderate": "58",
+    "strong": "49",
+    "enormous": "21"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "37",
+    "moreFemale": "4",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "4",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ESCADA",
+      "name": "Desire Me"
+    },
+    {
+      "brand": "LAURA BİAGİOTTİ",
+      "name": "Biagiotti Due Donna"
+    },
+    {
+      "brand": "NAOMİ CAMPBELL",
+      "name": "Queen of Gold"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "1969 Parfum de Revolte"
+    },
+    {
+      "brand": "ROBERTA Dİ CAMERİNO",
+      "name": "Roberta di Camerino Pour Femme"
+    },
+    {
+      "brand": "JOOP!",
+      "name": "Muse"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Incredible Me"
+    },
+    {
+      "brand": "SUCCES DE PARİS",
+      "name": "Polemic"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Good Life Women"
+    },
+    {
+      "brand": "ROBERTA Dİ CAMERİNO",
+      "name": "Protagonista Pour Femme"
+    },
+    {
+      "brand": "FENDİ",
+      "name": "Fantasia Fendi"
+    },
+    {
+      "brand": "HAUTE FRAGRANCE COMPANY HFC",
+      "name": "Wear Love Everywhere"
+    },
+    {
+      "brand": "MURANO",
+      "name": "Eau De Murano"
+    },
+    {
+      "brand": "BOTTEGA PROFUMİERA",
+      "name": "Gourmand"
+    },
+    {
+      "brand": "AVON",
+      "name": "Prowl"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -181,5 +270,6 @@
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
     }
-  ]
+  ],
+  "comments": []
 }

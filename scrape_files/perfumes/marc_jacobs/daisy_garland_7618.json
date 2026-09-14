@@ -29,6 +29,34 @@
     {
       "name": "odunsu",
       "width": "37.8873%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,33 +88,86 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "10",
+    "moderate": "15",
+    "longLasting": "6",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "15",
+    "strong": "11",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "13",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "2",
     "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "KATE MOSS",
+      "name": "Wild Meadow"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Bloom"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Jardim Fascinante de Aflorá"
+    },
+    {
+      "brand": "AVON",
+      "name": "Today Tomorrow Always Wonder"
+    },
+    {
+      "brand": "GHOST",
+      "name": "Enchanted Bloom"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Black Edition"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Mon Guerlain"
+    },
+    {
+      "brand": "CHRİSTİNA AGUİLERA",
+      "name": "Eau So Beautiful"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Vanilla"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Elle Anniversary"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Wild"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Pink Prestigium"
+    },
+    {
+      "brand": "BOİS 1920",
+      "name": "Oltremare"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -107,6 +188,10 @@
     {
       "brand": "CHANEL",
       "name": "Chance Eau Tendre"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Parisienne"
     },
     {
       "brand": "DİOR",
@@ -133,10 +218,6 @@
       "name": "Light Blue"
     },
     {
-      "brand": "LANCÔME",
-      "name": "La Vie Est Belle"
-    },
-    {
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
     },
@@ -148,5 +229,6 @@
       "brand": "MUGLER",
       "name": "Alien"
     }
-  ]
+  ],
+  "comments": []
 }

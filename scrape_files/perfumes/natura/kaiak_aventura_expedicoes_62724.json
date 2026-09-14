@@ -33,13 +33,41 @@
     {
       "name": "toprak",
       "width": "46.6667%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.62",
-    "votesCount": "40",
+    "score": "3.66",
+    "votesCount": "41",
     "breakdown": {
-      "love": "13",
+      "love": "14",
       "like": "13",
       "ok": "5",
       "dislike": "4",
@@ -68,33 +96,50 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "6",
+    "moderate": "18",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "14",
+    "moderate": "18",
+    "strong": "8",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "9",
+    "male": "17"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "1",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "12",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Kaiak Ecomotion"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kaiak Aventura"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Rummo Explorer"
+    },
+    {
+      "brand": "ANTONİO BANDERAS",
+      "name": "Mediterráneo"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -110,19 +155,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Kaiak Aventura"
-    },
-    {
-      "brand": "NATURA",
       "name": "Kaiak Urbe"
     },
     {
       "brand": "O BOTİCÁRİO",
       "name": "Zaad Expedition"
-    },
-    {
-      "brand": "O BOTİCÁRİO",
-      "name": "Egeo Blue"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -133,16 +170,24 @@
       "name": "Essencial Masculino"
     },
     {
+      "brand": "ANTONİO BANDERAS",
+      "name": "Blue Seduction"
+    },
+    {
       "brand": "O BOTİCÁRİO",
       "name": "Malbec Noir"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Homem"
     },
     {
       "brand": "NATURA",
       "name": "Homem Essence"
     },
     {
-      "brand": "NATURA",
-      "name": "Kaiak Aero"
+      "brand": "O BOTİCÁRİO",
+      "name": "Malbec"
     },
     {
       "brand": "NATURA",
@@ -156,5 +201,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Egeo Bomb Black"
     }
-  ]
+  ],
+  "comments": []
 }

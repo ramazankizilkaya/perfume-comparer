@@ -49,6 +49,34 @@
     {
       "name": "narenciye",
       "width": "61.0753%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,33 +118,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "1",
+    "moderate": "10",
+    "longLasting": "4",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "10",
+    "strong": "6",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Tresor In Love"
+    },
+    {
+      "brand": "CATHERİNE MALANDRİNO",
+      "name": "Special Moments"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Lancome Tresor Eau Legere Sheer"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Omnia Coral"
+    },
+    {
+      "brand": "WOMEN SECRET",
+      "name": "Feminine Limited Edition"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "Treasure Femme in Love"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Tresor Midnight Rose La Coquette Limited Edition"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Rеve d'Infini"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -178,5 +239,6 @@
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
     }
-  ]
+  ],
+  "comments": []
 }

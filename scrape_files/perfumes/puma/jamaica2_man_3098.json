@@ -29,13 +29,41 @@
     {
       "name": "anason",
       "width": "44.7368%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.62",
-    "votesCount": "29",
+    "score": "3.67",
+    "votesCount": "30",
     "breakdown": {
-      "love": "4",
+      "love": "5",
       "like": "15",
       "ok": "5",
       "dislike": "5",
@@ -72,33 +100,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "9",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "9",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JOOP!",
+      "name": "Nightflight"
+    },
+    {
+      "brand": "POLİCE",
+      "name": "The Sinner"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dune Pour Homme"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Uomo Born in Roma Green Stravaganza"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -149,16 +194,17 @@
       "name": "L'Homme Parfum Intense"
     },
     {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Chic For Men"
+    },
+    {
       "brand": "HUGO BOSS",
       "name": "Boss Bottled"
     },
     {
       "brand": "RABANNE",
       "name": "1 Million"
-    },
-    {
-      "brand": "JOOP!",
-      "name": "Joop! Homme"
     }
-  ]
+  ],
+  "comments": []
 }

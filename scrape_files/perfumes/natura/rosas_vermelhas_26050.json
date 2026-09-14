@@ -45,14 +45,42 @@
     {
       "name": "meyvemsi",
       "width": "44.1167%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.10",
-    "votesCount": "40",
+    "votesCount": "39",
     "breakdown": {
       "love": "10",
-      "like": "26",
+      "like": "25",
       "ok": "2",
       "dislike": "2",
       "hate": "0"
@@ -83,33 +111,38 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "2",
+    "moderate": "5",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "5",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Rose 4 Reines"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -153,11 +186,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Flor de Laranjeira"
+      "name": "Shiraz"
     },
     {
       "brand": "NATURA",
-      "name": "Shiraz"
+      "name": "Flor de Laranjeira"
     },
     {
       "brand": "LANCÔME",
@@ -171,5 +204,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Acqua di Gioia"
     }
-  ]
+  ],
+  "comments": []
 }

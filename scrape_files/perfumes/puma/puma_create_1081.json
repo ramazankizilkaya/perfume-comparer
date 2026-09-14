@@ -49,6 +49,38 @@
     {
       "name": "taze baharatlı",
       "width": "52.25%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -90,33 +122,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "8",
+    "weak": "15",
+    "moderate": "26",
+    "longLasting": "4",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "25",
+    "moderate": "26",
+    "strong": "2",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "18",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "3",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ADOLFO DOMİNGUEZ",
+      "name": "Agua de Bambu Exotic for Her"
+    },
+    {
+      "brand": "AVON",
+      "name": "Yessamin"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water"
+    },
+    {
+      "brand": "NİKE",
+      "name": "Nike Woman"
+    },
+    {
+      "brand": "GUESS",
+      "name": "Guess for Women"
+    },
+    {
+      "brand": "MOLİNARD",
+      "name": "Vents et Marées"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NİNA RİCCİ",
@@ -178,5 +235,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

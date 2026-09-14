@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Natura/Faces-Conectada-71529.html",
   "brand": "Natura parfüm ve kolonya",
   "description": "Natura markasının Faces Conectada parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Faces Conectada, 2011 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst notalar: Elma, Yaban mersini ve Meyvemsi Notlar; orta notalar: Menekşe, Gül ve Manolya; alt notalar Vanilya, Sandal ağacı ve Misk.",
-  "description_original": "Natura markasının Faces Conectada parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Faces Conectada, 2011 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst notalar: Elma, Yaban mersini ve Meyvemsi Notlar; orta notalar: Menekşe, Gül ve Manolya; alt notalar Vanilya, Sandal ağacı ve Misk.",
+  "description_original": "Natura markasının Faces Conectada parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Faces Conectada, 2011 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst notalar: Elma, Meyvemsi Notlar ve Yaban mersini; orta notalar: Gül, Menekşe ve Manolya; alt notalar Vanilya, Sandal ağacı ve Misk.",
   "description_enhanced": "Natura markasının Faces Conectada parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Faces Conectada, 2011 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst notalar: Elma, Yaban mersini ve Meyvemsi Notlar; orta notalar: Menekşe, Gül ve Manolya; alt notalar Vanilya, Sandal ağacı ve Misk.",
   "mainAccords": [
     {
@@ -31,11 +31,11 @@
       "width": "54.4036%"
     },
     {
-      "name": "çiçeksi",
+      "name": "taze",
       "width": "54.4036%"
     },
     {
-      "name": "taze",
+      "name": "çiçeksi",
       "width": "54.4036%"
     },
     {
@@ -45,6 +45,34 @@
     {
       "name": "odunsu",
       "width": "44.7706%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -69,12 +97,12 @@
   "notes": {
     "top": [
       "Elma",
-      "Yaban mersini",
-      "Meyvemsi Notlar"
+      "Meyvemsi Notlar",
+      "Yaban mersini"
     ],
     "middle": [
-      "Menekşe",
       "Gül",
+      "Menekşe",
       "Manolya"
     ],
     "base": [
@@ -85,33 +113,38 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "3",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "3",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY Be Delicious"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİCTORİA'S SECRET",
@@ -161,5 +194,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Uomini"
     }
-  ]
+  ],
+  "comments": []
 }

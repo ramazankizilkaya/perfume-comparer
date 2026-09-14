@@ -16,54 +16,82 @@
     },
     {
       "name": "çiçeksi",
-      "width": "97.5015%"
+      "width": "97.8525%"
     },
     {
       "name": "narenciye",
-      "width": "68.5882%"
+      "width": "69.9798%"
     },
     {
       "name": "deri",
-      "width": "65.8036%"
+      "width": "65.8275%"
     },
     {
       "name": "laktonik",
-      "width": "60.4091%"
+      "width": "60.329%"
     },
     {
       "name": "animalik",
-      "width": "52.5959%"
+      "width": "52.559%"
     },
     {
       "name": "yumuşak baharatlı",
-      "width": "49.668%"
+      "width": "49.8545%"
     },
     {
       "name": "pudralı",
-      "width": "47.2812%"
+      "width": "47.2138%"
     },
     {
       "name": "aromatik",
-      "width": "44.6078%"
+      "width": "44.9864%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.01",
-    "votesCount": "589",
+    "score": "4.00",
+    "votesCount": "629",
     "breakdown": {
-      "love": "217",
-      "like": "229",
-      "ok": "87",
-      "dislike": "44",
+      "love": "225",
+      "like": "249",
+      "ok": "94",
+      "dislike": "49",
       "hate": "12"
     }
   },
   "seasons": {
-    "winter": "34",
-    "spring": "192",
-    "summer": "186",
-    "autumn": "78",
-    "day": "190",
+    "winter": "35",
+    "spring": "202",
+    "summer": "195",
+    "autumn": "80",
+    "day": "198",
     "night": "48"
   },
   "notes": {
@@ -86,37 +114,102 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "13",
+    "weak": "31",
+    "moderate": "115",
+    "longLasting": "31",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "48",
+    "moderate": "115",
+    "strong": "28",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "63",
+    "moreFemale": "82",
+    "unisex": "79",
+    "moreMale": "5",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "87",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "42",
+    "overpriced": "89",
+    "fair": "94",
+    "goodValue": "6",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BVLGARİ",
+      "name": "Rock'N'Rome"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Eau Parfumee au The Blanc"
+    },
+    {
+      "brand": "ODORATİKA",
+      "name": "Tangalunga"
+    },
+    {
+      "brand": "FUKUDO 浮香堂",
+      "name": "Chimphu 青朴"
+    },
+    {
+      "brand": "VİLHELM PARFUMERİE",
+      "name": "Chimilka"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ajwad"
+    },
+    {
+      "brand": "DRİES VAN NOTEN",
+      "name": "Fleur du Mal"
+    },
+    {
+      "brand": "BURDİN",
+      "name": "Emmene-Moi"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Soleil d'Italie"
+    },
+    {
+      "brand": "GRİTTİ",
+      "name": "Adèle"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Nasturtium & Clover"
+    },
+    {
+      "brand": "KEMİ BLENDİNG MAGİC",
+      "name": "Luna"
+    },
+    {
+      "brand": "KARL LAGERFELD",
+      "name": "Karl Lagerfeld for Her"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Tommy Girl"
+    },
+    {
+      "brand": "L'EPOQUE PARFUMS",
+      "name": "Delusions of Grandeur"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "INİTİO PARFUMS PRİVES",
       "name": "Musk Therapy"
+    },
+    {
+      "brand": "EX NİHİLO",
+      "name": "Blue Talisman"
     },
     {
       "brand": "BY KİLİAN",
@@ -125,10 +218,6 @@
     {
       "brand": "PENHALİGON'S",
       "name": "Luna"
-    },
-    {
-      "brand": "NİSHANE",
-      "name": "Ani"
     },
     {
       "brand": "ETAT LİBRE D'ORANGE",
@@ -143,12 +232,16 @@
       "name": "A Kiss Of Bliss"
     },
     {
+      "brand": "JO MALONE LONDON",
+      "name": "Wood Sage & Sea Salt"
+    },
+    {
       "brand": "LES LİQUİDES IMAGİNAİRES",
       "name": "Blanche Bête"
     },
     {
-      "brand": "JO MALONE LONDON",
-      "name": "Wood Sage & Sea Salt"
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
     },
     {
       "brand": "BY KİLİAN",
@@ -167,12 +260,200 @@
       "name": "Orphéon Eau de Parfum"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Black Phantom"
-    },
-    {
       "brand": "GUERLAİN",
       "name": "Spiritueuse Double Vanille"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent738683",
+      "author": "Itsdanielepardini",
+      "date": "2026-02-10",
+      "text": "Meyveli kokuları seviyorsanız, bu parfüm tam size göre. Kayısı ile açılan parfüm, bergamot ile mükemmel bir şekilde harmanlanıyor ve asla bayıcı olmuyor. Osmanthus ise elbette tüm kalıcılığı boyunca kendini gösteriyor ve gerçekten olağanüstü bir kalıcılığa sahip. Sadece iki fısla 7-8 saat rahatlıkla kalıcılığını koruyor. Puan: 10.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.79857.jpg"
+    },
+    {
+      "id": "parent738694",
+      "author": "Peregar",
+      "date": "2026-01-07",
+      "text": "Bakın, bu Vroom-Vroom, şeftali rengi Mirage'ınıza ve Dries'e, yanağında süet osmanthus çiçeği olan Pete Guillaume'a son hızla yaklaşıyor.\nBu cevherin henüz blog yazarı kalabalığının dikkatini çekmemiş olmasına hem şaşırdım hem de çok sevindim.\nBaşlangıçta, hafifçe tütün tozuyla tatlandırılmış zengin, olgun bir kayısı kokusu var. Tütün, koku piramidinde belirtilmemiş olsa da, bana eklemişler. Deri kokusunu neredeyse hiç hissetmiyorum, belki arka planda çok az bir miktar var, ama bence kokuya tazelik ve fougere özelliğini veren de deri notaları; bu da onu yılın her zamanı kullanılabilir kılıyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.313872.jpg"
+    },
+    {
+      "id": "parent738706",
+      "author": "Christabel",
+      "date": "2025-11-01",
+      "text": "Serideki yanlış parfümün adı Kiss of Bliss'ti, aman Tanrım, bunlar da neymiş! Numuneyi uzun süre kullandım ve her seferinde biraz farklı, her seferinde daha ışıltılı olduklarını fark ettim; sanki - Eau de Audacity örneğinde olduğu gibi - aynı parfüm değil de birkaç farklı parfümmüş gibi. Başlangıçta, bu Vra Vra Vroom benim için neredeyse her zaman yeşilimsi bir ferahlık hissi veriyor. İlk kullandığımda, taze Mayıs esintisinin ne kadar gerçekçi olduğunu görünce şok oldum. O zaman bir yorum yazsaydım, Eau de Audacity şişeleriyle değiştirilmeleri gerektiğini de yazardım, çünkü burada yeşil, orada ise tam tersine sarı. Ama kullanım sırasında, bu parfümlerin o kadar çok yönlü olduğunu fark ettim ki, yeşilimsi koku sadece başlangıçta var, her zaman değil; sarı, pudra rengi, beyaz çiçekli, meyve gibi turuncu ve ten rengi gibi kahverengi tonları da var, her şey mevcut.\n\nAslında yukarıda da tarif ettim. Osmanthus çiçeği, pudramsı ve meyve suyu (bana göre kayısıdan çok şeftaliye daha yakın, ama evet, bu \"meyve\" şartlı olarak sulu bir çekirdekli meyve); aynı zamanda pahalı bir arabanın deri iç döşemesi (Vra Vra Vroom ile tek bağlantısı isminden geliyor, bu isimleri kim buldu bilmiyorum), arka planda ve dip notalarda biraz reçine. Kalıcılığı inanılmaz, tüm gün sizinle olacak ve tüm gün parlayacak, gelişecek, kendini farklı şekillerde gösterecek. Ertesi gün de derinin tatlı çiçeksi-meyvemsi aromasını hissedeceksiniz. Düşünürseniz, bunlar vakumda küresel \"gece dışarı çıkmak ve günlük kullanım için kadın parfümleri\", ancak çok kaliteli yapılmışlar, kompozisyon çok canlı ve \"canlı\" geliyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ua",
+      "avatar": "https://fimgs.net/mdimg/avatariua/m.8002.jpg"
+    },
+    {
+      "id": "parent738658",
+      "author": "marrna",
+      "date": "2025-06-08",
+      "text": "This Is Spinal Tap filminde, grubun albümlerinden biri sadece iki kelimeyle eleştirilmişti: \"Berbat bir albüm.\"\nEğer o albüm berbat bir sandviçse, Vra Vra Vroom tam bir iğrenç sandviç: muhteşem bir üst kısım, iğrenç bir orta kısım ve beklenmedik derecede seksi bir son.\n\nAçılış:\nNarenciye aromalı kayısı-gül reçeli. 🍑\nŞehvetli, olgun, hafif ekşi ve neredeyse iğrenç – sanki biri sıcakta göğüslerinizin arasına reçel sürmüş ve buna ön sevişme demiş gibi.\nOsmanthus, fermente meyve havası katıyor. Bergamot ve mandalina ise keskinliğini koruyarak parlak limonlu bir dokunuş sağlıyor.\nTemiz değil. Masum değil. Yazın yapış yapış, reçel gibi ve neredeyse edepsiz.\n\nOrta kısım:\nİşte işler burada raydan çıkıyor.\nKimileri onu kimyona benzetir. Ben ise ona cinsel ilişki sonrası deri diyorum; sıcak, yıpranmış, biraz fazla insansı.\nSuçlu karışımın bu olduğundan oldukça eminim: meyveli çiçekler, adaçayı, Ambrofix™, deri - hepsi bir araya gelip terli bir cilt kokusu oluşturuyor.\nSentetik ahşap (Georgywood), tıpkı bir orgideki yeni bir ıslak mendil gibi, ortalığı temizlemek için devreye giriyor. Çok temiz, çok geç.\nÇatışmanın tamamı kaotik ve fiziksel bir hal aldı.\n\nKuruma Aşaması:\nTam da umudunuzu kaybetmek üzereyken, bam, işler tersine dönüyor.\nDeri süete dönüşüyor. Meyve sıcak bir parıltıya karışıyor.\nTen temasına yakın, manyetik ve son derece davetkar bir ilişki.\nTamamen şehvetli. Son derece çekici.\n\"Bu da neydi böyle?\"den \"Evet, yine... bu sefer daha yavaş\"a.\n\n\"Şampuan\" ekibine:\nNe tür şampuan kullanıyorsunuz?\nBu fermente edilmiş, kendine has, meyvemsi ve ete yakın bir koku; bildiğiniz o ferahlatıcı limonlu durulama suyu değil.\nBütün gün kaka fırlatın — o şampuan kıyaslamaları hâlâ tamamen yersiz.\nBir parfümün narenciye/meyve aromasıyla başlaması, temiz olduğu anlamına gelmez.\nSizler gerçekten de vücut ısısını kişisel hijyenle karıştırıyorsunuz. Acemi hatası.\n\nSon Çağrı:\nParfümümde hafif bir arsızlık olmasını severim. Ve bu parfümde de var.\nAma bu pisliği sevmiyorum.\nKağıt üzerinde: sanat. Cildimde: garip.\nBana mırıldanıp vızıldayacağını söylemişti; bunun yerine, sıcak ve iğrenç arasında bir yerde bozuldu.\nDaha taze, daha az reçel kıvamında olsaydı ve o terli orta aşamayı atlasaydı, belki bir şans bile verirdim.\nAma kayısı reçeli gibi kokmak benim tarzım değil, o yüzden olmaz.\n\nİksirler ve Çareler serisi mi? 🧙\nBüyülü şişeler, harika ambalajlar, ama büyü tutmadı.\nKoleksiyon, yarım yamalak bir konsept gibi, tutarsız ve yönsüz görünüyor.\nKokular neler? Ruh halini değiştirenler mi? Ruh halini değiştirenler mi? Ortamı bambaşka bir boyuta taşıyanlar mı? Hiçbir fikrim yok.\nEn azından artık 50 ml'lik şişelerde piyasaya sürdüler, böylece ruhunuzu satmadan önce bir parmağınızı deneyebilirsiniz.\n\n🍑💦🥵 3/5 — Temmuz ayında terli deri bir koltukta mayalanan kayısı reçeli gibi kokmak istiyorsanız, buyurun. Hadi bakalım, gaza bas!\nAma \"canlandırıcı,\" \"ferahlatıcı,\" \"yenileyici,\" Penhaligon's mu? Sayın beyler, lütfen biraz daha düzgün davranın.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2468867.jpg"
+    },
+    {
+      "id": "parent738681",
+      "author": "Tiziana21",
+      "date": "2025-05-08",
+      "text": "Bu koku, yaza bir övgü niteliğinde. Özellikle osmanthus çiçeği sevenler için olmazsa olmaz bir koku diyebilirim; burada çiçek en gerçekçi haliyle temsil ediliyor. Zarif ve meyvemsi bir açılış, kısa bir süre için kırmızı meyveleri anımsatıyor, ancak sulu ve yumuşak bir kayısının patlamasıyla – belki de daha doğru bir ifadeyle, Ağustos ayında olgunlaştığında ve elinizde çıtırdadığında tatlı özüyle – bu etki ortadan kalkıyor. Ne muhteşem bir meyve, kayısı, canlı rengiyle! İnce, ipeksi kabuğunun tadını neredeyse hissedebiliyorsunuz; notalar arasında gerçekten büyüleyici bir süet kokusu da ortaya çıkıyor. Narenciyenin hafif köpürmesiyle aydınlatılan bu güzel kompozisyon, yazın en sıcak günlerinde bir enerji patlaması. Güzel, gerçekten güzel.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.100042.jpg"
+    },
+    {
+      "id": "parent801464",
+      "author": "luvoxlixir",
+      "date": "2025-02-16",
+      "text": "Vra Vra Vroom… Nereden başlasam? Hafif, neredeyse eğlenceli bir şekilde başlıyor — taze şeftali esintisi, osmanthus ile flört, yumuşak ve tatlı, serin bir sabahı okşayan ilk güneş ışınları gibi. Neredeyse ferahlatıcı bir yanı var, yüzünüze \"günaydın\" diye fısıldayan bir nefes gibi.\n\nAma yaklaştıkça hava ağırlaşmaya başlar. Bir zamanlar taze ve parlak olan şeftali, yoğunlaşmaya başlar ve hafifliği boğar. Dans etmesi gereken osmanthus, şimdi yapışkan ve nemli bir şekilde asılı kalır, neredeyse fazla hissedilecek şekilde cildinize yapışır. Artık esinti gibi gelmiyor, yaz öğleden sonrasının en yoğun saatlerinde yürümek gibi hissettiriyor: terli, nemli, boğucu. Umutla başlayan ama terle kaplı bir sisle biten geçici bir yaz gibi. Orada, ama umduğum şekilde değil, kuruyan ağırlığıyla sıkışıp kalmış. Vra vra vroom, çok erken sonunu gören bir koku.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2357192.jpg"
+    },
+    {
+      "id": "parent801465",
+      "author": "gibbyjibby7",
+      "date": "2025-02-13",
+      "text": "Kayısı ve manolya bana en çok göze çarpan kokular. Çok hoş ve sofistike bir çiçek kokusu. Hem erkekler hem de kadınlar için uygun bir koku ama notaları daha çok kadınların ilgisini çekiyor ve erkeklerin dikkatinden kaçıyor. Ilık ve sıcak sabah ve öğleden sonralarında giyilebilecek mavi, genç ve hafif bir koku olarak tanımlanabilir. Eğer aradığınız buysa, çok eğlenceli ve güvenli bir kör satın alma olabilir.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2215029.jpg"
+    },
+    {
+      "id": "parent738664",
+      "author": "brbhg",
+      "date": "2025-01-15",
+      "text": "Olgun bir kayısıyı ısırdığınızda, suyunun parmaklarınıza bulaşması hissi. Dilimlenmiş meyvelerin bir kase yoğurdun üzerinde durduğu, yaz kahvaltısını çağrıştıran güçlü, meyvemsi bir koku. Vra Vra Vroom benim kişisel zevkime göre biraz fazla kadınsı, ancak hem bir arkadaşım hem de kız kardeşim bu kokuyu çok seviyor.\n\n\"Şampuan gibi\" koktuğu için eleştiriliyor ve bu eleştiriyi anlasam da, bunun mutlaka kötü bir şey olduğunu düşünmüyorum. Gerçek şampuan gibi kokmuyor, ancak şampuan markalarının bazen tercih ettiği tipik, sulu, meyvemsi bir kokuya sahip. Eğer \"şampuan gibi kokmak\" gerçekten sulu meyve gibi kokmak anlamına geliyorsa, buna karşı değilim! Ve eğer banyo ürünleri gibi kokuyorsanız, bu zaten çoğu zaman insanların temiz ve yeni duş almış olmakla ilişkilendirdiği bir şeydir.\n\nİlk sıkıldıktan sonra saatlerce süren şekerli bir kalıcı kokuya sahip. Bir süre sonra neredeyse sulu ve reçel kıvamına geliyor ve sıcak havalarda son derece ferahlatıcı kalıyor; sıcak yaz günleri veya bahar aylarında çimenlerde yürüyüşler için harika olurdu. Belki de sade tatlılığından dolayı genç bir havası var, ancak genç alıcılar için biraz pahalı olabilir. Yine de, eğer paranız varsa, kesinlikle muhteşem bir şişe tasarımına, büyüleyici bir konsepte ve çok zengin, olgun bir kokuya sahip.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent738665",
+      "author": "Ceila88",
+      "date": "2024-10-23",
+      "text": "Korkutucu dip notalarına aldanmayın, bu çok taze ve havadar, sabahları içilen meyveli ve çiçekli bir koku; belirgin deri veya odunsu notalar yok, bunun yerine sulu taş meyveleri ve çiçek notaları sizi çok canlandırıcı bir aroma içinde sarıyor... Ancak, bir süre sonra manolya yoğunlaşmaya başladığı için bunu anneme vermek zorunda kaldım... ve manolya parfümlerde en sevmediğim çiçeklerden biri. Eğer sizin için sorun değilse deneyebilirsiniz.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1773300.jpg"
+    },
+    {
+      "id": "parent738661",
+      "author": "Dutch Tulip Man",
+      "date": "2024-09-14",
+      "text": "Bu parfümü bir test kağıdında kokladım ve çok etkilendim, hemen satın aldım. Cildime bir kez sıktım ve formülündeki tuhaf bir şeyden dolayı tiksindim; cildim kimyon veya taco baharatı gibi kokuyordu. Bunun deri notasından kaynaklandığını anladım. İyi harmanlanmamış.\n\nAma bir şans verdim. Kimyon/taco/deri notası, tarif edilemez derecede bağımlılık yapan bir ten kokusuna dönüşüyor. Yaklaşık 30 dakika sonra kokuyu algılayamadım ve koku bir saat sonra gerçekten kendini gösterdi. Ondan sonra saatlerce kendi kokumu hissedebiliyordum.\n\nBu da dikkat çekici bir koku. Daha önce hiç iltifat alan ya da insanların kokumu takip etmek için özel çaba sarf ettiği biri olmamıştım. Ama bu koku, kullandığım parfümler arasında bir numaraya yerleşti. Sadece bir gün kullandıktan sonra, konuştuğum HERKES ve hatta yoldan geçen yabancılar bile bana iltifat etti. Bunun mümkün olduğuna inanmıyordum ama lütfen sözüme güvenin.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent738672",
+      "author": "Antiope",
+      "date": "2024-08-24",
+      "text": "Neşeli, dikkat çekmeyen sonuncu\n\nBergamot parfümünün hafif çiçeksi ve kremsi notalarıyla harmanlanmış dumanları, kullananların etrafında neşeyle dolaşıyor, ardından fazla ses çıkarmadan önemsiz bir şekilde kayboluyor.\n\nBu koku bana 1970'ler ve 80'lerdeki büyük mağazaların genellikle pek de ilham verici olmayan parfüm reyonlarındaki kokuyu biraz hatırlatıyor. Orada genellikle Juvena, Max Factor, Ellen Betrix veya Sans Soucis gibi orta sınıf markalar bulunurdu ve bunlar gayet kabul edilebilir markalardı. Bunların yanında veya arkasında, çeşitli tanınmış, elitist olmayan üreticilerin eau de cologne ve eau de toilette'leri yer alırdı ve bunlar, kremlerle birlikte, Douglas'tan veya kendi mahallemdeki tek parfümcüden genellikle önemli ölçüde daha ucuzdu. O yerlerde aynı ürünler için genellikle iki kat daha fazla öderdiniz, bu da beni sık sık rahatsız ederdi ve belirli markaların kafa karıştırıcı fiyatlandırma oyununa kendimi artık maruz bırakmak istemediğim için marka değiştirmeye karar verdim. Artık eczanelerde, büyük mağazalarda, parfümcülerde ve ayrıca Douglas'ta aynı ürünlerin fiyatlarını sürekli karşılaştırmak için zaman harcamak istemiyordum ve zaten bunu oldukça sinir bozucu buluyordum.\n\nPenhaligons'ın bu parfümüyle ilgili ilk izlenimim şu: Parfüm kreasyonları ve kalıcılığı bazen beni gerçekten hayrete düşürüyor; çünkü yarım saatten biraz fazla bir süre sonra, birkaç kez sıkmış olmama rağmen, etrafımı yalnızca çok hafif, yumuşak ve kısa sürede tamamen kaybolan bir çiçeksi kolonya kokusu sarıyor.\nNeyse ki İngiltere'den sadece küçük bir şişe aldım, çünkü orijinal bir şişe alsaydım, fiyatı göz önüne alındığında muhtemelen öfkeyle Penhaligons'a iade ederdim. Tabii ki, yanına bir de mektup eklerdim.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.de",
+      "avatar": "https://fimgs.net/mdimg/avataride/m.7250.jpg"
+    },
+    {
+      "id": "parent738662",
+      "author": "DulyNoted",
+      "date": "2024-07-07",
+      "text": "Bu parfümü Epcot'taki \"İngiltere\" bölümünden aldım ve şişesine isim yazdırdım - koleksiyonumda bir ilk ve çok eğlenceli, tatlı ve keyifliydi. Penhaligon's parfümlerinin en sevdiğim oldu. Parlak ve neşeli ama aynı zamanda dengeli bir sıcaklığa sahip olmasını seviyorum. Genellikle ağır deri kokularını sevmem ve dürüst olmak gerekirse bu, aldehitli narenciye ve çiçekleri tamamlayan yumuşak bir deri versiyonu. Bazen parfümlere karşı hassasım ve bu parfüm bana baş ağrısı yapmıyor. Bir YouTube yorumunda, parfümün ciltte \"neredeyse hayvansı\" olarak nitelendirildiğini gördüm, ki ben bunu deneyimlemedim. Bununla birlikte, o yöne doğru eğilen bir şeyin güçlü havasıyla rahatım. Neyse - bu kokuyu ÇOK SEVİYORUM ve burada daha fazla koşulsuz olumlu yorum alması gerektiğini düşünüyorum. Şimdilik başucu komodinimde tutacağım ve belki birkaç hafta sonra öğleden sonra enerji artışı için işe götüreceğim.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1541393.jpg"
+    },
+    {
+      "id": "parent738666",
+      "author": "COLOREDGIRLSHUFFLE",
+      "date": "2024-06-12",
+      "text": "Ahh, bu yaz favorim olabilir. Taze narenciye, osmanthus, gül ve manolya üzerinde dans ediyor... Deri ve tütsü bazına doğru kuruyarak muhteşem bir koku ortaya çıkarıyor. Bu koku, günlük kullanım için yeterince rahatsız edici olmayan, taze ve narenciye ağırlıklı; ancak deri, gül ve guergiwood, karmaşıklığı sevenler için yine de keskin bir etki bırakıyor. Kesinlikle saklanmaya değer bir koku.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1341923.jpg"
+    },
+    {
+      "id": "parent738660",
+      "author": "Willowthewisp",
+      "date": "2024-05-03",
+      "text": "İnsanların bu serinin bazı taze bahar parfümlerini Baccarat Rouge ile nasıl karşılaştırdığını anlamıyorum. Bu, BR540 ile hiçbir ortak nota paylaşmayan ve hatta aynı koku profiline/DNA'ya bile sahip olmayan meyveli bir parfüm. Eğer içinde safran yoksa yanlış bir karşılaştırma yapıyorsunuz demektir.\n\nBu meyvemsi ve aromatik bir koku, ancak osmanthus ve adaçayı hoş bir bitkisel-çiçeksi dokunuş ve belirli bir ışıltılı, canlılık kattığı için sıradan olarak nitelendiremezdim. Kayısı ise parfümlerde yaygın olarak kullanılan bir meyve notası değil. İlk başta hafif deri notasını fark etmedim ama genellikle yüksek dozlarda sevmediğim için sofistike bir hava katıyor. Bu parfümün kalıcılığı çok iyi değil, muhtemelen en fazla 2 saat sürüyor, ancak tekrar sıkmaktan çekinmiyorum ve 100 ml'lik şişeyi 1 yılda neredeyse hiç bitirmedim.\n\nBu, yaklaşık 20 tane olan imza kokuma en yakın olanı. Genel olarak çok güzel bir parfüm ve yaz havaları yaklaşırken kullanmaktan keyif aldığım bir koku. Perfume Parlour bunun benzerini çıkardı, bu yüzden 100 ml'lik şişem bittikten sonra onu da alacağım, ancak bu biraz zaman alacak.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1555935.jpg"
+    },
+    {
+      "id": "parent801461",
+      "author": "Aegan",
+      "date": "2024-03-21",
+      "text": "Parfümleri nadiren bu kadar kötü olarak değerlendiririm. Genellikle parfüm değerlendirmelerinin öznel olduğunu aklımda tutmaya çalışırım. Ancak bu parfüm, ilk sıktığım andan itibaren rahatsız ediciydi. Ne kokusu geldiğini bilmiyorum ama kimyon baharatı gibi kokuyordu. Çok kötüydü. Liquid Love hariç tüm Potions örnekleri pek etkileyici değildi. Kokularının fiyatı nedeniyle örnekleri denediğim için memnunum. Ancak bu, en kötüsüydü. Körü körüne satın almayın.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2066717.jpg"
+    },
+    {
+      "id": "parent801463",
+      "author": "Houdini4",
+      "date": "2024-02-13",
+      "text": "Bu parfümün uygulaması beni biraz rahatsız etti.\nBurada kesinlikle iyi bir fikir var, ama dediğim gibi, en azından incelik ve nüans açısından eksiklikler var. Meyveli bir misk\nOsmanthus kokusu alıyorum, bu günlerde giderek daha çok ilgimi çeken bir koku. Greyfurt/kavun (ikisinin karışımı olan, adı aklıma gelmeyen meyve... ahhhh Pomelo!!!! evet, bu!) ve daha kalıcı bir 'tropikal' meyve akoruna kadar, yaklaşık on saniye boyunca hoş ama sonra sinir bozucu olmaya başlayan bir koku. Osmanthus'un daha sadık yorumlarında hissedilen 'hava' ve kuru geraniol etkisi burada çok daha az, bu biraz şurup, konsantre, balyoz gibi, şeftali kokusuna hiç yakışmıyor.\nİlginç olan, açılışta çok hafif bir odunsu akor hissetmem ve ardından tüm parfüm boyunca oud gül parfüm akorunun hayali kokusunu almam ve elbette bu notalarda da listelenmiş olması (gül ve deri). Bunun parfümcü/geliştirme ekibinin çok kısıtlı ve akıllıca bir kararı mı, yoksa biraz kararsız ve zayıf bir karar mı olduğunu anlayamıyorum. Bu, benim bile çözemediğim ince bir çizgi.\nAmbroxan konusunda, Vra Vra Vroom'un bu malzemeyi oldukça iyi kullandığını düşünüyorum, bana sorarsanız osmanthus ve meyveli misk kokularıyla çok iyi uyum sağlıyor. Ambrofix'i epeyce kullandım ve Ambrox super'e geçmeme rağmen, hala iyi olduğunu düşünüyorum.\nBugün bunu giyiyorum ve hissettiklerimi engelleyemiyorum, pek sevmiyorum, bir daha asla giymek istemiyorum ama bu parfümü nefret edemiyorum çünkü düşünmek ve yazmak için yeterince neden var, bir anlamda garip bir şekilde çekici.\nBaşlangıçta koluma sürdüğümde, çok pahalıya satın alsam sinirlenirim diye düşünecek kadar çok çabuk uçtuğunu fark etmiştim, ama bugün öyle olmadı, giysilere ve saça gerçekten yapışıyor, bu da ona makul bir kalıcılık sağlıyor, ama giysilerde kalıcı olmayan pek fazla parfüm yok, bu yüzden bu pek de büyük bir övgü sayılmaz, ayrıca cildim onu çok çabuk emdi, bu da dikkat edilmesi gereken bir nokta.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.607493.jpg"
+    },
+    {
+      "id": "parent738697",
+      "author": "Ann with two \"N\"",
+      "date": "2023-12-16",
+      "text": "Uzun süre boyunca, bana bu parfümü bu kadar çok hatırlatan şeyin ne olduğunu anlayamadım. ELDO'nun Ghost ve Garbage parfümlerinin bir karışımı gibi, sadece meyvemsilik en üst düzeye çıkarılmış. Kimyasal, yapay kayısı kokusu tüm parfüm boyunca kendini gösteriyor. Fermente olmuş meyvenin hoş olmayan çürük bir notası da var. Başımı ağrıttı. Markanın tarzına hiç uymuyor ve hayal kırıklığına uğradım.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent738699",
+      "author": "Nadja Meow",
+      "date": "2023-09-10",
+      "text": "Serinin en yaygın kokusu olan osmanthus, baştan sona baskın nota. Bana göre güzel bir baharat, ama diğer her şey onunla uyum içinde, gücünün içinde kayboluyor. 🤔 Bol hava, rüzgar ve açık alan gerektiren, çiçeksi-meyveli bir asidite esintisi; aksi takdirde sinir bozucu hale geliyor ve monotonluğuyla sıkıcılaşıyor. Ayrıca 2000'lerin başlarındaki şık Carolina Herrera'ya benzer bir havası var, ama daha ekşi. Erkeklerde kesinlikle uygun bulmuyorum; doğası gereği çok havadar ve öpülesi.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.346961.jpg"
+    },
+    {
+      "id": "parent738663",
+      "author": "Willowthewisp",
+      "date": "2023-08-20",
+      "text": "Bu muhteşem bir koku ve Penhaligon's'ın diğer ürünlerine hiç benzemiyor. Meyveli ve ışıltılı kayısı notası öne çıkıyor ve onu aromatik kılan manolya ve adaçayı ile güzelce harmanlanıyor. Ayrıca hafif sabunsu bir kokusu da var. Kalıcılığı bende orta seviyede, ancak ud veya vanilya kokuları veya losyonuyla birlikte kullanarak uzatılabilir. Bunu İngiltere'deki en iyi spa'yı ziyaret ettiğim öğleden sonra kullandım ve bu koku benim için terapötik ve rahatlatıcı anılar taşıyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1555935.jpg"
     }
   ]
 }

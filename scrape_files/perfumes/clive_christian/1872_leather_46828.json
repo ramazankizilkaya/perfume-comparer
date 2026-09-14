@@ -49,6 +49,34 @@
     {
       "name": "balsamik",
       "width": "46.226%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "5",
-    "spring": "3",
-    "summer": "3",
+    "spring": "4",
+    "summer": "4",
     "autumn": "3",
-    "day": "5",
+    "day": "6",
     "night": "2"
   },
   "notes": {
@@ -96,23 +124,23 @@
     "weak": "1",
     "moderate": "3",
     "longLasting": "4",
-    "eternal": "7"
+    "eternal": "8"
   },
   "sillage": {
     "intimate": "1",
     "moderate": "3",
     "strong": "5",
-    "enormous": "8"
+    "enormous": "9"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "2",
-    "male": "1"
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "0",
+    "wayOverpriced": "1",
     "overpriced": "1",
     "fair": "0",
     "goodValue": "2",
@@ -189,5 +217,6 @@
       "brand": "XERJOFF",
       "name": "Tony Iommi Monkey Special"
     }
-  ]
+  ],
+  "comments": []
 }

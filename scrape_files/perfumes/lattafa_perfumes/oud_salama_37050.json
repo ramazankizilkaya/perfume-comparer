@@ -31,11 +31,11 @@
       "width": "68.2083%"
     },
     {
-      "name": "deri",
+      "name": "misk",
       "width": "62.0833%"
     },
     {
-      "name": "misk",
+      "name": "deri",
       "width": "62.0833%"
     },
     {
@@ -45,6 +45,34 @@
     {
       "name": "pudralı",
       "width": "52.1667%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,33 +110,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "1",
+    "moderate": "6",
+    "longLasting": "6",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "6",
+    "strong": "9",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "6",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "PRİN",
+      "name": "Hürrem Sultan"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Oud for Happiness"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Turathi Brown"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ALREHAB PERFUMES",
@@ -170,5 +211,6 @@
       "brand": "ARMAF",
       "name": "Club de Nuit Intense"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -45,6 +45,34 @@
     {
       "name": "bitkisel",
       "width": "45.5826%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -80,33 +108,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "21",
+    "moderate": "52",
+    "longLasting": "15",
+    "eternal": "12"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "25",
+    "moderate": "52",
+    "strong": "27",
+    "enormous": "26"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "58",
+    "moreFemale": "7",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "16",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "27",
+    "greatValue": "12"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 VIP Rosé"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Dose de Humor"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Rosé"
+    },
+    {
+      "brand": "MARIA CHER.",
+      "name": "Veinte"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Luna Ousadia"
+    },
+    {
+      "brand": "HİNODE",
+      "name": "Grace La Rose Sublime"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Sexy"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Nuit Trésor"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Sauvage Elixir"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Liz Intenso"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -122,11 +191,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Luna"
+      "name": "Luna Radiante"
     },
     {
       "brand": "NATURA",
-      "name": "Luna Radiante"
+      "name": "Luna"
     },
     {
       "brand": "NATURA",
@@ -168,5 +237,6 @@
       "brand": "NATURA",
       "name": "Essencial Oud"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -35,11 +35,11 @@
       "width": "54.5%"
     },
     {
-      "name": "tropikal",
+      "name": "vanilya",
       "width": "51%"
     },
     {
-      "name": "vanilya",
+      "name": "tropikal",
       "width": "51%"
     },
     {
@@ -81,94 +81,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "12",
-    "weak": "12",
-    "moderate": "16",
-    "longLasting": "2",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "15",
-    "moderate": "16",
-    "strong": "4",
-    "enormous": "10"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "17",
-    "moreFemale": "2",
-    "unisex": "3",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "3",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "9",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ESTÉE LAUDER",
-      "name": "Bronze Goddess Eau Fraiche Skinscent 2016"
-    },
-    {
-      "brand": "ESTÉE LAUDER",
-      "name": "Bronze Goddess Soleil"
-    },
-    {
-      "brand": "HOLLİSTER",
-      "name": "Wave 2 For Her"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa Tan Lines"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Sun di Gioia"
-    },
-    {
-      "brand": "ATKİNSONS",
-      "name": "Californian Poppy (new)"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "At the Beach"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "In The Sun"
-    },
-    {
-      "brand": "CREED",
-      "name": "Silver Mountain Water"
-    },
-    {
-      "brand": "ALYSSA ASHLEY",
-      "name": "Coco Vanilla by Alyssa Ashley"
-    },
-    {
-      "brand": "AERİN",
-      "name": "Hibiscus Palm"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Eau de Soleil Blanc"
-    },
-    {
-      "brand": "TOMMY HİLFİGER",
-      "name": "Tommy Girl Summer 2025"
-    },
-    {
-      "brand": "AVON",
-      "name": "Tahitian Holiday"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Very Sexy Now Wild Palm"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JUİCY COUTURE",
@@ -230,5 +169,6 @@
       "brand": "VİCTORİA'S SECRET",
       "name": "Eau So Sexy"
     }
-  ]
+  ],
+  "comments": []
 }

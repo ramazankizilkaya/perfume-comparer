@@ -2,13 +2,13 @@
   "name": "Acqua di Giò Elixir Giorgio Armani",
   "targetGender": "erkekler için",
   "fragranceFamily": "Fresh",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101438.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Giorgio-Armani/Acqua-di-Gio-Elixir-101438.html",
   "brand": "Giorgio Armani parfüm ve kolonya",
-  "description": "Giorgio Armani markasının Acqua di Giò Elixir parfümü, erkekler için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Acqua di Giò Elixir, 2025 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Bergamot, Yeşil Mandalina ve Muskat; orta notalar: Menekşe yaprağı ve Su; alt notalar Deri, Paçuli, Vetiver ve Labdanum.",
-  "description_original": "Giorgio Armani markasının Acqua di Giò Elixir parfümü, erkekler için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Acqua di Giò Elixir, 2025 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Bergamot, Yeşil Mandalina ve Muskat; orta notalar: Menekşe yaprağı ve Su; alt notalar Deri, Paçuli, Vetiver ve Labdanum.",
-  "description_enhanced": "Giorgio Armani markasının Acqua di Giò Elixir parfümü, erkekler için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Acqua di Giò Elixir, 2025 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Bergamot, Yeşil Mandalina ve Muskat; orta notalar: Menekşe yaprağı ve Su; alt notalar Deri, Paçuli, Vetiver ve Labdanum.",
+  "description": "Giorgio Armani markasının Acqua di Giò Elixir parfümü, erkekler için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Acqua di Giò Elixir, 2025 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Bergamot, Yeşil Mandalina ve Muskat; orta notalar: Menekşe yaprağı ve Su Notaları; alt notalar Deri, Paçuli, Vetiver ve Labdanum.",
+  "description_original": "Giorgio Armani markasının Acqua di Giò Elixir parfümü, erkekler için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Acqua di Giò Elixir, 2025 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Bergamot, Yeşil Mandalina ve Muskat; orta notalar: Menekşe yaprağı ve Su Notaları; alt notalar Deri, Paçuli, Vetiver ve Labdanum.",
+  "description_enhanced": "Giorgio Armani markasının Acqua di Giò Elixir parfümü, erkekler için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Acqua di Giò Elixir, 2025 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Bergamot, Yeşil Mandalina ve Muskat; orta notalar: Menekşe yaprağı ve Su Notaları; alt notalar Deri, Paçuli, Vetiver ve Labdanum.",
   "mainAccords": [
     {
       "name": "sulu",
@@ -16,59 +16,87 @@
     },
     {
       "name": "narenciye",
-      "width": "88.4709%"
+      "width": "88.0548%"
     },
     {
       "name": "ozonik",
-      "width": "69.0406%"
-    },
-    {
-      "name": "taze baharatlı",
-      "width": "65.7861%"
+      "width": "69.2674%"
     },
     {
       "name": "odunsu",
-      "width": "65.6892%"
+      "width": "66.0102%"
+    },
+    {
+      "name": "taze baharatlı",
+      "width": "65.9835%"
     },
     {
       "name": "deri",
-      "width": "62.2695%"
-    },
-    {
-      "name": "aromatik",
-      "width": "54.0502%"
+      "width": "62.2376%"
     },
     {
       "name": "paçuli",
-      "width": "53.8575%"
+      "width": "54.2118%"
+    },
+    {
+      "name": "aromatik",
+      "width": "54.0912%"
     },
     {
       "name": "yeşil",
-      "width": "52.3401%"
+      "width": "52.4061%"
     },
     {
       "name": "toprak",
-      "width": "52.037%"
+      "width": "52.2856%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.13",
-    "votesCount": "1,623",
+    "score": "4.15",
+    "votesCount": "1,690",
     "breakdown": {
-      "love": "819",
-      "like": "425",
-      "ok": "223",
-      "dislike": "90",
+      "love": "858",
+      "like": "443",
+      "ok": "232",
+      "dislike": "91",
       "hate": "66"
     }
   },
   "seasons": {
-    "winter": "298",
-    "spring": "875",
-    "summer": "903",
-    "autumn": "679",
-    "day": "840",
-    "night": "682"
+    "winter": "315",
+    "spring": "914",
+    "summer": "945",
+    "autumn": "711",
+    "day": "876",
+    "night": "717"
   },
   "notes": {
     "top": [
@@ -78,7 +106,7 @@
     ],
     "middle": [
       "Menekşe yaprağı",
-      "Su"
+      "Su Notaları"
     ],
     "base": [
       "Deri",
@@ -89,31 +117,31 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "31",
-    "weak": "38",
-    "moderate": "263",
-    "longLasting": "505",
-    "eternal": "54"
+    "veryWeak": "30",
+    "weak": "42",
+    "moderate": "272",
+    "longLasting": "517",
+    "eternal": "56"
   },
   "sillage": {
-    "intimate": "83",
-    "moderate": "263",
-    "strong": "249",
-    "enormous": "33"
+    "intimate": "85",
+    "moderate": "272",
+    "strong": "258",
+    "enormous": "35"
   },
   "genderVoting": {
     "female": "22",
     "moreFemale": "2",
-    "unisex": "30",
-    "moreMale": "142",
-    "male": "719"
+    "unisex": "32",
+    "moreMale": "145",
+    "male": "743"
   },
   "priceVoting": {
-    "wayOverpriced": "316",
-    "overpriced": "305",
-    "fair": "223",
-    "goodValue": "46",
-    "greatValue": "14"
+    "wayOverpriced": "325",
+    "overpriced": "315",
+    "fair": "232",
+    "goodValue": "49",
+    "greatValue": "16"
   },
   "remindsMeOf": [
     {
@@ -170,11 +198,11 @@
     },
     {
       "brand": "GİORGİO ARMANİ",
-      "name": "Acqua di Giò Profondo Parfum"
+      "name": "Acqua di Giò Eau de Parfum"
     },
     {
-      "brand": "MANCERA",
-      "name": "Wind Wood"
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Giò Profondo Parfum"
     }
   ],
   "peopleAlsoLike": [
@@ -231,12 +259,214 @@
       "name": "La Nuit de l'Homme"
     },
     {
-      "brand": "PRADA",
-      "name": "Prada L'Homme"
+      "brand": "HUGO BOSS",
+      "name": "Bottled Absolu"
     },
     {
-      "brand": "DİOR",
-      "name": "Dior Homme Intense 2011"
+      "brand": "PRADA",
+      "name": "Prada L'Homme"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent608275",
+      "author": "SereginS",
+      "date": "2025-07-02",
+      "text": "Bu gerçekten çok iyi yapılmış!\nSon zamanlarda çok sevilen DigiCam'in neredeyse tüm yeni versiyonlarını eleştirmek yaygın bir durum, ancak bu ürünün formülü gerçekten çok iyi.\nGeçen gün havaalanındaki gümrüksüz satış mağazasında denedim ve ilk saniyeden itibaren cildimde ve test kağıdında bayıldım! Yoğun ama aynı zamanda taze ve canlı, kadifemsi yumuşaklığıyla büyüleyici, aynı zamanda erkeksi, cesur ve belirgin bir koku. Bana Profumo'nun en güzel özelliklerini hatırlattı.\nBu kağıt 5 günden fazla süreyle güzel koktu ve aşırı dayanıklılığına rağmen herhangi bir keskin odun veya başka kimyasal koku fark etmedim.\nFiyatı daha makul hale geldiğinde koleksiyonum için kesinlikle bir şişe alacağım.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.308435.jpg"
+    },
+    {
+      "id": "parent608262",
+      "author": "hamnickton",
+      "date": "2025-06-25",
+      "text": "İnanılmaz bir parfüm, şimdiye kadar kokladığım en iyilerden biri. Kötü kokan 300 euroluk niş parfümlerden çok daha iyi.\nNe yazık ki kalıcılığı çok kısa, ciltte yaklaşık 6 saat sürüyor. Ancak neredeyse hiç iz bırakmıyor. Performansının yetersizliğine rağmen, gerçekten muhteşem bir parfüm. Su, narenciye ve yeşil notaların deriyle karışımı tarif edilemez derecede lezzetli. Bütün gün kokusunu alabilirdim.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent608252",
+      "author": "AlexLuthor",
+      "date": "2025-06-25",
+      "text": "Menekşe kokusunun su notalarıyla birleşmesinden hiç hoşlanmadım. Bir iksir için gerçekten çok kötü; benim için hiçbir çekiciliği yok. \"Herkes bir iksir çıkardı, belki de kendi iksirlerini yapmanın zamanı geldi\" diye düşünmüş olmalılar ama hedefi tutturamamışlar.\nVasat, sıradışı bir şey yok.\nProfumo flanker çok daha iyi.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.57325.jpg"
+    },
+    {
+      "id": "parent608251",
+      "author": "PredaTAL",
+      "date": "2025-04-28",
+      "text": "Aqua di Giò Elixir, Profumo'nun mirasını çok daha yoğun, aromatik ve lüks bir yaklaşımla modernize ediyor. Profumo, tütsü ve mineral notalarıyla bezenmiş, ölçülü bir deniz zarafeti sunarken, Elixir odunsu, baharatlı ve canlı bir zenginliğe yöneliyor ve önemli ölçüde daha üstün bir yayılım ve kalıcılık sunuyor. Daha cesur, daha sıcak ve daha iddialı olan Elixir, Aqua di Giò'nun daha sofistike ve güçlü bir vizyonunu somutlaştırırken, kendine özgü bir tazeliği de koruyor. Başarılı bir evrim, ancak Profumo'ya sade cazibesini veren deniz minimalizminden uzaklaşan bir evrim.\n\n10 üzerinden 8.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.43920.jpg"
+    },
+    {
+      "id": "parent608263",
+      "author": "Christian Cantelli",
+      "date": "2025-04-14",
+      "text": "Acqua di Giò Elixir beni gerçekten şaşırttı! Kalıcılığı olağanüstü, cildimde yaklaşık 18 saat sürüyor. Açılış, klasik Acqua di Giò'ya sadık, ancak biraz daha meyvemsi bir nüansla tazelik katıyor. Kalp notalarında, sucul öz, berrak ve canlı bir şekilde başrolde kalıyor. Ancak Elixir'in gerçekten öne çıktığı yer dip notaları: zengin paçuli ve bir tutam deri ortaya çıkıyor, yeni ve büyüleyici bir karmaşıklık katıyor. Tanıdık bir şeyle başlayan ve sizi modern ve cesur bir şeye götüren bir yolculuk gibi. İlk başta güçlü bir yayılıma sahip, ardından incelikli ama sürekli bir varlığa dönüşüyor, asla solmuyor. Gelenek ve yeniliği dengeleyen bir evrim.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.76793.jpg"
+    },
+    {
+      "id": "parent608245",
+      "author": "Bonophone",
+      "date": "2025-04-12",
+      "text": "Nefret ve abartı orantısız bir şekilde haksız olduğunda,…\n\nDürüst olmak gerekirse, bu koku harika ve bundan sonra istediğiniz kadar tartışabilirsiniz. İster bir pazarlama stratejisi olsun ister isimle ilgili uzun uzadıya bir tartışma... saçmalıkları bırakın ve bu kokunun tadını önyargısız çıkarın.\n\nBakalım, bu, Fahrenheit'ın özünü taşıyan ve aynı zamanda temel bir tanımlama içeren bir AdG. Ve kelimenin tam anlamıyla öyle, ve şahsen, en sevdiğim iki kokunun birleşimi. Kalıcılığı nasıl? Evet, EdT'den daha uzun ve Parfüm ile aynı seviyede. Yayılımı nasıl? Parfüm kadar değil. Tavsiye edilir mi? Evet, kesinlikle. Pahalı mı? Bu göreceli bir terim, ancak bugünlerde 70 €'nun altında bulabilirsiniz, bu hiç de fena değil.\n\nSonuç olarak, şahsen tavsiye ederim. Çığır açıcı değil, ama beğenmeyecek kimsenin olacağını sanmıyorum.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.137125.jpg"
+    },
+    {
+      "id": "parent608279",
+      "author": "Krasavcheg138",
+      "date": "2025-02-24",
+      "text": "Muhteşem bir koku! Şişesi şahsen daha da güzel görünüyor! 😇 Taze sucul narenciye ve menekşe ile açılıyor. Hafif bir meşe notası da var. Başlangıçta çok ferah. Sonra diğer notalar devreye giriyor. Koku gerçekten kendini gösteriyor, en az üç aşama fark ettim. Ciltte daha iyi, ancak test kağıdında biraz zayıf. 😁 Uzun süre kalıcı, kalıcı bir kokuya sahip ve kesinlikle numunelerini alacağım! Tavsiye ederim 😇👍🏻",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.202186.jpg"
+    },
+    {
+      "id": "parent608244",
+      "author": "Mithrandir",
+      "date": "2025-02-22",
+      "text": "Acqua di Gio veya benzeri kokuları çok seviyorum. Ancak bu iksir aşırı derecede menekşe kokusuna yatkın, bu da Fahrenheit veya Boss Bottled Triumph sevenlerin bu yeni versiyonu da muhtemelen beğeneceği anlamına geliyor.\n\nKötü bir parfüm değil, ama kokusu beni pek etkilemedi. Daha yoğun, daha ağır bir Acqua di Gio istiyorsam, Profumo'yu tercih ederim ve eğer birini seçmek zorunda kalsam, Parfum da işimi görürdü. Şüphesiz ki, tüm serinin en olgun kokusu.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.99897.jpg"
+    },
+    {
+      "id": "parent608261",
+      "author": "ManfrediGaetano14",
+      "date": "2025-02-16",
+      "text": "Acqua di Gio Elixir. \"Armani'den güçlü bir lansman.\" Bu anı aylardır bekliyordum. Acqua di Gio'nun Alberto Morillas imzalı bir flanker ile Elixir serisine katılacağı haberi, uzun zamandır hissetmediğim çocuksu bir arzuyu yeniden alevlendirdi. Gerçekten de, Profondo'dan beri Armani, seriden tek bir koku bile çıkarmayı asla ihmal etmedi. O zamandan beri Acqua di Gio her zaman açık sözlü, canlı, yenilikçi ama aynı zamanda orijinaline sadık kaldı. Profondo, Profondo Lights, Profondo Parfum, yeniden canlandırılan Parfum ve diğer yeni versiyonlar, yeni milenyumda parfümcülük tarzını şekillendiren ilk ideali mükemmel bir şekilde somutlaştırıyor: %30'dan fazla Hedione, %20'den fazla Linallol ve türevleri, Calone, Dihydromyrcenol, Aldehitler, Ozonlanmış Notalar ve çok az sayıda doğal bileşen; dil, kültür veya gelenek ne olursa olsun herkes tarafından anlaşılabilecek evrensel bir mesaj iletebilme yeteneği. Uygulamada, Alberto Morillas yeni bir parfüm grameri, 90'ların sonlarından günümüze kadar her parfümün tarzını kesintisiz olarak belirlemeye devam eden yeni bir dil yarattı.\nDolayısıyla, orijinal oyunun çıkışından neredeyse otuz yıl sonra, Elixir'in diğerlerinin yanında sıradan bir yan oyun olamayacağı açıktı. Morillas'ın bunca zaman sonra kendi sözünü söylemesi gerekiyordu; ve gerçekten de söyledi, orijinal oyunun imzasını son derece açık, kararlı ve hatta 'karanlık' diyebileceğimiz bir şekilde ortaya koydu.\nEğer alışılmış Acqua di Gio'yu bekliyorsanız, maalesef yanılıyorsunuz. Morillas, Helional, Calone, Menekşe Yaprağı, ama her şeyden önce Ölümsüz Çiçek, Paçuli ve Ambrox ile oynayarak Quentin Bisch'in ultra modern yaklaşımına benzer bir sonuç elde ediyor. Ve bunu o kadar iyi yapıyor ki, Ganymede, B683 ve Bois Imperial'i pencereden atmak istiyorsunuz; bunların yerine Safraleine ve Morillas tarafından tamamen göz ardı edilen diğer moda dokular kullanılıyor. Bergamot, Mandalina, Linallyl Asetat ve Etil Linallol ile dolu üst notalarla kapanan Acqua di Gio Elixir, gerçekten modern ve gizemli, karanlık ve ayırt edici bir hal alıyor ve son (olağanüstü) Profondo Parfum da dahil olmak üzere diğer versiyonlara kıyasla sadece küçük bir yayılım kaybı yaşıyor. Bu Elixir'i bu kadar cesur yapan şeyin ne olduğunu tam olarak belirleyemiyorum, ancak Paçuli'nin kokunun kalp ve temel notalarında fark yaratması gerekiyor.\nVe söyleyecek fazla bir şey yok, çünkü çok heyecanlıyım. Armani, 2025 ile bize sadece bir flanker değil, birçok yönden yenilikçi, mükemmel performansa sahip ve insani fiyatlı bir koku sunuyor. Büyük harfle yazılmış bir \"lansman\" olacağını hayal etmiştim, ama çok fazla şey ummazdım. Ölümcül laktonlar yok, fougère benzeri tonka fasulyesi, Heliotropin ve beslenmeye hazır anaokulu çocuklarıyla katmanlanmış bir koku yok. Sadece Paçuli ile oynayan (belki de \"Ah, bunu giymekte zorlanırım...\" demek için...) bir Exaltolide ipucu var ve sonra kaçınılmaz Hedione, tüm kompozisyona hacim ve hafiflik veren bir zevk molekülü. Muhteşem.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.48205.jpg"
+    },
+    {
+      "id": "parent608243",
+      "author": "vitodito",
+      "date": "2025-02-03",
+      "text": "Geçen gün kağıt üzerinde denedim, bugün de elimde.\n\nKağıt üzerinde neredeyse beni heyecanlandırdı, çünkü tipik Acqua di Giò DNA'sının daha olgun bir versiyonu gibi görünüyordu.\nProfumo'ya çok benziyor ve uzaktan bakınca Fahrenheit'i hatırlatan ışık parlamaları bile fark ettim.\nSanki doksanlı yıllardaki orijinal koku, tıpkı bizler gibi 30 yıl olgunlaşmış ve iyi yönde gelişmişti.\n\nBu yüzden bugün cildime sıkmaya karar verdim ve dürüst olmak gerekirse, bazı şeyler biraz değişmiş. Klasik DNA'yı, Profumo'ya benzerliği hala algılayabiliyorum, ancak sanki derinlerde modern parfümerinin tipik sentetik kimyasal bazını kokluyorum. Orijinalinden 30 yıl daha eski, ama olumsuz anlamda; şimdi sanki orijinal DNA'ya modern bir küf bulaşmış ve neredeyse onu kirletmiş gibi görünüyor.\n\nSon kararım şu ki, beğenmedim. Hedef kitlesi, bu parfümü her zaman imza parfümü olarak kullanan ve ona küçük bir değişiklik katmak isteyenler olabilir. Bana göre, serinin diğer parfümlerine zaten sahip olanlar için kesinlikle gereksiz.\n\nHem burada hem de diğer markalarda, \"elixir\", \"absolut\" ve benzeri saçmalıklarla dolu bir ortamda, yeni bir isim lansmanını hâlâ bekliyoruz.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.40111.jpg"
+    },
+    {
+      "id": "parent608221",
+      "author": "ChefTorpedo33",
+      "date": "2025-01-30",
+      "text": "İnsanlar sızlanmayı sever. Bence harika kokuyor. Evet, biraz Fahrenheit'ı hatırlatıyor ama kesinlikle aynı koku değil.\n\nEğer Fahrenheit Cologne ve Acqua di Gio EDP'nin bir çocuğu olsaydı, işte ortaya bu çıkardı. Fahrenheit'ı pek sevmem ama bunu çok beğendim.\n\nDaha odunsu bir ADG gibi kokuyor, hindistan cevizi hoş bir dokunuş katıyor. Kurudukça deri kokusu da kendini göstermeye başlıyor. Satın aldığıma pişman değilim, tüm hafta boyunca kullandım ve eşim de çok beğendi.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent608220",
+      "author": "rmnnnnn",
+      "date": "2025-01-12",
+      "text": "Az önce denedim. Parfümünü de beğenmemiştim, bunu da beğenmedim. Ama Parfüm'den biraz daha iyi - su notalarının hayranı değilim ve bunda daha az su notası var gibi geliyor. Su notaları çoğunlukla açılışta mevcut ve sonra biraz kayboluyor.\n\nAma en önemlisi, bence bu Fragrantica'daki yorumları okuyan hiç kimse için bir parfüm değil. Bu, Sephora'da alışverişe giden ve \"kendini şımartmak\" isteyen sıradan bir insan için. Bu fiyata, istediğiniz hemen hemen her niş parfümü alabilirsiniz. Buradaki herhangi birinin bunu neden satın alacağını anlamıyorum.\n\nDüzenleme: Bu parfüm cildimde 24 saat kaldı. 2 duş ve 1 spor salonu seansını atlattı. Belki de sucul notaları sevmediğim için burnum hala algılıyor olabilir? Yine de, oldukça iyi bir performans. Yayılımı da fena değildi.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1804742.jpg"
+    },
+    {
+      "id": "parent608223",
+      "author": "JeremyPrajwal",
+      "date": "2025-01-10",
+      "text": "İşte ben bu parfümü gerçekte koklamadan veya görmeden bu yorumu yazıyorum. Ve siz de bu kadar erken bir aşamada benimkine benzer yorumları okuyarak zamanınızı boşa harcıyorsunuz. Ama herkes benim gibi açık sözlü ve dürüst değil.\n\nBu kokunun ne durumda olduğunu gerçekten öğrenmek istiyorsanız, yılın ikinci yarısında tekrar gelin.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent608225",
+      "author": "Candyandy",
+      "date": "2025-01-10",
+      "text": "Bugün Sephora'da elimin üzerine sıktım. Tuzlu deniz notaları ve menekşe notaları eşit oranda içeriyor. Fahrenheit Kolonya ve AdG DNA'nın bir karışımı gibi. Deniz notaları başlangıçta daha belirgin ve yavaş yavaş zayıflarken, menekşe notaları kalıyor. Deniz kısmına gelince, burada tütsü kokusu almıyorum, bu yüzden Profumo'ya çok benzemiyor, daha çok klasik AdG veya belki Profondo (mineral notaları) gibi.\nPerformansı hakkında pek bir şey söyleyemem, sadece soğuk bir kış gününde tek elimde denedim. Bu koşullar altında hiçbir parfüm fazla yayılmaz. İlk izlenimim, zayıf olmadığı ama çok da güçlü olmadığı yönünde.\nKimler beğenecek? Bence modern AdG flanker'larından sıkılanlar bunu en çok beğenecek. AdG Elixir oldukça \"klasik\" bir koku; yani orijinal DNA'sının bazı kısımlarını koruyor ve erkek parfümlerinin eski tarz bir diğer temel unsuru olan menekşe notasını ekliyor.\nBu kokudan kimler hayal kırıklığına uğrayabilir? Oud Minerale, güçlü Profumo veya Essenza'nın geri dönüşü gibi bir şey bekleyenler. Ayrıca tamamen yeni ve farklı bir şey isteyenler de (ama AdG serisinde bunu gerçekten bekliyor muydunuz?).\nGenel olarak, AdG serisi içinde Profumo'yu hala en çok sevdiğimi düşünüyorum, ancak bu da kötü bir ürün değil. Muhtemelen tuhaf ama değeri bilinmeyen Absolu Instinct'ten beri en iyi AdG ürünü. Yine de küçük bir şişe için 155€'ya değer mi emin değilim.\nKendiniz de deneyin!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1222545.jpg"
+    },
+    {
+      "id": "parent608219",
+      "author": "Aarongunarich17",
+      "date": "2025-01-10",
+      "text": "İş yerinde (dsm-firmenich) dahili olarak denedim.\n\nGerçekten çok iyi. Neyse ki Sauvage Elixir kadar güçlü değil. İçine menekşe yaprağıyla yoğun, koyu yeşil bir hava katmışlar. Dip notalarında artık tütsü yerine deri var. Hala biraz dumanlı ama Profumo'nun tütsüsünü tercih ederim. Üst notalarda hala parlak ve hafif sucul bir hava var. Denemelerim sonucunda oldukça benzersiz olduğunu düşünüyorum. İnsanlar bu yeni üründen memnun kalacaklar 👍",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1242332.jpg"
+    },
+    {
+      "id": "parent608217",
+      "author": "DarthFragrance",
+      "date": "2025-01-09",
+      "text": "@John C. Duboiz\n\n%100 katılıyorum. Herkesin neden bir başka \"iksir\"e göz devirdiğini hep merak etmişimdir. Gördüğüm eğilim şu ki, iksirlerde, serinin en yoğun, en güçlü, en derin ve karakterli kokularını yaratmaya çalışıyorlar. Bazen meydan okuyucu bile olabiliyorlar. Gucci Guilty Elixir, Sauvage Elixir, Boss Bottled Elixir vb. örneklere bakın. Evet, bazıları diğerlerinden daha iyi, ama genel olarak amaçları bu. Koku meraklıları olarak, zaten sevdiğiniz bir seride bu tür bir kokunun olasılığından rahatsız olmak veya kızmak, bir tür akıl hastalığı veya davranış sorunu gibi görünüyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1639884.jpg"
+    },
+    {
+      "id": "parent608213",
+      "author": "GeoMar12",
+      "date": "2025-01-07",
+      "text": "Keşke bu topluluk, bir parfümü sadece kendi tenlerinde ve kişiliklerinde nasıl durduğuna göre değerlendirseydi. Birçoğu, parfümü kendileri denemeden dış etkenlere dayanarak yargıda bulunuyor. Bir örnek alın, birkaç kez kullanın, üzerinizde nasıl koktuğuna ve nasıl hissettirdiğine bakın ve sonra dürüst bir görüş bildirin! Beğenirseniz, HARİKA. Beğenmezseniz de sorun değil, vücut kimyanıza uymayabilir. Sadece gerçek parfüm hakkında dürüst olun, abartıya kapılmayın.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2219585.jpg"
+    },
+    {
+      "id": "parent608284",
+      "author": "Simon",
+      "date": "2025-01-06",
+      "text": "Mutlak, parfüm, ekstrem, yoğun, iksir ve sonsuza dek böyle devam ediyor. Utanç festivali sürüyor. Parfüm üreticilerine bir önerim var. Bir zamanlar yarattığınız güzel kokuları mahvetmeyi bıraksanız ne olurdu? Kulağa hoş geliyor mu? Armani, EDT'yi mahvetti, Profumo'yu piyasadan kaldırdı ve şimdi aynı DNA'nın sonsuz yinelemelerini yaratıyor. Bunların iyi kokular olabileceğini düşünüyorum, ancak artık kozmetik farklılıklar söz konusu olduğunda, dürüst parfüm meraklılarının ceplerini mahveden küçük farkların aksine, bunları test edecek enerjim yok.\n\nDüzenleme: S caddesindeki bir parfümcüdeydim ve bu şişeyi gördüm, merakımdan inceledim. Yukarıdaki yorumu yazdığım zamankinden daha da sinirlendim çünkü bu yeni versiyonun, üretimi durdurulan Profumo gibi koktuğu ortaya çıktı... Ne felaket!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.45873.jpg"
+    },
+    {
+      "id": "parent608218",
+      "author": "sandro.agrello",
+      "date": "2025-01-06",
+      "text": "Bana kalırsa, devamını bekliyoruz!\nAcqua di Gio unvanı umurumda değil...\nDaha fazlasını getirin! Daha fazlasını! Lol\n\nÖneriler: ADG oud edition, zafer iksiri, absolu, AdG Royalle, AdG 45, AdG X, AdG eau fraiche, AdG Givree, AdG dun soir...\n\nNot: Bu repliği gerçekten çok sevdim.\n\nDüzenleme: Aslında, niş evler, Creed, PDM, lütfen siz de kendi ADG'nizi yapın.\nKahkaha attım.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1037153.jpg"
+    },
+    {
+      "id": "parent608278",
+      "author": "Призовой Пловец",
+      "date": "2025-01-06",
+      "text": "Armani'nin AdG'de (EDT - EDP - Parfum - Elixir) net bir ürün gamı ​​oluşturduğu açıkça görülüyor.\nBence, Profumo'nun zamanında olduğu gibi, geriye kalan kanat oyuncuları da ortadan kaldırılacak.\nElixir'den yüksek beklentilerim yok, ancak 2024'te daha iyi formüle edilmiş bir Parfum bir umut ışığı, bu yüzden neler olacağını göreceğiz.\nDior'un Sauvage Elixir'ine benzer bir şeyin olasılığını göz ardı etmem - yüksek kaliteli, olgun ve sofistike bir erkek hafta sonu parfümü, ancak serideki diğerlerinden tamamen farklı.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     }
   ]
 }

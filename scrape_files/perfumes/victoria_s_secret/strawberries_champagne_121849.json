@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Victoria-s-Secret/Strawberries-Champagne-121849.html",
   "brand": "Victoria's Secret parfüm ve kolonya",
   "description": "Victoria's Secret markasının Strawberries & Champagne parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Strawberries & Champagne, 2000 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü, Çilek ve Papatya; orta nota: Şampanya; alt nota Frenk üzümü yaprağı ve tomurcuğu.",
-  "description_original": "Victoria's Secret markasının Strawberries & Champagne parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Strawberries & Champagne, 2000 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü, Çilek ve Papatya; orta nota: Şampanya; alt nota Frenk üzümü yaprağı ve tomurcuğu.",
+  "description_original": "Victoria's Secret markasının Strawberries & Champagne parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Strawberries & Champagne, 2000 yılında piyasaya sürüldü. Üst notalar: Çilek, Siyah Frenk Üzümü ve Papatya; orta nota: Şampanya; alt nota Siyah Frenk Üzümü.",
   "description_enhanced": "Victoria's Secret markasının Strawberries & Champagne parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Strawberries & Champagne, 2000 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü, Çilek ve Papatya; orta nota: Şampanya; alt nota Frenk üzümü yaprağı ve tomurcuğu.",
   "mainAccords": [
     {
@@ -45,17 +45,45 @@
     {
       "name": "bitkisel",
       "width": "45.3425%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.75",
-    "votesCount": "16",
+    "score": "3.67",
+    "votesCount": "18",
     "breakdown": {
-      "love": "8",
+      "love": "9",
       "like": "2",
       "ok": "2",
       "dislike": "2",
-      "hate": "2"
+      "hate": "3"
     }
   },
   "seasons": {
@@ -63,33 +91,33 @@
     "spring": "9",
     "summer": "11",
     "autumn": "1",
-    "day": "10",
+    "day": "11",
     "night": "3"
   },
   "notes": {
     "top": [
-      "Frenk üzümü",
       "Çilek",
+      "Siyah Frenk Üzümü",
       "Papatya"
     ],
     "middle": [
       "Şampanya"
     ],
     "base": [
-      "Frenk üzümü yaprağı ve tomurcuğu"
+      "Siyah Frenk Üzümü"
     ],
     "all": []
   },
   "longevity": {
     "veryWeak": "1",
     "weak": "1",
-    "moderate": "4",
+    "moderate": "5",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "1",
-    "moderate": "4",
+    "moderate": "5",
     "strong": "0",
     "enormous": "0"
   },
@@ -128,11 +156,15 @@
     },
     {
       "brand": "VİCTORİA'S SECRET",
-      "name": "Bombshell"
+      "name": "Love Spell"
     },
     {
       "brand": "VİCTORİA'S SECRET",
-      "name": "Love Spell"
+      "name": "Bombshell"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "God Is A Woman"
     },
     {
       "brand": "VİCTORİA'S SECRET",
@@ -141,6 +173,18 @@
     {
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "Green Tea"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Love Don't Be Shy"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -155,12 +199,13 @@
       "name": "Cucumber Melon"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Bare Sueded Vanilla"
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Baccarat Rouge 540"
     },
     {
       "brand": "VİCTORİA'S SECRET",
-      "name": "Bare Vanilla"
+      "name": "Bare Sueded Vanilla"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,51 +16,79 @@
     },
     {
       "name": "meyvemsi",
-      "width": "71.8142%"
+      "width": "72.9549%"
     },
     {
       "name": "tatlı",
-      "width": "71.4653%"
+      "width": "71.9452%"
     },
     {
       "name": "tütün",
-      "width": "70.3323%"
+      "width": "70.1277%"
     },
     {
       "name": "taze baharatlı",
-      "width": "61.0918%"
+      "width": "61.3001%"
     },
     {
       "name": "amber",
-      "width": "59.0579%"
+      "width": "59.7136%"
     },
     {
       "name": "vanilya",
-      "width": "54.9898%"
+      "width": "55.0979%"
     },
     {
       "name": "aromatik",
-      "width": "47.4928%"
+      "width": "47.4962%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.08",
-    "votesCount": "578",
+    "score": "4.09",
+    "votesCount": "590",
     "breakdown": {
-      "love": "238",
-      "like": "210",
-      "ok": "81",
+      "love": "244",
+      "like": "215",
+      "ok": "82",
       "dislike": "38",
       "hate": "11"
     }
   },
   "seasons": {
-    "winter": "243",
-    "spring": "99",
-    "summer": "46",
-    "autumn": "254",
-    "day": "151",
-    "night": "206"
+    "winter": "246",
+    "spring": "100",
+    "summer": "50",
+    "autumn": "259",
+    "day": "153",
+    "night": "210"
   },
   "notes": {
     "top": [
@@ -80,33 +108,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "22",
+    "moderate": "140",
+    "longLasting": "75",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "29",
+    "moderate": "140",
+    "strong": "51",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "28",
+    "unisex": "201",
+    "moreMale": "49",
+    "male": "12"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "81",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "44",
+    "overpriced": "105",
+    "fair": "82",
+    "goodValue": "6",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "UNE NUİT NOMADE",
+      "name": "Ambre Khandjar"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Plum Japonais"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "L’Homme Idéal Eau de Parfum"
+    },
+    {
+      "brand": "MOLTON BROWN",
+      "name": "Muddled Plum"
+    },
+    {
+      "brand": "FRANCESCA BİANCHİ",
+      "name": "Voluptuous Oud"
+    },
+    {
+      "brand": "LE COUVENT MAİSON DE PARFUM",
+      "name": "Nubica"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Slow Dance"
+    },
+    {
+      "brand": "LAURENT MAZZONE PARFUMS",
+      "name": "Fil d'Or No1"
+    },
+    {
+      "brand": "SCENTS OF WOOD",
+      "name": "Plum in Cognac"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Crazy In Love"
+    },
+    {
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "Orchid Leather"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Oud Montaigne"
+    },
+    {
+      "brand": "D’ORSAY",
+      "name": "Flower Lust"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Kimonanthe"
+    },
+    {
+      "brand": "OBVİOUS",
+      "name": "Plum Cream"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TOM FORD",
@@ -133,10 +222,6 @@
       "name": "Jazz Club"
     },
     {
-      "brand": "PENHALİGON'S",
-      "name": "Changing Constance"
-    },
-    {
       "brand": "BY KİLİAN",
       "name": "Black Phantom"
     },
@@ -153,6 +238,10 @@
       "name": "Chergui"
     },
     {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Baccarat Rouge 540"
+    },
+    {
       "brand": "PENHALİGON'S",
       "name": "Halfeti"
     },
@@ -167,6 +256,208 @@
     {
       "brand": "TOM FORD",
       "name": "Lost Cherry"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent596193",
+      "author": "AdamH",
+      "date": "2026-02-16",
+      "text": "Bu parfüm evinin keşfedilmeye değer gizli bir hazinesi. Kahire veya İstanbul'u beğendiyseniz, AlUla sizi kayıtsız bırakmayacak. Kakule ve karabiberin baharatlı patlamasıyla açılıyor, ardından koku kaybolana kadar kalıcı bir tütsü notası geliyor. Sonra, kuru erik ile sulu, koyu, dumanlı bir erik arasında bir yerde tanımlayabileceğim bir erik notası geliyor. Tütün, keskin bir dokunuş katarken, safran sizi bir vahaya götüren baharatlı, neredeyse metalik bir nota veriyor. Baharatların puslu etkisi dağılmaya başlarken, zerdeçal ipucuyla birlikte utangaç bir vanilya ortaya çıkıyor ve hala kalıcı bir şekilde hissediliyor.\n\nKardeş parfümü Cairo gibi, bu parfüm de yayılımından ziyade kalıcılığıyla öne çıkıyor. Ciltte rahatlıkla 8-9 saat kalıyor ve dumanlı vanilya kokusu kıyafetlerde günlerce (yoğun olmasa da) hissedilebiliyor. Yayılımı orta düzeyde; kesinlikle fark edeceksiniz. Peki bu parfüm evinin kalitesi hakkında ne diyebilirim? Tek kelimeyle inanılmaz.\n\nSevdiğim bir koku olduğunu bilerek denemeden aldım ama tavsiye etmiyorum. Baharatlı ve kuru kokuları sevmeniz gerekiyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.304760.jpg"
+    },
+    {
+      "id": "parent596237",
+      "author": "Julento",
+      "date": "2025-11-11",
+      "text": "İlk başta ne hissettiğimi bile anlayamadım. Derinden kafa karıştırıcı bir girişti. Bir süre sonra erik ortaya çıktı—tatlı, ama kurumuş, hatta biraz acı. Sanki koyu öksürük şurubundan çıkarılmış gibiydi. Bu eriğin bir sonraki dönüşümü metalik, mentollü ve daha az tatlıydı. Belki de tütün ve safrandan kaynaklanıyordu.\n\nHiç bana göre değil; onları giyerken kendimi rahatsız hissediyorum ama çirkin ya da itici olduklarını da söyleyemem. Sadece bana hiç yakışmıyorlar.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.86926.jpg"
+    },
+    {
+      "id": "parent596173",
+      "author": "Valentin_a",
+      "date": "2025-11-05",
+      "text": "Sadece bana mı öyle geliyor, yoksa Penhaligon's hak ettiği ilgiyi görmüyor mu? Muhteşem, özenle hazırlanmış parfümler üretiyorlar ve AlUla da bir istisna değil. Muhtemelen en sevdiğim erik + tütün kombinasyonu - burnumun genellikle zorlandığı yaygın bir koku birleşimi. Ya çok baharatlı ya da çok tatlı buluyorum. AlUla ise orta yolu buluyor. Çok güzel ve büyüleyici bir koku.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1545982.jpg"
+    },
+    {
+      "id": "parent596215",
+      "author": "Luca Brocchi",
+      "date": "2025-06-27",
+      "text": "Belki de genel kanıya karşı çıkıyorum ama çok hoşuma gidiyor.\n\nOnu burnunuza yaklaştırdığınız anda, farkında olsanız da olmasanız da, temsil etmeyi amaçladığı yere ulaşmış olursunuz.\n\nGüçlü ve belirleyici güneşe maruz kalmış, sıcak ve olgun bir erik, tütsüyle harmanlanmış bir açılışta kendini gösterirken, tütün bir zemin oluşturuyor ve safran derinlik katıyor. Ara sıra zerdeçal ışınları beliriyor ve sıcak vanilya esintileri size ulaşıyor.\n\nBir sıçrama sesiyle kendinizi koltuğunuzdan fırlatılmış halde, antik dünyanın en popüler kervan yollarından biri olan Tütsü Yolu üzerinde, çölün ortasında buluyorsunuz.\nBana şimdiden paha biçilmez bir sihir gibi geliyor.\n\nUzun zamandır dayanıklılık meselesiyle ilgili bir mücadele veriyorum, biliyorum ki bu mücadeleyi kaybediyorum, ama pes etmek istemiyorum: bir lüksü dayanıklılığına göre değerlendiremezsiniz.\nParfümün kendisi de öyle, hele Penhaligon's gibi markaları tercih ederseniz.\n\nÖnemsiz ama yine de burada belirteyim. Bir parfüm dört saat kalıcıysa, size başka birini deneme fırsatı veriyor demektir. Hayatta kendinizi tekrar tazelemekten daha güzel ne olabilir ki?",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.102631.jpg"
+    },
+    {
+      "id": "parent596174",
+      "author": "MissMadHatterSammie",
+      "date": "2025-06-23",
+      "text": "Diğer parfümleri denedikten sonra Penhaligons numunemi tekrar elime aldığımda, markanın DNA'sını yeniden takdir etmeye başladım ve bu da beni hayal kırıklığına uğratmadı. Cairo'yu da biliyorum (onun da bir numunesi bende var), ancak bu özellikle Mumya (1999) filmindeki Evie'nin kullanacağı koku gibi geliyor bana. Vanilya, safran ve erik, AlUla'yı TR serisindeki diğer parfümlerin çoğundan daha yumuşak kılıyor. Ayrıca, 1920'lerin romantik bir havasını taşıyor, vintage egzotik bir parfüm gibi ama günümüz için tamamen kullanılabilir şekilde tasarlanmış. Serideki diğer bazı parfümlerden daha kadınsı buluyorum ama yeterince güçlü (haha, bilen bilir) ki bu tam anlamıyla Evie'yi çağrıştırıyor. Kendini egzotik topraklara ve tarihine/kültürüne kaptırmak isteyen ve insanların da bunu bilmesini isteyen biri için. Kesinlikle büyüleyici bir koku 🥰",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2504123.jpg"
+    },
+    {
+      "id": "parent596179",
+      "author": "AJO2025",
+      "date": "2025-06-17",
+      "text": "Bunu denemeden aldım, Penhaligons'ın büyük bir hayranıyım, en sevdiğim parfümler Halfetti ve Changing Constance. Yorumları okuduktan sonra çok hafif bir şey bekliyordum, ama vay canına, Halfetti'nin sevdiğim tüm özelliklerini taşıyor ama ona kıyasla çok daha yumuşak ve hafif, bu da yaz ayları için harika bir alternatif. Daha pudralı ve vanilyalı bir kokuya dönüşüyor, erik notası ise kalıcı. Bayıldım!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent596246",
+      "author": "Roberta1604",
+      "date": "2025-04-18",
+      "text": "Bu parfüm nasıl bu kadar popüler olmasın ki? 😍😍\nNe kadar da hoş, tatlı, tütsü benzeri, baharatlı bir koku (kakule + karabiber) ve yumuşak, dengeli bir tütün notasıyla bağımlılık yapıcı! Burnunuzu teninizden ayırmak istemeyeceksiniz!\nAçılışta son derece tatlı eriklerin yoğun bir kokusu var, neredeyse bala batırılmış gibi (PDM'nin Oajan'ını biraz anımsatıyor). Ardından baharatlar ve tütün ortaya çıkıyor, parfümün keskin kenarlarını yumuşatıyor. Bu tütün, Amouage'ın Sunshine'ındaki tütünü anımsatıyor; aslında, Sunshine'ı seven herkesin bu parfümü koleksiyonunda bulundurması gerekiyor. Xerjoff'un Naxos'unda veya Mancera'nın Red Tobacco'sunda kokladığımız tütün değil (bu ikisinde tütün çok sert, gerçekten çok güçlü bir tütün. Bu arada, aşağıdaki \"güçlü tütün\" yorumuna çok güldüm 🤣).\nAçılışı yaklaşık 2 dakika süren çok tatlı bir koku olsa da, bu parfüm unisex (belki biraz daha kadınsı) bir koku.\nHer yıl doğum günümde (16 Nisan) kendime bir Penhaligon's çikolatası alıyorum. Bu neredeyse 10 yıldır süregelen bir gelenek. Bu yıl kendime bir Alula aldım (evet, deneme amaçlı aldım). Ve ne hoş bir sürpriz! Bayıldım ❤️\n\n\"Rüzgar fısıldıyor gibi...\"\nA l-Ula-by,\nÇölün geniş alanlarında\nve uzak diyarlar,\nBir vahaya, altında doğmuş\ngökyüzü ve kumdan duvarlar.\n\nSıcak erik, olgunlaşmış\nyükselen sıcaklık,\nTütsü ve vanilya kokularını çağrıştırıyor.\nBaharat, güneşten bronzlaşmış tende adeta şarkı söylüyor,\nÖmür boyu süren bir aradan sonra böyle bir sığınak.\nyolculuk.\"",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.53160.jpg"
+    },
+    {
+      "id": "parent596227",
+      "author": "Alberdom",
+      "date": "2025-01-04",
+      "text": "Deneme kağıdında çok güzel görünüyordu ama kalıcılığı çok uzun sürmedi. Bu yüzden numuneyi süresiz olarak bir kenara koydum. Ama sonra, duştan sonra kendime hoş bir koku sıkmak istedim. Numune kutusunu açtım ve cildimde denemeye karar verdim. İşte o zaman şaşırdım. Koku, safran, erik ve tütünün belirgin notalarıyla çok narin, tatlı ve baharatlı çıktı. Ciltte kalıcılığı dört saat gibi hoş bir süreydi. Koleksiyonumda bir Guerlain Ideal eau de parfum var ve bu kokuya benziyor. Ancak, Guerlain'i bu Penhalligons ile hiç pişmanlık duymadan takas ederdim.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.334246.jpg"
+    },
+    {
+      "id": "parent596172",
+      "author": "yusuffhassan",
+      "date": "2025-01-02",
+      "text": "Penhaligon's AlUla hakkında epey eleştiri gördüm, ama dürüst olmak gerekirse, bence her şey kişisel tercihe bağlı. Benim için bu parfüm kesinlikle muhteşem ve ona doyamıyorum.\n\nAlUla, incelikli ve sofistike bir his uyandıran inanılmaz derecede zarif bir aromaya sahip. Benim için gerçekten öne çıkan şey ise tütsü notası; duyularınızı altüst eden tipik dumanlı tütsülerden değil. Aksine, ince, pürüzsüz ve mükemmel dengelenmiş, baskın olmadan derinlik katıyor.\n\nDaha da etkileyici olan şey, kalıcılığı. Tişörtlerimde 12 saatten fazla, cildimde ise 8 saatten fazla kalıyor. Muhteşem kokusu da uzun süre kalıcı.\n\nBu parfümü kullandığım süre boyunca çok sayıda iltifat aldım! Eşsiz, büyüleyici ve insanların dikkatini en iyi şekilde çeken güzel bir koku bırakıyor. Parfümde sade lüksü takdir eden herkese AlUla'yı denemesini şiddetle tavsiye ederim.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1962462.jpg"
+    },
+    {
+      "id": "parent596181",
+      "author": "ClosetGeek",
+      "date": "2024-12-29",
+      "text": "Öncelikle, orijinal bir şişeden her bileğime birer fıs sıktım ve yaklaşık 12 saat sonra, kollarım kucağımda dururken bile ara sıra güçlü kokular alabiliyorum. Ve eğer yüzümü kaşırsam veya sakalımı ovuşturursam, Alula oldukça belirgin bir şekilde hissediliyor. İlk püskürtmede ne kadar uzağa yayıldığını gerçekten bilmiyorum ama en azından bir kol mesafesi kadar, belki de 1-1,5 metreye kadar yayıldığını tahmin ediyorum. Odayı dolduracak kadar güçlü değil ama yayılımının iyi olduğunu düşünüyorum.\n\nAlula, hafif bir duman dokunuşuyla yüksek kaliteli ancak sade bir meyveli tütün kokusu. Bu kokuya olan merakım, Plum Japonais'e alternatif ararken ortaya çıktı. Yorumlar benzer bir yöne işaret etmese de, Alula'nın notaları bana umut verdi. Plum Japonais'in yerine geçecek yüksek kaliteli bir koku arayışım devam ediyor; ancak Alula, bana göre, daha parlak ve daha az dumanlı bir versiyon. Daha parlak derken, Plum Japonais gece için seksi, romantik bir koku ise, Alula gündüz için olan karşılığıdır. Ofis için veya Cumartesi öğleden sonra öğle yemeği randevusu için ideal.\n\nTatil indiriminde 100 ml'lik bir şişe aldım, ancak 290 dolar biraz fazla ve bu fiyata almazdım. Koleksiyonumun büyüklüğü göz önüne alındığında, 30 ml'lik şişenin benim için yeterli olacağını düşünerek almaya hazırdım. Ama 100 ml'lik şişeyi kaçırmak istemedim. Bununla birlikte, benim için \"değer\" daha çok koku kalitesi algım ve harcamaya istekli olduğum miktarla ilgili; yayılım, kalıcılık (sınırları olsa da) veya ne kadar \"benzersiz\" olduğuyla ilgili değil. Sadece güzel kokmayı ve parfümümün bir ruh haline veya etkinliğe uymasını seviyorum.\n\nBence bu, sahip olmaktan mutluluk duyduğum harika bir koku. Bittiğinde, koleksiyonumdaki diğer bazı kokulara ihtiyaç duyduğum için tekrar satın alacağımı sanmıyorum. Ama en azından kış boyunca keyifle kullanacağım ve ilkbaharda ve serin yaz akşamlarında nasıl bir performans göstereceğini merakla bekliyorum. Bence kör alışveriş yapmak güvenli çünkü rahatsız edici bir yanı yok ama önce denemek en iyisi.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent596225",
+      "author": "Tut_nix",
+      "date": "2024-06-21",
+      "text": "Olgun bir eriği alın, üzerine baharat ve tütün serpin, içine istediğiniz alkolü dökün (listelenmemiş ama benim için olur :)) ve beni arayın, şişe için istediğiniz fiyatı sorun. Hamsterımın sırtına binip, arkamdan iple sessizce bir kurbağa sürükleyerek koşarak geleceğim; hamster o baharatlı, tütünlü ve alkollü erikle boğulmuş olacak ve o şişeyi alacağım. Kalıcılık, yayılım falan filan önemli değil, neden test edelim ki? Bu bir erik! Baharatlar, tütün ve diğer zevklerle dolu! Listelenmemiş olsa bile alkol kokusunu alabiliyorum, sanırım şartlı bir refleks... Dürüst olmak gerekirse, artık komik bile değil.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.384776.jpg"
+    },
+    {
+      "id": "parent596229",
+      "author": "Hocico",
+      "date": "2024-06-09",
+      "text": "Hoş, güzel bir koku, henüz bunaltıcı değil (şimdi almaya karar veren için tam zamanı, yoksa Petra gibi olabilir), ancak doğru bir şekilde tanımlandığı gibi, özgün değil ve yeni bir şey sunmuyor. Erik notası Une Nuit Nomade'ı, tütün notası ve zamanla kokunun evrimi ise Une Nuit a Doha'yı anımsatıyor.\nÇok belirgin değil, ama oldukça uzun süre kalıcı - ciltte yaklaşık altı saat.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.313777.gif"
+    },
+    {
+      "id": "parent596255",
+      "author": "Saad Aldosari",
+      "date": "2024-05-18",
+      "text": "Bu parfümün adı, çok sevdiğim Suudi Arabistan Krallığı'ndaki Al-Ula şehrinden ilham alınarak verilmiştir.\n\nOryantal baharatlı parfümleri sevenler, bu koku tam size göre.\nPenhaligon'ın parfümlerini uzun zamandır özlemiştim; sanırım Mr. Sam'den sonra hiçbirini beğenmemiştim. Ama şimdi bu koku, onların en güzel ve zarif parfümlerinden biri.\n\nHem soğuk hem de ılıman havalar için ve her iki cinsiyetin de rahatlaması için.\nBu güzel ve harika koku için Benhaliqens'e teşekkür ederim.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragranticarabia.com",
+      "avatar": "https://fimgs.net/mdimg/avatariar/m.73144.jpg"
+    },
+    {
+      "id": "parent596189",
+      "author": "leoomillan22",
+      "date": "2024-05-04",
+      "text": "Geçtiğimiz günlerde denemek için Penhaligon's'a gittim ve bana 7 ml'lik bir numune verdiler. Çok güzel bir koku olduğunu söylemeliyim; tatlı ama bayıcı değil, 34°C'lik havada bile oldukça hoş. Erik notasının gerçekten öne çıktığını ve çok başarılı bir koku bıraktığını söylemeliyim. Denemenizi ve kendiniz görmenizi tavsiye ederim. Orta derecede yayılımı var ve yaklaşık 8 saat sürüyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.115305.jpg"
+    },
+    {
+      "id": "parent596177",
+      "author": "Maliken",
+      "date": "2024-04-26",
+      "text": "Çoğunlukla karabiber ve kakule, tatlı safran ve erik meyvemsiliğini, arada sırada da tütün esintileriyle birlikte algılıyorum. Vanilya ve zerdeçalı da alıyorum ama bu notalar biraz daha tene yakın kalırken, yukarıda bahsettiğim akorlar yaklaşık bir kol mesafesinden oldukça güzel bir şekilde yayılıyor. Bence bu, Penhaligon'un son yıllardaki en iyi parfümlerinden biri, tıpkı Omniscient Mr. Thompson gibi.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1598503.jpg"
+    },
+    {
+      "id": "parent596208",
+      "author": "lani",
+      "date": "2024-03-20",
+      "text": "Arap kum tepelerinin ortasında gün batımı, çöl rüzgarı yavaşça yükselmeye başlıyor. AlUla, gündüzleri yoğun sıcağı, geceleri ise acımasız soğuğuyla bilinen çöller arasındaki zıtlıkları kullanan, ışık ve gölge oyunlarıyla bezeli bir oryantal film.\n\nŞiirsel bir koku ve gerçek bir seyahat daveti. Tütsü ve ballı tütün dumanının incecik esintileri, tıpkı şömine başında oturan bir Bedevi gibi, erik ve baharatlı reçelin sıcak, baharatlı aromasıyla karışıyor. Kurudukça daha dumanlı, daha kuru ve daha odunsu bir hal alıyor. Zengin, derin ve zarif.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.39437.jpg"
+    },
+    {
+      "id": "parent596216",
+      "author": "ManfrediGaetano14",
+      "date": "2024-03-20",
+      "text": "Penhaligon's'tan AlUla. \"İyi bir oryantal, orta düzeyde performans.\" Penhaligon's'un son lansmanı kesinlikle küçümsenecek bir şey değil. Kompozisyonun koku alanı, baharatlı ve aromatik nüanslara sahip, tütsüyle harmanlanmış bir oryantal olan Legacy of Petra ile kabaca aynı. Aslında, özellikle formülün performansını göz önünde bulundurarak daha fazlasını bekliyordum. Ancak, hem kağıt üzerinde hem de ciltte, AlUla orta düzeyde kalıcılık gösteriyor; sanki parfümcü, kalıcılığı tamamen göz ardı ederek, karışımın uyumuna ve dokusuna odaklanmış gibi. Açılışta öne çıkan kullanılan ham maddelere (vanilin, etil maltol, eugenol ve türevleri, olibanum vb.) bakılırsa, kokunun bu kadar zayıf ve etkisiz kalabileceğini asla düşünmezdim.\nOryantal akor güzel ve zarif. Kırmızı meyve ve kuru meyve nüansları ilginç, dengeli ve klasik oryantal notalarla mükemmel bir uyum içinde. Ne yazık ki, koku –diğer birçok Penhaligon's parfümü gibi– biraz kişilikten yoksun, aynı koku ailesinden diğer kokularla karışıp kafa karıştırıcı olabiliyor.\nKısacası, AlUla beni ne şaşırttı ne de heyecanlandırdı. Duyuları pek cezbetmiyor ve performansı, en azından anladığım kadarıyla, mütevazı. Son olarak, çok az karakteri olduğunu, meyvemsi bitişi dışında gerçekten ayırt edici hiçbir şeyinin olmadığını tekrarlamak istiyorum; ancak bu bitiş de çok narin, muhtemelen çok genç bir kızda veya dikkat çekmek istemeyen yaşlı bir adamda iyi görünmek için tasarlanmış.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.48205.jpg"
+    },
+    {
+      "id": "parent596170",
+      "author": "cpsottak",
+      "date": "2024-03-15",
+      "text": "Web sitenizde ücretsiz numuneler sunduğunuz için teşekkür ederim Penhaligons, sadece kargo ücretini ödemem gerekti!\nBu parfüm harika kokuyor, Penhaligons en sevdiğim marka. İnsanların parfümlerinin başka bir markaya benzediğini/ilham verici olmadığını ya da tasarımcı parfümü gibi koktuğunu söylemeleri umurumda değil.\nPenhaligons'ın yaptığı şey, rafine, kaliteli ve lüks kokan, harika, beğenilen ve benzersiz parfümler piyasaya sürmek! Ve bu da tüm bu özelliklere sahip bir başka ürün.\nAçılışta o kadar sulu bir erik tadı var ki, aromatik derinliği ve doğru miktardaki tatlılığıyla burnuma gerçekten eşsiz geliyor.\nBana göre bu, tam ortada, unisex bir koku; ancak bir erkek olarak tenimde baharatlı notaların yeterince belirginleştiğini ve daha erkeksi bir hava kattığını düşünüyorum. Trade Routes koleksiyonunu çok seviyorum ve bu koku, tatlı ve baharatlı profili seven biri için imza kokusu olarak iyi bir seçim gibi görünüyor; kesinlikle kalabalığın arasından sıyrılacaksınız.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1460598.gif"
+    },
+    {
+      "id": "parent596175",
+      "author": "Epsilonyx",
+      "date": "2024-03-01",
+      "text": "İlk püskürtmede baharatlı bir kokuyla karşılaştım—keskin karabiber, ardından kısa süre sonra zerdeçal. Sonra koku hafifledi ve tütsü ile vanilya, safranın ince tellerini sardı (baharatlar genel olarak hissedilmeye devam etti, ancak kakule ortaya çıktıkça sonlara doğru biraz daha yumuşaklaştı). Selvi ağacı kokusu olmamasına şaşırdım! Ayrıca erik kokusu da almadım, ancak bu benim için çok tanıdık bir nota değil ve daha önce hiç Japon eriği kokusu almamıştım.\n\nGenel olarak fena değil, ama baharat tentürü benim için biraz fazla yoğundu. Bir bakıma Ortodoks kilisesinin buhurdanlığını andırıyor.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent596214",
+      "author": "federicosol84",
+      "date": "2024-03-01",
+      "text": "Şahsi görüşüme göre -tüm Trade Routes koleksiyonuna sahibim- en başarısız olanı bu.\nŞişe, renkleri ve kurdelesi açısından muhteşem, ancak kokunun kendisi tanınabilir veya ayırt edici hiçbir şey içermiyor (Halfeti, Petra, Cairo vb. kokuları düşünüyorum).\nAçılışta çeşitli baharatların (zerdeçaldan çok kakule ve tütün) tadını objektif olarak alabiliyordunuz; ancak tenimde neredeyse anında (10 dakikadan kısa sürede) vanilya ve tütün alt tonlarıyla pudralı bir kokuya dönüştü ve bu koku arka planda kaldı. Ve orada yerleşti.\nOrtalama etki süresi, bende 5-6 saat, sonra etkisi geçiyor.\nHepsine sahip olduğum için bunu da aldım, ama dürüst olmak gerekirse satın almadan önce dinlenmeli ve denenmeli.\n\nGÜNCELLEME: Eğer bilinen bir kokuyla eşleştirmem gerekirse, kesinlikle TF'nin Tobacco Vanille'ine benziyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.52836.jpg"
     }
   ]
 }

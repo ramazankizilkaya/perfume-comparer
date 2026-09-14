@@ -63,31 +63,31 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "2",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "2",
-    "strong": "0",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -124,12 +124,12 @@
       "name": "Chanel N°19"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Rive Gauche"
-    },
-    {
       "brand": "BVLGARİ",
       "name": "Omnia"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Rive Gauche"
     },
     {
       "brand": "TAUER PERFUMES",
@@ -151,5 +151,6 @@
       "brand": "HERMÈS",
       "name": "24 Faubourg"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "taze",
       "width": "53.6346%"
+    },
+    {
+      "name": "Online satın alın 17 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -106,33 +134,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "4",
+    "moderate": "18",
+    "longLasting": "19",
+    "eternal": "13"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "18",
+    "strong": "26",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "8",
+    "moreMale": "10",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİANFRANCO FERRE",
+      "name": "Fougère Italiano"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Tuxedo"
+    },
+    {
+      "brand": "GOLDFİELD & BANKS AUSTRALİA",
+      "name": "Pacific Rock Moss"
+    },
+    {
+      "brand": "TİFFANY",
+      "name": "Tiffany for Men"
+    },
+    {
+      "brand": "SPİRİTİCA",
+      "name": "Yuzuyakuza"
+    },
+    {
+      "brand": "SALVADOR DALİ",
+      "name": "Laguna"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Prada L'Homme L'Eau"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUCCİ",
@@ -194,5 +251,6 @@
       "brand": "GİVENCHY",
       "name": "Pi"
     }
-  ]
+  ],
+  "comments": []
 }

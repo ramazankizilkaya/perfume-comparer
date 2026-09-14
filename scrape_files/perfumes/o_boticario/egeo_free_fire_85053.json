@@ -16,39 +16,67 @@
     },
     {
       "name": "vanilya",
-      "width": "92.5604%"
+      "width": "91.9689%"
     },
     {
       "name": "pudralı",
-      "width": "92.5604%"
+      "width": "91.3164%"
     },
     {
       "name": "narenciye",
-      "width": "79.541%"
+      "width": "79.738%"
     },
     {
       "name": "çiçeksi",
-      "width": "77.3428%"
+      "width": "77.292%"
     },
     {
       "name": "tatlı",
-      "width": "72.9471%"
+      "width": "72.8072%"
     },
     {
       "name": "misk",
-      "width": "65.5074%"
+      "width": "64.2457%"
     },
     {
       "name": "aromatik",
-      "width": "63.4784%"
+      "width": "64.0015%"
     },
     {
       "name": "taze",
-      "width": "59.9277%"
+      "width": "59.8429%"
     },
     {
       "name": "odunsu",
-      "width": "59.2511%"
+      "width": "58.2123%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -56,8 +84,8 @@
     "votesCount": "215",
     "breakdown": {
       "love": "63",
-      "like": "90",
-      "ok": "31",
+      "like": "89",
+      "ok": "32",
       "dislike": "25",
       "hate": "6"
     }
@@ -111,7 +139,7 @@
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "4",
-    "fair": "31",
+    "fair": "32",
     "goodValue": "51",
     "greatValue": "20"
   },
@@ -121,12 +149,16 @@
       "name": "Fame Parfum"
     },
     {
+      "brand": "XERJOFF",
+      "name": "Erba Pura"
+    },
+    {
       "brand": "L’OCCİTANE AU BRÉSİL",
       "name": "Compotas Corporais Acerola"
     },
     {
-      "brand": "XERJOFF",
-      "name": "Erba Pura"
+      "brand": "IN THE BOX",
+      "name": "Fire Snake"
     },
     {
       "brand": "NİNA RİCCİ",
@@ -151,14 +183,6 @@
     {
       "brand": "O BOTİCÁRİO",
       "name": "Ameixa Dourada"
-    },
-    {
-      "brand": "IN THE BOX",
-      "name": "Fire Snake"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Flores Flor de Pêssego e Jasmim"
     },
     {
       "brand": "LOEWE",
@@ -226,5 +250,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Viagem Encantada"
     }
-  ]
+  ],
+  "comments": []
 }

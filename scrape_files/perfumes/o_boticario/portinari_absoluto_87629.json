@@ -41,26 +41,54 @@
     {
       "name": "balsamik",
       "width": "44.0083%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.98",
-    "votesCount": "164",
+    "score": "3.96",
+    "votesCount": "169",
     "breakdown": {
-      "love": "52",
-      "like": "72",
-      "ok": "26",
+      "love": "54",
+      "like": "73",
+      "ok": "27",
       "dislike": "12",
-      "hate": "2"
+      "hate": "3"
     }
   },
   "seasons": {
-    "winter": "98",
+    "winter": "102",
     "spring": "83",
     "summer": "15",
-    "autumn": "103",
+    "autumn": "106",
     "day": "54",
-    "night": "104"
+    "night": "109"
   },
   "notes": {
     "top": [
@@ -87,14 +115,14 @@
   },
   "longevity": {
     "veryWeak": "1",
-    "weak": "11",
-    "moderate": "59",
+    "weak": "10",
+    "moderate": "61",
     "longLasting": "37",
     "eternal": "2"
   },
   "sillage": {
     "intimate": "9",
-    "moderate": "59",
+    "moderate": "61",
     "strong": "13",
     "enormous": "2"
   },
@@ -103,12 +131,12 @@
     "moreFemale": "1",
     "unisex": "11",
     "moreMale": "20",
-    "male": "81"
+    "male": "82"
   },
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "8",
-    "fair": "26",
+    "fair": "27",
     "goodValue": "31",
     "greatValue": "10"
   },
@@ -142,10 +170,6 @@
       "name": "The Secret Temptation"
     },
     {
-      "brand": "MİCHAEL KORS",
-      "name": "Pour Homme Absolu"
-    },
-    {
       "brand": "BURBERRY",
       "name": "Brit Rhythm for Him Intense"
     },
@@ -154,16 +178,12 @@
       "name": "Jazz Club"
     },
     {
-      "brand": "ISSEY MİYAKE",
-      "name": "Nuit d’Issey"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Essencial Oud Pimenta"
-    },
-    {
       "brand": "KENZO",
       "name": "Kenzo Homme Eau de Parfum"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "Nuit d’Issey"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -172,6 +192,14 @@
     {
       "brand": "O BOTİCÁRİO",
       "name": "Zaad Amber"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "Attimo Pour Homme"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essencial Oud Pimenta"
     }
   ],
   "peopleAlsoLike": [
@@ -213,11 +241,11 @@
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Portinari"
+      "name": "Malbec Flame"
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Malbec Flame"
+      "name": "Portinari"
     },
     {
       "brand": "NATURA",
@@ -235,5 +263,6 @@
       "brand": "NATURA",
       "name": "Essencial Oud"
     }
-  ]
+  ],
+  "comments": []
 }

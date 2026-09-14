@@ -19,11 +19,11 @@
       "width": "86%"
     },
     {
-      "name": "çiçeksi",
+      "name": "meyvemsi",
       "width": "68.1817%"
     },
     {
-      "name": "meyvemsi",
+      "name": "çiçeksi",
       "width": "68.1817%"
     },
     {
@@ -41,25 +41,53 @@
     {
       "name": "animalik",
       "width": "50.9998%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.29",
-    "votesCount": "35",
+    "score": "4.26",
+    "votesCount": "38",
     "breakdown": {
-      "love": "15",
-      "like": "16",
-      "ok": "3",
+      "love": "16",
+      "like": "17",
+      "ok": "4",
       "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "1",
-    "spring": "20",
-    "summer": "15",
+    "spring": "22",
+    "summer": "17",
     "autumn": "7",
-    "day": "18",
+    "day": "19",
     "night": "2"
   },
   "notes": {
@@ -77,28 +105,28 @@
   "longevity": {
     "veryWeak": "0",
     "weak": "2",
-    "moderate": "6",
+    "moderate": "7",
     "longLasting": "3",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
-    "moderate": "6",
+    "moderate": "7",
     "strong": "2",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "12",
+    "female": "13",
     "moreFemale": "1",
     "unisex": "1",
-    "moreMale": "0",
+    "moreMale": "1",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "3",
-    "goodValue": "1",
+    "fair": "4",
+    "goodValue": "2",
     "greatValue": "13"
   },
   "remindsMeOf": [
@@ -115,82 +143,90 @@
       "name": "My Way"
     },
     {
-      "brand": "ISSEY MİYAKE",
-      "name": "Lumière d’Issey"
-    },
-    {
       "brand": "AVON",
       "name": "Summer White Dubai"
     },
     {
-      "brand": "VALENTİNO",
-      "name": "Valentino Donna Born In Roma"
+      "brand": "ISSEY MİYAKE",
+      "name": "Lumière d’Issey"
     },
     {
-      "brand": "ZARA",
-      "name": "Red Temptation Elixir Parfum"
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born In Roma"
     }
   ],
   "peopleAlsoLike": [
     {
+      "brand": "ZARA",
+      "name": "Sublime Epoque"
+    },
+    {
+      "brand": "DİOR",
+      "name": "J'adore"
+    },
+    {
       "brand": "VALENTİNO",
       "name": "Valentino Donna Born In Roma"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "L'Interdit Eau de Parfum Rouge"
     },
     {
       "brand": "MUGLER",
       "name": "Alien Goddess Supra Florale"
     },
     {
-      "brand": "ZARA",
-      "name": "Fields at Nightfall Intense 2024"
+      "brand": "DİOR",
+      "name": "Hypnotic Poison"
     },
     {
       "brand": "PRADA",
       "name": "Prada Paradoxe"
     },
     {
-      "brand": "ZARA",
-      "name": "Golden Decade"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Libre"
-    },
-    {
       "brand": "RABANNE",
       "name": "Million Gold For Her"
     },
     {
-      "brand": "VİKTOR&ROLF",
-      "name": "Flowerbomb"
+      "brand": "ISSEY MİYAKE",
+      "name": "A Drop d'Issey"
     },
     {
       "brand": "MUGLER",
       "name": "Alien Goddess Intense"
     },
     {
-      "brand": "BDK PARFUMS",
-      "name": "Pas Сe Soir"
-    },
-    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Libre Intense"
     },
     {
-      "brand": "NARCİSO RODRİGUEZ",
-      "name": "Narciso Rodriguez For Her"
+      "brand": "MUGLER",
+      "name": "Alien"
     },
     {
-      "brand": "ZADİG & VOLTAİRE",
-      "name": "This is Her"
+      "brand": "GİORGİO ARMANİ",
+      "name": "Si"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Signature"
     },
     {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
-    },
+    }
+  ],
+  "comments": [
     {
-      "brand": "ZARA",
-      "name": "Hypnotic Vanilla Bloom"
+      "id": "parent205",
+      "author": "ozlemmenguloglu",
+      "date": "2026-05-31",
+      "text": "bu parfümün intense versiyonu harika ama neden üretimi durdu :(",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     }
   ]
 }

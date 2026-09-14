@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Xerjoff/Jabir-80270.html",
   "brand": "Xerjoff parfüm ve kolonya",
   "description": "Xerjoff markasının Jabir parfümü, kadınlar ve erkekler için bir kokudur. Jabir, 2023 yılında piyasaya sürüldü. Üst notalar: Frezya, Menekşe ve Pembe biber; orta notalar: Müge, Bulgar Gülü ve Şakayık; alt notalar Laos Oud, Misk, Vetiver, Paçuli ve Vanilya.",
-  "description_original": "Xerjoff markasının Jabir parfümü, kadınlar ve erkekler için bir kokudur. Jabir, 2023 yılında piyasaya sürüldü. Üst notalar: Frezya, Menekşe ve Pembe biber; orta notalar: Müge, Bulgar Gülü ve Şakayık; alt notalar Laos Oud, Misk, Vetiver, Paçuli ve Vanilya.",
+  "description_original": "Xerjoff markasının Jabir parfümü, kadınlar ve erkekler için bir kokudur. Jabir, 2023 yılında piyasaya sürüldü. Üst notalar: Frezya, Pembe biber ve Menekşe; orta notalar: Müge, Şakayık ve Bulgar Gülü; alt notalar Laos Oud, Vetiver, Paçuli, Misk ve Madagaskar Vanilyası.",
   "description_enhanced": "Xerjoff markasının Jabir parfümü, kadınlar ve erkekler için bir kokudur. Jabir, 2023 yılında piyasaya sürüldü. Üst notalar: Frezya, Menekşe ve Pembe biber; orta notalar: Müge, Bulgar Gülü ve Şakayık; alt notalar Laos Oud, Misk, Vetiver, Paçuli ve Vanilya.",
   "mainAccords": [
     {
@@ -16,39 +16,67 @@
     },
     {
       "name": "odunsu",
-      "width": "90.0717%"
+      "width": "88.1322%"
     },
     {
       "name": "ud",
-      "width": "86.8925%"
+      "width": "86.7139%"
     },
     {
       "name": "taze",
-      "width": "80.8684%"
-    },
-    {
-      "name": "beyaz çiçeksi",
-      "width": "69.0435%"
+      "width": "80.4124%"
     },
     {
       "name": "gül",
-      "width": "65.4183%"
+      "width": "68.0718%"
+    },
+    {
+      "name": "beyaz çiçeksi",
+      "width": "66.7592%"
     },
     {
       "name": "toprak",
-      "width": "52.98%"
+      "width": "51.6355%"
     },
     {
       "name": "paçuli",
-      "width": "52.3108%"
+      "width": "51.0053%"
     },
     {
       "name": "yeşil",
-      "width": "51.53%"
+      "width": "50.2701%"
     },
     {
       "name": "misk",
-      "width": "51.1951%"
+      "width": "49.9552%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,61 +91,78 @@
     }
   },
   "seasons": {
-    "winter": "32",
+    "winter": "31",
     "spring": "18",
     "summer": "11",
-    "autumn": "34",
+    "autumn": "33",
     "day": "17",
-    "night": "34"
+    "night": "33"
   },
   "notes": {
     "top": [
       "Frezya",
-      "Menekşe",
-      "Pembe biber"
+      "Pembe biber",
+      "Menekşe"
     ],
     "middle": [
       "Müge",
-      "Bulgar Gülü",
-      "Şakayık"
+      "Şakayık",
+      "Bulgar Gülü"
     ],
     "base": [
       "Laos Oud",
-      "Misk",
       "Vetiver",
       "Paçuli",
-      "Vanilya"
+      "Misk",
+      "Madagaskar Vanilyası"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "1",
+    "moderate": "8",
+    "longLasting": "42",
+    "eternal": "15"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "8",
+    "strong": "51",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "12",
+    "unisex": "21",
+    "moreMale": "10",
+    "male": "8"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "12",
+    "overpriced": "19",
     "fair": "14",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "KEMİ BLENDİNG MAGİC",
+      "name": "Jabir"
+    },
+    {
+      "brand": "NESHAMA PERFUME",
+      "name": "Souls on Fire"
+    },
+    {
+      "brand": "SAWALEF",
+      "name": "Kohl Al Ayoun"
+    },
+    {
+      "brand": "M. MİCALLEF",
+      "name": "Verseau"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "KEMİ BLENDİNG MAGİC",
@@ -144,6 +189,10 @@
       "name": "Jil Sander Bath and Beauty"
     },
     {
+      "brand": "MİZENSİR",
+      "name": "Perfect Oud"
+    },
+    {
       "brand": "XERJOFF",
       "name": "Alexandria II"
     },
@@ -152,8 +201,12 @@
       "name": "Sweetie Aoud"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Musk Oud"
+      "brand": "ROJA DOVE",
+      "name": "Diaghilev"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "The Night"
     },
     {
       "brand": "ROJA DOVE",
@@ -164,20 +217,13 @@
       "name": "Nio"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "The Night"
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Lumière Noire Pour Homme"
     },
     {
       "brand": "GUCCİ",
       "name": "Envy for Men"
-    },
-    {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Masculin Pluriel"
-    },
-    {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Lumière Noire Pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

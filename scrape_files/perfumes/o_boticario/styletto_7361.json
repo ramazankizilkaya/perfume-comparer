@@ -49,26 +49,54 @@
     {
       "name": "yumuşak baharatlı",
       "width": "45.4126%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.56",
-    "votesCount": "549",
+    "score": "3.55",
+    "votesCount": "557",
     "breakdown": {
-      "love": "118",
-      "like": "237",
+      "love": "119",
+      "like": "240",
       "ok": "57",
-      "dislike": "108",
-      "hate": "29"
+      "dislike": "110",
+      "hate": "31"
     }
   },
   "seasons": {
-    "winter": "93",
-    "spring": "206",
-    "summer": "185",
-    "autumn": "159",
-    "day": "244",
-    "night": "104"
+    "winter": "95",
+    "spring": "208",
+    "summer": "187",
+    "autumn": "161",
+    "day": "247",
+    "night": "106"
   },
   "notes": {
     "top": [
@@ -93,7 +121,7 @@
   },
   "longevity": {
     "veryWeak": "16",
-    "weak": "43",
+    "weak": "44",
     "moderate": "144",
     "longLasting": "44",
     "eternal": "7"
@@ -109,13 +137,13 @@
     "moreFemale": "0",
     "unisex": "16",
     "moreMale": "20",
-    "male": "140"
+    "male": "141"
   },
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "9",
     "fair": "57",
-    "goodValue": "59",
+    "goodValue": "60",
     "greatValue": "30"
   },
   "remindsMeOf": [
@@ -132,12 +160,12 @@
       "name": "Polo"
     },
     {
-      "brand": "RALPH LAUREN",
-      "name": "Safari for Men"
-    },
-    {
       "brand": "CERRUTİ",
       "name": "1881 Men"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Safari for Men"
     },
     {
       "brand": "RABANNE",
@@ -152,10 +180,6 @@
       "name": "Lomani pour Homme"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Kouros"
-    },
-    {
       "brand": "GİVENCHY",
       "name": "Les Parfums Mythiques - Xeryus"
     },
@@ -166,6 +190,10 @@
     {
       "brand": "PARİS ELYSEES",
       "name": "Vodka Diamond"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Kouros"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -241,5 +269,6 @@
       "brand": "DAVİDOFF",
       "name": "Cool Water"
     }
-  ]
+  ],
+  "comments": []
 }

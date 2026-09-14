@@ -49,6 +49,34 @@
     {
       "name": "toprak",
       "width": "53.5955%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,33 +117,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "3",
+    "moderate": "11",
+    "longLasting": "23",
+    "eternal": "15"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "11",
+    "strong": "32",
+    "enormous": "20"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "10",
+    "moreMale": "10",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "9",
+    "greatValue": "15"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Kalemat Black"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Qafiya 1"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Just Oud Boulevard"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Kalemat"
+    },
+    {
+      "brand": "JOVOY PARİS",
+      "name": "Psychedelique"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Raghba"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Exclusive Oud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -177,5 +234,6 @@
       "brand": "ARABİAN OUD",
       "name": "Kalemat"
     }
-  ]
+  ],
+  "comments": []
 }

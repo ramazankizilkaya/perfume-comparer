@@ -49,15 +49,47 @@
     {
       "name": "dumanlı",
       "width": "45.1011%"
+    },
+    {
+      "name": "Online satın alın 7 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "3.76",
-    "votesCount": "95",
+    "score": "3.75",
+    "votesCount": "96",
     "breakdown": {
       "love": "21",
       "like": "50",
-      "ok": "4",
+      "ok": "5",
       "dislike": "20",
       "hate": "0"
     }
@@ -86,33 +118,46 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "9",
+    "moderate": "18",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "18",
+    "strong": "5",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "7",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "5",
+    "goodValue": "6",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HUGO BOSS",
+      "name": "Hugo Dark Blue"
+    },
+    {
+      "brand": "LACOSTE FRAGRANCES",
+      "name": "L'Homme Lacoste Intense"
+    },
+    {
+      "brand": "ALFRED DUNHİLL",
+      "name": "Icon Racing"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CREED",
@@ -147,10 +192,6 @@
       "name": "Allure Homme Sport"
     },
     {
-      "brand": "ESCADA",
-      "name": "Escada Magnetism for Men"
-    },
-    {
       "brand": "CAROLİNA HERRERA",
       "name": "212 Men"
     },
@@ -173,6 +214,11 @@
     {
       "brand": "HERMÈS",
       "name": "Terre d'Hermès"
+    },
+    {
+      "brand": "JOOP!",
+      "name": "Joop! Homme"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -45,26 +45,58 @@
     {
       "name": "sıcak baharatlı",
       "width": "45.2653%"
+    },
+    {
+      "name": "Online satın alın 18 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "3",
+      "width": "300px"
     }
   ],
   "rating": {
     "score": "4.05",
-    "votesCount": "268",
+    "votesCount": "269",
     "breakdown": {
       "love": "83",
-      "like": "144",
+      "like": "145",
       "ok": "16",
       "dislike": "22",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "23",
-    "spring": "110",
-    "summer": "135",
-    "autumn": "69",
-    "day": "142",
-    "night": "38"
+    "winter": "24",
+    "spring": "112",
+    "summer": "136",
+    "autumn": "70",
+    "day": "143",
+    "night": "39"
   },
   "notes": {
     "top": [
@@ -88,33 +120,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "32",
+    "moderate": "82",
+    "longLasting": "47",
+    "eternal": "11"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "31",
+    "moderate": "82",
+    "strong": "36",
+    "enormous": "16"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "1",
+    "unisex": "48",
+    "moreMale": "28",
+    "male": "12"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "16",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "36",
+    "greatValue": "40"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ZARA",
+      "name": "Cool Heights"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Cedrat Boise"
+    },
+    {
+      "brand": "OLFATTOLOGY",
+      "name": "Parana"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Vetyverio Eau de Toilette"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Aiyara Pour Homme"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chanel No 19 Poudre"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Oud & Bergamot"
+    },
+    {
+      "brand": "ATKİNSONS",
+      "name": "Spirit of Africa Eshe Vitality"
+    },
+    {
+      "brand": "BENTLEY",
+      "name": "Infinite Intense"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Elements"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Emotion Men"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Al Qiam Silver"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Woody Oud"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Derby Club House Blanche"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Hermessence Vetiver Tonka"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -176,5 +269,6 @@
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

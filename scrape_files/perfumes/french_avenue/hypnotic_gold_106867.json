@@ -39,36 +39,60 @@
       "width": "69.4366%"
     },
     {
-      "name": "tarçın",
+      "name": "bal",
       "width": "66.15%"
     },
     {
-      "name": "bal",
+      "name": "tarçın",
       "width": "66.15%"
     },
     {
       "name": "toprak",
       "width": "60.2344%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.88",
-    "votesCount": "51",
+    "votesCount": "60",
     "breakdown": {
-      "love": "20",
-      "like": "15",
-      "ok": "9",
-      "dislike": "4",
+      "love": "23",
+      "like": "18",
+      "ok": "11",
+      "dislike": "5",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "25",
+    "winter": "32",
     "spring": "7",
     "summer": "2",
-    "autumn": "26",
-    "day": "16",
-    "night": "27"
+    "autumn": "33",
+    "day": "18",
+    "night": "31"
   },
   "notes": {
     "top": [
@@ -98,29 +122,29 @@
   "longevity": {
     "veryWeak": "4",
     "weak": "1",
-    "moderate": "5",
-    "longLasting": "8",
-    "eternal": "0"
+    "moderate": "6",
+    "longLasting": "10",
+    "eternal": "1"
   },
   "sillage": {
     "intimate": "2",
-    "moderate": "5",
-    "strong": "5",
-    "enormous": "0"
+    "moderate": "6",
+    "strong": "7",
+    "enormous": "1"
   },
   "genderVoting": {
     "female": "3",
-    "moreFemale": "2",
-    "unisex": "15",
+    "moreFemale": "3",
+    "unisex": "19",
     "moreMale": "1",
     "male": "7"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "3",
-    "fair": "9",
-    "goodValue": "8",
-    "greatValue": "7"
+    "fair": "11",
+    "goodValue": "11",
+    "greatValue": "8"
   },
   "remindsMeOf": [
     {
@@ -128,35 +152,47 @@
       "name": "Honey Aoud"
     },
     {
-      "brand": "SWİSS ARABİAN",
-      "name": "Shaghaf Oud Azraq"
-    },
-    {
       "brand": "MEMOİRS OF A PERFUME COLLECTOR",
       "name": "A Night In Marrakesh"
     },
     {
-      "brand": "PRADA",
-      "name": "Luna Rossa Extreme"
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Azraq"
     },
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Oajan"
     },
     {
+      "brand": "PRADA",
+      "name": "Luna Rossa Extreme"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Side Effect"
+    },
+    {
       "brand": "LPDO",
       "name": "Mieloud"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Niche Emarati Toleen"
-    },
-    {
       "brand": "MUGLER",
       "name": "Mirror Mirror Collection - Miroir des Voluptes"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Tonka Cola"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Niche Emarati Toleen"
     }
   ],
   "peopleAlsoLike": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "His Confession"
+    },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
@@ -178,14 +214,6 @@
       "name": "Khamrah Qahwa"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Asad"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Asad Elixir"
-    },
-    {
       "brand": "PARIS CORNER",
       "name": "Rifaaqat"
     },
@@ -196,10 +224,6 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah Dukhan"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Mashrabya"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -216,6 +240,15 @@
     {
       "brand": "FRENCH AVENUE",
       "name": "Spectre Ghost"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Teriaq Intense"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Royal Blend Sequoia"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -19,23 +19,51 @@
       "width": "56.25%"
     },
     {
-      "name": "çiçeksi",
+      "name": "odunsu",
       "width": "47.5%"
     },
     {
-      "name": "odunsu",
+      "name": "çiçeksi",
       "width": "47.5%"
     },
     {
       "name": "tatlı",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.86",
-    "votesCount": "14",
+    "score": "3.93",
+    "votesCount": "15",
     "breakdown": {
-      "love": "4",
+      "love": "5",
       "like": "4",
       "ok": "6",
       "dislike": "0",
@@ -43,12 +71,12 @@
     }
   },
   "seasons": {
-    "winter": "1",
-    "spring": "4",
-    "summer": "5",
-    "autumn": "3",
-    "day": "6",
-    "night": "1"
+    "winter": "2",
+    "spring": "5",
+    "summer": "6",
+    "autumn": "4",
+    "day": "7",
+    "night": "2"
   },
   "notes": {
     "top": [],
@@ -64,7 +92,7 @@
     "veryWeak": "1",
     "weak": "2",
     "moderate": "1",
-    "longLasting": "0",
+    "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
@@ -74,7 +102,7 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "3",
+    "female": "4",
     "moreFemale": "1",
     "unisex": "0",
     "moreMale": "0",
@@ -85,7 +113,7 @@
     "overpriced": "0",
     "fair": "6",
     "goodValue": "1",
-    "greatValue": "0"
+    "greatValue": "1"
   },
   "remindsMeOf": [
     {
@@ -97,12 +125,16 @@
       "name": "Bal d'Afrique"
     },
     {
+      "brand": "BYREDO",
+      "name": "Bal d'Afrique Hair Perfume"
+    },
+    {
       "brand": "PARIS CORNER",
       "name": "Midnight Sin"
     },
     {
-      "brand": "BYREDO",
-      "name": "Bal d'Afrique Hair Perfume"
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Fleur du Mâle"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -147,12 +179,12 @@
       "name": "Soft"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah"
-    },
-    {
       "brand": "PRADA",
       "name": "Prada Candy Kiss"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah"
     },
     {
       "brand": "MİCHEL GERMAİN",
@@ -164,15 +196,16 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Glazed Pumpkin"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Amber Blush"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Strawberry Snowflakes"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Milk"
     }
-  ]
+  ],
+  "comments": []
 }

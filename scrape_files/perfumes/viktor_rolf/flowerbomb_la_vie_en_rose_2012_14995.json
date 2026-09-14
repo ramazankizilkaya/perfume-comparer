@@ -33,13 +33,41 @@
     {
       "name": "tatlı",
       "width": "46.6424%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.05",
-    "votesCount": "128",
+    "score": "4.06",
+    "votesCount": "129",
     "breakdown": {
-      "love": "42",
+      "love": "43",
       "like": "67",
       "ok": "3",
       "dislike": "16",
@@ -48,10 +76,10 @@
   },
   "seasons": {
     "winter": "7",
-    "spring": "37",
-    "summer": "30",
+    "spring": "38",
+    "summer": "31",
     "autumn": "13",
-    "day": "44",
+    "day": "45",
     "night": "19"
   },
   "notes": {
@@ -74,33 +102,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "6",
+    "moderate": "14",
+    "longLasting": "5",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "14",
+    "moderate": "14",
+    "strong": "13",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb La Vie en Rose 2013"
+    },
+    {
+      "brand": "JEANNE ARTHES",
+      "name": "Arthes You & Me"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb La Vie En Rose 2016"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Eau de Toilette"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Si"
+    },
+    {
+      "brand": "OAKCHA",
+      "name": "Reborn Lust"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -162,5 +215,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Manifesto"
     }
-  ]
+  ],
+  "comments": []
 }

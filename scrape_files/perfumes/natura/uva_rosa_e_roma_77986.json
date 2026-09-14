@@ -35,12 +35,40 @@
       "width": "47.5%"
     },
     {
+      "name": "gül",
+      "width": "46.4062%"
+    },
+    {
       "name": "pudralı",
       "width": "46.4062%"
     },
     {
-      "name": "gül",
-      "width": "46.4062%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -77,33 +105,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "9",
+    "moderate": "7",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "7",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "15",
+    "moreFemale": "3",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "8",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Amis Uva"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Midnight Fantasy"
+    },
+    {
+      "brand": "TOUS",
+      "name": "Bonjour Señorita"
+    },
+    {
+      "brand": "DZİNTARS",
+      "name": "Lady Dream Felicity"
+    },
+    {
+      "brand": "NAVİTUS PARFUMS",
+      "name": "Amorous Intense"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Crystal Noir"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Pure Seduction"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Nina L'Elixir"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "My Burberry Festive Eau de Parfum"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Luna"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle Iris Absolu"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY Be Tempted"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kriska Shock"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -165,5 +246,6 @@
       "brand": "NATURA",
       "name": "Biografia"
     }
-  ]
+  ],
+  "comments": []
 }

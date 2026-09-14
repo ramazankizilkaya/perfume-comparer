@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Natura/Cool-Vibe-54386.html",
   "brand": "Natura parfüm ve kolonya",
   "description": "Natura markasının Cool Vibe! parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi bir kokudur. Cool Vibe!, 2018 yılında piyasaya sürüldü. Cool Vibe!, Verônica Kato ve Sophie Labbé tarafından yaratıldı. Üst notalar: Armut, Narenciye, Su Notaları, Yeşil Notalar, Elma ve Pembe biber; orta notalar: Yasemin, Aynısefa, Gül ve Menekşe; alt notalar Sedir, Misk, Krem şanti ve Amber.",
-  "description_original": "Natura markasının Cool Vibe! parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi bir kokudur. Cool Vibe!, 2018 yılında piyasaya sürüldü. Cool Vibe!, Verônica Kato ve Sophie Labbé tarafından yaratıldı. Üst notalar: Armut, Narenciye, Su Notaları, Yeşil Notalar, Elma ve Pembe biber; orta notalar: Yasemin, Aynısefa, Gül ve Menekşe; alt notalar Sedir, Misk, Krem şanti ve Amber.",
+  "description_original": "Natura markasının Cool Vibe! parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi bir kokudur. Cool Vibe!, 2018 yılında piyasaya sürüldü. Cool Vibe!, Verônica Kato ve Sophie Labbé tarafından yaratıldı. Üst notalar: Armut, Narenciye, Su Notaları, Yeşil Notalar, Elma ve Pembe biber; orta notalar: Yasemin, Kadife Çiçeği, Gül ve Menekşe; alt notalar Sedir, Misk, Krem şanti ve Amber.",
   "description_enhanced": "Natura markasının Cool Vibe! parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi bir kokudur. Cool Vibe!, 2018 yılında piyasaya sürüldü. Cool Vibe!, Verônica Kato ve Sophie Labbé tarafından yaratıldı. Üst notalar: Armut, Narenciye, Su Notaları, Yeşil Notalar, Elma ve Pembe biber; orta notalar: Yasemin, Aynısefa, Gül ve Menekşe; alt notalar Sedir, Misk, Krem şanti ve Amber.",
   "mainAccords": [
     {
@@ -41,14 +41,42 @@
     {
       "name": "taze baharatlı",
       "width": "48.9%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.61",
-    "votesCount": "49",
+    "score": "3.62",
+    "votesCount": "50",
     "breakdown": {
       "love": "9",
-      "like": "24",
+      "like": "25",
       "ok": "6",
       "dislike": "8",
       "hate": "2"
@@ -73,7 +101,7 @@
     ],
     "middle": [
       "Yasemin",
-      "Aynısefa",
+      "Kadife Çiçeği",
       "Gül",
       "Menekşe"
     ],
@@ -86,33 +114,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "8",
+    "moderate": "16",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "16",
+    "strong": "1",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "2",
+    "unisex": "8",
+    "moreMale": "2",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Eternity Summer 2015"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Pleasures"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Reflection Woman"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Tommy"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -164,15 +209,16 @@
     },
     {
       "brand": "NATURA",
-      "name": "Kriska Jeans"
+      "name": "Flor do Luar"
     },
     {
       "brand": "NATURA",
-      "name": "Flor do Luar"
+      "name": "Kriska Jeans"
     },
     {
       "brand": "NATURA",
       "name": "Kriska Drama"
     }
-  ]
+  ],
+  "comments": []
 }

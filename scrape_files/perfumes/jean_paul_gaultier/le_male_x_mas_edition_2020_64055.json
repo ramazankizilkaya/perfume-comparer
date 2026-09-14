@@ -93,58 +93,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "16",
-    "longLasting": "24",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "16",
-    "strong": "15",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "3",
-    "moreMale": "13",
-    "male": "21"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "6",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Collector's Snow Globe"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Collector Edition 2018"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Collector Edition 2017"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Le Parfum"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Elixir"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -206,5 +181,6 @@
       "brand": "PRADA",
       "name": "Prada L'Homme"
     }
-  ]
+  ],
+  "comments": []
 }

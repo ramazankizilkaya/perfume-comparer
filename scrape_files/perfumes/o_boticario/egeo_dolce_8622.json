@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/Egeo-Dolce-8622.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının Egeo Dolce parfümü, erkekler için Odunsu Baharatlı bir kokudur. Egeo Dolce, 2007 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Vincent Schaller. Üst notalar: Amalfi Limonu, Lavanta, Bergamot, Klementin, Greyfurt ve Kişniş; orta notalar: Pralin, Vanilya, Tonka fasulyesi, Paçuli, Abanoz, Sandal ağacı ve Granny Smith elması; alt notalar Baharatlı notalar, Amber, Vetiver ve Misk.",
-  "description_original": "O Boticário markasının Egeo Dolce parfümü, erkekler için Odunsu Baharatlı bir kokudur. Egeo Dolce, 2007 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Vincent Schaller. Üst notalar: Amalfi Limonu, Lavanta, Bergamot, Klementin, Greyfurt ve Kişniş; orta notalar: Pralin, Vanilya, Tonka fasulyesi, Paçuli, Abanoz, Sandal ağacı ve Granny Smith elması; alt notalar Baharatlı notalar, Amber, Vetiver ve Misk.",
+  "description_original": "O Boticário markasının Egeo Dolce parfümü, erkekler için Odunsu Baharatlı bir kokudur. Egeo Dolce, 2007 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Vincent Schaller. Üst notalar: Amalfi Limonu, Lavanta, Bergamot, Klementin, Greyfurt ve Kişniş; orta notalar: Pralin, Vanilya, Tonka fasulyesi, Paçuli, Abanoz, Sandal ağacı ve Granny Smith elması; alt notalar Baharatlar, Amber, Vetiver ve Misk.",
   "description_enhanced": "O Boticário markasının Egeo Dolce parfümü, erkekler için Odunsu Baharatlı bir kokudur. Egeo Dolce, 2007 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Vincent Schaller. Üst notalar: Amalfi Limonu, Lavanta, Bergamot, Klementin, Greyfurt ve Kişniş; orta notalar: Pralin, Vanilya, Tonka fasulyesi, Paçuli, Abanoz, Sandal ağacı ve Granny Smith elması; alt notalar Baharatlı notalar, Amber, Vetiver ve Misk.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "paçuli",
       "width": "45.8428%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,7 +117,7 @@
       "Granny Smith elması"
     ],
     "base": [
-      "Baharatlı notalar",
+      "Baharatlar",
       "Amber",
       "Vetiver",
       "Misk"
@@ -145,12 +173,16 @@
       "name": "Angel"
     },
     {
-      "brand": "HANAE MORİ",
-      "name": "HM"
+      "brand": "MUGLER",
+      "name": "A*Men Ultimate"
     },
     {
       "brand": "MUGLER",
       "name": "A*Men Pure Havane"
+    },
+    {
+      "brand": "HANAE MORİ",
+      "name": "HM"
     },
     {
       "brand": "ANİMALE",
@@ -178,10 +210,6 @@
     },
     {
       "brand": "MUGLER",
-      "name": "A*Men Ultimate"
-    },
-    {
-      "brand": "MUGLER",
       "name": "Angel Étoile des Rêves"
     }
   ],
@@ -189,10 +217,6 @@
     {
       "brand": "RABANNE",
       "name": "Black XS"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Angel"
     },
     {
       "brand": "GİVENCHY",
@@ -219,10 +243,6 @@
       "name": "Joop! Homme"
     },
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Egeo Dolce"
-    },
-    {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male"
     },
@@ -245,6 +265,15 @@
     {
       "brand": "O BOTİCÁRİO",
       "name": "Zaad"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau d'Issey Pour Homme"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Men"
     }
-  ]
+  ],
+  "comments": []
 }

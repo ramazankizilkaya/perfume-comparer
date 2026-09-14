@@ -49,26 +49,54 @@
     {
       "name": "pudralı",
       "width": "44.9272%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.09",
-    "votesCount": "306",
+    "votesCount": "311",
     "breakdown": {
-      "love": "104",
-      "like": "152",
+      "love": "106",
+      "like": "154",
       "ok": "29",
       "dislike": "16",
-      "hate": "5"
+      "hate": "6"
     }
   },
   "seasons": {
-    "winter": "125",
-    "spring": "159",
+    "winter": "131",
+    "spring": "162",
     "summer": "74",
-    "autumn": "171",
-    "day": "142",
-    "night": "156"
+    "autumn": "176",
+    "day": "143",
+    "night": "162"
   },
   "notes": {
     "top": [
@@ -97,33 +125,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "11",
+    "weak": "39",
+    "moderate": "128",
+    "longLasting": "30",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "54",
+    "moderate": "128",
+    "strong": "25",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "2",
+    "unisex": "75",
+    "moreMale": "72",
+    "male": "53"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "3",
     "fair": "29",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "95",
+    "greatValue": "57"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Black XS (2018)"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Química de Humor"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Black XS"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "The One for Men"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor Estelar"
+    },
+    {
+      "brand": "JEQUİTİ",
+      "name": "Turma do Chico Bento"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -159,6 +212,10 @@
     },
     {
       "brand": "NATURA",
+      "name": "Kaiak Aventura"
+    },
+    {
+      "brand": "NATURA",
       "name": "Homem"
     },
     {
@@ -175,15 +232,12 @@
     },
     {
       "brand": "NATURA",
-      "name": "Homem Especiarias"
-    },
-    {
-      "brand": "NATURA",
       "name": "Homem Verum"
     },
     {
       "brand": "NATURA",
       "name": "Kaiak Aero"
     }
-  ]
+  ],
+  "comments": []
 }

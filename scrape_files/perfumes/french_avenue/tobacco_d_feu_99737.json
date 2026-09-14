@@ -63,12 +63,12 @@
     }
   },
   "seasons": {
-    "winter": "31",
+    "winter": "32",
     "spring": "15",
     "summer": "5",
-    "autumn": "31",
+    "autumn": "32",
     "day": "16",
-    "night": "28"
+    "night": "29"
   },
   "notes": {
     "top": [
@@ -89,74 +89,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "2",
-    "moderate": "15",
-    "longLasting": "23",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "15",
-    "strong": "23",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "8",
-    "moreMale": "11",
-    "male": "21"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "10",
-    "goodValue": "14",
-    "greatValue": "20"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BYREDO",
-      "name": "Tobacco Mandarin"
-    },
-    {
-      "brand": "PARIS CORNER",
-      "name": "Vibrant Spicy Tobacco"
-    },
-    {
-      "brand": "TOMAS ARSOV",
-      "name": "Plum Tobacco Blossom Tonca Bean"
-    },
-    {
-      "brand": "PHİLLY&PHİLL",
-      "name": "Midnight on Max Street (Emotional Oud)"
-    },
-    {
-      "brand": "GUESS",
-      "name": "Type 3: Tobacco & Amberwood"
-    },
-    {
-      "brand": "FRENCH AVENUE",
-      "name": "Paradox Tribute"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Tobacco Honey"
-    },
-    {
-      "brand": "KİLLER OUD",
-      "name": "Killer Oud"
-    },
-    {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Salvo Intense"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Tobacco Oud"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -218,5 +177,6 @@
       "brand": "AROMATİX X FRENCH AVENUE",
       "name": "Royal Taboo"
     }
-  ]
+  ],
+  "comments": []
 }

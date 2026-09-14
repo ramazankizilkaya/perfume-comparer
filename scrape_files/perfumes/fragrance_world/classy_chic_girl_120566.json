@@ -43,21 +43,49 @@
       "width": "55.4167%"
     },
     {
+      "name": "tüberöz",
+      "width": "55%"
+    },
+    {
       "name": "kahve",
       "width": "55%"
     },
     {
-      "name": "tarçın",
-      "width": "55%"
+      "name": "Online satın alın 56 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.36",
-    "votesCount": "14",
+    "score": "4.27",
+    "votesCount": "15",
     "breakdown": {
       "love": "9",
       "like": "2",
-      "ok": "2",
+      "ok": "3",
       "dislike": "1",
       "hate": "0"
     }
@@ -97,33 +125,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "0",
+    "fair": "3",
+    "goodValue": "0",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Qimmah for Women"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "B.A.D. Femme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -166,12 +207,12 @@
       "name": "Rifaaqat"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Victoria"
-    },
-    {
       "brand": "KHADLAJ PERFUMES",
       "name": "Empire Victor"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Victoria"
     },
     {
       "brand": "MAİSON ALHAMBRA",
@@ -185,5 +226,6 @@
       "brand": "PARIS CORNER",
       "name": "Vibrant Vetiver Delight"
     }
-  ]
+  ],
+  "comments": []
 }

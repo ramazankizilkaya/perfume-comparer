@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.22496.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Hermes/Eau-Des-Merveilles-Limited-Edition-2009-22496.html",
   "brand": "Hermès parfüm ve kolonya",
-  "description": "Hermès markasının Eau Des Merveilles Limited Edition 2009 parfümü, kadınlar için Oryantal Odunsu bir kokudur. Eau Des Merveilles Limited Edition 2009, 2009 yılında piyasaya sürüldü. Üst notalar: Portakal, Limon ve Elemi; orta notalar: Amber, Biber, Pembe biber ve Menekşe; alt notalar Ladin, Sedir, Vetiver ve Meşe yosunu.",
-  "description_original": "Hermès markasının Eau Des Merveilles Limited Edition 2009 parfümü, kadınlar için Oryantal Odunsu bir kokudur. Eau Des Merveilles Limited Edition 2009, 2009 yılında piyasaya sürüldü. Üst notalar: Portakal, Limon ve Elemi; orta notalar: Amber, Biber, Pembe biber ve Menekşe; alt notalar Ladin, Sedir, Vetiver ve Meşe yosunu.",
-  "description_enhanced": "Hermès markasının Eau Des Merveilles Limited Edition 2009 parfümü, kadınlar için Oryantal Odunsu bir kokudur. Eau Des Merveilles Limited Edition 2009, 2009 yılında piyasaya sürüldü. Üst notalar: Portakal, Limon ve Elemi; orta notalar: Amber, Biber, Pembe biber ve Menekşe; alt notalar Ladin, Sedir, Vetiver ve Meşe yosunu.",
+  "description": "Hermès markasının Eau Des Merveilles Limited Edition 2009 parfümü, kadınlar için Oryantal Odunsu bir kokudur. Eau Des Merveilles Limited Edition 2009, 2009 yılında piyasaya sürüldü. Üst notalar: Portakal, Limon ve Elemi; orta notalar: Amber, Biber, Pembe biber ve Menekşe; alt notalar Köknar, Sedir, Vetiver ve Meşe yosunu.",
+  "description_original": "Hermès markasının Eau Des Merveilles Limited Edition 2009 parfümü, kadınlar için Oryantal Odunsu bir kokudur. Eau Des Merveilles Limited Edition 2009, 2009 yılında piyasaya sürüldü. Üst notalar: Portakal, Limon ve Elemi; orta notalar: Amber, Biber, Pembe biber ve Menekşe; alt notalar Köknar, Sedir, Vetiver ve Meşe yosunu.",
+  "description_enhanced": "Hermès markasının Eau Des Merveilles Limited Edition 2009 parfümü, kadınlar için Oryantal Odunsu bir kokudur. Eau Des Merveilles Limited Edition 2009, 2009 yılında piyasaya sürüldü. Üst notalar: Portakal, Limon ve Elemi; orta notalar: Amber, Biber, Pembe biber ve Menekşe; alt notalar Köknar, Sedir, Vetiver ve Meşe yosunu.",
   "mainAccords": [
     {
       "name": "odunsu",
@@ -49,6 +49,34 @@
     {
       "name": "balsamik",
       "width": "47.7376%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,7 +111,7 @@
       "Menekşe"
     ],
     "base": [
-      "Ladin",
+      "Köknar",
       "Sedir",
       "Vetiver",
       "Meşe yosunu"
@@ -121,6 +149,10 @@
     {
       "brand": "HERMÈS",
       "name": "Eau des Merveilles"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Elixir des Merveilles"
     },
     {
       "brand": "JENNİFER LOPEZ",
@@ -192,5 +224,6 @@
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez For Her"
     }
-  ]
+  ],
+  "comments": []
 }

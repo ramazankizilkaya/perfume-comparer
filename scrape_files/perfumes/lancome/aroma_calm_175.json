@@ -37,14 +37,42 @@
     {
       "name": "çiçeksi",
       "width": "48.908%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.33",
-    "votesCount": "107",
+    "score": "4.32",
+    "votesCount": "108",
     "breakdown": {
       "love": "53",
-      "like": "45",
+      "like": "46",
       "ok": "1",
       "dislike": "7",
       "hate": "1"
@@ -69,33 +97,58 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "8",
+    "weak": "9",
+    "moderate": "7",
+    "longLasting": "0",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "16",
+    "moderate": "7",
+    "strong": "4",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "5",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "FRAGONARD",
+      "name": "Lavande"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Chá de Camomila e Lavanda"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Fraicheur Vegetale Cedre Bleu"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Xodo"
+    },
+    {
+      "brand": "SENSAİ",
+      "name": "The Silk Eau de Toilette"
+    },
+    {
+      "brand": "JAFRA",
+      "name": "Eau d'Arômes"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -122,12 +175,12 @@
       "name": "Dolce Vita"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Eau de Parfum"
+      "brand": "CHANEL",
+      "name": "Chanel N°5 Eau Premiere"
     },
     {
       "brand": "CHANEL",
-      "name": "Chanel N°5 Eau Premiere"
+      "name": "Coco Mademoiselle"
     },
     {
       "brand": "CHANEL",
@@ -157,5 +210,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

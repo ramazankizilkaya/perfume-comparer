@@ -49,13 +49,41 @@
     {
       "name": "pudralı",
       "width": "51.2697%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.34",
-    "votesCount": "58",
+    "score": "4.36",
+    "votesCount": "59",
     "breakdown": {
-      "love": "30",
+      "love": "31",
       "like": "22",
       "ok": "2",
       "dislike": "4",
@@ -88,33 +116,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "1",
+    "moderate": "10",
+    "longLasting": "10",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "10",
+    "strong": "11",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "4",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Kouros Cologne Sport"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Kouros Eau d'Ete 2005"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Kouros"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Kouros Fraicheur"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Musk Aoud Absolue Précieux"
+    },
+    {
+      "brand": "OSCAR DE LA RENTA",
+      "name": "Oscar de la Renta Pour Lui"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -176,5 +229,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Opium Pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

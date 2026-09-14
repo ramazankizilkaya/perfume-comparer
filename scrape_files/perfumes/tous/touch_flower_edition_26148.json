@@ -37,6 +37,34 @@
     {
       "name": "badem",
       "width": "48.9702%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -78,33 +106,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "1",
+    "longLasting": "2",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "1",
+    "strong": "3",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TOUS",
+      "name": "Touch"
+    },
+    {
+      "brand": "DSQUARED²",
+      "name": "Wood for Her"
+    },
+    {
+      "brand": "VİNCE CAMUTO",
+      "name": "Illuminare"
+    },
+    {
+      "brand": "LANVİN",
+      "name": "Rumeur"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -139,16 +184,16 @@
       "name": "Un Jardin Sur La Lagune"
     },
     {
+      "brand": "GİORGİO ARMANİ",
+      "name": "My Way"
+    },
+    {
       "brand": "MUGLER",
       "name": "Alien"
     },
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Manifesto"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Angel Nova"
     },
     {
       "brand": "MUGLER",
@@ -166,5 +211,6 @@
       "brand": "MUGLER",
       "name": "Alien Sunessence Edition Saphir Soleil"
     }
-  ]
+  ],
+  "comments": []
 }

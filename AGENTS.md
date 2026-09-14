@@ -2,6 +2,8 @@
 
 ## Purpose
 Minimum context an AI coding agent needs to work in this repo.
+- **Hızlı Sistem Haritası (Ön Bilgi Özeti):** [`docs/AGENT_QUICK_MAP.md`](file:///Users/ramazankizilkaya/Documents/wip/perfume-comparer/docs/AGENT_QUICK_MAP.md)
+- **Derinlemesine Teknik Mimari (Detay Kılavuzu):** [`docs/AGENT_DEEP_ARCHITECTURE.md`](file:///Users/ramazankizilkaya/Documents/wip/perfume-comparer/docs/AGENT_DEEP_ARCHITECTURE.md)
 
 Project: **Aura Compare** — a Turkish perfume comparison site built on scraped Fragrantica TR data.
 Goal: keep the implementation simple, extensible and clean (SoC, no spaghetti).
@@ -16,11 +18,12 @@ Goal: keep the implementation simple, extensible and clean (SoC, no spaghetti).
 - Explain things so a non-expert can understand. If the user cannot understand the answer, the work cannot continue.
 
 ## Agent Rules (non-negotiable)
-- **ASK-FIRST RULE:** never make any change without asking first. No code modifications or destructive actions without explicit approval.
-- **ADVISE-FIRST RULE:** a reported issue does not automatically mean a fix is needed. Read the code, diagnose, advise. Prefer pointing the user to the fix so they can solve it themselves. The more you touch code, the sooner it breaks.
+- **DIRECT EXECUTION RULE (Kullanıcı Kuralı):** Kullanıcı bir istek veya düzeltme belirttiğinde; teknik bir engel, başka yeri bozacak bir risk veya konuşulması gereken açık bir belirsizlik yoksa tekrar "uygulayayım mı?" diye sormadan doğrudan uygula, test et ve sonucu bildir.
+- **ADVISE-FIRST RULE:** Sadece belirsiz bir durum, mimari bir çelişki veya potansiyel yan etki varsa teşhis koy ve görüş bildir.
 - **COMMIT RULE:** never `git commit` / `git push` without direct permission.
 - **CLEANUP RULE:** leave no temp files, debug scripts, or screenshots behind.
 - **TESTING RULE:** once a change is approved and applied, verify it — run the affected script or page. Bundan sonra yapılan her değişiklik için eğer testle cover edilmediyse mutlaka test eklenecek (API testleri `tests/api-test` altında; ileride UI testleri eklendiğinde aynı kural UI için de geçerli olacaktır). Before committing, always run `npm run build` in the frontend and run tests in `tests/api-test`.
+- **ARCHITECTURE SYNC RULE (non-negotiable):** Projede yapılan her mimari değişiklik, rota/URL yapısı, güvenlik kuralı, yeni veri akışı veya sistem kararı anında hem [`docs/AGENT_QUICK_MAP.md`](file:///Users/ramazankizilkaya/Documents/wip/perfume-comparer/docs/AGENT_QUICK_MAP.md) hem de [`docs/AGENT_DEEP_ARCHITECTURE.md`](file:///Users/ramazankizilkaya/Documents/wip/perfume-comparer/docs/AGENT_DEEP_ARCHITECTURE.md) dosyalarına işlenmeli ve senkron tutulmalıdır. Tıpkı mobil uyumluluk (responsive) kontrolü veya test koşma zorunluluğu gibi, mimari dokümanlar güncellenmeden hiçbir geliştirme tamamlanmış sayılamaz.
 
 ## Product Summary
 - Users browse, search and compare perfumes: notes, accords, ratings, longevity, sillage, season/time-of-day voting.
@@ -45,6 +48,14 @@ Every UI change must be verified in all four of these before it is called done:
    are exactly what breaks dark-mode contrast.
 
 Screenshot all four states with `/browse` before reporting a UI change as finished.
+
+### Image SEO & Alt Text Guidelines (non-negotiable)
+Every `<img>` element rendered in the frontend must have an explicit, SEO-optimized, descriptive `alt` attribute (never leave `alt=""` or generic text):
+1. **Product Page Recommendations ("Bu parfümü sevenler şunları da sevdi")**: Must use relational context format: `{currentPerfume} sevenler {altPerfume} da sevdi` (e.g. `X parfümünü sevenler Y parfümünü de sevdi`).
+2. **Alternatives ("Benzer kokular")**: Must use similarity format: `{currentPerfume} benzeri {brand} {altPerfume} parfümü`.
+3. **Main Perfume Hero & Cards**: Must specify brand, perfume name, and context: `{brand} {perfume} orijinal parfüm şişesi` or `{brand} {perfume} parfümü`.
+4. **Brand & Retailer Logos**: Must specify entity name and role: `{brand} parfüm markası logosu` or `{store} - {perfume} yetkili satış noktası ve güncel fiyatları`.
+5. **Blog & Editorial Covers**: Must include the article title: `{title} - blog kapak görseli`.
 
 ## Tech Stack
 - Backend: .NET, EF Core, Postgres. Layered: `Controllers/` → `Business/Services` → `Data/` (`Repository`, `UnitOfWork`), entities in `Domain/Entities`.
@@ -189,6 +200,7 @@ Any change to this shape must be mirrored in `scripts/validate_perfumes.js` and 
 4. If the DB schema changed, `python3 scripts/import_data.py --reset` still succeeds.
 5. No regressions on detail (`/parfum/...`), search (`/ara`), brand (`/marka/...`), compare (`/karsilastir`).
 6. Workspace clean — no leftover temp/debug files.
+7. If any architectural, routing, security, or data flow changes were made, `docs/AGENT_QUICK_MAP.md` and `docs/AGENT_DEEP_ARCHITECTURE.md` are updated and synced.
 
 ## Prompt Templates
 

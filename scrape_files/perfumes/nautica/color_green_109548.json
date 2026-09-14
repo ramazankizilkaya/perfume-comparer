@@ -2,7 +2,7 @@
   "name": "Color Green Nautica",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Aromatic",
-  "concentration": "Edt",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109548.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Nautica/Color-Green-109548.html",
   "brand": "Nautica parfüm ve kolonya",
@@ -19,7 +19,7 @@
       "width": "75.6297%"
     },
     {
-      "name": "taze",
+      "name": "gül",
       "width": "49.4445%"
     },
     {
@@ -27,32 +27,60 @@
       "width": "49.4445%"
     },
     {
-      "name": "gül",
+      "name": "taze",
       "width": "49.4445%"
     },
     {
       "name": "odunsu",
       "width": "44.5186%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.78",
-    "votesCount": "55",
+    "score": "3.67",
+    "votesCount": "67",
     "breakdown": {
-      "love": "13",
-      "like": "25",
-      "ok": "11",
-      "dislike": "4",
-      "hate": "2"
+      "love": "14",
+      "like": "29",
+      "ok": "15",
+      "dislike": "6",
+      "hate": "3"
     }
   },
   "seasons": {
-    "winter": "13",
-    "spring": "31",
-    "summer": "30",
-    "autumn": "21",
-    "day": "35",
-    "night": "12"
+    "winter": "14",
+    "spring": "36",
+    "summer": "36",
+    "autumn": "24",
+    "day": "41",
+    "night": "13"
   },
   "notes": {
     "top": [
@@ -67,33 +95,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "12",
+    "moderate": "20",
+    "longLasting": "4",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "11",
+    "moderate": "20",
+    "strong": "9",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "11",
+    "male": "29"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "11",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "1",
+    "fair": "15",
+    "goodValue": "6",
+    "greatValue": "30"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "COACH",
+      "name": "Coach Green"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Sauvage"
+    },
+    {
+      "brand": "CREED",
+      "name": "Green Irish Tweed"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water Reborn"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Rummo Desafio"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor a Dois"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Bottled Unlimited"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Salvo"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NAUTİCA",
@@ -155,5 +216,6 @@
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
     }
-  ]
+  ],
+  "comments": []
 }

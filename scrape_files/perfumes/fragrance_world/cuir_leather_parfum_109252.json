@@ -2,7 +2,7 @@
   "name": "Cuir Leather Parfum Fragrance World",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Floral",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.109252.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Fragrance-World/Cuir-Leather-Parfum-109252.html",
   "brand": "Fragrance World parfüm ve kolonya",
@@ -29,25 +29,53 @@
     {
       "name": "yeşil",
       "width": "40.5%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.20",
-    "votesCount": "10",
+    "score": "4.15",
+    "votesCount": "13",
     "breakdown": {
-      "love": "6",
-      "like": "2",
-      "ok": "1",
+      "love": "7",
+      "like": "3",
+      "ok": "2",
       "dislike": "0",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "8",
+    "winter": "9",
     "spring": "5",
     "summer": "1",
     "autumn": "6",
-    "day": "4",
+    "day": "5",
     "night": "6"
   },
   "notes": {
@@ -67,33 +95,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "3",
+    "longLasting": "4",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "3",
+    "strong": "5",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "3",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "0",
+    "fair": "2",
+    "goodValue": "4",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TOM FORD",
+      "name": "Ombré Leather Parfum"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Cuir Leather"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Amber & Leather"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "FRAGRANCE WORLD",
@@ -155,5 +196,6 @@
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male Le Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

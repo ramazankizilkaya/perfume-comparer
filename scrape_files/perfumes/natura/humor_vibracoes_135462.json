@@ -1,7 +1,7 @@
 {
   "name": "Humor + Vibrações Natura",
   "targetGender": "kadınlar ve erkekler için",
-  "fragranceFamily": "Gourmand",
+  "fragranceFamily": "Fougere",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.135462.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Natura/Humor-Vibracoes-135462.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Natura markasının Humor + Vibrações parfümü, kadınlar ve erkekler için Aromatik Meyvemsi bir kokudur. Bu yeni bir parfüm. Humor + Vibrações, 2026 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst notalar: Ahududu, Tarçın ve Fesleğen; orta notalar: Lavanta, Yasemin ve Menekşe; alt notalar Misk, Paçuli ve Sedir.",
   "mainAccords": [
     {
-      "name": "meyvemsi",
+      "name": "lavanta",
       "width": "100%"
     },
     {
-      "name": "lavanta",
+      "name": "meyvemsi",
       "width": "100%"
     },
     {
@@ -37,16 +37,44 @@
     {
       "name": "taze baharatlı",
       "width": "46%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.50",
-    "votesCount": "14",
+    "score": "3.40",
+    "votesCount": "15",
     "breakdown": {
       "love": "2",
       "like": "4",
       "ok": "7",
-      "dislike": "1",
+      "dislike": "2",
       "hate": "0"
     }
   },
@@ -77,32 +105,103 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "1",
+    "longLasting": "2",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "5",
+    "moreMale": "2",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Ultra Male"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Beijo de Humor"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "NATURA",
+      "name": "Humor + Confiança"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Luna Absoluta"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ilía Secreto"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor 5"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Maracujá"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Una"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kriska Sonhos"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Beijo de Humor"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor Galáxia"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Nina"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Luna"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor 1"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essencial Exclusivo"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ameixa e Flor de Baunilha"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Hypnotic Poison"
+    }
+  ],
+  "comments": []
 }

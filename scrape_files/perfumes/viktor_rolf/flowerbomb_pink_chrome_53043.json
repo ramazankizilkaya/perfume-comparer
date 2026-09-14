@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Viktor-Rolf/Flowerbomb-Pink-Chrome-53043.html",
   "brand": "Viktor&Rolf parfüm ve kolonya",
   "description": "Viktor&Rolf markasının Flowerbomb Pink Chrome parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Flowerbomb Pink Chrome, 2019 yılında piyasaya sürüldü. Flowerbomb Pink Chrome, Olivier Polge, Carlos Benaïm, Domitille Michalon Bertier ve Dominique Ropion tarafından yaratıldı. Üst notalar: Çay, Bergamot ve Osmanthus; orta notalar: Frezya, Yasemin Sambac, Orkide, Gül ve Portakal çiçeği; alt notalar Paçuli ve Misk.",
-  "description_original": "Viktor&Rolf markasının Flowerbomb Pink Chrome parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Flowerbomb Pink Chrome, 2019 yılında piyasaya sürüldü. Flowerbomb Pink Chrome, Olivier Polge, Carlos Benaïm, Domitille Michalon Bertier ve Dominique Ropion tarafından yaratıldı. Üst notalar: Çay, Bergamot ve Osmanthus; orta notalar: Frezya, Yasemin Sambac, Orkide, Gül ve Portakal çiçeği; alt notalar Paçuli ve Misk.",
+  "description_original": "Viktor&Rolf markasının Flowerbomb Pink Chrome parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Flowerbomb Pink Chrome, 2019 yılında piyasaya sürüldü. Flowerbomb Pink Chrome, Olivier Polge, Carlos Benaïm, Domitille Michalon Bertier ve Dominique Ropion tarafından yaratıldı. Üst notalar: Çay, Bergamot ve Osmanthus; orta notalar: Frezya, Sambac Yasemini, Orkide, Gül ve Portakal çiçeği; alt notalar Paçuli ve Misk.",
   "description_enhanced": "Viktor&Rolf markasının Flowerbomb Pink Chrome parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Flowerbomb Pink Chrome, 2019 yılında piyasaya sürüldü. Flowerbomb Pink Chrome, Olivier Polge, Carlos Benaïm, Domitille Michalon Bertier ve Dominique Ropion tarafından yaratıldı. Üst notalar: Çay, Bergamot ve Osmanthus; orta notalar: Frezya, Yasemin Sambac, Orkide, Gül ve Portakal çiçeği; alt notalar Paçuli ve Misk.",
   "mainAccords": [
     {
@@ -39,16 +39,44 @@
       "width": "57.8409%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "sıcak baharatlı",
       "width": "53.8636%"
     },
     {
-      "name": "sıcak baharatlı",
+      "name": "taze baharatlı",
       "width": "53.8636%"
     },
     {
       "name": "toprak",
       "width": "49.0909%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -78,7 +106,7 @@
     ],
     "middle": [
       "Frezya",
-      "Yasemin Sambac",
+      "Sambac Yasemini",
       "Orkide",
       "Gül",
       "Portakal çiçeği"
@@ -90,31 +118,31 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "0",
+    "longLasting": "2",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "0",
+    "strong": "3",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -178,5 +206,6 @@
       "brand": "GUERLAİN",
       "name": "La Petite Robe Noire"
     }
-  ]
+  ],
+  "comments": []
 }

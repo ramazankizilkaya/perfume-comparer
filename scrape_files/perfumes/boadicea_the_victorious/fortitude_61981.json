@@ -29,6 +29,10 @@
     {
       "name": "sarı çiçeksi",
       "width": "42.963%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -63,57 +67,37 @@
     ],
     "base": [
       "Odunsu Notalar"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "4",
-    "longLasting": "7",
-    "eternal": "7"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "4",
-    "strong": "5",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "12",
-    "moreFemale": "3",
-    "unisex": "3",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "5",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "7",
-    "goodValue": "2",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "PUREDİSTANCE",
-      "name": "Opardu No. 04"
-    },
-    {
-      "brand": "ILLUMİNUM",
-      "name": "White Gardenia Petals"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "Les Parfums Mythiques - Le De Givenchy"
-    },
-    {
-      "brand": "INİTİO PARFUMS PRİVES",
-      "name": "High Frequency"
-    },
-    {
-      "brand": "MONCLER",
-      "name": "Moncler pour Femme"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -175,5 +159,6 @@
       "brand": "BOADİCEA THE VİCTORİOUS",
       "name": "Ardent"
     }
-  ]
+  ],
+  "comments": []
 }

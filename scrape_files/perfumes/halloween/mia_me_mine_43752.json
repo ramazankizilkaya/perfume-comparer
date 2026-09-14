@@ -49,6 +49,34 @@
     {
       "name": "çiçeksi",
       "width": "57.0693%"
+    },
+    {
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,33 +115,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "15",
+    "moderate": "62",
+    "longLasting": "43",
+    "eternal": "18"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "17",
+    "moderate": "62",
+    "strong": "35",
+    "enormous": "24"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "72",
+    "moreFemale": "18",
+    "unisex": "4",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "2",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "43",
+    "greatValue": "15"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Si"
+    },
+    {
+      "brand": "HALLOWEEN",
+      "name": "Mia Me Mine Eau de Toilette"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Si Rose Signature"
+    },
+    {
+      "brand": "LA PERLA",
+      "name": "J'Aime"
+    },
+    {
+      "brand": "HALLOWEEN",
+      "name": "Halloween Kiss"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Les Belles de Ricci Belle de Minuit"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Mon Paris Couture"
+    },
+    {
+      "brand": "AL WATANİAH",
+      "name": "Watani"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani In Love With You"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Elle"
+    },
+    {
+      "brand": "DZİNTARS",
+      "name": "Mežrozīte (Шиповник)"
+    },
+    {
+      "brand": "TORY BURCH",
+      "name": "Love Relentlessly"
+    },
+    {
+      "brand": "ADOLFO DOMİNGUEZ",
+      "name": "Private Collection Mahonia"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Si Rose Signature II Eau de Parfum"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Loud for Her"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GİORGİO ARMANİ",
@@ -175,5 +264,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Armani Code for Women"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Mizensir/Edition-de-Veronique-39212.html",
   "brand": "Mizensir parfüm ve kolonya",
   "description": "Mizensir markasının Edition de Veronique parfümü, kadınlar için bir kokudur. Edition de Veronique, 2015 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Mayıs Gülü ve Yasemin Sambac; orta notalar: Ardıç ve İris; alt notalar Amber ağacı ve Beyaz Misk.",
-  "description_original": "Mizensir markasının Edition de Veronique parfümü, kadınlar için bir kokudur. Edition de Veronique, 2015 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Mayıs Gülü ve Yasemin Sambac; orta notalar: Ardıç ve İris; alt notalar Amber ağacı ve Beyaz Misk.",
+  "description_original": "Mizensir markasının Edition de Veronique parfümü, kadınlar için bir kokudur. Edition de Veronique, 2015 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Mayıs Gülü ve Sambac Yasemini; orta notalar: Ardıç ve İris; alt notalar Amber ağacı ve Beyaz Misk.",
   "description_enhanced": "Mizensir markasının Edition de Veronique parfümü, kadınlar için bir kokudur. Edition de Veronique, 2015 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Mayıs Gülü ve Yasemin Sambac; orta notalar: Ardıç ve İris; alt notalar Amber ağacı ve Beyaz Misk.",
   "mainAccords": [
     {
@@ -35,11 +35,11 @@
       "width": "64.475%"
     },
     {
-      "name": "amber",
+      "name": "beyaz çiçeksi",
       "width": "63.25%"
     },
     {
-      "name": "beyaz çiçeksi",
+      "name": "amber",
       "width": "63.25%"
     },
     {
@@ -49,15 +49,43 @@
     {
       "name": "misk",
       "width": "52.75%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.94",
-    "votesCount": "84",
+    "score": "3.92",
+    "votesCount": "85",
     "breakdown": {
-      "love": "34",
-      "like": "24",
-      "ok": "17",
+      "love": "33",
+      "like": "25",
+      "ok": "18",
       "dislike": "5",
       "hate": "4"
     }
@@ -73,7 +101,7 @@
   "notes": {
     "top": [
       "Mayıs Gülü",
-      "Yasemin Sambac"
+      "Sambac Yasemini"
     ],
     "middle": [
       "Ardıç",
@@ -86,33 +114,82 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "11",
+    "weak": "5",
+    "moderate": "15",
+    "longLasting": "2",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "14",
+    "moderate": "15",
+    "strong": "5",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "13",
+    "moreFemale": "7",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "17",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "9",
+    "overpriced": "9",
+    "fair": "18",
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "STELLA MCCARTNEY",
+      "name": "Stella"
+    },
+    {
+      "brand": "OİLİLY",
+      "name": "Lucky Girl"
+    },
+    {
+      "brand": "OİLİLY",
+      "name": "Blue Sparkle"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Rose Goldea Blossom Delight"
+    },
+    {
+      "brand": "THE MERCHANT OF VENİCE",
+      "name": "My Pearls"
+    },
+    {
+      "brand": "THE BODY SHOP",
+      "name": "British Rose"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Orphéon Eau de Parfum"
+    },
+    {
+      "brand": "BİENAİMÉ",
+      "name": "La Vie en Fleurs"
+    },
+    {
+      "brand": "HOUSE OF BŌ",
+      "name": "Rosario"
+    },
+    {
+      "brand": "LANVİN",
+      "name": "Rumeur"
+    },
+    {
+      "brand": "RÉGİME DES FLEURS",
+      "name": "Glass Blooms"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Rose"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -123,12 +200,12 @@
       "name": "Orphéon Eau de Parfum"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Delina"
-    },
-    {
       "brand": "MİZENSİR",
       "name": "Musc Eternel"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Delina"
     },
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -141,6 +218,10 @@
     {
       "brand": "BYREDO",
       "name": "Bal d'Afrique"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Gris Charnel"
     },
     {
       "brand": "DİPTYQUE",
@@ -163,16 +244,13 @@
       "name": "Portrait of a Lady"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Lipstick Rose"
+      "brand": "CHANEL",
+      "name": "Coco Mademoiselle"
     },
     {
       "brand": "BDK PARFUMS",
       "name": "Pas Сe Soir"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain"
     }
-  ]
+  ],
+  "comments": []
 }

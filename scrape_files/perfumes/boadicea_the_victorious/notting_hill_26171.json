@@ -49,6 +49,10 @@
     {
       "name": "badem",
       "width": "48.421%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -90,77 +94,37 @@
       "Sedir",
       "Misk",
       "Vanilya"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "2",
-    "moderate": "9",
-    "longLasting": "9",
-    "eternal": "10"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "9",
-    "strong": "15",
-    "enormous": "12"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "4",
-    "unisex": "10",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "8",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "MORESQUE",
-      "name": "Oroluna"
-    },
-    {
-      "brand": "LABORATORİO OLFATTİVO",
-      "name": "Nerosa"
-    },
-    {
-      "brand": "BY KİLİAN",
-      "name": "Incense Oud"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Portrait of a Lady"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "Trésor Midnight Rose"
-    },
-    {
-      "brand": "ETRO",
-      "name": "Io Myself"
-    },
-    {
-      "brand": "NİCHEEND",
-      "name": "Mercury"
-    },
-    {
-      "brand": "OLFATTOLOGY",
-      "name": "Kasai"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Intense"
-    },
-    {
-      "brand": "CORETERNO",
-      "name": "Rose And Me"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
@@ -222,5 +186,6 @@
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

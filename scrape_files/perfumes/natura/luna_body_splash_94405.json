@@ -16,38 +16,70 @@
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "69.0698%"
+      "width": "68.1818%"
     },
     {
       "name": "gül",
-      "width": "67.7674%"
-    },
-    {
-      "name": "menekşe",
-      "width": "62.5581%"
-    },
-    {
-      "name": "pudralı",
-      "width": "58.6512%"
+      "width": "67.9272%"
     },
     {
       "name": "çiçeksi",
-      "width": "58.3256%"
+      "width": "55.9636%"
+    },
+    {
+      "name": "menekşe",
+      "width": "55.4544%"
+    },
+    {
+      "name": "pudralı",
+      "width": "53.9274%"
     },
     {
       "name": "meyvemsi",
-      "width": "50.8372%"
+      "width": "52.4001%"
     },
     {
       "name": "taze",
-      "width": "48.2325%"
+      "width": "47.309%"
+    },
+    {
+      "name": "yumuşak baharatlı",
+      "width": "46.0363%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.81",
-    "votesCount": "43",
+    "score": "3.84",
+    "votesCount": "44",
     "breakdown": {
-      "love": "15",
+      "love": "16",
       "like": "12",
       "ok": "10",
       "dislike": "5",
@@ -55,12 +87,12 @@
     }
   },
   "seasons": {
-    "winter": "13",
-    "spring": "19",
-    "summer": "13",
-    "autumn": "13",
-    "day": "21",
-    "night": "11"
+    "winter": "14",
+    "spring": "20",
+    "summer": "14",
+    "autumn": "14",
+    "day": "22",
+    "night": "12"
   },
   "notes": {
     "top": [
@@ -79,33 +111,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "10",
+    "moderate": "7",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "7",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "16",
+    "moreFemale": "4",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "13",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Luna"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Luna Hair"
+    },
+    {
+      "brand": "HALLOWEEN",
+      "name": "Halloween"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -120,16 +165,12 @@
       "name": "Floratta in Rose"
     },
     {
-      "brand": "KENZO",
-      "name": "Flower by Kenzo"
-    },
-    {
       "brand": "LANCÔME",
       "name": "Idôle"
     },
     {
       "brand": "NATURA",
-      "name": "Macadâmia"
+      "name": "Ilía"
     },
     {
       "brand": "NATURA",
@@ -137,7 +178,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Ilía"
+      "name": "Macadâmia"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Flower by Kenzo"
     },
     {
       "brand": "NATURA",
@@ -152,12 +197,12 @@
       "name": "Light Blue"
     },
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Cuide-se Bem Nuvem"
-    },
-    {
       "brand": "AVON",
       "name": "Far Away Glamour"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Cuide-se Bem Nuvem"
     },
     {
       "brand": "NATURA",
@@ -167,5 +212,6 @@
       "brand": "CACHAREL",
       "name": "Amor Amor"
     }
-  ]
+  ],
+  "comments": []
 }

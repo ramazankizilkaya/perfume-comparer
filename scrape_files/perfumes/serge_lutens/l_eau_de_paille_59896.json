@@ -49,14 +49,42 @@
     {
       "name": "sıcak baharatlı",
       "width": "51.096%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.78",
-    "votesCount": "147",
+    "score": "3.79",
+    "votesCount": "150",
     "breakdown": {
       "love": "39",
-      "like": "57",
+      "like": "60",
       "ok": "32",
       "dislike": "18",
       "hate": "1"
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "13",
-    "spring": "43",
-    "summer": "43",
-    "autumn": "29",
-    "day": "42",
+    "spring": "44",
+    "summer": "44",
+    "autumn": "30",
+    "day": "43",
     "night": "13"
   },
   "notes": {
@@ -81,34 +109,79 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "12",
+    "moderate": "35",
+    "longLasting": "9",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "20",
+    "moderate": "35",
+    "strong": "8",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "2",
+    "unisex": "34",
+    "moreMale": "20",
+    "male": "13"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "12",
     "fair": "32",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "L'Eau de Paille"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Bleu de Chanel Eau de Parfum"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Un Bois Sepia"
+    },
+    {
+      "brand": "PİERRE GUİLLAUME PARİS",
+      "name": "Bois Blond"
+    },
+    {
+      "brand": "SİSLEY",
+      "name": "L'Eau Rêvée D'Isa"
+    },
+    {
+      "brand": "COMME DES GARCONS",
+      "name": "Scent Four: Yoyogi"
+    },
+    {
+      "brand": "J.F. SCHWARZLOSE BERLİN",
+      "name": "Fougair"
+    },
+    {
+      "brand": "S.T. DUPONT",
+      "name": "58 Avenue Montaigne pour Homme"
+    },
+    {
+      "brand": "PARFUMS DUSİTA",
+      "name": "Erawan"
+    },
+    {
+      "brand": "FABERLİC",
+      "name": "Viking"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "L'Eau de Paille"
+    },
     {
       "brand": "SERGE LUTENS",
       "name": "Fille en Aiguilles"
@@ -139,11 +212,11 @@
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "L'orpheline"
+      "name": "L'Eau d'Armoise"
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "L'Eau d'Armoise"
+      "name": "L'orpheline"
     },
     {
       "brand": "BY KİLİAN",
@@ -159,15 +232,12 @@
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "Santal Majuscule"
-    },
-    {
-      "brand": "SERGE LUTENS",
       "name": "La Fille de Berlin"
     },
     {
       "brand": "SERGE LUTENS",
       "name": "Baptême du Feu"
     }
-  ]
+  ],
+  "comments": []
 }

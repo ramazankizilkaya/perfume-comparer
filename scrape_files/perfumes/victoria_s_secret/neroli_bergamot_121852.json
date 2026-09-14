@@ -29,14 +29,42 @@
     {
       "name": "çiçeksi",
       "width": "44.875%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.00",
-    "votesCount": "2",
+    "votesCount": "3",
     "breakdown": {
       "love": "1",
-      "like": "0",
+      "like": "1",
       "ok": "1",
       "dislike": "0",
       "hate": "0"
@@ -44,10 +72,10 @@
   },
   "seasons": {
     "winter": "0",
-    "spring": "1",
-    "summer": "2",
+    "spring": "2",
+    "summer": "3",
     "autumn": "2",
-    "day": "2",
+    "day": "3",
     "night": "0"
   },
   "notes": {
@@ -97,5 +125,6 @@
       "name": "Matin Blanc"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

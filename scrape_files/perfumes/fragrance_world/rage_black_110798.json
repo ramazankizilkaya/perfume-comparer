@@ -23,20 +23,16 @@
       "width": "73.5849%"
     },
     {
-      "name": "aromatik",
+      "name": "taze baharatlı",
       "width": "71.6038%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "aromatik",
       "width": "71.6038%"
     },
     {
       "name": "paçuli",
       "width": "69.6226%"
-    },
-    {
-      "name": "bitkisel",
-      "width": "53.7736%"
     },
     {
       "name": "sıcak baharatlı",
@@ -47,8 +43,40 @@
       "width": "53.7736%"
     },
     {
+      "name": "bitkisel",
+      "width": "53.7736%"
+    },
+    {
       "name": "balsamik",
       "width": "52.0566%"
+    },
+    {
+      "name": "Online satın alın 7 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,32 +117,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "HUGO BOSS",
+      "name": "Hugo Just Different"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel Blush"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

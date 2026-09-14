@@ -93,54 +93,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "10",
-    "weak": "4",
-    "moderate": "4",
-    "longLasting": "8",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "4",
-    "strong": "13",
-    "enormous": "10"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "1",
-    "unisex": "6",
-    "moreMale": "1",
-    "male": "2"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "7",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Fol Arôme"
-    },
-    {
-      "brand": "CARON",
-      "name": "Aimez - Moi"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Après L'Ondée Eau de Toilette"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "L'Heure Bleue Eau de Toilette"
-    },
-    {
-      "brand": "GROSSMİTH",
-      "name": "Diamond Jubilee Bouquet"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -157,10 +136,6 @@
     {
       "brand": "GUERLAİN",
       "name": "Iris Torréfié"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "L'Heure de Nuit"
     },
     {
       "brand": "GUERLAİN",
@@ -183,6 +158,10 @@
       "name": "Musc Ravageur"
     },
     {
+      "brand": "TAUER PERFUMES",
+      "name": "02 L'Air du Desert Marocain"
+    },
+    {
       "brand": "GUERLAİN",
       "name": "Cuir Béluga"
     },
@@ -202,5 +181,6 @@
       "brand": "GUERLAİN",
       "name": "Angélique Noire"
     }
-  ]
+  ],
+  "comments": []
 }

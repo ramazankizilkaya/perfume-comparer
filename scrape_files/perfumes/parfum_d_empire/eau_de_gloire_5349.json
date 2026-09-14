@@ -2,7 +2,7 @@
   "name": "Eau de Gloire Parfum d'Empire",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Aromatic",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.5349.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Parfum-d-Empire/Eau-de-Gloire-5349.html",
   "brand": "Parfum d'Empire parfüm ve kolonya",
@@ -16,58 +16,86 @@
     },
     {
       "name": "taze baharatlı",
-      "width": "97.572%"
+      "width": "97.621%"
     },
     {
       "name": "narenciye",
-      "width": "92.9966%"
+      "width": "93.0247%"
     },
     {
       "name": "tatlı",
-      "width": "81.1954%"
+      "width": "80.7331%"
     },
     {
       "name": "bitkisel",
-      "width": "77.6643%"
+      "width": "77.4947%"
     },
     {
       "name": "yumuşak baharatlı",
-      "width": "76.0337%"
+      "width": "75.1272%"
     },
     {
       "name": "deri",
-      "width": "73.7341%"
+      "width": "73.9202%"
     },
     {
       "name": "tütün",
-      "width": "68.8537%"
+      "width": "69.0679%"
     },
     {
       "name": "anason",
-      "width": "65.8745%"
+      "width": "65.1916%"
     },
     {
       "name": "lavanta",
-      "width": "63.3166%"
+      "width": "62.7312%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.03",
-    "votesCount": "470",
+    "votesCount": "475",
     "breakdown": {
-      "love": "161",
-      "like": "220",
-      "ok": "35",
+      "love": "163",
+      "like": "221",
+      "ok": "37",
       "dislike": "48",
       "hate": "6"
     }
   },
   "seasons": {
     "winter": "42",
-    "spring": "134",
-    "summer": "91",
-    "autumn": "127",
-    "day": "142",
+    "spring": "138",
+    "summer": "92",
+    "autumn": "129",
+    "day": "144",
     "night": "50"
   },
   "notes": {
@@ -96,33 +124,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "25",
+    "moderate": "52",
+    "longLasting": "63",
+    "eternal": "16"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "33",
+    "moderate": "52",
+    "strong": "36",
+    "enormous": "24"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "31",
+    "moreMale": "45",
+    "male": "32"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "35",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "7",
+    "overpriced": "12",
+    "fair": "37",
+    "goodValue": "18",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HERMÈS",
+      "name": "Bel Ami"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Bel Ami Vetiver"
+    },
+    {
+      "brand": "PARFUM D'EMPİRE",
+      "name": "Eau de Gloire Cologne"
+    },
+    {
+      "brand": "CARON",
+      "name": "Le 3e Homme de Caron"
+    },
+    {
+      "brand": "ETAT LİBRE D'ORANGE",
+      "name": "Je Suis un Homme"
+    },
+    {
+      "brand": "ROBERTO GRECO",
+      "name": "Oeilleres L'Objet Parfumant"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Colonia Intensa"
+    },
+    {
+      "brand": "GUY LAROCHE",
+      "name": "Horizon"
+    },
+    {
+      "brand": "MOTİF OLFACTİF",
+      "name": "Murmure Chypré"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Mystic Aromatic"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Ô de Lancôme"
+    },
+    {
+      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
+      "name": "Cuir Cuba Intense"
+    },
+    {
+      "brand": "GRÈS",
+      "name": "Cabochard Eau de Parfum 2019"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Eau Sauvage Fraicheur Cuir"
+    },
+    {
+      "brand": "SİSLEY",
+      "name": "Eau de Campagne"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -170,11 +259,11 @@
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "Ambre Sultan"
+      "name": "Chergui"
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "Chergui"
+      "name": "Ambre Sultan"
     },
     {
       "brand": "L'ARTİSAN PARFUMEUR",
@@ -184,5 +273,6 @@
       "brand": "PARFUM D'EMPİRE",
       "name": "Ambre Russe"
     }
-  ]
+  ],
+  "comments": []
 }

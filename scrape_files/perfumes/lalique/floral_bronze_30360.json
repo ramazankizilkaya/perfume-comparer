@@ -49,6 +49,34 @@
     {
       "name": "çiçeksi",
       "width": "50.0538%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "4",
+    "moderate": "19",
+    "longLasting": "11",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "19",
+    "strong": "30",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "7",
+    "unisex": "11",
+    "moreMale": "1",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "4",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Caban"
+    },
+    {
+      "brand": "MİLLER HARRİS",
+      "name": "Scherzo"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Aqua Allegoria Pivoine Magnifica"
+    },
+    {
+      "brand": "COSTUME NATIONAL",
+      "name": "Scent"
+    },
+    {
+      "brand": "LAURENT MAZZONE PARFUMS",
+      "name": "Radikal Lotus"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Périlleusement Vôtre"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -139,6 +192,10 @@
     {
       "brand": "DİOR",
       "name": "Hypnotic Poison"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Musc Ravageur"
     },
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -171,10 +228,7 @@
     {
       "brand": "SERGE LUTENS",
       "name": "Ambre Sultan"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Fève Délicieuse"
     }
-  ]
+  ],
+  "comments": []
 }

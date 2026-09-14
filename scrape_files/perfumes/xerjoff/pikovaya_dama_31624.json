@@ -49,14 +49,42 @@
     {
       "name": "vanilya",
       "width": "57.1844%"
+    },
+    {
+      "name": "Online satın alın 20 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.09",
-    "votesCount": "282",
+    "votesCount": "283",
     "breakdown": {
       "love": "148",
-      "like": "66",
+      "like": "67",
       "ok": "20",
       "dislike": "41",
       "hate": "7"
@@ -94,33 +122,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "11",
+    "weak": "10",
+    "moderate": "16",
+    "longLasting": "37",
+    "eternal": "72"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "26",
+    "moderate": "16",
+    "strong": "67",
+    "enormous": "79"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "30",
+    "moreFemale": "13",
+    "unisex": "23",
+    "moreMale": "5",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "29",
+    "overpriced": "20",
     "fair": "20",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "XERJOFF",
+      "name": "Pikovaya Dama 2018"
+    },
+    {
+      "brand": "FRAGRANCE DU BOİS",
+      "name": "Heritage"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Madame Rochas"
+    },
+    {
+      "brand": "LUBİN",
+      "name": "Nuit de Longchamp"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Fatal Charme"
+    },
+    {
+      "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
+      "name": "Красная Москва (Red Moscow)"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Caleche"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "Queen of Spades"
+    },
+    {
+      "brand": "ROYAL CROWN",
+      "name": "Poudre de Fleurs"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chanel No 5 Eau Premiere (2015)"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Les Exclusifs de Chanel Misia"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Magie Noire"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chanel No 5 Eau de Parfum"
+    },
+    {
+      "brand": "BALMAİN BEAUTY",
+      "name": "Ivoire de Balmain"
+    },
+    {
+      "brand": "JEAN COUTURİER",
+      "name": "Coriandre"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
@@ -182,5 +271,6 @@
       "brand": "AMOUAGE",
       "name": "Jubilation XXV Man"
     }
-  ]
+  ],
+  "comments": []
 }

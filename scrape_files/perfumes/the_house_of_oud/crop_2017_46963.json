@@ -45,6 +45,34 @@
     {
       "name": "çiçeksi",
       "width": "45.3005%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,33 +107,70 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "10",
+    "longLasting": "11",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "10",
+    "strong": "11",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "7",
+    "moreMale": "5",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "7",
     "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BORNTOSTANDOUT®",
+      "name": "Sex & Cognac"
+    },
+    {
+      "brand": "NİCHEEND",
+      "name": "Asteroid"
+    },
+    {
+      "brand": "SANTA MARİA NOVELLA",
+      "name": "Marescialla"
+    },
+    {
+      "brand": "ROBERT PİGUET",
+      "name": "Oud"
+    },
+    {
+      "brand": "GOLDFİELD & BANKS AUSTRALİA",
+      "name": "Silky Woods Elixir"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "L'Eau Trois Eau de Toilette"
+    },
+    {
+      "brand": "DS&DURGA",
+      "name": "Mississippi Medicine"
+    },
+    {
+      "brand": "OLFACTİVE STUDİO",
+      "name": "Lumière Blanche"
+    },
+    {
+      "brand": "DS&DURGA",
+      "name": "Bowmakers"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -149,6 +214,10 @@
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Musc Ravageur"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "French Lover"
     },
     {
@@ -162,10 +231,7 @@
     {
       "brand": "NASOMATTO",
       "name": "Baraonda"
-    },
-    {
-      "brand": "LALİQUE",
-      "name": "Encre Noire"
     }
-  ]
+  ],
+  "comments": []
 }

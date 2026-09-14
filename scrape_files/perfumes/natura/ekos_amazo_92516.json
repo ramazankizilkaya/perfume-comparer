@@ -16,42 +16,70 @@
     },
     {
       "name": "yeşil",
-      "width": "69.375%"
+      "width": "72%"
     },
     {
       "name": "tatlı",
-      "width": "67.6251%"
+      "width": "67.8001%"
     },
     {
       "name": "odunsu",
-      "width": "60.625%"
+      "width": "61.9999%"
     },
     {
       "name": "pudralı",
-      "width": "58.4375%"
+      "width": "60%"
     },
     {
       "name": "misk",
-      "width": "56.2498%"
+      "width": "58%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.24",
-    "votesCount": "96",
+    "score": "4.20",
+    "votesCount": "106",
     "breakdown": {
-      "love": "48",
-      "like": "30",
-      "ok": "11",
+      "love": "50",
+      "like": "34",
+      "ok": "15",
       "dislike": "7",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "11",
-    "spring": "47",
-    "summer": "51",
-    "autumn": "22",
-    "day": "54",
+    "spring": "51",
+    "summer": "58",
+    "autumn": "23",
+    "day": "61",
     "night": "14"
   },
   "notes": {
@@ -66,33 +94,66 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "21",
+    "weak": "23",
+    "moderate": "21",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "45",
+    "moderate": "21",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "41",
+    "moreFemale": "9",
+    "unisex": "11",
+    "moreMale": "0",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "11",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "4",
+    "overpriced": "3",
+    "fair": "15",
+    "goodValue": "34",
+    "greatValue": "12"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Moça"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Água de Banho Cheiro de Moça Bonita"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essência de Moça"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Cèdre Secret"
+    },
+    {
+      "brand": "L’OCCİTANE AU BRÉSİL",
+      "name": "Brésil Brisa Reconfortante"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Peonia Nobile"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Holy Peony"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "Mademoiselle"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -116,11 +177,15 @@
     },
     {
       "brand": "NATURA",
-      "name": "Luna Intenso"
+      "name": "Humor 1"
     },
     {
       "brand": "NATURA",
-      "name": "Humor 1"
+      "name": "Una Artisan"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Floratta in Rose"
     },
     {
       "brand": "NATURA",
@@ -128,31 +193,28 @@
     },
     {
       "brand": "NATURA",
-      "name": "Una Artisan"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Kriska Drama"
-    },
-    {
-      "brand": "NATURA",
       "name": "Luna"
     },
     {
       "brand": "NATURA",
-      "name": "Biografia"
+      "name": "Cereja e Avelã"
     },
     {
       "brand": "NATURA",
       "name": "Aura Alba"
     },
     {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue"
+      "brand": "NATURA",
+      "name": "Essencial Exclusivo Floral"
     },
     {
       "brand": "NATURA",
-      "name": "Essencial Exclusivo Floral"
+      "name": "Frescor de Cacau"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ilía"
     }
-  ]
+  ],
+  "comments": []
 }

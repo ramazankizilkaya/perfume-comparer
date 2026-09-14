@@ -49,13 +49,41 @@
     {
       "name": "pudralı",
       "width": "69.352%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.72",
-    "votesCount": "108",
+    "score": "3.73",
+    "votesCount": "109",
     "breakdown": {
-      "love": "32",
+      "love": "33",
       "like": "44",
       "ok": "3",
       "dislike": "28",
@@ -92,33 +120,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "4",
+    "moderate": "7",
+    "longLasting": "16",
+    "eternal": "26"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "7",
+    "strong": "24",
+    "enormous": "30"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "9",
+    "moreMale": "4",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "6",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JARDİNS D’ECRİVAİNS",
+      "name": "George"
+    },
+    {
+      "brand": "HOUSE OF MATRİARCH",
+      "name": "Woo"
+    },
+    {
+      "brand": "HOUSE OF MATRİARCH",
+      "name": "The Maj"
+    },
+    {
+      "brand": "HENRY JACQUES",
+      "name": "Fleur et Papillon"
+    },
+    {
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Seville a l'Aube"
+    },
+    {
+      "brand": "BORTNİKOFF",
+      "name": "Classica"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Diaghilev"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Cuir Cannage"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Eros Eau de Parfum"
+    },
+    {
+      "brand": "LUSH",
+      "name": "Time of the Season"
+    },
+    {
+      "brand": "FRANCESCA BİANCHİ",
+      "name": "Etruscan Water"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
@@ -173,12 +246,13 @@
       "name": "A*Men Pure Havane"
     },
     {
-      "brand": "SERGE LUTENS",
-      "name": "Ambre Sultan"
-    },
-    {
       "brand": "NASOMATTO",
       "name": "Black Afgano"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Ambre Sultan"
     }
-  ]
+  ],
+  "comments": []
 }

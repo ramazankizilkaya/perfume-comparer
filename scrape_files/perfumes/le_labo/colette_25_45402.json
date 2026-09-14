@@ -23,16 +23,44 @@
       "width": "61.1111%"
     },
     {
-      "name": "narenciye",
+      "name": "odunsu",
       "width": "57.2222%"
     },
     {
-      "name": "odunsu",
+      "name": "narenciye",
       "width": "57.2222%"
     },
     {
       "name": "iris",
       "width": "45.5556%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -47,7 +75,7 @@
     }
   },
   "seasons": {
-    "winter": "2",
+    "winter": "3",
     "spring": "4",
     "summer": "0",
     "autumn": "4",
@@ -67,33 +95,38 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "3",
+    "longLasting": "3",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "3",
+    "strong": "4",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "French Lover"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİPTYQUE",
@@ -120,24 +153,24 @@
       "name": "Monsieur"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Straight to Heaven"
-    },
-    {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Carnal Flower"
-    },
-    {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Baccarat Rouge 540"
     },
     {
       "brand": "ROJA DOVE",
       "name": "Elysium Pour Homme Parfum Cologne"
     },
     {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Baccarat Rouge 540"
+    },
+    {
       "brand": "AMOUAGE",
       "name": "Interlude Man"
+    },
+    {
+      "brand": "PARFUMS DUSİTA",
+      "name": "Issara"
     },
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -155,5 +188,6 @@
       "brand": "NASOMATTO",
       "name": "Pardon"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -45,14 +45,42 @@
     {
       "name": "sıcak baharatlı",
       "width": "47.3964%"
+    },
+    {
+      "name": "Online satın alın 7 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.92",
-    "votesCount": "340",
+    "votesCount": "341",
     "breakdown": {
       "love": "102",
-      "like": "162",
+      "like": "163",
       "ok": "31",
       "dislike": "37",
       "hate": "8"
@@ -61,9 +89,9 @@
   "seasons": {
     "winter": "25",
     "spring": "162",
-    "summer": "170",
+    "summer": "171",
     "autumn": "68",
-    "day": "171",
+    "day": "172",
     "night": "64"
   },
   "notes": {
@@ -86,33 +114,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "22",
+    "moderate": "114",
+    "longLasting": "55",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "26",
+    "moderate": "114",
+    "strong": "60",
+    "enormous": "28"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "11",
+    "moreMale": "27",
+    "male": "89"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "8",
     "fair": "31",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "55",
+    "greatValue": "10"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ROJA DOVE",
+      "name": "Elysium Pour Homme Parfum Cologne"
+    },
+    {
+      "brand": "JOHN VARVATOS",
+      "name": "JV x NJ"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Hugo Reversed"
+    },
+    {
+      "brand": "B NEVER TOO BUSY TO BE BEAUTİFUL",
+      "name": "1000 Kisses Deep"
+    },
+    {
+      "brand": "CREED",
+      "name": "Spice and Wood"
+    },
+    {
+      "brand": "ANTONİO BANDERAS",
+      "name": "Blue Seduction"
+    },
+    {
+      "brand": "KENNETH COLE",
+      "name": "Mankind Legacy"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Eternity for Men Intense"
+    },
+    {
+      "brand": "ERMENEGİLDO ZEGNA",
+      "name": "Uomo"
+    },
+    {
+      "brand": "MİCHAEL JORDAN",
+      "name": "Michael Jordan"
+    },
+    {
+      "brand": "MERCEDES-BENZ",
+      "name": "Mercedes-Benz"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Moschino Forever Sailing"
+    },
+    {
+      "brand": "PERRY ELLİS",
+      "name": "Perry Ellis Eau de Toilette For Men"
+    },
+    {
+      "brand": "JİMMY CHOO",
+      "name": "Jimmy Choo Man Ice"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Solo Loewe"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -174,5 +263,6 @@
       "brand": "CHANEL",
       "name": "Allure Homme Sport"
     }
-  ]
+  ],
+  "comments": []
 }

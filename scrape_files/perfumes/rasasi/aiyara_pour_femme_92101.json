@@ -27,11 +27,11 @@
       "width": "72%"
     },
     {
-      "name": "amber",
+      "name": "misk",
       "width": "65%"
     },
     {
-      "name": "misk",
+      "name": "amber",
       "width": "65%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "taze",
       "width": "49.25%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,7 @@
     }
   },
   "seasons": {
-    "winter": "2",
+    "winter": "3",
     "spring": "5",
     "summer": "5",
     "autumn": "5",
@@ -109,7 +137,7 @@
   },
   "priceVoting": {
     "wayOverpriced": "0",
-    "overpriced": "1",
+    "overpriced": "2",
     "fair": "3",
     "goodValue": "1",
     "greatValue": "6"
@@ -130,12 +158,28 @@
       "name": "Shine"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "Eternal Musk"
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Ahmar"
     },
     {
-      "brand": "AJMAL",
-      "name": "Viola"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Musk Mood"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "FAYORA"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Noble Blush"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club de Nuit White Imperiale"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Forbidden Sugar"
     },
     {
       "brand": "MAİSON ALHAMBRA",
@@ -146,32 +190,20 @@
       "name": "Junoon Noir"
     },
     {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Junoon"
+      "brand": "ARMAF",
+      "name": "Le Femme"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Candid Tonight"
-    },
-    {
-      "brand": "ELİZABETH ARDEN",
-      "name": "Arden Beauty"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ansaam Gold"
     },
     {
       "brand": "DİOR",
       "name": "J'adore"
     },
     {
-      "brand": "ARABİYAT PRESTİGE",
-      "name": "Blueberry Musk"
-    },
-    {
       "brand": "PARIS CORNER",
       "name": "December Vanilla"
-    },
-    {
-      "brand": "SAPİL",
-      "name": "Caresse"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -180,10 +212,7 @@
     {
       "brand": "PARIS CORNER",
       "name": "Voux Patisserie"
-    },
-    {
-      "brand": "RASASİ",
-      "name": "La Yuqawam Jasmine Wisp"
     }
-  ]
+  ],
+  "comments": []
 }

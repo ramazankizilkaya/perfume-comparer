@@ -82,58 +82,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "2",
-    "longLasting": "3",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "2",
-    "strong": "7",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Orris & Sandalwood"
-    },
-    {
-      "brand": "VERA WANG",
-      "name": "Embrace Periwinkle & Iris"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Violet & Amber Absolu"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dior Homme"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "If You Musk"
-    },
-    {
-      "brand": "HİSTOİRES DE PARFUMS",
-      "name": "1905 Madame Butterfly Puccini"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JO MALONE LONDON",
@@ -153,11 +128,11 @@
     },
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Baccarat Rouge 540"
+      "name": "Baccarat Rouge 540 Extrait de Parfum"
     },
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Baccarat Rouge 540 Extrait de Parfum"
+      "name": "Baccarat Rouge 540"
     },
     {
       "brand": "TOM FORD",
@@ -195,5 +170,6 @@
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Carnal Flower"
     }
-  ]
+  ],
+  "comments": []
 }

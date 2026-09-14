@@ -49,6 +49,34 @@
     {
       "name": "deri",
       "width": "44.8234%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -66,8 +94,8 @@
     "winter": "6",
     "spring": "6",
     "summer": "2",
-    "autumn": "5",
-    "day": "2",
+    "autumn": "6",
+    "day": "3",
     "night": "6"
   },
   "notes": {
@@ -88,18 +116,18 @@
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
-    "moderate": "3",
+    "moderate": "4",
     "longLasting": "3",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
-    "moderate": "3",
-    "strong": "1",
+    "moderate": "4",
+    "strong": "2",
     "enormous": "2"
   },
   "genderVoting": {
-    "female": "0",
+    "female": "2",
     "moreFemale": "1",
     "unisex": "5",
     "moreMale": "1",
@@ -118,12 +146,16 @@
       "name": "Delina Exclusif"
     },
     {
+      "brand": "ZARA",
+      "name": "Rose Gourmand For Her"
+    },
+    {
       "brand": "MİND GAMES",
       "name": "Prodigy"
     },
     {
-      "brand": "ZARA",
-      "name": "Rose Gourmand For Her"
+      "brand": "PENHALİGON'S",
+      "name": "The Coveted Duchess Rose Eau de Parfum Intense"
     },
     {
       "brand": "MONTALE",
@@ -215,5 +247,6 @@
       "brand": "ISSEY MİYAKE",
       "name": "L'Eau d'Issey Pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

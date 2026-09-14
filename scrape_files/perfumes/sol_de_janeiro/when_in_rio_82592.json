@@ -49,6 +49,34 @@
     {
       "name": "taze",
       "width": "46.8436%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,33 +114,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "10",
+    "weak": "25",
+    "moderate": "22",
+    "longLasting": "4",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "22",
+    "strong": "4",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "60",
+    "moreFemale": "6",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "5",
     "fair": "18",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "25",
+    "greatValue": "15"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HANAE MORİ",
+      "name": "Butterfly – Hanae Mori"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Desert Lily"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Pink Suede"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born In Roma"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "In The Sun"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Amber Romance"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl Gold Fantasy"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Mod Blush"
+    },
+    {
+      "brand": "LAURA MERCİER",
+      "name": "Ambre Vanille Eau de Parfum"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Flor Mística"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Amor Amor"
+    },
+    {
+      "brand": "AQUOLİNA",
+      "name": "Pink Sugar"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Dark Kiss"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Amber Wood"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SOL DE JANEİRO",
@@ -174,5 +263,6 @@
       "brand": "SOL DE JANEİRO",
       "name": "Bikini Season"
     }
-  ]
+  ],
+  "comments": []
 }

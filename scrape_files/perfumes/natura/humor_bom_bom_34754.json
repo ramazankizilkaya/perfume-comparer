@@ -49,6 +49,34 @@
     {
       "name": "amber",
       "width": "46.9355%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -94,33 +122,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "4",
+    "moderate": "26",
+    "longLasting": "13",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "26",
+    "strong": "16",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "14",
+    "moreFemale": "4",
+    "unisex": "5",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "10",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Egeo Choc"
+    },
+    {
+      "brand": "AXE",
+      "name": "Dark Temptation"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Goddess"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Cuir de Nuit"
+    },
+    {
+      "brand": "AVON",
+      "name": "Soft Musk Delice Fleur de Chocolate"
+    },
+    {
+      "brand": "QUEM DİSSE BERENİCE",
+      "name": "Seja Como Flor"
+    },
+    {
+      "brand": "AVON",
+      "name": "Attraction Game For Her"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor Estelar"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Egeo Choc High"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MUGLER",
@@ -182,5 +247,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue"
     }
-  ]
+  ],
+  "comments": []
 }

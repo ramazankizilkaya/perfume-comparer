@@ -17,6 +17,34 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "Online satın alın 41 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -47,33 +75,46 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "2",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "4",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JUNAİD JAMSHED",
+      "name": "Oudh Qadim"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Red Aoud"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Rakaan"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -135,5 +176,6 @@
       "brand": "RASASİ",
       "name": "La Yuqawam Homme"
     }
-  ]
+  ],
+  "comments": []
 }

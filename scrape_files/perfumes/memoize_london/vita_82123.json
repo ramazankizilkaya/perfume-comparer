@@ -49,14 +49,42 @@
     {
       "name": "çiçeksi",
       "width": "50.6314%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.31",
+    "score": "3.28",
     "votesCount": "29",
     "breakdown": {
-      "love": "5",
-      "like": "10",
+      "love": "4",
+      "like": "11",
       "ok": "6",
       "dislike": "5",
       "hate": "3"
@@ -96,33 +124,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "0",
+    "moderate": "2",
+    "longLasting": "6",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "2",
+    "strong": "4",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "3",
+    "unisex": "6",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "5",
     "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Baccarat Rouge 540 Extrait de Parfum"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Delina Exclusif"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Atomic Rose"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BDK PARFUMS",
@@ -131,10 +172,6 @@
     {
       "brand": "TOM FORD",
       "name": "Black Orchid"
-    },
-    {
-      "brand": "BDK PARFUMS",
-      "name": "Gris Charnel Extrait"
     },
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -165,6 +202,10 @@
       "name": "Memoirs Of A Trespasser"
     },
     {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "1889 Moulin Rouge"
+    },
+    {
       "brand": "VİLHELM PARFUMERİE",
       "name": "Poets of Berlin"
     },
@@ -177,12 +218,13 @@
       "name": "One Umbrella for Two"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Black Opium"
-    },
-    {
       "brand": "NOBİLE 1942",
       "name": "La Danza delle Libellule"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
     }
-  ]
+  ],
+  "comments": []
 }

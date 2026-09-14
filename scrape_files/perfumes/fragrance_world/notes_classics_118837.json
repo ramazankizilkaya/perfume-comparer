@@ -49,26 +49,54 @@
     {
       "name": "dumanlı",
       "width": "51.0001%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.34",
-    "votesCount": "38",
+    "score": "3.36",
+    "votesCount": "39",
     "breakdown": {
       "love": "5",
-      "like": "17",
+      "like": "18",
       "ok": "7",
       "dislike": "4",
       "hate": "5"
     }
   },
   "seasons": {
-    "winter": "20",
+    "winter": "21",
     "spring": "8",
     "summer": "0",
-    "autumn": "19",
+    "autumn": "22",
     "day": "5",
-    "night": "15"
+    "night": "16"
   },
   "notes": {
     "top": [
@@ -86,33 +114,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "11",
+    "longLasting": "5",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "11",
+    "strong": "3",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "12",
+    "moreMale": "5",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "11"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ROOM 1015",
+      "name": "Cherry Punk"
+    },
+    {
+      "brand": "NOBİLE 1942",
+      "name": "Rudis"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Chaos"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -152,19 +193,15 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah Dukhan"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
       "name": "Qaa'ed"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "La Collection d'antiquités 1505"
+      "name": "Khamrah Dukhan"
     },
     {
-      "brand": "FRAGRANCE WORLD",
-      "name": "Notes Jazz"
+      "brand": "LATTAFA PERFUMES",
+      "name": "La Collection d'antiquités 1505"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -173,6 +210,11 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Victoria"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Notes Jazz"
     }
-  ]
+  ],
+  "comments": []
 }

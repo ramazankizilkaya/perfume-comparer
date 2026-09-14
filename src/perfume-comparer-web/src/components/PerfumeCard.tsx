@@ -37,8 +37,8 @@ export function PerfumeCard({ perfume }: { perfume: PerfumeCardData }) {
     return (
         <article className="card card-clean">
             <div className="card-media">
-                <Link href={href} className="card-media-link" aria-label={perfume.name}>
-                    <img src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt={perfume.name} loading="lazy" />
+                <Link href={href} className="card-media-link" aria-label={`${perfume.brand.name} ${perfume.name}`}>
+                    <img src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt={`${perfume.brand.name} ${perfume.name} parfümü`} loading="lazy" />
                 </Link>
                 <div className="card-hover-actions">
                     <FavButton perfume={ref} className="card-action-btn" />
@@ -78,8 +78,8 @@ export function PerfumeRank({ perfume, rank }: { perfume: PerfumeCardData; rank:
     return (
         <div className="rank-row">
             <span className="rank-num">{rank}</span>
-            <Link href={href} aria-label={perfume.name}>
-                <img className="rank-thumb" src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt="" loading="lazy" />
+            <Link href={href} aria-label={`${perfume.brand.name} ${perfume.name}`}>
+                <img className="rank-thumb" src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt={`${perfume.brand.name} ${perfume.name} şişesi`} loading="lazy" />
             </Link>
             <div className="rank-body">
                 <Link href={href} className="rank-name">

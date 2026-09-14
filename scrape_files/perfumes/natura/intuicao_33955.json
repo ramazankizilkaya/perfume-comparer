@@ -49,14 +49,42 @@
     {
       "name": "yeşil",
       "width": "49.3612%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.25",
-    "votesCount": "249",
+    "votesCount": "250",
     "breakdown": {
       "love": "133",
-      "like": "72",
+      "like": "73",
       "ok": "24",
       "dislike": "14",
       "hate": "6"
@@ -65,9 +93,9 @@
   "seasons": {
     "winter": "79",
     "spring": "75",
-    "summer": "37",
+    "summer": "38",
     "autumn": "95",
-    "day": "78",
+    "day": "79",
     "night": "85"
   },
   "notes": {
@@ -93,38 +121,59 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "8",
+    "moderate": "57",
+    "longLasting": "74",
+    "eternal": "15"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "57",
+    "strong": "90",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "84",
+    "moreFemale": "23",
+    "unisex": "11",
+    "moreMale": "3",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "2",
     "fair": "24",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "52",
+    "greatValue": "24"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
-      "brand": "NATURA",
-      "name": "Essencial Exclusivo Floral"
+      "brand": "CACHAREL",
+      "name": "Anais Anais"
     },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Annete"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Annete Forever"
+    },
+    {
+      "brand": "GALE HAYMAN",
+      "name": "Delicious Feelings"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Gabrielle"
+    },
+    {
+      "brand": "JEQUİTİ",
+      "name": "Sublime"
+    }
+  ],
+  "peopleAlsoLike": [
     {
       "brand": "DİOR",
       "name": "J'adore"
@@ -132,6 +181,10 @@
     {
       "brand": "O BOTİCÁRİO",
       "name": "Accordes Harmonia"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ilía Dual"
     },
     {
       "brand": "NATURA",
@@ -181,5 +234,6 @@
       "brand": "NATURA",
       "name": "Una Senses"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "beyaz çiçeksi",
       "width": "56.7303%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "1",
+    "moderate": "2",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "2",
+    "strong": "3",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DEMETER FRAGRANCE",
+      "name": "Never Lonely"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Ultraviolet Liquid Metal for Woman"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'eau d'Issey"
+    },
+    {
+      "brand": "PRESCRİPTİVES",
+      "name": "Calyx"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Murakami Blue"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -176,5 +225,6 @@
       "brand": "GUERLAİN",
       "name": "Shalimar Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

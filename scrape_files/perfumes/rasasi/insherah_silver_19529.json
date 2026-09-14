@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Insherah-Silver-19529.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Insherah Silver parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Üst notalar: Bergamot, Safran ve Kakule; orta notalar: Gül ve Yasemin; alt notalar Odunsu Notlar, Misk ve Amber.",
-  "description_original": "Rasasi markasının Insherah Silver parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Üst notalar: Bergamot, Safran ve Kakule; orta notalar: Gül ve Yasemin; alt notalar Odunsu Notlar, Misk ve Amber.",
+  "description_original": "Rasasi markasının Insherah Silver parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Üst notalar: Bergamot, Safran ve Kakule; orta notalar: Gül ve Yasemin; alt notalar Odunsu Notalar, Misk ve Amber.",
   "description_enhanced": "Rasasi markasının Insherah Silver parfümü, kadınlar ve erkekler için Odunsu Baharatlı bir kokudur. Üst notalar: Bergamot, Safran ve Kakule; orta notalar: Gül ve Yasemin; alt notalar Odunsu Notlar, Misk ve Amber.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "çiçeksi",
       "width": "59.6154%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -81,40 +109,45 @@
       "Yasemin"
     ],
     "base": [
-      "Odunsu Notlar",
+      "Odunsu Notalar",
       "Misk",
       "Amber"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "3",
+    "longLasting": "3",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "3",
+    "strong": "5",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HOUSE OF SİLLAGE",
+      "name": "Wednesday"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -176,5 +209,6 @@
       "brand": "ALREHAB PERFUMES",
       "name": "Soft"
     }
-  ]
+  ],
+  "comments": []
 }

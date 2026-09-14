@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Marjan-106973.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Marjan parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Bu yeni bir parfüm. Marjan, 2024 yılında piyasaya sürüldü. Üst notalar: Hindistan cevizi suyu, Şeftali, Greyfurt ve Safran; orta notalar: Sümbülteber ve Manolya; alt notalar Ambroksan, Vetiver ve Amber.",
-  "description_original": "Rasasi markasının Marjan parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Bu yeni bir parfüm. Marjan, 2024 yılında piyasaya sürüldü. Üst notalar: Hindistan cevizi suyu, Şeftali, Greyfurt ve Safran; orta notalar: Sümbülteber ve Manolya; alt notalar Ambroksan, Vetiver ve Amber.",
+  "description_original": "Rasasi markasının Marjan parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Bu yeni bir parfüm. Marjan, 2024 yılında piyasaya sürüldü. Üst notalar: Hindistan cevizi suyu, Beyaz Şeftali, Greyfurt ve Safran; orta notalar: Sümbülteber ve Manolya; alt notalar Ambroksan, Vetiver ve Amber.",
   "description_enhanced": "Rasasi markasının Marjan parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Bu yeni bir parfüm. Marjan, 2024 yılında piyasaya sürüldü. Üst notalar: Hindistan cevizi suyu, Şeftali, Greyfurt ve Safran; orta notalar: Sümbülteber ve Manolya; alt notalar Ambroksan, Vetiver ve Amber.",
   "mainAccords": [
     {
@@ -19,11 +19,11 @@
       "width": "79.0002%"
     },
     {
-      "name": "çiçeksi",
+      "name": "tüberöz",
       "width": "65%"
     },
     {
-      "name": "tüberöz",
+      "name": "çiçeksi",
       "width": "65%"
     },
     {
@@ -43,12 +43,40 @@
       "width": "56.2499%"
     },
     {
+      "name": "odunsu",
+      "width": "54.4999%"
+    },
+    {
       "name": "toprak",
       "width": "54.4999%"
     },
     {
-      "name": "odunsu",
-      "width": "54.4999%"
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,7 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "1",
     "summer": "0",
     "autumn": "1",
@@ -73,7 +101,7 @@
   "notes": {
     "top": [
       "Hindistan cevizi suyu",
-      "Şeftali",
+      "Beyaz Şeftali",
       "Greyfurt",
       "Safran"
     ],
@@ -89,32 +117,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Valaya"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Flores Flor de Pêssego e Jasmim"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

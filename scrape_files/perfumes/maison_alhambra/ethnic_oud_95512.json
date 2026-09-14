@@ -49,26 +49,54 @@
     {
       "name": "narenciye",
       "width": "47.2838%"
+    },
+    {
+      "name": "Online satın alın 15 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.16",
-    "votesCount": "43",
+    "score": "4.18",
+    "votesCount": "45",
     "breakdown": {
-      "love": "23",
-      "like": "11",
+      "love": "24",
+      "like": "12",
       "ok": "3",
       "dislike": "5",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "30",
-    "spring": "11",
+    "winter": "32",
+    "spring": "12",
     "summer": "5",
-    "autumn": "31",
-    "day": "9",
-    "night": "28"
+    "autumn": "32",
+    "day": "10",
+    "night": "29"
   },
   "notes": {
     "top": [
@@ -91,53 +119,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "13",
+    "longLasting": "14",
+    "eternal": "14"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "13",
+    "strong": "17",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "8",
+    "male": "24"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "12",
+    "greatValue": "22"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AMOUAGE",
+      "name": "Interlude Man"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Supremacy Incense"
+    },
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Midnight Oud"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Abraaj Valour"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Evolution"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Abyad"
+    },
+    {
+      "brand": "MİLESTONE PERFUMES",
+      "name": "Mouj Intimate"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Midnight Oud"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Supremacy Incense"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Velvet Oud"
+    },
     {
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Asad"
-    },
-    {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Toscano Leather"
+      "brand": "HUGO BOSS",
+      "name": "Bottled Absolu"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Oud for Glory"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Y Eau de Parfum"
     },
     {
       "brand": "TOM FORD",
@@ -168,10 +229,6 @@
       "name": "Encre Noire Sport"
     },
     {
-      "brand": "VERSACE",
-      "name": "Eros"
-    },
-    {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Beau Le Parfum"
     },
@@ -179,5 +236,6 @@
       "brand": "CREED",
       "name": "Aventus"
     }
-  ]
+  ],
+  "comments": []
 }

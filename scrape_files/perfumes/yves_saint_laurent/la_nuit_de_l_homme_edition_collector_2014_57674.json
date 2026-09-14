@@ -27,16 +27,44 @@
       "width": "71.2821%"
     },
     {
-      "name": "amber",
+      "name": "sıcak baharatlı",
       "width": "65.8974%"
     },
     {
-      "name": "sıcak baharatlı",
+      "name": "amber",
       "width": "65.8974%"
     },
     {
       "name": "narenciye",
       "width": "47.9487%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -75,33 +103,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "6",
+    "longLasting": "15",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "6",
+    "strong": "5",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "7",
+    "male": "11"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "3",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de l'Homme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Art Collection: La Nuit de L'Homme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de L'Homme Bleu Électrique"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "F by Ferragamo Black"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de l'Homme Frozen Cologne"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -114,10 +163,6 @@
     {
       "brand": "PRADA",
       "name": "Luna Rossa Carbon Eau de Toilette"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "La Nuit de l'Homme Frozen Cologne"
     },
     {
       "brand": "CHANEL",
@@ -162,6 +207,11 @@
     {
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Herod"
     }
-  ]
+  ],
+  "comments": []
 }

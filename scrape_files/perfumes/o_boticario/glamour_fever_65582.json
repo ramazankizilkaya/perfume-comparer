@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/Glamour-Fever-65582.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının Glamour Fever parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. Glamour Fever, 2021 yılında piyasaya sürüldü. Üst notalar: Tarçın, Karabiber ve Bergamot; orta notalar: Orkide Pembe Leopar, Yasemin Sambac, Portakal çiçeği, Şakayık ve Müge; alt notalar Vanilya, Sandal ağacı, Paçuli ve Sedir.",
-  "description_original": "O Boticário markasının Glamour Fever parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. Glamour Fever, 2021 yılında piyasaya sürüldü. Üst notalar: Tarçın, Karabiber ve Bergamot; orta notalar: Orkide Pembe Leopar, Yasemin Sambac, Portakal çiçeği, Şakayık ve Müge; alt notalar Vanilya, Sandal ağacı, Paçuli ve Sedir.",
+  "description_original": "O Boticário markasının Glamour Fever parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. Glamour Fever, 2021 yılında piyasaya sürüldü. Üst notalar: Tarçın, Karabiber ve Bergamot; orta notalar: Orkide Pembe Leopar, Sambac Yasemini, Portakal çiçeği, Şakayık ve Müge; alt notalar Vanilya, Sandal ağacı, Paçuli ve Sedir.",
   "description_enhanced": "O Boticário markasının Glamour Fever parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. Glamour Fever, 2021 yılında piyasaya sürüldü. Üst notalar: Tarçın, Karabiber ve Bergamot; orta notalar: Orkide Pembe Leopar, Yasemin Sambac, Portakal çiçeği, Şakayık ve Müge; alt notalar Vanilya, Sandal ağacı, Paçuli ve Sedir.",
   "mainAccords": [
     {
@@ -49,26 +49,54 @@
     {
       "name": "paçuli",
       "width": "44.8934%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.09",
-    "votesCount": "437",
+    "score": "4.08",
+    "votesCount": "441",
     "breakdown": {
-      "love": "205",
+      "love": "207",
       "like": "137",
       "ok": "43",
-      "dislike": "34",
-      "hate": "18"
+      "dislike": "35",
+      "hate": "19"
     }
   },
   "seasons": {
-    "winter": "248",
-    "spring": "84",
+    "winter": "251",
+    "spring": "85",
     "summer": "24",
-    "autumn": "227",
-    "day": "66",
-    "night": "257"
+    "autumn": "229",
+    "day": "67",
+    "night": "260"
   },
   "notes": {
     "top": [
@@ -78,7 +106,7 @@
     ],
     "middle": [
       "Orkide Pembe Leopar",
-      "Yasemin Sambac",
+      "Sambac Yasemini",
       "Portakal çiçeği",
       "Şakayık",
       "Müge"
@@ -94,20 +122,20 @@
   "longevity": {
     "veryWeak": "5",
     "weak": "17",
-    "moderate": "99",
-    "longLasting": "101",
-    "eternal": "27"
+    "moderate": "100",
+    "longLasting": "103",
+    "eternal": "28"
   },
   "sillage": {
     "intimate": "18",
-    "moderate": "99",
-    "strong": "93",
-    "enormous": "25"
+    "moderate": "100",
+    "strong": "95",
+    "enormous": "27"
   },
   "genderVoting": {
-    "female": "167",
+    "female": "169",
     "moreFemale": "52",
-    "unisex": "30",
+    "unisex": "31",
     "moreMale": "0",
     "male": "0"
   },
@@ -115,13 +143,17 @@
     "wayOverpriced": "4",
     "overpriced": "32",
     "fair": "43",
-    "goodValue": "71",
+    "goodValue": "74",
     "greatValue": "16"
   },
   "remindsMeOf": [
     {
       "brand": "AVON",
       "name": "Friktion"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Coffee Duo Woman"
     },
     {
       "brand": "RABANNE",
@@ -132,36 +164,32 @@
       "name": "Glamour Exuberance"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Noir Pour Femme"
-    },
-    {
       "brand": "THE BODY SHOP",
       "name": "Black Musk"
-    },
-    {
-      "brand": "EUDORA",
-      "name": "Club 6 Voyage"
     },
     {
       "brand": "RABANNE",
       "name": "Midnight Sex"
     },
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Coffee Duo Woman"
-    },
-    {
-      "brand": "O BOTİCÁRİO",
-      "name": "Quinoa"
+      "brand": "EUDORA",
+      "name": "Club 6 Voyage"
     },
     {
       "brand": "ZARA",
       "name": "Nocturnal Life"
     },
     {
+      "brand": "TOM FORD",
+      "name": "Noir Pour Femme"
+    },
+    {
       "brand": "THERA COSMÉTİCOS",
       "name": "Anafi"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Quinoa"
     },
     {
       "brand": "RABANNE",
@@ -172,10 +200,6 @@
     {
       "brand": "O BOTİCÁRİO",
       "name": "Glamour"
-    },
-    {
-      "brand": "CAROLİNA HERRERA",
-      "name": "Good Girl"
     },
     {
       "brand": "NATURA",
@@ -215,10 +239,6 @@
     },
     {
       "brand": "NATURA",
-      "name": "Una Infinito"
-    },
-    {
-      "brand": "NATURA",
       "name": "Ilía Secreto"
     },
     {
@@ -228,6 +248,15 @@
     {
       "brand": "O BOTİCÁRİO",
       "name": "Egeo Choc"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Biografia Assinatura"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "214 Golden Gardênia"
     }
-  ]
+  ],
+  "comments": []
 }

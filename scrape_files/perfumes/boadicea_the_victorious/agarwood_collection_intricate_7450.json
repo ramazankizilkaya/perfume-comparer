@@ -45,6 +45,10 @@
     {
       "name": "dumanlı",
       "width": "51%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -69,61 +73,44 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Deri",
+      "Reçine",
+      "Agar ağacı (Oud)",
+      "Odunsu Notalar",
+      "Orris kökü",
+      "Misk"
+    ]
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "2",
-    "moderate": "5",
-    "longLasting": "13",
-    "eternal": "37"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "8",
-    "moderate": "5",
-    "strong": "28",
-    "enormous": "44"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "6",
-    "moreMale": "6",
-    "male": "12"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "9",
-    "overpriced": "9",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Complex"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Complex 2020"
-    },
-    {
-      "brand": "PEKJİ",
-      "name": "Blacklight"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Elaborate"
-    },
-    {
-      "brand": "NASOMATTO",
-      "name": "Nudiflorum"
-    },
-    {
-      "brand": "ORTO PARİSİ",
-      "name": "Cuoium"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "NASOMATTO",
@@ -162,12 +149,12 @@
       "name": "02 L'Air du Desert Marocain"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Oud Wood"
-    },
-    {
       "brand": "HİSTOİRES DE PARFUMS",
       "name": "1740 Marquis de Sade"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Oud Wood"
     },
     {
       "brand": "STÉPHANE HUMBERT LUCAS 777",
@@ -185,5 +172,6 @@
       "brand": "SERGE LUTENS",
       "name": "Chergui"
     }
-  ]
+  ],
+  "comments": []
 }

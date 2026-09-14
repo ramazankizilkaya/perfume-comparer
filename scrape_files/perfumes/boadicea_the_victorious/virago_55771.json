@@ -41,6 +41,10 @@
     {
       "name": "çiçeksi",
       "width": "45.2353%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -76,34 +80,35 @@
       "Vanilya",
       "Paçuli",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "1",
-    "longLasting": "4",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "1",
-    "strong": "3",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "2",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -136,12 +141,12 @@
       "name": "Jump up and Kiss Me Ecstatic"
     },
     {
-      "brand": "DİOR",
-      "name": "Poison"
-    },
-    {
       "brand": "BY KİLİAN",
       "name": "Good Girl Gone Bad"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Poison"
     },
     {
       "brand": "ROJA DOVE",
@@ -167,5 +172,6 @@
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Baccarat Rouge 540"
     }
-  ]
+  ],
+  "comments": []
 }

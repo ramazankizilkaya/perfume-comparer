@@ -33,21 +33,49 @@
     {
       "name": "toprak",
       "width": "45.6717%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.02",
-    "votesCount": "47",
+    "votesCount": "49",
     "breakdown": {
-      "love": "20",
+      "love": "21",
       "like": "16",
-      "ok": "6",
+      "ok": "7",
       "dislike": "2",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "29",
+    "winter": "30",
     "spring": "8",
     "summer": "5",
     "autumn": "25",
@@ -73,33 +101,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "2",
+    "moderate": "9",
+    "longLasting": "15",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "9",
+    "strong": "16",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "5",
+    "moreMale": "8",
+    "male": "21"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "0",
+    "fair": "7",
+    "goodValue": "12",
+    "greatValue": "16"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ORTO PARİSİ",
+      "name": "Terroni"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Maahir Black Edition"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Terra"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Viper"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Highness X"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "The Trail"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Torino25"
+    },
+    {
+      "brand": "HERETİC PARFUM",
+      "name": "Midnight Toker"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Emir Smoky Leather"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Wood On Fire"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Star Oud"
+    },
+    {
+      "brand": "MEMO PARİS",
+      "name": "African Leather"
+    },
+    {
+      "brand": "PENDORA SCENTS",
+      "name": "Charuto Tobacco Vanille"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LALİQUE",
@@ -108,10 +189,6 @@
     {
       "brand": "LALİQUE",
       "name": "Encre Noire A L'Extreme"
-    },
-    {
-      "brand": "MONTBLANC",
-      "name": "Explorer"
     },
     {
       "brand": "PENHALİGON'S",
@@ -132,6 +209,10 @@
     {
       "brand": "CHANEL",
       "name": "Bleu de Chanel Eau de Parfum"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Parfum Reserve Privée"
     },
     {
       "brand": "BENTLEY",
@@ -161,5 +242,6 @@
       "brand": "PARIS CORNER",
       "name": "Rifaaqat"
     }
-  ]
+  ],
+  "comments": []
 }

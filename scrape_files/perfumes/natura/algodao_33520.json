@@ -16,59 +16,87 @@
     },
     {
       "name": "misk",
-      "width": "86.2681%"
+      "width": "87.0369%"
     },
     {
       "name": "pudralı",
-      "width": "81.1269%"
+      "width": "80.912%"
     },
     {
       "name": "çiçeksi",
-      "width": "76.7061%"
+      "width": "76.5857%"
     },
     {
       "name": "odunsu",
-      "width": "67.8468%"
+      "width": "66.6203%"
     },
     {
       "name": "aromatik",
-      "width": "61.1987%"
+      "width": "61.1439%"
     },
     {
       "name": "vanilya",
-      "width": "59.4739%"
+      "width": "58.8425%"
     },
     {
       "name": "taze baharatlı",
-      "width": "54.2824%"
+      "width": "54.3703%"
     },
     {
       "name": "taze",
-      "width": "49.6601%"
+      "width": "50.287%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "49.091%"
+      "width": "49.7686%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.97",
-    "votesCount": "695",
+    "score": "3.98",
+    "votesCount": "717",
     "breakdown": {
-      "love": "216",
-      "like": "322",
-      "ok": "86",
+      "love": "224",
+      "like": "335",
+      "ok": "87",
       "dislike": "63",
       "hate": "8"
     }
   },
   "seasons": {
-    "winter": "178",
-    "spring": "243",
-    "summer": "246",
-    "autumn": "194",
-    "day": "301",
-    "night": "232"
+    "winter": "182",
+    "spring": "252",
+    "summer": "254",
+    "autumn": "200",
+    "day": "312",
+    "night": "237"
   },
   "notes": {
     "top": [
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "86",
+    "weak": "154",
+    "moderate": "109",
+    "longLasting": "16",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "201",
+    "moderate": "109",
+    "strong": "15",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "69",
+    "moreFemale": "76",
+    "unisex": "177",
+    "moreMale": "2",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "86",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "4",
+    "overpriced": "7",
+    "fair": "87",
+    "goodValue": "156",
+    "greatValue": "75"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "EUDORA",
+      "name": "Instance Harmonia"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "R.E.M."
+    },
+    {
+      "brand": "MAHOGANY",
+      "name": "Lavanda & Algodão"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Instance Lavanda"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Sea Island Cotton"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Aflorá Lavanda Amêndoa"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Infusion d'Amande"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Lei"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kriska Jeans"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Lavender & Vanilla Relax"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Algodão Envolvente"
+    },
+    {
+      "brand": "JEQUİTİ",
+      "name": "Vida Lírio e Algodão"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Rive Gauche"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Cuide-se Bem Lavandinha"
+    },
+    {
+      "brand": "PEDACİTO DE CİELO",
+      "name": "Algodón de Azúcar"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -133,6 +222,10 @@
     {
       "brand": "NATURA",
       "name": "Macadâmia"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Castanha"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -167,16 +260,114 @@
       "name": "Humor 1"
     },
     {
-      "brand": "DİOR",
-      "name": "J'adore"
-    },
-    {
       "brand": "NATURA",
       "name": "Essencial Exclusivo"
     },
     {
       "brand": "NATURA",
       "name": "Cereja e Avelã"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent1036862",
+      "author": "Paulix",
+      "date": "2026-01-22",
+      "text": "Kataloğunda hep görürdüm ama almazdım, oysa lavanta kokusu var ki bu kokuya bayılırım, özellikle de yazın. Bu sefer almaya karar verdim ve çok beğendim; aynı serideki ve çok sevdiğim lavanta ve papatya kokusuna çok benziyor, bu yüzden hayran kaldım. Bu koku daha temiz ve ferah bir lavanta kokusu, biraz daha odunsu bir dokunuş var ve cildimde harika bir şekilde kuruyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.65852.jpg"
+    },
+    {
+      "id": "parent1036861",
+      "author": "Benjamin Alamo - 1389",
+      "date": "2025-08-11",
+      "text": "Çok beğendim, miskli lavanta kokusu oldukça baskın; koku yapısı oldukça tekdüze ama kuruma aşamasında vanilya ve sandal ağacının tatlılığı ortaya çıkıyor.\nŞu ana kadar sadece duştan sonra yatmadan önce denedim, yine çok temiz kokan bir vücut kremi sürdükten sonra. Ertesi sabah kokunun hala orada olduğunu söyleyebilirim, yani yaklaşık 6-7 saat kalıcı.\nTemiz ve modern, biraz Dove sabun gibi kokuyor ve bu da çok rahatlatıcı.\nBahar-yaz ayları için tavsiye ederim ve bence geceleri daha iyi performans gösteriyor.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.121010.jpg"
+    },
+    {
+      "id": "parent1028588",
+      "author": "danzaesencia",
+      "date": "2023-10-19",
+      "text": "Kesinlikle pamuk çiçeği özü içeriyor. Parfümeride pamuğun hangi kısmının kullanıldığını araştırmam gerekiyor. Kokusu bana lavantayı çok hatırlatıyor; bu durumda ikisi birbirine karışıyor.\nBu vücut losyonunu tanıdığımdan beri, sıcak ve rahatlatıcı kokusu beni büyüledi, tüm aile kullanabilir.\nNatura vücut losyonlarının özelliği olan çok iyi bir koku gelişimi var!\nÖzetle, lavanta ve belki de pamuk çiçeği tohumları gibi çiçek kokusu. Misk ve sedir, biraz da vanilya kokusu alıyorum. Taze banyo yapmış gibi kokuyorsunuz, ferahlatan, sıcaklık ve huzur veren tuzlarla dolu bir küvetten yeni çıkmış gibi. Hafif aldehitik ve pudra kokusu sayesinde sonbahar ve ilkbaharda çok yakışıyor. Seksi",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent1028587",
+      "author": "Yasmin2015",
+      "date": "2023-06-11",
+      "text": "Banyodan sonra, uyumadan önce veya evde vakit geçirirken kullanmak için çok rahatlatıcı bir koku. İlk başta lavanta kokusu oldukça belirgin, kurudukça ise daha pudra gibi bir kokuya dönüşüyor; hem erkekler hem kadınlar için, hatta tüm aile için uygun olabilir.\nKokusu hafif ve benim cildimde en fazla 3 saat kalıyor, giysilerde ise daha uzun süre hissediliyor.\n\nNatura'nın parfümlerinden çok hoşlandığım şey, tekdüze olmamaları ve zamanla değişen bir kokuya sahip olmalarıdır. Ayrıca, tipik gençlere yönelik tatlı/ferah parfümlerden çok farklıdırlar.\nÜretimden kaldırılmış olması çok yazık.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent1028586",
+      "author": "magia olfativa",
+      "date": "2020-12-03",
+      "text": "Pamuk çalıları parfümeride kullanılır. Bu vücut spreyi içinde ise misk ile birlikte oldukça belirgindir; belki de ona o pudra benzeri dokunuşu veren budur; her ne kadar aldehitik olmasa da burnum onu öyle algıladı. Belki de bu yüzden Chanel No 5, Rive Gauche gibi aldehit kokularla karşılaştırılıyor. Aslında Natura'nın pamuklu vücut kremi, Chanel 5, Rive Gauche ve White Diamonds kokularımı harika bir şekilde sabitliyor. Natura'nın pamuklu (ve orkide kokulu) vücut nemlendiricisinin geri gelmesini çok istiyorum; kişisel olarak ılık günlerde kullanıyordum.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.49297.jpg"
+    },
+    {
+      "id": "parent1028591",
+      "author": "Dani Abeille",
+      "date": "2019-02-11",
+      "text": "Bu koku bana tuhaf geliyor, özellikle de hakkındaki yorumları okuduktan sonra. Pek çok kişinin bu kokuda lavanta algıladığını, hatta ona \"lavanta\" dediğini görüyorum. Vanilyayı vurgulayan birçok yorum da var. Ama bana göre koku böyle değil: Yuvarlak bir yapıya sahip, birbiriyle iç içe geçmiş ve uyumlu notalar, kolayca tanımlanamayan yeni bir koku yaratıyor.\n\nBana nemli krem gibi kokuyor. Nivea Creme gibi belirli bir nemli krem değil, hatta Natura'nın bu serisindeki Algodão kremi bile değil, ama krem FİKRİ. Bu belki de SOU serisindeki nemli kremlerin kokusunun bu kokuya çok benzemesiyle ilgili olabilir, ama ben böyle algılıyorum.\n\nNemli bir cilde sahipmiş gibi hissetmeyi seviyorsanız, bence bu parfüm mükemmel bir seçenek. Tek eksikliği, kokusunun yeterince yayılmamasıdır - bu koku en azından Águas veya Ekos serisindeki EDT'ler gibi olmalıydı, hatta belki de Flor do Luar'ın bulunduğu serideki daha yüksek konsantrasyonlu bir versiyonu olmalıydı, çünkü çok iyi ve özgün bir yaratım.\n\nTek kusuru, DNA'sında Natura'nın o imzasını taşıması, ki ben bunun pek hayranı değilim. Ayrıca bana pamuğu hiç hatırlatmıyor. Ama kremsi yapısı bolca mevcut.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.12902.jpg"
+    },
+    {
+      "id": "parent1036866",
+      "author": "Daniella Condoiséles",
+      "date": "2018-12-07",
+      "text": "Güneş + sıcaklık + huzur + şefkat + mavi + sevimlilik; benim için renk ve doku var. Bu kokuya bayılıyorum ve bence cam bir şişeye layık, \"splash\" kategorisinden \"EDT\"ye yükseltilmeli ve \"Pamuklu Gökyüzü\" adını almalı, çünkü bunun için her şeye sahip. Bir kolonya olmasına rağmen, bir adım ötesinde bir özelliği var, en azından cildim öyle söylüyor. Güneşli, temiz, tatlı, rahat ama tembel olmayan parfümleri sevenler mutlaka denemeli. Bayıldım ve benim için uzun süredir kullandığım sevgili Macadâmia'yı geride bıraktı.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.11382.jpg"
+    },
+    {
+      "id": "parent1036867",
+      "author": "Déh Marcelino",
+      "date": "2018-05-05",
+      "text": "Bu vücut losyonunu karanlıkta aldım, çok sıradan bir koku olacağına emindim. Sıradan falan değilmiş! Kokusu çok kalıcı ve muhteşem!\nBenim için hoş bir sürpriz oldu. Lavanta ile vanilya karışımı (cildimde bu iki nota öne çıkıyor) çok sıcak, çok sarıcı bir koku. Bana kucaklaşmayı, kucağa yatmayı, sarılıp uyumayı hatırlatıyor... Sevgi, dokunuş, yumuşaklık ve sıcaklık.\nNatura'dan bir başka güzel yaratım!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.38903.jpg"
+    },
+    {
+      "id": "parent1028592",
+      "author": "TalitaNogueira",
+      "date": "2017-10-27",
+      "text": "Annem Natura ürünleri satıyor ve bu vücut losyonunu evde hep görürdüm ama hiç önemsememiştim. Bu kokuyu sadece nemlendiriciden tanıyordum ve hiç de beğenmemiştim. İki gün önce, bu güzel ürünün bir şişesi ortalıkta duruyordu, ben de denemeye karar verdim. Ne oldu peki?\nTanrım, ne kadar güzel!\nVanilyalı lavanta (yoksa lavantalı vanilya mı demeli?). Odunsu koku almıyorum, narenciye kokusu almıyorum, genel olarak sadece çiçekler (aralarında lavanta), bolca vanilya ve misk kokusu alıyorum. Komik olan, benim üzerimde en baskın nota vanilya olması. Bazen sadece vanilya kokusu alıyorum. Çiçek kokusunu bastırarak öne çıkıyor. Rahatlatıcı bir koku. Rahatlama. Sakinlik. Banyodan sonra. İzin günü, gevşeme. 6 saat kalıcılık, cildimde 1 saat 30 dakika ile 2 saat arasında hafif bir yayılım, ki bence bir body splash için olağanüstü bir performans. Bir daha asla onsuz kalmayacağım ve hiç çekinmeden kullanacağım. Bunun bir EDP versiyonunu hak ettiğini söyleyenlerin korosuna katılıyorum, çünkü bu konuda hiç şüphe yok!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.14473.jpg"
+    },
+    {
+      "id": "parent1028590",
+      "author": "moreorlessa",
+      "date": "2015-11-25",
+      "text": "Artık site veritabanına eklendiğine ve koku piramidini gördüğüme göre, hiç de şaşırmadım. Lavantanın diğer çiçeklerle karıştırıldığını, bol miktarda misk (temizlik kokusu veren türden) ve vanilya olduğunu tahmin etmiştim. Ancak çiçek notalarının karışımı çok iyi düşünülmüş, çünkü o oda spreyi kokusuna sahip lavanta kokusu yok, ki ben şahsen vücut parfümlerinde bundan hoşlanmam, bu da bu parfümü benim için işe yarayan birkaç lavanta parfümünden biri yapıyor (diğerleri Lovely ve Jicky).\n\nBir yandan bu koku, daha şık parfümleri anımsatan bir çiçeksi havaya sahip. Bazen \"modern şipre\" olarak adlandırılan, odunsu miskli çiçeksi koku grubuna giriyor ve Lovely, Narciso for Her ve Chloé hayranlarının hoşuna gidebilir. Öte yandan, bu parfüm iddiasız ve rahat bir parfüm, çünkü çamaşırhaneden yeni çıkmış giysileri, o yumuşatıcı kokusuyla hatırlatıyor. Bana göre, pazar sabahı havası var.\n\nKeşke EDP konsantrasyonunda da aynı parfüm olsaydı, ama ne yazık ki böyle bir şey yok, bu yüzden spreyini daha çok evdeyken kullanıyorum, böylece gün içinde tekrar sürebiliyorum.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.3160.jpg"
     }
   ]
 }

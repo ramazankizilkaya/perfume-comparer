@@ -45,6 +45,34 @@
     {
       "name": "aromatik",
       "width": "48.0834%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,33 +107,66 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "4",
+    "moderate": "7",
+    "longLasting": "0",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "7",
+    "strong": "5",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "2",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Ultraviolet Man Summer Pop"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Hilfiger Athletics"
+    },
+    {
+      "brand": "ETİENNE AİGNER",
+      "name": "Aigner Black Icedrops for Men"
+    },
+    {
+      "brand": "CİNEMATİC INFUSİONS",
+      "name": "Absinthe"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Ultraviolet Liquid Crystal Man"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Ocean Lounge"
+    },
+    {
+      "brand": "ÅND FRAGRANCES",
+      "name": "Måd"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue Forever pour Homme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -167,5 +228,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

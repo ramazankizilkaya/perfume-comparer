@@ -33,15 +33,43 @@
     {
       "name": "gül",
       "width": "52.75%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.88",
-    "votesCount": "24",
+    "score": "3.91",
+    "votesCount": "23",
     "breakdown": {
       "love": "8",
       "like": "10",
-      "ok": "2",
+      "ok": "1",
       "dislike": "3",
       "hate": "1"
     }
@@ -87,7 +115,7 @@
   "priceVoting": {
     "wayOverpriced": "2",
     "overpriced": "1",
-    "fair": "2",
+    "fair": "1",
     "goodValue": "4",
     "greatValue": "6"
   },
@@ -95,6 +123,10 @@
     {
       "brand": "MİSSONİ",
       "name": "Missoni Eau de Toilette"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chance Eau Tendre"
     },
     {
       "brand": "ELİZABETH ARDEN",
@@ -119,10 +151,6 @@
       "name": "Valentino Donna Born In Roma Coral Fantasy"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Delina La Rosée"
-    },
-    {
       "brand": "AVON",
       "name": "Rare Pearls"
     },
@@ -131,8 +159,16 @@
       "name": "White Linen"
     },
     {
+      "brand": "PARIS CORNER",
+      "name": "Khair Fusion"
+    },
+    {
       "brand": "RABANNE",
       "name": "Million Gold For Her"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Idôle Power"
     },
     {
       "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
@@ -155,10 +191,6 @@
       "name": "Cloud"
     },
     {
-      "brand": "DİOR",
-      "name": "Poison"
-    },
-    {
       "brand": "ESCADA",
       "name": "Bali Paradise"
     },
@@ -166,5 +198,6 @@
       "brand": "GİVENCHY",
       "name": "L'Interdit Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

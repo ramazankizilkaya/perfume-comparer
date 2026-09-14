@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Natura/Avela-e-Cassis-65295.html",
   "brand": "Natura parfüm ve kolonya",
   "description": "Natura markasının Avelã e Cassis parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Avelã e Cassis, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Kokuda Fındık ve Frenk üzümü yaprağı ve tomurcuğu notaları bulunur.",
-  "description_original": "Natura markasının Avelã e Cassis parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Avelã e Cassis, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Kokuda Fındık ve Frenk üzümü yaprağı ve tomurcuğu notaları bulunur.",
+  "description_original": "Natura markasının Avelã e Cassis parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Avelã e Cassis, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Kokuda Fındık ve Siyah Frenk Üzümü notaları bulunur.",
   "description_enhanced": "Natura markasının Avelã e Cassis parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Avelã e Cassis, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Kokuda Fındık ve Frenk üzümü yaprağı ve tomurcuğu notaları bulunur.",
   "mainAccords": [
     {
@@ -45,6 +45,34 @@
     {
       "name": "tatlı",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -72,37 +100,58 @@
     "base": [],
     "all": [
       "Fındık",
-      "Frenk üzümü yaprağı ve tomurcuğu"
+      "Siyah Frenk Üzümü"
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "6",
+    "moderate": "14",
+    "longLasting": "2",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "14",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "22",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "12",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Olympéa"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "1 Million Lucky"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "The Dreamer"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Alien"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -164,5 +213,6 @@
       "brand": "NATURA",
       "name": "Kaiak Aventura"
     }
-  ]
+  ],
+  "comments": []
 }

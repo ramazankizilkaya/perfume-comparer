@@ -41,6 +41,34 @@
     {
       "name": "pudralı",
       "width": "47.3831%"
+    },
+    {
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -80,33 +108,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "25",
+    "moderate": "27",
+    "longLasting": "5",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "33",
+    "moderate": "27",
+    "strong": "6",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "17",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ESCADA",
+      "name": "Escada Rockin' Rio 2011"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Linked She"
+    },
+    {
+      "brand": "ADİDAS",
+      "name": "Tropical Passion"
+    },
+    {
+      "brand": "AVON",
+      "name": "Viva la Vita"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Ralph"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY Be Delicious"
+    },
+    {
+      "brand": "VİNCE CAMUTO",
+      "name": "Amore"
+    },
+    {
+      "brand": "JEQUİTİ",
+      "name": "Magali"
+    },
+    {
+      "brand": "AVON",
+      "name": "Pitanga Festeira"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Flowerparty Limited Edition 2011"
+    },
+    {
+      "brand": "JEANNE ARTHES",
+      "name": "Love Generation Do Brasil"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Manga Rosa e Água de Coco"
+    },
+    {
+      "brand": "ADİDAS",
+      "name": "Get Comfy"
+    },
+    {
+      "brand": "ADİDAS",
+      "name": "Happy Feels"
+    },
+    {
+      "brand": "MESSAGE İN A BOTTLE",
+      "name": "I Am Not Perfect But I Am Limited Edition"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NİNA RİCCİ",
@@ -168,5 +257,6 @@
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
     }
-  ]
+  ],
+  "comments": []
 }

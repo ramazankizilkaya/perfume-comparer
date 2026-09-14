@@ -49,17 +49,45 @@
     {
       "name": "bitkisel",
       "width": "57.8205%"
+    },
+    {
+      "name": "Online satın alın 32 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.70",
-    "votesCount": "54",
+    "score": "3.67",
+    "votesCount": "57",
     "breakdown": {
-      "love": "12",
+      "love": "13",
       "like": "24",
-      "ok": "10",
+      "ok": "11",
       "dislike": "6",
-      "hate": "2"
+      "hate": "3"
     }
   },
   "seasons": {
@@ -88,33 +116,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "3",
+    "moderate": "19",
+    "longLasting": "7",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "19",
+    "strong": "3",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "6",
+    "male": "27"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "1",
+    "fair": "11",
+    "goodValue": "7",
+    "greatValue": "25"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MONTBLANC",
+      "name": "Explorer"
+    },
+    {
+      "brand": "CREED",
+      "name": "Aventus"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Vibrant Leather Eau de Parfum"
+    },
+    {
+      "brand": "LA RİVE",
+      "name": "Black Creek"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Intense Man"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "L'Aventure"
+    },
+    {
+      "brand": "MERCEDES-BENZ",
+      "name": "Mercedes-Benz Select"
+    },
+    {
+      "brand": "REEBOK",
+      "name": "Iconic Statement Blue"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Supremacy Silver"
+    },
+    {
+      "brand": "REYANE TRADİTİON",
+      "name": "Insurrection II Pure"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Kismet for Men"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Qimmah for Men"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Tropical Smoke"
+    },
+    {
+      "brand": "JAGUAR",
+      "name": "Jaguar For Men Ultimate Power"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Explorer Platinum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ARMAF",
@@ -123,10 +212,6 @@
     {
       "brand": "ARMAF",
       "name": "Club de Nuit Blue Iconic"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Y Eau de Parfum"
     },
     {
       "brand": "MAİSON ALHAMBRA",
@@ -141,10 +226,6 @@
       "name": "Fakhar Black"
     },
     {
-      "brand": "ARMAF",
-      "name": "Hunter Intense"
-    },
-    {
       "brand": "DİOR",
       "name": "Fahrenheit"
     },
@@ -153,8 +234,20 @@
       "name": "Club de Nuit Intense Man"
     },
     {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Victorioso Legend"
+    },
+    {
       "brand": "LALİQUE",
       "name": "Encre Noire"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ramz Lattafa Silver"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One"
     },
     {
       "brand": "MAİSON ALHAMBRA",
@@ -165,10 +258,6 @@
       "name": "Asad"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas Ice"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Oud for Glory"
     },
@@ -176,5 +265,6 @@
       "brand": "RASASİ",
       "name": "Hawas for Him"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -20,23 +20,51 @@
     },
     {
       "name": "misk",
-      "width": "48.8172%"
+      "width": "49.3548%"
     },
     {
       "name": "taze",
       "width": "45.8064%"
     },
     {
-      "name": "odunsu",
-      "width": "45.0538%"
+      "name": "yeşil",
+      "width": "43.5483%"
+    },
+    {
+      "name": "Online satın alın 27 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.50",
-    "votesCount": "8",
+    "score": "3.70",
+    "votesCount": "10",
     "breakdown": {
-      "love": "3",
-      "like": "2",
+      "love": "4",
+      "like": "3",
       "ok": "0",
       "dislike": "2",
       "hate": "1"
@@ -44,10 +72,10 @@
   },
   "seasons": {
     "winter": "0",
-    "spring": "2",
-    "summer": "2",
+    "spring": "3",
+    "summer": "3",
     "autumn": "0",
-    "day": "2",
+    "day": "3",
     "night": "0"
   },
   "notes": {
@@ -67,37 +95,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Habik For Women"
+      "name": "Layaan"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Idôle"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Idôle L'Intense"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Apogée"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "My Way"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Mia Dolcezza"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Afeef"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -108,12 +161,28 @@
       "name": "Hareem Al Sultan Gold"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Ansaam Gold"
+      "brand": "AL ABSAR",
+      "name": "Hirfah"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Mayar Natural Intense"
+      "name": "Opulent Musk"
+    },
+    {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Sensuous Night"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ana Abiyedh Poudrée"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Taskeen Lactéa Divina"
+    },
+    {
+      "brand": "HEKAYAT ATTAR",
+      "name": "GIGGLEPUFF"
     },
     {
       "brand": "PARIS CORNER",
@@ -125,23 +194,16 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
+      "name": "Opulent Dubai"
+    },
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Manaal"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
       "name": "Angham"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Bade'e Al Oud Sublime"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Yara"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Bade'e Al Oud Amethyst"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Bade'e Al Oud Honor & Glory"
     }
-  ]
+  ],
+  "comments": []
 }

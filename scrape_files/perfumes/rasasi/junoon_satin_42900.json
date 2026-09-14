@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Junoon-Satin-42900.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Junoon Satin parfümü, erkekler için Oryantal Çiçeksi bir kokudur. Kokuda Çiçeksi Notalar, Misk, Baharatlı notalar, Bergamot ve Agar ağacı (Oud) notaları bulunur.",
-  "description_original": "Rasasi markasının Junoon Satin parfümü, erkekler için Oryantal Çiçeksi bir kokudur. Kokuda Çiçeksi Notalar, Misk, Baharatlı notalar, Bergamot ve Agar ağacı (Oud) notaları bulunur.",
+  "description_original": "Rasasi markasının Junoon Satin parfümü, erkekler için Oryantal Çiçeksi bir kokudur. Kokuda Çiçeksi Notalar, Misk, Baharatlı Notalar, Bergamot ve Agar ağacı (Oud) notaları bulunur.",
   "description_enhanced": "Rasasi markasının Junoon Satin parfümü, erkekler için Oryantal Çiçeksi bir kokudur. Kokuda Çiçeksi Notalar, Misk, Baharatlı notalar, Bergamot ve Agar ağacı (Oud) notaları bulunur.",
   "mainAccords": [
     {
@@ -37,6 +37,38 @@
     {
       "name": "taze baharatlı",
       "width": "49.5732%"
+    },
+    {
+      "name": "Online satın alın 24 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "5",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -65,39 +97,80 @@
     "all": [
       "Çiçeksi Notalar",
       "Misk",
-      "Baharatlı notalar",
+      "Baharatlı Notalar",
       "Bergamot",
       "Agar ağacı (Oud)"
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "5",
+    "moderate": "12",
+    "longLasting": "33",
+    "eternal": "13"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "12",
+    "strong": "47",
+    "enormous": "18"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "5",
+    "unisex": "24",
+    "moreMale": "8",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "15",
+    "greatValue": "10"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AJMAL",
+      "name": "Musc"
+    },
+    {
+      "brand": "KİEHL'S",
+      "name": "Original Musk"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Casablanca"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Junoon Satin"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Crazy For Oud"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Souvenir Desert Rose"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Adore"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Lillipur"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Kalemat Black"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Somow Al Rasasi Ma’ali"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -159,5 +232,6 @@
       "brand": "AMOUAGE",
       "name": "Interlude Man"
     }
-  ]
+  ],
+  "comments": []
 }

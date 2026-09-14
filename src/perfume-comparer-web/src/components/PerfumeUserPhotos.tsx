@@ -59,7 +59,7 @@ export default function PerfumeUserPhotos({
                     >
                         <img
                             src={mediaUrl(photo.imageUrl)}
-                            alt={photo.authorName}
+                            alt={`${perfumeName} - @${photo.authorName} kullanıcı fotoğrafı`}
                             className="user-photo-img"
                             loading="lazy"
                         />

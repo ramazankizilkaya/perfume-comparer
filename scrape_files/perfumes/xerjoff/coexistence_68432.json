@@ -49,26 +49,54 @@
     {
       "name": "beyaz çiçeksi",
       "width": "58.6104%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.64",
-    "votesCount": "59",
+    "score": "3.65",
+    "votesCount": "60",
     "breakdown": {
       "love": "27",
-      "like": "9",
+      "like": "10",
       "ok": "8",
       "dislike": "5",
       "hate": "10"
     }
   },
   "seasons": {
-    "winter": "14",
-    "spring": "22",
+    "winter": "15",
+    "spring": "23",
     "summer": "12",
-    "autumn": "21",
+    "autumn": "22",
     "day": "18",
-    "night": "22"
+    "night": "23"
   },
   "notes": {
     "top": [
@@ -88,33 +116,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "1",
+    "moderate": "7",
+    "longLasting": "12",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "7",
+    "strong": "8",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "4",
+    "unisex": "20",
+    "moreMale": "4",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "11",
+    "overpriced": "7",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ANKA KUŞ PARFÜM",
+      "name": "Ismail Efendi - The Rose Bandit"
+    },
+    {
+      "brand": "V CANTO",
+      "name": "Cicuta"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "White On White Three"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Oud Silk Mood"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "The Uncompromising Sohan"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Resala"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
@@ -129,12 +182,12 @@
       "name": "Pikovaya Dama 2018"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Herod"
-    },
-    {
       "brand": "XERJOFF",
       "name": "More Than Words"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Herod"
     },
     {
       "brand": "XERJOFF",
@@ -176,5 +229,6 @@
       "brand": "NİSHANE",
       "name": "Wulóng Chá"
     }
-  ]
+  ],
+  "comments": []
 }

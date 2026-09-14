@@ -39,16 +39,44 @@
       "width": "55.5228%"
     },
     {
-      "name": "deri",
+      "name": "yosunlu",
       "width": "50.6434%"
     },
     {
-      "name": "yosunlu",
+      "name": "deri",
       "width": "50.6434%"
     },
     {
       "name": "misk",
       "width": "48.7668%"
+    },
+    {
+      "name": "Online satın alın 52 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -91,33 +119,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "4",
+    "moderate": "6",
+    "longLasting": "4",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "6",
+    "strong": "2",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "3",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AMOUAGE",
+      "name": "Reflection Man"
+    },
+    {
+      "brand": "TED BAKER",
+      "name": "Endurance"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Men"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Bottled"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY Men"
+    },
+    {
+      "brand": "PUMA",
+      "name": "Urban Motion for Him"
+    },
+    {
+      "brand": "MERCEDES-BENZ",
+      "name": "Mercedes-Benz"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Costa Azzurra"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AZZARO",
@@ -179,5 +240,6 @@
       "brand": "CREED",
       "name": "Aventus"
     }
-  ]
+  ],
+  "comments": []
 }

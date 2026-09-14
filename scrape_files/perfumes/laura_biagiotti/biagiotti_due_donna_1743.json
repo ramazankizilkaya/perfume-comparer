@@ -45,6 +45,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "45.5176%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,33 +110,90 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "17",
+    "moderate": "34",
+    "longLasting": "13",
+    "eternal": "11"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "23",
+    "moderate": "34",
+    "strong": "12",
+    "enormous": "13"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "18",
+    "moreFemale": "2",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "3",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LAURA BİAGİOTTİ",
+      "name": "Tempore Donna"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Miracle"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Iris Nobile Sublime"
+    },
+    {
+      "brand": "ROCCOBAROCCO",
+      "name": "Silver Jeans"
+    },
+    {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Lady Vengeance"
+    },
+    {
+      "brand": "BOND NO 9",
+      "name": "West Side"
+    },
+    {
+      "brand": "ETAT LİBRE D'ORANGE",
+      "name": "Putain des Palaces"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "Cashmere Veil"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Yes I Am Glorious"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Irrésistible Givenchy Eau de Toilette"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Flower by Kenzo"
+    },
+    {
+      "brand": "ISABELLE T",
+      "name": "Elysees Amour"
+    },
+    {
+      "brand": "ANGEL SCHLESSER",
+      "name": "Pirouette"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Ange Ou Demon Le Secret (2014)"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -170,5 +255,6 @@
       "brand": "DİOR",
       "name": "Dior Addict"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -88,42 +88,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "2",
-    "longLasting": "3",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "2",
-    "strong": "0",
-    "enormous": "8"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "4",
-    "male": "2"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "DZİNTARS",
-      "name": "Briga"
-    },
-    {
-      "brand": "DAVİDOFF",
-      "name": "Cool Water"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GİORGİO ARMANİ",
@@ -166,8 +157,8 @@
       "name": "Envy for Men"
     },
     {
-      "brand": "LACOSTE FRAGRANCES",
-      "name": "Eau de Lacoste L.12.12. White"
+      "brand": "VERSACE",
+      "name": "Dreamer The Original Edition"
     },
     {
       "brand": "BVLGARİ",
@@ -185,5 +176,6 @@
       "brand": "ROCHAS",
       "name": "Rochas Man"
     }
-  ]
+  ],
+  "comments": []
 }

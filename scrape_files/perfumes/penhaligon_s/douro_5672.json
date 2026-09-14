@@ -49,13 +49,41 @@
     {
       "name": "bitkisel",
       "width": "48.8291%"
+    },
+    {
+      "name": "Online satın alın 18 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.27",
-    "votesCount": "271",
+    "votesCount": "273",
     "breakdown": {
-      "love": "128",
+      "love": "130",
       "like": "112",
       "ok": "8",
       "dislike": "21",
@@ -64,11 +92,11 @@
   },
   "seasons": {
     "winter": "18",
-    "spring": "108",
-    "summer": "99",
-    "autumn": "53",
-    "day": "106",
-    "night": "31"
+    "spring": "109",
+    "summer": "100",
+    "autumn": "54",
+    "day": "107",
+    "night": "32"
   },
   "notes": {
     "top": [
@@ -92,33 +120,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "15",
+    "moderate": "77",
+    "longLasting": "19",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "18",
+    "moderate": "77",
+    "strong": "22",
+    "enormous": "17"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "2",
+    "unisex": "10",
+    "moreMale": "26",
+    "male": "49"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "15",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "13",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Yves Saint Laurent Pour Homme"
+    },
+    {
+      "brand": "DİOR",
+      "name": "La Collection Couturier Parfumeur Granville"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Colonia Futura"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Loewe Pour Homme"
+    },
+    {
+      "brand": "COURRÈGES",
+      "name": "Eau de Courreges (new)"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Collection Pour Homme"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Eau Sauvage"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Moustache Original 1949"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Sartorial"
+    },
+    {
+      "brand": "GEO. F. TRUMPER",
+      "name": "Curzon Cologne"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Monsieur de Givenchy"
+    },
+    {
+      "brand": "D.R.HARRİS",
+      "name": "Traditional Cologne"
+    },
+    {
+      "brand": "GEO. F. TRUMPER",
+      "name": "Wellington Cologne"
+    },
+    {
+      "brand": "PARFUM D'EMPİRE",
+      "name": "Iskander"
+    },
+    {
+      "brand": "TAUER PERFUMES",
+      "name": "Cologne Du Maghreb (2021)"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -180,5 +269,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Kouros"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "yosunlu",
       "width": "44.299%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -105,33 +133,82 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "5",
+    "moderate": "32",
+    "longLasting": "51",
+    "eternal": "15"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "32",
+    "strong": "61",
+    "enormous": "20"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "9",
+    "moreMale": "15",
+    "male": "45"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "6",
     "fair": "14",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "27",
+    "greatValue": "18"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Sauvage"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Ventana Pour Homme"
+    },
+    {
+      "brand": "BAXTER OF CALİFORNİA",
+      "name": "Pacific Cannabis"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Modest Pour Homme Une"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Fattan"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de l'Homme"
+    },
+    {
+      "brand": "ORTO PARİSİ",
+      "name": "Terroni"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Bad Boy Cobalt Parfum Electrique"
+    },
+    {
+      "brand": "KAJAL",
+      "name": "Faris"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Kobra"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Verde"
+    },
+    {
+      "brand": "EVAFLOR",
+      "name": "Whisky Silver"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -140,10 +217,6 @@
     {
       "brand": "LALİQUE",
       "name": "Encre Noire Sport"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Versace Man Eau Fraiche"
     },
     {
       "brand": "MANCERA",
@@ -190,8 +263,13 @@
       "name": "Daarej pour Homme"
     },
     {
+      "brand": "RASASİ",
+      "name": "Rumz Al Rasasi 9453 Pour Lui"
+    },
+    {
       "brand": "BENTLEY",
       "name": "Bentley for Men Intense"
     }
-  ]
+  ],
+  "comments": []
 }

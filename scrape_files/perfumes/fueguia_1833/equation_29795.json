@@ -69,46 +69,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "9",
-    "longLasting": "19",
-    "eternal": "13"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "9",
-    "strong": "27",
-    "enormous": "7"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "11",
-    "moreMale": "12",
-    "male": "4"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "5",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "7",
-    "goodValue": "4",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GLEAM PERFUME",
-      "name": "Domenica"
-    },
-    {
-      "brand": "NAOMİ GOODSİR",
-      "name": "Bois d'Ascese"
-    },
-    {
-      "brand": "MİN NEW YORK",
-      "name": "MOON DUST"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "MARC-ANTOİNE BARROİS",
@@ -121,6 +108,10 @@
     {
       "brand": "SERGE LUTENS",
       "name": "Fille en Aiguilles"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Bal d'Afrique"
     },
     {
       "brand": "FUEGUİA 1833",
@@ -137,6 +128,10 @@
     {
       "brand": "L'ARTİSAN PARFUMEUR",
       "name": "Timbuktu"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
     },
     {
       "brand": "CREED",
@@ -159,16 +154,9 @@
       "name": "La Tierra del Rayo"
     },
     {
-      "brand": "CHANEL",
-      "name": "Coromandel Eau de Parfum"
-    },
-    {
-      "brand": "FUEGUİA 1833",
-      "name": "Jacarandá"
-    },
-    {
-      "brand": "PARFUM D'EMPİRE",
-      "name": "Ambre Russe"
+      "brand": "AMOUAGE",
+      "name": "Jubilation XXV Man"
     }
-  ]
+  ],
+  "comments": []
 }

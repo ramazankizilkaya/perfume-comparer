@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Parfums-de-Marly/Hamdani-21551.html",
   "brand": "Parfums de Marly parfüm ve kolonya",
   "description": "Parfums de Marly markasının Hamdani parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Hamdani, 2013 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Fabrice Pellegrin. Üst notalar: Beyaz sakız ve Mür; orta notalar: Guayak ağacı, Bal ve Karanfil; alt notalar Deri, Styrax, Papirüs, Tütün, Benzoin ve Sandal ağacı.",
-  "description_original": "Parfums de Marly markasının Hamdani parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Hamdani, 2013 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Fabrice Pellegrin. Üst notalar: Beyaz sakız ve Mür; orta notalar: Guayak ağacı, Bal ve Karanfil; alt notalar Deri, Styrax, Papirüs, Tütün, Benzoin ve Sandal ağacı.",
+  "description_original": "Parfums de Marly markasının Hamdani parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Hamdani, 2013 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Fabrice Pellegrin. Üst notalar: Olibanum ve Mür; orta notalar: Guayak ağacı, Bal ve Karanfil; alt notalar Deri, Styrax, Papirüs, Tütün, Benzoin ve Sandal ağacı.",
   "description_enhanced": "Parfums de Marly markasının Hamdani parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Hamdani, 2013 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Fabrice Pellegrin. Üst notalar: Beyaz sakız ve Mür; orta notalar: Guayak ağacı, Bal ve Karanfil; alt notalar Deri, Styrax, Papirüs, Tütün, Benzoin ve Sandal ağacı.",
   "mainAccords": [
     {
@@ -41,30 +41,58 @@
     {
       "name": "dumanlı",
       "width": "45.4472%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.55",
-    "votesCount": "408",
+    "votesCount": "418",
     "breakdown": {
-      "love": "151",
-      "like": "98",
-      "ok": "23",
-      "dislike": "98",
-      "hate": "38"
+      "love": "155",
+      "like": "99",
+      "ok": "25",
+      "dislike": "100",
+      "hate": "39"
     }
   },
   "seasons": {
-    "winter": "146",
+    "winter": "149",
     "spring": "34",
     "summer": "16",
-    "autumn": "126",
-    "day": "59",
-    "night": "143"
+    "autumn": "129",
+    "day": "60",
+    "night": "148"
   },
   "notes": {
     "top": [
-      "Beyaz sakız",
+      "Olibanum",
       "Mür"
     ],
     "middle": [
@@ -83,33 +111,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "13",
+    "weak": "17",
+    "moderate": "46",
+    "longLasting": "100",
+    "eternal": "56"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "26",
+    "moderate": "46",
+    "strong": "104",
+    "enormous": "74"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "0",
+    "unisex": "18",
+    "moreMale": "21",
+    "male": "95"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "23",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "24",
+    "overpriced": "28",
+    "fair": "25",
+    "goodValue": "4",
+    "greatValue": "19"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ALFRED DUNHİLL",
+      "name": "Dunhill Icon Absolute"
+    },
+    {
+      "brand": "TAUER PERFUMES",
+      "name": "L'Oudh"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Afrika Olifant"
+    },
+    {
+      "brand": "ZOOLOGİST PERFUMES",
+      "name": "Hyrax"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "The Library Collection Opus VIII"
+    },
+    {
+      "brand": "ROBERT PİGUET",
+      "name": "Oud"
+    },
+    {
+      "brand": "ANGEL SCHLESSER",
+      "name": "Angel Schlesser Homme Oriental Edition"
+    },
+    {
+      "brand": "PEKJİ",
+      "name": "Holy Shit"
+    },
+    {
+      "brand": "BORTNİKOFF",
+      "name": "L'Heure Exquise"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Figment Man"
+    },
+    {
+      "brand": "JOVOY PARİS",
+      "name": "Private Label"
+    },
+    {
+      "brand": "JORUM STUDİO",
+      "name": "Fantosmia"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "A*Men Pure Leather Pure Cuir"
+    },
+    {
+      "brand": "LADANİKA",
+      "name": "Leshy Леший"
+    },
+    {
+      "brand": "RAMMSTEİN",
+      "name": "Gasolin"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TİZİANA TERENZİ",
@@ -134,10 +223,6 @@
     {
       "brand": "TAUER PERFUMES",
       "name": "02 L'Air du Desert Marocain"
-    },
-    {
-      "brand": "HİSTOİRES DE PARFUMS",
-      "name": "1740 Marquis de Sade"
     },
     {
       "brand": "SERGE LUTENS",
@@ -168,8 +253,114 @@
       "name": "Black Orchid"
     },
     {
+      "brand": "DİOR",
+      "name": "Fahrenheit"
+    },
+    {
       "brand": "PARFUMS DE MARLY",
       "name": "Oajan"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent1039996",
+      "author": "Chromo",
+      "date": "2023-11-21",
+      "text": "Tüm bu olumsuz yorumları anlamıyorum.\nBugün bir şişe Hamdani aldım ve aldığım için çok mutluyum.\nÇok yönlü bir koku değil, hayır, ama kesinlikle giyilebilir.\nOrman içindeki eski bir ev ve açık ateş gibi kokuyor… hem de en iyi şekilde.\nDürüst olmak gerekirse, en sevdiğim PDM'lerden biri. Ve hepsini denedim.\nHarika",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1361262.jpg"
+    },
+    {
+      "id": "parent1039995",
+      "author": "OHfragluvr",
+      "date": "2023-04-03",
+      "text": "Niş parfüm markalarını çok seviyorum; neredeyse tüm PdM kokularına ve Amouage'dan da epey bir tanesine sahibim. Uygun tür ve miktarda tütsü ekleyin, bu parfümün Umman'da üretilmiş olduğunu düşünebilirim; ancak Pellegrin'in Amouage için tasarladığı Sunshine Man, bu kokudan çok daha parlak. Bana kalırsa, PDM'nin kokuları ya kitlesel çekicilik için tasarlanmış niş kokular ve biz onları seviyoruz (Layton, Herod), ya da tamamen niş kokular ve herkese hitap etmiyorlar (Kalan) -- ve ikincisi Hamdani'dir. Bana ısınmam ve gerçekten sevmeye başlamam için birkaç kez kullanmam gerekti, karmaşık oryantal kokular işte böyle olur. Utangaç olmayan bir şekilde erkeksi, güçlü ve unutulmaz; çoğu zaman ısırık atacak kadar hayvansal. Eğer ananas, \"mavi\" ve duştan yeni çıkmış gibi kokan kokulara hayran biriyseniz... geri dönün, yanlış yerdesiniz. Kesinlikle daha serin havalar için bir koku; genellikle otuz beş yaşın altındaki erkeklerin bunu kullandığını görmezsiniz. Bu parfümde unisex bir yan yok, tamamen erkek parfümü. Haydi bakalım.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1670310.jpg"
+    },
+    {
+      "id": "parent1040005",
+      "author": "Thefirstpumpkin",
+      "date": "2022-07-18",
+      "text": "Bu çok özel bir koku; mutlaka zengin, çekici ya da mide bulandırıcı değil; alışkanlıkla sevilen kokulardan biri; karanlık, gizemli, sade ve hüzünlü. Reçine, tütsü, Oud (çok güçlü değil), karanfil ve özellikle deri unsurlarıyla doludur. Okurlar arasında bir fikir edinmek isteyen varsa, atların veterinerlik sabunuyla yıkandıklarında yaydıkları kokuya benziyor; yani ilk açıldığında ıslak deri, ıslak toprak ve baharat kokuyor, ancak kurudukça daha yumuşak hale geliyor ve tütün, biraz reçine ve tatlı unsurlar (bal gibi) öne çıkıyor ve işte o zaman en kullanışlı hale geliyor. Sonuç olarak, hiçbir parfüm körü körüne satın alınmamalıdır ve bu örnek size bunu kanıtlıyor. Benim kişiliğime uymadığı için onu çok yönlü veya çok kullanışlı bulmuyorum, ancak herhangi bir hiper-erkeksi tipe çok yakışır. Aklıma deri ceket giyip motosiklet sürmeyi seven bir erkek ya da siyah takım elbise giyen çok şık biri geliyor. Aslında herkes kullanabilir. Kağıt şeritlerde koklamayı ya da avucumun iç kısmına biraz sürmeyi çok seviyorum çünkü normalde kullanmasam da yeni kokuları ya da bağımlılık yapan kokuları sık sık koklamayı seviyorum. Bana Amouage'ın Figment Man'ini hatırlatıyor, uzaktan seyredilecek sanat eserleri gibi, belki de",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent1039997",
+      "author": "FreddyK",
+      "date": "2021-07-16",
+      "text": "Bugün 125 ml'lik bir şişe Hamdani aldım. Dürüst olmak gerekirse, Hamdani'ye bir kuruş bile harcamaya kendimi zorlayacağımı hiç düşünmemiştim. Bu parfümü bilenler, kokusunun nasıl olduğunu çok iyi bilirler. Hamdani'nin tartışmalı bir parfüm olarak değerlendirilebileceğini söylemek gerekir ve ben bu görüşe katılıyorum. Niş parfümlerin imgeler ve anılar uyandırdığı söylenir ve bu söz, Hamdani ile en iyi şekilde ilişkilendirilebilir. İlk kez kokladığımda gerçekten şok oldum! Bir at ahırı gördüm, kokuşmuş, nemli ve tuhaf bir at derisi kokusu. Saf sihir. Ne yazık ki üretimden kaldırıldı, ne zaman olduğunu bilmiyorum ama nedenini tahmin edebiliyorum. Bu parfüm herkese hitap etmiyor. Ne kalabalığı memnun eden ne de ferah bir parfüm. Bu, SAF sofistike bir parfüm. Çok benzersiz ve kendine özgü bulduğum için satın aldım. Hem seviyorum hem de nefret ediyorum. Bu muhteşem yaratıma şapka çıkarıyorum.\n+ Bugün (17.07.2021) komik bir olay yaşandı. Babam bana Habdan yerine Hamdani aldı (ben zaten almıştım ama o bilmiyor) xD Ona bir hata yaptığını söylediğimde çok şaşırdı çünkü Hamdani'nin kokusunu biliyor xD Ona hep HABDAN dedim, HAMDANI değil Haha! O çok tatlı! Onun hayal kırıklığına uğramasını istemiyorum, bu harika hata muhteşemdi! Babamı seviyorum! <3 + Hikayeyi öğrenmek isterseniz, lütfen Habdan hakkındaki yorumuma göz atın.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1231188.jpg"
+    },
+    {
+      "id": "parent1040008",
+      "author": "parfuminyourblood",
+      "date": "2021-07-09",
+      "text": "Tim Burton’ın “Sleepy Hollow” filminin kokulu yorumu.\nSert, dumanlı ve acı bir toprak kokusu, kompozisyonun başlangıcını oluşturur. Yağmur sonrası ormanın kokusunu (nemli toprak, ağaçlar ve likenler) temsil eden toprak akoru, kokunun ciltte kalma süresi boyunca uzun saatler boyunca kalır ve ancak baz notalarda tamamen kaybolur.\nKarakteristik dumanlı deri, ağaç ve reçinelerle birleşerek demiryolu kokusunu yaratır.\nOrta notalarda kuru ve en az o kadar sert tütün, biraz baharat ve balmumu-propolis akordu eklenir.\nVe baz notalarında kompozisyon o kadar kuru hale gelir ki, onu tozlu ve çürümüş olarak nitelendirmek hiç de zor değildir. Bu aşamada dumanlı deri, ağaç, tütün, sonbahar yaprakları, baharatlar ve reçineler belirgin bir şekilde hissedilir. Ve saman kokusu bu aşamayı tamamlayarak gerçekten ilginç hale getirir.\nTeknik özellikler tam da olması gerektiği gibidir. Yeterince kalıcı ve yayılan, ancak kesinlikle ölçülüdür.\nSonbahar, karanlık, sihir ve tabii ki başsız atlı.\nÖzetle, Hamdani, deri temalı en karakteristik, etkileyici, karmaşık ve benzersiz kokulardan biridir; onu en güzel ve kesinlikle bir şaheser olarak nitelendirmemek imkansızdır.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.241287.jpg"
+    },
+    {
+      "id": "parent1040001",
+      "author": "Valmej",
+      "date": "2020-11-10",
+      "text": "Hamdani... Öncelikle şunu söylemeliyim ki bu çok ciddi, karanlık ve hatta gizemli bir koku. Oldukça keskin bir kokusu var ve şahsen başka hiçbir yerde koklamadığım bir şey. İçinde tütsü ve reçineyi çok hissediyorum. Balsamik ve biraz tozlu bir his veriyor. Bu parfüm gerçekten çok tuhaf. Arabian Breed serisinin Hamdani ve Nisean dışında diğer ürünlerini tanımıyorum ama şunu söylemeliyim ki ikisi de zarif ve karanlık kokular ama Hamdani'yi daha gizemli ve kuru buluyorum. Midnight Oud, Interlude, Oud Abyad ve benzeri güçlü kokuları sevmiyorsanız KÖRÜ KÖRÜNE SATIN ALMAYIN.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.49367.jpg"
+    },
+    {
+      "id": "parent1040003",
+      "author": "Landberk70",
+      "date": "2020-11-09",
+      "text": "Bu parfümü ilk kez sürdüğümde adeta donakaldım. İtiraf etmeliyim ki bu, gözü kapalı bir satın almaydı ve neyle karşılaşacağımı bilmiyordum; bileşenlerini okuyarak hayal edebileceğim kokudan ne kadar farklı olacağına dair en ufak bir fikrim bile yoktu. İlk notaları reçineler, deri ve tütsüden oluşan güçlü bir koku. Bir fikir vermek gerekirse, ilk aşamada Amouage'ın Interlude parfümüne çok benziyor, diğer kısmı ise daha odunsu ve bana Valentino Noir Absolu Oud Essence'ı hatırlatıyor; bu iki parfüme oldukça yakın bir karışım. Kişilik, gizem ve güç barındırıyor. Şimdi kullandıkça bu parfümü anlamaya ve sevmeye başlıyorum; hiç de tatlı, narenciye veya baharatlı değil, reçine, deri ve odunsu bir koku. 30 yaş üstü kişiler için tavsiye edilir; başlangıçta belirgin bir iz bırakıp çok iyi yayılsa da günlük kullanım için uygun olabilir, iki saat sonra koku hafifleyerek, sizi egzotik Orta Doğu'ya, çöldeki bir vahada dörtnala koşmaya götüren kişisel bir koku kalıyor. Sonuç olarak, resmi ve yarı resmi kıyafetlerle kullanılmak üzere, ilginç, zarif ve çok şık bir parfüm.\n\nKoku 8,5/10\nKoku izi 8,5/10\nYayılma 8/10\nKalıcılık 8,5/10",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.47798.jpg"
+    },
+    {
+      "id": "parent1039998",
+      "author": "cow paddy",
+      "date": "2020-08-31",
+      "text": "\"Parfums De Marly Oud\" diye Google'da arama yaparsanız, bu parfüm onu içeren üç kokudan biri olarak karşınıza çıkar. Oud/agarwood'un da listede yer aldığını gördüm. Kokunun asıl bağlantısında ise ana nota olarak listelenmemiş.\n\nİlk kokladığımda, çok yoğun bir oud açılışı alıyorum. Bunu beklemeyen veya oud konusunda deneyimi olmayanlar bu kokudan rahatsız olabilir. Bu, kokuya çok ahır gibi, hayvani bir hava katıyor.\n\nYine, kafur listelenen notalar arasında yer almıyor... ancak bu koku çok yoğun bir şekilde Vicks'i andırıyor.\n\nDumanlı tütsü de bu kokuda oldukça baskın.\n\n\nŞahsen, bu türe her zaman ilgi duyduğum için bu kokuyu oldukça seviyorum. Ancak, kullanım alanı ve çekiciliği son derece sınırlı. Bu, PDM'nin normalde kitlelere hitap eden kokularından çok uzak. Yine de Orta Doğu pazarında bir hit olabilir.\nBunu bir randevuya giymeyin. Bunu iş yerinde giymeyin. Bunu resmi bir etkinlikte giymeyin. Ruhani bir yolculuğa çıkmak istediğinizde veya iyi ya da kötü fark etmeksizin gerçekten bir izlenim bırakmak istediğinizde bunu evde giyin.\n\nBu, körü körüne satın alınabilecek bir ürün değil. Önce numuneyi deneyin.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent1040006",
+      "author": "MHASK",
+      "date": "2016-01-27",
+      "text": "Sıcak, derin ve çaresizce. Onu bulmanın kendi yolunuzu bulun, ama dikkatli olun; şişeden çıktığında akıl almaz bir hal alır. En az yarım gün boyunca cildinizde bırakın ve gerçek bir şaheserin sizin için neler yapabileceğini keşfedin: sadece koku alma duyunuzu değiştirmekle kalmaz, kendi kokunuz hakkında düşünme şeklinizi de değiştirir.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent1039994",
+      "author": "JuR",
+      "date": "2013-12-14",
+      "text": "Onu içtenlikle, derinden, çaresizce seviyorum. Onu bulmak için her şeyi yapın, ama dikkat edin, şişeden çıktığı anda anlamsızdır. En az yarım gün boyunca cildinizde kalmasına izin verin ve gerçek bir şaheserin sizin için neler yapabileceğini keşfedin: sadece kokunuzu değiştirmekle kalmaz, kendi kokunuza karşı hissettiklerinizi de değiştirir. İçinize işler ve sizi yücelter, unuttuğunuz yerlere götürür.\n\nVe baştan çıkarma söz konusu olduğunda, bu artık bir parfüm değil, bir saldırı silahıdır.\n\n;-)",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     }
   ]
 }

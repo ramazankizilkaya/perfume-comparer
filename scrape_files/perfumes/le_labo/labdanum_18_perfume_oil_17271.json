@@ -49,6 +49,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "49.9231%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,33 +111,70 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "1",
+    "longLasting": "6",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "1",
+    "strong": "3",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LE LABO",
+      "name": "Labdanum 18"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Elixir Charnel Oriental Brulant"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Shalimar Eau de Parfum"
+    },
+    {
+      "brand": "DANA",
+      "name": "Toujours Moi"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Musc Ravageur"
+    },
+    {
+      "brand": "ROUGE BUNNY ROUGE",
+      "name": "Embers"
+    },
+    {
+      "brand": "SHALİNİ",
+      "name": "Vanille Rêve"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Habit Rouge Spirit"
+    },
+    {
+      "brand": "L'ERBOLARİO",
+      "name": "Meharées"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LE LABO",
@@ -171,5 +236,6 @@
       "brand": "PİERRE GUİLLAUME PARİS",
       "name": "Felanilla 21"
     }
-  ]
+  ],
+  "comments": []
 }

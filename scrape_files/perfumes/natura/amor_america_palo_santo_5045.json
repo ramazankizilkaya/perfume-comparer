@@ -37,15 +37,43 @@
     {
       "name": "toprak",
       "width": "44.2246%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.02",
-    "votesCount": "161",
+    "score": "4.03",
+    "votesCount": "160",
     "breakdown": {
       "love": "71",
       "like": "55",
-      "ok": "4",
+      "ok": "3",
       "dislike": "30",
       "hate": "1"
     }
@@ -72,33 +100,46 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "18",
+    "moderate": "31",
+    "longLasting": "18",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "15",
+    "moderate": "31",
+    "strong": "22",
+    "enormous": "14"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "2",
+    "unisex": "34",
+    "moreMale": "2",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "7",
+    "fair": "3",
+    "goodValue": "14",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LALİQUE",
+      "name": "Encre Noire"
+    },
+    {
+      "brand": "ESCENTRİC MOLECULES",
+      "name": "Molecule 01 + Iris"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ekos Alma 2025"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -160,5 +201,6 @@
       "brand": "DİOR",
       "name": "Pure Poison"
     }
-  ]
+  ],
+  "comments": []
 }

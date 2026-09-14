@@ -29,26 +29,54 @@
     {
       "name": "animalik",
       "width": "52.947%"
+    },
+    {
+      "name": "Online satın alın 7 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.98",
-    "votesCount": "88",
+    "votesCount": "91",
     "breakdown": {
-      "love": "35",
-      "like": "32",
-      "ok": "8",
+      "love": "36",
+      "like": "33",
+      "ok": "9",
       "dislike": "10",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "40",
+    "winter": "41",
     "spring": "41",
     "summer": "21",
-    "autumn": "48",
-    "day": "41",
-    "night": "37"
+    "autumn": "50",
+    "day": "42",
+    "night": "38"
   },
   "notes": {
     "top": [
@@ -65,33 +93,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "7",
+    "moderate": "38",
+    "longLasting": "18",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "38",
+    "strong": "17",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "10",
+    "moreMale": "17",
+    "male": "42"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "4",
+    "overpriced": "1",
+    "fair": "9",
+    "goodValue": "13",
+    "greatValue": "42"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MEMO PARİS",
+      "name": "Irish Leather"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ana Abiyedh Leather"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Royal Leather"
+    },
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Daar Al Shabaab Royal"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Paradox Orient"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "La Yuqawam Ambergris Showers"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Full Moon Over The Desert"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Roman Leather"
+    },
+    {
+      "brand": "PERFUME ENGİNEER",
+      "name": "007 Oud"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Aoud Prestigium"
+    },
+    {
+      "brand": "GEPARLYS PARFUMS",
+      "name": "Bois d'Iris"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON ALHAMBRA",
@@ -114,12 +187,12 @@
       "name": "Encre Noire"
     },
     {
-      "brand": "LALİQUE",
-      "name": "Encre Noire A L'Extreme"
+      "brand": "ESSENTİAL PARFUMS",
+      "name": "Bois Impérial"
     },
     {
-      "brand": "MONTBLANC",
-      "name": "Explorer"
+      "brand": "LALİQUE",
+      "name": "Encre Noire A L'Extreme"
     },
     {
       "brand": "HERMÈS",
@@ -153,5 +226,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
     }
-  ]
+  ],
+  "comments": []
 }

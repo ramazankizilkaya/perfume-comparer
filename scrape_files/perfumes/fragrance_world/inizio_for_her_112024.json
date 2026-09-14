@@ -45,13 +45,41 @@
     {
       "name": "animalik",
       "width": "54.5%"
+    },
+    {
+      "name": "Online satın alın 11 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.79",
-    "votesCount": "19",
+    "score": "3.85",
+    "votesCount": "20",
     "breakdown": {
-      "love": "4",
+      "love": "5",
       "like": "10",
       "ok": "2",
       "dislike": "3",
@@ -59,12 +87,12 @@
     }
   },
   "seasons": {
-    "winter": "3",
-    "spring": "3",
+    "winter": "4",
+    "spring": "4",
     "summer": "5",
-    "autumn": "4",
+    "autumn": "5",
     "day": "5",
-    "night": "3"
+    "night": "4"
   },
   "notes": {
     "top": [
@@ -87,33 +115,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "3",
+    "longLasting": "5",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "3",
+    "strong": "5",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "1",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Her Elixir de Parfum"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Her"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Mon Paris"
+    },
+    {
+      "brand": "RAVE",
+      "name": "Now Women"
+    },
+    {
+      "brand": "LA FEDE",
+      "name": "Celeste Joice"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Cassili"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -128,12 +181,12 @@
       "name": "Amarige"
     },
     {
-      "brand": "ARMAF",
-      "name": "Ego Exotic"
-    },
-    {
       "brand": "MUGLER",
       "name": "Alien"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Ego Exotic"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -146,10 +199,6 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Nebras"
-    },
-    {
-      "brand": "FRAGRANCE WORLD",
-      "name": "Elysia Vanilla Sugar"
     },
     {
       "brand": "AQUOLİNA",
@@ -165,15 +214,20 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Mohra Silky Rose"
+      "name": "Ana Abiyedh Rouge"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Elysia Vanilla Sugar"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Ana Abiyedh Rouge"
+      "name": "Mohra Silky Rose"
     },
     {
       "brand": "MOSCHİNO",
       "name": "Toy Boy"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,13 +49,41 @@
     {
       "name": "odunsu",
       "width": "50.6781%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.20",
-    "votesCount": "111",
+    "score": "4.21",
+    "votesCount": "113",
     "breakdown": {
-      "love": "54",
+      "love": "56",
       "like": "37",
       "ok": "10",
       "dislike": "8",
@@ -64,11 +92,11 @@
   },
   "seasons": {
     "winter": "15",
-    "spring": "44",
-    "summer": "32",
-    "autumn": "34",
-    "day": "40",
-    "night": "29"
+    "spring": "46",
+    "summer": "34",
+    "autumn": "35",
+    "day": "42",
+    "night": "30"
   },
   "notes": {
     "top": [
@@ -89,37 +117,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "10",
+    "weak": "8",
+    "moderate": "31",
+    "longLasting": "11",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "18",
+    "moderate": "31",
+    "strong": "16",
+    "enormous": "23"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "4",
+    "unisex": "25",
+    "moreMale": "13",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "5",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "8",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "1899 Hemingway"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Velvet Plum"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Ambre Sultan"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Spicebomb"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Rehab"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Cardamom - Gender Neutral"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Spicebomb Metallic Musk"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "La Commedia"
+    },
+    {
+      "brand": "MATCA",
+      "name": "Midnight Honey"
+    },
+    {
+      "brand": "MAİSON VİOLET",
+      "name": "Pour Rêver"
+    }
+  ],
   "peopleAlsoLike": [
     {
-      "brand": "HERMÈS",
-      "name": "Terre d'Hermès"
+      "brand": "LALİQUE",
+      "name": "Lalique White"
     },
     {
       "brand": "LALİQUE",
@@ -136,6 +205,10 @@
     {
       "brand": "LALİQUE",
       "name": "Lalique Pour Homme Equus"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Grey Vetiver"
     },
     {
       "brand": "TAUER PERFUMES",
@@ -172,10 +245,7 @@
     {
       "brand": "SERGE LUTENS",
       "name": "Fille en Aiguilles"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Herod"
     }
-  ]
+  ],
+  "comments": []
 }

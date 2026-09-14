@@ -47,8 +47,36 @@
       "width": "51%"
     },
     {
-      "name": "taze",
+      "name": "taze baharatlı",
       "width": "50.3332%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -92,33 +120,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "15",
+    "weak": "28",
+    "moderate": "36",
+    "longLasting": "5",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "38",
+    "moderate": "36",
+    "strong": "10",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "44",
+    "moreFemale": "9",
+    "unisex": "8",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "11",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "33",
+    "greatValue": "14"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Frutas Tropicais"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Maui Fantasy"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Ralph Cool"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bombshell Paradise Eau de Parfum"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Sì Passione"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Bal d'Afrique"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One Summer 2014"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue Sun"
+    },
+    {
+      "brand": "SHAKİRA",
+      "name": "Animal Rock"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ameixa e Flor de Baunilha"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -180,5 +249,6 @@
       "brand": "NATURA",
       "name": "Luna Intenso"
     }
-  ]
+  ],
+  "comments": []
 }

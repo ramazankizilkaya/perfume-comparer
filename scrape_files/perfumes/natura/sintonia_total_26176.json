@@ -45,26 +45,54 @@
     {
       "name": "gül",
       "width": "47.0931%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.09",
-    "votesCount": "91",
+    "score": "4.06",
+    "votesCount": "93",
     "breakdown": {
       "love": "34",
-      "like": "43",
+      "like": "44",
       "ok": "2",
-      "dislike": "12",
+      "dislike": "13",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "14",
-    "spring": "42",
-    "summer": "33",
-    "autumn": "23",
-    "day": "38",
-    "night": "25"
+    "winter": "15",
+    "spring": "43",
+    "summer": "34",
+    "autumn": "24",
+    "day": "39",
+    "night": "26"
   },
   "notes": {
     "top": [
@@ -85,33 +113,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "4",
+    "moderate": "24",
+    "longLasting": "8",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "24",
+    "strong": "9",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "11",
+    "moreMale": "7",
+    "male": "14"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "2",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Mania"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Sport"
+    },
+    {
+      "brand": "LANVİN",
+      "name": "Oxygene Homme"
+    },
+    {
+      "brand": "SHAKİRA",
+      "name": "Dream"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Sauvage"
+    },
+    {
+      "brand": "COACH",
+      "name": "Coach Blue"
+    },
+    {
+      "brand": "VİCTORİO & LUCCHİNO",
+      "name": "Nº 2 Frescor Extremo"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -130,12 +187,12 @@
       "name": "Bleu de Chanel"
     },
     {
-      "brand": "CAROLİNA HERRERA",
-      "name": "212 Men"
-    },
-    {
       "brand": "DİOR",
       "name": "Sauvage"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Men"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -173,5 +230,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Egeo"
     }
-  ]
+  ],
+  "comments": []
 }

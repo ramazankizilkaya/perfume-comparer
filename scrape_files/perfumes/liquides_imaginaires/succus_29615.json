@@ -29,22 +29,50 @@
     {
       "name": "amber",
       "width": "46.2237%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.73",
-    "votesCount": "315",
+    "votesCount": "318",
     "breakdown": {
-      "love": "77",
-      "like": "138",
+      "love": "78",
+      "like": "139",
       "ok": "49",
-      "dislike": "39",
+      "dislike": "40",
       "hate": "12"
     }
   },
   "seasons": {
     "winter": "14",
-    "spring": "84",
+    "spring": "85",
     "summer": "73",
     "autumn": "30",
     "day": "81",
@@ -73,33 +101,86 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "13",
+    "moderate": "49",
+    "longLasting": "27",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "17",
+    "moderate": "49",
+    "strong": "34",
+    "enormous": "26"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "9",
+    "moreFemale": "4",
+    "unisex": "57",
+    "moreMale": "7",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "8",
+    "overpriced": "21",
     "fair": "49",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "8",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Mania"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Chembur"
+    },
+    {
+      "brand": "MARİA CANDİDA GENTİLE",
+      "name": "Gershwin"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau Bleue d'Issey Pour Homme"
+    },
+    {
+      "brand": "LES BAİNS GUERBOİS",
+      "name": "1885 Bains Sulfureux"
+    },
+    {
+      "brand": "MİLLER HARRİS",
+      "name": "La Pluie"
+    },
+    {
+      "brand": "ATELİER DES ORS",
+      "name": "Larmes du Désert"
+    },
+    {
+      "brand": "ROOK PERFUMES",
+      "name": "Forest"
+    },
+    {
+      "brand": "GALLİVANT",
+      "name": "Naples"
+    },
+    {
+      "brand": "ALLSAİNTS",
+      "name": "Concrete Rain"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Lalique Pour Homme Equus"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Idole d'Armani Eau de Toilette"
+    },
+    {
+      "brand": "ATKİNSONS",
+      "name": "24 Old Bond Street Triple Extract"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LES LİQUİDES IMAGİNAİRES",
@@ -161,5 +242,6 @@
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

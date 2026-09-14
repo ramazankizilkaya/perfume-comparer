@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67867.jpg",
   "url": "https://www.fragrantica.tr/perfumes/L-Artisan-Parfumeur/Fables-d-Orient-67867.html",
   "brand": "L'Artisan Parfumeur parfüm ve kolonya",
-  "description": "L'Artisan Parfumeur markasının Fables d'Orient parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Fables d'Orient, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christophe Raynaud. Kokuda Muskat, Heliotrop, İris, Amber, Beyaz sakız, Mür ve Misk notaları bulunur.",
-  "description_original": "L'Artisan Parfumeur markasının Fables d'Orient parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Fables d'Orient, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christophe Raynaud. Kokuda Muskat, Heliotrop, İris, Amber, Beyaz sakız, Mür ve Misk notaları bulunur.",
-  "description_enhanced": "L'Artisan Parfumeur markasının Fables d'Orient parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Fables d'Orient, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christophe Raynaud. Kokuda Muskat, Heliotrop, İris, Amber, Beyaz sakız, Mür ve Misk notaları bulunur.",
+  "description": "L'Artisan Parfumeur markasının Fables d'Orient parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Fables d'Orient, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christophe Raynaud. Kokuda Muskat, Heliotrope, İris, Amber, Olibanum, Mür ve Misk notaları bulunur.",
+  "description_original": "L'Artisan Parfumeur markasının Fables d'Orient parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Fables d'Orient, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christophe Raynaud. Kokuda Muskat, Heliotrope, İris, Amber, Olibanum, Mür ve Misk notaları bulunur.",
+  "description_enhanced": "L'Artisan Parfumeur markasının Fables d'Orient parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Fables d'Orient, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christophe Raynaud. Kokuda Muskat, Heliotrope, İris, Amber, Olibanum, Mür ve Misk notaları bulunur.",
   "mainAccords": [
     {
       "name": "amber",
@@ -49,26 +49,30 @@
     {
       "name": "menekşe",
       "width": "45.8412%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
-    "score": "4.19",
-    "votesCount": "278",
+    "score": "4.16",
+    "votesCount": "298",
     "breakdown": {
-      "love": "138",
-      "like": "83",
-      "ok": "36",
-      "dislike": "13",
+      "love": "147",
+      "like": "85",
+      "ok": "40",
+      "dislike": "18",
       "hate": "8"
     }
   },
   "seasons": {
-    "winter": "104",
-    "spring": "64",
-    "summer": "26",
-    "autumn": "105",
-    "day": "81",
-    "night": "93"
+    "winter": "109",
+    "spring": "66",
+    "summer": "27",
+    "autumn": "111",
+    "day": "85",
+    "night": "97"
   },
   "notes": {
     "top": [],
@@ -76,10 +80,10 @@
     "base": [],
     "all": [
       "Muskat",
-      "Heliotrop",
+      "Heliotrope",
       "İris",
       "Amber",
-      "Beyaz sakız",
+      "Olibanum",
       "Mür",
       "Misk"
     ]
@@ -107,7 +111,7 @@
   "priceVoting": {
     "wayOverpriced": "",
     "overpriced": "",
-    "fair": "36",
+    "fair": "40",
     "goodValue": "",
     "greatValue": ""
   },
@@ -118,11 +122,15 @@
       "name": "Grand Soir"
     },
     {
+      "brand": "GUERLAİN",
+      "name": "Spiritueuse Double Vanille"
+    },
+    {
       "brand": "SERGE LUTENS",
       "name": "Chergui"
     },
     {
-      "brand": "MATİERE PREMİERE",
+      "brand": "MATİÈRE PREMİÈRE",
       "name": "Encens Suave"
     },
     {
@@ -132,6 +140,10 @@
     {
       "brand": "JO MALONE LONDON",
       "name": "Myrrh & Tonka"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Cuir Béluga"
     },
     {
       "brand": "MAİSON MARTİN MARGİELA",
@@ -164,14 +176,7 @@
     {
       "brand": "BY KİLİAN",
       "name": "Angels' Share"
-    },
-    {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Oud Satin Mood"
-    },
-    {
-      "brand": "L'ARTİSAN PARFUMEUR",
-      "name": "Ode à l'Oudh"
     }
-  ]
+  ],
+  "comments": []
 }

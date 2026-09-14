@@ -56,46 +56,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "2",
-    "moderate": "11",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "11",
-    "strong": "0",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "9",
-    "moreFemale": "4",
-    "unisex": "2",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "3",
-    "greatValue": "3"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BENETTON",
-      "name": "Gold"
-    },
-    {
-      "brand": "GALE HAYMAN",
-      "name": "Delicious Feelings"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Sea Island Cotton"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -157,5 +144,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,59 +16,87 @@
     },
     {
       "name": "sıcak baharatlı",
-      "width": "66.3486%"
+      "width": "66.9258%"
     },
     {
       "name": "tarçın",
-      "width": "64.9334%"
+      "width": "65.7347%"
     },
     {
       "name": "amber",
-      "width": "62.2806%"
-    },
-    {
-      "name": "tatlı",
-      "width": "59.9808%"
+      "width": "64.1465%"
     },
     {
       "name": "misk",
-      "width": "59.9808%"
+      "width": "61.3672%"
+    },
+    {
+      "name": "tatlı",
+      "width": "60.3347%"
     },
     {
       "name": "çiçeksi",
-      "width": "52.2866%"
+      "width": "51.7982%"
     },
     {
       "name": "balsamik",
-      "width": "48.8375%"
+      "width": "48.979%"
     },
     {
       "name": "yeşil",
-      "width": "48.7492%"
+      "width": "48.741%"
     },
     {
-      "name": "paçuli",
-      "width": "46.8037%"
+      "name": "odunsu",
+      "width": "46.9144%"
+    },
+    {
+      "name": "Online satın alın 27 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.09",
-    "votesCount": "210",
+    "score": "4.08",
+    "votesCount": "221",
     "breakdown": {
-      "love": "97",
-      "like": "63",
+      "love": "101",
+      "like": "68",
       "ok": "27",
-      "dislike": "18",
-      "hate": "5"
+      "dislike": "19",
+      "hate": "6"
     }
   },
   "seasons": {
-    "winter": "104",
-    "spring": "52",
-    "summer": "17",
-    "autumn": "106",
-    "day": "53",
-    "night": "94"
+    "winter": "113",
+    "spring": "55",
+    "summer": "20",
+    "autumn": "114",
+    "day": "59",
+    "night": "103"
   },
   "notes": {
     "top": [
@@ -88,33 +116,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "3",
+    "moderate": "36",
+    "longLasting": "58",
+    "eternal": "18"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "36",
+    "strong": "59",
+    "enormous": "12"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "22",
+    "moreFemale": "34",
+    "unisex": "67",
+    "moreMale": "7",
+    "male": "7"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "3",
     "fair": "27",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "45",
+    "greatValue": "39"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SCENTS OF WOOD",
+      "name": "Plum in Cognac"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Love in Paris"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Wood Jasmin"
+    },
+    {
+      "brand": "HAUTE FRAGRANCE COMPANY HFC",
+      "name": "Private Code"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born in Roma Purple Melancholia"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Vulcan Sable"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Hercules"
+    },
+    {
+      "brand": "PATRİCE MARTİN",
+      "name": "Ghost Buster"
+    },
+    {
+      "brand": "PARFUMS BERDOUES",
+      "name": "Maasaï Mara"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Nightfall Patchouli"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Single Malt"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Fleur Universelle"
+    },
+    {
+      "brand": "ALFRED DUNHİLL",
+      "name": "Custom"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "Dua Formula 006"
+    },
+    {
+      "brand": "ATELİER DES ORS",
+      "name": "Rouge Sarây"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -146,19 +235,23 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Artisan Ethnique"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
       "name": "Sehr"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Teriaq"
+      "name": "Artisan Ethnique"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Mashrabya"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Eternal Oud"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Teriaq"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -171,10 +264,208 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent693539",
+      "author": "birdbiscuit",
+      "date": "2025-11-05",
+      "text": "Benim için bu koku, tercihlerimin zaman içinde değiştiğinin ve geliştiğinin kanıtı. Parfüm hobisine ilk başladığımda, gurme notalara, kolayca anlaşılabilen kokulara ağırlık veriyor ve baharatlı her şeyden kaçınıyordum. Hatta bir keresinde, özellikle ud kokusunu asla kendimde sevmeyeceğime karar vermiştim (diğer kokuları çok severdim). Safça bir düşünceydi, biliyorum. Neyse, bu koku her şeyi değiştirdi. Rastgele, kör alışveriş ruleti oynayarak aldım. Kutudan çıkarıp ilk kokladığımda, bir hata yaptığımı hissettim. Ama daha soğuk ve kuru havalar gelene kadar (yaklaşık iki ay) beklettim. Üzerine vanilya losyonu ve parfüm yağı sürdüm. Sonuç, daha derin ve çiçeksi veya gurme tarzı olmayan, kitlelere hitap etmeyen bir kokuya ilk adımım oldu. Bu, daha olgun, organik bir tarçın kokusu.\n\nErik, tarçın, misk ve paçuli kesinlikle mevcut ve tanınabilir. Diğer notalar benim için yeni ve bunları tek tek tartışacak bilgiye sahip değilim. Söyleyebileceğim şey, bunun zengin, kolay baharatlı, rahatlatıcı bir koku olduğudur. Havalar soğumaya devam ettikçe bundan keyif alacağımı düşünüyorum. İçinde sevdiğim dumanlı/topraksı bir unsur var. Bu, kör alışveriş için güvenli bir koku DEĞİL. Eğer risk almayı seçerseniz, açık fikirli olun, farklı sıcaklık ve nem seviyelerine sahip günlerde deneyin. Çok keskin gelirse, vanilya alt tonlu bir şeyle (duş jeli, losyon, yağ) eşleştirin.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Petra"
+      "id": "parent693566",
+      "author": "Atomicscent",
+      "date": "2025-10-26",
+      "text": "Eğer Herod'un \"kadınlar için\" bir versiyonu olsaydı, tam olarak bu Al Jawhara gibi kokardı. O kadar baharatlı bir koku ki, dip notaları Herod'u çok anımsatıyor. Ancak bu durumda, tütün ve odunsu notalara yönelmek yerine, koku daha çok balzamik ve meyvemsi bir notaya doğru eğiliyor. Açılıştan kısa bir süre sonra erik ön plana çıkıyor ve bu, Lattafa'nın Vintage Radio'sunda bulunan erikle aynı, sadece tamamen farklı bir yorumla. Bu nedenle, eriğin bu koyu ve meyvemsi tarafı sayesinde baharatlı ama çok tatlı bir kokudan bahsediyoruz. Şahsen, hafif alkollü bir unsur da algılıyorum, ama nereden geldiğini bilmiyorum. Havada gerçekten ilgi çekici ve koklamak bir zevk. Sıradan olmayan bir koku arayan biraz daha olgun kadınlar için tavsiye edilir.\n\n8.75/10",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.62072.jpg"
+    },
+    {
+      "id": "parent693578",
+      "author": "Natalya_sky",
+      "date": "2025-08-31",
+      "text": "Benzer seçenekler arasında HFC Private Code ve Attar Khaltat Night olduğu için bunu denemeden aldım. Bu iki ürüne de koleksiyonumda sahibim ve ikisini de çok seviyorum.\nGenel olarak evet, yönleri benzer, ancak klon olduklarını söyleyemem. Tarçınlı, baharatlı kiraz-erik notalarıyla Attar'a daha yakınlar.\nHFC'nin burada acı erik sosu var.\n\nTek başına bir koku olarak harika, çok baharatlı, başlangıçta güçlü bir tarçın ve Davana bitkisel notası içeriyor.\nÇok fazla tarçın sıkarsanız burnunuzu gıdıklar.\nKokusu çok ilginç, sizi baharat yığınlarının, kuru eriklerin, kirazların, tarçın çubuklarının ve bol miktarda koyu şarap likörünün bulunduğu bir oryantal pazara götürüyor.\nKalıcılığı ve yayılımı inanılmaz.\n20 ml'lik boyunu aldım. Ve şimdiden tam boy şişesini istiyorum.\nÖzetle, aroması tarçın serpilmiş, isli ve baharatlı kuru erik kokusuna benziyor.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.452655.jpg"
+    },
+    {
+      "id": "parent693556",
+      "author": "Cecilia21",
+      "date": "2025-08-19",
+      "text": "Eğer favorilerim arasında bir parfüm varsa, o da bu... İlk görüşte aşktı ve her kullandığımda, sonsuza dek sahip olmak istediğim bir parfüm olduğunu düşünüyorum! Tarif etmem gerekirse, erik ve tarçın kompostosu gibi. Narin, tatlı, cesur ve baharatlı, baştan sona kalıcı bir tarçın (iyi türden! Parfümde mükemmel bir şekilde yerleştirilmiş türden) ile. 10/10",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent693532",
+      "author": "gorgeXzana",
+      "date": "2025-06-10",
+      "text": "Bu parfümü çok beğendim. İlk sıkıldığında sakız gibi kokuyor (çok tatlı değil, sadece nefis) ve 10 dakika sonra cildimde çiçeksi, tarçınlı ve sakız karışımı bir kokuya dönüşüyor. MUHTEŞEM! Yayılımı orta, kalıcılığı 6-7 saat. Kesinlikle iltifat toplayan bir parfüm! Niche Emirates koleksiyonunun (6 parfümüm var) içinde en çok bunu ve Antique'i beğendim.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent733953",
+      "author": "AnkhVeos",
+      "date": "2025-05-28",
+      "text": "Doğu Pazarı, baharatların, çayların, şifalı otların ve kuru meyvelerin buluşma noktası.\n\nTarçın inanılmaz derecede güçlü. Erik, kuru eriklere daha yakın, tütsülenmiş bir tada sahip. Davana'yı hiç duymamıştım ama tarhun otuna benzer bir şey olduğunu tahmin ediyorum. Tüm bunlar, siyah çay ve kirazın güzel esintileriyle bir arada tutuluyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.401376.jpg"
+    },
+    {
+      "id": "parent693544",
+      "author": "Reema199",
+      "date": "2025-04-09",
+      "text": "Kimyon notası olmasaydı harika bir koku olurdu🥲\nDNA'yı çok seviyorum, neredeyse Khamra+Qaed alfursan gibi ama daha yoğun ve inanılmaz derecede uzun süre kalıcı (günlerce sürüyor!), ancak kimyon tamamen mahvediyor, çünkü yazın sıcağında spor yaptıktan sonra günlerce duş almamış, deodorant kullanmamış ve kötü kokusunu parfümle maskelemeye çalışan birinin kokusuna benziyor 🥲 Hayatımın en büyük hatasını yaptım ve evden çıkmadan hemen önce, geç kalmışken sıktım ve kimyon kokusu burnuma çarptığında, kıyafet değiştirmeye veya duş almaya vaktim yoktu (evet, kötü bir durumdu), bu yüzden evden koltuk altı gibi kokarak çıktım.\nBunu bir süre daha bekleteceğim, çünkü DNA'sını gerçekten çok seviyorum, umarım o lanet olası kimyon tamamen yok olur 😭",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent693541",
+      "author": "VioletLily",
+      "date": "2025-03-02",
+      "text": "Al Jawhara'yı çok seviyorum, benim için yumuşak ve tatlı bir koku. İçeriğinde badem notası belirtilmemiş olsa da, hafif bir badem ezmesi/şekerlenmiş badem notası ve bir tutam erik kokusu alıyorum. Çok lezzetli. Hafif ve yumuşak, kremsi, kuru pudra kıvamında, ballı bir tatlılık. Tam olarak aynı şey olduğunu düşünmüyorum ama bana Guerlain Météorites pudrası ile şekerlenmiş badem karışımını hatırlatıyor 💕🍬🍭",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.4433.jpg"
+    },
+    {
+      "id": "parent693555",
+      "author": "Eiyin",
+      "date": "2024-12-30",
+      "text": "Ne muhteşem bir koku... Sulu, koyu ve tatlı bir erik, üzerine birkaç damla konyak ve bir tutam tarçın serpilmiş. Güzelce alevlendirilmiş ve yoğun, ama hafif bir acılık da var, bu yüzden gurme bir koku olduğunu düşünmüyoruz. Bugüne kadar Arap parfümerisinde denediğim en ilginç ve niş kokulardan biri! Ciltte yaklaşık 6 saat kalıyor, ancak zamanla daha dolgunlaşacağını tahmin ediyorum ve tamamen unisex olduğunu düşünüyorum. Bununla birlikte, bir erkekte de kesinlikle muhteşem görüneceğini düşünüyorum. Kesinlikle muhteşem!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.141465.jpg"
+    },
+    {
+      "id": "parent733925",
+      "author": "PerfumedParrot",
+      "date": "2024-12-22",
+      "text": "Lattafa'nın özel Emirati koleksiyonu genel olarak.\n\nNiche Emirati koleksiyonunun tamamından Al Jawhara ve Antique benim en sevdiğim iki parfüm (ve benzer bir yumuşak tatlılığı paylaşıyorlar; Antique incir notasıyla daha sütlü-meyveli, Al Jawhara ise erik ve eklenen Noel baharatıyla daha tereyağlı-meyveli). Ancak bu Niche Emirati serisinden hiçbiri beni gerçekten etkilemedi çünkü aslında niş kalitesinde değiller. Uyarı: Lattafa'nın hala ilham verici kokular üreten, ancak çok daha ucuz fiyatlı bir Arap parfüm markası olduğunu anlıyorum - bu yüzden mükemmellik beklemiyordum ama içten içe etkilenmeyi umuyordum (ve her zaman umuyorum). Ayrıca Remas ve Zikra'ya da sahibim (henüz Fragrantica'da listelenmemişler). Zikra, Angels Share'in bir başka yorumu, ancak bu sefer Khamrah'tan çok daha iyi yapılmış (ancak oldukça zayıf kalıcılığıyla iyi bir süre kalmıyor). Remas gerçekten çok güçlü ve 12 saatten fazla kalıcılığa sahip, inanılmaz derecede yayılmış bir koku yayılımı sunuyor. Çok kadınsı bir vanilya/çiçeksi narenciye-mango kokusu olsa da, içeriğinde çok fazla ambroxan ve ISOE bulunduğu için oldukça kimyasal bir kokuya sahip. Bence hepsinin şişeleri çok zevksiz görünüyor, bu da lüks izlenimi veriyor ama hepsi sadece gösterişli ve yine de düşük bütçeyle üretilmiş.\n\nEl Cevhara.\n\nAma gelin sadece Al Jawhara'ya odaklanalım. Daha önce de belirttiğim gibi, Niche Emirati serisinin tamamında en sevdiğim parfüm bu. Tarçınlı açılış sadece 20 saniye sürüyor ve sonra sakinleşiyor. Başlangıçta Ambre Narguile tarzında bir elmalı turta/tarçın kokusu olacağını düşünüyorsunuz ama bu koku kayboluyor ve ilk birkaç dakika içinde Atlas Fever'a daha çok benziyor. Bu erken aşamada, osmanthus ekşi, demir benzeri bir kan notası veriyor ki bu hoşuma gitmiyor ve Al Jawhara'yı ilk kez kullandığım her seferinde beni rahatsız ediyor. Bu yüzden bu tarçın/ekşi kan açılışını görmezden gelin. Al Jawhara, meyveli erik arasında tuzlu-tatlı, tereyağımsı bir yumuşaklığa sahip. Lattafa, Vintage Radio, Al Nashama vb. parfümlerde bulunan aynı erik notasını yeniden kullanıyor ve daha sonra kalıcılık katmak için günümüzdeki çoğu modern/tasarımcı parfümde bulunan ambroxanı ekliyor, bu da sentetik bir dokunuş veriyor. Neyse ki Al Jawhara, diğer birçok uygun fiyatlı Arap parfümüne kıyasla çok ucuz/yapay kokmuyor. Tatlı laden ve erik kompostosu ile konyak indirgemesinin, tereyağı kıvamında bir krema üzerinde hafif bir tarçın serpilmesiyle oluşturduğu neredeyse gurme bir koku.\n\nÇözüm\n\nKulağa harika geliyor, değil mi? Ama işte \"ama\" geliyor... Al Jawhara'yı beğendim ama bir daha kullanmayacağım. Lattafa'nın en iyi parfümlerinden biri olduğu söylenebilir, ancak lüks/niş markalardan aldığım parfümlerin büyüsünü her zaman bütçe dostu bir markadan/üründen de bulmayı umuyorum. Bir diğer dezavantajı ise Al Jawhara'nın kalıcılığının kısa olması (ciltte 5 saat, kumaşta çok daha uzun süre) ve Lattafa'nın tüm parfümlerinde kullandığı sentetik ambroxan bazının belirgin olması. Ek olarak, eğer aşırı tatlı ve gurme bir parfüm seviyorsanız, Lattafa'nın Eclaire'ini yine de tavsiye ederim. Arap parfümlerinin en alt seviyesinden bıkmış olsam da, Arap parfümlerinin üst seviyesinde beni hayran bırakan olağanüstü parfümler var - parfüm dünyasında bir mükemmellik beni bekliyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.90056.jpg"
+    },
+    {
+      "id": "parent693594",
+      "author": "Hayal",
+      "date": "2024-12-21",
+      "text": "Üst notalarda eksik olan bir unsur var: pembe biber. Aslında pek de önemli değil, çünkü zaten kokusunu alamıyorum. Bende bu parfüm tarçınlı erik gibi kokuyor. Aslında bu notaların hiçbiri birbirine uymuyor. Tatlı, kekimsi, vanilyalı—şenlikli. Paçuli veya misk algılayamıyorum. İlginç bir şekilde, bu seriden ZIKRA adında bir parfüm aldım (Fragrantica'da henüz görmedim) ve iki koku çok benzer. Sadece notalardaki her şey aynı: vanilya, tarçın, pralin ve bir tutam viski.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.17511.jpg"
+    },
+    {
+      "id": "parent693536",
+      "author": "scalesmells777",
+      "date": "2024-12-11",
+      "text": "\"Niş\" kelimesi çok sık kullanılır ama bu koku, en sevdiğim kokulardan biri olan Olympic Orchids'in Dev #1'ini bana çok hatırlatarak bu kelimeyi bir üst seviyeye taşıdı. Tekrar kontrol ettiğimde, ikisinin de labdanum, tarçın ve misk içerdiğini gördüm. İkisi de bana benzer imgeler çağrıştırıyor; aynı yerde ama farklı zamanlarda farklı şeyleri kutlayan iki ayrı buluşma gibi.\n\nAl Jawhara, öğleden sonra geç saatlerde/akşam erken saatlerde düzenlenen bir cadılar çay partisidir. Geniş bir tarlanın yanındaki büyük bir ağacın altında, uzun masaların üzerinde tatlı kekler, meyveli tartlar ve taze demlenmiş bitki çayları bulunur; masalar çamaşır ipinden sarkan keten örtülerle kaplıdır. Tütsü çubukları toprağa saplanmıştır ve ince duman çizgileri, çaydanlıklardan yükselen sıcak buharla birlikte yükselip döner. Taze keten örtüler, tarlanın üzerinden esen bir rüzgarın teninizdeki öğleden sonra terini biraz serinletmesiyle tatlı ikramların masanın üzerinde havada süzülüyormuş gibi görünmesini sağlar.\n\nGeliştirici #1 aynı tarladaki aynı ağacın yanında duruyor, ancak güneş batıyor ve bir ateş yakılmış. Aynı tütsü çubukları hala yerde yanıyor. Çayın yerini tatlı bir karışık içecek alıyor ve dans etmeye başladıkça teninizdeki misk kokusu artıyor.\n\nAl Jawhara, ağacın yanında daha sakin, daha rafine bir anı temsil ediyor. Pürüzsüz yeşillik, sulu meyve ve üstte hafif bir tatlılıkla birleşen muhteşem reçineli bir tabana sahip. Şu an soğuk havada harika kokuyor ama Dev gibi ben de bunun biraz sıcaklık ve nemle daha da iyi olacağını düşünüyorum.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1605726.jpg"
+    },
+    {
+      "id": "parent693593",
+      "author": "catiekruel",
+      "date": "2024-12-06",
+      "text": "Amouage Guidance'ın derin kaslarımı geren bir özelliği var. Ama Guidance acımasız olduğu gibi, bu Lattafa da incelikle fısıldıyor. Aynı zamanda tamamen farklı bir hikaye, bu yüzden iki kokuyu bu kadar acımasızca karşılaştırmak istemiyorum. Koyu ama sıcak, çok tarçınlı, hafif baharatlı ve şehvetli. Çok seksi.\nDeliriyorum, bu yüzden alacağım.\nAyrıca, Lattafa'nın tipik özelliği olan şişe de çok hoş.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.60354.jpg"
+    },
+    {
+      "id": "parent693580",
+      "author": "_Cremona_",
+      "date": "2024-12-04",
+      "text": "Tam boyu çok fazla olduğu için 20 ml'lik şişeyi aldım. Parfümü gerçekten çok beğeniyorum ve zevkle kullanıyorum. Isıtıcı, rahatsız edici olmayan, kaşıntı yapmayan amber notaları içermeyen, sıcak ve sarmalayıcı bir koku. Tamamen unisex.\nKurutulmuş meyve notaları alıyorum ve aroma piramidi sayesinde, baharat ve balzamik notaları içeren, olgunlaşmış erik brendisini tespit ediyorum. Burun için hoş, damakta yumuşak.\nKalıcılığı ortalama düzeyde ve tazelendiğinde tahrişe neden olmuyor. Hafif odunsu-balsamik koku dip notalarda uzun süre kalıyor. Sonbahar ve kış için harika, rahatlatıcı bir seçenek.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.33197.jpg"
+    },
+    {
+      "id": "parent733955",
+      "author": "kappa",
+      "date": "2024-11-26",
+      "text": "Yıldızlar hizaya gelmedi.\n\"Vay canına\" dedirtecek bir etki yaratmadı...\nİlk birkaç saniyede tatlı erik ve tatlı tarçın kokusu geliyor.\nSırada herkesin \"favorisi\" olan TATLI ambroxan var.\nSonunda (8-10 saat sonra) Araplar Trussardi'yi Altın Kokusu adlı gösteri için sahneye çağırdılar.\nBunun için onlara çok teşekkürler!\nNot: Özellikle kutusundan bahsetmek isterim. Bir sanat eseri, parfümün kendisinden daha değerli.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent693590",
+      "author": "madziula",
+      "date": "2024-11-25",
+      "text": "Bir mağaza rafında gördüğüm o güzel, Bizans tarzı ambalaj beni bu parfümü denemeye teşvik etti. \"Şişe\" parfüm şişesinden çok kedi külleri için süslü bir vazoya benzese de, inanılmaz derecede güzel olduğu inkar edilemez. Ama asıl konuya gelelim.\nYoğun ve meyveli şarap notaları (davana sayesinde) içeren, erik-tarçın kokusu, erik-alkol dolgulu çikolataları anımsatıyor. Birkaç saat sonra, belki de paçuli sayesinde, parfüm hafif, pudralı, hatta naneli tonlar kazanıyor. Koku uzun saatler boyunca oldukça belirgin, ancak bunaltıcı değil. Modern, hoş, tatlı ve ekşi, sonbahar ve kış için harika. Arap parfümleri konusunda çok uzman değilim, ancak bu bana Just Jack'in Noir Endurance'ını çok hatırlatıyor, ancak biraz daha narin ve karmaşık.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.29165.jpg"
+    },
+    {
+      "id": "parent693530",
+      "author": "bossdc13",
+      "date": "2024-11-18",
+      "text": "Bu gerçekten güzel bir koku. Kimileri için kadınsı diyeceğimiz tatlı erik notası ve kimileri için erkeksi diyeceğimiz yeşil bir notası var. Dip notalarında tam olarak uymayan bir şey var, davana mı bilmiyorum ama tam olarak uymuyor. Gerçekten niş bir koku profili, çok güzel.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1907985.jpg"
+    },
+    {
+      "id": "parent693548",
+      "author": "stevolution",
+      "date": "2024-11-07",
+      "text": "Bu oldukça karmaşık bir koku. Başlangıçta tereyağlı kremalı vanilyalı kek gibi kokuyor. Kurudukça daha koyu ve reçineli bir hal alıyor. Çok sevdiğim davana notası da kendini gösteriyor ve bana artık üretilmeyen L'Oiseau d'Nuit'i hatırlatıyor. Kullanışlı 20 ml'lik küçük kutuyu satın aldım. Niche Emarati serisindeki diğerlerini de mutlaka deneyeceğim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent693575",
+      "author": "Turingvetil",
+      "date": "2024-11-03",
+      "text": "İlk koklamada aşk! Erik likörü veya tarçın reçeli, artı baharatlı bir şey, çok hoş. Tanıdık geliyor ama benzerini hatırlayamıyorum. Rejouissance Men tarzında, ama tam olarak aynı değil. Kuruduktan sonra Shalimar'ı anımsatan tuzlu, sabunlu, amberli bir nota ortaya çıkıyor. Kalıcılığı mükemmel.\nŞişe ve tasarım, bu serideki her şey gibi muhteşem. Bu \"Çingene Barok\" görünümüne bayılıyorum.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.170499.jpg"
+    },
+    {
+      "id": "parent693528",
+      "author": "Samasama",
+      "date": "2024-11-02",
+      "text": "\"Hayır, sanırım anlamıyorsun... Ben takıntılıyım.\"\n\nErik püresi, tarçın, konyak, belki karanfil? Tereyağı? Kakao? Belki de asla bilemeyeceğiz.\n\nTam olarak gurme bir lezzet değil ama çok lezzetli, iyi açıklayamıyorum. Tatlı labdanum. Yoğun, vücut bulmuş hali.\n\nBir yandan bunun bu kadar göz ardı edilmesine üzülüyorum, diğer yandan da her yerde olmamasına çok sevindim.\n\nKalite. Lütfen.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1558483.gif"
     }
   ]
 }

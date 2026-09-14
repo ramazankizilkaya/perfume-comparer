@@ -77,62 +77,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "4",
-    "moderate": "11",
-    "longLasting": "5",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "11",
-    "strong": "12",
-    "enormous": "4"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "9",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "3",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JİMMY CHOO",
-      "name": "Stars"
-    },
-    {
-      "brand": "JİMMY CHOO",
-      "name": "Jimmy Choo"
-    },
-    {
-      "brand": "ILLUMİNUM",
-      "name": "Black Rose"
-    },
-    {
-      "brand": "CALVİN KLEİN",
-      "name": "Euphoria"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Café Rose"
-    },
-    {
-      "brand": "RİHANNA",
-      "name": "Rogue"
-    },
-    {
-      "brand": "PARİS HİLTON",
-      "name": "Luxe Rush"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "MUGLER",
@@ -194,5 +165,6 @@
       "brand": "DİOR",
       "name": "Poison Girl"
     }
-  ]
+  ],
+  "comments": []
 }

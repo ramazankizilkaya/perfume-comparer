@@ -37,14 +37,42 @@
     {
       "name": "animalik",
       "width": "50.7729%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.95",
-    "votesCount": "278",
+    "votesCount": "279",
     "breakdown": {
       "love": "94",
-      "like": "125",
+      "like": "126",
       "ok": "11",
       "dislike": "47",
       "hate": "1"
@@ -70,33 +98,70 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "7",
+    "moderate": "32",
+    "longLasting": "22",
+    "eternal": "12"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "17",
+    "moderate": "32",
+    "strong": "24",
+    "enormous": "17"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "15",
+    "moreFemale": "8",
+    "unisex": "9",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "3",
     "fair": "11",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "REVLON",
+      "name": "Intimate"
+    },
+    {
+      "brand": "SCHİAPARELLİ",
+      "name": "Shocking"
+    },
+    {
+      "brand": "JEAN COUTURİER",
+      "name": "Un Jardin a Paris"
+    },
+    {
+      "brand": "CELİNE DİON",
+      "name": "Always Belong"
+    },
+    {
+      "brand": "CARVEN",
+      "name": "Robe d'Un Soir"
+    },
+    {
+      "brand": "SİSLEY",
+      "name": "Soir de Lune"
+    },
+    {
+      "brand": "JOOP!",
+      "name": "Joop! Homme"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Fille d'Eve"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Miss Dior Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "JEAN DESPREZ",
@@ -158,5 +223,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Opium (1977)"
     }
-  ]
+  ],
+  "comments": []
 }

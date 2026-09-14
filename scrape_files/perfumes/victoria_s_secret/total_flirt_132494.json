@@ -29,15 +29,43 @@
     {
       "name": "yeşil",
       "width": "31.9444%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "4",
+    "score": "3.80",
+    "votesCount": "5",
     "breakdown": {
       "love": "2",
       "like": "1",
-      "ok": "0",
+      "ok": "1",
       "dislike": "1",
       "hate": "0"
     }
@@ -82,10 +110,37 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "0",
+    "fair": "1",
     "goodValue": "1",
     "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "TAYLOR SWİFT",
+      "name": "Wonderstruck"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "COMMODİTY",
+      "name": "Milk Orchid"
+    },
+    {
+      "brand": "ELLİS BROOKLYN",
+      "name": "Marshmallows"
+    },
+    {
+      "brand": "GİARDİNİ Dİ TOSCANA",
+      "name": "Bianco Latte"
+    },
+    {
+      "brand": "BY / ROSİE JANE",
+      "name": "Dulce"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '71"
+    }
+  ],
+  "comments": []
 }

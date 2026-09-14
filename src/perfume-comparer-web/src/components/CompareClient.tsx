@@ -199,7 +199,7 @@ function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRe
                                     <Icon name="close" size={13} />
                                 </button>
                                 <div className="matrix-head-cell">
-                                    <img src={mediaUrl(p.imageUrl) || PLACEHOLDER} alt="" />
+                                    <img src={mediaUrl(p.imageUrl) || PLACEHOLDER} alt={`${p.brand.name} ${p.name} parfümü`} />
                                     <span className="card-brand">{p.brand.name}</span>
                                     <Link href={perfumeHref(p.path, p.slug)} className="card-title">
                                         {p.name}
@@ -558,7 +558,7 @@ function PerfumePicker({
                             type="button"
                             onClick={() => { onPick(r); setQuery(""); setOpen(false); }}
                         >
-                            {r.imageUrl && <img className="ac-thumb" src={mediaUrl(r.imageUrl)} alt="" />}
+                            {r.imageUrl && <img className="ac-thumb" src={mediaUrl(r.imageUrl)} alt={`${r.brandName} ${r.name}`} />}
                             <span>
                                 <span className="ac-name">{r.name}</span>
                                 <span className="ac-meta">{r.brandName}</span>

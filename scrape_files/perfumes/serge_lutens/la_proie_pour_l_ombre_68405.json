@@ -45,26 +45,54 @@
     {
       "name": "dumanlı",
       "width": "44.4237%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.07",
-    "votesCount": "218",
+    "votesCount": "226",
     "breakdown": {
-      "love": "95",
-      "like": "72",
+      "love": "96",
+      "like": "78",
       "ok": "29",
-      "dislike": "16",
+      "dislike": "17",
       "hate": "6"
     }
   },
   "seasons": {
-    "winter": "69",
+    "winter": "72",
     "spring": "18",
     "summer": "9",
-    "autumn": "75",
-    "day": "40",
-    "night": "57"
+    "autumn": "79",
+    "day": "43",
+    "night": "59"
   },
   "notes": {
     "top": [],
@@ -77,33 +105,90 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "4",
+    "moderate": "23",
+    "longLasting": "48",
+    "eternal": "26"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "23",
+    "strong": "37",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "4",
+    "unisex": "73",
+    "moreMale": "21",
+    "male": "9"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "17",
+    "overpriced": "30",
     "fair": "29",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Eau Noire"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "L'innommable"
+    },
+    {
+      "brand": "FZOTIC",
+      "name": "Corpse Reviver"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Le Participe Passé"
+    },
+    {
+      "brand": "HERVE GAMBS PARİS",
+      "name": "Infusion Noire"
+    },
+    {
+      "brand": "PARFUMS DUSİTA",
+      "name": "La Rhapsodie Noire"
+    },
+    {
+      "brand": "LOLİTA LEMPİCKA",
+      "name": "Lolita Lempicka Au Masculin"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Santal Majuscule"
+    },
+    {
+      "brand": "ANATOLE LEBRETON",
+      "name": "Tabaquero"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Écrin de Fumée"
+    },
+    {
+      "brand": "CARON",
+      "name": "Aimez - Moi"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Jeux de Peau"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Une Voix Noire"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ajwaa"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -143,6 +228,10 @@
     },
     {
       "brand": "SERGE LUTENS",
+      "name": "Fils de Joie"
+    },
+    {
+      "brand": "SERGE LUTENS",
       "name": "L'orpheline"
     },
     {
@@ -160,10 +249,7 @@
     {
       "brand": "SERGE LUTENS",
       "name": "La Couche du Diable"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "Fille en Aiguilles"
     }
-  ]
+  ],
+  "comments": []
 }

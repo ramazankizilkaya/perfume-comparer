@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Victoria-s-Secret/Tease-Flower-133228.html",
   "brand": "Victoria's Secret parfüm ve kolonya",
   "description": "Victoria's Secret markasının Tease Flower parfümü, kadınlar için Çiçeksi bir kokudur. Tease Flower, 2017 yılında piyasaya sürüldü. Üst notalar: Orkide ve Şeker; orta nota: Lale; alt notalar Krem şanti ve Vanilya.",
-  "description_original": "Victoria's Secret markasının Tease Flower parfümü, kadınlar için Çiçeksi bir kokudur. Tease Flower, 2017 yılında piyasaya sürüldü. Üst notalar: Orkide ve Şeker; orta nota: Lale; alt notalar Krem şanti ve Vanilya.",
+  "description_original": "Victoria's Secret markasının Tease Flower parfümü, kadınlar için Çiçeksi bir kokudur. Tease Flower, 2017 yılında piyasaya sürüldü. Üst notalar: Şeker ve Orkide; orta nota: Lale; alt notalar Vanilya ve Krem şanti.",
   "description_enhanced": "Victoria's Secret markasının Tease Flower parfümü, kadınlar için Çiçeksi bir kokudur. Tease Flower, 2017 yılında piyasaya sürüldü. Üst notalar: Orkide ve Şeker; orta nota: Lale; alt notalar Krem şanti ve Vanilya.",
   "mainAccords": [
     {
@@ -16,30 +16,54 @@
     },
     {
       "name": "vanilya",
-      "width": "93.6363%"
+      "width": "87.8261%"
     },
     {
       "name": "çiçeksi",
-      "width": "74.5453%"
-    },
-    {
-      "name": "laktonik",
-      "width": "49.0908%"
+      "width": "61.9566%"
     },
     {
       "name": "pudralı",
-      "width": "49.0908%"
+      "width": "48.2608%"
     },
     {
-      "name": "yumuşak baharatlı",
-      "width": "45.9092%"
+      "name": "laktonik",
+      "width": "42.1739%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "",
-    "votesCount": "",
+    "score": "5.00",
+    "votesCount": "1",
     "breakdown": {
-      "love": "0",
+      "love": "1",
       "like": "0",
       "ok": "0",
       "dislike": "0",
@@ -47,42 +71,42 @@
     }
   },
   "seasons": {
-    "winter": "0",
-    "spring": "0",
-    "summer": "0",
-    "autumn": "0",
-    "day": "0",
-    "night": "0"
+    "winter": "1",
+    "spring": "1",
+    "summer": "1",
+    "autumn": "1",
+    "day": "1",
+    "night": "1"
   },
   "notes": {
     "top": [
-      "Orkide",
-      "Şeker"
+      "Şeker",
+      "Orkide"
     ],
     "middle": [
       "Lale"
     ],
     "base": [
-      "Krem şanti",
-      "Vanilya"
+      "Vanilya",
+      "Krem şanti"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
+    "veryWeak": "1",
     "weak": "0",
     "moderate": "0",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "0",
+    "intimate": "1",
     "moderate": "0",
     "strong": "0",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "0",
+    "female": "1",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "0",
@@ -92,9 +116,10 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "0",
-    "goodValue": "0",
+    "goodValue": "1",
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

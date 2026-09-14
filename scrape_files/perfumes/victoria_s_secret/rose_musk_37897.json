@@ -65,50 +65,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "3",
-    "moderate": "5",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "5",
-    "strong": "4",
-    "enormous": "9"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "6",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "CHLOÉ",
-      "name": "Chloé Eau de Parfum"
-    },
-    {
-      "brand": "BYREDO",
-      "name": "Blanche"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "Idôle"
-    },
-    {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Lazy Sunday Morning"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "VİCTORİA'S SECRET",
@@ -170,5 +153,6 @@
       "brand": "VİCTORİA'S SECRET",
       "name": "Dark Angel"
     }
-  ]
+  ],
+  "comments": []
 }

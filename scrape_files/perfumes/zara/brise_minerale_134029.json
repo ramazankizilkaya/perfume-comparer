@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Zara/Brise-Minerale-134029.html",
   "brand": "Zara parfüm ve kolonya",
   "description": "Zara markasının Brise Minérale parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Brise Minérale, 2026 yılında piyasaya sürüldü. Kokuda Sedir ağacı, Şakayık ve Manolya notaları bulunur.",
-  "description_original": "Zara markasının Brise Minérale parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Brise Minérale, 2026 yılında piyasaya sürüldü. Kokuda Sedir ağacı, Şakayık ve Manolya notaları bulunur.",
+  "description_original": "Zara markasının Brise Minérale parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Brise Minérale, 2026 yılında piyasaya sürüldü. Kokuda Sedir ağacı, Manolya ve Şakayık notaları bulunur.",
   "description_enhanced": "Zara markasının Brise Minérale parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Brise Minérale, 2026 yılında piyasaya sürüldü. Kokuda Sedir ağacı, Şakayık ve Manolya notaları bulunur.",
   "mainAccords": [
     {
@@ -16,38 +16,66 @@
     },
     {
       "name": "odunsu",
-      "width": "76.6666%"
+      "width": "86%"
     },
     {
       "name": "taze",
-      "width": "67.3333%"
-    },
-    {
-      "name": "gül",
-      "width": "53.3334%"
+      "width": "52.4%"
     },
     {
       "name": "narenciye",
-      "width": "39.3333%"
+      "width": "46.8%"
+    },
+    {
+      "name": "gül",
+      "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.81",
-    "votesCount": "43",
+    "score": "3.74",
+    "votesCount": "47",
     "breakdown": {
-      "love": "7",
-      "like": "26",
+      "love": "8",
+      "like": "27",
       "ok": "6",
-      "dislike": "3",
-      "hate": "1"
+      "dislike": "4",
+      "hate": "2"
     }
   },
   "seasons": {
     "winter": "0",
-    "spring": "10",
-    "summer": "27",
+    "spring": "11",
+    "summer": "29",
     "autumn": "1",
-    "day": "20",
+    "day": "22",
     "night": "2"
   },
   "notes": {
@@ -56,36 +84,36 @@
     "base": [],
     "all": [
       "Sedir ağacı",
-      "Şakayık",
-      "Manolya"
+      "Manolya",
+      "Şakayık"
     ]
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "4",
-    "moderate": "8",
+    "moderate": "10",
     "longLasting": "4",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "4",
-    "moderate": "8",
-    "strong": "0",
+    "moderate": "10",
+    "strong": "1",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
-    "moreFemale": "1",
-    "unisex": "19",
+    "moreFemale": "2",
+    "unisex": "20",
     "moreMale": "2",
     "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "0",
+    "wayOverpriced": "1",
     "overpriced": "0",
     "fair": "6",
     "goodValue": "7",
-    "greatValue": "11"
+    "greatValue": "12"
   },
   "remindsMeOf": [
     {
@@ -105,6 +133,10 @@
       "name": "Versace Man Eau Fraiche"
     },
     {
+      "brand": "HALLOWEEN",
+      "name": "Halloween"
+    },
+    {
       "brand": "EAU D'ITALİE",
       "name": "Au Lac"
     },
@@ -115,6 +147,10 @@
     {
       "brand": "SALVATORE FERRAGAMO",
       "name": "Giungle di Seta"
+    },
+    {
+      "brand": "MİND GAMES",
+      "name": "Sans Voir"
     },
     {
       "brand": "THE BODY SHOP",
@@ -136,7 +172,7 @@
     },
     {
       "brand": "ZARA",
-      "name": "Fashionably London"
+      "name": "No 4 Amber & Fig Cashmere"
     },
     {
       "brand": "ZARA",
@@ -144,11 +180,19 @@
     },
     {
       "brand": "ZARA",
-      "name": "Deep Temptation"
+      "name": "Energetically New York"
     },
     {
       "brand": "ZARA",
-      "name": "Energetically New York"
+      "name": "Brulante Violette"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Ani"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Fashionably London"
     },
     {
       "brand": "ZARA",
@@ -156,11 +200,15 @@
     },
     {
       "brand": "ZARA",
+      "name": "Romance d'Iris"
+    },
+    {
+      "brand": "ZARA",
       "name": "Ebony Wood"
     },
     {
       "brand": "ZARA",
-      "name": "Maison d'Été"
+      "name": "Salty Ocean Bouquet"
     },
     {
       "brand": "ZARA",
@@ -171,20 +219,9 @@
       "name": "Hypnotic Poison"
     },
     {
-      "brand": "ZARA",
-      "name": "Salty Ocean Bouquet"
-    },
-    {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Pure Musc For Her"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Elegantly Tokyo"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Supreme Vanilla"
     }
-  ]
+  ],
+  "comments": []
 }

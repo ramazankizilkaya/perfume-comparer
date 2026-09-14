@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "aromatik",
+      "name": "vanilya",
       "width": "91.25%"
     },
     {
-      "name": "vanilya",
+      "name": "aromatik",
       "width": "91.25%"
     },
     {
@@ -37,26 +37,54 @@
     {
       "name": "sıcak baharatlı",
       "width": "47.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.25",
-    "votesCount": "32",
+    "score": "3.26",
+    "votesCount": "34",
     "breakdown": {
       "love": "3",
-      "like": "5",
-      "ok": "21",
+      "like": "6",
+      "ok": "22",
       "dislike": "3",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "7",
-    "spring": "8",
-    "summer": "9",
-    "autumn": "7",
-    "day": "8",
-    "night": "7"
+    "spring": "10",
+    "summer": "11",
+    "autumn": "8",
+    "day": "10",
+    "night": "8"
   },
   "notes": {
     "top": [
@@ -72,13 +100,13 @@
   },
   "longevity": {
     "veryWeak": "4",
-    "weak": "7",
+    "weak": "9",
     "moderate": "3",
     "longLasting": "2",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "6",
+    "intimate": "8",
     "moderate": "3",
     "strong": "0",
     "enormous": "1"
@@ -88,13 +116,13 @@
     "moreFemale": "0",
     "unisex": "7",
     "moreMale": "3",
-    "male": "4"
+    "male": "6"
   },
   "priceVoting": {
     "wayOverpriced": "0",
-    "overpriced": "0",
-    "fair": "21",
-    "goodValue": "6",
+    "overpriced": "1",
+    "fair": "22",
+    "goodValue": "7",
     "greatValue": "1"
   },
   "remindsMeOf": [
@@ -126,11 +154,11 @@
     },
     {
       "brand": "ZARA",
-      "name": "Zara Night Pour Homme III"
+      "name": "Tobacco Collection Unexpected Fresh Spicy"
     },
     {
       "brand": "ZARA",
-      "name": "In St Tropez"
+      "name": "Zara Night Pour Homme III"
     },
     {
       "brand": "ZARA",
@@ -146,15 +174,19 @@
     },
     {
       "brand": "ZARA",
+      "name": "Vibrant Leather Oud"
+    },
+    {
+      "brand": "ZARA",
       "name": "Winter Collection"
     },
     {
       "brand": "ZARA",
-      "name": "London Saville Row Mayfair"
+      "name": "Zara Night Pour Homme II"
     },
     {
       "brand": "ZARA",
-      "name": "Zara Night Pour Homme II"
+      "name": "London Saville Row Mayfair"
     },
     {
       "brand": "ZARA",
@@ -171,10 +203,7 @@
     {
       "brand": "ZARA",
       "name": "Teahupoo"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Classics 8.0"
     }
-  ]
+  ],
+  "comments": []
 }

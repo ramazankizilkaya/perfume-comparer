@@ -45,6 +45,34 @@
     {
       "name": "badem",
       "width": "54.2436%"
+    },
+    {
+      "name": "Online satın alın 44 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -80,33 +108,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "16",
+    "weak": "21",
+    "moderate": "26",
+    "longLasting": "7",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "38",
+    "moderate": "26",
+    "strong": "16",
+    "enormous": "19"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "33",
+    "moreFemale": "5",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "7",
     "fair": "18",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Dream"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Dream Forever"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Eau So Fresh Twinkle"
+    },
+    {
+      "brand": "AVON",
+      "name": "Dazzling Moments"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Yellow Diamond"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Twinkle"
+    },
+    {
+      "brand": "AVON",
+      "name": "Eve Alluring"
+    },
+    {
+      "brand": "ATELİER REBUL",
+      "name": "Erguvan"
+    },
+    {
+      "brand": "LOLİTA LEMPİCKA",
+      "name": "L’Eau Jolie"
+    },
+    {
+      "brand": "NEST",
+      "name": "Dahlia & Vines"
+    },
+    {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Moscow Mule"
+    },
+    {
+      "brand": "LOLİTA LEMPİCKA",
+      "name": "Fleur Defendue"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Dream Daze"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Amethyst"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ARİANA GRANDE",
@@ -168,5 +257,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue"
     }
-  ]
+  ],
+  "comments": []
 }

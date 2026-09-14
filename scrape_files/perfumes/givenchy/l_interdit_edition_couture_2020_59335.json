@@ -63,7 +63,7 @@
     }
   },
   "seasons": {
-    "winter": "44",
+    "winter": "45",
     "spring": "38",
     "summer": "17",
     "autumn": "45",
@@ -89,58 +89,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "18",
-    "longLasting": "36",
-    "eternal": "6"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "18",
-    "strong": "34",
-    "enormous": "15"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "50",
-    "moreFemale": "3",
-    "unisex": "3",
-    "moreMale": "1",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "12",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "5",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Parfum"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Toilette"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Edition Couture"
-    },
-    {
-      "brand": "MAHOGANY",
-      "name": "Wild and Free"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Parfum Rouge"
-    },
-    {
-      "brand": "ELİE SAAB",
-      "name": "Le Parfum Eau de Parfum Intense"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GİVENCHY",
@@ -202,5 +177,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

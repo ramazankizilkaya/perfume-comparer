@@ -16,40 +16,40 @@
     },
     {
       "name": "sıcak baharatlı",
-      "width": "98.1579%"
+      "width": "98.75%"
     },
     {
       "name": "kakao",
-      "width": "85.2632%"
+      "width": "86.2501%"
     },
     {
       "name": "odunsu",
-      "width": "72%"
+      "width": "72.0001%"
     },
     {
       "name": "amber",
-      "width": "66.8421%"
+      "width": "67.5001%"
     },
     {
       "name": "balsamik",
-      "width": "62.0526%"
+      "width": "62.25%"
     },
     {
       "name": "toprak",
-      "width": "58%"
+      "width": "57.9999%"
     },
     {
       "name": "animalik",
-      "width": "52.1053%"
+      "width": "52.4999%"
     }
   ],
   "rating": {
-    "score": "4.05",
-    "votesCount": "99",
+    "score": "4.04",
+    "votesCount": "101",
     "breakdown": {
       "love": "42",
-      "like": "35",
-      "ok": "8",
+      "like": "36",
+      "ok": "9",
       "dislike": "13",
       "hate": "1"
     }
@@ -58,7 +58,7 @@
     "winter": "23",
     "spring": "5",
     "summer": "3",
-    "autumn": "22",
+    "autumn": "23",
     "day": "13",
     "night": "22"
   },
@@ -75,74 +75,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "0",
-    "moderate": "10",
-    "longLasting": "17",
-    "eternal": "7"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "10",
-    "strong": "12",
-    "enormous": "7"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "2",
-    "unisex": "17",
-    "moreMale": "2",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "11",
-    "fair": "8",
-    "goodValue": "1",
-    "greatValue": "0"
+    "wayOverpriced": "",
+    "overpriced": "",
+    "fair": "9",
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "FRANCESCA BİANCHİ",
-      "name": "Sticky Fingers"
-    },
-    {
-      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
-      "name": "Patchouli Sublime"
-    },
-    {
-      "brand": "ATELİER MATERİ",
-      "name": "Cacao Porcelana"
-    },
-    {
-      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
-      "name": "Caravansérail Intense"
-    },
-    {
-      "brand": "L'ORCHESTRE PARFUM",
-      "name": "Liquor BPM"
-    },
-    {
-      "brand": "JUSBOX",
-      "name": "Fifty Four"
-    },
-    {
-      "brand": "THE PERFUMER'S STORY BY AZZİ",
-      "name": "Old Books"
-    },
-    {
-      "brand": "ATELİER COLOGNE",
-      "name": "Café Tuberosa"
-    },
-    {
-      "brand": "JACQUES FATH",
-      "name": "Red Shoes"
-    },
-    {
-      "brand": "ATELİER DES ORS",
-      "name": "Rouge Sarây"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -173,12 +132,12 @@
       "name": "Xocoatl"
     },
     {
-      "brand": "SERGE LUTENS",
-      "name": "Fille en Aiguilles"
-    },
-    {
       "brand": "TAUER PERFUMES",
       "name": "02 L'Air du Desert Marocain"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Fille en Aiguilles"
     },
     {
       "brand": "FUEGUİA 1833",
@@ -204,5 +163,6 @@
       "brand": "SERGE LUTENS",
       "name": "Un Bois Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

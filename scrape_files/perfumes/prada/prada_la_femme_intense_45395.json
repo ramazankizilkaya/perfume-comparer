@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Prada/Prada-La-Femme-Intense-45395.html",
   "brand": "Prada parfüm ve kolonya",
   "description": "Prada markasının Prada La Femme Intense parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Prada La Femme Intense, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Daniela Andrier. Üst notalar: Ylang-Ylang ve Frangipani; orta notalar: Sümbülteber, Yasemin Sambac ve Portakal çiçeği; alt notalar Paçuli, Vanilya, İris ve Vetiver.",
-  "description_original": "Prada markasının Prada La Femme Intense parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Prada La Femme Intense, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Daniela Andrier. Üst notalar: Ylang-Ylang ve Frangipani; orta notalar: Sümbülteber, Yasemin Sambac ve Portakal çiçeği; alt notalar Paçuli, Vanilya, İris ve Vetiver.",
+  "description_original": "Prada markasının Prada La Femme Intense parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Prada La Femme Intense, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Daniela Andrier. Üst notalar: Ylang-Ylang ve Frangipani; orta notalar: Sümbülteber, Sambac Yasemini ve Portakal çiçeği; alt notalar Paçuli, Vanilya, İris ve Vetiver.",
   "description_enhanced": "Prada markasının Prada La Femme Intense parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Prada La Femme Intense, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Daniela Andrier. Üst notalar: Ylang-Ylang ve Frangipani; orta notalar: Sümbülteber, Yasemin Sambac ve Portakal çiçeği; alt notalar Paçuli, Vanilya, İris ve Vetiver.",
   "mainAccords": [
     {
@@ -49,26 +49,54 @@
     {
       "name": "vanilya",
       "width": "47.752%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.83",
-    "votesCount": "1,179",
+    "votesCount": "1,186",
     "breakdown": {
-      "love": "353",
-      "like": "507",
+      "love": "355",
+      "like": "511",
       "ok": "114",
-      "dislike": "179",
+      "dislike": "180",
       "hate": "26"
     }
   },
   "seasons": {
-    "winter": "314",
-    "spring": "210",
-    "summer": "117",
-    "autumn": "351",
-    "day": "277",
-    "night": "302"
+    "winter": "318",
+    "spring": "213",
+    "summer": "118",
+    "autumn": "354",
+    "day": "279",
+    "night": "303"
   },
   "notes": {
     "top": [
@@ -77,7 +105,7 @@
     ],
     "middle": [
       "Sümbülteber",
-      "Yasemin Sambac",
+      "Sambac Yasemini",
       "Portakal çiçeği"
     ],
     "base": [
@@ -102,7 +130,7 @@
     "enormous": "120"
   },
   "genderVoting": {
-    "female": "237",
+    "female": "238",
     "moreFemale": "50",
     "unisex": "28",
     "moreMale": "5",
@@ -121,20 +149,16 @@
       "name": "Prada La Femme"
     },
     {
+      "brand": "PRADA",
+      "name": "Prada La Femme Velvet Edition"
+    },
+    {
       "brand": "O BOTİCÁRİO",
       "name": "Her Code Touch"
     },
     {
       "brand": "PRADA",
-      "name": "Prada La Femme Velvet Edition"
-    },
-    {
-      "brand": "PRADA",
       "name": "Prada La Femme Absolu"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Coco Eau de Parfum"
     },
     {
       "brand": "ELİE SAAB",
@@ -149,32 +173,36 @@
       "name": "Jasmine Musc"
     },
     {
-      "brand": "GUCCİ",
-      "name": "Gucci Guilty Eau de Parfum Intense Pour Femme"
+      "brand": "CHANEL",
+      "name": "Coco Eau de Parfum"
     },
     {
       "brand": "SERGE LUTENS",
       "name": "La Dompteuse Encagée"
     },
     {
+      "brand": "GUCCİ",
+      "name": "Gucci Guilty Eau de Parfum Intense Pour Femme"
+    },
+    {
       "brand": "ZARA",
       "name": "Bois Soleil For Her"
     },
     {
-      "brand": "CACHAREL",
-      "name": "Eden"
+      "brand": "TOM FORD",
+      "name": "Figue Érotique"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Figment Woman"
+      "brand": "GİVENCHY",
+      "name": "Amarige"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     },
     {
       "brand": "PRADA",
       "name": "Prada Paradoxe"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "Do Son Eau de Parfum"
     }
   ],
   "peopleAlsoLike": [
@@ -191,12 +219,16 @@
       "name": "Poeme"
     },
     {
+      "brand": "CHANEL",
+      "name": "Coco Mademoiselle"
+    },
+    {
       "brand": "DİOR",
       "name": "Pure Poison"
     },
     {
-      "brand": "CHANEL",
-      "name": "Coco Mademoiselle"
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Poudree"
     },
     {
       "brand": "TOM FORD",
@@ -223,10 +255,6 @@
       "name": "Black Opium"
     },
     {
-      "brand": "DİOR",
-      "name": "Dior Addict"
-    },
-    {
       "brand": "MUGLER",
       "name": "Alien"
     },
@@ -237,6 +265,208 @@
     {
       "brand": "VERSACE",
       "name": "Crystal Noir"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent654033",
+      "author": "Thanaquil",
+      "date": "2024-08-07",
+      "text": "Bazı kokular kaderin dalgasıyla bize ulaşır.\nSon zamanlarda birçok kez onu satın almaya çok yaklaştım ama hiç almadım ve sonunda çok mutlu bir takasın parçası olarak bana ulaştı 💛💛\n\nZaten Prada La Femme adında, son derece şık ve güzel bir parfümüm var; koku piramidi tam da zevkime göre tasarlanmış gibi 😄 ve onun \"yoğun\" versiyonu olan bu flanker (çok da flanker olmayan) beni hayal kırıklığına uğratmadı.\nDNA'sı, özellikle ilk buharlaştırıldığında, kesinlikle tanınabilir: aynı mumsu ve parlak yuvarlaklık, sütlü güneş ışığına batmış beyaz çiçeklerin aynı tatlılığı... ama asıl sihir kalpte ortaya çıkıyor.\nBurada göz alıcı ana buket daha doygun, gösterişli, neredeyse \"karanlık\" bir tonda sunuluyor: Taze, tatlı çiçekler akşam için süsleniyor, şehvetli yönlerini ortaya çıkarıyor ve sarhoş edici nüanslarla zenginleşiyor... Sümbülteber tam olarak baskın değil ama yasemin ve ballı frangipani ile uyum sağlıyor, sevdiğim ylang ylang burada uyuşturucu ve cüretkar bir hal alıyor ve her şeyden önemlisi, gerçek bir primadonna olan yoğun ve zarif paçuli yükseliyor. Kesinlikle rafine bir paçuli, kaba veya topraksı değil, odunsu ve aromatik, olgun ve çürük yapmayan bir vanilya ile birleşmiş. İris bulunmuyor.\nMuhteşem. İnanılmaz. Tüm tasarımcılar böyle olsaydı, bu \"niş\" kolayca unutulabilirdi.\nKremsi ve derin bir koku, son derece şehvetli ama bu özelliğe bazen eşlik eden zorlama süslemelerden arınmış... Belirli bir asil klasikçilikten ödün vermeden, kararlı, rafine, cesur ve büyüleyici bir parfüm.\nSöylemeye gerek yok, önceki modeline kıyasla bunu tercih ediyorum, bunun nedeni de kesinlikle üstün performansı: gerçekten iyi pil ömrü, makul ve aşırı olmayan projeksiyon.\nAhırımıza yeni bir aşk geldi 💚",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.46802.jpg"
+    },
+    {
+      "id": "parent654018",
+      "author": "Joss",
+      "date": "2023-06-22",
+      "text": "Olgun ve... tutkulu bir kadın için mükemmel!\n\nSıcak havalarda hoşuma gideceğini düşünmemiştim ama son bir saattir cildimde harika bir şekilde gelişiyor. Yine de Siyah Orkide kadar güzel değil.\n\nYasemin kokusu çok belirgin değil ve bu kez koku piramidini güzelce tamamlayan vetiveri takdir ediyorum.\n\nPortakal çiçeği aroması olmadan ve daha fazla vanilya notasıyla daha çok beğenirdim.\n\nBaşlangıçtaki meyvemsi nota gerçekten de kayboldu. Estée Lauder'ın Oasis Dawn parfümüyle birlikte kullanıldığında ise sadece çok hafif bir şekilde hissediliyor.\n\nCarven'in eserlerine dair belirsiz bir anımsama...\n\n8.5/10\n\nBu şişenin tasarımı gerçekten başarılı.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.30628.jpg"
+    },
+    {
+      "id": "parent654014",
+      "author": "JulDC",
+      "date": "2023-05-05",
+      "text": "Egzotik, tatlı bir açılış (kesinlikle frangipani çiçeği), orijinal kokuya oldukça benzer ama daha doğrudan ve her şeyden önemlisi, beni her zaman şüpheye düşüren ilk yeşil notadan arınmış. Hatta bir bal ipucu bile algıladığımı düşünüyorum. \"Ne yazık ki, hiç yok,\" diye alaycı bir şekilde yanıtlıyor koku piramidi. Ama önemli değil.\nZafer dansı, bu kesinlikle en sevdiğim 10 dans arasında yer alacak.\nEvet, ama aslında hayır, neredeyse öyle.\n\nBirkaç saniye sonra, egzotik kokular hafifçe kaybolarak çiçeksi ve meyveli kırmızı bir notayı ortaya çıkarıyor.\n- Pardon? Kırmızı Meyveli Nota? Kimsiniz siz, evimde ne yapıyorsunuz?\nAma o piramitle, bu kırmızı Meyveli Notayla ilgilenmiyor. Davetli listesinde olmasa bile burada. Üstelik mobilyaları kenara itiyor ve yeni yeni belirmeye başlayan vanilya alt tonunu bastırıyor.\nArdından gümüş eşyaları, egzotik notu ve Intensity'i kolunun altında taşıyarak geri çekildi.\nBir anlık tereddüt, parmak uçlarında bir nota geri dönüyor. Egzotik bir nota değil, sadece oyuncu kadrosunun geri kalanı, boğuk adımlarla, son selamlarını vermeden önce son bir gösteri deniyor. Hepsi üç saatten kısa sürede; sanırım bazı rekorlar kırdık.\n\nPerde kapanıyor: Bu, La Femme ile kıyaslanmaktan ömür boyu zarar görecek güzel bir parfüm.\n\nEylül sonu düzenlemesi: Sonbaharın başında tekrar kullandığımda, bu haliyle son derece baştan çıkarıcı buldum ve Chanel aldehitlerinde sevdiğim o hafif ekşi notayı yine algıladım.\n\nŞunu da ekleyeyim ki, çok çekici ama yeterince kalıcı değil. Yayılımı oldukça mütevazı ve bitişi mizah yoksunu bir şaka gibi (prestijli bir markanın Eau de Parfum'ü için yazık).\nKırmızı meyvemsi nota gelince, bir daha hiç ortaya çıkmadı (şüphesiz çatal bıçak takımıyla birlikte kayboldu).",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.37532.jpg"
+    },
+    {
+      "id": "parent654002",
+      "author": "Erin1990",
+      "date": "2021-11-28",
+      "text": "3 ml'lik küçük bir numune aldım ve tam boyunu almayacağım; sunduğu şeye göre fiyatı çok yüksek. Yayılımı minimal ve kalıcılığı oldukça zayıf. Ancak, kokunun performansını bir kenara bırakırsak, kompozisyonu çok orijinal ve ilginç buldum. Cildimde, topraksı, granit benzeri bir amberin üzerinde aşırı miktarda çiçeksi notalar algılıyorum, ancak paçuli vanilya bunu iyi tamamlıyor ve karışıma yoğun bir şehvet, neredeyse ekstra bir şeyin ipucuyla şehvet katıyor. Sabun veya vücut spreyleri olmadan, sadece ten ve kadınsılık içeren bir vücut kokusu, kadınsı bir ten kokusu çağrıştırıyor. Şahsen, şekerci dükkanında küçük bir çocuk olmadığım sürece, yenilebilir kokuları (tatlılar, çikolatalar vb.) hiç şehvetli bulmuyorum, ancak bu aroma bana müstehcen ve duyusal geliyor, bir partnerle keyif almak için ideal.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.16556.jpg"
+    },
+    {
+      "id": "parent654001",
+      "author": "Xav",
+      "date": "2021-04-11",
+      "text": "İlk başta topraksı, oldukça fazla paçuli ve acı portakal kokuyordu, beyaz çiçeklere dönüştü ve sonunda en iyi olan sarı çiçekler kaldı, arka planda sürekli yüksek bir vanilya notası vardı.\n\"Yoğun\" kelimesi ilgimi çekmişti ama bana uymadı. Çok uzun süre kalıcı, ancak birkaç saat sonra yayılımı zayıflıyor. Fiyatı göz önüne alındığında, daha güçlü bir etki beklediğim için almaktan vazgeçtim; belki diğer kadınlar için daha iyi sonuç verebilir.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.29617.jpg"
+    },
+    {
+      "id": "parent653980",
+      "author": "shelstar",
+      "date": "2021-01-17",
+      "text": "Bu, tam anlamıyla güçlü ve özgüvenli bir kadın için tasarlanmış bir parfüm. Orijinal PLF gibi pahalı bir kokuya sahip ve konuşan herkesin dinlediği biri tarafından kullanılmalı. Muhteşem bir koku. Özellikle sunum yaparken veya benzeri durumlarda kendime güvenmem gerektiğinde işe giderken kullanmayı çok seviyorum.\n\nÇok kremsi ve bu parfümün beyaz çiçeksi notalarını tüm kalıcılığı boyunca gerçekten hissedebiliyorum. Cildimde sonsuza kadar kalıyor ve koku çok güzel bir şekilde yayılıyor; hissediliyor ama insanları rahatsız edecek kadar yoğun değil. Kış aylarında bu parfüm parlıyor. Kremsi beyaz çiçeksi kokuları seviyorsanız ve güzel, kadınsı ve bakımlı kokmak istiyorsanız, bunu denemelisiniz.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1281842.jpg"
+    },
+    {
+      "id": "parent654054",
+      "author": "model1992",
+      "date": "2020-03-07",
+      "text": "Dantel içinde lüks, seksi bir sonlandırıcı; en tahmin edilebilir ve dengeli, ama aynı zamanda Prada'nın en çarpıcılarından biri. Hem mistik hem de egzotik. Güçlü, \"Yoğun\" ibaresini tamamen haklı çıkarıyor; başlangıçta o kadar bol miktarda tereyağlı, kremsi çiçeksi notalar var ki, karşı koymak neredeyse imkansız. Koku açıldıkça, lezzetli bir şekilde çiçeksi kalıyor, ancak şimdiden zengin sümbülteber ve cesur neroli notalarının \"çilek likörü\" ipuçlarını içeriyor. Ylang-ylang karmaşık bir ilişki, ancak burada en iyi özelliklerini mükemmel bir şekilde sergiliyor.\nBu yoğun kütledeki iris, yalnızca Prada'nın imzası olan pudralı kuruma aşamasında fark ediliyor; vetiver ise pürüzlü, kağıtsı alt tonları ve aynı zamanda süet-vanilya alt tonları arasında mükemmel bir denge kuruyor. Bu, The One'ın son flanker'ları veya Kilian ve TF'nin \"tatlıları\" tarzında bir şey; yoğun, çok yönlü, zengin çiçeksi ve gurme; ancak belirli bir şıklık ve yoğunluğa ve parlaklığa rağmen, Prada gibi \"olgun\" bir markaya özgü bir ölçülülük içeriyor. İlginç bir detay: Her şeyin arasında, özellikle kalpte paçuli algılıyorum; genellikle en kalıcı bileşenlerden biri olmasına rağmen, dip notalara kadar kalmıyor. Genel olarak, La Femme Intense, tamamen teknik analizin ötesine geçen bir eser; büyülü aşamaları, kusursuz bir şekilde örülmüş bir taç gibi iç içe geçmiş.\nMuhteşem bir özgünlükle sunulan, enfes, zengin çiçeksi bir gurme koku!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.138517.jpg"
+    },
+    {
+      "id": "parent654056",
+      "author": "papairesse",
+      "date": "2020-02-23",
+      "text": "Prada hanımı son derece iki yüzlü. :)\nElimde bir örnek imza var, onunla hesabı kapatacağız.\n\nBir parfümün size nasıl hitap edeceği tamamen size, yani teninize bağlıdır.\nBende La Femme Intense, ylang-ylang ile zenginleştirilmiş, beyaz çiçekli bir krem ​​(sümbülteberden çok tiare çiçeğine benziyor) olarak açılıyor; dip notalara doğru yaklaştıkça muz benzeri bir koku da ortaya çıkıyor ve paçuli yağıyla boğulmuş gibi hissediliyor.\nVe Maman'ın çok sıcak teninden, önce kirazla, sonra da kiraz çekirdeklerinin acılığıyla paçuli şipre bir koku yükseliyor.\n\nKalıcılığı mükemmel, gün içinde saç altına bir fıs sıkmak uygun olur.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.203609.jpg"
+    },
+    {
+      "id": "parent654016",
+      "author": "Gardinette",
+      "date": "2019-01-17",
+      "text": "Önemli Notlar:\nPaçuli, Ylang Ylang, Frangipani\n\nİkincil Notlar:\nİris, Vetiver, Sümbülteber, Portakal Çiçeği\n\nGizli Notlar:\nYasemin, Vanilya\n\n\n\nBaşarılı bir Oryantal Çiçekçi.\nKeskin ylang ylang ve paçuli notalarıyla neredeyse bir Chanel havası taşıyor (neredeyse dedim).\nKoku piramidi oldukça ilginç, ancak yasemin çiçeğinin bu kadar ürkek olması üzücü...\n\nBen onun ikiz kardeşi olan Prada \"La Femme\"i (altın ve beyaz şişe) tercih ederim.\n\n8/10",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.17094.jpg"
+    },
+    {
+      "id": "parent653983",
+      "author": "letamercy",
+      "date": "2018-11-02",
+      "text": "Bu gerçekten çok zengin bir bitki. Kesinlikle sıcak havalar için uygun değil. Çiçek açması için soğuğa ihtiyacı var.\n\nÖncelikle, bu koku oldukça şık ve gösterişli. Deneme fırsatı bulduğum en yumuşak sümbülteber kokularından biri. Ve ylang ylang, paçuli ve frangipani ile harmanlanma şekli... çok erotik, çok seksi, ama aynı zamanda çok sofistike.\nBence bu kokuyu başarıyla kullanabilmek için belli bir özgüven ve öz farkındalık gerekiyor. Yanlış kişiliğe sahip birine kolayca yakışabilecek kokulardan biri. Bu arada, bu sözlerimle kimseyi kırmak istemedim. Sadece oldukça güçlü bir karaktere sahip olduğunu ve onunla yakın, hatta eşit bir kişiliğe sahip birine en çok yakışacağını söylüyorum.\n\nAçılış benim için tamamen çiçeksi. Sümbülteber ve ylang ylang'ın (bence eşit oranlarda) çok güçlü, zengin ve tereyağımsı bir karışımı, frangipani ve yasemin ile destekleniyor. Yasemin kokusunu algıladığım parfümlerden genellikle uzak dururum çünkü cildim yasemini hiç sevmez, ancak burada çok iyi yapılmış ve yumuşaklığa biraz \"keskinlik\" katmış. Bayıldım.\n\nYaklaşık 30 dakika sonra orta derecede bir yayılıma kavuşuyor. Gün içinde koku geliştikçe paçuli, vetiver ve iris devreye girerek çiçeklere serin, topraksı, mentollü ve neredeyse hayvansı bir destek sağlıyor (ancak bence hayvansı nüansta sümbülteberin de rolü var). Ylang biraz geri plana çekiliyor ve sümbülteber en iyi yaptığı şeyi yapıyor... parlıyor! Sanki ylang onu bir şekilde tasmayla tutuyormuş gibi. Bu güzelliğe bir kez daha aşık oldum.\n\nGenel olarak yayılımı kol mesafesi kadar olsa da, kalıcılığı inanılmaz (9+ saat).\n\nBu güzelliği dünyaya kazandırdığınız için teşekkürler Prada!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent654058",
+      "author": "spigo",
+      "date": "2018-09-30",
+      "text": "Yeni Givenchy Fener koleksiyonunun dışa dönük, estetik ve dekoratif kız kardeşi. İspanyol etkisi, kuzeyli Fransız kadınının karmaşık, içine kapanık ve canlı doğasıyla tezat oluşturuyor.\n\nİkisi de, derin, katmanlı, dumanlı paçuli-vetiver izi taşıyan, son derece lüks sümbülteber pseudo-şipre çeşitleridir.\n\nHangisini seçeceğimize karar vermek zor. İkisi de farklı mizaçtaki kadınlar için aynı hikayeyi anlatıyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.4433.jpg"
+    },
+    {
+      "id": "parent653985",
+      "author": "Germany",
+      "date": "2018-07-13",
+      "text": "Tatlı, zengin ve kadifemsi, burnuma çok mor bir koku gibi geliyor. Erik ve koyu üzüm kokusu. Poison'ın güncellenmiş bir versiyonu gibi, çok seksi bir koku. Bunu gece ve kış için en uygun buluyorum, gerçi bu kurallara hiç uymam, 100 derecede Angel'ı kullandığım da oldu. Ancak daha bilinçli biri için bu, serin havalarda gece için harika bir koku olabilir. Ama hafif bir dokunuşla bunu imza kokunuz haline getirebilirsiniz. Çok kalıcı ve çıktığı günden beri en sevdiğim parfümlerden biri. Eşimin de favorilerinden biri, kullandığımda her zaman \"mmm\" diyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.137168.jpg"
+    },
+    {
+      "id": "parent654031",
+      "author": "Venusia",
+      "date": "2018-06-12",
+      "text": "Üçlemenin en yoğun versiyonu, mükemmel sayı ve benim açımdan bu üçleme olduğu gibi tamamlanmış durumda. Kokuya gelince, benim için yeni şeyler söyleyen başka bir odak noktası. Paçulinin eklenmesiyle belirgin bir gece boyutuna giriyor. İlk başta keskin ve biraz baskın olan paçuli, bildiğimiz gibi köşeye sıkıştırılamayan sümbülteber ile küçük bir mücadeleye giriyor. Bu ilk aşamadan sonra, sümbülteber diğer iki çiçekle (artık tüm versiyonların ayrılmaz üçlüsü) güzel bir uyum buluyor. Paçuli sakinleşiyor ve vanilya büyük bir başarıyla devreye girerek doğru miktarda tatlılık getiriyor ve son derece etkileyici bir etki yaratıyor. Şimdi beni şaşırtan ve kolayca alıştığım zengin, sarmalayan bir koku. İlk soğuk günler geldiğinde tekrar deneyeceğim, çünkü birkaç saat içinde kalıcılığı azalıyor, çünkü sıcakla uyumlu değil. Ayrıca, bende frangipani baskın geliyor. Intense, akşamı kutluyor, ancak aşırı yapılandırılmış bulmuyorum; karanlık örtüsüyle narin bir kalbi sarıp gizleyen, muhteşem bir gece müziği.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.41040.jpg"
+    },
+    {
+      "id": "parent653977",
+      "author": "Henriette",
+      "date": "2018-04-13",
+      "text": "La Femme, güzelliğini sergilemeye cesaret edemeyen, çok utangaç bir kadını temsil ederken, La Femme Intense ise güzelliğini sergilemeye cesaret eden, üstelik de cesur bir kadını anlatıyor.\nLa Femme Intense, La Femme'de bulunan ve beni ilk denediğimde büyüleyen o çekingen alt tonu taşımıyor.\nEvet, LFI oldukça yoğun.\nGüçlü bir paçuli notası, Majesteleri Sümbülteber ve asil bir ylang ylang ile birleşerek onları girdap gibi bir dansa sürüklüyor. İlk başta biraz ürkütücü gelebilir çünkü hem sümbülteber hem de paçuli notası çok güçlü, ancak bir süre sonra yatışıyor ve koku yumuşak, neredeyse bir kedi gibi mırıldanır hale geliyor. Genellikle güçlü parfümler bunaltıcı veya bayıcı olur, ancak bu parfümde durum böyle değil. Bu kadar güçlü olmasına rağmen bu kadar yumuşak ve nazik olmasını takdir ediyorum.\nFrangipani, iki ana karakterin (paçuli ve tuberose) gücünü dengeleyen, hoş bir arka plan notası olarak, kokunun bayağılaşmasını engelleyen yumuşak, masum, neredeyse anne şefkatini andıran bir ton katıyor.\nBu, Norma Desmond'ın imzası olabilirdi.\nKoku yayılımı çok fazla değil ve bu iyi bir şey çünkü aksi takdirde aynı odadaki herkesi içine hapsederdi.\nAncak ve ancak sizin seçtiğiniz kişiler tarafından tuzağa düşürülürsünüz.\nÇOK GÜZEL\n\n249",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.3624.jpg"
+    },
+    {
+      "id": "parent654032",
+      "author": "Henriette",
+      "date": "2018-04-12",
+      "text": "İlk La Femme'den çok etkilenmiştim, bu Intense'i de hiç düşünmeden aldım. İkisi birbirine benziyor, kardeş oldukları belli oluyor ama aynı değiller.\nIntense, en azından benim cildimde baştan sona kalıcı olan güçlü bir paçuli notasıyla öne çıkıyor: Sümbülteber ile çok yoğun bir şekilde açılıyor ve tonu yavaş yavaş yumuşasa bile kalıcılığını kaybetmiyor. Ylang ylang, La Femme'de olduğu gibi mevcut ve bu güzel parfümün önde gelen çiçek grubunu oluşturuyor. Frangipani de kendini gösteriyor ancak La Femme'dekinden çok daha arka planda kalıyor.\nKalıcılığı tahmin edebileceğinizden çok daha uzun, ancak bu esas olarak kaybolmak istemeyen paçuli kokusundan kaynaklanıyor.\nSoğuk günler için, daha doğrusu belki de soğuk geceler için ideal bir koku; oldukça yoğun ve hatta iddialı bir koku diyebilirim. Sümbülteber, ylang ylang, yasemin ve paçuli çok zengin bir karışım oluşturuyor (üzüntüyle iris kokusu alamadım).\nHiç de kolay ve kullanışlı bir koku olmadığı için körü körüne almanızı tavsiye etmem, ancak eğer bir diva gibi yoğun, kalıcı ve çok zengin bir çiçek kokusu istiyorsanız, alın gitsin.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.5.jpg"
+    },
+    {
+      "id": "parent653981",
+      "author": "tommy_girl",
+      "date": "2018-04-12",
+      "text": "Bu parfüm, meyveli ve paçuli kokulu parfümlerin yaygın trendinden nefret eden ve parfüm sektörünün eski güzel günlerinin nereye gittiğini merak eden tüm kadınlar için.\nBu parfümü, şıklığını adeta haykıran son derece lüks şişesi nedeniyle denedim! Şişe, yarı klasik yarı deri özellikleriyle kesinlikle şık.\nİlk koklamada, kadifemsi sümbülteber ve yasemin, pudralı çiçeklerin keskin bir karışımıyla karışıyor. Ancak daha sonra ylang-ylang ortaya çıkıyor ve ona klasik bir hava katıyor. (Klasik parfümlerin çoğunda ylang-ylang ve portakal çiçeği olduğunu hiç fark ettiniz mi?) Giderek daha tatlı ve pudralı hale geliyor. Tatlılık konusunda abartı yok, abartı çiçeksi ve pudralı kısımlarda. Paçuli, topraksı bir hava katmadan neredeyse hiç hissedilmiyor. Sadece daha yoğun hale getiriyor, ki buradaki amaç da bu zaten.\nŞahsen ben böyle bir parfümü gardırobumda bulundurmak istemezdim, ama isteyenlere saygı duyuyorum.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1285.jpg"
+    },
+    {
+      "id": "parent653978",
+      "author": "raiza1990",
+      "date": "2018-01-12",
+      "text": "Açılış, orijinali gibi yoğun ve neredeyse bayıcı, ancak bu daha gösterişli ve karanlık. Karanlık derken cinsel anlamda değil, seksi değil, sadece karanlık diyorum.\nOrijinalinde tek tek notaları ayırt etmekte zorlanıyordum, bunda daha kolay oldu. Çok yoğun, çok iyi yapılmış, çok kadınsı, taze bir sümbülteber aldım. Çok mumsu bir iris ve burnumu tahriş eden keskin bir şey de var. Ayrıca yazlık bir şey de alıyorum ama bunun ylang mı yoksa frangipani mi olduğunu bilmiyorum.\nBu versiyon diğerinden daha iyi. O kadar steril değil. Soğuk ama orijinaline göre biraz daha kişiliği var.\nOrta yaşlı bir ortaçağ düşesinin bunu kışın giydiğini hayal ediyorum. Bu bir yaz kokusu değil. Ylang ve frangipaniyi unutun, bu parfümü yazlık yapmaya yetmiyorlar. Sadece soğuk ve rüzgarlı yaz günlerinde giyilebilir.\nBu, zarif ve aristokratik bir koku, günlük kullanım için uygun değil.\nAyrıca, gözü kapalı satın alınacak bir şey de değil.\nProjeksiyon mesafesi bir kol uzunluğu ile 6 fit (yaklaşık 1,8 metre) arasındadır.\nBenim tarzım değil ama iyi yapılmış.\nNot: Cildinizde deneyin. Şişede çürümüş meyve gibi kokuyor.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.865802.jpg"
+    },
+    {
+      "id": "parent653997",
+      "author": "Espartaco",
+      "date": "2017-11-20",
+      "text": "Meyve/hamur işi/paçuli formülüne dayanan sihirli bileşikler olan froutchouliler vardır.\n\nVe bu Prada'yı tattıktan sonra, şurup veya pralin yerine beyaz çiçeklerin (sümbülteber, yasemin), eşsiz bir keskin frangipani ve paçulinin kullanıldığı, çiçeksi paçuli kategorisi ortaya çıkıyor gibi görünüyor.\n\nZevk meselesi olduğu için kimileri beğenecektir, ama ben asidik ve çok keskin buldum. Ve modern parfümcülüğün geleneğine uygun olarak, kalıcılığı gülünç (yarım saat boyunca güçlü, sonra bir saat sonra ten kokusuna dönüşüyor ve geriye oryantal beyaz çiçeklerin kalıntı bir aromasını bırakıyor).\n\nBunu satın almak para israfı, bence burada objektif olmaya çalışıyorum çünkü oryantal tınılara sahip çok iyi beyaz çiçeksi parfümler var ve bunların fiyatı üç kat daha düşük.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.17361.jpg"
+    },
+    {
+      "id": "parent653987",
+      "author": "shushkin",
+      "date": "2017-11-13",
+      "text": "Evet, bu tropikal çiçeklerin açmış halini tanımlamak için \"yoğun\" kelimesi oldukça uygun.\nYoğun bir ylang ylang, frangipani ve tuberose kokusu alıyorum. Kesinlikle paçuli ile desteklenmiş tropikal bir çiçek kokusu. İris ve vanilya bunu biraz yumuşatıyor, böylece çok baskın olmuyor. Çok tatlı da değil, tam kıvamında.\nTropikal çiçeklerin kokusu yatıştıktan kısa bir süre sonra vetiver ve neroli çok daha belirgin hale geliyor. Çok çabuk ten kokusuna dönüşüyor. Bunu çok serin bir ortamda test ediyorum, bu nedenle sıcakta çok farklı olabilir.\nBu kesinlikle akşam kullanımı için uygun bir koku.\nBu, bir divanın kokusu. Kızlar başvurmasın.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.106159.jpg"
+    },
+    {
+      "id": "parent653976",
+      "author": "iamoir",
+      "date": "2017-11-10",
+      "text": "Bu, kadın olmayı bilen bir kadın için bir parfüm, nokta. Diğer tatlışlar, pembe saçlı aptallar, Fransız tarzı bir parfümde bireysellik arayan genç ve beyinsizler Chanel'e gitsinler, orada yeni bir Gabrielle var, o bile kokmuyor, yani sorun yok; buraya bile gelmeyin. Eğer büyümek istiyorsanız, bu harika bir başlangıç.\n\nİlk püskürtmede yoğun paçuli kokusu hissediliyor, notalar tiare ve ylange'ı da çağrıştırabilir; evet, kokunun gelişimi sırasında bunları da aldık, ancak paçuli varlığını hemen belli ediyor ve Angel paçulisi kadar yayılımlı olmasa da, bitkisel, tıbbi, yeşil ve kirli yönleriyle, tamamen beyaz çiçekli üst notaların altında varlığını sürdürüyor. Kuru, parfümlü, yoğun sümbülteber kokusu, ancak bayıcı değil, tıbbi, fenolik, metillenmiş, çok seksi, pudralı. Tom Ford White Patchouli'ye benziyor, ancak birebir kopyası değil, sadece aynı aileden.\n\nOrijinali daha tatlı, daha tropikal ve hatırladığım kadarıyla biraz balzamikti, ama bu o kadar kuru ki, bayıldım. Bu bir parfüm, yiyecek değil, kurabiye değil, vanilya değil, sadece PARFÜM. Daniela Adrier, harika iş çıkardın, Candy Gloss'unu da çok sevdim!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1029316.jpg"
     }
   ]
 }

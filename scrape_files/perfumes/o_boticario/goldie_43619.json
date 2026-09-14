@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/Goldie-43619.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının Goldie parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Goldie, 1987 yılında piyasaya sürüldü. Üst notalar: Meyvemsi Notlar ve Anason; orta notalar: Beyaz Çiçekler ve Baharatlı notalar; alt nota Odunsu Notlar.",
-  "description_original": "O Boticário markasının Goldie parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Goldie, 1987 yılında piyasaya sürüldü. Üst notalar: Meyvemsi Notlar ve Anason; orta notalar: Beyaz Çiçekler ve Baharatlı notalar; alt nota Odunsu Notlar.",
+  "description_original": "O Boticário markasının Goldie parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Goldie, 1987 yılında piyasaya sürüldü. Üst notalar: Meyvemsi Notlar ve Anason; orta notalar: Beyaz Çiçekler ve Baharatlar; alt nota Odunsu Notalar.",
   "description_enhanced": "O Boticário markasının Goldie parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Goldie, 1987 yılında piyasaya sürüldü. Üst notalar: Meyvemsi Notlar ve Anason; orta notalar: Beyaz Çiçekler ve Baharatlı notalar; alt nota Odunsu Notlar.",
   "mainAccords": [
     {
@@ -37,6 +37,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "54.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -65,10 +93,10 @@
     ],
     "middle": [
       "Beyaz Çiçekler",
-      "Baharatlı notalar"
+      "Baharatlar"
     ],
     "base": [
-      "Odunsu Notlar"
+      "Odunsu Notalar"
     ],
     "all": []
   },
@@ -113,6 +141,10 @@
       "name": "Cumplicce"
     },
     {
+      "brand": "HOUSE OF SİLLAGE",
+      "name": "Benevolence"
+    },
+    {
       "brand": "SWİSS ARABİAN",
       "name": "Yulali"
     }
@@ -151,12 +183,12 @@
       "name": "Cecita"
     },
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Zingara"
-    },
-    {
       "brand": "GİVENCHY",
       "name": "Ange ou Demon"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Zingara"
     },
     {
       "brand": "NATURA",
@@ -178,5 +210,6 @@
       "brand": "KENZO",
       "name": "Flower by Kenzo"
     }
-  ]
+  ],
+  "comments": []
 }

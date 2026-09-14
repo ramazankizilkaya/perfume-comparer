@@ -49,13 +49,41 @@
     {
       "name": "balsamik",
       "width": "48.9329%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.19",
-    "votesCount": "305",
+    "votesCount": "304",
     "breakdown": {
-      "love": "139",
+      "love": "138",
       "like": "120",
       "ok": "11",
       "dislike": "35",
@@ -100,33 +128,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "12",
+    "moderate": "56",
+    "longLasting": "33",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "26",
+    "moderate": "56",
+    "strong": "30",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "43",
+    "moreFemale": "2",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "9",
     "fair": "11",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "14",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Miss Dior Rose N'Roses"
+    },
+    {
+      "brand": "STELLA MCCARTNEY",
+      "name": "Stella Nude"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Chloé Rose Edition"
+    },
+    {
+      "brand": "THE BODY SHOP",
+      "name": "Atlas Mountain Rose"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Rose Goldea"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "Attimo L'Eau Florale"
+    },
+    {
+      "brand": "LES PARFUMS DE ROSİNE",
+      "name": "Ballerina No 1"
+    },
+    {
+      "brand": "ANNA SUİ",
+      "name": "Romantica"
+    },
+    {
+      "brand": "STELLA MCCARTNEY",
+      "name": "Stella (2014)"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Chloé Roses de Chloé"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Dazzle"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Delina"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Rose"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "La Fille de Berlin"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Idôle"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -188,5 +277,6 @@
       "brand": "NATURA",
       "name": "Ilía Secreto"
     }
-  ]
+  ],
+  "comments": []
 }

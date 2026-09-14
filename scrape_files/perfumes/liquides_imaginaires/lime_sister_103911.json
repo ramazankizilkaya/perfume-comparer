@@ -33,15 +33,43 @@
     {
       "name": "çiçeksi",
       "width": "45.6307%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.64",
-    "votesCount": "90",
+    "score": "3.66",
+    "votesCount": "96",
     "breakdown": {
-      "love": "22",
-      "like": "32",
-      "ok": "21",
+      "love": "23",
+      "like": "35",
+      "ok": "23",
       "dislike": "12",
       "hate": "3"
     }
@@ -49,9 +77,9 @@
   "seasons": {
     "winter": "3",
     "spring": "22",
-    "summer": "30",
+    "summer": "31",
     "autumn": "6",
-    "day": "25",
+    "day": "26",
     "night": "2"
   },
   "notes": {
@@ -78,41 +106,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "2",
+    "moderate": "10",
+    "longLasting": "4",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "10",
+    "strong": "5",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "5",
+    "unisex": "11",
+    "moreMale": "2",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "21",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "5",
+    "overpriced": "6",
+    "fair": "23",
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİLÍS PARFUM",
+      "name": "Fenomene Glow"
+    },
+    {
+      "brand": "AVON",
+      "name": "Today Tomorrow Always Celebrate (2024)"
+    },
+    {
+      "brand": "MONOGATARİ",
+      "name": "Yuzu"
+    },
+    {
+      "brand": "CASAMORATİ 1888",
+      "name": "Lira"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "Lime Sis!"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Rêve Lotus"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LES LİQUİDES IMAGİNAİRES",
       "name": "Seductive Cedrat"
     },
     {
+      "brand": "ESSENTİAL PARFUMS",
+      "name": "Nice Bergamote"
+    },
+    {
       "brand": "LES LİQUİDES IMAGİNAİRES",
       "name": "Buddha Blend"
+    },
+    {
+      "brand": "LES LİQUİDES IMAGİNAİRES",
+      "name": "Saffron Mandarin"
     },
     {
       "brand": "LES LİQUİDES IMAGİNAİRES",
@@ -143,10 +204,6 @@
       "name": "L’Ile Pourpre"
     },
     {
-      "brand": "BYREDO",
-      "name": "Gypsy Water"
-    },
-    {
       "brand": "GUERLAİN",
       "name": "Aqua Allegoria Herba Fresca"
     },
@@ -160,11 +217,8 @@
     },
     {
       "brand": "LES LİQUİDES IMAGİNAİRES",
-      "name": "Fleur De Sable"
-    },
-    {
-      "brand": "LES LİQUİDES IMAGİNAİRES",
       "name": "Blanche Bête"
     }
-  ]
+  ],
+  "comments": []
 }

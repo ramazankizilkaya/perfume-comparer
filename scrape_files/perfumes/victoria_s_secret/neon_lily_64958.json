@@ -15,19 +15,19 @@
       "width": "100%"
     },
     {
-      "name": "meyvemsi",
-      "width": "65%"
-    },
-    {
       "name": "tatlı",
       "width": "65%"
     },
     {
-      "name": "taze",
-      "width": "54.5%"
+      "name": "meyvemsi",
+      "width": "65%"
     },
     {
       "name": "yumuşak baharatlı",
+      "width": "54.5%"
+    },
+    {
+      "name": "taze",
       "width": "54.5%"
     },
     {
@@ -68,38 +68,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "3",
-    "moderate": "3",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "3",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "9",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "4",
-    "greatValue": "3"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Hello Beautiful"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUCCİ",
@@ -161,5 +156,6 @@
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "Jazz Club"
     }
-  ]
+  ],
+  "comments": []
 }

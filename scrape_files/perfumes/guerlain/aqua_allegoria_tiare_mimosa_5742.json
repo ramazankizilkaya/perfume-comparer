@@ -55,8 +55,8 @@
     "score": "3.86",
     "votesCount": "865",
     "breakdown": {
-      "love": "213",
-      "like": "476",
+      "love": "214",
+      "like": "475",
       "ok": "25",
       "dislike": "147",
       "hate": "4"
@@ -64,8 +64,8 @@
   },
   "seasons": {
     "winter": "34",
-    "spring": "270",
-    "summer": "223",
+    "spring": "271",
+    "summer": "224",
     "autumn": "68",
     "day": "309",
     "night": "41"
@@ -84,66 +84,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "13",
-    "weak": "22",
-    "moderate": "83",
-    "longLasting": "37",
-    "eternal": "10"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "47",
-    "moderate": "83",
-    "strong": "32",
-    "enormous": "32"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "33",
-    "moreFemale": "5",
-    "unisex": "3",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "5",
-    "overpriced": "3",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "25",
-    "goodValue": "2",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GOUTAL",
-      "name": "Eau De Charlotte"
-    },
-    {
-      "brand": "CHANTECAİLLE",
-      "name": "Frangipane"
-    },
-    {
-      "brand": "ZENTS",
-      "name": "Pear"
-    },
-    {
-      "brand": "TAUER PERFUMES",
-      "name": "14 Noontide Petals"
-    },
-    {
-      "brand": "PH FRAGRANCES",
-      "name": "Gardenia & Jasmine of Cashmere"
-    },
-    {
-      "brand": "GOUTAL",
-      "name": "Songes"
-    },
-    {
-      "brand": "EX NİHİLO",
-      "name": "Devil Tender"
-    },
-    {
-      "brand": "BY KİLİAN",
-      "name": "Sunkissed Goddess"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -154,12 +121,12 @@
       "name": "Coco Mademoiselle"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Samsara Eau de Parfum"
-    },
-    {
       "brand": "DİOR",
       "name": "Pure Poison"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Samsara Eau de Parfum"
     },
     {
       "brand": "DİOR",
@@ -205,5 +172,6 @@
       "brand": "DİOR",
       "name": "Dune"
     }
-  ]
+  ],
+  "comments": []
 }

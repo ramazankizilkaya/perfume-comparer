@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.74600.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Hermes/Eau-de-Basilic-Pourpre-74600.html",
   "brand": "Hermès parfüm ve kolonya",
-  "description": "Hermès markasının Eau de Basilic Pourpre parfümü, kadınlar ve erkekler için Odunsu Aromatik bir kokudur. Eau de Basilic Pourpre, 2022 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christine Nagel. Üst nota: Bergamot; orta notalar: Fesleğen ve Sardunya; alt notalar Baharatlı notalar ve Paçuli.",
-  "description_original": "Hermès markasının Eau de Basilic Pourpre parfümü, kadınlar ve erkekler için Odunsu Aromatik bir kokudur. Eau de Basilic Pourpre, 2022 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christine Nagel. Üst nota: Bergamot; orta notalar: Fesleğen ve Sardunya; alt notalar Baharatlı notalar ve Paçuli.",
-  "description_enhanced": "Hermès markasının Eau de Basilic Pourpre parfümü, kadınlar ve erkekler için Odunsu Aromatik bir kokudur. Eau de Basilic Pourpre, 2022 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christine Nagel. Üst nota: Bergamot; orta notalar: Fesleğen ve Sardunya; alt notalar Baharatlı notalar ve Paçuli.",
+  "description": "Hermès markasının Eau de Basilic Pourpre parfümü, kadınlar ve erkekler için Odunsu Aromatik bir kokudur. Eau de Basilic Pourpre, 2022 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christine Nagel. Üst nota: Bergamot; orta notalar: Fesleğen ve Sardunya; alt notalar Baharatlar ve Paçuli.",
+  "description_original": "Hermès markasının Eau de Basilic Pourpre parfümü, kadınlar ve erkekler için Odunsu Aromatik bir kokudur. Eau de Basilic Pourpre, 2022 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christine Nagel. Üst nota: Bergamot; orta notalar: Fesleğen ve Sardunya; alt notalar Baharatlar ve Paçuli.",
+  "description_enhanced": "Hermès markasının Eau de Basilic Pourpre parfümü, kadınlar ve erkekler için Odunsu Aromatik bir kokudur. Eau de Basilic Pourpre, 2022 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christine Nagel. Üst nota: Bergamot; orta notalar: Fesleğen ve Sardunya; alt notalar Baharatlar ve Paçuli.",
   "mainAccords": [
     {
       "name": "taze baharatlı",
@@ -37,25 +37,53 @@
     {
       "name": "paçuli",
       "width": "45.0476%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.86",
-    "votesCount": "783",
+    "score": "3.87",
+    "votesCount": "808",
     "breakdown": {
-      "love": "213",
-      "like": "349",
-      "ok": "134",
+      "love": "224",
+      "like": "358",
+      "ok": "139",
       "dislike": "72",
       "hate": "15"
     }
   },
   "seasons": {
     "winter": "27",
-    "spring": "278",
-    "summer": "335",
-    "autumn": "87",
-    "day": "287",
+    "spring": "289",
+    "summer": "346",
+    "autumn": "88",
+    "day": "297",
     "night": "51"
   },
   "notes": {
@@ -67,62 +95,66 @@
       "Sardunya"
     ],
     "base": [
-      "Baharatlı notalar",
+      "Baharatlar",
       "Paçuli"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "51",
-    "weak": "160",
-    "moderate": "121",
+    "veryWeak": "52",
+    "weak": "164",
+    "moderate": "125",
     "longLasting": "14",
     "eternal": "3"
   },
   "sillage": {
-    "intimate": "168",
-    "moderate": "121",
+    "intimate": "176",
+    "moderate": "125",
     "strong": "13",
     "enormous": "3"
   },
   "genderVoting": {
     "female": "6",
     "moreFemale": "15",
-    "unisex": "250",
-    "moreMale": "108",
+    "unisex": "254",
+    "moreMale": "112",
     "male": "20"
   },
   "priceVoting": {
     "wayOverpriced": "32",
-    "overpriced": "93",
-    "fair": "134",
-    "goodValue": "37",
+    "overpriced": "95",
+    "fair": "139",
+    "goodValue": "38",
     "greatValue": "6"
   },
   "remindsMeOf": [
     {
-      "brand": "MUGLER",
-      "name": "Mystic Aromatic"
-    },
-    {
       "brand": "AESOP",
       "name": "Tacit"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Mystic Aromatic"
     },
     {
       "brand": "CASAMORATİ 1888",
       "name": "Fiero"
     },
     {
-      "brand": "COMPTOİR SUD PACİFİQUE",
-      "name": "Eau de Biarritz"
+      "brand": "GOUTAL",
+      "name": "Mandragore Pourpre"
     },
     {
       "brand": "GOUTAL",
       "name": "Eau du Sud"
     },
     {
-      "brand": "GOUTAL",
-      "name": "Mandragore Pourpre"
+      "brand": "COMPTOİR SUD PACİFİQUE",
+      "name": "Eau de Biarritz"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Buongiorno"
     },
     {
       "brand": "MUGLER",
@@ -137,12 +169,16 @@
       "name": "Basil & Neroli"
     },
     {
+      "brand": "CLARİNS",
+      "name": "Eau Dynamisante"
+    },
+    {
       "brand": "ANDREA MAACK",
       "name": "Cornucopia"
     },
     {
-      "brand": "CLARİNS",
-      "name": "Eau Dynamisante"
+      "brand": "ORİFLAME",
+      "name": "Puressence by Ecobeauty"
     },
     {
       "brand": "BRUNELLO CUCİNELLİ",
@@ -151,14 +187,6 @@
     {
       "brand": "HERETİC PARFUM",
       "name": "Flower Porn"
-    },
-    {
-      "brand": "ORİFLAME",
-      "name": "Puressence by Ecobeauty"
-    },
-    {
-      "brand": "THE MERCHANT OF VENİCE",
-      "name": "Arabesque"
     }
   ],
   "peopleAlsoLike": [
@@ -176,6 +204,10 @@
     },
     {
       "brand": "HERMÈS",
+      "name": "Terre d'Hermès Eau Givree"
+    },
+    {
+      "brand": "HERMÈS",
       "name": "Un Jardin Sur Le Nil"
     },
     {
@@ -183,8 +215,8 @@
       "name": "Bois Impérial"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Mandarine Basilic"
+      "brand": "HERMÈS",
+      "name": "Eau d'Orange Verte"
     },
     {
       "brand": "HERMÈS",
@@ -208,10 +240,6 @@
     },
     {
       "brand": "HERMÈS",
-      "name": "Un Jardin Sur Le Toit"
-    },
-    {
-      "brand": "HERMÈS",
       "name": "Eau de Citron Noir"
     },
     {
@@ -221,6 +249,198 @@
     {
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent700954",
+      "author": "woodlandwalk",
+      "date": "2025-05-06",
+      "text": "Evet, çok hafif ve bir saat içinde ten kokusuna dönüşüyor. Ancak, örneğin güneşteyseniz, yine de belirgin bir varlığı olacağını ve bu kokunun ara sıra çok hoş bir şekilde burnunuza geleceğini düşünüyorum.\n\nBana biraz Clarins'in Eau de Dynamisante parfümünün daha incelikli bir versiyonunu hatırlatıyor.\n\nZarif, şık, hafifçe erkeksi. Ancak bunu söylerken sadece tamamen nötr olmadığını kastediyorum; baharatların, paçulinin ve sardunyanın birleşimi benim burnuma her zaman hafifçe erkeksi geliyor.\n\nŞahsen, özellikle bu gibi hafif olan, daha çok maskülen tonlardaki parfümlerin nemi azalttığı için sıcak havalar için ideal olduğunu düşünüyorum.\n\nGüzel, ama dünyayı sarsacak kadar değil. Yine de, keten bir elbise veya güzel bir gömlekle oldukça özel olabilir.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.11394.jpg"
+    },
+    {
+      "id": "parent700995",
+      "author": "Sygin",
+      "date": "2024-12-27",
+      "text": "Bu muhteşem bir kolonya; fesleğen etrafındaki çalışma onu özgün bir yaratım haline getiriyor ve bence oldukça tartışmalı bir konu.\nOldukça uzun süre kalıcı: Elbette, gün boyu etkisini hissetmek istiyorsanız yeniden uygulamanız gerekecek, ancak biraz fazla sıkarsanız bile çok iyi kalıyor, eşimde saatlerce etkisini hissedebiliyorum.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.38214.jpg"
+    },
+    {
+      "id": "parent700958",
+      "author": "Artjuna",
+      "date": "2024-01-19",
+      "text": "Bu parfümü severek kullanan bir kadın olarak, yine de daha çok erkeksi bir koku olduğunu düşünüyorum.\n\nErkeksi bir kokuya sahip olmaktan rahatsız olmadığım zamanlarda kullanıyorum.\n\nParfüm terimlerini tam olarak bilmiyorum ama bana göre taze, baharatlı ve lüks bir koku. Sanki bu kokuyu sürdüğümde keten kıyafetler giymem gerekiyor, çünkü benden bunu talep ediyor gibi.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1896524.jpg"
+    },
+    {
+      "id": "parent700959",
+      "author": "Stinky whiskey Buttons",
+      "date": "2023-08-28",
+      "text": "Çok doğal, bitkisel bir fesleğen kokusu. Açılışta hoş bir doğal fesleğen kabuğu ve bergamot patlaması yaşanıyor, sonlara doğru yumuşak ve biraz baharatlı bir hal alıyor. Bir kolonya gibi en fazla 4 saat kalıcılığı var ve sonrasında hafif bir ten kokusu kalıyor. Fesleğeni seviyorsanız harika bir seçim, fesleğeni sevmeyenler ise satın almadan önce denemeli, çünkü bu koku tamamen fesleğenin ön plana çıkmasıyla ilgili. Ben tıraştan sonra kullanıyorum, bence o ortamda temiz, ferah ve erkeksi kokuyor. Tabii ki bayanlar da kullanabilir 😁",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1338418.jpg"
+    },
+    {
+      "id": "parent700953",
+      "author": "sbmmbs21",
+      "date": "2023-04-04",
+      "text": "Hermes parfümlerine karşı bir tür takıntı/gizli zevk geliştirdim ve bu da zaaflarımdan sadece bir diğeri. (Gizli zevk diyorum çünkü çoğu hafif EDT/EDC olduğu için, özellikle uzun süre kalıcı olmayan bir şey için para harcamaya istekli olmanız gerekiyor, AMA onlara karşı koyamıyorum.)\n\nBu parfümü mağazada denedim ve ne kadar sıra dışı olduğuna şaşırdım. İlk bir dakika kadar çok erkeksi bir şekilde açılıyor, sonra fesleğen notasıyla öne çıkan, rüya gibi, taze ve aromatik bir kokuya dönüşüyor. Bu parfümü kağıda sıktım ve sonraki birkaç gün boyunca kokusunu üzerimden atamadım (maalesef kağıt/kıyafet üzerinde cilde göre çok daha uzun süre kalıyor).\n\nHemen aşık oldum, bu yüzden önceden doğrudan kendime sıkmadan bir şişe satın aldım ve diğerleriyle aynı fikirdeyim; kolonya olduğu için ciltte çok belirgin değil. Yaklaşık 20 dakika içinde ten kokusuna dönüşüyor, ancak yine de gün içinde tekrar sıkmak zorunda kalmanın bedelini ödemeye razıyım çünkü bence çok eşsiz ve muhteşem. 😂",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent701013",
+      "author": "Nibbiolini",
+      "date": "2023-03-04",
+      "text": "Güzel, ferah ve hafif baharatlı bir kolonya; çok zarif, temiz ve inceliği ve ölçülülüğü sayesinde her ortama ve duruma ideal bir şekilde uygun. Sıcak mevsimler için mükemmel, fısıltılı, samimi, son derece hoş ve aydınlık bir koku. Aromatik fesleğen notası, baharat ipuçları ve sardunyanın kişiliğiyle incelikle yumuşatılmış ve zenginleştirilmiştir. Kalıcılığı ve yayılımı çok sınırlı: çok sınırlı yayılımı olan, çok samimi ve cilt dostu, hafif bir kolonya gibi performans gösteriyor. Genel olarak, gerçekten güzel!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.62515.jpg"
+    },
+    {
+      "id": "parent700952",
+      "author": "DolceVita7",
+      "date": "2023-01-25",
+      "text": "Dürüst olmak gerekirse, tek kelimeyle cennet diyebilirim. Kokuyu aldığım anda kendimi yemyeşil bir ormanda gibi hissettim, gerçekten çok sevdim. Parfümleri daha iyi anlamak ve hissetmek için her zaman onlara şans veririm, ama bu bambaşka bir şey, ilk koklamada aşık oldum.\nASLINDA bu benim imzam olacak",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1391818.jpg"
+    },
+    {
+      "id": "parent700970",
+      "author": "Espartaco",
+      "date": "2023-01-24",
+      "text": "Korkunç, korkunç, dehşet verici. Nagel'i komik buluyorum çünkü aynı formüle bağlı kalan ve başarılı tasarımlarını uzatan diğer parfümcülerden farklı olarak, gerçekten denemeler yapıyor gibi görünüyor. En azından yeni kreasyonlarından birini denemek, sıradan bir şey koklamayacağınızın garantisini veriyor. Ama bunun gibi şeylerde, başlangıçta artı gibi görünen şey eksiye dönüşüyor... ne kadar kötü.\n\nİçindekilerden sadece adını veren fesleğeni biliyordum, bu yüzden midemi bulandıracak bir şey beklemiyordum, çünkü fesleğen, küçük dozlarda ve her zaman eşlikçi olarak kullanıldığında, kompozisyonlara canlı ve ferahlatıcı bir dokunuş katıyor. Pat, pat, püskürme, kokusunu alıyorum... bir öğürme hissi. Aman Tanrım, ne iğrenç, rezene, kilolarca rezene. Kırsalda büyüyenlerimiz bu kokuyu avucumuzun içi gibi bilir; kimileri bayılır, kimileri nefret eder. Ben ikincilerdenim. Güveçlerde ve tencere yemeklerinde nefret ederim, çiğ olarak, zeytin marinesinde ve ayrıca taze olarak, ağzımın bir ucundan diğerine uçuşan yeni filizlenmiş bir sapıyla, doğadan gelen tatlı bir ikram gibi, nefret ederim. Sanırım çocukken çok fazla çiğ rezene yedim; bugün tahammül edemiyorum. O çamurlu, baharatlı, sarımsı koku, aynı anda hem soluk hem de yoğun, keskin, sahte bir yumuşaklık.\n\nBu parfüm, hoş olmayan, eski, sararmış rezene kümelerinden birinin patlamasıyla başlıyor. Tekrar kokluyorum ve yine aynı şey. Rezene. Cehenneme git, Eau de Basilic Pourpre. En iyi kısmı ise, biraz sonra, o bayıcı anason notalarının yerini bir şeye bıraktığını umarak burnumu tekrar yaklaştırdığımda, midemi daha da bulandıran bir kokuyla karşılaşmam: güller. Güller, güller ve daha çok gül—çirkin, sert, berbat, genç ve ferahlatıcı olmaya çalışan ama kurumuş kadife gibi, Ifa'dan alınmış iki avroluk bir oda parfümü gibi ve kirli bir küvet gibi kokan türden. Ve böylece sonuna kadar devam ediyor, rezene ve tatsız güllerin karışımı, sabun köpüğü gibi bir tat bırakıyor, sanki bir maymunun tuvaletinden daha kirli bir duşta kaynatılmış gibi.\n\nListelenen notalardan sadece bergamotu algılayabiliyorum ve bu da kendi başına aşırı derecede değil, daha çok sabunlu, kalıcı dip notalardan geliyor. Sardunya baskın, gül gibi gizlenmiş ve en fazla, fesleğen ve baharat karışımı anason dokunuşu sağlıyor, zeytin hazırlamak için cam bir kaba konmaya hazır bir rezene sapını taklit ediyor. Biraz hoş gelen tek kısım dip notalar; burada paçuli ve bergamotun sabunlu notaları, belirli bir sıcak dokuya sahip bir kalıntı yaratıyor, bu da birçok erkek parfümünün son notası olduğu için bahsetmeye bile değmez.\n\nKorkunç bir olay.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.17361.jpg"
+    },
+    {
+      "id": "parent701012",
+      "author": "matteo_fumagalli",
+      "date": "2023-01-18",
+      "text": "Sıcak mevsimler için mükemmel, nostaljik bir lezzete sahip, rafine edilmiş bir su.\nDengeli bir koku, bunaltıcı değil, ancak kesinlikle son derece hoş ve zarif, yeşilimsi bir karaktere sahip. Ancak fesleğenden daha çok narenciye notalarını fark ediyorum.\nBaşlangıçta bergamot oldukça kararlı kalır ve bu aromatik bitkilerin taç yapraklarında ortaya çıkar.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.54350.jpg"
+    },
+    {
+      "id": "parent700964",
+      "author": "Antiope",
+      "date": "2022-09-19",
+      "text": "Papa's Losyonlu Tıraş Sonrası Losyonları (ıslak tıraştan sonra)\n\nEau de Basilic Pourpre, fırtınalı, taze ve baharatlı bir açılışa sahip; bana anında 1970'lerde çocukken babamın kullandığı tıraş sonrası losyonunu hatırlatıyor.\nBanyodaki sabahın \"ferah ve temiz\" atmosferi, annemin her gün \"Dişlerinizi fırçaladınız mı?\" diye uyarıcı sesi (hepimiz aynı anda evden çıkmak zorundaydık; babam ofise, kız kardeşim ve ben okula) tıraş sonrası losyon kokularının anısı kadar canlı.\nBanyodaki konsolun üzerinde Old Spice, tütün ve Pitralon vardı ve babam bunları sırayla kullanmayı severdi; sıvıları ellerine döküp sonra onlarla yüzünü ve boynunu ferahlatıp hafifçe vururdu.\nSprey formundaki ürünler, tıraş sonrası losyonlarında eskiden de yaygın değildi; ancak yeni ve giderek daha seçkin hale gelen \"Pour Homme\" eau de toilette'lerin ortaya çıkmasıyla moda haline geldiler.\n\nTıraş sonrası losyonları, tıraş köpükleri (babam bazen bunu bolca kız kardeşimin ve benim burnuma sürmeyi bir oyun haline getirirdi) ve diş macununa dair uzun zamandır unutulmuş izlenimlerimden sonra, bu yeni Hermès kokusu beni çok şaşırttı.\nSıkıldıktan kısa süre sonra kaybolmasının yanı sıra, eczanelerde yaygın olarak bulunan parfümlere benzer bir kokusu var.\n\nDahası, çok kısa süren bir koku deneyimi.\n\nSıkıldıktan sonra narenciye notaları kısa bir an için hissediliyor, ancak onlar da tıpkı tüm koku gibi hızla kayboluyor.\nPaçuli, sardunya ve bergamot ile birleşerek, ilk ferahlatıcı ve baharatlı patlamanın dağılmasının ve bergamotun kısa süreliğine öne çıkmasının ardından hoş ve kolayca algılanabilen son bir koku notası oluşturuyor. Bu nota daha uzun süre kalsaydı, tıraş sonrası losyonu anılarımı komik bir şekilde silebilir veya hoş bir şekilde gölgede bırakabilirdi. Ancak, bu koku ne enerji ne de dayanıklılıkla karakterize edilmediğinden, bunu oldukça komik bulmaktan kendimi alamıyorum...",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.de",
+      "avatar": "https://fimgs.net/mdimg/avataride/m.7250.jpg"
+    },
+    {
+      "id": "parent700972",
+      "author": "rdanitorres",
+      "date": "2022-09-12",
+      "text": "Birkaç hafta önce bir Hermès mağazasında bana gösterdiler ve ilk tepkim HAYIR oldu.\n\nNe zaman emici kağıdı gözlük kutuma koyduğumu hatırlamıyorum, ertesi gün gözlüklerimi taktığımda çok tuhaf ve hoş bir koku fark etmeye başladım ama nereden geldiğinden tam olarak emin değildim.\n\nSonunda bunun Eau de Basilic Pourpre kokusu olduğunu keşfettim ve o gün birkaç dakika boyunca gözlüklerim burnuma yapışmış kaldı :D\n\nTatlı, yeşil bir aroma; fesleğenin berrak, doğrudan yeşil kokusu. Fesleğenin gerçek aroması güçlüdür ve hazır yemeklerde olmadığı sürece, oldukça baskın ve çok bitkisel bir koku olduğunu düşünüyorum.\n\nAma burada bize güzelce işlenmiş bir fesleğen sunmuşlar, hatta sulu diyebilirim, ama meyvemsi bir sululuk (biliyorum, bu gerçek bir şey değil), ama ben öyle hayal ediyorum. Fesleğenin bir rüyası, tatlı, neşeli, temiz, el yapımı ve sofistike, ama aynı zamanda sade. Belki de bahsettikleri sardunya çok destekleyici bir eşlikçi, çünkü belirgin değil ama bu tatlılığı ve inceliği katıyor.\n\nBu koku, işlevselliğinden çok koleksiyon amacıyla edinilen Hermès parfümlerinden biri; kalıcılığı ve yayılımı çok az, ancak her kişinin zevkine ve parfümeri ilgisine bağlı olarak, şişede bir şiir gibi olabilir.\n\nEn azından denemenizi ve gelişimini izlemenizi tavsiye ederim.\nBence oldukça unisex bir ürün. Kış hariç, genellikle kullanırım. Kesinlikle Hermès'in imzası niteliğindeki tarzı taşıyor.\n\n*Ilıman iklimde yapılan kağıt üzerinde testlere dayalı değerlendirme.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.10751.jpg"
+    },
+    {
+      "id": "parent700957",
+      "author": "andrewatic",
+      "date": "2022-08-26",
+      "text": "Bu gerçekten ÇOK İYİ!\nMadame Nagel'in hayranı olmadığım tasarımları hakkında bunu sık sık söylemem ama bu küçük parça gerçekten muhteşem, ilgi çekici bir karmaşıklığa sahip ve tam anlamıyla Hermès tarzı!\nBen de sanki hipnotize olmuş gibi dükkana geri döndüm ve bu harika üründen iki şişe aldım.\nBravo!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1051086.jpg"
+    },
+    {
+      "id": "parent701020",
+      "author": "Wooster",
+      "date": "2022-08-15",
+      "text": "Christine Nagel'den fena bir albüm değil.\nİçinde mor fesleğen yaprakları ve dalları yüzen, soğuk ve hafifçe tatlandırılmış bir sürahi dolusu su.\n\nÇok sulu bir koku. Serin ve rahatlatıcı. Hatta hüzünlü bile diyebilirim.\nİtalyan mutfağı temasına pek yaklaşmıyor; daha rafine bir koku. Fesleğen üst ve orta notalarda belirgin, dip notalarda ise aroma biraz daha nar benzeri bir şeye dönüşüyor. Neredeyse Jo Malone'un Pomegranate Noir'ının hayaletini hissedebiliyorum. Tatlı-ekşi bir nota eklenerek bu fesleğeni doğal halinden biraz daha lezzetli ve tatlı hale getiriyor.\n\n\nBasilic Pourpre genel olarak bana Armani'nin Eau Pour Homme'unu hatırlatıyor; fesleğenin serinliği ve hafif şipre etkisinin birleşimiyle, ancak sanki biraz tatlandırılmış ve suyla zenginleştirilmiş gibi.\nHoşuma giden şey, serinletici etkisi, notaların saflığı ve dip notalarda sentetik veya misk kokulu notalar gibi hoş olmayan sürprizlerin olmaması.\nAncak, kokunun herkesin zevkine hitap etmeyeceğini kabul etmek gerekir, çünkü oldukça özeldir; aromatik bitkisel kokusu salata çağrışımları uyandırabilir, bundan kaçış yok. Narenciye kolonyaları daha nötrdür, oysa fesleğen (parfümeride de kullanılan dereotu gibi) özellikle ön plana çıktığında kaçınılmaz olarak salata çağrışımları uyandırır.\nKoku biraz daha erkeksi olsa da, içine birkaç kaşık şeker eklenmesi onu erkeksi yapmıyor. Sulu dokusu ve nar aromasına rağmen, koku hala serin, yeşil ve biraz sert. Ve çok aromatik.\nFesleğenin daha incelikli, daha dengeli aromalarla ve salata çağrışımlarından uzak bir şekilde nasıl kullanılabileceğiyle ilgilenenler için Chanel'in Paris-Dauville, Creed'in Royal Water ve Armani'nin Eau Pour Homme parfümlerini öneririm.\n\nNot: Hafifçe artırılmış tatlılığı, ferahlığı ortadan kaldırdığı için aşırı gibi görünüyor. Koku çok sıcak. Taze otlar ve fesleğenin yeşilimsi ferahlığıyla ilginç bir şipre veya fougère kokusu olabilirdi. Bunun yerine, yavan ve oldukça zayıf kalmış.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.49328.gif"
+    },
+    {
+      "id": "parent700956",
+      "author": "KöbiD",
+      "date": "2022-08-14",
+      "text": "Basilic Pourpre ilk koklamada aşık oldum! Bu, şimdiye kadar koklama zevkini yaşadığım en iyi ve en zarif bitkisel/baharatlı/aromatik parfümlerden biri. Koku oldukça doğrusal, ancak notalar iyi harmanlanmış ve çoğunlukla fesleğen, sardunya, karanfil ve çeşitli diğer baharatların etkileşimini alıyorum. Erkeklere yönelik pazarlanan bir kolonya gibi kokma eğilimi biraz var, ancak aromatik kokuları seven kadınların bunu denemesini yine de tavsiye ederim. Basilic Pourpre, yaz aylarında kullanılan klişe narenciye kokularından harika bir değişiklik.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1160015.jpg"
+    },
+    {
+      "id": "parent700996",
+      "author": "Isabelle",
+      "date": "2022-08-04",
+      "text": "Bu, hakkında kesin bir görüş oluşturmakta zorlandığım bir koku (aslında bir kolonya), çünkü onu gerçekten sevmeden seviyorum. Narenciye notaları içeren yeşil bir koku (hafif otsu, hatta mentollü bir eğilimle) ve açılışını oldukça çekici buluyorum; sorun şu ki, tüm bu canlılık hızla sönük misklerin içinde kayboluyor ve işte burada kompozisyon çekiciliğini kaybediyor. C. Nagel, Ellena değil ve aldatıcı derecede basit şeffaflık sanatı o kadar kolay değil.\nHer durumda, güzel bitkisel kolonyalar kategorisinde Cartier'nin Luxuriance'ının tahtını indiremeyecek.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.529.jpg"
+    },
+    {
+      "id": "parent700955",
+      "author": "brokesta911",
+      "date": "2022-07-28",
+      "text": "Hermes Eau de Basilic Pourpre (2022) - fesleğen sardunya - Eğer biri bana bunun Jean Claude Ellena tarafından yaratıldığını söyleseydi, inanırdım. #christinenagel, selefinin şeffaflık, sadelik ve ustalık tarzına sanatsal bir saygı duruşunda bulunuyor. Baharatlı ve aromatik üst notalar: Bergamot, Nane ve Fesleğen, Kakule, Anason ve Biber ile karışıyor. Kalbinde, fesleğen tatlılaşıyor ve gül benzeri Sardunya devreye giriyor. Aromatik bileşenler arasındaki oyunbazlık, bunu Hermes kolonya serisinin en iyilerinden biri yapıyor. Kesinlikle Cartier'in Declaration DNA'sını taşıyor. Kuruma aşamasında, Paçuli değil, daha çok Meşe Yosunu, Vetiver ve Sedir kokusu alıyorum.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1221404.jpg"
+    },
+    {
+      "id": "parent700974",
+      "author": "Ezegom39",
+      "date": "2022-07-11",
+      "text": "Eau de Basilic Pourpre... Ortalama EDT süresine sahip bir kolonya.\nCanlı, narenciye kokulu açılış, tam açmış bergamot ile anında ferahlatıcı ve gerçekçi bir fesleğen notasıyla harmanlanıyor. İlk 15 dakikadan sonra fesleğen yumuşuyor ve sardunya da bu notaya varlığını katıyor. Bu, sade ama sofistike bir kolonya ve kadınlar bunu bir miktar maskülenlikle ilişkilendirebilir.\nDior Eau Sauvage EDT ile karşılaştırmalar okudum; benzerlik, çok benzer şekilde kullanılan fesleğenden kaynaklanıyor olabilir. Ancak bu durumda, 2010 yılındaki yeniden yorumlama olan Eau Sauvage Extreme'deki fesleğene çok daha yakın olduğunu düşünüyorum. Ayrıca, 2008 civarında çok kullandığım, çok belirgin bir fesleğen notası içeren Hugo Boss'un Hugo XY parfümünü de hemen aklıma getirdi. Elbette, tam olarak parfümlerin kendilerinden değil, benzer notalardan bahsediyorum. İlkbahar/yaz için iyi bir seçenek, taze ve çok aromatik bir bitkisel koku.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.43570.jpg"
+    },
+    {
+      "id": "parent700992",
+      "author": "STORM",
+      "date": "2022-07-04",
+      "text": "Hermès'ten yaz sezonu için yepyeni ve keyifli bir ürün; taze ve dinamik bir kokuya sahip.\n\nAra sıra kullandığım bir diğer klasik Hermès \"yeşil\" parfümü olan ve fesleğen notaları içeren \"Concentré d'orange verte\" ile karşılaştırırsam: ikisi de ferah, ancak Concentré d'orange verte, kalıcılık ve yayılım açısından mantıksal olarak çok daha güçlü ve narenciye odaklı. Fesleğen ise başlangıçta daha az agresif, geliştikçe daha zengin ve daha incelikli, otsu bir karaktere sahip.\nUnisex bir ürün ilk bakışta biraz daha erkeksi görünebilir.\n\nYani, taze ve baharatlı fesleğen kokusuyla ilgileniyorsanız oldukça hoş, ancak kalıcılığı biraz hayal kırıklığı yarattı, yine de kolonyanın konsantrasyonu göz önüne alındığında bu oldukça normal. Sağlam bir 7/10'u hak ediyor. Belki bir gün \"Konsantre\" versiyonu çıkar?",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent701011",
+      "author": "ParFoom",
+      "date": "2022-06-22",
+      "text": "Paris'teki Champs Elysées üzerindeki Sephora'da denedim. Test ürünleri ve kutular neredeyse hiç kullanılmamıştı, bu yüzden sanırım çok yakın zamanda satışa sunmaya başladılar.\nNagel'in dokunuşu burada da var (diğer elimde onun Eau Givrèe'si vardı ve tarz benzerliği gerçekten çarpıcı), hatta her zamankinden daha belirgin; Hermès parfümleri genellikle içeriklerine odaklanır, ancak burada Nagel kişisel bir deneyimin anısını canlandırıyor ve sonuç gerçekten de muadillerine göre daha az basit ve \"doğal\" görünüyor: başlangıçtaki çok soğuk ve otsu (aslında gerçekten \"mor\") fesleğen, baharatlar ve paçuli ile daha karmaşık hale getirilmiş güzel, çok yeşil bir sardunyaya dönüşüyor. Kısacası, kendinizi fesleğen bitkileriyle çevrili hissettiren bir parfüm arıyorsanız, geri dönün; bu daha çok çeşitli yeşil ve topraksı notaların çok iyi dengelendiği yemyeşil bir bahçe gibi.\nBana kalırsa sonuç, ticari kalıpların çok klişelerinden uzak, neredeyse vintage bir havaya sahip, çok zarif bir maskülenlik; ve bence diğerlerine kıyasla kesinlikle daha klasik; bu tür çiçeksi/yeşil/baharatlı ferahlığı seviyorsanız denemeye değer, ancak bu serinin birçok hayranı beğenmeyebilir.\nAncak gerçekten anlamadığım şey, bu parfümü yaz ortasında piyasaya sürme tercihi: bana göre ilkbaharda çok daha iyi performans gösterirdi ve bunaltıcı sıcakta başarılı olacağını sanmıyorum.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     }
   ]
 }

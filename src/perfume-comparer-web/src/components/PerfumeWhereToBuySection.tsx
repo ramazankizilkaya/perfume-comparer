@@ -4,12 +4,8 @@ import { useRef } from "react";
 
 interface StoreItem {
     name: string;
-    tag: string;
     url: string;
-    brandColor: string;
-    textColor?: string;
-    logoText: string;
-    accentBorder?: string;
+    logoUrl: string;
 }
 
 interface StoreGroup {
@@ -80,31 +76,20 @@ function StoreSliderRow({
                             target="_blank"
                             rel="noopener noreferrer"
                             className="buy-store-card"
-                            title={`${perfumeName} için ${store.name} satış sayfasını yeni sekmede veya uygulamada aç`}
+                            title={`${perfumeName} - ${store.name} Satış Noktası ve Güncel Fiyatları`}
+                            aria-label={`${perfumeName} ${store.name} Satış Noktası ve Fiyatları`}
                         >
-                            <div
-                                className="buy-card-logo"
-                                style={{
-                                    backgroundColor: store.brandColor,
-                                    color: store.textColor || "#FFFFFF",
-                                    border: store.accentBorder ? `1px solid ${store.accentBorder}` : "none",
-                                }}
-                            >
-                                <span className="buy-card-logo-text">{store.logoText}</span>
+                            <div className="buy-card-logo-wrap">
+                                <img
+                                    src={store.logoUrl}
+                                    alt={`${store.name} - ${perfumeName} satış noktası ve güncel fiyatları`}
+                                    className="buy-card-logo-img"
+                                    loading="lazy"
+                                />
                             </div>
-                            <div className="buy-card-content">
-                                <span className="buy-card-name">{store.name}</span>
-                                <div className="buy-card-footer">
-                                    <span className="buy-card-tag">{store.tag}</span>
-                                    <span className="buy-card-action">
-                                        Fiyatı Gör
-                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                                            <line x1="7" y1="17" x2="17" y2="7" />
-                                            <polyline points="7 7 17 7 17 17" />
-                                        </svg>
-                                    </span>
-                                </div>
-                            </div>
+                            <span className="sr-only">
+                                {perfumeName} {store.name} Satış Noktası ve En Ucuz Fiyatları
+                            </span>
                         </a>
                     ))}
                 </div>
@@ -135,36 +120,23 @@ export default function PerfumeWhereToBuySection({
             stores: [
                 {
                     name: "Beymen",
-                    tag: "Yetkili Butik",
                     url: `https://www.beymen.com/search?q=${encoded}`,
-                    brandColor: "#1A1A1A",
-                    textColor: "#F8F8F8",
-                    logoText: "B E Y M E N",
+                    logoUrl: "/stores/beymen.jpeg",
                 },
                 {
                     name: "Sephora",
-                    tag: "Yetkili Satıcı",
                     url: `https://www.sephora.com.tr/ara/?q=${encoded}`,
-                    brandColor: "#050505",
-                    textColor: "#FFFFFF",
-                    logoText: "S E P H O R A",
-                    accentBorder: "rgba(255, 255, 255, 0.25)",
+                    logoUrl: "/stores/sephora.png",
                 },
                 {
                     name: "Boyner",
-                    tag: "Yetkili Mağaza",
                     url: `https://www.boyner.com.tr/arama?q=${encoded}`,
-                    brandColor: "#C9141D",
-                    textColor: "#FFFFFF",
-                    logoText: "BOYNER",
+                    logoUrl: "/stores/boyner.webp",
                 },
                 {
                     name: "Sevil Parfümeri",
-                    tag: "Yetkili Parfümeri",
                     url: `https://www.sevil.com.tr/catalogsearch/result/?q=${encoded}`,
-                    brandColor: "#0A3B66",
-                    textColor: "#FFFFFF",
-                    logoText: "SEVİL",
+                    logoUrl: "/stores/sevil.jpeg",
                 },
             ],
         },
@@ -176,43 +148,28 @@ export default function PerfumeWhereToBuySection({
             stores: [
                 {
                     name: "Trendyol",
-                    tag: "Pazaryeri",
                     url: `https://www.trendyol.com/sr?q=${encoded}`,
-                    brandColor: "#E05A00",
-                    textColor: "#FFFFFF",
-                    logoText: "trendyol",
+                    logoUrl: "/stores/trendyol.png",
                 },
                 {
                     name: "Hepsiburada",
-                    tag: "Pazaryeri",
                     url: `https://www.hepsiburada.com/ara?q=${encoded}`,
-                    brandColor: "#FF6000",
-                    textColor: "#FFFFFF",
-                    logoText: "hepsiburada",
+                    logoUrl: "/stores/hepsiburada.jpg",
                 },
                 {
                     name: "N11",
-                    tag: "Pazaryeri",
                     url: `https://www.n11.com/arama?q=${encoded}`,
-                    brandColor: "#562382",
-                    textColor: "#FFFFFF",
-                    logoText: "n11",
+                    logoUrl: "/stores/n11.png",
                 },
                 {
                     name: "Çiçeksepeti",
-                    tag: "Pazaryeri",
                     url: `https://www.ciceksepeti.com/arama?query=${encoded}`,
-                    brandColor: "#0055A5",
-                    textColor: "#FFFFFF",
-                    logoText: "çiçeksepeti",
+                    logoUrl: "/stores/ciceksepeti.jpeg",
                 },
                 {
                     name: "PttAVM",
-                    tag: "Pazaryeri",
                     url: `https://www.pttavm.com/arama/${encoded}`,
-                    brandColor: "#F5A623",
-                    textColor: "#1A1A1A",
-                    logoText: "pttavm",
+                    logoUrl: "/stores/pttavm.jpg",
                 },
             ],
         },
@@ -224,51 +181,33 @@ export default function PerfumeWhereToBuySection({
             stores: [
                 {
                     name: "Muscent",
-                    tag: "Özel Niche Muadil",
-                    url: `https://muscent.com.tr/search?q=${encoded}`,
-                    brandColor: "#243342",
-                    textColor: "#FFFFFF",
-                    logoText: "MUSCENT",
+                    url: "https://muscent.com/",
+                    logoUrl: "/stores/muscent.webp",
                 },
                 {
                     name: "Mad Parfüm",
-                    tag: "Açık Parfüm Kodu",
-                    url: `https://www.madparfum.com/arama?q=${encoded}`,
-                    brandColor: "#800F1F",
-                    textColor: "#FFFFFF",
-                    logoText: "MAD PARFÜM",
+                    url: "https://www.madparfum.com/",
+                    logoUrl: "/stores/mad.svg",
                 },
                 {
                     name: "Bargello",
-                    tag: "Açık Parfüm Kodu",
-                    url: `https://www.bargello.com.tr/arama?q=${encoded}`,
-                    brandColor: "#0F2847",
-                    textColor: "#FFFFFF",
-                    logoText: "BARGELLO",
+                    url: "https://www.bargello.com.tr/",
+                    logoUrl: "/stores/bargello.svg",
                 },
                 {
                     name: "Loris",
-                    tag: "Açık Parfüm Kodu",
-                    url: `https://www.lorisparfum.com/arama?q=${encoded}`,
-                    brandColor: "#B32417",
-                    textColor: "#FFFFFF",
-                    logoText: "LORİS",
+                    url: "https://www.lorisparfum.com/",
+                    logoUrl: "/stores/loris.webp",
                 },
                 {
                     name: "D&P Perfumum",
-                    tag: "Açık Parfüm Kodu",
-                    url: `https://www.dpparfum.com.tr/arama?q=${encoded}`,
-                    brandColor: "#0F6E60",
-                    textColor: "#FFFFFF",
-                    logoText: "D&P PERFUMUM",
+                    url: "https://dpperfumum.com.tr/",
+                    logoUrl: "/stores/dpparfum.webp",
                 },
                 {
                     name: "David Walker",
-                    tag: "Açık Parfüm Kodu",
-                    url: `https://www.davidwalker.com.tr/arama?q=${encoded}`,
-                    brandColor: "#1C2833",
-                    textColor: "#FFFFFF",
-                    logoText: "DAVID WALKER",
+                    url: "https://www.e-davidwalker.com/",
+                    logoUrl: "/stores/davidwalker.webp",
                 },
             ],
         },
@@ -280,19 +219,13 @@ export default function PerfumeWhereToBuySection({
             stores: [
                 {
                     name: "Akakçe",
-                    tag: "Fiyat Karşılaştır",
                     url: `https://www.akakce.com/arama/?q=${encoded}`,
-                    brandColor: "#004B87",
-                    textColor: "#FFFFFF",
-                    logoText: "akakçe",
+                    logoUrl: "/stores/akakce.png",
                 },
                 {
                     name: "Cimri",
-                    tag: "Fiyat Karşılaştır",
                     url: `https://www.cimri.com/arama?q=${encoded}`,
-                    brandColor: "#20692B",
-                    textColor: "#FFFFFF",
-                    logoText: "cimri",
+                    logoUrl: "/stores/cimri.png",
                 },
             ],
         },

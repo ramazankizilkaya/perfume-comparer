@@ -49,25 +49,53 @@
     {
       "name": "sıcak baharatlı",
       "width": "51.895%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.89",
-    "votesCount": "237",
+    "score": "3.88",
+    "votesCount": "242",
     "breakdown": {
-      "love": "75",
-      "like": "94",
-      "ok": "41",
+      "love": "76",
+      "like": "95",
+      "ok": "43",
       "dislike": "22",
-      "hate": "5"
+      "hate": "6"
     }
   },
   "seasons": {
     "winter": "25",
-    "spring": "123",
-    "summer": "131",
-    "autumn": "58",
-    "day": "142",
+    "spring": "126",
+    "summer": "133",
+    "autumn": "59",
+    "day": "143",
     "night": "38"
   },
   "notes": {
@@ -99,33 +127,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "19",
+    "moderate": "90",
+    "longLasting": "21",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "35",
+    "moderate": "90",
+    "strong": "19",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "19",
+    "moreFemale": "19",
+    "unisex": "103",
+    "moreMale": "22",
+    "male": "10"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "41",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "3",
+    "overpriced": "11",
+    "fair": "43",
+    "goodValue": "62",
+    "greatValue": "21"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Humor On-line"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor Transforma Body Splash"
+    },
+    {
+      "brand": "LE SENSİER",
+      "name": "Brise de Bergamote"
+    },
+    {
+      "brand": "BENETTON",
+      "name": "United Dreams Citrus"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One Summer 2020"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Ralph Hot"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor On-line"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Odyssey Limoni Fresh"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -142,6 +203,14 @@
     {
       "brand": "NATURA",
       "name": "Humor 6 Paz e Humor"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Homem"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Maracujá"
     },
     {
       "brand": "NATURA",
@@ -165,10 +234,6 @@
     },
     {
       "brand": "NATURA",
-      "name": "Una Artisan"
-    },
-    {
-      "brand": "NATURA",
       "name": "Kaiak Aventura"
     },
     {
@@ -182,10 +247,7 @@
     {
       "brand": "NATURA",
       "name": "Essencial Oud"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Ilía Secreto"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,26 +49,54 @@
     {
       "name": "dumanlı",
       "width": "53.6366%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.38",
-    "votesCount": "21",
+    "score": "3.35",
+    "votesCount": "23",
     "breakdown": {
       "love": "5",
-      "like": "6",
+      "like": "7",
       "ok": "4",
-      "dislike": "4",
+      "dislike": "5",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "8",
+    "winter": "9",
     "spring": "4",
     "summer": "1",
-    "autumn": "6",
-    "day": "7",
-    "night": "6"
+    "autumn": "7",
+    "day": "8",
+    "night": "7"
   },
   "notes": {
     "top": [
@@ -91,38 +119,55 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "4",
+    "longLasting": "6",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "4",
+    "strong": "4",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "7",
+    "moreMale": "1",
+    "male": "7"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
-      "brand": "PARIS CORNER",
-      "name": "December Ambar"
+      "brand": "MAİSON CRİVELLİ",
+      "name": "Oud Maracujá"
     },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Azzure Oud"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Oud Madness"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Mod Blush"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Goddess Parfum"
+    }
+  ],
+  "peopleAlsoLike": [
     {
       "brand": "PARIS CORNER",
       "name": "Zahi"
@@ -140,6 +185,14 @@
       "name": "Teriaq Intense"
     },
     {
+      "brand": "RİİFFS PERFUMES",
+      "name": "Momento"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Bade'e Al Oud Honor & Glory"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Vintage Radio"
     },
@@ -149,19 +202,15 @@
     },
     {
       "brand": "PARIS CORNER",
-      "name": "Mehwish"
-    },
-    {
-      "brand": "PARIS CORNER",
-      "name": "AZM"
-    },
-    {
-      "brand": "PARIS CORNER",
       "name": "Papillon des Vents"
     },
     {
       "brand": "PARIS CORNER",
       "name": "Perseviron Fig Hug"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah Qahwa"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -179,5 +228,6 @@
       "brand": "PARIS CORNER",
       "name": "Khair Felicity"
     }
-  ]
+  ],
+  "comments": []
 }

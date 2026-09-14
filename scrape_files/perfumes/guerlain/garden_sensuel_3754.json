@@ -15,40 +15,40 @@
       "width": "100%"
     },
     {
-      "name": "tatlı",
-      "width": "65.8077%"
+      "name": "vanilya",
+      "width": "70.1639%"
     },
     {
-      "name": "vanilya",
-      "width": "63.3846%"
+      "name": "tatlı",
+      "width": "70.1639%"
     },
     {
       "name": "sarı çiçeksi",
-      "width": "56.9231%"
+      "width": "59.8361%"
     },
     {
       "name": "gül",
-      "width": "56.9231%"
-    },
-    {
-      "name": "narenciye",
-      "width": "52.8846%"
-    },
-    {
-      "name": "laktonik",
-      "width": "51.8077%"
+      "width": "59.8361%"
     },
     {
       "name": "odunsu",
-      "width": "49.7077%"
+      "width": "56.5771%"
+    },
+    {
+      "name": "narenciye",
+      "width": "53.2954%"
+    },
+    {
+      "name": "laktonik",
+      "width": "52.0329%"
     },
     {
       "name": "çiçeksi",
-      "width": "49.3846%"
+      "width": "50.6556%"
     },
     {
       "name": "meyvemsi",
-      "width": "46.9615%"
+      "width": "49.2788%"
     }
   ],
   "rating": {
@@ -63,12 +63,12 @@
     }
   },
   "seasons": {
-    "winter": "3",
-    "spring": "1",
-    "summer": "3",
-    "autumn": "3",
-    "day": "6",
-    "night": "6"
+    "winter": "4",
+    "spring": "2",
+    "summer": "4",
+    "autumn": "4",
+    "day": "7",
+    "night": "7"
   },
   "notes": {
     "top": [
@@ -88,38 +88,34 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "2",
-    "moderate": "2",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "7",
-    "moderate": "2",
-    "strong": "4",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Jardins de Bagatelle"
-    },
     {
       "brand": "GUERLAİN",
       "name": "Guerlain Chant d'Aromes"
@@ -129,16 +125,20 @@
       "name": "Cruel Gardénia"
     },
     {
+      "brand": "GUERLAİN",
+      "name": "Jardins de Bagatelle"
+    },
+    {
       "brand": "AL HARAMAİN PERFUMES",
       "name": "Atifa Blanche"
     },
     {
-      "brand": "DİOR",
-      "name": "Diorissimo"
-    },
-    {
       "brand": "VİKTOR&ROLF",
       "name": "Flowerbomb"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Diorissimo"
     },
     {
       "brand": "ESTÉE LAUDER",
@@ -166,15 +166,16 @@
     },
     {
       "brand": "GUERLAİN",
-      "name": "Philtre d'Amour"
-    },
-    {
-      "brand": "GUERLAİN",
       "name": "Jicky"
     },
     {
       "brand": "GUERLAİN",
       "name": "Shalimar Eau de Parfum"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Philtre d'Amour"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,15 +49,43 @@
     {
       "name": "odunsu",
       "width": "45.1748%"
+    },
+    {
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.70",
-    "votesCount": "184",
+    "votesCount": "183",
     "breakdown": {
       "love": "38",
       "like": "92",
-      "ok": "18",
+      "ok": "17",
       "dislike": "33",
       "hate": "3"
     }
@@ -83,7 +111,8 @@
       "Misk",
       "Sedir",
       "Sivet"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
     "veryWeak": "2",
@@ -108,7 +137,7 @@
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "3",
-    "fair": "18",
+    "fair": "17",
     "goodValue": "20",
     "greatValue": "7"
   },
@@ -146,10 +175,6 @@
       "name": "Toxic Amber"
     },
     {
-      "brand": "ROCHAS",
-      "name": "Mademoiselle Rochas"
-    },
-    {
       "brand": "VALENTİNO",
       "name": "Valentina Pink"
     },
@@ -172,6 +197,10 @@
     {
       "brand": "GİORGİO ARMANİ",
       "name": "Sky di Gioia"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Mademoiselle Rochas"
     }
   ],
   "peopleAlsoLike": [
@@ -235,5 +264,6 @@
       "brand": "LANVİN",
       "name": "Eclat d’Arpège"
     }
-  ]
+  ],
+  "comments": []
 }

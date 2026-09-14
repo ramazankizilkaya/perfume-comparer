@@ -37,6 +37,34 @@
     {
       "name": "tuzlu",
       "width": "44.3925%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -74,33 +102,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "3",
+    "moderate": "11",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "11",
+    "strong": "6",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "5",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "L’OCCİTANE AU BRÉSİL",
+      "name": "Água do Mar Mareô"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "L'Eau Froide"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Wood Sage & Sea Salt"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Suave Mandarina - Nile"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Yellow Velvet"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -162,5 +211,6 @@
       "brand": "NATURA",
       "name": "Essencial Elixir"
     }
-  ]
+  ],
+  "comments": []
 }

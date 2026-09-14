@@ -49,6 +49,34 @@
     {
       "name": "pudralı",
       "width": "51.7368%"
+    },
+    {
+      "name": "Online satın alın 7 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -91,33 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "3",
+    "moderate": "1",
+    "longLasting": "1",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "1",
+    "strong": "4",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Verde"
+    },
+    {
+      "brand": "LANSY",
+      "name": "Elan"
+    },
+    {
+      "brand": "KHLOE AND LAMAR",
+      "name": "Unbreakable"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Jacques Yves Tempete"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Qaed Al Fursan Untamed"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '71"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Kobra"
+    },
+    {
+      "brand": "VOLARÉ",
+      "name": "Santorini Beaches"
+    },
+    {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Shiyaaka Snow"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "1 Million Privé"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Aswad"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Bottled"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "D'hommes Sport"
+    },
+    {
+      "brand": "JO MİLANO PARİS",
+      "name": "Game of Spades All-In"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "HİSTOİRES DE PARFUMS",
@@ -179,5 +268,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Oud for Glory"
     }
-  ]
+  ],
+  "comments": []
 }

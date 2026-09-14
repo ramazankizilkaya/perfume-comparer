@@ -37,6 +37,34 @@
     {
       "name": "pudralı",
       "width": "48.5728%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -91,33 +119,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "3",
+    "longLasting": "5",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "3",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "6",
+    "unisex": "5",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "1",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Majestic"
+    },
+    {
+      "brand": "THE WOODS COLLECTİON",
+      "name": "Glow"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -179,5 +216,6 @@
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Iris Poudre"
     }
-  ]
+  ],
+  "comments": []
 }

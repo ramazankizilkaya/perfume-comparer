@@ -78,67 +78,38 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "0",
-    "moderate": "5",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "5",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "3",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "1",
-    "greatValue": "5"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
+  "remindsMeOf": [],
+  "peopleAlsoLike": [
     {
       "brand": "GİORGİO ARMANİ",
-      "name": "Emporio Armani Stronger With You Leather"
+      "name": "Emporio Armani Stronger With You Intensely"
     },
-    {
-      "brand": "FRAGRANCE WORLD",
-      "name": "Proud of You Leather"
-    },
-    {
-      "brand": "RAYHAAN",
-      "name": "Corium"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Babycat"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Ishq Al Shuyukh Gold"
-    },
-    {
-      "brand": "ARD AL ZAAFARAN",
-      "name": "Oud 24 Hours Majestic Gold"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Odyssey Homme"
-    },
-    {
-      "brand": "OSMASSİNO",
-      "name": "I'm horny"
-    }
-  ],
-  "peopleAlsoLike": [
     {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Ultra Male"
@@ -152,40 +123,36 @@
       "name": "Le Male Elixir"
     },
     {
-      "brand": "VERSACE",
-      "name": "Eros"
+      "brand": "ARMAF",
+      "name": "Odyssey Homme"
     },
     {
       "brand": "GİORGİO ARMANİ",
       "name": "Emporio Armani Stronger With You Absolutely"
     },
     {
-      "brand": "ARMAF",
-      "name": "Odyssey Homme"
-    },
-    {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Your Touch Tobacco"
+      "brand": "RABANNE",
+      "name": "1 Million Royal"
     },
     {
       "brand": "MAİSON ALHAMBRA",
       "name": "Your Touch Santal"
     },
     {
-      "brand": "KHADLAJ PERFUMES",
-      "name": "Island"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Exclusif Tabac"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Najdia Intense"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Your Touch Oud"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme Dylan Blue"
     },
     {
       "brand": "HUGO BOSS",
       "name": "Bottled Absolu"
-    },
-    {
-      "brand": "KHADLAJ PERFUMES",
-      "name": "Karus Blu Spice"
     },
     {
       "brand": "MAİSON ALHAMBRA",
@@ -196,8 +163,9 @@
       "name": "Sceptre Malachite"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas Fire"
+      "brand": "MONTBLANC",
+      "name": "Explorer"
     }
-  ]
+  ],
+  "comments": []
 }

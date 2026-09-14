@@ -49,15 +49,43 @@
     {
       "name": "aromatik",
       "width": "59.5523%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.10",
-    "votesCount": "21",
+    "score": "4.05",
+    "votesCount": "22",
     "breakdown": {
       "love": "12",
       "like": "5",
-      "ok": "0",
+      "ok": "1",
       "dislike": "2",
       "hate": "2"
     }
@@ -89,33 +117,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "2",
+    "longLasting": "6",
+    "eternal": "11"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "2",
+    "strong": "13",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "3",
+    "moreMale": "2",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "3",
+    "overpriced": "2",
+    "fair": "1",
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Pegasus"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Musc Ravageur"
+    },
+    {
+      "brand": "EMPER",
+      "name": "Stallion 53"
+    },
+    {
+      "brand": "ORTO PARİSİ",
+      "name": "Stercus"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Fabulous"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "High Frequency"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "PARFUMS DE MARLY",
@@ -139,11 +192,11 @@
     },
     {
       "brand": "PARFUMS DE MARLY",
-      "name": "Percival"
+      "name": "Carlisle"
     },
     {
       "brand": "PARFUMS DE MARLY",
-      "name": "Carlisle"
+      "name": "Percival"
     },
     {
       "brand": "PRADA",
@@ -177,5 +230,6 @@
       "brand": "PARFUMS DE MARLY",
       "name": "Galloway"
     }
-  ]
+  ],
+  "comments": []
 }

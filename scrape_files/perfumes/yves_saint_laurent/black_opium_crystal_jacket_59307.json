@@ -23,11 +23,11 @@
       "width": "88.3333%"
     },
     {
-      "name": "kahve",
+      "name": "vanilya",
       "width": "82.5%"
     },
     {
-      "name": "vanilya",
+      "name": "kahve",
       "width": "82.5%"
     },
     {
@@ -47,8 +47,36 @@
       "width": "61.2083%"
     },
     {
-      "name": "badem",
+      "name": "paçuli",
       "width": "59.1667%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -91,32 +119,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "2",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "2",
+    "strong": "2",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Rawaa"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Intense"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Over Red"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

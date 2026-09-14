@@ -63,7 +63,7 @@
     }
   },
   "seasons": {
-    "winter": "30",
+    "winter": "31",
     "spring": "20",
     "summer": "8",
     "autumn": "25",
@@ -87,70 +87,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "9",
-    "moderate": "13",
-    "longLasting": "15",
-    "eternal": "6"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "13",
-    "moderate": "13",
-    "strong": "19",
-    "enormous": "12"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "10",
-    "moreFemale": "3",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "3",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUCCİ",
-      "name": "Gucci Guilty"
-    },
-    {
-      "brand": "GUCCİ",
-      "name": "Gucci Guilty Intense"
-    },
-    {
-      "brand": "ELİZABETH ARDEN",
-      "name": "Untold"
-    },
-    {
-      "brand": "ESTİARA",
-      "name": "Love Offence"
-    },
-    {
-      "brand": "GUCCİ",
-      "name": "Gucci Guilty Diamond"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Blonde"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Libre"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "D&G Anthology La Roue de La Fortune 10"
-    },
-    {
-      "brand": "GUCCİ",
-      "name": "Gucci Premiere"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUCCİ",
@@ -202,7 +165,7 @@
     },
     {
       "brand": "BVLGARİ",
-      "name": "Omnia Crystalline"
+      "name": "Omnia Crystalline Eau de Toilette"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -212,5 +175,6 @@
       "brand": "VERSACE",
       "name": "Crystal Noir"
     }
-  ]
+  ],
+  "comments": []
 }

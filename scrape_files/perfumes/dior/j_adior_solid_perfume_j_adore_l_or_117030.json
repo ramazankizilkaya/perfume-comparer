@@ -29,6 +29,34 @@
     {
       "name": "animalik",
       "width": "36.65%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -74,14 +102,14 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "7",
+    "female": "8",
     "moreFemale": "0",
     "unisex": "1",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "2",
+    "wayOverpriced": "3",
     "overpriced": "2",
     "fair": "1",
     "goodValue": "0",
@@ -95,10 +123,6 @@
     {
       "brand": "MUGLER",
       "name": "Alien"
-    },
-    {
-      "brand": "DİOR",
-      "name": "J'adore Intense"
     },
     {
       "brand": "DİOR",
@@ -143,12 +167,12 @@
       "name": "Devotion"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Black Opium"
-    },
-    {
       "brand": "CHANEL",
       "name": "Coco Mademoiselle Intense"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
     },
     {
       "brand": "DİOR",
@@ -166,5 +190,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
     }
-  ]
+  ],
+  "comments": []
 }

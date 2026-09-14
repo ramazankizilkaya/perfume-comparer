@@ -37,13 +37,41 @@
     {
       "name": "yumuşak baharatlı",
       "width": "46.0138%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.87",
-    "votesCount": "115",
+    "score": "3.89",
+    "votesCount": "117",
     "breakdown": {
-      "love": "35",
+      "love": "37",
       "like": "50",
       "ok": "13",
       "dislike": "14",
@@ -72,41 +100,90 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "6",
+    "moderate": "23",
+    "longLasting": "9",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "23",
+    "strong": "20",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "24",
+    "moreFemale": "10",
+    "unisex": "7",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "5",
+    "overpriced": "8",
     "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Parfum"
+      "brand": "MUGLER",
+      "name": "Alien"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Alien Essence Absolue"
+    },
+    {
+      "brand": "THE MERCHANT OF VENİCE",
+      "name": "Imperial Emerald"
+    },
+    {
+      "brand": "PANOUGE",
+      "name": "Perle Rare"
     },
     {
       "brand": "GİVENCHY",
       "name": "Organza"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Supreme Bouquet Luxury Edition"
+    },
+    {
+      "brand": "GİARDİNO BENESSERE",
+      "name": "Pompei Garden"
+    },
+    {
+      "brand": "L'ERBOLARİO",
+      "name": "Lillà Lillà"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Classique Essence de Parfum"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Alien Flora Futura"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Alien Fusion"
+    },
+    {
+      "brand": "KORRES",
+      "name": "Cashmere Kumquat"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "GİVENCHY",
+      "name": "Organza"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "L'Interdit Eau de Parfum"
     },
     {
       "brand": "BY KİLİAN",
@@ -115,10 +192,6 @@
     {
       "brand": "DİOR",
       "name": "Pure Poison"
-    },
-    {
-      "brand": "ELİE SAAB",
-      "name": "Le Parfum"
     },
     {
       "brand": "MUGLER",
@@ -137,6 +210,10 @@
       "name": "L'Interdit Eau de Parfum Rouge"
     },
     {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso"
+    },
+    {
       "brand": "MUGLER",
       "name": "Alien Essence Absolue"
     },
@@ -149,16 +226,17 @@
       "name": "Cinéma"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "L'Instant de Guerlain"
-    },
-    {
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
     },
     {
       "brand": "GUERLAİN",
       "name": "Mon Guerlain"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dune"
     }
-  ]
+  ],
+  "comments": []
 }

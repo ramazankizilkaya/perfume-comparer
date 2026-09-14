@@ -19,16 +19,44 @@
       "width": "83.8462%"
     },
     {
-      "name": "taze",
+      "name": "tatlı",
       "width": "56.9231%"
     },
     {
-      "name": "tatlı",
+      "name": "taze",
       "width": "56.9231%"
     },
     {
       "name": "kiraz",
       "width": "40.7692%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,33 +88,78 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "13",
+    "weak": "18",
+    "moderate": "13",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "26",
+    "moderate": "13",
+    "strong": "2",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "25",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "13",
+    "greatValue": "8"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RİHANNA",
+      "name": "RiRi"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Midnight Fantasy"
+    },
+    {
+      "brand": "JUİCY COUTURE",
+      "name": "Viva la Juicy"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Pink Chiffon"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Midnight Romance"
+    },
+    {
+      "brand": "BODY FANTASİES",
+      "name": "Pink Vanilla Kiss"
+    },
+    {
+      "brand": "BODYCOLOGY",
+      "name": "Sweet Love"
+    },
+    {
+      "brand": "AVON",
+      "name": "Secret Fantasy Midnight"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Love"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Midnight Fantasy Body Mist"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One Shock For Her"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -114,6 +187,10 @@
     },
     {
       "brand": "NATURA",
+      "name": "Kriska Shock"
+    },
+    {
+      "brand": "NATURA",
       "name": "Humor 1"
     },
     {
@@ -122,19 +199,15 @@
     },
     {
       "brand": "NATURA",
-      "name": "Luna Intenso"
-    },
-    {
-      "brand": "NATURA",
       "name": "Jabuticaba"
     },
     {
       "brand": "NATURA",
-      "name": "Luna"
+      "name": "Una Artisan"
     },
     {
       "brand": "NATURA",
-      "name": "Una Artisan"
+      "name": "Luna"
     },
     {
       "brand": "NATURA",
@@ -148,5 +221,6 @@
       "brand": "NATURA",
       "name": "Essencial Feminino"
     }
-  ]
+  ],
+  "comments": []
 }

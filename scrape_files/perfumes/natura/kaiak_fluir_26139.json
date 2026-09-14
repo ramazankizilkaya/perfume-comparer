@@ -29,6 +29,34 @@
     {
       "name": "odunsu",
       "width": "37.8715%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -72,33 +100,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "7",
+    "moderate": "19",
+    "longLasting": "2",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "19",
+    "strong": "5",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "4",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "8",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ACCA KAPPA",
+      "name": "Mandarin & Green Tea"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Fleur de Portofino Acqua"
+    },
+    {
+      "brand": "ACCA KAPPA",
+      "name": "Green Mandarin"
+    },
+    {
+      "brand": "DANA",
+      "name": "Heaven Sent"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Yellow Diamond"
+    },
+    {
+      "brand": "VİCTORİNOX SWİSS ARMY",
+      "name": "Swiss Army Victoria"
+    },
+    {
+      "brand": "BOND NO 9",
+      "name": "Eau de New York"
+    },
+    {
+      "brand": "AVON",
+      "name": "Pur Blanca"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Hilfiger Woman"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kaiak Urbe"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Clash"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Fleur de Portofino"
+    },
+    {
+      "brand": "KARL LAGERFELD",
+      "name": "Karl Paris 21 Rue Saint-Guillaume"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -137,12 +218,12 @@
       "name": "Humor 1"
     },
     {
-      "brand": "RABANNE",
-      "name": "Lady Million"
-    },
-    {
       "brand": "NATURA",
       "name": "Revelar"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Lady Million"
     },
     {
       "brand": "SALVADOR DALİ",
@@ -160,5 +241,6 @@
       "brand": "NATURA",
       "name": "Una"
     }
-  ]
+  ],
+  "comments": []
 }

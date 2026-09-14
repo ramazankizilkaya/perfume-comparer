@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.2529.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Issey-Miyake/Soleil-d-Issey-2529.html",
   "brand": "Issey Miyake parfüm ve kolonya",
-  "description": "Issey Miyake markasının Soleil d'Issey parfümü, kadınlar için Çiçeksi Yeşil bir kokudur. Soleil d'Issey, 2001 yılında piyasaya sürüldü. Üst notalar: Frezya, Neroli ve Limon; orta notalar: Arı mumu, Gül, Menekşe, Yasemin Sambac ve Müge; alt notalar Misk ve Sandal ağacı.",
-  "description_original": "Issey Miyake markasının Soleil d'Issey parfümü, kadınlar için Çiçeksi Yeşil bir kokudur. Soleil d'Issey, 2001 yılında piyasaya sürüldü. Üst notalar: Frezya, Neroli ve Limon; orta notalar: Arı mumu, Gül, Menekşe, Yasemin Sambac ve Müge; alt notalar Misk ve Sandal ağacı.",
-  "description_enhanced": "Issey Miyake markasının Soleil d'Issey parfümü, kadınlar için Çiçeksi Yeşil bir kokudur. Soleil d'Issey, 2001 yılında piyasaya sürüldü. Üst notalar: Frezya, Neroli ve Limon; orta notalar: Arı mumu, Gül, Menekşe, Yasemin Sambac ve Müge; alt notalar Misk ve Sandal ağacı.",
+  "description": "Issey Miyake markasının Soleil d'Issey parfümü, kadınlar için Çiçeksi Yeşil bir kokudur. Soleil d'Issey, 2001 yılında piyasaya sürüldü. Üst notalar: Frezya, Neroli ve Limon; orta notalar: Arı mumu, Gül, Menekşe, Sambac Yasemini ve Müge; alt notalar Misk ve Sandal ağacı.",
+  "description_original": "Issey Miyake markasının Soleil d'Issey parfümü, kadınlar için Çiçeksi Yeşil bir kokudur. Soleil d'Issey, 2001 yılında piyasaya sürüldü. Üst notalar: Frezya, Neroli ve Limon; orta notalar: Arı mumu, Gül, Menekşe, Sambac Yasemini ve Müge; alt notalar Misk ve Sandal ağacı.",
+  "description_enhanced": "Issey Miyake markasının Soleil d'Issey parfümü, kadınlar için Çiçeksi Yeşil bir kokudur. Soleil d'Issey, 2001 yılında piyasaya sürüldü. Üst notalar: Frezya, Neroli ve Limon; orta notalar: Arı mumu, Gül, Menekşe, Sambac Yasemini ve Müge; alt notalar Misk ve Sandal ağacı.",
   "mainAccords": [
     {
       "name": "çiçeksi",
@@ -31,11 +31,11 @@
       "width": "58.5185%"
     },
     {
-      "name": "taze",
+      "name": "bal",
       "width": "52.6262%"
     },
     {
-      "name": "bal",
+      "name": "taze",
       "width": "52.6262%"
     },
     {
@@ -80,7 +80,7 @@
       "Arı mumu",
       "Gül",
       "Menekşe",
-      "Yasemin Sambac",
+      "Sambac Yasemini",
       "Müge"
     ],
     "base": [
@@ -90,46 +90,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "2",
-    "moderate": "2",
-    "longLasting": "3",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "2",
-    "strong": "4",
-    "enormous": "6"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ISSEY MİYAKE",
-      "name": "Lune d’Issey"
-    },
-    {
-      "brand": "LOLLİA",
-      "name": "Breathe"
-    },
-    {
-      "brand": "ATELİER COLOGNE",
-      "name": "Clémentine California"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "ESTÉE LAUDER",
@@ -191,5 +178,6 @@
       "brand": "BVLGARİ",
       "name": "Jasmin Noir"
     }
-  ]
+  ],
+  "comments": []
 }

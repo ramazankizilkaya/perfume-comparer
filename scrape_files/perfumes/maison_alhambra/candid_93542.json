@@ -45,26 +45,54 @@
     {
       "name": "toprak",
       "width": "51.7778%"
+    },
+    {
+      "name": "Online satın alın 23 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.34",
-    "votesCount": "91",
+    "score": "4.36",
+    "votesCount": "95",
     "breakdown": {
-      "love": "47",
-      "like": "32",
+      "love": "50",
+      "like": "33",
       "ok": "8",
       "dislike": "4",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "32",
-    "spring": "30",
-    "summer": "29",
-    "autumn": "34",
-    "day": "34",
-    "night": "34"
+    "winter": "34",
+    "spring": "32",
+    "summer": "31",
+    "autumn": "36",
+    "day": "35",
+    "night": "35"
   },
   "notes": {
     "top": [
@@ -85,33 +113,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "6",
+    "moderate": "25",
+    "longLasting": "19",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "25",
+    "strong": "18",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "43",
+    "moreFemale": "7",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "14",
+    "greatValue": "34"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Scandal"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Candid Tonight"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Belle Rouge"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON ALHAMBRA",
@@ -130,16 +175,16 @@
       "name": "So Candid"
     },
     {
+      "brand": "MUGLER",
+      "name": "Alien"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Artisan Ethnique"
-    },
-    {
-      "brand": "PARIS CORNER",
-      "name": "Khair Confection"
     },
     {
       "brand": "MAİSON ALHAMBRA",
@@ -163,7 +208,7 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Musamam White Intense"
+      "name": "Bade'e Al Oud Honor & Glory"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -173,5 +218,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Yara"
     }
-  ]
+  ],
+  "comments": []
 }

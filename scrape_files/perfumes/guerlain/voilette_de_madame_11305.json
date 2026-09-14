@@ -75,38 +75,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "1",
-    "longLasting": "1",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "1",
-    "strong": "6",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "M. MİCALLEF",
-      "name": "Le Parfum Couture Denis Durand"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -149,6 +144,10 @@
       "name": "Coco Eau de Parfum"
     },
     {
+      "brand": "CHANEL",
+      "name": "Les Exclusifs de Chanel Coromandel"
+    },
+    {
       "brand": "CARTİER",
       "name": "Le Baiser Du Dragon"
     },
@@ -161,12 +160,9 @@
       "name": "Youth-Dew"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Carnal Flower"
-    },
-    {
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

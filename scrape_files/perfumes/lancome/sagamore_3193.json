@@ -37,6 +37,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "45.7246%"
+    },
+    {
+      "name": "Online satın alın 19 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -70,33 +98,86 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "8",
+    "weak": "5",
+    "moderate": "9",
+    "longLasting": "9",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "11",
+    "moderate": "9",
+    "strong": "6",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "1",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Ô de Lancôme"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Sagamore"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Italian Cypress"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Pour Monsieur Concentree"
+    },
+    {
+      "brand": "TİFFANY",
+      "name": "Tiffany for Men"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Pour Monsieur"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Colonia Futura"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Zino Davidoff"
+    },
+    {
+      "brand": "TİFFANY",
+      "name": "Tiffany for Men"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "1828"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Beau De Jour Eau de Parfum"
+    },
+    {
+      "brand": "HALSTON",
+      "name": "Halston Z14"
+    },
+    {
+      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
+      "name": "New York"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -119,12 +200,12 @@
       "name": "Encre Noire"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Mitsouko Eau de Toilette"
-    },
-    {
       "brand": "LANCÔME",
       "name": "Sikkim"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Mitsouko Eau de Toilette"
     },
     {
       "brand": "GUERLAİN",
@@ -147,16 +228,17 @@
       "name": "Chanel N°19"
     },
     {
-      "brand": "GUY LAROCHE",
-      "name": "J'ai Osé"
-    },
-    {
       "brand": "DİOR",
       "name": "Dune"
     },
     {
       "brand": "LANCÔME",
       "name": "Magie Noire"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chanel No 5 Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

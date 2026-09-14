@@ -33,6 +33,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "46%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -67,21 +95,21 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "7",
+    "veryWeak": "8",
     "weak": "11",
     "moderate": "13",
     "longLasting": "3",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "13",
+    "intimate": "14",
     "moderate": "13",
     "strong": "1",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "6",
-    "moreFemale": "7",
+    "moreFemale": "8",
     "unisex": "24",
     "moreMale": "0",
     "male": "0"
@@ -197,16 +225,17 @@
       "name": "Fleur de Patchouli"
     },
     {
+      "brand": "YVES ROCHER",
+      "name": "Comme une Evidence"
+    },
+    {
       "brand": "ELİE SAAB",
       "name": "Girl of Now"
     },
     {
       "brand": "ZARA",
       "name": "Tobacco Collection Rich Warm Addictive"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

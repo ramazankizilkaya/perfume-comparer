@@ -2,7 +2,7 @@
   "name": "Gardénia Extrait de Parfum Chanel",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Floral",
-  "concentration": "Extrait",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.71252.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Chanel/Gardenia-Extrait-de-Parfum-71252.html",
   "brand": "Chanel parfüm ve kolonya",
@@ -29,21 +29,49 @@
     {
       "name": "odunsu",
       "width": "40.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.52",
-    "votesCount": "50",
+    "score": "4.43",
+    "votesCount": "53",
     "breakdown": {
       "love": "32",
-      "like": "13",
-      "ok": "4",
-      "dislike": "1",
+      "like": "14",
+      "ok": "5",
+      "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "5",
+    "winter": "6",
     "spring": "22",
     "summer": "21",
     "autumn": "7",
@@ -88,9 +116,9 @@
   "priceVoting": {
     "wayOverpriced": "5",
     "overpriced": "7",
-    "fair": "4",
+    "fair": "5",
     "goodValue": "4",
-    "greatValue": "0"
+    "greatValue": "1"
   },
   "remindsMeOf": [
     {
@@ -98,12 +126,12 @@
       "name": "Gardénia Eau de Parfum"
     },
     {
-      "brand": "BENETTON",
-      "name": "Colors de Benetton Woman Rose"
-    },
-    {
       "brand": "CHANEL",
       "name": "Gardénia Extrait de Parfum"
+    },
+    {
+      "brand": "BENETTON",
+      "name": "Colors de Benetton Woman Rose"
     },
     {
       "brand": "JULİETTE HAS A GUN",
@@ -175,5 +203,6 @@
       "brand": "CHANEL",
       "name": "Chanel No 5 L'Eau"
     }
-  ]
+  ],
+  "comments": []
 }

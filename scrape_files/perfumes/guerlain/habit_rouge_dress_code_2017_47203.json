@@ -90,74 +90,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "2",
-    "moderate": "7",
-    "longLasting": "26",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "7",
-    "moderate": "7",
-    "strong": "33",
-    "enormous": "12"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "0",
-    "unisex": "6",
-    "moreMale": "6",
-    "male": "3"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "4",
-    "greatValue": "3"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Parfum"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Dress Code 2016"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Dress Code"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Spirit"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Eau de Parfum"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Dress Code 2018"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Noir"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Eau de Toilette"
-    },
-    {
-      "brand": "ANGEL SCHLESSER",
-      "name": "Angel Schlesser Oriental Edition II"
-    },
-    {
-      "brand": "ROJA DOVE",
-      "name": "Parfum De La Nuit No 3"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -219,5 +178,6 @@
       "brand": "DİOR",
       "name": "Fahrenheit Le Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

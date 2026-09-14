@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.110067.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Fragrance-World/Riche-Royale-Intense-110067.html",
   "brand": "Fragrance World parfüm ve kolonya",
-  "description": "Fragrance World markasının Riche & Royale Intense parfümü, erkekler için Odunsu Aromatik bir kokudur. Riche & Royale Intense, 2022 yılında piyasaya sürüldü. Üst notalar: Ardıç meyvesi ve Limon, Kan portakalı, Kakule, Pimento ve Limon; orta notalar: İncir, Misk Adaçayı, Lavanta ve Sardunya; alt notalar Cypriol Yağı veya Nagarmotha, Paçuli, Vetiver ve Sedir.",
-  "description_original": "Fragrance World markasının Riche & Royale Intense parfümü, erkekler için Odunsu Aromatik bir kokudur. Riche & Royale Intense, 2022 yılında piyasaya sürüldü. Üst notalar: Ardıç meyvesi ve Limon, Kan portakalı, Kakule, Pimento ve Limon; orta notalar: İncir, Misk Adaçayı, Lavanta ve Sardunya; alt notalar Cypriol Yağı veya Nagarmotha, Paçuli, Vetiver ve Sedir.",
-  "description_enhanced": "Fragrance World markasının Riche & Royale Intense parfümü, erkekler için Odunsu Aromatik bir kokudur. Riche & Royale Intense, 2022 yılında piyasaya sürüldü. Üst notalar: Ardıç meyvesi ve Limon, Kan portakalı, Kakule, Pimento ve Limon; orta notalar: İncir, Misk Adaçayı, Lavanta ve Sardunya; alt notalar Cypriol Yağı veya Nagarmotha, Paçuli, Vetiver ve Sedir.",
+  "description": "Fragrance World markasının Riche & Royale Intense parfümü, erkekler için Odunsu Aromatik bir kokudur. Riche & Royale Intense, 2022 yılında piyasaya sürüldü. Üst notalar: Ardıç meyvesi, Sicilya Limonu, Kan portakalı, Kakule, Pimento ve Limon; orta notalar: İncir, Misk Adaçayı, Lavanta ve Sardunya; alt notalar Cypriol Yağı veya Nagarmotha, Paçuli, Vetiver ve Sedir.",
+  "description_original": "Fragrance World markasının Riche & Royale Intense parfümü, erkekler için Odunsu Aromatik bir kokudur. Riche & Royale Intense, 2022 yılında piyasaya sürüldü. Üst notalar: Ardıç meyvesi, Sicilya Limonu, Kan portakalı, Kakule, Pimento ve Limon; orta notalar: İncir, Misk Adaçayı, Lavanta ve Sardunya; alt notalar Cypriol Yağı veya Nagarmotha, Paçuli, Vetiver ve Sedir.",
+  "description_enhanced": "Fragrance World markasının Riche & Royale Intense parfümü, erkekler için Odunsu Aromatik bir kokudur. Riche & Royale Intense, 2022 yılında piyasaya sürüldü. Üst notalar: Ardıç meyvesi, Sicilya Limonu, Kan portakalı, Kakule, Pimento ve Limon; orta notalar: İncir, Misk Adaçayı, Lavanta ve Sardunya; alt notalar Cypriol Yağı veya Nagarmotha, Paçuli, Vetiver ve Sedir.",
   "mainAccords": [
     {
       "name": "aromatik",
@@ -35,16 +35,44 @@
       "width": "55.3192%"
     },
     {
-      "name": "lavanta",
+      "name": "paçuli",
       "width": "44.8935%"
     },
     {
-      "name": "paçuli",
+      "name": "lavanta",
       "width": "44.8935%"
     },
     {
       "name": "meyvemsi",
       "width": "44.8935%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -69,7 +97,7 @@
   "notes": {
     "top": [
       "Ardıç meyvesi",
-      "Limon",
+      "Sicilya Limonu",
       "Kan portakalı",
       "Kakule",
       "Pimento",
@@ -90,33 +118,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "2",
+    "longLasting": "0",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "2",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "1",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "K by Dolce & Gabbana Eau de Parfum"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Riche & Royale"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Kingsman"
+    },
+    {
+      "brand": "COACH",
+      "name": "Open Road"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -127,6 +172,10 @@
       "name": "Russe Leather"
     },
     {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de L'Homme Eau de Parfum"
+    },
+    {
       "brand": "FRAGRANCE WORLD",
       "name": "La Uno Intense Blue"
     },
@@ -135,12 +184,12 @@
       "name": "Kismet for Men"
     },
     {
-      "brand": "HUGO BOSS",
-      "name": "Boss Bottled Elixir"
-    },
-    {
       "brand": "ARMAF",
       "name": "Black"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Bottled Elixir"
     },
     {
       "brand": "ARMAF",
@@ -155,12 +204,12 @@
       "name": "Blonde Amber"
     },
     {
-      "brand": "AFNAN",
-      "name": "Rare Reef"
-    },
-    {
       "brand": "ASDAAF",
       "name": "Ameer Al Arab"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Rare Reef"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -173,10 +222,7 @@
     {
       "brand": "LOUİS VUİTTON",
       "name": "Symphony"
-    },
-    {
-      "brand": "CREED",
-      "name": "Millésime Impérial"
     }
-  ]
+  ],
+  "comments": []
 }

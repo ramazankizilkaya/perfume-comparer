@@ -49,13 +49,41 @@
     {
       "name": "aromatik",
       "width": "50.1252%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.10",
-    "votesCount": "10",
+    "score": "4.18",
+    "votesCount": "11",
     "breakdown": {
-      "love": "4",
+      "love": "5",
       "like": "3",
       "ok": "3",
       "dislike": "0",
@@ -92,33 +120,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "3",
+    "longLasting": "0",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "3",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CHANEL",
+      "name": "Chance Eau Fraiche"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chance Eau Fraiche Eau de Parfum"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chance Eau Fraiche Hair Mist"
+    },
+    {
+      "brand": "KAREN LOW",
+      "name": "Pure Eau Fraiche"
+    },
+    {
+      "brand": "PARFUMS CONSTANTİNE",
+      "name": "Bohemia Excelsior"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SHİSEİDO",
@@ -145,10 +194,6 @@
       "name": "Pleasures"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "L'Instant de Guerlain"
-    },
-    {
       "brand": "AVON",
       "name": "Tomorrow"
     },
@@ -169,6 +214,10 @@
       "name": "Yara"
     },
     {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Elysia Vanilla"
+    },
+    {
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
     },
@@ -180,5 +229,6 @@
       "brand": "LALİQUE",
       "name": "Amethyst"
     }
-  ]
+  ],
+  "comments": []
 }

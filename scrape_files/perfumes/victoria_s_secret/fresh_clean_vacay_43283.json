@@ -61,42 +61,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "0",
-    "moderate": "3",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "3",
-    "strong": "0",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "3",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "3",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Coconut Pineapple"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Coconut Lime Breeze"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -158,5 +149,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Vanilla Confetti Sparkle"
     }
-  ]
+  ],
+  "comments": []
 }

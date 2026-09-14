@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "kahve",
+      "name": "vanilya",
       "width": "92.6526%"
     },
     {
-      "name": "vanilya",
+      "name": "kahve",
       "width": "92.6526%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "badem",
       "width": "64.1741%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -91,33 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "5",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "5",
+    "strong": "3",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Wild Edition"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Eau de Toilette"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Swarovski Edition"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Sparkle Clash Limited Collector's Edition Eau de Toilette"
+    },
+    {
+      "brand": "DİLÍS PARFUM",
+      "name": "Bright Evening"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Nuit Blanche"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Dazzling Lights Edition"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Hypnotic Poison"
+    },
+    {
+      "brand": "DİLÍS PARFUM",
+      "name": "Intimission Tre"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Floral Shock"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Pure Illusion"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kaiak Oceano"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "The One Desire"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Midnight Addiction"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -136,12 +225,12 @@
       "name": "Flowerbomb"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Noir Pour Femme"
-    },
-    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium Nuit Blanche"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Noir Pour Femme"
     },
     {
       "brand": "GUCCİ",
@@ -179,5 +268,6 @@
       "brand": "DİOR",
       "name": "Miss Dior Absolutely Blooming"
     }
-  ]
+  ],
+  "comments": []
 }

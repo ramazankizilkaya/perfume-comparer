@@ -37,6 +37,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "49.4116%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,33 +112,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "16",
+    "moderate": "54",
+    "longLasting": "32",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "14",
+    "moderate": "54",
+    "strong": "28",
+    "enormous": "14"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "11",
+    "moreMale": "21",
+    "male": "21"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "2",
     "fair": "15",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "22",
+    "greatValue": "18"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One Summer 2015"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Gio"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Sport for Men"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Hugo Dark Blue"
+    },
+    {
+      "brand": "AMYİ",
+      "name": "Amyi 2.10"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Blue Gold Blend"
+    },
+    {
+      "brand": "JİMMY CHOO",
+      "name": "Jimmy Choo Man Ice"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 VIP Men Party Fever"
+    },
+    {
+      "brand": "KENZO",
+      "name": "L'Eau Kenzo Boisee"
+    },
+    {
+      "brand": "ÁGUA DE CHEİRO",
+      "name": "Camaro Red"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Red White & Blue"
+    },
+    {
+      "brand": "BOİS 1920",
+      "name": "Agrumi Amari di Sicilia"
+    },
+    {
+      "brand": "CREED",
+      "name": "Virgin Island Water 2007"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kaiak Sonar"
+    },
+    {
+      "brand": "MİCHAEL MALUL LONDON",
+      "name": "Ginger+Mist"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -137,20 +226,16 @@
       "name": "Kaiak Ultra Masculino"
     },
     {
-      "brand": "DİOR",
-      "name": "Sauvage"
-    },
-    {
-      "brand": "NATURA",
-      "name": "K"
-    },
-    {
       "brand": "NATURA",
       "name": "Homem"
     },
     {
       "brand": "NATURA",
       "name": "Humor 6 Paz e Humor"
+    },
+    {
+      "brand": "NATURA",
+      "name": "K"
     },
     {
       "brand": "NATURA",
@@ -171,6 +256,11 @@
     {
       "brand": "NATURA",
       "name": "Essencial Elixir"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Homem Sagaz"
     }
-  ]
+  ],
+  "comments": []
 }

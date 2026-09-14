@@ -74,46 +74,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "3",
-    "moderate": "6",
-    "longLasting": "6",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "6",
-    "strong": "5",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "7",
-    "moreFemale": "1",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GİVENCHY",
-      "name": "Very Irresistible Eau de Toilette"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "Very Irresistible"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Armani Mania"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "MOSCHİNO",
@@ -175,5 +162,6 @@
       "brand": "KENZO",
       "name": "Kenzo Amour"
     }
-  ]
+  ],
+  "comments": []
 }

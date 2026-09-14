@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Victoria-s-Secret/Fearless-27505.html",
   "brand": "Victoria's Secret parfüm ve kolonya",
   "description": "Victoria's Secret markasının Fearless parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Fearless, 2014 yılında piyasaya sürüldü. Kokuda Frenk üzümü, İris ve Orris kökü notaları bulunur.",
-  "description_original": "Victoria's Secret markasının Fearless parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Fearless, 2014 yılında piyasaya sürüldü. Kokuda Frenk üzümü, İris ve Orris kökü notaları bulunur.",
+  "description_original": "Victoria's Secret markasının Fearless parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Fearless, 2014 yılında piyasaya sürüldü. Kokuda Siyah Frenk Üzümü, İris ve Orris kökü notaları bulunur.",
   "description_enhanced": "Victoria's Secret markasının Fearless parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Fearless, 2014 yılında piyasaya sürüldü. Kokuda Frenk üzümü, İris ve Orris kökü notaları bulunur.",
   "mainAccords": [
     {
@@ -41,24 +41,52 @@
     {
       "name": "yumuşak baharatlı",
       "width": "44.1017%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.86",
-    "votesCount": "314",
+    "votesCount": "317",
     "breakdown": {
       "love": "84",
-      "like": "156",
-      "ok": "25",
+      "like": "158",
+      "ok": "26",
       "dislike": "45",
       "hate": "4"
     }
   },
   "seasons": {
-    "winter": "96",
-    "spring": "42",
+    "winter": "97",
+    "spring": "43",
     "summer": "30",
-    "autumn": "88",
+    "autumn": "89",
     "day": "51",
     "night": "104"
   },
@@ -67,26 +95,26 @@
     "middle": [],
     "base": [],
     "all": [
-      "Frenk üzümü",
+      "Siyah Frenk Üzümü",
       "İris",
       "Orris kökü"
     ]
   },
   "longevity": {
-    "veryWeak": "9",
+    "veryWeak": "10",
     "weak": "15",
     "moderate": "53",
     "longLasting": "30",
-    "eternal": "9"
+    "eternal": "10"
   },
   "sillage": {
     "intimate": "23",
     "moderate": "53",
-    "strong": "23",
+    "strong": "24",
     "enormous": "12"
   },
   "genderVoting": {
-    "female": "51",
+    "female": "52",
     "moreFemale": "10",
     "unisex": "2",
     "moreMale": "0",
@@ -95,7 +123,7 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "2",
-    "fair": "25",
+    "fair": "26",
     "goodValue": "19",
     "greatValue": "7"
   },
@@ -125,16 +153,16 @@
       "name": "Agent Provocateur"
     },
     {
-      "brand": "MUGLER",
-      "name": "Angel Blush"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Lavender Iris"
     },
     {
       "brand": "L’OCCİTANE AU BRÉSİL",
       "name": "Flor de Jabuticaba"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel Blush"
     },
     {
       "brand": "NATURA",
@@ -175,10 +203,6 @@
       "name": "La Vie Est Belle"
     },
     {
-      "brand": "LANCÔME",
-      "name": "Trésor Midnight Rose"
-    },
-    {
       "brand": "GİORGİO ARMANİ",
       "name": "Si"
     },
@@ -193,6 +217,10 @@
     {
       "brand": "DOLCE&GABBANA",
       "name": "Dolce&Gabbana Pour Femme"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue"
     },
     {
       "brand": "DİOR",
@@ -222,5 +250,6 @@
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy"
     }
-  ]
+  ],
+  "comments": []
 }

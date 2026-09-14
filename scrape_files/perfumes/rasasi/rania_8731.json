@@ -45,13 +45,41 @@
     {
       "name": "yosunlu",
       "width": "44.7086%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.05",
-    "votesCount": "154",
+    "score": "4.04",
+    "votesCount": "153",
     "breakdown": {
-      "love": "53",
+      "love": "52",
       "like": "78",
       "ok": "0",
       "dislike": "23",
@@ -85,33 +113,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "3",
+    "moderate": "12",
+    "longLasting": "20",
+    "eternal": "25"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "12",
+    "strong": "31",
+    "enormous": "24"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "2",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MONTALE",
+      "name": "Velvet Flowers"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Bakhour"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Badar"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas London"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Amaali"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Amal"
+    },
+    {
+      "brand": "HOUSE OF SİLLAGE",
+      "name": "Love is in the Air"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Rive Gauche"
+    },
+    {
+      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
+      "name": "Musc Intense"
+    },
+    {
+      "brand": "KEİKO MECHERİ",
+      "name": "Loukhoum"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Nomade"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -166,12 +239,13 @@
       "name": "Dior Addict"
     },
     {
-      "brand": "DİOR",
-      "name": "Hypnotic Poison"
-    },
-    {
       "brand": "RASASİ",
       "name": "Sharina"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

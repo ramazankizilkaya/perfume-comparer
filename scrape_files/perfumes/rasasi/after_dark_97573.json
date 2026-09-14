@@ -23,11 +23,11 @@
       "width": "80.8334%"
     },
     {
-      "name": "amber",
+      "name": "toprak",
       "width": "80%"
     },
     {
-      "name": "toprak",
+      "name": "amber",
       "width": "80%"
     },
     {
@@ -35,11 +35,11 @@
       "width": "66.6667%"
     },
     {
-      "name": "animalik",
+      "name": "yosunlu",
       "width": "63.3333%"
     },
     {
-      "name": "yosunlu",
+      "name": "animalik",
       "width": "63.3333%"
     },
     {
@@ -49,6 +49,38 @@
     {
       "name": "tatlı",
       "width": "56.6666%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -92,37 +124,55 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Velvet Musk"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Grey Vetiver"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Greenley"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Pride 2024"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SPONGEBOB SQUAREPANTS",
       "name": "SpongeBob"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -45,6 +45,34 @@
     {
       "name": "taze baharatlı",
       "width": "44.3182%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,9 +89,9 @@
   "seasons": {
     "winter": "4",
     "spring": "3",
-    "summer": "1",
+    "summer": "2",
     "autumn": "4",
-    "day": "2",
+    "day": "3",
     "night": "4"
   },
   "notes": {
@@ -82,37 +110,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "5",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "5",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "1",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 VIP Black"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme Dylan Blue"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Fakhar Black"
+    },
     {
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Maahir Legacy"
     },
     {
       "brand": "MARC-ANTOİNE BARROİS",
@@ -127,20 +172,20 @@
       "name": "Khamrah"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Emeer"
+    },
+    {
       "brand": "AL HARAMAİN PERFUMES",
       "name": "Amber Oud Tobacco Edition"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Noir"
-    },
-    {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Amber Oud Gold Edition"
-    },
-    {
       "brand": "DİOR",
       "name": "Fahrenheit"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Guilty Pour Homme Eau de Parfum"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -155,8 +200,13 @@
       "name": "Hawas Ice"
     },
     {
-      "brand": "ORTO PARİSİ",
-      "name": "Cuoium"
+      "brand": "DİOR",
+      "name": "Dior Homme 2020"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Intense Cedrat Boise"
     }
-  ]
+  ],
+  "comments": []
 }

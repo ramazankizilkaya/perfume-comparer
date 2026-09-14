@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Emotion-8681.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Emotion parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Üst notalar: Bergamot, Amalfi Limonu, Portakal ve Mandalina; orta notalar: Ananas, Su zambağı, Yasemin, Kivi, Frezya ve Frenk üzümü; alt notalar Misk, Vanilya, Sedir ve Sandal ağacı.",
-  "description_original": "Rasasi markasının Emotion parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Üst notalar: Bergamot, Amalfi Limonu, Portakal ve Mandalina; orta notalar: Ananas, Su zambağı, Yasemin, Kivi, Frezya ve Frenk üzümü; alt notalar Misk, Vanilya, Sedir ve Sandal ağacı.",
+  "description_original": "Rasasi markasının Emotion parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Üst notalar: Bergamot, Amalfi Limonu, Portakal ve Mandalina; orta notalar: Ananas, Nilüfer, Yasemin, Kivi, Frezya ve Siyah Frenk Üzümü; alt notalar Misk, Vanilya, Sedir ve Sandal ağacı.",
   "description_enhanced": "Rasasi markasının Emotion parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Üst notalar: Bergamot, Amalfi Limonu, Portakal ve Mandalina; orta notalar: Ananas, Su zambağı, Yasemin, Kivi, Frezya ve Frenk üzümü; alt notalar Misk, Vanilya, Sedir ve Sandal ağacı.",
   "mainAccords": [
     {
@@ -49,6 +49,38 @@
     {
       "name": "beyaz çiçeksi",
       "width": "55%"
+    },
+    {
+      "name": "Online satın alın 30 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -79,11 +111,11 @@
     ],
     "middle": [
       "Ananas",
-      "Su zambağı",
+      "Nilüfer",
       "Yasemin",
       "Kivi",
       "Frezya",
-      "Frenk üzümü"
+      "Siyah Frenk Üzümü"
     ],
     "base": [
       "Misk",
@@ -94,33 +126,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "11",
+    "weak": "17",
+    "moderate": "55",
+    "longLasting": "41",
+    "eternal": "37"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "25",
+    "moderate": "55",
+    "strong": "58",
+    "enormous": "48"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "52",
+    "moreFemale": "3",
+    "unisex": "7",
+    "moreMale": "3",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "4",
     "fair": "22",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "20",
+    "greatValue": "29"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Woman"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Escada Sentiment"
+    },
+    {
+      "brand": "TORY BURCH",
+      "name": "Bel Azur"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Moro Di Venezia"
+    },
+    {
+      "brand": "THE HARMONİST",
+      "name": "Yin Transformation Parfum"
+    },
+    {
+      "brand": "JACOMO",
+      "name": "Le Parfum"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Hugo Woman"
+    },
+    {
+      "brand": "SALVADOR DALİ",
+      "name": "Dalistyle"
+    },
+    {
+      "brand": "NİKOS",
+      "name": "Sculpture Homme"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Sexy Men"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Musk Therapy"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "Delice"
+    },
+    {
+      "brand": "TABAC",
+      "name": "Tabac Man Gravity"
+    },
+    {
+      "brand": "AMWAY",
+      "name": "Opportune"
+    },
+    {
+      "brand": "ANNAYAKE",
+      "name": "Annayake Bonheur For Her"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NİNA RİCCİ",
@@ -182,5 +275,6 @@
       "brand": "CERRUTİ",
       "name": "1881"
     }
-  ]
+  ],
+  "comments": []
 }

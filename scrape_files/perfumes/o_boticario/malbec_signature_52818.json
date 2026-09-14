@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/Malbec-Signature-52818.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının Malbec Signature parfümü, erkekler için Oryantal Odunsu bir kokudur. Malbec Signature, 2018 yılında piyasaya sürüldü. Üst notalar: Baharatlı notalar, Sedir iğneleri, Mandalina, Bergamot ve Limon; orta notalar: Karanfil, Sedir ve Paçuli; alt notalar Vanilya, Amber, Vetiver, Misk ve Sinfonide.",
-  "description_original": "O Boticário markasının Malbec Signature parfümü, erkekler için Oryantal Odunsu bir kokudur. Malbec Signature, 2018 yılında piyasaya sürüldü. Üst notalar: Baharatlı notalar, Sedir iğneleri, Mandalina, Bergamot ve Limon; orta notalar: Karanfil, Sedir ve Paçuli; alt notalar Vanilya, Amber, Vetiver, Misk ve Sinfonide.",
+  "description_original": "O Boticário markasının Malbec Signature parfümü, erkekler için Oryantal Odunsu bir kokudur. Malbec Signature, 2018 yılında piyasaya sürüldü. Üst notalar: Baharatlı Notalar, Sedir iğneleri, Mandalina, Bergamot ve Limon; orta notalar: Karanfil, Sedir ve Paçuli; alt notalar Vanilya, Amber, Vetiver, Misk ve Sinfonide.",
   "description_enhanced": "O Boticário markasının Malbec Signature parfümü, erkekler için Oryantal Odunsu bir kokudur. Malbec Signature, 2018 yılında piyasaya sürüldü. Üst notalar: Baharatlı notalar, Sedir iğneleri, Mandalina, Bergamot ve Limon; orta notalar: Karanfil, Sedir ve Paçuli; alt notalar Vanilya, Amber, Vetiver, Misk ve Sinfonide.",
   "mainAccords": [
     {
@@ -16,55 +16,79 @@
     },
     {
       "name": "odunsu",
-      "width": "70.5182%"
-    },
-    {
-      "name": "amber",
-      "width": "58.4501%"
+      "width": "70.6812%"
     },
     {
       "name": "vanilya",
-      "width": "58.4501%"
+      "width": "58.5213%"
+    },
+    {
+      "name": "amber",
+      "width": "58.2147%"
     },
     {
       "name": "pudralı",
-      "width": "50.8218%"
+      "width": "50.8696%"
     },
     {
       "name": "narenciye",
-      "width": "46.4135%"
+      "width": "46.5609%"
     },
     {
       "name": "aromatik",
-      "width": "44.4283%"
+      "width": "44.5213%"
     },
     {
-      "name": "paçuli",
-      "width": "44.0687%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.31",
-    "votesCount": "781",
+    "votesCount": "806",
     "breakdown": {
-      "love": "451",
-      "like": "212",
-      "ok": "52",
+      "love": "465",
+      "like": "221",
+      "ok": "53",
       "dislike": "38",
-      "hate": "28"
+      "hate": "29"
     }
   },
   "seasons": {
-    "winter": "508",
-    "spring": "162",
+    "winter": "529",
+    "spring": "166",
     "summer": "29",
-    "autumn": "434",
-    "day": "111",
-    "night": "490"
+    "autumn": "446",
+    "day": "113",
+    "night": "511"
   },
   "notes": {
     "top": [
-      "Baharatlı notalar",
+      "Baharatlı Notalar",
       "Sedir iğneleri",
       "Mandalina",
       "Bergamot",
@@ -87,27 +111,27 @@
   "longevity": {
     "veryWeak": "9",
     "weak": "13",
-    "moderate": "106",
-    "longLasting": "307",
+    "moderate": "107",
+    "longLasting": "313",
     "eternal": "74"
   },
   "sillage": {
     "intimate": "31",
-    "moderate": "106",
-    "strong": "254",
+    "moderate": "107",
+    "strong": "260",
     "enormous": "51"
   },
   "genderVoting": {
     "female": "7",
     "moreFemale": "3",
-    "unisex": "14",
+    "unisex": "13",
     "moreMale": "70",
-    "male": "384"
+    "male": "395"
   },
   "priceVoting": {
-    "wayOverpriced": "39",
-    "overpriced": "147",
-    "fair": "52",
+    "wayOverpriced": "38",
+    "overpriced": "153",
+    "fair": "53",
     "goodValue": "58",
     "greatValue": "17"
   },
@@ -117,40 +141,44 @@
       "name": "Grand Soir"
     },
     {
+      "brand": "NUANCİELO",
+      "name": "Ner Tamid"
+    },
+    {
       "brand": "GUERLAİN",
       "name": "Tobacco Honey"
+    },
+    {
+      "brand": "IN THE BOX",
+      "name": "Thamus"
+    },
+    {
+      "brand": "CARON",
+      "name": "Le 3e Homme de Caron"
+    },
+    {
+      "brand": "DANİEL JOSİER",
+      "name": "Ambre Tabac"
     },
     {
       "brand": "CONDÉ PARFUM",
       "name": "Ambré Beige"
     },
     {
-      "brand": "NATURA",
-      "name": "Essencial Mirra"
-    },
-    {
       "brand": "PARFUMS DE MARLY",
       "name": "Haltane"
-    },
-    {
-      "brand": "NUANCİELO",
-      "name": "Ner Tamid"
     },
     {
       "brand": "BOUCHERON",
       "name": "Jaipur Homme"
     },
     {
-      "brand": "PERNOİRE",
-      "name": "Oudian"
+      "brand": "PARFUMS DE MARLY",
+      "name": "Oajan"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Habik For Men"
-    },
-    {
-      "brand": "IN THE BOX",
-      "name": "Thamus"
+      "name": "Eternal Oud"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -158,15 +186,11 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Eternal Oud"
+      "name": "Habik For Men"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Oajan"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Herod"
+      "brand": "EUDORA",
+      "name": "Club 6 Prestige"
     },
     {
       "brand": "RAYHAAN",
@@ -208,10 +232,6 @@
     },
     {
       "brand": "NATURA",
-      "name": "Essencial Mirra"
-    },
-    {
-      "brand": "NATURA",
       "name": "Homem Sagaz"
     },
     {
@@ -233,6 +253,142 @@
     {
       "brand": "O BOTİCÁRİO",
       "name": "Malbec Magnetic"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Men"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent705261",
+      "author": "Smells Like Noggy",
+      "date": "2024-11-18",
+      "text": "Anlatılamaz!\n\nO Boticário markasına ait bir parfüm, beklentilerin çok ötesinde. Vaat ettiğinden çok daha fazlasını sunan bir parfüm. Her kuruşuna değer!\n\nSon derece baharatlı bir parfüm; kullanılan malzemelerin inanılmaz kalitesini, açılıştan son saatlerine kadar tenimizde hissediyoruz (ve bu arada, mükemmel bir kalıcılığa sahip).\n\nOdunsu, baharatlı, sıcak ve aynı zamanda \"hafifçe ferah\" bir parfüm. İçeriğindeki notalar nedeniyle ve kullanım amacı bu olmadığı için gündüz kullanımı için kesinlikle önerilmez (her ne kadar ben öyle kullansam da).\n\nSadece birkaç fısla dört saate kadar inanılmaz bir koku yayılımı elde edersiniz ve bu abartı değil! Kalıcılığına gelince, 12 saatten fazla rahatlıkla dayanır, gerçekten çok rahat! Duş alsanız bile kokusu hala üzerinizdedir. Kıyafetlerden asla çıkmaz (açık renkli kıyafetlerde bile, yüksek konsantrasyondaki uçucu yağlar nedeniyle leke bırakma ihtimali yüksektir).\n\nBu parfüm, ünlü bir ithal markadan olsaydı, rahatlıkla 1000 R$'ın üzerinde bir fiyata satılırdı (ve ben bu parayı seve seve öderdim, bu parfümü gerçekten çok seviyorum).\n\nKoku: 10/10\nTahmin: 10/10\nGöz sabitleme: 10/10\nHoşluk: 7/10\nMaliyet-Fayda Oranı: 9/10",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2326805.jpg"
+    },
+    {
+      "id": "parent736383",
+      "author": "15975321",
+      "date": "2023-08-04",
+      "text": "Bu parfümü, ana notalarını beğendiğim için denemeden aldım, normalde odunsu kokularla pek anlaşamasam da. Başlangıçta çok iyi bir izlenim bırakmadı; açılışı bolca vetiver ve karanfil içeren erkeksi bir parfüm gibiydi, ancak bir saat sonra vanilya, amber ve sedir gibi diğer nüanslar öne çıktı ve kokuyu daha dengeli ve hoş hale getirdi.\nDaha rustik bir havası var, ancak aşırı yoğun odunsu bir koku da değil, eski tarz berber dükkanı parfümü de değil. Eski bir parfüm gibi ama günümüz için yeniden tasarlanmış, daha modern bir hava katılmış. Çok sofistike ve zarif bir parfüm, özel günler için uygun.\nDaha tatlı parfümleri, örneğin Naxos, Pure Havane ve Tobacco Vanille'i tercih ettiğim için bu parfümü saklamamalıydım, ama odunsu bir koku olarak oldukça beğendiğimi itiraf etmeliyim.\n\nVe bu parfümün \"kadınları uzaklaştıran\" bir parfüm olduğunu söyleyen herkesin Fragrantica hesabı bile olmamalı, çünkü parfümeri hakkında hiçbir şey bilmiyorlar.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent705293",
+      "author": "FernandoPrado",
+      "date": "2023-07-20",
+      "text": "\"Vay canına... Hiç beğenmedim, benim gibi beğenmeyen başka kadınlar da tanıyorum. Kadınları korkutan bir parfüm bu!!\"\nVay canına... Bu bambaşka bir şey...\n\nMalbec Signature, zarif ve olgun bir parfüm. \"Klasik.\" Kesinlikle her durum için uygun değil, hele ki sadece tatlı kokuları ve gece kulüplerini seven daha az rafine burunlar için hiç değil. Şüphesiz ki, O Boticário'nun en iyi parfümü.\n\nÖnerim, denemeniz ve beğenirseniz hiç düşünmeden satın almanızdır.\n\nMaalesef, resmi olarak üretimi durduruldu :(",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.101634.jpg"
+    },
+    {
+      "id": "parent788630",
+      "author": "Della Libera",
+      "date": "2023-07-07",
+      "text": "Santal ve Signature'ı satın almaya her geçen gün daha da meyilliyim. Hangisinin kokusunu daha çok sevdiğime karar veremiyorum, bazen birini, bazen diğerini seviyorum. Santal'ın performansı şüphesiz daha iyi. Signature her zaman acı (ki bu hoşuma gidiyor), gizemli bir yanı var. Santal ise ısırmak isteyeceğiniz kadar tatlı bir sandal ağacı kokusu.\nBir şey kesin, ikisi de piyasaya çıktığında ikisini de satın almalıydım. Signature'ın silajı zayıf.\nBugün benim için en iyi iki ulusal koku.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.13267.jpg"
+    },
+    {
+      "id": "parent736378",
+      "author": "lusalem",
+      "date": "2023-06-24",
+      "text": "Buradaki sanal parfüm dolabıma bakarsanız, tatlı ve çarpıcı parfümleri sevdiğimi göreceksiniz. Mancera'nın Red Tobacco'sunun bir dekantına sahibim ve bazı benzerlikler fark ettim, ancak bu parfüm daha tatlı ve daha az odunsu. Başlangıçta sadece yoğun odunsu notalar hissediyorum, bu da birkaç saniye sonra değişiyor. Daha hafif ve tamamen unisex olduğuna inanıyorum. Çok iyi yapılandırılmış, çok zevkli ve zarif bir koku. Ve duyusal karakterini kaybetmeden son derece rahatlatıcı. Bayıldım ve bu, koleksiyonumdaki ilk erkek parfümü. Burada \"kadınları iten\" bir parfüm olduğunu okudum! Hahahaha... Bu kokuyu taşıyan bir erkeği kolayca öperdim ve onu tamamen cesur ve farklı bulurdum, çünkü bu parfüm \"sıradan\" değil.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.48992.jpg"
+    },
+    {
+      "id": "parent736380",
+      "author": "johnricci",
+      "date": "2022-10-23",
+      "text": "Bu yorumu iptal edilmeden nasıl başlatabilirim? Haha.\nŞey... Malbec serisine benden daha çok nefret eden neredeyse kimse yoktur, cidden, nefret ediyorum! Kokuların kendisinden değil, (yanlış) kitlesel kullanımından ve hedef kitlesi bile belli olmadan ulaştığı kitleden dolayı. Örneğin, Geleneksel olanı bir kitleyi hedefliyordu ve başka bir kitlede başarılı oldu (ve hala oluyor).\nHer burun bir duygu uyandırır, değil mi? Ve benim burnum, ilişkilendirmek istemediğim birçok olumsuz duyguyu geri getiriyor.\nBununla birlikte... Malbec Signature. Vay be!\nO Boticário'dan ne muhteşem bir gol!\nNaçizane fikrime göre, ilk isim olmadan sadece İMZA olarak adlandırılmalıdır.\nElimde 50 taşla denedim, sonuçta Malbec söz konusu olduğunda 7 taş çok az. (Muhtemelen onlardan ne kadar nefret ettiğimi fark etmişsinizdir, değil mi?).\nŞişenin kendisi bile etkileyici; güzel, kaliteli ve heybetli. Açılışta yumuşak, baharatlı (çoğunlukla karanfil) ve tatlı odunsu notalar, hafif bir tıbbi dokunuşla ortaya çıkıyor. İçinde güçlü bir ud notası algılıyorum ki bu, notalarda belirtilmemiş olmasına rağmen beni şaşırttı.\nBiraz daha yüksek fiyat (yaklaşık 300 R$) açıkça yüksek kaliteyi yansıtıyor ve tüketimi etkileyerek bir tür niş ve ayrıcalık yaratıyor.\nKalıcılığı 14 saati aşıyor ve yayılımı orta düzeyde; gece kulüplerinde veya uzaktan dikkat çekmek isteyenler için uygun bir parfüm değil.\n\nKısacası:\nSignature, Blend Bourbon ve Dark Mint, en sevdiğim 3 Boticário parfümü arasında yer alıyor.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.3381.jpg"
+    },
+    {
+      "id": "parent788629",
+      "author": "antonib",
+      "date": "2022-08-24",
+      "text": "Baştan sona harika bir parfüm, uluslararası parfümlerle karşılaştırıldığında hiçbir eksiği yok. İlk sıktığım anda aşık oldum haha ve ayrıca çok sevdiğim ama artık piyasada olmayan bir parfümü hatırlattı bana :/ (Bvlgari Black Orient Parfum) Harika bir parfüm, tavsiye ederim.\nPS: Önemli bir ayrıntı, kadınlar bayılıyor lol",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent705259",
+      "author": "Karraxko",
+      "date": "2021-06-06",
+      "text": "Ağır, şeffaf şişenin bulunduğu kutunun sunumu çok güzel; şişenin camına Malbec serisinin sembolü kabartma olarak işlenmiş, koyu renk ahşap kapağında ise altın detaylar yer alıyor.\nÇıkışta, keskin bir başlangıçla baharatlı ve narenciye notalarının birleştiği, hafif tatlı tarçın notasıyla harmanlanan ve hafif alkollü bir likörü anımsatan bir nüans hissediyorum.\nEvrim sürecinde daha fazla baharat ortaya çıkmaya başlar ve neredeyse tütsülenmiş gibi odunsu bir görünüm baskın hale gelirken, narenciye notaları azalır.\nKremsi ve kehribar tonlarındaki kuruma sürecinde, kokunun tüm evrimine incelikle eşlik eden tarçın notası, dumanlı ve hafif isli yönlerini ortaya koyuyor.\nOlağanüstü, her kuruşuna değer.\nZarif ve hoş, özellikle gece ve ılıman iklimlerde, daha resmi akşam yemeklerinde daha çok kullanılacağını düşünüyorum. Kalite ve ayrıcalık algısı yaratmayı hedefleyen etkinlikler için kolayca doğru tercih edilebilir.\nBana Boucheron'un Jaïpur Homme'unu hatırlatıyor, aynı hava, aynı baharatlı aura ve rahatlatıcı tarçın notası.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1344817.jpg"
+    },
+    {
+      "id": "parent705257",
+      "author": "B1RDi",
+      "date": "2021-04-21",
+      "text": "Bu, beni parfümlere ilk başlatan kokulardan biri. Açıkçası yüksek kaliteli ve Malbec serisinde bile çok benzersiz bir kokuya sahip. Yakın zamanda cesaretimi toplayıp Brezilya'dan bir tane sipariş ettim. Bu resmi, şık bir koku ve muhtemelen koleksiyonumdaki en doğal kokulu parfümlerden biri. Odunsu, amberli, hafif meyvemsi bir koku ve karışımda çok az miktarda oud var. Ne yazık ki, o kadar çok başka parfüm kokladım ki, bunu ilk denediğimde hissettiğim yenilik duygusu kayboldu. Eğer Brezilya'yı ziyaret ediyorsanız ve parfüm koleksiyonu yapıyorsanız, bunu alın çünkü kalitesi kesinlikle yüksek. Ancak ülke dışındaysanız, bulmak çok zor olduğu için, örneğin Spicebomb Extreme gibi bir parfüme göre buna değip değmeyeceğinden emin değilim. İkisi de benzer koşullara uyuyor ve yaklaşık aynı fiyatı ödeyeceksiniz. Sonuç olarak: Brezilya'yı ziyaret eden koleksiyoncular için harika, ancak çok fazla zaman harcamaya değecek kadar benzersiz değil.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1329346.jpg"
+    },
+    {
+      "id": "parent705273",
+      "author": "paolobertucci",
+      "date": "2020-03-15",
+      "text": "16/3/20\nİlk izlenimler: baharatlı (karanfil?), tatlı; çok güçlü bir açılış, iki metre öteden bile hissediliyor, bir buçuk saat boyunca güçlü bir şekilde yayılıyor, kuruyor ve sakinleşiyor (hala hissediliyor ama daha ılımlı), tatlı, reçineli amber ortaya çıkıyor ve odunsu notalarla ve tarçını da anımsatan vanilya tatlılığıyla son buluyor, Malbec DNA'sı mevcut ama arka planda.\nPeki ya ud? Orada, ama çok belirgin değil; daha fazla test etmem gerekiyor. (17/4/20 tarihinde udun arka planda gizlice varlığını fark ettim)\n\nZarif ve şüphesiz eşsiz bir aroma; tatlılık, odunsu notalar ve karanfil.\n\nGündüz gündüz serinliğe eşlik eder ve şüphesiz seçkinliği simgeler.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.38669.jpg"
+    },
+    {
+      "id": "parent788631",
+      "author": "parfumage",
+      "date": "2019-02-11",
+      "text": "Bu parfümün bir şişesini hediye olarak aldım. Benim için pahalı bir parfüm olduğu için hediye olarak almam çok iyi oldu! Ama \"benim için\" pahalı olduğu için onu küçümsemeyeceğim. Bence fiyatına değer, kokusu, performansı ve sunumu çok iyi bir parfüm. Herkes benimle aynı fikirde mi? Hayır, elbette hayır! Ama bu benim yorumum, ben ne düşünüyorsam onu söyleyeceğim. Bana Keme'nin Harmen parfümünü hatırlattı, bu da bana Bourjois'nın Ouragam parfümünü hatırlatıyor, bu sonuncusu oldukça vintage bir kokuya sahip. Bu parfümler A*Men Thierry Mugler ve daha spesifik olarak Pure Havane'nin havasına sahip. Başlangıçta çok ferahlık hissediyorum ama çok fazla amber ve baharat, bu durumda karanfil hissediyorum. Signature'ı Keme'den çok daha iyi ve Ouragam'dan sonsuz derecede daha iyi buluyorum. Ve bir A*Men'in fiyatı 500 real civarında olduğu için, Malbec'in söylendiği kadar aşırı pahalı olduğunu düşünmüyorum (benim görüşüm). Essencial OUD ile karşılaştırıldığında, SIGNATURE'ın OUD'dan daha kötü olduğunu düşünmüyorum, bana göre ikisi farklı, ancak OUD'un safran notasına bayıldığım için bugün OUD'u tercih ediyorum! Ama ikisinin de bir koleksiyonda yeri olduğunu düşünüyorum. İkisi de mükemmel!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.3740.jpg"
+    },
+    {
+      "id": "parent705297",
+      "author": "LeoCa",
+      "date": "2019-02-08",
+      "text": "Gerçekten kıymetli bir oryantal mücevher.\nAma huzursuz zihinlerden gelen bazı tuhaf teorileri açıklığa kavuşturalım. Burada açıklanan notalar, parfümü oluşturan unsurlardan sadece bazılarıdır. Meşe ve öd ağacıyla yapılmış bir akor içerir; öd ağacı içerir ve meşe ağacını (çoğu Malbec'in temel notası) daha sıcak ve reçineli hale getiren bir akor oluşturmak için kullanılır; bu da parfümün geri kalanının likör benzeri ve reçineli yapısıyla uyumludur.\nEssencial Oud ile karşılaştırmak anlamsız; bunlar farklı parfümler. Essencial, oud'u vurguluyor, bu yüzden oud çok belirgin; Malbec Signature ise içeriğinde oud bulunan reçineli oryantal bir parfüm. İlginç bir nokta olarak, benim de sahip olduğum CH Insignia, özel veya özellikle benzersiz değil; sadece tüm serinin ortak yapısını, belirgin oud ile paylaşıyor ve kuruma aşamasında Essencial ile oldukça benzer hale geliyor. İkisi de birbirinden ilham almıyor ve hatta çok yakın zamanlarda piyasaya sürüldüler – tamamen tesadüf. Özel olma özelliği, doğru seçim yapmayı biliyorsanız, niş parfümlerde gerçekten bulunur. Bazı niş parfümler aslında o kadar da özel değil.\nMalbec Signature, geleneksel Malbec'in tüm özel yapısını (meşe ağacı akoru, şarap alkolü, yosun ve daha birçok şey) öd ağacının sıcaklığıyla, oryantal baharatlarla ve bol miktarda benzoin, amber ve misk ile birleştiriyor.\nMalbec Signature ilk olarak markanın Dubai'deki mağazasında (gerçekten de çok güzel bir mağaza) piyasaya sürüldü ve ardından Brezilya'ya geldi. Başlangıçta, sınırlı sayıda özel Malbec müşterisine dağıtıldı ve bu, alışveriş merkezlerindeki mağazalarda ilk ürünlerin ortaya çıkmasından çok önceydi; daha sonra başka bir parti dağıtıldı. Yılın sonunda, Brezilya'daki marka mağazalarında genel dağıtım gerçekleşti ve hiçbir hile olmadan, her şey markanın bildirdiği gibiydi.\nGüzel şişe, özenli ambalaj ve çok zengin bir koku. Beğenmeyenler de var, bu normal. Kişisel zevk değişkendir ve tartışılmaz. Ama markayı kötülemek, şaka olarak nitelendirmek ve diğer şeyler tamamen asılsızdır. Parfümeri hakkında hiçbir şey bilmeyen ve ürünler hakkında gerçek bir bilgiye sahip olmadan kanal açan YouTuber'lardan etkilenmiş gibi görünüyorlar.\nDoğu esintili, şık, gösterişli ve zarif bir parfüm, tam da görgü kurallarının gerektirdiği gibi. Peki, püf noktaları? Rastgeleliğe dayalı temelsiz teoriler yerine, aklımızı kullanarak harika şeyler icat edelim.\nFiyatı 249 R$ mı? Çok daha değerli, beğenmediniz mi? Kimse almak zorunda değil. Pahalı mı buluyorsunuz? Almayın. Ama olmayan şeyleri icat etmeyin.\nBu parfüm çok güzel ve uzmanlar ile koleksiyoncular için. Kesinlikle genel halkın kullanabileceği bir şey değil.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.41379.jpg"
+    },
+    {
+      "id": "parent705296",
+      "author": "leandro_augustto",
+      "date": "2018-12-17",
+      "text": "Bugün bu parfümü bir mağazada denemeye karar verdim ve daha önce yorum yazarak büyük bir haksızlık yapacaktım. İlk anlarında, Malbec Signature tıpkı Malbec ailesinin atası gibi görünüyor; 2004'ün sevilen Malbecão'su bu parfümün açılışında bir geri dönüş gibi beliriyor ve hemen burnumu buruşturup düşündüm... Lanet olsun, Malbec gibi kokan bir Malbec'e nasıl 250 R$ harcayacağım? Bu yüzden oradan ayrılıp Kuzeydoğu'daki 37 derecelik sıcakta bazı işlerimi halletmeye gittim. Bir süre sonra, 2004 Malbecão'nun o kokusu kayboldu ve yerini likör benzeri, odunsu bir tona sahip, daha sofistike ve tamamen farklı bir kokuya sahip bir parfüme bıraktı. Bana Malbec '04'ü hatırlatan daha agresif notalar, karanfil ile yumuşatılmış tatlı bir akora dönüştü; bir an için likörü, şarabı hatırlattı. Sıcak, odunsu bir dokunuş, harika bir amber notası ve dengeli bir vanilya ile birleşerek, çok pahalı bir hammadde ve parfümlerdeki güncel trend olan Oud'un temelini oluşturuyor. Yalan söyleyemem, çok hafif bir şekilde kokladım. Oud tenimde baskın değildi. Bunun yerine, sedir, amber, karanfil ve vanilyadan oluşan mükemmel notalara yerini bıraktı. Gerçekten çok iyi bir parfüm; bu sefer O Boticário'yu harika bir flanker yarattığı için tebrik ediyorum. Bence Barolo ve Nebbiolo günlerinden beri en iyisi. Kalıcılığa gelince, cildim her zaman parfümleri iyi tutar, bu yüzden saat 16:00 civarında sıktığımda, inanılmaz ama eve geldim, sabunla duş aldım ve sonra dışarı çıktım ve şimdi saat 21:34'te hala tenimde. Artık yayılmıyor. Bunun nedeni duş almış olmam, ama burnunuzu yaklaştırırsanız, hala mükemmel bir şekilde koklayabiliyorum. Yani arkadaşlar, ambalajından kalıcılığına kadar kalitesi var. Ve sözlerimi şöyle bitireyim... Tıpkı kalite arayan şarap uzmanları gibi, bu parfümü de sadece zevk sahibi kişiler kullanacak. Arkadaşlarım, bu parfüm gece kulüpleri veya sıradan geziler için yapılmadı. Anıları biriktirmek ve koku duyumuz aracılığıyla hafızalarımızda kaydetmek için yapıldı. #BöyleParfümlerİçinDahaFazlası",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.9208.jpg"
     }
   ]
 }

@@ -76,70 +76,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "3",
-    "moderate": "20",
-    "longLasting": "4",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "20",
-    "strong": "4",
-    "enormous": "8"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "28",
-    "moreFemale": "4",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "6",
-    "overpriced": "5",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "17",
-    "goodValue": "2",
-    "greatValue": "3"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "CHLOÉ",
-      "name": "Chloé L'Eau Eau de Toilette"
-    },
-    {
-      "brand": "SİSLEY",
-      "name": "Izia"
-    },
-    {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Rosa Nobile"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Lys Soleia"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Holy Peony"
-    },
-    {
-      "brand": "CHLOÉ",
-      "name": "Chloé Eau de Parfum"
-    },
-    {
-      "brand": "MONTALE",
-      "name": "Starry Nights"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Delina La Rosée"
-    },
-    {
-      "brand": "ROJA DOVE",
-      "name": "Elixir Pour Femme Essence De Parfum"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "PARFUMS DE MARLY",
@@ -201,5 +164,6 @@
       "brand": "JİMMY CHOO",
       "name": "Iris Crush"
     }
-  ]
+  ],
+  "comments": []
 }

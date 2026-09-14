@@ -2,7 +2,7 @@
   "name": "Hypnôse Hypnotizing Elixir Lancôme",
   "targetGender": "kadınlar için",
   "fragranceFamily": "Woody",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.2396.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Lancome/Hypnose-Hypnotizing-Elixir-2396.html",
   "brand": "Lancôme parfüm ve kolonya",
@@ -41,6 +41,34 @@
     {
       "name": "pudralı",
       "width": "48.8135%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -74,33 +102,74 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "3",
+    "moderate": "12",
+    "longLasting": "24",
+    "eternal": "21"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "12",
+    "strong": "22",
+    "enormous": "34"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "13",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Hypnôse"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Daarej pour Femme"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Hypnôse Eau Legere"
+    },
+    {
+      "brand": "FRAGONARD",
+      "name": "Eclat"
+    },
+    {
+      "brand": "MAUBOUSSİN",
+      "name": "Emotion Divine"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "La Yuqawam Orchid Prairie"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Manifesto Le Parfum"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Scandal Le Parfum"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Mon Precieux Nectar"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Good Fortune Elixir Intense"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -162,5 +231,6 @@
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
     }
-  ]
+  ],
+  "comments": []
 }

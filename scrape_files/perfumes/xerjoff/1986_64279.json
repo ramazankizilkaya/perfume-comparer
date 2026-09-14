@@ -16,31 +16,59 @@
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "82.8889%"
+      "width": "83.4021%"
     },
     {
       "name": "yeşil",
-      "width": "67.0222%"
+      "width": "67.2371%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "51.7778%"
+      "width": "51.6496%"
     },
     {
       "name": "tatlı",
-      "width": "50.2222%"
+      "width": "50.3504%"
     },
     {
       "name": "taze",
-      "width": "46.3333%"
+      "width": "46.4537%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.85",
-    "votesCount": "84",
+    "votesCount": "85",
     "breakdown": {
       "love": "33",
-      "like": "22",
+      "like": "23",
       "ok": "17",
       "dislike": "7",
       "hate": "5"
@@ -66,33 +94,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "12",
+    "moderate": "26",
+    "longLasting": "19",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "26",
+    "strong": "12",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "8",
+    "unisex": "28",
+    "moreMale": "16",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "21",
+    "overpriced": "21",
     "fair": "17",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Trench"
+    },
+    {
+      "brand": "THE SPİRİT OF DUBAİ",
+      "name": "Bahar"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Galloway"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Neroli Portofino"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Eau for Men"
+    },
+    {
+      "brand": "GRİTTİ",
+      "name": "Neroli Extreme"
+    },
+    {
+      "brand": "IMAGİNARY AUTHORS",
+      "name": "Falling Into The Sea"
+    },
+    {
+      "brand": "JOHN VARVATOS",
+      "name": "Artisan"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Imperial Tea"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Melody Of The Sun"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Uden Overdose"
+    },
+    {
+      "brand": "CREED",
+      "name": "Silver Mountain Water"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Safanad"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Fleur de Portofino"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Eros Flame"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
@@ -127,12 +216,12 @@
       "name": "Layton"
     },
     {
-      "brand": "XERJOFF",
-      "name": "XJ 1861 Naxos"
-    },
-    {
       "brand": "CREED",
       "name": "Aventus"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
     },
     {
       "brand": "DİOR",
@@ -154,5 +243,6 @@
       "brand": "XERJOFF",
       "name": "Tony Iommi Monkey Special"
     }
-  ]
+  ],
+  "comments": []
 }

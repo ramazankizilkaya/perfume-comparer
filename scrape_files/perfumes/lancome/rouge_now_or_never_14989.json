@@ -49,6 +49,34 @@
     {
       "name": "aromatik",
       "width": "58.282%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,33 +118,82 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "5",
+    "moderate": "8",
+    "longLasting": "16",
+    "eternal": "21"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "8",
+    "strong": "18",
+    "enormous": "19"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "12",
+    "moreFemale": "3",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "COURRÈGES",
+      "name": "Hyperbole"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Magnifique"
+    },
+    {
+      "brand": "FUGAZZİ",
+      "name": "Cash Flower"
+    },
+    {
+      "brand": "JUSBOX",
+      "name": "14Hour Dream"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Hot Couture"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Hypnotic Poison"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Gloria"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Organza Indécence"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Neonatura Cocoon"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Oud"
+    },
+    {
+      "brand": "LUBİN",
+      "name": "Upper Ten for Her"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Azul Noche"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -178,5 +255,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

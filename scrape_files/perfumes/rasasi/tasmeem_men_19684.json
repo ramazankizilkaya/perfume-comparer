@@ -49,16 +49,44 @@
     {
       "name": "iris",
       "width": "50.1774%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.07",
-    "votesCount": "489",
+    "score": "4.06",
+    "votesCount": "490",
     "breakdown": {
-      "love": "190",
-      "like": "213",
+      "love": "189",
+      "like": "214",
       "ok": "21",
-      "dislike": "59",
+      "dislike": "60",
       "hate": "6"
     }
   },
@@ -91,33 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "19",
+    "weak": "19",
+    "moderate": "102",
+    "longLasting": "157",
+    "eternal": "32"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "45",
+    "moderate": "102",
+    "strong": "113",
+    "enormous": "52"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "28",
+    "moreMale": "48",
+    "male": "25"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "5",
+    "overpriced": "0",
     "fair": "21",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "46",
+    "greatValue": "38"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TEO CABANEL",
+      "name": "Barkhane"
+    },
+    {
+      "brand": "ATELİER COLOGNE",
+      "name": "Tobacco Nuit"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Al Nashama Caprice"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Autumn Vibes"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "The Blazing Mr Sam"
+    },
+    {
+      "brand": "PASCAL MORABİTO",
+      "name": "Or Star"
+    },
+    {
+      "brand": "MANDARİNA DUCK",
+      "name": "Let's Travel To New York For Man"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Mimosa & Cardamom"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Daarej pour Homme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de l'Homme Frozen Cologne"
+    },
+    {
+      "brand": "LANVİN",
+      "name": "Avant Garde"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Kalemat"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Khaliji"
+    },
+    {
+      "brand": "SAİNT HİLAİRE",
+      "name": "Private Blue"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "Declaration"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RASASİ",
@@ -179,5 +268,6 @@
       "brand": "BURBERRY",
       "name": "London for Men"
     }
-  ]
+  ],
+  "comments": []
 }

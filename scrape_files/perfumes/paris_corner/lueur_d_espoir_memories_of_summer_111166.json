@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/PARIS-CORNER/Lueur-d-Espoir-Memories-of-Summer-111166.html",
   "brand": "PARIS CORNER parfüm ve kolonya",
   "description": "PARIS CORNER markasının Lueur d'Espoir Memories of Summer parfümü, kadınlar ve erkekler için Narenciye Aromatik bir kokudur. Bu yeni bir parfüm. Lueur d'Espoir Memories of Summer, 2025 yılında piyasaya sürüldü. Üst notalar: Greyfurt ve Bergamot; orta nota: Zencefil; alt notalar Amber ve Misk.",
-  "description_original": "PARIS CORNER markasının Lueur d'Espoir Memories of Summer parfümü, kadınlar ve erkekler için Narenciye Aromatik bir kokudur. Bu yeni bir parfüm. Lueur d'Espoir Memories of Summer, 2025 yılında piyasaya sürüldü. Üst notalar: Greyfurt ve Bergamot; orta nota: Zencefil; alt notalar Amber ve Misk.",
+  "description_original": "PARIS CORNER markasının Lueur d'Espoir Memories of Summer parfümü, kadınlar ve erkekler için Narenciye Aromatik bir kokudur. Bu yeni bir parfüm. Lueur d'Espoir Memories of Summer, 2025 yılında piyasaya sürüldü. Üst notalar: Greyfurt ve Bergamot; orta nota: Zencefil; alt notalar Misk ve Amber.",
   "description_enhanced": "PARIS CORNER markasının Lueur d'Espoir Memories of Summer parfümü, kadınlar ve erkekler için Narenciye Aromatik bir kokudur. Bu yeni bir parfüm. Lueur d'Espoir Memories of Summer, 2025 yılında piyasaya sürüldü. Üst notalar: Greyfurt ve Bergamot; orta nota: Zencefil; alt notalar Amber ve Misk.",
   "mainAccords": [
     {
@@ -37,15 +37,43 @@
     {
       "name": "aromatik",
       "width": "44.9496%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.12",
-    "votesCount": "106",
+    "votesCount": "110",
     "breakdown": {
-      "love": "46",
+      "love": "48",
       "like": "38",
-      "ok": "14",
+      "ok": "16",
       "dislike": "5",
       "hate": "3"
     }
@@ -53,10 +81,10 @@
   "seasons": {
     "winter": "11",
     "spring": "53",
-    "summer": "64",
+    "summer": "65",
     "autumn": "17",
-    "day": "63",
-    "night": "12"
+    "day": "64",
+    "night": "13"
   },
   "notes": {
     "top": [
@@ -67,40 +95,81 @@
       "Zencefil"
     ],
     "base": [
-      "Amber",
-      "Misk"
+      "Misk",
+      "Amber"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "8",
+    "moderate": "42",
+    "longLasting": "10",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "42",
+    "strong": "12",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "14",
+    "moreFemale": "14",
+    "unisex": "35",
+    "moreMale": "12",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "14",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "5",
+    "overpriced": "2",
+    "fair": "16",
+    "goodValue": "26",
+    "greatValue": "23"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Island Dreams"
+    },
+    {
+      "brand": "MAISON ASRAR",
+      "name": "DXB"
+    },
+    {
+      "brand": "BUJAİRAMİ",
+      "name": "Psycho"
+    },
+    {
+      "brand": "BİOTHERM",
+      "name": "Eau d'Energie"
+    },
+    {
+      "brand": "LUNİCHE",
+      "name": "Encore V"
+    },
+    {
+      "brand": "RAVE",
+      "name": "Now White"
+    },
+    {
+      "brand": "MAISON ASRAR",
+      "name": "Sunset In Capri"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Verde"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Uden Overdose"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "PARIS CORNER",
+      "name": "Voux Zingy"
+    },
     {
       "brand": "AFNAN",
       "name": "Rare Reef"
@@ -122,6 +191,10 @@
       "name": "Spectre Ghost"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Musamam White Intense"
+    },
+    {
       "brand": "PARIS CORNER",
       "name": "Coconut Lagoon"
     },
@@ -138,10 +211,6 @@
       "name": "Liquid Brun"
     },
     {
-      "brand": "AFNAN",
-      "name": "9 PM Rebel"
-    },
-    {
       "brand": "PARIS CORNER",
       "name": "Khair Felicity"
     },
@@ -156,10 +225,88 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Teriaq Intense"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent1032822",
+      "author": "sunli",
+      "date": "2026-01-13",
+      "text": "Henüz kutudan çıkardım, henüz olgunlaşmadı, bu yüzden yorumumu çok ciddiye almayın. Elimdeki şişe, LV Symphony'den ÇOK farklı kokuyor. Benim şişem, belirgin bir kremsi vanilya notasıyla şekerlenmiş greyfurt gibi kokuyor. Üzerine tatlı bir narenciye jeli veya narenciye şekeri serpilmiş vanilyalı kek kreması gibi kokuyor. Paris Corner Cake Temptations'ın narenciye versiyonu gibi kokuyor. Elimdeki şişe bir GOURMAND kokusu. Olgunlaşma sürecini göreceğiz.\n\nÖte yandan, LV Symphony'yi bir kez (ama sadece bir kez) çok iyi koklamıştım ve LV Pacific Chill ile Tygar/Vibrato/Ingenious Ginger'ın bir karışımı gibi kokuyordu.\n\nOlgunlaşma sürecinden sonra güncelleme yapacağım.\n\nGüncelleme 1: Bir perakendecide bunun test şişesini kokladım ve aynı kokuyordu. %60 tatlı greyfurt ve %40 vanilyalı kek. Bu bir LV Symphony klonu DEĞİLDİR. Bu Paris Corner da neyin nesi? Fabrikanız Cake Temptations'ı ürettikten sonra parfüm tankını yeterince temizlemedi mi? Haha. Her neyse, bir Symphony klonu beklediğim için param boşa gitti. Hayal kırıklığına uğradım.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2269858.jpg"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah"
+      "id": "parent1032821",
+      "author": "gabbi4god",
+      "date": "2025-12-18",
+      "text": "Bu, beklediğimden çok daha güzel. Muhteşem bir greyfurt kokusu. Tam olarak ne olduğunu tam olarak belirleyemediğim ama kokuyu olağanüstü kılan küçük bir farklılık var. Belki de zencefil ve kehribar karışımıdır. Biraz erkeksi bir havası olduğunu hissediyorum ama yine de çok güzel olduğu için kullanacağım. İşe giderken sürdüm ve patronum erkek iş arkadaşlarımın parfümünün çok güzel koktuğunu söyledi, ama kokan bendim. O hiçbir şey sürmemişti. Bu parfüm beni gerçekten etkiledi. En sevdiğim üç Orta Doğu parfümünden biri oldu!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1076569.jpg"
+    },
+    {
+      "id": "parent1032820",
+      "author": "Eleighmitch",
+      "date": "2025-12-04",
+      "text": "İlk püskürtmede çok hoşuma gitti… Kışın başında satın aldım, bu yüzden bu yaz, kokunun iyice olgunlaştığı zamanı sabırsızlıkla bekliyorum (bu bir ME kopyası, o yüzden en iyi sonucu almak için bunun gerekli olduğunu düşünüyorum), çünkü kesinlikle daha çok ilkbahar ve yaz kokusu gibi geliyor; gerçi zencefil notası kışın da biraz uyum sağlıyor. Çok fazla yazlık değil. Bu parfümü çok sevdim. Değerli bir dupe, pahalı kokuyor. Orijinalini hiç koklamadım, bu yüzden benzerlik konusunda bir fikrim yok. Ama o fiyat etiketini karşılayamıyorsanız ama kalbiniz bunu istiyorsa, kalitesinin ne kadar iyi olduğu göz önüne alındığında, bu parfümün sizi idare edebileceğini söyleyebilirim.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1313796.jpg"
+    },
+    {
+      "id": "parent1032833",
+      "author": "Savanoja",
+      "date": "2025-11-07",
+      "text": "Greyfurt ve tatlı portakal, taze ve yeşil bir kokuyla birleşiyor. Zencefil sadece açılışta belirgin bir şekilde hissediliyor. Bana Biotherm’in Eau d'Energie parfümünü hatırlatıyor. Ayrıca hafif bir kremsi koku da alıyorum, sanki hindistan cevizi sütü gibi? Hepsi çok hoş, canlandırıcı, hatta lüks bir koku.\nPerformansı ortalama sayılır, ama yine de dikkate değer.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.3550.jpg"
+    },
+    {
+      "id": "parent1032819",
+      "author": "F.96854",
+      "date": "2025-10-24",
+      "text": "Symphony ile karşılaştırıldığında, bu parfüm biraz daha feminen ve tatlı; oysa Symphony'de neredeyse gerçek bir greyfurt hissi uyandıran baharatlı bir nota var.\n\nKesinlikle bunu daha çok kullanıyorum (sadece fiyatı nedeniyle değil), çünkü S'nin ekşiliğine karşın bu parfümün narenciye notaları daha yumuşak ve tatlı.\nBaşlangıçta zencefil kokusu var (hiç de güçlü değil) ama kurudukça sadece hafif bir iz bırakıyor.\n\nİkisi benzer ama aynı değil. Symphony kesinlikle daha karmaşık ve iyi harmanlanmış, ancak bu parfüm daha çok sevdiğim şekerlenmiş baharatlı portakal kokusuna sahip.\n\nKatmanlama için mükemmel ve kesinlikle değer.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2530271.jpg"
+    },
+    {
+      "id": "parent1032829",
+      "author": "KaterinaZem",
+      "date": "2025-09-13",
+      "text": "Piramide bakınca, elmacık kemiklerine kadar yayılan yoğun bir lezzet ve burnunu gıdıklayacak bir keskinlik bekliyorsun... ve sanki var gibi, ama tüm kompozisyonu tatlı bir şeyin boğuculuğu bastırıyor. Bu tatlılığı tam olarak neyin verdiğini anlayamıyorum, ama gerçekten boğucu. Bunda hiçbir metamorfoz veya dönüşüm fark etmedim, oldukça monoton ve kendinden emin bir şekilde geliyor.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.370417.jpg"
+    },
+    {
+      "id": "parent1032828",
+      "author": "Anoula",
+      "date": "2025-07-30",
+      "text": "Kısa bir giriş))\nFragrance'da çok sayıda eleştiren ve bozuk kopyalar olmasına rağmen, Symphony'yi dahice bir parfüm eseri olarak görüyorum. Bende tam boyu var (benim için çok pahalı olanlardanım ama ne derler, arzu zorlamadan üstündür))) ama size şunu söyleyeyim - her kuruşuna değer) ve bu parfümü baştan sona, tüm açılım aşamalarında biliyorum.\nİşte, meraktan bu Arap dostu satın aldım (her ihtimale karşı, önyargılı bir yaklaşımı ortadan kaldırmak için - Arapları çok seviyorum ve parfüm koleksiyonumun en büyük yüzdesini onlar oluşturuyor) ve benim kararım şu: Araplar, Senfoni'nin tüm kompozisyonunu tam olarak aktarmayı başaramadılar. Parfümlerinde sanki tek bir parçayı, kompozisyonun sadece tek bir akorunu yakalamışlar. Evet, dışarıdan bakıldığında Senfoni yaklaşık olarak böyle ses veriyor gibi, ama bunu zorlama bir şekilde söylüyorum. Şöyle diyelim, sadece benzer bir yönü aktarmayı başardılar.\nBunu kelimelerle nasıl aktarabileceğimi uzun süre düşündüm ve aklıma şöyle bir benzetme geldi: bu sanki 2-3 saatlik bir operayı izlemek ve gizlice tek bir parçasının fotoğrafını çekip, içeriğini çevrenizdekilere aktarmaya çalışmak gibi. Memories of Summer, Arapların yakalamayı başardığı parfüm kompozisyonunun sadece bir fotoğrafı, bir anı, bir parçası. Ya da sanki bir şarkıyı mırıldanıp orijinalinde nasıl çaldığını aktarmaya çalışmak gibi; evet, bu aynı şarkı olacak ve sesim iyi olsa bile benim yorumumda kesinlikle farklı çalacak.\nKalan koku çok kısa, tekdüze bir ses, açılım yok, yayılma yok. Sıradan bir yaz parfümü gibi - fena değil. Fiyatına göre fena değil, ama yüksek beklentileriniz olmasın. Benden birkaç saat içinde uçup gidiyor.\nDemlenmeye bıraktım. Ya bir mucize olur da 600 avroyu harcamamız ve Bolşoy Operası'nda opera izlememiz gerekmezse?))",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.160147.jpg"
+    },
+    {
+      "id": "parent1032818",
+      "author": "basgam",
+      "date": "2025-07-22",
+      "text": "Bana göre bu koku, tatlı portakalın lüks bir tazelik ve yeşillikle harmanlanmış hali gibi geliyor. Biotherm’in Eau d’Energie parfümüne çok benziyor; kuruma aşaması ise bana biraz Ex Nihilo’nun Fleur Narcotique’ini hatırlatıyor. Muhteşem bir koku. Fazla karmaşık değil, abartılı da değil ama kesinlikle lüksün kokusu.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.289187.jpg"
     }
   ]
 }

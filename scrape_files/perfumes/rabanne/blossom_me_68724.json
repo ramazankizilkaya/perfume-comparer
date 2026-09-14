@@ -41,15 +41,43 @@
     {
       "name": "sabunsu",
       "width": "44.0805%"
+    },
+    {
+      "name": "Online satın alın 16 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.45",
+    "score": "3.44",
     "votesCount": "71",
     "breakdown": {
       "love": "10",
-      "like": "35",
-      "ok": "9",
+      "like": "34",
+      "ok": "10",
       "dislike": "11",
       "hate": "6"
     }
@@ -77,33 +105,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "6",
+    "moderate": "18",
+    "longLasting": "9",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "18",
+    "strong": "5",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "11",
+    "moreFemale": "8",
+    "unisex": "18",
+    "moreMale": "1",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "3",
+    "fair": "10",
+    "goodValue": "4",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TOM FORD",
+      "name": "Mandarino di Amalfi"
+    },
+    {
+      "brand": "JOHN VARVATOS",
+      "name": "Artisan"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Classique Pride Edition"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Secret d'Essences Neroli"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Porto Neroli"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Y Le Parfum"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Orange, Feuilles Et Fleurs"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Fleur Cherie"
+    },
+    {
+      "brand": "MİLANO FRAGRANZE",
+      "name": "Naviglio"
+    },
+    {
+      "brand": "ELİSİRE",
+      "name": "Eau Papaguena"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Pride Edition"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 VIP Wins"
+    },
+    {
+      "brand": "AVON",
+      "name": "Attraction One Fresh"
+    },
+    {
+      "brand": "CHOPARD",
+      "name": "Happy Chopard Bigaradia"
+    },
+    {
+      "brand": "VİNCE CAMUTO",
+      "name": "Vince Camuto Femme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -165,5 +254,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

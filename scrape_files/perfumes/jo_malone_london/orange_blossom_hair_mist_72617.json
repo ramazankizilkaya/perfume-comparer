@@ -64,46 +64,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "6",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "6",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "1",
-    "unisex": "3",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Orange Blossom"
-    },
-    {
-      "brand": "SOLİNOTES",
-      "name": "Fleur d'Oranger"
-    },
-    {
-      "brand": "MUSTELA",
-      "name": "Musti Eau de Soin"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JO MALONE LONDON",
@@ -126,20 +113,12 @@
       "name": "Ansaam Gold"
     },
     {
-      "brand": "JO MALONE LONDON",
-      "name": "Oud & Bergamot"
-    },
-    {
       "brand": "DOLCE&GABBANA",
       "name": "Devotion"
     },
     {
       "brand": "JO MALONE LONDON",
       "name": "Tuberose Angelica"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Black Opium"
     },
     {
       "brand": "CHLOÉ",
@@ -162,8 +141,17 @@
       "name": "Angélique Noire"
     },
     {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '62"
+    },
+    {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "Autumn Vibes"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Amber Romance"
     }
-  ]
+  ],
+  "comments": []
 }

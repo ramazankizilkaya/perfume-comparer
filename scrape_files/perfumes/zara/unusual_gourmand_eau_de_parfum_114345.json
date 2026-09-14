@@ -37,24 +37,52 @@
     {
       "name": "iris",
       "width": "45%"
+    },
+    {
+      "name": "Online satın alın 18 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.85",
-    "votesCount": "48",
+    "score": "3.76",
+    "votesCount": "50",
     "breakdown": {
       "love": "12",
       "like": "21",
       "ok": "12",
-      "dislike": "2",
-      "hate": "1"
+      "dislike": "3",
+      "hate": "2"
     }
   },
   "seasons": {
     "winter": "6",
     "spring": "22",
     "summer": "21",
-    "autumn": "14",
+    "autumn": "15",
     "day": "18",
     "night": "5"
   },
@@ -72,14 +100,14 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
+    "veryWeak": "2",
     "weak": "7",
     "moderate": "8",
     "longLasting": "2",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "8",
+    "intimate": "9",
     "moderate": "8",
     "strong": "1",
     "enormous": "0"
@@ -87,7 +115,7 @@
   "genderVoting": {
     "female": "13",
     "moreFemale": "6",
-    "unisex": "7",
+    "unisex": "8",
     "moreMale": "1",
     "male": "0"
   },
@@ -96,7 +124,7 @@
     "overpriced": "1",
     "fair": "12",
     "goodValue": "8",
-    "greatValue": "6"
+    "greatValue": "7"
   },
   "remindsMeOf": [
     {
@@ -128,16 +156,16 @@
       "name": "Born Dreamer"
     },
     {
+      "brand": "BDK PARFUMS",
+      "name": "Pas Ce Soir Extrait"
+    },
+    {
       "brand": "ELLİS BROOKLYN",
       "name": "Sweet"
     },
     {
       "brand": "ARİANA GRANDE",
       "name": "Mod Vanilla"
-    },
-    {
-      "brand": "BDK PARFUMS",
-      "name": "Pas Ce Soir Extrait"
     },
     {
       "brand": "ARİANA GRANDE",
@@ -182,10 +210,6 @@
       "name": "Prada Paradoxe"
     },
     {
-      "brand": "BDK PARFUMS",
-      "name": "Gris Charnel"
-    },
-    {
       "brand": "CAROLİNA HERRERA",
       "name": "Good Girl"
     },
@@ -220,6 +244,11 @@
     {
       "brand": "ZARA",
       "name": "Supreme Vanilla"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Le Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

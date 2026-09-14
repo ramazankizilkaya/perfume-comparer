@@ -27,8 +27,36 @@
       "width": "42.3239%"
     },
     {
-      "name": "kiraz",
+      "name": "lavanta",
       "width": "42.3239%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -68,33 +96,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "6",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "6",
+    "strong": "3",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Uva Rosa e Romã"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Midnight Fantasy"
+    },
+    {
+      "brand": "AVON",
+      "name": "Imari Corset"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Fantasy"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -156,5 +201,6 @@
       "brand": "NATURA",
       "name": "Frescor de Buriti"
     }
-  ]
+  ],
+  "comments": []
 }

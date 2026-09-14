@@ -23,11 +23,11 @@
       "width": "79.6775%"
     },
     {
-      "name": "amber",
+      "name": "beyaz çiçeksi",
       "width": "75.1613%"
     },
     {
-      "name": "beyaz çiçeksi",
+      "name": "amber",
       "width": "75.1613%"
     },
     {
@@ -35,11 +35,11 @@
       "width": "62.7419%"
     },
     {
-      "name": "narenciye",
+      "name": "sıcak baharatlı",
       "width": "61.6131%"
     },
     {
-      "name": "sıcak baharatlı",
+      "name": "narenciye",
       "width": "61.6131%"
     },
     {
@@ -49,26 +49,54 @@
     {
       "name": "taze",
       "width": "53.71%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.83",
-    "votesCount": "6",
+    "score": "3.70",
+    "votesCount": "10",
     "breakdown": {
-      "love": "1",
+      "love": "2",
       "like": "3",
-      "ok": "2",
+      "ok": "5",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "1",
-    "spring": "1",
-    "summer": "1",
-    "autumn": "1",
-    "day": "2",
-    "night": "1"
+    "winter": "2",
+    "spring": "3",
+    "summer": "3",
+    "autumn": "2",
+    "day": "4",
+    "night": "2"
   },
   "notes": {
     "top": [
@@ -96,19 +124,19 @@
   },
   "longevity": {
     "veryWeak": "0",
-    "weak": "0",
-    "moderate": "1",
+    "weak": "1",
+    "moderate": "2",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "1",
+    "intimate": "1",
+    "moderate": "2",
     "strong": "0",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "1",
+    "female": "3",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "0",
@@ -117,11 +145,16 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "2",
-    "goodValue": "0",
+    "fair": "5",
+    "goodValue": "1",
     "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "KYLİE COSMETİCS",
+      "name": "Cosmic Kylie Jenner"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -132,16 +165,17 @@
       "name": "Prada Candy"
     },
     {
-      "brand": "FİNE'RY.",
-      "name": "Without A Trace"
-    },
-    {
       "brand": "DİPTYQUE",
       "name": "L'Eau Papier"
+    },
+    {
+      "brand": "FİNE'RY.",
+      "name": "Without A Trace"
     },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Book Loft"
     }
-  ]
+  ],
+  "comments": []
 }

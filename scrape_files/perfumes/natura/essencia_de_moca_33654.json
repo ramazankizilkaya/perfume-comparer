@@ -49,13 +49,41 @@
     {
       "name": "vanilya",
       "width": "47.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.54",
-    "votesCount": "118",
+    "score": "4.55",
+    "votesCount": "119",
     "breakdown": {
-      "love": "74",
+      "love": "75",
       "like": "39",
       "ok": "1",
       "dislike": "3",
@@ -91,33 +119,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "14",
+    "moderate": "13",
+    "longLasting": "6",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "20",
+    "moderate": "13",
+    "strong": "5",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "17",
+    "moreFemale": "3",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "10",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Moça"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Água de Banho Cheiro de Moça Bonita"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ekos Amazô"
+    },
+    {
+      "brand": "AVON",
+      "name": "Florissima"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "English Pear & Freesia"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bombshell"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -179,5 +232,6 @@
       "brand": "AQUOLİNA",
       "name": "Pink Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

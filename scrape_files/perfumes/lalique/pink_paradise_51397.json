@@ -49,25 +49,53 @@
     {
       "name": "vanilya",
       "width": "60.2203%"
+    },
+    {
+      "name": "Online satın alın 23 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.59",
-    "votesCount": "123",
+    "score": "3.58",
+    "votesCount": "125",
     "breakdown": {
       "love": "36",
-      "like": "36",
-      "ok": "17",
+      "like": "37",
+      "ok": "18",
       "dislike": "32",
       "hate": "2"
     }
   },
   "seasons": {
     "winter": "3",
-    "spring": "32",
-    "summer": "42",
+    "spring": "33",
+    "summer": "43",
     "autumn": "15",
-    "day": "40",
+    "day": "41",
     "night": "6"
   },
   "notes": {
@@ -88,33 +116,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "6",
+    "moderate": "20",
+    "longLasting": "22",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "17",
+    "moderate": "20",
+    "strong": "16",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "21",
+    "moreFemale": "6",
+    "unisex": "16",
+    "moreMale": "6",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "17",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "7",
+    "overpriced": "7",
+    "fair": "18",
+    "goodValue": "3",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HERMÈS",
+      "name": "Eau des Merveilles Bleue"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Aquawoman"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Reveal"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "Blue Wonders"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Earth"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Sel d'Azur"
+    },
+    {
+      "brand": "PARFUMS J'Aİ OSÉ",
+      "name": "J'ai Osé Aqua"
+    },
+    {
+      "brand": "MOLİNARD",
+      "name": "Vents et Marées"
+    },
+    {
+      "brand": "BİBLİOTEKA AROMATOV",
+      "name": "Modigliani. Portrait of Jeanne Hébuterne"
+    },
+    {
+      "brand": "ZOOLOGİST PERFUMES",
+      "name": "Squid"
+    },
+    {
+      "brand": "ZARKOPERFUME",
+      "name": "INCEPTION"
+    },
+    {
+      "brand": "PROFUMİ DEL FORTE",
+      "name": "Tirrenico"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl Dazzling Garden"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Earth Elixir"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water Night Dive Woman"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "JO MALONE LONDON",
@@ -129,16 +218,16 @@
       "name": "Light Blue"
     },
     {
+      "brand": "VERSACE",
+      "name": "Versense"
+    },
+    {
       "brand": "LALİQUE",
       "name": "Lalique Le Parfum"
     },
     {
       "brand": "LALİQUE",
       "name": "Satine"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Allure Eau de Parfum"
     },
     {
       "brand": "HERMÈS",
@@ -154,7 +243,7 @@
     },
     {
       "brand": "HERMÈS",
-      "name": "L’Ambre des Merveilles"
+      "name": "Elixir des Merveilles"
     },
     {
       "brand": "DİOR",
@@ -173,8 +262,9 @@
       "name": "Blue Rise"
     },
     {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Parfum"
+      "brand": "KENZO",
+      "name": "Kenzo Jungle L'Elephant"
     }
-  ]
+  ],
+  "comments": []
 }

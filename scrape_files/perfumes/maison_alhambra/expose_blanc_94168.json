@@ -49,24 +49,52 @@
     {
       "name": "tatlı",
       "width": "47.0354%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.23",
-    "votesCount": "57",
+    "score": "4.26",
+    "votesCount": "58",
     "breakdown": {
-      "love": "26",
-      "like": "21",
+      "love": "28",
+      "like": "20",
       "ok": "8",
       "dislike": "1",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "26",
-    "spring": "36",
-    "summer": "27",
-    "autumn": "37",
+    "winter": "27",
+    "spring": "37",
+    "summer": "29",
+    "autumn": "38",
     "day": "31",
     "night": "28"
   },
@@ -90,37 +118,82 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "3",
+    "moderate": "22",
+    "longLasting": "22",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "22",
+    "strong": "18",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "10",
+    "moreMale": "16",
+    "male": "22"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "11",
+    "greatValue": "35"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Ultra Male"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Legend Spirit"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ramz Lattafa Silver"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Glacier Ultra"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "9pm"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "H24"
+    },
+    {
+      "brand": "BHARARA",
+      "name": "King"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Musk Salama"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Lalique White"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Odyssey Homme White Edition"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ARMAF",
       "name": "Club De Nuit Urban Elixir"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Al Nashama Caprice"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -144,10 +217,6 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Bade'e Al Oud Oud for Glory"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
       "name": "Liam"
     },
     {
@@ -159,12 +228,12 @@
       "name": "Jean Lowe Immortal"
     },
     {
-      "brand": "FRENCH AVENUE",
-      "name": "Liquid Brun"
+      "brand": "LATTAFA PERFUMES",
+      "name": "The Kingdom For Men"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "His Confession"
+      "brand": "FRENCH AVENUE",
+      "name": "Liquid Brun"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -178,5 +247,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Honor & Glory"
     }
-  ]
+  ],
+  "comments": []
 }

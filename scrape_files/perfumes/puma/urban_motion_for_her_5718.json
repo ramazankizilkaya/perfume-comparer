@@ -33,6 +33,34 @@
     {
       "name": "taze baharatlı",
       "width": "45.4816%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -75,33 +103,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "15",
+    "moderate": "31",
+    "longLasting": "4",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "18",
+    "moderate": "31",
+    "strong": "7",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "4",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CACHAREL",
+      "name": "Amor Amor"
+    },
+    {
+      "brand": "TOUS",
+      "name": "Tous Gems Party"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '40"
+    },
+    {
+      "brand": "EON PRODUCTİONS",
+      "name": "James Bond 007 for Women"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Celebrate N.O.W."
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NİNA RİCCİ",
@@ -163,5 +212,6 @@
       "brand": "LANCÔME",
       "name": "Hypnôse"
     }
-  ]
+  ],
+  "comments": []
 }

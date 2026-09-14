@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Penhaligon-s/Solaris-81413.html",
   "brand": "Penhaligon's parfüm ve kolonya",
   "description": "Penhaligon's markasının Solaris parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Solaris, 2023 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alienor Massenet. Üst notalar: Neroli, Limon ve Frenk üzümü; orta notalar: Tiare Çiçeği, Ylang-Ylang ve Yasemin; alt notalar Vanilya, Sandal ağacı ve Sedir ağacı.",
-  "description_original": "Penhaligon's markasının Solaris parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Solaris, 2023 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alienor Massenet. Üst notalar: Neroli, Limon ve Frenk üzümü; orta notalar: Tiare Çiçeği, Ylang-Ylang ve Yasemin; alt notalar Vanilya, Sandal ağacı ve Sedir ağacı.",
+  "description_original": "Penhaligon's markasının Solaris parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Solaris, 2023 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alienor Massenet. Üst notalar: Neroli, Limon ve Siyah Frenk Üzümü; orta notalar: Tiare Çiçeği, Ylang-Ylang ve Yasemin; alt notalar Vanilya, Sandal ağacı ve Sedir ağacı.",
   "description_enhanced": "Penhaligon's markasının Solaris parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Solaris, 2023 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alienor Massenet. Üst notalar: Neroli, Limon ve Frenk üzümü; orta notalar: Tiare Çiçeği, Ylang-Ylang ve Yasemin; alt notalar Vanilya, Sandal ağacı ve Sedir ağacı.",
   "mainAccords": [
     {
@@ -16,65 +16,93 @@
     },
     {
       "name": "odunsu",
-      "width": "69.2682%"
+      "width": "68.7471%"
     },
     {
       "name": "narenciye",
-      "width": "61.509%"
+      "width": "61.5687%"
     },
     {
       "name": "tatlı",
-      "width": "56.7827%"
-    },
-    {
-      "name": "meyvemsi",
-      "width": "56.3529%"
+      "width": "56.4214%"
     },
     {
       "name": "sarı çiçeksi",
-      "width": "56.3172%"
+      "width": "56.25%"
+    },
+    {
+      "name": "meyvemsi",
+      "width": "55.9756%"
     },
     {
       "name": "vanilya",
-      "width": "54.7058%"
+      "width": "54.0195%"
     },
     {
       "name": "pudralı",
-      "width": "46.936%"
+      "width": "46.4878%"
     },
     {
       "name": "çiçeksi",
-      "width": "46.2112%"
+      "width": "46.3847%"
     },
     {
       "name": "aromatik",
-      "width": "44.9848%"
+      "width": "44.9263%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "947",
+    "score": "4.07",
+    "votesCount": "971",
     "breakdown": {
-      "love": "353",
-      "like": "376",
-      "ok": "150",
+      "love": "361",
+      "like": "387",
+      "ok": "156",
       "dislike": "61",
-      "hate": "7"
+      "hate": "6"
     }
   },
   "seasons": {
-    "winter": "39",
-    "spring": "278",
-    "summer": "383",
-    "autumn": "97",
-    "day": "359",
-    "night": "89"
+    "winter": "42",
+    "spring": "285",
+    "summer": "391",
+    "autumn": "100",
+    "day": "366",
+    "night": "91"
   },
   "notes": {
     "top": [
       "Neroli",
       "Limon",
-      "Frenk üzümü"
+      "Siyah Frenk Üzümü"
     ],
     "middle": [
       "Tiare Çiçeği",
@@ -89,37 +117,102 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "48",
+    "moderate": "226",
+    "longLasting": "68",
+    "eternal": "14"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "52",
+    "moderate": "226",
+    "strong": "51",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "192",
+    "moreFemale": "129",
+    "unisex": "92",
+    "moreMale": "6",
+    "male": "7"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "150",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "56",
+    "overpriced": "162",
+    "fair": "156",
+    "goodValue": "13",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Soleil de Provence"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Eau de Soleil Blanc"
+    },
+    {
+      "brand": "BON PARFUMEUR",
+      "name": "103 tiare flower, jasmine, hibiscus"
+    },
+    {
+      "brand": "DEMETER FRAGRANCE",
+      "name": "Sunshine"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Gingham Glow"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Terracotta Le Parfum"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Soleil Blanc"
+    },
+    {
+      "brand": "LE LABO",
+      "name": "Lys 41"
+    },
+    {
+      "brand": "MARİSSA ZAPPAS",
+      "name": "The Sun Card"
+    },
+    {
+      "brand": "REMY MARQUİS",
+      "name": "Marquis"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Orchid Soleil"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Ostara"
+    },
+    {
+      "brand": "SANA JARDİN",
+      "name": "Revolution de la Fleur"
+    },
+    {
+      "brand": "GOUTAL",
+      "name": "Songes Eau de Parfum"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Love the way you Feel"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BY KİLİAN",
       "name": "Love Don't Be Shy"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Orphéon Eau de Parfum"
     },
     {
       "brand": "AMOUAGE",
@@ -138,16 +231,16 @@
       "name": "Luna"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Tobacco Vanille"
+      "brand": "LES LİQUİDES IMAGİNAİRES",
+      "name": "Blanche Bête"
     },
     {
       "brand": "BDK PARFUMS",
       "name": "Gris Charnel"
     },
     {
-      "brand": "LES LİQUİDES IMAGİNAİRES",
-      "name": "Blanche Bête"
+      "brand": "TOM FORD",
+      "name": "Tobacco Vanille"
     },
     {
       "brand": "MAİSON MARTİN MARGİELA",
@@ -156,10 +249,6 @@
     {
       "brand": "GUERLAİN",
       "name": "Angélique Noire"
-    },
-    {
-      "brand": "BYREDO",
-      "name": "Mojave Ghost"
     },
     {
       "brand": "BY KİLİAN",
@@ -176,6 +265,218 @@
     {
       "brand": "DİPTYQUE",
       "name": "L'Eau Papier"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent350",
+      "author": "dnjfjfjfrn",
+      "date": "2026-06-30",
+      "text": "Çok çok güzel bir koku. Tekrar denemek istiyorum",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent623435",
+      "author": "Goditilavita83",
+      "date": "2026-02-18",
+      "text": "Açılışta çok narenciye kokusu var ve sanırım böğürtlenin yeşil kısımlarını koklayabiliyorum.\nGüzel, parlak ve ışıltılı\nKoku yerleştiğinde temiz, sabunlu çiçeksi bir hal alıyor, hala tatlı ama üst notalar kaybolup arka plana karışmıyor.\nEn çok ylang ylang kokusunu alıyorum.\nBana kalırsa güneş kremi gibi kokmuyor, deniz kenarı manzarasını da anımsatmıyor.\nBana göre daha çok gündüz, ofis için uygun bir parfüm, tatil için değil.\nİyi evet ama muhteşem değil.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.87323.jpg"
+    },
+    {
+      "id": "parent623401",
+      "author": "youmeoui",
+      "date": "2025-07-01",
+      "text": "Bugün Solaris'i sıktım ve eşim kokusunu aldığında hemen iltifat ederek, \"Yazın en mutlu günleri gibi kokuyor\" dedi. Söylediklerine neredeyse şaşırdım çünkü o parfümler hakkında pek bir şey söylemez, ama o kısa ve tatlı karşılaşmada, bu parfümün nasıl bir his uyandırdığını tam olarak özetledi.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1895796.jpg"
+    },
+    {
+      "id": "parent623448",
+      "author": "margheritaiacono",
+      "date": "2024-12-20",
+      "text": "Önce bir numune aldım. Üzerimde denedim ve sonra bir kenara koydum. Mimoza tarlaları, belki de sümbülteber, ylang-ylang, güneş, yaz ve yeni yıkanmış bebek bezi gibi kokuyordu. Sonra bir gün, her yerime sıktım ve şimdi onsuz yaşayamam. Beni rahatsız etmeyen, rahatlatıcı bir koku. Gündüz ve gece kullanabilirsiniz; kafanıza takılmıyor veya şakaklarınızı kaşındırmıyor. Ve benim için bir parfümde en önemli şey bu. Fiyatı çok yüksek olduğu için 30 ml sipariş ettim, çok cimriyim işte.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.373757.jpg"
+    },
+    {
+      "id": "parent623391",
+      "author": "Odor Aeternitatis",
+      "date": "2024-08-10",
+      "text": "Beyaz çiçekler ve vanilyanın bir parfümde bir araya gelmesini çok ilginç buldum. Birçok parfümün beyaz çiçek-vanilya karışımını misk bazıyla birleştirdiğini biliyorum, ancak burada kremsi sandal ağacıyla eşleştirilmiş. Gerçekten çok iyi çalışıyor. Bu parfüm çok rafine, hiçbir nota diğerlerini, hatta narenciye veya beyaz çiçek akorlarını bile bastırmıyor.\n\nAyrıca, son zamanlarda birkaç parfümde beyaz çiçek ve ylang-ylang kombinasyonunu gördüm. Bu parfümdeki ylang-ylang, beyaz çiçek-vanilya kombinasyonuyla çok iyi harmanlanmış, hoş ve bir şekilde eşsiz. Hafif tatlı, pudralı ve genel olarak daha kadınsı. Harika iş.\n\n8/10",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1816990.jpg"
+    },
+    {
+      "id": "parent623468",
+      "author": "RenataCT",
+      "date": "2024-05-20",
+      "text": "Güneşli ve nefis bir parfüm! Narenciye notalarıyla başlayan ve çok hoş olan açılış, hızla ylang-ylang'ın kremsi dokusuna, beyaz çiçekler ve vanilya akoruna dönüşüyor. Çiçeklerin doğal olarak tatlandırdığı, hindistan cevizi ve tuberose'un hayaletimsi notalarıyla yoğun bir yaz kokusu; Guerlain'in klasik Terracotta'sını anımsatıyor, ancak biraz daha modern ve göz alıcı. \"Güneşli\" konsepti içinde bir başyapıt! ☀️",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.62935.jpg"
+    },
+    {
+      "id": "parent623411",
+      "author": "Antiope",
+      "date": "2024-04-01",
+      "text": "Yazlık, neşeli bir neroli-yasemin-ylang-ylang kokusu.\n\nBu Solaris parfümü, mükemmel bir yaz güneşi kokusu; sizi anında hoş düşünceler ve harika tatil havasına, Homerosvari bir Akdeniz sahilinde açık bir gömlek ve uçuşan şort giymiş halde yürümeye, kahkahalar atarak ve mutlu bir şekilde, ayaklarınızın kıyıya vuran nazik, köpüklü dalgalar tarafından okşanmasına, gözlerinizi kapatıp yüzünüzü gökyüzüne çevirerek, ışıldayan güneşin sizi öpmesine götürüyor. Yunanistan; bu büyüleyici, güneşli koku beni kesinlikle güzel koylarından birine götürdü...!\n\nLimon ve hafif meyve notalarıyla zenginleştirilmiş pürüzsüz neroli kremi, cilde tereyağı gibi yumuşak bir his bırakırken, vanilya ve yasemin özlü odunsu notalar onu mükemmel bir şekilde tamamlıyor. Hafif bir güneş koruyucu etkisi her zaman mevcut olup, tatil havasını ideal bir şekilde güçlendirirken asla baskın hale gelmiyor.\n\nHım, bu yıl yaz parfümüm bu olacak!\n\nNe yazık ki Penhaligons için tipik olan o enfes yaz güneşi, güneş kremi, deniz köpüğü ve öpücüğü kokusu çok uzun sürmese de, koku asla bunaltıcı değil; ne çok limonlu, ne çok güneş kremi gibi, ne çok okyanus köpüğü gibi, ne de hepsinden önemlisi çok çiçeksi. Ve güney güneşinin altında sahildeki o keyifli yürüyüş çok çabuk sona ererse, hızlı bir fıs sizi o güneşli tatil yerlerine geri götürecektir!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.de",
+      "avatar": "https://fimgs.net/mdimg/avataride/m.7250.jpg"
+    },
+    {
+      "id": "parent623388",
+      "author": "madameoiselledarling",
+      "date": "2024-03-09",
+      "text": "Birkaç ay önce Penhaligon's'tan toplu siparişle birlikte bunun bir örneğini almıştım. İlk başta önemsemedim – çok parlak, benim için çok çok parlak. Sonra bugün, Mart başlarında, biraz moralim bozukken, bulutlu ve gri bir günde, tekrar denemeye karar verdim. En sevdiğim iki koku olan vanilya ve sandal ağacı notalarını okuduktan sonra, harika koktuğunu fark ettim. Daha fazla sürdüm, gözlerimi kapattım ve kendimi, etrafı parlak sarı çiçek tarlalarıyla çevrili, beyaz perdeli Fransız kapılarından içeri girip çıkan, beyaz keten giysiler içindeki mutlu çocukların olduğu eski bir kır evinde buldum. Taze ürünlerle dolu hasır sepetler. Yabani çiçekler ve yavru ördeklerle dolu bir bahçe. Mutfak penceresinden soğumakta olan yeni pişmiş limonlu tart. Eski bir plak çalardan hafifçe çalan Charles Aznavour'un La Bohème'i.\n\nUzun uzun anlattığım için özür dilerim; ama bu kokuya ikinci bir bakışta ne kadar hayran kaldığımı göstermek zorundaydım. Tüm içerikler, neşeli, sıcak, tatlı ve tanıdık bir buket oluşturmak için bir araya geliyor. Anneliğe dair romantik hayallerimin kokusunu andıran bir senfoni. Gerçekten çok güzel. Biraz daha kalıcı olsa mükemmel olurdu.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1872361.jpg"
+    },
+    {
+      "id": "parent623453",
+      "author": "milimoi",
+      "date": "2024-02-23",
+      "text": "Guerlain'in Terracotta'sının daha hoş ve modern bir versiyonu. Tipik bir yaz kokusu, tatlı olmayan beyaz çiçek notalarına dayanıyor. Önemlisi, ne Tay gardenyası ne de neroli kompozisyona hakim değil (ki bu tür yaz kokularında oldukça yaygındır ve bence onları mahveder). Benzer şekilde, ylang ylang parfümlerde retro bir etki yaratabilir, neredeyse hafif bir idrar kokusu gibi gelebilir. Burada böyle bir etki yok.\nPenhaligon's her zamanki gibi harika bir iş çıkarmış: yumuşak, hoş ve hatta hafif yağlı bir koku izlenimi bile veriyor.\nSolaris, Luna'nın yaz versiyonu: benzer şekilde mükemmel bir şekilde tasarlanmış/dengelenmiş bir koku.\nEğer eksilerini aramak isterseniz (biraz fazla ;) o zaman kompozisyon gerçekten çığır açıcı değil, zaten bildiğimiz şeyleri daha güzel, daha zarif bir şekilde sunulmuş, daha çağdaş (Terracota'ya kıyasla) olarak görüyoruz.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent623456",
+      "author": "Edi",
+      "date": "2024-01-07",
+      "text": "Beyaz çiçeklerle (en çok gardenya kokusunu alıyorum) harmanlanmış, çok kremsi ve dengeli bir parfüm. Beyaz çiçekler genellikle bana migren yapar ama bu farklı. Şaşırtıcı derecede hoş ve rahatlatıcı. Koku, güneşli bir kozaya, sahilde tembel bir güne ve bronzlaştırıcı yağlarla yağlanmış bir cilde benzer şekilde bizi sarıyor.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.3890.jpg"
+    },
+    {
+      "id": "parent623387",
+      "author": "Cassiano",
+      "date": "2024-01-02",
+      "text": "Dürüst olmak gerekirse, insanların buna verdiği \"bitmemiş\" sıfatını anlamıyorum!\nSolaris, içinde hiç sümbülteber bulunmayan, ancak canlı bir ylang-ylang, parlak bir tiare + neroli kombinasyonu ve tuzlu vanilya ile sonlanan, güzel bir çiçeksi-meyveli koku.\nGerçekten daha kadınsı, ama örneğin pişmiş topraktan çok daha parlak.\nGerçekten çok beğendim! 👋🏻🇧🇷",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.6218.jpg"
+    },
+    {
+      "id": "parent623404",
+      "author": "DuftHexe",
+      "date": "2023-10-14",
+      "text": "Lucky Scent'ten 2 ml'lik bir dekant sipariş ettim. Vay canına! Sanki zamanda geriye gittim... 14 yaşındayken annemin bana ilk parfümümü verdiği güne... Evyan'ın White Shoulders'ına. Solaris tıpatıp aynı... özellikle açılış ve beyaz çiçek notaları. Benim tarzım değil (yetişkin olarak). Çok eski tarz bir çiçek kokusu. Bu kokuda benzersiz hiçbir şey yok. Eğer yoğun beyaz çiçek ve ylang ylang notaları içeren güçlü bir çiçek kokusunu kesinlikle sevmiyorsanız, almayın.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1656531.jpg"
+    },
+    {
+      "id": "parent623423",
+      "author": "Elena79",
+      "date": "2023-10-07",
+      "text": "(Sümbülteber Aşıklar, Bölüm 2)\n\nGÜNEŞLE YIKANMIŞ ÇİÇEKLER\n\nSümbülteber, içeriğinde belirtilen notalar arasında yer almasa da, Solaris'te en çok öne çıkan çiçektir; yasemin ve ylang-ylang akoruyla çevrelenmiş olup, onu yumuşatır ve neredeyse sütlü bir tatlılık sağlar.\n\nDiğer daha yoğun, daha uyuşturucu beyaz çiçek kokularının aksine, burada çiçekler güneş ışınlarının içlerinden geçtiği gibi ışıltılı ve aydınlık bir his veriyor; açılışta yer alan narenciye notaları ise tüm kokuyu ferahlatıyor. Bunu kesinlikle plaj kokusu ya da tipik güneş kremi akoru olarak algılamıyorum, ancak sıcak karakteri ve vanilya tatlılığı onu güneşli günler için ideal kılıyor.\n\nCildimde performansı oldukça orta düzeyde, ilk birkaç saatten sonra cilde yakın kalıyor. Modern, sade bir beyaz çiçek kokusu, tazeliği ve sıcaklığıyla cezbediyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.76465.jpg"
+    },
+    {
+      "id": "parent623446",
+      "author": "Nonagal",
+      "date": "2023-09-27",
+      "text": "Değerli moderatörler, lütfen parfümcüyü değiştirin, çünkü bu mucizenin yaratıcısı SYMRISE'ın kıdemli parfümcüsü Aliénor Massenet'tir.\n\nParfümün kendisine gelince, benzer \"yaz bakım\" kokularının eksikliğini giderdi. Ve tıpkı Brenda'nın parfümü gibi çok güzel. Asil ve güzel. Ylang-ylang notaları, narenciye ve siyah frenk üzümüyle o kadar güzel iç içe geçmiş ki! Genel olarak, harika bir koku.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.258752.jpg"
+    },
+    {
+      "id": "parent623389",
+      "author": "that1makeupgirl",
+      "date": "2023-08-26",
+      "text": "Yaz aylarında vazgeçilmez parfümüm. Hafif bir koku veriyor ama hiçbir şeyi abartmıyor: çok fazla güneş kremi, çok fazla beyaz çiçek kokusu, çok fazla vanilya kokusu yok... tam kıvamında! Kokusu bana Nuxe ürünlerini hatırlatıyor. Mükemmel bir yaz akşamı için ışıltılı vücut yağını sürdükten sonra bunu kullanmayı seviyorum. BAYILIYORUM.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent623467",
+      "author": "Paula Del Vecchio",
+      "date": "2023-07-29",
+      "text": "Dün, Rio'da serin ve yağmurlu bir günde aldım! Bana hâlâ sahip olduğum, çok sevdiğim ve iki nedenden dolayı az kullandığım Orchid Soleil'i hafifçe hatırlattı: Bitmesini istemiyorum ve Rio sıcağı için çok güçlü! Solaris mükemmel, enfes, kusursuz! Orchid Soleil'in çok daha incelikli, daha kolay, daha giyilebilir, gündüz kullanımına daha uygun, daha az rahatsız edici, agresif ve mevsimsel bir versiyonu! Çünkü Orchid Soleil'i sadece çok soğuk yerlerde kullanıyorum! Bu yüzden, Orchid Soleil'i özlediğim ama kokusunun sıcaktan bunaltıcı olacağı günlerde Solaris'i kullanacağım! Orchid Soleil'in süper güçlü ve baskın sümbülteberini biliyorsunuz değil mi? Solaris'te yok! Ama yasemin onu Orchid Soleil'e çok benzetiyor, sadece daha az baskın... parfümü o kadar domine etmiyor! Ve vanilya parfümü tamamlıyor, ikisini de tatlı yapıyor!!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent623434",
+      "author": "Aramis&Lola",
+      "date": "2023-06-08",
+      "text": "Güneş sonrası kremi ve tatili anımsatan, ancak hindistan cevizi, mango, laktoz gibi alışılmış notaları içermeyen bir koku arıyorsanız, işte bu o koku.\nBenden önceki yorumlara katılmıyorum, bu parfümü beğendim.\nAçılış, muhteşem; limon ve neroli'nin enerjik bir patlamasıyla başlıyor, tatlı ama hafif asidik kuş üzümüyle dengeleniyor; kuş üzümü asla sıradan olmayan ve parfümlerde çok sevdiğim bir meyve.\nBu Solaris'in itici gücü çiçeklerdir. Tiare ve güzel, tatlı, kremsi ylang-ylang birlikte bu tropikal dokunuşu sağlıyor. Ancak asıl başrol oyuncusu, hafif uyuşturucu etkisi yaratan, kirli değil, aksine dürüst, çok parlak bir yasemindir.\nBana göre Solaris, oldukça rafine, kaliteli ve iyi yapılmış bir parfüm. Kimyasal izler veya aşırı tatlılık içermiyor.\nKalıcılığı iyi, yayılımı sınırlı.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.61794.jpg"
+    },
+    {
+      "id": "parent623419",
+      "author": "vitodito",
+      "date": "2023-05-22",
+      "text": "Penhaligon's, güneşli ve neşeli kokan, harika bir yaz parfümü. Sanki bir plajda yaseminlerle çevriliymişsiniz gibi kokuyor; çok doğal bir yasemin kokusu, hafifçe ylang-ylang (neden iki kez geçtiğini anlamıyorum) ile harmanlanmış.\n\nTiare çiçeği ona yazlık, güneş kremi benzeri, plaj havası katıyor. Arka plandaki vanilya, çiçeklerle karışarak bana Rosendo Mateu 5'in daha narin ve çiçeksi bir versiyonunu hatırlatıyor.\n\nBence oldukça kadınsı bir kokuya sahip, çok güzel bir parfüm. Phg'nin 30 ml'lik mini versiyonlarını piyasaya sürmesine sevindim.\n\nMiyav 😊",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.40111.jpg"
+    },
+    {
+      "id": "parent623399",
+      "author": "Vitodito",
+      "date": "2023-05-04",
+      "text": "Bugün mağazada denedim.\n\nPenhaligon's'tan harika bir lansman, bu koku çok güneşli, parlak ve neşeli. Sanki yaseminler ve bir plaj arasında gibisiniz.\n\nYlang ylang çiçeğinden gelen bol miktarda doğal yasemin ve sarı toz.\n\nBu taç güneş kremi havası, plaj havası veriyor ve arka plandaki vanilya, çiçeklerle karışarak bana rosendo mateu 5'in daha narin ve çiçeksi bir versiyonunu hatırlatıyor.\n\nTam isabet, daha çok kadınsı bir havası var.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1303546.jpg"
+    },
+    {
+      "id": "parent623395",
+      "author": "Devyasss",
+      "date": "2023-04-30",
+      "text": "Eşim bu parfümü butikteki satış danışmanının tavsiyesi üzerine bana aldı ve size söyleyeyim, sıktığım anda bayıldım! Le Labo'nun Le Lys serisinin büyük bir hayranıyım ve kesinlikle bu parfümleri aynı sıcak, yazlık koku ailesine koyarım. Bu parfümlerde çok kadınsı ve narin bir şey var: ylang ylang, beyaz çiçekler ve biraz da narenciye, \"iyi hissettiren\" bir koku için mükemmel bir kombinasyon! Çiçek kokularını sevenler için çok güvenli bir seçim olduğunu söyleyebilirim.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.424281.jpg"
+    },
+    {
+      "id": "parent623447",
+      "author": "Spidey_Scentses",
+      "date": "2023-04-26",
+      "text": "Parfüm, narenciye, neroli ve siyah frenk üzümü patlamasıyla açılıyor. Her şey vaat edildiği gibi. Buradaki siyah frenk üzümü, meyveden çok yaprağa benziyor. Sulu, taze, soğuk çiğle yıkanmış ve bir dal ardıçla taçlandırılmış. Ardından, yasemin kokusu alıyorum, belirgin bir ylang-ylang notası da hissediliyor. Dürüst olmak gerekirse, tiare çiçeğine aşina değilim, bu yüzden parfümdeki rolü hakkında yorum yapamam. Ancak ciltte, sıcak, ballı bir çiçeksi nüans kesinlikle ortaya çıkıyor, yasemin ve hala yaygın olan neroliye ek olarak bir miktar kremsilik. Bu arada, yasemin çay gibi, indolik veya hayvansal değil.\n\nGenel olarak, Ay ile benzerlikler var, özellikle de narenciye ve kuş üzümü karışımının işlenme biçiminde. Ne kadar çok koklarsam, aralarındaki bağlantıyı o kadar çok hissediyorum.\n\nSolaris bana Akdeniz'in engin sularında bir yerlerdeki sıcak bir yaz sabahını çok hatırlatıyor.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.332892.jpg"
     }
   ]
 }

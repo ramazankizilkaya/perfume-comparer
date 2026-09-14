@@ -49,6 +49,34 @@
     {
       "name": "odunsu",
       "width": "46.7647%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "16",
-    "spring": "23",
-    "summer": "17",
-    "autumn": "16",
-    "day": "21",
-    "night": "12"
+    "winter": "17",
+    "spring": "24",
+    "summer": "18",
+    "autumn": "17",
+    "day": "22",
+    "night": "13"
   },
   "notes": {
     "top": [
@@ -88,33 +116,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "8",
+    "longLasting": "8",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "8",
+    "strong": "14",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "11",
+    "moreFemale": "6",
+    "unisex": "19",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "10",
+    "overpriced": "7",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEROBOAM",
+      "name": "Hauto"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Tubéreuse Impériale"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Erba Gold"
+    },
+    {
+      "brand": "CREED",
+      "name": "Queen of Silk"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Hermetic"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Erba Pura"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Libra"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
@@ -176,5 +233,6 @@
       "brand": "CASAMORATİ 1888",
       "name": "Lira"
     }
-  ]
+  ],
+  "comments": []
 }

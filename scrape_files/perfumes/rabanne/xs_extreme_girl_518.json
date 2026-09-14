@@ -49,6 +49,34 @@
     {
       "name": "odunsu",
       "width": "59.5409%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -91,33 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "5",
+    "moderate": "20",
+    "longLasting": "18",
+    "eternal": "23"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "20",
+    "strong": "37",
+    "enormous": "27"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "11",
+    "moreFemale": "9",
+    "unisex": "6",
+    "moreMale": "0",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "6",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİVENCHY",
+      "name": "Very Irresistible Poesie d’un Parfum d’Hiver"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Plum Japonais"
+    },
+    {
+      "brand": "STATE OF MİND",
+      "name": "Spontaneous Generosity"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Feminité du Bois"
+    },
+    {
+      "brand": "FENDİ",
+      "name": "Theorema Esprit d'Ete"
+    },
+    {
+      "brand": "GRÈS",
+      "name": "Cabotine Gold"
+    },
+    {
+      "brand": "NYCH PERFUMES",
+      "name": "Waha Sahara"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Les Parfums Mythiques - Organza Indecence"
+    },
+    {
+      "brand": "COSTUME NATIONAL",
+      "name": "21"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Five O'Clock Au Gingembre"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Oblique Rewind"
+    },
+    {
+      "brand": "SALVADOR DALİ",
+      "name": "Dalimania"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Midnight Poison"
+    },
+    {
+      "brand": "MARK BUXTON",
+      "name": "Black Angel"
+    },
+    {
+      "brand": "QUEEN LATİFAH",
+      "name": "Queen of Hearts"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MUGLER",
@@ -179,5 +268,6 @@
       "brand": "GUERLAİN",
       "name": "Samsara Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

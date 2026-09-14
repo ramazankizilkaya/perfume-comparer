@@ -49,6 +49,10 @@
     {
       "name": "misk",
       "width": "62.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -89,94 +93,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "6",
-    "weak": "6",
-    "moderate": "29",
-    "longLasting": "70",
-    "eternal": "15"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "12",
-    "moderate": "29",
-    "strong": "52",
-    "enormous": "26"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "6",
-    "unisex": "28",
-    "moreMale": "28",
-    "male": "4"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "11",
-    "overpriced": "21",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "14",
-    "goodValue": "3",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOND NO 9",
-      "name": "Bond No. 9 Perfume"
-    },
-    {
-      "brand": "THE DUA BRAND",
-      "name": "Shutter Island"
-    },
-    {
-      "brand": "BOND NO 9",
-      "name": "Dubai Ruby"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Costa Azzurra"
-    },
-    {
-      "brand": "A DOZEN ROSES",
-      "name": "Shakespeare in Love"
-    },
-    {
-      "brand": "BOND NO 9",
-      "name": "Fire Island"
-    },
-    {
-      "brand": "RAMON MONEGAL",
-      "name": "#cafedelmar"
-    },
-    {
-      "brand": "DAVİDOFF",
-      "name": "Cool Water"
-    },
-    {
-      "brand": "KENZO",
-      "name": "Kenzo pour Homme"
-    },
-    {
-      "brand": "ORTO PARİSİ",
-      "name": "Megamare"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Alien Mirage"
-    },
-    {
-      "brand": "BOND NO 9",
-      "name": "Sag Harbor"
-    },
-    {
-      "brand": "BOND NO 9",
-      "name": "Riverside Drive"
-    },
-    {
-      "brand": "RASASİ",
-      "name": "Hawas Ice"
-    },
-    {
-      "brand": "ALEXANDRİA FRAGRANCES",
-      "name": "Stanley Beach"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -223,12 +166,12 @@
       "name": "Bleecker Street"
     },
     {
-      "brand": "CREED",
-      "name": "Green Irish Tweed"
-    },
-    {
       "brand": "BYREDO",
       "name": "Bal d'Afrique"
+    },
+    {
+      "brand": "CREED",
+      "name": "Green Irish Tweed"
     },
     {
       "brand": "CREED",
@@ -238,5 +181,6 @@
       "brand": "SERGE LUTENS",
       "name": "Chergui"
     }
-  ]
+  ],
+  "comments": []
 }

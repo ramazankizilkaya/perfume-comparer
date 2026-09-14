@@ -86,50 +86,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "6",
-    "moderate": "30",
-    "longLasting": "8",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "30",
-    "strong": "11",
-    "enormous": "17"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "8",
-    "moreFemale": "2",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "2",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JİMMY CHOO",
-      "name": "Flash"
-    },
-    {
-      "brand": "BEYONCÉ",
-      "name": "Pulse Summer Edition"
-    },
-    {
-      "brand": "FİORUCCİ",
-      "name": "Fiorucci Love You"
-    },
-    {
-      "brand": "MİU MİU",
-      "name": "Miu Miu Fleur D’Argent"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JİMMY CHOO",
@@ -185,11 +168,12 @@
     },
     {
       "brand": "BVLGARİ",
-      "name": "Omnia Crystalline"
+      "name": "Omnia Crystalline Eau de Toilette"
     },
     {
       "brand": "LANCÔME",
       "name": "Trésor Midnight Rose"
     }
-  ]
+  ],
+  "comments": []
 }

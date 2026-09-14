@@ -16,26 +16,54 @@
     },
     {
       "name": "vanilya",
-      "width": "51.875%"
+      "width": "44.8936%"
     },
     {
       "name": "laktonik",
-      "width": "38.75%"
+      "width": "37.4468%"
     },
     {
       "name": "pudralı",
-      "width": "36.5625%"
+      "width": "34.468%"
     },
     {
       "name": "balsamik",
-      "width": "33.2812%"
+      "width": "32.234%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.33",
-    "votesCount": "3",
+    "score": "4.50",
+    "votesCount": "4",
     "breakdown": {
-      "love": "2",
+      "love": "3",
       "like": "0",
       "ok": "1",
       "dislike": "0",
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "2",
+    "winter": "3",
     "spring": "2",
     "summer": "2",
     "autumn": "2",
@@ -64,20 +92,20 @@
   },
   "longevity": {
     "veryWeak": "0",
-    "weak": "0",
+    "weak": "1",
     "moderate": "0",
-    "longLasting": "0",
+    "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
     "moderate": "0",
-    "strong": "0",
+    "strong": "1",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
-    "moreFemale": "0",
+    "moreFemale": "2",
     "unisex": "0",
     "moreMale": "0",
     "male": "0"
@@ -86,8 +114,8 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "1",
+    "greatValue": "1"
   },
   "remindsMeOf": [
     {
@@ -95,5 +123,6 @@
       "name": "Snow Moon Magic"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

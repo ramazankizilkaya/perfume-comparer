@@ -45,6 +45,34 @@
     {
       "name": "toprak",
       "width": "46.0656%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,33 +107,62 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "11",
+    "moderate": "48",
+    "longLasting": "25",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "15",
+    "moderate": "48",
+    "strong": "20",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "9",
+    "moreMale": "26",
+    "male": "56"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "3",
     "fair": "17",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "47",
+    "greatValue": "11"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Uomo"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Truth For Men"
+    },
+    {
+      "brand": "AVON",
+      "name": "Class Act"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Romance for Men"
+    },
+    {
+      "brand": "ANTONİO PUİG",
+      "name": "Quorum Silver"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Homem Madeiras"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Blue Eau de Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -165,7 +222,8 @@
     },
     {
       "brand": "NATURA",
-      "name": "Essencial Mirra"
+      "name": "K"
     }
-  ]
+  ],
+  "comments": []
 }

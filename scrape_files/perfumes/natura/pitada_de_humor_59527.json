@@ -49,14 +49,42 @@
     {
       "name": "amber",
       "width": "45.2175%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.01",
-    "votesCount": "137",
+    "votesCount": "138",
     "breakdown": {
       "love": "50",
-      "like": "59",
+      "like": "60",
       "ok": "10",
       "dislike": "16",
       "hate": "2"
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "5",
-    "spring": "63",
-    "summer": "88",
+    "spring": "64",
+    "summer": "89",
     "autumn": "27",
-    "day": "95",
+    "day": "96",
     "night": "18"
   },
   "notes": {
@@ -88,33 +116,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "16",
+    "moderate": "50",
+    "longLasting": "12",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "50",
+    "strong": "10",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "30",
+    "moreFemale": "23",
+    "unisex": "29",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "45",
+    "greatValue": "8"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kaiak Energia"
+    },
+    {
+      "brand": "MARY KAY",
+      "name": "Belara"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Hilfiger Woman Peach Blossom"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versense"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Men On Ice 2009"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ilía Jardim Secreto"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "La Bomba"
+    },
+    {
+      "brand": "HOLLİSTER",
+      "name": "Hollister Wave For Her"
+    },
+    {
+      "brand": "AVON",
+      "name": "Garota de Ipanema"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Surf for Her"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Beyond Paradise"
+    },
+    {
+      "brand": "ARAMİS",
+      "name": "New West for Her"
+    },
+    {
+      "brand": "HALSTON",
+      "name": "Halston Classic"
+    },
+    {
+      "brand": "SHAKİRA",
+      "name": "Dance Diamonds (Under The Rain)"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -176,5 +265,6 @@
       "brand": "NATURA",
       "name": "Frescor de Açaí"
     }
-  ]
+  ],
+  "comments": []
 }

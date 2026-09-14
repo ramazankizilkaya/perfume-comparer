@@ -81,46 +81,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "0",
-    "longLasting": "2",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "0",
-    "strong": "2",
-    "enormous": "4"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ELLİS BROOKLYN",
-      "name": "Sun Fruit"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Sky di Gioia"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Innocent"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CHLOÉ",
@@ -182,5 +169,6 @@
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -37,6 +37,34 @@
     {
       "name": "menekşe",
       "width": "47.6056%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -77,33 +105,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "7",
+    "moderate": "10",
+    "longLasting": "7",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "10",
+    "strong": "15",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "11",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Rose 4 Reines"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Premieres Roses 2015"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Premieres Roses 2011"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Premieres Roses 2012"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Roses des Vergers"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Love Story Eau de Toilette"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "A La Rose"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Femme Dylan Blue"
+    },
+    {
+      "brand": "LİNDA LANDENBERG",
+      "name": "A Trembling Rose"
+    },
+    {
+      "brand": "MONOTHEME VENEZİA",
+      "name": "Apotheose de Rose"
+    },
+    {
+      "brand": "RAMMSTEİN",
+      "name": "Paris for Her"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "L'eau À la Rose"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Pink Roses"
+    },
+    {
+      "brand": "EX NİHİLO",
+      "name": "Fleur Narcotique"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -165,5 +254,6 @@
       "brand": "GUERLAİN",
       "name": "Shalimar Parfum Initial"
     }
-  ]
+  ],
+  "comments": []
 }

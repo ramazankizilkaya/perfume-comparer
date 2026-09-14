@@ -49,13 +49,45 @@
     {
       "name": "paçuli",
       "width": "45.7616%"
+    },
+    {
+      "name": "Online satın alın 41 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "3.93",
-    "votesCount": "97",
+    "score": "3.94",
+    "votesCount": "98",
     "breakdown": {
-      "love": "31",
+      "love": "32",
       "like": "43",
       "ok": "10",
       "dislike": "11",
@@ -92,41 +124,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "7",
+    "longLasting": "16",
+    "eternal": "15"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "7",
+    "strong": "18",
+    "enormous": "22"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "2",
+    "unisex": "10",
+    "moreMale": "1",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ORİENTİCA",
+      "name": "Floral Rose"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Aseel"
+    },
+    {
+      "brand": "THE SPİRİT OF DUBAİ",
+      "name": "Abraj"
+    },
+    {
+      "brand": "HOUSE OF SİLLAGE",
+      "name": "Wednesday"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Aoud"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Rasheeqa"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Oud Satin Mood"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Rouat Al Oud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AGENT PROVOCATEUR",
       "name": "Agent Provocateur"
-    },
-    {
-      "brand": "PALOMA PİCASSO",
-      "name": "Paloma Picasso"
     },
     {
       "brand": "CALVİN KLEİN",
@@ -165,12 +226,12 @@
       "name": "Amber Oudh"
     },
     {
-      "brand": "SWİSS ARABİAN",
-      "name": "Noora"
-    },
-    {
       "brand": "KENZO",
       "name": "Kenzo Jungle L'Elephant"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Noora"
     },
     {
       "brand": "DİOR",
@@ -179,6 +240,11 @@
     {
       "brand": "GLORİA VANDERBİLT",
       "name": "Vanderbilt"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "LouLou"
     }
-  ]
+  ],
+  "comments": []
 }

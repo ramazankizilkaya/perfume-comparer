@@ -49,26 +49,54 @@
     {
       "name": "sıcak baharatlı",
       "width": "54.2555%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.23",
-    "votesCount": "415",
+    "score": "4.24",
+    "votesCount": "418",
     "breakdown": {
-      "love": "213",
+      "love": "217",
       "like": "133",
-      "ok": "26",
-      "dislike": "39",
-      "hate": "4"
+      "ok": "25",
+      "dislike": "38",
+      "hate": "5"
     }
   },
   "seasons": {
-    "winter": "162",
+    "winter": "163",
     "spring": "120",
     "summer": "60",
-    "autumn": "198",
+    "autumn": "199",
     "day": "156",
-    "night": "174"
+    "night": "177"
   },
   "notes": {
     "top": [
@@ -92,33 +120,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "10",
+    "weak": "20",
+    "moderate": "133",
+    "longLasting": "47",
+    "eternal": "24"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "39",
+    "moderate": "133",
+    "strong": "50",
+    "enormous": "20"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "53",
+    "moreFemale": "29",
+    "unisex": "84",
+    "moreMale": "6",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "26",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "4",
+    "fair": "25",
+    "goodValue": "70",
+    "greatValue": "40"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Ekos Alma"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essencial Único"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Homem Neo"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ekos Alma 2025"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Copaíba"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essencial Mirra"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Cupuaçú"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Aura"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Midnight Musk & Amber"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -158,11 +223,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Biografia Assinatura"
+      "name": "Luna"
     },
     {
       "brand": "NATURA",
-      "name": "Luna"
+      "name": "Biografia Assinatura"
     },
     {
       "brand": "NATURA",
@@ -180,5 +245,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

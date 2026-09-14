@@ -15,32 +15,60 @@
       "width": "100%"
     },
     {
-      "name": "çiçeksi",
-      "width": "89.6296%"
+      "name": "misk",
+      "width": "89.7562%"
     },
     {
-      "name": "misk",
-      "width": "88.3333%"
+      "name": "çiçeksi",
+      "width": "89.1871%"
     },
     {
       "name": "taze",
-      "width": "65.648%"
+      "width": "65.569%"
     },
     {
       "name": "pudralı",
-      "width": "59.1666%"
+      "width": "59.878%"
     },
     {
       "name": "tatlı",
-      "width": "56.2499%"
+      "width": "56.4633%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.03",
-    "votesCount": "60",
+    "votesCount": "61",
     "breakdown": {
       "love": "21",
-      "like": "26",
+      "like": "27",
       "ok": "7",
       "dislike": "6",
       "hate": "0"
@@ -48,10 +76,10 @@
   },
   "seasons": {
     "winter": "9",
-    "spring": "40",
-    "summer": "36",
-    "autumn": "23",
-    "day": "44",
+    "spring": "41",
+    "summer": "37",
+    "autumn": "24",
+    "day": "45",
     "night": "9"
   },
   "notes": {
@@ -65,33 +93,82 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "15",
+    "moderate": "16",
+    "longLasting": "1",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "15",
+    "moderate": "16",
+    "strong": "4",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "25",
+    "moreFemale": "7",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "14",
+    "greatValue": "20"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Humor da Minha Vida"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Biografia Desperte"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Enchanted Apple"
+    },
+    {
+      "brand": "MARY KAY",
+      "name": "Hello Brilliant"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Velvet Confident"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Kiss Me Please"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Brit Eau de Toilette"
+    },
+    {
+      "brand": "TWİGGY",
+      "name": "Twiggy Classic"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Floratta Red Blossom"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Tommy Girl"
+    },
+    {
+      "brand": "PRİMACİAL",
+      "name": "Infalível Pour Femme"
+    },
+    {
+      "brand": "JEANNE ARTHES",
+      "name": "Tea Time à Paris Macaron Amande"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -100,10 +177,6 @@
     {
       "brand": "NATURA",
       "name": "Luna Absoluta"
-    },
-    {
-      "brand": "O BOTİCÁRİO",
-      "name": "Floratta in Rose"
     },
     {
       "brand": "NATURA",
@@ -115,19 +188,15 @@
     },
     {
       "brand": "NATURA",
-      "name": "Humor 1"
-    },
-    {
-      "brand": "NATURA",
       "name": "Una Artisan"
     },
     {
       "brand": "NATURA",
-      "name": "Ilía"
+      "name": "Essencial Elixir"
     },
     {
       "brand": "NATURA",
-      "name": "Essencial Elixir"
+      "name": "Ilía"
     },
     {
       "brand": "NATURA",
@@ -150,8 +219,17 @@
       "name": "Essencial Feminino"
     },
     {
+      "brand": "O BOTİCÁRİO",
+      "name": "Lily Absolu"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212"
+    },
+    {
       "brand": "NATURA",
       "name": "Frescor de Buriti"
     }
-  ]
+  ],
+  "comments": []
 }

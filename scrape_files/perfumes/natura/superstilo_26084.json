@@ -29,14 +29,42 @@
     {
       "name": "amber",
       "width": "44.3987%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.02",
-    "votesCount": "121",
+    "votesCount": "123",
     "breakdown": {
       "love": "39",
-      "like": "62",
+      "like": "64",
       "ok": "4",
       "dislike": "15",
       "hate": "1"
@@ -46,8 +74,8 @@
     "winter": "21",
     "spring": "34",
     "summer": "27",
-    "autumn": "24",
-    "day": "40",
+    "autumn": "25",
+    "day": "41",
     "night": "15"
   },
   "notes": {
@@ -61,33 +89,62 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "7",
+    "moderate": "27",
+    "longLasting": "7",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "27",
+    "strong": "10",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "3",
+    "unisex": "6",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CACHAREL",
+      "name": "Amor Amor"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Una"
+    },
+    {
+      "brand": "AVON",
+      "name": "Petit Attitude Happy Bug"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Glamour"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Urban Lovers for Her"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Capricho Glam"
+    },
+    {
+      "brand": "CAFE PARFUMS",
+      "name": "Cafe Intenso"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -149,5 +206,6 @@
       "brand": "NATURA",
       "name": "Essencial Exclusivo"
     }
-  ]
+  ],
+  "comments": []
 }

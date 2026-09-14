@@ -29,6 +29,34 @@
     {
       "name": "ekşi",
       "width": "37%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "4",
+    "winter": "5",
     "spring": "5",
     "summer": "4",
     "autumn": "5",
@@ -142,12 +170,13 @@
       "name": "Pink Obsessed"
     },
     {
-      "brand": "JULİETTE HAS A GUN",
-      "name": "Not A Perfume"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Princess Moana"
+    },
+    {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Not A Perfume"
     }
-  ]
+  ],
+  "comments": []
 }

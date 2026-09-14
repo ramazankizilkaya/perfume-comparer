@@ -63,82 +63,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "3",
-    "moderate": "7",
-    "longLasting": "12",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "8",
-    "moderate": "7",
-    "strong": "7",
-    "enormous": "10"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "7",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "2",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Idylle"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Idylle Eau Sublime"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Idylle Eau de Parfum"
-    },
-    {
-      "brand": "NARCİSO RODRİGUEZ",
-      "name": "Narciso Rodriguez For Her"
-    },
-    {
-      "brand": "NARCİSO RODRİGUEZ",
-      "name": "Narciso Rodriguez for Her Eau de Parfum"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Idylle Duet Rose-Patchouli"
-    },
-    {
-      "brand": "ATKİNSONS",
-      "name": "White Rose de Alix"
-    },
-    {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Lazy Sunday Morning"
-    },
-    {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Floral Fair"
-    },
-    {
-      "brand": "NARCİSO RODRİGUEZ",
-      "name": "Narciso Rodriguez Fleur Musc for Her"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Idylle Love Blossom"
-    },
-    {
-      "brand": "SİSLEY",
-      "name": "Izia La Nuit"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -147,6 +98,10 @@
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Cinéma"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Un Jardin Sur Le Nil"
     },
     {
       "brand": "CHANEL",
@@ -159,10 +114,6 @@
     {
       "brand": "GUERLAİN",
       "name": "Jicky"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "L'Instant Magic"
     },
     {
       "brand": "CHANEL",
@@ -200,5 +151,6 @@
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

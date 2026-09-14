@@ -29,14 +29,42 @@
     {
       "name": "vanilya",
       "width": "43.8739%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.13",
     "votesCount": "164",
     "breakdown": {
-      "love": "71",
-      "like": "60",
+      "love": "72",
+      "like": "59",
       "ok": "18",
       "dislike": "13",
       "hate": "2"
@@ -44,8 +72,8 @@
   },
   "seasons": {
     "winter": "20",
-    "spring": "82",
-    "summer": "74",
+    "spring": "81",
+    "summer": "75",
     "autumn": "47",
     "day": "91",
     "night": "29"
@@ -66,33 +94,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "8",
+    "weak": "10",
+    "moderate": "42",
+    "longLasting": "16",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "26",
+    "moderate": "42",
+    "strong": "20",
+    "enormous": "13"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "47",
+    "moreFemale": "7",
+    "unisex": "5",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "4",
     "fair": "18",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "16",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Bella"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Addict 2"
+    },
+    {
+      "brand": "BEBE",
+      "name": "Sheer"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Eau So Fresh"
+    },
+    {
+      "brand": "ADOLFO DOMİNGUEZ",
+      "name": "Nude Musk"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essencial Ato"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Bright Crystal Absolu"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Ange Ou Demon Le Secret (2014)"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Addict 2 Eau Fraiche"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Eau de Rhubarbe Ecarlate"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Noa Fleur"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "In Love"
+    },
+    {
+      "brand": "LANVİN",
+      "name": "Lanvin Me L'Eau"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Mon Guerlain"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Delina"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -154,5 +243,6 @@
       "brand": "NATURA",
       "name": "Biografia Assinatura"
     }
-  ]
+  ],
+  "comments": []
 }

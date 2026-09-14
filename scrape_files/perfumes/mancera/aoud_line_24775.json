@@ -35,11 +35,11 @@
       "width": "57.7719%"
     },
     {
-      "name": "vanilya",
+      "name": "sıcak baharatlı",
       "width": "53.1435%"
     },
     {
-      "name": "sıcak baharatlı",
+      "name": "vanilya",
       "width": "53.1435%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "amber",
       "width": "48.5146%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -68,7 +96,7 @@
     "summer": "31",
     "autumn": "123",
     "day": "81",
-    "night": "124"
+    "night": "125"
   },
   "notes": {
     "top": [
@@ -88,33 +116,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "4",
+    "moderate": "25",
+    "longLasting": "77",
+    "eternal": "103"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "16",
+    "moderate": "25",
+    "strong": "107",
+    "enormous": "97"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "15",
+    "moreFemale": "5",
+    "unisex": "69",
+    "moreMale": "37",
+    "male": "14"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "5",
+    "overpriced": "6",
     "fair": "29",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "29",
+    "greatValue": "15"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MONTALE",
+      "name": "Aoud Night"
+    },
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Torc Oud"
+    },
+    {
+      "brand": "MONTANA",
+      "name": "Graphite Oud Edition"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Gold Aoud"
+    },
+    {
+      "brand": "ERMENEGİLDO ZEGNA",
+      "name": "Indonesian Oud Eau de Toilette"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Oud 01"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Wood Mystique"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "PASSION OF VENICE"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Dhan Al Oudh Al Nokhba"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Aoud Lemon Mint"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "A*Men"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Kisses Don't Lie"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "More Than Words"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Fantastic Oud"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "La Yuqawam Tobacco Blaze"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MONTALE",
@@ -176,5 +265,6 @@
       "brand": "LALİQUE",
       "name": "Encre Noire"
     }
-  ]
+  ],
+  "comments": []
 }

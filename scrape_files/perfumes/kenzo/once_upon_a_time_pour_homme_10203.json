@@ -66,50 +66,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "5",
-    "moderate": "11",
-    "longLasting": "16",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "11",
-    "strong": "10",
-    "enormous": "7"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "4",
-    "male": "7"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "6",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "DAVİDOFF",
-      "name": "Good Life"
-    },
-    {
-      "brand": "DAVİDOFF",
-      "name": "Adventure"
-    },
-    {
-      "brand": "MOSCHİNO",
-      "name": "Uomo?"
-    },
-    {
-      "brand": "LALİQUE",
-      "name": "Ombre Noire"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "KENZO",
@@ -171,5 +154,6 @@
       "brand": "PRADA",
       "name": "Prada Amber Pour Homme (Prada Man)"
     }
-  ]
+  ],
+  "comments": []
 }

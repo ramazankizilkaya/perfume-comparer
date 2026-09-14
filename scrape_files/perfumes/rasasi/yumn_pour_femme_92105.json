@@ -16,58 +16,86 @@
     },
     {
       "name": "taze",
-      "width": "99.3%"
-    },
-    {
-      "name": "meyvemsi",
-      "width": "83.2%"
+      "width": "98.7275%"
     },
     {
       "name": "gül",
-      "width": "82.5%"
+      "width": "84.4091%"
+    },
+    {
+      "name": "meyvemsi",
+      "width": "83.4548%"
     },
     {
       "name": "vanilya",
-      "width": "79%"
+      "width": "74.5454%"
     },
     {
       "name": "tatlı",
-      "width": "73.05%"
+      "width": "70.7272%"
     },
     {
       "name": "pudralı",
-      "width": "66.4%"
+      "width": "63.0909%"
     },
     {
       "name": "misk",
-      "width": "65%"
-    },
-    {
-      "name": "tropikal",
-      "width": "59.4%"
+      "width": "61.8184%"
     },
     {
       "name": "yeşil",
-      "width": "58%"
+      "width": "58.0002%"
+    },
+    {
+      "name": "tropikal",
+      "width": "56.7271%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "13",
+    "score": "3.93",
+    "votesCount": "14",
     "breakdown": {
       "love": "5",
       "like": "6",
-      "ok": "0",
+      "ok": "1",
       "dislike": "1",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "3",
-    "spring": "8",
+    "winter": "4",
+    "spring": "9",
     "summer": "8",
     "autumn": "4",
-    "day": "9",
+    "day": "10",
     "night": "4"
   },
   "notes": {
@@ -87,33 +115,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "7",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "7",
+    "strong": "4",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "1",
+    "goodValue": "3",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "My Way"
+    },
+    {
+      "brand": "ASDAAF",
+      "name": "Ameerat Al Arab"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "L'Interdit Eau de Parfum"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Ibreez Pour Femme"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Prive Vert Malachite"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ASDAAF",
@@ -126,6 +175,10 @@
     {
       "brand": "ARMAF",
       "name": "Club de Nuit White Imperiale"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ansaam Gold"
     },
     {
       "brand": "AJMAL",
@@ -145,7 +198,7 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Ajayeb Dubai Portrait"
+      "name": "Mayar Natural Intense"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -153,19 +206,15 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Mayar Natural Intense"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Amethyst"
-    },
-    {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Junoon Noir"
     },
     {
       "brand": "SWİSS ARABİAN",
       "name": "Hamsah"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Junoon Noir"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -175,5 +224,6 @@
       "brand": "ARMAF",
       "name": "Club de Nuit Woman"
     }
-  ]
+  ],
+  "comments": []
 }

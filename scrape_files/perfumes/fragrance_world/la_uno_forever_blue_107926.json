@@ -33,23 +33,51 @@
     {
       "name": "toprak",
       "width": "46.1875%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.30",
-    "votesCount": "56",
+    "score": "4.28",
+    "votesCount": "60",
     "breakdown": {
-      "love": "34",
-      "like": "13",
-      "ok": "4",
+      "love": "35",
+      "like": "15",
+      "ok": "5",
       "dislike": "2",
       "hate": "3"
     }
   },
   "seasons": {
     "winter": "2",
-    "spring": "39",
-    "summer": "51",
+    "spring": "40",
+    "summer": "52",
     "autumn": "13",
     "day": "46",
     "night": "11"
@@ -77,33 +105,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "6",
+    "moderate": "32",
+    "longLasting": "7",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "32",
+    "strong": "4",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "8",
+    "moreMale": "20",
+    "male": "18"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "0",
+    "fair": "5",
+    "goodValue": "9",
+    "greatValue": "30"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue Forever pour Homme"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Daring Blue For Life"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Feroce Pour Homme"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue pour Homme Italian Love"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Perseus"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Tygar"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One Summer 2020"
+    },
+    {
+      "brand": "BENETTON",
+      "name": "United Dreams Green Cactus For Him"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON ALHAMBRA",
@@ -165,5 +226,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
     }
-  ]
+  ],
+  "comments": []
 }

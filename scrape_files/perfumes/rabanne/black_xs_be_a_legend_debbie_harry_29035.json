@@ -49,13 +49,45 @@
     {
       "name": "aromatik",
       "width": "56.9025%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "3",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "3.83",
-    "votesCount": "267",
+    "score": "3.84",
+    "votesCount": "269",
     "breakdown": {
-      "love": "81",
+      "love": "83",
       "like": "119",
       "ok": "12",
       "dislike": "51",
@@ -63,12 +95,12 @@
     }
   },
   "seasons": {
-    "winter": "44",
-    "spring": "67",
+    "winter": "46",
+    "spring": "68",
     "summer": "22",
-    "autumn": "58",
-    "day": "71",
-    "night": "58"
+    "autumn": "60",
+    "day": "73",
+    "night": "60"
   },
   "notes": {
     "top": [
@@ -87,33 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "14",
+    "moderate": "43",
+    "longLasting": "26",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "21",
+    "moderate": "43",
+    "strong": "44",
+    "enormous": "23"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "28",
+    "moreFemale": "5",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "3",
     "fair": "12",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Unique Rose"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Black XS Potion for Her"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Black XS L'Exces for Her"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Black XS for Her"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Play in the City for Her"
+    },
+    {
+      "brand": "BENEFİT",
+      "name": "Under My Spell Noelle"
+    },
+    {
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Timbuktu"
+    },
+    {
+      "brand": "YVES DE SİSTELLE",
+      "name": "Thallium Black"
+    },
+    {
+      "brand": "KORLOFF PARİS",
+      "name": "In Love"
+    },
+    {
+      "brand": "LANCETTİ",
+      "name": "Lancetti Femme"
+    },
+    {
+      "brand": "ALEXANDRİA FRAGRANCES",
+      "name": "No Apologies"
+    },
+    {
+      "brand": "FRANCK OLİVİER",
+      "name": "Oud Vanille"
+    },
+    {
+      "brand": "AGENT PROVOCATEUR",
+      "name": "Agent Provocateur"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One Shock Street Edition for Her"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "Mysterial Oud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GİORGİO ARMANİ",
@@ -130,10 +223,6 @@
     {
       "brand": "GUERLAİN",
       "name": "Mon Guerlain"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dolce Vita"
     },
     {
       "brand": "CHANEL",
@@ -174,6 +263,11 @@
     {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez For Her"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Trésor Midnight Rose"
     }
-  ]
+  ],
+  "comments": []
 }

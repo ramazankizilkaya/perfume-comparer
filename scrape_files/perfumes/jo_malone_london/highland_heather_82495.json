@@ -75,62 +75,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "10",
-    "moderate": "34",
-    "longLasting": "7",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "13",
-    "moderate": "34",
-    "strong": "4",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "3",
-    "moreFemale": "12",
-    "unisex": "32",
-    "moreMale": "23",
-    "male": "7"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "5",
-    "overpriced": "13",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "21",
-    "goodValue": "5",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Silver Birch & Lavender Cologne"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Lavender Palm"
-    },
-    {
-      "brand": "BARBOUR",
-      "name": "Barbour for Her"
-    },
-    {
-      "brand": "YVES ROCHER",
-      "name": "Calme Absolu"
-    },
-    {
-      "brand": "DEMETER FRAGRANCE",
-      "name": "Heather"
-    },
-    {
-      "brand": "CREED",
-      "name": "Green Irish Tweed"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Wood Sage & Sea Salt"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BYREDO",
@@ -192,5 +163,6 @@
       "brand": "JO MALONE LONDON",
       "name": "English Pear & Freesia"
     }
-  ]
+  ],
+  "comments": []
 }

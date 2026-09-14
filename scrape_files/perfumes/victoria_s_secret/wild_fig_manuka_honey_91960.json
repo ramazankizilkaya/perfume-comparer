@@ -33,15 +33,43 @@
     {
       "name": "aromatik",
       "width": "47.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.19",
-    "votesCount": "111",
+    "score": "4.20",
+    "votesCount": "118",
     "breakdown": {
-      "love": "52",
-      "like": "38",
-      "ok": "14",
+      "love": "56",
+      "like": "40",
+      "ok": "15",
       "dislike": "4",
       "hate": "3"
     }
@@ -49,10 +77,10 @@
   "seasons": {
     "winter": "20",
     "spring": "24",
-    "summer": "21",
-    "autumn": "43",
-    "day": "43",
-    "night": "18"
+    "summer": "22",
+    "autumn": "48",
+    "day": "47",
+    "night": "20"
   },
   "notes": {
     "top": [],
@@ -65,40 +93,36 @@
     ]
   },
   "longevity": {
-    "veryWeak": "7",
-    "weak": "21",
-    "moderate": "18",
+    "veryWeak": "8",
+    "weak": "22",
+    "moderate": "20",
     "longLasting": "4",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "18",
-    "moderate": "18",
+    "intimate": "20",
+    "moderate": "20",
     "strong": "2",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "33",
+    "female": "37",
     "moreFemale": "11",
-    "unisex": "2",
+    "unisex": "3",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "14",
-    "goodValue": "16",
-    "greatValue": "13"
+    "fair": "15",
+    "goodValue": "18",
+    "greatValue": "14"
   },
   "remindsMeOf": [
     {
       "brand": "ROGER & GALLET",
       "name": "Fleur de Figuier"
-    },
-    {
-      "brand": "GRANADO",
-      "name": "Figo Confit"
     },
     {
       "brand": "ELLİS BROOKLYN",
@@ -111,6 +135,14 @@
     {
       "brand": "THE LAB",
       "name": "OMG"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Vanilla Dusk"
+    },
+    {
+      "brand": "GRANADO",
+      "name": "Figo Confit"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -186,5 +218,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "Devotion"
     }
-  ]
+  ],
+  "comments": []
 }

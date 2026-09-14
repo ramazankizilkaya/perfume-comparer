@@ -49,6 +49,34 @@
     {
       "name": "misk",
       "width": "46.3084%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -106,7 +134,7 @@
     "female": "0",
     "moreFemale": "1",
     "unisex": "11",
-    "moreMale": "9",
+    "moreMale": "10",
     "male": "4"
   },
   "priceVoting": {
@@ -114,7 +142,7 @@
     "overpriced": "8",
     "fair": "7",
     "goodValue": "0",
-    "greatValue": "0"
+    "greatValue": "1"
   },
   "remindsMeOf": [
     {
@@ -195,5 +223,6 @@
       "brand": "BY KİLİAN",
       "name": "Vodka on the Rocks"
     }
-  ]
+  ],
+  "comments": []
 }

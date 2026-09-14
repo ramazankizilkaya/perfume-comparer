@@ -60,46 +60,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "9",
-    "moderate": "8",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "8",
-    "moderate": "8",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "15",
-    "moreFemale": "3",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "8",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "VERA BRADLEY",
-      "name": "Appleberry Champagne"
-    },
-    {
-      "brand": "JUİCY COUTURE",
-      "name": "Viva La Juicy Le Bubbly"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "A Thousand Wishes 2020 Edition"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -119,11 +106,11 @@
     },
     {
       "brand": "ARİANA GRANDE",
-      "name": "Ari"
+      "name": "Sweet Like Candy"
     },
     {
       "brand": "ARİANA GRANDE",
-      "name": "Sweet Like Candy"
+      "name": "Ari"
     },
     {
       "brand": "TOM FORD",
@@ -161,5 +148,6 @@
       "brand": "AQUOLİNA",
       "name": "Pink Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

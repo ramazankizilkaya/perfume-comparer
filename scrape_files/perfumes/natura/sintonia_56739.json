@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "amber",
+      "name": "çiçeksi",
       "width": "91.25%"
     },
     {
-      "name": "çiçeksi",
+      "name": "amber",
       "width": "91.25%"
     },
     {
@@ -27,11 +27,11 @@
       "width": "82.9375%"
     },
     {
-      "name": "misk",
+      "name": "odunsu",
       "width": "73.75%"
     },
     {
-      "name": "odunsu",
+      "name": "misk",
       "width": "73.75%"
     },
     {
@@ -49,25 +49,53 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.44",
-    "votesCount": "41",
+    "score": "4.37",
+    "votesCount": "43",
     "breakdown": {
       "love": "26",
       "like": "10",
-      "ok": "2",
+      "ok": "4",
       "dislike": "3",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "5",
-    "spring": "18",
-    "summer": "19",
-    "autumn": "13",
-    "day": "19",
+    "spring": "19",
+    "summer": "20",
+    "autumn": "14",
+    "day": "20",
     "night": "6"
   },
   "notes": {
@@ -85,33 +113,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "3",
+    "moderate": "6",
+    "longLasting": "11",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "6",
+    "strong": "9",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "15",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "2",
+    "fair": "4",
+    "goodValue": "7",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ANİMALE",
+      "name": "Animale Sport"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Macadâmia"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Blue Jeans"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Tokyo by Kenzo"
+    },
+    {
+      "brand": "PHEBO",
+      "name": "Flor de Maio"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK be"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Floratta in Blue"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor Madeira em Flor"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Biografia"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Obsessed for Women"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -130,8 +203,8 @@
       "name": "Mamãe e Bebê"
     },
     {
-      "brand": "CHANEL",
-      "name": "Coco Mademoiselle"
+      "brand": "NATURA",
+      "name": "Essencial Elixir"
     },
     {
       "brand": "CALVİN KLEİN",
@@ -173,5 +246,6 @@
       "brand": "MUGLER",
       "name": "Alien"
     }
-  ]
+  ],
+  "comments": []
 }

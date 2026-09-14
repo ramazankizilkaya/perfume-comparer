@@ -3,11 +3,11 @@
   "targetGender": "kadınlar için",
   "fragranceFamily": "Floral",
   "concentration": "Edp",
-  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137515.jpg?t=1784023788",
+  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137515.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Maison-Alhambra/Queenstown-Intense-137515.html",
   "brand": "Maison Alhambra parfüm ve kolonya",
   "description": "Maison Alhambra markasının Queenstown Intense parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Bu yeni bir parfüm. Queenstown Intense, 2025 yılında piyasaya sürüldü. Üst notalar: Yasemin, Portakal ve Limon; orta notalar: Siyah kiraz ve Heliotrop; alt notalar Sedir ağacı, Amber ve Misk.",
-  "description_original": "Maison Alhambra markasının Queenstown Intense parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Bu yeni bir parfüm. Queenstown Intense, 2025 yılında piyasaya sürüldü. Üst notalar: Yasemin, Portakal ve Limon; orta notalar: Siyah kiraz ve Heliotrop; alt notalar Sedir ağacı, Amber ve Misk.",
+  "description_original": "Maison Alhambra markasının Queenstown Intense parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Bu yeni bir parfüm. Queenstown Intense, 2025 yılında piyasaya sürüldü. Üst notalar: Portakal, Yasemin ve Limon; orta notalar: Siyah kiraz ve Heliotrope; alt notalar Sedir ağacı, Amber ve Misk.",
   "description_enhanced": "Maison Alhambra markasının Queenstown Intense parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Bu yeni bir parfüm. Queenstown Intense, 2025 yılında piyasaya sürüldü. Üst notalar: Yasemin, Portakal ve Limon; orta notalar: Siyah kiraz ve Heliotrop; alt notalar Sedir ağacı, Amber ve Misk.",
   "mainAccords": [
     {
@@ -15,11 +15,7 @@
       "width": "100%"
     },
     {
-      "name": "amber",
-      "width": "72.4241%"
-    },
-    {
-      "name": "kiraz",
+      "name": "odunsu",
       "width": "72.4241%"
     },
     {
@@ -27,7 +23,11 @@
       "width": "72.4241%"
     },
     {
-      "name": "odunsu",
+      "name": "kiraz",
+      "width": "72.4241%"
+    },
+    {
+      "name": "amber",
       "width": "72.4241%"
     },
     {
@@ -44,33 +44,33 @@
     }
   ],
   "rating": {
-    "score": "5.00",
-    "votesCount": "1",
+    "score": "4.60",
+    "votesCount": "5",
     "breakdown": {
-      "love": "1",
-      "like": "0",
+      "love": "3",
+      "like": "2",
       "ok": "0",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "0",
-    "spring": "0",
-    "summer": "0",
-    "autumn": "0",
-    "day": "0",
-    "night": "0"
+    "winter": "1",
+    "spring": "2",
+    "summer": "2",
+    "autumn": "1",
+    "day": "2",
+    "night": "2"
   },
   "notes": {
     "top": [
-      "Yasemin",
       "Portakal",
+      "Yasemin",
       "Limon"
     ],
     "middle": [
       "Siyah kiraz",
-      "Heliotrop"
+      "Heliotrope"
     ],
     "base": [
       "Sedir ağacı",
@@ -107,5 +107,67 @@
     "greatValue": ""
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [
+    {
+      "brand": "ZİMAYA",
+      "name": "Zukhruf Pink"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Noble Blush"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Peace & Love"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Queen Of Arabia"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Bayn Al Asrar"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Her Confession"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Angham"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Atheeri"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Tonka"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Nebras"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Victoria"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Bade'e Al Oud Honor & Glory"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Attar Amoura"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Devotion"
+    },
+    {
+      "brand": "ROGER & GALLET",
+      "name": "Thé Fantaisie"
+    }
+  ],
+  "comments": []
 }

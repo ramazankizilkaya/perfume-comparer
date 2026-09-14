@@ -19,11 +19,11 @@
       "width": "72.7776%"
     },
     {
-      "name": "meyvemsi",
+      "name": "tüberöz",
       "width": "68.8889%"
     },
     {
-      "name": "tüberöz",
+      "name": "meyvemsi",
       "width": "68.8889%"
     },
     {
@@ -33,26 +33,54 @@
     {
       "name": "sulu",
       "width": "45.5554%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.00",
-    "votesCount": "1",
+    "votesCount": "2",
     "breakdown": {
       "love": "0",
-      "like": "1",
+      "like": "2",
       "ok": "0",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "0",
     "summer": "0",
     "autumn": "0",
     "day": "0",
-    "night": "0"
+    "night": "1"
   },
   "notes": {
     "top": [],
@@ -81,7 +109,7 @@
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "0",
+    "unisex": "1",
     "moreMale": "0",
     "male": "0"
   },
@@ -93,5 +121,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

@@ -29,6 +29,34 @@
     {
       "name": "bitkisel",
       "width": "44.4828%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -69,33 +97,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "10",
+    "moderate": "17",
+    "longLasting": "3",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "17",
+    "strong": "5",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "6",
+    "unisex": "11",
+    "moreMale": "0",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Pamina"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Lavanda"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Thaty"
+    },
+    {
+      "brand": "AVON",
+      "name": "Pretty Blue"
+    },
+    {
+      "brand": "GRANADO",
+      "name": "Lavanda"
+    },
+    {
+      "brand": "MAUBOUSSİN",
+      "name": "Mauboussin Homme"
+    },
+    {
+      "brand": "AVON",
+      "name": "Petit Lavande"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -157,5 +214,6 @@
       "brand": "NATURA",
       "name": "Essencial Feminino"
     }
-  ]
+  ],
+  "comments": []
 }

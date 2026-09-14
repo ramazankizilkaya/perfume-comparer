@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/Connexion-Woods-7349.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının Connexion Woods parfümü, erkekler için Odunsu Aromatik bir kokudur. Üst notalar: Sedir, Amalfi Limonu, Bergamot, Biberiye ve Mandalina; orta notalar: Lavanta, Safran, Ladin, Adaçayı, Batı Hint karanfili ve Sardunya; alt notalar Meşe yosunu, Sandal ağacı, Paçuli ve Misk.",
-  "description_original": "O Boticário markasının Connexion Woods parfümü, erkekler için Odunsu Aromatik bir kokudur. Üst notalar: Sedir, Amalfi Limonu, Bergamot, Biberiye ve Mandalina; orta notalar: Lavanta, Safran, Ladin, Adaçayı, Batı Hint karanfili ve Sardunya; alt notalar Meşe yosunu, Sandal ağacı, Paçuli ve Misk.",
+  "description_original": "O Boticário markasının Connexion Woods parfümü, erkekler için Odunsu Aromatik bir kokudur. Üst notalar: Sedir, Amalfi Limonu, Bergamot, Biberiye ve Mandalina; orta notalar: Lavanta, Safran, Köknar, Adaçayı, Batı Hint karanfili ve Sardunya; alt notalar Meşe yosunu, Sandal ağacı, Paçuli ve Misk.",
   "description_enhanced": "O Boticário markasının Connexion Woods parfümü, erkekler için Odunsu Aromatik bir kokudur. Üst notalar: Sedir, Amalfi Limonu, Bergamot, Biberiye ve Mandalina; orta notalar: Lavanta, Safran, Ladin, Adaçayı, Batı Hint karanfili ve Sardunya; alt notalar Meşe yosunu, Sandal ağacı, Paçuli ve Misk.",
   "mainAccords": [
     {
@@ -31,11 +31,11 @@
       "width": "57.4474%"
     },
     {
-      "name": "lavanta",
+      "name": "yosunlu",
       "width": "51.1842%"
     },
     {
-      "name": "yosunlu",
+      "name": "lavanta",
       "width": "51.1842%"
     },
     {
@@ -45,26 +45,54 @@
     {
       "name": "pudralı",
       "width": "46.2105%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "90",
+    "score": "4.05",
+    "votesCount": "91",
     "breakdown": {
       "love": "36",
-      "like": "37",
+      "like": "38",
       "ok": "5",
       "dislike": "10",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "29",
-    "spring": "26",
+    "winter": "30",
+    "spring": "27",
     "summer": "10",
-    "autumn": "31",
-    "day": "35",
-    "night": "31"
+    "autumn": "32",
+    "day": "36",
+    "night": "32"
   },
   "notes": {
     "top": [
@@ -77,7 +105,7 @@
     "middle": [
       "Lavanta",
       "Safran",
-      "Ladin",
+      "Köknar",
       "Adaçayı",
       "Batı Hint karanfili",
       "Sardunya"
@@ -123,12 +151,12 @@
       "name": "Kenzo Homme Boisee"
     },
     {
-      "brand": "GUY LAROCHE",
-      "name": "Drakkar Noir"
-    },
-    {
       "brand": "AVATİM",
       "name": "Boníssimo Deo"
+    },
+    {
+      "brand": "GUY LAROCHE",
+      "name": "Drakkar Noir"
     },
     {
       "brand": "PARİS ELYSEES",
@@ -170,11 +198,11 @@
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Malbec"
+      "name": "Portinari"
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Portinari"
+      "name": "Malbec"
     },
     {
       "brand": "CAROLİNA HERRERA",
@@ -200,5 +228,6 @@
       "brand": "VERSACE",
       "name": "Versace Pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

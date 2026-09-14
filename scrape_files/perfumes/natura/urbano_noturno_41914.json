@@ -19,16 +19,44 @@
       "width": "95.625%"
     },
     {
-      "name": "sıcak baharatlı",
+      "name": "odunsu",
       "width": "82.5%"
     },
     {
-      "name": "odunsu",
+      "name": "sıcak baharatlı",
       "width": "82.5%"
     },
     {
       "name": "aromatik",
       "width": "56.25%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -64,33 +92,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "0",
+    "moderate": "11",
+    "longLasting": "8",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "11",
+    "strong": "5",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "2",
+    "male": "9"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "#Urbano"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus"
+    },
+    {
+      "brand": "NATURA",
+      "name": "#Urbano Noite"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -152,5 +193,6 @@
       "brand": "NATURA",
       "name": "K"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "54.1886%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -92,33 +120,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "1",
+    "moderate": "15",
+    "longLasting": "10",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "15",
+    "strong": "12",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "22",
+    "moreFemale": "7",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "19"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MEMO PARİS",
+      "name": "Marfa"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Minerva"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Supreme Bouquet (Le Vestiaire des Parfums)"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Marjan"
+    },
+    {
+      "brand": "ELİZABETH TAYLOR",
+      "name": "Diamonds and Emeralds"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Kashmir Musk"
+    },
+    {
+      "brand": "LPDO",
+      "name": "Royal Tiaré"
+    },
+    {
+      "brand": "NAYAAT",
+      "name": "Liquid Desire"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Safanad"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON ALHAMBRA",
@@ -131,14 +196,6 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara Candy"
-    },
-    {
-      "brand": "ASDAAF",
-      "name": "Ameerat Al Arab"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Ana Abiyedh Poudrée"
     },
     {
       "brand": "PARIS CORNER",
@@ -154,15 +211,11 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Yara"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
       "name": "Haya"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Gharam"
+      "name": "Yara"
     },
     {
       "brand": "PARIS CORNER",
@@ -178,7 +231,20 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
+      "name": "Her Confession"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Nebras"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Fakhar Rose"
     }
-  ]
+  ],
+  "comments": []
 }

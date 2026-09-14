@@ -45,6 +45,34 @@
     {
       "name": "pudralı",
       "width": "44.2314%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,33 +114,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "23",
+    "moderate": "62",
+    "longLasting": "40",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "43",
+    "moderate": "62",
+    "strong": "34",
+    "enormous": "20"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "12",
+    "moreMale": "28",
+    "male": "21"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "7",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "23",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DAVİDOFF",
+      "name": "Good Life"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Mugler Cologne"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Balafre Vert"
+    },
+    {
+      "brand": "JOOP!",
+      "name": "What About Adam"
+    },
+    {
+      "brand": "CERRUTİ",
+      "name": "1881 Acqua Forte"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Pi Fraiche"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Weekend for Men"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Comme Une Evidence Green for Men"
+    },
+    {
+      "brand": "COSTUME NATIONAL",
+      "name": "Cyber Garden"
+    },
+    {
+      "brand": "IMAGİNARY AUTHORS",
+      "name": "The Soft Lawn"
+    },
+    {
+      "brand": "PARFUMS QUARTANA",
+      "name": "Digitalis"
+    },
+    {
+      "brand": "LANVİN",
+      "name": "Vetyver Blanc"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Meander"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Dolce&Gabbana Pour Homme (2012)"
+    },
+    {
+      "brand": "ADOLFO DOMİNGUEZ",
+      "name": "Vetiver Terra"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -167,12 +256,13 @@
       "name": "L'Instant de Guerlain pour Homme"
     },
     {
-      "brand": "DİOR",
-      "name": "Fahrenheit"
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermes Parfum"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Opium Pour Homme"
+      "brand": "DİOR",
+      "name": "Fahrenheit"
     }
-  ]
+  ],
+  "comments": []
 }

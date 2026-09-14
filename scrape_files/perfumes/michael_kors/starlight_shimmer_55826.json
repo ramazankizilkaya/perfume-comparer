@@ -37,13 +37,41 @@
     {
       "name": "tütün",
       "width": "48.5294%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.17",
-    "votesCount": "269",
+    "score": "4.18",
+    "votesCount": "270",
     "breakdown": {
-      "love": "125",
+      "love": "126",
       "like": "96",
       "ok": "19",
       "dislike": "28",
@@ -52,8 +80,8 @@
   },
   "seasons": {
     "winter": "116",
-    "spring": "30",
-    "summer": "22",
+    "spring": "29",
+    "summer": "21",
     "autumn": "100",
     "day": "51",
     "night": "109"
@@ -71,33 +99,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "12",
+    "moderate": "42",
+    "longLasting": "57",
+    "eternal": "19"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "17",
+    "moderate": "42",
+    "strong": "50",
+    "enormous": "33"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "52",
+    "moreFemale": "23",
+    "unisex": "12",
+    "moreMale": "2",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "6",
     "fair": "19",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "32",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Oud Bouquet Eau de Parfum"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Roses Vanille"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Velvet Rose & Oud"
+    },
+    {
+      "brand": "BOUCHERON",
+      "name": "Rose d'Isparta"
+    },
+    {
+      "brand": "KAYALİ FRAGRANCES",
+      "name": "Sweet Diamond Pink Pepper 25"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Very Sexy Orchid"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Intense Roses Musk"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Oud Couture"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Amber Satin"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Rose Gourmand For Her"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Arabians Tonka"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Exquisite Embroidery"
+    },
+    {
+      "brand": "ALEXANDRE.J",
+      "name": "Silver Ombre"
+    },
+    {
+      "brand": "EX NİHİLO",
+      "name": "Timeless Lovers"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -132,12 +221,12 @@
       "name": "Noir Pour Femme"
     },
     {
-      "brand": "MARC JACOBS",
-      "name": "Decadence"
-    },
-    {
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Nuit Trésor"
     },
     {
       "brand": "MUGLER",
@@ -159,5 +248,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
     }
-  ]
+  ],
+  "comments": []
 }

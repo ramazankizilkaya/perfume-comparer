@@ -29,13 +29,41 @@
     {
       "name": "tatlı",
       "width": "45.1079%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.52",
-    "votesCount": "25",
+    "score": "3.58",
+    "votesCount": "26",
     "breakdown": {
-      "love": "14",
+      "love": "15",
       "like": "2",
       "ok": "0",
       "dislike": "1",
@@ -44,11 +72,11 @@
   },
   "seasons": {
     "winter": "1",
-    "spring": "6",
-    "summer": "5",
-    "autumn": "4",
-    "day": "6",
-    "night": "2"
+    "spring": "7",
+    "summer": "6",
+    "autumn": "5",
+    "day": "7",
+    "night": "3"
   },
   "notes": {
     "top": [
@@ -66,13 +94,13 @@
     "veryWeak": "6",
     "weak": "0",
     "moderate": "2",
-    "longLasting": "0",
+    "longLasting": "1",
     "eternal": "3"
   },
   "sillage": {
     "intimate": "5",
     "moderate": "2",
-    "strong": "2",
+    "strong": "3",
     "enormous": "1"
   },
   "genderVoting": {
@@ -80,10 +108,10 @@
     "moreFemale": "1",
     "unisex": "1",
     "moreMale": "2",
-    "male": "4"
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "8",
+    "wayOverpriced": "9",
     "overpriced": "1",
     "fair": "0",
     "goodValue": "0",
@@ -135,6 +163,10 @@
       "name": "Slytherin"
     },
     {
+      "brand": "ROJA DOVE",
+      "name": "Espresso Aoud"
+    },
+    {
       "brand": "HARRY POTTER",
       "name": "Courage"
     },
@@ -145,13 +177,13 @@
     {
       "brand": "HARRY POTTER",
       "name": "Wisdom"
-    },
-    {
-      "brand": "HOUSE OF SİLLAGE",
-      "name": "Slytherin™ Parfum"
     }
   ],
   "peopleAlsoLike": [
+    {
+      "brand": "ATELİER COLOGNE",
+      "name": "Orange Sanguine"
+    },
     {
       "brand": "ROJA DOVE",
       "name": "Burlington 1819"
@@ -165,32 +197,20 @@
       "name": "Terre d'Hermès"
     },
     {
-      "brand": "ROJA DOVE",
-      "name": "Elysium Pour Homme Parfum"
-    },
-    {
       "brand": "HERMÈS",
       "name": "Terre d'Hermes Parfum"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Layton"
     },
     {
       "brand": "XERJOFF",
       "name": "XJ 1861 Naxos"
     },
     {
-      "brand": "MEMO PARİS",
-      "name": "Irish Leather"
+      "brand": "CHANEL",
+      "name": "Egoiste Platinum"
     },
     {
       "brand": "BURBERRY",
       "name": "London for Men"
-    },
-    {
-      "brand": "INİTİO PARFUMS PRİVES",
-      "name": "Oud for Greatness"
     },
     {
       "brand": "PARFUMS DE MARLY",
@@ -202,15 +222,24 @@
     },
     {
       "brand": "TOM FORD",
-      "name": "Noir Extreme"
+      "name": "Grey Vetiver"
     },
     {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Jazz Club"
+      "brand": "TOM FORD",
+      "name": "Noir Extreme"
     },
     {
       "brand": "ROJA DOVE",
       "name": "Diaghilev"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Antaeus"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Oud Wood"
     }
-  ]
+  ],
+  "comments": []
 }

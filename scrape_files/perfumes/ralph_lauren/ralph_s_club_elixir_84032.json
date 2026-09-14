@@ -2,12 +2,12 @@
   "name": "Ralph's Club Elixir Ralph Lauren",
   "targetGender": "erkekler için",
   "fragranceFamily": "Aromatic",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.84032.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Ralph-Lauren/Ralph-s-Club-Elixir-84032.html",
   "brand": "Ralph Lauren parfüm ve kolonya",
   "description": "Ralph Lauren markasının Ralph's Club Elixir parfümü, erkekler için Oryantal Odunsu bir kokudur. Ralph's Club Elixir, 2023 yılında piyasaya sürüldü. Ralph's Club Elixir, Dominique Ropion ve Claire Liégent tarafından yaratıldı. Üst notalar: Kakule, Yeşil Mandalina ve Greyfurt; orta notalar: Orris kökü, Lavanta, Adaçayı ve Sardunya; alt notalar Deri, Beyaz sakız, Paçuli ve Ladin.",
-  "description_original": "Ralph Lauren markasının Ralph's Club Elixir parfümü, erkekler için Oryantal Odunsu bir kokudur. Ralph's Club Elixir, 2023 yılında piyasaya sürüldü. Ralph's Club Elixir, Dominique Ropion ve Claire Liégent tarafından yaratıldı. Üst notalar: Kakule, Yeşil Mandalina ve Greyfurt; orta notalar: Orris kökü, Lavanta, Adaçayı ve Sardunya; alt notalar Deri, Beyaz sakız, Paçuli ve Ladin.",
+  "description_original": "Ralph Lauren markasının Ralph's Club Elixir parfümü, erkekler için Oryantal Odunsu bir kokudur. Ralph's Club Elixir, 2023 yılında piyasaya sürüldü. Ralph's Club Elixir, Dominique Ropion ve Claire Liégent tarafından yaratıldı. Üst notalar: Kakule, Yeşil Mandalina ve Greyfurt; orta notalar: Orris kökü, Lavanta, Adaçayı ve Sardunya; alt notalar Deri, Olibanum, Paçuli ve Ladin.",
   "description_enhanced": "Ralph Lauren markasının Ralph's Club Elixir parfümü, erkekler için Oryantal Odunsu bir kokudur. Ralph's Club Elixir, 2023 yılında piyasaya sürüldü. Ralph's Club Elixir, Dominique Ropion ve Claire Liégent tarafından yaratıldı. Üst notalar: Kakule, Yeşil Mandalina ve Greyfurt; orta notalar: Orris kökü, Lavanta, Adaçayı ve Sardunya; alt notalar Deri, Beyaz sakız, Paçuli ve Ladin.",
   "mainAccords": [
     {
@@ -49,26 +49,54 @@
     {
       "name": "toprak",
       "width": "56.9134%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.35",
-    "votesCount": "853",
+    "votesCount": "870",
     "breakdown": {
-      "love": "511",
-      "like": "209",
-      "ok": "76",
+      "love": "521",
+      "like": "213",
+      "ok": "78",
       "dislike": "36",
-      "hate": "21"
+      "hate": "22"
     }
   },
   "seasons": {
-    "winter": "511",
-    "spring": "374",
+    "winter": "519",
+    "spring": "381",
     "summer": "123",
-    "autumn": "512",
-    "day": "287",
-    "night": "487"
+    "autumn": "521",
+    "day": "293",
+    "night": "496"
   },
   "notes": {
     "top": [
@@ -84,40 +112,101 @@
     ],
     "base": [
       "Deri",
-      "Beyaz sakız",
+      "Olibanum",
       "Paçuli",
       "Ladin"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "10",
+    "moderate": "127",
+    "longLasting": "356",
+    "eternal": "53"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "11",
+    "moderate": "127",
+    "strong": "237",
+    "enormous": "23"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "2",
+    "unisex": "19",
+    "moreMale": "114",
+    "male": "434"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "76",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "22",
+    "overpriced": "108",
+    "fair": "78",
+    "goodValue": "105",
+    "greatValue": "22"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Society"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Cuir Zerzura"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Society Eau de Parfum Extrême"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Ralph's Club Parfum"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code Elixir"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Ralph's Club Eau de Toilette"
+    },
+    {
+      "brand": "CREED",
+      "name": "Iris Debonair"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Parfum"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2025"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Parfum 2025"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Ralph's Club"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2011"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code Parfum"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss The Scent Le Parfum for Him Le Parfum"
+    },
+    {
+      "brand": "RÉGİME DES FLEURS",
+      "name": "Leather Petals"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -178,6 +267,208 @@
     {
       "brand": "TOM FORD",
       "name": "Ombré Leather (2018)"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent678457",
+      "author": "Rommelviana",
+      "date": "2025-08-27",
+      "text": "Başlangıçta, Givenchy tarzına çok benzeyen iris köküyle açılıyor, ancak zamanla sihir gerçekleşiyor ve inanılmaz bir oryantal odunsu kokuya dönüşüyor; RL'den bir başka güzel koku, son dönem erkek parfümlerinin tatlılığından biraz farklılaşan, kendine özgü bir parfüm. Özellikle benzersiz buldum, gece dışarı çıkmak, romantik buluşmalar için harika, etkileyici ve rafine bir parfüm. Marka burada işi mükemmel yapmış, çok zevkli. Performansı amacına göre çok iyi; yüksek yayılımı yok, gösterişli değil, zarif ve rafine, ancak mükemmel kalıcılığa sahip.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.67680.jpg"
+    },
+    {
+      "id": "parent678411",
+      "author": "Bfish88",
+      "date": "2025-07-31",
+      "text": "Bu harika parfümü TJ Maxx'ten 75 ml'lik şişesini 39 dolara aldım ve farklı, iyi harmanlanmış ve harika performansa sahip bir şey arayanlar için muhteşem. Bazı kişilerin olumsuz yorumlarını veya düşük performans şikayetlerini anlamıyorum. Koleksiyonumda bu parfüme sahip olmaktan çok mutluyum. 10 üzerinden 9 puanlık bir parfüm. Ayrıca piyasadaki çoğu popüler parfümden farklı olması da sevindirici. RL bu parfümle harika bir iş çıkarmış!",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1144812.jpg"
+    },
+    {
+      "id": "parent694381",
+      "author": "jazzpiano777",
+      "date": "2025-03-23",
+      "text": "İnanılmaz derecede güzel ve sofistike bir koku. Bu koku, \"Tuxedo\" adını hak eden, çok şık ve resmi bir koku. Bu koku öncelikle tereyağlı, tatlı, erkeksi iris ve deri notalarından oluşuyor. Aşağıdaki yorumlarda başkalarının söylediklerinin aksine, bu koku çok iyi performans gösteriyor. Çok iyi kalıcılığa sahip, Sauvage Elixir gibi devasa bir yayılımı yok ama koku gerçekten uzun süre kalıyor. Aşağıdaki trol yorumlarındaki nefret garip. Hepimizin farklı zevkleri var, ama bu gerçekten çok rafine ve güzel bir koku. Tüm zamanların favorilerimden biri. Şişesi de çok harika. Hiç de \"karmaşık\" değil. Benim için kolayca 10/10.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2054903.jpg"
+    },
+    {
+      "id": "parent694379",
+      "author": "goodsmellspilot21",
+      "date": "2025-02-12",
+      "text": "Bunu Ross'tan 50 dolara aldım, aldığınız ürün için harika bir fırsat. Deri notası, kullanım boyunca devam ediyor ve sürdükten üç gün sonra bile ceketlerimde kokusunu alabiliyorum. Bu koku, TF Ombre Leather'ın olmak istediği şeyin ta kendisi. Çok sağlam ve erkeksi ama günlük kullanım için de yeterince çok yönlü. Sprey şeklinde kullanırken dikkatli olun çünkü bu koku oldukça güçlü. Daha sıcak havalarda kullanıldığında baş ağrısına neden olabilir.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2432700.jpg"
+    },
+    {
+      "id": "parent678420",
+      "author": "StarlinCollado",
+      "date": "2025-01-13",
+      "text": "Hediye olarak bir örnek aldım ve dürüst olmak gerekirse, tam olarak denemek istememe neden oldu. Mükemmel olması için biraz daha tatlılık eksikliği olduğunu düşünsem de, özel bir yanı var. Hatta Azzaro The Most Wanted ile baz olarak kullandım ve sonuç ilginçti.\n\nÇok, çok zarif bir koku. Başarılı, sofistike, takım elbiseli bir adamın imajını yansıtıyor; dumanlı ve rafine bir aura ile kalıcı bir izlenim bırakıyor. Bu kokuya bağımlı oldum. Bayılıyorum; koklamaya doyamadığım sofistike bir dumanlılık.\n\nPuan: 10/10\n\nKokusu: Zarif ve sofistike bir arka plana sahip, rafine ve dumanlı bir karışım.\nBu kokuyu aldığımda hissettiklerim: Özgüven, başarı ve zarafet, sanki önemli bir etkinliğe hazırlanıyormuşum gibi.\nHangi durumlarda kullanırım: Resmi etkinlikler, şık akşam yemekleri veya önemli toplantılar için mükemmeldir.\nÖnerilen yaş aralığı: 35-45 yaş",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.225540.jpg"
+    },
+    {
+      "id": "parent678405",
+      "author": "TomAviv",
+      "date": "2025-01-11",
+      "text": "Koleksiyonumdaki en iyi ofis parfümü.\nResmi ama aşırı resmi değil. Erkeksi ve eski tarz değil, son derece başarılı.\n\nŞunu da eklemeliyim ki, kesinlikle gençlere hitap eden bir koku değil; ciddi ama sıkıcı olmayan bir koku profili isteyen 30 yaş üstü kişiler için harika bir seçenek.\n\nBir iki ay sonra daha iyi olur.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent678406",
+      "author": "dooli",
+      "date": "2024-10-24",
+      "text": "Ne muhteşem bir koku!\n\nBu, tereyağlı iris ve lavantanın yeşil köknar ağacıyla birleşimidir.\n\nBu parfümdeki iris (orris kökü) kokusu çok kalıcı; 24 saat sonra bile, parfümün son notalarında hala kokusunu alabiliyorsunuz.\n\nBu parfümün kompozisyonu derin, yoğun ve yumuşak olsa da, arka planda fougere ferahlığı olduğu için yıl boyunca kullanabileceğinizi düşünüyorum. Belki sıcak bir yaz günü için uygun olmayabilir ama bunun dışında her zaman kullanabilirsiniz.\n\nPerformansı inanılmaz. Ciltte 24 saatten fazla, kıyafetlerde ise haftalarca kalıcı. Aromatik (köknar) notası sayesinde ilk 6 saat içinde odayı dolduruyor. 24 saat sonra bile birkaç fısla yaklaşık bir kol mesafesine kadar koku yayıyor.\n\nSon yılların en iyi albümlerinden biri.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.50208.jpg"
+    },
+    {
+      "id": "parent678455",
+      "author": "Vivi1985",
+      "date": "2024-09-15",
+      "text": "Kendine güvenen bireyler için bir koku.\n\nRalph's Club Elixir, zengin ve büyüleyici bir koku deneyimi sunan bir parfümdür. Orijinal Ralph's Club'ın odunsu bazına dayanan Elixir, sofistike bir seviyeyi yükselterek daha yoğun ve lüks bir yönünü ortaya koyuyor.\n\nDuyguların senfonisi.\n\nTaze ve canlı bir açılış. Ardından, iris kökü, lavanta ve sardunyayı öne çıkaran odunsu ve baharatlı bir kalp ortaya çıkıyor. Odunsu temel, sıcak, yoğun ve uzun süreli bir bitiş sağlıyor.\n\nZarafetin özü.\n\nRalph's Club Elixir, çarpıcı ve unutulmaz bir koku arayanlar için tasarlanmış bir parfümdür. Karmaşık ve zarif kompozisyonu, kendinizi özgüvenli ve sofistike hissetmek istediğiniz özel günler ve anlar için mükemmeldir. Koku, lüks ve ayrıcalık havası yayarak sizi eşsiz duyumlar evrenine taşır.\n\nÖne çıkanlar:\n\nYoğunluk: Yüksek\nUzun ömürlülük: Mükemmel\nTahmin: Güçlü\nStil: Zarif, sofistike, odunsu, baharatlı\nÇok yönlülük: Ilık günler, akşamlar ve özel günler için mükemmel.\nKalite: Birinci sınıf içeriklere ve kusursuz bir bileşime sahip, yüksek kaliteli bir koku.\nKişilik: Sofistike kişiliğinizi yansıtan çarpıcı bir koku.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.159682.jpg"
+    },
+    {
+      "id": "parent678445",
+      "author": "dandysek",
+      "date": "2024-09-14",
+      "text": "Ralph gibi enerjik girişleri seviyorum. İki biraz sönük öncülünden sonra (ki bunlar güzel kokuyordu ama ancak bir süre sonra ve \"aralıklı\" başlangıçlara sahipti), nihayet burada eksiksiz bir parfüm elde ediyoruz. Elixir, cildimde güçlü bir lavanta, ekşi mandalina ve tozlu kakule ile açılıyor. Ambroxan en başından itibaren hissediliyor, ancak Club'ı \"mavi\" kategoriye sokacak miktarlarda değil (şükürler olsun).\nİris oldukça hızlı bir şekilde devreye giriyor; ancak DHI veya VUI gibi bir irisle uğraşmıyoruz; Ralph's Elixir'deki iris çok kremsi, pürüzsüz ve bence bu bileşeni sevmeyen kişiler tarafından da denenebilir.\nBu parfümde deri notası mevcut, ancak kompozisyona herhangi bir ağırlık katmıyor; bütün koku hala güçlü bir aromaya sahip ve hafif nemli bir karaktere sahip (belki de köknar ağacı \"ıslak orman zemini\" etkisi yaratıyor).\n\nÖzetle, parfüm olgun, erkeksi, hediye olarak oldukça güvenli (şişesi yakından bakıldığında harika görünüyor), ucuz kokmuyor ve iyi bir performansa sahip. Genel olarak 10 üzerinden 7-7,5 puan uygun olur diye düşünüyorum.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.1027.jpg"
+    },
+    {
+      "id": "parent694376",
+      "author": "EbagAppez",
+      "date": "2024-09-14",
+      "text": "Kokunun kendisi son derece sağlam; orijinal DNA'dan tamamen farklı bir şey yaratmasa da, yeni nüanslarla mükemmel bir şekilde bütünleşiyor.\n\nMeyvemsi mandalina, kakule ve adaçayı baharat karışımının burna hemen baskın gelmesini engeller.\n\nKoku kesinlikle baharatlı ve çok yoğun değil, ancak zamanla lavanta ve iris yağı sıcak ve ferahlatıcı bir etki yaratıyor.\n\nUzaktan bakıldığında, balsamik paçuli bazı bana Pasha de Cartier'i de hatırlatıyor, ancak Ralph's Club'ın daha baharatlı olduğu ve ancak sonradan tatlılaştığı açıkça görülüyor.\n\nGenel performans, tasarımcı bir iksir yağı konsantrasyonu için ortalama seviyede. Kalıcılığı da ortalamanın oldukça üzerinde, en az 10 saat sürüyor. Burada bu parfümün zayıf olduğunu söyleyen yorumcuların ya burunlarını bir trafik kazasında kaybettikleri ya da CDNIM gibi parfümlerin harika olduğunu düşündükleri, çünkü sadece sert, gürültülü ve rahatsız edici çöplerle yüzleri yakmakla ilgilendikleri anlaşılıyor.\n\nBu, odayı tamamen dolduran bir projektör olmasa da, ilk açıldığında 3-4 saat boyunca oldukça güçlü bir koku yayılımı sağlıyor. Yanlarından geçerken insanlar kesinlikle kokunuzu alacaklar.\n\nKoku yayılımına gelince, bu kokunun 2 saat boyunca 1-2 kol mesafesine kadar yayıldığını söyleyebilirim. Ondan sonra, yaklaşık 60 cm'lik bir alanda 6-8 saat daha kalıyor.\n\nGenel olarak değerlendirildiğinde, sabırlı olup internette veya mağazalarda biraz araştırma yaparsanız, bu parfümü uygun fiyata bulabilirsiniz. Ben de yakın zamanda Ross Dress for Less'ten 75 ml'lik şişesini sadece 59 dolara aldım ki bu, bu tür bir parfüm için inanılmaz bir fiyat/performans oranı.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1919507.jpg"
+    },
+    {
+      "id": "parent678421",
+      "author": "Elixir26",
+      "date": "2024-09-11",
+      "text": "Mükemmel bir erkek parfümü, çok yüksek kalite. Kokusu bana yeni bir arabanın içini hatırlatıyor. Kurudukça, temiz, sabunlu tütsü kokusuyla birlikte kuru iris kokusu daha da güçleniyor.\n\nUzun süre kalıcı ve iyi bir yayılıma sahip. Diğer pek ilgi çekici olmayan flanker parfümlerin aksine, erkekler için çok çekici, zamansız bir tasarım.\n\nŞu tarzda:\nHermès H24\nAmouage Woods senfonisi\nXerjoff Mefisto\nCreed Gümüş Dağ Suyu",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.21463.jpg"
+    },
+    {
+      "id": "parent678417",
+      "author": "jerry7474",
+      "date": "2024-09-11",
+      "text": "RALPH LAUREN'İN RALPH'S CLUB ELIXIR'I:\n\nAma ne kadar da güzel...\n\nZaten iyi olan Ralph's Club'ın daha da geliştirilmiş, eksiksiz ve mükemmelleştirilmiş versiyonu olan bu ürün, zirve noktasıdır.\n\nİris, ona o kremsi dokuyu veren ve tüm sahneyi çalan, kesinlikle tüm dikkatleri üzerine çeken bir parfümü tamamlayan eksik parçaydı. Keyfini çıkarmaya doyamazsınız, bir parfümde benim için önemli olan da bu; hem sizin hem de çevrenizdekilerin keyif alması.\n\nOlgun versiyon olduğunu söyleyenlere katılıyorum, ancak şunu da ekleyebilirim ki, o kadar ağırbaşlı olmadan da yetişkin bir versiyon; makyajlı bir Iris değil, tamamen erkeksi, temiz ve çekici bir Iris.\n\nOldukça seksi ve hatta kışkırtıcı, denediğim en iyi Iris parfümlerinden biri, ama aynı zamanda Dior Homme, Prada ve benzer markalardan da farklı.\n\nSon derece çekici ve seksi bir adamın görüntüsü ortaya çıkıyor.\nSınır tanımayan, gerçekten olağanüstü bir parfüm; her zaman sizi öne çıkarır.\n\n\"İksir\" kelimesini fazlasıyla hak eden bir eser.\n\nGece kullanımı, randevular, özel günler, akşam yemekleri ve kutlamalar için; bu ürünle her zaman alfa erkek gibi kokarak dikkat çekecek ve takdir toplayacaksınız.\n\nAroma: 10.\nGösterim: Çok iyi, 2 saatten fazla sürdü.\nSüre: Yaklaşık 7 ila 8 saat.\n\nTavsiye edilen.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.37483.jpg"
+    },
+    {
+      "id": "parent678403",
+      "author": "FragrantHawk31",
+      "date": "2024-03-09",
+      "text": "İnceleme öncesi iç dökme: İnsanların bir parfüm alıp, sıkıp, değerlendirip, deneyimlerinin başkalarının paylaştığından ne kadar farklı olduğunu anlatmak için buraya gelmelerinden çok sıkıldım. BİRİNCİSİ, parfümler bir ciltten diğerine, bir vücut kimyasından diğerine farklı tepki verir ve farklı kokar. Yani benim kokladığım şey sizin, onun veya onun kokladığı şey olmayabilir. İKİNCİSİ, bir parfümün kokusu ve koku deneyimi, şişeye oksijen girdikçe ve parfüm \"açıldıkça\" zamanla değişir. Tıpkı şarap gibi, şişedeki moleküller değişir ve bu nedenle kokunun ve kokunun karmaşıklığı da değişir.\n\nRalph's Club Elixir şişemi birkaç aydır kullanıyorum ve bugün aldığım koku kesinlikle MUHTEŞEM; derimsi iris/iris, tatlı sardunya, taze yeşil mandalina ve greyfurt esintileri, yeşil balsam köknarı ve paçuli dokunuşları ile inanılmaz aromatik lavanta ve adaçayı içeriyor.\n\nEvet, Dior Homme Intense/Parfum karşılaştırmalarını anlıyorum. İkisini de kullandım ve karşılaştırabileceğim kadar çok denedim. RCE'deki iris/deri/portakal kombinasyonu, benim burnuma ve deneyimime göre, DHP'ye şüphesiz benziyor. Bu kokunun yumuşaklığı, muhtemelen DHI'nin ambrette kullanımından dolayı, DHI'deki yumuşaklığı hatırlatıyor. Bununla birlikte, bu kesinlikle kendi özgünlüğünü koruyor ve bunu da çok güzel yapıyor!\n\nBu koku zamanla daha da güzelleşiyor. Kesinlikle tekrar tekrar bu kokuya geri dönmeyi çok seveceğim!\n\nGÜNCELLEME: Kurumaya doğru ilerledikçe iris/iris notaları biraz geri plana çekilirken, olibanum/günlük notaları canlanıyor. Ortaya çıkan koku, çoğunlukla orta ve temel notaların muhteşem, birlikte kaynaşmış bir etkileşiminden oluşuyor ve çok hoş!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1307050.jpg"
+    },
+    {
+      "id": "parent678451",
+      "author": "John Parfums",
+      "date": "2024-03-06",
+      "text": "Ne güzel bir parfüm, beyler.\nÇok kısa bir değerlendirme...\nBu parfümde iris, iris kökü, tütsü ve yumuşak yeşil ve baharatlı notalar bulunuyor. Bu da mükemmel dengelenmiş bir koku yaratıyor. Çok iyi yapılmış ve dengeli ✔️. Eliksirlerin aşırı tatlılığından uzak duran bu parfüm kesinlikle en iyilerinden biri. Ve şişesi de muhteşem.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.76691.jpg"
+    },
+    {
+      "id": "parent678419",
+      "author": "beto_ruiz",
+      "date": "2024-02-17",
+      "text": "Ralph's Club Elixir, odunsu, baharatlı ve aromatik bir kokuya sahip.\n\nHafif kuru, odunsu ve baharatlı bir açılışa sahip olan koku, kavrulmuş kakule ve iris çiçeğini andıran iris kökü notalarıyla başlıyor. Yaklaşık 15-20 dakika sonra, koku daha aromatik hale geliyor ve yeşilimsi adaçayı etrafında lavanta ve sardunya çiçeksi akorları ortaya çıkıyor. Deri notaları da hissediliyor ve kokuya hafif bir opaklık veya karanlık katıyor. Son olarak, iki saat sonra, koku geliştikçe daha tatlı bir hal alıyor ve tonka fasulyesi, vanilya ve paçuli içeren çok çekici bir bazla son buluyor.\n\nBu Elixir versiyonu, Ralph's Club serisinin çekici aromasını koruyor; sadece bu versiyonda koku daha baharatlı, ancak ağır bir kokuya dönüşmüyor. Bununla birlikte, ilkbaharın ilk günlerinde veya gecelerinde ve sonbahar ve kış aylarında gündüz parfümü olarak, resmi veya gündelik ortamlarda, ofis işlerinde ve diğer aktivitelerde kullanılmasını tavsiye ederim.\n\nKalıcılığı çok iyi, 12 saati aşıyor, ilk saatte iyi bir koku yayılımı sağlıyor ve daha sonra yaklaşık 30 cm mesafeden fark ediliyor.\n\nKokusu, başka parfümleri hatırlatabilir veya en azından yapı olarak benzerlik gösterebilir; örneğin, açılışında baharatlılığıyla Sauvage Elixir'e benzerlik gösterse de, yoğunluğu bakımından aynı değil ve kuruma aşamasında bana Eros Parfum'u çok hatırlattı.\n\nÖzetle, çekici bir koku, neredeyse herkesin kolayca beğenebileceği, biraz pahalı (ancak zamanla daha uygun fiyatlara bulunabilir), bu da Eros Parfum veya YSL Le Parfum gibi kokulara zaten sahip değilseniz, tarz benzerliği nedeniyle buna değer olabilir; ancak aynı nedenle, bu kokuları zaten sevenler için de iyi bir satın alma seçeneği olabilir.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.9308.jpg"
+    },
+    {
+      "id": "parent678408",
+      "author": "Piggy41510",
+      "date": "2023-11-18",
+      "text": "Bu parfümü 24 yaşındaki üvey oğlumun doğum günü için aldım çünkü onu arkadaşlarının kullandığı parfümlerden farklı kılacak bir şey almak istedim. Oldukça güzel, yumuşak, rahatsız etmeyen, şık, taze ve baharatlı bir koku olduğu için kendime de bir şişe alacağım. Neyse ki bu parfümü çok sevdi ve gelecek yıl üvey oğluma niş bir parfüm tanıtacağım, böylece o da benim gibi parfüm dünyasını takdir etmeyi öğrenebilir.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1431064.jpg"
+    },
+    {
+      "id": "parent694383",
+      "author": "pilotdc",
+      "date": "2023-10-20",
+      "text": "Diğer Ralphs Club parfümlerinin aromatik DNA'sından biraz uzaklaşarak daha oryantal bir tarza yönelmiş. İris, odunsu ve topraksı bir kokuya sahipken, olibanum hafif tatlı ve egzotik bir hava katıyor. Tasarımcı parfümler dünyasında oldukça benzersiz olduğunu düşündüğüm, dengeli bir koku. Yoğun olmasına rağmen, lavanta ve narenciyelerden gelen bir parlaklığı da var.\nYaklaşık 3 saat sonra ten kokusu belirginleşir ancak 5 saat sonra bile hala hissedilebilir.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1587795.jpg"
+    },
+    {
+      "id": "parent678400",
+      "author": "gkanary",
+      "date": "2023-08-28",
+      "text": "Ciddi söylüyorum arkadaşlar, bu ürün muhteşem. Ama fikrinizi sadece test şeridine sıktığınız kokuya göre oluşturmayın. Bence cildinizde denemeniz gerekiyor. Test şeridinde kokladığımda \"eh işte\" demiştim. Ama sonra kolumda denedim ve vay canına! Gerçekten, gerçekten çok iyi! Ve @RealestRater 47 ile tamamen aynı fikirdeyim. Asıl olay kuruduktan sonraki kokuda. Şunu söyleyeyim; test ettiğim test kağıdına sadece yarım fıs sıktım, bir hafta sonra bile hala güçlü ve güzel kokuyor. Bunu nasıl yorumlayacağınız size kalmış.\nBarış\n\n09/01/2023\nŞunu da eklemek zorunda hissettim ve lütfen bunun sadece benim görüşüm olduğunu unutmayın, ancak bu koku kesinlikle \"Dior Homme Intense\" veya \"Valentino Uomo Intense\"e HİÇ benzemiyor. Aynı kategoride bile değil ve yukarıda bahsedilen kokulara uzaktan yakından benzemiyor. Tekrar ediyorum, bu sadece bir kişinin görüşü. Her şey öznel ve herkesin deneyimi farklı. Bu kokuların benzer olduğunu düşünen kimseyi kesinlikle küçümsemiyorum.\nBarış",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1304324.jpg"
+    },
+    {
+      "id": "parent678398",
+      "author": "Realest Rater 47",
+      "date": "2023-08-25",
+      "text": "Parfümün kuruma aşaması, açılışından tamamen farklı bir hikaye. Açılış ve orta notalar, aşırı tatlı ruj kokusu yerine doğal iris çiçeği gibi kokuyor, ayrıca temiz aromatik çiçekler ve yumuşak kakule de var. Kuruma aşaması ise en bağımlılık yapıcı şekilde tütsü ve marshmallow gibi kokuyor. Kesinlikle soğuk havalar için. Açılış ve orta notalar çok iyi değil ama kuruma aşaması kusursuz. Satın almadan önce deneyin ve kuruma aşamasını koklayın.\n\nBunu herkese yasaklamak isterdim ama tüm dünya bu kadar güzel koksa kızamazdım.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1740776.jpg"
+    },
+    {
+      "id": "parent678397",
+      "author": "DarthFragrance",
+      "date": "2023-08-07",
+      "text": "Bunu birkaç haftadır kullanıyorum. Serinin geri kalanına göre daha şık ve olgun bir kokuya sahip. İçerikleri yüksek kaliteli ve pahalı kokuyor. Başlıca notalar olarak olibanum, tütsü, iris kökü, deri ve paçuliyi alıyorum. Dumanlı, baharatlı, reçineli, odunsu, kuru, koyu ve yoğun bir koku. İris, tasarımcı parfümlerinde genellikle kullanılan ruj benzeri/mumsu irise kıyasla daha topraksı ve doğal kokuyor.\n\nBu parfümü bana hatırlatan iki parfüm var: Sauvage Parfum (sadece dip notaları) ve Gentleman Society (Gentleman Society, Ralph's Club Elixir'den çok daha tatlı). Özellikle Sauvage Parfum'un yoğun tütsü ve sandal ağacı dip notaları, RCE'nin Sauvage Parfum'daki gibi büyük bir narenciye açılışına sahip olmaması nedeniyle Ralph's Club Elixir'i hatırlatıyor. Gentleman Society'ye gelince, notaların dağılımı oldukça farklı görünüyor, bu yüzden neden birbirlerini hatırlattıklarını bilmiyorum, ama belki de kakule yüzündendir. Society'nin 3 çeşit vetiver kullandığını biliyorum ve RCE'nin topraksı odunsu profili vetiver içeriyormuş gibi geliyor. Elbette, bu iki parfüm arasındaki benzerlikler çok büyük değil ve Ralph's Club Elixir kendi yolunda ilerliyor.\n\nYoğunluğu nedeniyle cilde nispeten yakın duruyor, ancak çok uzun süre kalıcı ve güçlü bir koku yayılımına sahip. Tipik olarak yüksek konsantrasyonlu bir parfüm gibi kalıyor, oysa Sauvage Elixir gibi bir parfüm daha istisnai bir özellik gösteriyor (yüksek yağ konsantrasyonu/güçlü yayılım). Ralph's Club Elixir ile yaklaşık 12 saatlik bir kalıcılık elde ediyorum; ilk 2 saat güçlü, sonraki 2-3 saat orta düzeyde ve kalan süre boyunca güçlü bir ten kokusu ve yoğun bir koku yayılımı bırakıyor.\n\nGenel olarak harika bir ürün olduğunu düşünüyorum. Serinin geri kalanıyla pek ortak noktası yok, bu yüzden gerçekten bağımsız bir koku veya yeni bir seri olabilirdi. Şişesi oldukça havalı ve sırf bu yüzden seride kalmasına sevindim. Çok yönlü bir koku ve herhangi bir durumda yersiz hissettireceğini düşünmüyorum, ancak yoğun ve koyu profili daha serin havalar için en uygun. Kokunun genel havası şık ve hafif tatlılığı rafine ve sofistike olduğu için kesinlikle şık bir şekilde de kullanılabilir. İyi harmanlanmış, tipik ürünlerinin bir adım üstünde olması için çok çaba sarf ettikleri belli oluyor. Şu anda Macy's'te, gidip deneyin.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1639884.jpg"
     }
   ]
 }

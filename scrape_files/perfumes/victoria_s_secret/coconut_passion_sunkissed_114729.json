@@ -27,19 +27,47 @@
       "width": "54.5%"
     },
     {
+      "name": "vanilya",
+      "width": "51%"
+    },
+    {
       "name": "tropikal",
       "width": "51%"
     },
     {
-      "name": "vanilya",
-      "width": "51%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "5.00",
-    "votesCount": "2",
+    "votesCount": "3",
     "breakdown": {
-      "love": "2",
+      "love": "3",
       "like": "0",
       "ok": "0",
       "dislike": "0",
@@ -48,11 +76,11 @@
   },
   "seasons": {
     "winter": "0",
-    "spring": "0",
-    "summer": "0",
+    "spring": "1",
+    "summer": "1",
     "autumn": "0",
-    "day": "1",
-    "night": "0"
+    "day": "2",
+    "night": "1"
   },
   "notes": {
     "top": [
@@ -71,19 +99,19 @@
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
-    "moderate": "0",
+    "moderate": "1",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
-    "moderate": "0",
-    "strong": "0",
+    "moderate": "1",
+    "strong": "1",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
-    "moreFemale": "0",
+    "moreFemale": "1",
     "unisex": "0",
     "moreMale": "0",
     "male": "0"
@@ -92,9 +120,19 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "0",
-    "goodValue": "0",
+    "goodValue": "1",
     "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "GUERLAİN",
+      "name": "Aqua Allegoria Coconut Fizz"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Eau De Coconut"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

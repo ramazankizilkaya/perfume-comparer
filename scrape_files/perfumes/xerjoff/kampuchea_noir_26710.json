@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Xerjoff/Kampuchea-Noir-26710.html",
   "brand": "Xerjoff parfüm ve kolonya",
   "description": "Xerjoff markasının Kampuchea Noir parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Kampuchea Noir, 2012 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Chris Maurice. Kokuda Agar ağacı (Oud) ve Odunsu Notlar notaları bulunur.",
-  "description_original": "Xerjoff markasının Kampuchea Noir parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Kampuchea Noir, 2012 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Chris Maurice. Kokuda Agar ağacı (Oud) ve Odunsu Notlar notaları bulunur.",
+  "description_original": "Xerjoff markasının Kampuchea Noir parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Kampuchea Noir, 2012 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Chris Maurice. Kokuda Agar ağacı (Oud) ve Odunsu Notalar notaları bulunur.",
   "description_enhanced": "Xerjoff markasının Kampuchea Noir parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Kampuchea Noir, 2012 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Chris Maurice. Kokuda Agar ağacı (Oud) ve Odunsu Notlar notaları bulunur.",
   "mainAccords": [
     {
@@ -21,6 +21,34 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -48,37 +76,46 @@
     "base": [],
     "all": [
       "Agar ağacı (Oud)",
-      "Odunsu Notlar"
+      "Odunsu Notalar"
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "1",
+    "moderate": "2",
+    "longLasting": "6",
+    "eternal": "19"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "2",
+    "strong": "7",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "3",
+    "moreMale": "7",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "19",
+    "overpriced": "1",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "KEMİ BLENDİNG MAGİC",
+      "name": "'ilm"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Dahn Oudh Al Shams"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
@@ -140,5 +177,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

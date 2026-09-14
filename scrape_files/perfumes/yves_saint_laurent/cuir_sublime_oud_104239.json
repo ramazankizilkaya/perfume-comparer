@@ -33,26 +33,54 @@
     {
       "name": "dumanlı",
       "width": "51%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.03",
-    "votesCount": "92",
+    "score": "4.02",
+    "votesCount": "101",
     "breakdown": {
-      "love": "50",
-      "like": "17",
-      "ok": "10",
-      "dislike": "8",
+      "love": "54",
+      "like": "19",
+      "ok": "11",
+      "dislike": "10",
       "hate": "7"
     }
   },
   "seasons": {
-    "winter": "56",
+    "winter": "60",
     "spring": "14",
     "summer": "6",
-    "autumn": "39",
+    "autumn": "41",
     "day": "22",
-    "night": "47"
+    "night": "50"
   },
   "notes": {
     "top": [
@@ -67,33 +95,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "6",
+    "longLasting": "26",
+    "eternal": "16"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "6",
+    "strong": "23",
+    "enormous": "11"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "12",
+    "moreMale": "10",
+    "male": "23"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "7",
+    "overpriced": "15",
+    "fair": "11",
+    "goodValue": "3",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Cuir (2023)"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Fahrenheit"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Fahrenheit Le Parfum"
+    },
+    {
+      "brand": "SCENTOLOGİA",
+      "name": "Dark Opulence"
+    },
+    {
+      "brand": "SLUMBERHOUSE",
+      "name": "New Sibet"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Guilty Absolute"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Sellier"
+    },
+    {
+      "brand": "NAVİTUS PARFUMS",
+      "name": "Atardecer"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Oud Ispahan"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Purple Oud"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Oud Ispahan"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -112,20 +185,16 @@
       "name": "Cuir (2023)"
     },
     {
+      "brand": "MAİSON CRİVELLİ",
+      "name": "Oud Maracujá"
+    },
+    {
       "brand": "PRADA",
       "name": "Prada L'Homme"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "6 place Saint Sulpice"
-    },
-    {
       "brand": "LOUİS VUİTTON",
       "name": "Ombre Nomade"
-    },
-    {
-      "brand": "CREED",
-      "name": "Aventus"
     },
     {
       "brand": "DİOR",
@@ -136,8 +205,12 @@
       "name": "Oud Wood"
     },
     {
-      "brand": "ESSENTİAL PARFUMS",
-      "name": "Bois Impérial"
+      "brand": "CREED",
+      "name": "Green Irish Tweed"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Muse"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -148,12 +221,13 @@
       "name": "Bleu de Chanel Eau de Parfum"
     },
     {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Gentle Fluidity Silver"
+      "brand": "CHANEL",
+      "name": "Bleu de Chanel Parfum"
     },
     {
-      "brand": "CHANEL",
-      "name": "Allure Homme Sport Eau Extreme"
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
     }
-  ]
+  ],
+  "comments": []
 }

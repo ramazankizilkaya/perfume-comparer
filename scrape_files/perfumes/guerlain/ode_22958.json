@@ -84,50 +84,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "1",
-    "moderate": "6",
-    "longLasting": "2",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "6",
-    "strong": "3",
-    "enormous": "6"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "2",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JEAN PATOU",
-      "name": "Joy"
-    },
-    {
-      "brand": "AVON",
-      "name": "Rapture"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Liu"
-    },
-    {
-      "brand": "NEST",
-      "name": "Wisteria Blue"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -189,5 +172,6 @@
       "brand": "GUERLAİN",
       "name": "Mitsouko Extract"
     }
-  ]
+  ],
+  "comments": []
 }

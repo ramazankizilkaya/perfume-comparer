@@ -1,7 +1,7 @@
 {
   "name": "Pink Vanilla Crush Victoria's Secret",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Floral",
+  "fragranceFamily": "Oriental",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.95219.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Victoria-s-Secret/Pink-Vanilla-Crush-95219.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Victoria's Secret markasının Pink Vanilla Crush parfümü, kadınlar için Çiçeksi bir kokudur. Bu yeni bir parfüm. Pink Vanilla Crush, 2024 yılında piyasaya sürüldü. Kokuda Pembe Frezya, Vanilya ve Misk notaları bulunur.",
   "mainAccords": [
     {
-      "name": "çiçeksi",
+      "name": "vanilya",
       "width": "100%"
     },
     {
-      "name": "vanilya",
+      "name": "çiçeksi",
       "width": "100%"
     },
     {
@@ -23,11 +23,11 @@
       "width": "51%"
     },
     {
-      "name": "yumuşak baharatlı",
+      "name": "tatlı",
       "width": "44%"
     },
     {
-      "name": "tatlı",
+      "name": "yumuşak baharatlı",
       "width": "44%"
     }
   ],
@@ -61,58 +61,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "2",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "2",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "3",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Fresh Vanilla Blossoms"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Sexy Little Things Noir Tease"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Tease"
-    },
-    {
-      "brand": "ARİANA GRANDE",
-      "name": "R.E.M."
-    },
-    {
-      "brand": "SKYLAR",
-      "name": "Vanilla Sky"
-    },
-    {
-      "brand": "ARİANA GRANDE",
-      "name": "Mod Vanilla"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -125,6 +100,10 @@
     {
       "brand": "BATH & BODY WORKS",
       "name": "Warm Vanilla Sugar"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Dream Bright"
     },
     {
       "brand": "VİCTORİA'S SECRET",
@@ -156,7 +135,7 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "A Thousand Wishes"
+      "name": "Snowflakes & Cashmere"
     },
     {
       "brand": "SOL DE JANEİRO",
@@ -168,11 +147,8 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Dark Kiss"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
       "name": "Champagne Toast"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,59 +16,87 @@
     },
     {
       "name": "tütün",
-      "width": "85.5959%"
+      "width": "85.5963%"
     },
     {
       "name": "bal",
-      "width": "80.3992%"
+      "width": "80.3995%"
     },
     {
       "name": "vanilya",
-      "width": "71.2706%"
+      "width": "71.2703%"
     },
     {
       "name": "amber",
-      "width": "66.7209%"
+      "width": "66.8186%"
     },
     {
       "name": "paçuli",
-      "width": "60.6905%"
+      "width": "60.6906%"
     },
     {
       "name": "odunsu",
-      "width": "60.4452%"
+      "width": "60.4653%"
     },
     {
       "name": "aromatik",
-      "width": "58.5629%"
+      "width": "58.5335%"
     },
     {
       "name": "çiçeksi",
-      "width": "57.641%"
+      "width": "57.6609%"
     },
     {
       "name": "deri",
-      "width": "54.9836%"
+      "width": "54.984%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.26",
-    "votesCount": "1,683",
+    "votesCount": "1,695",
     "breakdown": {
-      "love": "861",
-      "like": "582",
-      "ok": "69",
-      "dislike": "157",
+      "love": "867",
+      "like": "586",
+      "ok": "70",
+      "dislike": "158",
       "hate": "14"
     }
   },
   "seasons": {
-    "winter": "412",
+    "winter": "415",
     "spring": "78",
     "summer": "58",
-    "autumn": "437",
-    "day": "263",
-    "night": "410"
+    "autumn": "441",
+    "day": "264",
+    "night": "413"
   },
   "notes": {
     "top": [],
@@ -89,33 +117,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "28",
+    "weak": "27",
+    "moderate": "119",
+    "longLasting": "173",
+    "eternal": "99"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "73",
+    "moderate": "119",
+    "strong": "182",
+    "enormous": "87"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "11",
+    "moreFemale": "10",
+    "unisex": "138",
+    "moreMale": "76",
+    "male": "21"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "69",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "21",
+    "overpriced": "60",
+    "fair": "70",
+    "goodValue": "9",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Sidi Bel-Abbès"
+    },
+    {
+      "brand": "100 BON",
+      "name": "Patchouli & Benjoin"
+    },
+    {
+      "brand": "THOMAS DE MONACO",
+      "name": "Raw Gold"
+    },
+    {
+      "brand": "THEODOROS KALOTİNİS",
+      "name": "Tobacco Maniac"
+    },
+    {
+      "brand": "MİLLER HARRİS",
+      "name": "La Fumee Ottoman"
+    },
+    {
+      "brand": "SOOUD",
+      "name": "Asmar"
+    },
+    {
+      "brand": "SANDALİA",
+      "name": "Honebu"
+    },
+    {
+      "brand": "HEADSPACE",
+      "name": "Tabac Headspace"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Sindbad"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Velvet Black Patchouli"
+    },
+    {
+      "brand": "LES INDEMODABLES",
+      "name": "Vanille Havane"
+    },
+    {
+      "brand": "PERFUMER H",
+      "name": "Smoke"
+    },
+    {
+      "brand": "MOLİNARD",
+      "name": "Habanita La Cologne"
+    },
+    {
+      "brand": "PERFUMEHEAD",
+      "name": "Cosmic Cowboy"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Tobacco Honey"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BY KİLİAN",
@@ -128,10 +217,6 @@
     {
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Coco Eau de Parfum"
     },
     {
       "brand": "CHANEL",
@@ -174,8 +259,214 @@
       "name": "Fille en Aiguilles"
     },
     {
+      "brand": "TOM FORD",
+      "name": "Noir de Noir"
+    },
+    {
       "brand": "TAUER PERFUMES",
       "name": "02 L'Air du Desert Marocain"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent669867",
+      "author": "SendoT",
+      "date": "2025-09-20",
+      "text": "Eğer sadece bir parfüm seçmek zorunda kalsaydım ve diğerlerini çöpe atsaydım, bu olurdu.\nBu benim en büyük keşfim. Dumanlı bir baklava, koyu bir tatlılık.\nBunu imza kokusu haline getirmek imkansız; sadece özel günler için, akşamları soğuk havalarda kullanıyorsunuz.\nHatta sırf bu kokuyu kullanabilmek için geziler bile planlamak istiyoruz. Ne muhteşem bir koku!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.78777.jpg"
+    },
+    {
+      "id": "parent669868",
+      "author": "Autumntea",
+      "date": "2025-01-25",
+      "text": "Bu parfümü kesinlikle çok seviyorum. İdeal kokum diyemem – bunun için çok kararsızım – ama gerçekten çok güzel. Sıcak tütün ve balın dengesi mükemmel, süet ve vanilyanın tatlılığıyla sarılmış. Cildim genellikle parfümlere çok güçlü tepki veriyor, bu da muhtemelen neredeyse \"kakao\" notasını açıklıyor, ama aslında tatlı değil, acı bir kakao. Lüks bir pipo tütününün mükemmel kokusu.\nKısacası, bir başyapıt... ne yazık ki fiyatı da öyle, bu yüzden sürahimi idareli kullanıyorum. Bununla birlikte, kalıcı ve bende güzel bir iz bırakıyor.\nElbette sonbahar ve kış için mükemmel, ancak bence ölçülü kullanıldığında sıcak bir yaz akşamında da hoş bir etki yaratacaktır.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.63106.jpg"
+    },
+    {
+      "id": "parent669869",
+      "author": "ChypreInBloom",
+      "date": "2024-08-24",
+      "text": "Yaklaşık üç yıl önce, bir arkadaşımla birlikte bu parfümleri ve bu dünyayı (acımasızca, kusura bakmayın, kendimi tutamıyorum) ona tanıtmak için Palais Royal'deki Serge Lutens butiğine gittim. O, Fumerie Turque'ün bir şişesiyle ayrıldı. Bana da bir örnek verildi ve ona alışmam biraz zaman aldı. Son zamanlarda elime yeni bir örnek geçti ve bu sefer çok güzel buldum. Kolayca kullanır mıyım bilmiyorum ama sonuçta neden olmasın? Tıpkı sadece evde kullandığım Chergui gibi.\nTıpkı dokusu enfes, ballı bir tütünün kokusunu içine çekmiş deri bir koltuk gibi. İşin dahiyane yanı, bunaltıcı ve ağır olmasını engelleyen aromatik tazeliği (ardıç mı?) oluşturuyor. Eskitilmiş deri gibi, birinin sigara içtiği, kulüp koltuğunda kitap okuduğu ve içki içtiği bir odayı andırıyor. Ve aslında, bu imge zihnimde Edward dönemi İngiltere'siyle ilişkilendiriliyor.\nBir Thackeray romanı kadar güzel.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.26479.jpg"
+    },
+    {
+      "id": "parent669814",
+      "author": "Eloi Martel",
+      "date": "2023-05-29",
+      "text": "SERGE LUTENS - FUMERIE TURQUE\n\nBu parfümcülük şaheserini daha iyi anlamak ve takdir etmek için, Türkiye'nin doğu komşularından birini ziyaret etmeniz gerekebilir.\n\n\"Papier d'Armenie\" olarak da bilinen tütsü kağıdına aşina olanlarınız anlayacaktır, çünkü Fumerie Turque'ün özü tam olarak budur. Bu aromatik, dumanlı oryantal tütsü kağıdı, bu kokunun temel taşıdır.\n\nİlk püskürtmede, kendinizi hemen dünyanın o köşesine ışınlanmış gibi hissedersiniz; yoğun meyveli tütün dumanıyla karışmış, bu lezzetli aromanın gerçek yıldızı olan styrax ile harmanlanmış bir sigara içme salonunu anımsatır. Burada kullanılan benzoin, derimsi ve kuru bir his verir, neredeyse havada süzülen kakao tozu gibi, yoğun duman ise etrafınızda dans eder.\n\nİlk yoğun koku dindikten sonra, bal da tatlı ve aromatik papatya ile birlikte piramidin içine katılarak bizi huzurlu, mutlu ve yatıştırıcı bir yere daha da taşıyor.\n\nİstanbul'a hiç seyahat etmedim, ancak meyveli tütün ve tütsü kokularının havayı doldurduğu, yan taraftaki baklavacıdan gelen hafif kokuların da arada bir hissedildiği, sakin bir akşamüstü sigara içme salonunun tam olarak böyle kokacağını hayal ediyorum...\n\nParfümeri dünyasının en az değer verilen kokularından birine zengin, etkileyici, pürüzsüz ve unutulmaz bir yolculuk... Oryantal tütsü kokularını seven herkesin mutlaka denemesi gereken bir koku. Gerçekten bir mücevher ve güneş battıktan sonra her türlü hava koşuluna mükemmel uyum sağlıyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1657858.jpg"
+    },
+    {
+      "id": "parent669878",
+      "author": "Cherry",
+      "date": "2023-05-28",
+      "text": "Eğer Chergui sizi derinden hayal kırıklığına uğrattıysa, bilin ki Fumerie Turque, Chergui'den beklediğiniz ama alamadığınız her şeyi sunuyor.\nChergui'de bulmak istediğim şey buydu: akasya balına batırılmış ince kıyılmış tütün.\nZamansız ve cinsiyetsiz zarafet.\nAromatik nüanslarla dengelenmiş tatlılık.\nSüetin verdiği hoş pudramsılık ve dengeli, ölçülü paçuli kokusu.\nCrème de Cuir, Alias, Jazz Club ve Chicago High'ı seven herkese tavsiye ederim.\nSergione hakkındaki fikrimi değiştirmem gerekiyor: tamamen eski ve aptalca bir marka değil.\nÇok seçkin bazı şeyleri gerçekten çok iyi yaptı.\nBunun gibi.\nHiç şüphesiz koleksiyonuma muhteşem bir şekilde girecek.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.51754.jpg"
+    },
+    {
+      "id": "parent669823",
+      "author": "IamdrinkingBeer",
+      "date": "2022-05-06",
+      "text": "Anında klasikleşen ve efsaneler arasına girecek bir koku. Bal ve tütün rüyası, sadece kokusunu almak bile ağzımı sulandırıyor. Kış ayları için özel bir şeye ihtiyacınız varsa, başka yere bakmanıza gerek yok. Karmaşık, biraz keskin ve iddialı, biraz aromatik, bu koku ömür boyu koleksiyonunuzda olacak. Hiç düşünmeden ilk 3 Lutens kokusu arasında. Ayrıca, yaşamak istemediğiniz soğuk kış sabahları için de saklayın. Bu, sabah kahvenizin yerini alabilir.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1309936.jpg"
+    },
+    {
+      "id": "parent669819",
+      "author": "ignatzb",
+      "date": "2021-09-30",
+      "text": "Şimdiye kadar kokladığım en güzel tütün kokusu; balmumu, tonka fasulyesi ve yumuşak deriyle harmanlanmış tatlı, dumanlı bir sis. Ancak birkaç gün üst üste kullandığımda, balın idrarımsı özelliği gerçekten ortaya çıkıyor ve neredeyse daha erkeksi bir hal alan buğdaylı tahıl kokusu da hissediliyor. Mevsimler değiştikçe daha fazla denemeyi ve nasıl dönüştüğünü görmeyi dört gözle bekliyorum.\n\nDÜZELTME: Sonunda kendime bir tam boy şişe aldım ve şişeden sıktım, dekanttan bile daha güzel kokuyor! Daha az buğdaylı, daha çiçeksi ve derimsi.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1194334.jpg"
+    },
+    {
+      "id": "parent669877",
+      "author": "Jabberwocky",
+      "date": "2021-08-02",
+      "text": "Şimdi özel Graz koleksiyonunun bir parçası olarak üretiliyor. Çok güzel. Çok sıcak ve sarmalayıcı, o da nadir durumlarda giyilmeyi hak ediyor. Baskın notalar tütün ve odun, bal veya papatyadan gelen hafif bir tatlılık ve yumuşaklık da hissediliyor. Genel olarak tatlılığa doğru eğilim gösteriyor, ancak kesinlikle bayıcı değil. Makul fiyatlı bir başyapıt.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent669818",
+      "author": "AveParfum",
+      "date": "2020-10-24",
+      "text": "2016'da Bell Jar parfümümü aldım, bu yüzden yeniden formüle edilmiş bir versiyona sahip olup olmadığımdan emin değilim ve yeniden formüle edilip edilmediğini de bilmiyorum... Her neyse, bu şimdiye kadar piyasadaki en güzel tütün parfümü. Çok narin olmasıyla alışılmadık bir koku. Bana göre zengin değil, vanilya yok, şuruplu veya baharat dolu değil. Üst ve orta notalarda gerçekten ince bir dumanlılık var. Kırmızı meyve veya belki de kırmızı kuş üzümü dokunuşuyla hafif, tatlı bir tütün. Kuruduktan sonra burnuma deri ve kurutulmuş mutfak otlarının izleri geliyor.\n\nBu, yoğun bir koku değil, bir şekilde temiz, rafine ve narin. Tobacco Vanille'in tam tersi. Tobacco Vanille'i gösterişli, erkeklerin kulübe giderken kullandığı bir şey gibi gösterirken, Fumerie Turque'ü Prens William'ın meşe panelli bir odada yabancı bir devlet adamıyla dünya olaylarını tartışırken kullandığını hayal edebiliyorum. İkisi de konyak kadehleri ​​tutuyor ve Prens'in tavrı oldukça ölçülü.\n\nFumerie Turque, havalar soğuduğu anda harika bir koku ve sizi tatil dönemine çok güzel bir şekilde taşıyacak. Koku yayılımı rahatlatıcı ve kişisel, başkalarının kişisel alanına müdahale etmiyor. Her bileğime birer fıs sıktığımda (şişedeki parfümü bir atomizöre aktarıyorum) tüm gün boyunca kalıcı oluyor. Tütün meraklıları için ideal.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.35807.jpg"
+    },
+    {
+      "id": "parent669890",
+      "author": "wadique",
+      "date": "2019-11-04",
+      "text": "Nargileye bayılan, İstanbul'u birçok kez ziyaret etmiş ve Formula 1 pilotları ve arabaları hakkında bilgili bir arkadaşım var, ama parfümcülükten hiç anlamıyor. Ona kokuyu tarif etmesini istediğimde, bir an düşündü ve şöyle cevap verdi:\n\n\"Ortodoks kilisesi gibi kokuyor.\"\n\nVe sonra gerçeği gördüm. Kör testin gücü işte bu.\nEkim başlarında, Starocherkasskaya köyündeki 18. yüzyılın başlarına ait Diriliş Askeri Katedrali'ni ziyaret ettim. Orası tıpkı o zamanki gibi kokuyor: tütsü ve mumun sıcak, hafif tatlı kokusu.\n\nElbette tütün, bal ve diğer her şey var, ancak koku cilde yerleştiğinde ortaya çıkan genel izlenim tam olarak şu: Türk kıyıları değil, Rus manastır ruhu.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.228114.jpg"
+    },
+    {
+      "id": "parent669844",
+      "author": "pedjalazaro",
+      "date": "2019-05-20",
+      "text": "Ne seviyorum ne de sevmiyorum.\n\nAçılışta kuru, hafif dumanlı pipo tütünü ve tatlı bir bal notası hissediliyor. Orta aşamada ise paçuli, vanilya ve tonka fasulyesi ipuçlarıyla birlikte hafif bir deri notası ortaya çıkıyor.\n\nBallı ve isli oryantal, oldukça düz bir yapıya sahip, olgun ve kesinlikle erkeksi bir damak tadına hitap ediyor. İyi performans. Soğuk servis edilir.\n\nSonbahar ve kış için.\n\nGece için.\n\nUzun süreli dayanıklılık.\n\nOrta düzeyde koku yayılımı.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.18952.jpg"
+    },
+    {
+      "id": "parent669889",
+      "author": "hab",
+      "date": "2016-09-07",
+      "text": "Çok sıcak ve rahatlatıcı bir koku. Zengin bir koku piramidine rağmen, neredeyse hiç kalıcılığı olmayan, çok narin ve sakin bir bitişe sahip. Bu, bencil olmak istediğiniz zamanlar için bir koku. Başkaları için değil, kendiniz için. Bu sefer, puro içebileceğiniz, bal kekli kahve içebileceğiniz, deri bir koltukta oturup hiçbir şeyden endişe etmeden vakit geçirebileceğiniz ayrı bir odanız var.\n\nAdını ne koymalıyım? Hayır, havadar değil, dumanlı. Ele geçirilmesi zor, yakalamaya ve iyice koklamaya çalışmadan önce yavaş yavaş kayboluyor. Sanki kaçıyor. Onu görmezden gelmeniz, ilginizi göstermemeniz gerekiyor, o zaman sizi harika bir şekilde rahatlatıcı bir izle ödüllendirecektir. Ama kovalarsanız, rahatsız ederseniz, kaçmaya çalışır, ürkek bir orman hayvanı gibi havaya karışır.\n\nÇağrışımları bir kenara bırakırsak, en çarpıcı özelliği dumanlı bal notası. Burnunuzu içine gömmek yerine, hafifçe merkezden uzak bir yerden yakalamanız gerekiyor; o zaman o yoğun bal şekerini ve yüksek kaliteli tütün dumanını alacaksınız. Akıl almaz bir kombinasyon. Ve gerçek bir sanat eseri. Bilinçli olarak incelikli, hoş tınısını takdir edenler için. Odayı dolduran, rastgele kurbanlara saldıran ve onları pençelerinde boğan metrelerce uzunlukta izler yok. Kimse burun kıvırmayacak. Bu sadece kendim için. Oldukça uzun süre kalıcı, 10 saat sorunsuz, ama çok sessiz. Ama yine de gerçekten beğendim ve kesinlikle kullanmaya başlayacağım.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.171839.jpg"
+    },
+    {
+      "id": "parent669876",
+      "author": "polly golightly",
+      "date": "2016-01-26",
+      "text": "Dengeli ve karmaşık olan bu koku, artık SL'nin Paris butiği dışında neredeyse bulunması imkansız olsa da, niş parfümeride bir dönüm noktası olarak haklı olarak kabul ediliyor. Benim için bu, tütünün ta kendisi ve bal tütünü kokuyor. Başlangıçtaki tatlı, ancak vanilya benzeri olmayan notalar, odunsu/aromatik ama reçineli bir buketle destekleniyor (muhtemelen styrax, ardıç ve tonka fasulyesinin bir araya gelmesinden kaynaklanıyor). Hafif çiçeksi notalar çekingen bir şekilde ortaya çıkıyor, hızla kaybolan deri ipuçlarıyla birlikte. Baskın bal tütünü notası, diğer notalar tarafından hiçbir şekilde tatlandırılmadan, tüm evrim boyunca açıkça ayırt edilebilir kalıyor, aksine diğer yardımcı esansların ortaya çıkıp kaybolduğu bir arka plan görevi görüyor. Mükemmel.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.27.jpg"
+    },
+    {
+      "id": "parent669842",
+      "author": "oscarsh86",
+      "date": "2015-12-10",
+      "text": "Piyasada birçok tütün kokulu parfüm var, ancak bu bana eşsiz geliyor çünkü onu tipik bal ve tütün kokusundan ayıran özel bir yanı var ve bence bunun sebebi papatya ve kuş üzümü.\n\nParfümün en güçlü kısmı açılış notalarıdır; koyu tütün ve bal kokusu hissedilir. Burada bal baskın veya hayvansı değil, aksine yumuşak ve kadifemsidir.\n\nOrta aşamada parfüm tatlılaşıyor ve papatya en belirgin hale geliyor, ancak tütün kokusu hiç kaybolmuyor. Bal, tütün, papatya, kuş üzümü, hafif bir gül dokunuşu ve bence bir miktar vanilya da en net şekilde algılayabildiğim notalar.\n\nSon kurutma işlemi, orta aşamadan çok farklı değil; bence iki çok farklı aşama ayırt edilebilir: çıkış aşaması ve sonuna kadar süren orta aşama.\n\nBazı kişilerin Fumerie Turque'nin kokusunu nargile tütününün kokusuna benzettiğini okudum. Bu doğru olabilir; bence Fumerie'nin kokusuna en çok benzeyen koku bu.\n\nKalıcılığı ortalama, ancak yayılımı biraz kısa. Bu, parfümün olumsuz bir yönü.\n\nAçılışının daha erkeksi, sonunun ise biraz daha kadınsı olduğunu fark ettim, bu yüzden unisex olarak tanımlardım.\n\nBence bu daha çok serin iklimler için bir parfüm.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.14321.jpg"
+    },
+    {
+      "id": "parent669822",
+      "author": "Angela Agiannidou",
+      "date": "2015-08-15",
+      "text": "Ah, bundan gerçekten keyif alıyorum! Bal tatlılığı ve yoğun bir şekilde hissedilen paçuli notasıyla dumanlı bir cennet; arka planda kırmızı kuş üzümü ve vanilya destekleyici roller üstlenirken, tütün ve deri de harika bir şekilde uyum sağlayarak karışıma oldukça erkeksi bir hava katıyor! Bu, ister beğenin ister beğenmeyin, bileğinizi koklayıp bu seksi, tavizsiz güzelliğin tadını çıkarmak zorunda kalacağınız, sarhoş edici bir koku. Bu koku ne kadar yerleşirse o kadar güzel ve yumuşak, daha kadınsı hale geliyor. Saf, katıksız aşk! İşin ironik yanı, bu parfümü yıllar önce Selfridges'te denemiş ve çok güçlü ve ağır bulmuş olmam! Duman/paçuli/deri sevenler için mutlaka denenmeli!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.791751.jpg"
+    },
+    {
+      "id": "parent669843",
+      "author": "Pato76",
+      "date": "2015-04-23",
+      "text": "Fumerie Turque: Türkiye'de bir tütün dükkanı hayal etmek imkansız... Şahsen ben Atina'daki tütün dükkanlarına gittim ve o dükkanların aromasının Lutens EDP ile aynı yapıya sahip olduğunu kesin olarak söyleyebilirim.\n\nBu koku bana şu sıfatları çağrıştırıyor: şehvet, tatlılık, tutku, zarafet... Bal, ardıç meyvesi, paçuli ve diğer notalar sayesinde ne zaman ortaya çıkacaklarını bilen sıfatlar bunlar.\n\nUzun süre kalıcı, çok yoğun değil ama gününüzü kesinlikle aydınlatacak. Kokuyu yakınınızda hissetmek istediğinizde cildinizde etkisini hissedebilmeniz için bileğinize uygulamanızı öneririm.\n\nÜstat Lutens'in bu EDP'sinde en sevdiğim şey, her nefeste yaydığınız karmaşık ve enfes aromanın yanınızdaki kişiyi şaşkına çevireceğinden tamamen emin olabilmenizdir...\n\nPuanlama 7/10",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.15005.jpg"
+    },
+    {
+      "id": "parent669817",
+      "author": "Eloquaint",
+      "date": "2014-11-10",
+      "text": "Bu da sevdiğim bir başka parfüm çünkü bana bir kişiyi, bu durumda belirli bir kişiyi, babamı hatırlatıyor. Küçükken kucağında oturup piposunu doldurmasını izlediğimi hatırlıyorum; bu ritüeli, bir chanoyu'da (geleneksel Hint piposu) görülen ciddiyet ve hassasiyetten biraz daha azıyla gerçekleştirirdi.\n\nFumerie Turque, deri bir kese içindeki pipo tütününün kokusuyla açılıyor, hafif bir erimiş esmer şeker kokusu da hissediliyor. Önce çok derimsi bir hal alıyor, sonra çok dumanlı bir kokuya dönüşüyor ve son olarak da talaş kokusu geliyor; en sonda ise hoş bir tütsü kokusu ortaya çıkıyor.\n\nŞimdiye kadar karşılaştığım en güzel tütün kokusu. Seni özledim babacım.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.786681.jpg"
+    },
+    {
+      "id": "parent669820",
+      "author": "tonkabeanster",
+      "date": "2013-03-06",
+      "text": "Tam anlamıyla uyuşturucu etkisi yaratıyor. Lezzetli balımsı duman ve yağlı deri kokusu, boğuk ve erkeksi paçuli ile tamamlanıyor. Mükemmel bir dünyada, şöminenin önünde birkaç sevişme seansından sonra, hâlâ sıcak olan eski kıyafetlerin kokusu böyle olurdu.\n\nSiyahlar içinde seksi, gizemli bir yabancı rolü oynamak istiyorsunuz ama Tobacco Vanille'i çok tatlı, oud/tütsü kokularının çok fazla ulaşılmaz olduğunu mu düşündünüz? İşte aradığınız koku bu.\n\n\n\n(Dolayısıyla elbette ki üretiminin durdurulması gerekiyordu.)",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.48249.jpg"
+    },
+    {
+      "id": "parent669821",
+      "author": "edooardo",
+      "date": "2011-12-29",
+      "text": "Şimdi size Fumerie ile ilgili deneyimimi paylaşayım:\n\n- Karım bana bunun, 115 yıl önce alınmış, son kullanma tarihi geçmiş bir gül parfümünün kokusuyla, hiç temizlenmemiş bir küllüğün güçlü kokusunun karışımı olduğunu söyledi.\n\n- İş arkadaşım bu parfümü sevmiyor çünkü gece kulüplerindeki sis makinelerinde kullanılan gliserin kokusuna çok benziyor.\n\n- Çok hoşuma gidiyor çünkü:\n=> Eşsizliği.\n=> Bir diğer adı da BURLESK KABARE'NİN ESKİ PERDELERİ olabilir.\n=> İyi bir yayılımı ve mükemmel kalıcılığı var.\n=> Fumerie Turque, Türk puro dükkanı olarak gerçekten harika bir hizmet sunuyor.\n\n- Bunu sadece yalnız başıma yürüyüşe çıktığımda veya kütüphanede bir şeyler okurken giyebilirim...",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.38125.jpg"
+    },
+    {
+      "id": "parent669891",
+      "author": "Dolorosa",
+      "date": "2010-07-26",
+      "text": "En sevdiğim Lutens parfümlerinden birine tek bir yorum bile yok! Ancak benim için hepsi iki kategoriye ayrılıyor: favorilerim ve hiç beğenmediklerim...\nO halde ilk ben olacağım.\n\n\"Türk Sigara Odası\" aromatik tütün kokuyor. Kokulu nargile gibi. Tütün dumanı ön planda, ancak bal, vanilya, amber, gül yağı... Baharatlar... ile tamamlanıyor.\nMutluluk ve tembelliğin kokusu. Nefis bir mutluluk. Hafta sonu için ideal bir koku.\nErkekler üzerinde baştan çıkarıcı.\nKadınlarda nasıl olduğunu bilmiyorum. Ben kendim kullanıyorum ama başkalarında hiç koklamadım, o yüzden nasıl bir his verdiğini bilmiyorum. Ama bu kokunun bulutunda olmak inanılmaz derecede hoş. Rahatlatıcı, yatıştırıcı, zengin ve uzun süre kalıcı.\nBence onu diğer vanilya-tütün kokularıyla karşılaştırmak haksızlık olur: Fumerie Turque eşsizdir, diğerleri ise -hem Santa Maria Novella hem de Tom Ford'un vanilya-tütün kokusu- aynı anda hem daha sert hem de daha tatlıdır. En azından benim burnuma göre.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.1822.jpg"
     }
   ]
 }

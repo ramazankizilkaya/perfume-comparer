@@ -45,14 +45,42 @@
     {
       "name": "bitkisel",
       "width": "46.2631%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.86",
+    "score": "3.88",
     "votesCount": "73",
     "breakdown": {
-      "love": "15",
-      "like": "44",
+      "love": "16",
+      "like": "43",
       "ok": "4",
       "dislike": "9",
       "hate": "1"
@@ -60,9 +88,9 @@
   },
   "seasons": {
     "winter": "7",
-    "spring": "18",
-    "summer": "13",
-    "autumn": "12",
+    "spring": "19",
+    "summer": "14",
+    "autumn": "13",
     "day": "19",
     "night": "8"
   },
@@ -92,33 +120,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "12",
+    "weak": "7",
+    "moderate": "20",
+    "longLasting": "8",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "17",
+    "moderate": "20",
+    "strong": "14",
+    "enormous": "12"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "2",
+    "unisex": "1",
+    "moreMale": "5",
+    "male": "12"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "5",
+    "overpriced": "5",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Balafre (Vintage)"
+    },
+    {
+      "brand": "CARON",
+      "name": "Eau de Caron"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Moustache Eau de Toilette Concentree"
+    },
+    {
+      "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
+      "name": "Юнкерский (Yunkerskiy) No. 3"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Balafre Vert"
+    },
+    {
+      "brand": "DETAİLLE",
+      "name": "Escrimeur"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Eau des 4 Voleurs"
+    },
+    {
+      "brand": "ANTONİO PUİG",
+      "name": "Quorum"
+    },
+    {
+      "brand": "YVRA",
+      "name": "1991 - L'Essence de L'Explorance"
+    },
+    {
+      "brand": "GAİNSBORO",
+      "name": "G-man"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Moustache Eau de Toilette"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CARON",
@@ -180,5 +253,6 @@
       "brand": "DAVİDOFF",
       "name": "Zino Davidoff"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -65,94 +65,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "3",
-    "moderate": "8",
-    "longLasting": "10",
-    "eternal": "24"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "8",
-    "strong": "13",
-    "enormous": "27"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "6",
-    "moreFemale": "7",
-    "unisex": "19",
-    "moreMale": "7",
-    "male": "6"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "4",
-    "overpriced": "6",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "6",
-    "greatValue": "4"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet Millésime 2022"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet Millésime 2021"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet Millésime 2019"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet 2014"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet 2015"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet 1998"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Le Muguet 2013"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet 2012"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet 2017"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet Millésime 2018"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet 2011"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet 2016"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet (original)"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Hermessence Muguet Porcelaine"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -171,12 +110,12 @@
       "name": "Mon Precieux Nectar"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Un Jardin Sur Le Nil"
-    },
-    {
       "brand": "GUERLAİN",
       "name": "L'Heure de Nuit"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Un Jardin Sur Le Nil"
     },
     {
       "brand": "BYREDO",
@@ -214,5 +153,6 @@
       "brand": "JO MALONE LONDON",
       "name": "Blackberry & Bay"
     }
-  ]
+  ],
+  "comments": []
 }

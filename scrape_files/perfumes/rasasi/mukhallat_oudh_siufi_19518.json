@@ -31,16 +31,44 @@
       "width": "52.9508%"
     },
     {
-      "name": "ud",
+      "name": "pudralı",
       "width": "47.2131%"
     },
     {
-      "name": "pudralı",
+      "name": "ud",
       "width": "47.2131%"
     },
     {
       "name": "tatlı",
       "width": "44.3443%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -81,33 +109,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "6",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "7",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "3",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Oud Fakhir"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Mukhallat Dahn Al Oudh Moattaq"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Aswad"
+    },
+    {
+      "brand": "NABEEL",
+      "name": "Khaltat Al Shyookh"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RASASİ",
@@ -130,6 +175,10 @@
       "name": "Habit Rouge Eau de Toilette"
     },
     {
+      "brand": "GİVENCHY",
+      "name": "Gentleman (1974)"
+    },
+    {
       "brand": "ABDUL SAMAD AL QURASHİ",
       "name": "Safari Extreme"
     },
@@ -140,10 +189,6 @@
     {
       "brand": "RASASİ",
       "name": "La Yuqawam Homme"
-    },
-    {
-      "brand": "ROBERT PİGUET",
-      "name": "Casbah"
     },
     {
       "brand": "VALENTİNO",
@@ -169,5 +214,6 @@
       "brand": "GUERLAİN",
       "name": "Vetiver"
     }
-  ]
+  ],
+  "comments": []
 }

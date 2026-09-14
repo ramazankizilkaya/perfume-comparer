@@ -41,6 +41,34 @@
     {
       "name": "misk",
       "width": "48.8462%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,33 +107,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "6",
+    "moderate": "11",
+    "longLasting": "7",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "11",
+    "strong": "4",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "9",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Premieres Roses 2016"
+    },
+    {
+      "brand": "JOHN GALLİANO",
+      "name": "John Galliano Eau de Toilette"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Rose Essentielle"
+    },
+    {
+      "brand": "DSH PERFUMES",
+      "name": "La Vie en Rose"
+    },
+    {
+      "brand": "RAMMSTEİN",
+      "name": "Paris for Her"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "Red Door"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "London"
+    },
+    {
+      "brand": "DİOR",
+      "name": "La Colle Noire"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -167,5 +232,6 @@
       "brand": "GİVENCHY",
       "name": "Organza"
     }
-  ]
+  ],
+  "comments": []
 }

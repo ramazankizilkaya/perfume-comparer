@@ -63,94 +63,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "2",
-    "moderate": "10",
-    "longLasting": "5",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "11",
-    "moderate": "10",
-    "strong": "8",
-    "enormous": "19"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "2",
-    "unisex": "3",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Tutti Dolci Sweet Lemon Buttercup"
-    },
-    {
-      "brand": "FRESH",
-      "name": "Brown Sugar"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Sweet Lemon"
-    },
-    {
-      "brand": "ANNA SUİ",
-      "name": "Secret Wish"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue"
-    },
-    {
-      "brand": "BROCARD",
-      "name": "Once Upon a Time Fortune"
-    },
-    {
-      "brand": "MUTİS NUEVA GRANADA",
-      "name": "Merengue"
-    },
-    {
-      "brand": "LAURA MERCİER",
-      "name": "Eau Gourmande Tarte Au Citron"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Eau de Rhubarbe Ecarlate"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Devotion"
-    },
-    {
-      "brand": "DİOR",
-      "name": "La Collection Couturier Parfumeur Granville"
-    },
-    {
-      "brand": "CASAMORATİ 1888",
-      "name": "Lira"
-    },
-    {
-      "brand": "ATELİER COLOGNE",
-      "name": "Cedre Atlas"
-    },
-    {
-      "brand": "AKRO",
-      "name": "Bake"
-    },
-    {
-      "brand": "ALFRED DUNHİLL",
-      "name": "51.3 N"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "ATELİER COLOGNE",
@@ -212,5 +151,6 @@
       "brand": "PRADA",
       "name": "Prada Candy"
     }
-  ]
+  ],
+  "comments": []
 }

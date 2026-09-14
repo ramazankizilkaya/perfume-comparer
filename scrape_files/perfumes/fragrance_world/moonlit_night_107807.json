@@ -49,26 +49,54 @@
     {
       "name": "bitkisel",
       "width": "49.0689%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.31",
-    "votesCount": "115",
+    "score": "4.27",
+    "votesCount": "131",
     "breakdown": {
-      "love": "58",
-      "like": "40",
-      "ok": "13",
+      "love": "62",
+      "like": "49",
+      "ok": "15",
       "dislike": "3",
-      "hate": "1"
+      "hate": "2"
     }
   },
   "seasons": {
-    "winter": "73",
-    "spring": "53",
+    "winter": "84",
+    "spring": "58",
     "summer": "10",
-    "autumn": "75",
-    "day": "31",
-    "night": "71"
+    "autumn": "89",
+    "day": "37",
+    "night": "84"
   },
   "notes": {
     "top": [
@@ -89,37 +117,102 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "8",
+    "moderate": "42",
+    "longLasting": "26",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "42",
+    "strong": "12",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "1",
+    "unisex": "6",
+    "moreMale": "37",
+    "male": "43"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "2",
+    "fair": "15",
+    "goodValue": "33",
+    "greatValue": "47"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "The One Luminous Night"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Lumière Garçon"
+    },
+    {
+      "brand": "MAISON ASRAR",
+      "name": "Muharib"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "After Effect"
+    },
+    {
+      "brand": "MATİN MARTİN",
+      "name": "RAA'D"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "The One for Men"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Azraq"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Stronger With You Intensely"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Side Effect"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Stronger With You Parfum"
+    },
+    {
+      "brand": "RİHANNA",
+      "name": "Rogue Man"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Red Tobacco"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ta'weel"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "The One for Men Eau de Parfum"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Stronger With You Absolutely"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Jean Lowe Immortal"
     },
     {
       "brand": "VERSACE",
@@ -135,15 +228,15 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
+      "name": "Teriaq Intense"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Honor & Glory"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Qaed Al Fursan"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Eros Flame"
     },
     {
       "brand": "AL HARAMAİN PERFUMES",
@@ -166,10 +259,6 @@
       "name": "Hawas for Him"
     },
     {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Elixir"
-    },
-    {
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
     },
@@ -177,5 +266,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah Qahwa"
     }
-  ]
+  ],
+  "comments": []
 }

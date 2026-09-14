@@ -3,7 +3,7 @@
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Aromatic",
   "concentration": "Edp",
-  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136954.jpg?t=1783319248",
+  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136954.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Enteash-136954.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Enteash parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Üst notalar: Kakule ve Karamel; orta nota: Misk; alt notalar Zencefil ve Amber.",
@@ -19,15 +19,15 @@
       "width": "86.0001%"
     },
     {
-      "name": "karamel",
-      "width": "82.4999%"
-    },
-    {
       "name": "misk",
       "width": "82.4999%"
     },
     {
-      "name": "amber",
+      "name": "karamel",
+      "width": "82.4999%"
+    },
+    {
+      "name": "taze",
       "width": "64.9998%"
     },
     {
@@ -35,7 +35,7 @@
       "width": "64.9998%"
     },
     {
-      "name": "taze",
+      "name": "amber",
       "width": "64.9998%"
     },
     {
@@ -49,26 +49,58 @@
     {
       "name": "animalik",
       "width": "44.8752%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "3",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "4.40",
-    "votesCount": "5",
+    "score": "4.18",
+    "votesCount": "11",
     "breakdown": {
-      "love": "2",
-      "like": "3",
+      "love": "4",
+      "like": "6",
       "ok": "0",
-      "dislike": "0",
+      "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "3",
-    "spring": "5",
-    "summer": "4",
-    "autumn": "4",
-    "day": "4",
-    "night": "3"
+    "winter": "4",
+    "spring": "8",
+    "summer": "8",
+    "autumn": "8",
+    "day": "8",
+    "night": "5"
   },
   "notes": {
     "top": [
@@ -85,32 +117,83 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "2",
+    "longLasting": "7",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "2",
+    "strong": "6",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "6",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "9"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Giò Profumo"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "RASASİ",
+      "name": "Daarej pour Homme"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Layton"
+    },
+    {
+      "brand": "LANVİN",
+      "name": "Lanvin L'Homme"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas for Him"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Shuhrah Elixir"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Shuhrah Pour Homme"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Intense Man"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Silver"
+    },
+    {
+      "brand": "MAİSON CRİVELLİ",
+      "name": "Oud Maracujá"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Parfum Reserve Privée"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Devotion"
+    }
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "tarçın",
       "width": "55.2046%"
+    },
+    {
+      "name": "Online satın alın 9 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,33 +118,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "20",
+    "longLasting": "51",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "20",
+    "strong": "39",
+    "enormous": "11"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "2",
+    "unisex": "41",
+    "moreMale": "29",
+    "male": "21"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "1",
     "fair": "14",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "24",
+    "greatValue": "60"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AMOUAGE",
+      "name": "Interlude 53 Man"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Roman Leather"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Shaikhah"
+    },
+    {
+      "brand": "MORESQUE",
+      "name": "Sandal Granada"
+    },
+    {
+      "brand": "V CANTO",
+      "name": "Malatesta"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ana Abiyedh Leather"
+    },
+    {
+      "brand": "MEMO PARİS",
+      "name": "Irish Leather"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Desert Falcon"
+    },
+    {
+      "brand": "AL WATANİAH",
+      "name": "Special Oud"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Royal Leather"
+    },
+    {
+      "brand": "JEAN DESPREZ",
+      "name": "Bal à Versailles"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Oud Al Sahraa"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Somow Al Rasasi Wajaha"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -178,5 +259,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Ameer Al Oudh Intense Oud"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -19,11 +19,11 @@
       "width": "96.3159%"
     },
     {
-      "name": "aromatik",
+      "name": "odunsu",
       "width": "68.6841%"
     },
     {
-      "name": "odunsu",
+      "name": "aromatik",
       "width": "68.6841%"
     },
     {
@@ -35,16 +35,44 @@
       "width": "63.1582%"
     },
     {
-      "name": "laktonik",
+      "name": "yumuşak baharatlı",
       "width": "52.1052%"
     },
     {
-      "name": "yumuşak baharatlı",
+      "name": "laktonik",
       "width": "52.1052%"
     },
     {
       "name": "yeşil",
       "width": "44.737%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -80,32 +108,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Wood Sage & Sea Salt"
+    },
+    {
+      "brand": "GOLDFİELD & BANKS AUSTRALİA",
+      "name": "Pacific Rock Moss"
+    },
+    {
+      "brand": "JENNY GLOW",
+      "name": "Wood & Sage"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

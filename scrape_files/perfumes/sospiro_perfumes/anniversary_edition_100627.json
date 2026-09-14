@@ -15,48 +15,76 @@
       "width": "100%"
     },
     {
-      "name": "gül",
-      "width": "74.6667%"
-    },
-    {
       "name": "narenciye",
-      "width": "71.8333%"
+      "width": "67.8334%"
     },
     {
       "name": "meyvemsi",
-      "width": "70.0001%"
-    },
-    {
-      "name": "amber",
-      "width": "66.6668%"
-    },
-    {
-      "name": "tatlı",
-      "width": "64.0001%"
+      "width": "66.6667%"
     },
     {
       "name": "tüberöz",
-      "width": "63.3332%"
+      "width": "63.3333%"
+    },
+    {
+      "name": "tatlı",
+      "width": "61.6668%"
+    },
+    {
+      "name": "gül",
+      "width": "60.6665%"
+    },
+    {
+      "name": "amber",
+      "width": "53.3332%"
     },
     {
       "name": "animalik",
-      "width": "52.4999%"
-    },
-    {
-      "name": "çiçeksi",
-      "width": "50.1669%"
+      "width": "49.8334%"
     },
     {
       "name": "toprak",
-      "width": "48.3332%"
+      "width": "48.3333%"
+    },
+    {
+      "name": "odunsu",
+      "width": "47.6668%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.98",
-    "votesCount": "40",
+    "votesCount": "41",
     "breakdown": {
       "love": "27",
-      "like": "3",
+      "like": "4",
       "ok": "0",
       "dislike": "2",
       "hate": "8"
@@ -89,33 +117,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "4",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "1",
+    "strong": "4",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "7",
+    "moreMale": "1",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "6",
+    "overpriced": "3",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEROBOAM",
+      "name": "Gozo"
+    },
+    {
+      "brand": "SAHARÉ",
+      "name": "Gozoire"
+    },
+    {
+      "brand": "IBRAHEEM ALQURASHİ",
+      "name": "Mexican Tobacco"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
@@ -126,28 +167,28 @@
       "name": "Impadia"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Jubilation 40 Man"
-    },
-    {
       "brand": "CREED",
       "name": "Absolu Aventus 2023"
     },
     {
-      "brand": "SOSPİRO PERFUMES",
-      "name": "Il Padrino"
+      "brand": "AMOUAGE",
+      "name": "Jubilation 40 Man"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Blue Hope"
     },
     {
       "brand": "ROJA DOVE",
       "name": "Apex"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Angels' Share Paradis"
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Il Padrino"
     },
     {
-      "brand": "XERJOFF",
-      "name": "Blue Hope"
+      "brand": "BY KİLİAN",
+      "name": "Angels' Share Paradis"
     },
     {
       "brand": "SOSPİRO PERFUMES",
@@ -162,20 +203,21 @@
       "name": "Wulong Cha X"
     },
     {
-      "brand": "LOUİS VUİTTON",
-      "name": "Afternoon Swim"
-    },
-    {
       "brand": "CHANEL",
       "name": "Allure Homme Sport Cologne"
     },
     {
-      "brand": "XERJOFF",
-      "name": "XJ 1861 Naxos"
+      "brand": "LOUİS VUİTTON",
+      "name": "Afternoon Swim"
     },
     {
       "brand": "SOSPİRO PERFUMES",
       "name": "Basso"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
     }
-  ]
+  ],
+  "comments": []
 }

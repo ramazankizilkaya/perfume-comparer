@@ -49,6 +49,34 @@
     {
       "name": "vanilya",
       "width": "48.6667%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,7 @@
     }
   },
   "seasons": {
-    "winter": "2",
+    "winter": "3",
     "spring": "6",
     "summer": "4",
     "autumn": "3",
@@ -142,10 +170,6 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "BVLGARİ",
-      "name": "Rose Goldea"
-    },
-    {
       "brand": "LANCÔME",
       "name": "Idôle"
     },
@@ -170,12 +194,16 @@
       "name": "Rose Goldea Blossom Delight"
     },
     {
+      "brand": "DİOR",
+      "name": "Miss Dior Eau de Parfum (2021)"
+    },
+    {
       "brand": "CAROLİNA HERRERA",
       "name": "212 VIP Rosé"
     },
     {
-      "brand": "DİOR",
-      "name": "Miss Dior Eau de Parfum (2021)"
+      "brand": "BVLGARİ",
+      "name": "Allegra Magnifying Rose Essence"
     },
     {
       "brand": "LANCÔME",
@@ -201,5 +229,6 @@
       "brand": "MARC JACOBS",
       "name": "Daisy"
     }
-  ]
+  ],
+  "comments": []
 }

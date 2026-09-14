@@ -37,6 +37,34 @@
     {
       "name": "toprak",
       "width": "45.4982%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -78,33 +106,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "3",
+    "longLasting": "3",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "3",
+    "strong": "3",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "2",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LE LABO",
+      "name": "Vetiver 46"
+    },
+    {
+      "brand": "COMME DES GARCONS",
+      "name": "Comme des Garcons 2 Man"
+    },
+    {
+      "brand": "PİERRE CARDİN",
+      "name": "Choc de Cardin"
+    },
+    {
+      "brand": "COMME DES GARCONS",
+      "name": "Blue Encens"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LE LABO",
@@ -143,6 +188,10 @@
       "name": "Encre Noire"
     },
     {
+      "brand": "LE LABO",
+      "name": "Santal 33"
+    },
+    {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Portrait of a Lady"
     },
@@ -161,10 +210,7 @@
     {
       "brand": "DİOR",
       "name": "Fahrenheit"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "Mandarine Mandarin"
     }
-  ]
+  ],
+  "comments": []
 }

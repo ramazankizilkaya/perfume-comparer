@@ -60,70 +60,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "18",
-    "weak": "24",
-    "moderate": "23",
-    "longLasting": "3",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "22",
-    "moderate": "23",
-    "strong": "5",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "59",
-    "moreFemale": "5",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "4",
-    "overpriced": "7",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "12",
-    "goodValue": "19",
-    "greatValue": "13"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "KATY PERRY",
-      "name": "Katy Perry's Mad Love"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Candy, Baby"
-    },
-    {
-      "brand": "SO...?",
-      "name": "Candy Floss"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Warm & Cozy"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Tangerine Twirl"
-    },
-    {
-      "brand": "CARTİER",
-      "name": "Pasha de Cartier Noir Absolu"
-    },
-    {
-      "brand": "AQUOLİNA",
-      "name": "Pink Sugar"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "D&G Anthology L'Imperatrice 3"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Private Sundeck"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BRİTNEY SPEARS",
@@ -146,12 +109,12 @@
       "name": "Midnight Fantasy"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Yara"
-    },
-    {
       "brand": "AQUOLİNA",
       "name": "Pink Sugar"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara"
     },
     {
       "brand": "VİCTORİA'S SECRET",
@@ -185,5 +148,6 @@
       "brand": "VİCTORİA'S SECRET",
       "name": "Fruit Crush"
     }
-  ]
+  ],
+  "comments": []
 }

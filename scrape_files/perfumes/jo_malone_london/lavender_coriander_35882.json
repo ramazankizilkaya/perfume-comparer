@@ -67,54 +67,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "6",
-    "weak": "7",
-    "moderate": "5",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "5",
-    "strong": "6",
-    "enormous": "4"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "8",
-    "moreMale": "3",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "2",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Lavender & Coriander Cologne"
-    },
-    {
-      "brand": "ABERCROMBİE & FİTCH",
-      "name": "Fierce"
-    },
-    {
-      "brand": "VTXBTS",
-      "name": "L'Atelier des Subtils Eau de Bois"
-    },
-    {
-      "brand": "CARON",
-      "name": "Pour Un Homme de Caron"
-    },
-    {
-      "brand": "LE LABO",
-      "name": "Lavande 31"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JO MALONE LONDON",
@@ -146,11 +125,11 @@
     },
     {
       "brand": "JO MALONE LONDON",
-      "name": "Blue Agava & Cacao"
+      "name": "Mimosa & Cardamom"
     },
     {
       "brand": "JO MALONE LONDON",
-      "name": "Mimosa & Cardamom"
+      "name": "Blue Agava & Cacao"
     },
     {
       "brand": "JO MALONE LONDON",
@@ -159,10 +138,6 @@
     {
       "brand": "JO MALONE LONDON",
       "name": "Pomegranate Noir"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Eau de Narcisse Bleu"
     },
     {
       "brand": "CHANEL",
@@ -175,6 +150,11 @@
     {
       "brand": "SERGE LUTENS",
       "name": "Chergui"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Feminité du Bois"
     }
-  ]
+  ],
+  "comments": []
 }

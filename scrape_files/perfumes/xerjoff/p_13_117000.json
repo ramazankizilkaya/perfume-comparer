@@ -43,12 +43,40 @@
       "width": "52.25%"
     },
     {
+      "name": "gül",
+      "width": "50.9998%"
+    },
+    {
       "name": "yosunlu",
       "width": "50.9998%"
     },
     {
-      "name": "gül",
-      "width": "50.9998%"
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -91,45 +119,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "1",
+    "moderate": "2",
+    "longLasting": "8",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "2",
+    "strong": "3",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "7",
+    "unisex": "6",
+    "moreMale": "0",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "10",
+    "overpriced": "2",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LES BAİNS GUERBOİS",
+      "name": "1992 Purple Night"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Carnal Flower"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Lunosa"
+    },
+    {
+      "brand": "FRANCK BOCLET",
+      "name": "Cocaïne"
+    },
+    {
+      "brand": "ORMAİE",
+      "name": "Tableau Parisien"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
       "name": "P.18"
     },
     {
-      "brand": "NAVİTUS PARFUMS",
-      "name": "Amour Infinite"
-    },
-    {
       "brand": "CASAMORATİ 1888",
       "name": "Quattro Pizzi"
+    },
+    {
+      "brand": "NAVİTUS PARFUMS",
+      "name": "Amour Infinite"
     },
     {
       "brand": "VERSACE",
@@ -179,5 +228,6 @@
       "brand": "LES LİQUİDES IMAGİNAİRES",
       "name": "Âme Du Coeur"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -93,50 +93,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "0",
-    "moderate": "5",
-    "longLasting": "5",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "5",
-    "strong": "7",
-    "enormous": "8"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "6",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "REGAL",
-      "name": "Enjoy"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique Pirate Edition"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Rosa Rossa (A Chinese New Year Limited Edition)"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -145,10 +128,6 @@
     {
       "brand": "LANCÔME",
       "name": "Poeme"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "Amarige"
     },
     {
       "brand": "CACHAREL",
@@ -161,6 +140,10 @@
     {
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Samsara Eau de Parfum"
     },
     {
       "brand": "LOLİTA LEMPİCKA",
@@ -198,5 +181,6 @@
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

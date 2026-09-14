@@ -39,16 +39,44 @@
       "width": "52.1053%"
     },
     {
-      "name": "balsamik",
+      "name": "pudralı",
       "width": "48.421%"
     },
     {
-      "name": "pudralı",
+      "name": "balsamik",
       "width": "48.421%"
     },
     {
       "name": "sıcak baharatlı",
       "width": "44.7368%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -85,33 +113,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "4",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "4",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CREED",
+      "name": "Green Irish Tweed"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Night Club Green Tweed"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Venti Green Tweed"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "FRAGRANCE WORLD",
@@ -134,10 +175,6 @@
       "name": "Interlude Man"
     },
     {
-      "brand": "FRAGRANCE WORLD",
-      "name": "Dark As Wood"
-    },
-    {
       "brand": "AMOUAGE",
       "name": "Reflection 45 Man"
     },
@@ -154,6 +191,14 @@
       "name": "Gentleman Eau de Parfum Reserve Privée"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "His Confession"
+    },
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Harmonious"
+    },
+    {
       "brand": "AMOUAGE",
       "name": "Reflection Man"
     },
@@ -168,10 +213,7 @@
     {
       "brand": "BVLGARİ",
       "name": "Bvlgari Man In Black"
-    },
-    {
-      "brand": "NİSHANE",
-      "name": "Papilefiko"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -15,7 +15,7 @@
       "width": "100%"
     },
     {
-      "name": "sulu",
+      "name": "çiçeksi",
       "width": "68.8889%"
     },
     {
@@ -23,12 +23,40 @@
       "width": "68.8889%"
     },
     {
-      "name": "çiçeksi",
+      "name": "sulu",
       "width": "68.8889%"
     },
     {
       "name": "bitkisel",
       "width": "49.4444%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,33 +89,38 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "2",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "2",
+    "strong": "2",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ÁGUA DE CHEİRO",
+      "name": "#Self[ie] Live Green"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CALVİN KLEİN",
@@ -141,5 +174,6 @@
       "brand": "NATURA",
       "name": "Jambo Rosa e Flor de Caju"
     }
-  ]
+  ],
+  "comments": []
 }

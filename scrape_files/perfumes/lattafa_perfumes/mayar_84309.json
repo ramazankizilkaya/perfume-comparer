@@ -16,51 +16,79 @@
     },
     {
       "name": "gül",
-      "width": "68.0586%"
+      "width": "68.0274%"
     },
     {
       "name": "tatlı",
-      "width": "62.643%"
+      "width": "62.6972%"
     },
     {
       "name": "taze",
-      "width": "61.0421%"
+      "width": "61.0665%"
     },
     {
       "name": "tropikal",
-      "width": "55.4385%"
+      "width": "55.3452%"
     },
     {
       "name": "çiçeksi",
-      "width": "54.9344%"
+      "width": "55.021%"
     },
     {
       "name": "sulu",
-      "width": "48.5104%"
+      "width": "48.3939%"
     },
     {
       "name": "misk",
-      "width": "47.6902%"
+      "width": "47.45%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.04",
-    "votesCount": "1,915",
+    "votesCount": "1,968",
     "breakdown": {
-      "love": "821",
-      "like": "625",
-      "ok": "252",
-      "dislike": "160",
-      "hate": "57"
+      "love": "844",
+      "like": "642",
+      "ok": "257",
+      "dislike": "163",
+      "hate": "62"
     }
   },
   "seasons": {
-    "winter": "174",
-    "spring": "929",
-    "summer": "973",
-    "autumn": "277",
-    "day": "968",
-    "night": "259"
+    "winter": "179",
+    "spring": "963",
+    "summer": "1k",
+    "autumn": "284",
+    "day": "996",
+    "night": "267"
   },
   "notes": {
     "top": [
@@ -80,33 +108,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "29",
+    "weak": "108",
+    "moderate": "594",
+    "longLasting": "332",
+    "eternal": "99"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "118",
+    "moderate": "594",
+    "strong": "304",
+    "enormous": "57"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1k",
+    "moreFemale": "88",
+    "unisex": "25",
+    "moreMale": "9",
+    "male": "7"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "252",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "23",
+    "overpriced": "31",
+    "fair": "257",
+    "goodValue": "520",
+    "greatValue": "470"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MUGLER",
+      "name": "Angel Nova"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Trésor Midnight Rose"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Very Good Girl"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Alive Now"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Very Good Girl Glam"
+    },
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Mousuf Wardi"
+    },
+    {
+      "brand": "COMMODİTY",
+      "name": "Juice"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "La Charmante Eclatant"
+    },
+    {
+      "brand": "ATELİER DES ORS",
+      "name": "Pink Me Up"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "9pm pour Femme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Baby Doll Honeymoon Limited Edition"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Hayaati Florence"
+    },
+    {
+      "brand": "NEST",
+      "name": "Lychee Rose"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Sweetest Song"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Passion Temptation"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -134,11 +223,11 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Fakhar Rose"
+      "name": "Yara Candy"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Yara Candy"
+      "name": "Fakhar Rose"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -153,10 +242,6 @@
       "name": "Black Opium"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Libre"
-    },
-    {
       "brand": "CAROLİNA HERRERA",
       "name": "Good Girl"
     },
@@ -167,6 +252,212 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Angham"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Eclaire"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent613489",
+      "author": "ryane",
+      "date": "2025-10-16",
+      "text": "Tamam, peki. Bir süre bekledim ve kabul ediyorum... Kağıt üzerinde Nova'dan ayırt edilemez, ancak tende orijinali çok daha güçlü, çok daha belirgin ve dolgun bir liçi aromasına sahip ve açılışı anında çok daha karmaşık. Yine de, kuruduktan sonra %90 oranında orijinaline benziyor. Eski sevgilim bende beğendi. Gerçekten şeytani biri ama neyse.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1295000.jpg"
+    },
+    {
+      "id": "parent613539",
+      "author": "Berlero4ka",
+      "date": "2025-03-09",
+      "text": "Aman Tanrım, bu çok lezzetli! İyi ki satın almadan önce yorumları okumadım, yoksa bu enfes ve lezzetli meyveli ikramı alamazdım!\nHer erkeğin kendine özgü bir zevki vardır, bunu unutmayın sevgili Fragrantera okuyucuları! Kimileri için Dolce & Gabbana'nın Empress parfümü \"Pyaterochka'daki kasiyer\" gibidir, ama kimileri (ben de dahil) içinse sevilen, ruh halini yükselten, en sevdikleri parfümlerden biridir!\nKalıcılığı muhteşem, kokusu tam anlamıyla YAZ ve MUTLULUK. Bu fiyata, yanınızda bir küçük şişe taşıyıp her saat başı yeniden doldurabilirsiniz. İş yerindeki herkes bayılıyor!\nMeyveli sıçrama. Kocam her zaman \"Bu ne?\" diye sorar ve hiçbir şeyi beğenmez!\nMeyve aranjmanlarına bayılıyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.422715.jpg"
+    },
+    {
+      "id": "parent613505",
+      "author": "Guts98",
+      "date": "2024-12-10",
+      "text": "Mayar, liçi, ahududu, gül, şakayık ve yasemin çiçeğinin misk dokunuşlarıyla harmanlandığı, Mugler'in Angel Nova'sını mükemmel bir şekilde anımsatan enfes bir koku. Gerçekten mükemmel bir koku ve özellikle gül notasını seven meyveli-çiçekli kokular için şiddetle tavsiye edilir.\nBu parfüm, kabul edilebilir bir performans ve oldukça hoş bir yayılım sunarak, Mugler parfümlerinin yüksek fiyatını ödemek istemeyenler için oldukça ilgi çekici bir seçenek haline geliyor. Mayar, koleksiyonunuza kesinlikle değer katacak bir parfüm.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.217161.jpg"
+    },
+    {
+      "id": "parent613540",
+      "author": "Lana Kyryliuk",
+      "date": "2024-06-04",
+      "text": "Bu, kör alışverişle alacağım son parfüm olurdu. Bir daha asla. Birisi My Way'e benzediğini yazmış ama hiç benzemiyor. Vahşi, bayıcı bir kimyasal karmaşa. Önce ahududuyu, sonra kuş üzümünü kokluyorsunuz. YouTube'da aldığı tüm övgüleri anlayamıyorum. Yavan ve ucuz kokuyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent613524",
+      "author": "Luida72!!",
+      "date": "2024-06-04",
+      "text": "Bence oldukça başarılı bir parfüm. Tatlı olmayan, daha çok \"ekşi\" meyve notalarını sevenler beğenebilir. Liçi notası belirgin ve parfümün kalıcılığı boyunca kendini gösteriyor.\nMaya meyvemsi, çiçeksi, taze, yoğun ve mükemmel kalıcılığa sahip bir parfüm. Hoş olmayan alkol notaları içermiyor. Chloe sevenler beğenebilir.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.59418.jpg"
+    },
+    {
+      "id": "parent613517",
+      "author": "Sab Eul",
+      "date": "2024-05-30",
+      "text": "Doğum günümde bana diğer Lattafa parfümleriyle birlikte \"Mayar\" hediye edildi ve şimdi bu markanın birçok ürününe sahip olduğum için, bunların birbirinin aynı parfümü olduğunu rahatlıkla söyleyebilirim.\n\nBu parfüm, zaten çok beğendiğim Mugler'in \"Angel Nova\" parfümünün neredeyse birebir kopyası.\nEvde aslına sahip olduğum için hemen tanıdım. Gayet iyi yapılmış.\nÇok iyi kalıcılık. Çok iyi yayılım ve etki gücü.\nMeyvemsi, tatlı ve pudralı bir çiçek kokusu, çok hoş ve keyif verici.\nMugler'in \"AN\" parfümünü beğendiyseniz, bunu da beğeneceğinizi düşünüyorum.\n\nAncak oldukça gösterişli, meyve ve şeker notaları çok belirgin; bu nedenle hafif bir koku arıyorsanız, bu size göre değil. Kesinlikle incelikten yoksun, ancak amaçlanan etki de bu değil. Notalar sentetik, ancak bence rahatsız edici değil.\nAncak, çok meyveli, yoğun, gerçekten tatlı ve keyif verici tatlardan hoşlanmıyorsanız, muhtemelen bunu da beğenmeyeceksiniz.\n\nŞahsen ben çok beğendim. Angel Nova'ya daha uygun fiyatlı bir alternatif arayanlar için iyi bir seçenek.\n\nKişisel puanım: 8/10.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.28384.jpg"
+    },
+    {
+      "id": "parent613490",
+      "author": "Queen_esther",
+      "date": "2024-05-20",
+      "text": "Bunu bir süre bekletin.\nDemlendiğinde, sulu, taze, tatlı ama aşırı tatlı olmayan, köpüklü bir liçi aroması ortaya çıkıyor. Angel Nova'ya göre bunu daha çok seviyorum çünkü Nova'nın rahatsız edici sert bir notası var. Bunda o sert nota yok ve Nova'dan daha iyi. Sıcak yaz havalarında gerçekten çok güzel. Köpüklü, çekici, meyveli ve kadınsı. En uzun süre kalıcı litfalardan biri. Hanımlar, bunu alın.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1950151.jpg"
+    },
+    {
+      "id": "parent613554",
+      "author": "Mandala",
+      "date": "2024-05-15",
+      "text": "Çok hoş, enerjik, ilkbahar-yaz kokusu. Güçlü bir misk zeminine karşı canlı, meyveli ve çiçekli bir karışım. En belirgin olarak ahududu, liçi, şakayık ve misk kokusu alıyorum. Şakayık neredeyse... gevrek gibi. Ancak misk, biraz köşeli, kremsi değil, daha çok \"kirli\" olduğu için bazılarını rahatsız edebilir. Bu, adında \"Misk\" kelimesi geçen birçok Arap parfümünde bulunan özel bir misk türü. Mayar bana Angel Nova'yı, biraz da Bright Crystal'ı hatırlatıyor - ve bunların sadece kendi çağrışımlarım olduğunu, türü ve ait olduğu koku kategorisini tanımlamaya yardımcı olmak amacıyla olduğunu vurguluyorum. Genel olarak, parfümleri birbirinden farklı yaratımlar, birbirine benzer veya hatta doğrudan birbirlerinden ilham alan ayrı varlıklar olarak ele alıyorum. Onları birbirine karşı koymaya çalışmıyorum, sadece bir koku yönünün parçası olarak belirtiyorum. Mayar'ın yayılımı ortalama (belki biraz daha fazla), ancak başlangıçta oldukça güçlü. Kalıcılığı, özellikle bu tür bir koku için iyi; 6 saat sonra bile ciltte hala fark ediliyor, ancak yavaş yavaş kayboluyor. Büyük bir zevkle kullanıyorum; her zaman moralimi yükseltiyor ve bana enerji veriyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.67460.jpg"
+    },
+    {
+      "id": "parent613556",
+      "author": "zupazarbuza",
+      "date": "2024-04-15",
+      "text": "Angel Nova'ya benziyor ama bence Lattafa versiyonu daha iyi çünkü Mugler gibi çok tatlı değil. Denedikten sonra hemen bir şişe sipariş ettim çünkü ilkbahar/yaz için bir şey arıyordum. Doğru uygulamayla 7 saate kadar kokusunu alabiliyorum, bu da fiyatına göre harika. En güzel yanı ise parfümlerde ahududu notasını sevmememe rağmen, bu notanın çiçekler ve misk ile o kadar güzel harmanlanmış olması ki beni hiç rahatsız etmiyor. :) Tavsiye ederim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent613484",
+      "author": "LynneDarling",
+      "date": "2024-04-07",
+      "text": "Pekala hanımlar, Mayar'a dalalım! Aman Tanrım! İlk fısla bayıldım. Kesinlikle büyüleyici, tatlı, meyveli, şeker gibi bir koku. İnsanı içine çeken muhteşem bir karışım. Eğer tatlı parfümlerden hoşlanmıyorsanız, uzak durmanızı öneririm çünkü bu gerçekten çok sulu bir koku. Ama ben meyveli tatlılığı çok seviyorum, bu yüzden benim için kesinlikle harika.\n\nO kadar taze ki! Olgun ahududu ve sulu kırmızı meyvelerin aromasını hayal edin. Liçi kesinlikle burada başrolde. Ayrıca misk ve çiçek notalarının da izlerini alacaksınız. Bu, en tatlı kokulardan biri ve yetişkin bir kadın için de uygun. Koku yerleştikçe, gül ve egzotik yasemin notalarını almaya başlıyorsunuz. Ve size söyleyeyim, tüm bu notalar rüya gibi bir araya geliyor. Çok hoş bir koku. Bunu sürdüğümde moralim yükseliyor. Ancak, oldukça güçlü bir koku olduğunu da belirtmeliyim, bu yüzden dikkatli kullanın. Bu koku tüm gün boyunca kalıcı ve yayılıyor. İnsanlar kesinlikle sizi fark edecek.\n\nTatlı bir parfüm için bu, belki de o cezbedici misk sayesinde \"seksi\" bir tatlılık. İnanın bana, erkekler bu karşı konulmaz kokuya bayılacak, kadınlar ise sırrınızı öğrenmek için can atacak. Eğer bu parfüm vücut kimyanızla uyumluysa, kendinizi harika hissetmenizi sağlayacak bir iltifat yağmuruna hazır olun.\n\nNot: Lattafa parfümlerinizin oksitlenmesine izin verin. Şişeyi açın, havaya 5-10 kez sıkın ve en az 2 hafta boyunca serin ve kuru bir yerde bekletin. Benimki bir aylık ve hala MUHTEŞEM.\n\nBu parfümü beğenmediyseniz ve başkasına verecekseniz veya atmayı planlıyorsanız lütfen bana mesaj atın! Onu sizden almak isterim! 🌸💖💕🌺🌷🎀🍬",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2082432.jpg"
+    },
+    {
+      "id": "parent613555",
+      "author": "bozon_higgsa",
+      "date": "2024-04-04",
+      "text": "Ne yazık ki, çoğunlukla aynı fikirde değilim ve Mayar'ın kesinlikle iyi bir Angel Nova klonu olmadığına inanıyorum. İlk koklamadan itibaren, kompozisyonu bozan ve içeriklerin kalitesinin sorgulanabilir olduğunu düşündüren, sözde \"benzin notası\" adı verilen sentetik bir alt ton algılanabiliyor. Ne yazık ki, benzin notası zamanla (umarım olduğu gibi) kaybolmuyor ve kuruyana kadar kalıyor. Ahududu nüansları Angel Nova'dakilere inanılmaz derecede benzediği için ona ısınabileceğimi düşündüm ve bir şans verdim. Ancak, onu kullanamadığımı fark ettim ve üzülerek elden çıkardım. Kesinlikle para biriktirip Mugler almak daha iyi.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.50759.jpg"
+    },
+    {
+      "id": "parent613507",
+      "author": "Svm80",
+      "date": "2024-03-23",
+      "text": "İlk Arap parfümüm ve itiraf etmeliyim ki, bir kokuyla hiç bu kadar bağ kurmamıştım. Etkileyici bir yayılım ve kalıcılığa sahip. Benim için Angel Nova'nın bir muadili, belirgin farklılıklar olsa da çok benzer. Şişesi ve sunumu muhteşem. Angel Nova'yı veya o meyveli tarzı seviyorsanız denemeye değer. Fiyatına göre 10/10!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.125502.jpg"
+    },
+    {
+      "id": "parent613487",
+      "author": "Iveta IBM",
+      "date": "2024-03-15",
+      "text": "Arap parfümleri, son derece uygun fiyatlı ve şaşırtıcı derecede yüksek kaliteli parfümleriyle oyunun kurallarını değiştiriyor ve ben buna bayılıyorum.\nMayar hem ferahlatıcı hem de uzun süre kalıcı, ki bu nadir bir özellik. Açılışta hafif bir acılık var ama bu yapay ve rahatsız edici bir acılık değil, daha çok greyfurt benzeri bir acılık (notlarda yer almasa da). Işıltılı, meyveli, neşeli, kız gibi ve kaygısız, bana plajda bir tatili hatırlatıyor. Eminim ki sıcak aylarda daha da parlayacak ve yazın kullanmak için sabırsızlanıyorum.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1679061.jpg"
+    },
+    {
+      "id": "parent613527",
+      "author": "Purple Cat",
+      "date": "2024-03-05",
+      "text": "Bu parfümde beni ergenlik öncesi dönemime götüren bir şey var. 90'ların sonları ve 2000'lerin başlarındaki o tipik parfümler... Sergio Tacchini, Lancetti parfümleri gibi... İlk sıktığımda taze/yeşil bir koku alıyorum (sanırım menekşe yaprakları?). Sonra tatlılığı fark ediyorsunuz, ama Arap parfümlerine özgü tatlılık değil; derin ve likör gibi, hafif bir tatlılık ve sonra her şeye hakim olan sadece ve yalnızca şakayık (maalesef gül veya yasemin izi yok). Diğer Arap parfüm evlerinin parfümlerindeki gibi yuvarlaklık, derinlik yok. Sonra yerleşiyor ve yavaş yavaş hafif bir misk ipucuna dönüşüyor, ama şakayık her zaman mevcut. Yurtdışındaki bir Arap parfüm dükkanında iki saniye kokladığım için kör alışverişle aldım. Bana daha iyi gelmişti. Başlangıçta bahsettiğim parfüm türüne çok benziyor. Sanırım bunu kullanamam. Bir süre sonra artık dayanamıyorum (ve çok uzun süre kalıcı). Bu tür parfümleri seven herkese hediye olarak vereceğim.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.85873.jpg"
+    },
+    {
+      "id": "parent613538",
+      "author": "Мария mango91",
+      "date": "2024-02-27",
+      "text": "Ellerimde paralel bir test yaptım. Mugler'in Angel Nova ojesiyle %90 benzerlik gösterdi.\nParfüm, liçi ve ahududu ile parlak ve güçlü bir şekilde açılıyor. Orta notalarda gül ortaya çıkıyor ve koku Lancôme'un Tresor Midnight Rose'unu anımsatıyor. Ardından koku tekrar değişiyor ve dip notalarda yine ahududu ile 99% Angel Nova öne çıkıyor.\nÇok hoş, berrak, parlak bir koku; kulağa çok güzel geliyor ve insanın moralini yükseltiyor 🥰",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.358223.gif"
+    },
+    {
+      "id": "parent613492",
+      "author": "brittleedray",
+      "date": "2024-01-26",
+      "text": "Mugler Angel Nova'm vardı ve bitmek üzereydi - neden bunu çok daha uygun fiyata denemeyeyim diye düşündüm? Ve denediğime çok sevindim!!! Bu kesinlikle Angel Nova'nın birebir aynısı!!!! Bence Angel Nova'ya çok benziyor - özellikle benim üzerimde. İnsanların neden aynı olmadığını söylediğini anlamıyorum. Bu biraz farklı, ama fiyatına göre hiçbir şikayetim yok. Bu benim yeni imza parfümüm olacak.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent613502",
+      "author": "VainillaDulce",
+      "date": "2024-01-23",
+      "text": "Bu da beni hoş bir şekilde şaşırtan Arap parfümlerinden bir diğeri. Bazılarının alkollü bir açılışa sahip olduğunu ve çok sentetik olduğunu söylediğini görüyorum, ancak buna kesinlikle katılmıyorum. Ben asla alkollü bir açılış kokusu almıyorum, sentetik olarak da algılamıyorum, ancak herkesin burnu farklıdır.\n\nMayar, modern, genç ve ferah tonlara sahip bir parfüm; ancak son notalarında belirgin, ama bayıcı olmayan bir tatlılık ortaya çıkıyor. Meyveli, tatlı ve çiçeksi. İlk fark edeceğiniz şey, çilek ve ahududu parçacıklarıyla birlikte oldukça ekşi bir liçi suyu ve çok ince yeşil dokunuşlar. Birkaç dakika sonra, kadifemsi yaprakları olan genç bir gül parlamaya başlıyor. Şakayık destekleyici bir rol oynuyor ve arka planda neredeyse fark edilmeyen narin, çok yumuşak bir yasemin var. Yaklaşık 15 dakika sonra, kırmızı meyveler tatlanmaya başlıyor ve güzel vanilya ve ara sıra odunsu notalarla yıkanmış lezzetli bir şuruba dönüşüyor. Bu parfümde en çok öne çıkan nedir? Meyveleri, gülü ve vanilyası.\n\nHer yaştan insan için uygun olan bu parfüm, güçlü, kalıcı ve yayılımı yüksek bir kokuya sahip. Benim için bahar parfümü; güneşi, çiçekleri, meyveleri, hayatın kendisini temsil ediyor. Tekrar ediyorum, 10 saat veya daha fazla süreyle güçlü ila orta derecede yayılım gösteriyor ve fiyatı da oldukça uygun.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.23354.jpg"
+    },
+    {
+      "id": "parent613485",
+      "author": "MoreScentsThanDollars",
+      "date": "2023-11-14",
+      "text": "Bayıldım, 🤩 Süper tatlı, sert meyveli şeker gibi, diş çürüten bir şey, evime sıktığımda çok seviyorum, kumaşlara yapışıyor ve uzun süre muhteşem görünüyor.\n\nİlgilenenler için,\nBu ve diğeri\nParlak pembe kutuda 'Alive Now by Maison Alhambra' ve\nPembe malzeme çantasında 'Ard Al Zaafaran Musuf Wardi',\nHepsinin kokusu hemen hemen aynı.\n\nBunu bilmiyordum ve hepsini aldım, şimdi çok fazla olduğu için her yere sıkıyorum.\nAma zamanı geri alabilseydim ve hepsinin aynı koktuğunu bilseydim, sadece birini alırdım.\n(Ard Al Zaafaran Mousuf Wardi) Açılışta diğer ikisine göre biraz daha akıcı.\n\nEdit Mayar'ın şişesi çok güzel. Ezilip dağılan bir tüp içinde geliyor ama şişe muhteşem.\n\nAlive Now şişesi ve kutusu parlak pembe renkte ve ucuz görünümlü.\n\nWardi'nin sıra dışı bir şişesi var; ya düz bir şekilde duruyor ya da kendi çantasına asabiliyorsunuz.\nPoşetin içine hepsini sıkıyorum ve parfüm dolabıma asıyorum.\n\nGüncelleme: Birkaç hafta sonra hepsini tekrar denedim ve hala birbirlerine çok benziyorlar, sadece Mayar'ın açılışında hafif bir yeşilimsi nota keşfettim, göze çarpan bir fark değil ama bekledikçe çok hafif farklılıklar gösteriyorlar. Dürüst olmak gerekirse, hepsine sahip olmayı gerektirecek kadar büyük bir fark değil.\n\n\nGüncelleme!!!\nAynı şekilde, Mayar'ın ikizi olan bir diğeri daha.\nAtelier Des Ors 'pink me up'",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.340665.gif"
+    },
+    {
+      "id": "parent613488",
+      "author": "Planet_Spectra",
+      "date": "2023-10-04",
+      "text": "Sanki liçi ve ahududuyla yüzünüze yumruk yemiş gibi! Muazzam bir patlamayla başlıyor. Sonra, muhteşem meyvemsi sululuğunu korurken, daha topraksı, pürüzsüz bir vanilya tabanına doğru yumuşuyor. Bana çok Angel Nova'yı hatırlatıyor, ki kısıtlı bütçem yüzünden ona ulaşamamıştım - Mayar'ı doğum günümde hediye olarak aldım ve burnuma ne kadar benzediğine çok sevindim! Benim en sevdiğim parfümlerden biri.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1508786.jpg"
+    },
+    {
+      "id": "parent613486",
+      "author": "Palmer Eldritch",
+      "date": "2023-08-20",
+      "text": "Sonunda bu muhteşem viral koku veritabanına eklendi!\nHerkesin merak ettiği soruları yanıtlamak için:\n\nHAYIR, bu Armani'nin My Way parfümünün klonu/esinlenimi/taklidi DEĞİL! Ciddi söylüyorum arkadaşlar, sadece ambalajı benzer diye bu karşılaştırma çok yanıltıcı! Bu, Angel Nova EDP'nin taklidi/esinlenimidir, farklar şunlardır:\n- Mayar çok daha ekşi-tatlı meyvemsi ve çok daha az çiçeksi.\n- Nova'nın taban notaları daha yoğun ve biraz daha olgun.\n\nYapay ekşi-tatlı liçi/ahududu/greyfurt kokusu başlangıçta çok yoğun, adeta bir patlama gibi. Eğer greyfurtlu meyve kokularından hoşlanmıyorsanız, Mayar'dan uzak durun.\nCiltte kurudukça güçlü greyfurt akoru azalıyor ve koku daha çok çaya benziyor. Angel Muse EDT gibi birçok Angel parfümünde bulunan o ünlü çay notasını biliyorsunuz değil mi? Mayar'ın kuruma aşamasında da o çay notası var, sadece topraksı paçuli yok. Hiç şüphe yok. Angel Muse EDP & EDT ve Angel EDT/EDP'ye sahip oldum ve koku hafızam bana tanıdık geliyor.\n\nGenel olarak harika performans, nefis greyfurt çayı kokusu. BAYILDIM.\nEğer Angel Nova hayranıysanız, Mayar'ı %100 tavsiye ederim!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1202620.gif"
     }
   ]
 }

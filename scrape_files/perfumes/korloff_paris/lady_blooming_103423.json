@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.103423.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Korloff-Paris/Lady-Blooming-103423.html",
   "brand": "Korloff Paris parfüm ve kolonya",
-  "description": "Korloff Paris markasının Lady Blooming parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. Bu yeni bir parfüm. Lady Blooming, 2025 yılında piyasaya sürüldü. Üst notalar: Litchi, Bergamot ve Ravent; orta notalar: Gül, Sedir ağacı ve Şakayık; alt notalar Misk, Kaşmir ağacı, Günlük ve Vetiver.",
-  "description_original": "Korloff Paris markasının Lady Blooming parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. Bu yeni bir parfüm. Lady Blooming, 2025 yılında piyasaya sürüldü. Üst notalar: Litchi, Bergamot ve Ravent; orta notalar: Gül, Sedir ağacı ve Şakayık; alt notalar Misk, Kaşmir ağacı, Günlük ve Vetiver.",
-  "description_enhanced": "Korloff Paris markasının Lady Blooming parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. Bu yeni bir parfüm. Lady Blooming, 2025 yılında piyasaya sürüldü. Üst notalar: Litchi, Bergamot ve Ravent; orta notalar: Gül, Sedir ağacı ve Şakayık; alt notalar Misk, Kaşmir ağacı, Günlük ve Vetiver.",
+  "description": "Korloff Paris markasının Lady Blooming parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. Bu yeni bir parfüm. Lady Blooming, 2025 yılında piyasaya sürüldü. Üst notalar: Litchi, Bergamot ve Ravent; orta notalar: Gül, Sedir ağacı ve Şakayık; alt notalar Beyaz Misk, Kaşmir ağacı, Günlük ve Vetiver.",
+  "description_original": "Korloff Paris markasının Lady Blooming parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. Bu yeni bir parfüm. Lady Blooming, 2025 yılında piyasaya sürüldü. Üst notalar: Litchi, Bergamot ve Ravent; orta notalar: Gül, Sedir ağacı ve Şakayık; alt notalar Beyaz Misk, Kaşmir ağacı, Günlük ve Vetiver.",
+  "description_enhanced": "Korloff Paris markasının Lady Blooming parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. Bu yeni bir parfüm. Lady Blooming, 2025 yılında piyasaya sürüldü. Üst notalar: Litchi, Bergamot ve Ravent; orta notalar: Gül, Sedir ağacı ve Şakayık; alt notalar Beyaz Misk, Kaşmir ağacı, Günlük ve Vetiver.",
   "mainAccords": [
     {
       "name": "gül",
@@ -27,32 +27,36 @@
       "width": "63.25%"
     },
     {
+      "name": "pudralı",
+      "width": "47.5%"
+    },
+    {
       "name": "taze",
       "width": "47.5%"
     },
     {
-      "name": "pudralı",
-      "width": "47.5%"
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
-    "score": "3.59",
-    "votesCount": "27",
+    "score": "3.62",
+    "votesCount": "29",
     "breakdown": {
-      "love": "11",
+      "love": "12",
       "like": "8",
-      "ok": "0",
+      "ok": "1",
       "dislike": "2",
       "hate": "6"
     }
   },
   "seasons": {
-    "winter": "1",
-    "spring": "8",
-    "summer": "7",
-    "autumn": "3",
-    "day": "6",
-    "night": "2"
+    "winter": "2",
+    "spring": "10",
+    "summer": "8",
+    "autumn": "4",
+    "day": "8",
+    "night": "3"
   },
   "notes": {
     "top": [
@@ -66,7 +70,7 @@
       "Şakayık"
     ],
     "base": [
-      "Misk",
+      "Beyaz Misk",
       "Kaşmir ağacı",
       "Günlük",
       "Vetiver"
@@ -96,12 +100,16 @@
   "priceVoting": {
     "wayOverpriced": "",
     "overpriced": "",
-    "fair": "0",
+    "fair": "1",
     "goodValue": "",
     "greatValue": ""
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Elle"
+    },
     {
       "brand": "DİOR",
       "name": "Midnight Poison"
@@ -123,16 +131,16 @@
       "name": "Coco Mademoiselle"
     },
     {
-      "brand": "MOSCHİNO",
-      "name": "Moschino Funny!"
-    },
-    {
       "brand": "CASAMORATİ 1888",
       "name": "Bouquet Ideale"
     },
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Baccarat Rouge 540"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dolce Vita"
     },
     {
       "brand": "BYREDO",
@@ -157,10 +165,7 @@
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Alien"
     }
-  ]
+  ],
+  "comments": []
 }

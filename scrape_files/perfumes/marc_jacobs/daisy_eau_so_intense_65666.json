@@ -16,59 +16,87 @@
     },
     {
       "name": "meyvemsi",
-      "width": "96.4339%"
+      "width": "96.4333%"
     },
     {
       "name": "bal",
-      "width": "67.2409%"
+      "width": "67.3359%"
     },
     {
       "name": "vanilya",
-      "width": "54.4799%"
+      "width": "54.2683%"
     },
     {
       "name": "misk",
-      "width": "49.1463%"
-    },
-    {
-      "name": "pudralı",
-      "width": "47.9997%"
+      "width": "48.9809%"
     },
     {
       "name": "çiçeksi",
-      "width": "47.9472%"
+      "width": "47.917%"
+    },
+    {
+      "name": "pudralı",
+      "width": "47.8651%"
     },
     {
       "name": "amber",
-      "width": "47.0426%"
+      "width": "46.8951%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "46.2008%"
+      "width": "46.0607%"
     },
     {
       "name": "yosunlu",
-      "width": "44.3073%"
+      "width": "44.392%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.92",
-    "votesCount": "1,041",
+    "score": "3.93",
+    "votesCount": "1,058",
     "breakdown": {
-      "love": "366",
-      "like": "385",
-      "ok": "163",
-      "dislike": "97",
+      "love": "375",
+      "like": "388",
+      "ok": "167",
+      "dislike": "98",
       "hate": "30"
     }
   },
   "seasons": {
-    "winter": "123",
-    "spring": "382",
-    "summer": "308",
-    "autumn": "214",
-    "day": "372",
-    "night": "125"
+    "winter": "126",
+    "spring": "391",
+    "summer": "314",
+    "autumn": "219",
+    "day": "380",
+    "night": "130"
   },
   "notes": {
     "top": [
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "20",
+    "weak": "64",
+    "moderate": "267",
+    "longLasting": "100",
+    "eternal": "16"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "89",
+    "moderate": "267",
+    "strong": "64",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "383",
+    "moreFemale": "56",
+    "unisex": "22",
+    "moreMale": "4",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "163",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "22",
+    "overpriced": "82",
+    "fair": "167",
+    "goodValue": "60",
+    "greatValue": "8"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Her"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Bouquet de Hongrie"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Baccarat Rouge 540"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Brightest Bloom"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Black Edition"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Hot Pink"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Byredo"
+    },
+    {
+      "brand": "MİNİSO X SNOOPY",
+      "name": "Romance"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Dollhood"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Eau So Fresh Sunshine"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chanel No 5 Eau Premiere (2015)"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "Away Woman"
+    },
+    {
+      "brand": "VİNCE CAMUTO",
+      "name": "Fiori"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Shalimar Millésime Jasmin"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BURBERRY",
@@ -171,12 +260,214 @@
       "name": "L'Interdit Eau de Parfum"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Angels' Share"
-    },
-    {
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Mon Guerlain"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent608871",
+      "author": "Gabrielabnogueira",
+      "date": "2025-12-02",
+      "text": "Marc Jacobs'ın birçok parfümünün ve Daisy serisinin büyük bir hayranıyım, ancak daha az yoğun kokuları tercih ettiğim için \"yoğun\" kokulara karşı önyargılıyım. Raflarda gördüğümde bu parfümü koklamaya bile zahmet etmemiştim, ta ki aylarca bir kenara bıraktığım ücretsiz bir numune alana kadar! Bir gün denemeye karar verdim ve NE KADAR MUHTEŞEM! Daisy So Intense'i tenimde kokladığım anda, şişeyi satın almak için acele ettim! Biraz sınırlı sayıda üretilen Daisy Sorbet'i anımsatıyor, ancak Sorbet çok çiçeksi bir koku ve onu her kullandığımda bunun sahip olduğu tatlılıktan yoksun olduğunu hissettim! Kesinlikle harika.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.220570.jpg"
+    },
+    {
+      "id": "parent608873",
+      "author": "Jayananda AMina",
+      "date": "2025-09-13",
+      "text": "Çelişkili kokular... \"koklayamayacağınız türden çiçek\"... haha\nAncak Morillas'ın bir eseri olması nedeniyle, konuyu daha derinlemesine incelemeye değer.\n\nÜst ve orta notaların hepsini beğendim, ama bu koku yayılımı ne kadar farklı!\n...ona bu taze, egzotik yeşil tonu veren şeyin yosun olması gerek.\n\nBu zıtlık ilginç... cilde çok güzel oturuyor!\n\nÖğrenilecek bir başka güzel konu...",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.154750.jpg"
+    },
+    {
+      "id": "parent608869",
+      "author": "Celina DTTP",
+      "date": "2024-03-15",
+      "text": "Çok tatlı! Başlangıçta Daisy'yi hafifçe anımsatıyor, ama sadece başlangıçta. Sonrasında ise süper meyveli ve tatlı bir parfüme dönüşüyor. Mango, armut, papaya. Çilek kokusu almadım. Hatta bana oldukça yoğun mango kokan Paco Rabanne Fame'i hatırlatıyor. Genel olarak, gerçekten yoğun bir Daisy olarak kabul edilebilir, ancak çok daha tatlı ve Daisy parfümlerinin karakteristik özelliği olan tazeliği tamamen kaybetmiş. Daisy Love oldukça tatlı, şuruplu olsa da, bu farklı, meyve salatası gibi, biraz fazla olgun ve şekerli. Beni etkilemedi. Eau So Fraîche'e sadık kalacağım.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.13570.jpg"
+    },
+    {
+      "id": "parent608816",
+      "author": "spaceybailey",
+      "date": "2023-11-28",
+      "text": "Bu parfümün kokusu muhteşem. Yoğun bir gül kokusu yok ama çilek... VAY CANINA!!! Gerçekten SULU bir parfüm, bunu tam olarak açıklayamıyorum. Kullanmayı ÇOK SEVİYORUM. Bahse girerim Çilek Kız randevuya çıktığında böyle kokuyordur. Cesareti olmayanlar için değil. Mojave Hayaleti'nin küçük kuzeni. Daisy seksi, taze, sulu, genç ve YOĞUN. Sonsuza dek kalıcı. Çilek, bal ve misk, kremalı vanilyalı dondurma ve bol kremayla gerçek bir çilekli keke dönüşüyor. Ama bir şekilde tazeliğini korumayı başarıyor. Soğuk havalar veya herhangi bir gece dışarı çıkmak için mükemmel. Takıntılıyım. ÖPÜCÜKLER",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1800427.jpg"
+    },
+    {
+      "id": "parent608814",
+      "author": "Thranduil",
+      "date": "2023-05-11",
+      "text": "Daisy Eau So Intense gerçekten çok güzel bir parfüm.\nBu, lezzetli bala batırılmış çileklerin kokusu.\n\nCildimde kuruduğunda tatlı ve topraksı bir yosun kokusuna dönüşüyor, ki bu kokuyu çok seviyorum.\n\nDaisy Eau So Intense, orijinal Daisy'ye benzer bir kokuya sahip olsa da, çok daha tatlı ve meyvemsi. Ayrıca orijinal Daisy'ye kıyasla çiçeksi olmaktan çok yeşilimsi bir kokuya sahip.\n\nEn sevdiğim parfümlerden biri.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent608849",
+      "author": "Pani Irena",
+      "date": "2023-05-07",
+      "text": "Bu kokuya, özellikle bu versiyona aşığım. Harika parfümcü Alberto Morillas, burada en harika, lezzetli ve gurme olan her şeyi yakalamış. Çilek ve bal soğuk havada parıldıyor, tatlı şekerler ağzınızda yuvarlanıyor, dişlerinizi yalıyor, tadını çıkarıyorsunuz. Vanilya şurubunda armut parçaları ve pembe gül yaprakları. Miskli bir ferahlık bu tatlı ziyafeti tamamlıyor. Koku izi lezzetli ve kalıcı, çilek mükemmel bir şekilde ön plana çıkıyor. Çilek kokularını çok seviyorum ve bu altın şişeye sahip olduğum için çok mutluyum. Böylesine gurme bir çilek örtüsüne sahipken soğuk bir bahar sorun değil...",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.175920.jpg"
+    },
+    {
+      "id": "parent608839",
+      "author": "Pulcinella",
+      "date": "2022-08-10",
+      "text": "İçeriğindeki notaları bilmeden denedim, orijinal Daisy'den daha güçlü bir versiyon olacağını varsaydım. Orijinalini tekrar sürmek zorunda kalmam sorun değil, çünkü etkisi çok kısa sürüyor, ancak bunu da ileride satın almak için aklımda tutmak istedim.\n\nNe yazık ki, benim zevkime göre, klasik Daisy'den çok farklı. EDT'de en sevdiğim notalar olan menekşe ve menekşe yaprağı eksik; bunun yerine daha fazla meyve ve bal içeriyor, bu da onu çok daha tatlı ve meyvemsi, daha az ferah kılıyor. Yosun biraz orijinal bir dokunuş katıyor, ancak beni tam olarak etkilemiyor.\n\nOrijinal Daisy'yi tercih ederim ama bunun da oldukça yoğun olduğunu söylemeliyim. Gerçi Marc Jacobs parfümlerinin kalıcılığını göz önünde bulundurursak, bu çok da bir şey ifade etmiyor...",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.83187.jpg"
+    },
+    {
+      "id": "parent608824",
+      "author": "LadyBug231",
+      "date": "2022-07-14",
+      "text": "Bu benim kişisel favorilerimden biri. Tatlı ama aşırı tatlı değil.\n\nÇok cesur ve canlı bir koku, içinde biraz da çiçeksi notalar var. Sahip olduğum tüm parfümler arasında en çok kullandığım ve en çok iltifat aldığım parfüm bu. Bunu her kullandığımda gün boyu iltifat alıyorum. Üzerimde çok uzun süre kalıyor ve vücut kimyamla çok iyi uyum sağlıyor. Çok yoğun olduğu için çok az kullanmam yeterli oluyor, bu yüzden denediğim ve sahip olduğum diğer bazı parfümler kadar çabuk bitmiyor.\n\nBu parfümü her kullandığımda kendime güveniyorum ve güzel hissediyorum, kokusunu çok beğeniyorum ve kesinlikle koleksiyonumun vazgeçilmezlerinden biri.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent608827",
+      "author": "nelliebabes",
+      "date": "2022-07-06",
+      "text": "Benim için beklenmedik bir aşk! Daisy'nin birkaç farklı versiyonunu kokladım ve hepsi de ortalama, hoş, gündüz kullanımına uygun parfümlerdi.\n\nAma bu daha cesur, daha canlı ve pahalı bir kaliteye sahip. Nadir görülen bir özellik olarak, saatlerce tüm gücüyle kalıcı. Bu, kesinlikle ağır notalar içermediği için iyi bir saf sıcaklık kokusu.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1328579.jpg"
+    },
+    {
+      "id": "parent608837",
+      "author": "Ximena25",
+      "date": "2022-05-08",
+      "text": "Bence bu flanker, Daisy'nin meyveli notalarının baskın olduğu bir kokuya sahip, bu yüzden kokusu benzer ama katılıyorum, daha yoğun (ki bu isminden de belli oluyor) ve orijinal Daisy kadar kalıcı. Birçok insanın Marc Jacobs parfümlerinin kalıcılığının azlığından şikayet ettiğini biliyorum, ancak en azından benim deneyimime göre, orijinal Daisy cildimde 12 saat kalıyor. Eau Intense de bu özelliği paylaşıyor, ancak orijinalindeki ışıltılı menekşe notası olmadan.\nOlağanüstü bir şey değil, ancak meyveli kokuların ve Daisy ailesinin büyük bir hayranıysanız, harika bir seçenek.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.34767.jpg"
+    },
+    {
+      "id": "parent608828",
+      "author": "ShadowsofLight",
+      "date": "2022-02-13",
+      "text": "Eğer orijinal Daisy, nazik bir akustik şarkıcı/şarkı yazarı tarzı pop şarkısıysa, bu aynı şarkı, ancak bir sürü bilgisayar tarafından üretilmiş eklemeyle güçlendirilmiş hali. Kendine özgü bir şekilde akılda kalıcı, ama çok, çok tatlı ve gürültülü.\n\nİlk başta sıktığımda pek de rahatsız olmadım, ama cildimde bir süre kaldıktan sonra oldukça şurup kıvamına geldi. Kokteyl armudu ve çilek sosun içinde yüzüyor gibiydi. Yoğun ve biraz da bayıcı. Biraz beyaz çiçeksi (yasemin veya frezya türü) ve altta yatan yoğun beyaz çamaşır miski var. Vanilya tabanı aşırıya kaçmış ve beni çileden çıkarıyor.\n\nBalın tadına not olarak eklemeli miyim bilmiyorum çünkü gerçek bal gibi hissettirmiyor, ama tekrar ediyorum... bu tamamen şuruplu ve yoğun meyveli bir lezzet.\n\nBugün fark ettim ki, en sevmediğim trendlerden biri olan meşhur kokteyl armudunun 🍐 😨 ortaya çıkmasında Daisy'nin büyük payı var. Bir bakıma buna saygı duyuyorum (sadece piyasayı ele geçirmemesini diliyorum). Daisy, türünün en popüler parfümü ve şahsen armut ve yasemin akımının da onun tarafından başlatıldığına inanıyorum. Eğer armut seviyorsanız, bu tam size göre. Yanlış anlamayın, çilek kokusu da alıyorum ama armutun oylarda en önde gelen nota olmamasına şaşırdım. Ben armut konusunda çok ilgili değilim ve bu türdeki birçok tasarımcı parfümünden bıktım, bu yüzden algılarımı bir tutam tuzla değerlendirin, belki siz seversiniz.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1211792.gif"
+    },
+    {
+      "id": "parent608847",
+      "author": "Ridiy",
+      "date": "2021-11-24",
+      "text": "Bal, yasemin, bazı yeşil notalar, dip notalarda vanilya – kesinlikle harika! Koku ilk başta oldukça belirgin, bu yüzden abartmamak önemli (sonuçta bal), ancak sonunda dağılıyor ve marshmallow kırıntıları kadar narin, ince ve hoş bir iz bırakıyor. Aksi takdirde, sizi başka bir bal dalgası saracaktır. Genel olarak, neşeli bir arkadaş.\nOldukça uzun süre kalıcı (açıkta kalan ciltte 3-4 saat). Ses olarak yaza sadece hafifçe değiniyor, ancak yoğunluk açısından daha çok soğuk aylara uygun. En azından şu anda, hafif donlarda, harika geliyor.\nÇoğunlukla tenime sürdüm, ama bir keresinde kıyafetlerime de uyguladım ve yeşil notalar kumaşta uzun süre kaldı!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.167446.jpg"
+    },
+    {
+      "id": "parent608862",
+      "author": "Ann",
+      "date": "2021-10-22",
+      "text": "Daisy Eau So Intense, kusursuz bir koku. Beğenmesi kolay, tatlı ama gurme olmayan, öncelikle gerçekten güzel, olgun bir çileğe dayanan, benzoin, vanilya ve bir tutam balın hafif ama sıcak bir arka planıyla çerçevelenmiş bir koku. Armut vurguları meyveli atmosferi zenginleştirirken, çok narin, abartısız çiçek notaları temiz bir dokunuş katıyor. Genel etki, keskin kenarlardan ve kancalardan arındırılmış, pürüzsüz ve dengeli, ilk altın yaprakların güneş ışınlarıyla iç içe geçtiği çok erken, ılık bir sonbaharı anımsatıyor.\nDaisy Eau So Intense, çilek notasının başarısı sayesinde iştah açıcı ve neşeli, aynı zamanda Mamba gibi yapışkan ve şekerli etkilerden kaçınarak asalet ve parfümeri bir dokunuşa sahip, büyüleyici bir günlük koku.\nBu kesinlikle yaratıcı bir dehanın ifadesi değil, daha ziyade sıradan bir parfüm; ancak beklentileri karşılıyor, nispeten evrensel ve en azından denemeye değer.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.689.jpg"
+    },
+    {
+      "id": "parent608834",
+      "author": "MileBarrios",
+      "date": "2021-09-22",
+      "text": "Dün elime geçti. Dün gece dışarı çıkmadan önce sürdüm ve kokusunu bütün gece hissedebildim. Daisy Traditional'ın temel notalarını taşıyor ama biraz daha güçlü, daha geceye özgü bir koku. Ancak bugün ofise giderken de sürdüm ve çok sevdim. Çok baskın değil, tatlı ama bayıcı değil ve zaman geçtikçe daha da çok hoşuma gidiyor. Şiddetle tavsiye ederim. Daisy'yi bir üst seviyeye taşımak gibi, akşam yemeğine, arkadaşlarınızla yemeğe, partnerinizle, gece bir etkinliğe uygun.\nBunlar ilk izlenimlerim; birkaç hafta kullandıktan sonra parfüm hakkında daha iyi bir fikir edinmeniz için kısa bir değerlendirme yazacağım.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.56835.jpg"
+    },
+    {
+      "id": "parent608848",
+      "author": "Pani Irena",
+      "date": "2021-09-13",
+      "text": "Bu kokuları görmezden geldim ve tamamen boşuna! Bence bu versiyon dikkat çekmeyi hak ediyor. Soğuk havada çıtır çıtır ve ışıltılı çilek-bal lolipopları. Beyaz yasemin çiçekleri dondurulmuş gibi çiçeksi tatlılık ve tazelik. Kadifemsi vanilya ve hafif bir ekşilik. Yayılımı eşsiz derecede lezzetli ve canlı, mükemmel kalıcılığa sahip. Havada parıldıyor ve serin bir limonata tatlılığı yayıyor. Sevdiğim şey, rahatlatıcı sıcaklık, ekşilik ve serinlik. Çok sayıda ilginç bileşen, koku kendini birçok şekilde gösteriyor. Soğuk bir sonbahar için harika, şişede bir yaz ışıltısı...",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.175920.jpg"
+    },
+    {
+      "id": "parent608865",
+      "author": "lui",
+      "date": "2021-09-05",
+      "text": "Daisy serisinin en güzel şişelerinden biri. Kapağındaki o abartılı kauçuk çiçekleri sevmiyorum ama burada mükemmel uyum sağlıyorlar ve o kadar da göz korkutucu değiller. Sarı-altın rengi ve reklam fotoğrafları bana yaz sonunu ve Eylül ayını hatırlatıyor, bu yüzden son zamanlarda onları kullanmaya başladım.\nPapatyalar konusunda uzman değilim, bu yılki yeşil, bahar koleksiyonu Daisy Spring'den sadece iki parfümü düzgün bir şekilde denedim ve nedense (notlar bunu göstermese de) burada onların DNA'sının çok fazla izini seziyorum.\nParfümün kendisi, özellikle genç tüketicilere yönelik popüler parfümlerde pek rastlanmayan benzoin ve yosun gibi zengin bir içeriğe sahip gibi görünüyor. Çilek notaları ise genellikle Escada veya vücut spreylerinde karşımıza çıkar. Ne yazık ki, sadece vasat bir koku, \"beğenmeyecek bir şey yok\" türünden; beni rahatsız eden hiçbir yanı yok, ama basitçe sıkıcı. Biraz fazla tatlıya kaçıyor ve çilek ahududuya benziyor, ancak Nina Rouge seviyesinde bir ahududu değil.\nCiltte oldukça yoğun, ancak burunda hala ferah bir koku bırakıyor, ki bu mutlaka kötü bir şey değil. Neşeli bir koku, ama daha fazlasını bekliyordum...",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.30496.jpg"
+    },
+    {
+      "id": "parent608857",
+      "author": "Sylwia74",
+      "date": "2021-08-19",
+      "text": "Muhteşem, canlı ve ışıltılı bir koku; açılışta inanılmaz derecede tatlı bir çilek, ardından vanilya ve steril misk notaları yer alıyor.\nAçılış notalarında çileğe ek olarak armut ve bergamot bulunur ve bunlar bolca balla kaplanmıştır. Parfümün kalbi yasemin ve gülle doludur ve yosun, genel kompozisyona ferahlık katar.\nBu koku, klasik Daisy'de bulunmayan bir derinliğe, iyi bir kalıcılığa ve yayılıma sahip. Daisy Eau So Intense, günlük kullanım için mükemmel, zarif, tatlı ve çok kadınsı bir koku. Klasik versiyona benziyor, ancak bir şekilde daha olgun, daha sıcak ve daha güçlü.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.7902.jpg"
+    },
+    {
+      "id": "parent608812",
+      "author": "Sapere_Aude",
+      "date": "2021-06-11",
+      "text": "Geçenlerde orijinal Daisy'yi satın aldım ve Macy's'teyken bunu da kokladım. Aklımdan çıkaramadım ama sizin bu konuda pek de iyi şeyler söylemediğinizi biliyordum. Geçenlerde geri dönüp bir şişe daha aldım ve dürüst olmak gerekirse bayıldım. Fragrantica, bu parfümü gerçekten sevmeyen tek topluluk gibi görünüyor. Çilek ve bal, hafif bir misk kokusuyla, bunda sevilmeyecek ne var ki? Daha niş ve butik seçenekler olduğunu biliyorum ama insanların zevki basit. Fragrantica topluluğu ayrıca Ombre Leather'ın herkesin beğeneceği bir parfüm olacağına inanmamı sağladı ama hiç de öyle değil, ben şahsen çok sevdim ama o şişeyi kullandığım andan itibaren hiç iltifat almadım. Daisy bana çok fazla iltifat getiriyor ve bunun da getireceğini düşünüyorum. Yemin ederim bu web sitesi çok kararsız ve gerçekten iyi ürünleri hafife alıyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1244519.jpg"
+    },
+    {
+      "id": "parent608825",
+      "author": "alexandradaos",
+      "date": "2021-03-04",
+      "text": "Bu parfümde Ariana Grande'nin Cloud'unu hatırlatan bir şey var; aynı sentetik yanmış şeker kokusu, aynı ilaçsı ve ucuz erkek vücut spreyi kokusu. Sanırım bal ve meyve kokusu olması amaçlanmış ama emin değilim, kelimenin tam anlamıyla her şey olabilir, benzin, tıraş kremi ve erimiş şeker?\n\nPerformansı vasat, yayılımı vasat ve üzerimde kaldıkça, Cloud'da nefret ettiğim her şeye daha çok benziyor, üstelik arka planda rastgele bir yasemin kokusu da var. Bu parfüm şu anda, ne olduğu düşünüldüğünde, gülünç bir fiyata satılıyor (Cloud'un iki katı fiyatına) ve Marc Jacobs'ın spinning derslerinde kız gibi sallayabileceği uzun bir at kuyruğu bile yok.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent608820",
+      "author": "CKS",
+      "date": "2021-03-03",
+      "text": "Bu parfümün bir örneğini aldım, bileğime sıktım ve gülümsemeyi bırakamıyorum: ne kadar neşeli bir parfüm! Çilek notası belirgin ama diğer notalarla çok iyi harmanlanmış ve sonuç olarak meyveli ama olgun bir parfüm ortaya çıkmış. İçindeki dumanlı dokunuş da sofistike bir hava katıyor. Çok kullanışlı ve canlı bir koku!\nBence bu, son 12 ayda denediğim en iyi yeni parfüm.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.12703.jpg"
     }
   ]
 }

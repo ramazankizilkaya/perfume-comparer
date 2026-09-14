@@ -76,62 +76,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "3",
-    "moderate": "5",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "5",
-    "strong": "7",
-    "enormous": "8"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "1",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "TRUSSARDİ",
-      "name": "Trussardi Donna Pink Marina"
-    },
-    {
-      "brand": "DONNA KARAN",
-      "name": "DKNY Women"
-    },
-    {
-      "brand": "MİLLER ET BERTAUX",
-      "name": "#1 (For You) Parfum Trouvé"
-    },
-    {
-      "brand": "ELİZABETH ARDEN",
-      "name": "Green Tea Nectarine Blossom"
-    },
-    {
-      "brand": "ESTEBAN",
-      "name": "Songe de Yuzu"
-    },
-    {
-      "brand": "ZENOGATİ",
-      "name": "Noaptea"
-    },
-    {
-      "brand": "THE HOUSE OF OUD",
-      "name": "Golden Powder"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -193,5 +164,6 @@
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

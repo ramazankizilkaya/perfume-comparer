@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rabanne/Invictus-Legend-54323.html",
   "brand": "Rabanne parfüm ve kolonya",
   "description": "Rabanne markasının Invictus Legend parfümü, erkekler için Odunsu Aromatik bir kokudur. Invictus Legend, 2019 yılında piyasaya sürüldü. Invictus Legend, Domitille Michalon Bertier ve Nicolas Beaulieu tarafından yaratıldı. Üst notalar: Deniz Notaları, Tuz ve Greyfurt; orta notalar: Defne yaprağı, Sardunya ve Baharatlı notalar; alt notalar Kırmızı Amber ve Guayak ağacı.",
-  "description_original": "Rabanne markasının Invictus Legend parfümü, erkekler için Odunsu Aromatik bir kokudur. Invictus Legend, 2019 yılında piyasaya sürüldü. Invictus Legend, Domitille Michalon Bertier ve Nicolas Beaulieu tarafından yaratıldı. Üst notalar: Deniz Notaları, Tuz ve Greyfurt; orta notalar: Defne yaprağı, Sardunya ve Baharatlı notalar; alt notalar Kırmızı Amber ve Guayak ağacı.",
+  "description_original": "Rabanne markasının Invictus Legend parfümü, erkekler için Odunsu Aromatik bir kokudur. Invictus Legend, 2019 yılında piyasaya sürüldü. Invictus Legend, Domitille Michalon Bertier ve Nicolas Beaulieu tarafından yaratıldı. Üst notalar: Deniz Notaları, Deniz Tuzu ve Greyfurt; orta notalar: Defne yaprağı, Sardunya ve Baharatlar; alt notalar Kırmızı Amber ve Guayak ağacı.",
   "description_enhanced": "Rabanne markasının Invictus Legend parfümü, erkekler için Odunsu Aromatik bir kokudur. Invictus Legend, 2019 yılında piyasaya sürüldü. Invictus Legend, Domitille Michalon Bertier ve Nicolas Beaulieu tarafından yaratıldı. Üst notalar: Deniz Notaları, Tuz ve Greyfurt; orta notalar: Defne yaprağı, Sardunya ve Baharatlı notalar; alt notalar Kırmızı Amber ve Guayak ağacı.",
   "mainAccords": [
     {
@@ -16,70 +16,98 @@
     },
     {
       "name": "aromatik",
-      "width": "99.5097%"
+      "width": "99.4708%"
     },
     {
       "name": "taze baharatlı",
-      "width": "93.1063%"
+      "width": "93.0386%"
     },
     {
       "name": "tuzlu",
-      "width": "86.1716%"
+      "width": "86.1385%"
     },
     {
       "name": "amber",
-      "width": "72.6904%"
+      "width": "72.6435%"
     },
     {
       "name": "narenciye",
-      "width": "71.465%"
+      "width": "71.5237%"
     },
     {
       "name": "odunsu",
-      "width": "48.4857%"
+      "width": "48.5231%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "47.9032%"
+      "width": "47.8408%"
     },
     {
       "name": "kafur",
-      "width": "46.8005%"
+      "width": "46.793%"
     },
     {
       "name": "sulu",
-      "width": "45.718%"
+      "width": "45.7239%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.12",
-    "votesCount": "2,220",
+    "score": "4.13",
+    "votesCount": "2,241",
     "breakdown": {
       "love": "1.1k",
-      "like": "694",
-      "ok": "190",
-      "dislike": "218",
+      "like": "705",
+      "ok": "191",
+      "dislike": "219",
       "hate": "54"
     }
   },
   "seasons": {
-    "winter": "304",
+    "winter": "307",
     "spring": "1.2k",
     "summer": "1.2k",
-    "autumn": "704",
+    "autumn": "710",
     "day": "1.2k",
-    "night": "865"
+    "night": "872"
   },
   "notes": {
     "top": [
       "Deniz Notaları",
-      "Tuz",
+      "Deniz Tuzu",
       "Greyfurt"
     ],
     "middle": [
       "Defne yaprağı",
       "Sardunya",
-      "Baharatlı notalar"
+      "Baharatlar"
     ],
     "base": [
       "Kırmızı Amber",
@@ -88,33 +116,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "39",
+    "weak": "82",
+    "moderate": "449",
+    "longLasting": "851",
+    "eternal": "173"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "107",
+    "moderate": "449",
+    "strong": "797",
+    "enormous": "195"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "17",
+    "moreFemale": "4",
+    "unisex": "77",
+    "moreMale": "398",
+    "male": "769"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "190",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "34",
+    "overpriced": "175",
+    "fair": "191",
+    "goodValue": "220",
+    "greatValue": "44"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Parfum"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Victorioso Legend"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Intense"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Uomo Born in Roma"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Aqua (2018)"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Atlantis"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Bad Boy Cobalt Parfum Electrique"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Aqua"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Platinum"
+    },
+    {
+      "brand": "ANTONİO BANDERAS",
+      "name": "The Icon Elixir"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Y Eau de Parfum"
+    },
+    {
+      "brand": "AMARAN",
+      "name": "Silverado 21"
+    },
+    {
+      "brand": "HALLOWEEN",
+      "name": "Halloween Man Hero"
+    },
+    {
+      "brand": "DUMONT",
+      "name": "Nitro Red"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RABANNE",
@@ -145,16 +234,16 @@
       "name": "Versace Pour Homme"
     },
     {
+      "brand": "CHANEL",
+      "name": "Allure Homme Sport Eau Extreme"
+    },
+    {
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
     },
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "La Nuit de l'Homme"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male"
     },
     {
       "brand": "VERSACE",
@@ -175,6 +264,208 @@
     {
       "brand": "AZZARO",
       "name": "Wanted by Night"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent606822",
+      "author": "Hollister75",
+      "date": "2024-06-01",
+      "text": "Bu benim için en iyi koku… çok erkeksi ve güçlü. Suya özgü, neredeyse su altı kokusu olduğuna katılıyorum, ancak açılışta Hint alt kıtasındaki mangoların kokusuna benzeyen, deniz tuzu kokusuyla iç içe geçen süper ekşi ve sulu bir mango notası var.\nArtık hiç satmıyor olması gerçekten inanılmaz...\n11/10.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent606787",
+      "author": "mason2192",
+      "date": "2023-10-20",
+      "text": "Şüphesiz Invictus kadrosunun en iyi kanat oyuncusuydu. Artık üretimi durduruldu, anlaşılan Paco Rabanne en iyi eserlerini uzun süre piyasada tutmayı sevmiyor.\n\nSahip olduğum en güçlü parfümlerden biri; yaklaşık bir haftadır giymediğim bir kapüşonlu sweatshirt'ü üzerime sıktım ve yine de hafifçe kokusunu alabiliyordum.\n\nGüçlü, sulu, şişede seks. Paco'dan 10/10.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent606816",
+      "author": "Sab Eul",
+      "date": "2022-09-30",
+      "text": "\"INVICTUS\" ile bazı küçük farklılıklar var, ki bunları çok seviyorum.\nAncak \"INVICTUS LEGEND\"in kokusu da muhteşem: Baharatlı, keskin ve ferah, aynı zamanda odunsu ve aromatik, hafif bir tuz ve deniz ferahlığı da içeriyor. Bu kokuyu çok seviyorum. Bence başarılı bir yan ürün.\n\nKişisel puanım: 8.5/10.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.28384.jpg"
+    },
+    {
+      "id": "parent606789",
+      "author": "SenselessReviews",
+      "date": "2022-07-31",
+      "text": "\"Invictus Legend\", Bridget the Midget'in fetiş pornosu için ne ifade ediyorsa, o anlama geliyor. Her nota, Menudo armonisi kadar güzel bir şekilde bir araya geliyor. \"Legend\"in kruvasanına bir ısırık alın ve limon dolgusunun şapşal dudaklarınızdan taşmasına kıkırdayın.\n\nAma \"Legend\" hafife alınacak bir şey değil. Bu parfüm, Mel Gibson ve Danny Glover'ın yanlış kabloyu kesmesi gibi burnunuzu patlatıyor. Tony Danza \"Legend\" kullansaydı, patronun kim olduğu apaçık belli olurdu diyebilirim. Size, günümüzün Steven Seagal'ının karate ve krem ​​peynir yeme yarışmasına hazırlanırkenki özgüvenini veriyor.\n\nEleştirmenlerin \"Legend\"i \"Invictus\" serisinin \"züppe dedesi\" olarak adlandırdığının farkındayım. Ve polyester notası dar ekose pantolonları çağrıştırsa da, buna katılmıyorum. \"Legend\", kimyasal olarak mumyalanmış bir ceset içermeyen her ortam için uygun, dengeli ve olgun bir koku. Ona 23 puan veriyorum.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1307154.jpg"
+    },
+    {
+      "id": "parent606793",
+      "author": "BatemansFragrances",
+      "date": "2022-06-29",
+      "text": "Bu kokunun nihayet topluluk tarafından takdir edilmesine çok sevindim. 2020'de tamamen unutulmuş gibiydi.\n\nİlk olarak 2019 yazında dekant halinde denedim ve anılarım çok güzeldi. Gazlı tropikal meyve sodası + ışıltılı tuzlu nota. Defne yaprağı notasını da çok sevdim. Biraz yeşilimsi, aromatik ve serinletici. Tıpkı güneşin vurduğu okyanusa bakmak gibi, sadece parıldıyor ve yansıyor.\n\nPiyasadaki en iyi tuzlu notalardan biri ve bence oldukça eşsiz bir koku. Orijinal Invictus veya YSL Y ile karşılaştırmayı hiç anlamıyorum.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1140000.jpg"
+    },
+    {
+      "id": "parent606791",
+      "author": "Lockon",
+      "date": "2021-07-03",
+      "text": "Uzun zaman oldu, Q, o Britney Spears şarkısı... Adını hatırlamıyorum.\n\nHer neyse...\nInvictus Efsanesi...\nGüzel kokuyor, erimesine gerek yok... Aman Tanrım, bu HARİKA!\nAma...işini görüyor.\n\nGreyfurt, deniz notaları ve baharat... baştan sona aldığım tatlar bunlar.\nŞu anda New York'ta, dışarıda hip-hop ve R&B müzik son ses çalarken (yani hava 36 derece veya daha sıcakken) her yerde giymek için çok güzel...\n\nBu şişeyi neredeyse bitirdim, iş yerinde her gün kullandığım araç buydu.\nKimseyi rahatsız etmez, tüm iş günü boyunca dayanır ve size övgüler kazandırır!\nYakala onları kaplan.\n\nİki ayak yüksekliğinde bir köpük oluşturuyor... sonra klimanın altında yavaş yavaş ten kokusuna dönüşüyor.\nAncak dışarıda, sıcakta, ten kokusu haline gelmeyecektir.\n\nAltı fıs sıktım... bileklerime, boynumun arkasına ve önüne, göğsüme ve tişörtümün önüne.\n\nBunu tekrar satın alır mıyım? EVET!\n\nBunun güçlü yanı nedir? EDP.\n\nBu koku \"canavar moduna\" mı geçiyor, iyi mi, idare eder mi yoksa en iyi ihtimalle zayıf mı? Sıcakta \"canavar moduna\" geçiyor, klimalı ortamda ise iyi.\n\nHem kadınlar hem de erkekler için uygun bir koku mu? Evet.\n\nBu parfümü takas etmeye razı mıyım? Hayır.\n\nBunu atlamalı mıyım, önce denemeli miyim yoksa kör alışveriş mi yapmalıyım? Dürüst olmak gerekirse, kör alışveriş yapmak kolay.\nAma... İsterseniz önce tadına bakabilirsiniz.\nDaha önce elinde bulunduran birinden 2-5 ml'lik bir numune isteyin. Ya da Nordstrom, Macy's, Sephora, Saks & Fifth Avenue gibi mağazalarda deneyin...\n\nBu kokulara çok benziyorlar; hmmm... belki de tüm Invictus serileri, özellikle Aqua ve Intense serileri.\n\nEski mi, yeni formül mü? Yeni.\n\nBulunabilirliği nedir; üretimde mi, sınırlı sayıda mı üretildi yoksa üretimi durduruldu mu? Üretimde.\n\nÜrün Kodu: Kutusu artık yok, iki yıl oldu.\nParti Numarası: 90231\nÜretim Tarihi: 23.01.2019\n\nYaş: 18 ve üzeri\nKimden: Eşyaların bulunamadığı yerden\nBoyut: 100 ml\nKoku: 4/5 (Güzel).\nDeğerlendirme: 4/5 (20 dolar, bir tanıdığım sayesinde buldum).\nKalıcılık: 5/5 (Bunu sürdüğünüzde herkes sizin o odada olduğunuzu anlayacak, kokusu uzun süre kalıyor).\nSüre: 5/5 (Sekiz ila dokuz saatten fazla).\nYaratıcılık: 3/5\nTahmini süre: 5/5 (sıcakta 8 saatten fazla, klimalı ortamda 6 saat).\nÇok yönlülük: 4/5 (İlkbahar ve yaz, gündüz veya gece, nerede olursa olsun fark etmez).\nÖvgüler: 5/5 (\"Harika kokuyorsun\", Kesinlikle haklısın).\n\nUmarım birilerine faydası olur.\nBir dahaki sefere kadar, görüşmek üzere.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1036088.jpg"
+    },
+    {
+      "id": "parent606795",
+      "author": "Tony Montana",
+      "date": "2021-05-28",
+      "text": "Bu konuda abartıya gerek yok, neredeyse hiç yok.\nKoyu mavi çok uygun, güçlü ve kalıcı. Taze ve tatlılığın ilginç bir karışımı.\nUzun ömürlülük 10-12+\nProjeksiyon çok güçlü, 3-5 saat.\nGiysilerde kalıcıdır, yıkandıktan sonra bile kalabilir.\nBirçoğu bunu doğrusal ve sıkıcı bulacak ama bu, aptalca ama oldukça zorlama bir girişim.\nİnsanlar büyük olasılıkla bunun hoş bir koku olduğunu düşünecekler ve Invictus serisine aşina olanlar için bu kokunun kendine özgü bir havası var.\nBu, çok tatlı ve ferahlatıcı, geliştirilmiş bir versiyon. Yıl boyunca, her durumda giyilebilir, ancak daha çok günlük kullanıma uygundur.\nİlkbahar/yaz aylarında gerçekten göz kamaştırıyor ama soğuk havalarda da etkili.\nMuhtemelen en iyi Invictus albümü.\nPuan: 9/10",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1344242.jpg"
+    },
+    {
+      "id": "parent606796",
+      "author": "Tropicat28",
+      "date": "2021-04-25",
+      "text": "Bu, son zamanlarda kocamın en sevdiği kolonya oldu. Geçen gün parktaydık ve sürekli kokusunu alıyordum. Beni zihnimde başka bir yere götürdü. Sanki okyanus kıyısında, gerçekten güzel ve tatlı bir kolonya kullanan biriyle birlikteymişim gibi hissettim. İlkbahar ve yaz için harika. Özellikle yaz geceleri için.\nÇok güçlü bir koku. Sabahları 5-6 fıs sıkıyor, tüm evi boğuyor ve işe gittikten sonra yaklaşık bir saat daha kokusu kalıyor. 12 saatlik vardiyadan sonra bile hala kokusunu alabiliyorum.\nGerçekten çok beğendim, sonuçta bunu onun için satın aldım.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1175370.gif"
+    },
+    {
+      "id": "parent606842",
+      "author": "JasonVoorhees",
+      "date": "2021-03-12",
+      "text": "Bu parfümün Invictus'a hiç benzemediğini ve kısa ömürlü olduğunu söyleyen eleştirmenlere şunu sormak zorundayım: Geçerken bir test kağıdına 30 saniye boyunca denediniz mi? Diğer Invictus parfümlerinde bulunan her şey korunmuş, sadece dengeyle oynanmış ve tuzlu bir nota eklenmiş. Kalıcılığı ve yayılımı tek kelimeyle olağanüstü, karşılaştığım en güçlü \"tatlı ferahlıklardan\" biri. Belki de kehribar-miskli tatlılığı ve sentetik ferahlığıyla en sert versiyonu bile olabilir. Ama sizi cezbeden (ya da zevkinize bağlı olarak iten) şey de bu. Kalıcılık açısından, bu parfüm Bleu Chanel'den Sauvage'a kadar piyasadaki tüm popüler parfümleri geride bırakıyor. Orada rekabet yok; kalıcılık açısından her şey oldukça ortalama, ancak fiyatlar çok yüksek. Bu da Legend için büyük bir artı.\n\nSonuç olarak, her şeyin serinin ruhuna çok uygun olduğunu söyleyebilirim, sadece uygulamada dikkatli olmanız gerekiyor. Hassas kişiler kesinlikle bu parfümden uzak durmalı; onlar için sentetik, gençlere yönelik, duş jeli gibi kokan bir şey. Diğer herkese şiddetle tavsiye ederim. Oturduktan sonra dikkat çekiyor ve iltifatlar alıyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.170494.jpg"
+    },
+    {
+      "id": "parent606807",
+      "author": "giarg29",
+      "date": "2021-01-08",
+      "text": "Denemeden aldım, dedikleri gibi enfes bir parfüm, kesinlikle almaya değer, her yerde iltifat topluyor. Tatlı ama benzer özelliklere sahip diğer parfümler gibi bayıcı değil. Mükemmel performans. Çoğu insanın beğendiği bir koku. %100 tavsiye ederim. 4 fısfıstan fazla sıkmayın, hahaha, çünkü çok yoğun.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent606857",
+      "author": "screensquare",
+      "date": "2020-08-12",
+      "text": "Ciechocinek'teki mezuniyet kulelerine hiç gittiniz mi? Eğer gittiyseniz, işiniz daha kolay olacak. Mezuniyet kulelerinin yanına, yakındaki tuzlu suyla çalışan bir sakız fabrikası kurulduğunu hayal edin. Güneşli bir günde, orada vardiya müdürü olarak çalışan Bay Leszek, bir gün önce işe geldi. İş yerinde, her gün kendine Davidoff Cool Water parfümü sürmesiyle tanınıyordu. Nedense, şanssız bir günde, aynı veriyi üretim bilgisayarına üç kez girdi – sonuç olarak üç kat daha yoğun bir sakız üretildi. Tadı o kadar yoğundu ki çiğnemek imkansızdı. Ancak Bay Leszek, parlak bir fikir buldu – uğradığı zararlar nedeniyle işini kaybetmekten korkmak yerine, bir fıçı limon suyu hazırladı ve limonun sorunlu konsantrasyonu nötrleştireceğini umarak sakız emülsiyonuna döktü. Fıçıya doğru eğilirken, cebinden bir şişe Cool Water düştü ve içindeki sıvı makine tarafından yutuldu. Sonuç tahmin edilebilirdi – çok tuzlu, limonlu, kauçuksu bir kokuya sahip, Cool Water'ın deniz meltemi esintisini andıran bir karışım. Bay Leszek azarlandı ve maaşından kesinti yapıldı, ancak işini korudu ve bugüne kadar Invictus canavarlarını piyasaya sürmeye devam ediyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent606838",
+      "author": "ManfrediGaetano14",
+      "date": "2020-03-13",
+      "text": "Onyx hariç neredeyse tüm Invictus parfümleri gibi ucuz. Ayrıca kaba tuz gibi kokuyor, karabiber, kimyon ve sardunya ile karışmış keskin, iğrenç bir koku. Kısacası, mide bulandırıcı. Yarı fiyatına daha iyisini bulabilirsiniz. Kalıcılığına gelince, evet, iyi, ancak koku berbat olduğu için bunun artı mı yoksa eksi mi olduğunu bilmiyorum.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.48205.jpg"
+    },
+    {
+      "id": "parent606847",
+      "author": "Damir97",
+      "date": "2019-08-16",
+      "text": "Tam bir fiyasko, neden Invictus serisinde piyasaya sürüldü? Bu, pazarlamacılara sorulması gereken bir soru.\nOna kıyasla, orijinali bir başyapıt gibi görünüyor.\nKalıcılığı fena değil, yayılımı düşük. Kokuyu iki kelimeyle tanımlamak gerekirse: tropikal aromalı bir içecekle karışık tuzlu amber. Kesinlikle denemeye değer. Yaz için ağır, daha çok ilkbahar veya ılık sonbahara uygun.\n\nBir kez daha, öncelikle parfümü yaratan parfümcüye bakmanız gerektiği kanıtlandı. Bu ikiliden tek bir üst düzey parfüm bile göremiyorum; ikisi de vasat kokular yarattı. Bu yeni versiyon da tam olarak öyle çıktı.\n\nOrijinal veya Aqua 2018 ile idare etmeyi tercih ederim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.257927.jpg"
+    },
+    {
+      "id": "parent606808",
+      "author": "juancar677",
+      "date": "2019-08-02",
+      "text": "Bu, EDP olarak çıkan yeni ve güzel bir Invictus. Ancak bana o kadar deniz kokulu gelmedi, belki de bu yüzden yaz aylarında kullandığım Light Blue Eau Intense Dolce & Gabbana ile karşılaştırıyorum.\n\nBana göre, temelde tatlı, ferah ve hoş bir parfüm, ancak yukarıda bahsettiğim, ancak PACO RABANNE web sitesinde belirtilen ve şahsen oldukça yoğun olarak algıladığım bal notası nedeniyle de oldukça tatlı. Baharatlar da oldukça belirgin, ancak defne yaprağı belki o kadar belirgin değil.\n\nÇok yönlü olmasına rağmen, yaz aylarında gece kullanımı için daha uygun buluyorum ve geçiş mevsimlerinde güçlü tatlı şarjı sayesinde biraz daha iyi performans gösteriyor.\n\nSu ve ferah kokuların dünyası çok geniş ve benim için, bugün ve şimdi, gücü, erkeksiliği ve şehvetliliği nedeniyle Morillas'ın INTENSE LIGHT BLUE adlı eserini daha çok tercih ediyorum.\nAncak bu INVICTUS LEGEND, tatlı ve gurme bal aromalarını sevenler için çok iyi olacak, yine de PACO RABANNE'nin son zamanlarda sunduğu çalışmalardan çok fazla sapma göstermiyor.\n\n\nNot: Dürüst olmak gerekirse, bu kör alışveriş değil, çünkü büyük ölçüde kişisel zevke ve cilt pH'ına bağlı. Bu versiyonda parfüm çok güçlü ve çok tatlı. 12 saatten fazla kalıcılığı var ve mümkünse daha da tatlı bir bitişe sahip. Benim için en kötü yanı, dip notalarının aşırı kimyasal hissettirmesi ve benim durumumda boğucu olması. Bu büyük ölçüde kişisel zevke bağlı ve satın almadan önce denemek en iyisi. Diğer parfümlerde deniz, tuzlu, taze notaları algılıyorum, ancak bu LEGEND'de çok az veya hiç yok. Yapay bir tona sahip çok tatlı, tropikal bir kokuya doğru eğilim gösteriyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.38.jpg"
+    },
+    {
+      "id": "parent606806",
+      "author": "jimblue",
+      "date": "2019-07-27",
+      "text": "Büyük Invictus'un bu yeni yan gemisini (umarım sonuncusu olur) test ettim ve bazı iyileştirmeler fark ettim.\nBu parfümlerin aynı \"yapay\" koku duyusu içinde bazı notaları ayırt edebildim ve bunu hoş buldum.\nBaşlangıçta şeftali şurubunu andıran yoğun, neredeyse gurme bir aroma yaratan kimyasal etkinin ne olduğunu bilmiyorum; daha sonra bu aroma deniz ve tuzlu notalara dönüşüyor. O noktada, olması gerektiği gibi, sucul bir hal alıyor ve baharatlar ile greyfurt notaları ekleniyor; bu notalar neredeyse tüm gelişim süreci boyunca ciltte kalıyor.\nKuru, tatlı, baharatlı ve sucul notalar içeren bir lezzet.\nFena değil; aşırı tatlı ve kafa karıştırıcı Intense'e kıyasla bu daha iyi kurgulanmış, orijinaline kıyasla ise ne diyeceğimi bilemiyorum: O sadece bir yenilikti, efsanesi bitti...\nŞişe aynı, içindeki sıvı daha mavi ve kutuda maalesef hala kaba saba sporcu resmi var.\nKalıcıdır ve projeksiyon yapar.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.17509.jpg"
+    },
+    {
+      "id": "parent606836",
+      "author": "Motaro78",
+      "date": "2019-06-15",
+      "text": "Diğer Invictus versiyonları gibi gerçekten hoş bir koku, ancak bu yeni versiyonun nedenini anlamıyorum... ve Invictus Intense ile Aqua'yı nasıl karıştırdıklarını da anlamıyorum, genel olarak çok güçlü, tatlımsı, odunsu ve tuzlu bir kokuya sahip, bunun yanında çok taze ve meyvemsi bir koku da var ki bu kötü değil... ama diğer tüm versiyonlar birbirlerinden ayırt edilebildiği için, bu ürünü almanın nedenini göremiyorum.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.38289.jpg"
+    },
+    {
+      "id": "parent606845",
+      "author": "alexis414",
+      "date": "2019-06-03",
+      "text": "Bana göre, Invictus, Invictus Intense ve Black XS'in bir karışımı. Tamamen markanın ruhuna ve \"en iyi\" geleneklerine uygun. Son zamanlarda, Paco'nun imzası olan sentetik kalite pek dikkatimi çekmiyor; eskiden farklı bir tavrım vardı, belki de artık o havayı aştım. En iyi zamanı yaz ve akşam saatleri, ancak bence gündüz sıcağında çok yoğun olabiliyor. Sentetik yapısı sayesinde yayılımı güçlü, ancak özellikle güzel olduğunu söyleyemem. Kalıcılığı fena değil, bir iş günü boyunca sürüyor, ancak çabuk sıkılıyorum. Çoğunlukla gençlere (kendilerini sonsuza dek genç ve sonsuza dek sarhoş sayanlara) yönelik. Basit, sade bir koku, bana göre geçmişe bir gönderme. Şişenin rengi çok hoş. Muhtemelen şişelerin en güzeli ve rafta kesinlikle dikkat çekecek.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.228946.jpg"
+    },
+    {
+      "id": "parent606819",
+      "author": "Gardinette",
+      "date": "2019-05-04",
+      "text": "Bu, \"Invictus\" ve \"Invictus Intense\"in kopyala yapıştır hali.\n\nBuradaki Kırmızı Amber, orijinal parfümdeki Amber Gris'in yerini almıştır.\nBaharatlar karabiberin yerini alıyor.\nGuaiac ağacı, viski yerine kullanılır.\nGreyfurt, mandalinanın yerini alıyor.\n\nYani yeni bir şey yok, baharatlı, odunsu ve amber notaları içeriyor; karakterli, erkeksi bir koku.\nNeyse ki, neredeyse hiç fark edilmeyen sardunya çiçeği buradaki genel etkiyi yumuşatıyor.\n\nKadın versiyonunda olduğu gibi, bu parfümün de yayılımı ve kalıcılığı olağanüstü.\n\n7/10",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.17094.jpg"
+    },
+    {
+      "id": "parent606794",
+      "author": "Savatage79",
+      "date": "2019-04-23",
+      "text": "Invictus Aqua 2016'yı geri mi istiyordunuz? İşte burada! Bunun 3.0'da olması inanılmaz, artık sayısal değerlendirmeleri pek ciddiye almıyorum çünkü bu, olabilecek en üst düzeyde bir parfüm. Hatta daha iyi olduğunu bile düşünebilirim, oysa ben büyük bir Invictus hayranı bile değilim... Ancak bu, fikrimi değiştirdi. Muhteşem bir koku, rahatlıkla 5 üzerinden 4 puanı hak ediyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1185947.jpg"
+    },
+    {
+      "id": "parent606786",
+      "author": "doriandinu",
+      "date": "2019-04-05",
+      "text": "Sırf popüler diye harika bir parfümü beğenmeyen aptallardan bıktım! Orijinal Invictus gerçek bir kadın avcısı, her zaman iltifat aldım ve Tom Ford'unkiler de dahil olmak üzere 25 büyük şişe parfümüm var, Invictus serisi, Million serisi ve XS serisi kadınlar tarafından en çok iltifat edilen parfümler arasında!! Çok dışarı çıkıyorum ve ne dediğimi çok iyi biliyorum, PACO RABANNE GERÇEKTEN GÜÇLÜ BİR İSİM!!!...konunun sonu. Bir şey öğrendim: Fragrantica'da beğenilmiyorsa, o gerçekten çok iyi bir koku olmalı.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1063982.jpg"
     }
   ]
 }

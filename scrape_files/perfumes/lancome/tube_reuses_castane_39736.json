@@ -16,59 +16,87 @@
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "85.9999%"
+      "width": "86.0001%"
     },
     {
       "name": "amber",
-      "width": "71.3726%"
+      "width": "71.0368%"
     },
     {
       "name": "vanilya",
-      "width": "68.5241%"
+      "width": "68.3122%"
     },
     {
       "name": "fındıksı",
-      "width": "64.6381%"
+      "width": "64.1781%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "61.7896%"
+      "width": "61.4531%"
     },
     {
       "name": "balsamik",
-      "width": "59.7501%"
+      "width": "59.3978%"
     },
     {
       "name": "tatlı",
-      "width": "52.0139%"
+      "width": "51.8926%"
     },
     {
       "name": "animalik",
-      "width": "51.0001%"
+      "width": "50.9999%"
     },
     {
       "name": "aromatik",
-      "width": "46.5102%"
+      "width": "46.4196%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.03",
-    "votesCount": "687",
+    "score": "4.04",
+    "votesCount": "699",
     "breakdown": {
-      "love": "264",
-      "like": "292",
+      "love": "270",
+      "like": "297",
       "ok": "32",
-      "dislike": "86",
+      "dislike": "87",
       "hate": "13"
     }
   },
   "seasons": {
-    "winter": "203",
-    "spring": "76",
+    "winter": "208",
+    "spring": "77",
     "summer": "33",
-    "autumn": "234",
-    "day": "183",
-    "night": "171"
+    "autumn": "238",
+    "day": "187",
+    "night": "176"
   },
   "notes": {
     "top": [],
@@ -81,34 +109,99 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "14",
+    "weak": "24",
+    "moderate": "68",
+    "longLasting": "112",
+    "eternal": "102"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "36",
+    "moderate": "68",
+    "strong": "181",
+    "enormous": "104"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "84",
+    "moreFemale": "54",
+    "unisex": "30",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "20",
+    "overpriced": "49",
     "fair": "32",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "9",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Midnight Sex"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Notte d'Oro"
+    },
+    {
+      "brand": "WHAT WE DO IS SECRET",
+      "name": "Mon Musc a Moi"
+    },
+    {
+      "brand": "LAVVIE PERFUMES",
+      "name": "AMBRE NOIR"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Hypnotic Poison Eau de Parfum"
+    },
+    {
+      "brand": "WHAT WE DO IS SECRET",
+      "name": "Made in Heaven"
+    },
+    {
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Noir Exquis"
+    },
+    {
+      "brand": "ZADİG & VOLTAİRE",
+      "name": "Just Rock! for Her"
+    },
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Patchouli Musc"
+    },
+    {
+      "brand": "MASQUE MİLANO",
+      "name": "Madeleine"
+    },
+    {
+      "brand": "PANA DORA",
+      "name": "Dorasima"
+    },
+    {
+      "brand": "SCENTS OF WOOD",
+      "name": "Praline in Maple"
+    },
+    {
+      "brand": "ELLA K PARFUMS",
+      "name": "Ghibli"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Million Gold For Her"
+    },
+    {
+      "brand": "TRUSSARDİ",
+      "name": "Passeggiata In Galleria Vittorio Emanuele II"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "AMOUAGE",
+      "name": "Love Tuberose"
+    },
     {
       "brand": "MUGLER",
       "name": "Alien Essence Absolue"
@@ -142,10 +235,6 @@
       "name": "Hypnotic Poison"
     },
     {
-      "brand": "DİOR",
-      "name": "Pure Poison"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Black Orchid"
     },
@@ -168,6 +257,208 @@
     {
       "brand": "AMOUAGE",
       "name": "Sunshine Woman"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent713412",
+      "author": "Devyasss",
+      "date": "2023-08-26",
+      "text": "Diğer yorumcularla aynı fikirde değilim. Bence aşırı güçlü bir koku değil, sadece kışa özel de değil; şu an Ağustos ayındayız ve bir aile toplantısına giderken kullanıyorum ve mükemmel, tatlı çiçeksi, neredeyse gurme bir koku. Çok sofistike ve hanımefendi bir havası var. Kestane ve sümbülteber sevdiğim için denemeden aldım, hiç düşünmeden karar verdim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.424281.jpg"
+    },
+    {
+      "id": "parent713418",
+      "author": "Perpetual Collector",
+      "date": "2023-02-13",
+      "text": "Muhteşem bir koku ama aynı zamanda oldukça iddialı. Sahip olduğum en tuhaf davranan parfüm bu. Aşırı sümbülteber kokusu yok; eğer içeriğini tahmin etmem gerekseydi, asla sümbülteber olduğunu düşünmezdim. Kestane notaları oldukça belirgin, ancak en azından benim için makyaj gibi bir his bırakıyor. Pudrası çıkarılmış ruj parfümlerini hatırlatıyor ve Givenchy'nin L'Ange Noir'ına çok benziyor. Sahip olduğum Girl of Now ile kesinlikle hiçbir ilgisi yok. Girl of Now, günümüzün tasarımcı, daha doğrusu alışveriş merkezi parfümlerinin tarzındayken, Tubereuses Castane zarafet ve şıklık yayıyor.\nYağlı yapısını anlıyorum, ben yağlı yerine tereyağımsı demeyi tercih ettim ama bu benim için bir dezavantaj değil. TC'yi doğrudan niş bir kategoriye itiyor, ancak bazıları için giymesi zor olabileceğini de anlıyorum.\nBu, şimdiye kadar deneyimlediğim en ağır parfüm ve bunu kelimenin tam anlamıyla söylüyorum. Kremsi yapısı nedeniyle sanki bir ton ağırlığında gibi hissettiriyor, ancak ruj benzeri özelliği onu oldukça keyifli kılıyor. Sonunda buna sahip olduğum için çok mutluyum. Daha önce alırdım ama Girl of Now'ın taklidi olduğunu iddia edenleri dinledim. Kesinlikle öyle değil!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1297099.jpg"
+    },
+    {
+      "id": "parent713459",
+      "author": "comicopera",
+      "date": "2021-11-03",
+      "text": "Bu parfümle garip bir ilişkim var. Adı ve notaları bana onu mutlaka almam gerektiğini hissettirdi. Bu yüzden, ilk uyguladığımda (sıcak bir sonbahar gününde) bozulmuş süt gibi ekşi notalar aldığımda ne büyük bir hayal kırıklığı yaşadım... Birkaç saat boyunca onu satmam gerekeceğini düşündüm. Ama sonra, bileğimi koklamayı ve kokuyu sürekli değerlendirmeyi bıraktığımda, etrafımın güzel, sıcak bir kavrulmuş kestane kokusuyla çevrili olduğunu fark ettim. Henüz sümbülteber kokusunu algılamamıştım. Ertesi gün bir şans daha vermeye karar verdim. Ertesi gün nemli ve yağmurluydu ve işte o zaman Lancôme Maison parfümü tenimde güzelliğini ortaya koydu. Beyaz çiçeklerin ve tatlı kuruyemişlerin hoş bir karışımını kokladım ve hatta çok arzulanan sümbülteber kısa bir süreliğine ortaya çıktı. Koku tüm gün benimle kaldı, uygulandıktan sonra 12 saat boyunca tenimde kaldı ve sürekli kendini hatırlattı.\nSonuçlar?\nTubereuses Castane, oldukça değişken bir parfüm. Hava koşullarından mı kaynaklanıyor yoksa burnum o ekşi, lakton notalarından kaçınmayı mı öğrendi bilmiyorum. Bir başyapıt olmayabilir, ama hoş, sarmalayıcı, tatlı bir koku. Keşfetmeye değer.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.33855.jpg"
+    },
+    {
+      "id": "parent713454",
+      "author": "Izaj",
+      "date": "2021-08-16",
+      "text": "Sakinleştirici bir koku. Narin sümbülteber, belki de tonka fasulyesinden gelen sütlü bir dokunuş. Hiçbir şekilde agresif değil. Tatlı ama ölçülü. Tüm gün kalıcı.\nRuh halime ve günün saatine bağlı olarak burada fındık ve badem kokusu alabiliyorum, ancak en garip olanı, bu fındıklardan gelen süt gibi, çok sütlü bir koku almam.\nBana göre, sakinleştirici, güvenli ve rahatlatıcı bir parfüm; ama bu onun cılız olduğu anlamına gelmiyor. Tam tersine, güçlü bir şekilde yayılıyor ve tüm gün benimle kalıyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.31270.jpg"
+    },
+    {
+      "id": "parent713423",
+      "author": "Taurien",
+      "date": "2021-02-11",
+      "text": "Şişeyi bitirmek için hala biraz zamanım var. İtiraf etmeliyim ki o anın gelmesini istemiyorum çünkü bu kokuya aşık oldum ve muhtemelen sonsuza dek yollarımızın ayrılacağını biliyorum.\n\nNe kadar da enfes! Yenilebilir, rahatlatıcı, dumanlı, o kadar kremsi ki neredeyse sütlü gibi... Özellikle kestane olmak üzere fındıkların öne çıktığı bir açılıştan, daha önce şekerlenmiş kestanelerin eşliğinde sümbülteberin güzel ve farklı bir şekilde kendini gösterdiği orta aşamaya ve son olarak vanilya ve baharatlı bir aromanın kokuyu tamamladığı bir aşamaya kadar oldukça fazla bir evrim algılıyorum.\n\nCildimde orta düzeyde ama fark edilebilir bir yayılımı var ve yaklaşık 8 saat sürüyor.\n\nBu, şüphesiz ki olabildiğince uzun süre zevkle yaptığım tatlı ve rahatlatıcı bir günah. Son gösterimi biraz daha bekleyeceğim...\n\nKoku 9.5/10\nSüre 8/10\nEstela 8/10\nKalite/fiyat 7.5/10\nÇok yönlülük 7/10\nAmbalaj 10/10\nTekrar satın alır mıydım? Satın almadım.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.37995.jpg"
+    },
+    {
+      "id": "parent713456",
+      "author": "lea",
+      "date": "2020-12-16",
+      "text": "Bu parfüm tenimde iyi durmadı. Açılışta ekşi ve oldukça hoş olmayan, tıbbi bir nota var. Nedenini anlamıyorum. Bir süre sonra küçük, hoş bir nüans ortaya çıkıyor: fındıklı kremalı dolgulu çıtır vanilyalı gofretler. Kısa bir süre için lezzetli, ama ekşi koku geri dönüyor. Genel olarak daha iyi performans gösteriyor. Kokunun tatlılığını ve sıcaklığını algılayabiliyorum, ama çok heyecanlanmadım. Kalıcılığı 4 saat ve yayılımı iyi. Hiç iltifat almadım. Tonka fasulyesi ve kestane kokusunu severim. Ancak burada bir şeyler bana uymadı.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.30672.jpg"
+    },
+    {
+      "id": "parent713424",
+      "author": "ZenNatsume",
+      "date": "2020-11-24",
+      "text": "Ne harika bir parfüm! Sadece 3 nota içerdiğini belirtiyorlar: Sümbülteber, kestane ve tonka fasulyesi; ancak içinde hayvansı, şehvetli ve rahatlatıcı bir dokunuş veren sırlar barındırdığı açıkça belli.\nBu parfümün kalitesi etkileyici; hoş kokulu, olgun sümbülteberler, vanilya ve tonka fasulyesiyle tam doğru oranda tatlandırılmış ve olağanüstü kremsi ve baştan çıkarıcı bir amberle birleşmiş.\nBu parfümün yayılımı muazzam ve kalıcılığı sonsuz; unisex, kadınsı, zarif ve sıcak, sonbahar ve kış ayları ile soğuk gecelerde, hayatı aydınlatacak bir kokuya ihtiyaç duyulduğunda mükemmel.\nKesinlikle tekrar satın alırdım; Lancôme'un üretimini durduracağını açıklaması çok üzücü, bunu hak etmiyor, koku açısından bir mücevher.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.44060.jpg"
+    },
+    {
+      "id": "parent713419",
+      "author": "katsong",
+      "date": "2020-06-14",
+      "text": "Sonunda! Ana notası kavrulmuş kestane olan ve sümbülteber ile harika bir denge kuran bir koku. Bu, sık rastlamadığım bir kombinasyon ve ilk koklamada aşık oldum! Tonka fasulyesi yoğun, bu da onu şuruplu, zengin, alkollü yapıyor... ancak çiçeksi notalar, dümdüz bir yemek kokusu olmasını engelliyor. Kestane notaları kurudukça kayboluyor ve kremsi, tatlı, tonka fasulyesiyle harmanlanmış sümbülteber ten kokusu bırakıyor. Buna bayıldım - bence hak ettiği değeri görmüyor ve Oud Bouquet kadar kutlanmayı hak ediyor. 10/10",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.443791.jpg"
+    },
+    {
+      "id": "parent713426",
+      "author": "Soluna",
+      "date": "2019-10-04",
+      "text": "Anne kokusu gibi, cömert ve şefkatli... Şurup içinde pişirilmiş çok yumuşak bir sümbülteber, ortaya çıkan kestane notasıyla birleşerek ona cevizli bir yön ve hafif bir dumanlılık katıyor... Daha çok yakın duran ama her zaman mevcut olan ve bayıcı olmayan bir koku... Kestane yoğunlaştıkça ortaya çıkan çok sıcak evrimini seviyorum...",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.18109.jpg"
+    },
+    {
+      "id": "parent713444",
+      "author": "Вдохновительница",
+      "date": "2019-06-03",
+      "text": "İnternet mağazasındaki büyük indirimler ve çoğunlukla nazik, yumuşak, narin, rahatlatıcı, kremsi bir sümbülteber kokusunu anlatan yorumlar sayesinde, incelemelere dayanarak satın aldım.\nPeki, söyleyin bakalım, bu parfümde onu nerede buldunuz? Oldukça keskin ve çok tatlı bir konyak-amber kokusu, kavrulmuş kestane ve pralin tınılarıyla harmanlanmış. Burada neredeyse hiç sümbülteber kokusu algılamıyorum, ki bu çok hoşuma gidiyor. Eğer bilmeseydim, orada olduğunu tahmin bile edemezdim.\nKavrulmuş çekirdekleri veya fındıkları andıran kestane notaları mevcut ve tatlı tonka fasulyesi de hissediliyor. Canlı bir alkol notası var ve dip notaları tatlı, zengin kehribar. Ancak, özellikle yumuşak ve kremsi yapısıyla sümbülteber, bence tamamen yok.\nGenel olarak kokuyu beğendim. Ama alışmak ve sindirmek biraz zaman alan parfümlerden biri ve ben bundan pek hoşlanmıyorum. Benim için parfüm aşk gibidir; ya seversiniz ya da sevmezsiniz ve alışmak bir uzlaşma meselesidir. Yine de bazı hoş istisnalar da var.\nSevgili parfüm severler, bu rahatlatıcı, yumuşak ve kabarık kokunun tanımına aldanmayın. Tam tersi! Zengin, canlı, keskin, aşırı tatlı, konyak benzeri ve akşam için ideal bir koku.\nVe hakkını vermek gerekirse, inanılmaz derecede dayanıklı, yüksek sesli ve son derece sağlam bir yapıya sahip. Güzel, klasik, sağlam bir ürün, ancak ne yazık ki, kalplerimizi gerçekten fetheden o incelikten, zarafetten, o coşkudan ve zekâdan yoksun.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.213035.jpg"
+    },
+    {
+      "id": "parent713435",
+      "author": "eriberta",
+      "date": "2019-05-23",
+      "text": "Sümbülteber çiçeğini her haliyle seviyorum ve bu önemli bir önerme çünkü bu parfümde sümbülteber alışılmadık bir sosun içinde yüzüyor. Sıktığım anda notalar biraz karışık ve hafif bir tazelikle boğulmuş gibiydi; bu da bana eski bir erkek parfümünü hatırlattı – tabiri caizse biraz dedevari bir tazelik. Dakikalar geçtikçe, giderek uzayan ve güçlü dalgalar halinde kestane ortaya çıktı, baharatlı, şekerli ve kremsi notalar eşlik etti. Bu Mont Blanc'ta güzel bir sümbülteber gelişiyor, biraz hayvansı ama zarif... koku hiç de öyle olmasa bile!\nBelli ki gurme birisi ve yemekleri muhteşem!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.36924.jpg"
+    },
+    {
+      "id": "parent713411",
+      "author": "raiza1990",
+      "date": "2019-04-12",
+      "text": "Bu, Lancôme tarzında gurme bir koku ama çok güçlü ve lüks. Her şey çok doğal kokuyor. Olumlu anlamda şaşırdım. Bir parfümde şimdiye kadar duyduğum en iyi kestane notasına sahip.\nEğer alışılmış gurme kokular size çok yapay geliyorsa veya fındık kokularını seviyorsanız, bunu deneyin.\nSon not: 9/10",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.865802.jpg"
+    },
+    {
+      "id": "parent713446",
+      "author": "LabRat",
+      "date": "2019-04-08",
+      "text": "Bir sanat eseri. Üç nota - ve tüm dünya ayaklarınızın altında! Asil, hatta değerli bir koku. Bir kız için değil, statü sahibi bir kadın için; sevilen ve ona deli gibi aşık olduğunu bilen bir kadın için. Benim için neredeyse tek başına bir sümbülteber, ki onu çok seviyorum. Genç kavrulmuş kestane arka planda kalıyor ve bu arada, bayıcı olmasını engelliyor. Neredeyse hiç fasulye kokusu almıyorum. Başlangıç ​​yumuşak, yoğun, bulanık. Kalıcılığı iyi, özellikle kıyafetlerde. Yayılımı ortalama. Bir eşarbı parfümleyip sürekli yüzüme tutmak istiyorum; doyamıyorum, çok lezzetli. Fiyatı kesinlikle çok yüksek, ama lanet olsun, buna değer! Hemen birkaç litre almak istiyorum, böylece ömrümün sonuna kadar bana yetsin. Lancome, sana bayılıyorum!\nSon bir şey daha eklemek istiyorum: Bu kokuyu bir erkekte hayal edemiyorum.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.253909.jpg"
+    },
+    {
+      "id": "parent713413",
+      "author": "DR521",
+      "date": "2019-01-19",
+      "text": "Bu, beyaz misk bazında hafif fındıksı, çiçeksi vanilya notaları içeren, kalınlığı ve zenginliğiyle son derece lüks bir koku. Fındıksı yönü vetiver ve tonka fasulyesini andırıyor ve ana akorun tatlılığını dengelemek için sümbülteber ile bir araya getirilmiş. Parfüm, özellikle 50'ler ve 60'ların şipre parfümlerini hatırlatan koyu yeşil çiçeksi ve hafif limonlu ferah bir notayla kendini gösteriyor. Bu, son derece şeffaf, sakız gibi bir sümbülteber (muz ylang mı?) versiyonu olan ve ferahlığı korumak için hafif bir yeşil sabunsu dokunuş sağlayan sümbülteber ile birlikte geliyor. Bu, (kestane benzeri?) tatlılığın geri kalanının üzerinde ince bir çorap gibi asılı duruyor. Kuruduktan sonra burnuma göre vetiver ve tonka fasulyesi geliyor, şipre parfümlerinin meşe yosunu/amber notalarına gönderme yapıyor. Tania Sanchez'in bu parfümü \"aşırı cinsel içerikli banliyö ev hanımı parfümü\" olarak nitelendiren yorumuna ve aşağıdaki bazı yorumlara rağmen, bu parfüm, birçok benzer parfümde bulunmayan ağırlık ve zenginliğe sahip çiçeksi vanilya parfümleri için oldukça sofistike bir kombinasyon gibi geliyor. Ayrıca, fazla olması gereken ancak burada bir şekilde tam kıvamında kullanılan sümbülteber de oldukça başarılı. Klasik bir şipre olmasa da, daha gurme içeriklerle şipre yapısına gönderme yapıyor gibi görünüyor. Zekice ve düşünceli bir parfüm. Genellikle bu tür gurme vanilya parfümlerini sevmem ama bu parfüm rahatlatıcı, konforlu ve şık. Sade bir yatak odası kokusu; kaşmir ve incilerle olduğu kadar iç çamaşırı ve çoraplarla da uyumlu. Çok güzel.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent713410",
+      "author": "gritzali maria",
+      "date": "2018-12-14",
+      "text": "Hayır, Tom Ford Orchid Soleil'e benzemiyor! TF çok yoğun, sümbülteber ve kremsi, oldukça güçlü; Tubereuses Castane ise sütlü, fındıksı, sıcak, şehvetli, çok tatlı ve çok rahatlatıcı. TF ise bende soğuk kalıyor ve ben bunu yaz için tercih ediyorum. Kış ve Noel için harika bir parfüm, Tubereuses Castane.\n!!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.317493.jpg"
+    },
+    {
+      "id": "parent713417",
+      "author": "theuntrainednose",
+      "date": "2018-04-21",
+      "text": "Bu kokuyla ilgili herkesin deneyimine saygı duyuyorum, ancak bende çok sofistike bir şekilde güzel ve seksi duruyor.\n\nHer şeyin üzerinde sıcak kestane kokusu ve altında da hafif bir uğultu gibi sümbülteber. Sümbülteber içeren sahip olduğum her parfümde bu koku baskındır, ama burada değil. Burada zarif bir şekilde ikinci planda kalıyor.\n\nNeredeyse 200 euroya mal olmasaydı keşke...",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent713422",
+      "author": "mora",
+      "date": "2017-12-27",
+      "text": "Sümbülteber kokusunun büyük bir hayranı olarak, notaları okudum ve bu kokunun nasıl koktuğuna dair oldukça iyi bir fikrim olduğunu düşündüm, ama yanılmışım! Bu gerçekten muhteşem bir parfüm, sadece üst düzey değil, aynı zamanda olağanüstü kalitede ve neredeyse her bir bileşenine büyük bir özen ve saygı gösterilerek el yapımı olarak üretildiğini ve hoş bir uyum yarattığını garanti edebilirim.\n\nAçıldığı andan itibaren, bu çiçeğe özgü karakteristik yeşil ve tatlı bir vurgu getiren, kremsi ve iri sümbülteber çiçeklerini açıkça görebilirsiniz. İçine, kestane ile birlikte ateşe konulan bir tonka fasulyesi eklenir; bu fasulye, çok çok kısık ateşte, her iki fındık da kavrulmuş fındığın o muhteşem aromasını yaymaya başlayana kadar, adeta bir iksir gibi pişirilir.\n\nBaharatlı, dumanlı ve mistik notalar arasında gidip gelen, kremsi sümbülteber aromasından asla ayrılmayan, son derece tatlı bir aura; seçkin, zarif ve gösterişli ama rahatsız edici olmayan, tamamen unisex, serin yaz gecelerinde ve kışın gündüz ve gece kullanılabilen bir koku.\n\nOlgun ve tatlı zevklere sahip olanlar için olmazsa olmaz, kesinlikle dikkatleri üzerine çekecek bir parfüm.\n\nBu muhteşem yaratım için parfümcü Shyamala Maisondieu'ya teşekkürlerimi sunarım!!!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.7501.jpg"
+    },
+    {
+      "id": "parent713445",
+      "author": "asya17",
+      "date": "2017-12-01",
+      "text": "Butik versiyonu çıktığı anda Tuberose-Chestnut'ı mutlaka almam gerektiğini biliyordum. Kapağını koklamak, denemek, o güzel şişeyi ellerimde tutmak, sonra başka bir şeye geçmek ve onsuz tekrar ayrılmak, kalbimin bir şeye kapıldığını bilmek büyük bir zevkti. Geçenlerde aldım ve gerçekten çok memnun kaldım. Uygulayın—yüzünüze çok yakın olmasın, sırtınıza sıkın veya bolca püskürtün. O zaman olağanüstü güzel bir gelişim yaşayacaksınız, baştan sona bir zevk—tatlı kavrulmuş kestaneden yumuşak tuberose'a ve asil, vanilya içermeyen bir tatlılığa. Lancôme henüz modası geçmedi; butik versiyonlarını, bizi memnun etme arzusuyla yaratılmış, gerçekten değerli kreasyonlar olarak görüyorum.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.167246.jpg"
+    },
+    {
+      "id": "parent713425",
+      "author": "StellaDiverFlynn",
+      "date": "2017-11-15",
+      "text": "Test kağıdında Tubéreuses Castane'ı hiç beğenmedim: aşırı kremsi ve ağır, kesinlikle gurme ve yavan bir üçlü olan sümbülteber, tonka fasulyesi ve vanilya karışımı. Ancak cildimde açılışta oldukça gerçekçi ve canlı, sıcak bir kestane akoruyla hoş bir sürpriz yaşadım.\n\nİlk yarım saat boyunca, kavrulmuş kestane kabuğunu anımsatan sıcak, dumanlı, odunsu bir nota ve Mont Blanc tatlısındaki kestane püresini çağrıştıran kremsi bir fındık kokusu algılayabiliyorum. Dahası, sümbülteberin kafur benzeri yeşilliği, Mont Blanc'ı zehirli bir asma gibi tutan tabağın kenarına doğru zarifçe yükseliyor. Fındık aromasıyla birleştiğinde, bazen acı badem/siyanür benzeri bir koku sergiliyor. Şımartıcı zevk ile uğursuz, zehirli potansiyel arasındaki gerilim ve zıtlık büyüleyici.\n\nNe yazık ki, Tubéreuses Castane'nin gerçek doğası cildimde bir saatlik demlenmeden sonra ortaya çıktı. Dumanlı, fındıksı, odunsu yönleri kayboldu ve test şeridinde algıladığım sümbülteber, tonka fasulyesi ve vanilya üçlüsü baskın çıktı. Doğal bir his bırakması amaçlanan sümbülteberin indol ve kafur benzeri yeşilliği yok oldu. Sümbülteberden geriye kalan tek şey, kremsi, boğucu ve neredeyse bayıcı vanilyayı tamamlayan çok soyut, yağlı bir çiçek iskeletiydi. Tubéreuses Castane bu çiçeksi vanilya bazını sonuna kadar koruyor ve genel etki, Isabey Lys Noir, Tom Ford Orchid Soleil gibi diğer gurme beyaz çiçeksi parfümlere oldukça benziyor.\n\nKoku ilk 3 saat boyunca oldukça yoğun, sonra tene yakın bir şekilde yerleşiyor. Benim üzerimde yaklaşık 8 saat kalıyor.\n\nEtkileyici ve güzel bir şekilde zıt üst notalarına rağmen, Tubéreuses Castane'nin yavan gurme tabanı, özellikle nüans eksikliği ve aşırı kremsi dokusu nedeniyle beni sıkıyor. Sümbülteberi duyusal veya doğal formunda sevenler, kremsi bir gurme kokusuyla karşılaşınca muhtemelen çok hayal kırıklığına uğrayacaklardır. Ancak, kestane akorlarını veya genel olarak kuruyemişleri sevenler için denemeye değer olduğunu düşünüyorum. Şahsen, güzel ilk görünümüne oldukça şaşırdım, ancak tabanı çok şey bırakıyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.72.jpg"
+    },
+    {
+      "id": "parent713416",
+      "author": "minaminamina",
+      "date": "2017-07-08",
+      "text": "Sümbülteber hayranı değilim ama bu kombinasyonda hoşuma gitti. Bence bu unisex bir parfüm değil. Çok kadınsı ve kaşmir kazak gibi sıcak. Bunu bir erkekte hayal edemiyorum.\n\nÇok yoğun bir koku ve sadece TEK bir fıs sıkmanızı şiddetle tavsiye ederim. İki kez sıkarsanız, kesinlikle havaya sıkın ve içinden geçin. Bütün gün kalıcı olur. Şişeyi aldıktan ve eve götürdükten sonra ilk kullandığımda çok hayal kırıklığına uğradım ve bunun çok tatlı bir parfüm olduğunu düşündüm. Sonradan fark ettim ki, diğer birçok parfümümde olduğu gibi çok fazla sıkmışım... Bir kez daha denedim ve tekrar aşık oldum.\n\nBu sıcak, seksi ve büyüleyici... aynı zamanda tatlı, ama olgun bir şekilde. Birçok kez sümbülteber parfümü almaya çalıştım, ama hepsi bana hep yaşlı bir kadını hatırlattı... bu farklı, benim için yeterince sümbülteber var ve en önemlisi kavrulmuş kestane kokusu. Arka planda biraz bal ve amber. Genel olarak sıcak bir çiçeksi koku, fındıksı bir hisle birleşiyor.\n\nŞişesi çok güzel ve kokusu gerçekten yüksek kaliteli. Çok uzun süre kalıcı olması ve güçlü bir yayılıma sahip olması hoşuma gitti.\n\nAtkılar ve su atkıları haftalarca kötü kokar.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     }
   ]
 }

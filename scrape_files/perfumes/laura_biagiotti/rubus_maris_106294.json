@@ -43,20 +43,48 @@
       "width": "54.3158%"
     },
     {
-      "name": "narenciye",
+      "name": "bitkisel",
       "width": "52.1053%"
     },
     {
       "name": "taze baharatlı",
       "width": "52.1053%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.71",
-    "votesCount": "14",
+    "score": "3.73",
+    "votesCount": "15",
     "breakdown": {
       "love": "4",
-      "like": "4",
+      "like": "5",
       "ok": "4",
       "dislike": "2",
       "hate": "0"
@@ -65,10 +93,10 @@
   "seasons": {
     "winter": "1",
     "spring": "2",
-    "summer": "4",
-    "autumn": "2",
-    "day": "3",
-    "night": "2"
+    "summer": "5",
+    "autumn": "3",
+    "day": "4",
+    "night": "3"
   },
   "notes": {
     "top": [
@@ -92,34 +120,63 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "0",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "0",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUESS",
+      "name": "Guess Seductive"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Olympéa Aqua"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Olympéa Aqua Eau de Parfum Légère"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Femme Dylan Turquoise"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Olympéa"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Un Jardin Sur La Lagune"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "BURBERRY",
+      "name": "Weekend for Women"
+    },
     {
       "brand": "LAURA BİAGİOTTİ",
       "name": "Ambrosia Aurea"
@@ -139,10 +196,6 @@
     {
       "brand": "MOLİNARD",
       "name": "Habanita Eau de Parfum"
-    },
-    {
-      "brand": "L'ERBOLARİO",
-      "name": "Notte a Tangeri"
     },
     {
       "brand": "CHLOÉ",
@@ -180,5 +233,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Libre L'Absolu Platine"
     }
-  ]
+  ],
+  "comments": []
 }

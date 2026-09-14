@@ -27,7 +27,7 @@
       "width": "58%"
     },
     {
-      "name": "animalik",
+      "name": "yumuşak baharatlı",
       "width": "44%"
     },
     {
@@ -35,7 +35,7 @@
       "width": "44%"
     },
     {
-      "name": "yumuşak baharatlı",
+      "name": "animalik",
       "width": "44%"
     }
   ],
@@ -68,42 +68,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "4",
-    "moderate": "3",
-    "longLasting": "0",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "3",
-    "strong": "3",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "CHOPARD",
-      "name": "Casmir"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Elixir"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -165,5 +156,6 @@
       "brand": "SARAH JESSİCA PARKER",
       "name": "Lovely"
     }
-  ]
+  ],
+  "comments": []
 }

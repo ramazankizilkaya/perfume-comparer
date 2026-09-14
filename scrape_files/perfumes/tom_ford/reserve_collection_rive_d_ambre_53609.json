@@ -47,16 +47,44 @@
       "width": "54.1957%"
     },
     {
-      "name": "anason",
+      "name": "taze",
       "width": "51%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.02",
-    "votesCount": "57",
+    "votesCount": "56",
     "breakdown": {
       "love": "26",
-      "like": "16",
+      "like": "15",
       "ok": "8",
       "dislike": "4",
       "hate": "3"
@@ -88,33 +116,62 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "2",
+    "moderate": "14",
+    "longLasting": "3",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "14",
+    "strong": "7",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "21",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "10",
+    "overpriced": "4",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TOM FORD",
+      "name": "Rive d’Ambre"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "1472 La Divina Commedia"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "L'Eau de Tarocco"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Reserve Collection: Bois Marocain"
+    },
+    {
+      "brand": "COMMODİTY",
+      "name": "Bergamot"
+    },
+    {
+      "brand": "BOUCHERON",
+      "name": "Orange De Bahia"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Infusion de Gingembre"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TOM FORD",
@@ -176,5 +233,6 @@
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Carnal Flower"
     }
-  ]
+  ],
+  "comments": []
 }

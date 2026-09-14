@@ -15,15 +15,15 @@
       "width": "100%"
     },
     {
-      "name": "aromatik",
-      "width": "63.7038%"
-    },
-    {
       "name": "sıcak baharatlı",
       "width": "63.7038%"
     },
     {
-      "name": "amber",
+      "name": "aromatik",
+      "width": "63.7038%"
+    },
+    {
+      "name": "misk",
       "width": "55.9259%"
     },
     {
@@ -31,7 +31,7 @@
       "width": "55.9259%"
     },
     {
-      "name": "misk",
+      "name": "amber",
       "width": "55.9259%"
     },
     {
@@ -41,13 +41,41 @@
     {
       "name": "toprak",
       "width": "45.5557%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.29",
-    "votesCount": "7",
+    "score": "4.38",
+    "votesCount": "8",
     "breakdown": {
-      "love": "4",
+      "love": "5",
       "like": "2",
       "ok": "0",
       "dislike": "1",
@@ -79,33 +107,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "2",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "2",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez for Him Bleu Noir"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "Declaration"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -116,6 +153,10 @@
       "name": "The Tux"
     },
     {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Jean Lowe Immortal"
+    },
+    {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "Jazz Club"
     },
@@ -123,5 +164,6 @@
       "brand": "REYANE TRADİTİON",
       "name": "Insurrection II Wild"
     }
-  ]
+  ],
+  "comments": []
 }

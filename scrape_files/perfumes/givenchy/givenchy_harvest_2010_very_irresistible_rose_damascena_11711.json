@@ -62,46 +62,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "2",
-    "moderate": "2",
-    "longLasting": "7",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "2",
-    "strong": "6",
-    "enormous": "8"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GİVENCHY",
-      "name": "Very Irresistible"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "Very Irresistible Rose Centifolia de Châteauneuf de Grasse 2006"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Mahasin Crystal Banafsaj"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CHLOÉ",
@@ -163,5 +150,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

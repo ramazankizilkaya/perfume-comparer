@@ -33,6 +33,34 @@
     {
       "name": "animalik",
       "width": "44.4375%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,31 +101,31 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "4",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "4",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "2",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "4"
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -123,11 +151,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Flor de Laranjeira"
+      "name": "Ilía Completa"
     },
     {
       "brand": "NATURA",
-      "name": "Ilía Completa"
+      "name": "Flor de Laranjeira"
     },
     {
       "brand": "NATURA",
@@ -161,5 +189,6 @@
       "brand": "NATURA",
       "name": "Humor 5"
     }
-  ]
+  ],
+  "comments": []
 }

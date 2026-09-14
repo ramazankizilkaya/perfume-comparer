@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.98371.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Guerlain/Souvenir-d-Orchidee-98371.html",
   "brand": "Guerlain parfüm ve kolonya",
-  "description": "Guerlain markasının Souvenir d'Orchidée parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Souvenir d'Orchidée, 2024 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Delphine Jelk. Üst notalar: Yasemin Sambac, Melek otu ve Su Notaları; orta notalar: Pudramsı notalar, İris ve Yosun; alt notalar Amber ve Misk.",
-  "description_original": "Guerlain markasının Souvenir d'Orchidée parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Souvenir d'Orchidée, 2024 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Delphine Jelk. Üst notalar: Yasemin Sambac, Melek otu ve Su Notaları; orta notalar: Pudramsı notalar, İris ve Yosun; alt notalar Amber ve Misk.",
-  "description_enhanced": "Guerlain markasının Souvenir d'Orchidée parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Souvenir d'Orchidée, 2024 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Delphine Jelk. Üst notalar: Yasemin Sambac, Melek otu ve Su Notaları; orta notalar: Pudramsı notalar, İris ve Yosun; alt notalar Amber ve Misk.",
+  "description": "Guerlain markasının Souvenir d'Orchidée parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Souvenir d'Orchidée, 2024 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Delphine Jelk. Üst notalar: Sambac Yasemini, Melek otu ve Su Notaları; orta notalar: Pudramsı notalar, İris ve Yosun; alt notalar Amber ve Misk.",
+  "description_original": "Guerlain markasının Souvenir d'Orchidée parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Souvenir d'Orchidée, 2024 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Delphine Jelk. Üst notalar: Sambac Yasemini, Melek otu ve Su Notaları; orta notalar: Pudramsı notalar, İris ve Yosun; alt notalar Amber ve Misk.",
+  "description_enhanced": "Guerlain markasının Souvenir d'Orchidée parfümü, kadınlar için Çiçeksi Akuatik bir kokudur. Bu yeni bir parfüm. Souvenir d'Orchidée, 2024 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Delphine Jelk. Üst notalar: Sambac Yasemini, Melek otu ve Su Notaları; orta notalar: Pudramsı notalar, İris ve Yosun; alt notalar Amber ve Misk.",
   "mainAccords": [
     {
       "name": "pudralı",
@@ -31,7 +31,7 @@
       "width": "54.5614%"
     },
     {
-      "name": "iris",
+      "name": "yosunlu",
       "width": "54.5614%"
     },
     {
@@ -39,7 +39,7 @@
       "width": "54.5614%"
     },
     {
-      "name": "yosunlu",
+      "name": "iris",
       "width": "54.5614%"
     },
     {
@@ -68,7 +68,7 @@
   },
   "notes": {
     "top": [
-      "Yasemin Sambac",
+      "Sambac Yasemini",
       "Melek otu",
       "Su Notaları"
     ],
@@ -84,31 +84,31 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "10",
-    "weak": "1",
-    "moderate": "2",
-    "longLasting": "0",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "2",
-    "strong": "1",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "11",
-    "moreFemale": "1",
-    "unisex": "2",
-    "moreMale": "1",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "15",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -119,6 +119,10 @@
     {
       "brand": "DİPTYQUE",
       "name": "L'Eau Papier"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Comète"
     },
     {
       "brand": "CHANEL",
@@ -165,12 +169,9 @@
       "name": "Tubereuse Noir"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Angels' Share"
-    },
-    {
       "brand": "BYREDO",
       "name": "Rose Of No Man's Land"
     }
-  ]
+  ],
+  "comments": []
 }

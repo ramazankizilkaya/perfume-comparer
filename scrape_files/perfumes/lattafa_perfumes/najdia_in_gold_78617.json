@@ -23,11 +23,11 @@
       "width": "93.4188%"
     },
     {
-      "name": "amber",
+      "name": "narenciye",
       "width": "83.8462%"
     },
     {
-      "name": "narenciye",
+      "name": "amber",
       "width": "83.8462%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "balsamik",
       "width": "60.5128%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -100,20 +128,61 @@
     "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "15",
+    "moreFemale": "5",
+    "unisex": "9",
+    "moreMale": "2",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "2",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "14"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİVENCHY",
+      "name": "L'Interdit Eau de Parfum"
+    },
+    {
+      "brand": "AVON",
+      "name": "Mesmerize Mystique Amber"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "Soul"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Sheikh Shuyukh Khusoosi"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Najdia Tribute"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Oud Royal"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Tubéreuse Impériale"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Her"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Oyuny Spray"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Adeeb"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -175,5 +244,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Oud for Glory"
     }
-  ]
+  ],
+  "comments": []
 }

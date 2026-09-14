@@ -65,46 +65,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "1",
-    "moderate": "2",
-    "longLasting": "4",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "2",
-    "strong": "2",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "6",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "6",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "XERJOFF",
-      "name": "Kobe"
-    },
-    {
-      "brand": "RALPH LAUREN",
-      "name": "Polo Sport"
-    },
-    {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Essenza di Colonia"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "STORA SKUGGAN",
@@ -151,12 +138,12 @@
       "name": "Chamber"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Interlude Man"
-    },
-    {
       "brand": "BDK PARFUMS",
       "name": "Gris Charnel"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Interlude Man"
     },
     {
       "brand": "FUEGUİA 1833",
@@ -166,5 +153,6 @@
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Lipstick Rose"
     }
-  ]
+  ],
+  "comments": []
 }

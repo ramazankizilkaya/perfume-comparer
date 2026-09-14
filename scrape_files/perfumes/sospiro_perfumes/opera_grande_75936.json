@@ -35,11 +35,11 @@
       "width": "70.1045%"
     },
     {
-      "name": "animalik",
+      "name": "misk",
       "width": "66.4582%"
     },
     {
-      "name": "misk",
+      "name": "animalik",
       "width": "66.4582%"
     },
     {
@@ -49,26 +49,54 @@
     {
       "name": "odunsu",
       "width": "61.7187%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.19",
-    "votesCount": "136",
+    "score": "4.16",
+    "votesCount": "138",
     "breakdown": {
-      "love": "77",
-      "like": "26",
-      "ok": "20",
-      "dislike": "8",
+      "love": "76",
+      "like": "27",
+      "ok": "21",
+      "dislike": "9",
       "hate": "5"
     }
   },
   "seasons": {
-    "winter": "60",
+    "winter": "61",
     "spring": "50",
     "summer": "29",
-    "autumn": "60",
+    "autumn": "61",
     "day": "44",
-    "night": "58"
+    "night": "59"
   },
   "notes": {
     "top": [
@@ -91,33 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "6",
+    "longLasting": "45",
+    "eternal": "23"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "6",
+    "strong": "44",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "15",
+    "moreFemale": "17",
+    "unisex": "55",
+    "moreMale": "9",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "20",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "16",
+    "overpriced": "29",
+    "fair": "21",
+    "goodValue": "7",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "XERJOFF",
+      "name": "Opera"
+    },
+    {
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Opera"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Philos Opus Noir"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Eden"
+    },
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Valiant"
+    },
+    {
+      "brand": "ELECTİMUSS",
+      "name": "Vixere"
+    },
+    {
+      "brand": "MORESQUE",
+      "name": "Aristoqrati"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Ange ou Demon"
+    },
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Golden Aries"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "1 Million Parfum"
+    },
+    {
+      "brand": "LAZURE PERFUMES",
+      "name": "Marble Bay"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Manifesto l'Elixir"
+    },
+    {
+      "brand": "CASTELBAJAC",
+      "name": "Beautiful Day L'Eau Original"
+    },
+    {
+      "brand": "LORENZO PAZZAGLİA",
+      "name": "Evil Angel a.k.a. 28.09"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Paragon"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NİSHANE",
@@ -172,12 +261,13 @@
       "name": "Oud Satin Mood"
     },
     {
-      "brand": "SOSPİRO PERFUMES",
-      "name": "Vibrato"
-    },
-    {
       "brand": "AMOUAGE",
       "name": "Reflection Man"
+    },
+    {
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Vibrato"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -1,7 +1,7 @@
 {
   "name": "Gorgeous Victoria's Secret",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Floral",
+  "fragranceFamily": "Gourmand",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.127175.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Victoria-s-Secret/Gorgeous-127175.html",
@@ -11,23 +11,15 @@
   "description_enhanced": "Victoria's Secret markasının Gorgeous parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Gorgeous, 2011 yılında piyasaya sürüldü. Üst notalar: Çilek ve Mandalina; orta notalar: Yasemin ve Frezya; alt notalar Sandal ağacı ve Misk.",
   "mainAccords": [
     {
-      "name": "çiçeksi",
-      "width": "100%"
-    },
-    {
       "name": "meyvemsi",
       "width": "100%"
     },
     {
-      "name": "narenciye",
-      "width": "88.3335%"
+      "name": "çiçeksi",
+      "width": "100%"
     },
     {
-      "name": "misk",
-      "width": "88.3335%"
-    },
-    {
-      "name": "pudralı",
+      "name": "odunsu",
       "width": "88.3335%"
     },
     {
@@ -35,7 +27,15 @@
       "width": "88.3335%"
     },
     {
-      "name": "odunsu",
+      "name": "pudralı",
+      "width": "88.3335%"
+    },
+    {
+      "name": "misk",
+      "width": "88.3335%"
+    },
+    {
+      "name": "narenciye",
       "width": "88.3335%"
     },
     {
@@ -45,6 +45,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "53.3335%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -109,5 +137,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

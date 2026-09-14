@@ -15,48 +15,76 @@
       "width": "100%"
     },
     {
-      "name": "taze",
-      "width": "78.1967%"
+      "name": "odunsu",
+      "width": "80.2849%"
     },
     {
-      "name": "odunsu",
-      "width": "71.8854%"
+      "name": "taze",
+      "width": "76.5191%"
     },
     {
       "name": "meyvemsi",
-      "width": "71.3117%"
-    },
-    {
-      "name": "baharatlı",
-      "width": "71.3117%"
+      "width": "72.5317%"
     },
     {
       "name": "tatlı",
-      "width": "69.5901%"
+      "width": "69.8734%"
+    },
+    {
+      "name": "baharatlı",
+      "width": "61.8989%"
     },
     {
       "name": "animalik",
-      "width": "66.7212%"
+      "width": "58.3543%"
     },
     {
       "name": "fındıksı",
-      "width": "62.131%"
+      "width": "54.8101%"
     },
     {
       "name": "laktonik",
-      "width": "51.5164%"
+      "width": "52.595%"
     },
     {
       "name": "deniz",
-      "width": "48.3606%"
+      "width": "44.1773%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.38",
+    "score": "4.31",
     "votesCount": "16",
     "breakdown": {
-      "love": "8",
-      "like": "6",
+      "love": "7",
+      "like": "7",
       "ok": "2",
       "dislike": "0",
       "hate": "0"
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "3",
-    "spring": "7",
-    "summer": "9",
+    "spring": "8",
+    "summer": "10",
     "autumn": "3",
-    "day": "8",
+    "day": "9",
     "night": "3"
   },
   "notes": {
@@ -82,33 +110,42 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "5",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "5",
+    "strong": "2",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "1",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MUGLER",
+      "name": "Womanity"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Rose Seduction Secret Sunkissed"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MUGLER",
@@ -123,12 +160,12 @@
       "name": "Imitation Woman"
     },
     {
-      "brand": "BYREDO",
-      "name": "La Tulipe"
-    },
-    {
       "brand": "CALVİN KLEİN",
       "name": "Euphoria"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "La Tulipe"
     },
     {
       "brand": "LANCÔME",
@@ -143,16 +180,16 @@
       "name": "Vanderbilt"
     },
     {
+      "brand": "LALİQUE",
+      "name": "Encre Noire"
+    },
+    {
       "brand": "LANCÔME",
       "name": "Poeme"
     },
     {
       "brand": "TOM FORD",
       "name": "Black Orchid"
-    },
-    {
-      "brand": "LALİQUE",
-      "name": "Encre Noire"
     },
     {
       "brand": "LANCÔME",
@@ -170,5 +207,6 @@
       "brand": "LALİQUE",
       "name": "Satine"
     }
-  ]
+  ],
+  "comments": []
 }

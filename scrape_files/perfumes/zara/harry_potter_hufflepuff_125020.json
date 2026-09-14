@@ -33,13 +33,41 @@
     {
       "name": "meyvemsi",
       "width": "47.5001%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "2.00",
-    "votesCount": "2",
+    "score": "3.00",
+    "votesCount": "3",
     "breakdown": {
-      "love": "0",
+      "love": "1",
       "like": "0",
       "ok": "0",
       "dislike": "2",
@@ -49,9 +77,9 @@
   "seasons": {
     "winter": "0",
     "spring": "0",
-    "summer": "0",
-    "autumn": "0",
-    "day": "0",
+    "summer": "1",
+    "autumn": "1",
+    "day": "1",
     "night": "0"
   },
   "notes": {
@@ -68,7 +96,7 @@
   },
   "longevity": {
     "veryWeak": "0",
-    "weak": "0",
+    "weak": "1",
     "moderate": "0",
     "longLasting": "0",
     "eternal": "0"
@@ -107,5 +135,6 @@
       "name": "Hufflepuff"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

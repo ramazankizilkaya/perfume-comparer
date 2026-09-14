@@ -16,59 +16,87 @@
     },
     {
       "name": "aromatik",
-      "width": "68.3266%"
+      "width": "68.5343%"
     },
     {
       "name": "taze baharatlı",
-      "width": "67.2957%"
+      "width": "67.5097%"
     },
     {
       "name": "yeşil",
-      "width": "63.5475%"
+      "width": "63.1256%"
     },
     {
       "name": "odunsu",
-      "width": "55.3308%"
+      "width": "55.0738%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "52.9987%"
+      "width": "52.6979%"
     },
     {
       "name": "taze",
-      "width": "51.4458%"
+      "width": "51.1933%"
     },
     {
       "name": "tatlı",
-      "width": "47.6171%"
+      "width": "47.2503%"
     },
     {
       "name": "meyvemsi",
-      "width": "45.3549%"
+      "width": "45.0065%"
     },
     {
       "name": "pudralı",
-      "width": "44.6721%"
+      "width": "44.2413%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.19",
-    "votesCount": "288",
+    "score": "4.22",
+    "votesCount": "301",
     "breakdown": {
-      "love": "140",
-      "like": "97",
-      "ok": "28",
+      "love": "148",
+      "like": "103",
+      "ok": "27",
       "dislike": "13",
       "hate": "10"
     }
   },
   "seasons": {
-    "winter": "25",
-    "spring": "150",
-    "summer": "189",
-    "autumn": "51",
-    "day": "190",
-    "night": "54"
+    "winter": "27",
+    "spring": "158",
+    "summer": "199",
+    "autumn": "54",
+    "day": "201",
+    "night": "57"
   },
   "notes": {
     "top": [
@@ -109,33 +137,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "32",
+    "weak": "66",
+    "moderate": "74",
+    "longLasting": "5",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "68",
+    "moderate": "74",
+    "strong": "18",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "25",
+    "moreFemale": "41",
+    "unisex": "114",
+    "moreMale": "9",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "28",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "6",
+    "overpriced": "8",
+    "fair": "27",
+    "goodValue": "91",
+    "greatValue": "35"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "PEPE JEANS LONDON",
+      "name": "Pepe Jeans For Her Cocktail"
+    },
+    {
+      "brand": "AQUARELA DO BRASİL",
+      "name": "Maracujá Passiflora"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Viva Acqua Fresca"
+    },
+    {
+      "brand": "NARCOTİCA",
+      "name": "Narco Oasis"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Ô de Lancôme Fourreauté"
+    },
+    {
+      "brand": "ADOLFO DOMİNGUEZ",
+      "name": "Agua Fresca de Azahar"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Brume Corps Fraîche Verveine L'Occitane en Provence"
+    },
+    {
+      "brand": "PANVEL",
+      "name": "Vert Maracujá"
+    },
+    {
+      "brand": "PHEBO",
+      "name": "Verbena Tropical"
+    },
+    {
+      "brand": "ROGER & GALLET",
+      "name": "Shiso"
+    },
+    {
+      "brand": "PHEBO",
+      "name": "Limão Siciliano"
+    },
+    {
+      "brand": "GİANFRANCO FERRE",
+      "name": "Gianfranco Ferre Bergamotto Marino"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Cruise Collection - Escale a Portofino"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Allure"
+    },
+    {
+      "brand": "PHEBO",
+      "name": "Rosmarino Eau de Toilette"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -187,15 +276,117 @@
     },
     {
       "brand": "NATURA",
-      "name": "Essencial Ato"
-    },
-    {
-      "brand": "NATURA",
       "name": "Luna"
     },
     {
       "brand": "NATURA",
       "name": "Humor Envolve"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Cacau"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent789444",
+      "author": "Niquelopes",
+      "date": "2025-10-25",
+      "text": "Kış boyunca yazın serinlemek için koku stoğu yaptım😀🌞\nGeleneksel maracujanın sabunsu kokusundan çok farklı olan bu koku, aromatik, narenciye, yeşil ve unisex. Çok harika!\nLimon otu, poejo, portakal, biberiye. Çocukken büyükannemin yaptığı çayı hatırlatıyor bana, tam olarak bu koku değildi ama anılarımı canlandırıyor. Yani, huzur kokusu, sevgi kokusu, aşk kokusu.❤️ Parfümeri ve bize duygularımızı hatırlatan bu gücü.\nPassion fruit, hiçbir şey hissetmiyorum kkk.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.96862.jpg"
+    },
+    {
+      "id": "parent789441",
+      "author": "María Jacqueline",
+      "date": "2025-07-06",
+      "text": "Bu özel baskı Frescor de Maracuyá'yı L'Occitane'nin edt serisinin narenciye kokularına çok benzetiyorum. Fiyatı çok daha uygun ve şişedeki miktar da fazla olduğu için çok memnunum. Kokunun uzun süre kalıcı olmadığı doğru, yazın en fazla bir iki saat sürüyor, ilk saatte kokusu iyi yayılıyor, ama aslında bu benim için çok önemli değil çünkü yumuşak, rahatlatıcı, sakinleştirici bir narenciye kokusu deneyimi yaşıyorum, hiç rahatsız edici değil ve çok hoş bir rahatlık hissi veriyor. Klasik Maracuyá'ya sahipseniz, bu edisyonu da alabilirsiniz çünkü benim algıma göre birbirlerine benzemiyorlar.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.53566.jpg"
+    },
+    {
+      "id": "parent1023957",
+      "author": "AgdaC",
+      "date": "2025-05-18",
+      "text": "Bu parfümü, üretimden kaldırılan Mandarina Asiática'nın yerine geçmesi umuduyla Blind'den aldım. İlginçtir ki, ikisinin de ilk kokusu birbirine çok benziyor! Narenciye kokulu, ferahlatıcı… ama Granado'nunkisi daha yumuşak. Aromático de Maracujá'yı ise çok daha baharatlı, yoğun ve özenle işlenmiş buldum. Sıradan bir narenciye kokusu değil. Özellikle başlangıçta birbirlerine benziyorlar, ancak Natura'nın performansı daha güçlü. Hatta bazı durumlarda biraz rahatsız edici bile olabilir. Banyodan sonra, spor salonunda ve yumuşak ve ferah bir parfüm gerektiren benzer durumlarda hâlâ Mandarina Asiática'yı tercih ediyorum, ancak bu parfüm şüphesiz daha çok yönlü çünkü hem sıcak hem de serin havalarda iyi gidiyor.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent789436",
+      "author": "Revesensuelle",
+      "date": "2025-01-21",
+      "text": "Bu, orijinal maracuyá'dan daha unisex bir koku. Daha fazla narenciye ve biraz odunsu. Taze kokuyor, temmuz ortasında duştan sonra sürmek isteyeceğiniz bir koku. İçindeki tropikal kokuyu çok seviyorum. Ve natura asla hayal kırıklığına uğratmaz. Kendinizi ormanın ortasında hissettiriyor. Sabunu, losyonu ve vücut spreyi var ama benim zevkime uygun değil çünkü daha çok erkeklere uygun bir koku ama yine de temiz ve taze kokuyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent789445",
+      "author": "heitorlcalmeida",
+      "date": "2024-11-05",
+      "text": "Nefis! 2004 yılındaki Maracujá'dan çok farklı bir yaklaşım, ki onu da çok seviyorum ve balsamik ve reçineli kimliğinin ötesinde \"Natura kokusu\" olarak bilinen şeyin bir parçası.\n\nŞey, sabahın üçünde hiç maracujá ağacına gitmedim, brifingde ilham kaynağının bu olduğu söyleniyor, bu yüzden maracujá'nın o saatte belirli bir koku yayıp yaymadığını söyleyemem. Bana göre burada \"şafak vakti serinliği kokusu\" var, o saatte açık havada nefes aldığınızda burnunuzda hissettiğiniz \"nemli\" his, özellikle de küçük bir kasabada veya yeşilliklerle çevrili bir yerde. Her püskürttüğümde aklıma bu geliyor. Tabii ki marakujayı da hatırlıyorum, ama baskın olan his bu... sabahın üçünde açık havada bir marakujayı açmak.\n\nSonunda nemli ve sabun da satın aldım, çünkü bu kokuya aşık oldum. Sitrik, aromatik ve hafif meyveli, en sıcak havalarda bile rahatlıkla kullanabilirsiniz. En azından denemeye değer, çünkü marka burada imgeleri ve hisleri uyandırmada başarılı olmuş.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.76402.jpg"
+    },
+    {
+      "id": "parent789437",
+      "author": "Guilherme Fernandes",
+      "date": "2024-10-18",
+      "text": "Bugün bunu körü körüne satın aldım ve kokusu çok güzel!\nÇok ferah, yeşil, doğal ve eşsiz bir koku.\nBitkisel ve çiçek bazlı ekşi bir başlangıç.\nÇok doğrusal.\n\nAncak performansı çok zayıf, birçok vücut spreyi bile daha iyi.\n\n1-2 saat kalıcılık ve zayıf sillage.\n\nYazık!\nPerformansı çok kötü olan harika bir parfüm.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.422091.jpg"
+    },
+    {
+      "id": "parent789440",
+      "author": "nikita.s",
+      "date": "2024-10-10",
+      "text": "Saf sitrik aroma, maracuyanın limon veya portakal arasında kaybolduğu bir koku. Hiç kalıcı değil, hatta giysilerde daha uzun süre kalıyor ama Natura markasının bu ferahlıkların üzerinde bir kalite damgası olduğunu ima etmiyor.\nTam bir hayal kırıklığı, diğerlerinden farklı bir aroma bulacağımı sanmıştım ama sonunda, Todo Día de Limón vücut spreyi ve biraz daha fazlası gibi geldi. Bin kat daha çok kestane veya pitanga preta kokusunu tercih ederim.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.209068.jpg"
+    },
+    {
+      "id": "parent789443",
+      "author": "ljdja",
+      "date": "2024-09-27",
+      "text": "Bu kokuyu yok edecek kadar sıcaklık olmayacak. Natura'nın hafif çiçeksi narenciye kokusunun üretimini bırakmaması hoşuma gidiyor, Guerlain'in Aqcua Allegoria'sı gibi en fazla 3 ila 4 saat sürdüğü için sınırlı sayıda üretildiğini tahmin ediyorum, ancak hepsi dayanılmaz sıcak günler için mükemmel.\nKalitesi, L'occitane en Provence'ın Bergamote Basilic ve L'occitane Bresil'in Capim Limão ile karşılaştırılabilir. İkisi de bende var. Aynı tarzda kokular ve birbirlerinin yerine kullanılabilirler, aralarında bir nota veya başka bir nota belirir ve başlangıçta veya ortada benzerlik gösterir.\nMaracujá Natureza dos Sonhos'a geri dönersek, burada Natura'nın klasik, sulu marakuyası yok, bunun yerine bergamot ve limon otu ile patlayıcı bir başlangıç yapan \"limonlu marakuya\" var, barut gibi çıkıyor, oldukça erkeksi, baharatlı, taze, muhtemelen zencefil ve kakule kuzenleri ve ayrıca taze biberiye (kuru veya kremsi bir biberiye değil, \"ıslak\" bir biberiye) ve karabiberin varlığıyla ortaya çıkıyor.\nKavun ve kalp notalarında kaybolana kadar dolaşan bir şey hissediyorum, belki de başlangıçtaki çiçekler...\nSonra, koku 5 ila 10 dakika içinde açılmaya ve değişmeye başlar, çok hızlı bir şekilde sakinleşir, cilde yakın kalır ve kişinin etrafında pansiyon, şelale, ıslak yapraklar gibi nüanslarla kalır, ancak kalpte çok ince bir bitkisel çiçeksi kokuya doğru ilerler. Bu kolonyanın her şeyini sevdim.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.12636.jpg"
+    },
+    {
+      "id": "parent789435",
+      "author": "Cheiroserrima",
+      "date": "2024-09-10",
+      "text": "AŞIĞIM! Gençliğimden beri (neredeyse 30 yıl önce), Natura kozmetik ve parfümler için her zaman vazgeçilmez bir marka olmuştur. Eau de L'arc kullanıyordum! Ekos serisi çıktığında... Aman Tanrım! Gerçek olamayacak kadar iyiydi. En sevdiklerim (geçmiş zaman; bugün onlara dokunmam bile, çünkü başımı ağrıtıyorlar) orijinal Pitanga, Pitanga Preta, Cheiro de Moça, Breu Branco ve Priprioca idi. Kız kardeşim Cacau, Castanha ve Maracujá'yı severdi, ama ben hiçbirini tahammül edemezdim. Orijinal Maracujá her zaman sabunsu, tatlı ve yapışkan olmuştur... Gerçekten çok baskın. Bu hava için fazla! Ama bundan kaçış yoktu! Bugün hala HER YERDE insanlar onu kullanıyor ve seviyor. Benim için her zaman mide bulandırıcıydı, bu da beni çok rahatsız ediyordu, çünkü tanıdığım pek çok insan onu seviyor ve kullanıyordu. Ne kadar uğraşsam da onu sevemediğim için kendimi kötü hissediyordum. Brezilya'dan birkaç ay uzak kaldım (2023-2024) ve geri döndüğümde Natura'nın eski Maracujá'nın yeni bir yorumunu çıkardığını öğrendim. Gözümü bile kırpmadım. Ama her zamanki gibi meraklıydım, bu yüzden gidip koklamaya karar verdim. Ve sonsuza kadar kayboldum! LOL! Ekos serisinin şimdiye kadarki en mükemmel yaratımı olduğunu söyleyebilirim. Bu, her zaman hayalini kurduğum tutku meyvesi kokusu. Meyveli, çiçeksi, bitkisel ve odunsu kokuları bir arada barındırıyor. Bitkinin yaprakları, çiçekleri ve meyveleriyle bütününü gerçekten yansıtıyor. Şekersiz, lezzetli bir koku, Brezilya'nın her türlü havasına uygun, şık, temiz, rahat, rahatlatıcı ve bağımlılık yapıcı. Cildimde çok güzel duruyor, taze kesilmiş dolgun sarı tutku meyvesinin tüm ekşiliğiyle ortaya çıkıyor, bitkinin kendisini anımsatan bitkisel çiçeksi bir kokuya dönüşüyor (bunu biliyorum çünkü evde biraz vardı) ve sonunda bu güzel ekşi meyveli, miskli, temiz cilt kokusuna dönüşüyor. Bu parfüme bayıldım, büyülendim ve özel bir sürüm olduğu için üretimden kaldırılma ihtimaline karşı biraz daha uzun süre keyfini çıkarmak için yedek bir şişe satın aldım bile. Bu parfümü seven başka kimse var mı?",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1510214.jpg"
+    },
+    {
+      "id": "parent1023958",
+      "author": "mariii986hy",
+      "date": "2024-09-08",
+      "text": "Bu parfüm ilk andan itibaren beni büyüledi. Açılış notaları canlandırıcı bir his uyandırıyor; sıcak günler ve gündelik ortamlar için mükemmel olan, insanı saran bir ferahlık sunuyor. Cildimde oldukça belirgin bir şekilde hissedildi; yaklaşık 6 saat süren orta düzeyde bir kalıcılık gösterirken, yayılımı daha mütevazıydı ve yaklaşık 2 saat sonra cilde daha yakın bir kokuya dönüştü.\n\nBu parfümde beni gerçekten etkileyen şey, tazelik ve yumuşaklık arasındaki dengesi oldu. Parfüm, enerji ve canlılık hissi veren canlı bir narenciye dokunuşuyla başlıyor, ancak zamanla daha yumuşak hale geliyor ve hoş, hiç rahatsız edici olmayan bir koku deneyimi sunan narin nüanslar ortaya çıkıyor. Narenciye kokusu olmasına rağmen, midemi bulandırmadan beni çok memnun eden ince ve zarif bir tatlılığı var.\n\nMaracujá Natureza dos Sonhos, bence Brezilya iklimine mükemmel uyum sağlayan, hem ferah hem de sıcak bir parfüm. Abartılı ya da çok yoğun olmaya çalışmıyor, ancak narin ve sofistike bir varlık sunuyor; göze batmayan, ancak hoş ve akılda kalıcı bir iz bırakan kokuları sevenler için ideal. Zarif bir dokunuştan ödün vermeden hafif ve ferahlatıcı bir şey isteyenler için mükemmel bir seçim.\n\nÖzetle, bu kokudan oldukça memnun kaldım. Cilt tipime çok yakıştı ve gün boyu dengeli ve rahat bir deneyim sundu.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.132394.jpg"
     }
   ]
 }

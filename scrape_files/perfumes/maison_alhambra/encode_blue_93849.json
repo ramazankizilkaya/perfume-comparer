@@ -27,11 +27,11 @@
       "width": "90.5769%"
     },
     {
-      "name": "amber",
+      "name": "meyvemsi",
       "width": "83.8461%"
     },
     {
-      "name": "meyvemsi",
+      "name": "amber",
       "width": "83.8461%"
     },
     {
@@ -49,25 +49,53 @@
     {
       "name": "tuzlu",
       "width": "62.3077%"
+    },
+    {
+      "name": "Online satın alın 18 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.11",
-    "votesCount": "28",
+    "score": "3.17",
+    "votesCount": "30",
     "breakdown": {
-      "love": "8",
+      "love": "9",
       "like": "4",
-      "ok": "6",
+      "ok": "7",
       "dislike": "3",
       "hate": "7"
     }
   },
   "seasons": {
-    "winter": "13",
-    "spring": "16",
-    "summer": "16",
-    "autumn": "11",
-    "day": "14",
+    "winter": "15",
+    "spring": "18",
+    "summer": "17",
+    "autumn": "12",
+    "day": "16",
     "night": "10"
   },
   "notes": {
@@ -88,33 +116,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "12",
+    "weak": "5",
+    "moderate": "6",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "6",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "10",
+    "moreMale": "3",
+    "male": "12"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "13",
+    "overpriced": "2",
+    "fair": "7",
+    "goodValue": "6",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MONTBLANC",
+      "name": "Explorer Ultra Blue"
+    },
+    {
+      "brand": "AVON",
+      "name": "Black Essential Hot"
+    },
+    {
+      "brand": "AXE",
+      "name": "Apollo"
+    },
+    {
+      "brand": "AVON",
+      "name": "Avon Homem Power"
+    },
+    {
+      "brand": "AVON",
+      "name": "Avon Homem Classic"
+    },
+    {
+      "brand": "AVON",
+      "name": "Avon Homem Bio"
+    },
+    {
+      "brand": "AVON",
+      "name": "Avon Homem Ice"
+    },
+    {
+      "brand": "AVON",
+      "name": "Avon Homem Energy"
+    },
+    {
+      "brand": "AVON",
+      "name": "Avon Homem Sport"
+    },
+    {
+      "brand": "AVON",
+      "name": "Avon Homem Combat"
+    },
+    {
+      "brand": "AVON",
+      "name": "Avon Homem Acqua"
+    },
+    {
+      "brand": "AXE",
+      "name": "Black Vanilla"
+    },
+    {
+      "brand": "AVON",
+      "name": "Avon Homem Up"
+    },
+    {
+      "brand": "AXE",
+      "name": "Dark Temptation"
+    },
+    {
+      "brand": "AVON",
+      "name": "Mesmerize Black for Him"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON ALHAMBRA",
@@ -133,10 +222,6 @@
       "name": "Eros Flame"
     },
     {
-      "brand": "MANCERA",
-      "name": "Aoud Lemon Mint"
-    },
-    {
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
     },
@@ -153,12 +238,12 @@
       "name": "Vulcan Sable"
     },
     {
-      "brand": "AFNAN",
-      "name": "9pm"
+      "brand": "MONTBLANC",
+      "name": "Explorer Platinum"
     },
     {
-      "brand": "XERJOFF",
-      "name": "XJ 1861 Naxos"
+      "brand": "AFNAN",
+      "name": "9pm"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -175,6 +260,11 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Sublime"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Raghba"
     }
-  ]
+  ],
+  "comments": []
 }

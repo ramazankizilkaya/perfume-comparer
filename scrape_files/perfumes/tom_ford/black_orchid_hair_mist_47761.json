@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Tom-Ford/Black-Orchid-Hair-Mist-47761.html",
   "brand": "Tom Ford parfüm ve kolonya",
   "description": "Tom Ford markasının Black Orchid Hair Mist parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Black Orchid Hair Mist, 2017 yılında piyasaya sürüldü. Üst notalar: Trüf, Frenk üzümü, Gardenya, Ylang-Ylang, Mandalina, Yasemin, Bergamot ve Limon; orta notalar: Meyvemsi Notlar, Orkide, Baharatlar, Gardenya, Ylang-Ylang, Yasemin ve Lotus; alt notalar Bitter çikolata, Paçuli, Vanilya, Tütsü, Amber, Vetiver, Misk ve Sandal ağacı.",
-  "description_original": "Tom Ford markasının Black Orchid Hair Mist parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Black Orchid Hair Mist, 2017 yılında piyasaya sürüldü. Üst notalar: Trüf, Frenk üzümü, Gardenya, Ylang-Ylang, Mandalina, Yasemin, Bergamot ve Limon; orta notalar: Meyvemsi Notlar, Orkide, Baharatlar, Gardenya, Ylang-Ylang, Yasemin ve Lotus; alt notalar Bitter çikolata, Paçuli, Vanilya, Tütsü, Amber, Vetiver, Misk ve Sandal ağacı.",
+  "description_original": "Tom Ford markasının Black Orchid Hair Mist parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Black Orchid Hair Mist, 2017 yılında piyasaya sürüldü. Üst notalar: Trüf, Siyah Frenk Üzümü, Gardenya, Ylang-Ylang, Mandalina, Yasemin, Bergamot ve Limon; orta notalar: Meyvemsi Notlar, Orkide, Baharatlar, Gardenya, Ylang-Ylang, Yasemin ve Lotus; alt notalar Bitter çikolata, Paçuli, Vanilya, Tütsü, Amber, Vetiver, Misk ve Sandal ağacı.",
   "description_enhanced": "Tom Ford markasının Black Orchid Hair Mist parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Black Orchid Hair Mist, 2017 yılında piyasaya sürüldü. Üst notalar: Trüf, Frenk üzümü, Gardenya, Ylang-Ylang, Mandalina, Yasemin, Bergamot ve Limon; orta notalar: Meyvemsi Notlar, Orkide, Baharatlar, Gardenya, Ylang-Ylang, Yasemin ve Lotus; alt notalar Bitter çikolata, Paçuli, Vanilya, Tütsü, Amber, Vetiver, Misk ve Sandal ağacı.",
   "mainAccords": [
     {
@@ -49,15 +49,43 @@
     {
       "name": "paçuli",
       "width": "60.7159%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.76",
-    "votesCount": "49",
+    "score": "3.74",
+    "votesCount": "50",
     "breakdown": {
       "love": "21",
       "like": "11",
-      "ok": "4",
+      "ok": "5",
       "dislike": "10",
       "hate": "3"
     }
@@ -66,14 +94,14 @@
     "winter": "14",
     "spring": "8",
     "summer": "6",
-    "autumn": "13",
-    "day": "11",
+    "autumn": "14",
+    "day": "12",
     "night": "14"
   },
   "notes": {
     "top": [
       "Trüf",
-      "Frenk üzümü",
+      "Siyah Frenk Üzümü",
       "Gardenya",
       "Ylang-Ylang",
       "Mandalina",
@@ -125,7 +153,7 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "4",
-    "fair": "4",
+    "fair": "5",
     "goodValue": "2",
     "greatValue": "0"
   },
@@ -143,12 +171,16 @@
       "name": "Black Orchid Perfume Lalique Edition"
     },
     {
-      "brand": "BOHOBOCO",
-      "name": "Magic Mushrooms"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Black Orchid Reserve"
+    },
+    {
+      "brand": "IN THE BOX",
+      "name": "Black Flower"
+    },
+    {
+      "brand": "BOHOBOCO",
+      "name": "Magic Mushrooms"
     },
     {
       "brand": "VAN CLEEF & ARPELS",
@@ -220,5 +252,6 @@
       "brand": "TOM FORD",
       "name": "Orchid Soleil"
     }
-  ]
+  ],
+  "comments": []
 }

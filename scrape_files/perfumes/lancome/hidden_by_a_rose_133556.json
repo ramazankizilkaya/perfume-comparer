@@ -19,11 +19,11 @@
       "width": "88.3333%"
     },
     {
-      "name": "vanilya",
+      "name": "sıcak baharatlı",
       "width": "68.8889%"
     },
     {
-      "name": "sıcak baharatlı",
+      "name": "vanilya",
       "width": "68.8889%"
     },
     {
@@ -45,13 +45,41 @@
     {
       "name": "dumanlı",
       "width": "45.5556%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.67",
-    "votesCount": "6",
+    "score": "3.86",
+    "votesCount": "7",
     "breakdown": {
-      "love": "2",
+      "love": "3",
       "like": "2",
       "ok": "1",
       "dislike": "0",
@@ -59,7 +87,7 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "3",
     "summer": "2",
     "autumn": "3",
@@ -81,33 +109,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "M. MİCALLEF",
+      "name": "Mon Parfum Cristal"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle Iris Absolu"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -137,5 +174,6 @@
       "brand": "MAİSON CRİVELLİ",
       "name": "Tubéreuse Astrale"
     }
-  ]
+  ],
+  "comments": []
 }

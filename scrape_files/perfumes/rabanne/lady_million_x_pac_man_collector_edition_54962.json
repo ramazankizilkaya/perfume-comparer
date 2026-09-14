@@ -33,6 +33,34 @@
     {
       "name": "amber",
       "width": "45.3425%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,33 +101,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "5",
+    "longLasting": "4",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "5",
+    "strong": "6",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "9",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Lady Million Royal"
+    },
+    {
+      "brand": "LA RİVE",
+      "name": "Cash Woman"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Lady Million"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Lady Million Monopoly Collector Edition"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Aurum"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Lady Million Eau de Toilette"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Honey Wildflower"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Honey Wildflower"
+    },
+    {
+      "brand": "AERİN",
+      "name": "Mediterranean Honeysuckle Tiare"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Edition One"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Lady Million Eau My Gold!"
+    },
+    {
+      "brand": "GULF ORCHİD",
+      "name": "Honeymoon"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "L'Interdit Eau de Parfum"
+    },
+    {
+      "brand": "BEBE",
+      "name": "Glam"
+    },
+    {
+      "brand": "OSCAR DE LA RENTA",
+      "name": "Extraordinary"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RABANNE",
@@ -161,5 +250,6 @@
       "brand": "BURBERRY",
       "name": "Burberry Her"
     }
-  ]
+  ],
+  "comments": []
 }

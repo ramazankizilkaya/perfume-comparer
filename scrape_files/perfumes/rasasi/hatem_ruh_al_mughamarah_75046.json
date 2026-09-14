@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "çiçeksi",
+      "name": "lavanta",
       "width": "53.3333%"
     },
     {
-      "name": "lavanta",
+      "name": "çiçeksi",
       "width": "53.3333%"
     },
     {
@@ -27,8 +27,36 @@
       "width": "37%"
     },
     {
-      "name": "aromatik",
+      "name": "bitkisel",
       "width": "34.6667%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -70,32 +98,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "3",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "3",
+    "strong": "3",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Maze Eau de Parfum"
+    },
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Blue Sapphire"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

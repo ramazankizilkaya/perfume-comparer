@@ -45,6 +45,34 @@
     {
       "name": "taze baharatlı",
       "width": "45.037%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,33 +115,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "0",
+    "moderate": "4",
+    "longLasting": "20",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "4",
+    "strong": "23",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "2",
+    "male": "9"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "3",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ERMENEGİLDO ZEGNA",
+      "name": "Zegna Intenso"
+    },
+    {
+      "brand": "AVON",
+      "name": "Tomorrow for Men"
+    },
+    {
+      "brand": "FENDİ",
+      "name": "Fan di Fendi pour Homme"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "F by Ferragamo Black"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -175,5 +220,6 @@
       "brand": "CHANEL",
       "name": "Allure Homme Sport"
     }
-  ]
+  ],
+  "comments": []
 }

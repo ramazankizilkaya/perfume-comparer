@@ -37,13 +37,41 @@
     {
       "name": "misk",
       "width": "44.2895%"
+    },
+    {
+      "name": "Online satın alın 11 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.08",
-    "votesCount": "24",
+    "score": "4.12",
+    "votesCount": "25",
     "breakdown": {
-      "love": "7",
+      "love": "8",
       "like": "13",
       "ok": "3",
       "dislike": "1",
@@ -51,12 +79,12 @@
     }
   },
   "seasons": {
-    "winter": "16",
+    "winter": "17",
     "spring": "7",
     "summer": "1",
-    "autumn": "17",
+    "autumn": "18",
     "day": "6",
-    "night": "15"
+    "night": "16"
   },
   "notes": {
     "top": [],
@@ -75,33 +103,42 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "8",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "8",
+    "strong": "2",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "9",
+    "moreMale": "3",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "8"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "XERJOFF",
+      "name": "More Than Words"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Maahir"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -132,12 +169,12 @@
       "name": "F by Ferragamo Black"
     },
     {
-      "brand": "AFNAN",
-      "name": "Supremacy Collector's Edition Pour Homme"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Oud for Glory"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Supremacy Collector's Edition Pour Homme"
     },
     {
       "brand": "AFNAN",
@@ -148,12 +185,12 @@
       "name": "Jean Lowe Immortal"
     },
     {
-      "brand": "AFNAN",
-      "name": "Turathi Blue"
-    },
-    {
       "brand": "ARMAF",
       "name": "Club de Nuit Milestone"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Turathi Blue"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -163,5 +200,6 @@
       "brand": "MAİSON ALHAMBRA",
       "name": "Sceptre Malachite"
     }
-  ]
+  ],
+  "comments": []
 }

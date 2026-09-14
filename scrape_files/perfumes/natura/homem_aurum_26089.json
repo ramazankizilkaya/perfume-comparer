@@ -45,13 +45,41 @@
     {
       "name": "toprak",
       "width": "44.3182%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "80",
+    "score": "4.07",
+    "votesCount": "81",
     "breakdown": {
-      "love": "27",
+      "love": "28",
       "like": "41",
       "ok": "3",
       "dislike": "8",
@@ -59,12 +87,12 @@
     }
   },
   "seasons": {
-    "winter": "35",
-    "spring": "13",
+    "winter": "36",
+    "spring": "14",
     "summer": "6",
-    "autumn": "37",
+    "autumn": "38",
     "day": "15",
-    "night": "47"
+    "night": "48"
   },
   "notes": {
     "top": [
@@ -83,33 +111,90 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "4",
+    "moderate": "17",
+    "longLasting": "9",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "17",
+    "strong": "11",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "6",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Homem Verum"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "CH Men"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Copaíba"
+    },
+    {
+      "brand": "JOOP!",
+      "name": "Wow!"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Sexy Men"
+    },
+    {
+      "brand": "HARLEY DAVİDSON",
+      "name": "Legendary Harley-Davidson"
+    },
+    {
+      "brand": "ENRİQUE IGLESİAS",
+      "name": "Adrenaline"
+    },
+    {
+      "brand": "ZARA",
+      "name": "7.0 Zara"
+    },
+    {
+      "brand": "CERRUTİ",
+      "name": "L'Essence de Cerruti"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Oajan"
+    },
+    {
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "In New York"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Diamonds for Men"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Dolce&Gabbana Pour Homme Intenso"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "CH Men Prive"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -171,5 +256,6 @@
       "brand": "NATURA",
       "name": "Humor 6 Paz e Humor"
     }
-  ]
+  ],
+  "comments": []
 }

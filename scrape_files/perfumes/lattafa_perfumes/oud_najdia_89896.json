@@ -49,26 +49,54 @@
     {
       "name": "ud",
       "width": "57.7083%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.12",
-    "votesCount": "258",
+    "votesCount": "265",
     "breakdown": {
-      "love": "110",
-      "like": "92",
-      "ok": "39",
+      "love": "113",
+      "like": "93",
+      "ok": "42",
       "dislike": "12",
       "hate": "5"
     }
   },
   "seasons": {
-    "winter": "92",
-    "spring": "170",
-    "summer": "140",
-    "autumn": "158",
-    "day": "158",
-    "night": "108"
+    "winter": "94",
+    "spring": "174",
+    "summer": "144",
+    "autumn": "162",
+    "day": "162",
+    "night": "110"
   },
   "notes": {
     "top": [
@@ -90,41 +118,98 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "10",
+    "moderate": "89",
+    "longLasting": "85",
+    "eternal": "18"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "89",
+    "strong": "49",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "4",
+    "unisex": "30",
+    "moreMale": "91",
+    "male": "82"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "39",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "5",
+    "overpriced": "2",
+    "fair": "42",
+    "goodValue": "37",
+    "greatValue": "150"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Invictus"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Najdia"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas for Him"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "Wanted"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Hayaati"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Ani"
+    },
+    {
+      "brand": "ENGLİSH LAUNDRY",
+      "name": "Cambridge Knight"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "La Collection D'antiquités 1910"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Ice"
+    },
+    {
+      "brand": "REYANE TRADİTİON",
+      "name": "R2B2 Space X"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Aqua"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Blue Spirit"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Legend Spirit"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khalis Musk (Pure Musk)"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Spicebomb Night Vision Eau de Toilette"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AFNAN",
       "name": "Turathi Blue"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Club De Nuit Urban Elixir"
     },
     {
       "brand": "VERSACE",
@@ -155,6 +240,10 @@
       "name": "Bentley for Men Intense"
     },
     {
+      "brand": "RASASİ",
+      "name": "Hawas for Him"
+    },
+    {
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
     },
@@ -178,5 +267,6 @@
       "brand": "AFNAN",
       "name": "9pm"
     }
-  ]
+  ],
+  "comments": []
 }

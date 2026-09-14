@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Sospiro-Perfumes/Sovrano-135459.html",
   "brand": "Sospiro Perfumes parfüm ve kolonya",
   "description": "Sospiro Perfumes markasının Sovrano parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu yeni bir parfüm. Sovrano, 2026 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Salah Al Zarooni. Üst notalar: Pembe biber, Greyfurt, Bergamot, Kakule, Beyaz sakız, Portakal ve Zencefil; orta notalar: Müge, Sandal ağacı, Safran ve Yasemin; alt notalar Tonka fasulyesi, Paçuli, Labdanum, Vetiver, Sedir, Amber ve Mür.",
-  "description_original": "Sospiro Perfumes markasının Sovrano parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu yeni bir parfüm. Sovrano, 2026 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Salah Al Zarooni. Üst notalar: Pembe biber, Greyfurt, Bergamot, Kakule, Beyaz sakız, Portakal ve Zencefil; orta notalar: Müge, Sandal ağacı, Safran ve Yasemin; alt notalar Tonka fasulyesi, Paçuli, Labdanum, Vetiver, Sedir, Amber ve Mür.",
+  "description_original": "Sospiro Perfumes markasının Sovrano parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu yeni bir parfüm. Sovrano, 2026 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Salah Al Zarooni. Üst notalar: Pembe biber, Greyfurt, Bergamot, Kakule, Olibanum, Portakal ve Zencefil; orta notalar: Müge, Sandal ağacı, Safran ve Yasemin; alt notalar Tonka fasulyesi, Paçuli, Labdanum, Vetiver, Sedir, Amber ve Mür.",
   "description_enhanced": "Sospiro Perfumes markasının Sovrano parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu yeni bir parfüm. Sovrano, 2026 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Salah Al Zarooni. Üst notalar: Pembe biber, Greyfurt, Bergamot, Kakule, Beyaz sakız, Portakal ve Zencefil; orta notalar: Müge, Sandal ağacı, Safran ve Yasemin; alt notalar Tonka fasulyesi, Paçuli, Labdanum, Vetiver, Sedir, Amber ve Mür.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "taze",
       "width": "49.0909%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -76,7 +104,7 @@
       "Greyfurt",
       "Bergamot",
       "Kakule",
-      "Beyaz sakız",
+      "Olibanum",
       "Portakal",
       "Zencefil"
     ],
@@ -98,32 +126,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

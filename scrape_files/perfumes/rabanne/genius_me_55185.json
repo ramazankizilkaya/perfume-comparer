@@ -41,6 +41,34 @@
     {
       "name": "toprak",
       "width": "47.0435%"
+    },
+    {
+      "name": "Online satın alın 16 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -76,33 +104,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "17",
+    "moderate": "28",
+    "longLasting": "9",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "28",
+    "strong": "9",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "34",
+    "moreMale": "18",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "10",
     "fair": "21",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "8",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Bubble Bath"
+    },
+    {
+      "brand": "KENZO",
+      "name": "L'Eau Pure"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Lazy Sunday Morning"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "Tuscan Soul"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Superman Eau Fraiche"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Kologne, Shield of protection"
+    },
+    {
+      "brand": "REGALİEN",
+      "name": "Hammam"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Aqua Celestia"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "H24"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Blanche"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Acne Studios"
+    },
+    {
+      "brand": "CLEAN",
+      "name": "Warm Cotton [Reserve Blend]"
+    },
+    {
+      "brand": "JOHN VARVATOS",
+      "name": "Artisan Pure"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -115,10 +196,6 @@
     {
       "brand": "CHANEL",
       "name": "Allure Homme Sport"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "La Nuit de l'Homme"
     },
     {
       "brand": "LALİQUE",
@@ -158,11 +235,16 @@
     },
     {
       "brand": "RABANNE",
+      "name": "Crazy Me"
+    },
+    {
+      "brand": "RABANNE",
       "name": "Strong Me"
     },
     {
       "brand": "BY KİLİAN",
       "name": "Angels' Share"
     }
-  ]
+  ],
+  "comments": []
 }

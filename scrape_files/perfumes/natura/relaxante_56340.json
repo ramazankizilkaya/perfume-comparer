@@ -41,13 +41,41 @@
     {
       "name": "çiçeksi",
       "width": "56.4784%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.67",
-    "votesCount": "94",
+    "votesCount": "93",
     "breakdown": {
-      "love": "68",
+      "love": "67",
       "like": "21",
       "ok": "5",
       "dislike": "0",
@@ -56,11 +84,11 @@
   },
   "seasons": {
     "winter": "30",
-    "spring": "40",
+    "spring": "41",
     "summer": "38",
     "autumn": "33",
     "day": "37",
-    "night": "43"
+    "night": "44"
   },
   "notes": {
     "top": [
@@ -77,33 +105,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "15",
+    "weak": "15",
+    "moderate": "12",
+    "longLasting": "0",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "28",
+    "moderate": "12",
+    "strong": "2",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "3",
+    "unisex": "32",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "13",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RAMMSTEİN",
+      "name": "Explosiv for Her"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Boti Baby Colônia Nana Neném"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -118,16 +155,20 @@
       "name": "Frescor Madeira em Flor"
     },
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Floratta in Blue"
-    },
-    {
       "brand": "NATURA",
       "name": "Una Artisan"
     },
     {
       "brand": "NATURA",
       "name": "Frescor de Maracujá"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Idôle"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212"
     },
     {
       "brand": "NATURA",
@@ -160,10 +201,7 @@
     {
       "brand": "NATURA",
       "name": "Ilía"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Luna"
     }
-  ]
+  ],
+  "comments": []
 }

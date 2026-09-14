@@ -11,56 +11,96 @@
   "description_enhanced": "Rasasi markasının Aiyara Pour Homme parfümü, erkekler için Oryantal Baharatlı bir kokudur. Aiyara Pour Homme, 2022 yılında piyasaya sürüldü. Üst notalar: Kakule ve Zencefil; orta notalar: Sedir ağacı, Sardunya ve Elma; alt notalar Vanilya ve Amber.",
   "mainAccords": [
     {
-      "name": "sıcak baharatlı",
+      "name": "taze baharatlı",
       "width": "100%"
     },
     {
-      "name": "amber",
-      "width": "76.6666%"
-    },
-    {
       "name": "vanilya",
-      "width": "76.6666%"
+      "width": "78.951%"
     },
     {
       "name": "aromatik",
-      "width": "67.3333%"
+      "width": "69.1609%"
     },
     {
-      "name": "taze baharatlı",
-      "width": "67.3333%"
+      "name": "amber",
+      "width": "69.1609%"
     },
     {
-      "name": "pudralı",
-      "width": "55.6667%"
+      "name": "sıcak baharatlı",
+      "width": "66.7133%"
     },
     {
       "name": "taze",
-      "width": "53.3333%"
+      "width": "59.3704%"
     },
     {
-      "name": "odunsu",
-      "width": "53.3333%"
+      "name": "pudralı",
+      "width": "52.5173%"
+    },
+    {
+      "name": "bitkisel",
+      "width": "46.6432%"
+    },
+    {
+      "name": "gül",
+      "width": "45.1748%"
+    },
+    {
+      "name": "meyvemsi",
+      "width": "45.1748%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "3",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "3.50",
-    "votesCount": "20",
+    "score": "3.65",
+    "votesCount": "23",
     "breakdown": {
-      "love": "9",
-      "like": "1",
+      "love": "11",
+      "like": "2",
       "ok": "4",
       "dislike": "3",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "7",
-    "spring": "8",
-    "summer": "9",
-    "autumn": "7",
-    "day": "7",
-    "night": "8"
+    "winter": "9",
+    "spring": "9",
+    "summer": "10",
+    "autumn": "9",
+    "day": "8",
+    "night": "10"
   },
   "notes": {
     "top": [
@@ -79,45 +119,98 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "6",
+    "longLasting": "4",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "6",
+    "strong": "5",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "6",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Pure XS"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Mawj Appletini"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Uomo Born In Roma Coral Fantasy"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Oudh Al Misk"
+    },
+    {
+      "brand": "SAPİL",
+      "name": "Dapper"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Bottled"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Apple Brandy on the Rocks"
+    },
+    {
+      "brand": "AXE",
+      "name": "Dark Temptation"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Victory"
+    },
+    {
+      "brand": "THERA COSMÉTİCOS",
+      "name": "L'or"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2011"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RASASİ",
       "name": "Daarej pour Homme"
     },
     {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Détour Noir"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Eros"
+    },
+    {
       "brand": "AFNAN",
       "name": "9pm"
     },
     {
-      "brand": "DİOR",
-      "name": "Sauvage Elixir"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Al Nashama Caprice"
     },
     {
       "brand": "GİVENCHY",
@@ -125,39 +218,27 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Asad Bourbon"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Eros Flame"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "La Nuit de l'Homme"
+      "name": "The Kingdom For Men"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Khalta Blend Of Lattafa"
+      "name": "Maahir Legacy"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Hercules"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Liquid Brun"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Sheikh Al Shuyukh Luxe Edition"
+      "name": "Vintage Radio"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Fakhar Black"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Raghba Wood Intense"
-    },
-    {
-      "brand": "RASASİ",
-      "name": "Hawas for Him"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Ameer Al Oudh Intense Oud"
+      "name": "Bade'e Al Oud Honor & Glory"
     },
     {
       "brand": "BHARARA",
@@ -165,7 +246,12 @@
     },
     {
       "brand": "RASASİ",
-      "name": "Hawas Black"
+      "name": "Hawas for Him"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Artisan Ethnique"
     }
-  ]
+  ],
+  "comments": []
 }

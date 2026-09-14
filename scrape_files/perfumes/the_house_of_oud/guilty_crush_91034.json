@@ -16,59 +16,87 @@
     },
     {
       "name": "gül",
-      "width": "86.715%"
+      "width": "86.6933%"
     },
     {
       "name": "meyvemsi",
-      "width": "81.7759%"
+      "width": "81.6911%"
     },
     {
       "name": "tatlı",
-      "width": "76.5301%"
+      "width": "76.4885%"
     },
     {
       "name": "kiraz",
-      "width": "73.2604%"
-    },
-    {
-      "name": "misk",
-      "width": "70.8759%"
+      "width": "73.3539%"
     },
     {
       "name": "vanilya",
-      "width": "70.2966%"
+      "width": "70.5693%"
+    },
+    {
+      "name": "misk",
+      "width": "70.3527%"
     },
     {
       "name": "odunsu",
-      "width": "62.973%"
+      "width": "62.6822%"
     },
     {
       "name": "amber",
-      "width": "56.5695%"
+      "width": "56.3459%"
     },
     {
       "name": "Şampanya",
-      "width": "55.752%"
+      "width": "56.146%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.86",
-    "votesCount": "531",
+    "votesCount": "549",
     "breakdown": {
-      "love": "213",
-      "like": "141",
-      "ok": "85",
-      "dislike": "75",
-      "hate": "17"
+      "love": "219",
+      "like": "146",
+      "ok": "89",
+      "dislike": "77",
+      "hate": "18"
     }
   },
   "seasons": {
-    "winter": "105",
-    "spring": "166",
-    "summer": "97",
-    "autumn": "141",
-    "day": "149",
-    "night": "113"
+    "winter": "110",
+    "spring": "171",
+    "summer": "100",
+    "autumn": "147",
+    "day": "154",
+    "night": "117"
   },
   "notes": {
     "top": [
@@ -90,38 +118,95 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "13",
+    "moderate": "62",
+    "longLasting": "92",
+    "eternal": "17"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "14",
+    "moderate": "62",
+    "strong": "76",
+    "enormous": "11"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "153",
+    "moreFemale": "35",
+    "unisex": "21",
+    "moreMale": "1",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "85",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "24",
+    "overpriced": "59",
+    "fair": "89",
+    "goodValue": "15",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
-      "brand": "ATELİER DES ORS",
-      "name": "Pink Me Up"
+      "brand": "CREED",
+      "name": "Carmina"
     },
+    {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Lipstick Fever"
+    },
+    {
+      "brand": "WESKER",
+      "name": "Deviant"
+    },
+    {
+      "brand": "SİMONE ANDREOLİ",
+      "name": "Vicebomb"
+    },
+    {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Liquid Illusion"
+    },
+    {
+      "brand": "ISABEY",
+      "name": "Prends-Moi (Take Me)"
+    },
+    {
+      "brand": "SORA DORA",
+      "name": "Mallow"
+    },
+    {
+      "brand": "JİMMY CHOO",
+      "name": "I Want Choo With Love"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "French Kiss"
+    },
+    {
+      "brand": "SİMONE ANDREOLİ",
+      "name": "Criminal Lipstick"
+    },
+    {
+      "brand": "LUSH",
+      "name": "The Comforter"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Violette"
+    },
+    {
+      "brand": "KİKO MİLANO",
+      "name": "Montenapoleone Love Addiction"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Pink Flamingos"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Miss Dior Absolutely Blooming"
+    }
+  ],
+  "peopleAlsoLike": [
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Delina Exclusif"
@@ -133,6 +218,10 @@
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Delina"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Oriana"
     },
     {
       "brand": "AMOUAGE",
@@ -159,6 +248,14 @@
       "name": "Love Don't Be Shy"
     },
     {
+      "brand": "NİSHANE",
+      "name": "Hundred Silent Ways"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Mon Guerlain"
+    },
+    {
       "brand": "GİARDİNİ Dİ TOSCANA",
       "name": "Bianco Latte"
     },
@@ -169,14 +266,208 @@
     {
       "brand": "DOLCE&GABBANA",
       "name": "Devotion"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent684614",
+      "author": "serforewer123",
+      "date": "2025-06-08",
+      "text": "Bu parfümün küçük bir örneğine sahip olmanın talihsizliğini yaşıyorum ve tek söyleyebileceğim şey, ona tahammül edemediğim. Kapağından veya kağıdından koklasam da, başımı ağrıtıyor. Düşüncesi bile başımı ağrıtıyor. Bileğime sıkmayı bile denemeye cesaret edemedim, tamamını kullanmayı ise hiç düşünmedim bile. Berbat bir koku.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.46736.jpg"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Angels' Share"
+      "id": "parent684544",
+      "author": "Abeer.Dubai",
+      "date": "2025-05-13",
+      "text": "Beklenmedik bir şekilde, aniden içeri giriyor.\nİnkar edilemez.\n\nNarenciye kokusu tende dans ediyor,\nmandalina ve pembe biber\nGüneşte gülmek.\n\nKiraz çiçekleri savruluyor,\nGül ve şakayıklar çiçek açarken.\nArdından kehribar ve misk geliyor.\n\nÇalınmış saniyelerin kokusu bu,\nDüşmeyi hiç istemeyen kalplerin,\nAma yaptı.\n\nBu aşk değil.\nBu, hemen öncesindeki an.\nBir hoşlanma,\nDurmak imkansız derecede tatlı.\nSuçluluk duygusuna karşı koyamıyorum.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2498929.jpg"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Sunshine Woman"
+      "id": "parent684542",
+      "author": "aspirina",
+      "date": "2025-02-11",
+      "text": "Kiraz, gül, ruj... vanilya, amber ve odunsu notalar. Çok kız çocuksu, şık ve genç bir koku. Cildimde ana nota kiraz. Bana Sospiro'nun Maraschino'sunu, La petite Robe Noir'ı, Prada Candy Gloss'u, Guerlain French Kiss'i çok hatırlatıyor.\nÇok iyi ama tekrarlayıcı. Doğrusal, belirgin bir değişiklik veya gelişim göremiyorum. Çok iyi yayılıyor. Çok beğendim ama şu an başka bir kiraz kokusuna ihtiyacım yok.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.128870.jpg"
+    },
+    {
+      "id": "parent684543",
+      "author": "2bClare",
+      "date": "2025-01-23",
+      "text": "Kadınsı klişelerin tam bir seline boğulmuş bir koku. Aşırı tatlı, aşırı güçlü ve zengin, kız enerjisi bulutuyla neredeyse bunaltıcı. Öyle yoğun bir bulut ki, neredeyse dilinizde tadını alabiliyorsunuz. Bu bir ruj parfümünden çok daha fazlası. Ben buna kız gecesi parfümü derdim - tüm o kokuları yeniden yaratıyor. Parti öncesi şampanya ve meyve kokuları, ruj ve makyaj kokuları ve bunların altında daha karanlık bir şey. Listelenen temel notaların hiçbiri uymadığı için ne olduğunu bilmiyorum, sanırım içinde küçük bir damla paçuli veya öd ağacı var. Ya da sadece koyu kiraz olabilir. Neyse, bu parfümlerin Regina George'u. Bir grup kadın bekarlığa veda partisinde bunu bir bara sürse, herkesin başı döner ve insanlar ne olduğunu anlar. Guilty Crush ciltte 8 saat kalıyor ve ilk birkaç saat oldukça yoğun bir yayılıma sahip.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1961281.jpg"
+    },
+    {
+      "id": "parent684585",
+      "author": "exequox",
+      "date": "2024-12-11",
+      "text": "Yorum yazmakta pek iyi değilim ama bu parfüm beni gerçekten etkiledi ve düşüncelerimi paylaşmak istedim.\nRuj ve şampanya kokularının zıtlığı çok güzel, bana yılbaşı gecesini hatırlatıyor.\nParti\nSınırsız eğlence ama her zaman bolca romantizmle dolu.\nPerformans muhteşem!\nÇok uzun süre devam eder ve çok gelişir.\nGüzellik tarafından nasıl öpülür?",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent684596",
+      "author": "electrabionic",
+      "date": "2024-12-06",
+      "text": "Sıkıldığında burnunuza alkol kokusu çarpıyor, ardından şampanya ve meyve kokuları açılıyor. Birkaç saat sonra meyveli ruj kokusu alıyorum, ancak tene yakınken misk kokusu ortaya çıkıyor.\nNedense bu koku bana çok güçlü bir çağrışım yapıyor: 2000'li yıllardan kalma, kışın bile topuklu ayakkabı ve etek giyen, parlak kırmızı ruj süren ve parfüm yerine tatlı meyve suyu kullanan annemin arkadaşı gibi.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.318368.jpg"
+    },
+    {
+      "id": "parent684597",
+      "author": "leviyalt",
+      "date": "2024-12-04",
+      "text": "Vay canına, bu çok harika! Annemin özel bir güne hazırlanırkenki kokusuna benziyor; ruj, kiraz, gül ve şampanya gibi. Sanki \"Tatil Annem\"in kokusu gibi. Bence birçok kişi beğenecek.\nParfümü test kağıdından dinlemek anlamsız; hiçbir gelişmeyi fark edemezsiniz. Ciltte ise gerçekten güzel bir şekilde parlıyor ve ışıldıyor. Çok ilginç bir yaratım, harika bir şekilde bir araya getirilmiş. Kalıcılığı ve yayılımı mükemmel. Bence konsept muhteşem.\nDolabımda zaten pudra ruj serisi var, bir şişeye ihtiyacım yok ama henüz tanışmamış olanlara denemelerini ve tanımalarını şiddetle tavsiye ederim.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.395240.jpg"
+    },
+    {
+      "id": "parent684631",
+      "author": "Licette",
+      "date": "2024-11-26",
+      "text": "İlk başta çilek değil, ahududu kokusu alıyorum ve bu beni sinirlendiriyor, ahududu kokulu parfümleri sevmiyorum, neredeyse her zaman reseptörleri \"uyuşturan\" hoş olmayan bir his veriyor, başka nasıl açıklayacağımı bilmiyorum. Sanırım şampanya ile meyvelerin birleşimi bu ahududu kokusunu veriyor ve zamanla alışacağımı ve geçeceğini düşünüyorum. Ama sonra koku uzun süre ciltte kalıyor, gerçek ruj kokusu gibi ve nedense çok hoş, nedense beni çok cezbediyor 😍\nEn iyi kokusunu mevsim dışında veriyor, kışın biraz \"kayboluyor\", sanki kıyafetlerin altında \"sıkışmış\" gibi, hava ve alan vermek istiyorsunuz. Her gün için zarif bir koku. İlk akşamda iltifat aldım, oysa dışarıdan pek duyulacağını düşünmemiştim.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ua",
+      "avatar": "https://fimgs.net/mdimg/avatariua/m.13357.jpg"
+    },
+    {
+      "id": "parent684541",
+      "author": "yxcyxc",
+      "date": "2024-09-26",
+      "text": "Bundan pek bir şey beklemiyordum. Çok defa yapılmış, mumsu, ruj benzeri bir koku olduğunu düşünmüştüm. Ancak, güzel şişesi beni bir örnek sipariş etmeye itti ve çok mutlu oldum! İlk püskürtme beni hemen etkiledi - gerçekten beğendim! Geleneksel bir ruj kokusu değil. Bu kokuyu modern ve eğlenceli kılan, hafif alkollü bir dokunuşla belirgin bir meyvemsi dokunuşa sahip, ancak çocuksu bir şekilde değil. Meyveler aşırı tatlı değil, daha çok sulu tarafta. Eğer notaların dağılımında yabani çilek listelenmemiş olsaydı, anlayamazdım. Kesinlikle çok daha tatlı olan normal çilek gibi kokmuyor. Dürüst olmak gerekirse, diğer aynı türdeki kokuların aksine, iris veya menekşe karışımı olmadığı için çok fazla makyaj ve mumsu bir özellik de alamıyorum. Açılışta burnumu hafifçe yakan küçük bir misk vardı, ancak hızla kayboldu. Guilty Crush'ın oldukça doğrusal olduğunu söyleyebilirim. Gün boyunca gürültülü olmadan güzel bir şekilde yayılıyor. Çok samimi ve kadınsı. Ve ben zaten şişenin tamamını aldım bile :)",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1317010.jpg"
+    },
+    {
+      "id": "parent684613",
+      "author": "Dorini",
+      "date": "2024-09-01",
+      "text": "Elimde Guerlain'in Les Meteorites adlı renkli top şeklinde bir pudrası var - bu toplar muhteşem kokuyor ve her kullandığımda böyle bir parfümüm olsa diye düşünüyorum.\nTikTok'ta parfümler hakkında konuşan hoş bir adam var ve THOO ile ilgili bir hikayeye denk geldim - kısa ve öz bir hikayeydi ve Guilty Crush parfümü koleksiyonuma eklendi.\nİlk püskürtme ve şaşkınlık - iğrenç, pudramsı bir tatlılık.\nBir ay boyunca bekleme odasında kaldılar ve... takdir hatta hayranlık gördüler.\nUygulamadan birkaç saat sonra koku daha da inceliyor ve işte macera burada başlıyor.\nRuj her zaman en önemli makyaj malzemesidir (gerçi ben ona top şeklinde pudra diyeceğim) ve ışıl ışıl parlar - bazen yasemin, bazen çilek, bazen vanilya; taze makyajın ritmiyle değişir.\nKalıcılık - 24 saatten fazla, iyi bir yayılım.\nZengin ve lüks aromasına rağmen yorucu değil; sabahtan akşama kadar keyifle kullanılabilir.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.47911.jpg"
+    },
+    {
+      "id": "parent684611",
+      "author": "Marietta",
+      "date": "2024-08-21",
+      "text": "Açılış meyvemsi ve tatlı. Meyveler narin bir şekilde pudralı ve kremsi, şampanya ile harika bir şekilde zenginleştirilmiş. Aroma köpüklü, hoş bir hafiflik ve tazelik kazanıyor. Bu da ona genç ve modern bir hava katıyor. Bu aşama lezzetli, hatta gurme sınırında, ancak daha sonra kozmetik, parfüm benzeri bir nitelik kazanıyor. Kalp notaları, sanki yaprakları meyvemsi bir \"temel\" üzerine serpilmiş gibi narin ve kremsi çiçekleri ortaya çıkarıyor. Birlikte birbirlerini mükemmel bir şekilde tamamlıyorlar ve ruj akoruyla birlikte hoş, hafif menekşe kokusu yaratıyorlar.\nAlt notalarda misk, hafif vanilya ve birkaç damla aromatik reçine hissediliyor.\nİlham kaynağı ruj, dudaklara incelikle sürülmüş kırmızı renk...\nBu yeniden üretim kusursuz bir şekilde gerçekleştirildi. Hiçbir şey eklenmedi, hiçbir şey çıkarılmadı; her şey mükemmel bir uyum içinde ve kusursuz bir şekilde harmanlandı. Burada hiçbir şey fazla değil, her şey mükemmel bir şekilde dengelenmiş ve titizlikle detaylandırılmış. Hafif meyvemsi, hafif pudralı, hafif kremsi. Mükemmel.\nOnları yeni halleriyle ve notlarıyla birlikte görür görmez, bunun tam bana göre bir şey olduğunu anladım ve onları giymek de bunu doğruladı.\nBana göre, Rose Chérie Guerlain'in güçlü bir havasını taşıyorlar, ancak daha yoğun bir ruj notasıyla.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.17587.jpg"
+    },
+    {
+      "id": "parent684549",
+      "author": "Authentic Luxury",
+      "date": "2024-07-24",
+      "text": "Nükleer! Ne muhteşem bir koku - bizim için ruj, şampanya, kiraz, çilek, yasemin, vanilya ve benzoin karışımı.\n\nSon derece feminen ve sadece bir odayı değil, tüm evi dolduruyor! Tek bir fısla bile yayılımı ve kalıcılığı mükemmel. Hiç de bayıcı olmadığı için her mevsim için de uygun. Ne muhteşem bir koku!\n\nBöylesine inanılmaz bir fiyata bir şişe alabildiğimiz için çok mutluyuz. Bizim için kesinlikle 100 üzerinden 100.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2003842.jpg"
+    },
+    {
+      "id": "parent684587",
+      "author": "Lorenzabc",
+      "date": "2024-07-21",
+      "text": "Bu parfümü bir parfüm dükkanında tenimde denedim ve hemen ruj notasına takıldım; tenimde çok belirgin bir şekilde öne çıkıyordu. Daha iyi anlamak için bir örnek istedim, ancak saatler geçtikçe bileğimi koklamaya devam ettim: kesinlikle baş döndürücüydü.\nGuilty Crush'ı ertesi gün ve ondan sonraki gün tekrar denedim ve kesinlikle bağımlısı oldum!\nBu parfüm bana seksi hissettiriyor, sanki ten rengi iç çamaşırı giymişim gibi, biraz retro ama çok modern bir yatak odasında. Partnerimin (parfümeri konusunda kesinlikle bilgisi olmayan biri olmasına rağmen) hemen fark ettiği çilek ve şampanya notaları, cesurca pudralı bir kokuyla harmanlanıyor ve benzoin ile sedir ağacının dengelediği yapı ile tamamlanıyor.\nBuradaki fikir, güçlü, baskın bir kadının cilveli rolü oynaması... ve bunu çok iyi yapması!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent704228",
+      "author": "Elle's Bells",
+      "date": "2024-06-22",
+      "text": "MUHTEŞEM ŞİŞE, MUHTEŞEM KOKU!!! İlk sıktığımda, gül ile birlikte yoğun ve sulu koyu kiraz notası alıyorum. Tamamen Carmina'yı hatırlattı (hayat boyu en sevdiğim 10 parfümden biri). Sonra koku oturmaya başlayınca ruj notası ve çilek ortaya çıkıyor.\n\nAMA... o ruj kokusu çok kadınsı ve pudralı, işte bu da Guilty Crush'ı bu kadar eşsiz kılan şey!\n\nBu, denemeden aldığım ve koleksiyonuma mükemmel bir katkı olan bir üründü.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1466853.jpg"
+    },
+    {
+      "id": "parent684572",
+      "author": "StephM",
+      "date": "2024-06-19",
+      "text": "Eskiden büyükannemin kullandığı rujlara benzer, güçlü ve eski moda bir ruj kokusu var. İlk iki dakika hoş ve nostaljik geliyor, ama sonra çok güçlü, aşırı güçlü oluyor! Hafif çilek ve kiraz notalarını hissedemiyorsunuz. Bunun yerine çok yoğun ve pudralı bir koku geliyor. Beğenmedim! Başımı ağrıtıyor; ortamı boğuyor.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent684582",
+      "author": "Jex.apeiron",
+      "date": "2024-06-13",
+      "text": "Bu parfümü ilk değerlendiren kişi olma gibi zor bir görevim var.\n\n😶🌫️İlk temasta, etkisi ve 90'ların yüz pudraları ve parfümlerini anımsatması beni derinden etkiledi. Koku piramidinde belirtilen notaların çoğunu algılamadım; daha canlı ve çilek ağırlıklı bir koku bekliyordum.\n\n💄Ancak bende bu koku neredeyse tamamen, 90'lı yılların \"Cioè\" gibi kız dergilerinde bulunan minyatür rujları anımsatan, hafifçe kırmızı meyvelerle kokulandırılmış bir ruj notasıyla kendini gösteriyor. Beni, bu küçük sıvı rujları fırçayla sürdüğüm ve dudaklarımı hareket ettirerek tadını bile çıkardığım anlara geri götürüyor.\n\n🛁Bu koku, pembe/kırmızı bir rujun aromasını aslına sadık kalarak yeniden üreten, oldukça pudralı ve talk pudrası ağırlıklı bir parfüm olarak kendini gösteriyor.\n\n5️⃣Dürüst olmak gerekirse, ben beğenmedim ve kullanmazdım. Ama bu tarz parfümlerin hayranları için şüphesiz çok beğenilecek bir koku olacak.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.69418.jpg"
+    },
+    {
+      "id": "parent684548",
+      "author": "Balexie",
+      "date": "2024-05-06",
+      "text": "Girly & Sheek meyveli çiçeksi bir koku. Açılışta çilek, ekşi kiraz ve köpüklü şampanyanın karışımını alıyorum. Ruj notası da var ama baskın değil ve çok özgün, ancak duyularımı büyüleyen bir şey değil. Meyveli ve pudralı dokunuşlu kızsı kokuları seviyorsanız, bunu %100 beğeneceksiniz.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1533386.jpg"
+    },
+    {
+      "id": "parent684546",
+      "author": "Rose Dusk",
+      "date": "2024-04-29",
+      "text": "Bu harika! En çok çilek ve ruj notalarını alıyorum, ancak notalar birbirini bastırmayacak şekilde harmanlanmış. Ruj, koku boyunca hissedilen yumuşak bir pudramsılık katıyor. Çok kız çocuksu ve feminen. Benim için bu, imza kokusu olmaya layık. Şimdilik sadece küçük bir numunem var, ama her gün kullanıyorum, bu yüzden yakında bir şişe alacağım.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1303478.jpg"
+    },
+    {
+      "id": "parent684594",
+      "author": "SvetlanaPolnova",
+      "date": "2024-04-19",
+      "text": "Başlangıçta parlak, ışıltılı meyveler var, dip notalarında ise ruj var - son derece net, modern, retro esintisi bile yok!\nŞık bir koku, inanılmaz derecede güzel ve cezbedici!\nYaklaşık 7 saat süren, orta derecede tatlı, narin ve yumuşak bir kokuya sahip.\nVe ne muhteşem bir şişe!\n\nRuj temalı parfümleri seviyorsanız, burası tam size göre olabilir 🥰",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.315797.jpg"
+    },
+    {
+      "id": "parent684538",
+      "author": "Vannamae__",
+      "date": "2024-03-21",
+      "text": "Bu, şişesiyle birlikte ÇOK güzel. 💄\n\nKesinlikle ruj kokusunu alıyorum ama rahatsız edici değil, gerçekten çok iyi harmanlanmış ve kokuya seksi, pudralı bir dokunuş katıyor. Ruj notasını çok seviyorum ve burada çok iyi yapılmış. Bayıldım, koklamaya oldukça bağımlıyım. Üst notalarda siyah kiraz ve çileklerden gelen sululuk patlaması ve şampanyadan gelen köpüklü bir his var ama doğrudan alkol gibi kokmuyor, sadece köpüren bir his veriyor. Kurudukça meyveler çiçeklerle karışıyor, gül ve yasemin de katılıyor. Meyveli çiçeksi doğasını ve o ruj pudrası kokusunu, kuruyana kadar arka planda çok hafif bir şekilde koruyor. Ruj notasını tüm koku boyunca alabilmekten memnunum. Kuruduktan sonra biraz misk ve vanilya da ekleniyor, bu da kokuyu yumuşak ve tatlı tutuyor. Muhteşem!! Kesinlikle denemeden aldığım bir parfüm. İki kez kullandım ve eşim de çok beğendi, dün tırnak salonundaki birkaç bayan da beğendi. Hepsi de çok kadınsı, seksi ve meyveli koktuğunu söyledi. Biri ne olduğunu görmek istedi, ben de ona şişenin fotoğrafını gösterdim ve çok heyecanlandı lol. Şişesi gerçekten çok güzel. 🍓🥂\n\nPerformans açısından inanılmaz. Dışarı çıkmadan önce test şeridine iki kez sıktım ve eve döndüğümde odam hala bu parfümün kokusuyla doluydu. Cildimde kullandıktan sonra kalıcılık ve yayılım konusunda kesinlikle sorun yaşamadığımı söyleyebilirim. Ertesi sabah hala cildimdeydi ve yayılımı çok çok iyiydi. Hatta yaklaşık 6-7 saat dışarıda kaldığım süre boyunca hiç sönmedi. Bu bahar havasında da çok güzel kokuyordu, güzel bir koku bulutuyla çevriliydim çünkü çok hoş bir kalıcılığı var. Eminim ki bu parfümün bıraktığı koku insanları kendine çekecek. Kesinlikle denemeye değer!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1236771.jpg"
     }
   ]
 }

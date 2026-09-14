@@ -41,6 +41,34 @@
     {
       "name": "yosunlu",
       "width": "46.7235%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -78,33 +106,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "4",
+    "longLasting": "3",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "4",
+    "strong": "1",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Ultraviolet Liquid Metal for Men"
+    },
+    {
+      "brand": "MARC-ANTOİNE BARROİS",
+      "name": "Encelade"
+    },
+    {
+      "brand": "ALFRED DUNHİLL",
+      "name": "Dunhill Fresh"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Ultraviolet Man Colours of Summer"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RABANNE",
@@ -124,7 +169,7 @@
     },
     {
       "brand": "JEAN PAUL GAULTİER",
-      "name": "Fleur du Mâle"
+      "name": "Fleur du Mâle (2007)"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -166,5 +211,6 @@
       "brand": "LOLİTA LEMPİCKA",
       "name": "Lolita Lempicka Au Masculin"
     }
-  ]
+  ],
+  "comments": []
 }

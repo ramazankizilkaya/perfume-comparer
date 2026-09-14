@@ -25,6 +25,34 @@
     {
       "name": "ekşi",
       "width": "38.75%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -55,33 +83,38 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "6",
+    "moderate": "2",
+    "longLasting": "0",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "2",
+    "strong": "0",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "3",
+    "unisex": "6",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Petit Attitude Girl Power"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -102,10 +135,6 @@
     {
       "brand": "NATURA",
       "name": "Una Infinito"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Kriska Drama"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -137,11 +166,16 @@
     },
     {
       "brand": "NATURA",
+      "name": "Frescor de Pitanga"
+    },
+    {
+      "brand": "NATURA",
       "name": "Flor de Pêra e Melissa"
     },
     {
       "brand": "NATURA",
       "name": "Una Blush"
     }
-  ]
+  ],
+  "comments": []
 }

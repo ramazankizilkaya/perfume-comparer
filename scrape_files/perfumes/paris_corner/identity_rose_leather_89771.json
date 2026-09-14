@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/PARIS-CORNER/Identity-Rose-Leather-89771.html",
   "brand": "PARIS CORNER parfüm ve kolonya",
   "description": "PARIS CORNER markasının Identity Rose & Leather parfümü, kadınlar ve erkekler için Deri bir kokudur. Identity Rose & Leather, 2021 yılında piyasaya sürüldü. Üst notalar: Sardunya, Frenk üzümü ve Sichuan biberi; orta notalar: Deri ve Gül; alt notalar Vetiver ve Sedir.",
-  "description_original": "PARIS CORNER markasının Identity Rose & Leather parfümü, kadınlar ve erkekler için Deri bir kokudur. Identity Rose & Leather, 2021 yılında piyasaya sürüldü. Üst notalar: Sardunya, Frenk üzümü ve Sichuan biberi; orta notalar: Deri ve Gül; alt notalar Vetiver ve Sedir.",
+  "description_original": "PARIS CORNER markasının Identity Rose & Leather parfümü, kadınlar ve erkekler için Deri bir kokudur. Identity Rose & Leather, 2021 yılında piyasaya sürüldü. Üst notalar: Sardunya, Siyah Frenk Üzümü ve Sichuan biberi; orta notalar: Deri ve Gül; alt notalar Vetiver ve Sedir.",
   "description_enhanced": "PARIS CORNER markasının Identity Rose & Leather parfümü, kadınlar ve erkekler için Deri bir kokudur. Identity Rose & Leather, 2021 yılında piyasaya sürüldü. Üst notalar: Sardunya, Frenk üzümü ve Sichuan biberi; orta notalar: Deri ve Gül; alt notalar Vetiver ve Sedir.",
   "mainAccords": [
     {
@@ -49,31 +49,59 @@
     {
       "name": "toprak",
       "width": "49.5652%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.73",
-    "votesCount": "40",
+    "score": "3.76",
+    "votesCount": "42",
     "breakdown": {
-      "love": "13",
-      "like": "15",
+      "love": "14",
+      "like": "16",
       "ok": "5",
       "dislike": "2",
       "hate": "5"
     }
   },
   "seasons": {
-    "winter": "21",
-    "spring": "17",
+    "winter": "22",
+    "spring": "18",
     "summer": "9",
-    "autumn": "20",
+    "autumn": "21",
     "day": "12",
-    "night": "17"
+    "night": "18"
   },
   "notes": {
     "top": [
       "Sardunya",
-      "Frenk üzümü",
+      "Siyah Frenk Üzümü",
       "Sichuan biberi"
     ],
     "middle": [
@@ -87,33 +115,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "7",
+    "longLasting": "13",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "7",
+    "strong": "9",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "5",
+    "unisex": "12",
+    "moreMale": "9",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "2",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "10",
+    "greatValue": "8"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Rose & Cuir"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Shades Wood"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "La Yuqawam Ambergris Showers"
+    },
+    {
+      "brand": "GRÈS",
+      "name": "Cabochard Eau de Parfum 2019"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Portrait of a Lady"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Valaya"
+    },
+    {
+      "brand": "KİLLER OUD",
+      "name": "Lyre Intense"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DAVİDOFF",
@@ -134,10 +191,6 @@
     {
       "brand": "ARMAF",
       "name": "Club de Nuit Sillage"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Intense Man"
     },
     {
       "brand": "RASASİ",
@@ -174,6 +227,11 @@
     {
       "brand": "PARIS CORNER",
       "name": "Emir You're Drugged"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Chergui"
     }
-  ]
+  ],
+  "comments": []
 }

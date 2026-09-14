@@ -82,50 +82,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "4",
-    "moderate": "10",
-    "longLasting": "1",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "10",
-    "strong": "3",
-    "enormous": "7"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "1",
-    "unisex": "2",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "SANTA MARİA NOVELLA",
-      "name": "Verbena"
-    },
-    {
-      "brand": "MİLLER ET BERTAUX",
-      "name": "Study No. 17"
-    },
-    {
-      "brand": "SERGİO NERO",
-      "name": "Cocktail B-52"
-    },
-    {
-      "brand": "ATELİER COLOGNE",
-      "name": "Trefle Pur"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -187,5 +170,6 @@
       "brand": "JO MALONE LONDON",
       "name": "Mimosa & Cardamom"
     }
-  ]
+  ],
+  "comments": []
 }

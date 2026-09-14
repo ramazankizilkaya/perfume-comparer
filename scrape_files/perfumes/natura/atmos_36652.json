@@ -49,15 +49,43 @@
     {
       "name": "taze",
       "width": "55.5769%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.73",
-    "votesCount": "60",
+    "score": "4.71",
+    "votesCount": "62",
     "breakdown": {
-      "love": "46",
+      "love": "47",
       "like": "13",
-      "ok": "0",
+      "ok": "1",
       "dislike": "1",
       "hate": "0"
     }
@@ -88,33 +116,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "10",
+    "longLasting": "10",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "10",
+    "strong": "6",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "5",
+    "male": "15"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "1",
+    "goodValue": "10",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SALVADOR DALİ",
+      "name": "Agua Verde"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Man Eau Fraiche"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Air"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Greenergy"
+    },
+    {
+      "brand": "ULRİC DE VARENS",
+      "name": "UDV V.I.P."
+    },
+    {
+      "brand": "GRANADO",
+      "name": "Époque Tropical"
+    },
+    {
+      "brand": "ERMENEGİLDO ZEGNA",
+      "name": "Essenza di Zegna"
+    },
+    {
+      "brand": "ANTHOUSA",
+      "name": "Fig & Vetiver"
+    },
+    {
+      "brand": "AVON",
+      "name": "Exclusive"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Festival de Humor"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CAROLİNA HERRERA",
@@ -176,5 +245,6 @@
       "brand": "AZZARO",
       "name": "Azzaro pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

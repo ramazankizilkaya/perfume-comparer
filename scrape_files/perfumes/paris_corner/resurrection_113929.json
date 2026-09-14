@@ -49,26 +49,54 @@
     {
       "name": "sıcak baharatlı",
       "width": "44.2762%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.26",
-    "votesCount": "38",
+    "score": "4.15",
+    "votesCount": "41",
     "breakdown": {
-      "love": "16",
-      "like": "16",
-      "ok": "6",
-      "dislike": "0",
+      "love": "17",
+      "like": "15",
+      "ok": "7",
+      "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "14",
-    "spring": "22",
-    "summer": "20",
-    "autumn": "20",
-    "day": "20",
-    "night": "13"
+    "winter": "15",
+    "spring": "23",
+    "summer": "21",
+    "autumn": "21",
+    "day": "21",
+    "night": "14"
   },
   "notes": {
     "top": [
@@ -90,57 +118,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "12",
+    "longLasting": "14",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "12",
+    "strong": "18",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "5",
+    "moreMale": "13",
+    "male": "8"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "7",
+    "goodValue": "8",
+    "greatValue": "17"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
-      "brand": "RASASİ",
-      "name": "Hawas Black"
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Colonia Oud"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Sceptre Malachite"
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Fakhar Al Oud"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Enigma Trois"
+    },
+    {
+      "brand": "JACQUES BOGART",
+      "name": "One Man Show"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Dehn al Oudh Abiyad"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau Bleue d'Issey Pour Homme"
     },
     {
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
     },
     {
+      "brand": "RASASİ",
+      "name": "Hawas Black"
+    },
+    {
       "brand": "BENTLEY",
       "name": "Bentley For Men Absolute"
     },
     {
-      "brand": "LALİQUE",
-      "name": "Encre Noire"
+      "brand": "FRENCH AVENUE",
+      "name": "Aether"
     },
     {
-      "brand": "AFNAN",
-      "name": "Turathi Blue"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Maahir Legacy"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -178,5 +227,6 @@
       "brand": "PARIS CORNER",
       "name": "Rifaaqat"
     }
-  ]
+  ],
+  "comments": []
 }

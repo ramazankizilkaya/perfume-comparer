@@ -41,25 +41,53 @@
     {
       "name": "misk",
       "width": "45.7009%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.86",
-    "votesCount": "118",
+    "score": "3.83",
+    "votesCount": "120",
     "breakdown": {
       "love": "30",
       "like": "59",
-      "ok": "11",
-      "dislike": "18",
+      "ok": "12",
+      "dislike": "19",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "4",
-    "spring": "37",
+    "spring": "38",
     "summer": "48",
     "autumn": "15",
-    "day": "52",
+    "day": "53",
     "night": "9"
   },
   "notes": {
@@ -79,33 +107,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "12",
+    "moderate": "26",
+    "longLasting": "6",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "26",
+    "strong": "15",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "32",
+    "moreFemale": "3",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "11",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "8",
+    "fair": "12",
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Love"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Love Pop"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Love Glow"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bombshell Amalfi"
+    },
+    {
+      "brand": "FLOWER DREW BARRYMORE",
+      "name": "Sunshine"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Agua del Sol"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Sundazed"
+    },
+    {
+      "brand": "BOİS 1920",
+      "name": "Oltremare"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Margarita Cupcake"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Butterfly"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -167,5 +240,6 @@
       "brand": "GUERLAİN",
       "name": "Mon Guerlain"
     }
-  ]
+  ],
+  "comments": []
 }

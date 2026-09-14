@@ -35,11 +35,11 @@
       "width": "56.0465%"
     },
     {
-      "name": "meyvemsi",
+      "name": "paçuli",
       "width": "46.2791%"
     },
     {
-      "name": "paçuli",
+      "name": "meyvemsi",
       "width": "46.2791%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "misk",
       "width": "44.6512%"
+    },
+    {
+      "name": "Online satın alın 46 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "2",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "2",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUCCİ",
+      "name": "Flora by Gucci Eau de Parfum"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Guilty Eau de Parfum Intense Pour Femme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -133,10 +170,6 @@
       "name": "Champs Elysees Eau de Toilette"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Cinéma"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Mazaaji"
     },
@@ -145,12 +178,12 @@
       "name": "Al Andaleeb"
     },
     {
-      "brand": "CACHAREL",
-      "name": "Eden"
+      "brand": "SİSLEY",
+      "name": "Soir de Lune"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Mitsouko Eau de Toilette"
+      "brand": "CACHAREL",
+      "name": "Eden"
     },
     {
       "brand": "PALOMA PİCASSO",
@@ -175,6 +208,11 @@
     {
       "brand": "AVON",
       "name": "Far Away Beyond"
+    },
+    {
+      "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
+      "name": "Patchouli Magique"
     }
-  ]
+  ],
+  "comments": []
 }

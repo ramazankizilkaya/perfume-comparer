@@ -15,15 +15,7 @@
       "width": "100%"
     },
     {
-      "name": "amber",
-      "width": "91.7647%"
-    },
-    {
-      "name": "çiçeksi",
-      "width": "91.7647%"
-    },
-    {
-      "name": "yeşil",
+      "name": "odunsu",
       "width": "91.7647%"
     },
     {
@@ -31,7 +23,15 @@
       "width": "91.7647%"
     },
     {
-      "name": "odunsu",
+      "name": "yeşil",
+      "width": "91.7647%"
+    },
+    {
+      "name": "çiçeksi",
+      "width": "91.7647%"
+    },
+    {
+      "name": "amber",
       "width": "91.7647%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "taze baharatlı",
       "width": "69.1176%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,31 +115,31 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "2",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "2",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -149,11 +177,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Una Senses"
+      "name": "Essencial Elixir"
     },
     {
       "brand": "NATURA",
-      "name": "Essencial Elixir"
+      "name": "Una Senses"
     },
     {
       "brand": "ISSEY MİYAKE",
@@ -175,5 +203,6 @@
       "brand": "DİOR",
       "name": "J'adore"
     }
-  ]
+  ],
+  "comments": []
 }

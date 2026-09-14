@@ -79,90 +79,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "13",
-    "weak": "14",
-    "moderate": "23",
-    "longLasting": "7",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "36",
-    "moderate": "23",
-    "strong": "17",
-    "enormous": "16"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "19",
-    "moreFemale": "4",
-    "unisex": "7",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "9",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "9",
-    "goodValue": "2",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ESTÉE LAUDER",
-      "name": "Bronze Goddess Eau Fraîche Skinscent"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Scarlet Poppy Intense"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Hermessence Santal Massoïa"
-    },
-    {
-      "brand": "BOİS 1920",
-      "name": "Come L'Amore"
-    },
-    {
-      "brand": "PHEBO",
-      "name": "Bahia"
-    },
-    {
-      "brand": "GOUTAL",
-      "name": "Un Matin d'Orage"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Soleil Blanc"
-    },
-    {
-      "brand": "GRANADO",
-      "name": "Passeio Encantado"
-    },
-    {
-      "brand": "WHAT WE DO IS SECRET",
-      "name": "What We Do In Paris Is Secret"
-    },
-    {
-      "brand": "GRANADO",
-      "name": "Époque Tropical"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "L'Eau Papier"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Coco Mademoiselle Fragrance Primer"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Mimosa & Cardamom"
-    },
-    {
-      "brand": "UNİVERSAL FLOWERİNG",
-      "name": "Holy Hell"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -189,10 +132,6 @@
       "name": "Hypnotic Poison"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Spiritueuse Double Vanille"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
     },
@@ -203,6 +142,10 @@
     {
       "brand": "BYREDO",
       "name": "Bal d'Afrique"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Prada Candy"
     },
     {
       "brand": "JO MALONE LONDON",
@@ -224,5 +167,6 @@
       "brand": "JO MALONE LONDON",
       "name": "Wood Sage & Sea Salt"
     }
-  ]
+  ],
+  "comments": []
 }

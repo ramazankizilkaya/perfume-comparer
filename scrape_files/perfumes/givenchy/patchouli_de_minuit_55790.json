@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.55790.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Givenchy/Patchouli-de-Minuit-55790.html",
   "brand": "Givenchy parfüm ve kolonya",
-  "description": "Givenchy markasının Patchouli de Minuit parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Patchouli de Minuit, 2019 yılında piyasaya sürüldü. Üst notalar: Beyaz sakız ve Safran; orta notalar: Lavanta ve Davana; alt notalar Paçuli, Tonka fasulyesi ve Kaşmir.",
-  "description_original": "Givenchy markasının Patchouli de Minuit parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Patchouli de Minuit, 2019 yılında piyasaya sürüldü. Üst notalar: Beyaz sakız ve Safran; orta notalar: Lavanta ve Davana; alt notalar Paçuli, Tonka fasulyesi ve Kaşmir.",
-  "description_enhanced": "Givenchy markasının Patchouli de Minuit parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Patchouli de Minuit, 2019 yılında piyasaya sürüldü. Üst notalar: Beyaz sakız ve Safran; orta notalar: Lavanta ve Davana; alt notalar Paçuli, Tonka fasulyesi ve Kaşmir.",
+  "description": "Givenchy markasının Patchouli de Minuit parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Patchouli de Minuit, 2019 yılında piyasaya sürüldü. Üst notalar: Olibanum ve Safran; orta notalar: Lavanta ve Davana; alt notalar Paçuli, Tonka fasulyesi ve Kaşmeran.",
+  "description_original": "Givenchy markasının Patchouli de Minuit parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Patchouli de Minuit, 2019 yılında piyasaya sürüldü. Üst notalar: Olibanum ve Safran; orta notalar: Lavanta ve Davana; alt notalar Paçuli, Tonka fasulyesi ve Kaşmeran.",
+  "description_enhanced": "Givenchy markasının Patchouli de Minuit parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Patchouli de Minuit, 2019 yılında piyasaya sürüldü. Üst notalar: Olibanum ve Safran; orta notalar: Lavanta ve Davana; alt notalar Paçuli, Tonka fasulyesi ve Kaşmeran.",
   "mainAccords": [
     {
       "name": "sıcak baharatlı",
@@ -63,7 +63,7 @@
     }
   },
   "seasons": {
-    "winter": "9",
+    "winter": "10",
     "spring": "1",
     "summer": "0",
     "autumn": "9",
@@ -72,7 +72,7 @@
   },
   "notes": {
     "top": [
-      "Beyaz sakız",
+      "Olibanum",
       "Safran"
     ],
     "middle": [
@@ -82,36 +82,36 @@
     "base": [
       "Paçuli",
       "Tonka fasulyesi",
-      "Kaşmir"
+      "Kaşmeran"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "0",
-    "moderate": "0",
-    "longLasting": "10",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "0",
-    "strong": "10",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "5",
-    "moreMale": "1",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -168,12 +168,13 @@
       "name": "Bal d'Afrique"
     },
     {
-      "brand": "XERJOFF",
-      "name": "XJ 1861 Naxos"
-    },
-    {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez For Her"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
     }
-  ]
+  ],
+  "comments": []
 }

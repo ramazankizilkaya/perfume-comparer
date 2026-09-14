@@ -16,15 +16,15 @@
     },
     {
       "name": "yeşil",
-      "width": "79.6362%"
+      "width": "80.3999%"
     },
     {
       "name": "odunsu",
-      "width": "76.6667%"
+      "width": "77.9999%"
     },
     {
       "name": "taze",
-      "width": "54.8182%"
+      "width": "55.1999%"
     },
     {
       "name": "çiçeksi",
@@ -32,27 +32,55 @@
     },
     {
       "name": "ozonik",
-      "width": "46.5454%"
+      "width": "46.8%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.14",
-    "votesCount": "98",
+    "score": "4.16",
+    "votesCount": "106",
     "breakdown": {
-      "love": "37",
-      "like": "44",
-      "ok": "12",
+      "love": "41",
+      "like": "47",
+      "ok": "13",
       "dislike": "4",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "13",
-    "spring": "35",
-    "summer": "25",
-    "autumn": "25",
-    "day": "34",
-    "night": "18"
+    "winter": "16",
+    "spring": "40",
+    "summer": "30",
+    "autumn": "30",
+    "day": "39",
+    "night": "20"
   },
   "notes": {
     "top": [],
@@ -65,33 +93,86 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "8",
+    "moderate": "19",
+    "longLasting": "9",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "19",
+    "strong": "9",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "13",
+    "moreFemale": "14",
+    "unisex": "18",
+    "moreMale": "2",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "12",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "17",
+    "overpriced": "12",
+    "fair": "13",
+    "goodValue": "2",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "KATE SPADE",
+      "name": "In Full Bloom"
+    },
+    {
+      "brand": "GİORGİO VALENTİ",
+      "name": "Rose Noire"
+    },
+    {
+      "brand": "NEST",
+      "name": "Indigo"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Assam & Grapefruit"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Eau Parfumée au Thé Rouge"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "White Tea & Sage"
+    },
+    {
+      "brand": "REİNE DE SABA",
+      "name": "Merveilleuse Saba"
+    },
+    {
+      "brand": "PRİMERA PERFUMES",
+      "name": "Costa Blanca Musk"
+    },
+    {
+      "brand": "THE MERCHANT OF VENİCE",
+      "name": "Rosa Moceniga"
+    },
+    {
+      "brand": "STATE OF MİND",
+      "name": "Aesthetic Turbulence"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Black Perfecto by La Petite Robe Noire"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY 24/7"
+    },
+    {
+      "brand": "BMW FRAGRANCES",
+      "name": "BMW M 1985"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -142,16 +223,17 @@
       "name": "Angels' Share"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Black Orchid"
     },
     {
       "brand": "GUERLAİN",
+      "name": "Mon Guerlain"
+    },
+    {
+      "brand": "GUERLAİN",
       "name": "Spiritueuse Double Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

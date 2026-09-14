@@ -29,25 +29,53 @@
     {
       "name": "taze",
       "width": "48.766%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.09",
-    "votesCount": "127",
+    "score": "4.10",
+    "votesCount": "136",
     "breakdown": {
-      "love": "48",
-      "like": "51",
-      "ok": "21",
+      "love": "52",
+      "like": "55",
+      "ok": "22",
       "dislike": "5",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "6",
-    "spring": "43",
-    "summer": "43",
+    "winter": "7",
+    "spring": "46",
+    "summer": "45",
     "autumn": "16",
-    "day": "37",
+    "day": "39",
     "night": "9"
   },
   "notes": {
@@ -63,19 +91,19 @@
   "longevity": {
     "veryWeak": "11",
     "weak": "5",
-    "moderate": "24",
+    "moderate": "26",
     "longLasting": "2",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "21",
-    "moderate": "24",
+    "intimate": "22",
+    "moderate": "26",
     "strong": "2",
     "enormous": "1"
   },
   "genderVoting": {
     "female": "7",
-    "moreFemale": "11",
+    "moreFemale": "12",
     "unisex": "30",
     "moreMale": "0",
     "male": "1"
@@ -83,7 +111,7 @@
   "priceVoting": {
     "wayOverpriced": "6",
     "overpriced": "15",
-    "fair": "21",
+    "fair": "22",
     "goodValue": "6",
     "greatValue": "0"
   },
@@ -137,12 +165,12 @@
       "name": "Water Lily"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Thé Yulong Eau de Toilette Edition Limitée"
-    },
-    {
       "brand": "HERMÈS",
       "name": "Eau de Narcisse Bleu"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Thé Yulong Eau de Toilette Edition Limitée"
     },
     {
       "brand": "BLUE SCENTS",
@@ -163,16 +191,24 @@
       "name": "Eau Parfumee au The Vert"
     },
     {
-      "brand": "CREED",
-      "name": "Silver Mountain Water"
-    },
-    {
       "brand": "GİORGİO ARMANİ",
       "name": "Thé Yulong"
     },
     {
       "brand": "NİSHANE",
       "name": "Wulóng Chá"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Neroli Portofino"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Un Jardin Sur Le Nil"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue"
     },
     {
       "brand": "HERMÈS",
@@ -191,10 +227,6 @@
       "name": "Wood Sage & Sea Salt"
     },
     {
-      "brand": "BYREDO",
-      "name": "Bal d'Afrique"
-    },
-    {
       "brand": "DİPTYQUE",
       "name": "Orphéon Eau de Parfum"
     },
@@ -203,12 +235,30 @@
       "name": "Noir Extreme"
     },
     {
-      "brand": "BDK PARFUMS",
-      "name": "Gris Charnel"
-    },
-    {
       "brand": "ISSEY MİYAKE",
       "name": "L'eau d'Issey"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent789990",
+      "author": "Mona708",
+      "date": "2025-07-30",
+      "text": "Bu, yukarıda listelenen notaların dağılımının gösterdiği kadar doğrusal değildir; başlangıçta oldukça ekşi ve hafif acı çay tadı vardır, ardından biraz pudra ve sabun kokusu gelir. Bu yüzden ilk başta orijinal versiyonuyla karıştırdım. Sıcak havalarda kesinlikle daha iyi bir seçimdir, çünkü çok uzun süre kalıcı değildir ve kullanıcının bir kol mesafesi içinde durmadığınız sürece fark edilmez. Yine de bu kokuyu çok beğendim ve bir gün örnek bulursam orijinal versiyonunu da denemek isterim.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1262172.jpg"
+    },
+    {
+      "id": "parent789989",
+      "author": "jazzfan",
+      "date": "2025-03-31",
+      "text": "İşte bu yüzden aylardır Bvlgari çayı bulamadım!\nBvlgari'nin çayları, son 30 yıldır çevremdeki hasta ve hamile insanlar, arkadaşlarım ve ailem için vazgeçilmez parfüm ürünleriydi. Roger & Gallet de bu tür ürünleri mükemmel bir şekilde üretiyor VE geniş bir vücut bakımı ürün yelpazesi sunuyor. Ancak Bvlgari'nin ürünleri çok şık ve her zaman hoş bir hediye oluyor.\n\nŞimdi kırmızı, mavi ve siyah renkleri de geri getirmek harika olurdu. Noel gibi özel günler için ara sıra özel sürümler çıkarsa bile çok seviniriz.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.880447.jpg"
     }
   ]
 }

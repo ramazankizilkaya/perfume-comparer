@@ -33,6 +33,10 @@
     {
       "name": "yeşil",
       "width": "53.8824%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -66,53 +70,37 @@
       "Sedir",
       "Agar ağacı (Oud)",
       "Labdanum"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "3",
-    "longLasting": "5",
-    "eternal": "6"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "3",
-    "strong": "6",
-    "enormous": "12"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "1",
-    "moreMale": "3",
-    "male": "5"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "3",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Explorer"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Agarwood Collection Inquisitive"
-    },
-    {
-      "brand": "CREED",
-      "name": "Royal Oud"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Italian Cypress"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CLİVE CHRİSTİAN",
@@ -174,5 +162,6 @@
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Promise"
     }
-  ]
+  ],
+  "comments": []
 }

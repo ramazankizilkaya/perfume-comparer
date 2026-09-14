@@ -11,11 +11,11 @@
   "description_enhanced": "Victoria's Secret markasının Warm & Cozy Sun Daze parfümü, kadınlar için bir kokudur. Kokuda Hindistan cevizi ve Karamel notaları bulunur.",
   "mainAccords": [
     {
-      "name": "karamel",
+      "name": "hindistancevizi",
       "width": "100%"
     },
     {
-      "name": "hindistancevizi",
+      "name": "karamel",
       "width": "100%"
     },
     {
@@ -27,16 +27,44 @@
       "width": "54.5%"
     },
     {
-      "name": "tropikal",
+      "name": "vanilya",
       "width": "50.9999%"
     },
     {
-      "name": "vanilya",
+      "name": "tropikal",
       "width": "50.9999%"
     },
     {
       "name": "fındıksı",
       "width": "44.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -95,5 +123,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

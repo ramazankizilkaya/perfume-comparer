@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "narenciye",
+      "name": "tatlı",
       "width": "92.6016%"
     },
     {
-      "name": "tatlı",
+      "name": "narenciye",
       "width": "92.6016%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "misk",
       "width": "48.2114%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -99,33 +127,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "2",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "2",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Attrape-Rêves"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Cœur Battant"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Mon Paris"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Miss Dior Eau de Parfum (2021)"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Miss Dior Essence"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -160,12 +209,12 @@
       "name": "Idôle"
     },
     {
-      "brand": "LANCÔME",
-      "name": "La Vie Est Belle Intensément"
-    },
-    {
       "brand": "GUCCİ",
       "name": "Flora Gorgeous Jasmine"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Libre"
     },
     {
       "brand": "MUGLER",
@@ -176,16 +225,17 @@
       "name": "Good Girl"
     },
     {
+      "brand": "GUERLAİN",
+      "name": "La Petite Robe Noire"
+    },
+    {
       "brand": "DİOR",
       "name": "Miss Dior Eau de Parfum (2021)"
     },
     {
       "brand": "GİORGİO ARMANİ",
       "name": "Gardénia Antigua"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Crystal Noir Eau de Toilette"
     }
-  ]
+  ],
+  "comments": []
 }

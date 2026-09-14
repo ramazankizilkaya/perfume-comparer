@@ -41,6 +41,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "45.1864%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,33 +107,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "8",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "8",
+    "strong": "6",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "2",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LOEWE",
+      "name": "Loewe 7 Sport"
+    },
+    {
+      "brand": "OSCAR DE LA RENTA",
+      "name": "Oscar for Men"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Loewe pour Homme Sport"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Loewe 7 Natural"
+    },
+    {
+      "brand": "HALSTON",
+      "name": "Unbound for Men"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Encre Noire A L'Extreme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BOUCHERON",
@@ -167,5 +220,6 @@
       "brand": "ARAMİS",
       "name": "Aramis 900"
     }
-  ]
+  ],
+  "comments": []
 }

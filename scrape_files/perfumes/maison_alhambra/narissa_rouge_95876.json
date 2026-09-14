@@ -63,11 +63,11 @@
     }
   },
   "seasons": {
-    "winter": "37",
-    "spring": "31",
+    "winter": "36",
+    "spring": "32",
     "summer": "22",
-    "autumn": "45",
-    "day": "40",
+    "autumn": "47",
+    "day": "41",
     "night": "32"
   },
   "notes": {
@@ -90,70 +90,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "4",
-    "moderate": "16",
-    "longLasting": "20",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "8",
-    "moderate": "16",
-    "strong": "12",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "37",
-    "moreFemale": "5",
-    "unisex": "2",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "13",
-    "goodValue": "12",
-    "greatValue": "25"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "NARCİSO RODRİGUEZ",
-      "name": "Narciso Rouge"
-    },
-    {
-      "brand": "FRAGRANCE WORLD",
-      "name": "Redriguez Rouge"
-    },
-    {
-      "brand": "GİORGİO VALENTİ",
-      "name": "Rose Noire"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Velvet Musk"
-    },
-    {
-      "brand": "NARCİSO RODRİGUEZ",
-      "name": "Narciso Rouge Eau de Toilette"
-    },
-    {
-      "brand": "ELLEN TRACY",
-      "name": "Bronze"
-    },
-    {
-      "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
-      "name": "Nocturne Vert"
-    },
-    {
-      "brand": "ARD AL ZAAFARAN",
-      "name": "Al Dirgham"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "His Confession"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "NARCİSO RODRİGUEZ",
@@ -172,16 +135,16 @@
       "name": "Mon Guerlain"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Noble Blush"
+    },
+    {
       "brand": "LALİQUE",
       "name": "Lalique Le Parfum"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Black Orchid"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -215,5 +178,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "Devotion"
     }
-  ]
+  ],
+  "comments": []
 }

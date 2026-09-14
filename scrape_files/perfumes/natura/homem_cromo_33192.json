@@ -19,11 +19,11 @@
       "width": "92.9999%"
     },
     {
-      "name": "narenciye",
+      "name": "deri",
       "width": "88.333%"
     },
     {
-      "name": "deri",
+      "name": "narenciye",
       "width": "88.333%"
     },
     {
@@ -47,8 +47,36 @@
       "width": "60.3334%"
     },
     {
-      "name": "animalik",
+      "name": "tütün",
       "width": "59.1668%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -93,33 +121,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "8",
+    "longLasting": "7",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "8",
+    "strong": "5",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "1",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Kokorico"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -181,5 +218,6 @@
       "brand": "NATURA",
       "name": "Homem Nitro"
     }
-  ]
+  ],
+  "comments": []
 }

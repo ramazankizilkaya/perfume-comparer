@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "yeşil",
+      "name": "pudralı",
       "width": "51%"
     },
     {
-      "name": "pudralı",
+      "name": "yeşil",
       "width": "51%"
     },
     {
@@ -29,26 +29,54 @@
     {
       "name": "tatlı",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.04",
-    "votesCount": "26",
+    "votesCount": "28",
     "breakdown": {
       "love": "10",
-      "like": "9",
+      "like": "11",
       "ok": "5",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "1",
-    "spring": "3",
-    "summer": "13",
-    "autumn": "3",
-    "day": "11",
-    "night": "5"
+    "winter": "2",
+    "spring": "4",
+    "summer": "15",
+    "autumn": "4",
+    "day": "13",
+    "night": "6"
   },
   "notes": {
     "top": [],
@@ -73,7 +101,7 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "5",
+    "female": "6",
     "moreFemale": "2",
     "unisex": "0",
     "moreMale": "0",
@@ -81,12 +109,16 @@
   },
   "priceVoting": {
     "wayOverpriced": "0",
-    "overpriced": "0",
+    "overpriced": "1",
     "fair": "5",
     "goodValue": "0",
     "greatValue": "4"
   },
   "remindsMeOf": [
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bombshell Bronze"
+    },
     {
       "brand": "GUERLAİN",
       "name": "Aqua Allegoria Forte Bosca Vanilla"
@@ -94,6 +126,10 @@
     {
       "brand": "GUCCİ",
       "name": "Flora Gorgeous Orchid"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Dolce Garden"
     },
     {
       "brand": "KAYALİ FRAGRANCES",
@@ -106,16 +142,16 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Warm Vanilla Woods"
-    },
-    {
-      "brand": "NEMAT INTERNATİONAL",
-      "name": "Vanilla Musk"
+      "brand": "SOLİNOTES",
+      "name": "Vanille"
     },
     {
       "brand": "VİCTORİA'S SECRET",
       "name": "Bare Vanilla"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Goddess"
     },
     {
       "brand": "BİLLİE EİLİSH",
@@ -130,20 +166,24 @@
       "name": "Devotion"
     },
     {
-      "brand": "PHİLOSOPHY",
-      "name": "Fresh Cream Warm Cashmere"
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Vanilla Mousse"
     },
     {
       "brand": "VİCTORİA'S SECRET",
       "name": "Bare Sueded Vanilla"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Angham"
+      "brand": "SABRİNA CARPENTER",
+      "name": "Sweet Tooth"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Black Opium"
+      "brand": "ALREHAB PERFUMES",
+      "name": "Choco Musk Eau de Parfum"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Angham"
     },
     {
       "brand": "SOL DE JANEİRO",
@@ -160,10 +200,7 @@
     {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '71"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Libre"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,13 +49,45 @@
     {
       "name": "aromatik",
       "width": "58.3747%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "3.89",
-    "votesCount": "66",
+    "score": "3.91",
+    "votesCount": "67",
     "breakdown": {
-      "love": "16",
+      "love": "17",
       "like": "36",
       "ok": "5",
       "dislike": "9",
@@ -67,7 +99,7 @@
     "spring": "14",
     "summer": "8",
     "autumn": "11",
-    "day": "19",
+    "day": "20",
     "night": "5"
   },
   "notes": {
@@ -90,33 +122,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "9",
+    "longLasting": "8",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "9",
+    "strong": "13",
+    "enormous": "12"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "11",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ULRİC DE VARENS",
+      "name": "Indra"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Chloé Narcisse"
+    },
+    {
+      "brand": "GENNY",
+      "name": "Genny Shine"
+    },
+    {
+      "brand": "GİANMARCO VENTURİ",
+      "name": "Woman"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Cecita"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "So Flowers"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Roohi Fedak"
+    },
+    {
+      "brand": "M. MİCALLEF",
+      "name": "Watch"
+    },
+    {
+      "brand": "AGATHA PARİS",
+      "name": "Un Matin A Paris"
+    },
+    {
+      "brand": "BEAUTİMATİC",
+      "name": "Sexy Princess"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -178,5 +251,6 @@
       "brand": "KENZO",
       "name": "Kenzo Jungle L'Elephant"
     }
-  ]
+  ],
+  "comments": []
 }

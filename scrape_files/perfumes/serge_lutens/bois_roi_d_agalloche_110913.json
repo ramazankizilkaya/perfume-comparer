@@ -31,32 +31,60 @@
       "width": "47.5001%"
     },
     {
+      "name": "taze baharatlı",
+      "width": "44%"
+    },
+    {
       "name": "toprak",
       "width": "44%"
     },
     {
-      "name": "taze baharatlı",
-      "width": "44%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.85",
-    "votesCount": "62",
+    "score": "3.89",
+    "votesCount": "72",
     "breakdown": {
-      "love": "29",
+      "love": "36",
       "like": "15",
-      "ok": "5",
-      "dislike": "6",
-      "hate": "7"
+      "ok": "6",
+      "dislike": "7",
+      "hate": "8"
     }
   },
   "seasons": {
-    "winter": "27",
-    "spring": "13",
+    "winter": "30",
+    "spring": "16",
     "summer": "8",
-    "autumn": "28",
-    "day": "12",
-    "night": "26"
+    "autumn": "32",
+    "day": "15",
+    "night": "29"
   },
   "notes": {
     "top": [],
@@ -69,37 +97,58 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "0",
+    "moderate": "2",
+    "longLasting": "23",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "2",
+    "strong": "9",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "20",
+    "moreMale": "9",
+    "male": "7"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "6",
+    "overpriced": "11",
+    "fair": "6",
+    "goodValue": "4",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AMOUAGE",
+      "name": "Opus XIII – Silver Oud"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Patchouli Absolu"
+    },
+    {
+      "brand": "IMAGİNARY AUTHORS",
+      "name": "Whispered Myths"
+    },
+    {
+      "brand": "LES INDEMODABLES",
+      "name": "Vanille Havane Coeur de Oud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
       "name": "Ambre Sultan"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Cuir Mauresque"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -123,10 +172,6 @@
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "L'orpheline"
-    },
-    {
-      "brand": "SERGE LUTENS",
       "name": "Fille en Aiguilles"
     },
     {
@@ -139,23 +184,24 @@
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "De Profundis"
+      "name": "Muscs Koublai Khan"
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "Tubereuse Criminelle"
+      "name": "Santal Majuscule"
+    },
+    {
+      "brand": "LES INDEMODABLES",
+      "name": "Vanille Havane"
     },
     {
       "brand": "PARFUM D'EMPİRE",
       "name": "Un Bel Amour D’été"
     },
     {
-      "brand": "NAOMİ GOODSİR",
-      "name": "Nuit de Bakélite"
-    },
-    {
       "brand": "SERGE LUTENS",
       "name": "Écrin de Fumée"
     }
-  ]
+  ],
+  "comments": []
 }

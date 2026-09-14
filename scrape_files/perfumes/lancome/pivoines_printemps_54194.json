@@ -16,19 +16,47 @@
     },
     {
       "name": "çiçeksi",
-      "width": "92.7141%"
+      "width": "93.5119%"
     },
     {
       "name": "taze",
-      "width": "70.2108%"
+      "width": "70.9401%"
     },
     {
       "name": "yumuşak baharatlı",
-      "width": "53.5639%"
+      "width": "53.0288%"
     },
     {
       "name": "misk",
-      "width": "40.0989%"
+      "width": "39.8694%"
+    },
+    {
+      "name": "Online satın alın 7 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "25",
+    "winter": "27",
     "spring": "115",
     "summer": "83",
     "autumn": "45",
@@ -61,33 +89,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "20",
+    "moderate": "65",
+    "longLasting": "30",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "26",
+    "moderate": "65",
+    "strong": "55",
+    "enormous": "47"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "78",
+    "moreFemale": "13",
+    "unisex": "5",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "17",
+    "overpriced": "37",
     "fair": "32",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Dans Mon Lit"
+    },
+    {
+      "brand": "HOUBİGANT",
+      "name": "Pivoine Souveraine"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Rose Taifi"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Dangerously in Love"
+    },
+    {
+      "brand": "CHRİSTİAN LOUBOUTİN",
+      "name": "Loubidoo"
+    },
+    {
+      "brand": "BANANA REPUBLİC",
+      "name": "Peony & Peppercorn"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Elle"
+    },
+    {
+      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
+      "name": "Rose Pivoine"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Kisses Don't Lie"
+    },
+    {
+      "brand": "KKW FRAGRANCE",
+      "name": "Opal Mood"
+    },
+    {
+      "brand": "BERGAMOSS",
+      "name": "Pivoine de Malène"
+    },
+    {
+      "brand": "TOUS",
+      "name": "TOUS Les Colognes Concentrées"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Delina La Rosée"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Haute Couture en Jeu"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Pleasures"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHLOÉ",
@@ -149,5 +238,6 @@
       "brand": "GUERLAİN",
       "name": "Mon Guerlain"
     }
-  ]
+  ],
+  "comments": []
 }

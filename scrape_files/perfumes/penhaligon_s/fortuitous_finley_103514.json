@@ -16,59 +16,87 @@
     },
     {
       "name": "yeşil",
-      "width": "87.0357%"
+      "width": "87.4506%"
     },
     {
       "name": "odunsu",
-      "width": "75.9988%"
+      "width": "76.8239%"
     },
     {
       "name": "tuzlu",
-      "width": "64.7734%"
+      "width": "64.2384%"
     },
     {
       "name": "ozonik",
-      "width": "64.4707%"
+      "width": "64.1114%"
     },
     {
       "name": "paçuli",
-      "width": "60.9936%"
+      "width": "61.1919%"
     },
     {
       "name": "pudralı",
-      "width": "58.0456%"
-    },
-    {
-      "name": "aromatik",
-      "width": "56.3823%"
+      "width": "58.1087%"
     },
     {
       "name": "deri",
-      "width": "56.0802%"
+      "width": "56.4765%"
+    },
+    {
+      "name": "aromatik",
+      "width": "56.2954%"
     },
     {
       "name": "sulu",
-      "width": "55.3998%"
+      "width": "55.1345%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.15",
-    "votesCount": "683",
+    "score": "4.16",
+    "votesCount": "731",
     "breakdown": {
-      "love": "324",
-      "like": "213",
-      "ok": "87",
-      "dislike": "45",
+      "love": "341",
+      "like": "235",
+      "ok": "97",
+      "dislike": "44",
       "hate": "14"
     }
   },
   "seasons": {
-    "winter": "107",
-    "spring": "262",
-    "summer": "194",
-    "autumn": "212",
-    "day": "241",
-    "night": "142"
+    "winter": "117",
+    "spring": "281",
+    "summer": "209",
+    "autumn": "231",
+    "day": "259",
+    "night": "154"
   },
   "notes": {
     "top": [
@@ -89,33 +117,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "15",
+    "moderate": "133",
+    "longLasting": "106",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "23",
+    "moderate": "133",
+    "strong": "61",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "2",
+    "unisex": "138",
+    "moreMale": "121",
+    "male": "42"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "87",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "72",
+    "overpriced": "115",
+    "fair": "97",
+    "goodValue": "8",
+    "greatValue": "8"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Beau"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "I Will"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Fahrenheit Cologne"
+    },
+    {
+      "brand": "MES BİSOUS",
+      "name": "One Night Only"
+    },
+    {
+      "brand": "CLİVE CHRİSTİAN",
+      "name": "Crab Apple Blossom"
+    },
+    {
+      "brand": "MEO FUSCİUNİ",
+      "name": "Last Season"
+    },
+    {
+      "brand": "ATELİER MATERİ",
+      "name": "Néroli Hasbaya"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Aqua Fahrenheit"
+    },
+    {
+      "brand": "DSQUARED²",
+      "name": "He Wood"
+    },
+    {
+      "brand": "PHARRELL WİLLİAMS",
+      "name": "Girl"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de l'Homme"
+    },
+    {
+      "brand": "ANTONİO PUİG",
+      "name": "Quorum"
+    },
+    {
+      "brand": "PARFUM D'EMPİRE",
+      "name": "Mal-Aimé"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "The Blend Cardamom"
+    },
+    {
+      "brand": "MERCEDES-BENZ",
+      "name": "Mercedes-Benz"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "PENHALİGON'S",
@@ -128,6 +217,10 @@
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Layton"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Oud Wood"
     },
     {
       "brand": "MAİSON MARTİN MARGİELA",
@@ -148,10 +241,6 @@
     {
       "brand": "HERMÈS",
       "name": "Terre d'Hermès"
-    },
-    {
-      "brand": "BYREDO",
-      "name": "Bal d'Afrique"
     },
     {
       "brand": "PENHALİGON'S",
@@ -176,6 +265,208 @@
     {
       "brand": "CREED",
       "name": "Aventus"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent651766",
+      "author": "Kitsunel9",
+      "date": "2026-01-23",
+      "text": "İngiliz zarafetini yansıtan, nadir bir inceliğe sahip, mükemmel şekilde kullanılan kakule, hafif tatlandırılmış yeşil çay dokunuşuyla tuzlu fıstık ve çok yumuşak bir deri tabanıyla harmanlanmış bir koku. Aynı anda sıcak, tatlı, baharatlı, biberli, yeşil ve gurme; görünüşte sade ama gün boyu ciltte muhteşem bir etki bırakıyor. Lüks bir restoranda yeşil çayın doğal kokusu gibi.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.71988.jpg"
+    },
+    {
+      "id": "parent651807",
+      "author": "Jhulyane Botelho",
+      "date": "2026-01-06",
+      "text": "Açılışta, kompozisyonun kalitesini hemen ortaya koyan temiz ve rafine bir baharat olan kakule belirgin bir şekilde öne çıkıyor. Kısa süre sonra matcha'nın ortaya çıktığını hissediyorum; modern ve sofistike bir yeşil nota getiriyor, abartılı değil, bu da parfümü ağırlaştırmadan ilgi çekici kılıyor.\n\nCildimde parfüm daha yeşil ve ferah kalıyor, doğrusal ve iyi çözümlenmiş bir evrim sergiliyor. Deri notası ise zarif bir şekilde yer alıyor ve kokuyu domine etmeden veya çok erkeksi hale getirmeden sadece yapı kazandırıyor.\n\nGünlük kullanımda özellikle gösterişli bir parfüm değil, ancak duyusal bir hava yayıyor ve iyi yapılmış, özenli ve zarif bir koku izlenimi veriyor. Hem günlük kullanımda hem de daha resmi ortamlarda çok iyi sonuç veriyor.\n\nDengeli performans, abartıdan uzak.\n\nTahmin: 7/10\nGöz sabitleme: 7/10",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.78516.jpg"
+    },
+    {
+      "id": "parent651806",
+      "author": "prc_schwarz",
+      "date": "2025-11-23",
+      "text": "Finley, yumuşak matcha ve bademli fıstıklı şekerlemeyi anımsatan kremsi yeşil bir karışımla açılıyor. Kısa süre sonra, menekşe yaprağına özgü ince, nemli bir ferahlık ortaya çıkıyor ve parfüme biraz sucul bir dokunuş katıyor. Kakule başlangıçta belirgin değil, ancak zamanla güçleniyor.\n\nBiraz garip; sanki parfüm, \"ferahlatıcı\" anlar (ki bunlar asla tamamen ferah değil) ve fıstıklı çay gibi daha gurme anlar arasında gidip geliyor. Biraz dengesiz buldum. Yine de, alışılmadık konsepti ve tatlı ve yeşil dokularla oynama biçimiyle kompozisyon ilginç.\n\nBen almazdım; bilmek güzel ama kullanması zor. Bazı insanların dediği gibi ferah bir parfüm bile diyemem; tatlılığı çok yoğun ve bozulabiliyor. Kullanılabilir bir parfümden ziyade bir sanat eseri gibi.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.179314.jpg"
+    },
+    {
+      "id": "parent651740",
+      "author": "Chuuhi",
+      "date": "2025-10-12",
+      "text": "Matcha mochi gibi kokuyor, ama beklediğinizden biraz daha derin. Taze, hafif bitkisel, ama tene çok iyi oturuyor. Yumuşak bir tatlılık, neredeyse süt gibi, ama çay ve baharatın hafif acılığı onu dengede tutuyor. Her zaman rahatlıkla kullanılabilir, rahatlatıcı ve sakinleştirici. Mükemmel karışım 10/10",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1905685.jpg"
+    },
+    {
+      "id": "parent651844",
+      "author": "Jedimaster",
+      "date": "2025-07-21",
+      "text": "Yumuşak fındık akoru, biberli tuzlu paçuli, biraz anason, kaliteli deri. Zarifçe sarıyor, cesaret ve ihtiyat arasında denge kuruyor. Zamanla çiçeksi bir deriye dönüşüyor ve bende öyle kalıyor. Fıstığı doğrudan hissedemiyorsunuz, daha ziyade tuzlu badem ve fıstık karışımı, çok çekici. Bir erkekte - deri, pahalı aksesuarların, eyerlerin yüksek kaliteli derisi, yeşil otlar ve baharat notalarıyla, ancak o zaman tuzlu fıstık. Erkeksi olarak tanımlanıyor, ancak bir kadını da süsleyecektir.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ua",
+      "avatar": "https://fimgs.net/mdimg/avatariua/m.12566.jpg"
+    },
+    {
+      "id": "parent651781",
+      "author": "ManfrediGaetano14",
+      "date": "2025-06-26",
+      "text": "Fortuitous Finley. “Çok az tesadüf ve bolca teknik içeren, güzel, pudralı bir fougère.” Bay Sam beni biraz hayal kırıklığına uğratmış olsa da, Penhaligon's'ın son lansmanı kurallara göre oynama yeteneğini gösteriyor. Mükemmel kalıcılık, mükemmel yayılım ve genel olarak iyi bir sinematik performans. Kısacası, koku yapısı ve konsantrasyonuyla hemfikirim. Bununla birlikte, kokunun çok şık olduğunu kabul ediyorum. Baharatların, fougère bileşenlerinin ve yeni bir tazeliğin kullanımını seviyorum, ancak her şeyden önce, zarafet ve büyük bir incelik dokunuşu katan pudralı bileşen beni etkiliyor (fıstık kelimesini asla bir cümlede kullanmazdım, ama kulağa hoş geliyor ve Penhaligon's'ın gerçekten kendini yenilemesi gerekiyor…).\nYani markanın iddia ettiği fıstık ve menekşe yaprağına bir yüz atfedebiliyor olsam da, deri konusu beni hala oldukça şaşırtıyor. Nerede o deri? Bu süper hafif karışımda deri fikrini ne somutlaştırıyor ki, bu koku sadece koklamakla kalmamış, muhtemelen hayatında hiç çıplak ten görmemiş bile? Hmm… Parfümcünün kokuyu formüle ettiği beherin içine bir yolculuk yapmak, 'deri' kelimesinin ne anlama geldiğini gerçekten anlamak için güzel olurdu.\nSert eleştirilerimin ötesinde, objektif olarak Fortuitous Finley güzel bir parfüm ve her şeyden önemlisi, Creed Aventus veya Dior Homme'u taklit etmemesi büyük bir erdem; gerçi (dürüst olmak gerekirse) ikincisinin şık koku yelpazesine dahil olmak isterdi.\nÇok güzel. At başı kısmı ise çok kötü, onu en kötü düşmanımın evine bile koymazdım. Başka söyleyecek bir şey yok.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.48205.jpg"
+    },
+    {
+      "id": "parent651753",
+      "author": "Gatorsrules",
+      "date": "2025-06-24",
+      "text": "Sanırım ten kimyam Finley'nin parfümlerini çok seviyor. Bu parfüm bende muhteşem bir tuzlu, sucul, fındıklı, topraksı koku yaratıyor. Tuzlu fıstık, matcha'nın keskinliğiyle karışıyor ve deri notaları da bunu tamamlıyor. Menekşe yaprağı ve nefis matcha birbirini adeta \"çarpıyor\". Yıldız anasonun en hafif dokunuşu ise kokuya daha da ilgi çekici bir hava katıyor. 10/10",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1565764.jpg"
+    },
+    {
+      "id": "parent651748",
+      "author": "RafaCosta",
+      "date": "2025-06-08",
+      "text": "Normalde burada hiçbir şeye yorum yapmam ama bu karşılaştırmaları gördükten sonra konuşmak zorunda kaldım. CRAB APPLE BLOSSOM VE PORTHOLE? Ne alaka? 😂😂😂😂😂 Kesinlikle hiçbir alakası yok, aman Tanrım, bunu söyleyen kişi bu parfümlerin hiçbirini tanımıyor olmalı, ne kadar saçma. Bu yüzden bu siteyi ciddiye alamazsınız, yaptıkları karşılaştırmalara bakın, saçma karşılaştırmalar yapılan birçok parfüm var.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent651750",
+      "author": "Pilikins",
+      "date": "2025-05-13",
+      "text": "İnsanların bunu neden beğenmediğini anlamıyorum. Bence erkeklere özel olmaktan ziyade unisex bir koku. Mr. Thompson'ınkine benzer ipeksi süet/iris hissine sahip. Ancak bunun süet/menekşe yaprağından kaynaklandığını düşünüyorum. Çok rafine (yani sert notalar içermeyen, iyi dengelenmiş) bir koku. Çok sakinleştirici ve rahatlatıcı; yayılımı mütevazı olduğu için yakındakileri rahatsız etmeyecek. Tek sorun fiyatı; işte bu gerçekten de kabul edilemez ve hakaret niteliğinde!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.203182.jpg"
+    },
+    {
+      "id": "parent651752",
+      "author": "ricarvic",
+      "date": "2025-05-06",
+      "text": "Fahrenheit serisine biraz benziyor, ancak Finley'nin kendine özgü bir kişiliği ve birçok farklılığı var! Daha rafine, daha incelikli, zarif ve çekici ve benzinimsi bir koku içermiyor. Bu arada, Fahrenheit'ı hala seviyorum, ama bana göre bu bambaşka bir seviye. Penhaligon's'tan gerçekten harika bir lansman!!! Zaman, hak ettiği övgüyü ve ilgiyi ona verecektir!\n\nKoku 10/10\nTahmin 7/10\nDayanıklılık 8/10\nEtkileyicilik Seviyesi 10/10",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.172373.jpg"
+    },
+    {
+      "id": "parent651790",
+      "author": "Nonagal",
+      "date": "2025-04-22",
+      "text": "Ah, zavallı Finley nasıl da eleştiriliyor, sanki o sadece bir erkekmiş gibi! Arkadaşlar, bir bahçıvan-aşkının vanilya veya alkol gibi kokması mı gerekiyor? Çok güzel yapılmış, ona şapka çıkarıyorum. Şişe, markanın bize masalında anlattığıyla birebir aynı. Muhteşem! Bu arada, en başta Fahrenheit gibi kokuyor, sonra sandal ağacı ve bu koku açıkça belirginleşiyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.258752.jpg"
+    },
+    {
+      "id": "parent651788",
+      "author": "original lifeline",
+      "date": "2025-04-18",
+      "text": "Ah, ne kadar hoş. Penhaligons'a karşı çok eleştirelim, çünkü daha önce hiçbir kokusunu beğenmemiştim, ama bu koku kış basın bülteninden beri ilgimi çekiyor. Tuzlu fıstık, üstelik deri notalarıyla!\n\nDubai Mall'daki danışman sol kolumun tamamına cömertçe 4-5 fıs sıktı ve işte karşınızdayım, deri bir zemin üzerinde (koşum takımı değil, Toskana tarzı değil, süet kadar yumuşak) bu yeşil-fıstık yeşili coşkusunun içinde. Ve her şeyi bir arada tutan, neredeyse fark edilmeyen çiçeksi bir dokunuş—muhtemelen menekşe.\n\nAtın fiyatı hem yurtdışında hem de burada oldukça yüksek. Bu yüzden şimdilik dekante olarak bekletiyoruz, sonra duruma bakacağız.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.413307.jpg"
+    },
+    {
+      "id": "parent651782",
+      "author": "SOLOMIKI",
+      "date": "2025-04-18",
+      "text": "Penalighon'dan harika bir parfüm. Deri söz konusu olduğunda, bu konuda daha az deneyimli olanlar genellikle burun kıvırır, ancak burada gerçekten harika, taze bir nota sunmayı başarmışlar ve bu nota damağınızda kalıcı bir etki bırakıyor. Kararlı, agresif ve cesur.\nParfüm kesinlikle onaylandı.\n\nPuan 9/10",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent651797",
+      "author": "niche archive",
+      "date": "2025-04-10",
+      "text": "Sandal ağacıyla harmanlanmış tatlı bir menekşe kokusu; ana akım bir koku, kibar ve hafif zarif. Daha yoğun sandal ağacı ve pudra içeren Fahrentheit veya Brioni gibi parfümlerle de deneyebilirsiniz. Ben çok hayranı değilim ama kötü bir koku da değil. Orta gövdeli bir koku. Sıcak ve tatlı, ama gündüz kullanımına da uygun.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.46483.jpg"
+    },
+    {
+      "id": "parent651744",
+      "author": "Willowthewisp",
+      "date": "2025-04-05",
+      "text": "Tamam, sadece bir güncelleme paylaşmak istedim... Sonunda notları düzelttikleri için ÇOK mutluyum. Bu parfüm, deniz, fındık ve matcha kokusu arayanlar için vazgeçilmezim.\n\nPenhaligon's Portraits serisine eklenen bu son ürün, yalnızca bir hafta boyunca Fortnum & Mason'a özel olarak satışta kaldı, ancak neyse ki 1 Nisan 2025'te Penhaligon's tarafından resmi olarak piyasaya sürüldü.\n\nİlk kez kağıt üzerinde denediğim andan itibaren, matcha ve kakulenin taze, yeşil notaları ve ince fıstık aroması, karabiberin sakin topraksılığıyla dengelenmiş haliyle beni hoş bir şekilde şaşırttı. Kurudukça, fıstıktan gelen tuzluluğun daha belirginleştiğini, neredeyse denizden gelen okyanus notası gibi olduğunu ve ince süet deri notasının daha da güçlendiğini fark ettim. Fıstıktan gelen gurme notası dondurma veya hindistan cevizi olarak da yorumlanabilir.\n\nBu parfümü tenimde denediğimde yukarıda belirtilen nota sıralamasıyla aynı sonuç elde ettim. Ancak genel olarak, deri notası baskın olmadığı için bu parfüm her iki cinsiyete de hitap edebilir. Penhaligon's parfümlerinin çoğunun unisex olarak tasarlandığını ve \"erkeksi\" olduğunu söyleyenlere asla güvenmeyin.\n2024 yılında piyasaya sürülen, aşırı derecede yapışkan tatlı ve abartılı gurme fıstıklı kek kokularını (örneğin Theodoros Kalotinis Pistachio Latte) göz önünde bulundurduğumuzda, bu parfüm taze, dengeli bir gurme kokusu olarak oldukça benzersiz.\n\nBazıları kalıcılığının veya yayılımının iyi olmadığını endişeyle belirtmiş. Şahsen ben, orta düzeyde bir yayılımla en az 4-5 saat ciltte kalıcılık elde ediyorum.\n\nGenel izlenim, ahır uşağı Finley'den alacağınız hiçbir şeye benzemiyor. Tozlu, ud kokulu veya hayvansal hiçbir şey yok. Neyse ki, 5 ml'lik dekantımı uzun süre saklamak zorunda kalmadım. Yeni bir şişeyi uygun fiyata buldum ve koleksiyonuma ekledim!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1555935.jpg"
+    },
+    {
+      "id": "parent651754",
+      "author": "girlfromanothertime",
+      "date": "2025-04-03",
+      "text": "Öne sürülen baskın aroma fıstık olsa da, aslında fıstık ve kakulenin %50/%50 oranında karışımı gibi, sıcak, fındıksı ve yeşil bir aroma ortaya çıkıyor.\n\nFragrantica'ya göre başlangıç ​​aşamasında çok taze bir şey var; deniz tuzu notası olabilir, markanın web sitesine göre ise tuzlu fıstık. Menekşe yaprağıyla harmanlandığında, hafif tuzlu/deniz kokusu veriyor, ama yeşilimsi bir şekilde.\nAçılışın tazeliği oldukça hızlı bir şekilde yatışıyor.\n\nDeri notasını pek alamıyorum, tene çok yakın, çok yumuşak ve kremsi, sandal ağacına benzer, hafif gurme bir koku ama tatlı değil.\nBen bunu kesinlikle erkeklere özel değil, unisex olarak sınıflandırırım ama bu sadece benim görüşüm olabilir.\n\nMinimalist bir koku, olağanüstü veya çığır açıcı bir şey yok ama güzel yapılmış. Kalıcılığı ve yayılımı biraz zayıf.\n\nEvet, ahırda giymek için en uygun kıyafet olurdu!\n\n5.5/10",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1830064.jpg"
+    },
+    {
+      "id": "parent651765",
+      "author": "Raf",
+      "date": "2025-03-30",
+      "text": "Çok hoş bir koku!\nSüet benzeri bir açılış, karabiberin patlaması ve kakulenin zarafetiyle başlıyor, ardından tuzlanmış ve kavrulmuş fıstıkla kokunun en yüce kısmı geliyor.\nGerçekten çok iyi yapılmış!\nSon olarak, menekşe ve iris çiçekleri bütüne pudralı ve zarif bir dokunuş katıyor.\nBir arkadaşımın dediği gibi, \"bu parfüm çığır açıcı bir şey değil,\" ama çok iyi yapılmış ve zarif.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.18033.jpg"
+    },
+    {
+      "id": "parent651746",
+      "author": "Anna mi.",
+      "date": "2025-03-29",
+      "text": "Şaşırtıcı bir şekilde beğendim!\n\nKoku, alışılmadık, taze bir fıstık akoruyla hemen dikkat çekiyor; gurme veya tatlı değil, aksine olgunlaşmamış bir fıstığı yeni soymuşsunuz gibi yeşilimsi. Oldukça gerçekçi geliyor!\n\nArdından koku, yumuşak, hafif bir sandal ağacı, pudramsı odunsu, çok narin ve rahatlatıcı bir kokuya dönüşüyor.\n\nDeri, ana notalardan biri olarak listelenmiş olsa da, tenimde neredeyse hiç hissedilmiyor. Bunun yerine, daha çok süet nüansı – ince, kadifemsi ve yumuşak – algılıyorum. Tuz da mevcut ve fark edilebilir olsa da, sunumu çok yumuşak – kokuyu agresif veya keskin yapmıyor, aksine ilginç bir dokunuş katıyor.\n\nGenel olarak, Fortuitous Finley ciltte çok rahat ve yumuşak bir his bırakıyor. Erkek parfümü olarak pazarlanmasına rağmen, ben onu unisex olarak sınıflandırırım. Alışılmadık ama narin odunsu kompozisyonları takdir edenlere hitap edeceğine inanıyorum. Burada abartılı bir erkeklik veya ağır deri kokusu yok; bunun yerine, dokuların zekice ve rafine bir oyunu söz konusu.\n\nKalıcılığı da beni çok etkiledi 💪🏻. Cildimde yaklaşık 6 saat boyunca kokusunu alabiliyordum. Test kağıdında ise ikinci günde bile hala hissediliyordu.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1619988.jpg"
+    },
+    {
+      "id": "parent651833",
+      "author": "Abo anas",
+      "date": "2025-03-24",
+      "text": "Penhaligon's, köklü bir parfüm evi ve bence en sevdiğim tarz olan ferah, sabunsu parfümler üreten en iyi markalardan biri...\nAma dürüst olmak gerekirse, bir şeyi denediğim anda onlardan satın almaya karar verdiğim ilk sefer bu...\nPenhaligon'un Şanslı Finley'i.\nBilmiyorum, notalar Fragrantica'ya göre garip ama bana göre Megamar'ın en güzel ve en temiz versiyonu... Sadece kokuyu ve pası çıkarıp yerine fıstık notası koymak yeterli...\nTabii ki Fragrantica'daki değerlendirmeler inanılmaz... ama bence bu, bu dönemde markanın sürpriz ismi olacak.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragranticarabia.com",
+      "avatar": "https://fimgs.net/mdimg/avatariar/m.65330.jpg"
+    },
+    {
+      "id": "parent651792",
+      "author": "Ant SRV",
+      "date": "2025-03-21",
+      "text": "Bu koku, dünyada TSUM'da ortaya çıkan ilk kokulardan biriydi.\nBeğendim.\nHiçbir fıstık tadı almadım.\nAncak bol miktarda menekşe, deri/süet ve paçuli kokusu var.\nKokusu tatlı değil, aksine erkeksi, menekşe ve deri notaları içeriyor. Bana çok Dior Fahrenheit kolonyasını hatırlattı.\nYeni bir klasik mi?\nKokunun yaydığı enerji bir geyiğe benzetilebilir ve aynı kitleye hitap etmesi beklenir.\n\nNot: Burada listelenen notalar yanlıştır; resmi web sitesinde tamamen farklıdır ve menekşe, iris kökü ve paçuli içerir.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     }
   ]
 }

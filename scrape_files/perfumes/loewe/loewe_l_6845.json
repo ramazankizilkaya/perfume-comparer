@@ -37,6 +37,34 @@
     {
       "name": "gül",
       "width": "44.8837%"
+    },
+    {
+      "name": "Online satın alın 29 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,33 +107,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "2",
+    "moderate": "10",
+    "longLasting": "6",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "10",
+    "strong": "4",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "F for Fascinating Night"
+    },
+    {
+      "brand": "AXİS",
+      "name": "Axis"
+    },
+    {
+      "brand": "MİCHAEL KORS",
+      "name": "Sky Blossom"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Pivoine Suzhou"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Solo Loewe Ella"
+    },
+    {
+      "brand": "VİCTORİNOX SWİSS ARMY",
+      "name": "Swiss Army Eau Florale Eau de Toilette"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Premiere"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BURBERRY",
@@ -167,5 +224,6 @@
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez For Her"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,100 +16,167 @@
     },
     {
       "name": "aromatik",
-      "width": "88.4704%"
+      "width": "88.4706%"
     },
     {
       "name": "gül",
-      "width": "86.2746%"
+      "width": "87.6469%"
     },
     {
       "name": "taze baharatlı",
-      "width": "82.1568%"
-    },
-    {
-      "name": "sıcak baharatlı",
-      "width": "79.4118%"
+      "width": "83.2554%"
     },
     {
       "name": "menekşe",
-      "width": "79.4118%"
+      "width": "82.1572%"
+    },
+    {
+      "name": "sıcak baharatlı",
+      "width": "79.4123%"
     },
     {
       "name": "taze",
-      "width": "75.8432%"
-    },
-    {
-      "name": "çiçeksi",
-      "width": "75.2941%"
+      "width": "77.0789%"
     },
     {
       "name": "pudralı",
-      "width": "74.8826%"
+      "width": "76.8043%"
+    },
+    {
+      "name": "çiçeksi",
+      "width": "76.5297%"
     },
     {
       "name": "odunsu",
-      "width": "70.8746%"
+      "width": "71.2863%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.52",
-    "votesCount": "201",
+    "votesCount": "204",
     "breakdown": {
-      "love": "",
-      "like": "",
-      "ok": "",
-      "dislike": "",
-      "hate": ""
+      "love": "45",
+      "like": "72",
+      "ok": "38",
+      "dislike": "43",
+      "hate": "6"
     }
   },
   "seasons": {
-    "winter": "",
-    "spring": "",
-    "summer": "",
-    "autumn": "",
-    "day": "",
-    "night": ""
+    "winter": "39",
+    "spring": "30",
+    "summer": "24",
+    "autumn": "56",
+    "day": "40",
+    "night": "39"
   },
   "notes": {
     "top": [
       "Ylang-Ylang",
-      "Menekşe,Neroli"
+      "Menekşe",
+      "Neroli"
     ],
     "middle": [
       "Gül",
-      "Kakule,Zencefil"
+      "Kakule",
+      "Zencefil"
     ],
-    "base": [],
+    "base": [
+      "Mate",
+      "Ambergris",
+      "Misk"
+    ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "10",
+    "moderate": "32",
+    "longLasting": "28",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "32",
+    "strong": "28",
+    "enormous": "21"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "63",
+    "moreFemale": "10",
+    "unisex": "6",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "24",
+    "overpriced": "20",
+    "fair": "38",
+    "goodValue": "2",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MANCERA",
+      "name": "Lovely Garden"
+    },
+    {
+      "brand": "ATELİER FLOU",
+      "name": "Shamsin"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "True Love"
+    },
+    {
+      "brand": "LUSH",
+      "name": "Lust"
+    },
+    {
+      "brand": "GOUTAL",
+      "name": "Songes"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Some Like It Hot"
+    },
+    {
+      "brand": "MAJDA BEKKALİ",
+      "name": "Mon Nom est Rouge"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "Signorina Ribelle"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "PARFUMS DE MARLY",
@@ -164,12 +231,13 @@
       "name": "Honour Woman"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Tobacco Vanille"
-    },
-    {
       "brand": "MARC-ANTOİNE BARROİS",
       "name": "Ganymede"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Tobacco Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

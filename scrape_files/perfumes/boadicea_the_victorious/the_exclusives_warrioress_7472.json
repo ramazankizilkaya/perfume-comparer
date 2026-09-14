@@ -33,6 +33,10 @@
     {
       "name": "tatlı",
       "width": "49.358%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -57,57 +61,44 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Deri",
+      "Reçine",
+      "Opoponaks",
+      "Sedir",
+      "Bergamot",
+      "Mür"
+    ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "3",
-    "moderate": "5",
-    "longLasting": "3",
-    "eternal": "12"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "5",
-    "strong": "11",
-    "enormous": "14"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "6",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "HİSTOİRES DE PARFUMS",
-      "name": "1876"
-    },
-    {
-      "brand": "YS-UZAC",
-      "name": "Pohadka"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Complex"
-    },
-    {
-      "brand": "OLİBERE PARFUMS",
-      "name": "Leather Attraction"
-    },
-    {
-      "brand": "PANA DORA",
-      "name": "Swedish Leather"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -169,5 +160,6 @@
       "brand": "LALİQUE",
       "name": "Encre Noire"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Oudh-al-Mithali-8728.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Oudh al Mithali parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Agar ağacı (Oud) ve Yeşil Notalar; orta notalar: Odunsu Notlar, Sandal ağacı, Baharatlı notalar, Amber ve Çiçeksi Notalar; alt notalar Meyvemsi notalar ve Ahududu.",
-  "description_original": "Rasasi markasının Oudh al Mithali parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Agar ağacı (Oud) ve Yeşil Notalar; orta notalar: Odunsu Notlar, Sandal ağacı, Baharatlı notalar, Amber ve Çiçeksi Notalar; alt notalar Meyvemsi notalar ve Ahududu.",
+  "description_original": "Rasasi markasının Oudh al Mithali parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Agar ağacı (Oud) ve Yeşil Notalar; orta notalar: Odunsu Notalar, Sandal ağacı, Baharatlar, Amber ve Çiçeksi Notalar; alt notalar Meyvemsi notalar ve Ahududu.",
   "description_enhanced": "Rasasi markasının Oudh al Mithali parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Agar ağacı (Oud) ve Yeşil Notalar; orta notalar: Odunsu Notlar, Sandal ağacı, Baharatlı notalar, Amber ve Çiçeksi Notalar; alt notalar Meyvemsi notalar ve Ahududu.",
   "mainAccords": [
     {
@@ -45,17 +45,45 @@
     {
       "name": "pudralı",
       "width": "46.6924%"
+    },
+    {
+      "name": "Online satın alın 9 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.91",
+    "score": "3.88",
     "votesCount": "66",
     "breakdown": {
       "love": "23",
       "like": "28",
-      "ok": "1",
+      "ok": "0",
       "dislike": "14",
-      "hate": "0"
+      "hate": "1"
     }
   },
   "seasons": {
@@ -72,9 +100,9 @@
       "Yeşil Notalar"
     ],
     "middle": [
-      "Odunsu Notlar",
+      "Odunsu Notalar",
       "Sandal ağacı",
-      "Baharatlı notalar",
+      "Baharatlar",
       "Amber",
       "Çiçeksi Notalar"
     ],
@@ -85,33 +113,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "4",
+    "longLasting": "12",
+    "eternal": "16"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "4",
+    "strong": "17",
+    "enormous": "13"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "6",
+    "moreMale": "1",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "1",
+    "fair": "0",
+    "goodValue": "6",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Night Dreams"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Arooq Al Oud"
+    },
+    {
+      "brand": "ROBERTO CAVALLİ",
+      "name": "Divine Oud"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Night Dreams Eau de Parfum"
+    },
+    {
+      "brand": "AL WATANİAH",
+      "name": "Special Oud"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Arabian Legend Men"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "The Library Collection Opus XI"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -173,5 +230,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "D&G Anthology L'Imperatrice 3"
     }
-  ]
+  ],
+  "comments": []
 }

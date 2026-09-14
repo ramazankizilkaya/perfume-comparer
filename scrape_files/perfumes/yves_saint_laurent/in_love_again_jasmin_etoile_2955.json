@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Yves-Saint-Laurent/In-Love-Again-Jasmin-Etoile-2955.html",
   "brand": "Yves Saint Laurent parfüm ve kolonya",
   "description": "Yves Saint Laurent markasının In Love Again Jasmin Etoile parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. In Love Again Jasmin Etoile, 2005 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü yaprağı ve tomurcuğu, Mandalina ve Yıldız anasonu; orta notalar: Yasemin ve Yıldız meyvesi (Karambola); alt notalar Vanilya, Sedir ve Sandal ağacı.",
-  "description_original": "Yves Saint Laurent markasının In Love Again Jasmin Etoile parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. In Love Again Jasmin Etoile, 2005 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü yaprağı ve tomurcuğu, Mandalina ve Yıldız anasonu; orta notalar: Yasemin ve Yıldız meyvesi (Karambola); alt notalar Vanilya, Sedir ve Sandal ağacı.",
+  "description_original": "Yves Saint Laurent markasının In Love Again Jasmin Etoile parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. In Love Again Jasmin Etoile, 2005 yılında piyasaya sürüldü. Üst notalar: Siyah Frenk Üzümü, Mandalina ve Yıldız anasonu; orta notalar: Yasemin ve Yıldız meyvesi (Karambola); alt notalar Vanilya, Sedir ve Sandal ağacı.",
   "description_enhanced": "Yves Saint Laurent markasının In Love Again Jasmin Etoile parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. In Love Again Jasmin Etoile, 2005 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü yaprağı ve tomurcuğu, Mandalina ve Yıldız anasonu; orta notalar: Yasemin ve Yıldız meyvesi (Karambola); alt notalar Vanilya, Sedir ve Sandal ağacı.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "tropikal",
       "width": "57.1437%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -72,7 +100,7 @@
   },
   "notes": {
     "top": [
-      "Frenk üzümü yaprağı ve tomurcuğu",
+      "Siyah Frenk Üzümü",
       "Mandalina",
       "Yıldız anasonu"
     ],
@@ -88,33 +116,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "5",
+    "moderate": "23",
+    "longLasting": "8",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "23",
+    "strong": "7",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "11",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES ROCHER",
+      "name": "Quelques Notes d’Amour L'Eau de Toilette"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "In Love Again"
+    },
+    {
+      "brand": "CLİNİQUE",
+      "name": "Blue Sky Neroli"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Forever and Ever"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Collection In Love Again"
+    },
+    {
+      "brand": "CRABTREE & EVELYN",
+      "name": "Summer Hill"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Gabrielle"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -176,5 +233,6 @@
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -29,26 +29,54 @@
     {
       "name": "misk",
       "width": "45.2173%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.19",
-    "votesCount": "26",
+    "score": "4.20",
+    "votesCount": "30",
     "breakdown": {
-      "love": "11",
-      "like": "9",
-      "ok": "6",
-      "dislike": "0",
+      "love": "13",
+      "like": "11",
+      "ok": "5",
+      "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "4",
-    "spring": "15",
-    "summer": "13",
-    "autumn": "7",
-    "day": "15",
-    "night": "4"
+    "winter": "5",
+    "spring": "17",
+    "summer": "15",
+    "autumn": "8",
+    "day": "17",
+    "night": "5"
   },
   "notes": {
     "top": [],
@@ -62,45 +90,46 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "3",
+    "moderate": "8",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "8",
+    "strong": "0",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "4",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "5",
+    "goodValue": "5",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Luna"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Make B. Barbie Edition"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
       "name": "Essencial Exclusivo"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Kaiak Aventura"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Ilía Completa"
     },
     {
       "brand": "NATURA",
@@ -115,28 +144,32 @@
       "name": "Ilía"
     },
     {
+      "brand": "O BOTİCÁRİO",
+      "name": "Love Lily"
+    },
+    {
       "brand": "NATURA",
       "name": "Luna"
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Love Lily"
+      "name": "Lilac"
     },
     {
       "brand": "LANCÔME",
       "name": "Idôle"
     },
     {
-      "brand": "DİOR",
-      "name": "J'adore"
+      "brand": "NATURA",
+      "name": "Una"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Libre Intense"
+      "brand": "NATURA",
+      "name": "Humor Envolve"
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Floratta Flores Secretas"
+      "name": "Floratta Red"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -147,8 +180,13 @@
       "name": "Luna Absoluta"
     },
     {
+      "brand": "DİOR",
+      "name": "Miss Dior Eau de Parfum (2021)"
+    },
+    {
       "brand": "NATURA",
       "name": "Biografia Assinatura"
     }
-  ]
+  ],
+  "comments": []
 }

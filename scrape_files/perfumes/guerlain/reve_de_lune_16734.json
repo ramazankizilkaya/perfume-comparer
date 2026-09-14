@@ -68,7 +68,7 @@
     "summer": "2",
     "autumn": "6",
     "day": "7",
-    "night": "2"
+    "night": "3"
   },
   "notes": {
     "top": [
@@ -90,42 +90,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "0",
-    "moderate": "1",
-    "longLasting": "0",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "1",
-    "strong": "5",
-    "enormous": "8"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Metallica (Metalys)"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Le Bolshoi 2011 Edition Limitee"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "TOM FORD",
@@ -176,16 +167,17 @@
       "name": "Tonka Imperiale"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Cuir Béluga"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Plum Japonais"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Cuir Béluga"
     },
     {
       "brand": "ROCHAS",
       "name": "Femme Rochas"
     }
-  ]
+  ],
+  "comments": []
 }

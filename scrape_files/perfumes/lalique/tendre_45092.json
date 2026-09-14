@@ -49,6 +49,34 @@
     {
       "name": "yeşil",
       "width": "46.5736%"
+    },
+    {
+      "name": "Online satın alın 9 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,33 +115,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "2",
+    "moderate": "8",
+    "longLasting": "12",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "8",
+    "strong": "11",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "3",
     "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "KENZO",
+      "name": "Coeur Azuki"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Rose Goldea"
+    },
+    {
+      "brand": "MAİSON TAHİTÉ – OFFİCİNE CREATİVE PROFUMİ",
+      "name": "Floranilla"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -175,5 +216,6 @@
       "brand": "GİVENCHY",
       "name": "Organza"
     }
-  ]
+  ],
+  "comments": []
 }

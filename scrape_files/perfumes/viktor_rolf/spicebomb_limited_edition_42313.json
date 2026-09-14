@@ -49,6 +49,34 @@
     {
       "name": "odunsu",
       "width": "45.2477%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "3",
+    "moderate": "7",
+    "longLasting": "7",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "7",
+    "strong": "20",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "1",
+    "male": "11"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "4",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Spicebomb"
+    },
+    {
+      "brand": "ENGLİSH LAUNDRY",
+      "name": "Windsor Pour Homme"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Spicebomb Digital Art"
+    },
+    {
+      "brand": "NEANDERTAL",
+      "name": "was™"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Spicebomb Extreme"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Tobacco Vanille"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Herod"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Spicebomb Christmas Edition 2014"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Aroma Allegoria Exalting Aromaparfum"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Dark Obsession"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "1 Million"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Spicebomb Night Vision Eau de Toilette"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Tonka Cola"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Echo"
+    },
+    {
+      "brand": "PHAEDON",
+      "name": "Tabac Rouge"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİKTOR&ROLF",
@@ -178,5 +267,6 @@
       "brand": "CREED",
       "name": "Royal Oud"
     }
-  ]
+  ],
+  "comments": []
 }

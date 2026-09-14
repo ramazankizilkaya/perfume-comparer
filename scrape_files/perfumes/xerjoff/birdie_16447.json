@@ -49,16 +49,44 @@
     {
       "name": "kum",
       "width": "51.0904%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.78",
-    "votesCount": "235",
+    "votesCount": "236",
     "breakdown": {
       "love": "86",
       "like": "76",
       "ok": "16",
-      "dislike": "50",
+      "dislike": "51",
       "hate": "7"
     }
   },
@@ -87,33 +115,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "16",
+    "moderate": "22",
+    "longLasting": "45",
+    "eternal": "25"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "20",
+    "moderate": "22",
+    "strong": "57",
+    "enormous": "42"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "23",
+    "moreMale": "16",
+    "male": "13"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "11",
+    "overpriced": "7",
     "fair": "16",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NASOMATTO",
+      "name": "Hindu Grass"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Music Festival"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Ursa"
+    },
+    {
+      "brand": "ORİZA L. LEGRAND",
+      "name": "Horizon"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "Fly Far Away"
+    },
+    {
+      "brand": "LORENZO VİLLORESİ",
+      "name": "Patchouli"
+    },
+    {
+      "brand": "ARTE PROFUMİ",
+      "name": "Tribal"
+    },
+    {
+      "brand": "ATRİUM FRAGRANCE",
+      "name": "Mr Fragrant"
+    },
+    {
+      "brand": "AZMAN",
+      "name": "Song For a Wanderer"
+    },
+    {
+      "brand": "SALVADOR DALİ",
+      "name": "Salvador Dali Pour Homme"
+    },
+    {
+      "brand": "MOLİNARD",
+      "name": "Musc Eau de Parfum"
+    },
+    {
+      "brand": "COMME DES GARCONS",
+      "name": "Daphne"
+    },
+    {
+      "brand": "ALFRED DUNHİLL",
+      "name": "Icon"
+    },
+    {
+      "brand": "JOVOY PARİS",
+      "name": "Psychedelique"
+    },
+    {
+      "brand": "ALFRED DUNHİLL",
+      "name": "Dunhill Icon Absolute"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
@@ -175,5 +264,6 @@
       "brand": "SERGE LUTENS",
       "name": "Ambre Sultan"
     }
-  ]
+  ],
+  "comments": []
 }

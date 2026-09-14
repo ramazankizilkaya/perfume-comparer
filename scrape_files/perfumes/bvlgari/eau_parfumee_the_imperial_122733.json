@@ -16,42 +16,70 @@
     },
     {
       "name": "taze",
-      "width": "76.1176%"
+      "width": "78.6499%"
     },
     {
       "name": "misk",
-      "width": "60.8824%"
+      "width": "58%"
     },
     {
       "name": "yeşil",
-      "width": "52.2354%"
+      "width": "57.3%"
     },
     {
       "name": "taze baharatlı",
-      "width": "47.7059%"
+      "width": "48.5499%"
     },
     {
       "name": "pudralı",
-      "width": "45.4412%"
+      "width": "44.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.10",
-    "votesCount": "104",
+    "score": "4.14",
+    "votesCount": "136",
     "breakdown": {
-      "love": "43",
-      "like": "34",
-      "ok": "21",
+      "love": "58",
+      "like": "47",
+      "ok": "24",
       "dislike": "6",
-      "hate": "0"
+      "hate": "1"
     }
   },
   "seasons": {
-    "winter": "5",
-    "spring": "52",
-    "summer": "51",
-    "autumn": "13",
-    "day": "47",
+    "winter": "7",
+    "spring": "61",
+    "summer": "63",
+    "autumn": "14",
+    "day": "58",
     "night": "10"
   },
   "notes": {
@@ -68,43 +96,47 @@
   },
   "longevity": {
     "veryWeak": "1",
-    "weak": "9",
-    "moderate": "12",
-    "longLasting": "11",
+    "weak": "13",
+    "moderate": "14",
+    "longLasting": "12",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "14",
-    "moderate": "12",
+    "intimate": "20",
+    "moderate": "14",
     "strong": "4",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "3",
-    "moreFemale": "13",
-    "unisex": "25",
-    "moreMale": "1",
+    "female": "5",
+    "moreFemale": "15",
+    "unisex": "30",
+    "moreMale": "2",
     "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "4",
-    "overpriced": "5",
-    "fair": "21",
+    "wayOverpriced": "5",
+    "overpriced": "7",
+    "fair": "24",
     "goodValue": "2",
     "greatValue": "1"
   },
   "remindsMeOf": [
     {
+      "brand": "THE HOUSE OF OUD",
+      "name": "The Time"
+    },
+    {
       "brand": "GİORGİO ARMANİ",
       "name": "Thé Yulong"
     },
     {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Under The Lemon Tree"
+      "brand": "ELİZABETH ARDEN",
+      "name": "White Tea"
     },
     {
-      "brand": "THE HOUSE OF OUD",
-      "name": "The Time"
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Under The Lemon Tree"
     },
     {
       "brand": "NİSHANE",
@@ -112,7 +144,11 @@
     },
     {
       "brand": "ELİZABETH ARDEN",
-      "name": "White Tea"
+      "name": "White Tea Eau de Parfum"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Le Jardin de Monsieur Li"
     },
     {
       "brand": "VERONİQUE GABAİ",
@@ -123,32 +159,20 @@
       "name": "Herbes Troublantes"
     },
     {
-      "brand": "ELİZABETH ARDEN",
-      "name": "White Tea Eau de Parfum"
+      "brand": "CRABTREE & EVELYN",
+      "name": "Himalayan Blue"
     },
     {
       "brand": "BVLGARİ",
       "name": "Omnia Crystalline"
     },
     {
-      "brand": "CRABTREE & EVELYN",
-      "name": "Himalayan Blue"
-    },
-    {
       "brand": "PARFUMS BERDOUES",
       "name": "Assam of India"
     },
     {
-      "brand": "PENHALİGON'S",
-      "name": "Luna"
-    },
-    {
       "brand": "EYÜP SABRİ TUNCER",
       "name": "Klasik Limon (Lemon)"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Un Jardin à Cythère"
     },
     {
       "brand": "THE DUA BRAND",
@@ -173,12 +197,12 @@
       "name": "Un Jardin Sur Le Nil"
     },
     {
-      "brand": "CHANEL",
-      "name": "Chance Eau Tendre"
-    },
-    {
       "brand": "ETAT LİBRE D'ORANGE",
       "name": "You Or Someone Like You"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chance Eau Tendre"
     },
     {
       "brand": "PARFUMS DE MARLY",
@@ -216,5 +240,6 @@
       "brand": "DİPTYQUE",
       "name": "Orphéon Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -33,13 +33,41 @@
     {
       "name": "metalik",
       "width": "45.9091%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.13",
-    "votesCount": "23",
+    "score": "4.23",
+    "votesCount": "26",
     "breakdown": {
-      "love": "13",
+      "love": "16",
       "like": "6",
       "ok": "1",
       "dislike": "0",
@@ -47,12 +75,12 @@
     }
   },
   "seasons": {
-    "winter": "10",
+    "winter": "14",
     "spring": "3",
     "summer": "2",
-    "autumn": "9",
-    "day": "2",
-    "night": "8"
+    "autumn": "11",
+    "day": "3",
+    "night": "10"
   },
   "notes": {
     "top": [],
@@ -65,33 +93,82 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "1",
+    "longLasting": "2",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "1",
+    "strong": "7",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "6",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "5",
+    "overpriced": "4",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Halfeti"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "The Blazing Mister Sam Eau de Parfum Intense"
+    },
+    {
+      "brand": "MUSCENT",
+      "name": "Velvet Spices"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Grand Soir"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Ombré Leather (2018)"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Ambre Sultan"
+    },
+    {
+      "brand": "THE SPİRİT OF DUBAİ",
+      "name": "Meydan"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "The Blazing Mr Sam"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Material"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Ombré Leather Parfum"
+    },
+    {
+      "brand": "CLİVE CHRİSTİAN",
+      "name": "Blonde Amber"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Tuscan Leather"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -102,8 +179,8 @@
       "name": "Outlands"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Musc Ravageur"
+      "brand": "AMOUAGE",
+      "name": "Decision"
     },
     {
       "brand": "CLİVE CHRİSTİAN",
@@ -118,40 +195,41 @@
       "name": "Halfeti"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Herod"
-    },
-    {
-      "brand": "LES INDEMODABLES",
-      "name": "Vanille Havane"
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Le Parfum"
     },
     {
       "brand": "NİSHANE",
       "name": "Ani"
     },
     {
-      "brand": "BYREDO",
-      "name": "Bal d'Afrique Absolu"
+      "brand": "MAİSON CRİVELLİ",
+      "name": "Cuir InfraRouge"
     },
     {
-      "brand": "OMANLUXURY",
-      "name": "Oud Aquilaria"
+      "brand": "ORTO PARİSİ",
+      "name": "Stercus"
     },
     {
       "brand": "PENHALİGON'S",
       "name": "The Blazing Mr Sam"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Carlisle"
-    },
-    {
-      "brand": "BDK PARFUMS",
-      "name": "Gris Charnel Extrait"
+      "brand": "ROJA DOVE",
+      "name": "Burlington 1819"
     },
     {
       "brand": "XERJOFF",
       "name": "XJ 1861 Naxos"
+    },
+    {
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Vibrato"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Angels' Share On The Rocks"
     }
-  ]
+  ],
+  "comments": []
 }

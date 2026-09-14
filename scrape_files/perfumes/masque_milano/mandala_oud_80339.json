@@ -45,6 +45,34 @@
     {
       "name": "misk",
       "width": "44.5078%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -93,20 +121,20 @@
     "weak": "0",
     "moderate": "0",
     "longLasting": "4",
-    "eternal": "5"
+    "eternal": "6"
   },
   "sillage": {
     "intimate": "0",
     "moderate": "0",
     "strong": "7",
-    "enormous": "2"
+    "enormous": "3"
   },
   "genderVoting": {
     "female": "1",
     "moreFemale": "0",
     "unisex": "5",
     "moreMale": "6",
-    "male": "1"
+    "male": "2"
   },
   "priceVoting": {
     "wayOverpriced": "0",
@@ -186,5 +214,6 @@
       "brand": "MASQUE MİLANO",
       "name": "Russian Tea Oud"
     }
-  ]
+  ],
+  "comments": []
 }

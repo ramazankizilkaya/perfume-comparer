@@ -33,15 +33,43 @@
     {
       "name": "pudralı",
       "width": "46.5075%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.19",
-    "votesCount": "276",
+    "score": "4.18",
+    "votesCount": "277",
     "breakdown": {
       "love": "121",
       "like": "111",
-      "ok": "21",
+      "ok": "22",
       "dislike": "21",
       "hate": "2"
     }
@@ -82,33 +110,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "21",
+    "moderate": "99",
+    "longLasting": "40",
+    "eternal": "11"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "26",
+    "moderate": "99",
+    "strong": "34",
+    "enormous": "19"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "103",
+    "moreFemale": "17",
+    "unisex": "12",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "21",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "3",
+    "overpriced": "4",
+    "fair": "22",
+    "goodValue": "69",
+    "greatValue": "14"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CACHAREL",
+      "name": "Yes I Am"
+    },
+    {
+      "brand": "GİOVANNA BABY",
+      "name": "Blueberry"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -129,10 +166,6 @@
     {
       "brand": "NATURA",
       "name": "Humor 5"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Una"
     },
     {
       "brand": "NATURA",
@@ -169,6 +202,11 @@
     {
       "brand": "NATURA",
       "name": "Una Artisan"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ilía"
     }
-  ]
+  ],
+  "comments": []
 }

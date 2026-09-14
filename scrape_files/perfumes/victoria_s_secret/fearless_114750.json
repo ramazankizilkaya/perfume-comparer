@@ -1,7 +1,7 @@
 {
   "name": "Fearless Victoria's Secret",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Gourmand",
+  "fragranceFamily": "Floral",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.114750.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Victoria-s-Secret/Fearless-114750.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Victoria's Secret markasının Fearless parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Fearless, 2014 yılında piyasaya sürüldü. Üst nota: Siyah Frenk Üzümü; orta nota: İris; alt nota İris.",
   "mainAccords": [
     {
-      "name": "meyvemsi",
+      "name": "iris",
       "width": "100%"
     },
     {
-      "name": "iris",
+      "name": "meyvemsi",
       "width": "100%"
     },
     {
@@ -23,11 +23,11 @@
       "width": "71.9999%"
     },
     {
-      "name": "menekşe",
+      "name": "odunsu",
       "width": "65%"
     },
     {
-      "name": "odunsu",
+      "name": "menekşe",
       "width": "65%"
     },
     {
@@ -35,16 +35,44 @@
       "width": "58.0001%"
     },
     {
-      "name": "çiçeksi",
+      "name": "yumuşak baharatlı",
       "width": "54.4999%"
     },
     {
-      "name": "yumuşak baharatlı",
+      "name": "çiçeksi",
       "width": "54.4999%"
     },
     {
       "name": "aromatik",
       "width": "44.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -106,5 +134,6 @@
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

@@ -49,26 +49,54 @@
     {
       "name": "sıcak baharatlı",
       "width": "46.396%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.04",
-    "votesCount": "160",
+    "score": "4.03",
+    "votesCount": "163",
     "breakdown": {
-      "love": "59",
+      "love": "60",
       "like": "66",
-      "ok": "21",
-      "dislike": "11",
+      "ok": "22",
+      "dislike": "12",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "12",
+    "winter": "13",
     "spring": "66",
-    "summer": "84",
+    "summer": "85",
     "autumn": "33",
-    "day": "74",
-    "night": "17"
+    "day": "75",
+    "night": "18"
   },
   "notes": {
     "top": [
@@ -98,8 +126,8 @@
   "sillage": {
     "intimate": "32",
     "moderate": "31",
-    "strong": "6",
-    "enormous": "2"
+    "strong": "7",
+    "enormous": "1"
   },
   "genderVoting": {
     "female": "68",
@@ -111,7 +139,7 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "4",
-    "fair": "21",
+    "fair": "22",
     "goodValue": "21",
     "greatValue": "52"
   },
@@ -187,10 +215,6 @@
       "name": "Vanderbilt"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "Eternity"
-    },
-    {
       "brand": "CACHAREL",
       "name": "Amor Amor"
     },
@@ -215,6 +239,10 @@
       "name": "Nomade"
     },
     {
+      "brand": "CHOPARD",
+      "name": "Casmir"
+    },
+    {
       "brand": "ELİZABETH ARDEN",
       "name": "Green Tea"
     },
@@ -230,5 +258,6 @@
       "brand": "MUGLER",
       "name": "Alien"
     }
-  ]
+  ],
+  "comments": []
 }

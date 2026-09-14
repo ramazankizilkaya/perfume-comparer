@@ -37,26 +37,54 @@
     {
       "name": "animalik",
       "width": "44.3764%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.20",
-    "votesCount": "127",
+    "votesCount": "147",
     "breakdown": {
-      "love": "72",
-      "like": "29",
-      "ok": "13",
-      "dislike": "5",
+      "love": "82",
+      "like": "36",
+      "ok": "14",
+      "dislike": "7",
       "hate": "8"
     }
   },
   "seasons": {
-    "winter": "32",
-    "spring": "76",
-    "summer": "78",
-    "autumn": "67",
-    "day": "71",
-    "night": "50"
+    "winter": "40",
+    "spring": "89",
+    "summer": "91",
+    "autumn": "77",
+    "day": "85",
+    "night": "61"
   },
   "notes": {
     "top": [
@@ -82,42 +110,75 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "1",
+    "moderate": "12",
+    "longLasting": "64",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "12",
+    "strong": "56",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "0",
+    "unisex": "16",
+    "moreMale": "29",
+    "male": "46"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "9",
+    "overpriced": "21",
+    "fair": "14",
+    "goodValue": "6",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CLİVE CHRİSTİAN",
+      "name": "Town & Country"
+    },
+    {
+      "brand": "FRAGRANCE DU BOİS",
+      "name": "Lucius"
+    },
+    {
+      "brand": "LACRİMOSA",
+      "name": "Desiderium"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Emeer"
+    },
+    {
+      "brand": "ARABİYAT PRESTİGE",
+      "name": "Marasi For Him"
+    },
+    {
+      "brand": "WEST WORLD",
+      "name": "Good Vibes Only"
+    },
+    {
+      "brand": "V CANTO",
+      "name": "Amans"
+    },
+    {
+      "brand": "LE LABO",
+      "name": "Mousse de Chene 30 Amsterdam"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Isola Blu"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Decision"
+    }
+  ],
   "peopleAlsoLike": [
-    {
-      "brand": "LOUİS VUİTTON",
-      "name": "L’Immensité"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Perseus"
-    },
     {
       "brand": "CHANEL",
       "name": "Bleu de Chanel Eau de Parfum"
@@ -152,23 +213,32 @@
     },
     {
       "brand": "AMOUAGE",
-      "name": "Purpose 50"
-    },
-    {
-      "brand": "XERJOFF",
-      "name": "Uden"
+      "name": "Reflection Man"
     },
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Layton"
     },
     {
+      "brand": "XERJOFF",
+      "name": "Alexandria II"
+    },
+    {
       "brand": "NİSHANE",
       "name": "Hacivat"
     },
     {
+      "brand": "HUGO BOSS",
+      "name": "Bottled Absolu"
+    },
+    {
       "brand": "LOUİS VUİTTON",
       "name": "Imagination"
+    },
+    {
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Il Padrino"
     }
-  ]
+  ],
+  "comments": []
 }

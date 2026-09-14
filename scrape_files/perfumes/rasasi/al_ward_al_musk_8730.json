@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Al-Ward-Al-Musk-8730.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Al Ward Al Musk parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Üst notalar: Safran, Yeşil Notalar ve Çiçeksi Notalar; orta notalar: Gül, Baharatlı notalar, Ambrette (Misk otu) ve Yasemin Sambac; alt notalar Siyah misk, Meşe yosunu, Sandal ağacı ve Bal.",
-  "description_original": "Rasasi markasının Al Ward Al Musk parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Üst notalar: Safran, Yeşil Notalar ve Çiçeksi Notalar; orta notalar: Gül, Baharatlı notalar, Ambrette (Misk otu) ve Yasemin Sambac; alt notalar Siyah misk, Meşe yosunu, Sandal ağacı ve Bal.",
+  "description_original": "Rasasi markasının Al Ward Al Musk parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Üst notalar: Safran, Yeşil Notalar ve Çiçeksi Notalar; orta notalar: Gül, Baharatlar, Ambrette (Misk otu) ve Sambac Yasemini; alt notalar Siyah misk, Meşe yosunu, Sandal ağacı ve Bal.",
   "description_enhanced": "Rasasi markasının Al Ward Al Musk parfümü, kadınlar ve erkekler için Oryantal Çiçeksi bir kokudur. Üst notalar: Safran, Yeşil Notalar ve Çiçeksi Notalar; orta notalar: Gül, Baharatlı notalar, Ambrette (Misk otu) ve Yasemin Sambac; alt notalar Siyah misk, Meşe yosunu, Sandal ağacı ve Bal.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "yeşil",
       "width": "55.1497%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -78,9 +106,9 @@
     ],
     "middle": [
       "Gül",
-      "Baharatlı notalar",
+      "Baharatlar",
       "Ambrette (Misk otu)",
-      "Yasemin Sambac"
+      "Sambac Yasemini"
     ],
     "base": [
       "Siyah misk",
@@ -91,33 +119,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "4",
+    "longLasting": "3",
+    "eternal": "27"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "4",
+    "strong": "23",
+    "enormous": "23"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "6",
+    "moreMale": "1",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JUNAİD PERFUMES",
+      "name": "Khamail"
+    },
+    {
+      "brand": "JUNAİD PERFUMES",
+      "name": "Maodhoon"
+    },
+    {
+      "brand": "ANGEL SCHLESSER",
+      "name": "Angel Schlesser Oriental Edition II"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Shatha Al Oudh"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AJMAL",
@@ -179,5 +224,6 @@
       "brand": "DİOR",
       "name": "Midnight Poison"
     }
-  ]
+  ],
+  "comments": []
 }

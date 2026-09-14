@@ -19,11 +19,11 @@
       "width": "90.4545%"
     },
     {
-      "name": "bitkisel",
+      "name": "tuzlu",
       "width": "80.9091%"
     },
     {
-      "name": "tuzlu",
+      "name": "bitkisel",
       "width": "80.9091%"
     },
     {
@@ -31,12 +31,40 @@
       "width": "74.5455%"
     },
     {
+      "name": "odunsu",
+      "width": "61.8182%"
+    },
+    {
       "name": "sulu",
       "width": "61.8182%"
     },
     {
-      "name": "odunsu",
-      "width": "61.8182%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -74,20 +102,20 @@
     "weak": "0",
     "moderate": "0",
     "longLasting": "7",
-    "eternal": "19"
+    "eternal": "20"
   },
   "sillage": {
     "intimate": "1",
     "moderate": "0",
     "strong": "9",
-    "enormous": "12"
+    "enormous": "13"
   },
   "genderVoting": {
     "female": "1",
     "moreFemale": "0",
     "unisex": "17",
     "moreMale": "8",
-    "male": "7"
+    "male": "8"
   },
   "priceVoting": {
     "wayOverpriced": "7",
@@ -102,16 +130,12 @@
       "name": "Acqua di Sale"
     },
     {
+      "brand": "FLUY",
+      "name": "The Wave"
+    },
+    {
       "brand": "ROSENDO MATEU OLFACTİVE EXPRESSİONS",
       "name": "1988"
-    },
-    {
-      "brand": "ACQUA Dİ PORTOFİNO",
-      "name": "Sail"
-    },
-    {
-      "brand": "MEO FUSCİUNİ",
-      "name": "Varanasi"
     }
   ],
   "peopleAlsoLike": [
@@ -175,5 +199,6 @@
       "brand": "LOUİS VUİTTON",
       "name": "Ombre Nomade"
     }
-  ]
+  ],
+  "comments": []
 }

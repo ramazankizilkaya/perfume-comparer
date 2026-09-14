@@ -29,14 +29,42 @@
     {
       "name": "çiçeksi",
       "width": "45.6545%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.23",
-    "votesCount": "93",
+    "votesCount": "92",
     "breakdown": {
       "love": "45",
-      "like": "34",
+      "like": "33",
       "ok": "4",
       "dislike": "10",
       "hate": "0"
@@ -66,33 +94,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "9",
+    "moderate": "20",
+    "longLasting": "6",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "20",
+    "strong": "7",
+    "enormous": "19"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "15",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "2",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Bonbon Pastel"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Bonbon"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor Perfeito"
+    },
+    {
+      "brand": "KYLİE MİNOGUE",
+      "name": "Music Box"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -154,5 +199,6 @@
       "brand": "VİKTOR&ROLF",
       "name": "Flowerbomb Nectar"
     }
-  ]
+  ],
+  "comments": []
 }

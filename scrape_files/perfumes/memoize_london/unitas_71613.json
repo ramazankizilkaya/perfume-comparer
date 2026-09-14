@@ -23,32 +23,60 @@
       "width": "90%"
     },
     {
-      "name": "misk",
-      "width": "71.0526%"
-    },
-    {
       "name": "tütün",
       "width": "71.0526%"
     },
     {
-      "name": "pudralı",
-      "width": "66.3158%"
+      "name": "misk",
+      "width": "71.0526%"
     },
     {
       "name": "tatlı",
       "width": "66.3158%"
     },
     {
-      "name": "taze baharatlı",
-      "width": "61.5789%"
+      "name": "pudralı",
+      "width": "66.3158%"
     },
     {
-      "name": "tarçın",
+      "name": "vanilya",
       "width": "61.5789%"
     },
     {
       "name": "dumanlı",
       "width": "61.5789%"
+    },
+    {
+      "name": "taze baharatlı",
+      "width": "61.5789%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -96,33 +124,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "3",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "3",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "3",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "2",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MANCERA",
+      "name": "Red Tobacco"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Carlisle"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Le Gemme Orom"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BOUCHERON",
@@ -184,5 +225,6 @@
       "brand": "THE VAGABOND PRİNCE",
       "name": "Enchanted Forest"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "narenciye",
+      "name": "odunsu",
       "width": "65%"
     },
     {
-      "name": "odunsu",
+      "name": "narenciye",
       "width": "65%"
     },
     {
@@ -29,6 +29,10 @@
     {
       "name": "çiçeksi",
       "width": "44%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -60,45 +64,37 @@
     "base": [
       "Odunsu Notalar",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "5",
-    "moderate": "2",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "2",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "6",
-    "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "2",
-    "greatValue": "5"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "RALPH LAUREN",
-      "name": "Ralph"
-    },
-    {
-      "brand": "DİOR",
-      "name": "J'adore"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "TOMMY HİLFİGER",
@@ -125,12 +121,12 @@
       "name": "Boucheron Quatre"
     },
     {
-      "brand": "LA RİVE",
-      "name": "Donna"
-    },
-    {
       "brand": "NATURA",
       "name": "Manga Rosa e Água de Coco"
+    },
+    {
+      "brand": "LA RİVE",
+      "name": "Donna"
     },
     {
       "brand": "RABANNE",
@@ -160,5 +156,6 @@
       "brand": "PARİS HİLTON",
       "name": "Rosé Rush"
     }
-  ]
+  ],
+  "comments": []
 }

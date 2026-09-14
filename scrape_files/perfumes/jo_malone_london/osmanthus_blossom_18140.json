@@ -27,19 +27,19 @@
       "width": "59.2759%"
     },
     {
-      "name": "aromatik",
-      "width": "53.4207%"
-    },
-    {
       "name": "yeşil",
       "width": "53.4207%"
     },
     {
-      "name": "laktonik",
-      "width": "53.3333%"
+      "name": "aromatik",
+      "width": "53.4207%"
     },
     {
       "name": "yumuşak baharatlı",
+      "width": "53.3333%"
+    },
+    {
+      "name": "laktonik",
       "width": "53.3333%"
     },
     {
@@ -53,9 +53,9 @@
   ],
   "rating": {
     "score": "3.87",
-    "votesCount": "337",
+    "votesCount": "338",
     "breakdown": {
-      "love": "83",
+      "love": "84",
       "like": "177",
       "ok": "31",
       "dislike": "42",
@@ -83,82 +83,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "20",
-    "weak": "28",
-    "moderate": "50",
-    "longLasting": "5",
-    "eternal": "11"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "47",
-    "moderate": "50",
-    "strong": "19",
-    "enormous": "20"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "37",
-    "moreFemale": "14",
-    "unisex": "21",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "7",
-    "overpriced": "20",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "31",
-    "goodValue": "3",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "SOKİ LONDON",
-      "name": "Artemis"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Osmanthus Cologne"
-    },
-    {
-      "brand": "ISSEY MİYAKE",
-      "name": "L'eau d'Issey"
-    },
-    {
-      "brand": "YVES ROCHER",
-      "name": "Naturelle Osmanthus"
-    },
-    {
-      "brand": "MOSCHİNO",
-      "name": "Cheap and Chic Hippy Fizz"
-    },
-    {
-      "brand": "VİNCE CAMUTO",
-      "name": "Illuminare"
-    },
-    {
-      "brand": "AVON",
-      "name": "Incandessence Soleil"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Pera Granita"
-    },
-    {
-      "brand": "PARIS CORNER",
-      "name": "Indomitable"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Sakura"
-    },
-    {
-      "brand": "MOLİNARD",
-      "name": "Osmanthus Eau de Parfum"
-    },
-    {
-      "brand": "SOLİNOTES",
-      "name": "Osmanthus"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -189,12 +140,12 @@
       "name": "Chance Eau Fraiche"
     },
     {
-      "brand": "CHLOÉ",
-      "name": "Chloé Eau de Parfum"
-    },
-    {
       "brand": "HERMÈS",
       "name": "Un Jardin Sur Le Toit"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Chloé Eau de Parfum"
     },
     {
       "brand": "JO MALONE LONDON",
@@ -220,5 +171,6 @@
       "brand": "JO MALONE LONDON",
       "name": "Wood Sage & Sea Salt"
     }
-  ]
+  ],
+  "comments": []
 }

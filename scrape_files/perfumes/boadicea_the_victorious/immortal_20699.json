@@ -45,6 +45,10 @@
     {
       "name": "çiçeksi",
       "width": "48.2778%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -80,57 +84,37 @@
     "base": [
       "Sandal ağacı",
       "Agar ağacı (Oud)"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "0",
-    "moderate": "0",
-    "longLasting": "4",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "0",
-    "strong": "5",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "2",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "SEVEN GATES",
-      "name": "Satyr"
-    },
-    {
-      "brand": "SEVEN GATES",
-      "name": "Immortal Shade"
-    },
-    {
-      "brand": "ILLUMİNUM",
-      "name": "Taif Rose"
-    },
-    {
-      "brand": "SEVEN GATES",
-      "name": "Neon Nights"
-    },
-    {
-      "brand": "SANTA MARİA NOVELLA",
-      "name": "Russian Cologne"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BVLGARİ",
@@ -192,5 +176,6 @@
       "brand": "CHANEL",
       "name": "Les Exclusifs de Chanel Sycomore"
     }
-  ]
+  ],
+  "comments": []
 }

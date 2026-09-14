@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.7586.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bond-No-9/New-Orleans-7586.html",
   "brand": "Bond No 9 parfüm ve kolonya",
-  "description": "Bond No 9 markasının New Orleans parfümü, kadınlar ve erkekler için bir kokudur. New Orleans, 2009 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Laurice Rahmé. Üst notalar: Vanilya, Sümbülteber, Frenk üzümü yaprağı ve tomurcuğu ve Menekşe yaprağı; orta notalar: Frenk üzümü, Mandalina, Müge ve Bergamot; alt notalar Tarçın, Paçuli, Amber ve Sandal ağacı.",
-  "description_original": "Bond No 9 markasının New Orleans parfümü, kadınlar ve erkekler için bir kokudur. New Orleans, 2009 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Laurice Rahmé. Üst notalar: Vanilya, Sümbülteber, Frenk üzümü yaprağı ve tomurcuğu ve Menekşe yaprağı; orta notalar: Frenk üzümü, Mandalina, Müge ve Bergamot; alt notalar Tarçın, Paçuli, Amber ve Sandal ağacı.",
-  "description_enhanced": "Bond No 9 markasının New Orleans parfümü, kadınlar ve erkekler için bir kokudur. New Orleans, 2009 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Laurice Rahmé. Üst notalar: Vanilya, Sümbülteber, Frenk üzümü yaprağı ve tomurcuğu ve Menekşe yaprağı; orta notalar: Frenk üzümü, Mandalina, Müge ve Bergamot; alt notalar Tarçın, Paçuli, Amber ve Sandal ağacı.",
+  "description": "Bond No 9 markasının New Orleans parfümü, kadınlar ve erkekler için bir kokudur. New Orleans, 2009 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Laurice Rahmé. Üst notalar: Vanilya, Sümbülteber, Siyah Frenk Üzümü ve Menekşe yaprağı; orta notalar: Siyah Frenk Üzümü, Mandalina, Müge ve Bergamot; alt notalar Tarçın, Paçuli, Amber ve Sandal ağacı.",
+  "description_original": "Bond No 9 markasının New Orleans parfümü, kadınlar ve erkekler için bir kokudur. New Orleans, 2009 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Laurice Rahmé. Üst notalar: Vanilya, Sümbülteber, Siyah Frenk Üzümü ve Menekşe yaprağı; orta notalar: Siyah Frenk Üzümü, Mandalina, Müge ve Bergamot; alt notalar Tarçın, Paçuli, Amber ve Sandal ağacı.",
+  "description_enhanced": "Bond No 9 markasının New Orleans parfümü, kadınlar ve erkekler için bir kokudur. New Orleans, 2009 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Laurice Rahmé. Üst notalar: Vanilya, Sümbülteber, Siyah Frenk Üzümü ve Menekşe yaprağı; orta notalar: Siyah Frenk Üzümü, Mandalina, Müge ve Bergamot; alt notalar Tarçın, Paçuli, Amber ve Sandal ağacı.",
   "mainAccords": [
     {
       "name": "odunsu",
@@ -49,6 +49,10 @@
     {
       "name": "aromatik",
       "width": "70.3921%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -74,11 +78,11 @@
     "top": [
       "Vanilya",
       "Sümbülteber",
-      "Frenk üzümü yaprağı ve tomurcuğu",
+      "Siyah Frenk Üzümü",
       "Menekşe yaprağı"
     ],
     "middle": [
-      "Frenk üzümü",
+      "Siyah Frenk Üzümü",
       "Mandalina",
       "Müge",
       "Bergamot"
@@ -92,31 +96,31 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "3",
-    "longLasting": "4",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "3",
-    "strong": "8",
-    "enormous": "9"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "2",
-    "unisex": "0",
-    "moreMale": "2",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -141,12 +145,12 @@
       "name": "Herod"
     },
     {
-      "brand": "SERGE LUTENS",
-      "name": "Tubereuse Criminelle"
-    },
-    {
       "brand": "MUGLER",
       "name": "A*Men"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Tubereuse Criminelle"
     },
     {
       "brand": "BOND NO 9",
@@ -180,5 +184,6 @@
       "brand": "BOND NO 9",
       "name": "Wall Street"
     }
-  ]
+  ],
+  "comments": []
 }

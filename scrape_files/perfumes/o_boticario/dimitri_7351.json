@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/Dimitri-7351.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının Dimitri parfümü, erkekler için Odunsu Aromatik bir kokudur. Bu kokunun arkasındaki burun Maria Tereza Belotti. Üst notalar: Mandalina, Frenk üzümü yaprağı ve tomurcuğu ve Gül tentürü; orta notalar: Nane, Lavanta, Biberiye, Sardunya ve Adaçayı; alt notalar Meşe yosunu, Sedir ve Sandal ağacı.",
-  "description_original": "O Boticário markasının Dimitri parfümü, erkekler için Odunsu Aromatik bir kokudur. Bu kokunun arkasındaki burun Maria Tereza Belotti. Üst notalar: Mandalina, Frenk üzümü yaprağı ve tomurcuğu ve Gül tentürü; orta notalar: Nane, Lavanta, Biberiye, Sardunya ve Adaçayı; alt notalar Meşe yosunu, Sedir ve Sandal ağacı.",
+  "description_original": "O Boticário markasının Dimitri parfümü, erkekler için Odunsu Aromatik bir kokudur. Bu kokunun arkasındaki burun Maria Tereza Belotti. Üst notalar: Mandalina, Siyah Frenk Üzümü ve Gül tentürü; orta notalar: Nane, Lavanta, Biberiye, Sardunya ve Adaçayı; alt notalar Meşe yosunu, Sedir ve Sandal ağacı.",
   "description_enhanced": "O Boticário markasının Dimitri parfümü, erkekler için Odunsu Aromatik bir kokudur. Bu kokunun arkasındaki burun Maria Tereza Belotti. Üst notalar: Mandalina, Frenk üzümü yaprağı ve tomurcuğu ve Gül tentürü; orta notalar: Nane, Lavanta, Biberiye, Sardunya ve Adaçayı; alt notalar Meşe yosunu, Sedir ve Sandal ağacı.",
   "mainAccords": [
     {
@@ -45,31 +45,59 @@
     {
       "name": "yumuşak baharatlı",
       "width": "44.3168%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.91",
-    "votesCount": "467",
+    "votesCount": "475",
     "breakdown": {
-      "love": "138",
-      "like": "226",
-      "ok": "31",
+      "love": "139",
+      "like": "231",
+      "ok": "33",
       "dislike": "68",
       "hate": "4"
     }
   },
   "seasons": {
     "winter": "44",
-    "spring": "161",
-    "summer": "196",
-    "autumn": "87",
-    "day": "235",
+    "spring": "163",
+    "summer": "199",
+    "autumn": "88",
+    "day": "237",
     "night": "72"
   },
   "notes": {
     "top": [
       "Mandalina",
-      "Frenk üzümü yaprağı ve tomurcuğu",
+      "Siyah Frenk Üzümü",
       "Gül tentürü"
     ],
     "middle": [
@@ -88,29 +116,29 @@
   },
   "longevity": {
     "veryWeak": "40",
-    "weak": "80",
-    "moderate": "91",
+    "weak": "82",
+    "moderate": "92",
     "longLasting": "11",
     "eternal": "3"
   },
   "sillage": {
-    "intimate": "126",
-    "moderate": "91",
+    "intimate": "128",
+    "moderate": "92",
     "strong": "17",
     "enormous": "8"
   },
   "genderVoting": {
     "female": "2",
     "moreFemale": "0",
-    "unisex": "18",
-    "moreMale": "41",
+    "unisex": "19",
+    "moreMale": "42",
     "male": "76"
   },
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "5",
-    "fair": "31",
-    "goodValue": "67",
+    "fair": "33",
+    "goodValue": "69",
     "greatValue": "14"
   },
   "remindsMeOf": [
@@ -133,6 +161,10 @@
     {
       "brand": "BURBERRY",
       "name": "Burberry Men"
+    },
+    {
+      "brand": "WE PİNK",
+      "name": "Authentic Azure"
     },
     {
       "brand": "CAFE PARFUMS",
@@ -216,5 +248,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Malbec"
     }
-  ]
+  ],
+  "comments": []
 }

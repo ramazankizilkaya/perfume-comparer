@@ -49,6 +49,10 @@
     {
       "name": "ozonik",
       "width": "47.1258%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -90,94 +94,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "7",
-    "moderate": "24",
-    "longLasting": "47",
-    "eternal": "8"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "12",
-    "moderate": "24",
-    "strong": "38",
-    "enormous": "22"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "10",
-    "moreFemale": "13",
-    "unisex": "26",
-    "moreMale": "2",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "12",
-    "overpriced": "18",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "15",
-    "goodValue": "4",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOND NO 9",
-      "name": "High Line"
-    },
-    {
-      "brand": "BOND NO 9",
-      "name": "I Love New York for Fathers"
-    },
-    {
-      "brand": "TOMMY HİLFİGER",
-      "name": "The Girl"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Hermessence Muguet Porcelaine"
-    },
-    {
-      "brand": "ABDUL SAMAD AL QURASHİ",
-      "name": "Al Hajjar Al Aswad"
-    },
-    {
-      "brand": "CLİNİQUE",
-      "name": "Clinique Happy"
-    },
-    {
-      "brand": "BOND NO 9",
-      "name": "Astor Place"
-    },
-    {
-      "brand": "CLİNİQUE",
-      "name": "Clinique Happy"
-    },
-    {
-      "brand": "BOND NO 9",
-      "name": "Shelter Island"
-    },
-    {
-      "brand": "TORY BURCH",
-      "name": "Tory Burch"
-    },
-    {
-      "brand": "BOND NO 9",
-      "name": "Lexington Avenue"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Wood Sage & Sea Salt"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Versace Pour Femme Dylan Blue"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "L'Imperatrice Limited Edition"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Un Jardin Sur Le Toit"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BOND NO 9",
@@ -239,5 +182,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

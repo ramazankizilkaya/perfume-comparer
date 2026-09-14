@@ -49,13 +49,41 @@
     {
       "name": "odunsu",
       "width": "50.6266%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.53",
-    "votesCount": "83",
+    "score": "4.54",
+    "votesCount": "84",
     "breakdown": {
-      "love": "46",
+      "love": "47",
       "like": "35",
       "ok": "2",
       "dislike": "0",
@@ -97,33 +125,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "8",
+    "moderate": "16",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "18",
+    "moderate": "16",
+    "strong": "3",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "4",
+    "unisex": "23",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "10",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "Green Tea"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Matcha"
+    },
+    {
+      "brand": "CHLOROPHYLLA",
+      "name": "Acaso"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "Green Tea Lavender"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Moschino Funny!"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CALVİN KLEİN",
@@ -139,11 +188,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Kaiak"
+      "name": "Frescor de Pitanga"
     },
     {
       "brand": "NATURA",
-      "name": "Frescor de Pitanga"
+      "name": "Kaiak"
     },
     {
       "brand": "NATURA",
@@ -185,5 +234,6 @@
       "brand": "JEAN PAUL GAULTİER",
       "name": "Classique"
     }
-  ]
+  ],
+  "comments": []
 }

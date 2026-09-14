@@ -3,17 +3,13 @@
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Woody",
   "concentration": "Edp",
-  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137448.jpg?t=1783944852",
+  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137448.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Jasey-137448.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Jasey parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu yeni bir parfüm. Jasey, 2026 yılında piyasaya sürüldü. Üst notalar: Safran ve Gül; orta notalar: Odunsu Notlar ve Amber; alt notalar Vanilya ve Oud.",
-  "description_original": "Rasasi markasının Jasey parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu yeni bir parfüm. Jasey, 2026 yılında piyasaya sürüldü. Üst notalar: Safran ve Gül; orta notalar: Odunsu Notlar ve Amber; alt notalar Vanilya ve Oud.",
+  "description_original": "Rasasi markasının Jasey parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu yeni bir parfüm. Jasey, 2026 yılında piyasaya sürüldü. Üst notalar: Safran ve Gül; orta notalar: Odunsu Notalar ve Amber; alt notalar Vanilya ve Oud.",
   "description_enhanced": "Rasasi markasının Jasey parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu yeni bir parfüm. Jasey, 2026 yılında piyasaya sürüldü. Üst notalar: Safran ve Gül; orta notalar: Odunsu Notlar ve Amber; alt notalar Vanilya ve Oud.",
   "mainAccords": [
-    {
-      "name": "ud",
-      "width": "100%"
-    },
     {
       "name": "odunsu",
       "width": "100%"
@@ -24,6 +20,10 @@
     },
     {
       "name": "gül",
+      "width": "100%"
+    },
+    {
+      "name": "ud",
       "width": "100%"
     },
     {
@@ -47,15 +47,47 @@
       "width": "58%"
     },
     {
-      "name": "çiçeksi",
+      "name": "tütün",
       "width": "51%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
     "score": "5.00",
-    "votesCount": "2",
+    "votesCount": "3",
     "breakdown": {
-      "love": "2",
+      "love": "3",
       "like": "0",
       "ok": "0",
       "dislike": "0",
@@ -63,7 +95,7 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "1",
     "summer": "1",
     "autumn": "0",
@@ -76,7 +108,7 @@
       "Gül"
     ],
     "middle": [
-      "Odunsu Notlar",
+      "Odunsu Notalar",
       "Amber"
     ],
     "base": [
@@ -86,32 +118,38 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Valaya Exclusif"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

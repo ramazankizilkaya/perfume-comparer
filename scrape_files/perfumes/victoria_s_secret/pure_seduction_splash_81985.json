@@ -33,24 +33,52 @@
     {
       "name": "meyvemsi",
       "width": "45.4%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.89",
     "votesCount": "61",
     "breakdown": {
-      "love": "19",
-      "like": "25",
-      "ok": "9",
+      "love": "20",
+      "like": "23",
+      "ok": "10",
       "dislike": "7",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "27",
     "summer": "43",
-    "autumn": "3",
+    "autumn": "2",
     "day": "36",
     "night": "5"
   },
@@ -87,7 +115,7 @@
   "priceVoting": {
     "wayOverpriced": "2",
     "overpriced": "3",
-    "fair": "9",
+    "fair": "10",
     "goodValue": "11",
     "greatValue": "10"
   },
@@ -194,5 +222,6 @@
       "brand": "ARİANA GRANDE",
       "name": "Cloud"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,51 +16,79 @@
     },
     {
       "name": "sulu",
-      "width": "64.5257%"
+      "width": "63.8886%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "62.6288%"
+      "width": "62.7953%"
     },
     {
       "name": "tatlı",
-      "width": "51.2846%"
+      "width": "51.3171%"
     },
     {
       "name": "aromatik",
-      "width": "49.1408%"
+      "width": "49.6773%"
     },
     {
       "name": "gül",
-      "width": "45.1761%"
+      "width": "45.3045%"
     },
     {
       "name": "taze baharatlı",
-      "width": "44.3794%"
+      "width": "44.357%"
     },
     {
       "name": "amber",
-      "width": "44.0378%"
+      "width": "44.2113%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.80",
-    "votesCount": "377",
+    "votesCount": "392",
     "breakdown": {
-      "love": "116",
-      "like": "131",
-      "ok": "79",
-      "dislike": "41",
+      "love": "120",
+      "like": "137",
+      "ok": "82",
+      "dislike": "43",
       "hate": "10"
     }
   },
   "seasons": {
     "winter": "35",
-    "spring": "220",
-    "summer": "226",
-    "autumn": "105",
-    "day": "225",
-    "night": "59"
+    "spring": "228",
+    "summer": "236",
+    "autumn": "106",
+    "day": "235",
+    "night": "60"
   },
   "notes": {
     "top": [
@@ -84,34 +112,99 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "8",
+    "weak": "47",
+    "moderate": "140",
+    "longLasting": "24",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "65",
+    "moderate": "140",
+    "strong": "6",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "23",
+    "moreFemale": "79",
+    "unisex": "144",
+    "moreMale": "10",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "79",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "4",
+    "overpriced": "20",
+    "fair": "82",
+    "goodValue": "109",
+    "greatValue": "37"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LOEWE",
+      "name": "A Mi Aire"
+    },
+    {
+      "brand": "L’ENVİE PARFUMS",
+      "name": "#004 Falling Water"
+    },
+    {
+      "brand": "ATELİER DES ORS",
+      "name": "Pomelo Riviera"
+    },
+    {
+      "brand": "RAYHAAN",
+      "name": "Jungle Vibe"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Un Jardin Sur Le Nil"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Toy 2 Pearl"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau d'Issey Eau de Parfum Intense"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kaiak 21K"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Un Jardin Apres la Mousson"
+    },
+    {
+      "brand": "BALENCİAGA",
+      "name": "Florabotanica"
+    },
+    {
+      "brand": "MAİSON VİEGAS",
+      "name": "Un Jardin"
+    },
+    {
+      "brand": "CİCLO COSMÉTİCOS",
+      "name": "Jardin Rosa Damascena"
+    },
+    {
+      "brand": "CİCLO COSMÉTİCOS",
+      "name": "Jardin Bergamota Calábria"
+    },
+    {
+      "brand": "PHEBO",
+      "name": "Isolda Flor de Cajueiro"
+    },
+    {
+      "brand": "CİCLO COSMÉTİCOS",
+      "name": "Jardin Nectarina"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "GRANADO",
+      "name": "Citrus Brasilis"
+    },
     {
       "brand": "PHEBO",
       "name": "Limão Siciliano"
@@ -149,6 +242,10 @@
       "name": "Ilía Flor de Laranjeira"
     },
     {
+      "brand": "PHEBO",
+      "name": "Isolda Cajueiro"
+    },
+    {
       "brand": "NATURA",
       "name": "Ryo Chuva"
     },
@@ -162,15 +259,89 @@
     },
     {
       "brand": "NATURA",
-      "name": "Ilía Laços"
-    },
-    {
-      "brand": "NATURA",
       "name": "Una Artisan"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent1022406",
+      "author": "Cecitá",
+      "date": "2024-10-25",
+      "text": "Bu parfümden çok etkilendim!\nNatura'nın parfümlerinden çok azı hoşuma gidiyor, çünkü her markanın sahip olduğu kendine özgü bir DNA'sı var. Ancak diğer notalar öne çıktığında, alkışlar!\nParfümden bahsetmeden önce, Fragrantica'yı ne kadar özlediğimi söylemek istiyorum!\nBuraya geldiğimde, her şey \"yabani otlarla kaplı\" değildi, her şey düzenlenmişti, harika yorumlar vardı, insanlar parfüm şişelerini takas ediyordu, neredeyse kimse kendi fotoğrafını koymuyordu, fikir alışverişi karşılığında balonlar dağıtılıyordu.\nBuraya gerçekten stres atmak için gelirdim, parfümü seviyorum! Ama bir süredir...\nBurası bir korku şovu, yaş ayrımcılığı, kadın düşmanlığı, elitizm, sebepsiz kabalık ve incelemelerde parfümeriye olan sevgiyi göremiyorum.\nİki tür yorum var:\nBirincisi: Kim en büyük uzman olacak diye bir çekişme, bana daha çok kimin lider, kimin alfa erkek olacağını belirlemek için gorillerin kavgası gibi geliyor.\nİkincisi: Sebepsiz hakaretler, önyargıların pekiştirilmesi ya da basitçe \"Boktan parfüm\" ya da \"Zengin parfümü\" gibi bir cümle ve işte başlıyor...\nBu durum, YouTube'daki yorumcuların ortaya çıkmasından beri var ve TikTok'un girişiyle daha da kötüleşti.\nEn sevdiğin yerin çöküşünü görmek üzücü!\nBu içimi dökmem için özür dilerim ve lütfen, eski üyeler kalın 🙏!\nYeni gelenler, yazmadan önce okuyun, tıpkı bir zamanlar benim yaptığım gibi, çok şey öğreniriz ve o kadar utanç yaşamayız 😉!\nŞimdi asıl konuya dönelim!\nPatchouli'yi referans alan, şehir merkezlerinde hayal edilenden farklı, kokulu ıslak odun kokusu. Evet, bunun bir bitki olduğunu biliyorum.\nBu, güneşin ısıttığı bir derede elinizi ıslatma hissi gibidir, ferahlatır ve sarar. Çiçekten değil, mobilyaları çağrıştırmayan \"kokulu bir odun\"dan gelen bir tatlılığı var.\nBaşlangıcı burun yakıcı bir narenciye kokusu ama bergamot/mandalina/klementin/mimoza kabuğunu soymaya başlamak gibi, çabuk geçiyor ve tatlılığı hissediyoruz.\nBende, ciltle birleşen, sarıp sarmalayan, sanki belirli bir nota değil de kendi cildi tarafından miskli hale getirilmiş gibi davranan bir parfüm gibi davrandı.\nBuraya kadar okuyanlara yazdığım bu \"kitap\" için tekrar özür dilerim\nburaya kadar okuyanlara özür dilerim! 🥴",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.13805.jpg"
     },
     {
-      "brand": "NATURA",
-      "name": "Humor Envolve"
+      "id": "parent772600",
+      "author": "Dante.zero",
+      "date": "2024-10-18",
+      "text": "Bu koleksiyondaki favorim bu. Bence çiçeksi ve sucul; katmanlı değil, daha çok doğrusal bir koku. Taze sucul çiçeklerle açılıyor ve sedir ağacına yerleşiyor. Benim için, hafif tatlılaşan çiçeksi bir tona sahip, sade ve temiz bir koku. Ambalajı güzel, organik ve sade. Karmaşık ve güçlü kokuları sevenlere tavsiye etmem; çok taze ve narin bir EDT. Ancak pahalı buluyorum; diğer Natura serilerini tercih ederim.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent772598",
+      "author": "pollo64",
+      "date": "2024-08-28",
+      "text": "Üçünü de aldım. Ryo Festa'nın yorumunu buraya yazıyorum çünkü bu sitede yok. Bitkisel bir parfüm, önce çimen, sonra toprak kokuyor. Kötü değil, ama Humor à Dois ve Sr. N'ye çok benziyor, yani yeni bir şey sunmuyor. Kalıcılığı iyi değil, ama daha sıcak havalarda test edilmesi gerekiyor çünkü şu anda Arjantin'de hava serin. Ekos Alma gibi bir şey beklemeyin; yayılımı yok. Benim ve eşimin cildinde yaklaşık iki saat, gerçekten ararsanız dört saat sürdü. Parfümden çok Ekos vücut spreyine benziyor, ama liste fiyatı neredeyse 59.000 peso. Erkek parfümü olduğu görüşüne katılmıyorum; bir kadının beğendiği takdirde kullanamayacağı hiçbir nota veya koku yok.\n\nRyo VIVO: Çok yumuşak, az yayılımlı ve kalıcı. Hoş ve ferah bir parfüm, ancak benim durumumda tahammül edemediğim bir notayı algılıyorum; bana büyükannemin çekmecesi veya dolabı gibi naftalin kokusunu hatırlatıyor. Neyse ki, parfümle birlikte kayboluyor. Ancak eşim beğendi, bu yüzden kişisel bir tercih meselesi, ancak önce denemeden satın almayın. Bana göre, kadın parfümü veya en fazla kadınlar için unisex bir parfüm.\n\nBu parfümlerin satış fiyatı (59 bin peso) göz önüne alındığında, satıcıların fiyatı ne kadar şişirip abartırsa abartsın, kesinlikle tavsiye etmiyorum.\n\nYıllardır Natura'nın hayranıydım, ancak son çıkan ürünler beni hayal kırıklığına uğrattı ve Arjantin'deki fiyatlar Arap ülkelerindekilerle eşleşecek şekilde çok arttı; hatta Homem ve Essencial gibi iyi serilerdeki indirimleri bile kaldırdılar ki bu ciddi bir hata.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.82869.jpg"
+    },
+    {
+      "id": "parent1022405",
+      "author": "muskboy24",
+      "date": "2024-07-26",
+      "text": "İki soru: Sizler de parfümlerinde her zaman aynı notaları (bu markaların kimliğini oluşturan) tekrarlayan diğer ithal markalardan şikayetçi misiniz? Yoksa sadece Natura’ya takılıyorsunuz? Ben Brezilyalıyım, Brezilya’nın kokularını hissetmeyi seviyorum. Bahia'nın iç kesimlerinde, Chapada Diamantina bölgesinde yaşıyorum. Buradaki ormanlarda Amescla (Breu Preto) reçinesi, Jatobá reçinesi, Alecrim do Mato, Umburana ve sayısız çiçek ve aromatik bitkinin kokusu hakim. Sadece bize ait olan bu kokuları nasıl sevmemek mümkün olabilir ki?",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent772610",
+      "author": "Jooktan",
+      "date": "2024-07-22",
+      "text": "Arkadaşlar, özür dilerim!\n\nAma buraya bu parfümle ilgili koku deneyimimi paylaşmak için gelmedim; henüz denemedim. Sadece bazılarınızın zaten fark etmiş olduğu bir gözlemi yapmak için geldim. Birçok kişi Natura'nın piyasaya sürdüğü parfümlerde çok fazla priprioca, copaiba, breu branco, pataqueira vb. kullandığından şikayet ediyor; bu da onlara göre tekrarlayıcı ve sıkıcı hale geliyor. Peki neden Jean Paul Gaultier'nin parfümlerinde sıkça kullandığı vanilya veya amberden de şikayet etmiyorlar? Ya da Dior'un erkek parfümlerinin çoğundaki lavanta ve meyan kökünden?\n\nÇünkü bu, Brezilyalıların büyük bir bölümünün sergilediği saf bir bayağılık ve aşağılık kompleksidir. Bu ham maddeler, Natura'yı Natura yapan, Brezilyalılığımızı, koku kimliğimizi, botanik zenginliğimizi oluşturan unsurlardır. Umarım Natura bu notalara her zaman değer vermeye devam eder ve inanılmaz derecede zengin ve eşsiz biyomumuzdan bize daha birçok nota armağan eder!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent1022404",
+      "author": "Dudinha",
+      "date": "2024-07-15",
+      "text": "Çocukken parfümeri dünyasıyla ilk tanışmam Boticário ve Avon ile oldu! Hemen ardından, henüz ergenlik çağındayken, ithal ürünler ve Brezilya'da satılan benzerleri geldi! Natura'ya pek ilgi duymamıştım, ta ki kısa bir süre önce (yaklaşık iki yıl önce!) ürünlerini tanıyana kadar. Bu arada, tanıdığım tüm seriler çok kaliteli: Ekos, Tododia, Luna, Ilia, Una, Essencial... Bazı insanların bu kadar eleştirmelerinin nedenini anlamıyorum!\nParfümeri sektöründe birçok markayı tanıyorum ve burada size küçük bir sır vereceğim: Dolce & Gabbana'nın parfümlerinde misk kullanma şeklinden nefret ediyorum, çünkü en iyi parfümleri bile olsa, cildimde buharlaşıp geriye yoğun, keskin kokulu bir misk kalıyor, bu da bayat ter kokusunu andırıyor! Ne yapıyorum peki?! Yıllar boyunca markanın çeşitli parfümlerini denedikten sonra, beni rahatsız eden şeyi keşfettim ve artık satın almıyorum! Gidip onların sayfasına kötü yorum mu yazayım?! Hayır! Zaten birçok kişinin sevdiğini biliyorum!\nNatura'yı sevmiyor musun?! Natura kullanma! Sevenler için ürün kalması iyi, çünkü birçok kişi seviyor! Ve sen paranı sevdiğin şeye yatır! Bu kadar basit!\nÜrünü bile kullanmadan sırf dikkat çekmek için kötülemek çok çirkin bir davranış! Zamanını güzel şeylerle geçir! Bu daha hoş ve iyi bir terbiyeye sahip olduğunu gösterir!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.67118.jpg"
+    },
+    {
+      "id": "parent772609",
+      "author": "Victorsann",
+      "date": "2024-07-15",
+      "text": "Diğer incelemelerde zaten söylediğim şeyi (ve aşağıda zaten söylenenlere ek olarak) tekrar edeceğim, ancak bence tekrar etmekten asla zarar gelmez:\n\nPriprioca, yalnızca Natura tarafından kullanılan tescilli bir içeriktir. Son derece nadirdir, üretimi zordur ve çıkarılması ve işlenmesi yoluyla ülkenin kuzeyindeki düzinelerce (hatta yüzlerce) aileye gelir sağlar. EVET, bu evin DNA'sının ta kendisidir. Hemen hemen tüm parfümler, koku piramidinde listelenmese bile, bir dereceye kadar priprioca içerir. Bazılarında ise neredeyse algılanamaz düzeydedir.\n\nDedikleri gibi, her markanın parfümlerinin yapımında bir temeli vardır. Ve ne tesadüf... işte Natura'nın temeli de burada. Birçoğunun nefret ettiği, ancak (şükürler olsun ki) çoğunun umursamadığı ve hatta Natura'ya karakterini veren şeyin bu olduğunu anladığı şey de bu temeldir. Markayı, milyonlarca hiçliği bir sürü hiçlikle karıştıran diğerlerinden ayıran şey de budur.\n\nParfüme gelince, Mart ayındaki bir etkinlikten beri kullanıyorum ve şişe neredeyse bitti. Her gün kullanıyorum. Daha az resmi ortamlarda kullanmak çok keyifli. Amacına uygun olarak iyi bir kalıcılığa sahip; bende kısa ama kalıcı bir koku yayılımı bırakıyor. İkinci bir şişeye kesinlikle ihtiyacım olacağından eminim.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.7986.jpg"
+    },
+    {
+      "id": "parent772608",
+      "author": "Gas369",
+      "date": "2024-07-14",
+      "text": "Arkadaşlar, kusura bakmayın, bu parfümü henüz denemedim bile, ama çeşitli parfümlerle ilgili çeşitli yorumlarda insanların Natura'nın kompozisyonlarında aynı notaları tekrarladığından şikayet ettiğini sık sık görüyorum. Kesinlikle her marka bunu yapıyor! Hangi Le Male vanilyasız? Hangi Angel paçulisiz? Bu eleştiriden çok gereksiz bir nefret gibi görünüyor. Şirket, ülkedeki aynı büyüklükteki diğer şirketlerin neredeyse hiçbirinin yapmadığı bir şeyi yapıyor: topraklarımızdan, biyoçeşitliliğimizden gelen malzemeleri kullanıyor. Bunun için takdir edilmeli ve işte tam da bu yüzden Ekos serisini özellikle beğeniyorum.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     }
   ]
 }

@@ -41,14 +41,42 @@
     {
       "name": "sıcak baharatlı",
       "width": "46.7391%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.20",
-    "votesCount": "65",
+    "votesCount": "66",
     "breakdown": {
       "love": "34",
-      "like": "19",
+      "like": "20",
       "ok": "7",
       "dislike": "1",
       "hate": "4"
@@ -75,33 +103,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "3",
+    "moderate": "19",
+    "longLasting": "2",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "19",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "1",
+    "unisex": "20",
+    "moreMale": "4",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "L'orpheline"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Bel Ami Vetiver"
+    },
+    {
+      "brand": "DİOR",
+      "name": "New Look 2024"
+    },
+    {
+      "brand": "CHRİSTİAN LOUBOUTİN",
+      "name": "Fétiche L’Encens"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Hot Couture Collection No.1"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "La Religieuse"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -124,6 +177,10 @@
       "name": "Fahrenheit"
     },
     {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "By the Fireplace"
+    },
+    {
       "brand": "SERGE LUTENS",
       "name": "Chergui"
     },
@@ -136,20 +193,16 @@
       "name": "Ambre Sultan"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Black Orchid"
-    },
-    {
       "brand": "SERGE LUTENS",
       "name": "Écrin de Fumée"
     },
     {
-      "brand": "LES LİQUİDES IMAGİNAİRES",
-      "name": "Blanche Bête"
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     },
     {
-      "brand": "MOSCHİNO",
-      "name": "Toy Boy"
+      "brand": "TOM FORD",
+      "name": "Noir Extreme"
     },
     {
       "brand": "SERGE LUTENS",
@@ -163,5 +216,6 @@
       "brand": "SERGE LUTENS",
       "name": "Santal Majuscule"
     }
-  ]
+  ],
+  "comments": []
 }

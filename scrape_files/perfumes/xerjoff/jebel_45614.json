@@ -49,6 +49,34 @@
     {
       "name": "aromatik",
       "width": "72.4286%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,33 +117,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "3",
+    "moderate": "12",
+    "longLasting": "18",
+    "eternal": "17"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "12",
+    "strong": "33",
+    "enormous": "18"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "11",
+    "unisex": "8",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "8",
+    "overpriced": "7",
     "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "XERJOFF",
+      "name": "Al-Khat"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Alien"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Elle"
+    },
+    {
+      "brand": "ROYAL CROWN",
+      "name": "Celebration"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Orange Flowers"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK All"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -126,12 +179,12 @@
       "name": "Richwood"
     },
     {
-      "brand": "XERJOFF",
-      "name": "Alexandria II"
-    },
-    {
       "brand": "CREED",
       "name": "Aventus"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Alexandria II"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -174,8 +227,9 @@
       "name": "Ivory Route"
     },
     {
-      "brand": "NASOMATTO",
-      "name": "Baraonda"
+      "brand": "XERJOFF",
+      "name": "Cruz del Sur II"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -65,7 +65,7 @@
   "seasons": {
     "winter": "23",
     "spring": "68",
-    "summer": "38",
+    "summer": "39",
     "autumn": "37",
     "day": "58",
     "night": "42"
@@ -85,74 +85,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "17",
-    "weak": "26",
-    "moderate": "37",
-    "longLasting": "12",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "44",
-    "moderate": "37",
-    "strong": "26",
-    "enormous": "18"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "23",
-    "moreFemale": "5",
-    "unisex": "9",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "13",
-    "overpriced": "8",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "27",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "DON ALGODON",
-      "name": "Flor de Algodon"
-    },
-    {
-      "brand": "GRAHAM & POTT",
-      "name": "Aurore Céleste"
-    },
-    {
-      "brand": "HOUBİGANT",
-      "name": "Quelques Fleurs Royale"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "Trésor"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "L'Heure de Nuit"
-    },
-    {
-      "brand": "PARFUMS DU CHÂTEAU DE VERSAİLLES",
-      "name": "Les Ors Des Versailles Pour Elle"
-    },
-    {
-      "brand": "BOUCHERON",
-      "name": "Miss Boucheron"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Misia Eau de Parfum"
-    },
-    {
-      "brand": "CARVEN",
-      "name": "Dans Ma Bulle Eau de Toilette"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "La Fille Tour De Fer"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -214,5 +173,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

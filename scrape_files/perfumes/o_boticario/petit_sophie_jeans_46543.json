@@ -33,26 +33,54 @@
     {
       "name": "taze baharatlı",
       "width": "51%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "36",
+    "score": "3.97",
+    "votesCount": "37",
     "breakdown": {
       "love": "8",
       "like": "22",
-      "ok": "4",
+      "ok": "5",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "7",
-    "spring": "11",
-    "summer": "11",
+    "spring": "12",
+    "summer": "12",
     "autumn": "12",
     "day": "13",
-    "night": "4"
+    "night": "5"
   },
   "notes": {
     "top": [],
@@ -65,33 +93,42 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "6",
+    "moderate": "3",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "3",
+    "strong": "2",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "0",
+    "fair": "5",
+    "goodValue": "5",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Ma Chérie Jeans"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kriska Jeans"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -153,5 +190,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Cuide-se Bem Deleite Delight"
     }
-  ]
+  ],
+  "comments": []
 }

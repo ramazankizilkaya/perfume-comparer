@@ -29,6 +29,10 @@
     {
       "name": "yeşil",
       "width": "42.1639%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -68,57 +72,37 @@
       "Misk",
       "Vetiver",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "0",
-    "moderate": "3",
-    "longLasting": "4",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "3",
-    "strong": "5",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "4",
-    "moreMale": "2",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Grace"
-    },
-    {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Acqua Nobile Gelsomino"
-    },
-    {
-      "brand": "JOHN VARVATOS",
-      "name": "Artisan Pure"
-    },
-    {
-      "brand": "LE LABO",
-      "name": "Bergamote 22"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Mugler Cologne"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CREED",
@@ -180,5 +164,6 @@
       "brand": "TOM FORD",
       "name": "Tuscan Leather"
     }
-  ]
+  ],
+  "comments": []
 }

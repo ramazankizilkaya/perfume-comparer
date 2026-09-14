@@ -83,66 +83,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "7",
-    "moderate": "9",
-    "longLasting": "34",
-    "eternal": "6"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "7",
-    "moderate": "9",
-    "strong": "34",
-    "enormous": "14"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "5",
-    "male": "7"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "6",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Guerlain Homme Intense"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Guerlain Homme"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Guerlain Homme Eau de Parfum (2016)"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Guerlain Homme L'Eau"
-    },
-    {
-      "brand": "CREED",
-      "name": "Aventus for Her"
-    },
-    {
-      "brand": "MEMO PARİS",
-      "name": "Russian Leather"
-    },
-    {
-      "brand": "VAN CLEEF & ARPELS",
-      "name": "Midnight in Paris Eau de Parfum"
-    },
-    {
-      "brand": "ROJA DOVE",
-      "name": "Apex"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -197,12 +164,13 @@
       "name": "The One for Men"
     },
     {
-      "brand": "CHANEL",
-      "name": "Allure Homme Sport"
-    },
-    {
       "brand": "GUERLAİN",
       "name": "L'Instant de Guerlain pour Homme Eau Extreme"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Allure Homme Sport"
     }
-  ]
+  ],
+  "comments": []
 }

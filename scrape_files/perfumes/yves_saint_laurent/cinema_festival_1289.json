@@ -31,11 +31,11 @@
       "width": "57.6744%"
     },
     {
-      "name": "amber",
+      "name": "misk",
       "width": "55.2326%"
     },
     {
-      "name": "misk",
+      "name": "amber",
       "width": "55.2326%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "animalik",
       "width": "44.0814%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,33 +117,82 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "6",
+    "moderate": "9",
+    "longLasting": "7",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "9",
+    "strong": "16",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Cinéma"
+    },
+    {
+      "brand": "CHOPARD",
+      "name": "Brilliant Wish"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Cinéma Festival d'Ete"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Baiser de Cinéma"
+    },
+    {
+      "brand": "AVON",
+      "name": "Far Away Bella"
+    },
+    {
+      "brand": "BOUCHERON",
+      "name": "Trouble Eau Légère"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Opera"
+    },
+    {
+      "brand": "FENDİ",
+      "name": "Fan di Fendi Extreme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Libre"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Cinéma 2024"
+    },
+    {
+      "brand": "EMPER",
+      "name": "After 9 Gold"
+    },
+    {
+      "brand": "KATE MOSS",
+      "name": "Vintage"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GİORGİO ARMANİ",
@@ -177,5 +254,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

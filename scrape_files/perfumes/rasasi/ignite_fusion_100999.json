@@ -23,11 +23,11 @@
       "width": "80.3268%"
     },
     {
-      "name": "amber",
+      "name": "beyaz çiçeksi",
       "width": "75.7516%"
     },
     {
-      "name": "beyaz çiçeksi",
+      "name": "amber",
       "width": "75.7516%"
     },
     {
@@ -35,11 +35,11 @@
       "width": "71.1765%"
     },
     {
-      "name": "misk",
+      "name": "pudralı",
       "width": "66.6013%"
     },
     {
-      "name": "pudralı",
+      "name": "misk",
       "width": "66.6013%"
     },
     {
@@ -47,8 +47,36 @@
       "width": "62.0261%"
     },
     {
-      "name": "aromatik",
+      "name": "yeşil",
       "width": "55.1634%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,7 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "1",
     "summer": "1",
     "autumn": "1",
@@ -89,32 +117,38 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "The One"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

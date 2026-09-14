@@ -16,58 +16,86 @@
     },
     {
       "name": "amber",
-      "width": "84.6961%"
+      "width": "84.4476%"
     },
     {
       "name": "tatlı",
-      "width": "79.7189%"
+      "width": "79.3859%"
     },
     {
       "name": "balsamik",
-      "width": "66.7851%"
+      "width": "66.5974%"
     },
     {
       "name": "dumanlı",
-      "width": "64.3204%"
+      "width": "64.1654%"
     },
     {
       "name": "karamel",
-      "width": "61.6246%"
+      "width": "61.186%"
     },
     {
       "name": "vanilya",
-      "width": "59.2013%"
+      "width": "59.0914%"
     },
     {
       "name": "ud",
-      "width": "56.3636%"
-    },
-    {
-      "name": "yumuşak baharatlı",
-      "width": "55.7076%"
+      "width": "56.2404%"
     },
     {
       "name": "pudralı",
-      "width": "55.6603%"
+      "width": "55.6731%"
+    },
+    {
+      "name": "yumuşak baharatlı",
+      "width": "55.5539%"
+    },
+    {
+      "name": "Online satın alın 31 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.10",
-    "votesCount": "2,122",
+    "votesCount": "2,143",
     "breakdown": {
-      "love": "989",
-      "like": "673",
-      "ok": "218",
-      "dislike": "166",
-      "hate": "76"
+      "love": "996",
+      "like": "681",
+      "ok": "219",
+      "dislike": "168",
+      "hate": "79"
     }
   },
   "seasons": {
     "winter": "1.4k",
-    "spring": "335",
-    "summer": "108",
-    "autumn": "1.1k",
-    "day": "498",
+    "spring": "338",
+    "summer": "109",
+    "autumn": "1.2k",
+    "day": "505",
     "night": "1.1k"
   },
   "notes": {
@@ -93,33 +121,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "37",
+    "weak": "59",
+    "moderate": "262",
+    "longLasting": "813",
+    "eternal": "479"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "76",
+    "moderate": "262",
+    "strong": "821",
+    "enormous": "336"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "19",
+    "moreFemale": "19",
+    "unisex": "364",
+    "moreMale": "474",
+    "male": "575"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "218",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "23",
+    "overpriced": "11",
+    "fair": "219",
+    "goodValue": "316",
+    "greatValue": "962"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Raghba"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "By the Fireplace"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Bois Talisman"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Kalemat Black"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Le Participe Passé"
+    },
+    {
+      "brand": "HAPPYLAND",
+      "name": "Rhyolite"
+    },
+    {
+      "brand": "S.T. DUPONT",
+      "name": "Noble Wood"
+    },
+    {
+      "brand": "ALEXANDRİA FRAGRANCES",
+      "name": "Hafez Gold"
+    },
+    {
+      "brand": "JUNAİD JAMSHED",
+      "name": "Safeer"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ameer Al Oudh Intense Oud"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Tobacco Oud"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Ébène Fumé"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Amber Oud"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Smoked Old Fashioned"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Vanilla Toffee"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -142,20 +231,16 @@
       "name": "Encre Noire A L'Extreme"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah"
-    },
-    {
       "brand": "BENTLEY",
       "name": "Bentley for Men Intense"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Tobacco Vanille"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Qaa'ed"
+      "brand": "TOM FORD",
+      "name": "Tobacco Vanille"
     },
     {
       "brand": "VERSACE",
@@ -166,12 +251,12 @@
       "name": "Cedrat Boise"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah Qahwa"
-    },
-    {
       "brand": "LALİQUE",
       "name": "Encre Noire"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah Qahwa"
     },
     {
       "brand": "HERMÈS",
@@ -180,6 +265,212 @@
     {
       "brand": "DİOR",
       "name": "Fahrenheit"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Encre Noire Sport"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent657739",
+      "author": "Chrononomicon",
+      "date": "2024-07-18",
+      "text": "On yıl sonra bile, koku ürünleri camiasında fiyat-performans açısından hala en iyilerden biri.\n\nÖzellikle Lattafa'nın yeni çıkan parfümlerinin ya 1: Popüler bir parfümü doğrudan taklit etmesi ve/veya 2: Genellikle güvenli kompozisyonlar ve akorlar kullanması nedeniyle, Raghba Wood Intense çok daha eşsiz bir kokuya sahip.\n\nRaghba Wood Intense, By The Fireplace'in bir taklidi olmak üzere tasarlanmamıştı ve dumanlı, tuzlu ve idrarımsı özellikleri onu çok daha 'niş' kılıyor.\n\nYeni Lattafa'nın Khamrah'ları, Asad'ları, Liam'larıyla karşılaştırıldığında, Raghba Wood Intense cesur; eski bir Tom Ford Private Blend gibi keskin bir yanı var. Bulabilirseniz mutlaka deneyin. Tıpkı en sevdiğiniz grubun ana akıma girmeden, plak anlaşması yapmadan ve müziği basitleştirmeye başlamadan önce çıkardığı o başyapıt albüm gibi.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1262147.jpg"
+    },
+    {
+      "id": "parent657820",
+      "author": "belor",
+      "date": "2023-10-17",
+      "text": "Çok hoş, tatlı ve hafif dumanlı bir kompozisyon olan bu parfüm, By the Fireplace'in (Şöminenin Yanında) öncüsüydü - evet, o parfüm bunu kopyaladı, tersi değil - niş parfümler de bazen kopyalama yapar :)\nBurada rahatsız edici, aşırı koyu veya sert hiçbir şey yok. Aslında, koku o kadar kullanışlı ki, neredeyse herkes kışın burnunu yormadan veya büyük sorunlar yaşamadan keyifle kullanabilir. Ameer Al Oudh Intense oud'dan kesinlikle daha ilginç, daha iyi harmanlanmış ve o kadar tatlı değil. Sadece hafif yapışkan bir taban üzerinde \"dumanlı\" bir dokunuşla odunsu, tatlı bir koku, ancak çok koyu veya derin değil. Ayrıca mükemmel performans ve harika bir fiyata sahip. Tavsiye ederim.\nNot: Burada tütün bulunmamaktadır ;)",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.20.jpg"
+    },
+    {
+      "id": "parent657745",
+      "author": "HulkJr",
+      "date": "2022-06-06",
+      "text": "Batılı bir burun için Orta Doğu kokularıyla ilgili beni şaşırtan şeylerden biri, batıdaki insanların bunları \"kış\" kategorisine koyma eğiliminde olmalarıdır ki bu, kökenleri göz önüne alındığında aslında çok komik.\n\nDüzenleme: Bu, cildimde hafif bir guiac alt tonuyla birlikte saf geyik idrarına dönüşüyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent657821",
+      "author": "Heyday",
+      "date": "2022-01-24",
+      "text": "Dumanlı bir akorun karamel gibi notalarla bu kadar iyi bir arada var olabileceğini düşünmemiştim... ama Raghba Wood Intense bunun kanıtı. Başlangıçta, yoğun bir duman bulutu bizi karşılıyor. Özellikle yakından uyguladığınızda oldukça yoğun. İlk denememde de böyleydi... Sanki bir kamp ateşinin yanında oturmuş, yanan odunların közlerine bakıyormuşum gibi hissettim ve yakındaki ağaçlardan gelen iğne yapraklarının taze, reçineli, hafif baharatlı aroması havada süzülüyordu. İlk başta, standartlarıma göre çok yoğun olduğunu düşündüm. Ancak zaman geçtikçe, bu duman yığınının altında kompozisyonun tatlı tarafı giderek daha belirgin hale geliyor. Özellikle bu dumanlı örtüyle mükemmel bir şekilde harmanlanan karamelin tatlı aromasını hissedebiliyorsunuz. Biraz sonra vanilya da katılıyor. Ormanın derinliklerine doğru ilerledikçe duman yumuşuyor ve sonunda, birkaç saat sonra, sadece tatlılık bırakarak kayboluyor. Bunu en çok ikinci uygulamada (ilk deneme bileğimdeydi) fark ettim; daha geniş bir alana ve biraz daha uzaktan sıktığımda koku daha dengeli görünüyordu ve odunsu dumanlı aroma ile tatlı notalar birbirini çok daha iyi tamamlıyordu. Elbette, ilk aşamada hala baskındı, ancak varlığı artık bunaltıcı değildi. Tek pişmanlığım, koku azaldıkça yayılımının cilde oldukça yakınlaşması, ancak diğer yandan yine de beklediğimden çok daha fazlasını aldım. Raghba Wood Intense, güçlü dumanlı bir başlangıç ​​ve tatlı, mutlu bir sonla hayal gücünü harekete geçirebilen bir kompozisyon. Çok iyi performans ve daha da iyi bir fiyata sahip harika bir karışım, dumanlı ve tatlı kokuları seven herkes için gerçek bir ziyafet olmalı.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent657736",
+      "author": "MatureWhiteCollar",
+      "date": "2021-05-25",
+      "text": "Raghba Wood Intense parfümünü bugün teslim aldım ve bayıldım. Bu benim ikinci Lattafa parfümüm, ilki de çok sevdiğim Velvet Oud'du. Şimdiye kadar Lattafa benim için mükemmel bir marka oldu.\n\nÖncelikle kendimden biraz bahsedeyim. Genel olarak tatlı kokulu parfümleri hiç sevmiyorum. Koleksiyonumda Paco Rabanne 1 Million veya Versace Eros gibi gece kulübü parfümleri yok ve asla da olmayacak. Aynı şekilde, ağır çiçek kokularını da sevmiyorum. Daha çok odunsu, alkollü, kahveli, vetiverli, tütsülü, reçineli, derili ve yine odunsu notaları içeren parfümleri tercih ediyorum. Erkek parfümlerindeki mevcut trend beni çok üzüyor. Bana 80'lerin güçlü bir parfümünü, Bentley Intense'i, Bvlgari Man Black Orient'i veya Ferragamo Uomo Signature'ı verin, ambroxan dolu metroseksüel şeker gibi bir şey değil.\n\nRaghba Wood Intense beni hem heyecanlandırdı (dumanlı odunlar) hem de endişelendirdi (karamel ve şeker). Şunu memnuniyetle belirtmeliyim ki, odun, tütsü, meşe yosunu ve misk, karamel, şeker ve vanilyayı bastırıyor. Tatlı unsurların burada sağladığı şey, sadece odun değil, şöminede veya kamp ateşinde yanan odun kokusu aldığınız yanılsamasıdır. Bu, gece kulübü kokusunun bir varyasyonu DEĞİL. Bunu, kayak yaptıktan sonra elimde brendi veya burbonla gürül gürül yanan bir ateşin önünde veya Ekim ayında bir plajda kamp ateşinin başında, elimde bir bira ve kapüşonlu bir sweatshirt ile taktığımı hayal ediyorum.\n\nYani buradaki tatlı unsurlar midemi bulandırmıyor. Aksine, parfümün genel etkisine katkıda bulunuyorlar. Meyan kökünü belirgin bir nota olarak algılamıyorum. \"Yanmış odun etkisi\"ni sağlamak için de kullanılmış olabilir. Ve hiçbir yerde tek bir çiçeksi nota bile yok. Bu tamamen erkeksi bir koku.\n\nBununla birlikte, son on yıldaki erkek parfümlerine alışmış birçok erkeğin bunu beğenmeyebileceğini ve böyle bir şeyi kullanmaktan çekinebileceğini anlıyorum. Ayrıca, bunun kadınlar için bir iltifat mıknatısı olacağı konusunda da hiçbir yanılsamam yok. Çoğu kadının böyle bir şeye anında \"aşık\" olmayacağına bahse girerim. Ama... bunu taşıma cesaretine sahip herhangi bir erkeğin, sırf bunu kendisi için, onlar için değil, giydiği için kadınlar üzerinde bir izlenim bırakacağına da bahse girerim. Bunu giyecekseniz, kalın bir deriye ve \"Beğenmemeniz umurumda değil, ben beğeniyorum\" tavrına sahip olmalısınız.\n\nBana göre, bir erkeğin parfümü böyle olmalı. Herkes için değil. Kadınları cezbetmek için değil. Sadece ne isterseniz onu giyiyorsunuz çünkü soğuk, karanlık bir gecede yanan odun kokusunu seviyorsunuz.\n\nKalıcılık ve yayılım açısından, bunun bir saat içinde kaybolan bir narenciye bombası olmadığını söyleyebilirim. Ancak gerçek bir görüş için sonbahar veya kışa kadar beklememiz gerekecek. Şu anda 24 derece sıcaklıkta bunu kullanıyorum.\n\nFiyat ve değer açısından Raghba Wood Intense, Bentley For Men Intense, Lattafa'nın Velvet Oud'u, Lalique'in Encre Noire üçlüsü ve Ferragamo'nun Uomo Signature'ı ile aynı seviyede. Yani fiyatı düşük (30 doların altında) ve kalitesi/kokusu olağanüstü. Bu, 150 dolar ve üzeri fiyatlarla satılan herhangi bir niş ürün kadar iyi.\n\nRaghba Wood Intense ile ilgili tek şikayetim şişe/ambalaj olurdu. Şişe, ahşap görünümü taklit etmeye çalışan üç tarafında vinil çıkartmalar bulunan basit bir kare tasarıma sahip. Bana 80'lerin Detroit arabalarını, üzerine yapıştırılmış sahte ahşap desenlerini hatırlatıyor. \"Şıklık\"ın tam tersi. Ancak garip bir şekilde, kapağı gerçekten güzel yapılmış. Görünümü bir kenara bırakırsak, bu şişe gerçekten rahat ve güvenli bir şekilde tutulması kolay, ayrıca atomizörü de iyi. Ve dürüst olmak gerekirse, bir parfüm söz konusu olduğunda şişenin görünümü benim önceliklerimin en altındadır. Kimse şişeyi asla görmeyecek. Bu nedenle, ucuz ve basit bir şişe Lattafa'nın bu harika parfümü makul bir fiyata piyasaya sürmesine olanak sağladıysa, jenerik bir cam parçası üzerindeki vinil çıkartmalar benim için sorun değil.\n\nABD'de test ürününden bir koku alma şansınız pek yok. Burada Lattafa satan bir mağaza bilmiyorum. Kör alışveriş mi? Evet, eğer bu ağır, koyu, erkeksi kokuları seviyorsanız. Bu harika bir koku! Eğer tatlı gece kulübü kokuları, mavi tonlu parfümler ve sıradan narenciye bombaları seviyorsanız, uzak durmanızı tavsiye ederim. Bunu Gucci Guilty Absolute'den daha çok sevmeyeceksiniz. Denemeyin bile. Öte yandan, açık fikirliyseniz ve farklı ve güçlü kokuları seviyorsanız, denemek isteyebilirsiniz. Ama Allah aşkına, bunu sürdüğünüz için herkese özür dilemeyin. Sadece gidip başka bir yerde durmalarını söyleyin.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1209303.jpg"
+    },
+    {
+      "id": "parent657732",
+      "author": "ivaylops",
+      "date": "2021-04-17",
+      "text": "Eğer bu parfüm büyük niş markalardan biri tarafından piyasaya sürülseydi, insanlar onu övgülerle boğmak için ellerinden gelen her şeyi yaparlardı. Ama bu bir Arap parfümü, o yüzden sebepsiz yere eleştirelim. Yorumlarda elitizm çok güçlü.\nBana göre bu sadece bir koku değil, bir deneyim. Bir tablo çiziyor ve bazı insanlar için anıları bile canlandırıyor. Sizi geceleyin ormanda, kulübenin önündeki şöminenin başında marshmallow kızartırken, arkadaşlarınızla sohbet ederken, gitar çalarken, şarkı söylerken ve eğlenirken bir ortama götürüyor.\n\nEğer By The Fireplace'in benzerini arıyorsanız, başka yere bakın, çünkü bu o değil.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1243020.jpg"
+    },
+    {
+      "id": "parent657780",
+      "author": "Thanaquil",
+      "date": "2020-09-29",
+      "text": "Neşe! Neşe!\nSonbahara özgü, canlandırıcı ve gri, rüzgarlı günlere, hatta karlı günlere bile uygun, nefis bir koku!\nLattafa beni her zaman olumlu yönde şaşırtan bir marka... (bu uçsuz bucaksız ve ilgi çekici Orta Doğu evreninde tek marka değil) ve bu Raghba Wood Intense, gerçekten ne yaptıklarını bildiklerinin ve bunu bize çok para harcatmadan başardıklarının kanıtı!\n\nHafif dumanlı bir başlangıç, alkol izlerinden tamamen yoksun, ardından muhteşem bir meyan kökü patlaması: pürüzlü, bitkisel, sıcak ve gerçekçi... tıpkı köy festivallerinde ara sıra emdiğimiz, tatlılarla pek ilgisi olmayan o güçlü koyu suyu çıkarmak için kullandığımız küçük aromatik çubuk gibi!\nVe ardından güçlü, yoğun, odunsu ve sarmalayan bir kalp geliyor; ancak aynı zamanda olağanüstü yumuşak ve ısıtıcı, şeker, sandal ağacı ve karamelin verdiği tatlı nüanslarla zengin.\nArdından sert ağaçlar, miskler, hafiflik getiren havadar ve ipeksi bir tütsü... her şey ciltte, genellikle etrafta koklananlardan çok farklı, saran ve yoğun bir koku olarak yoğunlaşıyor:\nYün şal gibi sıcak, dolgun; ağır oryantal brokar gibi sofistike ve zarif; aynı zamanda modern, giyilebilir ve kendine özgü bir şekilde metropol havası da taşıyor...\nNe diyebilirim ki: Bayıldım!\nMükemmel kalıcılık, aşırı uzun değil: yaklaşık 5-6 saat sürüyor ve bu sıra dışı koku, etrafında bulunan herkesi büyüleyecek!\nMuhteşem!!!",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.46802.jpg"
+    },
+    {
+      "id": "parent657761",
+      "author": "jerry drake",
+      "date": "2020-06-04",
+      "text": "Bu da, dört kat daha pahalı olan çok sayıda sözde niş ürünü karşılayabilecek herkes için uygun olmayan bir başka cevher.\nDuygusal, sıcak ve gizemli olan bu parfüm, yaz gecesinde esrarengiz bir kadının bakışları gibi, kelimelere ihtiyaç duymadan baştan çıkaran kendine özgü bir aromatik uyum sunuyor.\nBu teklifin egzotik doğası sizi büyülüyor ve cezbediyor, uzak ve bilinmeyen yerleri çağrıştırıyor; yavaş yavaş açılıyor, kendini azar azar gösteriyor ve tüm güzelliğini sergilediğinde nefesinizi kesiyor.\nYanmış odun ve tütsü notaları etkileyici; tatlı temel notalarla harmanlanarak, sizi uyum ve zarafetle saran, kadifemsi ve şehvetli bir his yaratıyor. Kendinizi, kalbini çalan kadına, prensesine yeniden sarılmak üzere olan bir prens gibi hissediyorsunuz.\n(Darkbeat hazinelerinden bir başka parça)",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.22744.jpg"
+    },
+    {
+      "id": "parent657738",
+      "author": "msajoy",
+      "date": "2020-05-16",
+      "text": "Tamam arkadaşlar, sonunda buna sahibim. Bu benim için ilahi bir müdahale kokusu, ya da en azından ben öyle diyeceğim. Bu mücevheri piyasadan kaldırdılar, üzücü ama yine de dünya çapında uygun fiyatlarla bulunabiliyor. Eğer tatlı öd ağacı, dumanlı tütsü ve şekerli karamelin güzelliğini seviyorsanız, bunu mutlaka almalısınız. Muhteşem bir performans sergiliyor ama asla boğucu değil. Nazik bir canavar. Scentstory'nin 24 Gold'una benzeyen orijinal Raghba kadar bayıcı değil. Bu, 24 Oud Edition'a benziyor, dumanlı ve Kalemat'ın şekerli tatlılığıyla. Bu çocuklar için bir koku değil, kar yağdığı bir günde bir fincan kakao yapın ve bu muhteşem karanlık Lord'un kollarına iki fıs sıkın. Niş firmaların bundan daha düşük kalitede parfümler üretip 500 dolara satması ve insanların bu mücevher için 25 dolar ödemekten çekinmesi gerçekten üzücü. Gerçekten çok yazık. Eğer kraliyet kalitesinde bir parfüm sahibi olmak istiyorsanız... işte onlardan biri. Koku olarak değil, Creed'in Royal Oud'uyla aynı sınıfta, ama kalite olarak aynı. 25 dolara 100 doların üzerinde değere sahip bir parfüm alıyorsunuz.\nYerel indirim mağazalarında inceleyin. Bir başyapıt, şişesi muhteşem, ağır ve meyve suyu rengi harika.\n10/10\n*** Düzenleme: Bu koku, yaklaşık 140 USD olan Issey Miyake Noir Ambre'ye çok benziyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.999719.jpg"
+    },
+    {
+      "id": "parent657784",
+      "author": "Nicorossi",
+      "date": "2020-02-27",
+      "text": "Bu parfümü forumdaki nazik ve anlayışlı bir arkadaşımdan hediye olarak aldım ve harika bir keşif oldu. Zaten kapsamlı ve mükemmel bir şekilde tanımlanmış... sevdiğim tüm notalar zarif bir şekilde bir araya getirilmiş, açılışta meyan kökü baskın ama bayıcı derecede kuru değil, aromatik ve rahatlatıcı. Tekrar teşekkürler.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.46717.jpg"
+    },
+    {
+      "id": "parent657782",
+      "author": "PiccoloAlbero",
+      "date": "2020-02-23",
+      "text": "Bir Arap parfümünden zenginlik, performans, uygun fiyat ve belki de güzel bir sunum beklerim: bu parfümde tüm bu özellikler karşılanıyor. Amberli, yağlı bir sıvı – kıyafetlerinize dikkat edin! Açılış notaları yanmış odun, tatlı notalarla güzelce yumuşatılmış ve evrimi biraz tuhaf ve ışıltılı: Şömine Başında, Tütünlü Ud ve Kara Hayalet'in hepsinin bir araya getirilmiş halini hayal edin. Bu benzerliklere rağmen, burada bambaşka bir seviyede bir şeyle karşı karşıyayız. Tamamen unisex ve belirgin bir şekilde kışlık olan meyan kökü notası mükemmel ve gerçekçi. Beni rahatlatan ve güven veren bir parfüm. Mutlaka denemelisiniz!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.47328.jpg"
+    },
+    {
+      "id": "parent657742",
+      "author": "Ivanus",
+      "date": "2019-11-21",
+      "text": "Koku - Raghba Wood Intense Lattafa\nŞişenin üretim yılı - 2018\n\nBu koku bana, gün doğmadan önce büyülü bir ormanda uyanıyormuşum ve burnumu kamp ateşi kokusu dolduruyormuşum gibi hissettiriyor. Rahatlatıcı, dumanlı, odunsu ve tatlı bir sihirle dolu.\nBu, karanlık ama tatlı, odunsu ve karamelize bir tütsü hakkında bir hikaye ve ben bu tütsüyü çok seviyorum. \"Kalite/Fiyat Oranı\" son derece yüksek. Maison Martin Margiela'nın By the Fireplace adlı tütsüsüne bazı benzerlikleri var.\n\nKullanım Süresi - 10/10 (10+ saat)\nYayılım/Kalıcılık - 8,5/10 (ilk 2-3 saat boyunca yoğun yayılım ve kalıcılığa sahip, daha sonra kokunun evrimi boyunca tene daha yakın kalıyor)\nHava durumu - en iyi sonbahar ve kış aylarında.\nYaş - 30+\nÖvgüler (düşük-orta-yüksek) - orta\nKoku - 10/10\n\nBana göre başlıca notlar şunlardır:\nTütsü, karamel, vanilya, öd ağacı, sandal ağacı.\n\nParfümün son evrelerinde odunsu, dumanlı ve reçineli bir koku ortaya çıkıyor; sedir, tütsü ve amberli vanilya notaları da alıyorum.\n\nDuygular - gün doğmadan önceki büyülü orman, bir tür tatlı sihirle büyülenmiş kamp ateşi, karanlık ama rahatlatıcı.\n\nKullanım Alanı (Çok Yönlülük - 7/10) - Yarı resmi etkinlikler, özel günler ve gece dışarı çıkmalar için mükemmel.\n\nSatın almadan önce deneyin.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1053864.jpg"
+    },
+    {
+      "id": "parent657804",
+      "author": "Бока повытер",
+      "date": "2018-02-21",
+      "text": "Oud ve isli odun kokularını, gurme notalarla birleştirenler bunu mutlaka denemeli. Benim burnuma göre koku muhteşem. İlginç, yavaş yavaş açılıyor, sıcak ve lezzetli. Ayrıca ud, isli ve ekşi-meyvemsi bir nota da var. İlk başta kuru meyve ve hafif ekşilik gibi koktuğunu düşündüm, ama muhtemelen bu sadece ud, enfes. Ayrıca yanmış odun ve isli, asil tütsü de var. Karamel-şeker aroması yapışkan veya basit değil, aksine odunsu islilikle güzelce iç içe geçiyor ve baskın olmuyor. Ayrıca acı yosun da algılıyorum. Pudralı ve kadifemsi bir yanı olduğuna katılıyorum. Keşmir ağacı mı? Ne diyebilirim ki, iki gündür azar azar sıkıyorum ve o kadar güzel ki tüylerimi diken diken ediyor. )) Sanırım bağımlısı oldum. Ve her Montale-Manserat bu kokuyu kaldıramaz, oh, herkes değil. Koku, tatlılığına rağmen hâlâ oldukça erkeksi, sert. Unisex değil, ama artık umurumda değil.\nÇok dayanıklı!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.217400.jpg"
+    },
+    {
+      "id": "parent657740",
+      "author": "SachinSinghFrag",
+      "date": "2017-11-16",
+      "text": "İNCELEME - RAGHBA WOOD INTENSE\n\nBu güzel ürün birkaç gün önce elime geçti. İncelemek istedim ama bu kokunun doğası gereği, onu tamamen anlamak ve güzelliğini takdir etmek biraz zaman alıyor.\n\nÖncelikle şunu söyleyelim ki, bu kaliteli bir koku. Birinci sınıf. Beğenebilirsiniz veya beğenmeyebilirsiniz ama bu, iyi yapılmış bir kokunun tanımı. Bir kokunun zaman içinde nasıl geliştiğini ve değiştiğini öğrenmek istiyorsanız, bunu alın. Bu, tasarımcı parfümlerini (hatta çok ucuz olanları bile) bulamayacağınız bir fiyata niş kalitesinde bir koku.\n\nAMBALAJ: Güzel desenli kutu, çoğu Orta Doğu parfüm kutusundan daha iyi. 7/10.\n\nŞİŞE - Ağır bir şişe. Ahşap desenleri ve ağır bir tabanı var. Geniş ve nispeten kısa. Dolapta pahalı bir görünüm sağlıyor ve çoğu Orta Doğu şişesinin aksine içindeki sıvının hakkını veriyor. 8/10\n\nKOKU - Üst Notalar: Üst notalarda koyu karamelin altında sade sedir ağacı kokusu var. Tatlı değil. Koku baştan sona tütsüyle kaplı, bu yüzden dumanlı, tatlı ve odunsu bir açılışa sahip.\n\nOrta notalar - Bu kokunun en derin noktası. Üst notalarla aynı, ancak misk ile destekleniyor. Biraz daha tatlı ve neredeyse daha hafifletilmiş bir tütsü çubuğu gibi.\n\nKuruma aşaması: Orta ve üst notalara göre biraz daha reçineli ama genel olarak aynı. Kalem talaşı gibi kokuyor. Parfümün diğer kısımlarına göre çok daha dumanlı.\n\nKokuya genel olarak 10 üzerinden 8 puan veriyorum.\n\nPERFORMANS - Kalıcılık 12/10 Giysilerde haftalarca kalıyor. Kelimenin tam anlamıyla haftalarca, mecazi anlamda değil.\n\nKoku yayılımı - İşte bu ilginç. Koku yayılımı zayıf ve bu iyi bir şey. Bunun kasıtlı olup olmadığını bilmiyorum ama bu kokuyu güzelleştiriyor.\n\nBu koku, en yoğun performansında etrafınızdakileri rahatsız edebilir. Neyse ki, bir odayı doldurmuyor veya benzeri bir etki yaratmıyor. 2-3 saat boyunca çok iyi yayılıyor. Sonra günlerce üzerinizde kalıyor. Yürürken bile hissediyorsunuz. İyi bir kalıcılığı var. 7/10\n\nİLTİFATLAR - Hiç yok (belki de 20 yaşında olduğum içindir). Bu bana iltifat getirmiyor. \"Bu doğal görünüyor\" ve \"evet, özel bir şey yok\" gibi yorumlar aldım.\n\nİşte bu koku da tam olarak böyle, özel değil. Doğal içerikli, doğal bir koku. Bunu kullandığınızda kendinizi mutlu, başarılı ve hem kendinizle hem de çevrenizdeki doğayla uyum içinde hissediyorsunuz.\n\nBazen sadelik özeldir ve bu koku da işte öyle.\n\nKULLANIM - Bu, dışarı çıkarken kullanacağınız bir koku değil. Aslında bu, işten döndüğünüzde veya yorucu bir günün ardından banyo yaptığınızda kullanacağınız bir koku.\n\nTapınaklarda ve camilerde kullanılan bol miktarda tütsü içerdiği için dini törenler (ve dualar) için mükemmeldir.\n\nSoğuk bir gecede de harika görünüyor.\n\nYaş Grubu - 30+ Erkekler\n25 yaş üstü kadınlar.\n\nDÜZELTME: Çok fazla uygularsanız, plastikimsi ve biraz sentetik bir görünüm alacağını belirtmek için düzenleme yaptım.\n\nAyrıca bu parfümün kalite açısından tek olumsuz yanı, normalden daha güçlü olan ve yaklaşık 10-15 saniye süren ilk alkol kokusudur.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1089161.jpg"
+    },
+    {
+      "id": "parent657762",
+      "author": "Bofifa",
+      "date": "2017-08-04",
+      "text": "Gerçekten de şimdiye kadar kokladığım en tuhaf kokulardan birini sunuyor.\n\nİspanyolcadaki adı \"yoğun odun\"dur, ancak bence \"yanmış\" kelimesini de eklemeliyiz.\n\nYakından bakıldığında, koku piramidinin bazı bileşenlerini algılamak mümkün: her şeyden önce odun, tütsü ve bana kızarmış şekerlemeleri hatırlatan bir nota.\n\nAncak bence asıl öne çıkan özelliği koku illüzyonu. Eğer kışın şömine yakma geleneği olan bir kasabada yaşıyorsanız, soğuk havalar geldiğinde sokakların nasıl koktuğunu tam olarak bilirsiniz. O duman, o odun kokusu, Wood Intense'in şaşırtıcı bir doğrulukla yeniden ürettiği şey. Şenlik ateşleri, kütükler, duman bulutları... mangaldan sonra kıyafetlerinizde kalan koku.\n\nAhşabın alışılmadık, çok çekici ve koyu bir yorumu. Bu marka hakkında daha fazla bilgi edinmek istememe neden oluyor.\n\nYazın giymemek en iyisi, yoksa birileri itfaiyeyi arayabilir.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.11182.jpg"
+    },
+    {
+      "id": "parent657760",
+      "author": "Darkbeat",
+      "date": "2017-04-22",
+      "text": "Uzun bir bekleyişin ardından sonunda elime geçti. Birkaç gün önce geldi ve son zamanlardaki sıcaklar nedeniyle gündüz kullanımı pek uygun olmadığı için birkaç akşam boyunca test ettim.\n\nParfümün notalarına bakarsanız, karamel, meyan kökü, şeker, vanilya gibi şeyler bulacaksınız; bu da sizi modern bir gurme parfümü olduğuna inandırabilir. Tatlı, zengin ve çekici bir koku olduğunu düşünebilirsiniz, ancak gerçek bundan çok uzaktır. Odun ve tütsü notalarıyla dolu, yoğun, güçlü ve saatli bomba gibi patlayıcı bir koku. Bu, zengin veya çekici olmadığı anlamına gelmez, çünkü benim için öyle, ancak notalarının düşündürdüğü şekilde değil. Aksine, gotik, karanlık ve yoğun; neredeyse çiğnenebilir bir koku.\n\nAçılışta odunsu notaların patlaması hissediliyor—rustik, engebeli ve biraz sentetik—ama koku birkaç dakika içinde yerleştiği anda, öyle doğal bir şeye dönüşüyor ki gözlerimi kapatıp şu görüntüyü görüyorum: yemyeşil bir ormanın içindeki bir açıklığın yanında karanlık, bulutlu bir gece, ateşin etrafında toplanmış arkadaşlar ve alevleri söndüren hafif bir yağmur. Bana göre kokusu tam olarak böyle: suyla söndürülmüş gerçek, için için yanan bir ateş gibi. Bana göre o kadar doğal kokuyor ki, annem bile kıyafetlerim duman koktuğu için ateş yakıp yakmadığımı sordu. Sonra öd ağacı, tatlı notaların yanında güçlü bir şekilde ortaya çıkmaya başlıyor, ancak kokuyu aşırı tatlı yapmıyor. Hayır, aksine, bir tatlılık dokunuşu ekleyerek odunsu ve öd ağacı notalarını kremsi, dumanlı ve baharatlı bir karışım gibi, acı, kavrulmuş karamele benzer bir hale getiriyor. Parfümün bu kısmını çok seviyorum; zengin ve yoğun, neredeyse elle tutulur. Son kuruma aşamasını da çok seviyorum; Kavrulmuş karamel kokusunu koruyan bu koku, vanilya ve amberin çok ince bir dokunuşuyla sıcak, canlı ve miskli bir hal alıyor.\n\nAçıklamam bu parfümü herkese tavsiye edebileceğim izlenimini verse de, durum böyle değil. Tercihlerini önceden bilmeden bu parfümü kimseye tavsiye etmeye cesaret edemem. Çok karmaşık, yoğun ve kendine özgü bir karaktere sahip bu parfüm, sadece odunsu, tütsülü ve yoğun parfümlerden hoşlanan kişiler için uygundur.\n\nKalıcılığı muhteşem, inanılmaz bir yayılımı var; 12 saatten fazla süreyle kokusunu alabiliyordum. Akşam 7 civarında sürdüm ve sabah 7 civarında uyandığımda hala zorlanmadan kokusunu alabiliyordum. Sonra duş aldım, bu yüzden ne kadar süre daha kalıcı olduğunu tam olarak test edemedim, ancak burnumu bileğime bastırdığımda duştan sonra bile izlerinin kaldığını söylemeliyim. Her an üzerinizde hala kokusunu alabileceğiniz nadir parfümlerden biri – bir mucize.\n\nSoğuk iklimler ve gece için parfüm, ama dürüst olmak gerekirse, bir parfümü beğendiğimde, yaz, sonbahar, kış, gündüz veya gece fark etmeksizin canım ne zaman isterse onu kullanırım hehehehe işte ben o kadar garip biriyim.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.22763.jpg"
+    },
+    {
+      "id": "parent657734",
+      "author": "spartan",
+      "date": "2017-03-22",
+      "text": "Bu parfüm, Batı parfümlerinin değer sistemini yeniden düşünmeme neden oluyor... Bu marka, böylesine olağanüstü kalitede inanılmaz bir parfümü nasıl bu kadar düşük fiyata üretebiliyor?... Avrupa ve ABD'deki büyük kar pazarları, Orta Doğu parfüm pazarının önümüzdeki yıllarda onların topraklarına girmesiyle ciddi bir sınavdan geçecek.\nBu koku kesinlikle MUHTEŞEM!!! Şüphesiz ilk 10'umda... Kullanmayı bırakamıyorum... Çok güçlü, bu yüzden dikkatli olun... Bir seferde sadece 1 veya 2 fıs sıkın... Çok güçlü bir koku... Az önce bir mağazadan döndüm ve kadın çalışanlardan biri 2 metre uzaktan yüksek sesle dedi ki: (Aman Tanrım, bu nasıl bir koku... Kim bu kadar güzel kokar?)>> Sürekli yüksek sesle tekrarladı... Ben hiçbir şey demedim. Tauer, Creed ve Niche gibi markalara yüzlerce dolar harcamayı unutun ve Arap parfümlerini keşfedin... Çok daha ucuza... Keşfedilmemiş bir dünya!!!!\n\n10/10 Kesinlikle Muhteşem Koku\nBu markanın diğer ürünlerini de denemek için sabırsızlanıyorum.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.59167.jpg"
+    },
+    {
+      "id": "parent657819",
+      "author": "Piotrek007",
+      "date": "2016-11-29",
+      "text": "Sedir ağacının açılışı göz bebeklerimi kocaman açıyor; resmen şoktayım. Sevgili odunsu-tütsü iksirim Arso'yu koklayabiliyorum! Narin ve tatlı bir koku geliyor ve hemen Lutens'in Fille en Aiguilles'i aklıma geliyor. Böyle bir açılışı nasıl sevmeyebilirsiniz ki?! Dumanlı, odunsu, tatlı... Tatlı... Yoğun karamel, sedir bloklarını sarıyor, o kadar sıcak ki neredeyse duman çıkarıyor. Akan karamelin izini takip ederek, daha fazla odun bloğuyla karşılaşıyoruz ve başlangıçta sedir ağacı olduğunu tamamen unutuyoruz. Daha koyu ama daha kadifemsi... Belki de daha yumuşak? Ud, guaiac ağacı, hafif sandal ağacı ve bir tutam meyan kökü karışımı. Kadifemsi vanilya geliyor ve karamel reçinelerle buluşuyor ve sonsuzluğa doğru daha fazla ilerlemiyor. Bu karışım tüm gün sürüyor, kelimenin tam anlamıyla tüm gün! Odunsu, tütsü (!), karamel, kavrulmuş, vanilya, karmaşık, yırtıcı, zengin, oryantal. Misk kokusunun olmamasına teşekkür ederim, artık ondan bıktım... Bu sayede, bir marangoz atölyesi kadar kuru, bir sauna kadar havasız (başlangıçta) ve oryantal bir dokunuşla vanilya sayesinde kadifemsi bir koku ortaya çıkmış.\nBahsettiğim kalıcılık, ilk birkaç saatte 9 saati aşıyor ve Mugler'in A*Men parfümüyle güç bakımından yarışıyor. İtiraf etmeliyim ki, burnum ilk başta biraz tepki gösterdi; her şey biraz fazla gelmişti. Şimdi ise tamamen büyülendim ve her gün daha fazla iltifat alıyorum... özellikle iş yerindeki meslektaşlarımdan ;)",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.5346.jpg"
+    },
+    {
+      "id": "parent657807",
+      "author": "Ravenielle",
+      "date": "2016-11-18",
+      "text": "Geçen gün bir şişe aldım. Normal Ragba'yı çok sevdiğim için denemeden sipariş verdim ve hayal kırıklığına uğramadım. Adından da anlaşılacağı gibi, bu daha odunsu bir versiyon.\nÖnceki açıklamaya tamamen katılıyorum – isli odun + karamel. Çok yumuşak, tatlı bir ud kokusu, şu anki soğuk havalarda (dışarıda -35 dereceye kadar düşüyor ve ben bu sıcak ve rahatlatıcı kokuyla evimdeymişim gibi hissediyorum) çok rahatlatıcı. Kokunun yaklaşık bir metre kadar yayılımı var (en azından insanlar bundan bahsetmiyor) ve kalıcılığı normal Ragba gibi, soğuk ciltte bile yaklaşık 7 saat sürüyor. Çok rahatlatıcı, unisex bir koku ve fiyatına göre gerçek bir keşif.\nŞişenin kendisini de çok beğendim; çok ağır, bana kahve kutusunu hatırlatıyor ve çağrışımları da uygun: sıcaklık, rahatlık (bu kelimeyi sık sık yazıyorum çünkü aklıma gelen tek kelime bu) ve bir fincan sıcak kahve.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.133038.jpg"
+    },
+    {
+      "id": "parent657805",
+      "author": "mysticum incensum",
+      "date": "2016-05-16",
+      "text": "Bir parfüm hakkında ilk yorumu yazmak inanılmaz heyecan verici, özellikle de bir koku sizi büyülediyse. Bu parfümü tesadüfen aldım; ben seçmedim, koku piramidini bilmiyordum ve o beni seçti. Sıktım ve kendimi kaybettim. Hem huzur verici hem de antidepresan etkisi olan bir koku. Odunsu, reçineli ve dumanlı kokuları seviyorum ve özellikle tütsü ve ud kokusuna bayılıyorum. Ama çoğu zaman bu kokular sizi gölgede bırakıyor – çok gürültülü ve parlaklar. Onlardan keyif almak için belirli bir ruh haline, belirli bir duruma ve belirli bir zihin durumuna ihtiyacınız var. Yoğun ön ekiyle Raghba Wood, nazik, bağırmıyor ve her şeyi ele geçirmeye çalışmıyor. Ama tütsü ve odunun o kadar güzel bir kombinasyonuna sahip ki. Yanmış şeker notası beni büyüledi ve moralimi yükseltti (çocukluğumdaki pamuk şeker veya karamel notaları gibi), sanki bir yerde durmuş, etrafımı saran tütsü ve şeker dumanıyla çevriliymişim gibi hissettim. Sıradan şeylerden bahsetmek gerekirse: aroma kesinlikle güzel, tatlı ve parlak, gösterişli değil, üzerimde 5-6 saat hissediyorum, başkalarında çok daha uzun sürüyor, kıyafetlerde yıkanana kadar kalıyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.118499.jpg"
     }
   ]
 }

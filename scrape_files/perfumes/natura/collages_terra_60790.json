@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Natura/Collages-Terra-60790.html",
   "brand": "Natura parfüm ve kolonya",
   "description": "Natura markasının Collages Terra parfümü, kadınlar ve erkekler için Odunsu Çiçeksi Misk bir kokudur. Collages Terra, 2018 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst nota: Odunsu Notalar; orta nota: Çiçeksi notalar; alt notalar Misk ve Vanilya.",
-  "description_original": "Natura markasının Collages Terra parfümü, kadınlar ve erkekler için Odunsu Çiçeksi Misk bir kokudur. Collages Terra, 2018 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst nota: Odunsu Notalar; orta nota: Çiçeksi notalar; alt notalar Misk ve Vanilya.",
+  "description_original": "Natura markasının Collages Terra parfümü, kadınlar ve erkekler için Odunsu Çiçeksi Misk bir kokudur. Collages Terra, 2018 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst nota: Değerli Odunlar; orta nota: Çiçeksi notalar; alt notalar Misk ve Vanilya.",
   "description_enhanced": "Natura markasının Collages Terra parfümü, kadınlar ve erkekler için Odunsu Çiçeksi Misk bir kokudur. Collages Terra, 2018 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst nota: Odunsu Notalar; orta nota: Çiçeksi notalar; alt notalar Misk ve Vanilya.",
   "mainAccords": [
     {
@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "çiçeksi",
+      "name": "misk",
       "width": "76.6667%"
     },
     {
-      "name": "misk",
+      "name": "çiçeksi",
       "width": "76.6667%"
     },
     {
@@ -29,6 +29,34 @@
     {
       "name": "vanilya",
       "width": "53.3333%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -52,7 +80,7 @@
   },
   "notes": {
     "top": [
-      "Odunsu Notalar"
+      "Değerli Odunlar"
     ],
     "middle": [
       "Çiçeksi notalar"
@@ -64,32 +92,38 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "0",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "ROSENDO MATEU OLFACTİVE EXPRESSİONS",
+      "name": "Rosendo Mateu Nº 5 Floral, Amber, Sensual Musk"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

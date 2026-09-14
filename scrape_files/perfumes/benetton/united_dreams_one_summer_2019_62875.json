@@ -45,6 +45,10 @@
     {
       "name": "lavanta",
       "width": "45.4867%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -84,77 +88,37 @@
       "Kahve",
       "Benzoin",
       "Sarı çiçekli ağaç"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "19",
-    "longLasting": "4",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "19",
-    "strong": "2",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "4",
-    "moreMale": "9",
-    "male": "9"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "7",
-    "greatValue": "11"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "RALPH LAUREN",
-      "name": "Polo Red"
-    },
-    {
-      "brand": "RABANNE",
-      "name": "1 Million"
-    },
-    {
-      "brand": "ANTONİO BANDERAS",
-      "name": "The Golden Secret"
-    },
-    {
-      "brand": "MOLYNEUX",
-      "name": "Quartz Addiction"
-    },
-    {
-      "brand": "VİNCE CAMUTO",
-      "name": "Terra"
-    },
-    {
-      "brand": "AZZARO",
-      "name": "Solarissimo Favignana"
-    },
-    {
-      "brand": "HALLOWEEN",
-      "name": "Halloween Man X"
-    },
-    {
-      "brand": "KENNETH COLE",
-      "name": "Copper Black"
-    },
-    {
-      "brand": "LOMANİ",
-      "name": "AB Spirit Millionaire"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Man"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -216,5 +180,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Armani Code"
     }
-  ]
+  ],
+  "comments": []
 }

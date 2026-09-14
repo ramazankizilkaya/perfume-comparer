@@ -49,26 +49,54 @@
     {
       "name": "beyaz çiçeksi",
       "width": "49.0125%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.22",
-    "votesCount": "180",
+    "score": "4.21",
+    "votesCount": "191",
     "breakdown": {
-      "love": "94",
-      "like": "56",
-      "ok": "9",
-      "dislike": "17",
+      "love": "98",
+      "like": "61",
+      "ok": "10",
+      "dislike": "18",
       "hate": "4"
     }
   },
   "seasons": {
-    "winter": "46",
-    "spring": "73",
-    "summer": "78",
-    "autumn": "54",
-    "day": "92",
-    "night": "67"
+    "winter": "48",
+    "spring": "76",
+    "summer": "82",
+    "autumn": "56",
+    "day": "97",
+    "night": "70"
   },
   "notes": {
     "top": [
@@ -90,30 +118,30 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "11",
-    "weak": "21",
+    "veryWeak": "12",
+    "weak": "23",
     "moderate": "44",
-    "longLasting": "20",
+    "longLasting": "21",
     "eternal": "3"
   },
   "sillage": {
-    "intimate": "27",
+    "intimate": "29",
     "moderate": "44",
-    "strong": "13",
+    "strong": "14",
     "enormous": "9"
   },
   "genderVoting": {
     "female": "23",
-    "moreFemale": "17",
-    "unisex": "32",
+    "moreFemale": "19",
+    "unisex": "33",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "0",
-    "fair": "9",
-    "goodValue": "38",
+    "fair": "10",
+    "goodValue": "40",
     "greatValue": "13"
   },
   "remindsMeOf": [
@@ -123,11 +151,15 @@
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Petit Sophie Fantasy"
+      "name": "Thaty"
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Thaty"
+      "name": "Petit Sophie Fantasy"
+    },
+    {
+      "brand": "MAHOGANY",
+      "name": "Lavanda & Algodão"
     },
     {
       "brand": "NATURA",
@@ -136,10 +168,6 @@
     {
       "brand": "ARİANA GRANDE",
       "name": "R.E.M."
-    },
-    {
-      "brand": "MAHOGANY",
-      "name": "Lavanda & Algodão"
     },
     {
       "brand": "GRANADO",
@@ -211,5 +239,6 @@
       "brand": "DİOR",
       "name": "J'adore"
     }
-  ]
+  ],
+  "comments": []
 }

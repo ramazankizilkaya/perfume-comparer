@@ -27,11 +27,11 @@
       "width": "82.6316%"
     },
     {
-      "name": "karamel",
+      "name": "odunsu",
       "width": "72.1053%"
     },
     {
-      "name": "odunsu",
+      "name": "karamel",
       "width": "72.1053%"
     },
     {
@@ -45,6 +45,34 @@
     {
       "name": "taze baharatlı",
       "width": "45.7895%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -78,33 +106,42 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "5",
+    "moderate": "12",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "12",
+    "strong": "3",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "2",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Wink"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel Nova"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -166,5 +203,6 @@
       "brand": "NATURA",
       "name": "Frescor de Pitanga"
     }
-  ]
+  ],
+  "comments": []
 }

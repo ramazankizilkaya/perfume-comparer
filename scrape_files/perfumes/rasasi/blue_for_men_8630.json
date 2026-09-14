@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Blue-For-Men-8630.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Blue For Men parfümü, erkekler için Aromatik Baharatlı bir kokudur. Üst notalar: Nane ve Mandalina; orta notalar: Biber, Gül, Yasemin, Kişniş ve Sardunya; alt notalar Odunsu Notlar ve Amber.",
-  "description_original": "Rasasi markasının Blue For Men parfümü, erkekler için Aromatik Baharatlı bir kokudur. Üst notalar: Nane ve Mandalina; orta notalar: Biber, Gül, Yasemin, Kişniş ve Sardunya; alt notalar Odunsu Notlar ve Amber.",
+  "description_original": "Rasasi markasının Blue For Men parfümü, erkekler için Aromatik Baharatlı bir kokudur. Üst notalar: Nane ve Mandalina; orta notalar: Biber, Kişniş, Gül, Yasemin ve Sardunya; alt notalar Odunsu Notalar ve Amber.",
   "description_enhanced": "Rasasi markasının Blue For Men parfümü, erkekler için Aromatik Baharatlı bir kokudur. Üst notalar: Nane ve Mandalina; orta notalar: Biber, Gül, Yasemin, Kişniş ve Sardunya; alt notalar Odunsu Notlar ve Amber.",
   "mainAccords": [
     {
@@ -45,25 +45,53 @@
     {
       "name": "sıcak baharatlı",
       "width": "46.6988%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.96",
-    "votesCount": "255",
+    "score": "3.98",
+    "votesCount": "260",
     "breakdown": {
-      "love": "85",
-      "like": "107",
-      "ok": "33",
+      "love": "90",
+      "like": "109",
+      "ok": "31",
       "dislike": "27",
       "hate": "3"
     }
   },
   "seasons": {
     "winter": "30",
-    "spring": "90",
-    "summer": "131",
+    "spring": "93",
+    "summer": "135",
     "autumn": "44",
-    "day": "115",
+    "day": "120",
     "night": "45"
   },
   "notes": {
@@ -73,45 +101,106 @@
     ],
     "middle": [
       "Biber",
+      "Kişniş",
       "Gül",
       "Yasemin",
-      "Kişniş",
       "Sardunya"
     ],
     "base": [
-      "Odunsu Notlar",
+      "Odunsu Notalar",
       "Amber"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "22",
+    "weak": "40",
+    "moderate": "81",
+    "longLasting": "44",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "40",
+    "moderate": "81",
+    "strong": "29",
+    "enormous": "26"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "7",
+    "moreMale": "33",
+    "male": "91"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "33",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "3",
+    "overpriced": "2",
+    "fair": "31",
+    "goodValue": "41",
+    "greatValue": "68"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Sedley"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Maahir Legacy"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "For Men"
+    },
+    {
+      "brand": "MİLTON LLOYD",
+      "name": "America"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Herrera For Men"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "L'Incontournable Blue 2 for Men"
+    },
+    {
+      "brand": "ENGLİSH LAUNDRY",
+      "name": "English Laundry Signature for him"
+    },
+    {
+      "brand": "CARRERA",
+      "name": "Carrera Master"
+    },
+    {
+      "brand": "LORENZO VİLLORESİ",
+      "name": "Piper Nigrum"
+    },
+    {
+      "brand": "MİLTON LLOYD",
+      "name": "America 000"
+    },
+    {
+      "brand": "HOUBİGANT",
+      "name": "Navigator"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "B-612"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "The Lions Club - Valer"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Sport Fresh"
+    },
+    {
+      "brand": "LOOTAH PERFUMES",
+      "name": "Suave"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -173,5 +262,6 @@
       "brand": "LALİQUE",
       "name": "Encre Noire"
     }
-  ]
+  ],
+  "comments": []
 }

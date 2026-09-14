@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Viktor-Rolf/Flowerbomb-Rose-Gold-53044.html",
   "brand": "Viktor&Rolf parfüm ve kolonya",
   "description": "Viktor&Rolf markasının Flowerbomb Rose Gold parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Flowerbomb Rose Gold, 2019 yılında piyasaya sürüldü. Flowerbomb Rose Gold, Olivier Polge, Carlos Benaïm, Dominique Ropion ve Domitille Michalon Bertier tarafından yaratıldı. Üst notalar: Bergamot, Çay ve Osmanthus; orta notalar: Yasemin Sambac, Portakal çiçeği, Frezya, Gül ve Orkide; alt notalar Misk ve Paçuli.",
-  "description_original": "Viktor&Rolf markasının Flowerbomb Rose Gold parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Flowerbomb Rose Gold, 2019 yılında piyasaya sürüldü. Flowerbomb Rose Gold, Olivier Polge, Carlos Benaïm, Dominique Ropion ve Domitille Michalon Bertier tarafından yaratıldı. Üst notalar: Bergamot, Çay ve Osmanthus; orta notalar: Yasemin Sambac, Portakal çiçeği, Frezya, Gül ve Orkide; alt notalar Misk ve Paçuli.",
+  "description_original": "Viktor&Rolf markasının Flowerbomb Rose Gold parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Flowerbomb Rose Gold, 2019 yılında piyasaya sürüldü. Flowerbomb Rose Gold, Olivier Polge, Carlos Benaïm, Dominique Ropion ve Domitille Michalon Bertier tarafından yaratıldı. Üst notalar: Bergamot, Çay ve Osmanthus; orta notalar: Sambac Yasemini, Portakal çiçeği, Frezya, Gül ve Orkide; alt notalar Misk ve Paçuli.",
   "description_enhanced": "Viktor&Rolf markasının Flowerbomb Rose Gold parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Flowerbomb Rose Gold, 2019 yılında piyasaya sürüldü. Flowerbomb Rose Gold, Olivier Polge, Carlos Benaïm, Dominique Ropion ve Domitille Michalon Bertier tarafından yaratıldı. Üst notalar: Bergamot, Çay ve Osmanthus; orta notalar: Yasemin Sambac, Portakal çiçeği, Frezya, Gül ve Orkide; alt notalar Misk ve Paçuli.",
   "mainAccords": [
     {
@@ -23,7 +23,7 @@
       "width": "63.3848%"
     },
     {
-      "name": "misk",
+      "name": "gül",
       "width": "51.5386%"
     },
     {
@@ -31,7 +31,7 @@
       "width": "51.5386%"
     },
     {
-      "name": "gül",
+      "name": "misk",
       "width": "51.5386%"
     },
     {
@@ -39,16 +39,44 @@
       "width": "49.3847%"
     },
     {
-      "name": "meyvemsi",
+      "name": "tatlı",
       "width": "47.2309%"
     },
     {
-      "name": "tatlı",
+      "name": "meyvemsi",
       "width": "47.2309%"
     },
     {
       "name": "yeşil",
       "width": "46.1539%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -77,7 +105,7 @@
       "Osmanthus"
     ],
     "middle": [
-      "Yasemin Sambac",
+      "Sambac Yasemini",
       "Portakal çiçeği",
       "Frezya",
       "Gül",
@@ -90,31 +118,31 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "0",
+    "strong": "4",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -178,5 +206,6 @@
       "brand": "HERMÈS",
       "name": "Eau Claire des Merveilles"
     }
-  ]
+  ],
+  "comments": []
 }

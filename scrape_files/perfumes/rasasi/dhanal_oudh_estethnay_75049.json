@@ -23,11 +23,11 @@
       "width": "73.0034%"
     },
     {
-      "name": "misk",
+      "name": "odunsu",
       "width": "68.2253%"
     },
     {
-      "name": "odunsu",
+      "name": "misk",
       "width": "68.2253%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "balsamik",
       "width": "44.8123%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -91,33 +119,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "4",
+    "longLasting": "4",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "4",
+    "strong": "6",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "6",
+    "moreMale": "1",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "3",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CASAMORATİ 1888",
+      "name": "Lira"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Amber Mystique"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Détour Noir"
+    },
+    {
+      "brand": "SWEDOFT",
+      "name": "Barbarian"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Jubilation XXV Man"
+    },
+    {
+      "brand": "ARQUİSTE",
+      "name": "Misfit"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Rumz Al Rasasi 9453 Pour Lui"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -144,7 +201,7 @@
       "name": "Ombre Nomade"
     },
     {
-      "brand": "MATİERE PREMİERE",
+      "brand": "MATİÈRE PREMİÈRE",
       "name": "Encens Suave"
     },
     {
@@ -156,12 +213,12 @@
       "name": "Oud"
     },
     {
-      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
-      "name": "Patchouli Intense"
-    },
-    {
       "brand": "TAUER PERFUMES",
       "name": "02 L'Air du Desert Marocain"
+    },
+    {
+      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
+      "name": "Patchouli Intense"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -179,5 +236,6 @@
       "brand": "BENTLEY",
       "name": "Bentley for Men Intense"
     }
-  ]
+  ],
+  "comments": []
 }

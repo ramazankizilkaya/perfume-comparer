@@ -49,14 +49,42 @@
     {
       "name": "pudralı",
       "width": "60%"
+    },
+    {
+      "name": "Online satın alın 19 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.50",
-    "votesCount": "16",
+    "score": "3.53",
+    "votesCount": "17",
     "breakdown": {
       "love": "7",
-      "like": "2",
+      "like": "3",
       "ok": "3",
       "dislike": "0",
       "hate": "4"
@@ -64,9 +92,9 @@
   },
   "seasons": {
     "winter": "4",
-    "spring": "3",
+    "spring": "4",
     "summer": "2",
-    "autumn": "4",
+    "autumn": "5",
     "day": "7",
     "night": "3"
   },
@@ -94,33 +122,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "2",
+    "longLasting": "5",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "2",
+    "strong": "6",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "0",
+    "unisex": "5",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CREED",
+      "name": "Queen of Silk"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Kiaana Crush"
+    },
+    {
+      "brand": "RİSALA",
+      "name": "Ameera"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Venti Silky Princess"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Avant Silk"
+    },
+    {
+      "brand": "RİİFFS PERFUMES",
+      "name": "Areebah"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "PARIS CORNER",
@@ -182,5 +235,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Nebras"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -19,11 +19,11 @@
       "width": "89.3313%"
     },
     {
-      "name": "amber",
+      "name": "ud",
       "width": "72.9825%"
     },
     {
-      "name": "ud",
+      "name": "amber",
       "width": "72.9825%"
     },
     {
@@ -55,7 +55,7 @@
     }
   },
   "seasons": {
-    "winter": "20",
+    "winter": "21",
     "spring": "7",
     "summer": "3",
     "autumn": "19",
@@ -74,46 +74,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "0",
-    "moderate": "5",
-    "longLasting": "10",
-    "eternal": "10"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "8",
-    "moderate": "5",
-    "strong": "4",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "18",
-    "moreMale": "4",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "13",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "6",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUCCİ",
-      "name": "Gucci Guilty Absolute"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Armani Privé Oud Royal"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "The Night"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUCCİ",
@@ -122,6 +109,10 @@
     {
       "brand": "TOM FORD",
       "name": "Tuscan Leather"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Les Exclusifs de Chanel Cuir de Russie"
     },
     {
       "brand": "NASOMATTO",
@@ -141,15 +132,7 @@
     },
     {
       "brand": "TOM FORD",
-      "name": "Soleil Brûlant"
-    },
-    {
-      "brand": "TOM FORD",
       "name": "Noir de Noir"
-    },
-    {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "By the Fireplace"
     },
     {
       "brand": "SERGE LUTENS",
@@ -160,8 +143,8 @@
       "name": "Tobacco Vanille"
     },
     {
-      "brand": "GUCCİ",
-      "name": "A Midnight Stroll"
+      "brand": "TAUER PERFUMES",
+      "name": "02 L'Air du Desert Marocain"
     },
     {
       "brand": "BY KİLİAN",
@@ -174,6 +157,11 @@
     {
       "brand": "MUGLER",
       "name": "A*Men Pure Malt"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Beau De Jour Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

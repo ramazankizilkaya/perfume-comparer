@@ -16,59 +16,87 @@
     },
     {
       "name": "iris",
-      "width": "93.5721%"
+      "width": "95.1164%"
     },
     {
       "name": "pudralı",
-      "width": "91.0294%"
-    },
-    {
-      "name": "rom",
-      "width": "71.8165%"
+      "width": "92.6743%"
     },
     {
       "name": "menekşe",
-      "width": "71.675%"
+      "width": "73.4106%"
+    },
+    {
+      "name": "rom",
+      "width": "71.2403%"
     },
     {
       "name": "toprak",
-      "width": "70.1212%"
+      "width": "70.1552%"
     },
     {
       "name": "vanilya",
-      "width": "60.232%"
+      "width": "60.3874%"
     },
     {
       "name": "narenciye",
-      "width": "52.7445%"
+      "width": "51.8412%"
     },
     {
       "name": "yosunlu",
-      "width": "46.9527%"
+      "width": "46.2791%"
     },
     {
       "name": "tatlı",
-      "width": "44.5511%"
+      "width": "44.3801%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.52",
-    "votesCount": "122",
+    "score": "4.53",
+    "votesCount": "135",
     "breakdown": {
-      "love": "76",
-      "like": "35",
-      "ok": "10",
-      "dislike": "1",
+      "love": "84",
+      "like": "40",
+      "ok": "9",
+      "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "86",
-    "spring": "28",
-    "summer": "6",
-    "autumn": "81",
-    "day": "39",
-    "night": "79"
+    "winter": "99",
+    "spring": "33",
+    "summer": "8",
+    "autumn": "93",
+    "day": "46",
+    "night": "91"
   },
   "notes": {
     "top": [
@@ -91,33 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "9",
+    "moderate": "65",
+    "longLasting": "22",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "16",
+    "moderate": "65",
+    "strong": "5",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "25",
+    "male": "67"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "1",
+    "fair": "9",
+    "goodValue": "20",
+    "greatValue": "73"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Parfum Reserve Privée"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2011"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "INEKAS LUNA"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "His Confession"
+    },
+    {
+      "brand": "AVATİM",
+      "name": "Seleto"
+    },
+    {
+      "brand": "RİİFFS PERFUMES",
+      "name": "Vendôme"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Qaa'ed Intense"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Genuine Man Giovany Reserve"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Parfum"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Toilette Intense"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essencial Elixir"
+    },
+    {
+      "brand": "AXE",
+      "name": "Gold (Oud Wood and Dark Vanilla)"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Ani"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Liam"
+    },
+    {
+      "brand": "RAYHAAN",
+      "name": "Obsidian"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON ALHAMBRA",
@@ -130,6 +219,10 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad Elixir"
     },
     {
       "brand": "ARMAF",
@@ -148,12 +241,12 @@
       "name": "Ramz Lattafa Silver"
     },
     {
-      "brand": "ARMAF",
-      "name": "Club De Nuit Urban Elixir"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad Bourbon"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club De Nuit Urban Elixir"
     },
     {
       "brand": "MAİSON ALHAMBRA",
@@ -172,12 +265,9 @@
       "name": "Club de Nuit Intense Man"
     },
     {
-      "brand": "ARMAF",
-      "name": "Odyssey Mandarin Sky"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Atlas"
+      "brand": "RASASİ",
+      "name": "Hawas Ice"
     }
-  ]
+  ],
+  "comments": []
 }

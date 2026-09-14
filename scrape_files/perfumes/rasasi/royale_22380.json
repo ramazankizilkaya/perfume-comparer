@@ -49,13 +49,41 @@
     {
       "name": "misk",
       "width": "53.0137%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.80",
-    "votesCount": "148",
+    "score": "3.81",
+    "votesCount": "150",
     "breakdown": {
-      "love": "43",
+      "love": "45",
       "like": "62",
       "ok": "16",
       "dislike": "24",
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "36",
-    "spring": "74",
-    "summer": "66",
+    "spring": "75",
+    "summer": "68",
     "autumn": "53",
-    "day": "68",
+    "day": "69",
     "night": "29"
   },
   "notes": {
@@ -88,33 +116,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "17",
+    "moderate": "27",
+    "longLasting": "60",
+    "eternal": "27"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "27",
+    "strong": "81",
+    "enormous": "24"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "12",
+    "male": "57"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "16",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "16",
+    "greatValue": "42"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUY LAROCHE",
+      "name": "Drakkar Noir"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Dakar"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "Woods"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Sheikh Eau de Parfum"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Edge"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Nobile"
+    },
+    {
+      "brand": "TOM TAİLOR",
+      "name": "Tom Tailor For Him Eau de Toilette"
+    },
+    {
+      "brand": "POLİCE",
+      "name": "To Be Green"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Ehsas"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DAVİDOFF",
@@ -176,5 +241,6 @@
       "brand": "MANCERA",
       "name": "Cedrat Boise"
     }
-  ]
+  ],
+  "comments": []
 }

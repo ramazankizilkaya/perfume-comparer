@@ -49,6 +49,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "52.9329%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -81,33 +109,58 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "16",
+    "weak": "36",
+    "moderate": "44",
+    "longLasting": "34",
+    "eternal": "12"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "63",
+    "moderate": "44",
+    "strong": "45",
+    "enormous": "33"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "4",
+    "unisex": "52",
+    "moreMale": "19",
+    "male": "12"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "15",
     "fair": "47",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "11",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "L'Eau de Paille"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Bleu de Chanel Eau de Parfum"
+    },
+    {
+      "brand": "SANTA MARİA NOVELLA",
+      "name": "Fieno (Hay)"
+    },
+    {
+      "brand": "RAMMSTEİN",
+      "name": "Engel Pure"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Egoiste Platinum"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "L'Eau d'Armoise"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -169,5 +222,6 @@
       "brand": "SERGE LUTENS",
       "name": "Santal Majuscule"
     }
-  ]
+  ],
+  "comments": []
 }

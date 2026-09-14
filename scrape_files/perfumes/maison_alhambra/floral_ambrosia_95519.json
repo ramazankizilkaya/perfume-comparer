@@ -27,8 +27,36 @@
       "width": "41.0937%"
     },
     {
-      "name": "meyvemsi",
+      "name": "gül",
       "width": "40.9375%"
+    },
+    {
+      "name": "Online satın alın 13 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,11 +71,11 @@
     }
   },
   "seasons": {
-    "winter": "10",
-    "spring": "24",
-    "summer": "18",
+    "winter": "11",
+    "spring": "25",
+    "summer": "19",
     "autumn": "13",
-    "day": "19",
+    "day": "20",
     "night": "12"
   },
   "notes": {
@@ -65,33 +93,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "5",
+    "moderate": "15",
+    "longLasting": "4",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "11",
+    "moderate": "15",
+    "strong": "6",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "24",
+    "moreFemale": "4",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "8",
+    "greatValue": "16"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Bloom Ambrosia di Fiori"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Bloom"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "MYSLF L’Absolu"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Chic"
+    },
+    {
+      "brand": "KİM KARDASHİAN",
+      "name": "Kim Kardashian"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Floral Profumo"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Narissa Ambre"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -102,20 +159,20 @@
       "name": "Floral Profumo"
     },
     {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Kismet for Women"
+    },
+    {
       "brand": "MUGLER",
       "name": "Alien"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Her Confession"
+      "name": "Qimmah for Women"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Haya"
-    },
-    {
-      "brand": "ASDAAF",
-      "name": "Ameerat Al Arab"
+      "brand": "GİVENCHY",
+      "name": "Ysatis"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -126,20 +183,16 @@
       "name": "Poison"
     },
     {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez For Her"
+    },
+    {
       "brand": "MAİSON ALHAMBRA",
       "name": "Athena"
     },
     {
-      "brand": "AFNAN",
-      "name": "Mystique Bouquet"
-    },
-    {
       "brand": "MAİSON ALHAMBRA",
       "name": "Delilah"
-    },
-    {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Narissa Ambre"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -152,6 +205,11 @@
     {
       "brand": "CALVİN KLEİN",
       "name": "Obsession"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara"
     }
-  ]
+  ],
+  "comments": []
 }

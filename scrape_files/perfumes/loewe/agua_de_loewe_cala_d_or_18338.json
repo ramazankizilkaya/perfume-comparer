@@ -33,26 +33,54 @@
     {
       "name": "odunsu",
       "width": "44.6116%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.15",
-    "votesCount": "84",
+    "score": "4.13",
+    "votesCount": "85",
     "breakdown": {
       "love": "29",
       "like": "46",
       "ok": "2",
-      "dislike": "7",
+      "dislike": "8",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "",
-    "spring": "",
-    "summer": "",
-    "autumn": "",
-    "day": "",
-    "night": ""
+    "winter": "2",
+    "spring": "25",
+    "summer": "44",
+    "autumn": "7",
+    "day": "44",
+    "night": "5"
   },
   "notes": {
     "top": [
@@ -76,31 +104,31 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "4",
+    "moderate": "17",
+    "longLasting": "15",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "17",
+    "strong": "14",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "6",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "1"
   },
   "remindsMeOf": [
     {
@@ -112,12 +140,12 @@
       "name": "DKNY Delicious Delights Cool Swirl"
     },
     {
-      "brand": "CHANEL",
-      "name": "Egoiste Platinum"
-    },
-    {
       "brand": "SALVATORE FERRAGAMO",
       "name": "F by Ferragamo Free Time"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Egoiste Platinum"
     },
     {
       "brand": "LACOSTE FRAGRANCES",
@@ -225,5 +253,6 @@
       "brand": "CREED",
       "name": "Aventus"
     }
-  ]
+  ],
+  "comments": []
 }

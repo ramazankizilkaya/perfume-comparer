@@ -61,50 +61,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "0",
-    "moderate": "1",
-    "longLasting": "3",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "1",
-    "strong": "1",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "5",
-    "moreMale": "2",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "LE LABO",
-      "name": "Another 13"
-    },
-    {
-      "brand": "FUEGUİA 1833",
-      "name": "Muskara Phero J"
-    },
-    {
-      "brand": "AETHER",
-      "name": "Xtraem"
-    },
-    {
-      "brand": "ARQUİSTE",
-      "name": "Peau"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "LE LABO",
@@ -113,6 +96,10 @@
     {
       "brand": "DS&DURGA",
       "name": "Durga"
+    },
+    {
+      "brand": "DS&DURGA",
+      "name": "Radio Bombay"
     },
     {
       "brand": "MOLİNARD",
@@ -161,10 +148,7 @@
     {
       "brand": "FUEGUİA 1833",
       "name": "Oud Jazmín"
-    },
-    {
-      "brand": "FUEGUİA 1833",
-      "name": "Humboldt"
     }
-  ]
+  ],
+  "comments": []
 }

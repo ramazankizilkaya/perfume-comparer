@@ -43,7 +43,7 @@
     }
   },
   "seasons": {
-    "winter": "9",
+    "winter": "10",
     "spring": "26",
     "summer": "27",
     "autumn": "12",
@@ -60,42 +60,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "3",
-    "moderate": "12",
-    "longLasting": "12",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "12",
-    "strong": "7",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "10",
-    "moreFemale": "6",
-    "unisex": "15",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "4",
-    "overpriced": "9",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "8",
-    "goodValue": "3",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ATELİER MATERİ",
-      "name": "Narcisse Taiji"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Paris – Riviera"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "TOM FORD",
@@ -157,5 +148,6 @@
       "brand": "GİVENCHY",
       "name": "MMW"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -31,11 +31,11 @@
       "width": "65%"
     },
     {
-      "name": "tatlı",
+      "name": "vanilya",
       "width": "62.941%"
     },
     {
-      "name": "vanilya",
+      "name": "tatlı",
       "width": "62.941%"
     },
     {
@@ -45,26 +45,54 @@
     {
       "name": "tropikal",
       "width": "48.5293%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.80",
-    "votesCount": "5",
+    "score": "4.00",
+    "votesCount": "9",
     "breakdown": {
-      "love": "3",
-      "like": "0",
+      "love": "4",
+      "like": "3",
       "ok": "0",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "2",
-    "spring": "1",
-    "summer": "1",
-    "autumn": "2",
-    "day": "2",
-    "night": "0"
+    "winter": "4",
+    "spring": "2",
+    "summer": "2",
+    "autumn": "4",
+    "day": "3",
+    "night": "1"
   },
   "notes": {
     "top": [
@@ -82,7 +110,7 @@
   },
   "longevity": {
     "veryWeak": "0",
-    "weak": "0",
+    "weak": "2",
     "moderate": "0",
     "longLasting": "1",
     "eternal": "0"
@@ -94,7 +122,7 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "1",
+    "female": "3",
     "moreFemale": "1",
     "unisex": "0",
     "moreMale": "0",
@@ -104,10 +132,18 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "1",
+    "greatValue": "1"
   },
   "remindsMeOf": [
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Sizzling Vanilla"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Spiced Vanilla Crème"
+    },
     {
       "brand": "VİCTORİA'S SECRET",
       "name": "Vanilla Bean & Macadamia Indulge"
@@ -118,5 +154,6 @@
       "brand": "VİCTORİA'S SECRET",
       "name": "Milky Madeleine"
     }
-  ]
+  ],
+  "comments": []
 }

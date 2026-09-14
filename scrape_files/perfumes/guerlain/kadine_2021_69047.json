@@ -87,86 +87,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "7",
-    "longLasting": "5",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "7",
-    "strong": "2",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "10",
-    "moreFemale": "0",
-    "unisex": "7",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "13",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Apres l'Ondee"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Après L'Ondée Eau de Toilette"
-    },
-    {
-      "brand": "GİORGİO BEVERLY HİLLS",
-      "name": "Giorgio"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Kadine"
-    },
-    {
-      "brand": "REVLON",
-      "name": "Charlie"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Opium Parfum"
-    },
-    {
-      "brand": "LOLİTA LEMPİCKA",
-      "name": "Lolita Lempicka"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Samsara Eau de Parfum"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "Trésor"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "Magie Noire Parfum"
-    },
-    {
-      "brand": "GRÈS",
-      "name": "Cabochard Parfum"
-    },
-    {
-      "brand": "CASAMORATİ 1888",
-      "name": "Corallo"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "L’Heure Bleue Extract"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -181,12 +128,12 @@
       "name": "La Peau Nue"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Fol Arôme (2020)"
-    },
-    {
       "brand": "CELİNE",
       "name": "Black Tie"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Fol Arôme (2020)"
     },
     {
       "brand": "CHANEL",
@@ -228,5 +175,6 @@
       "brand": "BDK PARFUMS",
       "name": "Gris Charnel"
     }
-  ]
+  ],
+  "comments": []
 }

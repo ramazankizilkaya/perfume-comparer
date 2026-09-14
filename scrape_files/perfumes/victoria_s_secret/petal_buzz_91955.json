@@ -29,6 +29,34 @@
     {
       "name": "aromatik",
       "width": "44.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -47,7 +75,7 @@
     "spring": "13",
     "summer": "11",
     "autumn": "7",
-    "day": "15",
+    "day": "16",
     "night": "4"
   },
   "notes": {
@@ -87,7 +115,12 @@
     "goodValue": "5",
     "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GAP",
+      "name": "So Pink"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "JO MALONE LONDON",
@@ -147,7 +180,8 @@
     },
     {
       "brand": "BATH & BODY WORKS",
-      "name": "Forever Red"
+      "name": "Warm Vanilla Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

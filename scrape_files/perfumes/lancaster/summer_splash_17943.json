@@ -49,6 +49,34 @@
     {
       "name": "sabunsu",
       "width": "45.9174%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,33 +112,78 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "16",
+    "weak": "10",
+    "moderate": "13",
+    "longLasting": "3",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "23",
+    "moderate": "13",
+    "strong": "6",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "3",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MİCHAEL KORS",
+      "name": "Island Hawaii"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Pur Desir de Fleur d'Oranger"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Classique Pin Up"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Matin Blanc"
+    },
+    {
+      "brand": "EPC EXPERİMENTAL PERFUME CLUB",
+      "name": "Fleur d’Ambre"
+    },
+    {
+      "brand": "LA MANUFACTURE",
+      "name": "Cologne Precieuse"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Sunkissed"
+    },
+    {
+      "brand": "AVON",
+      "name": "Today Tomorrow Always Heart"
+    },
+    {
+      "brand": "LE LABO",
+      "name": "Neroli 36"
+    },
+    {
+      "brand": "DSQUARED²",
+      "name": "She Wood Golden Light Wood"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "Giordani Gold Essenza"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -172,5 +245,6 @@
       "brand": "CARTİER",
       "name": "La Panthere"
     }
-  ]
+  ],
+  "comments": []
 }

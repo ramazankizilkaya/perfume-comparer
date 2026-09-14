@@ -61,46 +61,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "6",
-    "longLasting": "2",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "7",
-    "moderate": "6",
-    "strong": "0",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "9",
-    "moreMale": "4",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "4",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "9",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "TRUDON",
-      "name": "II"
-    },
-    {
-      "brand": "ANGELA CİAMPAGNA",
-      "name": "Nox"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Un Jardin Sur Le Toit"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "FUEGUİA 1833",
@@ -135,16 +122,12 @@
       "name": "French Lover"
     },
     {
-      "brand": "PROFUMUM ROMA",
-      "name": "Victrix"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "Tempo Eau de Parfum"
-    },
-    {
       "brand": "FUEGUİA 1833",
       "name": "Milonga Verde"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Beach Hut Man"
     },
     {
       "brand": "AMOUAGE",
@@ -161,6 +144,11 @@
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Musc Ravageur"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Chergui"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -37,6 +37,10 @@
     {
       "name": "pudralı",
       "width": "46.5455%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -76,65 +80,37 @@
       "Sandal ağacı",
       "Cypriol Yağı veya Nagarmotha",
       "Olibanum"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "6",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "6",
-    "strong": "1",
-    "enormous": "4"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "XERJOFF",
-      "name": "Zafar"
-    },
-    {
-      "brand": "GRİTTİ",
-      "name": "Damascus"
-    },
-    {
-      "brand": "CREED",
-      "name": "Royal Oud"
-    },
-    {
-      "brand": "AROMAS DE SALAZAR",
-      "name": "Oud is My Love Language"
-    },
-    {
-      "brand": "YEYE PARFUMS",
-      "name": "Equus No 8"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Tobacco Vanille"
-    },
-    {
-      "brand": "L'ARTİSAN PARFUMEUR",
-      "name": "Al Oudh"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "TOM FORD",
@@ -196,5 +172,6 @@
       "brand": "CREED",
       "name": "Aventus"
     }
-  ]
+  ],
+  "comments": []
 }

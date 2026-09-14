@@ -27,7 +27,7 @@
       "width": "53.3333%"
     },
     {
-      "name": "yeşil",
+      "name": "pudralı",
       "width": "37%"
     }
   ],
@@ -60,38 +60,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "1",
-    "moderate": "3",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "3",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "6",
-    "moreFemale": "2",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "5",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Elixir"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "MUGLER",
@@ -153,5 +148,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Cactus Blossom"
     }
-  ]
+  ],
+  "comments": []
 }

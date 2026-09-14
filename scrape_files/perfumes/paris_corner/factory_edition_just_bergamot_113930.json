@@ -29,25 +29,53 @@
     {
       "name": "misk",
       "width": "45.5556%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.18",
-    "votesCount": "60",
+    "score": "4.19",
+    "votesCount": "63",
     "breakdown": {
-      "love": "27",
+      "love": "29",
       "like": "23",
-      "ok": "6",
+      "ok": "7",
       "dislike": "2",
       "hate": "2"
     }
   },
   "seasons": {
     "winter": "4",
-    "spring": "33",
-    "summer": "35",
+    "spring": "36",
+    "summer": "37",
     "autumn": "7",
-    "day": "31",
+    "day": "33",
     "night": "5"
   },
   "notes": {
@@ -69,33 +97,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "10",
+    "moderate": "19",
+    "longLasting": "3",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "19",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "2",
+    "unisex": "32",
+    "moreMale": "3",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "7",
+    "goodValue": "15",
+    "greatValue": "11"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LE LABO",
+      "name": "Bergamote 22"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "22 Shades of Bergamot"
+    },
+    {
+      "brand": "VALEUR ABSOLUE",
+      "name": "Joie-Eclat"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Colognise"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Eau de Givenchy (2018)"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Bergamote Fantastico Extrait 11"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -157,5 +210,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Liam"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,13 +49,41 @@
     {
       "name": "animalik",
       "width": "54.75%"
+    },
+    {
+      "name": "Online satın alın 12 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.77",
-    "votesCount": "35",
+    "score": "3.81",
+    "votesCount": "36",
     "breakdown": {
-      "love": "12",
+      "love": "13",
       "like": "12",
       "ok": "4",
       "dislike": "5",
@@ -93,33 +121,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "4",
+    "longLasting": "19",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "4",
+    "strong": "17",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "14",
+    "moreMale": "9",
+    "male": "8"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "1",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "16"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MAİSON CRİVELLİ",
+      "name": "Oud Cadenza"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Cocoa Morado"
+    },
+    {
+      "brand": "ARABİYAT PRESTİGE",
+      "name": "Swar Seduire"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Bottled Oud Saffron"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "8th Wonder"
+    },
+    {
+      "brand": "ROBERTO CAVALLİ",
+      "name": "Serpentine Noir"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Voyage Brown"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Imperial Ocean"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "FRENCH AVENUE",
@@ -134,24 +195,12 @@
       "name": "Asad"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Hercules"
-    },
-    {
-      "brand": "PARIS CORNER",
-      "name": "Mysterium"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Eternal Oud"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Teriaq Intense"
-    },
-    {
-      "brand": "TİZİANA TERENZİ",
-      "name": "Laudano Nero"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -171,15 +220,28 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Kashan"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
       "name": "La Collection d'antiquités 1505"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Honor & Glory"
+    },
+    {
+      "brand": "RUE BROCA",
+      "name": "Théorème Homme"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Mehwish"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Cosmic Giardino"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Taskeen Lactéa Divina"
     }
-  ]
+  ],
+  "comments": []
 }

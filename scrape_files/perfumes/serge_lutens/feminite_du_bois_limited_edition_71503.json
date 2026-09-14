@@ -16,44 +16,68 @@
     },
     {
       "name": "meyvemsi",
-      "width": "72.8797%"
+      "width": "70.5534%"
     },
     {
       "name": "pudralı",
-      "width": "71.7799%"
+      "width": "66.6788%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "61.5183%"
+      "width": "64.6127%"
     },
     {
       "name": "tatlı",
-      "width": "61.5183%"
-    },
-    {
-      "name": "misk",
-      "width": "51.9897%"
-    },
-    {
-      "name": "vanilya",
-      "width": "47.2251%"
+      "width": "57.3799%"
     },
     {
       "name": "tarçın",
-      "width": "44.6596%"
+      "width": "50.6642%"
     },
     {
       "name": "gül",
-      "width": "44.6596%"
+      "width": "45.4981%"
+    },
+    {
+      "name": "misk",
+      "width": "45.4981%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.03",
-    "votesCount": "59",
+    "votesCount": "62",
     "breakdown": {
-      "love": "26",
-      "like": "18",
-      "ok": "8",
+      "love": "27",
+      "like": "19",
+      "ok": "9",
       "dislike": "5",
       "hate": "2"
     }
@@ -62,8 +86,8 @@
     "winter": "20",
     "spring": "4",
     "summer": "3",
-    "autumn": "22",
-    "day": "16",
+    "autumn": "23",
+    "day": "17",
     "night": "12"
   },
   "notes": {
@@ -90,33 +114,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "4",
+    "moderate": "10",
+    "longLasting": "2",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "10",
+    "strong": "2",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "10",
+    "unisex": "8",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "4",
+    "fair": "9",
+    "goodValue": "4",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Feminité du Bois"
+    },
+    {
+      "brand": "SHİSEİDO",
+      "name": "Feminite du Bois"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dolce Vita"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Egoiste"
+    },
+    {
+      "brand": "JOHN VARVATOS",
+      "name": "John Varvatos"
+    },
+    {
+      "brand": "BOTTEGA VENETA",
+      "name": "Bottega Veneta Eau de Velours"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Modern Muse Chic"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -132,7 +185,7 @@
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "Santal Majuscule"
+      "name": "Fille en Aiguilles"
     },
     {
       "brand": "MUGLER",
@@ -140,11 +193,15 @@
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "Fille en Aiguilles"
+      "name": "Five O'Clock Au Gingembre"
     },
     {
       "brand": "SERGE LUTENS",
       "name": "La Couche du Diable"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Kenzo Jungle L'Elephant"
     },
     {
       "brand": "GUERLAİN",
@@ -152,15 +209,7 @@
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "Five O'Clock Au Gingembre"
-    },
-    {
-      "brand": "SERGE LUTENS",
       "name": "Un Bois Vanille"
-    },
-    {
-      "brand": "KENZO",
-      "name": "Kenzo Jungle L'Elephant"
     },
     {
       "brand": "SERGE LUTENS",
@@ -176,7 +225,12 @@
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "Datura Noir"
+      "name": "De Profundis"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Ambre Sultan"
     }
-  ]
+  ],
+  "comments": []
 }

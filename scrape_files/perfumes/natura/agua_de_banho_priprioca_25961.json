@@ -49,25 +49,53 @@
     {
       "name": "taze baharatlı",
       "width": "52.1091%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "219",
+    "score": "3.99",
+    "votesCount": "222",
     "breakdown": {
-      "love": "91",
-      "like": "75",
+      "love": "92",
+      "like": "76",
       "ok": "14",
-      "dislike": "39",
+      "dislike": "40",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "28",
-    "spring": "65",
+    "spring": "66",
     "summer": "64",
     "autumn": "50",
-    "day": "83",
+    "day": "84",
     "night": "31"
   },
   "notes": {
@@ -88,33 +116,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "12",
+    "weak": "15",
+    "moderate": "41",
+    "longLasting": "9",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "22",
+    "moderate": "41",
+    "strong": "11",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "13",
+    "moreFemale": "9",
+    "unisex": "40",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "14",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "23",
+    "greatValue": "14"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Ekos Raiz"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Priprioca Parfum Perfume do Brasil"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Água de Banho Rara Priprioca"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Flor da Manhã"
+    },
+    {
+      "brand": "AMYİ",
+      "name": "Amyi 3.17"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Thé Yulong"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -146,10 +199,6 @@
     },
     {
       "brand": "NATURA",
-      "name": "Mamãe e Bebê"
-    },
-    {
-      "brand": "NATURA",
       "name": "Frescor de Maracujá"
     },
     {
@@ -165,6 +214,10 @@
       "name": "Humor 1"
     },
     {
+      "brand": "NATURA",
+      "name": "Essencial Exclusivo Floral"
+    },
+    {
       "brand": "SALVADOR DALİ",
       "name": "Laguna"
     },
@@ -176,5 +229,6 @@
       "brand": "NATURA",
       "name": "Essencial Exclusivo"
     }
-  ]
+  ],
+  "comments": []
 }

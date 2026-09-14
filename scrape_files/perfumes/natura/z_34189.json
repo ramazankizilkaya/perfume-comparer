@@ -49,13 +49,41 @@
     {
       "name": "taze",
       "width": "50.811%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.32",
-    "votesCount": "98",
+    "score": "4.34",
+    "votesCount": "101",
     "breakdown": {
-      "love": "47",
+      "love": "50",
       "like": "42",
       "ok": "3",
       "dislike": "5",
@@ -67,7 +95,7 @@
     "spring": "47",
     "summer": "50",
     "autumn": "26",
-    "day": "56",
+    "day": "57",
     "night": "15"
   },
   "notes": {
@@ -94,33 +122,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "8",
+    "moderate": "21",
+    "longLasting": "8",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "21",
+    "strong": "10",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "12",
+    "moreFemale": "4",
+    "unisex": "14",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "11",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Intense Cool!"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Dr. Botica Poção da Coragem"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Club 6 Fever"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Individuel"
+    },
+    {
+      "brand": "COTY",
+      "name": "Pret a Porter"
+    },
+    {
+      "brand": "AL WATANİAH",
+      "name": "Durrat Al Aroos"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -132,15 +185,15 @@
     },
     {
       "brand": "NATURA",
-      "name": "Mamãe e Bebê"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Kriska Jeans"
+      "name": "Revelar"
     },
     {
       "brand": "O BOTİCÁRİO",
       "name": "Insensatez"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kriska Jeans"
     },
     {
       "brand": "NATURA",
@@ -182,5 +235,6 @@
       "brand": "CALVİN KLEİN",
       "name": "Euphoria"
     }
-  ]
+  ],
+  "comments": []
 }

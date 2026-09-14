@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Serge-Lutens/Zellige-Limited-Edition-Fleurs-d-Oranger-60631.html",
   "brand": "Serge Lutens parfüm ve kolonya",
   "description": "Serge Lutens markasının Zellige Limited Edition: Fleurs d'Oranger parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Zellige Limited Edition: Fleurs d'Oranger, 2020 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christopher Sheldrake. Kokuda Yasemin, Portakal çiçeği, Sümbülteber, Narenciye, Kimyon, Muskat, Hibisküs ve Beyaz Gül notaları bulunur.",
-  "description_original": "Serge Lutens markasının Zellige Limited Edition: Fleurs d'Oranger parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Zellige Limited Edition: Fleurs d'Oranger, 2020 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christopher Sheldrake. Kokuda Yasemin, Portakal çiçeği, Sümbülteber, Narenciye, Kimyon, Muskat, Hibisküs ve Beyaz Gül notaları bulunur.",
+  "description_original": "Serge Lutens markasının Zellige Limited Edition: Fleurs d'Oranger parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Zellige Limited Edition: Fleurs d'Oranger, 2020 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christopher Sheldrake. Kokuda Portakal çiçeği, Yasemin, Sümbülteber, Narenciye, Kimyon, Muskat, Hibisküs ve Beyaz Gül notaları bulunur.",
   "description_enhanced": "Serge Lutens markasının Zellige Limited Edition: Fleurs d'Oranger parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Zellige Limited Edition: Fleurs d'Oranger, 2020 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christopher Sheldrake. Kokuda Yasemin, Portakal çiçeği, Sümbülteber, Narenciye, Kimyon, Muskat, Hibisküs ve Beyaz Gül notaları bulunur.",
   "mainAccords": [
     {
@@ -29,6 +29,34 @@
     {
       "name": "tüberöz",
       "width": "43.7256%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -55,8 +83,8 @@
     "middle": [],
     "base": [],
     "all": [
-      "Yasemin",
       "Portakal çiçeği",
+      "Yasemin",
       "Sümbülteber",
       "Narenciye",
       "Kimyon",
@@ -66,33 +94,58 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "13",
+    "longLasting": "13",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "13",
+    "strong": "13",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "3",
+    "unisex": "17",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "3",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Fleurs d'Oranger"
+    },
+    {
+      "brand": "OSCAR DE LA RENTA",
+      "name": "Orange Flower"
+    },
+    {
+      "brand": "BOUCHERON",
+      "name": "Boucheron Fleurs"
+    },
+    {
+      "brand": "AVON",
+      "name": "Falling In Love With Neroli & Iris"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Do Son Eau de Toilette"
+    },
+    {
+      "brand": "GOUTAL",
+      "name": "Songes"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -154,5 +207,6 @@
       "brand": "MUGLER",
       "name": "Angel Muse"
     }
-  ]
+  ],
+  "comments": []
 }

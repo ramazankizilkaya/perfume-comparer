@@ -1,7 +1,7 @@
 {
   "name": "Cashmere Orchid Victoria's Secret",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Oriental",
+  "fragranceFamily": "Floral",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.115110.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Victoria-s-Secret/Cashmere-Orchid-115110.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Victoria's Secret markasının Cashmere Orchid parfümü, kadınlar için bir kokudur. Bu yeni bir parfüm. Cashmere Orchid, 2025 yılında piyasaya sürüldü. Kokuda Vanilya, Yasemin, Orkide ve Kayısı notaları bulunur.",
   "mainAccords": [
     {
-      "name": "vanilya",
+      "name": "beyaz çiçeksi",
       "width": "100%"
     },
     {
-      "name": "beyaz çiçeksi",
+      "name": "vanilya",
       "width": "100%"
     },
     {
@@ -31,16 +31,44 @@
       "width": "81.3334%"
     },
     {
-      "name": "meyvemsi",
+      "name": "laktonik",
       "width": "57.9998%"
     },
     {
-      "name": "laktonik",
+      "name": "meyvemsi",
       "width": "57.9998%"
     },
     {
       "name": "yumuşak baharatlı",
       "width": "44.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -55,7 +83,7 @@
     }
   },
   "seasons": {
-    "winter": "6",
+    "winter": "7",
     "spring": "8",
     "summer": "7",
     "autumn": "6",
@@ -74,14 +102,14 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "4",
+    "veryWeak": "2",
+    "weak": "3",
     "moderate": "4",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "4",
+    "intimate": "5",
     "moderate": "4",
     "strong": "1",
     "enormous": "0"
@@ -100,7 +128,32 @@
     "goodValue": "4",
     "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Morocco Orchid & Pink Amber"
+    },
+    {
+      "brand": "PHİLOSOPHY",
+      "name": "Fresh Cream Warm Cashmere"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Very Sexy Orchid"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Winter Orchid"
+    },
+    {
+      "brand": "PHLUR",
+      "name": "Vanilla Nectar"
+    },
+    {
+      "brand": "JEAN MARC PARİS",
+      "name": "Sexy Love Secret"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "KAYALİ FRAGRANCES",
@@ -131,28 +184,28 @@
       "name": "Shams Al Emarat Pink Blush"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Vanilla Lace"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Angham"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Eclaire"
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Vanilla Lace"
     },
     {
       "brand": "NEMAT INTERNATİONAL",
       "name": "Vanilla Musk"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Bare Vanilla"
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl Suprême"
     },
     {
       "brand": "VİCTORİA'S SECRET",
       "name": "Coconut Passion"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bare Vanilla"
     },
     {
       "brand": "ARİANA GRANDE",
@@ -162,5 +215,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "The Only One"
     }
-  ]
+  ],
+  "comments": []
 }

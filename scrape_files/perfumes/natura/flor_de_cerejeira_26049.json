@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Natura/Flor-de-Cerejeira-26049.html",
   "brand": "Natura parfüm ve kolonya",
   "description": "Natura markasının Flor de Cerejeira parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi bir kokudur. Üst notalar: Litchi ve Elma; orta notalar: Kiraz çiçeği ve Gül; alt notalar Amber ve Odunsu Notlar.",
-  "description_original": "Natura markasının Flor de Cerejeira parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi bir kokudur. Üst notalar: Litchi ve Elma; orta notalar: Kiraz çiçeği ve Gül; alt notalar Amber ve Odunsu Notlar.",
+  "description_original": "Natura markasının Flor de Cerejeira parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi bir kokudur. Üst notalar: Litchi ve Elma; orta notalar: Kiraz çiçeği ve Gül; alt notalar Amber ve Odunsu Notalar.",
   "description_enhanced": "Natura markasının Flor de Cerejeira parfümü, kadınlar ve erkekler için Çiçeksi Meyvemsi bir kokudur. Üst notalar: Litchi ve Elma; orta notalar: Kiraz çiçeği ve Gül; alt notalar Amber ve Odunsu Notlar.",
   "mainAccords": [
     {
@@ -33,14 +33,42 @@
     {
       "name": "gül",
       "width": "46.7786%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.17",
-    "votesCount": "96",
+    "votesCount": "95",
     "breakdown": {
       "love": "38",
-      "like": "45",
+      "like": "44",
       "ok": "4",
       "dislike": "9",
       "hate": "0"
@@ -65,38 +93,79 @@
     ],
     "base": [
       "Amber",
-      "Odunsu Notlar"
+      "Odunsu Notalar"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "17",
+    "moderate": "16",
+    "longLasting": "1",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "16",
+    "strong": "3",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "2",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "A Thousand Wishes"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Cinéma"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Addict Eau Delice"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Fleurs De Cerisier"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "Fire"
+    },
+    {
+      "brand": "GRÈS",
+      "name": "Cabotine Rose"
+    },
+    {
+      "brand": "BOUCHERON",
+      "name": "Trouble"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor 5"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Nina L’Eau"
+    },
+    {
+      "brand": "PHEBO",
+      "name": "Flor de Lavanda"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CALVİN KLEİN",
@@ -158,5 +227,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

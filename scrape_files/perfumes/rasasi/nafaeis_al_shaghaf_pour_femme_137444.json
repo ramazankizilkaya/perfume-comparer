@@ -3,11 +3,11 @@
   "targetGender": "kadınlar için",
   "fragranceFamily": "Floral",
   "concentration": "Edp",
-  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137444.jpg?t=1783944020",
+  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.137444.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Nafaeis-Al-Shaghaf-Pour-Femme-137444.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Nafaeis Al Shaghaf Pour Femme parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Nafaeis Al Shaghaf Pour Femme, 2018 yılında piyasaya sürüldü. Üst notalar: Badem ve Kahve; orta notalar: Yasemin Sambac, Sümbülteber ve Orris kökü; alt notalar Sandal ağacı, Tonka fasulyesi, Vanilya ve Kakao kabuğu.",
-  "description_original": "Rasasi markasının Nafaeis Al Shaghaf Pour Femme parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Nafaeis Al Shaghaf Pour Femme, 2018 yılında piyasaya sürüldü. Üst notalar: Badem ve Kahve; orta notalar: Yasemin Sambac, Sümbülteber ve Orris kökü; alt notalar Sandal ağacı, Tonka fasulyesi, Vanilya ve Kakao kabuğu.",
+  "description_original": "Rasasi markasının Nafaeis Al Shaghaf Pour Femme parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Nafaeis Al Shaghaf Pour Femme, 2018 yılında piyasaya sürüldü. Üst notalar: Badem ve Kahve; orta notalar: Sambac Yasemini, Sümbülteber ve Orris kökü; alt notalar Sandal ağacı, Tonka fasulyesi, Vanilya ve Kakao kabuğu.",
   "description_enhanced": "Rasasi markasının Nafaeis Al Shaghaf Pour Femme parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Nafaeis Al Shaghaf Pour Femme, 2018 yılında piyasaya sürüldü. Üst notalar: Badem ve Kahve; orta notalar: Yasemin Sambac, Sümbülteber ve Orris kökü; alt notalar Sandal ağacı, Tonka fasulyesi, Vanilya ve Kakao kabuğu.",
   "mainAccords": [
     {
@@ -35,11 +35,11 @@
       "width": "74.7221%"
     },
     {
-      "name": "badem",
+      "name": "tüberöz",
       "width": "68.8885%"
     },
     {
-      "name": "kakao",
+      "name": "iris",
       "width": "68.8885%"
     },
     {
@@ -47,8 +47,40 @@
       "width": "68.8885%"
     },
     {
-      "name": "tüberöz",
+      "name": "kakao",
       "width": "68.8885%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "3",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -63,7 +95,7 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "0",
     "summer": "0",
     "autumn": "0",
@@ -76,7 +108,7 @@
       "Kahve"
     ],
     "middle": [
-      "Yasemin Sambac",
+      "Sambac Yasemini",
       "Sümbülteber",
       "Orris kökü"
     ],
@@ -89,32 +121,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "La Yuqawam Jasmine Wisp"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl Légère"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

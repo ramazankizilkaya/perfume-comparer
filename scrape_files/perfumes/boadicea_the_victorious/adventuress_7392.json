@@ -49,6 +49,10 @@
     {
       "name": "aromatik",
       "width": "45.3754%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -82,81 +86,37 @@
     "base": [
       "Sandal ağacı",
       "Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "6",
-    "weak": "13",
-    "moderate": "19",
-    "longLasting": "20",
-    "eternal": "17"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "22",
-    "moderate": "19",
-    "strong": "25",
-    "enormous": "29"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "15",
-    "moreFemale": "8",
-    "unisex": "9",
-    "moreMale": "1",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "6",
-    "overpriced": "6",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "15",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ICEBERG",
-      "name": "The Iceberg Fragrance"
-    },
-    {
-      "brand": "JEAN PATOU",
-      "name": "Sira des Indes"
-    },
-    {
-      "brand": "MEMO PARİS",
-      "name": "Quartier Latin"
-    },
-    {
-      "brand": "PENHALİGON'S",
-      "name": "Levantium"
-    },
-    {
-      "brand": "HEDONİK",
-      "name": "Exquisite Affair"
-    },
-    {
-      "brand": "SYNONYME",
-      "name": "BIANCA 01"
-    },
-    {
-      "brand": "BOND NO 9",
-      "name": "Chinatown"
-    },
-    {
-      "brand": "CLİVE CHRİSTİAN",
-      "name": "X For Women"
-    },
-    {
-      "brand": "MDCI PARFUMS",
-      "name": "Peche Cardinal"
-    },
-    {
-      "brand": "LUBİN",
-      "name": "Upper Ten"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Bitter Peach"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BY KİLİAN",
@@ -183,12 +143,12 @@
       "name": "Epic Woman"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Angélique Noire"
-    },
-    {
       "brand": "BYREDO",
       "name": "Bal d'Afrique"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Angélique Noire"
     },
     {
       "brand": "AMOUAGE",
@@ -218,5 +178,6 @@
       "brand": "AMOUAGE",
       "name": "Memoir Woman"
     }
-  ]
+  ],
+  "comments": []
 }

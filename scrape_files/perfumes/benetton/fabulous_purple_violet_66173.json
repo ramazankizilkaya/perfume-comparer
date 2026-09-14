@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.66173.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Benetton/Fabulous-Purple-Violet-66173.html",
   "brand": "Benetton parfüm ve kolonya",
-  "description": "Benetton markasının Fabulous Purple Violet parfümü, kadınlar için Oryantal bir kokudur. Fabulous Purple Violet, 2020 yılında piyasaya sürüldü. Üst notalar: Meyvemsi notalar ve Narenciye; orta nota: Menekşe; alt notalar Odunsu Notlar ve Deri.",
-  "description_original": "Benetton markasının Fabulous Purple Violet parfümü, kadınlar için Oryantal bir kokudur. Fabulous Purple Violet, 2020 yılında piyasaya sürüldü. Üst notalar: Meyvemsi notalar ve Narenciye; orta nota: Menekşe; alt notalar Odunsu Notlar ve Deri.",
-  "description_enhanced": "Benetton markasının Fabulous Purple Violet parfümü, kadınlar için Oryantal bir kokudur. Fabulous Purple Violet, 2020 yılında piyasaya sürüldü. Üst notalar: Meyvemsi notalar ve Narenciye; orta nota: Menekşe; alt notalar Odunsu Notlar ve Deri.",
+  "description": "Benetton markasının Fabulous Purple Violet parfümü, kadınlar için Oryantal bir kokudur. Fabulous Purple Violet, 2020 yılında piyasaya sürüldü. Üst notalar: Meyvemsi notalar ve Narenciye; orta nota: Menekşe; alt notalar Odunsu Notalar ve Deri.",
+  "description_original": "Benetton markasının Fabulous Purple Violet parfümü, kadınlar için Oryantal bir kokudur. Fabulous Purple Violet, 2020 yılında piyasaya sürüldü. Üst notalar: Meyvemsi notalar ve Narenciye; orta nota: Menekşe; alt notalar Odunsu Notalar ve Deri.",
+  "description_enhanced": "Benetton markasının Fabulous Purple Violet parfümü, kadınlar için Oryantal bir kokudur. Fabulous Purple Violet, 2020 yılında piyasaya sürüldü. Üst notalar: Meyvemsi notalar ve Narenciye; orta nota: Menekşe; alt notalar Odunsu Notalar ve Deri.",
   "mainAccords": [
     {
       "name": "meyvemsi",
@@ -23,11 +23,11 @@
       "width": "73.75%"
     },
     {
-      "name": "narenciye",
+      "name": "tatlı",
       "width": "65%"
     },
     {
-      "name": "tatlı",
+      "name": "narenciye",
       "width": "65%"
     },
     {
@@ -41,6 +41,10 @@
     {
       "name": "deri",
       "width": "47.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -71,51 +75,39 @@
       "Menekşe"
     ],
     "base": [
-      "Odunsu Notlar",
+      "Odunsu Notalar",
       "Deri"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "5",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "5",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "2",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "LANCÔME",
-      "name": "La Vie Est Belle"
-    },
-    {
-      "brand": "VAN CLEEF & ARPELS",
-      "name": "Feerie"
-    },
-    {
-      "brand": "ÁGUA DE CHEİRO",
-      "name": "Attractive"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "RABANNE",
@@ -130,12 +122,12 @@
       "name": "Guess Girl"
     },
     {
-      "brand": "GUESS",
-      "name": "Guess for Women"
-    },
-    {
       "brand": "CUBA PARİS",
       "name": "Cuba Too Sexy for You"
+    },
+    {
+      "brand": "GUESS",
+      "name": "Guess for Women"
     },
     {
       "brand": "PARİS HİLTON",
@@ -158,8 +150,16 @@
       "name": "Love Spell La Crème"
     },
     {
+      "brand": "ANTONİO BANDERAS",
+      "name": "The Icon Eau de Parfum For Women"
+    },
+    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Pure Seduction Sol"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara"
     },
     {
       "brand": "AVON",
@@ -168,14 +168,7 @@
     {
       "brand": "LANCÔME",
       "name": "Miracle"
-    },
-    {
-      "brand": "PEPE JEANS LONDON",
-      "name": "Pepe Jeans for Her"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "La Vie Est Belle Soleil Cristal"
     }
-  ]
+  ],
+  "comments": []
 }

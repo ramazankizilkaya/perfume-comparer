@@ -16,59 +16,87 @@
     },
     {
       "name": "pudralı",
-      "width": "94.1214%"
+      "width": "94.4907%"
     },
     {
       "name": "tatlı",
-      "width": "91.0069%"
+      "width": "91.4109%"
     },
     {
       "name": "meyvemsi",
-      "width": "79.7656%"
+      "width": "80.1273%"
     },
     {
       "name": "toprak",
-      "width": "75.5729%"
+      "width": "75.4958%"
     },
     {
       "name": "çiçeksi",
-      "width": "74.7984%"
+      "width": "75.118%"
     },
     {
       "name": "iris",
-      "width": "68.1295%"
+      "width": "68.2921%"
     },
     {
       "name": "yeşil",
-      "width": "66.443%"
+      "width": "66.7027%"
     },
     {
       "name": "odunsu",
-      "width": "64.8331%"
+      "width": "64.5687%"
     },
     {
       "name": "amber",
-      "width": "59.4703%"
+      "width": "59.6645%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.95",
-    "votesCount": "2,169",
+    "votesCount": "2,244",
     "breakdown": {
-      "love": "902",
-      "like": "650",
-      "ok": "323",
-      "dislike": "198",
-      "hate": "96"
+      "love": "930",
+      "like": "674",
+      "ok": "340",
+      "dislike": "202",
+      "hate": "98"
     }
   },
   "seasons": {
-    "winter": "376",
+    "winter": "384",
     "spring": "1k",
-    "summer": "923",
-    "autumn": "751",
-    "day": "947",
-    "night": "663"
+    "summer": "945",
+    "autumn": "767",
+    "day": "967",
+    "night": "679"
   },
   "notes": {
     "top": [
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "27",
+    "weak": "50",
+    "moderate": "290",
+    "longLasting": "648",
+    "eternal": "189"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "78",
+    "moderate": "290",
+    "strong": "517",
+    "enormous": "150"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "156",
+    "moreFemale": "154",
+    "unisex": "743",
+    "moreMale": "241",
+    "male": "111"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "323",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "235",
+    "overpriced": "407",
+    "fair": "340",
+    "goodValue": "79",
+    "greatValue": "24"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Accento"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chance Eau de Parfum"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Philos Centro"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Rabab Gems"
+    },
+    {
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Accento Viola"
+    },
+    {
+      "brand": "GRANADO",
+      "name": "Amazônico"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Purple Accento Crystal Edition"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Amber Fusion For Her"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chance Eau de Toilette"
+    },
+    {
+      "brand": "MORESQUE",
+      "name": "Rand"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Oud Lavender"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Philos Pura"
+    },
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Aurica"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Voux Violette"
+    },
+    {
+      "brand": "LAVERNE",
+      "name": "Legend"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -135,12 +224,12 @@
       "name": "Ani"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Reflection Man"
-    },
-    {
       "brand": "PARFUMS DE MARLY",
       "name": "Herod"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Reflection Man"
     },
     {
       "brand": "XERJOFF",
@@ -177,6 +266,238 @@
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Grand Soir"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent279",
+      "author": "Notoriety.tr",
+      "date": "2026-06-16",
+      "text": "Aşırı temiz ama aynı zamanda fena bağıran bir koku ilk sıktığında böyle meyveli yeşil bir patlama yapıyor sonradan o lüks sabunsu havaya dönüyor yayılımı ve kalıcılığı çok fena girdiğin ortamda ben buradayım der arkasında inanılmaz bir iz bırakıyor tam bir imza kokusu her mevsime de gider öyle bayıcı bir tatlılığı yok çok asil ve fresh duruyor(bu gün işe sıkarak gittim ve herkes merak etti )",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica",
+      "avatar": "https://fimgs.net/mdimg/avataritr/m.481.jpg"
+    },
+    {
+      "id": "parent150",
+      "author": "E&Tatölye",
+      "date": "2026-05-16",
+      "text": "Mor Kadifenin Zarafeti\n\nO meşhur mor kadife şişeyi elinize aldığınızda, içinden çıkacak kokunun sıradan olmayacağını hemen hissediyorsunuz. Accento, tam anlamıyla \"sessiz lüks\" kavramının parfüm dünyasındaki karşılıklarından biri. Erba serisindeki o bağıran, dikkat çekmek için çırpınan enerjik meyvemsilik burada yok; onun yerine çok daha oturaklı, zarif ve temiz bir aura sizi karşılıyor.\n\nİlk sıktığımda burnuma çok ferah ama aynı zamanda hafif pudralı bir ananas ve sümbül karışımı geliyor. Buradaki ananas yapış yapış tatlı bir şurup gibi değil, serin bir bahar sabahı esintisi hissiyatı veriyor. Kalp notalarına indikçe yasemin ve süsen (iris) pürüzsüz bir şekilde devreye girip kokuya lüks bir sabunsuluk katıyor. Tende kuruduğunda ise Xerjoff’un o imza misk kullanımı, vetiver ve paçuli ile birleşip çok karakterli, temiz ve hafif topraksı bir kapanış yapıyor.\n\n\nPerformansını değerlendirmek gerekirse; kalıcılığı kesinlikle üzmüyor ama bir \"oda dolduran canavar\" da beklemeyin. İlk iki saat yayılımı oldukça tatmin edici, sonrasında ise etrafınızda asil bir koku bulutu olarak teninize yakın kalmaya devam ediyor. Tende rahatlıkla tam bir mesai gününü çıkarabiliyor.\n\nPeki kör alışa uygun mu? Bence diğer niş alternatiflere kıyasla çok daha güvenli bir liman. Herhangi bir köşeli, rahatsız edici veya \"zor\" bir notası yok. Dört mevsime uyum sağlasa da özellikle ilkbahar ve yaz aylarına, şık bir keten gömleğe ya da özenli bir ofis stiline çok yakışan, insanı yormayan ve \"bu temiz, şık koku kimden geliyor?\" dedirten risksiz ama çok kaliteli bir iş.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica",
+      "avatar": "https://fimgs.net/mdimg/avataritr/m.1715.jpg"
+    },
+    {
+      "id": "parent634989",
+      "author": "piter97",
+      "date": "2024-10-03",
+      "text": "Başından itibaren etkisini gösteren, tavizsiz ve kendini hem size hem de çevrenizdekilere hissettiren, kaba ve bayağı olmayan, aksine lüks ve bağımlılık yaratan bir koku. Cildime veya bir test kağıdına sıktığımda, elimde 5-6 test kağıdı olsa bile, her zaman tekrar koklamak için geri döndüm.\n\nParfüm, sulu, tam kıvamında ekşi ananasla açılıyor, çok gerçekçi; sümbül ve pembe biberin çiçeksi ve baharatlı notaları da çok güzel, özellikle sümbül notası. Bir süre sonra, yasemin tenimde beliriyor, ancak bu sadece misk, vanilya ve amberin ortaya çıkmasıyla oluyor, bu da parfümü daha gösterişli hale getiriyor ve birlikte gerçekten ilginç bir etki yaratıyorlar (belki de bağımlılık yapıcı etkiyi yaratan da bu). Başka notaları algılayamıyorum; belki de vanilya ve miski geri planda tutuyorlar (belki de paçuli ikisini de biraz bastırıyor), ancak tenimde gerçekten öne çıkmıyorlar. Geri kalanına gelince, spreylere dikkat edin; parfüm teninize, burnunuza ve çevrenizdekilerin burnuna yapışıyor. Peki ya fiyatı? Eğer gerçekten misk, amber ve vanilyayı, diğer açılış ve kalp notalarıyla mükemmel bir şekilde dengelenmiş olarak istiyorsanız, bu kalitede, kullanım kolaylığında ve hatta bir anlamda zarif bir parfüm bulmak zor: bu yüzden paraya değer. Aksi takdirde alternatifler var, ancak bu etkiye sahip olanlar çok az. %100 unisex, üstelik daha da seksi bir kadında.\n\nOlağanüstü bir parfüm, başyapıt değil ama ona çok yakın. 9/10",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent635033",
+      "author": "SzyprowaWiedźma",
+      "date": "2024-08-30",
+      "text": "Accento'nun bu kadar az destekçisi olması garip :)\nÖzellikle kokunun ilk aşamasında bana biraz Shalimar Initial'ı hatırlatıyor.\nBu parfümlerin bariz bir şekilde benzer olduğu söylenemez; daha ziyade, benzer akorları, iris ve vetiverin benzer bir kombinasyonunu, benzer bir kuruma sürecini ve şipre tarzını paylaşıyorlar – kompozisyonun yönü bu. Benim için, çok sevdiğim Initial ile aynı çizgide bir koku ve bu yüzden, bir saatlik kullanımdan sonra ön plana çıkan tipik Xerjoff sabitleyicisini bile önemsemiyorum. İlginç bir öneri, oldukça güçlü. Oldukça alışılmadık ve oldukça unisex.\nBu iş kesinlikle tek bir sınavla bitmeyecek.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.39232.jpg"
+    },
+    {
+      "id": "parent634961",
+      "author": "Jaelzion",
+      "date": "2024-08-22",
+      "text": "Bu koku, yumuşak ve rahatlatıcı bir his veren, pudralı olmayan, hafif iris notasıyla incelikli, erkeksi bir havaya sahip. Amber ve misk, temiz bir cilt gibi sıcak ve rahatlatıcı bir his veriyor. Paçuliden gelen hafif bir sıcaklık, topraksı bir derinlik katıyor, ancak rafine kalıyor ve çok yoğun değil. Genel olarak, sakin ve hoş bir koku; abartıya kaçmadan şık kalmayı seven bir erkek için harika.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1945282.jpg"
+    },
+    {
+      "id": "parent634978",
+      "author": "Barras_fragancias",
+      "date": "2024-05-13",
+      "text": "Bu parfümü daha önce hiç duymamıştım. Xerjoff'un en iyi parfümlerinden biri olarak bahseden birkaç video görmüştüm, ancak bir gün bir mağazada stokta bulana kadar hiçbir inceleme veya ilginç bir şey görmemiştim. Ülkemde bu türden parfümlerin çok fazla ithalatı olmadığı için sıkmama izin vermiyorlar, bu yüzden sadece şişeden koklayabildim. Ama kokladığım anda, o pudralı, topraksı ve hafif ekşi ananas kokusuna bayıldım. Sanki Carolina Herrera Sexy Man, Prada L'Homs veya Chanel Chance kadın parfümlerini, ekşi ve hafif tatlı ananasla karıştırmış gibi. Çok güçlü ve yüksek kaliteli bir koku. Şahsen ben bu tür misk ve meyveli kokuları çok seviyorum.\nPerformans açısından, 1 veya 2 fısla tüm gün boyunca etkili oluyor ve cildinizi ışıl ışıl tutuyor.\nVe gece kullanımı için yaklaşık 3-5\nNe kadınsı ne de erkeksi, ikisinin arasında bir yerde, ama eğer saf esrar seviyorsanız, bu daha az keskin, daha az kadınsı ve çok daha az etkili bir seçenek (saf esrarın etkisine tahammül edemiyorum).\nTest etmeye devam edeceğim ve sonuçları paylaşacağım 👍\n\n\nDüzenleme: İlk başta ananas kokusunu alabiliyordum ama daha çok arka plandaydı. Ancak, denemeye devam ettikçe ananas kokunun yıldızı haline geldi. Misk ve bolca yaseminle birlikte, bana ananaslı şampuanı veya benzeri bir şeyi, ya da belki de ananaslı smoothie'yi hatırlatıyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent634951",
+      "author": "Blossomlove",
+      "date": "2024-04-26",
+      "text": "Dürüst olmak gerekirse, insanların Xerjoff'u fiyat etiketleri ve en üst düzey niş parfüm evi olarak kabul edilmeleri nedeniyle eleştirdiğini düşünüyorum. Aynı şeyi Roja parfümlerinde de görüyorum. İnsanlar bir kokunun tadını çıkarmak yerine mutlaka bir kusur bulmak zorundalar. Beğenmiyorsanız, sorun değil. Beğenmiyorsunuz. Hepimiz aynı şeyleri beğenmeyeceğiz, ancak bir markanın tamamını benzersiz olmadığını veya sentetik koktuğunu söyleyerek eleştirmeye başlamak, sırf nefret etmek için nefret etmektir. Şahsen, hiçbir önyargım yok, etiketler veya başkalarının beklentileri umurumda değil, fikirlerimi kendi deneyimlerime dayandırıyorum ve dürüst olmak gerekirse Xerjoff ile ilgili sadece iyi deneyimlerim oldu. Tüm parfümlerini koklamadım ama kokladıklarımdan her zaman etkilendim. Xerjoff'ta özel bir şey var. Detaylara dikkat ediyorlar ve onları diğerlerinden ayıran ince nüanslar yaratıyorlar. İlk satın aldığım Bouquet Ideale'i hatırlıyorum. Kutu, şişe, parfüm... Hepsi bir deneyimdi ve bu markanın neden bu kadar popüler olduğunu anlamaya başladım. Büyük niş parfüm koleksiyonumda ilk düzenli Xerjoff parfümüm olan La Capitale, benim için en öne çıkanıydı. Pahalı mı? Evet, ama nedenini de anlıyorum. Çok güzel kokan, kalıcılığı yüksek ve çok güzel şişelerde gelen, ilginç koku piramitlerine sahip parfümler üretiyorlar. Tüm bunları başarmak kolay değil ve onlar bunu başarıyorlar. Ayrıca bir sürü seçenek sunuyorlar ve bunu çok seviyorum. Tarzınız ne olursa olsun, üretiyorlar. Gurme, çiçeksi, ferah, baharatlı, süper benzersiz, ud, deri, vanilya; neyi seviyorsanız, onu üretiyorlar.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1951646.jpg"
+    },
+    {
+      "id": "parent635026",
+      "author": "Belisama",
+      "date": "2023-10-24",
+      "text": "Çok uzun süre kalıcı ve yayılımı da aynı şekilde muazzam; 10 metre yarıçapındaki herkesin aklını başından alacak. Sprey sayısına dikkat etmenizi tavsiye ederim – en fazla iki sprey öneririm. Sözde unisex bir koku, ancak bana göre tatlı misk notası nedeniyle daha kadınsı. Chanel Chance ile benzer DNA'ya sahip olduğunu düşünüyorum, ancak daha yapışkan. Duş almak bile kokuyu temizlemeye yardımcı olmaz – misk kokusu çok uzun süre kalıyor. Ananas da uzun süre kalıcı. Dahası, Montale gibi tüm Xerjoff parfümlerinin kendine özgü bir notası var – kimileri beğeniyor, kimileri beğenmiyor. İster Accento ister Erba Pura olsun, hemen fark ediliyor. Tam olarak fiyatları gibi kokuyorlar – pahalı. Ama çok fazla iltifat almıyorlar ve muhtemelen bir daha satın almayacağım.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.59838.jpg"
+    },
+    {
+      "id": "parent634976",
+      "author": "Coquita",
+      "date": "2023-02-12",
+      "text": "\"Ciltte kalıcı koku\" kategorisinde özel bir parfüm olduğunu düşünüyorum. Tipik bir sentetik beyaz misk kokusu (ki bu kötü değil), ancak onu ilginç kılan birkaç nüansı var. İlk olarak, hafif biberli bir baharatlılık fark ediyorum, ardından sulu boya fırça darbesini andıran leylak çiçeği esintisi ve sanırım ananas akorunu andıran buruk bir koku geliyor. Parfüm cilde yakın kalıyor ve yaklaşık 7 saat boyunca etkisini sürdürüyor.\nUnisex, her mevsim ve her durum için uygun. Hoş bir koku buluyorum, ancak tarz içindeki özgünlüğüne rağmen çok fazla şey sunmuyor. Bence, sunduklarına göre fiyatı gülünç derecede yüksek. Bu parfümün onda birinden daha azına satılan ve aynı derecede iyi olan misk parfümleri var.\n\nKeyifli: 6/10\nİlginç: 6/10\nÇok yönlülük: 10/10\nOrijinal: 8/10",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.62416.jpg"
+    },
+    {
+      "id": "parent634954",
+      "author": "Seuni",
+      "date": "2023-01-17",
+      "text": "İnsanların bu kokuyu neden bu kadar eleştirdiğini anlamıyorum. Mor sümbül ve siyah leylak çiçeklerinin altında sulu, yoğun bir ananas kokusu ve temiz, havadar, pudralı misk bazlı bir koku. 12 saatten fazla sürdü, her hareket ettiğimde güçlü bir şekilde kokuyordu ve odayı dolduruyordu.\n\nUnisex, eğer verdiğim kokuları beğenirseniz. 12+ saat güçlü kalıcılık.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1266523.jpg"
+    },
+    {
+      "id": "parent634974",
+      "author": "Landberk70",
+      "date": "2022-09-08",
+      "text": "Bugün bu güzel parfüm hakkındaki yorumumu paylaşıyorum. Her zaman olduğu gibi, Xerjoff kalitesini ve zarafetini sergiliyor. Şişesi mor kadife benzeri bir malzemeyle kaplı, çok zarif ve sert kutusu diğer parfüm serilerinden farklı bir estetiğe sahip. En önemlisi ise kokunun kendisi. Güçlü bir açılış, olgun narenciye meyvelerinin, bu durumda şuruplu ananasın, çiçeksi bir dokunuş, vanilya ve topraksı alt tonlarla harmanlanması. Gerçekten de Xerjoff'un Silver Mountain Water ve Comandante parfümlerinin bir karışımı. Bu da sizi gerçekten büyüleyecek meyveli, odunsu ve baharatlı bir parfüm ortaya çıkarıyor. İlkbahar ve yaz geceleri için mükemmel olduğunu düşünüyorum. Diğer parfümlere bazı benzerlikleri olan, ancak kendine özgü bir dokunuşla benzersiz kılan çok zarif bir parfüm. Unisex, ancak biraz daha erkeksi bir dokunuşa sahip. Resmi ve yarı resmi etkinlikler için uygun. Son olarak, mükemmel bir yayılım, kalıcılık ve on saatten fazla süren bir kokuya sahip olduğunu belirtmeliyim.\nAroma 9/10\nEstela 9.5/10\nTahmin 8.5/10\nUzun ömürlülük 9/10",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.47798.jpg"
+    },
+    {
+      "id": "parent635030",
+      "author": "Fifi149",
+      "date": "2022-09-02",
+      "text": "Tenimde bu koku, uzaya yapılan bir yolculuk gibi, muhteşem bir deneyim sunuyor diyebilirim. Ananas, sümbül ve iris kombinasyonu metalik bir kaliteye sahip ve ananas, her şeyi o kadar sulu hale getiriyor ki, sıktığınız yeri ısırmak istiyorsunuz. Erkeksi, çekici, hoş ve gizemli; sardunya ise hoş bir sıcaklık ve keskinlik katıyor. Bence türünün mükemmel bir örneği ve herkese tavsiye ederim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent634953",
+      "author": "mizur",
+      "date": "2022-08-12",
+      "text": "Erba Pura'yı unutun, Accento, Xerjoff'un \"V\" koleksiyonunun gerçek mücevheridir.\n\nMeyvemsi, ekşi, kremsi, kehribar rengi ve her yönüyle nefis!!\n\nAnanas var ama Creed gibi kokmuyor… Sümbül de karışımda var ama yine Chanel ya da Penhaligon's gibi kokmuyor… Accento, kendine özgü bir kişiliğe sahip, harika bir şekilde yaratılmış unisex bir parfüm.\n\nKesinlikle markanın en sevdiğim ürünlerinden biri ve V koleksiyonunun en iyisi.\n\nKalıcılığı en az 7 saattir… etki süresi orta düzeydedir.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1503389.jpg"
+    },
+    {
+      "id": "parent635016",
+      "author": "Изабо",
+      "date": "2022-05-19",
+      "text": "Accento, öncelikle koku piramidinde sümbülün bulunması nedeniyle dikkatimi çekti. Seçtiğim mor dörtlüsünden Accento, en serin aromaya sahip. Sümbülün acı yeşili, taze bir sap gibi (tatlı konserve meyve değil) hafif tuzlu olan ananasla iç içe geçiyor. İris, kokuyu pudralayarak serin, sisli bir pus temasını destekliyor ve aynı derecede serin, temiz misk ve vetiver ile son buluyor. Kompozisyon ilk başta sertliğiyle itici gelebilir, ancak güzel ve zarif bir şekilde açılıyor. Bir dekantörde denemeyi düşünüyorum (şimdilik bir şişe almak konusunda tereddütlüyüm).",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.174327.jpg"
+    },
+    {
+      "id": "parent634964",
+      "author": "cfman",
+      "date": "2022-02-28",
+      "text": "Bana göre bu, başlangıçta iyi bir yayılıma sahip, çoğunlukla çiçeksi bir kokuydu ancak hızla ten kokusuna dönüştü. 3-4 saat sonra ten kokusu bile neredeyse hissedilmiyordu. Kuruduktan sonra, kehribar ve misk ile birlikte çiçeksi notaları hala alabiliyorum. Misk notasına rağmen, Accento bana daha çok kadınsı geliyor ve şahsen bu parfümü kullanmazdım.\n\nBirçok erkeğin bunu kadınsı, birçok kadının ise daha erkeksi bulması bana ilginç geliyor.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1423749.jpg"
+    },
+    {
+      "id": "parent634987",
+      "author": "MarianoS",
+      "date": "2021-12-23",
+      "text": "Hoş bir keşif, yıllardır Sospiro'nun hayranıydım, sonra Xerjoff'a katıldı, ne diyebilirim ki, harika.\nAnanas başlangıçta tatlı ve ekşi bir lezzet sunarken, sümbül diğer her şeyi yumuşatıyor. Pembe biber inanılmaz, güzel ve keskin; son notalar ise muhteşem; vanilya ve amber mükemmel bir şekilde birleşiyor ve paçuli dokunuşu her şeyi olağanüstü kılıyor! Herkese göre olmayabilir, ama bence denemeye değer!\nPuan 9/10",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent635011",
+      "author": "maroshka007",
+      "date": "2021-10-22",
+      "text": "Bayılıyorum, kullanıyorum, doyamıyorum. Kıyafetlerdeki kalıcılığı inanılmaz; iki yıkamadan sonra bile hafif kokusu kalıyor. Soğuk sonbahardan beri ve tüm kış boyunca kullanıyorum; beni sıcak, sarmalayan bir kokuyla sarıyor. Yazın biraz bunaltıcı olabiliyor bence, ama tatildeki nemli iklimde akşam için inanılmaz güzeldi. Başka kimsede görmedim ama düzenli olarak iltifat alıyorum.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent634956",
+      "author": "AMajeedQT",
+      "date": "2021-05-08",
+      "text": "Piyasadaki en temiz kokulardan biri!\n\nFiyat etiketini bir kenara bırakırsak, Accento, Xerjoff'un en iyi ürünlerinden biri.\n\nTemiz, ferah bir koku; temiz misk, meyvemsi ananas ve narin sümbülün muhteşem birleşimi!\n\nKokunun baskın notaları sümbül/misk karışımıdır; ananasın hafif tatlı meyvemsiliği ise kokuyu ferahlatır.\n\nYumuşak, temiz, meyvemsi, misk kokulu.\n\nGerçekten muhteşem. Ancak, daha önce kokladığım bir şeye çok benzediğini göz ardı edemem. Çok daha uygun fiyatlı bir şeydi ama hatırlayamıyorum. Sanırım Chanel Chance'tı ama emin değilim.\n\nHem kadınlar hem de erkekler için harika, muhteşem bir koku; sıcak havalar ve bahar ayları için ideal.\n\n\"Çok beğendim\" ama giriş ücretini ödeyecek kadar değil.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.30910.jpg"
+    },
+    {
+      "id": "parent634959",
+      "author": "Marino419",
+      "date": "2021-02-12",
+      "text": "Harika bir unisex koku. İçindeki ananası çok sevdim. Bu koku çok yumuşak. Başka bir kelimeyle tarif edemiyorum. Tüm Xerjoff parfümleri gibi, bu da ustaca harmanlanmış. Çok kadınsı olacağından endişelenmiştim. Ama çok hoş bir sürpriz oldu. Mükemmel. Bugün hava biraz daha sıcaktı, bu yüzden denedim. İş yerinde birçok iltifat aldım. Sadece alışılmış kişiler değil, herkes. Xerjoff parfümleri beni iflas ettirecek XD",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent635007",
+      "author": "Юлена",
+      "date": "2020-02-18",
+      "text": "Çok güzel bir koku! Velvet serisinin en iyilerinden biri. Eski Sospir tasarımına sahiptim. Şimdi yenisini aldım. Çokgen şekilli şişe çok güzel ve çok ağır.\nKoku hala Accent. Meyveli-çiçekli-miskli. Taze ananas, sümbül, pembe biber, bir tutam yasemin ve bolca misk. Bende Chance gibi kokmuyor. Accent daha yumuşak ve daha kadınsı. Chance au Fresh bana erkek parfümü gibi geliyor ve kesinlikle Kirke gibi kokmuyor. Sanki tüm miskli parfümler birbirinin kopyasıymış gibi.\nKirke'nin tarzı tamamen tropikal, aşırı tatlı meyvelerle ilgili. Burada hafif bir ananas tatlılığı var ama ağırlıklı olarak ferahlık ön planda.\nSadece misk sevenler için ve yalnızca denendikten sonra. Bunu asla kendiniz için veya hediye olarak kör alışveriş olarak almayın. Xerjoff parfümleri oldukça özel bir zevke hitap eder ve her cilt tipine uygun değildir.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.15339.jpg"
+    },
+    {
+      "id": "parent634952",
+      "author": "kerolos",
+      "date": "2019-10-31",
+      "text": "Sospiro Accento'nun bir örneğini denemiştim ve beğenmiştim ama çok pahalı olduğu için hiç almamıştım. Sospiro'dan V Collection'a geçip fiyatları düşürseler bile yine de pahalıydı. Ama bir gün kız arkadaşım üzerimde kokusunu aldı ve bayıldı, \"seksi zaman parfümü\" dedi. Benim yüzlerce parfümüm var ama çok azı onda bu etkiyi yaratıyor, bu yüzden tabii ki aldım :)\n\nŞimdi gelelim kokuya: Ananas kokusu almıyorum, sadece meyvemsi bir nota alıyorum ama ne olduğunu anlayamıyorum. Sonra meyvemsi koku miskli pudralı bir kokuya dönüşüyor, hafif bir meyvemsilik de hissediliyor ve koku kalıcılığının geri kalanında (yaklaşık 7 saat) bu şekilde devam ediyor, yaklaşık 2 saat boyunca da iyi bir yayılımı var.\n31-Ekim-2019",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1198255.jpg"
+    },
+    {
+      "id": "parent150",
+      "author": "E&Tatölye",
+      "date": "2026-05-16",
+      "text": "Mor Kadifenin Zarafeti O meşhur mor kadife şişeyi elinize aldığınızda, içinden çıkacak kokunun sıradan olmayacağını hemen hissediyorsunuz. Accento, tam anlamıyla \"sessiz lüks\" kavramının parfüm dünyasındaki karşılıklarından biri. Erba serisindeki o bağıran, dikkat çekmek için çırpınan enerjik meyvemsilik burada yok; onun yerine çok daha oturaklı, zarif ve temiz bir aura sizi karşılıyor. İlk sıktığımda burnuma çok ferah ama aynı zamanda hafif pudralı bir ananas ve sümbül karışımı geliyor. Buradaki ananas yapış yapış tatlı bir şurup gibi değil, serin bir bahar sabahı esintisi hissiyatı veriyor. Kalp notalarına indikçe yasemin ve süsen (iris) pürüzsüz bir şekilde devreye girip kokuya lüks bir sabunsuluk katıyor. Tende kuruduğunda ise Xerjoff’un o imza misk kullanımı, vetiver ve paçuli ile birleşip çok karakterli, temiz ve hafif topraksı bir kapanış yapıyor. Performansını değerlendirmek gerekirse; kalıcılığı kesinlikle üzmüyor ama bir \"oda dolduran canavar\" da beklemeyin. İlk iki saat yayılımı oldukça tatmin edici, sonrasında ise etrafınızda asil bir koku bulutu olarak teninize yakın kalmaya devam ediyor. Tende rahatlıkla tam bir mesai gününü çıkarabiliyor. Peki kör alışa uygun mu? Bence diğer niş alternatiflere kıyasla çok daha güvenli bir liman. Herhangi bir köşeli, rahatsız edici veya \"zor\" bir notası yok. Dört mevsime uyum sağlasa da özellikle ilkbahar ve yaz aylarına, şık bir keten gömleğe ya da özenli bir ofis stiline çok yakışan, insanı yormayan ve \"bu temiz, şık koku kimden geliyor?\" dedirten risksiz ama çok kaliteli bir iş.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica",
+      "avatar": "https://fimgs.net/mdimg/avataritr/m.1715.jpg"
+    },
+    {
+      "id": "parent279",
+      "author": "Notoriety.tr",
+      "date": "2026-06-16",
+      "text": "Aşırı temiz ama aynı zamanda fena bağıran bir koku ilk sıktığında böyle meyveli yeşil bir patlama yapıyor sonradan o lüks sabunsu havaya dönüyor yayılımı ve kalıcılığı çok fena girdiğin ortamda ben buradayım der arkasında inanılmaz bir iz bırakıyor tam bir imza kokusu her mevsime de gider öyle bayıcı bir tatlılığı yok çok asil ve fresh duruyor(bu gün işe sıkarak gittim ve herkes merak etti )",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica",
+      "avatar": "https://fimgs.net/mdimg/avataritr/m.481.jpg"
     }
   ]
 }

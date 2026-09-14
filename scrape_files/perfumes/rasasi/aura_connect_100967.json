@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Aura-Connect-100967.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Aura Connect parfümü, kadınlar ve erkekler için Oryantal Fujer bir kokudur. Bu yeni bir parfüm. Aura Connect, 2024 yılında piyasaya sürüldü. Üst notalar: Baharatlı notalar, Elma ve Bergamot; orta notalar: Lavanta, Erik ve Sardunya; alt notalar Sandal ağacı, Sedir ağacı ve Vanilya.",
-  "description_original": "Rasasi markasının Aura Connect parfümü, kadınlar ve erkekler için Oryantal Fujer bir kokudur. Bu yeni bir parfüm. Aura Connect, 2024 yılında piyasaya sürüldü. Üst notalar: Baharatlı notalar, Elma ve Bergamot; orta notalar: Lavanta, Erik ve Sardunya; alt notalar Sandal ağacı, Sedir ağacı ve Vanilya.",
+  "description_original": "Rasasi markasının Aura Connect parfümü, kadınlar ve erkekler için Oryantal Fujer bir kokudur. Bu yeni bir parfüm. Aura Connect, 2024 yılında piyasaya sürüldü. Üst notalar: Baharatlar, Elma ve Bergamot; orta notalar: Lavanta, Erik ve Sardunya; alt notalar Sandal ağacı, Sedir ağacı ve Vanilya.",
   "description_enhanced": "Rasasi markasının Aura Connect parfümü, kadınlar ve erkekler için Oryantal Fujer bir kokudur. Bu yeni bir parfüm. Aura Connect, 2024 yılında piyasaya sürüldü. Üst notalar: Baharatlı notalar, Elma ve Bergamot; orta notalar: Lavanta, Erik ve Sardunya; alt notalar Sandal ağacı, Sedir ağacı ve Vanilya.",
   "mainAccords": [
     {
@@ -45,6 +45,34 @@
     {
       "name": "taze baharatlı",
       "width": "49.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -59,7 +87,7 @@
     }
   },
   "seasons": {
-    "winter": "2",
+    "winter": "3",
     "spring": "2",
     "summer": "0",
     "autumn": "2",
@@ -68,7 +96,7 @@
   },
   "notes": {
     "top": [
-      "Baharatlı notalar",
+      "Baharatlar",
       "Elma",
       "Bergamot"
     ],
@@ -85,33 +113,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "1",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Musc Ravageur"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Bad Boy Cobalt Parfum Electrique"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Paragon"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RASASİ",
@@ -121,5 +162,6 @@
       "brand": "RASASİ",
       "name": "Aura Trust"
     }
-  ]
+  ],
+  "comments": []
 }

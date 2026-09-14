@@ -33,13 +33,41 @@
     {
       "name": "amber",
       "width": "46.1905%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.90",
-    "votesCount": "241",
+    "votesCount": "242",
     "breakdown": {
-      "love": "64",
+      "love": "65",
       "like": "126",
       "ok": "15",
       "dislike": "35",
@@ -77,33 +105,90 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "17",
+    "moderate": "50",
+    "longLasting": "13",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "50",
+    "strong": "21",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "45",
+    "moreFemale": "5",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "3",
     "fair": "15",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "19",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Fantasy"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Noites de Verão"
+    },
+    {
+      "brand": "JİMMY CHOO",
+      "name": "Jimmy Choo Parfum"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Coffee Woman Seduction"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Lavender & Vanilla Relax"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Lua de Sonhar"
+    },
+    {
+      "brand": "AVON",
+      "name": "Luz dos Olhos Teus"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Poeme"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Fantasy Eau de Toilette"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Filtro dos Sonhos"
+    },
+    {
+      "brand": "MARY KAY",
+      "name": "Velvet Scent"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Lei"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Escada Magnetism"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Noble Blush"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -165,5 +250,6 @@
       "brand": "NATURA",
       "name": "Humor 1"
     }
-  ]
+  ],
+  "comments": []
 }

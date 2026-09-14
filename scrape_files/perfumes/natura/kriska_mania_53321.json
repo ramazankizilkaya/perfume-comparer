@@ -49,26 +49,54 @@
     {
       "name": "tuzlu",
       "width": "48.7124%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.13",
-    "votesCount": "418",
+    "score": "4.14",
+    "votesCount": "419",
     "breakdown": {
-      "love": "211",
+      "love": "213",
       "like": "124",
       "ok": "20",
-      "dislike": "52",
+      "dislike": "51",
       "hate": "11"
     }
   },
   "seasons": {
     "winter": "219",
-    "spring": "74",
+    "spring": "75",
     "summer": "26",
-    "autumn": "189",
-    "day": "134",
-    "night": "198"
+    "autumn": "191",
+    "day": "135",
+    "night": "199"
   },
   "notes": {
     "top": [
@@ -95,33 +123,82 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "23",
+    "moderate": "123",
+    "longLasting": "69",
+    "eternal": "15"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "44",
+    "moderate": "123",
+    "strong": "71",
+    "enormous": "32"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "109",
+    "moreFemale": "18",
+    "unisex": "31",
+    "moreMale": "1",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "5",
+    "overpriced": "3",
     "fair": "20",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "61",
+    "greatValue": "43"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CACHAREL",
+      "name": "Yes I Am Delicious"
+    },
+    {
+      "brand": "KAYALİ FRAGRANCES",
+      "name": "Vanilla | 28"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Tiramisu Coco"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Midnight Poison"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Chocolate Greedy"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel Muse Eau de Toilette"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Black Orchid Parfum"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Olympéa Parfum"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Liz Aura"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "S. Privée"
+    },
+    {
+      "brand": "AVON",
+      "name": "Soft Musk Delice Fleur de Chocolate"
+    },
+    {
+      "brand": "JAFRA",
+      "name": "Plum Sky"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CAROLİNA HERRERA",
@@ -183,5 +260,6 @@
       "brand": "AVON",
       "name": "Far Away Infinity"
     }
-  ]
+  ],
+  "comments": []
 }

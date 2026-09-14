@@ -16,59 +16,87 @@
     },
     {
       "name": "meyvemsi",
-      "width": "90.7316%"
+      "width": "89.3336%"
     },
     {
       "name": "yeşil",
-      "width": "66.7212%"
+      "width": "65.6668%"
     },
     {
       "name": "odunsu",
-      "width": "62.4844%"
+      "width": "62.3336%"
     },
     {
       "name": "tatlı",
-      "width": "61.4248%"
+      "width": "60.6666%"
     },
     {
       "name": "aromatik",
-      "width": "59.5712%"
-    },
-    {
-      "name": "çiçeksi",
-      "width": "56.4816%"
+      "width": "58.3335%"
     },
     {
       "name": "balsamik",
-      "width": "56.3936%"
+      "width": "55.5001%"
     },
     {
-      "name": "gül",
-      "width": "51.1856%"
+      "name": "çiçeksi",
+      "width": "55.25%"
     },
     {
       "name": "taze",
-      "width": "51.0972%"
+      "width": "51.167%"
+    },
+    {
+      "name": "gül",
+      "width": "50.9583%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.37",
-    "votesCount": "298",
+    "score": "4.35",
+    "votesCount": "326",
     "breakdown": {
-      "love": "167",
-      "like": "93",
-      "ok": "26",
-      "dislike": "6",
+      "love": "178",
+      "like": "105",
+      "ok": "28",
+      "dislike": "9",
       "hate": "6"
     }
   },
   "seasons": {
-    "winter": "158",
-    "spring": "137",
-    "summer": "47",
-    "autumn": "153",
-    "day": "107",
-    "night": "156"
+    "winter": "173",
+    "spring": "148",
+    "summer": "50",
+    "autumn": "166",
+    "day": "119",
+    "night": "170"
   },
   "notes": {
     "top": [
@@ -88,33 +116,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "8",
+    "moderate": "57",
+    "longLasting": "105",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "15",
+    "moderate": "57",
+    "strong": "62",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "8",
+    "unisex": "78",
+    "moreMale": "84",
+    "male": "44"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "26",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "9",
+    "overpriced": "3",
+    "fair": "28",
+    "goodValue": "68",
+    "greatValue": "65"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "1 Million Elixir"
+    },
+    {
+      "brand": "ATHOOR AL ALAM",
+      "name": "Al Raiee Lil Rijal"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Stronger With You Intensely"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Stronger With You Absolutely"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code Profumo"
+    },
+    {
+      "brand": "RUE BROCA",
+      "name": "League Arena"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Carlisle"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ansaam Silver"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Elixir"
+    },
+    {
+      "brand": "THERA COSMÉTİCOS",
+      "name": "L'or"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Fakhar Extrait"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Oud Najdia"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khaltaat Al Arabia Royal Blends"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "1 Million"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Cassius"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AFNAN",
@@ -166,15 +255,167 @@
     },
     {
       "brand": "FRENCH AVENUE",
-      "name": "Vulcan Feu"
+      "name": "Liquid Brun"
     },
     {
       "brand": "FRENCH AVENUE",
-      "name": "Liquid Brun"
+      "name": "Vulcan Feu"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah Qahwa"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent636993",
+      "author": "Aquiles0412",
+      "date": "2026-01-05",
+      "text": "Not: Yaklaşık iki ay bekletin, değişim inanılmaz. Zarafet ve şıklığın bir örneği. Bu parfümün ne kadar az ilgi gördüğü şaşırtıcı, ki bu iyi bir şey çünkü çok popüler değil, ama bu parfüme yaklaşamayan diğer parfümler viral oluyor. Mükemmel kalite, kalıcılık ve aroma—tekrar ediyorum, inanılmaz.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent636973",
+      "author": "Menuntung nuntung",
+      "date": "2025-12-17",
+      "text": "Tatlı, kremsi, enfes. Sanki dev bir vanilya-karamel ayısı beni kucaklıyor gibi hissediyorum.\n\nYayılımı çok iyi, kalıcılığı da şaşırtıcı derecede iyi, yaklaşık 8-10 saat sürüyor.\n\nCildin yüzeyine çok yakından kokladığımda hafif bir acılık hissediyorum.\n\nSıcak/çok sıcak havalarda kullanıma uygun değildir. Tonka fasulyesinin acılığı, güzel kokusunu yok edecektir.\n\nKapalı ofis alanları veya klimalı ortamlar için bu ürün gerçekten muhteşem.\n\n1 milyon iksirine %90-95 oranında benziyor, tek farkı 1 milyon iksirinde sonunda o hafif acılık olmaması. Ama sadece biraz var. Kötü bir acılık değil.\n\nGenel değerlendirme 9/10.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2775504.jpg"
+    },
+    {
+      "id": "parent636971",
+      "author": "ProfumoPerMe",
+      "date": "2025-12-12",
+      "text": "Meyvemsi bir ışıltı ve yumuşak baharatlı dokunuşlarla sıcak, kremsi ve hafif tatlı bir koku. Pürüzsüz ve iyi harmanlanmış bir his veriyor, derinlik ve ince bir erkeksi karakter katan odunsu bir alt yapısı var. Genel olarak unisex ama biraz daha erkeksi. Hem şık hem de günlük kıyafetlerle uyumlu ve yıl boyunca rahatlıkla kullanılabilir. Şahsen tercih edeceğim bir koku değil ama bir erkekte çok çekici bulduğum bir koku.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2046452.jpg"
+    },
+    {
+      "id": "parent636969",
+      "author": "malone",
+      "date": "2025-12-10",
+      "text": "Çok hafife alınmış bir koku! Yani One Million Elixir'i seviyorsanız, bunu da deneyin, kelimenin tam anlamıyla %95 benzer ve o kalan %5'lik kısım orijinalinden daha güzel kokuyor. Çok hoş ve tatlı tonka-vanilya ve elma, modern odunsu bir arka planla birleşiyor. Çok hafif bir gül kokusu var, çok unisex, hafif tatlı ve eğlenceli bir maskülen kokuya doğru bir eğilimi var, ama genel olarak unisex.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1174103.jpg"
+    },
+    {
+      "id": "parent636992",
+      "author": "Guts98",
+      "date": "2025-10-10",
+      "text": "Bu kokunun bu kadar az (ya da hiç) konuşulmamasına şaşırdım, çünkü gerçekten daha fazla ilgiyi hak ediyor. İlk sıkıştan itibaren vanilya, elma ve hafif bir odunsu dokunuşun enfes birleşimini hissediyorsunuz; bu da zarif, sarmalayıcı ve dengeli bir aroma yaratıyor.\nBu, karakterli, çiçeksi, meyvemsi ve gurme bir koku olup, özellikle akşam davetleri için idealdir; olağanüstü performansı kolayca fark edilir: zarafetle yayılır ve saatlerce kalıcıdır.\nHaksız yere gözden kaçan, ancak tereddüt etmeden tavsiye ettiğim bir eser.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.217161.jpg"
+    },
+    {
+      "id": "parent637026",
+      "author": "Wpn23",
+      "date": "2025-07-11",
+      "text": "Önemli noktalar: Kalıcılık - Nemlendirilmiş ciltte, 10 saatten daha kısa sürede çıkmasını beklemeyin. Sabah 8'de uyguladım, akşam 5'te eve geldim, duş aldım ve hala cildimdeydi.\nTahmin: Yaklaşık 02:30'a kadar ÇOK GÜÇLÜ bir şekilde tahmin edildi ve sonraki 30 dakika boyunca daha zayıf bir şekilde tahmin edilmeye devam etti.\n\nBu parfüm hakkında burada ilk yorumu yazan kişi olmak benim için bir onur, ancak şunu da belirtmeliyim ki, bu parfüm hakkında pek fazla bilgim yok!\nİlk sıktığınız anda gül kokusu hemen hissediliyor. Cilde değip biraz kuruduktan sonra elma kokusu ortaya çıkıyor ve bence en güzel yanı da bu. Aynı anda hem taze, hem tatlı, hem de sıcak bir koku. Çok büyüleyici ve bir bakıma ilgi çekici; öyle ki insanlar bana ne kokladıklarını açıklamamı istediler, çünkü herkesin hoşuna giden bir aroma kombinasyonu.\nYaklaşık 2 saat sonra vanilya notası ortaya çıkıyor ve parfümün etkisi geçene kadar, yani 8 saatten fazla, hatta daha uzun süre boyunca sizinle kalıyor. İşte o zaman, parfümü taktığım sırada ilk gerçek iltifatı aldım; insanlar kokunun çok zarif, tatlı ve rahatlatıcı olduğunu, tıpkı şık bir restoranda yenen vanilyalı bir tatlı gibi olduğunu söylediler.\n\nSadece soğuk havalarda kullanın. Belirgin elma notasına rağmen, en çok aklınızda kalacak olan vanilya notası olacaktır ve bu nota sadece soğuk havalarda iyi performans gösterir.\nEvet, soğuk bir günde kullanabilirsiniz, ancak 4'ten fazla püskürtmeyin, cesaretiniz varsa 5 püskürtme de yapabilirsiniz.\nGece dışarı çıkmak, daha samimi, zarif veya sofistike bir ortam için mükemmel olan bu gizemli ve ilgi çekici parfüm, merak ve ilgi uyandırıyor. Şiddetle tavsiye ederim. Ancak mümkünse önceden küçük bir numunesini alın.\n\nBir kadını memnun edecek bir parfüm mü arıyorsunuz? Tatlı bir parfüm alın ve doğru şekilde kullanın. İyi bir odunsu, erkeksi parfüm kesinlikle dikkat çekecek, iltifatlar almanızı sağlayacak ve insanların size yaklaşmak istemesine neden olacaktır, ancak amacınız bir kadının yanınızdan hiç ayrılmak istememesini sağlamaksa, tatlı bir parfüm kullanın, bana güvenin. Ve bu amaç için, bu harika bir seçim.\n\n9/10 - 10 değil çünkü keşke Apple Note biraz daha uzun pil ömrüne sahip olsaydı, bu ona biraz daha çok yönlülük katardı.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent636967",
+      "author": "tbd66",
+      "date": "2025-05-28",
+      "text": "Bu ürün, 1 Million Elixir'e çok yakın ama çok daha güçlü, en azından benim şişem öyle.\nKutudan çıkarıp misafir odasına birkaç fıs sıktım, kokuyu havada hissetmek için. Birkaç saat sonra oda hala o kokuyla doluydu.\nKoridora çıktım ve elimin arkasına çok az bir fıs sıktım, biraz yürüdüm ve 5 saat sonra bile kokusu hala çok güçlü.\n\nBeni şaşırtan şey, Lattafa'da bazen olan o garip kokunun olmaması ve birkaç fıs sıktıktan sonra bekletmeye gerek kalmaması; kutusundan çıkar çıkmaz gerçekten çok iyiydi.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent636968",
+      "author": "Eslimm",
+      "date": "2025-03-14",
+      "text": "Bu parfüm, 1 Million Elixir'in kokusuna neredeyse birebir benziyor. Kutunun ve şişenin sunumundan daha çok etkilendim. Bence parfümün kendisinden çok kutunun ve şişenin tasarımına para ödüyorsunuz. Eğer Elixir'in bir klonunu arıyorsanız, işte bu o.\n\nGüncelleme:\nYayılımı zayıf ve çok uzun sürmüyor. Çoğunlukla birkaç saat boyunca ten kokusu olarak kalıyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1519555.jpg"
+    },
+    {
+      "id": "parent637010",
+      "author": "gp.s",
+      "date": "2025-03-01",
+      "text": "Bu La Collection d'Antiquites 1910 için 35 euro harcamaya değer mi?\n\nÖncelikle ambalajın gerçekten harika olduğunu söyleyelim: Siyah kadife kaplı sahte bakır kutu çok iyi yapılmış (belki dolma kalemlerimi saklamak için kullanırım). Üzerinde Fat Boy resmi kabartmalı beyaz şişe çok dikkat çekici; siyah olsaydı mükemmel olurdu! Kabartmalı yazı ve resimli siyah karton kutu da çok şık.\n\nBu parfüm, 1 Million Elixir'e çok benziyor; daha az yoğun, daha az rahatsız edici ve daha az iddialı, hatta bir anlamda daha da kullanılabilir.\nAçılışta alkollü bir koku hissediliyor (birçok Lattafa ürünü gibi), vanilya ve tonka fasulyesinin tatlı arka planı üzerinde gül ve elma notaları hissediliyor.\n\nİlkbahar ve sonbahar ayları için, hatta akşam kullanımı için bile çok uygun buluyorum.\nTavsiye edilir!\n\nNot: Yarın sıra Arap menşeli bir narenciye çeşidine gelecek: Odyssey Limoni.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.57994.jpg"
+    },
+    {
+      "id": "parent637018",
+      "author": "Victoreruin",
+      "date": "2025-02-20",
+      "text": "Bu, Marc Joseph'in en sevdiğim Killer Intence modeli (1910 modeli başlangıç ​​ve bitiş açısından benzer, ancak dayanıklılık açısından değil). Sonra da sadece sinir bozucu rakamlar var: Bir Killer'ın fiyatı şimdi ne kadar (2017'de 1700 rubleden 2025'te 4600 rubleye. Neden bu kadar çok zam yapıyorsunuz, satıcılar?), muhtemelen iyi eski bir Killer almak yerine sakallı bir Arap motosikletine geçmek daha kolay... Ya da dişlerinizi sıkarak, bir Killer Fransız için para biriktirmek? Tanınmış, yüksek kaliteli bir marka için fazla para ödemekten daha kötü bir şey yok. Motosikletin fiyatı da zaten yükselmiş durumda...\n\nVe bakın ne oldu, 1910'u 2280'e alıyorum. Mayıs 2025'te aldığım dekant gerçekten çok hoşuma gitmişti, sadece doğru anı bekliyordu. Kuruduktan sonra karamel-çikolata notaları verdi. Ama tam boy şişede neler olacağını göreceğiz.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.419881.jpg"
+    },
+    {
+      "id": "parent637008",
+      "author": "Atomicscent",
+      "date": "2025-02-20",
+      "text": "Ah, ne kadar güzel! 1 Million Elixir'i alın, kremsi ve vanilyalı yönünü biraz azaltın ve gül/elma kombinasyonunu biraz daha ön plana çıkarın. İşte bu, Collection D'antiquités 1910. Esasen, orijinalinin yeniden yorumlanmış, daha az bayıcı bir versiyonu. Orta derecede kalıcılığı hakkında okumuştum, ama bence o kadar da kötü değil; rahatlıkla 6 saat sürüyor. Onaylandı!\n\n8.75/10",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.62072.jpg"
+    },
+    {
+      "id": "parent723376",
+      "author": "jpablomm",
+      "date": "2024-10-06",
+      "text": "Herkese merhaba. Bana 1 Million Elixir'i pek hatırlatmıyor; temel tasarımı aynı olsa da oldukça farklı. Ancak özellikle kuruma aşaması çok iyi ve herkes beğeniyor. İki fıs 45 saatlik kalıcılık için yeterli, dört veya beş fıs ise önemli ölçüde daha uzun süre kalıcılık sağlıyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.101145.jpg"
+    },
+    {
+      "id": "parent636965",
+      "author": "tacos3viandes",
+      "date": "2024-08-24",
+      "text": "Bu, neredeyse 1 milyonluk iksir gibi. Parfüm mağazalarında, Sephora'da falan diğer tüm kokuları bastıran o koku işte bu. Beğendim, gurme elma ve vanilya karışımı, odunsu alt tonları alıyorum ama gülü alamıyorum, belki de kokuya alışmışımdır lol. Bir içerik kokuya biraz ferahlık katıyor ama hangisi olduğunu tam olarak belirleyemiyorum. Yine de kolayca beğenilen ve kesinlikle iltifat alan hoş bir koku.\n\nBu parfümü denemeden satın almanızı önerir miyim? Eğer 1 Million DNA'yı biliyorsanız ve yıl boyunca gündüz ve gece kullanılabilecek, biraz meyvemsi notalara sahip ferah kokuları seviyorsanız, EVET. Aksi takdirde, kendinize bir küçük boy (decant) edinin.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2108681.jpg"
+    },
+    {
+      "id": "parent636991",
+      "author": "Jefferson",
+      "date": "2024-04-18",
+      "text": "İlk sıktığımda pek beğenmediğim bir parfümdü. Araba kullanırken elma ve vanilya kokusu aldım, tıpkı elmalı turta gibi, ve yavaş yavaş beni kendine çekti. İşte o zaman sihrin kalıcı kokuda başladığını anladım. Ertesi gün satın almak zorunda kaldım ve akşamları kullandığım favori parfümüm oldu. Gündüz de kullanabilirsiniz, ancak sıkarken dikkatli olun. Çoğu zaman insanlar -hem erkekler hem de kadınlar- bana bunun hangi parfüm olduğunu soruyor. Bazen onlara şişeyi gösteriyorum ve eski moda bir parfüm olduğunu düşünüyorlar.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.44182.jpg"
+    },
+    {
+      "id": "parent636966",
+      "author": "Hesher",
+      "date": "2024-04-15",
+      "text": "Güzel kokuyor ama hiç kalıcılığı yok. Baştan sona sadece ten kokusu. Ben bile kokusunu alamıyorum. Ve 1-2 saat sonra tamamen kayboluyor. Maserasyonun da pek bir faydası olacağını sanmıyorum.\n\n\nGüncelleme\nBir aylık olgunlaşma sürecinin ardından performans iki katına çıktı ancak hala zayıf seviyede, notlar da daha anlaşılır hale geldi.\nFiyatı ve çirkin şişesi göz önüne alındığında, daha iyi muadilleri mevcut.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     }
   ]
 }

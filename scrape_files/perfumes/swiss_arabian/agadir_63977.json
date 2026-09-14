@@ -23,10 +23,6 @@
       "width": "62.0831%"
     },
     {
-      "name": "meyvemsi",
-      "width": "59.1668%"
-    },
-    {
       "name": "paçuli",
       "width": "59.1668%"
     },
@@ -39,7 +35,7 @@
       "width": "59.1668%"
     },
     {
-      "name": "amber",
+      "name": "meyvemsi",
       "width": "59.1668%"
     },
     {
@@ -47,8 +43,40 @@
       "width": "59.1668%"
     },
     {
+      "name": "amber",
+      "width": "59.1668%"
+    },
+    {
       "name": "tatlı",
       "width": "46.0417%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -101,19 +129,20 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "2",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

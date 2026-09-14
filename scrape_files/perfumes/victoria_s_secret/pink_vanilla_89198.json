@@ -29,6 +29,34 @@
     {
       "name": "yumuşak baharatlı",
       "width": "37%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -72,8 +100,8 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "9",
-    "moreFemale": "12",
+    "female": "8",
+    "moreFemale": "13",
     "unisex": "1",
     "moreMale": "0",
     "male": "0"
@@ -129,16 +157,12 @@
       "name": "Coconut Passion"
     },
     {
-      "brand": "ALREHAB PERFUMES",
-      "name": "Choco Musk"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Vanilla Café"
     },
     {
-      "brand": "LANCÔME",
-      "name": "La Vie Est Belle"
+      "brand": "ALREHAB PERFUMES",
+      "name": "Choco Musk"
     },
     {
       "brand": "KAYALİ FRAGRANCES",
@@ -153,6 +177,10 @@
       "name": "Cheirosa '71"
     },
     {
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born In Roma"
+    },
+    {
       "brand": "AQUOLİNA",
       "name": "Pink Sugar"
     },
@@ -164,5 +192,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Strawberry Snowflakes"
     }
-  ]
+  ],
+  "comments": []
 }

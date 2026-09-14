@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Infinity-Women-97509.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Infinity Women parfümü, kadınlar için Çiçeksi bir kokudur. Infinity Women, 2023 yılında piyasaya sürüldü. Üst notalar: Gardenya, Siklamen, Frezya ve Karanfil; orta notalar: Yasemin, Menekşe, Orris kökü ve Gül; alt notalar Sandal ağacı, Heliotrope, Ahududu ve Misk.",
-  "description_original": "Rasasi markasının Infinity Women parfümü, kadınlar için Çiçeksi bir kokudur. Infinity Women, 2023 yılında piyasaya sürüldü. Üst notalar: Gardenya, Siklamen, Frezya ve Karanfil; orta notalar: Yasemin, Menekşe, Orris kökü ve Gül; alt notalar Sandal ağacı, Heliotrope, Ahududu ve Misk.",
+  "description_original": "Rasasi markasının Infinity Women parfümü, kadınlar için Çiçeksi bir kokudur. Infinity Women, 2023 yılında piyasaya sürüldü. Üst notalar: Gardenya, Sıklamen, Frezya ve Karanfil; orta notalar: Yasemin, Menekşe, Orris kökü ve Gül; alt notalar Sandal ağacı, Heliotrope, Ahududu ve Misk.",
   "description_enhanced": "Rasasi markasının Infinity Women parfümü, kadınlar için Çiçeksi bir kokudur. Infinity Women, 2023 yılında piyasaya sürüldü. Üst notalar: Gardenya, Siklamen, Frezya ve Karanfil; orta notalar: Yasemin, Menekşe, Orris kökü ve Gül; alt notalar Sandal ağacı, Heliotrope, Ahududu ve Misk.",
   "mainAccords": [
     {
@@ -43,12 +43,40 @@
       "width": "51.875%"
     },
     {
+      "name": "misk",
+      "width": "51.875%"
+    },
+    {
       "name": "iris",
       "width": "51.875%"
     },
     {
-      "name": "misk",
-      "width": "51.875%"
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,7 @@
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "2",
     "spring": "0",
     "summer": "1",
     "autumn": "0",
@@ -73,7 +101,7 @@
   "notes": {
     "top": [
       "Gardenya",
-      "Siklamen",
+      "Sıklamen",
       "Frezya",
       "Karanfil"
     ],
@@ -92,32 +120,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "RASASİ",
+      "name": "Daarej pour Femme"
+    },
+    {
+      "brand": "MAX AZRİA",
+      "name": "BCBG Max Azria Bon Genre"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "La Yuqawam Femme"
+    },
+    {
+      "brand": "BOUCHERON",
+      "name": "Quatre Iconic"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

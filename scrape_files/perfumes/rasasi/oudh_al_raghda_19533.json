@@ -49,6 +49,34 @@
     {
       "name": "yumuşak baharatlı",
       "width": "58.2836%"
+    },
+    {
+      "name": "Online satın alın 24 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -94,33 +122,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "5",
+    "longLasting": "6",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "5",
+    "strong": "5",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RASASİ",
+      "name": "Rasha"
+    },
+    {
+      "brand": "GRÈS",
+      "name": "Cabotine"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "The Night"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Summer Oud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GİVENCHY",
@@ -135,12 +180,12 @@
       "name": "Poeme"
     },
     {
-      "brand": "SALVADOR DALİ",
-      "name": "Dali Parfum de Toilette"
-    },
-    {
       "brand": "CALVİN KLEİN",
       "name": "Obsession"
+    },
+    {
+      "brand": "SALVADOR DALİ",
+      "name": "Dali Parfum de Toilette"
     },
     {
       "brand": "SWİSS ARABİAN",
@@ -182,5 +227,6 @@
       "brand": "SERGE LUTENS",
       "name": "Chergui"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -31,12 +31,16 @@
       "width": "49.0124%"
     },
     {
+      "name": "ud",
+      "width": "47.284%"
+    },
+    {
       "name": "metalik",
       "width": "47.284%"
     },
     {
-      "name": "ud",
-      "width": "47.284%"
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -70,49 +74,37 @@
     "base": [
       "Opoponaks",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "2",
-    "longLasting": "7",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "2",
-    "strong": "8",
-    "enormous": "4"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "5",
-    "moreMale": "1",
-    "male": "2"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "2",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BROWN GİRL JANE",
-      "name": "Carnivale"
-    },
-    {
-      "brand": "SNİF",
-      "name": "Heal the Way by Alex Elle"
-    },
-    {
-      "brand": "PİNK MAHOGHANY FRAGRANCES",
-      "name": "Never Another Yöu"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -174,5 +166,6 @@
       "brand": "PARFUMS DE MARLY",
       "name": "Layton Exclusif"
     }
-  ]
+  ],
+  "comments": []
 }

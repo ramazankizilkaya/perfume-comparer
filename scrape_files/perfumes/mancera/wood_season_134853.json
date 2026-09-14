@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Mancera/Wood-Season-134853.html",
   "brand": "Mancera parfüm ve kolonya",
   "description": "Mancera markasının Wood Season parfümü, erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Wood Season, 2026 yılında piyasaya sürüldü. Üst notalar: Misket adaçayı, Bergamot, Mandarin, Karabiber ve Tarçın; orta notalar: Deniz suyu, Trüf ve Gül; alt notalar Meşe yosunu, Amber, Tonka fasulyesi ve Labdanum.",
-  "description_original": "Mancera markasının Wood Season parfümü, erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Wood Season, 2026 yılında piyasaya sürüldü. Üst notalar: Misket adaçayı, Bergamot, Mandarin, Karabiber ve Tarçın; orta notalar: Deniz suyu, Trüf ve Gül; alt notalar Meşe yosunu, Amber, Tonka fasulyesi ve Labdanum.",
+  "description_original": "Mancera markasının Wood Season parfümü, erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Wood Season, 2026 yılında piyasaya sürüldü. Üst notalar: Misk Adaçayı, Bergamot, Mandalina, Karabiber ve Tarçın; orta notalar: Deniz Notaları, Gül ve Trüf; alt notalar Meşe yosunu, Amber, Tonka fasulyesi ve Labdanum.",
   "description_enhanced": "Mancera markasının Wood Season parfümü, erkekler için Odunsu Baharatlı bir kokudur. Bu yeni bir parfüm. Wood Season, 2026 yılında piyasaya sürüldü. Üst notalar: Misket adaçayı, Bergamot, Mandarin, Karabiber ve Tarçın; orta notalar: Deniz suyu, Trüf ve Gül; alt notalar Meşe yosunu, Amber, Tonka fasulyesi ve Labdanum.",
   "mainAccords": [
     {
@@ -16,72 +16,100 @@
     },
     {
       "name": "deniz",
-      "width": "85.1516%"
+      "width": "83.3336%"
     },
     {
       "name": "narenciye",
-      "width": "77.3029%"
-    },
-    {
-      "name": "taze baharatlı",
-      "width": "55.4544%"
-    },
-    {
-      "name": "toprak",
-      "width": "52.4848%"
-    },
-    {
-      "name": "tuzlu",
-      "width": "52.0607%"
+      "width": "67.1669%"
     },
     {
       "name": "yosunlu",
-      "width": "51.2121%"
+      "width": "56.6666%"
     },
     {
-      "name": "amber",
-      "width": "49.0907%"
+      "name": "toprak",
+      "width": "54.6669%"
+    },
+    {
+      "name": "tuzlu",
+      "width": "51.3334%"
     },
     {
       "name": "yumuşak baharatlı",
-      "width": "49.0907%"
+      "width": "51.0002%"
+    },
+    {
+      "name": "taze baharatlı",
+      "width": "49.9999%"
     },
     {
       "name": "sulu",
-      "width": "46.5456%"
+      "width": "46.0001%"
+    },
+    {
+      "name": "amber",
+      "width": "44.9999%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.64",
-    "votesCount": "22",
+    "score": "3.78",
+    "votesCount": "41",
     "breakdown": {
-      "love": "8",
-      "like": "3",
-      "ok": "6",
-      "dislike": "5",
-      "hate": "0"
+      "love": "18",
+      "like": "6",
+      "ok": "8",
+      "dislike": "8",
+      "hate": "1"
     }
   },
   "seasons": {
-    "winter": "2",
-    "spring": "12",
-    "summer": "14",
-    "autumn": "7",
-    "day": "8",
-    "night": "4"
+    "winter": "4",
+    "spring": "18",
+    "summer": "18",
+    "autumn": "12",
+    "day": "13",
+    "night": "10"
   },
   "notes": {
     "top": [
-      "Misket adaçayı",
+      "Misk Adaçayı",
       "Bergamot",
-      "Mandarin",
+      "Mandalina",
       "Karabiber",
       "Tarçın"
     ],
     "middle": [
-      "Deniz suyu",
-      "Trüf",
-      "Gül"
+      "Deniz Notaları",
+      "Gül",
+      "Trüf"
     ],
     "base": [
       "Meşe yosunu",
@@ -92,32 +120,123 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "11",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "12",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "7",
+    "male": "8"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "8",
+    "goodValue": "5",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "DS&DURGA",
+      "name": "Rose Atlantic"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Cosmic Pepper"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Cinque Terre"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "40 Knots"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Fougeres Marines"
+    },
+    {
+      "brand": "ELECTİMUSS",
+      "name": "Black Caviar"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Silver Blue"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "SUPERZ.",
+      "name": "Smesh"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Cedrat Boise"
+    },
+    {
+      "brand": "ESSENTİAL PARFUMS",
+      "name": "Bois Impérial"
+    },
+    {
+      "brand": "EX NİHİLO",
+      "name": "Blue Talisman"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
+    },
+    {
+      "brand": "FRANCESCA BİANCHİ",
+      "name": "Sex and the Sea Neroli"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2011"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Full Incense"
+    },
+    {
+      "brand": "DANİEL JOSİER",
+      "name": "Ambre Tabac"
+    },
+    {
+      "brand": "FRANCESCA BİANCHİ",
+      "name": "The Dark Side"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Grand Soir"
+    },
+    {
+      "brand": "CRİSTİAN CAVAGNA",
+      "name": "Musa Paradisiaca"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Black Aoud"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Red Tobacco"
+    },
+    {
+      "brand": "FRANCESCA BİANCHİ",
+      "name": "Angel's Dust"
+    }
+  ],
+  "comments": []
 }

@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.48079.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Lancome/Parfait-de-Roses-Edition-d-Art-48079.html",
   "brand": "Lancôme parfüm ve kolonya",
-  "description": "Lancôme markasının Parfait de Rôses Edition d'Art parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Parfait de Rôses Edition d'Art, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Nathalie Lorson. Üst notalar: Pembe biber ve Aldehitler; orta notalar: Likör, Grasse Gülü ve Gül; alt notalar Tonka fasulyesi, Benzoin, Vanilya, Beyaz sakız ve Orris kökü.",
-  "description_original": "Lancôme markasının Parfait de Rôses Edition d'Art parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Parfait de Rôses Edition d'Art, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Nathalie Lorson. Üst notalar: Pembe biber ve Aldehitler; orta notalar: Likör, Grasse Gülü ve Gül; alt notalar Tonka fasulyesi, Benzoin, Vanilya, Beyaz sakız ve Orris kökü.",
-  "description_enhanced": "Lancôme markasının Parfait de Rôses Edition d'Art parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Parfait de Rôses Edition d'Art, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Nathalie Lorson. Üst notalar: Pembe biber ve Aldehitler; orta notalar: Likör, Grasse Gülü ve Gül; alt notalar Tonka fasulyesi, Benzoin, Vanilya, Beyaz sakız ve Orris kökü.",
+  "description": "Lancôme markasının Parfait de Rôses Edition d'Art parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Parfait de Rôses Edition d'Art, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Nathalie Lorson. Üst notalar: Pembe biber ve Aldehitler; orta notalar: Likör, Grasse Gülü ve Gül; alt notalar Tonka fasulyesi, Benzoin, Vanilya, Olibanum ve Orris kökü.",
+  "description_original": "Lancôme markasının Parfait de Rôses Edition d'Art parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Parfait de Rôses Edition d'Art, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Nathalie Lorson. Üst notalar: Pembe biber ve Aldehitler; orta notalar: Likör, Grasse Gülü ve Gül; alt notalar Tonka fasulyesi, Benzoin, Vanilya, Olibanum ve Orris kökü.",
+  "description_enhanced": "Lancôme markasının Parfait de Rôses Edition d'Art parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Parfait de Rôses Edition d'Art, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Nathalie Lorson. Üst notalar: Pembe biber ve Aldehitler; orta notalar: Likör, Grasse Gülü ve Gül; alt notalar Tonka fasulyesi, Benzoin, Vanilya, Olibanum ve Orris kökü.",
   "mainAccords": [
     {
       "name": "amber",
@@ -35,11 +35,11 @@
       "width": "56.0465%"
     },
     {
-      "name": "aldehitli",
+      "name": "iris",
       "width": "52.7907%"
     },
     {
-      "name": "iris",
+      "name": "aldehitli",
       "width": "52.7907%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "yumuşak baharatlı",
       "width": "50.8372%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,39 +112,52 @@
       "Tonka fasulyesi",
       "Benzoin",
       "Vanilya",
-      "Beyaz sakız",
+      "Olibanum",
       "Orris kökü"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "1",
+    "longLasting": "2",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "1",
+    "strong": "9",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Parfait de Rôses"
+    },
+    {
+      "brand": "KORLOFF PARİS",
+      "name": "Royal Oud Intense"
+    },
+    {
+      "brand": "ELİE SAAB",
+      "name": "Essence No. 1 Rose"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -155,12 +196,12 @@
       "name": "Black Orchid"
     },
     {
-      "brand": "LANCÔME",
-      "name": "La Nuit Trésor"
-    },
-    {
       "brand": "GUCCİ",
       "name": "Gucci Oud"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Nuit Trésor"
     },
     {
       "brand": "TOM FORD",
@@ -178,5 +219,6 @@
       "brand": "LALİQUE",
       "name": "Perles De Lalique"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -37,16 +37,44 @@
     {
       "name": "paçuli",
       "width": "52.4298%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.18",
-    "votesCount": "153",
+    "score": "3.17",
+    "votesCount": "154",
     "breakdown": {
       "love": "32",
       "like": "38",
-      "ok": "33",
-      "dislike": "26",
+      "ok": "32",
+      "dislike": "28",
       "hate": "24"
     }
   },
@@ -99,16 +127,20 @@
     "moreFemale": "2",
     "unisex": "50",
     "moreMale": "32",
-    "male": "15"
+    "male": "16"
   },
   "priceVoting": {
     "wayOverpriced": "4",
     "overpriced": "8",
-    "fair": "33",
+    "fair": "32",
     "goodValue": "32",
     "greatValue": "8"
   },
   "remindsMeOf": [
+    {
+      "brand": "TOSKOVAT'",
+      "name": "Inexcusable Evil"
+    },
     {
       "brand": "BATH & BODY WORKS",
       "name": "Peppermint Bark Truffle"
@@ -116,10 +148,6 @@
     {
       "brand": "AROMAS DE SALAZAR",
       "name": "Choco Oud"
-    },
-    {
-      "brand": "TOSKOVAT'",
-      "name": "Inexcusable Evil"
     },
     {
       "brand": "NİSHANE",
@@ -184,10 +212,6 @@
       "name": "The Blend Bourbon"
     },
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Malbec"
-    },
-    {
       "brand": "NATURA",
       "name": "Essencial Oud"
     },
@@ -198,6 +222,10 @@
     {
       "brand": "NATURA",
       "name": "Essencial Mirra"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Crazy Feelings"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -215,5 +243,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Egeo Bomb Black"
     }
-  ]
+  ],
+  "comments": []
 }

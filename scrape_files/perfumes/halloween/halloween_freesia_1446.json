@@ -49,6 +49,34 @@
     {
       "name": "yeşil",
       "width": "46.549%"
+    },
+    {
+      "name": "Online satın alın 9 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,33 +118,90 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "16",
+    "moderate": "49",
+    "longLasting": "15",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "14",
+    "moderate": "49",
+    "strong": "21",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "41",
+    "moreFemale": "7",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "24",
+    "greatValue": "11"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HALLOWEEN",
+      "name": "Halloween"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Surf for Her"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Eternity Purple Orchid"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frésia em Flor"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water"
+    },
+    {
+      "brand": "ANA HİCKMANN",
+      "name": "Donna"
+    },
+    {
+      "brand": "JUİCY COUTURE",
+      "name": "Viva La Juicy Neon"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Flor de Frésia"
+    },
+    {
+      "brand": "VİCTORİNOX SWİSS ARMY",
+      "name": "Swiss Army for Her"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Pure XS For Her"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Gioia Intense"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Amor Amor"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Rush 2"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water Pacific Summer Edition for Women"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -124,7 +209,7 @@
     },
     {
       "brand": "BVLGARİ",
-      "name": "Omnia Crystalline"
+      "name": "Omnia Crystalline Eau de Toilette"
     },
     {
       "brand": "VERSACE",
@@ -159,12 +244,12 @@
       "name": "Light Blue"
     },
     {
-      "brand": "RABANNE",
-      "name": "Black XS for Her"
-    },
-    {
       "brand": "MUGLER",
       "name": "Angel"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Black XS for Her"
     },
     {
       "brand": "DİOR",
@@ -178,5 +263,6 @@
       "brand": "LOLİTA LEMPİCKA",
       "name": "Lolita Lempicka"
     }
-  ]
+  ],
+  "comments": []
 }

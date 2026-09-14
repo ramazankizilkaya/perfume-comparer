@@ -49,13 +49,41 @@
     {
       "name": "yeşil",
       "width": "50.5692%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.94",
-    "votesCount": "117",
+    "score": "3.96",
+    "votesCount": "119",
     "breakdown": {
-      "love": "38",
+      "love": "40",
       "like": "51",
       "ok": "13",
       "dislike": "13",
@@ -65,7 +93,7 @@
   "seasons": {
     "winter": "6",
     "spring": "45",
-    "summer": "48",
+    "summer": "49",
     "autumn": "17",
     "day": "41",
     "night": "6"
@@ -89,41 +117,102 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "9",
+    "moderate": "30",
+    "longLasting": "9",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "30",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "5",
+    "unisex": "34",
+    "moreMale": "14",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "9",
+    "overpriced": "14",
     "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
       "brand": "HERMÈS",
-      "name": "Voyage d'Hermes Parfum"
+      "name": "Un Jardin en Méditerranée"
+    },
+    {
+      "brand": "MİLLER ET BERTAUX",
+      "name": "#3 Green, Green, Green and... Green"
+    },
+    {
+      "brand": "BANANA REPUBLİC",
+      "name": "78 Vintage Green"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Wulóng Chá"
+    },
+    {
+      "brand": "JOHN VARVATOS",
+      "name": "Artisan Pure"
     },
     {
       "brand": "XERJOFF",
+      "name": "Nio"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Aqua Media Cologne Forte"
+    },
+    {
+      "brand": "FRAPİN",
+      "name": "L'Humaniste"
+    },
+    {
+      "brand": "LA MANUFACTURE",
+      "name": "Noble Eau de Parfum"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Eau des Sens Eau de Toilette"
+    },
+    {
+      "brand": "BRUNELLO CUCİNELLİ",
+      "name": "Soffio Zenit"
+    },
+    {
+      "brand": "OHTOP",
+      "name": "Fleur d’Oh"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Bvlgari Man Rain Essence"
+    },
+    {
+      "brand": "MİLLER HARRİS",
+      "name": "Tea Tonique"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "XERJOFF",
       "name": "XJ 1861 Renaissance"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Wulóng Chá"
     },
     {
       "brand": "GUERLAİN",
@@ -177,5 +266,6 @@
       "brand": "BYREDO",
       "name": "Bal d'Afrique"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,14 +49,42 @@
     {
       "name": "vanilya",
       "width": "46.093%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.99",
-    "votesCount": "133",
+    "votesCount": "136",
     "breakdown": {
       "love": "49",
-      "like": "54",
+      "like": "57",
       "ok": "12",
       "dislike": "16",
       "hate": "2"
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "11",
-    "spring": "54",
-    "summer": "78",
+    "spring": "56",
+    "summer": "80",
     "autumn": "21",
-    "day": "82",
+    "day": "84",
     "night": "19"
   },
   "notes": {
@@ -100,33 +128,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "14",
+    "weak": "20",
+    "moderate": "28",
+    "longLasting": "4",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "39",
+    "moderate": "28",
+    "strong": "7",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "9",
+    "unisex": "42",
+    "moreMale": "2",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "12",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "23",
+    "greatValue": "20"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HERMÈS",
+      "name": "Un Jardin Apres la Mousson"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Thé Yulong Soie de Nacre"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Le Jardin de Monsieur Li"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK IN2U Her Collectables"
+    },
+    {
+      "brand": "ÉSİKA",
+      "name": "You"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Un Jardin Sur Le Nil"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "The Vert"
+    },
+    {
+      "brand": "L'ESSENCE DES NOTES",
+      "name": "Cardamome&Embruns"
+    },
+    {
+      "brand": "LE PARFUMEUR",
+      "name": "Soleil"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Cruise Collection Escale a Pondichery"
+    },
+    {
+      "brand": "THE BODY SHOP",
+      "name": "Fuji Green Tea"
+    },
+    {
+      "brand": "ALEXANDER MCQUEEN",
+      "name": "Everlasting Dream"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Bergamotto di Calabria La Spugnatura"
+    },
+    {
+      "brand": "LOMANİ",
+      "name": "Network"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "Green Tea"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -188,5 +277,6 @@
       "brand": "NATURA",
       "name": "Ilía Secreto"
     }
-  ]
+  ],
+  "comments": []
 }

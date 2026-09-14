@@ -16,43 +16,75 @@
     },
     {
       "name": "aromatik",
-      "width": "71.8901%"
+      "width": "70.4491%"
     },
     {
       "name": "pudralı",
-      "width": "57.5603%"
-    },
-    {
-      "name": "taze baharatlı",
-      "width": "49.0219%"
-    },
-    {
-      "name": "misk",
-      "width": "47.3309%"
+      "width": "58.408%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "46.0628%"
+      "width": "48.3673%"
+    },
+    {
+      "name": "taze baharatlı",
+      "width": "47.7959%"
+    },
+    {
+      "name": "misk",
+      "width": "47.143%"
+    },
+    {
+      "name": "vanilya",
+      "width": "44.2858%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.03",
-    "votesCount": "294",
+    "votesCount": "323",
     "breakdown": {
-      "love": "119",
-      "like": "100",
-      "ok": "42",
-      "dislike": "30",
-      "hate": "3"
+      "love": "131",
+      "like": "111",
+      "ok": "46",
+      "dislike": "31",
+      "hate": "4"
     }
   },
   "seasons": {
-    "winter": "25",
-    "spring": "100",
-    "summer": "76",
-    "autumn": "80",
-    "day": "88",
-    "night": "21"
+    "winter": "30",
+    "spring": "113",
+    "summer": "87",
+    "autumn": "90",
+    "day": "96",
+    "night": "22"
   },
   "notes": {
     "top": [
@@ -75,36 +107,40 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "11",
-    "weak": "16",
-    "moderate": "53",
+    "veryWeak": "12",
+    "weak": "17",
+    "moderate": "59",
     "longLasting": "11",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "33",
-    "moderate": "53",
+    "intimate": "35",
+    "moderate": "59",
     "strong": "3",
     "enormous": "1"
   },
   "genderVoting": {
-    "female": "24",
-    "moreFemale": "22",
-    "unisex": "59",
-    "moreMale": "3",
+    "female": "25",
+    "moreFemale": "23",
+    "unisex": "64",
+    "moreMale": "5",
     "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "4",
-    "overpriced": "31",
-    "fair": "42",
+    "wayOverpriced": "5",
+    "overpriced": "33",
+    "fair": "46",
     "goodValue": "5",
     "greatValue": "1"
   },
   "remindsMeOf": [
     {
-      "brand": "JO MALONE LONDON",
-      "name": "English Oak & Hazelnut"
+      "brand": "LE LABO",
+      "name": "Violette 30"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Meander"
     },
     {
       "brand": "ZARA",
@@ -115,8 +151,40 @@
       "name": "Popeline Blanche"
     },
     {
+      "brand": "HERMÈS",
+      "name": "Un Jardin en Méditerranée"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Poppy & Barley"
+    },
+    {
+      "brand": "EX NİHİLO",
+      "name": "Explicite"
+    },
+    {
+      "brand": "ORMONDE JAYNE",
+      "name": "Evernia"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Chloé Rose Naturelle Intense"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dioriviera"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Desert Dawn"
+    },
+    {
       "brand": "GLOSSİER",
       "name": "You Fleur"
+    },
+    {
+      "brand": "LE LABO",
+      "name": "Santal 33"
     },
     {
       "brand": "MUSC ET MADAME",
@@ -149,14 +217,6 @@
       "name": "Ani"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Mon Guerlain"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Guidance"
-    },
-    {
       "brand": "DİPTYQUE",
       "name": "Eau Duelle Eau de Toilette"
     },
@@ -165,12 +225,20 @@
       "name": "Musc Ravageur"
     },
     {
+      "brand": "BY KİLİAN",
+      "name": "Angels' Share"
+    },
+    {
       "brand": "INİTİO PARFUMS PRİVES",
       "name": "Musk Therapy"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Angels' Share"
+      "brand": "ZADİG & VOLTAİRE",
+      "name": "This is Her"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Hysope"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -187,6 +255,138 @@
     {
       "brand": "HERMÈS",
       "name": "Un Jardin Sur Le Nil"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent749080",
+      "author": "ateneo_ldb",
+      "date": "2025-12-13",
+      "text": "Çok havadar, kabarık, kremsi yeşil meşe kokusu. Meşe ağacının kendisinden ziyade, meşe ağacının altında esen hafif bir esinti gibi. Fındıksı, sütlü ama aynı zamanda aromatik. Hafif miskli, hafif pudralı, neredeyse ten gibi. Lezzetli ama hiç de gurme değil (şükürler olsun ki benim için). Güzelce harmanlanmış; sandal ağacı, vanilya ve narenciye, sadece birbirinin üzerine oturmak yerine, havadar meşe atmosferini destekliyor. Kuruma aşamasında hafif, pudralı, kehribarlı bir meşe kokusu kalıyor. Genellikle ağır, çoğu zaman alkollü bir yönde ifade edilen meşe kokusuna çok ilginç bir yaklaşım.\n\nHavalimanında buna çok şaşırdım. Tüm seriden en eşsiz olanı buydu benim için. Son derece yumuşak, nazik, kadınsı ama daha önce hiç koklamadığım bir şekilde. Çok, çok güzel. Mükemmel bir günlük losyon/saç bakım kokusu olurdu. İndiğim anda bir indirim mağazasından sipariş verdim.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1068097.jpg"
+    },
+    {
+      "id": "parent749083",
+      "author": "umeboshi",
+      "date": "2025-11-21",
+      "text": "Bu koku bana yazdan sonbahara geçişi hatırlatıyor; hafif, biraz sıcak ve biraz da yeşilimsi. Çok fazla odunsu bir koku almadım, sanki güneşli bir öğleden sonra parkta yapraklı ağaçlarla çevrili bir yürüyüş yapıyormuşum gibi kokuyor. Başka bir yorumda \"kremalı, narenciye, limon ve vanilya karışımı\" denmişti ve katılıyorum... Lush'ın çok sevdiğim Super Milk'ine benziyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2733898.jpg"
+    },
+    {
+      "id": "parent749084",
+      "author": "Wekabeka",
+      "date": "2025-08-11",
+      "text": "Muhteşem – kremsi meşe ve sedir, müge çiçeği, bergamot ve defne yaprağının parlak ve ferahlatıcı notalarıyla dengelenmiş. Ayrıca aromada ince bir incir yaprağı vurgusu da var ki bu benim için ek bir bonus. Cilde yakın duruyor, 5-6 saat süren hoş ve samimi bir koku balonu oluşturuyor. Orchidée de Minuit, Vanilla Planifolia ve Immortelle & Hysope'ye sahibim, ancak Atelier des Fleurs koleksiyonunda en çok kullandığım koku Chêne.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2199783.jpg"
+    },
+    {
+      "id": "parent749095",
+      "author": "irina_poddubnaya_",
+      "date": "2025-07-05",
+      "text": "Güzel bir koku. Hiç de bunaltıcı değil. Doğal, kremsi ve hoş. Şampuan hakkındaki yorumu okudum; belki doğru ama ben buna cilt bakım ürünü kokusu derdim. Tüm seri gibi çok güzel.\nİlk başta kadınsı olduğunu düşündüm, sonra unisex olduğunu, ardından da erkeğimin böyle kokmasını istediğimi fark ettim.\nAslında bu meşe bazlı parfümü denemek istememin sebebi soyadımın Poddubnaya olması.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.416834.jpg"
+    },
+    {
+      "id": "parent749094",
+      "author": "Крысомать",
+      "date": "2025-03-26",
+      "text": "Çok güzel, sofistike, suluboya resimlerini andıran bir koku. İnsanlarla çalışanlar için rahatlatıcı bir seçim. Tazelik, saflık ve romantik bir atmosfer yayıyor. Tüm koleksiyon gibi kusursuz bir şekilde üretilmiş.\nŞahsen benim için kesinlikle unisex; hiçbir yöne doğru bir önyargı yok.\nSuluboya benzeri kalitesine rağmen, (en azından benim deneyimime göre, koleksiyonumda 250'den fazla parfüm olmasına rağmen) başka hiçbir şeye benzemeyen, çok sıra dışı bir sese sahip.\nKesinlikle 5+!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.410117.jpg"
+    },
+    {
+      "id": "parent749085",
+      "author": "Arion",
+      "date": "2025-03-20",
+      "text": "Yaz kokusu. Odunsu ve narenciye notalarıyla hoş bir açılış. Bence unisex bir koku. Sonra oldukça hızlı bir şekilde ten kokusuna dönüşüyor. Daha kremsi ve hafif tatlı bir hal alıyor. Eğer incir yaprağı kokusunu seviyorsanız... biraz limon ve vanilya dokunuşuyla, bu kokuyu denemeden alabilirsiniz. Sıcak, topraksı bir koku. Chloe'nin serisinden bu kokuyu çok beğendim.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1468813.jpg"
+    },
+    {
+      "id": "parent749078",
+      "author": "luvoxlixir",
+      "date": "2025-01-24",
+      "text": "Kesinlikle ağız sulandırıcı—Chloe, yazın özünü bir kokuda yakalamış. Kafurlu, mumsu yeşil yaprakların narenciye alt tonuyla birleştiği açılış, adeta sıcak, tropikal bir ormanda taze ezilmiş bir ot gibi, yemyeşil ve canlı bir hava yaratıyor. Bu sadece bir koku değil; bir sahne—yüksek bir ağacın altında duruyorsunuz, yaprakları hafif yağlı ve aromatik, uzaktan gelen güneşle ısınmış narenciye kokusuyla karışıyor. Sandal ağacının pürüzsüz tabanı da belirgin, kremsi ve topraklayıcı, tıpkı ağacın nazik ihtişamı gibi; yukarıdaki aromatik, yeşil gövdeler ise bu vahşi, evcilleştirilmemiş havayı yayıyor. Doğanın alanını geri alması, canlı ve gelişen bir hal alması. Canlı ve inanılmaz derecede eşsiz.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2357192.jpg"
+    },
+    {
+      "id": "parent749090",
+      "author": "Stephani",
+      "date": "2024-10-31",
+      "text": "Aşağıdaki yorumla aynı fikirdeyim.\nMuhteşem bir kompozisyon: saydam ve şiirsel bir ahşap kadife.\n\nBurada, havadar, botanik bir meşe ağacı var; pürüzsüz ve pudramsı. Renkleri ve nüanslarıyla, onu gerçekten büyülü kılan ekstra bir şeye sahip.\n\nHariç…\nBu peri çok güzel ama aynı zamanda biraz da... çünkü neredeyse hiç kalıcılığı yok ve cildimde en fazla 10 dakika kalıyor (kolonyalar bile daha iyi), kıyafetler için bir şey söyleyemem.\nBelki sen benden daha şanslı olursun?",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.27173.jpg"
+    },
+    {
+      "id": "parent749089",
+      "author": "Gardinette",
+      "date": "2024-09-14",
+      "text": "Kesinlikle muhteşem. Daha önce hiç böyle bir şey hissetmemiştim. ♥\n\n\n\nÇok yumuşak, okşama gibi, sessiz bir kucaklama gibi. Sandal ağacını, aromatik ve pudralı bir yuvarlaklıkla kolayca algılayabiliyorum. Hem kadınlar hem de erkekler için, zamansız ve cinsiyetsiz bir koku. \"Santalum\"un daha minimalist ve daha soğuk bir versiyonunu da çok sevmiştim. Çünkü \"Chêne\"de belli bir parlaklık, belli bir çiçeksi sıcaklık var.\n\n\nBaskın Notalar:\nMeşe, Sandal Ağacı, Meşe Yaprağı\n\nEk Notlar:\nVanilya, Portakal Çiçeği, Defne Yaprağı, Misk\n\nGeçerli Olmayan Notlar:\nSedir, Mandalina, Bergamot, Vadideki Zambak\n\n\n♥ 8/10 ♥",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.17094.jpg"
+    },
+    {
+      "id": "parent749082",
+      "author": "Jasmine92",
+      "date": "2024-05-23",
+      "text": "Atelier des Fleurs serisini çok sevdiğim ve bu parfümü yakınımda hiçbir yerde deneme imkanı bulamadığım için denemeden aldım. Bu, neredeyse kokusunu alamadığım kadar hafif bir koku. Açılışta çok hafif, taze bir baharatlılık ipucu alıyorum ve kurudukça yumuşak, pudralı, temiz bir odunsu kokuya dönüşüyor.\n\nİlk izlenimim, hoş ve zararsız olduğu yönünde, ancak listelenen notaların görünüşte eşsiz ve güzel kombinasyonuna rağmen biraz sönük kalıyor. Umarım zamanla karmaşıklığı ve gücü artar.\n\nŞu ana kadar, bu türle iyi uyum sağladığını düşündüğüm diğer türler arasında Magnolia Alba ve Rosa Damascena yer alıyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent749081",
+      "author": "eva.daisy.88",
+      "date": "2024-05-11",
+      "text": "Bu çok güzel bir parfüm, ama gerçek meşe ağacı gibi kokmuyor hiç. Avrupa'da meşe ağaçlarının bol olduğu bir ormanın yakınında büyüdüm ve bu parfüm tamamen farklı bir koku yönüne gidiyor. Güzel ama gerçek meşe ile hiçbir ilgisi yok.\nTatlı ve yumuşak yapısıyla, Atelier des fleur'ün diğer daha çiçeksi parfümleriyle birlikte kullanmak için mükemmeldir.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1401688.jpg"
+    },
+    {
+      "id": "parent749076",
+      "author": "powderflower",
+      "date": "2024-04-17",
+      "text": "Kesinlikle muhteşem. Şu anda da sürüyorum. Dubai'de, etrafımda sürekli oud kokuları duymaktan bıktığımda tam boy şişeyi aldım. Temiz, yumuşak, sakinleştirici ama aynı zamanda bağımlılık yapıcı bir şeye ihtiyacım vardı :) İşte bu o. Yumuşak, tatlı, odunsu, kremsi ve aynı zamanda heyecan verici. Alexis Dadier, bunu benim için yarattığınız için teşekkür ederim :) Erkek arkadaşım da bunu çok seviyor, bu yüzden paylaşabiliyoruz. Şimdiye kadar Chloe Atelier'den Cedre ve Papyrus'u paylaşıyoruz. Bu en ilginç ve güzel kokulardan biri. Koku uzmanı değilim ve bu parfümde ne kokladığımı söyleyemem, ama beni mutlu ediyor, sakinleştiriyor ve böyle bir şeyin var olduğuna hayran bırakıyor. Evet, odunsu ama erkeksi bir odunsu değil. Tıpkı ormanda yürüyüş gibi bir odunsu koku. Bayıldım.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1307471.jpg"
+    },
+    {
+      "id": "parent749096",
+      "author": "Ailatai",
+      "date": "2024-03-23",
+      "text": "Çok güzel. Yeşil meşe yapraklarının keskin, doğal aroması. Tanenli, bir tür yeşil odunsu koku. Neredeyse başka hiçbir şey fark edilmiyor. Defnenin hafif tuzlu notası şaşırtıcı ama rahatsız edici değil. Narenciye baskın değil; narin asiditesi yeşil meşeyi daha iyi tamamlıyor ve yumuşatıyor. Misk de baskın değil, aksine kokuyu yumuşatarak sert değil, çok rahatlatıcı hale getiriyor.\nKokusu, doğal bir tazelik nefesi gibi.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.246752.jpg"
     }
   ]
 }

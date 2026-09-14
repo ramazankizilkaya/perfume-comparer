@@ -16,59 +16,87 @@
     },
     {
       "name": "aldehitli",
-      "width": "83.4547%"
+      "width": "85.2345%"
     },
     {
       "name": "taze",
-      "width": "81.1635%"
-    },
-    {
-      "name": "odunsu",
-      "width": "71.5544%"
-    },
-    {
-      "name": "amber",
-      "width": "70.0911%"
+      "width": "84.9613%"
     },
     {
       "name": "pudralı",
-      "width": "68.5635%"
+      "width": "68.2267%"
     },
     {
-      "name": "animalik",
-      "width": "64.5544%"
+      "name": "odunsu",
+      "width": "67.1054%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "61.8182%"
+      "width": "66.3672%"
     },
     {
-      "name": "gül",
-      "width": "52.9089%"
+      "name": "amber",
+      "width": "63.6328%"
+    },
+    {
+      "name": "animalik",
+      "width": "60.6795%"
     },
     {
       "name": "sabunsu",
-      "width": "52.4%"
+      "width": "53.8439%"
+    },
+    {
+      "name": "gül",
+      "width": "50.4123%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "597",
+    "score": "3.96",
+    "votesCount": "643",
     "breakdown": {
-      "love": "284",
-      "like": "154",
-      "ok": "59",
-      "dislike": "77",
-      "hate": "23"
+      "love": "295",
+      "like": "169",
+      "ok": "67",
+      "dislike": "85",
+      "hate": "27"
     }
   },
   "seasons": {
-    "winter": "131",
-    "spring": "181",
-    "summer": "144",
-    "autumn": "171",
-    "day": "186",
-    "night": "130"
+    "winter": "141",
+    "spring": "196",
+    "summer": "158",
+    "autumn": "185",
+    "day": "200",
+    "night": "139"
   },
   "notes": {
     "top": [],
@@ -86,33 +114,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "11",
+    "weak": "41",
+    "moderate": "104",
+    "longLasting": "77",
+    "eternal": "37"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "86",
+    "moderate": "104",
+    "strong": "41",
+    "enormous": "26"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "36",
+    "moreFemale": "55",
+    "unisex": "149",
+    "moreMale": "18",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "59",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "132",
+    "overpriced": "68",
+    "fair": "67",
+    "goodValue": "6",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "KİEHL'S",
+      "name": "Original Musk"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Clair de Musc"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Musc Outreblanc"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Noir Absolu Musc Essence"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Musk Therapy"
+    },
+    {
+      "brand": "THE BODY SHOP",
+      "name": "White Musk"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Musk Pure"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "L'Heure Blanche"
+    },
+    {
+      "brand": "JOVAN",
+      "name": "White Musk"
+    },
+    {
+      "brand": "THE BODY SHOP",
+      "name": "White Musk Perfume Oil"
+    },
+    {
+      "brand": "TESORİ D'ORİENTE",
+      "name": "White Musk"
+    },
+    {
+      "brand": "JOVAN",
+      "name": "Musk"
+    },
+    {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Musc Invisible"
+    },
+    {
+      "brand": "SOLİNOTES",
+      "name": "Musc"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "This Is Not A Blue Bottle 1.2"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİPTYQUE",
@@ -131,10 +220,6 @@
       "name": "Gaiac 10 Tokyo"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Angélique Noire"
-    },
-    {
       "brand": "LE LABO",
       "name": "Rose 31"
     },
@@ -144,7 +229,7 @@
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Portrait of a Lady"
+      "name": "Carnal Flower"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -152,7 +237,7 @@
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Carnal Flower"
+      "name": "Portrait of a Lady"
     },
     {
       "brand": "TOM FORD",
@@ -160,19 +245,225 @@
     },
     {
       "brand": "LE LABO",
-      "name": "Vanille 44 Paris"
-    },
-    {
-      "brand": "LE LABO",
-      "name": "Santal 33"
+      "name": "Lys 41"
     },
     {
       "brand": "BYREDO",
       "name": "Bal d'Afrique"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Oud Wood"
+      "brand": "LE LABO",
+      "name": "Santal 33"
+    },
+    {
+      "brand": "LE LABO",
+      "name": "Vanille 44 Paris"
+    },
+    {
+      "brand": "LE LABO",
+      "name": "Bergamote 22"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent763163",
+      "author": "2000sLover",
+      "date": "2025-03-08",
+      "text": "Eski partiler: son derece güçlü, kürk benzeri misk kokusu, muhteşem bir sabun akoru, tozlu ve odunsu, adeta melek gibi hissettiriyordu.\n\nYeni partiler: Hafif, tek boyutlu sabunsu bir kokuya sahip, daha çok ıslak mendile benziyor. 4 saatten fazla kalıcı değil.\n\nBu şaheseri mahvettiğiniz için teşekkürler Estee Lauder...",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2429924.jpg"
+    },
+    {
+      "id": "parent750750",
+      "author": "kenwshew",
+      "date": "2024-12-13",
+      "text": "Sanırım bu, aklımdan çıkaramadığım parfümlerden biri. Bunu sürdüğümde sürekli bileğimi ve tişörtümü kokluyorum. Tarif edilemez, olağanüstü bir ten kokusu. Özellikle ANOTHER 13 ile birlikte kullanıldığında da çok güzel bir uyum sağlıyor... Bu kombinasyon, Ambroxyde/Misk başyapıtı gibi. Ayrıca, şahsen MUSC 25 veya ANOTHER 13'e yoğun portakal notaları eklenmiş hali gibi kokan Fleur D'Oranger ile de güzel bir şekilde uyum sağlıyor. Aşırı pahalı olduğunu kabul ediyorum, gerçekten çok pahalı, ama yedek şişelerin %20 indirimli olması güzel. Aklımdan çıkaramadığım için sonunda satın aldım. Piyasadaki diğer hiçbir şeye benzemiyor ve tüm zamanların favorilerimden biri!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent750751",
+      "author": "katzevogel",
+      "date": "2024-06-23",
+      "text": "Temiz, parlak, beyaz misk kokusu başlangıçta hayvansı ve vahşi bir şeye dönüşüyor. Duyduğum konsept, meleklerin günaha teşvik edilmesi gibi; Melekler Şehri için uygun bir fikir. Ciltte, en seksi vücut kokusu gibi, spor salonundaki en çekici kişinin terinin nasıl kokacağını hayal ettiğiniz gibi. Feromonlu ve biraz kirli, ama hijyenik olmayan bir noktaya kadar değil.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1674698.jpg"
+    },
+    {
+      "id": "parent763162",
+      "author": "coconutbeth",
+      "date": "2024-06-19",
+      "text": "Açılış temiz ve ferah. Bunun bir parfüm olduğunu anlamazdım, sadece o kişinin çok temiz ve güzel koktuğunu düşünürdüm. Kuruma aşaması çok daha ilgi çekici ama yine de nefis, temiz bir cilt gibi kokuyor. Eşimle bu parfümü paylaşıyoruz, birbirimizde çok beğeniyoruz. Koleksiyonumdaki \"vay canına, o kişi çok güzel kokuyor\" diye düşündüren ama beyninizin bunun kasıtlı olduğunu algılamadığı tek parfüm bu olabilir.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2027821.jpg"
+    },
+    {
+      "id": "parent750749",
+      "author": "kajakuuls",
+      "date": "2024-02-10",
+      "text": "Tam bir sihir. Gelmiş geçmiş en yumuşak, en güzel misk kokusu. Gerçekten melek gibi. İlk başta biraz rahatsız edici bir koku (aldehitler mi?) var ama vay canına, o birkaç garip dakikaya kesinlikle değer.\nBunu bir yıl önce aldıktan sonra hızla imza kokum haline geldi. Bence daha serin havalarda daha iyi kokuyor ama ben yıl boyunca kullanıyorum. Bu koku beni misk kokularına yönlendirdi ama kokladığım birçok koku arasında hiçbiri benim için Musc 25'e yaklaşmıyor. Kiel'in orijinal miskinin ona hiç benzemediği görüşüne katılmıyorum.\nLos Angeles'ta yaşadığım için minnettarım, 30 ml'lik şişeyi bitirdikten sonra tam boyunu tekrar satın aldım. Eskiden Aldehyde 44'üm vardı ve sanırım ikisi de \"temiz\" kokular olmaları bakımından benzer olsalar da, özellikle son notalarını hiç beğenmedim. Musc 25 çok özel, eğer bulabilirseniz mutlaka deneyin.\nHer zaman iltifat alıyorum ve bu koku, erkek arkadaşımın ve en yakın arkadaşımın üzerimde en sevdiği koku.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2011280.jpg"
+    },
+    {
+      "id": "parent763164",
+      "author": "IamdrinkingBeer",
+      "date": "2023-09-15",
+      "text": "Chanel'in 1957 parfümünü denedim ve bana çok sıkıcı geldi. Kaliteli ama sonuçta sıkıcı. Ama bu... vay canına... Sanki en muhteşem pudra, duş almış ve yıkanmış bir MKK miskiyle karıştırılmış gibi. Arka planda hafif bir gül notası var, ona doğal, dış mekan havası katıyor. Kesinlikle muhteşem bir şey. Sarılma hissi veriyor, şehvetli ama asla aşırı değil. Tatlı ama asla aşırı değil. Tam anlamıyla mükemmel. Le Labo'dan nefret edenler bunu denemeli, bence tüm zamanların en iyi niş parfümlerinden biri, bunda hiçbir kusur yok. 10/10.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1309936.jpg"
+    },
+    {
+      "id": "parent750779",
+      "author": "elena vosnaki",
+      "date": "2021-06-01",
+      "text": "Melekler Şehri. Ve şeytanlar. Uzun, güneşten bronzlaşmış bacaklar. Ve bahçe partileri.\n\nLe Labo markası, dünyanın belirli şehirlerindeki butiklerinde SADECE bulunabilen bazı parfümler üretiyor. Musc 25 de bunlardan biri.\n\nAldehitlerden oluşan narenciyenin sade, neredeyse kar beyazı yansıtıcı açılışı ve üst notalardaki müge çiçeğinin yıkanmış etkisi, sentetik misklerin tanıdık tatlı sıcaklığıyla birleşerek, her yere yayılan, ışıl ışıl, güzel ve çekici kokular yaratıyor; ancak aynı zamanda hafif gizemli bir dokunuş da içeriyor. Az miktarda vetiver, misk ile iyi bir uyum sağlıyor (Musc 25, Tresor muscat ile paralel olarak minik bir şeftali yönünü paylaşıyor), sonuç olarak parçalarının toplamından daha fazlasını temsil ediyor. Bıraktığı iz hafif kehribar renginde ve oldukça kalıcı.\n\nLe Labo, formülünde \"şeytanın ta kendisinin\" bulunduğu \"kirli, cinsel, yozlaşmış\" bir misk olarak tanıtıyor. Abartı. Dalgalı, yumuşak (biraz pudralı), kullanan kişinin gözleri gibi iri gözlü; muhtemelen yatağının altında sakladığı ucuz romanları seviyor. Herkes gittikten sonra onları çıkarıp kendi kendine oynuyor, arka planda Under the Bridge çalıyor, melodik bas, duvarlardaki poster kolajından yankılanıyor gibi görünüyor.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.gr",
+      "avatar": "https://fimgs.net/mdimg/avatarigr/m.3090.jpg"
+    },
+    {
+      "id": "parent750747",
+      "author": "gummypepsi",
+      "date": "2020-05-10",
+      "text": "Gerçekten her şeyle ve her durumda uyumlu, çok temiz, beyaz bir misk. Çok rahatsız edici olmayan ve burun için hoş bir koku. Bazı yorumlarda hafif dışkı, meni veya hatta idrar kokusu aldıklarından bahsedildiğini görüyorum. Bana göre, bu koku kesinlikle zarif ve temiz, ancak ciltten cilde nasıl farklı tepki verebileceğini de anlıyorum. Eğer bir numunesini bulabilirseniz, kesinlikle denemeye değer. Perakende fiyatından bir şişe almanızı tavsiye etmem, çünkü ben aldım ve çok aptalca bir şeydi. İyi tarafı şu ki, bu şey bir meleğin pudralı poposu gibi kokuyor, yani o kadar da kötü bir şey yapmamışım.\n\n10/10\n\ndüzenlemek:\n100 ml'lik ürünün 550 dolar gibi absürt bir fiyata satılması nedeniyle puan 8/10'a düşürüldü.\n\nDüzenleme: 3 yıl sonra bu kokuyu daha da çok seviyorum. Artık bu kokuda hafif hayvansal misk notasını algılayabiliyorum ve çiçeklerle çok iyi uyum sağlayarak dengeli ve rahatlatıcı bir koku oluşturuyor. Ciltte ve kıyafetlerde çok uzun süre kalıyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1168227.jpg"
+    },
+    {
+      "id": "parent750790",
+      "author": "DutchSniffer",
+      "date": "2020-02-27",
+      "text": "Anneler forumundaki yorumlar beni çok ilgilendirdi; birisi, kokunun temiz, yeni yıkanmış bez giymiş ve sonra bezine kaka yapmış bir kız bebeğin kokusuna benzediğini söylüyor; temiz ve kirli kokuların bir arada olduğu bir koku. Ayrıca bunun Los Angeles'ı, güzelliğin hemen yanındaki kirliliği mükemmel bir şekilde yansıttığını da belirtiyorlar.\nBeni en çok etkileyen şey, Ma Faute ile çok fazla benzerlik olması.\nBu, iğrenç bulduğum sentetik paçuli ile birlikte kullanılan yoğun misk kokusu; topraksı, doğal paçuli kokusunun aksine, bu koku çok sinir bozucu... Bir de tuvalet kokusunu ferahlatan müge çiçeği var.\nAynı şeyi, neyse ki daha az şiddette olsa da, Le Labo'nun Musc parfümünde de yaşıyorum. Bir numuneden kokuyu deneyimlemek eğlenceli, ama şişede, vay canına!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.nl",
+      "avatar": "https://fimgs.net/mdimg/avatarinl/m.6.jpg"
+    },
+    {
+      "id": "parent750754",
+      "author": "Soluna",
+      "date": "2019-10-04",
+      "text": "Çok rahatlatıcı, hafif yağlı, çiçeksi (vadi zambağı) ve yumuşak aldehitli beyaz misk bazı, ciltle mükemmel bir şekilde bütünleşiyor; hafif hayvansı tonlarla birleşerek ona karakter ve varlık kazandırıyor... Benzerini bilmiyorum... TBS, MKK veya Clair de Musc değil... Belki hepsinden biraz var ama daha iyi... İnanılmaz kalıcılığı var, sizi tüm gün sarıyor...",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.18109.jpg"
+    },
+    {
+      "id": "parent750743",
+      "author": "Jitterbug Perfume Lover",
+      "date": "2019-08-23",
+      "text": "Yıllardır, aradığım mükemmel misk kokusunu bulmaya çalışıyorum. SL Clair gibi \"hoş\" misklerden pek hoşlanmıyorum, hani şu tırnakları törpülenmiş olanlardan - çünkü sıkıcı olabiliyorlar. Hayvansal kokuları seviyorum ama bazen SL MKK'nın o aşırı, arsız kokusu çok fazla geliyor. Her zaman duş almamış gibi dolaşamam. Sanırım hepsini denedim ve itiraf etmeliyim ki, sevdiğim şehrin adını taşıyan bu Le Labo'yu bulduğumda bunun bir pazarlama hilesi olduğunu düşündüm.\n\nLos Angeles'ı, Red Hot Chili Peppers'ın \"City of Angels\" şarkısındaki gibi hissediyorum. Burası benim evim ve onu seviyorum, başka hiçbir yerde bulamayacağınız tüm o güzel ve muhteşem şeyleri seviyorum. Hayalperestlerin kanatlarını açmaya geldiği yer burası. Hava her zaman güzel ve bolca kültür ve güzel insanlarla dolu. Başka hangi şehirde Keanu Reeves'e benzin istasyonunda, Arnold Schwarzenegger'e de kilisede rastlayabilirim ki? Ciddi anlamda! Evet, bu şehir de kirli olabiliyor. Bazen sadece trafik bile insanı birini öldürmek istemeye itebiliyor. Ama burası bir zamanlar Theda Bara ve Marilyn Monroe'dan Charles Manson ve Richard Ramirez'e; Venedik'te The Doors ve Cheech and Chong'dan şehir merkezindeki bir barda Charles Bukowski'ye; Malibu'daki Chumash yerli kabilesinden Doğu Los Angeles'taki Lowrider'lara kadar herkese ev sahipliği yapmıştı. Compton'da Easy-E ve Dr. Dre'den, Watts'taki küçük bir kilisede gospel şarkıları söyleyen Aretha Franklin'e kadar.\n\nLe Labo tüm bunları nasıl şişeye sığdırabileceğini düşündü acaba?? Nasıl başardılar bilmiyorum ama bu parfüm, ilk seçmesine giden pembe yanaklı bir Hollywood yıldızının temiz ve ferah kokusundan, The Rainbow'daki bar taburesinde oturan Lemmy'nin sertliğine kadar her şeyi aynı anda barındırıyor. Frank Sinatra'nın Musso & Franks'te Lauren Bacall'a kadeh kaldırırken giydiği köpekbalığı kostümünün sade şıklığından, Magic Johnson ve Kobe Bryant'ın maçtan sonraki havalı tarzına kadar her şey var içinde. İyisi, kötüsü ve aradaki her şey.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.534717.jpg"
+    },
+    {
+      "id": "parent750773",
+      "author": "hab",
+      "date": "2018-12-25",
+      "text": "Çığır açıcı bir yanı yok, ama dürüst, iyi bir misk; neredeyse her saygın markanın sahip olduğu türden. Lutens, Ford, Mecheri. Ancak bunlar her zaman çok satanlar arasına girmiyor ve genellikle üretimi durduruluyor. Belki de bu yüzden sınırlı sayıda üretildi. Bu, aynı temiz, ferah misk, aldehitler ve ambergris ile daha da beyazlatılmış, tıpkı çamaşır suyu gibi. İlginç bir yaklaşım, çok ilgi çekici geliyor, ama sizi çıldırtacak veya çok fazla dikkat çekecek türden bir koku değil.\n\nBir saatten biraz fazla bir süre sonra, aldehitler kayboluyor ve geriye ambergris, müge ve misk kokusu kalıyor. Bazıları burada hafif bir kremsi sabunsuluk olduğunu söyleyebilir, ancak bu genellikle temizliği vurgulayan misk kokularının dezavantajıdır. Türün bir özelliğidir. Avrupa miskinden ziyade \"Amerikan\" miskine daha çok benziyor; Avrupa misklerinde karmaşık, etli tonlar yaygındır. Burada her şey oldukça açık ve her anlamda saf, inkar edilemez. Kalıcılığı iyi, yaklaşık 10 saat.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.171839.jpg"
+    },
+    {
+      "id": "parent750745",
+      "author": "s_raquidan",
+      "date": "2018-12-02",
+      "text": "Basit ve minimalist ama en üst düzeyde. 24 saatlik bir taahhüt ve bence tüm zamanların en iyi 5 parfümünden biri ve benim favori Le Labo parfümüm. Tanrı cennette çamaşırlarını katladığında Musc 25 gibi kokardı. Bu kadar basit ve süper güçlü bir ürün için Le Labo'nun istediği fiyatı göze alabiliyorsanız, inanılmaz derecede güzel ve bolca iltifat topluyor. Bunu denerken test şeridini oda parfümü olarak kullandım... o kadar güçlüydü ki bir ay boyunca etkisini korudu... o lanet test şeridi!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.300708.jpg"
+    },
+    {
+      "id": "parent750752",
+      "author": "cologneblanche",
+      "date": "2018-09-18",
+      "text": "Çok çok güzel. Koleksiyonumdaki en muhteşem misk bazlı koku. Fiyatı absürt ama etrafınızda yumuşak bir koku bulutu yaratarak uzun süre kalıcı oluyor. Bu benim yeni imza kokum olabilir!! Clair de Musc kadar soğuk değil. Paçuli ona biraz daha tatlı, kremsi bir alt ton veriyor. Ayrıca tüm temizliğin ardında gizlenmiş bir misk alt tonu da var.\nTıpkı Another 13 gibi. Hafif ve havadar bir his veriyor ama kullanan kişinin etrafında günlerce süren bir atmosfer yaratıyor!! Kıyafetlerde, bir hafta sonra bile kokusunu alabiliyorum ve hala uzaktan bile yayılıyor.\nBu, %30'luk bir ekstrakt konsantrasyonudur, bu nedenle fiyatına rağmen en azından bir parfüm elde ediyorsunuz.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.948976.jpg"
+    },
+    {
+      "id": "parent750748",
+      "author": "Addict2Perfume",
+      "date": "2017-08-21",
+      "text": "Le Labo'nun Musc 25 Los Angeles'ı saf, kristal berraklığında, katkısız, parıldayan beyaz bir ışık! Şimdiye kadar kokladığım en gösterişli misk! Geçen yıl, sadece bir aylığına piyasaya sürülen şehir özel serilerinden birkaç örnek aldım ve Musc 25'e hemen aşık oldum, ancak fiyatı *bayılıyor* o kadar absürttü ki, satın almaya bir türlü cesaret edemedim. 4 ay sonra hala bu kokuyu ne kadar sevdiğime takıntılıydım ve neden parayı verip almadığıma kendimi kızdırıyordum. Ve işte, tam 11 ay boyunca nefesimi tutarak ve paramı biriktirerek bir şişe satın aldım. eBay'de nazik bir yabancıdan (Teşekkürler!) yepyeni 100 ml'lik bir şişeyi inanılmaz bir indirimle aldım ve kelimenin tam anlamıyla daha mutlu olamazdım! En sevdiğim 5 parfümü güncellemem çok nadirdir ama Musc 25 listeye girdi! Cennetteyim!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.156824.jpg"
+    },
+    {
+      "id": "parent750786",
+      "author": "sofiii",
+      "date": "2016-04-29",
+      "text": "Le Labo'nun Musc 25 Los Angeles'ı, şimdiye kadar kokladığım en karmaşık misk kokularından biri. Farklı misk kokularını bir araya getirip nazikçe harmanlayarak, iş veya okul için mükemmel, incelikli ama çekici bir koku ortaya çıkarıyor. Elbette, yakından koklarsanız, biraz da seksi bir yanı olduğunu da fark edersiniz.\nMusc 25 Los Angeles, The Body Shop'un White Musk'ı gibi tipik beyaz miskin temizliğini, Narciso Rodriguez For Her gibi son zamanlarda popüler olan bazı kadın misk kokularının yumuşaklığını, aynı zamanda Khiel'in Original Musk'ı gibi çok ince, hafif hayvansı \"kirli\" bir misk, mürekkep benzeri bir koku veya saman yığınlarını anımsatan bir koku ve hatta bazı daha yoğun oryantal parfümlerdeki misk kokusunu da bir araya getiriyor.\n\nKoku, parlak beyaz bir misk ile açılıyor; aldehitler ona sıcaklık ve yumuşak bir his verirken, aynı zamanda hafif bir sabunsu nitelik taşıyor ve temizlik hissi uyandırıyor. Bana kurutucudan yeni çıkarılmış sıcak, kalın beyaz bir banyo havlusunu hatırlatıyor. Ambergris, kokuyu zenginleştiren ana bileşen olup, ince ama karmaşık, hatta hafif tuzlu, tatlı bir nota sağlıyor. Sonrasında, koku belirgin bir şekilde değişmiyor, sadece daha belirgin, tatlı ve sıcak bir gül kokusu ortaya çıkıyor ve genel kokuyu biraz daha kadınsı hale getiriyor. Ardından, koku daha da sıcak ve samimi bir hal alıyor, sıcak ciltte temiz, sabunsu bir kalıntı ile nispeten temiz bir misk kokusu içinde hafif hayvansı, kirli bir nitelik arasında gidip geliyor.\n\nBu gerçekten de çok yönlü, misk kokulu bir parfüm ve yakından incelendiğinde oldukça güzel, ancak bu fiyata ve sınırlı sayıda şehirde satışa sunulmasına bakıldığında, bunun tamamen bir pazarlama hilesi olduğunu ve oldukça büyük bir hile olduğunu düşünüyorum. The Body Shop'un White Musk ve Jovan'ın White Musk parfümleri aslında harika alternatifler.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.asia",
+      "avatar": "https://fimgs.net/mdimg/avataricn/m.4.jpg"
+    },
+    {
+      "id": "parent750772",
+      "author": "лиса",
+      "date": "2016-01-24",
+      "text": "Soğuk havalarda Musc 25, beyaz çiçeklerin tazeliğini andıran, canlı ve ferah bir kokuya sahip. Sıcak havalarda ise yumuşak ve rahatlatıcı, hafif aldehit ve pudra notalarıyla zenginleşiyor. Koku narin, hafif ve kısa bir kalıcılığa sahip. Benim üzerimdeki kalıcılığı ortalama – yaklaşık üç saat, daha fazla değil.\nLe Labo markası burada yaygın olarak temsil edilmiyor, bu da parfümlerinin aşırı yüksek fiyatlarını açıklayabilir!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.4594.jpg"
+    },
+    {
+      "id": "parent763161",
+      "author": "Jack garner",
+      "date": "2015-08-11",
+      "text": "Evet, Luckscent'in 2015 yılına özel ürünlerinin örnek setini yeni aldım ve her gün birini deneyeceğim ve her biri için -erkek bakış açısıyla- bir inceleme yazacağım.\nBugün ofise Musc 25 giyerek geldim.\n\nKOKU: Üst notalarda dalgalanan, yumuşak, pudralı misk kokusu ilk bakışta erkeksi gelmeyebilir; ancak 30 dakika içinde aldehitler zekice bir dokunuş ekleyerek bu kokuya erkek kullanıcılar için de çok yönlülük ve gizem katıyor.\n\nOFİSE HAZIR MISINIZ? Bu koku için şık, ütülü beyaz bir gömlek ve lacivert bir takım elbise giymeyi tercih ettim. Bu, klasik, gösterişsiz ve güçlü bir giyim tarzı gerektiren yumuşak bir koku. Neden mi? Çünkü bu kokunun temiz özelliklerini vurgulamanız ve samimiyetini geri plana atmanız gerekiyor.\n\nGECE DIŞARI ÇIKMAYA HAZIR MISINIZ? Şaşırtıcı bir şekilde, evet. Her şey gündüz kullanımına uygun bir kokuya işaret ediyor - ancak bir gece kulübünde insanların sizin alışılmadık derecede yumuşak temizliğinizden büyülenmiş olacağını düşünüyorum. Onlara hadlerini bildirin. Nereden geldiğinizi sorgulamalarını sağlayın.\n\nNormal olanlardan daha mı iyi? Hayır, Santal 33, Patchouli 24 veya Vetiver 46'dan daha iyi bir kompozisyon veya daha 'özel' bir şey değil.\n\n440 DOLARA (600 AU DOLARINA) DEĞER Mİ? Hayır. 'Özel Ürünler' serisi ve fiyatlandırması oldukça açık bir pazarlama taktiği, bu nedenle fiyat prensibini haklı çıkarmak için kokunun gençlik iksiri olması gerekiyor. Bu koku bunu başaramıyor - ve Le Labo muhtemelen içten içe bunun farkında. Şirketin bu fiyat seçimiyle genel olarak kendi dürüstlüğünü ve takipçilerine olan sadakatini sorguluyorum - ve bu koku da görüşümü destekliyor.\n\n240 DOLARA DEĞER Mİ? Evet, alırdım. Musc 25'i ofiste 6,5 saattir takıyorum ve inanılmaz derecede rahat ve kullanışlı. Eğer özel satış ürünü olmaktan çıkarsa koleksiyonuma eklerdim.\n\nÖNE ÇIKANLAR: Benim için ambergris her zaman özel bir an sunar - yıkanmış bir bebeğin başının üst kısmının kokusu. Bunu elbette sevgi dolu, babacan bir anlamda söylüyorum. Aldehitler, misk bulutunun pudramsı temizliğine çok gerekli bir soru işareti katıyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.443263.jpg"
+    },
+    {
+      "id": "parent750771",
+      "author": "katiakaterina",
+      "date": "2013-11-07",
+      "text": "Musk markası benim için çok sorunlu bir konu. Bazılarını hiç algılayamıyorum, ama bazıları beni hayrete düşürüyor.\nVe burada öyle bir güzellik ve öyle bir renk çeşitliliği var ki, ruhumu satmak istedim! Kokusu hipnotize edici; gözlerim kapalıyken içime çekmek, onunla bir olmak ve asla bırakmamak istiyorum. \"İkinci ten\"in tanımı sonunda benim için netleşti. Evet. Gerçekten de ikinci bir ten. Sanırım bunun sebebi \"ambergris\" denilen bir bileşen. Miyake'nin \"Fire\" parfümünün ortadan kaybolmasından beri, parfümlere o kendine özgü sesi veren, bana \"bu kesinlikle bana yakışacak\" diyen şeyin tam olarak bu ambergris olduğunu fark ettim.\nKomik ama danışman beni gerçekten de cildimde denemeye ikna etmeye çalışıyordu. Elimden geldiğince direndim (berbat bir misk kokusu!), ama o kazandı ve iyi ki de kazandı.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.45997.jpg"
+    },
+    {
+      "id": "parent750794",
+      "author": "Rose_selavie",
+      "date": "2013-01-18",
+      "text": "Vay canına! İnsanın gözlerini devirmesine neden olacak türden bir parfüm! Sadece misk sevenler için, çünkü bolca misk içeriyor, tüm mekanı dolduruyor ve boşluk bırakmıyor... Misk aynı anda kadifemsi ve kremsi kalıyor ve inanılmaz bir iz bırakıyor, tüm oda mis gibi kokuyor ve ben sadece bileğime bir damla sıktım. Müge ve gül neredeyse hiç ortaya çıkmıyor, sadece ambergris kabarık ve tatlı bulutu delmeyi başarıyor ama bu da bulutlu ve rüzgarlı bir günde güneş gibi... beliriyor ve kayboluyor. Şimdi yazarken ofisin de mis gibi koktuğunu ve etrafımdaki her şeyin harika koktuğunu görüyorum. Aman! Sanırım misk tadı da alıyorum. Tamamen etkilendim :))).",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ro",
+      "avatar": "https://fimgs.net/mdimg/avatariro/m.84.jpg"
     }
   ]
 }

@@ -79,46 +79,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "3",
-    "moderate": "14",
-    "longLasting": "14",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "15",
-    "moderate": "14",
-    "strong": "10",
-    "enormous": "16"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "8",
-    "moreFemale": "2",
-    "unisex": "3",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GİANFRANCO FERRE",
-      "name": "Essence d’eau"
-    },
-    {
-      "brand": "BROOKS BROTHERS",
-      "name": "New York for Gentlemen"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Champs Elysees Eau de Toilette"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -180,5 +167,6 @@
       "brand": "FENDİ",
       "name": "Fendi Theorema"
     }
-  ]
+  ],
+  "comments": []
 }

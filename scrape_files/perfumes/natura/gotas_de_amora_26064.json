@@ -19,23 +19,51 @@
       "width": "70.88%"
     },
     {
-      "name": "çiçeksi",
+      "name": "odunsu",
       "width": "55.2%"
     },
     {
-      "name": "odunsu",
+      "name": "çiçeksi",
       "width": "55.2%"
     },
     {
       "name": "misk",
       "width": "47.654%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.02",
-    "votesCount": "54",
+    "score": "4.04",
+    "votesCount": "55",
     "breakdown": {
-      "love": "20",
+      "love": "21",
       "like": "25",
       "ok": "1",
       "dislike": "6",
@@ -44,9 +72,9 @@
   },
   "seasons": {
     "winter": "4",
-    "spring": "20",
-    "summer": "29",
-    "autumn": "14",
+    "spring": "21",
+    "summer": "30",
+    "autumn": "15",
     "day": "30",
     "night": "4"
   },
@@ -65,33 +93,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "9",
+    "moderate": "8",
+    "longLasting": "0",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "8",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "15",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Suspiro"
+    },
+    {
+      "brand": "BORGHESE",
+      "name": "Il Bacio"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Escada Rockin' Rio 2011"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Eau de Parfum II"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -126,12 +171,12 @@
       "name": "Frescor de Maracujá"
     },
     {
-      "brand": "NATURA",
-      "name": "Biografia Inspire"
-    },
-    {
       "brand": "DİOR",
       "name": "J'adore"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Biografia Inspire"
     },
     {
       "brand": "NATURA",
@@ -153,5 +198,6 @@
       "brand": "NATURA",
       "name": "Biografia"
     }
-  ]
+  ],
+  "comments": []
 }

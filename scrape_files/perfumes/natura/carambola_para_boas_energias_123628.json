@@ -27,16 +27,44 @@
       "width": "46.579%"
     },
     {
-      "name": "narenciye",
+      "name": "tatlı",
       "width": "41.0527%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.55",
-    "votesCount": "11",
+    "score": "4.57",
+    "votesCount": "14",
     "breakdown": {
-      "love": "6",
-      "like": "5",
+      "love": "8",
+      "like": "6",
       "ok": "0",
       "dislike": "0",
       "hate": "0"
@@ -44,10 +72,10 @@
   },
   "seasons": {
     "winter": "0",
-    "spring": "8",
-    "summer": "9",
+    "spring": "10",
+    "summer": "12",
     "autumn": "0",
-    "day": "7",
+    "day": "10",
     "night": "1"
   },
   "notes": {
@@ -61,53 +89,70 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "3",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "3",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "5",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "L’OCCİTANE AU BRÉSİL",
+      "name": "Flor de Carambola"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bombshell"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Aqua Kiss"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Carambola"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ilía Jardim Secreto"
+    },
+    {
+      "brand": "SALUM PARFUMS",
+      "name": "Cocoyster Carambola"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Clash"
+    }
+  ],
   "peopleAlsoLike": [
-    {
-      "brand": "AVON",
-      "name": "Alegria Brasileira"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Power Of You"
-    },
-    {
-      "brand": "GİOVANNA BABY",
-      "name": "Cherry"
-    },
     {
       "brand": "MARACUJÁ BRASİL",
       "name": "Sunshine Vibe"
     },
     {
-      "brand": "L’OCCİTANE AU BRÉSİL",
-      "name": "Bafafá"
+      "brand": "NATURA",
+      "name": "Essencial Ato"
     },
     {
       "brand": "AVON",
@@ -118,16 +163,8 @@
       "name": "Pur Blanca Serenity"
     },
     {
-      "brand": "AVON",
-      "name": "Incandessence Enjoy"
-    },
-    {
       "brand": "NATURA",
       "name": "Ilía"
-    },
-    {
-      "brand": "PHEBO",
-      "name": "Isolda Cajueiro"
     },
     {
       "brand": "DOLCE&GABBANA",
@@ -135,7 +172,19 @@
     },
     {
       "brand": "NATURA",
+      "name": "Essencial Exclusivo Floral"
+    },
+    {
+      "brand": "NATURA",
       "name": "Lírio"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Signature"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Opera Rouge"
     },
     {
       "brand": "NATURA",
@@ -148,6 +197,15 @@
     {
       "brand": "NATURA",
       "name": "Kriska Jeans"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ilía Dual"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ryo Chuva"
     }
-  ]
+  ],
+  "comments": []
 }

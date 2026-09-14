@@ -23,32 +23,60 @@
       "width": "72%"
     },
     {
-      "name": "pudralı",
-      "width": "69.2%"
-    },
-    {
       "name": "vanilya",
       "width": "69.2%"
     },
     {
-      "name": "aromatik",
-      "width": "59.4%"
+      "name": "pudralı",
+      "width": "69.2%"
     },
     {
       "name": "tatlı",
       "width": "59.4%"
     },
     {
-      "name": "amber",
-      "width": "58%"
+      "name": "aromatik",
+      "width": "59.4%"
     },
     {
       "name": "beyaz çiçeksi",
       "width": "58%"
     },
     {
+      "name": "amber",
+      "width": "58%"
+    },
+    {
       "name": "fındıksı",
       "width": "55.2%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,33 +111,42 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "2",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "2",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LOEWE",
+      "name": "Loewe 001 Woman"
+    },
+    {
+      "brand": "EVYAN",
+      "name": "Gay Diversion"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LORENZO VİLLORESİ",
@@ -171,5 +208,6 @@
       "brand": "PENHALİGON'S",
       "name": "Elisabethan Rose - Vintage"
     }
-  ]
+  ],
+  "comments": []
 }

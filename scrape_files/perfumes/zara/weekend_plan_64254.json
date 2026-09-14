@@ -15,7 +15,7 @@
       "width": "100%"
     },
     {
-      "name": "çiçeksi",
+      "name": "vanilya",
       "width": "65%"
     },
     {
@@ -23,7 +23,7 @@
       "width": "65%"
     },
     {
-      "name": "vanilya",
+      "name": "çiçeksi",
       "width": "65%"
     },
     {
@@ -31,20 +31,48 @@
       "width": "58%"
     },
     {
+      "name": "tatlı",
+      "width": "51%"
+    },
+    {
       "name": "aromatik",
       "width": "51%"
     },
     {
-      "name": "tatlı",
-      "width": "51%"
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.00",
-    "votesCount": "4",
+    "votesCount": "5",
     "breakdown": {
       "love": "1",
-      "like": "2",
+      "like": "3",
       "ok": "1",
       "dislike": "0",
       "hate": "0"
@@ -52,10 +80,10 @@
   },
   "seasons": {
     "winter": "0",
-    "spring": "0",
-    "summer": "0",
+    "spring": "1",
+    "summer": "1",
     "autumn": "0",
-    "day": "0",
+    "day": "1",
     "night": "0"
   },
   "notes": {
@@ -71,18 +99,18 @@
   "longevity": {
     "veryWeak": "1",
     "weak": "1",
-    "moderate": "0",
+    "moderate": "1",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "1",
-    "moderate": "0",
+    "moderate": "1",
     "strong": "0",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "1",
+    "female": "2",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "0",
@@ -101,5 +129,6 @@
       "name": "Bombshell"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

@@ -69,31 +69,31 @@
     ]
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "0",
-    "moderate": "1",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "1",
-    "strong": "2",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -104,10 +104,6 @@
     {
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Crystal Noir"
     },
     {
       "brand": "VERA WANG",
@@ -124,6 +120,14 @@
     {
       "brand": "LANCÔME",
       "name": "Hypnôse"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Amarige"
+    },
+    {
+      "brand": "KATY PERRY",
+      "name": "Killer Queen"
     },
     {
       "brand": "MUGLER",
@@ -151,11 +155,8 @@
     },
     {
       "brand": "CHANEL",
-      "name": "Coco Eau de Parfum"
-    },
-    {
-      "brand": "CHANEL",
       "name": "Coco Mademoiselle Eau de Toilette"
     }
-  ]
+  ],
+  "comments": []
 }

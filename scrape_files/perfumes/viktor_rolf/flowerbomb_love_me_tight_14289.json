@@ -49,6 +49,34 @@
     {
       "name": "tatlı",
       "width": "57.2038%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,33 +117,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "3",
+    "moderate": "16",
+    "longLasting": "10",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "16",
+    "strong": "19",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "1",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ZARA",
+      "name": "Black Peony"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Christmas 2010 Edition"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb de Paris"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Victoria Flower"
+    },
+    {
+      "brand": "OAKCHA",
+      "name": "Reborn Lust"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİKTOR&ROLF",
@@ -177,5 +226,6 @@
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy"
     }
-  ]
+  ],
+  "comments": []
 }

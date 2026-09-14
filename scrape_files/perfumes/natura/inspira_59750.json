@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Natura/Inspira-59750.html",
   "brand": "Natura parfüm ve kolonya",
   "description": "Natura markasının Inspira parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Inspira, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst notalar: Sulu Notlar, Meyvemsi Notlar, Yaban meyveleri ve Kırmızı meyveler; orta notalar: Çiçeksi Notalar, Gardenya ve Orkide; alt notalar Vanilya, Misk ve Sedir.",
-  "description_original": "Natura markasının Inspira parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Inspira, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst notalar: Sulu Notlar, Meyvemsi Notlar, Yaban meyveleri ve Kırmızı meyveler; orta notalar: Çiçeksi Notalar, Gardenya ve Orkide; alt notalar Vanilya, Misk ve Sedir.",
+  "description_original": "Natura markasının Inspira parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Inspira, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst notalar: Sulu Notalar, Meyvemsi Notlar, Yaban meyveleri ve Kırmızı meyveler; orta notalar: Çiçeksi Notalar, Gardenya ve Orkide; alt notalar Vanilya, Misk ve Sedir.",
   "description_enhanced": "Natura markasının Inspira parfümü, kadınlar ve erkekler için Çiçeksi bir kokudur. Inspira, 2017 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst notalar: Sulu Notlar, Meyvemsi Notlar, Yaban meyveleri ve Kırmızı meyveler; orta notalar: Çiçeksi Notalar, Gardenya ve Orkide; alt notalar Vanilya, Misk ve Sedir.",
   "mainAccords": [
     {
@@ -43,12 +43,40 @@
       "width": "53.9474%"
     },
     {
+      "name": "beyaz çiçeksi",
+      "width": "48.4211%"
+    },
+    {
       "name": "misk",
       "width": "48.4211%"
     },
     {
-      "name": "beyaz çiçeksi",
-      "width": "48.4211%"
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -72,7 +100,7 @@
   },
   "notes": {
     "top": [
-      "Sulu Notlar",
+      "Sulu Notalar",
       "Meyvemsi Notlar",
       "Yaban meyveleri",
       "Kırmızı meyveler"
@@ -90,33 +118,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "7",
+    "moderate": "14",
+    "longLasting": "2",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "14",
+    "strong": "2",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "11",
+    "moreFemale": "2",
+    "unisex": "10",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "8",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TOUS",
+      "name": "Touch"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Miss Dior Blooming Bouquet"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Biografia Encontros"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -178,5 +219,6 @@
       "brand": "TOMMY HİLFİGER",
       "name": "Tommy Girl"
     }
-  ]
+  ],
+  "comments": []
 }

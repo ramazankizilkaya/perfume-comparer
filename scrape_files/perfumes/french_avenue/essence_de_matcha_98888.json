@@ -72,46 +72,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "1",
-    "longLasting": "3",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "1",
-    "strong": "1",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "1",
-    "unisex": "3",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "LE LABO",
-      "name": "The Matcha 26"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Scentasy Matcha Magix"
-    },
-    {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Matcha Meditation"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "RASASİ",
@@ -173,5 +160,6 @@
       "brand": "DİOR",
       "name": "Sauvage Elixir"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -37,6 +37,34 @@
     {
       "name": "yeşil",
       "width": "48.9412%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -76,33 +104,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "15",
+    "moderate": "25",
+    "longLasting": "6",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "20",
+    "moderate": "25",
+    "strong": "9",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "7",
+    "moreMale": "16",
+    "male": "20"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "18",
+    "greatValue": "18"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Eau Sauvage"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Eudora H Marine"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Eau de Rochas Homme"
+    },
+    {
+      "brand": "L’OCCİTANE AU BRÉSİL",
+      "name": "Abraço a Dois"
+    },
+    {
+      "brand": "AVON",
+      "name": "300 Km/h Nitro"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK Everyone Eau de Toilette"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -164,5 +221,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Malbec"
     }
-  ]
+  ],
+  "comments": []
 }

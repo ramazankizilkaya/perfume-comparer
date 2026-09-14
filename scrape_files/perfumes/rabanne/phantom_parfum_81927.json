@@ -2,7 +2,7 @@
   "name": "Phantom Parfum Rabanne",
   "targetGender": "erkekler için",
   "fragranceFamily": "Aromatic",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.81927.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Rabanne/Phantom-Parfum-81927.html",
   "brand": "Rabanne parfüm ve kolonya",
@@ -16,58 +16,86 @@
     },
     {
       "name": "vanilya",
-      "width": "80.0281%"
+      "width": "79.5031%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "75.6064%"
+      "width": "75.498%"
     },
     {
       "name": "narenciye",
-      "width": "71.4485%"
+      "width": "71.756%"
     },
     {
       "name": "lavanta",
-      "width": "66.8283%"
+      "width": "66.5037%"
     },
     {
       "name": "odunsu",
-      "width": "66.0757%"
-    },
-    {
-      "name": "pudralı",
-      "width": "63.2775%"
+      "width": "65.9126%"
     },
     {
       "name": "taze baharatlı",
-      "width": "63.1587%"
+      "width": "63.0762%"
+    },
+    {
+      "name": "pudralı",
+      "width": "63.0502%"
     },
     {
       "name": "tatlı",
-      "width": "54.9682%"
+      "width": "54.8961%"
     },
     {
       "name": "yeşil",
-      "width": "48.5986%"
+      "width": "48.8032%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.90",
-    "votesCount": "2,288",
+    "votesCount": "2,342",
     "breakdown": {
-      "love": "863",
-      "like": "764",
-      "ok": "352",
-      "dislike": "184",
-      "hate": "125"
+      "love": "882",
+      "like": "784",
+      "ok": "360",
+      "dislike": "189",
+      "hate": "127"
     }
   },
   "seasons": {
     "winter": "1.2k",
-    "spring": "834",
-    "summer": "307",
-    "autumn": "1.1k",
-    "day": "643",
+    "spring": "851",
+    "summer": "310",
+    "autumn": "1.2k",
+    "day": "654",
     "night": "1.1k"
   },
   "notes": {
@@ -91,33 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "22",
+    "weak": "61",
+    "moderate": "542",
+    "longLasting": "647",
+    "eternal": "82"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "94",
+    "moderate": "542",
+    "strong": "331",
+    "enormous": "62"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "15",
+    "moreFemale": "5",
+    "unisex": "131",
+    "moreMale": "553",
+    "male": "691"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "352",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "64",
+    "overpriced": "251",
+    "fair": "360",
+    "goodValue": "195",
+    "greatValue": "30"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Phantom"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Phantom Intense"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Victory Elixir"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Hayaati Al Maleky"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Scandal Pour Homme Le Parfum"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Phantom Legion"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Phantom Elixir"
+    },
+    {
+      "brand": "LUNİO",
+      "name": "Indigo Suede"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Bad Boy Extreme"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Eternity Aromatic Essence for Men"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Scandal Pour Homme"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Bad Boy"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Bad Boy Cobalt Elixir"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Panther Pour Homme"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Eternity Parfum For Men"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -156,12 +245,16 @@
       "name": "Sauvage"
     },
     {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Elixir"
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme"
     },
     {
       "brand": "CHANEL",
       "name": "Bleu de Chanel Eau de Parfum"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Elixir"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -174,10 +267,198 @@
     {
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent644800",
+      "author": "mymine",
+      "date": "2025-11-20",
+      "text": "Bu, erkek arkadaşımın imza kokusu, bu yüzden biraz taraflı olabilirim ama gerçekten çok iyi bir kolonya!!! Bir sürü kolonya kokladım ve hepsi bana aynı kokuyor, hem de iyi anlamda değil. Ama bu koku onlardan farklı. Çok hoş, sıcak, dumanlı, taze, baharatlı, lavanta ve kakule kokusu. Duyduğuma göre erkekler bu kokuyu pek sevmiyor ama ben bayılıyorum?? Sanırım daha çok kadın bakış açısına uygun bir parfüm. Ayrıca çok kalıcı, bana kapüşonlu kazağını verdi ve 5 gün sonra bile hala kokusunu alabiliyordum. Kesinlikle tavsiye ederim!!",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2676611.gif"
     },
     {
-      "brand": "AZZARO",
-      "name": "The Most Wanted"
+      "id": "parent644852",
+      "author": "Flow1993",
+      "date": "2025-11-05",
+      "text": "Bu parfümü beğendim 🙂 En sevdiğim değil ama hoşuma gidiyor. Beğenmeyen, hatta nefret edenlerin sayısına şaşırdım.\n\nTatlı ama şekerleme değil. Pürüzsüz ve kremsi bir kıvamı var.\n\nÇok etkileyici olmadığını anlayabiliyorum. İçeriğinde lavanta, vanilya, paçuli ve vetiver bulunan oldukça sade bir koku.\n\nOldukça genç ve enerjik bir koku. Bu koku bir insan olsaydı, güneşli bir günde yürüyüş yapan, biraz tasasız genç bir adam olurdu. Bence parfüm dünyasına yeni girenler veya özellikle özgün olmak istemeden güzel kokmak istediğiniz günler için mükemmel. Ve bunda hiçbir sakınca yok.\n\nVe en önemlisi, insanlar bunu beğeniyor. Herkes bana iltifat ediyor.\n\n♀️⚧️♂️ Bu erkekler için ama bir kadının bunu giymesine engel olacak bir şey göremiyorum.\n🗓️ 🍁❄️ Soğuk mevsimler için en uygunudur. Çok sıcak olmadığı sürece ilkbaharda da yetiştirilebilir.\n⌚ ☀️ Bence gündüz kullanımı için daha uygun, ama gece giymenizde de bir sakınca yok.\n⏱️ En büyük gücü de bu: inanılmaz kalıcılığı var! 6 saatten fazla rahatlıkla etkisini koruyor.\n🌬️ Bu, onun ikinci büyük gücü: 2 metreyi rahatlıkla aşan harika bir koku yayılımına sahip.\n💶 Fiyatı normal ve iyi kalıcılığı ve yayılımı göz önüne alındığında oldukça iyi bir fırsat.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent644807",
+      "author": "JasonVoorheesX",
+      "date": "2025-08-28",
+      "text": "Bu parfümü daha önce hiç koklama fırsatım olmamıştı ama yine de oğluma hediye olarak aldım. 7 yaşında. Ayrı yaşadığımız için, aslında üzerinde hiç koklamamıştım. Son bir yıldır anaokuluna giderken bu parfümü kullanıyor. Neyse, geçen gün onunla buluştum ve dürüst olmak gerekirse, bu kadar küçük bir çocuk için çok seksi kokuyordu. Hem komik hem de şaşırtıcıydı benim için.\n\nBana kalırsa bu, üst düzey bir erkek parfümü; her mevsim ve her yaş için mükemmel derecede uygun.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2629666.jpg"
+    },
+    {
+      "id": "parent644817",
+      "author": "Anthymia",
+      "date": "2025-05-23",
+      "text": "Bana ölüm şarkısını çal!\n\nBu kesinlikle dayanılmaz. Phantom'u en iğrenç beş koku arasına koyarım ve uçakta, trende, sinemada, tiyatroda veya ofiste bu kokuyu kullanan birinin yanında oturma deneyimini kimseye yaşatmak istemem! Dayanılmaz! 10 dakika sonra bile bu mide bulantısı hissi geçmiyor. Arka planda, eski köpük banyolarını anımsatan bir tür çam kokusu algılanabiliyor. Parfüm endüstrisinde sadomazoşizm diye bir şey var!\n\nZevkler farklıdır, ama bu \"yaratım\" kesinlikle kabul edilemez, belki de sadece \"karanlık bir odada\" izlenebilir :))\nDie Ärzte'nin \"Bitte bitte\" şarkısının sözleri neden birden aklıma geldi?",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.de",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent644864",
+      "author": "Decoverto",
+      "date": "2024-11-24",
+      "text": "Beklenmedik bir şekilde, arsız genç robotun bir yan ürünü. Olgun, çok iyi işlenmiş ve mükemmel performansa sahip bir koku; 5-6 saat boyunca dikkat çekici bir yayılımla kalıcılığını koruyor. Evet, Rabanne ailesinin bir parçası ve alışılagelmiş kakule/pudralı tatlılık kombinasyonuna sahip; Invictus Victory Elixir'in kardeşi ve eski BlackX'lerin kuzeni. Bu nedenle, mucizevi bir şey beklenmemeli. Ancak burada, usta parfümcüler tarifi biraz değiştirerek, onu derin, aşırı tatlı veya pudralı olmayan, seksi ve her durum için (daha çok akşam, daha az yazlık) uygun hale getirmişler. Akademik narenciye açılışı bir anda kayboluyor, sanki parfümcüler sıradanlığı terk edip sıkıcılığı sona erdirmeye karar vermiş gibi. Ravent ve bol miktarda kakule baskın geliyor, ancak sonra sihir gerçekleşiyor; beklenmedik, zarif bir derinlik, güzel ve temiz bir lavanta ile birlikte ortaya çıkıyor ve ardından reçine ve vanilya tabanı, zahmetsizce bir araya gelen bir yapboz gibi yumuşak bir hal alıyor. Basit bir tarifle ve güvenli bir ortamda üretilmiş olmasına rağmen, teknik olarak mükemmel bir iş çıkarılmış ve sonuç gerçekten güzel, gerçekten erkeksi bir koku olmuş. Eğer klişelerden uzak, özenle hazırlanmış ve oldukça iyi performans sunan bir tasarımcı ürünü arıyorsanız, bu iyi bir seçenek.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.79519.jpg"
+    },
+    {
+      "id": "parent644850",
+      "author": "Elixir26",
+      "date": "2024-10-28",
+      "text": "Beni şaşırtan şey parfümün kalitesi veya kokusu değil. Daha çok üç burnun, üç zihnin böyle bir şey yaratmak için iş birliği yapmış olması. Tasarımcı erkek parfümlerinin %90'ı aynı kokuyor. Sanki fikirlerde bir doygunluk olmuş gibi, ya da belki de bu kasıtlı bir durum.\n\nBenim 4 €'luk sedir ağacı kokulu deodorantım bile bundan çok daha iyi. Özellikle bu kadar kalitesiz bir ürün için bu fiyatı düşününce, gerçekten hakaret gibi. Pazarlamanın büyüsü işte...",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.21463.jpg"
+    },
+    {
+      "id": "parent644833",
+      "author": "Daniel.C",
+      "date": "2024-09-08",
+      "text": "Haksız nefretin kurbanı olmuş bir koku.\nOldukça sık kullandım; vanilya kokusuna belirgin bir lavanta notası eklenmiş ve hoş bir koku. Doğru, 1/10000'lik bir koku değil, ama koku işini görüyor.\n\nÇok dayanıklı; 14 saate kadar dayandı ve ilk 3 saati tam anlamıyla canavar modunda geçirdim.\n\nÇok güzel koku 💯",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent644809",
+      "author": "Mr. Iris",
+      "date": "2024-08-02",
+      "text": "Bence bu oldukça hafife alınan bir koku. Belki de gösterişli şişesi yüzünden ya da orijinal Phantom'dan dolayıdır. Bu koku çok aromatik ve biraz baharatlı açılıyor, ardından çok tatlı ve kremsi bir şekilde sonlanıyor. Çok uzun süre kalıcı ve iyi bir yayılımı var, başkalarının görüşlerine göre yargılamadan önce deneyin.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent644866",
+      "author": "Luckie_Savage",
+      "date": "2024-07-29",
+      "text": "Kakule ile zenginleştirilmiş klasik ticari parfüm.\nOrtam bana önce One Million'ı hatırlatıyor, sonra da Le Male'e dönüyor (karakter olarak ikincisini daha çok beğeniyorum).\nAcımsı ama yine de tatlı, sabunsu ve sıcak bir koku.\nGündüzden çok gececi.\nGençler için kesinlikle çekici, ama özel bir yanı yok, kişiliği yok, daha önce duyduğunuz bir şey.\nEğer merak ediyorsanız ve tatlı, köpüklü, sıcak One Million tarzı lezzetleri seviyorsanız, deneyin.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.65664.jpg"
+    },
+    {
+      "id": "parent644803",
+      "author": "Tarabellexo",
+      "date": "2024-02-23",
+      "text": "Son zamanlarda denediğim tüm bu tasarımcı erkek parfümlerinde ne olduğunu bilmiyorum ama hepsini kendim için istiyorum. Bu lavanta vanilya karışımlarının çok tatlı bir yanı var ve cildimde çok iyi duruyorlar. Gurme kokuları çok seviyorum ama olgun, doğal bir vanilyayı da beğeniyorum. Bu, vetiverin ferahlığıyla zarif, havadar bir tatlılıkla harmanlanmış. Çok etkileyici. Çok fazla narenciye almıyorum, sadece tatlı, sakin bir kadife dalgası. Kesinlikle erkek parfümü kullandığımı hissetmiyorum ama zaten parfümleri cinsiyetlendirmek saçma. İstediğinizi kullanın. Bu kesinlikle unisex duruyor (en azından benim cildimde). Ayrıca Uomo Born in Roma Intense'e de bayılıyorum. İçindeki kakule harika. Şişesi biraz komik ama sevimli küçük bir robot adam. Kokusuyla pek uyuşmuyor LOL. Bu da erkek arkadaşımdan çalacağım bir başka parfüm. haha",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1356368.jpg"
+    },
+    {
+      "id": "parent644882",
+      "author": "Don_Pepe",
+      "date": "2024-02-21",
+      "text": "Orijinalini ne kadar sevmesem de, bunu gerçekten beğendim. İlk başta sıkıldığında, orijinal robotla aynılar; aynı lavanta ekşiliği, sadece siyah olanın yenilebilir otlarla tatlandırılmış gibi görünmesi dışında. Ama çok geçmeden, koku çok hoş bir limon-vanilya aromasına dönüşüyor, tabii ki lavanta ipucu da yok değil. Buradaki en önemli fark, orijinaldeki toprak ve dumanla ilişkilendirilen her şeyin çıkarılmış olması, kokuyu daha erişilebilir, daha ana akım ve daha genç hale getirmiş olmaları. Dip notalarında orijinalinden herhangi bir fark fark etmedim.\nCiltte kalıcılığı çok uzun değil (elbette bir parfüm için), yaklaşık 4 saat, en fazla 5 saat. Kıyafetlerde ise daha iyi bir performans sergiliyor. Yoğunluğu oldukça iyi; tişörte sıktığımda bile burnumun altında yaklaşık 6 saat boyunca etkisini hissettim. Gümüş renkli kardeşinin kesinlikle iyi bir halefi.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.350390.jpg"
+    },
+    {
+      "id": "parent644835",
+      "author": "RicardoPowa123",
+      "date": "2023-12-16",
+      "text": "Ultramale/Date'e çok benziyor.\n\nİkisinden de varım... ve birçok ortak notaları var, örneğin: vanilya, sedir, lavanta, paçuli, limon, bergamot...\n\nBana inanmıyorsanız, Ultra Male ile birebir karşılaştırın... neredeyse aynılar; kimsenin bunu söylememesine şaşırdım!\n\nYouTube'daki bilgiler tamamen yanlış! Dışarı çıkın; kokuları ve tatları kendiniz deneyimleyin!\n\nLezzetli ama orijinalini tercih ederim. (Gerçekten de yapay zeka ile yapılmış gibi görünüyor...)",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent644799",
+      "author": "DarthFragrance",
+      "date": "2023-12-12",
+      "text": "Geçtiğimiz günlerde 100 ml'lik bir Phantom Parfum aldım. Daha önce bu parfümü incelemiş ve EDT'ye çok benzediğini düşünmüştüm. EDT'ye (teknik olarak Phantom Legion) zaten sahibim, bu yüzden buna ihtiyacım olduğunu düşünmemiştim. Çok uzun zaman önce ikisini yan yana test ettim ve oldukça farklı olduklarını gördüm. Sadece aynı temel DNA'yı paylaşıyorlar ki, düşündüğünüzde, bir parfüm flanker'ının nasıl yapılması gerektiği de bu zaten. Günümüzde birçok flanker'ın yaptığı gibi, orijinal DNA'dan tamamen sapması gerekmiyor. Orijinal Phantom EDT'yi gerçekten seven az sayıdaki kişiden biriyim, ancak Phantom Parfum onu ​​önemli ölçüde daha iyi hale getirmek için doğru noktalarda ince ayarlar yapmış.\n\nPhantom EDT ve Parfüm arasında fark ettiğim başlıca farklılıklar şunlar: Parfüm biraz daha az tatlı ve elma notasının olmaması nedeniyle daha az meyvemsi. Kakule en sevdiğim notalardan biri ve Parfüm'e eklenerek hoş, sıcak ve baharatlı bir akor oluşturmuş. EDT'de topraksı notalar vardı, bu notalar Parfüm'ün nota dağılımında yok gibi görünüyor, ancak yine de Parfüm'de topraksılığı hissediyorum ve bunun raventten geldiğini düşünüyorum. Ravent ayrıca taze, baharatlı ve yeşil akorlar da yaratıyor. Baharatlı kokuları seviyorum, bu nedenle eklenen baharatlılık, azaltılmış tatlılık ve bir tutam yeşillik kombinasyonu, kokuyu biraz daha olgun ve çok yönlü hale getiriyor. Tolu balsamının eklenmesi benim için çok belirgin, hoş bir balsamik akor sağlıyor ve Parfüm'e biraz daha derinlik ve karakter katıyor. Performansı da EDT'den daha iyi.\n\nBence bu parfümle Phantom DNA'sını gerçekten rafine etmişler ve doğru noktalarda ince ayarlar yapmışlar. EDT'nin kokusunu sevmeyenlerin bu parfümü seveceğini sanmıyorum çünkü temel DNA hala aynı. EDT'yi sevenler veya beğenenler ise bunu daha çok sevebilirler. Ayrıca robot şişesini ve mat siyah kaplamayı da beğendim. Şişe tasarımı kutuplaştırıcı bir sevgi/nefret meselesi, ben beğendim. Bence bu sağlam bir ürün ve Paco Rabanne hafife alınan bir marka. Tasarımcı parfüm yelpazesinin daha uygun fiyatlı tarafında olduklarını düşünürsek, gerçekten güzel, kaliteli ve performanslı kokular ürettiklerini düşünüyorum. Bazı riskler almalarını ve parfüm endüstrisini çok daha iyi hale getirmelerini beğeniyorum. Ayrıca ürünlerinde gerçekten iyi bir kalite kontrolüne sahipler.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1639884.jpg"
+    },
+    {
+      "id": "parent644805",
+      "author": "NScarb",
+      "date": "2023-11-08",
+      "text": "Kuru, fındıksı odunsu notalar, asidik lavanta, yeşil elma ve sıcak vanilya ile sarılmış. Phantom Parfum, orijinalinden daha topraksı, odunsu ve sıcak, ancak diğer bazı flanker'ların aksine, aynı aileye ait oldukları kolayca anlaşılıyor.\n\nEddie Bulliqi, Phantom Parfum'ün tuhaflığını ve benzersizliğini incelemesinde çok iyi yakalamış. Ancak parfümün dağınık veya mide bulandırıcı olduğu yönündeki açıklamasına kesinlikle katılmıyorum.\n\nPhantom Parfum'un canlı/odunsu/aromatik koku profilini çok uyumlu buluyorum ve kuru/kremsi odunsu notaların (paçuli, vetiver) bağımlılık yapıcı bir özelliği var ki, her denediğimde tekrar tekrar kullanmaya başladım. Orijinalinde bulunan yüksek ve rahatsız edici stiralil asetat aşırı dozu (keskin yeşil nota) neyse ki önemli ölçüde azaltılmış.\n\nPhantom Parfum modern ve çekici bir kokuya sahip; eklenen sıcaklık ve odunsu notalar sayesinde parfüm, her ortamda (günlükten yarı resmiyete, yıl boyunca) daha çok yönlü kullanılabiliyor. Mükemmel kalıcılığı (kıyafetlerde 12+ saat) ve yeterli (ama bunaltıcı olmayan) yayılımı da eklediğinizde, genç erkekler için imza niteliğinde bir koku elde ediyorsunuz.\n\n8/10",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent644811",
+      "author": "Brender",
+      "date": "2023-11-02",
+      "text": "Bu gerçekten harika bir şey. Dip ve orta notalar biraz birbirine karışıyor, kibar olmak isterseniz \"harmanlıyor\" diyebilirsiniz, ama ravent ve kakule gerçekten öne çıkıyor. Çok hoş, tatlı ve bence ravent gerçekten hafife alınıyor. Çok incelerseniz zengin bir koku olarak da görülebilir. Ve kesinlikle unisex olsa da, annelerle çok fazla deneyimim olduğu için biraz anne kokusu gibi geliyor. Yanlış anlamayın, çok hoş, sadece şampuan ve anne havası veriyor, pazarlama ve şişeleme konusunda kesinlikle yanlış yola sapmışlar.\nAma yine de, ROBOT İFTİRASINA TAHAMMÜL ETMEYECEĞİM. Rafta küçük bir Roblox görünümlü robot adam bulundurmanın çok eğlenceli bir yanı var. Eşsiz ve dikkat çekici. Ve birçok insanın yüzlerine JPG şişkinlikleri dayatmasını ama asıl saçma olanın robot olmasını merak ediyorum. Ama evet, bu koku \"Phantom\" veya \"Robot\" diye bağırmıyor, bu yüzden eleştirileri anlıyorum, ancak şişenin kendisi gibi bunları ciddiye almak zor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1869984.jpg"
+    },
+    {
+      "id": "parent644848",
+      "author": "Cyrus Smith",
+      "date": "2023-11-01",
+      "text": "Phantom adlı bu küçük robotu koklamak için asla durmazdım. Ne EDT versiyonunu, ne de bu ikinci parfüm versiyonunu. Bu kokunun hedef kitlesi olmadığımı biliyorum. Ama bir alışveriş yaptığımda çantamda bir numune buldum.\n\nÖnce kutunun üzerindeki açıklamayı okudum: Işıltılı Vanilya! Yoğun Lavanta!! Büyüleyici Vetiver!!!\n\nNe büyük bir felaket!\n\nParlayan vanilya... hadi ona glikoz şurubu diyelim.\nYoğun lavanta kokusu... gerçek lavantanın yerini hiçbir şey tutamaz.\nManyetik vetiver... Hiç bulamadım ama laboratuvarda yetiştirilmiş kehribar ağacı diyelim.\n\nKoku piramidine baktığımda, bergamot ve lavantanın parfümeride nispeten uygun fiyata elde edilebilecek en kolay iki bileşen olduğunu düşünüyorum. Ancak, benim burnuma göre, burada kesinlikle gerçek bir şey yok. Amber notaları sert, aşındırıcı ve baskın; şekerli bir konsantreye boğulmuş durumda, diyabetik komaya yol açabilecek kadar tehlikeli! Bu şurubu kokladığımda aklıma gelen ilk görüntü, çocukların çok sevdiği, şekerli sırla kaplı ve yüzlerce küçük rengarenk şekerlemeyle bezeli ucuz donutlardı.\n\nKısacası, bu ürün serisinin hedef kitlesi olmadığımı biliyorum, ancak her birinin gerçekten güzel tasarımlara imza atmış olan bu üç tasarımcının isimlerini görünce şüphelerim oluşuyor. Evet, şüphesiz ki sipariş üzerine yapılmış bir ürün, ama... Eğer Phantom adlı o küçük robotu tekrar görürsem, uzak durmaya devam edeceğim!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.137.jpg"
+    },
+    {
+      "id": "parent644865",
+      "author": "matte.farii",
+      "date": "2023-09-18",
+      "text": "Yeni Le Male Elixir'i cildimde deniyordum ve numune istediğimde ellerinde olmadığını söylediler. Bunun üzerine, bilmediğim bir parfümü denemek için başka bir parfümün numunesini istedim.\nBana Phantom Parfum'un bir örneğini verdiler, itiraf etmeliyim ki Phantom serisine hiç ilgi duymamıştım, bu yüzden orijinalini daha önce hiç koklamamıştım bile.\nBu sabah klasik noktalara 3 fıs sıktım, bir de bileğime 1 fıs sıktım ve çıktım.\nŞu an saat 16:40 ve bileğimde etkisini hâlâ çok iyi hissedebiliyorum (bu sabah saat 7'de sıktım).\nSınıfa girdiğim anda iki sınıf arkadaşım yanıma gelip beni kokladı ve iltifat etti. Sarmalayıcı, sıcak bir koku, ancak lavanta ona parfümlerde sevdiğim o hafiflik ve tazelik dokunuşunu veriyor. Açılışta, limon ve bergamot gibi narenciye meyvelerinin varlığı fark ediliyor, asidik bir ipucu veriyor ama bergamot tarafından tatlandırılıyor. Kuruma aşamasında, en azından benim burnum için, vanilyayı gerçekten hissedebiliyorsunuz; odunsu notalar tarafından ısıtılmış ve lavanta tarafından tazelenmiş, her şeyi hafifletiyor. Birkaç saat sonra, neredeyse kehribar bir yola giriyor gibi görünüyor ki bu da benim burnuma çok hoş geliyor.\nKesinlikle tavsiye edilen bir parfüm, 10 üzerinden 9. Cildimde kalıcılığının da iyi olması nedeniyle muhtemelen imza parfümüm olacak.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.77765.jpg"
+    },
+    {
+      "id": "parent644880",
+      "author": "Isidor",
+      "date": "2023-08-11",
+      "text": "Neden hiç yorum yok?\nGenel olarak, iki kez denedim, artık denemek istemiyorum.\nİlk başta hoştu, son derece tanıdıktı. Kız bana bir koku test kağıdı getirdi ve gözlerim kapalıyken bunun Paco Rabanne olduğunu söyledim, oysa bu kokuyu daha önce hiç denememiştim. Aklıma hemen her şey geldi: Millions, mavi ve siyah kimyasal Invictus ve hatta CH Bad Boys serisi.\nİlk 15-30 dakika keyifli geçiyor, ancak mağazada sadece bir test kağıdına denerseniz ve satın alırsanız, sonrasında çok hayal kırıklığına uğrayabilirsiniz, çünkü açtıktan sonra aroma ucuz, kimyasal, sentetik, tipik bir Rabanne bazına dönüşüyor; bu da kokunun ilk bakışta basit, çekici ve hoş bir şey gibi görünse de esas olarak gençler ve partiler için tasarlandığını ele veriyor.\nGenel olarak, pek iyi değil, bir parça kağıt üzerinde denedikten sonra kesinlikle satın almanızı tavsiye edemem. Cildinizde deneyin, kokuyu en az 4 saat üzerinizde taşıyın ve ancak ondan sonra kendi sonuçlarınızı çıkarın.\nHerkese barış!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.350917.jpg"
+    },
+    {
+      "id": "parent644795",
+      "author": "Rotten Rebel",
+      "date": "2023-07-02",
+      "text": "YouTube'da bununla ilgili ilk izlenimlerimi içeren bir video yayınladım.\n\nBana göre bu parfüm, lavanta ve vanilya odaklı bir açılışla başlıyor, arka planda hafif bir baharatlılık ve tatlılık dokunuşu var; kurudukça ise biraz topraksı ve tatlı, vanilyalı/odunsu bir kokuya dönüşüyor.\n\nBazı yönleri bana orijinal Phantom'u hatırlatıyor ama orijinal Phantom daha hafif ve topraksı, vanilyamsı tadı da biraz farklı ve belki biraz daha hafif geliyor.\n\nVanilya, lavanta ve o tatlılık, o daha yumuşak odunsu ve topraksı notaları harika bir şekilde dengeliyor ve ben bunu çok beğendim.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1327902.jpg"
     }
   ]
 }

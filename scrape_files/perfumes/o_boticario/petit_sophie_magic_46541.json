@@ -21,13 +21,41 @@
     {
       "name": "ekşi",
       "width": "33.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.02",
-    "votesCount": "46",
+    "score": "4.04",
+    "votesCount": "47",
     "breakdown": {
-      "love": "17",
+      "love": "18",
       "like": "17",
       "ok": "8",
       "dislike": "4",
@@ -36,10 +64,10 @@
   },
   "seasons": {
     "winter": "5",
-    "spring": "19",
-    "summer": "18",
-    "autumn": "8",
-    "day": "21",
+    "spring": "20",
+    "summer": "19",
+    "autumn": "9",
+    "day": "22",
     "night": "2"
   },
   "notes": {
@@ -51,41 +79,58 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "3",
+    "moderate": "9",
+    "longLasting": "2",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "9",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "15",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "11",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Sophie Teens"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Lady Million"
+    },
+    {
+      "brand": "CLİNİQUE",
+      "name": "Clinique Happy Heart 2012"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Rouge Smoking"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Capricho Night"
+    },
     {
       "brand": "BRİTNEY SPEARS",
       "name": "Fantasy"
-    },
-    {
-      "brand": "O BOTİCÁRİO",
-      "name": "Glamour Secrets Black"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -101,15 +146,11 @@
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Floratta in Rose"
+      "name": "Sophie Teens"
     },
     {
       "brand": "NATURA",
       "name": "Essencial Exclusivo"
-    },
-    {
-      "brand": "O BOTİCÁRİO",
-      "name": "Sophie Teens"
     },
     {
       "brand": "DİOR",
@@ -124,8 +165,16 @@
       "name": "Cuide-se Bem Nuvem"
     },
     {
+      "brand": "AVON",
+      "name": "Petit Lavande"
+    },
+    {
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue"
+    },
+    {
+      "brand": "AVON",
+      "name": "Petit"
     },
     {
       "brand": "TOMMY HİLFİGER",
@@ -134,10 +183,7 @@
     {
       "brand": "O BOTİCÁRİO",
       "name": "Capricho #BeMyself"
-    },
-    {
-      "brand": "GRANADO",
-      "name": "Fervo Intenso"
     }
-  ]
+  ],
+  "comments": []
 }

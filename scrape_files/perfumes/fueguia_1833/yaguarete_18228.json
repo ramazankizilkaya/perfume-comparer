@@ -83,54 +83,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "2",
-    "moderate": "4",
-    "longLasting": "7",
-    "eternal": "12"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "4",
-    "strong": "7",
-    "enormous": "11"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "10",
-    "moreMale": "3",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "6",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "6",
-    "goodValue": "2",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "LE LABO",
-      "name": "Another 13"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "L'Eau Papier"
-    },
-    {
-      "brand": "ORTO PARİSİ",
-      "name": "Risvelium"
-    },
-    {
-      "brand": "MAİSON CRİVELLİ",
-      "name": "Safran Secret"
-    },
-    {
-      "brand": "ERMENEGİLDO ZEGNA",
-      "name": "Florentine Iris"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -145,12 +124,12 @@
       "name": "Les Exclusifs de Chanel Coromandel"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Musc Ravageur"
-    },
-    {
       "brand": "CHANEL",
       "name": "Les Exclusifs de Chanel Sycomore"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Musc Ravageur"
     },
     {
       "brand": "TOM FORD",
@@ -192,5 +171,6 @@
       "brand": "BALENCİAGA",
       "name": "Florabotanica"
     }
-  ]
+  ],
+  "comments": []
 }

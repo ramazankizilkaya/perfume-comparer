@@ -41,26 +41,54 @@
     {
       "name": "çiçeksi",
       "width": "50.2224%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.66",
-    "votesCount": "56",
+    "score": "3.77",
+    "votesCount": "61",
     "breakdown": {
-      "love": "18",
-      "like": "12",
-      "ok": "17",
-      "dislike": "7",
+      "love": "22",
+      "like": "13",
+      "ok": "18",
+      "dislike": "6",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "5",
-    "spring": "17",
-    "summer": "18",
-    "autumn": "12",
-    "day": "16",
-    "night": "7"
+    "winter": "8",
+    "spring": "19",
+    "summer": "20",
+    "autumn": "14",
+    "day": "18",
+    "night": "8"
   },
   "notes": {
     "top": [],
@@ -73,33 +101,90 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "1",
+    "moderate": "18",
+    "longLasting": "5",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "18",
+    "strong": "8",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "15",
+    "moreFemale": "8",
+    "unisex": "2",
+    "moreMale": "2",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "17",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "10",
+    "overpriced": "6",
+    "fair": "18",
+    "goodValue": "0",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'eau d'Issey"
+    },
+    {
+      "brand": "LES SENTEURS GOURMANDES",
+      "name": "Rose Sublime"
+    },
+    {
+      "brand": "MAİSON CRİVELLİ",
+      "name": "Rose SaltifOlia"
+    },
+    {
+      "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
+      "name": "La Belle de Russie"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Olympéa Aqua"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau d'Issey Parfum"
+    },
+    {
+      "brand": "FİLA",
+      "name": "Fila for Women"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Beach Walk"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water Sea Rose"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "A Drop d'Issey Eau de Parfum Fraiche"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "A Drop d'Issey Essentielle"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Rose Noir"
+    },
+    {
+      "brand": "LA RİVE",
+      "name": "In Flames"
+    },
+    {
+      "brand": "LE LABO",
+      "name": "Baie 19"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -114,12 +199,16 @@
       "name": "Absolue Rose Or Die"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Café Rose"
+      "brand": "LANCÔME",
+      "name": "Absolue 6AM Rose"
     },
     {
-      "brand": "LANCÔME",
-      "name": "La Vie est Belle L'Elixir"
+      "brand": "CHANEL",
+      "name": "Coco Noir"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Coco Mademoiselle"
     },
     {
       "brand": "DİOR",
@@ -130,8 +219,8 @@
       "name": "Bal d'Afrique"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Cinéma"
+      "brand": "MARC JACOBS",
+      "name": "Perfect"
     },
     {
       "brand": "VERSACE",
@@ -156,10 +245,7 @@
     {
       "brand": "CAROLİNA HERRERA",
       "name": "Good Girl"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "Feminité du Bois"
     }
-  ]
+  ],
+  "comments": []
 }

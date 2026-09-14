@@ -49,6 +49,34 @@
     {
       "name": "taze",
       "width": "48.8715%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -96,33 +124,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "11",
+    "longLasting": "5",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "11",
+    "strong": "7",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb La Vie en Rose 2013"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb La Vie En Rose 2014"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb La Vie en Rose 2011"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb La Vie En Rose 2015"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb La Vie en Rose 2012"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Eau de Toilette"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "Untold Eau Legere"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Gingham Gorgeous"
+    },
+    {
+      "brand": "OAKCHA",
+      "name": "Reborn Lust"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Flora by Gucci Eau de Toilette"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Addict Eau Fraiche 2012"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Cheap & Chic I Love Love"
+    },
+    {
+      "brand": "AGENT PROVOCATEUR",
+      "name": "Fatale Pink"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Her Blossom"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -184,5 +273,6 @@
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
     }
-  ]
+  ],
+  "comments": []
 }

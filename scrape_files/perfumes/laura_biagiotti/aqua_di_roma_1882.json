@@ -49,26 +49,54 @@
     {
       "name": "animalik",
       "width": "49.0025%"
+    },
+    {
+      "name": "Online satın alın 19 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.63",
-    "votesCount": "256",
+    "votesCount": "257",
     "breakdown": {
       "love": "43",
       "like": "143",
-      "ok": "6",
+      "ok": "7",
       "dislike": "60",
       "hate": "4"
     }
   },
   "seasons": {
-    "winter": "15",
-    "spring": "65",
-    "summer": "90",
-    "autumn": "24",
-    "day": "109",
-    "night": "17"
+    "winter": "16",
+    "spring": "66",
+    "summer": "91",
+    "autumn": "25",
+    "day": "110",
+    "night": "18"
   },
   "notes": {
     "top": [
@@ -93,33 +121,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "7",
+    "moderate": "18",
+    "longLasting": "12",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "18",
+    "strong": "11",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "1",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "2",
+    "fair": "7",
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Acqua di Parma Magnolia Nobile"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Jicky"
+    },
+    {
+      "brand": "AVON",
+      "name": "Today Tomorrow Always Forever"
+    },
+    {
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "California Réverie"
+    },
+    {
+      "brand": "ICEBERG",
+      "name": "Twice"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Addict Eau de Toilette"
+    },
+    {
+      "brand": "СЕВЕРНОЕ СИЯНИЕ",
+      "name": "Тамара (Tamara)"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -158,6 +215,10 @@
       "name": "Trésor"
     },
     {
+      "brand": "LANCÔME",
+      "name": "Miracle"
+    },
+    {
       "brand": "LAURA BİAGİOTTİ",
       "name": "Roma"
     },
@@ -176,10 +237,7 @@
     {
       "brand": "DİOR",
       "name": "Dolce Vita"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dior Addict"
     }
-  ]
+  ],
+  "comments": []
 }

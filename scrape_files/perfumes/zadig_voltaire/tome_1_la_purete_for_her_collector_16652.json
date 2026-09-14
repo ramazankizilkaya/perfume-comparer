@@ -27,15 +27,15 @@
       "width": "65%"
     },
     {
-      "name": "misk",
-      "width": "58%"
-    },
-    {
       "name": "odunsu",
       "width": "58%"
     },
     {
       "name": "beyaz çiçeksi",
+      "width": "58%"
+    },
+    {
+      "name": "misk",
       "width": "58%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "narenciye",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -114,7 +142,12 @@
     "goodValue": "0",
     "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LES LİQUİDES IMAGİNAİRES",
+      "name": "Blanche Bête"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -157,6 +190,10 @@
       "name": "Angel Muse"
     },
     {
+      "brand": "CHANEL",
+      "name": "Chanel No 5 Eau de Toilette"
+    },
+    {
       "brand": "VERSACE",
       "name": "Crystal Noir"
     },
@@ -171,10 +208,7 @@
     {
       "brand": "GUERLAİN",
       "name": "Insolence Eau de Parfum"
-    },
-    {
-      "brand": "NİVEA",
-      "name": "Nivea Eau de Toilette"
     }
-  ]
+  ],
+  "comments": []
 }

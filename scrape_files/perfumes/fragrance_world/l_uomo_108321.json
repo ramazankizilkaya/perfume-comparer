@@ -35,11 +35,11 @@
       "width": "62.1035%"
     },
     {
-      "name": "sulu",
+      "name": "vanilya",
       "width": "53.655%"
     },
     {
-      "name": "vanilya",
+      "name": "sulu",
       "width": "53.655%"
     },
     {
@@ -49,26 +49,54 @@
     {
       "name": "taze",
       "width": "48.3447%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.31",
-    "votesCount": "39",
+    "score": "4.29",
+    "votesCount": "41",
     "breakdown": {
-      "love": "19",
-      "like": "16",
+      "love": "20",
+      "like": "17",
       "ok": "2",
-      "dislike": "1",
-      "hate": "1"
+      "dislike": "0",
+      "hate": "2"
     }
   },
   "seasons": {
     "winter": "9",
-    "spring": "27",
-    "summer": "24",
-    "autumn": "24",
-    "day": "26",
-    "night": "18"
+    "spring": "29",
+    "summer": "26",
+    "autumn": "26",
+    "day": "28",
+    "night": "20"
   },
   "notes": {
     "top": [
@@ -89,41 +117,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "4",
+    "moderate": "19",
+    "longLasting": "3",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "19",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "13",
+    "male": "12"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "11",
+    "greatValue": "15"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "L'Homme"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Fakhar Black"
+      "brand": "FRAGRANCE WORLD",
+      "name": "Jack Of Clubs"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "Ferragamo"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "Authentic Self Man"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "L'Homme"
     },
     {
       "brand": "CHANEL",
@@ -134,12 +175,16 @@
       "name": "L'Eau d'Issey Pour Homme"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "La Nuit de l'Homme"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Jean Lowe Immortal"
     },
     {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Détour Noir"
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de l'Homme"
     },
     {
       "brand": "DOLCE&GABBANA",
@@ -158,24 +203,25 @@
       "name": "Liam"
     },
     {
-      "brand": "AFNAN",
-      "name": "Supremacy Not Only Intense"
-    },
-    {
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
+    },
+    {
+      "brand": "RUE BROCA",
+      "name": "Théorème Homme"
     },
     {
       "brand": "AFNAN",
       "name": "Turathi Blue"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Asad"
+      "brand": "AFNAN",
+      "name": "9pm"
     },
     {
-      "brand": "PRADA",
-      "name": "Prada L'Homme"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad"
     }
-  ]
+  ],
+  "comments": []
 }

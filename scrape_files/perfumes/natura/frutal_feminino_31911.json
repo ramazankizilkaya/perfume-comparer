@@ -1,7 +1,7 @@
 {
   "name": "Frutal Feminino Natura",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Oriental",
+  "fragranceFamily": "Floral",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.31911.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Natura/Frutal-Feminino-31911.html",
@@ -11,15 +11,7 @@
   "description_enhanced": "Natura markasının Frutal Feminino parfümü, kadınlar için Aromatik Meyvemsi bir kokudur. Frutal Feminino, 2012 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Kokuda Tropikal Meyveler, Yasemin, Gül, Misk ve Amber notaları bulunur.",
   "mainAccords": [
     {
-      "name": "amber",
-      "width": "100%"
-    },
-    {
-      "name": "misk",
-      "width": "100%"
-    },
-    {
-      "name": "gül",
+      "name": "beyaz çiçeksi",
       "width": "100%"
     },
     {
@@ -27,7 +19,15 @@
       "width": "100%"
     },
     {
-      "name": "beyaz çiçeksi",
+      "name": "gül",
+      "width": "100%"
+    },
+    {
+      "name": "misk",
+      "width": "100%"
+    },
+    {
+      "name": "amber",
       "width": "100%"
     },
     {
@@ -39,16 +39,44 @@
       "width": "75.4998%"
     },
     {
-      "name": "çiçeksi",
+      "name": "taze",
       "width": "65%"
     },
     {
-      "name": "taze",
+      "name": "çiçeksi",
       "width": "65%"
     },
     {
       "name": "animalik",
       "width": "58.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,32 +111,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

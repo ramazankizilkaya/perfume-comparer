@@ -19,11 +19,11 @@
       "width": "90.2002%"
     },
     {
-      "name": "meyvemsi",
+      "name": "tatlı",
       "width": "72.0002%"
     },
     {
-      "name": "tatlı",
+      "name": "meyvemsi",
       "width": "72.0002%"
     },
     {
@@ -51,7 +51,7 @@
     }
   },
   "seasons": {
-    "winter": "2",
+    "winter": "3",
     "spring": "9",
     "summer": "13",
     "autumn": "4",
@@ -68,42 +68,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "5",
-    "moderate": "4",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "7",
-    "moderate": "4",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "11",
-    "moreFemale": "3",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "6",
-    "greatValue": "3"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BROCARD",
-      "name": "Sorbetto"
-    },
-    {
-      "brand": "BRİTNEY SPEARS",
-      "name": "VIP Private Show"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "VİCTORİA'S SECRET",
@@ -165,5 +156,6 @@
       "brand": "VİCTORİA'S SECRET",
       "name": "Pure Seduction Sunkissed"
     }
-  ]
+  ],
+  "comments": []
 }

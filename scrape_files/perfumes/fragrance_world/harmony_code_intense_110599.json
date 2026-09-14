@@ -49,26 +49,54 @@
     {
       "name": "amber",
       "width": "49.6121%"
+    },
+    {
+      "name": "Online satın alın 24 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.47",
-    "votesCount": "32",
+    "score": "4.55",
+    "votesCount": "40",
     "breakdown": {
-      "love": "17",
-      "like": "14",
+      "love": "24",
+      "like": "15",
       "ok": "0",
       "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "19",
-    "spring": "9",
+    "winter": "23",
+    "spring": "13",
     "summer": "1",
-    "autumn": "19",
-    "day": "19",
-    "night": "21"
+    "autumn": "23",
+    "day": "22",
+    "night": "24"
   },
   "notes": {
     "top": [
@@ -90,41 +118,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "19",
+    "longLasting": "4",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "19",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "8",
+    "male": "13"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "12"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code Ultimate"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code Eau de Parfum"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Sexy Men"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code Eau de Toilette"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code Special Blend"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code"
+    },
     {
       "brand": "FRAGRANCE WORLD",
       "name": "Harmony Code Absolute"
-    },
-    {
-      "brand": "AFNAN",
-      "name": "9pm"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -155,6 +208,10 @@
       "name": "Le Male Le Parfum"
     },
     {
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme"
+    },
+    {
       "brand": "GİORGİO ARMANİ",
       "name": "Armani Code Profumo"
     },
@@ -167,16 +224,13 @@
       "name": "Bade'e Al Oud Honor & Glory"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah Qahwa"
+    },
+    {
       "brand": "AFNAN",
       "name": "Turathi Blue"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Al Nashama Caprice"
-    },
-    {
-      "brand": "FRENCH AVENUE",
-      "name": "Vulcan Feu"
     }
-  ]
+  ],
+  "comments": []
 }

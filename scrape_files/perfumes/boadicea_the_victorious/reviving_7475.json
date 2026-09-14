@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "tüberöz",
+      "name": "beyaz çiçeksi",
       "width": "73.75%"
     },
     {
-      "name": "beyaz çiçeksi",
+      "name": "tüberöz",
       "width": "73.75%"
     },
     {
@@ -31,7 +31,7 @@
       "width": "58.4375%"
     },
     {
-      "name": "yeşil",
+      "name": "yumuşak baharatlı",
       "width": "56.25%"
     },
     {
@@ -39,7 +39,7 @@
       "width": "56.25%"
     },
     {
-      "name": "yumuşak baharatlı",
+      "name": "yeşil",
       "width": "56.25%"
     },
     {
@@ -49,6 +49,10 @@
     {
       "name": "yosunlu",
       "width": "51.875%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -73,34 +77,46 @@
   "notes": {
     "top": [],
     "middle": [],
-    "base": []
+    "base": [],
+    "all": [
+      "Tarhun",
+      "Petitgrain",
+      "Sümbülteber",
+      "Meşe yosunu",
+      "Bergamot",
+      "Karanfil",
+      "Gül tentürü",
+      "Gardenya",
+      "Menekşe",
+      "Odunsu Notalar"
+    ]
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "0",
-    "longLasting": "2",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "0",
-    "strong": "2",
-    "enormous": "6"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -136,5 +152,6 @@
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

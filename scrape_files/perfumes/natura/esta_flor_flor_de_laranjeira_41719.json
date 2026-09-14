@@ -37,13 +37,41 @@
     {
       "name": "animalik",
       "width": "44.6504%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.19",
-    "votesCount": "286",
+    "votesCount": "285",
     "breakdown": {
-      "love": "144",
+      "love": "143",
       "like": "93",
       "ok": "10",
       "dislike": "38",
@@ -73,33 +101,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "28",
+    "moderate": "54",
+    "longLasting": "36",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "34",
+    "moderate": "54",
+    "strong": "27",
+    "enormous": "18"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "35",
+    "moreFemale": "22",
+    "unisex": "14",
+    "moreMale": "1",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "9",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "19",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Ilía Flor de Laranjeira"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "O de L'Orangerie"
+    },
+    {
+      "brand": "ADOLFO DOMİNGUEZ",
+      "name": "Agua Fresca de Azahar"
+    },
+    {
+      "brand": "LE COUVENT MAİSON DE PARFUM",
+      "name": "Cologne of Love"
+    },
+    {
+      "brand": "O.U.İ ORİGİNAL UNİQUE INDİVİDUAL",
+      "name": "Jardin de Grasse"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Eau de Givenchy (2018)"
+    },
+    {
+      "brand": "BENETTON",
+      "name": "United Dreams Stay Positive"
+    },
+    {
+      "brand": "VİCTORİO & LUCCHİNO",
+      "name": "Nº 1 Azahar Radiante"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Fleur Cherie"
+    },
+    {
+      "brand": "GRANADO",
+      "name": "Bergamota & Flor de Laranjeira"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Neroli Portofino"
+    },
+    {
+      "brand": "BENETTON",
+      "name": "United Dreams Open Your Mind"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Viva Acqua Fresca"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Flower by Kenzo Eau de Vie"
+    },
+    {
+      "brand": "INSTİTUTO ESPAÑOL",
+      "name": "Aire de Sevilla Azahar"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -161,5 +250,6 @@
       "brand": "NATURA",
       "name": "Ilía Secreto"
     }
-  ]
+  ],
+  "comments": []
 }

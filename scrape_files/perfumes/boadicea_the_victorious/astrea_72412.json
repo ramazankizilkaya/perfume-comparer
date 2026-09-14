@@ -49,6 +49,10 @@
     {
       "name": "pudralı",
       "width": "62.0095%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -87,85 +91,37 @@
       "Vanilya",
       "Misk",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "2",
-    "moderate": "3",
-    "longLasting": "5",
-    "eternal": "12"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "3",
-    "strong": "10",
-    "enormous": "7"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "19",
-    "moreFemale": "3",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "2"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "9",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "0",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Delina Exclusif"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Cassili"
-    },
-    {
-      "brand": "PANTHEON ROMA",
-      "name": "Pantheon M"
-    },
-    {
-      "brand": "SPİRİT OF KİNGS",
-      "name": "Valiance"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Delina"
-    },
-    {
-      "brand": "MOSCHİNO",
-      "name": "Toy 2 Bubble Gum"
-    },
-    {
-      "brand": "ORİFLAME",
-      "name": "Mystic Caress"
-    },
-    {
-      "brand": "XERJOFF",
-      "name": "K’bridge Club"
-    },
-    {
-      "brand": "BOİS 1920",
-      "name": "Frammenti"
-    },
-    {
-      "brand": "MOUDON",
-      "name": "Précieux"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Delina Limited Edition"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Delina La Rosée"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "PARFUMS DE MARLY",
@@ -174,10 +130,6 @@
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
       "name": "Rouge Temptation"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Rose Chérie"
     },
     {
       "brand": "BY KİLİAN",
@@ -220,6 +172,10 @@
       "name": "Epic Woman"
     },
     {
+      "brand": "DİOR",
+      "name": "Hypnotic Poison"
+    },
+    {
       "brand": "CASAMORATİ 1888",
       "name": "Italica (2021)"
     },
@@ -227,5 +183,6 @@
       "brand": "GUERLAİN",
       "name": "Spiritueuse Double Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -29,6 +29,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "44.9447%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -67,33 +95,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "3",
+    "moderate": "14",
+    "longLasting": "5",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "14",
+    "strong": "17",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "10",
+    "male": "8"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "8",
+    "overpriced": "7",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TOM FORD",
+      "name": "Bois Marocain"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Bois Marocain (2022)"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Rush for Men"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Bottled Absolu"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Myrrhe Mystère"
+    },
+    {
+      "brand": "ESCENTRİC MOLECULES",
+      "name": "Escentric 05"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Italian Cypress"
+    },
+    {
+      "brand": "N-CİGALE",
+      "name": "Pin Mystic"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Ébène Fumé"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Bois d'Encens"
+    },
+    {
+      "brand": "432 WİLD BOTANİC PERFUMES",
+      "name": "Melinka"
+    },
+    {
+      "brand": "CHRİS COLLİNS",
+      "name": "Danse Sauvage"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Reserve Collection: Rive d'Ambre"
+    },
+    {
+      "brand": "MATİÈRE PREMİÈRE",
+      "name": "Santal Austral"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Impact Intense"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TOM FORD",
@@ -155,5 +244,6 @@
       "brand": "TOM FORD",
       "name": "Plum Japonais"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -45,6 +45,34 @@
     {
       "name": "pudralı",
       "width": "46.6188%"
+    },
+    {
+      "name": "Online satın alın 19 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,33 +114,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "5",
+    "moderate": "12",
+    "longLasting": "7",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "12",
+    "strong": "4",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "10",
+    "male": "13"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "13"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VERSACE",
+      "name": "Eros"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Versencia Oro"
+    },
+    {
+      "brand": "RİİFFS PERFUMES",
+      "name": "Imperial Blue"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Blue Sapphire"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Eros Parfum"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Des Tentations Flame"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -174,5 +227,6 @@
       "brand": "ZARA",
       "name": "Sunrise On The Red Sand Dunes"
     }
-  ]
+  ],
+  "comments": []
 }

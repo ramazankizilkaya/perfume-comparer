@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Brilliant-Gold-100988.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Brilliant Gold parfümü, erkekler için Oryantal bir kokudur. Brilliant Gold, 2022 yılında piyasaya sürüldü. Üst notalar: Çiçeksi Notalar, Baharatlı notalar ve Ahududu; orta notalar: Deri, Paçuli ve Cypriol Yağı veya Nagarmotha; alt notalar Oud, Ambergris, Vanilya ve Balsamik Notlar.",
-  "description_original": "Rasasi markasının Brilliant Gold parfümü, erkekler için Oryantal bir kokudur. Brilliant Gold, 2022 yılında piyasaya sürüldü. Üst notalar: Çiçeksi Notalar, Baharatlı notalar ve Ahududu; orta notalar: Deri, Paçuli ve Cypriol Yağı veya Nagarmotha; alt notalar Oud, Ambergris, Vanilya ve Balsamik Notlar.",
+  "description_original": "Rasasi markasının Brilliant Gold parfümü, erkekler için Oryantal bir kokudur. Brilliant Gold, 2022 yılında piyasaya sürüldü. Üst notalar: Çiçeksi Notalar, Baharatlı Notalar ve Ahududu; orta notalar: Deri, Paçuli ve Cypriol Yağı veya Nagarmotha; alt notalar Oud, Ambergris, Vanilya ve Balsamik Notlar.",
   "description_enhanced": "Rasasi markasının Brilliant Gold parfümü, erkekler için Oryantal bir kokudur. Brilliant Gold, 2022 yılında piyasaya sürüldü. Üst notalar: Çiçeksi Notalar, Baharatlı notalar ve Ahududu; orta notalar: Deri, Paçuli ve Cypriol Yağı veya Nagarmotha; alt notalar Oud, Ambergris, Vanilya ve Balsamik Notlar.",
   "mainAccords": [
     {
@@ -49,6 +49,38 @@
     {
       "name": "balsamik",
       "width": "51.875%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -73,7 +105,7 @@
   "notes": {
     "top": [
       "Çiçeksi Notalar",
-      "Baharatlı notalar",
+      "Baharatlı Notalar",
       "Ahududu"
     ],
     "middle": [
@@ -90,53 +122,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "2",
+    "longLasting": "4",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "2",
+    "strong": "4",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "3",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Oud Ispahan Esprit De Parfum"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Oud Ispahan"
+    },
+    {
+      "brand": "THE WOODS COLLECTİON",
+      "name": "Royal Night"
+    },
+    {
+      "brand": "RUE BROCA",
+      "name": "Penthouse Windsor"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Jean Lowe Ombre"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Jean Lowe Noir"
+    }
+  ],
   "peopleAlsoLike": [
     {
-      "brand": "RASASİ",
-      "name": "Brilliant Bronze"
+      "brand": "FRENCH AVENUE",
+      "name": "Azzure Oud"
     },
     {
       "brand": "RASASİ",
       "name": "Shuhrah Pour Homme"
     },
     {
-      "brand": "FRENCH AVENUE",
-      "name": "Azzure Oud"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Amethyst"
     },
     {
-      "brand": "RASASİ",
-      "name": "Brilliant Silver"
+      "brand": "RAYHAAN",
+      "name": "Pharaoh"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Eternal Oud"
     },
     {
       "brand": "AFNAN",
@@ -159,24 +216,25 @@
       "name": "Liquid Brun"
     },
     {
-      "brand": "ZİMAYA",
-      "name": "Tiramisu Caramel"
-    },
-    {
       "brand": "RAYHAAN",
       "name": "Italia"
     },
     {
+      "brand": "ZİMAYA",
+      "name": "Tiramisu Caramel"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah Qahwa"
+      "name": "Dynasty"
     },
     {
       "brand": "AFNAN",
       "name": "Supremacy Collector's Edition Pour Homme"
     },
     {
-      "brand": "PARIS CORNER",
-      "name": "Mawj Appletini"
+      "brand": "RASASİ",
+      "name": "Hawas for Her"
     }
-  ]
+  ],
+  "comments": []
 }

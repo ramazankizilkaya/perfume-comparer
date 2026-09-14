@@ -29,24 +29,52 @@
     {
       "name": "animalik",
       "width": "40.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.30",
-    "votesCount": "20",
+    "score": "4.24",
+    "votesCount": "21",
     "breakdown": {
       "love": "12",
       "like": "5",
-      "ok": "0",
+      "ok": "1",
       "dislike": "3",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "13",
+    "winter": "14",
     "spring": "6",
     "summer": "2",
-    "autumn": "10",
+    "autumn": "11",
     "day": "7",
     "night": "12"
   },
@@ -82,7 +110,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "3",
-    "fair": "0",
+    "fair": "1",
     "goodValue": "1",
     "greatValue": "0"
   },
@@ -114,12 +142,12 @@
   ],
   "peopleAlsoLike": [
     {
-      "brand": "XERJOFF",
-      "name": "Alexandria II"
-    },
-    {
       "brand": "AMOUAGE",
       "name": "The Library Collection Opus VII"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Alexandria II"
     },
     {
       "brand": "DİOR",
@@ -173,5 +201,6 @@
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

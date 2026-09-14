@@ -41,17 +41,45 @@
     {
       "name": "taze",
       "width": "45.05%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.29",
-    "votesCount": "41",
+    "score": "4.21",
+    "votesCount": "42",
     "breakdown": {
       "love": "18",
       "like": "19",
       "ok": "2",
       "dislike": "2",
-      "hate": "0"
+      "hate": "1"
     }
   },
   "seasons": {
@@ -73,33 +101,58 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "3",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "3",
+    "strong": "3",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "3",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RASASİ",
+      "name": "Attar Al Mohabba Female"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Extreme 2007"
+    },
+    {
+      "brand": "PURE NATURAL DİVA",
+      "name": "Elixir"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Frozen Flower"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "Must de Cartier Gold"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -161,5 +214,6 @@
       "brand": "NİNA RİCCİ",
       "name": "Nina"
     }
-  ]
+  ],
+  "comments": []
 }

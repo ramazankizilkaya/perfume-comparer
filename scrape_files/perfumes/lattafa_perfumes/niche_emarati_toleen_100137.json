@@ -37,26 +37,54 @@
     {
       "name": "beyaz çiçeksi",
       "width": "45.3127%"
+    },
+    {
+      "name": "Online satın alın 18 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.07",
-    "votesCount": "87",
+    "score": "4.03",
+    "votesCount": "90",
     "breakdown": {
-      "love": "40",
-      "like": "26",
-      "ok": "9",
+      "love": "39",
+      "like": "28",
+      "ok": "11",
       "dislike": "11",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "50",
-    "spring": "27",
+    "winter": "54",
+    "spring": "29",
     "summer": "11",
-    "autumn": "43",
-    "day": "23",
-    "night": "49"
+    "autumn": "46",
+    "day": "24",
+    "night": "51"
   },
   "notes": {
     "top": [
@@ -75,33 +103,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "3",
+    "longLasting": "30",
+    "eternal": "14"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "3",
+    "strong": "28",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "20",
+    "unisex": "23",
+    "moreMale": "2",
+    "male": "8"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "3",
+    "fair": "11",
+    "goodValue": "22",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Portrait of a Lady"
+    },
+    {
+      "brand": "MATİÈRE PREMİÈRE",
+      "name": "Radical Rose"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "The Artist No.1"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Exotic Rose"
+    },
+    {
+      "brand": "VİNCE CAMUTO",
+      "name": "Smoked Oud"
+    },
+    {
+      "brand": "CHOPARD",
+      "name": "Love Chopard"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Rose Exposed"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Impadia"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Young Rose"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Attar"
+    },
+    {
+      "brand": "FRAGRANCE DU BOİS",
+      "name": "New York 5th Avenue"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Portfolio Floral Sculpture"
+    },
+    {
+      "brand": "THE SPİRİT OF DUBAİ",
+      "name": "Narjesi"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Garanat"
+    },
+    {
+      "brand": "LUXURY PERFUMES",
+      "name": "Luxury Summer Swim"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -112,8 +201,8 @@
       "name": "Mystique Bouquet"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Portrait of a Lady"
+      "brand": "MUGLER",
+      "name": "Alien"
     },
     {
       "brand": "AL HARAMAİN PERFUMES",
@@ -133,14 +222,6 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Fakhar Rose"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Angel Nova"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
     },
     {
@@ -156,12 +237,21 @@
       "name": "Nebras"
     },
     {
+      "brand": "FRENCH AVENUE",
+      "name": "Liquid Brun"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Niche Emarati Antique"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Sehr"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Bade'e Al Oud Honor & Glory"
     }
-  ]
+  ],
+  "comments": []
 }

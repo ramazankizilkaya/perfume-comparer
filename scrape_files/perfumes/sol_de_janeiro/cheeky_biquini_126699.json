@@ -16,38 +16,66 @@
     },
     {
       "name": "tatlı",
-      "width": "69.751%"
+      "width": "70.5487%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "54.4086%"
-    },
-    {
-      "name": "pudralı",
-      "width": "44.558%"
+      "width": "53.9023%"
     },
     {
       "name": "vanilya",
-      "width": "43.9478%"
+      "width": "45.3658%"
+    },
+    {
+      "name": "pudralı",
+      "width": "44.9816%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.92",
-    "votesCount": "161",
+    "score": "3.91",
+    "votesCount": "183",
     "breakdown": {
-      "love": "49",
-      "like": "59",
-      "ok": "44",
+      "love": "56",
+      "like": "66",
+      "ok": "51",
       "dislike": "9",
-      "hate": "0"
+      "hate": "1"
     }
   },
   "seasons": {
     "winter": "1",
-    "spring": "55",
-    "summer": "83",
+    "spring": "59",
+    "summer": "93",
     "autumn": "5",
-    "day": "70",
+    "day": "78",
     "night": "8"
   },
   "notes": {
@@ -68,34 +96,99 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "15",
+    "moderate": "10",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "10",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "34",
+    "moreFemale": "2",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "44",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "10",
+    "fair": "51",
+    "goodValue": "14",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JİMMY CHOO",
+      "name": "I Want Choo"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '48"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Pear Potion"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Thank U, Next"
+    },
+    {
+      "brand": "KAYALİ FRAGRANCES",
+      "name": "Eden Sparkling Lychee | 39 Eau de Parfum"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Envy Me"
+    },
+    {
+      "brand": "KOOKAİ",
+      "name": "Oui-Non"
+    },
+    {
+      "brand": "THERA COSMÉTİCOS",
+      "name": "Dã"
+    },
+    {
+      "brand": "AVON",
+      "name": "Naturals Cherry Blossom"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Mulan"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel Nova"
+    },
+    {
+      "brand": "NABEEL",
+      "name": "Ajoob"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa 91"
+    },
+    {
+      "brand": "CLEAN",
+      "name": "Sugar-Coated"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "KAYALİ FRAGRANCES",
+      "name": "Eden Juicy Apple | 01 Eau De Parfum"
+    },
+    {
+      "brand": "KAYALİ FRAGRANCES",
+      "name": "Eden Sparkling Lychee | 39 Eau de Parfum"
+    },
     {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '40"
@@ -107,10 +200,6 @@
     {
       "brand": "KAYALİ FRAGRANCES",
       "name": "Vanilla Candy Rock Sugar | 42"
-    },
-    {
-      "brand": "ELLİS BROOKLYN",
-      "name": "Miami Nectar"
     },
     {
       "brand": "SOL DE JANEİRO",
@@ -125,10 +214,6 @@
       "name": "Cheirosa '68"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Love Don't Be Shy"
-    },
-    {
       "brand": "KAYALİ FRAGRANCES",
       "name": "Yum Pistachio Gelato | 33"
     },
@@ -137,8 +222,12 @@
       "name": "Limonada Gelada"
     },
     {
-      "brand": "CAROLİNA HERRERA",
-      "name": "Good Girl"
+      "brand": "DOLCE&GABBANA",
+      "name": "Devotion"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Cloud"
     },
     {
       "brand": "BİLLİE EİLİSH",
@@ -151,10 +240,7 @@
     {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '62"
-    },
-    {
-      "brand": "GİARDİNİ Dİ TOSCANA",
-      "name": "Bianco Latte"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -1,7 +1,7 @@
 {
   "name": "Beezer Gold Pour Femme Rasasi",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Oriental",
+  "fragranceFamily": "Woody",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.107039.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Beezer-Gold-Pour-Femme-107039.html",
@@ -11,15 +11,7 @@
   "description_enhanced": "Rasasi markasının Beezer Gold Pour Femme parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Bu yeni bir parfüm. Beezer Gold Pour Femme, 2024 yılında piyasaya sürüldü. Üst notalar: Meyvemsi notalar ve Gül; orta notalar: Odunsu Notalar ve Amber; alt nota Misk.",
   "mainAccords": [
     {
-      "name": "amber",
-      "width": "100%"
-    },
-    {
-      "name": "meyvemsi",
-      "width": "100%"
-    },
-    {
-      "name": "misk",
+      "name": "odunsu",
       "width": "100%"
     },
     {
@@ -27,7 +19,15 @@
       "width": "100%"
     },
     {
-      "name": "odunsu",
+      "name": "misk",
+      "width": "100%"
+    },
+    {
+      "name": "meyvemsi",
+      "width": "100%"
+    },
+    {
+      "name": "amber",
       "width": "100%"
     },
     {
@@ -45,6 +45,34 @@
     {
       "name": "çiçeksi",
       "width": "50.9998%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -59,7 +87,7 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "0",
     "summer": "0",
     "autumn": "0",
@@ -81,32 +109,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

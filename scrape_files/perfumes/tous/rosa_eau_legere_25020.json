@@ -45,6 +45,34 @@
     {
       "name": "tatlı",
       "width": "52.5098%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,33 +114,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "1",
+    "moderate": "19",
+    "longLasting": "2",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "19",
+    "strong": "8",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "THE BODY SHOP",
+      "name": "Atlas Mountain Rose"
+    },
+    {
+      "brand": "ATELİER COLOGNE",
+      "name": "Sud Magnolia"
+    },
+    {
+      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
+      "name": "Rose Pivoine"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Chloé Roses de Chloé"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Rose Fraiche"
+    },
+    {
+      "brand": "TOUS",
+      "name": "Touch"
+    },
+    {
+      "brand": "TOUS",
+      "name": "Rosa"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Rose"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Bright Crystal"
+    },
+    {
+      "brand": "VİNCE CAMUTO",
+      "name": "Illuminare"
+    },
+    {
+      "brand": "VİNCE CAMUTO",
+      "name": "Ciao"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Love Story Eau de Toilette"
+    },
+    {
+      "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
+      "name": "Eau Jeune L'Orientale"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Idôle"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Chloé Rose Tangerine"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BVLGARİ",
@@ -167,12 +256,13 @@
       "name": "Eclat d’Arpège"
     },
     {
-      "brand": "LANCÔME",
-      "name": "La Nuit Trésor"
-    },
-    {
       "brand": "ESTÉE LAUDER",
       "name": "Pleasures"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,13 +49,37 @@
     {
       "name": "pudralı",
       "width": "45.5909%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.07",
-    "votesCount": "28",
+    "score": "4.10",
+    "votesCount": "29",
     "breakdown": {
-      "love": "12",
+      "love": "13",
       "like": "11",
       "ok": "0",
       "dislike": "5",
@@ -65,7 +89,7 @@
   "seasons": {
     "winter": "16",
     "spring": "14",
-    "summer": "3",
+    "summer": "4",
     "autumn": "19",
     "day": "17",
     "night": "16"
@@ -138,16 +162,24 @@
       "name": "Tiger"
     },
     {
+      "brand": "ANTONİO PUİG",
+      "name": "Quorum Silver"
+    },
+    {
+      "brand": "SARAH JESSİCA PARKER",
+      "name": "Stash SJP"
+    },
+    {
       "brand": "SWİSS ARABİAN",
       "name": "Shaghaf Amber Infusion"
     },
     {
-      "brand": "FRENCH AVENUE",
-      "name": "Spectre Wraith"
-    },
-    {
       "brand": "XERJOFF",
       "name": "Tony Iommi Monkey Special"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Spectre Wraith"
     },
     {
       "brand": "TOM FORD",
@@ -215,5 +247,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "The Kingdom For Men"
     }
-  ]
+  ],
+  "comments": []
 }

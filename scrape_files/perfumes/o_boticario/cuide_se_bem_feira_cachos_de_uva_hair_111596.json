@@ -21,14 +21,42 @@
     {
       "name": "Yağlı",
       "width": "59.1666%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.33",
-    "votesCount": "3",
+    "score": "4.25",
+    "votesCount": "4",
     "breakdown": {
       "love": "1",
-      "like": "2",
+      "like": "3",
       "ok": "0",
       "dislike": "0",
       "hate": "0"
@@ -79,7 +107,12 @@
     "goodValue": "0",
     "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Cuide-se Bem Feira Cachos de Uva"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -106,16 +139,20 @@
       "name": "Her Code"
     },
     {
-      "brand": "NATURA",
-      "name": "Kriska Sonhos"
-    },
-    {
       "brand": "AVON",
       "name": "Power Stay"
     },
     {
+      "brand": "NATURA",
+      "name": "Kriska Sonhos"
+    },
+    {
       "brand": "O BOTİCÁRİO",
       "name": "Lily Eau de Parfum"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Uva Merlot"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -124,10 +161,6 @@
     {
       "brand": "O BOTİCÁRİO",
       "name": "Coffee Man Unique"
-    },
-    {
-      "brand": "O BOTİCÁRİO",
-      "name": "Uva Merlot"
     },
     {
       "brand": "NATURA",
@@ -141,5 +174,6 @@
       "brand": "O.U.İ ORİGİNAL UNİQUE INDİVİDUAL",
       "name": "Désir Parisien 750"
     }
-  ]
+  ],
+  "comments": []
 }

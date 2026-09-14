@@ -41,6 +41,34 @@
     {
       "name": "odunsu",
       "width": "45.6101%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -80,33 +108,90 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "4",
+    "moderate": "11",
+    "longLasting": "3",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "11",
+    "strong": "4",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "3",
+    "unisex": "0",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Premieres Roses"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Premieres Roses 2012"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Premieres Roses 2013"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Premieres Roses 2014"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Premieres Roses 2010"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Premieres Roses 2011"
+    },
+    {
+      "brand": "ANTİNOMİE",
+      "name": "Rose Sage"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Rose Essentielle"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Sa Majeste la Rose"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Roses et Reines"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Bright Crystal"
+    },
+    {
+      "brand": "DSH PERFUMES",
+      "name": "La Vie en Rose"
+    },
+    {
+      "brand": "BOTTEGA VENETA",
+      "name": "Knot Eau Florale"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -168,5 +253,6 @@
       "brand": "DİOR",
       "name": "Poison"
     }
-  ]
+  ],
+  "comments": []
 }

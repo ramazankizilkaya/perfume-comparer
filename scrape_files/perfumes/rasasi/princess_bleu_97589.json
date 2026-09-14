@@ -23,10 +23,6 @@
       "width": "61.4493%"
     },
     {
-      "name": "amber",
-      "width": "50.2897%"
-    },
-    {
       "name": "odunsu",
       "width": "50.2897%"
     },
@@ -35,8 +31,40 @@
       "width": "50.2897%"
     },
     {
+      "name": "amber",
+      "width": "50.2897%"
+    },
+    {
       "name": "meyvemsi",
       "width": "45.2173%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -51,7 +79,7 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "0",
     "summer": "0",
     "autumn": "0",
@@ -76,32 +104,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "CHLOÉ",
+      "name": "Chloé Eau de Parfum"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Miracle"
+    },
+    {
+      "brand": "DANA",
+      "name": "Tabu Rose"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Delina"
+    },
+    {
+      "brand": "PARİS HİLTON",
+      "name": "Rosé Rush"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Souvenir Floral Bouquet"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Rose 01"
+    },
+    {
+      "brand": "ORİENTİCA PREMİUM",
+      "name": "Arte Bellisimo Romantic"
+    },
+    {
+      "brand": "AZHA PERFUMES",
+      "name": "Mumtaz"
+    },
+    {
+      "brand": "DSQUARED²",
+      "name": "Red Wood"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Maison-Alhambra/Glossy-96244.html",
   "brand": "Maison Alhambra parfüm ve kolonya",
   "description": "Maison Alhambra markasının Glossy parfümü, kadınlar için Çiçeksi bir kokudur. Glossy, 2022 yılında piyasaya sürüldü. Üst notalar: Armut, Pembe biber ve Bergamot; orta notalar: Yasemin ve Gül; alt notalar Misk, Vanilya, Paçuli ve Sedir.",
-  "description_original": "Maison Alhambra markasının Glossy parfümü, kadınlar için Çiçeksi bir kokudur. Glossy, 2022 yılında piyasaya sürüldü. Üst notalar: Armut, Pembe biber ve Bergamot; orta notalar: Yasemin ve Gül; alt notalar Misk, Vanilya, Paçuli ve Sedir.",
+  "description_original": "Maison Alhambra markasının Glossy parfümü, kadınlar için Çiçeksi bir kokudur. Glossy, 2022 yılında piyasaya sürüldü. Üst notalar: Armut, Pembe biber ve Bergamot; orta notalar: Yasemin ve Gül; alt notalar Beyaz Misk, Vanilya, Paçuli ve Sedir.",
   "description_enhanced": "Maison Alhambra markasının Glossy parfümü, kadınlar için Çiçeksi bir kokudur. Glossy, 2022 yılında piyasaya sürüldü. Üst notalar: Armut, Pembe biber ve Bergamot; orta notalar: Yasemin ve Gül; alt notalar Misk, Vanilya, Paçuli ve Sedir.",
   "mainAccords": [
     {
@@ -49,16 +49,28 @@
     {
       "name": "narenciye",
       "width": "60.5552%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.51",
-    "votesCount": "76",
+    "score": "3.55",
+    "votesCount": "80",
     "breakdown": {
-      "love": "20",
+      "love": "23",
       "like": "25",
       "ok": "9",
-      "dislike": "18",
+      "dislike": "19",
       "hate": "4"
     }
   },
@@ -66,9 +78,9 @@
     "winter": "19",
     "spring": "28",
     "summer": "19",
-    "autumn": "28",
-    "day": "30",
-    "night": "20"
+    "autumn": "29",
+    "day": "31",
+    "night": "21"
   },
   "notes": {
     "top": [
@@ -81,7 +93,7 @@
       "Gül"
     ],
     "base": [
-      "Misk",
+      "Beyaz Misk",
       "Vanilya",
       "Paçuli",
       "Sedir"
@@ -89,24 +101,24 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "7",
+    "moderate": "23",
+    "longLasting": "15",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "23",
+    "strong": "18",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "33",
+    "moreFemale": "14",
+    "unisex": "9",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "",
@@ -115,7 +127,48 @@
     "goodValue": "",
     "greatValue": ""
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Her"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Her Elixir de Parfum"
+    },
+    {
+      "brand": "RAVE",
+      "name": "Now Women"
+    },
+    {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Shiyaaka Rose Gold"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Exquisite"
+    },
+    {
+      "brand": "AL WATANİAH",
+      "name": "Sabah Al Ward Sugar"
+    },
+    {
+      "brand": "O.U.İ ORİGİNAL UNİQUE INDİVİDUAL",
+      "name": "Madeleine 862"
+    },
+    {
+      "brand": "WE PİNK",
+      "name": "Scarlette"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": ".SE Swedish Experience Blazing Warmth"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Idôle Eau de Parfum Limited Edition 2021"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -150,10 +203,6 @@
       "name": "Yara Tous"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Mia Dolcezza"
-    },
-    {
       "brand": "ARMAF",
       "name": "Club De Nuit Maleka"
     },
@@ -176,6 +225,11 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Fakhar Rose"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Teriaq"
     }
-  ]
+  ],
+  "comments": []
 }

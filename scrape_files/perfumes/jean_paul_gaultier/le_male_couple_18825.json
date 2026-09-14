@@ -93,94 +93,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "3",
-    "moderate": "12",
-    "longLasting": "13",
-    "eternal": "17"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "12",
-    "strong": "15",
-    "enormous": "14"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "2",
-    "male": "12"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "3",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Terrible"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Lover"
-    },
-    {
-      "brand": "CUBA PARİS",
-      "name": "Cuba Gold"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Super Le Male Collector"
-    },
-    {
-      "brand": "BALMAİN BEAUTY",
-      "name": "BalMan"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Layton"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Ultra Male"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Pride Edition"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "L’Homme Idéal Platine Privé"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "MYSLF Le Parfum"
-    },
-    {
-      "brand": "CAROLİNA HERRERA",
-      "name": "212 Sexy Men"
-    },
-    {
-      "brand": "ADİDAS",
-      "name": "Adidas Victory League"
-    },
-    {
-      "brand": "ENGLİSH LAUNDRY",
-      "name": "English Laundry Signature for him"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Lavender Extreme"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -211,12 +150,12 @@
       "name": "Oud Wood"
     },
     {
-      "brand": "HUGO BOSS",
-      "name": "Boss Bottled"
-    },
-    {
       "brand": "CHANEL",
       "name": "Bleu de Chanel"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Bottled"
     },
     {
       "brand": "DOLCE&GABBANA",
@@ -242,5 +181,6 @@
       "brand": "RABANNE",
       "name": "1 Million"
     }
-  ]
+  ],
+  "comments": []
 }

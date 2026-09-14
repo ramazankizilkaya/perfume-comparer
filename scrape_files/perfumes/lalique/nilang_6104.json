@@ -49,14 +49,42 @@
     {
       "name": "taze",
       "width": "51.1119%"
+    },
+    {
+      "name": "Online satın alın 19 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.90",
     "votesCount": "224",
     "breakdown": {
-      "love": "64",
-      "like": "115",
+      "love": "63",
+      "like": "116",
       "ok": "6",
       "dislike": "37",
       "hate": "2"
@@ -64,7 +92,7 @@
   },
   "seasons": {
     "winter": "33",
-    "spring": "41",
+    "spring": "42",
     "summer": "14",
     "autumn": "32",
     "day": "51",
@@ -91,33 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "7",
+    "moderate": "13",
+    "longLasting": "27",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "13",
+    "strong": "41",
+    "enormous": "19"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "19",
+    "moreFemale": "3",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MUGLER",
+      "name": "Angel Garden Of Stars - Le Lys"
+    },
+    {
+      "brand": "THE BODY SHOP",
+      "name": "Midnight Bakula"
+    },
+    {
+      "brand": "LE GALİON",
+      "name": "Sortilege (2014)"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Nilang 2011"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Eau de Star"
+    },
+    {
+      "brand": "DANA",
+      "name": "Ambush"
+    },
+    {
+      "brand": "SALVADOR DALİ",
+      "name": "La Belle et l'Ocelot"
+    },
+    {
+      "brand": "QUEEN LATİFAH",
+      "name": "Queen by Queen Latifah"
+    },
+    {
+      "brand": "SNİF",
+      "name": "Berry Styles"
+    },
+    {
+      "brand": "GRÈS",
+      "name": "Ambre de Cabochard"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel Garden Of Stars - Pivoine Angel"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'eau d'Issey Eau de Parfum"
+    },
+    {
+      "brand": "DİESEL",
+      "name": "Fuel For Life Femme"
+    },
+    {
+      "brand": "PRİNCESSE MARİNA DE BOURBON",
+      "name": "Marina De Bourbon"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'eau d'Issey"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -179,5 +268,6 @@
       "brand": "CARTİER",
       "name": "Le Baiser Du Dragon"
     }
-  ]
+  ],
+  "comments": []
 }

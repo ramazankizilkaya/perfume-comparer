@@ -16,38 +16,66 @@
     },
     {
       "name": "narenciye",
-      "width": "60.5128%"
+      "width": "60%"
     },
     {
       "name": "misk",
-      "width": "52.1368%"
+      "width": "51.7646%"
     },
     {
       "name": "aromatik",
-      "width": "46.0342%"
+      "width": "45.7648%"
     },
     {
       "name": "çiçeksi",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.16",
-    "votesCount": "345",
+    "score": "3.15",
+    "votesCount": "348",
     "breakdown": {
       "love": "75",
       "like": "88",
-      "ok": "46",
-      "dislike": "89",
-      "hate": "47"
+      "ok": "47",
+      "dislike": "90",
+      "hate": "48"
     }
   },
   "seasons": {
     "winter": "27",
-    "spring": "72",
+    "spring": "73",
     "summer": "68",
     "autumn": "38",
-    "day": "74",
+    "day": "75",
     "night": "30"
   },
   "notes": {
@@ -65,32 +93,36 @@
   },
   "longevity": {
     "veryWeak": "8",
-    "weak": "16",
+    "weak": "17",
     "moderate": "42",
     "longLasting": "21",
     "eternal": "7"
   },
   "sillage": {
-    "intimate": "20",
+    "intimate": "21",
     "moderate": "42",
     "strong": "31",
     "enormous": "11"
   },
   "genderVoting": {
-    "female": "53",
+    "female": "54",
     "moreFemale": "23",
     "unisex": "14",
     "moreMale": "1",
     "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "22",
+    "wayOverpriced": "23",
     "overpriced": "29",
-    "fair": "46",
+    "fair": "47",
     "goodValue": "1",
     "greatValue": "1"
   },
   "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Dior Grand Bal"
+    },
     {
       "brand": "BROCARD",
       "name": "Once Upon A Time 1001 Jasmine"
@@ -98,10 +130,6 @@
     {
       "brand": "CHANEL",
       "name": "Gardénia"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dior Grand Bal"
     },
     {
       "brand": "TERRY DE GUNZBURG",
@@ -205,5 +233,6 @@
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "En Passant"
     }
-  ]
+  ],
+  "comments": []
 }

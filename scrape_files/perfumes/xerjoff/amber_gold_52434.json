@@ -37,26 +37,54 @@
     {
       "name": "aromatik",
       "width": "50.0775%"
+    },
+    {
+      "name": "Online satın alın 7 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.99",
-    "votesCount": "137",
+    "score": "3.96",
+    "votesCount": "142",
     "breakdown": {
-      "love": "60",
-      "like": "45",
+      "love": "61",
+      "like": "47",
       "ok": "8",
-      "dislike": "18",
-      "hate": "6"
+      "dislike": "19",
+      "hate": "7"
     }
   },
   "seasons": {
-    "winter": "30",
-    "spring": "30",
-    "summer": "12",
-    "autumn": "34",
-    "day": "30",
-    "night": "29"
+    "winter": "31",
+    "spring": "31",
+    "summer": "13",
+    "autumn": "35",
+    "day": "31",
+    "night": "30"
   },
   "notes": {
     "top": [
@@ -75,37 +103,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "5",
+    "moderate": "7",
+    "longLasting": "36",
+    "eternal": "20"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "7",
+    "strong": "45",
+    "enormous": "18"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "5",
+    "unisex": "33",
+    "moreMale": "4",
+    "male": "7"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "20",
+    "overpriced": "7",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AQUOLİNA",
+      "name": "Pink Sugar Sensual"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Reckless Pour Femme Essence De Parfum"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Love Don't Be Shy"
+    },
+    {
+      "brand": "MASQUE MİLANO",
+      "name": "Tango"
+    },
+    {
+      "brand": "STÉPHANE HUMBERT LUCAS 777",
+      "name": "Venom Incarnat"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Carnal Flower"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     },
     {
       "brand": "XERJOFF",
@@ -158,10 +211,7 @@
     {
       "brand": "XERJOFF",
       "name": "Rose Gold"
-    },
-    {
-      "brand": "XERJOFF",
-      "name": "Alexandria II"
     }
-  ]
+  ],
+  "comments": []
 }

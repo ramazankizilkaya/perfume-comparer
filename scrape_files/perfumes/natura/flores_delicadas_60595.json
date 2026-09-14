@@ -41,6 +41,34 @@
     {
       "name": "taze baharatlı",
       "width": "46.1538%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -75,33 +103,66 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "12",
+    "moderate": "9",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "23",
+    "moderate": "9",
+    "strong": "3",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "17",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "11",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MAHOGANY",
+      "name": "Jardin des Roses"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Lírio"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Floratta Rose Bouquet"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Tommy Girl"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Pink Fresh Couture"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Love Purse Spray"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Due"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kaiak Aventura"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -163,5 +224,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Floratta Amor de Lavanda"
     }
-  ]
+  ],
+  "comments": []
 }

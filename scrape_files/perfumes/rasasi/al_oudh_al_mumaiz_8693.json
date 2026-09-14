@@ -11,11 +11,11 @@
   "description_enhanced": "Rasasi markasının Al Oudh Al Mumaiz parfümü, kadınlar için Oryantal bir kokudur. Üst notalar: Agar ağacı (Oud) ve Çiçeksi Notalar; orta notalar: Değerli Odunlar ve Amber; alt notalar Agar ağacı (Oud), Sandal ağacı, Misk ve Vanilya.",
   "mainAccords": [
     {
-      "name": "ud",
+      "name": "odunsu",
       "width": "100%"
     },
     {
-      "name": "odunsu",
+      "name": "ud",
       "width": "100%"
     },
     {
@@ -39,7 +39,7 @@
       "width": "49.6%"
     },
     {
-      "name": "balsamik",
+      "name": "taze baharatlı",
       "width": "44%"
     },
     {
@@ -47,8 +47,36 @@
       "width": "44%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "balsamik",
       "width": "44%"
+    },
+    {
+      "name": "Online satın alın 31 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,31 +116,31 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "1",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "1",
+    "strong": "3",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -168,5 +196,6 @@
       "brand": "L'ARTİSAN PARFUMEUR",
       "name": "Tea for Two"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -27,11 +27,11 @@
       "width": "77.5002%"
     },
     {
-      "name": "aromatik",
+      "name": "odunsu",
       "width": "74.4999%"
     },
     {
-      "name": "odunsu",
+      "name": "aromatik",
       "width": "74.4999%"
     },
     {
@@ -53,17 +53,17 @@
   ],
   "rating": {
     "score": "4.04",
-    "votesCount": "24",
+    "votesCount": "25",
     "breakdown": {
       "love": "12",
-      "like": "6",
+      "like": "7",
       "ok": "3",
       "dislike": "1",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "6",
+    "winter": "7",
     "spring": "4",
     "summer": "3",
     "autumn": "6",
@@ -86,50 +86,41 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "2",
-    "moderate": "4",
-    "longLasting": "2",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "4",
-    "strong": "3",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "1",
-    "unisex": "4",
-    "moreMale": "3",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "3",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "NAVİTUS PARFUMS",
-      "name": "Emanuel New York"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Iris Ganache"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Reflection Man"
+      "brand": "BYREDO",
+      "name": "Bal d'Afrique"
     },
     {
       "brand": "XERJOFF",
@@ -140,16 +131,16 @@
       "name": "Chance Eau Tendre"
     },
     {
-      "brand": "CHANEL",
-      "name": "Gabrielle"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Alien Man"
+      "brand": "GUERLAİN",
+      "name": "Mademoiselle Guerlain"
     },
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Layton Exclusif"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Gabrielle"
     },
     {
       "brand": "GUERLAİN",
@@ -164,6 +155,14 @@
       "name": "By the Fireplace"
     },
     {
+      "brand": "GUERLAİN",
+      "name": "L'Heure de Nuit"
+    },
+    {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Moon Dance"
+    },
+    {
       "brand": "GUCCİ",
       "name": "Tears Of Iris Eau de Parfum"
     },
@@ -174,14 +173,7 @@
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Delina"
-    },
-    {
-      "brand": "NARCİSO RODRİGUEZ",
-      "name": "Pure Musc For Her"
-    },
-    {
-      "brand": "ESCENTRİC MOLECULES",
-      "name": "Molecule 01"
     }
-  ]
+  ],
+  "comments": []
 }

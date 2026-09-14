@@ -45,6 +45,10 @@
     {
       "name": "misk",
       "width": "45.1666%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -80,97 +84,37 @@
     "base": [
       "Fransız labdanumu",
       "Sedir"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "4",
-    "moderate": "25",
-    "longLasting": "64",
-    "eternal": "45"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "11",
-    "moderate": "25",
-    "strong": "63",
-    "enormous": "46"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "19",
-    "moreMale": "20",
-    "male": "40"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "13",
-    "overpriced": "16",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "16",
-    "goodValue": "5",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Agarwood Collection Inquisitive"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Pioneer"
-    },
-    {
-      "brand": "RALPH LAUREN",
-      "name": "Safari for Men"
-    },
-    {
-      "brand": "SHANGHAİ TANG",
-      "name": "Oriental Pearl"
-    },
-    {
-      "brand": "LACOSTE FRAGRANCES",
-      "name": "Land"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Italian Cypress"
-    },
-    {
-      "brand": "MAC",
-      "name": "MV3"
-    },
-    {
-      "brand": "JEAN-LOUİS SCHERRER",
-      "name": "Jean-Louis Scherrer"
-    },
-    {
-      "brand": "AJMAL",
-      "name": "Verde"
-    },
-    {
-      "brand": "AVON",
-      "name": "Black Suede Touch"
-    },
-    {
-      "brand": "GUY LAROCHE",
-      "name": "Drakkar Noir"
-    },
-    {
-      "brand": "NASOMATTO",
-      "name": "Duro"
-    },
-    {
-      "brand": "STRANGE INVİSİBLE PERFUMES",
-      "name": "Aries"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Beloved Woman"
-    },
-    {
-      "brand": "AURORA BOREALİS",
-      "name": "Царский лес — Tsar's Forest"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "TAUER PERFUMES",
@@ -181,12 +125,12 @@
       "name": "Ambre Sultan"
     },
     {
-      "brand": "L'ARTİSAN PARFUMEUR",
-      "name": "Timbuktu"
-    },
-    {
       "brand": "NASOMATTO",
       "name": "Black Afgano"
+    },
+    {
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Timbuktu"
     },
     {
       "brand": "AMOUAGE",
@@ -232,5 +176,6 @@
       "brand": "HİSTOİRES DE PARFUMS",
       "name": "1740 Marquis de Sade"
     }
-  ]
+  ],
+  "comments": []
 }

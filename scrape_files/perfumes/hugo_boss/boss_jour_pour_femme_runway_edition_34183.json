@@ -32,12 +32,12 @@
     }
   ],
   "rating": {
-    "score": "3.64",
-    "votesCount": "25",
+    "score": "3.62",
+    "votesCount": "26",
     "breakdown": {
       "love": "3",
       "like": "16",
-      "ok": "0",
+      "ok": "1",
       "dislike": "6",
       "hate": "0"
     }
@@ -60,51 +60,34 @@
     ]
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "1",
-    "moderate": "2",
-    "longLasting": "4",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "2",
-    "strong": "7",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "2",
-    "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "wayOverpriced": "",
+    "overpriced": "",
+    "fair": "1",
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "HUGO BOSS",
-      "name": "Boss Jour Pour Femme"
-    },
-    {
-      "brand": "HUGO BOSS",
-      "name": "Boss Woman"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
-    {
-      "brand": "VERSACE",
-      "name": "Bright Crystal"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "Miracle"
-    },
     {
       "brand": "HUGO BOSS",
       "name": "Boss Ma Vie Pour Femme"
@@ -126,8 +109,8 @@
       "name": "Love in Paris"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Armani Code for Women"
+      "brand": "CERRUTİ",
+      "name": "1881"
     },
     {
       "brand": "CACHAREL",
@@ -146,16 +129,25 @@
       "name": "Pure Poison"
     },
     {
-      "brand": "GUCCİ",
-      "name": "Flora by Gucci Gorgeous Gardenia"
+      "brand": "ELİE SAAB",
+      "name": "Le Parfum Eau de Parfum Intense"
     },
     {
-      "brand": "VERSACE",
-      "name": "Crystal Noir"
+      "brand": "LALİQUE",
+      "name": "Amethyst"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     },
     {
       "brand": "GİVENCHY",
       "name": "Ange ou Demon"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Nuit Trésor"
     }
-  ]
+  ],
+  "comments": []
 }

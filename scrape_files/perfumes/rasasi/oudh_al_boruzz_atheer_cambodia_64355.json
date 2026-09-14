@@ -49,13 +49,41 @@
     {
       "name": "metalik",
       "width": "47.9905%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.59",
-    "votesCount": "51",
+    "score": "4.60",
+    "votesCount": "52",
     "breakdown": {
-      "love": "37",
+      "love": "38",
       "like": "9",
       "ok": "3",
       "dislike": "2",
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "29",
-    "spring": "21",
+    "winter": "32",
+    "spring": "22",
     "summer": "10",
-    "autumn": "22",
+    "autumn": "23",
     "day": "17",
-    "night": "23"
+    "night": "24"
   },
   "notes": {
     "top": [
@@ -90,33 +118,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "4",
+    "longLasting": "26",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "4",
+    "strong": "23",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "22",
+    "moreMale": "9",
+    "male": "8"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "7",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Boadicea Nemer"
+    },
+    {
+      "brand": "CHRİSTİAN PROVENZANO PARFUMS",
+      "name": "Oud al Fayed Extrait De Parfum"
+    },
+    {
+      "brand": "CHRİSTİAN PROVENZANO PARFUMS",
+      "name": "Oud Al Fayed"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Khaltat Al Khasa"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Mukhallat Shams"
+    },
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Alseif"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Taif Aoud"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Black Aoud"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Reine de Nuit 2019"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Summer Oud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ABDUL SAMAD AL QURASHİ",
@@ -178,5 +247,6 @@
       "brand": "TOM FORD",
       "name": "Grey Vetiver"
     }
-  ]
+  ],
+  "comments": []
 }

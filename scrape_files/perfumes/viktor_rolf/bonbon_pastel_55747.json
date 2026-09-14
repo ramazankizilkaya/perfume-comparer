@@ -49,6 +49,34 @@
     {
       "name": "misk",
       "width": "46.0305%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,45 +118,82 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "13",
+    "moderate": "27",
+    "longLasting": "8",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "15",
+    "moderate": "27",
+    "strong": "15",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "40",
+    "moreFemale": "3",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "9",
     "fair": "20",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JAFRA",
+      "name": "Sweetie Fantasy"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Bonbon Spring Summer 2018"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Bonbon Spring Summer"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code for Women"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Bonbon"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Sparkling Secret"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Oui La Vie est Belle"
+    },
+    {
+      "brand": "ASİA PERFUMES",
+      "name": "Lumière"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "La Piel Tâmaras Egípcias"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİKTOR&ROLF",
       "name": "Bonbon"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Libre"
-    },
-    {
       "brand": "BY KİLİAN",
       "name": "Love Don't Be Shy"
+    },
+    {
+      "brand": "JUİCY COUTURE",
+      "name": "Viva la Juicy"
     },
     {
       "brand": "DOLCE&GABBANA",
@@ -178,5 +243,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Si"
     }
-  ]
+  ],
+  "comments": []
 }

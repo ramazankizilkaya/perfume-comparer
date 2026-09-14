@@ -45,6 +45,34 @@
     {
       "name": "pudralı",
       "width": "46.6898%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,33 +117,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "2",
+    "moderate": "8",
+    "longLasting": "5",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "8",
+    "strong": "4",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "3",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Biografia Caminhos"
+    },
+    {
+      "brand": "LACOSTE FRAGRANCES",
+      "name": "Eau de Lacoste L.12.12 Eau Fraîche"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Allure Homme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CAROLİNA HERRERA",
@@ -177,5 +218,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Armani Code"
     }
-  ]
+  ],
+  "comments": []
 }

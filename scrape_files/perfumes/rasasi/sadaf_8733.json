@@ -1,7 +1,7 @@
 {
   "name": "Sadaf Rasasi",
   "targetGender": "kadınlar ve erkekler için",
-  "fragranceFamily": "Oriental",
+  "fragranceFamily": null,
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.8733.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Sadaf-8733.html",
@@ -9,7 +9,36 @@
   "description": "Rasasi markasının Sadaf parfümü, kadınlar ve erkekler için Oryantal bir kokudur.",
   "description_original": "Rasasi markasının Sadaf parfümü, kadınlar ve erkekler için Oryantal bir kokudur.",
   "description_enhanced": "Rasasi markasının Sadaf parfümü, kadınlar ve erkekler için Oryantal bir kokudur.",
-  "mainAccords": [],
+  "mainAccords": [
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    }
+  ],
   "rating": {
     "score": "4.78",
     "votesCount": "9",
@@ -36,33 +65,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "1",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "0",
+    "strong": "4",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Diamond"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Rose Nacree du Desert"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -124,5 +162,6 @@
       "brand": "PALOMA PİCASSO",
       "name": "Tentations"
     }
-  ]
+  ],
+  "comments": []
 }

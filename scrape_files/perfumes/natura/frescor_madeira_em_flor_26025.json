@@ -49,26 +49,54 @@
     {
       "name": "taze",
       "width": "51.3673%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "542",
+    "score": "4.07",
+    "votesCount": "549",
     "breakdown": {
-      "love": "188",
-      "like": "253",
-      "ok": "51",
+      "love": "190",
+      "like": "259",
+      "ok": "50",
       "dislike": "47",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "65",
-    "spring": "220",
-    "summer": "193",
-    "autumn": "165",
-    "day": "260",
-    "night": "86"
+    "winter": "67",
+    "spring": "224",
+    "summer": "197",
+    "autumn": "168",
+    "day": "264",
+    "night": "89"
   },
   "notes": {
     "top": [
@@ -88,33 +116,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "42",
+    "weak": "66",
+    "moderate": "127",
+    "longLasting": "20",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "90",
+    "moderate": "127",
+    "strong": "25",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "37",
+    "moreFemale": "30",
+    "unisex": "123",
+    "moreMale": "7",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "51",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "7",
+    "fair": "50",
+    "goodValue": "75",
+    "greatValue": "43"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Floratta in Blue"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK be"
+    },
+    {
+      "brand": "GRANADO",
+      "name": "Carioca"
+    },
+    {
+      "brand": "ÁGUA DE CHEİRO",
+      "name": "Ideale"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Noa"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "214 Musk & Cedro"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Sintonia"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ekos Pedra"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -176,5 +237,6 @@
       "brand": "NATURA",
       "name": "Luna"
     }
-  ]
+  ],
+  "comments": []
 }

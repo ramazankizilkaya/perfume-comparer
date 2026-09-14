@@ -49,15 +49,43 @@
     {
       "name": "pudralı",
       "width": "60.0543%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.49",
-    "votesCount": "172",
+    "votesCount": "174",
     "breakdown": {
       "love": "25",
-      "like": "73",
-      "ok": "47",
+      "like": "74",
+      "ok": "48",
       "dislike": "16",
       "hate": "11"
     }
@@ -65,10 +93,10 @@
   "seasons": {
     "winter": "19",
     "spring": "96",
-    "summer": "117",
+    "summer": "119",
     "autumn": "38",
-    "day": "120",
-    "night": "34"
+    "day": "122",
+    "night": "35"
   },
   "notes": {
     "top": [
@@ -92,14 +120,14 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "15",
+    "veryWeak": "16",
     "weak": "34",
     "moderate": "68",
-    "longLasting": "5",
+    "longLasting": "6",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "52",
+    "intimate": "53",
     "moderate": "68",
     "strong": "1",
     "enormous": "3"
@@ -108,15 +136,15 @@
     "female": "2",
     "moreFemale": "1",
     "unisex": "9",
-    "moreMale": "29",
-    "male": "82"
+    "moreMale": "30",
+    "male": "83"
   },
   "priceVoting": {
     "wayOverpriced": "6",
     "overpriced": "12",
-    "fair": "47",
+    "fair": "48",
     "goodValue": "45",
-    "greatValue": "17"
+    "greatValue": "18"
   },
   "remindsMeOf": [
     {
@@ -133,15 +161,19 @@
     },
     {
       "brand": "AVON",
-      "name": "Musk + > Intense"
-    },
-    {
-      "brand": "AVON",
       "name": "Ironman Extreme"
     },
     {
+      "brand": "AVON",
+      "name": "Musk + > Intense"
+    },
+    {
       "brand": "O BOTİCÁRİO",
-      "name": "Zaad Intense"
+      "name": "Quasar Evolution"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kaiak Oceano"
     },
     {
       "brand": "EUDORA",
@@ -152,32 +184,28 @@
       "name": "Vodka Brasil Blue"
     },
     {
-      "brand": "KENZO",
-      "name": "Kenzo pour Homme"
-    },
-    {
       "brand": "RABANNE",
       "name": "Invictus"
     },
     {
-      "brand": "NATURA",
-      "name": "Kaiak O2"
+      "brand": "O BOTİCÁRİO",
+      "name": "Zaad Intense"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Botica 214 Dark Mint"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Kenzo pour Homme"
     },
     {
       "brand": "O BOTİCÁRİO",
       "name": "Celebre Agora"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Fakhar Black"
-    },
-    {
-      "brand": "ALFA ROMEO PERFUMES",
-      "name": "Blue"
-    },
-    {
       "brand": "NATURA",
-      "name": "Kaiak Oceano"
+      "name": "Kaiak O2"
     }
   ],
   "peopleAlsoLike": [
@@ -191,11 +219,11 @@
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Egeo Blue"
+      "name": "Egeo Spicy Vibe"
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Egeo Spicy Vibe"
+      "name": "Egeo Blue"
     },
     {
       "brand": "NATURA",
@@ -218,16 +246,12 @@
       "name": "Homem Sagaz"
     },
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "The Blend Bourbon"
+      "brand": "NATURA",
+      "name": "Homem Dom"
     },
     {
       "brand": "O BOTİCÁRİO",
       "name": "Malbec Pure Gold"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Homem Dom"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -240,6 +264,11 @@
     {
       "brand": "NATURA",
       "name": "Kaiak Aero"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essencial Único"
     }
-  ]
+  ],
+  "comments": []
 }

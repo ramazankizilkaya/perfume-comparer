@@ -16,59 +16,87 @@
     },
     {
       "name": "amber",
-      "width": "89.0627%"
+      "width": "89.5899%"
     },
     {
       "name": "taze baharatlı",
-      "width": "79.5471%"
+      "width": "79.2873%"
     },
     {
       "name": "deri",
-      "width": "76.7399%"
+      "width": "76.8821%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "74.3883%"
+      "width": "74.2254%"
     },
     {
       "name": "balsamik",
-      "width": "66.0828%"
+      "width": "66.3859%"
     },
     {
       "name": "animalik",
-      "width": "60.8075%"
+      "width": "61.1947%"
     },
     {
       "name": "aromatik",
-      "width": "59.4766%"
+      "width": "59.7049%"
     },
     {
       "name": "pudralı",
-      "width": "51%"
+      "width": "50.9999%"
     },
     {
       "name": "tatlı",
-      "width": "46.4064%"
+      "width": "46.4771%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "666",
+    "score": "4.05",
+    "votesCount": "700",
     "breakdown": {
-      "love": "297",
-      "like": "207",
-      "ok": "89",
-      "dislike": "52",
+      "love": "305",
+      "like": "220",
+      "ok": "99",
+      "dislike": "55",
       "hate": "21"
     }
   },
   "seasons": {
-    "winter": "267",
-    "spring": "83",
-    "summer": "40",
-    "autumn": "273",
-    "day": "156",
-    "night": "216"
+    "winter": "275",
+    "spring": "85",
+    "summer": "42",
+    "autumn": "282",
+    "day": "161",
+    "night": "222"
   },
   "notes": {
     "top": [
@@ -89,33 +117,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "18",
+    "moderate": "97",
+    "longLasting": "140",
+    "eternal": "19"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "20",
+    "moderate": "97",
+    "strong": "80",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "21",
+    "moreFemale": "35",
+    "unisex": "206",
+    "moreMale": "38",
+    "male": "21"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "89",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "42",
+    "overpriced": "108",
+    "fair": "99",
+    "goodValue": "13",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Babycat"
+    },
+    {
+      "brand": "LABORATORİO OLFATTİVO",
+      "name": "Vanagloria"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Eau d'Ombré Leather"
+    },
+    {
+      "brand": "ROSENDO MATEU OLFACTİVE EXPRESSİONS",
+      "name": "Rosendo Mateu Nº 5 Floral, Amber, Sensual Musk"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Babycat Raw Bourbon"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Rifaaqat"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Vanilla Barka"
+    },
+    {
+      "brand": "THE MERCHANT OF VENİCE",
+      "name": "Queen of The Night"
+    },
+    {
+      "brand": "MATİÈRE PREMİÈRE",
+      "name": "Encens Suave"
+    },
+    {
+      "brand": "ANOMALİA PARİS",
+      "name": "Karmacoma"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Verna"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ameer"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Changing Constance Eau de Parfum Intense"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Animalique"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Le Gemme Orom"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -166,16 +255,218 @@
       "name": "Angels' Share"
     },
     {
-      "brand": "LES LİQUİDES IMAGİNAİRES",
-      "name": "Blanche Bête"
-    },
-    {
       "brand": "PENHALİGON'S",
       "name": "Changing Constance"
     },
     {
       "brand": "PENHALİGON'S",
       "name": "The Omniscient Mr Thompson"
+    },
+    {
+      "brand": "CASAMORATİ 1888",
+      "name": "Lira"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent700082",
+      "author": "Penelope*Loves*Perfume",
+      "date": "2025-12-22",
+      "text": "Babycat'e aşık olduktan sonra, o zamanlar Babycat'in sadece satıcılardan iki katı fiyata satıldığı bir dönemde, bu ürünü hiç düşünmeden satın aldım.\nEau de Audacity'nin aslında aynı olduğunu duydum ve yalan söylemeyeceğim, ilginç şişesini ve ismini çok sevdim. Kokuya gelince, Babycat'e benziyor ama Eau de Audacity'yi daha erkeksi buluyorum. Daha az tatlı ve daha az vanilyalı. Cildimde EDA'daki deri daha az keskin ama biraz daha kauçuksu. EDA'daki baharatlar, Babycat'in vanilyasının kuruma aşamasında daha çok ortaya çıkmasına karşılık, kuruduktan sonra daha çok belirginleşiyor. Gerçekten çok benzerler ve ikisine de sahip olmak aptalca olurdu, ancak ben aptalım ve ikisine de sahibim!\n17 yaşındaki oğlum Eau De Audacity'yi kokladı ve ona aşık oldu. Kesinlikle çocuksu bir koku değil ve birçok gencin beğeneceğini sanmıyorum; normalde bir gence bu kadar pahalı bir parfüm vermek aşırıya kaçmak olurdu ama oğlumun genç Mick Jagger tarzına, asi, gitar çalan, vahşi uzun saçlarına ve evet, oldukça cüretkar kişiliğine uyuyor! Bu yüzden oğlumun onu benimsemesine izin verdim!\nİşin komik yanı, EDA'yı duymadan önce çocuklarımla birbirimizi kızdırmak için sıkça kullandığımız bir ifade \"vay canına, ne cüret!\" idi. Bu da kokuyu evimde daha da eğlenceli kılıyor.\nŞahsen ben kendim için Babycat'i tercih ediyorum çünkü o güzel vanilya kokusuna bayılıyorum, ancak EDA da oğlumda kokusunu çok sevdiğim harika bir koku. Bu koleksiyondaki diğer kokuları da denemeyi umuyorum.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2739892.jpg"
+    },
+    {
+      "id": "parent700195",
+      "author": "Christabel",
+      "date": "2025-10-31",
+      "text": "Koku boyunca parıldayan çok hoş oryantal reçineler. Başlangıçta, çoğunlukla biber ve kumarinli ekşi bir tütsü, hiç de tatlı bir \"niş\" aroma değil, ancak benzin-kreozot deri (ki bu da çok fazla değil ve sadece yüksek sesli reçinelerin arka vokallerinde mevcut) sayesinde yavaş yavaş tatlı ve sıcak bir vanilya-amber akoruna dönüşüyor. Hatta sanki tek fiyatına iki parfüm almışsınız gibi bir izlenim bile var ki bu da fena değil çünkü ikisi de ilgi çekici. \"Baş\" kısmındaki aroma o kadar niş ki, neyle karşılaştıracağımı bile söyleyemiyorum; 2-3 saat sürüyor, sonra sahneden ayrılıyor. Ve kalp ve dip notalardaki amber vanilya - bu zaten haklı olarak popüler bir kompozisyon türü, en azından Encens Suave Matiere Premiere veya Babycat YSL'den biliyorum. Bu tütsülü kehribar vanilya kokusu çok uzun süre sizinle kalacak ve bu iyi bir şey çünkü çok rahatlatıcı ve sıcak, aynı zamanda baharatlı ve egzotik. Gerçekten çok beğendim. Parfümlerle ilgili tek soru, bu yeşil kapağı hangi talihsiz tasarımcının tasarladığı, çünkü bu parfümlerde yeşil olan hiçbir şey yok.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ua",
+      "avatar": "https://fimgs.net/mdimg/avatariua/m.8002.jpg"
+    },
+    {
+      "id": "parent700089",
+      "author": "teenspirit",
+      "date": "2025-10-08",
+      "text": "Kesinlikle enfes. Bayıldım. Hem bu parfüme hem de Babycat'e sahibim, ikisi de çok güzel ve ikisi de aynı parfümcü tarafından yaratılmış, ama bence bu daha üstün, gerçi ikisi de muhteşem olduğu için fikrim güne göre değişiyor. Bu parfüm çok uzun süre kalıcı ve inanılmaz derecede lezzetli, kremsi, seksi ve incelikli; bazen içinde lastik gibi kauçuksu bir koku alıyorum ki bu hoşuma gidiyor, Babycat'te ise bu koku yok.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.399943.jpg"
+    },
+    {
+      "id": "parent700150",
+      "author": "TatianaM",
+      "date": "2025-10-04",
+      "text": "İlk notalardan itibaren kokunun yanmış şeker ve hafif tıbbi bir acılık içeren limonataya benzediğini düşündüm. Zaten o kokuyu içmek için canım çekiyordu, ama koku tamamen farklı çıktı...\n\nKoku cilde yerleştikçe, kendini tamamen yeni bir şekilde gösterdi: Sıcak vanilya ön plana çıktı, tütsü, reçineler ve safranın metalik ışıltısıyla sarılmıştı. Gerçekten alışılmadık bir kombinasyon; sanki tütsü vanilyayı nazikçe kucaklıyor, ona gizemli ve biraz da sert bir nitelik kazandırıyor. Zamanla, kokuya kehribar ve deri notaları eklendi, bu da ona derinlik ama yumuşaklık kattı.\n\nEau de Audacity, detaylarla dolu değil, ilgi çekici ama aynı zamanda sade bir tınıya sahip ve muhtemelen bu da onu bu kadar çekici kılıyor 🥰",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.401870.jpg"
+    },
+    {
+      "id": "parent700148",
+      "author": "kak_kozinac",
+      "date": "2025-07-23",
+      "text": "Sanki dünyanın tüm domateslerini alacakmışım gibi hissediyorum ama açılışı Kilian'ın Princess'ine çok benziyor. Neredeyse aynılar, ten kokusunu alamıyorum ve burnum da çok gelişmiş değil. Basit bir koku, güzel bir vanilya, hafif. Dip notalarını beğendim. Kalıcı; beş saattir bileğimde ve solma belirtisi göstermiyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent700093",
+      "author": "Maymouna",
+      "date": "2025-02-04",
+      "text": "Babycat, Eau de Audacity ve Vanagloria (Laboratorio Olfattivo) arasında benim için Vanagloria kazanıyor!\nBana göre Audacity'nin vanilyası daha çok tereyağı ve patlamış mısır gibi kokuyor, bu da sorun değil ama bu parfümde istediğim koku bu değil. Babycat ise hem Audacity hem de Vangloria'ya göre daha tütsülü/biberli ve daha az tatlı.\nÜçünden de Vangloria'nın tam şişesini alırdım - diğer ikisine göre tütsü ve tatlılık dengesi daha iyi ama yine de tercih ettiğim kokuya ulaşmak için muhtemelen başka bir vanilya kokusuyla birlikte kullanırdım :-)",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.990196.jpg"
+    },
+    {
+      "id": "parent700174",
+      "author": "Sellig",
+      "date": "2025-01-23",
+      "text": "Ropion, Babycat tarifini çekmecesinden çıkardı, YSL'nin reddetmiş olabileceği bir varyasyonla, ve Penhaligon's'da uyguladı. İki koku gerçekten birbirine çok benziyor. Babycat'i beğenmeyenlerin bunu tercih ettiğini okudum çünkü daha az deri ve biber içeriyor. Şahsen, bu benim için daha zor çünkü tütsüsü daha dini bir havaya sahip. Doğru adı Eau The Audacity (de değil), sunumundan özüne kadar İngiliz soğukkanlılığını ifade ediyor. Ait olduğu Potions & Remedies serisinin şişelerini gerçekten çok beğeniyorum. Adı, onu giymeye cesaret etmek için bir meydan okuma, çünkü gerçekten de birçok insanın zorlandığı bir profil. Cesur mu? Pek sayılmaz, özellikle de ikinci sırada (ve Ropion, Babycat'ten önce Vanagloria ile başladığı için üçüncü sırada) geldiği için. Babycat'in sahip olduğu o yoğun seksi unsurdan yoksun buluyorum, ancak bazı insanlara daha uygun olabilir. YSL'ye benzer bir performansa sahip, ki bu da çok iyi. Gülün belirginliği çok yok ama kompozisyona incelikli bir unsur katıyor. Ayrıca açılışta barut gibi hafif dumanlı bir kokuya sahip.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.gr",
+      "avatar": "https://fimgs.net/mdimg/avatarigr/m.28754.jpg"
+    },
+    {
+      "id": "parent700133",
+      "author": "frandico",
+      "date": "2024-10-18",
+      "text": "Bu koku beni oldukça etkiledi; açılışta şekerli ve ilgi çekici bir koku profili sergiliyor, özellikle ilk anda burnumda tıbbi, şuruplu notalar algılıyorum.\n\nZaman geçtikçe, aşırı gösterişten kaçınarak, kremsi ve ustaca dengelenmiş bir vanilya ortaya çıkar. Odunsu ve misk notaları kompozisyona bir temizlik hissi vererek onu sofistike ve rafine kılar. Balsamik ve aromatik nüanslar, büyüleyici elemi ve tütsüsüyle rahatlık ve zarafet dokunuşu ekleyerek koku deneyimini daha da zenginleştirir.\n\nFerahlık ve sıcaklık arasındaki uyum, bu parfümü çok yönlü, birçok duruma uygun ve kesinlikle unisex kılıyor. Olağanüstü kalıcılığıyla, koku uzun süre ciltte kalıyor ve gün boyunca yavaşça gelişiyor. 10/10",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.88546.jpg"
+    },
+    {
+      "id": "parent700079",
+      "author": "HunnyBunny2204",
+      "date": "2024-10-09",
+      "text": "Evet!\n\nBu kokuyu koleksiyonumda bulundurmaktan çok mutluyum. Gerçekten harika bir koku.\n\nDominique Ropion, çok benzer koku profillerine sahip birkaç versiyon daha çıkardı (YSL Babycat, Vanagloria). Hepsini seviyorum ama bu benim favorim.\n\nBunların arasında Eau de Audacity bana en iyi harmanlanmış ve daha az keskin gelen koku. Bunda kauçuk kokusu yok. Daha tatlı ve daha kadınsı bir koku. Lezzetli ve rahatlatıcı. Açılışta çok hoş olan hafif yeşilimsi, gazlı bir notası var.\n\nKalıcılığı Babycat'e göre daha kısa ve o kadar vahşi bir koku yaymıyor. Bu da onu çok daha kullanışlı kılıyor.\n\nŞişenin güzelliğine de bayıldım. Çok özgün. Tüm iyi \"iksirler\" gibi bu da mucizevi etki gösteriyor 😉",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1686607.jpg"
+    },
+    {
+      "id": "parent700106",
+      "author": "Antiope",
+      "date": "2024-07-28",
+      "text": "Eau de Audacity mi yoksa Eau THE Audacity mi?\nGerçekten iki farklı tür mü var?\n\nBilinç bulanıklığı, konfüzyon:\nPenhaligon's'ta \"Eau DE Audacity\" bulamıyorum; ama \"Tea Scent\"i bulabiliyorum!\n\nAncak Eau THE Audacity kesinlikle bir çay kokusu değil.\nYoğun vanilya kokulu reçineler ve ambergris neredeyse bunaltıcı, bu yüzden maalesef \"baştan çıkarıcı bir koku\" demek imkansız. Gerçekten yazık, çünkü karışım kesinlikle hem rahatlatıcı hem de keyif verici olma potansiyeline sahip – eğer üçte ikisi daha hafif olsaydı! O zaman, hoş reçineler ve kokulu çiçeklerin eşlik ettiği, vanilya-kremsi bir tütsü ve deri bulutu olurdu. Ama şu haliyle, güçlü varlığı ve kalıcı yoğunluğuyla, büyüleyici ve dokunaklı olmaktan çok bunaltıcı ve rahatsız edici.\n\nİki kez kısa süreliğine püskürttüm.\nBelki yarın tekrar denemeliyim; sadece bir fısla veya birkaç dikkatli damlayla. Belki de anahtar bu olur... pardon, yani meselenin özü bu olur!\n\n___________________\n\nParfüm isminde olası bir düzeltme yapılması konusunda sistem yöneticilerini bilgilendirdim.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.de",
+      "avatar": "https://fimgs.net/mdimg/avataride/m.7250.jpg"
+    },
+    {
+      "id": "parent700077",
+      "author": "Kentington",
+      "date": "2024-07-11",
+      "text": "Babycat göndermesini hemen anladım ama Eau the Audacity'yi daha çok beğendim. Babycat daha çekingen ve mesafeli, Eau the Audacity ise daha iyi bir mizah anlayışına sahipmiş gibi bir ışıltıya sahip. Ayrıca şişesi *MUHTEŞEM*. Koleksiyonumdaki en güzel sunumlardan biri.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.923182.jpg"
+    },
+    {
+      "id": "parent700084",
+      "author": "la belle noiseuse",
+      "date": "2024-05-30",
+      "text": "Parfümün adı açıkça \"eau the audacity\" (Cesaret Eau'su) ve belki de ben aptalım ama bunun \"OH! Ne cüret!\" (Vay canına!) ifadesinin bir kelime oyunu olduğunu düşündüm, bu da cesaret ve utangaçlık hakkındaki pazarlama hikayesini açıklayabilir mi acaba?\n\nNeden sürekli \"eau de audacity\" diye adlandırıyoruz ki, bu hem şakayı bozuyor hem de şirket bu parfüme böyle bir isim vermemiş.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.768622.jpg"
+    },
+    {
+      "id": "parent700127",
+      "author": "JD1979",
+      "date": "2024-05-04",
+      "text": "Bu üründeki tütsü bana Castle Witch'in alacakaranlık tütsüsünü hatırlatıyor. İncelememde de belirttiğim gibi, katmanlama için de mükemmel.\n\nBu koku, gökyüzüne pastel gri-mavi-pembe tonlar yansıtan su damlacıklarıyla bezenmiş bir suluboya resmi gibidir. Bir zamanlar Londra aristokrasisinin termal banyoları için uğradığı İngiltere'deki Bath şehri olabilir. İngiliz kırsalının yemyeşil doğasının içine yerleşmiş, mükemmel Gürcü mimarisiyle karakterize edilen, büyüleyici bir ortam.\nİçimde bir seyahat tutkusu var ve bolca seyahat etme şansına sahip oldum. Her zaman olmasa da bazen, bazı kokular bana ziyaret ettiğim yerleri, tıpkı onları algıladığım gibi hatırlatıyor. Bu yüzden bazen onları incelemelerime dahil ediyorum.\n\nBath'taki atmosfer, ince bir kağıda çizilmiş sulu boya resmi kadar nüanslı ve bana parfümü hatırlatıyor; çünkü vanilya (gurme olmayan) ve tütsü dışında, koku notaları kaybolmuş durumda.\nHer şeyin sulandırılmış halini hissediyorum.\nAncak bende koku kalıcı, zarif ve vanilya notası uzun süre damakta kalıyor.\n\nHint esintili bazı modern bestelerde etkileyici, bazen de hoş olan baharatlı kısmı fark etmiyorum; ancak deneyimlerime göre bu tür besteler bana nadiren Hindistan'ı hatırlatıyor.\n\nHayvansal kokular hayır, metalik kokular ise tütsü için evet.\nAromatik değil, sadece biraz pudralı, balzamik veya amberli değil, sadece biraz ferah. Bu benim burnuma göre. Açılışı çok iyi hatırlamıyorum ama oldukça hızlı bir şekilde geliştikçe bu akorları algılayamıyorum.\n\nParfüm pahalıdır. Beğeniyorsanız ve karşılayabiliyorsanız, ne ala. Beğeniyorsanız ama karşılayamıyorsanız, Strega tütsüsü ve uygun bir vanilya ile aynı olmayan ama \"alternatif\" bir sonuç elde edebileceğinizi düşünüyorum; belki de diğer notalarla denemeler yapılabilir (belki de bu noktada Eau d'Audacity'de mevcut olan ve kalıcı olan deri derinliği eksik kalır).\n\nBu koleksiyondaki diğer tüm şişeler gibi, bu şişeyi de gerçekten çok güzel buluyorum.\n\nSonuç olarak, Audacity tam olarak uygun bir seçim değil. Daha çok şiirsel bir melankoli görürdüm. Bath'ın güneş ışığı almadığı zamanlarda yaşadığı türden bir melankoli.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.85960.jpg"
+    },
+    {
+      "id": "parent700163",
+      "author": "tia",
+      "date": "2024-03-11",
+      "text": "İşte tam benim tarzım. Bu parfümü, hit olan Babycat'i (?) yaratan aynı parfümcü yapmış. Kompozisyon tatlı, dumanlı ve derin; kompozisyonda olmamasına rağmen, akan, sıcak karameli kelimenin tam anlamıyla hissedebiliyorsunuz. Belki de siyah vanilya çekirdekleri ve hafif tozlu deri veya kilise sıralarından kaynaklanıyor. O kadar güzel ki, daha iyi bir vanilya aramama gerek yok. Portakal çiçeği ve gül her şeyi oldukça tatlandırıyor. Ama burada asıl karakter, deri cekete sürülmüş ve bolca olibanum ile tütsülenmiş siyah vanilya çekirdekleri. Diğer elimde ise Navitus Vanilla Vice sıkıyorum. Evet, benzerler. Navitus daha uçucu ve tatlı. Ancak Audacity daha derin, daha güçlü ve daha yoğun. Bu yılki en iyi alışverişlerimden biri. Vanilya severler için olmazsa olmaz.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.1845.jpg"
+    },
+    {
+      "id": "parent700091",
+      "author": "dcjimr",
+      "date": "2023-10-25",
+      "text": "Aşağıdaki yorumcuya teşekkürler. Bu kokunun tanıdık bir şeye benzediğini biliyordum ama aklıma gelmiyordu. Babycat'e çok benziyor! Hatta YSL'nin tam şişesini bulamadığım için bunu bile alabilirim diyebilirim. 😄\nGüncelleme: Şişeyi az önce teslim aldım ve şimdi çok sık kullanıyorum. Kalıcılığı maalesef en iyi değil, ama çok güzel.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1186069.jpg"
+    },
+    {
+      "id": "parent700117",
+      "author": "Elixir26",
+      "date": "2023-09-17",
+      "text": "Şişelerin tasarımı muhteşem, ancak koleksiyondaki tüm kokulara gelince, hepsi daha önce yapılmış, kopyala yapıştır. Bu en yoğun olanı; bol baharat ve tatlı notalarla kesinlikle muhteşem kokuyor. Babycat ve Vanagloria ile neredeyse aynı.\n\nRendelenmiş hindistan cevizi ve hafif tatlı vanilya içeren bir tatlıyı andırıyor. Ancak birkaç saat sonra koku akçaağaç şurubuna daha çok benziyor. Kalıcılığına gelince, diğerlerine kıyasla gerçekten mükemmel.\n\nİçeriklerin kalitesi mükemmel, bundan eminim. Çok hoş bir koku.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.21463.jpg"
+    },
+    {
+      "id": "parent700129",
+      "author": "Il drago verde",
+      "date": "2023-09-14",
+      "text": "Eau de Audacity'nin ilk fısfısından itibaren, markanın bir diğer favori parfümü olan \"The World According to Arthur\"ı güçlü bir şekilde hatırladım. Gerçekten de, hala tütsüyle harmanlanmış bir vanilyadan bahsediyoruz, ancak Arthur'da tütsü açılıştaki greyfurt ve kalpteki adaçayı ile daha ferah hale getirilirken, burada vanilya deriyle kaplanmış ve koyulaşmış. Kesinlikle mükemmel bir parfüm ve \"Potions and Remedies\" koleksiyonunun konseptini çok seviyorum, ancak özellikle orijinal değil ve bahsedilen ikisinden Arthur benim mutlak favorim olmaya devam ediyor. Çok iyi kalıcılığa sahip, kolayca 9 saatten fazla sürüyor ve Penhaligh'in her zaman olduğu gibi, (benim için) orta düzeyde olan zarif bir yayılımı var.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.66810.jpg"
+    },
+    {
+      "id": "parent700087",
+      "author": "Divinest",
+      "date": "2023-08-28",
+      "text": "Babycat'ten açıkça esinlenilmiş. Gurme/kurabiye tonlarıyla açılıyor. Koku, hafif deri notalarıyla tatlı-dumanlı bir şekilde kuruyor. Bence karışım zamanla çok iyi dengeleniyor, sadece ilk 10-15 dakika boyunca sert hissediliyor? Özellikle ilk püskürtmede yakından kokladığınızda. Performans/karışım/fiyatlandırma iyi, ancak özgünlük kesinlikle yok (ve bu koleksiyondaki 5 parfümün hiçbirinde özgünlük yok diyebilirim). Ama eğer dumanlı vanilya arıyorsanız, buna bir göz atmaya değer. Bence biraz kadınsı bir koku.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1362658.jpg"
+    },
+    {
+      "id": "parent725351",
+      "author": "fourleafedrover8",
+      "date": "2023-08-25",
+      "text": "Merhaba, vanilyalı Noel ağacı. Kuruduktan sonra tamamen vanilya kokusu geliyor, burnum bu kokuyu daha fazla anlamaya yetecek kadar gelişmiş değil çünkü ÇOK belirgin. Kesinlikle unisex bir koku, ilk başta \"vay, bu güzel!\" dedim, sonra da \"Noel mumu gibi kokuyorum.\" dedim. Bu seri aşırı pahalı! Bu serinin daha hafif bir yayılımı için bu fiyatı nasıl belirlediklerine inanamıyorum. Aman Tanrım!",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1762926.jpg"
+    },
+    {
+      "id": "parent700145",
+      "author": "Wooster",
+      "date": "2023-08-23",
+      "text": "Serinin tamamını denedim. İlginç bir şey bulamadım. Tüm kokular tamamen sıradandı, basit şampuan kokularıyla aynı seviyedeydi. Bu koku ise Ganymede'ye benzemeye başlayınca dikkat çekti; donuk, mineral bir koku.\nDiğer parfümler de aynı derecede modern ve sentetik; hiçbir doğal içerik ithal edilmemiş. Bunlarla karşılaştırıldığında, yakın zamanda piyasaya sürülen ıhlamur temalı Highgrove Bouquet, bir başyapıt ve markanın köklerine dönüş gibi görünüyordu. Bu yeni çıkan parfümler, Portrait serisinden bile daha düşük kalitede.\nŞişeler biraz hantal görünüyordu, ancak akılda kalıcıydılar. Yüzde 30 daha küçük olsalardı daha şık olabilirlerdi, ama aksi takdirde başarısız oldular.\nPenhaligon's'ta artık alışılageldiği üzere, parfümlerin kendisinden çok şişelere daha fazla ilgi gösterildi.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.49328.gif"
     }
   ]
 }

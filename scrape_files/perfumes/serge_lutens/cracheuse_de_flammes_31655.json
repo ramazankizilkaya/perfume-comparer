@@ -9,7 +9,36 @@
   "description": "Serge Lutens markasının Cracheuse de Flammes parfümü, kadınlar ve erkekler için bir kokudur. Cracheuse de Flammes, 2015 yılında piyasaya sürüldü.",
   "description_original": "Serge Lutens markasının Cracheuse de Flammes parfümü, kadınlar ve erkekler için bir kokudur. Cracheuse de Flammes, 2015 yılında piyasaya sürüldü.",
   "description_enhanced": "Serge Lutens markasının Cracheuse de Flammes parfümü, kadınlar ve erkekler için bir kokudur. Cracheuse de Flammes, 2015 yılında piyasaya sürüldü.",
-  "mainAccords": [],
+  "mainAccords": [
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    }
+  ],
   "rating": {
     "score": "4.03",
     "votesCount": "105",
@@ -36,33 +65,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "6",
+    "moderate": "11",
+    "longLasting": "20",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "11",
+    "strong": "14",
+    "enormous": "19"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "5",
+    "unisex": "7",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "6",
+    "overpriced": "3",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Cracheuse de flammes"
+    },
+    {
+      "brand": "HOUSE OF SİLLAGE",
+      "name": "Chevaux d'Or"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "La Fille de Berlin"
+    },
+    {
+      "brand": "GOUTAL",
+      "name": "Ce Soir Ou Jamais"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Vitriol d’œillet"
+    },
+    {
+      "brand": "CARON",
+      "name": "La Selection Parfum Sacre"
+    },
+    {
+      "brand": "VİA FRANÇOİS",
+      "name": "Or et Flamme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -90,19 +148,15 @@
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "Ambre Sultan"
+      "name": "Santal Majuscule"
     },
     {
       "brand": "SERGE LUTENS",
-      "name": "Santal Majuscule"
+      "name": "Ambre Sultan"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Portrait of a Lady"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "L'Eau d'Hiver"
     },
     {
       "brand": "TOM FORD",
@@ -118,11 +172,16 @@
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Musc Ravageur"
+      "name": "L'Eau d'Hiver"
     },
     {
       "brand": "SERGE LUTENS",
       "name": "Sidi Bel-Abbès"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Musc Ravageur"
     }
-  ]
+  ],
+  "comments": []
 }

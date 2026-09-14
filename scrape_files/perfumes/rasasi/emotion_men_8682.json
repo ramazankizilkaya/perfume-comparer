@@ -49,6 +49,34 @@
     {
       "name": "narenciye",
       "width": "69.1074%"
+    },
+    {
+      "name": "Online satın alın 15 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -91,33 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "5",
+    "moderate": "23",
+    "longLasting": "19",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "23",
+    "strong": "19",
+    "enormous": "13"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "6",
+    "male": "15"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "12"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code Ultimate"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Derby Club House"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Sexy Men"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Individuel"
+    },
+    {
+      "brand": "JOOP!",
+      "name": "Joop! Homme"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Mâle Eau Fraîche André Edition"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "9pm"
+    },
+    {
+      "brand": "LOMANİ",
+      "name": "AB Spirit"
+    },
+    {
+      "brand": "LE BONHEUR PERFUMES",
+      "name": "Black Cavalier VI"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Confidence"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Royale Blue"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Ambre Nuit"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Oudh Al Misk"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Popeye Eau Fraiche"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CALVİN KLEİN",
@@ -140,6 +229,10 @@
       "name": "Le Male"
     },
     {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One Shock For Him"
+    },
+    {
       "brand": "TED LAPİDUS",
       "name": "Lapidus Pour Homme"
     },
@@ -156,10 +249,6 @@
       "name": "Sauvage"
     },
     {
-      "brand": "CHANEL",
-      "name": "Bleu de Chanel"
-    },
-    {
       "brand": "CARON",
       "name": "Pour Un Homme de Caron"
     },
@@ -172,12 +261,13 @@
       "name": "La Nuit de l'Homme"
     },
     {
-      "brand": "VERSACE",
-      "name": "Eros"
+      "brand": "BVLGARİ",
+      "name": "Bvlgari Man In Black"
     },
     {
       "brand": "VERSACE",
       "name": "Versace Pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

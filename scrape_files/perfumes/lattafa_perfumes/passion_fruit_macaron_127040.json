@@ -27,11 +27,11 @@
       "width": "80.0771%"
     },
     {
-      "name": "badem",
+      "name": "amber",
       "width": "73.0768%"
     },
     {
-      "name": "amber",
+      "name": "badem",
       "width": "73.0768%"
     },
     {
@@ -41,26 +41,54 @@
     {
       "name": "fındıksı",
       "width": "55.8461%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.12",
-    "votesCount": "33",
+    "score": "4.10",
+    "votesCount": "42",
     "breakdown": {
-      "love": "12",
-      "like": "16",
+      "love": "15",
+      "like": "21",
       "ok": "2",
       "dislike": "3",
-      "hate": "0"
+      "hate": "1"
     }
   },
   "seasons": {
-    "winter": "4",
-    "spring": "17",
-    "summer": "16",
-    "autumn": "4",
-    "day": "18",
-    "night": "3"
+    "winter": "5",
+    "spring": "19",
+    "summer": "18",
+    "autumn": "6",
+    "day": "21",
+    "night": "4"
   },
   "notes": {
     "top": [
@@ -77,33 +105,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "9",
+    "longLasting": "3",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "9",
+    "strong": "2",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "12",
+    "moreFemale": "6",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "13"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ana Abiyedh Passion"
+    },
+    {
+      "brand": "THEODOROS KALOTİNİS",
+      "name": "Peach Macaron"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Coco Peach"
+    },
+    {
+      "brand": "HAMİDİ",
+      "name": "Fondue Tropical Mango"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -126,16 +171,16 @@
       "name": "The Kingdom For Women"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara Elixir"
+    },
+    {
       "brand": "RAVE",
       "name": "Now Women"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara Candy"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Yara Elixir"
     },
     {
       "brand": "PARIS CORNER",
@@ -155,15 +200,16 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah"
+      "name": "Ana Abiyedh Coral"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Ana Abiyedh Coral"
+      "name": "Khamrah"
     },
     {
       "brand": "PARIS CORNER",
       "name": "Khair Pistachio"
     }
-  ]
+  ],
+  "comments": []
 }

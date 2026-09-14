@@ -37,6 +37,34 @@
     {
       "name": "aromatik",
       "width": "47.0139%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -52,10 +80,10 @@
   },
   "seasons": {
     "winter": "10",
-    "spring": "86",
-    "summer": "149",
-    "autumn": "22",
-    "day": "150",
+    "spring": "87",
+    "summer": "150",
+    "autumn": "23",
+    "day": "151",
     "night": "11"
   },
   "notes": {
@@ -70,33 +98,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "14",
+    "weak": "32",
+    "moderate": "42",
+    "longLasting": "3",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "43",
+    "moderate": "42",
+    "strong": "14",
+    "enormous": "13"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "17",
+    "moreFemale": "19",
+    "unisex": "15",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "2",
     "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "14",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NİSHANE",
+      "name": "Wulóng Chá"
+    },
+    {
+      "brand": "FRAGONARD",
+      "name": "Jasmin Perle de Thé"
+    },
+    {
+      "brand": "CAUDALİE",
+      "name": "Zeste de Vigne"
+    },
+    {
+      "brand": "FRAGONARD",
+      "name": "Eau des Vacances"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "Green Tea Yuzu"
+    },
+    {
+      "brand": "ROGER & GALLET",
+      "name": "Thé Fantaisie"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "White Tea Ginger Lily"
+    },
+    {
+      "brand": "CAUDALİE",
+      "name": "Fleur de Vigne"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "Green Tea"
+    },
+    {
+      "brand": "TEO CABANEL",
+      "name": "Hegoa"
+    },
+    {
+      "brand": "DEMETER FRAGRANCE",
+      "name": "Gingerale"
+    },
+    {
+      "brand": "AVON",
+      "name": "Scent Mix Fizzy Green Tea"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "The Vert & Bigarade"
+    },
+    {
+      "brand": "M. ASAM",
+      "name": "No.1"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Eau Svelte"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ELİZABETH ARDEN",
@@ -117,10 +206,6 @@
     {
       "brand": "DİOR",
       "name": "J'adore"
-    },
-    {
-      "brand": "CACHAREL",
-      "name": "Anais Anais"
     },
     {
       "brand": "LANCÔME",
@@ -157,6 +242,11 @@
     {
       "brand": "GUERLAİN",
       "name": "Shalimar Eau de Parfum"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Classique"
     }
-  ]
+  ],
+  "comments": []
 }

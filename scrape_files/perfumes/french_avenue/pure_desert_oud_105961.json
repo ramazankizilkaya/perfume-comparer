@@ -36,23 +36,23 @@
     }
   ],
   "rating": {
-    "score": "4.23",
-    "votesCount": "13",
+    "score": "4.42",
+    "votesCount": "12",
     "breakdown": {
       "love": "6",
       "like": "5",
       "ok": "1",
-      "dislike": "1",
+      "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "8",
+    "winter": "7",
     "spring": "1",
     "summer": "0",
-    "autumn": "7",
+    "autumn": "6",
     "day": "1",
-    "night": "7"
+    "night": "6"
   },
   "notes": {
     "top": [
@@ -68,47 +68,34 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "4",
-    "longLasting": "5",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "4",
-    "strong": "2",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "3",
-    "moreMale": "2",
-    "male": "2"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "1",
-    "greatValue": "6"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Velvet Desert Oud"
-    },
-    {
-      "brand": "AHMED AL MAGHRİBİ",
-      "name": "Summer Oud"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
-    {
-      "brand": "AFNAN",
-      "name": "Supremacy Incense"
-    },
     {
       "brand": "ARD AL ZAAFARAN",
       "name": "Midnight Oud"
@@ -120,6 +107,10 @@
     {
       "brand": "MERCEDES-BENZ",
       "name": "Mercedes Benz Club Black Eau de Toilette"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Bottled Absolu"
     },
     {
       "brand": "HUGO BOSS",
@@ -142,10 +133,6 @@
       "name": "The Most Wanted"
     },
     {
-      "brand": "NİSHANE",
-      "name": "Ani"
-    },
-    {
       "brand": "AFNAN",
       "name": "Turathi Blue"
     },
@@ -164,6 +151,11 @@
     {
       "brand": "MAİSON ALHAMBRA",
       "name": "Afro Leather"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Intense Man"
     }
-  ]
+  ],
+  "comments": []
 }

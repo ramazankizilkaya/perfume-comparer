@@ -49,6 +49,34 @@
     {
       "name": "gül",
       "width": "59.75%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -93,33 +121,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "13",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "13",
+    "strong": "5",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "1",
+    "unisex": "6",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Banho de Lavanda"
+    },
+    {
+      "brand": "AVATİM",
+      "name": "Águas Naturais Relaxamento"
+    },
+    {
+      "brand": "AVON",
+      "name": "Pretty Blue"
+    },
+    {
+      "brand": "PHEBO",
+      "name": "Flor de Lavanda"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Thaty"
+    },
+    {
+      "brand": "BE. COLONİAS",
+      "name": "Be. Amarelo"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Junie"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -181,5 +238,6 @@
       "brand": "NATURA",
       "name": "Una Senses"
     }
-  ]
+  ],
+  "comments": []
 }

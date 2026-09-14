@@ -49,14 +49,42 @@
     {
       "name": "sulu",
       "width": "44.4598%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.66",
     "votesCount": "521",
     "breakdown": {
-      "love": "117",
-      "like": "246",
+      "love": "118",
+      "like": "245",
       "ok": "25",
       "dislike": "128",
       "hate": "5"
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "14",
+    "weak": "25",
+    "moderate": "70",
+    "longLasting": "24",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "39",
+    "moderate": "70",
+    "strong": "31",
+    "enormous": "22"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "43",
+    "moreFemale": "12",
+    "unisex": "6",
+    "moreMale": "1",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "11",
     "fair": "25",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "9",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MARC JACOBS",
+      "name": "Marc Jacobs"
+    },
+    {
+      "brand": "MİCHAEL KORS",
+      "name": "Very Hollywood"
+    },
+    {
+      "brand": "PACİFİCA",
+      "name": "Tahitian Gardenia"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Marc Jacobs Splash Gardenia"
+    },
+    {
+      "brand": "TOCCA",
+      "name": "Simone"
+    },
+    {
+      "brand": "MİCHAEL KORS",
+      "name": "Michael Kors White"
+    },
+    {
+      "brand": "CHRİSTİAN LOUBOUTİN",
+      "name": "Loubikiss"
+    },
+    {
+      "brand": "MİCHAEL KORS",
+      "name": "Michael"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Bloom"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Wild Bluebell"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Omnia by Mary Katrantzou"
+    },
+    {
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Nuit de Tubereuse"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Classique X Jewel Edition 2011"
+    },
+    {
+      "brand": "GRANADO",
+      "name": "Madrepérola"
+    },
+    {
+      "brand": "BADGLEY MİSCHKA",
+      "name": "Fleurs de Nuit"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -178,5 +267,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

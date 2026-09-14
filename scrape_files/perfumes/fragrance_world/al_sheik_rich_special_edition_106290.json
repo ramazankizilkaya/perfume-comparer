@@ -23,10 +23,6 @@
       "width": "56.7901%"
     },
     {
-      "name": "yosunlu",
-      "width": "55.9259%"
-    },
-    {
       "name": "beyaz çiçeksi",
       "width": "55.9259%"
     },
@@ -35,11 +31,15 @@
       "width": "55.9259%"
     },
     {
-      "name": "amber",
+      "name": "yosunlu",
       "width": "55.9259%"
     },
     {
       "name": "deri",
+      "width": "55.9259%"
+    },
+    {
+      "name": "amber",
       "width": "55.9259%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "taze",
       "width": "53.3333%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -108,8 +136,8 @@
     "female": "0",
     "moreFemale": "0",
     "unisex": "0",
-    "moreMale": "0",
-    "male": "2"
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
     "wayOverpriced": "0",
@@ -132,5 +160,6 @@
       "name": "Catch De Noire"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

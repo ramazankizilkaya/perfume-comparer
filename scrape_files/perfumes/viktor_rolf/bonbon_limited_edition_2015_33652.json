@@ -41,6 +41,34 @@
     {
       "name": "pudralı",
       "width": "64.7083%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,33 +110,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "2",
+    "longLasting": "3",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "2",
+    "strong": "7",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Bonbon"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Bonbon Holiday Limited Edition 2017"
+    },
+    {
+      "brand": "MİRO",
+      "name": "Miro Jubilee"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Bonbon Swarovski Edition"
+    },
+    {
+      "brand": "JUİCY COUTURE",
+      "name": "Viva la Juicy"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİKTOR&ROLF",
@@ -151,12 +200,12 @@
       "name": "Poison Girl"
     },
     {
-      "brand": "PRADA",
-      "name": "Prada Candy"
+      "brand": "DİOR",
+      "name": "J'adore"
     },
     {
-      "brand": "GUCCİ",
-      "name": "Gucci Guilty"
+      "brand": "PRADA",
+      "name": "Prada Candy"
     },
     {
       "brand": "VİKTOR&ROLF",
@@ -170,5 +219,6 @@
       "brand": "BRİTNEY SPEARS",
       "name": "Midnight Fantasy"
     }
-  ]
+  ],
+  "comments": []
 }

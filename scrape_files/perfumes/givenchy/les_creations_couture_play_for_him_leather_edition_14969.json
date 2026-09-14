@@ -85,46 +85,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "5",
-    "longLasting": "33",
-    "eternal": "13"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "5",
-    "strong": "32",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "1",
-    "male": "4"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "6",
-    "overpriced": "3",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "3",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GİVENCHY",
-      "name": "Givenchy Play Eau de Toilette"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Fahrenheit"
-    },
-    {
-      "brand": "PRADA",
-      "name": "Prada"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "MUGLER",
@@ -186,5 +173,6 @@
       "brand": "DİOR",
       "name": "Dior Homme 2005"
     }
-  ]
+  ],
+  "comments": []
 }

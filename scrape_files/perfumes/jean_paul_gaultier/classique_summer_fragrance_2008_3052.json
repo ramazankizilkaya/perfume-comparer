@@ -65,7 +65,7 @@
   "seasons": {
     "winter": "5",
     "spring": "14",
-    "summer": "40",
+    "summer": "42",
     "autumn": "6",
     "day": "28",
     "night": "5"
@@ -91,50 +91,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "4",
-    "moderate": "4",
-    "longLasting": "3",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "4",
-    "strong": "3",
-    "enormous": "6"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "6",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Jean Paul Gaultier Summer"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique Summer 2012"
-    },
-    {
-      "brand": "SWİSS ARABİAN",
-      "name": "Shaghaf Oud Tonka"
-    },
-    {
-      "brand": "TOMMY HİLFİGER",
-      "name": "Tommy Girl Summer 2025"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GİORGİO ARMANİ",
@@ -181,10 +164,6 @@
       "name": "Dune"
     },
     {
-      "brand": "VERA WANG",
-      "name": "Princess"
-    },
-    {
       "brand": "KENZO",
       "name": "Flower by Kenzo"
     },
@@ -195,6 +174,11 @@
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Chloé Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

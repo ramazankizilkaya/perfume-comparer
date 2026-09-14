@@ -29,16 +29,44 @@
     {
       "name": "pudralı",
       "width": "47.6558%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.76",
-    "votesCount": "86",
+    "votesCount": "88",
     "breakdown": {
-      "love": "27",
-      "like": "29",
+      "love": "29",
+      "like": "28",
       "ok": "13",
-      "dislike": "16",
+      "dislike": "17",
       "hate": "1"
     }
   },
@@ -69,45 +97,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "18",
+    "moderate": "28",
+    "longLasting": "6",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "21",
+    "moderate": "28",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "34",
+    "moreFemale": "14",
+    "unisex": "8",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "2",
     "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "16",
+    "greatValue": "28"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANVİN",
+      "name": "Eclat d’Arpège"
+    },
+    {
+      "brand": "CREED",
+      "name": "Acqua Fiorentina"
+    },
+    {
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "Feerie Eau de Toilette"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Versencia Crystal"
+    },
+    {
+      "brand": "LOLİTA LEMPİCKA",
+      "name": "Lolita Lempicka"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Eclat La Violette"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANVİN",
       "name": "Eclat d’Arpège"
     },
     {
-      "brand": "DİOR",
-      "name": "J'adore"
+      "brand": "ELİZABETH ARDEN",
+      "name": "5th Avenue"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Narcotic Flower"
+      "brand": "CHLOÉ",
+      "name": "Chloé Eau de Parfum"
+    },
+    {
+      "brand": "DİOR",
+      "name": "J'adore"
     },
     {
       "brand": "DOLCE&GABBANA",
@@ -116,10 +173,6 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Mayar"
-    },
-    {
-      "brand": "ASDAAF",
-      "name": "Ameerat Al Arab"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -134,12 +187,12 @@
       "name": "Bade'e Al Oud Sublime"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Yara"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Aromatic Rouge"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Kismet for Women"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara"
     },
     {
       "brand": "CALVİN KLEİN",
@@ -151,11 +204,12 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Ekhtiari"
+      "name": "Musamam White Intense"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Her Confession"
     }
-  ]
+  ],
+  "comments": []
 }

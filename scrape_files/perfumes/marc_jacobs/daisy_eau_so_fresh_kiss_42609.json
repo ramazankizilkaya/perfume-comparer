@@ -41,6 +41,34 @@
     {
       "name": "misk",
       "width": "45.0388%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -81,33 +109,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "11",
+    "moderate": "16",
+    "longLasting": "11",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "16",
+    "strong": "13",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "18",
+    "moreFemale": "2",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Eau So Fresh"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Kiss"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Endless Euphoria"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl"
+    },
+    {
+      "brand": "GRÈS",
+      "name": "Cabotine Rose"
+    },
+    {
+      "brand": "LOLİTA LEMPİCKA",
+      "name": "Si Lolita Eau de Toilette"
+    },
+    {
+      "brand": "BOİS 1920",
+      "name": "Oltremare"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water Sea Rose"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "My Red by Demi Moore"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Noa L’Eau"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -150,12 +219,12 @@
       "name": "The One"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "La Petite Robe Noire"
-    },
-    {
       "brand": "VERSACE",
       "name": "Crystal Noir"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "La Petite Robe Noire"
     },
     {
       "brand": "MARC JACOBS",
@@ -169,5 +238,6 @@
       "brand": "GUERLAİN",
       "name": "Mon Guerlain"
     }
-  ]
+  ],
+  "comments": []
 }

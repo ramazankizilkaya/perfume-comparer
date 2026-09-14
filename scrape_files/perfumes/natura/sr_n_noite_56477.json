@@ -49,26 +49,54 @@
     {
       "name": "balsamik",
       "width": "54.1791%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.96",
-    "votesCount": "67",
+    "votesCount": "68",
     "breakdown": {
-      "love": "22",
-      "like": "30",
-      "ok": "6",
+      "love": "23",
+      "like": "29",
+      "ok": "7",
       "dislike": "8",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "36",
+    "winter": "37",
     "spring": "12",
     "summer": "4",
     "autumn": "36",
     "day": "12",
-    "night": "44"
+    "night": "45"
   },
   "notes": {
     "top": [
@@ -89,33 +117,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "20",
+    "longLasting": "15",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "20",
+    "strong": "23",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "3",
+    "male": "28"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "1",
+    "fair": "7",
+    "goodValue": "9",
+    "greatValue": "14"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CHANEL",
+      "name": "Antaeus"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Sr. N"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Patchouli Ink"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Malbec Supremo"
+    },
+    {
+      "brand": "ALFA ROMEO PERFUMES",
+      "name": "Black"
+    },
+    {
+      "brand": "ARAMİS",
+      "name": "Aramis Devin"
+    },
+    {
+      "brand": "VAN GİLS",
+      "name": "Classic"
+    },
+    {
+      "brand": "HENO DE PRAVİA",
+      "name": "Agua de Pravia 1905"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -177,5 +238,6 @@
       "brand": "DİOR",
       "name": "Fahrenheit"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -45,13 +45,41 @@
     {
       "name": "odunsu",
       "width": "48.0204%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.27",
-    "votesCount": "86",
+    "score": "4.28",
+    "votesCount": "87",
     "breakdown": {
-      "love": "48",
+      "love": "49",
       "like": "25",
       "ok": "1",
       "dislike": "12",
@@ -86,33 +114,90 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "3",
+    "longLasting": "3",
+    "eternal": "25"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "3",
+    "strong": "12",
+    "enormous": "26"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Eau de Parfum 2009"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Parfum"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Rouge Fatal (Collector's Edition 2015)"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium (1977)"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Poesie de Chine pour Femme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Eau D'ete Summer Fragrance 2004"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Orient Extreme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Fraicheur d'Orient"
+    },
+    {
+      "brand": "ULRİC DE VARENS",
+      "name": "Varens Original African Queen"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Collector's Edition 2014"
+    },
+    {
+      "brand": "CHRİSTİNE DARVİN",
+      "name": "Papillon"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Secret de Parfum"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Collector Edition 2008"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Eau de Nuit"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -174,5 +259,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -29,6 +29,34 @@
     {
       "name": "meyvemsi",
       "width": "39.0323%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -44,8 +72,8 @@
   },
   "seasons": {
     "winter": "7",
-    "spring": "32",
-    "summer": "34",
+    "spring": "33",
+    "summer": "35",
     "autumn": "12",
     "day": "36",
     "night": "15"
@@ -62,33 +90,70 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "5",
+    "moderate": "19",
+    "longLasting": "11",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "19",
+    "strong": "12",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "21",
+    "moreFemale": "6",
+    "unisex": "11",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "20",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Kaiak Aventura"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Sport Woman"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Tommy Girl"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Egeo Melancia"
+    },
+    {
+      "brand": "BY CANDY",
+      "name": "Melancia Fresh"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor Banho de Cheiro Flor de Vindicá"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kaiak 21K"
+    },
+    {
+      "brand": "CLİNİQUE",
+      "name": "Clinique Happy"
+    },
+    {
+      "brand": "PHEBO",
+      "name": "Carnaval"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -96,11 +161,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Kaiak Aventura"
+      "name": "Essencial Exclusivo Floral"
     },
     {
       "brand": "NATURA",
-      "name": "Ilía Laços"
+      "name": "Kaiak Aventura"
     },
     {
       "brand": "NATURA",
@@ -108,11 +173,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Humor Envolve"
+      "name": "Una Infinito"
     },
     {
       "brand": "NATURA",
-      "name": "Una Infinito"
+      "name": "Humor Envolve"
     },
     {
       "brand": "NATURA",
@@ -132,6 +197,10 @@
     },
     {
       "brand": "NATURA",
+      "name": "Luna"
+    },
+    {
+      "brand": "NATURA",
       "name": "Biografia Assinatura"
     },
     {
@@ -145,10 +214,7 @@
     {
       "brand": "NATURA",
       "name": "Essencial Exclusivo"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Essencial Atrai"
     }
-  ]
+  ],
+  "comments": []
 }

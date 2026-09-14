@@ -88,90 +88,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "2",
-    "moderate": "5",
-    "longLasting": "8",
-    "eternal": "6"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "5",
-    "strong": "10",
-    "enormous": "15"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "2",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "2",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "L'Instant Magic"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Guerlain L'Instant Magic Elixir"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "L'instant Magic Eau de Parfum"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Eau de Cashmere"
-    },
-    {
-      "brand": "KATE MOSS",
-      "name": "Vintage"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Petit Guerlain (In Pink)"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Petit Guerlain (In Blue)"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "L'Instant Magic Limited Edition"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Eau de Lingerie"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Eau de Cashmere"
-    },
-    {
-      "brand": "MİRUM",
-      "name": "Not For Sale"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Petit Guerlain"
-    },
-    {
-      "brand": "GRÈS",
-      "name": "Cabotine Rosalie"
-    },
-    {
-      "brand": "RÉMY LATOUR",
-      "name": "Cigar Iris De Florence"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -233,5 +176,6 @@
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

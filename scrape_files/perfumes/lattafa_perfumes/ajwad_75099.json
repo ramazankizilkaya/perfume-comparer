@@ -16,59 +16,87 @@
     },
     {
       "name": "meyvemsi",
-      "width": "85.9517%"
-    },
-    {
-      "name": "vanilya",
-      "width": "77.7163%"
+      "width": "86.0942%"
     },
     {
       "name": "pudralı",
-      "width": "77.583%"
+      "width": "77.4327%"
+    },
+    {
+      "name": "vanilya",
+      "width": "77.3738%"
     },
     {
       "name": "misk",
-      "width": "75.7785%"
+      "width": "75.9598%"
     },
     {
       "name": "tatlı",
-      "width": "72.0971%"
+      "width": "72.1178%"
     },
     {
       "name": "amber",
-      "width": "66.5744%"
+      "width": "66.532%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "61.7302%"
+      "width": "61.347%"
     },
     {
       "name": "çiçeksi",
-      "width": "57.3462%"
+      "width": "57.2695%"
     },
     {
       "name": "odunsu",
-      "width": "54.4639%"
+      "width": "53.8047%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.77",
-    "votesCount": "1,618",
+    "votesCount": "1,659",
     "breakdown": {
-      "love": "606",
-      "like": "477",
-      "ok": "224",
-      "dislike": "180",
-      "hate": "131"
+      "love": "616",
+      "like": "492",
+      "ok": "230",
+      "dislike": "188",
+      "hate": "133"
     }
   },
   "seasons": {
-    "winter": "700",
-    "spring": "537",
-    "summer": "311",
-    "autumn": "733",
-    "day": "545",
-    "night": "626"
+    "winter": "714",
+    "spring": "549",
+    "summer": "320",
+    "autumn": "750",
+    "day": "557",
+    "night": "640"
   },
   "notes": {
     "top": [
@@ -87,33 +115,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "13",
+    "weak": "51",
+    "moderate": "335",
+    "longLasting": "555",
+    "eternal": "176"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "51",
+    "moderate": "335",
+    "strong": "515",
+    "enormous": "112"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "503",
+    "moreFemale": "290",
+    "unisex": "347",
+    "moreMale": "31",
+    "male": "23"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "224",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "33",
+    "overpriced": "20",
+    "fair": "230",
+    "goodValue": "423",
+    "greatValue": "504"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MANCERA",
+      "name": "Roses Vanille"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Intense Cafe"
+    },
+    {
+      "brand": "BELLA AURA",
+      "name": "Exalté by Funmi Monet"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Rose Gourmand For Her"
+    },
+    {
+      "brand": "AL-JAZEERA PERFUMES",
+      "name": "Magic"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Sakeena"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Aseel Special Edition"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Grandeur"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Lahdath"
+    },
+    {
+      "brand": "BAİT AL BAKHOOR",
+      "name": "Dahaab Saafi"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Tanasuk"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Fatal Embrace"
+    },
+    {
+      "brand": "BOROUJ",
+      "name": "Gravity"
+    },
+    {
+      "brand": "BAİT AL BAKHOOR",
+      "name": "Tohfa Pink"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Roses Musk"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -126,10 +215,6 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Amethyst"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "La Vie Est Belle"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -172,8 +257,214 @@
       "name": "Devotion"
     },
     {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent664519",
+      "author": "Frenchshe",
+      "date": "2025-07-04",
+      "text": "Lütfen bu parfümü deneyin, kesinlikle büyüleyici, bu parfüme bayıldım.\nYumuşak vanilya ve gülün tütsüyle birleşmesi muhteşem! Bu kokunun ne kadar güzel olduğunu size anlatamam, herkesin hoşuna gitmeyebilir, ne olmuş yani!\n\nSonunda farklı bir şey! Aman Tanrım, bu parfüme bayılıyorum. Üstelik kalıcılığı da inanılmaz, odadan çıktıktan sonra bile varlığımı hissettiklerini söylediler! Lütfen deneyin ve kendiniz görün, kendi değerlendirmenizi yapın 🙂",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2551930.jpg"
+    },
+    {
+      "id": "parent664572",
+      "author": "Renflower 🪷",
+      "date": "2025-05-22",
+      "text": "Sahip olduğum çok sayıdaki oryantal parfüm koleksiyonu arasında bu, benim bir numaralı tercihim olmaya devam ediyor.\nSöylemeye gerek yok, ilk fısfıstan itibaren ilk görüşte aşktı: Gözlerimi kocaman açtım, şişeye baktım ve inanamadım... sonra da bunun için ne kadar para ödediğimi düşündüm.\n\nGül, tatlı karışık meyve, yasemin, amber ve sedir ağacı kokularını alabiliyordum ama bunların ötesinde... bence çok daha fazlası var.\nNemli ten, sıcak vücut ve kandaki demir gibi bir kokuya sahip. Kulağa korkutucu gelebilir, ancak bu koku tamamen piramitteki tüm notaların birleşiminden kaynaklanan aromatiklikten ibaret.\nBence harika.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.103766.jpg"
+    },
+    {
+      "id": "parent664517",
+      "author": "Morenoetrata",
+      "date": "2025-04-07",
+      "text": "Elbette, kokular ve zevkler ÇOK özneldir, ancak Ajwad'ın kokusunun \"berbat\" olduğunu söyleyerek şikayet edenler ya ellerine veya herhangi bir yere sıkıyorlar, doğrudan kokluyorlar ve sonra o şekilde değerlendiriyorlar ya da sadece fazla sıkıyorlar (Ajwad ile bu çok kolay). Bence bu, Lattafa'nın en iyi parfümlerinden biri olabilir. Muhteşem bir koku (ben 2 belki 3 fıs sıkıyorum ve tüm gün sürüyor). İhtiyacınız olan tek şey bu ve yerleştikten sonra en güzel, kalıcı, yumuşak, modern \"Soluk Gül\"/meyve (üzüm) karışımı, hafif vanilya dokunuşlarıyla hoş bir koku yayıyor. Bence çok güçlü olduğu için, ilk sıkıldığında yakından biraz metalik kokuyor, ama arkadaşlar, yüzünüzden uzakta çok az miktarda sıkmayı deneyin, biraz bekleyin ve o GÜZEL, rahatlatıcı, kalıcı ve çok olumlu ilgi çeken koku yayılımını deneyimleyeceksiniz.\n\nBen bir erkeğim ve bu parfümün oldukça kadınsı olduğunu düşünüyorum, ancak işe giderken her kullandığımda iltifat alıyorum ve ben de kokunun yayılımından keyif alıyorum. Bu parfüm (özellikle bayanlar için) denemeye değer. Yüzünüzden birkaç fıs sıkın ve kokunun burnunuza uzaktan ulaşmasına izin verin (parfümün koklanması gereken yöntem budur) ve muhtemelen bunun muhteşem bir koku olduğunu kabul edeceksiniz! Mükemmel kalıcılığıyla 10 üzerinden 9 puanı hak ediyor, ayrıca Lattafa'nın Ajwad'ı bir iki ay olgunlaştıktan sonra DAHA DA İYİ oluyor. Bu parfümün \"Lattafa kült klasiği\" olacağını düşünüyorum çünkü bence diğer niş parfümlere (benzeyen) orijinal bir DNA'sı var, ama yine de, günümüzde çoğu parfüm birbirine benzemiyor mu \"klon\" olsun ya da olmasın? 🤔\n\nBence bu parfümün çok fazla \"niş özelliği\" var. Oldukça kutuplaştırıcı, son derece güçlü ve kalıcı, benzersiz ve hatta aşırı kullanıldığında rahatsız edici, anlaması kolay değil. Evet, piyasada yüzlerce dolara satılan birçok \"niş\" parfüm varken, bu mücevher 20 doların altında alınabiliyor! Buradaki değer çok büyük ve aslında bu kadar kutuplaştırıcı olmasından memnunum. Örneğin, dışarıda gezerken herkesin üzerinde (benim) Khamrah Qawha kokusunu duymaktan hoşlanmıyorum! Gizemini tamamen ortadan kaldırdığı için hiç kullanmak istemiyorum! Ve Sauvage'ın kokusunu çok seviyorum, ama aynı nedenden dolayı satın almayı reddediyorum, HERKES bunun Sauvage olduğunu biliyor!... Bence hiç eğlenceli değil. Bu yüzden, keyif aldığım sürece kutuplaştırıcı bir \"garip DNA\"yı her zaman tercih ederim! 🫠",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2114753.jpg"
+    },
+    {
+      "id": "parent664523",
+      "author": "tortora08",
+      "date": "2025-03-07",
+      "text": "Bu, satın aldığım ilk Arap parfümüydü. O zamanlar hiçbir fikrim yoktu ve popüler Arap parfümlerini Google'da aradım. İlk izlenimim çok yoğun, ağır, çok güçlü ve baş ağrısı yapıcıydı. Şişesini beğendiğim için sakladım ve misafir odamda, daha çok bir süs eşyası olarak, mutlu bir şekilde durdu. 6 ay sonra, tüm parfümlerimi ayıklarken, kullanmadığım veya çok sevmediğim parfümleri satmaya karar verdim. İşte o zaman bu parfümden bir veya birkaç fıs sıktım ve bakın ne oldu, kurbağam prense dönüştü. En güzeli de, vanilya kokularıyla inanılmaz derecede uyumlu olduğunu ve sihirli bir şekilde artık Mancera Roses Vanille'e çok benzediğini fark ettim. Yayılımı çok etkileyici, ilk 2 saat boyunca yayılımı canavar gibi ve kalıcılığı da 8 saat gibi iyi bir süre. Yani, tavsiyem, birkaç ay olgunlaşmasına izin verin, böylece en iyi sonucu alırsınız.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2371215.jpg"
+    },
+    {
+      "id": "parent664520",
+      "author": "ThatGothBBW",
+      "date": "2025-02-17",
+      "text": "Bu parfüm hakkında her şeyi bilmeme rağmen, kokusu beni yine de şaşırttı. Bir sürü yorum okudum ve bir sürü video izledim.\n\nBu, parfümün tenimde nasıl durduğunun bir örneği.\n\nBu, daha önce kokladığım hiçbir gül bazlı kokuya benzemiyor. Ve bu çok şey ifade ediyor. Çok fazla koku denedim.\n\nBu, pudralı bir gül, olgun bir gül, vintage bir gül, yeşil bir gül, aşırı olgunlaşmış bir gül değil; kesinlikle bunların hiçbiri değil. Biraz daha yumuşak bir his veren reçel kıvamında bir gül. Bu gül çok yumuşak bir şekilde işlenmiş. Kesinlikle odunsu bir gül tarzı. Ama ne aşırı erkeksi ne de aşırı kadınsı hissettirmeyen bir şekilde yapılmış. Ve şaşırtıcı bir şekilde, hiç öd ağacı yok. Buradaki gül narin, diğer notalarla sadece destekleyici bir rol oynuyor. Gülün baş ağrısına neden olmaması da çok hoşuma gitti.\n\nBuradaki meyveler çok belirgin değil. Sanki meyve turşusu veya marmelat karışımı gibi. İçindeki meyve notalarının ne olduğunu kesin olarak söyleyemem. Sadece pişmiş meyveler veya hafif baharatlarla tatlandırılmış haşlanmış meyveler gibi geliyor.\n\nHafif pudramsı bir yapısı var ama bebek pudrası ya da makyaj pudrası gibi değil. Hafif, tozlu bir pudra gibi hissediliyor. Sanki bu tozlu yapı sedir notasından geliyor gibi.\n\nListede yer almasa da, çok hafif bir baharat tadı alıyorum. Belki bir tutam tarçın veya muskat, ama ÇOK hafif.\n\nNeden bilmiyorum ama bu bana fırınlanmış bir hamur işini hatırlatıyor. Şık bir tatlı ekmek gibi bir şey.\n\nBence bu, kelimenin tam anlamıyla her mevsim için işe yarayabilir. Sadece sıcak havalarda daha az, soğuk aylarda ise daha fazla sıkmanız yeterli. Benim cildimde, çok güçlü bir püskürtme olmamasına rağmen, bir süre etkili oldu. AMA, bu sadece benim deneyimim.\n\nAyrıca şunu da belirtmek istiyorum. Bazı Lattafa parfümlerinin tekrarlayıcı olduğunu biliyorum. Ama bence bu parfüm öyle değil. Ben kendim Lattafa markasının 25'ten fazla parfümüne sahip oldum ve Ajwad bunların hiçbirine benzemiyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1474495.jpg"
+    },
+    {
+      "id": "parent664558",
+      "author": "Mtine",
+      "date": "2025-01-07",
+      "text": "Cidden! Satmadığıma çok sevindim. İlk aldığımda meyve salatası gibi koktuğunu düşünmüştüm. Sonradan metalik bir koku geldi, hoş olmayan bir koku değildi ama benim tarzım olmadığını düşündüm ve satmayı tercih ettim. Son zamanlarda tekrar koymaya karar verene kadar öylece bıraktım: Aman Tanrım, kokusu! 😍\n\nÇok yumuşak, meyveli ve hafif, aynı zamanda çok narin bir gül kokusuna sahip, şekerlenmiş şeker gibi tatlı. Çok yayıldığı için sadece bilek ve nabız noktalarına sürüyorum; Silk Santal x Kayali ile karıştırmayı seviyorum.\n\nParfümün bekletilmesinin önemini nihayet anladım.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.59502.jpg"
+    },
+    {
+      "id": "parent664549",
+      "author": "PipiLaMing",
+      "date": "2024-09-13",
+      "text": "Yoğun bir mango, çarkıfelek meyvesi ve tatlı guava aromasıyla ortaya çıkan, çok tatlı, neşeli ve köpüklü bir içecek.\nİçinde liçi meyvesi de var ve birkaç dakika sonra tadını kesinlikle hissedebiliyorsunuz, ayrıca pembe biber de (çok hafif bir şekilde) mevcut.\n\nBu meyveler, olgun bir armut ısırmak gibi sulu bir his veriyor; damakta biraz pürüzlü ama sulu ve lezzetli.\n\nMeyvemsi, neşeli ve ışıltılı notalarının tamamı 50 cm veya daha uzak mesafeden mükemmel bir şekilde hissedilebilir.\n\nGüller ve şakayıklar açıyor... ve çok yumuşak bir deri, neredeyse hissedilmiyor ama orada, tıpkı kullanımla bizim olan ve özümüzü taşıyan iyi bir çantanın dibinde olduğu gibi.\nİçinde ferahlatıcı bir etki yaratan narenciye notası var (pembe greyfurt olduğunu belirtiyorlar... kan portakalı da olabilir).\nParfüm, sıktığım yerden yaklaşık 30 cm uzaktan bile tüm ihtişamıyla kokuyor.\n\nYarım saat sonra, ilk yoğunluk azalmış (ki bu asla bunaltıcı veya bayıcı değil) ve geriye gül ve tatlı meyve kokuları kalmış; şimdi de vanilya ve narenciye kalıntılarını fark ediyorum.\n\nDört saat sonra, parfüm yaklaşık 30 cm mesafeden bile tüm karmaşıklığıyla algılanabiliyor, ancak deri notaları yumuşamış ve sadece ten seviyesinde hissedilebiliyor.\n\nBence tamamen kadınsı, çok genç (ergen değil ama genç) ve çok kişilikli, anlaşması kolay biri.\nGardırobumda gerçek bir keşif.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.193524.jpg"
+    },
+    {
+      "id": "parent664561",
+      "author": "CharlyModeuse",
+      "date": "2023-12-10",
+      "text": "Karmaşık bir parfüm, aşk-nefret ilişkisi, anın ruhuna bağlı.\n\nTemmuz 2022'nin başlarında, açılış oldukça metalik bir havaya sahipti; tatlı meyve salatası, neredeyse mide bulandırıcı derecede güneş altında bekletilmişti...\n\nSadece serin havalarda bir veya iki kez, sadece iki fıs sıkıyorum ama bu bile çok fazla.\n\nBeğenmediğim diğer birkaç Dubai parfümüyle birlikte onu da dolaba kaldırıyorum.\n\nAralık 2023:\n\nYouTube'da Bab El Oud Amethyst'in bir yıl bekletildikten sonra kokusunun nasıl değiştiğini anlatan bir video izledikten sonra, 2022 sonbaharından beri dolabımda bıraktığım bu parfümleri hatırladım ve onlara bir şans daha vermeye karar verdim!\n\nMetalik koku hala mevcut ama çok hafif; artık neredeyse çürümüş meyve salatası gibi değil, gül suyu, şeker ve çiçeklerle karışmış bir meyve kokusu alıyorum.\n\nKoku hala güçlü ve zengin ama çok daha az sentetik, daha az ucuz ve satmadığıma sevindim.\n\nKuru havalarda soğuk kış günlerinde ısınmak için mükemmel olacak.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.22878.jpg"
+    },
+    {
+      "id": "parent664569",
+      "author": "maelleinrome",
+      "date": "2023-11-18",
+      "text": "Bugün denedim ve söylemeliyim ki bu parfüm tenime çok yakıştı. Gerçekten çok garip! Delina veya Roses Vanille gibi bu parfümle aynı havayı taşıdığı söylenen parfümleri sevmiyorum; onları çok keskin ve rahatsız edici güller olarak algılıyorum; ilk narenciye notası, gül ve aşırı şekerli bazla birleşince ekşi ve uyumsuz bir karışım oluşturuyor gibi geliyor bana. Ama burada öyle değil. Burada kadifemsi bir gül kokusu alıyorum, tam olarak ayırt edemediğim ama tatlı ve sulu olarak algıladığım meyvemsi notalarla birlikte. Sonra kehribar ve yasemin karışımını hissediyorum ki bu da beni, çok uzaktan da olsa, Alien'ın DNA'sına geri götürüyor. Son olarak, baz tatlı ve yumuşak, tam da sevdiğim gibi. Çok beğendim ve kesinlikle bir sonraki alışverişlerimden biri olacak... Daha fazlasını da söyleyeceğim! Bu parfüm bana gençliğimde, diyelim ki 90'ların sonlarında, kuzenlerimin evinde kullandığım veya belki de kokladığım bir şeyi hatırlatıyor (hafızam hemen oraya gidiyor ama nedenini bilmiyorum!). Ne olduğunu çözemiyorum ama umarım çözebilirim. Bence denemeye değer bir parfüm çünkü hiç garip veya metalik notalar algılamıyorum, ancak bu kişiden kişiye değişebilir.\n\nDÜZENLEME 20/11/2023: Neyi hatırlattığını anladım!!! Bu yüzden beni Puglia'daki teyzem, amcam ve kuzenlerimin evine götürdü 🤩. Küçükken onları ziyarete gittiğimde, artık üretilmeyen bir Deborah parfümü vardı. \"Latino Blues\" adında, çiçeksi bir parfümdü, Lancome'un Classique JPG veya Poeme'sine benziyordu. Ajwad da bana \"onu\" ve onu ne kadar büyüleyici ve \"olgun\" bulduğumu hatırlatıyor 😍❤️.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.37.jpg"
+    },
+    {
+      "id": "parent664588",
+      "author": "tatiana_vrlmt",
+      "date": "2023-11-09",
+      "text": "Şişeyi dün teslim aldım ve ilk püskürtmeden itibaren çok memnun kaldım.\n\nİlk düşüncem, \"Bu çok lezzetli!\" oldu.\n\nTatlı, canlı, sulu ama baskın olmayan bir aroma.\n\nDenemeden aldım ve bir an bile pişman değilim.\n\nGenel koku, Montale Rose Musk'ı biraz andırıyordu. Ancak birebir kopyası değil; bu koku daha çok yönlü.\n\nÇok uzun süre kalıcı, zengin. Yaydığı koku muhteşem.\n\nÇiçeksi, pudralı, sarmalayıcı, çok lezzetli bir vanilya kokusu alıyorum; tatlılık veriyor ama baskın değil.\n\nGül ve yasemin kokularının ince bir karışımını duyuyorum, sanki birlikte şarkı söylüyorlarmış gibi.\n\nAynı zamanda, aromasını tam olarak taze diyemem ama zenginliğine ve tatlılığına rağmen içinde bir hafiflik de var.\n\nAyrıca çok sıra dışı bir nota da var, hemen anlayamadım ama bana Montale'yi hatırlatan bu nota oldu.\nBirisi bunun metalik bir nota olduğunu yazmış. Ve ben bunu gerçekten çok beğendim. Bu kokuya çok sıra dışı, gizemli ve çekici bir hava katıyor.\n\nSadece onu içinize çekmek istiyorsunuz.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.381443.jpg"
+    },
+    {
+      "id": "parent664590",
+      "author": "Anetissima",
+      "date": "2023-07-29",
+      "text": "Aynı parfüm için ikinci bir yorum yazmadım hiç – Ajwad kesinlikle bir istisna – ama o da gerçekten olağanüstü! Bu parfümü bir yıldır kullanıyorum ve bir şişeyi bitirdikten sonra onu iyi tanıdığımı düşünmüştüm – kızım ve eşim de zaman zaman benimle birlikte kullanmışlardı – ama meğer bu kokuyu yeni keşfetmişim! Mayıs ayında ikinci şişeyi aldım çünkü favorim oldu. İkinci şişenin içeriğinin ilk şişenin içeriğiyle tamamen aynı olduğunu vurgulamalıyım – mesele şu ki, ikinci şişeyle Lattafa markasının anavatanına yakın bir iklime seyahat ettim – ve orada, kuru, sıcak havada, onun gerçekte neler yapabileceğini keşfettim!\n\nÜlkemizde Ajwad, doğal olarak elde edilen meyve ve taze, yağsız gülün yeşil bir alt tonla harmanlandığı hoş, sulu bir koku. Çok tatlı olmayan, kalıcı bir kokuya sahip ve kendine özgü şişesine rağmen Arap kültürüne dair çok az ipucu veriyor. Bence Avrupalı ​​bir burun bu kokuyla mükemmel bir şekilde bağlantı kuracaktır; Ajwad'ın uluslararası çekiciliğini takdir etmek için \"Arapları\" sevmenize gerek yok. Peki yurtdışında ne oldu? Ajwad orada adeta turbo şarj oldu! Kalıcı koku büyük, havadar bir buluta dönüştü, gül de daha güçlü bir şekilde ortaya çıktı – hala taze ve yeşil bir alt tonla – ama büyük, hoş kokulu bir çalıya dönüştü ve her şeyden önemlisi, burada algılamadığım vanilya ortaya çıktı – orada kremsi, asil bir versiyonda, harika bir şey olarak belirdi! Ve vanilya oryantal tınıyı güçlendirdi.\n\n\nValizimin astarı, elbiselerim, plaj havlularım, makyaj çantalarım ve iç çamaşırlarım – her şey Ajwad'ın sarhoş edici kokusuyla sinmişti. Şişenin çatlamış olup olmadığını kontrol ettim – ama hayır, püskürtme ucu da sızdırmıyordu. Sürekli düşen kapaktan çıkan mikro damlacıklar aracılığıyla \"ışınlandığı\" sonucuna vardım. Eve döndük – bulut bir kuyruğa dönüşmüştü, vanilya kokusu gitmişti – ama bunun bir önemi yoktu, aşkımız bu deneyim sayesinde yeni ve daha da güçlüydü – Ajwad, tam olarak nüfuz edebilmesi için bizimkinden daha düşük nem ve daha yüksek sıcaklık gerektiriyor, ancak burada bile harika, orijinal, uzun süre kalıcı ve güzel bir parfüm. Denemenizi tavsiye ederim; denemeye değer.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.30583.jpg"
+    },
+    {
+      "id": "parent664566",
+      "author": "CreativamenteElena",
+      "date": "2023-02-15",
+      "text": "İlk yorumu yazan benmişim, bu beni biraz korkutuyor. Duyduğum yorumlara dayanarak Ajwad'ı denemeden aldım ve hiç pişman değilim. Şişesi muhteşem: ağır, etkileyici ve zengin bir şekilde dekore edilmiş. Sanırım seramik. Dış ambalajı, değerli şişeyi içeren büyük bir kutu, tıpkı bir mücevher gibi. Koku, salındığı anda meyvemsi notalar sayesinde tatlı. Sonra gül ve biraz daha az yasemin algılıyorum. Vanilya ve amberle harmanlanan güzel, güçlü, şekerli bir gül. Geliştikçe, koku misk ve sedir ağacının hafif yeşil ve odunsu notalarını ortaya çıkarıyor, bu da onu aromatik ve biraz daha taze ve keskin hale getirirken, baştan sona onu karakterize eden tatlılığı koruyor. Kalıcılığı ve yayılımı oldukça saygıdeğer: Ne kadar süre kalıcı olacağını kesin olarak söyleyebilecek kadar uzun süre test etmedim henüz. Bu parfümü kesinlikle ilginç buluyorum. Kesinlikle Montale'nin Intense Café'sini anımsatıyor, ki bunu biliyorum, ya da birçok kişi Mancera'nın Roses Vanille'ini de hatırlatıyor, ki ben onu hiç koklamadım. Ama tamamen kendine özgü bir şekilde evrimleşmiş. Genel olarak, tatlıya yakın, çok daha kadınsı ve muhteşem ambalajı için de almaya değer, hoş bir koku olduğunu düşünüyorum. Tam puan.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.51623.jpg"
+    },
+    {
+      "id": "parent664521",
+      "author": "k444yls",
+      "date": "2022-11-22",
+      "text": "Orta Doğu kültürüne mensupsanız veya bu kültürle bağlantınız varsa, bu parfüm çok yoğun değil. Teyzelerinizin sürekli Arap parfümü sıkması nedeniyle bu yoğunluğa alışkınsınızdır. Neyse, ben bu parfümü tenimde çok sevdim ve aldığım için çok mutluyum! Hiç metalik bir koku almadım. İlk kokladığım şey miskti; tekrar kokladıktan sonra meyve, gül ve pudra notaları geldi. Ancak çok yoğun. Misk, onu neşeli meyveli çiçeksi bir kokudan ziyade daha yaşlı ve olgun gösterdiği için daha meyveli bir şeyle karıştıracağım. Bunu kokladığımda, üzerine meyve ve çiçekler serpilmiş kabarık misk bulutlarını hayal ediyorum, ancak misk taze bir misk değil, daha çok sıcak bir misk ve bana çok kalın bir battaniyeyle örtülüp ısıtıcıyla ısıtılmış gibi hissettiriyor. Gerçekten rahatlatıcı ve sıcak bir hava veriyor, ancak düğünler ve şık randevu geceleri gibi zarif ortamlar için mükemmel. Birkaç dakika sonra tekrar kokladım ve kuruduktan sonra çok daha meyveli bir kokuya dönüştü. Kokladığımda gül pembesi bir renk alıyorum. Neredeyse yasemin kokusu da hissediliyor ama bu sadece burnumun gül kokusunu karıştırmasından kaynaklanıyor olabilir. Kesinlikle yoğun bir misk kokusu var. Çok fazla vanilya kokusu alıyorum ama sarhoş edici veya gurme bir vanilya değil. Nemat'ın vanilya miskini hatırlatıyor. Sanki bu, Yasemin'in (Aladdin'den) giyeceği bir şey gibi geliyor bana. Bana nargile içilen ve çay tepsilerinin olduğu bir sarayda Arap prensesi havası veriyor. Ev gibi kokuyor! <3",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent664546",
+      "author": "MAJEJAR",
+      "date": "2022-10-18",
+      "text": "Parfümü denemeden aldım, ama parfüm uzmanlarından ve YouTuber'lardan birçok referans sayfasıyla destekledim. Çok endişeliydim çünkü aynı tavsiyeler üzerine aldığım başka bir parfüm berbattı. Ama bu bir sürpriz oldu ve bunun nedeni, aynı sayfadaki başka bir yorumda da belirtildiği gibi, ilk sıktığımda çok güçlü sümbülteber ve amber parfümleriyle karşılaşmış gibi olmamdı... Hatta \"Yine aynı şey\" diyecek kadar ileri gittim. Sürpriz, sümbülteber kokusu dağıldığı anda geldi çünkü sümbülteber notalarının sadece üst notalarda olduğu bir parfümü ilk kez görüyorum. Ofisteki herkesin fark ettiği bir sonraki şey, sanki çok sıcak ve nemli bir yerde bir portakal bahçesindeymişsiniz gibi, sıcak, öğle vakti portakal kokusuydu (hiç de portakal suyu gibi narenciye kokusu değil). Daha çok kaliteli portakal kabuğu ve portakal yapraklarının karışımına benziyor... vanilya da var ama sıcak bir vanilya... Hatta diğer parfümlerde olduğu gibi vanilya kabuğundan ziyade vanilya çiçeğine daha çok benziyor diyebilirim... Son notalara kadar süren çok güçlü bir beyaz gül ile birlikte, parfüm ciltte olgunlaştıkça gül daha da belirginleşiyor. Ylang-ylang kadar uzun süre kalıyor... çünkü bu parfümde, notalar listesinde belirtildiği gibi misk yok; ylang-ylang var ve çok belirgin. Hatta Lattafa'nın parfümcülerinden biri bir röportajda miskle çalışamadıklarını belirtti. Ama gerçek şu ki, iki nota oldukça farklı. Misk biraz daha metalik. Büyükanneleri veya anneleri sümbülteber ve pudralı veya narenciye kokulu sümbülteber parfümlerini, örneğin First veya Chanel No. 5'i sevenler, miskin ne olduğunu çok iyi bilirler. Hayır, bu misk gibi kokmuyor. Bu nedenle, bol miktarda ylang-ylang içerdiği için, parfümün orta ve temel notaları pH'a, cilt tipine veya ne yediğimize bağlı olarak oldukça değişecektir. Amber içeriyor, ancak gelişim boyunca sabit kalmıyor. Acı bitter çikolata gibi bir çikolata notası var, bu da sonuna kadar çok hafif kalıyor ve portakallarla birlikte onu biraz daha amberli hale getiriyor. Zaten öyle. Son notalarda, henüz tam olarak tanımlayamadığım bitkisel bir şey öne çıkıyor... gülün yanında çok yumuşak ve bayıcı bir vanilya ve amber var.\nDoğrusu, dip notaları kesinlikle enfes. Dolabım tamamen bu parfüm kokuyor ve şimdiye kadar sadece bir veya üç kez kullandım, sadece bir elbiseye ve bir eşarba hafifçe sıktım. Bu kadar etkileyici olmasına şaşırdım çünkü ofiste ilk denediğimde herkes ne kadar hafif ve zarif olduğunu, baskın olmadığını fark etmişti. Bence, ilk notalar çok hızlı kaybolsa da, 12 saatten fazla süreyle bunaltıcı olmadan kalıcı bir parfüm diyebiliriz. Bu özelliği, uçucu yağlarla birlikte, ona çok şık, çok pahalı bir parfüm havası veriyor.\nBenzer kokulardan bahsediyorsak, durum biraz karmaşık çünkü hiçbir şeyin birebir kopyası değil. Üst notalar Mancera'nın bir kokusuna ve şu an adını hatırlayamadığım başka bir parfüme oldukça benziyor, ancak temel notalar Baccarat Vanilla'ya benziyor, özellikle de bu iki nota sonuna kadar kalıcı olduğu için bolca gül ve portakal içeriyor... Baccarat Vanilla'ya benzediğini söylemek zor. Sadece çok ince bir temel notaya sahip olduğunu söyleyebiliriz.\nBunu genç bir kadından ziyade yetişkin bir kadına tavsiye ederim ve kesinlikle bir erkek parfümü değil... hiç değil, çünkü üst notalarında çok fazla sümbülteber ve alt notalarında çok fazla gül var. Kokuyu dengelemek için çok yüksek pH değerine sahip bir erkek olması gerekir.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent664527",
+      "author": "Bachi",
+      "date": "2022-10-12",
+      "text": "Her geçen gün daha da güzelleşen, enfes, muhteşem bir bukalemun! Bu koku, ilk sıkıldıktan sonra birkaç hafta demlenmeye bırakılmalı. Açılış notalarında tatlı, reçel kıvamında meyve kokusu alıyorum. Ardından vanilya ile karışmış baharatlar geliyor ve yavaş yavaş meyveli, amber ve tatlı bir karışıma dönüşüyor. Bazen ilk sıkmada doğrudan baharatları alıyorum, ardından erik notası yumuşak bir şekilde baharatlı bir karışıma karışıyor. Yayılımı ve kalıcılığı oldukça güçlü. Muhteşem bir koku, zarif, şık, iddialı! Eğer tatlı, baharatlı, biraz reçel kıvamında kokuları sevmiyorsanız, bu güvenli bir kör alışveriş değil.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.25094.jpg"
+    },
+    {
+      "id": "parent664525",
+      "author": "MsFeefs",
+      "date": "2022-10-12",
+      "text": "Ajwad yüzünden Fragrantica'ya üye oldum. Şimdiye kadar kokladığım en iğrenç şeydi. Bu kadar mide bulandırıcı bir şey hiç algılamamıştım. Bunu kendimde denedikten sonra kelimenin tam anlamıyla banyo yapmak zorunda kaldım. Kendinize bir iyilik yapın ve bunu almayın. @explore_god'un yorumunu okudum ve neden hala kör alışveriş yaptım ki? Şimdi daha iyisini biliyorum.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent664583",
+      "author": "игуана157",
+      "date": "2022-10-06",
+      "text": "Bu parfümü yorumlara dayanarak deneme amaçlı sipariş ettim. İlk başta, benzin kokusuna benzer garip bir koku gibi geldi. Parfümlerin denenmeden ve sonuç çıkarılmadan önce en az birkaç gün oturması gerektiğini defalarca öğrendim. Oturduktan sonra oldukça ilginç bir hal aldı; tatlı, belki de Manser'in Rose Vanilla'sını anımsatıyor. Bana göre, kahve ve yoğun misk olmadan Montale'nin Intense Cafe'sine daha çok benziyor. Tek başına oldukça ilginç bir koku. Daha tatlı kokuları sevenler daha çok beğenecektir. Elbette, önce denemek en iyisi.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent664585",
+      "author": "LaLa777",
+      "date": "2022-08-17",
+      "text": "Rose Vanilla Mancera'ya gerçekten çok benziyor, sadece Lattafa daha meyvemsi; sanki Mancera'ya biraz daha az vanilya ve daha çok meyve eklenmiş gibi.\nKokusu cildimde ÇOK uzun süre kalıyor; ellerimi sabunla yıkadıktan sonra bile hala hissediliyor. Yayılıyor ve iz bırakıyor. Benim için çoğunlukla gül, yasemin, misk, vanilya ve hafif bir meyve kokusu. \"Hassas bir burun\" için çok yoğun gelebilir, ancak Manser'ın Rose Vanilla'sının hayranı olarak ben gerçekten çok beğendim 😍",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.3344.gif"
+    },
+    {
+      "id": "parent664542",
+      "author": "MINERVparfums",
+      "date": "2022-08-14",
+      "text": "Şunu da belirtmekte fayda var ki, ürünü görmeden, sunumuna hayran kalarak satın aldım; bu tam bir lüks.\nİlk izlenim olarak, tenime vanilya, amber ve tuzlu karamelin bir tokat gibi sürüldüğünü hissettim.\nParfüm yeterince demlendikten ve ben de doğru şekilde kullandıktan sonra, size aroma hakkında doğru ve adil bir değerlendirme sunacağım.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.63184.jpg"
+    },
+    {
+      "id": "parent664518",
+      "author": "Littlesweetie",
+      "date": "2022-07-25",
+      "text": "Ajwad en sevdiğim parfümlerden biri! Sonunda veritabanında gördüğüme çok sevindim. Roses Vanille'e hafif bir benzerlik olduğunu düşünüyorum, ama çok benzer olduklarını sanmıyorum. Belli bir yorumcu belirtmeseydi benzerliği fark etmezdim bile. İkisini de aldım ve bunu daha çok beğeniyorum.\nBunu düşünen tek benmişim gibi geliyor ama elma suyu kokusu alıyorum. Burnuma göre bulanık, hafif, tatlı bir elma karışımı.\nYeni bir parfümü ilk kez kokluyorsanız, birkaç hafta bekleyin. Çok daha güzelleşiyor. Başta beğenip beğenmediğimden bile emin değildim, ama şimdi en sevdiğim parfümlerden biri.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1378268.jpg"
     }
   ]
 }

@@ -93,86 +93,41 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "6",
-    "weak": "6",
-    "moderate": "4",
-    "longLasting": "2",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "13",
-    "moderate": "4",
-    "strong": "3",
-    "enormous": "8"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "3",
-    "male": "4"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "5",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Mâle Pride Collector"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Ultra Male"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male"
-    },
-    {
-      "brand": "LA RİVE",
-      "name": "Cabana"
-    },
-    {
-      "brand": "CUBA PARİS",
-      "name": "Cuba Gold"
-    },
-    {
-      "brand": "CUBA PARİS",
-      "name": "Cuba Magnum Gold"
-    },
-    {
-      "brand": "MİLTON LLOYD",
-      "name": "Bondage Hommes"
-    },
-    {
-      "brand": "LA RİVE",
-      "name": "Scotish"
-    },
-    {
-      "brand": "THE BODY SHOP",
-      "name": "Javari"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Gladiator"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Dolce&Gabbana Pour Homme Intenso"
-    },
-    {
-      "brand": "EVAFLOR",
-      "name": "Whisky"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de L'Homme Bleu Électrique"
     },
     {
       "brand": "VERSACE",
@@ -199,10 +154,6 @@
       "name": "Versace Man Eau Fraiche"
     },
     {
-      "brand": "AFNAN",
-      "name": "9pm"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Oud Wood"
     },
@@ -211,8 +162,8 @@
       "name": "Le Male Le Parfum"
     },
     {
-      "brand": "BVLGARİ",
-      "name": "Bvlgari Man Wood Neroli"
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue Forever pour Homme"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -230,5 +181,6 @@
       "brand": "CREED",
       "name": "Millésime Impérial"
     }
-  ]
+  ],
+  "comments": []
 }

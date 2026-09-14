@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "gül",
+      "name": "vanilya",
       "width": "83.8462%"
     },
     {
-      "name": "vanilya",
+      "name": "gül",
       "width": "83.8462%"
     },
     {
@@ -27,15 +27,43 @@
       "width": "46.1538%"
     },
     {
-      "name": "yumuşak baharatlı",
+      "name": "tatlı",
       "width": "40.7693%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "2.00",
-    "votesCount": "1",
+    "score": "3.50",
+    "votesCount": "2",
     "breakdown": {
-      "love": "0",
+      "love": "1",
       "like": "0",
       "ok": "0",
       "dislike": "1",
@@ -45,10 +73,10 @@
   "seasons": {
     "winter": "0",
     "spring": "0",
-    "summer": "0",
+    "summer": "1",
     "autumn": "0",
     "day": "0",
-    "night": "0"
+    "night": "1"
   },
   "notes": {
     "top": [],
@@ -63,18 +91,18 @@
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
-    "moderate": "0",
+    "moderate": "1",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
-    "moderate": "0",
+    "moderate": "1",
     "strong": "0",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "0",
+    "female": "1",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "0",
@@ -84,9 +112,10 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "0",
-    "goodValue": "0",
+    "goodValue": "1",
     "greatValue": "0"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

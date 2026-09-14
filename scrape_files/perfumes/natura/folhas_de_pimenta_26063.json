@@ -41,13 +41,41 @@
     {
       "name": "yosunlu",
       "width": "45.2174%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.28",
-    "votesCount": "39",
+    "score": "4.30",
+    "votesCount": "40",
     "breakdown": {
-      "love": "16",
+      "love": "17",
       "like": "20",
       "ok": "1",
       "dislike": "2",
@@ -56,10 +84,10 @@
   },
   "seasons": {
     "winter": "5",
-    "spring": "13",
-    "summer": "14",
+    "spring": "14",
+    "summer": "15",
     "autumn": "5",
-    "day": "16",
+    "day": "17",
     "night": "3"
   },
   "notes": {
@@ -80,34 +108,51 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "3",
+    "moderate": "7",
+    "longLasting": "4",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "7",
+    "strong": "3",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "7",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NAUTİCA",
+      "name": "Nautica Voyage"
+    },
+    {
+      "brand": "AVON",
+      "name": "Full Speed Adrenaline"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Infusion d'Iris Eau de Toilette"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "NATURA",
+      "name": "Homem"
+    },
     {
       "brand": "ISSEY MİYAKE",
       "name": "L'Eau d'Issey Pour Homme"
@@ -127,6 +172,10 @@
     {
       "brand": "NATURA",
       "name": "Frescor de Castanha"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kaiak"
     },
     {
       "brand": "NATURA",
@@ -159,14 +208,7 @@
     {
       "brand": "CALVİN KLEİN",
       "name": "Euphoria"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Frescor de Cacau"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Essencial Exclusivo Floral"
     }
-  ]
+  ],
+  "comments": []
 }

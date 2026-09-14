@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.7442.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Boadicea-the-Victorious/Seductive-7442.html",
   "brand": "Boadicea the Victorious parfüm ve kolonya",
-  "description": "Boadicea the Victorious markasının Seductive parfümü, kadınlar ve erkekler için Odunsu Çiçeksi Misk bir kokudur. Bu kokunun arkasındaki burun John Stephen. Üst notalar: Reçine, Nane ve İris; orta notalar: Ladin, Biberiye ve Yasemin; alt notalar Paçuli, Sandal ağacı, Misk ve Amber.",
-  "description_original": "Boadicea the Victorious markasının Seductive parfümü, kadınlar ve erkekler için Odunsu Çiçeksi Misk bir kokudur. Bu kokunun arkasındaki burun John Stephen. Üst notalar: Reçine, Nane ve İris; orta notalar: Ladin, Biberiye ve Yasemin; alt notalar Paçuli, Sandal ağacı, Misk ve Amber.",
-  "description_enhanced": "Boadicea the Victorious markasının Seductive parfümü, kadınlar ve erkekler için Odunsu Çiçeksi Misk bir kokudur. Bu kokunun arkasındaki burun John Stephen. Üst notalar: Reçine, Nane ve İris; orta notalar: Ladin, Biberiye ve Yasemin; alt notalar Paçuli, Sandal ağacı, Misk ve Amber.",
+  "description": "Boadicea the Victorious markasının Seductive parfümü, kadınlar ve erkekler için Odunsu Çiçeksi Misk bir kokudur. Bu kokunun arkasındaki burun John Stephen. Üst notalar: Reçine, Nane ve İris; orta notalar: Köknar, Biberiye ve Yasemin; alt notalar Paçuli, Sandal ağacı, Misk ve Amber.",
+  "description_original": "Boadicea the Victorious markasının Seductive parfümü, kadınlar ve erkekler için Odunsu Çiçeksi Misk bir kokudur. Bu kokunun arkasındaki burun John Stephen. Üst notalar: Reçine, Nane ve İris; orta notalar: Köknar, Biberiye ve Yasemin; alt notalar Paçuli, Sandal ağacı, Misk ve Amber.",
+  "description_enhanced": "Boadicea the Victorious markasının Seductive parfümü, kadınlar ve erkekler için Odunsu Çiçeksi Misk bir kokudur. Bu kokunun arkasındaki burun John Stephen. Üst notalar: Reçine, Nane ve İris; orta notalar: Köknar, Biberiye ve Yasemin; alt notalar Paçuli, Sandal ağacı, Misk ve Amber.",
   "mainAccords": [
     {
       "name": "odunsu",
@@ -49,6 +49,10 @@
     {
       "name": "taze",
       "width": "47.2016%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -77,7 +81,7 @@
       "İris"
     ],
     "middle": [
-      "Ladin",
+      "Köknar",
       "Biberiye",
       "Yasemin"
     ],
@@ -86,85 +90,37 @@
       "Sandal ağacı",
       "Misk",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "7",
-    "moderate": "19",
-    "longLasting": "34",
-    "eternal": "17"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "12",
-    "moderate": "19",
-    "strong": "40",
-    "enormous": "31"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "10",
-    "moreMale": "9",
-    "male": "10"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "16",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "9",
-    "goodValue": "4",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Agarwood Collection Provocative"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "Cedre"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "Fille en Aiguilles"
-    },
-    {
-      "brand": "ORİZA L. LEGRAND",
-      "name": "Chypre Mousse"
-    },
-    {
-      "brand": "SVENSK PARFYM",
-      "name": "En"
-    },
-    {
-      "brand": "XERJOFF",
-      "name": "Luxor"
-    },
-    {
-      "brand": "OJAR",
-      "name": "Ciel D'Orage"
-    },
-    {
-      "brand": "PARFUMS REGİNE",
-      "name": "Regine's"
-    },
-    {
-      "brand": "DFG1924",
-      "name": "Il Mercante di Sogni"
-    },
-    {
-      "brand": "AARON TERENCE HUGHES",
-      "name": "Hard Candy"
-    },
-    {
-      "brand": "RİTUALS",
-      "name": "No. 19 Sandal Wood & Patchouli"
-    },
-    {
-      "brand": "IMAGİNARY AUTHORS",
-      "name": "Cape Heartache"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -226,5 +182,6 @@
       "brand": "CREED",
       "name": "Aventus"
     }
-  ]
+  ],
+  "comments": []
 }

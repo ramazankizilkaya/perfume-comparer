@@ -43,12 +43,40 @@
       "width": "52.4%"
     },
     {
+      "name": "pudralı",
+      "width": "47.5%"
+    },
+    {
       "name": "animalik",
       "width": "47.5%"
     },
     {
-      "name": "pudralı",
-      "width": "47.5%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "0",
+    "longLasting": "3",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "0",
+    "strong": "4",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "EMANUEL UNGARO",
+      "name": "Desnuda"
+    },
+    {
+      "brand": "MAİSON DE PARFUM BERRY",
+      "name": "Ambre 35"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Oud Ispahan"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Oud Ispahan"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -176,5 +221,6 @@
       "brand": "HİSTOİRES DE PARFUMS",
       "name": "1899 Hemingway"
     }
-  ]
+  ],
+  "comments": []
 }

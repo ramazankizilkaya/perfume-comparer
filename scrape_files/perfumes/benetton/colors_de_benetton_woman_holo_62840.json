@@ -49,6 +49,10 @@
     {
       "name": "odunsu",
       "width": "44.7369%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -85,53 +89,37 @@
       "Vanilya",
       "Tonka fasulyesi",
       "Sedir"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "3",
-    "moderate": "12",
-    "longLasting": "6",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "12",
-    "strong": "4",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "19",
-    "moreFemale": "2",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "10",
-    "greatValue": "4"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "SHAKİRA",
-      "name": "Dance Stellar"
-    },
-    {
-      "brand": "BODYCOLOGY",
-      "name": "Whipped Vanilla"
-    },
-    {
-      "brand": "KAREN LOW",
-      "name": "Pure Glam"
-    },
-    {
-      "brand": "JİMMY CHOO",
-      "name": "Illicit"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -193,5 +181,6 @@
       "brand": "ESCADA",
       "name": "Cherry in the Air"
     }
-  ]
+  ],
+  "comments": []
 }

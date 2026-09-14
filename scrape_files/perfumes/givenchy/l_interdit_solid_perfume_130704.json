@@ -27,10 +27,6 @@
       "width": "62.5001%"
     },
     {
-      "name": "aromatik",
-      "width": "55.0001%"
-    },
-    {
       "name": "tüberöz",
       "width": "55.0001%"
     },
@@ -43,19 +39,23 @@
       "width": "55.0001%"
     },
     {
+      "name": "aromatik",
+      "width": "55.0001%"
+    },
+    {
       "name": "taze",
       "width": "45%"
     }
   ],
   "rating": {
-    "score": "2.50",
-    "votesCount": "2",
+    "score": "2.25",
+    "votesCount": "4",
     "breakdown": {
       "love": "0",
       "like": "1",
-      "ok": "0",
+      "ok": "1",
       "dislike": "0",
-      "hate": "1"
+      "hate": "2"
     }
   },
   "seasons": {
@@ -83,41 +83,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "0",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "0",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
-    "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "wayOverpriced": "",
+    "overpriced": "",
+    "fair": "1",
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Parfum"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "MYSLF Eau de Parfum"
-    }
-  ],
-  "peopleAlsoLike": []
+  "remindsMeOf": [],
+  "peopleAlsoLike": [],
+  "comments": []
 }

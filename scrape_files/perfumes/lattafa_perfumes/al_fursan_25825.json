@@ -49,6 +49,34 @@
     {
       "name": "amber",
       "width": "62.8571%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -91,33 +119,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "2",
+    "moderate": "12",
+    "longLasting": "11",
+    "eternal": "11"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "12",
+    "strong": "13",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "9",
+    "moreMale": "3",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Kalemat"
+    },
+    {
+      "brand": "M. MİCALLEF",
+      "name": "Delice"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Raghba Classic"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "A*Men"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TOM FORD",
@@ -179,5 +224,6 @@
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Grand Soir"
     }
-  ]
+  ],
+  "comments": []
 }

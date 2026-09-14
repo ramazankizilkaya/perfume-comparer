@@ -49,6 +49,34 @@
     {
       "name": "dumanlı",
       "width": "64.0867%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,33 +115,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "5",
+    "moderate": "47",
+    "longLasting": "59",
+    "eternal": "16"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "47",
+    "strong": "44",
+    "enormous": "11"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "13",
+    "moreFemale": "22",
+    "unisex": "77",
+    "moreMale": "14",
+    "male": "11"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "5",
+    "overpriced": "10",
     "fair": "18",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "20",
+    "greatValue": "13"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LUNİO",
+      "name": "Cherry Fever"
+    },
+    {
+      "brand": "FRAGRANCE DU BOİS",
+      "name": "Sirène"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Baccarat Rouge 540 Extrait de Parfum"
+    },
+    {
+      "brand": "KEVİN SCHEPİS",
+      "name": "Terrifier Circus"
+    },
+    {
+      "brand": "FRAGRANCE DU BOİS",
+      "name": "Oud Orange Intense"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Bade'e Al Oud Oud for Glory"
+    },
+    {
+      "brand": "ROOM 1015",
+      "name": "Cherry Punk"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Oud for Greatness"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "5th Avenue Royale"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Cherry Incense"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Phantom in Red"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Precieux I"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Red Tobacco"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Cherry Cherry"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "La Collection d'antiquités 1505"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MANCERA",
@@ -175,5 +264,6 @@
       "brand": "MOSCHİNO",
       "name": "Toy Boy"
     }
-  ]
+  ],
+  "comments": []
 }

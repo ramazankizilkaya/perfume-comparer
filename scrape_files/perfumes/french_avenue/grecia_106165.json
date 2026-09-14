@@ -16,59 +16,83 @@
     },
     {
       "name": "vanilya",
-      "width": "79.6999%"
+      "width": "84.2904%"
     },
     {
       "name": "laktonik",
-      "width": "74.1003%"
+      "width": "78.6639%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "70.2892%"
+      "width": "70.9184%"
     },
     {
       "name": "tüberöz",
-      "width": "65.778%"
+      "width": "66.5345%"
     },
     {
       "name": "pudralı",
-      "width": "59.9446%"
+      "width": "61.9312%"
     },
     {
       "name": "tatlı",
-      "width": "57.7669%"
+      "width": "59.739%"
     },
     {
       "name": "amber",
-      "width": "57.3002%"
+      "width": "59.0085%"
     },
     {
       "name": "çiçeksi",
-      "width": "55.6668%"
+      "width": "54.6972%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "52.4002%"
+      "width": "54.2588%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.09",
-    "votesCount": "324",
+    "score": "4.04",
+    "votesCount": "351",
     "breakdown": {
-      "love": "151",
-      "like": "99",
-      "ok": "36",
-      "dislike": "27",
-      "hate": "11"
+      "love": "157",
+      "like": "108",
+      "ok": "42",
+      "dislike": "30",
+      "hate": "14"
     }
   },
   "seasons": {
-    "winter": "120",
-    "spring": "111",
-    "summer": "72",
-    "autumn": "127",
-    "day": "123",
-    "night": "81"
+    "winter": "131",
+    "spring": "119",
+    "summer": "76",
+    "autumn": "139",
+    "day": "134",
+    "night": "87"
   },
   "notes": {
     "top": [
@@ -90,30 +114,30 @@
   },
   "longevity": {
     "veryWeak": "5",
-    "weak": "11",
-    "moderate": "72",
-    "longLasting": "51",
+    "weak": "12",
+    "moderate": "77",
+    "longLasting": "57",
     "eternal": "9"
   },
   "sillage": {
-    "intimate": "19",
-    "moderate": "72",
-    "strong": "33",
-    "enormous": "5"
+    "intimate": "21",
+    "moderate": "77",
+    "strong": "35",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "93",
-    "moreFemale": "44",
-    "unisex": "25",
+    "female": "103",
+    "moreFemale": "46",
+    "unisex": "28",
     "moreMale": "4",
-    "male": "2"
+    "male": "3"
   },
   "priceVoting": {
     "wayOverpriced": "9",
     "overpriced": "10",
-    "fair": "36",
-    "goodValue": "70",
-    "greatValue": "33"
+    "fair": "42",
+    "goodValue": "79",
+    "greatValue": "36"
   },
   "remindsMeOf": [
     {
@@ -137,12 +161,12 @@
       "name": "Tonkatonic"
     },
     {
-      "brand": "CHAMBRE52",
-      "name": "Soleil Tonka"
-    },
-    {
       "brand": "ZARA",
       "name": "Seductive Trail"
+    },
+    {
+      "brand": "CHAMBRE52",
+      "name": "Soleil Tonka"
     },
     {
       "brand": "ARMAF",
@@ -158,19 +182,19 @@
     },
     {
       "brand": "TİZİANA TERENZİ",
-      "name": "Orion"
+      "name": "Osola"
+    },
+    {
+      "brand": "WE PİNK",
+      "name": "Ghadan Light"
+    },
+    {
+      "brand": "GRANADO",
+      "name": "Madrepérola"
     },
     {
       "brand": "LE BONHEUR PERFUMES",
       "name": "Sapphire Paradise"
-    },
-    {
-      "brand": "TİZİANA TERENZİ",
-      "name": "Osola"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Muse"
     },
     {
       "brand": "MAISON ASRAR",
@@ -191,12 +215,16 @@
       "name": "Taskeen Lactéa Divina"
     },
     {
+      "brand": "ZADİG & VOLTAİRE",
+      "name": "This is Her"
+    },
+    {
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
     },
     {
-      "brand": "ZADİG & VOLTAİRE",
-      "name": "This is Her"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Petra"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -215,8 +243,8 @@
       "name": "Nebras"
     },
     {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "La Belle"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Qaed Al Fursan Unlimited"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -231,12 +259,200 @@
       "name": "Khamrah"
     },
     {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "By the Fireplace"
-    },
-    {
       "brand": "FRAGRANCE WORLD",
       "name": "Creme of Clouds"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent687959",
+      "author": "zacharoula_t",
+      "date": "2026-01-24",
+      "text": "Henüz koklamadığım bir başka Blanche Bête taklidi. Elimde Her Confession var ve onu sevsem de bazen bir şey beni rahatsız ediyor, o da tütsü kokusu! Bu parfümde o unsur yok ve daha yumuşak! Ama kokuları %95 aynı. Yani eğer Her Confession'ınız varsa buna ihtiyacınız yok! Ekonomik bir Blanche Bête istiyorsanız, iyi bir alternatif olabilir diye düşünüyorum!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.gr",
+      "avatar": "https://fimgs.net/mdimg/avatarigr/m.30191.jpg"
+    },
+    {
+      "id": "parent687903",
+      "author": "MutMaat",
+      "date": "2025-12-30",
+      "text": "Grecia şişemi kelimenin tam anlamıyla birkaç dakika önce açtım.\nİlk başta, tatlandırılmış sütün belirgin ve hoş bir akoru vardı; ambrette ile karışınca, beyaz leylak çiçeklerinin taze ve dolgun kokusunu net bir şekilde hissettim. Şaşkınlığımı ve eğlencemi bir arada düşünün! Daha önce hiç bu kadar ilginç bir kombinasyonla karşılaşmamıştım ve aslında çok sevdim çünkü Grecia'ya beklenmedik ama etkileyici bir özellik katıyor. Üst notada karamel izlenimi bile var, ancak bu oldukça çabuk kayboluyor.\nHindistan cevizi aroması, Rafaello şekerlemeleri gibi, gerçekten de ölçülü ve pudramsı bir kıvamda. Kimyasal, bayıcı veya tropikal bir his vermediği için bu halini tercih ediyorum. \"Çok iyi huylu\"!\nKokunun yayılımının yüksek sesli olmaktan ziyade ten kokusuna daha yakın olmasını seviyorum. Bu, onu daha çok yönlü ve kullanımı kolay hale getiriyor ve son derece sevimli olan narin ve samimi bir nitelik katıyor. Ayrıca tüm Arap parfümlerinin vahşi ve bunaltıcı olduğu klişesini de kırıyor - kesinlikle öyle değiller. Kremsiliğin sorumlusu sümbülteber ve görevini mükemmel bir şekilde yerine getiriyor. Hayvansı veya bayıcı değil, hindistan ceviziyle iyi uyum sağlıyor ve ikisi birlikte kesinlikle mükemmel. Bazen büyükannemin yatmadan önce bana yaptığı bal ve vanilya damlatılmış ılık sütün nostaljik kokusunu alıyorum. Henüz yasemin veya tütsü kokusu almadım, ama almasam bile çok da rahatsız olmayacağım. Karşımdaki kompozisyon zaten isteyebileceğim her şey ve daha fazlası.\nMisk, vanilya ile birlikte kompozisyona fark edilmeden karışarak bu kokunun gurme özelliğini yeniden teyit ediyor; ancak bu özellik zarif ve -bu kelimeden çekinmeyeceğim- aristokratik bir nitelik taşıyor. Notalar kusursuz bir şekilde akıyor, kompozisyon asla bozulmuyor veya kesintiye uğramıyor. Grecia, gerçekten de olağanüstü bir özen ve beceriyle şişelenmiş bir klasik. Genellikle BAE'den çıkan veya \"taklit\" olarak etiketlenen parfümlerden beklenen şey değil. Grecia kendi ilham perisi, sanatçısı ve başyapıtı.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1782125.jpg"
+    },
+    {
+      "id": "parent687915",
+      "author": "raqueel_vl04",
+      "date": "2025-11-19",
+      "text": "Benzerlik inanılmaz. Birkaç ay önce Blanche Bété'nin bir örneğini almıştım ve parfüm aklımdan çıkmıyordu. Bu da yeni geldi ve sonunda ona sahip olduğum için ne kadar mutlu olduğumu anlatamam, çünkü evet, %99,9 aynı. Bunun biraz daha tatlı olduğunu söyleyebilirim, ama vay canına, inanılmaz. Sütlü, kremsi, misk notalarını seviyorsanız, mutlaka almalısınız. Ayrıca, kalitesine göre fiyatı inanılmaz derecede düşük. Ambalajı ve muhteşem şişesini de unutmayalım! 😍",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.183098.jpg"
+    },
+    {
+      "id": "parent687904",
+      "author": "RatieSniffs",
+      "date": "2025-11-17",
+      "text": "Bunu yaklaşık 3 haftadır elimde tutuyorum ve elimden bırakamadığım için yeterince yumuşamasına izin veremiyorum.\nBu, taze yasemin ve sümbülteber çiçeklerinden oluşan bir buketin üzerine dökülmüş, doğru dozda vanilya ile karıştırılmış ılık süt gibi hissettiriyor. Diğer muadillerini ve orijinalini deneme fırsatım olmadı, bu yüzden kapsamlı bir karşılaştırma yapamıyorum. Ancak Grecia'yı seçtiğim için mutluyum. :)\n\nSüt kokusuna pek düşkün değilseniz, bu sizi rahatsız edebilir (bazıları buna bozulmuş süt diyor), ama ben şahsen öyle bir şey hissetmiyorum.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1755828.jpg"
+    },
+    {
+      "id": "parent687937",
+      "author": "xmnkn",
+      "date": "2025-11-04",
+      "text": "Eğer Lattafa'nın \"Her Confession\" adlı eseri sadece bazı bölümlerinde \"Beyaz Canavar\"ı anımsatıyorsa ve oldukça bağımsız kalıyorsa, Grecia neredeyse %100 onun aynısı, ancak daha narin ve hafif bir eserdir.\n\nRaffaello şeker kreması: narin, fındıklı, nefis, ince bir gofret tabakasıyla kaplı. Üzeri ince tonka fasulyesi tozu ve hindistan cevizi parçacıklarıyla süslenmiş; burada hindistan cevizi parçacıkları Blanche Bête'ye göre çok daha fazla, kakao tozu ise sadece eser miktarda.\n\nSümbülteber, vanilyalı kokteylin köpüğü gibi şekerli ve sütlü, aynı zamanda lolipopun mentollü dolgusunu anımsatan kafursu bir kokuya sahip. Hafifçe plastik-lateks kenarlar da hissediliyor, ancak bu sadece yarım yamalak bir şekilde.\n\nSadece birkaç damla tütsü eklemişler (ve hepsi bu kadar), ama ben hiç ambrette kokusu alamıyorum. Bu da Yunanistan'ı Bete'de bulunan o sıcak, süet deri gibi, kucaklayıcı ve sonsuz derecede rahatlatıcı etkiden mahrum bırakıyor.\n\nBu yaratık hipnotize eder, kendi içine kapanır, sakinleştirir; her zerresiyle burada, sizinle birlikte olduğunu gösterir.\nNe Confession ne de Grecia bunu sunabilir. Bu onları daha kötü yapmaz; sadece farklıdırlar.\n\nBlanche Bête'nin gösterişli, hayvansı tarzını ve diğer tartışmalı yönlerini çekici bulanlar için Yunanistan, hoş bir uzlaşma seçeneği olabilir.\nTeknik özellikler açısından da hayal kırıklığına uğratmayacak: Benim tenimde neredeyse bir gün boyunca yoğun, belirgin bir koza gibi kalıyor.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.322714.jpg"
+    },
+    {
+      "id": "parent687894",
+      "author": "Sus4an",
+      "date": "2025-10-21",
+      "text": "Bu DNA'ya alışmam biraz zaman aldı.\nBlanche Bete'nin tüm muadillerini denedim.\n\nGrecia - İlk başta, adeta uhrevi bir kadının kokusunu alıyorsunuz. Çok şık kokuyor. Sonra birkaç dakika sonra, neredeyse duman gibi bir tütsü kokusu geliyor. Neyse ki çabuk kayboluyor çünkü hoşuma gitmedi. Bu koku yaseminden çok sümbülteber kokuyor. Ve bence hepsinin en vanilyalısı. Kremsi ve yumuşak. Ve son olarak yumuşak, şekerli süt gibi bir koku kalıyor.\n\nLattafa'dan gelen itirafı daha çok yasemin, sümbülteber ve tarçın içeriyor, sütlü ve kremsi, aynı zamanda biraz da pudralı. Bana pirinç lapasını hatırlatıyor. Rahatlatıcı, fena değil ve kokusunu bir şekilde seviyorum.\n\nLactea Divina Paris Corner daha laktonik ve süt ile tonka oranı çok yüksek. 12 saat veya daha fazla sürüyor ve duşta çıkarılamıyor, ayrıca biraz ekşi. Süt oranı çok fazla. Neredeyse bebek kusmuğu gibi.\n\nFrench Avenue'den Grecia daha yumuşak, sümbülteber ve vanilya ağırlıklı. Daha kremsi ve havadar. Çok güzel yapılmış. Pürüzsüz. Çok iyi harmanlanmış, çok pahalı kokuyor. Süt notası çok fazla değil. Ve çok fazla çiçek kokusu da yok. Tarçın içermiyor. Belki daha tatlı ve şekerli. Ama kötü anlamda değil. Çok güzel kokuyor ve hepsinin en iyi muadili. Bu DNA'dan neredeyse umudumu kesmiştim ama Grecia fikrimi değiştirdi. Bayıldım!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2435869.jpg"
+    },
+    {
+      "id": "parent723543",
+      "author": "OtherRaylin",
+      "date": "2025-10-10",
+      "text": "Çoğunlukla süt kokusu alıyorum. Ve süt kokusunu daha da sütlü yapan başka bir şey daha. Lol, oldukça güzel, büyük bir süt notası olmasına rağmen beklediğim gibi değil. Bunun katmanlama için en iyi parfümlerimden biri olacağına inanıyorum, sahip olduğum daha keskin parfümlerin çoğunu yumuşatacak. 🖤",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1923422.jpg"
+    },
+    {
+      "id": "parent687925",
+      "author": "Goditilavita83",
+      "date": "2025-10-05",
+      "text": "Bunu severim!\nTaskeen Lactea Divina'nın aksine (başlangıçtaki badem tadının sonra kaybolması ve sütlü bir tat bırakan ama acı bir art tadı olan sümbülteber kokusu üzücü) ve Her Confession'ın aksine (benim zevkime göre çok çiçeksi/sümbülteber kokusu fazla baskın).\nBu tam isabet! Yani, sümbülteber neredeyse hiç hissedilmiyor, tatlı ama aşırı tatlı değil, badem tadı da hissediliyor ve sonuna kadar kalıyor.\nTemiz, sütlü, bademli ve tatlı! Mükemmel denge ve tüm gün kalıcı!!! Harika!!!!!\nBenim gibi sümbülteber çiçeğini sevmeyen kim var ki😅 Deneyin, o zaman bana hak vereceksiniz!\nDört mevsim",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.87323.jpg"
+    },
+    {
+      "id": "parent723542",
+      "author": "Kaletheea",
+      "date": "2025-09-10",
+      "text": "Çok yoğun, ama bunaltıcı bir şekilde. Bana göre, şeker ve vanilyalı ılık süt gibi kokuyor, ama açılışta badem ve dumanlı/kül notaları da aldım. Sütlü notaları kesinlikle sevenlere tavsiye ederim, çünkü çok çok güçlü. Hava durumuna bağlı olarak cildimde 4-6 saat kadar kalıyor ve yayılımı çok hafif.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2623403.jpg"
+    },
+    {
+      "id": "parent687897",
+      "author": "the iliana edit",
+      "date": "2025-09-01",
+      "text": "Blanche Bette'in 3 muadilini ve orijinalini denedikten sonra, koku olarak en yakınının bu olduğunu söyleyebilirim.\nLactea Divina, Blanche Bette'in süt ve çiçeksi notalarının daha yoğun bir versiyonu; Her Confession ise daha çiçeksi bir dokunuşa sahip ve bu ikisi neredeyse birebir aynı. Kalıcılığı orijinali veya Lactea Divina kadar iyi değil (ikisi de cildimde 24 saat kalıcılık sağlayan güçlü parfümler), ancak zarif ve muhtemelen hepsinin en güzel şişesine sahip.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2604555.jpg"
+    },
+    {
+      "id": "parent687916",
+      "author": "Carmetta",
+      "date": "2025-08-11",
+      "text": "Evet, kesinlikle Blanche Bête. Belki Grecia biraz daha tatlıdır, ama %99,9 aynı. Temelde, Blanche Bête'in bir taklidi. Ve bu arada, inanılmaz derecede uzun süre kalıcı, orijinalinden çok daha uzun. (Bir test numunesi denedim; umarım perakende versiyonu da aynı performansı gösterir. Kalıcılık ve yayılım: 10/10)",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.41749.jpg"
+    },
+    {
+      "id": "parent687950",
+      "author": "Virulentiss",
+      "date": "2025-08-11",
+      "text": "Cildime veya burnuma ne oldu bilmiyorum ama birden Blanche Bete'i ve tüm klonlarını sevmeye başladım 🤯 Ve bunların arasında en çok Grecia'yı seviyorum – açılışta neredeyse BB ile birebir aynı, ama sonlara doğru o kadar tatlı bir kokuya dönüşüyor ki, bileğimi burnuma götürmeye devam ediyorum. Birkaç BB dekantım ve bir şişe Her Confession'ım var, ama koleksiyonumdaki bir sonraki kesinlikle Grecia olacak! 🤍",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.81942.jpg"
+    },
+    {
+      "id": "parent687900",
+      "author": "Anna mi.",
+      "date": "2025-07-19",
+      "text": "Kokusu orijinaline çok yakın, bu da hoş bir sürpriz oldu!\nAçılışta hafif bir duman kokusu var 💨 ve hatta acı bademi anımsatan bir his bile yakalıyorum. Koku çok yumuşak ve dengeli, hoş olmayan sürprizler veya baskın notalar yok. Her şey uyumlu ve hoş hissettiriyor.\nSütlü tat kesinlikle mevcut, çok yumuşak ve güzel. Özellikle tatlılığın dengeli ve ölçülü olmasından çok memnunum.\nBana kalırsa bu, Blanche Bete'nin daha yumuşak, daha sakin bir versiyonu gibi geliyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1619988.jpg"
+    },
+    {
+      "id": "parent687895",
+      "author": "Sereen84",
+      "date": "2025-06-14",
+      "text": "Bu eser, Her Confession ve Lacteea Divina arasında, Her Confession Blanche Bete'ye en yakın olanıdır.\nGrecia'nın garip bir kokusu var, kuruduktan sonra da kalıyor. Saman gibi kokuyor. Lacteea Divina fena değil ama tonka o kadar baskın ki diğer notaları gölgede bırakıyor!\n\"Her Confession\" tam anlamıyla mükemmel bir taklit 👌",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1364537.jpg"
+    },
+    {
+      "id": "parent687933",
+      "author": "moi lolita",
+      "date": "2025-06-11",
+      "text": "Üç Arap'ın da bb konusu hakkındaki görüşlerini karşılaştırdığımızda,\n- Lattafa'yı en az beğendim (bana göre çok sentetik, gürültülü, neredeyse baş ağrısı yapacak kadar) (dekantasyon yapıldı).\n- Divina daha yumuşak (üç aylık bekletme işleminden sonra şişeden çıktığı haliyle), bol hindistan cevizi aromalı, biraz daha az kremsi, uzun süre kalıcı ve yayılımı yüksek (soğuk ciltte 6 saatten fazla).\n- Bence Yunanistan'ınki tam tersi, daha kremsi ve hayvansı, kalıcılık/yayılım açısından daha az hindistan cevizi kokulu. Yaklaşık 3 saat boyunca hissettim, sonra da sadece uyguladığım yere dokunduğumda fark ettim (seyahatten sonra şişeden başka bir kaba aktardım).",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.331800.jpg"
+    },
+    {
+      "id": "parent687902",
+      "author": "ssaminn",
+      "date": "2025-06-10",
+      "text": "Hem Grecia'nın hem de Her Confession'ın küçük örneklerini denedim ve dürüst olmak gerekirse, Grecia, HC'ye kıyasla çok daha zayıf geldi.\n\nHer Confession harika bir şekilde yayılıyor. Hava durumuna bağlı olarak bir metreden beş metreye kadar ulaşabiliyor. Buna karşılık Grecia, cilde yakın duruyor ve varlığını neredeyse hiç hissettirmiyor. İkisini de yan yana denedim ve çevremdekilerden de düşüncelerini sordum. Herkes HC'nin daha güçlü, daha kremsi, daha cesur ve daha gerçekçi olduğu konusunda hemfikirdi.\n\nHer Confession'ı \"canavar gibi\" bir koku olarak adlandırmazdım, çünkü kokunun kendisi yumuşak ve nazik. Ama bir şekilde, havada bir melek gibi süzülüyor ve ardında hoş bir iz bırakıyor.\n\nİkisi de çok güzel, ama ben Her Confession'ın tam şişesini alacağım. Gün içinde parfümümün kokusunu alabilmem gerekiyor ve Grecia ile bu mümkün olmuyor. Grecia'nın dekantını iki hafta önce yeni çıkan bir şişeden aldım ve parfümlerin zamanla değişebileceğini biliyorum ama daha önce hiçbir ten kokusunun zamanla yayılan bir kokuya dönüştüğünü görmedim.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.189876.jpg"
+    },
+    {
+      "id": "parent687935",
+      "author": "JaMarka",
+      "date": "2025-06-05",
+      "text": "Blanche Beth'e çok, çok benziyor, benim için neredeyse ayırt edilemez, ancak çok titizseniz fark edebilirsiniz.\nBlanche Beth mevcut olmasına rağmen paralel bir test yapmadım; Yunanistan'dan bir paket aldım, elime sıktım ve işlerimi halletmeye gittim.\nAkşam geç saatlere kadar insanlar bana o kadar güzel kokan şeyin ne olduğunu sorup durdular!\nHafif bir sümbülteber acılığıyla harmanlanmış, en narin vanilyalı milkshake köpüğü, bayıldım!\nFiyatı tam bir masal gibi.\n\nTek bir püskürtmeyle bile koku yayılımının yeterli olduğunu rahatlıkla söyleyebilirim. Ancak yaz için daha fazlasına gerek yok.\n\nKalıcılığı inanılmaz, tek bir fısfıs birden fazla el yıkamaya dayandı (yanlış yere sıktım - avucumun dışına) ve şimdi sabahleyin hala cildimde izleri var.\n\nBeth'i Blanche'ın yerini alabilecek layık bir kişi olarak görüyorum.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent687946",
+      "author": "Mafieusz",
+      "date": "2025-06-04",
+      "text": "Bence Blanche Bete'nin iyi bir kopyası, hatta Her Confession'dan çok daha iyi.\n\nLattafa'da biraz asidik bir koku hissetmiştim ama burada hiç yok, koku yumuşak ve burnu tahriş etmiyor.\n\nOrijinalinin nasıl koktuğunu bilmeyenler için - Raffaello gibi ;) Ve bu yeterli olmalı.\n\nMükemmel parametreler, iyi tahmin.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.42874.jpg"
+    },
+    {
+      "id": "parent687949",
+      "author": "Elena J.",
+      "date": "2025-05-03",
+      "text": "Açıkça:\nKoku, narin bir tütsüyle sarılmış tatlı badem sütüyle bizi karşılıyor. Kompozisyon kremsi, yumuşak ve ilgi çekici; tütsü mistik bir hafiflik katıyor ama baskın değil.\n\nBir saat sonra:\nAroma daha çok hindistan cevizi ağırlıklı bir profile dönüşüyor, hindistan cevizi sütü ve badem ön plana çıkıyor. Kuru, odunsu bir nota ortaya çıkıyor ve tatlılığı hassas bir şekilde dengeliyor. Tütsü neredeyse algılanamaz hale geliyor ve yerini pürüzsüz, sütlü, odunsu bir tabana bırakıyor.\n\nGelişim:\nKompozisyon önemli ölçüde değişmiyor; sütlü tonlar hala baskın, odunsu vurgu ise giderek daha belirgin hale geliyor. Narin bir vanilya ortaya çıkıyor ve kadifemsi, hafif gurme bir karakter katıyor. Koku çok yumuşak, hoş ve kadınsı bir hal alıyor.\n\nUç:\nGrecia White, bu aşamada, hafif kuru odunsu bir notayla harmanlanmış, incelikli, sütlü bir hindistan cevizi kokusu. Tatlılık hala mevcut, ancak baskın değil. Koku rahatlatıcı, sakin ve kesinlikle hoş, ancak tene yakın kalma eğiliminde.\n\nÖzet:\nGrecia White, Paris Corner'a benzer bir açılışla başlayan, ancak daha tatlı ve ekşi notadan yoksun, sütlü-odunsu bir koku. Lattafa'nın \"Her Confession\"ı da benzer, ancak belirgin beyaz çiçek notasından yoksun. Bir saat sonra, koku daha tanıdık Paris Corner profiline benzemeye başlıyor, bu da ikisinin bir melezi olabileceğini düşündürüyor.\n\nArtıları:\n– Yumuşak, kadınsı ve son derece rahat kullanılabilen bir koku.\n– Güzel şişe\n– Hafif tatlılık ve dengeli sütlü notalar\n\nDezavantajları:\n– Ortalama tahmin\n– Kalıcılık: yaklaşık 5 saat – fiyatı göz önüne alındığında oldukça mütevazı bir süre, ancak cilde yakın uygulandığında daha uzun süre kalıcı olduğu da belirtilmelidir.\n– Daha ucuz alternatiflere çok benziyor.\n\nKarar ve benim görüşüm:\nGrecia White hoş bir kompozisyon, ancak özellikle fiyatı göz önüne alındığında, rakiplerinden öne çıkmıyor. Aynı fiyata iki şişe Paris Corner alabiliyorsanız ve aradaki farklar minimal ise, seçim açıkça belli oluyor. Sütlü tatlı, göze batmayan kompozisyonları seven, ancak özgünlük veya kalıcılık beklemeyen kadınlar için bir koku. Beğendim mi? Evet, sadece farklı bir kokuyu tercih ediyorum.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     }
   ]
 }

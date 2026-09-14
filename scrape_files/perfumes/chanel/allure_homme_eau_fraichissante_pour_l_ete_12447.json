@@ -41,13 +41,41 @@
     {
       "name": "amber",
       "width": "46.2037%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.04",
-    "votesCount": "96",
+    "score": "4.05",
+    "votesCount": "97",
     "breakdown": {
-      "love": "40",
+      "love": "41",
       "like": "35",
       "ok": "7",
       "dislike": "13",
@@ -55,12 +83,12 @@
     }
   },
   "seasons": {
-    "winter": "12",
-    "spring": "30",
-    "summer": "33",
-    "autumn": "20",
-    "day": "35",
-    "night": "18"
+    "winter": "13",
+    "spring": "31",
+    "summer": "34",
+    "autumn": "21",
+    "day": "36",
+    "night": "19"
   },
   "notes": {
     "top": [
@@ -83,26 +111,26 @@
   "longevity": {
     "veryWeak": "8",
     "weak": "5",
-    "moderate": "23",
+    "moderate": "24",
     "longLasting": "12",
     "eternal": "6"
   },
   "sillage": {
     "intimate": "11",
-    "moderate": "23",
+    "moderate": "24",
     "strong": "15",
     "enormous": "8"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "4",
+    "unisex": "5",
     "moreMale": "7",
     "male": "9"
   },
   "priceVoting": {
     "wayOverpriced": "3",
-    "overpriced": "4",
+    "overpriced": "5",
     "fair": "7",
     "goodValue": "2",
     "greatValue": "0"
@@ -175,6 +203,10 @@
       "name": "Allure Homme"
     },
     {
+      "brand": "CHANEL",
+      "name": "Allure Homme Sport Eau Extreme"
+    },
+    {
       "brand": "GUERLAİN",
       "name": "L'Instant de Guerlain pour Homme"
     },
@@ -205,10 +237,7 @@
     {
       "brand": "CHANEL",
       "name": "Egoiste Platinum"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "La Nuit de l'Homme"
     }
-  ]
+  ],
+  "comments": []
 }

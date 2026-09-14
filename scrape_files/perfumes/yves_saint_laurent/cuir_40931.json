@@ -49,26 +49,54 @@
     {
       "name": "meyvemsi",
       "width": "54.7917%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.25",
-    "votesCount": "251",
+    "score": "4.24",
+    "votesCount": "256",
     "breakdown": {
-      "love": "132",
+      "love": "135",
       "like": "74",
-      "ok": "22",
-      "dislike": "21",
+      "ok": "23",
+      "dislike": "22",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "76",
+    "winter": "78",
     "spring": "30",
     "summer": "10",
-    "autumn": "81",
-    "day": "39",
-    "night": "77"
+    "autumn": "83",
+    "day": "41",
+    "night": "79"
   },
   "notes": {
     "top": [
@@ -89,33 +117,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "15",
+    "weak": "4",
+    "moderate": "31",
+    "longLasting": "54",
+    "eternal": "24"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "14",
+    "moderate": "31",
+    "strong": "62",
+    "enormous": "40"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "2",
+    "unisex": "28",
+    "moreMale": "28",
+    "male": "19"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "22",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "12",
+    "overpriced": "28",
+    "fair": "23",
+    "goodValue": "8",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ERMENEGİLDO ZEGNA",
+      "name": "Passion"
+    },
+    {
+      "brand": "ZARA",
+      "name": "LTH/02 Leather Freestyle"
+    },
+    {
+      "brand": "ERMENEGİLDO ZEGNA",
+      "name": "Peruvian Ambrette"
+    },
+    {
+      "brand": "MİND GAMES",
+      "name": "Grand Master"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Ombré Leather (2018)"
+    },
+    {
+      "brand": "FENDİ",
+      "name": "Fan di Fendi pour Homme"
+    },
+    {
+      "brand": "ATELİER COLOGNE",
+      "name": "Gold Leather"
+    },
+    {
+      "brand": "BENTLEY",
+      "name": "Bentley for Men Intense"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Ambre Nuit"
+    },
+    {
+      "brand": "ATELİER DES ORS",
+      "name": "Rouge Sarây"
+    },
+    {
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Traversee du Bosphore"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Leather Patchouli"
+    },
+    {
+      "brand": "BEAUFORT LONDON",
+      "name": "Coeur De Noir"
+    },
+    {
+      "brand": "MOLİNARD",
+      "name": "Cuir Eau de Parfum"
+    },
+    {
+      "brand": "FENDİ",
+      "name": "Fan di Fendi Extreme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TOM FORD",
@@ -177,5 +266,6 @@
       "brand": "TOM FORD",
       "name": "Noir de Noir"
     }
-  ]
+  ],
+  "comments": []
 }

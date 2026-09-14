@@ -49,6 +49,34 @@
     {
       "name": "vanilya",
       "width": "47.027%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,33 +115,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "3",
+    "longLasting": "14",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "3",
+    "strong": "8",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "2",
+    "unisex": "7",
+    "moreMale": "6",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "4",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Privé Rose d'Arabie"
+    },
+    {
+      "brand": "MEMOİZE LONDON",
+      "name": "Superbia"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Un balcón sobre el paseo del Prado"
+    },
+    {
+      "brand": "MORPH",
+      "name": "Vapor"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -124,12 +169,12 @@
       "name": "Les Absolus d'Orient Santal Royal"
     },
     {
-      "brand": "LOUİS VUİTTON",
-      "name": "Ombre Nomade"
-    },
-    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Tuxedo"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Ombre Nomade"
     },
     {
       "brand": "PENHALİGON'S",
@@ -175,5 +220,6 @@
       "brand": "PARFUMS DE MARLY",
       "name": "Kalan"
     }
-  ]
+  ],
+  "comments": []
 }

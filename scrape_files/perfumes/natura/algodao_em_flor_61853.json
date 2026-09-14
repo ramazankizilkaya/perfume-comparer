@@ -25,6 +25,34 @@
     {
       "name": "bitkisel",
       "width": "45.4412%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -57,33 +85,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "7",
+    "moderate": "2",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "2",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "2",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Cuide-se Bem Show de Banho"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Lavanda e Baunilha"
+    },
+    {
+      "brand": "MARY KAY",
+      "name": "Simply Cotton"
+    },
+    {
+      "brand": "LOE",
+      "name": "Laundry Scent"
+    },
+    {
+      "brand": "SOLİNOTES",
+      "name": "Cotton Blossom"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Algodão Envolvente"
+    },
+    {
+      "brand": "GİANFRANCO FERRE",
+      "name": "Camicia 113 Eau de Toilette"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Algodão"
+    },
+    {
+      "brand": "S.OLİVER",
+      "name": "Soulmate Women"
+    },
+    {
+      "brand": "ESTHER P",
+      "name": "Barbara"
+    },
+    {
+      "brand": "RANCE 1795",
+      "name": "Pauline"
+    },
+    {
+      "brand": "KORRES",
+      "name": "White Tea Bergamot Freesia"
+    },
+    {
+      "brand": "RODİER",
+      "name": "Eau Legere"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Sea Island Cotton"
+    },
+    {
+      "brand": "SALVADOR DALİ",
+      "name": "Fabulous 3 - Eau de RubyLips"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -91,7 +180,7 @@
     },
     {
       "brand": "BVLGARİ",
-      "name": "Omnia Crystalline"
+      "name": "Omnia Crystalline Eau de Toilette"
     },
     {
       "brand": "CAROLİNA HERRERA",
@@ -145,5 +234,6 @@
       "brand": "NATURA",
       "name": "Frescor de Buriti"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "sarı çiçeksi",
       "width": "65%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,37 +117,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "5",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "5",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "4",
+    "moreMale": "4",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "3",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "XERJOFF",
+      "name": "Ipnotica"
+    },
+    {
+      "brand": "GRANDE",
+      "name": "Cuore"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BY KİLİAN",
-      "name": "Angel's Share On The Rocks"
+      "name": "Angels' Share On The Rocks"
     },
     {
       "brand": "LOUİS VUİTTON",
@@ -131,7 +168,7 @@
     },
     {
       "brand": "XERJOFF",
-      "name": "Uden"
+      "name": "Richwood"
     },
     {
       "brand": "GUERLAİN",
@@ -139,7 +176,7 @@
     },
     {
       "brand": "XERJOFF",
-      "name": "Richwood"
+      "name": "Uden"
     },
     {
       "brand": "TOM FORD",
@@ -159,11 +196,11 @@
     },
     {
       "brand": "XERJOFF",
-      "name": "Homme Anniversary"
+      "name": "Torino24"
     },
     {
       "brand": "XERJOFF",
-      "name": "Torino24"
+      "name": "Homme Anniversary"
     },
     {
       "brand": "CREED",
@@ -177,5 +214,6 @@
       "brand": "LOUİS VUİTTON",
       "name": "City Of Stars"
     }
-  ]
+  ],
+  "comments": []
 }

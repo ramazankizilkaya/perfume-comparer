@@ -45,14 +45,42 @@
     {
       "name": "çiçeksi",
       "width": "46.1637%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.01",
-    "votesCount": "139",
+    "votesCount": "140",
     "breakdown": {
       "love": "52",
-      "like": "59",
+      "like": "60",
       "ok": "9",
       "dislike": "16",
       "hate": "3"
@@ -60,10 +88,10 @@
   },
   "seasons": {
     "winter": "6",
-    "spring": "41",
-    "summer": "73",
+    "spring": "42",
+    "summer": "74",
     "autumn": "11",
-    "day": "75",
+    "day": "76",
     "night": "8"
   },
   "notes": {
@@ -85,33 +113,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "10",
+    "weak": "15",
+    "moderate": "34",
+    "longLasting": "13",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "26",
+    "moderate": "34",
+    "strong": "18",
+    "enormous": "17"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "46",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "4",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "18",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ESCADA",
+      "name": "Born in Paradise"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Fiesta Carioca"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Maui Fantasy"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Caramelos Artesanos en Barcelona"
+    },
+    {
+      "brand": "COSMOPOLİTAN",
+      "name": "Good Energy"
+    },
+    {
+      "brand": "MANDARİNA DUCK",
+      "name": "Freedomland"
+    },
+    {
+      "brand": "TOUS",
+      "name": "Tous Gems Party"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Taj Sunset"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Agua de Amor Amor"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Frosted Coconut Snowball"
+    },
+    {
+      "brand": "FABERLİC",
+      "name": "Primo Bacio"
+    },
+    {
+      "brand": "AVON",
+      "name": "Ultra Sexy Pink"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Uva Rosa e Romã"
+    },
+    {
+      "brand": "SİMONE ANDREOLİ",
+      "name": "Sunplosion"
+    },
+    {
+      "brand": "JEQUİTİ",
+      "name": "Bem-Me-Quer com Desejo"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NİNA RİCCİ",
@@ -122,12 +211,12 @@
       "name": "La Vie Est Belle"
     },
     {
-      "brand": "CACHAREL",
-      "name": "Amor Amor"
-    },
-    {
       "brand": "MUGLER",
       "name": "Angel"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Amor Amor"
     },
     {
       "brand": "CACHAREL",
@@ -173,5 +262,6 @@
       "brand": "CAROLİNA HERRERA",
       "name": "Good Girl"
     }
-  ]
+  ],
+  "comments": []
 }

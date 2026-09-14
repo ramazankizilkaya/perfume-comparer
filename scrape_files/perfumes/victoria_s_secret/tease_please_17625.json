@@ -71,54 +71,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "5",
-    "moderate": "10",
-    "longLasting": "5",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "10",
-    "strong": "1",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "7",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "4",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "PHİLOSOPHY",
-      "name": "Amazing Grace Bergamot"
-    },
-    {
-      "brand": "CALVİN KLEİN",
-      "name": "Eternity Moment"
-    },
-    {
-      "brand": "PENHALİGON'S",
-      "name": "Quercus"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Angel Gold"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Pera Granita"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -180,5 +159,6 @@
       "brand": "DONNA KARAN",
       "name": "DKNY Be Delicious"
     }
-  ]
+  ],
+  "comments": []
 }

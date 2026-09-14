@@ -2,7 +2,7 @@
   "name": "Le Cri de la Lumière Parfum d'Empire",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Leather",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47196.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Parfum-d-Empire/Le-Cri-de-la-Lumiere-47196.html",
   "brand": "Parfum d'Empire parfüm ve kolonya",
@@ -16,59 +16,87 @@
     },
     {
       "name": "gül",
-      "width": "85.1074%"
+      "width": "84.7632%"
     },
     {
       "name": "çiçeksi",
-      "width": "79.9137%"
+      "width": "79.5903%"
     },
     {
       "name": "aldehitli",
-      "width": "79.2251%"
+      "width": "78.9029%"
     },
     {
       "name": "iris",
-      "width": "78.5995%"
+      "width": "78.4986%"
     },
     {
       "name": "pudralı",
-      "width": "77.64%"
+      "width": "77.6099%"
     },
     {
       "name": "odunsu",
-      "width": "74.1777%"
+      "width": "74.7403%"
     },
     {
       "name": "taze",
-      "width": "59.5351%"
+      "width": "59.3421%"
     },
     {
       "name": "toprak",
-      "width": "58.2834%"
+      "width": "58.1293%"
     },
     {
       "name": "menekşe",
-      "width": "54.2997%"
+      "width": "54.2493%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.14",
-    "votesCount": "701",
+    "votesCount": "718",
     "breakdown": {
-      "love": "326",
-      "like": "224",
-      "ok": "84",
-      "dislike": "59",
-      "hate": "8"
+      "love": "336",
+      "like": "226",
+      "ok": "86",
+      "dislike": "61",
+      "hate": "9"
     }
   },
   "seasons": {
-    "winter": "105",
-    "spring": "242",
-    "summer": "179",
-    "autumn": "174",
-    "day": "216",
-    "night": "93"
+    "winter": "109",
+    "spring": "248",
+    "summer": "184",
+    "autumn": "179",
+    "day": "222",
+    "night": "94"
   },
   "notes": {
     "top": [
@@ -89,30 +117,30 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "11",
+    "veryWeak": "12",
     "weak": "15",
     "moderate": "85",
-    "longLasting": "118",
+    "longLasting": "120",
     "eternal": "33"
   },
   "sillage": {
-    "intimate": "44",
+    "intimate": "45",
     "moderate": "85",
     "strong": "65",
     "enormous": "29"
   },
   "genderVoting": {
     "female": "34",
-    "moreFemale": "85",
-    "unisex": "124",
+    "moreFemale": "87",
+    "unisex": "127",
     "moreMale": "7",
     "male": "4"
   },
   "priceVoting": {
     "wayOverpriced": "6",
-    "overpriced": "25",
-    "fair": "84",
-    "goodValue": "43",
+    "overpriced": "26",
+    "fair": "86",
+    "goodValue": "44",
     "greatValue": "13"
   },
   "remindsMeOf": [
@@ -121,32 +149,44 @@
       "name": "Les Exclusifs de Chanel No 18"
     },
     {
-      "brand": "COMME DES GARCONS",
-      "name": "Comme des Garcons 2"
+      "brand": "FUKUDO 浮香堂",
+      "name": "The Lover 爱人"
     },
     {
       "brand": "HİSTOİRES DE PARFUMS",
       "name": "Rosam"
     },
     {
-      "brand": "FUKUDO 浮香堂",
-      "name": "The Lover 爱人"
-    },
-    {
-      "brand": "AGENT PROVOCATEUR",
-      "name": "Agent Provocateur"
-    },
-    {
-      "brand": "SOULVENT",
-      "name": "Northern"
+      "brand": "LALİQUE",
+      "name": "Perles De Lalique"
     },
     {
       "brand": "OUAI",
       "name": "Mercer Street"
     },
     {
+      "brand": "AGENT PROVOCATEUR",
+      "name": "Agent Provocateur"
+    },
+    {
+      "brand": "COMME DES GARCONS",
+      "name": "Comme des Garcons 2"
+    },
+    {
+      "brand": "REMİNİSCENCE",
+      "name": "Si Do"
+    },
+    {
+      "brand": "POUR TOUJOURS",
+      "name": "Boule de Gomme"
+    },
+    {
       "brand": "OJAR",
       "name": "Kashmir Print Eau de Parfum"
+    },
+    {
+      "brand": "D’ORSAY",
+      "name": "Une rose au paradis R.B."
     },
     {
       "brand": "OLENTİUM",
@@ -155,26 +195,6 @@
     {
       "brand": "YLUSİA PARFUMS",
       "name": "Nuit Sucrée"
-    },
-    {
-      "brand": "POUR TOUJOURS",
-      "name": "Boule de Gomme"
-    },
-    {
-      "brand": "REMİNİSCENCE",
-      "name": "Si Do"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Misia Eau de Parfum"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "N°18 Eau de Parfum"
-    },
-    {
-      "brand": "PAUL EMİLİEN",
-      "name": "Musc Angelique"
     }
   ],
   "peopleAlsoLike": [
@@ -183,24 +203,24 @@
       "name": "L'Eau d'Hiver"
     },
     {
-      "brand": "PARFUM D'EMPİRE",
-      "name": "Musc Tonkin"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "La Fille de Berlin"
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Rose Tonnerre"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Portrait of a Lady"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Angélique Noire"
+      "brand": "SERGE LUTENS",
+      "name": "La Fille de Berlin"
     },
     {
       "brand": "GUERLAİN",
       "name": "Shalimar Eau de Parfum"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Feminité du Bois"
     },
     {
       "brand": "TOM FORD",
@@ -219,12 +239,12 @@
       "name": "Carnal Flower"
     },
     {
-      "brand": "PARFUM D'EMPİRE",
-      "name": "Azemour Les Orangers"
-    },
-    {
       "brand": "SERGE LUTENS",
       "name": "Fille en Aiguilles"
+    },
+    {
+      "brand": "PARFUM D'EMPİRE",
+      "name": "Azemour Les Orangers"
     },
     {
       "brand": "TAUER PERFUMES",
@@ -237,6 +257,208 @@
     {
       "brand": "PARFUM D'EMPİRE",
       "name": "Cuir Ottoman"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent750852",
+      "author": "Perfume Sensei",
+      "date": "2025-11-06",
+      "text": "Çığlık,\n\nParfum D'empire'dan muhtemelen en sevdiğim, belki de iris ve gül en sevdiğim notalar olduğu için.\n\nMarc Antoine ile bu parfüm hakkında konuşma fırsatım oldu ve bana içeriğinde gül özü ve gerçek iris bulunduğunu söyledi. Ve diğer markalar 400 €'ya boş, ruhsuz parfümler çıkarırken, o bu \"Scream\"i bu fiyata sunuyor.\n\nÖzetle: Amouage Gold/Chanel 18 gibi aldehitlerle harmanlanmış bir iris/gül kombinasyonu.\nİnsanların neden \"miskli\" olarak sınıflandırdığını anlıyorum çünkü aldehit notası çok belirgin ve ona eski tarz/retro bir hava veriyor. Ben bunu rahatsız edici bulmuyorum, ancak bu yönü bazı insanları caydırabilir.\nAma bence bu kokunun %60'ı gül bazlı; bu gülün çok \"kozmetik\" ve şık bir yönü var.\n\nBu çok şık bir koku ve bence kadınlarda daha da güzel duruyor; Bay Corticchiato'dan parfümcülük konusunda bir başka ders daha.\nİnci işlemeli boynu, kusursuzca sürülmüş ruju, özel dikim takım elbisesi ve sevgi dolu kocasıyla geleneksel bir kadının kokusu.\n\nNe diyebilirim ki, 10/10",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.64526.jpg"
+    },
+    {
+      "id": "parent750865",
+      "author": "Michi V",
+      "date": "2025-09-17",
+      "text": "İşte \"temiz\" kokan ama tahmin edilebilir olmayan bir koku. Aldehit bileşenleri, en sabunsu halleriyle açıkça mevcut, ancak bu bileşenin tipik retro havasını korumayı başarıyorlar. Misk bileşeni de var, ancak baskın değil. Çiçeksi bileşen, dikkat çekmek için yarışmadan, \"sabunsuluğu\" daha lüks bir şekilde zenginleştiriyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.77595.jpg"
+    },
+    {
+      "id": "parent750856",
+      "author": "Diiine",
+      "date": "2025-03-12",
+      "text": "Ah, bu parfüm çok güzel! 😍 Çok sevdim; ferah ve çok yönlü. Çok bahar gibi, misk bazlı çiçeksi bir koku. Paçuli hafif ve oldukça zarifken, gül ve iris çok belirgin. Çok hoş.\nDaha önce benzer bir koku duyduğum yeri arıyordum ve L'Oréal'in Steampod'u kullanmadan önce sürdüğünüz saç bakım yağına benziyor, ama daha güzel.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.25770.jpg"
+    },
+    {
+      "id": "parent750854",
+      "author": "Smltamoy",
+      "date": "2025-02-14",
+      "text": "Bugün elime ulaştı ve gerçekten çok beğendim: Parfum d'Orsay'ın Sur tes lèvres'i ve Mauboussin'in Le Secret d'Ariel'i gibi, ortak bir noktaları olan incelikli bir zarafeti paylaştıkları için bu parfüm de onların arasına katılıyor.\n\n\nGülün, tilkinin ve bürokratın buluştuğu başka bir gezegenden gelen kokular. Duygusallıktan uzak, son derece şiirsel: beyaz zehirli bir şiir.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.25489.jpg"
+    },
+    {
+      "id": "parent750863",
+      "author": "violet666",
+      "date": "2024-01-08",
+      "text": "Evet, bu parlak ve temiz bir koku.\nTanıdığım bir kadın bunu kullanıyor; sarışın, sıra dışı, biraz çılgın ama hassas ve bu ışığı seven biri.\nAldehitler belirgin bir şekilde hissediliyor, ancak misk sayesinde daha havadar ve hafif bir hale geliyorlar.\nPembe, evet, soğuk.\nİris, benim için bir çiçek değil, bu klasik esere gövde kazandıran kuru ve acımsı bir kısmı olan bir rizomdur; Fransız ruhuna ve anında ve kesinlikle anlaşılabilir ifadesine sahiptir.\nBu tarz bir havaya sahip olan yerlerden biri Portrait of Lady olabilir, ancak Le Cri daha az klasik ve daha parlak bir tarza sahip ve özü isminde gizli.\nLe cri de la lumière.\nIşığın çığlığı.\n\nEllie Goulding - Işıklar",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.47392.jpg"
+    },
+    {
+      "id": "parent750862",
+      "author": "Caballero",
+      "date": "2023-12-25",
+      "text": "Frapin'in \"L'Humaniste\" parfümüne tamamlayıcı olarak tanımlayabileceğim bir koku: Eğer ikincisi, benim burnuma göre, yağmurlu bir günün ardından bulutların arasından yavaş yavaş yolunu bulan belirsiz bir şafağın soluk beyaz ışığıysa, \"Le Cri\" ise yüksekten yükselen ve kalan bulutları \"çığlık atarak\" kesin bir şekilde süpüren bir güneşin tipik sarımsı ışığıdır.\nÖte yandan, bundan daha temiz, ışıl ışıl, güven verici, büyüleyici ne olabilir ki?\nMisk, iris, ambrette tohumu, aldehit notalarının karışımıyla ışıldayan ve uzaktan beliren narin bir gül kokusuyla tamamlanan bir koku...\nEğer bir renk olsaydı, fildişi beyazı ya da çok açık sarı olurdu; ben buna, hayata her zaman ve her koşulda gülümsemeyi bilen insanlar için \"sarışın\" bir parfüm derdim.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.66257.jpg"
+    },
+    {
+      "id": "parent750837",
+      "author": "Enrium",
+      "date": "2023-09-08",
+      "text": "İris çiçeği seven biri olarak, bu kokuyu uzun zamandır denemek istiyordum. Hafif ama gösterişli pudralı iris notasını odak noktası olarak kullanan Le Cri, yumuşak ama tatmin edici bir şipre tabanına sahip, parlak, berrak aldehitli bir çiçek kokusu. Aldehitler, kokuyu göz kamaştırıcı beyaz sabunsu bir kokuyla boğmadan, çiçekleri mükemmel bir şekilde aydınlatan ince bir ışıltı katıyor. Her notanın iris-gül akorunu güzel bir şekilde tamamladığı bir denge çalışması. Şimdiye kadar, Parfum d'Empire'ı bir marka olarak çok etkiledim ve Marc-Antoine Corticchiato'nun bir parfüm uzmanı olarak çalışmalarına oldukça hayranım. Le Cri, Parfum d'Empire'dan daha önce denediğim yoğun, yosunlu kompozisyonlardan (Corsica Furiosa, Vétiver Bourbon vb.) tarz olarak çok farklı, ancak aynı derecede iyi.\n\nLe Cri, hafif ama lüks, nefis, pudralı bir iris notasıyla açılıyor. Işıltılı aldehitler, çiçeklere kristal bir nitelik katarak kokuyu tamamlıyor. Geliştikçe gül ortaya çıkıyor ve böylece bu kokunun kalbini oluşturan ruj akorunu oluşturuyor. Ahududu da burada mükemmel bir şekilde tamamlayarak meyvemsi bir dokunuş katıyor.\n\nDaha da geliştiğinde, miskli ambrette ortaya çıkarak pudralı iris-gül akorunu mükemmel bir şekilde tamamlar. Yumuşak tatlı, hafif odunsu ve çok pürüzsüzdür. Topraksı paçuli, odunsu notalar ve misk ile birlikte beklenmedik, incelikli bir şipre tabanı oluşturarak her şeyi güzelce bir araya getirir. Pudralı çiçeklerin kalıntılarıyla birlikte miskli, yosunlu bir ten kokusuna dönüşür. Yayılımı ve kalıcılığı orta düzeydedir. Bence kadınsı, mevsim geçişlerine uygun, gündüz kullanılabilecek bir kokudur.\n\nGüzel, hafif bir iris-gül şipresi olan Le Cri, son derece rahat kullanılabilir ve sofistike bir hava yayıyor. Serge Lutens Iris Silver Mist çelik grisi bir fırtına ise, Le Cri parlak, bulutsuz güneşli bir gün gibidir. 4.5/5.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.36833.jpg"
+    },
+    {
+      "id": "parent750842",
+      "author": "grigorian2",
+      "date": "2023-05-20",
+      "text": "Ah, Bay Corthicchiato, çok çabuk en sevdiğim burunlardan biri oldunuz.\nOnun tarzını tanımlayacak en uygun kelime \"sofistike\" olurdu.\n\nLe Cri gerçekten de güzel bir koku, her kullanımda daha da hoşunuza gidiyor. Her yeni kullanımda, sıktığınız miktarla veya dışarıdaki hava koşullarıyla bile bu kokunun yeni yönlerini keşfedeceksiniz.\nKokuların simyasında, ambrette tohumları, iris özü ve gül bir araya gelir. Bu karışım, misk cazibesi, kadifemsi zarafet ve çiçeksi büyünün birleştiği, kokulu bir başyapıt oluşturur.\nBu parfümü yaklaşık bir haftadır kullanıyorum, yani her kullanımda bu kokuyu daha da derinlemesine keşfetmeye devam ediyorum.\n\nAncak Le Cri'yi her kullandığımda aklıma sürekli gelen bir koku var: gümüş şişede Comme des Garçons 2.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.192197.jpg"
+    },
+    {
+      "id": "parent750848",
+      "author": "Fraganceando_madrid",
+      "date": "2022-11-30",
+      "text": "Bu parfümü, tamamen güvendiğim ve zevklerimi paylaştığım niş parfüm camiasından bir üyenin coşkulu tavsiyesi üzerine, hiçbir şey bilmeden satın aldım.\nOnu \"zarif ve narin bir buzul gülü\" olarak tanımladı. Bu sözleri duyunca hiç tereddüt etmeden satın aldım ve ne kadar doğru bir karar vermişim.\nGöz alıcı bir gül kokusu, iris (en baskın iki nota) ve yüksek oranda misk ile çok iyi bir şekilde tamamlanıyor.\nBu koku, büyük bir zarafet, incelik ve klaslık yayıyor; son derece kaliteli ve özenle üretilmiş.\nBu tarz kokuları seviyorsanız kesinlikle tavsiye ederim.\nÇok iyi süre, projeksiyon ve iz bırakma özelliği (sözde \"canavar modu\"ndan uzak ama iyi performans sergiliyor), tamamen unisex ve klasik bir dokunuşa sahip.\nMuhteşem ve her şeyden önemlisi, onu en iyi tanımlayan kelimeleri tekrarlıyorum: zarif ve incelikli.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.42941.jpg"
+    },
+    {
+      "id": "parent750840",
+      "author": "LSAUG",
+      "date": "2022-11-09",
+      "text": "Bugün ZGOperfumery.com'dan Musc tonkin şişemi aldım ve çok cömert davrandılar. Bana 4 adet 1 ml'lik Le Cri numunesi ve bana vereceklerini bilmediğim 2 başka numune daha gönderdiler. Bu yüzden bugün çok mutluyum. Le Cri, göz kamaştırıcı derecede parlak bir aldehit ve keskin bir menekşe tonuyla başlıyor, neredeyse boğucu ve çok Chanel benzeri bir özelliği var. Koku oturdukça, onu çok daha fazla sevmeye başlıyorum. Menekşe ve iris, nazik ve cömert, ancak yumuşak sabunlu bir gül ile yumuşatılıyor ve tüm çiçekler güzel bir misk ile örtülüyor. Bu parfüm aldehitli, çiçeksi, pudralı, sabunlu ve çok temiz bir misk içeriyor. Yumuşak ve hafif tatlı ahududu şimdi devreye giriyor, günümüzün birçok aşırı tatlı parfümünde olduğu gibi güçlü veya abartılı değil. Parfüme ince bir tatlılık katmak ve onu günümüzün zevkleriyle biraz daha uyumlu tutmak için yeterince mevcut. Bu parfüm, geçmişin harika parfümlerine bir övgü niteliğinde. Çok taze ve temiz, ancak 19. ve 20. yüzyıl başlarındaki o temizlik tarzında. Beyaz kalıp sabun, kadın pudraları, kozmetik ürünleri ve çeşitli menekşe, iris ve gül parfümleri, şık ve zarif bir kadının makyaj masasında bir araya geliyor. Bu, önce kıyafetlerime sıkıp 5 dakika beklemem gereken türden bir parfüm. Çok güçlü Chanel benzeri aldehitlerin ve keskin bir menekşenin ilk patlamasından sonra oldukça güzel ve çok giyilebilir hale geliyor. Koleksiyonumda yer almasını isteyip istemediğime karar vermek için biraz daha kullanmam gerekecek. Belki de sadece zaman zaman örneklerini satın alacağım bir şey olur.\n\nDüzenleme: 01.03.2023 Elena P'nin Hermes Rouge ve Kar Kraliçesi'nin büyüsünden etkilenmiş bir parfüm olduğu hakkındaki makalesini okuduktan sonra bu parfümün örneklerini tekrar denedim. Bence Le Cri de böyle bir parfüm. Ne kadar çok koklarsam, Kar Kraliçesi'nin ziyaret ettiği bir bahçenin kokusunu o kadar çok alıyorum. Nefesi gülleri, menekşeleri, süpürge otlarını, irisleri dondurmuş ve onlar da canlanmak için güneşin ışığına ve sıcaklığına özlem duyuyorlar. Bu artık bir aşk ve bence aynı zamanda kıştan bahara geçiş parfümü. Mart/Nisan kar fırtınası veya Mart/Nisan kar erimesi için çiçeksi bir koku. Muhteşem.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1324444.jpg"
+    },
+    {
+      "id": "parent750836",
+      "author": "alphairone",
+      "date": "2022-05-19",
+      "text": "Marc-Antoine Corticchiato, düşündürücü ve güzel kompozisyonlarıyla her zaman hayran kaldığım bir sanatçı olmuştur ve Le Cri de bu konuda bir istisna değil; burada iris çiçeğini, (en azından benim burnuma göre) berrak, tatlı, ballı, neredeyse şakayık benzeri, ışıl ışıl bir Mayıs Gülü/Central Gülü ile bir araya getiriyor.\n\nBu gösterişli aldehitlerin, ahududunun ve bergamotun coşkusu, iris ve gül valsini başlatıyor ve her şey ciltte gerçekten harekete geçtiğinde, nefesi, suyu ve yavaş yavaş daha dolgun ve misk kokulu hale geliyor, tıpkı bir ambrette çiçeğinin odunsu bir kaba tohumlarını döküp odayı irisin kızarmasına neden olan aşk dolu bir birleşmeyle doldurması gibi. Sakallı iris, tuzlu, sıcak bölgelere sakalını sürterek burnumda coşkulu bir zevk yarattı. Kokla, kokla, oooh....",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1213298.jpg"
+    },
+    {
+      "id": "parent750870",
+      "author": "bicubic",
+      "date": "2021-04-26",
+      "text": "Alışkanlık gereği, bunun \"erkek\" mi yoksa \"kadın\" mı olduğunu zihninizde not edersiniz, ancak tanıştıktan bir yıl sonra bile bu olmadı. Gerçekten de kadın ve erkek cildinde çok farklı davranıyor.\n\nBerrak, serin bir açılış, sanki soğuktan getirilmiş büyük bir iris buketi gibi. Aldehitler bu güzel buketi sadece çıtır çıtır bir tazeliğe dondurmakla kalmadı, aynı zamanda meyvemsi bir dokunuş da ekledi. Benim üzerimde bu aşama yaklaşık yarım saat sürüyor, sonra kompozisyon çözülmeye başlıyor. Sadece miskle iç içe geçmiş, narin ve sessizce kırmızı bir tonla parıldayan bir gül ipucu algılıyorum. Ardından, temelinden arındırılmış ve yeşilliklerle zenginleştirilmiş paçuli ile odunsu bir temel geliyor. Garip gelebilir, ama bu paçuli sunumu bana Comme des Garçons 2'yi hatırlattı. Bir şey var... her şeyi cilalayan ve birleştiren aldehitleri de unutmayalım; notalar parıldıyor ve ışıldıyor, ortaya çıkıp kayboluyor gibi görünüyor. Piramidin içinden bir şey çıkarmak zor. Sadece iris çiçeğini net bir şekilde hissediyorum, baştan sona hissediliyor, tonlarıyla (soğuk-pudra-yeşil) oynuyor.\n\nÖzünde bir şipre parfüm, ancak koyu, yosunlu bir tabanı olmadığı için kompozisyonu belirgin şekilde modern; bu da ismiyle garip olurdu. Le Cri, Corticchiato'nun diğer eserlerinden çarpıcı bir şekilde farklı; gerçekten ağırlıksız, ışık ve hava dolu, ama aynı zamanda inanılmaz derecede kalıcı.\n\nSabahları kendinizi içine bırakabileceğiniz ve akşama kadar yorulmayacağınız, inanılmaz derecede güzel bir kişisel bulut.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.88853.jpg"
+    },
+    {
+      "id": "parent750884",
+      "author": "Marietta",
+      "date": "2020-06-12",
+      "text": "Le Cri de la Lumière ''Işığın Çığlığı''.\nİlginç bir isim.\nAğlama varsa, gözyaşı da olur. Son zamanlarda çok ağladım ve hâlâ da ağlıyorum. Üzüntü, umutsuzluk, özlem ve çaresizlik gözyaşları...\nAncak bu incelemenin konusu bu olmayacak.\n\nParfüm çok parlak, hatta kristal gibi.\nTıpkı berrak kaynak suyunun bir kayayı yarıp geçerek sonsuza dek izini bırakması gibi. Ya da bir yanağın üzerinden süzülen bir gözyaşı gibi.\n\nDürüst olmak gerekirse, farklı hayal etmiştim. Nedenini tam olarak bilmiyorum ama farklı bir koku bekliyordum. Ancak burada keşfettiğim aroma beni hiç hayal kırıklığına uğratmadı; aksine, ilgimi çekti.\nBunlar, rafımda bulunan parfümlerden tamamen farklı parfümler ve bu yüzden.\n\nBaşlangıcı oldukça kuru, hatta acımsı.\nBu konuda yazarken, bunların oldukça tatlılıktan yoksun parfümler olduğunu göz ardı edemeyiz.\nCildimin kokuları daha çok emdiğini sanıyordum ama bu sefer dayanamadı.\nAroması kuru olup, mevsim ilerledikçe hafif bir tatlılık kazanır. Ancak bu tatlılık, günümüzde yaygın olarak kullanılan tatlandırıcılar şeklinde değildir.\nBu çok iyi. Bu bir artı.\nParfümler çok çeşitlidir.\nSürekli olarak cilt üzerinde çalışıyorlar.\nElmas veya pırlanta gibi ışıldıyorlar ve parıldıyorlar.\nKokusu da tıpkı bu mücevherler kadar asil.\n\nPüskürtme işleminden sonra aldehitler çok belirgin hale geliyor. Koku kaybolana kadar en başından sonuna kadar hissediliyorlar. Çok fazla alan, parlaklık ve kristal berraklığında bir ses sağlıyorlar.\nBergamotun verdiği keskinlik, muhtemelen onu kuru ve acı yapan şeydir.\nAhududu, kokunun tamamında en az fark edilen nota. Eğer varsa da, daha az olgun bir halde (ben öyle algılıyorum).\nBileğimdeki bu parfümü kokladığımda, gerçekten de \"havuç\" rengi bir iris çiçeği kokusu alabiliyorum. Ve daha yakın zamanda, daha önce hiç böyle bir koku alma fırsatım olmadığını iddia etmiştim. Eh, bir tanesini zaten koklamışım. En azından ilk aşamasında, ki bu da oldukça kısa sürüyor.\nBir sonraki aşama iris çiçeğidir ve süet ve deri benzeri bir dokuya sahiptir.\nVe bir tutam gül, taze ve, söylemeye cesaret edeyim, tam olarak gelişmemiş. Bir süsenin arkasına saklanmış, oldukça utangaç görünüyor.\nTemel notalar, misk alt tonlu aldehitlerdir. Bu karışım, temiz ve berrak bir ton yaratır.\nGenel koku oldukça ferahlatıcı, odunsu ve paçuli notalarıyla sonlanıyor.\n\nBana göre Le Cri de la Lumière, gözbebeğine yazılmış bir övgüdür.\nBurada, bu çiçeği olağanüstü güzel bir şekilde sunarak, çiçeğin birçok yüzü olabileceğini ve her birinin kendi içinde eşit derecede güzel ve ilgi çekici olduğunu gösteriyor.\n\nSon derece zarif bir parfüm. Zarafet ve belli bir rahatlık havası taşıyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.17587.jpg"
+    },
+    {
+      "id": "parent750874",
+      "author": "hab",
+      "date": "2020-01-26",
+      "text": "Açılış hayal kırıklığı yarattı. Neredeyse sadece misk kokusu alıyorum, garip, hayaletimsi ahududu alt tonları da var. Şişeden sıkılan sprey o kadar bol ki kolumun her yerine yayılıyor, sanki koku alma körlüğü yaşıyorum. Yaklaşık 20 dakika sonra daha belirgin hale geliyor. Aynı misk, aldehitler ve ambrette iris ile harmanlanmış. Buradaki aldehitler vintage'dan hiç ilham almıyor. Pudralaşmaya başlıyor, ama gerçekten de güneş ışığı gibi şeffaf ve biçimsiz bir yanı var.\n\nVe bu aşamada donup kalıyor. Beğendiğimi söyleyemem. Ve markanın diğer parfümlerine de pek benzemiyor. Belki de ima dolu Equistrius'a benziyor. Ambrette, iris ve hafif gül notaları kalıyor, ancak bu eşi benzeri görülmemiş hafif aldehitler her şeyi başka bir boyuta taşıyor. Burada net sınırlar yok. Camdan süzülen güneş ışığı gibi. Algılanamaz; insan kokusu olarak algılamıyorum. Burada fiziksel bir beden yok. Katman yok, temel yok. Sadece taşan bir ışık var. Ya da bu durumda, koku.)) Bu yüzden Chanel ile karşılaştırma yanıltıcı. Chanel tam olarak insanlar için. Ama bu koku bedensiz. Yaratıcılarının onu bir hale benzetmesi sebepsiz değil. Gerçekten parfüm dünyasından değil. Ve genel olarak, markanın ürün gamına uymuyor. Bu iyi olabilir; Kendini tekrarlayan unsurlar yok, yeni bir şey arayışı var. Ancak bu koku açıkça herkes için değil ve markanın uzmanları hayal kırıklığına uğrayabilir. Çok deneysel. Kalıcılığı mükemmel, 12 saatten fazla sürüyor ve yerinde kalıyor. Ve hiç koku yayılımı yok.\n\nNasıl değerlendireceğimi bilmiyorum. Ticari bir başarı olduğunu düşünmüyorum. Ama kesinlikle yaratıcı bir başarı. Özellikle de marka çok fazla parfüm piyasaya sürmediği ve ürün yelpazesini genişletme konusunda çok temkinli davrandığı için. Örneğin, bu parfüm sadece 50'lik ve parfüm olarak mevcut. Ancak aldehitlerle yapılan çalışma, tıpkı bir karıştırıcı gibi diğer tüm notaları toz haline getiriyor. Ve yine de, klasik aldehitlerle HİÇBİR ORTAK NOKTASI yok; ilginç bir deneme. Eğer kalıcılığı olsaydı, tamamen insan dışı, soğuk ve parlak bir ışıkla parlayan bir kalıcılığı olurdu. Ve tahmin edebileceğiniz gibi, burada doğallık aramaya hiç gerek yok. Bir fikirler dünyası.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.171839.jpg"
+    },
+    {
+      "id": "parent750845",
+      "author": "floral08",
+      "date": "2019-01-03",
+      "text": "Sabah sisiyle başlar ama birkaç saat sonra parlak güneşin çıkacağını gayet iyi bilirsiniz. Ardından, Türk gülünün en enfes kokularından biri gelir ve koku yolculuğunuz boyunca devam eder. İris çiçeği ise bu güzelliğe sadece yol boyunca eşlik eder.\n\nParlak, güzel, şık ve bir şekilde çok neşeli... Bayıldım...",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1128150.jpg"
+    },
+    {
+      "id": "parent750872",
+      "author": "gdeev",
+      "date": "2018-11-10",
+      "text": "Bir yıl boyunca kokladım ama bir türlü çözemedim. Şimdi de tam olarak anladığımı söyleyemem ama kesinlikle çok seviyorum.\nPdE serisinin geri kalanından gerçekten çok farklı. Belki de yumuşaklık ve rahatlık açısından \"Osmanthus\" en yakını, ama onda hala belirgin bir hayvan derisi hissi var, burada ise hiç yok. Eğer bir deri varsa, o da iç çamaşırından gelen insan derisi (ter değil).\nİlk düşüncem şuydu: Corticchiatto yeni miskler keşfetmiş ve bunlar için bir kullanım alanı arıyor. Bu anlamda, ilk başta bu yeni misklerden başka hiçbir şey koklayamadığınız (ve bu, kısmen koku alma kaybım olmasına rağmen) Musc Angelique Paul Emilien'e çok benziyor.\nİlk çağrışımım: berrak, serin ve... keskin; koku anlamında değil, karakter anlamında. İnsanlar sık ​​sık huysuz olduğumu söyler, bu yüzden bu koku için de aynı şeyi söyleyebilirsiniz sanırım.\nUzun süre boyunca, en başta beliren ama sonra, itiraf etmeliyim ki, hızla genel olarak çok (çok!) uyumlu orkestraya (hayır, orkestra değil—en kötü ihtimalle bir beşli: ambrette, iris, gül, aldehitler ve misk) karışan o uyumsuz nota beni şaşırttı. Ancak dün bunun aslında gül olduğunu fark ettim! Bu iris-ambrette taslağı içinde onu tanımak zor. Ama bir kere tanıdıktan sonra her şey yerli yerine oturuyor.\nCorticchiatto, günlük parfümler trendine katkıda bulundu; bu parfümler, kıyafet seçimi yapmanızı, yanaklarınızı şişirmenizi, kostüm giymenizi, birini randevuya davet etmenizi veya locaya bilet almanızı gerektirmez. Ama tüm bunları yapsanız bile, koku yine de çok uygun olacaktır.\nSanki \"ikinci bir deri\" gibi, ama diğer yandan aslında daha fazlası. Ama kesinlikle onunla uzun süre birlikte olmak istersiniz. Kendisi uzun ve istikrarlı, ama tam olarak soğukkanlılığı ve göze çarpmayan tavrıyla uzun ve istikrarlı.\nHatta henüz kimsenin onun hakkındaki izlenimlerini paylaşmamış olması bana biraz garip geliyor. Değerli biri!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.167296.jpg"
+    },
+    {
+      "id": "parent750883",
+      "author": "Beata Maria",
+      "date": "2018-04-02",
+      "text": "Bu sitede bu parfümü duyuran makaleyi okuduğumda, ilginç bir gül bekliyordum ve hayal kırıklığına uğramadım. Le Cri de la Lumiere bir gül kokusu. Ancak gül, iris çiçeğinin hafif pudramsı dokusuyla yoğun bir şekilde süslenmiş, aynı zamanda bir hafiflik ve aldehitsel alan da barındırıyor. Korkmayın; aldehitler sadece bir imaj, bir izlenim yaratıyor, ancak güzel Türk gülünü bastırmıyorlar. Misk destek sağlıyor ve paçuli ince bir dokunuş katıyor. Bu, kokunun sıkıcı olmasını engelliyor, zamanla gül reçel benzeri bir aşamaya geçse de, bu çağrışımdan kurtulup yemyeşil çiçekleriyle yeniden ortaya çıkıyor. Yosunlu ve odunsu vurgular da ortaya çıkıyor. Bu koku, ince bir terzi tarafından dikilmiş bir takım elbise gibi, iyi tasarlanmış. Antoine Corticchiato'nun parfüm yaratma konusunda bir yeteneği var ve bu sefer hayal kırıklığına uğratmadı. Le Cri de la Lumiere böylece markayı gururla temsil ediyor ve gül severler bu kokuyu güvenle benimseyebilirler. Parfümün bileşimi aromatik ve enerjiktir. Kalıcılığı mükemmeldir ve koku yayılımı kol mesafesinden tene yakın bir noktaya kadar uzanır. Saatler sonra bile kokunun saçlarınızda hafif bir ışıltısını hissedebilirsiniz. Yeni tasarımlı şişe, markanın tarzıyla uyumludur.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.3037.jpg"
+    },
+    {
+      "id": "parent750838",
+      "author": "morkant",
+      "date": "2018-02-07",
+      "text": "Bunu (kağıt üzerinde) neredeyse üç kez denedim ve neredeyse pes etmiştim. Her seferinde hayalet gibiydi, zar zor hissediliyordu, şeritte bulmakta zorlandım. Ambrette, iris ve gül en sevdiğim kokular olduğu ve bu marka da kesinlikle en sevdiğim, ıssız bir adaya götüreceğim marka olduğu için inanamadım.\nSonra sıcaklık yaklaşık 10 derece yükseldi (Kanada'da kış mevsimiydi) ve bu sefer kararlılıkla, cildim üzerinde bir kez daha denedim.\n\nİşte oradaydı!\n\nYeşil, odunsu, ekşi, ışıltılı, nişastalı. Bu sefer kendini gösterdi ve burnuma ulaştı. Tasarımı ve oranlarıyla kesinlikle klasik, ama aynı zamanda modern ve bir tür yeni çağ anti-parfümü gibi de görünüyor. Yeşil elma, armut, misk, buhar, keten, ışık. Donmuş kırmızı meyvelerden bir ipucu. Rüzgarda sallanan dallar. Ekmek notaları. Çelik.\n\n10/10, bu bir başyapıt.\n\nGÜNCELLEME: Bu parfümü o kadar çok sevdim ki, neredeyse hiç kullanmadığım parfümlerden biri olsa bile umurumda olmadı, çünkü çok az kullandığım ama yine de çok sevdiğim birçok parfümüm var, ama bunu oldukça sık kullandığımı fark ettim. Kullanımı kolay çünkü bence çiçeksi bir koku değil, daha çok ekşi, taze, yeşil bir misk gibi duruyor. Çevremdekilere çok dikkat çekmek istemediğim zamanlarda işe yarayan, düşük profilli bir koku ama yine de uzun süre kalıcı ve fark edilebilir bir koku. Yedek şişelerden (birden fazla) alacağım, ancak PdE koleksiyonunda kalıcı bir koku olmasını umuyorum.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.40664.jpg"
+    },
+    {
+      "id": "parent750844",
+      "author": "StellaDiverFlynn",
+      "date": "2017-12-01",
+      "text": "Mumsu, hafif köksü, ruj benzeri bir iris kokusunun kısa süreli hissedilmesinin ardından, Le Cri de la Lumière, göz kamaştırıcı derecede parlak bir ambrette ışığıyla patlıyor. İrisin gizlice hissedildiği, biraz nişastalı, taneli bir dokuya sahip. Ayrıca, armut likörünün alkollü tadı ile köpüklü, hafif sabunsu aldehit arasında gidip gelen, buharlı, temiz bitkisel miskin üzerinde bir burukluk da mevcut.\n\nEğer ambrette ve iris, Le Cri'nin göz kamaştırıcı beyaz ışınının ana gövdesini oluşturuyorsa, onu opal bir mücevhere dönüştüren gül ve yeşil bir nüanstır. Buradaki gül hafif ekşi, klasik bir Şam gülü-paçuli akorunun şarap benzeri yönünü anımsatıyor, ancak çok daha yumuşak ve daha az doygun bir tonda. Fragrantica röportajında ​​Bay Corticchiato, paçuli ve vetiverin daha temiz bir versiyonunu kullandığından ve diğer yenilikçi malzemeler sayesinde hafif, yosun benzeri bir yeşillik yarattığından bahsetti. Paçuli veya vetiveri belirgin bir şekilde algılayamıyorum, ancak ağırlığı olmayan yosunsu yeşillik, Le Cri'de kokladığım yeşil nüansı tanımlamak için tam isabet. Aslında, Le Cri bana öncelikle temiz, buharlaşan beyaz misk ve saydam yosunsu yeşilliğe odaklanan Heeley Chypre 21'in gül versiyonunu hatırlatıyor.\n\nBu koku şöleni uzun sürmüyor. Yaklaşık 2 saat sonra, Le Cri, tatlı armut suyu esintisiyle yumuşak, pürüzsüz, temiz beyaz bir misk kokusuna dönüşüyor. Açıkçası, buradaki misk bana çamaşır deterjanını çağrıştırmıyor, daha çok yataktan yeni kalkmış tenin duyusal kokusunu anımsatıyor.\n\nSonrasında Le Cri, bu masum, saf ve temiz misk kokusunu sonuna kadar koruyor. Çoğu zaman tene yakın kalıyor ve bende yaklaşık 7 saat sürüyor.\n\nLe Cri de la Lumière, parfümüyle ışığı yorumlamayı amaçlıyor ve bence bu ışıltılı, kristal berraklığındaki kompozisyonla bunu muhteşem bir şekilde başarıyor. İlk 2 saat boyunca ambrette, diğer destekleyici notalar arasında parlayan bir yıldız gibi ışıldıyor ve inceliklerinden veya sofistike yapısından ödün vermeden temiz bir koku yaratmanın mümkün olduğunu gösteriyor.\n\nAncak, son notaların ne kadar pürüzsüz ve çok yönlü olduğuna rağmen, parıldayan ambrette'in hızla sessizleşmesi beni biraz hayal kırıklığına uğrattı. Dahası, Parfum d'Empire'ın diğer birçok kreasyonunda olduğu gibi beni kişisel olarak etkilemedi, muhtemelen bu tür temiz, aldehitli çiçeksi yeşil misk kokusu benim tarzım olmadığı için.\n\nBununla birlikte, Le Cri kesinlikle bu türdeki en iyi yapılmış parfümler arasında yer alıyor. Klasik aldehitli ve şipre parfümlere gönderme yapan, ışıltılı, saf beyaz misk kokusundan hoşlanıyorsanız, Le Cri de la Lumière'i en azından denemeye değer buluyorum.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.475352.jpg"
+    },
+    {
+      "id": "parent750834",
+      "author": "rp6969",
+      "date": "2017-11-08",
+      "text": "Bu, yüksek beklentilerimi bile aşıyor. Işıltılı, parıldayan bir ambrette açılışı, gerçekten muhteşem ve zarif bir gül ve iris kombinasyonuyla birleşiyor. Odunsu bir şipre tabanı üzerinde. Parfum D'Empire en sevdiğim markalardan biri ve Tabac Tabou da en çok değer verdiğim kokulardan biri. Le Cri, beklentileri fazlasıyla karşılıyor. Işıltılı bir başyapıttan başka bir şey değil.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.853220.jpg"
     }
   ]
 }

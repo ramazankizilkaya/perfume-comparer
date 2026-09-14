@@ -47,15 +47,43 @@
       "width": "54.1073%"
     },
     {
-      "name": "dumanlı",
+      "name": "tütün",
       "width": "44.9999%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.23",
-    "votesCount": "30",
+    "score": "4.28",
+    "votesCount": "32",
     "breakdown": {
-      "love": "14",
+      "love": "16",
       "like": "11",
       "ok": "3",
       "dislike": "2",
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "15",
-    "spring": "4",
+    "winter": "17",
+    "spring": "6",
     "summer": "2",
-    "autumn": "13",
-    "day": "5",
-    "night": "18"
+    "autumn": "15",
+    "day": "6",
+    "night": "20"
   },
   "notes": {
     "top": [
@@ -87,33 +115,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "1",
+    "moderate": "6",
+    "longLasting": "10",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "6",
+    "strong": "4",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "11",
+    "moreMale": "13",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "16"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ROSENDO MATEU OLFACTİVE EXPRESSİONS",
+      "name": "Rosendo Mateu Nº 5 Floral, Amber, Sensual Musk"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ishq Al Shuyukh Gold"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Eau d'Ombré Leather"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Babycat"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Rifaaqat"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ameer"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "05 Domino Essence"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Babycat Raw Bourbon"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Oud Nacré"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MERCEDES-BENZ",
@@ -175,5 +240,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Ameer Al Oudh Intense Oud"
     }
-  ]
+  ],
+  "comments": []
 }

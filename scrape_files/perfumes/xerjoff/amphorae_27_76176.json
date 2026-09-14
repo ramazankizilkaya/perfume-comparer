@@ -49,6 +49,34 @@
     {
       "name": "odunsu",
       "width": "50.6663%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -94,49 +122,53 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "3",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "3",
+    "strong": "3",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "3",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "5",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
     {
-      "brand": "THE HOUSE OF OUD",
-      "name": "Neverending"
+      "brand": "DİPTYQUE",
+      "name": "Opsis"
     },
     {
-      "brand": "CAROLİNA HERRERA",
-      "name": "Emerald Musk"
+      "brand": "XERJOFF",
+      "name": "Amphorae 17"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Purple Accento Crystal Edition"
     },
     {
       "brand": "TİZİANA TERENZİ",
       "name": "Telea"
     },
     {
-      "brand": "RANİA J",
-      "name": "Musc Moschus"
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Bel Canto"
     },
     {
       "brand": "GUERLAİN",
@@ -147,40 +179,37 @@
       "name": "Iris Ganache"
     },
     {
-      "brand": "CAROLİNA HERRERA",
-      "name": "Gold Myrrh Absolute"
-    },
-    {
-      "brand": "SOSPİRO PERFUMES",
-      "name": "Basso"
-    },
-    {
       "brand": "GİORGİO ARMANİ",
       "name": "Emporio Armani Stronger With You Intensely"
     },
     {
-      "brand": "JO MALONE LONDON",
-      "name": "Violet & Amber Absolu"
+      "brand": "KAYALİ FRAGRANCES",
+      "name": "The Wedding Silk Santal | 36"
     },
     {
-      "brand": "JOVOY PARİS",
-      "name": "Fire At Will"
+      "brand": "PARFUMS DE MARLY",
+      "name": "Safanad"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Opus V – Woods Symphony"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "Fleur de Peau Multiuse Fragrance"
+      "brand": "ROYAL CROWN",
+      "name": "Nocturna"
     },
     {
       "brand": "CAROLİNA HERRERA",
       "name": "Mystery Tobacco"
     },
     {
-      "brand": "EX NİHİLO",
-      "name": "Sweet Morphine"
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Bois Farine"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Paragon"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Fatal Charme"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -25,6 +25,34 @@
     {
       "name": "ekşi",
       "width": "31.2145%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -58,34 +86,47 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "4",
+    "moderate": "4",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "4",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "2",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Acerola e Hibisco"
+    },
+    {
+      "brand": "AVON",
+      "name": "Petit Attitude Girl Power"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Açaí"
+    },
     {
       "brand": "BRİTNEY SPEARS",
       "name": "Fantasy"
@@ -99,16 +140,8 @@
       "name": "Floratta in Gold"
     },
     {
-      "brand": "NATURA",
-      "name": "Cereja e Avelã"
-    },
-    {
       "brand": "O BOTİCÁRİO",
       "name": "Capricho Day"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Luna"
     },
     {
       "brand": "NATURA",
@@ -139,12 +172,17 @@
       "name": "Lily Absolu"
     },
     {
-      "brand": "GRANADO",
-      "name": "Bossa"
+      "brand": "O BOTİCÁRİO",
+      "name": "Portinari"
+    },
+    {
+      "brand": "PHEBO",
+      "name": "Santalum"
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Portinari"
+      "name": "Crazy Choices"
     }
-  ]
+  ],
+  "comments": []
 }

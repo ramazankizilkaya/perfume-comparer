@@ -71,42 +71,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "0",
-    "longLasting": "8",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "0",
-    "strong": "6",
-    "enormous": "7"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "COMPTOİR SUD PACİFİQUE",
-      "name": "Jasmin Poudre"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Golden Aries"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "ETAT LİBRE D'ORANGE",
@@ -134,19 +125,19 @@
     },
     {
       "brand": "FUEGUİA 1833",
-      "name": "Ballena de la Pampa"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Memoir Woman"
+      "name": "Thays"
     },
     {
       "brand": "FUEGUİA 1833",
-      "name": "Thays"
+      "name": "Ballena de la Pampa"
     },
     {
       "brand": "BYREDO",
       "name": "Bal d'Afrique"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Memoir Woman"
     },
     {
       "brand": "SERGE LUTENS",
@@ -168,5 +159,6 @@
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

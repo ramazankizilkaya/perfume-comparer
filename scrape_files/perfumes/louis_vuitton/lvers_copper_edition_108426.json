@@ -33,6 +33,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "44.0456%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -48,10 +76,10 @@
   },
   "seasons": {
     "winter": "61",
-    "spring": "61",
-    "summer": "61",
+    "spring": "62",
+    "summer": "62",
     "autumn": "61",
-    "day": "61",
+    "day": "62",
     "night": "61"
   },
   "notes": {
@@ -69,38 +97,95 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "29",
+    "moderate": "37",
+    "longLasting": "5",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "32",
+    "moderate": "37",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "4",
+    "unisex": "49",
+    "moreMale": "12",
+    "male": "12"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "81",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
       "brand": "LOUİS VUİTTON",
       "name": "LV Lovers"
     },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Ink Mark"
+    },
+    {
+      "brand": "LE FALCONÉ PERFUMES",
+      "name": "Symphony Harmony"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Liam"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Niche Emarati Antique"
+    },
+    {
+      "brand": "JO MİLANO PARİS",
+      "name": "Game of Spades Opal"
+    },
+    {
+      "brand": "MASSİMO DUTTİ",
+      "name": "Irresistible Iris"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Francique 63.55"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Gris Charnel"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Gris Charnel Extrait"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Red Temptation Sandalwood"
+    },
+    {
+      "brand": "MONCLER",
+      "name": "Moncler pour Homme"
+    },
+    {
+      "brand": "FRAGRANCE DU BOİS",
+      "name": "Parisian"
+    },
+    {
+      "brand": "MATİÈRE PREMİÈRE",
+      "name": "Parisian Musc"
+    },
+    {
+      "brand": "FRAPİN",
+      "name": "IF by R.K."
+    }
+  ],
+  "peopleAlsoLike": [
     {
       "brand": "BJORK AND BERRİES",
       "name": "White Forest"
@@ -108,6 +193,10 @@
     {
       "brand": "XERJOFF",
       "name": "Alexandria II"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Apple Brandy on the Rocks"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -134,10 +223,6 @@
       "name": "EGE / ΑΙΓΑΙΟ"
     },
     {
-      "brand": "AFNAN",
-      "name": "Rare Reef"
-    },
-    {
       "brand": "INİTİO PARFUMS PRİVES",
       "name": "Side Effect"
     },
@@ -146,16 +231,21 @@
       "name": "Aventus"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Tobacco Vanille"
+      "brand": "PARFUMS DE MARLY",
+      "name": "Safanad"
     },
     {
       "brand": "LOUİS VUİTTON",
       "name": "Ombre Nomade"
     },
     {
+      "brand": "TOM FORD",
+      "name": "Tobacco Vanille"
+    },
+    {
       "brand": "HERMÈS",
       "name": "Un Jardin Sur Le Nil"
     }
-  ]
+  ],
+  "comments": []
 }

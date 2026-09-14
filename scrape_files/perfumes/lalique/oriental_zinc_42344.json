@@ -49,26 +49,54 @@
     {
       "name": "paçuli",
       "width": "45.6249%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.48",
-    "votesCount": "162",
+    "votesCount": "164",
     "breakdown": {
-      "love": "102",
-      "like": "43",
+      "love": "103",
+      "like": "44",
       "ok": "11",
       "dislike": "5",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "79",
-    "spring": "43",
-    "summer": "10",
-    "autumn": "82",
-    "day": "58",
-    "night": "60"
+    "winter": "81",
+    "spring": "45",
+    "summer": "11",
+    "autumn": "84",
+    "day": "60",
+    "night": "62"
   },
   "notes": {
     "top": [
@@ -89,33 +117,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "4",
+    "moderate": "23",
+    "longLasting": "65",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "23",
+    "strong": "48",
+    "enormous": "17"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "3",
+    "unisex": "45",
+    "moreMale": "34",
+    "male": "17"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "8",
     "fair": "11",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "23",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Eau des Baux"
+    },
+    {
+      "brand": "FRANCK BOCLET",
+      "name": "Tobacco"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Rehab"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Ivory Route"
+    },
+    {
+      "brand": "BOUCHERON",
+      "name": "Jaipur Homme Eau de Parfum"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Spicebomb"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Chergui"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Gris Charnel"
+    },
+    {
+      "brand": "EPİCÒ",
+      "name": "Vani Noire"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Babycat"
+    },
+    {
+      "brand": "PARFUMS BERDOUES",
+      "name": "Maasaï Mara"
+    },
+    {
+      "brand": "ESCENTRİC MOLECULES",
+      "name": "Molecule 01"
+    },
+    {
+      "brand": "KORLOFF PARİS",
+      "name": "Silver Wood"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Magenta Tanzanite"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Tobacco Vanille"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BY KİLİAN",
@@ -162,8 +251,8 @@
       "name": "L’Homme Idéal Eau de Parfum"
     },
     {
-      "brand": "SERGE LUTENS",
-      "name": "Ambre Sultan"
+      "brand": "BENTLEY",
+      "name": "Bentley For Men Absolute"
     },
     {
       "brand": "MUGLER",
@@ -177,5 +266,6 @@
       "brand": "HERMÈS",
       "name": "Terre d'Hermes Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

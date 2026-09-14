@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "amber",
+      "name": "beyaz çiçeksi",
       "width": "88.3333%"
     },
     {
-      "name": "beyaz çiçeksi",
+      "name": "amber",
       "width": "88.3333%"
     },
     {
@@ -39,11 +39,11 @@
       "width": "53.3333%"
     },
     {
-      "name": "animalik",
+      "name": "sarı çiçeksi",
       "width": "47.5%"
     },
     {
-      "name": "sarı çiçeksi",
+      "name": "animalik",
       "width": "47.5%"
     }
   ],
@@ -62,8 +62,8 @@
     "winter": "1",
     "spring": "6",
     "summer": "3",
-    "autumn": "9",
-    "day": "8",
+    "autumn": "10",
+    "day": "9",
     "night": "6"
   },
   "notes": {
@@ -81,46 +81,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "3",
-    "moderate": "8",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "8",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "12",
-    "moreFemale": "2",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "9",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "PHİLOSOPHY",
-      "name": "Fresh Cream Warm Cashmere"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Dark Romance"
-    },
-    {
-      "brand": "WE PİNK",
-      "name": "Heaven Bride"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -182,5 +169,6 @@
       "brand": "BRİTNEY SPEARS",
       "name": "Fantasy"
     }
-  ]
+  ],
+  "comments": []
 }

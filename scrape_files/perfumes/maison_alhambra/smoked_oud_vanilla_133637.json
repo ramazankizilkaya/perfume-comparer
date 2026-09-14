@@ -16,54 +16,74 @@
     },
     {
       "name": "amber",
-      "width": "90.0857%"
-    },
-    {
-      "name": "odunsu",
-      "width": "68.4549%"
-    },
-    {
-      "name": "kahve",
-      "width": "54.0342%"
-    },
-    {
-      "name": "paçuli",
-      "width": "54.0342%"
+      "width": "96.1351%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "50.429%"
+      "width": "84.1104%"
+    },
+    {
+      "name": "odunsu",
+      "width": "72.9448%"
+    },
+    {
+      "name": "paçuli",
+      "width": "64.3558%"
+    },
+    {
+      "name": "vanilya",
+      "width": "58.9876%"
+    },
+    {
+      "name": "kahve",
+      "width": "55.7669%"
+    },
+    {
+      "name": "yumuşak baharatlı",
+      "width": "46.7484%"
+    },
+    {
+      "name": "tatlı",
+      "width": "45.8896%"
     }
   ],
   "rating": {
-    "score": "4.12",
-    "votesCount": "33",
+    "score": "4.20",
+    "votesCount": "50",
     "breakdown": {
-      "love": "",
-      "like": "",
-      "ok": "",
-      "dislike": "",
-      "hate": ""
+      "love": "24",
+      "like": "15",
+      "ok": "8",
+      "dislike": "3",
+      "hate": "0"
     }
   },
   "seasons": {
-    "winter": "",
-    "spring": "",
-    "summer": "",
-    "autumn": "",
-    "day": "",
-    "night": ""
+    "winter": "36",
+    "spring": "7",
+    "summer": "3",
+    "autumn": "35",
+    "day": "22",
+    "night": "36"
   },
   "notes": {
     "top": [
       "Kahve",
-      "Pembe biber,Karanfil"
+      "Pembe biber",
+      "Karanfil"
     ],
     "middle": [
       "Gül",
-      "Heliotrope,Portakal"
+      "Heliotrope",
+      "Portakal"
     ],
-    "base": [],
+    "base": [
+      "Peru balsamı",
+      "Paçuli",
+      "Vanilya",
+      "Amber",
+      "Şeker"
+    ],
     "all": []
   },
   "longevity": {
@@ -89,12 +109,16 @@
   "priceVoting": {
     "wayOverpriced": "",
     "overpriced": "",
-    "fair": "",
+    "fair": "8",
     "goodValue": "",
     "greatValue": ""
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
+    {
+      "brand": "PARIS CORNER",
+      "name": "Mysterium"
+    },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad Elixir"
@@ -104,20 +128,12 @@
       "name": "Asad"
     },
     {
-      "brand": "BENTLEY",
-      "name": "Bentley For Men Absolute"
-    },
-    {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Hercules"
-    },
-    {
       "brand": "ARMAF",
       "name": "Odyssey Homme"
     },
     {
-      "brand": "MANCERA",
-      "name": "Red Tobacco"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Hercules"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -125,19 +141,15 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Teriaq Intense"
-    },
-    {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Kismet Magic"
-    },
-    {
-      "brand": "LALİQUE",
-      "name": "Encre Noire"
+      "name": "Khamrah"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Ameer Al Oudh Intense Oud"
+      "name": "Teriaq Intense"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Musamam White Intense"
     },
     {
       "brand": "FRENCH AVENUE",
@@ -145,15 +157,24 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "The Kingdom For Men"
+      "name": "Ameer Al Oudh Intense Oud"
     },
     {
       "brand": "MAİSON ALHAMBRA",
-      "name": "Versencia Oro"
+      "name": "Toro Pour Homme"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Alpine Homme Sport"
+      "brand": "AFNAN",
+      "name": "Turathi Blue"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Bade'e Al Oud Oud for Glory"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Mashrabya"
     }
-  ]
+  ],
+  "comments": []
 }

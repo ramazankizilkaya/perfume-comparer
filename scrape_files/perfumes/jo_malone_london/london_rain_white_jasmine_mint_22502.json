@@ -63,58 +63,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "5",
-    "moderate": "11",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "7",
-    "moderate": "11",
-    "strong": "9",
-    "enormous": "9"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "1",
-    "unisex": "4",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "White Jasmine & Mint"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Waterlily Tea Dress"
-    },
-    {
-      "brand": "VİLHELM PARFUMERİE",
-      "name": "Basilico & Fellini"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Waterlily Tea Dress"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Thé Yulong"
-    },
-    {
-      "brand": "PRADA",
-      "name": "Paradigme"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JO MALONE LONDON",
@@ -176,5 +151,6 @@
       "brand": "JO MALONE LONDON",
       "name": "Wild Bluebell"
     }
-  ]
+  ],
+  "comments": []
 }

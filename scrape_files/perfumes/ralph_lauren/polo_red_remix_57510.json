@@ -49,13 +49,41 @@
     {
       "name": "yumuşak baharatlı",
       "width": "46.9406%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.24",
-    "votesCount": "50",
+    "score": "4.25",
+    "votesCount": "51",
     "breakdown": {
-      "love": "25",
+      "love": "26",
       "like": "18",
       "ok": "2",
       "dislike": "4",
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "18",
-    "spring": "28",
+    "winter": "19",
+    "spring": "29",
     "summer": "18",
-    "autumn": "31",
-    "day": "23",
-    "night": "27"
+    "autumn": "32",
+    "day": "24",
+    "night": "28"
   },
   "notes": {
     "top": [
@@ -90,33 +118,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "6",
+    "moderate": "24",
+    "longLasting": "10",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "24",
+    "strong": "7",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "10",
+    "male": "20"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "3",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "13",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Red Eau de Parfum"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Red Extreme"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Red Rush"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo 67 Eau de Parfum"
+    },
+    {
+      "brand": "PEPE JEANS LONDON",
+      "name": "Pepe Jeans for Him"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Allure Homme Sport"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Red"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Superman Eau Fraiche"
+    },
+    {
+      "brand": "ENRİQUE IGLESİAS",
+      "name": "Adrenaline"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Holiday Bear Edition Polo Red"
+    },
+    {
+      "brand": "DİESEL",
+      "name": "Bad"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RALPH LAUREN",
@@ -129,10 +202,6 @@
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "La Nuit de l'Homme"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Layton"
     },
     {
       "brand": "RALPH LAUREN",
@@ -163,6 +232,14 @@
       "name": "Eros Flame"
     },
     {
+      "brand": "RABANNE",
+      "name": "1 Million Privé"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Black"
+    },
+    {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Ultra Male"
     },
@@ -173,10 +250,7 @@
     {
       "brand": "BVLGARİ",
       "name": "Bvlgari Man In Black"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Sauvage"
     }
-  ]
+  ],
+  "comments": []
 }

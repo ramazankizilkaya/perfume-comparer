@@ -31,11 +31,11 @@
       "width": "66.5218%"
     },
     {
-      "name": "amber",
+      "name": "gül",
       "width": "62.4638%"
     },
     {
-      "name": "gül",
+      "name": "amber",
       "width": "62.4638%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "pudralı",
       "width": "51.913%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "5",
+    "longLasting": "2",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "5",
+    "strong": "5",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AQUOLİNA",
+      "name": "Pink Sugar Sparks"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Love Me Tight"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Neiman Marcus Exclusive Swarovski® Flowerbomb"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Limited Edition 2011"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Pink Sparkle"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Extreme"
+    },
+    {
+      "brand": "CHARRİOL",
+      "name": "Imperial Saphir"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Swarovski Edition 2016"
+    },
+    {
+      "brand": "PARİS HİLTON",
+      "name": "Dazzle"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle"
+    },
+    {
+      "brand": "NEANDERTAL",
+      "name": "was™"
+    },
+    {
+      "brand": "OAKCHA",
+      "name": "Reborn Lust"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Prada Candy L'Eau"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel Muse"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİKTOR&ROLF",
@@ -176,5 +265,6 @@
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy"
     }
-  ]
+  ],
+  "comments": []
 }

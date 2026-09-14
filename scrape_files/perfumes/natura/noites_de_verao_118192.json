@@ -13,26 +13,54 @@
     {
       "name": "çiçeksi",
       "width": "100%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.14",
-    "votesCount": "44",
+    "score": "4.07",
+    "votesCount": "54",
     "breakdown": {
-      "love": "19",
-      "like": "15",
-      "ok": "7",
+      "love": "22",
+      "like": "19",
+      "ok": "9",
       "dislike": "3",
-      "hate": "0"
+      "hate": "1"
     }
   },
   "seasons": {
-    "winter": "17",
-    "spring": "19",
-    "summer": "24",
-    "autumn": "23",
-    "day": "22",
-    "night": "22"
+    "winter": "21",
+    "spring": "24",
+    "summer": "29",
+    "autumn": "26",
+    "day": "27",
+    "night": "28"
   },
   "notes": {
     "top": [],
@@ -43,33 +71,62 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "7",
+    "moderate": "15",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "15",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "21",
+    "moreFemale": "3",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "9",
+    "goodValue": "11",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Lua"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Midnight Fantasy"
+    },
+    {
+      "brand": "JEQUİTİ",
+      "name": "Eu Desejo"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Scandal"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Romã e Flor de Amora"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Capricho Loving"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Love Spell Fragrance Mist"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -77,15 +134,7 @@
     },
     {
       "brand": "NATURA",
-      "name": "Biografia Caminhos"
-    },
-    {
-      "brand": "NATURA",
       "name": "Ilía Completa"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Noz Pecã e Cacau"
     },
     {
       "brand": "NATURA",
@@ -93,7 +142,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Ilía Laços"
+      "name": "Noz Pecã e Cacau"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Algodão"
     },
     {
       "brand": "NATURA",
@@ -117,6 +170,10 @@
     },
     {
       "brand": "NATURA",
+      "name": "Manga Rosa e Água de Coco"
+    },
+    {
+      "brand": "NATURA",
       "name": "Biografia Assinatura"
     },
     {
@@ -131,5 +188,6 @@
       "brand": "NATURA",
       "name": "Frescor de Castanha"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -1,27 +1,30 @@
 /**
  * Parfüm linkleri tek yerden kurulur.
- * API her kayıt için SEO yolunu (`path`) döndürür:
- *   "erkek/edp/dior/dior-homme-edp"
- * Burada başına /parfum ekliyoruz. Böylece breadcrumb, kart ve arama
- * linkleri asla birbirinden ayrışmaz.
+ * Başına dil kodu eklenir (/tr/parfum/...). Böylece breadcrumb, kart ve arama
+ * linkleri tutarlı ve çoklu dil uyumlu çalışır.
  */
-export function perfumeHref(path?: string | null, fallbackSlug?: string | null): string {
-    if (path && path.trim().length > 0) return `/parfum/${path}`;
-    if (fallbackSlug) return `/parfum/${fallbackSlug}`;
-    return "/";
+export function localeHref(path: string, lang: string = "tr"): string {
+    const cleanPath = path.startsWith("/") ? path : `/${path}`;
+    return `/${lang}${cleanPath === "/" ? "" : cleanPath}`;
+}
+
+export function perfumeHref(path?: string | null, fallbackSlug?: string | null, lang: string = "tr"): string {
+    if (path && path.trim().length > 0) return `/${lang}/parfum/${path}`;
+    if (fallbackSlug) return `/${lang}/parfum/${fallbackSlug}`;
+    return `/${lang}`;
 }
 
 /** Karşılaştırma sayfası linki. */
-export function compareHref(slug1?: string | null, slug2?: string | null): string {
-    if (!slug1 || !slug2) return "/karsilastir";
-    return `/karsilastir?items=${encodeURIComponent(slug1)},${encodeURIComponent(slug2)}`;
+export function compareHref(slug1?: string | null, slug2?: string | null, lang: string = "tr"): string {
+    if (!slug1 || !slug2) return `/${lang}/karsilastir`;
+    return `/${lang}/karsilastir?items=${encodeURIComponent(slug1)},${encodeURIComponent(slug2)}`;
 }
 
 export const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? "http://localhost:5026";
 
 /** Marka sayfası linki. */
-export function brandHref(slug?: string | null): string {
-    return slug ? `/marka/${slug}` : "/marka";
+export function brandHref(slug?: string | null, lang: string = "tr"): string {
+    return slug ? `/${lang}/marka/${slug}` : `/${lang}/marka`;
 }
 
 /**

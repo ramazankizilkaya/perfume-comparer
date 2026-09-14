@@ -49,24 +49,52 @@
     {
       "name": "tatlı",
       "width": "45.1668%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.21",
-    "votesCount": "52",
+    "score": "4.23",
+    "votesCount": "57",
     "breakdown": {
-      "love": "24",
-      "like": "20",
-      "ok": "4",
+      "love": "27",
+      "like": "21",
+      "ok": "5",
       "dislike": "3",
       "hate": "1"
     }
   },
   "seasons": {
     "winter": "6",
-    "spring": "19",
-    "summer": "18",
-    "autumn": "15",
+    "spring": "21",
+    "summer": "20",
+    "autumn": "16",
     "day": "22",
     "night": "7"
   },
@@ -94,41 +122,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "6",
+    "moderate": "11",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "11",
+    "strong": "1",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "6",
+    "unisex": "13",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "5",
+    "goodValue": "12",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
       "brand": "NATURA",
-      "name": "Essencial Exclusivo Floral"
+      "name": "Frescor Flor de Cupuaçú"
     },
+    {
+      "brand": "NATURA",
+      "name": "Flor da Manhã"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Magia da Floresta"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor Tukumã"
+    },
+    {
+      "brand": "MARIA CHER.",
+      "name": "Iris"
+    },
+    {
+      "brand": "ETAT LİBRE D'ORANGE",
+      "name": "I am Trash - Les Fleurs du Déchet"
+    },
+    {
+      "brand": "GRANADO",
+      "name": "Cardamomo & Gengibre"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ekos Alma"
+    },
+    {
+      "brand": "PHEBO",
+      "name": "Mandarina Asiática"
+    }
+  ],
+  "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
       "name": "Floratta in Blue"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Amarige"
     },
     {
       "brand": "NATURA",
@@ -139,12 +204,8 @@
       "name": "Alien"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Acqua di Gioia"
-    },
-    {
-      "brand": "GRANADO",
-      "name": "Imperial"
+      "brand": "NATURA",
+      "name": "Kriska"
     },
     {
       "brand": "DİOR",
@@ -152,15 +213,19 @@
     },
     {
       "brand": "NATURA",
-      "name": "Frescor de Pitanga Preta"
+      "name": "Frescor de Cumaru"
     },
     {
       "brand": "NATURA",
-      "name": "Frescor de Cumaru"
+      "name": "Frescor de Pitanga Preta"
     },
     {
       "brand": "GİVENCHY",
       "name": "Ange ou Demon"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Revelar"
     },
     {
       "brand": "NATURA",
@@ -176,11 +241,12 @@
     },
     {
       "brand": "NATURA",
-      "name": "Homem Verum"
+      "name": "Luna Intenso"
     },
     {
       "brand": "NATURA",
-      "name": "Frescor de Buriti"
+      "name": "Homem Verum"
     }
-  ]
+  ],
+  "comments": []
 }

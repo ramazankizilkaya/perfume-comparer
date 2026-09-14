@@ -29,6 +29,34 @@
     {
       "name": "tatlı",
       "width": "36.2222%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "3",
+    "winter": "4",
     "spring": "3",
     "summer": "2",
     "autumn": "4",
@@ -94,6 +122,10 @@
   ],
   "peopleAlsoLike": [
     {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez For Her"
+    },
+    {
       "brand": "CHANEL",
       "name": "Allure Sensuelle"
     },
@@ -110,20 +142,16 @@
       "name": "Viva La Juicy Noir"
     },
     {
+      "brand": "CHANEL",
+      "name": "Coco Mademoiselle"
+    },
+    {
       "brand": "CHLOÉ",
       "name": "Love Story"
     },
     {
       "brand": "VİCTORİA'S SECRET",
       "name": "Fearless"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Sì Passione"
-    },
-    {
-      "brand": "SABRİNA CARPENTER",
-      "name": "Sweet Tooth"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -134,16 +162,16 @@
       "name": "Miss Dior Blooming Bouquet"
     },
     {
-      "brand": "PRADA",
-      "name": "Prada Candy Night"
-    },
-    {
       "brand": "JO MALONE LONDON",
       "name": "Wood Sage & Sea Salt"
     },
     {
       "brand": "TOM FORD",
       "name": "Soleil Blanc"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bombshell"
     },
     {
       "brand": "KENZO",
@@ -153,5 +181,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "Dolce Garden"
     }
-  ]
+  ],
+  "comments": []
 }

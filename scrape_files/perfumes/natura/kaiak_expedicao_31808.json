@@ -29,6 +29,34 @@
     {
       "name": "pudralı",
       "width": "44.3077%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -80,33 +108,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "1",
+    "moderate": "17",
+    "longLasting": "15",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "17",
+    "strong": "7",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "1",
+    "male": "14"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Kaiak Urbe"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Greenergy"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kaiak Sonar"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Hugo Now"
+    },
+    {
+      "brand": "VİCTORİNOX SWİSS ARMY",
+      "name": "Swiss Army Forest"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Guilty Black Pour Homme"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Tommy"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Sr. N"
+    },
+    {
+      "brand": "DİLÍS PARFUM",
+      "name": "Stark Will"
+    },
+    {
+      "brand": "LOLİTA LEMPİCKA",
+      "name": "Illusions Noires Si Lolita Eau de Minuit"
+    },
+    {
+      "brand": "ANTONİO BANDERAS",
+      "name": "Mediterráneo"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Arbo Liberté"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -168,5 +249,6 @@
       "brand": "NATURA",
       "name": "Humor 6 Paz e Humor"
     }
-  ]
+  ],
+  "comments": []
 }

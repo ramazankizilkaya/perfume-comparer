@@ -43,7 +43,7 @@
     }
   },
   "seasons": {
-    "winter": "31",
+    "winter": "32",
     "spring": "29",
     "summer": "15",
     "autumn": "33",
@@ -61,50 +61,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "13",
-    "weak": "18",
-    "moderate": "13",
-    "longLasting": "7",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "18",
-    "moderate": "13",
-    "strong": "6",
-    "enormous": "19"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "3",
-    "moreFemale": "4",
-    "unisex": "23",
-    "moreMale": "10",
-    "male": "3"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "14",
-    "overpriced": "13",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "23",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "PAYSAGE",
-      "name": "Giftun Island"
-    },
-    {
-      "brand": "THE DUA BRAND",
-      "name": "Brisk Serenade"
-    },
-    {
-      "brand": "CREED",
-      "name": "Silver Mountain Water"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Cyprès Pantelleria"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BYREDO",
@@ -117,10 +100,6 @@
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Eau De Magnolia"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Chanel No 19 Eau de Parfum"
     },
     {
       "brand": "HERMÈS",
@@ -165,6 +144,11 @@
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Portrait of a Lady"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Chergui"
     }
-  ]
+  ],
+  "comments": []
 }

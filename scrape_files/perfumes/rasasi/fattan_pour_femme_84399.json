@@ -49,6 +49,38 @@
     {
       "name": "yosunlu",
       "width": "46.4704%"
+    },
+    {
+      "name": "Online satın alın 13 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -64,11 +96,11 @@
   },
   "seasons": {
     "winter": "11",
-    "spring": "22",
-    "summer": "15",
+    "spring": "23",
+    "summer": "16",
     "autumn": "25",
-    "day": "24",
-    "night": "9"
+    "day": "25",
+    "night": "10"
   },
   "notes": {
     "top": [
@@ -90,33 +122,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "4",
+    "moderate": "17",
+    "longLasting": "5",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "17",
+    "strong": "7",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "22",
+    "moreFemale": "1",
+    "unisex": "5",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "0",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "16",
+    "greatValue": "13"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "La Vita"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Vetiver"
+    },
+    {
+      "brand": "RİHANNA",
+      "name": "Rogue"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "La Rosa"
+    },
+    {
+      "brand": "MİCHAEL BUBLE",
+      "name": "By Invitation Signature"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas for Her"
+    },
+    {
+      "brand": "ADOLFO DOMİNGUEZ",
+      "name": "Iris Vainilla"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "Always Red"
+    },
+    {
+      "brand": "CARVEN",
+      "name": "Carven L'Absolu"
+    },
+    {
+      "brand": "MİCHAEL BUBLE",
+      "name": "By Invitation"
+    },
+    {
+      "brand": "NEXT",
+      "name": "Rouge Absolue"
+    },
+    {
+      "brand": "LACOSTE FRAGRANCES",
+      "name": "Eau de Lacoste L.12.12 Pour Elle French Panache"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Shuhrah Pour Homme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -135,16 +228,16 @@
       "name": "Liam"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara Moi"
+    },
+    {
       "brand": "ELİE SAAB",
       "name": "Le Parfum in White"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
-    },
-    {
-      "brand": "RİHANNA",
-      "name": "Rogue"
     },
     {
       "brand": "ARMAF",
@@ -159,16 +252,12 @@
       "name": "Ana Abiyedh Poudrée"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Cinéma"
-    },
-    {
-      "brand": "CALVİN KLEİN",
-      "name": "Euphoria"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Honor & Glory"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Amber Oud Gold Edition"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -177,6 +266,11 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Nebras"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Flora Gorgeous Gardenia Intense"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -35,16 +35,44 @@
       "width": "54.0219%"
     },
     {
-      "name": "narenciye",
+      "name": "vanilya",
       "width": "49.5652%"
     },
     {
-      "name": "vanilya",
+      "name": "narenciye",
       "width": "49.5652%"
     },
     {
       "name": "misk",
       "width": "44.4929%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,33 +117,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "9",
+    "moderate": "32",
+    "longLasting": "14",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "18",
+    "moderate": "32",
+    "strong": "16",
+    "enormous": "11"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "2",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MANDARİNA DUCK",
+      "name": "All of Me for Her"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Mon Paris"
+    },
+    {
+      "brand": "BOUCHERON",
+      "name": "Miss Boucheron"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Ricci Ricci"
+    },
+    {
+      "brand": "HALLOWEEN",
+      "name": "Halloween Tattoo Woman"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Maa Arwaak"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Black XS for Her"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "Azzaro Duo Women"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "Incanto Shine"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chance Eau Fraiche"
+    },
+    {
+      "brand": "MANGO",
+      "name": "Lady Rebel Rock Deluxe"
+    },
+    {
+      "brand": "BİBLİOTHÈQUE DE PARFUM",
+      "name": "Brutal Story"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY Be Tempted"
+    },
+    {
+      "brand": "RİHANNA",
+      "name": "Reb'l Fleur"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Nina L'Elixir"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NİNA RİCCİ",
@@ -177,5 +266,6 @@
       "brand": "LOLİTA LEMPİCKA",
       "name": "Lolita Lempicka"
     }
-  ]
+  ],
+  "comments": []
 }

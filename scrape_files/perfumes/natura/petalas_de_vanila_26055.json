@@ -49,16 +49,44 @@
     {
       "name": "narenciye",
       "width": "62.6103%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.70",
-    "votesCount": "61",
+    "score": "3.68",
+    "votesCount": "62",
     "breakdown": {
       "love": "14",
       "like": "29",
       "ok": "5",
-      "dislike": "12",
+      "dislike": "13",
       "hate": "1"
     }
   },
@@ -87,33 +115,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "7",
+    "moderate": "14",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "14",
+    "strong": "2",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Amó"
+    },
+    {
+      "brand": "IMPULSE",
+      "name": "Spice Girls"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Manifesto"
+    },
+    {
+      "brand": "PERRİS MONTE CARLO",
+      "name": "Vanille de Tahiti Extrait"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CACHAREL",
@@ -175,5 +220,6 @@
       "brand": "AQUOLİNA",
       "name": "Pink Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Maisam-19661.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Maisam parfümü, kadınlar için Oryantal bir kokudur. Kokuda Sandal ağacı, Agar ağacı (Oud), Misk, Gül, Baharatlı notalar, Vanilya, Paçuli ve Amber notaları bulunur.",
-  "description_original": "Rasasi markasının Maisam parfümü, kadınlar için Oryantal bir kokudur. Kokuda Sandal ağacı, Agar ağacı (Oud), Misk, Gül, Baharatlı notalar, Vanilya, Paçuli ve Amber notaları bulunur.",
+  "description_original": "Rasasi markasının Maisam parfümü, kadınlar için Oryantal bir kokudur. Kokuda Sandal ağacı, Agar ağacı (Oud), Misk, Gül, Baharatlı Notalar, Vanilya, Paçuli ve Amber notaları bulunur.",
   "description_enhanced": "Rasasi markasının Maisam parfümü, kadınlar için Oryantal bir kokudur. Kokuda Sandal ağacı, Agar ağacı (Oud), Misk, Gül, Baharatlı notalar, Vanilya, Paçuli ve Amber notaları bulunur.",
   "mainAccords": [
     {
@@ -35,11 +35,11 @@
       "width": "77.343%"
     },
     {
-      "name": "paçuli",
+      "name": "vanilya",
       "width": "62.1256%"
     },
     {
-      "name": "vanilya",
+      "name": "paçuli",
       "width": "62.1256%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "balsamik",
       "width": "54.6015%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,40 +107,61 @@
       "Agar ağacı (Oud)",
       "Misk",
       "Gül",
-      "Baharatlı notalar",
+      "Baharatlı Notalar",
       "Vanilya",
       "Paçuli",
       "Amber"
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "3",
+    "moderate": "5",
+    "longLasting": "14",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "5",
+    "strong": "10",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "2",
+    "unisex": "6",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RASASİ",
+      "name": "Amber Oudh"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Amira Gold"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Maaroof"
+    },
+    {
+      "brand": "HOUSE OF SİLLAGE",
+      "name": "Wednesday"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Attar Mubakhar"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -155,12 +204,12 @@
       "name": "Trésor"
     },
     {
-      "brand": "DİOR",
-      "name": "Poison"
-    },
-    {
       "brand": "NASOMATTO",
       "name": "Black Afgano"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Poison"
     },
     {
       "brand": "SERGE LUTENS",
@@ -174,5 +223,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

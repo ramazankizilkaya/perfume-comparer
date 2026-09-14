@@ -89,74 +89,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "6",
-    "moderate": "26",
-    "longLasting": "7",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "26",
-    "strong": "17",
-    "enormous": "6"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "18",
-    "moreFemale": "5",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "7",
-    "goodValue": "6",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ISSEY MİYAKE",
-      "name": "L'Eau d'Issey Florale"
-    },
-    {
-      "brand": "ISSEY MİYAKE",
-      "name": "L'eau d'Issey"
-    },
-    {
-      "brand": "CHLOÉ",
-      "name": "Chloé Roses de Chloé"
-    },
-    {
-      "brand": "LOLLİA",
-      "name": "Breathe"
-    },
-    {
-      "brand": "ISSEY MİYAKE",
-      "name": "L'Eau d'Issey Summer 2014"
-    },
-    {
-      "brand": "ESTÉE LAUDER",
-      "name": "Pleasures Flower"
-    },
-    {
-      "brand": "FLORİS",
-      "name": "Cherry Blossom"
-    },
-    {
-      "brand": "TOMMY HİLFİGER",
-      "name": "Tommy Girl"
-    },
-    {
-      "brand": "LOEWE",
-      "name": "A Mi Aire"
-    },
-    {
-      "brand": "KARL LAGERFELD",
-      "name": "Karl Tokyo Shibuya"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "ISSEY MİYAKE",
@@ -218,5 +177,6 @@
       "brand": "DİOR",
       "name": "Midnight Poison"
     }
-  ]
+  ],
+  "comments": []
 }

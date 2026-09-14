@@ -89,78 +89,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "0",
-    "moderate": "3",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "3",
-    "strong": "4",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "4",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "PACİFİCA",
-      "name": "Malibu Lemon Blossom"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Lemon Tart"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Sorrel & Lemon Thyme"
-    },
-    {
-      "brand": "THE BODY SHOP",
-      "name": "The Apple Blossom"
-    },
-    {
-      "brand": "WE PİNK",
-      "name": "Summer Beach Ipanema"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue"
-    },
-    {
-      "brand": "WE PİNK",
-      "name": "Verano di Capri"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Chance Eau Fraiche"
-    },
-    {
-      "brand": "INİTİO PARFUMS PRİVES",
-      "name": "Musk Therapy"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Nectarine Blossom & Honey"
-    },
-    {
-      "brand": "LANVİN",
-      "name": "A Girl In Capri"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JO MALONE LONDON",
@@ -222,5 +177,6 @@
       "brand": "JO MALONE LONDON",
       "name": "Orange Blossom"
     }
-  ]
+  ],
+  "comments": []
 }

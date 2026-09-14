@@ -49,26 +49,54 @@
     {
       "name": "sıcak baharatlı",
       "width": "46.3333%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.26",
-    "votesCount": "23",
+    "score": "4.24",
+    "votesCount": "25",
     "breakdown": {
       "love": "12",
-      "like": "6",
+      "like": "8",
       "ok": "4",
       "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "14",
+    "winter": "15",
     "spring": "2",
     "summer": "2",
     "autumn": "14",
-    "day": "4",
-    "night": "12"
+    "day": "5",
+    "night": "13"
   },
   "notes": {
     "top": [
@@ -92,33 +120,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "13",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "13",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "4",
+    "male": "9"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "10"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Stronger With You Oud"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Your Touch Oud"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Imperial Oud"
+    },
+    {
+      "brand": "RAYHAAN",
+      "name": "Corium"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -131,6 +176,10 @@
     {
       "brand": "PARIS CORNER",
       "name": "Rifaaqat"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Oud Madness"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -153,20 +202,16 @@
       "name": "Supremacy Incense"
     },
     {
-      "brand": "SWİSS ARABİAN",
-      "name": "Shaghaf Oud Abyad"
-    },
-    {
-      "brand": "RİİFFS PERFUMES",
-      "name": "Momento"
-    },
-    {
       "brand": "FRENCH AVENUE",
       "name": "Royal Blend Nero"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
+    },
+    {
+      "brand": "BENTLEY",
+      "name": "Bentley for Men Intense"
     },
     {
       "brand": "KHADLAJ PERFUMES",
@@ -177,8 +222,9 @@
       "name": "Liquid Brun"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah Qahwa"
+      "brand": "HUGO BOSS",
+      "name": "Bottled Absolu"
     }
-  ]
+  ],
+  "comments": []
 }

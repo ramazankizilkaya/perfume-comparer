@@ -49,26 +49,54 @@
     {
       "name": "yumuşak baharatlı",
       "width": "61.7275%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.29",
-    "votesCount": "21",
+    "score": "4.27",
+    "votesCount": "22",
     "breakdown": {
       "love": "12",
-      "like": "6",
+      "like": "7",
       "ok": "0",
       "dislike": "3",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "13",
-    "spring": "8",
+    "winter": "14",
+    "spring": "9",
     "summer": "5",
-    "autumn": "12",
-    "day": "9",
-    "night": "12"
+    "autumn": "15",
+    "day": "10",
+    "night": "13"
   },
   "notes": {
     "top": [
@@ -102,33 +130,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "6",
+    "longLasting": "9",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "6",
+    "strong": "8",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "17",
+    "moreFemale": "3",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "5",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Manifesto"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born In Roma"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Prada Paradoxe"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Decadence"
+    },
+    {
+      "brand": "ANNA SUİ",
+      "name": "Dolly Girl"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Scandal By Night"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Classique Pin Up"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Dolce&Gabbana Pour Femme"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Scandal A Paris"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Una Brilho"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Love Don't Be Shy"
+    },
+    {
+      "brand": "LACOSTE FRAGRANCES",
+      "name": "Eau De Lacoste Sensuelle"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born In Roma Intense"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -190,5 +271,6 @@
       "brand": "NATURA",
       "name": "Kriska Shock"
     }
-  ]
+  ],
+  "comments": []
 }

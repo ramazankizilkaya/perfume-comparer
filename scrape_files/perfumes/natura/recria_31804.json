@@ -45,6 +45,34 @@
     {
       "name": "taze",
       "width": "47.0487%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -85,33 +113,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "16",
+    "moderate": "52",
+    "longLasting": "14",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "16",
+    "moderate": "52",
+    "strong": "12",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "5",
+    "moreMale": "21",
+    "male": "31"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "29",
+    "greatValue": "13"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CHANEL",
+      "name": "Allure Homme Sport"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Big Pony 1"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "Green Tea Lavender"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK Everyone Eau de Toilette"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor a Rigor"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Eudora H Flow"
+    },
+    {
+      "brand": "LACOSTE FRAGRANCES",
+      "name": "Eau de Lacoste L.12.12 Blanc Limited Edition"
+    },
+    {
+      "brand": "CREED",
+      "name": "Millésime Impérial"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Desperte"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Verde"
+    },
+    {
+      "brand": "FERRARİ",
+      "name": "Scuderia Ferrari Black Shine"
+    },
+    {
+      "brand": "AVON",
+      "name": "Ironman"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Arbo Puro"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ISSEY MİYAKE",
@@ -173,5 +262,6 @@
       "brand": "NATURA",
       "name": "Essencial Intenso"
     }
-  ]
+  ],
+  "comments": []
 }

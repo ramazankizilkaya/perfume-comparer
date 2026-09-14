@@ -33,14 +33,42 @@
     {
       "name": "animalik",
       "width": "49.5441%"
+    },
+    {
+      "name": "Online satın alın 9 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.04",
-    "votesCount": "284",
+    "votesCount": "285",
     "breakdown": {
       "love": "105",
-      "like": "129",
+      "like": "130",
       "ok": "8",
       "dislike": "40",
       "hate": "2"
@@ -69,33 +97,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "12",
+    "weak": "5",
+    "moderate": "23",
+    "longLasting": "44",
+    "eternal": "43"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "17",
+    "moderate": "23",
+    "strong": "57",
+    "enormous": "22"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "5",
+    "unisex": "23",
+    "moreMale": "3",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "15",
+    "greatValue": "11"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JACQUES BOGART",
+      "name": "One Man Show Ruby Edition"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Maisam"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Amber Aoud"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Attar Al Kaaba"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Majestic Oud"
+    },
+    {
+      "brand": "VİALİ",
+      "name": "Amber Oud"
+    },
+    {
+      "brand": "ORİENTİCA",
+      "name": "Qisar"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Allure"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Moschino"
+    },
+    {
+      "brand": "SALVADOR DALİ",
+      "name": "Dali Parfum de Toilette"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Amber Absolute"
+    },
+    {
+      "brand": "OLYMPİC ORCHİDS ARTİSAN PERFUMES",
+      "name": "Elektra"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Nepal Aoud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -157,5 +238,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -63,12 +63,12 @@
     }
   },
   "seasons": {
-    "winter": "14",
-    "spring": "14",
+    "winter": "15",
+    "spring": "15",
     "summer": "11",
-    "autumn": "16",
-    "day": "14",
-    "night": "7"
+    "autumn": "17",
+    "day": "15",
+    "night": "8"
   },
   "notes": {
     "top": [
@@ -91,66 +91,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "6",
-    "longLasting": "29",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "6",
-    "strong": "24",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "2",
-    "male": "11"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "4",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "1",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Eau de Cologne"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge L'Eau"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Eau de Toilette"
-    },
-    {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "APOM Pour Homme"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Sport"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Parfum"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Opium Pour Homme"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Eau de Parfum"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -212,5 +179,6 @@
       "brand": "JİL SANDER",
       "name": "Jil Sander Bath and Beauty"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -79,54 +79,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "4",
-    "moderate": "2",
-    "longLasting": "1",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "2",
-    "strong": "1",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "0",
-    "unisex": "5",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "KENZO",
-      "name": "Kenzo World Power"
-    },
-    {
-      "brand": "ORİFLAME",
-      "name": "Sublime Nature Tonka Bean"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Armani Privé Bleu Turquoise"
-    },
-    {
-      "brand": "CALVİN KLEİN",
-      "name": "Reveal"
-    },
-    {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Whispers in the Library"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -188,5 +167,6 @@
       "brand": "CALVİN KLEİN",
       "name": "Eternity"
     }
-  ]
+  ],
+  "comments": []
 }

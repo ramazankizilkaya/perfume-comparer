@@ -49,6 +49,34 @@
     {
       "name": "bitkisel",
       "width": "44.265%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,45 +118,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "7",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "1",
+    "strong": "7",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "6",
+    "moreMale": "2",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "3",
     "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JOVOY PARİS",
+      "name": "Psychedelique"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Les Exclusifs de Chanel Coromandel"
+    },
+    {
+      "brand": "REMİNİSCENCE",
+      "name": "Patchouli"
+    },
+    {
+      "brand": "HOUBİGANT",
+      "name": "Patchouli Sauvage"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "L'Instant de Guerlain pour Homme EDP"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "THAMEEN",
       "name": "Carved Oud"
     },
     {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Baccarat Rouge 540"
-    },
-    {
       "brand": "TAUER PERFUMES",
       "name": "02 L'Air du Desert Marocain"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Baccarat Rouge 540"
     },
     {
       "brand": "AMOUAGE",
@@ -178,5 +227,6 @@
       "brand": "BY KİLİAN",
       "name": "Black Phantom"
     }
-  ]
+  ],
+  "comments": []
 }

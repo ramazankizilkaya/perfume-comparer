@@ -33,13 +33,41 @@
     {
       "name": "çiçeksi",
       "width": "56.8571%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.07",
-    "votesCount": "115",
+    "score": "4.06",
+    "votesCount": "114",
     "breakdown": {
-      "love": "50",
+      "love": "49",
       "like": "44",
       "ok": "2",
       "dislike": "17",
@@ -66,33 +94,54 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "2",
+    "moderate": "8",
+    "longLasting": "13",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "8",
+    "strong": "19",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Tresor L'Absolu"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Trésor"
+    },
+    {
+      "brand": "FRAGRANCE DU BOİS",
+      "name": "Petales De Cashmere"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Tresor en Or"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Tocade"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -154,5 +203,6 @@
       "brand": "DİOR",
       "name": "Poison"
     }
-  ]
+  ],
+  "comments": []
 }

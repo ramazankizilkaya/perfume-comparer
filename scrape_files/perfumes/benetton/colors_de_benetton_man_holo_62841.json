@@ -31,11 +31,11 @@
       "width": "65.8139%"
     },
     {
-      "name": "lavanta",
+      "name": "deri",
       "width": "52.7907%"
     },
     {
-      "name": "deri",
+      "name": "lavanta",
       "width": "52.7907%"
     },
     {
@@ -49,6 +49,10 @@
     {
       "name": "misk",
       "width": "46.2791%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -86,45 +90,37 @@
       "Deri",
       "Guayak ağacı",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "6",
-    "moderate": "14",
-    "longLasting": "2",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "14",
-    "strong": "2",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "8",
-    "moreMale": "6",
-    "male": "7"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "11",
-    "greatValue": "5"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "DİOR",
-      "name": "Eau Sauvage"
-    },
-    {
-      "brand": "ANTONİO PUİG",
-      "name": "Agua Brava Azul"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -143,12 +139,12 @@
       "name": "Bleu de Chanel Eau de Parfum"
     },
     {
-      "brand": "ZARA",
-      "name": "Vibrant Leather Eau de Parfum"
-    },
-    {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Vibrant Leather Eau de Parfum"
     },
     {
       "brand": "DİOR",
@@ -186,5 +182,6 @@
       "brand": "CALVİN KLEİN",
       "name": "CK All"
     }
-  ]
+  ],
+  "comments": []
 }

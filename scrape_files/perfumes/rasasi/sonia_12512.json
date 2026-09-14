@@ -49,24 +49,52 @@
     {
       "name": "narenciye",
       "width": "49.5765%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.65",
+    "score": "3.66",
     "votesCount": "206",
     "breakdown": {
-      "love": "44",
-      "like": "103",
+      "love": "45",
+      "like": "102",
       "ok": "5",
       "dislike": "51",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "27",
+    "winter": "28",
     "spring": "51",
     "summer": "35",
-    "autumn": "33",
+    "autumn": "34",
     "day": "55",
     "night": "24"
   },
@@ -89,33 +117,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "10",
+    "moderate": "11",
+    "longLasting": "26",
+    "eternal": "40"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "11",
+    "strong": "39",
+    "enormous": "27"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "21",
+    "moreFemale": "3",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "1",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "8"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Climat (Vintage)"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Rive Gauche"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Afshan"
+    },
+    {
+      "brand": "ULRİC DE VARENS",
+      "name": "Isa"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Dia Woman"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Gold Woman"
+    },
+    {
+      "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
+      "name": "Кузнецкий мост (Kuznetsky Most)"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Alf Zahra"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Awraq Al Oud"
+    },
+    {
+      "brand": "TESORİ D'ORİENTE",
+      "name": "White Musk"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Musk Abiyad"
+    },
+    {
+      "brand": "BALDESSARİNİ",
+      "name": "Baldessarini Hugo Boss"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Climat"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Estée"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Estee"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -154,6 +243,10 @@
       "name": "Chanel No 5 Parfum"
     },
     {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Cinéma"
+    },
+    {
       "brand": "DİOR",
       "name": "Poison"
     },
@@ -170,12 +263,9 @@
       "name": "Crystal Noir"
     },
     {
-      "brand": "LANCÔME",
-      "name": "Magie Noire"
-    },
-    {
       "brand": "SALVADOR DALİ",
       "name": "Dali Parfum de Toilette"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -29,6 +29,34 @@
     {
       "name": "taze",
       "width": "40.7692%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,33 +88,66 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "12",
+    "moderate": "21",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "15",
+    "moderate": "21",
+    "strong": "6",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "24",
+    "moreFemale": "7",
+    "unisex": "7",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "16",
+    "greatValue": "10"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Miracle"
+    },
+    {
+      "brand": "PARİS HİLTON",
+      "name": "Just Me"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Hilfiger Woman Peach Blossom"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY Delicious Candy Apples Sweet Caramel"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Trésor"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Eau So Fresh"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Hilfiger Woman Pear Blossom"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Valaya"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -148,5 +209,6 @@
       "brand": "NATURA",
       "name": "Una Senses"
     }
-  ]
+  ],
+  "comments": []
 }

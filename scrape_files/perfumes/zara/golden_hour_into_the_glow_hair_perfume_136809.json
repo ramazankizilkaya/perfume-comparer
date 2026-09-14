@@ -3,11 +3,11 @@
   "targetGender": "kadınlar için",
   "fragranceFamily": "Floral",
   "concentration": "Edp",
-  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136809.jpg?t=1783094611",
+  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136809.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Zara/Golden-Hour-Into-The-Glow-Hair-Perfume-136809.html",
   "brand": "Zara parfüm ve kolonya",
   "description": "Zara markasının Golden Hour: Into The Glow Hair Perfume parfümü, kadınlar için bir kokudur. Bu yeni bir parfüm. Golden Hour: Into The Glow Hair Perfume, 2026 yılında piyasaya sürüldü. Üst notalar: Portakal çiçeği, Hindistan cevizi ve Yasemin; orta notalar: Tuz ve Tiare Çiçeği; alt notalar Sedir ve Tonka.",
-  "description_original": "Zara markasının Golden Hour: Into The Glow Hair Perfume parfümü, kadınlar için bir kokudur. Bu yeni bir parfüm. Golden Hour: Into The Glow Hair Perfume, 2026 yılında piyasaya sürüldü. Üst notalar: Portakal çiçeği, Hindistan cevizi ve Yasemin; orta notalar: Tuz ve Tiare Çiçeği; alt notalar Sedir ve Tonka.",
+  "description_original": "Zara markasının Golden Hour: Into The Glow Hair Perfume parfümü, kadınlar için bir kokudur. Bu yeni bir parfüm. Golden Hour: Into The Glow Hair Perfume, 2026 yılında piyasaya sürüldü. Üst notalar: Hindistan cevizi, Portakal çiçeği ve Yasemin; orta notalar: Tiare Çiçeği ve Deniz Tuzu; alt notalar Tonka ve Sedir.",
   "description_enhanced": "Zara markasının Golden Hour: Into The Glow Hair Perfume parfümü, kadınlar için bir kokudur. Bu yeni bir parfüm. Golden Hour: Into The Glow Hair Perfume, 2026 yılında piyasaya sürüldü. Üst notalar: Portakal çiçeği, Hindistan cevizi ve Yasemin; orta notalar: Tuz ve Tiare Çiçeği; alt notalar Sedir ve Tonka.",
   "mainAccords": [
     {
@@ -41,14 +41,42 @@
     {
       "name": "meyvemsi",
       "width": "45.7499%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.33",
-    "votesCount": "3",
+    "score": "4.20",
+    "votesCount": "5",
     "breakdown": {
       "love": "1",
-      "like": "2",
+      "like": "4",
       "ok": "0",
       "dislike": "0",
       "hate": "0"
@@ -57,43 +85,43 @@
   "seasons": {
     "winter": "0",
     "spring": "0",
-    "summer": "2",
+    "summer": "3",
     "autumn": "0",
-    "day": "2",
+    "day": "3",
     "night": "2"
   },
   "notes": {
     "top": [
-      "Portakal çiçeği",
       "Hindistan cevizi",
+      "Portakal çiçeği",
       "Yasemin"
     ],
     "middle": [
-      "Tuz",
-      "Tiare Çiçeği"
+      "Tiare Çiçeği",
+      "Deniz Tuzu"
     ],
     "base": [
-      "Sedir",
-      "Tonka"
+      "Tonka",
+      "Sedir"
     ],
     "all": []
   },
   "longevity": {
     "veryWeak": "0",
     "weak": "0",
-    "moderate": "1",
+    "moderate": "2",
     "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "0",
-    "moderate": "1",
+    "moderate": "2",
     "strong": "0",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
-    "moreFemale": "2",
+    "moreFemale": "3",
     "unisex": "0",
     "moreMale": "0",
     "male": "0"
@@ -103,8 +131,34 @@
     "overpriced": "0",
     "fair": "0",
     "goodValue": "1",
-    "greatValue": "1"
+    "greatValue": "2"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [
+    {
+      "brand": "JİMMY CHOO",
+      "name": "Jimmy Choo Fever"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Brit"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Supreme Vanilla"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Angelic Vanilla"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Mon Guerlain Eau de Parfum Intense"
+    },
+    {
+      "brand": "GRÈS",
+      "name": "Fruit de La Créativité"
+    }
+  ],
+  "comments": []
 }

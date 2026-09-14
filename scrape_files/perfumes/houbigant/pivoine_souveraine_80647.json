@@ -53,12 +53,12 @@
   ],
   "rating": {
     "score": "3.78",
-    "votesCount": "65",
+    "votesCount": "68",
     "breakdown": {
-      "love": "14",
-      "like": "28",
+      "love": "15",
+      "like": "29",
       "ok": "18",
-      "dislike": "5",
+      "dislike": "6",
       "hate": "0"
     }
   },
@@ -67,7 +67,7 @@
     "spring": "25",
     "summer": "18",
     "autumn": "10",
-    "day": "25",
+    "day": "26",
     "night": "5"
   },
   "notes": {
@@ -89,62 +89,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "3",
-    "moderate": "12",
-    "longLasting": "3",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "8",
-    "moderate": "12",
-    "strong": "4",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "18",
-    "moreFemale": "4",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "5",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "18",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "LANCÔME",
-      "name": "Pivoines Printemps"
-    },
-    {
-      "brand": "ELLA K PARFUMS",
-      "name": "Mémoire de Daisen In"
-    },
-    {
-      "brand": "BERGAMOSS",
-      "name": "Pivoine de Malène"
-    },
-    {
-      "brand": "MDCI PARFUMS",
-      "name": "Cio Cio San"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Sakura"
-    },
-    {
-      "brand": "PARİS HİLTON",
-      "name": "Rosé Rush"
-    },
-    {
-      "brand": "GOUTAL",
-      "name": "Rose Pompon Eau de Toilette 2020"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "PARFUMS DE MARLY",
@@ -153,6 +124,10 @@
     {
       "brand": "DİOR",
       "name": "J'adore"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Rose Chérie"
     },
     {
       "brand": "PENHALİGON'S",
@@ -167,20 +142,12 @@
       "name": "Soie Malaquais"
     },
     {
+      "brand": "HERMÈS",
+      "name": "24 Faubourg"
+    },
+    {
       "brand": "GUERLAİN",
       "name": "Angélique Noire"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Chanel No 19 Poudre"
-    },
-    {
-      "brand": "JOVOY PARİS",
-      "name": "Remember Me"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Jasmin Rouge"
     },
     {
       "brand": "HERMÈS",
@@ -205,6 +172,11 @@
     {
       "brand": "SERGE LUTENS",
       "name": "Feminité du Bois"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Cuir Béluga"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,26 +49,54 @@
     {
       "name": "misk",
       "width": "50.2034%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.23",
-    "votesCount": "126",
+    "score": "4.22",
+    "votesCount": "129",
     "breakdown": {
-      "love": "51",
+      "love": "53",
       "like": "58",
       "ok": "13",
       "dislike": "3",
-      "hate": "1"
+      "hate": "2"
     }
   },
   "seasons": {
     "winter": "32",
-    "spring": "80",
-    "summer": "67",
-    "autumn": "65",
-    "day": "70",
-    "night": "63"
+    "spring": "83",
+    "summer": "70",
+    "autumn": "67",
+    "day": "73",
+    "night": "64"
   },
   "notes": {
     "top": [
@@ -95,33 +123,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "6",
+    "moderate": "64",
+    "longLasting": "24",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "14",
+    "moderate": "64",
+    "strong": "22",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "8",
+    "moreMale": "23",
+    "male": "52"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "2",
     "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "36",
+    "greatValue": "30"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Invictus"
+    },
+    {
+      "brand": "PARİS ELYSEES",
+      "name": "Vodka Brasil Yellow"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Onyx Collector Edition"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas for Him"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss in Motion"
+    },
+    {
+      "brand": "NATURA",
+      "name": "#Urbano Noturno"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Giò Absolu"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Aqua (2018)"
+    },
+    {
+      "brand": "CLİNİQUE",
+      "name": "Clinique Happy"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Aqua"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Blue Spirit"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Quasar Vision"
+    },
+    {
+      "brand": "ANTONİO BANDERAS",
+      "name": "King of Seduction Absolute"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Odyssey Mandarin Sky"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "Possess The Secret Man"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -169,10 +258,6 @@
     },
     {
       "brand": "NATURA",
-      "name": "Kaiak"
-    },
-    {
-      "brand": "NATURA",
       "name": "Essencial Elixir"
     },
     {
@@ -182,6 +267,11 @@
     {
       "brand": "NATURA",
       "name": "Homem Dom"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essencial Mirra"
     }
-  ]
+  ],
+  "comments": []
 }

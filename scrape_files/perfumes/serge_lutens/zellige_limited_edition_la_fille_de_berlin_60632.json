@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "bal",
       "width": "72.6087%"
     },
     {
-      "name": "bal",
+      "name": "taze baharatlı",
       "width": "72.6087%"
     },
     {
@@ -27,11 +27,11 @@
       "width": "64.087%"
     },
     {
-      "name": "çiçeksi",
+      "name": "paçuli",
       "width": "57.3913%"
     },
     {
-      "name": "paçuli",
+      "name": "çiçeksi",
       "width": "57.3913%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "yeşil",
       "width": "48.2609%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,41 +114,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "5",
+    "moderate": "17",
+    "longLasting": "11",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "17",
+    "strong": "7",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "14",
+    "moreFemale": "10",
+    "unisex": "8",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "10",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
       "brand": "SERGE LUTENS",
       "name": "La Fille de Berlin"
     },
     {
-      "brand": "CHANEL",
-      "name": "Coco Noir"
+      "brand": "SERGE LUTENS",
+      "name": "La Fille de Berlin Flacon d'Exception"
+    },
+    {
+      "brand": "FENTY",
+      "name": "Fenty"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "La Fille de Berlin"
     },
     {
       "brand": "TOM FORD",
@@ -155,10 +192,6 @@
       "name": "Black Orchid"
     },
     {
-      "brand": "CHANEL",
-      "name": "Coromandel Eau de Parfum"
-    },
-    {
       "brand": "GUERLAİN",
       "name": "Black Perfecto by La Petite Robe Noire"
     },
@@ -167,12 +200,21 @@
       "name": "Feminité du Bois"
     },
     {
+      "brand": "DİOR",
+      "name": "Dior Homme Parfum"
+    },
+    {
       "brand": "SERGE LUTENS",
       "name": "Ambre Sultan"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Fils de Joie"
     },
     {
       "brand": "BY KİLİAN",
       "name": "Angels' Share"
     }
-  ]
+  ],
+  "comments": []
 }

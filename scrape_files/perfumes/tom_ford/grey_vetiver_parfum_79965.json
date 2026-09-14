@@ -1,8 +1,8 @@
 {
   "name": "Grey Vetiver Parfum Tom Ford",
   "targetGender": "erkekler için",
-  "fragranceFamily": "Aromatic",
-  "concentration": "Parfum",
+  "fragranceFamily": "Woody",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.79965.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Tom-Ford/Grey-Vetiver-Parfum-79965.html",
   "brand": "Tom Ford parfüm ve kolonya",
@@ -11,32 +11,32 @@
   "description_enhanced": "Tom Ford markasının Grey Vetiver Parfum parfümü, erkekler için Odunsu Baharatlı bir kokudur. Grey Vetiver Parfum, 2023 yılında piyasaya sürüldü. Üst nota: Portakal çiçeği; orta nota: Safran; alt nota Vetiver.",
   "mainAccords": [
     {
-      "name": "aromatik",
-      "width": "100%"
-    },
-    {
       "name": "odunsu",
       "width": "100%"
     },
     {
+      "name": "aromatik",
+      "width": "100%"
+    },
+    {
       "name": "toprak",
-      "width": "94.5935%"
+      "width": "94.6233%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "75.9363%"
+      "width": "76.5755%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "69.046%"
+      "width": "69.298%"
     },
     {
       "name": "narenciye",
-      "width": "52.9683%"
+      "width": "53.2879%"
     },
     {
       "name": "metalik",
-      "width": "52.9683%"
+      "width": "53.1166%"
     },
     {
       "name": "yeşil",
@@ -44,27 +44,55 @@
     },
     {
       "name": "deri",
-      "width": "48.3744%"
+      "width": "48.4933%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.98",
-    "votesCount": "1,118",
+    "score": "3.99",
+    "votesCount": "1,165",
     "breakdown": {
-      "love": "460",
-      "like": "353",
-      "ok": "163",
-      "dislike": "108",
+      "love": "479",
+      "like": "371",
+      "ok": "171",
+      "dislike": "110",
       "hate": "34"
     }
   },
   "seasons": {
-    "winter": "290",
-    "spring": "487",
-    "summer": "416",
-    "autumn": "455",
-    "day": "457",
-    "night": "339"
+    "winter": "300",
+    "spring": "503",
+    "summer": "430",
+    "autumn": "469",
+    "day": "474",
+    "night": "350"
   },
   "notes": {
     "top": [
@@ -79,33 +107,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "16",
+    "weak": "24",
+    "moderate": "203",
+    "longLasting": "322",
+    "eternal": "32"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "62",
+    "moderate": "203",
+    "strong": "110",
+    "enormous": "11"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "17",
+    "moreFemale": "5",
+    "unisex": "90",
+    "moreMale": "192",
+    "male": "360"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "163",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "165",
+    "overpriced": "232",
+    "fair": "171",
+    "goodValue": "30",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TOM FORD",
+      "name": "Grey Vetiver"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Grey Vetiver Eau de Toilette"
+    },
+    {
+      "brand": "MARC-ANTOİNE BARROİS",
+      "name": "Ganymede"
+    },
+    {
+      "brand": "AMOUROUD",
+      "name": "Lunar Vetiver"
+    },
+    {
+      "brand": "JUST JACK",
+      "name": "Vetiver"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Encre Noire"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Vetiver"
+    },
+    {
+      "brand": "JOHN VARVATOS",
+      "name": "XX Artisan"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Vetiver Pour Homme Parfum Cologne"
+    },
+    {
+      "brand": "JUST JACK",
+      "name": "Vetiver Eau de Parfum"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Vetiver Glacier"
+    },
+    {
+      "brand": "ESSENTİAL PARFUMS",
+      "name": "Bois Impérial"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Platinum Sky"
+    },
+    {
+      "brand": "FİLİPPO SORCİNELLİ",
+      "name": "Symphonie-Passion"
+    },
+    {
+      "brand": "FLORAÏKU",
+      "name": "Golden Eyes"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TOM FORD",
@@ -118,6 +207,10 @@
     {
       "brand": "HERMÈS",
       "name": "Terre d'Hermès"
+    },
+    {
+      "brand": "ESSENTİAL PARFUMS",
+      "name": "Bois Impérial"
     },
     {
       "brand": "CHANEL",
@@ -148,12 +241,12 @@
       "name": "Terre d'Hermès Eau Givree"
     },
     {
-      "brand": "CHANEL",
-      "name": "Bleu de Chanel Eau de Parfum"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Ombré Leather (2018)"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Bleu de Chanel Eau de Parfum"
     },
     {
       "brand": "DİOR",
@@ -162,10 +255,208 @@
     {
       "brand": "TOM FORD",
       "name": "Ombré Leather Parfum"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent630838",
+      "author": "Nasochiuso",
+      "date": "2026-01-06",
+      "text": "Kesinlikle mükemmel bir parfüm: bunu seçerseniz, doğru yoldasınız demektir.\nBeni biraz şaşırtan şey, klasik Grey Vetiver zaten kusursuzken parfüm versiyonunun gerçekten ne kadar gerekli olduğu. Performans mı? Bu parfümler belirli bir standartla doğuyor ve 4-5 saatlik bir kalıcılık fazlasıyla yeterli. Zaten kendini kanıtlamış bir başyapıtın \"güçlendirilmiş\" bir versiyonu gerçekten gerekli mi? Bana göre hayır.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.82447.jpg"
     },
     {
-      "brand": "GİVENCHY",
-      "name": "Gentleman Eau de Parfum Reserve Privée"
+      "id": "parent630812",
+      "author": "Penetreitor 2000",
+      "date": "2025-06-20",
+      "text": "Sonunda Grey Vetiver Parfum elimde, bu çok özel parfümün tadını çıkaracağım.\n\nBir gün birçok niş parfüm denemeye gittiğimi hatırlıyorum, en kaliteli parfümlerdi, her şey güzeldi, birçok farklı ve güzel şey vardı, ama Tom Ford rafının yanından geçerken bir kadın bana \"Şunu dene,\" dedi, gümüş şişesini gösterdi ve bir test kağıdına sıktı... Aman Tanrım, ilk koklamada aşık oldum.\nÇok şaşırdım ve oldukça beğendim; aklımdan geçen tek şey şuydu: Bu benim en mükemmel, en ferah ve zarif parfümüm, bunu istiyorum.\n\nAltı ay sonra o sürpriz duygusunu hatırladım ve 100 ml'lik şişeyi almaya karar verdim.\n\nAz önce elime geçti ve gerçekten çok beğeneceğim bir parfüm. Her zaman, her yerde kullanırım çünkü bu parfüm bana sonsuza dek nasıl kokmam gerektiğini hatırlatıyor.\n\nZarif, incelikli ve lüks! Harika!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.57719.jpg"
+    },
+    {
+      "id": "parent630837",
+      "author": "frainno",
+      "date": "2024-06-10",
+      "text": "Tom Ford'un bu parfümü çok zarif, dikkat çekiyor ama büyük bir incelikle.\nTopraksı, odunsu notalar ortaya çıkarken, son derece doğal ve göze batmayan bir vetiver kokusu da safran ve portakal çiçeği notalarıyla tamamlanıyor.\nPaçuli, odunsu ve vahşi bir koku vererek rolünü üstleniyor ve sonuç olarak çok zarif bir parfüm ortaya çıkıyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.46706.jpg"
+    },
+    {
+      "id": "parent630793",
+      "author": "caifan",
+      "date": "2024-04-14",
+      "text": "Gray Vetiver Parfum, aromatik, odunsu ve topraksı bir kokuya sahip.\n\nParfümün gelişimi baştan sona neredeyse aynı; odunsu ve narenciye aromasına sahip, topraksı alt tonlar içeriyor ve adından da anlaşılacağı gibi vetiver bazlı. EDP versiyonuna kıyasla koku daha yoğun, neredeyse metalik; muhtemelen adaçayı ve baharatlar içeriyor, biraz da tütün kokusu aldığımı düşündüm.\n\nBu koku, günlük kullanım ve yılın her mevsimi için uygun, zarif ve yoğun odunsu bir koku olup, ofis işlerinde, resmi ve gündelik etkinliklerde kullanılabilir. Oldukça güzel bir koku olduğu için imza koku olarak da benimsenebilir.\n\nParfümün kalıcılığı 12 saati aşkındı; ilk iki saat boyunca iyi bir yayılım gösterdi, ardından azaldı ancak varlığını iyi bir şekilde korudu.\n\nBu parfümün kokusunu gerçekten çok beğendim, vetiver bazlı parfümlerin harika bir örneği. Eğer Guerlain'in Vetiver parfümüne zaten sahipseniz biraz gereksiz gelebilir, ancak vetiver bazlı parfümleri seviyorsanız kesinlikle denemeye değer.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.939475.jpg"
+    },
+    {
+      "id": "parent630811",
+      "author": "beto_ruiz",
+      "date": "2024-01-03",
+      "text": "Gri Vetiver Parfümü, aromatik, odunsu ve topraksı bir kokuya sahiptir.\n\nKoku, baştan sona neredeyse aynı şekilde gelişiyor; odunsu ve narenciye aroması ile topraksı alt tonlara sahip ve adından da anlaşılacağı gibi vetiver bazlı. EDP versiyonuna kıyasla koku daha yoğun, neredeyse metalik; muhtemelen biraz adaçayı ve baharat içeriyor ve bana göre bir miktar tütün kokusu da algıladım.\n\nBu koku, zarif ve odunsu notalarıyla zengin olup, ofis, resmi davetler veya gündelik geziler de dahil olmak üzere her mevsimde günlük kullanıma uygundur. Oldukça güzel olduğu için kolayca imza kokusu olarak benimsenebilir.\n\nParfümün kalıcılığı 12 saati aşkındı; ilk iki saat boyunca iyi bir yayılım gösterdi, ardından kademeli olarak azaldı ancak varlığını iyi bir şekilde korudu.\n\nBu parfümün kokusunu gerçekten çok beğendim; vetiver bazlı parfümlerin harika bir örneği. Zaten çoktan almış olurdum ama Guerlain'in Vetiver'inin 2000'li yıllardaki versiyonlarından birini alma fırsatım oldu, bu yüzden şimdilik beklemeye alacağım. Ama vetiver bazlı parfümleri seviyorsanız kesinlikle almaya değer.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.9308.jpg"
+    },
+    {
+      "id": "parent630846",
+      "author": "Creta Kano",
+      "date": "2023-12-02",
+      "text": "Genellikle parfümleri erkeksi veya kadınsı olarak sınıflandırmam. Ama bu kesinlikle erkeksi bir koku. İyi eğitimli, kusursuz giyimli bir adamın kokusu. Sade giyinmiş ama dedikleri gibi, şeytan ayrıntılarda gizlidir ve onda her ayrıntı mükemmel: gri takım elbisesinin mükemmel kesimi, gri süet ayakkabılarının mükemmel tonu, mükemmel beyaz gömlek. Cam ve metalden yapılmış bir gökdelende çalışıyor ve çoğu insanın ulaşamayacağı bir hayat yaşıyor.\nBurada hipsterlara, sakallı adamlara ve spor ayakkabılara yer yok; burada her şey yaratıcılıkla ilgili ve burada cerrahi hassasiyette bir hesaplama söz konusu.\nBu, son derece başarılı bir borsacı için mükemmel bir deri-vetiver kokusu.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.258057.jpg"
+    },
+    {
+      "id": "parent630795",
+      "author": "Fuju",
+      "date": "2023-09-20",
+      "text": "Bence Grey Vetiver formülünü modernize etme konusunda başarılı bir girişim olan bu koku hakkındaki düşüncelerimi paylaşmak istiyorum. Eau de Parfum ile bazı ortak özelliklere sahip olsa da kendine özgü nitelikleri de bulunuyor.\n\nEDP ​​ile karşılaştırdığınızda bazı farklılıklar fark edeceksiniz. EDP'nin tozlu, havadar ve kuru bir havası varken, Parfüm daha çok vetivere odaklanarak daha yumuşak, sıcak ve topraksı bir karaktere sahip. Bazıları vetiver notasını Hermes'in Vetiver Intense'ine benzetmiş olsa da, ben bu versiyonu daha doğal ve dengeli buluyorum. Arka planda bazı yeni aromatik kimyasalların dokunuşuyla EDP'nin modernize edilmiş bir versiyonu gibi.\n\nEDP ​​versiyonu kusursuz giyimli modern bir beyefendiyi çağrıştırırken, Parfüm versiyonu ise kariyer basamaklarını tırmanan daha genç ve hırslı bir kişiyi akla getiriyor. Resmi davetler için harika olsa da, EDP'nin aksine sadece bunlarla sınırlı değil.\n\nŞimdi gelelim fiyata. Özellikle indirimli satış noktalarında EDP'yi neredeyse yarı fiyatına alabileceğiniz düşünülürse, sunduklarına göre biraz pahalı. Bütçeniz kısıtlıysa EDP'yi tavsiye ederim, EDP'ye zaten sahip olanlar için ise Parfüm'ü almak biraz gereksiz gelebilir. Benim tavsiyem mi? Bu parfümü indirimli satış noktalarında arayın. İyi bir parfüm, ama özellikle benzer fiyat aralığında harika niş parfümler varken o kadar da iyi değil.\n\nGenel Değerlendirme:\n1 ile 10 arasında bir ölçekte, bu parfüme 8/10 puan verirdim.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1135096.jpg"
+    },
+    {
+      "id": "parent630855",
+      "author": "Aleksxs",
+      "date": "2023-08-26",
+      "text": "Mağazada test ürünü yoktu, bu yüzden EDT ve EDP versiyonlarını zaten bildiğim için bu parfümü körü körüne aldım. İkisi de güzeldi, bu yüzden bu versiyonun da güzel olacağından emindim. İlginç ama bu parfüm kesinlikle bir kadın için. Biraz vahşi, doğayı seven, ince beyaz bir elbiseyle yağmurda yalınayak bir çayırda yürüyen bir kadın için. Islak çimenler, çiçekler ve ayaklarının altında çıtırdayan küçük dallar. Ve bence bu koku tam olarak bunu yansıtıyor.\nEvet, hafif nemli, topraksı bir vetiver kokusu var, ancak bence kremsi, hafif tatlı yasemin ve portakal çiçeği kokusu baskın; bu koku, biraz daha zayıf olan safran kokusuyla kırılıyor.\nVanilka133 metalik bir alt tondan bahsediyor, ancak ben öyle algılamıyorum, aksine sıcak, kremsi bir koku olarak görüyorum; evet, narin, göze batmayan, zarif AMA kadınsı.\nKalıcılığı yaklaşık 6 saat ve yayılımı oldukça hafif.\nNot: İş yerinde bu parfümün biraz güneş sonrası losyonuna benzediği söylendi. Çiçekler, hindistan cevizi. Hindistan cevizi mi? Bu ilginç, muhtemelen kuru vetiverin çiçeklerin kremsi tatlılığıyla birleşimi.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.10934.jpg"
+    },
+    {
+      "id": "parent630805",
+      "author": "R.diggity",
+      "date": "2023-07-30",
+      "text": "Şu anda test aşamasında. Şimdiye kadar kokladığım en yoğun vetiver kokusu. Uzun süre kalıcı ve mükemmel yayılımı var.\n\nÇoğu vetiver türü gibi berber dükkanı havasına bürünerek yumuşamaz.\n\nSırf bu nedenle bile tetiği çekebilirim.\n\nHermes Vetiver ve H24'ü kesinlikle tercih ederim ama bu da sırf zarif sadeliği nedeniyle sahip olunmaya değer, eşsiz bir parça olabilir.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1781669.jpg"
+    },
+    {
+      "id": "parent630853",
+      "author": "vanilka133",
+      "date": "2023-07-12",
+      "text": "Zamanla Ganymede'ye olan benzerliğini açıkça görebiliyorum.\nBu safran, metalik, kozmik bir koku yayıyor. Ancak mutlak sıfır derecede hiçbir şey koklayamazsınız, bu yüzden biraz yanlış bir algı.\nBu, iyi ve klasik zevke sahip bir erkek için bir koku. Alçakgönüllü ve ölçülü. Kendini gösteriş yapmıyor. Her zaman kusursuz, yerli yerinde. Bir yanı var ama gizemli değil, çünkü bu, kulaklarının arkasında bir şey sakladığı anlamına gelir. Kötü spor zevkinden ve güçlü baharatlardan uzak duruyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.25491.jpg"
+    },
+    {
+      "id": "parent630788",
+      "author": "Stelcon",
+      "date": "2023-07-06",
+      "text": "Bugün başıma bu olay geldi. Eşim ve kızımla birlikte bir kahve dükkanına doğru yürüyorduk. Oturduğumuz anda bir çift yaklaştı; adam maalesef tekerlekli sandalyedeydi ve karısı onu arabayla gezdiriyordu. Adam çok kibarca şöyle dedi: \"Affedersiniz ama size ne soracağımı inanamayacaksınız.\" Ben de \"Lütfen efendim, çekinmeyin\" diye cevap verdim. Bunun üzerine bana hangi parfümü kullandığımı sordu. Bir an neredeyse şok oldum çünkü bu çift, adamın o halinden bağımsız olarak, sadece bunu sormak için beni takip etmişti.\nBirdenbire yüzümde kocaman bir gülümseme olduğunu fark ettim; bunun sebebi giydiğim parfümü beğenmesi değil, iyi zevke sahip başka bir parfüm severle tanışmış olmamdı. \"Beyefendi, bu Tom Ford'un Grey Vetiver parfümü. Gümüş olanı,\" dedim. Karısı not aldı, bana çok nazikçe teşekkür ettiler ve gittiler. Muhtemelen hayatımın geri kalanında hatırlayacağım tek parfüm iltifatı bu olacak. Ve evet, Grey Vetiver parfümü gerçekten o kadar güzel. Edp'ye %80 benziyor ama içindeki deri ve safran tüm farkı yaratıyor. Koku paleti tek kelimeyle muhteşem. Edp'yi seviyorum ama buna bayılıyorum. 10/10",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1312293.jpg"
+    },
+    {
+      "id": "parent630835",
+      "author": "ManfrediGaetano14",
+      "date": "2023-07-05",
+      "text": "Gri Vetiver Parfümü. “Güçlü bir lansman.” Estée Lauder'ın Tom Ford markasıyla yaptığı mükemmel iş birliği asla tam olarak övülemez. İstatistiksel olarak, piyasadaki en yüksek sayıda başarılı lansmana sahip markadır: kitlesel dağıtıma sahip, dünyanın her ülkesinde bulunan bir tasarımcı markasıdır; ancak hedef kitlesi, daha özel, neredeyse seçkin bir parfümcü kitlesi olmaya devam etmektedir. Ve aslında, GV Parfum bir Özel Koleksiyon kokusu olarak piyasaya sürülmemiş olsa da, yine de aynı kitleye hitap eden bir yapıya sahiptir: niş, kitlesel olmayan zevklere sahip daha seçkin bir kitle. Bunu gözlemlemek için, vetiver esansiyel yağının sadece son derece dikkatli ve hassas bir şekilde değil, aynı zamanda dumanlı, odunsu-balsamik bir profile sahip olan, örneğin Amyris'e benzer, ancak vetiverin profilinden de çok uzak olmayan sipriol yağı (fraksiyonlanmamış) ile nasıl karıştırıldığına dikkat edin. Bu ham maddenin seçimi bu nedenle stratejiktir, çünkü cypriol üst notalarda vetiverden daha az keskindir ve ayrıca onun daha dumanlı, daha koyu ve daha az dile getirilebilir yönlerini yumuşatma gibi nadir bir özelliğe sahiptir. GV Parfum'da vetiver mevcuttur, ancak çok sakin, neredeyse yumuşak bir vetiverdir: açılıştaki ilk dumanlı kabarcıktan sonra, cypriol'ün kucağında kendini bırakır; portakal çiçeği akoru ise safralein izleriyle desteklenerek, özellikle bu örnekte olduğu gibi aşırı kullanıldığında hala dumanlı ve oldukça ağır olan cypriol'ü yumuşatır. Genel olarak, formül gerçekten ilginç. Özellikle, kokunun monolitik yapısı, bir Tom Ford lansmanından ziyade niş bir parfümü çağrıştırıyor (tekrar ediyorum: Özel Koleksiyon'dan değil!). Ancak, yayılım mütevazıdır ve belki de bu GV Parfum'daki tek kusurdur. Bununla birlikte, kokunun kalıcılığı ve evrimi, tüm eksiklikleri telafi ediyor. Parfümün kuruma aşamasında Safralein'in bu küçük izleri ortaya çıktığında, şahsen büyük bir estetik tatmin duygusu yaşıyorum: kullanılan ham maddelerin giyilebilir olmaktan çok uzak olmasına rağmen, hoş ve giyilebilir bir his. Mükemmel. Tom Ford böyle devam ederse, geleneksel pazarda başka kimseye yer kalmayacak.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.48205.jpg"
+    },
+    {
+      "id": "parent630847",
+      "author": "Nishivano",
+      "date": "2023-06-26",
+      "text": "Merhaba! Son zamanlarda kokladığım ikinci parfüm \"Grey Vetiver Parfum\" oldu. Bu parfüm beni gerçekten çok etkiledi! Güzel, kuru, hafif sert, dumanlı-pudralı bir koku; hatta biraz baskın bile diyebilirim. Kuruduktan sonra kremsi, dumanlı bir bitişe dönüşüyor! Muhteşem bir koku!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.304575.jpg"
+    },
+    {
+      "id": "parent630807",
+      "author": "familyguy_21",
+      "date": "2023-06-18",
+      "text": "İnanılmaz. Rastgele aldım ve size söyleyeyim, bu 2023 yazının orijinal kokusu olacak. Temiz, sade, sofistike ve bağımlılık yapıcı. Sabunlu, ferah ve çok az tatlı. Bu, bir et lokantasına gidip en iyi etlerden birini, yanında hiçbir şey veya düşük kaliteli bir garnitür olmadan, sadece harika etle yemek gibi. Koku sadece güzel, gösterişsiz.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent630810",
+      "author": "Mr.Templarious",
+      "date": "2023-06-09",
+      "text": "Sonunda denedim. Daha önce EDP'sini hiç denememiştim, ama EDT'nin aksine bu gerçekten adının hakkını veriyor; içinde vetiver var. Yanlış anlamayın, EDT'yi çok seviyorum; hatta fiyat-performans oranı berbat olmasaydı koleksiyonumda olurdu. Ama bunun ötesinde, GV EDT adının hakkını veren bir parfüm değil. Vetiver içeriyor, ama en güçlü yanı bu değil.\n\nAncak burada, bu notayı çok net bir şekilde tanımlanmış olarak bulacaksınız. En yoğun, en koyu ve en zarif haliyle fark edeceksiniz. Mürekkep kokusunu anımsatan nemli bir vetiver (bunu söylediğimde aklınıza hangi parfüm geliyor? Eminim benim de aklıma gelen aynı parfümdür, hehe) ve işte sorun da burada, daha sonra açıklayacağım…\nÇok fazla sürpriz ve dönüş içermiyor ve doğrudan konuya giriyor, neden \"Gri Vetiver\" olarak adlandırıldığını en başından gösteriyor. Yoğun vetiverin yanı sıra, safran da oldukça belirgin, parfümü daha giyilebilir, biraz daha hafif kılıyor ve vetiverin nemliliğini dengelemek için bir miktar kuruluk katıyor. Bu anlamda çok minimalist bir parfüm diyebiliriz.\n\nPerformansı hakkında henüz fazla bir şey söyleyemem çünkü her iki denememde de duştan hemen sonra uyguladım ve kuru cildim o zaman güvenilir olmuyor, en yağlı ürünleri bile emiyor. Kalıcılığı hakkında yorum yapmak için daha sonra bu yorumu düzenleyeceğim.\n\nKısacası, harika bir parfüm, tam benim tarzım, ama büyük bir sorunu var. Daha önce de belirttiğim gibi, mürekkep benzeri kokusuyla o topraksı vetiver, Encre Noir serisinde zaten inanılmaz derecede düşük fiyatlarla harika bir şekilde yakalanmışken, Tom Ford parfümlerinin fiyatlandırılması konusunda her zamankinden daha kibirli davranıyor ve fiyatlar \"aşırı\" kelimesinin bile yetersiz kaldığı bir seviyede kalıyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.40113.jpg"
+    },
+    {
+      "id": "parent630823",
+      "author": "Gardinette",
+      "date": "2023-06-08",
+      "text": "Bayıldım.\n\nOrijinalini beğenmemiştim ama bunu almayı düşünüyorum.\n\nBu, vetiver ile arası iyi olmayanlar için bir vetiver çeşididir.\nSessiz, soğuk, beyaz bir vetiver; sofistike, zarif, narin, çok yönlü, metalik, çok topraksı olmayan ve her şeyden önemlisi beyaz bir gömlek. Başka bir şey istemiyorum.\n\nKocamın giyinme odası için mükemmel.\n\"Voyage d'Hermès\"ten bile güzel ama Artisan Parfumeur'ün \"Timbuktu\"sundan daha az hoş. Bu aynı zamanda Artisan Parfumeur'ün \"Il Était Un Bois\" adlı eserine de bir göndermedir.\n\n8/10",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.17094.jpg"
+    },
+    {
+      "id": "parent630791",
+      "author": "The Wolf",
+      "date": "2023-05-22",
+      "text": "Bir araba benzetmesiyle açıklarsam, Grey Vetiver benim için koku dünyasının Lexus'u gibi. İtalyan arabaları gibi gösterişli değil, Alman arabaları gibi aşırı mühendislik ürünü de değil. Japon arabaları gibi güvenilir. Pratik, işlevsel, kaliteli ve sizi yolda bırakmayacak. Bunu kelimenin tam anlamıyla her türlü hava koşulunda ve durumda kullanabilirsiniz ve ihtiyacınız olan her şeyde güvenilir bir şekilde iyi performans gösterecektir.\n\nGrey Vetiver Parfum, EDP'ye güçlü bir V8 motoru eklemek gibi. Benzer, ancak performansı daha iyi, daha derin ve şişe estetiği gibi havalı, metalik bir havası var. Yine de bu kokunun kalbi ve ruhu olan pastel vetiver notasına sadık kalıyor. Özel karışım serisiyle karşılaştırıldığında harika bir ürün ve fiyatı da makul, özellikle gri pazarda ve eBay gibi ikinci el piyasasında daha da uygun fiyatlı.\n\nİyi yapılmış, çok yönlü bir koku. Birçok farklı parfüme büyük paralar harcamak istemeyen biri için kolayca imza kokusu olabilir.\n\nKoku 8/10\nPerformans: Belirlenecek",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1263755.gif"
+    },
+    {
+      "id": "parent630844",
+      "author": "El Amadeus",
+      "date": "2023-04-27",
+      "text": "Bugün nihayet parfümü kendime uygulama fırsatı buldum...\nKoleksiyonumda EDP versiyonu da var. Ona kıyasla, yeni çıkan versiyon daha narenciye ağırlıklı geldi. Yine de, bildiğimiz o eski güzel Grey Vetiver kokusu. Yeni konsantrasyonuna uygun olarak daha derin bir kokuya sahip. Şişeyi, daha doğrusu yeni rengini de beğendim!\nTabii ki bu ilk izlenimim, daha detaylı test edeceğim ama sanırım şişe koleksiyonumda yer alacak!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent630789",
+      "author": "SmellSharpe",
+      "date": "2023-03-13",
+      "text": "EDP'ye çok benzer ama daha uzun süre kalıcı, daha doğrusal ve o kadar parlak değil. Safran kokusunu biraz alıyorum ve narenciye notalarına çok fazla vurgu yapılmıyor.\n\nTF Signature serisinin çoğu Parfüm çeşidi (Ombre Leather, Noir Extreme, Black Orchid…) biraz farklı olsa da, bir \"Parfüm\"den beklendiği gibi daha uzun süre kalıcı değil. Grey Vetiver Parfum da koku profili açısından EDP'den sadece biraz farklı, ancak kesinlikle daha uzun süre kalıcı.\n\nGrey Vetiver'i gerçekten çok sevmiyorsanız ve/veya EDP'nizin yedeği olarak kullanmak istemiyorsanız ikisine de sahip olmanıza gerek yok. Zorunlu kalsam EDP yerine Parfüm'ü seçerdim, ama ikisi de mükemmel.\n\nBen yine de Creed Original Vetiver'i çok daha fazla tercih ediyorum. Kesinlikle daha rahat kullanılabilir.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1447620.gif"
+    },
+    {
+      "id": "parent630786",
+      "author": "HorlicksB4Bed",
+      "date": "2023-03-13",
+      "text": "Bu, EDP'ye çok benzer, ancak vetivere daha fazla vurgu yapılmış ve narenciye ferahlığı daha az hissedilmiştir.\nBir parfümün tam olarak nasıl olması gerektiği gibi, ama yine de EDP'yi çok daha fazla tercih ediyorum.\nCildimde 12 saat kalıyor ama cilde çok yakın duruyor.\nKıyafetlerde kokusu birkaç gün boyunca hissedilebilir.\nÇok iyi bir yayın.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     }
   ]
 }

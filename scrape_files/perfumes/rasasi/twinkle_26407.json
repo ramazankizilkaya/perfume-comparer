@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Twinkle-26407.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Twinkle parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Üst notalar: Bergamot, Şeftali, Mandalina ve Frenk üzümü; orta notalar: Şakayık, Orris kökü, Sambac Yasemini ve Gül; alt notalar Sedir, Misk ve Sandal ağacı.",
-  "description_original": "Rasasi markasının Twinkle parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Üst notalar: Bergamot, Şeftali, Mandalina ve Frenk üzümü; orta notalar: Şakayık, Orris kökü, Sambac Yasemini ve Gül; alt notalar Sedir, Misk ve Sandal ağacı.",
+  "description_original": "Rasasi markasının Twinkle parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Üst notalar: Bergamot, Şeftali, Mandalina ve Siyah Frenk Üzümü; orta notalar: Şakayık, Orris kökü, Sambac Yasemini ve Gül; alt notalar Sedir, Misk ve Sandal ağacı.",
   "description_enhanced": "Rasasi markasının Twinkle parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Üst notalar: Bergamot, Şeftali, Mandalina ve Frenk üzümü; orta notalar: Şakayık, Orris kökü, Sambac Yasemini ve Gül; alt notalar Sedir, Misk ve Sandal ağacı.",
   "mainAccords": [
     {
@@ -49,16 +49,44 @@
     {
       "name": "misk",
       "width": "49.8967%"
+    },
+    {
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.87",
-    "votesCount": "47",
+    "score": "3.83",
+    "votesCount": "48",
     "breakdown": {
       "love": "11",
       "like": "26",
       "ok": "3",
-      "dislike": "7",
+      "dislike": "8",
       "hate": "0"
     }
   },
@@ -75,7 +103,7 @@
       "Bergamot",
       "Şeftali",
       "Mandalina",
-      "Frenk üzümü"
+      "Siyah Frenk Üzümü"
     ],
     "middle": [
       "Şakayık",
@@ -91,33 +119,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "6",
+    "moderate": "15",
+    "longLasting": "4",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "15",
+    "strong": "3",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "11",
+    "moreFemale": "2",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANVİN",
+      "name": "Eclat d’Arpège"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Ming Shu"
+    },
+    {
+      "brand": "GİORGİO BEVERLY HİLLS",
+      "name": "Giorgio Beverly Hills Blue"
+    },
+    {
+      "brand": "TRUSSARDİ",
+      "name": "Trussardi Delicate Rose"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Brit Sheer (2015)"
+    },
+    {
+      "brand": "MEXX",
+      "name": "Mexx Woman"
+    },
+    {
+      "brand": "CLİNİQUE",
+      "name": "Calyx"
+    },
+    {
+      "brand": "COURRÈGES",
+      "name": "Rose de Courreges"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -144,10 +205,6 @@
       "name": "L'Instant de Guerlain"
     },
     {
-      "brand": "RASASİ",
-      "name": "Oud Al Mubakhar"
-    },
-    {
       "brand": "JEAN COUTURİER",
       "name": "Coriandre"
     },
@@ -164,12 +221,16 @@
       "name": "Aurum"
     },
     {
-      "brand": "MONTALE",
-      "name": "Red Aoud"
+      "brand": "SERGE LUTENS",
+      "name": "Feminité du Bois"
     },
     {
-      "brand": "DONNA KARAN",
-      "name": "DKNY Be Delicious"
+      "brand": "LANCÔME",
+      "name": "Poeme"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Red Aoud"
     },
     {
       "brand": "ELİZABETH ARDEN",
@@ -179,5 +240,6 @@
       "brand": "ROCHAS",
       "name": "Femme Rochas"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -88,7 +88,7 @@ export default async function BrandPage({ params }: PageProps) {
             <header className="brand-head">
                 <div className="brand-logo">
                     {brand.logoUrl ? (
-                        <img src={mediaUrl(brand.logoUrl)} alt={`${brand.name} logosu`} />
+                        <img src={mediaUrl(brand.logoUrl)} alt={`${brand.name} parfüm markası logosu`} />
                     ) : (
                         <span className="brand-logo-fallback">{brand.name}</span>
                     )}

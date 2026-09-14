@@ -49,13 +49,41 @@
     {
       "name": "pudralı",
       "width": "45.1667%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "17",
+    "score": "4.11",
+    "votesCount": "18",
     "breakdown": {
-      "love": "7",
+      "love": "8",
       "like": "6",
       "ok": "2",
       "dislike": "2",
@@ -63,11 +91,11 @@
     }
   },
   "seasons": {
-    "winter": "11",
-    "spring": "10",
+    "winter": "12",
+    "spring": "11",
     "summer": "4",
-    "autumn": "10",
-    "day": "11",
+    "autumn": "11",
+    "day": "12",
     "night": "11"
   },
   "notes": {
@@ -89,33 +117,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "1",
+    "moderate": "9",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "9",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "3",
+    "male": "10"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "The One for Men Eau de Parfum"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Bottled"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Star Men"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -177,5 +218,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Ana Abiyedh Leather"
     }
-  ]
+  ],
+  "comments": []
 }

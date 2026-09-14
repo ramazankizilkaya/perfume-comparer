@@ -63,78 +63,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "8",
-    "weak": "9",
-    "moderate": "8",
-    "longLasting": "4",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "19",
-    "moderate": "8",
-    "strong": "10",
-    "enormous": "9"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "3",
-    "moreFemale": "1",
-    "unisex": "11",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "7",
-    "goodValue": "2",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GOUTAL",
-      "name": "Eau d'Hadrien"
-    },
-    {
-      "brand": "FRAGONARD",
-      "name": "Verveine"
-    },
-    {
-      "brand": "GRANADO",
-      "name": "Verbena"
-    },
-    {
-      "brand": "ADOLFO DOMİNGUEZ",
-      "name": "Verbena Mujer"
-    },
-    {
-      "brand": "L'OCCİTANE EN PROVENCE",
-      "name": "Verveine"
-    },
-    {
-      "brand": "YVES ROCHER",
-      "name": "Feuilles de Verveine"
-    },
-    {
-      "brand": "L'OCCİTANE EN PROVENCE",
-      "name": "Citrus Verbena Summer"
-    },
-    {
-      "brand": "DAME PERFUMERY",
-      "name": "Verbena, Freesia & Musk"
-    },
-    {
-      "brand": "CHRİSTİAN TORTU",
-      "name": "Riviera"
-    },
-    {
-      "brand": "POCKET PARFUM",
-      "name": "Copacabana Royal"
-    },
-    {
-      "brand": "TERRY DE GUNZBURG",
-      "name": "Thé Glacé Aqua Parfum (Russian Gold Edition)"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JO MALONE LONDON",
@@ -196,5 +151,6 @@
       "brand": "CHANEL",
       "name": "Coco Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

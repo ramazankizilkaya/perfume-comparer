@@ -37,15 +37,43 @@
     {
       "name": "odunsu",
       "width": "45.368%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.63",
-    "votesCount": "57",
+    "votesCount": "59",
     "breakdown": {
       "love": "18",
-      "like": "18",
-      "ok": "7",
+      "like": "19",
+      "ok": "8",
       "dislike": "10",
       "hate": "4"
     }
@@ -74,41 +102,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "15",
+    "longLasting": "0",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "15",
+    "strong": "8",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "8",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "4",
+    "overpriced": "2",
+    "fair": "8",
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MUTİS NUEVA GRANADA",
+      "name": "Melao"
+    },
+    {
+      "brand": "OLİVER & CO.",
+      "name": "Vaninger"
+    },
+    {
+      "brand": "LES LİQUİDES IMAGİNAİRES",
+      "name": "Melancolia Eau de Parfum"
+    },
+    {
+      "brand": "ESTORAS",
+      "name": "Port Of Alexandria"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
       "name": "Eau des Merveilles"
     },
     {
-      "brand": "ETAT LİBRE D'ORANGE",
-      "name": "You Or Someone Like You"
+      "brand": "BYREDO",
+      "name": "Gypsy Water"
     },
     {
       "brand": "AMOUAGE",
@@ -162,5 +207,6 @@
       "brand": "BY KİLİAN",
       "name": "Love Don't Be Shy"
     }
-  ]
+  ],
+  "comments": []
 }

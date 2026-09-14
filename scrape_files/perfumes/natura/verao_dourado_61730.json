@@ -33,6 +33,34 @@
     {
       "name": "yumuşak baharatlı",
       "width": "48.1482%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -49,9 +77,9 @@
   "seasons": {
     "winter": "1",
     "spring": "8",
-    "summer": "19",
+    "summer": "20",
     "autumn": "3",
-    "day": "13",
+    "day": "15",
     "night": "1"
   },
   "notes": {
@@ -67,33 +95,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "4",
+    "moderate": "0",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "2",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Sheer Love Fragrance Mist"
+    },
+    {
+      "brand": "CHRİSTİAN AUDİGİER",
+      "name": "Ed Hardy Women's EDT"
+    },
+    {
+      "brand": "AVON",
+      "name": "Wink"
+    },
+    {
+      "brand": "MAHOGANY",
+      "name": "Flor de Cerejeira"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -121,11 +166,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Biografia Inspire"
+      "name": "Una Artisan"
     },
     {
       "brand": "NATURA",
-      "name": "Una Artisan"
+      "name": "Biografia Inspire"
     },
     {
       "brand": "NATURA",
@@ -155,5 +200,6 @@
       "brand": "CALVİN KLEİN",
       "name": "CK One"
     }
-  ]
+  ],
+  "comments": []
 }

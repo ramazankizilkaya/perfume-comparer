@@ -49,6 +49,10 @@
     {
       "name": "yumuşak baharatlı",
       "width": "44.3251%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -93,85 +97,37 @@
       "Amber",
       "Misk",
       "Paçuli"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "5",
-    "longLasting": "6",
-    "eternal": "8"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "5",
-    "strong": "9",
-    "enormous": "9"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "4",
-    "moreMale": "3",
-    "male": "5"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "6",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "7",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "AMOUAGE",
-      "name": "Epic Man"
-    },
-    {
-      "brand": "BY KİLİAN",
-      "name": "Pure Oud"
-    },
-    {
-      "brand": "THE DİFFERENT COMPANY",
-      "name": "Oud Shamash"
-    },
-    {
-      "brand": "COMME DES GARCONS",
-      "name": "Comme des Garcons 2 Man"
-    },
-    {
-      "brand": "JO MİLANO PARİS",
-      "name": "Game of Spades Ruby"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Rocabar"
-    },
-    {
-      "brand": "L'ARTİSAN PARFUMEUR",
-      "name": "Timbuktu"
-    },
-    {
-      "brand": "BOND NO 9",
-      "name": "Greenwich Village"
-    },
-    {
-      "brand": "ALLSAİNTS",
-      "name": "Sunset Riot"
-    },
-    {
-      "brand": "LALİQUE",
-      "name": "Hommage à l'Homme Eau de Toilette"
-    },
-    {
-      "brand": "MANCERA",
-      "name": "Sand Aoud"
-    },
-    {
-      "brand": "AGATHO PARFUM",
-      "name": "Giardinodiercole"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -233,5 +189,6 @@
       "brand": "JOVOY PARİS",
       "name": "Private Label"
     }
-  ]
+  ],
+  "comments": []
 }

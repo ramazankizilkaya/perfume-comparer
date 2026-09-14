@@ -71,7 +71,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
             <PageBreadcrumb trail={[{ label: "Blog", href: "/blog" }, { label: blog.title }]} />
 
             <article className="article">
-                {blog.coverImageUrl && <img className="article-cover" src={blog.coverImageUrl} alt="" />}
+                {blog.coverImageUrl && <img className="article-cover" src={blog.coverImageUrl} alt={`${blog.title} makale kapak görseli`} />}
 
                 <h1 className="article-title">{blog.title}</h1>
                 <div className="blog-meta">

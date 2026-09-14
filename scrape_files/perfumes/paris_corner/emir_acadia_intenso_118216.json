@@ -1,7 +1,7 @@
 {
   "name": "Emir Acadia Intenso PARIS CORNER",
   "targetGender": "erkekler için",
-  "fragranceFamily": "Oriental",
+  "fragranceFamily": "Woody",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.118216.jpg",
   "url": "https://www.fragrantica.tr/perfumes/PARIS-CORNER/Emir-Acadia-Intenso-118216.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "PARIS CORNER markasının Emir Acadia Intenso parfümü, erkekler için Aromatik Baharatlı bir kokudur. Üst notalar: Pembe biber, Greyfurt, Kişniş, Aldehitler, Bergamot, Limon ve Nane; orta notalar: Yasemin, Muskat, Zencefil ve Kavun; alt notalar Sandal ağacı, Paçuli, Amber ağacı, Labdanum, Tütsü, Sedir ve Amber.",
   "mainAccords": [
     {
-      "name": "amber",
+      "name": "odunsu",
       "width": "100%"
     },
     {
-      "name": "odunsu",
+      "name": "amber",
       "width": "100%"
     },
     {
@@ -47,8 +47,36 @@
       "width": "51.5386%"
     },
     {
-      "name": "aldehitli",
+      "name": "yeşil",
       "width": "49.7435%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -98,37 +126,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "11",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "11",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "1",
+    "male": "10"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CHANEL",
+      "name": "Bleu de Chanel Eau de Parfum"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Bleu de Chanel"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Bleu de Chanel Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Blue Iconic"
+      "brand": "ARABİYAT PRESTİGE",
+      "name": "Marwa"
     },
     {
       "brand": "KHADLAJ PERFUMES",
@@ -137,10 +178,6 @@
     {
       "brand": "RUE BROCA",
       "name": "Théorème Homme"
-    },
-    {
-      "brand": "ARMAF",
-      "name": "Odyssey Aqua Edition"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -156,15 +193,19 @@
     },
     {
       "brand": "RASASİ",
-      "name": "Hawas Ice"
+      "name": "Hawas Malibu"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Liam"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Jasoor"
+      "brand": "RASASİ",
+      "name": "Hawas Ice"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Reverie Aqua"
     },
     {
       "brand": "RASASİ",
@@ -175,16 +216,17 @@
       "name": "Island"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Sheikh Al Shuyukh Supreme"
+    },
+    {
       "brand": "RABANNE",
       "name": "Invictus Victory Elixir"
     },
     {
       "brand": "ZİMAYA",
       "name": "INEKAS LUNA"
-    },
-    {
-      "brand": "FRENCH AVENUE",
-      "name": "Liquid Brun"
     }
-  ]
+  ],
+  "comments": []
 }

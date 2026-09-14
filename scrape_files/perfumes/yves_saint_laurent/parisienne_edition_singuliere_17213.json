@@ -49,6 +49,34 @@
     {
       "name": "taze",
       "width": "44.8774%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,33 +115,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "2",
+    "moderate": "3",
+    "longLasting": "8",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "3",
+    "strong": "13",
+    "enormous": "16"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "5th Avenue NYC Vibe"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Parisienne"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Parisienne A L'Extreme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Parisienne 2024"
+    },
+    {
+      "brand": "CREED",
+      "name": "Carmina"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -175,5 +224,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
     }
-  ]
+  ],
+  "comments": []
 }

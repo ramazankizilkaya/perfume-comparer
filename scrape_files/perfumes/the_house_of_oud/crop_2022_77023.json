@@ -37,6 +37,34 @@
     {
       "name": "tarçın",
       "width": "44.5135%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -78,41 +106,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "3",
+    "longLasting": "10",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "3",
+    "strong": "5",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "8",
+    "moreMale": "6",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "7",
+    "overpriced": "4",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "FORT & MANLE",
+      "name": "Bojnokopff"
+    },
+    {
+      "brand": "FRANCK BOCLET",
+      "name": "Crime"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Golden Dallah"
+    },
+    {
+      "brand": "NASOMATTO",
+      "name": "Black Afgano"
+    },
+    {
+      "brand": "MAİSON CRİVELLİ",
+      "name": "Oud Maracujá"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Oud for Greatness"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
       "name": "Overture Man"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Oud Wood"
     },
     {
       "brand": "AMOUAGE",
@@ -147,6 +196,10 @@
       "name": "Jubilation XXV Man"
     },
     {
+      "brand": "SERGE LUTENS",
+      "name": "La Couche du Diable"
+    },
+    {
       "brand": "AMOUAGE",
       "name": "Opus XIV – Royal Tobacco"
     },
@@ -155,16 +208,17 @@
       "name": "Laudano Nero"
     },
     {
-      "brand": "MATİERE PREMİERE",
+      "brand": "SERGE LUTENS",
+      "name": "Ambre Sultan"
+    },
+    {
+      "brand": "MATİÈRE PREMİÈRE",
       "name": "Encens Suave"
     },
     {
       "brand": "XERJOFF",
       "name": "XJ 1861 Naxos"
-    },
-    {
-      "brand": "TAUER PERFUMES",
-      "name": "02 L'Air du Desert Marocain"
     }
-  ]
+  ],
+  "comments": []
 }

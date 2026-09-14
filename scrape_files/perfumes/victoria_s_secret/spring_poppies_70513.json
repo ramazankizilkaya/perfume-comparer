@@ -31,11 +31,11 @@
       "width": "59.4737%"
     },
     {
-      "name": "yeşil",
+      "name": "pudralı",
       "width": "52.1053%"
     },
     {
-      "name": "pudralı",
+      "name": "yeşil",
       "width": "52.1053%"
     }
   ],
@@ -68,42 +68,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "5",
-    "moderate": "6",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "6",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "13",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "9",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Gingham Fresh"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Strawberries and Champagne"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -142,10 +133,6 @@
       "name": "You're The One"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Champagne Apple & Honey"
-    },
-    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Tease Eau de Parfum 2020"
     },
@@ -158,6 +145,10 @@
       "name": "Chasing Fireflies"
     },
     {
+      "brand": "BATH & BODY WORKS",
+      "name": "Champagne Apple & Honey"
+    },
+    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Amber Romance"
     },
@@ -165,5 +156,6 @@
       "brand": "VİCTORİA'S SECRET",
       "name": "Very Sexy Oasis"
     }
-  ]
+  ],
+  "comments": []
 }

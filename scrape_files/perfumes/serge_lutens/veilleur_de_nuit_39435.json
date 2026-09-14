@@ -49,13 +49,41 @@
     {
       "name": "deri",
       "width": "51.0526%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.22",
-    "votesCount": "155",
+    "score": "4.23",
+    "votesCount": "158",
     "breakdown": {
-      "love": "73",
+      "love": "76",
       "like": "58",
       "ok": "10",
       "dislike": "13",
@@ -85,33 +113,62 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "11",
+    "moderate": "18",
+    "longLasting": "33",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "23",
+    "moderate": "18",
+    "strong": "28",
+    "enormous": "16"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "6",
+    "unisex": "27",
+    "moreMale": "2",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "9",
+    "overpriced": "18",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Écrin de Fumée"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Noir Aphrodisiaque"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Kokorico"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Kokorico by Night"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Borneo 1834"
+    },
+    {
+      "brand": "THEODOROS KALOTİNİS",
+      "name": "Velvet Chocolate"
+    },
+    {
+      "brand": "AMPHORA PARFUM",
+      "name": "Baby Boy"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -154,10 +211,6 @@
       "name": "Portrait of a Lady"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Angélique Noire"
-    },
-    {
       "brand": "SERGE LUTENS",
       "name": "Chergui"
     },
@@ -167,11 +220,16 @@
     },
     {
       "brand": "SERGE LUTENS",
+      "name": "Arabie"
+    },
+    {
+      "brand": "SERGE LUTENS",
       "name": "Jeux de Peau"
     },
     {
       "brand": "SERGE LUTENS",
       "name": "Datura Noir"
     }
-  ]
+  ],
+  "comments": []
 }

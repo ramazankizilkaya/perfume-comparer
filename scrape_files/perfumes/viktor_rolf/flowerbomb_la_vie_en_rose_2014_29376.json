@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Viktor-Rolf/Flowerbomb-La-Vie-En-Rose-2014-29376.html",
   "brand": "Viktor&Rolf parfüm ve kolonya",
   "description": "Viktor&Rolf markasının Flowerbomb La Vie En Rose 2014 parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Flowerbomb La Vie En Rose 2014, 2014 yılında piyasaya sürüldü. Üst notalar: Mandalina, Greyfurt, Pembe biber ve Çay; orta notalar: Gül, Orkide ve Yasemin; alt notalar Amber, Kaşmir ve Paçuli.",
-  "description_original": "Viktor&Rolf markasının Flowerbomb La Vie En Rose 2014 parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Flowerbomb La Vie En Rose 2014, 2014 yılında piyasaya sürüldü. Üst notalar: Mandalina, Greyfurt, Pembe biber ve Çay; orta notalar: Gül, Orkide ve Yasemin; alt notalar Amber, Kaşmir ve Paçuli.",
+  "description_original": "Viktor&Rolf markasının Flowerbomb La Vie En Rose 2014 parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Flowerbomb La Vie En Rose 2014, 2014 yılında piyasaya sürüldü. Üst notalar: Mandalina, Greyfurt, Pembe biber ve Çay; orta notalar: Gül, Orkide ve Yasemin; alt notalar Amber, Kaşmeran ve Paçuli.",
   "description_enhanced": "Viktor&Rolf markasının Flowerbomb La Vie En Rose 2014 parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Flowerbomb La Vie En Rose 2014, 2014 yılında piyasaya sürüldü. Üst notalar: Mandalina, Greyfurt, Pembe biber ve Çay; orta notalar: Gül, Orkide ve Yasemin; alt notalar Amber, Kaşmir ve Paçuli.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "paçuli",
       "width": "48.3521%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,39 +112,52 @@
     ],
     "base": [
       "Amber",
-      "Kaşmir",
+      "Kaşmeran",
       "Paçuli"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "9",
+    "longLasting": "2",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "9",
+    "strong": "4",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb La Vie En Rose 2016"
+    },
+    {
+      "brand": "OAKCHA",
+      "name": "Reborn Lust"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "Untold Eau Legere"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -178,5 +219,6 @@
       "brand": "DİOR",
       "name": "Dior Addict"
     }
-  ]
+  ],
+  "comments": []
 }

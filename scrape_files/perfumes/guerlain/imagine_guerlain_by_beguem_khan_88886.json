@@ -63,12 +63,12 @@
     }
   },
   "seasons": {
-    "winter": "24",
-    "spring": "16",
+    "winter": "25",
+    "spring": "17",
     "summer": "6",
-    "autumn": "23",
+    "autumn": "24",
     "day": "22",
-    "night": "26"
+    "night": "27"
   },
   "notes": {
     "top": [
@@ -83,86 +83,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "23",
-    "moderate": "13",
-    "longLasting": "8",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "25",
-    "moderate": "13",
-    "strong": "9",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "30",
-    "moreFemale": "12",
-    "unisex": "11",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "41",
-    "overpriced": "5",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "6",
-    "goodValue": "1",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Imagine Guerlain by L'Atelier Truscelli"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Imagine Guerlain by Shourouk Rhaiem"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "190 Ans de Création 1828-2018"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Imagine Guerlain by Géraldine Gonzalez"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dune"
-    },
-    {
-      "brand": "HİSTOİRES DE PARFUMS",
-      "name": "1472 La Divina Commedia"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mon Precieux Nectar"
-    },
-    {
-      "brand": "SHALİNİ",
-      "name": "Gold"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Myrrhe & Delires"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Soleil de Feu"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Devotion Intense"
-    },
-    {
-      "brand": "TRUDON",
-      "name": "Absolu"
-    },
-    {
-      "brand": "LES ABSTRAİTS",
-      "name": "Belle Âme"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -206,11 +153,11 @@
     },
     {
       "brand": "GUERLAİN",
-      "name": "Cuir Béluga"
+      "name": "Rose Centifolia Extrait 1"
     },
     {
       "brand": "GUERLAİN",
-      "name": "Rose Centifolia Extrait 1"
+      "name": "Cuir Béluga"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -221,8 +168,9 @@
       "name": "Tobacco Honey"
     },
     {
-      "brand": "LOUİS VUİTTON",
-      "name": "Imagination"
+      "brand": "GUERLAİN",
+      "name": "Iris Torréfié"
     }
-  ]
+  ],
+  "comments": []
 }

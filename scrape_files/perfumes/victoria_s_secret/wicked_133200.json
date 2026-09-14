@@ -25,23 +25,51 @@
     {
       "name": "yeşil",
       "width": "31.5909%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.33",
-    "votesCount": "3",
+    "score": "4.20",
+    "votesCount": "5",
     "breakdown": {
-      "love": "2",
+      "love": "3",
       "like": "0",
-      "ok": "1",
+      "ok": "2",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "2",
-    "spring": "3",
-    "summer": "1",
+    "winter": "3",
+    "spring": "5",
+    "summer": "2",
     "autumn": "2",
     "day": "1",
     "night": "1"
@@ -66,13 +94,13 @@
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "0",
+    "intimate": "1",
     "moderate": "1",
     "strong": "0",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "1",
+    "female": "2",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "0",
@@ -81,7 +109,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "1",
+    "fair": "2",
     "goodValue": "0",
     "greatValue": "1"
   },
@@ -91,9 +119,51 @@
       "name": "Wicked Eau de Parfum"
     },
     {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bare Vanilla"
+    },
+    {
       "brand": "GUCCİ",
       "name": "Flora Gorgeous Gardenia"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Lil Luck Body Mist"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Love Unleashed"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Vanilla Bean Noel"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Tease Candy Noir"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Crush"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Vanilla Orchid Sandalwood"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Vanilla Café"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Golden Mandarin Saffron"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Coconut Cream"
+    }
+  ],
+  "comments": []
 }

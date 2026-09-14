@@ -37,13 +37,41 @@
     {
       "name": "pudralı",
       "width": "44.7836%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.84",
-    "votesCount": "62",
+    "score": "3.86",
+    "votesCount": "63",
     "breakdown": {
-      "love": "26",
+      "love": "27",
       "like": "18",
       "ok": "1",
       "dislike": "16",
@@ -74,33 +102,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "4",
+    "moderate": "11",
+    "longLasting": "22",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "11",
+    "strong": "23",
+    "enormous": "17"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "15",
+    "moreMale": "6",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "13",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BORTNİKOFF",
+      "name": "Oud Maximus"
+    },
+    {
+      "brand": "MAJİD MUZAFFAR ITERJİ",
+      "name": "Adghal"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Mukhallat Shams"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Dhanal Oudh Ruwah"
+    },
+    {
+      "brand": "HİND AL OUD",
+      "name": "Sheikh A"
+    },
+    {
+      "brand": "BORTNİKOFF",
+      "name": "Oud Maximus Autumn 2019"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Dehn El Oud Malaki"
+    },
+    {
+      "brand": "RANİA J",
+      "name": "Oud Assam"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Khaltat Al Khasa"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Saffron"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Oud Pashmina"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AJMAL",
@@ -162,5 +235,6 @@
       "brand": "SERGE LUTENS",
       "name": "Ambre Sultan"
     }
-  ]
+  ],
+  "comments": []
 }

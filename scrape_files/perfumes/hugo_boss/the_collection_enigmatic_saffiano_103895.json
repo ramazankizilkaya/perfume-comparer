@@ -28,12 +28,12 @@
     }
   ],
   "rating": {
-    "score": "4.20",
-    "votesCount": "20",
+    "score": "4.14",
+    "votesCount": "22",
     "breakdown": {
       "love": "10",
-      "like": "7",
-      "ok": "1",
+      "like": "8",
+      "ok": "2",
       "dislike": "1",
       "hate": "1"
     }
@@ -56,46 +56,37 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "0",
-    "moderate": "1",
-    "longLasting": "12",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "1",
-    "strong": "4",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "5",
-    "male": "8"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "5",
-    "overpriced": "5",
-    "fair": "1",
-    "goodValue": "1",
-    "greatValue": "0"
+    "wayOverpriced": "",
+    "overpriced": "",
+    "fair": "2",
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "UNİQUE'E LUXURY",
-      "name": "Akdeniz"
-    },
-    {
-      "brand": "LORENZO PAZZAGLİA",
-      "name": "Sex-Sea"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
-      "brand": "MONCLER",
-      "name": "La Cordée"
+      "brand": "HUGO BOSS",
+      "name": "Boss Bottled Pacific"
     },
     {
       "brand": "HUGO BOSS",
@@ -110,12 +101,16 @@
       "name": "The Collection Sensual Geranium"
     },
     {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès Eau Givree"
+    },
+    {
       "brand": "CARON",
       "name": "Aimez Moi Comme Je Suis"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Terre d'Hermès Eau Givree"
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2011"
     },
     {
       "brand": "HUGO BOSS",
@@ -148,10 +143,7 @@
     {
       "brand": "NİSHANE",
       "name": "Hacivat"
-    },
-    {
-      "brand": "CREED",
-      "name": "Aventus"
     }
-  ]
+  ],
+  "comments": []
 }

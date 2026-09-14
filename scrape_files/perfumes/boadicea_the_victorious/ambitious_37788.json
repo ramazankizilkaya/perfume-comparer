@@ -49,6 +49,10 @@
     {
       "name": "iris",
       "width": "51.6363%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -89,69 +93,37 @@
       "Paçuli",
       "Tonka fasulyesi",
       "Beyaz Misk"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "2",
-    "moderate": "6",
-    "longLasting": "10",
-    "eternal": "7"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "6",
-    "strong": "10",
-    "enormous": "11"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "2",
-    "unisex": "12",
-    "moreMale": "3",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "6",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "2",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "XERJOFF",
-      "name": "Richwood"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Les Exclusifs de Chanel Coromandel"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Musc Ravageur"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Coromandel Eau de Parfum"
-    },
-    {
-      "brand": "SALVATORE FERRAGAMO",
-      "name": "Terra Rossa"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "A*Men Pure Coffee"
-    },
-    {
-      "brand": "BY KİLİAN",
-      "name": "Intoxicated"
-    },
-    {
-      "brand": "THE DUA BRAND",
-      "name": "Lux Opulent"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
@@ -174,12 +146,12 @@
       "name": "02 L'Air du Desert Marocain"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Oud Wood"
-    },
-    {
       "brand": "XERJOFF",
       "name": "Alexandria II"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Oud Wood"
     },
     {
       "brand": "XERJOFF",
@@ -213,5 +185,6 @@
       "brand": "BOADİCEA THE VİCTORİOUS",
       "name": "Valiant"
     }
-  ]
+  ],
+  "comments": []
 }

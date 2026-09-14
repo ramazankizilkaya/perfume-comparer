@@ -16,59 +16,87 @@
     },
     {
       "name": "sıcak baharatlı",
-      "width": "76.1241%"
+      "width": "76.0581%"
     },
     {
       "name": "pudralı",
-      "width": "75.8078%"
+      "width": "75.7975%"
     },
     {
       "name": "vanilya",
-      "width": "71.1501%"
+      "width": "71.4958%"
     },
     {
       "name": "balsamik",
-      "width": "70.9011%"
+      "width": "70.92%"
     },
     {
       "name": "odunsu",
-      "width": "67.5322%"
+      "width": "67.3683%"
     },
     {
       "name": "tatlı",
-      "width": "64.5027%"
+      "width": "64.5656%"
     },
     {
       "name": "aromatik",
-      "width": "62.3322%"
+      "width": "62.3277%"
     },
     {
       "name": "misk",
-      "width": "59.3927%"
+      "width": "59.3296%"
     },
     {
       "name": "deri",
-      "width": "53.288%"
+      "width": "53.4636%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.90",
-    "votesCount": "1,149",
+    "votesCount": "1,188",
     "breakdown": {
-      "love": "440",
-      "like": "374",
-      "ok": "171",
-      "dislike": "105",
-      "hate": "59"
+      "love": "462",
+      "like": "381",
+      "ok": "177",
+      "dislike": "106",
+      "hate": "62"
     }
   },
   "seasons": {
-    "winter": "497",
-    "spring": "127",
+    "winter": "516",
+    "spring": "133",
     "summer": "65",
-    "autumn": "465",
-    "day": "236",
-    "night": "436"
+    "autumn": "482",
+    "day": "244",
+    "night": "455"
   },
   "notes": {
     "top": [],
@@ -85,33 +113,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "38",
+    "weak": "31",
+    "moderate": "171",
+    "longLasting": "248",
+    "eternal": "43"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "73",
+    "moderate": "171",
+    "strong": "149",
+    "enormous": "12"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "27",
+    "moreFemale": "18",
+    "unisex": "237",
+    "moreMale": "218",
+    "male": "108"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "171",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "278",
+    "overpriced": "163",
+    "fair": "177",
+    "goodValue": "14",
+    "greatValue": "10"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TOM FORD",
+      "name": "Ébène Fumé"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Black Lacquer"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Amber Absolute"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Bottled Elixir"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Bois Marocain (2022)"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Black Meisterstuck"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essencial Mirra"
+    },
+    {
+      "brand": "JOHN VARVATOS",
+      "name": "Dark Rebel"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Amber Labdanum Cologne Intense"
+    },
+    {
+      "brand": "ERMENEGİLDO ZEGNA",
+      "name": "Golden Myrrh"
+    },
+    {
+      "brand": "JOHN VARVATOS",
+      "name": "John Varvatos Oud"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Mysterious Amber"
+    },
+    {
+      "brand": "CARNER BARCELONA",
+      "name": "Ambar Del Sur"
+    },
+    {
+      "brand": "RİCK OWENS",
+      "name": "Lamyland"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Sahara Noir"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON MARTİN MARGİELA",
@@ -128,6 +217,10 @@
     {
       "brand": "TOM FORD",
       "name": "Noir Extreme"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Herod"
     },
     {
       "brand": "TOM FORD",
@@ -166,12 +259,210 @@
       "name": "Tuscan Leather"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Black Phantom"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Ombré Leather (2018)"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent674062",
+      "author": "Yashafenty",
+      "date": "2025-07-20",
+      "text": "Myrre Mystère, çok daha fazla ilgiyi hak eden bir koku; olağanüstü çekiciliğine rağmen nadiren bahsediliyor. Zengin, ışıltılı bir aura yakalıyor ve zamansız lüksü somutlaştırıyor.\n\nÖzünde büyüleyici bir kombinasyon yatıyor: Kremsi sandal ağacı, Tom Ford'un özel vanilya notası Ultra Vanilya ve mür yağı, mür özü ve mür reçinesinin sıcak, reçineli yönleriyle birleşiyor. Birlikte, dumanlı, balzamik ve aynı zamanda yumuşak kremsi bir koku yaratıyorlar; sıcak, reçineli kompozisyonları sevenler için mükemmel.\n\nMyrre Mystère, reçine, duman ve ahşabın gizemli dünyasına aşık olmak isteyen herkes için mükemmel bir seçim; kesinlikle keşfedilmesi gereken bir koku hazinesi.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.de",
+      "avatar": "https://fimgs.net/mdimg/avataride/m.17312.jpg"
+    },
+    {
+      "id": "parent674078",
+      "author": "Guts98",
+      "date": "2025-02-11",
+      "text": "Tom Ford'un Myrrhe Mystère adlı parfümü, Ébène Fumé'nin DNA'sını alıp zengin bir mür notasıyla zenginleştiriyor. Çok iyi, yüksek kaliteli bir parfüm olmasının yanı sıra, odunsu-reçineli kokuları sevenler için de oldukça ilgi çekici bir seçenek sunuyor.\nFiyat-kalite oranı, bireysel zevklere ve bütçelere bağlı olduğu için biraz tartışmalı olabilir. Şahsen, çok daha dengeli, kullanışlı ve daha iyi performans gösterdiğini düşündüğüm için Ébène Fumé'yi tercih ettiğimi itiraf etmeliyim.\nYine de Myrrhe Mystère dikkate değer bir seçenek; denemenizi tavsiye ederim.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.217161.jpg"
+    },
+    {
+      "id": "parent674097",
+      "author": "bacco73",
+      "date": "2024-02-05",
+      "text": "Özet: Erkeksi/unisex – hoş bir koku. Reçineli bir baharat, anında ortaya çıkan ve zamanla yumuşayan dumanlı bir koku. Koku güzel, ancak bu kategoride birçok rakibi var.\n\nEk bilgi: Baharatlar hemen fark ediliyor, ayrıca koyu, isli, otsu bir nota da hissediliyor, zaman zaman reçineli ve balzamik bir hava da mevcut. Aromatik bir koku ve baharatlar başlangıçta oldukça taze, ancak hızla ısınarak hafif bir isli kokuyla sarılıyor.\nDakikalar geçtikçe koku daha da yoğunlaşıyor; 15 dakika sonra bile hafif ve hoş bir duman notasıyla birlikte reçineli, aromatik yeşil bir koku alıyorum.\nZaman geçtikçe yumuşuyor, neredeyse tatlılaşıyor ve pudramsı, çiçeksi bir esinti algılıyorum.\nSaatler geçtikçe vanilya kokusu ortaya çıkıyor ve sürekli hissedilen baharatlılık, reçineli ve tütsülü bir duman kokusuyla sarılı kalıyor; bu koku tamamen dini bir nitelik taşımıyor.\nHem erkekler hem de kadınlar için uygun, yüksek performanslı. Gece kullanımı için, serin mevsimler için ideal.\n\nParfüm ★★★★★★★★☆☆\nAçılış ★★★★★★★★☆☆\nOrta ve Kuru Koku ★★★★★★★★☆☆\nÇok yönlülük ★★★★★★★☆☆☆\nYayılım ★★★★★★★★☆☆\nAzim ★★★★★★★★☆☆\nŞişe Tasarımı ★★★★★★★★★☆\nKalite/Fiyat ★★★★★★☆☆☆☆",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.52352.jpg"
+    },
+    {
+      "id": "parent674076",
+      "author": "Edison",
+      "date": "2024-01-28",
+      "text": "Parfüm dünyasındaki snobizm seviyesi inanılmaz... Bu parfüm 300 €'ya satılıyor. Tamamen tekdüze bir parfüm. Kilise gibi, Kutsal Hafta gibi kokmak mı istiyorsunuz? Alın... ama paranızı boşa harcamak istemiyorsanız, 10 €'ya satılan Alyssa Ashley'nin Oud by Louie parfümünü alın, o zaman da tütsü kabı gibi kokarsınız, hahaha. Konseptin riskliliğine hayran kaldığımı ve daha da önemlisi bunu 300 €'ya satmak istemelerine hayran kaldığımı da eklemeliyim... Tom Ford kesinlikle bana göre değil...",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.45491.jpg"
+    },
+    {
+      "id": "parent674048",
+      "author": "Elindio",
+      "date": "2024-01-24",
+      "text": "Çok tehlikeli bir parfüm, güzel bir parfüm, kötü yorumlara dikkat edin. Buradaki birçok insan parfümeri hakkında hiçbir şey bilmiyor, gerçekten lüks gibi kokuyor, Tom Ford bu sefer gerçekten harika bir iş çıkarmış, bu parfüm beni eski Tom Ford günlerine götürdü, koku ve yoğunluk, tütsü sevenler eşsiz kokuyu sevecekler, modern, denemeden aldım ve satın aldığıma pişman değilim 10/10",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1213067.jpg"
+    },
+    {
+      "id": "parent674095",
+      "author": "Gab9",
+      "date": "2023-12-14",
+      "text": "Bana karanlık ve bir bakıma neredeyse ezoterik bir parfüm gibi gelen Ebène Fumé ile ilişkilendirmek zor. Ancak bu, oldukça uysal, temiz ve kendine özgü kuru, yalnız bir tatlılığa sahip bir mür. Neredeyse belli bir tazelik olduğunu söylemeye cesaret ederim; balzamik ve odunsu bir şey var, ama odunsudan çok aromatik. Açılışta, hiç de ağır olmayan çok hafif bir \"yeşil\" tütsü algıladım, sonra hafif acı bir mür devreye giriyor, ancak genel bir atmosferle yumuşatılıyor ve zamanla gerçekten de temizlik hissi veriyor. Bazen çam iğnelerini koklamak gibi: çalılıkların nemli kokusu ve ağaçların reçinesi var. Bu mür o kadar da gizemli değil; bana çocukken çam fıstığı topladığım ve büyük bir sabır ve zevkle onları bir taşla kırıp tek tek yediğim zamanları hatırlatıyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.67905.jpg"
+    },
+    {
+      "id": "parent674077",
+      "author": "vitodito",
+      "date": "2023-12-09",
+      "text": "Tom Ford her zaman Tom Ford'dur. Belki fiyatları yüksek olabilir ama yaptığı parfümler her zaman \"kusursuz\"dur.\n\nKabul ediyorum, benim tarzım bir koku değil, hatta ben asla kullanmazdım ve şahsen böyle kokmayı sevmiyorum, ama objektif olmalıyız ve bence birçok insan beğeniyor ve iyi yapılmış bir parfüm.\n\nTipik bir amber akorunun üzerinde, baharatlarla harmanlanmış, gerçek tütsü (çubuk şeklinde değil) ve mür kokusu alıyorum. Megalium ve Carner'ın Southern Amber'ını anımsatıyor, ancak daha kuru.\n\nBana ayrıca tarçın, vanilya ve tütsü kokan Sevilla tütsü çubuklarını da hatırlatıyor. Ama aynı zamanda çok Tom Ford'a özgü bir dokunuşu var; onu bu kadar başarılı kılan ve bayat veya modası geçmiş kokmasını engelleyen o son derece modern, havalı havası.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.40111.jpg"
+    },
+    {
+      "id": "parent674082",
+      "author": "Raf",
+      "date": "2023-11-09",
+      "text": "Şunu söylemeliyim ki, bu harika bir keşif ve başlangıcı oldukça kötüydü.\nNiş parfüm sektöründe çalışırken, piyasadaki ürün bolluğu ve tekrar edenliğinden bıkkınlık duymaya başladığımı itiraf etmeliyim; bunların arasında kaybolmak, daha doğrusu boğulmak çok kolay.\nTom Ford'dan bir meslektaşım bana 4 ml'lik bir Myrrhe Mystère şişesi teklif etti, mürr kokusunu çok sevsem de \"neyse, zaten çok fazla parfümüm var\" diye düşündüğüm için reddettim, ama o ısrar etti ve gerçekten de kullandıktan sonra (Tom Ford'un çılgın fiyatını göz ardı edersek) hiç de fena olmadığını anladım.\nBu açıkça \"az çoktur\" sözünün bir örneği.\nArmani'nin Myrrhe Impériale parfümünde gün boyu mür kokusunu aradım ama burada belirgin bir şekilde öne çıkıyor; çok rafine bir koku ama çok beğendim.\nReçineli, kuru ama yine de tatlı ve son derece odunsu bir kokuya sahip.\nBenim burnuma göre, bu koku öncelikle tatlı absintle harmanlanmış mür kokusu olup, çok az acılık içeriyor, daha çok tatlı ve yeşil bir kokuya sahip.\nKesinlikle zarafet ve konfor havası yayıyor.\nYani, yenilik açısından tam anlamıyla çığır açıcı değil, ancak mürün absintle birleşimi oldukça alışılmadık bir durum.\nHer durumda, eğer mür kokusunu, şifa veren parfümleri, ruhani parfümleri seviyorsanız, deneyin!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.18033.jpg"
+    },
+    {
+      "id": "parent674124",
+      "author": "Olya Son",
+      "date": "2023-10-21",
+      "text": "Doğru, Ebene Fume'a benziyor. Eğer onu beğendiyseniz, bunu da muhtemelen beğeneceksiniz. Ama tamamen aynı olduklarını söyleyemem. O daha çok yönlü; daha farklı odun, reçine tonları, biraz tatlı duman içeriyor. Bu ise Wooden Church gibi kokuyor. Mür neredeyse çok belirgin; sadece odun kokusu alıyorum. Acı tatlı, reçineli, odunsu bir koku. Neredeyse tamamen mür kokusu.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.353094.jpg"
+    },
+    {
+      "id": "parent674093",
+      "author": "babinski",
+      "date": "2023-10-17",
+      "text": "İyi, evet, ama yenilikçi değil. Buna benzer, hatta daha iyi parfümler de kokladım. Bana kalırsa Tom Ford, (belki de haklı olarak) trendlerin peşinden gidiyor ve nefes kesici olmayan, yüksek kaliteli parfümler üretiyor. Bu noktada, daha iyi zamanlarda bile yüksek olan fiyatlar artık haklı gösterilemez. Ben Penhaligon's almayı tercih ederim.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.61402.jpg"
+    },
+    {
+      "id": "parent674084",
+      "author": "Kloka",
+      "date": "2023-09-23",
+      "text": "Sadece tuş takımı testi:\n\nOldukça hafif, balsamik bir koku; dürüst olmak gerekirse, inanılmaz derecede yoğun bir koku değil. Notalar iyi harmanlanmış; yumuşak, pürüzsüz, hoş ve oldukça tatlı.\nCiltte bu odunsu özelliğin daha da gelişip gelişmeyeceği henüz belli değil, ancak kağıt üzerinde çok yumuşak bir dokuya sahipti.\n\nTanıdık bir görünümü var ama çok güzel. Bu kadar pahalı olmasaydı muhtemelen alırdım.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.23560.jpg"
+    },
+    {
+      "id": "parent674041",
+      "author": "JackieM",
+      "date": "2023-09-18",
+      "text": "Tom Ford Beauty'nin bir süredir bizzat kendisiyle hiçbir ilgisi yok ve kesinlikle \"niş\" bir marka da değil. Tamamen Estee Lauder'e ait; Estee Lauder bir zamanlar parfüm konusunda müthiş bir markaydı, ancak bugün korkunç bir kurumsal dev. Estee Lauder tarafından satın alınan tüm markalar (Jo Malone, Frederic Malle, Kilian, Tom Ford) maalesef satın almayla doğrudan ilişkili olarak kalitede büyük bir düşüş yaşadı. Hepsi özünde aynı büyük marka.\n\nDurum bu. Almayı bırakabiliriz ya da bunun günümüzün kuralı olduğunu kabul edebiliriz. Kesinlikle bana para kazandırıyor ve harcayacak yer sıkıntısı da çekmiyorum (bugünkü taklitlerin eski, yeniden satılan versiyonları da dahil). Outlet ve gri pazarlarda EL marka parfümlerin bolca bulunması, kalite-fiyat dengesi hakkındaki olumlu yorumların bir sonucu. Myrrh Mystere 2010'da piyasaya çıksaydı, anında alırdım. Şimdi ise EL benim paramı cebine koyamayacak. Belki sonunda işler değişir. Biz sadece bireysel olarak neyin bize değer verdiğini ve neyin vermediğini dengeliyoruz. Bize hiçbir şey borçlu değiller, ancak tüketiciyi kandırmak nihayetinde onların zararına oluyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.243981.jpg"
+    },
+    {
+      "id": "parent674043",
+      "author": "JonnyFrags",
+      "date": "2023-09-18",
+      "text": "Tom Ford'u bir grup aptal hırsız yönetiyor. Creed gibi onlar da dibe vurdular ve özel karışımlarını bu kadar yüksek fiyatlarla satmaları çok sinir bozucu. Paranızın karşılığını fazlasıyla vermiyor. 50 ml'lik bu saçmalık için 395 dolar mı? Tamamen delirmişler mi bunlar?\n\nNoir Extreme Parfum'ümden memnunum ve bu zavallı parfüm devine bir daha asla para vermeyeceğim.\n\nGerçek niş markalardan alışveriş yapın (Tom Ford bile niş bir marka değil ama bu özel seri öyleymiş gibi görünüyor), bu sulandırılmış, aşırı pahalı çöplerden uzak durun.\n\nAşağıda birçok kişinin belirttiği gibi, bu sadece kahverengi bir şişeye yeniden şişelenmiş ve içine biraz vanilya eklenmiş Ebene Fume. Bunu Bloomingdale's'te denedim ve hemen güldüm. Yeni veya ilginç hiçbir şey yok, bu kadar abartı da cabası.\n\nBU SAÇMALIĞI ALMAYIN.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1738594.jpg"
+    },
+    {
+      "id": "parent674125",
+      "author": "katiakaterina",
+      "date": "2023-09-17",
+      "text": "Önceki parfümün birebir aynısı olan bir parfümü neden piyasaya sürüyorsunuz? Ebene Fume ile tamamen aynı.\nİkisini de uyguladım ve şimdi karşılaştırıyorum. Çok dikkatli bakarsanız birkaç fark bulabilirsiniz, ancak bunlar tamamen fark edilemez.\nBu, piyasayı yeni bir kokuyla şaşırtma arzusundan ziyade bir pazarlama taktiği gibi görünüyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.45997.jpg"
+    },
+    {
+      "id": "parent674049",
+      "author": "Msc1977",
+      "date": "2023-09-14",
+      "text": "Bir parfümcü olarak, bu fiyatları gerçekten haklı çıkaramıyorum. Evet, Tom Ford, evet, yüksek moda, ama bu fiyatlarla, sadece gösterişçi tüketim. Yani, en iyi 500 dolarlık parfüm olduğu için almıyorsunuz, Tom Ford kullandığınızı söyleyebilmek için alıyorsunuz. Bu sorun değil, anlıyorum, ama fiyatları, aslında aldığınız şeye göre çok fazla kontrolden çıkıyor. Üzücü, çünkü eskiden ürünleri buna değerdi, hatta daha fazlası. Şimdi ise sadece çöp çıkarıp lüks diye adlandırıyorlar.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1293601.jpg"
+    },
+    {
+      "id": "parent674121",
+      "author": "Liebezumduft",
+      "date": "2023-09-02",
+      "text": "Pekala, ilk ben deneyeceğim. 😊 Tabii ki, bizim köyümüze (Münih) yakın zamanda gelmeyecek. Burada her şey gecikiyor. Ama bugün Duty Free'de gördüm. 2 Eylül olduğu için böyle bir hediye beklemiyordum. Sürdüm. Gözlerimi kapattım. Şişeyi tuttum ve bırakmadım. Altı ay daha beklersem internetten uygun fiyata alabileceğimi düşündüm. Hayır! Küçük kurbağam resmen bayıldı. Hazinemle birlikte kasaya koşmak istedim. Muhteşem! Evet, Mür! Tuzlu, ekşi, tatlı, büyülü! Oud kokusu aldığımı sandım. Maison Martin Margiela'nın By the Fireplace'ine benziyor. Yanmış odun kokusu aldım. Ama uzun sürmedi. Sonra güzel Mür ortaya çıktı. Bulgari'nin Mürüne benzemiyor. Çok daha güzel! Koku uzun sürmedi. Ama bu benim ilk denemem. Sonunda, çok istediğim şişeyi aldım. Mutluluk ve büyülü bir şeyin beklentisi duygusunu uzatmak istiyorum. Bu yüzden henüz açmıyorum... Şairin ruhu dayanamadı. Açtım. Nirvana'dayım.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.299099.jpg"
+    },
+    {
+      "id": "parent674046",
+      "author": "17seyed",
+      "date": "2023-08-27",
+      "text": "Benjoin 19'u çok seviyorum, misk kokusunu da çok seviyorum, bu koku ise Benjoin 19'un misk yoğunluğunun artırılmış hali gibi kokuyor.\n\nSorun ne? Sorun şu ki, 50 ml Myrrhe Mystere'nin fiyatı, zaten gülünç derecede pahalı olan 100 ml Benjoin 19 ile aynı.\n\nTom Ford en kaliteli esrarı içiyor çünkü 50 ml'si için 515 dolar gerçekten iğrenç bir fiyat.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1165604.jpg"
+    },
+    {
+      "id": "parent674051",
+      "author": "stephenmpx",
+      "date": "2023-08-05",
+      "text": "Saks'ta bunu denemem gerek! İlk püskürtme biraz sert, Ebene Fume tarzı bir hava veriyor, çok dumanlı, ruhani bir odun kokusu var. Kurudukça yumuşak, kilise tütsüsü gibi bir kokuya dönüşüyor. Şimdilik gerçekten çok beğendim. Sadece 295 dolara satılacağını söylediler, bu da iyi haber!\n\nGüncelleme: Meğer 50 ml'si 395 TL imiş. Değmez.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1298005.jpg"
+    },
+    {
+      "id": "parent674039",
+      "author": "djevelhelvete",
+      "date": "2023-08-03",
+      "text": "\"Midnight Fantasy\"nin \"bana şunu hatırlat\" bölümünde ikinci sırada olması beni çok güldürüyor.\n\nAma gerçekten, Fragrantica oylama sistemini piyasaya sürülene kadar kilitlemeli, dışarıda çok fazla nefret eden var ve ne için? Amigo, amiga, eğer henüz piyasaya sürülmemiş bir Tom Ford parfümünü sırf markayı, arkasındaki kişiyi, notaları veya onu karşılayamayacağınız gerçeğini sevmediğiniz için eleştiriyorsanız, bu insanları satın almaktan vazgeçirmeyecek ve hayır, TF size susmanız için bir şişe vermeyecek. O yüzden artık durun.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1580784.jpg"
+    },
+    {
+      "id": "parent674037",
+      "author": "Samasama",
+      "date": "2023-08-02",
+      "text": "Fragrantica'nın henüz piyasaya sürülmemiş parfümlerin yorumları üzerinde biraz kontrol sahibi olmasının zamanı çoktan geldi.\n\nParfüm fiziksel olarak piyasaya çıkana kadar ya hiç paylaşmayın ya da kilitli bir şekilde paylaşın.\n\nBu web sitesinin asıl amacı, insanların bir şeyi almadan önce neyi sevdiklerini anlamalarına ve zaten sahip oldukları veya bildikleri şeyler arasındaki benzerlikleri kavramalarına yardımcı olmaktır.\n\nBir şeyin var olması nedeniyle onu olumsuz oylama yönündeki bu çevrimiçi kitlesel zihniyet gerçekten şaşırtıcı.\n\nBen de bunun için 400€ ödemem ama henüz var olmayan bir ürün için olumsuz oy verip, ürünün koku yayılımının zayıf olduğunu söylersem, gelecekteki izleyicilere ne gibi bir iyilik yapmış olurum ki?\n\nÜzücü.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1558483.gif"
     }
   ]
 }

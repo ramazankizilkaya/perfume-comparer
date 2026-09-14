@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "lavanta",
+      "name": "vanilya",
       "width": "93.6364%"
     },
     {
-      "name": "vanilya",
+      "name": "lavanta",
       "width": "93.6364%"
     },
     {
@@ -37,6 +37,34 @@
     {
       "name": "pudralı",
       "width": "44.3182%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -80,33 +108,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "3",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "1",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "2",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Ultra Male"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "9pm"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ramz Lattafa Silver"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Exchange Unlimited"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -117,12 +162,12 @@
       "name": "Sauvage"
     },
     {
-      "brand": "FRAGRANCE WORLD",
-      "name": "Al Emir"
-    },
-    {
       "brand": "SWİSS ARABİAN",
       "name": "Cardamom and Apple"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Al Emir"
     },
     {
       "brand": "CREMO",
@@ -168,5 +213,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Ameer"
     }
-  ]
+  ],
+  "comments": []
 }

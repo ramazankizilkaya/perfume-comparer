@@ -60,50 +60,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "4",
-    "moderate": "8",
-    "longLasting": "2",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "8",
-    "strong": "1",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "18",
-    "moreFemale": "3",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "8",
-    "greatValue": "4"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ARİANA GRANDE",
-      "name": "Ari"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Chrome Peony"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Be Enchanted"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Merry Cherry Cheer"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BURBERRY",
@@ -146,12 +129,12 @@
       "name": "Lady Million"
     },
     {
-      "brand": "VALENTİNO",
-      "name": "Valentino Donna Born In Roma"
-    },
-    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Velvet Petals"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born In Roma"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -165,5 +148,6 @@
       "brand": "VERSACE",
       "name": "Bright Crystal"
     }
-  ]
+  ],
+  "comments": []
 }

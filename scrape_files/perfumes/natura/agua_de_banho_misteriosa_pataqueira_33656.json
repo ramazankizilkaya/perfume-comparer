@@ -23,16 +23,44 @@
       "width": "58%"
     },
     {
-      "name": "çiçeksi",
+      "name": "yeşil",
       "width": "53.3333%"
     },
     {
-      "name": "yeşil",
+      "name": "çiçeksi",
       "width": "53.3333%"
     },
     {
       "name": "sulu",
       "width": "51%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -65,33 +93,42 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "7",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "7",
+    "strong": "3",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Essência Misteriosa Pataqueira"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor Pataqueira"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AVON",
@@ -106,12 +143,12 @@
       "name": "Floratta in Blue"
     },
     {
-      "brand": "NATURA",
-      "name": "Revelar"
-    },
-    {
       "brand": "AVON",
       "name": "Pur Blanca Noite"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Revelar"
     },
     {
       "brand": "PHEBO",
@@ -153,5 +190,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Floratta in Rose"
     }
-  ]
+  ],
+  "comments": []
 }

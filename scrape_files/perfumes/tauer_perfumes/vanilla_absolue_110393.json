@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Tauer-Perfumes/Vanilla-Absolue-110393.html",
   "brand": "Tauer Perfumes parfüm ve kolonya",
   "description": "Tauer Perfumes markasının Vanilla Absolue parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Vanilla Absolue, 2025 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Andy Tauer. Üst notalar: Baharatlı notalar, Kuru meyveler ve Sardunya; orta notalar: Vanilya, Gül ve Tütün; alt notalar Reçineler, Ambergris, Paçuli, Kumarin ve Labdanum.",
-  "description_original": "Tauer Perfumes markasının Vanilla Absolue parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Vanilla Absolue, 2025 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Andy Tauer. Üst notalar: Baharatlı notalar, Kuru meyveler ve Sardunya; orta notalar: Vanilya, Gül ve Tütün; alt notalar Reçineler, Ambergris, Paçuli, Kumarin ve Labdanum.",
+  "description_original": "Tauer Perfumes markasının Vanilla Absolue parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Vanilla Absolue, 2025 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Andy Tauer. Üst notalar: Baharatlı Notalar, Kuru meyveler ve Sardunya; orta notalar: Vanilya, Gül ve Tütün; alt notalar Reçineler, Ambergris, Paçuli, Kumarin ve Labdanum.",
   "description_enhanced": "Tauer Perfumes markasının Vanilla Absolue parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Vanilla Absolue, 2025 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Andy Tauer. Üst notalar: Baharatlı notalar, Kuru meyveler ve Sardunya; orta notalar: Vanilya, Gül ve Tütün; alt notalar Reçineler, Ambergris, Paçuli, Kumarin ve Labdanum.",
   "mainAccords": [
     {
@@ -49,30 +49,58 @@
     {
       "name": "paçuli",
       "width": "54.055%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "98",
+    "score": "4.07",
+    "votesCount": "101",
     "breakdown": {
-      "love": "44",
-      "like": "29",
+      "love": "45",
+      "like": "31",
       "ok": "15",
       "dislike": "7",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "26",
-    "spring": "10",
-    "summer": "2",
-    "autumn": "25",
-    "day": "17",
-    "night": "25"
+    "winter": "28",
+    "spring": "12",
+    "summer": "3",
+    "autumn": "27",
+    "day": "19",
+    "night": "27"
   },
   "notes": {
     "top": [
-      "Baharatlı notalar",
+      "Baharatlı Notalar",
       "Kuru meyveler",
       "Sardunya"
     ],
@@ -94,7 +122,7 @@
     "veryWeak": "0",
     "weak": "2",
     "moderate": "4",
-    "longLasting": "18",
+    "longLasting": "19",
     "eternal": "2"
   },
   "sillage": {
@@ -106,7 +134,7 @@
   "genderVoting": {
     "female": "2",
     "moreFemale": "2",
-    "unisex": "23",
+    "unisex": "25",
     "moreMale": "4",
     "male": "1"
   },
@@ -131,8 +159,12 @@
       "name": "Tobacco Vanille"
     },
     {
-      "brand": "OMNİA PROFUMİ",
-      "name": "Ambra"
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "1899 Hemingway"
+    },
+    {
+      "brand": "ATTAR COLLECTİON",
+      "name": "Khaltat Night"
     },
     {
       "brand": "HİRAM GREEN",
@@ -147,28 +179,28 @@
       "name": "Sinbad"
     },
     {
+      "brand": "ROJA DOVE",
+      "name": "Manhattan Eau de Parfum"
+    },
+    {
       "brand": "M. MİCALLEF",
       "name": "Note Vanillée"
     },
     {
-      "brand": "HİSTOİRES DE PARFUMS",
-      "name": "1899 Hemingway"
-    },
-    {
-      "brand": "ATTAR COLLECTİON",
-      "name": "Khaltat Night"
+      "brand": "OMNİA PROFUMİ",
+      "name": "Ambra"
     },
     {
       "brand": "OLFACTİVE STUDİO",
       "name": "Vanilla Shot"
     },
     {
-      "brand": "DİOR",
-      "name": "Vanilla Diorama"
-    },
-    {
       "brand": "PAPİLLON ARTİSAN PERFUMES",
       "name": "Bengale Rouge"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Vanilla Diorama"
     }
   ],
   "peopleAlsoLike": [
@@ -232,5 +264,6 @@
       "brand": "SERGE LUTENS",
       "name": "Un Bois Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -1,7 +1,7 @@
 {
   "name": "Chiffre Royal Mizensir",
   "targetGender": "kadınlar ve erkekler için",
-  "fragranceFamily": "Woody",
+  "fragranceFamily": "Floral",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.135277.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Mizensir/Chiffre-Royal-135277.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Mizensir markasının Chiffre Royal parfümü, kadınlar ve erkekler için Odunsu Aromatik bir kokudur. Bu yeni bir parfüm. Chiffre Royal, 2026 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Şam Gülü, Bergamot ve Biber; orta notalar: Paçuli, Oud, Yosun ve Cypriol Yağı veya Nagarmotha; alt notalar Rüya ağacı, Sandal ağacı, Amber ve Tütsü.",
   "mainAccords": [
     {
-      "name": "paçuli",
+      "name": "gül",
       "width": "100%"
     },
     {
-      "name": "gül",
+      "name": "paçuli",
       "width": "100%"
     },
     {
@@ -43,32 +43,60 @@
       "width": "52.7502%"
     },
     {
+      "name": "taze baharatlı",
+      "width": "52.1666%"
+    },
+    {
       "name": "amber",
       "width": "52.1666%"
     },
     {
-      "name": "taze baharatlı",
-      "width": "52.1666%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.75",
-    "votesCount": "4",
+    "score": "4.56",
+    "votesCount": "9",
     "breakdown": {
-      "love": "3",
+      "love": "7",
       "like": "1",
       "ok": "0",
-      "dislike": "0",
+      "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "4",
-    "spring": "3",
+    "winter": "7",
+    "spring": "4",
     "summer": "0",
-    "autumn": "4",
+    "autumn": "8",
     "day": "0",
-    "night": "3"
+    "night": "7"
   },
   "notes": {
     "top": [
@@ -94,20 +122,20 @@
     "veryWeak": "0",
     "weak": "0",
     "moderate": "2",
-    "longLasting": "0",
-    "eternal": "0"
+    "longLasting": "2",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "0",
+    "intimate": "1",
     "moderate": "2",
-    "strong": "0",
-    "enormous": "0"
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "1",
+    "unisex": "2",
+    "moreMale": "2",
     "male": "1"
   },
   "priceVoting": {
@@ -119,65 +147,71 @@
   },
   "remindsMeOf": [
     {
-      "brand": "MONTALE",
-      "name": "Black Aoud"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Promise"
-    },
-    {
       "brand": "DİOR",
       "name": "Oud Ispahan"
     },
     {
-      "brand": "136,228",
-      "name": "Koku Yorumları"
+      "brand": "MİZENSİR",
+      "name": "Golden Oud"
     },
     {
-      "brand": "2,818",
-      "name": "Şu an çevrimiçi"
+      "brand": "DİOR",
+      "name": "Oud Ispahan Esprit De Parfum"
     },
     {
-      "brand": "1.",
-      "name": "Liquid Brun French Avenue"
+      "brand": "MONTALE",
+      "name": "Black Aoud"
     },
     {
-      "brand": "2.",
-      "name": "Khamrah Lattafa Perfumes"
-    },
-    {
-      "brand": "3.",
-      "name": "Emporio Armani Stronger With You Intensely Giorgio Armani"
-    },
-    {
-      "brand": "4.",
-      "name": "Imagination Louis Vuitton"
-    },
-    {
-      "brand": "5.",
-      "name": "Supremacy Collector's Edition Pour Homme Afnan"
-    },
-    {
-      "brand": "6.",
-      "name": "Khamrah Qahwa Lattafa Perfumes"
-    },
-    {
-      "brand": "7.",
-      "name": "Le Male Le Parfum Jean Paul Gaultier"
-    },
-    {
-      "brand": "8.",
-      "name": "Y Eau de Parfum Yves Saint Laurent"
-    },
-    {
-      "brand": "9.",
-      "name": "Club de Nuit Intense Man Armaf"
-    },
-    {
-      "brand": "10.",
-      "name": "Vulcan Feu French Avenue"
+      "brand": "ELECTİMUSS",
+      "name": "Octavian"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Gris Charnel Extrait"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Oud for Greatness"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Reflection Man"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Tygar"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2011"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Althaïr"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Imagination"
+    }
+  ],
+  "comments": []
 }

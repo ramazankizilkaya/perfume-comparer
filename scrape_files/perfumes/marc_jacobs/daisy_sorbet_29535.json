@@ -49,14 +49,42 @@
     {
       "name": "yeşil",
       "width": "46.9578%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.99",
-    "votesCount": "192",
+    "votesCount": "194",
     "breakdown": {
       "love": "65",
-      "like": "92",
+      "like": "94",
       "ok": "5",
       "dislike": "28",
       "hate": "2"
@@ -89,33 +117,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "22",
+    "moderate": "27",
+    "longLasting": "8",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "33",
+    "moderate": "27",
+    "strong": "10",
+    "enormous": "13"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "20",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "1",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Only Imagine"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Tutti Dolci Sweet Lemon Buttercup"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Place Rouge"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY Be Delicious"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Bright Crystal"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Black Edition"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Eau So Fresh Sorbet"
+    },
+    {
+      "brand": "VİNCE CAMUTO",
+      "name": "Capri"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -177,5 +238,6 @@
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
     }
-  ]
+  ],
+  "comments": []
 }

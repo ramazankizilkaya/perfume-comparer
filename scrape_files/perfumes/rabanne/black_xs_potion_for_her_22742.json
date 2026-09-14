@@ -45,6 +45,34 @@
     {
       "name": "taze baharatlı",
       "width": "44.8107%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -81,33 +109,82 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "14",
+    "moderate": "32",
+    "longLasting": "39",
+    "eternal": "29"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "29",
+    "moderate": "32",
+    "strong": "54",
+    "enormous": "38"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "24",
+    "moreFemale": "11",
+    "unisex": "9",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "5",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "8",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Black XS Be a Legend Debbie Harry"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Midnight Poison"
+    },
+    {
+      "brand": "WEİL",
+      "name": "Greedy Essence"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "CH"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Maa Arwaak"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Black XS for Her Eau de Parfum"
+    },
+    {
+      "brand": "BEYONCÉ",
+      "name": "Heat Kissed"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Rouge Trafalgar"
+    },
+    {
+      "brand": "GHOST",
+      "name": "Deep Night Elixir"
+    },
+    {
+      "brand": "KEİKO MECHERİ",
+      "name": "Oliban"
+    },
+    {
+      "brand": "VİVA CREATİON",
+      "name": "Lui Martin Absolute"
+    },
+    {
+      "brand": "THE 7 VİRTUES",
+      "name": "Patchouli Citrus"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -130,12 +207,12 @@
       "name": "Coco Mademoiselle"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Cinéma"
-    },
-    {
       "brand": "DİOR",
       "name": "Poison"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Black XS L'Exces for Her"
     },
     {
       "brand": "VERSACE",
@@ -169,5 +246,6 @@
       "brand": "LOLİTA LEMPİCKA",
       "name": "Lolita Lempicka"
     }
-  ]
+  ],
+  "comments": []
 }

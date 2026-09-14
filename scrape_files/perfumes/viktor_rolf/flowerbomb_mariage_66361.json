@@ -31,15 +31,15 @@
       "width": "63.0337%"
     },
     {
-      "name": "misk",
-      "width": "56.2173%"
-    },
-    {
       "name": "sıcak baharatlı",
       "width": "56.2173%"
     },
     {
       "name": "gül",
+      "width": "56.2173%"
+    },
+    {
+      "name": "misk",
       "width": "56.2173%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "meyvemsi",
       "width": "50.9738%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,33 +118,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "4",
+    "moderate": "5",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "5",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "4",
     "fair": "11",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Frozen Flower"
+    },
+    {
+      "brand": "AGENT PROVOCATEUR",
+      "name": "Fatale"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Dew"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Angels' Share"
+    },
+    {
+      "brand": "TOO FACED",
+      "name": "Better Than Sex"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİKTOR&ROLF",
@@ -178,5 +231,6 @@
       "brand": "GUERLAİN",
       "name": "Mon Guerlain"
     }
-  ]
+  ],
+  "comments": []
 }

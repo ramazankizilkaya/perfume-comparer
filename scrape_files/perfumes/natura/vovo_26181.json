@@ -49,6 +49,34 @@
     {
       "name": "toprak",
       "width": "44.1046%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,34 +117,71 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "19",
+    "longLasting": "3",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "19",
+    "strong": "4",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "12",
+    "moreMale": "6",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "10",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BVLGARİ",
+      "name": "Bvlgari Pour Homme"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Pulse"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Vôvó"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "214 Musk & Cedro"
+    },
+    {
+      "brand": "PHYTODERM",
+      "name": "Lavanda"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kaiak Aventura"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor Banho de Cheiro Hortelã Pimenta"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "M7 Fresh"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Floratta in Blue"
+    },
     {
       "brand": "O BOTİCÁRİO",
       "name": "Accordes"
@@ -159,6 +224,10 @@
     },
     {
       "brand": "NATURA",
+      "name": "Frescor de Pitanga"
+    },
+    {
+      "brand": "NATURA",
       "name": "Essencial Elixir"
     },
     {
@@ -167,15 +236,8 @@
     },
     {
       "brand": "NATURA",
-      "name": "Homem Especiarias"
-    },
-    {
-      "brand": "NATURA",
       "name": "Essencial Mirra"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "Ange ou Demon"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -19,15 +19,15 @@
       "width": "82.5001%"
     },
     {
-      "name": "taze",
-      "width": "47.4999%"
-    },
-    {
       "name": "sabunsu",
       "width": "47.4999%"
     },
     {
-      "name": "çiçeksi",
+      "name": "taze",
+      "width": "47.4999%"
+    },
+    {
+      "name": "yeşil",
       "width": "41.6667%"
     }
   ],
@@ -43,7 +43,7 @@
     }
   },
   "seasons": {
-    "winter": "5",
+    "winter": "6",
     "spring": "15",
     "summer": "23",
     "autumn": "6",
@@ -60,42 +60,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "5",
-    "moderate": "8",
-    "longLasting": "1",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "8",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "13",
-    "moreFemale": "3",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "6",
-    "goodValue": "7",
-    "greatValue": "4"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "SELENA GOMEZ",
-      "name": "Selena Gomez Eau de Parfum"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Yara Tous"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CALVİN KLEİN",
@@ -157,5 +148,6 @@
       "brand": "VİCTORİA'S SECRET",
       "name": "Pure Seduction Sol"
     }
-  ]
+  ],
+  "comments": []
 }

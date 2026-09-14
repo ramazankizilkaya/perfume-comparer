@@ -88,70 +88,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "6",
-    "moderate": "20",
-    "longLasting": "20",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "20",
-    "strong": "19",
-    "enormous": "13"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "30",
-    "moreFemale": "3",
-    "unisex": "4",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "6",
-    "goodValue": "12",
-    "greatValue": "3"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique Pin Up"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique Cabaret Eau de Parfum"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique Eau de Parfum Collector 2017"
-    },
-    {
-      "brand": "LA MAİSON DE LA VANİLLE",
-      "name": "Arty Positano Vanille Fleur d'Oranger"
-    },
-    {
-      "brand": "BY KİLİAN",
-      "name": "Love Don't Be Shy"
-    },
-    {
-      "brand": "BY KİLİAN",
-      "name": "Love Don't Be Shy Extreme"
-    },
-    {
-      "brand": "KAYALİ FRAGRANCES",
-      "name": "Marrakesh in a Bottle Orange Blossom | 24 Eau de Parfum"
-    },
-    {
-      "brand": "NOBİLE 1942",
-      "name": "Perdizione"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "La Vie est Belle L'Éclat"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "MUGLER",
@@ -168,6 +131,10 @@
     {
       "brand": "GİORGİO ARMANİ",
       "name": "Si"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl"
     },
     {
       "brand": "LANCÔME",
@@ -208,10 +175,7 @@
     {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Poudree"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Coco Mademoiselle"
     }
-  ]
+  ],
+  "comments": []
 }

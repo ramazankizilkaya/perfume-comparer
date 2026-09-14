@@ -49,26 +49,54 @@
     {
       "name": "tatlı",
       "width": "53.9565%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.01",
-    "votesCount": "140",
+    "votesCount": "141",
     "breakdown": {
       "love": "43",
       "like": "78",
-      "ok": "1",
+      "ok": "2",
       "dislike": "14",
       "hate": "4"
     }
   },
   "seasons": {
-    "winter": "32",
-    "spring": "44",
+    "winter": "33",
+    "spring": "45",
     "summer": "34",
-    "autumn": "48",
-    "day": "54",
-    "night": "39"
+    "autumn": "49",
+    "day": "55",
+    "night": "40"
   },
   "notes": {
     "top": [
@@ -113,7 +141,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "1",
+    "fair": "2",
     "goodValue": "9",
     "greatValue": "11"
   },
@@ -147,16 +175,16 @@
       "name": "Marbert Man Personality"
     },
     {
-      "brand": "ARMAF",
-      "name": "Art Du' Parfum"
-    },
-    {
       "brand": "GUCCİ",
       "name": "Envy for Men"
     },
     {
       "brand": "JOOP!",
       "name": "Wolfgang Joop"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Art Du' Parfum"
     },
     {
       "brand": "LOEWE",
@@ -232,5 +260,6 @@
       "brand": "CHANEL",
       "name": "Antaeus"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,43 +16,71 @@
     },
     {
       "name": "ud",
-      "width": "95.7576%"
+      "width": "100%"
     },
     {
       "name": "gül",
-      "width": "91.5151%"
+      "width": "91.7647%"
     },
     {
       "name": "laktonik",
-      "width": "58.0001%"
+      "width": "58.0002%"
     },
     {
       "name": "fındıksı",
-      "width": "50.9999%"
+      "width": "51.0001%"
     },
     {
       "name": "çiçeksi",
-      "width": "48.4544%"
+      "width": "48.5295%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.15",
-    "votesCount": "74",
+    "score": "4.08",
+    "votesCount": "85",
     "breakdown": {
-      "love": "40",
-      "like": "18",
-      "ok": "5",
-      "dislike": "9",
+      "love": "45",
+      "like": "19",
+      "ok": "6",
+      "dislike": "13",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "36",
+    "winter": "41",
     "spring": "10",
     "summer": "4",
-    "autumn": "28",
-    "day": "13",
-    "night": "31"
+    "autumn": "32",
+    "day": "15",
+    "night": "35"
   },
   "notes": {
     "top": [],
@@ -65,33 +93,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "3",
+    "longLasting": "15",
+    "eternal": "12"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "3",
+    "strong": "13",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "12",
+    "moreFemale": "16",
+    "unisex": "16",
+    "moreMale": "2",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "17",
+    "overpriced": "8",
+    "fair": "6",
+    "goodValue": "5",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Oud Bouquet"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Oud Bouquet Eau de Parfum"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Sheikh Al Shuyukh Luxe Edition"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Elixir"
+    },
+    {
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "Oud Blanc"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Velvet Rose & Oud"
+    },
+    {
+      "brand": "FRANCK OLİVİER",
+      "name": "Oud Vanille"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Taif Rose"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Oud 07"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Oud Mood"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Resala"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Vie est Belle L'Extrait"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Opulent Oud"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Absolue Pour Le Matin 2024"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -153,5 +242,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -3,7 +3,7 @@
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Gourmand",
   "concentration": "Edp",
-  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138016.jpg?t=1784546947",
+  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.138016.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Hayaz-Oud-138016.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Hayaz Oud parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Bu yeni bir parfüm. Hayaz Oud, 2026 yılında piyasaya sürüldü. Üst notalar: Pembe biber ve Karanfil; orta notalar: Menekşe, Badem, Gül ve Oud; alt notalar Guayak ağacı, Vanilya, Benzoin, Karamel ve Misk.",
@@ -39,16 +39,44 @@
       "width": "75.2941%"
     },
     {
-      "name": "ud",
-      "width": "71.1763%"
-    },
-    {
       "name": "menekşe",
       "width": "71.1763%"
     },
     {
-      "name": "badem",
+      "name": "ud",
       "width": "71.1763%"
+    },
+    {
+      "name": "amber",
+      "width": "71.1763%"
+    },
+    {
+      "name": "Online satın alın 14 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,7 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "0",
     "summer": "0",
     "autumn": "0",
@@ -91,32 +119,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Oud Satin Mood"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Eshal Vanilla"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

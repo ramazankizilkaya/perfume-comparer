@@ -33,14 +33,42 @@
     {
       "name": "aromatik",
       "width": "47.5%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.00",
-    "votesCount": "2",
+    "votesCount": "3",
     "breakdown": {
       "love": "1",
-      "like": "0",
+      "like": "1",
       "ok": "1",
       "dislike": "0",
       "hate": "0"
@@ -49,10 +77,10 @@
   "seasons": {
     "winter": "0",
     "spring": "1",
-    "summer": "3",
+    "summer": "4",
     "autumn": "0",
     "day": "2",
-    "night": "2"
+    "night": "3"
   },
   "notes": {
     "top": [
@@ -72,32 +100,75 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Invictus"
+    },
+    {
+      "brand": "FABERGE",
+      "name": "Brut"
+    },
+    {
+      "brand": "VİNCİ",
+      "name": "Русский Дух Непобедимый"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Red Parfum"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Giò Profondo Parfum"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Liquid Brun"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Toilette Intense"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Beau Le Parfum"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Parfum"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Beau Paradise Garden"
+    }
+  ],
+  "comments": []
 }

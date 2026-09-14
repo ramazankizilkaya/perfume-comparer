@@ -77,74 +77,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "6",
-    "weak": "3",
-    "moderate": "15",
-    "longLasting": "10",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "14",
-    "moderate": "15",
-    "strong": "6",
-    "enormous": "9"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "4",
-    "moreMale": "9",
-    "male": "5"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "9",
-    "goodValue": "4",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "KENZO",
-      "name": "L'Eau par Kenzo pour Homme"
-    },
-    {
-      "brand": "KENZO",
-      "name": "L'Eau 2 Kenzo pour Homme"
-    },
-    {
-      "brand": "KENZO",
-      "name": "L'Eau par Kenzo Mirror Edition pour Homme"
-    },
-    {
-      "brand": "KENZO",
-      "name": "L'Eau Kenzo Intense pour Homme"
-    },
-    {
-      "brand": "TOMMY HİLFİGER",
-      "name": "T"
-    },
-    {
-      "brand": "CARTİER",
-      "name": "Roadster Sport Speedometer Limited Edition"
-    },
-    {
-      "brand": "LACOSTE FRAGRANCES",
-      "name": "Lacoste Live"
-    },
-    {
-      "brand": "KENZO",
-      "name": "L'Eau par Kenzo Electric Wave pour Homme"
-    },
-    {
-      "brand": "AZZARO",
-      "name": "Wanted Tonic"
-    },
-    {
-      "brand": "LACOSTE FRAGRANCES",
-      "name": "Lacoste L!ive"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JOHN VARVATOS",
@@ -152,11 +111,11 @@
     },
     {
       "brand": "VERSACE",
-      "name": "Versace Man Eau Fraiche"
+      "name": "Versace Pour Homme"
     },
     {
       "brand": "VERSACE",
-      "name": "Versace Pour Homme"
+      "name": "Versace Man Eau Fraiche"
     },
     {
       "brand": "CALVİN KLEİN",
@@ -187,16 +146,16 @@
       "name": "Chic For Men"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "L’Homme Idéal"
-    },
-    {
       "brand": "DİOR",
       "name": "Sauvage"
     },
     {
       "brand": "DOLCE&GABBANA",
       "name": "The One for Men"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "L’Homme Idéal"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -206,5 +165,6 @@
       "brand": "KENZO",
       "name": "Kenzo Homme Night"
     }
-  ]
+  ],
+  "comments": []
 }

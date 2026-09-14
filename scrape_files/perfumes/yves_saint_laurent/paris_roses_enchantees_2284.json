@@ -49,14 +49,42 @@
     {
       "name": "narenciye",
       "width": "49.0325%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.23",
-    "votesCount": "95",
+    "votesCount": "96",
     "breakdown": {
       "love": "48",
-      "like": "32",
+      "like": "33",
       "ok": "4",
       "dislike": "11",
       "hate": "0"
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "9",
-    "spring": "33",
-    "summer": "28",
+    "spring": "34",
+    "summer": "29",
     "autumn": "11",
-    "day": "44",
+    "day": "45",
     "night": "13"
   },
   "notes": {
@@ -88,33 +116,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "10",
+    "longLasting": "4",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "10",
+    "strong": "7",
+    "enormous": "11"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris"
+    },
+    {
+      "brand": "DSH PERFUMES",
+      "name": "La Vie en Rose"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Jardins Romantiques"
+    },
+    {
+      "brand": "HERVE GAMBS PARİS",
+      "name": "Pink Evidence"
+    },
+    {
+      "brand": "GOUTAL",
+      "name": "Petite Chérie - Claudie Pierlot Edition"
+    },
+    {
+      "brand": "GOUTAL",
+      "name": "Petite Cherie"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -176,5 +229,6 @@
       "brand": "MUGLER",
       "name": "Alien"
     }
-  ]
+  ],
+  "comments": []
 }

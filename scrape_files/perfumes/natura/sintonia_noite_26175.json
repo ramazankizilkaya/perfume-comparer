@@ -49,26 +49,54 @@
     {
       "name": "bitkisel",
       "width": "53.1146%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.03",
-    "votesCount": "147",
+    "score": "4.01",
+    "votesCount": "150",
     "breakdown": {
       "love": "42",
-      "like": "81",
-      "ok": "12",
-      "dislike": "11",
+      "like": "82",
+      "ok": "13",
+      "dislike": "12",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "69",
-    "spring": "27",
-    "summer": "14",
-    "autumn": "70",
-    "day": "17",
-    "night": "88"
+    "winter": "70",
+    "spring": "28",
+    "summer": "15",
+    "autumn": "71",
+    "day": "18",
+    "night": "89"
   },
   "notes": {
     "top": [
@@ -92,33 +120,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "12",
+    "moderate": "51",
+    "longLasting": "12",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "14",
+    "moderate": "51",
+    "strong": "13",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "9",
+    "moreMale": "16",
+    "male": "31"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "12",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "1",
+    "overpriced": "3",
+    "fair": "13",
+    "goodValue": "28",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de l'Homme"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Quasar Onix"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Sintonia Maxx"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Very Valentino Pour Homme"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Sintonia Impacto"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -142,19 +191,19 @@
     },
     {
       "brand": "NATURA",
-      "name": "Essencial Exclusivo"
-    },
-    {
-      "brand": "NATURA",
       "name": "Homem Essence"
     },
     {
       "brand": "NATURA",
-      "name": "Biografia"
+      "name": "Essencial Exclusivo"
     },
     {
       "brand": "CAROLİNA HERRERA",
       "name": "212 Men"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Biografia"
     },
     {
       "brand": "CHANEL",
@@ -180,5 +229,6 @@
       "brand": "NATURA",
       "name": "Homem"
     }
-  ]
+  ],
+  "comments": []
 }

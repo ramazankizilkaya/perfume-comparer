@@ -29,13 +29,41 @@
     {
       "name": "misk",
       "width": "43.0908%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.04",
-    "votesCount": "116",
+    "score": "4.06",
+    "votesCount": "118",
     "breakdown": {
-      "love": "48",
+      "love": "50",
       "like": "41",
       "ok": "13",
       "dislike": "12",
@@ -45,7 +73,7 @@
   "seasons": {
     "winter": "6",
     "spring": "37",
-    "summer": "64",
+    "summer": "65",
     "autumn": "13",
     "day": "62",
     "night": "9"
@@ -75,26 +103,26 @@
   "longevity": {
     "veryWeak": "5",
     "weak": "18",
-    "moderate": "26",
+    "moderate": "27",
     "longLasting": "10",
     "eternal": "3"
   },
   "sillage": {
     "intimate": "16",
-    "moderate": "26",
+    "moderate": "27",
     "strong": "7",
     "enormous": "6"
   },
   "genderVoting": {
     "female": "19",
-    "moreFemale": "14",
+    "moreFemale": "15",
     "unisex": "34",
     "moreMale": "3",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "8",
-    "overpriced": "14",
+    "overpriced": "15",
     "fair": "13",
     "goodValue": "5",
     "greatValue": "1"
@@ -125,16 +153,16 @@
       "name": "Prodigieux Floral Le Parfum"
     },
     {
+      "brand": "ROCHAS",
+      "name": "Eau de Rochas Citron Soleil"
+    },
+    {
       "brand": "LOEWE",
       "name": "Agua Miami"
     },
     {
       "brand": "CARTİER",
       "name": "Déclaration Haute Fraîcheur"
-    },
-    {
-      "brand": "ROCHAS",
-      "name": "Eau de Rochas Citron Soleil"
     },
     {
       "brand": "ROCHAS",
@@ -162,6 +190,10 @@
     }
   ],
   "peopleAlsoLike": [
+    {
+      "brand": "TOM FORD",
+      "name": "Neroli Portofino"
+    },
     {
       "brand": "GUERLAİN",
       "name": "Aqua Allegoria Mandarine Basilic"
@@ -199,12 +231,12 @@
       "name": "Terre d'Hermès"
     },
     {
-      "brand": "DİOR",
-      "name": "Pure Poison"
-    },
-    {
       "brand": "LOEWE",
       "name": "Aire Sutileza"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Pure Poison"
     },
     {
       "brand": "CHANEL",
@@ -217,10 +249,7 @@
     {
       "brand": "GİVENCHY",
       "name": "Amarige"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "Poeme"
     }
-  ]
+  ],
+  "comments": []
 }

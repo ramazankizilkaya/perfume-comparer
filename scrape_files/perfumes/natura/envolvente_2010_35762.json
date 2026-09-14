@@ -1,7 +1,7 @@
 {
   "name": "Envolvente 2010 Natura",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Oriental",
+  "fragranceFamily": "Woody",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.35762.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Natura/Envolvente-2010-35762.html",
@@ -11,32 +11,60 @@
   "description_enhanced": "Natura markasının Envolvente 2010 parfümü, kadınlar için Narenciye bir kokudur. Envolvente 2010, 2010 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Üst nota: Narenciye; orta notalar: Yasemin ve Lotus; alt notalar Odunsu Notalar ve Amber.",
   "mainAccords": [
     {
-      "name": "amber",
-      "width": "100%"
-    },
-    {
       "name": "odunsu",
       "width": "100%"
     },
     {
-      "name": "narenciye",
-      "width": "76.6667%"
+      "name": "amber",
+      "width": "100%"
     },
     {
       "name": "beyaz çiçeksi",
       "width": "76.6667%"
     },
     {
-      "name": "çiçeksi",
-      "width": "58%"
+      "name": "narenciye",
+      "width": "76.6667%"
     },
     {
       "name": "taze",
       "width": "58%"
     },
     {
+      "name": "çiçeksi",
+      "width": "58%"
+    },
+    {
       "name": "animalik",
       "width": "46.3333%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -73,33 +101,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "J'adore Eau de Toilette 2011"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Zara Rose"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -141,5 +178,6 @@
       "brand": "AVON",
       "name": "Pretty Blue"
     }
-  ]
+  ],
+  "comments": []
 }

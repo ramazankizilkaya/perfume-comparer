@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Puma/Man-1123.html",
   "brand": "Puma parfüm ve kolonya",
   "description": "Puma markasının Man parfümü, erkekler için Odunsu Çiçeksi Misk bir kokudur. Üst notalar: Japon Portakalı, Limon ve Aynısefa; orta notalar: Karpuz, Ananas ve Yasemin; alt notalar Sedir, Meşe yosunu ve Amber.",
-  "description_original": "Puma markasının Man parfümü, erkekler için Odunsu Çiçeksi Misk bir kokudur. Üst notalar: Japon Portakalı, Limon ve Aynısefa; orta notalar: Karpuz, Ananas ve Yasemin; alt notalar Sedir, Meşe yosunu ve Amber.",
+  "description_original": "Puma markasının Man parfümü, erkekler için Odunsu Çiçeksi Misk bir kokudur. Üst notalar: Japon Portakalı, Limon ve Kadife Çiçeği; orta notalar: Karpuz, Ananas ve Yasemin; alt notalar Sedir, Meşe yosunu ve Amber.",
   "description_enhanced": "Puma markasının Man parfümü, erkekler için Odunsu Çiçeksi Misk bir kokudur. Üst notalar: Japon Portakalı, Limon ve Aynısefa; orta notalar: Karpuz, Ananas ve Yasemin; alt notalar Sedir, Meşe yosunu ve Amber.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "taze baharatlı",
       "width": "49.6342%"
+    },
+    {
+      "name": "Online satın alın 57 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -74,7 +102,7 @@
     "top": [
       "Japon Portakalı",
       "Limon",
-      "Aynısefa"
+      "Kadife Çiçeği"
     ],
     "middle": [
       "Karpuz",
@@ -89,33 +117,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "22",
+    "moderate": "10",
+    "longLasting": "3",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "19",
+    "moderate": "10",
+    "strong": "1",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "6",
+    "male": "12"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "10"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Classique Pride Edition"
+    },
+    {
+      "brand": "GİORGİO BEVERLY HİLLS",
+      "name": "Ocean Dream Men"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY Men Summer 2012"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Man Eau Fraiche"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Kenzo Homme Eau de Toilette Intense"
+    },
+    {
+      "brand": "CLİNİQUE",
+      "name": "Clinique Happy"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AZZARO",
@@ -177,5 +230,6 @@
       "brand": "DAVİDOFF",
       "name": "Cool Water"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -61,42 +61,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "2",
-    "moderate": "5",
-    "longLasting": "9",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "5",
-    "strong": "3",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "8",
-    "unisex": "7",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "7",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "PENHALİGON'S",
-      "name": "The Dandy"
-    },
-    {
-      "brand": "BYREDO",
-      "name": "Mojave Ghost"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "FUEGUİA 1833",
@@ -158,5 +149,6 @@
       "brand": "FUEGUİA 1833",
       "name": "La Cautiva"
     }
-  ]
+  ],
+  "comments": []
 }

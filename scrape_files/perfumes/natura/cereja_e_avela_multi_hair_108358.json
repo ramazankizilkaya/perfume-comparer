@@ -27,27 +27,55 @@
       "width": "51%"
     },
     {
-      "name": "badem",
+      "name": "meyvemsi",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.11",
+    "score": "4.22",
     "votesCount": "9",
     "breakdown": {
       "love": "4",
-      "like": "2",
-      "ok": "3",
+      "like": "3",
+      "ok": "2",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "7",
-    "spring": "7",
+    "winter": "8",
+    "spring": "8",
     "summer": "2",
     "autumn": "6",
-    "day": "7",
+    "day": "8",
     "night": "6"
   },
   "notes": {
@@ -60,33 +88,38 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "3",
+    "moderate": "2",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "2",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "3",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "2",
+    "goodValue": "5",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Cereja e Avelã"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -148,5 +181,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Thaty"
     }
-  ]
+  ],
+  "comments": []
 }

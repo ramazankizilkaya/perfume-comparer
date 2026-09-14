@@ -33,13 +33,41 @@
     {
       "name": "tatlı",
       "width": "45.0307%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.91",
-    "votesCount": "175",
+    "score": "3.92",
+    "votesCount": "176",
     "breakdown": {
-      "love": "65",
+      "love": "66",
       "like": "61",
       "ok": "22",
       "dislike": "23",
@@ -47,12 +75,12 @@
     }
   },
   "seasons": {
-    "winter": "11",
-    "spring": "73",
-    "summer": "73",
-    "autumn": "22",
-    "day": "84",
-    "night": "18"
+    "winter": "12",
+    "spring": "74",
+    "summer": "74",
+    "autumn": "23",
+    "day": "85",
+    "night": "19"
   },
   "notes": {
     "top": [
@@ -67,33 +95,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "16",
+    "moderate": "51",
+    "longLasting": "11",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "20",
+    "moderate": "51",
+    "strong": "13",
+    "enormous": "16"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "60",
+    "moreFemale": "7",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "7",
+    "overpriced": "9",
     "fair": "22",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "9",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Love"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bright Palm"
+    },
+    {
+      "brand": "SALVADOR DALİ",
+      "name": "Dalissime"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Butterfly"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Beyond Romance"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BURBERRY",
@@ -155,5 +204,6 @@
       "brand": "KAYALİ FRAGRANCES",
       "name": "Vanilla | 28"
     }
-  ]
+  ],
+  "comments": []
 }

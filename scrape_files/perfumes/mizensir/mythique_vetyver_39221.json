@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Mizensir/Mythique-Vetyver-39221.html",
   "brand": "Mizensir parfüm ve kolonya",
   "description": "Mizensir markasının Mythique Vetyver parfümü, kadınlar ve erkekler için bir kokudur. Mythique Vetyver, 2015 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Limon ve Kalabriya bergamotu; orta notalar: Sardunya ve Labdanum; alt notalar Vetiver, Papirüs ve Paçuli.",
-  "description_original": "Mizensir markasının Mythique Vetyver parfümü, kadınlar ve erkekler için bir kokudur. Mythique Vetyver, 2015 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Limon ve Kalabriya bergamotu; orta notalar: Sardunya ve Labdanum; alt notalar Vetiver, Papirüs ve Paçuli.",
+  "description_original": "Mizensir markasının Mythique Vetyver parfümü, kadınlar ve erkekler için bir kokudur. Mythique Vetyver, 2015 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Sicilya Limonu ve Kalabriya bergamotu; orta notalar: Sardunya ve Labdanum; alt notalar Vetiver, Papirüs ve Paçuli.",
   "description_enhanced": "Mizensir markasının Mythique Vetyver parfümü, kadınlar ve erkekler için bir kokudur. Mythique Vetyver, 2015 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst notalar: Limon ve Kalabriya bergamotu; orta notalar: Sardunya ve Labdanum; alt notalar Vetiver, Papirüs ve Paçuli.",
   "mainAccords": [
     {
@@ -37,6 +37,34 @@
     {
       "name": "amber",
       "width": "44.359%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,7 +88,7 @@
   },
   "notes": {
     "top": [
-      "Limon",
+      "Sicilya Limonu",
       "Kalabriya bergamotu"
     ],
     "middle": [
@@ -75,33 +103,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "1",
+    "moderate": "25",
+    "longLasting": "13",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "25",
+    "strong": "16",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "12",
+    "moreMale": "23",
+    "male": "16"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "7",
+    "overpriced": "14",
     "fair": "15",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ELİE SAAB",
+      "name": "Essence No. 6 Vetiver"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Blushing Sands"
+    },
+    {
+      "brand": "DANİEL JOSİER",
+      "name": "Vetiver"
+    },
+    {
+      "brand": "ERMENEGİLDO ZEGNA",
+      "name": "Integrity"
+    },
+    {
+      "brand": "POLLİNİ PROFUMİ",
+      "name": "Meraviglioso"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "Declaration"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -136,16 +189,16 @@
       "name": "Bal d'Afrique"
     },
     {
+      "brand": "AMOUAGE",
+      "name": "Reflection Man"
+    },
+    {
       "brand": "LE LABO",
       "name": "The Noir 29"
     },
     {
       "brand": "TOM FORD",
       "name": "Oud Wood"
-    },
-    {
-      "brand": "NİSHANE",
-      "name": "Ani"
     },
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -160,8 +213,9 @@
       "name": "Baraonda"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Portrait of a Lady"
+      "brand": "MİZENSİR",
+      "name": "Luxury"
     }
-  ]
+  ],
+  "comments": []
 }

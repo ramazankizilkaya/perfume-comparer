@@ -33,13 +33,41 @@
     {
       "name": "gül",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.95",
-    "votesCount": "38",
+    "score": "3.97",
+    "votesCount": "39",
     "breakdown": {
-      "love": "13",
+      "love": "14",
       "like": "17",
       "ok": "1",
       "dislike": "7",
@@ -48,10 +76,10 @@
   },
   "seasons": {
     "winter": "3",
-    "spring": "22",
-    "summer": "26",
+    "spring": "23",
+    "summer": "27",
     "autumn": "12",
-    "day": "27",
+    "day": "28",
     "night": "5"
   },
   "notes": {
@@ -68,33 +96,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "2",
+    "moderate": "12",
+    "longLasting": "3",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "12",
+    "strong": "6",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "3",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "EUDORA",
+      "name": "TRIP"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Blue"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "E|Sport"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Gio"
+    },
+    {
+      "brand": "NAUTİCA",
+      "name": "Nautica Voyage"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue Eau Intense Pour Homme"
+    },
+    {
+      "brand": "LA RİVE",
+      "name": "Amber King"
+    },
+    {
+      "brand": "LACOSTE FRAGRANCES",
+      "name": "Challenge Re/Fresh"
+    },
+    {
+      "brand": "JOHN VARVATOS",
+      "name": "Artisan Acqua"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Biografia"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Dolce&Gabbana Pour Homme Intenso"
+    },
+    {
+      "brand": "BENETTON",
+      "name": "United Dreams Men Go Far"
+    },
+    {
+      "brand": "EVERLAST",
+      "name": "Instinct"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -156,5 +237,6 @@
       "brand": "NATURA",
       "name": "Essencial Oud"
     }
-  ]
+  ],
+  "comments": []
 }

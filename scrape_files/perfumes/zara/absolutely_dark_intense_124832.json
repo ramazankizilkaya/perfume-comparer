@@ -27,36 +27,64 @@
       "width": "74.9165%"
     },
     {
-      "name": "aromatik",
+      "name": "meyvemsi",
       "width": "58%"
     },
     {
-      "name": "meyvemsi",
+      "name": "aromatik",
       "width": "58%"
     },
     {
       "name": "taze baharatlı",
       "width": "51%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.52",
-    "votesCount": "21",
+    "score": "3.57",
+    "votesCount": "23",
     "breakdown": {
       "love": "6",
-      "like": "7",
+      "like": "9",
       "ok": "3",
       "dislike": "2",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "12",
+    "winter": "13",
     "spring": "13",
     "summer": "2",
     "autumn": "13",
     "day": "12",
-    "night": "14"
+    "night": "15"
   },
   "notes": {
     "top": [],
@@ -69,34 +97,79 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "4",
+    "longLasting": "7",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "4",
+    "strong": "2",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "4",
+    "male": "8"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "8"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Sauvage Elixir"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad"
+    },
+    {
+      "brand": "BOND NO 9",
+      "name": "New Haarlem"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "1 Million Night Elixir"
+    },
+    {
+      "brand": "TRUSSARDİ",
+      "name": "Primo"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d’Hermès Intense"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "Declaration Essence"
+    },
+    {
+      "brand": "LORE",
+      "name": "Somewhere but Nowhere"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Oud Wood"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Beau Le Parfum"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Sauvage Elixir"
+    },
     {
       "brand": "ZARA",
       "name": "Vibrant Leather Bogoss"
@@ -122,6 +195,10 @@
       "name": "Asad"
     },
     {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Le Parfum"
+    },
+    {
       "brand": "EL GANSO",
       "name": "Bravo Monsieur"
     },
@@ -130,32 +207,21 @@
       "name": "Fuse"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Interlude Black Iris"
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau d'Issey Pour Homme"
     },
     {
       "brand": "TOM FORD",
       "name": "Tuscan Leather"
     },
     {
+      "brand": "ZARA",
+      "name": "Sand Desert At Sunset"
+    },
+    {
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue Eau Intense Pour Homme"
-    },
-    {
-      "brand": "HUGO BOSS",
-      "name": "Bottled Absolu"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Bade'e Al Oud Oud for Glory"
-    },
-    {
-      "brand": "ZARA",
-      "name": "No 2 Bergamot and Leather Spritz"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Sand Desert At Sunset Intense"
     }
-  ]
+  ],
+  "comments": []
 }

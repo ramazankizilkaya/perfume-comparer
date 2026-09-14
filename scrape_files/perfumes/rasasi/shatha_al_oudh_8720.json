@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "toprak",
+      "name": "gül",
       "width": "86.8266%"
     },
     {
-      "name": "gül",
+      "name": "toprak",
       "width": "86.8266%"
     },
     {
@@ -45,6 +45,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "48.0812%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,33 +112,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "0",
+    "longLasting": "3",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "0",
+    "strong": "6",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MONTALE",
+      "name": "Aoud Queen Roses"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Musk al Madinah"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Al Ward Al Musk"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RASASİ",
@@ -172,5 +213,6 @@
       "brand": "BY KİLİAN",
       "name": "Back to Black"
     }
-  ]
+  ],
+  "comments": []
 }

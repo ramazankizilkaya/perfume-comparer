@@ -29,6 +29,34 @@
     {
       "name": "taze baharatlı",
       "width": "47.2308%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,12 +71,12 @@
     }
   },
   "seasons": {
-    "winter": "1",
-    "spring": "1",
-    "summer": "1",
-    "autumn": "1",
-    "day": "0",
-    "night": "2"
+    "winter": "2",
+    "spring": "2",
+    "summer": "2",
+    "autumn": "2",
+    "day": "1",
+    "night": "3"
   },
   "notes": {
     "top": [
@@ -193,5 +221,6 @@
       "brand": "ROCHAS",
       "name": "Rochas Man"
     }
-  ]
+  ],
+  "comments": []
 }

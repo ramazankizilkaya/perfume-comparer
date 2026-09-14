@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.42189.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Lancome/La-Vie-Est-Belle-Edition-Limitee-42189.html",
   "brand": "Lancôme parfüm ve kolonya",
-  "description": "Lancôme markasının La Vie Est Belle Edition Limitee parfümü, kadınlar için Çiçeksi Meyvemsi Gurme bir kokudur. La Vie Est Belle Edition Limitee, 2016 yılında piyasaya sürüldü. La Vie Est Belle Edition Limitee, Olivier Polge, Dominique Ropion ve Anne Flipo tarafından yaratıldı. Üst notalar: Portakal, Frenk üzümü ve Armut; orta notalar: Yasemin, İris ve Portakal çiçeği; alt notalar Paçuli, Pralin, Vanilya, Badem ve Tonka fasulyesi.",
-  "description_original": "Lancôme markasının La Vie Est Belle Edition Limitee parfümü, kadınlar için Çiçeksi Meyvemsi Gurme bir kokudur. La Vie Est Belle Edition Limitee, 2016 yılında piyasaya sürüldü. La Vie Est Belle Edition Limitee, Olivier Polge, Dominique Ropion ve Anne Flipo tarafından yaratıldı. Üst notalar: Portakal, Frenk üzümü ve Armut; orta notalar: Yasemin, İris ve Portakal çiçeği; alt notalar Paçuli, Pralin, Vanilya, Badem ve Tonka fasulyesi.",
-  "description_enhanced": "Lancôme markasının La Vie Est Belle Edition Limitee parfümü, kadınlar için Çiçeksi Meyvemsi Gurme bir kokudur. La Vie Est Belle Edition Limitee, 2016 yılında piyasaya sürüldü. La Vie Est Belle Edition Limitee, Olivier Polge, Dominique Ropion ve Anne Flipo tarafından yaratıldı. Üst notalar: Portakal, Frenk üzümü ve Armut; orta notalar: Yasemin, İris ve Portakal çiçeği; alt notalar Paçuli, Pralin, Vanilya, Badem ve Tonka fasulyesi.",
+  "description": "Lancôme markasının La Vie Est Belle Edition Limitee parfümü, kadınlar için Çiçeksi Meyvemsi Gurme bir kokudur. La Vie Est Belle Edition Limitee, 2016 yılında piyasaya sürüldü. La Vie Est Belle Edition Limitee, Olivier Polge, Dominique Ropion ve Anne Flipo tarafından yaratıldı. Üst notalar: Portakal, Siyah Frenk Üzümü ve Armut; orta notalar: Yasemin, İris ve Portakal çiçeği; alt notalar Paçuli, Pralin, Vanilya, Badem ve Tonka fasulyesi.",
+  "description_original": "Lancôme markasının La Vie Est Belle Edition Limitee parfümü, kadınlar için Çiçeksi Meyvemsi Gurme bir kokudur. La Vie Est Belle Edition Limitee, 2016 yılında piyasaya sürüldü. La Vie Est Belle Edition Limitee, Olivier Polge, Dominique Ropion ve Anne Flipo tarafından yaratıldı. Üst notalar: Portakal, Siyah Frenk Üzümü ve Armut; orta notalar: Yasemin, İris ve Portakal çiçeği; alt notalar Paçuli, Pralin, Vanilya, Badem ve Tonka fasulyesi.",
+  "description_enhanced": "Lancôme markasının La Vie Est Belle Edition Limitee parfümü, kadınlar için Çiçeksi Meyvemsi Gurme bir kokudur. La Vie Est Belle Edition Limitee, 2016 yılında piyasaya sürüldü. La Vie Est Belle Edition Limitee, Olivier Polge, Dominique Ropion ve Anne Flipo tarafından yaratıldı. Üst notalar: Portakal, Siyah Frenk Üzümü ve Armut; orta notalar: Yasemin, İris ve Portakal çiçeği; alt notalar Paçuli, Pralin, Vanilya, Badem ve Tonka fasulyesi.",
   "mainAccords": [
     {
       "name": "tatlı",
@@ -49,6 +49,34 @@
     {
       "name": "toprak",
       "width": "50.7835%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,7 @@
     }
   },
   "seasons": {
-    "winter": "15",
+    "winter": "16",
     "spring": "7",
     "summer": "2",
     "autumn": "14",
@@ -73,7 +101,7 @@
   "notes": {
     "top": [
       "Portakal",
-      "Frenk üzümü",
+      "Siyah Frenk Üzümü",
       "Armut"
     ],
     "middle": [
@@ -91,41 +119,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "4",
+    "longLasting": "6",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "4",
+    "strong": "6",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
     },
     {
-      "brand": "MUGLER",
-      "name": "Angel"
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle L'Eau de Parfum Legere"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "La Rosa"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle L’Eau de Toilette Florale"
+    },
+    {
+      "brand": "ULRİC DE VARENS",
+      "name": "Varens d'Orient Saphir"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Trésor"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Nuit Trésor"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "The Only One"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Liberté"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Mon Guerlain"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle"
     },
     {
       "brand": "LANCÔME",
@@ -148,6 +213,10 @@
       "name": "Black Opium"
     },
     {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Mon Paris"
+    },
+    {
       "brand": "CAROLİNA HERRERA",
       "name": "Good Girl"
     },
@@ -160,8 +229,8 @@
       "name": "Black Orchid"
     },
     {
-      "brand": "JUİCY COUTURE",
-      "name": "Viva la Juicy"
+      "brand": "ARİANA GRANDE",
+      "name": "Cloud"
     },
     {
       "brand": "CHANEL",
@@ -179,5 +248,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Si"
     }
-  ]
+  ],
+  "comments": []
 }

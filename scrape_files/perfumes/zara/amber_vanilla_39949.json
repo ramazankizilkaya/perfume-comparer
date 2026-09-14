@@ -29,6 +29,34 @@
     {
       "name": "yumuşak baharatlı",
       "width": "43.6%"
+    },
+    {
+      "name": "Online satın alın 41 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,33 +88,74 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "3",
+    "moderate": "8",
+    "longLasting": "13",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "8",
+    "strong": "11",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MUGLER",
+      "name": "Alien"
+    },
+    {
+      "brand": "ALEXANDRİA FRAGRANCES",
+      "name": "Gourmand Kiss"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Zara Amber Vanilla"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Alien Essence Absolue"
+    },
+    {
+      "brand": "VERSET PARFUMS",
+      "name": "Jana"
+    },
+    {
+      "brand": "THE MERCHANT OF VENİCE",
+      "name": "Ottoman Amber"
+    },
+    {
+      "brand": "ZADİG & VOLTAİRE",
+      "name": "This is Him"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Grand Soir"
+    },
+    {
+      "brand": "KATE WALSH",
+      "name": "Boyfriend (2018)"
+    },
+    {
+      "brand": "PHAEDON",
+      "name": "Sable Marocain"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MUGLER",
@@ -148,5 +217,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,26 +16,54 @@
     },
     {
       "name": "çiçeksi",
-      "width": "76.3855%"
+      "width": "89.0361%"
     },
     {
       "name": "narenciye",
-      "width": "63.7349%"
+      "width": "63.7348%"
     },
     {
       "name": "amber",
-      "width": "51.0842%"
+      "width": "51.0845%"
     },
     {
       "name": "kozalaklı",
-      "width": "40.1204%"
+      "width": "40.1205%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.10",
-    "votesCount": "42",
+    "score": "4.12",
+    "votesCount": "43",
     "breakdown": {
-      "love": "21",
+      "love": "22",
       "like": "11",
       "ok": "5",
       "dislike": "3",
@@ -62,33 +90,42 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "8",
+    "moderate": "8",
+    "longLasting": "7",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "8",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "8",
+    "unisex": "20",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "6",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "OHANA KAMEALA",
+      "name": "Les Paix"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "L’Ombre Dans L’Eau Eau de Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -100,11 +137,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Una Artisan"
+      "name": "Mamãe e Bebê"
     },
     {
       "brand": "NATURA",
-      "name": "Mamãe e Bebê"
+      "name": "Una Artisan"
     },
     {
       "brand": "NATURA",
@@ -123,20 +160,20 @@
       "name": "Humor 1"
     },
     {
-      "brand": "NATURA",
-      "name": "Essencial Ato"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Luna"
-    },
-    {
       "brand": "O BOTİCÁRİO",
       "name": "214 Golden Gardênia"
     },
     {
       "brand": "NATURA",
+      "name": "Essencial Ato"
+    },
+    {
+      "brand": "NATURA",
       "name": "Flor de Lis"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Luna"
     },
     {
       "brand": "NATURA",
@@ -150,5 +187,6 @@
       "brand": "NATURA",
       "name": "Frescor de Açaí"
     }
-  ]
+  ],
+  "comments": []
 }

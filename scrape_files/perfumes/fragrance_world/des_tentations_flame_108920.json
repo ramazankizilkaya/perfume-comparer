@@ -49,17 +49,45 @@
     {
       "name": "balsamik",
       "width": "44.0853%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.16",
-    "votesCount": "49",
+    "score": "4.08",
+    "votesCount": "51",
     "breakdown": {
       "love": "21",
       "like": "17",
-      "ok": "10",
+      "ok": "11",
       "dislike": "0",
-      "hate": "1"
+      "hate": "2"
     }
   },
   "seasons": {
@@ -94,33 +122,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "6",
+    "moderate": "22",
+    "longLasting": "12",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "22",
+    "strong": "8",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "10",
+    "male": "26"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "11",
+    "goodValue": "6",
+    "greatValue": "28"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VERSACE",
+      "name": "Eros Flame"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Fade Denim Edit"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Des Tentations"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -139,8 +180,8 @@
       "name": "9am Dive"
     },
     {
-      "brand": "VERSACE",
-      "name": "Versace Pour Homme Dylan Blue"
+      "brand": "RAYHAAN",
+      "name": "Terra"
     },
     {
       "brand": "FRAGRANCE WORLD",
@@ -182,5 +223,6 @@
       "brand": "ZİMAYA",
       "name": "Sharaf Blend"
     }
-  ]
+  ],
+  "comments": []
 }

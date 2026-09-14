@@ -2,12 +2,12 @@
   "name": "Hawas Elixir Rasasi",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Oriental",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.110808.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Hawas-Elixir-110808.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Hawas Elixir parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Hawas Elixir, 2024 yılında piyasaya sürüldü. Üst notalar: Nane, Bergamot ve Pelin otu; orta notalar: Bitter çikolata, Lavanta ve Benzoin; alt notalar Vanilya, Tonka fasulyesi ve Misk.",
-  "description_original": "Rasasi markasının Hawas Elixir parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Hawas Elixir, 2024 yılında piyasaya sürüldü. Üst notalar: Nane, Bergamot ve Pelin otu; orta notalar: Bitter çikolata, Lavanta ve Benzoin; alt notalar Vanilya, Tonka fasulyesi ve Misk.",
+  "description_original": "Rasasi markasının Hawas Elixir parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Hawas Elixir, 2024 yılında piyasaya sürüldü. Üst notalar: Nane, Bergamot ve Pelin otu; orta notalar: Bitter çikolata, Lavanta ve Benzoin; alt notalar Vanilya, Tonka fasulyesi ve Beyaz Misk.",
   "description_enhanced": "Rasasi markasının Hawas Elixir parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Bu yeni bir parfüm. Hawas Elixir, 2024 yılında piyasaya sürüldü. Üst notalar: Nane, Bergamot ve Pelin otu; orta notalar: Bitter çikolata, Lavanta ve Benzoin; alt notalar Vanilya, Tonka fasulyesi ve Misk.",
   "mainAccords": [
     {
@@ -16,59 +16,87 @@
     },
     {
       "name": "aromatik",
-      "width": "82.1197%"
+      "width": "81.5566%"
     },
     {
       "name": "yeşil",
-      "width": "70.8757%"
-    },
-    {
-      "name": "taze baharatlı",
-      "width": "64.8912%"
+      "width": "70.203%"
     },
     {
       "name": "tatlı",
-      "width": "64.7465%"
+      "width": "65.0237%"
+    },
+    {
+      "name": "taze baharatlı",
+      "width": "64.4165%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "59.559%"
+      "width": "59.5174%"
     },
     {
       "name": "amber",
-      "width": "59.4866%"
+      "width": "59.1354%"
     },
     {
       "name": "çikolata",
-      "width": "55.7337%"
+      "width": "55.9833%"
     },
     {
       "name": "lavanta",
-      "width": "54.0529%"
+      "width": "53.6084%"
     },
     {
       "name": "pudralı",
-      "width": "51.2418%"
+      "width": "51.3297%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.49",
-    "votesCount": "1,269",
+    "score": "4.47",
+    "votesCount": "1,369",
     "breakdown": {
-      "love": "818",
-      "like": "319",
-      "ok": "86",
-      "dislike": "28",
+      "love": "868",
+      "like": "350",
+      "ok": "98",
+      "dislike": "35",
       "hate": "18"
     }
   },
   "seasons": {
-    "winter": "956",
-    "spring": "380",
-    "summer": "109",
-    "autumn": "795",
-    "day": "348",
-    "night": "858"
+    "winter": "1k",
+    "spring": "399",
+    "summer": "112",
+    "autumn": "841",
+    "day": "359",
+    "night": "909"
   },
   "notes": {
     "top": [
@@ -84,38 +112,99 @@
     "base": [
       "Vanilya",
       "Tonka fasulyesi",
-      "Misk"
+      "Beyaz Misk"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "8",
+    "weak": "16",
+    "moderate": "150",
+    "longLasting": "663",
+    "eternal": "151"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "19",
+    "moderate": "150",
+    "strong": "615",
+    "enormous": "109"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "16",
+    "moreFemale": "4",
+    "unisex": "124",
+    "moreMale": "405",
+    "male": "411"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "86",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "12",
+    "overpriced": "20",
+    "fair": "98",
+    "goodValue": "442",
+    "greatValue": "375"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Elixir"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "The Kingdom For Men"
+    },
+    {
+      "brand": "RAYHAAN",
+      "name": "Rayhaan Elixir"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club De Nuit Lionheart Man"
+    },
+    {
+      "brand": "ATRALİA",
+      "name": "Elixir"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Elixir Absolu"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Urban Man Elixir"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Elixir Collector Edition"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Glacier Gold"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Virilis"
+    },
+    {
+      "brand": "LE FALCONÉ PERFUMES",
+      "name": "Muharib Alpha"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Modhesh Aura"
+    },
+    {
+      "brand": "WALTER'S",
+      "name": "Hussar"
+    },
+    {
+      "brand": "GULF ORCHİD",
+      "name": "El Capitán Elixir"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Le Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -158,12 +247,12 @@
       "name": "Asad"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Y Eau de Parfum"
-    },
-    {
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Kobra"
     },
     {
       "brand": "FRENCH AVENUE",
@@ -176,6 +265,208 @@
     {
       "brand": "RASASİ",
       "name": "Hawas for Him"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent620943",
+      "author": "Macialkewicz",
+      "date": "2026-02-24",
+      "text": "JPG Le Male Elixir'e harika bir alternatif. Bal notalarının çikolata ile değiştirilmesine rağmen benzerlik yaklaşık %90. Geri kalan kısımlar da çok benzer – vanilya, lavanta, tonka fasulyesi ve orijinaline göre daha belirgin bir nane. Bu parfüm çok güçlü, agresif ve inanılmaz derecede etkili – ciltte kolayca kalıcı oluyor ve ilk birkaç saat boyunca birkaç metre öteye yayılıyor. Orijinalinden daha kimyasal mı? Muhtemelen değil, özellikle de JPG doğal notalarıyla da bilinmediği için. Bu, Le Male Elixir'e sahip olmanın anlamsız olduğu anlamına mı geliyor? Evet – neredeyse hiçbir şey kaybetmiyorsunuz ve naneden daha fazla ferahlık ve baldan daha çok tercih ettiğim ince bir çikolata kalitesi kazanıyorsunuz. Ve genel olarak tatlı bir karışım olması başka bir konu – sonuçta orijinali de aynı. Çılgınca yayılan, tipik bir vanilya tatlandırıcı, Arap gücüyle zenginleştirilmiş bir koku istiyorsanız, bu yüz zlotinin altında bir fiyata iyi bir seçenek.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.56092.jpg"
+    },
+    {
+      "id": "parent620950",
+      "author": "osa1950",
+      "date": "2026-02-22",
+      "text": "Koku gerçekten ilginç. Douglas'tan 14 yaşındakilerin kokusu olan JGP'nin Le Male Elixir'ini denedikten sonra, Rasasi'nin işi başardığını itiraf etmeliyim. Hawas Elixir'in bir klon değil, bir ilham kaynağı olduğunu söylüyorlar ve burada da bunu kabul etmeliyim. Le Male basit bir bal-tonka karışımıysa, Hawas daha az tatlı, belki de daha derin bir koku. Nasıl kokuyor? Le Male Elixir'den tonka fasulyesini ve biraz daha az balı çıkarıp, bitter çikolata ve biraz nane eklerseniz, Arap esintilerini elde edersiniz. Bu Hawas, nane ve bal ile bitter çikolata gibi kokuyor. İlk birkaç gün, başlangıçta korkunç derecede kimyasal bir koku vardı, ancak bir hafta sonra gerçekten iyi performans gösterdi ve daha yumuşak hale geldi. Parfüm kullanan herkes için en önemli şey kalıcılık ve yayılımdır. Ciltte 12 veya 14 saat kalıcılık ve patlayıcı yayılım içeren yorumlar gördüm, ihmal edilebilir yayılım ve 3 saat kalıcılık içeren yorumlar da gördüm. Her iki taraf da yanlış. Kalıcılığı tipik tatlı parfümler gibi, ciltte 7-8 saat sürüyor ve yıkanana kadar etkisini koruyor. Yayılımı yaklaşık 2-3 saat boyunca güçlü, sonra ortalama seviyeye iniyor ve kaybolmuyor. Odayı dolduracak kadar güçlü olmayabilir, ancak kesinlikle dikkat çekmenizi sağlayacak. Mevsim? Başlangıçtaki bitter çikolata ve nane notalarıyla kış, sonbahar ve belki de serin bir ilkbahar mevsimine uygun. 90 zloti fiyatındaki bir koku için fiyat-performans oranı gerçekten mükemmel. Rasasi, Arap pazarında değerini bir kez daha kanıtlıyor ve Douglas parfümlerine ciddi bir darbe vuruyor.\nÖzetle:\n%85 benzerlik, biraz daha az tatlı ama bence daha iyi.\ndayanıklılık 9/10\nTahmin 9/10\nkoku 9/10\nFiyat performans oranı 10/10",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.96727.jpg"
+    },
+    {
+      "id": "parent620893",
+      "author": "Nicholas G3033",
+      "date": "2026-01-30",
+      "text": "Sanırım bu, şimdiye kadarki en sevdiğim kolonya (şimdilik). Koleksiyonumda 50 tane var ve bunlar 20 dolarlık ucuz parfümlerden 150 dolarlık tasarımcı parfümlerine kadar çeşitlilik gösteriyor...\n\nBu muhteşem altın şişe, her koku kategorisinde en üstün olanıdır...\n\nKokusu mu? Bence kesinlikle cennet gibi... vanilya, nane ve çikolatanın muhteşem bir karışımı... çevresindekilerin içini sıcacık ve hoş bir hisle doldurmak isteyenler için mükemmel. Çok düşünmeden, ilk aklıma gelen kelimeyle tarif etmem gerekirse, seksi, sıcak, davetkar ve lezzetli derdim.\n\nPerformans mı? Kelimenin tam anlamıyla birinci sınıf!!! Tüm parfümlerim arasında en iyi performans gösterenlerden biri... Sadece birkaç fıs sıkıp saatlerce kokusunu almak çok hoşuma gidiyor. Bu parfüm oldukça güçlü ve kalıcılığı da çok iyi. Atomizer çok sağlam ve orta genişlikte, yeterli miktarda parfüm püskürtüyor.\n\nDeğeri mi? 10 üzerinden 10. Yani... böyle bir parfümü 35 dolara alabiliyorsam... gerçekten de pahalı parfümler kadar güzel kokuyor, aynı süre kalıcı ve daha çok iltifat alıyor!!! 35 dolara bu EFSANEVİ bir parfüm... Katı altın şişeyi ÇOK SEVİYORUM... bu güzel parfümün kişiliğine gerçekten çok yakışıyor... ona Hawa'nın ALTIN'ı demeyi seviyorum çünkü gerçekten de altın pullarla kaplı, kremsi bir lezzet gibi hissettiriyor... hahaha.\n\nBunu JPG le male le parfum ile birlikte deneyin ve aman tanrım, burun zevkiniz doruk noktasına ulaşacak!!!!!!!!!!!!!!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2595416.jpg"
+    },
+    {
+      "id": "parent620885",
+      "author": "Marshzcents",
+      "date": "2026-01-26",
+      "text": "Bu, tüm zamanların en sevdiğim parfümü. Daha önce de yorum yapmıştım ama tekrar ediyorum, JPG Elixir'i bir başyapıt olarak görüyorum; bu parfüm, fiyatına göre kaliteden ödün vermeden, sevdiğim özelliklerini bir üst seviyeye taşıyor.\nAncak şunu da belirtmek gerekir ki, partiler arasında büyük farklılıklar var.\nİlk şişem 03/25 tarihliydi, şu anki şişem ise 05/25 tarihli.\nÖnceki parti aşırı vanilyalı, pudramsı ve tam anlamıyla canavar gibiydi.\nYeni parti çok daha metalik, nane ve bal aromalı, belki biraz daha zayıf.\nİkisi de harika, sadece eski partiyi daha çok beğendim.\nAyrıca yeni partiye karşı aşırı derecede koku duyarlılığımı kaybettim ve açılış kısmı eski şişeme kıyasla oldukça sert.\nYine de, kelimenin tam anlamıyla orijinalinden daha iyi bir şey istiyorsanız mutlaka satın almanız gereken bir ürün.\nVallahi, orijinalinden büyük bir şişe almak yerine bundan 5 şişe alırdım.\nBununla birlikte, bana %100 iltifat oranı sağlayan tek parfüm bu.\nİş yerindeki herkes, kız arkadaşım, ailem, arkadaşlarım, iş arkadaşlarım ve diğerleri bana iltifat etti.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1768322.jpg"
+    },
+    {
+      "id": "parent620939",
+      "author": "Marcus Spring",
+      "date": "2026-01-23",
+      "text": "Bir süre sonra tekrar bir değerlendirme yazıyorum.\nOrijinal JPG ELIXIR ve bu Havas'ın karşılaştırmalı testinde, bu parfümün orijinaline neredeyse tamamen benzediği görüldü. %95 benzerlik var. Havas daha zengin ve biraz daha naneli, ancak bunun dışında her şey orijinaliyle neredeyse aynı, hatta aşırı derecede benzer.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.465530.jpg"
+    },
+    {
+      "id": "parent620927",
+      "author": "EssenzaDiUnAttimo",
+      "date": "2026-01-05",
+      "text": "Bu Hawas Elixir'i vasat buluyorum, performansı açısından değil, koku açısından (ki asıl önemli olan bu olmalı). Arap parfümü ve taklit olması gerçeğini bir kenara bırakalım; bu, parfüm dünyasının diğer yönleriyle ilgili. Önyargısız koklarsanız, aromatik ve çikolata arasında bir yerde, tatlı, pudralı bir dokunuşa sahip, zarif bir vanilya kokusu alıyorsunuz, ne kokladığınızı tam olarak tanımlayamıyorsunuz. Nane kokusu burnuma gelmedi; belki sadece kompozisyonu hafifçe ferahlatıyor ama öne çıkmıyor; belki lavanta daha çok öne çıkıyor, ama başka bir şey yok. Bence Le Male Elixir'in daha iyi yorumları var, ama kötü bir parfüm değil. Bu dünyada vasatlık insanı unutulmaya mahkum eder: Bizi tiksindiren şey, mükemmellikten yoksun olandan daha çabuk hatırlanır.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.78995.jpg"
+    },
+    {
+      "id": "parent620925",
+      "author": "Profumiere King",
+      "date": "2025-12-18",
+      "text": "Kartı açtığımda aklıma hemen Paul Gaultier'nin tarzı geldi; nane ve vanilyanın karışımı gibi çiğnenebilir bir tat.\nKolda hissedilen tat aynı kalıyor, baharatlı bir şeyler ekleniyor, kolda sıcaklık hissi yaratıyor.\nBir saat sonra nane kayboluyor.\nDaha önce karton üzerindeki nane kokusu yaz mevsimini çağrıştırırken, şimdi daha çok kış mevsimini çağrıştırdığını söyleyebilirim.\nMükemmel dayanıklılık ve önemli iz bırakma özelliği.\nRayhan Elixir ile %99 aynı, ancak bu parfümde kuruma aşamasında daha fazla vanilya ve kremsilik var, daha uzun süre kalıcı ve daha iyi performans gösteriyor.\nİkisi arasında bunu tercih ederim.\nLe Male Elixir'in derecelendirilmiş bir klonu, evet çok yakın, ancak orijinali çok daha baharatlı, ballı ve seksi.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.99266.jpg"
+    },
+    {
+      "id": "parent620935",
+      "author": "Marcus Spring",
+      "date": "2025-12-09",
+      "text": "Bu harika!\n\nAnladığım kadarıyla, bu parfümle ilgili Rusça yayın yapan Fragrantica sitesindeki ilk yorum bu, bu yüzden dürüst fikrimi ifade edeceğim.\nBu şişeyi kış koleksiyonum için 20 dolara aldım.\n\nBu kadar beğeneceğimi beklemiyordum.\nJPG Le Male Elixir'in bir kopyası olarak adlandırılabilir mi? Muhtemelen hayır. Anlaşılması gereken şu: Bu bir koku kopyalamak değil, benzer bir yönde, yani \"ilham alarak\" bir koku yaratmak.\n\nİlk başta nane ve narenciye aromalarının yoğun bir patlaması yaşanıyor. Tam beş dakika sonra ise nane aromalı çikolatayı andıran belirgin bir çikolata kokusu alıyorum.\nArdından benzoin reçineleriyle harmanlanmış tatlı, hoş bir vanilya kokusu geliyor. Yumuşak, hoş bir şekilde hissedilen tütün notası da mevcut.\n\nParfümün alt notalarında hoş bir tatlılık, misk ve tütün-vanilya notası ile hafif bir biber dokunuşu hissediliyor.\nDürüst olmak gerekirse: 15 dakika sonra neredeyse tamamen JPG'nin Elixir'i gibi kokuyor ve oldukça uzun süre kalıyor, ancak daha sonra kendi kokusuna bürünüyor.\n\nİyi yayılım ve kalıcılığa sahip, duştan sonra bile ciltte kalıyor.\nGenel olarak, fiyatına göre harika, sıcak bir kış kokusu: tanıdık ve sevilen bir parfüm tarzında, ancak kendine özgü bir dokunuşla!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.465530.jpg"
+    },
+    {
+      "id": "parent620890",
+      "author": "Mschmz100",
+      "date": "2025-11-20",
+      "text": "Çikolatalı ince naneli kurabiye benzetmesini anlıyorum, ama bana göre daha çok kakao tozunun nane ile karıştırılması gibi kokuyor, gerçek bir tatlı gibi değil. Çikolata notası tipik yenilebilir çikolatadan daha koyu. Bitter çikolatadan daha az tatlı. Kakao tozuyla yapılan bir şeye benziyor ama nane ile biraz daha tatlandırılmış.\n\nKoyu tonu nedeniyle kesinlikle erkeksi. Hoş, ferahlatıcı, aynı zamanda koyu ve çok iyi dengelenmiş gurme bir koku. Tam anlamıyla \"bunu yerdim\" diyebileceğim bir gurme değil, ama içinde belirli yiyecek notalarını hissedebiliyorum, sadece henüz yenilebilir bir ürün haline gelmemişler, umarım ne demek istediğimi anlarsınız.\n\nOrijinalini hiç koklamadım ama bence bu, tek başına harika bir koku. Kalıcılığı da mükemmel.\n\nÇok memnun kaldım.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent620910",
+      "author": "The Sixx Nose",
+      "date": "2025-11-14",
+      "text": "Altın rengi çikolata ve tatlı nane.\n\nHawas Elixir, püskürtüldükten sonraki ilk birkaç saniyede çok belirgin olan, öne çıkan bir nane notasıyla açılıyor. Tatlı, ferah ve ışıltılı bir nane kokusu; zaman zaman Le Male EDT'nin veya hatta Versace Eros'un açılışını hatırlatabilir, ancak burada his daha kremsi ve daha sarmalayıcı.\n\nAncak havada, parfüm tamamen farklı bir karaktere bürünüyor: neredeyse tüm kokuyu domine eden nefis bir çikolata akoru ortaya çıkıyor. Bu çikolatalı yön, yumuşak, gurme bir vanilya ile iç içe geçerek sıcak, çekici ve belirgin bir şekilde genç bir aura yaratıyor. Bu, Le Male Elixir'in bir \"klonu\" değil; aksine, orijinaldeki kuru tütünün yerini bu tatlı çikolatanın aldığı, onu daha ulaşılabilir ve daha da genç kılan bir ilham kaynağı.\n\nSaatler geçtikçe nane kokusu biraz azalıyor, ancak burnunuzu yaklaştırdığınızda yeşilimsi kokuyu hala hissedebiliyorsunuz. Yine de tekrar ediyorum: havadaki en belirgin koku çikolata.\n\nPerformansına gelince, ciltte çok iyi kalıcılık sağlıyor, ancak asıl parıldadığı nokta kumaşlar: Üzerine sıktığım kıyafetler, bir hafta sonra bile neredeyse yeni sıkılmış gibi kokuyor. Kumaşlarda olağanüstü derecede iyi sonuç veriyor.\n\nİlk saatteki yayılım olağanüstü; hatta spreyleri fazla kullanırsanız bunaltıcı hale gelebilir. Ancak bu ilk sürenin ardından, yayılım önemli ölçüde azalır ve daha kişisel, samimi ve daha az rahatsız edici bir etki alanına dönüşür.\n\nSprey başlığı mükemmel; bol miktarda sıvı püskürtüyor ve hassas uygulama kontrolü sağlıyor. Ayrıca, şişe çekici ve güzel bir görünüme sahip ve hepsinden önemlisi, sunduğu özelliklere göre parfüm çok uygun fiyatlı.\n\nGenç ve gurme karakteri, sade ama etkili yapısı ve tatlı, çikolatalı ve aromatik profiliyle Hawas Elixir, özellikle sonbahar olmak üzere daha serin mevsimlerde ve rahat ortamlarda en iyi sonucu verir. Sofistike olmayı hedeflemez, daha ziyade duyulara hitap etmeyi amaçlar ve bu konuda mükemmel bir başarı elde eder.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.173582.jpg"
+    },
+    {
+      "id": "parent620945",
+      "author": "aphex-twin-pije-gin",
+      "date": "2025-11-07",
+      "text": "Not: Bu yorum, güncel popüler gurme trendlerine çok meraklı bir vanilya aşığı tarafından yapılmıştır. Bence, Jan Pol Elixir'in DNA'sına çok hoş bir yaklaşım; şaşırtıcı derecede uzun süre kalıcı, ferahlatıcı, naneli notalar içeriyor (Eros ile olan olumlu çağrışımları bir türlü aklımdan çıkaramıyorum). Daha sonra, naneli bir sakız kokusuna doğru kayıyor, ancak arka planda hala vanilya var ve harika! Eğer çikolata kaplı naneli şekerleri sevmiyorsanız, o zaman [sansürlenmiş].\nBu arada, Hawas serisiyle ilk deneyimim ve oldukça olumlu geçti, diğer yan ürünler pek benim tarzım olmasa da. Yine de sağlam, iyi yapılmış şişesini ve güçlü atomizörünü övmeliyim. Devrim niteliğinde bir şey değil ama soğuk aylarda günlük kullanım için harika olacağını düşünüyorum ve mevcut fiyatıyla (sanırım 105 ziko civarında ödedim? para değil), kesinlikle denemeye değer :D",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.92952.jpg"
+    },
+    {
+      "id": "parent620911",
+      "author": "Darmody1917",
+      "date": "2025-10-26",
+      "text": "Tamamen Le Male tarzında, Elixir'den ise pek değil.\n\nBiraz hayal kırıklığına uğradım çünkü farklı bir şey bekliyordum, yine de iyi bir parfüm olduğunu düşünüyorum. Le Male Elixir gibi daha tatlı olmasını bekliyordum ama hiç öyle değil. Bence birebir kopyası değil, bir benzeri. Orijinal La Male ile Le Male Elixir arasında bir yerde.\n\nAçılış oldukça ferah ve naneli, ancak Le Male tarzı bir nanelilik, naneli sakız gibi değil. Ayrıca başlangıçta oldukça güçlü bir alkol tadı olduğunu fark ettim, neyse ki bir süre sonra bu etki azalıyor.\n\nCilde yerleştiğinde lavanta ve hafif bir vanilya kokusu fark ediliyor, ancak her ikisi de arka planda kalıyor; mentol-aromatik yönü en belirgin olanı. Zaman zaman, bazı farklılıklarla birlikte, Le Male'i hatırlatan yoğun koku patlamaları yaşadım.\n\nBir süre sonra, tatlı olmayan ve Le Male Elixir'in balımsı tatlılığından ayıran çikolata notası ortaya çıkıyor. Bir bakıma, çikolata nane bana A*Men Fantasm'ı hatırlattı, ancak yan yana karşılaştırıldığında farklılıklar açıkça görülüyor. Burada nane, A*Men Fantasm'daki paçuliden daha belirgin ve aynı yeşil-çikolata karışımı olmasına rağmen, benzer olduklarını söyleyemem.\n\nBundan sonra parfüm pek bir şey sunmuyor. Le Male parfümlerinde alışıldığı gibi, tonka fasulyesi arka planda beliriyor, üst notalarda çikolata ve bir tutam vanilya yer alıyor ve nane baştan sona öne çıkıyor.\n\nCiltte oldukça uzun süre kalıyor ve yanından geçen herkes kesinlikle fark ediyor. Kıyafetlerde bu kadar uzun süre kalmamasına şaşırdım. A*Men Fantasm ile karşılaştırıldığında, bir gün sonra neredeyse hiç fark edilmiyordu ve bir hafta sonra tamamen kayboluyordu, oysa A*Men Fantasm hala duruyordu.\n\nGüzel kokuyor. İki haftadır neredeyse sadece bunu kullanıyorum ve insanlar güzel koktuğumu söylüyorlar, ama bende bir sansasyon yaratmadı. Nasıl bir şey olduğunu bildiğim için tekrar alır mıyım bilmiyorum. Belki alırım çünkü iyi bir parfüm ve işini görüyor, belki de almam çünkü Le Male Elixir'e daha yakın bir şey istiyorum.\n\nDaha tatlı notaları ortaya çıkarmak için birkaç hafta daha fermantasyon/oksidasyon gerekebilir. Göreceğiz. Eğer bu yorumu yayınladıktan birkaç ay sonra silmediysem, fermantasyonun onu iyileştirmediği anlamına gelir.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent620897",
+      "author": "Ryanmmas26",
+      "date": "2025-09-21",
+      "text": "Bu ürün inanılmaz derecede bağımlılık yapıyor ve bu yıl aldığım en sevdiğim 5 ürün arasında rahatlıkla yer alıyor!\n\nRasasi, oldukça zengin, vanilyalı, yarı tatlı, yarı pudralı ve aynı zamanda ferah bir kokuyla açılıyor. Le Male Elixir DNA'sını çok anımsatıyor ancak daha pudralı ve daha az ballı.\n\nKurudukça, o tozlu çikolata havasına bürünüyor ki bu da inanılmaz lezzetli ve bağımlılık yapıcı!! Çikolata dokunuşu, Elixir DNA'sına son dokunuşu katıyor ve bana toz kakao havası veriyor.\n\nEskiden çıkan AXE çikolata kokusunu hatırlayanlar için (ki ben o kokuyu gerçekten çok sevmiştim), bu onun daha zarif ve olgun bir versiyonu.\n\nBu parfümün performansı, aşırıya kaçmadan mükemmel... 2-4 fısla fark ediliyor ama rahatsız edici olmuyor. Gerçekten de \"az çoktur\" türünden bir koku; ne kadar çok sıkarsanız o kadar çok yayılmıyor, aksine kokunun daha belirgin bir şekilde hissedilmesini sağlıyor. Haha, ve 2-4 fısla çok belirgin bir koku yayılımı sağlıyor. Ayrıca 24 saatten fazla sürüyor ve duş alana kadar cildimde kalıyor.\n\nGenel puan - 10 üzerinden 8,5! Hem erkeksi hem de son derece bağımlılık yapıcı, güzel ve gurme bir koku. Dışarı çıkarken veya soğuk havalarda kullanmak için de ideal.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.761961.jpg"
+    },
+    {
+      "id": "parent620901",
+      "author": "BaderBRUH",
+      "date": "2025-08-31",
+      "text": "Bugün teslim aldım, işte bazı önemli noktalar:\n-İlk 5-10 dakika nane/çikolata kokulu bir Le Male eliksiri gibi kokuyor, sonra nane kokusu azalmaya başlıyor ve geriye normal Le Male eliksiri kokusu kalıyor, ancak bal yerine daha çok çikolata kokusu oluyor.\n-İyi bir yayılımla 4 saat boyunca kalıcıdır ve daha sonra ten kokusuna dönüşür.\n-Soğuk/sıcak havalarda, alışveriş merkezlerinde veya genel olarak klimalı yerlerde iyi bir koku olabilir.\nGenel olarak, fiyatına (24$) göre 10 üzerinden 8 veririm.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent620895",
+      "author": "mrogne",
+      "date": "2025-08-08",
+      "text": "Bu kesinlikle Le Male Elixir'e benziyor, ancak açılışındaki nane notaları bana Versace Eros EDP havasını veriyor. Gerçekten çok beğendim! Olağanüstü iyi fiyat performans oranı... kesinlikle başarılı bir kör alışveriş!\n\nAyrıca son derece güçlü... bu hoş bir sürpriz oldu. 2 fıs (her kola bir fıs) ve bu şey çok etkili! Kesinlikle tetiğe yavaşça basmak gerekiyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent620888",
+      "author": "enevictor",
+      "date": "2025-08-06",
+      "text": "Orijinal Le Male Elixir'in bazı örneklerini denemiştim ve bunu birkaç haftadır kullanıyorum...\n\nBunu orijinaliyle yan yana sıktığımda, orijinalinden daha çok bunun kokusunu alabiliyorum... Performansı çok daha yüksek olduğu için, bu parfüm orijinalinin yumuşaklığından biraz kaybediyor...\n\nSpreylerinizi hafifçe sıkarsanız, havada orijinaline çok yakın bir koku yayacaktır. Yan yana koklamadığınız sürece farkı anlayamazsınız.\n\nİçeriğindeki kimyasal madde yoğunluğu ve etkisi nedeniyle 25°C'nin üzerindeki havalarda (en iyisi 20°C'nin altında) kullanmanızı tavsiye etmem.\n\nDipnot: Birçok kişi orijinalinin vanilya-bal bombası olduğunu söylüyor... Hem orijinalinde hem de Hawas Elixir'de en çok aldığım şey tonka oldu... Bence baskın tat tonka.\n\nUmarım yardımcı olmuştur!\n\nŞerefe!\n\nDÜZENLEMEK:\n\nBurada 3 günlük bir açık hava festivaline katıldım ve her akşam bunu kullandım... Orada karşılaştığım bazı arkadaşlarımdan iltifat aldım - ikisi de bana sarıldıktan sonra harika koktuğumu söylediler ve şaşırmış gibi yaparak onlara \"vay canına... bu kalabalıkta kokusunu alabiliyor musunuz?\" diye sorduğumda, kız \"10 metre ötede sadece senin kokunu alabiliyorum\" dedi - bu, ürünün performansını gösteriyor - açık havada, 15°C'de, parfüm kullanan insanlarla dolu kalabalıkta. Yaklaşık 10 fıs sıktım ama yine de etkileyici buldum. Tabii ki, adama Le Male Elixir kullandığımı söyledim (çünkü ben öyle bir adamım :)) ).",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.98827.gif"
+    },
+    {
+      "id": "parent620909",
+      "author": "Edgar Allan Hoes",
+      "date": "2025-07-24",
+      "text": "150 ml'lik LME'yi satın alıp birkaç aydır kullanan biri olarak, HE'yi tercih ederek aynı modern, üst düzey kokuya sahip olurken önemli miktarda para tasarrufu yapabileceğinizi tamamen güvenle söyleyebilirim. \"Orijinaline benzemiyor\" veya \"yapay hissettiriyor\" diyen puristleri görürseniz, onları görmezden gelin: Sadece çok fazla para harcadıkları için şikayet ediyorlar, oysa aynı derecede iyi bir kokuyu, koku notalarını veya kalitesini feda etmeden alabilirlerdi. Aslında tam tersi; çikolata, vanilya ve nane notaları daha belirgin. Rasasi yine başardı, arkadaşlar. Bununla birlikte, sıcak havalarda tatlı parfümleri sevmiyorsanız biraz bayıcı olabilir (şahsen ben sorun etmiyorum). Ek olarak: sıcakta bile, tüm iyi Rasasi parfümleri gibi, kalıcılığını koruyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.261476.jpg"
+    },
+    {
+      "id": "parent620961",
+      "author": "danielfaria",
+      "date": "2025-07-17",
+      "text": "Dostum, o naneli şeker birinci sınıf, sen delisin, orijinalinden bile daha iyi hahaha\nLe Male Elixir çok daha tatlı; bu, daha çikolatalı olmasına rağmen, orijinaline göre daha az bayıcı!\nHâlâ test aşamasında, ama şunu söyleyebilirim ki en iyi Hawa'lardan biri, Fire'dan daha çok beğendim, ilk 3'te yer alıyor!",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.49606.gif"
+    },
+    {
+      "id": "parent620923",
+      "author": "Atomicscent",
+      "date": "2025-07-09",
+      "text": "Bu parfümü aylardır elimde tutuyordum ve sonunda geldi! Benim için bu, Le Male Elixir'in kesin klonu ve en iyisini arayışım sona erdi. Armaf'ın Lionheart'ıyla işim bittiğini sanıyordum, ancak Notino'da sadece 22 €'ya bunu bulunca, ona bir şans vermek zorunda kaldım. Lionheart inanılmaz bir klon olsa da, ilk başta beni heyecanlandıran o naneli kenarı yoktu. Peki, bu Hawas Elixir'i farklı kılan ne? Açılış, orijinal ve Lionheart arasında bir yerde; hafif bir nane ipucu var, ancak Armaf parfümündeki kadar her yerde değil. Bu parfümde, nane tamamen kuruma aşamasında kayboluyor (Lionheart'ta durum böyle değil), koku neredeyse orijinaliyle aynı kalıyor. Ancak bu Hawas biraz daha kremsi, neredeyse tereyağımsı; bunun çikolata notasından kaynaklanıp kaynaklanmadığını bilmiyorum, ama bu küçük farkı gerçekten beğendim. Ancak havada, tamamen ayırt edilemezler, sizi temin ederim. Performans, Lionheart'ı bile geride bırakıyor ve orijinalinin hemen altında kalıyor. Kısacası, 22 €'ya tam bir fırsat ve sekiz klonu test ettikten sonra, arayışımı nihayet tamamladım.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.62072.jpg"
+    },
+    {
+      "id": "parent620882",
+      "author": "Colossalscent",
+      "date": "2025-07-09",
+      "text": "En iyi Le Male Elixir klonunu arayışım sona erdi, bana göre bu en iyisi! Her şeyden önce, denediğim klonlar arasında açık ara en güçlüsü bu, orijinali kadar güçlü değil ama genel olarak gerçekten güçlü. Kokuya gelince, açılışta Armaf'ın Lionheart'ı gibi daha ferah. Nane mevcut ama Lionheart'tan daha az belirgin, Hawas Elixir kesinlikle daha dengeli. İlk 15 dakikadan sonra Le Male Elixir'e giderek daha çok yaklaşıyor (Lionheart da bunu yapıyor ama kuruduktan sonra bile biraz naneli hissediliyor).\nBu Hawas Elixir'in orijinalinden tek farkı ne? Çikolata notası mı bilmiyorum ama bu, orijinalinin daha kremsi, neredeyse tereyağımsı bir versiyonu gibi geliyor. Arka planda hafif meyvemsi bir dokunuş da var ama nereden geldiğini bilmiyorum. Farklar çok az ve sadece yakından kokladığınızda fark ediyorsunuz, havada tamamen aynılar. Bu arada, bazı arkadaşlarıma Hawas Elixir, Lionheart ve Le Male Elixir'i yan yana koklattım ve şaşırtıcı bir şekilde hepsi Rasasi kokusunu seçti. Ayrıca, bunu Notino'da inanılmaz bir fiyata buldum, bu da onu kalite/fiyat açısından en iyi koku yapıyor. Son sıralama listesi:\n1. Rasasi Hawas İksiri (22 €)\n2. Armaf Lionheart (28€)\n3. Fragrance World Urban Man Elixir (21€)\n4. Khadlaj La Fede Sarhoş mavi iksir (25 €)\n5. Krallık (17€)\n6. Rayhaan İksiri (22€)\n7. Zimaya Charisma (20€) [açılışta tam isabet, Le Male Le Parfum'un bir kopyası oluyor]\n8. Ard Al Zaafaran Wild Oud (12€) Le Male Elixir'in ud ile zenginleştirilmiş, çok daha derin ve erkeksi bir versiyonu.\n\n9,25/10",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1343736.jpg"
     }
   ]
 }

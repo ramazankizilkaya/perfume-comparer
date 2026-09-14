@@ -49,6 +49,34 @@
     {
       "name": "animalik",
       "width": "44.2788%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "1",
+    "moderate": "2",
+    "longLasting": "12",
+    "eternal": "18"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "2",
+    "strong": "15",
+    "enormous": "18"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "9",
+    "unisex": "17",
+    "moreMale": "3",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "21",
+    "overpriced": "6",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BORTNİKOFF",
+      "name": "Sir Winston"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "Marama"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "P.13"
+    },
+    {
+      "brand": "SARAH BAKER PERFUMES",
+      "name": "Rules of Attraction"
+    },
+    {
+      "brand": "TRNP",
+      "name": "Night Song Devotion"
+    },
+    {
+      "brand": "JO LOVES",
+      "name": "Golden Gardenia"
+    },
+    {
+      "brand": "RAMÓN BÉJAR",
+      "name": "Luz Infinita"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -139,10 +196,6 @@
     {
       "brand": "ROJA DOVE",
       "name": "Diaghilev"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Promise"
     },
     {
       "brand": "XERJOFF",
@@ -175,6 +228,11 @@
     {
       "brand": "XERJOFF",
       "name": "XJ 1861 Naxos"
+    },
+    {
+      "brand": "CREED",
+      "name": "Green Irish Tweed"
     }
-  ]
+  ],
+  "comments": []
 }

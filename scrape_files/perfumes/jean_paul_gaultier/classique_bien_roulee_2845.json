@@ -19,11 +19,11 @@
       "width": "93%"
     },
     {
-      "name": "amber",
+      "name": "vanilya",
       "width": "87.2727%"
     },
     {
-      "name": "vanilya",
+      "name": "amber",
       "width": "87.2727%"
     },
     {
@@ -31,11 +31,11 @@
       "width": "84.0909%"
     },
     {
-      "name": "narenciye",
+      "name": "taze",
       "width": "82.5%"
     },
     {
-      "name": "taze",
+      "name": "narenciye",
       "width": "82.5%"
     },
     {
@@ -86,54 +86,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "2",
-    "moderate": "2",
-    "longLasting": "6",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "2",
-    "strong": "5",
-    "enormous": "10"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique Charm Edition"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique Intense"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique Limited Edition 2003"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique"
-    },
-    {
-      "brand": "ALREHAB PERFUMES",
-      "name": "Balkis"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CACHAREL",
@@ -195,5 +174,6 @@
       "brand": "DİOR",
       "name": "Poison"
     }
-  ]
+  ],
+  "comments": []
 }

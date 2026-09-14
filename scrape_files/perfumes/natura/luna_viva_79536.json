@@ -16,26 +16,54 @@
     },
     {
       "name": "tüberöz",
-      "width": "52.2376%"
+      "width": "51.8173%"
     },
     {
       "name": "animalik",
-      "width": "41.3605%"
+      "width": "41.2467%"
     },
     {
       "name": "taze",
-      "width": "41.0543%"
+      "width": "41.1852%"
     },
     {
       "name": "yeşil",
-      "width": "40.6354%"
+      "width": "40.6321%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.07",
-    "votesCount": "191",
+    "score": "4.08",
+    "votesCount": "192",
     "breakdown": {
-      "love": "78",
+      "love": "79",
       "like": "69",
       "ok": "28",
       "dislike": "12",
@@ -45,10 +73,10 @@
   "seasons": {
     "winter": "76",
     "spring": "94",
-    "summer": "46",
+    "summer": "45",
     "autumn": "90",
-    "day": "98",
-    "night": "89"
+    "day": "99",
+    "night": "90"
   },
   "notes": {
     "top": [],
@@ -63,33 +91,42 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "9",
+    "moderate": "86",
+    "longLasting": "19",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "15",
+    "moderate": "86",
+    "strong": "23",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "101",
+    "moreFemale": "15",
+    "unisex": "3",
+    "moreMale": "2",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "10",
     "fair": "28",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "44",
+    "greatValue": "16"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Far Away Rebel & Diva"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ilía Plena"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -117,6 +154,10 @@
     },
     {
       "brand": "NATURA",
+      "name": "Una Infinito"
+    },
+    {
+      "brand": "NATURA",
       "name": "Una Senses"
     },
     {
@@ -133,11 +174,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Luna Intenso"
+      "name": "Una Artisan"
     },
     {
       "brand": "NATURA",
-      "name": "Una Artisan"
+      "name": "Luna Intenso"
     },
     {
       "brand": "NATURA",
@@ -145,11 +186,8 @@
     },
     {
       "brand": "NATURA",
-      "name": "Luna Valentia"
-    },
-    {
-      "brand": "NATURA",
       "name": "Ilía Secreto"
     }
-  ]
+  ],
+  "comments": []
 }

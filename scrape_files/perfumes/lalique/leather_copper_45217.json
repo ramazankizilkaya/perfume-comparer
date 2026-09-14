@@ -49,6 +49,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "56.6001%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -65,9 +93,9 @@
   "seasons": {
     "winter": "63",
     "spring": "58",
-    "summer": "26",
+    "summer": "27",
     "autumn": "74",
-    "day": "58",
+    "day": "57",
     "night": "49"
   },
   "notes": {
@@ -92,33 +120,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "4",
+    "moderate": "21",
+    "longLasting": "43",
+    "eternal": "14"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "21",
+    "strong": "37",
+    "enormous": "14"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "5",
+    "unisex": "36",
+    "moreMale": "20",
+    "male": "14"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "9",
     "fair": "14",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "15",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AMOUAGE",
+      "name": "Imitation Man"
+    },
+    {
+      "brand": "BOTTEGA VENETA",
+      "name": "Bottega Veneta"
+    },
+    {
+      "brand": "BOİS 1920",
+      "name": "Oro 1920"
+    },
+    {
+      "brand": "BOTTEGA VENETA",
+      "name": "Bottega Veneta Pour Homme Extreme"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Chypre Silver"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Aoud Forest"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Loewe 7 Anonimo"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Rose & Cuir"
+    },
+    {
+      "brand": "MİN NEW YORK",
+      "name": "VOODOO"
+    },
+    {
+      "brand": "L'ORCHESTRE PARFUM",
+      "name": "Cuir Kora"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Cuir de Russie Eau de Parfum"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Le Lion Eau de Parfum"
+    },
+    {
+      "brand": "ANGEL SCHLESSER",
+      "name": "Profound Orange Wood"
+    },
+    {
+      "brand": "MEMO PARİS",
+      "name": "Iberian Leather"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Escada Magnetism for Men"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -131,6 +220,10 @@
     {
       "brand": "BENTLEY",
       "name": "Bentley for Men Intense"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "1740 Marquis de Sade"
     },
     {
       "brand": "LALİQUE",
@@ -153,10 +246,6 @@
       "name": "Myths Man"
     },
     {
-      "brand": "ESSENTİAL PARFUMS",
-      "name": "Bois Impérial"
-    },
-    {
       "brand": "LALİQUE",
       "name": "Encre Noire Sport"
     },
@@ -169,16 +258,17 @@
       "name": "Black Afgano"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Terre d'Hermes Parfum"
-    },
-    {
       "brand": "LALİQUE",
       "name": "Oriental Zinc"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Hacivat"
     },
     {
       "brand": "LALİQUE",
       "name": "Encre Noire"
     }
-  ]
+  ],
+  "comments": []
 }

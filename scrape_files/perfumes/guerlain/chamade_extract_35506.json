@@ -97,74 +97,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "4",
-    "moderate": "5",
-    "longLasting": "30",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "5",
-    "strong": "18",
-    "enormous": "7"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "10",
-    "moreFemale": "7",
-    "unisex": "8",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "7",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "3",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Chamade"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Chamade Eau de Toilette"
-    },
-    {
-      "brand": "GOUTAL",
-      "name": "Grand Amour"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Nahema Eau de Parfum"
-    },
-    {
-      "brand": "TOSCA",
-      "name": "Tosca"
-    },
-    {
-      "brand": "MAİSON INCENS",
-      "name": "Coeur de Rose"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "Magie Noire Parfum"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Caleche Parfum"
-    },
-    {
-      "brand": "ESTÉE LAUDER",
-      "name": "Knowing"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Vol de Nuit Extract"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -212,11 +171,11 @@
     },
     {
       "brand": "GUERLAİN",
-      "name": "L'Heure Bleue Eau de Parfum"
+      "name": "Vol de Nuit"
     },
     {
       "brand": "GUERLAİN",
-      "name": "Vol de Nuit"
+      "name": "L'Heure Bleue Eau de Parfum"
     },
     {
       "brand": "GUERLAİN",
@@ -226,5 +185,6 @@
       "brand": "GUERLAİN",
       "name": "Samsara Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

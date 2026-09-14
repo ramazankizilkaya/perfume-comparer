@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Serge-Lutens/L-Eau-Froide-14047.html",
   "brand": "Serge Lutens parfüm ve kolonya",
   "description": "Serge Lutens markasının L'Eau Froide parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. L'Eau Froide, 2011 yılında piyasaya sürüldü. Kokuda Deniz Suyu, Nane, Tütsü, Beyaz sakız, Zencefil, Vetiver, Misk ve Biber notaları bulunur.",
-  "description_original": "Serge Lutens markasının L'Eau Froide parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. L'Eau Froide, 2011 yılında piyasaya sürüldü. Kokuda Deniz Suyu, Nane, Tütsü, Beyaz sakız, Zencefil, Vetiver, Misk ve Biber notaları bulunur.",
+  "description_original": "Serge Lutens markasının L'Eau Froide parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. L'Eau Froide, 2011 yılında piyasaya sürüldü. Kokuda Deniz Suyu, Nane, Tütsü, Olibanum, Zencefil, Vetiver, Misk ve Biber notaları bulunur.",
   "description_enhanced": "Serge Lutens markasının L'Eau Froide parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. L'Eau Froide, 2011 yılında piyasaya sürüldü. Kokuda Deniz Suyu, Nane, Tütsü, Beyaz sakız, Zencefil, Vetiver, Misk ve Biber notaları bulunur.",
   "mainAccords": [
     {
@@ -49,25 +49,53 @@
     {
       "name": "misk",
       "width": "46.7471%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.75",
-    "votesCount": "1,154",
+    "score": "3.76",
+    "votesCount": "1,163",
     "breakdown": {
-      "love": "290",
+      "love": "296",
       "like": "550",
-      "ok": "60",
-      "dislike": "249",
+      "ok": "62",
+      "dislike": "250",
       "hate": "5"
     }
   },
   "seasons": {
     "winter": "97",
     "spring": "246",
-    "summer": "353",
-    "autumn": "94",
-    "day": "356",
+    "summer": "354",
+    "autumn": "95",
+    "day": "357",
     "night": "71"
   },
   "notes": {
@@ -78,7 +106,7 @@
       "Deniz Suyu",
       "Nane",
       "Tütsü",
-      "Beyaz sakız",
+      "Olibanum",
       "Zencefil",
       "Vetiver",
       "Misk",
@@ -86,33 +114,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "29",
+    "weak": "53",
+    "moderate": "184",
+    "longLasting": "65",
+    "eternal": "15"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "109",
+    "moderate": "184",
+    "strong": "77",
+    "enormous": "46"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "5",
+    "unisex": "91",
+    "moreMale": "36",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "60",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "11",
+    "overpriced": "34",
+    "fair": "62",
+    "goodValue": "9",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "L'Eau Froide"
+    },
+    {
+      "brand": "ETRO",
+      "name": "Pegaso"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Laine de Verre"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "L'Eau Serge Lutens"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Giò Profumo"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Parole d'Eau"
+    },
+    {
+      "brand": "VİLHELM PARFUMERİE",
+      "name": "Stockholm 1978"
+    },
+    {
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "Les Saisons Hiver"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "L’Eau Serge Lutens"
+    },
+    {
+      "brand": "JANUARY SCENT PROJECT",
+      "name": "Frankincense, You Are as a Light Under the Snow"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Flor D'água"
+    },
+    {
+      "brand": "GİARDİNO BENESSERE",
+      "name": "Hades"
+    },
+    {
+      "brand": "MARİA CANDİDA GENTİLE",
+      "name": "Gershwin"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Akragas"
+    },
+    {
+      "brand": "THE DİFFERENT COMPANY",
+      "name": "Charmes et Feuilles"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -125,10 +214,6 @@
     {
       "brand": "HERMÈS",
       "name": "Un Jardin en Méditerranée"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "Arabie"
     },
     {
       "brand": "HERMÈS",
@@ -173,6 +258,182 @@
     {
       "brand": "MUGLER",
       "name": "Angel"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Santal Majuscule"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent720709",
+      "author": "Silverquick",
+      "date": "2023-01-04",
+      "text": "Bu parfümü kullanmayı özlüyorum… 2013'te almıştım, (etraftaki tüm meyveli çiçeksi parfümlere kıyasla) çok iddialı ve ilginçti. Üzerimde harika kokuyordu ve çok iltifat alıyordum. Genellikle erkeklerden. Benim buz kraliçesi parfümümdü - sanki bir buzul parçası taşıyormuşum gibi. Sıcak, soğuk, temiz havası büyüleyici, yatıştırıcı ve hala deneyimlediğim hiçbir şeye benzemiyor (öncesinde veya sonrasında). Ayrıca, (yaz/sonbahar rafımdaki suç ortağı - CdG'nin Serpentine'i ile birlikte) nadir bulunan, son kullanma tarihi geçmiş parfümler arasına katıldı…\n\nBaşka bir şişe bulmaya çalışıyorum. Bu sefer 100 ml'lik ve bulmak çok zor. Yeni şişenin cazibesi yok ama içindeki sıvı aynıysa mutlu olurum. Şimdi (yurtdışındaki perakendecilerde) stokların gelmesini bekliyorum ve açık artırma sitelerini takip ediyorum. Ahh.\n\nYenisini alana kadar eski şişemi koklamaya devam edeceğim.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.649887.jpg"
+    },
+    {
+      "id": "parent720710",
+      "author": "vermillion5",
+      "date": "2022-06-29",
+      "text": "Benden çok daha zeki biri \"Vatikan'daki serin su\" demişti ve bu benim için her şeyi özetliyor! Çok zekice ve gerçekten orijinal bir fikir; serin (nane, su), sıcak (tütsü, günlük) ve baharatlı (zencefil, biber) notaları bir araya getiriyor, ama bir şeyi yapabiliyor olmanız, yapmanız gerektiği anlamına gelmez. Bu kokuyu gerçekten anlamıyorum, bana hiçbir şey ifade etmiyor ve bununla da sorun yok. Azınlıktayım çünkü yorumlarda gerçekten çok beğeniliyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent720731",
+      "author": "Giuseppe98",
+      "date": "2021-03-07",
+      "text": "Pek çok parfüm ve pek çok aşk var. Bu koku beni büyüledi çünkü onu sürdüğümde güzel günlerin gelişini müjdeliyor. Tütsü ve nane, tarif edemeyeceğim eşsiz ve platonik bir şey yaratıyor. Deniz notaları her şeye eşlik ediyor ve zencefil de onlara katıldığında sonuç ışıltılı bir tazelik oluyor. Aynı anda hem soğuk hem de sıcak bir koku. Aşk.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.38208.jpg"
+    },
+    {
+      "id": "parent720712",
+      "author": "Addict2Perfume",
+      "date": "2020-03-27",
+      "text": "Soğuk Su mu!? Vatican by the Sea'yi deneyin! Bu koku, Chanel'in Allure Homme Sport'una (eğer o kokuyu seviyorsanız, bunu da denemeye değer) tıpatıp benzeyen, tuzlu bir tütsü ile açılıyor ve ardından hafif baharatlar ve ferahlatıcı nane ile aynı tatlı okyanus notasına dönüşüyor! Serge Lutens parfümleri inanılmaz derecede benzersiz, gerçekten bir duyguyu veya bir anıyı/hatırayı yakalıyorlar. Bazı insanlar, özellikle kokunun arkasındaki fikir/konsept karanlık veya soyutsa (L'Orpheline, senden bahsediyoruz!), parfümlerini giyilemez bulmuşlardır, ancak L'Eau Froide mükemmel. Bana çocukların mısır gevreği kutularında buldukları renk değiştiren kaşıkları hatırlatıyor; oda sıcaklığında kırmızı olan kaşık, soğuk sütte mora dönüşüyor. L'Eau Froide tatlı bir tütsü olarak başlıyor ve kurudukça yön değiştiriyor, naneli ve sucul bir hal alıyor. Geçen yaz neredeyse her gün kullandım ve bayıldım!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.156824.jpg"
+    },
+    {
+      "id": "parent720730",
+      "author": "Dario40",
+      "date": "2018-07-28",
+      "text": "Tuhaf ve alışılmadık bir parfüm; belki de onu tanımlamak için en doğru kelime \"karmaşık\"tır.\nİlk bakışta pek uyumlu görünmeyen ve bağlantıları inandırıcı olmayan notlar.\nBu kokuya değer katan da tam olarak bu absürtlüktür; daha önce hiç algılanmamış ve benim için son derece yenilikçi bir koku.\nNane, günlük ve olibanum, çok yeşil olmayan, tatlımsı, pigmentli ve aromatik bir \"yeşil\" ile bağlantılı hoş ve merak uyandıran hisler veren başlıca unsurlardır.\nBir araya getirmeyi düşündüğüm varsayımsal renkler arasında turuncu ve bej renklerini çok uygun buluyorum.\nAmaç, pastoral ve meditatif, gerçekçi olmayan ve zaman zaman biraz asi bir şey yaratmak.\nBelki de Lutens aynı adlı filmden ilham almıştır, o zaman birçok şey netleşir, her şey netleşir.\nÇok uzun süre kalıcı, yüksek kaliteli bir koku; ancak halkın beklentisi kesinlikle sınırlı.\nPuanım hala yüksek, 9/10",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.839.jpg"
+    },
+    {
+      "id": "parent720708",
+      "author": "scentitar",
+      "date": "2018-06-14",
+      "text": "Bunu aldım ve çok sevdim çünkü koleksiyonumda boş olan bir yeri doldurdu. Ten kokusu harika.\n\nBu kokuyu androjen, güvenli ve oldukça sade buluyorum. Buna rağmen, nane ve canlandırıcı yapısı gerçek bir zevk ve beni sürekli ona geri çeken bir şey var.\n\nİçinizi ferahlatan bir his, hafif bir su kokusu, hafif bir aromatik koku; nane, zencefil, tütsü ve yumuşak, tatlı beyaz reçine kokusu alıyorsunuz.\n\nBu tür bir koku için düşük performans bekleyebilirsiniz ancak kokunun doğası gereği oldukça iyi bir performans sergiliyor.\n\n4 ila 6 saat arası kullanım süresi, orta ila zayıf performans gösteriyor. Bunu işe giderken, yürüyüşlerde veya parklar gibi halka açık yerlerde, rahat ama neşeli bir şeyler giymek istediğimde tercih ediyorum.\n\nBu tam anlamıyla beni cezbeden bir şey. 5 üzerinden 5.\n\nRemarkable people by etat libre d orange'ın büyük kardeşi",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1113531.jpg"
+    },
+    {
+      "id": "parent720707",
+      "author": "Arabian Knight",
+      "date": "2018-04-25",
+      "text": "Bu koku, parfümden pek hoşlanmayan ama sadece temiz kokmak isteyenler için mükemmel. Tertemiz beyaz havlular, ütülenmiş çarşaflar ve sabun. Taze, keskin, biraz sert -ozon ve biberden dolayı- ama aynı zamanda serin, bitkisel ve hafif tatlı, bol miktarda çamaşır miski ve nane aromalı Iso-E içeriyor.\n\nKullanmayı seviyorum ama hikaye anlatan veya başkalarının dikkatini çeken bir koku değil. Sadece çok hijyenik kokacaksınız.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.690095.jpg"
+    },
+    {
+      "id": "parent720741",
+      "author": "Mjaut",
+      "date": "2017-01-21",
+      "text": "Ben Titan'ım! :)\n\nÇünkü bu Freud parfümünü birkaç kez sıktım. :) Sanki Toprak Ana Gaia ve gökyüzü tanrısı Uranüs bu parfümü doğurmuş gibi. Saf ve göksel olanla, evet, biraz kirli ve dünyevi olanın inanılmaz bir birleşimi hissi.\n\nBazı yorumlarda neden temiz bir adam gibi kokmak için para ödendiğini sorgulayanlar var, ancak bizim \"temiz adam\" parfümümüzün vetiver, misk ve sandal ağacı içerdiğini belirtmekte fayda var. Yani adam temiz, ama bir süredir soğuk ve nemli toprakta oturuyor. :) Bu koku gerçekten harika. Kesinlikle çok memnunum.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.193872.jpg"
+    },
+    {
+      "id": "parent720713",
+      "author": "JoeMacchiato",
+      "date": "2016-03-26",
+      "text": "Yaz kokusunda tütsü, buhur ve karabiber mi? Bu doğru nota kombinasyonu mu? L'Eau Froide'i kokladığınız anda, bu muhteşem kokuyu harmanlamak için harcanan harika emeği anlayacaksınız.\n\nNarenciye yolunu izlemeyen, gerçekten dahiyane bir yaz kokusu. Serge Bey'e, ferahlatıcı kokular denizinde öne çıkan hafif bir koku çıkardığı için büyük saygı duyuyorum.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.441736.jpg"
+    },
+    {
+      "id": "parent720732",
+      "author": "Alexandra",
+      "date": "2016-03-20",
+      "text": "Serge Lutens'in 2011 yılında yarattığı bu eser, yazarın bizi alıştırdığı gotik, ikonoklastik ve saygısız atmosferlerden uzaklaşıyor.\nLutens, renklerin ve ışık-gölge oyununun bir kaleydoskopu gibidir; ancak bence suyun kristal berraklığındaki şeffaflığı ona yakışmıyor.\nÖncelikle şunu söylemeliyim ki, bazı eserlerini (Fille en Aiguilles, Borneo 1834, Sandal de Mysore) gerçekten çok seviyorum, diğerleri ise beni oldukça şaşırtıyor, özellikle de içeriği %100 kimyasal olduğunda. Bu örnekte olduğu gibi.\nÖzetle: L'Eau Froide'i denemek için parfüm dükkanına gittim, önce bir test kağıdına, sonra da iki bileğime sıktım. Bir saat sonra eve geldim ve oğlum bana, \"Anne, bu deterjan kokusu ne? Yoksa babanın tıraş kremi mi...?\" diye sordu.\nKutsal masumiyet!\nKral çıplak.\nParfüm, ozonlu/deniz notalarıyla açılıyor ve diğer kompozisyonlarda bulunan taze, yeşil nanenin karikatürize edilmiş bir versiyonu olan hafif bir nane dokunuşu içeriyor. Bunlar, seri üretim kişisel bakım ürünlerini anımsatan, rahatsız edici notalar. Elbette bu tür parfümlerin hayranları var, ancak benim cildimde gerçekten sıradan, rahatsız edici derecede sabunsu bir his bırakıyorlar.\nPeki ya tütsü? Kimyasal bir tat bırakıyor: günlük reçinesinden çok farklı, tütsü özünden ise çok daha uzak...\nTütsü, insanı sarhoş eden ve neşelendiren karakteristik soğuk dumanıyla, cezbedici olmalıdır. Lutens ise bunun yerine \"beyazlatılmış\", yassı ve heyecansız bir tütsü seçiyor.\nSadece bir saat sonra, koku dört farklı sentetik misk türünün notalarıyla tamamen \"baskı altına giriyor\". Beyaz misk en baskın olanı: deterjan ve endüstriyel sabun kokularının kralı.\nYosun asla \"beyaz\" olmamalıdır: yeşil, koyu, topraksı, nemli, gizemlidir...\nBu notayı sevenlere sonsuz saygılarımı sunuyorum: Beni ikna etmiyor ve başımı ağrıtıyor.\nParfüm sürdüğümde, onu koklayan herkesin aklına temizlik veya çamaşır asan iyi bir ev hanımı fikrinden biraz daha karmaşık ve büyüleyici bir şey gelmesini hayal etmeyi seviyorum.\nDefne yaprağı, lavanta veya doğal limonun sade aromatik notaları bile yoğun beyaz misk kokusuna tercih edilir.\nŞişe ise tam tersine, çok güzel: tamamen şeffaf ve kristal yapılı, buz sarkıtına benziyor.\nNeyse ki, yaydığı koku çok rahatsız edici değil ve oldukça yüksek, belirgin bir kimyasal kalıcılığa sahip.\nBaşarısız bir parfümle kıyaslandığında sınıflandırılamayacak bir fiyat.\nKokuyu denemeden satın almanızı kesinlikle tavsiye etmiyorum; parfüm mutlaka cildinizde denenmelidir.\n\n\nParfüm 5/10\nAçılış 5.5/10\nOrta ve Kuru Koku 5/10\nYayılım 6/10\nAzim 8/10\nÇok yönlülük 6/10\nŞişe 8/10\nFiyat performans oranı 4/10",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.137.jpg"
+    },
+    {
+      "id": "parent720711",
+      "author": "becuille",
+      "date": "2014-12-26",
+      "text": "Yazın gelmesini dört gözle bekliyorum, böylece bunu sürekli kullanabileceğim. Sıcak havalar için mükemmel bir koku (kışın denemek muhtemelen hakkını vermez, ama şimdilik hayal edebiliyorum!).\n\nBu parfüm, ağzımda nane patlamasıyla açılıyor. Kısa süre sonra nane, su, ozonik bir ferahlık, deniz kenarı havası esintisine dönüşüyor. Sanki bir uçurumun tepesinden okyanus manzarası gibi.\n\nNane ve zencefil en belirgin aromalardır.\n\nParfümün kuruma aşamasının nasıl olacağını merak ediyordum çünkü tütsü, bu kadar soğuk bir parfümde garip bir dokunuş gibi görünüyordu. Ancak diğer birçok Lutens parfümünün aksine, asla aşırı odunsu bir hal almıyor, sadece hafif bir orman kokusu kalıyor. Benim üzerimde oldukça doğrusal bir koku bırakıyor, değişimler çok hafif.\n\nBu, denediğim en sade Lutens parfümü. Gerçekten de alışılmış kokularına hiç benzemiyor.\n\nBen sıcak havayı sevmeyen nadir insanlardan biriyim. Yazdan çok kışı tercih ederim ve hava normal bir insanın \"hoş bir şekilde sıcak\" diyeceği bir seviyeye indiği anda rahatsız olurum. Yaz aylarında parfüm kullanmak benim için zor olabilir çünkü birçok şey beni rahatsız eder. Bu parfüm sanki yaz ayları için benim için yapılmış gibi. Güneşin yakıcı olduğu zamanlarda serin hissetmeme gerçekten yardımcı olacak.\n\nKalıcılığı orta düzeyde (çoğu parfüme göre hafif, diğer Lutens parfümlerine göre orta). İki fısla yaklaşık 8 saat kalıcılık elde ettim.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.768337.jpg"
+    },
+    {
+      "id": "parent720742",
+      "author": "Marcin__",
+      "date": "2014-09-14",
+      "text": "L'Eau Froide'nin \"Lutens tarzı olmadığı\" yönünde yorumlar okudum. Ve tam tersine, ben de şunu söyleyeceğim: Çok Lutens tarzı. Bence sadece Sheldrake-Lutens ikilisi böyle bir şey yaratabilirdi.\n\nBu parfüm, bende tamamen tütsü kokusunu yansıtıyor. Farklı bir şekilde sunulmuş, evet, ama bu yaratıcıların amacıydı. Mükemmel bir sonuç ortaya çıkmış. Tütsünün kendisi, bence, ham; diğer tütsü kokularında olduğu gibi dumanı algılıyorum—ama burada farklı, mineral, reçineli tütsü kokusu alıyorum. Çok güzel bir şey. Daha sonra koku, taze ve tatlı bir notaya doğru kayıyor. Nane, deniz notaları ve zencefil giderek daha belirgin hale geliyor ve tütsü kokusu, tamamen olmasa da, sürekli olarak arka plana karışarak kayboluyor.\n\nKalıcılığı olağanüstü; cildimde 12 saatten fazla kaldı; bu kadar \"yeni\" bir üründen bu kadar iyi bir sonuç beklemiyordum. Yayılımı ise oldukça ortalama.\n\nBence L'Eau Froide, şimdiye kadar denediğim en çok yönlü Lutens parfümü. Yıl boyunca kullanılabilecek bir koku ve yaz aylarında çok sayıda iltifat alıyorum.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent720738",
+      "author": "renat kuklin",
+      "date": "2014-07-03",
+      "text": "Kar Kraliçesi masalında bu donmuş suyun bir parçası Kai'nin canını yakmış olsaydı, neden karlı krallığa götürüldüğü anlaşılırdı. Bu mucizenin tadını çıkarmak için her yere giderdim ve Megan Fox'a benzeyen Gerda bile beni kurtaramazdı. Tuzlu deniz suyundan oluşan bir buz küpündeki enfes zencefil, ilk birkaç saat boyunca büyülü geliyor. Tokyo İmparatorluk Bahçesi'ndeki bahar gibi. Serin ve yüce. Buz yavaş yavaş eriyor, vücudun yavaş ateşiyle ısınıyor ve aroma ısınarak vetiver ve tütsünün güneş senfonisine dönüşüyor. Hatta sandal ağacının hafif bir kokusunu bile alabiliyorsunuz. Sadece bir dahi veya Serge Lutens, bu kadar farklı yaklaşımları -buz ve ateş- tek bir şişede birleştirebilirdi. Hayranlıkla eğiliyorum.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.84626.jpg"
+    },
+    {
+      "id": "parent720743",
+      "author": "grudzienszal",
+      "date": "2014-04-23",
+      "text": "Lutens'in ustasından enfes bir koku. Tamamen unisex – bir yandan kararlı ve özgün, diğer yandan narin ve ferah. Cildimde nasıl geliştiğini, beni nasıl sardığını, en ufak bir hareketle saçımı nasıl kokulandırdığını çok seviyorum. Başlangıçta güçlü baharatlı ve erkeksi olan koku, zamanla yumuşayarak, nane ve zencefilin keskinliğiyle yoğunlaşan, taze bergamot ve tatlı mandalina notalarını ortaya çıkarıyor. Hepsi deniz suyu dalgaları üzerinde sunuluyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.5370.jpg"
+    },
+    {
+      "id": "parent720744",
+      "author": "perfumeholic88",
+      "date": "2014-03-20",
+      "text": "Bu kokuyla karşılaşmadan önce bile özel bir şey olduğunu biliyordum ve haklıydım. Lutens her zamanki gibi katı sınırları zorlayan bir kompozisyon yaratmış. Burada, güçlü, taze nane ve hafif bir deniz esintisiyle, uzaktan gelen hafif bir biber dokunuşuyla ve tüm bunların ince bir tütsü ve bir tutam olibanum ile tatlandırıldığı, görünüşte yeni bir koku var. Eşsiz bir kombinasyon.\nKokusu taze, neredeyse buz gibi ferah ve şaşırtıcı. Hem kadınlar hem de erkekler için yaz aylarına mükemmel uyum sağlıyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.222.jpg"
+    },
+    {
+      "id": "parent720715",
+      "author": "Buysblind",
+      "date": "2013-01-22",
+      "text": "L'Eau Froide, hafif ve ferahlatıcı nane notaları üzerinde biberli limon notalarıyla (limon, olibanumdan geliyor) açılıyor. Sonuç, keskin, reçineli bir kenarı olan soğuk, ferahlatıcı bir koku. Sanırım herkesin tanıdığı \"deniz suyu\" akoru bu. Kurudukça, vetiver, hafif ila orta gövdeli bir tütsü ile birlikte ortaya çıkıyor ve bu da biraz dumanlılık ve genel koku izleniminde bir değişiklik getiriyor. Bu, yaklaşık 4 saat sonra gerçekleşiyor ve ömrünün geri kalanında devam ediyor, yaklaşık 6 saat sonra neredeyse tamamen kayboluyor.\n\nL'eau Froide, oldukça serinletici ve hiç de ağır olmayan yapısıyla yaz ayları için oldukça uygun görünüyor. Ancak bu, zayıf olduğu anlamına gelmiyor. İyi bir yayılıma sahip ve sağlam, güçlü bir yapısı var. Başka bir deyişle, hafifliğine rağmen notalar ince, uçucu veya düz değil.\n\nSerge Lutens'i risk alıp markanın alışılmışın dışında bir şey yaratmasından dolayı tebrik ediyorum. Bu sefer başarılı bir şekilde yapılmış ve sonuç olarak Lutens ürün yelpazesine çeşitlilik katmış.\n\nBu, rahat ve kolay giyilebilen bir ürün.\n\nNane, reçine ve tütsü notalarıyla oluşturulmuş serinletici ve ferahlatıcı bir yaz kokusu arıyorsanız L'eau Froide'i düşünebilirsiniz.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.52178.jpg"
+    },
+    {
+      "id": "parent720736",
+      "author": "Dolorosa",
+      "date": "2012-02-20",
+      "text": "Lutan'ın önceki \"Water\" parfümüne göre daha az sıradan. Başlangıçta biraz tıbbi bir koku gibi geliyor: anason ve nane, diye düşündüm, ama sonra güzel, hafif tatlı, buz gibi bir kokuya dönüşüyor... ve gerçekten de soğukta böyle kokuyor!\nDoğru, Comme des Garçons'un \"Zagorsk\" parfümünde kış notaları bana hala daha doğal geliyor: orada kar var. Şişeye hapsedilmiş gibi kar ve ıslak toprak kokusu.\nBurada da kar gibi bir ferahlık var, ancak tütsü, vetiver ve karanfil notalarıyla yapay olarak yeniden yaratılmış olduğu açıkça belli. Koku, sadeliğine rağmen güzel. Sadece Lutens kadar güzel değil. Ve fiyatı da buna uymuyor. Kalıcılığı da ne fiyata ne de isme yakışmıyor.\nSerge Bey bu \"sular\" yerine parfüm yapsaydı daha iyi olurdu. Kendisi su bazlı kokulardan ziyade baharatlı ve çiçekli kokularda daha başarılı.\nAma bu tamamen benim kişisel görüşüm.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.1822.jpg"
     }
   ]
 }

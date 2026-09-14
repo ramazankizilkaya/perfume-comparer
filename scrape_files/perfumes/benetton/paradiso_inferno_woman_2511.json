@@ -49,6 +49,10 @@
     {
       "name": "laktonik",
       "width": "56.9675%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -82,57 +86,37 @@
     "base": [
       "Vanilya",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "2",
-    "moderate": "7",
-    "longLasting": "2",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "7",
-    "strong": "2",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "1",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "2",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ANİMALE",
-      "name": "Animale Temptation"
-    },
-    {
-      "brand": "BENETTON",
-      "name": "Paradiso Inferno Man"
-    },
-    {
-      "brand": "PRİNCE",
-      "name": "3121"
-    },
-    {
-      "brand": "CALVİN KLEİN",
-      "name": "Beauty"
-    },
-    {
-      "brand": "JUİCY COUTURE",
-      "name": "Viva la Juicy Gold Couture"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -194,5 +178,6 @@
       "brand": "LOLİTA LEMPİCKA",
       "name": "L de Lolita Lempicka"
     }
-  ]
+  ],
+  "comments": []
 }

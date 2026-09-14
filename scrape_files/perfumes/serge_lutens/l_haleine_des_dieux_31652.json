@@ -49,6 +49,34 @@
     {
       "name": "bitkisel",
       "width": "49.529%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,33 +114,78 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "7",
+    "moderate": "13",
+    "longLasting": "18",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "14",
+    "moderate": "13",
+    "strong": "18",
+    "enormous": "14"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "6",
+    "unisex": "22",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "9",
+    "overpriced": "5",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Ambre Sultan"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Amber Absolute"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Le Lion Eau de Parfum"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Bois d'Armenie"
+    },
+    {
+      "brand": "LUSH",
+      "name": "Pansy"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Arabie"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Epic Woman"
+    },
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Complex"
+    },
+    {
+      "brand": "CHRİSTİAN LOUBOUTİN",
+      "name": "Trouble in Heaven"
+    },
+    {
+      "brand": "FORT & MANLE",
+      "name": "Amber Absolutely"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Material"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -127,12 +200,12 @@
       "name": "Spiritueuse Double Vanille"
     },
     {
-      "brand": "DİOR",
-      "name": "Dune"
-    },
-    {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Musc Ravageur"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dune"
     },
     {
       "brand": "SERGE LUTENS",
@@ -143,12 +216,12 @@
       "name": "Fille en Aiguilles"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Cuir Béluga"
-    },
-    {
       "brand": "SERGE LUTENS",
       "name": "Fumerie Turque"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Cuir Béluga"
     },
     {
       "brand": "LALİQUE",
@@ -174,5 +247,6 @@
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

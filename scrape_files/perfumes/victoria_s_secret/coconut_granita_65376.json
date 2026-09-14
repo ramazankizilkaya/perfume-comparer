@@ -73,46 +73,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "4",
-    "moderate": "3",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "3",
-    "strong": "2",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "12",
-    "moreFemale": "3",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "4",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "CREED",
-      "name": "Virgin Island Water 2007"
-    },
-    {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Blissful Fantasy"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Coconut Fizz"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BATH & BODY WORKS",
@@ -174,5 +161,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue Eau Intense"
     }
-  ]
+  ],
+  "comments": []
 }

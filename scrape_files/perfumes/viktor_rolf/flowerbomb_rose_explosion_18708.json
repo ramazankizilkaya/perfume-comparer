@@ -49,6 +49,34 @@
     {
       "name": "yumuşak baharatlı",
       "width": "50.7%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -92,33 +120,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "13",
+    "weak": "6",
+    "moderate": "18",
+    "longLasting": "37",
+    "eternal": "59"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "14",
+    "moderate": "18",
+    "strong": "59",
+    "enormous": "65"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "20",
+    "moreFemale": "5",
+    "unisex": "6",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "13",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Oud Satin Mood"
+    },
+    {
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Soprano"
+    },
+    {
+      "brand": "PERRY ELLİS",
+      "name": "Saffron Rose Absolute"
+    },
+    {
+      "brand": "AVON",
+      "name": "Premiere Luxe Oud for Her"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Velvet Rose & Oud"
+    },
+    {
+      "brand": "KAYALİ FRAGRANCES",
+      "name": "Sweet Diamond Pink Pepper 25"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Privé Rose d'Arabie"
+    },
+    {
+      "brand": "ANGEL SCHLESSER",
+      "name": "Absolute Oriental"
+    },
+    {
+      "brand": "CREED",
+      "name": "Carmina"
+    },
+    {
+      "brand": "S-PERFUME",
+      "name": "100% Love"
+    },
+    {
+      "brand": "JENNİFER LOPEZ",
+      "name": "Love & Glamour"
+    },
+    {
+      "brand": "AERİN",
+      "name": "Amber Musk d'Or"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb"
+    },
+    {
+      "brand": "BLEND OUD",
+      "name": "Oud Sapphire"
+    },
+    {
+      "brand": "AİNASH PARFUMS",
+      "name": "Rosewood Elixir"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -180,5 +269,6 @@
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

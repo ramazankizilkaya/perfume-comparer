@@ -16,59 +16,87 @@
     },
     {
       "name": "sıcak baharatlı",
-      "width": "84.9259%"
+      "width": "84.267%"
     },
     {
       "name": "tatlı",
-      "width": "74.1387%"
+      "width": "76.4235%"
     },
     {
       "name": "vanilya",
-      "width": "70.9822%"
+      "width": "70.1302%"
     },
     {
       "name": "kakao",
-      "width": "69.0982%"
+      "width": "67.8502%"
     },
     {
       "name": "tütün",
-      "width": "52.6109%"
+      "width": "57.3618%"
     },
     {
       "name": "balsamik",
-      "width": "52.5403%"
+      "width": "52.14%"
     },
     {
       "name": "tarçın",
-      "width": "49.7845%"
+      "width": "50.5214%"
     },
     {
       "name": "bal",
-      "width": "48.8425%"
+      "width": "49.6093%"
     },
     {
       "name": "pudralı",
-      "width": "47.6883%"
+      "width": "47.4659%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.47",
-    "votesCount": "542",
+    "score": "4.46",
+    "votesCount": "545",
     "breakdown": {
       "love": "371",
-      "like": "108",
+      "like": "110",
       "ok": "28",
-      "dislike": "15",
+      "dislike": "16",
       "hate": "20"
     }
   },
   "seasons": {
-    "winter": "382",
-    "spring": "216",
-    "summer": "54",
-    "autumn": "349",
-    "day": "166",
-    "night": "346"
+    "winter": "385",
+    "spring": "218",
+    "summer": "55",
+    "autumn": "353",
+    "day": "168",
+    "night": "349"
   },
   "notes": {
     "top": [
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "12",
+    "weak": "14",
+    "moderate": "107",
+    "longLasting": "270",
+    "eternal": "37"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "24",
+    "moderate": "107",
+    "strong": "153",
+    "enormous": "22"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "16",
+    "moreFemale": "1",
+    "unisex": "38",
+    "moreMale": "137",
+    "male": "268"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "15",
+    "overpriced": "6",
     "fair": "28",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "116",
+    "greatValue": "270"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Parfum Reserve Privée"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2011"
+    },
+    {
+      "brand": "AL WATANİAH",
+      "name": "Kayaan Classic"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "INEKAS LUNA"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Parfum"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Uomo Intense 2021"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Dark Door Intense"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "His Confession"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Parfum Boisée"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Genuine Man Giovany Reserve"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Exquisite Privé"
+    },
+    {
+      "brand": "LANSY",
+      "name": "Elan"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "A*Men Pure Havane"
+    },
+    {
+      "brand": "LANVİN",
+      "name": "Arpege Pour Homme"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "L'Aventure Iris"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -139,12 +228,12 @@
       "name": "Le Male Elixir"
     },
     {
-      "brand": "AFNAN",
-      "name": "9pm"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Bade'e Al Oud Honor & Glory"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Qaa'ed"
+      "brand": "AFNAN",
+      "name": "9pm"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -164,19 +253,221 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Ameer Al Oudh Intense Oud"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
       "name": "Qaed Al Fursan"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Al Nashama Caprice"
+      "name": "Ameer Al Oudh Intense Oud"
     },
     {
       "brand": "RASASİ",
       "name": "Hawas for Him"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Al Nashama Caprice"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent666743",
+      "author": "aphex-twin-pije-gin",
+      "date": "2026-01-18",
+      "text": "Parfümün notalarında hiç iris olmaması nasıl mümkün olabilir? O kadar sevimli, kaliteli likör ve vanilya ile tatlandırılmış bir iris ki, kendimi sıkıca kucaklayıp nefesim kesilene kadar içime çekmek istiyorum. Aynı zamanda, bir ofis toplantısında bunu takarsam kendimi çok profesyonel hissederdim. Elimdeki numunenin olağanüstü parametreleri yok ve bu kokuyu \"aramak\" zorundayım, ama her burnuma değdiğinde moralimi yükseltiyor. Bu DNA'ya hayran kaldım ve sanırım yakında kendime bir Zhivashi edinebileceğim, çünkü görünüşe göre bu lattafa sadece imha yoluyla elde edilebiliyor. Mağazalarda orijinalinden daha pahalı - şaka değil.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.92952.jpg"
+    },
+    {
+      "id": "parent666667",
+      "author": "FBorde",
+      "date": "2025-06-28",
+      "text": "Parfümeride, maserasyon ve olgunlaştırma, nihai kokuya katkıda bulunan farklı süreçlerdir. Maserasyon, koku yağlarının bir çözücü (genellikle alkol) ile ilk karıştırılmasıdır; olgunlaştırma ise kokunun zaman içinde gelişip uyum sağladığı sonraki yaşlanma sürecidir. Lütfen, parfümcü değilseniz ve gerçekten yeni bir koku yapmıyorsanız, \"maserasyon\" terimini kullanmayı bırakın. Olgunlaştırma, yaşlanma sürecidir.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent666676",
+      "author": "Morenoetrata",
+      "date": "2025-05-14",
+      "text": "@Detman101 birkaç yorum aşağıda Qaa'ed Intense'in birkaç ay bekletildikten sonra ne kadar değiştiğini MÜKEMMEL bir şekilde anlatmış! Yani Vay canına! İlk olarak birkaç ay önce kullandıktan sonra bir kenara koydum ve bugün tekrar denediğimde ŞİMDİ çok belirgin bir şekilde \"Mumsu Ruj İrisi\" gibi kokuyor ve artık çok çikolatalı! Ayrıca ilk denediğim zamana göre daha güçlü ve hatta daha tatlı! Muhteşem bir dönüşüm!\n\nŞimdi Dior H Intense'den çok daha fazla beğeniyorum, daha zengin, daha incelikli, daha güçlü, inanılmaz! Ayrıca Al Wataniah'ın Kayaan Classic'ini (DHI klonu) de kullanıyorum ve Qaa'ed Intense onu her açıdan geride bırakıyor! Kayaan Classic'i daha da uzun süredir kullanıyorum, bu yüzden Qaa'ed Intense'den daha uzun süre \"olgunlaşma\" şansı buldu. Oldukça \"pahalı\" kokmasına rağmen bu kadar ucuz olması inanılmaz. Ayrıca, ben şahsen zeytin yeşili-Dunhill tarzı şişeyi çok seviyorum! Bence çok şık görünüyor ve bu MUHTEŞEM kokuya çok yakışıyor. Sanırım Qaa'ed Intense'in HER ŞEYİNİ seviyorum diyebilirim 🤔😜 Bence 10 üzerinden 8,5 puanlık bir koku ve bu 8,5 puan SADECE çok yönlü olmadığı için. Yani, Iris, DHI veya Givenchy Gentlemen'ı seviyorsanız... Bize güvenin ve bunu alın, böylece günlük kullanım veya hatta imza kokunuz olarak kullanabilirsiniz, sonra orijinalini özel/lüks geceler için saklayabilirsiniz, sadece 1-2 ay \"olgunlaşmasına\" izin verin, kesinlikle buna değer 🌙🫡!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2114753.jpg"
+    },
+    {
+      "id": "parent666668",
+      "author": "GameSpitta",
+      "date": "2025-04-03",
+      "text": "Bu harika bir şey.\nGerçekten harika.\nTıpkı içinde çift espresso ve puro bulunan devasa bir granit kaya parçası gibi; işte o türden kayalar.\n\nBal ve tarçının ani bir patlamasıyla açılıyor ve sizi yakalayıp \"Bugün incelikli bir şey yapmıyoruz\" diyor. Ardından, bir şekilde aynı anda hem tehlike hem de tatlı kokan, rahatlatıcı ve zengin bir vanilya-kakao girdabına dönüşüyor. Kuruma aşaması mı? Amber, labdanum ve styrax'ın sonsuza dek süren yavaş, dumanlı bir dansı.\n\nAğır. Tatlı. Baharatlı. Erkeksi. Sarsılmaz.\n\nBu bir koku değil. Bu devasa bir granit parçası.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2393675.jpg"
+    },
+    {
+      "id": "parent666678",
+      "author": "Detman101",
+      "date": "2025-03-24",
+      "text": "Bu parfümü, şişeyi bir yıldan fazla önce aldıktan sonra ikinci kez kullanıyorum.\nİlk aldığımda, bunun neyinin bu kadar iyi olduğunu bir türlü anlayamadım... bu yüzden bir kenara koydum.\nBugün, eski kısa şişemdeki 2013 \"Dior Homme\" parfümümü sürdükten sonra, sadece eğlenmek için onu çıkardım. O parfümü en son 2 yıldan fazla önce kullanmıştım ve o pudralı, kuru iris ve deri kokusunu yeniden hissetmek istiyordum.\nNeyse, ikisini karşılaştırmak için \"Qa'aed Intense\" şişesini çıkardım ve her iki dirseğimin iç kısmına birer fıs sıktıktan sonra... benzerlikleri fark ettim!\n\"QI\", \"DH\"ye çok benziyor ama daha tatlı... daha güçlü... ve daha yoğun!\n\"DH\" ile harika bir uyum sağlıyor ve \"DH\"nin o sert deri dokusunu istemediğim günler için kesinlikle \"QI\"yi tercih edeceğim.\n\"QI\" ayrıca çok daha güçlü bir koku profiline sahip... geniş bir koku yayılımı ve izi oluşturmak için çok daha az püskürtme yeterli!\n\nHoş bir sürpriz oldu ve diğer parfümlerle birlikte kullanmayı denemek için sabırsızlanıyorum.\nİyi ki burayı elden çıkarmadım.\n\n08/10",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1374575.jpg"
+    },
+    {
+      "id": "parent666699",
+      "author": "Augusto68",
+      "date": "2025-03-19",
+      "text": "Zarif bir koku, doğru kıyafetlerle mükemmel uyum sağlıyor. Açıkça içki notaları belirtilmese de, en azından bir süreliğine o hissi alıyorum. Muhtemelen notaların birleşiminden kaynaklanıyor; bulması zordu ve kesinlikle Gentleman Privé DNA'sını taşıyor. İris de belirtilmemiş ama orada ve fark ediliyor. Üzerimde altı saatten fazla kaldı ve en az iki saat boyunca yayılım gösterdi. Muhtemelen pH ile ilgili bir durum. Bu tür bir performans beklemiyordum, ama sonunda üzerimde bu kadar iyi sonuç verdiği için minnettarım. Araplar harika iş çıkarıyor; umarım dağıtımcılar talebin ($$$) etkisiyle kendilerini kaptırmazlar.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.202942.jpg"
+    },
+    {
+      "id": "parent666720",
+      "author": "Novalove",
+      "date": "2025-01-12",
+      "text": "Mükemmel bir erkek parfümü. Denemeden de rahatlıkla satın alabilirsiniz. TK, Givenchy ve Dior'un bir karışımı. İkisini birlikte sıktığınızda Qaa'ed Intense ortaya çıkıyor. Orta derecede tatlı bal, kakao, tarçın, vanilya ve alkol notalarıyla açılıyor. Givenchy'den geliyor. Her şey birbirini bastırmadan çok uyumlu. Ardından Dior'dan gelen odunsu ve iris notalarına geçiş yapıyor. Kalıcılığı ve yayılımı çok iyi değil ve 2200 ruble biraz pahalı olabilir. Ama seve seve tekrar satın alırdım ve Rusya'da artık bulunmaması üzücü.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent666671",
+      "author": "Morenoetrata",
+      "date": "2025-01-03",
+      "text": "Tamam, Lattafa Qaa'ed Intense'in 18,99 dolara satılmasının hiçbir mantığı yok!! Ne saçmalık!? Sanırım orijinalinde biraz daha kalite var, ama fiyat farkı inanılmaz ve bana sorarsanız, bu tür parfümlerin ilham aldığı orijinal parfümlerin biraz açıklama yapması gerekiyor! Ama ciddi olarak, bu en azından \"üst düzey tasarımcı kalitesinde\" kokuyor. Aslında, orijinaliyle (GGRP) birebir aynı olmaması ve kendi yolunu izlemesi hoşuma gitti.\n\nPerformansı inanılmaz (ve bu daha maserasyondan önce), hatta havalı şişesine bile bayıldım! Kapağı bile ağır ve alüminyum plakalı suni deri kutusu, bazı çok pahalı tasarımcı ve niş parfümlerin sunumlarından bile daha güzel!\n\nBu inanılmaz derecede uygun fiyatı, kaliteli likiti ve ambalajını (ki bence bunun pek önemi yok) göz önünde bulundurarak, Lattafa'nın Qaa'ed Intense'ine 10 üzerinden sağlam bir 9 veriyorum! Muhteşem bir koku (Ucuz klon olsun ya da olmasın!) Bu harika koku hakkındaki düşüncelerimi okumaya zaman ayıran herkese teşekkürler (ve o pahalı tasarımcılara... NOT ALIN LANET OLSUN!) Parfümlerinizi MAKUL FİYATLANDIRIN! Ve arkadaşlar, bu harika \"klon/esinlenilmiş\" parfümlere nefret etmeyi bırakın ve partiye katılın! Snob arkadaşlarınıza söylemenize gerek yok! Lmao!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2114753.jpg"
+    },
+    {
+      "id": "parent666710",
+      "author": "Rad Ox",
+      "date": "2024-11-13",
+      "text": "Öncelikle şunu söyleyelim ki, Qaa'ed Intense, Givenchy Gentleman Reserve Privée'nin (ki ona bayılıyorum) birebir kopyası değil, daha ziyade kuruma aşamasında bazı notalarını anımsatan, ancak iki veya üç farklı kokunun bir karışımı olarak sınıflandırılması daha doğru olan bir parfüm. Reserve Privée'nin en belirgin notaları viski ve kestanedir ve bunlar Lattafa'da tamamen yok. Bu, Donald Trump gibi giyinmek istediğimi ama imkansız peruk ve turuncu makyaj olmadan bunu yapmak istediğimi söylemek gibi olurdu: Ben Donald Trump olmazdım. Tam olarak bu notaların yokluğu, Qaa'ed Intense'i Givenchy'den daha az sıcak, zarif ve sofistike kılıyor, ancak bu onu küçümsediğim anlamına gelmiyor: Şüphesiz o havayı yansıtan harika bir parfüm ve ben ona tamamen bayılıyorum.\n\nDior Homme Intense veya Valentino Uomo Intense tarzında, bal ve tütünün hissedildiği, ancak beklenenden daha az belirgin olduğu, oldukça pudralı bir açılış. Parfüm piramidinde belirtilmeyen bir iris ipucuyla birlikte pudralılık, vanilya, çikolata ve amberin dengeli bir şekilde birleştiği son notalara kadar giderek azalıyor. Kesinlikle tatlı, ancak bayıcı olmaktan uzak, aynı zamanda zarif (yukarıda belirtildiği gibi Givenchy'den daha az olsa da) ve sıcak bir koku. Batılı tasarımcılardan ilham almayan \"saf\" Arap parfümlerinden çok farklı olarak, belirgin bir Batı DNA'sına sahip, ancak herhangi bir \"kirlenme\" içermiyor. Sonbahar/kış/ilkbahar için, gündüz bile uygun buluyorum, ancak akşamları, tercihen çok rahat kıyafetlerle değil, daha iyi duruyor: Mavi kot pantolon, kapüşonlu sweatshirt ve Air Jordan ayakkabılarla gerçekten uyumsuz olacağını düşünüyorum. Kız arkadaşınızla buluşmalar ve dışarı çıkmalar için mükemmel bir koku.\n\nCildimde 7-8 saatten fazla, kıyafetlerimde ise biraz daha uzun süre kalıyor. Dans pistlerini dolduran abartılı kokuları sevenler dikkat: İlk iki saat boyunca koku neredeyse hiç hissedilmiyor, daha sonra çok hafif ve 1 metreden daha uzaktan algılanamaz hale geliyor. Kişisel alan da çok hassas: Kokuyu tüm süre boyunca sürekli hissediyorum, ancak ilk saat hariç, her zaman çok hafif, sanki orada olan ve olmayan, dönüşümlü olarak unutulmaya yüz tutan ve sonra bir süre sonra tekrar ortaya çıkarak hala sizinle birlikte olduğunu hatırlatan bir şey gibi.\n\nMaalesef, anladığım kadarıyla (ve yanıldığımı kanıtlamaktan mutluluk duyarım), Qaa'ed Intense Lattafa tarafından üretimi durdurulmuş ve piyasada kalan birkaç örneği, parfümerideki en iyi fırsatlardan biri olmasını sağlayan 15-20 €'dan daha pahalıya satılıyor. Ben 44 € ödedim, ama yine de çok memnunum. Eğer hala bulabiliyorsanız ve bu notaları seviyorsanız, denemeden almanızı şiddetle tavsiye ederim (ki bunu çok nadiren yaparım).",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.86436.jpg"
+    },
+    {
+      "id": "parent666716",
+      "author": "Rymato",
+      "date": "2024-10-09",
+      "text": "Reserve Privée ile karşılaştırıldığında: başlangıç ​​çok benzer değil, \"alkollü\" bir akor yok, ancak yarım saat sonra Qaa'ed, daha fazla çikolata ve biraz baharat eklenmiş Givenchy'ye neredeyse benziyor.\nİki saat boyunca demlendikten sonra, Reserve Privée biraz daha odunsu, Qaa'ed ise daha baharatlı/tütünlü bir kokuya bürünüyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.389457.jpg"
+    },
+    {
+      "id": "parent666695",
+      "author": "marsupial",
+      "date": "2024-08-20",
+      "text": "ChrisChile'ın hangi parfümü denediğini bilmiyorum ama bu Qaa'ed Intense, Reserve Privée'ye çok benziyor ve ben de ikisine de sahip olduğum ve yan yana denediğim için bunu doğrulayabilirim. Farklılıklar: Givenchy'nin açılışı daha alkollü ve sıcak, hatta biraz pudralı iken, Qaa'ed biraz daha ferah, bana deriyi hatırlatan ama biraz plastikimsi bir deri notası içeriyor; bu his birkaç dakika sonra kayboluyor, ancak Givenchy ile aynı DNA'yı koruyor. Parfümün kalıcılığı boyunca, Gentleman daha güçlü, daha dolgun ve biraz daha tatlı hissettirirken, Qaa'ed biraz daha az yoğun hissettiriyor, bu da bu kokuya daha fazla çok yönlülük kazandırabilir. Ancak bunlar gerçekten minimal farklılıklar çünkü çok benzer kokular. Kalıcılık oldukça benzer, 7-8 saat, her iki parfümde de daha kişisel bir etki alanı var. Kesinlikle Reserve Privée'nin çok başarılı bir taklidi.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent666740",
+      "author": "duchobor",
+      "date": "2024-08-08",
+      "text": "Vay vay vay. Givenchy Gentleman Reserve Privée'nin çok ilginç bir klonu. Daha doğrusu, bir ilham kaynağı, çünkü bu durumda \"klon\" terimi biraz abartılı. Ama buna birazdan değineceğiz.\nÖncelikle şunu söylemeliyim ki, parfümün kokusu test kağıdında hissedilen koku ile doğrudan cilde sıkılan koku arasında farklılık gösteriyor. Bunun pH değerimden, vücut sıcaklığımdan veya burcumdan mı kaynaklandığını bilmiyorum ama benim deneyimim bu yönde. İkincisi, içerik listesinde neden iris ve alkollü bir içecek (viski, rom) bulunmadığını anlamıyorum. Bu iki nota da baskın görünüyor, yani deneyim Reserve Privee'ye benziyor.\nFarklılıklar iki açıdan belirgindir: 1. RP'deki alkol (viski) daha kuru ve daha yüksek kalitedeyken, Qaa'ed Intense'deki alkol daha ucuz bir versiyon gibi görünüyor; ancak bilekteki izlenimler, \"rom\" tarafına daha yakın olan ve Bentley Intense'den daha tanıdık gelen, ancak o kadar \"kaba\" olmayan, test kağıdındaki izlenimlerden çok daha hoş. 2. Ancak bitiş farklıdır. RP'de meşe fıçısının izlenimini veren odunsu notalar ve kehribarın sıcaklığı vardır. Lattafa'daki bitiş ise Gentleman EDP'ye biraz daha yakındır; mür, styrax ve narin vanilyanın hoş, saran, balzamik bir karışımı. Ayrıca Dior Homme Intense'i akla getirebilecek hafif bir pudra notası (iris) da var. Ve alkol notası uzun süre kalıyor, bazen arka planda kalıyor, bazen de ön plana çıkıp baskın oluyor. Bu yönü nedeniyle bu parfüme benden hafif bir eksi puan geliyor. Performans mı? Reserve Privee'den bile daha iyi görünüyorlar.\nHava biraz soğuyunca daha yoğun bir şekilde test edip sonra düzenleyeceğim. İlk izlenimlerim doğrulanırsa, fiyatı çok cazip olduğu için 100 ml'lik bir şişe alabilirim.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.73675.jpg"
+    },
+    {
+      "id": "parent666696",
+      "author": "Jorgeparfum14",
+      "date": "2024-06-01",
+      "text": "Lattafa Qaaed Intense, kehribar, pudra, kremsi, çikolata notaları içeren ve zarif bir koku... Givenchy Gentleman'ın (EDP ve Reserve Privée) DNA'sına oldukça çekici bir yorum getiriyor. DNA'sına çok benziyor, ancak benim burnuma göre Reserve Privée'den çok EDP'ye benziyor!\n\nQaaed Intense'in deri/iris/odun/tatlı dip notalarının daha yoğun olduğunu, EDP tarzına çok benzediğini ve Reserve Privée kadar çikolata/iris/likör/odunsu notalar içermediğini düşünüyorum!\n\nBir diğer önemli detay ise, kokunun sonlarına doğru, hafif bir şekilde solmaya başladığında, Benetton Colors Man Black Intenso'yu biraz andırabilir; ancak tam bir mücevher! Lattafa, Givenchy Gentleman EDP'nin özünü gerçekten yakalamış. Modern, cesur ve karakter dolu, saf bir klas yayan çok zarif ve erkeksi bir parfüm. Kişiliğinizi ortaya koymak ve bir ifade vermek istediğiniz özel günler için ideal.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.136609.jpg"
+    },
+    {
+      "id": "parent666709",
+      "author": "Atomicscent",
+      "date": "2024-04-05",
+      "text": "İki ay önce 15 €'ya kör alışverişle aldım ve inanılmaz bir hazineye sahip olduğumu fark ettim. Qaaed Intense, Givenchy Gentleman Reserve Privée'nin harika bir klonu. Pudralı iris, çikolata notası ve hafif bir alkol dokunuşuyla birleşiyor. Klonun orijinalinden daha iyi performans gösterdiği nadir durumlardan biri. Reserve Privée ile her zaman 5-6 saat kalıcılık elde ederken, Qaaed Intense en az 7 saat kalıcılık sağlıyor. Yaklaşık bir ay sonra ikna oldum ve orijinalini satıp bunu sakladım; pişman değilim.\n\n8.75/10",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.62072.jpg"
+    },
+    {
+      "id": "parent666747",
+      "author": "Marcos Campanhol",
+      "date": "2024-03-28",
+      "text": "Parfüm konusunda uzman değilim ama bu parfüm bal ve tütün notalarıyla gerçekten dikkatimi çekti. Bence dengeli bir koku, tatlı değil, Dior Homme Intense ile Gentleman'ın karışımını andırıyor. Benim için satın almaya değerdi; cildimde 9 saatten fazla kaldı, bu da beni şaşırttı.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent666672",
+      "author": "Kainoa08!",
+      "date": "2024-03-21",
+      "text": "Klon parfümlerin kokusunun insanlarda ne kadar farklı algılandığı komik. Bunun bir kısmı burunlarımızın farklı olmasından kaynaklanıyor, ama asıl sebep bence bir fıçıdan diğerine partilerin tutarsız olması. Bu kesinlikle bir iris kokusu... Buradaki çoğu insan Reserve Privee gibi algılıyor. Ben o benzerlikten zerre kadar bile alamıyorum. Benim şişem/burnuma göre Prada L'Homme Intense neredeyse %95 aynı. Tek fark, PLI'deki deri notasının olmaması... Derinin yerine az miktarda kakao alıyorum. Muhtemelen DHI diye düşünüyorsunuzdur... ama değil. Mumsu, makyaj gibi bir iris kokusu yok. Prada'nın sabunlu, temiz iris kokusuna sahip. Her neyse... BUNLARIN HEPSİNİ UNUTUN. Sonuç olarak, 25 dolara bu harika bir parfüm. Bu parfümü çok seviyorum! Sunumu da çok güzel. Dunhill'in ikonik şişesine benzeyen, güzel bir suni deri kutu içinde geliyor. Keşke 30 dolara aldığım her şey bu kadar güzel olsaydı... ya da daha iyisi, koleksiyonumdaki her parfüm için 30 dolar ödemiş olsaydım. Bu, sonbahar/kış/ilkbahar için çok kullanışlı bir koku. Hayvansal bir şey yok, garip bir şey yok, sadece güzel bir şişe ve güzel bir koku.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent666718",
+      "author": "Leshikhimik",
+      "date": "2024-03-07",
+      "text": "Givenchy Gentlemen serisinin iris kokularının hayranıyım. İlk izlenimlerim çok olumlu. Bence Gentleman EDP'ye çok benziyor, sanki orijinal Qaaed'den bir esinti eklenmiş gibi. Bu da iris kokusuna biraz daha rujsu bir hava katıyor, ama aynı zamanda biraz da keskin. Şişesi Qaaed Al Shabaab'ın (ki bu da Lattafa'dan kişisel favorilerim arasında) ikizi, ancak şişe ve ambalaj dışında hiçbir ortak noktaları yok. Ciltteki kalıcılığı şu an için Gentleman ile aynı seviyede ve Givenchy ile de aynı seviyede – paralel bir test. Lattafa büyüyor!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent666674",
+      "author": "OlfactoryArchitect",
+      "date": "2024-03-04",
+      "text": "Gentleman Privée için fazladan para ödemek istemiyorsanız, bu iyi bir alternatif. Bence yaklaşık %85-90 oranında aynı. Privée kadar dolgun veya derin değil. Daha pudralı, daha az tatlı ve daha az alkollü.\n\nBu parfümü sıktım ve eşimle kör test yaptım. Eşim hemen Gentleman Privée olmadığını anladı. Dürüst olmak gerekirse, Gentleman Reserve Privée'yi ilk çıktığı Mart 2022'den beri kullanıyorum, bu yüzden eşim kokuyu yakından tanıyor. Ama fiyatına göre oldukça yakın ve çok güzel kokuyor. Muhtemelen benzer övgüler alacaktır.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1308549.jpg"
+    },
+    {
+      "id": "parent666665",
+      "author": "Colossalscent",
+      "date": "2024-02-25",
+      "text": "Öncelikle, BU TAM BİR HAVANE KLONU DEĞİL, bununla hiçbir ilgisi yok. Qaaed Intense, GIVENCHY GENTLEMAN RESERVE PRIVEE'nin inanılmaz bir klonu, kelimenin tam anlamıyla %95 benzer. Orijinaline sahibim, ikisini yan yana karşılaştırdım ve farklar çok az. Qaaed Intense'deki viski notası biraz daha az belirgin ve genel olarak koku açılışta biraz daha az yumuşak, ancak kuruduktan sonra, onları ayırt etmek neredeyse imkansız, bu koku o kadar iyi ki, belki yakından Qaaed Intense'in orijinalinden biraz daha az yoğun olduğunu hissedebilirsiniz, ancak havada bunu fark etmeyeceksiniz. Performanslardan bahsedecek olursak, Reservee Privee hiç de güçlü bir koku değil, genellikle 5-6 saat kadar kalıcılık sağlıyor. Neyse, Qaaed Intense'i 1 ay önce aldım ve testlerimde her zaman orijinalinden daha uzun süre kalıcı oldu. 15€'ya harika bir klon, Reserve Privee'yi veya Dior Homme Intense gibi rujumsu iris notaları içeren kokuları seviyorsanız şiddetle tavsiye edilir.\n\n9/10",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1343736.jpg"
+    },
+    {
+      "id": "parent666701",
+      "author": "Cgb_spender",
+      "date": "2024-02-23",
+      "text": "Qaa'ed'in bu yeni versiyonunun açılışı %100 Dior Homme Intense ile aynı; ancak kuruma aşaması işleri değiştiriyor ve görünüşe göre Givenchy RP'ye benziyor. Givenchy RP'yi hiç koklamadığım için bunu doğrulayamam. Hala test aşamasındayım, ancak şu ana kadar olağanüstü olmasa da tatmin edici.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.47261.jpg"
     }
   ]
 }

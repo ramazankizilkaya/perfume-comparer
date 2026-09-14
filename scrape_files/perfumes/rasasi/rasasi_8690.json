@@ -47,18 +47,46 @@
       "width": "52.4969%"
     },
     {
-      "name": "iris",
+      "name": "vanilya",
       "width": "49.9011%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.84",
-    "votesCount": "89",
+    "score": "3.85",
+    "votesCount": "92",
     "breakdown": {
-      "love": "26",
+      "love": "28",
       "like": "41",
       "ok": "5",
-      "dislike": "16",
+      "dislike": "17",
       "hate": "1"
     }
   },
@@ -92,33 +120,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "3",
+    "moderate": "7",
+    "longLasting": "16",
+    "eternal": "26"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "7",
+    "strong": "24",
+    "enormous": "32"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "12",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ORİFLAME",
+      "name": "Giordani White Gold"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Rush"
+    },
+    {
+      "brand": "ANNE KLEİN",
+      "name": "Love, Anne"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Kobra"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Curious"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Verde"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Tobacco Honey"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Althaïr"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Luna Rossa Black"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Cornubia"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Lost Cherry"
+    },
+    {
+      "brand": "AL SHAREEF OUDH",
+      "name": "Yasameen"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Deci Dela"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Donna Born In Roma Coral Fantasy"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -149,12 +238,12 @@
       "name": "Chanel No 5 Parfum"
     },
     {
-      "brand": "JEAN COUTURİER",
-      "name": "Coriandre"
-    },
-    {
       "brand": "LANCÔME",
       "name": "Poeme"
+    },
+    {
+      "brand": "JEAN COUTURİER",
+      "name": "Coriandre"
     },
     {
       "brand": "CHANEL",
@@ -180,5 +269,6 @@
       "brand": "ELİZABETH ARDEN",
       "name": "5th Avenue"
     }
-  ]
+  ],
+  "comments": []
 }

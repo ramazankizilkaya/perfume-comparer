@@ -35,11 +35,11 @@
       "width": "65%"
     },
     {
-      "name": "çiçeksi",
+      "name": "odunsu",
       "width": "53.7736%"
     },
     {
-      "name": "odunsu",
+      "name": "çiçeksi",
       "width": "53.7736%"
     },
     {
@@ -49,15 +49,43 @@
     {
       "name": "toprak",
       "width": "45.849%"
+    },
+    {
+      "name": "Online satın alın 12 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.75",
+    "score": "3.74",
     "votesCount": "104",
     "breakdown": {
       "love": "15",
-      "like": "67",
-      "ok": "4",
+      "like": "66",
+      "ok": "5",
       "dislike": "17",
       "hate": "1"
     }
@@ -84,33 +112,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "10",
+    "weak": "13",
+    "moderate": "19",
+    "longLasting": "3",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "19",
+    "strong": "7",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "12",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "0",
+    "fair": "5",
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Gioia"
+    },
+    {
+      "brand": "CLEAN",
+      "name": "Clean Warm Cotton"
+    },
+    {
+      "brand": "PUPA",
+      "name": "Red Queen Citrusy Blossom"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -130,10 +171,6 @@
     },
     {
       "brand": "LANCÔME",
-      "name": "Trésor"
-    },
-    {
-      "brand": "LANCÔME",
       "name": "Miracle"
     },
     {
@@ -147,6 +184,10 @@
     {
       "brand": "LANCÔME",
       "name": "Poeme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
     },
     {
       "brand": "MUGLER",
@@ -172,5 +213,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Acqua di Gioia"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -66,58 +66,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "8",
-    "moderate": "18",
-    "longLasting": "8",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "13",
-    "moderate": "18",
-    "strong": "11",
-    "enormous": "16"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "8",
-    "moreFemale": "2",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "YVES ROCHER",
-      "name": "Cap Nature Sensations Boisees"
-    },
-    {
-      "brand": "M. MİCALLEF",
-      "name": "Glamour"
-    },
-    {
-      "brand": "DİLÍS PARFUM",
-      "name": "Majskaya Siren'"
-    },
-    {
-      "brand": "RALPH LAUREN",
-      "name": "Pure Turquoise"
-    },
-    {
-      "brand": "BOND NO 9",
-      "name": "High Line"
-    },
-    {
-      "brand": "IMAGİNARY AUTHORS",
-      "name": "The Language Of Glaciers"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BYREDO",
@@ -179,5 +154,6 @@
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

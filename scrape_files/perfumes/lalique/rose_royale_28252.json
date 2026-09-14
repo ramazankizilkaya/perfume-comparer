@@ -41,15 +41,43 @@
     {
       "name": "tatlı",
       "width": "48.7966%"
+    },
+    {
+      "name": "Online satın alın 11 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.02",
-    "votesCount": "308",
+    "votesCount": "309",
     "breakdown": {
       "love": "118",
       "like": "120",
-      "ok": "30",
+      "ok": "31",
       "dislike": "38",
       "hate": "2"
     }
@@ -79,33 +107,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "8",
+    "weak": "23",
+    "moderate": "50",
+    "longLasting": "35",
+    "eternal": "12"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "29",
+    "moderate": "50",
+    "strong": "39",
+    "enormous": "21"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "36",
+    "moreFemale": "24",
+    "unisex": "26",
+    "moreMale": "4",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "30",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "12",
+    "overpriced": "19",
+    "fair": "31",
+    "goodValue": "8",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "Moonlight Patchouli"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Noctambule"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "My Burberry Black"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Chypre Silver"
+    },
+    {
+      "brand": "GERİNİ",
+      "name": "Suede"
+    },
+    {
+      "brand": "LAURENT MAZZONE PARFUMS",
+      "name": "Ultimate Seduction Extreme Oud"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Femme Rochas"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "La Panthère Parfum"
+    },
+    {
+      "brand": "SENTİRE",
+      "name": "Rose Heat"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -167,5 +232,6 @@
       "brand": "CHANEL",
       "name": "Chanel No 19 Poudre"
     }
-  ]
+  ],
+  "comments": []
 }

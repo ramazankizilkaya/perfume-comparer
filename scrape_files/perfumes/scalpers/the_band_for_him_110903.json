@@ -49,25 +49,53 @@
     {
       "name": "vanilya",
       "width": "44.939%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.78",
-    "votesCount": "45",
+    "score": "3.73",
+    "votesCount": "48",
     "breakdown": {
-      "love": "11",
-      "like": "21",
-      "ok": "6",
-      "dislike": "6",
-      "hate": "1"
+      "love": "12",
+      "like": "20",
+      "ok": "9",
+      "dislike": "5",
+      "hate": "2"
     }
   },
   "seasons": {
     "winter": "13",
-    "spring": "22",
-    "summer": "8",
+    "spring": "24",
+    "summer": "9",
     "autumn": "16",
-    "day": "22",
+    "day": "23",
     "night": "8"
   },
   "notes": {
@@ -91,14 +119,14 @@
   },
   "longevity": {
     "veryWeak": "0",
-    "weak": "5",
-    "moderate": "10",
+    "weak": "6",
+    "moderate": "11",
     "longLasting": "3",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "1",
-    "moderate": "10",
+    "moderate": "11",
     "strong": "1",
     "enormous": "0"
   },
@@ -107,19 +135,23 @@
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "7",
-    "male": "13"
+    "male": "15"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "6",
-    "goodValue": "2",
+    "fair": "9",
+    "goodValue": "4",
     "greatValue": "4"
   },
   "remindsMeOf": [
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Y Eau de Parfum"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Elixir"
     },
     {
       "brand": "MİCHAEL KORS",
@@ -132,10 +164,6 @@
     {
       "brand": "LORENZO PAZZAGLİA",
       "name": "Sex-Sea"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Elixir"
     },
     {
       "brand": "KHADLAJ PERFUMES",
@@ -176,8 +204,8 @@
       "name": "Asad"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "CK One"
+      "brand": "DOLCE&GABBANA",
+      "name": "The One Pour Homme Parfum"
     },
     {
       "brand": "AZZARO",
@@ -211,5 +239,6 @@
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Beau Le Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

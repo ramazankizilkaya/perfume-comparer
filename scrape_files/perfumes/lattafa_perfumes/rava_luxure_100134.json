@@ -45,15 +45,43 @@
     {
       "name": "paçuli",
       "width": "45.3007%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "13",
+    "score": "3.94",
+    "votesCount": "16",
     "breakdown": {
       "love": "4",
-      "like": "6",
-      "ok": "2",
+      "like": "8",
+      "ok": "3",
       "dislike": "1",
       "hate": "0"
     }
@@ -63,7 +91,7 @@
     "spring": "6",
     "summer": "7",
     "autumn": "5",
-    "day": "5",
+    "day": "6",
     "night": "4"
   },
   "notes": {
@@ -86,33 +114,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "8",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "8",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "3",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "0",
+    "fair": "3",
+    "goodValue": "5",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Rush"
+    },
+    {
+      "brand": "AQUOLİNA",
+      "name": "Pink Flower"
+    },
+    {
+      "brand": "BUTTERFLY THAİ PERFUME",
+      "name": "Kali Girl"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Her Elixir de Parfum"
+    },
+    {
+      "brand": "LANSY",
+      "name": "Elan"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RALPH LAUREN",
@@ -138,5 +187,6 @@
       "brand": "NATURA",
       "name": "Essencial Elixir"
     }
-  ]
+  ],
+  "comments": []
 }

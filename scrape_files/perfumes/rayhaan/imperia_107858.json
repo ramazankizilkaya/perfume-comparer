@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rayhaan/Imperia-107858.html",
   "brand": "Rayhaan parfüm ve kolonya",
   "description": "Rayhaan markasının Imperia parfümü, erkekler için Odunsu Aromatik bir kokudur. Imperia, 2022 yılında piyasaya sürüldü. Üst notalar: Bergamot, Elma, Elemi ve Nane; orta notalar: Paçuli, Yasemin, Gül ve Sandal ağacı; alt notalar Meşe yosunu, Sedir, Misk ve Amber.",
-  "description_original": "Rayhaan markasının Imperia parfümü, erkekler için Odunsu Aromatik bir kokudur. Imperia, 2022 yılında piyasaya sürüldü. Üst notalar: Bergamot, Elma, Elemi ve Nane; orta notalar: Paçuli, Yasemin, Gül ve Sandal ağacı; alt notalar Meşe yosunu, Sedir, Misk ve Amber.",
+  "description_original": "Rayhaan markasının Imperia parfümü, erkekler için Odunsu Aromatik bir kokudur. Imperia, 2022 yılında piyasaya sürüldü. Üst notalar: Bergamot, Elma, Nane ve Elemi; orta notalar: Paçuli, Yasemin, Gül ve Sandal ağacı; alt notalar Meşe yosunu, Sedir, Amber ve Misk.",
   "description_enhanced": "Rayhaan markasının Imperia parfümü, erkekler için Odunsu Aromatik bir kokudur. Imperia, 2022 yılında piyasaya sürüldü. Üst notalar: Bergamot, Elma, Elemi ve Nane; orta notalar: Paçuli, Yasemin, Gül ve Sandal ağacı; alt notalar Meşe yosunu, Sedir, Misk ve Amber.",
   "mainAccords": [
     {
@@ -49,33 +49,61 @@
     {
       "name": "paçuli",
       "width": "47.4378%"
+    },
+    {
+      "name": "Online satın alın 23 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.84",
-    "votesCount": "157",
+    "score": "3.82",
+    "votesCount": "164",
     "breakdown": {
-      "love": "58",
-      "like": "51",
-      "ok": "24",
+      "love": "62",
+      "like": "50",
+      "ok": "26",
       "dislike": "13",
-      "hate": "11"
+      "hate": "13"
     }
   },
   "seasons": {
-    "winter": "59",
-    "spring": "103",
-    "summer": "102",
-    "autumn": "85",
-    "day": "99",
-    "night": "78"
+    "winter": "63",
+    "spring": "108",
+    "summer": "109",
+    "autumn": "89",
+    "day": "104",
+    "night": "81"
   },
   "notes": {
     "top": [
       "Bergamot",
       "Elma",
-      "Elemi",
-      "Nane"
+      "Nane",
+      "Elemi"
     ],
     "middle": [
       "Paçuli",
@@ -86,22 +114,22 @@
     "base": [
       "Meşe yosunu",
       "Sedir",
-      "Misk",
-      "Amber"
+      "Amber",
+      "Misk"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "8",
+    "veryWeak": "9",
     "weak": "8",
-    "moderate": "63",
-    "longLasting": "34",
+    "moderate": "67",
+    "longLasting": "36",
     "eternal": "5"
   },
   "sillage": {
-    "intimate": "11",
-    "moderate": "63",
-    "strong": "30",
+    "intimate": "12",
+    "moderate": "67",
+    "strong": "31",
     "enormous": "11"
   },
   "genderVoting": {
@@ -109,14 +137,14 @@
     "moreFemale": "1",
     "unisex": "6",
     "moreMale": "19",
-    "male": "92"
+    "male": "96"
   },
   "priceVoting": {
-    "wayOverpriced": "2",
+    "wayOverpriced": "3",
     "overpriced": "1",
-    "fair": "24",
-    "goodValue": "23",
-    "greatValue": "76"
+    "fair": "26",
+    "goodValue": "24",
+    "greatValue": "81"
   },
   "remindsMeOf": [
     {
@@ -187,15 +215,19 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Maahir Legacy"
+      "name": "Fakhar Black"
     },
     {
-      "brand": "CHANEL",
-      "name": "Bleu de Chanel Eau de Parfum"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Maahir Legacy"
     },
     {
       "brand": "VERSACE",
       "name": "Eros Flame"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Kobra"
     },
     {
       "brand": "RASASİ",
@@ -208,10 +240,6 @@
     {
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
-    },
-    {
-      "brand": "CREED",
-      "name": "Aventus"
     },
     {
       "brand": "AFNAN",
@@ -230,16 +258,58 @@
       "name": "Asad"
     },
     {
+      "brand": "RAYHAAN",
+      "name": "Aquatica"
+    },
+    {
       "brand": "AFNAN",
       "name": "9pm"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male Le Parfum"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent1023935",
+      "author": "Wrangy",
+      "date": "2026-03-13",
+      "text": "Imperia ve Imperia Intense çok güzel kokular. Ne yazık ki kabul edilebilir bir kalıcılıkları bile yok. Bu bir şaka.\nKalıcılığı süpermarket veya Zara'daki kokulardan bile daha kötü. Yok denecek kadar az.\nBende Obsidian, Crimson, Italia, Nocturno ve Tiger var. Imperia'nın kalıcılığı, Rayhaan serisinin en az kalıcı olan Tiger'a bile yaklaşmıyor. Intel gonwowcej almayacağım. (Kokusu ilginç olsa da)\nParanızı boşa harcamayın.\n07.03.2026 tarihinde satın aldım. Bir değişiklik olursa düzenleme yapacağım.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.107652.jpg"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Ameer Al Oudh Intense Oud"
+      "id": "parent798467",
+      "author": "Slicksteezie",
+      "date": "2025-07-09",
+      "text": "**Rayhaan Imperia İncelemesi**\n\nRayhaan Imperia, Creed Aventus'un ilham verici bir versiyonudur ve ona etkileyici bir şekilde yakındır. Orijinalini sahip olmasam da, Aventus'u yeterince kokladım ve bunun çok ikna edici bir alternatif olduğunu güvenle söyleyebilirim. Açılışta, tanınabilir huş ağacı dumanlılığıyla birlikte parlak bergamot ve elma notaları hissedilir. Şu an için koku profilinde çok fazla bir geçiş yok (belki maserasyondan sonra olabilir), ama ben onu zaten günlük kokum haline getirdim, bu yüzden dinlenmesine izin vermedim.\n\nBen onu esas olarak ofis ve ara sıra spor salonunda kullanmak için aldım ve Club de Nuit Intense Man (CDNIM) fiyatının neredeyse yarısı kadar olan fiyatıyla günlük kullanım için akıllıca bir seçim. CDNIM biraz daha uzun süre kalıcı olsa da, Imperia özellikle fiyatı göz önüne alındığında oldukça iyi bir performans sergiliyor.\n\nPerformans:\n\n-Koku Profili: 9/10 – Kitlelere hitap eden ve çok yönlü. Sahip olunması gereken bir koku türü.\n\n-Kalıcılık: Kontrollü ortamlarda 4–6 saat; maserasyondan sonra potansiyel olarak daha uzun.\n\n-Yayılma/Koku: İlk saatte güçlü, sonra orta derecede. Kol mesafesinde fark edilebilir.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent798466",
+      "author": "Scentless@Apprentice84",
+      "date": "2025-06-25",
+      "text": "Kesinlikle bir mücevher!!! Bu, benim ilk \"ilham kaynağı\" kokularımdan biriydi. İlk başta, ilham kaynağı olan kokuyu hiç denemediğim için, kokunun gücü beni oldukça şaşırttı. İlk başta, koku koleksiyonuna yeni başlayan biri olarak beni gerçekten şaşırtan bir tür dumanlı benzin kokusu vardı. Geçmişte sahip olduğum tüm parfümler, orijinal formülasyonuyla neredeyse mükemmel bir parfüm olan o.g. Boss Man edt, Acqua Di Gio edt gibi parfümlerdi. Ayrıca herkes gibi Nautica Voyage'ı da epey kullandım. Yaklaşık 2 yıl önce, Orta Doğu parfümlerini hiç denememiştim, bu yüzden körü körüne satın almaktan çekiniyordum, ama Aromatix'teki Neeb'in bu parfümü övmesinde %100 haklı olduğunu söyleyebilirim. Bir süre şişeyi şifonyerimde beklettim ve ara sıra sıkıyordum. Bir gün aniden cildime sürmeye karar verdim ve aman Tanrım! Bu parfüm, dumanlı, tatlı, güçlü ama yumuşak bir kokuya dönüştü. 2025 yılının Haziranına geldiğimizde, artık 160 parfümüm ve sayısız numune ve dekantım var. Imperia ile karşılaştırıldığında, Armaf CDNI Man edp, Afnan SNOI, Montblanc Explorer, CDNI Man edt dekant, MB Select Night dekant, Hawas Black, Dumont Nitro Black dekant, CDN Precieux One, English Laundry London parfümlerim var. CDNI Man Edp genel olarak en iyisi olsa da, fiyatı ve çok güçlü ve etkileyici olmaması nedeniyle Rayhaan Imperia'nın bu gruptaki favorim olduğunu söyleyebilirim.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1986164.jpg"
+    },
+    {
+      "id": "parent798468",
+      "author": "Biglou88",
+      "date": "2025-06-18",
+      "text": "YouTube'da gördüğüm tüm heyecandan ve aromatix'in onu çok övmesinden etkilenerek aldım. YouTube'da aromatix'i dinlemeyin, bu parfüm berbat vb. diyen birçok yorum okudum. Buna tek söyleyebileceğim şey, bunların %110 saçmalık olduğu. Bu parfüm gerçekten harika. Daha yumuşak bir cdnim edt gibi. Eski dost Amazon'da 23,49 £ indirimli! Bence gerçekten harika bir ürün ve performansında hiçbir sorun yok. Bu ürünü bana hatırlatan başka bir klon da Jack Adventure for Him. Çok benzer ama artık neredeyse yok oldu. Bu ürünü kötüleyen aptallara kulak verenler, bakın, bu ürün cdnim kadar iyi, hatta daha iyi ama Armaf kadar yüzünüze yumruk atmıyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
     }
   ]
 }

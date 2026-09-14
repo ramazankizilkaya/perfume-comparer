@@ -16,59 +16,87 @@
     },
     {
       "name": "odunsu",
-      "width": "99.4082%"
+      "width": "97.6664%"
     },
     {
       "name": "vanilya",
-      "width": "90.6064%"
+      "width": "89.103%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "87.39%"
+      "width": "86.6016%"
     },
     {
       "name": "rom",
-      "width": "66.8528%"
+      "width": "65.6016%"
     },
     {
       "name": "kakao",
-      "width": "65.2573%"
+      "width": "64.3984%"
     },
     {
       "name": "tatlı",
-      "width": "63.6358%"
+      "width": "62.739%"
     },
     {
       "name": "balsamik",
-      "width": "61.9377%"
+      "width": "61.5364%"
     },
     {
       "name": "yeşil",
-      "width": "53.4707%"
+      "width": "53.2849%"
     },
     {
       "name": "baharatlı",
-      "width": "52.9561%"
+      "width": "52.323%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.42",
-    "votesCount": "1,026",
+    "score": "3.43",
+    "votesCount": "1,091",
     "breakdown": {
-      "love": "215",
-      "like": "321",
-      "ok": "233",
-      "dislike": "189",
-      "hate": "68"
+      "love": "227",
+      "like": "352",
+      "ok": "245",
+      "dislike": "195",
+      "hate": "72"
     }
   },
   "seasons": {
-    "winter": "354",
-    "spring": "78",
-    "summer": "32",
-    "autumn": "383",
-    "day": "252",
-    "night": "256"
+    "winter": "379",
+    "spring": "84",
+    "summer": "33",
+    "autumn": "415",
+    "day": "273",
+    "night": "273"
   },
   "notes": {
     "top": [
@@ -90,31 +118,31 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "8",
-    "weak": "23",
-    "moderate": "170",
-    "longLasting": "101",
-    "eternal": "16"
+    "veryWeak": "9",
+    "weak": "25",
+    "moderate": "178",
+    "longLasting": "109",
+    "eternal": "18"
   },
   "sillage": {
-    "intimate": "51",
-    "moderate": "170",
-    "strong": "65",
+    "intimate": "54",
+    "moderate": "178",
+    "strong": "70",
     "enormous": "7"
   },
   "genderVoting": {
     "female": "24",
-    "moreFemale": "62",
-    "unisex": "252",
-    "moreMale": "62",
+    "moreFemale": "64",
+    "unisex": "271",
+    "moreMale": "67",
     "male": "19"
   },
   "priceVoting": {
     "wayOverpriced": "15",
-    "overpriced": "35",
-    "fair": "233",
-    "goodValue": "34",
-    "greatValue": "8"
+    "overpriced": "40",
+    "fair": "245",
+    "goodValue": "38",
+    "greatValue": "9"
   },
   "remindsMeOf": [
     {
@@ -130,6 +158,14 @@
       "name": "Otimo"
     },
     {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "This is Not a Blue Bottle 1.7"
+    },
+    {
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Venenum 32"
+    },
+    {
       "brand": "ANOMALİA PARİS",
       "name": "Club 70"
     },
@@ -138,44 +174,36 @@
       "name": "Sublimis (formerly Numero V)"
     },
     {
-      "brand": "L'ARTİSAN PARFUMEUR",
-      "name": "Venenum 32"
-    },
-    {
-      "brand": "ELECTİMUSS",
-      "name": "Spice D'Arno"
-    },
-    {
       "brand": "JORUM STUDİO",
       "name": "Fantosmia"
-    },
-    {
-      "brand": "TOSKOVAT'",
-      "name": "Last Birthday Cake"
-    },
-    {
-      "brand": "PARFUM BÜRO | M-COLLECTİONS",
-      "name": "Butter Me Up!"
-    },
-    {
-      "brand": "LES EAUX PRİMORDİALES",
-      "name": "Iris Palladium"
     },
     {
       "brand": "CREMO",
       "name": "Bourbon Vanilla"
     },
     {
-      "brand": "LANCÔME",
-      "name": "Santal Kardamon"
+      "brand": "WOMO",
+      "name": "Red Velvet"
     },
     {
-      "brand": "D'ANNAM",
-      "name": "Japanese Whiskey"
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "Encens Precieux"
     },
     {
-      "brand": "COSTUME NATIONAL",
-      "name": "Costume National I"
+      "brand": "PARFUM BÜRO | M-COLLECTİONS",
+      "name": "Butter Me Up!"
+    },
+    {
+      "brand": "ELECTİMUSS",
+      "name": "Spice D'Arno"
+    },
+    {
+      "brand": "ZOOLOGİST PERFUMES",
+      "name": "Rabbit"
+    },
+    {
+      "brand": "TOSKOVAT'",
+      "name": "Last Birthday Cake"
     }
   ],
   "peopleAlsoLike": [
@@ -186,10 +214,6 @@
     {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "By the Fireplace"
-    },
-    {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Baccarat Rouge 540"
     },
     {
       "brand": "BY KİLİAN",
@@ -236,8 +260,204 @@
       "name": "Blanche Bête"
     },
     {
-      "brand": "ETAT LİBRE D'ORANGE",
-      "name": "Nostos"
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Encre Noire"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent649483",
+      "author": "gingermojo",
+      "date": "2025-09-03",
+      "text": "Benim için derin bir aşk. Bazılarının zaten söylediği ve benim de katıldığım gibi, Lutens'in Jeux de Peau'sunda ekmeğe kesin bir gönderme var ve bunu takdir ediyorum. Amerikan konserve esmer ekmeğinde bulunan o sıcak pekmez notasının bir ipucunu alıyorum. Burada rom kokusunu alamadıklarını söyleyen yorumlar gördüm. Bir yudum rom (koyu rom, berrak olanı değil, baharatlı ticari Captain Morgan da değil) yutarsanız ve sonra burnunuzdan nefes verirseniz - bana güvenin, hemen \"anlayacaksınız\". SOYL'deki rom notası kesinlikle hafif değil, lezzetli derecede yoğun ve derimsi. Kakao tatlı ve pudralı, koyu Hollanda işlenmiş kakao kutusu gibi. Ama beni SOYL'ü tekrar tekrar kullanmaya iten şey, çok özel bir tür dumanın muhteşem notası.\n\nBu kokuyu ilk duyduğumda, SOYL'deki o hafif kömür kokusunun neden bu kadar tanıdık geldiğini veya neden bu kokuyu duyduğumda içimde derin bir mutluluk ve hayranlık duygusu uyandırdığını anlayamamıştım.\n\nSOYL'deki o özel duman türünün *hikayesi* beni ona aşık etti.\n\nBu, balzamik tütsü konilerinin dumanı, odun ateşi veya yanmış kibrit çöplerinin kükürtlü tuzu değil. Sönmüş mum fitillerinin yağlı isine biraz benziyor, ama o da doğru değil. Mineral bir koku, peki insan deneyiminin hangi bağlamlarında duman ve mineral kokuları aynı anda ortaya çıkıyor?\nVolkanlar! Erimiş kaya… demirci ocağı kokusu mu? Hmmm 🤔 Evet, ama yine de tam olarak doğru değil.\n\nSonunda iki kızımla film gecesi yaparken aklıma geldi. Mağara Ayısının Klanı'nı izliyorduk (film benim tercihim değildi, yargılamayın lütfen! 😄🤷🏻♀️). O zamanlar SOYL'u epey bir süredir kullanıyordum ve o sevilen notanın neden bu kadar tanıdık geldiğine hala anlam veremiyordum.\nBu filmde Daryl Hannah'ın bir parça çakmak taşını bir demir pirit parçasına vurarak ateş yakmayı keşfettiği sahneyi izlerken, birdenbire o koku anısı aklıma geldi... ve büyük bir kıvılcım ve ince bir duman çıktı.\n\n11 yaşındayken, Teksas'ın kuzeybatısındaki yaz kampında aynı şeyi yaptığımı hatırlıyorum. Guadalupe Nehri kıyısında bir akşam kamp yaparken, kamp rehberimiz (Daryl Hannah gibi kaslı, bronzlaşmış ve uzun sarı saçlı) bir çuvaldan parıldayan pirit parçaları dağıttı ve bize çakmaktaşı parçalarını nasıl bulacağımızı gösterdi; bu taşlar, çevredeki tortul kayaçlardaki doğal tebeşir miktarı nedeniyle bölgede oldukça yaygındı. Daha sonra, bu iki doğal malzemeyi birbirine vurarak nasıl kıvılcım çıkarıp ateş yakabileceğimizi gösterdi. Kurutulmuş otlardan bir yuva oluşturduktan sonra, o akşam kamp ateşimizi bu şekilde yaktı. Genç kızların bu büyünün karşısında nasıl büyülendiğini, bu güçlü, güzel kadının ilkel ama güçlü bir hayatta kalma becerisindeki uzmanlığı karşısında nasıl şaşkına döndüğümüzü hatırlıyorum. Hepimizin taşlarımızı birbirine vurduğunu, parlak kıvılcımların Teksas alacakaranlığında gülen yüzlerimizi aydınlattığını hatırlıyorum… ve yanmış taşın o sıcak, mineral kokusunu hatırlıyorum.\n\n\"Story of Your Life\" filmi aslında benim hayatımın hikayesine çok benziyor. 😄",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2420385.jpg"
+    },
+    {
+      "id": "parent649568",
+      "author": "g.lazaromendes",
+      "date": "2025-08-12",
+      "text": "Örnek olarak kullanıldığında, rahatlatıcı ve oldukça çekici bir koku olduğunu söylemek güvenli; ancak markanın diğer ürünleri gibi çığır açıcı bir şey değil. Kehribar ve paçuli notası, Brezilya'da bulunan bazı Arap parfümlerini anımsatıyor. Asıl öne çıkan nokta ise ekmek notası; marka brioche notalarından bahsediyor ki bu daha mantıklı görünüyor. Belki de dip notalar, odunsu notalar ve kakao ile desteklenen, günlük ekmeğimizden daha yanmış bir şey.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.81602.jpg"
+    },
+    {
+      "id": "parent649529",
+      "author": "Vee",
+      "date": "2025-03-11",
+      "text": "Sıcak, tatlı ve kehribar rengi, hafif bir rom aromasıyla. Güzeldi, ama bende hiçbir heyecan uyandırmadı.\nEkmek notası bana tamamen yabancı; neye gönderme yaptığını anlamıyorum. Soğuk bir günün ardından eve dönmenin verdiği keyfi ileten, sıcak bir koku; ancak evin verdiği keyiften ekmeğe, kişinin kendi yuvasının sıcaklığı ve beslenmenin en temel sembolü hakkındaki söylemlerin ötesine uzanan uzun bir yol var.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.54230.jpg"
+    },
+    {
+      "id": "parent649544",
+      "author": "annavasi",
+      "date": "2025-02-21",
+      "text": "Bu durum, baştan sona bilişsel uyumsuzluğa yol açtı. Reklamda gösterilen brioche bulunabiliyor, ancak daha çok çavdar kabuğuna benziyor. Fakat bu ekmeğin içinde sakladığı şey, benim burnuma göre, AD (ambrosenid veya doğrudan çevirisiyle, hiçbir fark yok).\nDoğrusunu söylemek gerekirse, ELDO'nun bunu nasıl yapabildiğini anlamıyorum 🥲",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.367693.jpg"
+    },
+    {
+      "id": "parent649558",
+      "author": "the.scent.files",
+      "date": "2025-02-15",
+      "text": "👴Hayatınızın Hikayesi – Büyükannenizin ve büyükbabanızın evinin anılarının kokusu👞\n\nKoku, kış öğleden sonrasında sıcak bir büyükanne ve büyükbaba evine girmek gibi yoğun bir şekilde açılıyor. Hava, fırından yeni çıkmış mayalı hamur işlerinin kokusuyla dolu. Vanilyanın tatlılığı sizi yumuşak bir battaniye gibi sarıyor ve narin baharatlar – kakule ve tarçın – havada süzülerek size sofrada geçirilen bayram akşamlarını hatırlatıyor.\n\nAma bu sıradan bir mutfak kokusu değil. Arka planda belirgin bir rom kokusu var; derin ve ısıtıcı, tıpkı bir pastaya karakter katmak için eklenen bir damla gibi. Bu dokunuş, her zaman \"pişirmek için\" elinin altında bir şişe rom bulunduran, ama çoğu zaman çayına \"ısıtmak için\" döken büyükbabamı hatırlatıyor.\n\nZamanla koku değişiyor. Eski ahşabın narin aromasına sıcak bir tatlılık karışmaya başlıyor; tıpkı büyükannem ve büyükbabamın gençliğini hatırlatan bir büfe gibi. Derin bir tanıdıklık, yatıştırıcı bir şey var, tıpkı her zaman taze meyve dolu bir kase bulunan cilalı bir masanın dokunuşu gibi.\n\nVe sonra başka bir şey beliriyor – yanmış karamelin ince, dumanlı bir notası. Büyükbabamın fırından dışı çıtır, kenarları hafifçe yanmış ama içi her zaman mükemmel derecede yumuşak bir kek çıkardığı o an gibi. Hafızalarda sonsuza dek kalacak bir tat.\n\nSonlara doğru koku daha sıcak, sarmalayıcı bir hal alıyor, tıpkı büyükbabanızın yün kazağı gibi, ev ve güven kokusunu anımsatıyor. Öyle yumuşak ve sakinleştirici bir yanı var ki, oradan hiç ayrılmak istemiyorsunuz.\n\nBu sadece bir koku değil. Bu, anılara, büyükannem ve büyükbabamın evine, geçmişte kalmış olsalar da hafızamda yaşayan o anlara bir dönüş.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.79430.jpg"
+    },
+    {
+      "id": "parent649506",
+      "author": "MBlack",
+      "date": "2024-12-17",
+      "text": "Burada reklamını görür görmez koklamam gerektiğini anladığım için bir dekant aldım... (zaten en sevdiğim ELDO parfümlerinden biri olan 'La fin du monde'a sahip olduğum için beklentilerim yüksekti). Şey, nasıl tarif edeceğimi gerçekten bilmiyorum...😅 Her şeyden önce, benim açımdan çok unisex, daha çok maskülen bir koku. Örneğin, notalarından biraz da olsa 'Devotion' gibi bir şey değil. Kısacası, onunla hiçbir ilgisi yok, ya da belki var ama daha çok erkekler için bir Devotion gibi xD (yani, bunu sadece 'D' ile karşılaştırırsak, ne kadar kadınsı görünmediğini anlayabilirsiniz).\n\nVe şimdi... en önemli soru, ekmek gibi kokuyor mu? Belki de en baskın nota bu, ama rom, davana, amber, benzoin ve odunsu notalar tarafından çok, çok bastırılıyor. Kısacası, daha 'gurme' bir şey bekliyordum ve öyle değildi...🤷🏻‍♀️ Ama güzel kokuyor! Benzer ama tamamen aynı olmayan bir şeyle karşılaştırmam gerekirse, 'By a Fire Place, Replica'nın unisex'ten ziyade daha erkeksi bir versiyonu olurdu.\n\nKalıcılığı yüksek ve ciltte birkaç saat boyunca etkisini sürdürüyor; bu açıdan, tüm ELDO parfümleri gibi, iyi bir parfüm.\n\nNot: çikolata yok, çikolata yok🤔",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.93960.jpg"
+    },
+    {
+      "id": "parent649532",
+      "author": "Fabio",
+      "date": "2024-12-15",
+      "text": "Bu, tam anlamıyla gurme bir koku değil; yeterince tatlı, ancak bence Hollandalı markanın sıklıkla yaptığı gibi, özellikle bitişinde daha çok kadınsı bir tarafa eğilen bir amber/vanilya kokusu. Şahsen, likör bileşeni net bir şekilde tanımlanmamış ve neredeyse fark edilmiyor. Çok iyi bir kalıcılığa sahip, ancak sanatsal parfümeri dünyasıyla karşılaştırıldığında olağanüstü bir şey değil.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.44786.jpg"
+    },
+    {
+      "id": "parent649478",
+      "author": "Nessers",
+      "date": "2024-11-20",
+      "text": "Bu kokuya gelen tepkiler ve yorumlar beni çok şaşırttı. Bence gerçekten çok güzel! Bana kalırsa, hayatınızın hikayesi tek bir somut hikaye yerine kısa anlık görüntüler yakalıyor. Öyle değil mi? En güzel anlarınızın hatıralarını yakalıyorsunuz. Lüks kokması gerekmiyor. Nostaljik olması gerekiyor. Belki de rahatlatıcı bile. Tatillerde ucuz alkol gibi koktuğunu söyleyenlere cevabım evet. Tamamen haklısınız. Ve ben bunu çok seviyorum! Annem Şükran Günü veya Noel yemekleri pişirirken, teyzemle veya büyükannemle ve büyükbabamla kanepede konuşurken Noel ruhunu hissediyorum. Bu koku o anıları geri getiriyor. Ve bunun için minnettarım. Bence bu, kulübe veya ofise giderken giymek için değil. Bu, nostaljik olduğunuz ve düşünmeye hazır olduğunuz zamanlar için. İpuçları her yerde. İsminde bile. Açıklamasında. Bu ince bir hediye.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1005326.jpg"
+    },
+    {
+      "id": "parent649489",
+      "author": "Wearedoomed",
+      "date": "2024-11-13",
+      "text": "Belki de sadece bana öyle geliyor ama... Yemin ederim ki şimdiye kadar denediğim en üzücü koku bu. \"Korkunç\" anlamında üzücü değil, ama bana hiç istemediğim duygular hissettiriyor. Belki de bana göre, çok fazla alkol almış birinin parfüm kullanarak daha iyi kokmaya çalışması gibi kokuyor... Bilmiyorum, ama böyle hissetmek istemiyorum, o yüzden almayacağım!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2271288.jpg"
+    },
+    {
+      "id": "parent649560",
+      "author": "Geronimo Guerrero",
+      "date": "2024-10-31",
+      "text": "Çok güzeller. Onları tesadüfen keşfettim, Kobra'nın yanındaki yeni çıkan ürünler rafındaydılar, Kobra için oraya gitmiştim. Bayan bana brioche kokusu olduğunu söyledi... ne bilirim ki? Burada ekmeksi bir şey algılamıyorum. Aşağıdaki yorumda Vanilka gibi, ben de çoğunlukla kakao ve rom algılıyorum, aynı markanın Dangerous Complicity'sine benziyor. Benim için başarılı bir lansman, hemen 4/5 veririm, ciddi testlerden sonra nasıl bir performans sergileyeceğini göreceğiz 😉",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.34276.jpg"
+    },
+    {
+      "id": "parent649530",
+      "author": "babinski",
+      "date": "2024-10-27",
+      "text": "İsmi, açıklaması ve notları beni pervasızca kör alışverişe yönlendirdi ve ne yazık ki kötü sonuçlandı. Gerçekten beğenmek istiyordum ama burnuma göre, o güzel notaların hepsi bir rom denizinde boğuldu.\nEkmek, kakao, brioche ve vanilya kokuları benim için o kadar hafif ki neredeyse algılanamaz durumda ve bu beni çok üzdü. Kötü bir koku değil, ama hikayesinin iddia ettiği gibi de değil. Bana göre, havası içki, ahşap ve Chesterfield koltuk kokularıyla dolu, 19. yüzyılın sonlarına ait şık bir erkek kulübünü hatırlatıyor. Aslında, bir erkekte yakışıklı, zarif ve hatta seksi buluyorum. Bir kadında ise daha zor ve tamamen anlamlandıramadım.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.61402.jpg"
+    },
+    {
+      "id": "parent649556",
+      "author": "vanilka133",
+      "date": "2024-10-24",
+      "text": "Öncelikle olumlu yönlerini vurgulayacağım; bu koku ilginç, niş ve farklı olduğu için denemenizi tavsiye ederim.\nSıktıktan sonra garip bir koku geldi; tanıdık bir kokuya dair hiçbir şey bulamadım (ve notalarını bilmiyordum). Ekmek böyle mi kokar? Sanmıyorum. Çoğunlukla rom ve kakao algıladım, ancak Maison Tahite serisinde bulunan kakaodan daha ilginç, farklı bir kakao. Zamanla daha da çekici hale geliyor, tatlımsı, vanilya şurubu gibi belirgin bir şekilde koyulaşıyor. Odunsu notalar çok iyi gizlenmiş, tatlandırılmış. Paçuli? Belirgin değil.\nİçlerinde bir yalnızlık duygusu var, ama bu yalnızlık alkol ve şekerle teselli edilen, kendini acındıran bir tür yalnızlık.\nBirden fazla hayatın hikayesi, ha ha ha",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.25491.jpg"
+    },
+    {
+      "id": "parent649480",
+      "author": "Scentalgias",
+      "date": "2024-10-19",
+      "text": "Bu koku bana, üniversite yıllarımın ilk sonbaharında bakıcılığını yaptığım, şehir merkezindeki tarihi evindeki teyzemin keten perdelerinde kalan tütsü dumanını hatırlatıyor. Evcilik oynarken onun minik mutfağında bisküvi pişirir, kendi başıma yaşamanın nasıl olacağını hayal ederdim. Klasik tiyatro oyunları ve polisiye romanlar okurdum. Henüz çok çocuk olan ama The Smiths'i seven bir çocuğa aşık oldum ve ben de The Smiths'i sevdim. Sonbaharın ortasında nehir kenarında yürürdüm ve çürüyen yaprakların kokusundan çok nostaljik hissederdim. Ahşap panellerle kaplı ve pırıltılı ışıklarla süslü bodrum katında Fransız Kanada filmlerini izlerdim. Bu koku bende işte bunları çağrıştırıyor; kitap sayfaları, tütsü, tatlı kurabiyeler ve yapay hayat. İlk denemede, bu koku o kadar yoğun bir şekilde benzoin kokuyordu ki, neredeyse başka hiçbir şeyi algılayamadım. Ama günün geri kalanında üzerimde kalmasına izin verdim, yavaş yavaş tenime yerleşti ve sonunda vanilyalı latte ve odunsu tatlı, sıcak bir anımsatıcıya dönüştü. Ertesi gün kokuyu tekrar denedim ve kakao ve paçuli gibi notaları daha iyi ayırt edebildiğimi fark ettim. Kesinlikle ilk notalardan çok daha fazla kuruyan halini tercih ediyorum ve ilk notalar oldukça uzun süre kalıyor gibi görünüyor. Ayrıca çok fazla yayılımı olmadığını ve notaları hissetmek için tenime gerçekten yaklaşmam gerektiğini, sadece bazen saçımı boynumdan uzaklaştırdığımda hafif bir esinti alabildiğimi fark ettim. Bu, parfümleri birden fazla kez denemem için gerçekten iyi bir test. Gerçekten hayal kırıklığına uğramış bir yorum yazacağımı düşünmüştüm ama onu düşündükçe ve tenimde kullandıkça daha çok sevdiğimi fark ediyorum. Ne yazık ki, bugün son kullanımımda şanslı koku numunemi bitirdim ama daha büyük bir dekant sipariş etmeyi gerçekten düşünüyorum.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2291031.jpg"
+    },
+    {
+      "id": "parent649479",
+      "author": "2bClare",
+      "date": "2024-10-13",
+      "text": "Bunun \"Hayatınızın Hikayesi\" olarak adlandırılması komik geliyor bana, çünkü eğer sıktığınız bir şeye, mesela bir paltoya, sıkarsanız, hayatınızın büyük bir bölümünde kokusunu alacaksınız, size söyleyeyim. Bu, kullanılan amber sabitleyiciden kaynaklanıyor ve okuduğum kadarıyla ambrocenid. Farklı amber sabitleyicileri ayırt edebilecek kadar koku alma duyum yok ama bir parfümde birini kokladığımda anlıyorum ve bu noktada biraz yorucu olmaya başladı. Bir parfümün kalıcılığını uzatmanın, a) bu kadar rahatsız edici derecede tanıdık bir koku vermeden ve b) kelimenin tam anlamıyla günlerce sürmesine neden olmadan başka bir yolu olmalı. Bence çoğu insan için 8 saat yeterli. Kısa bir süre sonra kokusunu alamadıklarını söyleyenler muhtemelen koku alma duyularını kaybetmişlerdir, bu da bu kimyasalların bilinen bir diğer özelliği. Neyse, sitemim bitti - bunun dışında bu küçük gurme parfümü beğendim, oldukça hoş ama bir hafta boyunca onunla oturmaya razı olmadığım sürece bir daha asla sıkamayacağım.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1961281.jpg"
+    },
+    {
+      "id": "parent649519",
+      "author": "Gaelicia",
+      "date": "2024-10-06",
+      "text": "Ne oldu bilmiyorum ama Nicolaï'nin Saint-Honoré'sinden hemen sonra, portakal çiçeğine olan olağan nefretimi tamamen görmezden gelerek bunu aldım. Ancak, tıpkı o diğer koku gibi, diğer tüm notalar da bana hitap ediyor. Onun gibi, bu da çok başarılı bir neo-gurme. Hiçbir bayıcı nota yok. Alkollü yönü ince ve kakao ne acı ne de kahve makinesinden aldığınız sıcak çikolata gibi (eminim ne demek istediğimi anlıyorsunuz!). Daha çok hafif tatlı bir Poulain gibi, ki bu çok hoş. Neredeyse brioche benzeri kokusu beni kesinlikle etkiledi. Yine, hiçbir şey baskın değil: Viyana bageti gibi de kokmuyor. Bu kış atkım ve kazaklarımda mükemmel olacak çok rahatlatıcı bir koku olduğunu düşünüyorum.\nDavana kokusunu alıp alamayacağınızı bilmiyorum ama koleksiyonumdaki sevdiğim iki parfümde daha var, o yüzden...\nCiltte gün sonunda kremsi bir vanilya kokusuna dönüşüyor. Giysilerde ise fazla bozulmuyor ve 7 saatten fazla kalıcılığını koruyor.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.50364.jpg"
+    },
+    {
+      "id": "parent649542",
+      "author": "Doreas",
+      "date": "2024-10-01",
+      "text": "Bu parfümü sonbaharda, notalarını bilmeden kullandım. Tozlu kakao ve vanilya ile sıcak, baharatlı, hafif tatlı ve rahatlatıcı bir koku. Tanıdıklık ve ev hissi veriyor, ama aynı zamanda karakterli de – alkollü paçuli.\nPiramidin içine baktım: gerçekten de ekmekmiş! Bana iyi bir şampanya veya krutonun içindeki brioche ekmeğinin aromasını hatırlattı. Kabuğu çıtır çıtır ve tazeydi. Bayıldım. İsmi ve sunumu 10 üzerinden 10.\n\nSonra zaman geçti ve araba bir balkabağına dönüştü; aroma tam anlamıyla 40 dakika içinde gözlerimizin önünde yok oldu. Kakao çöreklerinin tüm güzelliği buharlaştı ve erbapur'daki gibi keskin bir ambergris kokusu ortaya çıktı. Her yeni ürüne bundan bolca koyuyorlar. İğrenç.\nNot: Ambrodervyakhlar 12 saatten fazla bir süredir kağıttan çığlık atıyorlar.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.308759.jpg"
+    },
+    {
+      "id": "parent649488",
+      "author": "pollilyo",
+      "date": "2024-09-21",
+      "text": "Twisted Lily'den verdiğim siparişle birlikte hediye olarak aldım. İlk izlenimlerim.\nİyi yanlarından bahsedecek olursak: koku hayat dolu. Daha ilk anda uzun zamandır beklediğim tatlı susamlı çörek, biraz kakao ve ekşilik hissettim. Ardından, her şey klasik amber ağaçlarının ekşiliği ve romun (ya da portakal çiçeğinin, kim isterse) ekşiliğiyle gölgeleniyor ve bana Penhaligon's'un Clandestine Clara'sını hatırlatıyor. Son durak ise bir yudum rom veya konyak ve biraz tütün.\n\nCilde yakın duruyor, kalıcılık konusunda güçlü bir performans sergileyeceğinden emin değilim. Deneyebilirsiniz, ancak bana yeni bir şey kazandırmadı.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2082294.jpg"
+    },
+    {
+      "id": "parent649486",
+      "author": "CynicalPink",
+      "date": "2024-09-18",
+      "text": "Sanırım ekmek kokusu alıyorum? Ama listedeki notalardan etkilendiğimi düşünüyorum. Daha çok, hafif tatlı, yumuşak odunsu bir koku alıyorum. Bence bu tatlılık kakao yerine romdan kaynaklanıyor, tenimde böyle bir his oluşuyor.\n\nBence bu, çok rahatlatıcı, hem kadın hem de erkeklere uygun bir koku; belki birazcık da olsa erkeksi bir havası var. Soğuk havalarda insanın içine sokulup sarılmak isteyeceği türden bir koku.\n\nBenim gibi nispeten amatör bir koleksiyoncu için, bunu Facebook'ta paylaşmak cazip gelebilir, ancak geniş bir koleksiyonunuz varsa, bu meyve suyunun benzersiz olarak öne çıkıp çıkmayacağından emin değilim.\n\nDüzenleme: 8 saat sonra tekrar püskürtme işleminde ekmeği *elde ettim*, ama fırından yeni çıkmış yumuşak beyaz bir ekmek değildi. Bu, kalın, sert ve mayalı bir ekmekti. Ortaçağ meyhane ekmeği gibi.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1924789.jpg"
+    },
+    {
+      "id": "parent649481",
+      "author": "nicolekmb",
+      "date": "2024-09-17",
+      "text": "İlk bakışta, reçineli/şuruplu bir deri notası ve yanmış kahveye benzeyen bir koku geliyor. Ancak bu kompozisyonda kahve/deri notası yok, bu da bana deri kokusunun benzoin/ekmek/rom ve kakao notalarından kaynaklandığını düşündürüyor.\n\nHem kadınlar hem de erkekler için uygun bir koku, soğuk havalarda deri ceket giyen bir erkek veya kadında harika kokardı.\n\nŞahsen, benim zevkime göre biraz fazla dumanlı/reçineli, ancak güzel ve özenle hazırlanmış bir koku. Kör alışveriş yapmayın, ama mutlaka deneyin!",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1246055.jpg"
     }
   ]
 }

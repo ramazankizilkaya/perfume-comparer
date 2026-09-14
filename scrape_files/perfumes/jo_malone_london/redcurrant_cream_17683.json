@@ -62,50 +62,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "10",
-    "weak": "13",
-    "moderate": "27",
-    "longLasting": "6",
-    "eternal": "10"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "30",
-    "moderate": "27",
-    "strong": "12",
-    "enormous": "15"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "11",
-    "moreFemale": "3",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "6",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Raspberry Ripple"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Redcurrant & Cream"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Secret Craving"
-    },
-    {
-      "brand": "AJMAL",
-      "name": "Evoke Gold for Her"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JO MALONE LONDON",
@@ -167,5 +150,6 @@
       "brand": "PRADA",
       "name": "Prada Candy"
     }
-  ]
+  ],
+  "comments": []
 }

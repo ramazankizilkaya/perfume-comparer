@@ -37,6 +37,34 @@
     {
       "name": "misk",
       "width": "44.0766%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,33 +110,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "10",
+    "moderate": "4",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "4",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "13",
+    "moreFemale": "6",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "12",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bombshell"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor On-line"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Carambola Para Boas Energias"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kaiak Aventura"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Flor de Frésia"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Cuide-se Bem Nuvem"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Clash"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -140,11 +197,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Humor 5"
+      "name": "Jabuticaba"
     },
     {
       "brand": "NATURA",
-      "name": "Luna Intenso"
+      "name": "Humor 5"
     },
     {
       "brand": "NATURA",
@@ -170,5 +227,6 @@
       "brand": "NATURA",
       "name": "Kaiak Aventura"
     }
-  ]
+  ],
+  "comments": []
 }

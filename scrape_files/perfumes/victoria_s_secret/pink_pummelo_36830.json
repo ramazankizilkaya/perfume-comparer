@@ -23,11 +23,11 @@
       "width": "65%"
     },
     {
-      "name": "aromatik",
+      "name": "çiçeksi",
       "width": "62.6667%"
     },
     {
-      "name": "çiçeksi",
+      "name": "aromatik",
       "width": "62.6667%"
     }
   ],
@@ -61,38 +61,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "2",
-    "moderate": "4",
-    "longLasting": "0",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "4",
-    "strong": "1",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "3",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JO LOVES",
-      "name": "Pomelo"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -154,5 +149,6 @@
       "brand": "LADY GAGA",
       "name": "Fame"
     }
-  ]
+  ],
+  "comments": []
 }

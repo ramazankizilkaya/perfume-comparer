@@ -2,7 +2,7 @@
   "name": "Luna Body Mist Penhaligon's",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Aromatic",
-  "concentration": "EauFraiche",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136385.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Penhaligon-s/Luna-Body-Mist-136385.html",
   "brand": "Penhaligon's parfüm ve kolonya",
@@ -23,11 +23,11 @@
       "width": "88.333%"
     },
     {
-      "name": "aromatik",
+      "name": "odunsu",
       "width": "82.5%"
     },
     {
-      "name": "odunsu",
+      "name": "aromatik",
       "width": "82.5%"
     },
     {
@@ -41,13 +41,41 @@
     {
       "name": "çiçeksi",
       "width": "56.25%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.00",
-    "votesCount": "1",
+    "score": "4.00",
+    "votesCount": "2",
     "breakdown": {
-      "love": "0",
+      "love": "1",
       "like": "0",
       "ok": "1",
       "dislike": "0",
@@ -56,10 +84,10 @@
   },
   "seasons": {
     "winter": "0",
-    "spring": "0",
-    "summer": "0",
+    "spring": "1",
+    "summer": "1",
     "autumn": "0",
-    "day": "0",
+    "day": "1",
     "night": "0"
   },
   "notes": {
@@ -73,32 +101,38 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Luna"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

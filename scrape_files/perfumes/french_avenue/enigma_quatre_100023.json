@@ -16,27 +16,27 @@
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "72.0001%"
+      "width": "70.0001%"
     },
     {
       "name": "paçuli",
-      "width": "65%"
+      "width": "63.3334%"
     },
     {
       "name": "narenciye",
-      "width": "63.2498%"
+      "width": "61.8332%"
     },
     {
       "name": "odunsu",
-      "width": "50.9999%"
+      "width": "49.9999%"
     },
     {
       "name": "çiçeksi",
-      "width": "48.2001%"
+      "width": "48.3334%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "47.4999%"
+      "width": "46.6667%"
     }
   ],
   "rating": {
@@ -51,10 +51,10 @@
     }
   },
   "seasons": {
-    "winter": "8",
-    "spring": "7",
+    "winter": "9",
+    "spring": "8",
     "summer": "4",
-    "autumn": "9",
+    "autumn": "10",
     "day": "7",
     "night": "8"
   },
@@ -78,58 +78,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "2",
-    "longLasting": "6",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "2",
-    "strong": "5",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "7",
-    "moreFemale": "2",
-    "unisex": "2",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "5",
-    "greatValue": "2"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "CHOPARD",
-      "name": "Love Chopard"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "First Love"
-    },
-    {
-      "brand": "AHMED AL MAGHRİBİ",
-      "name": "Oud & Roses"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Gris Dior Esprit De Parfum"
-    },
-    {
-      "brand": "FRAGRANCE WORLD",
-      "name": "Roses De Mai"
-    },
-    {
-      "brand": "FRAGRANCE WORLD",
-      "name": "Champ De Rose"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "ARD AL ZAAFARAN",
@@ -191,5 +166,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Angham"
     }
-  ]
+  ],
+  "comments": []
 }

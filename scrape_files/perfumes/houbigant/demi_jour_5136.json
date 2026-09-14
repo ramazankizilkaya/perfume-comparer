@@ -63,12 +63,12 @@
     }
   },
   "seasons": {
-    "winter": "45",
-    "spring": "47",
+    "winter": "46",
+    "spring": "48",
     "summer": "21",
-    "autumn": "59",
-    "day": "59",
-    "night": "50"
+    "autumn": "60",
+    "day": "60",
+    "night": "51"
   },
   "notes": {
     "top": [
@@ -93,75 +93,38 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "6",
-    "moderate": "19",
-    "longLasting": "25",
-    "eternal": "7"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "19",
-    "strong": "33",
-    "enormous": "10"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "22",
-    "moreFemale": "1",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "2"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "3",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "9",
-    "goodValue": "4",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "FRAGONARD",
-      "name": "Emilie"
-    },
-    {
-      "brand": "TED LAPİDUS",
-      "name": "Creation"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Paris"
-    },
-    {
-      "brand": "ORİFLAME",
-      "name": "Volare"
-    },
-    {
-      "brand": "DANA",
-      "name": "Demi-Jour"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Jardins de Bagatelle"
-    },
-    {
-      "brand": "DETAİLLE",
-      "name": "Sofia"
-    },
-    {
-      "brand": "ANNE KLEİN",
-      "name": "Anne Klein"
-    },
-    {
-      "brand": "STEPHANİE DE MONACO",
-      "name": "L'Insaisissable"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Fragile"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
+    {
+      "brand": "CHANEL",
+      "name": "Chanel No 5 Parfum"
+    },
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Paris"
@@ -217,10 +180,7 @@
     {
       "brand": "CHANEL",
       "name": "Coco Eau de Parfum"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "Magie Noire"
     }
-  ]
+  ],
+  "comments": []
 }

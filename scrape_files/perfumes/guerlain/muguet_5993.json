@@ -63,94 +63,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "4",
-    "moderate": "9",
-    "longLasting": "3",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "9",
-    "strong": "9",
-    "enormous": "15"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "8",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet Millésime 2020"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet 2011"
-    },
-    {
-      "brand": "LOUİS VUİTTON",
-      "name": "Apogée"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet 2012"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet Millésime 2021"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet Millésime 2025"
-    },
-    {
-      "brand": "PENHALİGON'S",
-      "name": "Lily of the Valley"
-    },
-    {
-      "brand": "THE DUA BRAND",
-      "name": "Divine Green"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet Millésime 2022"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet 2024"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet 2023"
-    },
-    {
-      "brand": "SHİSEİDO",
-      "name": "Muge"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Lucky"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Muguet 1998"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Lilia Bella"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -201,16 +140,17 @@
       "name": "Angélique Noire"
     },
     {
-      "brand": "DİOR",
-      "name": "Hypnotic Poison"
-    },
-    {
       "brand": "GUERLAİN",
       "name": "Jicky"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Hypnotic Poison"
     },
     {
       "brand": "HERMÈS",
       "name": "Eau des Merveilles"
     }
-  ]
+  ],
+  "comments": []
 }

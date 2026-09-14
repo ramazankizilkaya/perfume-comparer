@@ -49,6 +49,34 @@
     {
       "name": "balsamik",
       "width": "46.25%"
+    },
+    {
+      "name": "Online satın alın 9 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,33 +114,90 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "4",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "4",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Elixir"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "The Kingdom For Men"
+    },
+    {
+      "brand": "RAYHAAN",
+      "name": "Rayhaan Elixir"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Elixir Absolu"
+    },
+    {
+      "brand": "RİSALA",
+      "name": "Helios"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Glacier Gold"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Urban Man Elixir"
+    },
+    {
+      "brand": "LE FALCONÉ PERFUMES",
+      "name": "Muharib Alpha"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Luna Rossa Black"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2011"
+    },
+    {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Mmmm..."
+    },
+    {
+      "brand": "PRADA",
+      "name": "Prada L'Homme Intense"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Le Parfum"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Turathi Blue"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -139,6 +224,14 @@
       "name": "Champion G.O.A.T"
     },
     {
+      "brand": "GUESS",
+      "name": "Guess 1981 Indigo for Men"
+    },
+    {
+      "brand": "JOHN VARVATOS",
+      "name": "XX Artisan"
+    },
+    {
       "brand": "KENZO",
       "name": "Kenzo Homme Eau de Toilette Intense"
     },
@@ -146,5 +239,6 @@
       "brand": "NAUTİCA",
       "name": "Nautica Voyage"
     }
-  ]
+  ],
+  "comments": []
 }

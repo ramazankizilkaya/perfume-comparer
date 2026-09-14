@@ -23,11 +23,11 @@
       "width": "48.421%"
     },
     {
-      "name": "pudralı",
+      "name": "sıcak baharatlı",
       "width": "46.579%"
     },
     {
-      "name": "sıcak baharatlı",
+      "name": "pudralı",
       "width": "46.579%"
     },
     {
@@ -37,15 +37,43 @@
     {
       "name": "balsamik",
       "width": "45.1974%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.04",
-    "votesCount": "48",
+    "score": "4.02",
+    "votesCount": "53",
     "breakdown": {
-      "love": "20",
-      "like": "13",
-      "ok": "13",
+      "love": "21",
+      "like": "15",
+      "ok": "15",
       "dislike": "1",
       "hate": "1"
     }
@@ -54,8 +82,8 @@
     "winter": "27",
     "spring": "29",
     "summer": "18",
-    "autumn": "30",
-    "day": "31",
+    "autumn": "31",
+    "day": "32",
     "night": "22"
   },
   "notes": {
@@ -75,33 +103,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "4",
+    "moderate": "17",
+    "longLasting": "7",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "17",
+    "strong": "6",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "6",
+    "moreMale": "14",
+    "male": "15"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "3",
+    "overpriced": "2",
+    "fair": "15",
+    "goodValue": "9",
+    "greatValue": "19"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "PENHALİGON'S",
+      "name": "The Inimitable William Penhaligon"
+    },
+    {
+      "brand": "EX NİHİLO",
+      "name": "Vetiver Moloko"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Grey Vetiver"
+    },
+    {
+      "brand": "MİLLER ET BERTAUX",
+      "name": "Indian Study / Santal +++"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Toro Pour Homme Glace"
+    },
+    {
+      "brand": "MEMO PARİS",
+      "name": "Russian Leather"
+    },
+    {
+      "brand": "ATKİNSONS",
+      "name": "James"
+    },
+    {
+      "brand": "RAMON MONEGAL",
+      "name": "Siesta"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Russe Leather"
+    },
+    {
+      "brand": "BENTLEY",
+      "name": "Bentley For Men Absolute"
+    },
+    {
+      "brand": "MATİÈRE PREMİÈRE",
+      "name": "Bois d'Ebene"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LALİQUE",
@@ -132,10 +205,6 @@
       "name": "Asad"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Fakhar Black"
-    },
-    {
       "brand": "MAİSON ALHAMBRA",
       "name": "Hercules"
     },
@@ -152,16 +221,21 @@
       "name": "Qaa'ed"
     },
     {
-      "brand": "VERSACE",
-      "name": "Versace Pour Homme Dylan Blue"
-    },
-    {
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Blazing"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Ramz Lattafa Silver"
     }
-  ]
+  ],
+  "comments": []
 }

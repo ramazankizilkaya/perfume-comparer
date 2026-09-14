@@ -87,58 +87,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "3",
-    "moderate": "0",
-    "longLasting": "0",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "0",
-    "strong": "7",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "DİVİNE",
-      "name": "L'Homme de Coeur"
-    },
-    {
-      "brand": "MOLİNARD",
-      "name": "Acqua Lotus"
-    },
-    {
-      "brand": "TOM DAXON",
-      "name": "Iridium"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Les Voyages Olfactifs 02 Paris-New York"
-    },
-    {
-      "brand": "JAMES HEELEY",
-      "name": "Iris de Nuit"
-    },
-    {
-      "brand": "TRUSSARDİ",
-      "name": "Aperitivo Milanese Porta Nuova"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -200,5 +175,6 @@
       "brand": "DİOR",
       "name": "Fève Délicieuse"
     }
-  ]
+  ],
+  "comments": []
 }

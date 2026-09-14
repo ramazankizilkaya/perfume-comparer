@@ -49,15 +49,43 @@
     {
       "name": "sıcak baharatlı",
       "width": "51.875%"
+    },
+    {
+      "name": "Online satın alın 42 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.20",
-    "votesCount": "59",
+    "votesCount": "60",
     "breakdown": {
       "love": "6",
       "like": "27",
-      "ok": "2",
+      "ok": "3",
       "dislike": "21",
       "hate": "3"
     }
@@ -112,7 +140,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "2",
+    "fair": "3",
     "goodValue": "1",
     "greatValue": "1"
   },
@@ -130,10 +158,6 @@
       "name": "Yellow Diamond"
     },
     {
-      "brand": "DONNA KARAN",
-      "name": "DKNY Be Delicious"
-    },
-    {
       "brand": "PUMA",
       "name": "Yellow"
     },
@@ -144,6 +168,10 @@
     {
       "brand": "EİSENBERG",
       "name": "Eau Fraîche Délicate"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY Be Delicious"
     },
     {
       "brand": "AVON",
@@ -215,5 +243,6 @@
       "brand": "LANCÔME",
       "name": "Trésor"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -29,26 +29,54 @@
     {
       "name": "tatlı",
       "width": "44.7954%"
+    },
+    {
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.80",
-    "votesCount": "132",
+    "score": "3.82",
+    "votesCount": "139",
     "breakdown": {
-      "love": "52",
-      "like": "37",
+      "love": "56",
+      "like": "39",
       "ok": "18",
-      "dislike": "14",
+      "dislike": "15",
       "hate": "11"
     }
   },
   "seasons": {
-    "winter": "51",
-    "spring": "43",
+    "winter": "52",
+    "spring": "45",
     "summer": "21",
-    "autumn": "53",
-    "day": "39",
-    "night": "54"
+    "autumn": "56",
+    "day": "41",
+    "night": "56"
   },
   "notes": {
     "top": [
@@ -71,33 +99,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "3",
+    "moderate": "24",
+    "longLasting": "30",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "24",
+    "strong": "18",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "0",
+    "unisex": "16",
+    "moreMale": "26",
+    "male": "35"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "28",
+    "overpriced": "22",
     "fair": "18",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "FUEGUİA 1833",
+      "name": "Jacarandá 2016 Edition"
+    },
+    {
+      "brand": "SENTİFİQUE",
+      "name": "Testosterone"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Wood Blend"
+    },
+    {
+      "brand": "GİSADA",
+      "name": "Imperial"
+    },
+    {
+      "brand": "BİLLİE EİLİSH",
+      "name": "Eilish No.3"
+    },
+    {
+      "brand": "AURA PERFUME",
+      "name": "TestoX"
+    },
+    {
+      "brand": "ADİ ALE VAN",
+      "name": "02.01.83 – First Potion"
+    },
+    {
+      "brand": "NVRNAGN",
+      "name": "FÉSTIVAL"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Fahrenheit Absolute"
+    },
+    {
+      "brand": "FRANCESCA BİANCHİ",
+      "name": "Under My Skin"
+    },
+    {
+      "brand": "ELECTİMUSS",
+      "name": "Black Caviar"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TAUER PERFUMES",
@@ -159,5 +232,6 @@
       "brand": "XERJOFF",
       "name": "Tony Iommi Monkey Special"
     }
-  ]
+  ],
+  "comments": []
 }

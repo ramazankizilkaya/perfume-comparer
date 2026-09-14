@@ -27,11 +27,11 @@
       "width": "57.7778%"
     },
     {
-      "name": "laktonik",
+      "name": "yumuşak baharatlı",
       "width": "53.3333%"
     },
     {
-      "name": "yumuşak baharatlı",
+      "name": "laktonik",
       "width": "53.3333%"
     }
   ],
@@ -64,46 +64,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "6",
-    "longLasting": "2",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "6",
-    "strong": "1",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "3",
-    "unisex": "8",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "5",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ELİXİR ATTAR",
-      "name": "Huaxia"
-    },
-    {
-      "brand": "ONE DAY",
-      "name": "Osmanthus Tea"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Madonna"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "FLORAÏKU",
@@ -150,10 +137,6 @@
       "name": "French Lover"
     },
     {
-      "brand": "FUEGUİA 1833",
-      "name": "New York (Gabriela Hearst)"
-    },
-    {
       "brand": "SERGE LUTENS",
       "name": "De Profundis"
     },
@@ -164,6 +147,11 @@
     {
       "brand": "GUERLAİN",
       "name": "Néroli Outrenoir"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Fleurs d'Oranger"
     }
-  ]
+  ],
+  "comments": []
 }

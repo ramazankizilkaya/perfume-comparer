@@ -92,46 +92,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "6",
-    "weak": "4",
-    "moderate": "4",
-    "longLasting": "6",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "4",
-    "strong": "9",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Le Bolshoi 2011 Edition Limitee"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Les Secrets de Sophie"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "La Vie Est Belle"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -193,5 +180,6 @@
       "brand": "LANCÔME",
       "name": "Trésor"
     }
-  ]
+  ],
+  "comments": []
 }

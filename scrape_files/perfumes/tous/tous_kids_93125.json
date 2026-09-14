@@ -45,6 +45,34 @@
     {
       "name": "vanilya",
       "width": "46.2319%"
+    },
+    {
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,7 @@
     "spring": "6",
     "summer": "4",
     "autumn": "4",
-    "day": "6",
+    "day": "7",
     "night": "2"
   },
   "notes": {
@@ -87,41 +115,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "0",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "1",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
-      "brand": "LOUİS VUİTTON",
-      "name": "Pacific Chill"
+      "brand": "JESUS DEL POZO",
+      "name": "Duende"
     },
+    {
+      "brand": "BEBE",
+      "name": "Bebe"
+    },
+    {
+      "brand": "TONYMOLY",
+      "name": "Bebe"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Devotion"
+    }
+  ],
+  "peopleAlsoLike": [
     {
       "brand": "DONNA KARAN",
       "name": "DKNY Be Delicious Ice Pop Citrus Splash"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Pacific Chill"
     },
     {
       "brand": "MİCHAEL MALUL LONDON",
@@ -175,5 +220,6 @@
       "brand": "RABANNE",
       "name": "Million Gold For Her"
     }
-  ]
+  ],
+  "comments": []
 }

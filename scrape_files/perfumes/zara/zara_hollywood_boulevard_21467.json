@@ -9,7 +9,36 @@
   "description": "Zara markasının Zara Hollywood Boulevard parfümü, kadınlar için bir kokudur.",
   "description_original": "Zara markasının Zara Hollywood Boulevard parfümü, kadınlar için bir kokudur.",
   "description_enhanced": "Zara markasının Zara Hollywood Boulevard parfümü, kadınlar için bir kokudur.",
-  "mainAccords": [],
+  "mainAccords": [
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    }
+  ],
   "rating": {
     "score": "4.31",
     "votesCount": "16",
@@ -36,33 +65,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "1",
+    "moderate": "6",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "6",
+    "strong": "1",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES ROCHER",
+      "name": "Naturelle"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue"
+    },
+    {
+      "brand": "ZARA",
+      "name": "6902 Hollywood Boulevard Los Angeles"
+    },
+    {
+      "brand": "KENZO",
+      "name": "L'Eau par Kenzo"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ELİE SAAB",
@@ -124,5 +170,6 @@
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez for Her Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

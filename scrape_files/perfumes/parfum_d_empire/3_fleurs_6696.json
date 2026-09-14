@@ -2,7 +2,7 @@
   "name": "3 Fleurs Parfum d'Empire",
   "targetGender": "kadınlar için",
   "fragranceFamily": "Floral",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.6696.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Parfum-d-Empire/3-Fleurs-6696.html",
   "brand": "Parfum d'Empire parfüm ve kolonya",
@@ -45,25 +45,53 @@
     {
       "name": "animalik",
       "width": "45.9217%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.53",
-    "votesCount": "385",
+    "votesCount": "389",
     "breakdown": {
       "love": "98",
-      "like": "139",
-      "ok": "28",
-      "dislike": "110",
-      "hate": "10"
+      "like": "140",
+      "ok": "31",
+      "dislike": "109",
+      "hate": "11"
     }
   },
   "seasons": {
     "winter": "24",
-    "spring": "100",
-    "summer": "55",
-    "autumn": "44",
-    "day": "93",
+    "spring": "101",
+    "summer": "56",
+    "autumn": "45",
+    "day": "94",
     "night": "44"
   },
   "notes": {
@@ -101,7 +129,7 @@
     "enormous": "24"
   },
   "genderVoting": {
-    "female": "29",
+    "female": "30",
     "moreFemale": "19",
     "unisex": "8",
     "moreMale": "1",
@@ -110,7 +138,7 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "9",
-    "fair": "28",
+    "fair": "31",
     "goodValue": "6",
     "greatValue": "2"
   },
@@ -128,6 +156,14 @@
       "name": "eo03"
     },
     {
+      "brand": "HOUBİGANT",
+      "name": "Quelques Fleurs l'Original"
+    },
+    {
+      "brand": "ETRO",
+      "name": "Royal Pavillon"
+    },
+    {
       "brand": "COMME DES GARCONS",
       "name": "Comme des Garcons Series 2 Red: Rose"
     },
@@ -136,16 +172,8 @@
       "name": "Sundance"
     },
     {
-      "brand": "ETRO",
-      "name": "Royal Pavillon"
-    },
-    {
       "brand": "M.E.C - MY EXCLUSİVE COLLECTİON",
       "name": "Murmure d'Alcôve"
-    },
-    {
-      "brand": "HOUBİGANT",
-      "name": "Quelques Fleurs l'Original"
     },
     {
       "brand": "VİCKY TİEL",
@@ -168,12 +196,12 @@
       "name": "Schöne Linden 05"
     },
     {
-      "brand": "JEAN PATOU",
-      "name": "Joy Collector Edition Eau de Parfum"
-    },
-    {
       "brand": "LORENZO VİLLORESİ",
       "name": "25 Insieme"
+    },
+    {
+      "brand": "MAİSON NİCOLAS DE BARRY",
+      "name": "L'eau de la Marquise de Pompadour"
     }
   ],
   "peopleAlsoLike": [
@@ -186,10 +214,6 @@
       "name": "Carnal Flower"
     },
     {
-      "brand": "DİOR",
-      "name": "Poison"
-    },
-    {
       "brand": "AMOUAGE",
       "name": "Lyric Woman"
     },
@@ -198,12 +222,12 @@
       "name": "Eau Suave"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Memoir Woman"
-    },
-    {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Iris Poudre"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Memoir Woman"
     },
     {
       "brand": "TAUER PERFUMES",
@@ -212,6 +236,10 @@
     {
       "brand": "GUERLAİN",
       "name": "L'Heure Bleue Eau de Parfum"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -237,5 +265,6 @@
       "brand": "GUERLAİN",
       "name": "Shalimar Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

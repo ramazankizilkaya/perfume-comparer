@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/Capricho-33553.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının Capricho parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Capricho, 2001 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Adilson Rato. Üst notalar: Kırmızı meyveler, Bergamot, Yeşil Notalar, Biber ve Nane; orta notalar: Badem, Frezya, Tonka fasulyesi, Siklamen ve Yasemin; alt notalar Vanilya, Amber, Misk, Sedir ve Sandal ağacı.",
-  "description_original": "O Boticário markasının Capricho parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Capricho, 2001 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Adilson Rato. Üst notalar: Kırmızı meyveler, Bergamot, Yeşil Notalar, Biber ve Nane; orta notalar: Badem, Frezya, Tonka fasulyesi, Siklamen ve Yasemin; alt notalar Vanilya, Amber, Misk, Sedir ve Sandal ağacı.",
+  "description_original": "O Boticário markasının Capricho parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Capricho, 2001 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Adilson Rato. Üst notalar: Kırmızı meyveler, Bergamot, Yeşil Notalar, Biber ve Nane; orta notalar: Badem, Frezya, Tonka fasulyesi, Sıklamen ve Yasemin; alt notalar Vanilya, Amber, Misk, Sedir ve Sandal ağacı.",
   "description_enhanced": "O Boticário markasının Capricho parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Capricho, 2001 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Adilson Rato. Üst notalar: Kırmızı meyveler, Bergamot, Yeşil Notalar, Biber ve Nane; orta notalar: Badem, Frezya, Tonka fasulyesi, Siklamen ve Yasemin; alt notalar Vanilya, Amber, Misk, Sedir ve Sandal ağacı.",
   "mainAccords": [
     {
@@ -49,25 +49,53 @@
     {
       "name": "odunsu",
       "width": "71.7164%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.13",
-    "votesCount": "472",
+    "votesCount": "476",
     "breakdown": {
-      "love": "187",
-      "like": "212",
-      "ok": "25",
+      "love": "189",
+      "like": "213",
+      "ok": "26",
       "dislike": "43",
       "hate": "5"
     }
   },
   "seasons": {
     "winter": "42",
-    "spring": "157",
-    "summer": "137",
-    "autumn": "87",
-    "day": "184",
+    "spring": "158",
+    "summer": "139",
+    "autumn": "88",
+    "day": "186",
     "night": "58"
   },
   "notes": {
@@ -82,7 +110,7 @@
       "Badem",
       "Frezya",
       "Tonka fasulyesi",
-      "Siklamen",
+      "Sıklamen",
       "Yasemin"
     ],
     "base": [
@@ -96,13 +124,13 @@
   },
   "longevity": {
     "veryWeak": "10",
-    "weak": "53",
+    "weak": "54",
     "moderate": "90",
     "longLasting": "6",
     "eternal": "3"
   },
   "sillage": {
-    "intimate": "48",
+    "intimate": "49",
     "moderate": "90",
     "strong": "23",
     "enormous": "7"
@@ -117,7 +145,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "4",
-    "fair": "25",
+    "fair": "26",
     "goodValue": "60",
     "greatValue": "26"
   },
@@ -167,12 +195,12 @@
       "name": "La Petite Fleur Secrète"
     },
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Intense Boom!"
-    },
-    {
       "brand": "MAİSON ALHAMBRA",
       "name": "Athena"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor Baunilha Amazônica"
     }
   ],
   "peopleAlsoLike": [
@@ -213,12 +241,12 @@
       "name": "Glamour Secrets Black"
     },
     {
-      "brand": "NATURA",
-      "name": "Luna"
-    },
-    {
       "brand": "DİOR",
       "name": "J'adore"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Luna"
     },
     {
       "brand": "LANCÔME",
@@ -236,5 +264,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Floratta in Rose"
     }
-  ]
+  ],
+  "comments": []
 }

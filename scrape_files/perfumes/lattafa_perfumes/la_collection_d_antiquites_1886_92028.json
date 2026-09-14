@@ -16,59 +16,87 @@
     },
     {
       "name": "tatlı",
-      "width": "98.6759%"
-    },
-    {
-      "name": "vanilya",
-      "width": "98.1084%"
+      "width": "99.1925%"
     },
     {
       "name": "pudralı",
-      "width": "95.4595%"
+      "width": "95.0642%"
+    },
+    {
+      "name": "vanilya",
+      "width": "93.0896%"
     },
     {
       "name": "iris",
-      "width": "91.4865%"
+      "width": "91.0255%"
     },
     {
       "name": "odunsu",
-      "width": "78.8112%"
+      "width": "76.1279%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "66.5137%"
+      "width": "64.2818%"
     },
     {
       "name": "toprak",
-      "width": "62.9187%"
+      "width": "61.5899%"
     },
     {
       "name": "aromatik",
-      "width": "60.9322%"
+      "width": "60.4228%"
     },
     {
       "name": "narenciye",
-      "width": "57.4327%"
+      "width": "58.7176%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.25",
-    "votesCount": "233",
+    "score": "4.22",
+    "votesCount": "245",
     "breakdown": {
-      "love": "116",
-      "like": "73",
-      "ok": "33",
-      "dislike": "8",
+      "love": "120",
+      "like": "76",
+      "ok": "35",
+      "dislike": "11",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "128",
-    "spring": "98",
-    "summer": "28",
-    "autumn": "137",
-    "day": "85",
-    "night": "117"
+    "winter": "137",
+    "spring": "102",
+    "summer": "29",
+    "autumn": "145",
+    "day": "91",
+    "night": "125"
   },
   "notes": {
     "top": [
@@ -92,33 +120,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "6",
+    "moderate": "48",
+    "longLasting": "72",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "48",
+    "strong": "36",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "13",
+    "moreFemale": "15",
+    "unisex": "88",
+    "moreMale": "38",
+    "male": "14"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "33",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "6",
+    "overpriced": "7",
+    "fair": "35",
+    "goodValue": "57",
+    "greatValue": "31"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2011"
+    },
+    {
+      "brand": "JOVOY PARİS",
+      "name": "Remember Me"
+    },
+    {
+      "brand": "AL WATANİAH",
+      "name": "Kayaan Classic"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Parfum"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Uomo"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "His Confession"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Parfum Reserve Privée"
+    },
+    {
+      "brand": "CARON",
+      "name": "Tabac Blanc"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Thunder Extrait"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "L’Ange Noir"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Dark Door Intense"
+    },
+    {
+      "brand": "BON PARFUMEUR",
+      "name": "403 Myrrh Shadow"
+    },
+    {
+      "brand": "STÉPHANE HUMBERT LUCAS 777",
+      "name": "Sand Dance"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Shalimar L'Essence"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "FRENCH AVENUE",
@@ -141,6 +230,10 @@
       "name": "Spectre Ghost"
     },
     {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Honor & Glory"
     },
@@ -149,20 +242,16 @@
       "name": "Raghba"
     },
     {
-      "brand": "XERJOFF",
-      "name": "XJ 1861 Naxos"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Ameer Al Oudh Intense Oud"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Khamrah Qahwa"
+      "name": "Nebras"
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Nebras"
+      "name": "Khamrah Qahwa"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -179,6 +268,178 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "La Collection D'antiquités 1910"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent678832",
+      "author": "Ignacio Bravo",
+      "date": "2026-02-13",
+      "text": "Ted Lapidus'un Poker Face adlı parfümüne sahibim, YSL'nin La Nuit de l'Homme'una benzer bir koku. Oldukça benzer ve iris çiçeğini ilk kez bu parfümde tanıdım. Her ikisinde de iris çiçeği ana bileşen olarak yer alıyor, ancak her birinin kendine özgü farklılıkları var.\nBu daha tatlı, daha pudralı ve daha sade, ancak performans açısından diğerini geride bırakıyor. Ayrıca tamamen unisex. Bu nedenle, belki de bu daha çok geceye, kışa ve daha dikkat çekici bir tarza uygun.\nTanıdığım ve sevdiğim iris çiçeği, inanılmaz derecede düşük bir fiyata...",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.115763.jpg"
+    },
+    {
+      "id": "parent730579",
+      "author": "ivanessens",
+      "date": "2025-11-19",
+      "text": "İlk izlenim büyüleyiciydi! Test kağıdında, o kadar etkileyici bir narenciye mat kokusu olarak açılıyor ki, tekrar tekrar denemek istiyorsunuz. Ne yazık ki, sıcak ciltte anında kayboluyor. Diğer parfümleri denerken, havada varlığını hissedebiliyordum. Ancak, gerçekten kokladığımda, o büyüleyici çay aromasından eser yoktu. Sadece çok hoş, ancak tamamen farklı bir vanilya-beyaz-çiçeksi pudra ve misk kokusu vardı; kağıttaki canlı görüntüye hiç benzemiyordu.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.321590.jpg"
+    },
+    {
+      "id": "parent678817",
+      "author": "Kittenwhiskers",
+      "date": "2025-09-04",
+      "text": "Ziyafet salonu gibi kokuyor ama en keyifli, nostaljik bir şekilde.\n\nGüncelleme:\nBelki de yoğun, mumsu iris çiçeği kokusuyla karışmış hafif bir parlaklıktır. İnce bir odunsu nota da hissediliyor.\n\nBirisi bunu \"bir kadının çantasının içi\" olarak tanımladı ve dürüst olmak gerekirse bunu anlayabiliyorum. Temiz/düzenli ama aynı zamanda yıpranmış bir havası var.\n\nBu, geniş kitlelere hitap eden bir koku değil. Biraz tuhaf ama şık, cumartesileri müzeleri gezen, vintage deri çizmeleri seven, gizli barlara meraklı bir tipin kokusu.\n\nAçılış maalesef biraz sakil. Uyumsuz demek istemiyorum çünkü belki de harmanlama/malzeme sorunu vardı. Ekşi bir tat veriyor, neredeyse beyaz çikolata ganajı ve beyaz tütün kombinasyonunu bozuyor.\n\nKesinlikle heyecan verici bir deneyim. Parfüm hobim boyunca ilk defa gerçekten \"niş\" bir kokuyla karşılaşıyorum.\n\nZiyafet salonuyla ilgili yorum hala geçerliliğini koruyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2084908.jpg"
+    },
+    {
+      "id": "parent678814",
+      "author": "Candyshop12",
+      "date": "2025-09-02",
+      "text": "En iyi deneme yanılma yoluyla aldığım parfümlerden biri! Çok hoş ve hafif pudralı, ama ben genellikle parfümlerde pudralı tonları çok sevmem, ancak bu çok seksi ve kremsi bir havayla yumuşak baharatlı, vanilyalı tatlı bir alt tonu var. 10/10. Bu unisex bir parfüm ama kremsi yumuşaklığı nedeniyle bana daha çok kadınsı geliyor. Çok sevdim.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1980707.jpg"
+    },
+    {
+      "id": "parent730578",
+      "author": "Elena Ergina",
+      "date": "2025-08-25",
+      "text": "Sözde DHI tarzında ama bence hiç de öyle değil. Evet, biberli ve iris notalarını paylaşıyorlar. Bolca iris, pudralı notalar ve yumuşak odunsu notalar var. Ama bence hepsi bu kadar. Yaklaşık %60, daha fazla değil. Ben bunu DHI klonu değil, bağımsız bir koku olarak görüyorum. 1886'nın açılışı bana biraz yanmış plastik gibi geliyor. Uygulamaya yaklaştıkça daha da plastikimsi oluyor. Kuruma aşamasında ise tamamen kayboluyor.\nHafif bir tatlılık var. Muhteşem bir tütün. Sanki kurutulmuş, tahta bir masaya dökülmüş ve üzerine öğütülmüş karabiber ve tozlu paçuli serpilmiş gibi. Ve o masada birileri oturmuş trüflü kahve içiyormuş gibi.\nŞaşırtıcı olan, kokunun French Avenue'nin Vulcan Fue'suna benzemesiydi. 1886'ya biraz daha vanilya, biraz süt notası ve daha az iris ekleyin; işte size Vulcan'a çok yakın bir koku.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.443863.jpg"
+    },
+    {
+      "id": "parent678831",
+      "author": "ShiseidoTactics",
+      "date": "2025-06-16",
+      "text": "Oldukça unisex bir koku; daha çok erkeksi mi yoksa kadınsı mı olduğunu söylemek imkansız.\n\nDiğer yorumlara katılıyorum; Dior Homme Intense'in DNA'sını taşıyor (bir kopyası olmasa da), kendine özgü bir kişiliği olan bir koku.\n\nEğer istek listemde bu kadar çok parfüm olmasaydı, kesinlikle alırdım (şişeyi pek beğenmiyorum ama yapacak bir şey yok). Henüz performans özellikleriyle ilgili yorum yapamıyorum çünkü sadece mağazada (kağıt üzerinde ve tenimde) denedim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.3189.jpg"
+    },
+    {
+      "id": "parent730577",
+      "author": "tsumetai_kaze",
+      "date": "2025-05-17",
+      "text": "Beğendim. Sertlik yok, sert dip notalar yok. Bence deri, iris ve kahve çekirdeklerinin yumuşak bir kokusu. Cildimde, dip notalar aslında çikolata ve kahve gibi kokuyor. İnanın ya da inanmayın, sağlıklı bir insan için \"La vie est belle\" gibi bir şey :) Aşırı süslü ve abartılı kadınsılık olmadan.\nHem erkeklere hem de kadınlara yakışır. Aslında arka planda hissedilen bir koku; otel veya kliniklerde kullanılan bir oda kokusu gibi geliyor aklıma. :) Benzer mağazalarda bulunan Dior Homme Intense ise benim burnuma daha da sert geliyor. Bu şaşırtıcı, çünkü Lattafa ve diğer birçok Arap markasının temel notaları genellikle korkunç dönüşümlerden geçiyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.269657.jpg"
+    },
+    {
+      "id": "parent678830",
+      "author": "Alex R",
+      "date": "2025-05-06",
+      "text": "Çok güzel bir koku, Dior Homme Intense'e pek benzemiyor, daha çok irisli beyaz çikolata parfümü gibi. Kuruduktan sonra hafif bir Dior Homme anımsatması oluyor ki bu hoşuma gidiyor çünkü çok kesin bir benzerlik yok; Dior Homme serisinden birkaç benzer parfümüm var ve varyasyonlar olduğunda gereksiz bir tekrar olmuyor.\nÇok güzel bir parfüm.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent678810",
+      "author": "gogerix",
+      "date": "2025-04-11",
+      "text": "Dior Homme Intense'in birebir kopyası değil, ancak oldukça benzer bir his veriyor. DHI'dan daha az misk ve odunsu, çok daha beyaz çiçekli. Tütün hoş bir dokunuş. Biraz kadınsı, kremsi, yumuşak, ama kesinlikle kendim de kullanabileceğimi düşünüyorum. Kremsi iris kokularını seviyorsanız harika bir parfüm.\n\nTabac Blanc'ı sadece bir kez, o da kapağında kokladım, bu yüzden ona benzer olup olmadığı konusunda yorum yapamam.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1271976.jpg"
+    },
+    {
+      "id": "parent678811",
+      "author": "ThatCho",
+      "date": "2025-04-03",
+      "text": "Bu, hak ettiği değeri görmeyen bir koku. Hem kadınlar hem de erkekler için uygun olsa da, hafifçe kadınsı bir havası var. İlk sıktığımda, tatlı, ışıltılı bir yasemin ve bergamot şampanyası kokusu alıyorum. Mate aromasını pek alamıyorum, ancak ağaç kabuğundan gelen hafif bir odunsu koku hissediyorum. Ayrıca tarçın ve tonka fasulyesinden gelen hafif bir tatlılık da var. En önemli özelliği ise, burada gerçekten enfes olan beyaz çikolata.\n\nPerformansı fena değil, ama çok da etkileyici değil. İdeal olarak, bunu ilkbaharda özel günler veya gece dışarı çıkarken kullanmayı düşünüyorum, ancak aslında her mevsimden unsurlar içerdiği için yıl boyunca kullanılabilecek bir koku. Beyler, bunu kullanmaktan çekinmeyin!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent678863",
+      "author": "Victoreruin",
+      "date": "2025-03-13",
+      "text": "Bana göre, bu vasat parfüm, sıcak çay notalarıyla açıldı, sonra öksürük şurubu gibi baharatlı ve tatlı bir hal aldı. Yaklaşık 20 dakika sonra, çocukken annemin yaptığı gibi vanilya içermeyen pandispanya aroması ortaya çıktı. Ardından tatlı bir meyve notası belirdi – belki çilek ya da tütün çiçeği – ve her şey çiçeksi-anason notasına dönüştü. Benim için bu alışılmadık gelişme ikinci denemede dikkatimi çekti; ilk seferinde beğenmemiştim ve uzun sürmemişti de.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.419881.jpg"
+    },
+    {
+      "id": "parent678861",
+      "author": "Lisbet_S",
+      "date": "2024-12-15",
+      "text": "Serge Lutens'in Dime Blonde'unu özlemle ananlar bunu deneyebilir ve belki de aşık olabilirler. Daha narin, biraz daha tatlı, o korkunç teknik notadan yoksun ve Arap parfümleri arasında böylesine eşsiz, hatta entelektüel bir koku bulmak beni çok şaşırttı. Cabriolet, diğer hiçbir kokuya benzemiyor ve koleksiyonda yer almayı hak ediyor.\nŞişelerin güzelliğinden bahsetmeye bile gerek yok.\n5+",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.187649.jpg"
+    },
+    {
+      "id": "parent678859",
+      "author": "Nastassia Dubadelova",
+      "date": "2024-10-30",
+      "text": "Bu akşam uyguladım. Narenciye ve tarçın kokusuyla adeta bir bulutun içindeyim... Sanki Bake Akro'nun belirgin gurme özelliğini ortadan kaldırıp yerine biraz baharat ve hafif tıbbi bir alt ton eklemiş gibi. Limon kabuğu, tarçın ve diğer baharatlarla tatlandırılmış yaprak çay gibi - siyah veya yeşil çay bile olabilir... %100 unisex.\nBir süre sonra tozlaşmaya başladı... Her halükarda, kokusu çok hoş!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.356916.jpg"
+    },
+    {
+      "id": "parent678809",
+      "author": "aspirina",
+      "date": "2024-09-26",
+      "text": "Kokusu tatlı, pudralı ve çok çiçeksi. Bazı gurme notaları da içeriyor. Bana Lolita Lempicka'nın (kadın versiyonu) Dior Homme ile karışımını veya Shalimar'ın sulandırılmış bir versiyonunu hatırlatıyor. Bence bu çok güzel bir koku ama şişesiyle hiç uyuşmuyor! Çiçekli, sevimli bir şişede gelmeliydi...",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.128870.jpg"
+    },
+    {
+      "id": "parent678808",
+      "author": "tacos3viandes",
+      "date": "2024-08-24",
+      "text": "Hoş, zarif ve yumuşak iris çiçeği, ferahlatıcı çiçeksi notalar. Ciltte biraz bekledikten sonra, diğer notaları bastırmayan, aksine onlarla harmanlanan beyaz çikolata notası ortaya çıkıyor. Genel olarak çok iyi bir koku, küçük bir numunesini denedim, kesinlikle gelecekte bir şişe alacağım.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2108681.jpg"
+    },
+    {
+      "id": "parent678807",
+      "author": "Gigi Ashanti",
+      "date": "2024-05-28",
+      "text": "Bu parfümlerin fiyatı da bunu yansıtıyor. Sabırsız olursanız bu mücevherlerin tadını çıkaramazsınız! Kokunun olgunlaşması için bekletilmesi gerekiyor. Özellikle gurme notaları içeriyorsa. En az 3 ay bekletin, sonra tadına bakın. Şişenin rengi süreci görmeyi zorlaştırıyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1650536.jpg"
+    },
+    {
+      "id": "parent678842",
+      "author": "Atomicscent",
+      "date": "2024-04-13",
+      "text": "Hem kokusu hem de kalıcılığı açısından oldukça tartışmalı bir parfüm. Çok acı (neredeyse keskin) çikolata, kirli, pudralı iris ve tanımlanamayan baharatların karışımı gibi kokuyor. Gerçekten de kötü bir sonuç, dengesiz ve berbat. Dahası, hakkında okuduğum yoğun Dior Hommes ile hiçbir ortak noktası yok. Kalıcılığı da çok düşük ve yayılımı yok denecek kadar az. Bu sefer Latta gerçekten kötü...\n\n6/10",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.62072.jpg"
     }
   ]
 }

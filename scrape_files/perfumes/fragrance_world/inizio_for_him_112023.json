@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "lavanta",
+      "name": "misk",
       "width": "98.2925%"
     },
     {
-      "name": "misk",
+      "name": "lavanta",
       "width": "98.2925%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "odunsu",
       "width": "69.9511%"
+    },
+    {
+      "name": "Online satın alın 12 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,49 +118,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "9",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "9",
+    "strong": "3",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "6",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Al Nashama Caprice"
+      "brand": "TUMI",
+      "name": "Dusk"
     },
+    {
+      "brand": "CHANEL",
+      "name": "Allure Homme Sport"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Citrus Riviera"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Bvlgari Man Extreme"
+    },
+    {
+      "brand": "SEAN JOHN",
+      "name": "3 AM"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Bvlgari Man Extrême All Black Editions"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Luna Rossa Ocean"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Alpine Homme Sport"
+    },
+    {
+      "brand": "ASDAAF",
+      "name": "Ameer Al Arab"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Rehab"
+    }
+  ],
+  "peopleAlsoLike": [
     {
       "brand": "ARMAF",
       "name": "Club De Nuit Urban Elixir"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Al Qiam Silver"
-    },
-    {
-      "brand": "FRENCH AVENUE",
-      "name": "Aether"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -140,7 +197,7 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Art of Arabia I"
+      "name": "Musamam Black Intense"
     },
     {
       "brand": "AFNAN",
@@ -159,6 +216,10 @@
       "name": "Liquid Brun Limited Edition"
     },
     {
+      "brand": "PARIS CORNER",
+      "name": "Rifaaqat"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "The Kingdom For Men"
     },
@@ -167,16 +228,25 @@
       "name": "Teriaq Intense"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Asad Elixir"
-    },
-    {
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
     },
     {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Exclusif Tabac"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad Elixir"
+    },
+    {
       "brand": "FRAGRANCE WORLD",
       "name": "Notes Jazz"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Vulcan Feu"
     }
-  ]
+  ],
+  "comments": []
 }

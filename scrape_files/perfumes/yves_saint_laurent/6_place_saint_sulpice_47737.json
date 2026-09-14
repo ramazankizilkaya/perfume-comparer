@@ -16,59 +16,87 @@
     },
     {
       "name": "deri",
-      "width": "85.7582%"
+      "width": "85.4601%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "65.8163%"
+      "width": "66.7688%"
     },
     {
       "name": "vanilya",
-      "width": "64.501%"
+      "width": "65.0449%"
     },
     {
       "name": "aromatik",
-      "width": "57.5767%"
+      "width": "57.94%"
     },
     {
       "name": "lavanta",
-      "width": "56.3069%"
+      "width": "56.6809%"
     },
     {
       "name": "tatlı",
-      "width": "55.5659%"
+      "width": "55.8566%"
     },
     {
       "name": "animalik",
-      "width": "51.771%"
+      "width": "51.4347%"
     },
     {
       "name": "misk",
-      "width": "48.1425%"
+      "width": "47.9873%"
     },
     {
       "name": "metalik",
-      "width": "45.2699%"
+      "width": "45.7386%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.52",
-    "votesCount": "808",
+    "score": "4.51",
+    "votesCount": "854",
     "breakdown": {
-      "love": "541",
-      "like": "184",
-      "ok": "52",
-      "dislike": "25",
-      "hate": "6"
+      "love": "570",
+      "like": "189",
+      "ok": "60",
+      "dislike": "28",
+      "hate": "7"
     }
   },
   "seasons": {
-    "winter": "416",
-    "spring": "216",
-    "summer": "65",
-    "autumn": "390",
-    "day": "192",
-    "night": "385"
+    "winter": "434",
+    "spring": "221",
+    "summer": "66",
+    "autumn": "408",
+    "day": "196",
+    "night": "401"
   },
   "notes": {
     "top": [],
@@ -84,33 +112,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "13",
+    "weak": "14",
+    "moderate": "91",
+    "longLasting": "239",
+    "eternal": "67"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "24",
+    "moderate": "91",
+    "strong": "182",
+    "enormous": "49"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "3",
+    "unisex": "110",
+    "moreMale": "181",
+    "male": "130"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "52",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "75",
+    "overpriced": "136",
+    "fair": "60",
+    "goodValue": "18",
+    "greatValue": "14"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MAISON ASRAR",
+      "name": "III THRILLER"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "LV Lovers"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "LVERS Copper Edition"
+    },
+    {
+      "brand": "MİLESTONE PERFUMES",
+      "name": "Sixth Sense"
+    },
+    {
+      "brand": "MATİÈRE PREMİÈRE",
+      "name": "Santal Austral"
+    },
+    {
+      "brand": "BDK PARFUMS",
+      "name": "Gris Charnel Extrait"
+    },
+    {
+      "brand": "SOSPİRO PERFUMES",
+      "name": "Pasticcio"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Cuir Sellier 2025"
+    },
+    {
+      "brand": "MATİÈRE PREMİÈRE",
+      "name": "Santal Austral Extrait"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo Supreme Leather"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Liquid Gold Euphoria Men"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Uomo Noir Absolu"
+    },
+    {
+      "brand": "BİLLİE EİLİSH",
+      "name": "Eilish No 2"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Davidoff Leather Blend"
+    },
+    {
+      "brand": "JUSBOX",
+      "name": "Beat Cafe"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -135,10 +224,6 @@
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Musc Ravageur"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Herod"
     },
     {
       "brand": "PARFUMS DE MARLY",
@@ -171,6 +256,212 @@
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Layton"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Parfum"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent719931",
+      "author": "ElNino-7-",
+      "date": "2024-09-12",
+      "text": "@Sea327 Bence üretimi durdurulmadı, sadece bulmak zor. YSL Beauty UK'de stokta mevcut.\n\nHer ne pahasına olursa olsun körü körüne alışveriş yapmaktan kaçınmaya çalışırım ama sonunda bunu yaparken öyle yaptım! Neyse ki, hiç pişman değilim. Oldukça özel bir şey! Soğuk bir gecede dışarıda giymek için sabırsızlanıyorum.\n\nAyrıca manyetik kapağına da bayıldım.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent607833",
+      "author": "FilipeD",
+      "date": "2024-09-02",
+      "text": "Parfümün öznel bir konu olduğunu ve her insanın farklı şeylerden hoşlandığını biliyoruz.\nO yüzden öznel olarak konuşacağım: Bu parfüm MUHTEŞEM.\nParis metrosunda benden birkaç metre ötede oturan kadınlar kokum hakkında konuşuyorlardı: biri kokunun biraz fazla yoğun olduğunu düşünürken, diğeri çok beğendiğini söyledi; ikisi de benim onları dinlemediğime inanıyordu; oysa aslında konuşmayı duyan ve bana bildiren bir arkadaşımdı.\nDeri notaları, içeriklerin inceliği ve dengesi, zarif ama güvenli bir mesafeden bile mükemmel şekilde algılanabilen bu parfüm, bir şişesini ele geçirme şansına sahip olan her kullanıcı için bir rüya niteliğinde.\nAdını aldığı yeri ziyaret ederken kullandım ve bu deneyimi asla unutmayacağım.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1781169.jpg"
+    },
+    {
+      "id": "parent607854",
+      "author": "RybaParfume",
+      "date": "2024-06-21",
+      "text": "Bu sıcak bir koku bile değil, aksine yakıcı bir koku; eğer onu \"anlarsanız\", kişisel kahramanınız haline gelen türden bir koku. \"Çok\" kelimesinin tüm anlamını taşıyor: çok derimsi, çok tatlı, çok baharatlı ve çok hayvansı... ama bu hayvansı olanı ULTRA iyi eğitilmiş!\n\nBirkaç yıldır satışta olmadığı için bir şişe bulmak zor oldu... 6 PLACE SAINT SULPICE, arama çabasına değdi çünkü ilk nefeste aşık oldum.\n\nSaf, geometrik ve yoğun bir sıcaklık yayıyor. Deri ve baharatların tüm ham gücü, son derece narin bir bitişte bir araya geliyor. Dengesi ona ciddi, neredeyse sade bir hava katıyor; lavanta dokunuşuyla da zenginleştirilmiş bir incelik sunuyor. Olağanüstü derecede iyi dizginlenmiş bir güç imajı uyandırıyor.\n\nOlağanüstü kalıcılık; bileğe uygulandıktan altı saat sonra bile etkisini sürdürüyor ve güçlü kokusuyla kalıcı bir izlenim bırakıyor. Görünüşe göre, kıyafetlerde günlerce kalıyor. Ve bir yıl sonra bile kağıt üzerinde kokusunu hala hissedebiliyorsunuz...\n\nSanki iki Tom Ford, Ombré Lather ve Black Orchid, çocuk sahibi olmuş gibi: çok uzun süre kalıcılık, keskinlik ve aynı zamanda aşırı şehvet, mimari bir nitelik taşıdığı için daha da cezbedici bir sonuç ortaya çıkarıyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.28751.jpg"
+    },
+    {
+      "id": "parent607903",
+      "author": "RybaPerfume",
+      "date": "2024-06-21",
+      "text": "Parfümeride sevdiğim her şeye sahip: yüksek kaliteli içerikler, tutarlılık, incelik ve bunların hepsi en başından itibaren mevcut. Bu koku, şimdiye kadar karşılaştığım tüm deri kokuları arasında bana en yumuşak ve en narin olanı gibi geliyor. Birkaç yıldır satılmadığı düşünüldüğünde, şişeyi bulmak oldukça zordu... YSL'nin üç adresinden 6 PLACE SAINT SULPICE beni en çok büyüledi, aslında ilk görüşte aşktı, ilk nefeste.\n\nYarı deri, yarı süet olan bu koku, en başından itibaren daha metalik bir tona sahip ve tüm koku deneyimi boyunca kırmızı bir iplik gibi ilerliyor. Safran, soğuk, metalik bir nitelik kazanmıyor, aksine yavaş yavaş daha kehribar bir akorla birleşiyor ve sözde oryantal parfümlerin klişelerine düşmüyor. Kehribar hissi asla güçlü reçineli bir vanilyaya doğru yönelmiyor, daha ziyade tonka fasulyesinin ifade edebileceği gibi narin, tatlı bir odunsuya doğru yöneliyor. Bu tonka notasının burada çok iyi ortaya çıktığını, çok narin bir niteliğe sahip olduğunu ve nüanslarla gölgelendiğini belirtmek isterim.\n\nSıklıkla karşılaştığımız yapay odunsu tatlılıktan eser yok... Muazzam bir sıcaklık, temiz ve geometrik bir yapı yayıyor. Tüm bunlar, son derece dengeli, oldukça kuru, pudramsı bir bitişle birleşiyor. Sadeliğin hafif dokunuşu ona ciddi ve sofistike bir görünüm kazandırıyor. Lavanta kullanımı kesinlikle belirli bir ışıltı katıyor, sanki belirli bir kafur tazeliği tüm kokuya nüfuz ediyor.\n\nEğer bu bir karakter olsaydı, dürüst bir Baştan Çıkarıcı Mimar olurdu!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ua",
+      "avatar": "https://fimgs.net/mdimg/avatariua/m.12669.jpg"
+    },
+    {
+      "id": "parent607835",
+      "author": "maxpowerboston",
+      "date": "2024-04-18",
+      "text": "Geçtiğimiz günlerde 6. bölgede, 6 Place Saint Sulpice butiğine yaklaşık 1 dakika yürüme mesafesinde kaldım. İçeri girdiğimizde bu parfüm stokta yoktu ama harika bir YSL mağazasıydı ve çalışanlar oldukça ilgiliydi. CDG'den ABD'ye dönüş yolculuğumda ise büyük bir gümrüksüz mağazada bu parfümden bir şişe kalmıştı. İndirimden sonra 168€'ya satılıyordu, bu yüzden almak zorunda kaldım. Deri ve tonka fasulyesinin hafif bir labdanum ile harika bir kombinasyonu. Le Lion seviyesinde bir labdanum değil, daha çok destekleyici bir nota. Gris Charnel Extrait veya Palo Santo ağırlıklı bazı parfümlerle (aklıma Valentino Noir Absolu geliyor) bazı benzerlikler taşıyor ama daha sakin ve şık. Derimsi, hafif tatlı, çok iyi harmanlanmış. Bay Benaim'in geç bir parfümü ve en iyi parfümlerinin yanında yer almayı hak eden bir koku.\n\nPil ömrü 7-8 saati aşkın olup oldukça iyi ve orta seviye bir projektör. Şık bir akşam yemeği için uygun olduğunu düşünüyorum. Bunu 4-5 kez test ettim.\n\n10 üzerinden 8,25. Gerçekten çok şık bir ürün, Paris seyahatimle her zaman özdeşleştireceğim.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1089734.jpg"
+    },
+    {
+      "id": "parent607830",
+      "author": "Janini",
+      "date": "2024-01-31",
+      "text": "YSL 24, YSL 6 ve Santal Austral olmak üzere üç parfümün de hepsine sahibim. Hepsi muhteşem ama bence YSL 6 en sofistike olanı. Geçen yıl NM mağazasından stokta kalmadan veya üretimi durdurulmadan önce bu parfümü aldığım için çok mutluyum. Bu kokuyu yakışıklı, çekici bir adamın, James Bond 007'nin ve tüm kahramanların kullandığını hayal ediyorum.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1899909.jpg"
+    },
+    {
+      "id": "parent607896",
+      "author": "Ialik",
+      "date": "2024-01-30",
+      "text": "Siyah şişe koleksiyonundaki üç parfümden bunu seçtim ve birkaç ay sonra bile ilk kokladığım zamanki aynı zevkle kokluyorum. Baharatlı, bitkisel ve mineral notaların dengeli bir şekilde harmanlandığı, sade, temiz ve dengeli bir koku olduğunu düşünüyorum. \"Bu parfüm bana şunu hatırlatıyor...\" bölümündeki birçok öneriye benzemiyor. Bu da beni karşılaştırmak için SL veya TF'nin bazı parfümlerini koklamak istememe neden oluyor. Erkeklere daha çok yakışıyor ve bence kadın çevreleri de beğenecektir.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ro",
+      "avatar": "https://fimgs.net/mdimg/avatariro/m.21941.jpg"
+    },
+    {
+      "id": "parent607853",
+      "author": "Gardinette",
+      "date": "2023-05-06",
+      "text": "6 Place Saint Sulpice'i çok seviyorum. ♥\n\n\nBaskın Notalar:\nDeri, Kaya Gülü, Safran\n\nİkincil Notlar:\nTonka fasulyesi, Lavanta\n\nGeçerli Olmayan Notlar:\nBergamot\n\n\nParfümeride deri kokusunu seviyorum, bu resmen kesinleşti.\nBu albüm bunu benim için doğruluyor. Yumuşak ve odunsu, hayvansı ve şehvetli. Bitkisel, aromatik ve yanmış vanilya notaları bana Tom Ford'un \"Fucking Fabulous\" albümünü, aynı zamanda Initio'nun \"Oud For Greatness\" albümünü de anımsatıyor. Ama daha iyi.\n\nTütün, paçuli, hindistan cevizi, kremsi benzoin ve iris kokularının girdapları. Ruhani (dini olmasa da), biraz erkeksi ve her şeyden önce ürkütücü ve karanlık. Şaşırtıcı bir şekilde, oldukça doğrusal ve minimalist, ki bu da gerçekten hoşuma gidiyor.\n\nCilt tipinize bağlı olarak, ya soğuk, metalik, küllü bir ton alacak ya da derimsi ve dumanlı bir görünüm kazanacaktır.\n\n♥ 8/10 ♥",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.17094.jpg"
+    },
+    {
+      "id": "parent719933",
+      "author": "Squishyy",
+      "date": "2022-12-11",
+      "text": "Bu parfümün konsepti orijinal değil, ancak uygulaması benzersiz. Diğer tonka fasulyesi kokularıyla bazı benzerlikler olsa da, bu parfüm diğerlerinden ayrılıyor. Tereyağlı ve kuru bir his veriyor. Labdanum, deri ve safran dengeli bir şekilde kullanılmış, hiçbir nota diğerini bastırmıyor. Carlos Benaim'e teşekkürler, muhteşem bir şekilde uygulanmış. Açılışta biraz lavanta da hissedebiliyorsunuz, bu da parfümün çok karanlık olmasını engellediği için hoşuma gidiyor. Ortalama bir tasarımcı parfümü kadar giyilebilir kalırken, aynı zamanda \"lezzetli tereyağlı bir dolap\" havası da veriyor.\n\nPerformans açısından konuşacak olursak, bu koku uzun süre kalıcı. Çok güçlü bir yayılım hissetmiyorum, ancak yoğun bir his verdiği için güçlü bir koku izi bıraktığını tahmin ediyorum.\n\nBu koku her yaş için uygundur. Olgun ve seksi bir koku, ama seksi her zaman seksidir. Randevular, etkinlikler, ofis vb. için harika bir imza kokusu. 10°C/50°F ve altındaki hava sıcaklıkları için en uygunudur.\n\nYSL 6 Place Saint Sulpice, özel bir parfüm serisinden beklediğim her şeyi karşılıyor. Çok iddialı olmayan, ancak kalite ve özgünlük açısından sıradan tasarımcı parfümlerinden tartışmasız bir üst seviyede olan, büyüleyici bir başyapıt. Eğer içine biraz iris de ekleselerdi, gerçekten 10/10 olurdu. Gizli bir güzellik ve 24 ve 37 numaralı parfümleri de denemek için sabırsızlanıyorum!\n\nGÜNCELLEME: Gris Charnel Extrait'i de edindim ve bu parfümün neredeyse aynısı, sadece incir eklenmiş ve kuruluk hissi yok. Bu parfümü beğendim ve daha eksiksiz bir koku olduğunu düşünüyorum.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1403891.jpg"
+    },
+    {
+      "id": "parent607852",
+      "author": "Cyrus Smith",
+      "date": "2021-10-10",
+      "text": "Bu koku, bugüne kadar karşılaştığım süet-deri kokuları arasında burnuma en yumuşak ve en narin olanı olarak kendini gösteriyor.\n\nTüm deneyim boyunca yol gösterici olan bu yarı deri, yarı süet akor, başlangıçta daha metalik. Safran bana genellikle bu metalik soğukluk izlenimini veriyor. Yavaş yavaş, bu daha keskin his kayboluyor ve yerini daha kehribar bir akora bırakıyor, ancak sözde oryantal parfümlerin klişelerine sapmıyor. Burada, kehribar hissi asla güçlü reçineli vanilyaya değil, tonka fasulyesinin ifade edebileceği gibi ince bir tatlı odunsuluğa yöneliyor. Bu tonka notasının çok yüksek kalitede ve incelikli olduğunu belirtmeliyim. Çok sık karşılaştığımız sentetik tatlı odunsu kokuya hiç benzemiyor. Tüm bunlar oldukça kuru ve pudralı bir bitişte, son derece dengeli bir şekilde sunuluyor. Bir miktar sertlik ona ciddi, sofistike bir hava katıyor. Lavanta kullanımı şüphesiz belirli bir parlaklık getiriyor, sanki belirli bir kafur benzeri tazelik her şeyin içinden geçmeyi başarıyor. Pürüzsüz!\n\nBu üç YSL parfümünden, muhteşem siyah şişelerinde, 24 RUE DE L'UNIVERSITÉ beni zaten büyülemişti ve 6 PLACE SAINT SULPICE her kullandığımda beni daha da çok cezbediyor. Parfümeride sevdiğim her şey burada: yüksek kaliteli içerikler, uyum, incelik, hepsi en üst düzeyde sadelik içinde. Az kaynak kullanımı, gerçekten olağanüstü bir iksir ortaya çıkarıyor. Kusursuz sunum, gösterişli şişe. Orta derecede yayılımla uzun süre kalıcı. Büyülendim, kazandım!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.137.jpg"
+    },
+    {
+      "id": "parent607844",
+      "author": "Scolderfdf",
+      "date": "2021-09-10",
+      "text": "Yves Saint Laurent'in Le Vestiaire des Parfums koleksiyonundan 6 Place Saint Sulpice adlı bu parfüm ne kadar da güzel bir koku ve İspanyolca tek bir yorumu bile yok. Tatlı bir notayla açılıyor ve nedenini bilmiyorum ama bana Meksika'ya özgü cocada adlı bir şekerlemeyi hatırlatıyor. Hindistan cevizi içermediğini biliyorum ama bana onu hatırlattı. Zaman geçtikçe, vanilya, safran ve tonka fasulyesi karışımını, ince, hafif, acı tatlı bir deri ve açıkça belirtilmeyen bazı dumanlı dokunuşları algılıyorum. Valentino Uomo Noir Absolu'ya da bir benzerliği var, ancak Valentino çok daha tatlı ve gösterişli, YSL ise daha incelikli ve daha az keskin. Bence ılıman ve soğuk iklimlerde, yağmurlu yaz günlerinde giymek için ideal. Partnerinizle akşam yemekleri ve gece dışarı çıkmak için mükemmel. Meksika'daki fiyatı yüksek ve sadece prestijli mağazalarda bulunmasına rağmen beğendim.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.47616.jpg"
+    },
+    {
+      "id": "parent607826",
+      "author": "smellgoodguy",
+      "date": "2021-08-28",
+      "text": "Kesinlikle Manhattan'da sonbahar mevsimini çağrıştıran bir koku. Bronx, Queens, Staten Island veya Brooklyn değil; Manhattan. Hatta şunu söyleyebilirim ki, eğer şişenin camına sadece NYC yazısı kazınmış olsaydı, başka hiçbir isim belirtilmeden, tüm zamanların en tanınabilir ve en çok satılan parfümlerinden biri olurdu. Yetersiz pazarlama kesinlikle bu parfümün benimsenmesini engelledi.\n\nMükemmel bir şekilde üretilmiş, şık, erkeksi bir parfüm. 10/10",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent607836",
+      "author": "DoktorAdrenalin",
+      "date": "2021-08-18",
+      "text": "Ne kadar güzel bir koku! Açılışta safran ve yumuşak deri notaları hissediliyor, son notalarında ise ağırlıklı olarak tonka fasulyesi, laden ve bergamot öne çıkıyor.\nBu koku, normalde narenciye, hindistan cevizi veya çok fazla tonka fasulyesi kokusunu tercih etmeyen bir kişi için neredeyse entelektüel bir hindistan cevizi güneş kremi kokusu izlenimi veriyor.\n\nBende 24 numaralı olanı var, kesinlikle en sevdiklerimden biri, bu da neredeyse onun kadar güzel. FBW ve 10/10.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1337834.jpg"
+    },
+    {
+      "id": "parent607831",
+      "author": "Usman Fida",
+      "date": "2021-06-01",
+      "text": "Bir parfüm sever olarak, bu herhangi bir parfüm hakkında yazdığım ilk yorumum. 6 ve 37 arasında kararsız kaldım. Tekrar tekrar denedim ve birçok kişiye sorduktan sonra, oud hayranı olmama rağmen 37 yerine 6'yı seçtim. Kalıcılığı çok iyi. Gün içinde saat 12 civarında sıktım ve bu yorumu yazarken bile hala hissedebiliyorum ve kokusunu alabiliyorum. Çok temiz, yatıştırıcı ve ferahlatıcı bir koku. Bence 125 ml'lik bir şişe için fiyatı, çok daha yüksek fiyata satılan ancak az miktarda olan diğer şişelere kıyasla iyi.\nTavsiyem, bunu mutlaka alın. Pişman olmayacaksınız.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1284275.jpg"
+    },
+    {
+      "id": "parent607876",
+      "author": "Jernê Knowles",
+      "date": "2020-12-02",
+      "text": "Paris'e gidip de Saint Sulpice Meydanı'na (Subprefecture) uğramayıp, meydanın sol tarafındaki lezzetli bir kahve içmemek, Maldivler'e gidip de tamamen çıplak bir şekilde berrak sularına dalmamak gibidir. Parfümün adı doğrudan meydanı ansa da, 6 rakamı ona bağlı olan Subprefecture'ı (Mairie du 6eme Arrondissement) ifade eder.\n\nTiyatroya giden, geleneksel İtalyan operalarını dinleyen, arınmak için Seine Nehri kıyısında yürüyüş yapan ve haftanın her günü saat 17:00'de açık havada kahve içen orta yaşlı insanları anımsatan, oldukça ciddi bir parfüm. Yaratıcısı Carlos Benaim'in profilini yansıtan bir parfüm: ciddi, \"kırsal\" bir adam, ama aynı zamanda son derece klas ve zarif, üstelik ödülünü çekilişle dağıtan biri!\n\nBu parfümdeki safran ve tonka fasulyesinin birleşimi o kadar ciddi ve sert ki, dürüst olmak gerekirse, bu parfüme henüz hazır değilim. Onu kullanacak kişilerden doğal olarak beklediği yüksek standardın yıllarca gerisinde olduğumu hissediyorum. Daha fazla zamana ihtiyacım var, evet, var.\n\nŞunu da belirtmekte fayda var ki, o kadar harika ve canlı bir tazeliğe sahip ki, deri notasını yavaş yavaş temizleyerek, onu fark edilir hale getiriyor ve kusursuz bir lüks otomobilin iç mekanını anımsatıyor. Rahatlık hissi saatlerce ciltte kalıyor ve baharatlı, çok doğal lavanta eşliğinde bağımlılık yapıyor. Lütfen, denemeden ölmeyin.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.242.jpg"
+    },
+    {
+      "id": "parent607867",
+      "author": "Milumilu",
+      "date": "2020-11-28",
+      "text": "Bu koku sıcak bile değil, aksine çok ateşli, bir kere etkisini göstermeye başlayınca adeta kişisel eroininiz haline gelen türden. Çok \"çok\"tan çok derimsi, çok tatlı, çok baharatlı ve çok hayvansıya kadar her şeyi içeriyor. Kompozisyonun diğer yönlerinin parlamasını sağlayan da bu hayvansı özellik gibi görünüyor. Ve bu çok iyi! Bu özellik olmasaydı, sıradan bir deri parfümü olurdu; bu özellik sayesinde ise ateşli, tutkulu, oryantal bir hikaye ortaya çıkıyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.264466.jpg"
+    },
+    {
+      "id": "parent607868",
+      "author": "Benefactor",
+      "date": "2020-07-18",
+      "text": "Bugün GUM'da denedim ve muhteşemdi. Yumuşak deri, şehvetli, hafifçe sarhoş edici labdanum, arka planda bir yerlerde lavanta ve safran, kremsi vanilyalı tonka fasulyesi ve maalesef bergamot algılayamadım. Bu kesinlikle bir sonraki alışverişim olacak. Olağanüstü kalıcılık; tek bir uygulamadan altı saat sonra bile koku bileğimde güçlü bir şekilde kalıyor. Muhtemelen kıyafetlerde günlerce kalacaktır. Unisex.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.270523.jpg"
+    },
+    {
+      "id": "parent607869",
+      "author": "Malka",
+      "date": "2019-12-23",
+      "text": "Çok çekici, kalıcı ve sıcak bir koku. Sıcak tenime sayısız iltifat aldım. Bana Tom Ford'un beyaz süetini hatırlatıyor. Birçok kişi güvenle benim de öyle koktuğumu söylüyor. Deri ve odunsu bir koku. Adını, Yves Saint Laurent'in Paris'in 6. bölgesindeki ilk butiğinin adresi olan Saint Sulpice'den alıyor. İçinde hiç lavanta veya bergamot kokusu algılamıyorum.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.129978.jpg"
+    },
+    {
+      "id": "parent607829",
+      "author": "Highoctanehome",
+      "date": "2019-12-02",
+      "text": "Çin'deki bir YSL mağazasında test edilmiştir.\n\nBaşlangıçta son derece güçlü, dumanlı ve reçineli bir kokuya sahip olup, zamanla gelişen hafif bir tatlılık da içerir.\n\n8-10 saat sonra, bu inatçı ve zarif canavar gevşer ve limon dokunuşuyla daha yumuşak, kremsi, tropikal hindistan cevizi pamuk şekerine dönüşür.\n\nDuştan 15 saat sonra bile koku hala belirgin ve kol mesafesinden hissedilebiliyor. 25 saat sonra ise nihayet ten kokusuna dönüşüyor, ancak yakın zamanda kaybolacağına dair bir işaret yok.\n\nÖnce deneyin, çünkü çok kendine özgü bir kokusu var ve beğenirseniz yeniden formüle edilmeden önce satın alın. Bir fıs, cesaretiniz varsa iki fıs. Kör alışveriş yapmayın.\n\nResmi. Kış/Sonbahar. Üstün kalite.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.246179.jpg"
+    },
+    {
+      "id": "parent607827",
+      "author": "impressedguy",
+      "date": "2018-08-24",
+      "text": "Bu parfümün 3,5 ml'lik iki örneğini alma şansım olduğu için gerçekten çok mutluyum, dağıtımı son derece sınırlı. Sanırım bu yüzden, piyasaya çıkalı tam bir yıl olmasına rağmen, bu parfüm hakkında burada ilk yorum bu.\n\nBu parfüm, bir tür yanmış safran kokusuyla başlıyor (sanırım bu \"yanma\" hissini veren deri notası), ardından tatlı, hafif bitkisel bir kokuya dönüşüyor - açılışta oldukça yoğun ve kremsi bir tonka-labdanum safran kokusuna oturması yaklaşık 30 dakika sürüyor.\n\nBence Carlos Benaim burada gerçekten harika bir iş çıkarmış, bu muhteşem bir parfüm. Benden tam bir beğeni.\n\nKoku yolculuğumu Instagram'dan takip edin.\ninstagram.com/scentsexual",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.754142.jpg"
     }
   ]
 }

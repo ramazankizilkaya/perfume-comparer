@@ -79,66 +79,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "2",
-    "moderate": "18",
-    "longLasting": "4",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "8",
-    "moderate": "18",
-    "strong": "6",
-    "enormous": "13"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "7",
-    "moreFemale": "2",
-    "unisex": "3",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "LABORATORİO OLFATTİVO",
-      "name": "MyLO"
-    },
-    {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Acqua Nobile Rosa"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Paris Roses des Vergers"
-    },
-    {
-      "brand": "L'ERBOLARİO",
-      "name": "Iris Bianco"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Hermessence Rose Ikebana"
-    },
-    {
-      "brand": "HERMETİCA",
-      "name": "Ivyme"
-    },
-    {
-      "brand": "CLİNİQUE",
-      "name": "Clinique Happy"
-    },
-    {
-      "brand": "PENHALİGON'S",
-      "name": "Vaara"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "PALOMA PİCASSO",
@@ -200,5 +167,6 @@
       "brand": "DİOR",
       "name": "Poison"
     }
-  ]
+  ],
+  "comments": []
 }

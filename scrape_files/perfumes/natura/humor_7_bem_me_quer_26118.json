@@ -19,11 +19,11 @@
       "width": "94.2857%"
     },
     {
-      "name": "narenciye",
+      "name": "meyvemsi",
       "width": "81.4286%"
     },
     {
-      "name": "meyvemsi",
+      "name": "narenciye",
       "width": "81.4286%"
     },
     {
@@ -49,14 +49,42 @@
     {
       "name": "misk",
       "width": "50%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.78",
-    "votesCount": "74",
+    "votesCount": "73",
     "breakdown": {
       "love": "23",
-      "like": "30",
+      "like": "29",
       "ok": "4",
       "dislike": "16",
       "hate": "1"
@@ -89,33 +117,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "4",
+    "moderate": "15",
+    "longLasting": "4",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "15",
+    "strong": "7",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "14",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "11",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "J'adore"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Miracle"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Very Irresistible"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "Azzaro Pour Elle"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Love Story"
+    },
+    {
+      "brand": "DİOR",
+      "name": "J'adore Parfum d'Eau"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Hugo Woman"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Lírio"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -126,8 +187,8 @@
       "name": "Essencial Exclusivo"
     },
     {
-      "brand": "TOMMY HİLFİGER",
-      "name": "Tommy Girl"
+      "brand": "LANCÔME",
+      "name": "Miracle"
     },
     {
       "brand": "NATURA",
@@ -155,11 +216,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Luna"
+      "name": "Kaiak"
     },
     {
       "brand": "NATURA",
-      "name": "Kaiak"
+      "name": "Luna"
     },
     {
       "brand": "NATURA",
@@ -177,5 +238,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue"
     }
-  ]
+  ],
+  "comments": []
 }

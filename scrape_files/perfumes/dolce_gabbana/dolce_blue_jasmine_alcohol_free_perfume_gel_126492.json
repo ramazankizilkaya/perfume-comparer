@@ -33,25 +33,53 @@
     {
       "name": "çiçeksi",
       "width": "44.0001%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.94",
-    "votesCount": "17",
+    "score": "3.83",
+    "votesCount": "18",
     "breakdown": {
       "love": "2",
-      "like": "12",
-      "ok": "3",
+      "like": "11",
+      "ok": "5",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "1",
-    "spring": "6",
-    "summer": "3",
+    "spring": "7",
+    "summer": "4",
     "autumn": "3",
-    "day": "5",
+    "day": "6",
     "night": "2"
   },
   "notes": {
@@ -73,7 +101,7 @@
     "veryWeak": "1",
     "weak": "3",
     "moderate": "0",
-    "longLasting": "1",
+    "longLasting": "2",
     "eternal": "0"
   },
   "sillage": {
@@ -85,14 +113,14 @@
   "genderVoting": {
     "female": "2",
     "moreFemale": "2",
-    "unisex": "0",
+    "unisex": "1",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "0",
-    "fair": "3",
+    "fair": "5",
     "goodValue": "1",
     "greatValue": "1"
   },
@@ -106,5 +134,67 @@
       "name": "Dolce"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Classique"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Good Girl"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Amor Amor"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'eau d'Issey"
+    },
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez For Her"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "LouLou"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Mojave Ghost"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '62"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '59"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Flower by Kenzo"
+    },
+    {
+      "brand": "LANVİN",
+      "name": "Eclat d’Arpège"
+    },
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Pure Musc For Her"
+    }
+  ],
+  "comments": []
 }

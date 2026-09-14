@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Yves-Saint-Laurent/Parisienne-L-Eau-14965.html",
   "brand": "Yves Saint Laurent parfüm ve kolonya",
   "description": "Yves Saint Laurent markasının Parisienne L’Eau parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Parisienne L’Eau, 2012 yılında piyasaya sürüldü. Üst notalar: Gül, Yeşil Notalar, Vinil ve Menekşe yaprağı; orta notalar: Frenk üzümü, Kızılcık ve Kırmızı meyveler; alt notalar Misk, Paçuli ve Sedir.",
-  "description_original": "Yves Saint Laurent markasının Parisienne L’Eau parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Parisienne L’Eau, 2012 yılında piyasaya sürüldü. Üst notalar: Gül, Yeşil Notalar, Vinil ve Menekşe yaprağı; orta notalar: Frenk üzümü, Kızılcık ve Kırmızı meyveler; alt notalar Misk, Paçuli ve Sedir.",
+  "description_original": "Yves Saint Laurent markasının Parisienne L’Eau parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Parisienne L’Eau, 2012 yılında piyasaya sürüldü. Üst notalar: Gül, Yeşil Notalar, Vinil ve Menekşe yaprağı; orta notalar: Siyah Frenk Üzümü, Kızılcık ve Kırmızı meyveler; alt notalar Misk, Paçuli ve Sedir.",
   "description_enhanced": "Yves Saint Laurent markasının Parisienne L’Eau parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Parisienne L’Eau, 2012 yılında piyasaya sürüldü. Üst notalar: Gül, Yeşil Notalar, Vinil ve Menekşe yaprağı; orta notalar: Frenk üzümü, Kızılcık ve Kırmızı meyveler; alt notalar Misk, Paçuli ve Sedir.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "tatlı",
       "width": "44.0967%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -78,7 +106,7 @@
       "Menekşe yaprağı"
     ],
     "middle": [
-      "Frenk üzümü",
+      "Siyah Frenk Üzümü",
       "Kızılcık",
       "Kırmızı meyveler"
     ],
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "8",
+    "moderate": "23",
+    "longLasting": "11",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "17",
+    "moderate": "23",
+    "strong": "10",
+    "enormous": "16"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "3",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "2",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DSQUARED²",
+      "name": "Red Wood"
+    },
+    {
+      "brand": "GLORİA VANDERBİLT",
+      "name": "Minuit à New York"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Parisienne"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Parisienne L'Essentiel"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Parisienne Eau de Toilette"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "214 Jasmim & Patchouli"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "5th Avenue NYC Vibe"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Parisienne 2024"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "Signorina Eau de Toilette"
+    },
+    {
+      "brand": "RAMON MONEGAL",
+      "name": "Flamenco"
+    },
+    {
+      "brand": "OUAI",
+      "name": "North Bondi"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel Nova"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Very Good Girl"
+    },
+    {
+      "brand": "FLORİS",
+      "name": "White Rose"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -141,10 +230,6 @@
     {
       "brand": "DİOR",
       "name": "J'adore"
-    },
-    {
-      "brand": "NARCİSO RODRİGUEZ",
-      "name": "Narciso Rodriguez For Her"
     },
     {
       "brand": "DOLCE&GABBANA",
@@ -175,8 +260,13 @@
       "name": "La Petite Robe Noire"
     },
     {
-      "brand": "LANCÔME",
-      "name": "Miracle"
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

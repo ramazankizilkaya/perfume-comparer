@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Bushra-19667.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Bushra parfümü, kadınlar için Oryantal bir kokudur. Üst notalar: Agar ağacı (Oud) ve Safran; orta notalar: Baharatlı notalar ve Çiçeksi Notalar; alt notalar Misk, Amber ve Odunsu Notlar.",
-  "description_original": "Rasasi markasının Bushra parfümü, kadınlar için Oryantal bir kokudur. Üst notalar: Agar ağacı (Oud) ve Safran; orta notalar: Baharatlı notalar ve Çiçeksi Notalar; alt notalar Misk, Amber ve Odunsu Notlar.",
+  "description_original": "Rasasi markasının Bushra parfümü, kadınlar için Oryantal bir kokudur. Üst notalar: Agar ağacı (Oud) ve Safran; orta notalar: Baharatlı Notalar ve Çiçeksi Notalar; alt notalar Misk, Amber ve Odunsu Notalar.",
   "description_enhanced": "Rasasi markasının Bushra parfümü, kadınlar için Oryantal bir kokudur. Üst notalar: Agar ağacı (Oud) ve Safran; orta notalar: Baharatlı notalar ve Çiçeksi Notalar; alt notalar Misk, Amber ve Odunsu Notlar.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "tütün",
       "width": "44.8936%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -76,44 +104,69 @@
       "Safran"
     ],
     "middle": [
-      "Baharatlı notalar",
+      "Baharatlı Notalar",
       "Çiçeksi Notalar"
     ],
     "base": [
       "Misk",
       "Amber",
-      "Odunsu Notlar"
+      "Odunsu Notalar"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "9",
+    "longLasting": "5",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "9",
+    "strong": "13",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Opulent Oud"
+    },
+    {
+      "brand": "M. MİCALLEF",
+      "name": "Aoud"
+    },
+    {
+      "brand": "ELLA MİKAO",
+      "name": "Yujin Feroce"
+    },
+    {
+      "brand": "ANGEL SCHLESSER",
+      "name": "Angel Schlesser Oriental Edition II"
+    },
+    {
+      "brand": "ABDUL KARİM AL FARANSİ",
+      "name": "Sheikh Al Faransi"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Al Waseem"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "OLİVİER DURBANO",
@@ -175,5 +228,6 @@
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
     }
-  ]
+  ],
+  "comments": []
 }

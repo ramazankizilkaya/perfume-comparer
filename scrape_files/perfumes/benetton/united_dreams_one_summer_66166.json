@@ -29,6 +29,10 @@
     {
       "name": "taze baharatlı",
       "width": "48.5938%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -69,57 +73,37 @@
       "Sandal ağacı",
       "Paçuli",
       "Sürüklenen odun"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "7",
-    "moderate": "6",
-    "longLasting": "2",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "7",
-    "moderate": "6",
-    "strong": "3",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "1",
-    "unisex": "2",
-    "moreMale": "7",
-    "male": "6"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "9",
-    "greatValue": "4"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "RALPH LAUREN",
-      "name": "Polo Sport"
-    },
-    {
-      "brand": "ANİMALE",
-      "name": "Animale for Men"
-    },
-    {
-      "brand": "ANTONİO BANDERAS",
-      "name": "Urban Seduction in Black"
-    },
-    {
-      "brand": "REEBOK",
-      "name": "Cool Your Body For Him"
-    },
-    {
-      "brand": "ANTONİO PUİG",
-      "name": "Aqua Quorum"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -158,12 +142,12 @@
       "name": "Hugo Reversed"
     },
     {
-      "brand": "RABANNE",
-      "name": "Invictus"
-    },
-    {
       "brand": "CALVİN KLEİN",
       "name": "Eternity Aqua for Men"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus"
     },
     {
       "brand": "CAROLİNA HERRERA",
@@ -181,5 +165,6 @@
       "brand": "NATURA",
       "name": "K Max"
     }
-  ]
+  ],
+  "comments": []
 }

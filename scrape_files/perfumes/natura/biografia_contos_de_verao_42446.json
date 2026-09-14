@@ -49,6 +49,34 @@
     {
       "name": "meyvemsi",
       "width": "51.8182%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -93,33 +121,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "2",
+    "moderate": "6",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "6",
+    "strong": "4",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Loucuras de Humor"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ilía Jardim Secreto"
+    },
+    {
+      "brand": "L’OCCİTANE AU BRÉSİL",
+      "name": "Olinda de Viver"
+    },
+    {
+      "brand": "AVON",
+      "name": "Sweet Honesty Fun"
+    },
+    {
+      "brand": "ROBERTO CAVALLİ",
+      "name": "Roberto Cavalli Acqua"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Floratta Romance de Verão"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -181,5 +234,6 @@
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
     }
-  ]
+  ],
+  "comments": []
 }

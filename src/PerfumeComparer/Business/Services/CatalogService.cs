@@ -75,18 +75,64 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
     {
         var query = BuildListQuery(q);
 
-        query = q.Sort switch
+        if (!string.IsNullOrWhiteSpace(q.Sort))
         {
-            "rating" => query.OrderByDescending(p => p.AvgRating).ThenByDescending(p => p.RatingCount),
-            "votes" => query.OrderByDescending(p => p.RatingCount).ThenByDescending(p => p.AvgRating),
-            "comments" => query.OrderByDescending(p => p.UserRatingCount).ThenByDescending(p => p.RatingCount),
-            "newest" => query.OrderByDescending(p => p.ReleaseYear).ThenByDescending(p => p.RatingCount),
-            "oldest" => query.OrderBy(p => p.ReleaseYear).ThenByDescending(p => p.RatingCount),
-            "name" => query.OrderBy(p => p.Name),
-            "random" => query.OrderBy(_ => EF.Functions.Random()),
-            "views" => query.OrderByDescending(p => p.ViewCount).ThenByDescending(p => p.RatingCount).ThenByDescending(p => p.AvgRating).ThenBy(p => p.Name),
-            _ => query.OrderByDescending(p => p.ViewCount).ThenByDescending(p => p.RatingCount).ThenByDescending(p => p.AvgRating).ThenBy(p => p.Name),
-        };
+            switch (q.Sort)
+            {
+                case "rating":
+                    // En az 10 oy almış parfümleri filtrele ki tek oyla 5.0 alan bilinmeyen parfümler en üste çıkmasın
+                    query = query.Where(p => p.RatingCount >= (q.MinVotes ?? 10))
+                                 .OrderByDescending(p => p.AvgRating)
+                                 .ThenByDescending(p => p.RatingCount);
+                    break;
+                case "votes":
+                    query = query.OrderByDescending(p => p.RatingCount)
+                                 .ThenByDescending(p => p.AvgRating);
+                    break;
+                case "comments":
+                    query = query.OrderByDescending(p => p.UserRatingCount)
+                                 .ThenByDescending(p => p.RatingCount);
+                    break;
+                case "newest":
+                    query = query.Where(p => p.ReleaseYear != null && p.ReleaseYear > 0)
+                                 .OrderByDescending(p => p.ReleaseYear)
+                                 .ThenByDescending(p => p.RatingCount);
+                    break;
+                case "oldest":
+                    query = query.Where(p => p.ReleaseYear != null && p.ReleaseYear >= 1700)
+                                 .OrderBy(p => p.ReleaseYear)
+                                 .ThenByDescending(p => p.RatingCount);
+                    break;
+                case "name":
+                    query = query.OrderBy(p => p.Name);
+                    break;
+                case "random":
+                    query = query.OrderBy(_ => EF.Functions.Random());
+                    break;
+                case "views":
+                    query = query.OrderByDescending(p => p.ViewCount)
+                                 .ThenByDescending(p => p.RatingCount)
+                                 .ThenByDescending(p => p.AvgRating)
+                                 .ThenBy(p => p.Name);
+                    break;
+                default:
+                    query = query.OrderByDescending(p => p.ViewCount)
+                                 .ThenByDescending(p => p.RatingCount)
+                                 .ThenByDescending(p => p.AvgRating)
+                                 .ThenBy(p => p.Name);
+                    break;
+            }
+
+            // Sıralama/Liste seçenekleri Top 100 olarak sınırlandırılır
+            query = query.Take(100);
+        }
+        else
+        {
+            query = query.OrderByDescending(p => p.ViewCount)
+                         .ThenByDescending(p => p.RatingCount)
+                         .ThenByDescending(p => p.AvgRating)
+                         .ThenBy(p => p.Name);
+        }
 
         if (q.RandomPool is > 0)
         {

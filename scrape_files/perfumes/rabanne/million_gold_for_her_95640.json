@@ -16,59 +16,87 @@
     },
     {
       "name": "vanilya",
-      "width": "90.1372%"
+      "width": "89.9541%"
     },
     {
       "name": "sarı çiçeksi",
-      "width": "86.0568%"
+      "width": "85.9121%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "73.462%"
+      "width": "73.2816%"
     },
     {
       "name": "meyvemsi",
-      "width": "68.0515%"
-    },
-    {
-      "name": "misk",
-      "width": "66.5433%"
+      "width": "68.3977%"
     },
     {
       "name": "pudralı",
-      "width": "66.3128%"
+      "width": "65.8375%"
+    },
+    {
+      "name": "misk",
+      "width": "65.7032%"
     },
     {
       "name": "odunsu",
-      "width": "56.4144%"
+      "width": "56.356%"
     },
     {
       "name": "çiçeksi",
-      "width": "51.731%"
+      "width": "51.5226%"
     },
     {
       "name": "sulu",
-      "width": "50.294%"
+      "width": "50.4786%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.04",
-    "votesCount": "2,197",
+    "votesCount": "2,321",
     "breakdown": {
-      "love": "936",
-      "like": "689",
-      "ok": "335",
-      "dislike": "195",
-      "hate": "42"
+      "love": "984",
+      "like": "739",
+      "ok": "351",
+      "dislike": "202",
+      "hate": "45"
     }
   },
   "seasons": {
-    "winter": "605",
-    "spring": "671",
-    "summer": "432",
-    "autumn": "759",
-    "day": "755",
-    "night": "657"
+    "winter": "635",
+    "spring": "698",
+    "summer": "453",
+    "autumn": "793",
+    "day": "780",
+    "night": "688"
   },
   "notes": {
     "top": [
@@ -88,33 +116,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "22",
+    "weak": "68",
+    "moderate": "490",
+    "longLasting": "306",
+    "eternal": "50"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "71",
+    "moderate": "490",
+    "strong": "244",
+    "enormous": "39"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "787",
+    "moreFemale": "134",
+    "unisex": "32",
+    "moreMale": "4",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "335",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "74",
+    "overpriced": "211",
+    "fair": "351",
+    "goodValue": "101",
+    "greatValue": "12"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Dalal"
+    },
+    {
+      "brand": "WE PİNK",
+      "name": "Fatal Black For Her"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Gold"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Céleste"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Voce Viva"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Million Gold For Her Pure Jasmine"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Vénus"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Signature Absolue"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Million Gold for Her Pure Diamonds"
+    },
+    {
+      "brand": "AMARAN",
+      "name": "Uqab Rihla"
+    },
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Milena"
+    },
+    {
+      "brand": "MYKONOS",
+      "name": "Monaco Royale"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Fame"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Voce Viva Intensa"
+    },
+    {
+      "brand": "FRAGANCİAS CANNON",
+      "name": "Valeria Velvet by Valeria Mazza"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -153,6 +242,10 @@
       "name": "Fame"
     },
     {
+      "brand": "DİOR",
+      "name": "J'adore"
+    },
+    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Libre Intense"
     },
@@ -169,12 +262,210 @@
       "name": "Prada Paradoxe"
     },
     {
-      "brand": "RABANNE",
-      "name": "Olympéa"
-    },
-    {
       "brand": "GİVENCHY",
       "name": "L'Interdit Eau de Parfum"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent607153",
+      "author": "Ariadni",
+      "date": "2025-12-09",
+      "text": "\"Million Gold for Her\", diğer adıyla \"Why Whisper With You Can Scream?\" (Fısıldamak Varken Neden Çığlık Atabilirsin?)\n\nEğer ihtiyat bir erdemse, Rabanne Million Gold For Her bilinçli olarak günahı seçmiş. Nüansların, yavaş evrimlerin ve sıkıcı dengelerin \"eski\" parfümcülüğünü unutun. Herkesin yüzüne bağıran kokuları sevmeyenler için: modası geçti. Rabanne Million Gold For Her kuralları yeniden yazmak için geliyor ve ilk kural şu: daha fazlası daha iyidir. Çok, çok daha fazlası.\n\nKlasik zarafeti sıkıcı ve modası geçmiş bir kavram olarak görenler, Million Gold for Her'de aradıkları kutsal kaseyi bulacaklar. Million Gold, inceliklerle veya entelektüel karmaşıklıkla vakit kaybetmiyor: doğrudan konuya giriyor ve saf avangart (ya da isterseniz, en bariz fikir eksikliği) bir tatlılık anıtı sunuyor. Armutun açılışı o kadar yoğun, şuruplu ve canlı ki neredeyse yapay gibi görünüyor: sanki doğada asla bulunamayacak, sadece her şeyi hemen isteyen (belki de bir insülin iğnesiyle birlikte) bir neslin en tatlı rüyalarında var olabilecek, laboratuvardan çıkmış genetik bir hata gibi, geliştirilmiş bir 2.0 meyve.\n\nÇiçeksi kalp mi? Nükleer bir patlama. Yabani çiçek aramayın: burada yasemin ve ylang-ylang, göz kamaştırıcı bir parlaklık elde etmek için bir reaktörle güçlendirildi. Tekdüze bir parfüm ve bununla gurur duyuyor: değişmiyor, ihanet etmiyor, ilk püskürtmeden ertesi günkü duşa kadar (ve belki de o bile yetmeyecek) agresif tatlılığına sadık kalıyor.\n\nAma asıl başyapıttan bahsedelim: kalıcı koku izi. Ona \"istilacı\" demek yetersiz kalır. Bu koku bölgeseldir; deyim yerindeyse \"taşralı\"dır. Kokusunu kimseyle paylaşmak istemeyen, yüz metre içinde koku rekabetini yok eden kadın için yapılmıştır. Bu bir üstünlük gösterisidir: yoğun, dokunsal, neredeyse çiğnenebilir bir koku izi, kullanıcının varlığını Gotik bir kilisedeki floresan neon ışığının inceliğiyle ortaya koyar.\n\nÖzetle: Tatlı mı? Evet, neredeyse şeker hastalığına neden olacak kadar. Bayağı mı? Sadece popülerliği sıradanlıkla karıştırırsanız. Aşırı mı? Kesinlikle. Million Gold For Her, gizliliği üretim hatası olarak görenler için en üstün parfüm. Görülmek, duyulmak ve (her şeyden önce) kimsenin onu isteyerek veya istemeyerek unutmamasını sağlamak isteyen kız için. Ya da önümüzdeki 48 saat boyunca başka bir şey koklamak istemeyenler için. Kimyanın bir zaferi.\n\nPuan: Cesaret ve ateş gücü için 10/10 + huzuru bozmaktan sarı kart. Berbat.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.86138.jpg"
+    },
+    {
+      "id": "parent607108",
+      "author": "seyma",
+      "date": "2025-10-12",
+      "text": "Bana göre hoş, rahatsız edici olmayan ve kullanımı kolay bir koku. Ama bu aynı zamanda biraz sıkıcı olduğu anlamına da geliyor. Çok sıradan olduğu için kokuyu birkaç gün boyunca hatırlamam. Yayılımı ve kalıcılığı çok düşük. Yeni ve sade bir koku arıyorsanız, bunu tavsiye ederim.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.de",
+      "avatar": "https://fimgs.net/mdimg/avataride/m.35136.jpg"
+    },
+    {
+      "id": "parent607099",
+      "author": "Cortisol",
+      "date": "2025-05-18",
+      "text": "En sevdiğim armut kokulu parfüm. Çok keskin veya rahatsız edici olmadığı için kör alışverişlerde son derece güvenli. Ofis ortamına uygun ama yine de hoş bir koku arıyorsanız şiddetle tavsiye ederim. İnsanlar bunun sıradan veya sıkıcı olduğunu söylüyor ama gerçek şu ki, çoğu insan etrafındakilere baş ağrısı veren niş parfümlere aşırı miktarda para harcamak istemiyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1722558.jpg"
+    },
+    {
+      "id": "parent607102",
+      "author": "Lenniecha",
+      "date": "2025-04-19",
+      "text": "Bu koku çok güzel ve sıcak. Koleksiyonuma bir Paco Rabanne eklemeyi gerçekten çok istiyordum. Fame EDP'yi denedim ama mango notasını çok yoğun ve benim zevkime göre fazla tatlı buldum. Bu koku ona oldukça benziyor, ancak biraz daha odunsu, bu da onu benim için mükemmel kılıyor. Dip notaları tenimde çok güzel duruyor. Kullandığımda çok sayıda iltifat alıyorum; sanırım bu iyi bir işaret.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1720268.jpg"
+    },
+    {
+      "id": "parent607098",
+      "author": "MareaCamacho",
+      "date": "2025-03-12",
+      "text": "Yeni şeylerden bıktım ama bu koku beni adeta boğdu, hâlâ neyini sevdiğimi ve neyini sorguladığımı çözmeye çalışıyorum. Gerçekten de paradoksal bir koku; aynı anda hem hiçbir şey ifade etmiyor hem de her şeyi ifade ediyor.\n\n(Ve erkeklerin kadın parfümünün nasıl kokması gerektiğine dair yorumuna tahammül edemiyorum... Prada Paradoxe ve türevlerinin hiçbirini sevmiyorum. İğrenç.) Ancak,\n\nBu gerçekten de \"zamandan beri anlatılan masal\"la aynı, ANCAK çok benzersiz.\nİnsanlar kokuyu hatırlayacaklar ama ne olduğunu çözemeyecekler gibi.\nTanıdık geliyor ama yine de daha fazlasını çözmeye çalışmak sizi meraklandırıyor.\n\nBelki de buradaki mineral misk notası, bu özel vanilya hissiyle karışmış durumda. Bunu her yerde koklamışsınızdır ama daha önce hiç deneyimlememişsinizdir. Tam olarak ne olduğunu belirleyemiyorum. Bir gün geçti ve hala bu kokunun bana ne hissettirdiğini düşünüyorum.\n(Olumluya doğru eğilim var, ancak fiyat negatif, bu yüzden dikkatlice test edin!)\n\nBasit ama doğru yapılmış basit bir koku. \"Güzel\" kokmak istediğinizde tam kıvamında. Ne çok sıcak, ne çok soğuk, tam kıvamında. Jenerik ama nostaljik ve rahatlatıcı bir şekilde. Cildimde ve kıyafetlerimde, kurutucudan yeni çıkmış sıcak ve temiz kıyafetlere yüzümü sokmayı hatırlatıyor.\n\n\n\nÇekici ve eşimden müstehcen bir iltifat almama neden oldu. Bu parfümü gerçekten çok beğendi ve burnuma çok hoş geldiği için ona itiraz edemiyorum. Rahatsız edici, saldırgan veya zorlayıcı hiçbir şey yok. Çok kolay ve rahat bir koku. Gittikçe daha çok seviyorum. Gucci Gorgeous Orchid'e hafif bir etkisi var ama o parfüm bende kötü harmanlanmıştı ve çok fazla muz kabuğu kokusu vermişti... bu parfüm ise ondan beklediğim gibi.\n\n\nZaten Fame Intense ve JPG Divine (ilk sıktığımda bana onu hatırlattı) parfümlerine sahip olduğum için bundan fazla bir şey beklemiyordum ve almadım. Divine'a biraz benziyor ama bu benim üzerimde çok daha güzel kokuyor. Divine çok keskin ve biraz gösterişliydi, bu ise cildime çok güzel bir şekilde karışıyor.\n\nGelelim kokusuna; (sıfatlar serpiştirerek söylüyorum) meyvemsi, taze, çiçeksi, temiz, kremsi ve ipeksi bir uyum. İlk başta bunu anlayamadım ama kuruduktan sonraki hali MUHTEŞEM - o mineral misk her neyse - vanilya ile çok güzel bir uyum içinde ve armut da harika. Bu, en iyi armut kokularından biri ve aynı zamanda hafifçe şeftaliye de benziyor.\n\n\nÇok bağımlılık yapıcı.\nBu sürüm beni çok hoş bir şekilde şaşırttı. Gerçekten çok iyi.\n\nBu olumsuz yorumların bazılarını kişisel olarak algılayacağımı düşündüm ama favori parfümlerine baktığımda bunu yapmamam gerektiğini anladım çünkü bazı mutlak favorileri bana oldukça şüpheli geliyor 😆 (yan bakış emojisi gelsin 👀)",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1452120.jpg"
+    },
+    {
+      "id": "parent607162",
+      "author": "Taphrina",
+      "date": "2025-02-06",
+      "text": "Dergideki örnek olmasaydı, bu parfüme asla ilgi duymazdım. Ama denedim ve hemen sipariş vermeye koştum.\nTatlı, sulu, neşeli, ama hiç de boğucu değil. Etrafınızdakileri boğmadan, baştan aşağı içine dalabilirsiniz -ve dalmalısınız da.\nŞişe çok güzel, gerçekten beğendim (o aptal sıfır olmayan 30 ml'lik olanı aldım). Bardağın içinde adeta sıvı güneş ışığı var, bu da kokuyla %100 uyumlu. Sadece yeniden doldurulabilir olmaması üzücü; yeni bir şişe almaktansa 200 ml'lik yedek şişeyi almayı tercih ederim.\nFiyatı da uygun, 100 avrodan daha az bir fiyata yüz tane alabilirsiniz, her gün sulama için harika.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.441804.jpg"
+    },
+    {
+      "id": "parent607135",
+      "author": "charlotinable",
+      "date": "2025-01-30",
+      "text": "Ürün açıklamasında belirtilmeyen mango aromasını çok yüksek düzeyde algıladım.\nSulu bir armut, asil lavanta, pudralı miskli güller, pudralı ylang-ylang ile zarif bir yasemin ve yosundan gelen güçlü, otsu bir vanilya... Aman Tanrım, ne güzel ve muhteşem bir koku, her bir notası rafine ve güçlü bir zarafetle haykıran, asil bir şekilde iyi yapılandırılmış. Bana TM'nin Alien'ını çok hatırlatıyor, çünkü ikisi de aynı tarzda. Tamamen büyülendim!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.20202.jpg"
+    },
+    {
+      "id": "parent607161",
+      "author": "Berlero4ka",
+      "date": "2024-12-29",
+      "text": "\"Bayıldım\" diye oy verme seçeneği olmaması çok üzücü!!! Bu kokuyu çok seviyorum. Bazen içerik listesinde \"akrep sokması\" yazıyor ama burada yazmıyor, ancak bence tam olarak bu parfüm gibi kokabilir – gizemli, büyüleyici, tatlı ve sarhoş edici, kalıcılığı iyi ama bunaltıcı olmayan bir koku. Denemeden aldığım için pişman değilim – mükemmel bir uyum!",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.422715.jpg"
+    },
+    {
+      "id": "parent607134",
+      "author": "Lagioianena91",
+      "date": "2024-11-09",
+      "text": "Önceki tüm yorumlara katılmıyorum. Bu, her kadın için en seksi, en güzel ve en çekici parfümlerden biri.\nZarafet, lüks—zengin ama bağımsız bir kadının, bir ofis çalışanının veya benzerlerinin parfümü. Fame'e çok benziyor, doğru, ama mango içermediği için tamamen farklı bir parfüm. Güçlü bir ylang-ylang, yasemin ve vanilya kokusu alıyorum.\nMutlaka sahip olunması gereken bir parfüm. Gerçekten enfes. Eğer biri bana sadece bir parfüm sahibi olabileceğimi sorsaydı, sadece bunu alırdım derdim. Çok yönlü, modern, zarif ve seksi.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.128426.jpg"
+    },
+    {
+      "id": "parent607104",
+      "author": "lilyfarwest",
+      "date": "2024-10-23",
+      "text": "Açılışta pudramsı notalarla çok tatlı bir gül kokusu alıyorsunuz (Rabenne DNA'sını hemen ayırt edebiliyorsunuz).\nGül, kısa süre sonra bu ipeksi, bal rengi beyaz çiçek tarlası içinde soluyor.\nTıpkı Jasmin'in zengin ve gösterişli ev sahibi olduğu, beyaz çiçeklerle dolu, lüks, köpüklü ve gürültülü bir parti gibi.\nYosun, kokuya o kadar derin ve sofistike bir hava katan \"tarif edilemez\" bir dokunuş ekliyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1815594.jpg"
+    },
+    {
+      "id": "parent607133",
+      "author": "vanilla_stardust",
+      "date": "2024-10-12",
+      "text": "Bu parfümü incelemek için özellikle kayıt oldum.\nBence hiçbir yorum bu parfümü hakkıyla anlatamaz: Bayıcı olmadan tatlı bir patlama. Tek tek notaları ayırt edemiyorum. Çiçekler, vanilya, sevdiğim şeyler kokluyorum ama başka bir şey ayırt edemiyorum. Pahalı kokuyor, bu anlamda 212 VIP'yi hatırlatıyor, ancak alkol (rom) olmadan ve daha karmaşık bir formülle. Bence yılın her zamanı için uygun, ancak ben onu kışın keşfettim ve hala ilkbaharda da bayılıyorum. Kredi kartımı kullanmak zorunda kaldım çünkü dürüst olmak gerekirse, aşık oldum. Güçlü parfümleri seviyorum ve son zamanlarda hepsi indirimde. Tatlı ama uzun süre kalıcı, karakterli ama modern bir parfüme ihtiyacım vardı. Lady Million'ım vardı ve onda bu parfümde olmayan pudralı, olgun bir şey vardı. Onu da çok güzel olduğu için aldım, ama bu daha da ileri gidiyor.\nBu nedenle diğer görüşlere katılmıyorum. Bana göre bu parfüm 10 üzerinden 10.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent607152",
+      "author": "CamillaBlanche",
+      "date": "2024-09-22",
+      "text": "Markanın diğer parfümleriyle mükemmel bir uyum içinde olan bu koku, tatlı, büyüleyici, genç, çekici, akılda kalıcı ve kolay bulaşan bir koku. Bana göre Lady'den çok uzak değil, belki daha olgun ve zarif. Koku piramidi, bence tamamen net değil; etikette yer almayan belirgin bir meyvemsi açılış (belki kayısı?) ve şekerli baharatlı bir baz var. Çiçeksi bileşen mevcut, ancak tam olarak ayırt edemediğim bir çiçek; gül çekingen bir şekilde beliriyor, beyaz çiçekleri ise algılayamıyorum. Armani'nin My Way'i gibi, piyasadaki diğer birçok parfüm gibi meyvemsi kokuları çağrıştıran bir çiçeksi koku türü. My Way'de yasemin açıkça ayırt edilebilir ve ciltte kalıcıyken, Million Gold'da her şey çok genel ve çok basit ve sıradan bir şekilde kayboluyor, misk ve pudra şekeri kokuyor.\nİlk bakışta genel olarak iyi görünüyor ancak zamanla gelişimi ve süresi bunu büyük ölçüde olumsuz etkiliyor: ilk saatten sonra sadece dip noktayı hissediyorsunuz ve etki gücü büyük ölçüde azalıyor.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.744.jpg"
+    },
+    {
+      "id": "parent607151",
+      "author": "Jean_Louis_94",
+      "date": "2024-09-21",
+      "text": "Harika, harika... Harika! Çok tatlı, temiz bir çiçek kokusu. Koku piramidinde olmasa da, ben şahsen meyvemsi bir nota algılıyorum. Bir kızda bu kokuyu gerçekten çok isterdim. Bu, şehvetli, tutkulu bir koku değil, daha çok sizi iyi bir ruh haline sokan, kullanan kişiye yakın olmak istemenizi sağlayan taze, neşeli bir koku. Daha önce hiç kokladınız mı? Evet. Sıradan mı? Evet. Ticari mi? Evet. Olsun, yine de güzel. Yayılımı muhteşem ve şişesi her zamanki gibi, Paco Rabanne'ın eksantrik ve tahmin edilemez tarzında çok güzel.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.89900.jpg"
+    },
+    {
+      "id": "parent607139",
+      "author": "Saveria",
+      "date": "2024-09-16",
+      "text": "Çok tatlı bir açılışın ardından gül kokusu geliyor. Tatlılık daha sonra yumuşayarak (ama tamamen kaybolmadan) oldukça belirgin bir temiz nota yerini bırakıyor.\n\nŞahsen ben \"temiz\" parfümleri pek sevmiyorum ve bu parfümü de çok tatlı buluyorum. Million Gold, bence özellikle dikkat çekici hiçbir şey sunmuyor; sıradan ve yeni bir şey değil.\n\nBazılarının aksine, berbat ve iğrenç diyecek kadar ileri gitmem ama açıkça \"parfüm\" gibi kokuyor.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.25185.jpg"
+    },
+    {
+      "id": "parent607100",
+      "author": "klumzykactus",
+      "date": "2024-09-13",
+      "text": "Bu parfümü parfüm mağazasında denemiştim ve çok beğenmemiştim. Bugün eve bir numune geldi ve tekrar denediğimde kesinlikle muhteşem olduğunu gördüm. Sade, temiz, hafif tatlı, yumuşak, narin ama çok güzel bir koku. Muhtemelen daha önce kokladığım bir şey ama gerçekten çok beğendim ve kesinlikle büyük boyunu almayı düşüneceğim.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent607096",
+      "author": "scent.2go",
+      "date": "2024-09-12",
+      "text": "Notlar:\n*Lavanta, Madagaskar mandalinası, armut çiçeği, tonkalakton\n*Yasemin, ylang-ylang, gül oksit\n*bourbon vanilyası, ekomisk, yosunlu notalar\n\nBu koku, zaten bildiğimiz her şeyin bir karışımı... My Way, Paradoxe, Burberry Goddess, Her... ama bu çok güzel bir karışım 😍 Bu kokuda manyetik bir şey var. Kalbimi çaldı, kolumu koklamayı bırakamıyorum. Dürüst olmak gerekirse yeni bir şey değil ama özel bir yanı var. Çok neşeli, canlı bir koku. Ve ayrıca çok güçlü.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1579017.jpg"
+    },
+    {
+      "id": "parent607143",
+      "author": "ShinyrisBeauty",
+      "date": "2024-09-10",
+      "text": "Son iki yılda denediğim en kötü parfümlerden biri.\nRabanne'ın dehasına hakaret bile olurdu bence.\nCildimde, çok kısa bir süreliğine \"hey, bu bana biraz Burberry Goddess'ı hatırlatıyor\" dedikten sonra, çok hızlı bir şekilde yıllar öncesinden kalma, modası geçmiş bir şipre parfüm gibi kokuyor; uzaktan gelen biberli, neredeyse kafur benzeri alt tonları var - kısacası, sert ve hatta itici bir şey.\n(Erkek arkadaşım üzerinde bayat tütün kokusu aldı ve bunu yaşayan tek kişinin ben olmadığımı bilmek beni rahatlattı.)\nKolay para kazanmak amacıyla, Prada'nın Paradox'u gibi, genel ve popüler bir koku olarak piyasaya sürülmesi amaçlanmıştı, ancak aslında tasarımcı parfümcülüğünün utanç verici bir başarısızlığı.\nBİR FELAKET\nBir sonraki parfümün adı \"Paco'dan Özür Dilerim\" olmalı ve bu hakareti unutturacak inanılmaz bir koku olmalı...",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.34693.jpg"
+    },
+    {
+      "id": "parent607097",
+      "author": "Dennis Derboven",
+      "date": "2024-09-05",
+      "text": "Genel mi? Evet\nÇığır açıcı mı? Hayır\nOrijinal mi? Hayır\n\nGüzel mi? Evet\n\nSadece güzel kokuyor. Bu, şüphesiz güzel kokan ve iltifat alacak türden bir koku, ancak koku meraklılarından muhtemelen sıkıcı ve sıradan bulacaklar. Vice Viva veya Good Fortune gibi bir şey.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1827608.jpg"
+    },
+    {
+      "id": "parent607141",
+      "author": "Cass735",
+      "date": "2024-08-30",
+      "text": "Hoş, nispeten zarif, ama çok sıradan. Açtığımda içinde bir meyve parçası olduğunu sandım!\nBu mesajı yazarken fark ettim ki Frangrantica piramidi (yine!) yanlışmış.\nÜst notalar: Özel damıtılmış öz, lavanta esansı x tonkalakton, mandalina, armut akoru\nKalp notaları: Gül oksidi, Ylang Ylang, Yasemin\nTemel notalar: Yosun akoru, Misk, Vanilya özü\n\nEvet, sanırım kusuru buldum. Genel tasarımı uyumlu ve nispeten iyi yapılmış buldum, ancak çok sıradan. Şahsen, bu fiyata almazdım.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.762.jpg"
+    },
+    {
+      "id": "parent607093",
+      "author": "piahellgren",
+      "date": "2024-08-16",
+      "text": "Güzel. Sıradan mı? Bilmiyorum… Genellikle karşılaştırma yapmayı sevmem ama şu anda marshmallow, karamel ve pannacotta içeren tüm parfümler sıradan değil mi zaten? Neyse, bu parfüm hafif sütlü, miskli gül ve beyaz çiçek karışımıyla parlak, neşeli ve oldukça sıcak bir koku. Gerçekten çok güzel ve kalıcılığı da iyi gibi görünüyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.406901.jpg"
     }
   ]
 }

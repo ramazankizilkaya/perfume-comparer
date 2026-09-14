@@ -49,14 +49,42 @@
     {
       "name": "odunsu",
       "width": "48.2326%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.11",
-    "votesCount": "19",
+    "score": "4.14",
+    "votesCount": "21",
     "breakdown": {
-      "love": "11",
-      "like": "4",
+      "love": "12",
+      "like": "5",
       "ok": "1",
       "dislike": "1",
       "hate": "2"
@@ -90,33 +118,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "1",
+    "moderate": "6",
+    "longLasting": "6",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "6",
+    "strong": "2",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "11",
+    "moreMale": "4",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "9"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Gold Myrrh Absolute"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Herod"
+    },
+    {
+      "brand": "PLUME IMPRESSİON",
+      "name": "Royal Bourbon"
+    },
+    {
+      "brand": "REİNE DE SABA",
+      "name": "Divine Tentation"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Bad Boy"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "FRENCH AVENUE",
@@ -155,10 +204,6 @@
       "name": "Asad Elixir"
     },
     {
-      "brand": "RİİFFS PERFUMES",
-      "name": "Momento"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Liam"
     },
@@ -177,6 +222,11 @@
     {
       "brand": "VİKTOR&ROLF",
       "name": "Spicebomb"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ishq Al Shuyukh Gold"
     }
-  ]
+  ],
+  "comments": []
 }

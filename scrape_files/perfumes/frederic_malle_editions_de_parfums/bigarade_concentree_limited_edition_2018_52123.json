@@ -73,38 +73,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "2",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "2",
-    "strong": "2",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Bigarade Concentree"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -143,12 +138,12 @@
       "name": "Fleurs d'Oranger"
     },
     {
-      "brand": "TAUER PERFUMES",
-      "name": "02 L'Air du Desert Marocain"
-    },
-    {
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Amyris Homme Extrait de Parfum"
+    },
+    {
+      "brand": "TAUER PERFUMES",
+      "name": "02 L'Air du Desert Marocain"
     },
     {
       "brand": "BYREDO",
@@ -166,5 +161,6 @@
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Portrait of a Lady"
     }
-  ]
+  ],
+  "comments": []
 }

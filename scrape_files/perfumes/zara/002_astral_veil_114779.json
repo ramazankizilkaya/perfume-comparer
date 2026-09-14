@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Zara/002-ASTRAL-VEIL-114779.html",
   "brand": "Zara parfüm ve kolonya",
   "description": "Zara markasının 002: ASTRAL VEIL parfümü, erkekler için bir kokudur. 002: ASTRAL VEIL 2020larda piyasaya sürüldü. Üst notalar: Müge, Kakule ve Mandalina; orta notalar: Hedion ve Sandal ağacı; alt notalar Kaşmir, Misk ve Amber.",
-  "description_original": "Zara markasının 002: ASTRAL VEIL parfümü, erkekler için bir kokudur. 002: ASTRAL VEIL 2020larda piyasaya sürüldü. Üst notalar: Müge, Kakule ve Mandalina; orta notalar: Hedion ve Sandal ağacı; alt notalar Kaşmir, Misk ve Amber.",
+  "description_original": "Zara markasının 002: ASTRAL VEIL parfümü, erkekler için bir kokudur. 002: ASTRAL VEIL 2020larda piyasaya sürüldü. Üst notalar: Müge, Kakule ve Mandalina; orta notalar: Hedion ve Sandal ağacı; alt notalar Kaşmeran, Misk ve Amber.",
   "description_enhanced": "Zara markasının 002: ASTRAL VEIL parfümü, erkekler için bir kokudur. 002: ASTRAL VEIL 2020larda piyasaya sürüldü. Üst notalar: Müge, Kakule ve Mandalina; orta notalar: Hedion ve Sandal ağacı; alt notalar Kaşmir, Misk ve Amber.",
   "mainAccords": [
     {
@@ -49,14 +49,42 @@
     {
       "name": "narenciye",
       "width": "47.995%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.32",
-    "votesCount": "47",
+    "score": "4.33",
+    "votesCount": "49",
     "breakdown": {
-      "love": "22",
-      "like": "18",
+      "love": "23",
+      "like": "19",
       "ok": "7",
       "dislike": "0",
       "hate": "0"
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "25",
-    "spring": "29",
+    "spring": "30",
     "summer": "25",
     "autumn": "29",
-    "day": "32",
+    "day": "33",
     "night": "11"
   },
   "notes": {
@@ -81,7 +109,7 @@
       "Sandal ağacı"
     ],
     "base": [
-      "Kaşmir",
+      "Kaşmeran",
       "Misk",
       "Amber"
     ],
@@ -120,16 +148,16 @@
       "name": "Angel Dust"
     },
     {
-      "brand": "ORMONDE JAYNE",
-      "name": "Montabaco"
-    },
-    {
       "brand": "ESCENTRİC MOLECULES",
       "name": "Molecule 01"
     },
     {
-      "brand": "ESCENTRİC MOLECULES",
-      "name": "Molecule 05"
+      "brand": "ORMONDE JAYNE",
+      "name": "Montabaco"
+    },
+    {
+      "brand": "JOVOY PARİS",
+      "name": "Musc Pallas"
     },
     {
       "brand": "BYREDO",
@@ -140,8 +168,8 @@
       "name": "You"
     },
     {
-      "brand": "JOVOY PARİS",
-      "name": "Musc Pallas"
+      "brand": "ESCENTRİC MOLECULES",
+      "name": "Molecule 05"
     },
     {
       "brand": "TSU LANGE YOR",
@@ -166,13 +194,13 @@
     {
       "brand": "PARIS CORNER",
       "name": "Eternal Musk"
-    },
-    {
-      "brand": "ZADİG & VOLTAİRE",
-      "name": "This is Him"
     }
   ],
   "peopleAlsoLike": [
+    {
+      "brand": "DİPTYQUE",
+      "name": "Orphéon Eau de Parfum"
+    },
     {
       "brand": "ZARA",
       "name": "004: Ultra Glitch"
@@ -180,10 +208,6 @@
     {
       "brand": "PRADA",
       "name": "Prada L'Homme"
-    },
-    {
-      "brand": "HUGO BOSS",
-      "name": "Boss Bottled"
     },
     {
       "brand": "LALİQUE",
@@ -202,8 +226,16 @@
       "name": "Gentleman Eau de Parfum Reserve Privée"
     },
     {
+      "brand": "LOEWE",
+      "name": "Paula's Ibiza"
+    },
+    {
       "brand": "HUGO BOSS",
       "name": "Bottled Absolu"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
     },
     {
       "brand": "ZARA",
@@ -215,23 +247,16 @@
     },
     {
       "brand": "ZARA",
-      "name": "Elegantly Tokyo"
-    },
-    {
-      "brand": "ZARA",
       "name": "Caviar Bergamot"
     },
     {
       "brand": "ZARA",
+      "name": "Elegantly Tokyo"
+    },
+    {
+      "brand": "ZARA",
       "name": "003: VOID BLOOM"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Vetiver Pamplemousse Elixir"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Salty Ocean Bouquet"
     }
-  ]
+  ],
+  "comments": []
 }

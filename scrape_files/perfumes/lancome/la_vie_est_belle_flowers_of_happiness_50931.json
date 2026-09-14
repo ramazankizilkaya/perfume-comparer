@@ -49,25 +49,53 @@
     {
       "name": "odunsu",
       "width": "46.5298%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.95",
-    "votesCount": "184",
+    "votesCount": "185",
     "breakdown": {
       "love": "71",
       "like": "63",
-      "ok": "26",
+      "ok": "27",
       "dislike": "18",
       "hate": "6"
     }
   },
   "seasons": {
-    "winter": "13",
-    "spring": "92",
-    "summer": "70",
+    "winter": "14",
+    "spring": "93",
+    "summer": "71",
     "autumn": "24",
-    "day": "86",
+    "day": "87",
     "night": "14"
   },
   "notes": {
@@ -89,33 +117,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "15",
+    "weak": "24",
+    "moderate": "51",
+    "longLasting": "19",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "39",
+    "moderate": "51",
+    "strong": "33",
+    "enormous": "17"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "80",
+    "moreFemale": "2",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "26",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "8",
+    "overpriced": "28",
+    "fair": "27",
+    "goodValue": "5",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Luna Blossom"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Miss Dior Blooming Bouquet"
+    },
+    {
+      "brand": "EX NİHİLO",
+      "name": "Gold Immortals Musc"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chance Eau Tendre"
+    },
+    {
+      "brand": "MARİAH CAREY",
+      "name": "Luscious Pink Deluxe Edition Parfum"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Scarlett"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Bright Crystal"
+    },
+    {
+      "brand": "MARİAH CAREY",
+      "name": "Luscious Pink"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Beautiful Magnolia"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Euphoria Blossom"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Zara Hello Kitty"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Elegantly Tokyo"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Les Sorbets de Luna"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chance Eau Tendre Eau de Parfum"
+    },
+    {
+      "brand": "EMANUEL DUBAİ",
+      "name": "Ce' La Vi Floral"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -177,5 +266,6 @@
       "brand": "LANCÔME",
       "name": "La Nuit Trésor"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -47,8 +47,36 @@
       "width": "61.1111%"
     },
     {
-      "name": "lavanta",
+      "name": "yosunlu",
       "width": "55.9261%"
+    },
+    {
+      "name": "Online satın alın 18 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -92,33 +120,38 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "3",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "3",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "2",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MONTBLANC",
+      "name": "Legend"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -131,6 +164,10 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Honor & Glory"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Ivory Musk"
     },
     {
       "brand": "MAİSON ALHAMBRA",
@@ -149,12 +186,12 @@
       "name": "Asad Elixir"
     },
     {
-      "brand": "FRAGRANCE WORLD",
-      "name": "Neroli Riviera"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah Qahwa"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Neroli Riviera"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -164,5 +201,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah Dukhan"
     }
-  ]
+  ],
+  "comments": []
 }

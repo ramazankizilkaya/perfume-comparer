@@ -23,11 +23,11 @@
       "width": "93.6364%"
     },
     {
-      "name": "tatlı",
+      "name": "menekşe",
       "width": "74.5455%"
     },
     {
-      "name": "menekşe",
+      "name": "tatlı",
       "width": "74.5455%"
     },
     {
@@ -37,6 +37,34 @@
     {
       "name": "çiçeksi",
       "width": "51.5455%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -75,33 +103,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "10",
+    "moderate": "20",
+    "longLasting": "14",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "20",
+    "strong": "10",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "14",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "3",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Black Edition"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Pop Art Edition"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Silver Edition"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chance Eau Tendre"
+    },
+    {
+      "brand": "AVON",
+      "name": "Avon Luck La Vie"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Eau So Intense"
+    },
+    {
+      "brand": "LİZ CLAİBORNE",
+      "name": "Vivid"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Anniversary Edition"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Shine Pink Edition"
+    },
+    {
+      "brand": "BOİS 1920",
+      "name": "Oltremare"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Mojave Ghost"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "You're the One"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -163,5 +244,6 @@
       "brand": "CHANEL",
       "name": "Coco Mademoiselle"
     }
-  ]
+  ],
+  "comments": []
 }

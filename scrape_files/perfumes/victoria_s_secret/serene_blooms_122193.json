@@ -19,11 +19,11 @@
       "width": "82.5%"
     },
     {
-      "name": "sulu",
+      "name": "gül",
       "width": "73.0769%"
     },
     {
-      "name": "gül",
+      "name": "sulu",
       "width": "73.0769%"
     },
     {
@@ -31,16 +31,44 @@
       "width": "62.3077%"
     },
     {
-      "name": "pudralı",
+      "name": "odunsu",
       "width": "56.9231%"
     },
     {
-      "name": "odunsu",
+      "name": "pudralı",
       "width": "56.9231%"
     },
     {
       "name": "tatlı",
       "width": "46.1539%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -55,7 +83,7 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "5",
     "summer": "2",
     "autumn": "0",
@@ -105,7 +133,16 @@
     "goodValue": "4",
     "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ROBERTO CAVALLİ",
+      "name": "Paradiso Rosa"
+    },
+    {
+      "brand": "MİU MİU",
+      "name": "Miutine"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİCTORİA'S SECRET",
@@ -167,5 +204,6 @@
       "brand": "VİCTORİA'S SECRET",
       "name": "Vanilla & Dreamy Sun-Splashed"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/Zaad-Go-57089.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının Zaad Go parfümü, erkekler için Çiçeksi Odunsu Misk bir kokudur. Zaad Go, 2019 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Adilson Rato. Üst notalar: Kakule, Safran, Bergamot ve Limon; orta notalar: Su Notaları, Cypriol Yağı veya Nagarmotha, Lavanta, Afrika Pelargonu, Paçuli ve Yasemin; alt notalar Ambroksan, Tütsü, Sandal ağacı, Misk, Yosun, Vanilya ve Meşe.",
-  "description_original": "O Boticário markasının Zaad Go parfümü, erkekler için Çiçeksi Odunsu Misk bir kokudur. Zaad Go, 2019 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Adilson Rato. Üst notalar: Kakule, Safran, Bergamot ve Limon; orta notalar: Su Notaları, Cypriol Yağı veya Nagarmotha, Lavanta, Afrika Pelargonu, Paçuli ve Yasemin; alt notalar Ambroksan, Tütsü, Sandal ağacı, Misk, Yosun, Vanilya ve Meşe.",
+  "description_original": "O Boticário markasının Zaad Go parfümü, erkekler için Çiçeksi Odunsu Misk bir kokudur. Zaad Go, 2019 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Adilson Rato. Üst notalar: Kakule, Safran, Bergamot ve Limon; orta notalar: Su Notaları, Cypriol Yağı veya Nagarmotha, Lavanta, Afrika Pelargonu, Paçuli ve Yasemin; alt notalar Tütsü, Ambroksan, Sandal ağacı, Misk, Yosun, Meşe ve Vanilya.",
   "description_enhanced": "O Boticário markasının Zaad Go parfümü, erkekler için Çiçeksi Odunsu Misk bir kokudur. Zaad Go, 2019 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Adilson Rato. Üst notalar: Kakule, Safran, Bergamot ve Limon; orta notalar: Su Notaları, Cypriol Yağı veya Nagarmotha, Lavanta, Afrika Pelargonu, Paçuli ve Yasemin; alt notalar Ambroksan, Tütsü, Sandal ağacı, Misk, Yosun, Vanilya ve Meşe.",
   "mainAccords": [
     {
@@ -49,14 +49,42 @@
     {
       "name": "dumanlı",
       "width": "53.8581%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.94",
-    "votesCount": "185",
+    "score": "3.95",
+    "votesCount": "188",
     "breakdown": {
-      "love": "69",
-      "like": "66",
+      "love": "71",
+      "like": "67",
       "ok": "23",
       "dislike": "24",
       "hate": "3"
@@ -86,44 +114,73 @@
       "Yasemin"
     ],
     "base": [
-      "Ambroksan",
       "Tütsü",
+      "Ambroksan",
       "Sandal ağacı",
       "Misk",
       "Yosun",
-      "Vanilya",
-      "Meşe"
+      "Meşe",
+      "Vanilya"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "13",
+    "weak": "23",
+    "moderate": "63",
+    "longLasting": "33",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "57",
+    "moderate": "63",
+    "strong": "24",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "11",
+    "moreMale": "35",
+    "male": "71"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "29",
+    "overpriced": "48",
     "fair": "23",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Malbec Elegant"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Eau Duelle Eau de Toilette"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Fire"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Geranium Pour Monsieur"
+    },
+    {
+      "brand": "BENETTON",
+      "name": "Colors Man Black"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Glamour Gold Glam"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Uomini Spirit"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -167,7 +224,7 @@
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Zaad"
+      "name": "Quasar Brave"
     },
     {
       "brand": "DİOR",
@@ -175,7 +232,7 @@
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Quasar Brave"
+      "name": "Zaad"
     },
     {
       "brand": "NATURA",
@@ -185,5 +242,6 @@
       "brand": "CAROLİNA HERRERA",
       "name": "212 Men"
     }
-  ]
+  ],
+  "comments": []
 }

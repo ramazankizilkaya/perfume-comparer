@@ -49,6 +49,38 @@
     {
       "name": "animalik",
       "width": "49.8897%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -63,12 +95,12 @@
     }
   },
   "seasons": {
-    "winter": "81",
+    "winter": "82",
     "spring": "18",
     "summer": "11",
-    "autumn": "74",
+    "autumn": "75",
     "day": "37",
-    "night": "100"
+    "night": "101"
   },
   "notes": {
     "top": [
@@ -88,33 +120,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "15",
+    "moderate": "29",
+    "longLasting": "44",
+    "eternal": "13"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "27",
+    "moderate": "29",
+    "strong": "37",
+    "enormous": "42"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "12",
+    "moreFemale": "10",
+    "unisex": "2",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "5",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Black XS L'Exces for Her"
+    },
+    {
+      "brand": "NEW BRAND PARFUMS",
+      "name": "Chic 'n Glam Elixir"
+    },
+    {
+      "brand": "CUBA PARİS",
+      "name": "Night"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Amarige Mariage"
+    },
+    {
+      "brand": "ELLEN TRACY",
+      "name": "Ellen"
+    },
+    {
+      "brand": "Bİ-ES",
+      "name": "Lady in Black"
+    },
+    {
+      "brand": "LA RİVE",
+      "name": "Cash Woman"
+    },
+    {
+      "brand": "LA RİVE",
+      "name": "Lady Diamond"
+    },
+    {
+      "brand": "GA-DE",
+      "name": "Icon Musk Oil Gold"
+    },
+    {
+      "brand": "VOTRE PARFUM",
+      "name": "Here and Now"
+    },
+    {
+      "brand": "MARC JOSEPH",
+      "name": "Arbre De Nuit"
+    },
+    {
+      "brand": "OSCAR DE LA RENTA",
+      "name": "Alibi Eau Sensuelle"
+    },
+    {
+      "brand": "EXTRACT",
+      "name": "Sinai"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Rush"
+    },
+    {
+      "brand": "MADONNA",
+      "name": "Truth or Dare by Madonna Naked"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -176,5 +269,6 @@
       "brand": "LANCÔME",
       "name": "La Nuit Trésor"
     }
-  ]
+  ],
+  "comments": []
 }

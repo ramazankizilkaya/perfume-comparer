@@ -27,11 +27,11 @@
       "width": "58%"
     },
     {
-      "name": "tatlı",
+      "name": "odunsu",
       "width": "56.25%"
     },
     {
-      "name": "odunsu",
+      "name": "tatlı",
       "width": "56.25%"
     },
     {
@@ -71,54 +71,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "1",
-    "moderate": "1",
-    "longLasting": "3",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "1",
-    "strong": "3",
-    "enormous": "10"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "2",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ESCADA",
-      "name": "Pacific Paradise"
-    },
-    {
-      "brand": "ESCADA",
-      "name": "Escada Island Kiss 2011"
-    },
-    {
-      "brand": "JİMMY CHOO",
-      "name": "Jimmy Choo Blossom Special Edition 2018"
-    },
-    {
-      "brand": "JİMMY CHOO",
-      "name": "Jimmy Choo Blossom Special Edition 2023"
-    },
-    {
-      "brand": "JİMMY CHOO",
-      "name": "Blossom Special Edition 2024"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUCCİ",
@@ -180,5 +159,6 @@
       "brand": "MANCERA",
       "name": "Coco Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

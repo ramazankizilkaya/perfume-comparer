@@ -29,26 +29,54 @@
     {
       "name": "taze",
       "width": "32.8824%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.38",
-    "votesCount": "79",
+    "score": "4.36",
+    "votesCount": "83",
     "breakdown": {
-      "love": "47",
-      "like": "22",
+      "love": "49",
+      "like": "23",
       "ok": "4",
-      "dislike": "5",
+      "dislike": "6",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "31",
+    "winter": "33",
     "spring": "12",
     "summer": "7",
-    "autumn": "32",
-    "day": "14",
-    "night": "36"
+    "autumn": "33",
+    "day": "15",
+    "night": "37"
   },
   "notes": {
     "top": [],
@@ -67,7 +95,7 @@
     "eternal": "8"
   },
   "sillage": {
-    "intimate": "9",
+    "intimate": "10",
     "moderate": "15",
     "strong": "16",
     "enormous": "4"
@@ -75,7 +103,7 @@
   "genderVoting": {
     "female": "11",
     "moreFemale": "14",
-    "unisex": "12",
+    "unisex": "13",
     "moreMale": "4",
     "male": "0"
   },
@@ -83,8 +111,8 @@
     "wayOverpriced": "1",
     "overpriced": "1",
     "fair": "4",
-    "goodValue": "17",
-    "greatValue": "5"
+    "goodValue": "16",
+    "greatValue": "6"
   },
   "remindsMeOf": [
     {
@@ -92,8 +120,16 @@
       "name": "Supreme Vanilla"
     },
     {
+      "brand": "ATKİNSONS",
+      "name": "Tulipe Noire"
+    },
+    {
       "brand": "COMMODİTY",
       "name": "Paper -"
+    },
+    {
+      "brand": "FUGAZZİ",
+      "name": "Angel Dust"
     },
     {
       "brand": "TRUSSARDİ",
@@ -108,51 +144,39 @@
       "name": "Mysterious Nomad"
     },
     {
-      "brand": "ATKİNSONS",
-      "name": "Tulipe Noire"
-    },
-    {
-      "brand": "BİLLİE EİLİSH",
-      "name": "Eilish No 2"
-    },
-    {
-      "brand": "FUGAZZİ",
-      "name": "Angel Dust"
-    },
-    {
       "brand": "RALPH LAUREN",
       "name": "Ralph Cool"
     },
     {
-      "brand": "BİLLİE EİLİSH",
-      "name": "Your Turn"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Starlight Vanilla"
-    },
-    {
-      "brand": "COMMODİTY",
-      "name": "Paper +"
-    },
-    {
-      "brand": "GRANADO",
-      "name": "Aurora"
+      "brand": "VALENTİNO",
+      "name": "Valentino Uomo"
     },
     {
       "brand": "CELİNE",
       "name": "Black Tie"
     },
     {
-      "brand": "VALENTİNO",
-      "name": "Valentino Uomo"
+      "brand": "GRANADO",
+      "name": "Aurora"
+    },
+    {
+      "brand": "COMMODİTY",
+      "name": "Paper +"
+    },
+    {
+      "brand": "BİLLİE EİLİSH",
+      "name": "Eilish No 2"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Starlight Vanilla"
+    },
+    {
+      "brand": "BİLLİE EİLİSH",
+      "name": "Your Turn"
     }
   ],
   "peopleAlsoLike": [
-    {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "By the Fireplace"
-    },
     {
       "brand": "JULİETTE HAS A GUN",
       "name": "Not A Perfume"
@@ -160,10 +184,6 @@
     {
       "brand": "CAROLİNA HERRERA",
       "name": "Good Girl"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Si"
     },
     {
       "brand": "VİCTORİA'S SECRET",
@@ -198,6 +218,14 @@
       "name": "Hypnotic Poison"
     },
     {
+      "brand": "DOLCE&GABBANA",
+      "name": "The Only One"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Moonlight"
+    },
+    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Love Eau de Parfum"
     },
@@ -209,5 +237,6 @@
       "brand": "JESSİCA SİMPSON",
       "name": "Fancy"
     }
-  ]
+  ],
+  "comments": []
 }

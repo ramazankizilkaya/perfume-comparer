@@ -31,7 +31,7 @@
       "width": "50.4165%"
     },
     {
-      "name": "toprak",
+      "name": "sarı çiçeksi",
       "width": "47.5001%"
     },
     {
@@ -39,7 +39,7 @@
       "width": "47.5001%"
     },
     {
-      "name": "sarı çiçeksi",
+      "name": "toprak",
       "width": "47.5001%"
     },
     {
@@ -49,14 +49,42 @@
     {
       "name": "yumuşak baharatlı",
       "width": "44.9479%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.50",
-    "votesCount": "20",
+    "votesCount": "22",
     "breakdown": {
-      "love": "12",
-      "like": "6",
+      "love": "13",
+      "like": "7",
       "ok": "2",
       "dislike": "0",
       "hate": "0"
@@ -64,11 +92,11 @@
   },
   "seasons": {
     "winter": "11",
-    "spring": "10",
+    "spring": "11",
     "summer": "2",
-    "autumn": "12",
-    "day": "12",
-    "night": "12"
+    "autumn": "13",
+    "day": "13",
+    "night": "13"
   },
   "notes": {
     "top": [
@@ -88,45 +116,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "9",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "9",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "7",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "12"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Society"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Sui Generis"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Club Exquisite"
+    },
+    {
+      "brand": "ASTEN",
+      "name": "Genius Man Solitude"
+    },
+    {
+      "brand": "PENDORA SCENTS",
+      "name": "Intense Wayfarer"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Royal Men"
+    },
+    {
+      "brand": "GULF ORCHİD",
+      "name": "Pacific"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ARMAF",
       "name": "Odyssey Homme"
-    },
-    {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Toro Pour Homme"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Ameer Al Oudh Intense Oud"
     },
     {
       "brand": "KHADLAJ PERFUMES",
@@ -146,11 +195,11 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Asad Elixir"
+      "name": "Asad Bourbon"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Asad Bourbon"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Hercules"
     },
     {
       "brand": "KHADLAJ PERFUMES",
@@ -173,8 +222,17 @@
       "name": "Khamrah"
     },
     {
+      "brand": "FRENCH AVENUE",
+      "name": "Amber Empire"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Rare Reef"
+    },
+    {
       "brand": "ZİMAYA",
       "name": "Sharaf Blend"
     }
-  ]
+  ],
+  "comments": []
 }

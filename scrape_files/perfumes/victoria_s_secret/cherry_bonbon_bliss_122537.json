@@ -29,6 +29,34 @@
     {
       "name": "vanilya",
       "width": "41.6666%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "10",
+    "winter": "11",
     "spring": "7",
     "summer": "6",
     "autumn": "8",
@@ -166,5 +194,6 @@
       "brand": "RARE BEAUTY",
       "name": "Rare"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,17 +49,45 @@
     {
       "name": "menekşe",
       "width": "52.4998%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "1.88",
-    "votesCount": "8",
+    "score": "2.00",
+    "votesCount": "7",
     "breakdown": {
       "love": "1",
       "like": "1",
       "ok": "0",
       "dislike": "0",
-      "hate": "6"
+      "hate": "5"
     }
   },
   "seasons": {
@@ -91,32 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "MES BİSOUS",
+      "name": "Balle Rouge"
+    },
+    {
+      "brand": "MORESQUE",
+      "name": "Ballerina"
+    },
+    {
+      "brand": "LES PARFUMS DE ROSİNE",
+      "name": "Ballerina No 1"
+    },
+    {
+      "brand": "WİENERBLUT",
+      "name": "Ballroom Bohème"
+    },
+    {
+      "brand": "AVEC DÉFİ",
+      "name": "Ball"
+    },
+    {
+      "brand": "ALKEMİA PERFUMES",
+      "name": "Eggnog Noel"
+    },
+    {
+      "brand": "DS&DURGA",
+      "name": "Crush Balls"
+    },
+    {
+      "brand": "ALKEMİA PERFUMES",
+      "name": "Eggnog Noel 2019"
+    },
+    {
+      "brand": "LES PARFUMS DE ROSİNE",
+      "name": "Ballerina No 3"
+    },
+    {
+      "brand": "SUCREABEİLLE",
+      "name": "Eggnog"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Ballet Nights"
+    },
+    {
+      "brand": "POESİE",
+      "name": "Eggnog Noel"
+    },
+    {
+      "brand": "GENYUM",
+      "name": "Ballerina"
+    },
+    {
+      "brand": "FUEGUİA 1833",
+      "name": "Ballena de la Pampa"
+    },
+    {
+      "brand": "DEMETER FRAGRANCE",
+      "name": "Egg Nog"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

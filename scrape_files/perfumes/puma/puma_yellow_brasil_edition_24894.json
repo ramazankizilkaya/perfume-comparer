@@ -49,6 +49,34 @@
     {
       "name": "odunsu",
       "width": "46.4973%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -92,33 +120,82 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "2",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "2",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Perceive Soleil"
+    },
+    {
+      "brand": "PUMA",
+      "name": "Jamaica Woman"
+    },
+    {
+      "brand": "PUMA",
+      "name": "Yellow"
+    },
+    {
+      "brand": "PUMA",
+      "name": "Jamaica ² Woman"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Chaps Woman"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Eau So Fresh"
+    },
+    {
+      "brand": "REVLON",
+      "name": "Charlie Sunshine"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water Woman Summer Seas"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy"
+    },
+    {
+      "brand": "BANANA REPUBLİC",
+      "name": "Malachite Special Edition"
+    },
+    {
+      "brand": "NAFNAF",
+      "name": "Fairy Juice Green"
+    },
+    {
+      "brand": "SALVADOR DALİ",
+      "name": "Dalilight"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BVLGARİ",
@@ -180,5 +257,6 @@
       "brand": "GUERLAİN",
       "name": "La Petite Robe Noire"
     }
-  ]
+  ],
+  "comments": []
 }

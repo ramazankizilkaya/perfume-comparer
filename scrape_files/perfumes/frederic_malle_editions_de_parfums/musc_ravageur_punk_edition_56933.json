@@ -88,66 +88,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "0",
-    "moderate": "1",
-    "longLasting": "2",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "1",
-    "strong": "5",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "2",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Musc Ravageur"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Musc Ravageur Limited Edition 2018"
-    },
-    {
-      "brand": "THE DUA BRAND",
-      "name": "Naram's Elixir"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "Muscs Koublai Khan"
-    },
-    {
-      "brand": "ALEXANDRİA FRAGRANCES",
-      "name": "Ravaged"
-    },
-    {
-      "brand": "SHALİNİ",
-      "name": "Vanille Rêve"
-    },
-    {
-      "brand": "RUMAD",
-      "name": "Blissphere"
-    },
-    {
-      "brand": "FRAGRANCE ONE",
-      "name": "Night For Women"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -209,5 +176,6 @@
       "brand": "GİVENCHY",
       "name": "L’Ange Noir"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -98,78 +98,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "2",
-    "longLasting": "2",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "2",
-    "strong": "1",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "3",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Iris Poudre"
-    },
-    {
-      "brand": "JİL SANDER",
-      "name": "Sun"
-    },
-    {
-      "brand": "THE DUA BRAND",
-      "name": "Powder Of Iris"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Portrait of a Lady"
-    },
-    {
-      "brand": "ORMONDE JAYNE",
-      "name": "Vanille d'Iris"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Athalia"
-    },
-    {
-      "brand": "BANANA REPUBLİC",
-      "name": "17 Oud Mosaic"
-    },
-    {
-      "brand": "ELİZABETH ARDEN",
-      "name": "5th Avenue"
-    },
-    {
-      "brand": "PRADA",
-      "name": "Infusion d'Iris"
-    },
-    {
-      "brand": "ATKİNSONS",
-      "name": "Love in Idleness"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Iris Pallida Extrait 6"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -212,12 +167,12 @@
       "name": "Fleur de Peau Eau de Parfum"
     },
     {
-      "brand": "SERGE LUTENS",
-      "name": "Iris Silver Mist"
-    },
-    {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Lipstick Rose"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Iris Silver Mist"
     },
     {
       "brand": "GUERLAİN",
@@ -231,5 +186,6 @@
       "brand": "HERMÈS",
       "name": "Un Jardin Sur Le Nil"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "vanilya",
       "width": "44.6923%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -110,33 +138,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "3",
+    "longLasting": "10",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "3",
+    "strong": "9",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "2",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium (1977)"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Poesie de Chine pour Femme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Fraicheur d'Orient"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Elixir Voluptueux"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Orient Extreme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Rouge Fatal (Collector's Edition 2015)"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Eau de Parfum 2009"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Parfum"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Collector's Edition 2013"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Voile d'Ambre"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -198,5 +267,6 @@
       "brand": "CACHAREL",
       "name": "Eden"
     }
-  ]
+  ],
+  "comments": []
 }

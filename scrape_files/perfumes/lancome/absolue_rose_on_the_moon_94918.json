@@ -29,26 +29,54 @@
     {
       "name": "çiçeksi",
       "width": "45%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.02",
-    "votesCount": "94",
+    "score": "3.96",
+    "votesCount": "103",
     "breakdown": {
-      "love": "42",
-      "like": "27",
-      "ok": "13",
-      "dislike": "9",
+      "love": "44",
+      "like": "29",
+      "ok": "15",
+      "dislike": "12",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "34",
-    "spring": "28",
-    "summer": "16",
-    "autumn": "36",
-    "day": "25",
-    "night": "28"
+    "winter": "38",
+    "spring": "31",
+    "summer": "17",
+    "autumn": "39",
+    "day": "27",
+    "night": "30"
   },
   "notes": {
     "top": [],
@@ -60,33 +88,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "22",
+    "longLasting": "11",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "22",
+    "strong": "12",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "22",
+    "moreFemale": "7",
+    "unisex": "18",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "9",
+    "overpriced": "11",
+    "fair": "15",
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Desert Eden"
+    },
+    {
+      "brand": "LE LABO",
+      "name": "Rose 31"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Santal Pao Rosa"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Santal Blush"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Absolue Pour Le Matin 2024"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Aqua Allegoria Forte Rosa Palissandro"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Much Ado About The Duke"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Caban"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Santal Majuscule"
+    },
+    {
+      "brand": "LE LABO",
+      "name": "Santal 33"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "Chloé Eau de Parfum Intense"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Tam Dao Eau de Toilette"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Rose"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Guidance 46"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Desert Dawn"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -148,5 +237,6 @@
       "brand": "CHANEL",
       "name": "Chanel No 5 L'Eau"
     }
-  ]
+  ],
+  "comments": []
 }

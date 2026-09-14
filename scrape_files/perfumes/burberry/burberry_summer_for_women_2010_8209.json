@@ -45,15 +45,43 @@
     {
       "name": "misk",
       "width": "44.7011%"
+    },
+    {
+      "name": "Online satın alın 14 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.81",
-    "votesCount": "150",
+    "score": "3.80",
+    "votesCount": "151",
     "breakdown": {
       "love": "42",
       "like": "72",
-      "ok": "1",
+      "ok": "2",
       "dislike": "35",
       "hate": "0"
     }
@@ -109,7 +137,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "1",
+    "fair": "2",
     "goodValue": "3",
     "greatValue": "0"
   },
@@ -145,6 +173,10 @@
       "name": "Nina"
     },
     {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez For Her"
+    },
+    {
       "brand": "CHANEL",
       "name": "Chance Eau de Toilette"
     },
@@ -159,10 +191,6 @@
     {
       "brand": "CHANEL",
       "name": "Chance Eau Fraiche"
-    },
-    {
-      "brand": "MARC JACOBS",
-      "name": "Daisy"
     },
     {
       "brand": "BURBERRY",
@@ -184,5 +212,6 @@
       "brand": "VERSACE",
       "name": "Bright Crystal"
     }
-  ]
+  ],
+  "comments": []
 }

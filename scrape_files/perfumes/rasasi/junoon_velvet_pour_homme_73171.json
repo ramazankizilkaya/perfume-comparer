@@ -49,26 +49,58 @@
     {
       "name": "misk",
       "width": "56.2205%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "4.44",
-    "votesCount": "122",
+    "score": "4.46",
+    "votesCount": "124",
     "breakdown": {
-      "love": "80",
-      "like": "24",
-      "ok": "11",
+      "love": "82",
+      "like": "25",
+      "ok": "10",
       "dislike": "6",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "73",
+    "winter": "74",
     "spring": "34",
     "summer": "14",
-    "autumn": "71",
+    "autumn": "72",
     "day": "38",
-    "night": "63"
+    "night": "64"
   },
   "notes": {
     "top": [
@@ -93,33 +125,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "15",
+    "longLasting": "51",
+    "eternal": "12"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "15",
+    "strong": "53",
+    "enormous": "11"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "25",
+    "moreMale": "34",
+    "male": "29"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "11",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "4",
+    "fair": "10",
+    "goodValue": "31",
+    "greatValue": "20"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MEMO PARİS",
+      "name": "Italian Leather"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Roman Leather"
+    },
+    {
+      "brand": "MAİSON CRİVELLİ",
+      "name": "Iris Malikhân"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "La Yuqawam Ambergris Showers"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shumoukh Al Ghutra"
+    },
+    {
+      "brand": "LABORATORİO OLFATTİVO",
+      "name": "Nektar"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Black"
+    },
+    {
+      "brand": "ORİENTİCA PREMİUM",
+      "name": "Cuir de Orientica"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "Salvatore Ferragamo Ferragamo Oud"
+    },
+    {
+      "brand": "NOVELLİSTA",
+      "name": "Unique Wood"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "The Collection Elegant Vetiver"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Babycat"
+    },
+    {
+      "brand": "ALEXANDER",
+      "name": "Legacy"
+    },
+    {
+      "brand": "JUST JACK",
+      "name": "Fanta Fab"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Royale"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LALİQUE",
@@ -181,5 +274,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

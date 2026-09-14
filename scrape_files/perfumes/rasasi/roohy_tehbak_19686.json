@@ -49,14 +49,42 @@
     {
       "name": "balsamik",
       "width": "50.734%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.99",
-    "votesCount": "135",
+    "votesCount": "134",
     "breakdown": {
       "love": "46",
-      "like": "63",
+      "like": "62",
       "ok": "5",
       "dislike": "20",
       "hate": "1"
@@ -91,33 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "8",
+    "weak": "12",
+    "moderate": "34",
+    "longLasting": "23",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "18",
+    "moderate": "34",
+    "strong": "29",
+    "enormous": "19"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "36",
+    "moreFemale": "6",
+    "unisex": "7",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "22",
+    "greatValue": "11"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Belle d'Opium"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Belle d'Opium Eau de Parfum Éclat"
+    },
+    {
+      "brand": "PARFUMS QUARTANA",
+      "name": "Poppy Soma"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Maa Arwaak"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Senora"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Sensuous Noir"
+    },
+    {
+      "brand": "ROBERTO CAVALLİ",
+      "name": "Roberto Cavalli Nero Assoluto Exclusive Edition"
+    },
+    {
+      "brand": "NİCOLE MİLLER",
+      "name": "Frenzy"
+    },
+    {
+      "brand": "WEİL",
+      "name": "Greedy Essence"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Midnight Poison"
+    },
+    {
+      "brand": "NABEEL",
+      "name": "Al Ghadeer"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Velvet Orchid"
+    },
+    {
+      "brand": "MAUBOUSSİN",
+      "name": "Mauboussin Pour Elle"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Black XS for Her"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Ricci Ricci"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -179,5 +268,6 @@
       "brand": "GİVENCHY",
       "name": "Ange ou Demon"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,26 +49,54 @@
     {
       "name": "deri",
       "width": "72.8174%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.96",
-    "votesCount": "183",
+    "votesCount": "188",
     "breakdown": {
-      "love": "76",
-      "like": "60",
+      "love": "78",
+      "like": "62",
       "ok": "23",
       "dislike": "12",
-      "hate": "12"
+      "hate": "13"
     }
   },
   "seasons": {
-    "winter": "110",
-    "spring": "89",
+    "winter": "111",
+    "spring": "90",
     "summer": "35",
-    "autumn": "104",
-    "day": "88",
-    "night": "98"
+    "autumn": "105",
+    "day": "89",
+    "night": "99"
   },
   "notes": {
     "top": [
@@ -91,33 +119,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "5",
+    "moderate": "39",
+    "longLasting": "75",
+    "eternal": "22"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "39",
+    "strong": "62",
+    "enormous": "11"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "17",
+    "unisex": "85",
+    "moreMale": "35",
+    "male": "15"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "2",
     "fair": "23",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "46",
+    "greatValue": "95"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ARABESQUE",
+      "name": "Musk Al Sultan"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Gold Aoud"
+    },
+    {
+      "brand": "M. MİCALLEF",
+      "name": "Vanille Oud"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Whiskey Reserve"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Opulent Oud"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Ilham al Oud"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Oud Mood"
+    },
+    {
+      "brand": "CREED",
+      "name": "Aventus"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "CH Insignia Men"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Aswad"
+    },
+    {
+      "brand": "BAİT AL BAKHOOR",
+      "name": "Khashab Al Oud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MOSCHİNO",
@@ -179,5 +252,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Ameer Al Oudh Intense Oud"
     }
-  ]
+  ],
+  "comments": []
 }

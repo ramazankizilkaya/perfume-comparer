@@ -99,66 +99,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "1",
-    "moderate": "2",
-    "longLasting": "4",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "2",
-    "strong": "7",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Habit de Cuir"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Edition Voyage"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Armoiries"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Parfum"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Spirit"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Eau de Parfum"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mon Habit Rouge Taillé sur Mesure"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Habit Rouge Eau de Toilette"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -194,11 +161,11 @@
     },
     {
       "brand": "CHANEL",
-      "name": "Allure Homme Edition Blanche"
+      "name": "Antaeus"
     },
     {
       "brand": "CHANEL",
-      "name": "Antaeus"
+      "name": "Allure Homme Edition Blanche"
     },
     {
       "brand": "AMOUAGE",
@@ -220,5 +187,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "M7"
     }
-  ]
+  ],
+  "comments": []
 }

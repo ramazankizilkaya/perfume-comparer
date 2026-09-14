@@ -49,21 +49,49 @@
     {
       "name": "balsamik",
       "width": "49.6493%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.21",
-    "votesCount": "39",
+    "score": "4.17",
+    "votesCount": "46",
     "breakdown": {
-      "love": "25",
-      "like": "6",
-      "ok": "3",
+      "love": "27",
+      "like": "9",
+      "ok": "5",
       "dislike": "1",
       "hate": "4"
     }
   },
   "seasons": {
-    "winter": "3",
+    "winter": "4",
     "spring": "10",
     "summer": "12",
     "autumn": "5",
@@ -84,68 +112,105 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "1",
+    "longLasting": "5",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "3",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "12",
+    "moreMale": "2",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "4",
+    "overpriced": "1",
+    "fair": "5",
+    "goodValue": "4",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
-      "brand": "COMME DES GARCONS",
-      "name": "Comme des Garcons 2"
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Baccarat Rouge 540"
     },
+    {
+      "brand": "LE LABO",
+      "name": "Another 13"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Soul Of The Forest"
+    },
+    {
+      "brand": "LOLİTA LEMPİCKA",
+      "name": "Lolita Lempicka Au Masculin Eau de Parfum Intense"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Fille en Aiguilles"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Velvet Crystal Smoke"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Flowerhead"
+    },
+    {
+      "brand": "KEROSENE",
+      "name": "Black Vines"
+    },
+    {
+      "brand": "SALON LİNE",
+      "name": "S.O.S Bob Esponja"
+    }
+  ],
+  "peopleAlsoLike": [
     {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "By the Fireplace"
     },
     {
-      "brand": "ESSENTİAL PARFUMS",
-      "name": "Bois Impérial"
+      "brand": "TOM FORD",
+      "name": "Plum Japonais"
     },
     {
-      "brand": "GİVENCHY",
-      "name": "Pi"
+      "brand": "HUGO BOSS",
+      "name": "Bottled Absolu"
     },
     {
-      "brand": "LALİQUE",
-      "name": "Encre Noire"
-    },
-    {
-      "brand": "GOLDFİELD & BANKS AUSTRALİA",
-      "name": "Ingenious Ginger"
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Grand Soir"
     },
     {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "Fit of Folly"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Carnal Flower"
+      "brand": "BYREDO",
+      "name": "Bal d'Afrique"
     },
     {
-      "brand": "MATİERE PREMİERE",
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Musc Ravageur"
+    },
+    {
+      "brand": "ZOOLOGİST PERFUMES",
+      "name": "Bee"
+    },
+    {
+      "brand": "MATİÈRE PREMİÈRE",
       "name": "Encens Suave"
     },
     {
@@ -153,24 +218,25 @@
       "name": "Dior Homme Intense 2011"
     },
     {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Silent Fury"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "L'Eau d'Hiver"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Silent Fury"
     },
     {
       "brand": "VİKTOR&ROLF",
       "name": "Bonbon Berry Jelly"
     },
     {
-      "brand": "BY KİLİAN",
-      "name": "Black Phantom"
-    },
-    {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Blaze of Stillness"
+      "brand": "MEMO PARİS",
+      "name": "African Leather"
     }
-  ]
+  ],
+  "comments": []
 }

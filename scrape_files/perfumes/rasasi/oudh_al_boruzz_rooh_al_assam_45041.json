@@ -33,13 +33,41 @@
     {
       "name": "toprak",
       "width": "44.4565%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.71",
-    "votesCount": "77",
+    "score": "4.72",
+    "votesCount": "78",
     "breakdown": {
-      "love": "59",
+      "love": "60",
       "like": "16",
       "ok": "0",
       "dislike": "2",
@@ -47,9 +75,9 @@
     }
   },
   "seasons": {
-    "winter": "44",
+    "winter": "45",
     "spring": "15",
-    "summer": "7",
+    "summer": "8",
     "autumn": "36",
     "day": "11",
     "night": "42"
@@ -72,33 +100,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "2",
+    "moderate": "2",
+    "longLasting": "10",
+    "eternal": "38"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "2",
+    "strong": "18",
+    "enormous": "33"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "12",
+    "moreMale": "10",
+    "male": "10"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "6",
+    "overpriced": "2",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "8",
+    "greatValue": "10"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Oud Ispahan"
+    },
+    {
+      "brand": "AZMAN",
+      "name": "Majnoon"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Oud Palao Eau de Parfum"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Oud Ispahan"
+    },
+    {
+      "brand": "DS&DURGA",
+      "name": "Burning Barbershop"
+    },
+    {
+      "brand": "CHOPARD",
+      "name": "Black Incense Malaki"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "The Night"
+    },
+    {
+      "brand": "IBRAHEEM ALQURASHİ",
+      "name": "Blue Oud"
+    },
+    {
+      "brand": "FRANCK OLİVİER",
+      "name": "Oud Touch"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "The Uncompromising Sohan"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RASASİ",
@@ -160,5 +229,6 @@
       "brand": "NİSHANE",
       "name": "Hacivat"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -45,14 +45,42 @@
     {
       "name": "animalik",
       "width": "44.1828%"
+    },
+    {
+      "name": "Online satın alın 11 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.35",
-    "votesCount": "62",
+    "score": "4.34",
+    "votesCount": "65",
     "breakdown": {
       "love": "34",
-      "like": "21",
+      "like": "24",
       "ok": "2",
       "dislike": "5",
       "hate": "0"
@@ -60,10 +88,10 @@
   },
   "seasons": {
     "winter": "12",
-    "spring": "35",
+    "spring": "36",
     "summer": "26",
-    "autumn": "18",
-    "day": "29",
+    "autumn": "19",
+    "day": "30",
     "night": "14"
   },
   "notes": {
@@ -85,33 +113,90 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "2",
+    "moderate": "20",
+    "longLasting": "15",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "20",
+    "strong": "11",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "35",
+    "moreFemale": "2",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "12",
+    "greatValue": "23"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Bloom Profumo Di Fiori"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Bloom"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Floral Bloom"
+    },
+    {
+      "brand": "OREBELLA",
+      "name": "Blooming Fire"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "MYSLF L’Absolu"
+    },
+    {
+      "brand": "CHOPARD",
+      "name": "Jasmin Moghol"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Bloom Ambrosia di Fiori"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Ashore"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Marc Jacobs"
+    },
+    {
+      "brand": "FİLİPPO SORCİNELLİ",
+      "name": "Lascia Ch'io Pianga"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "MYSLF Eau de Parfum"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Solo Vulcan"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khaltaat Al Arabia Royal Blends"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Floral Ambrosia"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUCCİ",
@@ -173,5 +258,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "D&G Anthology L'Imperatrice 3"
     }
-  ]
+  ],
+  "comments": []
 }

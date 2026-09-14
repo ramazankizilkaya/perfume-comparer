@@ -84,42 +84,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "4",
-    "moderate": "7",
-    "longLasting": "1",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "7",
-    "strong": "2",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "2",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "LANCÔME",
-      "name": "Miracle"
-    },
-    {
-      "brand": "JUSTİN BİEBER",
-      "name": "The Key"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "VİCTORİA'S SECRET",
@@ -128,6 +119,10 @@
     {
       "brand": "BRİTNEY SPEARS",
       "name": "Circus Fantasy"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Love Spell"
     },
     {
       "brand": "BRİTNEY SPEARS",
@@ -142,12 +137,12 @@
       "name": "Miss Dior Cherie"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Be Enchanted"
+      "brand": "BRİTNEY SPEARS",
+      "name": "Curious"
     },
     {
       "brand": "BRİTNEY SPEARS",
-      "name": "Curious"
+      "name": "Midnight Fantasy"
     },
     {
       "brand": "AQUOLİNA",
@@ -158,12 +153,16 @@
       "name": "Fancy"
     },
     {
-      "brand": "AQUOLİNA",
-      "name": "Pink Sugar Sensual"
+      "brand": "BRİTNEY SPEARS",
+      "name": "In Control Curious"
     },
     {
       "brand": "VİKTOR&ROLF",
       "name": "Flowerbomb"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Dream Angels Heavenly"
     },
     {
       "brand": "JUİCY COUTURE",
@@ -172,14 +171,7 @@
     {
       "brand": "VERA WANG",
       "name": "Princess"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "La Vie Est Belle"
     }
-  ]
+  ],
+  "comments": []
 }

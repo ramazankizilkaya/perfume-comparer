@@ -45,25 +45,53 @@
     {
       "name": "odunsu",
       "width": "49.0166%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.22",
-    "votesCount": "494",
+    "votesCount": "497",
     "breakdown": {
-      "love": "233",
-      "like": "181",
-      "ok": "38",
+      "love": "234",
+      "like": "182",
+      "ok": "39",
       "dislike": "39",
       "hate": "3"
     }
   },
   "seasons": {
     "winter": "51",
-    "spring": "227",
-    "summer": "226",
+    "spring": "228",
+    "summer": "228",
     "autumn": "88",
-    "day": "275",
+    "day": "276",
     "night": "66"
   },
   "notes": {
@@ -85,33 +113,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "95",
+    "weak": "88",
+    "moderate": "84",
+    "longLasting": "12",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "178",
+    "moderate": "84",
+    "strong": "20",
+    "enormous": "16"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "160",
+    "moreFemale": "18",
+    "unisex": "17",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "38",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "3",
+    "overpriced": "5",
+    "fair": "39",
+    "goodValue": "97",
+    "greatValue": "41"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Água de Banho Cheiro de Moça Bonita"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essência de Moça"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ekos Amazô"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "Mademoiselle"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Pivoine Flora (2015)"
+    },
+    {
+      "brand": "THE BODY SHOP",
+      "name": "Choice Free"
+    },
+    {
+      "brand": "CASA CLOSET",
+      "name": "Chuva de Pêssego"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -173,5 +230,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Egeo Choc"
     }
-  ]
+  ],
+  "comments": []
 }

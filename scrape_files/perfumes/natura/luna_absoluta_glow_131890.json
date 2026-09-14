@@ -47,16 +47,44 @@
       "width": "56.2503%"
     },
     {
-      "name": "paçuli",
+      "name": "beyaz çiçeksi",
       "width": "54.9998%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.50",
-    "votesCount": "2",
+    "score": "4.00",
+    "votesCount": "5",
     "breakdown": {
-      "love": "1",
-      "like": "0",
+      "love": "2",
+      "like": "2",
       "ok": "0",
       "dislike": "1",
       "hate": "0"
@@ -65,9 +93,9 @@
   "seasons": {
     "winter": "2",
     "spring": "0",
-    "summer": "0",
-    "autumn": "1",
-    "day": "1",
+    "summer": "1",
+    "autumn": "2",
+    "day": "2",
     "night": "1"
   },
   "notes": {
@@ -94,32 +122,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Luna Absoluta"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Eudora Noir"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

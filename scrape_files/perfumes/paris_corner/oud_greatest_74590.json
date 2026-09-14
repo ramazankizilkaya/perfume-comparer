@@ -45,6 +45,34 @@
     {
       "name": "tütün",
       "width": "47.6968%"
+    },
+    {
+      "name": "Online satın alın 25 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -62,7 +90,7 @@
     "winter": "62",
     "spring": "24",
     "summer": "16",
-    "autumn": "52",
+    "autumn": "53",
     "day": "38",
     "night": "46"
   },
@@ -82,33 +110,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "6",
+    "moderate": "26",
+    "longLasting": "37",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "11",
+    "moderate": "26",
+    "strong": "37",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "2",
+    "unisex": "20",
+    "moreMale": "26",
+    "male": "35"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "18",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "22",
+    "greatValue": "44"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Bade'e Al Oud Oud for Glory"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Oud for Greatness"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Haltane"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Supremacy in Oud"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Royale"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "L'Instant de Guerlain pour Homme Eau Extreme"
+    },
+    {
+      "brand": "NASEEM",
+      "name": "Oud"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Odyssey Aoud"
+    },
+    {
+      "brand": "MAİSON SALEM",
+      "name": "Sahim"
+    },
+    {
+      "brand": "SAWALEF",
+      "name": "Empire"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Adeeb"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -170,5 +243,6 @@
       "brand": "MANCERA",
       "name": "Cedrat Boise"
     }
-  ]
+  ],
+  "comments": []
 }

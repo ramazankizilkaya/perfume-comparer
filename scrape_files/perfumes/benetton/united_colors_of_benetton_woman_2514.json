@@ -27,11 +27,11 @@
       "width": "63.9137%"
     },
     {
-      "name": "kakao",
+      "name": "iris",
       "width": "54.9054%"
     },
     {
-      "name": "iris",
+      "name": "kakao",
       "width": "54.9054%"
     },
     {
@@ -49,16 +49,20 @@
     {
       "name": "sıcak baharatlı",
       "width": "44.9432%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
-    "score": "3.36",
-    "votesCount": "137",
+    "score": "3.35",
+    "votesCount": "139",
     "breakdown": {
       "love": "24",
-      "like": "56",
+      "like": "57",
       "ok": "4",
-      "dislike": "51",
+      "dislike": "52",
       "hate": "2"
     }
   },
@@ -85,81 +89,49 @@
       "Kakao kabuğu",
       "Misk",
       "Kaşmir ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "6",
-    "moderate": "14",
-    "longLasting": "17",
-    "eternal": "6"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "14",
-    "strong": "11",
-    "enormous": "6"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "12",
-    "moreFemale": "2",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "5",
-    "greatValue": "5"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BENETTON",
-      "name": "Gold"
-    },
-    {
-      "brand": "REVLON",
-      "name": "Lasting"
-    },
-    {
-      "brand": "PARFUMS BERDOUES",
-      "name": "Viola Odorata"
-    },
-    {
-      "brand": "TERRY DE GUNZBURG",
-      "name": "Ombre Mercure"
-    },
-    {
-      "brand": "JİL SANDER",
-      "name": "Style Pastels Blush Pink"
-    },
-    {
-      "brand": "JİL SANDER",
-      "name": "Jil"
-    },
-    {
-      "brand": "TED LAPİDUS",
-      "name": "White Soul"
-    },
-    {
-      "brand": "KATE SPADE",
-      "name": "Twirl"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
       "name": "L'Instant de Guerlain"
     },
     {
-      "brand": "AGENT PROVOCATEUR",
-      "name": "Agent Provocateur Maitresse"
+      "brand": "KENZO",
+      "name": "Flower by Kenzo"
     },
     {
-      "brand": "JOHN GALLİANO",
-      "name": "John Galliano"
+      "brand": "AGENT PROVOCATEUR",
+      "name": "Agent Provocateur Maitresse"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -209,5 +181,6 @@
       "brand": "VERSACE",
       "name": "Crystal Noir"
     }
-  ]
+  ],
+  "comments": []
 }

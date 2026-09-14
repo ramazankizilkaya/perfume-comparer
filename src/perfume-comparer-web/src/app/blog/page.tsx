@@ -47,7 +47,7 @@ export default async function BlogPage() {
                     {blogs.map((b) => (
                         <Link key={b.slug} href={`/blog/${b.slug}`} className="blog-card">
                             <div className="blog-cover">
-                                <img src={b.coverImageUrl} alt="" loading="lazy" />
+                                <img src={b.coverImageUrl} alt={`${b.title} - blog görseli`} loading="lazy" />
                             </div>
                             <div className="blog-body">
                                 <div className="blog-meta">

@@ -45,14 +45,42 @@
     {
       "name": "sulu",
       "width": "44.7249%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.99",
-    "votesCount": "100",
+    "votesCount": "101",
     "breakdown": {
       "love": "36",
-      "like": "37",
+      "like": "38",
       "ok": "19",
       "dislike": "6",
       "hate": "2"
@@ -60,10 +88,10 @@
   },
   "seasons": {
     "winter": "7",
-    "spring": "52",
-    "summer": "42",
+    "spring": "54",
+    "summer": "44",
     "autumn": "13",
-    "day": "47",
+    "day": "49",
     "night": "4"
   },
   "notes": {
@@ -85,33 +113,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "11",
+    "moderate": "25",
+    "longLasting": "9",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "21",
+    "moderate": "25",
+    "strong": "5",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "44",
+    "moreFemale": "10",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "2",
     "fair": "19",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "24",
+    "greatValue": "8"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Love by Nina"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Amor Amor"
+    },
+    {
+      "brand": "LAURA BİAGİOTTİ",
+      "name": "Laura Tender"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Bright Crystal"
+    },
+    {
+      "brand": "AVON",
+      "name": "Scent Mix Tutti Frutti"
+    },
+    {
+      "brand": "PRİNCESSE MARİNA DE BOURBON",
+      "name": "Royal Style"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Amor Amor Eau de Parfum"
+    },
+    {
+      "brand": "HALLOWEEN",
+      "name": "Halloween Kiss Sexy"
+    },
+    {
+      "brand": "HALLOWEEN",
+      "name": "Halloween Fleur"
+    },
+    {
+      "brand": "BETTY BARCLAY",
+      "name": "Pure Pastel Mint"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Zara Rose Eau de Toilette"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -122,12 +195,16 @@
       "name": "Acqua di Gio"
     },
     {
-      "brand": "DİOR",
-      "name": "J'adore"
-    },
-    {
       "brand": "LANVİN",
       "name": "Eclat d’Arpège"
+    },
+    {
+      "brand": "MOSCHİNO",
+      "name": "Moschino Funny!"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Amor Amor"
     },
     {
       "brand": "GİVENCHY",
@@ -142,10 +219,6 @@
       "name": "1881"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Velvet Orchid"
-    },
-    {
       "brand": "ELİZABETH ARDEN",
       "name": "Green Tea"
     },
@@ -158,10 +231,6 @@
       "name": "Poeme"
     },
     {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Fantasy"
-    },
-    {
       "brand": "DOLCE&GABBANA",
       "name": "D&G Anthology L'Imperatrice 3"
     },
@@ -170,8 +239,13 @@
       "name": "L'Interdit Eau de Parfum"
     },
     {
-      "brand": "CHANEL",
-      "name": "Coco Noir"
+      "brand": "DİOR",
+      "name": "Poison"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Honour Woman"
     }
-  ]
+  ],
+  "comments": []
 }

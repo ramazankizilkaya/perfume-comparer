@@ -1,7 +1,7 @@
 {
   "name": "Frésia em Flor Natura",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Leather",
+  "fragranceFamily": "Oriental",
   "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59034.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Natura/Fresia-em-Flor-59034.html",
@@ -11,11 +11,11 @@
   "description_enhanced": "Natura markasının Frésia em Flor parfümü, kadınlar için Çiçeksi bir kokudur. Frésia em Flor, 2019 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Verônica Kato. Kokuda Vanilya, Misk, Amber, Frezya ve Bitkisel Notlar notaları bulunur.",
   "mainAccords": [
     {
-      "name": "misk",
+      "name": "vanilya",
       "width": "100%"
     },
     {
-      "name": "vanilya",
+      "name": "misk",
       "width": "100%"
     },
     {
@@ -45,6 +45,34 @@
     {
       "name": "yumuşak baharatlı",
       "width": "48.375%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,33 +107,42 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "0",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "2",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HALLOWEEN",
+      "name": "Halloween Freesia"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Flor de Frésia"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -167,5 +204,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Egeo Dolce"
     }
-  ]
+  ],
+  "comments": []
 }

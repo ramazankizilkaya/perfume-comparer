@@ -16,35 +16,63 @@
     },
     {
       "name": "meyvemsi",
-      "width": "80.4001%"
+      "width": "75.0001%"
     },
     {
       "name": "tatlı",
-      "width": "74.8%"
+      "width": "70%"
     },
     {
       "name": "taze baharatlı",
-      "width": "65%"
+      "width": "65.0001%"
     },
     {
       "name": "tropikal",
-      "width": "57.9999%"
+      "width": "55.0001%"
     },
     {
       "name": "aromatik",
-      "width": "50.9999%"
+      "width": "51.0001%"
     },
     {
       "name": "taze",
-      "width": "46.8%"
+      "width": "45.0001%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.25",
-    "votesCount": "8",
+    "score": "4.24",
+    "votesCount": "17",
     "breakdown": {
-      "love": "3",
-      "like": "4",
+      "love": "5",
+      "like": "11",
       "ok": "1",
       "dislike": "0",
       "hate": "0"
@@ -52,11 +80,11 @@
   },
   "seasons": {
     "winter": "1",
-    "spring": "6",
-    "summer": "5",
-    "autumn": "2",
-    "day": "4",
-    "night": "5"
+    "spring": "13",
+    "summer": "13",
+    "autumn": "3",
+    "day": "9",
+    "night": "10"
   },
   "notes": {
     "top": [],
@@ -70,22 +98,22 @@
   },
   "longevity": {
     "veryWeak": "0",
-    "weak": "2",
-    "moderate": "2",
+    "weak": "3",
+    "moderate": "4",
     "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "3",
-    "moderate": "2",
+    "moderate": "4",
     "strong": "1",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "0",
     "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "5",
+    "unisex": "3",
+    "moreMale": "7",
     "male": "1"
   },
   "priceVoting": {
@@ -93,12 +121,24 @@
     "overpriced": "0",
     "fair": "1",
     "goodValue": "4",
-    "greatValue": "1"
+    "greatValue": "4"
   },
   "remindsMeOf": [
     {
       "brand": "ZARA",
       "name": "Blue Temptation"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Scandal Pour Homme"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Art Of Universe"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Turathi Electric"
     },
     {
       "brand": "HORMONE PARİS",
@@ -109,53 +149,71 @@
       "name": "Vibrant Leather Bogoss"
     },
     {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Scandal Pour Homme"
-    },
-    {
       "brand": "CREED",
       "name": "Absolu Aventus"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "ZARA",
+      "name": "Sunrise on the Red Sand Dunes Intense"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Intense Man"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Vibrant Leather Bogoss Winter"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Vibrant Leather Eau de Parfum"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Jean Lowe Immortal"
     },
     {
       "brand": "YVES SAİNT LAURENT",
-      "name": "MYSLF Eau de Toilette Intense"
+      "name": "MYSLF Eau de Parfum"
     },
     {
-      "brand": "136,155",
-      "name": "Koku Yorumları"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Qaed Al Fursan"
     },
     {
-      "brand": "2,801",
-      "name": "Şu an çevrimiçi"
+      "brand": "AFNAN",
+      "name": "Turathi Blue"
     },
     {
-      "brand": "1.",
-      "name": "Liquid Brun French Avenue"
+      "brand": "ZARA",
+      "name": "(Leather Fever) 2024"
     },
     {
-      "brand": "2.",
-      "name": "Khamrah Lattafa Perfumes"
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Code Parfum"
     },
     {
-      "brand": "3.",
-      "name": "Emporio Armani Stronger With You Intensely Giorgio Armani"
+      "brand": "TOM FORD",
+      "name": "Noir Extreme"
     },
     {
-      "brand": "4.",
-      "name": "Imagination Louis Vuitton"
+      "brand": "ZARA",
+      "name": "Vibrant Leather Bogoss Summer"
     },
     {
-      "brand": "5.",
-      "name": "Supremacy Collector's Edition Pour Homme Afnan"
+      "brand": "FRENCH AVENUE",
+      "name": "Liquid Brun"
     },
     {
-      "brand": "6.",
-      "name": "Khamrah Qahwa Lattafa Perfumes"
+      "brand": "ZARA",
+      "name": "(Shamanilla)"
     },
     {
-      "brand": "7.",
-      "name": "Le Male Le Parfum Jean Paul Gaultier"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Salvo Elixir"
     }
   ],
-  "peopleAlsoLike": []
+  "comments": []
 }

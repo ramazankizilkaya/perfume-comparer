@@ -16,59 +16,87 @@
     },
     {
       "name": "tatlı",
-      "width": "91.3188%"
+      "width": "90.9507%"
     },
     {
       "name": "pudralı",
-      "width": "67.6045%"
+      "width": "66.936%"
     },
     {
       "name": "meyvemsi",
-      "width": "62.5325%"
+      "width": "62.7161%"
     },
     {
       "name": "taze",
-      "width": "55.1307%"
+      "width": "55.1462%"
     },
     {
       "name": "iris",
-      "width": "51.4752%"
+      "width": "50.4476%"
     },
     {
       "name": "misk",
-      "width": "50.1046%"
+      "width": "49.5772%"
     },
     {
       "name": "narenciye",
-      "width": "49.8075%"
+      "width": "48.8813%"
     },
     {
       "name": "amber",
-      "width": "48.8251%"
+      "width": "48.3158%"
     },
     {
       "name": "yeşil",
-      "width": "46.2663%"
+      "width": "46.358%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.38",
-    "votesCount": "469",
+    "score": "4.37",
+    "votesCount": "477",
     "breakdown": {
-      "love": "269",
-      "like": "137",
-      "ok": "41",
-      "dislike": "16",
+      "love": "272",
+      "like": "139",
+      "ok": "42",
+      "dislike": "18",
       "hate": "6"
     }
   },
   "seasons": {
-    "winter": "232",
-    "spring": "186",
-    "summer": "85",
-    "autumn": "246",
-    "day": "181",
-    "night": "186"
+    "winter": "238",
+    "spring": "189",
+    "summer": "89",
+    "autumn": "250",
+    "day": "186",
+    "night": "189"
   },
   "notes": {
     "top": [
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "11",
+    "moderate": "103",
+    "longLasting": "123",
+    "eternal": "21"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "26",
+    "moderate": "103",
+    "strong": "62",
+    "enormous": "17"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "106",
+    "moreFemale": "85",
+    "unisex": "103",
+    "moreMale": "6",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "41",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "9",
+    "overpriced": "7",
+    "fair": "42",
+    "goodValue": "128",
+    "greatValue": "72"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Casablanca"
+    },
+    {
+      "brand": "NOBİLE 1942",
+      "name": "La Danza delle Libellule"
+    },
+    {
+      "brand": "MERCEDES-BENZ",
+      "name": "Mercedes Benz Club Black Eau de Toilette"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Golden Sand"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "ESSENCE OF CASABLANCA"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Love Apple"
+    },
+    {
+      "brand": "JACQUES FATH",
+      "name": "Irissime Noir"
+    },
+    {
+      "brand": "GOLDFİELD & BANKS AUSTRALİA",
+      "name": "Silky Woods"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Nebras Al Ishq Wahaj"
+    },
+    {
+      "brand": "ROBERTO CAVALLİ",
+      "name": "Just Cavalli Her"
+    },
+    {
+      "brand": "SAPİL",
+      "name": "Rave For Women"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Zahi"
+    },
+    {
+      "brand": "MİCHAEL MALUL LONDON",
+      "name": "173 Candy"
+    },
+    {
+      "brand": "ELLİS BROOKLYN",
+      "name": "Marshmallows"
+    },
+    {
+      "brand": "ATTAR COLLECTİON",
+      "name": "Crystal Love For Her"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -125,10 +214,6 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Nebras"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Devotion"
     },
     {
       "brand": "ZADİG & VOLTAİRE",
@@ -149,6 +234,10 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Eclaire"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Tonka"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -175,8 +264,210 @@
       "name": "Vanilla | 28"
     },
     {
-      "brand": "NİSHANE",
-      "name": "Ani"
+      "brand": "CASAMORATİ 1888",
+      "name": "Lira"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent682809",
+      "author": "Irene1975",
+      "date": "2025-10-17",
+      "text": "Bu parfümü keşfettiğim ve sahip olduğum için çok mutluyum!!! Kokusu, en sevdiğim parfümlerden biri olan Swiss Arabian'ın Casablanca'sına çok benziyor, ancak kalıcılık, yoğunluk ve yayılım açısından Casablanca'nın gerisinde kalıyordu. Öte yandan Rasasi'nin Ebhar'ı, Casablanca'nın eksik olan her şeyine sahip. Bağımlılık yapıyor, bayılıyorum! 🥰❤️💘\nNot: Rasasi'nin Ebhar'ının tek dezavantajı, 65 ml'lik şişede sunulması ve 100 ml'lik şişede satılan Casablanca ile benzer fiyatta olmasıdır.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent682856",
+      "author": "Nomade",
+      "date": "2025-09-11",
+      "text": "Bu harika kokuyor. 😍\nAldığım kırtasiye malzemelerini o kadar çok beğendim ki, hemen orada eve taşımak zorunda kaldım.\n\nGiriş biraz şipre tarzında (5 saniye) ama sonrasında olanlar tam anlamıyla şiirsel.\nÖzetle - Black Opium + Mon Guerlain + Be Delicious.\n\nİlk bakışta bir mücadele gibi görünse de, nihai sonuç muhteşem.\nTuhaf bir tip ve bir bukalemun.\n\nElimde yeni bir şişe var, kokusu henüz geçmedi - ama size bir şey söyleyeyim - her geçen gün daha çok beğeniyorum.\nŞu anda rahat bir tempoda 8 saat sürüyor.\nDaha çok sonbahar/kış tipi.\n\nEksi yönü ise şişenin küçük kapasitesi - sadece 65 ml.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.36029.jpg"
+    },
+    {
+      "id": "parent682781",
+      "author": "PerfumeCurator14",
+      "date": "2025-07-21",
+      "text": "Bekledikten ve kendini toparladıktan sonra, şaşırtıcı derecede güzel…\n\nİlk püskürtmede, o çıtır elma ve limon patlamasını veriyor; taze, parlak ve neredeyse köpüklü. Ama açılışa aldanmayın, demlenmesi için zamana ihtiyacı var. Kutudan yeni çıkmış haliyle biraz hayal kırıklığı yaratabilir. Ama 2 ay bekletin (evet, gerçekten), işte o zaman gerçek bir değişim göreceksiniz.\n\nDemlendikten sonra, günlük kullanıma uygun, rahat bir koku haline gelir. Spor salonuna mı gidiyorsunuz? Evet. Alışverişe mi çıkıyorsunuz? Kesinlikle. İş yerinde rahat bir gün mü geçiriyorsunuz? Elbette. Dikkat çekmek için bağırmayan ama yine de o sabah doğru bir şey yaptığınızı hissettiren bir koku.\n\nAma beni gerçekten şaşırtan şey şu oldu: Bunu Mind Games'in Queening parfümüyle yan yana denedim ve inanılmaz... kalıcı koku neredeyse aynı. Queening çok daha pahalı, ama Ebhar? \"O kadar para harcamanıza gerek yok\" dedi.\n\n💡 Profesyonel İpucu: Zamanla eskimesine izin verin, sonra güvenle kullanın. Ebhar, güzelleştikten sonra sade ve lüks bir görünüme kavuşur.\n\n⭐️⭐️⭐️⭐️☆ (4,5/5)",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2459142.jpg"
+    },
+    {
+      "id": "parent682825",
+      "author": "Atomicscent",
+      "date": "2024-04-08",
+      "text": "Casablanca'ya çok benziyor, ancak Qasamat Ebhar 100 kat daha iyi, kesinlikle daha kaliteli ve daha dengeli. Ayrıca Mercedes Benz Club Black'e de benziyor, ancak Mercedes'te olmayan tatlı, meyvemsi bir dokunuş var ki bu da onu stilistik olarak farklı kılıyor ve ona ekstra bir hava katıyor, gerçekten lezzetli.\n\n9.5/10",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.62072.jpg"
+    },
+    {
+      "id": "parent682822",
+      "author": "Goditilavita83",
+      "date": "2024-04-05",
+      "text": "Bir buçuk ayda koca bir şişeyi bitirmem her şeyi anlatıyor... Mükemmel kalıcılık, iyi bir yayılım.\nİlk sıktığım anda aklıma dikdörtgen şişeli, artık üretilmeyen pembe Cavalli Just Her geldi! O parfüme hemen aşık oldum, ama iki dakika sonra tamamen değişti, güle güle Cavalli... Meyveli ve oryantal kısım ortaya çıkıyor, dip notalarda her zaman bulunan odunsu ve misk notalarıyla, notalarda görünmese bile kokusunu alabiliyorum. Çiçeksi ve meyveli notalar ayrı ayrı ayırt edilemiyor, her şeyi nefis bir şekilde dengeliyorlar. Casablanca'ya benziyor çünkü bu daha meyveli ve çiçeksi, açıklık hissi veriyor ve odunsu notalar sadece çok hafif bir Arap esintisi katıyor. Ayrıca bunu uyumak için kullandığımı da unutmayın, Casablanca çok ağır ve kapalı, yoğun odunsu ve karamel notalarıyla dolu ve asla böyle ağır bir şeyle uyumayı hayal etmezdim.\nMükemmel, gerçekten de sahip olunması gereken küçük bir hazine.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.87323.jpg"
+    },
+    {
+      "id": "parent682808",
+      "author": "Gervinmorales1",
+      "date": "2024-03-26",
+      "text": "Bu, vanilya sevenler için; tatlı, keyifli bir koku ama dişlerinizi çatlatacak kadar tatlı değil. Diğer parfümlere göre cilde daha çok yapışıyor, ancak en az altı saat kalıcılığı var. Elma veya çiçek kokusu almıyorum; bana daha çok bir tatlı, belki pirinç pudingi veya bir çeşit vanilyalı krema gibi geliyor, ama bayıcı değil.\n\nBence çoğu vanilya gibi rahatlatıcı ve huzur verici bir etkisi var.\n\nÇok beğendim ve eğer gurme vanilya kokularını seviyorsanız, muhtemelen siz de beğeneceksiniz.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.67683.jpg"
+    },
+    {
+      "id": "parent682785",
+      "author": "Patrice 123",
+      "date": "2023-08-28",
+      "text": "Bu GERÇEKTEN ÇOK İYİ. Casablanca'yı sevmediğim için (kuruduktan sonraki kokusunu çok bayıcı bulmuştum) alıp almamakta tereddüt etmiştim ama bu, üst notalarında rafine edilmiş bir Casablanca/altın kum kokusu ve eriyen, alkollü dondurmaya benzeyen, karışık çikolata barındaki vanilyalı burbon viskisine benzer muhteşem bir kremsi vanilya kokusuna dönüşüyor. Nefis!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1393442.jpg"
+    },
+    {
+      "id": "parent703839",
+      "author": "OfTheValley",
+      "date": "2023-05-15",
+      "text": "Şimdiye kadarki en başarılı kör alışverişlerimden biri!\nMuhteşem bir koku: Tatlı ama aynı zamanda canlı, meyveli, neşeli, karamel ve pralin notalarıyla bezeli, ancak (güncel gurme trendlerinin önerdiği gibi) ucuz, yapay bir tatlı karmaşaya dönüşmüyor.\nBence bu, daha ünlü olan Casablanca elma kokusuna göre daha kişilikli.\nRasasi'nin Qasamat Ebhar modeli gerçekten çok canlı, zarif ve yazın bile her yerde giyilebilir.\nGüçlü ama bayıcı olmayan bir yayılım ve oldukça iyi bir kalıcılık: İşte bu, aşık olunacak bir koku.\nHarika bir katman kombinasyonuyla güncelleyin:\nAl Rehab'ın Love Apple roll-on'u, Jeanne Arthes'in La Boum Vanilya ve Sa Pomme d'Amour'u ve ardından bu: şefin öpücüğü 💋",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1633012.jpg"
+    },
+    {
+      "id": "parent682784",
+      "author": "Colossalscent",
+      "date": "2023-03-01",
+      "text": "Mercedes Benz Club Black'in daha yoğun, daha rafine ve daha güçlü bir versiyonunu mu istiyorsunuz? Başka yere bakmanıza gerek yok, Qasamat Ebhar tam size göre.\nAçılışta hemen elma notasını hissedebiliyorsunuz ve vanilya ile birlikte çok doğal ve güzel kokuyor. 3 saat sonra elma tamamen kayboluyor ve geriye vanilya-tonka cenneti bir karışım kalıyor. Burada koku Club Black'e son derece yaklaşıyor, ancak bundan daha fazlasını yapıyor; bence bu, Annick Goutal'ın Nuit Et Confidences'ının 1:1 klonu! Daha önce de söylediğim gibi, Qasamat Ebhar güçlü bir koku, Aralık 2022 partisine sahibim ve son derece uzun süre kalıcı (10 saat) ve Club Black'in aksine çok iyi yayılıyor, Club Black'in performansı maalesef ortalama.\nAvrupa'da Qasamat Ebhar'ı 30-40 euro'ya, Club Black'i ise Notino'da 60 euro'ya alabilirsiniz. Artıları ve eksileri göz önünde bulundurursak, şişede 35 ml daha az olsa bile Qasamat Ebhar'ı kolayca tercih ederdim; sunumu ve atomizörü de daha iyi.\nYanlış anlamayın, ikisi de harika ama Ebhar her açıdan biraz daha iyi.\n\n9,5/10",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1343736.jpg"
+    },
+    {
+      "id": "parent682855",
+      "author": "nardash",
+      "date": "2022-10-03",
+      "text": "Kokunun SA'nın Casablanca'sına çok benzediği doğru. İçeriğinde elma olduğu söylenen Casablanca'nın elmasız hali diyebiliriz. Koleksiyonumda her iki parfüm de var ve ikisinden de vazgeçmeyecek kadar farklılar. Parfüm tatlı, neredeyse karamel gibi. Çiçeksi notalar o kadar iç içe geçmiş ki ayırt edemiyorum. Örneğin, gül parfümlerini sevmeyen biri varsa endişelenmesine gerek yok, çünkü ben hiç gül kokusu almıyorum. Vanilya, pralin, tonka fasulyesi, misk – bunlar bu parfümün ana yıldızları.\nPerformansı çok iyi. Kokusu tüm gün kalıyor ve iyi bir şekilde yayılıyor gibi görünüyor.\nŞişe çok güzel, kapağı ağır ve metal.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.22834.jpg"
+    },
+    {
+      "id": "parent682777",
+      "author": "Darckent",
+      "date": "2022-09-19",
+      "text": "İnanılmaz derecede güzel bir koku...\n\nEğer Mercedes Club Black'i seviyorsanız, bu tam olarak o koku... ama daha az doğrusal, daha karmaşık ve lüks bir kalıcılığa sahip, sizi pahalı bir şey gibi kokmanızı sağlayan bir koku yayılımı sunuyor.\n\nEğer bu çalışmanızdan dolayı iltifat almazsanız, maalesef size yardımcı olmanın bir yolu yok.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1460918.jpg"
+    },
+    {
+      "id": "parent703840",
+      "author": "Taniko",
+      "date": "2022-08-20",
+      "text": "Bu parfümü denemeden aldım ve bayıldım. Parfümlerde yeşil elma kokusunu pek sevmem ama burada o kadar baskın değil, yani yeşilimsi değil. Karamel tatlı parfümleri seviyorsanız buna bayılacaksınız. En tatlı parfümlerimden biri.\nMaalesef uzun ömürlü değil.\n\nGüncelleme.\nBu parfümü 10 saattir üzerimde taşıyorum ve hala kokusunu alabiliyorum. Sabahki kadar güçlü değil ama yine de oldukça güzel.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1401013.jpg"
+    },
+    {
+      "id": "parent682779",
+      "author": "Patousas",
+      "date": "2022-07-13",
+      "text": "Rassasi Ebhar EDP için değerlendirme: Bu, yumuşak çiçeksi notalar ve vanilya ile pralin bazının üzerinde tatlı karamelize elma kokusu. Kusursuz bir şekilde harmanlanmış olan koku, neredeyse taze elma açılışından bağımlılık yaratan ve samimi tatlı baz notasına geçiş yapıyor. Benim üzerimde çok güçlü bir yayılımı yok, ancak bunu taktığımda içinde bulunduğum o hoş atmosferin tadını çıkarıyorum. Swiss Arabian'ın Casablanca'sına çok benziyor, ancak daha yumuşak ve daha tatlı.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1267617.jpg"
+    },
+    {
+      "id": "parent682835",
+      "author": "Christie",
+      "date": "2022-05-18",
+      "text": "Vanilya-elma, nefis!\nQasamat serisinin tamamı içinde bu, en tatlı, en kadınsı ve en sevimli olanıdır.\nDünyayı kasıp kavurmuyor belki ama ardında çok hoş bir iz bırakıyor.\nEn belirgin notalar elma, limon, vanilya ve pralindir. Geri kalan her şey kokuya incelik katmaktadır.\nGenel olarak, çikolata alt tonlarına sahip meyveli, vanilyalı gurme bir koku. Gurme kokuları ve elma notasını çok seviyorum, bu yüzden bu koku ilk püskürtmede beni gerçekten etkiledi.\nKalıcılığı iyi, yayılımını henüz değerlendiremiyorum ama çok havadar, hafif, sanki havayla seyreltilmiş gibi, aroma bir bulut gibi havada asılı kalıyor.\nUnisex veya erkeklere yönelik serideki diğer parfümler ilgimi çekmedi.\nAmbalaj gayet iyi: kutu yüksek kaliteli, ip şişeye yapıştırılmış ve fırçalar taşıma sırasında dağılmalarını önlemek için plastik ambalajla sarılmış. Kapak da plastik.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.13240.jpg"
+    },
+    {
+      "id": "parent682790",
+      "author": "deolaD",
+      "date": "2022-03-26",
+      "text": "Bu parfüm, tatlı, şuruplu elma kokusuyla harika. İlk elma yoğunluğu geçtikten sonra hafif bir gül ve yasemin notası da alıyorum. Çok kadınsı, uzun süre kalıcı ve aşırı tatlı. Biraz ağır olduğu için fazla sıkmamaya dikkat edin. Bu parfümü sıktığımda hemen hafif bir şeker komasına giriyorum ve tekrar tekrar sıkmak istiyorum.\nCildimde yayılımı ve kalıcılığı orta düzeyde ve yaklaşık 4-5 saat sürüyor. 9/10",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1432526.jpg"
+    },
+    {
+      "id": "parent682788",
+      "author": "Marina75",
+      "date": "2022-02-16",
+      "text": "Öncelikle, parfümün adının Rasasi Ebhar (oud moattar içermeyen) olması gerektiğini düşünüyorum. Ayrıca resmi de değiştirmeyi öneririm.\nBu kokuya gerçekten bayılıyorum. Kıyafetlerde tüm gün kalıyor, tenimde ise kalıcılığı o kadar uzun değil. Duygusal, sıcak ve serin günler için mükemmel. Ayrıca Casablanca'ya da sahibim ve özellikle bu kokunun açılışı bana Casablanca'yı hatırlatıyor. Ebhar'ı daha çok beğendim. Bu, şimdiye kadarki en iyi kör alışverişim. İltifat toplayan bir koku.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1322453.jpg"
+    },
+    {
+      "id": "parent682830",
+      "author": "Spiceitup",
+      "date": "2022-02-14",
+      "text": "Ebhar, Casablanca'nın %100 klonudur.\nAncak Rasasi'nin tasarımı rakipsiz. Ebhar'ı alın. Estetik zevk garanti.\nEbhar'ı iç mekanlarda sıkmayı çok seviyorum. Kokusu inanılmaz! Nefis! Meyveli! Havada çok kalıcı.\nKıyafetlerime veya cildime süremiyorum. Tozlu kokusu çok rahatsız edici. Hemen yıkamak istiyorum :(",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.261318.jpg"
+    },
+    {
+      "id": "parent682832",
+      "author": "Spiceitup",
+      "date": "2021-11-08",
+      "text": "Ebhar - Safe East. Sulu elma ve limonla açılıyor, hemen ardından tekdüze ama hoş bir tatlılık hissi veren bir yağ geliyor. Kendim için bir koku. Yayılımı yok, çok hafif. Tekrar satın almazdım. Ancak ambalajı güzel ve kaliteli, evet. Harika bir hediye.\nBu serideki diğer parfümlere gelince: Arap parfümlerini yorumlara dayanarak satın almamanız gerektiğine bir kez daha ikna oldum. YouTuber'lar apaçık yalancılar. Neredeyse Morhaf'ı denemeden sipariş edecektim! Ama çok iddialı, erkeksi, pembe, retro bir koku. Ve insanlar onu Armani ile karşılaştırıyor. Saçma olmayın.\n…GÜNCELLEME: Bir süredir demleniyor ve sesi daha da yükseldi! Ayrıca: yağmurlu bir günde çok güzel bir şekilde açıldı.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.261318.jpg"
+    },
+    {
+      "id": "parent682782",
+      "author": "JasmineLajolie",
+      "date": "2021-07-07",
+      "text": "Kimsenin fark etmemiş olmasına şaşırdım ama Qasamat Ebhar EDP, Swiss Arabian Casablanca ile neredeyse aynı kokuyor. Açılış notaları neredeyse aynı. Tek ufak fark, Ebhar'ın Casablanca'dan daha havadar ve çiçeksi olması. Casablanca biraz daha tatlı, yoğun ve biraz balzamik. Benzerlik yaklaşık %85 ​​oranında aynı.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1350636.jpg"
+    },
+    {
+      "id": "parent682806",
+      "author": "ngarcia",
+      "date": "2021-01-29",
+      "text": "Açılış, tatlılık ve taze elma kokusunun alışılmadık birleşimi nedeniyle şaşırtıcı; nispeten güçlü, bir metreye kadar kolayca hissediliyor. Yarım saat sonra, İsviçre Arap Shaghaf Oud'unu anımsatan güçlü bir pralin notası bu taze açılışı zorlamaya başlıyor.\n\nTaze meyve ve pralin kombinasyonunu beğenmedim, ancak eminim ki bayıcı olmayan gurme bir lezzet arayanlara hitap edecektir ve kalitesi de yerinde; üst düzey bir niş olmasa da fiyatına göre oldukça makul.\n\nBeğenmediğim bir detay ise, orta notaların daha özel bir dokunuş katması gerekirken, ilk saatten itibaren sadece hafif bir çiçeksi etki göstermesi ve bu etkinin de sadece birkaç saat sürmesiydi; belirgin olan tek nota lotus çiçeğiydi, geri kalanlar ise çok hafif bir karışım oluşturuyordu.\n\nİlk başta düşündüğünüzden daha kısa sürüyor, yaklaşık altı saat kadar dayanıyor ve ikinci saatten itibaren tonka fasulyeli pralin kalıntısına doğru kayarak, sonunda ilk fikri oldukça parçalanmış bir hale getiriyor.\n\nKoku: 3.8/10\nSüre: 6/10\nTahmin: 6.8/10\nDuygusal: Hayır\nÖzgünlük: 6.9/10\nFiyat: 30,35 € / 65 ml\nÖnerilen: Orta-Düşük",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.40864.jpg"
     }
   ]
 }

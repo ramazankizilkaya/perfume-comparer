@@ -33,6 +33,34 @@
     {
       "name": "narenciye",
       "width": "49.7931%"
+    },
+    {
+      "name": "Online satın alın 7 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -75,33 +103,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "2",
+    "longLasting": "3",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "2",
+    "strong": "3",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "2",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CREED",
+      "name": "Absolu Aventus 2023"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Eros"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "9 PM Rebel"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "MYSLF Eau de Parfum"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "First Instinct Extreme"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Ultra Male"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -112,12 +165,12 @@
       "name": "Supremacy Collector's Edition Pour Homme"
     },
     {
-      "brand": "MONTBLANC",
-      "name": "Explorer"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Explorer"
     },
     {
       "brand": "MAİSON ALHAMBRA",
@@ -140,8 +193,17 @@
       "name": "Vulcan Feu"
     },
     {
+      "brand": "RASASİ",
+      "name": "La Yuqawam Homme"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Eros Energy"
+    },
+    {
       "brand": "NAUTİCA",
       "name": "Nautica Voyage"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,14 +49,42 @@
     {
       "name": "yosunlu",
       "width": "62.3075%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.57",
-    "votesCount": "14",
+    "score": "3.70",
+    "votesCount": "20",
     "breakdown": {
       "love": "3",
-      "like": "4",
+      "like": "10",
       "ok": "5",
       "dislike": "2",
       "hate": "0"
@@ -64,11 +92,11 @@
   },
   "seasons": {
     "winter": "1",
-    "spring": "8",
-    "summer": "8",
-    "autumn": "7",
+    "spring": "11",
+    "summer": "11",
+    "autumn": "10",
     "day": "3",
-    "night": "7"
+    "night": "11"
   },
   "notes": {
     "top": [
@@ -93,13 +121,13 @@
   "longevity": {
     "veryWeak": "0",
     "weak": "1",
-    "moderate": "4",
+    "moderate": "8",
     "longLasting": "1",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "4",
+    "intimate": "0",
+    "moderate": "8",
     "strong": "1",
     "enormous": "0"
   },
@@ -108,19 +136,23 @@
     "moreFemale": "0",
     "unisex": "1",
     "moreMale": "0",
-    "male": "6"
+    "male": "10"
   },
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "5",
-    "goodValue": "3",
-    "greatValue": "2"
+    "goodValue": "4",
+    "greatValue": "4"
   },
   "remindsMeOf": [
     {
       "brand": "ZARA",
       "name": "Zara Night Pour Homme II"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Bleu de Chanel Eau de Parfum"
     },
     {
       "brand": "DİOR",
@@ -131,14 +163,22 @@
       "name": "Hawas Thunder"
     },
     {
-      "brand": "CHANEL",
-      "name": "Bleu de Chanel Eau de Parfum"
+      "brand": "RABANNE",
+      "name": "Phantom"
     }
   ],
   "peopleAlsoLike": [
     {
       "brand": "ZARA",
       "name": "Zara Night Pour Homme II"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Fakhar Black"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Dynasty"
     },
     {
       "brand": "ZARA",
@@ -157,20 +197,37 @@
       "name": "Eros"
     },
     {
+      "brand": "AFNAN",
+      "name": "9 PM Night Out"
+    },
+    {
       "brand": "FRENCH AVENUE",
       "name": "Vulcan Feu"
+    },
+    {
+      "brand": "ZARA",
+      "name": "For Him Red Edition"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Qaed Al Fursan"
     },
     {
+      "brand": "ZARA",
+      "name": "Sand Desert At Sunset Intense"
+    },
+    {
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
     },
     {
-      "brand": "ZARA",
-      "name": "Red Eclipse"
+      "brand": "ISSEY MİYAKE",
+      "name": "Le Sel D'Issey Eau de Parfum"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ameer Al Oudh Intense Oud"
     }
-  ]
+  ],
+  "comments": []
 }

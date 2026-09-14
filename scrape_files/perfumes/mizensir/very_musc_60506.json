@@ -49,15 +49,43 @@
     {
       "name": "sıcak baharatlı",
       "width": "45.4174%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.71",
-    "votesCount": "58",
+    "score": "3.70",
+    "votesCount": "60",
     "breakdown": {
       "love": "18",
-      "like": "20",
-      "ok": "9",
+      "like": "21",
+      "ok": "10",
       "dislike": "7",
       "hate": "4"
     }
@@ -89,33 +117,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "4",
+    "moderate": "6",
+    "longLasting": "12",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "6",
+    "strong": "4",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "3",
+    "unisex": "16",
+    "moreMale": "6",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "3",
+    "overpriced": "10",
+    "fair": "10",
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Not A Perfume"
+    },
+    {
+      "brand": "MİZENSİR",
+      "name": "Musc Eternel"
+    },
+    {
+      "brand": "PİERRE GUİLLAUME PARİS",
+      "name": "Sunsuality"
+    },
+    {
+      "brand": "AEDES DE VENUSTAS",
+      "name": "Musc Encense"
+    },
+    {
+      "brand": "ESCENTRİC MOLECULES",
+      "name": "Molecule 02"
+    },
+    {
+      "brand": "ROSENDO MATEU OLFACTİVE EXPRESSİONS",
+      "name": "Rosendo Mateu Nº 10 Musk, Musk, Musk"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Meant To Be Seen"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "H24"
+    },
+    {
+      "brand": "MOLİNARD",
+      "name": "Habanita L'Esprit"
+    },
+    {
+      "brand": "ORTO PARİSİ",
+      "name": "Seminalis"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Blessed Baraka"
+    },
+    {
+      "brand": "ANGELOS CRÉATİONS OLFACTİVES",
+      "name": "Yloud-Yloud"
+    },
+    {
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "Bois d'Iris"
+    },
+    {
+      "brand": "MİZENSİR",
+      "name": "Bois Iridescent"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "L'Envol de Cartier Eau de Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -146,12 +235,12 @@
       "name": "Baccarat Rouge 540"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Cuir Béluga"
-    },
-    {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Portrait of a Lady"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Cuir Béluga"
     },
     {
       "brand": "SERGE LUTENS",
@@ -177,5 +266,6 @@
       "brand": "DİPTYQUE",
       "name": "Orphéon Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

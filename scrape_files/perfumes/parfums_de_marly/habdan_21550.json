@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Parfums-de-Marly/Habdan-21550.html",
   "brand": "Parfums de Marly parfüm ve kolonya",
   "description": "Parfums de Marly markasının Habdan parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Habdan, 2013 yılında piyasaya sürüldü. Üst notalar: Safran ve Beyaz sakız; orta notalar: Elma, Odunsu Notlar ve Gül; alt notalar Mür, Karamel ve Ambergris.",
-  "description_original": "Parfums de Marly markasının Habdan parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Habdan, 2013 yılında piyasaya sürüldü. Üst notalar: Safran ve Beyaz sakız; orta notalar: Elma, Odunsu Notlar ve Gül; alt notalar Mür, Karamel ve Ambergris.",
+  "description_original": "Parfums de Marly markasının Habdan parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Habdan, 2013 yılında piyasaya sürüldü. Üst notalar: Safran ve Olibanum; orta notalar: Elma, Odunsu Notalar ve Gül; alt notalar Mür, Karamel ve Ambergris.",
   "description_enhanced": "Parfums de Marly markasının Habdan parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Habdan, 2013 yılında piyasaya sürüldü. Üst notalar: Safran ve Beyaz sakız; orta notalar: Elma, Odunsu Notlar ve Gül; alt notalar Mür, Karamel ve Ambergris.",
   "mainAccords": [
     {
@@ -45,35 +45,63 @@
     {
       "name": "taze",
       "width": "44.8334%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.23",
-    "votesCount": "1,496",
+    "votesCount": "1,507",
     "breakdown": {
-      "love": "763",
-      "like": "475",
+      "love": "770",
+      "like": "478",
       "ok": "127",
-      "dislike": "105",
+      "dislike": "106",
       "hate": "26"
     }
   },
   "seasons": {
-    "winter": "664",
-    "spring": "366",
+    "winter": "671",
+    "spring": "368",
     "summer": "113",
-    "autumn": "692",
-    "day": "468",
-    "night": "624"
+    "autumn": "699",
+    "day": "472",
+    "night": "630"
   },
   "notes": {
     "top": [
       "Safran",
-      "Beyaz sakız"
+      "Olibanum"
     ],
     "middle": [
       "Elma",
-      "Odunsu Notlar",
+      "Odunsu Notalar",
       "Gül"
     ],
     "base": [
@@ -84,33 +112,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "31",
+    "weak": "54",
+    "moderate": "269",
+    "longLasting": "378",
+    "eternal": "74"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "106",
+    "moderate": "269",
+    "strong": "241",
+    "enormous": "128"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "11",
+    "moreFemale": "3",
+    "unisex": "99",
+    "moreMale": "266",
+    "male": "227"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "89",
+    "overpriced": "183",
     "fair": "127",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "30",
+    "greatValue": "10"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau d'Issey Pour Homme Noir Ambré"
+    },
+    {
+      "brand": "PASCAL MORABİTO",
+      "name": "Sultan Noir"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Spell Caramel"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "name": "Boss Bottled Oud"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "Essence of Royalty"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "Veni"
+    },
+    {
+      "brand": "BRİONİ",
+      "name": "Brioni Eau de Parfum Intense"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "Nuit d'Issey Polaris"
+    },
+    {
+      "brand": "IMAGİNARY AUTHORS",
+      "name": "Slow Explosions"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Privé Oud Royal"
+    },
+    {
+      "brand": "BALDESSARİNİ",
+      "name": "Ambré"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Aoud Vanille"
+    },
+    {
+      "brand": "VERTUS",
+      "name": "1001"
+    },
+    {
+      "brand": "PERRY ELLİS",
+      "name": "Saffron Rose Absolute"
+    },
+    {
+      "brand": "M. MİCALLEF",
+      "name": "Passion"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -171,6 +260,208 @@
     {
       "brand": "PRADA",
       "name": "Prada L'Homme"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent622491",
+      "author": "Myrtillajus",
+      "date": "2023-10-22",
+      "text": "Habdan'ı kokladığım anda, açılış notaları bana çok erkeksi geldi, ancak daha sonra şaşırtıcı bir evrimle bu koku gerçekten özel bir şeye dönüştü.\nKokunun içinde hafif bir dumanlılık, safran ve amber notaları hissedebilirsiniz; bunlar her şeyi çerçeveliyor.\nGüçlü, erkeksi bir parfüm, ama aslında uysal bir kalbi gizliyor.\nBu harika at cinsi gibi.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.68733.jpg"
+    },
+    {
+      "id": "parent622485",
+      "author": "Elixir26",
+      "date": "2023-05-27",
+      "text": "Daha önce hiç denememiştim ve açıkçası, markanın en iyilerinden biri. Ağırlıklı olarak elma, tarçın, amber ve biraz tütüne benzeyen hafif bir tütsü kokusu alıyorum. Bana Armani Oud Royal ve Nobile Malvs'ı hatırlatıyor. Gerçekten çok güzel, çok lüks ve karizmatik kokuyor. Kullanımı çok kolay olmasına rağmen, kimsenin beğenmeyeceğini düşünemiyorum. Romantik ve erkeksi biri için ideal, harika bir koku.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.21463.jpg"
+    },
+    {
+      "id": "parent622470",
+      "author": "Mithrandir",
+      "date": "2023-02-21",
+      "text": "Normalde, parfümleri kokladığımızda, muhteşem açılışlara alışkınız ve bu açılışlar zamanla önemli ölçüde sönüyor. Ticari parfümcüler genellikle satışları artırmak için bu açılışları çok iyi tasarlıyorlar... ancak Habdan'da tam tersi bir mantık izlemişler gibi görünüyor. Oldukça standart bir açılış, iyi yapılmış ama özel bir şey yok, zaman geçtikçe istikrarlı bir şekilde gelişiyor.\n\nKokladığım tüm parfümler arasında, koku evrimi açısından en yenilikçi olanın bu olduğunu söyleyebilirim. Parfums de Marly'nin gizli bir cevheri ve bence daha fazla tanınmayı hak ediyor. Carlisle'dan daha çok, Herod ve Layton'dan ise neredeyse aynı derecede beğendim.\n\nKokuyu tarif etmek zor; gizemli, zarif ve dip notaları tatlı bir temizlik hissi veriyor. Ağır değil ve kış, ilkbahar ve sonbaharda kullanılabilir.\n\nÇok büyük bir proje değil ve 4-5 saatten fazla sürmüyor... çoğaltma veya üst üste uygulama ile çözülemeyecek bir şey değil... Habdan'ın fiyat aralığı içinde karşılayabiliyorsanız, ki bence fiyatı çok yüksek.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.99897.jpg"
+    },
+    {
+      "id": "parent622444",
+      "author": "Squishyy",
+      "date": "2022-10-03",
+      "text": "Aman Tanrım, bu parfüm çok göz ardı ediliyor. Bana Carlisle'ın elma/paçuli notalarını ve Herod'un daha tatlı kısımlarını hatırlatıyor. Yanlış anlamayın, bu da kendine özgü bir koku, ancak benim tenimde bal yerine karamel içeren, Naxos'un daha karmaşık bir versiyonu gibi kokuyor. Ve evet, Habdan'ı bu gelmiş geçmiş en iyi parfümler arasına koyarım.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1403891.jpg"
+    },
+    {
+      "id": "parent622447",
+      "author": "CheMalik",
+      "date": "2021-11-15",
+      "text": "PDM'nin Habdan'ı haksız yere göz ardı ediliyor! Sıcak, rahatlatıcı, tatlı ve baharatlı. Kalın kazaklar, samimi buluşmalar ve bayram toplantıları için tasarlanmış çok benzersiz bir koku. Kalıcılığı mı? İnanılmaz. Yayılımı mı? Muhteşem. Bu canavar gibi koku, soğuk havayı bile delip geçiyor. Her kullandığımda iltifat alıyorum. Biraz pahalı, ama kesinlikle buna değer. Şiddetle tavsiye ederim!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1179776.jpg"
+    },
+    {
+      "id": "parent622442",
+      "author": "SniffingStu",
+      "date": "2021-09-03",
+      "text": "Bu sitedeki birçok yorumun aksine, bu yorumda neredeyse herkes tamamen haklı. Bu, satın aldığım ilk \"niş\" parfüm oldu ve gençliğimden beri tasarımcı parfümlerine ilgi duyan biri olarak benim için oyunun kurallarını tamamen değiştirdi. O zamanlar yepyeniydi ve oldukça ısrarcı bir satış elemanı beni birkaçını koklamaya ikna etti. Beynim bu parfümlerin ne kadar güzel olduğunu, birbiri ardına kokladığımı algılayamıyordu. O zamanlar param yoktu ve aklımdan geçen şuydu: \"Son birkaç kuruşumu beni neşelendirecek bir şeye harcamaktan daha iyi bir zaman olamaz, çok pahalı ve çok mantıksızdı, tam da işleri alt üst edecek bir şey.\" Bu parfüm sadece bir takıntıya ilham vermekle kalmadı, yıllar sonra bile, büyüyen koleksiyonum ve sayısız mağaza ziyaretim arasında, tüm zamanların en iyilerinden biri olmaya devam ediyor. O kadar iyi ki, haksız yere hakkında konuşulmuyor, ancak çok uzun süre kalıcı değil ve görünüşe göre başkalarını etkilemiyor. Tıpkı sinema şaheseri Cennetin Çocukları gibi, insanların bunu anlamamasına inanamıyorum, ama bir yerlerde bir grup sanatçının bunu benim için yapmış olması bana çok büyük bir memnuniyet veriyor. Sadece güzel kokmakla kalmayıp, kendimi gerçekten özel hissetmemi sağlayan birkaç parfümden biri. Tatlı, baharatlı ve hayvansı notaların büyülü bir karışımı. İnanılmaz.\n\n2022 Güncellemesi: İlk şişemi 2014'te aldım, yorumumu ise 2021'de yazdım. Hala ilk 5'imde yer alıyor. Artık notaları ayırt edebilecek kadar deneyime sahibim. Bu kokunun gövdesi, başka hiçbir parfümde bulamadığım zengin, otantik, lüks bir safran. Temel notalar ise modern, canlı ve kuru bir sandal ağacı. Gül notası uzaktan hissediliyor ve karamel ile elmanın gurme yönü, bir tutam paçuli ile yeşil bir destek alarak hafif bir nane kokusu veriyor. Aklıma çok güçlü bir şekilde gelen görüntü, şık bir kadının giydiği siyah deri ceketin cebindeki naneli sakız kokusu; bu kadın sandal ağacı parfümü kullanıyor. Bana göre kadınsı bir koku ama tereddüt etmeden kullanıyorum.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent622440",
+      "author": "FreddyK",
+      "date": "2021-07-19",
+      "text": "Merhaba, bugün 125 ml Habdan aldım. Koleksiyonuma bir PDM daha eklendi. Kokusu muhteşem. Tam bir sihir. Çok kaliteli. Kalbi saf sevgiyle dolu bir erkek için ideal bir koku. Lütfen, size bir hikaye anlatayım; bu kısa ama eğlenceli hikaye, Habdan hakkındaki duygularımı ortaya koyacak.\nBabam 24. doğum günüm için Habdan aldı. Bu hikaye 17, 18 ve 19 Temmuz'da geçiyor. İlk başta Hamdani aldım, tarih 17.07.2021'di. Babam Habdan aldığını sanıyordu, ama ben ambalajı açıp \"Hamdani\" adını okuyunca anladı. İnanamadı. Her şeyin doğru olup olmadığını sordu. Hamdani'nin nasıl koktuğunu biliyordu. Ona yanlış parfüm aldığını söyledim, \"Habdan, Hamdani değil baba\" diye yanıtladım. Bu bir hataydı ama beni mutlu etti çünkü bana hediye ettiği için çok mutluydu, Habdan istediğimi biliyordu ama isim konusunda yanılmıştı. Bence hiç de yanılmadı, beni hiç de hayal kırıklığına uğratmadı! Bu güzel jest ve hata yüzünden çok mutlu oldum xD Ona hayal kırıklığına uğramamasını, onu çok sevdiğimi ve hediyenin sonuçta önemli olmadığını söyledim. Ertesi gün, 18'i, asıl doğum günümdü, Pazar. Babam bana Pazartesi günü gidip değişim yapacağını ve Habdan'ı getireceğini söyledi. Bugün, 19'unda, mağazayı aradığını ve Habdan'ın stokta olmadığını söyledi. Anladığımı belirtmek için başımı salladım. Sonra dışarı çıktı ve 2-3 saat sonra geri geldi. Aşağıdan beni bir saniyeliğine çağırdı. Geldim, bana paketlenmiş bir kutu verdi ve içinde ne olduğunu biliyordum... O anda kalbim kelimenin tam anlamıyla eridi ve içimden \"Neden baba, neden!? Seni çok seviyorum ve bunu biliyorsun, lütfen kendini bu kadar zorlama, bana bir şey kanıtlamak zorunda değilsin\" diye düşündüm. Neden böyle hissettiğimi sorabilirsiniz. Şöyle ki, aynı gün tam perakende fiyatından aldığını biliyordum. Sadece beni mutlu etmek istedi, belki de doğum günümde farklı bir koku aldığım için üzüldüğümü düşündü. Hiç de değil, her iki durumda da mutluydum! Yaptığı şey için, bu jest için onu çok sevdiğimi söyledim. Hayatımda sadece bir kez perakende fiyatından bir PDM aldım. Sonunda Hamdani ve Habdan'la anlaştım. Ama bu hikaye parayla ilgili değil! Sevgi ve fedakarlıkla dolu bir baba hakkında. Habdan'ı böyle tanımlayacağım.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1231188.jpg"
+    },
+    {
+      "id": "parent622527",
+      "author": "RLW",
+      "date": "2020-11-30",
+      "text": "Ambalajlama:\nKadife astarlı tabana sahip sert karton kutu\n\nŞişe:\n125 ml'lik ağır cam şişe, Mega atomizer ve büyük/ağır kapak ile birlikte.\n\nMeyve Suyu: EDP\nGuillaume Flavigny tarafından inşa edildi.\n\nYayılım: ortalama 2, kalıcılık 6+ (3-5 uygulama), daha sonra Arap koleksiyonu serisinden tene yakın bir koku.\n\nBaşlangıç ​​çok hoş, hafif bir safran, tarçın ve tütsü kokusu var; bir saat sonra her şey sakinleşiyor, mür, gül, amber, olibanum ve vanilya ortaya çıkıyor ve koku daha da koyulaşıyor.\n\n30 yaş üstü erkekler için, ilkbahar, sonbahar, kış aylarında kullanılabilecek bir koku; Layton'ın temel notalarını ve Oajan'ın tarçın notasını anımsatıyor - orta düzeyde yayılım, fena olmayan kalıcılık - mükemmel içerikler, karmaşık kompozisyon.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.33774.jpg"
+    },
+    {
+      "id": "parent622448",
+      "author": "Mico1973",
+      "date": "2020-10-01",
+      "text": "Bu parfümü çok sevdim! Değeri bilinmeyen bir parfüm! Bence tamamen eşsiz. Benim için harika bir performans. Açılışta tütsü ve safran var, bu da bana deri/süet bir hava veriyor. Sonra bu biraz kayboluyor ve elma ile karamel devreye giriyor. Safran ve tütsü arka planda kalıyor gibi görünüyor. Kuruduktan sonra muhteşem bir kokuya dönüşüyor. Bu karanlık ve seksi bir koku. Bence daha çok erkeksi bir havası var. 9.5/10 - Not: Bu parfüm bana Hugo Boss Bottled Intense'e hiç benzemiyor - ki o parfüme de sahibim.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent622467",
+      "author": "Landberk70",
+      "date": "2020-09-29",
+      "text": "Gizemli bir auraya sahip, oldukça koyu bir koku. Açılışı incelikli, çok ölçülü bir mür, bir tutam yeşil elma ve karamel dokunuşu ortaya çıkarıyor. Çok hoş, coşkulu, egzotik ve kullanımı kolay bir koku. Bana çok Acqua di Parma Oud'u hatırlatıyor; benzer bir aromaya sahipler. Benim için Habdan, büyüsünü açığa çıkaran ve sizi Orta Doğu'ya götüren güzel bir sonbahar kompozisyonu. En zayıf noktası ise yayılımı ve kalıcılığı. İlk bir saat varlığını hissettiren, ancak daha sonra yaklaşık altı saat boyunca kalıcı olan kişisel bir koku. Giymekten zevk alıyorum, ancak gittiğiniz her yerde varlığınızı duyuracak türden bir koku değil. Oldukça mütevazı, ancak çok zarif.\nKoku 9/10\nEstela 7/10\nTahmin 6/10\nSüre 8/10",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.47798.jpg"
+    },
+    {
+      "id": "parent622446",
+      "author": "ben805",
+      "date": "2020-06-07",
+      "text": "En az değer verilen PDM'lerden biri olan Habdan, orta notalarda mür, karamel, sıcak odunsu notalar ve Oblibanum'dan gelen bir tutam tütsünün ana akoruna kadar süren sulu bir yeşil elma ile açılıyor. Bu çok seksi ve rahatlatıcı bir koku; benim tenimde Habdan, Oajan ve Layton'dan biraz daha erkeksi, ancak kendine güvenen kadınlar da bunu rahatlıkla kullanabilir. Bence bu koku en çok ilkbahar ve sonbahar için uygun, ancak yaz ve kış aylarında da kullanmaktan çekinmem; yazın daha az sıkın, kışın ise birkaç fıs daha sıkın ve hazırsınız.\n\nGenel performansı ve kalıcılığı iyi ve tüm iş günü boyunca sürüyor, orta düzeyde yayılım ve sillage'a sahip. Bu, PDM serisinin çoğu gibi Eau de Phantastic kalitesinde bir parfüm, yani kalıcı olacağından emin olabilirsiniz! Benim burnuma göre Habdan son derece baştan çıkarıcı, biraz gurme ve balzamik. Bu benim için olmazsa olmaz bir parfüm ve Layton'dan bile daha çok seviyorum! Biraz araştırırsanız 120 ml'lik bir şişeyi 150 doların altında bulabilirsiniz, bu da kesinlikle bir fırsat!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1192166.jpg"
+    },
+    {
+      "id": "parent622449",
+      "author": "HungarianGenius",
+      "date": "2019-09-26",
+      "text": "Bu, mükemmel dengelenmiş bir kokunun nadir bir örneğidir.\nTütsü, reçine, safran, elma ve malt benim için öne çıkan notalar; o kadar iyi dengelenmişler ki birçok kişi basitçe \"elmalı turta\" gibi koktuğunu söylüyor. Benzerliği görebiliyorum, ancak bu, parfümcülüğün gerçek ustalığının basitleştirilmiş bir ifadesi. Dürüst olmak gerekirse, bu muhteşem notaların birleşimini tek bir basitleştirilmiş koku tanımına indirgemek gerekirse, \"Ballı Papatya\" derdim.\nÇocukken bazen saman nezlesine bağlı olarak gözlerim ağrırdı. Annem bahçesinde yetiştirdiği ve kendisi kuruttuğu papatya çiçeklerinden ılık bir papatya çayı yapardı. İçine biraz bal eklerdi ve ben de pamuklu çubukla bu sıvıyı göz kapaklarıma sürerdim; bu her zaman ağrıyı hafifletirdi.\nHabdan benim için son derece duygusal bir anlam taşıyor çünkü beni tam o ana geri götürüyor.\n\nHabdan, PDM'nin daha zarif ve ölçülü ürünlerinden biridir; ciltte uzun süre kalır ancak yayılımı aşırı derecede yoğun değildir, bir odayı tamamen doldurmayabilir ancak fark edilebilir bir koku izi bırakır.\nBu da beni iltifatlara getiriyor. Muhafazakar bir profesyonel ortamda çalıştığım iş alanımda, insanlar düzenli veya açıkça iltifat etmezler, ancak Habdan kullandığımda genellikle giydiğim kıyafet hakkında veya kokusuna dair iltifatlar alıyorum. Ayrıca insanların Habdan kokusunu aldıklarında daha yakına gelip rahatladıklarını da fark ettim.\n\nBu, tüm zamanların en sevdiğim kokularından biri ve asla şişesiz kalmayacağım.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1195937.jpg"
+    },
+    {
+      "id": "parent622511",
+      "author": "GraGraparfam",
+      "date": "2019-06-24",
+      "text": "Karşılaştığım her şey arasında bunu ilk sıraya koyardım.\n1. Habdan - inanılmaz lezzetli bir gurme, gerçek bir Doğu lezzeti! Ortalama kalıcılığına rağmen, bir sürü olumlu duygu uyandırdı! (Çok yönlü)\n\n2. Layton - yine bir elma, ancak daha belirgin bir oryantal motifle pişirilmiş ve mükemmel dayanıklılığa sahip (sonbahar-kış)\n\n3. Herod - biberli gurme tütün, hafif acılık, harika aroma (sonbahar)\n\n4. Darley - lavanta ve nane ferahlığı, çok hafif, kararsız ofis çalışanı, ortalama kalıcılık!\n(ilkbahar-yaz)\n\n5. Godolphin - Tuscan Leather bekliyordum ama sönük bir tane aldım, vasat izlenimler, iç çamaşırı her şeyi mahvediyor, tavsiye etmiyorum, Ford'dan çok uzak!",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.200288.jpg"
+    },
+    {
+      "id": "parent622524",
+      "author": "Nairima",
+      "date": "2019-04-15",
+      "text": "Varşova'daki Plac Unii alışveriş merkezinde bulunan Mon Credo parfümerisinden Magda ile kısa bir sohbet ve sezgi sonucunda bana önerildi. İlk öneriydi ve tam isabet oldu!\n\nKoku tek kelimeyle muhteşem. Sıcak, sarmalayıcı, aynı zamanda canlı, büyüleyici, çok hoş, eşsiz ve ilk karşılaşmada tanıdık gelse de, kesinlikle ayırt edilebilir.\n\nKalıcılığı mükemmel, ancak üç saat sonra cilde yakınlaşıyor ve ilk üç saatteki kadar güçlü bir şekilde yayılmıyor. O zaman yapmanız gereken tek şey boynunuzu hızlıca yıkamak, beş fıs daha sıkmak ve her şey yeniden Habdan gibi kokuyor.\n\nKoku yayılımı harika, her yere nüfuz ediyor ve boyun (ve sırt) çevresine 5 fıs sıktıktan sonra, ister apartman dairesi isterse kokularla dolu bir restoran olsun, tüm odayı doldurabiliyor.\n\nSadece Liquidnight (A Lab On Fire), Tobacco Vanille (Tom Ford), Phoenicia (Heeley) ve Casbah (Robert Piguet) parfümlerinde tanımadığım kişiler beni durdurup üzerimde aldıkları o güzel kokunun ne olduğunu sordular, ama Habdan'ı iki haftadır kullanıyorum ve bir düzineden fazla kişi sordu, bu kadar büyük bir ölçekte daha önce hiç böyle bir şey olmamıştı.\n\nHabdan'da elmanın kullanımı inanılmaz. Oryantal, tütsü benzeri balsamik özelliğini canlandırıyor ve bu tür parfümlerde beklenmedik ve alışılmadık notalar ortaya çıkarıyor; bazen vanilya, bazen Japon kirazı, bazen Cardenal Mendoza tipi Jerez brendisi ve bazen de sütlü çikolata.\n\nTek şikayetim, en sonda bıraktığı koku. Gece uygulandığında çok güzel, ancak sabahları Sephora'nınkine benzer, iz bırakan bir koku bırakıyor.\n\nAma bu o kadar küçük bir kusur ki endişelenecek bir şey yok. Gerçekten çok güzel.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent622495",
+      "author": "bbertex",
+      "date": "2018-12-19",
+      "text": "Çok özel bir parfüm; başlangıçta o kadar dumanlı ki, petrol tanklarının kokusunu andırabilir... ama ciltte iyice eridiğinde... diğer tüm parfümlerden farklı, rüya gibi bir parfüm.\nGerçekten bir hazine. Bence bu parfüm serisinin tamamı yakından incelenmeyi hak ediyor, ama... maalesef bulmak zor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent622445",
+      "author": "GodKing",
+      "date": "2016-11-20",
+      "text": "Sonbaharda açılmayı bekleyen, yazdan kalma yeni bir Hadban şişem olduğunu (koku deposunda) unutmuşum. Sanki erken bir Noel gibi! Neyse, dün açtım ve dün gece... ve bu sabah tekrar kullandım. İlk izlenimim gerçekten güzel olduğu ama beni tüylerimden yakalayıp \"Beni eve götür, denizci!\" diye bağırmadığı yönünde. LOL! Yanlış anlamayın... Habdan çok güzel ama bazıların da belirttiği gibi, Habdan gurme mi yoksa balsamik/tütsü kokusu mu olduğuna karar veremiyor.\n\nTütsü kokularına çok düşkün olduğum ve tatlı kokuları pek sevmediğim için bu parfümü hemen sevmeliyim. Ancak, gurme bir koku deneyeceksem, doğrudan Dior Feve Delicieuse veya daha da iyisi, Hollanda elmalı turtası havası veren Hermes Ambre Narguile gibi bir parfüm tercih ederim. Ve tütsü (günlük, mür vb.) istiyorsam, Tom Ford Sahara Noir, Montale Kabul Oud, Rouge Bunny Rouge Embers, Comme des Garcons Avignon gibi parfümleri seçebilirim.\n\nHer şeye rağmen, Habdan, karamel ve esmer şekerle kaplı elmalı turta havasını, reçineli/tütsülü bir arka plan ve hafif bir safran dokunuşuyla gerçekten güzel bir dengeye oturtmuş gibi görünüyor. Tekrar söylüyorum, süper güzel... ama benim için doğru noktayı yakalayıp yakalamadığını söylemek için henüz çok erken, ancak son derece hoş, son derece yumuşak ve kaliteli bir koku olduğu için başkaları tarafından iyi karşılanacağından eminim.\n\nCildimde 7-8 saat kalıcılığıyla performansı sağlam, ancak Parfums de Marly'nin diğer parfümleri kadar iyi değil. Benzer şekilde, yayılımı da ortalama veya ortalamanın biraz üzerinde. Dürüst olmak gerekirse, sonbahar/kış mevsimleri için mükemmel bir randevu/samimi koku.\n\nGüncelleme: Haban ile biraz daha fazla zaman geçirdim ve onu gittikçe daha çok seviyorum. İlk bakışta, Herod'dan sonra en sevdiğim ikinci Parfums de Marly kokusu olduğunu söyleyebilirim. Tabii ki, bu sabah erken saatlerde Darley şişemi açtım ve hemen sevdim. Bu markanın çok sayıda harika parfümü var.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.938128.jpg"
+    },
+    {
+      "id": "parent622464",
+      "author": "oscarsh86",
+      "date": "2016-03-13",
+      "text": "Kötü kokmuyor; temelde elma ile karıştırılmış tütsü gibi. Örneğin Loewe 7'deki gibi metalik bir tütsü kokusu almıyorum. Daha çok yumuşak bir tütsü kokusu, hiç de baskın değil.\n\nParfümün dezavantajı, çok az koku yayması ve kalıcılığının da pek iyi olmaması; tabii ki fiyatı da cabası.\n\nYine de kokusunu beğendim. Her iklim için tavsiye ederim ve günlük kullanım için daha uygun olduğunu düşünüyorum.\n\nÜzerinde unisex yazmasına rağmen, ben de daha çok erkeksi buluyorum.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.14321.jpg"
+    },
+    {
+      "id": "parent622487",
+      "author": "MHASK",
+      "date": "2016-01-27",
+      "text": "Öncelikle, kurumuş elma içeren tütsüleri çok kullanmadan önce, elma/vanilya kokusu elde ediyordum... Elma daha sonra kurudu ve kuruma aşamasında çok tatlı, aynı zamanda çok mür benzeri bir koku ortaya çıktı. Kalıcılığı iyiydi ve yayılımı da çok iyiydi. Kesinlikle bir şişe dolduracağım, bu yüzden şimdilik saklıyorum.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent622505",
+      "author": "leo.palazhevets",
+      "date": "2015-12-14",
+      "text": "Tek bir fıs/tek bir tablet, gerçek gurme parfümün ne olduğunu anlamak için yeterli. Şu an cildimde, muhteşem ve çok pahalı bir tütsüyle sarılmış lüks bir kiraz çiçeği kokusu var. Koku kesinlikle aristokratik (kutunun üzerinde \"Kraliyet Özü\" yazması boşuna değil) ve bence maskülen bir dokunuşa sahip unisex bir koku.\nBu markanın şişelerinin boyutundan (125 ml) memnunum; oldukça büyük bir miktar ve uzun süre dayanacak. Şişe büyük ve ağır, kapağı ise tam anlamıyla yıkıcı.\nDayanıklılığı ortalama düzeydedir.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.62799.jpg"
+    },
+    {
+      "id": "parent622507",
+      "author": "hab",
+      "date": "2014-12-18",
+      "text": "Katılıyorum, harika bir koku.\n\nKlasik Avrupa erkek parfümlerinin çok ilginç bir yeniden yorumlaması, ancak modern, oryantal bir dokunuşla. Arap markalarını aşırı taklit etmeden. Bileşenlerini birbirinden ayırmakta bile zorlanıyorum. Sanki hepsi bir araya kaynaşmış gibi. Amber, gül, belki de narin ud, karamel ve elma kokusu alıyorum. Ama işin püf noktası, hepsinin güzelce birleşmesi. Nedense, malzemelerin saatlerce kısık ateşte, tahta kaşıkla karıştırılarak kaynatıldığı sihirli bir kazanı çok andırıyor. En çok da, her şeyi bir arada tutan, emen sıcak (ama yakıcı olmayan) amber kokusunu alıyorum. Ve bunun gurme bir koku olduğu fikrine katılmıyorum. Buradaki elma, çok az karamel içeren, reçel gibi haşlanmış ve ezilmiş gibi. Sanki reçele şeker ekleyip kaynatmışlar gibi.\n\nEğer 70'lerde veya 80'lerde Fransa'da üretilmiş olsaydı, kesinlikle daha öfkeli ve sert olurdu. Ama bu çok modern bir koku. Klasiklere, büyük dedelerine (hatta babalarına bile değil) saygı duruşunda bulunuyor, genler ortak, ancak tamamen farklı görünüyor ve davranıyor. Hiç de acımasız değil, sert değil, uzun süre kalıcı, iz bırakıyor. Orta derecede şık, klasik kıyafetlere yöneliyor. Nedense bana daha çok bir erkeği hatırlatıyor. Gerçi, düşündükten sonra, hayır, kadınlara da çok yakışır. Sadece sonbahar ve kış aylarında kullanın. Satın almayı düşüneceğim. Ama Arap Atı Koleksiyonu'ndaki diğer kokuları da koklamam gerekecek.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.171839.jpg"
     }
   ]
 }

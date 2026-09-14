@@ -16,27 +16,27 @@
     },
     {
       "name": "aromatik",
-      "width": "91.25%"
+      "width": "93.6364%"
     },
     {
       "name": "odunsu",
-      "width": "80.75%"
+      "width": "82.1821%"
     },
     {
       "name": "taze baharatlı",
-      "width": "79%"
+      "width": "80.9091%"
     },
     {
       "name": "pudralı",
-      "width": "72%"
+      "width": "72.0001%"
     },
     {
       "name": "menekşe",
-      "width": "65%"
+      "width": "65.0002%"
     },
     {
       "name": "toprak",
-      "width": "58%"
+      "width": "58.0002%"
     }
   ],
   "rating": {
@@ -51,12 +51,12 @@
     }
   },
   "seasons": {
-    "winter": "1",
-    "spring": "1",
-    "summer": "2",
-    "autumn": "2",
-    "day": "4",
-    "night": "3"
+    "winter": "2",
+    "spring": "2",
+    "summer": "3",
+    "autumn": "3",
+    "day": "5",
+    "night": "4"
   },
   "notes": {
     "top": [],
@@ -68,50 +68,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "0",
-    "longLasting": "3",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "0",
-    "strong": "2",
-    "enormous": "4"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "1",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "PENHALİGON'S",
-      "name": "Iris Prima"
-    },
-    {
-      "brand": "FUEGUİA 1833",
-      "name": "Corvina Negra"
-    },
-    {
-      "brand": "NAOMİ GOODSİR",
-      "name": "Iris Cendre"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Hiris"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "AEDES DE VENUSTAS",
@@ -166,12 +149,13 @@
       "name": "Yaken"
     },
     {
-      "brand": "L'ARTİSAN PARFUMEUR",
-      "name": "Traversee du Bosphore"
-    },
-    {
       "brand": "FUEGUİA 1833",
       "name": "La Tierra del Rayo"
+    },
+    {
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Traversee du Bosphore"
     }
-  ]
+  ],
+  "comments": []
 }

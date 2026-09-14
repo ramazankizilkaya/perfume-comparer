@@ -87,46 +87,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "0",
-    "longLasting": "2",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "0",
-    "strong": "3",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "2",
-    "male": "2"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "3",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "FRENCH AVENUE",
-      "name": "Amber Saffron"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Alien Musc Mysterieux"
-    },
-    {
-      "brand": "FRAGRANCE WORLD",
-      "name": "Roses De Mai"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "AHMED AL MAGHRİBİ",
@@ -153,16 +140,16 @@
       "name": "Alexandria II"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Layton Exclusif"
-    },
-    {
       "brand": "FRAGRANCE WORLD",
       "name": "Qahwa"
     },
     {
       "brand": "AFNAN",
       "name": "Supremacy Incense"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Layton Exclusif"
     },
     {
       "brand": "ARABİAN OUD",
@@ -188,5 +175,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "La Nuit de L'Homme Bleu Électrique"
     }
-  ]
+  ],
+  "comments": []
 }

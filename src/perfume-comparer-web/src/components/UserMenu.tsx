@@ -20,7 +20,7 @@ function hue(s: string): number {
 
 function Avatar({ user, size = 30 }: { user: AuthUser; size?: number }) {
     if (user.picture) {
-        return <img className="avatar" src={user.picture} alt="" width={size} height={size} referrerPolicy="no-referrer" />;
+        return <img className="avatar" src={user.picture} alt={user.name || "Kullanıcı profili"} width={size} height={size} referrerPolicy="no-referrer" />;
     }
     const h = hue(user.name || user.email);
     return (

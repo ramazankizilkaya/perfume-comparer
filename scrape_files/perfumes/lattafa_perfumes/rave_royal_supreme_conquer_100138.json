@@ -29,6 +29,34 @@
     {
       "name": "aromatik",
       "width": "41.6667%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -66,33 +94,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "0",
+    "moderate": "9",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "9",
+    "strong": "2",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "6",
+    "male": "11"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "10"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AMOUAGE",
+      "name": "Search"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Eau de Citron Noir"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau d'Issey pour Homme Wood & Wood"
+    },
+    {
+      "brand": "ADOLFO DOMİNGUEZ",
+      "name": "Bergamota Ámbar"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Bleu de Chanel Eau de Parfum"
+    },
+    {
+      "brand": "AMOUROUD",
+      "name": "Smoky Citrus"
+    },
+    {
+      "brand": "JO MİLANO PARİS",
+      "name": "Game of Spades Wildcard"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Reflection Man"
+    },
+    {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Island Dreams"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LOUİS VUİTTON",
@@ -119,10 +184,6 @@
       "name": "Supremacy Collector's Edition Pour Homme"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Jasoor"
-    },
-    {
       "brand": "AMOUAGE",
       "name": "Reflection Man"
     },
@@ -131,12 +192,12 @@
       "name": "Prada L'Homme"
     },
     {
-      "brand": "AFNAN",
-      "name": "9 PM Rebel"
+      "brand": "AMOUAGE",
+      "name": "Jubilation XXV Man"
     },
     {
-      "brand": "AZZARO",
-      "name": "The Most Wanted Parfum"
+      "brand": "AFNAN",
+      "name": "9 PM Rebel"
     },
     {
       "brand": "PARFUMS DE MARLY",
@@ -153,6 +214,11 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad Bourbon"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad"
     }
-  ]
+  ],
+  "comments": []
 }

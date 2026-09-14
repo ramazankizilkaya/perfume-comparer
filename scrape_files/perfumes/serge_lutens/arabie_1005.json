@@ -16,55 +16,83 @@
     },
     {
       "name": "tatlı",
-      "width": "96.9548%"
+      "width": "96.8139%"
     },
     {
       "name": "meyvemsi",
-      "width": "95.7432%"
+      "width": "95.6048%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "87.9139%"
+      "width": "87.8897%"
     },
     {
       "name": "amber",
-      "width": "83.2768%"
+      "width": "83.165%"
     },
     {
       "name": "odunsu",
-      "width": "71.5215%"
+      "width": "71.4339%"
     },
     {
       "name": "aromatik",
-      "width": "59.3729%"
+      "width": "59.3663%"
     },
     {
       "name": "balsamik",
-      "width": "50.1025%"
+      "width": "50.0601%"
     },
     {
       "name": "pudralı",
-      "width": "44.9743%"
+      "width": "44.9463%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.00",
-    "votesCount": "3,315",
+    "votesCount": "3,330",
     "breakdown": {
       "love": "1.3k",
       "like": "1.4k",
-      "ok": "91",
+      "ok": "97",
       "dislike": "560",
       "hate": "18"
     }
   },
   "seasons": {
-    "winter": "760",
-    "spring": "169",
-    "summer": "273",
-    "autumn": "715",
-    "day": "593",
-    "night": "651"
+    "winter": "764",
+    "spring": "170",
+    "summer": "276",
+    "autumn": "721",
+    "day": "598",
+    "night": "656"
   },
   "notes": {
     "top": [],
@@ -88,33 +116,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "34",
+    "weak": "58",
+    "moderate": "210",
+    "longLasting": "427",
+    "eternal": "174"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "115",
+    "moderate": "210",
+    "strong": "467",
+    "enormous": "202"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "22",
+    "moreFemale": "26",
+    "unisex": "221",
+    "moreMale": "34",
+    "male": "17"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "91",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "17",
+    "overpriced": "56",
+    "fair": "97",
+    "goodValue": "26",
+    "greatValue": "13"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "PARFUM D'EMPİRE",
+      "name": "Aziyade"
+    },
+    {
+      "brand": "ZOOLOGİST PERFUMES",
+      "name": "Camel"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Kenzo Jungle L'Elephant"
+    },
+    {
+      "brand": "WEİL",
+      "name": "Suki Essence"
+    },
+    {
+      "brand": "ROYAL CROWN",
+      "name": "K'abel"
+    },
+    {
+      "brand": "STÉPHANE HUMBERT LUCAS 777",
+      "name": "Une Nuit a Doha"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Art of Arabia III"
+    },
+    {
+      "brand": "LADANİKA",
+      "name": "Hussar Ballad Гусарская Баллада"
+    },
+    {
+      "brand": "SOLSTİCE SCENTS",
+      "name": "Kitchen"
+    },
+    {
+      "brand": "JEAN-LOUİS SCHERRER",
+      "name": "Nuits Indiennes (Indian Nights)"
+    },
+    {
+      "brand": "LİNARİ",
+      "name": "Stella Cadente"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Atlas Garden"
+    },
+    {
+      "brand": "ALEXANDRİA FRAGRANCES",
+      "name": "Hafez 1984"
+    },
+    {
+      "brand": "ZOOLOGİST PERFUMES",
+      "name": "Civet"
+    },
+    {
+      "brand": "DSH PERFUMES",
+      "name": "Mahjoun"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -137,12 +226,12 @@
       "name": "Fille en Aiguilles"
     },
     {
-      "brand": "CHANEL",
-      "name": "Coco Eau de Parfum"
-    },
-    {
       "brand": "SERGE LUTENS",
       "name": "Five O'Clock Au Gingembre"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Coco Eau de Parfum"
     },
     {
       "brand": "SERGE LUTENS",
@@ -175,6 +264,208 @@
     {
       "brand": "GUERLAİN",
       "name": "Samsara Eau de Parfum"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent641889",
+      "author": "Raf",
+      "date": "2024-01-24",
+      "text": "Göçebelerden oluşan bir kervan, develer üzerinde, kavurucu güneş altında baharatlarla iç içe geçmiş meyve ve hurmaların mayalandığı hasır sepetler taşıyarak uçsuz bucaksız Arap çölünü geçiyor.\nHurma ve erimiş kuru meyve kokusu, erik alkolünün hafif bir tınısıyla birleşiyor ancak tüm bunlar karanfil ve kimyonun kuruluğuyla dengeleniyor.\nDefne yaprağı ve muskat gibi aromatikler, yemeğe daha da incelik ve zenginlik katıyor.\nKurudukça her şeyi güzel, tatlı ve yuvarlak bir doku kaplar; işte bu, reçinelerin ve tonka fasulyesinin zamanıdır.\nYoğun, zengin ve derin, sevdiğimiz Lutens...\nTesadüfen, geçen yıl Arap Yarımadası'nda (Dubai çölünde) çekilen profil fotoğrafım, parfümle mükemmel bir uyum sağlıyor; tek fark, o gün Caron'un Pour un homme parfümünü kullanıyor olmam.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.18033.jpg"
+    },
+    {
+      "id": "parent641840",
+      "author": "alphairone",
+      "date": "2023-01-04",
+      "text": "Sevgili Arabie ile uzun bir geçmişim var; bu geçmiş, 2008 yılında Boston, Copley Place Plaza'daki Barney's'te (rahmetli) Serge Lutens ile ilk karşılaşmama dayanıyor. Niş parfümlere girişimin başlangıcı, yıllar önce hem Serge hem de Frederic Malle ile oldu ve o ilk heyecan asla tam olarak yeniden yakalanamasa da, sevgiyle hatırlanıyor ve Arabie'yi kokladığımda o hissi tüm vücudumda hissediyorum. Serge standını gördüm, şişeler nöbetçi gibi duruyor, sanatsal, renkli ve cezbedici görünüyorlardı. Satış görevlisi benimle vakit geçirip birkaçını denememe izin verdi ve dört örnekle ayrıldım: Ambre Sultan, Chergui, Cedre ve Arabie.\n\nAkşam yemeklerini, cinsel yeniden keşfi, aşk ve onay arayışını, Boston sokaklarında yalnız yürüyüşleri, halk kütüphanesini, sıcak kazakları ve botları hatırlatıyor. Sabah ağrıları ve sızıları ile sinsice ilerleyen varoluşsal düşüncelerden önceki bir zamandı, ama aynı zamanda bir naiflik dönemiydi. Arabie tatlı ve kesinlikle egzotik, ancak bana parfüm notaları piramitleri ve yapısı hakkında çok daha az şey bildiğim, boş bir sayfa gibi yaklaştığım bir dönemde geldi, bu yüzden kokuyu tanımlamak için daha az sıfatım vardı: \"Baharatlı, biraz tatlı, derin ve zengin, seksi.\" Gerçekten de biraz tatlı, sevdiğim en tatlı kokulardan biri, ancak yenmeyen mumsu bir kalite ve odunsu bir omurgaya sahip olduğu için ön planda ve merkezde bir gurme olacak kadar tatlı değil. Bir cellab akoru var gibi görünüyor: bu, Orta Doğu'da keçiboynuzu, hurma, üzüm pekmezi ve gül suyundan yapılan popüler bir meyve şurubu. Genellikle Arap tütsüsüyle birlikte içilir. Ayrıca kuru erik, kuru üzüm, kuru kayısı, incir gibi sütlü aromalar da mevcut; bu unsurlar karanfil ve kimyonun ağır özünü tamamlıyor.\n\nRahatlatıcı bir benzoin kucaklamasına dönüşüyor, diğer reçineler ve odun notalarıyla gölgeleniyor, son fısıltısına kadar beni büyülüyor ve o gün aldığım diğer örneklerle birlikte, ömür boyu sürecek bir tutku olarak bu kokuya giriş kapım oluyor. Bu benim için çok kişisel bir bağ ve bizler, doymak bilmez koleksiyoncular ve seçici uzmanlar olarak düzinelerce, hatta yüzlerce kokuya ilgi duyabiliriz, ancak her zaman sonsuza dek yankı bulan birkaç koku olacaktır.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1213298.jpg"
+    },
+    {
+      "id": "parent641900",
+      "author": "Frederique",
+      "date": "2021-12-29",
+      "text": "Bu parfümü çok seviyorum. Niş parfümeri ile ilgilenmeye başladığım yıllarda, birkaç yıl önce almıştım. Makyaj meraklısı olduğum için sık sık gittiğim bazı Sephora mağazalarında Serge Lutens köşesi olduğunu ve o zamanlar bu parfümü epey kokladığımı hatırlıyorum.\nİlk nefeste, bir likör gibi beni altüst etti; başımı döndürdü. Birkaç dakika sonra, biraz daha dumanlı ve koyu bir koku almaya başladım. Birkaç dakika daha geçti ve işte kuru meyve kokusu geldi. Şu anda evde, kuru meyveli ve hafifçe yanmış kabuklu iki taze pişmiş panettone kekim var. Belki de bu yüzden kendime Arabie sıkmaya karar verdim; bağlantı anında kuruldu.\nBenim için bu parfüm yürek burkan cinsten. Çok yoğun, likör gibi, şekerli, o kadar güzel ki, ona duyduğum tutkuyla adeta eriyorum.\nBence bu kış dönemi için mükemmel, aslında doğrusunu söylemek gerekirse, çok nadiren, sadece belirli özel durumlarda kullanıyorum.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.58495.jpg"
+    },
+    {
+      "id": "parent641838",
+      "author": "lilacsandchocolate",
+      "date": "2021-11-10",
+      "text": "Size Bin Bir Gece Masalları'ndan birini anlatayım.\n\nYıl 798, siz ise Arabistan'da yerel bir kabilenin genç bir üyesisiniz. Saatin kaç olduğunu bilmiyorsunuz, ama şu anda tek ışık kaynağınız ay ve yıldızlar. Bu gece yeni bir çarşı açıldı ve herkes İpek Yolu'ndan yeni gelen baharatları, otları ve lezzetleri görmekten heyecan duyuyor. Her zaman seyahat etmeyi ve Hint Yarımadası'na, Çin'e, Levant'a, belki de Mısır'a gitmeyi hayal etmişsinizdir.\n\nAma şimdilik, akşam havasını dolduran egzotik kokularla yetinmek zorundaydınız.\n\nTüccarlar hâlâ raflarını dolduruyor, insanlar pazarlık yapıyordu. Bazıları yabancı müzik aletleri çalarken, diğerleri kalabalığı yeni bir çay denemeye teşvik ediyordu.\n\nKuru üzüm, kuru kayısı, fındık ve hurma kokuları ve örnekleriyle adeta bombardımana tutuldunuz. Karanfil, muskat, zencefil ve kimyon tozu her esintiyle size doğru uçuyor, burnunuzu gıdıklıyor, kıyafetlerinize yapışıyordu. Parmaklarınızdaki şey köri tozu muydu acaba?\n\nPazarın sonuna doğru, tepsi tepsi tatlılar görüyordunuz. Satıcılar develerinin üzerinde insanları bu tatlıları denemeye davet ediyordu ve hayır diyemiyordunuz. Tatlı ve şuruplu basbousa, çıtır çıtır kunafeh, gevrek baklava...\n\nYaşlı ve nazik bir adam size bir içecek ikram etti. \"Bu çay,\" dedi, \"ama alıştığınız türden değil.\"\n\nBir yudum aldınız. Kremsi, sıcak, tatlı, hafif bir zencefil dokunuşuyla.\n\nArabie, lezzetli, akılda kalıcı ve egzotik, aynı zamanda da son derece kullanışlı bir koku. Çok duyusal ve rahatlatıcı.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1242093.jpg"
+    },
+    {
+      "id": "parent641891",
+      "author": "M.r",
+      "date": "2020-04-29",
+      "text": "Büyü.\nBir seyahat kokusu. Mağrip baharat pazarının anısı. Mağazalarda oryantal bir parfüm olarak sunuluyor. Ama tüm parfümler oryantal değil mi zaten?\nBence bu Arap parfümü.\nAncak, bazen sosyal ortamlarda giymekte zorlanıyorum. Arkadaşlarım ve ailem kokusunu köriye benzetiyor...\nTatlı, hamur işi benzeri kokular oldukça yaygınlaştı, ancak baharat kokuları söz konusu olduğunda durum daha karmaşık!\nBu koku beni başkalarının bakışlarından kurtulmaya davet ediyor. Büyülendim. Beni hayal kurmaya, düşlemeye iten bir koku. Maghreb'in sıcağında seyahat eden, aromalar, kumaşlar, nesneler toplayan... ve bulduklarıyla döşenmiş bir evde yaşayan bir erkek, bir kadın hayal ediyorum.\n\nZevk meselesinin ötesinde, bu parfümün şiirselliğini inkar etmek mümkün değil.\n\nPratik anlamda, ısıtıldığında gelişen ve lezzeti artan, kurutulmuş meyve ve baharatların karmaşık bir karışımıdır!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent641898",
+      "author": "Ricky74",
+      "date": "2020-01-16",
+      "text": "İncelemeye geçmeden önce, bu mücevheri tatma fırsatı verdiği için @ciemme66'ya teşekkür etmek istiyorum. Lafı uzatmadan söyleyeyim: Çok baharatlı ve yoğun bir açılış, hemen hissedilen gerçekçi karanfil notaları ve hindistan cevizinin baharatlılığıyla birlikte. Burada, sadece gerçekçilik duygusundan bile, bu mücevherin gelişmeye devam ederken bizi nelerin beklediğini tahmin etmeye başlıyorum. Ardından, yavaş yavaş, baharat patlaması biraz azalıyor ve hurma ve kuru meyvelerin tatlılığı ortaya çıkıyor. \"Vay canına!\" diye haykırmaya başlıyorum, sizi içine çeken ve egzotik, Arap diyarlarına götüren bu meyve-baharat karışımının tadını çıkarıyorum. Henüz bitmedi: Zaman geçtikçe, daha zıt notalar ve akorlar birbirini takip ediyor, ancak ilginç bir ortaklık oluşturuyorlar. Arka planda güzel bir incir kokusu alıyorum, \"Binbir Gece Masalları\"nın büyük setindeki diğer notalara katılıyor, aynı zamanda baharatlı bir tabanı koruyor. Meselenin özüne ulaştığımızı düşündüğümüzde, burnum ilginç bir şey algılıyor, aromatik bir infüzyon gibi; Sanki burnumun dibinde, sıcak ve sarıcı bir his veriyor. Her nefes, zihnimi uyarıcı bir yolculuğa çıkararak, aklıma imgeler, notalar ve akorlar getiriyor. Zaman geçtikçe merakım artıyor, hâlâ sınırsız, hâlâ kokular sunuyor; arka planda kalan ama son aşamalarda varlığını hissettirmek için yumuşak bir dokunuş eklemeye hazır olan tonka fasulyesinin vanilya tatlılığı da dahil. Her zaman olduğu gibi, Lutens hayran bırakıyor. Orijinallik, kalite, zarafet, her bir yaratımında duyguların aktarımı. Az sayıda insan için bir parfüm, herkes için değil, büyüleyici ve ilgi çekici Arap topraklarına seyahat etmeyi gerçekten arzulayanlar için bir parfüm. Tebrikler, Bay Lutens.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.47296.jpg"
+    },
+    {
+      "id": "parent641890",
+      "author": "Vioufrench",
+      "date": "2019-07-23",
+      "text": "İlk başta bu aşırı miktarda yanmış tajini sevmedim; bu bir yemek pişirme olayı, parfüm olarak kullanılacak bir şey değil.\nYazın fikrimi değiştirdim! Baharatlı parfümler her zaman kış mevsimine uygun olmuyor. Benim için bu, sıcak bir çarşı, karanfil, koyu reçineler, renkli ve kurutulmuş şekerlenmiş meyvelerin kokusu; güneşte mükemmel, gürültülü, egzotik, güçlü ve etnik.\nBu kahverengi iksirin cildimde aniden canlanıp güzelleşmesi için ısıya ihtiyacı var.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.17929.jpg"
+    },
+    {
+      "id": "parent641852",
+      "author": "cocofluff",
+      "date": "2019-06-11",
+      "text": "Bugün Arabie'yi deniyorum ve tatlı kuru Akdeniz meyveleri (hurma, incir ve kuru üzüm) ile odunsu reçineli bir bazda belirsiz kuru baharatlar kokusu alıyorum. Bu koku unisex ama baştan sona tatlılığı nedeniyle burnuma daha çok kadınsı geliyor. Şişede elmalı turta!\n\nDuyularıma hoş ve rahatlatıcı geliyor. Bunu sürdüğümde istemsizce gülümsüyorum. Yayılımı düşük ama hareket ettikçe fark ediliyor; ancak bileklerime iki bolca sıktığımda 6 saat boyunca kalıcılığı harika.\n\nÇok sevsem de, bu kesinlikle risksiz bir kör alışveriş değil arkadaşlar. Kenzo L'elephant gibi baharat kokulu parfümleri sevmeniz gerekiyor. Lütfen satın almadan önce deneyin. Genellikle evde veya yatmadan önce kullanıyorum.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1141155.jpg"
+    },
+    {
+      "id": "parent641904",
+      "author": "Sly58",
+      "date": "2018-07-25",
+      "text": "Diğer Lutens parfümleri gibi, bu da çok hoş veya çok hoş olmayan bir koku olabilir. Şahsen, kesinlikle olağanüstü buluyorum. İlk denediğim andan itibaren beni büyüledi. Mide bulandırıcı olmadan tatlı, keskin olmadan baharatlı, rahatsız edici olmadan güçlü, ama her şeyden önce, bence gerçek bir sanatçı tarafından harmanlanmış, neredeyse çözülemeyen notalar karışımıyla sizi şaşırtıyor. Bence, meyve, ot, baharat ve tatlı tezgahlarıyla Arap pazarının kokularını ve aromalarını gerçek, otantik, neredeyse elle tutulur bir şekilde aktaran az sayıdaki parfümden biri. Belki de sıcak mevsim, çağrışımcı ruhunu daha da artırıyor, ancak soğuk mevsimde şüphesiz ruhu ve burnu tazeleyen sıcak ve aromatik bir esinti. Fantastik!!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.42022.jpg"
+    },
+    {
+      "id": "parent641872",
+      "author": "priethcallas",
+      "date": "2016-09-25",
+      "text": "Oldukça yoğun bir başlangıç, inanılmaz miktarda baharat içeriyor: bol miktarda karanfil, ceviz, kimyon, defne yaprağı ve hafif bir mandalina dokunuşu. İlk başta tatlı değil, baharatlı.\n\n3 saatlik kullanımdan sonra fındık ve hurma kokusunu alabiliyorum.\n\nSabah saat 6'da biraz mür.\n\nSaat 09:00'da mür, reçine, sandal ağacı.\n\nÖğleden sonra saat 2'de, kalan sandal ağacı kokusu.\n\nAz miktarda (0,3 veya 0,5 ml) kullanarak, birkaç saat boyunca yoğun bir etki elde ettim, ardından etki orta seviyeye indi ancak yine de hissedilebilir düzeyde kaldı ve 12 saati aşkın bir süre boyunca devam etti.\n\nOryantal sınıflandırmasına uygun olsa da, bana göre odunsu olmaktan çok baharatlı (sandal ağacı sonda ortaya çıkıyor ve çok belirgin değil). Kullanım alanı açısından çok yönlü bir koku olmadığı açık. Sadece kışa daha uygun olduğunu ve belki de akşamları en iyi şekilde parladığını söyleyebilirim.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.461.jpg"
+    },
+    {
+      "id": "parent641855",
+      "author": "nero77",
+      "date": "2015-08-01",
+      "text": "Meyveler, baharatlar... ve her şey çok güzel.\n\nBu, kişiliği olan bir koku! Serge Lutens'in kokularının beni sürekli olarak nasıl şaşırtmayı başardığına gerçekten bayılıyorum. Bana göre bu, çok iyi bir kokunun işaretidir; çok tahmin edilebilir veya aynı trendlere tekrar tekrar uyan bir koku istemezsiniz. Bunun yerine, burada burnumu zorlayan ve ilgimi çeken bir koku buluyorum.\n\nArabie'yi sevmemin sebebi, Lutens ve Sheldrake'in burada kuralları bir kenara bırakmış olması. Üst, orta ve alt notalar yerine, kokunun tüm ağırlığını tek bir püskürtmede alıyorsunuz. Püskürttüğünüz anda baharatlar, komposto meyveler, amber, reçineler ve mür kokusu geliyor. Aynı anda renk ve baharat patlaması yaşanıyor.\n\nBana göre çok şenlikli, hatta Noel gibi kokuyor. Baharatlı meyveler ve rom ile yapılan zengin, yoğun tatlıları andırıyor, derin ve zengin aromaları var.\n\nBazıları bunun yemek pişirme kokusuna benzediğini söylüyor. Eğer bu doğruysa, bana göre bu daha çok tatlıları ve kuru meyveleri veya bunların yapım sürecini çağrıştırıyor. Karanfil, tarçın, erik, kayısı ve kuru üzüm. Bu koku bana bunların hepsini hissettiriyor. Çok Fas'a özgü! Bu malzemelerin hepsi Fas ve Kuzey Afrika Arap mutfağında bulunur.\n\nİşin ironik yanı, bu parfümün adının \"Arabistan\" anlamına gelen Arabie olması. Bana kalırsa, parfümlerde \"Arap\" kelimesi geçtiğinde akla ilk gelen şey öd ağacı veya agarwood oluyor. Burada Sheldrake, tüm bu \"oryantal\" notaları meyveler ve baharatlar aracılığıyla (öd ağacı kullanmadan) yorumlamış. Bu yüzden orijinal ve yaratıcı buluyorum ve bu parfümü gerçekten çok beğeniyorum.\n\nŞahsen, bu parfümü kullanmak için kendinize güvenmeniz gerektiğini düşünüyorum, çünkü insanlar \"farklı\" koktuğunuzu fark edecekler. Temelde yürüyen, baharatlı bir meyveli kek gibi kokacaksınız. Ama incelikli bir şekilde, çünkü bu parfümün çok baskın bir yanı olmadığını vurgulamak istiyorum. İnsanlar kokunuzu alacaklar ama bu bir canavar gibi olmayacak.\n\nGenel olarak, bu parfümü serin havalarda ve özellikle Noel zamanında kullanmanızı tavsiye ederim. Bana göre Arabie , mükemmel bir Noel parfümü. Yıl boyunca da kullanabilirsiniz , ancak dikkat çekeceğiniz ve olumlu bir şekilde fark edileceğiniz için özgüven ve kişiliğe sahip olmanız gerekir. Lutens ve Sheldrake'in bu parfümle yaptığı çalışma çok özgün ve yaratıcı. Harika bir iş!",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.207815.jpg"
+    },
+    {
+      "id": "parent641915",
+      "author": "hab",
+      "date": "2015-04-14",
+      "text": "Gerçekten inanılmaz bir incelik, bunu hiç beklemiyordum. Henüz sıcakta kullanmadım ama samimiyetiyle şimdiden büyülendim. Lutens'in en açık kokularından biri, gizli bir amaç veya karmaşık düşünce süreçleri sezmiyorum. Gölgede, tentelere rağmen ısınan oryantal bir çarşı gibi. Ve önünüzde sonsuz sıralar halinde taze veya kuru baharatlar ve meyveler var. Gerçi bu sıcakta, er ya da geç hepsi kuruyacak. Aynı zamanda, iyi bir kokuya yakışır şekilde, sadece bir yığın lezzet değil. Tatlılık tam olarak ölçülmüş, farklı meyvelerden oluşan bir dağ illüzyonunu yaratıyor. Bir dağ olmasına rağmen, hatlarını hissedebiliyorsunuz: burada incirler bitmiş gibi, burada hurmalar başlamış ve yanlarında karanfil ve komşusu hindistan cevizi tezgahı var.\n\nReçinemsi, sıcak ve çok ruhani. Zamanla kuru meyve kokusu kaybolurken, sıcak, odunsu, baharatlı temel notalar artıyor. Başlangıçta beni rahatsız eden tam da bu kaygısız, umursamaz tavırdı. Etkilemek zor. Her türlü tatsız şey üzerime uçuşmak üzere, ama Doğu çarşısı çağrışımı devreye girdiğinden beri, buradaki ruh halinin satıcılarla uyumlu olması gerekiyor. Neşeli. Dünyanın burada ve şimdi iyi ve güzel olduğu o Doğu zenini (sahte bile olsa) yakalamak. Tam burnunuzun dibinde. Burada çok çeşitli kuru meyve ve baharatlar var ve harika değil mi? Kokuları sizi büyülemiyor mu? O zaman, etrafınızda olup biten her şeyi boş verin. Belki de sadece zihinsel bir kurgu, ideal bir imajdır. Ama parfümeri de bizi aynı kolektif imgelere yönlendiriyor, değil mi?\n\nZevk düşkünü, tatlı düşkünü, hazcı mı? Bunu sanki kötü bir şeymiş gibi söylüyorsun.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.171839.jpg"
+    },
+    {
+      "id": "parent641874",
+      "author": "Pato76",
+      "date": "2015-03-20",
+      "text": "Bu parfüm, koku toleransınızla oynuyor. Bayıcı, yoğun ve tatlı... Harika. Bu parfümü Venedik'te aldım ve her kullandığımda bir yolculuğa çıkıyorum. Parfümlerin başkaları için değil, kendimiz için olduğunu hep düşünmüşümdür ve bu parfüm özellikle yaptığınız her hareketle notalarını size hatırlatıyor. Bir başyapıt.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.15005.jpg"
+    },
+    {
+      "id": "parent641877",
+      "author": "CokeChile",
+      "date": "2015-03-10",
+      "text": "Çocukken... en sevdiğim kitaplardan biri Bin Bir Gece Masalları'ydı... uçan halılarla geçilen altın çöller... baharatlar ve aromatik yağlarla dolu bir çarşı... dumanı tüten bir nargile, nane çayı, ceylan boynuzunda hurma üzerine sürülen bal... sihirle bir gecede ortaya çıkan mermer saraylar... Arabie, Bin Bir Gece Masalları'nın parfümüdür, Şehrazat'ın aşk bahçesi Şalimar'da dinlenirken Sultan'ın üzerine döktüğü özdür.\nGelo999'un da belirttiği gibi, gösterişli bir parfüm; yoğun, tatlı, güçlü, harika derecede uyuşturucu ve son derece etkileyici. Arap çarşılarında dolaşma fırsatı bulmuş herkes, o görüntüyü bir koku olarak hayal etsin... İşte Arabie tam olarak bu.\nAçılışta tatlı notalar, şekerlenmiş hurma, kuru üzüm, ceviz ve badem... fıstık ve bal dokunuşuyla... hafif baharatlı bir dokunuşa dönüşen bir Türk lokumu, sanırım karanfil, ama bence biber ve kakule izleri de var.\nBazen tatlılık, yeşil ve biraz odunsu bir narenciye ve bitki özü kokusu veren yumuşak yapraklarla delinir, ancak bu çok hafif bir ipucudur ve Arap tatlısının tatlılığı altında gizlenmiştir.\nSon olarak, narenciye ve ferahlatıcı notalardan bahsediyorum; yanlış anlamayın, bunlar en sonda kalmıyor, zaman zaman tatlılığın ortasında, ferahlık izlerinin ayırt edilebildiği yerlerde ortaya çıkıyorlar...\nBu parfümün son notalarını belirleyemedim çünkü notaları sürekli değişiyor ve bu da uyumlu ve şaşırtıcı bir denge oluşturuyor.\nEşsiz ve sofistike bir parfüm. Hayal gücünü harekete geçiren büyülü bir mücevher. Tatlıya düşkünlükten korkmayanlar için, üzeri krema ile kaplı panettone ve yanında \"cola de mono\" (süt, kahve, baharatlar (tarçın, karanfil, vanilya ve kakule) ve alkolle yapılan, ülkemde Noel'in tipik bir içeceği) sevenler için... yani, gerçek bir tatlı düşkünü için.\nBenzoin bana Givenchy'nin PI'sını hatırlatıyor.\nKalıcılığı ve yayılımı inanılmazdı; bende 6 saat sürdü ve ilk üçü çok güçlüydü.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.11440.jpg"
+    },
+    {
+      "id": "parent641844",
+      "author": "penguin1010",
+      "date": "2014-05-09",
+      "text": "Aman Tanrım! İki yıl Mısır'da yaşadım ve bu koku beni hemen o günlere götürdü. Bu kokuyu bir kez soluduğumda, kendimi yerel dükkanlardan birinde buldum. Ya da Kahire çarşısında satıcılarla pazarlık yaparken. Ya da İskenderiye'de sokağımda yürürken, tütsücü adamın tüm çöplerin kokusunu örtmek için o dumanlı güzel kokuyu etrafa yaydığını. Ya da çölün ortasında küçük bir köyde, Bedevi bir kadının evinde onu ziyaret ederken... Şehirlerin koşuşturmacasından çok uzakta, ama aynı kokuyla onlara bağlı. BU koku - Arabie.\n\nKoku notaları açısından, çoğunlukla tütsü ve meyve (özellikle hurma) alıyorum, biraz da biber ve baharat. Ama bu koku, parçalarının toplamından çok daha fazlası. Benim için önemli olan tek tek notalar değil, bu notaların bu özel kombinasyonunun Orta Doğu'yu bir şişede temsil etmesi. Benim için bu, tüm anıları ve çağrışımları geri getirdiği için aşk ve tam şişe almaya değer bir koku. Tekrar ediyorum, Arabie, Orta Doğu'nun tüm güzel kokularını tek bir şişede bir araya getiriyor... bunu en iyi şekilde böyle tarif edebilirim.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.775995.jpg"
+    },
+    {
+      "id": "parent641846",
+      "author": "ditush",
+      "date": "2013-07-18",
+      "text": "Arabie'yi her kullandığımda daha çok beğeniyorum. Bana göre, içine biraz baharat -özellikle karanfil- katılmış normal kola gibi kokuyor. Eğer anlamlı geliyorsa, bu parfümde gazlı bir şey var. La Petite Robe Noire ve Jungle L'Elephant'ın aşk çocuğu gibi olabilir.\nBu belki de şiirsel bir değerlendirme olmayabilir ama bunu gerçekten belirtmek istedim.\n\nÇok iyi yayılıyor ve saatlerce kalıcı. Köri gibi kokmuyor - ben öyle kokmak istemezdim.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.488392.jpg"
+    },
+    {
+      "id": "parent641849",
+      "author": "johngreenink",
+      "date": "2013-01-30",
+      "text": "Bu parfümü nasıl incelemeye başlayayım? İçgüdülerim \"iyi bir şeyin sadece VAR olmasına izin ver\" diyor. Aşağıdaki Sherapop'un Arabie'yi likörle ıslatılmış kalın bir meyveli kek dilimi olarak tanımladığı yorumuna bayıldım. Tam isabet. Ve Arabie'nin beni eğlendiren yanı da bu - tamamen kültürlerarası olması. Arap meyve satıcıları, Kuzey Amerika'nın bayram zamanındaki kilerleri, Mikronezya'nın baharatlı adaları, Yunanistan ve Türkiye'nin yapışkan tatlıları.\n\nArabie'nin rahatlatıcı bir yemek olduğu gerçeğinden kaçış yok: sıcak, altın sarısı, ballı, hafif misk kokulu, tatlı ve tuzlu arasında bir denge kuran kimyon ve muskat gibi baharatlarla dolu.\n\nAma Arabie'yi sürdüğümde ve deneyimlediğimde tüm bu çağrışımları bir kenara bırakıyorum. Şüphesiz ki, zenginlik ve derinliğin dönen bir bereket boynuzu gibi, kendine özgü bir varlık. Onu sürdüğümde inanılmaz derecede keyif verici hissediyorum ve günümüz parfümcülüğündeki trendlerin tam tersi olduğu için beni gülümsetiyor. Diğerleri minimalistken o gösterişli; diğerleri şık ve doğrusal iken o derin ve karmaşık. Arabie, günün sonunda artan tatlıları mahalledeki çocuklara dağıtan pastacı gibi. Bisikletlerinde ikişerli olarak oturan, ellerinde sıcak ve yapışkan bir pastayı dengelemeye çalışan çocukların o gülümsemeleri ve çığlıkları - işte bu Arabie. Sadece zenginliğine teslim olun ve onu sevin.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.101192.jpg"
+    },
+    {
+      "id": "parent641916",
+      "author": "Viktoriya Ch",
+      "date": "2012-07-19",
+      "text": "\"Nerede giymeli?\" sorusuna cevaben...\nNatle'ye katılıyorum, bu koku zevk düşkünleri için. \"Araby\", bir insanın hayatındaki belirli, belki de nadir anlar için yaratılmış. Ama bu, güzelliğini azaltmıyor. Ve bu anlar, kişisel deneyimler için olmazsa olmaz olmasa da, kesinlikle \"mutlaka yaşanması gerekenler\" listesinde yer alıyor.\nSıcak havalarda bayılıyorum ve yaz tatili günlerinde giyiyorum; tatil beldesinin sıcağı asfaltı ve insanların kalplerini eritiyor, onları daha yumuşak ve nazik, tembel gülümsemelerini daha geniş ve sıcak hale getiriyor ve ben, evden uzakta, yerlilerin misafirperverliğinin tadını çıkarıyorum. Hayatın yavaş temposunda. Yeterince rahatladığımda, şımartıldığımda, sevildiğimde... güneş tarafından, eşim tarafından, deniz tarafından, rüzgar tarafından... hayat tarafından. Birinin bunu şöyle tanımladığını hatırlıyorum: \"Güneşli zaman, özgür ve rahatsız edilmemiş...\" Ama bu hisler felsefi temaların ötesinde. Sadece hisler. Hiçbir şey düşünmemeye, anın tadını çıkarmaya, bronzlaşmış vücudunuzu sevmeye izin verdiğinizde, eskisi kadar genç ve ince olmasa bile (mesele bu değil)... Arabi, artık peri masallarına inanmayan, ancak kendi hayatlarını bir peri masalına dönüştürmek için tam olarak neye ihtiyaç duyduklarını bilen, içsel olarak özgürleşmiş olgun erkek ve kadınlar içindir. En azından bir süreliğine.\nBu parfüm yaratımında, teni değerli aromatik yağlarla kutsanmış bir kadın gibi hissediyorum ve sadece bir şeyin kokusundan çok daha fazlasını yayıyorsunuz... Bu koku karışımı, dünyevi mutluluğun birçok yönünü içeriyor: huzur, esenlik, bilge bir sessizlik, tüm arzuların gerçekleştiği bir memnuniyet... Mutlak bir tatmin anı. Lüks bir varoluş anında eriyebilme yeteneği. Sevdiklerime kokumu beğenip beğenmediklerini bile sormuyorum. İçgüdüsel olarak anlıyorum ki, eğer şimdi bu şekilde yaşayabiliyorsam, bu şekilde hissedebiliyorsam, Arabi'yi de karşılayabilirim.\nŞimdi değilse, ne zaman?\nSıcak tenimde, temel notalar çok hızlı bir şekilde açığa çıkıyor: hurma, incir, reçine, mür... Baharatlar sessizliğe bürünüyor, daha mütevazı hale geliyor; reçineler ise tenimde şeytani bir güzellik sergiliyor ve bu hoş kokulu, yağlı sisin içinden kuru meyve notaları beliriyor, tatlılıkları güneşe çoktan teslim olmuşken, yakıcı ışınlardan sonra geriye kalanlar da en az o kadar değerli. Kırışıklıklarınıza değer veriyor musunuz? Ben vermiyorum. Ama beni korkutmuyorlar. Ve böylece, önemli bir tavırla güneşte gözlerimi kısmaya devam ediyorum. Arabie dalgalarıyla sarılmış, mutluluk içinde gözlerimi kısıyorum...\nYetişkin Uyuşuk Asalet.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.35855.jpg"
+    },
+    {
+      "id": "parent641842",
+      "author": "sherapop",
+      "date": "2011-12-03",
+      "text": "Serge Lutens ARABIE'yi sürdüğümde ağzımdan çıkan ilk cümle \"Bu koku bana tanıdık geliyor\" oldu. Ardından, bu sarhoş edici -ya da boğucu?- parfümün bana tam olarak neyi hatırlattığını belirlemek kaldı. Aşağıdaki birçok yetenekli yorumcunun yardımıyla, ARABIE'nin büyükannemin brendiye batırılmış koyu renkli meyveli kekinin (o hafif, narin türden değil, gece kadar siyah, kuru üzüm, hurma, ceviz, şekerlenmiş vişne ve narenciye kabuğuyla dolu ve brendiye o kadar batırılmış ki bir dilimini yiyerek sarhoş olabileceğiniz türden) ve üzerine çok güçlü bir köri yığılmış Fas kuskusunun bir karışımını andırdığı sonucuna vardım. Ya da belki de büyükannem, yaşlandıkça görme yetisi zayıfladığı için kekini hazırlarken tarçın yerine kimyonu kullanmıştır?\n\nNe kadar tuhaf bir zengin ve koyu notalar karışımı! Ama bu parfüm mü? Sanırım sonunda, koyu, alkollü meyveler ve kimyon bakımından zengin köri kombinasyonu beni çok etkiledi. Tıpkı kocaman bir köri yemeği yedikten sonra ev sahibinin gitmeme izin vermeden önce kocaman bir dilim meyveli kek yemem konusunda ısrar etmesi gibi. Lezzetler ağrıyan midemde birbirine karışırken, ocakta kaynayan bir tencere turşu gibi hissetmeye başlıyorum; kalın, fokurdayan kabarcıklar yavaşça yüzeye çıkıp patlıyor. Konuşmam bozulmaya başlıyor. Başım dönüyor ve gerçekten kusacak gibiyim. Bu kaleydoskopik mutfak kompozisyonunda çok fazla şey oluyor. Tek kelimeyle: Hayır. Fazla!\n\nEğer \"deneyip satın al\" diye bir şey varsa, o da ARABIE'dir. Kimyon cildinizle iyi uyum sağlıyor mu? Bu güçlü iksiri sıkın ve arkadaşlarınızın davranışlarını gözlemleyin. Her zamankinden daha uzakta oturuyor gibi mi görünüyorlar?",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.17027.jpg"
+    },
+    {
+      "id": "parent641914",
+      "author": "Dolorosa",
+      "date": "2010-11-23",
+      "text": "Muhteşem! Ve bence tamamen kadınsı. Uzun zamandır kullanıyorum ve hatta bir arkadaşıma bile hediye ettim. Bayılıyorum. Gerçekten oryantal, hatta Ambre Sultan'dan bile daha oryantal. Sıcakta eriyen aromatik reçinelerin, keskin aromatik otların (taze ve sulu, tüm aromalarını aynı anda salacak şekilde dilimlenmiş), sıcak, tatlı hurmanın, amberin ve acı kimyonun bir karışımı. Sıcakta mükemmel bir şekilde açılıyor, ancak nemli sonbaharda da inanılmaz derecede güzel - ama bir şekilde farklı... Sıcakta, tam anlamıyla bir parfüm sanatı eseri. Bende uzun süre kalıcı.\n\nGÜNCELLEME\nNedense, Arabie ile oryantal bir çarşının kokusu arasında sık sık karşılaştırmalar yapılıyor.\nAnlaşılan onlar daha önce bir oryantal çarşıya gitmemişlerdi. Ama ben gitmiştim. Tahran'da, tüm çarşıların en oryantal olanında...\nHayır, bu bir oryantal çarşının kokusu değil; oryantal çarşılarda yağlı, kızarmış, tozlu kokular olur; gerçek bir çarşıda ise durum farklıdır.\nBu, baharat, çay, uçucu yağlar ve tütsülenmiş meyveler satan lüks bir dükkanın kokusu. Her şey en kaliteli. Kurutulmuş meyveler de satıyorlar ama Arabie'nin kokusu ağırlıklı olarak tütsülenmiş meyve kokusuna dayanıyor. Bu kokuyu Tahran'da hatırlıyorum ve Arabie'de bile bende nostaljik bir his uyandırdı.\nAma en harika yanı, hem sıcakta hem de nemli sonbaharda güzel olması ve kokulu bileğinizi dışarı çıkardığınızda Arabie'nin çok ilginç bir değişime uğraması: oryantal notalar tamamen kayboluyor ve geriye rüzgar estiğinde sonbahar bahçelerinin ve ormanlarının derin, hafif tatlı kokusu kalıyor—ve siz bu karmaşık aromayı içinize çekiyorsunuz... Sadece konsantrasyonu daha güçlü, sanki bu rüzgarı yakalamışlar, tüm kokuyu sıkıp şişeye doldurmuşlar gibi. Sonbaharın kokusu. Güzel, gerçekten güzel!\nİlk denediğimde bayılmamıştım, ama şimdi çok seviyorum...",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.1822.jpg"
     }
   ]
 }

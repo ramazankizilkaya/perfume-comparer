@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Mancera/Wild-Leather-28084.html",
   "brand": "Mancera parfüm ve kolonya",
   "description": "Mancera markasının Wild Leather parfümü, kadınlar ve erkekler için Deri bir kokudur. Wild Leather, 2014 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Pierre Montale. Üst nota: Bergamot; orta notalar: Paçuli, Bulgar Gülü ve Menekşe; alt notalar Deri, Meşe yosunu, Guayak ağacı, Misk ve Amber.",
-  "description_original": "Mancera markasının Wild Leather parfümü, kadınlar ve erkekler için Deri bir kokudur. Wild Leather, 2014 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Pierre Montale. Üst nota: Bergamot; orta notalar: Paçuli, Bulgar Gülü ve Menekşe; alt notalar Deri, Meşe yosunu, Guayak ağacı, Misk ve Amber.",
+  "description_original": "Mancera markasının Wild Leather parfümü, kadınlar ve erkekler için Deri bir kokudur. Wild Leather, 2014 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Pierre Montale. Üst nota: Sicilya Bergamotu; orta notalar: Paçuli, Bulgar Gülü ve Menekşe; alt notalar Deri, Meşe yosunu, Guayak ağacı, Beyaz Misk ve Amber.",
   "description_enhanced": "Mancera markasının Wild Leather parfümü, kadınlar ve erkekler için Deri bir kokudur. Wild Leather, 2014 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Pierre Montale. Üst nota: Bergamot; orta notalar: Paçuli, Bulgar Gülü ve Menekşe; alt notalar Deri, Meşe yosunu, Guayak ağacı, Misk ve Amber.",
   "mainAccords": [
     {
@@ -49,30 +49,58 @@
     {
       "name": "misk",
       "width": "51.2626%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.72",
-    "votesCount": "663",
+    "votesCount": "668",
     "breakdown": {
-      "love": "241",
-      "like": "196",
-      "ok": "63",
+      "love": "242",
+      "like": "198",
+      "ok": "65",
       "dislike": "123",
       "hate": "40"
     }
   },
   "seasons": {
-    "winter": "265",
+    "winter": "268",
     "spring": "89",
     "summer": "43",
-    "autumn": "250",
-    "day": "136",
-    "night": "244"
+    "autumn": "253",
+    "day": "138",
+    "night": "248"
   },
   "notes": {
     "top": [
-      "Bergamot"
+      "Sicilya Bergamotu"
     ],
     "middle": [
       "Paçuli",
@@ -83,39 +111,100 @@
       "Deri",
       "Meşe yosunu",
       "Guayak ağacı",
-      "Misk",
+      "Beyaz Misk",
       "Amber"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "13",
+    "weak": "17",
+    "moderate": "48",
+    "longLasting": "218",
+    "eternal": "124"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "25",
+    "moderate": "48",
+    "strong": "255",
+    "enormous": "121"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "11",
+    "moreFemale": "4",
+    "unisex": "81",
+    "moreMale": "82",
+    "male": "122"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "63",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "11",
+    "overpriced": "33",
+    "fair": "65",
+    "goodValue": "73",
+    "greatValue": "24"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khaltaat Al Arabia Royal Blends"
+    },
+    {
+      "brand": "KORLOFF PARİS",
+      "name": "Rose Oud"
+    },
+    {
+      "brand": "AROMAS DE SALAZAR",
+      "name": "Leather is My Love Language"
+    },
+    {
+      "brand": "FLORİS",
+      "name": "Leather Oud"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Antaeus"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Hommage à l'Homme Eau de Toilette"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Oud Essentiel"
+    },
+    {
+      "brand": "MİND GAMES",
+      "name": "Ruy Lopez"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Halfeti Leather"
+    },
+    {
+      "brand": "CLİVE CHRİSTİAN",
+      "name": "X For Men"
+    },
+    {
+      "brand": "ATELİER COLOGNE",
+      "name": "Gold Leather"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "A*Men Pure Wood"
+    },
+    {
+      "brand": "NASOMATTO",
+      "name": "Blamage"
+    },
+    {
+      "brand": "PARFUMS DUSİTA",
+      "name": "Montri"
+    },
+    {
+      "brand": "PSYCHOTİC LONDON",
+      "name": "Forbidden Rose"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUCCİ",
@@ -176,6 +265,208 @@
     {
       "brand": "AMOUAGE",
       "name": "Interlude Man"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent766536",
+      "author": "Oliver twist",
+      "date": "2024-09-30",
+      "text": "Bir örneğini denedikten sonra, abartmadan, oldukça açık bir şekilde söyleyebilirim ki... eğer çürümüş ot ve hayvan dışkısı gibi kokmak istiyorsanız, buyurun. Gül, paçuli, menekşe ve bergamotu unutun. Hayvan ve ot kokularının yoğun bir karışımı. Koku açısından tam bir kabus.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.59847.jpg"
+    },
+    {
+      "id": "parent766543",
+      "author": "Ragnar",
+      "date": "2022-03-10",
+      "text": "Adının aksine, burada deri ön planda değil. Yoğun bir koku, kesinlikle hassas burunlar için değil.\n\nDaha ilk anda isminin nedenini anlıyorsunuz. Çok vahşi, agresif ve hayvansı. Cildimde, güzelce kuru, topraksı ve baharatlı, sert bir paçuli bombası gibi. Bergamot neredeyse hissedilmiyor, duman ve topraksı akorlarla örtülmüş durumda. Deri bile paçuli sayesinde toprakla kirlenmiş ve geliştikçe olgun, etli ve koyu bir gül kompozisyona sızıyor.\nCuercia yosunu, kompozisyonla mükemmel bir şekilde uyum sağlayarak yeşil ve doğal bir görünüm katıyor.\nEvriminin ilk yarısı için şunu söyleyebilirim ki, Wild Leather oldukça eşsiz bir koku; daha önce kokladığım hiçbir kokuya benzemiyor. Derin, koyu, dumanlı ve kesinlikle erkeksi.\nTenimde öne çıkan notalar paçuli, guaiac ağacı ve deri.\nEskimiş deriyle sarılmış, son derece odunsu ve topraksı bir paçuli kokusu.\nBirçok parfüm kurudukça daha yuvarlak bir hal alırken, Wild Leather böyle bir değişim göstermez. Vahşi, sert ve kuru yapısını korur ve neredeyse hiç tatlılık geliştirmez. Hayvansal deri notası ve koyu yeşil deri miskiyle (ki bu misk kurudukça çok belirginleşir), 1980'lerin vintage parfümlerini anımsatır.\n\nDeri ceket giyen ve geçmişin klasik parfümlerini seven bir erkek için mükemmel bir seçim.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.42656.jpg"
+    },
+    {
+      "id": "parent766544",
+      "author": "salvov631",
+      "date": "2022-01-24",
+      "text": "Bu Mancera ne kadar vahşi bir parfüm, deri/gül kombinasyonu (benim için yenilikçi) Pierre'in Wild Leather'ı koklayanların burunlarını parçalamak istediği en uç noktaya taşınmış.\nAçıkçası, derimsi, çok sert, agresif, \"dizginsiz\", tamamen hayvansı bir deri kokusu (belki de şişeden dolayı, üzerinize atlayan öfkeli bir kaplan fikrini uyandırıyor) AMA bir süre sonra, çok çekingen gül ortaya çıkar çıkmaz, bu canavarı evcilleştirerek onu eşsiz bir şeye dönüştürüyor.\nİlk başta sizi korkutacak, ama sonunda gül sayesinde altın kalpli bir dev haline gelecek.\nBeni hayal kurmaya teşvik etti, şiddetle tavsiye ederim: üzerinizde bir giysi varmış gibi bir izlenim bırakacak.\nKesinlikle çok düşük sıcaklıklarda kullanılmalı, kesinlikle erkekler için, inanılmaz bir performans ve dayanıklılık sunuyor.\nCildinizde deneyin (gül kokusu ancak ısıtıldığında ortaya çıkar), beni heyecanlandırdığı gibi sizi de heyecanlandırması için zaman tanıyın (ilk birkaç dakika olumsuz bakacaksınız).\n10/10, fazlasıyla hak edilmiş.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.50297.jpg"
+    },
+    {
+      "id": "parent766555",
+      "author": "sanrio",
+      "date": "2022-01-07",
+      "text": "Bu, vahşi, derimsi, paçuli benzeri, kuru, topraksı, baharatlı, bitkisel, sıvamsı, iris, papirüs, mahzen ve odunsu kokuların bir araya geldiği bir koku. Meyveler ve çiçekler nerede, merhabaaa?! ;) Açılışı tamamen sevdiğim Private Label Jovoy parfümümü hatırlattığı için nefesim kesildi. Hatta Mancera'nın daha uzun süre kalıcı ve yayılımlı olduğunu söylemeye cesaret ederim, ancak tüm Polonyalı yorumlar onun müthiş performansını övüyor (ben değil). Daha sonra kompozisyonlar ayrışıyor ve Wild Leather daha tozlu, kirli, Nejma gibi kokmaya başlıyor. Sofistike, zor, gizemli, çok aromatik ve kelimenin tam anlamıyla vahşi bir koku. Eğer bir Batı kovboyunun bir kokusu olsaydı, bu Wild Leather olurdu ve benim durumumda, vücudumda kovboyun kalıntıları, ne demek istediğimi anlıyorsunuzdur ;)",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.8420.jpg"
+    },
+    {
+      "id": "parent766545",
+      "author": "saraprofumipassione2",
+      "date": "2021-01-01",
+      "text": "Deri kokularını seviyorsanız, bu tam size göre. Deri kokusu ilk püskürtmede hissediliyor. Bergamot kokusundan eser yok. Püskürttüğüm yeri kokladığımda deri, gül ve odunsu bir koku algılıyorum. Şüphesiz ki, tekrar tekrar koklamak isteyeceğiniz güzel bir koku. Sadece benim gibi deri sevenlere tavsiye edilir. Puan: 9/10",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.51246.jpg"
+    },
+    {
+      "id": "parent766528",
+      "author": "Landberk70",
+      "date": "2020-11-26",
+      "text": "Dün bu parfümün bir örneğini aldım. Benim kişisel zevklerim var ve bu, baştan beri beğenmediğim parfümlerden biriydi. Tekrar tekrar denedikten sonra durum daha da kötüleşti ve sonunda tamamen dayanılmaz buldum. Çok sentetik bir şey, yanmış kauçukla acı biber ve tam olarak tanımlayamadığım başka şeylerin karışımı gibi. Berbat, deriyle hiç alakası yok. Maalesef bu parfümü beğenemedim. Dürüst olmak gerekirse, bu markanın Cedrat Boise'si çok iyi, ama bu benim anlayışımın ötesinde ve beğenemediğim için özür dilerim.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.47798.jpg"
+    },
+    {
+      "id": "parent766524",
+      "author": "mapache",
+      "date": "2020-08-11",
+      "text": "Muhteşem bir koku!!!\n\nBuradaki yorumların çoğu son derece doğru.\nAncak, deri/kehribar/odun notaları ve hayvansal unsurlarıyla birlikte, bu eserde çiçeksi bir \"parlaklık\" da buluyorum.\nİçinde bolca tatlı unsur da barındırıyor.\nGüçlü mod.\n\nMuhteşem yayılım/duyu etkisi.\n\nÇok büyük bir aşk!!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.804638.jpg"
+    },
+    {
+      "id": "parent766521",
+      "author": "DMS162002",
+      "date": "2020-07-27",
+      "text": "Mancera'nın web sitesinde bu koku \"odunsu notalarla soğuk ve yoğun bir deri\" olarak tanımlanıyor. Yayılım ve kalıcılık açısından yoğun, ancak benim tenimde bu koku soğuktan ziyade yeşil dumanla ıslanmış bir deri gibi. Daha sonra, kullanıldıkça gül, amber ve menekşe notaları baskın hale gelerek güzel bir şekilde ısınıyor. Buradaki deri notası mevcut ama ölçülü, bir ahır uluması yerine çocuk eldivenlerinin tereyağı gibi yumuşaklığı gibi. Çiçeksi notaları dengeliyor ve Wild Leather'ı ilginç ama ulaşılabilir kılan yeterli ekşiliği veriyor. Bazı parfümleri iltifat almak için alırsınız, bazılarını ise kendiniz için. Wild Leather'ı sıktığımda, keskin-tatlı-dumanlı yapısı nedeniyle bunun \"benim\" parfümüm olacağını düşündüm. Ama insanlar bu kokuyu ÇOK seviyor. Bunu kullandığımda çok fazla iltifat aldım. Son ağda randevumda, estetisyenim durdu, derin bir nefes aldı ve \"lüks gibi kokuyorsun\" dedi. Yani arkadaşlar, eğer kararsızsanız, Wild Leather'ın en... eee... kıllı... durumlardan bile dikkati dağıtacağına söz verebilirim.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.409772.jpg"
+    },
+    {
+      "id": "parent766549",
+      "author": "Opium999",
+      "date": "2020-01-26",
+      "text": "Eğer lüks kokmak istiyorsanız, kesinlikle beğeneceksiniz. Lüks bir arabanın yeni deri döşemesinin ve yeni banknotların kendine özgü kokusuna sahip. Bazılarının dediği gibi ilk yardım çantası gibi bir şey değil. İçinde paçuli var, bu da ona o çağrışımı veriyor. Tam olarak erkeksi değil, ama başkalarının fikirlerine önem vermeyen bireyler ve insanlar için mükemmel, gerçek bir niş parfüm. Ben beğeniyorum, sürüyorum ve keyfini çıkarıyorum.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent766525",
+      "author": "joseffgabriel",
+      "date": "2019-12-04",
+      "text": "Çiçeksi, derimsi, yosunlu. Çok ince bir deri kokusu. Yeni cilalanmış deri gibi kokuyor. Ayrıca güçlü bir misk de var. Lavanta ve diğer aromatikler olmadan, berber dükkanı tarzı bir fougere gibi kokuyor. Bu bir gece kulübü parfümü. Sanki yepyeni lüks arabanızdan yeni inmişsiniz gibi kokacaksınız. Deri bazlı parfümleri seviyorum ve bu, deriye farklı bir yaklaşım. Benzersizliğini seviyorum. Bunu kullanırsanız kendinden emin kokacaksınız. Yakışıklı, şık bir genç adam veya çanta seven, şık ve kendinden emin bir genç kadın gibi kokuyor. Unisex ama önce denemenizi tavsiye ederim çünkü yeşilimsi bir havası var. Meşe yosunu mu yoksa bazı fougere notaları mı bilmiyorum. Gerçekten kirli, yosunlu bir deri gibi kokuyor.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1073751.jpg"
+    },
+    {
+      "id": "parent766529",
+      "author": "blackened",
+      "date": "2018-03-18",
+      "text": "Evin karanlık tarafı, ud/gül.\nBurada başrolü, hafif hayvansı bir his veren, kirli, endüstriyel tarzda bir deri oynuyor. Dokusu biraz pürüzlü, ancak sert değil, neredeyse tüylü.\nBurada deri ön planda olsa da, her zaman mevcut olan, uyuşuk, Mancera tarzı gül de uzaktan hissediliyor; sanki partinin müdavimi, eksik olmaması mümkün olmayan biri gibi—evin kralı!!—kirli deriye çiçeksi bir tıkırtı bırakarak, tüm silahlarıyla birlikte başka bir Mancera ile karşı karşıya olduğumuzu unutmamamızı sağlıyor.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.16391.jpg"
+    },
+    {
+      "id": "parent766550",
+      "author": "Благоуханность",
+      "date": "2018-03-17",
+      "text": "Bir zamanlar Agafya'nın hamamı için siyah bir sabunum vardı ve başlangıçtaki hali de buydu. İçinde katran, toprak kokusu, acılık, tüm o şeyler var. Gül kokusunu neredeyse hiç hissedemiyorum. Ama iyotlu suya batırılmış bandajlar çok iyi.\nBu tarz vahşi bir koku, sokak yarışçıları ve her türlü pervasız kişi tarafından kullanılmalı. Eğer bir daha paraşütle atlamaya karar verirsem, cesaret için kendimi bu kokuyla kaplayacağım. Ama hayat için – hayır, hiç bana göre değil.\nŞunu da ekleyeyim: Kalıcılığı inanılmaz derecede güçlü. Ellerimi üç kere sabunla yıkadım, fayda etmedi. Hala kokusunu alabiliyorum. Bu gerçekten çok güçlü.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.230069.jpg"
+    },
+    {
+      "id": "parent766551",
+      "author": "Nathalie1993",
+      "date": "2018-03-04",
+      "text": "Tam bir bomba gibi, katran, deri ve misk kokusuyla başlıyor, sonra aniden tatlı, dumanlı bir kuru erik kokusuna, hafif bir paçuli ve başka bir şeyin dokunuşuyla açılıyor. Çok güzel, beğendim. Ama bazen, kötü havalarda veya kötü bir ruh halindeyken, tek bir kuru erik kokusuna dönüşüyor ve yedi saat boyunca kalıyor, bu yüzden alışmak biraz zaman alan karakterli bir koku. Ve Pierre Montale'nin imzası da açıkça görülüyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.114146.jpg"
+    },
+    {
+      "id": "parent766527",
+      "author": "MarcusRS",
+      "date": "2017-12-03",
+      "text": "Vahşi Deri\n\nTasarımcı parfümerisinin etkisinin azalmasıyla birlikte, yalnızca aromatik yaratıma odaklanan (niş) yeni markalar, yaratıcılığı mükemmel performansla birleştirmeye önem vermeye başladı.\n\nMancera onlardan biri.\n\nWild Leather'da Fransız marka her alanda gerçekten mükemmel bir performans sergiledi.\n\nİlk izlenim, canlı ve \"karanlık\" bir karaktere sahip, yoğun, tatlı, oldukça doygun bir deri kokusudur; buna, Gucci Guilty Absolute (Morels) gibi parfümlerde zaten çok yaygın olan ayakkabı cilası etkisini ekliyoruz, ancak renkli cila değil, son parlaklığı vermek için kullanılan nötr cila, burada dengeli bir gül-paçuli akoruyla tatlandırılmıştır.\n\nAçılış biraz vahşi ve kasvetli olsa da, olumlu ve sofistike güzelliğini daha en başından ortaya koyuyor. Tatlı deri yavaş yavaş katmanlarını \"dökülmeye\" başlıyor ve aromatik kıvrımlar ve neredeyse kaleydoskopik bir yapıya sahip elipslerle çok uzun ve güzel bir aşağı doğru evrime yol açıyor; özüne, çok şehvetli, kuru, çiçeksi ve erkeksi bir vernikle dokunulmuş güzel bir tatlı deriye doğru bir yolculuğa çıkıyor.\n\nWild Leather, neredeyse tüm deri kokuları gibi, soğuk havalar için mükemmeldir; 12 saati aşan kalıcılığıyla mükemmel bir performans sergiler ve bir parfümden beklenen her şeyi sunar.\n\nKısacası, çok şanslı bir keşif oldu (teşekkürler partnerim), bir ara denemenizi ve resmiyetten gayri resmiyete kadar kış akşamı etkinliklerinde kullanmanızı tavsiye ettiğim güzel bir ürün.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.17224.jpg"
+    },
+    {
+      "id": "parent766520",
+      "author": "Jewelpaq",
+      "date": "2017-11-15",
+      "text": "Muhteşem, hatta daha da iyisi. Bu vahşi, hayvansı, seksi ve çok yönlü. Piyasadaki en iyi deri kokularından biri ve cildimde 12 saat boyunca kalıcılığını koruyor.\nŞık giyindiğinizde Wild Leather giyin. Günlük giyindiğinizde de Wild Leather giyin. Resmi giyindiğinizde de Wild Leather giyin. Nasıl giyinirseniz giyinin ve her durum için uygundur.\nMuhteşem bir meyve suyu. Mancera'ya tebrikler...",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.935965.jpg"
+    },
+    {
+      "id": "parent766522",
+      "author": "GodKing",
+      "date": "2017-10-14",
+      "text": "Mancera Wild Leather parfümümü açtım ve bu akşam onu ​​sıkıyorum. Mancera Wild Leather, yoğun bir deri kokusu ve bu parfümde hafif, aromatik veya zayıf hiçbir şey yok.\n\nÇoğu insan \"dolu dolu\" kelimelerini duyduğunda aklına Toskana Derisi gelir, ancak sizi temin ederim ki ikisi birbirine hiç benzemez; Toskana Derisi lüks, cilalı bir İtalyan deri kanepe iken, Vahşi Deri ise koyu renkli ahşap bir sandıkta saklanan aslan, kaplan, zebra ve bizon derileridir. Deri, hayvansal ve koyu renkli ahşap (neredeyse ud gibi) kelimeleri düşüncelerimi oldukça iyi özetliyor.\n\nBu koku, orta/temel notalara doğru ilerlerken bazı çiçeksi tonlar, paçuli ve misk öne çıkıyor. Nota piramidinde gül ve iris listelenmiş olsa da, deri ve hayvansal tonlar tarafından henüz bastırıldıkları için bunları tanımlamak için çok erken.\n\nBu sadece ilk izlenimim ve yakında güncelleyip tam bir değerlendirme sunacağım. Şimdilik bu tür kokuları beğendim ama bu tür kokuları sevmeyenler için zorlayıcı olabilir.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.938128.jpg"
+    },
+    {
+      "id": "parent766518",
+      "author": "rob2b",
+      "date": "2016-07-13",
+      "text": "Bu, kesinlikle muhteşem bir deri kokusu. Dumanlı deri, guaiacwood ve bergamotun ilk patlaması güçlü ve Rus veya Arap deri tabaklama okullarının özelliklerini taşıyor; bu okullarda kullanılan derilerde huş katranı yoğun olarak kullanılır ve son derece koyu, kasvetli bir dumanlılık vardır.\n\nKurudukça paçuli, gül ve menekşe daha belirgin hale geliyor ve deri daha hafif ve parlak bir hal alıyor, neredeyse süet bir nota gibi, bana Dior'un Cuir Cannage'ındaki muhteşem deri notasını hatırlatıyor.\n\nBu koku iki ana bölümden oluşuyor. Karanlık ve kasvetli olan ilk bölüm, ardından aydınlık, şık ve zarif olan ikinci bölüm. İkinci bölümde, o önceki karanlığın izleri ara sıra kendini göstererek, kullanan kişiye tüm yolculuğu hatırlatıyor.\nKesinlikle harika!\n\nDiğer yorumcuların da belirttiği gibi, bu parfüm muhteşem bir yayılım ve kalıcılığa sahip. Harika bir EDP.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.792451.jpg"
+    },
+    {
+      "id": "parent766519",
+      "author": "kanak",
+      "date": "2016-07-03",
+      "text": "Wild Leather, hiç beklemediğim bir anda en sevdiğim parfümlerden biri oldu. Parfümlerimi aldığım arkadaşım bana bu parfümün küçük bir örneğini gönderdi ve bir gün kullandıktan sonra hemen tam boy şişe sipariş ettim. İsminin aksine, deri burada da rol oynuyor ama başrolü üstlenmiyor, bu yüzden Mancera'nın Tuscan Leather versiyonu gibi bir şey bekleyerek körü körüne satın almayın. (O tür bir koku için Montale Aoud Leather'ı deneyin.)\nBurada, en azından benim tenimde, bergamot, menekşe, öd ağacı ve paçulinin birleşimi var; deri ise bütün kokuya hoş bir kuru his vererek gün boyu ferah ve canlandırıcı kalmasını sağlıyor. \"Vahşi Deri\" adını taşıyan bir koku için oldukça şaşırtıcı! Hayvansı bir havası var, belki de Guaiac ağacı/öd ağacından kaynaklanıyor, bu yüzden \"vahşi\" lakabı tamamen yersiz değil. Bana en çok Lalique'in Hommage a la Homme'unu (çoğunlukla menekşe ve öd ağacı kombinasyonu için) ve bir ölçüde Tiziana Tirenzi'nin Ursa'sını hatırlatıyor, ancak kendi özgünlüğünü koruyacak kadar farklı. (Öd ağacı notalar arasında listelenmiyor ama kesinlikle tüm Montale/Mancera kokularında bulunan sentetik öd ağacı notasını alıyorum.)\nBu, Cedrat Boise ve Aoud Cafe'den sonra tam şişe olarak aldığım üçüncü Mancera parfümüm ve bu markaya bayılıyorum. Pierre Montale/Durrani/Batman, kim olursa olsun, eğer Mancera/Montale parfümlerinin arkasındaki gerçek burun oysa, çok yetenekli bir parfümcü. Elbette, hepsi başarılı değil ve birçoğu bir nota çıkarılmış çok benzer parfümler ama başarılı bir parfümü olduğunda, onu zirveye taşıyor ve Wild Leather da bir kazanan. Çok güçlü bir yayılımı var, bu yüzden sadece bir fıs sıkmanız bile 12 saatten fazla kalıcılık sağlıyor. (Aslında daha uzun da sürebilir, bildiğim tek şey sabah duştan sonra 8'den akşam 7.30'a kadar, eve dönüp duş alana kadar üzerimde kalması.) Çok az bilinen gizli bir mücevher. 9/10",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.58220.jpg"
+    },
+    {
+      "id": "parent766537",
+      "author": "Phényl",
+      "date": "2016-02-05",
+      "text": "En güçlü notadan en nadide olana doğru: ham deri, kahverengi, koyu ve kuru, hafif dumanlı (oud?) odunsu, menekşe, misk ve meşe yosunu, neredeyse algılanamaz notalar, bütüne biraz karmaşıklık katıyor.\nDior Fahrenheit'in modern versiyonuna ve Tom Ford Oud Wood'a bakın.\nİyi yayılım ve kalıcılık.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.86.jpg"
+    },
+    {
+      "id": "parent766523",
+      "author": "Das Huffer",
+      "date": "2015-11-17",
+      "text": "Cesur bir çiçeksi tatlılıkla açılıyor, hemen ardından hayvansı bir funk havası kendini gösteriyor. Tıpkı büyükannenizin bodrum katının pembe ve mor duvar kağıtlı kapısını açıp, merdivenlerden size doğru koşan bir rakunla karşılaşmak gibi. Bunların hiçbirini kötü anlamda söylemiyorum.\nKabul edelim ki, bu geniş kitlelere hitap edecek bir koku olmayacak. Deri notaları oldukça iddialı. Zaman zaman kokunun evrimi çirkinliğe yaklaşıyor. Kullanıcının elinden tutulup \"Bana biraz sabret!\" denildiği birçok an var.\nAdındaki \"vahşi\" kelimesi haklı. Buradaki çiçeksi notalar gül aromasını ele vermiyor veya onunla çelişmiyor, aksine ucunda gerilmiş derinin daha zorlu ve keskin yapısına bir bağ görevi görüyor.\nBir Mancera parfümü olduğu için, kalıcılığı ve yayılımı muazzam. Eğer sadece deri kokusunu hafifçe hissettiren bir şey arıyorsanız... açıkçası bu parfümü pas geçmelisiniz.\nEk bir not olarak: Şişenin üzerindeki desen için farklı bir şey seçmelerini dilerdim. Leopar deseni biraz yabancılaştırıcı, biraz eski moda ve biraz da kafa karıştırıcı.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.957182.jpg"
     }
   ]
 }

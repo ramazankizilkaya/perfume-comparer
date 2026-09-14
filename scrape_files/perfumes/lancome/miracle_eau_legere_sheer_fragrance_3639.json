@@ -33,6 +33,34 @@
     {
       "name": "taze baharatlı",
       "width": "45.5077%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -70,33 +98,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "7",
+    "moderate": "20",
+    "longLasting": "8",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "11",
+    "moderate": "20",
+    "strong": "17",
+    "enormous": "16"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Miracle"
+    },
+    {
+      "brand": "EMANUEL UNGARO",
+      "name": "U by Ungaro for Her"
+    },
+    {
+      "brand": "FRAGONARD",
+      "name": "Maman Cherie"
+    },
+    {
+      "brand": "DEVOTA & LOMBA",
+      "name": "Devota & Lomba"
+    },
+    {
+      "brand": "MİRACULUM",
+      "name": "Rose"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Miracle Blossom"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Baby Doll"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water Sea Rose"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Peut-Être"
+    },
+    {
+      "brand": "GUESS",
+      "name": "Guess for Women"
+    },
+    {
+      "brand": "RANCE 1795",
+      "name": "Rue Rance Eau Royale"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANVİN",
@@ -132,7 +205,7 @@
     },
     {
       "brand": "BVLGARİ",
-      "name": "Omnia Crystalline"
+      "name": "Omnia Crystalline Eau de Toilette"
     },
     {
       "brand": "LANCÔME",
@@ -158,5 +231,6 @@
       "brand": "CHANEL",
       "name": "Chance Eau Fraiche"
     }
-  ]
+  ],
+  "comments": []
 }

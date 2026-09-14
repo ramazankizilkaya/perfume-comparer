@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Jubilant-Him-98276.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Jubilant Him parfümü, erkekler için Oryantal Fujer bir kokudur. Bu yeni bir parfüm. Jubilant Him, 2024 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü, Pembe biber ve Bergamot; orta notalar: Müge, Paçuli ve Elma; alt notalar Sedir ağacı, Amber ve Misk.",
-  "description_original": "Rasasi markasının Jubilant Him parfümü, erkekler için Oryantal Fujer bir kokudur. Bu yeni bir parfüm. Jubilant Him, 2024 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü, Pembe biber ve Bergamot; orta notalar: Müge, Paçuli ve Elma; alt notalar Sedir ağacı, Amber ve Misk.",
+  "description_original": "Rasasi markasının Jubilant Him parfümü, erkekler için Oryantal Fujer bir kokudur. Bu yeni bir parfüm. Jubilant Him, 2024 yılında piyasaya sürüldü. Üst notalar: Siyah Frenk Üzümü, Pembe biber ve Bergamot; orta notalar: Müge, Paçuli ve Elma; alt notalar Sedir ağacı, Amber ve Misk.",
   "description_enhanced": "Rasasi markasının Jubilant Him parfümü, erkekler için Oryantal Fujer bir kokudur. Bu yeni bir parfüm. Jubilant Him, 2024 yılında piyasaya sürüldü. Üst notalar: Frenk üzümü, Pembe biber ve Bergamot; orta notalar: Müge, Paçuli ve Elma; alt notalar Sedir ağacı, Amber ve Misk.",
   "mainAccords": [
     {
@@ -39,7 +39,7 @@
       "width": "66.0501%"
     },
     {
-      "name": "amber",
+      "name": "beyaz çiçeksi",
       "width": "65.0003%"
     },
     {
@@ -47,8 +47,40 @@
       "width": "65.0003%"
     },
     {
-      "name": "beyaz çiçeksi",
+      "name": "amber",
       "width": "65.0003%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "3",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -72,7 +104,7 @@
   },
   "notes": {
     "top": [
-      "Frenk üzümü",
+      "Siyah Frenk Üzümü",
       "Pembe biber",
       "Bergamot"
     ],
@@ -89,32 +121,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "CREED",
+      "name": "Aventus"
+    },
+    {
+      "brand": "ACQUA Dİ TAORMİNA PARFUMS",
+      "name": "Petra Lavica"
+    },
+    {
+      "brand": "BLESSİNGS OF THE LORD",
+      "name": "Jubilation"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

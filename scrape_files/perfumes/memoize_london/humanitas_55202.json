@@ -45,14 +45,42 @@
     {
       "name": "amber",
       "width": "45.4027%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.00",
-    "votesCount": "77",
+    "score": "4.01",
+    "votesCount": "79",
     "breakdown": {
-      "love": "27",
-      "like": "32",
+      "love": "28",
+      "like": "33",
       "ok": "12",
       "dislike": "3",
       "hate": "3"
@@ -60,10 +88,10 @@
   },
   "seasons": {
     "winter": "8",
-    "spring": "31",
-    "summer": "26",
+    "spring": "32",
+    "summer": "27",
     "autumn": "15",
-    "day": "33",
+    "day": "34",
     "night": "13"
   },
   "notes": {
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "16",
+    "longLasting": "17",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "16",
+    "strong": "18",
+    "enormous": "16"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "14",
+    "moreFemale": "13",
+    "unisex": "14",
+    "moreMale": "2",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "9",
     "fair": "12",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Kirkè"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Erba Pura"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Cassiopea"
+    },
+    {
+      "brand": "V CANTO",
+      "name": "Stricnina"
+    },
+    {
+      "brand": "STÉPHANE HUMBERT LUCAS 777",
+      "name": "God of Fire"
+    },
+    {
+      "brand": "JEROBOAM",
+      "name": "Floro"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Musc Shamal"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Kuma"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Kirkè Overdose"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "High Frequency"
+    },
+    {
+      "brand": "ALFRED RİTCHY",
+      "name": "Dacha"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ana Abiyedh"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Velvet Fantasy"
+    },
+    {
+      "brand": "ESSENCE DE ROUMANİE",
+      "name": "Roua"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Ahmar"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TİZİANA TERENZİ",
@@ -131,16 +220,16 @@
       "name": "Delina Exclusif"
     },
     {
+      "brand": "NOBİLE 1942",
+      "name": "La Danza delle Libellule"
+    },
+    {
       "brand": "GUERLAİN",
       "name": "Angélique Noire"
     },
     {
       "brand": "ZADİG & VOLTAİRE",
       "name": "This is Her"
-    },
-    {
-      "brand": "NOBİLE 1942",
-      "name": "La Danza delle Libellule"
     },
     {
       "brand": "BDK PARFUMS",
@@ -178,5 +267,6 @@
       "brand": "CASAMORATİ 1888",
       "name": "Lira"
     }
-  ]
+  ],
+  "comments": []
 }

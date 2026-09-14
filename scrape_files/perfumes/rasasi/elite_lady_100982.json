@@ -49,13 +49,41 @@
     {
       "name": "yumuşak baharatlı",
       "width": "58.2976%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.27",
-    "votesCount": "11",
+    "score": "4.33",
+    "votesCount": "12",
     "breakdown": {
-      "love": "6",
+      "love": "7",
       "like": "4",
       "ok": "0",
       "dislike": "0",
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "5",
-    "spring": "10",
-    "summer": "8",
-    "autumn": "9",
-    "day": "10",
-    "night": "7"
+    "winter": "7",
+    "spring": "11",
+    "summer": "9",
+    "autumn": "10",
+    "day": "11",
+    "night": "8"
   },
   "notes": {
     "top": [
@@ -93,33 +121,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "7",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "3",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "6",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CREED",
+      "name": "Aventus for Her"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "L'Aventure Femme"
+    },
+    {
+      "brand": "ALEXANDRİA FRAGRANCES",
+      "name": "Cleopatra"
+    },
+    {
+      "brand": "NUANCİELO",
+      "name": "Majesty"
+    },
+    {
+      "brand": "EL GANSO",
+      "name": "Part Time Hero"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Qasamat Rasana"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -134,16 +187,16 @@
       "name": "Jardin de Paris"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Leen"
+    },
+    {
       "brand": "GUERLAİN",
       "name": "Shalimar Eau de Parfum"
     },
     {
       "brand": "AL HARAMAİN PERFUMES",
       "name": "Junoon Noir"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Leen"
     },
     {
       "brand": "ARMAF",
@@ -163,6 +216,10 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
+      "name": "Awaan"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
       "name": "Liam"
     },
     {
@@ -176,10 +233,7 @@
     {
       "brand": "ASDAAF",
       "name": "Al Andaleeb"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Emaan"
     }
-  ]
+  ],
+  "comments": []
 }

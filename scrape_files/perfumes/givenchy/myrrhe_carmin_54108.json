@@ -51,7 +51,7 @@
     }
   },
   "seasons": {
-    "winter": "13",
+    "winter": "14",
     "spring": "6",
     "summer": "3",
     "autumn": "19",
@@ -75,54 +75,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "3",
-    "moderate": "6",
-    "longLasting": "7",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "6",
-    "strong": "10",
-    "enormous": "8"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "7",
-    "moreMale": "2",
-    "male": "2"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "PACİFİCA",
-      "name": "Persian Rose"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Myrrhe Impériale"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Hermessence Myrrhe Eglantine"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "The One Luminous Night"
-    },
-    {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "The Night"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GİVENCHY",
@@ -184,5 +163,6 @@
       "brand": "MUGLER",
       "name": "A*Men Pure Havane"
     }
-  ]
+  ],
+  "comments": []
 }

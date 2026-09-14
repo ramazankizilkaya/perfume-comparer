@@ -49,6 +49,10 @@
     {
       "name": "yumuşak baharatlı",
       "width": "66.786%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -83,57 +87,37 @@
       "Beyaz bal",
       "Guayak ağacı",
       "Gül Yağı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "2",
-    "moderate": "2",
-    "longLasting": "1",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "2",
-    "strong": "4",
-    "enormous": "10"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BY KİLİAN",
-      "name": "Bad Boys Are No Good But Good Boys Are No Fun"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Dolce Rosa Excelsa"
-    },
-    {
-      "brand": "OLYMPİC ORCHİDS ARTİSAN PERFUMES",
-      "name": "Golden Cattleya"
-    },
-    {
-      "brand": "MEMOİZE LONDON",
-      "name": "Caritas"
-    },
-    {
-      "brand": "BY KİLİAN",
-      "name": "Born to be Unforgettable"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "PUREDİSTANCE",
@@ -150,10 +134,6 @@
     {
       "brand": "AMOUAGE",
       "name": "Sunshine Woman"
-    },
-    {
-      "brand": "LALİQUE",
-      "name": "Encre Noire"
     },
     {
       "brand": "TAUER PERFUMES",
@@ -194,6 +174,11 @@
     {
       "brand": "SERGE LUTENS",
       "name": "Un Bois Vanille"
+    },
+    {
+      "brand": "LE LABO",
+      "name": "Iris 39"
     }
-  ]
+  ],
+  "comments": []
 }

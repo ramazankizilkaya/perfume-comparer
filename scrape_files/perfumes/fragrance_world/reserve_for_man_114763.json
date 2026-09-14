@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.114763.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Fragrance-World/Reserve-For-Man-114763.html",
   "brand": "Fragrance World parfüm ve kolonya",
-  "description": "Fragrance World markasının Reserve For Man parfümü, erkekler için Aromatik Meyvemsi bir kokudur. Reserve For Man, 2020 yılında piyasaya sürüldü. Üst notalar: Yeşil Notalar, Greyfurt, Zencefil, Kekik ve Elma; orta notalar: Ananas, Lavanta ve Muskat; alt notalar Sedir ağacı, Tarçın, Vanilya ve Meşe yosunu.",
-  "description_original": "Fragrance World markasının Reserve For Man parfümü, erkekler için Aromatik Meyvemsi bir kokudur. Reserve For Man, 2020 yılında piyasaya sürüldü. Üst notalar: Yeşil Notalar, Greyfurt, Zencefil, Kekik ve Elma; orta notalar: Ananas, Lavanta ve Muskat; alt notalar Sedir ağacı, Tarçın, Vanilya ve Meşe yosunu.",
-  "description_enhanced": "Fragrance World markasının Reserve For Man parfümü, erkekler için Aromatik Meyvemsi bir kokudur. Reserve For Man, 2020 yılında piyasaya sürüldü. Üst notalar: Yeşil Notalar, Greyfurt, Zencefil, Kekik ve Elma; orta notalar: Ananas, Lavanta ve Muskat; alt notalar Sedir ağacı, Tarçın, Vanilya ve Meşe yosunu.",
+  "description": "Fragrance World markasının Reserve For Man parfümü, erkekler için Aromatik Meyvemsi bir kokudur. Reserve For Man, 2020 yılında piyasaya sürüldü. Üst notalar: Zencefil, Greyfurt, Yeşil Notalar, Kekik ve Elma; orta notalar: Ananas, Lavanta ve Muskat; alt notalar Tarçın, Vanilya, Sedir ağacı ve Meşe yosunu.",
+  "description_original": "Fragrance World markasının Reserve For Man parfümü, erkekler için Aromatik Meyvemsi bir kokudur. Reserve For Man, 2020 yılında piyasaya sürüldü. Üst notalar: Zencefil, Greyfurt, Yeşil Notalar, Kekik ve Elma; orta notalar: Ananas, Lavanta ve Muskat; alt notalar Tarçın, Vanilya, Sedir ağacı ve Meşe yosunu.",
+  "description_enhanced": "Fragrance World markasının Reserve For Man parfümü, erkekler için Aromatik Meyvemsi bir kokudur. Reserve For Man, 2020 yılında piyasaya sürüldü. Üst notalar: Zencefil, Greyfurt, Yeşil Notalar, Kekik ve Elma; orta notalar: Ananas, Lavanta ve Muskat; alt notalar Tarçın, Vanilya, Sedir ağacı ve Meşe yosunu.",
   "mainAccords": [
     {
       "name": "taze baharatlı",
@@ -27,11 +27,11 @@
       "width": "60.4039%"
     },
     {
-      "name": "tarçın",
+      "name": "vanilya",
       "width": "58.283%"
     },
     {
-      "name": "vanilya",
+      "name": "tarçın",
       "width": "58.283%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "odunsu",
       "width": "48.3839%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -72,9 +100,9 @@
   },
   "notes": {
     "top": [
-      "Yeşil Notalar",
-      "Greyfurt",
       "Zencefil",
+      "Greyfurt",
+      "Yeşil Notalar",
       "Kekik",
       "Elma"
     ],
@@ -84,40 +112,41 @@
       "Muskat"
     ],
     "base": [
-      "Sedir ağacı",
       "Tarçın",
       "Vanilya",
+      "Sedir ağacı",
       "Meşe yosunu"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "2"
   },
   "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

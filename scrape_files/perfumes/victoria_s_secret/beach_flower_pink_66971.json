@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "çiçeksi",
+      "name": "taze",
       "width": "64.9999%"
     },
     {
-      "name": "taze",
+      "name": "çiçeksi",
       "width": "64.9999%"
     },
     {
@@ -27,7 +27,7 @@
       "width": "44%"
     },
     {
-      "name": "sulu",
+      "name": "ozonik",
       "width": "33.4999%"
     }
   ],
@@ -60,38 +60,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "17",
-    "moderate": "12",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "11",
-    "moderate": "12",
-    "strong": "2",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "28",
-    "moreFemale": "4",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "10",
-    "goodValue": "15",
-    "greatValue": "11"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "CHRİSTİNA AGUİLERA",
-      "name": "Christina Aguilera by Night"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -153,5 +148,6 @@
       "brand": "BURBERRY",
       "name": "Goddess"
     }
-  ]
+  ],
+  "comments": []
 }

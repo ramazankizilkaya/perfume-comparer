@@ -49,6 +49,34 @@
     {
       "name": "animalik",
       "width": "44.6202%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -103,14 +131,14 @@
   },
   "genderVoting": {
     "female": "41",
-    "moreFemale": "8",
+    "moreFemale": "9",
     "unisex": "1",
     "moreMale": "0",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "2",
-    "overpriced": "2",
+    "overpriced": "3",
     "fair": "10",
     "goodValue": "18",
     "greatValue": "10"
@@ -238,5 +266,6 @@
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
     }
-  ]
+  ],
+  "comments": []
 }

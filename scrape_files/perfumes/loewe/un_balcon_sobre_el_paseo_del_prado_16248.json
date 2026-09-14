@@ -49,13 +49,41 @@
     {
       "name": "çiçeksi",
       "width": "50.6744%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.12",
-    "votesCount": "60",
+    "score": "4.10",
+    "votesCount": "59",
     "breakdown": {
-      "love": "29",
+      "love": "28",
       "like": "17",
       "ok": "7",
       "dislike": "6",
@@ -88,33 +116,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "10",
+    "longLasting": "16",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "10",
+    "strong": "25",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "4",
+    "unisex": "11",
+    "moreMale": "2",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "6",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LOEWE",
+      "name": "Tras la tormenta en el Jardín Botánico"
+    },
+    {
+      "brand": "JAZEEL",
+      "name": "Ghala"
+    },
+    {
+      "brand": "EX IDOLO",
+      "name": "Thirty Three"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Pearl Oud"
+    },
+    {
+      "brand": "MEMOİZE LONDON",
+      "name": "Tristitia"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Cairo"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Sonia"
+    },
+    {
+      "brand": "ETAT LİBRE D'ORANGE",
+      "name": "500 Years"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LOEWE",
@@ -176,5 +237,6 @@
       "brand": "CREED",
       "name": "Aventus"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -29,25 +29,53 @@
     {
       "name": "narenciye",
       "width": "33.5%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.12",
-    "votesCount": "83",
+    "score": "4.16",
+    "votesCount": "90",
     "breakdown": {
-      "love": "36",
-      "like": "29",
-      "ok": "11",
+      "love": "41",
+      "like": "30",
+      "ok": "12",
       "dislike": "6",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "7",
-    "spring": "18",
-    "summer": "12",
-    "autumn": "8",
-    "day": "21",
+    "winter": "8",
+    "spring": "23",
+    "summer": "14",
+    "autumn": "9",
+    "day": "25",
     "night": "6"
   },
   "notes": {
@@ -60,33 +88,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "16",
+    "longLasting": "5",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "16",
+    "strong": "8",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "25",
+    "moreFemale": "4",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "11",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "7",
+    "overpriced": "8",
+    "fair": "12",
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Mille et Une Roses"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Mille et Une Roses"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Eau Rose"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Roses Musk"
+    },
+    {
+      "brand": "JUST JACK",
+      "name": "Simply Blanc"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "L'innocence de L'air"
+    },
+    {
+      "brand": "PERFUMER'S WORKSHOP",
+      "name": "Eau de Parfum Tea Rose"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "2000 et Une Rose"
+    },
+    {
+      "brand": "STELLA MCCARTNEY",
+      "name": "Stella"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "L'eau À la Rose"
+    },
+    {
+      "brand": "KENSİE",
+      "name": "Buttercup Babe"
+    },
+    {
+      "brand": "GOUTAL",
+      "name": "Rose Pompon Eau de Toilette"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Rose Goldea"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Éclat de Rose"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Dark Purple"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -95,10 +184,6 @@
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Delina"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "Idôle"
     },
     {
       "brand": "LANCÔME",
@@ -129,24 +214,29 @@
       "name": "Lilac Love"
     },
     {
-      "brand": "INİTİO PARFUMS PRİVES",
-      "name": "Musk Therapy"
+      "brand": "CHANEL",
+      "name": "Chanel No 19 Eau de Parfum"
     },
     {
-      "brand": "LANCÔME",
-      "name": "Poeme"
+      "brand": "AMOUAGE",
+      "name": "Guidance"
     },
     {
       "brand": "GUERLAİN",
       "name": "Mon Guerlain"
     },
     {
-      "brand": "GİVENCHY",
-      "name": "Amarige"
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     },
     {
-      "brand": "SERGE LUTENS",
-      "name": "Feminité du Bois"
+      "brand": "LES LİQUİDES IMAGİNAİRES",
+      "name": "Blanche Bête"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Libre"
     }
-  ]
+  ],
+  "comments": []
 }

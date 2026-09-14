@@ -3,7 +3,7 @@
   "targetGender": "kadınlar için",
   "fragranceFamily": "Aromatic",
   "concentration": "Edp",
-  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136866.jpg?t=1783149733",
+  "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136866.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Najme-136866.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Najme parfümü, kadınlar için Oryantal Odunsu bir kokudur. Bu yeni bir parfüm. Najme, 2026 yılında piyasaya sürüldü. Üst notalar: Lavanta, Adaçayı ve Nane; orta notalar: Paçuli ve Tütün; alt notalar Tonka fasulyesi ve Vanilya.",
@@ -27,7 +27,7 @@
       "width": "61.8183%"
     },
     {
-      "name": "yeşil",
+      "name": "paçuli",
       "width": "61.8183%"
     },
     {
@@ -35,7 +35,7 @@
       "width": "61.8183%"
     },
     {
-      "name": "paçuli",
+      "name": "yeşil",
       "width": "61.8183%"
     },
     {
@@ -49,26 +49,58 @@
     {
       "name": "sıcak baharatlı",
       "width": "52.2728%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "4.25",
-    "votesCount": "4",
+    "score": "4.00",
+    "votesCount": "6",
     "breakdown": {
-      "love": "2",
+      "love": "3",
       "like": "1",
       "ok": "1",
-      "dislike": "0",
+      "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "1",
-    "spring": "0",
+    "winter": "3",
+    "spring": "1",
     "summer": "0",
-    "autumn": "1",
-    "day": "0",
-    "night": "1"
+    "autumn": "2",
+    "day": "1",
+    "night": "3"
   },
   "notes": {
     "top": [
@@ -87,32 +119,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "3",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "2",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
+    },
+    {
+      "brand": "NUANCİELO",
+      "name": "Mead"
+    },
+    {
+      "brand": "139,723",
+      "name": "Koku Yorumları"
+    },
+    {
+      "brand": "3,658",
+      "name": "Şu an çevrimiçi"
+    },
+    {
+      "brand": "1.",
+      "name": "Liquid Brun French Avenue"
+    },
+    {
+      "brand": "2.",
+      "name": "Khamrah Lattafa Perfumes"
+    },
+    {
+      "brand": "3.",
+      "name": "Emporio Armani Stronger With You Intensely Giorgio Armani"
+    },
+    {
+      "brand": "4.",
+      "name": "Supremacy Collector's Edition Pour Homme Afnan"
+    },
+    {
+      "brand": "5.",
+      "name": "Imagination Louis Vuitton"
+    },
+    {
+      "brand": "6.",
+      "name": "Khamrah Qahwa Lattafa Perfumes"
+    },
+    {
+      "brand": "7.",
+      "name": "Le Male Le Parfum Jean Paul Gaultier"
+    },
+    {
+      "brand": "8.",
+      "name": "Y Eau de Parfum Yves Saint Laurent"
+    },
+    {
+      "brand": "9.",
+      "name": "Club de Nuit Intense Man Armaf"
+    },
+    {
+      "brand": "10.",
+      "name": "Vulcan Feu French Avenue"
+    },
+    {
+      "brand": "11.",
+      "name": "Le Male Elixir Jean Paul Gaultier"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

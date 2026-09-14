@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Puma/Yellow-14818.html",
   "brand": "Puma parfüm ve kolonya",
   "description": "Puma markasının Yellow parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Yellow, 2012 yılında piyasaya sürüldü. Üst notalar: Bergamot, Elma ve Böğürtlen; orta notalar: Aynısefa, Menekşe, Manolya ve Gül; alt notalar Sedir, Teak Ağacı, Orris kökü, Misk, Vanilya ve Sandal ağacı.",
-  "description_original": "Puma markasının Yellow parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Yellow, 2012 yılında piyasaya sürüldü. Üst notalar: Bergamot, Elma ve Böğürtlen; orta notalar: Aynısefa, Menekşe, Manolya ve Gül; alt notalar Sedir, Teak Ağacı, Orris kökü, Misk, Vanilya ve Sandal ağacı.",
+  "description_original": "Puma markasının Yellow parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Yellow, 2012 yılında piyasaya sürüldü. Üst notalar: Bergamot, Elma ve Böğürtlen; orta notalar: Kadife Çiçeği, Menekşe, Manolya ve Gül; alt notalar Sedir, Teak Ağacı, Orris kökü, Misk, Vanilya ve Sandal ağacı.",
   "description_enhanced": "Puma markasının Yellow parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Yellow, 2012 yılında piyasaya sürüldü. Üst notalar: Bergamot, Elma ve Böğürtlen; orta notalar: Aynısefa, Menekşe, Manolya ve Gül; alt notalar Sedir, Teak Ağacı, Orris kökü, Misk, Vanilya ve Sandal ağacı.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "taze",
       "width": "55.666%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -77,7 +105,7 @@
       "Böğürtlen"
     ],
     "middle": [
-      "Aynısefa",
+      "Kadife Çiçeği",
       "Menekşe",
       "Manolya",
       "Gül"
@@ -93,33 +121,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "36",
+    "weak": "46",
+    "moderate": "47",
+    "longLasting": "8",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "82",
+    "moderate": "47",
+    "strong": "7",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "12",
+    "moreFemale": "4",
+    "unisex": "8",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "10",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Be... Joyful"
+    },
+    {
+      "brand": "PUMA",
+      "name": "Puma Yellow Brasil Edition"
+    },
+    {
+      "brand": "AVON",
+      "name": "Wish of Happiness"
+    },
+    {
+      "brand": "COTY",
+      "name": "Chanson ďEmotions Calme de la Mer"
+    },
+    {
+      "brand": "PUMA",
+      "name": "Jamaica Woman"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Big Pony 3 for Women"
+    },
+    {
+      "brand": "PUMA",
+      "name": "Jamaica ² Woman"
+    },
+    {
+      "brand": "REVLON",
+      "name": "Charlie Sunshine"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Endless Euphoria"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Tommy Girl Summer 2016"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Solo Loewe Ella"
+    },
+    {
+      "brand": "MEXX",
+      "name": "Mexx Woman"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Gypsy Water"
+    },
+    {
+      "brand": "BANANA REPUBLİC",
+      "name": "Malachite Special Edition"
+    },
+    {
+      "brand": "VİCTORİA BECKHAM BEAUTY",
+      "name": "San Ysidro Drive"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -181,5 +270,6 @@
       "brand": "LANCÔME",
       "name": "Hypnôse"
     }
-  ]
+  ],
+  "comments": []
 }

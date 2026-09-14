@@ -49,26 +49,54 @@
     {
       "name": "sulu",
       "width": "45.5555%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.44",
-    "votesCount": "25",
+    "score": "3.53",
+    "votesCount": "30",
     "breakdown": {
-      "love": "6",
+      "love": "9",
       "like": "8",
-      "ok": "6",
-      "dislike": "1",
+      "ok": "7",
+      "dislike": "2",
       "hate": "4"
     }
   },
   "seasons": {
     "winter": "1",
-    "spring": "13",
-    "summer": "12",
+    "spring": "15",
+    "summer": "16",
     "autumn": "4",
-    "day": "12",
-    "night": "4"
+    "day": "15",
+    "night": "5"
   },
   "notes": {
     "top": [
@@ -90,13 +118,13 @@
   },
   "longevity": {
     "veryWeak": "2",
-    "weak": "4",
+    "weak": "5",
     "moderate": "9",
     "longLasting": "2",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "5",
+    "intimate": "6",
     "moderate": "9",
     "strong": "0",
     "enormous": "0"
@@ -105,14 +133,14 @@
     "female": "0",
     "moreFemale": "0",
     "unisex": "5",
-    "moreMale": "5",
+    "moreMale": "8",
     "male": "6"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "1",
-    "fair": "6",
-    "goodValue": "4",
+    "fair": "7",
+    "goodValue": "6",
     "greatValue": "1"
   },
   "remindsMeOf": [
@@ -139,12 +167,12 @@
       "name": "Gentleman Eau de Toilette Intense"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Terre d'Hermes Eau Tres Fraiche"
-    },
-    {
       "brand": "SCALPERS",
       "name": "Scalpers The Club"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermes Eau Tres Fraiche"
     },
     {
       "brand": "ZARA",
@@ -186,5 +214,6 @@
       "brand": "KENZO",
       "name": "Kenzo Homme Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

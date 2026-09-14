@@ -49,14 +49,42 @@
     {
       "name": "yeşil",
       "width": "44.989%"
+    },
+    {
+      "name": "Online satın alın 11 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.89",
+    "score": "3.88",
     "votesCount": "252",
     "breakdown": {
-      "love": "70",
-      "like": "127",
+      "love": "69",
+      "like": "128",
       "ok": "15",
       "dislike": "37",
       "hate": "3"
@@ -89,33 +117,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "14",
+    "weak": "17",
+    "moderate": "39",
+    "longLasting": "17",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "26",
+    "moderate": "39",
+    "strong": "24",
+    "enormous": "31"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "19",
+    "moreFemale": "9",
+    "unisex": "7",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "1",
     "fair": "15",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "9",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Waterlily Cologne"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY Be Delicious Bay Breeze"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Atlantic"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Wild Elixir"
+    },
+    {
+      "brand": "KATE SPADE",
+      "name": "Walk On Air"
+    },
+    {
+      "brand": "DES FİLLES A LA VANİLLE",
+      "name": "Revka Mon Ocean"
+    },
+    {
+      "brand": "AVON",
+      "name": "Blue Rush for Her"
+    },
+    {
+      "brand": "RAMMSTEİN",
+      "name": "Engel Dark"
+    },
+    {
+      "brand": "CARNER BARCELONA",
+      "name": "Salado"
+    },
+    {
+      "brand": "SHAY & BLUE LONDON",
+      "name": "Almond Cucumber"
+    },
+    {
+      "brand": "L'ERBOLARİO",
+      "name": "Primaverde"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Garden Lilies"
+    },
+    {
+      "brand": "MİLTON LLOYD",
+      "name": "Success"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Curious"
+    },
+    {
+      "brand": "BON PARFUMEUR",
+      "name": "802 pivoine, lotus, bambou"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -142,12 +231,12 @@
       "name": "Alien"
     },
     {
-      "brand": "ELİE SAAB",
-      "name": "Le Parfum"
-    },
-    {
       "brand": "DİOR",
       "name": "Pure Poison"
+    },
+    {
+      "brand": "ELİE SAAB",
+      "name": "Le Parfum"
     },
     {
       "brand": "CHANEL",
@@ -177,5 +266,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
     }
-  ]
+  ],
+  "comments": []
 }

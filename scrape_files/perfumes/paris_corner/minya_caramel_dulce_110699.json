@@ -16,55 +16,83 @@
     },
     {
       "name": "karamel",
-      "width": "88.5303%"
+      "width": "88.0541%"
     },
     {
       "name": "vanilya",
-      "width": "80.5785%"
+      "width": "80.3786%"
     },
     {
       "name": "laktonik",
-      "width": "66.3005%"
+      "width": "65.949%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "61.3937%"
+      "width": "61.2598%"
     },
     {
       "name": "balsamik",
-      "width": "61.216%"
+      "width": "60.897%"
     },
     {
       "name": "amber",
-      "width": "58.0234%"
+      "width": "57.9107%"
     },
     {
       "name": "fındıksı",
-      "width": "51.2837%"
+      "width": "50.9331%"
     },
     {
       "name": "çikolata",
-      "width": "44.189%"
+      "width": "44.2903%"
+    },
+    {
+      "name": "Online satın alın 7 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.86",
-    "votesCount": "247",
+    "score": "3.82",
+    "votesCount": "266",
     "breakdown": {
-      "love": "95",
-      "like": "70",
-      "ok": "47",
-      "dislike": "22",
-      "hate": "13"
+      "love": "102",
+      "like": "73",
+      "ok": "50",
+      "dislike": "24",
+      "hate": "17"
     }
   },
   "seasons": {
-    "winter": "101",
-    "spring": "42",
+    "winter": "112",
+    "spring": "43",
     "summer": "18",
-    "autumn": "101",
-    "day": "79",
-    "night": "75"
+    "autumn": "112",
+    "day": "88",
+    "night": "84"
   },
   "notes": {
     "top": [
@@ -84,33 +112,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "15",
+    "moderate": "61",
+    "longLasting": "30",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "61",
+    "strong": "23",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "67",
+    "moreFemale": "40",
+    "unisex": "20",
+    "moreMale": "3",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "47",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "1",
+    "fair": "50",
+    "goodValue": "56",
+    "greatValue": "32"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Biscotti Caramel Pop"
+    },
+    {
+      "brand": "CİRQUE DU SOLEİL",
+      "name": "L'eau de Parfum"
+    },
+    {
+      "brand": "THE HOUSE OF OUD",
+      "name": "What About Pop"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Whipped Pleasure"
+    },
+    {
+      "brand": "VİVAMOR PARFUMS",
+      "name": "Caramel Pop"
+    },
+    {
+      "brand": "MİCHELA MEZZETTİ PARFUMS",
+      "name": "Pop Me"
+    },
+    {
+      "brand": "NAVİTUS PARFUMS",
+      "name": "Baklava Royale"
+    },
+    {
+      "brand": "SOL DE JANEİRO",
+      "name": "Cheirosa '71"
+    },
+    {
+      "brand": "SİKELİA",
+      "name": "Acqua di Mondello Frangipane"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Glazed Pumpkin"
+    },
+    {
+      "brand": "LAURENT MAZZONE PARFUMS",
+      "name": "Lineam"
+    },
+    {
+      "brand": "LUSH",
+      "name": "Let The Good Times Roll"
+    },
+    {
+      "brand": "YOU",
+      "name": "Popcorn"
+    },
+    {
+      "brand": "OAKCHA",
+      "name": "Sorrelle"
+    },
+    {
+      "brand": "JOUSSET PARFUMS",
+      "name": "Chestnut Cream & French Vanilla"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -157,10 +246,6 @@
       "name": "Creme of Clouds"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Teriaq"
-    },
-    {
       "brand": "PARIS CORNER",
       "name": "Dulzura"
     },
@@ -169,8 +254,214 @@
       "name": "Angham"
     },
     {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Empire Victor"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent609875",
+      "author": "Monique123455",
+      "date": "2026-01-19",
+      "text": "Tatlı, çok tatlı, tereyağlı, karamelimsi, nefis! Son derece kalıcı, bu türün sevenleri için gurme bir bomba; serideki üç parfümden benim favorim. Elbette ki, ince detaylar üzerinde titizlikle çalışılmış veya üst düzey niş parfümcülüğün ürünü değil, ama çok hoş buluyorum ve fiyatına değer.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent720883",
+      "author": "ScrumptiousSusan",
+      "date": "2025-12-25",
+      "text": "Kağıt testi: Bu kesinlikle gurme bir koku. İlk olarak tereyağlı patlamış mısır tadı geliyor, ardından çikolata ve fındık notaları hissediliyor. Tatlı ve yoğun, bence çok ağır ve biraz bayıcı olabilir. Beğendim ama göğsüme/boynuma, burnuma yakın bir yere sürmek istemezdim, fazla gelebilir.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent720882",
+      "author": "vestinagr",
+      "date": "2025-12-07",
+      "text": "Denemek için numune olarak aldım. Tatlı olan her şeyi severim ama... İki kez kokladım ve ne kadar berbat olduğunu görünce midem bulandı... Evet, karamel patlamış mısır gibi kokuyor (ki gerçek karamel patlamış mısır kokusunu çok severim), ama bence bu kokuyla ilgili kişisel olarak iğrendiğim şey, kestane notası olması. Herhangi bir türde fındık notası içeren hiçbir parfümü sevmiyorum ve \"fındık\" kokusu hafif olsa da, yine de dayanamıyorum... Karamelin kendisi de garip ve farklı bir şekilde hoşuma gitmiyor. Bu parfümün tamamı \"tuhaf\" :(",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2091757.jpg"
+    },
+    {
+      "id": "parent609847",
+      "author": "stylish_sage",
+      "date": "2025-11-20",
+      "text": "Az önce aldım. Bayıldım. Denemeden aldım (ve her Arap parfümünün hayranı değilim, taklitlerini de severim, Lattafas Eclaire'in plastik bir tabakta eritilmiş sahte şekerleme gibi koktuğunu düşünüyorum, anında bulaşık süngeri oluyor).\nBen ne patlamış mısırı ne de tereyağını anlamıyorum.\nİlk yarım saat veya belki daha uzun süre boyunca çok gerçekçi Ferrero Rocher (Avrupa markası) şekerlemesi (tatlı çikolata ve fındık, büyük olasılıkla fındık) kokusu alıyorum. Sonra koku oturuyor ve temel notaları alıyorum - karamel, vanilya, şeker (esmer şeker o kadar yoğun değil, o biraz acı, topraksı, burada yok). İlk yarım saat/bir saat boyunca bu koku kalıcı olsa cennette olurdum, ama yine de gerçekten çok güzel.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent609894",
+      "author": "Lia",
+      "date": "2025-11-06",
+      "text": "Kestane, fındıksı bir kokuya sahip (diğer kestane kokularını bilmediğim için tam olarak nasıl kokması gerektiğini söylemek zor), en azından bana öyle geliyor. Bol miktarda esmer şeker, çikolata ve karamel ile patlamış mısır da hissediliyor. Michel Mezzetti'nin Pop Me'sini anımsatıyor, ancak Pop Me daha çok krema gibi, Minya ise daha fındıksı.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.58795.jpg"
+    },
+    {
+      "id": "parent609873",
+      "author": "EssenzaDiUnAttimo",
+      "date": "2025-10-29",
+      "text": "Hafif kavrulmuş fıstık esintili tereyağlı karamel. Endüstriyel, evet, ama o kirli, lezzetli endüstriyel tarzda, neredeyse cezbedici; tıpkı bir Twix'i ikiye bölüp, kırılmış kurabiyenin iki yarısını birbirine bağlayan karamel ipliğini koklamak gibi. Çok etkileyici, kesinlikle uzun süre kalıcı, ama bu kokunun beni rahatlatacağı bir zamanı hayal etmek zor. Ancak onu tanımlamak için akla gelen imgeyi kesinlikle sevenler için, kesinlikle sahip olunması gereken bir koku.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.78995.jpg"
+    },
+    {
+      "id": "parent609842",
+      "author": "zods",
+      "date": "2025-10-14",
+      "text": "Eğer Vivamor Caramel Pop veya Khadlaj Caramel Pop'un hayranıysanız, bu 🍿 kokuyu kesinlikle çok seveceksiniz! Tıpkı taze, tereyağlı patlamış mısır dolu bir kaseyle rahat ama kalabalık bir sinema salonuna girmek gibi - ağız sulandırıcı!\n\nVivamor'dan daha az çiçeksi ama Khadlaj ile neredeyse aynı, bu yüzden hem Khadlaj'a hem de buna sahip olmak gereksiz olabilir.\n\nMinya Caramel Dulce (MCD), tatlı, rahatlatıcı gurme kokuları seven herkes için harika, kullanımı son derece kolay bir koku. Battaniyeye sarılıp güzel bir film izlemek istediğiniz soğuk günler için mükemmel.\n\nYani, koleksiyonunuza eklemek için yeni bir gurme koku arıyorsanız, MCD'yi mutlaka deneyin! Pişman olmayacaksınız!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1292439.jpg"
+    },
+    {
+      "id": "parent609840",
+      "author": "Mikki84",
+      "date": "2025-10-11",
+      "text": "Evet, tereyağı kokusu alıyorum, evet, patlamış mısır kokusu alıyorum... Parfümün açıklamasında bunların açılış kokuları olduğu açıkça belirtiliyor... Bu yüzden insanların patlamış mısır kokusundan şikayet etmelerine anlam veremiyorum.\n\nNeyse, ben gurme kokuları seven biriyim ve bu parfümü kesinlikle çok seviyorum. Çok lezzetli! Tam anlamıyla enfes. Cheirosa 62 de çok benzer. Bu parfümü çok seviyorum.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent720894",
+      "author": "Ксения не молчит",
+      "date": "2025-09-26",
+      "text": "Bu markayı çok seviyorum, rafta birkaç şişe var, yüzlercesini bitirdim, genellikle kokularının \"çeşitlerini\" diğerlerinden daha çok beğeniyorum, ama bu sadece benim kişisel işkencem.\nYapışkan, tatlı karamel. Patlamış mısır nerede? O kadar çok şeker var ki anlamak zor. Birkaç hafta beklettim, bir hafta boyunca takmayı denedim ama işe yaramadı.\n\nHiçbir notayı birbirinden ayırt edemiyorum; her şey şekerli bir kokuya karışıyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.464274.jpg"
+    },
+    {
+      "id": "parent609841",
+      "author": "NikiMo04",
+      "date": "2025-09-26",
+      "text": "Buradaki bazı yorumlar beni çok şaşırttı... Şu anda Minya Caramel Dulce kullanıyorum ve bu yorumlardan bazılarını okurken \"Ne?!\" diye düşündüm. Şimdi, ben yoğun ve ağır gurme kokuların hayranıyım ve bu tam olarak öyle bir koku. Patlamış mısır notasını ve fındık notalarını biraz alıyorum ama bence bunlar baskın değil. Bana göre bu parfüm, enfes tatlıların bir karışımı gibi kokuyor. Bahsettiğim notaların yanı sıra vanilya, karamel ve neredeyse kurabiye gibi bir şey de var. Bence çok lezzetli ve ben genellikle parfümlerde patlamış mısır notalarını sevmem.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1457114.jpg"
+    },
+    {
+      "id": "parent609884",
+      "author": "ollalazareva",
+      "date": "2025-09-20",
+      "text": "Arap parfümerisinde beni her zaman cezbeden bir şey var, sanki hepsi aynı malzemeyi kullanıyormuş gibi (ve reklamcılıktan hiç bahsetmeyelim, sadece soyut olarak konuşuyorum).\n\nMinya Caramel Dulce gerçekten enfes bir lezzetti. Karamel patlamış mısır ve kavrulmuş kestane. Başlangıçta çok gerçekçi, tereyağlı bir patlamış mısır tadı veriyor, ardından çikolata ve vanilya aromasına dönüşüyor. Uzun süre dayanmıyor ama oldukça tatmin edici. Akşam boyunca sadece başlangıçtaki patlamış mısır tadı için birkaç kez tazeledim. Çok yapışkan da değil. Ama yine de hafif bir Arabica tadı var.\n\nLattafa parfümlerine kıyasla Minya'nın kalıcılığı ortalama seviyede. Bu benim için bir artı; yıkanarak çıkmayan kokuları sevmiyorum.\n\nUzun zamandır sürahilerimdeki Caramel Dulce'yi görmezden geliyordum, ama şimdi soğuk kış akşamlarında Harry Potter'ı tekrar izlerken bana eşlik etmesi için bir şişe edinmeyi düşünüyorum.\n\nParfümle ilgili daha fazla paylaşım için Telegram kanalıma göz atın: @hochu_flacon",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.167750.jpg"
+    },
+    {
+      "id": "parent609892",
+      "author": "Marti77",
+      "date": "2025-09-16",
+      "text": "Açılış çok ilginç; kestane, patlamış mısır notalarıyla başlıyor, tamamen tatlı değil, ancak bir süre sonra esmer şeker, çikolata, tereyağı, karamel ve vanilya karışımı ortaya çıkıyor. Bu tatlı kütle, sanki ateş üzerinde ısıtılmış gibi sıcak ve tüm odayı kokusuyla dolduruyor. Benzoin her şeyi güzelce dengeliyor ve genel kokuya derinlik katıyor. Bu parfüm diğerlerinden farklı ve başka hiçbir şeye benzemiyor; soğuk akşamlar için mükemmel, rahatlatıcı bir koku.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.79332.jpg"
+    },
+    {
+      "id": "parent609883",
+      "author": "Elena Ergina",
+      "date": "2025-08-28",
+      "text": "Karamel gurme kokularını keşfetmeye devam ediyorum. Bu kokuyu da beğendim. Ama hemen değil. İlk başta, kalıcı bir metalik nota, bir çeşit ekşi demir algıladım. Bu demir, karamel patlamış mısır ve kurabye tipi kurabiyeler (şekerli, ufalanan), sıcak süt ve bir kase karamel ile karışmış gibiydi. Sonra metalik nota kayboldu ve koku %100 yenilebilir gurme bir kokuya dönüştü. Açılış kesinlikle karamel gibi. Ama bir şeyle tatlandırılmış. Ya da belki aroma ve lezzet artırıcılar içeriyor. Doğal karamelin daha yumuşak, daha sıcak ve daha yapışkan bir aroması vardır. Ama bunda soğuk ve havadar bir şey var. Sanki tüm bu yenilebilir ürünler yeni buz gibi havaya çıkarılmış gibi. Görünüşe göre, metalik notanın benim için dönüştüğü vurgu bu.\nGenel olarak iyi. Ama bende özellikle uzun süre kalıcı değil. Koku yayılımı bir saat sonra azalıyor. Ondan sonra tene yakın kalıyor. Gerçi belki de bu iyi bir şey—etrafınızdaki aç insanların tedirgin olmasını engelleyecektir.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.443863.jpg"
+    },
+    {
+      "id": "parent609891",
+      "author": "Elena J.",
+      "date": "2025-08-21",
+      "text": "Açıkça:\nKoku, taze patlamış mısırın belirgin aromasıyla başlar, hafif tuz ve tereyağı notaları da içerir. Arka planda ince bir tatlılık hissedilir, ancak ilk izlenim kesinlikle tüm ihtişamıyla sinema salonlarında yenebilecek bir atıştırmalıktır. İlk başta güçlü bir yayılıma sahip olan koku, alışılmadık bir uyumla dikkat çeker.\n\nGelişim:\nBir süre sonra, koku tenle daha da bütünleşiyor ve baskın patlamış mısır notası yerini ince bir çikolata notasına bırakıyor. Her şey tereyağlı çikolatalı kurabiyeleri andırmaya başlıyor – tatlı, rahatlatıcı.\n\nSon:\nParfüm kurudukça, vanilya ve tereyağının tatlılığını anımsatan, tereyağlı kurabiye notalarına dönüşüyor. Bu koku, ortalama kalıcılıkla, koku kaybolana kadar bu şekilde kalıyor.\n\nÖzet:\nAçılışta patlamış mısır akoruyla şaşırtan, ardından daha tatlı bir kokuya dönüşen ilginç ve eşsiz bir kompozisyon. Eğlenceli, resmi olmayan ortamlar için mükemmel – hatta bir filme eğlenceli bir katkı olarak bile. Gurme kokuların hayranı olmasam da, bu kokuyu oldukça beğendim. Henüz bir şişe alıp almayacağımdan emin değilim, ancak bir numunesini kullanmayı ve aramızdaki ilişkinin nasıl gelişeceğini görmeyi dört gözle bekliyorum.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent609882",
+      "author": "anvasilov",
+      "date": "2025-08-18",
+      "text": "Yoldan yeni döndüm, yoruma eklemeler yapabilirim ama şimdilik bu çok taze, ilklerden birini paylaşmak istiyorum.\n\nŞu anda savunma yapmadan:\nBaşlangıçta kesinlikle patlamış mısır tadı var, tereyağı notası nedeniyle hafif bir süt tadı da hissediliyor. Kesinlikle bir fındık aroması var, ancak bu ya kestane ya da bitter çikolata; bu da ona sert bir doku veriyor.\n\nPiyasaya çıkalı çok kısa bir süre oldu ama! Temel notaları Tom Ford'un \"tütün vanilya\" tarzının tüm varyasyonlarını çok anımsatıyor. Pardon??? Vanilya ve benzoinin bu hissi yaratıp yaratamayacağından emin değilim. Ama parfüm harika, sıcak, yaklaşan sonbahar için mükemmel.\nBir süredir patlamış mısır kokulu bir parfüm istiyordum ama tadı konusunda hala emin değilim. Evet, patlamış mısır notası var ama \"patlamış mısır gibi\" değil, daha çok kurabiye gibi. Gerçi erkek arkadaşım hemen patlamış mısır gibi koktuğunu söyledi. Her neyse, güzel bir koku ve kesinlikle kullanacağım.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.450967.jpg"
+    },
+    {
+      "id": "parent720880",
+      "author": "Liminipi",
+      "date": "2025-08-18",
+      "text": "Bu parfümü çok sevdim, bileğime ilk sıktığımda aşık oldum. Neyse ki tereyağı veya patlamış mısır kokusu almadım, bu notalardan korkuyordum. Bana göre sulu, meyveli (ama hangi meyve olduğunu söyleyemiyorum), neredeyse şurup gibi bir koku, karamel ve hafif kurabiye notalarıyla karışık. Benim için sıcak, tatlı, şurup gibi bir koku. Ne yazık ki kalıcılığı iyi değil ama fiyatına göre sorun değil.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent609855",
+      "author": "DeniseNisan",
+      "date": "2025-08-12",
+      "text": "Başlangıçta çok tuhaftı, ekşi/metalik bir kokuydu ama kurudukça daha iyi oldu. Tereyağı ve patlamış mısır kokusu çok belirgin. Bunu ESSNCE'nin Carashmellow'uyla birlikte kullanmanızı tavsiye ederim, harika! <3\nVe şişesi, aman Tanrım, muhteşem! Belki de bu parfümü şişesi yüzünden aldım hihi ^^",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2598640.jpg"
+    },
+    {
+      "id": "parent609851",
+      "author": "MapyLove",
+      "date": "2025-08-07",
+      "text": "Biraz dinlenmeye ihtiyaç var ama şimdiden çok güzel. Karamel, patlamış mısır gibi ama çikolata ve baharatlarla (reçinelerden) harmanlanmış! Bu baharatlar onu çok eşsiz kılıyor. Gurme baharatlı. Bir süre bekletin ve sessiz olup \"sadece tereyağı ve patlamış mısır\" diyenlere kulak asmayın, çünkü öyle değil. Rafine bir tatlılık.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2294622.jpg"
+    },
+    {
+      "id": "parent609845",
+      "author": "Chrisss77",
+      "date": "2025-07-25",
+      "text": "Bu parfüm tamamen tereyağı kokuyor, çok az patlamış mısır var. İlk başta alkol oldukça yoğun, özellikle benzoinin gücünden dolayı. Eğer özellikle karamel kokusu istiyorsanız, bu o değil. Demter'ın Creme Anglaise'inin daha karmaşık bir versiyonu. Özellikle benzoini biraz bastırmak için onunla iyi bir uyum sağlayabilir. Çikolata mevcut ama tereyağının yoğunluğu nedeniyle daha çok beyaz çikolata gibi kokuyor. Benzoinin baharatlılığı beni biraz rahatsız ediyor, özellikle de bunun gurme bir parfüm olması gerektiği düşünüldüğünde. Kestanenin fındıksı tadı, parfüme daha kremsi, daha tereyağlı bir hava katıyor. Şeker ve vanilya sonradan eklenmiş gibi. Genel olarak 7/10 bir parfüm. Belki de bekletme işleminden sonra daha güzel kokar. Şu an hava yaklaşık 60 derece, bu yüzden biraz daha soğuyunca daha iyi olacağını varsayıyorum, o zaman yorumumu güncelleyeceğim. Yaşasın!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1871684.jpg"
+    },
+    {
+      "id": "parent609843",
+      "author": "bobba090",
+      "date": "2025-07-15",
+      "text": "Bu koku burnuma çok kötü geldi, bir daha asla gözüm kapalı alışveriş yapmayacağım. Çok çok çok kötü.\n\nGüncelleme 1: Bir hafta geçti ve tekrar sıktım. Şimdi daha katlanılabilir, daha önce hissettiğim baş ağrısı yapan koku %60 oranında azaldı. Bu konuda ne hissettiğime henüz karar vermedim, bir süre sonra tekrar güncelleyeceğim.\n\nGüncelleme 2: Yapamadım, bana göre değildi. Sattım.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2530686.jpg"
     }
   ]
 }

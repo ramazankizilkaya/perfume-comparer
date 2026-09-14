@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "paçuli",
+      "name": "menekşe",
       "width": "79.4305%"
     },
     {
-      "name": "menekşe",
+      "name": "paçuli",
       "width": "79.4305%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "çiçeksi",
       "width": "44.8292%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,33 +110,58 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "4",
+    "longLasting": "6",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "4",
+    "strong": "8",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ALEXANDER MCQUEEN",
+      "name": "My Queen"
+    },
+    {
+      "brand": "CARON",
+      "name": "Aimez - Moi"
+    },
+    {
+      "brand": "IMAGİNARY AUTHORS",
+      "name": "Cape Heartache"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Athalia"
+    },
+    {
+      "brand": "JOVOY PARİS",
+      "name": "Poudre"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Violet Blonde"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -170,5 +223,6 @@
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,10 @@
     {
       "name": "taze baharatlı",
       "width": "52.4473%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -88,73 +92,37 @@
       "Amber",
       "Paçuli",
       "Sandal ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "2",
-    "moderate": "4",
-    "longLasting": "4",
-    "eternal": "10"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "4",
-    "strong": "11",
-    "enormous": "14"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "2",
-    "unisex": "6",
-    "moreMale": "3",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "3",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Boadicea Nemer"
-    },
-    {
-      "brand": "BY KİLİAN",
-      "name": "Pearl Oud"
-    },
-    {
-      "brand": "TİZİANA TERENZİ",
-      "name": "Bigia"
-    },
-    {
-      "brand": "CHRİSTİAN PROVENZANO PARFUMS",
-      "name": "Oud Al Fayed"
-    },
-    {
-      "brand": "CHRİSTİAN PROVENZANO PARFUMS",
-      "name": "Oud al Fayed Extrait De Parfum"
-    },
-    {
-      "brand": "MONTALE",
-      "name": "Moon Aoud"
-    },
-    {
-      "brand": "JOUSSET PARFUMS",
-      "name": "Pink Saffron"
-    },
-    {
-      "brand": "MORESQUE",
-      "name": "Byron"
-    },
-    {
-      "brand": "BRECOURT",
-      "name": "Oud Santal"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
@@ -216,5 +184,6 @@
       "brand": "PARFUMS DE MARLY",
       "name": "Herod"
     }
-  ]
+  ],
+  "comments": []
 }

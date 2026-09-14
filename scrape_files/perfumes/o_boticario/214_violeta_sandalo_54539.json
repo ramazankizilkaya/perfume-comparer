@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/214-Violeta-Sandalo-54539.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının 214 Violeta & Sândalo parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. 214 Violeta & Sândalo, 2019 yılında piyasaya sürüldü. 214 Violeta & Sândalo, Emilie Coppermann ve Eurico Mazzini tarafından yaratıldı. Üst notalar: Biber, Bergamot, Armut ve Kivi; orta notalar: Menekşe yaprağı, Gardenya, Osmanthus, Şakayık ve Siklamen; alt notalar Deri, Sandal ağacı, Amber ve Misk.",
-  "description_original": "O Boticário markasının 214 Violeta & Sândalo parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. 214 Violeta & Sândalo, 2019 yılında piyasaya sürüldü. 214 Violeta & Sândalo, Emilie Coppermann ve Eurico Mazzini tarafından yaratıldı. Üst notalar: Biber, Bergamot, Armut ve Kivi; orta notalar: Menekşe yaprağı, Gardenya, Osmanthus, Şakayık ve Siklamen; alt notalar Deri, Sandal ağacı, Amber ve Misk.",
+  "description_original": "O Boticário markasının 214 Violeta & Sândalo parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. 214 Violeta & Sândalo, 2019 yılında piyasaya sürüldü. 214 Violeta & Sândalo, Emilie Coppermann ve Eurico Mazzini tarafından yaratıldı. Üst notalar: Biber, Armut, Bergamot ve Kivi; orta notalar: Menekşe yaprağı, Gardenya, Osmanthus, Şakayık ve Sıklamen; alt notalar Deri, Sandal ağacı, Amber ve Misk.",
   "description_enhanced": "O Boticário markasının 214 Violeta & Sândalo parfümü, kadınlar için Çiçeksi Odunsu Misk bir kokudur. 214 Violeta & Sândalo, 2019 yılında piyasaya sürüldü. 214 Violeta & Sândalo, Emilie Coppermann ve Eurico Mazzini tarafından yaratıldı. Üst notalar: Biber, Bergamot, Armut ve Kivi; orta notalar: Menekşe yaprağı, Gardenya, Osmanthus, Şakayık ve Siklamen; alt notalar Deri, Sandal ağacı, Amber ve Misk.",
   "mainAccords": [
     {
@@ -49,13 +49,41 @@
     {
       "name": "beyaz çiçeksi",
       "width": "66.6635%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.08",
-    "votesCount": "148",
+    "score": "4.10",
+    "votesCount": "151",
     "breakdown": {
-      "love": "62",
+      "love": "65",
       "like": "55",
       "ok": "12",
       "dislike": "19",
@@ -63,18 +91,18 @@
     }
   },
   "seasons": {
-    "winter": "67",
+    "winter": "69",
     "spring": "52",
     "summer": "23",
-    "autumn": "69",
-    "day": "48",
-    "night": "66"
+    "autumn": "70",
+    "day": "49",
+    "night": "68"
   },
   "notes": {
     "top": [
       "Biber",
-      "Bergamot",
       "Armut",
+      "Bergamot",
       "Kivi"
     ],
     "middle": [
@@ -82,7 +110,7 @@
       "Gardenya",
       "Osmanthus",
       "Şakayık",
-      "Siklamen"
+      "Sıklamen"
     ],
     "base": [
       "Deri",
@@ -95,13 +123,13 @@
   "longevity": {
     "veryWeak": "3",
     "weak": "11",
-    "moderate": "33",
+    "moderate": "34",
     "longLasting": "33",
     "eternal": "8"
   },
   "sillage": {
     "intimate": "13",
-    "moderate": "33",
+    "moderate": "34",
     "strong": "25",
     "enormous": "13"
   },
@@ -223,12 +251,13 @@
       "name": "Una Senses"
     },
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Crazy Feelings"
-    },
-    {
       "brand": "NATURA",
       "name": "Ilía Secreto"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Crazy Feelings"
     }
-  ]
+  ],
+  "comments": []
 }

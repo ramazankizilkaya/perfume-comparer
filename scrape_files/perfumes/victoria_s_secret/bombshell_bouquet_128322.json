@@ -33,25 +33,53 @@
     {
       "name": "tatlı",
       "width": "45.6622%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.25",
-    "votesCount": "68",
+    "score": "4.23",
+    "votesCount": "74",
     "breakdown": {
-      "love": "29",
-      "like": "27",
-      "ok": "12",
+      "love": "30",
+      "like": "31",
+      "ok": "13",
       "dislike": "0",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "4",
-    "spring": "43",
-    "summer": "33",
+    "winter": "5",
+    "spring": "46",
+    "summer": "35",
     "autumn": "2",
-    "day": "33",
+    "day": "35",
     "night": "7"
   },
   "notes": {
@@ -68,7 +96,7 @@
   },
   "longevity": {
     "veryWeak": "1",
-    "weak": "8",
+    "weak": "9",
     "moderate": "9",
     "longLasting": "2",
     "eternal": "0"
@@ -80,7 +108,7 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "17",
+    "female": "18",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "1",
@@ -89,7 +117,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "1",
-    "fair": "12",
+    "fair": "13",
     "goodValue": "9",
     "greatValue": "0"
   },
@@ -97,10 +125,6 @@
     {
       "brand": "KATE SPADE",
       "name": "Kate Spade New York"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Addict Rosy Glow Eau de Parfum"
     },
     {
       "brand": "OUAI",
@@ -111,8 +135,12 @@
       "name": "Delina La Rosée"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Tease Sugar Fleur"
+      "brand": "DİOR",
+      "name": "Addict Rosy Glow Eau de Parfum"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "L'Ombre Dans L'Eau Eau de Toilette"
     },
     {
       "brand": "TORY BURCH",
@@ -121,6 +149,10 @@
     {
       "brand": "NİNA RİCCİ",
       "name": "Nina Rose Garden"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Tease Sugar Fleur"
     },
     {
       "brand": "ZARA",
@@ -212,5 +244,6 @@
       "brand": "VALENTİNO",
       "name": "Valentino Donna Born in Roma Green Stravaganza"
     }
-  ]
+  ],
+  "comments": []
 }

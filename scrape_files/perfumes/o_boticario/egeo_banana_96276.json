@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/Egeo-Banana-96276.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının Egeo Banana parfümü, kadınlar ve erkekler için Aromatik Meyvemsi bir kokudur. Bu yeni bir parfüm. Egeo Banana, 2024 yılında piyasaya sürüldü. Egeo Banana, Philippe Paparella-Paris ve Leslie Gauthier tarafından yaratıldı. Üst notalar: Muz, Armut ve Limon; orta notalar: Yasemin, Gül ve Yaban mersini; alt notalar Vanilya, Sandal ağacı, Misk ve Sedir yaprakları.",
-  "description_original": "O Boticário markasının Egeo Banana parfümü, kadınlar ve erkekler için Aromatik Meyvemsi bir kokudur. Bu yeni bir parfüm. Egeo Banana, 2024 yılında piyasaya sürüldü. Egeo Banana, Philippe Paparella-Paris ve Leslie Gauthier tarafından yaratıldı. Üst notalar: Muz, Armut ve Limon; orta notalar: Yasemin, Gül ve Yaban mersini; alt notalar Vanilya, Sandal ağacı, Misk ve Sedir yaprakları.",
+  "description_original": "O Boticário markasının Egeo Banana parfümü, kadınlar ve erkekler için Aromatik Meyvemsi bir kokudur. Bu yeni bir parfüm. Egeo Banana, 2024 yılında piyasaya sürüldü. Egeo Banana, Philippe Paparella-Paris ve Leslie Gauthier tarafından yaratıldı. Üst notalar: Muz, Armut ve Sicilya Limonu; orta notalar: Yasemin, Gül ve Yaban mersini; alt notalar Vanilya, Sandal ağacı, Misk ve Sedir yaprakları.",
   "description_enhanced": "O Boticário markasının Egeo Banana parfümü, kadınlar ve erkekler için Aromatik Meyvemsi bir kokudur. Bu yeni bir parfüm. Egeo Banana, 2024 yılında piyasaya sürüldü. Egeo Banana, Philippe Paparella-Paris ve Leslie Gauthier tarafından yaratıldı. Üst notalar: Muz, Armut ve Limon; orta notalar: Yasemin, Gül ve Yaban mersini; alt notalar Vanilya, Sandal ağacı, Misk ve Sedir yaprakları.",
   "mainAccords": [
     {
@@ -45,32 +45,60 @@
     {
       "name": "yeşil",
       "width": "46.2185%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.91",
-    "votesCount": "263",
+    "score": "3.90",
+    "votesCount": "268",
     "breakdown": {
-      "love": "95",
-      "like": "90",
-      "ok": "49",
-      "dislike": "18",
+      "love": "97",
+      "like": "91",
+      "ok": "47",
+      "dislike": "22",
       "hate": "11"
     }
   },
   "seasons": {
-    "winter": "87",
-    "spring": "116",
-    "summer": "82",
-    "autumn": "99",
-    "day": "124",
-    "night": "86"
+    "winter": "88",
+    "spring": "117",
+    "summer": "83",
+    "autumn": "101",
+    "day": "126",
+    "night": "87"
   },
   "notes": {
     "top": [
       "Muz",
       "Armut",
-      "Limon"
+      "Sicilya Limonu"
     ],
     "middle": [
       "Yasemin",
@@ -87,7 +115,7 @@
   },
   "longevity": {
     "veryWeak": "17",
-    "weak": "25",
+    "weak": "26",
     "moderate": "71",
     "longLasting": "25",
     "eternal": "5"
@@ -101,25 +129,25 @@
   "genderVoting": {
     "female": "50",
     "moreFemale": "33",
-    "unisex": "68",
+    "unisex": "69",
     "moreMale": "5",
     "male": "2"
   },
   "priceVoting": {
     "wayOverpriced": "3",
     "overpriced": "7",
-    "fair": "49",
-    "goodValue": "48",
+    "fair": "47",
+    "goodValue": "49",
     "greatValue": "21"
   },
   "remindsMeOf": [
     {
-      "brand": "MARC JACOBS",
-      "name": "Daisy Wild Eau So Intense"
-    },
-    {
       "brand": "ZARA",
       "name": "Sunkissed Banana"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Daisy Wild Eau So Intense"
     },
     {
       "brand": "PARIS CORNER",
@@ -132,6 +160,10 @@
     {
       "brand": "HİNODE",
       "name": "Vibez! Viva"
+    },
+    {
+      "brand": "WE PİNK",
+      "name": "Latina"
     },
     {
       "brand": "ESCADA",
@@ -177,10 +209,6 @@
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Egeo Hit"
-    },
-    {
-      "brand": "O BOTİCÁRİO",
       "name": "Floratta Flores Secretas"
     },
     {
@@ -212,20 +240,25 @@
       "name": "Cuide-se Bem Deleite Delight"
     },
     {
-      "brand": "NATURA",
-      "name": "Luna"
+      "brand": "O BOTİCÁRİO",
+      "name": "Floratta in Rose"
     },
     {
       "brand": "O BOTİCÁRİO",
-      "name": "Floratta in Rose"
+      "name": "Insensatez"
     },
     {
       "brand": "NATURA",
       "name": "Una Senses"
     },
     {
+      "brand": "O BOTİCÁRİO",
+      "name": "Cuide-se Bem Nuvem"
+    },
+    {
       "brand": "NATURA",
       "name": "Essencial Oud"
     }
-  ]
+  ],
+  "comments": []
 }

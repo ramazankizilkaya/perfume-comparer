@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Natura/Pula-Pula-97485.html",
   "brand": "Natura parfüm ve kolonya",
   "description": "Natura markasının Pula Pula parfümü, kadınlar ve erkekler için Aromatik Meyvemsi bir kokudur. Bu yeni bir parfüm. Pula Pula, 2024 yılında piyasaya sürüldü. Kokuda Sulu Notlar ve Meyvemsi Notlar notaları bulunur.",
-  "description_original": "Natura markasının Pula Pula parfümü, kadınlar ve erkekler için Aromatik Meyvemsi bir kokudur. Bu yeni bir parfüm. Pula Pula, 2024 yılında piyasaya sürüldü. Kokuda Sulu Notlar ve Meyvemsi Notlar notaları bulunur.",
+  "description_original": "Natura markasının Pula Pula parfümü, kadınlar ve erkekler için Aromatik Meyvemsi bir kokudur. Bu yeni bir parfüm. Pula Pula, 2024 yılında piyasaya sürüldü. Kokuda Sulu Notalar ve Meyvemsi Notlar notaları bulunur.",
   "description_enhanced": "Natura markasının Pula Pula parfümü, kadınlar ve erkekler için Aromatik Meyvemsi bir kokudur. Bu yeni bir parfüm. Pula Pula, 2024 yılında piyasaya sürüldü. Kokuda Sulu Notlar ve Meyvemsi Notlar notaları bulunur.",
   "mainAccords": [
     {
@@ -29,6 +29,34 @@
     {
       "name": "ekşi",
       "width": "30.8749%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -55,38 +83,43 @@
     "middle": [],
     "base": [],
     "all": [
-      "Sulu Notlar",
+      "Sulu Notalar",
       "Meyvemsi Notlar"
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Aquavibe Melancia"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -146,7 +179,8 @@
     },
     {
       "brand": "NATURA",
-      "name": "Ilía Completa"
+      "name": "Biografia Assinatura"
     }
-  ]
+  ],
+  "comments": []
 }

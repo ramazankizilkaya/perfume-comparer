@@ -45,24 +45,52 @@
     {
       "name": "deri",
       "width": "45.7143%"
+    },
+    {
+      "name": "Online satın alın 18 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.89",
-    "votesCount": "131",
+    "score": "3.91",
+    "votesCount": "132",
     "breakdown": {
-      "love": "46",
-      "like": "44",
-      "ok": "26",
+      "love": "47",
+      "like": "45",
+      "ok": "25",
       "dislike": "11",
       "hate": "4"
     }
   },
   "seasons": {
     "winter": "18",
-    "spring": "81",
-    "summer": "82",
-    "autumn": "46",
+    "spring": "82",
+    "summer": "83",
+    "autumn": "47",
     "day": "84",
     "night": "28"
   },
@@ -83,34 +111,99 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "3",
+    "moderate": "46",
+    "longLasting": "33",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "46",
+    "strong": "24",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "4",
+    "unisex": "28",
+    "moreMale": "52",
+    "male": "8"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "26",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "3",
+    "overpriced": "4",
+    "fair": "25",
+    "goodValue": "28",
+    "greatValue": "38"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CREED",
+      "name": "Silver Mountain Water"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Sillage"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Supremacy In Heaven"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Al Wisam Day"
+    },
+    {
+      "brand": "CASAMORATİ 1888",
+      "name": "Mefisto"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Silver"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Gusta"
+    },
+    {
+      "brand": "CASAMORATİ 1888",
+      "name": "Mefisto Gentiluomo"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Cologne 2013"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Entebaa"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khashabi"
+    },
+    {
+      "brand": "JİMMY CHOO",
+      "name": "Jimmy Choo Man Ice"
+    },
+    {
+      "brand": "RİİFFS PERFUMES",
+      "name": "Privè Platinum Silver"
+    },
+    {
+      "brand": "GOLDEN JUDİ",
+      "name": "Black Thorn"
+    },
+    {
+      "brand": "MERCEDES-BENZ",
+      "name": "Mercedes-Benz Cologne"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau d'Issey Pour Homme"
+    },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Al Qiam Silver"
@@ -124,12 +217,12 @@
       "name": "Turathi Blue"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Maahir Legacy"
+      "brand": "VERSACE",
+      "name": "Eros Flame"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas for Him"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Maahir Legacy"
     },
     {
       "brand": "AFNAN",
@@ -137,15 +230,11 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Ishq Al Shuyukh Silver"
+      "name": "Fakhar Black"
     },
     {
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Acqua di Giò Profumo"
     },
     {
       "brand": "DAVİDOFF",
@@ -156,12 +245,12 @@
       "name": "Liam"
     },
     {
-      "brand": "NAUTİCA",
-      "name": "Nautica Voyage"
+      "brand": "AFNAN",
+      "name": "9pm"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Raghba Wood Intense"
+      "brand": "NAUTİCA",
+      "name": "Nautica Voyage"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -171,5 +260,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
     }
-  ]
+  ],
+  "comments": []
 }

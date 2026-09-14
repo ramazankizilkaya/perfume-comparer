@@ -71,62 +71,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "8",
-    "moderate": "12",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "12",
-    "strong": "6",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "20",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "8",
-    "greatValue": "6"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ESCADA",
-      "name": "Miami Blossom"
-    },
-    {
-      "brand": "ESCADA",
-      "name": "Pacific Paradise"
-    },
-    {
-      "brand": "ESCADA",
-      "name": "Escada Rockin' Rio 2011"
-    },
-    {
-      "brand": "JİMMY CHOO",
-      "name": "Blossom Special Edition 2024"
-    },
-    {
-      "brand": "ESSNCE",
-      "name": "Midsummer Dream"
-    },
-    {
-      "brand": "FLORAL STREET",
-      "name": "Wonderland Peony"
-    },
-    {
-      "brand": "TOUS",
-      "name": "Tous Gems Party"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JİMMY CHOO",
@@ -188,5 +159,6 @@
       "brand": "VERSACE",
       "name": "Bright Crystal"
     }
-  ]
+  ],
+  "comments": []
 }

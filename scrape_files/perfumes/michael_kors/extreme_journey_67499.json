@@ -35,12 +35,40 @@
       "width": "50%"
     },
     {
+      "name": "balsamik",
+      "width": "45%"
+    },
+    {
       "name": "animalik",
       "width": "45%"
     },
     {
-      "name": "balsamik",
-      "width": "45%"
+      "name": "Online satın alın 33 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -76,33 +104,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "3",
+    "moderate": "18",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "18",
+    "strong": "3",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "8",
+    "male": "20"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "2",
     "fair": "12",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
+    },
+    {
+      "brand": "TOUS",
+      "name": "1920 The Origin"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermes Parfum"
+    },
+    {
+      "brand": "AESOP",
+      "name": "Hwyl"
+    },
+    {
+      "brand": "BANANA REPUBLİC",
+      "name": "Cypress Cedar"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Chivalry"
+    },
+    {
+      "brand": "FRANCK OLİVİER",
+      "name": "Black Touch"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Bois Marocain"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Sports Car Club"
+    },
+    {
+      "brand": "YARDLEY",
+      "name": "Citrus and Wood"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Cuir Vetiver"
+    },
+    {
+      "brand": "REPLAY",
+      "name": "Replay Signature Red Dragon"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre D'Hermes Eau Intense Vetiver"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Fattan"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d’Hermès Intense"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUCCİ",
@@ -164,5 +253,6 @@
       "brand": "SALVATORE FERRAGAMO",
       "name": "Acqua Essenziale Colonia"
     }
-  ]
+  ],
+  "comments": []
 }

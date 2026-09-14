@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Maison-Alhambra/My-Party-89033.html",
   "brand": "Maison Alhambra parfüm ve kolonya",
   "description": "Maison Alhambra markasının My Party parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. My Party, 2022 yılında piyasaya sürüldü. Üst notalar: Çilek, Ahududu, Portakal, Armut, Mandarin ve Bergamot; orta notalar: Yasemin, Yasemin Sambac, Portakal çiçeği ve Boru çiçeği; alt notalar Paçuli yaprağı, Vanilya, Sedir ve Yosun.",
-  "description_original": "Maison Alhambra markasının My Party parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. My Party, 2022 yılında piyasaya sürüldü. Üst notalar: Çilek, Ahududu, Portakal, Armut, Mandarin ve Bergamot; orta notalar: Yasemin, Yasemin Sambac, Portakal çiçeği ve Boru çiçeği; alt notalar Paçuli yaprağı, Vanilya, Sedir ve Yosun.",
+  "description_original": "Maison Alhambra markasının My Party parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. My Party, 2022 yılında piyasaya sürüldü. Üst notalar: Çilek, Ahududu, Portakal, Armut, Mandarin ve Bergamot; orta notalar: Yasemin, Sambac Yasemini, Portakal çiçeği ve Boru çiçeği; alt notalar Paçuli yaprağı, Vanilya, Sedir ve Yosun.",
   "description_enhanced": "Maison Alhambra markasının My Party parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. My Party, 2022 yılında piyasaya sürüldü. Üst notalar: Çilek, Ahududu, Portakal, Armut, Mandarin ve Bergamot; orta notalar: Yasemin, Yasemin Sambac, Portakal çiçeği ve Boru çiçeği; alt notalar Paçuli yaprağı, Vanilya, Sedir ve Yosun.",
   "mainAccords": [
     {
@@ -41,14 +41,38 @@
     {
       "name": "toprak",
       "width": "46.8166%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.94",
+    "score": "3.96",
     "votesCount": "71",
     "breakdown": {
-      "love": "23",
-      "like": "32",
+      "love": "24",
+      "like": "31",
       "ok": "7",
       "dislike": "7",
       "hate": "2"
@@ -57,9 +81,9 @@
   "seasons": {
     "winter": "16",
     "spring": "36",
-    "summer": "35",
+    "summer": "36",
     "autumn": "28",
-    "day": "36",
+    "day": "37",
     "night": "20"
   },
   "notes": {
@@ -73,7 +97,7 @@
     ],
     "middle": [
       "Yasemin",
-      "Yasemin Sambac",
+      "Sambac Yasemini",
       "Portakal çiçeği",
       "Boru çiçeği"
     ],
@@ -87,7 +111,7 @@
   },
   "longevity": {
     "veryWeak": "1",
-    "weak": "8",
+    "weak": "9",
     "moderate": "27",
     "longLasting": "9",
     "eternal": "3"
@@ -99,7 +123,7 @@
     "enormous": "2"
   },
   "genderVoting": {
-    "female": "41",
+    "female": "42",
     "moreFemale": "3",
     "unisex": "4",
     "moreMale": "0",
@@ -118,12 +142,12 @@
       "name": "Mon Paris"
     },
     {
-      "brand": "RAYHAAN",
-      "name": "Rayhaan Divine"
-    },
-    {
       "brand": "DİOR",
       "name": "Miss Dior Cherie"
+    },
+    {
+      "brand": "RAYHAAN",
+      "name": "Rayhaan Divine"
     },
     {
       "brand": "LA RİVE",
@@ -154,16 +178,12 @@
       "name": "Emporio Armani City Glam for Her"
     },
     {
-      "brand": "DİOR",
-      "name": "Miss Dior Parfum (2024)"
-    },
-    {
       "brand": "MONTALE",
       "name": "Roses Elixir"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Ghoul Friend"
+      "brand": "DİOR",
+      "name": "Miss Dior Parfum (2024)"
     },
     {
       "brand": "VİNCE CAMUTO",
@@ -172,16 +192,16 @@
     {
       "brand": "OSCAR DE LA RENTA",
       "name": "New York"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Ghoul Friend"
     }
   ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON ALHAMBRA",
       "name": "Reyna"
-    },
-    {
-      "brand": "BOUCHERON",
-      "name": "Boucheron Quatre"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -234,6 +254,11 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Nebras"
     }
-  ]
+  ],
+  "comments": []
 }

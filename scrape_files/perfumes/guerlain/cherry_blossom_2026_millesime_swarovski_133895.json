@@ -44,10 +44,10 @@
   },
   "seasons": {
     "winter": "0",
-    "spring": "11",
+    "spring": "12",
     "summer": "2",
     "autumn": "0",
-    "day": "9",
+    "day": "10",
     "night": "0"
   },
   "notes": {
@@ -66,94 +66,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "20",
-    "weak": "2",
-    "moderate": "1",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "21",
-    "moderate": "1",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "17",
-    "moreFemale": "3",
-    "unisex": "1",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "22",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Cherry Blossom Millésime 2025"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Cherry Blossom Millésime 2024"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Cherry Blossom 2022 Millésime"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Cherry Blossom Glittering"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Shiny Cherry Blossom"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Cherry Blossom"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Flora Cherrysia (Sakura Collection 2020)"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Flora Cherrysia"
-    },
-    {
-      "brand": "ELİZABETH ARDEN",
-      "name": "Green Tea Cherry Blossom"
-    },
-    {
-      "brand": "ELİZABETH ARDEN",
-      "name": "Green Tea"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Cherry Blossom"
-    },
-    {
-      "brand": "ORMONDE JAYNE",
-      "name": "Sakura"
-    },
-    {
-      "brand": "FLORİS",
-      "name": "Cherry Blossom"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Sakura Cherry Blossom"
-    },
-    {
-      "brand": "SHİRO",
-      "name": "Sakura"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -162,6 +101,10 @@
     {
       "brand": "SERGE LUTENS",
       "name": "Le Participe Passé"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Arabie"
     },
     {
       "brand": "PENHALİGON'S",
@@ -180,16 +123,16 @@
       "name": "L'innommable"
     },
     {
+      "brand": "STATE OF MİND",
+      "name": "Butterfly Mind"
+    },
+    {
       "brand": "BİENAİMÉ",
       "name": "La Vie en Fleurs"
     },
     {
       "brand": "SERGE LUTENS",
       "name": "Fourreau Noir"
-    },
-    {
-      "brand": "CASAMORATİ 1888",
-      "name": "Gran Ballo"
     },
     {
       "brand": "MASQUE MİLANO",
@@ -210,10 +153,7 @@
     {
       "brand": "MAİSON TAHİTÉ – OFFİCİNE CREATİVE PROFUMİ",
       "name": "Vanextasy"
-    },
-    {
-      "brand": "SERGE LUTENS",
-      "name": "Un Bois Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

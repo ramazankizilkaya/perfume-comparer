@@ -49,6 +49,34 @@
     {
       "name": "narenciye",
       "width": "49.0217%"
+    },
+    {
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,33 +117,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "16",
+    "weak": "7",
+    "moderate": "10",
+    "longLasting": "29",
+    "eternal": "28"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "19",
+    "moderate": "10",
+    "strong": "50",
+    "enormous": "34"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "9",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MONTALE",
+      "name": "Vanilla Extasy"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb"
+    },
+    {
+      "brand": "KORRES",
+      "name": "Vanilla Freesia Lychee"
+    },
+    {
+      "brand": "HANAE MORİ",
+      "name": "Hanae by Hanae Mori"
+    },
+    {
+      "brand": "ANTONİO BANDERAS",
+      "name": "Her Secret Temptation"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Derby Club House Gold"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Christmas 2010 Edition"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Vie Est Belle L'Eau de Parfum Legere"
+    },
+    {
+      "brand": "KORRES",
+      "name": "Vanilla Freesia"
+    },
+    {
+      "brand": "KKW FRAGRANCE",
+      "name": "Crystal Gardenia Oud"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Extrait de Parfum"
+    },
+    {
+      "brand": "ONE DİRECTİON",
+      "name": "Between Us"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
+    },
+    {
+      "brand": "LA MARTİNA",
+      "name": "Sueno Mujer"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dune"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -177,5 +266,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

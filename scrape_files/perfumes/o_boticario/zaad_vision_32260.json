@@ -33,26 +33,54 @@
     {
       "name": "aromatik",
       "width": "45.5795%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.28",
-    "votesCount": "382",
+    "votesCount": "383",
     "breakdown": {
-      "love": "222",
-      "like": "103",
-      "ok": "7",
+      "love": "223",
+      "like": "102",
+      "ok": "8",
       "dislike": "42",
       "hate": "8"
     }
   },
   "seasons": {
-    "winter": "207",
+    "winter": "208",
     "spring": "41",
     "summer": "13",
-    "autumn": "163",
+    "autumn": "164",
     "day": "52",
-    "night": "216"
+    "night": "217"
   },
   "notes": {
     "top": [
@@ -76,33 +104,82 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "10",
+    "weak": "7",
+    "moderate": "26",
+    "longLasting": "100",
+    "eternal": "111"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "26",
+    "strong": "141",
+    "enormous": "79"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "5",
+    "male": "98"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "5",
+    "overpriced": "30",
+    "fair": "8",
+    "goodValue": "19",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "M7"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Collection M7 Oud Absolu"
+    },
+    {
+      "brand": "THERA COSMÉTİCOS",
+      "name": "Mitre"
+    },
+    {
+      "brand": "KORRES",
+      "name": "Saffron Amber Agarwood Cardamom"
+    },
+    {
+      "brand": "JACOMO",
+      "name": "Jacomo for Men"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Noir"
+    },
+    {
+      "brand": "WE PİNK",
+      "name": "Pureblixx Darkest"
+    },
+    {
+      "brand": "SAPİENTİAE NİCHE",
+      "name": "Djinn"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Jean Lowe Ombre"
+    },
+    {
+      "brand": "JOOP!",
+      "name": "Wow!"
+    },
+    {
+      "brand": "FERRARİ",
+      "name": "Essence Oud"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Purple Oud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
@@ -164,5 +241,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

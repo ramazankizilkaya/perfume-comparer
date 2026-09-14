@@ -45,6 +45,34 @@
     {
       "name": "taze baharatlı",
       "width": "48.1072%"
+    },
+    {
+      "name": "Online satın alın 9 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,33 +110,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "10",
+    "weak": "7",
+    "moderate": "34",
+    "longLasting": "47",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "34",
+    "strong": "42",
+    "enormous": "27"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "2",
+    "unisex": "2",
+    "moreMale": "6",
+    "male": "38"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "6",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "16",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Yves Saint Laurent Pour Homme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Yves Saint Laurent Pour Homme Haute Concentration"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Eau Pour Homme"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Loewe Pour Homme"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Moustache Eau de Toilette"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Douro"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Les Parfums Mythiques - Monsieur de Givenchy"
+    },
+    {
+      "brand": "BALMAİN BEAUTY",
+      "name": "Monsieur Balmain"
+    },
+    {
+      "brand": "CASAMORATİ 1888",
+      "name": "Fiero"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Eau Sauvage Extreme"
+    },
+    {
+      "brand": "BOURJOİS",
+      "name": "Masculin 2"
+    },
+    {
+      "brand": "CLAUS PORTO",
+      "name": "Musgo Real Classic Scent"
+    },
+    {
+      "brand": "ROBERTO CAPUCCİ",
+      "name": "Capucci Pour Homme"
+    },
+    {
+      "brand": "EDEN CLASSİC",
+      "name": "Rapport"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Le Frenchy"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -170,5 +259,6 @@
       "brand": "CREED",
       "name": "Aventus"
     }
-  ]
+  ],
+  "comments": []
 }

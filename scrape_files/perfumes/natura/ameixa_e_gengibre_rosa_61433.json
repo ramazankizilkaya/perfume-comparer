@@ -29,16 +29,44 @@
     {
       "name": "sıcak baharatlı",
       "width": "43.7613%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.40",
-    "votesCount": "58",
+    "score": "4.36",
+    "votesCount": "59",
     "breakdown": {
       "love": "33",
       "like": "19",
       "ok": "3",
-      "dislike": "2",
+      "dislike": "3",
       "hate": "1"
     }
   },
@@ -65,33 +93,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "10",
+    "moderate": "22",
+    "longLasting": "4",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "14",
+    "moderate": "22",
+    "strong": "6",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "32",
+    "moreFemale": "3",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "23",
+    "greatValue": "9"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Midnight Fantasy"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Pure Seduction"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Dose de Humor"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ameixa e Flor de Baunilha"
+    },
+    {
+      "brand": "LOMANİ",
+      "name": "Miss Lomani"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "La Petite Robe Noire Couture"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Idôle"
+    },
+    {
+      "brand": "JEQUİTİ",
+      "name": "Caminho das Águas Tropical de Ameixa"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Acerola e Hibisco"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -123,11 +188,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Essencial Exclusivo"
+      "name": "Luna Intenso"
     },
     {
       "brand": "NATURA",
-      "name": "Luna Intenso"
+      "name": "Essencial Exclusivo"
     },
     {
       "brand": "NATURA",
@@ -153,5 +218,6 @@
       "brand": "NATURA",
       "name": "Magia da Floresta"
     }
-  ]
+  ],
+  "comments": []
 }

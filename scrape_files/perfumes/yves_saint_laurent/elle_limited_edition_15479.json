@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Yves-Saint-Laurent/Elle-Limited-Edition-15479.html",
   "brand": "Yves Saint Laurent parfüm ve kolonya",
   "description": "Yves Saint Laurent markasının Elle Limited Edition parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Elle Limited Edition, 2012 yılında piyasaya sürüldü. Üst notalar: Şakayık, Greyfurt ve Mandalina; orta notalar: Yasemin Sambac, Pembe biber ve Ahududu; alt notalar Benzoin, Kristal Amber ve Vetiver.",
-  "description_original": "Yves Saint Laurent markasının Elle Limited Edition parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Elle Limited Edition, 2012 yılında piyasaya sürüldü. Üst notalar: Şakayık, Greyfurt ve Mandalina; orta notalar: Yasemin Sambac, Pembe biber ve Ahududu; alt notalar Benzoin, Kristal Amber ve Vetiver.",
+  "description_original": "Yves Saint Laurent markasının Elle Limited Edition parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Elle Limited Edition, 2012 yılında piyasaya sürüldü. Üst notalar: Şakayık, Greyfurt ve Mandalina; orta notalar: Sambac Yasemini, Pembe biber ve Ahududu; alt notalar Benzoin, Kristal Amber ve Vetiver.",
   "description_enhanced": "Yves Saint Laurent markasının Elle Limited Edition parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Elle Limited Edition, 2012 yılında piyasaya sürüldü. Üst notalar: Şakayık, Greyfurt ve Mandalina; orta notalar: Yasemin Sambac, Pembe biber ve Ahududu; alt notalar Benzoin, Kristal Amber ve Vetiver.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "aromatik",
       "width": "47.4286%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -77,7 +105,7 @@
       "Mandalina"
     ],
     "middle": [
-      "Yasemin Sambac",
+      "Sambac Yasemini",
       "Pembe biber",
       "Ahududu"
     ],
@@ -89,33 +117,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "12",
+    "longLasting": "5",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "12",
+    "strong": "7",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MUGLER",
+      "name": "Alien Sunessence EDT Legere"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Elle Shocking (Elle Eau de Toilette)"
+    },
+    {
+      "brand": "TOUS",
+      "name": "Gold"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Alien Eau Extraordinaire"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NİNA RİCCİ",
@@ -177,5 +222,6 @@
       "brand": "MUGLER",
       "name": "Alien Essence Absolue"
     }
-  ]
+  ],
+  "comments": []
 }

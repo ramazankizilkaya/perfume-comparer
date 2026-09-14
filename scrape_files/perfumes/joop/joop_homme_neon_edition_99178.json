@@ -2,7 +2,7 @@
   "name": "JOOP! Homme Neon Edition Joop!",
   "targetGender": "erkekler için",
   "fragranceFamily": "Gourmand",
-  "concentration": "Edt",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.99178.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Joop/JOOP-Homme-Neon-Edition-99178.html",
   "brand": "Joop! parfüm ve kolonya",
@@ -35,11 +35,11 @@
       "width": "54.9999%"
     },
     {
-      "name": "aromatik",
+      "name": "çiçeksi",
       "width": "48.3334%"
     },
     {
-      "name": "çiçeksi",
+      "name": "aromatik",
       "width": "48.3334%"
     },
     {
@@ -79,47 +79,34 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "1",
-    "moderate": "13",
-    "longLasting": "12",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "13",
-    "strong": "14",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "1",
-    "unisex": "9",
-    "moreMale": "8",
-    "male": "8"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "8",
-    "greatValue": "13"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JOOP!",
-      "name": "Joop! Homme"
-    },
-    {
-      "brand": "MUSCENT",
-      "name": "Milky Vanille"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Oajan"
-    },
     {
       "brand": "JOOP!",
       "name": "Joop! Homme"
@@ -129,16 +116,20 @@
       "name": "Khamrah"
     },
     {
+      "brand": "GİVENCHY",
+      "name": "Pi"
+    },
+    {
       "brand": "JACQUES BOGART",
       "name": "Bogart Pour Homme"
     },
     {
-      "brand": "JOOP!",
-      "name": "Joop! Homme Le Parfum"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah Qahwa"
     },
     {
-      "brand": "CHANEL",
-      "name": "Allure Homme Sport"
+      "brand": "JOOP!",
+      "name": "Joop! Homme Le Parfum"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -153,8 +144,8 @@
       "name": "Bvlgari Man In Black"
     },
     {
-      "brand": "DOLCE&GABBANA",
-      "name": "Dolce&Gabbana Pour Homme (2012)"
+      "brand": "RABANNE",
+      "name": "1 Million Parfum"
     },
     {
       "brand": "BURBERRY",
@@ -173,8 +164,9 @@
       "name": "Joop! Homme Wild"
     },
     {
-      "brand": "ABERCROMBİE & FİTCH",
-      "name": "Fierce"
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
     }
-  ]
+  ],
+  "comments": []
 }

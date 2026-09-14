@@ -49,6 +49,34 @@
     {
       "name": "tatlı",
       "width": "52.9379%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,7 @@
     }
   },
   "seasons": {
-    "winter": "38",
+    "winter": "39",
     "spring": "34",
     "summer": "12",
     "autumn": "40",
@@ -95,33 +123,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "2",
+    "moderate": "12",
+    "longLasting": "37",
+    "eternal": "11"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "12",
+    "strong": "36",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "12",
+    "moreFemale": "15",
+    "unisex": "37",
+    "moreMale": "1",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "3",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "29",
+    "greatValue": "13"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Privé Rose d'Arabie"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Sehr Al Sheila"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Velvet Rose & Oud"
+    },
+    {
+      "brand": "ALEXANDRE.J",
+      "name": "Rose Oud"
+    },
+    {
+      "brand": "MAUBOUSSİN",
+      "name": "Promise Me Intense"
+    },
+    {
+      "brand": "MATİÈRE PREMİÈRE",
+      "name": "Radical Rose"
+    },
+    {
+      "brand": "MEMO PARİS",
+      "name": "Argentina"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Exquisite Embroidery"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Prive Rose d'Arabie L'Or du Desert"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "More Than Words"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "Oud & Ambre"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Resala"
+    },
+    {
+      "brand": "ALEXANDRİA FRAGRANCES",
+      "name": "Nostalgia"
+    },
+    {
+      "brand": "FRANCESCA BİANCHİ",
+      "name": "Angel's Dust"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "A Reason To Love"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ARMAF",
@@ -134,10 +223,6 @@
     {
       "brand": "RASASİ",
       "name": "Daarej pour Homme"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Layton"
     },
     {
       "brand": "TOM FORD",
@@ -158,6 +243,10 @@
     {
       "brand": "MONTALE",
       "name": "Intense Cafe"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Encre Noire A L'Extreme"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -183,5 +272,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
     }
-  ]
+  ],
+  "comments": []
 }

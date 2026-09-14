@@ -36,12 +36,12 @@
     }
   ],
   "rating": {
-    "score": "4.40",
-    "votesCount": "5",
+    "score": "4.14",
+    "votesCount": "7",
     "breakdown": {
       "love": "2",
-      "like": "3",
-      "ok": "0",
+      "like": "4",
+      "ok": "1",
       "dislike": "0",
       "hate": "0"
     }
@@ -65,54 +65,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "1",
-    "longLasting": "2",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "1",
-    "strong": "1",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "2",
-    "male": "2"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
-    "fair": "0",
-    "goodValue": "0",
-    "greatValue": "0"
+    "wayOverpriced": "",
+    "overpriced": "",
+    "fair": "1",
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "LOEWE",
-      "name": "Esencia Elixir"
-    },
-    {
-      "brand": "CREED",
-      "name": "Aventus"
-    },
-    {
-      "brand": "ALDAKHEEL OUD",
-      "name": "Extreme"
-    },
-    {
-      "brand": "MANCERA",
-      "name": "Cedrat Boise"
-    },
-    {
-      "brand": "AL MAJED OUD",
-      "name": "Wood White"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "PRADA",
@@ -122,5 +101,6 @@
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
     }
-  ]
+  ],
+  "comments": []
 }

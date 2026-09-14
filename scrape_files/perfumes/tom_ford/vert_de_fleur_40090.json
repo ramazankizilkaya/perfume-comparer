@@ -33,26 +33,54 @@
     {
       "name": "balsamik",
       "width": "48.4352%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.04",
-    "votesCount": "382",
+    "votesCount": "384",
     "breakdown": {
-      "love": "155",
+      "love": "156",
       "like": "145",
       "ok": "29",
-      "dislike": "48",
+      "dislike": "49",
       "hate": "5"
     }
   },
   "seasons": {
-    "winter": "29",
+    "winter": "30",
     "spring": "111",
     "summer": "54",
     "autumn": "64",
     "day": "95",
-    "night": "32"
+    "night": "33"
   },
   "notes": {
     "top": [],
@@ -65,33 +93,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "16",
+    "weak": "11",
+    "moderate": "42",
+    "longLasting": "55",
+    "eternal": "15"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "20",
+    "moderate": "42",
+    "strong": "82",
+    "enormous": "29"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "16",
+    "unisex": "51",
+    "moreMale": "6",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "17",
+    "overpriced": "22",
     "fair": "29",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CHANEL",
+      "name": "Chanel No 19 Eau de Parfum"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Synthetic Jungle"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Ombre de Hyacinth"
+    },
+    {
+      "brand": "BALMAİN BEAUTY",
+      "name": "Vent Vert"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chanel N°19"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Eau de Vert Boheme"
+    },
+    {
+      "brand": "JACOMO",
+      "name": "Silences"
+    },
+    {
+      "brand": "GEOFFREY BEENE",
+      "name": "Grey Flannel"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Vert Boheme"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chanel No 19 Parfum"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chanel No 19 Poudre"
+    },
+    {
+      "brand": "BROCARD",
+      "name": "Malachite Flower (Малахитовый Цветок)"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Touch for Women"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Bas de Soie"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Insense"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -153,5 +242,6 @@
       "brand": "TOM FORD",
       "name": "Jasmin Rouge"
     }
-  ]
+  ],
+  "comments": []
 }

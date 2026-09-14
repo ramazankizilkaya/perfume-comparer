@@ -23,19 +23,19 @@
       "width": "76.6667%"
     },
     {
-      "name": "sulu",
-      "width": "73.7499%"
-    },
-    {
       "name": "deniz",
       "width": "73.7499%"
     },
     {
-      "name": "taze baharatlı",
-      "width": "59.1668%"
+      "name": "sulu",
+      "width": "73.7499%"
     },
     {
       "name": "kum",
+      "width": "59.1668%"
+    },
+    {
+      "name": "taze baharatlı",
       "width": "59.1668%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "tuzlu",
       "width": "50.4166%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,11 +91,11 @@
     }
   },
   "seasons": {
-    "winter": "1",
-    "spring": "6",
+    "winter": "2",
+    "spring": "7",
     "summer": "8",
-    "autumn": "2",
-    "day": "5",
+    "autumn": "3",
+    "day": "6",
     "night": "0"
   },
   "notes": {
@@ -108,7 +136,7 @@
     "wayOverpriced": "0",
     "overpriced": "0",
     "fair": "3",
-    "goodValue": "2",
+    "goodValue": "3",
     "greatValue": "1"
   },
   "remindsMeOf": [
@@ -130,6 +158,10 @@
     }
   ],
   "peopleAlsoLike": [
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bare"
+    },
     {
       "brand": "SOL DE JANEİRO",
       "name": "Cheirosa '59"
@@ -171,12 +203,12 @@
       "name": "Sweet Tooth Cherry Baby"
     },
     {
-      "brand": "AFNAN",
-      "name": "Mystique Bouquet"
-    },
-    {
       "brand": "BATH & BODY WORKS",
       "name": "Winter Candy Apple"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Mystique Bouquet"
     },
     {
       "brand": "BATH & BODY WORKS",
@@ -185,10 +217,7 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Ana Abiyedh Coral"
-    },
-    {
-      "brand": "SABRİNA CARPENTER",
-      "name": "Sweet Tooth"
     }
-  ]
+  ],
+  "comments": []
 }

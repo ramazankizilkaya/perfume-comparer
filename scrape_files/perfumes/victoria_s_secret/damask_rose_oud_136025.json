@@ -27,15 +27,43 @@
       "width": "45.8065%"
     },
     {
-      "name": "ud",
+      "name": "pudralı",
       "width": "41.2903%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.25",
-    "votesCount": "4",
+    "score": "3.60",
+    "votesCount": "5",
     "breakdown": {
-      "love": "0",
+      "love": "1",
       "like": "2",
       "ok": "1",
       "dislike": "1",
@@ -43,10 +71,10 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "2",
     "spring": "0",
     "summer": "0",
-    "autumn": "1",
+    "autumn": "2",
     "day": "1",
     "night": "1"
   },
@@ -64,13 +92,13 @@
   },
   "longevity": {
     "veryWeak": "1",
-    "weak": "0",
+    "weak": "1",
     "moderate": "0",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "0",
+    "intimate": "1",
     "moderate": "0",
     "strong": "0",
     "enormous": "0"
@@ -95,5 +123,6 @@
       "name": "Portrait of a Lady"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

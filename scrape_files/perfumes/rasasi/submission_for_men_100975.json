@@ -29,6 +29,34 @@
     {
       "name": "balsamik",
       "width": "40%"
+    },
+    {
+      "name": "Online satın alın 7 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -66,33 +94,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "3",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "3",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "2",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Liquid Gold Euphoria Men"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Sultani"
+    },
+    {
+      "brand": "ALEXANDRİA FRAGRANCES",
+      "name": "Black Panther"
+    },
+    {
+      "brand": "SHULTON COMPANY",
+      "name": "Old Spice Original"
+    },
+    {
+      "brand": "NABEEL",
+      "name": "Tafaseel"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LALİQUE",
@@ -123,12 +172,12 @@
       "name": "Asad"
     },
     {
-      "brand": "FRENCH AVENUE",
-      "name": "Spectre Ghost"
-    },
-    {
       "brand": "KHADLAJ PERFUMES",
       "name": "Infini"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Spectre Ghost"
     },
     {
       "brand": "AFNAN",
@@ -140,7 +189,7 @@
     },
     {
       "brand": "ISSEY MİYAKE",
-      "name": "L'Eau d'Issey Pour Homme Noir Ambre"
+      "name": "L'Eau d'Issey Pour Homme Noir Ambré"
     },
     {
       "brand": "ARMAF",
@@ -154,5 +203,6 @@
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
     }
-  ]
+  ],
+  "comments": []
 }

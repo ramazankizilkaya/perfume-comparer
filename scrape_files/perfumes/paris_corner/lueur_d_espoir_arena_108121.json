@@ -45,13 +45,41 @@
     {
       "name": "tatlı",
       "width": "45.9091%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.33",
-    "votesCount": "45",
+    "score": "4.35",
+    "votesCount": "46",
     "breakdown": {
-      "love": "27",
+      "love": "28",
       "like": "12",
       "ok": "2",
       "dislike": "2",
@@ -59,12 +87,12 @@
     }
   },
   "seasons": {
-    "winter": "27",
-    "spring": "23",
+    "winter": "29",
+    "spring": "22",
     "summer": "11",
-    "autumn": "25",
+    "autumn": "26",
     "day": "24",
-    "night": "25"
+    "night": "26"
   },
   "notes": {
     "top": [
@@ -81,33 +109,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "15",
+    "weak": "2",
+    "moderate": "9",
+    "longLasting": "15",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "16",
+    "moderate": "9",
+    "strong": "12",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "18",
+    "moreFemale": "4",
+    "unisex": "24",
+    "moreMale": "0",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "13",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "11",
+    "greatValue": "18"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUERLAİN",
+      "name": "L’Heure Dorée"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Jean Lowe Noir"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ajwad Pink to Pink"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Azzure Oud"
+    },
+    {
+      "brand": "THE WOODS COLLECTİON",
+      "name": "Royal Night"
+    },
+    {
+      "brand": "VOLARÉ",
+      "name": "Luminous Waves"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Rose of Dreams"
+    },
+    {
+      "brand": "VOLARÉ",
+      "name": "Rise & Shine"
+    },
+    {
+      "brand": "THE SPİRİT OF DUBAİ",
+      "name": "Narjesi Fleur"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Jean Lowe Nouveau"
+    },
+    {
+      "brand": "VOLARÉ",
+      "name": "Golden Hour"
+    },
+    {
+      "brand": "THE SPİRİT OF DUBAİ",
+      "name": "Fakhama"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Oud Madness"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "L’Heure Dorée 2026"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud Aswad"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LOUİS VUİTTON",
@@ -124,6 +213,14 @@
     {
       "brand": "FRENCH AVENUE",
       "name": "Azzure Oud"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Bade'e Al Oud Oud for Glory"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Khamrah Dukhan"
     },
     {
       "brand": "PARIS CORNER",
@@ -150,10 +247,6 @@
       "name": "Asad Bourbon"
     },
     {
-      "brand": "ARMAF",
-      "name": "Club de Nuit Sillage"
-    },
-    {
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
     },
@@ -164,10 +257,7 @@
     {
       "brand": "FRENCH AVENUE",
       "name": "Royal Blend Sequoia"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Ameer Al Oudh Intense Oud"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/Quasar-Drop-XX-58296.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının Quasar Drop XX parfümü, kadınlar için Çiçeksi bir kokudur. Quasar Drop XX, 2019 yılında piyasaya sürüldü. Quasar Drop XX, Hernan Fígoli, Marion Costero ve Leandro Petit tarafından yaratıldı. Üst notalar: Bergamot, Elma, Nane, Aldehitler ve Kakule; orta notalar: Sardunya, Çiçeksi Notalar, Muskat, Galbanum ve Lavanta; alt notalar Misk, Sedir, Kaşmir ve Amber.",
-  "description_original": "O Boticário markasının Quasar Drop XX parfümü, kadınlar için Çiçeksi bir kokudur. Quasar Drop XX, 2019 yılında piyasaya sürüldü. Quasar Drop XX, Hernan Fígoli, Marion Costero ve Leandro Petit tarafından yaratıldı. Üst notalar: Bergamot, Elma, Nane, Aldehitler ve Kakule; orta notalar: Sardunya, Çiçeksi Notalar, Muskat, Galbanum ve Lavanta; alt notalar Misk, Sedir, Kaşmir ve Amber.",
+  "description_original": "O Boticário markasının Quasar Drop XX parfümü, kadınlar için Çiçeksi bir kokudur. Quasar Drop XX, 2019 yılında piyasaya sürüldü. Quasar Drop XX, Hernan Fígoli, Marion Costero ve Leandro Petit tarafından yaratıldı. Üst notalar: Bergamot, Elma, Nane, Aldehitler ve Kakule; orta notalar: Sardunya, Çiçeksi Notalar, Muskat, Galbanum ve Lavanta; alt notalar Misk, Sedir, Kaşmeran ve Amber.",
   "description_enhanced": "O Boticário markasının Quasar Drop XX parfümü, kadınlar için Çiçeksi bir kokudur. Quasar Drop XX, 2019 yılında piyasaya sürüldü. Quasar Drop XX, Hernan Fígoli, Marion Costero ve Leandro Petit tarafından yaratıldı. Üst notalar: Bergamot, Elma, Nane, Aldehitler ve Kakule; orta notalar: Sardunya, Çiçeksi Notalar, Muskat, Galbanum ve Lavanta; alt notalar Misk, Sedir, Kaşmir ve Amber.",
   "mainAccords": [
     {
@@ -49,23 +49,51 @@
     {
       "name": "meyvemsi",
       "width": "52.4642%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.89",
-    "votesCount": "132",
+    "votesCount": "133",
     "breakdown": {
-      "love": "44",
+      "love": "45",
       "like": "56",
-      "ok": "12",
-      "dislike": "14",
+      "ok": "11",
+      "dislike": "15",
       "hate": "6"
     }
   },
   "seasons": {
     "winter": "7",
     "spring": "50",
-    "summer": "66",
+    "summer": "67",
     "autumn": "17",
     "day": "77",
     "night": "13"
@@ -88,7 +116,7 @@
     "base": [
       "Misk",
       "Sedir",
-      "Kaşmir",
+      "Kaşmeran",
       "Amber"
     ],
     "all": []
@@ -110,13 +138,13 @@
     "female": "5",
     "moreFemale": "10",
     "unisex": "54",
-    "moreMale": "10",
+    "moreMale": "11",
     "male": "0"
   },
   "priceVoting": {
     "wayOverpriced": "2",
     "overpriced": "3",
-    "fair": "12",
+    "fair": "11",
     "goodValue": "35",
     "greatValue": "9"
   },
@@ -126,16 +154,16 @@
       "name": "CK One Summer 2010"
     },
     {
-      "brand": "ANTONİO BANDERAS",
-      "name": "Blue Seduction"
+      "brand": "JEQUİTİ",
+      "name": "Turma da Mônica Cebolinha"
     },
     {
       "brand": "RALPH LAUREN",
       "name": "Polo Red"
     },
     {
-      "brand": "JEQUİTİ",
-      "name": "Turma da Mônica Cebolinha"
+      "brand": "ANTONİO BANDERAS",
+      "name": "Blue Seduction"
     },
     {
       "brand": "MOSCHİNO",
@@ -239,5 +267,6 @@
       "brand": "DİOR",
       "name": "J'adore"
     }
-  ]
+  ],
+  "comments": []
 }

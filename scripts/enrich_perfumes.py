@@ -115,12 +115,24 @@ Aşağıdaki parfümün resmi verilerini, oylama dağılımlarını ve gerçek k
      9. "{name} hangi parfümlere benzer ve koku karakteri nasıldır?"
      10. "{name} kör alışa (denemeden almaya) uygun bir parfüm müdür?"
 
+3. 'description' (Zenginleştirilmiş Ürün Tanıtım Metni):
+   - Orijinal bilgileri (notalar, koku karakteri, çıkış yılı) koruyarak akıcı, özgün, şık bir Türkçe ürün tanıtım paragrafı oluştur.
+
+4. 'concentration' (Esans Tipi):
+   - 'Edp', 'Edt', 'Parfum', 'Extrait', 'Edc', 'EauFraiche', 'RollOn' seçeneklerinden en doğrusunu belirle (belirsizse mevcut '{conc}' değerini koru).
+
+5. 'fragranceFamily' (Koku Ailesi):
+   - 'Oriental', 'Woody', 'Fresh', 'Floral', 'Citrus', 'Gourmand', 'Aromatic', 'Fougere', 'Leather', 'Other' arasından en uygununu belirle.
+
 Yalnızca aşağıdaki JSON formatında saf çıktı ver (markdown kod bloğu backtick olmadan):
 {{
   "article": "...",
   "faq": [
     {{ "question": "...", "answer": "..." }}
-  ]
+  ],
+  "description": "...",
+  "concentration": "Edp",
+  "fragranceFamily": "Gourmand"
 }}"""
 
 def call_gemini(prompt: str, model: str | None = None, retries: int = 3) -> dict | None:
@@ -158,10 +170,15 @@ def call_gemini(prompt: str, model: str | None = None, retries: int = 3) -> dict
                     text = text[:-3]
                 return json.loads(text.strip())
         except urllib.error.HTTPError as e:
-            err_body = e.read().decode("utf-8", errors="ignore")
-            print(f"    [Gemini Hatası ({selected_model}) - Deneme {attempt}/{retries}]: HTTP {e.code}")
-            if attempt < retries:
-                time.sleep(attempt * 5)
+            if e.code == 429:
+                wait_time = 15 * attempt
+                print(f"    [Gemini 429 - İstek Sınırı]: {wait_time} saniye bekleniyor...")
+                time.sleep(wait_time)
+            else:
+                err_body = e.read().decode("utf-8", errors="ignore")
+                print(f"    [Gemini Hatası ({selected_model}) - Deneme {attempt}/{retries}]: HTTP {e.code}")
+                if attempt < retries:
+                    time.sleep(attempt * 5)
         except Exception as e:
             print(f"    [Gemini Hatası ({selected_model}) - Deneme {attempt}/{retries}]: {e}")
             if attempt < retries:
@@ -206,7 +223,7 @@ def enrich_single_perfume(file_path: str, force: bool = False) -> bool:
         print(f"    [Hata] Dosya okunamadı: {file_path} ({e})")
         return False
 
-    if not force and data.get("article") and data.get("faq"):
+    if not force and data.get("article") and data.get("faq") and data.get("description_enhanced"):
         return False  # Zaten zenginleştirilmiş
 
     prompt = build_enrichment_prompt(data)
@@ -223,6 +240,9 @@ def enrich_single_perfume(file_path: str, force: bool = False) -> bool:
 
     article = ai_result.get("article", "").strip()
     faq = ai_result.get("faq", [])
+    desc_enhanced = (ai_result.get("description") or "").strip()
+    concentration = ai_result.get("concentration")
+    fragrance_family = ai_result.get("fragranceFamily")
 
     if not article or not isinstance(faq, list):
         print(f"    [Atlandı] Geçersiz AI formatı: {data.get('name')}")
@@ -230,11 +250,18 @@ def enrich_single_perfume(file_path: str, force: bool = False) -> bool:
 
     data["article"] = article
     data["faq"] = faq
+    if desc_enhanced:
+        data["description"] = desc_enhanced
+        data["description_enhanced"] = desc_enhanced
+    if concentration:
+        data["concentration"] = concentration
+    if fragrance_family:
+        data["fragranceFamily"] = fragrance_family
 
     try:
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"    ✅ Zenginleştirildi: {data.get('name')} (Makale: {len(article)} krk, SSS: {len(faq)} soru)")
+        print(f"    ✅ Zenginleştirildi: {data.get('name')} (Makale: {len(article)} krk, SSS: {len(faq)} soru, Açıklama: {'var' if desc_enhanced else 'yok'})")
         return True
     except Exception as e:
         print(f"    [Hata] Kaydedilemedi: {file_path} ({e})")
@@ -246,6 +273,7 @@ def main():
     parser.add_argument("limit", nargs="?", type=int, default=None, help="İşlenecek maksimum parfüm sayısı")
     parser.add_argument("--all", action="store_true", help="Tüm markaları işle")
     parser.add_argument("--force", action="store_true", help="Var olan makale ve SSS'lerin üzerine yaz")
+    parser.add_argument("--delay", type=float, default=4.0, help="İstekler arası bekleme süresi saniye cinsinden (varsayılan: 4.0)")
     args = parser.parse_args()
 
     base_dir = Path(__file__).resolve().parent.parent / "scrape_files" / "perfumes"
@@ -284,7 +312,7 @@ def main():
             ok = enrich_single_perfume(str(p_file), force=args.force)
             if ok:
                 success_count += 1
-                time.sleep(1.0)  # Rate limit koruması
+                time.sleep(args.delay)
 
         print(f"\nTamamlandı: {b_dir.name} -> {success_count} parfüm zenginleştirildi.")
 

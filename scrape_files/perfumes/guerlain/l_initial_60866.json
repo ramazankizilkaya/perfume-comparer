@@ -91,66 +91,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "3",
-    "moderate": "22",
-    "longLasting": "22",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "10",
-    "moderate": "22",
-    "strong": "29",
-    "enormous": "25"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "24",
-    "moreFemale": "9",
-    "unisex": "14",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "9",
-    "overpriced": "15",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "19",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Parfum Initial"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "L'Initial Eau de Parfum"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Guerlain Shalimar Parfum Initial L'Eau"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Guerlain Shalimar Parfum Initial L'Eau Si Sensuelle"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Parfum Initial A Fleur de Peau"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "L’Homme Idéal Eau de Parfum"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dior Homme Intense 2011"
-    },
-    {
-      "brand": "MOLİNARD",
-      "name": "Habanita L'Esprit"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -182,15 +149,15 @@
     },
     {
       "brand": "GUERLAİN",
-      "name": "Cuir Béluga"
-    },
-    {
-      "brand": "GUERLAİN",
       "name": "Insolence"
     },
     {
       "brand": "DİOR",
       "name": "Hypnotic Poison"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Cuir Béluga"
     },
     {
       "brand": "CHANEL",
@@ -212,5 +179,6 @@
       "brand": "LANCÔME",
       "name": "Poeme"
     }
-  ]
+  ],
+  "comments": []
 }

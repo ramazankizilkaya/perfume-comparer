@@ -45,25 +45,53 @@
     {
       "name": "toprak",
       "width": "45.2589%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.78",
-    "votesCount": "158",
+    "score": "3.79",
+    "votesCount": "159",
     "breakdown": {
-      "love": "50",
-      "like": "51",
-      "ok": "33",
+      "love": "51",
+      "like": "50",
+      "ok": "34",
       "dislike": "21",
       "hate": "3"
     }
   },
   "seasons": {
     "winter": "22",
-    "spring": "42",
+    "spring": "43",
     "summer": "28",
     "autumn": "36",
-    "day": "42",
+    "day": "43",
     "night": "21"
   },
   "notes": {
@@ -85,33 +113,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "9",
+    "moderate": "39",
+    "longLasting": "21",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "39",
+    "strong": "36",
+    "enormous": "14"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "57",
+    "moreFemale": "4",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "33",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "16",
+    "overpriced": "20",
+    "fair": "34",
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "La Colle Noire (2018)"
+    },
+    {
+      "brand": "KALİNA",
+      "name": "Angelica Varum"
+    },
+    {
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "Rose Velours"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Blouse"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "Ezra"
+    },
+    {
+      "brand": "KEİKO MECHERİ",
+      "name": "Mogador"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Portrait of a Lady"
+    },
+    {
+      "brand": "THE DİFFERENT COMPANY",
+      "name": "I miss Violet"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "The New Rose"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Male Pride Edition"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Pleasures"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Damarose"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "La Fille de Berlin"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "PARFUMS DE MARLY",
@@ -123,7 +204,7 @@
     },
     {
       "brand": "CHANEL",
-      "name": "Chance Eau Tendre"
+      "name": "Chanel No 19 Poudre"
     },
     {
       "brand": "HAUTE FRAGRANCE COMPANY HFC",
@@ -173,5 +254,6 @@
       "brand": "BYREDO",
       "name": "La Tulipe"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -29,26 +29,54 @@
     {
       "name": "balsamik",
       "width": "40.1182%"
+    },
+    {
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "155",
+    "score": "4.04",
+    "votesCount": "156",
     "breakdown": {
-      "love": "66",
-      "like": "51",
+      "love": "67",
+      "like": "50",
       "ok": "22",
       "dislike": "13",
-      "hate": "3"
+      "hate": "4"
     }
   },
   "seasons": {
-    "winter": "86",
-    "spring": "41",
+    "winter": "87",
+    "spring": "42",
     "summer": "9",
-    "autumn": "88",
-    "day": "66",
-    "night": "70"
+    "autumn": "89",
+    "day": "67",
+    "night": "71"
   },
   "notes": {
     "top": [
@@ -69,33 +97,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "5",
+    "moderate": "32",
+    "longLasting": "49",
+    "eternal": "17"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "32",
+    "strong": "45",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "1",
+    "unisex": "29",
+    "moreMale": "53",
+    "male": "30"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "5",
+    "overpriced": "14",
     "fair": "22",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "14",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NASOMATTO",
+      "name": "Black Afgano"
+    },
+    {
+      "brand": "LES LİQUİDES IMAGİNAİRES",
+      "name": "Fortis"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Ébène Fumé"
+    },
+    {
+      "brand": "PRORASO",
+      "name": "Wood & Spice"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Laylati"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Intense Oud"
+    },
+    {
+      "brand": "CARNER BARCELONA",
+      "name": "Cuirs"
+    },
+    {
+      "brand": "BOİS 1920",
+      "name": "Virtù"
+    },
+    {
+      "brand": "BENTLEY",
+      "name": "Bentley For Men Absolute"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Laudano Nero"
+    },
+    {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Into The Void"
+    },
+    {
+      "brand": "LUSH",
+      "name": "Smuggler's Soul"
+    },
+    {
+      "brand": "BOUCHERON",
+      "name": "Cuir de Venise"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "B-612"
+    },
+    {
+      "brand": "LES LİQUİDES IMAGİNAİRES",
+      "name": "Lacrima Eau de Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BENTLEY",
@@ -130,12 +219,12 @@
       "name": "Lalique Pour Homme Equus"
     },
     {
-      "brand": "LALİQUE",
-      "name": "Lalique Pour Homme"
-    },
-    {
       "brand": "NASOMATTO",
       "name": "Black Afgano"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Lalique Pour Homme"
     },
     {
       "brand": "LALİQUE",
@@ -157,5 +246,6 @@
       "brand": "DİOR",
       "name": "Fahrenheit"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -61,98 +61,41 @@
     ]
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "8",
-    "moderate": "17",
-    "longLasting": "7",
-    "eternal": "9"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "13",
-    "moderate": "17",
-    "strong": "23",
-    "enormous": "25"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "12",
-    "moreFemale": "2",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "5",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "7",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "COURRÈGES",
-      "name": "Rose de Courreges"
-    },
-    {
-      "brand": "CHLOÉ",
-      "name": "Chloé Eau de Parfum"
-    },
-    {
-      "brand": "MİLLER HARRİS",
-      "name": "Coeur de Jardin"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Plum Blossom (2017)"
-    },
-    {
-      "brand": "CHLOÉ",
-      "name": "See By Chloé"
-    },
-    {
-      "brand": "ROUGE BUNNY ROUGE",
-      "name": "Vespers"
-    },
-    {
-      "brand": "VİLHELM PARFUMERİE",
-      "name": "Room Service"
-    },
-    {
-      "brand": "12 PARFUMEURS FRANCAİS",
-      "name": "Monceau"
-    },
-    {
-      "brand": "EAU D'ITALİE",
-      "name": "Rosa Greta"
-    },
-    {
-      "brand": "AVON",
-      "name": "Avon Smile"
-    },
-    {
-      "brand": "RABANNE",
-      "name": "Lady Million"
-    },
-    {
-      "brand": "AVON",
-      "name": "Summer White Sunset"
-    },
-    {
-      "brand": "CACHAREL",
-      "name": "Scarlett"
-    },
-    {
-      "brand": "CARTİER",
-      "name": "Eau de Cartier Goutte de Rose"
-    },
-    {
-      "brand": "JEANNE ARTHES",
-      "name": "Cassandra Rose Intense"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "LANVİN",
       "name": "Eclat d’Arpège"
+    },
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez For Her"
     },
     {
       "brand": "JO MALONE LONDON",
@@ -161,10 +104,6 @@
     {
       "brand": "CHANEL",
       "name": "Chance Eau Tendre"
-    },
-    {
-      "brand": "NARCİSO RODRİGUEZ",
-      "name": "Narciso Rodriguez for Her Eau de Parfum"
     },
     {
       "brand": "DİOR",
@@ -210,5 +149,6 @@
       "brand": "JO MALONE LONDON",
       "name": "Orange Blossom"
     }
-  ]
+  ],
+  "comments": []
 }

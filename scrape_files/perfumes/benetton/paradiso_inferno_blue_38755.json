@@ -49,6 +49,10 @@
     {
       "name": "beyaz çiçeksi",
       "width": "53.5294%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -88,77 +92,37 @@
       "Misk",
       "Sandal ağacı",
       "Vetiver"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "7",
-    "weak": "21",
-    "moderate": "33",
-    "longLasting": "6",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "22",
-    "moderate": "33",
-    "strong": "10",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "12",
-    "moreMale": "17",
-    "male": "18"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "10",
-    "goodValue": "17",
-    "greatValue": "25"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "AVON",
-      "name": "Signature"
-    },
-    {
-      "brand": "LİZ CLAİBORNE",
-      "name": "Claiborne for Men"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Acqua di Gio"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Versace Pour Homme"
-    },
-    {
-      "brand": "LİZ CLAİBORNE",
-      "name": "Curve Wave"
-    },
-    {
-      "brand": "ISSEY MİYAKE",
-      "name": "Le Sel d’Issey"
-    },
-    {
-      "brand": "ESCADA",
-      "name": "Escada Moon Sparkle pour Homme"
-    },
-    {
-      "brand": "VİCTORİNOX SWİSS ARMY",
-      "name": "Swiss Army Mountain Water"
-    },
-    {
-      "brand": "ORİFLAME",
-      "name": "Eclat Toujours"
-    },
-    {
-      "brand": "SALVADOR DALİ",
-      "name": "Le Roy Soleil Homme"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -193,10 +157,6 @@
       "name": "L'Eau d'Issey Pour Homme"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "CK One"
-    },
-    {
       "brand": "DİOR",
       "name": "Fahrenheit"
     },
@@ -219,6 +179,11 @@
     {
       "brand": "ARMAF",
       "name": "Club de Nuit Intense Man"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Ultra Male"
     }
-  ]
+  ],
+  "comments": []
 }

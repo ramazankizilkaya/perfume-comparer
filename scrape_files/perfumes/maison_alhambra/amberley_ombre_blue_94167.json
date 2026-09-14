@@ -49,26 +49,54 @@
     {
       "name": "dumanlı",
       "width": "46.7332%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.61",
-    "votesCount": "44",
+    "score": "3.66",
+    "votesCount": "47",
     "breakdown": {
-      "love": "13",
+      "love": "15",
       "like": "16",
-      "ok": "5",
+      "ok": "6",
       "dislike": "5",
       "hate": "5"
     }
   },
   "seasons": {
-    "winter": "23",
-    "spring": "15",
+    "winter": "25",
+    "spring": "16",
     "summer": "1",
-    "autumn": "27",
-    "day": "12",
-    "night": "27"
+    "autumn": "29",
+    "day": "14",
+    "night": "29"
   },
   "notes": {
     "top": [
@@ -88,45 +116,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "7",
+    "longLasting": "16",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "7",
+    "strong": "8",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "2",
+    "unisex": "8",
+    "moreMale": "9",
+    "male": "12"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "1",
+    "fair": "6",
+    "goodValue": "11",
+    "greatValue": "10"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUERLAİN",
+      "name": "Patchouli Ardent"
+    },
+    {
+      "brand": "ESTİARA",
+      "name": "A-Star for Men"
+    },
+    {
+      "brand": "ALYSSA ASHLEY",
+      "name": "Essence de Patchouli"
+    },
+    {
+      "brand": "MARY KAY",
+      "name": "Genji"
+    },
+    {
+      "brand": "GHALATİ",
+      "name": "Oud Argent"
+    },
+    {
+      "brand": "AL WATANİAH",
+      "name": "Qasr Al Watan"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Shades Wood"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Les Absolus d'Orient Patchouli Ardent"
+    },
+    {
+      "brand": "EMPER",
+      "name": "Patchouli Majestic"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON ALHAMBRA",
       "name": "Afro Leather"
-    },
-    {
-      "brand": "AFNAN",
-      "name": "Rare Carbon"
-    },
-    {
-      "brand": "MONTBLANC",
-      "name": "Explorer"
     },
     {
       "brand": "LALİQUE",
@@ -137,24 +194,28 @@
       "name": "Niche Emarati Vintage Castle"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Woody Oud"
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     },
     {
-      "brand": "BVLGARİ",
-      "name": "Bvlgari Man In Black"
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Woody Oud"
     },
     {
       "brand": "MAİSON ALHAMBRA",
       "name": "Exclusif Saffron"
     },
     {
-      "brand": "FİLİPPO SORCİNELLİ",
-      "name": "Reliqvia"
+      "brand": "BVLGARİ",
+      "name": "Bvlgari Man In Black"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Qaa'ed Al Shabaab"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad"
     },
     {
       "brand": "LALİQUE",
@@ -173,8 +234,13 @@
       "name": "Encre Noire Sport"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Ajwad Pink to Pink"
+      "brand": "ARMAF",
+      "name": "Club de Nuit Intense Man"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme Dylan Blue"
     }
-  ]
+  ],
+  "comments": []
 }

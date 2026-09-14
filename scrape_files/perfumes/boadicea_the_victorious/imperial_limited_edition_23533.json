@@ -19,11 +19,11 @@
       "width": "76.3576%"
     },
     {
-      "name": "lavanta",
+      "name": "paçuli",
       "width": "60.1324%"
     },
     {
-      "name": "paçuli",
+      "name": "lavanta",
       "width": "60.1324%"
     },
     {
@@ -49,6 +49,10 @@
     {
       "name": "gül",
       "width": "54.3377%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -89,45 +93,37 @@
       "Sandal ağacı",
       "Agar ağacı (Oud)",
       "Guayak ağacı"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "2",
-    "moderate": "2",
-    "longLasting": "5",
-    "eternal": "8"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "2",
-    "strong": "11",
-    "enormous": "14"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "1",
-    "moreMale": "1",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Imperial"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Outlands"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
@@ -189,5 +185,6 @@
       "brand": "CREED",
       "name": "Aventus"
     }
-  ]
+  ],
+  "comments": []
 }

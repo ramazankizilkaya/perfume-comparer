@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "misk",
       "width": "65%"
     },
     {
-      "name": "misk",
+      "name": "taze baharatlı",
       "width": "65%"
     },
     {
@@ -29,6 +29,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,37 +91,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "0",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "0",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Collages Jacaranda"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LALİQUE",
       "name": "Encre Noire Sport"
+    },
+    {
+      "brand": "CREED",
+      "name": "Original Vetiver"
     },
     {
       "brand": "HANAE MORİ",
@@ -116,8 +153,8 @@
       "name": "Noir Extreme"
     },
     {
-      "brand": "BYREDO",
-      "name": "Bal d'Afrique"
+      "brand": "CAROLİNA HERRERA",
+      "name": "CH Men"
     },
     {
       "brand": "FRAPİN",
@@ -126,10 +163,6 @@
     {
       "brand": "DAME PERFUMERY",
       "name": "Black Flower Mexican Vanilla"
-    },
-    {
-      "brand": "PROFUMUM ROMA",
-      "name": "Acqua Viva"
     },
     {
       "brand": "JO MALONE LONDON",
@@ -151,5 +184,6 @@
       "brand": "CREED",
       "name": "Green Irish Tweed"
     }
-  ]
+  ],
+  "comments": []
 }

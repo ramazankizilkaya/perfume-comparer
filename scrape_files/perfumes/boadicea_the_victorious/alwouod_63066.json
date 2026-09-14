@@ -49,6 +49,10 @@
     {
       "name": "yeşil",
       "width": "55.0746%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -91,41 +95,37 @@
       "Tütsü",
       "Kastoryum",
       "Styrax"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "0",
-    "longLasting": "1",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "0",
-    "strong": "2",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "1",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "NİCOLAİ PARFUMEUR CREATEUR",
-      "name": "Incense Oud"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
@@ -141,11 +141,11 @@
     },
     {
       "brand": "AMOUAGE",
-      "name": "Decision"
+      "name": "Purpose 50"
     },
     {
       "brand": "AMOUAGE",
-      "name": "Purpose 50"
+      "name": "Decision"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -160,16 +160,20 @@
       "name": "Royal Oud"
     },
     {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Green Sapphire"
-    },
-    {
       "brand": "AMOUAGE",
       "name": "Opus XIV – Royal Tobacco"
     },
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Green Sapphire"
+    },
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
       "name": "Dasman"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Opus XV – King Blue"
     },
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
@@ -182,10 +186,7 @@
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
       "name": "Tobacco Sapphire"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Boadicea Nemer"
     }
-  ]
+  ],
+  "comments": []
 }

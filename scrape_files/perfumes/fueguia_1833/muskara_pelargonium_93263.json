@@ -60,31 +60,31 @@
     ]
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "7",
-    "longLasting": "3",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "7",
-    "strong": "2",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "15",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "5",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -113,14 +113,6 @@
       "name": "1828"
     },
     {
-      "brand": "OLYMPİC ORCHİDS ARTİSAN PERFUMES",
-      "name": "Blackbird"
-    },
-    {
-      "brand": "FUEGUİA 1833",
-      "name": "Thays"
-    },
-    {
       "brand": "CREED",
       "name": "Bois du Portugal"
     },
@@ -141,12 +133,21 @@
       "name": "Hacivat"
     },
     {
+      "brand": "FUEGUİA 1833",
+      "name": "Luna Roja"
+    },
+    {
       "brand": "PROFUMUM ROMA",
       "name": "Arso"
     },
     {
       "brand": "SERGE LUTENS",
       "name": "Chergui"
+    },
+    {
+      "brand": "FUEGUİA 1833",
+      "name": "El Dorado"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "yeşil",
       "width": "50.3812%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "10",
+    "moderate": "55",
+    "longLasting": "27",
+    "eternal": "18"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "17",
+    "moderate": "55",
+    "strong": "23",
+    "enormous": "22"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "70",
+    "moreFemale": "5",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "6",
     "fair": "21",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "28",
+    "greatValue": "11"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "J'adore"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Solo Loewe Ella"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Roses Jasmine"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "MYSLF L’Absolu"
+    },
+    {
+      "brand": "ESCADA",
+      "name": "Joyful"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Ralph Fresh"
+    },
+    {
+      "brand": "S.T. DUPONT",
+      "name": "S.T. Dupont Blanc"
+    },
+    {
+      "brand": "TOUS",
+      "name": "Love Moments"
+    },
+    {
+      "brand": "AVON",
+      "name": "Ballroom Beauty"
+    },
+    {
+      "brand": "LİZ CLAİBORNE",
+      "name": "Bora Bora"
+    },
+    {
+      "brand": "COACH",
+      "name": "Coach Love Eau de Parfum"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "French Lavender & Honey"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "My Burberry"
+    },
+    {
+      "brand": "FRAGONARD",
+      "name": "Belle de Soleil"
+    },
+    {
+      "brand": "ADOLFO DOMİNGUEZ",
+      "name": "Bambu Mujer"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -178,5 +267,6 @@
       "brand": "RABANNE",
       "name": "Olympéa"
     }
-  ]
+  ],
+  "comments": []
 }

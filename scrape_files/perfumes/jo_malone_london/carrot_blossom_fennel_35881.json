@@ -85,86 +85,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "9",
-    "weak": "13",
-    "moderate": "14",
-    "longLasting": "5",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "20",
-    "moderate": "14",
-    "strong": "5",
-    "enormous": "13"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "3",
-    "moreFemale": "5",
-    "unisex": "7",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "5",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "7",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Carrot Blossom"
-    },
-    {
-      "brand": "ALREHAB PERFUMES",
-      "name": "Rihanat"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Nettle & Wild Achillea"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Eau de Grey Vetiver"
-    },
-    {
-      "brand": "PRADA",
-      "name": "Luna Rossa Carbon Eau de Parfum"
-    },
-    {
-      "brand": "HOUSE OF SİLLAGE",
-      "name": "Bugs Bunny"
-    },
-    {
-      "brand": "SİREN SONG ELİXİRS",
-      "name": "Fluffy Bunny"
-    },
-    {
-      "brand": "SNİF",
-      "name": "Spray Tan"
-    },
-    {
-      "brand": "GOUTAL",
-      "name": "Mandragore Pourpre"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Carrot Charm"
-    },
-    {
-      "brand": "CACHAREL",
-      "name": "Eden"
-    },
-    {
-      "brand": "EAU D'ITALİE",
-      "name": "Sienne l´Hiver"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Sweet Carrot Cake"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JO MALONE LONDON",
@@ -184,6 +131,10 @@
     },
     {
       "brand": "JO MALONE LONDON",
+      "name": "Nectarine Blossom & Honey"
+    },
+    {
+      "brand": "JO MALONE LONDON",
       "name": "Peony & Blush Suede"
     },
     {
@@ -197,10 +148,6 @@
     {
       "brand": "HERMÈS",
       "name": "Un Jardin Sur Le Toit"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Pomegranate Noir"
     },
     {
       "brand": "TOM FORD",
@@ -226,5 +173,6 @@
       "brand": "JO MALONE LONDON",
       "name": "Nasturtium & Clover"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "52.7932%"
+    },
+    {
+      "name": "Online satın alın 13 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -94,33 +122,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "6",
+    "longLasting": "10",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "6",
+    "strong": "14",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "1",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "2",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Rive Gauche"
+    },
+    {
+      "brand": "PRİNCE MATCHABELLİ",
+      "name": "Cachet"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Caleche Soie de Parfum"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Calandre"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Anais Anais"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Gold Woman"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Climat (Vintage)"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chanel N°19"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Private Collection"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Black Onyx"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -182,5 +251,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Opium (1977)"
     }
-  ]
+  ],
+  "comments": []
 }

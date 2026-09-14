@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import Icon from "./Icon";
 import GenderControl from "./GenderControl";
 import UserMenu from "./UserMenu";
@@ -65,6 +65,8 @@ export default function Header() {
 
     const boxRef = useRef<HTMLDivElement>(null);
     const router = useRouter();
+    const pathname = usePathname();
+    const isSearchPage = pathname?.includes("/ara");
 
     useEffect(() => {
         const saved = localStorage.getItem("theme");
@@ -188,15 +190,18 @@ export default function Header() {
     return (
         <header className="site-header">
             <div className="shell header-inner">
-                <Link href="/" className="logo">
+                <Link href="/tr" className="logo">
                     Aura<em>Compare</em>
                 </Link>
 
                 <nav className="site-nav">
-                    <Link href="/ara" className="nav-link">Detaylı Arama</Link>
-                    <Link href="/marka" className="nav-link">Markalar</Link>
-                    <Link href="/blog" className="nav-link">Rehber</Link>
+                    <Link href="/tr/ara" className="nav-link">Detaylı Arama</Link>
+                    <Link href="/tr/marka" className="nav-link">Markalar</Link>
+                    <Link href="/tr/blog" className="nav-link">Rehber</Link>
                     <GenderControl />
+                    <span className="lang-badge" title="Aktif Dil: Türkçe">
+                        TR
+                    </span>
                     <button className="icon-btn" onClick={toggleTheme} aria-label="Temayı değiştir">
                         <Icon name={theme === "dark" ? "sun" : "moon"} />
                     </button>
@@ -204,20 +209,24 @@ export default function Header() {
                 </nav>
             </div>
 
-            <div className="header-search-strip">
-                <div className="shell">
-                    <div className="header-search-full" ref={boxRef}>
-                        <form className="field search-field-full" onSubmit={handleSearchSubmit}>
-                            <Icon name="search" />
-                            <input
-                                type="text"
-                                placeholder="Parfüm, marka, nota veya doğal dil ile ara (ör. kışlık hafif erkek kokusu)…"
-                                value={query}
-                                onChange={(e) => setQuery(e.target.value)}
-                                onFocus={() => query.trim().length >= 2 && setOpen(true)}
-                                autoComplete="off"
-                                aria-label="Parfüm ara"
-                            />
+            {!isSearchPage && (
+                <div className="header-search-strip">
+                    <div className="shell">
+                        <div className="header-search-full" ref={boxRef}>
+                            <form className="field search-field-full" onSubmit={handleSearchSubmit}>
+                                <Icon name="search" />
+                                <input
+                                    type="text"
+                                    placeholder="Parfüm, marka, nota veya doğal dil ile ara (ör. kışlık hafif erkek kokusu)…"
+                                    value={query}
+                                    onChange={(e) => setQuery(e.target.value)}
+                                    onFocus={() => query.trim().length >= 2 && setOpen(true)}
+                                    autoComplete="off"
+                                    autoCorrect="off"
+                                    autoCapitalize="none"
+                                    spellCheck={false}
+                                    aria-label="Parfüm ara"
+                                />
                             {query && (
                                 <button
                                     type="button"
@@ -274,7 +283,7 @@ export default function Header() {
                                                 className="ac-item"
                                                 onClick={() => goto(perfumeHref(p.path, p.slug))}
                                             >
-                                                {p.imageUrl && <img className="ac-thumb" src={mediaUrl(p.imageUrl)} alt="" />}
+                                                {p.imageUrl && <img className="ac-thumb" src={mediaUrl(p.imageUrl)} alt={`${p.brandName} ${p.name}`} />}
                                                 <span className="ac-item-info">
                                                     <span className="ac-name">{p.name}</span>
                                                     <span className="ac-meta">
@@ -354,6 +363,7 @@ export default function Header() {
                     </div>
                 </div>
             </div>
+            )}
         </header>
     );
 }

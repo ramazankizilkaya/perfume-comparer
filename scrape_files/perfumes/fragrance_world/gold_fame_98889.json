@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "narenciye",
+      "name": "beyaz çiçeksi",
       "width": "90%"
     },
     {
-      "name": "beyaz çiçeksi",
+      "name": "narenciye",
       "width": "90%"
     },
     {
@@ -31,11 +31,11 @@
       "width": "85%"
     },
     {
-      "name": "amber",
+      "name": "tatlı",
       "width": "75%"
     },
     {
-      "name": "tatlı",
+      "name": "amber",
       "width": "75%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "balsamik",
       "width": "69.5%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,53 +116,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "3",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "3",
+    "strong": "2",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Fame"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Alien Goddess"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Yara Tous"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Yara Tous"
     },
     {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Pink Eclipse"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "La Vivacité"
+    },
+    {
       "brand": "RUE BROCA",
       "name": "Nexa Musée"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Athena"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Vintage Radio"
     },
     {
       "brand": "AFNAN",
       "name": "Modest Deux"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Libre Intense"
+      "brand": "MUGLER",
+      "name": "Alien Goddess Intense"
     },
     {
       "brand": "ZİMAYA",
@@ -153,10 +202,6 @@
       "name": "The Kingdom For Women"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Fakhar Rose"
-    },
-    {
       "brand": "ARMAF",
       "name": "Club de Nuit White Imperiale"
     },
@@ -171,10 +216,7 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Mayar"
-    },
-    {
-      "brand": "ARD AL ZAAFARAN",
-      "name": "Bint Hooran"
     }
-  ]
+  ],
+  "comments": []
 }

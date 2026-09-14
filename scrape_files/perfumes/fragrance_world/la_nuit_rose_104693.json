@@ -47,8 +47,36 @@
       "width": "56.7417%"
     },
     {
-      "name": "paçuli",
+      "name": "menekşe",
       "width": "53.5953%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -94,33 +122,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "10",
+    "longLasting": "0",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "10",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "12",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "6"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "La Nuit Trésor à la Folie"
+    },
+    {
+      "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
+      "name": "Fleur Magique"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ana Abiyedh Scarlet"
+    },
+    {
+      "brand": "NORTH STAG",
+      "name": "Phenominal Quatorze XIV"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Glacier Bella"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "FRANCK OLİVİER",
@@ -129,10 +178,6 @@
     {
       "brand": "CACHAREL",
       "name": "LouLou"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "La Nuit Trésor"
     },
     {
       "brand": "НОВАЯ ЗАРЯ (THE NEW DAWN)",
@@ -181,6 +226,11 @@
     {
       "brand": "TRUSSARDİ",
       "name": "Trussardi Donna (2011)"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Poeme"
     }
-  ]
+  ],
+  "comments": []
 }

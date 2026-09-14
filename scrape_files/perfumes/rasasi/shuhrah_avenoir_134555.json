@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Shuhrah-Avenoir-134555.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Shuhrah Avenoir parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Bu yeni bir parfüm. Shuhrah Avenoir, 2026 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christian Plesch. Üst notalar: Yeşil Notalar, Pembe biber, Bergamot ve Zencefil; orta notalar: Türk Gülü, Frenk üzümü ve Kakule; alt notalar Peru balsamı, Badem ve Vanilya.",
-  "description_original": "Rasasi markasının Shuhrah Avenoir parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Bu yeni bir parfüm. Shuhrah Avenoir, 2026 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christian Plesch. Üst notalar: Yeşil Notalar, Pembe biber, Bergamot ve Zencefil; orta notalar: Türk Gülü, Frenk üzümü ve Kakule; alt notalar Peru balsamı, Badem ve Vanilya.",
+  "description_original": "Rasasi markasının Shuhrah Avenoir parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Bu yeni bir parfüm. Shuhrah Avenoir, 2026 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christian Plesch. Üst notalar: Yeşil Notalar, Pembe biber, Bergamot ve Zencefil; orta notalar: Türk Gülü, Siyah Frenk Üzümü ve Kakule; alt notalar Peru balsamı, Badem ve Bourbon Vanilya.",
   "description_enhanced": "Rasasi markasının Shuhrah Avenoir parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Bu yeni bir parfüm. Shuhrah Avenoir, 2026 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Christian Plesch. Üst notalar: Yeşil Notalar, Pembe biber, Bergamot ve Zencefil; orta notalar: Türk Gülü, Frenk üzümü ve Kakule; alt notalar Peru balsamı, Badem ve Vanilya.",
   "mainAccords": [
     {
@@ -43,12 +43,40 @@
       "width": "57.7777%"
     },
     {
+      "name": "yumuşak baharatlı",
+      "width": "56.667%"
+    },
+    {
       "name": "fındıksı",
       "width": "56.667%"
     },
     {
-      "name": "yumuşak baharatlı",
-      "width": "56.667%"
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,7 @@
     }
   },
   "seasons": {
-    "winter": "4",
+    "winter": "5",
     "spring": "1",
     "summer": "0",
     "autumn": "3",
@@ -79,60 +107,77 @@
     ],
     "middle": [
       "Türk Gülü",
-      "Frenk üzümü",
+      "Siyah Frenk Üzümü",
       "Kakule"
     ],
     "base": [
       "Peru balsamı",
       "Badem",
-      "Vanilya"
+      "Bourbon Vanilya"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "3",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "3",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "2",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
-      "brand": "RAYHAAN",
-      "name": "Tiger"
+      "brand": "PARFUMS DE MARLY",
+      "name": "Godolphin"
     },
+    {
+      "brand": "MAİSON CRİVELLİ",
+      "name": "Oud Stallion"
+    },
+    {
+      "brand": "MAİSON CRİVELLİ",
+      "name": "Oud Cadenza"
+    },
+    {
+      "brand": "THE SPİRİT OF DUBAİ",
+      "name": "Turath"
+    }
+  ],
+  "peopleAlsoLike": [
     {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Male Elixir Absolu"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas Ice"
+      "brand": "PARFUMS DE MARLY",
+      "name": "Layton"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad Elixir"
     },
     {
       "brand": "RASASİ",
-      "name": "Hawas Tropical"
+      "name": "Hawas Ice"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -143,8 +188,8 @@
       "name": "Asad Bourbon"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas Kobra"
+      "brand": "GULF ORCHİD",
+      "name": "Mango Ice"
     },
     {
       "brand": "FRENCH AVENUE",
@@ -155,8 +200,8 @@
       "name": "Al Nashama Caprice"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Dynasty"
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -164,7 +209,7 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Habik For Men"
+      "name": "Dynasty"
     },
     {
       "brand": "AROMATİX X FRENCH AVENUE",
@@ -178,5 +223,6 @@
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
     }
-  ]
+  ],
+  "comments": []
 }

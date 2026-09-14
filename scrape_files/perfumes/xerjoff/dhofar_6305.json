@@ -49,6 +49,34 @@
     {
       "name": "çiçeksi",
       "width": "47.7575%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -101,33 +129,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "6",
+    "moderate": "11",
+    "longLasting": "18",
+    "eternal": "17"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "11",
+    "strong": "37",
+    "enormous": "13"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "1",
+    "moreMale": "2",
+    "male": "14"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ARAMİS",
+      "name": "Aramis Devin"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Semi-Bespoke No. 3"
+    },
+    {
+      "brand": "ANTONİO PUİG",
+      "name": "Quorum"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Lippizan"
+    },
+    {
+      "brand": "LORENZO VİLLORESİ",
+      "name": "Uomo"
+    },
+    {
+      "brand": "AGATHO PARFUM",
+      "name": "Sileno"
+    },
+    {
+      "brand": "LACOSTE FRAGRANCES",
+      "name": "Lacoste"
+    },
+    {
+      "brand": "JEAN DESPREZ",
+      "name": "Versailles Pour Homme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TAUER PERFUMES",
@@ -144,6 +205,10 @@
     {
       "brand": "XERJOFF",
       "name": "Nio"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Renaissance"
     },
     {
       "brand": "AMOUAGE",
@@ -184,10 +249,7 @@
     {
       "brand": "NASOMATTO",
       "name": "Pardon"
-    },
-    {
-      "brand": "CREED",
-      "name": "Aventus"
     }
-  ]
+  ],
+  "comments": []
 }

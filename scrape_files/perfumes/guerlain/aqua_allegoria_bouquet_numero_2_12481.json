@@ -73,90 +73,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "9",
-    "weak": "18",
-    "moderate": "23",
-    "longLasting": "12",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "28",
-    "moderate": "23",
-    "strong": "14",
-    "enormous": "15"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "12",
-    "moreFemale": "2",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "5",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "9",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JULİETTE HAS A GUN",
-      "name": "Miss Charming"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Rosa Rossa"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Rosa Fizz"
-    },
-    {
-      "brand": "GOUTAL",
-      "name": "Quel Amour!"
-    },
-    {
-      "brand": "INDULT",
-      "name": "Manakara"
-    },
-    {
-      "brand": "SALVATORE FERRAGAMO",
-      "name": "Signorina Eau de Toilette"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Bouquet de Paris"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Rosa Rossa Harvest"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "French Kiss"
-    },
-    {
-      "brand": "PHİLOSOPHY",
-      "name": "Amazing Grace Ballet Rose"
-    },
-    {
-      "brand": "ORİFLAME",
-      "name": "Eclat Femme Weekend"
-    },
-    {
-      "brand": "DSQUARED²",
-      "name": "Wood for Her"
-    },
-    {
-      "brand": "FRAGRANCE WORLD",
-      "name": "Star Men Nebula"
-    },
-    {
-      "brand": "SİSLEY",
-      "name": "Izia"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -218,5 +161,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

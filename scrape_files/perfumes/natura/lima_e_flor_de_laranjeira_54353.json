@@ -27,16 +27,44 @@
       "width": "46.3636%"
     },
     {
-      "name": "yeşil",
+      "name": "ekşi",
       "width": "40.9091%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.03",
-    "votesCount": "148",
+    "votesCount": "149",
     "breakdown": {
       "love": "45",
-      "like": "77",
+      "like": "78",
       "ok": "12",
       "dislike": "14",
       "hate": "0"
@@ -61,33 +89,50 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "30",
+    "weak": "28",
+    "moderate": "19",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "54",
+    "moderate": "19",
+    "strong": "7",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "14",
+    "moreFemale": "8",
+    "unisex": "41",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "2",
     "fair": "12",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "30",
+    "greatValue": "8"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BİOTHERM",
+      "name": "L'Eau by Lait Corporel"
+    },
+    {
+      "brand": "AGATHA RUİZ DE LA PRADA",
+      "name": "Gotas de Color"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Uva Verde e Água de Coco"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Tangerina e Cardamomo"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -123,11 +168,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Frescor de Maracujá"
+      "name": "Jabuticaba"
     },
     {
       "brand": "NATURA",
-      "name": "Jabuticaba"
+      "name": "Frescor de Maracujá"
     },
     {
       "brand": "NATURA",
@@ -149,5 +194,6 @@
       "brand": "NATURA",
       "name": "Algodão"
     }
-  ]
+  ],
+  "comments": []
 }

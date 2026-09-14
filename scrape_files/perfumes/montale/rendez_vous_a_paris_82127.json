@@ -31,11 +31,11 @@
       "width": "72.1194%"
     },
     {
-      "name": "misk",
+      "name": "paçuli",
       "width": "64.2044%"
     },
     {
-      "name": "paçuli",
+      "name": "misk",
       "width": "64.2044%"
     },
     {
@@ -49,26 +49,54 @@
     {
       "name": "odunsu",
       "width": "50.5229%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.92",
-    "votesCount": "278",
+    "score": "3.90",
+    "votesCount": "286",
     "breakdown": {
       "love": "94",
-      "like": "101",
-      "ok": "57",
-      "dislike": "20",
+      "like": "103",
+      "ok": "62",
+      "dislike": "21",
       "hate": "6"
     }
   },
   "seasons": {
-    "winter": "55",
-    "spring": "110",
-    "summer": "84",
-    "autumn": "98",
-    "day": "91",
-    "night": "79"
+    "winter": "56",
+    "spring": "112",
+    "summer": "86",
+    "autumn": "100",
+    "day": "93",
+    "night": "80"
   },
   "notes": {
     "top": [
@@ -93,18 +121,18 @@
   "longevity": {
     "veryWeak": "4",
     "weak": "3",
-    "moderate": "43",
+    "moderate": "44",
     "longLasting": "69",
     "eternal": "20"
   },
   "sillage": {
     "intimate": "5",
-    "moderate": "43",
+    "moderate": "44",
     "strong": "61",
     "enormous": "10"
   },
   "genderVoting": {
-    "female": "66",
+    "female": "67",
     "moreFemale": "43",
     "unisex": "54",
     "moreMale": "8",
@@ -113,7 +141,7 @@
   "priceVoting": {
     "wayOverpriced": "8",
     "overpriced": "21",
-    "fair": "57",
+    "fair": "62",
     "goodValue": "22",
     "greatValue": "8"
   },
@@ -139,16 +167,20 @@
       "name": "Madawi"
     },
     {
+      "brand": "MONTALE",
+      "name": "Lucky Candy"
+    },
+    {
       "brand": "LOUİS VUİTTON",
       "name": "Cœur Battant"
     },
     {
-      "brand": "CAROLİNA HERRERA",
-      "name": "212 VIP Rosé Elixir"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Mohra Silky Rose"
     },
     {
-      "brand": "SLAVA ZAİTSEV",
-      "name": "Parfum de Soie"
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 VIP Rosé Elixir"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -163,20 +195,16 @@
       "name": "Burberry Her Eau de Toilette"
     },
     {
-      "brand": "BATH & BODY WORKS",
-      "name": "Into The Night"
+      "brand": "SLAVA ZAİTSEV",
+      "name": "Parfum de Soie"
     },
     {
-      "brand": "EX NİHİLO",
-      "name": "Lust in Paradise Extrait"
+      "brand": "ZARA",
+      "name": "Perpetual Oud"
     },
     {
-      "brand": "V CANTO",
-      "name": "Arkano Delle Stelle"
-    },
-    {
-      "brand": "MENDİTTOROSA",
-      "name": "Rituale"
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Atomic Rose"
     }
   ],
   "peopleAlsoLike": [
@@ -185,12 +213,12 @@
       "name": "Delina"
     },
     {
-      "brand": "MONTALE",
-      "name": "Intense Cafe"
-    },
-    {
       "brand": "MUGLER",
       "name": "Angel"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Intense Cafe"
     },
     {
       "brand": "MONTALE",
@@ -240,5 +268,6 @@
       "brand": "MONTALE",
       "name": "Chocolate Greedy"
     }
-  ]
+  ],
+  "comments": []
 }

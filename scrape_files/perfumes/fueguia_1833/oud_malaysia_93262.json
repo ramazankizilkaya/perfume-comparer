@@ -56,42 +56,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "1",
-    "moderate": "2",
-    "longLasting": "1",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "3",
-    "moderate": "2",
-    "strong": "0",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "1",
-    "male": "2"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "ABDES SALAAM ATTARS PERFUMES",
-      "name": "Oud Caravan No 2"
-    },
-    {
-      "brand": "AJMAL",
-      "name": "Dahn Oudh Al Shams"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "FUEGUİA 1833",
@@ -108,6 +99,10 @@
     {
       "brand": "FUEGUİA 1833",
       "name": "Ballena de la Pampa"
+    },
+    {
+      "brand": "ORMONDE JAYNE",
+      "name": "4. Montabaco Intensivo"
     },
     {
       "brand": "FUEGUİA 1833",
@@ -147,11 +142,8 @@
     },
     {
       "brand": "FUEGUİA 1833",
-      "name": "Biblioteca de Babel"
-    },
-    {
-      "brand": "FUEGUİA 1833",
       "name": "Ceniza De Coca"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -23,11 +23,11 @@
       "width": "87%"
     },
     {
-      "name": "amber",
+      "name": "iris",
       "width": "80%"
     },
     {
-      "name": "iris",
+      "name": "amber",
       "width": "80%"
     },
     {
@@ -49,13 +49,41 @@
     {
       "name": "sıcak baharatlı",
       "width": "54%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.36",
-    "votesCount": "22",
+    "score": "4.39",
+    "votesCount": "23",
     "breakdown": {
-      "love": "13",
+      "love": "14",
       "like": "6",
       "ok": "1",
       "dislike": "2",
@@ -85,33 +113,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "11",
+    "longLasting": "3",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "11",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "4",
+    "male": "12"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "13"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CREED",
+      "name": "Green Irish Tweed"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Amber Oud Carbon Edition"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Tres Nuit"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Night Club Irish Green"
+    },
+    {
+      "brand": "BOND NO 9",
+      "name": "Chez Bond"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Egra Men"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Champion Black"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Venti Green Tweed"
+    },
+    {
+      "brand": "COTY",
+      "name": "Aspen For Men"
+    },
+    {
+      "brand": "ANFAR LONDON",
+      "name": "The Masterpiece"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CREED",
@@ -122,8 +195,12 @@
       "name": "Prada L'Homme"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Outlands"
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme Dylan Blue"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Man Eau Fraiche"
     },
     {
       "brand": "VERSACE",
@@ -140,6 +217,10 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Maahir Legacy"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -164,14 +245,7 @@
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Althaïr"
-    },
-    {
-      "brand": "AFNAN",
-      "name": "Supremacy Collector's Edition Pour Homme"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Egoiste Platinum"
     }
-  ]
+  ],
+  "comments": []
 }

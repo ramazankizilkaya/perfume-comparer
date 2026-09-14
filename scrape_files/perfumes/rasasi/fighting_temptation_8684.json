@@ -41,6 +41,34 @@
     {
       "name": "paçuli",
       "width": "44.2856%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,33 +111,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "10",
+    "longLasting": "6",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "10",
+    "strong": "9",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "4",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "L'Eau d'Issey Pour Homme"
+    },
+    {
+      "brand": "UFC PERFUMES",
+      "name": "Ultimate K.O."
+    },
+    {
+      "brand": "UFC PERFUMES",
+      "name": "Takedown"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Amber Empire"
+    },
+    {
+      "brand": "G PARFUMS",
+      "name": "Lucifer Collector's Edition"
+    },
+    {
+      "brand": "VİNCİ",
+      "name": "Chevalier Alter Ego"
+    },
+    {
+      "brand": "VİNCİ",
+      "name": "Chevalier Seduction"
+    },
+    {
+      "brand": "VİNCİ",
+      "name": "Chevalier Tobacco"
+    },
+    {
+      "brand": "VİNCİ",
+      "name": "Русский Дух Непобедимый"
+    },
+    {
+      "brand": "FOR ME BY GOLD APPLE",
+      "name": "Conquer Me"
+    },
+    {
+      "brand": "VİNCİ",
+      "name": "Русский Дух Сила В Правде"
+    },
+    {
+      "brand": "G PARFUMS",
+      "name": "Hard Porn"
+    },
+    {
+      "brand": "G PARFUMS",
+      "name": "Love Or Die Collector's Edition"
+    },
+    {
+      "brand": "SOUL OF RUSSİA",
+      "name": "Vladivostok"
+    },
+    {
+      "brand": "MÉJANA FRAGRANCES",
+      "name": "Coconut Agarwood"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ISSEY MİYAKE",
@@ -171,5 +260,6 @@
       "brand": "RÉMY LATOUR",
       "name": "Cigar"
     }
-  ]
+  ],
+  "comments": []
 }

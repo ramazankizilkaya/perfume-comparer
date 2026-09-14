@@ -29,15 +29,43 @@
     {
       "name": "animalik",
       "width": "43.8056%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.26",
-    "votesCount": "43",
+    "score": "4.22",
+    "votesCount": "49",
     "breakdown": {
-      "love": "25",
-      "like": "9",
-      "ok": "4",
+      "love": "26",
+      "like": "13",
+      "ok": "5",
       "dislike": "5",
       "hate": "0"
     }
@@ -45,8 +73,8 @@
   "seasons": {
     "winter": "12",
     "spring": "9",
-    "summer": "2",
-    "autumn": "11",
+    "summer": "3",
+    "autumn": "12",
     "day": "6",
     "night": "10"
   },
@@ -61,33 +89,82 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "5",
+    "longLasting": "6",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "5",
+    "strong": "2",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "5",
+    "unisex": "6",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "7",
+    "fair": "5",
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Cracheuse de Flammes"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Galop d'Hermes"
+    },
+    {
+      "brand": "MİYA SHİNMA",
+      "name": "Kimono Collection Sakura"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Hermessence Rose Ikebana"
+    },
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "A La Rose"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Kelly Calèche"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Kelly Caleche Eau de Parfum"
+    },
+    {
+      "brand": "NEELA VERMEİRE CREATİONS",
+      "name": "Mohur"
+    },
+    {
+      "brand": "UNE NUİT NOMADE",
+      "name": "Rose America"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Elixir Pour Femme Parfum"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Elixir Pour Femme Essence De Parfum"
+    },
+    {
+      "brand": "VİA FRANÇOİS",
+      "name": "Or et Flamme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -114,6 +191,10 @@
       "name": "Angélique Noire"
     },
     {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "En Passant"
+    },
+    {
       "brand": "GUERLAİN",
       "name": "Cuir Béluga"
     },
@@ -130,16 +211,12 @@
       "name": "Feminité du Bois"
     },
     {
-      "brand": "SERGE LUTENS",
-      "name": "A La Nuit"
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Carnal Flower"
     },
     {
       "brand": "SERGE LUTENS",
       "name": "Fleurs d'Oranger"
-    },
-    {
-      "brand": "NAOMİ GOODSİR",
-      "name": "Nuit de Bakélite"
     },
     {
       "brand": "SERGE LUTENS",
@@ -149,5 +226,6 @@
       "brand": "JOVOY PARİS",
       "name": "Remember Me"
     }
-  ]
+  ],
+  "comments": []
 }

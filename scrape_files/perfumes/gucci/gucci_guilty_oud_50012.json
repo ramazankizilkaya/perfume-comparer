@@ -63,7 +63,7 @@
     }
   },
   "seasons": {
-    "winter": "165",
+    "winter": "166",
     "spring": "80",
     "summer": "23",
     "autumn": "148",
@@ -88,86 +88,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "14",
-    "weak": "18",
-    "moderate": "63",
-    "longLasting": "75",
-    "eternal": "49"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "24",
-    "moderate": "63",
-    "strong": "117",
-    "enormous": "70"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "11",
-    "moreFemale": "5",
-    "unisex": "67",
-    "moreMale": "37",
-    "male": "24"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "7",
-    "overpriced": "22",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "24",
-    "goodValue": "27",
-    "greatValue": "4"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUCCİ",
-      "name": "Gucci Guilty Absolute Pour Femme"
-    },
-    {
-      "brand": "FRANCK OLİVİER",
-      "name": "Oud Touch"
-    },
-    {
-      "brand": "BOND NO 9",
-      "name": "Perfumista Avenue"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "Oud Palao Eau de Parfum"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Oud Fleur"
-    },
-    {
-      "brand": "VALENTİNO",
-      "name": "Valentina Rosa Assoluto"
-    },
-    {
-      "brand": "VENEZİA 1920",
-      "name": "Oud Royale"
-    },
-    {
-      "brand": "ALFRED DUNHİLL",
-      "name": "Egyptian Smoke"
-    },
-    {
-      "brand": "PARIS CORNER",
-      "name": "Arabian Oryx - Intense Oud"
-    },
-    {
-      "brand": "BANANA REPUBLİC",
-      "name": "17 Oud Mosaic"
-    },
-    {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Oud Silk Mood"
-    },
-    {
-      "brand": "FRANCK OLİVİER",
-      "name": "Oud Vanille"
-    },
-    {
-      "brand": "MİZENSİR",
-      "name": "Perfect Oud Extrait"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUCCİ",
@@ -229,5 +176,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

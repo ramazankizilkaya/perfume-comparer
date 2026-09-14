@@ -27,11 +27,11 @@
       "width": "53.839%"
     },
     {
-      "name": "paçuli",
+      "name": "gül",
       "width": "51.6718%"
     },
     {
-      "name": "gül",
+      "name": "paçuli",
       "width": "51.6718%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "odunsu",
       "width": "45.6037%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,45 +118,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "3",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "1",
+    "strong": "3",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Extreme 2013"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb de Paris"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb"
+    },
+    {
+      "brand": "PARİS ELYSEES",
+      "name": "Vodka Pink"
+    },
+    {
+      "brand": "MUGLER",
+      "name": "Angel"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Prada Candy L'Eau"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİKTOR&ROLF",
       "name": "Flowerbomb"
     },
     {
-      "brand": "DİOR",
-      "name": "J'adore"
-    },
-    {
       "brand": "CHANEL",
       "name": "Chance Eau Tendre"
+    },
+    {
+      "brand": "DİOR",
+      "name": "J'adore"
     },
     {
       "brand": "VERSACE",
@@ -178,5 +231,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Acqua di Gioia"
     }
-  ]
+  ],
+  "comments": []
 }

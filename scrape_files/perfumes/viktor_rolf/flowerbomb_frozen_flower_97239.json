@@ -23,11 +23,11 @@
       "width": "63.7931%"
     },
     {
-      "name": "paçuli",
+      "name": "gül",
       "width": "51.7241%"
     },
     {
-      "name": "gül",
+      "name": "paçuli",
       "width": "51.7241%"
     },
     {
@@ -45,17 +45,45 @@
     {
       "name": "tatlı",
       "width": "44.4828%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.05",
-    "votesCount": "20",
+    "score": "3.95",
+    "votesCount": "22",
     "breakdown": {
-      "love": "9",
+      "love": "10",
       "like": "7",
       "ok": "2",
       "dislike": "0",
-      "hate": "2"
+      "hate": "3"
     }
   },
   "seasons": {
@@ -83,33 +111,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "2",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "2",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb"
+    },
+    {
+      "brand": "AVON",
+      "name": "Imari Rouge"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Extreme Sparkle 2008"
+    },
+    {
+      "brand": "MİCHEL GERMAİN",
+      "name": "Sexual Noir For Women"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Miss Dior Parfum (2024)"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Mariage"
+    },
+    {
+      "brand": "OAKCHA",
+      "name": "Reborn Lust"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Floral Fantasy"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Pink Sparkle"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİKTOR&ROLF",
@@ -144,10 +209,6 @@
       "name": "Delina Exclusif"
     },
     {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "La Belle"
-    },
-    {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Musc Noir Rose For Her"
     },
@@ -156,12 +217,12 @@
       "name": "Libre Intense"
     },
     {
-      "brand": "CAROLİNA HERRERA",
-      "name": "Good Girl"
-    },
-    {
       "brand": "VALENTİNO",
       "name": "Valentino Donna"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Her Parfum"
     },
     {
       "brand": "LANCÔME",
@@ -170,6 +231,11 @@
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium Over Red"
+    },
+    {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Vanilla Vibes"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Zara/Vanilla-Collection-03-Spicy-Playful-Magnetic-124081.html",
   "brand": "Zara parfüm ve kolonya",
   "description": "Zara markasının Vanilla Collection 03: Spicy, Playful, Magnetic parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Kokuda Vanilya, Cappuccino ve Kakule notaları bulunur.",
-  "description_original": "Zara markasının Vanilla Collection 03: Spicy, Playful, Magnetic parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Kokuda Vanilya, Cappuccino ve Kakule notaları bulunur.",
+  "description_original": "Zara markasının Vanilla Collection 03: Spicy, Playful, Magnetic parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Kokuda Bourbon Vanilya, Cappuccino ve Kakule notaları bulunur.",
   "description_enhanced": "Zara markasının Vanilla Collection 03: Spicy, Playful, Magnetic parfümü, kadınlar ve erkekler için Oryantal Vanilya bir kokudur. Kokuda Vanilya, Cappuccino ve Kakule notaları bulunur.",
   "mainAccords": [
     {
@@ -37,33 +37,61 @@
     {
       "name": "laktonik",
       "width": "45.1667%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.45",
-    "votesCount": "31",
+    "score": "4.44",
+    "votesCount": "32",
     "breakdown": {
       "love": "18",
-      "like": "11",
+      "like": "12",
       "ok": "0",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "23",
+    "winter": "24",
     "spring": "7",
     "summer": "5",
-    "autumn": "18",
-    "day": "19",
-    "night": "19"
+    "autumn": "19",
+    "day": "20",
+    "night": "20"
   },
   "notes": {
     "top": [],
     "middle": [],
     "base": [],
     "all": [
-      "Vanilya",
+      "Bourbon Vanilya",
       "Cappuccino",
       "Kakule"
     ]
@@ -72,7 +100,7 @@
     "veryWeak": "1",
     "weak": "1",
     "moderate": "6",
-    "longLasting": "10",
+    "longLasting": "11",
     "eternal": "0"
   },
   "sillage": {
@@ -85,7 +113,7 @@
     "female": "0",
     "moreFemale": "0",
     "unisex": "7",
-    "moreMale": "11",
+    "moreMale": "12",
     "male": "2"
   },
   "priceVoting": {
@@ -93,7 +121,7 @@
     "overpriced": "0",
     "fair": "0",
     "goodValue": "4",
-    "greatValue": "11"
+    "greatValue": "12"
   },
   "remindsMeOf": [
     {
@@ -119,6 +147,10 @@
   ],
   "peopleAlsoLike": [
     {
+      "brand": "ZARA",
+      "name": "(Shamanilla)"
+    },
+    {
       "brand": "FRENCH AVENUE",
       "name": "Liquid Brun"
     },
@@ -128,7 +160,7 @@
     },
     {
       "brand": "ZARA",
-      "name": "Vanilla Collection 01: Irresistible, Magnetic, Delicious"
+      "name": "Sand Desert At Sunset Intense"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -136,7 +168,7 @@
     },
     {
       "brand": "ZARA",
-      "name": "Sand Desert At Sunset"
+      "name": "Vanilla Collection 01: Irresistible, Magnetic, Delicious"
     },
     {
       "brand": "ZARA",
@@ -144,39 +176,36 @@
     },
     {
       "brand": "ZARA",
-      "name": "Bohemian Oud"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Oud Wood"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Amber Fever"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Zara Night Pour Homme III"
-    },
-    {
-      "brand": "BENTLEY",
-      "name": "Bentley for Men Intense"
+      "name": "Sand Desert At Sunset"
     },
     {
       "brand": "ZARA",
       "name": "Ebony Wood"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Terre d'Hermès"
+      "brand": "KENZO",
+      "name": "Kenzo Homme Eau de Toilette Intense"
     },
     {
       "brand": "ZARA",
-      "name": "Cocoa & Latte"
+      "name": "Cherry Stain 02 Bold Dark Exotic"
     },
     {
-      "brand": "MONTBLANC",
-      "name": "Legend Spirit"
+      "brand": "DİOR",
+      "name": "Fahrenheit"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Vibrant Leather Bogoss"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Vibrant Leather Oud"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Vibrant Leather Summer Breeze"
     }
-  ]
+  ],
+  "comments": []
 }

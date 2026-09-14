@@ -49,21 +49,49 @@
     {
       "name": "metalik",
       "width": "48.5124%"
+    },
+    {
+      "name": "Online satın alın 16 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.90",
+    "score": "3.89",
     "votesCount": "105",
     "breakdown": {
-      "love": "34",
-      "like": "42",
+      "love": "33",
+      "like": "43",
       "ok": "15",
       "dislike": "12",
       "hate": "2"
     }
   },
   "seasons": {
-    "winter": "40",
+    "winter": "41",
     "spring": "52",
     "summer": "25",
     "autumn": "52",
@@ -92,33 +120,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "29",
+    "longLasting": "35",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "29",
+    "strong": "28",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "6",
+    "unisex": "47",
+    "moreMale": "18",
+    "male": "6"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "1",
     "fair": "15",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "26",
+    "greatValue": "45"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RASASİ",
+      "name": "Oud Al Mubakhar"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Excellent Men"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Black Aoud"
+    },
+    {
+      "brand": "RAMON MONEGAL",
+      "name": "Faïsa"
+    },
+    {
+      "brand": "AVON",
+      "name": "Wild Country"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Aseel"
+    },
+    {
+      "brand": "CHOPARD",
+      "name": "Chopard Rose Malaki"
+    },
+    {
+      "brand": "AMJAD",
+      "name": "Majestic Spice"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Cairo"
+    },
+    {
+      "brand": "THE FRAGRANCE KİTCHEN",
+      "name": "Merry Poplin"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Aoud Damascus"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Oudi"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Esraa"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Cuir Cannage"
+    },
+    {
+      "brand": "SİSLEY",
+      "name": "Soir d'Оrient"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RASASİ",
@@ -180,5 +269,6 @@
       "brand": "JOOP!",
       "name": "Joop! Homme"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,26 +49,54 @@
     {
       "name": "çiçeksi",
       "width": "49.203%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.26",
-    "votesCount": "330",
+    "score": "4.27",
+    "votesCount": "332",
     "breakdown": {
-      "love": "160",
-      "like": "131",
+      "love": "161",
+      "like": "132",
       "ok": "12",
       "dislike": "20",
       "hate": "7"
     }
   },
   "seasons": {
-    "winter": "29",
+    "winter": "30",
     "spring": "162",
     "summer": "169",
     "autumn": "76",
     "day": "172",
-    "night": "44"
+    "night": "46"
   },
   "notes": {
     "top": [
@@ -93,33 +121,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "7",
+    "weak": "20",
+    "moderate": "94",
+    "longLasting": "43",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "27",
+    "moderate": "94",
+    "strong": "39",
+    "enormous": "19"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "29",
+    "moreMale": "19",
+    "male": "32"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "12",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "38",
+    "greatValue": "22"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Mate Leaves (Folhas de Mate)"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ryo Floresta"
+    },
+    {
+      "brand": "DUCATİ",
+      "name": "Ducati"
+    },
+    {
+      "brand": "NATURA",
+      "name": "#Urbano Natura 2026"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ryo Chuva"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Matcha"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor Tukumã"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor Banho de Cheiro Hortelã Pimenta"
+    },
+    {
+      "brand": "BANANA REPUBLİC",
+      "name": "78 Vintage Green"
+    },
+    {
+      "brand": "AVON",
+      "name": "Life Colour by Kenzo Takada For Him"
+    },
+    {
+      "brand": "AVATİM",
+      "name": "Seleto"
+    },
+    {
+      "brand": "DSQUARED²",
+      "name": "Green Wood"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "From the Garden"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Greenley"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Lalique White"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -181,5 +270,6 @@
       "brand": "NATURA",
       "name": "Essencial Exclusivo"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,15 +49,43 @@
     {
       "name": "tatlı",
       "width": "49.27%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.23",
-    "votesCount": "246",
+    "votesCount": "247",
     "breakdown": {
       "love": "101",
       "like": "120",
-      "ok": "8",
+      "ok": "9",
       "dislike": "15",
       "hate": "2"
     }
@@ -66,9 +94,9 @@
     "winter": "80",
     "spring": "42",
     "summer": "24",
-    "autumn": "78",
+    "autumn": "79",
     "day": "29",
-    "night": "113"
+    "night": "114"
   },
   "notes": {
     "top": [
@@ -114,7 +142,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "7",
-    "fair": "8",
+    "fair": "9",
     "goodValue": "6",
     "greatValue": "3"
   },
@@ -160,6 +188,10 @@
       "name": "Black Agent"
     },
     {
+      "brand": "ROBERTO CAVALLİ",
+      "name": "Roberto Cavalli Man"
+    },
+    {
       "brand": "SALVATORE FERRAGAMO",
       "name": "F by Ferragamo Black"
     },
@@ -174,10 +206,6 @@
     {
       "brand": "PRADA",
       "name": "Luna Rossa Ocean Eau de Parfum"
-    },
-    {
-      "brand": "MONTBLANC",
-      "name": "Legend Spirit"
     }
   ],
   "peopleAlsoLike": [
@@ -241,5 +269,6 @@
       "brand": "BVLGARİ",
       "name": "Aqva Pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

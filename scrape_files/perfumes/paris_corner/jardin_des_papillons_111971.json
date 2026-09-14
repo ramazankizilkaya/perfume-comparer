@@ -29,13 +29,41 @@
     {
       "name": "amber",
       "width": "51.9609%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.23",
-    "votesCount": "48",
+    "score": "4.24",
+    "votesCount": "49",
     "breakdown": {
-      "love": "29",
+      "love": "30",
       "like": "9",
       "ok": "4",
       "dislike": "4",
@@ -68,41 +96,98 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "2",
+    "moderate": "13",
+    "longLasting": "2",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "13",
+    "strong": "2",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "13",
+    "moreFemale": "8",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "1",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "12",
+    "greatValue": "11"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Victoria"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Devotion"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Delicious Bouquet"
+    },
+    {
+      "brand": "LE FALCONÉ PERFUMES",
+      "name": "Shouq"
+    },
+    {
+      "brand": "LE BONHEUR PERFUMES",
+      "name": "Nightly Moon"
+    },
+    {
+      "brand": "ZARA",
+      "name": "A Sweet Pastry In Paris"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Devotion Intense"
+    },
+    {
+      "brand": "MYKONOS",
+      "name": "Nautilius"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas Love"
+    },
+    {
+      "brand": "CASAMORATİ 1888",
+      "name": "Lira"
+    },
+    {
+      "brand": "AKRO",
+      "name": "Bake"
+    },
+    {
+      "brand": "CASAMORATİ 1888",
+      "name": "Dama Bianca"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Junoon Noir"
+    },
+    {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Empire Victor"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "PARIS CORNER",
-      "name": "Papillon des Vents"
+      "name": "Indomitable"
     },
     {
       "brand": "PARIS CORNER",
-      "name": "Indomitable"
+      "name": "Papillon des Vents"
     },
     {
       "brand": "PARIS CORNER",
@@ -129,8 +214,16 @@
       "name": "Perseviron Fig Hug"
     },
     {
+      "brand": "PARIS CORNER",
+      "name": "Eshal Vanilla"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Nebras"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Nebras Elixir"
     },
     {
       "brand": "KHADLAJ PERFUMES",
@@ -147,14 +240,7 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Atheeri"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Eclaire"
     }
-  ]
+  ],
+  "comments": []
 }

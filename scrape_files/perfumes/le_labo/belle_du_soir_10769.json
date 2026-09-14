@@ -41,6 +41,34 @@
     {
       "name": "taze",
       "width": "44.0508%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -77,33 +105,58 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "6",
+    "longLasting": "2",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "6",
+    "strong": "5",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CATHERİNE DENEUVE",
+      "name": "Deneuve"
+    },
+    {
+      "brand": "AVON",
+      "name": "Timeless"
+    },
+    {
+      "brand": "GUY LAROCHE",
+      "name": "Fidji Parfum"
+    },
+    {
+      "brand": "GUY LAROCHE",
+      "name": "Fidji du Soir"
+    },
+    {
+      "brand": "GUY LAROCHE",
+      "name": "Fidji Eau de Toilette"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY Women"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LE LABO",
@@ -165,5 +218,6 @@
       "brand": "CHANEL",
       "name": "Cristalle Eau de Toilette"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -61,66 +61,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "4",
-    "moderate": "20",
-    "longLasting": "8",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "6",
-    "moderate": "20",
-    "strong": "6",
-    "enormous": "4"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "8",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "3",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "3",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Gorgeous"
-    },
-    {
-      "brand": "CALVİN KLEİN",
-      "name": "Eternity Summer Daze For Women"
-    },
-    {
-      "brand": "MARC JACOBS",
-      "name": "Daisy Love Eau So Sweet"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Very Sexy Night Eau de Parfum"
-    },
-    {
-      "brand": "DONNA KARAN",
-      "name": "DKNY 24/7 Electric"
-    },
-    {
-      "brand": "FABİEN MARCHE",
-      "name": "Élixir de Mûre"
-    },
-    {
-      "brand": "SALVATORE FERRAGAMO",
-      "name": "Signorina Misteriosa"
-    },
-    {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Prerogative Rave"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JUİCY COUTURE",
@@ -159,12 +126,12 @@
       "name": "Viva la Juicy Gold Couture"
     },
     {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Scandalous"
-    },
-    {
       "brand": "BRİTNEY SPEARS",
       "name": "Midnight Fantasy"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Scandalous"
     },
     {
       "brand": "VİCTORİA'S SECRET",
@@ -182,5 +149,6 @@
       "brand": "LANCÔME",
       "name": "La Nuit Trésor"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -515,6 +515,8 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                     <RelatedBlock
                         title="Benzer kokular"
                         items={perfume.alternatives}
+                        currentPerfumeName={perfume.name}
+                        kind="alternative"
                     />
                 )}
 
@@ -522,6 +524,8 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                     <RelatedBlock
                         title="Bu parfümü sevenler şunları da sevdi"
                         items={perfume.alsoLiked}
+                        currentPerfumeName={perfume.name}
+                        kind="alsoLiked"
                     />
                 )}
 
@@ -718,21 +722,40 @@ function Bars({ items, sort = true }: { items: ScoredRef[]; sort?: boolean }) {
 function RelatedBlock({
     title,
     items,
+    currentPerfumeName,
+    kind,
 }: {
     title: string;
     items: RelatedPerfume[];
+    currentPerfumeName: string;
+    kind: "alternative" | "alsoLiked";
 }) {
     return (
         <section className="block">
             <h2 className="block-title">{title}</h2>
             <div className="related-grid">
-                {items.slice(0, 12).map((r) => (
-                    <Link key={r.perfumeSlug} href={perfumeHref(r.path, r.perfumeSlug)} className="related-item">
-                        <img src={mediaUrl(r.imageUrl) || PLACEHOLDER} alt="" loading="lazy" />
-                        <span className="related-brand">{r.brand.name}</span>
-                        <span className="related-name">{r.perfumeName}</span>
-                    </Link>
-                ))}
+                {items.slice(0, 12).map((r) => {
+                    const altText =
+                        kind === "alsoLiked"
+                            ? `${currentPerfumeName} sevenler ${r.brand.name} ${r.perfumeName} parfümünü de sevdi`
+                            : `${currentPerfumeName} benzeri ${r.brand.name} ${r.perfumeName} parfümü`;
+                    return (
+                        <Link
+                            key={r.perfumeSlug}
+                            href={perfumeHref(r.path, r.perfumeSlug)}
+                            className="related-item"
+                            title={`${r.brand.name} ${r.perfumeName} incele`}
+                        >
+                            <img
+                                src={mediaUrl(r.imageUrl) || PLACEHOLDER}
+                                alt={altText}
+                                loading="lazy"
+                            />
+                            <span className="related-brand">{r.brand.name}</span>
+                            <span className="related-name">{r.perfumeName}</span>
+                        </Link>
+                    );
+                })}
             </div>
         </section>
     );

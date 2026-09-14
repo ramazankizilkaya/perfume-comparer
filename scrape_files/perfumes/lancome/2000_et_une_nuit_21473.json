@@ -19,7 +19,7 @@
       "width": "87.2727%"
     },
     {
-      "name": "taze baharatlı",
+      "name": "odunsu",
       "width": "80.9091%"
     },
     {
@@ -27,7 +27,7 @@
       "width": "80.9091%"
     },
     {
-      "name": "odunsu",
+      "name": "taze baharatlı",
       "width": "80.9091%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "sabunsu",
       "width": "47.1818%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,33 +111,46 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "1",
+    "strong": "0",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Mille et Une Roses"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Mille et Une Roses"
+    },
+    {
+      "brand": "LANVİN",
+      "name": "Rumeur"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AGENT PROVOCATEUR",
@@ -163,5 +204,6 @@
       "brand": "YOHJİ YAMAMOTO",
       "name": "Yohji 1996"
     }
-  ]
+  ],
+  "comments": []
 }

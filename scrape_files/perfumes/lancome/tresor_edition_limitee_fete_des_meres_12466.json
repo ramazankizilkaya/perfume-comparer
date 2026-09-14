@@ -39,16 +39,44 @@
       "width": "54.9476%"
     },
     {
-      "name": "amber",
+      "name": "iris",
       "width": "53.4801%"
     },
     {
-      "name": "iris",
+      "name": "amber",
       "width": "53.4801%"
     },
     {
       "name": "taze",
       "width": "50.6918%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -95,33 +123,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "4",
+    "longLasting": "7",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "4",
+    "strong": "8",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Trésor"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Tresor en Or"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Tresor Elixir"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -160,16 +201,16 @@
       "name": "5th Avenue"
     },
     {
+      "brand": "GİVENCHY",
+      "name": "Amarige"
+    },
+    {
       "brand": "DİOR",
       "name": "Poison"
     },
     {
       "brand": "DİOR",
       "name": "Hypnotic Poison"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "Amarige"
     },
     {
       "brand": "CHANEL",
@@ -183,5 +224,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

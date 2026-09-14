@@ -49,14 +49,18 @@
     {
       "name": "misk",
       "width": "51.4143%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
     "score": "4.33",
-    "votesCount": "162",
+    "votesCount": "163",
     "breakdown": {
-      "love": "92",
-      "like": "47",
+      "love": "91",
+      "like": "49",
       "ok": "8",
       "dislike": "15",
       "hate": "0"
@@ -66,7 +70,7 @@
     "winter": "67",
     "spring": "25",
     "summer": "9",
-    "autumn": "65",
+    "autumn": "66",
     "day": "38",
     "night": "64"
   },
@@ -79,6 +83,7 @@
       "Karanfil",
       "Muskat",
       "Yasemin",
+      "Karanfil",
       "Neroli",
       "Zencefil",
       "Pembe biber"
@@ -96,97 +101,37 @@
       "Misk",
       "Yosun",
       "Vetiver"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "6",
-    "moderate": "15",
-    "longLasting": "30",
-    "eternal": "29"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "8",
-    "moderate": "15",
-    "strong": "38",
-    "enormous": "29"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "3",
-    "unisex": "22",
-    "moreMale": "25",
-    "male": "4"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "6",
-    "overpriced": "12",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "8",
-    "goodValue": "8",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Myrrhe Impériale"
-    },
-    {
-      "brand": "PENHALİGON'S",
-      "name": "Clandestine Clara"
-    },
-    {
-      "brand": "HOUSE OF MATRİARCH",
-      "name": "Coco Blanc"
-    },
-    {
-      "brand": "TİZİANA TERENZİ",
-      "name": "Laudano Nero"
-    },
-    {
-      "brand": "TESORİ D'ORİENTE",
-      "name": "Legno di Guajaco"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Material"
-    },
-    {
-      "brand": "PERRİS MONTE CARLO",
-      "name": "Balsamir"
-    },
-    {
-      "brand": "MARRAKECH IMPERİAL",
-      "name": "Les Nuits De Marrakech"
-    },
-    {
-      "brand": "MONTALE",
-      "name": "Dark Vanilla"
-    },
-    {
-      "brand": "NİSHANE",
-      "name": "Ani"
-    },
-    {
-      "brand": "DAVİDOFF",
-      "name": "Davidoff Amber Blend"
-    },
-    {
-      "brand": "VİKTORİA MİNYA",
-      "name": "Eau de Hongrie"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Tobacco Oud"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "Benjoin Bohème"
-    },
-    {
-      "brand": "EX NİHİLO",
-      "name": "Amber Sky"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -248,5 +193,6 @@
       "brand": "XERJOFF",
       "name": "XJ 1861 Naxos"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -2,7 +2,7 @@
   "name": "Parfum D'Hommes Intense Fragrance World",
   "targetGender": "erkekler için",
   "fragranceFamily": "Floral",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.113108.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Fragrance-World/Parfum-D-Hommes-Intense-113108.html",
   "brand": "Fragrance World parfüm ve kolonya",
@@ -49,26 +49,54 @@
     {
       "name": "meyvemsi",
       "width": "45.75%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.10",
-    "votesCount": "41",
+    "score": "4.07",
+    "votesCount": "42",
     "breakdown": {
-      "love": "18",
-      "like": "16",
+      "love": "17",
+      "like": "18",
       "ok": "3",
       "dislike": "1",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "21",
-    "spring": "13",
+    "winter": "22",
+    "spring": "14",
     "summer": "3",
-    "autumn": "21",
-    "day": "14",
-    "night": "23"
+    "autumn": "22",
+    "day": "15",
+    "night": "24"
   },
   "notes": {
     "top": [
@@ -86,33 +114,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "3",
+    "moderate": "19",
+    "longLasting": "3",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "19",
+    "strong": "4",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "13",
+    "moreMale": "9",
+    "male": "10"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "10",
+    "greatValue": "19"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2011"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Dark Door Intense"
+    },
+    {
+      "brand": "RAYHAAN",
+      "name": "Obsidian"
+    },
+    {
+      "brand": "AURORA SCENTS",
+      "name": "Aroma IV"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Qaa'ed Intense"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Genuine Man Giovany Reserve"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2007"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -135,44 +192,45 @@
       "name": "Encre Noire"
     },
     {
-      "brand": "MANCERA",
-      "name": "Cedrat Boise"
+      "brand": "LALİQUE",
+      "name": "Encre Noire Sport"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Alpine Homme Sport"
+      "brand": "LALİQUE",
+      "name": "Encre Noire A L'Extreme"
     },
     {
       "brand": "FRAGRANCE WORLD",
       "name": "Proud Of You Absolute"
     },
     {
-      "brand": "CREED",
-      "name": "Aventus"
-    },
-    {
       "brand": "MAİSON ALHAMBRA",
       "name": "Toro Pour Homme"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre d'Hermès"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Turathi Blue"
     },
     {
       "brand": "BURBERRY",
       "name": "London for Men"
     },
     {
-      "brand": "FRENCH AVENUE",
-      "name": "Vulcan Feu"
-    },
-    {
       "brand": "AFNAN",
       "name": "9pm"
     },
     {
-      "brand": "MARC-ANTOİNE BARROİS",
-      "name": "Ganymede"
+      "brand": "FRENCH AVENUE",
+      "name": "Vulcan Feu"
     },
     {
-      "brand": "ROCHAS",
-      "name": "Moustache Eau de Parfum"
+      "brand": "MARC-ANTOİNE BARROİS",
+      "name": "Ganymede"
     }
-  ]
+  ],
+  "comments": []
 }

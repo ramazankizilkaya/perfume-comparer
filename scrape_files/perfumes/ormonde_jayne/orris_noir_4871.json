@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Ormonde-Jayne/Orris-Noir-4871.html",
   "brand": "Ormonde Jayne parfüm ve kolonya",
   "description": "Ormonde Jayne markasının Orris Noir parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Orris Noir, 2006 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Geza Schoen. Üst notalar: Pembe biber, Kişniş, Pelin otu ve Bergamot; orta notalar: Defne yaprağı, Pimento, İris ve Yasemin Sambac; alt notalar Guayak ağacı, Mür, Çin sediri, Tütsü ve Paçuli.",
-  "description_original": "Ormonde Jayne markasının Orris Noir parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Orris Noir, 2006 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Geza Schoen. Üst notalar: Pembe biber, Kişniş, Pelin otu ve Bergamot; orta notalar: Defne yaprağı, Pimento, İris ve Yasemin Sambac; alt notalar Guayak ağacı, Mür, Çin sediri, Tütsü ve Paçuli.",
+  "description_original": "Ormonde Jayne markasının Orris Noir parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Orris Noir, 2006 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Geza Schoen. Üst notalar: Pembe biber, Kişniş, Pelin otu ve Bergamot; orta notalar: Defne yaprağı, Pimento, İris ve Sambac Yasemini; alt notalar Guayak ağacı, Mür, Çin sediri, Tütsü ve Paçuli.",
   "description_enhanced": "Ormonde Jayne markasının Orris Noir parfümü, kadınlar ve erkekler için Oryantal Baharatlı bir kokudur. Orris Noir, 2006 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Geza Schoen. Üst notalar: Pembe biber, Kişniş, Pelin otu ve Bergamot; orta notalar: Defne yaprağı, Pimento, İris ve Yasemin Sambac; alt notalar Guayak ağacı, Mür, Çin sediri, Tütsü ve Paçuli.",
   "mainAccords": [
     {
@@ -49,15 +49,43 @@
     {
       "name": "kafur",
       "width": "53.3669%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.95",
-    "votesCount": "384",
+    "votesCount": "385",
     "breakdown": {
       "love": "118",
       "like": "188",
-      "ok": "20",
+      "ok": "21",
       "dislike": "58",
       "hate": "0"
     }
@@ -81,7 +109,7 @@
       "Defne yaprağı",
       "Pimento",
       "İris",
-      "Yasemin Sambac"
+      "Sambac Yasemini"
     ],
     "base": [
       "Guayak ağacı",
@@ -115,7 +143,7 @@
   "priceVoting": {
     "wayOverpriced": "13",
     "overpriced": "6",
-    "fair": "20",
+    "fair": "21",
     "goodValue": "4",
     "greatValue": "2"
   },
@@ -135,10 +163,6 @@
     {
       "brand": "PİERRE GUİLLAUME PARİS",
       "name": "Iris Oriental 14"
-    },
-    {
-      "brand": "ORMONDE JAYNE",
-      "name": "Vanille des Afriques Intensivo"
     },
     {
       "brand": "PİCTURA FRAGRANS",
@@ -163,6 +187,10 @@
     {
       "brand": "TOM FORD",
       "name": "Violet Blonde"
+    },
+    {
+      "brand": "ORMONDE JAYNE",
+      "name": "Vanille des Afriques Intensivo"
     }
   ],
   "peopleAlsoLike": [
@@ -226,5 +254,6 @@
       "brand": "SERGE LUTENS",
       "name": "Chergui"
     }
-  ]
+  ],
+  "comments": []
 }

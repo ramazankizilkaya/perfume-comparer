@@ -37,14 +37,42 @@
     {
       "name": "toprak",
       "width": "44.4829%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.21",
-    "votesCount": "19",
+    "score": "4.20",
+    "votesCount": "20",
     "breakdown": {
       "love": "9",
-      "like": "8",
+      "like": "9",
       "ok": "0",
       "dislike": "1",
       "hate": "1"
@@ -74,37 +102,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "8",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "8",
+    "strong": "3",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "7",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de L'Homme Eau de Parfum"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de l'Homme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de L'Homme L'Intense"
+    },
+    {
+      "brand": "ZARA",
+      "name": "800 Black (2023)"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Jack Of Clubs"
+    },
+    {
+      "brand": "JOOP!",
+      "name": "Joop! Homme Eau de Parfum"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Ralph's Club New York Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "La Nuit de l'Homme"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Al Nashama Caprice"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -119,20 +180,12 @@
       "name": "Jasoor"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Y Le Parfum"
+      "brand": "ARMAF",
+      "name": "Black"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "La Nuit de L'Homme Le Parfum"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue Eau Intense Pour Homme"
-    },
-    {
-      "brand": "DOLCE&GABBANA",
-      "name": "The One for Men Eau de Parfum"
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Shiyaaka Shadow"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -143,24 +196,29 @@
       "name": "Acqua di Gio"
     },
     {
-      "brand": "GİORGİO ARMANİ",
-      "name": "Emporio Armani Stronger With You Absolutely"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Noir Extreme"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Eros Najim"
-    },
-    {
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
     },
     {
-      "brand": "GİVENCHY",
-      "name": "Gentleman Eau de Parfum"
+      "brand": "ZİMAYA",
+      "name": "Itqan Noir"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Turathi Blue"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "The Most Wanted"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Odyssey Limoni Fresh"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad Bourbon"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "amber",
+      "name": "narenciye",
       "width": "95.8824%"
     },
     {
-      "name": "narenciye",
+      "name": "amber",
       "width": "95.8824%"
     },
     {
@@ -41,6 +41,10 @@
     {
       "name": "animalik",
       "width": "45.647%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -74,41 +78,37 @@
     "base": [
       "Agar ağacı (Oud)",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "2",
-    "longLasting": "3",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "2",
-    "strong": "5",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "5",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "LE LABO",
-      "name": "Oud 27"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "LOUİS VUİTTON",
@@ -143,10 +143,6 @@
       "name": "Ardent"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Layton Exclusif"
-    },
-    {
       "brand": "AMOUAGE",
       "name": "Lyric Man"
     },
@@ -157,6 +153,10 @@
     {
       "brand": "ROJA DOVE",
       "name": "Parfum De La Nuit No 3"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Layton Exclusif"
     },
     {
       "brand": "XERJOFF",
@@ -170,5 +170,6 @@
       "brand": "SERGE LUTENS",
       "name": "Chergui"
     }
-  ]
+  ],
+  "comments": []
 }

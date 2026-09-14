@@ -49,14 +49,42 @@
     {
       "name": "narenciye",
       "width": "60.9348%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.05",
-    "votesCount": "65",
+    "votesCount": "64",
     "breakdown": {
       "love": "20",
-      "like": "36",
+      "like": "35",
       "ok": "1",
       "dislike": "8",
       "hate": "0"
@@ -88,33 +116,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "5",
+    "moderate": "16",
+    "longLasting": "6",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "16",
+    "strong": "8",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Chamego"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Gotas de Amora"
+    },
+    {
+      "brand": "TOUS",
+      "name": "LoveMe The Onyx Parfum"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Decadence"
+    },
+    {
+      "brand": "AVON",
+      "name": "Attraction Game For Her"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Fantasy"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Amor Amor In a Flash"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -129,24 +186,24 @@
       "name": "J'adore"
     },
     {
-      "brand": "MUGLER",
-      "name": "Angel"
+      "brand": "NATURA",
+      "name": "Una"
     },
     {
       "brand": "LANCÔME",
       "name": "La Nuit Trésor"
     },
     {
-      "brand": "NATURA",
-      "name": "Una"
-    },
-    {
-      "brand": "CACHAREL",
-      "name": "Amor Amor"
+      "brand": "RABANNE",
+      "name": "Lady Million"
     },
     {
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Humor 5"
     },
     {
       "brand": "CALVİN KLEİN",
@@ -155,6 +212,10 @@
     {
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
     },
     {
       "brand": "CHANEL",
@@ -171,10 +232,7 @@
     {
       "brand": "GİORGİO ARMANİ",
       "name": "Armani Code for Women"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Alien"
     }
-  ]
+  ],
+  "comments": []
 }

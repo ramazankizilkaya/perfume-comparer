@@ -49,14 +49,42 @@
     {
       "name": "vanilya",
       "width": "65.8536%"
+    },
+    {
+      "name": "Online satın alın 43 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.63",
-    "votesCount": "70",
+    "score": "3.62",
+    "votesCount": "69",
     "breakdown": {
       "love": "21",
-      "like": "23",
+      "like": "22",
       "ok": "12",
       "dislike": "7",
       "hate": "7"
@@ -87,33 +115,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "4",
+    "moderate": "12",
+    "longLasting": "34",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "12",
+    "strong": "36",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "2",
+    "unisex": "32",
+    "moreMale": "8",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "1",
     "fair": "12",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "14",
+    "greatValue": "23"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Oudi"
+    },
+    {
+      "brand": "KELSEY BERWİN",
+      "name": "Midnight OUD"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Shuhrah Pour Homme"
+    },
+    {
+      "brand": "KELSEY BERWİN",
+      "name": "Dinar"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Night Oud"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Oudmazing"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Abaan"
+    },
+    {
+      "brand": "MİN NEW YORK",
+      "name": "PLUSH"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "White Oudh"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Chic Oud Summer"
+    },
+    {
+      "brand": "YAS PERFUMES",
+      "name": "Hamasat"
+    },
+    {
+      "brand": "SOOUD",
+      "name": "Nur"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Just Oud Boulevard"
+    },
+    {
+      "brand": "STÉPHANE HUMBERT LUCAS 777",
+      "name": "Soleil de Jeddah"
+    },
+    {
+      "brand": "AL WATANİAH",
+      "name": "Special Oud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AZZARO",
@@ -175,5 +264,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Qaa'ed"
     }
-  ]
+  ],
+  "comments": []
 }

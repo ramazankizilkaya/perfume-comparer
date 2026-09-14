@@ -39,16 +39,44 @@
       "width": "54.1111%"
     },
     {
-      "name": "amber",
+      "name": "kiraz",
       "width": "53.3333%"
     },
     {
-      "name": "kiraz",
+      "name": "amber",
       "width": "53.3333%"
     },
     {
       "name": "taze baharatlı",
       "width": "52.1667%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,34 +117,47 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "2",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "2",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "XERJOFF",
+      "name": "Erba Pura"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Kirkè"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Kashan"
+    },
     {
       "brand": "PARIS CORNER",
       "name": "Pear Potion"
@@ -124,10 +165,6 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Angham"
-    },
-    {
-      "brand": "PARIS CORNER",
-      "name": "Qissa Delicious"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -162,10 +199,6 @@
       "name": "Teriaq Intense"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Sehr"
-    },
-    {
       "brand": "PARIS CORNER",
       "name": "Rifaaqat"
     },
@@ -177,5 +210,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Ana Abiyedh Scarlet"
     }
-  ]
+  ],
+  "comments": []
 }

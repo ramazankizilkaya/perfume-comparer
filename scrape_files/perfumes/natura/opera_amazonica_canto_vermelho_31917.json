@@ -29,6 +29,34 @@
     {
       "name": "tatlı",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,33 +88,46 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "2",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "2",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "EUDORA",
+      "name": "Kiss Me Now"
+    },
+    {
+      "brand": "SALVADOR DALİ",
+      "name": "Laguna"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Poison Girl"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -118,10 +159,6 @@
     },
     {
       "brand": "NATURA",
-      "name": "Biografia Assinatura"
-    },
-    {
-      "brand": "NATURA",
       "name": "Essencial Elixir"
     },
     {
@@ -131,6 +168,10 @@
     {
       "brand": "NATURA",
       "name": "Una Senses"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kriska Mania"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -148,5 +189,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Liz"
     }
-  ]
+  ],
+  "comments": []
 }

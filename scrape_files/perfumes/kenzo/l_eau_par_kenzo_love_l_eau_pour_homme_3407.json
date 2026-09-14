@@ -35,11 +35,11 @@
       "width": "67.9577%"
     },
     {
-      "name": "yeşil",
+      "name": "misk",
       "width": "60.5634%"
     },
     {
-      "name": "misk",
+      "name": "yeşil",
       "width": "60.5634%"
     },
     {
@@ -47,17 +47,17 @@
       "width": "55.1409%"
     },
     {
-      "name": "taze",
+      "name": "yosunlu",
       "width": "54.6479%"
     }
   ],
   "rating": {
-    "score": "4.12",
-    "votesCount": "41",
+    "score": "4.09",
+    "votesCount": "44",
     "breakdown": {
-      "love": "14",
+      "love": "15",
       "like": "20",
-      "ok": "5",
+      "ok": "7",
       "dislike": "2",
       "hate": "0"
     }
@@ -65,9 +65,9 @@
   "seasons": {
     "winter": "3",
     "spring": "11",
-    "summer": "16",
+    "summer": "19",
     "autumn": "4",
-    "day": "18",
+    "day": "21",
     "night": "2"
   },
   "notes": {
@@ -87,70 +87,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "3",
-    "moderate": "8",
-    "longLasting": "3",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "8",
-    "strong": "3",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "2",
-    "unisex": "2",
-    "moreMale": "5",
-    "male": "3"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
-    "fair": "5",
-    "goodValue": "3",
-    "greatValue": "2"
+    "wayOverpriced": "",
+    "overpriced": "",
+    "fair": "7",
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "KENZO",
-      "name": "L'Eau par Kenzo pour Homme"
-    },
-    {
-      "brand": "KENZO",
-      "name": "L'Eau 2 Kenzo pour Homme"
-    },
-    {
-      "brand": "RALPH LAUREN",
-      "name": "Polo Blue"
-    },
-    {
-      "brand": "KENZO",
-      "name": "L'Eau par Kenzo Mirror Edition pour Homme"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Versace Pour Homme"
-    },
-    {
-      "brand": "ZARA",
-      "name": "Energetically New York"
-    },
-    {
-      "brand": "MOUDON",
-      "name": "Eclipse"
-    },
-    {
-      "brand": "RASASİ",
-      "name": "Hawas for Him"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Allure Homme Sport"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -163,10 +126,6 @@
     {
       "brand": "KENZO",
       "name": "L'Eau par Kenzo pour Homme"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Vetiver"
     },
     {
       "brand": "KENZO",
@@ -183,6 +142,10 @@
     {
       "brand": "LALİQUE",
       "name": "Encre Noire"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "The One for Men"
     },
     {
       "brand": "VERSACE",
@@ -212,5 +175,6 @@
       "brand": "MUGLER",
       "name": "A*Men"
     }
-  ]
+  ],
+  "comments": []
 }

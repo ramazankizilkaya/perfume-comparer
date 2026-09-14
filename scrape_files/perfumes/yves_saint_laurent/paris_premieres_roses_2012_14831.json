@@ -41,6 +41,34 @@
     {
       "name": "misk",
       "width": "44.0312%"
+    },
+    {
+      "name": "Online satın alın 11 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -80,33 +108,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "4",
+    "moderate": "8",
+    "longLasting": "4",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "8",
+    "strong": "9",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Premieres Roses 2015"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris Premieres Roses 2013"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Paris"
+    },
+    {
+      "brand": "EX NİHİLO",
+      "name": "Fleur Narcotique"
+    },
+    {
+      "brand": "GRAHAM & POTT",
+      "name": "Iris Étincelé"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Eaudemoiselle de Givenchy Eau Florale"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHLOÉ",
@@ -168,5 +221,6 @@
       "brand": "LOLİTA LEMPİCKA",
       "name": "Lolita Lempicka"
     }
-  ]
+  ],
+  "comments": []
 }

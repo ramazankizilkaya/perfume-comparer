@@ -49,14 +49,42 @@
     {
       "name": "pudralı",
       "width": "60.8334%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.17",
-    "votesCount": "89",
+    "votesCount": "90",
     "breakdown": {
       "love": "41",
-      "like": "30",
+      "like": "31",
       "ok": "10",
       "dislike": "8",
       "hate": "0"
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "15",
-    "spring": "48",
-    "summer": "33",
-    "autumn": "35",
-    "day": "45",
+    "spring": "49",
+    "summer": "34",
+    "autumn": "36",
+    "day": "46",
     "night": "22"
   },
   "notes": {
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "7",
+    "moderate": "18",
+    "longLasting": "18",
+    "eternal": "24"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "18",
+    "strong": "27",
+    "enormous": "19"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "23",
+    "moreFemale": "16",
+    "unisex": "11",
+    "moreMale": "5",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "1",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "22",
+    "greatValue": "15"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "J'adore"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci by Gucci Eau de Parfum"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Guilty"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci by Gucci Eau de Toilette"
+    },
+    {
+      "brand": "GİSOU",
+      "name": "Gisou Honey Infused Hair Perfume Floral Edition"
+    },
+    {
+      "brand": "DİOR",
+      "name": "J'adore L'Or (2023)"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Entebaa"
+    },
+    {
+      "brand": "PERRY ELLİS",
+      "name": "18 Sensual"
+    },
+    {
+      "brand": "CHLOÉ",
+      "name": "See By Chloé"
+    },
+    {
+      "brand": "GİSOU",
+      "name": "Gisou Honey Infused Hair Perfume"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Honey"
+    },
+    {
+      "brand": "ELLİS BROOKLYN",
+      "name": "Bee"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Guilty Eau de Toilette"
+    },
+    {
+      "brand": "H&M",
+      "name": "Social Butterfly"
+    },
+    {
+      "brand": "L'ERBOLARİO",
+      "name": "Ombra di Tiglio (2024)"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RASASİ",
@@ -133,10 +222,6 @@
     {
       "brand": "ROCHAS",
       "name": "Moustache Eau de Parfum"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Un Jardin Sur Le Nil"
     },
     {
       "brand": "VERSACE",
@@ -163,6 +248,14 @@
       "name": "Dior Homme Intense 2011"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Raghba Wood Intense"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Gio"
+    },
+    {
       "brand": "ARMAF",
       "name": "Club de Nuit Intense"
     },
@@ -171,12 +264,9 @@
       "name": "Versace Pour Homme"
     },
     {
-      "brand": "VİKTOR&ROLF",
-      "name": "Spicebomb"
-    },
-    {
       "brand": "LALİQUE",
       "name": "Encre Noire"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -29,14 +29,42 @@
     {
       "name": "hindistancevizi",
       "width": "46.8%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.48",
-    "votesCount": "231",
+    "score": "4.49",
+    "votesCount": "238",
     "breakdown": {
-      "love": "135",
-      "like": "80",
+      "love": "141",
+      "like": "81",
       "ok": "7",
       "dislike": "9",
       "hate": "0"
@@ -44,10 +72,10 @@
   },
   "seasons": {
     "winter": "30",
-    "spring": "91",
-    "summer": "96",
+    "spring": "93",
+    "summer": "98",
     "autumn": "40",
-    "day": "115",
+    "day": "116",
     "night": "25"
   },
   "notes": {
@@ -64,33 +92,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "21",
+    "weak": "33",
+    "moderate": "23",
+    "longLasting": "9",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "52",
+    "moderate": "23",
+    "strong": "10",
+    "enormous": "9"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "45",
+    "moreFemale": "6",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "21",
+    "greatValue": "11"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Moça"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essência de Moça"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ekos Amazô"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Future Rose"
+    },
+    {
+      "brand": "PHEBO",
+      "name": "Água de Peônia"
+    },
+    {
+      "brand": "LANVİN",
+      "name": "Jeanne Lanvin"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bombshell"
+    },
+    {
+      "brand": "KORRES",
+      "name": "White Tea Bergamot Freesia"
+    },
+    {
+      "brand": "SHAKİRA",
+      "name": "S by Shakira Eau Florale"
+    },
+    {
+      "brand": "AVON",
+      "name": "Femme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHLOÉ",
@@ -152,5 +221,6 @@
       "brand": "NATURA",
       "name": "Humor 1"
     }
-  ]
+  ],
+  "comments": []
 }

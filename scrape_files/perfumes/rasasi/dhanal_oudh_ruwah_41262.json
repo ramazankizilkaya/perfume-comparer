@@ -29,6 +29,34 @@
     {
       "name": "taze baharatlı",
       "width": "44%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -62,33 +90,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "4",
+    "moderate": "8",
+    "longLasting": "12",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "8",
+    "strong": "9",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "5",
+    "moreMale": "1",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RASASİ",
+      "name": "Dhan Al Oudh Safwa"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Royal Aoud"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Oud Wood"
+    },
+    {
+      "brand": "KEMİ BLENDİNG MAGİC",
+      "name": "Hayat"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Dark Aoud"
+    },
+    {
+      "brand": "ELİE SAAB",
+      "name": "Essence No. 4 Oud"
+    },
+    {
+      "brand": "FRANCK OLİVİER",
+      "name": "Oud Touch"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "The Aoud"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "The Night"
+    },
+    {
+      "brand": "ALFRED DUNHİLL",
+      "name": "Dunhill Icon Absolute"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Zafar"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Oud Fleur"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Black to Black"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Shaghaf Oud"
+    },
+    {
+      "brand": "BORTNİKOFF",
+      "name": "Oud Monarch"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "FRANCK OLİVİER",
@@ -150,5 +239,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

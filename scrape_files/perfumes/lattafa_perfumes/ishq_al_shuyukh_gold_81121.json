@@ -16,55 +16,83 @@
     },
     {
       "name": "vanilya",
-      "width": "79.8249%"
+      "width": "79.4424%"
     },
     {
       "name": "misk",
-      "width": "60.626%"
+      "width": "60.7634%"
     },
     {
       "name": "pudralı",
-      "width": "60.449%"
+      "width": "60.45%"
     },
     {
       "name": "amber",
-      "width": "59.5736%"
+      "width": "59.566%"
     },
     {
       "name": "tatlı",
-      "width": "57.2955%"
+      "width": "57.1252%"
     },
     {
       "name": "karamel",
-      "width": "56.4151%"
+      "width": "56.2502%"
     },
     {
       "name": "animalik",
-      "width": "52.357%"
+      "width": "52.635%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "52.2613%"
+      "width": "52.2389%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.18",
-    "votesCount": "1,589",
+    "score": "4.17",
+    "votesCount": "1,645",
     "breakdown": {
-      "love": "859",
-      "like": "386",
-      "ok": "168",
-      "dislike": "118",
-      "hate": "58"
+      "love": "883",
+      "like": "402",
+      "ok": "175",
+      "dislike": "126",
+      "hate": "59"
     }
   },
   "seasons": {
-    "winter": "987",
-    "spring": "355",
-    "summer": "117",
-    "autumn": "897",
-    "day": "434",
-    "night": "861"
+    "winter": "1k",
+    "spring": "367",
+    "summer": "118",
+    "autumn": "932",
+    "day": "448",
+    "night": "898"
   },
   "notes": {
     "top": [
@@ -84,33 +112,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "14",
+    "weak": "13",
+    "moderate": "205",
+    "longLasting": "650",
+    "eternal": "227"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "24",
+    "moderate": "205",
+    "strong": "560",
+    "enormous": "122"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "44",
+    "moreFemale": "56",
+    "unisex": "537",
+    "moreMale": "344",
+    "male": "229"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "168",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "21",
+    "overpriced": "24",
+    "fair": "175",
+    "goodValue": "427",
+    "greatValue": "509"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ROSENDO MATEU OLFACTİVE EXPRESSİONS",
+      "name": "Rosendo Mateu Nº 5 Floral, Amber, Sensual Musk"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Babycat"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ameer"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Eau d'Ombré Leather"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Rifaaqat"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "05 Domino Essence"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Black"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Wujood"
+    },
+    {
+      "brand": "LABORATORİO OLFATTİVO",
+      "name": "Vanagloria"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Fierte"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Atoof"
+    },
+    {
+      "brand": "ROSENDO MATEU OLFACTİVE EXPRESSİONS",
+      "name": "Rosendo Mateu Nº 5 Elixir"
+    },
+    {
+      "brand": "LES FLEURS DU GOLFE",
+      "name": "Gourmand Extrême"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Ébène"
+    },
+    {
+      "brand": "THE MERCHANT OF VENİCE",
+      "name": "Queen of The Night"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -137,10 +226,6 @@
       "name": "Khamrah Qahwa"
     },
     {
-      "brand": "VİKTOR&ROLF",
-      "name": "Spicebomb Extreme"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Khamrah"
     },
@@ -161,6 +246,10 @@
       "name": "Teriaq Intense"
     },
     {
+      "brand": "MANCERA",
+      "name": "Red Tobacco"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Liam"
     },
@@ -171,6 +260,208 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Ameer Al Oudh Intense Oud"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent632853",
+      "author": "BladedThesis87",
+      "date": "2025-07-20",
+      "text": "ENDÜSTRİYEL GURME...\nEğer benim gibi safran ve karameli seviyorsanız, kesinlikle denemeye değer... Bu gerçekten çok iyi. Yoğun, şuruplu bir tatlılık ama mekanik bir tatlılık. Vanilya aromalı makine yağı gibi. Yenilebilir bir lastikçi dükkanı. Belirli endüstriyel kokuları lezzetli bulan tuhaf tipler için bir başka gurme lezzet, ben de öyleyim. Bunun adını \"Tatlı Makine\" olarak değiştirirdim.\n10/10, en sevdiğim plak şirketlerinden birinden yine harika bir parça!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1829936.jpg"
+    },
+    {
+      "id": "parent632908",
+      "author": "Victoreruin",
+      "date": "2025-04-15",
+      "text": "İki 5 ml'lik dekanttan sonra nihayet orijinalini aldım. Yılın başında fiyatı 2500'e çıkardılar, ama şimdi çok daha ucuz. \"Bu parfüm akıl almaz.\" Bu benim sözüm değil, ama bir parfüm bağımlısının gayri resmi bir sohbette söylediği gibi daha doğru bir tanımlama olduğunu düşünüyorum ve bu beni çok etkiledi! Bir pipo, bir hançer, bir kılıç—burada her türlü şeye benzetmişler. Ama bu kesinlikle sahip olunması gereken bir şey! Çıkarılabilir kapağı ve içinde mini bir kataloğu olan siyah plastik bir kutuda geldi. Benim gibi bir kadında kolayca hayal edebiliyorum: vanilya, deri, safran, karamel, kreozotlu yanmış demiryolu traversleri, büyükannenin lake dolabı... Oğlum bile duman gibi koktuğumu söyledi (hoşuna gitmedi). Evet, her şey var ve bu da onu bu kadar kışkırtıcı kılıyor! Ve açıkçası, olumsuz iltifatlar umurumda değil, gelseler bile: bir seferde 10 fıs sıkarım. Bu tarz kokuları kullandığınızda, morgda çalıştığınızı veya bir ibadethanede buhurdanlık salladığınızı her zaman anlayabilirsiniz: tüm sorular ortadan kaybolacaktır. Benim üzerimde, her mevsim için mükemmel.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.419881.jpg"
+    },
+    {
+      "id": "parent632881",
+      "author": "Emmaaa",
+      "date": "2024-11-26",
+      "text": "Parfümün ilk sıkıldığında aldığı süet notası bana hep bayıcı gelir. Ama bu kokuyla, bir yıllık olgunlaşmanın ardından, bir yandan karamel patlamış mısır, diğer yandan da kedi kokusunun pudramsı esintilerini taşıyan, hoş ve yumuşak bir koku elde ettim. Genel etkisi çok rahatlatıcı; 7 yaşından 77 yaşına kadar tanıştığım herkesin bu kokuyu sevdiği izlenimine kapıldım!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.30767.jpg"
+    },
+    {
+      "id": "parent632894",
+      "author": "mariadam111",
+      "date": "2024-10-04",
+      "text": "Lattafa, piyasaya sürdüğü her 100 vasat parfüme karşılık, (özellikle fiyat-kalite oranını göz önünde bulundurursak) birkaç tane de mücevher niteliğinde parfüm çıkarıyor ve bu da onlardan biri.\nBurada maserasyon şarttır.\nİlk birkaç gün, sıktığınız anda uygulamak neredeyse imkansız: En az yarım saat boyunca her şeyi bastıran güçlü bir yanmış plastik kokusu var, sonra çok şehvetli, sıcak, derimsi bir vanilya ortaya çıkmaya başlıyor. Haftalar geçtikçe bu sorun ortadan kalkıyor; plastikimsi safran notası giderek azalıyor ve diğer notalarla mükemmel bir şekilde harmanlanıyor.\n\nUnisex olarak etiketlenmiş olsa da, bence erkekler için biraz daha uygun. Hatta, Lattafa'nın Nebras'ı veya Kalotinis'in Velvet Chocolate'ı ile birlikte tüketerek biraz daha tatlılık katıyorum.\nMükemmel kalıcılık ve yayılım.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.93812.jpg"
+    },
+    {
+      "id": "parent632883",
+      "author": "wildorchid",
+      "date": "2024-09-17",
+      "text": "Dün Babycat'i koklamaya gittim, ona aşık oldum ama fiyatı yüzünden aşkımız hüsranla sonuçlandı...\nPek de emin olmadan Rifaaqat almak için bir dükkana gittim; Babycat'in ultra ucuz bir versiyonu olduğunu düşünüyordum... ve sonra, başımı çevirdiğimde Ishq Al Shuyukh'u gördüm. Daha yakından bakmak için acele ettim ve işte... MUHTEŞEM!\nBabycat ile %100 aynı değil, ancak kesinlikle aynı DNA'yı paylaşıyor. Ishq Al Shuyukh'ta tütsü notasının daha az belirgin olduğunu söyleyebilirim; biraz daha gurme, biraz daha tatlı, biraz daha yumuşak. Deri notası hiç de baskın değil ve kokunun geri kalanıyla mükemmel bir şekilde harmanlanıyor.\nBu, niş bir parfüme yakışır nitelikte... Başarılı, tamamen unisex.\nBu kış benim imza kokum olacak!\nÜstelik, tutuşu olağanüstü; duştan sonra bile cildimde hissedebiliyorum.\nGöreyim seni!!!!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.57605.jpg"
+    },
+    {
+      "id": "parent632872",
+      "author": "Fede Asla",
+      "date": "2024-08-26",
+      "text": "Ishq Al Shuyukh Gold, tasarımcı şişesinde sunulan, Arap parfümleri gibi fiyatlandırılmış niş bir koku. Eğer bir koleksiyoncuysanız, bu parfüme sahip olmalısınız. Belki de en çok yönlü olanı değil, ama zamanla edinilen bir zevk. Zamanla bir ihtiyaç haline geliyor. İtiraf ediyorum, bazen sadece bu parfümü kullanmak istediğim günler oluyor; başka hiçbir şeye benzemeyen bir koku. Bir tutam karamel, bir tutam plastik, bir tutam deri, yeni bir koku—tarif etmesi zor bir şey. Rosendo Mateu 5'i seviyorum, ama bu altın canavar, şişesindeki hançerden çok daha ham ve keskin.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.156502.jpg"
+    },
+    {
+      "id": "parent632864",
+      "author": "Deianera",
+      "date": "2024-04-28",
+      "text": "Tenimde, hayatımda karşılaştığım en seksi amber vanilya kokusu ve aynı zamanda rahatlatıcı, yatıştırıcı ve samimi. Altında hayvansı bir şey var ama tam olarak ne olduğunu belirleyemiyorum. Doğrusu, metalik veya benzin benzeri bir koku almıyorum.\nBelki hafif bir süet esintisi? Vay canına, buna bayıldım. Bu, tam da çılgın bir gece dışarı çıkma, \"vay canına, beni yatağa götür tatlım, her şeye varım, siyah iç çamaşırı, yüksek topuklu ayakkabılar, kelepçeler ve çoraplar\" tarzı bir koku. 10/10\nUmarım bunu sonsuza dek sürdürürler.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1615770.jpg"
+    },
+    {
+      "id": "parent632896",
+      "author": "Atomicscent",
+      "date": "2024-04-17",
+      "text": "Bu kokuyu en basit şekilde şöyle tanımlayabilirim: vanilya ve yanmış kauçuk; arkadaşlarımın çoğu Ishq Al Shuyukh Gold'u yakından kokladıklarında bana bunu söylediler.\nİlk iki saatte, vanilya ve deri kombinasyonu gerçekten de vanilya ve yanmış kauçuk havası veriyor. Eminim bu aşamayı çok az kişi beğenecektir; zorlayıcı olabilir ve kesinlikle herkese göre değil. Yaklaşık iki saat sonra koku değişiyor; tonka yoğunlaşıyor ve vanilya ve deriyle karışmaya başlıyor, sonunda çok daha yumuşak ve hoş bir kokuya dönüşüyor. Aslında, bundan sonra koku, ilk iki saatten farklı olarak, gerçekten harika hale geliyor; baştan çıkarıcı, şehvetli ve her buruna hitap ediyor. İnanılmaz derecede etkili, neredeyse nükleer diyebilirim; kesinlikle dikkat çekeceksiniz.\nSonuç olarak, Ishq Al Shuyukh Gold eşsiz ve cesur bir kış kokusudur; özellikle ilk aşamada yakından koklandığında bazıları için zorlayıcı olabilir, satın almadan önce denemenizi öneririz!\n\n8.5/10",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.62072.jpg"
+    },
+    {
+      "id": "parent632897",
+      "author": "Malù",
+      "date": "2024-04-10",
+      "text": "Bu parfümde, Lattafa'nın Khamrah'ında da bulduğum, birçok Lattafa parfümünde mevcut olan güneşte kurumuş lastik kokusu var. Ancak Ishq Al Shuyukh Gold'da bu lastik kokusu daha haklı bir şekilde kullanılmış. Aslında bu nota, safran kokusunu yeniden yaratmak için kullanılmış. Gerçek safranın, değerli ve saf olanının kokusunu bilen herkes, kokladığı anda hafif hoş olmayan bir plastik kokusu algıladığını çok iyi bilir; ancak safran pişirildiğinde yemeklere tatlılık katar.\nIshq Al Shuyukh Gold, hem Rosendo Mateu n.5'i hem de Byredo'nun Animalique'ini, belki de daha çok ikincisini anımsatıyor.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.56188.jpg"
+    },
+    {
+      "id": "parent632861",
+      "author": "desdemona7",
+      "date": "2024-03-28",
+      "text": "Lattafa parfümlerini çok seviyorum. 6 tanesine sahibim ve hepsi mükemmel ve yüksek kaliteli. Bu, notalarına bakarak kör alışverişti ve şimdiye kadar kokladığım en güzel ve en yumuşak deri/süet parfümü. Kesinlikle unisex ve muhteşem. Fiyatına göre inanılmaz bir fırsat ve kalıcılığı bende yaklaşık 8 saat sürüyor. Birkaç metre öteye yayılıyor ve şişeden çıktığı gibi mükemmel (bekletmeye gerek yok). Hafif tatlı, süet ve vanilyalı parfümleri seviyorsanız şiddetle tavsiye ederim. Çocuklarım üzerimde badem ezmesi gibi koktuğunu söylediler. Lol. Bayıldım.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.168900.jpg"
+    },
+    {
+      "id": "parent632863",
+      "author": "sandradiana",
+      "date": "2024-01-22",
+      "text": "200'den fazla parfümüm var ve bu parfümü kullanmaktan vazgeçemiyorum...\nBunu 3 aydır kullanıyorum, başka kış parfümleri denemeye çalışıyorum ama yine de buna geri dönüyorum, hatta yedek bile aldım... Şişenin içini göremediğim için ne kadar kaldığını anlayamıyorum, bu da beni rahatsız ediyor doğrusu.\nAhh... Sanırım aşık oldum...\nBu yılki düğünümde bile giymeyi düşünüyorum ama sıcak havalarda nasıl bir performans göstereceğinden emin değilim.\nSanırım kendime uygun olanı buldum arkadaşlar.\n\nGüncelleme:\n\nİlk şişe bitti, ikinciye geçtim, üçüncüsü de hazır, umarım bunu asla piyasadan kaldırmazlar yoksa ölürüm.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1321240.jpg"
+    },
+    {
+      "id": "parent632851",
+      "author": "pureangelgirl",
+      "date": "2023-12-28",
+      "text": "BU PARFÜM HAYATIMI DEĞİŞTİRDİ. Bunu yeterince övemiyorum. Muhtemelen hayatımın en iyi parfüm alışverişi, üstelik kör alışverişti. Çok çok az biliniyor ve umarım tanıdığım kimse bunu asla öğrenmez, hepsini kendime saklamak istiyorum. Bu bir BAŞYAPIT, özellikle de satıldığı fiyatı göz önünde bulundurursak. Bu sıvı altın. Yeni imzam. Kremsi, baştan çıkarıcı, güçlü, ipek gibi hissettiriyor. Bu, siyah kravatlı bir davette milyarderle birlikte olmak gibi kokuyor. Bu, bir kara film gibi kokuyor. Bu, deri koltuklu yepyeni bir arabada kürk manto giyen bir femme fatale gibi kokuyor. Yüksek sesle başlıyor, kükrüyor ve ısırıyor, ancak kuruma aşaması büyüleyici, yumuşak bir vanilya, tenimi yalamak istememe neden oluyor. Teşekkürler Lattafa, bu muhteşem küçük parfüm, önümüzdeki yıllarda kişiliğimin belirleyici özelliklerinden biri olacak.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1900364.jpg"
+    },
+    {
+      "id": "parent632912",
+      "author": "торбернит",
+      "date": "2023-11-19",
+      "text": "Arap parfüm üreticileri aileler için harika, uygun fiyatlı ve yüksek kaliteli parfümler sunuyorlar, bu da benim için olmazsa olmazlardan. Ambalajı oldukça etkileyici, hediye için mükemmel. Karamel başrolde, kehribar ona eşlik ediyor ve kalıcılığı ve yoğunluğu sayesinde kendinizi rahatlıkla bu parfümle boğabilirsiniz. Daha sıcak havalarda kullanılması en iyisi; Arap parfümleri sıcağı sever. Bu gerçek bir kılıç, Radusya!",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.172693.jpg"
+    },
+    {
+      "id": "parent632869",
+      "author": "Idafe",
+      "date": "2023-10-10",
+      "text": "Hepimizin aynı olmadığını anlıyorum, ama eğer insanlar bir parfümün giyim konusunda onları sınırladığını hissedebiliyorsa... o zaman işimiz bitti demektir!\nBir kokuyu seviyorsanız, sürün, o kadar. Plaja giderken bile kullanmak istiyorsanız, hatta uyurken bile kullanıyorum. Bazen canım öyle istediği için Silver Oud'u spor salonuna bile sürüyorum, o kadar. Her şey ruh halinize bağlı. Kokuları kıyafetlerle etiketlemeyi bırakın; gerçekten gereksiz ve sinir bozucu.\nBunlar parfümlerdir ve herkes dilediği gibi keyfini çıkarabilir.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.87964.jpg"
+    },
+    {
+      "id": "parent632854",
+      "author": "Creamy_ambrette",
+      "date": "2023-09-18",
+      "text": "[Eğer bunu satın aldıysanız ve beğenmediyseniz veya çok tek boyutlu bulduysanız, birkaç kez havaya püskürtün (bu kısım önemli - şişenin içine hava girmesi gerekiyor yoksa aroma oluşmaz), kutusuna geri koyun ve serin ve karanlık bir yerde saklayın!]\n\nDeğerlendirme: Şişeyi Temmuz ayında Amazon'dan 25 ABD dolarına satın aldım.\nKarmaşık, iddialı veya avangard notaları severim, bu yüzden bunu aldığımda \"lastik\" notasını bir şekilde beğendim, ancak cildimde başka bir şeye dönüşmediği için, çoğu Arap parfümümde veya kokması gerektiği gibi kokmayan klonlarında yaptığım gibi -sıkıp bir kenara koydum.\n\nBugün, 18 Eylül'de çıkardım ve farklı! Açılışta daha çiçeksi/safranlı bir koku vardı, sonra pudralı, süet (kauçuksu), tonka fasulyesi, derimsi/kurutulmuş saman tatlılığına dönüştü. Gerçekten beğendim.\nKaramel kokusu almıyorum ama diğer notaları tamamlayıp karamelize bir tatlılık yarattığına inanıyorum. 20 dakika geçti ve bunu yazarken \"kauçuk\" notası kayboluyor ve Tonka fasulyesi, vanilya ve amberin temel notaları yükselmeye ve süet akorunu yumuşatarak bulanık, tatlı ve hafif reçineli bir deneyim yaratmaya başlıyor.\nBu koku ses çıkarabilseydi, mırıldanırdı.\nBu parfümü bir ay daha bir kenara bırakacağım çünkü henüz tam potansiyeline ulaşmadığını hissediyorum.\nKoku yayılımı ve siliajı gerçekten çok iyi.\nKoluma bir kez sıktım ve her hareketimde koku yayılıyor.\nBirkaç hafta sonra güncelleme yapmak için geri döneceğim.\nDüzenleme: Aynı gün, her iki koluma da biraz daha sıktım ve bu harika!! Ne oldu bilmiyorum, belki burnum \"kauçuk\" kısmına alıştı ama sadece nefis, sıcak, tatlı, kremsi, süet kokusu alıyorum. Safran daha az \"yara bandı ve kauçuk\" gibi, daha çok baharatlı ve çiçeksi. Burada muhteşem ve rafine bir misk var, hiç de tuhaf veya çok hayvansı değil, ama hafif bir misk kokusu alıyorum.\nMevcut programımın içine ekleniyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1640057.jpg"
+    },
+    {
+      "id": "parent632858",
+      "author": "Charmedbymeghan",
+      "date": "2023-09-14",
+      "text": "Bu parfümle ilgili son gelişmeleri paylaşmak için geri döndüm...\n\nBunu yaklaşık 3 ay önce, belki de 4 ay önce aldım.\nİlk başta hafif tatlı, yanmış lastik ve deri kokusu aldım. Maserasyon yöntemini duymuştum (henüz tam olarak inanmıyordum) ve saklayıp tekrar denemeye karar verdim...\n\nYaklaşık 6 hafta önce bunu tekrar çıkardım ve cildime sıktım. Daha iyi, ama yine de lastik gibi kokuyor. Yorumlarda insanların Rosendo 5'in de aynı kokuya sahip olduğunu söylediğini gördüm, kendim hiç denemedim. Ve tamam, sanırım bu o. Eşyalarımı azaltmayı planlıyordum...\n\nBugün, Mercari'de hangilerini satışa çıkaracağıma karar vermek için parfümlerimi gözden geçiriyorum. Tamamen satmayı düşünüyordum ama satışa çıkarmadan önce her parfümü deniyorum...\nVe tahmin ettiniz mi!? Sıfır yanmış lastik kokusu. Sıfır kauçuk kokusu. Bu, güzel, pürüzsüz, baharatlı bir vanilya kokusu; artık neredeyse hiç deri akoru almıyorum. Kesinlikle rahatsız edici hiçbir şey yok. Bu parfümün tamamen olgunlaşması 3-4 ay sürdü. Ve beklemeye kesinlikle değdi. Yani bunu yeni aldıysanız ve \"Ne oluyor?\" diye düşünüyorsanız, ciddi anlamda bekleyin, her ay bir kez alıp test edin... ama daha iyi olacak. Ve niş kalitesinde bir kokuya dönüşecek. Etkilendim. Orta Doğu kokularının zamana ihtiyacı var, arkadaşlar.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent632852",
+      "author": "Likilichi",
+      "date": "2023-08-15",
+      "text": "Bu parfüm rahatsız edici derecede güzel. Muhteşem ötesi. Şu anda canlı birinin yazdığını sanıyorsunuz ama yanılıyorsunuz. Ben öldüm ve dikkatli olmazsam birileri gelip tenimden yükselen bu parfümü, o yoğun, meyveli, vanilyalı deri kokusunu, biraz da benzin serpiştirilmiş haliyle koklayacak ve ele geçirilecekler; kim bilir akıllarından ne tür sapkınlıklar geçecek. Sakın almayın. Tehlikeli.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent632910",
+      "author": "Mila_vanillasweet",
+      "date": "2023-07-23",
+      "text": "Kesinlikle benim tarzım değil, ama yine de birkaç satır yazmaya karar verdim çünkü koku, benzersizliği ve ölümcül gücüyle çok akılda kalıcı. İlk yarım saat boyunca, belirgin bir şekilde kauçuk ve kaba, ucuz deri arasında bir koku aldım - tarif etmek imkansız. Neredeyse hiç tatlılık yok ve cildimde neredeyse hiç fark edilmiyor. Koku doğrudan, güçlü ve sizi doğrudan vuruyor, bu da onu olabildiğince çabuk yıkamak istemenize neden oluyor. Ancak bir süre sonra, yavaş yavaş süet benzeri baharatlar salmaya başladı ve daha yumuşak hale geldi. Fiyatı cazip olsa da, denemeden satın almanızı kesinlikle tavsiye etmem. Şimdilik geçiyorum, ancak gösterişsizliğini takdir ediyorum. Bu arada, kalıcılığı da oldukça iyi.\nGüncelleme: Eylül 2023\nSanırım aşık oldum! Bu kesinlikle muhteşem. Yukarıdaki yorumu gördüm ve bu kokunun bana ilk anda Bvlgari Black'i hatırlattığını fark ettim—evet, katılıyorum.\nBeşinci kez deniyorum ve açılışı o kadar da bunaltıcı gelmiyor. Çok güçlü ve keskin, ama sonra da son derece keyifli. Tatlı deri ve biraz baharat, çok güzel. Ayrıca çok uzun süre kalıcı ve uzun bir yayılımı var.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.161011.jpg"
+    },
+    {
+      "id": "parent632870",
+      "author": "Fede",
+      "date": "2023-05-03",
+      "text": "Lattafa yine yaptı yapacağını.\nOldukça rekabetçi bir fiyatla (benim durumumda 37 €, ancak fiyat artıyor), ödediğinizden çok daha fazla kalite aldığınız hissi uyandırıyor.\nKarton kutunun (bu arada oldukça güzel) dışında, şişe şeffaf bir metakrilat kutu içinde geliyor; tabanı köpükle, üstü ise koruyucu bir köpükle desteklenmiş.\nAltın rengi plastik bir hançerle süslenmiş, oldukça sade, siyah bir şişe. İç kısımda bulunan plastik kapağı örten ağır, metalik, altın rengi bir kapağı var. Bu kapak güvenli bir kapanma sağlıyor.\nOldukça iyi bir püskürtücü.\nUygulandığında, ilk kokusu oldukça güçlüdür ve bu tür bir aromaya aşina olmayan birini bunaltabilir.\nKullanılan deri akorunu güçlendiren çok belirgin bir safran kokusu, tatlı bir arka planla birleşiyor ve belki de en hoş olmayan kısım, vanilyanın plastikimsi ve yanık kokusu.\nİlk iki saat boyunca parfümün kokusu bu şekilde olacak, ancak safran ve yanmış kauçuk kokusunun yoğunluğu azaldıkça koku giderek daha yumuşak hale gelecek.\nDaha sonra koku, bayıcı olmadan daha tatlı bir hal alıyor ve deri ile vanilya ön plana çıkıyor. Ayrıca müge çiçeği ve birkaç beyaz çiçeğin de izlerini algılıyorum.\nBenim deneyimimde 8 saatten fazla sürdü ve neredeyse tüm süre boyunca iyi bir şekilde yansıtıldı. Kıyafetlerde ise ömür boyu kalıcı.\nBana göre daha serin havalarda daha uygun, çünkü sıcaklık vanilyanın yanmış kauçuk kokusunu daha da belirginleştiriyor ve eğer çok fazla kullanırsak bunaltıcı olabilir.\nBana göre, bu Ishq al Shuyuqk Gold, Rosendo Mateu 5 ile %90 oranında benzerlik gösteriyor.\nBu yorumu 05.12.2023 tarihinde düzenliyorum çünkü, bir parfümde iltifat aramasam da, bugünkü parfüm biraz farklıydı ve ilgimi çekti.\nBugün yaşadığım yerde hava biraz daha serindi, bu yüzden Ishq al Shuyuqk Gold saatimi takmaya karar verdim. Arabamı bugün rutin bir kontrol için tamirhaneye bırakmak zorunda kaldım ve almaya gittiğimde bana yardımcı olan kız, arabamı daha yeni tamirhaneden çıkardığını ve harika koktuğunu söyledi.\nDediğim gibi, farklı bir tür iltifat ama bu parfümü çok övüyor.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.43943.jpg"
+    },
+    {
+      "id": "parent632880",
+      "author": "Celeria",
+      "date": "2023-04-19",
+      "text": "Lattafa, Rosendo Mateu'nun 5 numaralı formasını kopyalamaya karar vermiş, itiraf etmeliyim ki bu sefer kopyayı orijinaline tercih ediyorum.\n\nSunum zaten oldukça özenli ve detaylı: seramik şişe, sağlam kapağın yaldızlı detayları, şişe üzerine işlenmiş kılıç...\n\nVe bu likit olağanüstü, taklit ettiği likitle %99 aynı, geriye kalan %1'lik kısım ise N*5'te bulunan ve burada olmayan o kauçuk/plastik kokusu.\n\nLattafa, orijinalinde bulunmayan bir karamel dokunuşuyla yumuşatılmış, biraz daha tatlı bir tada sahip. Pudramsı, vanilyalı, narin atmosferi ise tamamen aynı. Kokusu gerçekten de aralarında bir fark yaratmayı imkansız kılıyor.\n\nPerformansı da benzer; ciltte gün boyu kalıyor ve kıyafetler yıkanana kadar içine işliyor, yayılımı ise hem belirgin hem de yumuşak ve narin olmasıyla son derece hoş.\n\n10/10",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.18108.jpg"
     }
   ]
 }

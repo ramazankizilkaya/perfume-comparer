@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Yves-Saint-Laurent/Black-Opium-Sound-Illusion-50159.html",
   "brand": "Yves Saint Laurent parfüm ve kolonya",
   "description": "Yves Saint Laurent markasının Black Opium Sound Illusion parfümü, kadınlar için Oryantal Vanilya bir kokudur. Black Opium Sound Illusion, 2018 yılında piyasaya sürüldü. Üst notalar: Kahve, Armut, Portakal çiçeği ve Pembe biber; orta notalar: Kahve, Meyan kökü ve Yasemin Sambac; alt notalar Kaşmir ağacı, Vanilya, Paçuli ve Sedir.",
-  "description_original": "Yves Saint Laurent markasının Black Opium Sound Illusion parfümü, kadınlar için Oryantal Vanilya bir kokudur. Black Opium Sound Illusion, 2018 yılında piyasaya sürüldü. Üst notalar: Kahve, Armut, Portakal çiçeği ve Pembe biber; orta notalar: Kahve, Meyan kökü ve Yasemin Sambac; alt notalar Kaşmir ağacı, Vanilya, Paçuli ve Sedir.",
+  "description_original": "Yves Saint Laurent markasının Black Opium Sound Illusion parfümü, kadınlar için Oryantal Vanilya bir kokudur. Black Opium Sound Illusion, 2018 yılında piyasaya sürüldü. Üst notalar: Kahve, Armut, Portakal çiçeği ve Pembe biber; orta notalar: Kahve, Meyan kökü ve Sambac Yasemini; alt notalar Kaşmir ağacı, Vanilya, Paçuli ve Sedir.",
   "description_enhanced": "Yves Saint Laurent markasının Black Opium Sound Illusion parfümü, kadınlar için Oryantal Vanilya bir kokudur. Black Opium Sound Illusion, 2018 yılında piyasaya sürüldü. Üst notalar: Kahve, Armut, Portakal çiçeği ve Pembe biber; orta notalar: Kahve, Meyan kökü ve Yasemin Sambac; alt notalar Kaşmir ağacı, Vanilya, Paçuli ve Sedir.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "meyvemsi",
       "width": "56.5625%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -80,7 +108,7 @@
     "middle": [
       "Kahve",
       "Meyan kökü",
-      "Yasemin Sambac"
+      "Sambac Yasemini"
     ],
     "base": [
       "Kaşmir ağacı",
@@ -91,33 +119,46 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "0",
+    "moderate": "6",
+    "longLasting": "6",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "6",
+    "strong": "16",
+    "enormous": "17"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "2",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Wild Edition"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Eau de Toilette"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -144,16 +185,20 @@
       "name": "Black Opium Floral Shock"
     },
     {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Coco Mademoiselle"
+    },
+    {
       "brand": "MUGLER",
       "name": "Aura Mugler"
     },
     {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez For Her"
-    },
-    {
-      "brand": "MUGLER",
-      "name": "Angel Muse"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -168,16 +213,13 @@
       "name": "Mon Guerlain"
     },
     {
+      "brand": "CHANEL",
+      "name": "Chance Eau Fraiche"
+    },
+    {
       "brand": "DİOR",
       "name": "Hypnotic Poison"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Poison Girl"
-    },
-    {
-      "brand": "GUCCİ",
-      "name": "Flora by Gucci Gorgeous Gardenia"
     }
-  ]
+  ],
+  "comments": []
 }

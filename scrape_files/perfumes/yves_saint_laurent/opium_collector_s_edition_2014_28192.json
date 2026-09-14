@@ -49,6 +49,34 @@
     {
       "name": "pudralı",
       "width": "57.7021%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,33 +115,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "1",
+    "longLasting": "1",
+    "eternal": "14"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "1",
+    "strong": "4",
+    "enormous": "14"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Eau de Parfum 2009"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Secret de Parfum"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium (1977)"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Eau D'ete Summer Fragrance"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Elixir Voluptueux"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Eau D'ete Summer Fragrance 2004"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Rouge Fatal (Collector's Edition 2015)"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Collector's Edition 2013"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "9pm"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Orient Extreme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -175,5 +248,6 @@
       "brand": "DİOR",
       "name": "Poison"
     }
-  ]
+  ],
+  "comments": []
 }

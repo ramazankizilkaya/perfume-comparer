@@ -37,6 +37,34 @@
     {
       "name": "beyaz çiçeksi",
       "width": "55.0003%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -44,8 +72,8 @@
     "votesCount": "280",
     "breakdown": {
       "love": "81",
-      "like": "138",
-      "ok": "13",
+      "like": "137",
+      "ok": "14",
       "dislike": "43",
       "hate": "5"
     }
@@ -93,7 +121,7 @@
   "priceVoting": {
     "wayOverpriced": "5",
     "overpriced": "12",
-    "fair": "13",
+    "fair": "14",
     "goodValue": "6",
     "greatValue": "2"
   },
@@ -152,14 +180,18 @@
     },
     {
       "brand": "HELAN",
-      "name": "Ninfea"
+      "name": "Ninfea Magia d'Acqua"
     },
     {
-      "brand": "HELAN",
-      "name": "Ninfea Magia d'Acqua"
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Bana Banana"
     }
   ],
   "peopleAlsoLike": [
+    {
+      "brand": "AMOUAGE",
+      "name": "Dia Woman"
+    },
     {
       "brand": "SERGE LUTENS",
       "name": "La Fille de Berlin"
@@ -201,10 +233,6 @@
       "name": "Carnal Flower"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Cuir Béluga"
-    },
-    {
       "brand": "PROFUMUM ROMA",
       "name": "Dulcis in Fundo"
     },
@@ -220,5 +248,6 @@
       "brand": "AMOUAGE",
       "name": "Memoir Woman"
     }
-  ]
+  ],
+  "comments": []
 }

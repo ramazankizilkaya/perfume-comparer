@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Memo-Paris/Indian-Leather-95686.html",
   "brand": "Memo Paris parfüm ve kolonya",
   "description": "Memo Paris markasının Indian Leather parfümü, kadınlar ve erkekler için Deri bir kokudur. Bu yeni bir parfüm. Indian Leather, 2024 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Juliette Karagueuzoglou. Üst nota: Cypriol Yağı veya Nagarmotha; orta notalar: Gül ve Yasemin; alt notalar Oud, Paçuli, Beyaz sakız, Vanilya çubuğu ve Styrax.",
-  "description_original": "Memo Paris markasının Indian Leather parfümü, kadınlar ve erkekler için Deri bir kokudur. Bu yeni bir parfüm. Indian Leather, 2024 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Juliette Karagueuzoglou. Üst nota: Cypriol Yağı veya Nagarmotha; orta notalar: Gül ve Yasemin; alt notalar Oud, Paçuli, Beyaz sakız, Vanilya çubuğu ve Styrax.",
+  "description_original": "Memo Paris markasının Indian Leather parfümü, kadınlar ve erkekler için Deri bir kokudur. Bu yeni bir parfüm. Indian Leather, 2024 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Juliette Karagueuzoglou. Üst nota: Cypriol Yağı veya Nagarmotha; orta notalar: Gül ve Yasemin; alt notalar Oud, Paçuli, Olibanum, Vanilya çubuğu ve Styrax.",
   "description_enhanced": "Memo Paris markasının Indian Leather parfümü, kadınlar ve erkekler için Deri bir kokudur. Bu yeni bir parfüm. Indian Leather, 2024 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Juliette Karagueuzoglou. Üst nota: Cypriol Yağı veya Nagarmotha; orta notalar: Gül ve Yasemin; alt notalar Oud, Paçuli, Beyaz sakız, Vanilya çubuğu ve Styrax.",
   "mainAccords": [
     {
@@ -49,26 +49,54 @@
     {
       "name": "gül",
       "width": "44.7226%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.53",
-    "votesCount": "239",
+    "votesCount": "250",
     "breakdown": {
-      "love": "81",
-      "like": "58",
-      "ok": "28",
-      "dislike": "51",
+      "love": "83",
+      "like": "61",
+      "ok": "33",
+      "dislike": "52",
       "hate": "21"
     }
   },
   "seasons": {
-    "winter": "91",
+    "winter": "94",
     "spring": "28",
     "summer": "10",
-    "autumn": "86",
-    "day": "47",
-    "night": "74"
+    "autumn": "89",
+    "day": "50",
+    "night": "77"
   },
   "notes": {
     "top": [
@@ -81,7 +109,7 @@
     "base": [
       "Oud",
       "Paçuli",
-      "Beyaz sakız",
+      "Olibanum",
       "Vanilya çubuğu",
       "Styrax"
     ],
@@ -91,11 +119,11 @@
     "veryWeak": "4",
     "weak": "1",
     "moderate": "22",
-    "longLasting": "52",
+    "longLasting": "57",
     "eternal": "15"
   },
   "sillage": {
-    "intimate": "6",
+    "intimate": "7",
     "moderate": "22",
     "strong": "31",
     "enormous": "10"
@@ -103,15 +131,15 @@
   "genderVoting": {
     "female": "6",
     "moreFemale": "5",
-    "unisex": "54",
-    "moreMale": "31",
-    "male": "18"
+    "unisex": "56",
+    "moreMale": "32",
+    "male": "19"
   },
   "priceVoting": {
     "wayOverpriced": "27",
-    "overpriced": "25",
-    "fair": "28",
-    "goodValue": "6",
+    "overpriced": "28",
+    "fair": "33",
+    "goodValue": "7",
     "greatValue": "8"
   },
   "remindsMeOf": [
@@ -140,6 +168,10 @@
       "name": "Meraviglioso"
     },
     {
+      "brand": "IBRAHEEM ALQURASHİ",
+      "name": "Sapphire Leather"
+    },
+    {
       "brand": "CHOPARD",
       "name": "Oud Malaki"
     },
@@ -148,16 +180,8 @@
       "name": "Benjoin Bohème"
     },
     {
-      "brand": "GUCCİ",
-      "name": "Gucci Guilty Absolute"
-    },
-    {
       "brand": "PENHALİGON'S",
       "name": "Halfeti Leather"
-    },
-    {
-      "brand": "TOSKOVAT'",
-      "name": "Inexcusable Evil"
     },
     {
       "brand": "BYREDO",
@@ -190,12 +214,20 @@
       "name": "Outlands"
     },
     {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
+    },
+    {
       "brand": "NASOMATTO",
       "name": "Black Afgano"
     },
     {
       "brand": "AMOUAGE",
       "name": "Opus XIV – Royal Tobacco"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Encre Noire"
     },
     {
       "brand": "BY KİLİAN",
@@ -214,20 +246,154 @@
       "name": "Herod"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Musc Ravageur"
-    },
-    {
       "brand": "NASOMATTO",
       "name": "Baraonda"
     },
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Oud Satin Mood"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent791051",
+      "author": "vanilka133",
+      "date": "2026-01-22",
+      "text": "Sanki bir filin ya da başka bir hayvanın yanında duruyormuşum gibi. Ufff, tipik Arap görünümü, bu yüzden tavsiye etmiyorum. Ciltte bu fizyolojik koku birkaç saat sonra kayboluyor. Ve sonra, çiçeklerle mümkün olduğunca tatlandırılmış (hatta yoğun) tipik bir odunsu koku kalıyor. Amber kokusu daha hafif, özel bir şey yok. Ombre Noamde çok güçlü ve karanlık geliyorsa, bu parfüm oudlu gül kompozisyonuna bir giriş olabilir. Benim için kesinlikle çok tatlı.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.25491.jpg"
     },
     {
-      "brand": "MARC-ANTOİNE BARROİS",
-      "name": "Ganymede"
+      "id": "parent791032",
+      "author": "InquisitiveReviewer",
+      "date": "2025-12-02",
+      "text": "Bu parfümü daha yakından incelemeden önce uyarıldım. Satıcı kadın kapağı açtı, dikkatlice kokladı, sanki bir savaş suçu koklamış gibi geri çekildi ve \"Bu parfümü hiç sevmiyorum. Kendi cildime bile sıkmazdım\" dedi. Sonra bana, bir güvenlik görevlisinin el koyduğu kimliği iade eder gibi bir test şeridi uzattı.\n\nÇubuğu reddettim ve bileğime sıkmasını istedim. O içini çekip, pişman olacağımı mırıldandı, sonra cildime belirgin bir şekilde yağlı olan parfümü sıktı.\n\nVe sonra olan oldu. Parfüm cildimde uyanırken, yağlı pürüzlülük düzeldi. Sihir gibi. Zengin oud, kremsi vanilya, topraksı paçuli. Derin, davetkar bir koku, onun tepkisini gerçekten kafa karıştırıcı hale getirdi.\n\nBunda gül kokusu alıyorum, ama notaların arasında bir yerde saklanıyor. Ant-Man Quantumania'daki Scott'ın olasılık alanına atıldığı ve aniden yüzlerce versiyonu etrafta koşuşturmaya başladığı sahne gibi. Gül kokusu orada, yemin ederim, ama oud, vanilya, paçuli ve dumanlı tatlılığın oluşturduğu bir sürü içinde sadece küçük bir \"ben\" gibi. Her şey uyum sağladığında onu bir anlık yakalarsınız, sonra tekrar kalabalığın içine gömülür.\n\nBir şeritte bu garip geliyor. Kuru, tuhaf, sandal ağacı çayına batırılmış karton gibi. Ciltte mi? Dönüşüyor. Ağır, evet. Utangaç değil. Kesinlikle oryantal, karamsar, akşam havası vibes'ına eğilimli. \"Deri\" etiketi neredeyse hiç görünmüyor; bunun yerine oud, reçine, baharat ve rahat, dumanlı bir tatlılık alıyorsunuz.\n\nAma asıl önemli olan şu: Bir kez yerleşince, bağımlılık yapıyor. Yoğun ama pürüzsüz, şehvetli ama ayakları yere basan. Gündüz için uygun, flörtöz bir koku değil. Eski bir sarayda ateşin ışığında güçlü siyah çay yudumlamak gibi bir parfüm. Çevrimiçi birçok yorumcu, deri tanımının yanlış olduğunu söylüyor; ben de aynı fikirdeyim.\n\nYine de oud, reçine, vanilya ve derinlikten hoşlananlar için bu koku kaçırılmayacak bir koku. Baharat pazarında bir fil geçidi gibi kokacak mıyım bilmiyorum, ama birinin daha yakından koklamak isteyeceği bir anı gibi kokacağım.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1287161.jpg"
+    },
+    {
+      "id": "parent791035",
+      "author": "KHÀLUDILICIOUS",
+      "date": "2025-10-18",
+      "text": "Sanki bir şişede Hindistan var, kendimi Hindistan'da geleneksel kıyafetleri giymiş bir keşiş gibi hissediyorum, çıplak ayakla fil ve böceklerle koşuyor, çamurda kaplanlarla yarışıyorum. Oud ve toprak kokusunun güzel notaları, doğanın içinde, doğanın güzelliği içinde, bazen kokuşmuş ama yine de çocukluğun güzel yönlerini taşıyan bir his veriyor.\n\nSÜPER GÜZEL!! 10/10",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2513082.gif"
+    },
+    {
+      "id": "parent791041",
+      "author": "cranky137",
+      "date": "2025-04-11",
+      "text": "Benim zevkime göre fazla erkeksi. Mevsim: sonbahar/kış.\n\nDeri kokusu alamıyorum, belki de bu sadece Oriental Leather koleksiyonuna ayak uydurmak içindir. Ama bu tamamen oud/capriol yağı. Neredeyse castoreum-oud, biraz hayvansal. Capriol yağı, araba tamirhanesindeki benzin lekeleri gibi bir his veriyor. Biraz vanilya bazlı olduğunu söyleyebilirim, ama burnumla gül veya yasemin kokusu alamıyorum.\n\nErkekler için iyi bir koku olabilir ama lütfen kendiniz deneyin çünkü bu koku çok yaygın değil ve herkese uygun olmayabilir.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent791034",
+      "author": "eva.daisy.88",
+      "date": "2025-04-03",
+      "text": "Bu koku bana gençliğimin Çek Cumhuriyeti'ndeki yazlarını hatırlatıyor - bahçede güneşin altında çalışırken, samanı yeniden düzenlerken, sıcak dalgasında terlerken, günün ilerleyen saatlerinde açık bir şömine kurup bahçeden topladığımız odunları yakarken, ateşin üzerinde sosisleri kızartırken, rüzgar yön değiştirdiğinde terle dumanın karıştığı o anları. Terli cilt, duman, odun ve mutluluk. Bu koku bana bunları hatırlatıyor.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1401688.jpg"
+    },
+    {
+      "id": "parent791045",
+      "author": "Zapp",
+      "date": "2025-03-06",
+      "text": "Hoş bir koku. Sadece Leather'ın burada ne işi olduğu anlaşılmıyor. Ama sanırım koku, kendi markasının esiri olmuş, deri ile ilgili olduğu konseptiyle (en azından kendileri öyle düşünüyorlar 😂).\nUd burada \"papirüs\" gibi, yani hayvansal ud kokusu yok. Tüm \"kir\" daha başlamadan bitiyor. Ud severler için - burayı geçelim.\nÇiçek kokusu, sıcak baharatlar ve vanilya tatlılığı güzel bir şekilde harmanlanmış. Ne derseniz deyin, kaliteli bir iş. Memo'nun fiyat etiketi için bu şişeyi almak istemiyorum.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.282902.jpg"
+    },
+    {
+      "id": "parent791053",
+      "author": "Mmyk",
+      "date": "2025-02-18",
+      "text": "Memo, hem güzel kokan hem de uzun süre kalıcı bir parfümle beni sonunda mutlu edecek mi?\n\nKısa cevap: Hayır.\n\nBu sefer Memo kalıcılık konusunda elinden geleni yaptı. Bu koku 8 saat boyunca etrafınızda dans etmeye devam ediyor. Ayrıca, kokuyu hemen fark eden kocam da kokuyu aldı. Gerçi o kokuyu hoş bulmadığı için fark etti. Ben de aynı fikirdeyim.\n\nBu koku notalarının kombinasyonuyla, çok beğeneceğimi umuyordum ve özellikle uzun süre kalıcı olmasını umuyordum. Şimdi, denemek için bir günün fazlasıyla yeterli olduğunu düşünüyorum. Kötü bir koku değil. Çok daha kötü kokular var, ama bu koku bana FA deodorantını hatırlatıyor. O kokunun adını bilmiyorum, ama ambalajını hatırlıyorum: koyu pembe, çekici görünümlü bir ambalajdı. Yapay vanilya ve paçuli içeren bir gül kokusuydu.\nBunu gençken yıllarca kullandım. Bu koku tam olarak öyle kokuyor, dış dünyaya karşı duyulan korku teri dahil.\n\nEvet, bana göre bu daha çok kadınsı bir koku. Oud kokusu tuhaf ya da kötü değil. Oud sevenler bundan memnun kalacaklar. Tuhaf bir koku notaları karışımı ya da aşırı bir koku yok. Belki de Fa deodorantını hiç kullanmamış olsaydım bu kokuyu beğenirdim.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.nl",
+      "avatar": "https://fimgs.net/mdimg/avatarinl/m.20824.jpg"
+    },
+    {
+      "id": "parent791046",
+      "author": "Krasavcheg138",
+      "date": "2025-02-02",
+      "text": "Normal bir koku! Çok hoş ve kalıcı! Bu, burnunuzu tıkayan bir niş koku değil😁, aksine koklamaya zorlayan bir koku. Burada belirtilen her şey var, hiç pislik kokusu almıyorum. Başından sonuna kadar etkisini sürdürüyor. Kadın ve erkek cildinde farklı kokuyor, benim burnuma daha çok erkek tarafına doğru) Genel olarak - bu markayı hep es geçtim, ama boşuna) Benim için - bu süet, odun ve baharat) Vanilya ve gül de hissediliyor ve paçuli) Bir şekilde öyle)",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.202186.jpg"
+    },
+    {
+      "id": "parent791040",
+      "author": "dragonfruit2015",
+      "date": "2025-01-02",
+      "text": "Sanırım memo'daki arkadaşlar, geleneksel isimlendirme geleneğini sürdürmek için isimde \"deri\" kelimesini kullanmak zorunda kaldılar. Parfüm, çoğu kişinin Orta Doğu parfümleriyle ilişkilendireceği türden baskın bir koku olmasa da, çok hoş bir oud kokusuyla açılıyor. Bundan sonra baharat kokusu kesinlikle hissedilmeye başlıyor. Ne yazık ki benim için çok kısa bir süre sonra kokuyu alamaz hale geliyorum. Neyse ki bu koku cildimde çok uzun süre kalıyor ve spreyleme yaptığım boynuma dokunduğumda parmaklarımda kokuyu alabiliyorum. Unutmayın, cildimin çoğu kokuya karşı duyarlı olmadığını bildiğim için genellikle çok fazla sprey sıkarım. Bu konuda çok yakın zamanda en güzel iltifatlardan birini aldım. Kokunun uçtuğunu sanıyordum ama biri bana kokumun ne kadar harika olduğunu söyledi. Aşırı fiyatına rağmen, bunu satın aldığım için pişman değilim. Giysilerimde sonsuza kadar kalıyor gibi hissediyorum. Kesinlikle denemenizi tavsiye ederim. Fiyatı bazıları için biraz fazla ya da yetersiz olabilir. Sadece deri kokusu beklemeyin... Şerefe ve mutlu 2025'ler.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.886281.jpg"
+    },
+    {
+      "id": "parent791038",
+      "author": "Lamki",
+      "date": "2024-12-01",
+      "text": "Merhaba Memo, sonunda geldi...\nBu parfümün Memo'nun diğer tüm serilerinden oldukça farklı ve benzersiz olduğu konusunda herkesle aynı fikirdeyim.\nOud ilk kokladığınızda sizi etkiliyor ve baharatlarla mükemmel bir şekilde harmanlanarak ona orijinal Orta Doğu-Güney Asya kimliğini kazandırıyor.\nHem cilde hem de kumaşa mükemmel uyum sağlıyor, şık ve zengin.\n\nİçinde deri kokusu almıyorum, bu da onu biraz tuhaf kılıyor.\nYine de onu sürmek hoşuma gidiyor.\n\nGenel olarak 8/10",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1805571.jpg"
+    },
+    {
+      "id": "parent791047",
+      "author": "Тень Кочевника",
+      "date": "2024-11-09",
+      "text": "Genelde parfümlere pek ilgi duymam. Kendim hiç kullanmam ve sadece popüler 5-6 kokuyu tanıyorum. Sonra tesadüfen bir köşeye uğradım, yeni çıkanları kontrol ettim ve evet, Hint derisi - deneyelim dedim. Beni hemen büyüledi, şaşırttı. Ne olduğunu hiç anlamadım. Oturup kokluyorum, tahmin ediyorum: ambra, vanilya, süet, tatlılar, safran. Ve sonra birdenbire! İnsanlar gübre kokusundan bahsediyor. Ben öyle bir şey koklamadım. Evet, hafif bir hayvan kokusu var sanki, ama hiç de rahatsız edici değil. Çok çekici bir koku. Silver Oud Amouage beni korkuttu. Bu ise tek kelimeyle muhteşem. Biraz daha tatlı olsaydı, almayı düşünürdüm. Ama büyük olasılıkla almayacağım. Harika bir başlangıç - beğendim! Oudlar ve diğer Doğu kokuları arasında cesur ve parlak bir koku.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.279085.jpg"
+    },
+    {
+      "id": "parent791052",
+      "author": "Beata Maria",
+      "date": "2024-10-29",
+      "text": "Güzel bir parfüm. Girişten itibaren hayvanî, güçlü bir vurgu var. Oud bizi Indian Leather dünyasına götürüyor. Hemen ardından cypriol ve olibanum kokusu geliyor. Yaklaşık iki saat sonra parfüm değişiyor ve \"hayvansal\" kokunun yerini çiçekler alıyor. Parfüm hafifçe yumuşuyor ve belirgin, baş döndürücü çiçeklerin buketiyle karşı karşıya kalıyoruz. Kokunun sonunda her şey sessizleşir, yumuşar ve ilginç bir deneyimin yankısı haline gelir. Parfüm, tüm yıl ve tüm gün boyunca kullanılabilir, ancak bu parfümün özellikle yüksek sıcaklıkları sevdiğini düşünüyorum. Parfümün atmosferine bizi sokan güzel bir şişe. Unisex. Fiyatı yaklaşık. İlginç bir kompozisyon.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.3037.jpg"
+    },
+    {
+      "id": "parent791033",
+      "author": "Ant SRV",
+      "date": "2024-10-12",
+      "text": "Tüm Memo ürünleri arasında en oud kokulu olanı, yeni dalga \"mavi\" oudların temsilcisidir. Evet, oudun kirli bir yanı vardır, ancak bu koku taze, çınlayan, havadar bir yapıya dokunmuştur. Kısacası, bu koku Amouage King Blue'ya en yakın olanıdır ve Silver Oud ile de benzerlikler taşır.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent791036",
+      "author": "Olgita",
+      "date": "2024-08-03",
+      "text": "Memo'nun yeni deri kokusunun bir örneğini deneme fırsatı buldum ve ne diyebilirim ki, sonbahar için tam zamanında çünkü bu kokunun sıcak havalar için uygun olduğunu düşünmüyorum. Indian Leather tamamen oud ve reçinelerden oluşuyor. Burada deri kokusu almıyorum ama burada kullanılan oudun çok deriye benzeyen bir tür olduğunu ve yumuşak, vintage, pürüzsüz deri kokusu verdiğini hissediyorum. Indian Leather'ın açılışı benim burnuma göre güçlü ve erkeksi, ancak koku yerleşmeye başladıkça oud ve reçineler azalıyor ve daha çok amber tatlılığı öne çıkıyor, bu da kokuyu daha az agresif ve daha unisex hale getiriyor. Çiçekler burada baskın değil (en azından benim cildimde), ancak tüm kompozisyona belirli bir incelik ve denge katıyorlar. Indian Leather'ı serin havalarda kullanmak için harika bir koku ve deri oud ve reçine ağırlıklı kokuları sevenler için mutlaka denemeleri gereken bir seçenek olarak görüyorum. Sonbahar akşamları ve serin günler için çok uygun olan bu koku, deri serisine harika bir katkı olduğunu düşünüyorum. Kesinlikle tam boy bir şişe alacağım.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1710321.jpg"
     }
   ]
 }

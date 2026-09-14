@@ -23,11 +23,11 @@
       "width": "56.25%"
     },
     {
-      "name": "taze",
+      "name": "misk",
       "width": "51.875%"
     },
     {
-      "name": "misk",
+      "name": "taze",
       "width": "51.875%"
     },
     {
@@ -66,54 +66,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "3",
-    "moderate": "5",
-    "longLasting": "1",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "5",
-    "strong": "2",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "6",
-    "moreFemale": "9",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Raspberry Ripple"
-    },
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Redcurrant & Cream"
-    },
-    {
-      "brand": "LES SOEURS DE NOE",
-      "name": "Red Berries Elixir"
-    },
-    {
-      "brand": "STÉPHANE HUMBERT LUCAS 777",
-      "name": "Pink Boa"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "Cœur Fou"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JO MALONE LONDON",
@@ -175,5 +154,6 @@
       "brand": "CASAMORATİ 1888",
       "name": "Lira"
     }
-  ]
+  ],
+  "comments": []
 }

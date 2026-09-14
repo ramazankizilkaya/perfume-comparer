@@ -1,8 +1,8 @@
 {
   "name": "Empressa Body Mist Penhaligon's",
   "targetGender": "kadınlar için",
-  "fragranceFamily": "Citrus",
-  "concentration": "EauFraiche",
+  "fragranceFamily": "Oriental",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.136384.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Penhaligon-s/Empressa-Body-Mist-136384.html",
   "brand": "Penhaligon's parfüm ve kolonya",
@@ -11,7 +11,7 @@
   "description_enhanced": "Penhaligon's markasının Empressa Body Mist parfümü, kadınlar için Şipr Çiçeksi bir kokudur. Bu yeni bir parfüm. Empressa Body Mist, 2026 yılında piyasaya sürüldü. Kokuda Kan portakalı, Paçuli, Vanilya ve Şeftali notaları bulunur.",
   "mainAccords": [
     {
-      "name": "narenciye",
+      "name": "vanilya",
       "width": "100%"
     },
     {
@@ -19,7 +19,7 @@
       "width": "100%"
     },
     {
-      "name": "vanilya",
+      "name": "narenciye",
       "width": "100%"
     },
     {
@@ -27,19 +27,19 @@
       "width": "92.9999%"
     },
     {
-      "name": "tatlı",
-      "width": "72.0001%"
-    },
-    {
       "name": "odunsu",
       "width": "72.0001%"
     },
     {
-      "name": "pudralı",
-      "width": "65%"
+      "name": "tatlı",
+      "width": "72.0001%"
     },
     {
       "name": "sıcak baharatlı",
+      "width": "65%"
+    },
+    {
+      "name": "pudralı",
       "width": "65%"
     },
     {
@@ -49,13 +49,41 @@
     {
       "name": "toprak",
       "width": "57.9999%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.00",
-    "votesCount": "1",
+    "score": "4.00",
+    "votesCount": "2",
     "breakdown": {
-      "love": "0",
+      "love": "1",
       "like": "0",
       "ok": "1",
       "dislike": "0",
@@ -64,11 +92,11 @@
   },
   "seasons": {
     "winter": "0",
-    "spring": "0",
-    "summer": "0",
+    "spring": "1",
+    "summer": "1",
     "autumn": "0",
-    "day": "0",
-    "night": "0"
+    "day": "1",
+    "night": "1"
   },
   "notes": {
     "top": [],
@@ -82,32 +110,38 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Empressa"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

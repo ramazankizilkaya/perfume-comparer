@@ -23,12 +23,16 @@
       "width": "47.9375%"
     },
     {
+      "name": "vanilya",
+      "width": "47.5%"
+    },
+    {
       "name": "paçuli",
       "width": "47.5%"
     },
     {
-      "name": "vanilya",
-      "width": "47.5%"
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -67,31 +71,31 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "0",
-    "moderate": "2",
-    "longLasting": "2",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "2",
-    "strong": "2",
-    "enormous": "3"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -124,12 +128,12 @@
       "name": "Les Absolus d'Orient Santal Royal"
     },
     {
-      "brand": "ROJA DOVE",
-      "name": "Amber Aoud"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Oud Wood"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Amber Aoud"
     },
     {
       "brand": "MANCERA",
@@ -155,5 +159,6 @@
       "brand": "MUGLER",
       "name": "A*Men Pure Malt"
     }
-  ]
+  ],
+  "comments": []
 }

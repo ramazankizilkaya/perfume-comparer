@@ -19,11 +19,11 @@
       "width": "95.8824%"
     },
     {
-      "name": "deri",
+      "name": "paçuli",
       "width": "71.1766%"
     },
     {
-      "name": "paçuli",
+      "name": "deri",
       "width": "71.1766%"
     },
     {
@@ -39,16 +39,44 @@
       "width": "52.6473%"
     },
     {
-      "name": "amber",
+      "name": "animalik",
       "width": "50.5883%"
     },
     {
-      "name": "animalik",
+      "name": "amber",
       "width": "50.5883%"
     },
     {
       "name": "toprak",
       "width": "46.4707%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -83,32 +111,46 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "2",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "2",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "Nuit d’Issey Parfum"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "Nuit d'Issey Pulse Of The Night"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "Nuit d’Issey"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

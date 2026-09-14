@@ -49,15 +49,43 @@
     {
       "name": "taze",
       "width": "53.5456%"
+    },
+    {
+      "name": "Online satın alın 13 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.04",
-    "votesCount": "89",
+    "score": "4.03",
+    "votesCount": "91",
     "breakdown": {
       "love": "31",
-      "like": "37",
-      "ok": "16",
+      "like": "38",
+      "ok": "17",
       "dislike": "4",
       "hate": "1"
     }
@@ -92,33 +120,90 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "5",
+    "moderate": "31",
+    "longLasting": "10",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "31",
+    "strong": "11",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "15",
+    "moreMale": "17",
+    "male": "22"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "16",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "3",
+    "fair": "17",
+    "goodValue": "21",
+    "greatValue": "13"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Scandal Pour Homme"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Scandal Pour Homme Le Parfum"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Stronger With You Only"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Odyssey Mandarin Sky"
+    },
+    {
+      "brand": "FERRARİ",
+      "name": "Ferrari Man in Red"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "CH Kings"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Vibrant Leather Bogoss"
+    },
+    {
+      "brand": "RAYHAAN",
+      "name": "Adonis Icarus"
+    },
+    {
+      "brand": "CUSTO BARCELONA",
+      "name": "Enjoy Man"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "Irrévérent"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Le Beau"
+    },
+    {
+      "brand": "PHİLİPP PLEİN PARFUMS",
+      "name": "No Limit$ Gold"
+    },
+    {
+      "brand": "MİCHAEL KORS",
+      "name": "Michael Kors Pour Homme"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo 67"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -127,10 +212,6 @@
     {
       "brand": "VERSACE",
       "name": "Eros Flame"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Qaed Al Fursan"
     },
     {
       "brand": "CHANEL",
@@ -145,12 +226,12 @@
       "name": "Y Eau de Parfum"
     },
     {
-      "brand": "MOSCHİNO",
-      "name": "Toy Boy"
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Ultra Male"
     },
     {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Beau Le Parfum"
+      "brand": "MOSCHİNO",
+      "name": "Toy Boy"
     },
     {
       "brand": "ROCHAS",
@@ -163,6 +244,10 @@
     {
       "brand": "GİORGİO ARMANİ",
       "name": "Acqua di Giò Profondo"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Cool Water Intense"
     },
     {
       "brand": "GİVENCHY",
@@ -180,5 +265,6 @@
       "brand": "AZZARO",
       "name": "The Most Wanted Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

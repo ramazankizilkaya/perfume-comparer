@@ -45,21 +45,49 @@
     {
       "name": "yeşil",
       "width": "45.717%"
+    },
+    {
+      "name": "Online satın alın 21 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.76",
-    "votesCount": "75",
+    "score": "3.72",
+    "votesCount": "76",
     "breakdown": {
       "love": "31",
       "like": "18",
       "ok": "7",
       "dislike": "15",
-      "hate": "4"
+      "hate": "5"
     }
   },
   "seasons": {
-    "winter": "3",
+    "winter": "4",
     "spring": "25",
     "summer": "42",
     "autumn": "10",
@@ -83,33 +111,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "2",
+    "moderate": "16",
+    "longLasting": "21",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "16",
+    "strong": "26",
+    "enormous": "19"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "0",
+    "unisex": "22",
+    "moreMale": "5",
+    "male": "17"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "19",
+    "greatValue": "14"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "PROFUMUM ROMA",
+      "name": "Acqua di Sale"
+    },
+    {
+      "brand": "GUCCİ",
+      "name": "Gucci Guilty Cologne Pour Homme"
+    },
+    {
+      "brand": "GİARDİNO BENESSERE",
+      "name": "Salaria"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Akragas"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Sandflowers"
+    },
+    {
+      "brand": "LORENZO PAZZAGLİA",
+      "name": "Black Sea"
+    },
+    {
+      "brand": "GRİTTİ",
+      "name": "Antalya"
+    },
+    {
+      "brand": "HEMEL PARİS",
+      "name": "Patchouli For All"
+    },
+    {
+      "brand": "SUKİMUKİ",
+      "name": "No. 19"
+    },
+    {
+      "brand": "RUE BROCA",
+      "name": "Pride Pour Homme"
+    },
+    {
+      "brand": "DOUGLAS",
+      "name": "Walk In The Sun"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Faqat Lil Rijal"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Kenzo Homme Eau de Toilette"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -171,5 +252,6 @@
       "brand": "LALİQUE",
       "name": "Encre Noire"
     }
-  ]
+  ],
+  "comments": []
 }

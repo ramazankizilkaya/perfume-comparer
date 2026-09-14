@@ -35,16 +35,44 @@
       "width": "48.1177%"
     },
     {
-      "name": "toprak",
-      "width": "46.4706%"
-    },
-    {
       "name": "paçuli",
       "width": "46.4706%"
     },
     {
       "name": "lavanta",
       "width": "46.4706%"
+    },
+    {
+      "name": "toprak",
+      "width": "46.4706%"
+    },
+    {
+      "name": "Online satın alın 12 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,38 +115,47 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "2",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "2",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "K by Dolce & Gabbana"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Riche & Royale Intense"
+    },
     {
       "brand": "MAİSON ALHAMBRA",
-      "name": "Avant"
-    },
+      "name": "Kingsman"
+    }
+  ],
+  "peopleAlsoLike": [
     {
       "brand": "PRADA",
       "name": "Luna Rossa Carbon Eau de Toilette"
@@ -135,5 +172,6 @@
       "brand": "FRAGRANCE WORLD",
       "name": "Genuine Man Giovany Reserve"
     }
-  ]
+  ],
+  "comments": []
 }

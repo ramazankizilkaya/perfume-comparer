@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "amber",
+      "name": "odunsu",
       "width": "81.7393%"
     },
     {
-      "name": "odunsu",
+      "name": "amber",
       "width": "81.7393%"
     },
     {
@@ -29,13 +29,41 @@
     {
       "name": "taze baharatlı",
       "width": "43.9999%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.76",
-    "votesCount": "78",
+    "score": "3.77",
+    "votesCount": "79",
     "breakdown": {
-      "love": "39",
+      "love": "40",
       "like": "12",
       "ok": "7",
       "dislike": "9",
@@ -43,12 +71,12 @@
     }
   },
   "seasons": {
-    "winter": "50",
+    "winter": "51",
     "spring": "13",
     "summer": "5",
-    "autumn": "44",
+    "autumn": "45",
     "day": "12",
-    "night": "41"
+    "night": "42"
   },
   "notes": {
     "top": [
@@ -65,33 +93,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "0",
+    "moderate": "16",
+    "longLasting": "34",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "16",
+    "strong": "25",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "5",
+    "unisex": "30",
+    "moreMale": "16",
+    "male": "9"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "15",
+    "greatValue": "38"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "L’Autre Oud Eau de Parfum"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Babycat"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Rifaaqat"
+    },
+    {
+      "brand": "ATKİNSONS",
+      "name": "Oud Save The King"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ishq Al Shuyukh Gold"
+    },
+    {
+      "brand": "ALEXANDRİA FRAGRANCES",
+      "name": "Tomcat"
+    },
+    {
+      "brand": "SONİA RYKİEL",
+      "name": "Le Parfum Sonia Rykiel Extrait"
+    },
+    {
+      "brand": "ESSENTİAL PARFUMS",
+      "name": "Divine Vanille"
+    },
+    {
+      "brand": "ZİMAYA",
+      "name": "Ghayath"
+    },
+    {
+      "brand": "AQUOLİNA",
+      "name": "Black Sugar"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Ébène"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Sceptre Oceana"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Maahir Black Edition"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Oud Tobacco"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Raghba Wood Intense"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LATTAFA PERFUMES",
@@ -153,5 +242,6 @@
       "brand": "JOOP!",
       "name": "Joop! Homme"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "kahve",
       "width": "44.1414%"
+    },
+    {
+      "name": "Online satın alın 29 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,7 @@
     }
   },
   "seasons": {
-    "winter": "26",
+    "winter": "27",
     "spring": "6",
     "summer": "4",
     "autumn": "19",
@@ -97,33 +125,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "5",
+    "moderate": "16",
+    "longLasting": "6",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "16",
+    "strong": "22",
+    "enormous": "25"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "16",
+    "moreFemale": "2",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "2",
     "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Imari Elixir 2015"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Signature True"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Nuit Trésor"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Nuit Tresor Edition Limitee"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "La Petite Robe Noire"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Nuit Blanche"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Miss Dior Absolutely Blooming"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "L'Interdit Eau de Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -185,5 +246,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Si"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -53,10 +53,10 @@
   ],
   "rating": {
     "score": "3.84",
-    "votesCount": "157",
+    "votesCount": "156",
     "breakdown": {
       "love": "35",
-      "like": "87",
+      "like": "86",
       "ok": "10",
       "dislike": "25",
       "hate": "0"
@@ -64,10 +64,10 @@
   },
   "seasons": {
     "winter": "3",
-    "spring": "50",
+    "spring": "51",
     "summer": "44",
     "autumn": "5",
-    "day": "63",
+    "day": "64",
     "night": "3"
   },
   "notes": {
@@ -90,50 +90,37 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "9",
-    "weak": "12",
-    "moderate": "10",
-    "longLasting": "4",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "19",
-    "moderate": "10",
-    "strong": "10",
-    "enormous": "13"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "12",
-    "moreFemale": "1",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "5",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "10",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GİVENCHY",
-      "name": "Eau Torride"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Jardins de Bagatelle"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez For Her"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "24 Faubourg"
     },
     {
       "brand": "GUERLAİN",
@@ -176,6 +163,10 @@
       "name": "Samsara Eau de Parfum"
     },
     {
+      "brand": "CHANEL",
+      "name": "Coco Noir"
+    },
+    {
       "brand": "GİVENCHY",
       "name": "Organza"
     },
@@ -187,5 +178,6 @@
       "brand": "DİOR",
       "name": "Dolce Vita"
     }
-  ]
+  ],
+  "comments": []
 }

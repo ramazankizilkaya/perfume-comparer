@@ -39,31 +39,59 @@
       "width": "48.0645%"
     },
     {
+      "name": "odunsu",
+      "width": "45.0538%"
+    },
+    {
       "name": "pudralı",
       "width": "45.0538%"
     },
     {
-      "name": "odunsu",
-      "width": "45.0538%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.83",
-    "votesCount": "6",
+    "score": "3.71",
+    "votesCount": "7",
     "breakdown": {
       "love": "2",
       "like": "2",
-      "ok": "1",
+      "ok": "2",
       "dislike": "1",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "0",
     "summer": "0",
-    "autumn": "0",
-    "day": "0",
+    "autumn": "1",
+    "day": "1",
     "night": "0"
   },
   "notes": {
@@ -93,7 +121,7 @@
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "1",
+    "female": "2",
     "moreFemale": "0",
     "unisex": "0",
     "moreMale": "0",
@@ -102,11 +130,15 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "1",
+    "fair": "2",
     "goodValue": "1",
     "greatValue": "0"
   },
   "remindsMeOf": [
+    {
+      "brand": "LANCÔME",
+      "name": "Miracle"
+    },
     {
       "brand": "VERSACE",
       "name": "Red Jeans"
@@ -116,5 +148,6 @@
       "name": "STITCH © DISNEY"
     }
   ],
-  "peopleAlsoLike": []
+  "peopleAlsoLike": [],
+  "comments": []
 }

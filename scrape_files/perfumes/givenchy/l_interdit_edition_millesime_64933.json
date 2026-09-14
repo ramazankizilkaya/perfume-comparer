@@ -55,10 +55,10 @@
     }
   },
   "seasons": {
-    "winter": "51",
-    "spring": "99",
-    "summer": "59",
-    "autumn": "88",
+    "winter": "53",
+    "spring": "100",
+    "summer": "60",
+    "autumn": "89",
     "day": "98",
     "night": "64"
   },
@@ -81,94 +81,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "6",
-    "weak": "14",
-    "moderate": "68",
-    "longLasting": "44",
-    "eternal": "13"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "17",
-    "moderate": "68",
-    "strong": "35",
-    "enormous": "9"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "112",
-    "moreFemale": "14",
-    "unisex": "5",
-    "moreMale": "4",
-    "male": "3"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "8",
-    "overpriced": "35",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "33",
-    "goodValue": "15",
-    "greatValue": "8"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Parfum"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Toilette"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Nocturnal Jasmine"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Parfum Intense"
-    },
-    {
-      "brand": "GİORGİO ARMANİ",
-      "name": "My Way Floral"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Parfum Rouge Ultime"
-    },
-    {
-      "brand": "ELİE SAAB",
-      "name": "Le Parfum Lumière"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Burning Neroli"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique Cabaret Eau de Parfum"
-    },
-    {
-      "brand": "PASCAL MORABİTO",
-      "name": "Parisian Dream"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Libre Eau de Toilette"
-    },
-    {
-      "brand": "DANİEL JOSİER",
-      "name": "Golden Tuberose"
-    },
-    {
-      "brand": "L'ARTİSAN PARFUMEUR",
-      "name": "Seville a l'Aube"
-    },
-    {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Atlas Garden"
-    },
-    {
-      "brand": "NİNA RİCCİ",
-      "name": "Nina Rose"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GİORGİO ARMANİ",
@@ -207,12 +146,12 @@
       "name": "Chance Eau Tendre"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Libre Intense"
-    },
-    {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez For Her"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Libre Intense"
     },
     {
       "brand": "MUGLER",
@@ -230,5 +169,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
     }
-  ]
+  ],
+  "comments": []
 }

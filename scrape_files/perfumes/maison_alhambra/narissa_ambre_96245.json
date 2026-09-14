@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Maison-Alhambra/Narissa-Ambre-96245.html",
   "brand": "Maison Alhambra parfüm ve kolonya",
   "description": "Maison Alhambra markasının Narissa Ambre parfümü, kadınlar için Oryantal bir kokudur. Narissa Ambre, 2022 yılında piyasaya sürüldü. Üst notalar: Frangipani, Ylang Ylang ve Beyaz Çiçekler; orta notalar: Misk ve Amber; alt notalar Kaşmir, Vanilya ve Sedir.",
-  "description_original": "Maison Alhambra markasının Narissa Ambre parfümü, kadınlar için Oryantal bir kokudur. Narissa Ambre, 2022 yılında piyasaya sürüldü. Üst notalar: Frangipani, Ylang Ylang ve Beyaz Çiçekler; orta notalar: Misk ve Amber; alt notalar Kaşmir, Vanilya ve Sedir.",
+  "description_original": "Maison Alhambra markasının Narissa Ambre parfümü, kadınlar için Oryantal bir kokudur. Narissa Ambre, 2022 yılında piyasaya sürüldü. Üst notalar: Frangipani, Ylang Ylang ve Beyaz Çiçekler; orta notalar: Misk ve Amber; alt notalar Kaşmeran, Vanilya ve Sedir.",
   "description_enhanced": "Maison Alhambra markasının Narissa Ambre parfümü, kadınlar için Oryantal bir kokudur. Narissa Ambre, 2022 yılında piyasaya sürüldü. Üst notalar: Frangipani, Ylang Ylang ve Beyaz Çiçekler; orta notalar: Misk ve Amber; alt notalar Kaşmir, Vanilya ve Sedir.",
   "mainAccords": [
     {
@@ -49,26 +49,50 @@
     {
       "name": "vanilya",
       "width": "55.8663%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.08",
-    "votesCount": "108",
+    "score": "4.07",
+    "votesCount": "112",
     "breakdown": {
-      "love": "47",
-      "like": "39",
+      "love": "48",
+      "like": "41",
       "ok": "9",
-      "dislike": "10",
+      "dislike": "11",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "26",
-    "spring": "46",
+    "winter": "30",
+    "spring": "47",
     "summer": "37",
-    "autumn": "36",
-    "day": "51",
-    "night": "27"
+    "autumn": "38",
+    "day": "53",
+    "night": "29"
   },
   "notes": {
     "top": [
@@ -81,7 +105,7 @@
       "Amber"
     ],
     "base": [
-      "Kaşmir",
+      "Kaşmeran",
       "Vanilya",
       "Sedir"
     ],
@@ -89,19 +113,19 @@
   },
   "longevity": {
     "veryWeak": "1",
-    "weak": "8",
-    "moderate": "29",
+    "weak": "9",
+    "moderate": "30",
     "longLasting": "8",
     "eternal": "1"
   },
   "sillage": {
-    "intimate": "7",
-    "moderate": "29",
+    "intimate": "8",
+    "moderate": "30",
     "strong": "7",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "37",
+    "female": "39",
     "moreFemale": "9",
     "unisex": "9",
     "moreMale": "1",
@@ -112,7 +136,7 @@
     "overpriced": "2",
     "fair": "9",
     "goodValue": "23",
-    "greatValue": "26"
+    "greatValue": "28"
   },
   "remindsMeOf": [
     {
@@ -124,32 +148,32 @@
       "name": "Shahd"
     },
     {
-      "brand": "CAROLİNA HERRERA",
-      "name": "Carolina Herrera by Carolina Herrera"
-    },
-    {
       "brand": "CHLOÉ",
       "name": "Love Story Eau Sensuelle"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Carolina Herrera by Carolina Herrera"
     },
     {
       "brand": "PRADA",
       "name": "Prada La Femme"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Qaed Al Fursan Unlimited"
+    },
+    {
       "brand": "LİSE WATİER",
       "name": "Neiges"
     },
     {
+      "brand": "PARFUMS BERDOUES",
+      "name": "Ylang & Fleur de Sel"
+    },
+    {
       "brand": "MAİSON ALHAMBRA",
       "name": "Floral Ambrosia"
-    },
-    {
-      "brand": "AFNAN",
-      "name": "9am pour Femme"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "La African Drummer"
     }
   ],
   "peopleAlsoLike": [
@@ -210,8 +234,9 @@
       "name": "Black Opium"
     },
     {
-      "brand": "MAİSON ALHAMBRA",
-      "name": "Narcotic Flower"
+      "brand": "MUGLER",
+      "name": "Alien"
     }
-  ]
+  ],
+  "comments": []
 }

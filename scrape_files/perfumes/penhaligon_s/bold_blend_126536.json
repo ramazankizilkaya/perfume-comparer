@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Penhaligon-s/Bold-Blend-126536.html",
   "brand": "Penhaligon's parfüm ve kolonya",
   "description": "Penhaligon's markasının Bold Blend parfümü, kadınlar ve erkekler için Aromatik Baharatlı bir kokudur. Bu yeni bir parfüm. Bold Blend, 2026 yılında piyasaya sürüldü. Üst notalar: Baharatlı nane ve Karabiber; orta notalar: Menekşe yaprağı ve Misk Adaçayı; alt notalar Palo Santo, Cypriol Yağı veya Nagarmotha ve Selvi.",
-  "description_original": "Penhaligon's markasının Bold Blend parfümü, kadınlar ve erkekler için Aromatik Baharatlı bir kokudur. Bu yeni bir parfüm. Bold Blend, 2026 yılında piyasaya sürüldü. Üst notalar: Baharatlı nane ve Karabiber; orta notalar: Menekşe yaprağı ve Misk Adaçayı; alt notalar Palo Santo, Cypriol Yağı veya Nagarmotha ve Selvi.",
+  "description_original": "Penhaligon's markasının Bold Blend parfümü, kadınlar ve erkekler için Aromatik Baharatlı bir kokudur. Bu yeni bir parfüm. Bold Blend, 2026 yılında piyasaya sürüldü. Üst notalar: Baharatlı nane ve Karabiber; orta notalar: Menekşe yaprağı ve Misk Adaçayı; alt notalar Palo Santo, Selvi ve Cypriol Yağı veya Nagarmotha.",
   "description_enhanced": "Penhaligon's markasının Bold Blend parfümü, kadınlar ve erkekler için Aromatik Baharatlı bir kokudur. Bu yeni bir parfüm. Bold Blend, 2026 yılında piyasaya sürüldü. Üst notalar: Baharatlı nane ve Karabiber; orta notalar: Menekşe yaprağı ve Misk Adaçayı; alt notalar Palo Santo, Cypriol Yağı veya Nagarmotha ve Selvi.",
   "mainAccords": [
     {
@@ -16,47 +16,75 @@
     },
     {
       "name": "odunsu",
-      "width": "82.3146%"
+      "width": "81.8402%"
     },
     {
       "name": "yeşil",
-      "width": "77.2437%"
+      "width": "76.8779%"
     },
     {
       "name": "taze baharatlı",
-      "width": "74.5229%"
+      "width": "73.9217%"
     },
     {
       "name": "ozonik",
-      "width": "64.0723%"
+      "width": "65.1056%"
     },
     {
       "name": "sulu",
-      "width": "55.1059%"
+      "width": "55.8672%"
     },
     {
       "name": "yumuşak baharatlı",
-      "width": "44.841%"
+      "width": "45.2036%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.61",
-    "votesCount": "136",
+    "score": "3.67",
+    "votesCount": "161",
     "breakdown": {
-      "love": "30",
-      "like": "53",
-      "ok": "31",
-      "dislike": "14",
-      "hate": "8"
+      "love": "40",
+      "like": "61",
+      "ok": "36",
+      "dislike": "15",
+      "hate": "9"
     }
   },
   "seasons": {
-    "winter": "18",
-    "spring": "57",
-    "summer": "22",
-    "autumn": "46",
-    "day": "51",
-    "night": "17"
+    "winter": "20",
+    "spring": "69",
+    "summer": "32",
+    "autumn": "53",
+    "day": "59",
+    "night": "20"
   },
   "notes": {
     "top": [
@@ -69,55 +97,120 @@
     ],
     "base": [
       "Palo Santo",
-      "Cypriol Yağı veya Nagarmotha",
-      "Selvi"
+      "Selvi",
+      "Cypriol Yağı veya Nagarmotha"
     ],
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "10",
+    "moderate": "23",
+    "longLasting": "5",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "11",
+    "moderate": "23",
+    "strong": "4",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "16",
+    "moreMale": "30",
+    "male": "7"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "31",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "10",
+    "overpriced": "21",
+    "fair": "36",
+    "goodValue": "0",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MAJOURİ",
+      "name": "One Of a Kind"
+    },
+    {
+      "brand": "LE LABO",
+      "name": "Santal 33"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "The Cut"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "A Balm Of Calm"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Santal Dan Sha"
+    },
+    {
+      "brand": "BLİND",
+      "name": "Punto"
+    },
+    {
+      "brand": "VİLHELM PARFUMERİE",
+      "name": "Dear Lord"
+    },
+    {
+      "brand": "CHRİSTİAN LOUBOUTİN",
+      "name": "Fétiche L’Encens"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Eternity Aromatic Essence for Men"
+    },
+    {
+      "brand": "MOLTON BROWN",
+      "name": "Re-charge Black Pepper Eau de Parfum"
+    },
+    {
+      "brand": "REMİNİSCENCE",
+      "name": "Oud Glacial"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Elevator Music"
+    },
+    {
+      "brand": "ACQUA Dİ PARMA",
+      "name": "Colonia Oud"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "CH Men Central Park"
+    },
+    {
+      "brand": "COMME DES GARCONS",
+      "name": "Blue Santal"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
       "name": "Torino21"
     },
     {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "La Nuit de l'Homme"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Bal d'Afrique"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Reflection Man"
+    },
+    {
       "brand": "PENHALİGON'S",
       "name": "Halfeti"
-    },
-    {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Layton"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Sauvage Elixir"
     },
     {
       "brand": "BDK PARFUMS",
@@ -128,6 +221,10 @@
       "name": "Haltane"
     },
     {
+      "brand": "PENHALİGON'S",
+      "name": "The Omniscient Mr Thompson"
+    },
+    {
       "brand": "ACQUA Dİ PARMA",
       "name": "Acqua di Parma Blu Mediterraneo - Fico di Amalfi"
     },
@@ -136,32 +233,25 @@
       "name": "Santal 33"
     },
     {
-      "brand": "PRADA",
-      "name": "Prada L'Homme"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dior Homme Intense 2011"
-    },
-    {
-      "brand": "LOUİS VUİTTON",
-      "name": "Imagination"
+      "brand": "PENHALİGON'S",
+      "name": "The Tragedy of Lord George"
     },
     {
       "brand": "PENHALİGON'S",
       "name": "The Blazing Mr Sam"
     },
     {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Le Parfum"
+      "brand": "LOUİS VUİTTON",
+      "name": "Imagination"
     },
     {
       "brand": "CREED",
       "name": "Aventus"
     },
     {
-      "brand": "ACQUA Dİ PARMA",
-      "name": "Acqua di Parma Blu Mediterraneo Arancia di Capri"
+      "brand": "BY KİLİAN",
+      "name": "Angels' Share"
     }
-  ]
+  ],
+  "comments": []
 }

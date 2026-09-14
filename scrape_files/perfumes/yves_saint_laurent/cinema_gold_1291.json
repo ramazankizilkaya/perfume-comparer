@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Yves-Saint-Laurent/Cinema-Gold-1291.html",
   "brand": "Yves Saint Laurent parfüm ve kolonya",
   "description": "Yves Saint Laurent markasının Cinéma Gold parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Cinéma Gold, 2005 yılında piyasaya sürüldü. Kokuda Vanilya, Klementin, Amaryllis, Badem, Şakayık, Amber, Misk, Siklamen ve Yasemin notaları bulunur.",
-  "description_original": "Yves Saint Laurent markasının Cinéma Gold parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Cinéma Gold, 2005 yılında piyasaya sürüldü. Kokuda Vanilya, Klementin, Amaryllis, Badem, Şakayık, Amber, Misk, Siklamen ve Yasemin notaları bulunur.",
+  "description_original": "Yves Saint Laurent markasının Cinéma Gold parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Cinéma Gold, 2005 yılında piyasaya sürüldü. Kokuda Vanilya, Klementin, Amaryllis, Badem, Şakayık, Amber, Beyaz Misk, Sıklamen ve Yasemin notaları bulunur.",
   "description_enhanced": "Yves Saint Laurent markasının Cinéma Gold parfümü, kadınlar için Oryantal Çiçeksi bir kokudur. Cinéma Gold, 2005 yılında piyasaya sürüldü. Kokuda Vanilya, Klementin, Amaryllis, Badem, Şakayık, Amber, Misk, Siklamen ve Yasemin notaları bulunur.",
   "mainAccords": [
     {
@@ -31,11 +31,11 @@
       "width": "59.6123%"
     },
     {
-      "name": "badem",
+      "name": "narenciye",
       "width": "58.3565%"
     },
     {
-      "name": "narenciye",
+      "name": "badem",
       "width": "58.3565%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "amber",
       "width": "51.875%"
+    },
+    {
+      "name": "Sadece online satın alın 5 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -81,39 +109,68 @@
       "Badem",
       "Şakayık",
       "Amber",
-      "Misk",
-      "Siklamen",
+      "Beyaz Misk",
+      "Sıklamen",
       "Yasemin"
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "0",
+    "moderate": "6",
+    "longLasting": "10",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "6",
+    "strong": "13",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Cinéma"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Baiser de Cinéma"
+    },
+    {
+      "brand": "AYALA MORİEL",
+      "name": "Film Noir"
+    },
+    {
+      "brand": "FRAPİN",
+      "name": "Passion Boisee"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Lady Million"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Cinéma 2024"
+    },
+    {
+      "brand": "ROBERTO CAVALLİ",
+      "name": "Roberto Cavalli Oro"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -175,5 +232,6 @@
       "brand": "GUERLAİN",
       "name": "Shalimar Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -41,6 +41,34 @@
     {
       "name": "metalik",
       "width": "44.3182%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -77,33 +105,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "2",
+    "longLasting": "8",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "2",
+    "strong": "8",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUERLAİN",
+      "name": "Aqua Allegoria Rosa Magnifica"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Louban"
+    },
+    {
+      "brand": "ARAMİS",
+      "name": "Perfume Calligraphy Rose"
+    },
+    {
+      "brand": "CLİNİQUE",
+      "name": "Aromatics Elixir"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ARAMİS",
@@ -165,5 +210,6 @@
       "brand": "HERMÈS",
       "name": "L’Ambre des Merveilles"
     }
-  ]
+  ],
+  "comments": []
 }

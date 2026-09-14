@@ -49,6 +49,38 @@
     {
       "name": "çiçeksi",
       "width": "48.8623%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "3",
+      "width": "300px"
     }
   ],
   "rating": {
@@ -85,33 +117,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "6",
+    "moderate": "8",
+    "longLasting": "23",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "8",
+    "strong": "21",
+    "enormous": "21"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "11",
+    "moreFemale": "1",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "5",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "J'adore"
+    },
+    {
+      "brand": "DİOR",
+      "name": "J'adore Eau de Toilette 2011"
+    },
+    {
+      "brand": "DİOR",
+      "name": "J'adore Eau de Toilette 2002"
+    },
+    {
+      "brand": "S.T. DUPONT",
+      "name": "S.T. Dupont Blanc"
+    },
+    {
+      "brand": "DİOR",
+      "name": "J'Adore L'Absolu"
+    },
+    {
+      "brand": "AMWAY",
+      "name": "Sun Dapples"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Emotion"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RASASİ",
@@ -166,12 +227,13 @@
       "name": "Coco Mademoiselle"
     },
     {
-      "brand": "LOLİTA LEMPİCKA",
-      "name": "Lolita Lempicka"
-    },
-    {
       "brand": "VERSACE",
       "name": "Crystal Noir"
+    },
+    {
+      "brand": "LOLİTA LEMPİCKA",
+      "name": "Lolita Lempicka"
     }
-  ]
+  ],
+  "comments": []
 }

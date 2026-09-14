@@ -77,62 +77,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "5",
-    "weak": "3",
-    "moderate": "6",
-    "longLasting": "5",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "7",
-    "moderate": "6",
-    "strong": "9",
-    "enormous": "9"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "2",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "PRADA",
-      "name": "Infusion d'Iris Eau de Toilette"
-    },
-    {
-      "brand": "NARCİSO RODRİGUEZ",
-      "name": "Essence Eau de Musc"
-    },
-    {
-      "brand": "PRADA",
-      "name": "Infusion d'Iris"
-    },
-    {
-      "brand": "KORRES",
-      "name": "Iris Lily of the Valley Cotton"
-    },
-    {
-      "brand": "CHANEL",
-      "name": "Chanel No 19 Poudre"
-    },
-    {
-      "brand": "THE DİFFERENT COMPANY",
-      "name": "Bois d'Iris"
-    },
-    {
-      "brand": "PRADA",
-      "name": "Infusion d'Iris (2015)"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -194,5 +165,6 @@
       "brand": "SERGE LUTENS",
       "name": "Un Bois Vanille"
     }
-  ]
+  ],
+  "comments": []
 }

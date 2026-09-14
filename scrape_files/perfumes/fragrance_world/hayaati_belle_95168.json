@@ -49,13 +49,41 @@
     {
       "name": "sarı çiçeksi",
       "width": "49.3437%"
+    },
+    {
+      "name": "Online satın alın 24 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.79",
-    "votesCount": "98",
+    "score": "3.81",
+    "votesCount": "100",
     "breakdown": {
-      "love": "29",
+      "love": "31",
       "like": "38",
       "ok": "14",
       "dislike": "15",
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "29",
-    "spring": "32",
-    "summer": "27",
-    "autumn": "28",
-    "day": "29",
-    "night": "26"
+    "winter": "30",
+    "spring": "33",
+    "summer": "29",
+    "autumn": "29",
+    "day": "30",
+    "night": "27"
   },
   "notes": {
     "top": [
@@ -89,33 +117,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "10",
+    "moderate": "18",
+    "longLasting": "18",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "18",
+    "strong": "11",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "42",
+    "moreFemale": "14",
+    "unisex": "4",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "4",
     "fair": "14",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "18",
+    "greatValue": "29"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "La Belle Le Parfum"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Glacier Bella"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "La Belle"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Belle Céline Beauty"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Elysia Vanilla Sugar"
+    },
+    {
+      "brand": "BESPOKE LONDON",
+      "name": "Spiced Pear & Warm Amber"
+    },
+    {
+      "brand": "PARİS HİLTON",
+      "name": "Platinum Rush"
+    },
+    {
+      "brand": "POLİCE",
+      "name": "To Be Goodvibes For Her"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Sultry Pear Eau de Parfum"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Lady Magnifique"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "Away Tonight Woman"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "PARIS CORNER",
@@ -177,5 +250,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Fakhar Rose"
     }
-  ]
+  ],
+  "comments": []
 }

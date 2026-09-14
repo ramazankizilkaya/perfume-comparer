@@ -63,7 +63,7 @@
     }
   },
   "seasons": {
-    "winter": "41",
+    "winter": "42",
     "spring": "52",
     "summer": "32",
     "autumn": "41",
@@ -91,54 +91,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "4",
-    "weak": "10",
-    "moderate": "27",
-    "longLasting": "18",
-    "eternal": "5"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "19",
-    "moderate": "27",
-    "strong": "18",
-    "enormous": "12"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "11",
-    "moreFemale": "4",
-    "unisex": "6",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "3",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "5",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Baiser de Russie"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Prima Ballerina"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Mon Exclusif"
-    },
-    {
-      "brand": "YVES ROCHER",
-      "name": "Plein Soleil"
-    },
-    {
-      "brand": "AVON",
-      "name": "Avon Luck for Her"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -200,5 +179,6 @@
       "brand": "GUERLAİN",
       "name": "Cuir Béluga"
     }
-  ]
+  ],
+  "comments": []
 }

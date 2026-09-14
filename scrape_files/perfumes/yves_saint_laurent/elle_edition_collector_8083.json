@@ -33,6 +33,34 @@
     {
       "name": "misk",
       "width": "44.1892%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -69,33 +97,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "3",
+    "moderate": "7",
+    "longLasting": "4",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "7",
+    "strong": "7",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Elle Limited Edition 2011"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Elle"
+    },
+    {
+      "brand": "VİNCE CAMUTO",
+      "name": "Vince Camuto Femme"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Elle Shocking (Elle Eau de Toilette)"
+    },
+    {
+      "brand": "FENDİ",
+      "name": "Fan di Fendi"
+    },
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez L'Eau For Her"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VERSACE",
@@ -122,12 +175,12 @@
       "name": "Un Jardin Sur Le Nil"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Cinéma"
-    },
-    {
       "brand": "CHANEL",
       "name": "Chance Eau Tendre"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Cinéma"
     },
     {
       "brand": "DİOR",
@@ -157,5 +210,6 @@
       "brand": "LANCÔME",
       "name": "Trésor Midnight Rose"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -37,14 +37,42 @@
     {
       "name": "pudralı",
       "width": "45.1199%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.03",
-    "votesCount": "62",
+    "votesCount": "66",
     "breakdown": {
       "love": "18",
-      "like": "31",
+      "like": "35",
       "ok": "10",
       "dislike": "3",
       "hate": "0"
@@ -52,10 +80,10 @@
   },
   "seasons": {
     "winter": "10",
-    "spring": "44",
-    "summer": "47",
-    "autumn": "32",
-    "day": "45",
+    "spring": "45",
+    "summer": "48",
+    "autumn": "33",
+    "day": "46",
     "night": "25"
   },
   "notes": {
@@ -75,33 +103,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "10",
+    "moderate": "26",
+    "longLasting": "11",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "7",
+    "moderate": "26",
+    "strong": "5",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "6",
+    "moreMale": "21",
+    "male": "20"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "35"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Dark Door Sport"
+    },
+    {
+      "brand": "FABERLİC",
+      "name": "8 Element Sport"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Suits"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Qahwa"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Givenchy Play Eau de Toilette"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Rouge Velours"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Creme of Clouds"
+    },
+    {
+      "brand": "BELLERİVE",
+      "name": "Homme Sport Aqua"
+    },
+    {
+      "brand": "BELLERİVE",
+      "name": "Imperator Le Grand Autorité"
+    },
+    {
+      "brand": "ERMENEGİLDO ZEGNA",
+      "name": "Zegna Colognia"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Tamayuz Lattafa"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Elysia Sugar Patchouli"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "TABAC N' COKE"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -152,16 +233,17 @@
       "name": "Hawas for Him"
     },
     {
-      "brand": "DAVİDOFF",
-      "name": "Cool Water"
+      "brand": "LATTAFA PERFUMES",
+      "name": "Liam"
     },
     {
-      "brand": "DİOR",
-      "name": "Dior Homme Intense 2011"
+      "brand": "DAVİDOFF",
+      "name": "Cool Water"
     },
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
     }
-  ]
+  ],
+  "comments": []
 }

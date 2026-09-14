@@ -45,6 +45,34 @@
     {
       "name": "narenciye",
       "width": "45.2858%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,7 +89,7 @@
   "seasons": {
     "winter": "15",
     "spring": "58",
-    "summer": "63",
+    "summer": "64",
     "autumn": "18",
     "day": "58",
     "night": "14"
@@ -84,33 +112,82 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "10",
+    "weak": "20",
+    "moderate": "46",
+    "longLasting": "11",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "29",
+    "moderate": "46",
+    "strong": "6",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "76",
+    "moreFemale": "8",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "8",
     "fair": "29",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "34",
+    "greatValue": "8"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Secret Fantasy"
+    },
+    {
+      "brand": "EL GANSO",
+      "name": "Hey Sunshine"
+    },
+    {
+      "brand": "MAC",
+      "name": "Candy Yum-Yum"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Pink 2001"
+    },
+    {
+      "brand": "BOND NO 9",
+      "name": "Madison Square Park"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Mod Blush"
+    },
+    {
+      "brand": "BADGLEY MİSCHKA",
+      "name": "Ava"
+    },
+    {
+      "brand": "SHAKİRA",
+      "name": "Fucsia"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Gardénia"
+    },
+    {
+      "brand": "TRUSSARDİ",
+      "name": "My Scent"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Bahamas Passionfruit & Banana Flower"
+    },
+    {
+      "brand": "PARİS HİLTON",
+      "name": "Ruby Rush"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MOSCHİNO",
@@ -172,5 +249,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "Devotion"
     }
-  ]
+  ],
+  "comments": []
 }

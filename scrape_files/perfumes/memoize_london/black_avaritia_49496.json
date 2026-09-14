@@ -35,24 +35,52 @@
       "width": "52.5201%"
     },
     {
-      "name": "bal",
+      "name": "vanilya",
       "width": "45.0134%"
     },
     {
-      "name": "vanilya",
+      "name": "bal",
       "width": "45.0134%"
     },
     {
       "name": "tatlı",
       "width": "44.0751%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.13",
+    "score": "4.10",
     "votesCount": "30",
     "breakdown": {
-      "love": "15",
-      "like": "7",
+      "love": "14",
+      "like": "8",
       "ok": "6",
       "dislike": "1",
       "hate": "1"
@@ -91,49 +119,74 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "3",
+    "longLasting": "12",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "3",
+    "strong": "14",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "2",
+    "unisex": "11",
+    "moreMale": "2",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "4",
     "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NASOMATTO",
+      "name": "Black Afgano"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "Evocative Honey"
+    },
+    {
+      "brand": "CARNER BARCELONA",
+      "name": "Cuirs"
+    },
+    {
+      "brand": "REGALİEN",
+      "name": "Ala"
+    },
+    {
+      "brand": "ORTO PARİSİ",
+      "name": "Terroni"
+    },
+    {
+      "brand": "MAJDA BEKKALİ",
+      "name": "J'ai Fait Un Rêve Obscur"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NASOMATTO",
       "name": "Black Afgano"
     },
     {
-      "brand": "MATİERE PREMİERE",
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Grand Soir"
+    },
+    {
+      "brand": "MATİÈRE PREMİÈRE",
       "name": "Encens Suave"
     },
     {
       "brand": "SERGE LUTENS",
       "name": "Chergui"
-    },
-    {
-      "brand": "MAİSON FRANCİS KURKDJİAN",
-      "name": "Grand Soir"
     },
     {
       "brand": "AMOUAGE",
@@ -179,5 +232,6 @@
       "brand": "MEMOİZE LONDON",
       "name": "Luxuria"
     }
-  ]
+  ],
+  "comments": []
 }

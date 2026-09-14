@@ -49,13 +49,41 @@
     {
       "name": "aromatik",
       "width": "44.84%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "2.85",
-    "votesCount": "13",
+    "score": "2.67",
+    "votesCount": "12",
     "breakdown": {
-      "love": "4",
+      "love": "3",
       "like": "1",
       "ok": "2",
       "dislike": "1",
@@ -90,32 +118,103 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "3",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "3",
+    "strong": "0",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "2",
+    "unisex": "3",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "FRAGRANCE ONE",
+      "name": "Office For Men"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "name": "Bang Bang"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "BYREDO",
+      "name": "Vanille Antique"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Musc Ravageur"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Angélique Noire"
+    },
+    {
+      "brand": "L'ARTİSAN PARFUMEUR",
+      "name": "Bois Farine"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Cuir Béluga"
+    },
+    {
+      "brand": "CARL KLİNG PARFUMS",
+      "name": "Clary Fig"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Accento"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Iris Torréfié"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Safanad"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Fatal Charme"
+    },
+    {
+      "brand": "DİOR",
+      "name": "New Look 1947"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Telea"
+    },
+    {
+      "brand": "INİTİO PARFUMS PRİVES",
+      "name": "Paragon"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Les Exclusifs de Chanel Misia"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Allende"
+    }
+  ],
+  "comments": []
 }

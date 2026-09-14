@@ -29,26 +29,54 @@
     {
       "name": "yeşil",
       "width": "40.889%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.92",
-    "votesCount": "39",
+    "score": "3.91",
+    "votesCount": "43",
     "breakdown": {
-      "love": "13",
+      "love": "15",
       "like": "13",
-      "ok": "10",
-      "dislike": "3",
+      "ok": "11",
+      "dislike": "4",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "3",
-    "spring": "21",
-    "summer": "27",
-    "autumn": "6",
-    "day": "28",
-    "night": "10"
+    "winter": "4",
+    "spring": "22",
+    "summer": "30",
+    "autumn": "7",
+    "day": "30",
+    "night": "11"
   },
   "notes": {
     "top": [
@@ -71,34 +99,79 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "11",
+    "longLasting": "16",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "11",
+    "strong": "13",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "14",
+    "moreMale": "10",
+    "male": "9"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "1",
+    "fair": "11",
+    "goodValue": "10",
+    "greatValue": "16"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUERLAİN",
+      "name": "Frenchy Lavande"
+    },
+    {
+      "brand": "CREED",
+      "name": "Neroli Sauvage"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Under The Lemon Tree"
+    },
+    {
+      "brand": "Bİ-ES",
+      "name": "Casino Roulette"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Eros Energy"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Fresh As Citrus"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Eau Sauvage"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Eau de Rochas Homme"
+    },
+    {
+      "brand": "NARCİSSE TAORMİNA",
+      "name": "Aria di Taormina"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Le Frenchy"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "ARMAF",
+      "name": "Odyssey Limoni Fresh"
+    },
     {
       "brand": "PARIS CORNER",
       "name": "Factory Edition: Just Bergamot"
@@ -108,20 +181,32 @@
       "name": "North Stag Expressions IV QUATRE"
     },
     {
+      "brand": "ZİMAYA",
+      "name": "Mazaaj Infused"
+    },
+    {
       "brand": "ARMAF",
       "name": "Club de Nuit Blue Iconic"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Odyssey Mandarin Sky"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Emir Cedrat Essence"
     },
     {
       "brand": "AFNAN",
       "name": "Turathi Blue"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas Ice"
-    },
-    {
       "brand": "AFNAN",
       "name": "Supremacy Collector's Edition Pour Homme"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Vulcan Feu"
     },
     {
       "brand": "AFNAN",
@@ -141,23 +226,8 @@
     },
     {
       "brand": "LATTAFA PERFUMES",
-      "name": "Asad Bourbon"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
       "name": "Teriaq Intense"
-    },
-    {
-      "brand": "NAUTİCA",
-      "name": "Nautica Voyage"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Asad"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Qaed Al Fursan"
     }
-  ]
+  ],
+  "comments": []
 }

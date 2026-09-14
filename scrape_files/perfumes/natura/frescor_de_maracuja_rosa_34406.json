@@ -29,6 +29,34 @@
     {
       "name": "taze",
       "width": "48.9189%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -62,33 +90,58 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "3",
+    "moderate": "17",
+    "longLasting": "0",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "17",
+    "strong": "3",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Avon Luck Limitless for Her"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Omnia Paraiba"
+    },
+    {
+      "brand": "AVON",
+      "name": "Frozen Maracujá"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Parisienne"
+    },
+    {
+      "brand": "ONE DİRECTİON",
+      "name": "You & I"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Cerise Pamplemousse"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -128,19 +181,15 @@
     },
     {
       "brand": "NATURA",
-      "name": "Luna"
-    },
-    {
-      "brand": "NATURA",
       "name": "Luna Intenso"
     },
     {
       "brand": "NATURA",
-      "name": "Una Artisan"
+      "name": "Luna"
     },
     {
       "brand": "NATURA",
-      "name": "Esta Flor Rosa"
+      "name": "Una Artisan"
     },
     {
       "brand": "NATURA",
@@ -149,6 +198,11 @@
     {
       "brand": "NATURA",
       "name": "Essencial Feminino"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Buriti"
     }
-  ]
+  ],
+  "comments": []
 }

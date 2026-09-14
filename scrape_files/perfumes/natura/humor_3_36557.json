@@ -45,6 +45,34 @@
     {
       "name": "tatlı",
       "width": "54.0909%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,33 +110,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "6",
+    "moderate": "14",
+    "longLasting": "7",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "14",
+    "strong": "9",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "9",
+    "moreFemale": "2",
+    "unisex": "9",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "13",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "KORRES",
+      "name": "Avra"
+    },
+    {
+      "brand": "AGATHA RUİZ DE LA PRADA",
+      "name": "Agua de Agatha Ruiz de la Prada"
+    },
+    {
+      "brand": "LOLİTA LEMPİCKA",
+      "name": "Si Lolita"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Blanche"
+    },
+    {
+      "brand": "INSTİTUTO ESPAÑOL",
+      "name": "Aire de Sevilla Azahar"
+    },
+    {
+      "brand": "THERA COSMÉTİCOS",
+      "name": "Samia"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Ice"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -144,6 +201,10 @@
     },
     {
       "brand": "NATURA",
+      "name": "Mamãe e Bebê"
+    },
+    {
+      "brand": "NATURA",
       "name": "Luna"
     },
     {
@@ -165,10 +226,7 @@
     {
       "brand": "NATURA",
       "name": "Flor do Luar"
-    },
-    {
-      "brand": "BRİTNEY SPEARS",
-      "name": "Fantasy"
     }
-  ]
+  ],
+  "comments": []
 }

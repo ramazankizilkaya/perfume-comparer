@@ -29,13 +29,41 @@
     {
       "name": "çiçeksi",
       "width": "36.626%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.27",
-    "votesCount": "67",
+    "score": "4.28",
+    "votesCount": "68",
     "breakdown": {
-      "love": "30",
+      "love": "31",
       "like": "30",
       "ok": "3",
       "dislike": "3",
@@ -70,33 +98,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "19",
+    "moderate": "8",
+    "longLasting": "0",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "17",
+    "moderate": "8",
+    "strong": "1",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "1",
+    "unisex": "24",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Capim Limão e Hortelã"
+    },
+    {
+      "brand": "L’OCCİTANE AU BRÉSİL",
+      "name": "Capim-Limão"
+    },
+    {
+      "brand": "L'OCCİTANE EN PROVENCE",
+      "name": "Verveine"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Cologne 2013"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Pomar de Cítricos"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Esta Flor Flor de Laranjeira"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ritual"
+    },
+    {
+      "brand": "JEQUİTİ",
+      "name": "Caminho das Águas Cítricos"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Nativa SPA Verbena Senses"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -158,5 +223,6 @@
       "brand": "NATURA",
       "name": "Essencial Oud"
     }
-  ]
+  ],
+  "comments": []
 }

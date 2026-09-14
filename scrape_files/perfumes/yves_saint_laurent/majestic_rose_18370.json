@@ -41,14 +41,42 @@
     {
       "name": "metalik",
       "width": "45.1261%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.95",
-    "votesCount": "241",
+    "votesCount": "242",
     "breakdown": {
-      "love": "96",
-      "like": "87",
+      "love": "98",
+      "like": "86",
       "ok": "7",
       "dislike": "51",
       "hate": "0"
@@ -59,7 +87,7 @@
     "spring": "18",
     "summer": "12",
     "autumn": "52",
-    "day": "30",
+    "day": "31",
     "night": "45"
   },
   "notes": {
@@ -75,33 +103,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "9",
+    "moderate": "12",
+    "longLasting": "28",
+    "eternal": "39"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "15",
+    "moderate": "12",
+    "strong": "42",
+    "enormous": "50"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "6",
+    "unisex": "11",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "7",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MANCERA",
+      "name": "Black to Black"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Armani Privé Rose d'Arabie"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Velvet Rose & Oud"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Femme Oud Oriental"
+    },
+    {
+      "brand": "M. MİCALLEF",
+      "name": "Le Parfum Couture Denis Durand"
+    },
+    {
+      "brand": "GİORGİO BEVERLY HİLLS",
+      "name": "Gold"
+    },
+    {
+      "brand": "ATELİER COLOGNE",
+      "name": "Rose Cuirée"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Black Aoud"
+    },
+    {
+      "brand": "LES PARFUMS DE ROSİNE",
+      "name": "Ballerina No 3"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "L’Heure Dorée 2026"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "L’Heure Dorée"
+    },
+    {
+      "brand": "PRİN",
+      "name": "Hürrem Sultan"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Wood Mystique"
+    },
+    {
+      "brand": "ZADİG & VOLTAİRE",
+      "name": "This Is Really Her!"
+    },
+    {
+      "brand": "MUSEUM PARFUMS",
+      "name": "Museum III"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GİORGİO ARMANİ",
@@ -163,5 +252,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

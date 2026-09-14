@@ -37,26 +37,30 @@
     {
       "name": "rom",
       "width": "45.0449%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
-    "score": "4.18",
-    "votesCount": "11",
+    "score": "4.14",
+    "votesCount": "14",
     "breakdown": {
-      "love": "7",
+      "love": "9",
       "like": "1",
       "ok": "2",
-      "dislike": "0",
+      "dislike": "1",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "5",
-    "spring": "2",
-    "summer": "1",
-    "autumn": "4",
-    "day": "1",
-    "night": "4"
+    "winter": "6",
+    "spring": "3",
+    "summer": "2",
+    "autumn": "5",
+    "day": "2",
+    "night": "5"
   },
   "notes": {
     "top": [
@@ -80,61 +84,37 @@
       "Sedir ağacı",
       "Vetiver",
       "Selvi"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "0",
-    "weak": "0",
-    "moderate": "1",
-    "longLasting": "3",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "1",
-    "strong": "3",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "4"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "XERJOFF",
-      "name": "Amber Star"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Interlude Man"
-    },
-    {
-      "brand": "NASOMATTO",
-      "name": "Black Afgano"
-    },
-    {
-      "brand": "INİTİO PARFUMS PRİVES",
-      "name": "Oud for Greatness"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Opus XIV – Royal Tobacco"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Angelic"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
@@ -153,12 +133,16 @@
       "name": "Carbon Sapphire Supercharged"
     },
     {
-      "brand": "XERJOFF",
-      "name": "Alexandria II"
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Almas"
     },
     {
-      "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Violet Sapphire Supercharged"
+      "brand": "ROJA DOVE",
+      "name": "Amber Aoud"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Alexandria II"
     },
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
@@ -166,11 +150,15 @@
     },
     {
       "brand": "AMOUAGE",
+      "name": "Jubilation 40 Man"
+    },
+    {
+      "brand": "AMOUAGE",
       "name": "Jubilation XXV Man"
     },
     {
-      "brand": "UNİQUE'E LUXURY",
-      "name": "Kutay"
+      "brand": "AMOUAGE",
+      "name": "Opus XIV – Royal Tobacco"
     },
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
@@ -178,15 +166,7 @@
     },
     {
       "brand": "BOADİCEA THE VİCTORİOUS",
-      "name": "Blue Sapphire Supercharged"
-    },
-    {
-      "brand": "BOADİCEA THE VİCTORİOUS",
       "name": "Azrak"
-    },
-    {
-      "brand": "ROJA DOVE",
-      "name": "Burlington 1819"
     },
     {
       "brand": "NİSHANE",
@@ -196,5 +176,6 @@
       "brand": "SOSPİRO PERFUMES",
       "name": "Vibrato"
     }
-  ]
+  ],
+  "comments": []
 }

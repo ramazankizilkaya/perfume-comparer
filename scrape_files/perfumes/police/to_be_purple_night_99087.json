@@ -33,14 +33,42 @@
     {
       "name": "taze",
       "width": "51%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.00",
-    "votesCount": "4",
+    "votesCount": "5",
     "breakdown": {
       "love": "1",
-      "like": "2",
+      "like": "3",
       "ok": "1",
       "dislike": "0",
       "hate": "0"
@@ -48,11 +76,11 @@
   },
   "seasons": {
     "winter": "0",
-    "spring": "3",
-    "summer": "4",
+    "spring": "4",
+    "summer": "5",
     "autumn": "0",
-    "day": "3",
-    "night": "1"
+    "day": "4",
+    "night": "2"
   },
   "notes": {
     "top": [
@@ -95,11 +123,17 @@
     "goodValue": "2",
     "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LA PRAİRİE",
+      "name": "Midnight Rain"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BRİTNEY SPEARS",
       "name": "Midnight Fantasy"
     }
-  ]
+  ],
+  "comments": []
 }

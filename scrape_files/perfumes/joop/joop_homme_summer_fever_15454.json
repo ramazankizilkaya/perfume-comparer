@@ -2,7 +2,7 @@
   "name": "Joop! Homme Summer Fever Joop!",
   "targetGender": "erkekler için",
   "fragranceFamily": "Floral",
-  "concentration": "Edt",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.15454.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Joop/Joop-Homme-Summer-Fever-15454.html",
   "brand": "Joop! parfüm ve kolonya",
@@ -31,11 +31,11 @@
       "width": "68.5676%"
     },
     {
-      "name": "tarçın",
+      "name": "misk",
       "width": "64.7105%"
     },
     {
-      "name": "misk",
+      "name": "tarçın",
       "width": "64.7105%"
     },
     {
@@ -86,38 +86,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "2",
-    "moderate": "4",
-    "longLasting": "0",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "4",
-    "strong": "0",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "0",
-    "goodValue": "1",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JOOP!",
-      "name": "Joop! Homme"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JOOP!",
@@ -179,5 +174,6 @@
       "brand": "HERMÈS",
       "name": "Un Jardin en Méditerranée"
     }
-  ]
+  ],
+  "comments": []
 }

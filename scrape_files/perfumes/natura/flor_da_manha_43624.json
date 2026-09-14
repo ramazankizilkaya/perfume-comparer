@@ -49,25 +49,53 @@
     {
       "name": "misk",
       "width": "46.0465%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.93",
-    "votesCount": "220",
+    "score": "3.92",
+    "votesCount": "222",
     "breakdown": {
       "love": "72",
-      "like": "97",
+      "like": "98",
       "ok": "16",
-      "dislike": "34",
+      "dislike": "35",
       "hate": "1"
     }
   },
   "seasons": {
     "winter": "16",
-    "spring": "98",
+    "spring": "99",
     "summer": "97",
     "autumn": "51",
-    "day": "121",
+    "day": "122",
     "night": "27"
   },
   "notes": {
@@ -99,33 +127,90 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "13",
+    "weak": "18",
+    "moderate": "51",
+    "longLasting": "20",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "31",
+    "moderate": "51",
+    "strong": "18",
+    "enormous": "19"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "37",
+    "moreFemale": "8",
+    "unisex": "12",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "16",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "32",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VERSACE",
+      "name": "Yellow Diamond"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Água de Banho Priprioca"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Gabrielle"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Jour d'Hermes"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Bright Crystal"
+    },
+    {
+      "brand": "LACOSTE FRAGRANCES",
+      "name": "Joy of Pink"
+    },
+    {
+      "brand": "PACHA IBİZA",
+      "name": "Pacha Ibiza Sexy"
+    },
+    {
+      "brand": "DONNA KARAN",
+      "name": "DKNY Be Tempted Eau So Blush"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Cupuaçú"
+    },
+    {
+      "brand": "SHİSEİDO",
+      "name": "Zen"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Água de Banho Rara Priprioca"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Idôle Eau de Toilette"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essencial Feminino"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Vapeurs de Parfum"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CALVİN KLEİN",
@@ -187,5 +272,6 @@
       "brand": "NATURA",
       "name": "Esta Flor Rosa"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,55 +16,79 @@
     },
     {
       "name": "lavanta",
-      "width": "81.6393%"
+      "width": "84.0909%"
     },
     {
       "name": "vanilya",
-      "width": "77.0492%"
+      "width": "73.4848%"
     },
     {
       "name": "aromatik",
-      "width": "50.6557%"
+      "width": "51.6364%"
     },
     {
       "name": "pudralı",
-      "width": "48.7624%"
-    },
-    {
-      "name": "tatlı",
-      "width": "45.8935%"
-    },
-    {
-      "name": "misk",
-      "width": "45.6066%"
+      "width": "47.9772%"
     },
     {
       "name": "taze baharatlı",
-      "width": "45.4918%"
+      "width": "46.2272%"
     },
     {
-      "name": "balsamik",
-      "width": "44.8608%"
+      "name": "tatlı",
+      "width": "45.1137%"
+    },
+    {
+      "name": "misk",
+      "width": "44.8486%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.13",
-    "votesCount": "62",
+    "score": "4.10",
+    "votesCount": "63",
     "breakdown": {
-      "love": "25",
-      "like": "22",
-      "ok": "13",
+      "love": "24",
+      "like": "23",
+      "ok": "14",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "10",
-    "spring": "7",
+    "winter": "12",
+    "spring": "8",
     "summer": "3",
-    "autumn": "21",
-    "day": "10",
-    "night": "14"
+    "autumn": "23",
+    "day": "12",
+    "night": "16"
   },
   "notes": {
     "top": [
@@ -80,33 +104,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "6",
+    "longLasting": "15",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "6",
+    "strong": "7",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "2",
+    "unisex": "18",
+    "moreMale": "7",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "10",
+    "overpriced": "9",
+    "fair": "14",
+    "goodValue": "2",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MAİSON FRANCİS KURKDJİAN",
+      "name": "Grand Soir"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Eternal Oud"
+    },
+    {
+      "brand": "PENHALİGON'S",
+      "name": "Brilliantly British"
+    },
+    {
+      "brand": "CELİNE",
+      "name": "Dans Paris"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Day For Night"
+    },
+    {
+      "brand": "BOUCHERON",
+      "name": "Ambre D'Alexandrie"
+    },
+    {
+      "brand": "CARTİER",
+      "name": "Must Cartier Pour Homme Essence"
+    },
+    {
+      "brand": "ORMAİE",
+      "name": "Le Passant"
+    },
+    {
+      "brand": "INFİNİMENT COTY PARİS",
+      "name": "L'Amour Pourpre"
+    },
+    {
+      "brand": "LAURENT MAZZONE PARFUMS",
+      "name": "Lavande Noire"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Babycat"
+    },
+    {
+      "brand": "CALAJ",
+      "name": "Carmen"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Lalique Le Parfum"
+    },
+    {
+      "brand": "ZADİG & VOLTAİRE",
+      "name": "This is Him"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Oud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -117,10 +202,6 @@
       "name": "Spiritueuse Double Vanille"
     },
     {
-      "brand": "CHANEL",
-      "name": "Le Lion Eau de Parfum"
-    },
-    {
       "brand": "RABANNE",
       "name": "Silver Skin"
     },
@@ -129,16 +210,12 @@
       "name": "Babycat"
     },
     {
-      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Musc Ravageur"
+      "brand": "XERJOFF",
+      "name": "XJ 1861 Naxos"
     },
     {
       "brand": "NİSHANE",
       "name": "Ani"
-    },
-    {
-      "brand": "XERJOFF",
-      "name": "XJ 1861 Naxos"
     },
     {
       "brand": "MAİSON MARTİN MARGİELA",
@@ -149,12 +226,12 @@
       "name": "Cuir Béluga"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "Tonka Sarrapia Extrait 75"
+      "brand": "PARFUMS DE MARLY",
+      "name": "Althaïr"
     },
     {
-      "brand": "RABANNE",
-      "name": "Night Soul"
+      "brand": "GUERLAİN",
+      "name": "Tonka Sarrapia Extrait 75"
     },
     {
       "brand": "TOM FORD",
@@ -167,6 +244,15 @@
     {
       "brand": "LES INDEMODABLES",
       "name": "Vanille Havane"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Tobacco Honey"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Vanilla Diorama"
     }
-  ]
+  ],
+  "comments": []
 }

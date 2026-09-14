@@ -29,13 +29,41 @@
     {
       "name": "animalik",
       "width": "44%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.75",
-    "votesCount": "4",
+    "score": "4.80",
+    "votesCount": "5",
     "breakdown": {
-      "love": "3",
+      "love": "4",
       "like": "1",
       "ok": "0",
       "dislike": "0",
@@ -47,7 +75,7 @@
     "spring": "0",
     "summer": "2",
     "autumn": "0",
-    "day": "1",
+    "day": "2",
     "night": "0"
   },
   "notes": {
@@ -60,32 +88,71 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "1",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "3",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Una Blush"
+    }
+  ],
+  "peopleAlsoLike": [
+    {
+      "brand": "NATURA",
+      "name": "Una Blush"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Essencial Feminino"
+    },
+    {
+      "brand": "WE PİNK",
+      "name": "Heaven Bride"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ilía Secreto"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Hypnotic Poison"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ilía Ser"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Una Nude"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Aura Alba"
+    }
+  ],
+  "comments": []
 }

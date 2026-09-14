@@ -27,11 +27,7 @@
       "width": "68.8889%"
     },
     {
-      "name": "tarçın",
-      "width": "55.9259%"
-    },
-    {
-      "name": "narenciye",
+      "name": "paçuli",
       "width": "55.9259%"
     },
     {
@@ -39,16 +35,48 @@
       "width": "55.9259%"
     },
     {
+      "name": "narenciye",
+      "width": "55.9259%"
+    },
+    {
+      "name": "tarçın",
+      "width": "55.9259%"
+    },
+    {
       "name": "amber",
       "width": "55.9259%"
     },
     {
-      "name": "paçuli",
-      "width": "55.9259%"
+      "name": "yumuşak baharatlı",
+      "width": "49.4444%"
     },
     {
-      "name": "pudralı",
-      "width": "49.4444%"
+      "name": "Online satın alın 20 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,33 +118,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "3",
+    "longLasting": "0",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "3",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "3"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Sauvage Elixir"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BENTLEY",
@@ -178,5 +215,6 @@
       "brand": "MAİSON ALHAMBRA",
       "name": "Jean Lowe Immortal"
     }
-  ]
+  ],
+  "comments": []
 }

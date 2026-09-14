@@ -55,94 +55,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "9",
-    "weak": "14",
-    "moderate": "7",
-    "longLasting": "1",
-    "eternal": "6"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "14",
-    "moderate": "7",
-    "strong": "9",
-    "enormous": "17"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "0",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "1",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Terracotta Le Parfum"
-    },
-    {
-      "brand": "YVES ROCHER",
-      "name": "Monoi Eau des Vahines"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Terracotta Eau de Toilette"
-    },
-    {
-      "brand": "LES SENTEURS GOURMANDES",
-      "name": "Figue Sauvage"
-    },
-    {
-      "brand": "SOLİNOTES",
-      "name": "Tiare"
-    },
-    {
-      "brand": "FİNE'RY.",
-      "name": "Sun-Phoria"
-    },
-    {
-      "brand": "LALİQUE",
-      "name": "Soleil Vibrant"
-    },
-    {
-      "brand": "L'ERBOLARİO",
-      "name": "Tiare"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Aqua Allegoria Lys Soleia"
-    },
-    {
-      "brand": "BOGUE",
-      "name": "Gardelia"
-    },
-    {
-      "brand": "YVES ROCHER",
-      "name": "Monoi de Tahiti"
-    },
-    {
-      "brand": "DİPTYQUE",
-      "name": "Do Son Eau de Toilette"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Soleil Blanc"
-    },
-    {
-      "brand": "BY KİLİAN",
-      "name": "Love the way you Feel"
-    },
-    {
-      "brand": "JULİETTE HAS A GUN",
-      "name": "Vanilla Vibes"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -189,12 +128,12 @@
       "name": "Insolence"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "L'Instant de Guerlain"
-    },
-    {
       "brand": "DİOR",
       "name": "Dolce Vita"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "L'Instant de Guerlain"
     },
     {
       "brand": "DİOR",
@@ -204,5 +143,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,15 +49,43 @@
     {
       "name": "misk",
       "width": "44.4827%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.73",
-    "votesCount": "55",
+    "score": "3.70",
+    "votesCount": "57",
     "breakdown": {
       "love": "18",
       "like": "18",
-      "ok": "9",
+      "ok": "11",
       "dislike": "6",
       "hate": "4"
     }
@@ -65,9 +93,9 @@
   "seasons": {
     "winter": "5",
     "spring": "25",
-    "summer": "22",
+    "summer": "24",
     "autumn": "11",
-    "day": "25",
+    "day": "27",
     "night": "10"
   },
   "notes": {
@@ -92,7 +120,7 @@
     "veryWeak": "0",
     "weak": "5",
     "moderate": "12",
-    "longLasting": "9",
+    "longLasting": "10",
     "eternal": "0"
   },
   "sillage": {
@@ -104,14 +132,14 @@
   "genderVoting": {
     "female": "1",
     "moreFemale": "1",
-    "unisex": "12",
-    "moreMale": "12",
+    "unisex": "13",
+    "moreMale": "13",
     "male": "5"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "2",
-    "fair": "9",
+    "fair": "11",
     "goodValue": "12",
     "greatValue": "7"
   },
@@ -129,16 +157,16 @@
       "name": "Terre d'Hermès Eau Givree"
     },
     {
-      "brand": "JULİETTE HAS A GUN",
-      "name": "Ex Vetiver"
-    },
-    {
       "brand": "VERTUS",
       "name": "Narcos'is"
     },
     {
       "brand": "HERMÈS",
       "name": "Terre D'Hermes Eau Intense Vetiver"
+    },
+    {
+      "brand": "JULİETTE HAS A GUN",
+      "name": "Ex Vetiver"
     },
     {
       "brand": "TED LAPİDUS",
@@ -165,10 +193,6 @@
     {
       "brand": "ISSEY MİYAKE",
       "name": "L'Eau d'Issey Pour Homme"
-    },
-    {
-      "brand": "VERSACE",
-      "name": "Versace Pour Homme"
     },
     {
       "brand": "HERMÈS",
@@ -207,10 +231,6 @@
       "name": "Uomo Salvatore Ferragamo"
     },
     {
-      "brand": "CREED",
-      "name": "Aventus"
-    },
-    {
       "brand": "BENTLEY",
       "name": "Bentley for Men Intense"
     },
@@ -221,6 +241,15 @@
     {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "By the Fireplace"
+    },
+    {
+      "brand": "MANCERA",
+      "name": "Red Tobacco"
+    },
+    {
+      "brand": "ROCHAS",
+      "name": "Moustache Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

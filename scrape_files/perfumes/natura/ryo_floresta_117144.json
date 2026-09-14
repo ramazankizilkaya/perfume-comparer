@@ -13,26 +13,54 @@
     {
       "name": "çiçeksi",
       "width": "100%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.25",
-    "votesCount": "117",
+    "score": "4.23",
+    "votesCount": "138",
     "breakdown": {
-      "love": "61",
-      "like": "35",
-      "ok": "13",
-      "dislike": "5",
+      "love": "69",
+      "like": "44",
+      "ok": "16",
+      "dislike": "6",
       "hate": "3"
     }
   },
   "seasons": {
-    "winter": "17",
-    "spring": "67",
-    "summer": "61",
-    "autumn": "40",
-    "day": "62",
-    "night": "25"
+    "winter": "19",
+    "spring": "81",
+    "summer": "75",
+    "autumn": "48",
+    "day": "76",
+    "night": "29"
   },
   "notes": {
     "top": [],
@@ -45,37 +73,74 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "11",
+    "moderate": "46",
+    "longLasting": "3",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "20",
+    "moderate": "46",
+    "strong": "4",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "48",
+    "moreMale": "28",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "13",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "1",
+    "fair": "16",
+    "goodValue": "41",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Mate Green (Mate Verde)"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Eau des Merveilles"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ekos Estoraque 2021"
+    },
+    {
+      "brand": "PİNEWARD PERFUMES",
+      "name": "Coastal Veil"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Vert de Fleur"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "H24 Herbes Vives"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK One Essence"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
       "name": "Ilía Completa"
+    },
+    {
+      "brand": "PHEBO",
+      "name": "Entrelaço"
+    },
+    {
+      "brand": "GRANADO",
+      "name": "Carioca"
     },
     {
       "brand": "GRANADO",
@@ -88,10 +153,6 @@
     {
       "brand": "NATURA",
       "name": "Ekos Alma 2025"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Essencial Sentir"
     },
     {
       "brand": "GRANADO",
@@ -111,15 +172,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Humor 6 Paz e Humor"
+      "name": "Ryo Festa"
     },
     {
       "brand": "GRANADO",
       "name": "Citrus Brasilis"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Ryo Festa"
     },
     {
       "brand": "NATURA",
@@ -131,7 +188,8 @@
     },
     {
       "brand": "NATURA",
-      "name": "Essencial Atrai"
+      "name": "Essencial Único"
     }
-  ]
+  ],
+  "comments": []
 }

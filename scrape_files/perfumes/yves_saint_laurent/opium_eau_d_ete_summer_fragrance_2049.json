@@ -49,6 +49,34 @@
     {
       "name": "beyaz çiçeksi",
       "width": "58.6364%"
+    },
+    {
+      "name": "Online satın alın 6 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "2",
+    "moderate": "5",
+    "longLasting": "10",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "5",
+    "strong": "4",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Eau D'ete Summer Fragrance 2004"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Eau D'ete Summer Fragrance 2003"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Collector's Edition 2014"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium (1977)"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Eau de Parfum 2009"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Opium Fleur Imperiale"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -176,5 +229,6 @@
       "brand": "ESTÉE LAUDER",
       "name": "Sensuous"
     }
-  ]
+  ],
+  "comments": []
 }

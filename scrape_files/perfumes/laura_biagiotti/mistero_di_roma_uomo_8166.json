@@ -49,6 +49,34 @@
     {
       "name": "vanilya",
       "width": "45.0647%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -90,33 +118,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "3",
+    "moderate": "16",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "16",
+    "strong": "10",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "3",
+    "male": "4"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "FRAPİN",
+      "name": "L'Humaniste"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Allure Homme"
+    },
+    {
+      "brand": "LAURA BİAGİOTTİ",
+      "name": "Romamor Uomo"
+    },
+    {
+      "brand": "CHOPARD",
+      "name": "Heaven"
+    },
+    {
+      "brand": "DAVİDOFF",
+      "name": "Adventure Amazonia"
+    },
+    {
+      "brand": "RİHANNA",
+      "name": "Rogue Man"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Chance Eau Tendre"
+    },
+    {
+      "brand": "LAURA BİAGİOTTİ",
+      "name": "Roma Uomo"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "Acqua Essenziale Blu"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LAURA BİAGİOTTİ",
@@ -178,5 +243,6 @@
       "brand": "YVES SAİNT LAURENT",
       "name": "Opium Pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

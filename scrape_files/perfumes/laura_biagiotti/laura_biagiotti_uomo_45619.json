@@ -37,6 +37,34 @@
     {
       "name": "lavanta",
       "width": "45.9091%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -79,33 +107,62 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "5",
+    "longLasting": "9",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "5",
+    "strong": "7",
+    "enormous": "4"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "2",
+    "male": "11"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LUNİO",
+      "name": "Indigo Suede"
+    },
+    {
+      "brand": "SALVADOR DALİ",
+      "name": "Salvador by Salvador Dali (1992)"
+    },
+    {
+      "brand": "PİERRE CARDİN",
+      "name": "Fusion"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Loewe Pour Homme"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Xeryus"
+    },
+    {
+      "brand": "JACQUES BOGART",
+      "name": "Witness"
+    },
+    {
+      "brand": "ENRİCO COVERİ",
+      "name": "Enrico Coveri Pour Homme"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RABANNE",
@@ -167,5 +224,6 @@
       "brand": "JEAN LOUİS VERMEİL",
       "name": "Vermeil Pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

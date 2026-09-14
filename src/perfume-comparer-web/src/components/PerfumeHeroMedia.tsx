@@ -13,6 +13,7 @@ const PLACEHOLDER =
 export default function PerfumeHeroMedia({ perfume }: { perfume: PerfumeRef }) {
     const [open, setOpen] = useState(false);
     const src = mediaUrl(perfume.imageUrl) || PLACEHOLDER;
+    const imageAlt = `${perfume.brandName} ${perfume.name} orijinal parfüm şişesi`;
 
     return (
         <div className="detail-media-col">
@@ -21,7 +22,7 @@ export default function PerfumeHeroMedia({ perfume }: { perfume: PerfumeRef }) {
                 onClick={() => setOpen(true)}
                 title="Fotoğrafı büyütmek için tıklayın"
             >
-                <img src={src} alt={perfume.name} />
+                <img src={src} alt={imageAlt} />
                 <div className="media-actions" onClick={(e) => e.stopPropagation()}>
                     <CompareButton perfume={perfume} />
                     <FavButton perfume={perfume} />
@@ -29,7 +30,7 @@ export default function PerfumeHeroMedia({ perfume }: { perfume: PerfumeRef }) {
             </figure>
             <ImageLightboxModal
                 src={src}
-                alt={perfume.name}
+                alt={imageAlt}
                 isOpen={open}
                 onClose={() => setOpen(false)}
             />

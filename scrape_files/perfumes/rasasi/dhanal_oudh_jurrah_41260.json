@@ -45,6 +45,34 @@
     {
       "name": "toprak",
       "width": "45.2896%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,33 +114,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "2",
+    "moderate": "21",
+    "longLasting": "27",
+    "eternal": "17"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "5",
+    "moderate": "21",
+    "strong": "29",
+    "enormous": "13"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "23",
+    "moreMale": "14",
+    "male": "18"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "2",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "25",
+    "greatValue": "18"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HERVE GAMBS PARİS",
+      "name": "Oud Plaza"
+    },
+    {
+      "brand": "KEMİ BLENDİNG MAGİC",
+      "name": "Kemi"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Mukhallat Shams"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "'Ilm"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Dehn Al Oudh Cambodi"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Dahn Oudh Al Shams"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Dhan Al Oudh Al Nokhba"
+    },
+    {
+      "brand": "HİND AL OUD",
+      "name": "Sheikh A"
+    },
+    {
+      "brand": "MAİSON INCENS",
+      "name": "Coeur de Oud"
+    },
+    {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Wild Indonesian Oud Pure"
+    },
+    {
+      "brand": "COMME DES GARCONS",
+      "name": "Comme des Garcons Series 6 Synthetic: Tar"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Dehn El Oud Malaki"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "Gao"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Tasmeem Men"
+    },
+    {
+      "brand": "JUNAİD PERFUMES",
+      "name": "Hajar Oud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RASASİ",
@@ -174,5 +263,6 @@
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
     }
-  ]
+  ],
+  "comments": []
 }

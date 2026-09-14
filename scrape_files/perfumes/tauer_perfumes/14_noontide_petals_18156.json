@@ -49,6 +49,34 @@
     {
       "name": "pudralı",
       "width": "64.4258%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -110,7 +138,7 @@
     "female": "2",
     "moreFemale": "2",
     "unisex": "9",
-    "moreMale": "1",
+    "moreMale": "2",
     "male": "1"
   },
   "priceVoting": {
@@ -150,16 +178,20 @@
       "name": "Ambre Elixir Precieux"
     },
     {
+      "brand": "MARİALUX",
+      "name": "Truly"
+    },
+    {
       "brand": "GUERLAİN",
       "name": "Aqua Allegoria Tiare Mimosa"
     },
     {
-      "brand": "ETAT LİBRE D'ORANGE",
-      "name": "Vraie Blonde"
-    },
-    {
       "brand": "HERMÈS",
       "name": "Caleche"
+    },
+    {
+      "brand": "ETAT LİBRE D'ORANGE",
+      "name": "Vraie Blonde"
     },
     {
       "brand": "ORİZA L. LEGRAND",
@@ -176,10 +208,6 @@
     {
       "brand": "DAVİDOFF",
       "name": "Good Life"
-    },
-    {
-      "brand": "MARİALUX",
-      "name": "Truly"
     }
   ],
   "peopleAlsoLike": [
@@ -237,11 +265,12 @@
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Portrait of a Lady"
+      "name": "Musc Ravageur"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
-      "name": "Musc Ravageur"
+      "name": "Portrait of a Lady"
     }
-  ]
+  ],
+  "comments": []
 }

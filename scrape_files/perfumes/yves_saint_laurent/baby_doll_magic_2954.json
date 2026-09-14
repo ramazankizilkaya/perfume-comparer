@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Yves-Saint-Laurent/Baby-Doll-Magic-2954.html",
   "brand": "Yves Saint Laurent parfüm ve kolonya",
   "description": "Yves Saint Laurent markasının Baby Doll Magic parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Baby Doll Magic, 2007 yılında piyasaya sürüldü. Kokuda Karpuz, Kuşburnu, Şeftali ve Portakal notaları bulunur.",
-  "description_original": "Yves Saint Laurent markasının Baby Doll Magic parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Baby Doll Magic, 2007 yılında piyasaya sürüldü. Kokuda Karpuz, Kuşburnu, Şeftali ve Portakal notaları bulunur.",
+  "description_original": "Yves Saint Laurent markasının Baby Doll Magic parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Baby Doll Magic, 2007 yılında piyasaya sürüldü. Kokuda Karpuz, Kuşburnu, Beyaz Şeftali ve Portakal notaları bulunur.",
   "description_enhanced": "Yves Saint Laurent markasının Baby Doll Magic parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Baby Doll Magic, 2007 yılında piyasaya sürüldü. Kokuda Karpuz, Kuşburnu, Şeftali ve Portakal notaları bulunur.",
   "mainAccords": [
     {
@@ -33,6 +33,34 @@
     {
       "name": "tatlı",
       "width": "55.1087%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,38 +89,83 @@
     "all": [
       "Karpuz",
       "Kuşburnu",
-      "Şeftali",
+      "Beyaz Şeftali",
       "Portakal"
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "8",
+    "moderate": "8",
+    "longLasting": "1",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "8",
+    "strong": "3",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "7",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Baby Doll"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace Pour Femme Dylan Blue"
+    },
+    {
+      "brand": "CHOPARD",
+      "name": "Happy Chopard Felicia Roses"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Aqua Allegoria Rosa Rossa"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "L'Ombre Dans L'Eau Eau de Toilette"
+    },
+    {
+      "brand": "ÁGUA DE CHEİRO",
+      "name": "Wishes Rock"
+    },
+    {
+      "brand": "JEAN POİVRE",
+      "name": "Lost In Euphoria"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Absolue 1001 Roses"
+    },
+    {
+      "brand": "LOEWE",
+      "name": "Solo Loewe Ella"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Rouge Trafalgar"
+    },
+    {
+      "brand": "JUİCY COUTURE",
+      "name": "Viva La Juicy Rose"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DONNA KARAN",
@@ -109,6 +182,10 @@
     {
       "brand": "DİOR",
       "name": "J'adore"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Miss Dior Cherie Eau de Parfum"
     },
     {
       "brand": "GUCCİ",
@@ -147,12 +224,9 @@
       "name": "Versense"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "Euphoria"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

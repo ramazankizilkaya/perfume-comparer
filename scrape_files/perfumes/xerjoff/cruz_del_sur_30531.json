@@ -31,11 +31,11 @@
       "width": "73.1052%"
     },
     {
-      "name": "deniz",
+      "name": "gül",
       "width": "70.5263%"
     },
     {
-      "name": "gül",
+      "name": "deniz",
       "width": "70.5263%"
     },
     {
@@ -47,8 +47,36 @@
       "width": "63.1579%"
     },
     {
-      "name": "amber",
+      "name": "vanilya",
       "width": "52.1053%"
+    },
+    {
+      "name": "Online satın alın 21 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,38 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "1",
+    "longLasting": "3",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "10",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "2",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RANCE 1795",
+      "name": "Elise"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ACQUA Dİ PARMA",
@@ -176,5 +209,6 @@
       "brand": "AMOUAGE",
       "name": "The Library Collection Opus V"
     }
-  ]
+  ],
+  "comments": []
 }

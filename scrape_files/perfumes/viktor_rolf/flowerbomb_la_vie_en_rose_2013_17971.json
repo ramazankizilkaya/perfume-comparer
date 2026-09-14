@@ -49,6 +49,34 @@
     {
       "name": "çiçeksi",
       "width": "46.7461%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -92,33 +120,90 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "6",
+    "weak": "16",
+    "moderate": "29",
+    "longLasting": "9",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "29",
+    "strong": "18",
+    "enormous": "11"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "12",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "HANAE MORİ",
+      "name": "Hanae by Hanae Mori"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Eau de Toilette"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb La Vie en Rose 2012"
+    },
+    {
+      "brand": "DZİNTARS",
+      "name": "I Love Dreaming"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb La Vie En Rose 2016"
+    },
+    {
+      "brand": "LİNN YOUNG",
+      "name": "UPDO Pink"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb"
+    },
+    {
+      "brand": "OAKCHA",
+      "name": "Reborn Lust"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Floral Fantasy"
+    },
+    {
+      "brand": "BOUCHERON",
+      "name": "Place Vendôme"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "La Vie est Belle en Rose"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "Burberry Brit"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Classique X"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Jeu d'Amour l'Elixir"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -143,6 +228,10 @@
     {
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
+    },
+    {
+      "brand": "JUİCY COUTURE",
+      "name": "Viva la Juicy"
     },
     {
       "brand": "GİORGİO ARMANİ",
@@ -175,10 +264,7 @@
     {
       "brand": "CALVİN KLEİN",
       "name": "Euphoria"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Black Orchid"
     }
-  ]
+  ],
+  "comments": []
 }

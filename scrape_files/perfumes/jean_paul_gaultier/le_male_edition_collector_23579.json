@@ -93,54 +93,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "2",
-    "weak": "0",
-    "moderate": "5",
-    "longLasting": "2",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "5",
-    "strong": "6",
-    "enormous": "0"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "1",
-    "moreMale": "1",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Mâle Pride Collector"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male"
-    },
-    {
-      "brand": "CUBA PARİS",
-      "name": "Cuba Gold"
-    },
-    {
-      "brand": "BALMAİN BEAUTY",
-      "name": "BalMan"
-    },
-    {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Le Male Xmas Limited Edition"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -188,7 +167,7 @@
     },
     {
       "brand": "JEAN PAUL GAULTİER",
-      "name": "Fleur du Mâle"
+      "name": "Fleur du Mâle (2007)"
     },
     {
       "brand": "DİOR",
@@ -202,5 +181,6 @@
       "brand": "AMOUAGE",
       "name": "Jubilation XXV Man"
     }
-  ]
+  ],
+  "comments": []
 }

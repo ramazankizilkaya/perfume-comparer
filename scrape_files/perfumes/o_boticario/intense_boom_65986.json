@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/Intense-Boom-65986.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının Intense Boom! parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Intense Boom!, 2021 yılında piyasaya sürüldü. Üst notalar: Kırmızı meyveler, Ananas, Pembe biber, Bergamot ve Limon; orta notalar: Frenk üzümü yaprağı ve tomurcuğu, Yasemin, Gül ve Kaşmir; alt notalar Tatlı Notlar, Benzoin ve Sandal ağacı.",
-  "description_original": "O Boticário markasının Intense Boom! parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Intense Boom!, 2021 yılında piyasaya sürüldü. Üst notalar: Kırmızı meyveler, Ananas, Pembe biber, Bergamot ve Limon; orta notalar: Frenk üzümü yaprağı ve tomurcuğu, Yasemin, Gül ve Kaşmir; alt notalar Tatlı Notlar, Benzoin ve Sandal ağacı.",
+  "description_original": "O Boticário markasının Intense Boom! parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Intense Boom!, 2021 yılında piyasaya sürüldü. Üst notalar: Kırmızı meyveler, Ananas, Pembe biber, Bergamot ve Limon; orta notalar: Siyah Frenk Üzümü, Yasemin, Gül ve Kaşmeran; alt notalar Tatlı Notlar, Benzoin ve Sandal ağacı.",
   "description_enhanced": "O Boticário markasının Intense Boom! parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Intense Boom!, 2021 yılında piyasaya sürüldü. Üst notalar: Kırmızı meyveler, Ananas, Pembe biber, Bergamot ve Limon; orta notalar: Frenk üzümü yaprağı ve tomurcuğu, Yasemin, Gül ve Kaşmir; alt notalar Tatlı Notlar, Benzoin ve Sandal ağacı.",
   "mainAccords": [
     {
@@ -33,15 +33,43 @@
     {
       "name": "aromatik",
       "width": "46.132%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.78",
-    "votesCount": "85",
+    "score": "3.77",
+    "votesCount": "86",
     "breakdown": {
       "love": "22",
       "like": "35",
-      "ok": "16",
+      "ok": "17",
       "dislike": "11",
       "hate": "1"
     }
@@ -63,10 +91,10 @@
       "Limon"
     ],
     "middle": [
-      "Frenk üzümü yaprağı ve tomurcuğu",
+      "Siyah Frenk Üzümü",
       "Yasemin",
       "Gül",
-      "Kaşmir"
+      "Kaşmeran"
     ],
     "base": [
       "Tatlı Notlar",
@@ -98,7 +126,7 @@
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "1",
-    "fair": "16",
+    "fair": "17",
     "goodValue": "16",
     "greatValue": "23"
   },
@@ -126,10 +154,6 @@
     {
       "brand": "KATE SPADE",
       "name": "Kate Spade New York"
-    },
-    {
-      "brand": "O BOTİCÁRİO",
-      "name": "Capricho"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -170,10 +194,6 @@
       "name": "Luna Absoluta"
     },
     {
-      "brand": "NATURA",
-      "name": "Kriska Drama"
-    },
-    {
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
     },
@@ -196,6 +216,11 @@
     {
       "brand": "O BOTİCÁRİO",
       "name": "Glamour"
+    },
+    {
+      "brand": "JEAN PAUL GAULTİER",
+      "name": "Scandal"
     }
-  ]
+  ],
+  "comments": []
 }

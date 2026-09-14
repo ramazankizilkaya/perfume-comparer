@@ -49,6 +49,10 @@
     {
       "name": "sabunsu",
       "width": "45%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -83,81 +87,37 @@
     "base": [
       "Misk",
       "Amber"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "6",
-    "weak": "18",
-    "moderate": "19",
-    "longLasting": "6",
-    "eternal": "3"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "11",
-    "moderate": "19",
-    "strong": "14",
-    "enormous": "9"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "8",
-    "moreFemale": "4",
-    "unisex": "1",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "3",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "2",
-    "goodValue": "2",
-    "greatValue": "4"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "YVES ROCHER",
-      "name": "Secret d'Essences Neroli"
-    },
-    {
-      "brand": "L'OCCİTANE EN PROVENCE",
-      "name": "Jasmin Immortelle Neroli"
-    },
-    {
-      "brand": "MONTBLANC",
-      "name": "Legend Pour Femme"
-    },
-    {
-      "brand": "GRÈS",
-      "name": "Pastel de Gres"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Pure Poison"
-    },
-    {
-      "brand": "NATURA",
-      "name": "Esta Flor Flor de Laranjeira"
-    },
-    {
-      "brand": "GRÈS",
-      "name": "Pastel de Cabotine"
-    },
-    {
-      "brand": "ESCENTRİC MOLECULES",
-      "name": "Escentric 04"
-    },
-    {
-      "brand": "LA RİVE",
-      "name": "Aqua Bella"
-    },
-    {
-      "brand": "GİANFRANCO FERRE",
-      "name": "In The Mood For Love"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "O de L'Orangerie"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -219,5 +179,6 @@
       "brand": "GİVENCHY",
       "name": "Ange ou Demon"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -27,7 +27,7 @@
       "width": "35.3639%"
     },
     {
-      "name": "taze",
+      "name": "pudralı",
       "width": "33.2183%"
     }
   ],
@@ -43,7 +43,7 @@
     }
   },
   "seasons": {
-    "winter": "41",
+    "winter": "42",
     "spring": "22",
     "summer": "16",
     "autumn": "32",
@@ -61,94 +61,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "6",
-    "weak": "16",
-    "moderate": "17",
-    "longLasting": "3",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "12",
-    "moderate": "17",
-    "strong": "3",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "33",
-    "moreFemale": "6",
-    "unisex": "4",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "10",
-    "goodValue": "20",
-    "greatValue": "6"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "CASAMORATİ 1888",
-      "name": "Lira"
-    },
-    {
-      "brand": "ARABİYAT SUGAR",
-      "name": "Coconut Chiffon"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Love Spell Lace Mist"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Peach & Honey Almond"
-    },
-    {
-      "brand": "TRU WESTERN",
-      "name": "Praline & Pistachio"
-    },
-    {
-      "brand": "MATİERE PREMİERE",
-      "name": "Vanilla Powder"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Peach Prosecco Macaron"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Hope Winter Peach Marshmallow"
-    },
-    {
-      "brand": "SELENA GOMEZ",
-      "name": "Selena Gomez Eau de Parfum"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '39"
-    },
-    {
-      "brand": "CAROLİNA HERRERA",
-      "name": "Good Girl"
-    },
-    {
-      "brand": "ORİENTİCA PREMİUM",
-      "name": "Velvet Gold"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Iced Sugar Plum"
-    },
-    {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '62"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Honeysuckle Peach Tea"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "AQUOLİNA",
@@ -179,12 +118,12 @@
       "name": "Viva la Juicy Gold Couture"
     },
     {
-      "brand": "SABRİNA CARPENTER",
-      "name": "Sweet Tooth"
-    },
-    {
       "brand": "ARİANA GRANDE",
       "name": "Sweet Like Candy"
+    },
+    {
+      "brand": "SABRİNA CARPENTER",
+      "name": "Sweet Tooth"
     },
     {
       "brand": "ARİANA GRANDE",
@@ -210,5 +149,6 @@
       "brand": "BATH & BODY WORKS",
       "name": "Warm Vanilla Sugar"
     }
-  ]
+  ],
+  "comments": []
 }

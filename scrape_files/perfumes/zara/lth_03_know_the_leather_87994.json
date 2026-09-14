@@ -41,6 +41,34 @@
     {
       "name": "pudralı",
       "width": "48.0469%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -55,12 +83,12 @@
     }
   },
   "seasons": {
-    "winter": "120",
-    "spring": "62",
+    "winter": "121",
+    "spring": "63",
     "summer": "18",
-    "autumn": "118",
-    "day": "65",
-    "night": "110"
+    "autumn": "119",
+    "day": "66",
+    "night": "111"
   },
   "notes": {
     "top": [
@@ -80,20 +108,20 @@
   "longevity": {
     "veryWeak": "6",
     "weak": "12",
-    "moderate": "78",
+    "moderate": "79",
     "longLasting": "36",
     "eternal": "4"
   },
   "sillage": {
     "intimate": "18",
-    "moderate": "78",
+    "moderate": "79",
     "strong": "27",
     "enormous": "1"
   },
   "genderVoting": {
     "female": "3",
     "moreFemale": "0",
-    "unisex": "18",
+    "unisex": "19",
     "moreMale": "51",
     "male": "74"
   },
@@ -101,7 +129,7 @@
     "wayOverpriced": "5",
     "overpriced": "1",
     "fair": "13",
-    "goodValue": "24",
+    "goodValue": "25",
     "greatValue": "105"
   },
   "remindsMeOf": [
@@ -227,5 +255,6 @@
       "brand": "HERMÈS",
       "name": "Terre d'Hermès"
     }
-  ]
+  ],
+  "comments": []
 }

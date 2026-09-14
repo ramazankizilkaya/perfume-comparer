@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Viktor-Rolf/Spicebomb-Christmas-Edition-2014-28113.html",
   "brand": "Viktor&Rolf parfüm ve kolonya",
   "description": "Viktor&Rolf markasının Spicebomb Christmas Edition 2014 parfümü, erkekler için Odunsu Baharatlı bir kokudur. Spicebomb Christmas Edition 2014, 2014 yılında piyasaya sürüldü. Üst notalar: Elemi, Pembe biber, Bergamot ve Greyfurt; orta notalar: Tarçın, Safran ve Kırmızı biber; alt notalar Tütün, Deri ve Vetiver.",
-  "description_original": "Viktor&Rolf markasının Spicebomb Christmas Edition 2014 parfümü, erkekler için Odunsu Baharatlı bir kokudur. Spicebomb Christmas Edition 2014, 2014 yılında piyasaya sürüldü. Üst notalar: Elemi, Pembe biber, Bergamot ve Greyfurt; orta notalar: Tarçın, Safran ve Kırmızı biber; alt notalar Tütün, Deri ve Vetiver.",
+  "description_original": "Viktor&Rolf markasının Spicebomb Christmas Edition 2014 parfümü, erkekler için Odunsu Baharatlı bir kokudur. Spicebomb Christmas Edition 2014, 2014 yılında piyasaya sürüldü. Üst notalar: Elemi, Pembe biber, Bergamot ve Greyfurt; orta notalar: Tarçın, Safran ve Paprika; alt notalar Tütün, Deri ve Vetiver.",
   "description_enhanced": "Viktor&Rolf markasının Spicebomb Christmas Edition 2014 parfümü, erkekler için Odunsu Baharatlı bir kokudur. Spicebomb Christmas Edition 2014, 2014 yılında piyasaya sürüldü. Üst notalar: Elemi, Pembe biber, Bergamot ve Greyfurt; orta notalar: Tarçın, Safran ve Kırmızı biber; alt notalar Tütün, Deri ve Vetiver.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "yumuşak baharatlı",
       "width": "47.7872%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -80,7 +108,7 @@
     "middle": [
       "Tarçın",
       "Safran",
-      "Kırmızı biber"
+      "Paprika"
     ],
     "base": [
       "Tütün",
@@ -90,33 +118,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "10",
+    "weak": "4",
+    "moderate": "8",
+    "longLasting": "15",
+    "eternal": "10"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "8",
+    "strong": "25",
+    "enormous": "30"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "8",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "3",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Spicebomb"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Bvlgari Man In Black"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Spicebomb Digital Art"
+    },
+    {
+      "brand": "ENGLİSH LAUNDRY",
+      "name": "Windsor Pour Homme"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentlemen Only Absolute"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Spicebomb Extreme"
+    },
+    {
+      "brand": "TEATRO FRAGRANZE UNİCHE",
+      "name": "Tabacco"
+    },
+    {
+      "brand": "HİSTOİRES DE PARFUMS",
+      "name": "1899 Hemingway"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Spicebomb Limited Edition"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "London for Men"
+    },
+    {
+      "brand": "CLİVE CHRİSTİAN",
+      "name": "X For Men"
+    },
+    {
+      "brand": "GRİTTİ",
+      "name": "Damascus"
+    },
+    {
+      "brand": "HANAE MORİ",
+      "name": "HiM"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Luna Rossa Extreme"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Myrrh & Tonka"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİKTOR&ROLF",
@@ -178,5 +267,6 @@
       "brand": "TOM FORD",
       "name": "Tuscan Leather"
     }
-  ]
+  ],
+  "comments": []
 }

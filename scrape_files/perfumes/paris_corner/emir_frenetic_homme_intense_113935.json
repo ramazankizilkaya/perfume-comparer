@@ -19,7 +19,7 @@
       "width": "86.2123%"
     },
     {
-      "name": "toprak",
+      "name": "lavanta",
       "width": "72.4242%"
     },
     {
@@ -27,7 +27,7 @@
       "width": "72.4242%"
     },
     {
-      "name": "lavanta",
+      "name": "toprak",
       "width": "72.4242%"
     },
     {
@@ -49,6 +49,34 @@
     {
       "name": "menekşe",
       "width": "51.2123%"
+    },
+    {
+      "name": "Online satın alın 12 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -86,37 +114,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "13",
+    "longLasting": "8",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "13",
+    "strong": "6",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "5",
+    "moreMale": "10",
+    "male": "12"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "10",
+    "greatValue": "14"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2011"
+    },
+    {
+      "brand": "AL WATANİAH",
+      "name": "Kayaan Classic"
+    },
+    {
+      "brand": "PENDORA SCENTS",
+      "name": "Camaro Homme Intense"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman Eau de Parfum Reserve Privée"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Dark Door Intense"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2025"
+    },
+    {
+      "brand": "CARON",
+      "name": "Aimez Moi Comme Je Suis"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUY LAROCHE",
       "name": "Drakkar Noir"
+    },
+    {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Shiyaaka For Men"
     },
     {
       "brand": "ARMAF",
@@ -147,6 +208,10 @@
       "name": "Club de Nuit Sillage"
     },
     {
+      "brand": "FRENCH AVENUE",
+      "name": "Spectre Ghost"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
     },
@@ -159,20 +224,13 @@
       "name": "Théorème Homme"
     },
     {
-      "brand": "AZZARO",
-      "name": "The Most Wanted Parfum"
-    },
-    {
-      "brand": "AFNAN",
-      "name": "Turathi Blue"
+      "brand": "DOLCE&GABBANA",
+      "name": "The One for Men Eau de Parfum"
     },
     {
       "brand": "MAİSON ALHAMBRA",
       "name": "Jean Lowe Immortal"
-    },
-    {
-      "brand": "AFNAN",
-      "name": "9pm"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "gül",
       "width": "51.8606%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -95,33 +123,70 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "17",
+    "moderate": "28",
+    "longLasting": "10",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "10",
+    "moderate": "28",
+    "strong": "12",
+    "enormous": "12"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "20",
+    "moreFemale": "7",
+    "unisex": "3",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "9",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JUİCY COUTURE",
+      "name": "Viva la Juicy"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Ops! Fashion"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Ilía Florescer"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Alegria no Parque"
+    },
+    {
+      "brand": "THE BODY SHOP",
+      "name": "White Musk For Men"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bombshell"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Floratta Cerejeira em Flor"
+    },
+    {
+      "brand": "BEYONCÉ",
+      "name": "Heat Rush"
+    },
+    {
+      "brand": "AVON",
+      "name": "Alpha"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DİOR",
@@ -164,6 +229,10 @@
       "name": "Humor 5"
     },
     {
+      "brand": "NATURA",
+      "name": "Kaiak"
+    },
+    {
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue"
     },
@@ -178,10 +247,7 @@
     {
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
-    },
-    {
-      "brand": "CAROLİNA HERRERA",
-      "name": "212 Sexy"
     }
-  ]
+  ],
+  "comments": []
 }

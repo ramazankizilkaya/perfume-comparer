@@ -11,11 +11,11 @@
   "description_enhanced": "Maison Alhambra markasının Cerulean Blue parfümü, kadınlar ve erkekler için Aromatik Akuatik bir kokudur. Cerulean Blue, 2022 yılında piyasaya sürüldü. Üst notalar: Karpuz, Lavanta ve Bergamot; orta notalar: Lotus ve Yasemin; alt notalar Misk, Sandal ağacı ve Amber.",
   "mainAccords": [
     {
-      "name": "sulu",
+      "name": "ozonik",
       "width": "100%"
     },
     {
-      "name": "ozonik",
+      "name": "sulu",
       "width": "100%"
     },
     {
@@ -49,14 +49,42 @@
     {
       "name": "aromatik",
       "width": "60.6251%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.08",
-    "votesCount": "77",
+    "score": "4.10",
+    "votesCount": "80",
     "breakdown": {
-      "love": "30",
-      "like": "31",
+      "love": "32",
+      "like": "32",
       "ok": "10",
       "dislike": "4",
       "hate": "2"
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "4",
-    "spring": "57",
-    "summer": "65",
+    "spring": "59",
+    "summer": "67",
     "autumn": "16",
-    "day": "54",
+    "day": "55",
     "night": "13"
   },
   "notes": {
@@ -88,34 +116,99 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "7",
+    "moderate": "36",
+    "longLasting": "22",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "36",
+    "strong": "5",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "2",
+    "unisex": "13",
+    "moreMale": "33",
+    "male": "25"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "1",
     "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "6",
+    "greatValue": "57"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AJMAL",
+      "name": "Blu"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "Fierce"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Kaaf"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Legend"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Absolutely Dark"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Percival"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Legend Eau de Parfum"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Venetian"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "Azzaro Sport"
+    },
+    {
+      "brand": "AL WATANİAH",
+      "name": "Ameeri"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Aqua"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Beau Acute"
+    },
+    {
+      "brand": "MİCHAEL MALUL LONDON",
+      "name": "Visionair Midnight Blue"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Legend Spirit"
+    },
+    {
+      "brand": "OLD SPİCE",
+      "name": "Captain"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "ARMAF",
+      "name": "Club de Nuit Sillage"
+    },
     {
       "brand": "ISSEY MİYAKE",
       "name": "L'Eau d'Issey Pour Homme"
@@ -145,10 +238,6 @@
       "name": "Cool Water"
     },
     {
-      "brand": "AFNAN",
-      "name": "Turathi Blue"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Maahir Legacy"
     },
@@ -157,8 +246,8 @@
       "name": "Nautica Voyage"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Najdia Intense"
+      "brand": "ARMAF",
+      "name": "Club de Nuit Intense Man"
     },
     {
       "brand": "AFNAN",
@@ -176,5 +265,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
     }
-  ]
+  ],
+  "comments": []
 }

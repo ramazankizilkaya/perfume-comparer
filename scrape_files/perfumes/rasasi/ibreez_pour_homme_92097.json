@@ -49,26 +49,58 @@
     {
       "name": "çiçeksi",
       "width": "44.8895%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "3",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "4.18",
-    "votesCount": "72",
+    "score": "4.22",
+    "votesCount": "80",
     "breakdown": {
-      "love": "33",
-      "like": "25",
-      "ok": "9",
-      "dislike": "4",
+      "love": "39",
+      "like": "27",
+      "ok": "8",
+      "dislike": "5",
       "hate": "1"
     }
   },
   "seasons": {
     "winter": "4",
-    "spring": "41",
-    "summer": "57",
-    "autumn": "9",
-    "day": "56",
-    "night": "8"
+    "spring": "48",
+    "summer": "67",
+    "autumn": "11",
+    "day": "63",
+    "night": "9"
   },
   "notes": {
     "top": [
@@ -85,41 +117,102 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "24",
+    "longLasting": "32",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "24",
+    "strong": "20",
+    "enormous": "3"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "3",
+    "moreMale": "31",
+    "male": "33"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "0",
+    "fair": "8",
+    "goodValue": "18",
+    "greatValue": "45"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BVLGARİ",
+      "name": "Aqva Pour Homme Marine"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Aqva Pour Homme"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue Eau Intense Pour Homme"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Invictus Aqua"
+    },
+    {
+      "brand": "NAUTİCA",
+      "name": "Nautica Voyage"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Aqva Amara"
+    },
+    {
+      "brand": "LORENZO PAZZAGLİA",
+      "name": "Black Sea"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "First Instinct"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Hawas for Him"
+    },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "Le Sel d’Issey"
+    },
+    {
+      "brand": "RAVE",
+      "name": "Now Intense"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Light Blue Sun Pour Homme"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Shiro"
+    },
+    {
+      "brand": "FRAGRANCE WORLD",
+      "name": "Bavaria Pour Homme"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Niche Emarati Hayaam"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GİORGİO ARMANİ",
       "name": "Acqua di Giò Profondo"
     },
     {
-      "brand": "VERSACE",
-      "name": "Versace Pour Homme"
+      "brand": "GİORGİO ARMANİ",
+      "name": "Acqua di Gio"
     },
     {
       "brand": "MAİSON ALHAMBRA",
@@ -130,20 +223,16 @@
       "name": "Club de Nuit Milestone"
     },
     {
+      "brand": "LALİQUE",
+      "name": "Encre Noire Sport"
+    },
+    {
       "brand": "VERSACE",
       "name": "Eros Flame"
     },
     {
-      "brand": "ARMAF",
-      "name": "Legesi Homme"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Terre d'Hermès"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Vintage Radio"
+      "brand": "RASASİ",
+      "name": "Hawas Kobra"
     },
     {
       "brand": "RASASİ",
@@ -162,16 +251,21 @@
       "name": "Versace Pour Homme Dylan Blue"
     },
     {
-      "brand": "RASASİ",
-      "name": "Hawas Black"
+      "brand": "LALİQUE",
+      "name": "Encre Noire"
     },
     {
       "brand": "AFNAN",
       "name": "Supremacy Collector's Edition Pour Homme"
     },
     {
+      "brand": "ARMAF",
+      "name": "Odyssey Homme"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Asad"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -68,38 +68,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "0",
-    "moderate": "5",
-    "longLasting": "6",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "5",
-    "strong": "3",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "5",
-    "moreFemale": "3",
-    "unisex": "5",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "4",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "6",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "XERJOFF",
-      "name": "Accento"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "INİTİO PARFUMS PRİVES",
@@ -130,16 +125,16 @@
       "name": "Debaser"
     },
     {
+      "brand": "NOBİLE 1942",
+      "name": "La Danza delle Libellule"
+    },
+    {
       "brand": "MAİSON FRANCİS KURKDJİAN",
       "name": "Oud Satin Mood"
     },
     {
       "brand": "XERJOFF",
       "name": "Cruz del Sur II"
-    },
-    {
-      "brand": "NOBİLE 1942",
-      "name": "La Danza delle Libellule"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -161,5 +156,6 @@
       "brand": "TOM FORD",
       "name": "Lost Cherry"
     }
-  ]
+  ],
+  "comments": []
 }

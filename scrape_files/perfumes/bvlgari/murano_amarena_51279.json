@@ -49,6 +49,34 @@
     {
       "name": "çiçeksi",
       "width": "50%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,7 +91,7 @@
     }
   },
   "seasons": {
-    "winter": "3",
+    "winter": "4",
     "spring": "3",
     "summer": "0",
     "autumn": "4",
@@ -140,15 +168,15 @@
     },
     {
       "brand": "GUERLAİN",
+      "name": "L'Heure de Nuit"
+    },
+    {
+      "brand": "GUERLAİN",
       "name": "Nuit d'Amour"
     },
     {
       "brand": "ELİE SAAB",
       "name": "Girl of Now"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "L'Heure de Nuit"
     },
     {
       "brand": "PARFUMS DE MARLY",
@@ -190,5 +218,6 @@
       "brand": "CHANEL",
       "name": "Les Exclusifs de Chanel Coromandel"
     }
-  ]
+  ],
+  "comments": []
 }

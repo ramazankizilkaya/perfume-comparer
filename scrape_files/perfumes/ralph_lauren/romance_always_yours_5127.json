@@ -49,6 +49,34 @@
     {
       "name": "menekşe",
       "width": "54.7326%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -87,33 +115,78 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "4",
+    "moderate": "19",
+    "longLasting": "20",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "4",
+    "moderate": "19",
+    "strong": "16",
+    "enormous": "12"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "6",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "4",
+    "overpriced": "2",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES ROCHER",
+      "name": "Comme une Evidence Eau de Parfum"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Romance"
+    },
+    {
+      "brand": "GRÈS",
+      "name": "Cabaret"
+    },
+    {
+      "brand": "SARAH JESSİCA PARKER",
+      "name": "Lovely"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Romance Parfum"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Notorious"
+    },
+    {
+      "brand": "POLİCE",
+      "name": "The Illusionist"
+    },
+    {
+      "brand": "LANVİN",
+      "name": "Éclat d'Arpège Sheer"
+    },
+    {
+      "brand": "ETAT LİBRE D'ORANGE",
+      "name": "Don't Get Me Wrong Baby, YES I DO"
+    },
+    {
+      "brand": "BURBERRY",
+      "name": "My Burberry Blush"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Sensual Instinct"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RALPH LAUREN",
@@ -175,5 +248,6 @@
       "brand": "MUGLER",
       "name": "Angel"
     }
-  ]
+  ],
+  "comments": []
 }

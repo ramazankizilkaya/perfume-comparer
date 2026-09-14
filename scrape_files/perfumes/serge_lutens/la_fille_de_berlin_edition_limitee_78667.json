@@ -39,26 +39,54 @@
       "width": "58.2545%"
     },
     {
-      "name": "yosunlu",
+      "name": "sıcak baharatlı",
       "width": "58.0001%"
     },
     {
-      "name": "sıcak baharatlı",
+      "name": "yosunlu",
       "width": "58.0001%"
     },
     {
       "name": "yeşil",
       "width": "56.7271%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.09",
-    "votesCount": "100",
+    "score": "4.07",
+    "votesCount": "105",
     "breakdown": {
-      "love": "46",
+      "love": "48",
       "like": "33",
-      "ok": "10",
-      "dislike": "6",
+      "ok": "12",
+      "dislike": "7",
       "hate": "5"
     }
   },
@@ -86,33 +114,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "0",
+    "moderate": "27",
+    "longLasting": "13",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "27",
+    "strong": "7",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "19",
+    "moreFemale": "11",
+    "unisex": "15",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "5",
+    "overpriced": "7",
+    "fair": "12",
+    "goodValue": "6",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "La Fille de Berlin"
+    },
+    {
+      "brand": "PİERRE CARDİN",
+      "name": "Rose by Cardin"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "La Fille de Berlin Flacon d'Exception"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Portrait of a Lady"
+    },
+    {
+      "brand": "ZOOLOGİST PERFUMES",
+      "name": "Bee"
+    },
+    {
+      "brand": "19-69",
+      "name": "Female Christ"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Universal Oud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -174,5 +231,6 @@
       "brand": "SERGE LUTENS",
       "name": "La Dompteuse Encagée"
     }
-  ]
+  ],
+  "comments": []
 }

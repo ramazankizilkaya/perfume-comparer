@@ -39,12 +39,40 @@
       "width": "63.3846%"
     },
     {
+      "name": "gül",
+      "width": "51.5385%"
+    },
+    {
       "name": "paçuli",
       "width": "51.5385%"
     },
     {
-      "name": "gül",
-      "width": "51.5385%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -84,33 +112,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "0",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Poudree"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Narissa Poudrée"
+    },
+    {
+      "brand": "CAMARA PERFUMES",
+      "name": "Posh Powdery"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Narissa Peach"
+    },
+    {
+      "brand": "ALREHAB PERFUMES",
+      "name": "Golden"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GUCCİ",
@@ -135,10 +184,6 @@
     {
       "brand": "GİVENCHY",
       "name": "L'Interdit Eau de Parfum"
-    },
-    {
-      "brand": "TRUSSARDİ",
-      "name": "Trussardi Donna (2011)"
     },
     {
       "brand": "HERMÈS",
@@ -171,6 +216,11 @@
     {
       "brand": "LATTAFA PERFUMES",
       "name": "Angham"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Shalimar Souffle de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

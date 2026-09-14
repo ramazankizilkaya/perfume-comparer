@@ -49,14 +49,42 @@
     {
       "name": "aromatik",
       "width": "51.0001%"
+    },
+    {
+      "name": "Online satın alın 8 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.16",
-    "votesCount": "463",
+    "votesCount": "464",
     "breakdown": {
       "love": "219",
-      "like": "167",
+      "like": "168",
       "ok": "9",
       "dislike": "67",
       "hate": "1"
@@ -91,33 +119,50 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "9",
+    "weak": "10",
+    "moderate": "48",
+    "longLasting": "20",
+    "eternal": "9"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "29",
+    "moderate": "48",
+    "strong": "24",
+    "enormous": "16"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "33",
+    "moreFemale": "1",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "4",
     "fair": "9",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "CLEAN",
+      "name": "Cotton T-Shirt"
+    },
+    {
+      "brand": "J.U.S PARFUMS",
+      "name": "Superfusion"
+    },
+    {
+      "brand": "DZİNTARS",
+      "name": "Svaigais Vejs"
+    },
+    {
+      "brand": "K-3",
+      "name": "64 Gardenia"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -140,12 +185,12 @@
       "name": "Taj Sunset"
     },
     {
-      "brand": "NİNA RİCCİ",
-      "name": "Premier Jour"
-    },
-    {
       "brand": "LANCÔME",
       "name": "Poeme"
+    },
+    {
+      "brand": "NİNA RİCCİ",
+      "name": "Premier Jour"
     },
     {
       "brand": "DONNA KARAN",
@@ -179,5 +224,6 @@
       "brand": "DOLCE&GABBANA",
       "name": "Light Blue"
     }
-  ]
+  ],
+  "comments": []
 }

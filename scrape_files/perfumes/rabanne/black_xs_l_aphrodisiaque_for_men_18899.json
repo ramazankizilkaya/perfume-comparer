@@ -49,13 +49,45 @@
     {
       "name": "odunsu",
       "width": "47.6947%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "3",
+      "width": "300px"
     }
   ],
   "rating": {
-    "score": "4.23",
-    "votesCount": "215",
+    "score": "4.24",
+    "votesCount": "218",
     "breakdown": {
-      "love": "113",
+      "love": "116",
       "like": "70",
       "ok": "2",
       "dislike": "29",
@@ -63,12 +95,12 @@
     }
   },
   "seasons": {
-    "winter": "97",
+    "winter": "99",
     "spring": "38",
     "summer": "25",
-    "autumn": "84",
-    "day": "51",
-    "night": "109"
+    "autumn": "85",
+    "day": "52",
+    "night": "111"
   },
   "notes": {
     "top": [
@@ -88,33 +120,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "8",
+    "weak": "7",
+    "moderate": "25",
+    "longLasting": "54",
+    "eternal": "68"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "21",
+    "moderate": "25",
+    "strong": "63",
+    "enormous": "77"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "9",
+    "moreMale": "12",
+    "male": "33"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "5",
+    "overpriced": "9",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "8",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "Black XS L'Exces for Him"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Black XS"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Black XS Be a Legend Iggy Pop"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Black XS Potion for Him"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Malbec Magnetic"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Black XS Los Angeles for Him"
+    },
+    {
+      "brand": "AFNAN",
+      "name": "Supremacy Collector's Edition Pour Homme"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Festival de Humor"
+    },
+    {
+      "brand": "DİESEL",
+      "name": "Fuel For Life Spirit"
+    },
+    {
+      "brand": "MAUBOUSSİN",
+      "name": "Mauboussin Pour Lui in Black"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Gourmand Leather"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Amaze for Men"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Tero"
+    },
+    {
+      "brand": "LACOSTE FRAGRANCES",
+      "name": "Eau de Lacoste L.12.12 Yellow (Jaune)"
+    },
+    {
+      "brand": "VALENTİNO",
+      "name": "Valentino Uomo"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RABANNE",
@@ -176,5 +269,6 @@
       "brand": "VERSACE",
       "name": "Eros"
     }
-  ]
+  ],
+  "comments": []
 }

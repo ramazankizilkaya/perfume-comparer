@@ -52,12 +52,12 @@
     }
   ],
   "rating": {
-    "score": "3.18",
-    "votesCount": "11",
+    "score": "3.17",
+    "votesCount": "12",
     "breakdown": {
       "love": "2",
       "like": "4",
-      "ok": "1",
+      "ok": "2",
       "dislike": "2",
       "hate": "2"
     }
@@ -87,42 +87,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "2",
-    "longLasting": "2",
-    "eternal": "0"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "0",
-    "moderate": "2",
-    "strong": "2",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "0",
-    "moreFemale": "1",
-    "unisex": "0",
-    "moreMale": "1",
-    "male": "1"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "0",
-    "overpriced": "0",
-    "fair": "1",
-    "goodValue": "1",
-    "greatValue": "0"
+    "wayOverpriced": "",
+    "overpriced": "",
+    "fair": "2",
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "HUGO BOSS",
-      "name": "Hugo Man"
-    },
-    {
-      "brand": "HUGO BOSS",
-      "name": "Hugo"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "DOLCE&GABBANA",
@@ -184,5 +175,6 @@
       "brand": "HUGO BOSS",
       "name": "Boss Bottled Intense Eau de Parfum"
     }
-  ]
+  ],
+  "comments": []
 }

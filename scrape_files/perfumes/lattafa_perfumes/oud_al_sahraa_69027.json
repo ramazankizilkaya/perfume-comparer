@@ -11,11 +11,11 @@
   "description_enhanced": "Lattafa Perfumes markasının Oud Al Sahraa parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Oud Al Sahraa, 2021 yılında piyasaya sürüldü. Kokuda Agar ağacı (Oud), Odunsu Notalar ve Amber notaları bulunur.",
   "mainAccords": [
     {
-      "name": "ud",
+      "name": "odunsu",
       "width": "100%"
     },
     {
-      "name": "odunsu",
+      "name": "ud",
       "width": "100%"
     },
     {
@@ -29,6 +29,34 @@
     {
       "name": "animalik",
       "width": "39.3333%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -61,33 +89,82 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "6",
+    "longLasting": "21",
+    "eternal": "20"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "6",
+    "strong": "16",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "7",
+    "moreMale": "14",
+    "male": "30"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "2",
     "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "8",
+    "greatValue": "34"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Complex"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Emir Smoky Leather"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Somow Al Rasasi Wajaha"
+    },
+    {
+      "brand": "NASOMATTO",
+      "name": "Black Afgano"
+    },
+    {
+      "brand": "LES LİQUİDES IMAGİNAİRES",
+      "name": "Fortis"
+    },
+    {
+      "brand": "ORTO PARİSİ",
+      "name": "Cuoium"
+    },
+    {
+      "brand": "ARABİAN OUD",
+      "name": "Arabian Leather"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Verde"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Sultry Woods"
+    },
+    {
+      "brand": "ASSALA PRİME",
+      "name": "Royal Arabian Oud"
+    },
+    {
+      "brand": "BİJAN",
+      "name": "Bijan Men"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Shaari"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "BENTLEY",
@@ -149,5 +226,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Qaa'ed"
     }
-  ]
+  ],
+  "comments": []
 }

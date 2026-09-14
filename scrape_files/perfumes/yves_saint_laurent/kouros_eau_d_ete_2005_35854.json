@@ -49,13 +49,41 @@
     {
       "name": "balsamik",
       "width": "46.1104%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.60",
-    "votesCount": "52",
+    "votesCount": "53",
     "breakdown": {
-      "love": "37",
+      "love": "38",
       "like": "11",
       "ok": "2",
       "dislike": "2",
@@ -88,33 +116,62 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "5",
+    "longLasting": "14",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "5",
+    "strong": "17",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "1",
+    "male": "8"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "3",
+    "overpriced": "1",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Kouros Eau d'Ete 2006"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Kouros Eau de Sport"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Musk Aoud Absolue Précieux"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Kouros"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Kouros Cologne Sport"
+    },
+    {
+      "brand": "JACQUES BOGART",
+      "name": "Eau Fresh"
+    },
+    {
+      "brand": "ROJA DOVE",
+      "name": "Musk Aoud"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -145,16 +202,16 @@
       "name": "Terre d'Hermès"
     },
     {
-      "brand": "DAVİDOFF",
-      "name": "Cool Water"
-    },
-    {
       "brand": "DİOR",
       "name": "Fahrenheit"
     },
     {
       "brand": "CHANEL",
       "name": "Antaeus"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Sport"
     },
     {
       "brand": "YVES SAİNT LAURENT",
@@ -176,5 +233,6 @@
       "brand": "GUERLAİN",
       "name": "L'Instant de Guerlain pour Homme"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -16,59 +16,87 @@
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "96.6423%"
+      "width": "97.5326%"
     },
     {
       "name": "paçuli",
-      "width": "80.8788%"
+      "width": "80.7448%"
     },
     {
       "name": "sıcak baharatlı",
-      "width": "71.2286%"
+      "width": "71.1934%"
     },
     {
       "name": "karamel",
-      "width": "69.0882%"
+      "width": "68.7901%"
     },
     {
       "name": "pudralı",
-      "width": "62.5396%"
+      "width": "62.4562%"
     },
     {
       "name": "amber",
-      "width": "59.4765%"
+      "width": "59.2515%"
     },
     {
       "name": "meyvemsi",
-      "width": "59.3354%"
+      "width": "59.0227%"
     },
     {
       "name": "tatlı",
-      "width": "58.2074%"
+      "width": "57.9544%"
     },
     {
       "name": "balsamik",
-      "width": "57.0671%"
+      "width": "57.013%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.64",
-    "votesCount": "2,385",
+    "votesCount": "2,499",
     "breakdown": {
-      "love": "629",
-      "like": "840",
-      "ok": "465",
-      "dislike": "336",
-      "hate": "115"
+      "love": "653",
+      "like": "878",
+      "ok": "497",
+      "dislike": "351",
+      "hate": "120"
     }
   },
   "seasons": {
-    "winter": "589",
-    "spring": "906",
-    "summer": "595",
-    "autumn": "792",
-    "day": "976",
-    "night": "489"
+    "winter": "612",
+    "spring": "941",
+    "summer": "616",
+    "autumn": "825",
+    "day": "1k",
+    "night": "507"
   },
   "notes": {
     "top": [
@@ -86,33 +114,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "58",
+    "weak": "162",
+    "moderate": "687",
+    "longLasting": "272",
+    "eternal": "53"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "186",
+    "moderate": "687",
+    "strong": "228",
+    "enormous": "34"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "882",
+    "moreFemale": "246",
+    "unisex": "115",
+    "moreMale": "12",
+    "male": "13"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "465",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "30",
+    "overpriced": "28",
+    "fair": "497",
+    "goodValue": "550",
+    "greatValue": "458"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MARC JACOBS",
+      "name": "Perfect Intense"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Precious Gold"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Biografia Assinatura"
+    },
+    {
+      "brand": "QAWAFI",
+      "name": "Elysian Fields Silk"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Fame Blooming Pink"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Honey & Crocus"
+    },
+    {
+      "brand": "WE PİNK",
+      "name": "Changes"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "Wild Spirit"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Idôle"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Supreme Bouquet (Le Vestiaire des Parfums)"
+    },
+    {
+      "brand": "ZARA",
+      "name": "Shades Of Lust"
+    },
+    {
+      "brand": "ADYAN BY ANFAR",
+      "name": "Glamour"
+    },
+    {
+      "brand": "GİSADA",
+      "name": "Ambassadora"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Velvet Soul"
+    },
+    {
+      "brand": "SWİSS ARABİAN",
+      "name": "PASSION OF VENICE"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
@@ -135,6 +224,10 @@
       "name": "Alien"
     },
     {
+      "brand": "VERSACE",
+      "name": "Crystal Noir"
+    },
+    {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Honor & Glory"
     },
@@ -155,10 +248,6 @@
       "name": "Yara Tous"
     },
     {
-      "brand": "DİOR",
-      "name": "Hypnotic Poison"
-    },
-    {
       "brand": "LATTAFA PERFUMES",
       "name": "Bade'e Al Oud Sublime"
     },
@@ -173,6 +262,208 @@
     {
       "brand": "DOLCE&GABBANA",
       "name": "Devotion"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent611261",
+      "author": "Persikova",
+      "date": "2025-06-05",
+      "text": "Parfüm severlerin korkularından biri😳Tartışmalı bir kokuyu, yorumlara bakarak körü körüne satın almak; beğenmeme ihtimaliniz bile yok😏 ama koleksiyonunuzda yer almayacağını fark etmek, koleksiyoncu ruhunu titretir🥺😁Bizim içimizdeki bu korkunun sorumlusu ise Yara Moi Lattafa Parfümleri☺️Hakkında okumadığım bir şey var, bu serinin en iğrenç kokusuna madalya verme zamanı geldi. Dikkatlice sıkıyorum ve sandal ağacının kremsi tabanında yaseminle çerçevelenmiş bir dalda duran şeftalinin sululuğuyla sarılıyorum😝Hepsi bir araya gelince, orta derecede tatlı, hafif otsu, saflık ve tazelik dolu yuvarlak bir aroma yaratıyor🤗Her şeyi bekliyordum (köpürmüyor), ama kesinlikle böyle bir güzellik beklemiyordum ve evet, buradaki şeftali çok gerçekçi duyuluyor (gerçek bir şeftaliyle birebir karşılaştırdım) 😌 Kendime retorik bir soru soruyorum, insanların burunlarında ne sorun var (Covid'in oyunları) 😝 İlkbahar-yaz tam onun zamanı, böyle bir başyapıtla karşılaştım, zavallı şey tamamen ezilse de (onun için bile yazık) 😳❤️🤗 Yara kadın serisinin 4 parfümünün hiçbiri benim için birbirine benzemiyor -.)",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.381954.jpg"
+    },
+    {
+      "id": "parent611221",
+      "author": "titx.vic",
+      "date": "2025-01-26",
+      "text": "Yara Tous ayakkabılarını arıyordum ve bunu bir anlık hevesle aldım, ama bunu Tous'tan çok daha fazla beğendim.\nOdunsu ve çiçeksi bir parfüm ama hiç ağır değil. Her durum için mükemmel ve bence daha çok unisex-kadınsı bir koku.\nTek kelimeyle muhteşem, beni tamamen büyüledi.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.174809.jpg"
+    },
+    {
+      "id": "parent611262",
+      "author": "yourssunshine",
+      "date": "2025-01-19",
+      "text": "Koku beni şaşırttı; bu yan ürün, amiral gemisiyle hiçbir benzerlik taşımıyor. Güçlü paçuli-odunsu bir baz üzerinde soyut, tatlı beyaz çiçekler, melek kokusunu anımsatıyor. Hiçbir meyve kokusu algılamıyorum. Bir süre sonra hoş bir sandal ağacı notası ortaya çıkıyor. Kuruma aşaması gerçekten daha kremsi ve daha yoğun.\n\nEğer amiral gemisi parfüm benim için sadece tatlı ve lüks bir parfümse, o zaman bu koku bence daha ilginç, karmaşık ve güzel. Onu denemediğime üzülmüş olmalıyım.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.409628.jpg"
+    },
+    {
+      "id": "parent611263",
+      "author": "Ohmynigma",
+      "date": "2024-12-23",
+      "text": "Harika bir koku. Şişesi içeriğiyle mükemmel uyum sağlıyor. Koku çevre dostu, çiçeksi ve beyaz. Daha önce burada fare, çorap ve diğer hoş kokuları alabileceğinizi okumuştum. Burada ise o bembeyaz çiçeklerin altında yeşil sapların kokusunu alıyorum. Paçuli, paçuli! Koku çok güzel. Onu yemyeşil, tatlı, sulu beyaz çiçeklerden oluşan bir buketle ilişkilendiriyorum 🤭 Daha önce defalarca öğrendiğim gibi, asla başkalarını dinlememeli, kendiniz denemelisiniz. Koku inanılmaz 🫶🏻",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.433479.jpg"
+    },
+    {
+      "id": "parent611212",
+      "author": "aquagreenmoon",
+      "date": "2024-10-28",
+      "text": "Yasemin, karamel ve amberin muhteşem birleşimini kesinlikle hissediyorum 😍 Listelenen notalar nedeniyle biraz basit olabileceğini düşünerek bu parfümü aldım ama sizi temin ederim ki bu koku o kadar güzel ki, en iyi anlamda insanı mest ediyor. Yara Moi'yi koleksiyonumdaki ikinci favori parfümüm olarak kesinlikle listeliyorum. Kesinlikle tavsiye ederim ❤️",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2189799.jpg"
+    },
+    {
+      "id": "parent611241",
+      "author": "Sissy11",
+      "date": "2024-07-25",
+      "text": "Ve 2. Bu, yanlış bir satın alma tuzağına ikinci kez düşmem. Bu çok övülen ve büyük beğeni toplayan Arap parfümleri gerçekten ucuz kokuyor. Pazarda 5 euroya satılıyorlar. Az para harcıyorum ama çok da beğenmiyorum. Şurup ve yapışkan öd ağacı gibi kokuyorlar ve absürt olan şey, hepsinin korkunç derecede aynı olması. BİR DAHA ASLA ARAP PARFÜMLERİ ALMAYACAĞIM",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.80397.jpg"
+    },
+    {
+      "id": "parent611230",
+      "author": "Bruna555",
+      "date": "2024-07-09",
+      "text": "Bu parfüm beni şaşırtıyor; üç kez kullandım ve her seferinde farklı gibi geldi (tekrar denemeden önce birkaç hafta dinlenmeye bırakacağım sanırım). Her seferinde öne çıkanlar şeftali, paçuli ve karamel (her seferinde az ya da çok güçlü). Açılış çok sentetik ama hoş. Ancak kuruma aşamasında paçuli çok güçlü ve benim zevkime göre çok ağır; çok fazla yer kaplayan bir koku karmaşası!\nKoku orta derecede, bu da iyi çünkü bence rahatsız edici hale gelebilirdi. Birkaç hafta sonra tekrar deneyeceğim, biraz daha dengeli bir koku bulmayı umuyorum.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.54837.jpg"
+    },
+    {
+      "id": "parent611218",
+      "author": "Loliky86",
+      "date": "2024-05-18",
+      "text": "Tüm Yara parfümlerine sahibim ve bu, şahsen hepsinin en iyisi. Olumsuz yorumlara rağmen, bence çok iyi yapılmış, tatlı ve güzel bir koku ve dengeli. Pembe olanı ise çok abartılmıştı ama hayal kırıklığı yarattı, turuncu olanı da çok iyi ama bence bu beyaz Yara Moi, diğerlerinden üstün. Tavsiye ederim.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/mdimg/avataries/m.58904.jpg"
+    },
+    {
+      "id": "parent611240",
+      "author": "Valem94",
+      "date": "2024-01-14",
+      "text": "Son zamanlarda Arap parfümleri kullanmaya başladım ve bu ilk alışverişimdi, hemen büyülendim! Burnuma göre şeftali ve amber kokusu yoğun, ancak cildime sıktığımda karamel notası baskın geliyor. Normal bir karamel değil, son derece yuvarlak, yumuşak ve bazen neredeyse tereyağımsı bir karamel.\nYanlışlıkla üzerine Pupa'nın kruvasan kokulu suyunu sıktım ve resmen bayıldım!! Hayatım boyunca aradığım koku tam olarak buydu 🥰",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.84027.jpg"
+    },
+    {
+      "id": "parent611213",
+      "author": "noobfordupe",
+      "date": "2023-11-25",
+      "text": "Birkaç gün bekleyin, söz veriyorum daha iyi olacak. İlk sıktığınızda, rastgele malzemelerin bir araya getirilmiş bir patlaması gibi kokuyor. Ama en az birkaç gün bekletirseniz, koku oturuyor ve tatlı gurme vücut spreyleri veya parfümlerle katmanlamak için mükemmel olan çok fındıklı, odunsu bir kokuya dönüşüyor. Biraz abartılmıştı ve ilk önereceğim koku olmazdı. Genel olarak, gerçekten güzel bir parfüm ama ucuz olsa bile, paranızı gerçekten beğeneceğiniz ve istediğiniz bir şeye saklayın.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent611224",
+      "author": "0sopolar",
+      "date": "2023-09-16",
+      "text": "BAYILDIM! İş için resmi ve zarif, ama çok da baskın olmayan bir şey arıyordum. Tatlı ama vanilya gibi değil; arka planda çok, çok ince bir şekilde hissedilen sulu, kremsi bir meyve notası var, çünkü %100 çiçeksi bir koku! Odunsu dokunuş çok ince ve sonunda hafif pudralı bir hal alıyor. TAVSİYE EDER MİYİM? EVET! Çevrenizdekileri rahatsız etmeden kadınsı ve zarif görünmek istiyorsanız iş için mükemmel! Arap parfümlerinden ilk alışverişimdi ve bence başlamak için harika bir yer! Beğenmemek çok zor gibi geliyor bana. 💓\n\nGÜNCELLEME: Kokuyu hala seviyorum, ancak yayılımı çok iyi değil. En fazla 3 saat güzel kokuyor, ondan sonra sadece kısa süreli koku patlamaları oluyor ve tene çok yakın kalıyor... beni hayal kırıklığına uğratan tek şey bu.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.es",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent611211",
+      "author": "annasarahr121",
+      "date": "2023-09-08",
+      "text": "Yara Moi benim için ilk koklamada aşktı. Baştan itibaren şeftali ve krema karışımı gibi bir kokuya sahip, hafif bir paçuli dokunuşuyla dengeleniyor ve onu basit bir gurme parfümden ayırıyor (her zaman söylerim, gurme parfümlerin içinde onları \"yenilemez\" kılan bir nota olduğunda çok hoşuma gider ve bu genellikle paçuli, meşe yosunu vb. olur). Bazı insanlar YM'de çok fazla paçuli olduğunu düşünüyor ama ben güçlü bir paçuli parfümünü Reminiscence Patchouli gibi bir şey olarak gören bir paçuli aşığıyım, bu yüzden benim için YM hafif bir paçuli kokusu. Pembe şişedeki orijinal Yara gibi, YM de sıcak, sarmalayıcı bir özelliğe sahip ve gerçekten yayılmıyor, daha ziyade yayılıyor. Ve orijinal Yara'yı sevsem de, YM'den daha tatlı ve aslında çok hafif olabilir; Öte yandan Yara Moi daha kişilikli ve benim burnuma göre zarifliğe yakın, belki de hafif vintage, parfümlü bir kalite algıladığım için (ben de vintage parfümleri seven biriyim). Bana göre, YM'nin ilk sıkılması en güzel kısmı - tatlı karamel ve meyveler gerçekten ortaya çıktığında - ve keşke bu koku, yaklaşık 4 saat boyunca yayılan o sıcak, şeftali ve krema gibi sarmalayıcı kokuya dönüşmeden önce daha uzun süre kalsaydı. Birkaç gün kullandıktan ve sevdikten sonra, sonunda Swiss Arabian Oil Hayfa, Hanae Mori (diğer adıyla Blue Butterfly), Jessica Simpson Fancy ve Oscar de la Renta Something Gold gibi parfümlerle aynı aileden olduğunu anladım. Bunlardan herhangi birine tam olarak benzemiyor, ancak bunlar gibi sıcak, meyveli, rahatlatıcı, biraz karamel içeren bir parfüm. Çocukluğumdan bir şeyi hatırlatıyor ama tam olarak ne olduğunu söyleyemiyorum; Bu koku sanki her zaman benim için var olmuş gibi geliyor ama nedenini bilmiyorum... İşte parfümün büyüsü bu, beni tekrar tekrar kendine çekiyor! <3",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1018392.jpg"
+    },
+    {
+      "id": "parent611205",
+      "author": "Charmedbymeghan",
+      "date": "2023-08-25",
+      "text": "VAY CANINA!! Bu ürüne şans verdiğime ÇOK SEVİNDİM. YouTube'daki insanların pembe olanı övdükleri için neredeyse almaktan vazgeçmiştim! Şimdi de turuncu olanı çok popüler oldu... Pembe Yara'm var ve turuncu Yara Tous da yolda...\n\nDürüst olmak gerekirse, pembe Yara beni pek etkilemedi. Hayır, çilekli milkshake gibi kokmuyor. Keşke öyle olsaydı... Kremsi, tropikal meyveli bir parfüm gibi kokuyor. Kalıcılığı da istediğim kadar güçlü değil.\n\nAma BU.\nKremsi şeftali kokusu gibi kokuyor! Biraz yasemin ve dip notalarında misk-odunsu notalar da var. MUHTEŞEM KOKUYOR!!! \"Şeftali ve Krema\" tarzı parfümler arıyordum - ucuzdan niş markalara kadar her yerde aradım... ve sadece 20 dolara harika bir tane buldum!\n\nİyi ki bu konuda sadece \"abartı\" veya \"abartı yok\" yorumlarına aldanmadım. Alın ve kendiniz koklayın. Ama şunu söylemeliyim ki, ilk birkaç püskürtme garip kokuyordu, bu yüzden yargılamadan önce birkaç kez daha sıkın.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent611208",
+      "author": "sandradiana",
+      "date": "2023-07-24",
+      "text": "Tamam, az önce aldım.\n\nMarc Jacobs'ın Perfect Intense parfümünü çok seviyorum, bu yüzden bunu satın aldım.\nBana göre şu ana kadar ikisi de aynı.\n\nBu yüzden tavsiyem önce gidip koklamanız ve beğenirseniz sipariş vermenizdir!\nParfümün kalıcılığı hakkında hiçbir şey bilmiyorum çünkü onu iş yerinden yeni aldım, Fragrantica'yı açtım ve bunu yazdım.\nBunu 20 sterline aldım. Perfect Intense'in fiyatı yaklaşık 90 sterlin.\n\nGüncelleme:\nBu, Perfect Intense MJ'den bile daha çılgın.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1321240.jpg"
+    },
+    {
+      "id": "parent611229",
+      "author": "lineglam",
+      "date": "2023-07-12",
+      "text": "Carolina Herrera Good Grill'in ruhunu biraz andıran, sentetik bir açılışa sahip beyaz çiçek kokusu, baskın olduğunu düşündüğüm sümbülteber, karamel ve şeftalinin kokuya yoğun ve kalın bir nitelik kazandırdığı beyaz çiçeklerden oluşan bir bukete dönüşüyor. Birkaç dakika sonra, dört notanın karışımını hissediyorum: karamel, sümbülteber, amber, paçuli; bu koku gün boyu kalıcı ve bana eşlik ediyor. Ayrıca Cheirosa 71'i (ortak nota: karamel) hatırlatan bir miktar makadamya fındığı da var.\n\nBana misk kokulu geliyor ama belki de sadece bana öyle geliyor; kesinlikle oryantal bir dokunuşa sahip bir koku.\n\nbarış",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent611203",
+      "author": "MCW7",
+      "date": "2023-07-01",
+      "text": "Bu parfümü yeni aldım. 160'tan fazla parfümüm var. Parfümeride en iyilerin en iyisine sahibim... YouTube'da Lattafa'dan bu Yara parfümleri hakkında sadece kötü şeyler duydum ve açıkçası anlamıyorum. Çok beğenilen kokular. Sadece tatlı, seksi ve güzel kokuyorlar, hepsi bu. Sentetik mi? Size bir haberim var. Artık sentetik olmayan çok az parfüm var. Her parfümün akıllara durgunluk veren veya tamamen devrim niteliğinde olması gerekmiyor. 20-23 dolar karşılığında, günlük kullanım için çok iyi bir koku. Güzel kokmanın nesi yanlış? Ek olarak, eğer paçuli sevmiyorsanız, bu muhtemelen size göre değil, ama aksi takdirde, orijinal Yara da dahil olmak üzere çok iyi bir parfüm.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1441650.jpg"
+    },
+    {
+      "id": "parent611239",
+      "author": "Butiamo",
+      "date": "2023-06-24",
+      "text": "İlk aldığımda, denemeden aldığım için hiç beğenmemiştim; benim zevkime göre çok tatlı ve meyveliydi. Bir çekmecede kenara bıraktım. Ama, sık sık yaptığım gibi, birkaç ay sonra tekrar koklamak için elime aldım, çünkü son zamanlarda karamel notasına aşık olmuştum... ve işte o zaman harika oldu! Hala çok tatlı ve güçlü (kesinlikle fark edilmeden geçmeyecek bir parfüm), ancak meyveli nota neredeyse kayboldu ve çoğunlukla vanilya, karamel, amber ve biraz beyaz çiçek kokusu alıyorum. El Nabil'in Halima Musk'ıyla birlikte denedim ve vay canına... tam bir nükleer bomba oldu! Ancak, ikisi de gerçekten güçlü kokular olduğu için az miktarda kullanın.",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.136.jpg"
+    },
+    {
+      "id": "parent611209",
+      "author": "Neshia",
+      "date": "2023-06-22",
+      "text": "Belki de sadece benim algım böyledir ama şeftali kokusunu hiç alamıyorum. Bu kokuyu çok seviyorum çünkü zarif ve hem gündüz hem de özellikle akşamları kullanılabiliyor. Benim için beyaz çiçekler ve sandal ağacı kokusunu anında alıyorum, ardından tuzlu karamel kokusu geliyor. Yara parfümlerini sıralamam gerekirse, pembe olanı en üst seviyede olurdu ve bu da onun daha olgun kız kardeşi olurdu. Yaklaşık 20-22 dolara aldım, yani her iki durumda da kazançlı çıktı.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1732949.jpg"
+    },
+    {
+      "id": "parent611267",
+      "author": "Pauliko",
+      "date": "2023-06-16",
+      "text": "Moi'yi denemeye beni neyin ittiğini bilmiyorum. Şeftali olmalı... Paçuli hayranı değilim ve burada baskın olmamasını, ya da en azından kimseyi bunaltmaması umuduyla bekliyordum. İlk uygulamadan sonra çok şaşırdım – koku kremsi ve pürüzsüz, oldukça zarif, görünüşte hafif ama aynı zamanda tatlılıkla yapışkan, aromatik ve tahmin edilemez. Açılış MUHTEŞEM, yoğun şeftali ve karamel, kelimenin tam anlamıyla karamel soslu meyveli bir cheesecake gibi. Arka planda bir tutam yasemin ve sıcak amber var ve bir süre sonra koku daha odunsu hale geliyor. Sonra, güçlü, topraksı bir paçuli yavaşça giriyor ve işler biraz tuhaflaşıyor... cheesecake kesilmiş sapların ve kazılmış köklerin içine düştü... oooops. Neyse ki, bu notalar bir araya geldiğinde oldukça mantıklı (eğer tuhafsa) bir bütün oluşturuyor. Bir süre sonra paçuli yumuşuyor ve koku şeftali bulutu gibi, ama daha taze bir versiyonuyla, sanki arka planda bir yerlerde hafif bir tuz esintisi varmış gibi. Kesinlikle bolca süt kokusu alıyorum ve ara sıra kahve/kakao esintisi de hissediyorum. Moi gerçekten tuhaf ama ilginç bir koku. Bazıları onu \"yaşlı kadın\" kokusuyla ilişkilendirebilir; belirgin paçuli ile şeftali laktonu hafif bir vintage havası yaratıyor, bu yüzden bende uzun süre kalmadı. Daha sıcak ilkbahar ve sonbahar günleri için mükemmel, soğuk günlerde ise saç spreyi etkisi yaratıyor. Yayılımı gerçekten iyi, boğucu bir iz bırakmıyor, ancak her dokunuşla güzelce karışıyor. Kalıcılığı ciltte 4 saat, kıyafetlerde ise birkaç gün sürüyor. (Yara'nın Moi'nin kız kardeşi olduğunu hissedebilirsiniz - ikisi de benzersiz, \"tatlı\" kokular, ancak pembe olan daha tatlı, belki daha az gelişmiş, ama yine de benim için kazanıyor.)",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.41904.jpg"
+    },
+    {
+      "id": "parent611207",
+      "author": "Maryvic",
+      "date": "2023-04-20",
+      "text": "Belki koku alma duyum bozuktur ama Yara Moi bana karamelli kurabiyeleri, tatlı bisküvileri ve nemli kekleri çok hatırlatıyor. Bu, taze pişmiş ve evin her yerine yayılan cezbedici bir aromaya sahip sıcak bir ikram. Şeftali, karamel ve amberle karışarak o enfes şeftali turtası zenginliğini veriyor ve yasemin ile sandal ağacı, çok şekerli olmasını engelleyerek dengeyi sağlıyor. Kendinizi kötü hissettiğinizde bir annenin sevgi dolu kucaklaması gibi ya da büyükannenizin evinde en sevdiğiniz yemeklerin fırında piştiği bir anı yaşamak gibi. Gerçekten de yıl boyunca kullanabileceğinize inanıyorum çünkü tıpkı ev gibi rahatlatıcı ve keyifli.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1720924.jpg"
     }
   ]
 }

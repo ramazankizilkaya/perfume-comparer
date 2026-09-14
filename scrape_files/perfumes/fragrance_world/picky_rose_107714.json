@@ -37,14 +37,42 @@
     {
       "name": "narenciye",
       "width": "48.4974%"
+    },
+    {
+      "name": "Online satın alın 40 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.45",
-    "votesCount": "31",
+    "score": "3.56",
+    "votesCount": "34",
     "breakdown": {
-      "love": "8",
-      "like": "10",
+      "love": "10",
+      "like": "11",
       "ok": "3",
       "dislike": "8",
       "hate": "2"
@@ -52,10 +80,10 @@
   },
   "seasons": {
     "winter": "11",
-    "spring": "12",
-    "summer": "9",
-    "autumn": "13",
-    "day": "11",
+    "spring": "14",
+    "summer": "10",
+    "autumn": "16",
+    "day": "13",
     "night": "6"
   },
   "notes": {
@@ -75,33 +103,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "10",
+    "longLasting": "7",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "10",
+    "strong": "6",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "8",
+    "moreFemale": "6",
+    "unisex": "8",
+    "moreMale": "1",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "10"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TOM FORD",
+      "name": "Rose Prick"
+    },
+    {
+      "brand": "MAİSON ALHAMBRA",
+      "name": "Rose Petals"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "FRENCH AVENUE",
@@ -163,5 +200,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Raghba"
     }
-  ]
+  ],
+  "comments": []
 }

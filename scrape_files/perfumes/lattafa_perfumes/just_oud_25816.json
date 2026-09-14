@@ -49,6 +49,34 @@
     {
       "name": "balsamik",
       "width": "54.1093%"
+    },
+    {
+      "name": "Satılık birçok ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -88,33 +116,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "3",
+    "moderate": "6",
+    "longLasting": "27",
+    "eternal": "8"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "6",
+    "strong": "25",
+    "enormous": "13"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "4",
+    "moreMale": "9",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "12"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "ARMAF",
+      "name": "Shades Wood"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "24 Carat Pure Gold"
+    },
+    {
+      "brand": "MONTALE",
+      "name": "Aoud Safran"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Black Onyx"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Fabulous"
+    },
+    {
+      "brand": "FRANCK OLİVİER",
+      "name": "Oud Vanille"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AMOUAGE",
@@ -176,5 +229,6 @@
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez for Him"
     }
-  ]
+  ],
+  "comments": []
 }

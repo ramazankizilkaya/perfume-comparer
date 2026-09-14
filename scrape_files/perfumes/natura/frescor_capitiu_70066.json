@@ -16,23 +16,23 @@
     },
     {
       "name": "tatlı",
-      "width": "71.7742%"
+      "width": "72.2447%"
     },
     {
       "name": "beyaz çiçeksi",
-      "width": "63.871%"
+      "width": "63.8712%"
     },
     {
       "name": "yumuşak baharatlı",
-      "width": "60.2957%"
+      "width": "61.6129%"
     },
     {
       "name": "narenciye",
-      "width": "59.4489%"
+      "width": "59.449%"
     },
     {
       "name": "gül",
-      "width": "58.2258%"
+      "width": "58.414%"
     },
     {
       "name": "odunsu",
@@ -44,31 +44,59 @@
     },
     {
       "name": "taze",
-      "width": "50.3226%"
+      "width": "50.3227%"
     },
     {
       "name": "pudralı",
-      "width": "49.3817%"
+      "width": "49.3819%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.05",
-    "votesCount": "61",
+    "score": "4.02",
+    "votesCount": "66",
     "breakdown": {
       "love": "21",
-      "like": "24",
-      "ok": "14",
+      "like": "27",
+      "ok": "16",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "9",
-    "spring": "40",
-    "summer": "32",
-    "autumn": "20",
-    "day": "39",
-    "night": "12"
+    "spring": "42",
+    "summer": "34",
+    "autumn": "21",
+    "day": "42",
+    "night": "13"
   },
   "notes": {
     "top": [
@@ -89,33 +117,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "13",
+    "weak": "12",
+    "moderate": "22",
+    "longLasting": "1",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "20",
+    "moderate": "22",
+    "strong": "2",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "26",
+    "moreFemale": "10",
+    "unisex": "10",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "14",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "2",
+    "overpriced": "3",
+    "fair": "16",
+    "goodValue": "26",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Água de Banho Encantos de Capitiú"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Amor Amor"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Luna Ousadia"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Cumaru"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor Ishpink"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "212 Sexy"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -143,10 +196,6 @@
     },
     {
       "brand": "NATURA",
-      "name": "Frescor de Moça"
-    },
-    {
-      "brand": "NATURA",
       "name": "Una Artisan"
     },
     {
@@ -159,11 +208,15 @@
     },
     {
       "brand": "NATURA",
+      "name": "Essencial Exclusivo Floral"
+    },
+    {
+      "brand": "NATURA",
       "name": "Biografia Inspire"
     },
     {
       "brand": "NATURA",
-      "name": "Biografia Caminhos"
+      "name": "Frescor de Buriti"
     },
     {
       "brand": "NATURA",
@@ -177,5 +230,6 @@
       "brand": "NATURA",
       "name": "Frescor de Pitanga"
     }
-  ]
+  ],
+  "comments": []
 }

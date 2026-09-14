@@ -29,6 +29,34 @@
     {
       "name": "tatlı",
       "width": "45.9281%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -69,33 +97,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "12",
+    "moderate": "5",
+    "longLasting": "3",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "5",
+    "strong": "8",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "1",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "10",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "JEQUİTİ",
+      "name": "Turma da Mônica Mônica"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Floratta Emotion"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Jeu d'Amour l'Elixir"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Amor Amor"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Mon Paris"
+    },
+    {
+      "brand": "ARİANA GRANDE",
+      "name": "Sweet Like Candy"
+    },
+    {
+      "brand": "BENETTON",
+      "name": "Sisterland Pink Raspberry"
+    },
+    {
+      "brand": "JEQUİTİ",
+      "name": "Rebeca Abravanel"
+    },
+    {
+      "brand": "PARİS HİLTON",
+      "name": "Can Can"
+    },
+    {
+      "brand": "EUDORA",
+      "name": "Soul Radar Berlin"
+    },
+    {
+      "brand": "GİOVANNA BABY",
+      "name": "Blueberry"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -107,11 +180,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Kaiak Aventura"
+      "name": "Essencial Exclusivo Floral"
     },
     {
       "brand": "NATURA",
-      "name": "Essencial Exclusivo Floral"
+      "name": "Kaiak Aventura"
     },
     {
       "brand": "NATURA",
@@ -127,11 +200,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Essencial Feminino"
+      "name": "Luna"
     },
     {
       "brand": "NATURA",
-      "name": "Luna"
+      "name": "Essencial Feminino"
     },
     {
       "brand": "NATURA",
@@ -139,11 +212,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Humor 1"
+      "name": "Humor da Minha Vida"
     },
     {
       "brand": "NATURA",
-      "name": "Humor da Minha Vida"
+      "name": "Humor 1"
     },
     {
       "brand": "NATURA",
@@ -157,5 +230,6 @@
       "brand": "NATURA",
       "name": "Kaiak"
     }
-  ]
+  ],
+  "comments": []
 }

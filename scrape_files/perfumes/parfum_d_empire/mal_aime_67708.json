@@ -2,12 +2,12 @@
   "name": "Mal-Aimé Parfum d'Empire",
   "targetGender": "kadınlar ve erkekler için",
   "fragranceFamily": "Fresh",
-  "concentration": "Parfum",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67708.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Parfum-d-Empire/Mal-Aime-67708.html",
   "brand": "Parfum d'Empire parfüm ve kolonya",
   "description": "Parfum d'Empire markasının Mal-Aimé parfümü, kadınlar ve erkekler için Aromatik Yeşil bir kokudur. Mal-Aimé, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Marc-Antoine Corticchiato. Üst notalar: Böğürtlen ve Kır çiçeği; orta notalar: Isırgan otu, Devedikeni ve Kır çiçeği; alt notalar Orris kökü ve Kır çiçeği.",
-  "description_original": "Parfum d'Empire markasının Mal-Aimé parfümü, kadınlar ve erkekler için Aromatik Yeşil bir kokudur. Mal-Aimé, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Marc-Antoine Corticchiato. Üst notalar: Böğürtlen ve Kır çiçeği; orta notalar: Isırgan otu, Devedikeni ve Kır çiçeği; alt notalar Orris kökü ve Kır çiçeği.",
+  "description_original": "Parfum d'Empire markasının Mal-Aimé parfümü, kadınlar ve erkekler için Aromatik Yeşil bir kokudur. Mal-Aimé, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Marc-Antoine Corticchiato. Üst notalar: Kır çiçeği ve Böğürtlen; orta notalar: Isırgan otu, Devedikeni ve Kır çiçeği; alt notalar Orris kökü ve Kır çiçeği.",
   "description_enhanced": "Parfum d'Empire markasının Mal-Aimé parfümü, kadınlar ve erkekler için Aromatik Yeşil bir kokudur. Mal-Aimé, 2021 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Marc-Antoine Corticchiato. Üst notalar: Böğürtlen ve Kır çiçeği; orta notalar: Isırgan otu, Devedikeni ve Kır çiçeği; alt notalar Orris kökü ve Kır çiçeği.",
   "mainAccords": [
     {
@@ -16,52 +16,80 @@
     },
     {
       "name": "aromatik",
-      "width": "85.8646%"
+      "width": "86.0888%"
     },
     {
       "name": "iris",
-      "width": "57.5091%"
-    },
-    {
-      "name": "meyvemsi",
-      "width": "54.9697%"
+      "width": "57.8225%"
     },
     {
       "name": "bitkisel",
-      "width": "54.9697%"
+      "width": "54.5968%"
+    },
+    {
+      "name": "meyvemsi",
+      "width": "53.3871%"
     },
     {
       "name": "çiçeksi",
-      "width": "49.3409%"
+      "width": "49.4354%"
     },
     {
       "name": "pudralı",
-      "width": "46.5054%"
+      "width": "46.6936%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.96",
-    "votesCount": "431",
+    "votesCount": "455",
     "breakdown": {
-      "love": "179",
-      "like": "131",
-      "ok": "60",
+      "love": "186",
+      "like": "142",
+      "ok": "66",
       "dislike": "45",
       "hate": "16"
     }
   },
   "seasons": {
-    "winter": "21",
-    "spring": "172",
-    "summer": "157",
-    "autumn": "75",
-    "day": "149",
-    "night": "33"
+    "winter": "22",
+    "spring": "179",
+    "summer": "163",
+    "autumn": "77",
+    "day": "157",
+    "night": "35"
   },
   "notes": {
     "top": [
-      "Böğürtlen",
-      "Kır çiçeği"
+      "Kır çiçeği",
+      "Böğürtlen"
     ],
     "middle": [
       "Isırgan otu",
@@ -75,34 +103,99 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "29",
+    "moderate": "94",
+    "longLasting": "34",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "37",
+    "moderate": "94",
+    "strong": "20",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "9",
+    "unisex": "140",
+    "moreMale": "25",
+    "male": "8"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "60",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "8",
+    "overpriced": "32",
+    "fair": "66",
+    "goodValue": "32",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NİCO UYTTERHAEGEN",
+      "name": "Nononsense 2"
+    },
+    {
+      "brand": "UNİVERSAL FLOWERİNG",
+      "name": "Death Of A Ladies Man"
+    },
+    {
+      "brand": "AVON",
+      "name": "Blend 7"
+    },
+    {
+      "brand": "HİMA JOMO",
+      "name": "Spring in Bome"
+    },
+    {
+      "brand": "HERETİC PARFUM",
+      "name": "Smudge"
+    },
+    {
+      "brand": "WİENERBLUT",
+      "name": "Klubwasser"
+    },
+    {
+      "brand": "LE JARDİN RETROUVE",
+      "name": "Mousse Arashiyama"
+    },
+    {
+      "brand": "TO MY SHİPS",
+      "name": "Of The Gods"
+    },
+    {
+      "brand": "LUSH",
+      "name": "Princess Cottongrass"
+    },
+    {
+      "brand": "MİSKEO PARFUMS",
+      "name": "Feuille"
+    },
+    {
+      "brand": "EXALTATUM",
+      "name": "Pergola"
+    },
+    {
+      "brand": "STELLAR SCENTS",
+      "name": "South"
+    },
+    {
+      "brand": "GOUTAL",
+      "name": "Duel"
+    },
+    {
+      "brand": "COMME DES GARCONS",
+      "name": "Scent Two: Laurel"
+    },
+    {
+      "brand": "DS&DURGA",
+      "name": "Vio Volta"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "ETAT LİBRE D'ORANGE",
+      "name": "You Or Someone Like You"
+    },
     {
       "brand": "PARFUM D'EMPİRE",
       "name": "Corsica Furiosa"
@@ -121,11 +214,11 @@
     },
     {
       "brand": "PARFUM D'EMPİRE",
-      "name": "Azemour Les Orangers"
+      "name": "Vetiver Bourbon"
     },
     {
-      "brand": "LALİQUE",
-      "name": "Encre Noire"
+      "brand": "PARFUM D'EMPİRE",
+      "name": "Azemour Les Orangers"
     },
     {
       "brand": "PARFUM D'EMPİRE",
@@ -144,10 +237,6 @@
       "name": "Le Cri de la Lumière"
     },
     {
-      "brand": "HERMÈS",
-      "name": "Terre d'Hermès"
-    },
-    {
       "brand": "PARFUM D'EMPİRE",
       "name": "Aziyade"
     },
@@ -162,6 +251,208 @@
     {
       "brand": "SERGE LUTENS",
       "name": "Ambre Sultan"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent786477",
+      "author": "Ипостасия",
+      "date": "2026-01-09",
+      "text": "Yeşil üçlü PdE'den bu en zor, en ağır ve maalesef fiziksel olarak en rahatsız edici olanıydı.\nCorsica Furiosa - parlak, sulu, genç yeşillik, Vetiver Bourbon daha koyu, topraksı, ıslak ve ormanlık. Mal-Aimé ise ilaçlı, yapışkan ve yağlı. Sanki hepsi akraba gibi, ortak \"DNA\"ları izlenebiliyor, ama ruh halleri tamamen farklı. Sanki farklı mevsimler ve yaşam evreleri gibi. Hepsi prensipte doğal, saf ve temiz kokuyor, ama bu en çok işlenmiş, bir tür otlu acı bir karışım.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.494458.jpg"
+    },
+    {
+      "id": "parent786471",
+      "author": "PhilippeReno999",
+      "date": "2025-04-02",
+      "text": "Parfümün tarihi muhteşemdir ve Corticchiato'nun Youtube'da yayınladığı videoyu herkese izlemelerini tavsiye ederim.\nSadece atık malzemeler, parfümeride \"kötü otlar\" olarak adlandırılan malzemeler kullanarak bir yaratım yapmak istemek. Sandal ağacı yok, iris yok, vetiver yok, gül veya beyaz çiçekler yok. Bana gerçekten büyükannemin evinin arka bahçesini hatırlatıyor, her şeyin yetiştiği ve otların iki veya üç yılda bir kesildiği bahçeyi. Topun oraya düşerse, ısırgan otu gününü mahvederdi.\nRagnar'ın kokunun etkileyici olmadığını söylediğini anlıyorum, ben de aynı hissi paylaşıyorum. Ancak daha fazla enerji için risk, pelin otu gibi aromatik maddelere veya daha da kötüsü sıradan bir vetiver'e geri dönmek ve temel fikri ihanet etmekti. Oysa Mal-Aimè çok iyi olmasının yanı sıra her şeyden önce kendine sadık.\n\nYukarıda bahsedilen videodan çevrilen usta Corticchiato'nun şu sözlerini aktarıyorum:\n\n\"[...] Mal-Aimé'nin sınıflandırılamadığı için kafa karıştırıcı göründüğünü biliyorum\nçünkü sınıflandırılması imkansız.\nAma benim için önemli değil\nMal-Aimé doğal olarak asildir.\"",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.84700.jpg"
+    },
+    {
+      "id": "parent786460",
+      "author": "Dr B1414",
+      "date": "2025-03-02",
+      "text": "Farklı bir tür yeşil koku. Mal-Aimé bana öyle geliyor. Standart bitkisel yeşil kokulardan ziyade, kemik kurusu, otsu, topraksı bir parfüm gibi geliyor bana. Sanki çalıların içindeki özsu kurumuş gibi. Ayrıca, topraksı kokunun yanı sıra, ana bileşen olan kokulu Inula bitkisinin ortaya çıkardığı güçlü tuzlu ve misk kokusu da var. Isırgan otu, başlangıçta neredeyse aşındırıcı bir şekilde güçlü bir şekilde hissediliyor, ancak kısa sürede yumuşuyor. Benim cildimde böğürtlen akoru hiç hissedilmiyor. Sürekli çok kuru, çalı gibi, topraksı, sıcak, tuzlu ve misk kokuyor. Ben bu kokuyu çok seviyorum, ancak çoğu insan için bu kokuyu kullanmanın ve tadını çıkarmanın ne kadar zor olabileceğini kolayca anlayabiliyorum. Bu, Marc Antoine'ın en eşsiz ve en zorlu parfümü olabilir. Ruade, Tabac Tabou veya kimyon yüklü Oeilleres gibi değil, güneşin kavurduğu çayırların aromasını ne kadar canlı bir şekilde çağrıştırdığı açısından. Benim için, tüm iyi yapılmış kırsal parfümler gibi, derin bir nostalji kokusu. Yazın tarlalarda dolaşmayı, samanlıkta uyuklamayı ve pişmiş bebek ısırgan otu (inanılmaz lezzetli bir yerel yemek) yemeyi hatırlatıyor. Yeşil mi? Pek sayılmaz. Ben onu otsu, topraksı, kurak ve hiç tatlı olmayan bir koku olarak görüyorum. Tuzlu ve miskli yönleri onu daha çekici ve ilginç hale getiriyor. Sadece son derece benzersiz ve yaratıcı bir parfüm değil, aynı zamanda doğru kişi için zaman ve mekan arasında bir zaman tüneli. Kırsal parfüm severler için mutlaka denemesi gereken bir parfüm.\n\nIG:@memory.of.scents",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1199766.jpg"
+    },
+    {
+      "id": "parent786456",
+      "author": "2bClare",
+      "date": "2024-07-30",
+      "text": "Bu, şişeden çıktığı anda muhteşem bir yeşil ve acı tada sahiptir. Acı tadı çok güzeldir ancak uzun sürmez, daha yumuşak ama çok kuru, bitkisel ve güneşle ısınmış bir kokuya dönüşür ve tüm keskin bitki kokularını destekleyen belirgin bir yağlı iris alt tonu vardır. Bazı yeşil kokuların mavi bir özelliği de vardır, yeşili dengeleyen serinletici sulu yönleri vardır, ama bu kokuda öyle değil. Eğer bir şey söylemek gerekirse, yoğun kuru sıcaklık ve güneş ışığı ile zengin sarı notaları olduğunu söyleyebilirim. Kuraklığın ardından çok sıcak havalarda uzun otlar ve yabani otlarla dolu bir tarlada, nem eksikliği nedeniyle tüm yeşil aromatik kokular yoğunlaşıp sıcaklık onları havaya salarken\nBu kavrulmuş tarlada, yağmurun yaklaştığını haber veren geosmin yerine toz vardır. Mal-Aimé bir yön seçer ve buna tamamen bağlı kalır, ben de bunu saygıyla karşılıyorum. Bana göre bu koku kesinlikle mükemmel. Keşke biraz daha uzun süre kalıcı olsaydı.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1961281.jpg"
+    },
+    {
+      "id": "parent786470",
+      "author": "Barsoi91",
+      "date": "2024-06-25",
+      "text": "Benim için bu parfüm bir şaheser. Corticchiato'nun tüm koleksiyonu gibi.\nDaha önce hiç böyle bir şey duymadım, gerçekten çok güzel bir parfüm.\nOtlu, aromatik, son derece rafine, alıştığımız kokulardan tamamen farklı. Sevilen o kadar gösterişli parfümler kadar güçlü değil (entelektüel zarafet için marka adı vermiyorum). Ama benzersiz bir şey arıyorsanız, bu parfüm mükemmel. Şişede saklı bir mucize.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent786463",
+      "author": "Gauthyeah",
+      "date": "2024-06-08",
+      "text": "Mükemmel yeşil kokusu ile Mal-Aîmé, devedikeni ve ısırgan otu notalarıyla neredeyse sabit kalıyor, ayrıca adını bilmediğim (veya daha önce bir parfümde koklamadığım) diğer yabani otlar da var.\n\nBu alışılmadık ama şaşırtıcı derecede giyilebilir, çok yeşil ama çok keskin veya acı değil, tüm karışıma denge katan bazı çiçeklerin kokusunu alabilirsiniz. Dün giydim ve tüm gün cildimde kaldı, bu yeşil kokunun bu kadar uzun süre kalıcı olmasını gerçekten beklemiyordum, ama bu çok hoş bir sürpriz.\n\nBu koku bana çocukken tarlalarda veya Alplerde geçirdiğim günleri hatırlatıyor, uzun otlar ve yabani otlar serbestçe yayılmıştı, doğa ve doğada koşmak gibi kokuyor. Mal-Aîmé (Fransızca'da sevilmemiş anlamına gelir) şu anda en sevdiğim kokulardan biri, kesinlikle bayılıyorum.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2160164.jpg"
+    },
+    {
+      "id": "parent786469",
+      "author": "Ragnar",
+      "date": "2024-05-17",
+      "text": "Mal aimè gerçekten garip, özel, sıra dışı bir koku, burada garip derken olumlu anlamda kullanıyorum.\nCilde temas eder etmez, odunsu bir koku, odunsu meyan kökü kokusu, tam da meyan kökü çubuğu gibi bir koku yayar; aynı zamanda centiyana kökü kokusu da vardır. Ayrıca mürver, kuru rezene, çay ve diğer kurutulmuş otlar, bitki dükkanlarında çay yapmak için satılan otlar gibi kokar.\nGerçekten de, burun dibinde kurutulmuş otlarla dolu bir kutuyu açıyormuş gibi hissediyorum.\nKokunun ne kadar gerçekçi olduğu inanılmaz.\nBu koku uçucu, kısa süreli ve hemen kayboluyor.\nDaha önce denediğim hiçbir şeye benzemiyor ve çok büyüleyici.\nSadece ilk 5-10 dakika beni heyecanlandırıyor; geri kalanı cildimde klorofil suyu gibi.\nParfümeride genellikle kullanılmayan otları öne çıkaran bir ot kokusu yaratma fikrini çok seviyorum, ama eksik olan şey belirgin bir karakter; vahşi doğayı modern parfümerinin daha sakin zevklerine uydurmak mümkün değil.\nDaha fazla risk almak gerekiyordu, çünkü başlangıçta risk alınmış ve başarılı da olmuştu.\n\nGüzel, ama kaçak.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.it",
+      "avatar": "https://fimgs.net/mdimg/avatariit/m.42656.jpg"
+    },
+    {
+      "id": "parent786467",
+      "author": "ChypreInBloom",
+      "date": "2023-08-24",
+      "text": "Dokunduğumda, Mal-aimé tam istediğim gibi yeşil, biraz sert, ısırgan otunu tanıyorum ama tarlaları anımsatan bir sürü otu tanıyamıyorum, mükemmel.\n\nBüyük talihsizlik: cildimde, \"baharatlı\", neredeyse sıcak bir iris kökü gibi, en az bir saat boyunca cistus esansiyel yağı hissi uyandırıyor. Neyse ki, daha sonra biraz sakinleşiyor ve her şey çiçeksi, yabani bir iris haline geliyor. Ne yazık ki, sözleşme yok. Neredeyse giymekte zorlanıyorum, ne yazık ki.\n\nBenim kafam: Droopy\n\nAma ben bir savaşçıyım: birkaç hafta boyunca numunemi bitireceğim, hatta kötü havayı bekleyip kokunun nasıl değiştiğini göreceğim!",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.26479.jpg"
+    },
+    {
+      "id": "parent786461",
+      "author": "frankcrummit",
+      "date": "2023-02-23",
+      "text": "Kışın yeşil kokuları denemenin benim için zor olan yanı, bahçeye çıkıp yazın güzelliklerine kendimi kaptıramamanın verdiği hayal kırıklığıdır. Elimde sadece bu koku var - yazın bir hatırası. Bu kokudaki yeşiller taze değil; çoktan kesilmiş, çoktan solmuşlar. Ne yazık ki bu, kokladığım şeyin kuruluk, geçicilik ve evet, bazen de yapaylığını vurguluyor.\n\nMal-Aimé, mütevazı ve pek önemsenmeyen bahçe çiçeklerini kutlayan, iris kökü ilavesiyle hafif egzotik bir nota kazanan bir parfüm. Aynı markanın diğer muhteşem ürünü Immortelle Corse'dan biliyorum ki Marc-Antione Corticchiato, çiçekleri geçici olmaktan çıkarıp kolektif koku hafızasına arketipik bir şekilde hitap eden hatıralara dönüştürme konusunda usta bir simyacı. İşte, kırsal bir uyum yaratmak için tasarlanmış mütevazı bahçe çiçeklerinin bir karışımı: Bu, her bir çiçeğin en güzel halindeki kokusu değil, soyut, damıtılmış, hatta potpuri gibi bir koku. \"Yaz biter, çiçekler solur... ama güzellik, onun anısını koruyabilenler için kalıcıdır.\"\n\nMal-Aimé gibi bir kokuyu tatmak için bir taviz vermek gerekir. O anda, bahar veya yaz bahçesinin yeniden yaratılmış hissini ve hayal gücünüzde yankısını tadabilirsiniz, ama bunun sadece bir yeniden yaratma olduğunu, her ikisinin de geçici şeyler olduğunu kabul etmeniz gerekir. Kutsal Kitap'ta da söylendiği gibi, \"Bütün bedenler ot gibidir ve bütün ihtişamı ot çiçeği gibidir. Ot kurur, çiçek düşer.\"\n\nBenim gibi melankolik eğilimli kişiler için bu koku bir numara, ancak keyfi asla saf değildir.\n\nHer nefes alışta buna karşılık gelen bir iç çekiş vardır.\n\nGeçmişin hatırası,\nVe bir daha asla olmayacak olanların hatırası.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent786466",
+      "author": "Isabelle",
+      "date": "2023-01-21",
+      "text": "Gerçekten de, yabani otların kokularını yansıtan ve bize şimdiye kadar pek keşfedilmemiş bir dizi olasılık sunan bu parfüm, gerçek bir başarıdır.\nFragantica.com'da, John Biebel'in geçen yıl bu parfüme ayırdığı makalede JM Corticciato ile yapılan röportajdan bir alıntı yer alıyor:\n\"Fransızcada 'yabani otlar' denir. Bence bu haksızlık, çünkü yabani otlar cömert ve sağlık için birçok faydalı özelliğe sahiptir - örneğin, inule veya ısırgan otu gibi. Bahçemde, çalılıkların arasında yetişen yabani inule'yi koparmaya hiç gönlüm el vermedi.\" [...]\" Nehir kenarları, yamaçlar, vadiler ve boş araziler. Her yerde görülüyorlar. Hiçbir yerde kokuları hissedilmiyor. Onları öven hiçbir parfüm yok. Yine de, istenmedikleri için yabani ot olarak adlandırdığımız bu bitkiler kokuludur. Çünkü kendi başlarına, kendiliğinden, kaygısız, dayanıklı ve zaptedilemez bir şekilde büyüdüler. İnsanlar tarafından hor görülen, gerçek asaletlerini çekingenlikle koruyan ya da kimseden bir şey istemeyen marjinal insanlar gibi...\"\n\nİşte, bu parfümün tüm felsefesi burada yatıyor.\nCorsica Furiosa bizi maki bitkisinin kokusuna zaten alıştırmıştı, Mal aimé ise ekilmemiş bir ortamın sunabileceği her şeyin zengin (ama mükemmel bir şekilde kontrol edilmiş) bir karışımı. Nane notaları, daha kuru otsu notalar ve neredeyse yeşil biberi andıran daha meyveli notalarla karşılaşıyoruz. Tüm bunlar, kuru otları anımsatan parfümlerin bazen sahip olduğu \"şifalı bitki çayı\" havasına düşmeden.\nErigeron'u (bazı bahçecilik sitelerinde duvar papatyası olarak da bilinir) tanımıyorum, ama bu koku insanın bahçesine ekmek istemesi için yeterli...",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.529.jpg"
+    },
+    {
+      "id": "parent786465",
+      "author": "Eivor",
+      "date": "2023-01-20",
+      "text": "Sevilmeyen:\n\nBunu seviyorum!\n\nYeşilliklerle açılıyor, hafif nane ve çok yumuşak meyan kökü notalarıyla, ardından hızla kuru ot ve kuru dal notalarına geçiyor, hafifçe tütsülenmiş. Beklediğimden daha aromatik, çok yumuşak bir baharatlı tarafı da var, ama bu baharatlar bana yabancı... Güneşte kurutulmuş otlar, ağaçlar gibi esanslar yayıyor gibi görünüyor. Çiçeksi koku arka planda, yok değil ama çok çok hafif. Benim hayalimde, bu koku yaz sonunda güneşin ısıttığı maki bitkilerinin aromatik kokusu. Körleşmiş ve notaları bilmeden, bunun yumuşak aromatik bir odunsu koku olduğunu söylerdim, çok daha yeşil bir şey bekliyordum. Sonra küçük mentollü nota ve hafif dumanlı nota ara sıra geri geliyor. Kullanılan bitkilerin hepsini bilmiyorum ama bu, onları Korsika'nın doğasında yerinde keşfetme isteği uyandırıyor bende! Burada ısırgan otunu net olarak ayırt edemiyorum ve şimdi kokulu inule esansiyel yağının kokusunu keşfetmek için çok meraklanıyorum. Aslında, ara sıra bileğimi kokladığımda, burun deliklerimde \"mentollü\" bir ferahlık hissi duyuyorum ve bu his bronşlarıma kadar uzanıyor (bu, şiddetli nezle durumunda buhar tedavisi sırasında hissedilen hisse benziyor) ve bu bitki solunum sistemi tedavisinde faydalı özelliklere sahip. Ünlü vaporub'dan çok daha hoş ve ince bir koku! Bu bitki çok yumuşak ve ferah bir bitkisel kokuya sahiptir, sadece hissettiklerimi aktarmak için \"vaporub\" etkisiyle bağlantı kuruyorum, ancak bu çok ince bir koku ve zihnim onu çok hoş, çok keyifli bir hisle ilişkilendiriyor. Bu kokuyu korkarak almayın, tam tersine! Bileğimin üstünden hava soluduğumda, ciğerlerimi yumuşak ve saf aromatik bir hava ile dolduruyormuşum, onları çok nazikçe temizliyormuşum gibi hissediyorum. Aslında, bu his, esansiyel yağların buharlaştırıldığı bir odaya girdiğinizde hissedebileceğiniz hissi andırıyor, ancak çok daha hafif.\nBenim için son derece ilginç bir keşif, şimdiye kadar hiç böyle bir şey hissetmemiştim, ilk aşamalarında ince ve faydalı bir güç yayıyor.\nKesinlikle unisex olan bu koku, sadece entelektüel merak için bile olsa, kesinlikle denemeye değer.\nSözde sıradan veya yabani otlar olarak adlandırılan bitkilerin parfümeride, en azından niş parfümeride daha fazla kullanılmamasını üzücü buluyorum (kitlesel pazar için kârlı olmayacağını anlıyorum) ve yanından geçtiğimiz tüm koku hazinelerini hayal etmekten başka bir şey yapamıyorum...\nMarkanın web sitesine göre notalar şunlardır:\n\"Kokulu inula, nadir bulunan bir bitki (veya Inula graveolens), devedikenleri, ısırgan otları, böğürtlenler ve kökler.\nSaatler geçtikçe... kokulu inula, gülün kokusunu ve balın tatlılığını alır. Ayrıca odunsu, tuzlu ve misk kokusu da ortaya çıkar.\"\nEvet, kesinlikle çok ince bir koku. Odunsu koku üzerimde çok kuru kalıyor ve her zaman bu hafif dumanlı koku var. Böğürtlenin meyveli kokusu yok, bence burada böğürtlenin meyvesinden çok çalıların kokusu var.\n\nGüzel, güzel, güzel...",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.fr",
+      "avatar": "https://fimgs.net/mdimg/avatarifr/m.32224.jpg"
+    },
+    {
+      "id": "parent786484",
+      "author": "denever_nocek",
+      "date": "2022-07-24",
+      "text": "Güzel, doğal, hatta doğalcı yeşil otlar. Bu parfümlerden yeşillik fışkırıyor, ezilmiş bitki parçaları, bol miktarda bitki suyu ve çiçekler karıştırılmış gibi kokuyorlar (hiçbir aşamada böğürtlen kokusu almadım, yazık, çünkü çok ilginç olabilirdi, ama neyse, olduğu gibi iyi). Benim için bir başyapıt.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.41715.jpg"
+    },
+    {
+      "id": "parent786455",
+      "author": "alphairone",
+      "date": "2022-04-20",
+      "text": "Parfüm yapımına merak saldığımda, ne yazık ki kapanan White Lotus Aromatics'ten satın aldığım erigeron (fleabane) esansiyel yağının kullanımını düşündüm. Fleabane çiçekleri, çayırları veya hatta terk edilmiş arazileri incelemiş olan herkesin aşina olduğu, gruplar halinde yetişen minik, papatya benzeri çiçeklerdir. Bir yerde, bu esansiyel yağın \"koku dünyasının gizli hazinelerinden biri\" olduğu yazıyordu, bu yüzden onu denemek zorundaydım. Pastoral niteliği, parlak, eterik bir yabani çiçek kokusu ve kökümsü, kerevizimsi alt tonuyla beni hayrete düşürdü.\n\nDeneyimlerim sırasında, onu bir kompozisyona nasıl etkili bir şekilde entegre edebileceğimi tam olarak bilmiyordum, ancak birkaç yıl sonra, Marc-Antoine Corticchiato (dün incelediğim Oeillères'i de besteleyen kişi) onu Mal-Aimé'ye ustaca dahil etti. Ayrıca, Akdeniz'e özgü, aromatik ve aromaterapik bir bitki olan, güzel ve canlı bir turkuaz rengi olan Inula Gravolens'i de eklemiş. Ayrıca, bitkisel, nanemsi, keskin ve tonik özelliklere sahip ısırgan otu da var.\n\nMal-Aimé, keşke ben yaratabilseydim dediğim bir koku, çünkü sık sık ot (o tür ot değil) kokusu yaratma fikri aklıma geliyordu, klasik ya da modern parfümeride yerini bulamamış tüm aromatik bitkileri sergileyen bir koku. Özellikle, klinik aromaterapide daha yaygın olarak kullanılan uçucu yağları kullanma fikri beni çok cezbetmişti. Corticchiato, Mal-Aimé ile bunu başardı. Bu parfümde galbanum ya da çim kokusu değil, otların, tatlı, keskin, tıbbi, eterik, damıtılmış klorofil gibi, güneşte kurutulmuş yabani çiçeklerin tüm yeşilliği var.\n\nKalbimde, sevdiğim iki şeyi hatırlıyorum: taze ve damıtılarak şurup haline getirilip maden suyuna eklenen mürver çiçekleri ve Dr. Brown's Cel-Ray sodası. Evet, bilenler bilir, kült bir favori olan kereviz aromalı bir soda vardır ve bu bana onun tadını ve aromasını hatırlatıyor. Bu aşamada tıbbi ve keskin koku biraz yumuşuyor ve kurudukça biraz daha tatlı, pudra gibi, rizomatöz bir hale geliyor. Bu, baz notadaki iris kökü olmalı, belki biraz Orivone ve Irival ile güçlendirilmiş (parfümeri meraklıları için).\n\nBana çok hitap eden muhteşem bir yaratım. Keşke Corticchiato'dan önce alabilseydim!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1213298.jpg"
+    },
+    {
+      "id": "parent786489",
+      "author": "Bajav",
+      "date": "2021-12-27",
+      "text": "Gerçekçi yeşillik - Mal Aimé'den bahsediyoruz. Açılışta, çiçeksiz, sulu genç yeşillikler var. Bazen koparılmış otların kokusunu andırıyor. Kalbinde ısırgan otu ve devedikeni var, bazen sardunya ve nane notaları da ortaya çıkıyor - farklı yönleriyle parıldıyor. Biraz yoğun bir orta nota ortaya çıkıyor, ancak baskıcı değil. Yavaş yavaş, iris kökünün iyi duyulduğu bir baz ortaya çıkıyor: yeşil bir yönü olan zarif, tatlı bir pudra. Böyle bir kompozisyonla daha önce karşılaşmamıştım, çok ilginç bir yeşil parfüm. Kalıcılığı 8-9 saat, düzgün bir iz bırakıyor.\n\nAslında kompozisyonun arkasındaki fikir, otlara karşı küçümseyici tavrı, daha doğrusu parfümeride bu tavrın eksikliğini düzeltmek. İlginç bir kompozisyon ortaya çıktı, üstelik giyilebilir. Sadece nereye giyeceğimi bilmiyorum, çünkü benim aklımda ya ezilmiş otlar ya da halk hekimliğinden bir çeşit kaynatma geliyor. Her şey çok doğal geliyor, aslında sorun da bu. Çok gerçekçi - ve bu yüzden onu kullanmak istemiyorum. Ukrayna gerçeklerinde yanlış çağrışımlar uyandırıyor.\n\nEklemeliyim ki, bu parfümün bir ay bekletilmesi gerekiyor, aksi takdirde bahçeden koparılmış otlar gibi kokuyor. Ama bekletildikten sonra çok daha iyi açılıyor - evet, otlar gibi, ama artık bahçede değil, serbest vahşi bir tarlada.",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.ua",
+      "avatar": "https://fimgs.net/mdimg/avatariua/m.9429.jpg"
+    },
+    {
+      "id": "parent786462",
+      "author": "Damu",
+      "date": "2021-09-22",
+      "text": "Açılışta çok yeşil, sonra kurur. Gerçekçi, romantik ve zarif kokar. Bu parfümü şık kıyafetlerle, ideal olarak tüvit veya o kır evi tarzının modern varyasyonlarıyla birlikte kullanırdım.\nBu parfümün teması ve konsepti tam isabet: Yabani otlar, beton ormanından uzaklaşmak için kırsalda yürüyüşe çıktığımızda keyif aldığımız \"doğanın kokusu\"nun büyük bir kısmını oluşturur. Yine de çok az değer verilirler. Umarım bunun bir fb'sini bulabilirim.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1224416.jpg"
+    },
+    {
+      "id": "parent786459",
+      "author": "ingeneuxo",
+      "date": "2021-08-14",
+      "text": "-Tıbbi ve garip bir koku yayar, ancak bir şekilde taze bir his verir.\n-Kurutulmuş otları andırıyor. Belki de buğday çimi takviyeleri?\n-İlginç bir şekilde kurur. Yerba Mate çay yapraklarını hatırlatıyor!\n-*Kuruduktan sonra güncelleme* 16 saat sonra kuruduktan sonra daha çok bebek pudrasını andırıyor.\n-Parfum d'Empire'ın ürünlerinden kesinlikle denemeye değer bir parfüm. (-)",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1280821.jpg"
+    },
+    {
+      "id": "parent786483",
+      "author": "Edi",
+      "date": "2021-08-07",
+      "text": "Çok yeşil ve aynı zamanda çok sıradışı.\nBaşlangıçta keskin, buruk, yeşil, ezilmiş ve ıslak kokular patlar, kırılmış daldan damlayan yeşil meyve suları ile ilişkilendirilir - ancak kuruduktan sonra kuru otlar, saman, kuru veya acı kurumuş tarla çiçeklerine daha yakındır.\nBu koku, doğal, çayır, kırsal ve alışılmadık bir zarafet sevenler için ideal.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.pl",
+      "avatar": "https://fimgs.net/mdimg/avataripl/m.3890.jpg"
+    },
+    {
+      "id": "parent786476",
+      "author": "gdeev",
+      "date": "2021-06-29",
+      "text": "O kadar doğru bir yeşil ki, bu şaşırtıcı ve harika!\nEtiketin derin ve doygun yeşil rengiyle tam uyumlu.\nŞahsen ben Corsica Furiosa ile değil (o benim için çok acı ve daha çok domates yaprağı gibi), yakın zamanda çıkan Salute! ile daha fazla benzerlik görüyorum: burada çok benzer bir temel var ve genel olarak, Cortigiatto'nun yeni eserlerinin ortak DNA'sı çok iyi hissediliyor, tıpkı PdE'nin önceki (koşullu olarak şipralı) kokuları Azemour, Eau de Gloire, Iskander ve Yuzu Fou arasında ortak bir şey olması gibi.\nBicubic'e tamamen katılıyorum. Kendi adıma eklemek isterim ki, böğürtlen hakkında okuduktan sonra, kompozisyonun ilk akorlarında onu gerçekten tanıdım! Ama benim için nane daha belirgin. Bazen Ambre Russe'de periyodik olarak votka ortaya çıktığı gibi, geçici bir çınlama gibi kayıyor.\nCortigiatto bir dahi, şüphesiz! Aroma aynı anda yenilikçi, taze (her anlamda), ama aynı zamanda kesinlikle giyilebilir ve sadece hoş.\nNe kadar memnunum!\nGüncelleme: Bir gün boyunca tam olarak giydikten sonra, bu topraksı asiditesinin Sienne l'Hiver'i çok andırdığını anladım. Ve bicubic'in çok güzel yazdığı o iris, Le Cri de la Lumiere'den çıkmış gibi!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.167296.jpg"
+    },
+    {
+      "id": "parent786458",
+      "author": "Jacobean Lily",
+      "date": "2021-06-23",
+      "text": "Daha önce hiç karşılaşmadığım ve büyüleyici olan keskin aromatik küflü parfümün ilk patlamasını çok seviyorum. 3 dakika içinde kaybolur ve ezilmiş yeşil saplılığın keskin, ferahlatıcı kokusuna dönüşür.\nMal-Aimee'nin ömrü boyunca keskin koku yükselir ve kaybolur, ancak sadece ilk 3 dakika beni heyecanlandırır; cildimde kaldığı süre boyunca ise, yakalanması zor, hafif keskin bir klorofil kokusu hissedilir.\nOt parfümü fikrini çok seviyorum, ancak bu parfümde eksik olan şey, iddialı bir karakter; sanki vahşi doğası koparılıp, yerine kibar bir uyum getirilmiş gibi.\nHer solmuş güzelliğin görkemli bir şey ortaya çıkardığı gibi, bu da aynı şekilde ilginçliğini koruyor. Keşke Parfum d'Empire, ömrü boyunca utanmadan vahşi kalmış olsaydı.\n\nDamıtma:\naromatik yeşil\nklorofil kokusu\notlara nazik bir övgü",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1262225.jpg"
+    },
+    {
+      "id": "parent786473",
+      "author": "bicubic",
+      "date": "2021-06-07",
+      "text": "Sıradan olmayan, yeni ve alışılmadık notalar içeren bir kompozisyonla karşılaşmak ne kadar da hoş. Bu, en sevdiğiniz markalardan biri tarafından piyasaya sürüldüğünde iki kat daha hoş! Çok ilginç bir deneyim, benzer bir şeyi hatırlamaya çalışmıyorsunuz, çünkü o ana kadar böyle bir şeyle karşılaşmamışsınız. Sadece kişisel hisler ve imgeler.\n\nCorticozato, Mal-Aime'yi (sevimsiz) L'Heritage Corse koleksiyonuna, sevgili Korsika'ya bir başka adanmışlık olarak dahil etti.Bu seferki hikaye, güneşin kavurduğu, bize bilinmeyen yabani otların, daha doğrusu yabani otların bolca yetiştiği bir çayır hakkında. Genellikle onları fark etmiyoruz, ezip geçiyoruz, bir an önce onlardan kurtulmaya çalışıyoruz ve kesinlikle nasıl koktuklarını bilmiyoruz. Parfümcü bize, memleketi adasının \"gösterişli-turistik\" yeşilliğini değil, onun gizli, göze çarpmayan yeşil yüzlerini, iç yüzünü ve köklerini keşfetmemizi öneriyor. Başrolde, kompozisyonun tüm aşamalarından geçen Inula (Devyasil) var. Bu bileşen parfümeride ilk kez kullanılıyor.\n\nInula'nın nasıl koktuğunu hiç bilmiyorum, ama yeşil tonların paleti burada çok güzel olmuş... zehirli yeşil yapraklardan bataklık rengi köklere kadar. Başlangıç oldukça keskin, güçlü bir buruk-parlak yeşillik yüklemesi, ben sürekli böğürtlen kokusunu yakalamaya çalıştım, ama başaramadım)) Güneşin kavurduğu çayır, tanıdık olmayan kokulu otlar ve kuru çiçekler hissi. Yeşillik oldukça hızlı bir şekilde yoğunlaşıyor ve koyulaşıyor, nane tonu ortaya çıkıyor, bir anda fesleğen ve sardunyaların acılığını net bir şekilde duyuyorum. Yoğunluğuna rağmen, tüm bunlar taze algılanıyor, boğucu değil. Immortelle Corse'da da benzer bir tablo var, tüm kurulukuna rağmen, hava ve titreşim hissi var. Yapraklardan köklerine geçiyoruz, tütün ve bal tonları var. Yağmur sonrası nemli toprak kokuyor ve tuzlu tadı adayı çevreleyen Akdeniz'i hatırlatıyor.\nTaban notasında irisin ortaya çıkışı, sıra dışı ve güzel bir hamle...\nDüşünün, beyaz atlı bir asilzade, tarlada otları ayıklayan köylüleri beklenmedik bir şekilde ziyaret etti. Köylüler daha fazla olduğu için, misafir onların arasında biraz kayboldu, ancak iyi tavırları ve duruşu fark edilemezdi.\n\nYabani otlar toprağa nüfuz ettiği gibi, koku da cilde derinlemesine nüfuz eder ve 5-6 saat kalır, izi düzgündür. Tabii ki, aynı koleksiyondaki Corsica Furiosa ile paralellikler kurulabilir, ancak Furiosa tanınabilir, anlaşılır bir yeşillik kokusu iken, Mal-Aime daha çok underground bir koku. Harika bir parfüm olmuş, kokunun her gün ve herkes tarafından beğenileceğinden emin değilim, ama bu çok ilginç, sıradan olmayan bir çalışma. Kortikya, cesaretin, yaratıcı özgürlüğün ve denemen için büyük saygı duyuyorum!\n\nÜst notalar: inula, böğürtlen\nOrta notalar: inula, ısırgan otu absolü, devedikeni\nAlt notalar: inula, iris kökü",
+      "sentiment": "violet",
+      "gradient": "tw-gradient-violet",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.88853.jpg"
     }
   ]
 }

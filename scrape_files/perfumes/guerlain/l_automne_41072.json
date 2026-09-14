@@ -31,11 +31,11 @@
       "width": "58%"
     },
     {
-      "name": "yosunlu",
+      "name": "pudralı",
       "width": "57.5%"
     },
     {
-      "name": "pudralı",
+      "name": "yosunlu",
       "width": "57.5%"
     },
     {
@@ -66,7 +66,7 @@
     "winter": "2",
     "spring": "0",
     "summer": "0",
-    "autumn": "4",
+    "autumn": "5",
     "day": "3",
     "night": "1"
   },
@@ -87,38 +87,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "0",
-    "longLasting": "0",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "0",
-    "strong": "2",
-    "enormous": "2"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "0",
-    "unisex": "0",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "0",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "HERMÈS",
-      "name": "Hermessence Vetiver Tonka"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -180,5 +175,6 @@
       "brand": "LACOSTE FRAGRANCES",
       "name": "Lacoste Pour Femme"
     }
-  ]
+  ],
+  "comments": []
 }

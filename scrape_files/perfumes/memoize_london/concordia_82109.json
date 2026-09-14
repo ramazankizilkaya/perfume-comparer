@@ -37,6 +37,34 @@
     {
       "name": "misk",
       "width": "45.6326%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,33 +110,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "2",
+    "moderate": "6",
+    "longLasting": "3",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "6",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "5",
+    "moreFemale": "4",
+    "unisex": "8",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "4",
     "fair": "7",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "BYREDO",
+      "name": "Pulp"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "CK IN2U for Her"
+    },
+    {
+      "brand": "THE BODY SHOP",
+      "name": "Dewberry Perfume Oil"
+    },
+    {
+      "brand": "LAURENT MAZZONE PARFUMS",
+      "name": "Sine Die"
+    },
+    {
+      "brand": "MOLTON BROWN",
+      "name": "Muddled Plum"
+    },
+    {
+      "brand": "KAJAL",
+      "name": "Almaz"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "XERJOFF",
@@ -170,5 +223,6 @@
       "brand": "CASAMORATİ 1888",
       "name": "Dama Bianca"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "misk",
+      "name": "odunsu",
       "width": "66.75%"
     },
     {
-      "name": "odunsu",
+      "name": "misk",
       "width": "66.75%"
     },
     {
@@ -29,6 +29,34 @@
     {
       "name": "narenciye",
       "width": "43.125%"
+    },
+    {
+      "name": "Sadece online satın alın 4 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,33 +91,70 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "7",
+    "longLasting": "1",
+    "eternal": "5"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "2",
+    "moderate": "7",
+    "strong": "5",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "3",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MARC JACOBS",
+      "name": "Blush"
+    },
+    {
+      "brand": "KATE SPADE",
+      "name": "In Full Bloom"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Pur Desir de Fleur d'Oranger"
+    },
+    {
+      "brand": "AERİN",
+      "name": "Ikat Jasmine"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Jasmin Rouge"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Curious"
+    },
+    {
+      "brand": "D'ANNAM",
+      "name": "In The Garden"
+    },
+    {
+      "brand": "LUSH",
+      "name": "Lust"
+    },
+    {
+      "brand": "RİTUALS",
+      "name": "L'Essence"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "MUGLER",
@@ -151,5 +216,6 @@
       "brand": "DİOR",
       "name": "Hypnotic Poison"
     }
-  ]
+  ],
+  "comments": []
 }

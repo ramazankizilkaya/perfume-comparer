@@ -33,6 +33,34 @@
     {
       "name": "yeşil",
       "width": "45.9091%"
+    },
+    {
+      "name": "Online satın alın 14 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -48,10 +76,10 @@
   },
   "seasons": {
     "winter": "6",
-    "spring": "19",
-    "summer": "19",
+    "spring": "20",
+    "summer": "20",
     "autumn": "7",
-    "day": "19",
+    "day": "20",
     "night": "9"
   },
   "notes": {
@@ -71,7 +99,7 @@
     "weak": "7",
     "moderate": "7",
     "longLasting": "4",
-    "eternal": "4"
+    "eternal": "5"
   },
   "sillage": {
     "intimate": "5",
@@ -83,7 +111,7 @@
     "female": "1",
     "moreFemale": "0",
     "unisex": "3",
-    "moreMale": "15",
+    "moreMale": "16",
     "male": "3"
   },
   "priceVoting": {
@@ -99,16 +127,12 @@
       "name": "Vibrant Leather Bogoss"
     },
     {
-      "brand": "VALENTİNO",
-      "name": "Valentino Uomo Born In Roma Yellow Dream"
-    },
-    {
       "brand": "JEAN PAUL GAULTİER",
       "name": "Le Beau Le Parfum"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Greenley"
+      "brand": "VALENTİNO",
+      "name": "Valentino Uomo Born In Roma Yellow Dream"
     },
     {
       "brand": "ZARA",
@@ -121,6 +145,10 @@
     {
       "brand": "ZARA",
       "name": "Zara Man Gold"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Greenley"
     },
     {
       "brand": "VERSACE",
@@ -212,5 +240,6 @@
       "brand": "AMOUAGE",
       "name": "Reflection Man"
     }
-  ]
+  ],
+  "comments": []
 }

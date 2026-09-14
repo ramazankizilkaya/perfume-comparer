@@ -49,14 +49,42 @@
     {
       "name": "yumuşak baharatlı",
       "width": "47.3192%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "4.12",
-    "votesCount": "131",
+    "votesCount": "130",
     "breakdown": {
       "love": "44",
-      "like": "73",
+      "like": "72",
       "ok": "1",
       "dislike": "12",
       "hate": "1"
@@ -89,34 +117,91 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "13",
+    "moderate": "36",
+    "longLasting": "4",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "36",
+    "strong": "8",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "7",
+    "unisex": "9",
+    "moreMale": "2",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "2",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "15",
+    "greatValue": "3"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani Lei"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "BLV"
+    },
+    {
+      "brand": "LANCÔME",
+      "name": "Aroma Calm"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Musc Sândalo"
+    },
+    {
+      "brand": "MAHOGANY",
+      "name": "Lavanda & Algodão"
+    },
+    {
+      "brand": "JAFRA",
+      "name": "Eau d'Arômes"
+    },
+    {
+      "brand": "QUEM DİSSE BERENİCE",
+      "name": "Ovelha Sem Igual"
+    },
+    {
+      "brand": "LOLİTA LEMPİCKA",
+      "name": "Lolita Lempicka Au Masculin"
+    },
+    {
+      "brand": "PRADA",
+      "name": "Luna Rossa"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Amora Vermelha e Jabuticaba"
+    },
+    {
+      "brand": "GİORGİO ARMANİ",
+      "name": "Emporio Armani White For Her"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Kriska Jeans"
+    },
+    {
+      "brand": "MARACUJÁ BRASİL",
+      "name": "Bleu 2.0"
+    }
+  ],
   "peopleAlsoLike": [
+    {
+      "brand": "NATURA",
+      "name": "Algodão"
+    },
     {
       "brand": "NATURA",
       "name": "Mamãe e Bebê"
@@ -162,20 +247,17 @@
       "name": "Jabuticaba"
     },
     {
-      "brand": "NATURA",
-      "name": "Humor 1"
-    },
-    {
       "brand": "DİOR",
       "name": "Pure Poison"
     },
     {
-      "brand": "MUGLER",
-      "name": "Angel"
-    },
-    {
       "brand": "LOLİTA LEMPİCKA",
       "name": "Lolita Lempicka"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Frescor de Açaí"
     }
-  ]
+  ],
+  "comments": []
 }

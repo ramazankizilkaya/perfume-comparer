@@ -41,6 +41,10 @@
     {
       "name": "meyvemsi",
       "width": "46.8966%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -74,34 +78,35 @@
     "base": [
       "Agar ağacı (Oud)",
       "kırmızı frenk üzümü"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "0",
-    "moderate": "1",
-    "longLasting": "1",
-    "eternal": "4"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "2",
-    "moderate": "1",
-    "strong": "3",
-    "enormous": "5"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "1",
-    "unisex": "3",
-    "moreMale": "1",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "2",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
   "remindsMeOf": [],
   "peopleAlsoLike": [
@@ -146,12 +151,12 @@
       "name": "1270"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Lyric Woman"
-    },
-    {
       "brand": "BYREDO",
       "name": "Bal d'Afrique"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Lyric Woman"
     },
     {
       "brand": "LALİQUE",
@@ -165,5 +170,6 @@
       "brand": "BY KİLİAN",
       "name": "Back to Black"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Rimin-Modern-97514.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Rimin Modern parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Rimin Modern, 2023 yılında piyasaya sürüldü. Üst notalar: Müge, Frenk üzümü, Şakayık ve Aldehitler; orta notalar: Sümbülteber, Yasemin, Şeftali ve Gül; alt notalar Menekşe, Amber, Misk ve Yosun.",
-  "description_original": "Rasasi markasının Rimin Modern parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Rimin Modern, 2023 yılında piyasaya sürüldü. Üst notalar: Müge, Frenk üzümü, Şakayık ve Aldehitler; orta notalar: Sümbülteber, Yasemin, Şeftali ve Gül; alt notalar Menekşe, Amber, Misk ve Yosun.",
+  "description_original": "Rasasi markasının Rimin Modern parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Rimin Modern, 2023 yılında piyasaya sürüldü. Üst notalar: Müge, Siyah Frenk Üzümü, Şakayık ve Aldehitler; orta notalar: Sümbülteber, Yasemin, Şeftali ve Gül; alt notalar Menekşe, Amber, Misk ve Yosun.",
   "description_enhanced": "Rasasi markasının Rimin Modern parfümü, kadınlar için Çiçeksi Meyvemsi bir kokudur. Rimin Modern, 2023 yılında piyasaya sürüldü. Üst notalar: Müge, Frenk üzümü, Şakayık ve Aldehitler; orta notalar: Sümbülteber, Yasemin, Şeftali ve Gül; alt notalar Menekşe, Amber, Misk ve Yosun.",
   "mainAccords": [
     {
@@ -25,6 +25,34 @@
     {
       "name": "yeşil",
       "width": "44%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -39,7 +67,7 @@
     }
   },
   "seasons": {
-    "winter": "0",
+    "winter": "1",
     "spring": "0",
     "summer": "0",
     "autumn": "0",
@@ -49,7 +77,7 @@
   "notes": {
     "top": [
       "Müge",
-      "Frenk üzümü",
+      "Siyah Frenk Üzümü",
       "Şakayık",
       "Aldehitler"
     ],
@@ -68,32 +96,54 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "0",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "0",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "0",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": []
+  "remindsMeOf": [
+    {
+      "brand": "BOB MACKİE",
+      "name": "Mackie"
+    },
+    {
+      "brand": "PERRY ELLİS",
+      "name": "18 Sensual"
+    },
+    {
+      "brand": "ELİZABETH ARDEN",
+      "name": "Red Door"
+    },
+    {
+      "brand": "GİORGİO BEVERLY HİLLS",
+      "name": "Giorgio"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Princess Noir"
+    }
+  ],
+  "peopleAlsoLike": [],
+  "comments": []
 }

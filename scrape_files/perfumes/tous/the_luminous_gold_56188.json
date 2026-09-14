@@ -49,13 +49,41 @@
     {
       "name": "yumuşak baharatlı",
       "width": "57.4202%"
+    },
+    {
+      "name": "Sadece online satın alın 3 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.81",
-    "votesCount": "84",
+    "score": "3.82",
+    "votesCount": "85",
     "breakdown": {
-      "love": "22",
+      "love": "23",
       "like": "35",
       "ok": "16",
       "dislike": "11",
@@ -64,7 +92,7 @@
   },
   "seasons": {
     "winter": "14",
-    "spring": "42",
+    "spring": "43",
     "summer": "26",
     "autumn": "31",
     "day": "41",
@@ -93,33 +121,90 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "5",
+    "weak": "3",
+    "moderate": "26",
+    "longLasting": "13",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "26",
+    "strong": "12",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "37",
+    "moreFemale": "3",
+    "unisex": "1",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "4",
     "fair": "16",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "17",
+    "greatValue": "5"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez For Her"
+    },
+    {
+      "brand": "TOUS",
+      "name": "Touch"
+    },
+    {
+      "brand": "ORİFLAME",
+      "name": "Giordani Gold White Original"
+    },
+    {
+      "brand": "JİMMY CHOO",
+      "name": "Jimmy Choo"
+    },
+    {
+      "brand": "PARİS HİLTON",
+      "name": "Luxe Rush"
+    },
+    {
+      "brand": "CLİNİQUE",
+      "name": "Clinique Happy For Women"
+    },
+    {
+      "brand": "TOUS",
+      "name": "Sensual Touch"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Miss Dior Parfum (2024)"
+    },
+    {
+      "brand": "TOMMY HİLFİGER",
+      "name": "Tommy Girl"
+    },
+    {
+      "brand": "NARCİSO RODRİGUEZ",
+      "name": "Narciso Rodriguez for Her Eau de Parfum"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Yellow Diamond"
+    },
+    {
+      "brand": "BY KİLİAN",
+      "name": "Good Girl Gone Bad"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Ange Ou Demon Le Secret Eau de Toilette"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "name": "Incanto Bloom (2014)"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TOMMY HİLFİGER",
@@ -128,10 +213,6 @@
     {
       "brand": "NARCİSO RODRİGUEZ",
       "name": "Narciso Rodriguez For Her"
-    },
-    {
-      "brand": "TRUSSARDİ",
-      "name": "Trussardi Donna (2011)"
     },
     {
       "brand": "JEAN PAUL GAULTİER",
@@ -166,6 +247,10 @@
       "name": "Euphoria"
     },
     {
+      "brand": "KENZO",
+      "name": "Flower by Kenzo"
+    },
+    {
       "brand": "MONTBLANC",
       "name": "Signature"
     },
@@ -181,5 +266,6 @@
       "brand": "SARAH JESSİCA PARKER",
       "name": "Lovely"
     }
-  ]
+  ],
+  "comments": []
 }

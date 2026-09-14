@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/O-Boticario/Body-Splash-Floratta-Rose-69533.html",
   "brand": "O Boticário parfüm ve kolonya",
   "description": "O Boticário markasının Body Splash Floratta Rose parfümü, kadınlar için Çiçeksi bir kokudur. Body Splash Floratta Rose, 2021 yılında piyasaya sürüldü. Üst notalar: Mandalina, Pembe biber, Frenk üzümü yaprağı ve tomurcuğu, Şeftali ve Meyvemsi Notlar; orta notalar: Gül, Müge, Gardenya ve Ylang-Ylang; alt notalar Sedir, Misk ve Sandal ağacı.",
-  "description_original": "O Boticário markasının Body Splash Floratta Rose parfümü, kadınlar için Çiçeksi bir kokudur. Body Splash Floratta Rose, 2021 yılında piyasaya sürüldü. Üst notalar: Mandalina, Pembe biber, Frenk üzümü yaprağı ve tomurcuğu, Şeftali ve Meyvemsi Notlar; orta notalar: Gül, Müge, Gardenya ve Ylang-Ylang; alt notalar Sedir, Misk ve Sandal ağacı.",
+  "description_original": "O Boticário markasının Body Splash Floratta Rose parfümü, kadınlar için Çiçeksi bir kokudur. Body Splash Floratta Rose, 2021 yılında piyasaya sürüldü. Üst notalar: Mandalina, Pembe biber, Siyah Frenk Üzümü, Şeftali ve Meyvemsi Notlar; orta notalar: Gül, Müge, Gardenya ve Ylang-Ylang; alt notalar Sedir, Misk ve Sandal ağacı.",
   "description_enhanced": "O Boticário markasının Body Splash Floratta Rose parfümü, kadınlar için Çiçeksi bir kokudur. Body Splash Floratta Rose, 2021 yılında piyasaya sürüldü. Üst notalar: Mandalina, Pembe biber, Frenk üzümü yaprağı ve tomurcuğu, Şeftali ve Meyvemsi Notlar; orta notalar: Gül, Müge, Gardenya ve Ylang-Ylang; alt notalar Sedir, Misk ve Sandal ağacı.",
   "mainAccords": [
     {
@@ -49,32 +49,60 @@
     {
       "name": "meyvemsi",
       "width": "54.9537%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.09",
-    "votesCount": "53",
+    "score": "4.07",
+    "votesCount": "54",
     "breakdown": {
       "love": "16",
       "like": "29",
-      "ok": "5",
+      "ok": "6",
       "dislike": "3",
       "hate": "0"
     }
   },
   "seasons": {
     "winter": "9",
-    "spring": "26",
-    "summer": "29",
+    "spring": "27",
+    "summer": "30",
     "autumn": "14",
-    "day": "37",
+    "day": "38",
     "night": "15"
   },
   "notes": {
     "top": [
       "Mandalina",
       "Pembe biber",
-      "Frenk üzümü yaprağı ve tomurcuğu",
+      "Siyah Frenk Üzümü",
       "Şeftali",
       "Meyvemsi Notlar"
     ],
@@ -92,20 +120,20 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "11",
+    "veryWeak": "12",
     "weak": "20",
     "moderate": "9",
     "longLasting": "0",
     "eternal": "0"
   },
   "sillage": {
-    "intimate": "25",
+    "intimate": "26",
     "moderate": "9",
     "strong": "2",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "29",
+    "female": "30",
     "moreFemale": "1",
     "unisex": "3",
     "moreMale": "0",
@@ -114,7 +142,7 @@
   "priceVoting": {
     "wayOverpriced": "0",
     "overpriced": "0",
-    "fair": "5",
+    "fair": "6",
     "goodValue": "15",
     "greatValue": "7"
   },
@@ -170,6 +198,10 @@
       "name": "Floratta in Blue"
     },
     {
+      "brand": "O BOTİCÁRİO",
+      "name": "Lily Eau de Parfum"
+    },
+    {
       "brand": "NATURA",
       "name": "Humor 1"
     },
@@ -204,10 +236,7 @@
     {
       "brand": "NATURA",
       "name": "Algodão"
-    },
-    {
-      "brand": "CAROLİNA HERRERA",
-      "name": "Good Girl"
     }
-  ]
+  ],
+  "comments": []
 }

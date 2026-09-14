@@ -49,21 +49,49 @@
     {
       "name": "menekşe",
       "width": "57.4019%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.42",
-    "votesCount": "33",
+    "score": "4.33",
+    "votesCount": "39",
     "breakdown": {
-      "love": "23",
-      "like": "3",
-      "ok": "6",
+      "love": "26",
+      "like": "4",
+      "ok": "7",
       "dislike": "0",
-      "hate": "1"
+      "hate": "2"
     }
   },
   "seasons": {
-    "winter": "18",
+    "winter": "19",
     "spring": "4",
     "summer": "1",
     "autumn": "15",
@@ -86,38 +114,47 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "1",
+    "longLasting": "3",
+    "eternal": "11"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "1",
+    "strong": "5",
+    "enormous": "8"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "13",
+    "moreMale": "3",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "6",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "4",
+    "fair": "7",
+    "goodValue": "5",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Silent Fury"
+      "brand": "ISSEY MİYAKE",
+      "name": "Le Feu d'Issey"
     },
+    {
+      "brand": "ISSEY MİYAKE",
+      "name": "Le Feu D'Issey Light"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2025"
+    }
+  ],
+  "peopleAlsoLike": [
     {
       "brand": "INİTİO PARFUMS PRİVES",
       "name": "Side Effect"
@@ -125,6 +162,10 @@
     {
       "brand": "MAİSON MARTİN MARGİELA",
       "name": "Fit of Folly"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Silent Fury"
     },
     {
       "brand": "CLİVE CHRİSTİAN",
@@ -163,16 +204,17 @@
       "name": "Y Eau de Parfum"
     },
     {
-      "brand": "MAİSON MARTİN MARGİELA",
-      "name": "Blaze of Stillness"
-    },
-    {
       "brand": "VİKTOR&ROLF",
       "name": "Bonbon Caramel Crunch"
     },
     {
       "brand": "MAİSON MARTİN MARGİELA",
+      "name": "Blaze of Stillness"
+    },
+    {
+      "brand": "MAİSON MARTİN MARGİELA",
       "name": "Anguish & Awe"
     }
-  ]
+  ],
+  "comments": []
 }

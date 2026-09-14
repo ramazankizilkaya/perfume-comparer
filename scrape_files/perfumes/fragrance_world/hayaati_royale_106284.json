@@ -45,26 +45,54 @@
     {
       "name": "animalik",
       "width": "49.5589%"
+    },
+    {
+      "name": "Online satın alın 32 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.34",
+    "score": "4.37",
     "votesCount": "35",
     "breakdown": {
-      "love": "17",
-      "like": "15",
+      "love": "18",
+      "like": "14",
       "ok": "1",
       "dislike": "2",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "21",
+    "winter": "22",
     "spring": "22",
     "summer": "9",
-    "autumn": "23",
-    "day": "16",
-    "night": "22"
+    "autumn": "24",
+    "day": "17",
+    "night": "23"
   },
   "notes": {
     "top": [
@@ -81,33 +109,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "2",
+    "moderate": "20",
+    "longLasting": "3",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "20",
+    "strong": "2",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "7",
+    "moreMale": "13",
+    "male": "5"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "8",
+    "greatValue": "19"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "RABANNE",
+      "name": "1 Million Lucky"
+    },
+    {
+      "brand": "ARD AL ZAAFARAN",
+      "name": "Mousuf"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Ishq Al Shuyukh Silver"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "The Most Wanted"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Bad Boy Cobalt Parfum Electrique"
+    },
+    {
+      "brand": "AMARAN",
+      "name": "Kings & Queens Malik"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "AFNAN",
@@ -126,12 +179,12 @@
       "name": "Ishq Al Shuyukh Silver"
     },
     {
-      "brand": "AZZARO",
-      "name": "The Most Wanted"
-    },
-    {
       "brand": "VERSACE",
       "name": "Versace Pour Homme Dylan Blue"
+    },
+    {
+      "brand": "AZZARO",
+      "name": "The Most Wanted"
     },
     {
       "brand": "LATTAFA PERFUMES",
@@ -169,5 +222,6 @@
       "brand": "LATTAFA PERFUMES",
       "name": "Liam"
     }
-  ]
+  ],
+  "comments": []
 }

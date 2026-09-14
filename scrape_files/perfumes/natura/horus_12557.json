@@ -41,16 +41,44 @@
     {
       "name": "balsamik",
       "width": "45.6206%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.47",
-    "votesCount": "280",
+    "votesCount": "283",
     "breakdown": {
-      "love": "62",
+      "love": "63",
       "like": "108",
-      "ok": "25",
-      "dislike": "69",
+      "ok": "26",
+      "dislike": "70",
       "hate": "16"
     }
   },
@@ -58,9 +86,9 @@
     "winter": "83",
     "spring": "89",
     "summer": "71",
-    "autumn": "92",
-    "day": "111",
-    "night": "100"
+    "autumn": "93",
+    "day": "112",
+    "night": "101"
   },
   "notes": {
     "top": [
@@ -81,33 +109,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "11",
+    "weak": "23",
+    "moderate": "81",
+    "longLasting": "32",
+    "eternal": "6"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "29",
+    "moderate": "81",
+    "strong": "35",
+    "enormous": "12"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "8",
+    "moreMale": "7",
+    "male": "88"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "25",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "4",
+    "overpriced": "4",
+    "fair": "26",
+    "goodValue": "36",
+    "greatValue": "27"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "AVON",
+      "name": "Spirit for Men"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo"
+    },
+    {
+      "brand": "AURORA SCENTS",
+      "name": "Olibanum"
+    },
+    {
+      "brand": "ANTONİO PUİG",
+      "name": "Quorum"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "Paco Rabanne Pour Homme"
+    },
+    {
+      "brand": "AVON",
+      "name": "Blue Lotus"
+    },
+    {
+      "brand": "MURİEL COSMÉTİCOS",
+      "name": "Acqua Essence Lavanda"
+    },
+    {
+      "brand": "BLOSSON VİLLE",
+      "name": "Saurus"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Gentleman (1974)"
+    },
+    {
+      "brand": "JACQUES BOGART",
+      "name": "Bogart"
+    },
+    {
+      "brand": "ANTONİO PUİG",
+      "name": "Agua Brava"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Free"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Flor de Laranjeira"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Versace L'Homme"
+    },
+    {
+      "brand": "PARİS ELYSEES",
+      "name": "Handsome"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RALPH LAUREN",
@@ -169,5 +258,6 @@
       "brand": "GİORGİO ARMANİ",
       "name": "Acqua di Gio"
     }
-  ]
+  ],
+  "comments": []
 }

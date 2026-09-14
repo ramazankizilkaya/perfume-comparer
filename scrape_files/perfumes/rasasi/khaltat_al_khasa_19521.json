@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Rasasi/Khaltat-Al-Khasa-19521.html",
   "brand": "Rasasi parfüm ve kolonya",
   "description": "Rasasi markasının Khaltat Al Khasa parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Üst notalar: Baharatlı notalar ve Bergamot; orta notalar: Gül ve Safran; alt notalar Agar ağacı (Oud), Amber, Sandal ağacı ve Misk.",
-  "description_original": "Rasasi markasının Khaltat Al Khasa parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Üst notalar: Baharatlı notalar ve Bergamot; orta notalar: Gül ve Safran; alt notalar Agar ağacı (Oud), Amber, Sandal ağacı ve Misk.",
+  "description_original": "Rasasi markasının Khaltat Al Khasa parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Üst notalar: Baharatlı Notalar ve Bergamot; orta notalar: Gül ve Safran; alt notalar Agar ağacı (Oud), Amber, Sandal ağacı ve Misk.",
   "description_enhanced": "Rasasi markasının Khaltat Al Khasa parfümü, kadınlar ve erkekler için Oryantal bir kokudur. Üst notalar: Baharatlı notalar ve Bergamot; orta notalar: Gül ve Safran; alt notalar Agar ağacı (Oud), Amber, Sandal ağacı ve Misk.",
   "mainAccords": [
     {
@@ -49,14 +49,46 @@
     {
       "name": "deri",
       "width": "45.8451%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
+    },
+    {
+      "name": "4",
+      "width": "300px"
     }
   ],
   "rating": {
     "score": "3.99",
-    "votesCount": "143",
+    "votesCount": "144",
     "breakdown": {
       "love": "51",
-      "like": "59",
+      "like": "60",
       "ok": "19",
       "dislike": "9",
       "hate": "5"
@@ -72,7 +104,7 @@
   },
   "notes": {
     "top": [
-      "Baharatlı notalar",
+      "Baharatlı Notalar",
       "Bergamot"
     ],
     "middle": [
@@ -88,41 +120,98 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "5",
+    "moderate": "26",
+    "longLasting": "37",
+    "eternal": "39"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "13",
+    "moderate": "26",
+    "strong": "49",
+    "enormous": "14"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "3",
+    "unisex": "40",
+    "moreMale": "18",
+    "male": "7"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "0",
     "fair": "19",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "26",
+    "greatValue": "30"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "MONTALE",
+      "name": "Moon Aoud"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Odah Al Abiad"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Nasmah"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Night Dreams Eau de Parfum"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Kashaf"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Night Dreams"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Oudh AL Boruzz Atheer Cambodia"
+    },
+    {
+      "brand": "SİSLEY",
+      "name": "Soir d'Оrient"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Violet Musc"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Musamam"
+    },
+    {
+      "brand": "AJMAL",
+      "name": "Hayba"
+    },
+    {
+      "brand": "LALİQUE",
+      "name": "Infinite Shine"
+    },
+    {
+      "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
+      "name": "Promise"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "La Yuqawam Jasmine Wisp"
+    },
+    {
+      "brand": "LOUİS CARDİN",
+      "name": "Ray"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "RASASİ",
       "name": "Oud Al Mubakhar"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Les Absolus d'Orient Santal Royal"
     },
     {
       "brand": "ARMAF",
@@ -161,6 +250,10 @@
       "name": "Shalimar Eau de Parfum"
     },
     {
+      "brand": "DAVİDOFF",
+      "name": "Zino Davidoff"
+    },
+    {
       "brand": "YVES SAİNT LAURENT",
       "name": "Kouros"
     },
@@ -176,5 +269,6 @@
       "brand": "HERMÈS",
       "name": "Terre d'Hermès"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -79,62 +79,33 @@
     ]
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "5",
-    "moderate": "14",
-    "longLasting": "4",
-    "eternal": "2"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "5",
-    "moderate": "14",
-    "strong": "15",
-    "enormous": "8"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "4",
-    "moreFemale": "1",
-    "unisex": "2",
-    "moreMale": "0",
-    "male": "0"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "1",
-    "overpriced": "1",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "4",
-    "goodValue": "0",
-    "greatValue": "0"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "JO MALONE LONDON",
-      "name": "Peony & Blush Suede"
-    },
-    {
-      "brand": "BANANA REPUBLİC",
-      "name": "Malachite Special Edition"
-    },
-    {
-      "brand": "VİCTORİA'S SECRET",
-      "name": "Nectar Pulse"
-    },
-    {
-      "brand": "BATH & BODY WORKS",
-      "name": "Gingham Gorgeous"
-    },
-    {
-      "brand": "BVLGARİ",
-      "name": "Insieme"
-    },
-    {
-      "brand": "LANCÔME",
-      "name": "O d'Azur"
-    },
-    {
-      "brand": "GUCCİ",
-      "name": "Envy Me"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "HERMÈS",
@@ -196,5 +167,6 @@
       "brand": "JO MALONE LONDON",
       "name": "Earl Grey & Cucumber"
     }
-  ]
+  ],
+  "comments": []
 }

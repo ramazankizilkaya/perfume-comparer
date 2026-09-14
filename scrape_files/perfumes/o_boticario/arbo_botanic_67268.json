@@ -49,25 +49,53 @@
     {
       "name": "bitkisel",
       "width": "45.646%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.93",
-    "votesCount": "271",
+    "score": "3.92",
+    "votesCount": "282",
     "breakdown": {
-      "love": "90",
-      "like": "103",
+      "love": "92",
+      "like": "110",
       "ok": "53",
-      "dislike": "18",
+      "dislike": "20",
       "hate": "7"
     }
   },
   "seasons": {
     "winter": "21",
-    "spring": "167",
-    "summer": "174",
-    "autumn": "64",
-    "day": "185",
+    "spring": "171",
+    "summer": "178",
+    "autumn": "65",
+    "day": "188",
     "night": "42"
   },
   "notes": {
@@ -96,28 +124,28 @@
   "longevity": {
     "veryWeak": "15",
     "weak": "34",
-    "moderate": "129",
+    "moderate": "133",
     "longLasting": "14",
     "eternal": "0"
   },
   "sillage": {
     "intimate": "53",
-    "moderate": "129",
+    "moderate": "133",
     "strong": "7",
     "enormous": "0"
   },
   "genderVoting": {
     "female": "4",
     "moreFemale": "0",
-    "unisex": "60",
-    "moreMale": "80",
+    "unisex": "61",
+    "moreMale": "83",
     "male": "56"
   },
   "priceVoting": {
     "wayOverpriced": "1",
     "overpriced": "24",
     "fair": "53",
-    "goodValue": "76",
+    "goodValue": "78",
     "greatValue": "12"
   },
   "remindsMeOf": [
@@ -162,6 +190,10 @@
       "name": "Ironman"
     },
     {
+      "brand": "NEW BRAND PARFUMS",
+      "name": "The NB Prestige"
+    },
+    {
       "brand": "AZZARO",
       "name": "Wanted"
     },
@@ -172,10 +204,6 @@
     {
       "brand": "RABANNE",
       "name": "Invictus"
-    },
-    {
-      "brand": "NEW BRAND PARFUMS",
-      "name": "The NB Prestige"
     },
     {
       "brand": "O BOTİCÁRİO",
@@ -205,11 +233,11 @@
     },
     {
       "brand": "NATURA",
-      "name": "Humor 6 Paz e Humor"
+      "name": "Essencial Sentir"
     },
     {
       "brand": "NATURA",
-      "name": "Essencial Exclusivo"
+      "name": "Humor 6 Paz e Humor"
     },
     {
       "brand": "NATURA",
@@ -243,5 +271,6 @@
       "brand": "O BOTİCÁRİO",
       "name": "Malbec Black"
     }
-  ]
+  ],
+  "comments": []
 }

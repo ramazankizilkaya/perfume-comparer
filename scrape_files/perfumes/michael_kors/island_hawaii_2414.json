@@ -37,15 +37,43 @@
     {
       "name": "taze",
       "width": "49.6761%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.06",
-    "votesCount": "141",
+    "score": "4.05",
+    "votesCount": "142",
     "breakdown": {
       "love": "62",
       "like": "51",
-      "ok": "4",
+      "ok": "5",
       "dislike": "22",
       "hate": "2"
     }
@@ -78,33 +106,94 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "4",
+    "moderate": "20",
+    "longLasting": "4",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "20",
+    "strong": "5",
+    "enormous": "10"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "3",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "0",
+    "overpriced": "2",
+    "fair": "5",
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TOM FORD",
+      "name": "Neroli Portofino"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "name": "Agrumes en Fleurs"
+    },
+    {
+      "brand": "SOLİNOTES",
+      "name": "Fleur d'Oranger"
+    },
+    {
+      "brand": "GOUTAL",
+      "name": "Neroli"
+    },
+    {
+      "brand": "MİCHAEL KORS",
+      "name": "Coral"
+    },
+    {
+      "brand": "OSCAR DE LA RENTA",
+      "name": "Orange Flower"
+    },
+    {
+      "brand": "JENNİFER LOPEZ",
+      "name": "Rio Glow"
+    },
+    {
+      "brand": "AVON",
+      "name": "Scentini Citrus Chill"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Miss Dior Cherie L'Eau"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Aqua Allegoria Passiflora"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Eternity Now For Women"
+    },
+    {
+      "brand": "HOUBİGANT",
+      "name": "Orangers en Fleurs"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Orange Sapphire"
+    },
+    {
+      "brand": "ROBERT PİGUET",
+      "name": "Blossom"
+    },
+    {
+      "brand": "LANCASTER",
+      "name": "Summer Splash"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "GİORGİO ARMANİ",
@@ -166,5 +255,6 @@
       "brand": "DİOR",
       "name": "Dune"
     }
-  ]
+  ],
+  "comments": []
 }

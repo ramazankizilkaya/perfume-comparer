@@ -49,13 +49,41 @@
     {
       "name": "narenciye",
       "width": "46.6666%"
+    },
+    {
+      "name": "Online satın alın 10 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.07",
-    "votesCount": "14",
+    "score": "4.13",
+    "votesCount": "15",
     "breakdown": {
-      "love": "6",
+      "love": "7",
       "like": "3",
       "ok": "5",
       "dislike": "0",
@@ -64,10 +92,10 @@
   },
   "seasons": {
     "winter": "1",
-    "spring": "6",
-    "summer": "14",
-    "autumn": "6",
-    "day": "12",
+    "spring": "7",
+    "summer": "15",
+    "autumn": "7",
+    "day": "13",
     "night": "5"
   },
   "notes": {
@@ -88,53 +116,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "0",
+    "moderate": "7",
+    "longLasting": "6",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "7",
+    "strong": "1",
+    "enormous": "0"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "5",
+    "male": "9"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "5",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "4",
+    "greatValue": "7"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Percival"
+    },
+    {
+      "brand": "ABERCROMBİE & FİTCH",
+      "name": "Fierce"
+    },
+    {
+      "brand": "MONTBLANC",
+      "name": "Legend"
+    },
+    {
+      "brand": "ARMAF",
+      "name": "Beau Acute"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "It's Essential"
+    },
+    {
+      "brand": "AHMED AL MAGHRİBİ",
+      "name": "Kaaf"
+    },
+    {
+      "brand": "ANTONİO BANDERAS",
+      "name": "Power of Seduction"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Y Eau de Parfum"
+    },
+    {
+      "brand": "PARIS CORNER",
+      "name": "Eternal Coffee"
+    }
+  ],
   "peopleAlsoLike": [
-    {
-      "brand": "KHADLAJ PERFUMES",
-      "name": "Shiyaaka For Men"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Hayaati"
-    },
-    {
-      "brand": "RUE BROCA",
-      "name": "Nexa Immortal"
-    },
     {
       "brand": "FRAGRANCE WORLD",
       "name": "Varakh Silver"
     },
     {
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Shiyaaka Shadow"
+    },
+    {
       "brand": "RASASİ",
       "name": "Classic Moment For Men"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "It's Essential"
     },
     {
       "brand": "RUE BROCA",
@@ -157,12 +218,16 @@
       "name": "Sama"
     },
     {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Asad Elixir"
+      "brand": "KHADLAJ PERFUMES",
+      "name": "Island"
     },
     {
       "brand": "AFNAN",
       "name": "9 PM Rebel"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Asad Elixir"
     },
     {
       "brand": "EX NİHİLO",
@@ -173,8 +238,9 @@
       "name": "Island Dreams"
     },
     {
-      "brand": "RAYHAAN",
-      "name": "Tropical Vibe"
+      "brand": "ISSEY MİYAKE",
+      "name": "Le Sel d’Issey"
     }
-  ]
+  ],
+  "comments": []
 }

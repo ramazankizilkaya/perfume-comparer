@@ -32,7 +32,7 @@ export default function ComparisonCard({ pair }: { pair: ComparisonPairData }) {
                         <div className="compare-img-wrap">
                             <img
                                 src={mediaUrl(pair.perfume1.imageUrl) || PLACEHOLDER}
-                                alt={pair.perfume1.name}
+                                alt={`${pair.perfume1.brandName} ${pair.perfume1.name} parfümü`}
                                 loading="lazy"
                             />
                         </div>
@@ -52,7 +52,7 @@ export default function ComparisonCard({ pair }: { pair: ComparisonPairData }) {
                         <div className="compare-img-wrap">
                             <img
                                 src={mediaUrl(pair.perfume2.imageUrl) || PLACEHOLDER}
-                                alt={pair.perfume2.name}
+                                alt={`${pair.perfume2.brandName} ${pair.perfume2.name} parfümü`}
                                 loading="lazy"
                             />
                         </div>

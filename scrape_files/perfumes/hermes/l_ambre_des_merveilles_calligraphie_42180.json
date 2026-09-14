@@ -37,6 +37,34 @@
     {
       "name": "sıcak baharatlı",
       "width": "44.2187%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -51,7 +79,7 @@
     }
   },
   "seasons": {
-    "winter": "18",
+    "winter": "19",
     "spring": "7",
     "summer": "5",
     "autumn": "18",
@@ -108,10 +136,6 @@
     {
       "brand": "HERMÈS",
       "name": "Elixir des Merveilles"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Vert d'Encens"
     },
     {
       "brand": "MAİSON FRANCİS KURKDJİAN",
@@ -191,5 +215,6 @@
       "brand": "LANCÔME",
       "name": "Trésor"
     }
-  ]
+  ],
+  "comments": []
 }

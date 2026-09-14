@@ -31,12 +31,40 @@
       "width": "51.4375%"
     },
     {
+      "name": "vanilya",
+      "width": "48.375%"
+    },
+    {
       "name": "tropikal",
       "width": "48.375%"
     },
     {
-      "name": "vanilya",
-      "width": "48.375%"
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -52,10 +80,10 @@
   },
   "seasons": {
     "winter": "3",
-    "spring": "22",
-    "summer": "29",
+    "spring": "23",
+    "summer": "30",
     "autumn": "5",
-    "day": "29",
+    "day": "30",
     "night": "2"
   },
   "notes": {
@@ -70,18 +98,18 @@
   "longevity": {
     "veryWeak": "5",
     "weak": "16",
-    "moderate": "12",
+    "moderate": "13",
     "longLasting": "0",
     "eternal": "1"
   },
   "sillage": {
     "intimate": "11",
-    "moderate": "12",
+    "moderate": "13",
     "strong": "1",
     "enormous": "0"
   },
   "genderVoting": {
-    "female": "25",
+    "female": "26",
     "moreFemale": "4",
     "unisex": "2",
     "moreMale": "0",
@@ -91,7 +119,7 @@
     "wayOverpriced": "0",
     "overpriced": "2",
     "fair": "6",
-    "goodValue": "14",
+    "goodValue": "15",
     "greatValue": "8"
   },
   "remindsMeOf": [
@@ -128,6 +156,10 @@
     {
       "brand": "ARİANA GRANDE",
       "name": "Thank U, Next"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Pure Seduction"
     },
     {
       "brand": "ARİANA GRANDE",
@@ -170,10 +202,6 @@
       "name": "Vanilla Bean Noel"
     },
     {
-      "brand": "SOL DE JANEİRO",
-      "name": "Cheirosa '62"
-    },
-    {
       "brand": "KAYALİ FRAGRANCES",
       "name": "Vanilla | 28"
     },
@@ -185,5 +213,6 @@
       "brand": "BİLLİE EİLİSH",
       "name": "Eilish"
     }
-  ]
+  ],
+  "comments": []
 }

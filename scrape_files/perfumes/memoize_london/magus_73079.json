@@ -35,30 +35,58 @@
       "width": "62.2982%"
     },
     {
+      "name": "balsamik",
+      "width": "50.386%"
+    },
+    {
       "name": "aromatik",
       "width": "50.386%"
     },
     {
-      "name": "balsamik",
-      "width": "50.386%"
+      "name": "menekşe",
+      "width": "44.7368%"
     },
     {
       "name": "narenciye",
       "width": "44.7368%"
     },
     {
-      "name": "menekşe",
-      "width": "44.7368%"
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.12",
-    "votesCount": "24",
+    "score": "4.04",
+    "votesCount": "26",
     "breakdown": {
       "love": "10",
-      "like": "10",
+      "like": "11",
       "ok": "1",
-      "dislike": "3",
+      "dislike": "4",
       "hate": "0"
     }
   },
@@ -93,33 +121,42 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "3",
+    "longLasting": "6",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "0",
+    "moderate": "3",
+    "strong": "6",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "4",
+    "unisex": "6",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "2",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "PERFUMER H",
+      "name": "Dust"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Ambre Nuit"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "ESSENTİAL PARFUMS",
@@ -150,12 +187,12 @@
       "name": "Bouquet Ideale"
     },
     {
-      "brand": "VAN CLEEF & ARPELS",
-      "name": "Bois Doré"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
+    },
+    {
+      "brand": "VAN CLEEF & ARPELS",
+      "name": "Bois Doré"
     },
     {
       "brand": "PENHALİGON'S",
@@ -170,16 +207,17 @@
       "name": "Gentle Fluidity Gold"
     },
     {
-      "brand": "BDK PARFUMS",
-      "name": "Gris Charnel"
+      "brand": "LES LİQUİDES IMAGİNAİRES",
+      "name": "Blanche Bête"
     },
     {
-      "brand": "INİTİO PARFUMS PRİVES",
-      "name": "Absolute Aphrodisiac"
+      "brand": "BDK PARFUMS",
+      "name": "Gris Charnel"
     },
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Delina Exclusif"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -39,16 +39,20 @@
       "width": "49.5946%"
     },
     {
-      "name": "amber",
+      "name": "ud",
       "width": "46.2162%"
     },
     {
-      "name": "ud",
+      "name": "amber",
       "width": "46.2162%"
     },
     {
       "name": "paçuli",
       "width": "44.1892%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
     }
   ],
   "rating": {
@@ -92,102 +96,38 @@
       "Benzoin",
       "Cypriol Yağı veya Nagarmotha",
       "Laden"
-    ]
+    ],
+    "all": []
   },
   "longevity": {
-    "veryWeak": "3",
-    "weak": "2",
-    "moderate": "7",
-    "longLasting": "17",
-    "eternal": "31"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "4",
-    "moderate": "7",
-    "strong": "27",
-    "enormous": "34"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "1",
-    "moreFemale": "2",
-    "unisex": "13",
-    "moreMale": "16",
-    "male": "17"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "9",
-    "overpriced": "8",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "9",
-    "goodValue": "4",
-    "greatValue": "3"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "FRAGRANCE WORLD",
-      "name": "Mocha Wood"
-    },
-    {
-      "brand": "AMOUAGE",
-      "name": "Journey Man"
-    },
-    {
-      "brand": "NASOMATTO",
-      "name": "Black Afgano"
-    },
-    {
-      "brand": "CARNER BARCELONA",
-      "name": "Cuirs"
-    },
-    {
-      "brand": "MONTALE",
-      "name": "Intense Cafe"
-    },
-    {
-      "brand": "TERRY DE GUNZBURG",
-      "name": "Terryfic Oud"
-    },
-    {
-      "brand": "LES LİQUİDES IMAGİNAİRES",
-      "name": "Fortis"
-    },
-    {
-      "brand": "TOM FORD",
-      "name": "Tobacco Oud Intense"
-    },
-    {
-      "brand": "JEANNE ARTHES",
-      "name": "Morning Flowers"
-    },
-    {
-      "brand": "XERJOFF",
-      "name": "Luxor"
-    },
-    {
-      "brand": "ARABİAN OUD",
-      "name": "Rosewood"
-    },
-    {
-      "brand": "PRİNCE MATCHABELLİ",
-      "name": "Hero"
-    },
-    {
-      "brand": "GUCCİ",
-      "name": "Intense Oud"
-    },
-    {
-      "brand": "TİZİANA TERENZİ",
-      "name": "Laudano Nero"
-    },
-    {
-      "brand": "MANCERA",
-      "name": "Roses Vanille"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
-    {
-      "brand": "MANCERA",
-      "name": "Red Tobacco"
-    },
     {
       "brand": "PARFUMS DE MARLY",
       "name": "Layton Exclusif"
@@ -201,6 +141,10 @@
       "name": "Jubilation XXV Man"
     },
     {
+      "brand": "BOADİCEA THE VİCTORİOUS",
+      "name": "Almas"
+    },
+    {
       "brand": "PARFUMS DE MARLY",
       "name": "Herod"
     },
@@ -209,12 +153,12 @@
       "name": "Side Effect"
     },
     {
-      "brand": "PARFUMS DE MARLY",
-      "name": "Carlisle"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Memoir Man"
     },
     {
       "brand": "ROJA DOVE",
@@ -225,12 +169,12 @@
       "name": "02 L'Air du Desert Marocain"
     },
     {
-      "brand": "AMOUAGE",
-      "name": "Reflection Man"
-    },
-    {
       "brand": "NİSHANE",
       "name": "Hacivat"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Ombre Nomade"
     },
     {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
@@ -244,5 +188,6 @@
       "brand": "AMOUAGE",
       "name": "Interlude Man"
     }
-  ]
+  ],
+  "comments": []
 }

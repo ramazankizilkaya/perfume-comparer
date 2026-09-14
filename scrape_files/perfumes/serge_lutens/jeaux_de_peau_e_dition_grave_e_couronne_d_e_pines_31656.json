@@ -7,7 +7,7 @@
   "url": "https://www.fragrantica.tr/perfumes/Serge-Lutens/Jeaux-de-Peau-E-dition-Grave-e-Couronne-d-e-pines-31656.html",
   "brand": "Serge Lutens parfüm ve kolonya",
   "description": "Serge Lutens markasının Jeaux de Peau Édition Gravée Couronne d’épines parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Buğday ve Süt; orta notalar: Meyan kökü, Ölmez çiçek ve Hindistan cevizi; alt notalar Sandal ağacı, Baharatlı notalar, Amber, Kayısı, Odunsu Notalar ve Osmanthus.",
-  "description_original": "Serge Lutens markasının Jeaux de Peau Édition Gravée Couronne d’épines parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Buğday ve Süt; orta notalar: Meyan kökü, Ölmez çiçek ve Hindistan cevizi; alt notalar Sandal ağacı, Baharatlı notalar, Amber, Kayısı, Odunsu Notalar ve Osmanthus.",
+  "description_original": "Serge Lutens markasının Jeaux de Peau Édition Gravée Couronne d’épines parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Buğday ve Süt; orta notalar: Meyan kökü, Ölmez çiçek ve Hindistan cevizi; alt notalar Sandal ağacı, Baharatlar, Amber, Kayısı, Odunsu Notalar ve Osmanthus.",
   "description_enhanced": "Serge Lutens markasının Jeaux de Peau Édition Gravée Couronne d’épines parfümü, kadınlar ve erkekler için Oryantal Odunsu bir kokudur. Üst notalar: Buğday ve Süt; orta notalar: Meyan kökü, Ölmez çiçek ve Hindistan cevizi; alt notalar Sandal ağacı, Baharatlı notalar, Amber, Kayısı, Odunsu Notalar ve Osmanthus.",
   "mainAccords": [
     {
@@ -49,6 +49,34 @@
     {
       "name": "balsamik",
       "width": "48.6667%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -82,7 +110,7 @@
     ],
     "base": [
       "Sandal ağacı",
-      "Baharatlı notalar",
+      "Baharatlar",
       "Amber",
       "Kayısı",
       "Odunsu Notalar",
@@ -91,33 +119,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "6",
+    "longLasting": "3",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "6",
+    "moderate": "6",
+    "strong": "8",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "1",
+    "moreFemale": "1",
+    "unisex": "3",
+    "moreMale": "1",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Jeux de Peau"
+    },
+    {
+      "brand": "DEMETER FRAGRANCE",
+      "name": "Angel Food"
+    },
+    {
+      "brand": "LADANİKA",
+      "name": "Radonezh Радонеж"
+    },
+    {
+      "brand": "GRİ GRİ PARFUMS",
+      "name": "Ukiyo-E"
+    },
+    {
+      "brand": "CİRQUE DU SOLEİL",
+      "name": "L'eau de Parfum"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Milk"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "SERGE LUTENS",
@@ -164,6 +217,10 @@
       "name": "Ambre Sultan"
     },
     {
+      "brand": "SERGE LUTENS",
+      "name": "Iris Silver Mist"
+    },
+    {
       "brand": "NASOMATTO",
       "name": "Black Afgano"
     },
@@ -172,12 +229,9 @@
       "name": "Tea for Two"
     },
     {
-      "brand": "L'ARTİSAN PARFUMEUR",
-      "name": "Dzing!"
-    },
-    {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Carnal Flower"
     }
-  ]
+  ],
+  "comments": []
 }

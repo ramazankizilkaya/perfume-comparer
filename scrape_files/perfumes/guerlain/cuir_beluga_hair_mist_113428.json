@@ -80,62 +80,33 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "1",
-    "weak": "1",
-    "moderate": "9",
-    "longLasting": "6",
-    "eternal": "1"
+    "veryWeak": "",
+    "weak": "",
+    "moderate": "",
+    "longLasting": "",
+    "eternal": ""
   },
   "sillage": {
-    "intimate": "1",
-    "moderate": "9",
-    "strong": "5",
-    "enormous": "1"
+    "intimate": "",
+    "moderate": "",
+    "strong": "",
+    "enormous": ""
   },
   "genderVoting": {
-    "female": "3",
-    "moreFemale": "1",
-    "unisex": "11",
-    "moreMale": "2",
-    "male": "2"
+    "female": "",
+    "moreFemale": "",
+    "unisex": "",
+    "moreMale": "",
+    "male": ""
   },
   "priceVoting": {
-    "wayOverpriced": "13",
-    "overpriced": "2",
+    "wayOverpriced": "",
+    "overpriced": "",
     "fair": "1",
-    "goodValue": "0",
-    "greatValue": "1"
+    "goodValue": "",
+    "greatValue": ""
   },
-  "remindsMeOf": [
-    {
-      "brand": "GUERLAİN",
-      "name": "Cuir Béluga"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Millésime Tonka"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Shalimar L'Essence"
-    },
-    {
-      "brand": "GUERLAİN",
-      "name": "Shalimar Millésime Vanilla Planifolia"
-    },
-    {
-      "brand": "CELİNE",
-      "name": "Dans Paris"
-    },
-    {
-      "brand": "MARRAKECH IMPERİAL",
-      "name": "Magie Rouge"
-    },
-    {
-      "brand": "SOUS LE MANTEAU",
-      "name": "Cuir d'Orient"
-    }
-  ],
+  "remindsMeOf": [],
   "peopleAlsoLike": [
     {
       "brand": "GUERLAİN",
@@ -182,6 +153,10 @@
       "name": "J'adore"
     },
     {
+      "brand": "CHANEL",
+      "name": "Chanel No 5 L'Eau"
+    },
+    {
       "brand": "EX NİHİLO",
       "name": "Fleur Narcotique"
     },
@@ -192,10 +167,7 @@
     {
       "brand": "HERMÈS",
       "name": "Barénia"
-    },
-    {
-      "brand": "GİVENCHY",
-      "name": "L'Interdit Eau de Parfum Rouge"
     }
-  ]
+  ],
+  "comments": []
 }

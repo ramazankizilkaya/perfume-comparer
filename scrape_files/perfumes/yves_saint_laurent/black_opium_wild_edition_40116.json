@@ -49,6 +49,34 @@
     {
       "name": "balsamik",
       "width": "61.5%"
+    },
+    {
+      "name": "Online satın alın 59 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -91,33 +119,78 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "0",
+    "moderate": "14",
+    "longLasting": "13",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "12",
+    "moderate": "14",
+    "strong": "22",
+    "enormous": "15"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "10",
+    "moreFemale": "2",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "3",
     "fair": "2",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "1",
+    "greatValue": "1"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Pure Illusion"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Sparkle Clash Limited Collector's Edition Eau de Parfum"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Swarovski Edition"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Sound Illusion"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Midnight Addiction"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Eau de Toilette"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Nuit Blanche"
+    },
+    {
+      "brand": "SHİSEİDO",
+      "name": "Feminite du Bois"
+    },
+    {
+      "brand": "AVON",
+      "name": "Outspoken by Fergie"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Mon Guerlain"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "YVES SAİNT LAURENT",
@@ -179,5 +252,6 @@
       "brand": "VERSACE",
       "name": "Crystal Noir"
     }
-  ]
+  ],
+  "comments": []
 }

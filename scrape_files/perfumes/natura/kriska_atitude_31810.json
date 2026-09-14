@@ -19,16 +19,44 @@
       "width": "45.4286%"
     },
     {
-      "name": "sulu",
+      "name": "ozonik",
       "width": "33.8571%"
     },
     {
-      "name": "ozonik",
+      "name": "sulu",
       "width": "33.8571%"
     },
     {
       "name": "laktonik",
       "width": "32.7%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -60,33 +88,42 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "4",
+    "weak": "8",
+    "moderate": "15",
+    "longLasting": "2",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "9",
+    "moderate": "15",
+    "strong": "4",
+    "enormous": "6"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "17",
+    "moreFemale": "2",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "1"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "1",
     "fair": "4",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "7",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "GUERLAİN",
+      "name": "Terracotta Eau de Toilette"
+    },
+    {
+      "brand": "NATURA",
+      "name": "Romã e Amêndoas Glaceadas"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -125,12 +162,12 @@
       "name": "Una"
     },
     {
-      "brand": "O BOTİCÁRİO",
-      "name": "Floratta in Blue"
-    },
-    {
       "brand": "NATURA",
       "name": "Luna"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Floratta in Blue"
     },
     {
       "brand": "NATURA",
@@ -148,5 +185,6 @@
       "brand": "NATURA",
       "name": "Frescor de Açaí"
     }
-  ]
+  ],
+  "comments": []
 }

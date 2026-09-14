@@ -2,7 +2,7 @@
   "name": "Flowerbomb Extrait de Parfum Viktor&Rolf",
   "targetGender": "kadınlar için",
   "fragranceFamily": "Floral",
-  "concentration": "Extrait",
+  "concentration": "Edp",
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.14088.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Viktor-Rolf/Flowerbomb-Extrait-de-Parfum-14088.html",
   "brand": "Viktor&Rolf parfüm ve kolonya",
@@ -49,6 +49,34 @@
     {
       "name": "odunsu",
       "width": "47.6471%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -89,33 +117,66 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "1",
+    "weak": "1",
+    "moderate": "4",
+    "longLasting": "6",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "4",
+    "strong": "13",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "3",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "1",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Limited Edition 2011"
+    },
+    {
+      "brand": "RASASİ",
+      "name": "Attar Al Mohabba Female"
+    },
+    {
+      "brand": "VİKTOR&ROLF",
+      "name": "Flowerbomb Extreme"
+    },
+    {
+      "brand": "OAKCHA",
+      "name": "Reborn Lust"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Floral Fantasy"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Play For Her Intense"
+    },
+    {
+      "brand": "GUERLAİN",
+      "name": "Mon Guerlain"
+    },
+    {
+      "brand": "GOUTAL",
+      "name": "Nuit et Confidences"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "VİKTOR&ROLF",
@@ -177,5 +238,6 @@
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -49,6 +49,34 @@
     {
       "name": "tatlı",
       "width": "52.2727%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -94,33 +122,58 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "1",
+    "moderate": "1",
+    "longLasting": "1",
+    "eternal": "2"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "1",
+    "strong": "1",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "4",
+    "moreFemale": "0",
+    "unisex": "0",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "0",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Mon Paris"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Attrape-Rêves"
+    },
+    {
+      "brand": "LOUİS VUİTTON",
+      "name": "Cœur Battant"
+    },
+    {
+      "brand": "VERSACE",
+      "name": "Eros Pour Femme Eau de Toilette"
+    },
+    {
+      "brand": "BYREDO",
+      "name": "Velvet Haze"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Madame Mystique"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "CHANEL",
@@ -135,6 +188,10 @@
       "name": "Coco Mademoiselle Intense"
     },
     {
+      "brand": "MUGLER",
+      "name": "Angel Eau Croisière 2020"
+    },
+    {
       "brand": "ELİE SAAB",
       "name": "Le Parfum in White"
     },
@@ -143,12 +200,8 @@
       "name": "Envy"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "Obsession Night Woman"
-    },
-    {
-      "brand": "CACHAREL",
-      "name": "Noa"
+      "brand": "MUGLER",
+      "name": "Angel"
     },
     {
       "brand": "GİVENCHY",
@@ -167,10 +220,6 @@
       "name": "J'adore"
     },
     {
-      "brand": "JEAN PAUL GAULTİER",
-      "name": "Classique"
-    },
-    {
       "brand": "LACOSTE FRAGRANCES",
       "name": "Lacoste Pour Femme"
     },
@@ -181,6 +230,11 @@
     {
       "brand": "CHANEL",
       "name": "Chance Eau Tendre Eau de Parfum"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Eau Parfumee au The Blanc"
     }
-  ]
+  ],
+  "comments": []
 }

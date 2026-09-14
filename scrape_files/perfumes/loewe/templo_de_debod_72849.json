@@ -49,26 +49,54 @@
     {
       "name": "metalik",
       "width": "49.5165%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "3.73",
-    "votesCount": "45",
+    "score": "3.76",
+    "votesCount": "50",
     "breakdown": {
-      "love": "14",
-      "like": "13",
-      "ok": "10",
+      "love": "15",
+      "like": "16",
+      "ok": "11",
       "dislike": "8",
       "hate": "0"
     }
   },
   "seasons": {
-    "winter": "17",
+    "winter": "18",
     "spring": "11",
     "summer": "15",
-    "autumn": "14",
+    "autumn": "15",
     "day": "14",
-    "night": "14"
+    "night": "15"
   },
   "notes": {
     "top": [],
@@ -90,33 +118,58 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "2",
+    "weak": "4",
+    "moderate": "7",
+    "longLasting": "7",
+    "eternal": "3"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "7",
+    "strong": "3",
+    "enormous": "2"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "5",
+    "unisex": "13",
+    "moreMale": "5",
+    "male": "2"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
-    "fair": "10",
-    "goodValue": "",
-    "greatValue": ""
+    "wayOverpriced": "7",
+    "overpriced": "10",
+    "fair": "11",
+    "goodValue": "1",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "LOEWE",
+      "name": "Paula's Ibiza"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Eau de Gentiane Blanche"
+    },
+    {
+      "brand": "MATİÈRE PREMİÈRE",
+      "name": "Radical Rose"
+    },
+    {
+      "brand": "BON PARFUMEUR",
+      "name": "104 orange verte, jacynthe, lierre"
+    },
+    {
+      "brand": "DİPTYQUE",
+      "name": "Corail Oscuro"
+    },
+    {
+      "brand": "EAU D'ITALİE",
+      "name": "Eau D'Italie"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TOM FORD",
@@ -151,12 +204,12 @@
       "name": "Shanghai Lily"
     },
     {
-      "brand": "CAROLİNA HERRERA",
-      "name": "Herrera For Men"
-    },
-    {
       "brand": "LOEWE",
       "name": "Loewe 7 Anonimo"
+    },
+    {
+      "brand": "CAROLİNA HERRERA",
+      "name": "Herrera For Men"
     },
     {
       "brand": "LOEWE",
@@ -178,5 +231,6 @@
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Carnal Flower"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -15,11 +15,11 @@
       "width": "100%"
     },
     {
-      "name": "yeşil",
+      "name": "lavanta",
       "width": "95%"
     },
     {
-      "name": "lavanta",
+      "name": "yeşil",
       "width": "95%"
     },
     {
@@ -41,13 +41,41 @@
     {
       "name": "meyvemsi",
       "width": "46%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.27",
-    "votesCount": "11",
+    "score": "4.33",
+    "votesCount": "12",
     "breakdown": {
-      "love": "7",
+      "love": "8",
       "like": "2",
       "ok": "1",
       "dislike": "0",
@@ -56,11 +84,11 @@
   },
   "seasons": {
     "winter": "1",
-    "spring": "9",
-    "summer": "10",
-    "autumn": "4",
-    "day": "9",
-    "night": "3"
+    "spring": "10",
+    "summer": "11",
+    "autumn": "5",
+    "day": "10",
+    "night": "4"
   },
   "notes": {
     "top": [],
@@ -76,69 +104,78 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "2",
+    "moderate": "5",
+    "longLasting": "2",
+    "eternal": "1"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "1",
+    "moderate": "5",
+    "strong": "3",
+    "enormous": "1"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "1",
+    "moreMale": "1",
+    "male": "7"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "0",
     "fair": "1",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
     {
       "brand": "NATURA",
-      "name": "Kaiak Urbe"
+      "name": "Kaiak Aventura Expedições"
     },
+    {
+      "brand": "NİKOS",
+      "name": "Sculpture Homme"
+    }
+  ],
+  "peopleAlsoLike": [
     {
       "brand": "O BOTİCÁRİO",
       "name": "Arbo Liberté"
     },
     {
-      "brand": "CALVİN KLEİN",
-      "name": "CK One"
+      "brand": "VERSACE",
+      "name": "Versace Pour Homme"
     },
     {
-      "brand": "NATURA",
-      "name": "Kaiak"
+      "brand": "O BOTİCÁRİO",
+      "name": "Uomini Sport"
     },
     {
       "brand": "NATURA",
       "name": "Kaiak Ultra Masculino"
     },
     {
-      "brand": "DOLCE&GABBANA",
-      "name": "Light Blue"
+      "brand": "O BOTİCÁRİO",
+      "name": "Uomini"
     },
     {
       "brand": "NATURA",
       "name": "Kaiak Aventura"
     },
     {
-      "brand": "NATURA",
-      "name": "K Max"
+      "brand": "O BOTİCÁRİO",
+      "name": "Uomini Mediterraneo"
     },
     {
       "brand": "NATURA",
       "name": "Essencial Feminino"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Allure Homme Sport"
     },
     {
       "brand": "NATURA",
@@ -149,8 +186,12 @@
       "name": "Zaad"
     },
     {
-      "brand": "DOLCE&GABBANA",
-      "name": "Dolce&Gabbana"
+      "brand": "NAUTİCA",
+      "name": "Nautica Voyage"
+    },
+    {
+      "brand": "O BOTİCÁRİO",
+      "name": "Quasar Oxygen"
     },
     {
       "brand": "NATURA",
@@ -159,10 +200,7 @@
     {
       "brand": "O BOTİCÁRİO",
       "name": "Malbec"
-    },
-    {
-      "brand": "O BOTİCÁRİO",
-      "name": "Malbec Supremo"
     }
-  ]
+  ],
+  "comments": []
 }

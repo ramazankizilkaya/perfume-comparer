@@ -6,9 +6,9 @@
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59753.jpg",
   "url": "https://www.fragrantica.tr/perfumes/Bvlgari/Erea-59753.html",
   "brand": "Bvlgari parfüm ve kolonya",
-  "description": "Bvlgari markasının Erea parfümü, kadınlar için Oryantal Baharatlı bir kokudur. Erea, 2020 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst nota: Kakule; orta nota: Beyaz sakız; alt nota Vanilya.",
-  "description_original": "Bvlgari markasının Erea parfümü, kadınlar için Oryantal Baharatlı bir kokudur. Erea, 2020 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst nota: Kakule; orta nota: Beyaz sakız; alt nota Vanilya.",
-  "description_enhanced": "Bvlgari markasının Erea parfümü, kadınlar için Oryantal Baharatlı bir kokudur. Erea, 2020 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst nota: Kakule; orta nota: Beyaz sakız; alt nota Vanilya.",
+  "description": "Bvlgari markasının Erea parfümü, kadınlar için Oryantal Baharatlı bir kokudur. Erea, 2020 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst nota: Kakule; orta nota: Olibanum; alt nota Madagaskar Vanilyası.",
+  "description_original": "Bvlgari markasının Erea parfümü, kadınlar için Oryantal Baharatlı bir kokudur. Erea, 2020 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst nota: Kakule; orta nota: Olibanum; alt nota Madagaskar Vanilyası.",
+  "description_enhanced": "Bvlgari markasının Erea parfümü, kadınlar için Oryantal Baharatlı bir kokudur. Erea, 2020 yılında piyasaya sürüldü. Bu kokunun arkasındaki burun Alberto Morillas. Üst nota: Kakule; orta nota: Olibanum; alt nota Madagaskar Vanilyası.",
   "mainAccords": [
     {
       "name": "vanilya",
@@ -41,21 +41,49 @@
     {
       "name": "tatlı",
       "width": "44%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.07",
-    "votesCount": "72",
+    "score": "4.05",
+    "votesCount": "73",
     "breakdown": {
-      "love": "34",
-      "like": "21",
+      "love": "33",
+      "like": "23",
       "ok": "6",
       "dislike": "10",
       "hate": "1"
     }
   },
   "seasons": {
-    "winter": "34",
+    "winter": "35",
     "spring": "12",
     "summer": "8",
     "autumn": "30",
@@ -67,10 +95,10 @@
       "Kakule"
     ],
     "middle": [
-      "Beyaz sakız"
+      "Olibanum"
     ],
     "base": [
-      "Vanilya"
+      "Madagaskar Vanilyası"
     ],
     "all": []
   },
@@ -141,10 +169,6 @@
       "name": "Orchidée Vanille"
     },
     {
-      "brand": "DİOR",
-      "name": "Fève Délicieuse"
-    },
-    {
       "brand": "TOM FORD",
       "name": "Tobacco Vanille"
     },
@@ -153,12 +177,16 @@
       "name": "Baccarat Rouge 540"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Black Orchid"
+      "brand": "DİOR",
+      "name": "Fève Délicieuse"
     },
     {
       "brand": "LOUİS VUİTTON",
       "name": "Ombre Nomade"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Black Orchid"
     },
     {
       "brand": "BVLGARİ",
@@ -180,5 +208,6 @@
       "brand": "BY KİLİAN",
       "name": "Black Phantom"
     }
-  ]
+  ],
+  "comments": []
 }

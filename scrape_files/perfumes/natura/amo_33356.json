@@ -49,6 +49,34 @@
     {
       "name": "tatlı",
       "width": "49.3667%"
+    },
+    {
+      "name": "Online satın alın 23 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -63,12 +91,12 @@
     }
   },
   "seasons": {
-    "winter": "39",
-    "spring": "42",
+    "winter": "40",
+    "spring": "43",
     "summer": "16",
-    "autumn": "40",
-    "day": "58",
-    "night": "42"
+    "autumn": "41",
+    "day": "59",
+    "night": "43"
   },
   "notes": {
     "top": [
@@ -89,33 +117,86 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "11",
+    "moderate": "41",
+    "longLasting": "6",
+    "eternal": "4"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "19",
+    "moderate": "41",
+    "strong": "17",
+    "enormous": "7"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "26",
+    "moreFemale": "13",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "2",
+    "overpriced": "4",
     "fair": "11",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "19",
+    "greatValue": "4"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "NATURA",
+      "name": "Pétalas de Vanila"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Manifesto"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Kenzo Amour"
+    },
+    {
+      "brand": "CASAMORATİ 1888",
+      "name": "Lira"
+    },
+    {
+      "brand": "BALMAİN BEAUTY",
+      "name": "Extatic Gold Musk"
+    },
+    {
+      "brand": "VİCTORİA'S SECRET",
+      "name": "Bare"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Pi"
+    },
+    {
+      "brand": "HALLOWEEN",
+      "name": "Halloween"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "name": "Sensuous"
+    },
+    {
+      "brand": "SARAH JESSİCA PARKER",
+      "name": "SJP NYC Eau de Parfum"
+    },
+    {
+      "brand": "RABANNE",
+      "name": "1 Million Parfum"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Play For Her"
+    },
+    {
+      "brand": "O.U.İ ORİGİNAL UNİQUE INDİVİDUAL",
+      "name": "Madeleine 862 La Pistacherie"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "NATURA",
@@ -177,5 +258,6 @@
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
     }
-  ]
+  ],
+  "comments": []
 }

@@ -27,8 +27,36 @@
       "width": "51%"
     },
     {
-      "name": "yeşil",
+      "name": "tatlı",
       "width": "43.9999%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -43,7 +71,7 @@
     }
   },
   "seasons": {
-    "winter": "1",
+    "winter": "2",
     "spring": "25",
     "summer": "33",
     "autumn": "4",
@@ -122,6 +150,10 @@
       "name": "Bombshell"
     },
     {
+      "brand": "DOLCE&GABBANA",
+      "name": "The Only One"
+    },
+    {
       "brand": "VİCTORİA'S SECRET",
       "name": "Aqua Kiss"
     },
@@ -136,10 +168,6 @@
     {
       "brand": "TOM FORD",
       "name": "Black Orchid"
-    },
-    {
-      "brand": "ARİANA GRANDE",
-      "name": "Ari"
     },
     {
       "brand": "ARİANA GRANDE",
@@ -161,5 +189,6 @@
       "brand": "JUİCY COUTURE",
       "name": "Viva la Juicy Gold Couture"
     }
-  ]
+  ],
+  "comments": []
 }

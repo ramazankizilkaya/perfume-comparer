@@ -49,6 +49,34 @@
     {
       "name": "balsamik",
       "width": "64.1123%"
+    },
+    {
+      "name": "Sadece online satın alın 1 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -91,38 +119,95 @@
     "all": []
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "0",
+    "weak": "4",
+    "moderate": "5",
+    "longLasting": "1",
+    "eternal": "0"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "8",
+    "moderate": "5",
+    "strong": "7",
+    "enormous": "5"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "2",
+    "moreFemale": "0",
+    "unisex": "2",
+    "moreMale": "0",
+    "male": "0"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "1",
+    "overpriced": "2",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "0",
+    "greatValue": "0"
   },
-  "remindsMeOf": [],
-  "peopleAlsoLike": [
+  "remindsMeOf": [
+    {
+      "brand": "V CANTO",
+      "name": "Lucrethia"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Pure Illusion"
+    },
     {
       "brand": "YVES SAİNT LAURENT",
       "name": "Black Opium"
     },
+    {
+      "brand": "WOMEN SECRET",
+      "name": "Gold Seduction"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Swarovski Edition"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Sparkle Clash Limited Collector's Edition Eau de Toilette"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Eau de Toilette (2018)"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Eau de Toilette"
+    },
+    {
+      "brand": "YVES SAİNT LAURENT",
+      "name": "Black Opium Sparkle Clash Limited Collector's Edition Eau de Parfum"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Midnight Addiction"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "name": "Velvet Sugar"
+    },
+    {
+      "brand": "GİVENCHY",
+      "name": "Ange ou Demon Le Secret Elixir"
+    },
+    {
+      "brand": "BRİTNEY SPEARS",
+      "name": "Private Show"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Hundred Silent Ways"
+    },
+    {
+      "brand": "CACHAREL",
+      "name": "Yes I Am"
+    }
+  ],
+  "peopleAlsoLike": [
     {
       "brand": "LANCÔME",
       "name": "La Vie Est Belle"
@@ -144,10 +229,6 @@
       "name": "Narciso Poudree"
     },
     {
-      "brand": "YVES SAİNT LAURENT",
-      "name": "Mon Paris"
-    },
-    {
       "brand": "LANCÔME",
       "name": "La Nuit Trésor à la Folie"
     },
@@ -158,6 +239,10 @@
     {
       "brand": "VİKTOR&ROLF",
       "name": "Flowerbomb"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Coco Mademoiselle"
     },
     {
       "brand": "GUERLAİN",
@@ -178,6 +263,11 @@
     {
       "brand": "DİOR",
       "name": "Midnight Poison"
+    },
+    {
+      "brand": "KENZO",
+      "name": "Flower by Kenzo L'Elixir"
     }
-  ]
+  ],
+  "comments": []
 }

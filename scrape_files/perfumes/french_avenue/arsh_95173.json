@@ -16,47 +16,71 @@
     },
     {
       "name": "badem",
-      "width": "59.4064%"
+      "width": "59.8207%"
     },
     {
       "name": "taze baharatlı",
-      "width": "57.2969%"
+      "width": "57.2465%"
     },
     {
       "name": "aromatik",
-      "width": "57.169%"
+      "width": "56.7445%"
     },
     {
       "name": "fındıksı",
-      "width": "47.6438%"
+      "width": "47.8923%"
     },
     {
       "name": "misk",
-      "width": "46.3015%"
+      "width": "45.6951%"
     },
     {
       "name": "meyvemsi",
-      "width": "44.7033%"
+      "width": "44.9103%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
-    "score": "4.34",
-    "votesCount": "406",
+    "score": "4.35",
+    "votesCount": "431",
     "breakdown": {
-      "love": "254",
-      "like": "85",
-      "ok": "30",
-      "dislike": "24",
-      "hate": "13"
+      "love": "271",
+      "like": "90",
+      "ok": "31",
+      "dislike": "27",
+      "hate": "12"
     }
   },
   "seasons": {
-    "winter": "47",
-    "spring": "270",
-    "summer": "274",
-    "autumn": "160",
-    "day": "264",
-    "night": "151"
+    "winter": "49",
+    "spring": "283",
+    "summer": "288",
+    "autumn": "167",
+    "day": "277",
+    "night": "156"
   },
   "notes": {
     "top": [
@@ -76,29 +100,29 @@
   "longevity": {
     "veryWeak": "10",
     "weak": "13",
-    "moderate": "124",
-    "longLasting": "120",
+    "moderate": "129",
+    "longLasting": "128",
     "eternal": "15"
   },
   "sillage": {
     "intimate": "18",
-    "moderate": "124",
-    "strong": "67",
+    "moderate": "129",
+    "strong": "71",
     "enormous": "8"
   },
   "genderVoting": {
-    "female": "10",
+    "female": "11",
     "moreFemale": "5",
     "unisex": "55",
-    "moreMale": "122",
-    "male": "90"
+    "moreMale": "130",
+    "male": "97"
   },
   "priceVoting": {
-    "wayOverpriced": "10",
+    "wayOverpriced": "11",
     "overpriced": "6",
-    "fair": "30",
-    "goodValue": "121",
-    "greatValue": "85"
+    "fair": "31",
+    "goodValue": "131",
+    "greatValue": "90"
   },
   "remindsMeOf": [
     {
@@ -114,40 +138,12 @@
       "name": "Allure Homme Edition Blanche Eau de Parfum"
     },
     {
-      "brand": "MERCEDES-BENZ",
-      "name": "Mercedes-Benz Sign Your Attitude"
-    },
-    {
       "brand": "VIVANT COSMÉTİCOS",
       "name": "Vivant L'Homme Cologne"
     },
     {
-      "brand": "GUERLAİN",
-      "name": "L'Homme Idéal Cologne Forte"
-    },
-    {
-      "brand": "HERMÈS",
-      "name": "Terre D'Hermes Eau Intense Vetiver"
-    },
-    {
-      "brand": "FRENCH AVENUE",
-      "name": "Aether"
-    },
-    {
-      "brand": "RUE BROCA",
-      "name": "Théorème Homme"
-    },
-    {
-      "brand": "NİSHANE",
-      "name": "Ani X"
-    },
-    {
-      "brand": "AL HARAMAİN PERFUMES",
-      "name": "Natural Iris"
-    },
-    {
-      "brand": "DİOR",
-      "name": "Dior Homme Cologne 2022"
+      "brand": "MERCEDES-BENZ",
+      "name": "Mercedes-Benz Sign Your Attitude"
     },
     {
       "brand": "SAPİENTİAE NİCHE",
@@ -155,18 +151,42 @@
     },
     {
       "brand": "DİOR",
-      "name": "Sauvage Elixir"
+      "name": "Dior Homme Cologne 2022"
     },
     {
       "brand": "SOSPİRO PERFUMES",
       "name": "Vibrato"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Natural Iris"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "Pour Monsieur Eau de Parfum"
+    },
+    {
+      "brand": "HERMÈS",
+      "name": "Terre D'Hermes Eau Intense Vetiver"
+    },
+    {
+      "brand": "NİSHANE",
+      "name": "Ani X"
+    },
+    {
+      "brand": "AMARAN",
+      "name": "Kafu"
+    },
+    {
+      "brand": "RUE BROCA",
+      "name": "Théorème Homme"
+    },
+    {
+      "brand": "FRENCH AVENUE",
+      "name": "Aether"
     }
   ],
   "peopleAlsoLike": [
-    {
-      "brand": "HERMÈS",
-      "name": "Terre d'Hermès"
-    },
     {
       "brand": "RASASİ",
       "name": "Hawas Ice"
@@ -184,6 +204,10 @@
       "name": "Versace Pour Homme Dylan Blue"
     },
     {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Vintage Radio"
+    },
+    {
       "brand": "DOLCE&GABBANA",
       "name": "The One for Men Eau de Parfum"
     },
@@ -198,10 +222,6 @@
     {
       "brand": "FRENCH AVENUE",
       "name": "Spectre Ghost"
-    },
-    {
-      "brand": "LATTAFA PERFUMES",
-      "name": "Al Nashama Caprice"
     },
     {
       "brand": "FRENCH AVENUE",
@@ -222,6 +242,212 @@
     {
       "brand": "DİOR",
       "name": "Dior Homme Intense 2011"
+    },
+    {
+      "brand": "LATTAFA PERFUMES",
+      "name": "Liam"
+    }
+  ],
+  "comments": [
+    {
+      "id": "parent688326",
+      "author": "migheru",
+      "date": "2026-01-17",
+      "text": "Vay canına, bu parfümü her kullandığımda duygudan ağlamak istiyorum.\nDaha önce Guerlain L'Homme kolonyasını kullanmıştım ve nefis bir narenciye kokusuydu. Arsh, bu kokuyu yaklaşık %92 oranında taklit etmeyi başarmış, üstelik ÇOK daha iyi bir performansla!\nBu sadece bir parfüm değil, Arap parfümcülüğünün seviyesini yükselten bir sanat eseri. Kokusu tek kelimeyle muhteşem ve büyüleyici, uzun zamandır aldığım en güzel sürpriz!!!\n\nAma şimdi, parfümden bahsetmişken, Tygar'ı anımsattığını söyleyenleri anlıyorum, ancak ben burada o izlenimi edinmiyorum. Orijinalinde bu nota sadece açılışta var, ancak burada hiçbir noktada mevcut değil. Çok temiz ve rahatlatıcı bir narenciye kokusuyla başlıyor ve ardından badem notası giderek daha belirgin hale geliyor. Temelde hepsi bu: greyfurt, bergamot ve hafif miskli badem. Ama çok lezzetli bir koku! Bu, niş parfüm seviyesinde bir kaliteye sahip; satın almanızı şiddetle tavsiye ederim!!!\n\nHoşluk: 10/10\nKoku: 11/10\nSabitleme süresi: 10/10 (+- 8 saat)\nTahmin: 10/10 (Orta-Güçlü Tahmin 1:30)\n\nKesinlikle! Beni asıl etkileyen şey bu parfümün performansı. L'Homme Cologne hiç kalıcı değil, yayılımı da çok iyi ama o muhteşem kokusu var ve Arsh tam olarak bunu yapıyor! L'Homme Cologne'un o muhteşem kokusuyla inanılmaz derecede kalıcı ve yayılımı mükemmel, kesinlikle sansasyonel!!!!!",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.137294.gif"
+    },
+    {
+      "id": "parent723589",
+      "author": "xaarth",
+      "date": "2026-01-16",
+      "text": "Bu parfüm bir süredir bekliyordu. Kutudan çıkar çıkmaz kompozisyonu iyi koordine edilmemişti; bazı notalar çok göze batıyordu, bu yüzden karanlık bir köşeye attım ve unuttum... ta ki şimdiye kadar. Simya işini yaptı ve şimdi dumanlı, gazlı bir narenciye sodasına dönüştü; dumanlılık topraksı bir niteliğe sahip. Yağmurda dışarı çıkıp limonata içtiğinizi ve güzel, hafif çamurlu bir çimenlikte yürüdüğünüzü hayal edin. Hem hüzünlü hem de hafif pozitif, hem doğal hem de modern bir içecekle cilalanmış, hem çamurlu hem de temiz. Zıtlık belirgin olsa da, çok güvenli ve uç noktalardan ziyade orta noktaya daha yakın. Genel olarak bu koku risk almıyor ama ilginç olmaya devam ediyor ve karakterden yoksun değil. Harika bir ferahlık!",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2415969.jpg"
+    },
+    {
+      "id": "parent688297",
+      "author": "Scents with Sense Inc",
+      "date": "2025-12-22",
+      "text": "Arsh Extrait, greyfurtun ilk baştaki etkisini gösterdiği, canlı, berrak ve temiz bir açılışa sahip. Sulu ama şekerli değil, bergamot ile keskinleştirilerek canlılıktan ziyade ferah bir koku sunuyor. Açılış, gürültülü yaz ferahlatıcılarından ziyade daha rafine bir narenciye kokusu gibi modern ve havadar bir his veriyor. Kalp notalarına doğru ilerledikçe koku belirgin şekilde yumuşuyor. Badem hafif bir kremsilik ve ince bir fındıksılık katarken, neroli temiz, hafif sabunlu bir çiçeksi dokunuş getiriyor. Bu aşama pürüzsüz ve zarif, neredeyse abartısız bir his veriyor; badem, nerolinin çok keskin veya çok beyaz çiçeksi olmasını engelliyor. Kuruma aşaması sakin, miskli ve hafif topraksı. Misk, hayvansal olmaktan ziyade temiz bir şekilde cilde yakın dururken, vetiver her şeyi dengede tutan nazik, yeşil ve kuru bir temel oluşturuyor. Burada aşırı bir tatlılık baskısı yok.\nArsh, ferah, sakin ve dengeli bir bitişe sahip. Performansı orta düzeyde ancak saygıdeğer: yayılımı kontrollü kalıyor ve kalıcılığı da rahatsız edici olmadan sağlam. Bu, iddialı veya güçlü bir koku olmaktan ziyade, temiz tenli, zarif aromatik bir narenciye kokusu. Genel olarak, Arsh Extrait çok yönlü, modern ve kullanımı kolay bir koku. Gündüz veya ofis kokusu olarak iyi çalışıyor ve gerçek anlamda - üst notalarda ferah narenciye, yumuşak çiçeksi-fındıksı kalp, temiz misk tabanı.\nGuerlain'in L'Homme Idéal Köln'ü ile karşılaştırmalar\nModern bir narenciye-aromatik DNA'ya sahip. Klasik kolonyalardan ziyade çağdaş, ferah niş parfümlere benzer temiz bir greyfurt açılışı sunuyor. Badem/neroli kombinasyonu, keskin neroli ağırlıklı kokulara kıyasla daha yumuşak, hafif kremsi bir çiçeksi kalp notası veriyor. Cesur veya deneysel bir kokudan ziyade rafine, çağdaş bir aromatik kokuya daha yakın. Bu, ölçülü, temiz, zarif, ten kokusuna ek olarak hissedilen bir koku.\nDeğerlendirmeler: Arsh Extrait\nKoku:\n9,5 / 10\nUzun ömürlülük:\n7/10\nYayılım:\n7 / 10\nÇok yönlülük:\n9/10\nBenzersizlik:\n7.5/10\nKalite: . ..\n10/10\nSunum:\n9/10\nFiyat:\n9/10\nSonuç olarak, bu koku DNA'sını seviyorsanız muhteşem bir koku. Denge ve ölçülülükle yapılmış, çok temiz, modern bir aromatik. Parlak narenciye, yumuşak badem-neroli ve sakin misk-vetiver alt notaları tercihinizse, Arsh Extrait sağlam bir seçenek.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2252773.jpg"
+    },
+    {
+      "id": "parent723586",
+      "author": "riki001",
+      "date": "2025-12-16",
+      "text": "Bu ürün hakkında karışık yorumlar olduğunun farkındayım, bu yüzden tamamını satın almadan önce küçük bir miktarını denemek zorunda kaldım.\nDenedim, hemen iki şişe sipariş verdim.\nBu madde burnumu o kadar bağımlı hale getiriyor ki, anlatamam. Her 10 dakikada bir bileğimi koklarken kendimi yakalıyorum.\nNarenciye notalarını çok seviyorum ve içinde narenciye bulunan birçok farklı parfümüm var, ama bu parfüm kesinlikle ilk 3'te yer alıyor.\nKeskin bir limon kokusuyla açılıyor, ama daha çok limonlu lolipoplara veya limonlu donutlara benziyor. Aynı anda hem tatlı hem de acı. Kabul etmeliyim ki, oldukça doğrusal bir koku, 5-6 saat boyunca aynı acı tatlı kokuyu koruyor, ancak sonlara doğru biraz misk ve badem de hissediliyor.\nBence bu kokuyu en iyi şekilde şöyle tanımlayabilirim: Imagination'ın tam tersi. Aynı havayı taşıyor, ama daha keskin, daha belirgin bir limon kokusu ve son derece temiz. Imagination'ın aksine, notaları net bir şekilde ayırt edebiliyorsunuz.\nFiyatına göre muhteşem, yaz aylarında her gün kullanılabilecek bir koku. Çok yoğun olmamasına rağmen dikkat çekmenizi sağladığı için en iyi spor salonu kokularından biri.\n\nKoku profili - 9/10\nKarmaşıklık - 6/10\nPerformans (yeni mezun için) - 8.5/10\nFiyat - 10/10",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent688290",
+      "author": "ChrisAd",
+      "date": "2025-11-10",
+      "text": "Yine kör alışveriş, yine harika bir ürün.\nSıcak Akdeniz havasında giyebileceğim bir şeye ihtiyacım vardı ve bunun benim imzam olacağına kesinlikle inanıyorum.\nAllure Blanche ve L'Ideal Cologne'un kremsi limon kokusuna çok benziyor, ancak daha uzun süre kalıcı ve daha etkili.\nAmbalaj konusunda nadiren yorum yaparım ama bu durumda kutulama ve sunum şaşırtıcı derecede iyi.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1258815.jpg"
+    },
+    {
+      "id": "parent688291",
+      "author": "SmellyMogger",
+      "date": "2025-11-05",
+      "text": "Bu parfümü kesinlikle çok seviyorum, kremsi limonata benzeri bir koku. Prive'ye yakın olup olmadığını bilmiyorum ve umurumda da değil çünkü tek başına gerçekten çok güzel. Cildimde 10 saat boyunca orta derecede kalıcılığı var ve bu kalıcılık saatlerinden sonra da uzayan bir koku balonu haline geliyor.\n\nNotlara baktığımda pek çekici görünmüyordu ama giydikten sonra sıcak havalarda vazgeçilmezim oldu.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/himg/o.69247.png"
+    },
+    {
+      "id": "parent723583",
+      "author": "Michael Reed",
+      "date": "2025-10-27",
+      "text": "Bu modeli çok sevdim. Giymeyi dört gözle bekliyorum aslında.\nLas Vegas'ın L'Immensite parfümündeki sade narenciye notalarına biraz daha limon kabuğu rendesi, çiçeksi notalar ve kremsi, pudramsı bir yapı ekleseydiniz, ortaya işte bu çıkardı.\nLV, Bulgari Tygar gibi sade, zarif ve zengin narenciye notasını ön plana çıkaran parfümlerle aynı kategoride yer alıyor, ancak ona kattığı karmaşıklık sayesinde çok daha çekici hale geliyor.\nPerformans ve kalıcılık gerçekten sağlam. Cildimden çok yoğun bir koku yaymıyor, ancak yaklaşık 8 saat boyunca koku bulutları yakalayabiliyorum ve ten kokusu daha da uzun süre kalıyor.\n\nElbette, kişiden kişiye değişebilir, ancak ben bunun gerçekten şık, güvenli ve giymesi inanılmaz keyifli ve canlandırıcı bir narenciye kokusu olduğunu düşünüyorum.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1722890.jpg"
+    },
+    {
+      "id": "parent688333",
+      "author": "fgb",
+      "date": "2025-10-18",
+      "text": "Çok beğendim. Narenciye notaları Tygar Bvlgari, Mercedes-Benz Sign Your Attitude, Exceptre Bronzite gibi parfümlerin tarzına çok benziyor. Allure Edition Blanche ve Dior Homme Cologne ile aroma açısından benzerlik gösterdiğine katılmıyorum; bana göre, aynı konsepti paylaşsalar da çok farklı kokular. Narenciye ağırlıklı olmasına rağmen, badem ve tatlı notalar öne çıkıyor, bu yüzden aşırı sıcaklarda iyi sonuç vermiyor. Klimalı iş ortamları ve daha resmi etkinlikler için mükemmel.\n\nParfümün kullanım amacına uygun olarak yayılımının ve kalıcılığının mükemmel olduğunu teyit etmek için tekrar kontrol ediyoruz.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.190647.jpg"
+    },
+    {
+      "id": "parent723580",
+      "author": "PerfumedTortilla",
+      "date": "2025-09-19",
+      "text": "Sade ve zararsız, ama karakterli.\n\nBu parfümü çok merak ettiğim için eBay'den 10 ml'lik bir numune satın aldım çünkü küçük koleksiyonumda çok fazla tatlı/yoğun/güçlü parfüm var; sahip olduğum tek \"yaz\" parfümleri Nusuk'un Al Mukhtalif'i, Kenzo EdT, Shiyaaka Red ve Paloma Picasso'nun Minotaure'u. Ayrıca odunsu-tuzlu limon gibi kokmayan, narenciye ağırlıklı bir parfüm istiyordum. Ya da Aventus ve benzerleri gibi.\n\nBu parfüm çok rahatlatıcı, içindeki limon olgun ve tatlı, çok az asitli bir limon; limon olgun ama \"aşırı olgunlaşmış\" veya \"kötü\" kokmuyor. İçindeki badem/misk ise fındıksı veya pudralı değil, hafif, biraz kremsi ve \"yumuşak\" diyebiliriz. Bence bademden çok misk kokuyor.\n\nSakin ama bir o kadar da belirgin olan bu parfüm, onu taktığınız her an size ve çevrenizdekilere kendini duyurmak yerine \"keşfedilecek\". İstediğiniz zaman, istediğiniz yerde ve istediğiniz şeyle kullanın. Markete mi gidiyorsunuz? Sıkın. Alışveriş merkezine mi? Sıkın. İşe mi? Sıkın. Bir randevuya mı? Sıradan bir gezintiye mi? Büyükannenizi görmeye mi? Cevabı zaten biliyorsunuz.\n\nGün boyu güzel kokmanızı sağlayacak, cildinizde ve kıyafetlerinizde 7-8 saat kalıcılık sağlayacak. Ve tüm bunlar sadece 50 dolar mı? Evet, teşekkür ederim.\n\nBunu kör alışverişle almayın, diğer tüm parfümlerde olduğu gibi, satın almadan önce mutlaka deneyin. Bu parfümün taklit ettiği kokuyla nasıl karşılaştırıldığını bilmiyorum, bu yüzden o konuda bir şey söyleyemem.\n\nUmarım siz de benim kadar keyif alırsınız.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2148899.jpg"
+    },
+    {
+      "id": "parent688329",
+      "author": "Moisés2009",
+      "date": "2025-08-26",
+      "text": "Arsh'ı değerlendiren ilk Brezilyalı olmaktan çok mutluyum. Bu parfüm çok uzun zamandır ilgimi çekiyordu.\n\nGüzel sunum, uygun fiyat ve üstelik özüt. Peki ya meyve suyu?\n\nAçılışta oldukça taze ve metalik bir koku hissediliyor, Imagination/Meteore'yi anımsatan hafif bir çay dokunuşu da var, ancak badem notası zaten mevcut olduğu için bu uzun sürmüyor. Ardından Sicilya limonu gibi görünen bir narenciye notası geliyor (bence greyfurt, ki bu parfümde Tygar/Vibrato DNA'sına pek benzemiyor).\n\nKoku geliştikçe biraz tatlılık kazanıyor, Platine Prive'de bulunan metalik nüansın bir kısmını kaybediyor ve \"Sicilya limonu\" notası hala mevcutken daha kremsi bir hal alıyor.\n\nPlatine Prive'i çağrıştırırken aynı zamanda kremsi bir narenciye kokusu sunmayı başarıyor; bence bu koku Chanel'in Edition Blanche'ını anımsatıyor.\n\nBu parfüm ile Guerlain arasındaki temel fark badem türüdür; Arş'ta kullanılan badem daha kremamsı iken, Guerlain'de kullanılan badem daha yeşildir.\n\nBu parfüm ile Chanel arasındaki en büyük fark vanilya içeriğidir.\n\nSonuç: Arsh, sofistike ve kendinden emin bir hava yayan harika bir parfüm. Ve (bence) hiçbir parfümün birebir kopyası olmasa da, Platine Prive, Ideal Cologne, Edition Blanche, Imagination, Meteore vb. parfümleri sevenleri çok memnun edecektir.\n\nBu harika hediyeyi bana veren arkadaşım Guilherme'ye teşekkür ederim.",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com.br",
+      "avatar": "https://fimgs.net/mdimg/avataript/m.138588.jpg"
+    },
+    {
+      "id": "parent688289",
+      "author": "Felixthreeone",
+      "date": "2025-08-14",
+      "text": "Beklediğim kadar yakın değil. En azından Guerlain Platine Prive'ye benzemiyor.\n\nPlatine Prive şişemin bir kısmını başka bir kaba aktardım, geri kalanını ise sattım. Beğendim ama performansı oldukça kötüydü.\n\nBu ürünü duyduğumda çok heyecanlandım ve bir şişe sipariş ettim. Daha etkili bir GPP olmasını umuyorum.\n\nİlk heyecanım, bu ürünün badem aromasını neredeyse tamamen ortadan kaldırdığını fark ettikten sonra azaldı. Sadece çok az bir miktar hissedebiliyorum. Platine Prive ile doğrudan karşılaştırma bunu doğruluyor. Eğer bir değerlendirme yapmam gerekirse, yaklaşık %75 oranında benzer olduğunu söyleyebilirim.\n\nBu, Platine Prive'ı özel kılan her şeyi kaçırmış. İnce ayrıntılar burada yok, bu da genel olarak tüm kopya oyunlarda görülen bir durum gibi görünüyor.\n\nAma durun!!!! Bu kimseyi denemekten caydırmasın!!\n\nHâlâ harika bir alışveriş. Aşağıdaki yorumcu @icemanbrfc bence en iyi şekilde özetlemiş: Bu parfüm, bu tarzda birçok parfümün özelliklerini bir araya getiriyor.\n\nPlatine Prive ile karşılaştırmaya gerek kalmadan bile, bu ürünün performansı ve çekiciliği çok iyi. Çok beğendim ve yazın geri kalanında da giymeyi dört gözle bekliyorum.\n\nEk olarak: Kaliteli ambalaj, kaliteli şişe, basınçlı atomizör. Fiyatına göre gerçekten çok iyi bir ürün.",
+      "sentiment": "sky",
+      "gradient": "tw-gradient-sky",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1753657.jpg"
+    },
+    {
+      "id": "parent688293",
+      "author": "Bllynch1",
+      "date": "2025-08-02",
+      "text": "Platine Prive'ı denemedim ama serinin diğerlerini badem notası bana uymadığı için beğenmesem de, Cologne'u çok sevmiştim. Bir şekilde Cologne'un ferahlığıyla birleşince bana uydu. Arsh da aynı çizgide ve benim burnuma göre Cologne'u taklit etmeye çalışıyor. Bence bunu saygıdeğer bir şekilde başarıyor. Bire bir aynı değil ve Cologne'un aynı kalitesine veya zarafetine sahip değil, ama sizi oraya götürüyor ve havada çok benzer kokuyor. Kız arkadaşım da çok seviyor ve hatta onu kullandığında birkaç istenmeyen iltifat bile aldı. Mükemmel değil, ama L'Homme Ideal Cologne'u benim kadar özlüyorsanız, özleminizi giderecektir. Daha iyi bir muadili çıkmadığı sürece, bu kesinlikle parfüm koleksiyonumun vazgeçilmezlerinden biri olacak!",
+      "sentiment": "orange",
+      "gradient": "tw-gradient-orange",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1202288.jpg"
+    },
+    {
+      "id": "parent688295",
+      "author": "icemanbrfc",
+      "date": "2025-06-04",
+      "text": "Bu parfüm, Platine Prive, Edition Blanche, Ideal Cologne ve Jimmy Choo Man Ice'ın tüm özelliklerini taşıyor. Kış veya yaz fark etmeksizin yılın her mevsiminde kullanabileceğiniz harika bir koku.\n\nDördüncü yedek şişeyi de sipariş ettim, o kadar beğendim ki. 30 dolara aldığım için fiyatına göre harika bir ürün.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1225720.jpg"
+    },
+    {
+      "id": "parent723578",
+      "author": "dream//housecc",
+      "date": "2025-06-01",
+      "text": "Harika bir klon, %95 oranında klonladığı ürünün kolonya versiyonu.\n\nBana orijinal Guerlain Lhome Ideal kolonyasını hatırlatıyor. Şişemin neredeyse yarısı boşalmış olmasına sevindim. Dürüst olmak gerekirse, benim burnuma göre bu koku neredeyse canavar gibi.\n\nEğer turunçgil ve neroli aromalarını seviyorsanız, bu da hoşunuza gidecektir. Badem aromasını alamadım ama içinde var.\n\nTam bir kullanım deneyimi yaşamam gerekecek. Ama sadece elime sıktığımda bile 10 saat dayandı.\n\nKeyfini çıkarın. Bunu bir deneyin. Belki de yedek bir tane daha alırsınız!",
+      "sentiment": "teal",
+      "gradient": "tw-gradient-teal",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2535018.jpg"
+    },
+    {
+      "id": "parent723574",
+      "author": "Mansour_Ahmed",
+      "date": "2025-05-29",
+      "text": "Yaklaşık 3 aylık bekletme işleminden sonra fikrimi değiştirdiğimi söylemeliyim.\n\nArapçada \"taht\" anlamına gelen Arş, zamanla bana çok daha fazla sevdirmiş kendini.\n\nİlk aldığımda beğenmiştim, kalitesi ilk günden beri harikaydı ama şimdi buna bayılıyorum.\n\nYazlık bir koku için performansı çok iyi, 5 ila 7 saat kalıcılık sağlıyor.\n\nNarenciye kokularını seviyorsanız, Arsh kesinlikle denemeye değer 💯\n\nMaserasyondan sonra\nBenim için 10 üzerinden 8,7 puan 😘😘",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.2199927.jpg"
+    },
+    {
+      "id": "parent723576",
+      "author": "Newtype0085",
+      "date": "2025-05-15",
+      "text": "Açılışta L'Homme Ideal Kolonya'ya çok benziyor, kurudukça ise Platine Privé'ye daha çok benziyor; kalıcılığı şimdilik sadece orta seviyede (~6 saat), ancak Guerlain'in iki parfümünün de performansı çok iyi değildi. Şişenin havalandırılmasıyla performansının artacağına dair iyimserim.\n\nİstenen fiyata göre harika bir fırsat. Bu koku profilini Allure Edition Blanch/EB Parfum'dan çok daha fazla beğendim. Bu küçük numune bittiğinde tam şişesini almayı dört gözle bekliyorum, yakında postayla bir tane gelecek. Dürüst olmak gerekirse, bu kokuyu daha çok sevdiğim için L'Homme Ideal Cologne'un küçük bir kısmını satmayı düşünüyorum.",
+      "sentiment": "amber",
+      "gradient": "tw-gradient-amber",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1730175.jpg"
+    },
+    {
+      "id": "parent688292",
+      "author": "ssaminn",
+      "date": "2025-04-26",
+      "text": "Soğuk havalara uygun, çoğunlukla tatlı, sıcak ve gurme kokulara her zaman ilgi duymuş bir kadın olarak, şimdi de aradığım o kokuyu bulmak umuduyla olabildiğince çok yaz kokusu deneme yolculuğundayım!\n\nArsh benim için gerçekten ilginç bir yaz kokusu çünkü kelimenin tam anlamıyla serin kokuyor! İlk sıktığımda, \"Aman Tanrım! Serin bir esinti gibi! Klima gibi!\" diye düşündüm. Birkaç dakika sonra beyaz rengin kokusuna benziyor! Taze, temiz, serin, ekşi değil, tatlı değil, sadece hafif ve beyaz! Yoğun bir limon kokusuyla açılıyor ve 5 dakika sonra, şimdiye kadar duyduğum en temiz kokuya dönüşüyor.\n2 saat sonra neroli ortaya çıkıyor ve kelimenin tam anlamıyla çok pahalı bir sabun gibi kokuyor. Ama soğuk sabun gibi! Vetiver, bu kadar serin bir koku için ona çok sofistike bir hava katıyor.\n\nBir gurme olarak benim aşık olabileceğim bir şey değil, sadece yaz sıcağını atlatmak için çok hoş ve gerekli bir koku.\n\nTygar, Turathi Blue, Imagination, Pinnace Oryn, Pacific Chill gibi parfümleri denedim ve kokuları hoş olsa da, hiçbiri çok sıcak havalarda dayanılabilir gelmedi. Sanırım 20 ila 35 derece arası sıcaklıklar için uygunlar.\n\nBence Arsh, yılın en sıcak günleri için, 30 derecenin üzerindeki sıcaklıklar için, yani deodorant dışında hiçbir şey sıkmaya cesaret edemeyeceğiniz kadar sıcak günler için ideal bir koku. Güneşin altında terlerken, sadece temiz ve serin kokmak istediğiniz zamanlar için. Cinsiyete özgü bir koku değil, çok güçlü bir yayılımı yok ama kıyafetlerde 5 saatten fazla kalıcılık sağlayan küçük ve güçlü bir koku balonu bırakıyor.\n\nSanırım bir ay sonra, Haziran'da, yaşadığım yerde hava o kadar sıcak olacak ve teorimi test edip sonuçları bildirebileceğim.",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.189876.jpg"
+    },
+    {
+      "id": "parent688317",
+      "author": "Rymato",
+      "date": "2025-04-20",
+      "text": "L'Homme Idéal Platine Privé ile paralel olarak karşılaştırıldı.\nArsh daha güçlü bir başlangıca sahip, narenciye aroması hafif tatlı ve limon tadı belirgin bir şekilde hissediliyor; bu özellik Guerlain'de tamamen yok.\n15 dakika sonra aromalar birbirine daha çok benzemeye başlar.\nGuerlain daha çok badem içeriyor, yumuşak ve kremsi. Arsh ise biraz daha ekşi, daha çok neroli aroması var, daha tatlı ve daha belirgin bir yeşil notası mevcut. Dip notalarında ise daha odunsu bir yapı var.\nArab'ın performans özellikleri Guerlain'inkinden daha iyidir.\nİki koku da aynı tarzda, ancak tamamen aynı değil. Görünüşe göre, limon ve hafif tatlılığı nedeniyle Allure Edition Blanche benzer bir koku olarak kabul ediliyor.\nGenel olarak kokuyu beğendim.\nKalitesi fiyatından açıkça daha yüksek, ancak kesinlikle öncekilerle kıyaslanamaz.\nEvet, Arsh'ın sunumu kesinlikle \"pahalı ve gösterişli\", sağlam bir kutu.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.ru",
+      "avatar": "https://fimgs.net/mdimg/avatariru/m.389457.jpg"
+    },
+    {
+      "id": "parent723573",
+      "author": "KarlK",
+      "date": "2025-02-10",
+      "text": "İlk günden itibaren muhteşem bir koku.\n\nAz önce aldım ve harika kokuyor! Olgunlaşmadan önce birçok taklit parfümde olduğu gibi alkol kokusu yok. Hoş, yumuşak, kremsi, narenciye kokulu, ferah bir koku. Muhtemelen zamanla daha da güzelleşecek ve daha uzun süre kalıcı olacak, şu an yaklaşık 4 saat boyunca yaklaşık 45 cm'lik bir alana yayılıyor.\n\nGenellikle sıcak, kehribar ve vanilya kokularına yönelen biri olarak, bunu ne kadar çok sevdiğime şaşırdım.",
+      "sentiment": "rose",
+      "gradient": "tw-gradient-rose",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1980647.jpg"
+    },
+    {
+      "id": "parent688288",
+      "author": "otteromkram",
+      "date": "2024-07-02",
+      "text": "Bunu giydim ve ilk dışarı çıktığımda çok büyük bir iltifat aldım: Çok hoş bir bayan beni durdurup \"Tam bir bok gibi kokuyorsun!\" dedi.\n\nBen de \"Teşekkürler! Kimsenin fark edeceğini düşünmemiştim!\" diye yanıt verdim.\n\nAyrılmadan önce, üzerinde bir isim ve birkaç rakam yazılı bir kağıdı bana uzattı. Ona tekrar teşekkür ettim ve ayrılmadan önce hızlıca göz kırptım.\n\nGarip olan şu ki, o hafta içinde numarayı aradığımda yerel Hayvan Kontrol ofisine bağlandım. Numarayı aceleyle not alırken birini karıştırmış olmalı. Olsun, önemli değil! Dışarı çıkmadan önce bu sihirli iksiri sürmeyi hatırladığım sürece, daha birçok benzer hayvan bulacağım!\n\nÖzetle -\n\nArkadaşlar, bu içeceği sakın kaçırmayın!!1",
+      "sentiment": "emerald",
+      "gradient": "tw-gradient-emerald",
+      "source": "Fragrantica.com",
+      "avatar": "https://fimgs.net/mdimg/avatari/m.1302803.jpg"
     }
   ]
 }

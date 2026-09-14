@@ -33,6 +33,34 @@
     {
       "name": "taze",
       "width": "47.9683%"
+    },
+    {
+      "name": "Şurada ara",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
@@ -67,33 +95,94 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "3",
+    "weak": "1",
+    "moderate": "9",
+    "longLasting": "22",
+    "eternal": "7"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "3",
+    "moderate": "9",
+    "strong": "28",
+    "enormous": "12"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "0",
+    "unisex": "5",
+    "moreMale": "4",
+    "male": "15"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "14",
+    "overpriced": "4",
     "fair": "3",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "TOM FORD",
+      "name": "Italian Cypress"
+    },
+    {
+      "brand": "BVLGARİ",
+      "name": "Bvlgari Man Wood Essence"
+    },
+    {
+      "brand": "FLORİS",
+      "name": "1962"
+    },
+    {
+      "brand": "ALEXANDRİA FRAGRANCES",
+      "name": "Italian Forest"
+    },
+    {
+      "brand": "DOLCE&GABBANA",
+      "name": "Velvet Cypress"
+    },
+    {
+      "brand": "INSİDER PARFUMS",
+      "name": "The Captain"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "name": "Polo"
+    },
+    {
+      "brand": "VERTUS",
+      "name": "Monarch"
+    },
+    {
+      "brand": "ANTONİO PUİG",
+      "name": "Quorum"
+    },
+    {
+      "brand": "SERGE LUTENS",
+      "name": "Un Bois Sepia"
+    },
+    {
+      "brand": "PARFUMS DE MARLY",
+      "name": "Haltane"
+    },
+    {
+      "brand": "HUGH PARSONS",
+      "name": "Savile Row"
+    },
+    {
+      "brand": "TRNP",
+      "name": "Black Spruce"
+    },
+    {
+      "brand": "CALVİN KLEİN",
+      "name": "Euphoria Amber Gold Men"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Cypress & Grapevine Cologne Intense"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TOM FORD",
@@ -116,12 +205,12 @@
       "name": "Baccarat Rouge 540"
     },
     {
-      "brand": "DİOR",
-      "name": "Dior Homme Intense 2011"
-    },
-    {
       "brand": "CREED",
       "name": "Aventus"
+    },
+    {
+      "brand": "DİOR",
+      "name": "Dior Homme Intense 2011"
     },
     {
       "brand": "CHANEL",
@@ -155,5 +244,6 @@
       "brand": "PARFUMS DE MARLY",
       "name": "Herod"
     }
-  ]
+  ],
+  "comments": []
 }

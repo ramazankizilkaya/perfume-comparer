@@ -119,7 +119,7 @@ export default function PerfumePicker({
                     {suggestions.map((s) => (
                         <li key={s.slug}>
                             <button type="button" onClick={() => add(s)}>
-                                {s.imageUrl && <img src={mediaUrl(s.imageUrl)} alt="" loading="lazy" />}
+                                {s.imageUrl && <img src={mediaUrl(s.imageUrl)} alt={`${s.brandName} ${s.name} parfümü`} loading="lazy" />}
                                 <span className="picker-item-text">
                                     <span className="picker-item-brand">{s.brandName}</span>
                                     <span className="picker-item-name">{s.name}</span>

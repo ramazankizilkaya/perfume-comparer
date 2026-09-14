@@ -49,13 +49,41 @@
     {
       "name": "paçuli",
       "width": "56.7046%"
+    },
+    {
+      "name": "Sadece online satın alın 2 üzerinde ürün",
+      "width": "100%"
+    },
+    {
+      "name": "kadın",
+      "width": "6px"
+    },
+    {
+      "name": "unisex",
+      "width": "6px"
+    },
+    {
+      "name": "erkek",
+      "width": "6px"
+    },
+    {
+      "name": "$$$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$$$",
+      "width": "6px"
+    },
+    {
+      "name": "$",
+      "width": "6px"
     }
   ],
   "rating": {
     "score": "3.81",
-    "votesCount": "207",
+    "votesCount": "208",
     "breakdown": {
-      "love": "88",
+      "love": "89",
       "like": "57",
       "ok": "8",
       "dislike": "42",
@@ -65,7 +93,7 @@
   "seasons": {
     "winter": "34",
     "spring": "16",
-    "summer": "9",
+    "summer": "10",
     "autumn": "47",
     "day": "28",
     "night": "41"
@@ -88,33 +116,78 @@
     ]
   },
   "longevity": {
-    "veryWeak": "",
-    "weak": "",
-    "moderate": "",
-    "longLasting": "",
-    "eternal": ""
+    "veryWeak": "10",
+    "weak": "3",
+    "moderate": "12",
+    "longLasting": "38",
+    "eternal": "46"
   },
   "sillage": {
-    "intimate": "",
-    "moderate": "",
-    "strong": "",
-    "enormous": ""
+    "intimate": "17",
+    "moderate": "12",
+    "strong": "54",
+    "enormous": "60"
   },
   "genderVoting": {
-    "female": "",
-    "moreFemale": "",
-    "unisex": "",
-    "moreMale": "",
-    "male": ""
+    "female": "0",
+    "moreFemale": "1",
+    "unisex": "11",
+    "moreMale": "14",
+    "male": "8"
   },
   "priceVoting": {
-    "wayOverpriced": "",
-    "overpriced": "",
+    "wayOverpriced": "8",
+    "overpriced": "10",
     "fair": "8",
-    "goodValue": "",
-    "greatValue": ""
+    "goodValue": "2",
+    "greatValue": "2"
   },
-  "remindsMeOf": [],
+  "remindsMeOf": [
+    {
+      "brand": "XERJOFF",
+      "name": "Luxor"
+    },
+    {
+      "brand": "ZAHAROFF",
+      "name": "Signature Tabac"
+    },
+    {
+      "brand": "THE DUA BRAND",
+      "name": "Baniqia"
+    },
+    {
+      "brand": "TİZİANA TERENZİ",
+      "name": "Leonis I"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "name": "Myrrh & Tonka"
+    },
+    {
+      "brand": "AL HARAMAİN PERFUMES",
+      "name": "Portfolio Imperial Oud"
+    },
+    {
+      "brand": "XERJOFF",
+      "name": "La Capitale"
+    },
+    {
+      "brand": "AMOUAGE",
+      "name": "Sequence"
+    },
+    {
+      "brand": "NASOMATTO",
+      "name": "Black Afgano"
+    },
+    {
+      "brand": "THE MERCHANT OF VENİCE",
+      "name": "Oudrageous"
+    },
+    {
+      "brand": "MELEG PERFUMES",
+      "name": "Golden Gai"
+    }
+  ],
   "peopleAlsoLike": [
     {
       "brand": "TOM FORD",
@@ -149,12 +222,12 @@
       "name": "Chergui"
     },
     {
-      "brand": "TOM FORD",
-      "name": "Noir de Noir"
-    },
-    {
       "brand": "FREDERİC MALLE EDİTİONS DE PARFUMS",
       "name": "Musc Ravageur"
+    },
+    {
+      "brand": "TOM FORD",
+      "name": "Noir de Noir"
     },
     {
       "brand": "CREED",
@@ -176,5 +249,6 @@
       "brand": "HİSTOİRES DE PARFUMS",
       "name": "1740 Marquis de Sade"
     }
-  ]
+  ],
+  "comments": []
 }
