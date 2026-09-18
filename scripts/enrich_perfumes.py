@@ -5,8 +5,10 @@ scripts/enrich_perfumes.py
 Çekilmiş parfüm verilerini (koku piramidi, topluluk oyları ve kullanıcı yorumları)
 büyük dil modeli (Gemini / OpenAI) ile zenginleştirerek her parfüm için:
 1. 'article': 300-450 kelimelik SEO uyumlu derinlemesine ürün inceleme makalesi
-2. 'faq': Google "People Also Ask" ve FAQPage Schema uyumlu 5 adet SSS nesnesi üretir
-ve ilgili JSON dosyasına yazar.
+2. 'faq': Google "People Also Ask" ve FAQPage Schema uyumlu 10 adet detaylı SSS nesnesi
+3. 'description' & 'description_enhanced': Fragrantica kopyasını önleyen özgün ve akıcı Türkçe ürün tanıtımı
+4. 'concentration' & 'fragranceFamily': Eksik veya belirsiz esans tipi ve koku ailesi sınıflandırması
+üretir ve doğrudan ilgili JSON dosyasına yazar.
 
 Kullanım:
     python3 scripts/enrich_perfumes.py afnan            # Sadece 'afnan' markasındaki eksik parfümleri zenginleştirir
@@ -30,6 +32,18 @@ import app_settings
 
 GEMINI_API_KEY = app_settings.gemini_api_key()
 GEMINI_MODEL = app_settings.setting("Gemini:Model", default="gemini-3.5-flash-lite")
+GEMINI_MODELS = [
+    GEMINI_MODEL,
+    "gemini-3.1-flash-lite",
+    "gemini-3.5-flash",
+    "gemini-3.1-flash-lite-preview",
+    "gemini-3-flash-preview",
+    "gemini-3.6-flash"
+]
+# Tekrarları önle, sırayı koru
+GEMINI_MODELS = list(dict.fromkeys(GEMINI_MODELS))
+ACTIVE_GEMINI_MODEL_IDX = 0
+GROQ_API_KEY = app_settings.groq_api_key()
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 
 def build_enrichment_prompt(perfume_data: dict) -> str:
@@ -136,54 +150,140 @@ Yalnızca aşağıdaki JSON formatında saf çıktı ver (markdown kod bloğu ba
 }}"""
 
 def call_gemini(prompt: str, model: str | None = None, retries: int = 3) -> dict | None:
+    global ACTIVE_GEMINI_MODEL_IDX
     if not GEMINI_API_KEY:
         return None
-    selected_model = model or GEMINI_MODEL
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{selected_model}:generateContent?key={GEMINI_API_KEY}"
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "response_mime_type": "application/json",
-            "temperature": 0.3
-        }
-    }
+
+    models_to_try = [model] if model else GEMINI_MODELS[ACTIVE_GEMINI_MODEL_IDX:]
     
     ctx = ssl.create_default_context()
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"}
-    )
 
-    for attempt in range(1, retries + 1):
+    for selected_model in models_to_try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{selected_model}:generateContent?key={GEMINI_API_KEY}"
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {
+                "response_mime_type": "application/json",
+                "temperature": 0.3
+            }
+        }
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"}
+        )
+
+        quota_exhausted = False
+        for attempt in range(1, retries + 1):
+            try:
+                with urllib.request.urlopen(req, timeout=90, context=ctx) as response:
+                    res_data = json.loads(response.read().decode("utf-8"), strict=False)
+                    raw_text = res_data["candidates"][0]["content"]["parts"][0]["text"].strip()
+                    start_idx = raw_text.find("{")
+                    end_idx = raw_text.rfind("}")
+                    if start_idx != -1 and end_idx != -1 and end_idx > start_idx:
+                        json_str = raw_text[start_idx:end_idx + 1]
+                    else:
+                        json_str = raw_text
+                    return json.loads(json_str.strip(), strict=False)
+            except urllib.error.HTTPError as e:
+                err_body = e.read().decode("utf-8", errors="ignore")
+                if e.code == 429:
+                    if "Quota exceeded" in err_body or "RESOURCE_EXHAUSTED" in err_body:
+                        print(f"    [Gemini Günlük Kota Doldu]: '{selected_model}' modelinin günlük kotası tükendi.")
+                        quota_exhausted = True
+                        break
+                    wait_time = 15 * attempt
+                    print(f"    [Gemini 429 - Dakikalık Limit ({selected_model})]: {wait_time} saniye bekleniyor...")
+                    time.sleep(wait_time)
+                else:
+                    print(f"    [Gemini Hatası ({selected_model}) - Deneme {attempt}/{retries}]: HTTP {e.code}")
+                    if attempt < retries:
+                        time.sleep(attempt * 3)
+            except Exception as e:
+                print(f"    [Gemini Hatası ({selected_model}) - Deneme {attempt}/{retries}]: {e}")
+                if attempt < retries:
+                    time.sleep(attempt * 3)
+
+        if quota_exhausted:
+            if not model and ACTIVE_GEMINI_MODEL_IDX + 1 < len(GEMINI_MODELS):
+                ACTIVE_GEMINI_MODEL_IDX += 1
+                next_model = GEMINI_MODELS[ACTIVE_GEMINI_MODEL_IDX]
+                print(f"    [Model Değiştirildi]: Otomatik olarak yedek modele geçildi -> {next_model}")
+            continue
+
+    return None
+
+def call_groq(prompt: str, model: str = "openai/gpt-oss-120b", max_retries: int = 5) -> dict | None:
+    if not GROQ_API_KEY:
+        return None
+    url = "https://api.groq.com/openai/v1/chat/completions"
+    payload = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": "Sen parfüm ve SEO uzmanısın. Yalnızca istenen JSON yapısını döndürürsün."},
+            {"role": "user", "content": prompt}
+        ],
+        "response_format": {"type": "json_object"},
+        "temperature": 0.3
+    }
+    ctx = ssl.create_default_context()
+    ctx.check_hostname = False
+    ctx.verify_mode = ssl.CERT_NONE
+
+    for attempt in range(1, max_retries + 1):
         try:
-            with urllib.request.urlopen(req, timeout=90, context=ctx) as response:
-                res_data = json.loads(response.read().decode("utf-8"))
-                text = res_data["candidates"][0]["content"]["parts"][0]["text"].strip()
-                if text.startswith("```json"):
-                    text = text[7:]
-                if text.startswith("```"):
-                    text = text[3:]
-                if text.endswith("```"):
-                    text = text[:-3]
-                return json.loads(text.strip())
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(payload).encode("utf-8"),
+                headers={
+                    "Content-Type": "application/json",
+                    "Authorization": f"Bearer {GROQ_API_KEY}",
+                    "User-Agent": "AuraCompare/1.0"
+                }
+            )
+            with urllib.request.urlopen(req, timeout=45, context=ctx) as response:
+                res_data = json.loads(response.read().decode("utf-8"), strict=False)
+                content = res_data["choices"][0]["message"]["content"].strip()
+                s = content.find("{")
+                e = content.rfind("}")
+                if s != -1 and e != -1 and e > s:
+                    content = content[s:e+1]
+                return json.loads(content, strict=False)
         except urllib.error.HTTPError as e:
             if e.code == 429:
-                wait_time = 15 * attempt
-                print(f"    [Gemini 429 - İstek Sınırı]: {wait_time} saniye bekleniyor...")
-                time.sleep(wait_time)
+                wait_sec = 15 * attempt
+                if hasattr(e, "headers"):
+                    retry_after = e.headers.get("retry-after")
+                    if retry_after:
+                        try:
+                            wait_sec = max(5, int(float(retry_after)) + 1)
+                        except:
+                            pass
+                    else:
+                        reset_tokens = e.headers.get("x-ratelimit-reset-tokens")
+                        if reset_tokens:
+                            try:
+                                if reset_tokens.endswith("ms"):
+                                    wait_sec = max(3, int(float(reset_tokens[:-2]) / 1000) + 1)
+                                elif reset_tokens.endswith("s"):
+                                    wait_sec = max(3, int(float(reset_tokens[:-1])) + 1)
+                            except:
+                                pass
+                print(f"    [Groq 429 - Hız Sınırı]: {wait_sec} saniye bekleniyor (Deneme {attempt}/{max_retries})...")
+                time.sleep(wait_sec)
+                continue
             else:
-                err_body = e.read().decode("utf-8", errors="ignore")
-                print(f"    [Gemini Hatası ({selected_model}) - Deneme {attempt}/{retries}]: HTTP {e.code}")
-                if attempt < retries:
-                    time.sleep(attempt * 5)
+                print(f"    [Groq Hatası]: HTTP {e.code}")
+                return None
         except Exception as e:
-            print(f"    [Gemini Hatası ({selected_model}) - Deneme {attempt}/{retries}]: {e}")
-            if attempt < retries:
-                time.sleep(attempt * 3)
+            print(f"    [Groq Hatası]: {e}")
+            return None
+
     return None
+
 
 def call_openai(prompt: str, model: str = "gpt-4o-mini") -> dict | None:
     if not OPENAI_API_KEY:
@@ -231,6 +331,8 @@ def enrich_single_perfume(file_path: str, force: bool = False) -> bool:
 
     if GEMINI_API_KEY:
         ai_result = call_gemini(prompt)
+    if not ai_result and GROQ_API_KEY:
+        ai_result = call_groq(prompt)
     if not ai_result and OPENAI_API_KEY:
         ai_result = call_openai(prompt)
 
@@ -273,7 +375,7 @@ def main():
     parser.add_argument("limit", nargs="?", type=int, default=None, help="İşlenecek maksimum parfüm sayısı")
     parser.add_argument("--all", action="store_true", help="Tüm markaları işle")
     parser.add_argument("--force", action="store_true", help="Var olan makale ve SSS'lerin üzerine yaz")
-    parser.add_argument("--delay", type=float, default=4.0, help="İstekler arası bekleme süresi saniye cinsinden (varsayılan: 4.0)")
+    parser.add_argument("--delay", type=float, default=5.5, help="İstekler arası bekleme süresi saniye cinsinden (varsayılan: 5.5)")
     args = parser.parse_args()
 
     base_dir = Path(__file__).resolve().parent.parent / "scrape_files" / "perfumes"

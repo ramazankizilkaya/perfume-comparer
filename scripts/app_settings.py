@@ -61,3 +61,8 @@ def setting(path: str, env_var: str | None = None, default: Any = None) -> Any:
 def gemini_api_key() -> str:
     """Scraper'ların kullandığı Gemini anahtarı. Yoksa boş döner ve AI adımı atlanır."""
     return setting("Gemini:ApiKey", env_var="GEMINI_API_KEY", default="") or ""
+
+
+def groq_api_key() -> str:
+    """Groq API anahtarı."""
+    return setting("Groq:ApiKey", env_var="GROQ_API_KEY", default="") or ""
