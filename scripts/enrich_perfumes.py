@@ -24,6 +24,8 @@ import time
 import urllib.request
 import ssl
 import argparse
+import threading
+from queue import Queue
 from pathlib import Path
 
 # Ortak ayar modülü
@@ -33,15 +35,14 @@ import app_settings
 GEMINI_API_KEY = app_settings.gemini_api_key()
 GEMINI_MODEL = app_settings.setting("Gemini:Model", default="gemini-3.5-flash-lite")
 GEMINI_MODELS = [
-    GEMINI_MODEL,
+    "gemini-3.8-flash",
     "gemini-3.1-flash-lite",
-    "gemini-3.5-flash",
-    "gemini-3.1-flash-lite-preview",
+    "gemini-3.6-flash",
     "gemini-3-flash-preview",
-    "gemini-3.6-flash"
+    GEMINI_MODEL
 ]
 # Tekrarları önle, sırayı koru
-GEMINI_MODELS = list(dict.fromkeys(GEMINI_MODELS))
+GEMINI_MODELS = list(dict.fromkeys([m for m in GEMINI_MODELS if m]))
 ACTIVE_GEMINI_MODEL_IDX = 0
 GROQ_API_KEY = app_settings.groq_api_key()
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
@@ -259,7 +260,11 @@ def call_groq(prompt: str, model: str = "openai/gpt-oss-120b", max_retries: int 
                     retry_after = e.headers.get("retry-after")
                     if retry_after:
                         try:
-                            wait_sec = max(5, int(float(retry_after)) + 1)
+                            ra = int(float(retry_after))
+                            if ra > 30:
+                                print(f"    [Groq Kotası Doldu]: {ra} saniyelik uzun kota limiti tespit edildi, diğer modele geçiliyor...")
+                                return None
+                            wait_sec = max(5, ra + 1)
                         except:
                             pass
                     else:
@@ -272,6 +277,9 @@ def call_groq(prompt: str, model: str = "openai/gpt-oss-120b", max_retries: int 
                                     wait_sec = max(3, int(float(reset_tokens[:-1])) + 1)
                             except:
                                 pass
+                if wait_sec > 30:
+                    print(f"    [Groq Hız Sınırı]: {wait_sec} saniye bekleme süresi aşıldı, atlanıyor...")
+                    return None
                 print(f"    [Groq 429 - Hız Sınırı]: {wait_sec} saniye bekleniyor (Deneme {attempt}/{max_retries})...")
                 time.sleep(wait_sec)
                 continue
@@ -283,6 +291,39 @@ def call_groq(prompt: str, model: str = "openai/gpt-oss-120b", max_retries: int 
             return None
 
     return None
+
+
+def call_ollama(prompt: str, model: str = "qwen2.5:7b", timeout: int = 180) -> dict | None:
+    url = "http://localhost:11434/api/chat"
+    payload = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": "Sen parfüm ve SEO uzmanısın. Yalnızca istenen JSON yapısını döndürürsün."},
+            {"role": "user", "content": prompt}
+        ],
+        "format": "json",
+        "stream": False,
+        "options": {
+            "temperature": 0.3
+        }
+    }
+    try:
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"}
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            res_data = json.loads(response.read().decode("utf-8"))
+            content = res_data.get("message", {}).get("content", "").strip()
+            s = content.find("{")
+            e = content.rfind("}")
+            if s != -1 and e != -1 and e > s:
+                content = content[s:e+1]
+            return json.loads(content, strict=False)
+    except Exception as e:
+        print(f"    [Ollama Hatası ({model})]: {e}")
+        return None
 
 
 def call_openai(prompt: str, model: str = "gpt-4o-mini") -> dict | None:
@@ -315,7 +356,7 @@ def call_openai(prompt: str, model: str = "gpt-4o-mini") -> dict | None:
         print(f"    [OpenAI Hatası]: {e}")
         return None
 
-def enrich_single_perfume(file_path: str, force: bool = False) -> bool:
+def enrich_single_perfume(file_path: str, force: bool = False, use_ollama: bool = False, ollama_model: str = "qwen2.5:7b") -> bool:
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -329,12 +370,17 @@ def enrich_single_perfume(file_path: str, force: bool = False) -> bool:
     prompt = build_enrichment_prompt(data)
     ai_result = None
 
-    if GEMINI_API_KEY:
-        ai_result = call_gemini(prompt)
-    if not ai_result and GROQ_API_KEY:
-        ai_result = call_groq(prompt)
-    if not ai_result and OPENAI_API_KEY:
-        ai_result = call_openai(prompt)
+    if use_ollama:
+        ai_result = call_ollama(prompt, model=ollama_model)
+    else:
+        if GEMINI_API_KEY:
+            ai_result = call_gemini(prompt)
+        if not ai_result and GROQ_API_KEY:
+            ai_result = call_groq(prompt)
+        if not ai_result and OPENAI_API_KEY:
+            ai_result = call_openai(prompt)
+        if not ai_result:
+            ai_result = call_ollama(prompt, model=ollama_model)
 
     if not ai_result or not isinstance(ai_result, dict):
         print(f"    [Atlandı] AI yanıtı alınamadı: {data.get('name')}")
@@ -375,16 +421,20 @@ def main():
     parser.add_argument("limit", nargs="?", type=int, default=None, help="İşlenecek maksimum parfüm sayısı")
     parser.add_argument("--all", action="store_true", help="Tüm markaları işle")
     parser.add_argument("--force", action="store_true", help="Var olan makale ve SSS'lerin üzerine yaz")
-    parser.add_argument("--delay", type=float, default=5.5, help="İstekler arası bekleme süresi saniye cinsinden (varsayılan: 5.5)")
+    parser.add_argument("--ollama", action="store_true", help="Yerel Ollama servisini (Qwen 2.5) kullan")
+    parser.add_argument("--model", type=str, default="qwen2.5:7b", help="Ollama model adı (varsayılan: qwen2.5:7b)")
+    parser.add_argument("--delay", type=float, default=None, help="İstekler arası bekleme süresi saniye cinsinden (varsayılan: Ollama için 0.2, bulut için 5.5)")
     args = parser.parse_args()
+
+    delay = args.delay if args.delay is not None else (0.2 if args.ollama else 5.5)
 
     base_dir = Path(__file__).resolve().parent.parent / "scrape_files" / "perfumes"
     if not base_dir.exists():
         print(f"Hata: Parfüm dizini bulunamadı: {base_dir}")
         sys.exit(1)
 
-    if not GEMINI_API_KEY and not OPENAI_API_KEY:
-        print("Uyarı: Gemini veya OpenAI API anahtarı bulunamadı. Lütfen appsettings.Local.json veya GEMINI_API_KEY ortam değişkenini kontrol edin.")
+    if not args.ollama and not GEMINI_API_KEY and not OPENAI_API_KEY and not GROQ_API_KEY:
+        print("Uyarı: Gemini, OpenAI veya Groq API anahtarı bulunamadı. Yerel çalıştırmak için --ollama parametresini kullanabilirsiniz.")
         sys.exit(1)
 
     if args.brand:
@@ -406,15 +456,17 @@ def main():
 
         print(f"\n==================================================")
         print(f"Marka: {b_dir.name} ({len(perfume_files)} parfüm)")
+        print(f"Mod: {'Yerel Ollama (' + args.model + ')' if args.ollama else 'Bulut API'}")
         print(f"==================================================")
 
         success_count = 0
         for idx, p_file in enumerate(perfume_files, 1):
             print(f"[{idx}/{len(perfume_files)}] İşleniyor: {p_file.name}")
-            ok = enrich_single_perfume(str(p_file), force=args.force)
+            ok = enrich_single_perfume(str(p_file), force=args.force, use_ollama=args.ollama, ollama_model=args.model)
             if ok:
                 success_count += 1
-                time.sleep(args.delay)
+                if delay > 0:
+                    time.sleep(delay)
 
         print(f"\nTamamlandı: {b_dir.name} -> {success_count} parfüm zenginleştirildi.")
 
