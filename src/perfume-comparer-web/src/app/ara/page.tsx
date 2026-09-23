@@ -324,12 +324,13 @@ function SearchInner() {
                 ]}
             />
 
-            <header style={{ marginBottom: "1rem" }}>
+            <header className="search-page-head">
                 <span className="eyebrow">Detaylı arama</span>
                 <h1 className="page-title">Detaylı arama</h1>
+                <p className="search-page-lead">İsme göre başlayın, ardından notalar, akorlar ve kullanım tercihleriyle daraltın.</p>
             </header>
 
-            <div className="field" style={{ marginBottom: "1.25rem" }}>
+            <div className="field search-query-field">
                 <Icon name="search" />
                 <input
                     value={q}
@@ -346,6 +347,14 @@ function SearchInner() {
                         <Icon name="close" size={14} />
                     </button>
                 )}
+            </div>
+
+            <div className="search-quick-links" aria-label="Hızlı arama seçenekleri">
+                <span>Hızlı başla:</span>
+                <button type="button" onClick={() => { setSort("rating"); setQ(""); }}>En yüksek puanlı</button>
+                <button type="button" onClick={() => { setSort("views"); setQ(""); }}>En popüler</button>
+                <button type="button" onClick={() => { setSort("newest"); setQ(""); }}>Yeni gelenler</button>
+                <button type="button" onClick={() => { setGender(["unisex"]); setQ(""); }}>Unisex</button>
             </div>
 
             {/* Filtre Grubu İçeriği Fonksiyonu */}

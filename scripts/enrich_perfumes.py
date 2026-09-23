@@ -15,6 +15,8 @@ Kullanım:
     python3 scripts/enrich_perfumes.py afnan 5          # İlk 5 parfümü zenginleştirir (test için)
     python3 scripts/enrich_perfumes.py afnan --force    # Mevcut makale/faq olsa bile üzerine yazar
     python3 scripts/enrich_perfumes.py --all            # Tüm markalardaki eksikleri sırayla işler
+    python3 scripts/enrich_perfumes.py --all --parallel # Ollama ve Groq/Bulut servislerini eşzamanlı paralel çalıştırır
+    python3 scripts/enrich_perfumes.py afnan --hybrid   # Tek markada Ollama + Groq paralel
 """
 
 import os
@@ -26,6 +28,7 @@ import ssl
 import argparse
 import threading
 from queue import Queue
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 # Ortak ayar modülü
@@ -35,17 +38,18 @@ import app_settings
 GEMINI_API_KEY = app_settings.gemini_api_key()
 GEMINI_MODEL = app_settings.setting("Gemini:Model", default="gemini-3.5-flash-lite")
 GEMINI_MODELS = [
-    "gemini-3.8-flash",
-    "gemini-3.1-flash-lite",
     "gemini-3.6-flash",
+    "gemini-3.1-flash-lite",
+    "gemini-3.8-flash",
     "gemini-3-flash-preview",
     GEMINI_MODEL
 ]
 # Tekrarları önle, sırayı koru
 GEMINI_MODELS = list(dict.fromkeys([m for m in GEMINI_MODELS if m]))
+EXHAUSTED_MODELS = set()
 ACTIVE_GEMINI_MODEL_IDX = 0
 GROQ_API_KEY = app_settings.groq_api_key()
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
+OPENAI_API_KEY = app_settings.openai_api_key()
 
 def build_enrichment_prompt(perfume_data: dict) -> str:
     name = perfume_data.get("name", "")
@@ -150,12 +154,16 @@ Yalnızca aşağıdaki JSON formatında saf çıktı ver (markdown kod bloğu ba
   "fragranceFamily": "Gourmand"
 }}"""
 
-def call_gemini(prompt: str, model: str | None = None, retries: int = 3) -> dict | None:
-    global ACTIVE_GEMINI_MODEL_IDX
+def call_gemini(prompt: str, model: str | None = None, retries: int = 4) -> dict | None:
     if not GEMINI_API_KEY:
         return None
 
-    models_to_try = [model] if model else GEMINI_MODELS[ACTIVE_GEMINI_MODEL_IDX:]
+    if model:
+        models_to_try = [model]
+    else:
+        models_to_try = [m for m in GEMINI_MODELS if m not in EXHAUSTED_MODELS]
+        if not models_to_try:
+            models_to_try = GEMINI_MODELS
     
     ctx = ssl.create_default_context()
     ctx.check_hostname = False
@@ -192,27 +200,35 @@ def call_gemini(prompt: str, model: str | None = None, retries: int = 3) -> dict
             except urllib.error.HTTPError as e:
                 err_body = e.read().decode("utf-8", errors="ignore")
                 if e.code == 429:
-                    if "Quota exceeded" in err_body or "RESOURCE_EXHAUSTED" in err_body:
+                    if "PerDay" in err_body:
                         print(f"    [Gemini Günlük Kota Doldu]: '{selected_model}' modelinin günlük kotası tükendi.")
                         quota_exhausted = True
                         break
-                    wait_time = 15 * attempt
-                    print(f"    [Gemini 429 - Dakikalık Limit ({selected_model})]: {wait_time} saniye bekleniyor...")
+                    
+                    wait_time = 10 * attempt
+                    try:
+                        import re
+                        m_wait = re.search(r"retry in ([\d\.]+)s", err_body)
+                        if m_wait:
+                            wait_time = max(3, int(float(m_wait.group(1))) + 2)
+                    except Exception:
+                        pass
+                    print(f"    [Gemini Hız Limiti ({selected_model})]: {wait_time} saniye bekleniyor (deneme {attempt}/{retries})...")
                     time.sleep(wait_time)
                 else:
                     print(f"    [Gemini Hatası ({selected_model}) - Deneme {attempt}/{retries}]: HTTP {e.code}")
                     if attempt < retries:
-                        time.sleep(attempt * 3)
+                        time.sleep(attempt * 2)
             except Exception as e:
                 print(f"    [Gemini Hatası ({selected_model}) - Deneme {attempt}/{retries}]: {e}")
                 if attempt < retries:
                     time.sleep(attempt * 3)
 
         if quota_exhausted:
-            if not model and ACTIVE_GEMINI_MODEL_IDX + 1 < len(GEMINI_MODELS):
-                ACTIVE_GEMINI_MODEL_IDX += 1
-                next_model = GEMINI_MODELS[ACTIVE_GEMINI_MODEL_IDX]
-                print(f"    [Model Değiştirildi]: Otomatik olarak yedek modele geçildi -> {next_model}")
+            EXHAUSTED_MODELS.add(selected_model)
+            remaining = [m for m in GEMINI_MODELS if m not in EXHAUSTED_MODELS]
+            if remaining:
+                print(f"    [Model Değiştirildi]: '{selected_model}' devreden çıkarıldı, sıradaki modele geçiliyor -> {remaining[0]}")
             continue
 
     return None
@@ -339,6 +355,9 @@ def call_openai(prompt: str, model: str = "gpt-4o-mini") -> dict | None:
         "response_format": {"type": "json_object"},
         "temperature": 0.3
     }
+    ctx = ssl.create_default_context()
+    ctx.check_hostname = False
+    ctx.verify_mode = ssl.CERT_NONE
     try:
         req = urllib.request.Request(
             url,
@@ -348,20 +367,35 @@ def call_openai(prompt: str, model: str = "gpt-4o-mini") -> dict | None:
                 "Authorization": f"Bearer {OPENAI_API_KEY}"
             }
         )
-        with urllib.request.urlopen(req, timeout=30) as response:
+        with urllib.request.urlopen(req, timeout=40, context=ctx) as response:
             res_data = json.loads(response.read().decode("utf-8"))
             content = res_data["choices"][0]["message"]["content"].strip()
             return json.loads(content)
+    except urllib.error.HTTPError as e:
+        err_body = e.read().decode("utf-8", errors="ignore")
+        if "insufficient_quota" in err_body or "credit_balance_exhausted" in err_body:
+            print("    [OpenAI Bakiye Hatası]: Hesabınızda bakiye kalmamış (Credit balance exhausted). Lütfen platform.openai.com üzerinden bakiye ekleyin.")
+        else:
+            print(f"    [OpenAI Hatası]: HTTP {e.code} - {err_body[:120]}")
+        return None
     except Exception as e:
         print(f"    [OpenAI Hatası]: {e}")
         return None
 
-def enrich_single_perfume(file_path: str, force: bool = False, use_ollama: bool = False, ollama_model: str = "qwen2.5:7b") -> bool:
+def enrich_single_perfume(
+    file_path: str,
+    force: bool = False,
+    use_ollama: bool = False,
+    ollama_model: str = "qwen2.5:7b",
+    provider: str | None = None,
+    log_prefix: str = ""
+) -> bool:
+    prefix = f"{log_prefix} " if log_prefix else ""
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
     except Exception as e:
-        print(f"    [Hata] Dosya okunamadı: {file_path} ({e})")
+        print(f"    {prefix}[Hata] Dosya okunamadı: {file_path} ({e})")
         return False
 
     if not force and data.get("article") and data.get("faq") and data.get("description_enhanced"):
@@ -370,8 +404,19 @@ def enrich_single_perfume(file_path: str, force: bool = False, use_ollama: bool 
     prompt = build_enrichment_prompt(data)
     ai_result = None
 
-    if use_ollama:
+    if provider == "openai":
+        ai_result = call_openai(prompt)
+    elif provider == "gemini":
+        ai_result = call_gemini(prompt)
+    elif provider == "ollama" or (use_ollama and not provider):
         ai_result = call_ollama(prompt, model=ollama_model)
+    elif provider == "groq":
+        if GROQ_API_KEY:
+            ai_result = call_groq(prompt)
+        if not ai_result and GEMINI_API_KEY:
+            ai_result = call_gemini(prompt)
+        if not ai_result and OPENAI_API_KEY:
+            ai_result = call_openai(prompt)
     else:
         if GEMINI_API_KEY:
             ai_result = call_gemini(prompt)
@@ -383,7 +428,7 @@ def enrich_single_perfume(file_path: str, force: bool = False, use_ollama: bool 
             ai_result = call_ollama(prompt, model=ollama_model)
 
     if not ai_result or not isinstance(ai_result, dict):
-        print(f"    [Atlandı] AI yanıtı alınamadı: {data.get('name')}")
+        print(f"    {prefix}[Atlandı] AI yanıtı alınamadı: {data.get('name')}")
         return False
 
     article = ai_result.get("article", "").strip()
@@ -393,7 +438,7 @@ def enrich_single_perfume(file_path: str, force: bool = False, use_ollama: bool 
     fragrance_family = ai_result.get("fragranceFamily")
 
     if not article or not isinstance(faq, list):
-        print(f"    [Atlandı] Geçersiz AI formatı: {data.get('name')}")
+        print(f"    {prefix}[Atlandı] Geçersiz AI formatı: {data.get('name')}")
         return False
 
     data["article"] = article
@@ -409,11 +454,161 @@ def enrich_single_perfume(file_path: str, force: bool = False, use_ollama: bool 
     try:
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"    ✅ Zenginleştirildi: {data.get('name')} (Makale: {len(article)} krk, SSS: {len(faq)} soru, Açıklama: {'var' if desc_enhanced else 'yok'})")
+        print(f"    {prefix}✅ Zenginleştirildi: {data.get('name')} (Makale: {len(article)} krk, SSS: {len(faq)} soru, Açıklama: {'var' if desc_enhanced else 'yok'})")
         return True
     except Exception as e:
-        print(f"    [Hata] Kaydedilemedi: {file_path} ({e})")
+        print(f"    {prefix}[Hata] Kaydedilemedi: {file_path} ({e})")
         return False
+
+
+def run_parallel_hybrid(
+    perfume_files: list,
+    force: bool = False,
+    ollama_model: str = "qwen2.5:7b",
+    cloud_delay: float = 2.5,
+    ollama_delay: float = 0.5
+) -> int:
+    """
+    Ollama (yerel GPU/CPU) ve Groq (bulut API) modellerini iki eşzamanlı iş parçacığı
+    olarak çalıştırır. Her iki servis de kuyruktan bağımsız parfüm çekerek birbirini
+    bloklamadan paralel zenginleştirme yapar.
+    """
+    queue = Queue()
+    for pf in perfume_files:
+        queue.put(pf)
+
+    total = len(perfume_files)
+    success_count = [0]
+    processed_count = [0]
+    lock = threading.Lock()
+    stop_event = threading.Event()
+
+    def ollama_worker():
+        while not queue.empty() and not stop_event.is_set():
+            try:
+                p_file = queue.get_nowait()
+            except Exception:
+                break
+            try:
+                with lock:
+                    processed_count[0] += 1
+                    idx = processed_count[0]
+                print(f"[Ollama - {idx}/{total}] İşleniyor: {p_file.name}")
+                ok = enrich_single_perfume(
+                    str(p_file),
+                    force=force,
+                    provider="ollama",
+                    ollama_model=ollama_model,
+                    log_prefix="[Ollama]"
+                )
+                if ok:
+                    with lock:
+                        success_count[0] += 1
+                    if ollama_delay > 0:
+                        time.sleep(ollama_delay)
+            except Exception as e:
+                print(f"    [Ollama Hatası]: {e}")
+            finally:
+                queue.task_done()
+
+    def groq_worker():
+        while not queue.empty() and not stop_event.is_set():
+            try:
+                p_file = queue.get_nowait()
+            except Exception:
+                break
+            try:
+                with lock:
+                    processed_count[0] += 1
+                    idx = processed_count[0]
+                print(f"[Groq - {idx}/{total}] İşleniyor: {p_file.name}")
+                ok = enrich_single_perfume(
+                    str(p_file),
+                    force=force,
+                    provider="groq",
+                    log_prefix="[Groq]"
+                )
+                if ok:
+                    with lock:
+                        success_count[0] += 1
+                    if cloud_delay > 0:
+                        time.sleep(cloud_delay)
+            except Exception as e:
+                print(f"    [Groq Hatası]: {e}")
+            finally:
+                queue.task_done()
+
+    t_ollama = threading.Thread(target=ollama_worker, name="Worker-Ollama", daemon=True)
+    t_groq = threading.Thread(target=groq_worker, name="Worker-Groq", daemon=True)
+
+    t_ollama.start()
+    t_groq.start()
+
+    try:
+        while t_ollama.is_alive() or t_groq.is_alive():
+            t_ollama.join(timeout=0.5)
+            t_groq.join(timeout=0.5)
+    except KeyboardInterrupt:
+        print("\n[Durduruldu] İşlem kullanıcı tarafından durduruldu...")
+        stop_event.set()
+
+    return success_count[0]
+
+
+def run_parallel_provider(
+    perfume_files: list,
+    provider: str = "openai",
+    workers: int = 5,
+    force: bool = False,
+    delay: float = 0.2
+) -> int:
+    """
+    Belirtilen bulut sağlayıcısı (OpenAI / Gemini / Groq) ile çoklu iş parçacığı
+    (worker) kullanarak parfümleri eşzamanlı ve yüksek hızda işler.
+    """
+    total = len(perfume_files)
+    success_count = [0]
+    processed_count = [0]
+    lock = threading.Lock()
+
+    def process_file(p_file):
+        with lock:
+            processed_count[0] += 1
+            idx = processed_count[0]
+        prefix = f"[{provider.upper()}]"
+        print(f"{prefix} [{idx}/{total}] İşleniyor: {p_file.name}")
+        ok = enrich_single_perfume(
+            str(p_file),
+            force=force,
+            provider=provider,
+            log_prefix=prefix
+        )
+        if ok:
+            with lock:
+                success_count[0] += 1
+        if delay > 0:
+            time.sleep(delay)
+        return ok
+
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = [executor.submit(process_file, pf) for pf in perfume_files]
+        for future in as_completed(futures):
+            try:
+                future.result()
+            except Exception as e:
+                print(f"    [Worker Hatası]: {e}")
+
+    return success_count[0]
+
+
+def is_already_enriched(file_path: Path) -> bool:
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return bool(data.get("article") and data.get("faq") and data.get("description_enhanced"))
+    except Exception:
+        return False
+
 
 def main():
     parser = argparse.ArgumentParser(description="Parfüm verilerini AI ile zenginleştirme (Makale + SSS).")
@@ -421,19 +616,32 @@ def main():
     parser.add_argument("limit", nargs="?", type=int, default=None, help="İşlenecek maksimum parfüm sayısı")
     parser.add_argument("--all", action="store_true", help="Tüm markaları işle")
     parser.add_argument("--force", action="store_true", help="Var olan makale ve SSS'lerin üzerine yaz")
-    parser.add_argument("--ollama", action="store_true", help="Yerel Ollama servisini (Qwen 2.5) kullan")
+    parser.add_argument("--ollama", action="store_true", help="Yalnızca yerel Ollama servisini (Qwen 2.5) kullan")
+    parser.add_argument("--gemini", action="store_true", help="Yalnızca Gemini bulut modelini kullanır (en hızlı mod)")
+    parser.add_argument("--openai", action="store_true", help="Yalnızca OpenAI (GPT-4o-mini) bulut modelini kullanır")
+    parser.add_argument("--parallel", "--hybrid", "--ollama-groq", action="store_true", dest="hybrid", help="Ollama ve Groq/Bulut servislerini aynı anda paralel (çift iş parçacığı) çalıştırır")
     parser.add_argument("--model", type=str, default="qwen2.5:7b", help="Ollama model adı (varsayılan: qwen2.5:7b)")
-    parser.add_argument("--delay", type=float, default=None, help="İstekler arası bekleme süresi saniye cinsinden (varsayılan: Ollama için 0.2, bulut için 5.5)")
+    parser.add_argument("--workers", type=int, default=5, help="Paralel iş parçacığı sayısı (varsayılan: 5)")
+    parser.add_argument("--delay", type=float, default=None, help="İstekler arası bekleme süresi saniye cinsinden (varsayılan: Gemini/Ollama için 0.2, karma için 3.0)")
     args = parser.parse_args()
 
-    delay = args.delay if args.delay is not None else (0.2 if args.ollama else 5.5)
+    if args.delay is not None:
+        delay = args.delay
+    elif args.openai:
+        delay = 0.2
+    elif args.gemini:
+        delay = 1.2
+    elif args.ollama:
+        delay = 0.2
+    else:
+        delay = 3.0
 
     base_dir = Path(__file__).resolve().parent.parent / "scrape_files" / "perfumes"
     if not base_dir.exists():
         print(f"Hata: Parfüm dizini bulunamadı: {base_dir}")
         sys.exit(1)
 
-    if not args.ollama and not GEMINI_API_KEY and not OPENAI_API_KEY and not GROQ_API_KEY:
+    if not args.ollama and not args.hybrid and not GEMINI_API_KEY and not OPENAI_API_KEY and not GROQ_API_KEY:
         print("Uyarı: Gemini, OpenAI veya Groq API anahtarı bulunamadı. Yerel çalıştırmak için --ollama parametresini kullanabilirsiniz.")
         sys.exit(1)
 
@@ -454,21 +662,70 @@ def main():
         if args.limit:
             perfume_files = perfume_files[:args.limit]
 
+        # Daha önceden tamamlanmış olanları filtrele (force değilse)
+        if not args.force:
+            pending_files = [p for p in perfume_files if not is_already_enriched(p)]
+            if not pending_files:
+                print(f"Marka: {b_dir.name} ({len(perfume_files)} parfüm) -> Tümü zaten zenginleştirilmiş, atlanıyor.")
+                continue
+        else:
+            pending_files = perfume_files
+
         print(f"\n==================================================")
-        print(f"Marka: {b_dir.name} ({len(perfume_files)} parfüm)")
-        print(f"Mod: {'Yerel Ollama (' + args.model + ')' if args.ollama else 'Bulut API'}")
+        print(f"Marka: {b_dir.name} (Toplam: {len(perfume_files)}, İşlenecek: {len(pending_files)})")
+        if args.openai:
+            print(f"Mod: OpenAI Bulut (GPT-4o-mini, {args.workers}x Paralel)")
+        elif args.gemini:
+            print(f"Mod: Yalnızca Gemini Bulut (Ücretli / Hızlı Plan)")
+        elif args.hybrid:
+            print(f"Mod: Paralel Hibrit (1x Ollama [{args.model}] + 1x Groq/Bulut Eşzamanlı)")
+        elif args.ollama:
+            print(f"Mod: Yerel Ollama ({args.model})")
+        else:
+            print(f"Mod: Bulut API (Gemini / Groq / OpenAI)")
         print(f"==================================================")
 
-        success_count = 0
-        for idx, p_file in enumerate(perfume_files, 1):
-            print(f"[{idx}/{len(perfume_files)}] İşleniyor: {p_file.name}")
-            ok = enrich_single_perfume(str(p_file), force=args.force, use_ollama=args.ollama, ollama_model=args.model)
-            if ok:
-                success_count += 1
-                if delay > 0:
-                    time.sleep(delay)
+        if args.openai:
+            provider_choice = "openai"
+        elif args.gemini:
+            provider_choice = "gemini"
+        else:
+            provider_choice = None
+
+        if args.hybrid:
+            success_count = run_parallel_hybrid(
+                pending_files,
+                force=args.force,
+                ollama_model=args.model,
+                cloud_delay=delay,
+                ollama_delay=0.5
+            )
+        elif provider_choice and args.workers > 1:
+            success_count = run_parallel_provider(
+                pending_files,
+                provider=provider_choice,
+                workers=args.workers,
+                force=args.force,
+                delay=delay
+            )
+        else:
+            success_count = 0
+            for idx, p_file in enumerate(pending_files, 1):
+                print(f"[{idx}/{len(pending_files)}] İşleniyor: {p_file.name}")
+                ok = enrich_single_perfume(
+                    str(p_file),
+                    force=args.force,
+                    use_ollama=args.ollama,
+                    ollama_model=args.model,
+                    provider=provider_choice
+                )
+                if ok:
+                    success_count += 1
+                    if delay > 0:
+                        time.sleep(delay)
 
         print(f"\nTamamlandı: {b_dir.name} -> {success_count} parfüm zenginleştirildi.")
+
 
 if __name__ == "__main__":
     main()

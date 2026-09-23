@@ -370,6 +370,14 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                         />
                     </dl>
 
+                    <div className="detail-at-a-glance" aria-label="Hızlı kullanım özeti">
+                        <span className="detail-glance-label">Hızlı özet</span>
+                        {topLongevity && <GlanceCell label="Kalıcılık" value={topLongevity.name} />}
+                        {topSillage && <GlanceCell label="Yayılım" value={topSillage.name} />}
+                        {bestSeason && bestSeason.votes > 0 && <GlanceCell label="Mevsim" value={bestSeason.name} />}
+                        {bestTime && bestTime.votes > 0 && <GlanceCell label="Zaman" value={bestTime.name} />}
+                    </div>
+
                     {perfume.description && <p className="detail-desc">{perfume.description}</p>}
 
                     <PerfumeReviewButton slug={perfume.slug} perfumeName={perfume.name} />
@@ -585,6 +593,15 @@ function FactCell({ label, value, href }: { label: string; value?: string | null
             <dt>{label}</dt>
             <dd>{value ? href ? <Link href={href}>{value}</Link> : value : "—"}</dd>
         </div>
+    );
+}
+
+function GlanceCell({ label, value }: { label: string; value: string }) {
+    return (
+        <span className="detail-glance-cell">
+            <small>{label}</small>
+            <strong>{value}</strong>
+        </span>
     );
 }
 
@@ -826,4 +843,3 @@ function buildEnrichedFaq(
 
     return list;
 }
-

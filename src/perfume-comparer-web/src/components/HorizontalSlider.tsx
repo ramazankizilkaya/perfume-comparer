@@ -6,12 +6,16 @@ import Icon from "./Icon";
 
 interface HorizontalSliderProps {
     title: string;
+    eyebrow?: string;
+    description?: string;
     viewAllHref?: string;
     children: ReactNode;
 }
 
 export default function HorizontalSlider({
     title,
+    eyebrow,
+    description,
     viewAllHref,
     children,
 }: HorizontalSliderProps) {
@@ -30,7 +34,11 @@ export default function HorizontalSlider({
     return (
         <section className="slider-section">
             <div className="slider-head">
-                <h2 className="slider-title">{title}</h2>
+                <div className="slider-heading">
+                    {eyebrow && <span className="slider-eyebrow">{eyebrow}</span>}
+                    <h2 className="slider-title">{title}</h2>
+                    {description && <p className="slider-desc">{description}</p>}
+                </div>
                 {viewAllHref && (
                     <Link href={viewAllHref} className="link-more">
                         Tümü <Icon name="arrow-right" size={13} />

@@ -66,3 +66,8 @@ def gemini_api_key() -> str:
 def groq_api_key() -> str:
     """Groq API anahtarı."""
     return setting("Groq:ApiKey", env_var="GROQ_API_KEY", default="") or ""
+
+
+def openai_api_key() -> str:
+    """OpenAI API anahtarı."""
+    return setting("OpenAI:ApiKey", env_var="OPENAI_API_KEY", default="") or ""

@@ -147,20 +147,33 @@ export default function CompareClient({
     return (
         <>
             <div className="compare-picker">
-                <PerfumePicker
-                    label={slugs.length === 0 ? "Parfüm ekle" : "Listeye parfüm ekle"}
-                    disabled={slugs.length >= MAX_COMPARE}
-                    onPick={(s) => add(s.slug)}
-                />
+                <div>
+                    <span className="compare-picker-kicker">ADIM 1 · SEÇİM</span>
+                    <PerfumePicker
+                        label={slugs.length === 0 ? "İlk parfümü ekle" : "Listeye parfüm ekle"}
+                        disabled={slugs.length >= MAX_COMPARE}
+                        onPick={(s) => add(s.slug)}
+                    />
+                </div>
+                <p className="compare-picker-note">
+                    <strong>{slugs.length}/{MAX_COMPARE} parfüm</strong>
+                    <span>Notalar, oylar ve kullanım verileri aynı tabloda görünür.</span>
+                </p>
             </div>
 
             {loading ? (
                 <div className="state"><div className="spinner" /><p>Yükleniyor…</p></div>
             ) : perfumes.length === 0 ? (
-                <div className="state">
-                    <h2>Karşılaştırma listeniz boş</h2>
-                    <p>Yukarıdan parfüm arayın ya da parfüm kartlarındaki “Karşılaştır” ile ekleyin.</p>
-                    <Link href="/ara" className="btn btn-primary" style={{ marginTop: "1rem" }}>
+                <div className="state compare-empty">
+                    <span className="compare-empty-kicker">KARŞILAŞTIRMA BAŞLANGICI</span>
+                    <h2>İki kokuyu seçin, farkları anında görün</h2>
+                    <p>Önce yukarıdan bir parfüm arayın. İkinci seçimi eklediğinizde nota, puan, kalıcılık ve mevsim verileri yan yana gelir.</p>
+                    <ol className="compare-empty-steps">
+                        <li><strong>1</strong> İlk parfümü seçin</li>
+                        <li><strong>2</strong> Bir veya daha fazla koku ekleyin</li>
+                        <li><strong>3</strong> Sabit başlıklı tabloda kıyaslayın</li>
+                    </ol>
+                    <Link href="/ara" className="btn btn-primary">
                         <Icon name="search" size={14} /> Parfüm ara
                     </Link>
                 </div>
