@@ -342,7 +342,7 @@ def call_ollama(prompt: str, model: str = "qwen2.5:7b", timeout: int = 180) -> d
         return None
 
 
-def call_openai(prompt: str, model: str = "gpt-4o-mini") -> dict | None:
+def call_openai(prompt: str, model: str = "gpt-4o-mini", retries: int = 5) -> dict | None:
     if not OPENAI_API_KEY:
         return None
     url = "https://api.openai.com/v1/chat/completions"
@@ -358,29 +358,45 @@ def call_openai(prompt: str, model: str = "gpt-4o-mini") -> dict | None:
     ctx = ssl.create_default_context()
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
-    try:
-        req = urllib.request.Request(
-            url,
-            data=json.dumps(payload).encode("utf-8"),
-            headers={
-                "Content-Type": "application/json",
-                "Authorization": f"Bearer {OPENAI_API_KEY}"
-            }
-        )
-        with urllib.request.urlopen(req, timeout=40, context=ctx) as response:
-            res_data = json.loads(response.read().decode("utf-8"))
-            content = res_data["choices"][0]["message"]["content"].strip()
-            return json.loads(content)
-    except urllib.error.HTTPError as e:
-        err_body = e.read().decode("utf-8", errors="ignore")
-        if "insufficient_quota" in err_body or "credit_balance_exhausted" in err_body:
-            print("    [OpenAI Bakiye Hatası]: Hesabınızda bakiye kalmamış (Credit balance exhausted). Lütfen platform.openai.com üzerinden bakiye ekleyin.")
-        else:
-            print(f"    [OpenAI Hatası]: HTTP {e.code} - {err_body[:120]}")
-        return None
-    except Exception as e:
-        print(f"    [OpenAI Hatası]: {e}")
-        return None
+
+    for attempt in range(1, retries + 1):
+        try:
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(payload).encode("utf-8"),
+                headers={
+                    "Content-Type": "application/json",
+                    "Authorization": f"Bearer {OPENAI_API_KEY}"
+                }
+            )
+            with urllib.request.urlopen(req, timeout=40, context=ctx) as response:
+                res_data = json.loads(response.read().decode("utf-8"))
+                content = res_data["choices"][0]["message"]["content"].strip()
+                return json.loads(content)
+        except urllib.error.HTTPError as e:
+            err_body = e.read().decode("utf-8", errors="ignore")
+            if "insufficient_quota" in err_body or "credit_balance_exhausted" in err_body:
+                print("    [OpenAI Bakiye Hatası]: Hesabınızda bakiye kalmamış. Lütfen platform.openai.com üzerinden bakiye ekleyin.")
+                return None
+            if e.code == 429:
+                wait_time = 2 * attempt
+                try:
+                    import re
+                    m_wait = re.search(r"try again in ([\d\.]+)s", err_body)
+                    if m_wait:
+                        wait_time = max(1, int(float(m_wait.group(1))) + 1)
+                except Exception:
+                    pass
+                time.sleep(wait_time)
+                continue
+            else:
+                if attempt < retries:
+                    time.sleep(attempt * 2)
+        except Exception as e:
+            if attempt < retries:
+                time.sleep(attempt * 2)
+
+    return None
 
 def enrich_single_perfume(
     file_path: str,
@@ -621,14 +637,14 @@ def main():
     parser.add_argument("--openai", action="store_true", help="Yalnızca OpenAI (GPT-4o-mini) bulut modelini kullanır")
     parser.add_argument("--parallel", "--hybrid", "--ollama-groq", action="store_true", dest="hybrid", help="Ollama ve Groq/Bulut servislerini aynı anda paralel (çift iş parçacığı) çalıştırır")
     parser.add_argument("--model", type=str, default="qwen2.5:7b", help="Ollama model adı (varsayılan: qwen2.5:7b)")
-    parser.add_argument("--workers", type=int, default=5, help="Paralel iş parçacığı sayısı (varsayılan: 5)")
-    parser.add_argument("--delay", type=float, default=None, help="İstekler arası bekleme süresi saniye cinsinden (varsayılan: Gemini/Ollama için 0.2, karma için 3.0)")
+    parser.add_argument("--workers", type=int, default=4, help="Paralel iş parçacığı sayısı (varsayılan: 4)")
+    parser.add_argument("--delay", type=float, default=None, help="İstekler arası bekleme süresi saniye cinsinden (varsayılan: OpenAI için 0.5, Gemini için 1.2)")
     args = parser.parse_args()
 
     if args.delay is not None:
         delay = args.delay
     elif args.openai:
-        delay = 0.2
+        delay = 0.5
     elif args.gemini:
         delay = 1.2
     elif args.ollama:
