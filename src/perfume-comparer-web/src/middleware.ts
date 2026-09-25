@@ -24,7 +24,19 @@ export function middleware(request: NextRequest) {
     if (matchedLocale) {
         // Tarayıcı URL'sinde /tr/... görünmeye devam eder,
         // Next.js dahili olarak ilgili sayfaya rewrite eder.
-        const internalPath = pathname.replace(new RegExp(`^/${matchedLocale}`), "") || "/";
+        let internalPath = pathname.replace(new RegExp(`^/${matchedLocale}`), "") || "/";
+
+        // /ara yolunu /detayli-arama'ya yönlendir
+        if (internalPath === "/ara" || internalPath.startsWith("/ara/")) {
+            const redirectUrl = new URL(`/${matchedLocale}/detayli-arama${search}`, request.url);
+            return NextResponse.redirect(redirectUrl, 301);
+        }
+
+        // /detayli-arama isteğini dahili olarak /ara sayfasına yönlendir
+        if (internalPath === "/detayli-arama" || internalPath.startsWith("/detayli-arama/")) {
+            internalPath = internalPath.replace(/^\/detayli-arama/, "/ara");
+        }
+
         const rewriteUrl = new URL(`${internalPath}${search}`, request.url);
 
         const response = NextResponse.rewrite(rewriteUrl);
@@ -33,7 +45,8 @@ export function middleware(request: NextRequest) {
     }
 
     // Dil ön eki bulunmayan istekleri varsayılan dile (/tr/...) yönlendir
-    const targetPath = `/${DEFAULT_LOCALE}${pathname === "/" ? "" : pathname}${search}`;
+    const cleanPathname = pathname === "/ara" ? "/detayli-arama" : pathname;
+    const targetPath = `/${DEFAULT_LOCALE}${cleanPathname === "/" ? "" : cleanPathname}${search}`;
     const redirectUrl = new URL(targetPath, request.url);
     return NextResponse.redirect(redirectUrl);
 }

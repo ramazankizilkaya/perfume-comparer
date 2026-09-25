@@ -537,6 +537,8 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
             new() { Name = "Muscent", Slug = "muscent", OfficialUrl = "https://www.muscent.com.tr", CreatedAt = DateTimeOffset.UtcNow },
             new() { Name = "David Walker", Slug = "david-walker", OfficialUrl = "https://www.davidwalker.com.tr", CreatedAt = DateTimeOffset.UtcNow },
             new() { Name = "Loris Parfüm", Slug = "loris-parfum", OfficialUrl = "https://www.lorisparfum.com", CreatedAt = DateTimeOffset.UtcNow },
+            new() { Name = "Emre Geldi", Slug = "emre-geldi", OfficialUrl = "https://www.emregeldiparfums.com/", CreatedAt = DateTimeOffset.UtcNow },
+            new() { Name = "Tutaste", Slug = "tutaste", OfficialUrl = "https://www.ozelparfum.com/", CreatedAt = DateTimeOffset.UtcNow },
         };
 
         foreach (var b in dupeBrands)
@@ -564,6 +566,8 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
                     "mad-parfum" => (p.Gender == Gender.Female ? "W" : "M") + random.Next(100, 250).ToString(),
                     "muscent" => (p.Gender == Gender.Female ? "F" : "H") + random.Next(10, 99).ToString(),
                     "david-walker" => (p.Gender == Gender.Female ? "E" : "B") + random.Next(10, 99).ToString(),
+                    "emre-geldi" => "EG-" + random.Next(10, 99).ToString(),
+                    "tutaste" => "T-" + random.Next(100, 999).ToString(),
                     _ => "K" + random.Next(100, 300).ToString()
                 };
 

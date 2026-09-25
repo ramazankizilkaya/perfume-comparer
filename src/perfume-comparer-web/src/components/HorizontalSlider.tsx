@@ -6,16 +6,12 @@ import Icon from "./Icon";
 
 interface HorizontalSliderProps {
     title: string;
-    eyebrow?: string;
-    description?: string;
     viewAllHref?: string;
     children: ReactNode;
 }
 
 export default function HorizontalSlider({
     title,
-    eyebrow,
-    description,
     viewAllHref,
     children,
 }: HorizontalSliderProps) {
@@ -24,7 +20,10 @@ export default function HorizontalSlider({
     const scroll = (direction: "left" | "right") => {
         if (!scrollRef.current) return;
         const container = scrollRef.current;
-        const scrollAmount = container.clientWidth * 0.75;
+        const firstItem = container.querySelector<HTMLElement>(".slider-item");
+        const itemWidth = firstItem ? firstItem.offsetWidth : 210;
+        const gap = 12;
+        const scrollAmount = itemWidth + gap;
         container.scrollBy({
             left: direction === "left" ? -scrollAmount : scrollAmount,
             behavior: "smooth",
@@ -35,9 +34,7 @@ export default function HorizontalSlider({
         <section className="slider-section">
             <div className="slider-head">
                 <div className="slider-heading">
-                    {eyebrow && <span className="slider-eyebrow">{eyebrow}</span>}
                     <h2 className="slider-title">{title}</h2>
-                    {description && <p className="slider-desc">{description}</p>}
                 </div>
                 {viewAllHref && (
                     <Link href={viewAllHref} className="link-more">

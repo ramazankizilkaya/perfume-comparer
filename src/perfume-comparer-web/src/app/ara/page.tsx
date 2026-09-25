@@ -33,13 +33,14 @@ const GENDERS = [
 
 const SORTS = [
     { v: "", label: "Varsayılan" },
-    { v: "rating", label: "Puanı En Yüksek (Top 100)" },
-    { v: "votes", label: "En Çok Değerlendirilen (Top 100)" },
-    { v: "views", label: "Popüler (Top 100)" },
-    { v: "comments", label: "En Çok Yorum Alan (Top 100)" },
-    { v: "newest", label: "En Yeni Gelenler (Top 100)" },
-    { v: "oldest", label: "En Eski (Top 100)" },
-    { v: "name", label: "İsim (A-Z - Top 100)" },
+    { v: "random", label: "Keşfet" },
+    { v: "rating", label: "Puanı En Yüksek" },
+    { v: "votes", label: "En Çok Değerlendirilen" },
+    { v: "views", label: "Popüler" },
+    { v: "comments", label: "En Çok Yorum Alan" },
+    { v: "newest", label: "En Yeni Gelenler" },
+    { v: "oldest", label: "En Eski" },
+    { v: "name", label: "İsim (A-Z)" },
 ];
 
 export default function SearchPage() {
@@ -232,7 +233,7 @@ function SearchInner() {
             const currentQuery = typeof window !== "undefined" ? window.location.search : "";
             if (newQuery !== currentQuery && typeof window !== "undefined") {
                 lastSpString.current = newQueryString;
-                const basePath = pathname || window.location.pathname || "/tr/ara";
+                const basePath = pathname || window.location.pathname || "/tr/detayli-arama";
                 window.history.replaceState(null, "", `${basePath}${newQuery}`);
             }
         }, 200);
@@ -319,13 +320,11 @@ function SearchInner() {
         <>
             <PageBreadcrumb
                 trail={[
-                    { label: "Parfüm ara", href: "/tr/ara" },
-                    ...(genderCrumb ? [{ label: genderCrumb }] : []),
+                    { label: "Detaylı arama", href: "/tr/detayli-arama" },
                 ]}
             />
 
             <header className="search-page-head">
-                <span className="eyebrow">Detaylı arama</span>
                 <h1 className="page-title">Detaylı arama</h1>
                 <p className="search-page-lead">İsme göre başlayın, ardından notalar, akorlar ve kullanım tercihleriyle daraltın.</p>
             </header>
@@ -347,14 +346,6 @@ function SearchInner() {
                         <Icon name="close" size={14} />
                     </button>
                 )}
-            </div>
-
-            <div className="search-quick-links" aria-label="Hızlı arama seçenekleri">
-                <span>Hızlı başla:</span>
-                <button type="button" onClick={() => { setSort("rating"); setQ(""); }}>En yüksek puanlı</button>
-                <button type="button" onClick={() => { setSort("views"); setQ(""); }}>En popüler</button>
-                <button type="button" onClick={() => { setSort("newest"); setQ(""); }}>Yeni gelenler</button>
-                <button type="button" onClick={() => { setGender(["unisex"]); setQ(""); }}>Unisex</button>
             </div>
 
             {/* Filtre Grubu İçeriği Fonksiyonu */}

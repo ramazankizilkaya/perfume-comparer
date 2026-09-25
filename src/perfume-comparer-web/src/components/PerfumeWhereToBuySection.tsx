@@ -1,6 +1,4 @@
-"use client";
-
-import { useRef } from "react";
+import React from "react";
 
 interface StoreItem {
     name: string;
@@ -23,14 +21,6 @@ function StoreSliderRow({
     group: StoreGroup;
     perfumeName: string;
 }) {
-    const trackRef = useRef<HTMLDivElement>(null);
-
-    const scroll = (direction: "left" | "right") => {
-        if (!trackRef.current) return;
-        const scrollAmount = direction === "left" ? -320 : 320;
-        trackRef.current.scrollBy({ left: scrollAmount, behavior: "smooth" });
-    };
-
     return (
         <div className="buy-slider-group" id={`fiyat-${group.id}`}>
             <div className="buy-slider-header">
@@ -43,32 +33,10 @@ function StoreSliderRow({
                         <p className="buy-slider-subtitle">{group.seoSubtitle}</p>
                     </div>
                 </div>
-                <div className="buy-slider-nav" aria-label={`${group.title} kaydırma butonları`}>
-                    <button
-                        type="button"
-                        onClick={() => scroll("left")}
-                        className="buy-nav-btn"
-                        aria-label="Önceki mağazalar"
-                    >
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                            <polyline points="15 18 9 12 15 6" />
-                        </svg>
-                    </button>
-                    <button
-                        type="button"
-                        onClick={() => scroll("right")}
-                        className="buy-nav-btn"
-                        aria-label="Sonraki mağazalar"
-                    >
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                            <polyline points="9 18 15 12 9 6" />
-                        </svg>
-                    </button>
-                </div>
             </div>
 
             <div className="buy-slider-track-wrap">
-                <div className="buy-slider-track" ref={trackRef}>
+                <div className="buy-slider-track">
                     {group.stores.map((store, idx) => (
                         <a
                             key={idx}
@@ -180,24 +148,9 @@ export default function PerfumeWhereToBuySection({
             icon: "🧪",
             stores: [
                 {
-                    name: "Muscent",
-                    url: "https://muscent.com/",
-                    logoUrl: "/stores/muscent.webp",
-                },
-                {
-                    name: "Mad Parfüm",
-                    url: "https://www.madparfum.com/",
-                    logoUrl: "/stores/mad.svg",
-                },
-                {
                     name: "Bargello",
                     url: "https://www.bargello.com.tr/",
                     logoUrl: "/stores/bargello.svg",
-                },
-                {
-                    name: "Loris",
-                    url: "https://www.lorisparfum.com/",
-                    logoUrl: "/stores/loris.webp",
                 },
                 {
                     name: "D&P Perfumum",
@@ -208,6 +161,31 @@ export default function PerfumeWhereToBuySection({
                     name: "David Walker",
                     url: "https://www.e-davidwalker.com/",
                     logoUrl: "/stores/davidwalker.webp",
+                },
+                {
+                    name: "Emre Geldi",
+                    url: "https://www.emregeldiparfums.com/",
+                    logoUrl: "/stores/emregeldi.webp",
+                },
+                {
+                    name: "Loris",
+                    url: "https://www.lorisparfum.com/",
+                    logoUrl: "/stores/loris.webp",
+                },
+                {
+                    name: "Mad Parfüm",
+                    url: "https://www.madparfum.com/",
+                    logoUrl: "/stores/mad.svg",
+                },
+                {
+                    name: "Muscent",
+                    url: "https://muscent.com/",
+                    logoUrl: "/stores/muscent.webp",
+                },
+                {
+                    name: "Tutaste",
+                    url: "https://www.ozelparfum.com/",
+                    logoUrl: "/stores/tutaste.webp",
                 },
             ],
         },

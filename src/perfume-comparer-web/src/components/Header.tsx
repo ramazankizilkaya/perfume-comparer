@@ -66,7 +66,7 @@ export default function Header() {
     const boxRef = useRef<HTMLDivElement>(null);
     const router = useRouter();
     const pathname = usePathname();
-    const isSearchPage = pathname?.includes("/ara");
+    const isSearchPage = pathname?.includes("/ara") || pathname?.includes("/detayli-arama");
 
     useEffect(() => {
         const saved = localStorage.getItem("theme");
@@ -195,13 +195,10 @@ export default function Header() {
                 </Link>
 
                 <nav className="site-nav">
-                    <Link href="/tr/ara" className="nav-link">Detaylı Arama</Link>
+                    <Link href="/tr/detayli-arama" className="nav-link">Detaylı Arama</Link>
                     <Link href="/tr/marka" className="nav-link">Markalar</Link>
                     <Link href="/tr/blog" className="nav-link">Rehber</Link>
                     <GenderControl />
-                    <span className="lang-badge" title="Aktif Dil: Türkçe">
-                        TR
-                    </span>
                     <button className="icon-btn" onClick={toggleTheme} aria-label="Temayı değiştir">
                         <Icon name={theme === "dark" ? "sun" : "moon"} />
                     </button>
@@ -318,7 +315,7 @@ export default function Header() {
                                                 <button
                                                     key={n.slug}
                                                     className="ac-pill-btn"
-                                                    onClick={() => goto(`/ara?note=${n.slug}`)}
+                                                    onClick={() => goto(`/detayli-arama?note=${n.slug}`)}
                                                     title={`İçinde ${n.name} notası olan parfümleri listele`}
                                                 >
                                                     🌿 {n.name}
@@ -337,7 +334,7 @@ export default function Header() {
                                                 <button
                                                     key={a.slug}
                                                     className="ac-pill-btn ac-accord-pill"
-                                                    onClick={() => goto(`/ara?accord=${a.slug}`)}
+                                                    onClick={() => goto(`/detayli-arama?accord=${a.slug}`)}
                                                     title={`${a.name} akoruna sahip parfümleri listele`}
                                                 >
                                                     ✨ {a.name}

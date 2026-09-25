@@ -44,13 +44,13 @@ Layered architecture (SoC) kesin olarak uygulanır:
 
 - **Tasarım İlkesi**: epey.com bilgi yoğunluğu. Geniş tablolar, spec-sheet kutuları, yoğun veriler, 0 serif font.
 - **Çoklu Dil & Rota Yapısı (`/tr/` Prefix & Middleware)**:
-  - `src/middleware.ts`: Dil öneki bulunmayan tüm rotaları (`/`, `/ara`, `/marka`, `/parfum/...`) `/tr/...` rotasına 307 ile yönlendirir.
+  - `src/middleware.ts`: Dil öneki bulunmayan tüm rotaları (`/`, `/ara`, `/detayli-arama`, `/marka`, `/parfum/...`) `/tr/...` rotasına yönlendirir. `/ara` isteklerini kalıcı (301) olarak `/tr/detayli-arama` rotasına yönlendirir; `/detayli-arama` isteklerini ise App Router'daki `/ara` sayfasına dahili olarak rewrite eder.
   - Next.js rewrite mimarisi sayesinde mevcut App Router klasör hiyerarşisi bozulmadan `x-locale` başlığıyla dinamik servis sağlanır.
   - Rota üreticileri (`src/lib/urls.ts`): `perfumeHref`, `brandHref`, `compareHref` ve `localeHref` her zaman `/tr/` önekiyle URL üretir.
   - Sözlük Altyapısı: `src/lib/i18n.ts` üzerinden `src/lib/i18n/dictionaries/` altındaki `tr.json` ve `en.json` sözlüklerini yükler.
 - **Sayfa Rotaları**:
   - `/tr` -> Anasayfa beslemesi (Blog hero, Keşfet, Popülerler, Karşılaştırmalar, Markalar).
-  - `/tr/ara` -> Kapsamlı filtreleme, arama ve sıralama motoru.
+  - `/tr/detayli-arama` (App Router dahili: `/ara`) -> Kapsamlı filtreleme, arama ve sıralama motoru. Breadcrumb sabit "Detaylı arama"dır.
   - `/tr/marka` & `/tr/marka/[slug]` -> Marka indeksi ve marka vitrini.
   - `/tr/parfum/[...segments]` -> Parfüm detay sayfası (Büyük şişe, notalar, akor barları, oylama dağılımları, satış noktaları).
   - `/tr/karsilastir` -> 2'li, 3'lü, 4'lü spec-sheet parfüm kıyaslama tablosu.
@@ -64,11 +64,11 @@ Layered architecture (SoC) kesin olarak uygulanır:
 - **Görseller & Alt Etiketleri**: Her `<img>` etiketinde katı SEO kuralı geçerlidir (marka, ürün, amaç formatı).
 - **İlk Yükleme ve Skeleton Mekanizması**:
   `HomeFeedClient.tsx` ilk açılışta sunucu verisini (SSR) doğrudan korur, sayfa açılışında kartların tekrar değişmesi (flicker) engellenmiştir. Cinsiyet filtresi değiştirildiğinde ise `.perfume-card-skeleton` shimmer animasyonu gösterilir.
-- **Arama Sayfası Filtre ve URL Senkronizasyonu (`/tr/ara`)**:
+- **Arama Sayfası Filtre ve URL Senkronizasyonu (`/tr/detayli-arama`)**:
   - Filtre seçimlerinde sayfa adresi `window.history.replaceState` üzerinden güncellenir; Next.js'in `:3000` portuna attığı dahili `_rsc` istekleri engellenerek tekil `:5026/api/perfumes` veri isteği sağlanır.
   - **Mobil Arama ve Filtre Deneyimi**:
     - **Yüzen Yapışkan Bar (Floating Sticky Bar)**: Mobilde sonuçlar kaydırılırken filtre ve sıralama araç çubuğu sayfa tepesinde (`top: 53px`) tek satır halinde yapışkan kalarak yüzer. "Filtreler" butonuna tıklandığında filtre grupları bu yüzen çubuğun hemen altından dropdown biçiminde açılır (`expand/collapse`) ve kapatıldığında tekrar tek satırlı yüzen bara döner.
-    - **Tekil Arama ve Header Temizliği**: `/tr/ara` rotasında `Header.tsx` içerisindeki global `.header-search-strip` gizlenerek mükerrer arama kutusu engellenir ve dikey alan tasarrufu sağlanır. Arama kutularına `autoComplete="off"`, `autoCorrect="off"`, `autoCapitalize="none"`, `spellCheck={false}` eklenerek tarayıcının yerleşik koyu renkli otomatik doldurma kutusunun arama deneyimini kapatması engellenir.
+    - **Tekil Arama ve Header Temizliği**: `/tr/detayli-arama` rotasında `Header.tsx` içerisindeki global `.header-search-strip` gizlenerek mükerrer arama kutusu engellenir ve dikey alan tasarrufu sağlanır. Arama kutularına `autoComplete="off"`, `autoCorrect="off"`, `autoCapitalize="none"`, `spellCheck={false}` eklenerek tarayıcının yerleşik koyu renkli otomatik doldurma kutusunun arama deneyimini kapatması engellenir.
     - **Sonuç Kartları**: Mobilde 2 sütunlu kompakt düzende ve optimize edilmiş görsel en-boy oranıyla listelenir.
   - **Filtre İçi Arama & Hafıza**: Marka, Nota ve Akor gruplarında yerel arama kutusu bulunur. Filtre grupları filtre seçiminden bağımsız olarak varsayılan kapalı gelir; yalnızca kullanıcının elle açıp kapattığı tercihler `localStorage` (`aura_filter_groups_open`) içinde saklanır.
   - **Sayfalama**: 48'den fazla sonuç olduğunda listenin altında "Daha Fazla Göster" butonu sonraki sayfaları dinamik olarak ekler.
@@ -81,9 +81,11 @@ Layered architecture (SoC) kesin olarak uygulanır:
 - **Görsel Standartları**:
   `shopping_brand_images/` klasöründeki orijinal marka imajları doğrudan `public/stores/` altında sunulur. Logolar yapay renkli kutular veya aşırı küçülten tuval dolgularıyla bozulmaz; 88x88px (mobilde 74x74px) kare kart içinde doğal ve okunabilir boyutta ortalanır.
 - **Muadil Satıcı Linkleme Kuralı**:
-  Muadil açık parfüm satıcıları (Bargello, MAD, Loris, Muscent, D&P, David Walker) arama parametresi (`?q=...`) desteklemediğinden veya 404 hatası verdiğinden doğrudan resmi anasayfalarına yönlendirilir:
+  Muadil açık parfüm satıcıları (Bargello, MAD, Loris, Muscent, D&P, David Walker, Emre Geldi, Tutaste) arama parametresi (`?q=...`) desteklemediğinden veya 404 hatası verdiğinden doğrudan resmi anasayfalarına yönlendirilir:
   - D&P Perfumum: `https://dpperfumum.com.tr/`
   - David Walker: `https://www.e-davidwalker.com/`
+  - Emre Geldi: `https://www.emregeldiparfums.com/`
+  - Tutaste: `https://www.ozelparfum.com/`
   - Diğer muadiller: `https://muscent.com/`, `https://www.madparfum.com/`, `https://www.bargello.com.tr/`, `https://www.lorisparfum.com/`.
 - **Yetkili Satıcı ve Pazaryeri Linkleri**:
   Beymen, Sephora, Boyner, Sevil, Trendyol, Hepsiburada, N11, Çiçeksepeti, PttAVM, Akakçe ve Cimri ilgili parfüm için arama sorgulu dinamik linkleri kullanır.

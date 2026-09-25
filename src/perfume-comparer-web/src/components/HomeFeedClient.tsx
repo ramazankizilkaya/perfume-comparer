@@ -133,26 +133,11 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
             {/* 1. Üst Blog Hero Slider'ı */}
             {data.blogs.length > 0 && <BlogSlider blogs={data.blogs} />}
 
-            <nav className="home-discovery" aria-label="Parfüm keşif kısayolları">
-                <div className="home-discovery-copy">
-                    <span className="eyebrow">Koku dizini</span>
-                    <strong>Aradığınız başlangıç noktası</strong>
-                </div>
-                <div className="home-discovery-links">
-                    <Link href={`/ara?sort=rating${gParam}`}><Icon name="star" filled size={14} /> En yüksek puan</Link>
-                    <Link href={`/ara?sort=views${gParam}`}><Icon name="layers" size={14} /> En popüler</Link>
-                    <Link href={`/ara?sort=newest${gParam}`}><Icon name="sparkle" size={14} /> Yeni gelenler</Link>
-                    <Link href="/karsilastir"><Icon name="swap" size={14} /> Karşılaştır</Link>
-                </div>
-            </nav>
-
             {/* 2. Keşfet (Rastgele Parfümler - Havuzsuz, Tüm Katalogdan) */}
             {(isFiltering || data.explorePerfumes.length > 0) && (
                 <HorizontalSlider
                     title="Keşfet"
-                    eyebrow="Rastgele seçki"
-                    description="Katalogdan farklı tarzlarda parfümler"
-                    viewAllHref={`/ara?sort=random${gParam}`}
+                    viewAllHref={`/detayli-arama?sort=random${gParam}`}
                 >
                     {isFiltering ? (
                         <SliderSkeletons />
@@ -170,9 +155,7 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
             {(isFiltering || data.popularPerfumes.length > 0) && (
                 <HorizontalSlider
                     title="Popüler Parfümler"
-                    eyebrow="İlgi görenler"
-                    description="En çok incelenen kokulardan seçki"
-                    viewAllHref={`/ara?sort=views${gParam}`}
+                    viewAllHref={`/detayli-arama?sort=views${gParam}`}
                 >
                     {isFiltering ? (
                         <SliderSkeletons />
@@ -190,8 +173,6 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
             {data.comparisons.length > 0 && (
                 <HorizontalSlider
                     title="Popüler Karşılaştırmalar"
-                    eyebrow="Yan yana incele"
-                    description="Kullanıcıların en sık kıyasladığı ikililer"
                     viewAllHref="/karsilastir"
                 >
                     {data.comparisons.map((c, idx) => (
@@ -206,8 +187,6 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
             {data.randomBrands.length > 0 && (
                 <HorizontalSlider
                     title="Markalar"
-                    eyebrow="Marka dizini"
-                    description="Koleksiyonları doğrudan inceleyin"
                     viewAllHref="/marka"
                 >
                     {data.randomBrands.map((b) => (
@@ -222,9 +201,7 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
             {(isFiltering || data.newestPerfumes.length > 0) && (
                 <HorizontalSlider
                     title="Yeni Gelenler"
-                    eyebrow="Kataloğa yeni eklenenler"
-                    description="Son eklenen parfümler"
-                    viewAllHref={`/ara?sort=newest${gParam}`}
+                    viewAllHref={`/detayli-arama?sort=newest${gParam}`}
                 >
                     {isFiltering ? (
                         <SliderSkeletons />
@@ -242,9 +219,7 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
             {(isFiltering || data.mostCommentedPerfumes.length > 0) && (
                 <HorizontalSlider
                     title="En Çok Yorum Alanlar"
-                    eyebrow="Topluluk konuşuyor"
-                    description="Deneyim paylaşımı en yoğun kokular"
-                    viewAllHref={`/ara?sort=comments${gParam}`}
+                    viewAllHref={`/detayli-arama?sort=comments${gParam}`}
                 >
                     {isFiltering ? (
                         <SliderSkeletons />
@@ -262,9 +237,7 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
             {(isFiltering || data.mostRatedPerfumes.length > 0) && (
                 <HorizontalSlider
                     title="En Çok Değerlendirilenler"
-                    eyebrow="Geniş oy tabanı"
-                    description="En fazla kullanıcı puanına sahip parfümler"
-                    viewAllHref={`/ara?sort=votes${gParam}`}
+                    viewAllHref={`/detayli-arama?sort=votes${gParam}`}
                 >
                     {isFiltering ? (
                         <SliderSkeletons />
@@ -282,9 +255,7 @@ export default function HomeFeedClient({ initialData }: { initialData: HomeFeedD
             {(isFiltering || data.topRatedPerfumes.length > 0) && (
                 <HorizontalSlider
                     title="En Yüksek Puanlılar"
-                    eyebrow="Topluluk seçkisi"
-                    description="Yüksek puan alan kokular"
-                    viewAllHref={`/ara?sort=rating${gParam}`}
+                    viewAllHref={`/detayli-arama?sort=rating${gParam}`}
                 >
                     {isFiltering ? (
                         <SliderSkeletons />

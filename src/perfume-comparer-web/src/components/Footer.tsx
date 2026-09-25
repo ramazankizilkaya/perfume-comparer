@@ -18,7 +18,7 @@ export default function Footer() {
                     <div>
                         <h4>Keşfet</h4>
                         <ul>
-                            <li><Link href="/ara">Tüm parfümler</Link></li>
+                            <li><Link href="/detayli-arama">Tüm parfümler</Link></li>
                             <li><Link href="/karsilastir">Karşılaştırma</Link></li>
                             <li><Link href="/blog">Koku rehberi</Link></li>
                             <li><Link href="/admin">Veri yönetimi</Link></li>
@@ -28,19 +28,19 @@ export default function Footer() {
                     <div>
                         <h4>Koku aileleri</h4>
                         <ul>
-                            <li><Link href="/ara?family=oryantal">Oryantal</Link></li>
-                            <li><Link href="/ara?family=odunsu">Odunsu</Link></li>
-                            <li><Link href="/ara?family=ferah">Ferah</Link></li>
-                            <li><Link href="/ara?family=ciceksi">Çiçeksi</Link></li>
+                            <li><Link href="/detayli-arama?family=oryantal">Oryantal</Link></li>
+                            <li><Link href="/detayli-arama?family=odunsu">Odunsu</Link></li>
+                            <li><Link href="/detayli-arama?family=ferah">Ferah</Link></li>
+                            <li><Link href="/detayli-arama?family=ciceksi">Çiçeksi</Link></li>
                         </ul>
                     </div>
 
                     <div>
                         <h4>Cinsiyet</h4>
                         <ul>
-                            <li><Link href="/ara?gender=erkek">Erkek parfümleri</Link></li>
-                            <li><Link href="/ara?gender=kadin">Kadın parfümleri</Link></li>
-                            <li><Link href="/ara?gender=unisex">Unisex</Link></li>
+                            <li><Link href="/detayli-arama?gender=erkek">Erkek parfümleri</Link></li>
+                            <li><Link href="/detayli-arama?gender=kadin">Kadın parfümleri</Link></li>
+                            <li><Link href="/detayli-arama?gender=unisex">Unisex</Link></li>
                         </ul>
                     </div>
                 </div>

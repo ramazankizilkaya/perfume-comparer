@@ -23,7 +23,7 @@ perfume-comparer/
 │   │
 │   └── perfume-comparer-web/        # Next.js 15 (App Router, TypeScript, React) (:3000)
 │       ├── src/middleware.ts        # Çoklu dil (/tr/ prefix) rewrite & 307 redirect ara katmanı
-│       ├── src/app/                 # Sayfa rotaları (/tr, /tr/ara, /tr/marka, /tr/parfum, /tr/karsilastir, /tr/blog, /tr/giris)
+│       ├── src/app/                 # Sayfa rotaları (/tr, /tr/detayli-arama [dahili: /ara], /tr/marka, /tr/parfum, /tr/karsilastir, /tr/blog, /tr/giris)
 │       ├── src/components/          # Tekrar kullanılabilir UI bileşenleri (epey.com tasarım dili)
 │       ├── src/lib/                 # API istemcisi, i18n, URL yardımcıları, clientStore, auth ve tercih state'leri
 │       └── public/stores/           # Pazaryeri & satıcı orijinal logoları
@@ -62,7 +62,7 @@ perfume-comparer/
 ## 4. Temel Tasarım ve Mimari Kuralları
 1. **epey.com Referansı:** Sans-serif, yoğun bilgi, tablolar, spec-sheet kartları. Magazin tarzı dekoratif boşluk veya devasa görsel blokları yasaktır.
 2. **Renk Kontrastı:** Tüm renkler CSS token (`--page`, `--surface`, `--ink`, `--ink-soft`, `--line`, `--accent`) üzerinden yürür. Hard-coded renk yasaktır.
-3. **Çoklu Dil Rotaları:** Rotalar `/tr/` öneki taşır (`/tr`, `/tr/ara`, `/tr/parfum/...`).
+3. **Çoklu Dil Rotaları:** Rotalar `/tr/` öneki taşır (`/tr`, `/tr/detayli-arama`, `/tr/parfum/...`). `/ara` istekleri `/tr/detayli-arama` rotasına yönlendirilir.
 4. **Backend Güvenliği (`X-Requested-With`):** Tüm `POST`, `PUT`, `DELETE` isteklerinde `X-Requested-With: XMLHttpRequest` başlığı zorunludur. Eksikse 400 döner.
 5. **Mağaza Logoları:** `public/stores/` altındaki orijinal marka imajları kullanılır; yapay kutu veya küçültmelerle bozulmaz.
 6. **Responsive & SEO:** Mobil (375px), Tablet (768px), Desktop (1440px) ve Light/Dark mode tam uyumludur. Her görselde SEO alt etiketi zorunludur.

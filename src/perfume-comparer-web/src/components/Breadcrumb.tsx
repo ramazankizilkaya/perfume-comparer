@@ -89,7 +89,7 @@ export default function Breadcrumb({ items }: { items: Crumb[] }) {
                     // Marka seviyesi kendi sayfasına gider; diğerleri filtreli aramaya.
                     const fallback = item.level === "brand"
                         ? `/marka/${item.slug}`
-                        : param ? `/ara?${param}=${item.slug}` : "/ara";
+                        : param ? `/detayli-arama?${param}=${item.slug}` : "/detayli-arama";
                     return (
                         <li key={i}>
                             <CrumbDrop
@@ -147,7 +147,7 @@ function CrumbDrop({ label, selfHref, level, param, options }: { label: string; 
                     {options.map((o) => (
                         <Link
                             key={o.slug}
-                            href={level === "brand" ? `/marka/${o.slug}` : `/ara?${param}=${o.slug}`}
+                            href={level === "brand" ? `/marka/${o.slug}` : `/detayli-arama?${param}=${o.slug}`}
                             className="crumb-menu-item"
                             onClick={() => setOpen(false)}
                         >
