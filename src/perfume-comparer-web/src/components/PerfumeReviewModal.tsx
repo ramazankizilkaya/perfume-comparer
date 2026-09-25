@@ -131,6 +131,7 @@ export default function PerfumeReviewModal({
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
+                        "X-Requested-With": "XMLHttpRequest",
                         Authorization: `Bearer ${token}`,
                     },
                     body: JSON.stringify({
@@ -161,6 +162,7 @@ export default function PerfumeReviewModal({
                 const photoRes = await fetch(`${API_BASE}/api/perfumes/${slug}/photos`, {
                     method: "POST",
                     headers: {
+                        "X-Requested-With": "XMLHttpRequest",
                         Authorization: `Bearer ${token}`,
                     },
                     body: formData,

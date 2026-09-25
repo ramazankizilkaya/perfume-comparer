@@ -54,7 +54,7 @@ export default function GenderControl() {
                 aria-haspopup="menu"
                 aria-expanded={open}
                 aria-label={`Cinsiyet tercihi: ${cur.label}`}
-                title={`Cinsiyet: ${cur.label}`}
+                data-tooltip={`Cinsiyet: ${cur.label}`}
             >
                 <span className="gender-ico">{cur.ico}</span>
             </button>

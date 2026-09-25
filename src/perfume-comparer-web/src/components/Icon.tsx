@@ -29,9 +29,18 @@ export type IconName =
     | "sparkle"
     | "menu"
     | "message"
+    | "edit"
+    | "home"
     | "trash";
 
 const PATHS: Record<IconName, React.ReactNode> = {
+    home: (
+        <>
+            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            <polyline points="9 22 9 12 15 12 15 22" />
+        </>
+    ),
+    edit: <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />,
     menu: <path d="M4 6h16M4 12h16M4 18h16" />,
     message: <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />,
     search: (

@@ -51,7 +51,10 @@ export default function PerfumeCommentsSection({
         if (!comments.some((c) => c.isAiSummary)) {
             (async () => {
                 try {
-                    const aiRes = await fetch(`${API_BASE}/api/perfumes/${slug}/ai-summary`, { method: "POST" });
+                    const aiRes = await fetch(`${API_BASE}/api/perfumes/${slug}/ai-summary`, {
+                        method: "POST",
+                        headers: { "X-Requested-With": "XMLHttpRequest" },
+                    });
                     if (aiRes.ok && aiRes.status !== 204) {
                         const fresh = await aiRes.json();
                         setComments((prev) => [fresh as CommentData, ...prev]);
@@ -73,6 +76,7 @@ export default function PerfumeCommentsSection({
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
+                    "X-Requested-With": "XMLHttpRequest",
                     ...(token ? { Authorization: `Bearer ${token}` } : {}),
                 },
                 body: JSON.stringify({ rating, content: commentText }),

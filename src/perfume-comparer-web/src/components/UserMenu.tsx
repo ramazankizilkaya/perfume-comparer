@@ -49,24 +49,59 @@ export default function UserMenu() {
         return () => document.removeEventListener("mousedown", onOutside);
     }, []);
 
-    // Giriş butonu her zaman sağ üstte durur; oturum açıksa yerini avatar alır.
+    const next = pathname && pathname !== "/giris" ? `?next=${encodeURIComponent(pathname)}` : "";
+
+    // Giriş yapılmamışsa buton menü açar: Favorilerim ve Giriş Yap
     if (!ready || !user) {
-        const next = pathname && pathname !== "/giris" ? `?next=${encodeURIComponent(pathname)}` : "";
         return (
-            <Link
-                href={`/giris${next}`}
-                className="icon-btn login-btn"
-                aria-label="Giriş yap"
-                title="Giriş yap"
-            >
-                <Icon name="user" size={17} />
-            </Link>
+            <div className="user-menu" ref={ref}>
+                <button
+                    type="button"
+                    className="icon-btn login-btn"
+                    onClick={() => setOpen((o) => !o)}
+                    aria-label="Kullanıcı Menüsü"
+                    aria-expanded={open}
+                    data-tooltip="Giriş / Favoriler"
+                >
+                    <Icon name="user" size={17} />
+                </button>
+
+                {open && (
+                    <div className="user-dropdown" role="menu">
+                        <nav className="user-dropdown-nav" style={{ borderBlockEnd: "none" }}>
+                            <Link
+                                href="/tr/detayli-arama?userFilter=favorites"
+                                className="user-dropdown-link"
+                                onClick={() => setOpen(false)}
+                            >
+                                <Icon name="heart" size={15} />
+                                <span>Favorilerim</span>
+                            </Link>
+                            <Link
+                                href={`/giris${next}`}
+                                className="user-dropdown-link"
+                                onClick={() => setOpen(false)}
+                                style={{ fontWeight: 600, color: "var(--accent)" }}
+                            >
+                                <Icon name="user" size={15} />
+                                <span>Giriş Yap</span>
+                            </Link>
+                        </nav>
+                    </div>
+                )}
+            </div>
         );
     }
 
     return (
         <div className="user-menu" ref={ref}>
-            <button className="user-btn" onClick={() => setOpen((o) => !o)} aria-label="Hesap" aria-expanded={open}>
+            <button
+                className="user-btn"
+                onClick={() => setOpen((o) => !o)}
+                aria-label="Hesap"
+                aria-expanded={open}
+                data-tooltip={user.name || user.email || "Hesabım"}
+            >
                 <Avatar user={user} />
             </button>
 
@@ -103,6 +138,14 @@ export default function UserMenu() {
                         >
                             <Icon name="star" size={15} />
                             <span>Puanladıklarım</span>
+                        </Link>
+                        <Link
+                            href="/blog/yazilarim"
+                            className="user-dropdown-link"
+                            onClick={() => setOpen(false)}
+                        >
+                            <Icon name="edit" size={15} />
+                            <span>Yazılarım</span>
                         </Link>
                     </nav>
                     <button className="user-signout" onClick={() => { signOut(); setOpen(false); }}>

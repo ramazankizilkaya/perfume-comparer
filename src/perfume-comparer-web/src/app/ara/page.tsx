@@ -408,25 +408,27 @@ function SearchInner() {
                         openGroups={openGroups}
                         onToggleGroup={toggleGroup}
                     >
-                        {ready && user && (
-                            <div className="user-filter-box" style={{ marginBottom: "0.6rem", paddingBottom: "0.6rem", borderBottom: "1px solid var(--line)" }}>
-                                <Check
-                                    label="Favorilerim"
-                                    checked={userFilter === "favorites"}
-                                    onChange={() => setUserFilter(userFilter === "favorites" ? "" : "favorites")}
-                                />
-                                <Check
-                                    label="Yorum Yazdıklarım"
-                                    checked={userFilter === "comments"}
-                                    onChange={() => setUserFilter(userFilter === "comments" ? "" : "comments")}
-                                />
-                                <Check
-                                    label="Puanladıklarım"
-                                    checked={userFilter === "ratings"}
-                                    onChange={() => setUserFilter(userFilter === "ratings" ? "" : "ratings")}
-                                />
-                            </div>
-                        )}
+                        <div className="user-filter-box" style={{ marginBottom: "0.6rem", paddingBottom: "0.6rem", borderBottom: "1px solid var(--line)" }}>
+                            <Check
+                                label="Favorilerim"
+                                checked={userFilter === "favorites"}
+                                onChange={() => setUserFilter(userFilter === "favorites" ? "" : "favorites")}
+                            />
+                            {ready && user && (
+                                <>
+                                    <Check
+                                        label="Yorum Yazdıklarım"
+                                        checked={userFilter === "comments"}
+                                        onChange={() => setUserFilter(userFilter === "comments" ? "" : "comments")}
+                                    />
+                                    <Check
+                                        label="Puanladıklarım"
+                                        checked={userFilter === "ratings"}
+                                        onChange={() => setUserFilter(userFilter === "ratings" ? "" : "ratings")}
+                                    />
+                                </>
+                            )}
+                        </div>
                         {SORTS.filter((s) => s.v !== "").map((s) => (
                             <Check
                                 key={s.v}
@@ -582,64 +584,38 @@ function SearchInner() {
                                 </button>
                             )}
 
-                            <div className="search-toolbar-right">
-                                <label className="sort-select">
-                                    <span className="muted desktop-only-text">Sırala:</span>
-                                    <select value={sort} onChange={(e) => setSort(e.target.value)}>
-                                        {SORTS.map((s) => (
-                                            <option key={s.v} value={s.v}>{s.label}</option>
-                                        ))}
-                                    </select>
-                                </label>
-                            </div>
                         </div>
 
                         {/* Mobilde Tıklanınca Açılan Dropdown Filtre Paneli */}
                         {filtersOpen && (
                             <div className="mobile-filter-dropdown-panel">
-                                <div className="filter-head" style={{ marginBottom: "0.75rem" }}>
-                                    <span className="filter-head-title">
-                                        <Icon name="filter" size={15} /> Filtreler
-                                        {activeCount > 0 && <span className="filter-count">{activeCount}</span>}
-                                    </span>
-                                    <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
-                                        {activeCount > 0 && <button className="link-more" onClick={clearAll}>Temizle</button>}
-                                        <button
-                                            type="button"
-                                            className="btn btn-ghost btn-sm"
-                                            onClick={() => setFiltersOpen(false)}
-                                            style={{ padding: "0.2rem 0.5rem", fontSize: "0.75rem" }}
-                                        >
-                                            Kapat ✕
-                                        </button>
-                                    </div>
-                                </div>
-
                                 <FilterGroup
                                     title="Sıralama & Liste"
                                     groupId="sort"
                                     openGroups={openGroups}
                                     onToggleGroup={toggleGroup}
                                 >
-                                    {ready && user && (
-                                        <div className="user-filter-box" style={{ marginBottom: "0.6rem", paddingBottom: "0.6rem", borderBottom: "1px solid var(--line)" }}>
-                                            <Check
-                                                label="Favorilerim"
-                                                checked={userFilter === "favorites"}
-                                                onChange={() => setUserFilter(userFilter === "favorites" ? "" : "favorites")}
-                                            />
-                                            <Check
-                                                label="Yorum Yazdıklarım"
-                                                checked={userFilter === "comments"}
-                                                onChange={() => setUserFilter(userFilter === "comments" ? "" : "comments")}
-                                            />
-                                            <Check
-                                                label="Puanladıklarım"
-                                                checked={userFilter === "ratings"}
-                                                onChange={() => setUserFilter(userFilter === "ratings" ? "" : "ratings")}
-                                            />
-                                        </div>
-                                    )}
+                                    <div className="user-filter-box" style={{ marginBottom: "0.6rem", paddingBottom: "0.6rem", borderBottom: "1px solid var(--line)" }}>
+                                        <Check
+                                            label="Favorilerim"
+                                            checked={userFilter === "favorites"}
+                                            onChange={() => setUserFilter(userFilter === "favorites" ? "" : "favorites")}
+                                        />
+                                        {ready && user && (
+                                            <>
+                                                <Check
+                                                    label="Yorum Yazdıklarım"
+                                                    checked={userFilter === "comments"}
+                                                    onChange={() => setUserFilter(userFilter === "comments" ? "" : "comments")}
+                                                />
+                                                <Check
+                                                    label="Puanladıklarım"
+                                                    checked={userFilter === "ratings"}
+                                                    onChange={() => setUserFilter(userFilter === "ratings" ? "" : "ratings")}
+                                                />
+                                            </>
+                                        )}
+                                    </div>
                                     {SORTS.filter((s) => s.v !== "").map((s) => (
                                         <Check
                                             key={s.v}
@@ -769,51 +745,51 @@ function SearchInner() {
                     {activeCount > 0 && (
                         <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem", marginBlockEnd: "1rem", alignItems: "center" }}>
                             {userFilter && (
-                                <span className="badge badge-accent" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                <span className="active-filter-badge">
                                     {userFilter === "favorites" ? "Favorilerim" : userFilter === "comments" ? "Yorum Yazdıklarım" : userFilter === "ratings" ? "Puanladıklarım" : userFilter}
-                                    <button type="button" onClick={() => setUserFilter("")} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                    <button type="button" onClick={() => setUserFilter("")} aria-label="Filtreyi kaldır">✕</button>
                                 </span>
                             )}
                             {sort && (
-                                <span className="badge badge-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                <span className="active-filter-badge">
                                     {SORTS.find((s) => s.v === sort)?.label}
-                                    <button type="button" onClick={() => setSort("")} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                    <button type="button" onClick={() => setSort("")} aria-label="Filtreyi kaldır">✕</button>
                                 </span>
                             )}
                             {gender.map((g) => (
-                                <span key={g} className="badge badge-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                <span key={g} className="active-filter-badge">
                                     {GENDERS.find((x) => x.slug === g)?.label ?? g}
-                                    <button type="button" onClick={() => toggle(gender, setGender, g)} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                    <button type="button" onClick={() => toggle(gender, setGender, g)} aria-label="Filtreyi kaldır">✕</button>
                                 </span>
                             ))}
                             {family.map((f) => (
-                                <span key={f} className="badge badge-success" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                <span key={f} className="active-filter-badge">
                                     {meta?.fragranceFamilies.find((x) => x.slug === f)?.name ?? f}
-                                    <button type="button" onClick={() => toggle(family, setFamily, f)} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                    <button type="button" onClick={() => toggle(family, setFamily, f)} aria-label="Filtreyi kaldır">✕</button>
                                 </span>
                             ))}
                             {concentration.map((c) => (
-                                <span key={c} className="badge badge-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                <span key={c} className="active-filter-badge">
                                     {meta?.concentrations.find((x) => x.slug === c)?.name ?? c}
-                                    <button type="button" onClick={() => toggle(concentration, setConcentration, c)} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                    <button type="button" onClick={() => toggle(concentration, setConcentration, c)} aria-label="Filtreyi kaldır">✕</button>
                                 </span>
                             ))}
                             {brand.map((b) => (
-                                <span key={b} className="badge badge-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                <span key={b} className="active-filter-badge">
                                     {meta?.brands.find((x) => x.slug === b)?.name ?? b}
-                                    <button type="button" onClick={() => toggle(brand, setBrand, b)} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                    <button type="button" onClick={() => toggle(brand, setBrand, b)} aria-label="Filtreyi kaldır">✕</button>
                                 </span>
                             ))}
                             {accord.map((a) => (
-                                <span key={a} className="badge badge-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                <span key={a} className="active-filter-badge">
                                     {meta?.accords.find((x) => x.slug === a)?.name ?? a}
-                                    <button type="button" onClick={() => toggle(accord, setAccord, a)} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                    <button type="button" onClick={() => toggle(accord, setAccord, a)} aria-label="Filtreyi kaldır">✕</button>
                                 </span>
                             ))}
                             {note.map((n) => (
-                                <span key={n} className="badge badge-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                <span key={n} className="active-filter-badge">
                                     {meta?.notes.find((x) => x.slug === n)?.name ?? n}
-                                    <button type="button" onClick={() => toggle(note, setNote, n)} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                    <button type="button" onClick={() => toggle(note, setNote, n)} aria-label="Filtreyi kaldır">✕</button>
                                 </span>
                             ))}
                             <button onClick={clearAll} className="link-more" style={{ fontSize: "0.75rem", marginInlineStart: "0.25rem" }}>Tümünü Temizle</button>

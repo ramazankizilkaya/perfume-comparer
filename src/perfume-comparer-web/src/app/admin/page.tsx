@@ -56,7 +56,12 @@ export default function AdminPage() {
     const run = async (id: string, path: string, method = "POST") => {
         setBusy(id);
         try {
-            const res = await fetch(`${API_BASE}${path}`, { method });
+            const res = await fetch(`${API_BASE}${path}`, {
+                method,
+                headers: {
+                    "X-Requested-With": "XMLHttpRequest",
+                },
+            });
             const data = await res.json().catch(() => ({}));
 
             if (Array.isArray(data.results)) {

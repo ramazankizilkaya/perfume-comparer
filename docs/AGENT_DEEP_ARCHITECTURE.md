@@ -75,9 +75,10 @@ Layered architecture (SoC) kesin olarak uygulanır:
   - **Sayfalama**: 48'den fazla sonuç olduğunda listenin altında "Daha Fazla Göster" butonu sonraki sayfaları dinamik olarak ekler.
   - **Top 100 Sıralama Mimarisi**: Sıralama seçeneklerinden biri seçildiğinde backend sonuçları `Take(100)` ile en iyi 100 parfümle sınırlar; "rating" sıralamasında tek oylu rastgele parfümleri engellemek için `RatingCount >= 10` eşiği uygulanır.
   - **Kullanıcı Filtreleri & Menü Mimarisi**:
-    - Kullanıcı profil dropdown'ında `Favorilerim`, `Yorum Yazdıklarım` ve `Puanladıklarım` linkleri yer alır (`/tr/detayli-arama?userFilter=favorites|comments|ratings`).
-    - Detaylı arama sayfasında (`ara/page.tsx`), "Sıralama & Liste" bölümü altında bu üç filtre checkbox olarak yalnızca oturum açmış kullanıcılara gösterilir.
-    - Backend tarafında `GET /api/perfumes` endpoint'i `userFilter` parametresi aldığında Authorization JWT'sinden gelen `userId` üzerinden veritabanında `Favorite`, `PerfumeComment` ve `Rating` tablolarını sorgulayarak ilgili kullanıcının kayıtlarını filtreler; ayrıca `POST /api/perfumes/{slug}/favorite` uç noktası üzerinden favori ekleme/çıkarma işlemi veritabanında kalıcı tutulur.
+    - Kullanıcı profil dropdown'ında `Favorilerim`, `Yorum Yazdıklarım`, `Puanladıklarım` ve `Yazılarım` (`/blog/yazilarim`) linkleri yer alır. Giriş yapmamış kullanıcılar için menüde `Favorilerim` ve `Giriş Yap` seçenekleri sunulur.
+    - Detaylı arama sayfasında (`ara/page.tsx`), "Sıralama & Liste" bölümü altında `Favorilerim` herkes tarafından, `Yorum Yazdıklarım` ve `Puanladıklarım` ise yalnızca oturum açmış kullanıcılara gösterilir. Aktif filtre rozetleri tek tip `.active-filter-badge` stiliyle listelenir.
+    - Backend tarafında `GET /api/perfumes` endpoint'i `userFilter` parametresi aldığında Authorization JWT'sinden gelen `userId` veya anonim `favSlugs` üzerinden veritabanında `Favorite`, `PerfumeComment` ve `Rating` tablolarını sorgulayarak ilgili kullanıcının kayıtlarını filtreler; ayrıca `POST /api/perfumes/{slug}/favorite` uç noktası üzerinden favori ekleme/çıkarma işlemi veritabanında kalıcı tutulur.
+    - `POST /api/blogs` ve `GET /api/blogs/my` uç noktaları güvenlik gereği `X-Requested-With: XMLHttpRequest` başlığı ve JWT token ile doğrulanır; yazılar yazarın kullanıcı ID'siyle ilişkilendirilir.
 
 ---
 

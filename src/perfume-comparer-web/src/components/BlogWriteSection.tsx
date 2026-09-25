@@ -5,8 +5,10 @@ import { useRouter } from "next/navigation";
 import Icon from "./Icon";
 import LoginPrompt from "./LoginPrompt";
 import { API_BASE } from "@/lib/urls";
+import { useAuth } from "@/lib/stores";
 
 export default function BlogWriteSection() {
+    const { token } = useAuth();
     const [writing, setWriting] = useState(false);
     const [title, setTitle] = useState("");
     const [content, setContent] = useState("");
@@ -21,11 +23,15 @@ export default function BlogWriteSection() {
         try {
             const res = await fetch(`${API_BASE}/api/blogs`, {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-Requested-With": "XMLHttpRequest",
+                    ...(token ? { Authorization: `Bearer ${token}` } : {}),
+                },
                 body: JSON.stringify({ title, body: content }),
             });
             if (res.ok) {
-                setStatus("Yazınız taslak olarak kaydedildi.");
+                setStatus("Yazınız admin onayına sunulmak üzere kaydedildi.");
                 setTitle("");
                 setContent("");
                 router.refresh();

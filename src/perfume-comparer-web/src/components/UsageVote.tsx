@@ -50,6 +50,7 @@ export default function UsageVote({
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
+                    "X-Requested-With": "XMLHttpRequest",
                     ...(token ? { Authorization: `Bearer ${token}` } : {}),
                 },
                 body: JSON.stringify({ ageGroup }),

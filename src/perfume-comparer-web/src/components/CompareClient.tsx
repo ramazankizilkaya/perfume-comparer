@@ -542,6 +542,7 @@ function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
+                    "X-Requested-With": "XMLHttpRequest",
                     ...(token ? { Authorization: `Bearer ${token}` } : {}),
                 },
                 body: JSON.stringify({ content: commentText, preferredSlug: preferred || null }),

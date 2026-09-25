@@ -23,7 +23,7 @@ perfume-comparer/
 │   │
 │   └── perfume-comparer-web/        # Next.js 15 (App Router, TypeScript, React) (:3000)
 │       ├── src/middleware.ts        # Çoklu dil (/tr/ prefix) rewrite & 307 redirect ara katmanı
-│       ├── src/app/                 # Sayfa rotaları (/tr, /tr/detayli-arama [dahili: /ara], /tr/marka, /tr/parfum, /tr/karsilastir, /tr/blog, /tr/giris)
+│       ├── src/app/                 # Sayfa rotaları (/tr, /tr/detayli-arama [dahili: /ara], /tr/marka, /tr/parfum, /tr/karsilastir, /tr/blog, /tr/blog/yazilarim, /tr/giris)
 │       ├── src/components/          # Tekrar kullanılabilir UI bileşenleri (epey.com tasarım dili)
 │       ├── src/lib/                 # API istemcisi, i18n, URL yardımcıları, clientStore, auth ve tercih state'leri
 │       └── public/stores/           # Pazaryeri & satıcı orijinal logoları

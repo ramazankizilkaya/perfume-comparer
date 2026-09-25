@@ -475,6 +475,74 @@ button {
     color: var(--ink);
 }
 
+/* --- Tooltip / Popover on hover ------------------------------------------- */
+[data-tooltip] {
+    position: relative;
+}
+
+[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: calc(100% + 7px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-3px);
+    background: var(--ink);
+    color: var(--surface);
+    font-size: 0.72rem;
+    font-weight: 500;
+    line-height: 1.2;
+    white-space: nowrap;
+    padding: 0.35rem 0.55rem;
+    border-radius: var(--radius-sm, 4px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s ease;
+    z-index: 100;
+}
+
+[data-tooltip]::before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 2px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-3px);
+    border: 5px solid transparent;
+    border-bottom-color: var(--ink);
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s ease;
+    z-index: 101;
+}
+
+[data-tooltip]:hover::after,
+[data-tooltip]:hover::before,
+[data-tooltip]:focus-visible::after,
+[data-tooltip]:focus-visible::before {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+body.dark-mode [data-tooltip]::after {
+    background: #253832;
+    color: #e8f0ed;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+body.dark-mode [data-tooltip]::before {
+    border-bottom-color: #253832;
+}
+
+@media (hover: none) {
+    [data-tooltip]::after,
+    [data-tooltip]::before {
+        display: none !important;
+    }
+}
+
 /* category / quick-nav strip under the header */
 .cat-strip {
     background: var(--ink);
@@ -3930,12 +3998,28 @@ body.dark-mode .vs-side img {
         display: block;
         margin-block-start: 0.65rem;
         padding-block-start: 0.65rem;
+        padding-inline-end: 0.75rem;
         border-block-start: 1px solid var(--line);
         max-height: 65vh;
         max-height: 65dvh;
         overflow-y: auto;
+        scrollbar-gutter: stable;
+        scrollbar-width: thin;
         -webkit-overflow-scrolling: touch;
         animation: filterDrop 0.2s ease-out;
+    }
+
+    .mobile-filter-dropdown-panel::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .mobile-filter-dropdown-panel::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .mobile-filter-dropdown-panel::-webkit-scrollbar-thumb {
+        background: var(--line-strong);
+        border-radius: 999px;
     }
 
     @keyframes filterDrop {
@@ -3955,6 +4039,41 @@ body.dark-mode .vs-side img {
     border: 1px solid var(--line);
     border-radius: var(--radius-lg);
     padding: var(--s3) var(--s4);
+}
+
+.active-filter-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.28rem 0.6rem;
+    font-size: var(--fs-xs);
+    font-weight: 500;
+    line-height: 1;
+    border-radius: var(--radius);
+    background: var(--accent);
+    color: #ffffff;
+    white-space: nowrap;
+    transition: background 0.15s ease;
+}
+
+.active-filter-badge button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0;
+    font-size: 0.8rem;
+    line-height: 1;
+    opacity: 0.85;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.active-filter-badge button:hover {
+    opacity: 1;
+    transform: scale(1.15);
 }
 
 .search-toolbar-right {

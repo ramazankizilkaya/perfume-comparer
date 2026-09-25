@@ -204,8 +204,21 @@ export default function Header() {
                     <Link href="/tr/detayli-arama" className="nav-link">Detaylı Arama</Link>
                     <Link href="/tr/marka" className="nav-link">Markalar</Link>
                     <Link href="/tr/blog" className="nav-link">Rehber</Link>
+                    <Link
+                        href="/"
+                        className="icon-btn home-btn"
+                        aria-label="Anasayfa"
+                        data-tooltip="Anasayfa"
+                    >
+                        <Icon name="home" size={17} />
+                    </Link>
                     <GenderControl />
-                    <button className="icon-btn theme-toggle-btn" onClick={toggleTheme} aria-label="Temayı değiştir" title="Temayı değiştir">
+                    <button
+                        className="icon-btn theme-toggle-btn"
+                        onClick={toggleTheme}
+                        aria-label="Temayı değiştir"
+                        data-tooltip={theme === "dark" ? "Aydınlık Mod" : "Karanlık Mod"}
+                    >
                         <Icon name={theme === "dark" ? "sun" : "moon"} />
                     </button>
                     <UserMenu />
@@ -214,6 +227,7 @@ export default function Header() {
                         className="icon-btn mobile-menu-toggle"
                         onClick={() => setMobileNavOpen((o) => !o)}
                         aria-label="Menüyü aç/kapat"
+                        data-tooltip="Menü"
                         aria-expanded={mobileNavOpen}
                     >
                         <Icon name={mobileNavOpen ? "close" : "menu"} size={18} />
@@ -224,6 +238,10 @@ export default function Header() {
             {mobileNavOpen && (
                 <div className="mobile-nav-panel" role="dialog" aria-label="Mobil Menü">
                     <div className="shell mobile-nav-links">
+                        <Link href="/" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                            <Icon name="home" size={16} />
+                            <span>Anasayfa</span>
+                        </Link>
                         <Link href="/tr/karsilastir" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
                             <Icon name="swap" size={16} />
                             <span>Karşılaştır</span>

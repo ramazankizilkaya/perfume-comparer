@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using PerfumeComparer.Business.Services;
 using PerfumeComparer.Data.Persistence;
 using PerfumeComparer.Domain;
 using PerfumeComparer.Domain.Entities;
@@ -12,7 +13,7 @@ namespace PerfumeComparer.Controllers;
 
 [ApiController]
 [Route("api/blogs")]
-public class BlogController(AppDbContext db) : ControllerBase
+public class BlogController(AppDbContext db, ITokenService tokens) : ControllerBase
 {
     [HttpGet]
     public async Task<IActionResult> GetBlogs(CancellationToken ct)
@@ -29,6 +30,34 @@ public class BlogController(AppDbContext db) : ControllerBase
                 b.Excerpt,
                 b.CoverImageUrl,
                 b.PublishedAt,
+                AuthorName = b.Author.DisplayName ?? b.Author.Email
+            })
+            .ToListAsync(ct);
+
+        return Ok(posts);
+    }
+
+    [HttpGet("my")]
+    public async Task<IActionResult> GetMyBlogs(CancellationToken ct)
+    {
+        var principal = tokens.Validate(Request.Headers.Authorization.ToString());
+        if (principal == null)
+            return Unauthorized(new { message = "Yazılarınızı görüntülemek için lütfen giriş yapın." });
+
+        var posts = await db.BlogPosts
+            .AsNoTracking()
+            .Where(b => b.AuthorUserId == (int)principal.UserId)
+            .OrderByDescending(b => b.CreatedAt)
+            .Select(b => new
+            {
+                b.Id,
+                b.Title,
+                b.Slug,
+                b.Excerpt,
+                b.CoverImageUrl,
+                b.PublishedAt,
+                b.CreatedAt,
+                Status = b.Status.ToString(),
                 AuthorName = b.Author.DisplayName ?? b.Author.Email
             })
             .ToListAsync(ct);
@@ -67,21 +96,30 @@ public class BlogController(AppDbContext db) : ControllerBase
     {
         if (string.IsNullOrWhiteSpace(dto.Title) || string.IsNullOrWhiteSpace(dto.Body))
         {
-            return BadRequest("Başlık ve içerik alanları zorunludur.");
+            return BadRequest(new { message = "Başlık ve içerik alanları zorunludur." });
         }
 
-        // Simüle etmek için ilk kullanıcıyı yazar yapalım
-        var author = await db.Users.FirstOrDefaultAsync(ct);
-        if (author == null)
+        var principal = tokens.Validate(Request.Headers.Authorization.ToString());
+        int authorId;
+        if (principal != null)
         {
-            return BadRequest("Yazar bulunamadı. Lütfen önce veritabanını tohumlayın.");
+            authorId = (int)principal.UserId;
+        }
+        else
+        {
+            var author = await db.Users.FirstOrDefaultAsync(ct);
+            if (author == null)
+            {
+                return BadRequest(new { message = "Yazar bulunamadı. Lütfen önce veritabanını tohumlayın veya giriş yapın." });
+            }
+            authorId = (int)author.Id;
         }
 
         var slug = Domain.SlugHelper.Slugify(dto.Title) + "-" + DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString();
 
         var newPost = new BlogPost
         {
-            AuthorUserId = author.Id,
+            AuthorUserId = authorId,
             Title = dto.Title,
             Slug = slug,
             Body = dto.Body,
