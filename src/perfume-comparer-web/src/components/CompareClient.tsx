@@ -7,6 +7,7 @@ import Icon from "./Icon";
 import Stars from "./Stars";
 import Score from "./Score";
 import LoginPrompt from "./LoginPrompt";
+import ImageLightboxModal from "./ImageLightboxModal";
 import { API_BASE, perfumeHref, formatDate, genderLabel, mediaUrl } from "@/lib/urls";
 import { noteIcon } from "@/lib/notes";
 import { useCompare, useAuth, MAX_COMPARE } from "@/lib/stores";
@@ -48,12 +49,15 @@ export interface PerfumeDetail {
     imageUrl?: string;
     avgRating: number;
     ratingCount: number;
+    ratingBreakdown?: VoteBar[];
     accords: Accord[];
     notes: { top: Note[]; middle: Note[]; base: Note[]; all: Note[] };
     seasons: ScoredRef[];
     timeOfDay: ScoredRef[];
     longevity: VoteBar[];
     sillage: VoteBar[];
+    genderVotes?: VoteBar[];
+    priceVotes?: VoteBar[];
     ageGroups: ScoredRef[];
     usageCount: number;
     path: string;
@@ -92,7 +96,7 @@ export default function CompareClient({
     const { remove } = useCompare();
 
     const slugs = useMemo(() => {
-        const items = searchParams.get("items");
+        const items = searchParams.get("items") || searchParams.get("parfumler");
         if (items) return items.split(",").filter(Boolean).slice(0, MAX_COMPARE);
         const pair = [searchParams.get("p1"), searchParams.get("p2")].filter(Boolean) as string[];
         if (pair.length > 0) return pair;
@@ -101,12 +105,19 @@ export default function CompareClient({
 
     const [perfumes, setPerfumes] = useState<PerfumeDetail[]>(initialPerfumes);
     const [loading, setLoading] = useState(false);
+    const [lightboxImage, setLightboxImage] = useState<{ src: string; alt: string } | null>(null);
     const isInitialMount = useRef(true);
 
     useEffect(() => {
         if (isInitialMount.current) {
             isInitialMount.current = false;
-            return;
+            const initialMatches =
+                slugs.length > 0 &&
+                initialPerfumes.length === slugs.length &&
+                slugs.every((s) => initialPerfumes.some((p) => p.slug === s));
+            if (initialMatches) {
+                return;
+            }
         }
 
         if (slugs.length === 0) {
@@ -148,58 +159,49 @@ export default function CompareClient({
         <>
             <div className="compare-picker">
                 <div>
-                    <span className="compare-picker-kicker">ADIM 1 · SEÇİM</span>
                     <PerfumePicker
-                        label={slugs.length === 0 ? "İlk parfümü ekle" : "Listeye parfüm ekle"}
                         disabled={slugs.length >= MAX_COMPARE}
                         onPick={(s) => add(s.slug)}
                     />
                 </div>
-                <p className="compare-picker-note">
-                    <strong>{slugs.length}/{MAX_COMPARE} parfüm</strong>
-                    <span>Notalar, oylar ve kullanım verileri aynı tabloda görünür.</span>
-                </p>
             </div>
 
             {loading ? (
                 <div className="state"><div className="spinner" /><p>Yükleniyor…</p></div>
-            ) : perfumes.length === 0 ? (
-                <div className="state compare-empty">
-                    <span className="compare-empty-kicker">KARŞILAŞTIRMA BAŞLANGICI</span>
-                    <h2>İki kokuyu seçin, farkları anında görün</h2>
-                    <p>Önce yukarıdan bir parfüm arayın. İkinci seçimi eklediğinizde nota, puan, kalıcılık ve mevsim verileri yan yana gelir.</p>
-                    <ol className="compare-empty-steps">
-                        <li><strong>1</strong> İlk parfümü seçin</li>
-                        <li><strong>2</strong> Bir veya daha fazla koku ekleyin</li>
-                        <li><strong>3</strong> Sabit başlıklı tabloda kıyaslayın</li>
-                    </ol>
-                    <Link href="/ara" className="btn btn-primary">
-                        <Icon name="search" size={14} /> Parfüm ara
-                    </Link>
-                </div>
-            ) : (
+            ) : perfumes.length === 0 ? null : (
                 <>
-                    <CompareMatrix perfumes={perfumes} onRemove={drop} />
+                    <CompareMatrix
+                        perfumes={perfumes}
+                        onRemove={drop}
+                        onImageClick={(src, alt) => setLightboxImage({ src, alt })}
+                    />
                     {perfumes.length === 2 && (
-                        <ComparisonComments p1={perfumes[0]} p2={perfumes[1]} />
+                        <>
+                            <AiComparisonAnalysis p1={perfumes[0]} p2={perfumes[1]} />
+                            <ComparisonComments p1={perfumes[0]} p2={perfumes[1]} />
+                        </>
                     )}
+                    <ImageLightboxModal
+                        isOpen={!!lightboxImage}
+                        src={lightboxImage?.src ?? ""}
+                        alt={lightboxImage?.alt ?? ""}
+                        onClose={() => setLightboxImage(null)}
+                    />
                 </>
             )}
         </>
     );
 }
 
-function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRemove: (slug: string) => void }) {
-    const seasonSlugs = dedupe(perfumes.flatMap((p) => p.seasons.map((s) => s.slug)));
-    const ageSlugs = perfumes.some((p) => p.usageCount > 0)
-        ? dedupe(perfumes.flatMap((p) => p.ageGroups.map((a) => a.slug)))
-        : [];
-
-    const seasonName = (slug: string) =>
-        perfumes.flatMap((p) => p.seasons).find((s) => s.slug === slug)?.name ?? slug;
-    const ageName = (slug: string) =>
-        perfumes.flatMap((p) => p.ageGroups).find((a) => a.slug === slug)?.name ?? slug;
-
+function CompareMatrix({
+    perfumes,
+    onRemove,
+    onImageClick,
+}: {
+    perfumes: PerfumeDetail[];
+    onRemove: (slug: string) => void;
+    onImageClick: (src: string, alt: string) => void;
+}) {
     return (
         <div className="matrix-wrap">
             <table className="matrix">
@@ -212,18 +214,21 @@ function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRe
                                     <Icon name="close" size={13} />
                                 </button>
                                 <div className="matrix-head-cell">
-                                    <img src={mediaUrl(p.imageUrl) || PLACEHOLDER} alt={`${p.brand.name} ${p.name} parfümü`} />
-                                    <span className="card-brand">{p.brand.name}</span>
-                                    <Link href={perfumeHref(p.path, p.slug)} className="card-title">
-                                        {p.name}
-                                    </Link>
-                                    <Score value={p.avgRating} count={p.ratingCount} />
+                                    <button
+                                        type="button"
+                                        className="matrix-img-btn"
+                                        onClick={() => onImageClick(mediaUrl(p.imageUrl) || PLACEHOLDER, `${p.brand.name} ${p.name} parfümü`)}
+                                        title={`${p.brand.name} ${p.name} - Büyütmek için tıklayın`}
+                                        aria-label={`${p.brand.name} ${p.name} görselini büyüt`}
+                                    >
+                                        <img src={mediaUrl(p.imageUrl) || PLACEHOLDER} alt={`${p.brand.name} ${p.name} parfümü`} />
+                                    </button>
                                 </div>
                             </td>
                         ))}
                     </tr>
 
-                    <Row label="Marka" perfumes={perfumes} render={(p) => p.brand.name} />
+                    <Row label="Marka / İsim" perfumes={perfumes} render={(p) => <Link href={perfumeHref(p.path, p.slug)} className="matrix-perfume-link"><strong>{p.brand.name}</strong> {p.name}</Link>} />
                     <Row label="Koku ailesi" perfumes={perfumes} render={(p) => p.fragranceFamily ?? "—"} />
                     <Row label="Cinsiyet" perfumes={perfumes} render={(p) => genderLabel(p.gender)} />
                     <Row label="Konsantrasyon" perfumes={perfumes} render={(p) => p.concentration ?? "—"} />
@@ -243,16 +248,13 @@ function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRe
                         label="Ana akorlar"
                         perfumes={perfumes}
                         render={(p) => (
-                            <div className="tag-row">
+                            <div className="matrix-chip-col">
                                 {p.accords.slice(0, 4).map((a) => (
                                     <span key={a.slug} className="accord-chip">{a.name}</span>
                                 ))}
                             </div>
                         )}
                     />
-
-                    <Row label="Kalıcılık" perfumes={perfumes} render={(p) => topVote(p.longevity)} />
-                    <Row label="Yayılım" perfumes={perfumes} render={(p) => topVote(p.sillage)} />
 
                     <Row label="Üst notalar" perfumes={perfumes} render={(p) => <NoteList notes={p.notes.top} />} />
                     <Row label="Orta notalar" perfumes={perfumes} render={(p) => <NoteList notes={p.notes.middle} />} />
@@ -266,21 +268,42 @@ function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRe
                     )}
 
                     <Row
+                        label="Kalıcılık puanı"
+                        perfumes={perfumes}
+                        render={(p) => <SingleVoteBarCell items={p.longevity} scaleOrder={LONGEVITY_SCALE_ORDER} totalSteps={5} />}
+                    />
+                    <Row
+                        label="Yayılım puanı"
+                        perfumes={perfumes}
+                        render={(p) => <SingleVoteBarCell items={p.sillage} scaleOrder={SILLAGE_SCALE_ORDER} totalSteps={4} />}
+                    />
+                    <Row
+                        label="Kime gider?"
+                        perfumes={perfumes}
+                        render={(p) => <SingleVoteBarCell items={p.genderVotes} scaleOrder={GENDER_SCALE_ORDER} totalSteps={5} />}
+                    />
+                    <Row
+                        label="Fiyat / değer"
+                        perfumes={perfumes}
+                        render={(p) => <SingleVoteBarCell items={p.priceVotes} scaleOrder={PRICE_SCALE_ORDER} totalSteps={5} />}
+                    />
+
+                    <Row
                         label="Mevsim uyumu"
                         perfumes={perfumes}
-                        render={(p) => <FacetCell items={p.seasons} order={seasonSlugs} nameOf={seasonName} />}
+                        render={(p) => <TopFacetCell items={p.seasons} />}
                     />
 
                     <Row
                         label="Gündüz / gece"
                         perfumes={perfumes}
-                        render={(p) => <FacetCell items={p.timeOfDay} />}
+                        render={(p) => <TopFacetCell items={p.timeOfDay} />}
                     />
 
                     <Row
                         label="Yaş grubu"
                         perfumes={perfumes}
-                        render={(p) => <FacetCell items={p.ageGroups} order={ageSlugs} nameOf={ageName} />}
+                        render={(p) => <TopFacetCell items={p.ageGroups} />}
                     />
                 </tbody>
             </table>
@@ -288,14 +311,89 @@ function CompareMatrix({ perfumes, onRemove }: { perfumes: PerfumeDetail[]; onRe
     );
 }
 
-function topVote(items: VoteBar[]): string {
-    if (!items?.length) return "—";
-    const top = [...items].sort((a, b) => b.votes - a.votes)[0];
-    return top.votes > 0 ? `${top.name} (%${top.percent})` : "—";
+const LONGEVITY_SCALE_ORDER: Record<string, number> = {
+    "cok-zayif": 1,
+    "zayif": 2,
+    "orta": 3,
+    "uzun-sureli": 4,
+    "cok-uzun-sureli": 5,
+};
+
+const SILLAGE_SCALE_ORDER: Record<string, number> = {
+    "kisisel": 1,
+    "yakin": 1,
+    "orta": 2,
+    "guclu": 3,
+    "cok-guclu": 4,
+};
+
+const GENDER_SCALE_ORDER: Record<string, number> = {
+    "kadin": 1,
+    "daha-cok-kadin": 2,
+    "unisex": 3,
+    "daha-cok-erkek": 4,
+    "erkek": 5,
+};
+
+const PRICE_SCALE_ORDER: Record<string, number> = {
+    "cok-uygun": 1,
+    "uygun": 2,
+    "makul": 3,
+    "pahali": 4,
+    "cok-pahali": 5,
+};
+
+function SingleVoteBarCell({
+    items,
+    scaleOrder,
+    totalSteps = 5,
+}: {
+    items?: VoteBar[];
+    scaleOrder?: Record<string, number>;
+    totalSteps?: number;
+}) {
+    if (!items || items.length === 0) return <span className="faint">—</span>;
+    const totalVotes = items.reduce((sum, i) => sum + (i.votes || 0), 0);
+    const hasAnyVotes = items.some((i) => (i.votes || 0) > 0 || (i.percent || 0) > 0);
+    if (!hasAnyVotes) return <span className="faint">—</span>;
+
+    const sorted = [...items].sort((a, b) => (b.votes || 0) - (a.votes || 0));
+    const top = sorted[0];
+    if (!top || (top.votes === 0 && top.percent === 0)) return <span className="faint">—</span>;
+
+    const step =
+        scaleOrder && scaleOrder[top.slug]
+            ? scaleOrder[top.slug]
+            : Math.max(1, Math.min(totalSteps, Math.round(((top.percent || 0) / 100) * totalSteps) || 1));
+
+    const percent = Math.round((step / totalSteps) * 100);
+
+    return (
+        <div className="clean-bar-wrap">
+            <span className="clean-bar-label">{top.name}</span>
+            <div className="clean-bar-track">
+                <span className="clean-bar-fill" style={{ width: `${percent}%` }} />
+            </div>
+        </div>
+    );
 }
 
-function dedupe(values: string[]): string[] {
-    return values.filter((v, i) => values.indexOf(v) === i);
+function TopFacetCell({ items }: { items: ScoredRef[] }) {
+    if (!items || items.length === 0) return <span className="faint">—</span>;
+    const hasVotes = items.some((i) => i.score > 0 || i.votes > 0);
+    if (!hasVotes) return <span className="faint">—</span>;
+
+    const top = [...items].sort((a, b) => b.score - a.score)[0];
+    if (!top || top.score === 0) return <span className="faint">—</span>;
+
+    const ico = FACET_ICONS[top.slug] ?? "";
+
+    return (
+        <span className="matrix-facet-text">
+            {ico && <span className="facet-ico" aria-hidden="true">{ico}</span>}
+            {top.name}
+        </span>
+    );
 }
 
 function Row({
@@ -318,7 +416,7 @@ function Row({
 function NoteList({ notes }: { notes: Note[] }) {
     if (!notes?.length) return <span className="faint">—</span>;
     return (
-        <div className="tag-row">
+        <div className="matrix-chip-col">
             {notes.map((n, i) => (
                 <span key={i} className="note-chip">
                     <span className="note-ico" aria-hidden="true">{noteIcon(n.name, n.category)}</span>
@@ -342,38 +440,72 @@ const FACET_ICONS: Record<string, string> = {
     diger: "👥",
 };
 
-function FacetCell({
-    items,
-    order,
-    nameOf,
-}: {
-    items: ScoredRef[];
-    order?: string[];
-    nameOf?: (slug: string) => string;
-}) {
-    const rows = order
-        ? order.map((slug) => items.find((i) => i.slug === slug)
-            ?? { slug, name: nameOf ? nameOf(slug) : slug, score: 0, votes: 0 })
-        : items;
+function AiComparisonAnalysis({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }) {
+    const [analysis, setAnalysis] = useState<string | null>(null);
+    const [loading, setLoading] = useState(true);
 
-    if (!rows.length || rows.every((r) => r.score === 0)) return <span className="faint">—</span>;
+    useEffect(() => {
+        let active = true;
+        setLoading(true);
+        setAnalysis(null);
 
-    const best = Math.max(...rows.map((r) => r.score));
+        (async () => {
+            try {
+                const res = await fetch(`${API_BASE}/api/compare/${p1.slug}-vs-${p2.slug}/ai-analysis`);
+                if (res.ok) {
+                    const data = await res.json();
+                    if (active && data?.summary) {
+                        setAnalysis(data.summary);
+                    }
+                }
+            } catch {
+                /* yoksay */
+            } finally {
+                if (active) setLoading(false);
+            }
+        })();
+
+        return () => {
+            active = false;
+        };
+    }, [p1.slug, p2.slug]);
+
+    if (!loading && !analysis) return null;
+
+    const paragraphs = (analysis ?? "").split("\n\n").map((p) => p.trim()).filter(Boolean);
 
     return (
-        <div className="matrix-facets">
-            {rows.map((r) => (
-                <div
-                    key={r.slug}
-                    className={`facet-tile${r.score === best && best > 0 ? " is-best" : ""}`}
-                    title={`${r.name} — %${r.score}`}
-                >
-                    <span className="facet-ico" aria-hidden="true">{FACET_ICONS[r.slug] ?? "•"}</span>
-                    <span className="facet-name">{r.name}</span>
-                    <span className="facet-val">%{r.score}</span>
+        <section className="compare-ai-section">
+            <div className="compare-ai-head">
+                <span className="compare-ai-badge">
+                    <Icon name="sparkle" size={14} /> Yapay Zekâ Karşılaştırma Analizi
+                </span>
+                <span className="compare-ai-sub">
+                    {p1.brand.name} {p1.name} & {p2.brand.name} {p2.name}
+                </span>
+            </div>
+            {loading ? (
+                <div className="compare-ai-loading">
+                    <div className="spinner" />
+                    <p>Yapay zekâ koku notalarını, mevsim uyumunu ve kullanım ortamını analiz ediyor…</p>
                 </div>
-            ))}
-        </div>
+            ) : (
+                <div className="compare-ai-paragraphs">
+                    {paragraphs.map((para, i) => {
+                        const match = para.match(/^\*\*([^*]+)\*\*[:\s-]*([\s\S]*)$/);
+                        if (match) {
+                            return (
+                                <p key={i} className="compare-ai-para">
+                                    <strong className="compare-ai-heading">{match[1].trim()}</strong>
+                                    <span>{match[2].trim()}</span>
+                                </p>
+                            );
+                        }
+                        return <p key={i} className="compare-ai-para">{para}</p>;
+                    })}
+                </div>
+            )}
+        </section>
     );
 }
 
@@ -429,23 +561,11 @@ function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }
         }
     };
 
-    const ai = comments.find((c) => c.isAiSummary) ?? null;
     const userComments = comments.filter((c) => !c.isAiSummary);
 
     return (
         <section className="block">
             <h2 className="block-title">Bu karşılaştırma hakkında ({userComments.length})</h2>
-
-            {ai && (
-                <div className="ai-summary">
-                    <div className="ai-summary-head">
-                        <Icon name="sparkle" size={14} />
-                        <span>Yorumların yapay zekâ özeti</span>
-                        <span className="comment-date">{formatDate(ai.updatedAt || ai.createdAt)}</span>
-                    </div>
-                    <p className="ai-summary-body">{ai.body}</p>
-                </div>
-            )}
 
             <div className="comment-form-wrap">
                 <LoginPrompt label="Bu karşılaştırma hakkında yorum yapmak için giriş yapın">
@@ -515,7 +635,7 @@ function PrefButton({
 
 function PerfumePicker({
     label, onPick, disabled,
-}: { label: string; onPick: (s: Suggestion) => void; disabled?: boolean }) {
+}: { label?: string; onPick: (s: Suggestion) => void; disabled?: boolean }) {
     const [query, setQuery] = useState("");
     const [results, setResults] = useState<Suggestion[]>([]);
     const [open, setOpen] = useState(false);
@@ -551,7 +671,7 @@ function PerfumePicker({
 
     return (
         <div className="form-group" style={{ position: "relative", margin: 0 }} ref={boxRef}>
-            <label>{label}</label>
+            {label && <label>{label}</label>}
             <div className="field">
                 <Icon name="search" />
                 <input
@@ -559,7 +679,8 @@ function PerfumePicker({
                     disabled={disabled}
                     onChange={(e) => setQuery(e.target.value)}
                     onFocus={() => results.length > 0 && setOpen(true)}
-                    placeholder={disabled ? `En fazla ${MAX_COMPARE} parfüm` : "Parfüm ara…"}
+                    placeholder={disabled ? `En fazla ${MAX_COMPARE} parfüm` : "Listeye parfüm ekle…"}
+                    aria-label="Listeye parfüm ekle"
                 />
             </div>
             {open && results.length > 0 && (

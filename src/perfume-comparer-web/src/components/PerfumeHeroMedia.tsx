@@ -13,7 +13,10 @@ const PLACEHOLDER =
 export default function PerfumeHeroMedia({ perfume }: { perfume: PerfumeRef }) {
     const [open, setOpen] = useState(false);
     const src = mediaUrl(perfume.imageUrl) || PLACEHOLDER;
-    const imageAlt = `${perfume.brandName} ${perfume.name} orijinal parfüm şişesi`;
+    const fullName = perfume.name.toLowerCase().includes(perfume.brandName.toLowerCase())
+        ? perfume.name
+        : `${perfume.brandName} ${perfume.name}`;
+    const imageAlt = `${fullName} orijinal parfüm şişesi`;
 
     return (
         <div className="detail-media-col">

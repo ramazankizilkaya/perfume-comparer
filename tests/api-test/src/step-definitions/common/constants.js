@@ -49,10 +49,12 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
                 "Get Random Brands": '/api/brands/random?count=10',
                 "Get Brand Detail": `/api/brands/${brandSlug}`,
                 "Get Filter Meta": '/api/meta/filters',
+                "Get Perfumes User Filter": `/api/perfumes?userFilter=${query || 'favorites'}`,
             },
             "POST": {
                 "Submit Perfume Comment": `/api/perfumes/${perfumeSlug}/comments`,
                 "Record Usage": `/api/perfumes/${perfumeSlug}/kullaniyorum`,
+                "Toggle Favorite": `/api/perfumes/${perfumeSlug}/favorite`,
             }
         },
 
@@ -60,6 +62,7 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
         "Compare": {
             "GET": {
                 "Get Popular Comparisons": '/api/compare/popular',
+                "Get AI Comparison Analysis": '/api/compare/dior-sauvage-edp-vs-versace-versace-pour-homme-dylan-blue-edp/ai-analysis',
             }
         },
 

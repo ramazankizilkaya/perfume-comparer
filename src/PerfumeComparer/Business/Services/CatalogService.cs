@@ -71,9 +71,9 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
         return MapDetail(perfume);
     }
 
-    public async Task<PagedResult<PerfumeCardDto>> GetPerfumesAsync(PerfumeListQuery q, CancellationToken ct = default)
+    public async Task<PagedResult<PerfumeCardDto>> GetPerfumesAsync(PerfumeListQuery q, int? userId = null, CancellationToken ct = default)
     {
-        var query = BuildListQuery(q);
+        var query = BuildListQuery(q, userId);
 
         if (!string.IsNullOrWhiteSpace(q.Sort))
         {
@@ -304,9 +304,56 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
 
     // ----------------------------------------------------------------- sorgu
 
-    private IQueryable<Perfume> BuildListQuery(PerfumeListQuery q)
+    private IQueryable<Perfume> BuildListQuery(PerfumeListQuery q, int? userId = null)
     {
         var query = uow.GetRepository<Perfume>().AsNoTracking().Where(p => p.IsPublished);
+
+        if (!string.IsNullOrWhiteSpace(q.UserFilter))
+        {
+            var filter = q.UserFilter.Trim().ToLowerInvariant();
+            if (filter is "favorites" or "favorilerim")
+            {
+                var favSlugs = Split(q.FavSlugs);
+                if (userId != null)
+                {
+                    query = query.Where(p => uow.GetRepository<Favorite>().AsNoTracking()
+                        .Any(f => f.UserId == userId.Value && f.PerfumeId == p.Id)
+                        || (favSlugs != null && favSlugs.Contains(p.Slug)));
+                }
+                else if (favSlugs != null && favSlugs.Length > 0)
+                {
+                    query = query.Where(p => favSlugs.Contains(p.Slug));
+                }
+                else
+                {
+                    query = query.Where(p => false);
+                }
+            }
+            else if (filter is "comments" or "yorumlarim" or "yorumlar")
+            {
+                if (userId != null)
+                {
+                    query = query.Where(p => uow.GetRepository<PerfumeComment>().AsNoTracking()
+                        .Any(c => c.UserId == userId.Value && !c.IsAiSummary && c.PerfumeId == p.Id));
+                }
+                else
+                {
+                    query = query.Where(p => false);
+                }
+            }
+            else if (filter is "ratings" or "puanlarim" or "puanlar")
+            {
+                if (userId != null)
+                {
+                    query = query.Where(p => uow.GetRepository<Rating>().AsNoTracking()
+                        .Any(r => r.UserId == userId.Value && r.PerfumeId == p.Id));
+                }
+                else
+                {
+                    query = query.Where(p => false);
+                }
+            }
+        }
 
         if (!string.IsNullOrWhiteSpace(q.Q))
         {

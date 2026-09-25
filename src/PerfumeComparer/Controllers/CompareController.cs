@@ -17,8 +17,19 @@ namespace PerfumeComparer.Controllers;
 /// </summary>
 [ApiController]
 [Route("api/compare")]
-public class CompareController(AppDbContext db, ITokenService tokens) : ControllerBase
+public class CompareController(AppDbContext db, ITokenService tokens, ICompareAiService compareAi) : ControllerBase
 {
+    /// <summary>İki parfümün AI destekli karşılaştırmalı analizi (varsa DB'den, yoksa AI üretip DB'ye kaydeder).</summary>
+    [HttpGet("{p1Slug}-vs-{p2Slug}/ai-analysis")]
+    public async Task<IActionResult> GetComparisonAiAnalysis(string p1Slug, string p2Slug, CancellationToken ct)
+    {
+        var analysis = await compareAi.GetOrGenerateComparisonAnalysisAsync(p1Slug, p2Slug, ct);
+        if (analysis is null)
+            return NotFound(new { message = "Karşılaştırma analizi üretilemedi veya parfümler bulunamadı." });
+
+        return Ok(new { summary = analysis });
+    }
+
     /// <summary>Anasayfa için popüler karşılaştırma çiftleri.</summary>
     [HttpGet("popular")]
     public async Task<IActionResult> GetPopularComparisons(CancellationToken ct)
@@ -107,9 +118,9 @@ public class CompareController(AppDbContext db, ITokenService tokens) : Controll
         var comments = await db.ComparisonComments
             .AsNoTracking()
             .Where(c => c.Perfume1Id == first && c.Perfume2Id == second
-                        && c.Status == ModerationStatus.Approved)
-            .OrderByDescending(c => c.IsAiSummary)
-            .ThenByDescending(c => c.CreatedAt)
+                        && c.Status == ModerationStatus.Approved
+                        && !c.IsAiSummary)
+            .OrderByDescending(c => c.CreatedAt)
             .Select(c => new
             {
                 c.Id,

@@ -8,7 +8,7 @@ namespace PerfumeComparer.Business.Services;
 public interface ICatalogService
 {
     Task<PerfumeDetailDto?> GetPerfumeDetailAsync(string slug, string? ipAddress = null, CancellationToken ct = default);
-    Task<PagedResult<PerfumeCardDto>> GetPerfumesAsync(PerfumeListQuery query, CancellationToken ct = default);
+    Task<PagedResult<PerfumeCardDto>> GetPerfumesAsync(PerfumeListQuery query, int? userId = null, CancellationToken ct = default);
     /// <summary>Marka rehberi kartları: logo, ad, ülke ve parfüm sayısı.</summary>
     Task<IReadOnlyList<BrandCardDto>> GetBrandsAsync(CancellationToken ct = default);
     Task<IReadOnlyList<BrandCardDto>> GetRandomBrandsAsync(int count = 20, CancellationToken ct = default);

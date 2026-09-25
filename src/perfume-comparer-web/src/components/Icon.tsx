@@ -27,9 +27,13 @@ export type IconName =
     | "plus"
     | "filter"
     | "sparkle"
+    | "menu"
+    | "message"
     | "trash";
 
 const PATHS: Record<IconName, React.ReactNode> = {
+    menu: <path d="M4 6h16M4 12h16M4 18h16" />,
+    message: <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />,
     search: (
         <>
             <circle cx="11" cy="11" r="7" />

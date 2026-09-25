@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Icon from "./Icon";
 import { useAuth, type AuthUser } from "@/lib/stores";
 
 function initials(u: AuthUser): string {
@@ -52,8 +53,13 @@ export default function UserMenu() {
     if (!ready || !user) {
         const next = pathname && pathname !== "/giris" ? `?next=${encodeURIComponent(pathname)}` : "";
         return (
-            <Link href={`/giris${next}`} className="btn btn-ghost btn-sm login-btn">
-                Giriş yap
+            <Link
+                href={`/giris${next}`}
+                className="icon-btn login-btn"
+                aria-label="Giriş yap"
+                title="Giriş yap"
+            >
+                <Icon name="user" size={17} />
             </Link>
         );
     }
@@ -73,6 +79,32 @@ export default function UserMenu() {
                             <span>{user.email}</span>
                         </div>
                     </div>
+                    <nav className="user-dropdown-nav">
+                        <Link
+                            href="/tr/detayli-arama?userFilter=favorites"
+                            className="user-dropdown-link"
+                            onClick={() => setOpen(false)}
+                        >
+                            <Icon name="heart" size={15} />
+                            <span>Favorilerim</span>
+                        </Link>
+                        <Link
+                            href="/tr/detayli-arama?userFilter=comments"
+                            className="user-dropdown-link"
+                            onClick={() => setOpen(false)}
+                        >
+                            <Icon name="message" size={15} />
+                            <span>Yorum Yazdıklarım</span>
+                        </Link>
+                        <Link
+                            href="/tr/detayli-arama?userFilter=ratings"
+                            className="user-dropdown-link"
+                            onClick={() => setOpen(false)}
+                        >
+                            <Icon name="star" size={15} />
+                            <span>Puanladıklarım</span>
+                        </Link>
+                    </nav>
                     <button className="user-signout" onClick={() => { signOut(); setOpen(false); }}>
                         Çıkış yap
                     </button>

@@ -94,6 +94,16 @@ export default async function BrandPage({ params }: PageProps) {
                     )}
                 </div>
 
+                <div className="brand-head-main">
+                    <h1 className="brand-name">{brand.name}</h1>
+                    {brand.description && <p className="brand-desc">{brand.description}</p>}
+                    {brand.websiteUrl && (
+                        <a className="link-more" href={brand.websiteUrl} target="_blank" rel="noreferrer noopener">
+                            Resmi site <Icon name="arrow-right" size={13} />
+                        </a>
+                    )}
+                </div>
+
                 <table className="spec brand-spec">
                     <tbody>
                         <BrandSpec label="Ülke" value={brand.country} />
@@ -110,16 +120,6 @@ export default async function BrandPage({ params }: PageProps) {
                         />
                     </tbody>
                 </table>
-
-                <div className="brand-head-main">
-                    <h1 className="brand-name">{brand.name}</h1>
-                    {brand.description && <p className="brand-desc">{brand.description}</p>}
-                    {brand.websiteUrl && (
-                        <a className="link-more" href={brand.websiteUrl} target="_blank" rel="noreferrer noopener">
-                            Resmi site <Icon name="arrow-right" size={13} />
-                        </a>
-                    )}
-                </div>
             </header>
 
             <BrandPerfumesClient

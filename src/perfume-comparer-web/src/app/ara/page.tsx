@@ -6,6 +6,7 @@ import Icon from "@/components/Icon";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import { PerfumeCard, type PerfumeCardData } from "@/components/PerfumeCard";
 import { API_BASE } from "@/lib/urls";
+import { useAuth, useFavorites } from "@/lib/stores";
 
 interface Ref {
     id?: number;
@@ -54,6 +55,9 @@ export default function SearchPage() {
 function SearchInner() {
     const sp = useSearchParams();
     const pathname = usePathname();
+    const { user, token, ready } = useAuth();
+    const { items: favItems } = useFavorites();
+
     const normalizeGender = (g: string) => (g === "male" ? "erkek" : g === "female" ? "kadin" : g);
     const initList = (k: string) => {
         const val = sp.get(k);
@@ -75,21 +79,35 @@ function SearchInner() {
     const [season, setSeason] = useState<string[]>(() => initList("season"));
     const [ageGroup, setAgeGroup] = useState<string[]>(() => initList("ageGroup"));
     const [sort, setSort] = useState(sp.get("sort") ?? "");
+    const [userFilter, setUserFilter] = useState(sp.get("userFilter") ?? "");
     const [isAi, setIsAi] = useState(sp.get("ai") === "1");
+
+    useEffect(() => {
+        const uf = sp.get("userFilter");
+        if (uf !== null && uf !== userFilter) {
+            setUserFilter(uf);
+        }
+    }, [sp]);
 
     // Arama içi filtre aramaları (Marka, Nota, Akor)
     const [brandSearch, setBrandSearch] = useState("");
     const [noteSearch, setNoteSearch] = useState("");
     const [accordSearch, setAccordSearch] = useState("");
 
-    // Panellerin açık/kapalı durumu: Yalnızca kullanıcının localStorage'daki tercihine göre çalışır.
+    // Panellerin açık/kapalı durumu: Akordiyon davranışı (tek seferde yalnızca tek bölüm açık olabilir).
     const [openGroups, setOpenGroups] = useState<Record<string, boolean>>({});
 
     useEffect(() => {
         try {
             const saved = localStorage.getItem("aura_filter_groups_open");
             if (saved) {
-                setOpenGroups(JSON.parse(saved));
+                const parsed = JSON.parse(saved);
+                if (typeof parsed === "object" && parsed !== null) {
+                    const activeKeys = Object.keys(parsed).filter((k) => parsed[k]);
+                    if (activeKeys.length > 0) {
+                        setOpenGroups({ [activeKeys[0]]: true });
+                    }
+                }
             }
         } catch {
             /* ignore */
@@ -98,7 +116,9 @@ function SearchInner() {
 
     const toggleGroup = (id: string) => {
         setOpenGroups((prev) => {
-            const next = { ...prev, [id]: !prev[id] };
+            const isCurrentlyOpen = Boolean(prev[id]);
+            // Açık olan bölüme tıklandıysa kapatılır; başka bölüme tıklandıysa diğeri kapanıp sadece o açılır.
+            const next: Record<string, boolean> = isCurrentlyOpen ? {} : { [id]: true };
             try {
                 localStorage.setItem("aura_filter_groups_open", JSON.stringify(next));
             } catch {
@@ -208,12 +228,22 @@ function SearchInner() {
             if (season.length) p.set("season", season.join(","));
             if (ageGroup.length) p.set("ageGroup", ageGroup.join(","));
             if (sort) p.set("sort", sort);
+            if (userFilter) {
+                p.set("userFilter", userFilter);
+                if (userFilter === "favorites" && favItems.length > 0) {
+                    p.set("favSlugs", favItems.map((f) => f.slug).join(","));
+                }
+            }
             if (isAi) p.set("ai", "1");
             p.set("page", "1");
             p.set("pageSize", "48");
 
             try {
-                const r = await fetch(`${API_BASE}/api/perfumes?${p.toString()}`);
+                const r = await fetch(`${API_BASE}/api/perfumes?${p.toString()}`, {
+                    headers: {
+                        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+                    },
+                });
                 if (r.ok) {
                     const d = await r.json();
                     setResults(d.items ?? []);
@@ -240,7 +270,7 @@ function SearchInner() {
 
         return () => clearTimeout(t);
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [q, gender, family, concentration, brand, accord, note, noteLayer, season, ageGroup, sort, isAi, pathname]);
+    }, [q, gender, family, concentration, brand, accord, note, noteLayer, season, ageGroup, sort, userFilter, isAi, pathname, token, favItems]);
 
     // Sayfalama (Daha Fazla Göster)
     const loadMore = async () => {
@@ -260,12 +290,22 @@ function SearchInner() {
         if (season.length) p.set("season", season.join(","));
         if (ageGroup.length) p.set("ageGroup", ageGroup.join(","));
         if (sort) p.set("sort", sort);
+        if (userFilter) {
+            p.set("userFilter", userFilter);
+            if (userFilter === "favorites" && favItems.length > 0) {
+                p.set("favSlugs", favItems.map((f) => f.slug).join(","));
+            }
+        }
         if (isAi) p.set("ai", "1");
         p.set("page", String(nextPage));
         p.set("pageSize", "48");
 
         try {
-            const r = await fetch(`${API_BASE}/api/perfumes?${p.toString()}`);
+            const r = await fetch(`${API_BASE}/api/perfumes?${p.toString()}`, {
+                headers: {
+                    ...(token ? { Authorization: `Bearer ${token}` } : {}),
+                },
+            });
             if (r.ok) {
                 const d = await r.json();
                 setResults((prev) => [...prev, ...(d.items ?? [])]);
@@ -281,12 +321,12 @@ function SearchInner() {
     const activeCount =
         gender.length + family.length + concentration.length + brand.length +
         accord.length + note.length + season.length + ageGroup.length +
-        (q.trim() ? 1 : 0) + (sort ? 1 : 0);
+        (q.trim() ? 1 : 0) + (sort ? 1 : 0) + (userFilter ? 1 : 0);
 
     const clearAll = () => {
         setQ(""); setGender([]); setFamily([]); setConcentration([]);
         setBrand([]); setAccord([]); setNote([]); setNoteLayer("");
-        setSeason([]); setAgeGroup([]); setSort("");
+        setSeason([]); setAgeGroup([]); setSort(""); setUserFilter("");
         setAiSummary(null);
     };
 
@@ -368,6 +408,25 @@ function SearchInner() {
                         openGroups={openGroups}
                         onToggleGroup={toggleGroup}
                     >
+                        {ready && user && (
+                            <div className="user-filter-box" style={{ marginBottom: "0.6rem", paddingBottom: "0.6rem", borderBottom: "1px solid var(--line)" }}>
+                                <Check
+                                    label="Favorilerim"
+                                    checked={userFilter === "favorites"}
+                                    onChange={() => setUserFilter(userFilter === "favorites" ? "" : "favorites")}
+                                />
+                                <Check
+                                    label="Yorum Yazdıklarım"
+                                    checked={userFilter === "comments"}
+                                    onChange={() => setUserFilter(userFilter === "comments" ? "" : "comments")}
+                                />
+                                <Check
+                                    label="Puanladıklarım"
+                                    checked={userFilter === "ratings"}
+                                    onChange={() => setUserFilter(userFilter === "ratings" ? "" : "ratings")}
+                                />
+                            </div>
+                        )}
                         {SORTS.filter((s) => s.v !== "").map((s) => (
                             <Check
                                 key={s.v}
@@ -562,6 +621,25 @@ function SearchInner() {
                                     openGroups={openGroups}
                                     onToggleGroup={toggleGroup}
                                 >
+                                    {ready && user && (
+                                        <div className="user-filter-box" style={{ marginBottom: "0.6rem", paddingBottom: "0.6rem", borderBottom: "1px solid var(--line)" }}>
+                                            <Check
+                                                label="Favorilerim"
+                                                checked={userFilter === "favorites"}
+                                                onChange={() => setUserFilter(userFilter === "favorites" ? "" : "favorites")}
+                                            />
+                                            <Check
+                                                label="Yorum Yazdıklarım"
+                                                checked={userFilter === "comments"}
+                                                onChange={() => setUserFilter(userFilter === "comments" ? "" : "comments")}
+                                            />
+                                            <Check
+                                                label="Puanladıklarım"
+                                                checked={userFilter === "ratings"}
+                                                onChange={() => setUserFilter(userFilter === "ratings" ? "" : "ratings")}
+                                            />
+                                        </div>
+                                    )}
                                     {SORTS.filter((s) => s.v !== "").map((s) => (
                                         <Check
                                             key={s.v}
@@ -690,6 +768,12 @@ function SearchInner() {
                     {/* Aktif Filtre Rozetleri */}
                     {activeCount > 0 && (
                         <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem", marginBlockEnd: "1rem", alignItems: "center" }}>
+                            {userFilter && (
+                                <span className="badge badge-accent" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
+                                    {userFilter === "favorites" ? "Favorilerim" : userFilter === "comments" ? "Yorum Yazdıklarım" : userFilter === "ratings" ? "Puanladıklarım" : userFilter}
+                                    <button type="button" onClick={() => setUserFilter("")} style={{ background: "none", border: "none", color: "inherit", cursor: "pointer", padding: 0 }}>✕</button>
+                                </span>
+                            )}
                             {sort && (
                                 <span className="badge badge-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", padding: "0.35rem 0.6rem" }}>
                                     {SORTS.find((s) => s.v === sort)?.label}

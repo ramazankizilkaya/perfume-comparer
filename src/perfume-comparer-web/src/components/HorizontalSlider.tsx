@@ -20,14 +20,60 @@ export default function HorizontalSlider({
     const scroll = (direction: "left" | "right") => {
         if (!scrollRef.current) return;
         const container = scrollRef.current;
-        const firstItem = container.querySelector<HTMLElement>(".slider-item");
-        const itemWidth = firstItem ? firstItem.offsetWidth : 210;
-        const gap = 12;
-        const scrollAmount = itemWidth + gap;
-        container.scrollBy({
-            left: direction === "left" ? -scrollAmount : scrollAmount,
-            behavior: "smooth",
-        });
+        const items = Array.from(container.querySelectorAll<HTMLElement>(".slider-item"));
+        if (items.length === 0) return;
+
+        const containerRect = container.getBoundingClientRect();
+        const containerCenter = containerRect.left + containerRect.width / 2;
+        const isMobile = window.innerWidth <= 768;
+
+        if (isMobile) {
+            if (direction === "right") {
+                const nextItem = items.find((item) => {
+                    const rect = item.getBoundingClientRect();
+                    return rect.left + rect.width / 2 > containerCenter + 15;
+                });
+                if (nextItem) {
+                    const rect = nextItem.getBoundingClientRect();
+                    const delta = (rect.left + rect.width / 2) - containerCenter;
+                    container.scrollBy({ left: delta, behavior: "smooth" });
+                }
+            } else {
+                const prevItems = items.filter((item) => {
+                    const rect = item.getBoundingClientRect();
+                    return rect.left + rect.width / 2 < containerCenter - 15;
+                });
+                if (prevItems.length > 0) {
+                    const prevItem = prevItems[prevItems.length - 1];
+                    const rect = prevItem.getBoundingClientRect();
+                    const delta = (rect.left + rect.width / 2) - containerCenter;
+                    container.scrollBy({ left: delta, behavior: "smooth" });
+                }
+            }
+        } else {
+            if (direction === "right") {
+                const nextItem = items.find((item) => {
+                    const rect = item.getBoundingClientRect();
+                    return rect.left > containerRect.left + 15;
+                });
+                if (nextItem) {
+                    const rect = nextItem.getBoundingClientRect();
+                    const delta = rect.left - containerRect.left;
+                    container.scrollBy({ left: delta, behavior: "smooth" });
+                }
+            } else {
+                const prevItems = items.filter((item) => {
+                    const rect = item.getBoundingClientRect();
+                    return rect.left < containerRect.left - 15;
+                });
+                if (prevItems.length > 0) {
+                    const prevItem = prevItems[prevItems.length - 1];
+                    const rect = prevItem.getBoundingClientRect();
+                    const delta = rect.left - containerRect.left;
+                    container.scrollBy({ left: delta, behavior: "smooth" });
+                }
+            }
+        }
     };
 
     return (

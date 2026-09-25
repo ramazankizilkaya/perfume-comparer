@@ -91,6 +91,10 @@ const responseValidationSchemes = {
         }).unknown(true)
     ).required(),
 
+    "Get AI Comparison Analysis": Joi.object({
+        summary: Joi.string().required()
+    }).required().unknown(true),
+
     "Get Blogs": Joi.array().items(
         Joi.object({
             id: Joi.number().integer().required(),

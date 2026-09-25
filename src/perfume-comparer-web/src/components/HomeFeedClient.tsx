@@ -46,23 +46,32 @@ function SliderSkeletons({ count = 6 }: { count?: number }) {
     );
 }
 
-export default function HomeFeedClient({ initialData }: { initialData: HomeFeedData }) {
+export default function HomeFeedClient({
+    initialData,
+    initialGender,
+}: {
+    initialData: HomeFeedData;
+    initialGender?: string | null;
+}) {
     const [data, setData] = useState<HomeFeedData>(initialData);
     const [isFiltering, setIsFiltering] = useState(false);
     const { gender, ready: genderReady } = useGenderPref();
-    const prevGenderRef = useRef<string | null>(null);
+    const mountedRef = useRef(false);
+    const prevGenderRef = useRef<string | null>(initialGender ?? null);
 
     useEffect(() => {
         if (!genderReady) return;
 
-        // İlk mountta eğer cinsiyet tercihi "all" ise veya boşsa sunucu verisi zaten tamdır.
-        // Asla yeniden istek atıp kartları kullanıcının gözü önünde değiştirmeyiz!
-        if (prevGenderRef.current === null) {
+        // İlk renderda sunucu verisi (initialData) zaten çerezdeki cinsiyete göre getirilmiştir.
+        // Asla ilk yüklemede tekrar istek atıp slider'daki kartları kullanıcının gözü önünde değiştirmeyiz!
+        if (!mountedRef.current) {
+            mountedRef.current = true;
             prevGenderRef.current = gender;
-            if (!gender || gender === "all") {
-                return;
-            }
-        } else if (prevGenderRef.current === gender) {
+            return;
+        }
+
+        // Kullanıcı dropdown üzerinden cinsiyeti aktif olarak değiştirmediyse istek atma
+        if (prevGenderRef.current === gender) {
             return;
         }
 

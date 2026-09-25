@@ -34,6 +34,10 @@ public record PerfumeListQuery(
     [Range(0, int.MaxValue, ErrorMessage = "Oy sayısı negatif olamaz.")]
     int? MinVotes = null,
     string? Sort = null,
+    /// <summary>Kullanıcı bazlı filtreleme: favorites, comments, ratings</summary>
+    string? UserFilter = null,
+    /// <summary>Yerel favori slug'ları (virgülle ayrılmış)</summary>
+    string? FavSlugs = null,
     int? RandomPool = null,
     [Range(1, int.MaxValue, ErrorMessage = "Sayfa numarası 1 veya daha büyük olmalıdır.")]
     int Page = 1,

@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
 import { useLocalState } from "./clientStore";
 import { API_BASE } from "./urls";
 
@@ -26,7 +26,8 @@ interface Session {
     user: AuthUser;
 }
 
-export const MAX_COMPARE = 4;
+import { MAX_COMPARE } from "./constants";
+export { MAX_COMPARE };
 
 /** Cinsiyet tercihi: ilk ziyarette null → kullanıcıya sorulur, sonra saklanır. */
 export function useGenderPref() {
@@ -38,7 +39,23 @@ export function useGenderPref() {
     const setGender = useCallback((g: GenderPref) => {
         const norm = g === "male" ? "erkek" : g === "female" ? "kadin" : g;
         setRawGender(norm);
+        if (typeof document !== "undefined") {
+            if (norm && norm !== "all") {
+                document.cookie = `gender-pref=${encodeURIComponent(JSON.stringify(norm))}; path=/; max-age=31536000; SameSite=Lax`;
+            } else {
+                document.cookie = `gender-pref=; path=/; max-age=0; SameSite=Lax`;
+            }
+        }
     }, [setRawGender]);
+
+    useEffect(() => {
+        if (!ready || typeof document === "undefined") return;
+        if (gender && gender !== "all") {
+            document.cookie = `gender-pref=${encodeURIComponent(JSON.stringify(gender))}; path=/; max-age=31536000; SameSite=Lax`;
+        } else {
+            document.cookie = `gender-pref=; path=/; max-age=0; SameSite=Lax`;
+        }
+    }, [gender, ready]);
 
     return { gender, setGender, ready };
 }

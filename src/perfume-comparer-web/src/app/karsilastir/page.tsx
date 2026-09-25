@@ -3,14 +3,14 @@ import { Suspense } from "react";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import CompareClient, { type PerfumeDetail } from "@/components/CompareClient";
 import { API_BASE } from "@/lib/urls";
-import { MAX_COMPARE } from "@/lib/stores";
+import { MAX_COMPARE } from "@/lib/constants";
 
 interface PageProps {
     searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }
 
 function parseSlugs(sp: { [key: string]: string | string[] | undefined }): string[] {
-    const itemsRaw = typeof sp.items === "string" ? sp.items : undefined;
+    const itemsRaw = typeof sp.items === "string" ? sp.items : typeof sp.parfumler === "string" ? sp.parfumler : undefined;
     if (itemsRaw) {
         return itemsRaw.split(",").filter(Boolean).slice(0, MAX_COMPARE);
     }
@@ -60,9 +60,12 @@ export default async function ComparePage({ searchParams }: PageProps) {
         try {
             const list = await Promise.all(
                 slugs.map((s) =>
-                    fetch(`${API_BASE}/api/perfumes/${s}`, { next: { revalidate: 60 } }).then((r) =>
-                        r.ok ? r.json() : null,
-                    ),
+                    fetch(`${API_BASE}/api/perfumes/${s}`, { next: { revalidate: 60 } }).then(async (r) => {
+                        if (!r.ok) {
+                            return null;
+                        }
+                        return r.json();
+                    }),
                 ),
             );
             initialPerfumes = list.filter(Boolean) as PerfumeDetail[];
@@ -76,7 +79,6 @@ export default async function ComparePage({ searchParams }: PageProps) {
             <PageBreadcrumb trail={[{ label: "Karşılaştırma" }]} />
 
             <header style={{ marginBottom: "1.25rem" }}>
-                <span className="eyebrow">Yan yana</span>
                 <h1 className="page-title">Koku karşılaştırma</h1>
                 <p className="section-desc">
                     En fazla {MAX_COMPARE} parfümü notaları, puanı, mevsim ve yaş uyumuyla tek tabloda inceleyin.

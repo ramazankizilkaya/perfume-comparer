@@ -25,8 +25,40 @@ public class CatalogController(
     [HttpGet("perfumes")]
     public async Task<IActionResult> GetPerfumes([FromQuery] PerfumeListQuery query, CancellationToken ct)
     {
-        var result = await catalog.GetPerfumesAsync(query, ct);
+        var userId = tokens.Validate(Request.Headers.Authorization.ToString())?.UserId;
+        var result = await catalog.GetPerfumesAsync(query, userId, ct);
         return Ok(result);
+    }
+
+    [HttpPost("perfumes/{slug}/favorite")]
+    public async Task<IActionResult> ToggleFavorite(string slug, CancellationToken ct)
+    {
+        var principal = tokens.Validate(Request.Headers.Authorization.ToString());
+        if (principal is null)
+            return Unauthorized(new { message = "Favorilere eklemek için giriş yapmalısınız." });
+
+        var perfume = await db.Perfumes.FirstOrDefaultAsync(p => p.Slug == slug, ct);
+        if (perfume == null) return NotFound("Parfüm bulunamadı.");
+
+        var existing = await db.Favorites.FirstOrDefaultAsync(f => f.UserId == principal.UserId && f.PerfumeId == perfume.Id, ct);
+        bool isFavorited;
+        if (existing != null)
+        {
+            db.Favorites.Remove(existing);
+            isFavorited = false;
+        }
+        else
+        {
+            db.Favorites.Add(new Favorite
+            {
+                UserId = principal.UserId,
+                PerfumeId = perfume.Id,
+                CreatedAt = DateTimeOffset.UtcNow
+            });
+            isFavorited = true;
+        }
+        await db.SaveChangesAsync(ct);
+        return Ok(new { favorited = isFavorited });
     }
 
     [HttpGet("perfumes/{slug}")]

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { cookies } from "next/headers";
 import HomeFeedClient, { type HomeFeedData } from "@/components/HomeFeedClient";
 import { API_BASE } from "@/lib/urls";
 
@@ -22,6 +23,24 @@ export default async function Home() {
         topRatedPerfumes: [],
     };
 
+    let normGender: string | null = null;
+    try {
+        const cookieStore = await cookies();
+        const genderCookie = cookieStore.get("gender-pref")?.value;
+        if (genderCookie) {
+            try {
+                const parsed = JSON.parse(decodeURIComponent(genderCookie));
+                normGender = parsed === "male" ? "erkek" : parsed === "female" ? "kadin" : parsed;
+            } catch {
+                normGender = genderCookie === "male" ? "erkek" : genderCookie === "female" ? "kadin" : genderCookie;
+            }
+        }
+    } catch {
+        /* cookie hatasında varsayılana dön */
+    }
+
+    const g = normGender && normGender !== "all" ? `&gender=${normGender}` : "";
+
     try {
         const [
             blogsRes,
@@ -35,14 +54,14 @@ export default async function Home() {
             topRes,
         ] = await Promise.all([
             fetch(`${API_BASE}/api/blogs`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/perfumes?sort=random&pageSize=20`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/perfumes?sort=views&randomPool=500&pageSize=20`, { cache: "no-store" }),
+            fetch(`${API_BASE}/api/perfumes?sort=random&pageSize=20${g}`, { cache: "no-store" }),
+            fetch(`${API_BASE}/api/perfumes?sort=views&randomPool=500&pageSize=20${g}`, { cache: "no-store" }),
             fetch(`${API_BASE}/api/compare/popular`, { cache: "no-store" }),
             fetch(`${API_BASE}/api/brands/random?count=20`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/perfumes?sort=newest&randomPool=500&pageSize=20`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/perfumes?sort=comments&randomPool=500&pageSize=20`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/perfumes?sort=votes&randomPool=500&pageSize=20`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/perfumes?sort=rating&minVotes=500&randomPool=500&pageSize=20`, { cache: "no-store" }),
+            fetch(`${API_BASE}/api/perfumes?sort=newest&randomPool=500&pageSize=20${g}`, { cache: "no-store" }),
+            fetch(`${API_BASE}/api/perfumes?sort=comments&randomPool=500&pageSize=20${g}`, { cache: "no-store" }),
+            fetch(`${API_BASE}/api/perfumes?sort=votes&randomPool=500&pageSize=20${g}`, { cache: "no-store" }),
+            fetch(`${API_BASE}/api/perfumes?sort=rating&minVotes=500&randomPool=500&pageSize=20${g}`, { cache: "no-store" }),
         ]);
 
         initialData = {
@@ -60,5 +79,5 @@ export default async function Home() {
         /* backend hatasında boş veri */
     }
 
-    return <HomeFeedClient initialData={initialData} />;
+    return <HomeFeedClient initialData={initialData} initialGender={normGender} />;
 }

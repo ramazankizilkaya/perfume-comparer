@@ -62,11 +62,16 @@ export default function Header() {
     const [aiLoading, setAiLoading] = useState(false);
     const [open, setOpen] = useState(false);
     const [theme, setTheme] = useState<"light" | "dark">("light");
+    const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
     const boxRef = useRef<HTMLDivElement>(null);
     const router = useRouter();
     const pathname = usePathname();
     const isSearchPage = pathname?.includes("/ara") || pathname?.includes("/detayli-arama");
+
+    useEffect(() => {
+        setMobileNavOpen(false);
+    }, [pathname]);
 
     useEffect(() => {
         const saved = localStorage.getItem("theme");
@@ -195,16 +200,49 @@ export default function Header() {
                 </Link>
 
                 <nav className="site-nav">
+                    <Link href="/tr/karsilastir" className="nav-link">Karşılaştır</Link>
                     <Link href="/tr/detayli-arama" className="nav-link">Detaylı Arama</Link>
                     <Link href="/tr/marka" className="nav-link">Markalar</Link>
                     <Link href="/tr/blog" className="nav-link">Rehber</Link>
                     <GenderControl />
-                    <button className="icon-btn" onClick={toggleTheme} aria-label="Temayı değiştir">
+                    <button className="icon-btn theme-toggle-btn" onClick={toggleTheme} aria-label="Temayı değiştir" title="Temayı değiştir">
                         <Icon name={theme === "dark" ? "sun" : "moon"} />
                     </button>
                     <UserMenu />
+                    <button
+                        type="button"
+                        className="icon-btn mobile-menu-toggle"
+                        onClick={() => setMobileNavOpen((o) => !o)}
+                        aria-label="Menüyü aç/kapat"
+                        aria-expanded={mobileNavOpen}
+                    >
+                        <Icon name={mobileNavOpen ? "close" : "menu"} size={18} />
+                    </button>
                 </nav>
             </div>
+
+            {mobileNavOpen && (
+                <div className="mobile-nav-panel" role="dialog" aria-label="Mobil Menü">
+                    <div className="shell mobile-nav-links">
+                        <Link href="/tr/karsilastir" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                            <Icon name="swap" size={16} />
+                            <span>Karşılaştır</span>
+                        </Link>
+                        <Link href="/tr/detayli-arama" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                            <Icon name="search" size={16} />
+                            <span>Detaylı Arama</span>
+                        </Link>
+                        <Link href="/tr/marka" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                            <Icon name="layers" size={16} />
+                            <span>Markalar</span>
+                        </Link>
+                        <Link href="/tr/blog" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                            <Icon name="calendar" size={16} />
+                            <span>Rehber</span>
+                        </Link>
+                    </div>
+                </div>
+            )}
 
             {!isSearchPage && (
                 <div className="header-search-strip">

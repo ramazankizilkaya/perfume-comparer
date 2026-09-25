@@ -6,3 +6,7 @@ Feature: Perfume Comparison
     Scenario: Retrieve popular perfume comparisons
         When I send a "GET" request to "Get Popular Comparisons" endpoint
         Then the response status should be 200 and should match "Get Popular Comparisons" response scheme
+
+    Scenario: Retrieve AI comparison analysis
+        When I send a "GET" request to "Get AI Comparison Analysis" endpoint
+        Then the response status should be 200 and should match "Get AI Comparison Analysis" response scheme

@@ -88,3 +88,12 @@ Feature: Catalog Management
     Scenario: Retrieve catalog filter metadata
         When I send a "GET" request to "Get Filter Meta" endpoint
         Then the response status should be 200 and should match "Get Filter Meta" response scheme
+
+    Scenario: Retrieve perfumes filtered by user filter
+        When I send a "GET" request to "Get Perfumes User Filter" endpoint
+        Then the response status should be 200
+
+    Scenario: Toggle perfume favorite requires authentication
+        Given perfume slug is "dior-sauvage-edp"
+        When I send a "POST" request to "Toggle Favorite" endpoint
+        Then the response status should be 401

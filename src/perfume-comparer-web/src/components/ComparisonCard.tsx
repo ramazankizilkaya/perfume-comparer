@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { mediaUrl } from "@/lib/urls";
+import { mediaUrl, compareHref } from "@/lib/urls";
 import { ConcentrationBadge, FamilyBadge } from "./Badges";
 
 export interface ComparisonItemData {
@@ -22,11 +22,11 @@ const PLACEHOLDER =
     "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=400";
 
 export default function ComparisonCard({ pair }: { pair: ComparisonPairData }) {
-    const compareHref = `/karsilastir?parfumler=${pair.perfume1.slug},${pair.perfume2.slug}`;
+    const href = compareHref(pair.perfume1.slug, pair.perfume2.slug);
 
     return (
         <article className="compare-card">
-            <Link href={compareHref} className="compare-card-link">
+            <Link href={href} className="compare-card-link">
                 <div className="compare-sides">
                     <div className="compare-side">
                         <div className="compare-img-wrap">

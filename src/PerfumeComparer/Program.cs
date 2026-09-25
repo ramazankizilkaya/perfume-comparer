@@ -57,6 +57,7 @@ try
     builder.Services.AddSingleton<ITokenService, TokenService>();
     builder.Services.AddSingleton<IGeminiClient, GeminiClient>();
     builder.Services.AddScoped<IAiSearchPlanner, AiSearchPlanner>();
+    builder.Services.AddScoped<ICompareAiService, CompareAiService>();
     builder.Services.AddMemoryCache();
 
     // AI özetleri: arka plan işi belirli aralıklarla yorumları özetleyip

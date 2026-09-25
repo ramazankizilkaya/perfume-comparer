@@ -26,6 +26,7 @@ Layered architecture (SoC) kesin olarak uygulanır:
 - **`Business/Services/`**: İş mantığı, DTO dönüşümleri, filtreleme algoritmaları bu katmandadır.
   - `PerfumeService`: Parfüm detay, arama, filtreleme ve özetleme.
   - `CompareService`: İki veya daha fazla parfümün yan yana koku piramidi, akor farkı, kalıcılık ve silaj karşılaştırma mantığı.
+  - `CompareAiService`: İki parfümün teknik piramidi ve verilerini OpenAI (fallback: Gemini) ile profesyonel Türkçe karşılaştırma analizine dönüştürür; sonucu PostgreSQL `comparison_comments` tablosunda `is_ai_summary = true` olarak önbelleğe alır. Tekrarlayan istekler doğrudan veritabanından 0 ms gecikmeyle döner.
   - `BrandService`: Marka listeleme ve marka içi popülerlik.
   - `SearchService`: Çok kriterli (akor, nota, cinsiyet, fiyat, marka) arama motoru.
 - **`Data/`**: `ApplicationDbContext`, `Repository<T>`, `UnitOfWork`.
@@ -73,6 +74,10 @@ Layered architecture (SoC) kesin olarak uygulanır:
   - **Filtre İçi Arama & Hafıza**: Marka, Nota ve Akor gruplarında yerel arama kutusu bulunur. Filtre grupları filtre seçiminden bağımsız olarak varsayılan kapalı gelir; yalnızca kullanıcının elle açıp kapattığı tercihler `localStorage` (`aura_filter_groups_open`) içinde saklanır.
   - **Sayfalama**: 48'den fazla sonuç olduğunda listenin altında "Daha Fazla Göster" butonu sonraki sayfaları dinamik olarak ekler.
   - **Top 100 Sıralama Mimarisi**: Sıralama seçeneklerinden biri seçildiğinde backend sonuçları `Take(100)` ile en iyi 100 parfümle sınırlar; "rating" sıralamasında tek oylu rastgele parfümleri engellemek için `RatingCount >= 10` eşiği uygulanır.
+  - **Kullanıcı Filtreleri & Menü Mimarisi**:
+    - Kullanıcı profil dropdown'ında `Favorilerim`, `Yorum Yazdıklarım` ve `Puanladıklarım` linkleri yer alır (`/tr/detayli-arama?userFilter=favorites|comments|ratings`).
+    - Detaylı arama sayfasında (`ara/page.tsx`), "Sıralama & Liste" bölümü altında bu üç filtre checkbox olarak yalnızca oturum açmış kullanıcılara gösterilir.
+    - Backend tarafında `GET /api/perfumes` endpoint'i `userFilter` parametresi aldığında Authorization JWT'sinden gelen `userId` üzerinden veritabanında `Favorite`, `PerfumeComment` ve `Rating` tablolarını sorgulayarak ilgili kullanıcının kayıtlarını filtreler; ayrıca `POST /api/perfumes/{slug}/favorite` uç noktası üzerinden favori ekleme/çıkarma işlemi veritabanında kalıcı tutulur.
 
 ---
 

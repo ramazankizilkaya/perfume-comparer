@@ -49,15 +49,14 @@ export default function GenderControl() {
         <div className="gender-control" ref={boxRef}>
             <button
                 ref={btnRef}
-                className={`gender-btn${flash ? " flash" : ""}`}
+                className={`icon-btn gender-btn${flash ? " flash" : ""}`}
                 onClick={() => setOpen((o) => !o)}
                 aria-haspopup="menu"
                 aria-expanded={open}
-                aria-label="Cinsiyet tercihi"
+                aria-label={`Cinsiyet tercihi: ${cur.label}`}
+                title={`Cinsiyet: ${cur.label}`}
             >
                 <span className="gender-ico">{cur.ico}</span>
-                <span className="gender-lbl">{cur.label}</span>
-                <Icon name="chevron-down" size={12} />
             </button>
 
             {open && (

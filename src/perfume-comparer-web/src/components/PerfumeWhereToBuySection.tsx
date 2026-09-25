@@ -74,136 +74,136 @@ export default function PerfumeWhereToBuySection({
     brandName: string;
 }) {
     // Parfüm adı zaten marka adını içeriyorsa tekrar marka adı ekleme
-    const cleanQuery = perfumeName.toLowerCase().includes(brandName.toLowerCase())
+    const fullName = perfumeName.toLowerCase().includes(brandName.toLowerCase())
         ? perfumeName
         : `${brandName} ${perfumeName}`;
-    const encoded = encodeURIComponent(cleanQuery.trim());
+    const encoded = encodeURIComponent(fullName.trim());
 
     const groups: StoreGroup[] = [
         {
             id: "guvenilir-saticilar",
-            title: `Orijinal ${perfumeName} Satan Yetkili Parfümeriler`,
-            seoSubtitle: `Türkiye resmi distribütör garantili orijinal ${perfumeName} parfüm satışı yapan yetkili butik ve zincir mağazalar`,
+            title: `Orijinal ${fullName} Satan Yetkili Parfümeriler`,
+            seoSubtitle: `Türkiye resmi distribütör garantili orijinal ${fullName} parfüm satışı yapan yetkili butik ve zincir mağazalar`,
             icon: "🛡️",
             stores: [
                 {
                     name: "Beymen",
                     url: `https://www.beymen.com/search?q=${encoded}`,
-                    logoUrl: "/stores/beymen.jpeg",
+                    logoUrl: "/stores/same-size-logos/beymen.webp",
                 },
                 {
                     name: "Sephora",
                     url: `https://www.sephora.com.tr/ara/?q=${encoded}`,
-                    logoUrl: "/stores/sephora.png",
+                    logoUrl: "/stores/same-size-logos/sephora.webp",
                 },
                 {
                     name: "Boyner",
                     url: `https://www.boyner.com.tr/arama?q=${encoded}`,
-                    logoUrl: "/stores/boyner.webp",
+                    logoUrl: "/stores/same-size-logos/boyner.webp",
                 },
                 {
                     name: "Sevil Parfümeri",
                     url: `https://www.sevil.com.tr/catalogsearch/result/?q=${encoded}`,
-                    logoUrl: "/stores/sevil.jpeg",
+                    logoUrl: "/stores/same-size-logos/sevil.webp",
                 },
             ],
         },
         {
             id: "pazaryerleri",
-            title: `Pazaryerlerinde ${perfumeName} Fiyatları ve Kampanyaları`,
-            seoSubtitle: `Trendyol, Hepsiburada ve N11 üzerindeki farklı satıcıların ${perfumeName} teklifleri ve kullanıcı yorumları`,
+            title: `Pazaryerlerinde ${fullName} Fiyatları ve Kampanyaları`,
+            seoSubtitle: `Trendyol, Hepsiburada ve N11 üzerindeki farklı satıcıların ${fullName} teklifleri ve kullanıcı yorumları`,
             icon: "🛍️",
             stores: [
                 {
                     name: "Trendyol",
                     url: `https://www.trendyol.com/sr?q=${encoded}`,
-                    logoUrl: "/stores/trendyol.png",
+                    logoUrl: "/stores/same-size-logos/trendyol.webp",
                 },
                 {
                     name: "Hepsiburada",
                     url: `https://www.hepsiburada.com/ara?q=${encoded}`,
-                    logoUrl: "/stores/hepsiburada.jpg",
+                    logoUrl: "/stores/same-size-logos/hepsiburada.webp",
                 },
                 {
                     name: "N11",
                     url: `https://www.n11.com/arama?q=${encoded}`,
-                    logoUrl: "/stores/n11.png",
+                    logoUrl: "/stores/same-size-logos/n11.webp",
                 },
                 {
                     name: "Çiçeksepeti",
                     url: `https://www.ciceksepeti.com/arama?query=${encoded}`,
-                    logoUrl: "/stores/ciceksepeti.jpeg",
+                    logoUrl: "/stores/same-size-logos/ciceksepeti.webp",
                 },
                 {
                     name: "PttAVM",
                     url: `https://www.pttavm.com/arama/${encoded}`,
-                    logoUrl: "/stores/pttavm.jpg",
+                    logoUrl: "/stores/same-size-logos/pttavm.webp",
                 },
             ],
         },
         {
             id: "muadil-markalar",
-            title: `${perfumeName} Muadili Açık Parfüm Kodları ve Benzerleri`,
-            seoSubtitle: `${perfumeName} koku piramidine en yakın esans formülasyonuna sahip yerli muadil açık parfüm alternatifleri`,
+            title: `${fullName} Muadili Açık Parfüm Kodları ve Benzerleri`,
+            seoSubtitle: `${fullName} koku piramidine en yakın esans formülasyonuna sahip yerli muadil açık parfüm alternatifleri`,
             icon: "🧪",
             stores: [
                 {
                     name: "Bargello",
                     url: "https://www.bargello.com.tr/",
-                    logoUrl: "/stores/bargello.svg",
+                    logoUrl: "/stores/same-size-logos/bargello.webp",
                 },
                 {
                     name: "D&P Perfumum",
                     url: "https://dpperfumum.com.tr/",
-                    logoUrl: "/stores/dpparfum.webp",
+                    logoUrl: "/stores/same-size-logos/dpparfum.webp",
                 },
                 {
                     name: "David Walker",
                     url: "https://www.e-davidwalker.com/",
-                    logoUrl: "/stores/davidwalker.webp",
+                    logoUrl: "/stores/same-size-logos/davidwalker.webp",
                 },
                 {
                     name: "Emre Geldi",
                     url: "https://www.emregeldiparfums.com/",
-                    logoUrl: "/stores/emregeldi.webp",
+                    logoUrl: "/stores/same-size-logos/emregeldi.webp",
                 },
                 {
                     name: "Loris",
                     url: "https://www.lorisparfum.com/",
-                    logoUrl: "/stores/loris.webp",
+                    logoUrl: "/stores/same-size-logos/loris.webp",
                 },
                 {
                     name: "Mad Parfüm",
                     url: "https://www.madparfum.com/",
-                    logoUrl: "/stores/mad.svg",
+                    logoUrl: "/stores/same-size-logos/mad.webp",
                 },
                 {
                     name: "Muscent",
                     url: "https://muscent.com/",
-                    logoUrl: "/stores/muscent.webp",
+                    logoUrl: "/stores/same-size-logos/muscent.webp",
                 },
                 {
                     name: "Tutaste",
                     url: "https://www.ozelparfum.com/",
-                    logoUrl: "/stores/tutaste.webp",
+                    logoUrl: "/stores/same-size-logos/tutaste.webp",
                 },
             ],
         },
         {
             id: "fiyat-karsilastirma",
-            title: `En Ucuz ${perfumeName} Fiyatını Bul: Karşılaştırma Portalları`,
-            seoSubtitle: `Akakçe ve Cimri üzerinden tüm satıcıların güncel ${perfumeName} fiyat geçmişini ve en ucuz tekliflerini kıyaslayın`,
+            title: `En Ucuz ${fullName} Fiyatını Bul: Karşılaştırma Portalları`,
+            seoSubtitle: `Akakçe ve Cimri üzerinden tüm satıcıların güncel ${fullName} fiyat geçmişini ve en ucuz tekliflerini kıyaslayın`,
             icon: "📊",
             stores: [
                 {
                     name: "Akakçe",
                     url: `https://www.akakce.com/arama/?q=${encoded}`,
-                    logoUrl: "/stores/akakce.png",
+                    logoUrl: "/stores/same-size-logos/akakce.webp",
                 },
                 {
                     name: "Cimri",
                     url: `https://www.cimri.com/arama?q=${encoded}`,
-                    logoUrl: "/stores/cimri.png",
+                    logoUrl: "/stores/same-size-logos/cimri.webp",
                 },
             ],
         },
@@ -218,7 +218,7 @@ export default function PerfumeWhereToBuySection({
             <div className="detail-buy-main-header">
                 <div>
                     <h2 id="buy-main-heading" className="block-title">
-                        {perfumeName} Fiyatları, Satış Noktaları ve En Ucuz Nereden Alınır?
+                        {fullName} Fiyatları, Satış Noktaları ve En Ucuz Nereden Alınır?
                     </h2>
                     <p className="detail-buy-lead">
                         Yetkili butikler, popüler pazaryerleri, açık parfüm muadilleri ve fiyat karşılaştırma portalları üzerinde anlık arama yapın.
@@ -231,7 +231,7 @@ export default function PerfumeWhereToBuySection({
                     <StoreSliderRow
                         key={group.id}
                         group={group}
-                        perfumeName={perfumeName}
+                        perfumeName={fullName}
                     />
                 ))}
             </div>

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import Icon from "./Icon";
 import { API_BASE } from "@/lib/urls";
 
@@ -16,6 +17,12 @@ export interface Crumb {
 interface Opt {
     label: string;
     slug: string;
+}
+
+interface CrumbOption {
+    label: string;
+    slug: string;
+    href: string;
 }
 
 interface Meta {
@@ -36,7 +43,24 @@ const PARAM: Record<string, string> = {
     brand: "brand",
 };
 
+function getPrecedingParams(items: Crumb[], upToIndex: number): URLSearchParams {
+    const sp = new URLSearchParams();
+    for (let idx = 0; idx < upToIndex; idx++) {
+        const it = items[idx];
+        const p = PARAM[it.level];
+        if (p && it.slug) {
+            sp.set(p, it.slug);
+        }
+    }
+    return sp;
+}
+
 export default function Breadcrumb({ items }: { items: Crumb[] }) {
+    const pathname = usePathname();
+    const localeMatch = pathname?.match(/^\/([a-z]{2})(\/|$)/);
+    const prefix = localeMatch ? `/${localeMatch[1]}` : "";
+    const searchBase = `${prefix}/detayli-arama`;
+
     const [meta, setMeta] = useState<Meta | null>(null);
     const needsMeta = items.some((i) => PARAM[i.level]);
 
@@ -80,24 +104,46 @@ export default function Breadcrumb({ items }: { items: Crumb[] }) {
                     if (item.level === "home") {
                         return (
                             <li key={i}>
-                                <Link href="/">{item.label}</Link>
+                                <Link href={prefix || "/"}>{item.label}</Link>
                                 <Icon name="chevron-right" size={12} className="crumb-sep" />
                             </li>
                         );
                     }
+
                     const param = PARAM[item.level];
-                    // Marka seviyesi kendi sayfasına gider; diğerleri filtreli aramaya.
-                    const fallback = item.level === "brand"
-                        ? `/marka/${item.slug}`
-                        : param ? `/detayli-arama?${param}=${item.slug}` : "/detayli-arama";
+                    const preceding = getPrecedingParams(items, i);
+
+                    // Kendisi için doğrudan hedef (item.href yoksa önceki filtrelerle birleşik arama)
+                    const selfParams = new URLSearchParams(preceding);
+                    if (param && item.slug) {
+                        selfParams.set(param, item.slug);
+                    }
+                    const selfQuery = selfParams.toString();
+                    const selfFallback = selfQuery ? `${searchBase}?${selfQuery}` : searchBase;
+                    const selfHref = item.href ?? selfFallback;
+
+                    // Açılır menüdeki seçenekler: kendisinden önceki seçimleri taşır ve seçilen değeri ekler
+                    const rawOptions = optionsFor(item.level);
+                    const options: CrumbOption[] = rawOptions.map((o) => {
+                        const optParams = new URLSearchParams(preceding);
+                        if (param) {
+                            optParams.set(param, o.slug);
+                        }
+                        const q = optParams.toString();
+                        return {
+                            label: o.label,
+                            slug: o.slug,
+                            href: q ? `${searchBase}?${q}` : searchBase,
+                        };
+                    });
+
                     return (
                         <li key={i}>
                             <CrumbDrop
                                 label={item.label}
-                                selfHref={item.href ?? fallback}
-                                level={item.level}
-                                param={param}
-                                options={optionsFor(item.level)}
+                                selfHref={selfHref}
+                                hasMenu={!!param && options.length > 0}
+                                options={options}
                             />
                             <Icon name="chevron-right" size={12} className="crumb-sep" />
                         </li>
@@ -117,7 +163,17 @@ export function PageBreadcrumb({ trail }: { trail: { label: string; href?: strin
     return <Breadcrumb items={items} />;
 }
 
-function CrumbDrop({ label, selfHref, level, param, options }: { label: string; selfHref: string; level?: string; param?: string; options: Opt[] }) {
+function CrumbDrop({
+    label,
+    selfHref,
+    hasMenu,
+    options,
+}: {
+    label: string;
+    selfHref: string;
+    hasMenu: boolean;
+    options: CrumbOption[];
+}) {
     const [open, setOpen] = useState(false);
     const ref = useRef<HTMLSpanElement>(null);
 
@@ -129,12 +185,17 @@ function CrumbDrop({ label, selfHref, level, param, options }: { label: string; 
         return () => document.removeEventListener("mousedown", onOutside);
     }, []);
 
-    const hasMenu = !!param && options.length > 0;
+    const showMenu = hasMenu && options.length > 0;
 
     return (
         <span className="crumb-drop" ref={ref}>
-            {hasMenu ? (
-                <button className="crumb-trigger" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
+            {showMenu ? (
+                <button
+                    type="button"
+                    className="crumb-trigger"
+                    onClick={() => setOpen((o) => !o)}
+                    aria-expanded={open}
+                >
                     {label}
                     <Icon name="chevron-down" size={11} />
                 </button>
@@ -142,12 +203,12 @@ function CrumbDrop({ label, selfHref, level, param, options }: { label: string; 
                 <Link href={selfHref}>{label}</Link>
             )}
 
-            {open && hasMenu && (
+            {open && showMenu && (
                 <div className="crumb-menu">
                     {options.map((o) => (
                         <Link
                             key={o.slug}
-                            href={level === "brand" ? `/marka/${o.slug}` : `/detayli-arama?${param}=${o.slug}`}
+                            href={o.href}
                             className="crumb-menu-item"
                             onClick={() => setOpen(false)}
                         >

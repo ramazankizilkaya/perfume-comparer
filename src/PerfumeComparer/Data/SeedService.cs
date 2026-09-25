@@ -370,6 +370,16 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
                     Status = ModerationStatus.Approved,
                     CreatedAt = DateTimeOffset.UtcNow.AddDays(-random.Next(1, 30))
                 });
+
+                if (score >= 4 && random.Next(10) < 6)
+                {
+                    db.Favorites.Add(new Favorite
+                    {
+                        UserId = user.Id,
+                        PerfumeId = p.Id,
+                        CreatedAt = DateTimeOffset.UtcNow.AddDays(-random.Next(1, 30))
+                    });
+                }
                 added++;
             }
 

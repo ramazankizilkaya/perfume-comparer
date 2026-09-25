@@ -19,16 +19,21 @@ export default function CompareBar() {
     return (
         <div className="compare-bar" role="region" aria-label="Karşılaştırma listesi">
             <div className="shell compare-bar-inner">
-                <span className="compare-bar-label">
-                    Karşılaştırma listesi <strong>{items.length}/4</strong>
-                </span>
+                <div className="compare-bar-label-wrap">
+                    <span className="compare-bar-label">
+                        Karşılaştırma <strong>{items.length}/4</strong>
+                    </span>
+                    <button type="button" className="link-more compare-bar-clear-mobile" onClick={clear}>
+                        Temizle
+                    </button>
+                </div>
 
                 <div className="compare-bar-items">
                     {items.map((i) => (
                         <div key={i.slug} className="compare-chip" title={i.name}>
                             <img src={mediaUrl(i.imageUrl) || PLACEHOLDER} alt={`${i.brandName} ${i.name}`} />
                             <span className="compare-chip-name">{i.name}</span>
-                            <button onClick={() => remove(i.slug)} aria-label={`${i.name} listeden çıkar`}>
+                            <button type="button" onClick={() => remove(i.slug)} aria-label={`${i.name} listeden çıkar`}>
                                 <Icon name="close" size={12} />
                             </button>
                         </div>
@@ -36,13 +41,15 @@ export default function CompareBar() {
                 </div>
 
                 <div className="compare-bar-actions">
-                    <button className="link-more" onClick={clear}>Temizle</button>
+                    <button type="button" className="link-more compare-bar-clear-desktop" onClick={clear}>
+                        Temizle
+                    </button>
                     {canCompare ? (
-                        <Link href={href} className="btn btn-primary btn-sm">
+                        <Link href={href} className="btn btn-primary btn-sm compare-bar-btn">
                             <Icon name="swap" size={14} /> Karşılaştır
                         </Link>
                     ) : (
-                        <button className="btn btn-primary btn-sm" disabled title="En az 2 parfüm ekleyin">
+                        <button type="button" className="btn btn-primary btn-sm compare-bar-btn" disabled title="En az 2 parfüm ekleyin">
                             <Icon name="swap" size={14} /> Karşılaştır
                         </button>
                     )}
