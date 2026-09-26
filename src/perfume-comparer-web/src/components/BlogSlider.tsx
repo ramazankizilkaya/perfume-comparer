@@ -28,36 +28,40 @@ const FALLBACK_BACKGROUNDS = [
 ];
 
 export default function BlogSlider({ blogs }: { blogs: BlogPost[] }) {
+    const displayBlogs = (blogs || []).slice(0, 5);
     const [currentIdx, setCurrentIdx] = useState(0);
     const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
     const nextSlide = () => {
-        setCurrentIdx((prev) => (prev + 1) % blogs.length);
+        if (displayBlogs.length === 0) return;
+        setCurrentIdx((prev) => (prev + 1) % displayBlogs.length);
     };
 
     const prevSlide = () => {
-        setCurrentIdx((prev) => (prev - 1 + blogs.length) % blogs.length);
+        if (displayBlogs.length === 0) return;
+        setCurrentIdx((prev) => (prev - 1 + displayBlogs.length) % displayBlogs.length);
     };
 
     useEffect(() => {
+        if (displayBlogs.length <= 1) return;
         timeoutRef.current = setTimeout(() => {
             nextSlide();
         }, 6000);
         return () => {
             if (timeoutRef.current) clearTimeout(timeoutRef.current);
         };
-    }, [currentIdx, blogs.length]);
+    }, [currentIdx, displayBlogs.length]);
 
-    if (!blogs || blogs.length === 0) return null;
+    if (!displayBlogs || displayBlogs.length === 0) return null;
 
-    const current = blogs[currentIdx];
+    const current = displayBlogs[currentIdx] || displayBlogs[0];
     const background = current.coverImageUrl
         ? mediaUrl(current.coverImageUrl)
         : `${API_BASE}${FALLBACK_BACKGROUNDS[currentIdx % FALLBACK_BACKGROUNDS.length]}`;
 
     return (
         <section className="hero-blog-slider">
-            {blogs.map((b, idx) => (
+            {displayBlogs.map((b, idx) => (
                 <div
                     key={b.id}
                     className={`hero-blog-bg${idx === currentIdx ? " is-active" : ""}`}
@@ -109,9 +113,9 @@ export default function BlogSlider({ blogs }: { blogs: BlogPost[] }) {
 
             <div className="hero-blog-dots">
                 <span className="hero-blog-count">
-                    {currentIdx + 1} / {blogs.length}
+                    {currentIdx + 1} / {displayBlogs.length}
                 </span>
-                {blogs.map((_, idx) => (
+                {displayBlogs.map((_, idx) => (
                     <button
                         key={idx}
                         type="button"

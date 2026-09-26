@@ -53,7 +53,7 @@ export default async function Home() {
             votesRes,
             topRes,
         ] = await Promise.all([
-            fetch(`${API_BASE}/api/blogs`, { cache: "no-store" }),
+            fetch(`${API_BASE}/api/blogs?random=true&take=5`, { cache: "no-store" }),
             fetch(`${API_BASE}/api/perfumes?sort=random&pageSize=20${g}`, { cache: "no-store" }),
             fetch(`${API_BASE}/api/perfumes?sort=views&randomPool=500&pageSize=20${g}`, { cache: "no-store" }),
             fetch(`${API_BASE}/api/compare/popular`, { cache: "no-store" }),
@@ -65,7 +65,7 @@ export default async function Home() {
         ]);
 
         initialData = {
-            blogs: blogsRes.ok ? await blogsRes.json() : [],
+            blogs: blogsRes.ok ? (await blogsRes.json()).slice(0, 5) : [],
             explorePerfumes: exploreRes.ok ? (await exploreRes.json()).items ?? [] : [],
             popularPerfumes: popRes.ok ? (await popRes.json()).items ?? [] : [],
             comparisons: compRes.ok ? await compRes.json() : [],

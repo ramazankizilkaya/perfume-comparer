@@ -16,12 +16,27 @@ namespace PerfumeComparer.Controllers;
 public class BlogController(AppDbContext db, ITokenService tokens) : ControllerBase
 {
     [HttpGet]
-    public async Task<IActionResult> GetBlogs(CancellationToken ct)
+    public async Task<IActionResult> GetBlogs([FromQuery] bool random = false, [FromQuery] int? take = null, CancellationToken ct = default)
     {
-        var posts = await db.BlogPosts
+        var query = db.BlogPosts
             .AsNoTracking()
-            .Where(b => b.Status == BlogPostStatus.Published)
-            .OrderByDescending(b => b.PublishedAt)
+            .Where(b => b.Status == BlogPostStatus.Published);
+
+        if (random)
+        {
+            query = query.OrderBy(_ => EF.Functions.Random());
+        }
+        else
+        {
+            query = query.OrderByDescending(b => b.PublishedAt);
+        }
+
+        if (take.HasValue && take.Value > 0)
+        {
+            query = query.Take(take.Value);
+        }
+
+        var posts = await query
             .Select(b => new
             {
                 b.Id,
@@ -29,6 +44,7 @@ public class BlogController(AppDbContext db, ITokenService tokens) : ControllerB
                 b.Slug,
                 b.Excerpt,
                 b.CoverImageUrl,
+                b.ViewCount,
                 b.PublishedAt,
                 AuthorName = b.Author.DisplayName ?? b.Author.Email
             })
@@ -55,6 +71,7 @@ public class BlogController(AppDbContext db, ITokenService tokens) : ControllerB
                 b.Slug,
                 b.Excerpt,
                 b.CoverImageUrl,
+                b.ViewCount,
                 b.PublishedAt,
                 b.CreatedAt,
                 Status = b.Status.ToString(),
@@ -69,24 +86,36 @@ public class BlogController(AppDbContext db, ITokenService tokens) : ControllerB
     public async Task<IActionResult> GetBlogDetail(string slug, CancellationToken ct)
     {
         var post = await db.BlogPosts
-            .AsNoTracking()
             .Include(b => b.Author)
             .Where(b => b.Slug == slug && b.Status == BlogPostStatus.Published)
-            .Select(b => new
-            {
-                b.Id,
-                b.Title,
-                b.Slug,
-                b.Body,
-                b.Excerpt,
-                b.CoverImageUrl,
-                b.PublishedAt,
-                AuthorName = b.Author.DisplayName ?? b.Author.Email,
-                AuthorAvatar = b.Author.AvatarUrl
-            })
             .FirstOrDefaultAsync(ct);
 
-        return post != null ? Ok(post) : NotFound();
+        if (post == null)
+            return NotFound();
+
+        post.ViewCount++;
+        try
+        {
+            await db.SaveChangesAsync(ct);
+        }
+        catch
+        {
+            // Sayım hatası durumunda okumayı kesme
+        }
+
+        return Ok(new
+        {
+            post.Id,
+            post.Title,
+            post.Slug,
+            post.Body,
+            post.Excerpt,
+            post.CoverImageUrl,
+            post.ViewCount,
+            post.PublishedAt,
+            AuthorName = post.Author.DisplayName ?? post.Author.Email,
+            AuthorAvatar = post.Author.AvatarUrl
+        });
     }
 
     public record CreateBlogPostDto(string Title, string Body, string? Excerpt, string? CoverImageUrl);

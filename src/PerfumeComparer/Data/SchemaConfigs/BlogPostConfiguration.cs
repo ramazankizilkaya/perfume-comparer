@@ -12,6 +12,7 @@ public class BlogPostConfiguration : IEntityTypeConfiguration<BlogPost>
         builder.Property(b => b.Slug).HasMaxLength(220);
         builder.Property(b => b.Excerpt).HasMaxLength(500);
         builder.Property(b => b.Status).HasConversion<string>().HasMaxLength(20);
+        builder.Property(b => b.ViewCount).HasDefaultValue(0);
         builder.Property(b => b.CreatedAt).HasDefaultValueSql("now()");
         builder.Property(b => b.UpdatedAt).HasDefaultValueSql("now()");
 

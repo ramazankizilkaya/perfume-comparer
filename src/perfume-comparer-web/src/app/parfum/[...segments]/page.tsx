@@ -466,23 +466,6 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                             <SpecRow label="Ana akorlar">
                                 <SpecLinkList items={perfume.accords.slice(0, 5)} hrefFor={(s) => `/ara?accord=${s}`} />
                             </SpecRow>
-                            {hasPyramid ? (
-                                <>
-                                    <SpecRow label="Üst notalar">
-                                        <SpecLinkList items={perfume.notes.top} hrefFor={(s) => `/ara?note=${s}&noteLayer=ust`} />
-                                    </SpecRow>
-                                    <SpecRow label="Orta notalar">
-                                        <SpecLinkList items={perfume.notes.middle} hrefFor={(s) => `/ara?note=${s}&noteLayer=orta`} />
-                                    </SpecRow>
-                                    <SpecRow label="Alt notalar">
-                                        <SpecLinkList items={perfume.notes.base} hrefFor={(s) => `/ara?note=${s}&noteLayer=alt`} />
-                                    </SpecRow>
-                                </>
-                            ) : (
-                                <SpecRow label="Notalar">
-                                    <SpecLinkList items={perfume.notes.all} hrefFor={(s) => `/ara?note=${s}`} />
-                                </SpecRow>
-                            )}
                             {topLongevity && (
                                 <SpecRow label="Kalıcılık">
                                     <SpecLink value={`${topLongevity.name} (%${topLongevity.percent})`} />

@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using PerfumeComparer.Domain;
 using PerfumeComparer.Domain.Entities;
 using PerfumeComparer.Data.Persistence;
+using Serilog;
 
 namespace PerfumeComparer.Data;
 
@@ -208,78 +209,91 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
         if (admin is null)
             return new SeedStepResult(key, label, false, "Önce “Kullanıcılar” şemasını tohumlayın.", 0);
 
-        var lastUserId = await db.Users.OrderByDescending(u => u.Id).Select(u => u.Id).FirstAsync(ct);
+        var users = await db.Users.OrderBy(u => u.Id).ToListAsync(ct);
+        var mockBlogs = new List<BlogPost>();
 
-        var mockBlogs = new List<BlogPost>
+        // scrape_files/articles/seed_articles.json dosyasını ara
+        var candidatePaths = new[]
         {
-            new()
-            {
-                AuthorUserId = admin.Id,
-                Title = "2026 Yazının En Etkileyici ve Hafif 5 Parfümü",
-                Slug = "2026-yazinin-en-etkileyici-ve-hafif-5-parfumu",
-                Body = "Sıcak yaz günlerinde ağır ve baharatlı parfümler yerine, tazeleyici ve ferahlatıcı kokular tercih edilmelidir. Bu yazımızda hem kalıcılığıyla büyüleyen hem de etrafındakileri boğmayan en popüler 5 yaz parfümünü sizler için derledik. Listemizde narenciye, deniz notaları ve hafif çiçeksi dokunuşlar ön planda. Yazın ferahlığını teninizde hissetmek istiyorsanız bu parfümlere mutlaka şans vermelisiniz.",
-                Excerpt = "Sıcak havalarda sizi tazeleyecek, hafif ama son derece kalıcı en iyi 5 yaz parfümü önerisi.",
-                CoverImageUrl = "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=800",
-                Status = BlogPostStatus.Published,
-                PublishedAt = DateTimeOffset.UtcNow,
-                CreatedAt = DateTimeOffset.UtcNow,
-                UpdatedAt = DateTimeOffset.UtcNow
-            },
-            new()
-            {
-                AuthorUserId = admin.Id,
-                Title = "Parfüm Notaları Nedir? Üst, Orta ve Alt Notaların Sırrı",
-                Slug = "parfum-notalari-nedir-ust-orta-ve-alt-notalarin-sirri",
-                Body = "Bir parfümü sıktığınızda aldığınız ilk koku ile birkaç saat sonra teninizde kalan koku neden farklıdır? İşte bu durum tamamen koku piramidi ile ilgilidir. Parfümler; uçuculuk sürelerine göre Üst (Baş), Orta (Kalp) ve Alt (Dip) notalardan oluşur. Üst notalar narenciye gibi hızlı uçan kokularken, alt notalar odunsu, amber ve misk gibi teninizde gün boyu kalacak ağır moleküllerden oluşur. Gelin parfüm notalarının bu gizemli dünyasını birlikte keşfedelim.",
-                Excerpt = "Koku piramidinin katmanlarını ve parfümlerin zaman içindeki gelişimini öğrenin.",
-                CoverImageUrl = "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80&w=800",
-                Status = BlogPostStatus.Published,
-                PublishedAt = DateTimeOffset.UtcNow,
-                CreatedAt = DateTimeOffset.UtcNow,
-                UpdatedAt = DateTimeOffset.UtcNow
-            },
-            new()
-            {
-                AuthorUserId = admin.Id,
-                Title = "Parfüm Kalıcılığını Artırmanın 7 Altın Kuralı",
-                Slug = "parfum-kaliciligini-artirmanin-7-altin-kurali",
-                Body = "Parfümünüzün gün boyu sizinle kalmasını istiyorsanız, sadece kaliteli bir parfüm seçmek yetmez. Uygulama teknikleri ve cilt bakımı da kalıcılıkta büyük rol oynar. İşte parfüm kalıcılığını iki katına çıkaracak 7 altın kural: 1. Temiz ve nemli cilde uygulayın. 2. Nabız noktalarına sıkın (bilek, boyun, kulak arkası). 3. Parfümü sıktıktan sonra bileklerinizi birbirine sürtmeyin. 4. Doğru saklama koşullarında saklayın, nemli banyolardan uzak tutun. 5. Kıyafetlerinize de hafifçe sıkabilirsiniz. 6. Saç fırçanıza sıkıp saçınızı tarayın. 7. Cilt tipinize uygun konsantrasyonu seçin.",
-                Excerpt = "En sevdiğiniz kokunun teninizde çok daha uzun süre kalmasını sağlayacak pratik yöntemler.",
-                CoverImageUrl = "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&q=80&w=800",
-                Status = BlogPostStatus.Published,
-                PublishedAt = DateTimeOffset.UtcNow,
-                CreatedAt = DateTimeOffset.UtcNow,
-                UpdatedAt = DateTimeOffset.UtcNow
-            },
-            new()
-            {
-                AuthorUserId = lastUserId,
-                Title = "Niche (Niş) Parfüm Nedir? Neden Bu Kadar Pahalılar?",
-                Slug = "niche-parfum-nedir-neden-bu-kadar-pahalilar",
-                Body = "Tasarımcı parfümleri geniş kitlelere hitap etmek için üretilirken, niş parfümler tamamen sanatsal ve benzersiz koku deneyimleri sunmak amacıyla tasarlanır. Sınırlı sayıda üretilen bu kokularda en nadide, doğal ve pahalı esanslar kullanılır. Niş parfümler, ticari kaygılardan uzak, hikayesi olan tasarımlardır. Creed, Nishane, Roja gibi markaların neden lüksün zirvesinde yer aldığını bu yazımızda inceliyoruz.",
-                Excerpt = "Özel tasarım koku dünyasının kapılarını aralayın: Niş parfümlerin farkları ve özellikleri.",
-                CoverImageUrl = "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&q=80&w=800",
-                Status = BlogPostStatus.Published,
-                PublishedAt = DateTimeOffset.UtcNow,
-                CreatedAt = DateTimeOffset.UtcNow,
-                UpdatedAt = DateTimeOffset.UtcNow
-            }
+            Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "../../../../../scrape_files/articles/seed_articles.json")),
+            Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "../../../../scrape_files/articles/seed_articles.json")),
+            Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "../../scrape_files/articles/seed_articles.json")),
+            Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "scrape_files/articles/seed_articles.json")),
+            "/Users/ramazankizilkaya/Documents/wip/perfume-comparer/scrape_files/articles/seed_articles.json"
         };
 
+        var jsonPath = candidatePaths.FirstOrDefault(File.Exists);
+
+        if (jsonPath != null)
+        {
+            try
+            {
+                using var stream = File.OpenRead(jsonPath);
+                using var doc = System.Text.Json.JsonDocument.Parse(stream);
+                int userIdx = 0;
+                foreach (var elem in doc.RootElement.EnumerateArray())
+                {
+                    var title = elem.GetProperty("title").GetString() ?? "";
+                    var slug = elem.GetProperty("slug").GetString() ?? "";
+                    var excerpt = elem.GetProperty("excerpt").GetString() ?? "";
+                    var cover = elem.GetProperty("coverImageUrl").GetString() ?? "";
+                    var body = elem.GetProperty("body").GetString() ?? "";
+                    var views = elem.TryGetProperty("viewCount", out var vp) ? vp.GetInt32() : 150;
+                    var author = users[userIdx % users.Count];
+                    userIdx++;
+
+                    mockBlogs.Add(new BlogPost
+                    {
+                        AuthorUserId = author.Id,
+                        Title = title,
+                        Slug = slug,
+                        Excerpt = excerpt,
+                        CoverImageUrl = cover,
+                        Body = body,
+                        ViewCount = views,
+                        Status = BlogPostStatus.Published,
+                        PublishedAt = DateTimeOffset.UtcNow.AddDays(-userIdx),
+                        CreatedAt = DateTimeOffset.UtcNow.AddDays(-userIdx),
+                        UpdatedAt = DateTimeOffset.UtcNow.AddDays(-userIdx)
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "seed_articles.json okunurken hata oluştu, varsayılan listeye dönülüyor.");
+            }
+        }
+
+
         var added = 0;
+        var updated = 0;
         foreach (var b in mockBlogs)
         {
-            if (!await db.BlogPosts.AnyAsync(bp => bp.Slug == b.Slug, ct))
+            var existing = await db.BlogPosts.FirstOrDefaultAsync(bp => bp.Slug == b.Slug, ct);
+            if (existing == null)
             {
                 db.BlogPosts.Add(b);
                 added++;
+            }
+            else
+            {
+                existing.Title = b.Title;
+                existing.Body = b.Body;
+                existing.Excerpt = b.Excerpt;
+                existing.CoverImageUrl = b.CoverImageUrl;
+                if (existing.ViewCount == 0 && b.ViewCount > 0)
+                {
+                    existing.ViewCount = b.ViewCount;
+                }
+                existing.UpdatedAt = DateTimeOffset.UtcNow;
+                updated++;
             }
         }
 
         await db.SaveChangesAsync(ct);
 
         return new SeedStepResult(key, label, true,
-            added == 0 ? "Zaten dolu, atlandı." : $"{added} yazı eklendi.",
+            $"{added} yeni yazı eklendi, {updated} yazı güncellendi.",
             await db.BlogPosts.CountAsync(ct));
     }
 
