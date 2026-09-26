@@ -30,6 +30,16 @@ const payloads = {
     }),
     "Invalid Usage AgeGroup": () => ({
         ageGroup: "99-invalid-age-group"
+    }),
+    "Submit Review": () => ({
+        score: 5,
+        longevity: "long_lasting",
+        sillage: "strong",
+        comment: "Harika bir koku deneyimi."
+    }),
+    "Submit Review Invalid Score": () => ({
+        score: null,
+        longevity: "long_lasting"
     })
 };
 

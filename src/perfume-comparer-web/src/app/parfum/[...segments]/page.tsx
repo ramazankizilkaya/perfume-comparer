@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
+import { notFound, permanentRedirect } from "next/navigation";
 import Score from "@/components/Score";
 import Stars from "@/components/Stars";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -11,7 +12,8 @@ import PerfumeCommentsSection, { type CommentData } from "@/components/PerfumeCo
 import PerfumeArticleSection from "@/components/PerfumeArticleSection";
 import PerfumeFaqSection, { type FaqItem } from "@/components/PerfumeFaqSection";
 import PerfumeWhereToBuySection from "@/components/PerfumeWhereToBuySection";
-import { API_BASE, genderLabel, brandHref, perfumeHref, mediaUrl } from "@/lib/urls";
+import { API_BASE, genderLabel, brandHref, perfumeHref, mediaUrl, localeHref, searchHref } from "@/lib/urls";
+import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
 import { noteIcon } from "@/lib/notes";
 import type { PerfumeRef } from "@/lib/stores";
 import type { AgeGroupScore } from "@/components/UsageVote";
@@ -122,93 +124,70 @@ function genderSlug(gender?: string | null): string {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { segments } = await params;
     const slug = segments?.[segments.length - 1];
-    if (!slug) {
-        return { title: "Parfüm | Aura Compare" };
+    if (!slug) notFound();
+
+    const res = await fetch(`${API_BASE}/api/perfumes/${slug}`, { next: { revalidate: 60 } });
+    if (res.status === 404) notFound();
+    if (!res.ok) throw new Error(`API hatası: ${res.status}`);
+    const perfume: PerfumeDetail = await res.json();
+    const fullPerfumeName = fullNameOf(perfume);
+
+    const descParts: string[] = [];
+    if (perfume.gender) descParts.push(genderLabel(perfume.gender));
+    if (perfume.fragranceFamily) descParts.push(`${perfume.fragranceFamily} koku ailesi`);
+    if (perfume.accords?.length > 0) {
+        descParts.push(`ana akorlar: ${perfume.accords.slice(0, 3).map((a) => a.name).join(", ")}`);
     }
+    if (perfume.releaseYear) descParts.push(`${perfume.releaseYear} çıkışlı`);
 
-    try {
-        const res = await fetch(`${API_BASE}/api/perfumes/${slug}`, { next: { revalidate: 60 } });
-        if (!res.ok) {
-            return { title: "Parfüm Bulunamadı | Aura Compare" };
-        }
-        const perfume: PerfumeDetail = await res.json();
-        const brandName = perfume.brand?.name ?? "";
-        const fullPerfumeName = perfume.name.toLowerCase().includes(brandName.toLowerCase())
-            ? perfume.name
-            : `${brandName} ${perfume.name}`;
-        const title = `${fullPerfumeName} Parfüm İncelemesi ve Notaları | Aura Compare`;
+    return pageMetadata({
+        title: `${fullPerfumeName} Parfüm İncelemesi ve Notaları`,
+        description: `${fullPerfumeName} ${descParts.join(" · ")}. Koku piramidi, kalıcılık ve kullanıcı yorumları.`,
+        path: perfumeHref(perfume.path, perfume.slug),
+        images: [mediaUrl(perfume.imageUrl)],
+    });
+}
 
-        const descParts: string[] = [];
-        if (perfume.gender) descParts.push(genderLabel(perfume.gender));
-        if (perfume.fragranceFamily) descParts.push(`${perfume.fragranceFamily} koku ailesi`);
-        if (perfume.accords?.length > 0) {
-            descParts.push(`ana akorlar: ${perfume.accords.slice(0, 3).map((a) => a.name).join(", ")}`);
-        }
-        if (perfume.releaseYear) descParts.push(`${perfume.releaseYear} çıkışlı`);
-        const description = `${fullPerfumeName} ${descParts.join(" · ")}. Koku piramidi, kalıcılık ve kullanıcı yorumları.`;
-        const img = mediaUrl(perfume.imageUrl) || PLACEHOLDER;
-
-        return {
-            title,
-            description,
-            openGraph: {
-                title,
-                description,
-                images: img ? [{ url: img }] : [],
-            },
-            alternates: {
-                canonical: `/parfum/${perfume.path || slug}`,
-            },
-        };
-    } catch {
-        return { title: "Parfüm | Aura Compare" };
-    }
+/** Başlıklarda marka adı bir kez geçsin: "Dior Sauvage", "Dior Dior Homme" değil. */
+function fullNameOf(perfume: Pick<PerfumeDetail, "name" | "brand">): string {
+    const brandName = perfume.brand?.name ?? "";
+    return perfume.name.toLowerCase().includes(brandName.toLowerCase())
+        ? perfume.name
+        : `${brandName} ${perfume.name}`;
 }
 
 export default async function PerfumeDetailPage({ params }: PageProps) {
     const { segments } = await params;
     const slug = segments?.[segments.length - 1];
 
-    if (!slug) {
-        return (
-            <div className="state">
-                <h2>Parfüm bulunamadı</h2>
-                <p>Geçersiz sayfa bağlantısı.</p>
-                <Link href="/" className="btn btn-ghost" style={{ marginTop: "1rem" }}>
-                    Anasayfaya dön
-                </Link>
-            </div>
-        );
+    if (!slug) notFound();
+
+    const pRes = await fetch(`${API_BASE}/api/perfumes/${slug}`, { next: { revalidate: 60 } });
+    // Parfüm gerçekten yoksa 404 dönülür; API hatasında ise hata fırlatılır (500),
+    // böylece geçici bir kesinti Google'a "sayfa silindi" diye bildirilmez.
+    if (pRes.status === 404) notFound();
+    if (!pRes.ok) throw new Error(`Parfüm alınamadı: ${pRes.status}`);
+    const perfume: PerfumeDetail = await pRes.json();
+
+    // Asıl adres tektir. /tr/parfum/herhangi/bir/sey/<slug> gibi farklı yollar kalıcı
+    // olarak API'nin verdiği yola yönlendirilir; kopya adres oluşmaz.
+    if (perfume.path && segments.map(safeDecode).join("/") !== perfume.path) {
+        permanentRedirect(perfumeHref(perfume.path, perfume.slug));
     }
 
-    let perfume: PerfumeDetail | null = null;
     let comments: CommentData[] = [];
     let userPhotos: { id: number; imageUrl: string; authorName: string; createdAt: string }[] = [];
 
     try {
-        const [pRes, cRes, photosRes] = await Promise.all([
-            fetch(`${API_BASE}/api/perfumes/${slug}`, { next: { revalidate: 60 } }),
+        const [cRes, photosRes] = await Promise.all([
             fetch(`${API_BASE}/api/perfumes/${slug}/comments`, { next: { revalidate: 60 } }),
             fetch(`${API_BASE}/api/perfumes/${slug}/photos`, { next: { revalidate: 60 } }),
         ]);
 
-        if (pRes.ok) perfume = await pRes.json();
         if (cRes.ok) comments = await cRes.json();
         if (photosRes.ok) userPhotos = await photosRes.json();
     } catch {
-        perfume = null;
-    }
-
-    if (!perfume) {
-        return (
-            <div className="state">
-                <h2>Parfüm bulunamadı</h2>
-                <p>Aradığınız koku sistemde yok.</p>
-                <Link href="/" className="btn btn-ghost" style={{ marginTop: "1rem" }}>
-                    Anasayfaya dön
-                </Link>
-            </div>
-        );
+        /* yorum ve fotoğraflar olmadan da sayfa gösterilir */
     }
 
     const bestSeason = pickTop(perfume.seasons);
@@ -231,14 +210,11 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
         path: perfume.path,
     };
 
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://auracompare.com";
-    const perfumeUrl = `${siteUrl}/parfum/${perfume.path || slug}`;
+    const perfumeUrl = absoluteUrl(perfumeHref(perfume.path, perfume.slug));
     const productImageUrl = mediaUrl(perfume.imageUrl);
 
     const brandName = perfume.brand?.name ?? "";
-    const fullPerfumeName = perfume.name.toLowerCase().includes(brandName.toLowerCase())
-        ? perfume.name
-        : `${brandName} ${perfume.name}`;
+    const fullPerfumeName = fullNameOf(perfume);
 
     const jsonLdProduct = {
         "@context": "https://schema.org",
@@ -254,14 +230,16 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
         },
         category: perfume.fragranceFamily || "Parfüm",
         url: perfumeUrl,
-        ...(perfume.ratingCount > 0
+        // Google yalnızca sitenin kendi kullanıcılarından gelen puanı kabul eder.
+        // Fragrantica topluluk puanı (avgRating) burada kullanılmaz.
+        ...(perfume.userRatingCount > 0
             ? {
                   aggregateRating: {
                       "@type": "AggregateRating",
-                      ratingValue: Number(perfume.avgRating.toFixed(2)),
+                      ratingValue: Number(perfume.userAvgRating.toFixed(2)),
                       bestRating: 5,
                       worstRating: 1,
-                      ratingCount: perfume.ratingCount,
+                      ratingCount: perfume.userRatingCount,
                   },
               }
             : {}),
@@ -277,9 +255,9 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         itemListElement: (perfume.breadcrumb || []).map((item, idx) => {
-            let itemUrl = `${siteUrl}/detayli-arama`;
+            let itemUrl = absoluteUrl(searchHref());
             if (item.level === "home") {
-                itemUrl = `${siteUrl}/`;
+                itemUrl = absoluteUrl(localeHref("/"));
             } else if (idx === (perfume.breadcrumb?.length ?? 0) - 1) {
                 itemUrl = perfumeUrl;
             } else {
@@ -291,8 +269,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                         sp.set(paramKey, prevItem.slug);
                     }
                 }
-                const qs = sp.toString();
-                itemUrl = qs ? `${siteUrl}/detayli-arama?${qs}` : `${siteUrl}/detayli-arama`;
+                itemUrl = absoluteUrl(searchHref(Object.fromEntries(sp)));
             }
 
             return {
@@ -339,18 +316,18 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdProduct) }}
+                dangerouslySetInnerHTML={{ __html: jsonLd(jsonLdProduct) }}
             />
             {perfume.breadcrumb && perfume.breadcrumb.length > 0 && (
                 <script
                     type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumb) }}
+                    dangerouslySetInnerHTML={{ __html: jsonLd(jsonLdBreadcrumb) }}
                 />
             )}
             {jsonLdFaq && (
                 <script
                     type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFaq) }}
+                    dangerouslySetInnerHTML={{ __html: jsonLd(jsonLdFaq) }}
                 />
             )}
             <Breadcrumb items={perfume.breadcrumb} />
@@ -379,12 +356,12 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                         <FactCell
                             label="Ürün cinsi"
                             value={genderLabel(perfume.gender)}
-                            href={`/ara?gender=${genderSlug(perfume.gender)}`}
+                            href={searchHref({ gender: genderSlug(perfume.gender) })}
                         />
                         <FactCell
                             label="Koku ailesi"
                             value={perfume.fragranceFamily}
-                            href={perfume.fragranceFamilySlug ? `/ara?family=${perfume.fragranceFamilySlug}` : undefined}
+                            href={perfume.fragranceFamilySlug ? searchHref({ family: perfume.fragranceFamilySlug }) : undefined}
                         />
                         <FactCell
                             label="Çıkış yılı"
@@ -393,7 +370,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                         <FactCell
                             label="Konsantrasyon"
                             value={perfume.concentration}
-                            href={perfume.concentrationSlug ? `/ara?concentration=${perfume.concentrationSlug}` : undefined}
+                            href={perfume.concentrationSlug ? searchHref({ concentration: perfume.concentrationSlug }) : undefined}
                         />
                     </dl>
 
@@ -438,21 +415,21 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                     <table className="spec">
                         <tbody>
                             <SpecRow label="Marka">
-                                <SpecLink value={perfume.brand.name} href={`/ara?brand=${perfume.brand.slug}`} />
+                                <SpecLink value={perfume.brand.name} href={searchHref({ brand: perfume.brand.slug })} />
                             </SpecRow>
                             <SpecRow label="Koku ailesi">
                                 <SpecLink
                                     value={perfume.fragranceFamily}
-                                    href={perfume.fragranceFamilySlug ? `/ara?family=${perfume.fragranceFamilySlug}` : undefined}
+                                    href={perfume.fragranceFamilySlug ? searchHref({ family: perfume.fragranceFamilySlug }) : undefined}
                                 />
                             </SpecRow>
                             <SpecRow label="Cinsiyet">
-                                <SpecLink value={genderLabel(perfume.gender)} href={`/ara?gender=${genderSlug(perfume.gender)}`} />
+                                <SpecLink value={genderLabel(perfume.gender)} href={searchHref({ gender: genderSlug(perfume.gender) })} />
                             </SpecRow>
                             <SpecRow label="Konsantrasyon">
                                 <SpecLink
                                     value={perfume.concentration}
-                                    href={perfume.concentrationSlug ? `/ara?concentration=${perfume.concentrationSlug}` : undefined}
+                                    href={perfume.concentrationSlug ? searchHref({ concentration: perfume.concentrationSlug }) : undefined}
                                 />
                             </SpecRow>
                             <SpecRow label="Çıkış yılı">
@@ -464,7 +441,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                                 />
                             </SpecRow>
                             <SpecRow label="Ana akorlar">
-                                <SpecLinkList items={perfume.accords.slice(0, 5)} hrefFor={(s) => `/ara?accord=${s}`} />
+                                <SpecLinkList items={perfume.accords.slice(0, 5)} hrefFor={(s) => searchHref({ accord: s })} />
                             </SpecRow>
                             {topLongevity && (
                                 <SpecRow label="Kalıcılık">
@@ -478,7 +455,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                             )}
                             {bestSeason && bestSeason.votes > 0 && (
                                 <SpecRow label="En uygun mevsim">
-                                    <SpecLink value={`${bestSeason.name} (%${bestSeason.score})`} href={`/ara?season=${bestSeason.slug}`} />
+                                    <SpecLink value={`${bestSeason.name} (%${bestSeason.score})`} href={searchHref({ season: bestSeason.slug })} />
                                 </SpecRow>
                             )}
                             {bestTime && bestTime.votes > 0 && (
@@ -488,7 +465,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                             )}
                             {bestAge && bestAge.votes > 0 && (
                                 <SpecRow label="En yaygın yaş grubu">
-                                    <SpecLink value={`${bestAge.name} (%${bestAge.score})`} href={`/ara?ageGroup=${bestAge.slug}`} />
+                                    <SpecLink value={`${bestAge.name} (%${bestAge.score})`} href={searchHref({ ageGroup: bestAge.slug })} />
                                 </SpecRow>
                             )}
                         </tbody>
@@ -502,7 +479,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                             {perfume.accords.map((a) => (
                                 <Link
                                     key={a.slug}
-                                    href={`/ara?accord=${a.slug}`}
+                                    href={searchHref({ accord: a.slug })}
                                     className="accord-strip"
                                     style={{ ["--fill" as string]: `${Math.round(a.width)}%` }}
                                     title={`${a.name} — %${Math.round(a.width)}`}
@@ -518,13 +495,13 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                 <section className="block">
                     <h2 className="block-title">Ne zaman, kime uygun?</h2>
                     <div className="facet-groups">
-                        <FacetGroup title="Mevsim uyumu" items={perfume.seasons} hrefFor={(s) => `/ara?season=${s}`} />
+                        <FacetGroup title="Mevsim uyumu" items={perfume.seasons} hrefFor={(s) => searchHref({ season: s })} />
                         <FacetGroup title="Gündüz / gece" items={perfume.timeOfDay} />
                         <FacetGroup
                             title="Yaş grubu"
                             items={perfume.usageCount > 0 ? perfume.ageGroups : []}
                             empty='Henüz kimse bildirmedi. "Bu parfümü kullanıyorum" diyerek ilk siz olun.'
-                            hrefFor={(s) => `/ara?ageGroup=${s}`}
+                            hrefFor={(s) => searchHref({ ageGroup: s })}
                         />
                     </div>
                 </section>
@@ -580,6 +557,14 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
             </div>
         </>
     );
+}
+
+function safeDecode(segment: string): string {
+    try {
+        return decodeURIComponent(segment);
+    } catch {
+        return segment;
+    }
 }
 
 function pickTop<T extends { score: number }>(items?: T[]): T | null {
@@ -649,7 +634,7 @@ function SpecLinkList({
 }
 
 function Tier({ label, notes, layer }: { label: string; notes: Note[]; layer?: string }) {
-    const href = (slug: string) => (layer ? `/ara?note=${slug}&noteLayer=${layer}` : `/ara?note=${slug}`);
+    const href = (slug: string) => searchHref({ note: slug, noteLayer: layer });
     return (
         <div className="tier">
             <span className="tier-label">{label}</span>

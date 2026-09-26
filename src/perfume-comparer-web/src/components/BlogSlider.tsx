@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Icon from "./Icon";
-import { formatDate, API_BASE, mediaUrl } from "@/lib/urls";
+import { formatDate, API_BASE, mediaUrl, blogHref } from "@/lib/urls";
 
 export interface BlogPost {
     id: number;
@@ -20,11 +20,11 @@ export interface BlogPost {
  * servis edilir; slayt sırasına göre dönerek her yazıya farklı bir zemin düşer.
  */
 const FALLBACK_BACKGROUNDS = [
-    "/blog_backgrounds/pictures_1_3.webp",
-    "/blog_backgrounds/pictures_1_4.webp",
-    "/blog_backgrounds/pictures_1_5.webp",
-    "/blog_backgrounds/pictures_1_8.webp",
-    "/blog_backgrounds/pictures_1_9.webp",
+    "/blog_backgrounds/parfum-dunyasinda-2026-sonbahari.webp",
+    "/blog_backgrounds/kokunun-6000-yillik-yolculugu.webp",
+    "/blog_backgrounds/parfum-lugati.webp",
+    "/blog_backgrounds/turkiyede-muadil-parfum-pazari-2026.webp",
+    "/blog_backgrounds/francis-kurkdjian.webp",
 ];
 
 export default function BlogSlider({ blogs }: { blogs: BlogPost[] }) {
@@ -84,11 +84,11 @@ export default function BlogSlider({ blogs }: { blogs: BlogPost[] }) {
                         <span>•</span>
                         <span>{formatDate(current.publishedAt)}</span>
                     </div>
-                    <Link href={`/blog/${current.slug}`} className="hero-blog-title-link">
+                    <Link href={blogHref(current.slug)} className="hero-blog-title-link">
                         <h2 className="hero-blog-title">{current.title}</h2>
                     </Link>
                     <p className="hero-blog-excerpt">{current.excerpt}</p>
-                    <Link href={`/blog/${current.slug}`} className="hero-blog-btn">
+                    <Link href={blogHref(current.slug)} className="hero-blog-btn">
                         Yazıyı Oku <Icon name="arrow-right" size={14} />
                     </Link>
                 </div>

@@ -49,7 +49,7 @@ export default function UserMenu() {
         return () => document.removeEventListener("mousedown", onOutside);
     }, []);
 
-    const next = pathname && pathname !== "/giris" ? `?next=${encodeURIComponent(pathname)}` : "";
+    const next = pathname && !pathname.endsWith("/giris") ? `?next=${encodeURIComponent(pathname)}` : "";
 
     // Giriş yapılmamışsa buton menü açar: Favorilerim ve Giriş Yap
     if (!ready || !user) {
@@ -78,7 +78,7 @@ export default function UserMenu() {
                                 <span>Favorilerim</span>
                             </Link>
                             <Link
-                                href={`/giris${next}`}
+                                href={`/tr/giris${next}`}
                                 className="user-dropdown-link"
                                 onClick={() => setOpen(false)}
                                 style={{ fontWeight: 600, color: "var(--accent)" }}
@@ -140,7 +140,7 @@ export default function UserMenu() {
                             <span>Puanladıklarım</span>
                         </Link>
                         <Link
-                            href="/blog/yazilarim"
+                            href="/tr/blog/yazilarim"
                             className="user-dropdown-link"
                             onClick={() => setOpen(false)}
                         >

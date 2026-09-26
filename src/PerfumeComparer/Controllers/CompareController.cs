@@ -39,7 +39,7 @@ public class CompareController(AppDbContext db, ITokenService tokens, ICompareAi
 
         var commentPairs = await db.ComparisonComments
             .AsNoTracking()
-            .Where(c => c.Status == ModerationStatus.Approved)
+            .Where(c => c.Status == ModerationStatus.Approved && !c.IsAiSummary)
             .GroupBy(c => new { c.Perfume1Id, c.Perfume2Id })
             .OrderByDescending(g => g.Count())
             .Take(12)

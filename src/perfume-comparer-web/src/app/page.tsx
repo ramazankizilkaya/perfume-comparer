@@ -1,14 +1,17 @@
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import HomeFeedClient, { type HomeFeedData } from "@/components/HomeFeedClient";
-import { API_BASE } from "@/lib/urls";
+import { API_BASE, localeHref } from "@/lib/urls";
+import { pageMetadata } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
     title: "Aura Compare - Parfüm Karşılaştırma, Koku Notaları ve Fiyat İnceleme",
     description: "Binlerce parfümün koku piramidi, kalıcılık ve yayılım puanları, kullanıcı yorumları ve detaylı karşılaştırmaları.",
-};
+    path: localeHref("/"),
+    absoluteTitle: true,
+});
 
 export default async function Home() {
     let initialData: HomeFeedData = {

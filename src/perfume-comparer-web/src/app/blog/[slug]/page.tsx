@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import RichTextRenderer from "@/components/RichTextRenderer";
-import { API_BASE, formatDate, mediaUrl } from "@/lib/urls";
+import { API_BASE, formatDate, mediaUrl, blogHref, localeHref, searchHref } from "@/lib/urls";
+import { absoluteUrl, jsonLd, LOGO_URL, pageMetadata, SITE_NAME, truncateDescription } from "@/lib/seo";
 
 interface BlogPostDetail {
     id: number;
@@ -23,64 +25,73 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { slug } = await params;
-    if (!slug) return { title: "Blog | Aura Compare" };
+    if (!slug) notFound();
 
-    try {
-        const res = await fetch(`${API_BASE}/api/blogs/${slug}`, { next: { revalidate: 60 } });
-        if (!res.ok) return { title: "Yazı Bulunamadı | Aura Compare" };
-        const blog: BlogPostDetail = await res.json();
+    const res = await fetch(`${API_BASE}/api/blogs/${slug}`, { next: { revalidate: 60 } });
+    if (res.status === 404) notFound();
+    if (!res.ok) throw new Error(`API hatası: ${res.status}`);
+    const blog: BlogPostDetail = await res.json();
 
-        const title = `${blog.title} | Aura Compare Blog`;
-        const description = (blog.excerpt || blog.body || "").slice(0, 160).replace(/\n+/g, " ");
-
-        return {
-            title,
-            description,
-            openGraph: {
-                title,
-                description,
-                images: blog.coverImageUrl ? [{ url: blog.coverImageUrl }] : [],
-            },
-        };
-    } catch {
-        return { title: "Blog | Aura Compare" };
-    }
+    return pageMetadata({
+        title: blog.title,
+        description: truncateDescription(blog.excerpt || blog.body || blog.title),
+        path: blogHref(blog.slug),
+        images: [mediaUrl(blog.coverImageUrl)],
+        type: "article",
+        publishedTime: blog.publishedAt,
+    });
 }
 
 export default async function BlogDetailPage({ params }: PageProps) {
     const { slug } = await params;
 
-    let blog: BlogPostDetail | null = null;
-    try {
-        // Her ziyarette DB görüntülenme sayısının artması için no-store ile çağırıyoruz
-        const res = await fetch(`${API_BASE}/api/blogs/${slug}`, { cache: "no-store" });
-        if (res.ok) blog = await res.json();
-    } catch {
-        blog = null;
-    }
-
-    if (!blog) {
-        return (
-            <div className="state" style={{ padding: "4rem 1rem", textAlign: "center" }}>
-                <h2>Makale Bulunamadı</h2>
-                <p style={{ color: "var(--ink-muted)", marginTop: "0.5rem" }}>
-                    Aradığınız blog yazısı silinmiş veya yayından kaldırılmış olabilir.
-                </p>
-                <Link href="/blog" className="btn btn-primary" style={{ marginTop: "1.5rem", display: "inline-block" }}>
-                    Tüm Yazılara Göz At
-                </Link>
-            </div>
-        );
-    }
+    // Her ziyarette DB görüntülenme sayısının artması için no-store ile çağırıyoruz
+    const res = await fetch(`${API_BASE}/api/blogs/${slug}`, { cache: "no-store" });
+    // Yazı yoksa 404; API hatasında 500 (geçici kesinti "sayfa silindi" sayılmasın).
+    if (res.status === 404) notFound();
+    if (!res.ok) throw new Error(`Blog yazısı alınamadı: ${res.status}`);
+    const blog: BlogPostDetail = await res.json();
 
     const wordCount = blog.body ? blog.body.trim().split(/\s+/).length : 0;
     const readingTime = Math.max(1, Math.ceil(wordCount / 200));
 
+    const articleUrl = absoluteUrl(blogHref(blog.slug));
+    const coverUrl = mediaUrl(blog.coverImageUrl);
+    const jsonLdArticle = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        headline: blog.title,
+        description: truncateDescription(blog.excerpt || blog.body || blog.title),
+        ...(coverUrl ? { image: [coverUrl] } : {}),
+        ...(blog.publishedAt ? { datePublished: blog.publishedAt } : {}),
+        inLanguage: "tr-TR",
+        wordCount,
+        mainEntityOfPage: articleUrl,
+        url: articleUrl,
+        author: { "@type": "Person", name: blog.authorName || SITE_NAME },
+        publisher: {
+            "@type": "Organization",
+            name: SITE_NAME,
+            logo: { "@type": "ImageObject", url: LOGO_URL },
+        },
+    };
+    const jsonLdBreadcrumb = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Anasayfa", item: absoluteUrl(localeHref("/")) },
+            { "@type": "ListItem", position: 2, name: "Blog", item: absoluteUrl(blogHref()) },
+            { "@type": "ListItem", position: 3, name: blog.title, item: articleUrl },
+        ],
+    };
+
     return (
         <div className="blog-article-container">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(jsonLdArticle) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(jsonLdBreadcrumb) }} />
             <PageBreadcrumb
                 trail={[
-                    { label: "Blog", href: "/blog" },
+                    { label: "Blog", href: blogHref() },
                     { label: blog.title },
                 ]}
             />
@@ -91,7 +102,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
                         <img
                             className="article-cover"
                             src={mediaUrl(blog.coverImageUrl)}
-                            alt={`${blog.title} makale kapak görseli`}
+                            alt={`${blog.title} - blog kapak görseli`}
                         />
                     </div>
                 )}
@@ -148,10 +159,10 @@ export default async function BlogDetailPage({ params }: PageProps) {
                         </div>
 
                         <div className="article-footer-nav">
-                            <Link href="/blog" className="btn btn-outline">
+                            <Link href={blogHref()} className="btn btn-outline">
                                 ← Tüm Blog Yazılarına Dön
                             </Link>
-                            <Link href="/ara" className="btn btn-primary">
+                            <Link href={searchHref()} className="btn btn-primary">
                                 Parfümleri Keşfet ve Karşılaştır →
                             </Link>
                         </div>

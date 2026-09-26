@@ -454,7 +454,7 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
 
         // En son eklenen ilişki en üstte; aynı anda gelenlerde kaynak sırası korunur.
         List<PerfumeAlternativeDto> Related(PerfumeRelationKind kind) => perfume.AlternativesAsSource
-            .Where(a => a.Kind == kind)
+            .Where(a => a.Kind == kind && a.TargetPerfume != null && a.TargetPerfume.IsPublished)
             .OrderByDescending(a => a.CreatedAt)
             .ThenBy(a => a.SortOrder)
             .Select(a => new PerfumeAlternativeDto(

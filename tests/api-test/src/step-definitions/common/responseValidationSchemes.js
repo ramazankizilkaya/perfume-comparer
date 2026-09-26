@@ -114,7 +114,24 @@ const responseValidationSchemes = {
         brands: Joi.array().optional()
     }).required().unknown(true),
 
-    "Get Perfume Comments": Joi.array().required()
+    "Get Perfume Comments": Joi.array().required(),
+
+    // Parfüm yolu "cinsiyet/[konsantrasyon/]marka/parfüm" biçimindedir; dil ön eki
+    // (/tr) ve baştaki "/" API'de yoktur, ön yüz ekler.
+    "Get Sitemap": Joi.object({
+        perfumes: Joi.array().min(1).items(Joi.object({
+            path: Joi.string().pattern(/^(erkek|kadin|unisex)(\/[a-z0-9-]+){2,3}$/).required(),
+            updatedAt: Joi.date().iso().required()
+        })).required(),
+        brands: Joi.array().min(1).items(Joi.object({
+            slug: Joi.string().pattern(/^[a-z0-9-]+$/).required(),
+            updatedAt: Joi.date().iso().required()
+        })).required(),
+        blogs: Joi.array().items(Joi.object({
+            slug: Joi.string().required(),
+            updatedAt: Joi.date().iso().required()
+        })).required()
+    }).required()
 };
 
 module.exports = {

@@ -1,16 +1,18 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/lib/seo";
 
 export default function robots(): MetadataRoute.Robots {
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://auracompare.com";
-
     return {
         rules: [
             {
                 userAgent: "*",
                 allow: "/",
-                disallow: ["/admin", "/api/"],
+                // Yönetim sayfasının asıl adresi /tr/admin'dir; ön eksiz hali de engellenir.
+                // Giriş ve "Yazılarım" gibi sayfalar burada engellenmez: noindex etiketlerini
+                // görebilmeleri için botların o sayfaları okuyabilmesi gerekir.
+                disallow: ["/admin", "/tr/admin", "/api/"],
             },
         ],
-        sitemap: `${siteUrl}/sitemap.xml`,
+        sitemap: `${SITE_URL}/sitemap.xml`,
     };
 }

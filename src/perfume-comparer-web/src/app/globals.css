@@ -2065,6 +2065,14 @@ body.dark-mode .vs-side img {
     margin-block-start: auto;
 }
 
+.detail-review-btn.is-reviewed {
+    background: var(--surface-sunk);
+    color: var(--ink-soft);
+    border: 1px solid var(--line-strong);
+    cursor: default;
+    opacity: 0.9;
+}
+
 /* Künye ve piramidin altındaki her şey tek kapsayıcıda, tek kolon. */
 .detail-body {
     display: grid;
@@ -7135,6 +7143,116 @@ body.dark-mode .buy-store-card:hover {
     .card-hover-actions {
         opacity: 1;
         transform: none;
+    }
+}
+
+/* --- toast notification system --------------------------------------------- */
+.toast-container {
+    position: fixed;
+    bottom: var(--s6);
+    right: var(--s6);
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    gap: var(--s2);
+    max-width: 420px;
+    width: calc(100vw - var(--s6) * 2);
+    pointer-events: none;
+}
+
+.toast-item {
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    gap: var(--s3);
+    padding: var(--s3) var(--s4);
+    background: var(--surface);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    font-size: var(--fs-sm);
+    animation: toast-slide-in 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes toast-slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.97);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.toast-icon-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.toast-success {
+    border-left: 4px solid var(--good);
+}
+
+.toast-success .toast-icon-wrap {
+    background: var(--good-wash);
+    color: var(--good);
+}
+
+.toast-error {
+    border-left: 4px solid var(--bad);
+}
+
+.toast-error .toast-icon-wrap {
+    background: var(--bad-wash);
+    color: var(--bad);
+}
+
+.toast-info, .toast-warning {
+    border-left: 4px solid var(--accent);
+}
+
+.toast-info .toast-icon-wrap, .toast-warning .toast-icon-wrap {
+    background: var(--accent-wash);
+    color: var(--accent);
+}
+
+.toast-message {
+    flex: 1;
+    line-height: 1.4;
+    word-break: break-word;
+}
+
+.toast-close-btn {
+    background: transparent;
+    border: none;
+    color: var(--ink-faint);
+    cursor: pointer;
+    padding: var(--s1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius);
+    transition: color 0.15s, background-color 0.15s;
+}
+
+.toast-close-btn:hover {
+    color: var(--ink);
+    background: var(--surface-sunk);
+}
+
+@media (max-width: 640px) {
+    .toast-container {
+        bottom: var(--s4);
+        right: var(--s4);
+        left: var(--s4);
+        width: auto;
     }
 }
 

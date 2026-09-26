@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import CompareClient, { type PerfumeDetail } from "@/components/CompareClient";
-import { API_BASE } from "@/lib/urls";
+import { API_BASE, localeHref } from "@/lib/urls";
+import { pageMetadata } from "@/lib/seo";
 import { MAX_COMPARE } from "@/lib/constants";
 
 interface PageProps {
@@ -35,20 +36,25 @@ export async function generateMetadata({ searchParams }: PageProps): Promise<Met
             const valid = list.filter(Boolean) as PerfumeDetail[];
             if (valid.length >= 2) {
                 const names = valid.map((p) => p.name).join(" vs ");
-                return {
-                    title: `${names} Karşılaştırması | Aura Compare`,
+                // ?items=a,b / ?items=b,a / ?p1=a&p2=b aynı içeriktir; asıl adres
+                // slug'ları alfabetik sıralanmış ?items= biçimidir.
+                const canonicalItems = valid.map((p) => p.slug).sort().join(",");
+                return pageMetadata({
+                    title: `${names} Karşılaştırması`,
                     description: `${names} parfümlerinin nota piramidi, kalıcılık, yayılım, kullanıcı puanları ve mevsim uyumu karşılaştırması.`,
-                };
+                    path: localeHref(`/karsilastir?items=${canonicalItems}`),
+                });
             }
         } catch {
             /* varsayılana dön */
         }
     }
 
-    return {
-        title: "Koku Karşılaştırma - Parfümleri Yan Yana Kıyaslayın | Aura Compare",
+    return pageMetadata({
+        title: "Koku Karşılaştırma - Parfümleri Yan Yana Kıyaslayın",
         description: "En popüler parfümleri koku piramidi, kalıcılık, yayılım ve kullanıcı oylarıyla tek tabloda yan yana karşılaştırın.",
-    };
+        path: localeHref("/karsilastir"),
+    });
 }
 
 export default async function ComparePage({ searchParams }: PageProps) {

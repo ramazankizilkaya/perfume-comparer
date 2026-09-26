@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import BlogWriteSection from "@/components/BlogWriteSection";
-import { API_BASE, formatDate, mediaUrl } from "@/lib/urls";
+import { API_BASE, formatDate, mediaUrl, blogHref } from "@/lib/urls";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-    title: "Blog - Parfüm Dünyasından Rehberler ve İncelemeler | Aura Compare",
+export const metadata: Metadata = pageMetadata({
+    title: "Blog - Parfüm Dünyasından Rehberler ve İncelemeler",
     description: "Parfüm dünyasından rehberler, nota analizleri, kullanım ipuçları ve parfüm incelemeleri.",
-};
+    path: blogHref(),
+});
 
 interface BlogPost {
     id: number;
@@ -46,10 +48,10 @@ export default async function BlogPage() {
             {blogs.length > 0 ? (
                 <div className="blog-grid">
                     {blogs.map((b) => (
-                        <Link key={b.slug} href={`/blog/${b.slug}`} className="blog-card">
+                        <Link key={b.slug} href={blogHref(b.slug)} className="blog-card">
                             <div className="blog-cover">
                                 <img
-                                    src={mediaUrl(b.coverImageUrl) || "/blog_backgrounds/pictures_1_3.webp"}
+                                    src={mediaUrl(b.coverImageUrl) || "/blog_backgrounds/parfum-dunyasinda-2026-sonbahari.webp"}
                                     alt={`${b.title} - blog kapak görseli`}
                                     loading="lazy"
                                 />

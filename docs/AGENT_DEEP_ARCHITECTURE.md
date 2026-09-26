@@ -29,6 +29,7 @@ Layered architecture (SoC) kesin olarak uygulanır:
   - `CompareAiService`: İki parfümün teknik piramidi ve verilerini OpenAI (fallback: Gemini) ile profesyonel Türkçe karşılaştırma analizine dönüştürür; sonucu PostgreSQL `comparison_comments` tablosunda `is_ai_summary = true` olarak önbelleğe alır. Tekrarlayan istekler doğrudan veritabanından 0 ms gecikmeyle döner.
   - `BrandService`: Marka listeleme ve marka içi popülerlik.
   - `SearchService`: Çok kriterli (akor, nota, cinsiyet, fiyat, marka) arama motoru.
+  - `SitemapService`: `GET /api/sitemap` için yayındaki tüm parfüm yollarını (`PerfumeUrl.Path`), parfümü olan marka slug'larını ve yayındaki blog slug'larını son değişiklik tarihleriyle döner; sonuç 1 saat `IMemoryCache` içinde tutulur (`SitemapController` → `ISitemapService`).
 - **`Data/`**: `ApplicationDbContext`, `Repository<T>`, `UnitOfWork`.
 - **`Data/SeedService.cs`**: Yalnızca test kullanıcıları, bloglar ve yorumları seed eder; kataloğa dokunmaz.
 - **Medya Sunumu**: `Program.cs` içinde `UseStaticFiles` ile `scrape_files/` klasörü doğrudan `/media/...` altında static olarak sunulur.
@@ -44,10 +45,19 @@ Layered architecture (SoC) kesin olarak uygulanır:
 ## 3. Frontend Mimarisi (Next.js 15 App Router + React + TypeScript)
 
 - **Tasarım İlkesi**: epey.com bilgi yoğunluğu. Geniş tablolar, spec-sheet kutuları, yoğun veriler, 0 serif font.
-- **Çoklu Dil & Rota Yapısı (`/tr/` Prefix & Middleware)**:
-  - `src/middleware.ts`: Dil öneki bulunmayan tüm rotaları (`/`, `/ara`, `/detayli-arama`, `/marka`, `/parfum/...`) `/tr/...` rotasına yönlendirir. `/ara` isteklerini kalıcı (301) olarak `/tr/detayli-arama` rotasına yönlendirir; `/detayli-arama` isteklerini ise App Router'daki `/ara` sayfasına dahili olarak rewrite eder.
+- **Çoklu Dil & Rota Yapısı (`/tr/` Prefix & Proxy)**:
+  - `src/proxy.ts` (Next 16'da `middleware.ts` dosyasının yeni adı, fonksiyon adı `proxy`): Dil öneki bulunmayan tüm rotaları (`/`, `/ara`, `/detayli-arama`, `/marka`, `/parfum/...`) kalıcı (308) olarak `/tr/...` rotasına yönlendirir. `/tr/ara` isteklerini kalıcı (308) olarak `/tr/detayli-arama` rotasına yönlendirir; `/detayli-arama` isteklerini ise App Router'daki `/ara` sayfasına dahili olarak rewrite eder. `/en/...` istekleri, İngilizce içerik hazır olmadığı için Türkçe sayfanın kopyası olmasın diye var olmayan bir iç yola rewrite edilir ve 404 döner. Noktalı yollar (`robots.txt`, `sitemap.xml`, `logo.png`, `og-default.png`) proxy'ye takılmaz.
   - Next.js rewrite mimarisi sayesinde mevcut App Router klasör hiyerarşisi bozulmadan `x-locale` başlığıyla dinamik servis sağlanır.
-  - Rota üreticileri (`src/lib/urls.ts`): `perfumeHref`, `brandHref`, `compareHref` ve `localeHref` her zaman `/tr/` önekiyle URL üretir.
+  - Rota üreticileri (`src/lib/urls.ts`): `perfumeHref`, `brandHref`, `blogHref`, `searchHref` (`/tr/detayli-arama?...`), `compareHref` ve `localeHref` her zaman `/tr/` önekiyle URL üretir. Bileşenlerde elle ön eksiz link yazılmaz; aksi halde her tıklama ve her bot ziyareti bir yönlendirmeye uğrar.
+- **Teknik SEO Altyapısı (`src/lib/seo.ts`)**:
+  - `SITE_URL` (`NEXT_PUBLIC_SITE_URL`, varsayılan `https://auracompare.com`), `absoluteUrl()`, `jsonLd()` (`</` kaçışlı JSON-LD) ve `pageMetadata({ title, description, path, images, type })`. `pageMetadata` canonical, `og:url`, `og:type`, `siteName`, `locale`, OG/Twitter görsellerini birlikte üretir. Next metadata'yı sığ birleştirdiği için `openGraph` her sayfada tam verilir.
+  - Kök `layout.tsx` canonical vermez (verirse her sayfa anasayfaya canonical olur) ve Twitter başlığı vermez. Başlık şablonu `%s | Aura Compare`; sayfa başlıklarına site adı yazılmaz, anasayfa `absoluteTitle` kullanır. Varsayılan paylaşım görseli `public/og-default.png`, Organization logosu `public/logo.png`.
+  - Tarayıcıda çalışan sayfalar (`/ara`, `/admin`, `/giris`, `/blog/yazilarim`, `/blog/onizleme`) metadata'yı kendi `layout.tsx` dosyasından alır. Arama sayfasının canonical'ı filtresiz `/tr/detayli-arama`dır; admin, giriş, yazılarım ve önizleme `noindex, follow` taşır.
+  - 404/500: Parfüm, marka ve blog sayfaları API 404 dönünce `notFound()` çağırır ve Türkçe `app/not-found.tsx` 404 koduyla gösterilir. API'ye ulaşılamazsa hata fırlatılır ve `app/error.tsx` 500 ile gösterilir; böylece geçici kesinti "sayfa silindi" sayılmaz.
+  - Parfüm sayfasında adres `perfume.path` ile birebir eşleşmezse (`/tr/parfum/yanlis/yol/<slug>`) `permanentRedirect` ile asıl yola 308 yapılır. Karşılaştırma sayfasının canonical'ı slug'ları alfabetik sıralanmış `?items=` biçimidir.
+  - JSON-LD: kökte `WebSite` (SearchAction `/tr/detayli-arama?q=`) ve `Organization`; parfümde `Product` + `BreadcrumbList` + `FAQPage`; markada `Brand` + `BreadcrumbList` + `ItemList`; blogda `BlogPosting` + `BreadcrumbList`. `Product.aggregateRating` yalnızca sitenin kendi kullanıcı puanından (`userAvgRating`/`userRatingCount`) üretilir; Fragrantica topluluk puanı Google kuralları gereği kullanılmaz.
+  - `robots.ts`: `/admin`, `/tr/admin`, `/api/` engelli. `sitemap.ts`: `GET /api/sitemap` verisinden tüm yayındaki parfüm, marka (parfümü olanlar) ve blog adreslerini `/tr/...` biçiminde üretir. Yanıt 2 MB'ı aştığı için Next fetch önbelleğine alınmaz, sitemap her istekte üretilir; API tarafında 1 saatlik `IMemoryCache` vardır. Tek sitemap dosyası en fazla 50.000 adres alır; katalog bu sınıra yaklaşırsa `generateSitemaps` ile bölünmelidir.
+  - `RichTextRenderer` bilinçli olarak `"use client"` değildir: blog detayında markdown sunucuda HTML'e çevrilir.
   - Sözlük Altyapısı: `src/lib/i18n.ts` üzerinden `src/lib/i18n/dictionaries/` altındaki `tr.json` ve `en.json` sözlüklerini yükler.
 - **Sayfa Rotaları**:
   - `/tr` -> Anasayfa beslemesi (Blog hero, Keşfet, Popülerler, Karşılaştırmalar, Markalar).
@@ -111,3 +121,20 @@ Fragrantica IP engeli koyduğunda HTTP 400 döner. Scraper 3 ardışık hata gö
 2. **Tier 2 (SOCKS5 Proxy Relay)**: VPN yetersiz kalırsa `NordSocksRelay` (lokal unauthenticated SOCKS5 -> Nord authenticated proxy) üzerinden IP değiştirir.
 3. **Tier 3 (Cooldown)**: 20s -> 60s artan bekleme süresi uygular.
 4. **Zenginleştirme Ayrımı**: Veri kazıma (`scrape_perfumes.py`) esnasında yapay zeka servisine bağlanılmaz; yapay zeka zenginleştirmesi bağımsız çalışan `scripts/enrich_perfumes.py` üzerinden 4 saniyelik güvenli kota aralığıyla yürütülür.
+
+---
+
+## 6. Parfüm Değerlendirme, Toast Sistemi ve Karşılaştırma Tercihleri
+
+- **Tekil Değerlendirme Kuralı (`CatalogController.cs`)**:
+  - `POST /api/perfumes/{slug}/review` uç noktası, kullanıcının ilgili parfüm için `ratings` tablosunda kaydı olup olmadığını kontrol eder. Daha önce değerlendirme yapmışsa `HTTP 400 Bad Request` döner (`"Bu parfümü daha önce değerlendirdiniz. Bir parfüm yalnızca bir kez değerlendirilebilir."`).
+  - Değerlendirme formunda 1-5 arası genel puan (`score`) zorunludur. Puan verilmesiyle birlikte `Rating` kaydı veritabanına yazılır ve composite primary key (`UserId, PerfumeId`) çifte kaydı fiziksel olarak engeller.
+  - Önerilen benzer kokular (`remindsOfPerfumes`, `similarPerfumes`) `perfume_alternatives` tablosuna `CreatedAt = UtcNow` ve kullanıcı seçim sırasını koruyan `SortOrder` ile kaydedilir; detay sayfası sorgulamasında `OrderByDescending(a => a.CreatedAt).ThenBy(a => a.SortOrder)` kullanılarak en son yapılan değerlendirmeler listenin en başına yerleşir.
+- **Değerlendirme Durumu Sorgulama (`GET /api/perfumes/{slug}/my-evaluation`)**:
+  - Oturum açmış kullanıcının bu parfümü değerlendirip değerlendirmediğini ve verdiği puanı döner (`{ hasEvaluated: boolean, score?: number }`).
+  - `PerfumeReviewButton.tsx` bileşeni kullanıcı giriş yapmışsa ve daha önce değerlendirdiyse butonu pasif 'Değerlendirildi' rozetine çevirir ve mükerrer form açılışını engeller.
+- **Reaktif Toast Bildirim Sistemi (`src/lib/toast.ts` & `ToastContainer.tsx`)**:
+  - `toast.success()`, `toast.error()`, `toast.info()` fonksiyonları üzerinden çalışan olay tabanlı hafif bildirim mekanizması.
+  - `layout.tsx` gövdesine entegre edilen `ToastContainer` bileşeni ile değerlendirme ve yorum gönderme gibi işlemlerde ekranın sağ alt köşesinde (mobilde tam genişlik) otomatik kaybolan geri bildirim kutuları gösterilir. Light/Dark mode token'larına tam uyumludur.
+- **Karşılaştırma Tercih Formatı (`CompareClient.tsx`)**:
+  - Karşılaştırma sayfasındaki 'Hangisini tercih ediyorsunuz?' alanında ve yorum tercihi rozetlerinde, parfüm adı marka adıyla birleştirilerek (`{Marka} {Parfüm}`) gösterilir.

@@ -28,7 +28,7 @@ Goal: keep the implementation simple, extensible and clean (SoC, no spaghetti).
 ## Product Summary
 - Users browse, search and compare perfumes: notes, accords, ratings, longevity, sillage, season/time-of-day voting.
 - Data comes from scraping Fragrantica TR (`scripts/scrape_perfumes.py`), lands as per-perfume JSON + WebP images under `scrape_files/`, and is loaded into Postgres by `scripts/import_data.py`. There is **no mock catalog**: every brand and perfume in the DB comes from `scrape_files/`.
-- Key routes: `/` home, `/ara` search, `/marka` brand index, `/marka/<slug>` brand page, `/parfum/...` detail, `/karsilastir` compare, `/blog`, `/admin`, `/giris` login.
+- Key routes (public URLs carry the `/tr` prefix, e.g. `/tr/marka/dior`): `/tr` home, `/tr/detayli-arama` search (App Router folder: `app/ara`), `/tr/marka` brand index, `/tr/marka/<slug>` brand page, `/tr/parfum/...` detail, `/tr/karsilastir` compare, `/tr/blog`, `/tr/admin`, `/tr/giris` login. Build internal links only with the helpers in `lib/urls.ts`; SEO metadata goes through `pageMetadata()` in `lib/seo.ts`.
 
 ## Design Direction (important)
 The UI must read like an **information portal — epey.com is the reference**: dense, tabular, sans-serif, spec-sheet oriented, lots of comparable numbers per screen.

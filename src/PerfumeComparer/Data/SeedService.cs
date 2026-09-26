@@ -212,14 +212,16 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
         var users = await db.Users.OrderBy(u => u.Id).ToListAsync(ct);
         var mockBlogs = new List<BlogPost>();
 
-        // scrape_files/articles/seed_articles.json dosyasını ara
+        // seed_articles.json dosyasını ara (derlenmiş Data klasörü veya scrape_files)
         var candidatePaths = new[]
         {
+            Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "Data/seed_articles.json")),
+            Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "seed_articles.json")),
+            Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "Data/seed_articles.json")),
             Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "../../../../../scrape_files/articles/seed_articles.json")),
             Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "../../../../scrape_files/articles/seed_articles.json")),
             Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "../../scrape_files/articles/seed_articles.json")),
             Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "scrape_files/articles/seed_articles.json")),
-            "/Users/ramazankizilkaya/Documents/wip/perfume-comparer/scrape_files/articles/seed_articles.json"
         };
 
         var jsonPath = candidatePaths.FirstOrDefault(File.Exists);

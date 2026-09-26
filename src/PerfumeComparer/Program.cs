@@ -53,6 +53,7 @@ try
     builder.Services.AddScoped<ICatalogService, CatalogService>();
     builder.Services.AddScoped<ISearchService, SearchService>();
     builder.Services.AddScoped<IUsageService, UsageService>();
+    builder.Services.AddScoped<ISitemapService, SitemapService>();
     builder.Services.AddScoped<ISeedService, SeedService>();
     builder.Services.AddSingleton<ITokenService, TokenService>();
     builder.Services.AddSingleton<IGeminiClient, GeminiClient>();

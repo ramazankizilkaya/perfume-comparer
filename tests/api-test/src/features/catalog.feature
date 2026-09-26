@@ -97,3 +97,13 @@ Feature: Catalog Management
         Given perfume slug is "dior-sauvage-edp"
         When I send a "POST" request to "Toggle Favorite" endpoint
         Then the response status should be 401
+
+    Scenario: Submit perfume review requires authentication
+        Given perfume slug is "dior-sauvage-edp"
+        When I send a "POST" request to "Submit Perfume Review" endpoint with "Submit Review" payload
+        Then the response status should be 401
+
+    Scenario: Check evaluation status for perfume
+        Given perfume slug is "dior-sauvage-edp"
+        When I send a "GET" request to "Get Perfume My Evaluation" endpoint
+        Then the response status should be 200

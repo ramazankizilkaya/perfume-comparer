@@ -8,7 +8,7 @@ import Stars from "./Stars";
 import Score from "./Score";
 import LoginPrompt from "./LoginPrompt";
 import ImageLightboxModal from "./ImageLightboxModal";
-import { API_BASE, perfumeHref, formatDate, genderLabel, mediaUrl } from "@/lib/urls";
+import { API_BASE, perfumeHref, localeHref, formatDate, genderLabel, mediaUrl } from "@/lib/urls";
 import { noteIcon } from "@/lib/notes";
 import { useCompare, useAuth, MAX_COMPARE } from "@/lib/stores";
 
@@ -142,7 +142,7 @@ export default function CompareClient({
     }, [slugs]);
 
     const go = (next: string[]) => {
-        router.replace(next.length ? `/karsilastir?items=${next.join(",")}` : "/karsilastir", { scroll: false });
+        router.replace(localeHref(next.length ? `/karsilastir?items=${next.join(",")}` : "/karsilastir"), { scroll: false });
     };
 
     const drop = (slug: string) => {
@@ -564,6 +564,13 @@ function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }
 
     const userComments = comments.filter((c) => !c.isAiSummary);
 
+    const p1Label = p1.name.toLowerCase().startsWith(p1.brand.name.toLowerCase())
+        ? p1.name
+        : `${p1.brand.name} ${p1.name}`;
+    const p2Label = p2.name.toLowerCase().startsWith(p2.brand.name.toLowerCase())
+        ? p2.name
+        : `${p2.brand.name} ${p2.name}`;
+
     return (
         <section className="block">
             <h2 className="block-title">Bu karşılaştırma hakkında ({userComments.length})</h2>
@@ -585,8 +592,8 @@ function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }
                         <div className="form-group">
                             <label>Hangisini tercih ediyorsunuz?</label>
                             <div className="tag-row">
-                                <PrefButton label={p1.name} slug={p1.slug} preferred={preferred} setPreferred={setPreferred} />
-                                <PrefButton label={p2.name} slug={p2.slug} preferred={preferred} setPreferred={setPreferred} />
+                                <PrefButton label={p1Label} slug={p1.slug} preferred={preferred} setPreferred={setPreferred} />
+                                <PrefButton label={p2Label} slug={p2.slug} preferred={preferred} setPreferred={setPreferred} />
                             </div>
                         </div>
                         <button className="btn btn-primary" disabled={posting}>
@@ -600,7 +607,7 @@ function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }
             {userComments.length > 0 ? (
                 userComments.map((c) => {
                     const pref =
-                        c.preferredSlug === p1.slug ? p1.name : c.preferredSlug === p2.slug ? p2.name : null;
+                        c.preferredSlug === p1.slug ? p1Label : c.preferredSlug === p2.slug ? p2Label : null;
                     return (
                         <div key={c.id} className="comment">
                             <div className="comment-head">

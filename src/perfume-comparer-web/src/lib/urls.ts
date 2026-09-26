@@ -14,6 +14,24 @@ export function perfumeHref(path?: string | null, fallbackSlug?: string | null, 
     return `/${lang}`;
 }
 
+/**
+ * Detaylı arama linki. Herkese açık adres /tr/detayli-arama'dır; eski /ara adresi
+ * yalnızca yönlendirme olarak yaşar, bu yüzden iç linklerde hiç kullanılmaz.
+ */
+export function searchHref(params?: Record<string, string | null | undefined>, lang: string = "tr"): string {
+    const sp = new URLSearchParams();
+    for (const [key, value] of Object.entries(params ?? {})) {
+        if (value) sp.set(key, value);
+    }
+    const qs = sp.toString();
+    return `/${lang}/detayli-arama${qs ? `?${qs}` : ""}`;
+}
+
+/** Blog linkleri: /tr/blog ve /tr/blog/<slug>. */
+export function blogHref(slug?: string | null, lang: string = "tr"): string {
+    return slug ? `/${lang}/blog/${slug}` : `/${lang}/blog`;
+}
+
 /** Karşılaştırma sayfası linki. */
 export function compareHref(slug1?: string | null, slug2?: string | null, lang: string = "tr"): string {
     if (!slug1 || !slug2) return `/${lang}/karsilastir`;

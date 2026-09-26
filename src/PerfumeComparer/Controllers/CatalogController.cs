@@ -283,8 +283,35 @@ public class CatalogController(
         string[]? RemindsOfPerfumes = null);
 
     /// <summary>
+    /// Giriş yapan kullanıcının bu parfümü daha önce değerlendirip değerlendirmediğini döner.
+    /// </summary>
+    [HttpGet("perfumes/{slug}/my-evaluation")]
+    public async Task<IActionResult> GetMyEvaluation(string slug, CancellationToken ct)
+    {
+        var principal = tokens.Validate(Request.Headers.Authorization.ToString());
+        if (principal is null)
+            return Ok(new { hasEvaluated = false, score = (short?)null });
+
+        var perfumeId = await db.Perfumes.AsNoTracking()
+            .Where(p => p.Slug == slug)
+            .Select(p => (int?)p.Id)
+            .FirstOrDefaultAsync(ct);
+
+        if (perfumeId is null) return NotFound(new { message = "Parfüm bulunamadı." });
+
+        var rating = await db.Ratings.AsNoTracking()
+            .FirstOrDefaultAsync(r => r.PerfumeId == perfumeId && r.UserId == principal.UserId, ct);
+
+        return Ok(new
+        {
+            hasEvaluated = rating != null,
+            score = rating?.Score
+        });
+    }
+
+    /// <summary>
     /// Kapsamlı parfüm değerlendirmesi (Puan, Mevsim, Kalıcılık, Silaj, Fiyat/Değer, Cinsiyet, Yorum).
-    /// Kısmi girişleri de kabul eder.
+    /// Kullanıcı başına parfüm başına yalnızca 1 kez değerlendirme yapılabilir.
     /// </summary>
     [HttpPost("perfumes/{slug}/review")]
     public async Task<IActionResult> SubmitReview(string slug, [FromBody] PerfumeReviewDto dto, CancellationToken ct)
@@ -300,32 +327,33 @@ public class CatalogController(
         var perfume = await db.Perfumes.FirstOrDefaultAsync(p => p.Slug == slug, ct);
         if (perfume == null) return NotFound(new { message = "Parfüm bulunamadı." });
 
-        // 1. Puan kaydı
-        if (dto.Score is >= 1 and <= 5)
+        // Kullanıcı aynı parfümü 2. kez değerlendiremez
+        var alreadyReviewed = await db.Ratings.AnyAsync(r => r.PerfumeId == perfume.Id && r.UserId == user.Id, ct);
+        if (alreadyReviewed)
         {
-            var rating = await db.Ratings.FirstOrDefaultAsync(r => r.PerfumeId == perfume.Id && r.UserId == user.Id, ct);
-            if (rating == null)
-            {
-                db.Ratings.Add(new Rating
-                {
-                    PerfumeId = perfume.Id,
-                    UserId = user.Id,
-                    Score = dto.Score.Value,
-                    CreatedAt = DateTimeOffset.UtcNow,
-                    UpdatedAt = DateTimeOffset.UtcNow
-                });
-            }
-            else
-            {
-                rating.Score = dto.Score.Value;
-                rating.UpdatedAt = DateTimeOffset.UtcNow;
-            }
-
-            await db.SaveChangesAsync(ct);
-            var ratings = await db.Ratings.Where(r => r.PerfumeId == perfume.Id).Select(r => r.Score).ToListAsync(ct);
-            perfume.UserRatingCount = ratings.Count;
-            perfume.UserAvgRating = ratings.Count > 0 ? (decimal)ratings.Average(r => r) : 0m;
+            return BadRequest(new { message = "Bu parfümü daha önce değerlendirdiniz. Bir parfüm yalnızca bir kez değerlendirilebilir." });
         }
+
+        // Genel puan zorunludur (1 - 5)
+        if (dto.Score is null or < 1 or > 5)
+        {
+            return BadRequest(new { message = "Lütfen 1 ile 5 arasında genel bir puan seçin." });
+        }
+
+        // 1. Puan kaydı
+        db.Ratings.Add(new Rating
+        {
+            PerfumeId = perfume.Id,
+            UserId = user.Id,
+            Score = dto.Score.Value,
+            CreatedAt = DateTimeOffset.UtcNow,
+            UpdatedAt = DateTimeOffset.UtcNow
+        });
+
+        await db.SaveChangesAsync(ct);
+        var ratings = await db.Ratings.Where(r => r.PerfumeId == perfume.Id).Select(r => r.Score).ToListAsync(ct);
+        perfume.UserRatingCount = ratings.Count;
+        perfume.UserAvgRating = ratings.Count > 0 ? (decimal)ratings.Average(r => r) : 0m;
 
         // 2. Yorum kaydı
         if (!string.IsNullOrWhiteSpace(dto.Comment))
@@ -431,6 +459,7 @@ public class CatalogController(
             .ToListAsync(ct);
 
         var now = DateTimeOffset.UtcNow;
+        short sortIndex = 0;
 
         foreach (var targetId in targets)
         {
@@ -442,13 +471,14 @@ public class CatalogController(
                     SourcePerfumeId = sourceId,
                     TargetPerfumeId = targetId,
                     Kind = kind,
-                    SortOrder = 0,
+                    SortOrder = sortIndex++,
                     CreatedAt = now,
                 });
             }
             else
             {
                 row.CreatedAt = now;
+                row.SortOrder = sortIndex++;
             }
         }
     }

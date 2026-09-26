@@ -45,6 +45,7 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
                 "Get Perfumes Random": '/api/perfumes?sort=random&pageSize=10',
                 "Get Perfume Detail": `/api/perfumes/${perfumeSlug}`,
                 "Get Perfume Comments": `/api/perfumes/${perfumeSlug}/comments`,
+                "Get Perfume My Evaluation": `/api/perfumes/${perfumeSlug}/my-evaluation`,
                 "Get Brands": '/api/brands',
                 "Get Random Brands": '/api/brands/random?count=10',
                 "Get Brand Detail": `/api/brands/${brandSlug}`,
@@ -53,6 +54,7 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
             },
             "POST": {
                 "Submit Perfume Comment": `/api/perfumes/${perfumeSlug}/comments`,
+                "Submit Perfume Review": `/api/perfumes/${perfumeSlug}/review`,
                 "Record Usage": `/api/perfumes/${perfumeSlug}/kullaniyorum`,
                 "Toggle Favorite": `/api/perfumes/${perfumeSlug}/favorite`,
             }
@@ -71,6 +73,13 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
             "GET": {
                 "Get Blogs": '/api/blogs',
                 "Get Blog Detail": `/api/blogs/${blogSlug}`,
+            }
+        },
+
+        // ── Sitemap ──
+        "Sitemap": {
+            "GET": {
+                "Get Sitemap": '/api/sitemap',
             }
         },
 

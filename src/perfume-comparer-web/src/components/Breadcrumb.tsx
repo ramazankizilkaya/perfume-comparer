@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Icon from "./Icon";
 import { API_BASE } from "@/lib/urls";
+import { DEFAULT_LOCALE } from "@/lib/i18n";
 
 export interface Crumb {
     level: string;
@@ -58,7 +59,9 @@ function getPrecedingParams(items: Crumb[], upToIndex: number): URLSearchParams 
 export default function Breadcrumb({ items }: { items: Crumb[] }) {
     const pathname = usePathname();
     const localeMatch = pathname?.match(/^\/([a-z]{2})(\/|$)/);
-    const prefix = localeMatch ? `/${localeMatch[1]}` : "";
+    // Ön ek bulunamazsa (sunucu tarafında iç yol görünebilir) varsayılan dil kullanılır;
+    // böylece breadcrumb linkleri hiçbir zaman yönlendirmeye uğramaz.
+    const prefix = localeMatch ? `/${localeMatch[1]}` : `/${DEFAULT_LOCALE}`;
     const searchBase = `${prefix}/detayli-arama`;
 
     const [meta, setMeta] = useState<Meta | null>(null);

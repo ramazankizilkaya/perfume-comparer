@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { mediaUrl } from "@/lib/urls";
+import { localeHref, mediaUrl } from "@/lib/urls";
 import Icon from "./Icon";
 import { useCompare } from "@/lib/stores";
 
@@ -13,7 +13,7 @@ export default function CompareBar() {
 
     if (!ready || items.length === 0) return null;
 
-    const href = `/karsilastir?items=${items.map((i) => i.slug).join(",")}`;
+    const href = localeHref(`/karsilastir?items=${items.map((i) => i.slug).join(",")}`);
     const canCompare = items.length >= 2;
 
     return (

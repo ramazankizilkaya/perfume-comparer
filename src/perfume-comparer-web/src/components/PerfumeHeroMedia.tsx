@@ -25,7 +25,8 @@ export default function PerfumeHeroMedia({ perfume }: { perfume: PerfumeRef }) {
                 onClick={() => setOpen(true)}
                 title="Fotoğrafı büyütmek için tıklayın"
             >
-                <img src={src} alt={imageAlt} />
+                {/* Sayfanın en büyük görseli (LCP): tarayıcı önce bunu indirsin. */}
+                <img src={src} alt={imageAlt} fetchPriority="high" />
                 <div className="media-actions" onClick={(e) => e.stopPropagation()}>
                     <CompareButton perfume={perfume} />
                     <FavButton perfume={perfume} />

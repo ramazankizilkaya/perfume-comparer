@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import RichTextRenderer from "@/components/RichTextRenderer";
-import { formatDate, mediaUrl } from "@/lib/urls";
+import { formatDate, mediaUrl, blogHref } from "@/lib/urls";
 
 interface DraftArticle {
     title: string;
@@ -42,7 +42,7 @@ export default function BlogPreviewPage() {
                 <p style={{ color: "var(--ink-muted)", marginTop: "0.5rem" }}>
                     Lütfen blog sayfasından bir makale yazıp &quot;Ayrı Sayfada Önizle&quot; butonuna tıklayın.
                 </p>
-                <Link href="/blog" className="btn btn-primary" style={{ marginTop: "1.5rem", display: "inline-block" }}>
+                <Link href={blogHref()} className="btn btn-primary" style={{ marginTop: "1.5rem", display: "inline-block" }}>
                     Blog Sayfasına Dön
                 </Link>
             </div>
@@ -63,7 +63,7 @@ export default function BlogPreviewPage() {
                     <button type="button" onClick={() => router.back()} className="btn btn-sm btn-outline">
                         ← Düzenlemeye Dön
                     </button>
-                    <Link href="/blog" className="btn btn-sm btn-ghost">
+                    <Link href={blogHref()} className="btn btn-sm btn-ghost">
                         Blog Listesi
                     </Link>
                 </div>
@@ -71,7 +71,7 @@ export default function BlogPreviewPage() {
 
             <PageBreadcrumb
                 trail={[
-                    { label: "Blog", href: "/blog" },
+                    { label: "Blog", href: blogHref() },
                     { label: "Önizleme" },
                     { label: draft.title || "Başlıksız Makale" },
                 ]}

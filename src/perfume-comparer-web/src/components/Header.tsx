@@ -6,7 +6,7 @@ import { useRouter, usePathname } from "next/navigation";
 import Icon from "./Icon";
 import GenderControl from "./GenderControl";
 import UserMenu from "./UserMenu";
-import { API_BASE, perfumeHref, brandHref, genderLabel, mediaUrl } from "@/lib/urls";
+import { API_BASE, perfumeHref, brandHref, blogHref, searchHref, genderLabel, mediaUrl } from "@/lib/urls";
 
 interface AutocompletePerfume {
     name: string;
@@ -205,7 +205,7 @@ export default function Header() {
                     <Link href="/tr/marka" className="nav-link">Markalar</Link>
                     <Link href="/tr/blog" className="nav-link">Rehber</Link>
                     <Link
-                        href="/"
+                        href="/tr"
                         className="icon-btn home-btn"
                         aria-label="Anasayfa"
                         data-tooltip="Anasayfa"
@@ -238,7 +238,7 @@ export default function Header() {
             {mobileNavOpen && (
                 <div className="mobile-nav-panel" role="dialog" aria-label="Mobil Menü">
                     <div className="shell mobile-nav-links">
-                        <Link href="/" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                        <Link href="/tr" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
                             <Icon name="home" size={16} />
                             <span>Anasayfa</span>
                         </Link>
@@ -371,7 +371,7 @@ export default function Header() {
                                                 <button
                                                     key={n.slug}
                                                     className="ac-pill-btn"
-                                                    onClick={() => goto(`/detayli-arama?note=${n.slug}`)}
+                                                    onClick={() => goto(searchHref({ note: n.slug }))}
                                                     title={`İçinde ${n.name} notası olan parfümleri listele`}
                                                 >
                                                     🌿 {n.name}
@@ -390,7 +390,7 @@ export default function Header() {
                                                 <button
                                                     key={a.slug}
                                                     className="ac-pill-btn ac-accord-pill"
-                                                    onClick={() => goto(`/detayli-arama?accord=${a.slug}`)}
+                                                    onClick={() => goto(searchHref({ accord: a.slug }))}
                                                     title={`${a.name} akoruna sahip parfümleri listele`}
                                                 >
                                                     ✨ {a.name}
@@ -405,7 +405,7 @@ export default function Header() {
                                     <div className="ac-section">
                                         <div className="ac-group-title">Rehber & Blog</div>
                                         {results.blogs.map((b) => (
-                                            <button key={b.slug} className="ac-item" onClick={() => goto(`/blog/${b.slug}`)}>
+                                            <button key={b.slug} className="ac-item" onClick={() => goto(blogHref(b.slug))}>
                                                 <span className="ac-name">📖 {b.name}</span>
                                             </button>
                                         ))}

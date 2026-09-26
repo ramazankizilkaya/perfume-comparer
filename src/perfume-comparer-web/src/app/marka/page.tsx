@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import BrandsFilterClient, { type BrandCard } from "@/components/BrandsFilterClient";
-import { API_BASE } from "@/lib/urls";
+import { API_BASE, brandHref } from "@/lib/urls";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-    title: "Tüm Parfüm Markaları A'dan Z'ye | Aura Compare",
+export const metadata: Metadata = pageMetadata({
+    title: "Tüm Parfüm Markaları A'dan Z'ye",
     description: "Dünyaca ünlü parfüm markaları, tasarımcı ve niş üreticiler ile tüm parfümleri A'dan Z'ye fihrist halinde inceleyin.",
-};
+    path: brandHref(),
+});
 
 export default async function BrandsPage() {
     let brands: BrandCard[] = [];

@@ -4,14 +4,15 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CompareBar from "@/components/CompareBar";
 import ScrollToTop from "@/components/ScrollToTop";
-
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://auracompare.com";
+import ToastContainer from "@/components/ToastContainer";
+import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE, LOGO_URL, absoluteUrl, jsonLd } from "@/lib/seo";
+import { localeHref, searchHref } from "@/lib/urls";
 
 export const metadata: Metadata = {
-    metadataBase: new URL(siteUrl),
+    metadataBase: new URL(SITE_URL),
     title: {
         default: "Aura Compare · Parfüm Karşılaştırma ve Koku Rehberi",
-        template: "%s | Aura Compare",
+        template: `%s | ${SITE_NAME}`,
     },
     description:
         "Aura Compare: Türkiye'nin kapsamlı parfüm karşılaştırma ve koku rehberi. Binlerce parfümün koku piramidini, kalıcılık ve yayılım puanlarını, kullanıcı yorumlarını tek sayfada inceleyin.",
@@ -25,26 +26,20 @@ export const metadata: Metadata = {
         "en iyi parfümler",
         "kalıcı parfümler",
     ],
-    authors: [{ name: "Aura Compare" }],
-    creator: "Aura Compare",
-    publisher: "Aura Compare",
-    alternates: {
-        canonical: "/",
-    },
+    authors: [{ name: SITE_NAME }],
+    creator: SITE_NAME,
+    publisher: SITE_NAME,
+    // Canonical burada tanımlanmaz: kök ayar tüm alt sayfalara miras kalır ve hepsini
+    // anasayfaya işaret ettirir. Her sayfa kendi canonical'ını pageMetadata() ile verir.
     openGraph: {
         type: "website",
         locale: "tr_TR",
-        url: siteUrl,
-        siteName: "Aura Compare",
-        title: "Aura Compare · Parfüm Karşılaştırma ve Koku Rehberi",
-        description:
-            "Binlerce parfümün koku piramidini, kalıcılık ve yayılım puanlarını, kullanıcı yorumlarını tek sayfada inceleyin.",
+        siteName: SITE_NAME,
+        images: [DEFAULT_OG_IMAGE],
     },
+    // Twitter başlığı/açıklaması burada verilmez; verilirse her sayfada anasayfanınki kalır.
     twitter: {
         card: "summary_large_image",
-        title: "Aura Compare · Parfüm Karşılaştırma ve Koku Rehberi",
-        description:
-            "Parfümleri notalarına, mevsimine ve kalıcılığına göre karşılaştırın.",
     },
     robots: {
         index: true,
@@ -67,16 +62,17 @@ export default function RootLayout({
     const jsonLdWebSite = {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        name: "Aura Compare",
+        name: SITE_NAME,
         alternateName: "AuraCompare",
-        url: siteUrl,
+        url: absoluteUrl(localeHref("/")),
+        inLanguage: "tr-TR",
         description:
             "Türkiye'nin parfüm karşılaştırma, koku notaları ve kullanıcı değerlendirme portalı.",
         potentialAction: {
             "@type": "SearchAction",
             target: {
                 "@type": "EntryPoint",
-                urlTemplate: `${siteUrl}/ara?q={search_term_string}`,
+                urlTemplate: `${absoluteUrl(searchHref())}?q={search_term_string}`,
             },
             "query-input": "required name=search_term_string",
         },
@@ -85,51 +81,9 @@ export default function RootLayout({
     const jsonLdOrg = {
         "@context": "https://schema.org",
         "@type": "Organization",
-        name: "Aura Compare",
-        url: siteUrl,
-        logo: `${siteUrl}/icon.png`,
-    };
-
-    const jsonLdSiteLinks = {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        itemListElement: [
-            {
-                "@type": "SiteNavigationElement",
-                position: 1,
-                name: "Parfüm Ara",
-                description: "Binlerce parfümü notalarına, markasına ve koku ailesine göre filtreleyin.",
-                url: `${siteUrl}/ara`,
-            },
-            {
-                "@type": "SiteNavigationElement",
-                position: 2,
-                name: "Parfüm Karşılaştır",
-                description: "İki veya daha fazla parfümün notalarını, kalıcılık ve yayılım puanlarını yan yana kıyaslayın.",
-                url: `${siteUrl}/karsilastir`,
-            },
-            {
-                "@type": "SiteNavigationElement",
-                position: 3,
-                name: "Markalar",
-                description: "Dior, Chanel, Tom Ford gibi yüzlerce parfüm markasının tüm koleksiyonlarını keşfedin.",
-                url: `${siteUrl}/marka`,
-            },
-            {
-                "@type": "SiteNavigationElement",
-                position: 4,
-                name: "Popüler Parfümler",
-                description: "En çok oy alan ve kullanıcıların en çok beğendiği popüler parfümler listesi.",
-                url: `${siteUrl}/ara?sort=views`,
-            },
-            {
-                "@type": "SiteNavigationElement",
-                position: 5,
-                name: "Parfüm Rehberi & Blog",
-                description: "Koku piramidi rehberi, mevsimsel parfüm önerileri ve editör yazıları.",
-                url: `${siteUrl}/blog`,
-            },
-        ],
+        name: SITE_NAME,
+        url: absoluteUrl(localeHref("/")),
+        logo: LOGO_URL,
     };
 
     return (
@@ -137,15 +91,11 @@ export default function RootLayout({
             <head>
                 <script
                     type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebSite) }}
+                    dangerouslySetInnerHTML={{ __html: jsonLd(jsonLdWebSite) }}
                 />
                 <script
                     type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdOrg) }}
-                />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSiteLinks) }}
+                    dangerouslySetInnerHTML={{ __html: jsonLd(jsonLdOrg) }}
                 />
             </head>
             <body>
@@ -156,6 +106,7 @@ export default function RootLayout({
                 </main>
                 <Footer />
                 <CompareBar />
+                <ToastContainer />
             </body>
         </html>
     );

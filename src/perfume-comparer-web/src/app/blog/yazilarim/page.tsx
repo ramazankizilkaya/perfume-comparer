@@ -5,7 +5,7 @@ import Link from "next/link";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import LoginPrompt from "@/components/LoginPrompt";
 import Icon from "@/components/Icon";
-import { API_BASE, formatDate } from "@/lib/urls";
+import { API_BASE, formatDate, blogHref } from "@/lib/urls";
 import { useAuth } from "@/lib/stores";
 
 interface MyBlogPost {
@@ -63,7 +63,7 @@ export default function MyBlogsPage() {
 
     return (
         <>
-            <PageBreadcrumb trail={[{ label: "Blog", href: "/blog" }, { label: "Yazılarım" }]} />
+            <PageBreadcrumb trail={[{ label: "Blog", href: blogHref() }, { label: "Yazılarım" }]} />
 
             <div className="section-head">
                 <div>
@@ -72,7 +72,7 @@ export default function MyBlogsPage() {
                     <p className="section-desc">Toplulukla paylaştığınız makaleler ve onay durumları.</p>
                 </div>
                 <div style={{ display: "flex", gap: "0.5rem" }}>
-                    <Link href="/blog" className="btn btn-primary btn-sm">
+                    <Link href={blogHref()} className="btn btn-primary btn-sm">
                         <Icon name="plus" size={14} /> Yeni Yazı Yaz
                     </Link>
                 </div>
@@ -111,7 +111,7 @@ export default function MyBlogsPage() {
                                         </div>
                                         <h3 style={{ margin: "0 0 0.35rem 0", fontSize: "1.05rem" }}>
                                             {b.status === "Published" ? (
-                                                <Link href={`/blog/${b.slug}`} style={{ color: "var(--ink)", textDecoration: "none" }}>
+                                                <Link href={blogHref(b.slug)} style={{ color: "var(--ink)", textDecoration: "none" }}>
                                                     {b.title}
                                                 </Link>
                                             ) : (
@@ -124,7 +124,7 @@ export default function MyBlogsPage() {
                                     </div>
 
                                     {b.status === "Published" && (
-                                        <Link href={`/blog/${b.slug}`} className="btn btn-outline btn-sm">
+                                        <Link href={blogHref(b.slug)} className="btn btn-outline btn-sm">
                                             Yazıyı Gör <Icon name="arrow-right" size={13} />
                                         </Link>
                                     )}
@@ -135,7 +135,7 @@ export default function MyBlogsPage() {
                 ) : (
                     <div className="panel center" style={{ padding: "3rem 1.5rem" }}>
                         <p className="muted" style={{ marginBottom: "1rem" }}>Henüz yayınlanmış veya onaya gönderilmiş bir yazınız bulunmuyor.</p>
-                        <Link href="/blog" className="btn btn-primary">
+                        <Link href={blogHref()} className="btn btn-primary">
                             İlk Yazınızı Gönderin
                         </Link>
                     </div>

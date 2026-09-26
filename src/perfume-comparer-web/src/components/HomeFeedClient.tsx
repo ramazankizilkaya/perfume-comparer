@@ -6,7 +6,7 @@ import HorizontalSlider from "./HorizontalSlider";
 import ComparisonCard, { type ComparisonPairData } from "./ComparisonCard";
 import BlogSlider, { type BlogPost } from "./BlogSlider";
 import BrandCard, { type BrandCardData } from "./BrandCard";
-import { API_BASE } from "@/lib/urls";
+import { API_BASE, brandHref, localeHref, searchHref } from "@/lib/urls";
 import { useGenderPref } from "@/lib/stores";
 import Link from "next/link";
 import Icon from "./Icon";
@@ -146,7 +146,7 @@ export default function HomeFeedClient({
             {(isFiltering || data.explorePerfumes.length > 0) && (
                 <HorizontalSlider
                     title="Keşfet"
-                    viewAllHref={`/detayli-arama?sort=random${gParam}`}
+                    viewAllHref={`${searchHref({ sort: "random" })}${gParam}`}
                 >
                     {isFiltering ? (
                         <SliderSkeletons />
@@ -164,7 +164,7 @@ export default function HomeFeedClient({
             {(isFiltering || data.popularPerfumes.length > 0) && (
                 <HorizontalSlider
                     title="Popüler Parfümler"
-                    viewAllHref={`/detayli-arama?sort=views${gParam}`}
+                    viewAllHref={`${searchHref({ sort: "views" })}${gParam}`}
                 >
                     {isFiltering ? (
                         <SliderSkeletons />
@@ -182,7 +182,7 @@ export default function HomeFeedClient({
             {data.comparisons.length > 0 && (
                 <HorizontalSlider
                     title="Popüler Karşılaştırmalar"
-                    viewAllHref="/karsilastir"
+                    viewAllHref={localeHref("/karsilastir")}
                 >
                     {data.comparisons.map((c, idx) => (
                         <div key={`${c.perfume1.slug}-${c.perfume2.slug}-${idx}`} className="slider-item slider-item-compare">
@@ -196,7 +196,7 @@ export default function HomeFeedClient({
             {data.randomBrands.length > 0 && (
                 <HorizontalSlider
                     title="Markalar"
-                    viewAllHref="/marka"
+                    viewAllHref={brandHref()}
                 >
                     {data.randomBrands.map((b) => (
                         <div key={b.slug} className="slider-item slider-item-brand">
@@ -210,7 +210,7 @@ export default function HomeFeedClient({
             {(isFiltering || data.newestPerfumes.length > 0) && (
                 <HorizontalSlider
                     title="Yeni Gelenler"
-                    viewAllHref={`/detayli-arama?sort=newest${gParam}`}
+                    viewAllHref={`${searchHref({ sort: "newest" })}${gParam}`}
                 >
                     {isFiltering ? (
                         <SliderSkeletons />
@@ -228,7 +228,7 @@ export default function HomeFeedClient({
             {(isFiltering || data.mostCommentedPerfumes.length > 0) && (
                 <HorizontalSlider
                     title="En Çok Yorum Alanlar"
-                    viewAllHref={`/detayli-arama?sort=comments${gParam}`}
+                    viewAllHref={`${searchHref({ sort: "comments" })}${gParam}`}
                 >
                     {isFiltering ? (
                         <SliderSkeletons />
@@ -246,7 +246,7 @@ export default function HomeFeedClient({
             {(isFiltering || data.mostRatedPerfumes.length > 0) && (
                 <HorizontalSlider
                     title="En Çok Değerlendirilenler"
-                    viewAllHref={`/detayli-arama?sort=votes${gParam}`}
+                    viewAllHref={`${searchHref({ sort: "votes" })}${gParam}`}
                 >
                     {isFiltering ? (
                         <SliderSkeletons />
@@ -264,7 +264,7 @@ export default function HomeFeedClient({
             {(isFiltering || data.topRatedPerfumes.length > 0) && (
                 <HorizontalSlider
                     title="En Yüksek Puanlılar"
-                    viewAllHref={`/detayli-arama?sort=rating${gParam}`}
+                    viewAllHref={`${searchHref({ sort: "rating" })}${gParam}`}
                 >
                     {isFiltering ? (
                         <SliderSkeletons />

@@ -4,6 +4,7 @@ import { useState, useRef } from "react";
 import Icon from "./Icon";
 import { API_BASE } from "@/lib/urls";
 import { useAuth } from "@/lib/stores";
+import { toast } from "@/lib/toast";
 import Link from "next/link";
 import PerfumePicker, { type PickedPerfume } from "./PerfumePicker";
 
@@ -14,6 +15,7 @@ interface PerfumeReviewModalProps {
     onClose: () => void;
     onReviewSubmitted?: () => void;
     onPhotoUploaded?: (photo: { id: number; imageUrl: string; authorName: string; createdAt: string }) => void;
+    isAlreadyEvaluated?: boolean;
 }
 
 const LONGEVITY_OPTS = [
@@ -61,8 +63,9 @@ export default function PerfumeReviewModal({
     onClose,
     onReviewSubmitted,
     onPhotoUploaded,
+    isAlreadyEvaluated = false,
 }: PerfumeReviewModalProps) {
-    const { token, user } = useAuth();
+    const { token } = useAuth();
     const [score, setScore] = useState<number | null>(null);
     const [hoverScore, setHoverScore] = useState<number | null>(null);
     const [longevity, setLongevity] = useState<string>("");
@@ -77,14 +80,10 @@ export default function PerfumeReviewModal({
     // Photo upload states
     const [selectedPhoto, setSelectedPhoto] = useState<File | null>(null);
     const [photoPreview, setPhotoPreview] = useState<string | null>(null);
-    const [uploadingPhoto, setUploadingPhoto] = useState(false);
-    const [photoError, setPhotoError] = useState<string | null>(null);
-    const [photoSuccess, setPhotoSuccess] = useState<string | null>(null);
     const fileInputRef = useRef<HTMLInputElement>(null);
 
     const [submitting, setSubmitting] = useState(false);
     const [error, setError] = useState<string | null>(null);
-    const [successMessage, setSuccessMessage] = useState<string | null>(null);
 
     if (!isOpen) return null;
 
@@ -95,8 +94,6 @@ export default function PerfumeReviewModal({
     };
 
     const handlePhotoSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setPhotoError(null);
-        setPhotoSuccess(null);
         if (e.target.files && e.target.files[0]) {
             const file = e.target.files[0];
             setSelectedPhoto(file);
@@ -111,51 +108,48 @@ export default function PerfumeReviewModal({
     const handleSubmitReview = async (e: React.FormEvent) => {
         e.preventDefault();
         setError(null);
+
+        if (isAlreadyEvaluated) {
+            setError("Bu parfümü daha önce değerlendirdiniz. Bir parfüm yalnızca bir kez değerlendirilebilir.");
+            return;
+        }
+
+        if (score === null || score < 1 || score > 5) {
+            setError("Lütfen parfüm için genel puanınızı (1-5 yıldız) seçin.");
+            return;
+        }
+
         setSubmitting(true);
 
         try {
             // 1. Submit review / voting criteria
-            const hasCriteria =
-                score !== null ||
-                longevity ||
-                sillage ||
-                priceValue ||
-                genderOpinion ||
-                seasons.length > 0 ||
-                remindsOf.length > 0 ||
-                similarTo.length > 0 ||
-                comment.trim().length > 0;
+            const res = await fetch(`${API_BASE}/api/perfumes/${slug}/review`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-Requested-With": "XMLHttpRequest",
+                    Authorization: `Bearer ${token}`,
+                },
+                body: JSON.stringify({
+                    score,
+                    longevity: longevity || null,
+                    sillage: sillage || null,
+                    priceValue: priceValue || null,
+                    genderOpinion: genderOpinion || null,
+                    seasons: seasons.length > 0 ? seasons : null,
+                    comment: comment.trim() || null,
+                    remindsOfPerfumes: remindsOf.length > 0 ? remindsOf.map((p) => p.slug) : null,
+                    similarPerfumes: similarTo.length > 0 ? similarTo.map((p) => p.slug) : null,
+                }),
+            });
 
-            if (hasCriteria) {
-                const res = await fetch(`${API_BASE}/api/perfumes/${slug}/review`, {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                        "X-Requested-With": "XMLHttpRequest",
-                        Authorization: `Bearer ${token}`,
-                    },
-                    body: JSON.stringify({
-                        score,
-                        longevity: longevity || null,
-                        sillage: sillage || null,
-                        priceValue: priceValue || null,
-                        genderOpinion: genderOpinion || null,
-                        seasons: seasons.length > 0 ? seasons : null,
-                        comment: comment.trim() || null,
-                        remindsOfPerfumes: remindsOf.length > 0 ? remindsOf.map((p) => p.slug) : null,
-                        similarPerfumes: similarTo.length > 0 ? similarTo.map((p) => p.slug) : null,
-                    }),
-                });
-
-                if (!res.ok) {
-                    const errData = await res.json().catch(() => ({}));
-                    throw new Error(errData.message || "Değerlendirme kaydedilemedi.");
-                }
+            if (!res.ok) {
+                const errData = await res.json().catch(() => ({}));
+                throw new Error(errData.message || "Değerlendirme kaydedilemedi.");
             }
 
             // 2. Submit photo if selected
             if (selectedPhoto) {
-                setUploadingPhoto(true);
                 const formData = new FormData();
                 formData.append("photo", selectedPhoto);
 
@@ -179,17 +173,14 @@ export default function PerfumeReviewModal({
                 }
             }
 
-            setSuccessMessage("Değerlendirmeniz başarıyla kaydedildi!");
+            toast.success("Değerlendirmeniz başarıyla kaydedildi! Teşekkür ederiz.");
             if (onReviewSubmitted) onReviewSubmitted();
-
-            setTimeout(() => {
-                onClose();
-            }, 1200);
-        } catch (err: any) {
-            setError(err.message || "Bir hata oluştu.");
+            onClose();
+        } catch (err: unknown) {
+            const msg = err instanceof Error ? err.message : "Bir hata oluştu.";
+            setError(msg);
         } finally {
             setSubmitting(false);
-            setUploadingPhoto(false);
         }
     };
 
@@ -212,15 +203,19 @@ export default function PerfumeReviewModal({
                             <Icon name="user" size={32} />
                             <h3>Değerlendirme Yapmak İçin Giriş Yapın</h3>
                             <p>Parfüm puanı vermek, kalıcılık/silaj oylamak ve fotoğraf yüklemek için hesabınıza giriş yapmış olmanız gerekmektedir.</p>
-                            <Link href="/giris" className="btn btn-primary" style={{ marginBlockStart: "1rem" }}>
+                            <Link href="/tr/giris" className="btn btn-primary" style={{ marginBlockStart: "1rem" }}>
                                 Giriş Yap veya Kayıt Ol
                             </Link>
                         </div>
                     </div>
                 ) : (
                     <form className="review-modal-body" onSubmit={handleSubmitReview}>
+                        {isAlreadyEvaluated && (
+                            <div className="alert alert-info">
+                                Bu parfümü daha önce değerlendirdiniz. Bir parfüm yalnızca bir kez değerlendirilebilir.
+                            </div>
+                        )}
                         {error && <div className="alert alert-error">{error}</div>}
-                        {successMessage && <div className="alert alert-success">{successMessage}</div>}
 
                         {/* 1. Genel Puan */}
                         <div className="review-section">
@@ -412,7 +407,7 @@ export default function PerfumeReviewModal({
                             <button type="button" className="btn btn-ghost" onClick={onClose} disabled={submitting}>
                                 Vazgeç
                             </button>
-                            <button type="submit" className="btn btn-primary" disabled={submitting}>
+                            <button type="submit" className="btn btn-primary" disabled={submitting || isAlreadyEvaluated}>
                                 {submitting ? "Kaydediliyor…" : "Değerlendirmeyi Kaydet"}
                             </button>
                         </div>

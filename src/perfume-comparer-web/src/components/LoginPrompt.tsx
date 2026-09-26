@@ -23,7 +23,7 @@ export default function LoginPrompt({
     if (!user) {
         return (
             <p className="login-prompt">
-                <Link href={`/giris?next=${encodeURIComponent(pathname)}`} className="link-more">
+                <Link href={`/tr/giris?next=${encodeURIComponent(pathname)}`} className="link-more">
                     {label}
                 </Link>
             </p>

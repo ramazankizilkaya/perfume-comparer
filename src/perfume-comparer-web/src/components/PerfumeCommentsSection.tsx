@@ -7,6 +7,7 @@ import Icon from "./Icon";
 import Stars, { StarInput } from "./Stars";
 import { API_BASE, formatDate } from "@/lib/urls";
 import { useAuth } from "@/lib/stores";
+import { toast } from "@/lib/toast";
 
 export interface CommentData {
     id: number;
@@ -83,14 +84,19 @@ export default function PerfumeCommentsSection({
             });
             if (res.ok) {
                 setCommentStatus("Yorumunuz eklendi.");
+                toast.success("Yorumunuz başarıyla eklendi!");
                 setCommentText("");
                 const fresh = await fetch(`${API_BASE}/api/perfumes/${slug}/comments`);
                 if (fresh.ok) setComments(await fresh.json());
             } else {
-                setCommentStatus("Yorum eklenemedi.");
+                const errData = await res.json().catch(() => ({}));
+                const msg = errData.message || "Yorum eklenemedi.";
+                setCommentStatus(msg);
+                toast.error(msg);
             }
         } catch {
             setCommentStatus("Bağlantı hatası.");
+            toast.error("Bağlantı hatası.");
         } finally {
             setSending(false);
         }
@@ -108,7 +114,7 @@ export default function PerfumeCommentsSection({
             <div className="comment-form-wrap">
                 {!user && (
                     <p className="login-prompt">
-                        <Link href={`/giris?next=${encodeURIComponent(pathname)}`} className="link-more">
+                        <Link href={`/tr/giris?next=${encodeURIComponent(pathname)}`} className="link-more">
                             Yorum yapmak ve puan vermek için giriş yapın
                         </Link>
                     </p>

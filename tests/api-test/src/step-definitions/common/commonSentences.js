@@ -30,6 +30,14 @@ Given('brand slug is {string}', function (slug) {
     ch.Logger(`✓ Set brandSlug as "${slug}"`);
 });
 
+Then('the last segment of {string} is used as perfume slug', function (varName) {
+    const path = this.getVar(varName);
+    if (typeof path !== 'string' || !path) throw new Error(`Variable "${varName}" is not a path: ${path}`);
+    const slug = path.split('/').filter(Boolean).pop();
+    this.setVar('perfumeSlug', slug);
+    ch.Logger(`✓ Set perfumeSlug as "${slug}" from ${varName}`);
+});
+
 Given('blog slug is {string}', function (slug) {
     this.setVar('blogSlug', slug);
     ch.Logger(`✓ Set blogSlug as "${slug}"`);

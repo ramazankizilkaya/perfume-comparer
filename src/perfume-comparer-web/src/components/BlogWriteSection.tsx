@@ -31,7 +31,7 @@ export default function BlogWriteSection() {
                     authorName: user?.name || user?.email || "Siz (Yazar)",
                 })
             );
-            window.open("/blog/onizleme", "_blank");
+            window.open("/tr/blog/onizleme", "_blank");
         } catch (e) {
             console.error("Önizleme kaydedilemedi:", e);
         }
@@ -115,7 +115,7 @@ export default function BlogWriteSection() {
                                 className="input"
                                 value={coverImageUrl}
                                 onChange={(e) => setCoverImageUrl(e.target.value)}
-                                placeholder="Örn: https://images.unsplash.com/... veya /blog_backgrounds/pictures_1_3.webp"
+                                placeholder="Örn: https://images.unsplash.com/... veya /blog_backgrounds/parfum-lugati.webp"
                             />
                         </div>
 

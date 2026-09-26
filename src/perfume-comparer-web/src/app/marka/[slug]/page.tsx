@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { notFound } from "next/navigation";
 import Icon from "@/components/Icon";
 import Breadcrumb from "@/components/Breadcrumb";
 import BrandPerfumesClient, { type BrandDetail } from "@/components/BrandPerfumesClient";
 import type { PerfumeCardData } from "@/components/PerfumeCard";
-import { API_BASE, mediaUrl } from "@/lib/urls";
+import { API_BASE, mediaUrl, brandHref, localeHref, perfumeHref } from "@/lib/urls";
+import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
 
 interface PageProps {
     params: Promise<{ slug: string }>;
@@ -12,75 +13,95 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { slug } = await params;
-    if (!slug) return { title: "Marka | Aura Compare" };
+    if (!slug) notFound();
 
-    try {
-        const res = await fetch(`${API_BASE}/api/brands/${slug}`, { next: { revalidate: 60 } });
-        if (!res.ok) return { title: "Marka Bulunamadı | Aura Compare" };
-        const brand: BrandDetail = await res.json();
+    const res = await fetch(`${API_BASE}/api/brands/${slug}`, { next: { revalidate: 60 } });
+    if (res.status === 404) notFound();
+    if (!res.ok) throw new Error(`API hatası: ${res.status}`);
+    const brand: BrandDetail = await res.json();
 
-        const title = `${brand.name} Parfümleri ve Fiyat Karşılaştırması | Aura Compare`;
-        const descParts: string[] = [];
-        if (brand.country) descParts.push(`${brand.country} menşeili`);
-        if (brand.perfumeCount) descParts.push(`${brand.perfumeCount} parfüm`);
-        if (brand.firstYear && brand.lastYear) descParts.push(`${brand.firstYear} - ${brand.lastYear}`);
-        const description = `${brand.name} parfümleri (${descParts.join(", ")}). En popüler kokuları, koku piramidi ve kullanıcı yorumları.`;
+    const descParts: string[] = [];
+    if (brand.country) descParts.push(`${brand.country} menşeili`);
+    if (brand.perfumeCount) descParts.push(`${brand.perfumeCount} parfüm`);
+    if (brand.firstYear && brand.lastYear) descParts.push(`${brand.firstYear} - ${brand.lastYear}`);
+    const summary = descParts.length > 0 ? ` (${descParts.join(", ")})` : "";
 
-        return {
-            title,
-            description,
-            openGraph: {
-                title,
-                description,
-                images: brand.logoUrl ? [{ url: mediaUrl(brand.logoUrl)! }] : [],
-            },
-        };
-    } catch {
-        return { title: "Marka | Aura Compare" };
-    }
+    return pageMetadata({
+        title: `${brand.name} Parfümleri ve Fiyat Karşılaştırması`,
+        description: `${brand.name} parfümleri${summary}. En popüler kokuları, koku piramidi ve kullanıcı yorumları.`,
+        path: brandHref(brand.slug),
+        images: [mediaUrl(brand.logoUrl)],
+    });
 }
 
 export default async function BrandPage({ params }: PageProps) {
     const { slug } = await params;
 
-    let brand: BrandDetail | null = null;
+    const brandRes = await fetch(`${API_BASE}/api/brands/${slug}`, { next: { revalidate: 60 } });
+    // Marka yoksa 404; API hatasında 500 (geçici kesinti "sayfa silindi" sayılmasın).
+    if (brandRes.status === 404) notFound();
+    if (!brandRes.ok) throw new Error(`Marka alınamadı: ${brandRes.status}`);
+    const brand: BrandDetail = await brandRes.json();
+
     let initialPerfumes: PerfumeCardData[] = [];
     let initialTotal = 0;
 
     try {
-        const [brandRes, perfumesRes] = await Promise.all([
-            fetch(`${API_BASE}/api/brands/${slug}`, { next: { revalidate: 60 } }),
-            fetch(`${API_BASE}/api/perfumes?brand=${slug}&page=1&pageSize=24`, { next: { revalidate: 60 } }),
-        ]);
-
-        if (brandRes.ok) brand = await brandRes.json();
+        const perfumesRes = await fetch(`${API_BASE}/api/perfumes?brand=${slug}&page=1&pageSize=24`, {
+            next: { revalidate: 60 },
+        });
         if (perfumesRes.ok) {
             const data = await perfumesRes.json();
             initialPerfumes = data.items ?? [];
             initialTotal = data.totalCount ?? 0;
         }
     } catch {
-        brand = null;
+        /* liste boş gösterilir */
     }
 
-    if (!brand) {
-        return (
-            <div className="state">
-                <h2>Marka bulunamadı</h2>
-                <p>Aradığınız marka sistemde yok.</p>
-                <Link href="/marka" className="btn btn-ghost" style={{ marginTop: "1rem" }}>
-                    Tüm markalar
-                </Link>
-            </div>
-        );
-    }
+    const brandUrl = absoluteUrl(brandHref(brand.slug));
+    const jsonLdBrand = {
+        "@context": "https://schema.org",
+        "@type": "Brand",
+        name: brand.name,
+        url: brandUrl,
+        ...(brand.logoUrl ? { logo: mediaUrl(brand.logoUrl) } : {}),
+        ...(brand.description ? { description: brand.description } : {}),
+        ...(brand.websiteUrl ? { sameAs: [brand.websiteUrl] } : {}),
+    };
+    const jsonLdList = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        name: `${brand.name} parfümleri`,
+        numberOfItems: initialTotal,
+        itemListElement: initialPerfumes.map((p, idx) => ({
+            "@type": "ListItem",
+            position: idx + 1,
+            name: p.name.toLowerCase().includes(brand.name.toLowerCase()) ? p.name : `${brand.name} ${p.name}`,
+            url: absoluteUrl(perfumeHref(p.path, p.slug)),
+        })),
+    };
+    const jsonLdBreadcrumb = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Anasayfa", item: absoluteUrl(localeHref("/")) },
+            { "@type": "ListItem", position: 2, name: "Markalar", item: absoluteUrl(brandHref()) },
+            { "@type": "ListItem", position: 3, name: brand.name, item: brandUrl },
+        ],
+    };
 
     return (
         <>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(jsonLdBrand) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(jsonLdBreadcrumb) }} />
+            {initialPerfumes.length > 0 && (
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(jsonLdList) }} />
+            )}
             <Breadcrumb
                 items={[
                     { level: "home", label: "Anasayfa", slug: "" },
-                    { level: "page", label: "Markalar", slug: "", href: "/marka" },
+                    { level: "page", label: "Markalar", slug: "", href: brandHref() },
                     { level: "page", label: brand.name, slug: "" },
                 ]}
             />
