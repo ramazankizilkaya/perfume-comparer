@@ -1,24 +1,41 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import Icon from "@/components/Icon";
 import Breadcrumb from "@/components/Breadcrumb";
 import BrandPerfumesClient, { type BrandDetail } from "@/components/BrandPerfumesClient";
+import BrandPagination from "@/components/BrandPagination";
 import type { PerfumeCardData } from "@/components/PerfumeCard";
 import { API_BASE, mediaUrl, brandHref, localeHref, perfumeHref } from "@/lib/urls";
 import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
 
 interface PageProps {
     params: Promise<{ slug: string }>;
+    searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: PageProps): Promise<Metadata> {
     const { slug } = await params;
     if (!slug) notFound();
+
+    const sp = await searchParams;
+    const rawSayfa = typeof sp.sayfa === "string" ? sp.sayfa : undefined;
+
+    let pageNum = 1;
+    if (rawSayfa !== undefined) {
+        if (!/^\d+$/.test(rawSayfa)) notFound();
+        pageNum = parseInt(rawSayfa, 10);
+        if (pageNum <= 0) notFound();
+    }
 
     const res = await fetch(`${API_BASE}/api/brands/${slug}`, { next: { revalidate: 60 } });
     if (res.status === 404) notFound();
     if (!res.ok) throw new Error(`API hatası: ${res.status}`);
     const brand: BrandDetail = await res.json();
+
+    const totalPages = Math.max(1, Math.ceil(brand.perfumeCount / 24));
+    if (pageNum > totalPages) {
+        notFound();
+    }
 
     const descParts: string[] = [];
     if (brand.country) descParts.push(`${brand.country} menşeili`);
@@ -26,16 +43,39 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     if (brand.firstYear && brand.lastYear) descParts.push(`${brand.firstYear} - ${brand.lastYear}`);
     const summary = descParts.length > 0 ? ` (${descParts.join(", ")})` : "";
 
+    const canonicalPath = pageNum > 1 ? `${brandHref(brand.slug)}?sayfa=${pageNum}` : brandHref(brand.slug);
+    const title =
+        pageNum > 1
+            ? `${brand.name} Parfümleri - Sayfa ${pageNum}`
+            : `${brand.name} Parfümleri ve Fiyat Karşılaştırması`;
+
     return pageMetadata({
-        title: `${brand.name} Parfümleri ve Fiyat Karşılaştırması`,
-        description: `${brand.name} parfümleri${summary}. En popüler kokuları, koku piramidi ve kullanıcı yorumları.`,
-        path: brandHref(brand.slug),
+        title,
+        description: `${brand.name} parfümleri${summary}. En popüler kokuları, koku piramidi ve kullanıcı yorumları.${
+            pageNum > 1 ? ` (Sayfa ${pageNum})` : ""
+        }`,
+        path: canonicalPath,
         images: [mediaUrl(brand.logoUrl)],
     });
 }
 
-export default async function BrandPage({ params }: PageProps) {
+export default async function BrandPage({ params, searchParams }: PageProps) {
     const { slug } = await params;
+    const sp = await searchParams;
+    const rawSayfa = typeof sp.sayfa === "string" ? sp.sayfa : undefined;
+
+    let pageNum = 1;
+    if (rawSayfa !== undefined) {
+        if (!/^\d+$/.test(rawSayfa)) notFound();
+        pageNum = parseInt(rawSayfa, 10);
+        if (pageNum <= 0) notFound();
+
+        // Her sayfanın tek bir adresi olur: ?sayfa=1 parametresiz adrese, ?sayfa=02 gibi
+        // standart dışı yazımlar ?sayfa=2 adresine 308 ile yönlenir.
+        if (pageNum === 1 || rawSayfa !== String(pageNum)) {
+            permanentRedirect(pageNum === 1 ? brandHref(slug) : `${brandHref(slug)}?sayfa=${pageNum}`);
+        }
+    }
 
     const brandRes = await fetch(`${API_BASE}/api/brands/${slug}`, { next: { revalidate: 60 } });
     // Marka yoksa 404; API hatasında 500 (geçici kesinti "sayfa silindi" sayılmasın).
@@ -47,7 +87,7 @@ export default async function BrandPage({ params }: PageProps) {
     let initialTotal = 0;
 
     try {
-        const perfumesRes = await fetch(`${API_BASE}/api/perfumes?brand=${slug}&page=1&pageSize=24`, {
+        const perfumesRes = await fetch(`${API_BASE}/api/perfumes?brand=${slug}&page=${pageNum}&pageSize=24`, {
             next: { revalidate: 60 },
         });
         if (perfumesRes.ok) {
@@ -57,6 +97,12 @@ export default async function BrandPage({ params }: PageProps) {
         }
     } catch {
         /* liste boş gösterilir */
+    }
+
+    const totalPages = Math.max(1, Math.ceil(initialTotal / 24));
+    // Aralık dışı sayfa 404 döner
+    if (initialTotal > 0 && pageNum > totalPages) {
+        notFound();
     }
 
     const brandUrl = absoluteUrl(brandHref(brand.slug));
@@ -69,18 +115,21 @@ export default async function BrandPage({ params }: PageProps) {
         ...(brand.description ? { description: brand.description } : {}),
         ...(brand.websiteUrl ? { sameAs: [brand.websiteUrl] } : {}),
     };
+
+    const offset = (pageNum - 1) * 24;
     const jsonLdList = {
         "@context": "https://schema.org",
         "@type": "ItemList",
-        name: `${brand.name} parfümleri`,
+        name: `${brand.name} parfümleri${pageNum > 1 ? ` (Sayfa ${pageNum})` : ""}`,
         numberOfItems: initialTotal,
         itemListElement: initialPerfumes.map((p, idx) => ({
             "@type": "ListItem",
-            position: idx + 1,
+            position: offset + idx + 1,
             name: p.name.toLowerCase().includes(brand.name.toLowerCase()) ? p.name : `${brand.name} ${p.name}`,
             url: absoluteUrl(perfumeHref(p.path, p.slug)),
         })),
     };
+
     const jsonLdBreadcrumb = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -90,6 +139,14 @@ export default async function BrandPage({ params }: PageProps) {
             { "@type": "ListItem", position: 3, name: brand.name, item: brandUrl },
         ],
     };
+
+    const paginationNode = (
+        <BrandPagination
+            brandSlug={brand.slug}
+            currentPage={pageNum}
+            totalPages={totalPages}
+        />
+    );
 
     return (
         <>
@@ -148,6 +205,8 @@ export default async function BrandPage({ params }: PageProps) {
                 brand={brand}
                 initialPerfumes={initialPerfumes}
                 initialTotal={initialTotal}
+                currentPage={pageNum}
+                pagination={paginationNode}
             />
         </>
     );

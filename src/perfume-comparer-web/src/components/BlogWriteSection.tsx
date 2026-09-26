@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Icon from "./Icon";
 import LoginPrompt from "./LoginPrompt";
 import RichTextEditor from "./RichTextEditor";
-import { API_BASE } from "@/lib/urls";
+import { API_BASE, blogPreviewHref } from "@/lib/urls";
 import { useAuth } from "@/lib/stores";
 
 export default function BlogWriteSection() {
@@ -31,7 +31,7 @@ export default function BlogWriteSection() {
                     authorName: user?.name || user?.email || "Siz (Yazar)",
                 })
             );
-            window.open("/tr/blog/onizleme", "_blank");
+            window.open(blogPreviewHref(), "_blank");
         } catch (e) {
             console.error("Önizleme kaydedilemedi:", e);
         }

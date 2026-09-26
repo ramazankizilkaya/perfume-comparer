@@ -6,7 +6,7 @@ import { useRouter, usePathname } from "next/navigation";
 import Icon from "./Icon";
 import GenderControl from "./GenderControl";
 import UserMenu from "./UserMenu";
-import { API_BASE, perfumeHref, brandHref, blogHref, searchHref, genderLabel, mediaUrl } from "@/lib/urls";
+import { API_BASE, perfumeHref, brandHref, blogHref, searchHref, compareHref, localeHref, genderLabel, mediaUrl } from "@/lib/urls";
 
 interface AutocompletePerfume {
     name: string;
@@ -195,17 +195,17 @@ export default function Header() {
     return (
         <header className="site-header">
             <div className="shell header-inner">
-                <Link href="/tr" className="logo">
+                <Link href={localeHref("/")} className="logo">
                     Aura<em>Compare</em>
                 </Link>
 
                 <nav className="site-nav">
-                    <Link href="/tr/karsilastir" className="nav-link">Karşılaştır</Link>
-                    <Link href="/tr/detayli-arama" className="nav-link">Detaylı Arama</Link>
-                    <Link href="/tr/marka" className="nav-link">Markalar</Link>
-                    <Link href="/tr/blog" className="nav-link">Rehber</Link>
+                    <Link href={compareHref()} className="nav-link">Karşılaştır</Link>
+                    <Link href={searchHref()} className="nav-link">Detaylı Arama</Link>
+                    <Link href={brandHref()} className="nav-link">Markalar</Link>
+                    <Link href={blogHref()} className="nav-link">Rehber</Link>
                     <Link
-                        href="/tr"
+                        href={localeHref("/")}
                         className="icon-btn home-btn"
                         aria-label="Anasayfa"
                         data-tooltip="Anasayfa"
@@ -238,23 +238,23 @@ export default function Header() {
             {mobileNavOpen && (
                 <div className="mobile-nav-panel" role="dialog" aria-label="Mobil Menü">
                     <div className="shell mobile-nav-links">
-                        <Link href="/tr" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                        <Link href={localeHref("/")} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
                             <Icon name="home" size={16} />
                             <span>Anasayfa</span>
                         </Link>
-                        <Link href="/tr/karsilastir" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                        <Link href={compareHref()} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
                             <Icon name="swap" size={16} />
                             <span>Karşılaştır</span>
                         </Link>
-                        <Link href="/tr/detayli-arama" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                        <Link href={searchHref()} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
                             <Icon name="search" size={16} />
                             <span>Detaylı Arama</span>
                         </Link>
-                        <Link href="/tr/marka" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                        <Link href={brandHref()} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
                             <Icon name="layers" size={16} />
                             <span>Markalar</span>
                         </Link>
-                        <Link href="/tr/blog" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                        <Link href={blogHref()} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
                             <Icon name="calendar" size={16} />
                             <span>Rehber</span>
                         </Link>

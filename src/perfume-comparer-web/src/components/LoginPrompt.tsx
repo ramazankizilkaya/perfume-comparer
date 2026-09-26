@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useAuth } from "@/lib/stores";
+import { loginHref } from "@/lib/urls";
 
 /**
  * Giriş yapılmışsa içeriği (ör. yorum formu) gösterir; yapılmamışsa tek satırlık
@@ -23,7 +24,7 @@ export default function LoginPrompt({
     if (!user) {
         return (
             <p className="login-prompt">
-                <Link href={`/tr/giris?next=${encodeURIComponent(pathname)}`} className="link-more">
+                <Link href={loginHref(pathname)} className="link-more">
                     {label}
                 </Link>
             </p>

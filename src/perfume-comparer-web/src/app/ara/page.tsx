@@ -5,7 +5,7 @@ import { useSearchParams, usePathname } from "next/navigation";
 import Icon from "@/components/Icon";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import { PerfumeCard, type PerfumeCardData } from "@/components/PerfumeCard";
-import { API_BASE } from "@/lib/urls";
+import { API_BASE, searchHref } from "@/lib/urls";
 import { useAuth, useFavorites } from "@/lib/stores";
 
 interface Ref {
@@ -263,7 +263,7 @@ function SearchInner() {
             const currentQuery = typeof window !== "undefined" ? window.location.search : "";
             if (newQuery !== currentQuery && typeof window !== "undefined") {
                 lastSpString.current = newQueryString;
-                const basePath = pathname || window.location.pathname || "/tr/detayli-arama";
+                const basePath = pathname || (typeof window !== "undefined" ? window.location.pathname : searchHref()) || searchHref();
                 window.history.replaceState(null, "", `${basePath}${newQuery}`);
             }
         }, 200);
@@ -360,7 +360,7 @@ function SearchInner() {
         <>
             <PageBreadcrumb
                 trail={[
-                    { label: "Detaylı arama", href: "/tr/detayli-arama" },
+                    { label: "Detaylı arama", href: searchHref() },
                 ]}
             />
 

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { localeHref } from "@/lib/urls";
 
 /**
  * API'ye ulaşılamadığında gösterilir. Sunucu bu durumda 500 döner; böylece geçici
@@ -15,7 +16,7 @@ export default function ErrorPage({ reset }: { error: Error; reset: () => void }
                 <button type="button" className="btn btn-primary" onClick={reset}>
                     Tekrar dene
                 </button>
-                <Link href="/tr" className="btn btn-ghost">
+                <Link href={localeHref("/")} className="btn btn-ghost">
                     Anasayfaya dön
                 </Link>
             </div>

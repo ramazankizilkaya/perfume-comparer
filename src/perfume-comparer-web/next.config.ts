@@ -54,8 +54,60 @@ function loadRootEnv(): Record<string, string> {
     return values;
 }
 
+function validateEnvironment(env: Record<string, string>): void {
+    const isDeployProduction = process.env.DEPLOY_ENV === "production";
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || env.NEXT_PUBLIC_SITE_URL;
+    const apiBase = process.env.NEXT_PUBLIC_API_BASE || env.NEXT_PUBLIC_API_BASE;
+
+    const errors: string[] = [];
+    const warnings: string[] = [];
+
+    // SITE_URL kontrolü
+    if (!siteUrl) {
+        errors.push("NEXT_PUBLIC_SITE_URL tanımlı değil.");
+    } else if (/localhost|127\.0\.0\.1/i.test(siteUrl)) {
+        errors.push(`NEXT_PUBLIC_SITE_URL localhost içeremez: "${siteUrl}"`);
+    } else if (!siteUrl.startsWith("https://")) {
+        errors.push(`NEXT_PUBLIC_SITE_URL https:// ile başlamalıdır: "${siteUrl}"`);
+    }
+
+    // API_BASE kontrolü
+    if (!apiBase) {
+        errors.push("NEXT_PUBLIC_API_BASE tanımlı değil.");
+    } else if (/localhost|127\.0\.0\.1/i.test(apiBase)) {
+        errors.push(`NEXT_PUBLIC_API_BASE localhost içeremez: "${apiBase}"`);
+    } else if (!apiBase.startsWith("https://")) {
+        errors.push(`NEXT_PUBLIC_API_BASE https:// ile başlamalıdır: "${apiBase}"`);
+    }
+
+    if (isDeployProduction) {
+        if (errors.length > 0) {
+            console.error("\n❌ [CANLI DAĞITIM HATASI] Ortam değişkenleri geçersiz:");
+            for (const err of errors) {
+                console.error(`   - ${err}`);
+            }
+            console.error("\nCanlı dağıtım build'i için .env dosyasında veya ortamda geçerli https:// adresleri tanımlanmalıdır.\n");
+            throw new Error(`Canlı dağıtım build doğrulaması başarısız oldu: ${errors.join("; ")}`);
+        }
+    } else {
+        if (errors.length > 0) {
+            warnings.push(...errors);
+        }
+        if (warnings.length > 0 && process.env.NODE_ENV !== "test") {
+            console.warn("\n⚠️  [Yerel Geliştirme Uyarısı] Ortam değişkenleri canlı standartlarına uymuyor (yerelde normaldir):");
+            for (const w of warnings) {
+                console.warn(`   - ${w}`);
+            }
+            console.warn("");
+        }
+    }
+}
+
+const rootEnv = loadRootEnv();
+validateEnvironment(rootEnv);
+
 const nextConfig: NextConfig = {
-    env: loadRootEnv(),
+    env: rootEnv,
 };
 
 export default nextConfig;

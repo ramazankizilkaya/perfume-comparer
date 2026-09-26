@@ -7256,4 +7256,90 @@ body.dark-mode .buy-store-card:hover {
     }
 }
 
+/* Sayfalama (Pagination) */
+.pagination-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin: 2rem 0 1.5rem;
+    padding: 0.75rem 0;
+}
+
+.pagination-pages {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pagination-btn,
+.pagination-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    min-width: 34px;
+    height: 34px;
+    padding: 0 0.5rem;
+    border-radius: var(--radius-sm, 6px);
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--ink);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+    user-select: none;
+}
+
+.pagination-btn:hover:not(.pagination-disabled),
+.pagination-number:hover:not(.pagination-current) {
+    background: var(--surface-hover);
+    border-color: var(--ink-muted);
+}
+
+.pagination-number.pagination-current {
+    background: var(--accent);
+    color: var(--accent-contrast, #ffffff);
+    border-color: var(--accent);
+    font-weight: 600;
+}
+
+.pagination-btn.pagination-disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    background: transparent;
+    pointer-events: none;
+}
+
+.pagination-ellipsis {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    height: 34px;
+    color: var(--ink-muted);
+    font-size: 0.875rem;
+}
+
+@media (max-width: 480px) {
+    .pagination-nav {
+        gap: 0.35rem;
+        padding: 0.5rem 0;
+    }
+    .pagination-btn span {
+        display: none;
+    }
+    .pagination-btn,
+    .pagination-number {
+        min-width: 30px;
+        height: 30px;
+        padding: 0 0.25rem;
+        font-size: 0.75rem;
+    }
+}
+
 

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Icon from "./Icon";
 import Stars, { StarInput } from "./Stars";
-import { API_BASE, formatDate } from "@/lib/urls";
+import { API_BASE, formatDate, loginHref } from "@/lib/urls";
 import { useAuth } from "@/lib/stores";
 import { toast } from "@/lib/toast";
 
@@ -114,7 +114,7 @@ export default function PerfumeCommentsSection({
             <div className="comment-form-wrap">
                 {!user && (
                     <p className="login-prompt">
-                        <Link href={`/tr/giris?next=${encodeURIComponent(pathname)}`} className="link-more">
+                        <Link href={loginHref(pathname)} className="link-more">
                             Yorum yapmak ve puan vermek için giriş yapın
                         </Link>
                     </p>

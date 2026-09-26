@@ -38,6 +38,22 @@ export function compareHref(slug1?: string | null, slug2?: string | null, lang: 
     return `/${lang}/karsilastir?items=${encodeURIComponent(slug1)},${encodeURIComponent(slug2)}`;
 }
 
+/** Giriş sayfası linki: /tr/giris (isteğe bağlı yönlendirme adresiyle). */
+export function loginHref(next?: string | null, lang: string = "tr"): string {
+    const base = `/${lang}/giris`;
+    return next ? `${base}?next=${encodeURIComponent(next)}` : base;
+}
+
+/** Kullanıcının kendi blog yazıları: /tr/blog/yazilarim */
+export function myBlogsHref(lang: string = "tr"): string {
+    return `/${lang}/blog/yazilarim`;
+}
+
+/** Blog önizleme: /tr/blog/onizleme */
+export function blogPreviewHref(lang: string = "tr"): string {
+    return `/${lang}/blog/onizleme`;
+}
+
 export const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? "http://localhost:5026";
 
 /** Marka sayfası linki. */

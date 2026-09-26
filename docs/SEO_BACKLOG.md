@@ -5,24 +5,26 @@ anlatır. Temel altyapı (canonical, `/tr` adres biçimi, dinamik sitemap, gerç
 etiketleri, JSON-LD) zaten kuruldu; bu dosyadaki işler onun üzerine inşa edilir.
 
 Her görev birbirinden bağımsızdır; ayrı ayrı bir agent'a verilebilir. G8–G12 sonradan
-eklendi (ikinci bir denetim raporundan); numaralar değişmesin diye sona yazıldılar.
+eklendi (ikinci bir denetim raporundan), G13 ise backlog kontrolü sırasında bulundu;
+numaralar değişmesin diye sona yazıldılar.
 Öncelik sırası numara sırası değildir:
 
-**G8 → G9 → G1 → G3 → G4 → G2 → G10 → G5 → G6 → G11 → G12 → G7**
+**G13 → G8 → G9 → G1 → G3 → G4 → G2 → G10 → G5 → G6 → G11 → G12 → G7**
 
 | Görev | Konu | Öncelik | Boyut |
 |---|---|---|---|
-| G8 | Production build'de site ve API adresi kontrolü | Kritik | Küçük |
-| G9 | Blog içeriğinde HTML temizleme (XSS) | Yüksek | Küçük–orta |
+| G13 | API istek sınırı sunucu tarafı render'ı boğuyor | Kritik | Küçük–orta |
+| G8 | Production build'de site ve API adresi kontrolü | ✅ Tamamlandı (26.09.2026) | Küçük |
+| G9 | Blog içeriğinde HTML temizleme (XSS) | ✅ Tamamlandı (26.09.2026) | Küçük–orta |
 | G1 | Nota / akor / koku ailesi sayfaları | Yüksek | Büyük |
-| G3 | Marka sayfasında linkle sayfalama | Orta | Küçük–orta |
+| G3 | Marka sayfasında linkle sayfalama | ✅ Tamamlandı (26.09.2026) | Küçük–orta |
 | G4 | Görsel optimizasyonu | Orta | Orta |
 | G2 | Karşılaştırma için temiz adres | Orta | Orta |
 | G10 | Anasayfa önbelleği (TTFB) | Orta | Orta, karar gerekli |
 | G5 | Kopya içerik analizi | Orta | Analiz küçük |
 | G6 | Sitemap bölme | Düşük | Küçük |
 | G11 | Global CSS'i küçültme (önce ölçüm) | Düşük | Orta |
-| G12 | Küçük temizlikler | Düşük | Küçük |
+| G12 | Küçük temizlikler | ✅ Tamamlandı (26.09.2026) | Küçük |
 | G7 | Product şeması eksikleri | Düşük | Karar gerekli |
 
 ---
@@ -179,7 +181,7 @@ sitemap'e giremez.
 
 ---
 
-## G3. Marka sayfasında linkle çalışan sayfalama
+## ✅ Tamamlandı (26.09.2026) – G3. Marka sayfasında linkle çalışan sayfalama
 
 **Öncelik:** Orta
 **Tahmini boyut:** Küçük–orta
@@ -321,7 +323,7 @@ Bu uyarı sıralamayı düşürmez; sadece zengin sonuç çıkmaz.
 
 ---
 
-## G8. Production build'de site ve API adresi kontrolü
+## ✅ Tamamlandı (26.09.2026) – G8. Production build'de site ve API adresi kontrolü
 
 **Öncelik:** Kritik (küçük iş, bütün SEO altyapısını korur)
 **Tahmini boyut:** Küçük
@@ -366,7 +368,7 @@ Bu uyarı sıralamayı düşürmez; sadece zengin sonuç çıkmaz.
 
 ---
 
-## G9. Blog içeriğinde HTML temizleme (XSS)
+## ✅ Tamamlandı (26.09.2026) – G9. Blog içeriğinde HTML temizleme (XSS)
 
 **Öncelik:** Yüksek (güvenlik açığı; SEO sonucu ağır olabilir)
 **Tahmini boyut:** Küçük–orta
@@ -480,7 +482,7 @@ düzeni kolayca bozabilir. Bu yüzden önce kazancın ölçülmesi gerekiyor.
 
 ---
 
-## G12. Küçük temizlikler
+## ✅ Tamamlandı (26.09.2026) – G12. Küçük temizlikler
 
 **Öncelik:** Düşük
 **Tahmini boyut:** Küçük (hepsi bir agent'a birlikte verilebilir)
@@ -516,6 +518,62 @@ düzeni kolayca bozabilir. Bu yüzden önce kazancın ölçülmesi gerekiyor.
 - Yukarıdaki `grep` temiz çıkmalı.
 - Blog başlığı `"{title} | Aura Compare"` olmalı.
 - Proxy için verilen curl kontrolleri geçmeli.
+
+---
+
+## G13. API istek sınırı, sunucu tarafı render'ı (SSR) boğuyor
+
+**Öncelik:** Kritik (canlıda site tarama yükü altında 500 hatası verir)
+**Tahmini boyut:** Küçük–orta (backend + küçük frontend değişikliği)
+
+### Neden
+- `src/PerfumeComparer/Program.cs` içindeki global istek sınırı (`GlobalLimiter`) istekleri
+  `httpContext.Connection.RemoteIpAddress` değerine göre sayıyor ve IP başına dakikada
+  **300** istek veriyor.
+- Parfüm, marka, blog ve karşılaştırma sayfaları sunucuda hazırlanıyor; bu sayfalar API'yi
+  **Next.js sunucusundan** çağırıyor. Yani bütün ziyaretçilerin ve Googlebot'un sunucu
+  tarafı istekleri tek bir IP'den geliyor ve bu tek kotayı paylaşıyor.
+- Bir parfüm sayfası 3 API çağrısı yapıyor (detay, yorumlar, fotoğraflar). Bu da site
+  genelinde dakikada yaklaşık **100 sayfa** demek.
+- Sınır aşıldığında API 429 dönüyor. Sayfa kodu 404 dışındaki API hatalarında bilerek hata
+  fırlatıyor, dolayısıyla site **500** veriyor.
+- 26.09.2026 kontrolünde bu yaşandı: birkaç test turundan sonra `/tr/marka/dior` 500 döndü;
+  aynı anda API doğrudan çağrıldığında 429 veriyordu.
+- 22 bin sayfalık bir siteyi tarayan Googlebot bu sınıra hemen takılır. Google 500 hatalarını
+  görünce tarama hızını düşürür ve bu, yeni sayfaların indekslenmesini geciktirir.
+
+### Yapılacaklar
+1. Next.js sunucusundan gelen istekler global sınırdan muaf tutulmalı. **Önerilen yol:**
+   - Next sunucusu API'ye yaptığı her sunucu tarafı istekte gizli bir başlık göndermeli
+     (örn. `X-Internal-Key`).
+   - Backend bu başlığı `appsettings.Local.json` / ortam değişkenindeki değerle
+     (örn. `RateLimit:InternalKey`) karşılaştırmalı. Eşleşirse istek
+     `RateLimitPartition.GetNoLimiter` ile sınırsız partition'a düşmeli.
+   - Anahtar **asla** `NEXT_PUBLIC_*` değişkenine konmamalı; `NEXT_PUBLIC_*` değerleri
+     tarayıcıya gider. Sadece sunucuda okunan bir değişken olmalı (örn. `API_INTERNAL_KEY`).
+   - `AGENTS.md` → "Secrets" bölümündeki kurala uyulmalı: anahtar
+     `appsettings.Local.example.json` dosyasına `_comment` ile eklenmeli.
+2. Frontend'de API çağrıları tek bir yardımcıdan geçmeli (örn. `lib/api.ts` içinde
+   `apiFetch()`), başlık orada eklenmeli.
+   - Başlık yalnızca sunucuda eklenmeli; tarayıcıdan yapılan çağrılar
+     (`"use client"` bileşenleri) başlığı taşımamalı.
+   - Bugün `fetch(`${API_BASE}/api/...`)` çağrıları sayfalara dağılmış halde;
+     sunucu bileşenlerindekilerin hepsi bu yardımcıya taşınmalı.
+3. Tarayıcıdan gelen gerçek ziyaretçi istekleri için mevcut IP bazlı sınır aynen kalmalı.
+   Canlıda API bir reverse proxy arkasında çalışacaksa, gerçek istemci IP'sinin
+   `ForwardedHeaders` middleware'i ile (sadece güvenilir proxy'den gelen
+   `X-Forwarded-For` kabul edilerek) okunması ayrıca değerlendirilmeli.
+   Güvenilmeyen `X-Forwarded-For` değerine güvenilmemeli; aksi halde sınır kolayca atlatılır.
+4. `StrictRateLimit` politikası (10 saniyede 5 istek, POST uçları) değişmemeli.
+
+### Kabul kriterleri
+- API test paketine yeni Cucumber senaryoları eklenmeli:
+  - Geçerli iç anahtarla bir dakika içinde 300'den fazla istek atıldığında 429 alınmamalı.
+  - Anahtar olmadan veya yanlış anahtarla atılan 300'den fazla istek 429 almalı.
+- `next start` ile çalışan sitede, 1 dakika içinde 150 farklı parfüm sayfası istendiğinde
+  hiçbir istek 500 dönmemeli.
+- Tarayıcının ağ sekmesinde iç anahtar başlığı hiçbir istekte görünmemeli.
+- `docs/AGENT_DEEP_ARCHITECTURE.md` güvenlik bölümü güncellenmeli.
 
 ---
 

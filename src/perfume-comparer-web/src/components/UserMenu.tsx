@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Icon from "./Icon";
 import { useAuth, type AuthUser } from "@/lib/stores";
+import { searchHref, loginHref, myBlogsHref } from "@/lib/urls";
 
 function initials(u: AuthUser): string {
     const src = (u.name || u.email || "?").trim();
@@ -70,7 +71,7 @@ export default function UserMenu() {
                     <div className="user-dropdown" role="menu">
                         <nav className="user-dropdown-nav" style={{ borderBlockEnd: "none" }}>
                             <Link
-                                href="/tr/detayli-arama?userFilter=favorites"
+                                href={searchHref({ userFilter: "favorites" })}
                                 className="user-dropdown-link"
                                 onClick={() => setOpen(false)}
                             >
@@ -78,7 +79,7 @@ export default function UserMenu() {
                                 <span>Favorilerim</span>
                             </Link>
                             <Link
-                                href={`/tr/giris${next}`}
+                                href={loginHref(pathname || undefined)}
                                 className="user-dropdown-link"
                                 onClick={() => setOpen(false)}
                                 style={{ fontWeight: 600, color: "var(--accent)" }}
@@ -116,7 +117,7 @@ export default function UserMenu() {
                     </div>
                     <nav className="user-dropdown-nav">
                         <Link
-                            href="/tr/detayli-arama?userFilter=favorites"
+                            href={searchHref({ userFilter: "favorites" })}
                             className="user-dropdown-link"
                             onClick={() => setOpen(false)}
                         >
@@ -124,7 +125,7 @@ export default function UserMenu() {
                             <span>Favorilerim</span>
                         </Link>
                         <Link
-                            href="/tr/detayli-arama?userFilter=comments"
+                            href={searchHref({ userFilter: "comments" })}
                             className="user-dropdown-link"
                             onClick={() => setOpen(false)}
                         >
@@ -132,7 +133,7 @@ export default function UserMenu() {
                             <span>Yorum Yazdıklarım</span>
                         </Link>
                         <Link
-                            href="/tr/detayli-arama?userFilter=ratings"
+                            href={searchHref({ userFilter: "ratings" })}
                             className="user-dropdown-link"
                             onClick={() => setOpen(false)}
                         >
@@ -140,7 +141,7 @@ export default function UserMenu() {
                             <span>Puanladıklarım</span>
                         </Link>
                         <Link
-                            href="/tr/blog/yazilarim"
+                            href={myBlogsHref()}
                             className="user-dropdown-link"
                             onClick={() => setOpen(false)}
                         >

@@ -47,11 +47,15 @@ export default function BrandPerfumesClient({
     brand,
     initialPerfumes,
     initialTotal,
+    currentPage = 1,
+    pagination,
 }: {
     slug: string;
     brand: BrandDetail;
     initialPerfumes: PerfumeCardData[];
     initialTotal: number;
+    currentPage?: number;
+    pagination?: React.ReactNode;
 }) {
     const [query, setQuery] = useState("");
     const [debouncedQuery, setDebouncedQuery] = useState("");
@@ -60,7 +64,7 @@ export default function BrandPerfumesClient({
 
     const [perfumes, setPerfumes] = useState<PerfumeCardData[]>(initialPerfumes);
     const [total, setTotal] = useState(initialTotal);
-    const [page, setPage] = useState(1);
+    const [page, setPage] = useState(currentPage);
     const [listLoading, setListLoading] = useState(false);
     const [loadingMore, setLoadingMore] = useState(false);
 
@@ -244,6 +248,8 @@ export default function BrandPerfumesClient({
                             <span className="muted">Tüm parfümler listelendi.</span>
                         )}
                     </div>
+
+                    {activeFilters === 0 && !query && pagination}
                 </>
             ) : (
                 <p className="empty">Bu filtrelere uyan parfüm bulunamadı. Filtreleri gevşetmeyi deneyin.</p>
