@@ -106,6 +106,15 @@ try
 
         options.GlobalLimiter = PartitionedRateLimiter.Create<HttpContext, string>(httpContext =>
         {
+            var path = httpContext.Request.Path;
+            if (path.StartsWithSegments("/media") || 
+                path.StartsWithSegments("/blog_backgrounds") || 
+                path.StartsWithSegments("/health") ||
+                path.StartsWithSegments("/openapi"))
+            {
+                return RateLimitPartition.GetNoLimiter("unlimited_assets");
+            }
+
             var clientIp = httpContext.Connection.RemoteIpAddress?.ToString() ?? "unknown";
             return RateLimitPartition.GetFixedWindowLimiter(clientIp, _ => new FixedWindowRateLimiterOptions
             {

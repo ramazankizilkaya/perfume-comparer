@@ -34,3 +34,18 @@ export function FamilyBadge({ family }: { family?: string | null }) {
         </span>
     );
 }
+
+export function GenderBadge({ gender }: { gender?: string | null }) {
+    if (!gender) return null;
+    const g = gender.toLowerCase();
+    const isMale = g === "male" || g === "erkek";
+    const isFemale = g === "female" || g === "kadın" || g === "kadin";
+    const text = isMale ? "erkek" : isFemale ? "kadın" : "unisex";
+    const cls = isMale ? "badge-gender-male" : isFemale ? "badge-gender-female" : "badge-gender-unisex";
+    return (
+        <span className={`badge ${cls}`} title={`Cinsiyet: ${text}`}>
+            {text}
+        </span>
+    );
+}
+

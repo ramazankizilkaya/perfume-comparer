@@ -273,11 +273,30 @@ button {
 }
 
 .logo {
-    font-size: 1.42rem;
-    font-weight: 750;
-    letter-spacing: -0.02em;
-    white-space: nowrap;
-    color: var(--ink);
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.site-logo-img {
+    height: 42px;
+    width: auto;
+    max-width: 175px;
+    object-fit: contain;
+    display: block;
+}
+
+.site-logo-img.dark-only {
+    display: none;
+}
+
+body.dark-mode .site-logo-img.light-only {
+    display: none;
+}
+
+body.dark-mode .site-logo-img.dark-only {
+    display: block;
 }
 
 .logo em {
@@ -405,8 +424,12 @@ button {
     }
 
     .logo {
-        font-size: 1.15rem;
         flex-shrink: 0;
+    }
+
+    .site-logo-img {
+        height: 35px;
+        max-width: 145px;
     }
 }
 
@@ -1823,6 +1846,16 @@ body.dark-mode .vs-side img {
     display: flex;
     align-items: center;
     gap: 0.35rem;
+    transition: all var(--transition-fast, 0.15s ease);
+}
+
+.star-rating-picker.star-picker-error {
+    padding: 0.35rem 0.6rem;
+    border-radius: var(--radius-sm, 6px);
+    background: rgba(220, 38, 38, 0.08);
+    outline: 2px dashed #DC2626;
+    display: inline-flex;
+    width: fit-content;
 }
 
 .star-pick-btn {
@@ -2011,7 +2044,7 @@ body.dark-mode .vs-side img {
 /* Künye hücreleri: etiket + değer, yan yana, spec-sheet hissi. */
 .detail-facts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1px;
     width: 100%;
     background: var(--line);
@@ -2019,6 +2052,12 @@ body.dark-mode .vs-side img {
     border-radius: var(--radius);
     overflow: hidden;
     margin: 0 0 var(--s4);
+}
+
+@media (min-width: 640px) {
+    .detail-facts {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
 }
 
 .fact-cell {
@@ -2031,9 +2070,12 @@ body.dark-mode .vs-side img {
     font-size: var(--fs-xs);
     color: var(--ink-faint);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
     margin-block-end: 3px;
     font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .fact-cell dd {
@@ -4034,13 +4076,47 @@ body.dark-mode .vs-side img {
     position: absolute;
     top: calc(100% + 6px);
     inset-inline-end: 0;
-    min-width: 150px;
+    min-width: 175px;
     background: var(--surface);
     border: 1px solid var(--line-strong);
     border-radius: var(--radius);
     box-shadow: 0 10px 28px rgb(0 0 0 / 0.12);
     z-index: 60;
     overflow: hidden;
+    padding-block: 0.35rem;
+}
+
+.gender-menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.35rem 0.75rem 0.45rem;
+    border-block-end: 1px solid var(--line);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.gender-reset-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    color: var(--accent);
+    cursor: pointer;
+    text-transform: none;
+}
+
+.gender-reset-btn:hover {
+    text-decoration: underline;
+}
+
+.gender-options-list {
+    display: flex;
+    flex-direction: column;
 }
 
 .gender-opt {
@@ -4049,9 +4125,12 @@ body.dark-mode .vs-side img {
     gap: var(--s2);
     width: 100%;
     text-align: start;
-    padding: var(--s2) var(--s3);
+    padding: 0.45rem 0.75rem;
     font-size: var(--fs-sm);
     color: var(--ink-soft);
+    cursor: pointer;
+    user-select: none;
+    transition: background var(--transition-fast, 0.15s ease);
 }
 
 .gender-opt:hover {
@@ -4060,12 +4139,26 @@ body.dark-mode .vs-side img {
 }
 
 .gender-opt.on {
-    color: var(--accent);
+    color: var(--ink);
     font-weight: 600;
+    background: var(--surface-alt);
+}
+
+.gender-checkbox {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    accent-color: var(--accent);
+    margin: 0;
+}
+
+.gender-opt-text {
+    flex: 1;
 }
 
 .gender-check {
     margin-inline-start: auto;
+    color: var(--accent);
 }
 
 .gender-modal {
@@ -5142,10 +5235,7 @@ body.dark-mode .brand-logo {
     color: var(--ink-soft);
     line-height: 1.55;
     max-inline-size: 65ch;
-    display: -webkit-box;
-    -webkit-line-clamp: 6;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    white-space: pre-line;
 }
 
 .brand-spec {
@@ -5669,6 +5759,21 @@ a.facet-tile:hover {
     color: #ffffff;
 }
 
+.badge-gender-male {
+    background-color: #0284c7;
+    color: #ffffff;
+}
+
+.badge-gender-female {
+    background-color: #db2777;
+    color: #ffffff;
+}
+
+.badge-gender-unisex {
+    background-color: #7c3aed;
+    color: #ffffff;
+}
+
 /* --- Clean Card (DekantParfum Style) -------------------------------------- */
 
 .card-clean {
@@ -5748,54 +5853,6 @@ a.facet-tile:hover {
     background: var(--surface-alt);
     color: #0d6efd;
     border-color: #0d6efd;
-}
-
-/* Tooltip on Action Buttons */
-.card-action-btn.has-tooltip::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    right: calc(100% + 8px);
-    top: 50%;
-    transform: translateY(-50%) scale(0.92);
-    background: #0f172a;
-    color: #ffffff;
-    padding: 3px 8px;
-    border-radius: 4px;
-    font-size: 0.68rem;
-    font-weight: 600;
-    white-space: nowrap;
-    pointer-events: none;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    z-index: 100;
-}
-
-.card-action-btn.has-tooltip::before {
-    content: "";
-    position: absolute;
-    right: calc(100% + 2px);
-    top: 50%;
-    transform: translateY(-50%);
-    border: 4px solid transparent;
-    border-left-color: #0f172a;
-    pointer-events: none;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.15s ease, visibility 0.15s;
-    z-index: 100;
-}
-
-.card-action-btn.has-tooltip:hover::after {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(-50%) scale(1);
-}
-
-.card-action-btn.has-tooltip:hover::before {
-    opacity: 1;
-    visibility: visible;
 }
 
 .card-clean .card-body {
@@ -6401,12 +6458,16 @@ body.dark-mode .card-rating-badge {
         scroll-snap-stop: always;
     }
     .hero-blog-slider {
-        min-height: 280px;
+        min-height: 320px;
+        padding-inline: 1.25rem;
+        padding-block-start: 1.5rem;
+        padding-block-end: 4rem;
     }
     .hero-blog-nav {
         display: none;
     }
     .hero-blog-dots {
+        bottom: 1.25rem;
         inset-inline: 0;
         inset-inline-end: auto;
         justify-content: center;

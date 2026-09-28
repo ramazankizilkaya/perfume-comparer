@@ -81,6 +81,7 @@ export default function PerfumeReviewModal({
     const [selectedPhoto, setSelectedPhoto] = useState<File | null>(null);
     const [photoPreview, setPhotoPreview] = useState<string | null>(null);
     const fileInputRef = useRef<HTMLInputElement>(null);
+    const starSectionRef = useRef<HTMLDivElement>(null);
 
     const [submitting, setSubmitting] = useState(false);
     const [error, setError] = useState<string | null>(null);
@@ -110,12 +111,17 @@ export default function PerfumeReviewModal({
         setError(null);
 
         if (isAlreadyEvaluated) {
-            setError("Bu parfümü daha önce değerlendirdiniz. Bir parfüm yalnızca bir kez değerlendirilebilir.");
+            const msg = "Bu parfümü daha önce değerlendirdiniz. Bir parfüm yalnızca bir kez değerlendirilebilir.";
+            setError(msg);
+            toast.error(msg);
             return;
         }
 
         if (score === null || score < 1 || score > 5) {
-            setError("Lütfen parfüm için genel puanınızı (1-5 yıldız) seçin.");
+            const msg = "Lütfen parfüm için genel puanınızı (1-5 yıldız) seçin.";
+            setError(msg);
+            toast.error(msg);
+            starSectionRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
             return;
         }
 
@@ -179,6 +185,7 @@ export default function PerfumeReviewModal({
         } catch (err: unknown) {
             const msg = err instanceof Error ? err.message : "Bir hata oluştu.";
             setError(msg);
+            toast.error(msg);
         } finally {
             setSubmitting(false);
         }
@@ -218,9 +225,14 @@ export default function PerfumeReviewModal({
                         {error && <div className="alert alert-error">{error}</div>}
 
                         {/* 1. Genel Puan */}
-                        <div className="review-section">
-                            <label className="review-section-title">1. Genel Puanınız (1 - 5 Yıldız)</label>
-                            <div className="star-rating-picker">
+                        <div className="review-section" ref={starSectionRef}>
+                            <label className="review-section-title">
+                                1. Genel Puanınız (1 - 5 Yıldız){" "}
+                                <span style={{ color: "#DC2626", fontSize: "0.85em", fontWeight: 700 }}>
+                                    * (Zorunlu Alan)
+                                </span>
+                            </label>
+                            <div className={`star-rating-picker ${!score && error ? "star-picker-error" : ""}`}>
                                 {[1, 2, 3, 4, 5].map((star) => (
                                     <button
                                         type="button"
@@ -230,7 +242,10 @@ export default function PerfumeReviewModal({
                                         }`}
                                         onMouseEnter={() => setHoverScore(star)}
                                         onMouseLeave={() => setHoverScore(null)}
-                                        onClick={() => setScore(star)}
+                                        onClick={() => {
+                                            setScore(star);
+                                            setError(null);
+                                        }}
                                         aria-label={`${star} yıldız`}
                                     >
                                         <Icon name="star" size={24} filled={(hoverScore ?? score ?? 0) >= star} />
@@ -238,6 +253,11 @@ export default function PerfumeReviewModal({
                                 ))}
                                 {score && <span className="star-score-text">{score} / 5 Yıldız</span>}
                             </div>
+                            {!score && error && (
+                                <p style={{ color: "#DC2626", fontSize: "var(--fs-xs)", marginBlockStart: "0.4rem" }}>
+                                    Lütfen devam etmek için en az bir yıldız puanı seçin.
+                                </p>
+                            )}
                         </div>
 
                         {/* 2. Mevsimsel Tercih */}
@@ -402,6 +422,12 @@ export default function PerfumeReviewModal({
                                 rows={3}
                             />
                         </div>
+
+                        {error && (
+                            <div className="alert alert-error" style={{ marginBlockEnd: "1rem" }}>
+                                {error}
+                            </div>
+                        )}
 
                         <div className="review-modal-actions">
                             <button type="button" className="btn btn-ghost" onClick={onClose} disabled={submitting}>

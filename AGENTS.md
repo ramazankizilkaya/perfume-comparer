@@ -18,8 +18,8 @@ Goal: keep the implementation simple, extensible and clean (SoC, no spaghetti).
 - Explain things so a non-expert can understand. If the user cannot understand the answer, the work cannot continue.
 
 ## Agent Rules (non-negotiable)
-- **DIRECT EXECUTION RULE (Kullanıcı Kuralı):** Kullanıcı bir istek veya düzeltme belirttiğinde; teknik bir engel, başka yeri bozacak bir risk veya konuşulması gereken açık bir belirsizlik yoksa tekrar "uygulayayım mı?" diye sormadan doğrudan uygula, test et ve sonucu bildir.
-- **ADVISE-FIRST RULE:** Sadece belirsiz bir durum, mimari bir çelişki veya potansiyel yan etki varsa teşhis koy ve görüş bildir.
+- **QUESTION & APPROVAL-FIRST RULE (Genel Kural):** Kullanıcı bir şey sorduğunda veya danıştığında hiçbir kod değişikliği yapmadan doğrudan cevap verilir; yalnızca kullanıcıdan net onay alındıktan sonra kod değişikliği uygulanır.
+- **ADVISE-FIRST RULE:** Soru, belirsizlik, mimari çelişki veya potansiyel yan etki durumlarında önce teşhis koyulur ve görüş bildirilir, onay alınmadan işlem yapılmaz.
 - **COMMIT RULE:** never `git commit` / `git push` without direct permission.
 - **CLEANUP RULE:** leave no temp files, debug scripts, or screenshots behind.
 - **TESTING RULE:** once a change is approved and applied, verify it — run the affected script or page. Bundan sonra yapılan her değişiklik için eğer testle cover edilmediyse mutlaka test eklenecek (API testleri `tests/api-test` altında; ileride UI testleri eklendiğinde aynı kural UI için de geçerli olacaktır). Before committing, always run `npm run build` in the frontend and run tests in `tests/api-test`.

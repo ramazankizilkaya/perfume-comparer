@@ -195,8 +195,21 @@ export default function Header() {
     return (
         <header className="site-header">
             <div className="shell header-inner">
-                <Link href={localeHref("/")} className="logo">
-                    Aura<em>Compare</em>
+                <Link href={localeHref("/")} className="logo" aria-label="Parfümetre">
+                    <img
+                        src="/logo.png"
+                        alt="Parfümetre - Parfüm Karşılaştırma ve Koku Rehberi"
+                        className="site-logo-img light-only"
+                        width={162}
+                        height={42}
+                    />
+                    <img
+                        src="/logo-dark.png"
+                        alt="Parfümetre - Parfüm Karşılaştırma ve Koku Rehberi"
+                        className="site-logo-img dark-only"
+                        width={162}
+                        height={42}
+                    />
                 </Link>
 
                 <nav className="site-nav">

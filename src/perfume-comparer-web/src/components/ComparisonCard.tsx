@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { mediaUrl, compareHref } from "@/lib/urls";
-import { ConcentrationBadge, FamilyBadge } from "./Badges";
 
 export interface ComparisonItemData {
     name: string;
@@ -40,10 +39,6 @@ export default function ComparisonCard({ pair }: { pair: ComparisonPairData }) {
                         <strong className="compare-title" title={pair.perfume1.name}>
                             {pair.perfume1.name}
                         </strong>
-                        <div className="compare-badges">
-                            <ConcentrationBadge concentration={pair.perfume1.concentration} />
-                            <FamilyBadge family={pair.perfume1.fragranceFamily} />
-                        </div>
                     </div>
 
                     <div className="compare-vs-badge">VS</div>
@@ -60,10 +55,6 @@ export default function ComparisonCard({ pair }: { pair: ComparisonPairData }) {
                         <strong className="compare-title" title={pair.perfume2.name}>
                             {pair.perfume2.name}
                         </strong>
-                        <div className="compare-badges">
-                            <ConcentrationBadge concentration={pair.perfume2.concentration} />
-                            <FamilyBadge family={pair.perfume2.fragranceFamily} />
-                        </div>
                     </div>
                 </div>
             </Link>

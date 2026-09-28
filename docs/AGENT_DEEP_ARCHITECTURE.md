@@ -38,7 +38,7 @@ Layered architecture (SoC) kesin olarak uygulanır:
 - **`X-Requested-With: XMLHttpRequest` Zorunluluğu**:
   Backend güvenlik ara yazılımı, tüm `POST`, `PUT`, `DELETE` isteklerinde (antiforgery-token ve rate-limit-check hariç) `X-Requested-With: XMLHttpRequest` başlığını zorunlu tutar. Bu başlık bulunmadığında Kestrel anında `HTTP 400 Bad Request` yanıtı döner (`{"message":"Geçersiz veya eksik istemci başlığı..."}`). İstemcideki tüm `fetch` çağrılarında ve curl testlerinde bu başlık mutlaka yer almalıdır.
 - **Rate Limiting & Antiforgery**:
-  API isteklerinde ani yüklenmeleri sınırlayan IP bazlı rate limit ve durum değiştiren isteklerde antiforgery token doğrulaması devrededir.
+  API isteklerinde ani yüklenmeleri sınırlayan IP bazlı rate limit (dakikada 300 istek) ve durum değiştiren isteklerde antiforgery token doğrulaması devrededir. Statik medya ve görseller (`/media`, `/blog_backgrounds`, `/health`, `/openapi`) rate limit kısıtlamasından tamamen muaftır.
 
 ---
 
@@ -75,6 +75,7 @@ Layered architecture (SoC) kesin olarak uygulanır:
   - `useGenderPref`: Erkek, Kadın, Unisex filtre tercihi (localStorage senkronize).
   - `useCompare`: Karşılaştırma sepetine eklenen parfümler (`compare-basket`).
   - `useFavorites`: Favorilere eklenen parfümler (`favorites`).
+  - `useRecentPerfumes`: Ziyaret edilen parfümlerin son 20'sini tutan yerel durum (`recent-perfumes`).
   - `useAuth`: JWT ve oturum durumu (`auth-session`). `signInDev` ve `signInGoogle` isteklerinde `X-Requested-With: XMLHttpRequest` başlığı gönderilir.
 - **Görseller & Alt Etiketleri**: Her `<img>` etiketinde katı SEO kuralı geçerlidir (marka, ürün, amaç formatı).
 - **İlk Yükleme ve Skeleton Mekanizması**:
@@ -142,3 +143,54 @@ Fragrantica IP engeli koyduğunda HTTP 400 döner. Scraper 3 ardışık hata gö
   - `layout.tsx` gövdesine entegre edilen `ToastContainer` bileşeni ile değerlendirme ve yorum gönderme gibi işlemlerde ekranın sağ alt köşesinde (mobilde tam genişlik) otomatik kaybolan geri bildirim kutuları gösterilir. Light/Dark mode token'larına tam uyumludur.
 - **Karşılaştırma Tercih Formatı (`CompareClient.tsx`)**:
   - Karşılaştırma sayfasındaki 'Hangisini tercih ediyorsunuz?' alanında ve yorum tercihi rozetlerinde, parfüm adı marka adıyla birleştirilerek (`{Marka} {Parfüm}`) gösterilir.
+
+---
+
+## 7. PWA (Progressive Web App) ve Çevrimdışı Çalışma Mimarisi
+
+- **Web App Manifest (`src/app/manifest.ts`)**:
+  - Next.js App Router standartlarında dinamik manifest (`/manifest.webmanifest`).
+  - Uygulama adı, kısa adı, tema rengi (`#0C6658`), arka plan rengi (`#F4F6F5`), `standalone` ekran modu ve `192x192`, `512x512` ve maskable ikon tanımlarını içerir.
+- **Servis İşçisi (`public/sw.js`)**:
+  - Network-first önbellek stratejisi ile dinamik içerik güncelliğini korurken statik dosyaları ve anasayfa kabuğunu (`/tr`, `/`) önbelleğe alır.
+  - `/api/*`, `/tr/admin/*` ve tarayıcı eklentilerini önbellekleme dışı tutar. Ağ bağlantısı kesildiğinde zarif çevrimdışı geri bildirimi sağlar.
+- **İstemci Kaydı (`src/components/PwaRegister.tsx`)**:
+  - Üretim ortamında (`process.env.NODE_ENV === "production"`) sayfa yüklemesi tamamlandıktan sonra servis işçisini sessizce kaydeder.
+- **Apple & Mobil Entegrasyonu (`src/app/layout.tsx`)**:
+  - `appleWebApp: { capable: true, statusBarStyle: "default", title: SITE_NAME }`, `apple-touch-icon.png` ve `export const viewport: Viewport` üzerinden tema rengi ve ekran ölçeklendirmesi tanımlanmıştır.
+
+---
+
+## 8. Marka Kimliği ve Logo Varlıkları
+
+- **Logo ve İkon Seti (`public/logo.png`, `public/icon-*.png`, `public/favicon.ico`)**:
+  - `parfumetre.com` amblem görseli (altın renkli sayaç ibreli parfüm şişesi formu) 512x512, 192x192, 180x180 ve çoklu çözünürlüklü favicon olarak normalize edilerek entegre edilmiştir.
+  - `<Header />` ve `<Footer />` bileşenlerinde `Parfüm*etre*` başlığı ile birlikte 36x36px (mobilde 30x30px) boyutunda zarif amblem rozeti olarak sunulur.
+
+---
+
+## 9. Playwright & Cucumber UI Test Otomasyon Mimarisi (`tests/ui-tests`)
+
+- **Referans Yapı (`ptr-qa-internal-mobile-ui-tests`)**:
+  - `helpers/custom-helpers.js`: Formatlı loglama ve hata anında otomatik ekran görüntüsü (`takeScreenshotOnFailure`).
+  - `src/step-definitions/common/store.js`: Bellek içi değişken saklama ve oturumlar arası veri taşıma (`Store.set`, `Store.get`).
+  - `src/step-definitions/common/locators.yaml`: Sayfa ve bileşen bazlı tüm CSS/XPath seçicilerinin tek merkezde tutulduğu seçici sözlüğü.
+  - `src/step-definitions/common/commonFunctions.js`: Playwright tarayıcı yaşam döngüsü, görünürlük kontrolü, dinamik tıklama/yazma, URL saklama ve taze tarayıcı örneği açarak (`LaunchNewBrowserAndNavigateToStoredUrl`) UI durumu doğrulama fonksiyonları.
+---
+
+## 10. Kart Etiketleri & Çoklu Cihaz/Cinsiyet Tercihi
+
+- **Parfüm Kartları Rozet Sistemi (`src/components/PerfumeCard.tsx`, `src/components/Badges.tsx`)**:
+  - Kart rozet satırı (`.card-badge-row`), solda konsantrasyon ve koku ailesi etiketlerini barındıran `.card-badge-left` yapısı ve sağa yaslı yıldız puan rozeti (`.card-rating-badge`) ile orijinal haline geri getirilmiştir.
+  - Kart aksiyon butonlarındaki (favori ve karşılaştır) CSS tooltip taşma ve çakışması kaldırılarak tarayıcının yerel `title` özniteliğiyle temiz ve sorunsuz hale getirilmiştir.
+- **Son Gezdiklerim Slider'ı (`HomeFeedClient.tsx`, `RecordRecentPerfume.tsx`)**:
+  - Kullanıcı herhangi bir parfüm detay sayfasına (`/tr/parfum/...`) girdiğinde `<RecordRecentPerfume />` bileşeni `useRecentPerfumes` hook'u üzerinden ürünü `recent-perfumes` listesinin başına ekler (maksimum 20 ürün).
+  - Anasayfa akışının en altında (`HomeFeedClient.tsx`), kullanıcı daha önce ürün gezmişse `<HorizontalSlider title="Son Gezdiklerim">` bileşeni dinamik olarak görüntülenir.
+- **Header Çoklu Cinsiyet Tercihi (`src/components/GenderControl.tsx`, `src/lib/stores.ts`)**:
+  - Açılır menüdeki radyo yapısı yerine bağımsız checkbox kontrolleri entegre edildi. Kullanıcı 'Erkek ve Unisex' veya 'Sadece Kadın' gibi çoklu kombinasyonları seçebilir.
+  - Seçimler `gender-pref` çerezi ve `localStorage` üzerinde virgülle ayrılmış liste (örn. `erkek,unisex`) olarak saklanır; hem SSR (`app/page.tsx`) hem de istemci (`HomeFeedClient.tsx`) tarafından arka uçtaki `ParseGenders` çoklu filtreleme yapısıyla doğrudan eşleştirilir.
+- **Detay Sayfası Puan Gösterimi (`app/parfum/[...segments]/page.tsx`)**:
+  - Mükerrer 100'lük yeşil skor kutusu kaldırılarak yalnızca 5 üzerinden yıldız ortalaması ve oy sayısı bırakıldı.
+
+
+

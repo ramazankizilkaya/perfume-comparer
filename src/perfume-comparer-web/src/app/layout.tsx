@@ -1,12 +1,22 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CompareBar from "@/components/CompareBar";
 import ScrollToTop from "@/components/ScrollToTop";
 import ToastContainer from "@/components/ToastContainer";
+import PwaRegister from "@/components/PwaRegister";
 import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE, LOGO_URL, absoluteUrl, jsonLd } from "@/lib/seo";
 import { localeHref, searchHref } from "@/lib/urls";
+
+export const viewport: Viewport = {
+    themeColor: [
+        { media: "(prefers-color-scheme: light)", color: "#0C6658" },
+        { media: "(prefers-color-scheme: dark)", color: "#15181B" },
+    ],
+    width: "device-width",
+    initialScale: 1,
+};
 
 export const metadata: Metadata = {
     metadataBase: new URL(SITE_URL),
@@ -29,6 +39,18 @@ export const metadata: Metadata = {
     authors: [{ name: SITE_NAME }],
     creator: SITE_NAME,
     publisher: SITE_NAME,
+    appleWebApp: {
+        capable: true,
+        statusBarStyle: "default",
+        title: SITE_NAME,
+    },
+    formatDetection: {
+        telephone: false,
+    },
+    icons: {
+        icon: "/favicon.ico",
+        apple: "/apple-touch-icon.png",
+    },
     // Canonical burada tanımlanmaz: kök ayar tüm alt sayfalara miras kalır ve hepsini
     // anasayfaya işaret ettirir. Her sayfa kendi canonical'ını pageMetadata() ile verir.
     openGraph: {
@@ -99,6 +121,7 @@ export default function RootLayout({
                 />
             </head>
             <body>
+                <PwaRegister />
                 <ScrollToTop />
                 <Header />
                 <main className="main-content">

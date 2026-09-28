@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect } from "react";
+import { useCallback, useEffect, useMemo } from "react";
 import { useLocalState } from "./clientStore";
 import { API_BASE } from "./urls";
 
@@ -12,7 +12,7 @@ export interface PerfumeRef {
     path: string;
 }
 
-export type GenderPref = "erkek" | "kadin" | "unisex" | "all" | "male" | "female" | null;
+export type GenderPref = string | null;
 
 export interface AuthUser {
     id: number;
@@ -29,18 +29,42 @@ interface Session {
 import { MAX_COMPARE } from "./constants";
 export { MAX_COMPARE };
 
-/** Cinsiyet tercihi: ilk ziyarette null → kullanıcıya sorulur, sonra saklanır. */
+/** Cinsiyet tercihi: ilk ziyarette null (hepsi) → kullanıcı tek veya çoklu seçebilir ("erkek", "erkek,unisex", vb.). */
 export function useGenderPref() {
-    const [rawGender, setRawGender, ready] = useLocalState<GenderPref>("gender-pref", null);
-    
-    // Normalize legacy "male"/"female" to "erkek"/"kadin"
-    const gender: GenderPref = rawGender === "male" ? "erkek" : rawGender === "female" ? "kadin" : rawGender;
-    
-    const setGender = useCallback((g: GenderPref) => {
-        const norm = g === "male" ? "erkek" : g === "female" ? "kadin" : g;
+    const [rawGender, setRawGender, ready] = useLocalState<string | null>("gender-pref", null);
+
+    // Normalize legacy single strings ("male" -> "erkek", "female" -> "kadin") or comma lists
+    const gender: string | null = useMemo(() => {
+        if (!rawGender || rawGender === "all") return null;
+        const parts = String(rawGender)
+            .split(",")
+            .map((p) => p.trim().toLowerCase())
+            .map((p) => (p === "male" ? "erkek" : p === "female" ? "kadin" : p))
+            .filter((p) => p === "erkek" || p === "kadin" || p === "unisex");
+        if (parts.length === 0 || parts.length === 3) return null;
+        return Array.from(new Set(parts)).join(",");
+    }, [rawGender]);
+
+    const selectedGenders: string[] = useMemo(() => {
+        if (!gender) return [];
+        return gender.split(",").filter(Boolean);
+    }, [gender]);
+
+    const setGender = useCallback((g: string | null) => {
+        let norm: string | null = null;
+        if (g && g !== "all") {
+            const parts = String(g)
+                .split(",")
+                .map((p) => p.trim().toLowerCase())
+                .map((p) => (p === "male" ? "erkek" : p === "female" ? "kadin" : p))
+                .filter((p) => p === "erkek" || p === "kadin" || p === "unisex");
+            if (parts.length > 0 && parts.length < 3) {
+                norm = Array.from(new Set(parts)).join(",");
+            }
+        }
         setRawGender(norm);
         if (typeof document !== "undefined") {
-            if (norm && norm !== "all") {
+            if (norm) {
                 document.cookie = `gender-pref=${encodeURIComponent(JSON.stringify(norm))}; path=/; max-age=31536000; SameSite=Lax`;
             } else {
                 document.cookie = `gender-pref=; path=/; max-age=0; SameSite=Lax`;
@@ -48,16 +72,31 @@ export function useGenderPref() {
         }
     }, [setRawGender]);
 
+    const toggleGender = useCallback((target: "erkek" | "kadin" | "unisex") => {
+        const current = gender ? gender.split(",").filter(Boolean) : [];
+        let updated: string[];
+        if (current.includes(target)) {
+            updated = current.filter((x) => x !== target);
+        } else {
+            updated = [...current, target];
+        }
+        if (updated.length === 0 || updated.length === 3) {
+            setGender(null);
+        } else {
+            setGender(updated.join(","));
+        }
+    }, [gender, setGender]);
+
     useEffect(() => {
         if (!ready || typeof document === "undefined") return;
-        if (gender && gender !== "all") {
+        if (gender) {
             document.cookie = `gender-pref=${encodeURIComponent(JSON.stringify(gender))}; path=/; max-age=31536000; SameSite=Lax`;
         } else {
             document.cookie = `gender-pref=; path=/; max-age=0; SameSite=Lax`;
         }
     }, [gender, ready]);
 
-    return { gender, setGender, ready };
+    return { gender, selectedGenders, toggleGender, setGender, ready };
 }
 
 export function useFavorites() {
@@ -81,6 +120,37 @@ export function useCompare() {
     const remove = (slug: string) => set((prev) => prev.filter((i) => i.slug !== slug));
     const clear = () => set([]);
     return { items, has, isFull, toggle, remove, clear, ready };
+}
+
+export interface RecentPerfume {
+    name: string;
+    slug: string;
+    brand: { name: string; slug: string };
+    gender: string;
+    concentration?: string | null;
+    fragranceFamily?: string | null;
+    releaseYear?: number | null;
+    imageUrl?: string | null;
+    avgRating: number;
+    ratingCount: number;
+    accords?: string[];
+    path: string;
+    isAi?: boolean;
+}
+
+export function useRecentPerfumes() {
+    const [items, set, ready] = useLocalState<RecentPerfume[]>("recent-perfumes", []);
+    const addRecent = useCallback(
+        (p: RecentPerfume) => {
+            set((prev) => {
+                const filtered = prev.filter((i) => i.slug !== p.slug);
+                return [p, ...filtered].slice(0, 20);
+            });
+        },
+        [set],
+    );
+    const clearRecent = useCallback(() => set([]), [set]);
+    return { items, addRecent, clearRecent, ready };
 }
 
 /**

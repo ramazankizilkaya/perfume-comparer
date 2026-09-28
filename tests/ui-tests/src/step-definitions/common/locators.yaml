@@ -1,0 +1,156 @@
+Header Logo:
+  desktop: 'a.logo'
+  mobile: 'a.logo'
+Header Compare Link:
+  desktop: 'a.nav-link[href*="/karsilastir"]'
+  mobile: '.mobile-nav-link[href*="/karsilastir"]'
+Header Search Link:
+  desktop: 'a.nav-link[href*="/detayli-arama"]'
+  mobile: '.mobile-nav-link[href*="/detayli-arama"]'
+Header Brands Link:
+  desktop: 'a.nav-link[href*="/marka"]'
+  mobile: '.mobile-nav-link[href*="/marka"]'
+Header Blog Link:
+  desktop: 'a.nav-link[href*="/blog"]'
+  mobile: '.mobile-nav-link[href*="/blog"]'
+Header Home Button:
+  desktop: '.home-btn'
+  mobile: '.home-btn'
+Gender Dropdown Button:
+  desktop: '.gender-btn'
+  mobile: '.gender-btn'
+Gender Option Kadin:
+  desktop: '.gender-opt:has-text("Kadın")'
+  mobile: '.gender-opt:has-text("Kadın")'
+Gender Option Erkek:
+  desktop: '.gender-opt:has-text("Erkek")'
+  mobile: '.gender-opt:has-text("Erkek")'
+Gender Option Hepsi:
+  desktop: '.gender-opt:has-text("Hepsi"), .gender-reset-btn:has-text("Hepsi")'
+  mobile: '.gender-opt:has-text("Hepsi"), .gender-reset-btn:has-text("Hepsi")'
+Theme Toggle Button:
+  desktop: '.theme-toggle-btn'
+  mobile: '.theme-toggle-btn'
+User Menu Button:
+  desktop: '.user-menu-btn'
+  mobile: '.user-menu-btn'
+Mobile Menu Toggle Button:
+  desktop: '.mobile-menu-toggle'
+  mobile: '.mobile-menu-toggle'
+Mobile Nav Panel:
+  desktop: '.mobile-nav-panel'
+  mobile: '.mobile-nav-panel'
+Header Search Input:
+  desktop: 'input[placeholder*="Parfüm, marka"]'
+  mobile: 'input[placeholder*="Parfüm, marka"]'
+Header Search Clear Button:
+  desktop: 'button[aria-label="Aramayı temizle"]'
+  mobile: 'button[aria-label="Aramayı temizle"]'
+Header Search Suggestions:
+  desktop: '.autocomplete'
+  mobile: '.autocomplete'
+Home Kesfet Section:
+  desktop: 'h2:has-text("Keşfet")'
+  mobile: 'h2:has-text("Keşfet")'
+Home Populer Section:
+  desktop: 'h2:has-text("Popüler")'
+  mobile: 'h2:has-text("Popüler")'
+Home Markalar Section:
+  desktop: 'h2:has-text("Markalar")'
+  mobile: 'h2:has-text("Markalar")'
+Home Markalar View All Link:
+  desktop: 'a.link-more[href*="/marka"]'
+  mobile: 'a.link-more[href*="/marka"]'
+Perfume Card:
+  desktop: 'a[href*="/parfum/"]'
+  mobile: 'a[href*="/parfum/"]'
+Search Page Input:
+  desktop: 'input[placeholder*="Sonuçlar içinde filtrele"]'
+  mobile: 'input[placeholder*="Sonuçlar içinde filtrele"]'
+Search Filter Toggle Button:
+  desktop: 'button:has-text("FİLTRELER")'
+  mobile: 'button:has-text("FİLTRELER")'
+Search Clear All Button:
+  desktop: 'button:has-text("Tümünü Temizle")'
+  mobile: 'button:has-text("Tümünü Temizle")'
+Search Results Grid:
+  desktop: '.perfume-card, a[href*="/parfum/"]'
+  mobile: '.perfume-card, a[href*="/parfum/"]'
+Search Load More Button:
+  desktop: 'button:has-text("Daha Fazla Göster")'
+  mobile: 'button:has-text("Daha Fazla Göster")'
+Search Brand Filter Group:
+  desktop: 'button:has-text("MARKA")'
+  mobile: 'button:has-text("MARKA")'
+Search Brand Filter Input:
+  desktop: 'input[placeholder*="Marka ara"]'
+  mobile: 'input[placeholder*="Marka ara"]'
+Search Gender Filter Group:
+  desktop: 'button:has-text("CİNSİYET")'
+  mobile: 'button:has-text("CİNSİYET")'
+Search Family Filter Group:
+  desktop: 'button:has-text("KOKU AİLESİ")'
+  mobile: 'button:has-text("KOKU AİLESİ")'
+Perfume Detail Title:
+  desktop: 'h1'
+  mobile: 'h1'
+Perfume Hero Media:
+  desktop: '.detail-media'
+  mobile: '.detail-media'
+Perfume Hero Compare Button:
+  desktop: '.media-actions button[title*="Karşılaştır"], .media-actions button[aria-label*="Karşılaştır"]'
+  mobile: '.media-actions button[title*="Karşılaştır"], .media-actions button[aria-label*="Karşılaştır"]'
+Perfume Hero Favorite Button:
+  desktop: '.media-actions .fav-btn, .media-actions button[title*="Favori"]'
+  mobile: '.media-actions .fav-btn, .media-actions button[title*="Favori"]'
+Perfume Notes Section:
+  desktop: 'h2:has-text("Koku Piramidi"), h2:has-text("Notalar"), h3:has-text("Notalar")'
+  mobile: 'h2:has-text("Koku Piramidi"), h2:has-text("Notalar"), h3:has-text("Notalar")'
+Perfume Accords Section:
+  desktop: 'h2:has-text("Ana Akorlar"), h3:has-text("Ana Akorlar")'
+  mobile: 'h2:has-text("Ana Akorlar"), h3:has-text("Ana Akorlar")'
+Perfume Comments Section:
+  desktop: '#yorumlar, h2:has-text("Yorumlar")'
+  mobile: '#yorumlar, h2:has-text("Yorumlar")'
+Perfume Review Button:
+  desktop: 'button:has-text("Değerlendir")'
+  mobile: 'button:has-text("Değerlendir")'
+Compare Table:
+  desktop: 'table, div[class*="compare"]'
+  mobile: 'table, div[class*="compare"]'
+Compare Remove Button:
+  desktop: 'button[title*="Kaldır"], button[aria-label*="Kaldır"], button:has-text("Kaldır")'
+  mobile: 'button[title*="Kaldır"], button[aria-label*="Kaldır"], button:has-text("Kaldır")'
+Brands Search Input:
+  desktop: 'input[placeholder*="Marka ara"]'
+  mobile: 'input[placeholder*="Marka ara"]'
+Brand Card:
+  desktop: 'a[href*="/tr/marka/"]'
+  mobile: 'a[href*="/tr/marka/"]'
+Brand Detail Title:
+  desktop: 'h1'
+  mobile: 'h1'
+Brand Official Website Link:
+  desktop: 'a[rel*="noopener"][href^="http"]'
+  mobile: 'a[rel*="noopener"][href^="http"]'
+Login Developer Button:
+  desktop: 'button:has-text("Geliştirici girişi")'
+  mobile: 'button:has-text("Geliştirici girişi")'
+Login Google Button:
+  desktop: 'button:has-text("Google"), #google-signin-btn'
+  mobile: 'button:has-text("Google"), #google-signin-btn'
+Blog Title:
+  desktop: 'h1:has-text("Blog")'
+  mobile: 'h1:has-text("Blog")'
+Blog Article Card:
+  desktop: 'a[href*="/tr/blog/"]'
+  mobile: 'a[href*="/tr/blog/"]'
+My Articles Title:
+  desktop: 'h1:has-text("Yazılarım")'
+  mobile: 'h1:has-text("Yazılarım")'
+Admin Title:
+  desktop: 'h1:has-text("Veri yönetimi")'
+  mobile: 'h1:has-text("Veri yönetimi")'
+Admin Seed All Button:
+  desktop: 'button:has-text("Tümünü Tohumla"), button:has-text("Tohumla")'
+  mobile: 'button:has-text("Tümünü Tohumla"), button:has-text("Tohumla")'

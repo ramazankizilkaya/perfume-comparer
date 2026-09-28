@@ -29,8 +29,8 @@ export default function CompareButton({
     return (
         <button
             type="button"
-            className={`${baseClass} has-tooltip ${inList ? " is-active" : ""}`}
-            data-tooltip={tooltipText}
+            className={`${baseClass}${inList ? " is-active" : ""}`}
+            title={tooltipText}
             disabled={disabled}
             aria-label={tooltipText}
             onClick={(e) => {

@@ -7,9 +7,7 @@ import ComparisonCard, { type ComparisonPairData } from "./ComparisonCard";
 import BlogSlider, { type BlogPost } from "./BlogSlider";
 import BrandCard, { type BrandCardData } from "./BrandCard";
 import { API_BASE, brandHref, localeHref, searchHref } from "@/lib/urls";
-import { useGenderPref } from "@/lib/stores";
-import Link from "next/link";
-import Icon from "./Icon";
+import { useGenderPref, useRecentPerfumes } from "@/lib/stores";
 
 export interface HomeFeedData {
     blogs: BlogPost[];
@@ -56,6 +54,7 @@ export default function HomeFeedClient({
     const [data, setData] = useState<HomeFeedData>(initialData);
     const [isFiltering, setIsFiltering] = useState(false);
     const { gender, ready: genderReady } = useGenderPref();
+    const { items: recentPerfumes, ready: recentReady } = useRecentPerfumes();
     const mountedRef = useRef(false);
     const prevGenderRef = useRef<string | null>(initialGender ?? null);
 
@@ -275,6 +274,17 @@ export default function HomeFeedClient({
                             </div>
                         ))
                     )}
+                </HorizontalSlider>
+            )}
+
+            {/* 10. Son Gezdiklerim */}
+            {recentReady && recentPerfumes.length > 0 && (
+                <HorizontalSlider title="Son Gezdiklerim">
+                    {recentPerfumes.map((p) => (
+                        <div key={p.slug} className="slider-item">
+                            <PerfumeCard perfume={p} />
+                        </div>
+                    ))}
                 </HorizontalSlider>
             )}
         </div>

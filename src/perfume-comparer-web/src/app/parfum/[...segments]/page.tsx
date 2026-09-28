@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
-import Score from "@/components/Score";
 import Stars from "@/components/Stars";
 import Breadcrumb from "@/components/Breadcrumb";
 import PerfumeHeroMedia from "@/components/PerfumeHeroMedia";
@@ -12,10 +11,11 @@ import PerfumeCommentsSection, { type CommentData } from "@/components/PerfumeCo
 import PerfumeArticleSection from "@/components/PerfumeArticleSection";
 import PerfumeFaqSection, { type FaqItem } from "@/components/PerfumeFaqSection";
 import PerfumeWhereToBuySection from "@/components/PerfumeWhereToBuySection";
+import RecordRecentPerfume from "@/components/RecordRecentPerfume";
 import { API_BASE, genderLabel, brandHref, perfumeHref, mediaUrl, localeHref, searchHref } from "@/lib/urls";
 import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
 import { noteIcon } from "@/lib/notes";
-import type { PerfumeRef } from "@/lib/stores";
+import type { PerfumeRef, RecentPerfume } from "@/lib/stores";
 import type { AgeGroupScore } from "@/components/UsageVote";
 
 interface Note {
@@ -210,6 +210,20 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
         path: perfume.path,
     };
 
+    const recentItem: RecentPerfume = {
+        name: perfume.name,
+        slug: perfume.slug,
+        brand: perfume.brand,
+        gender: perfume.gender,
+        concentration: perfume.concentration,
+        fragranceFamily: perfume.fragranceFamily,
+        releaseYear: perfume.releaseYear,
+        imageUrl: perfume.imageUrl,
+        avgRating: perfume.avgRating,
+        ratingCount: perfume.ratingCount,
+        path: perfume.path,
+    };
+
     const perfumeUrl = absoluteUrl(perfumeHref(perfume.path, perfume.slug));
     const productImageUrl = mediaUrl(perfume.imageUrl);
 
@@ -330,6 +344,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                     dangerouslySetInnerHTML={{ __html: jsonLd(jsonLdFaq) }}
                 />
             )}
+            <RecordRecentPerfume perfume={recentItem} />
             <Breadcrumb items={perfume.breadcrumb} />
 
             <div className="detail-head">
@@ -342,7 +357,6 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                     <h1 className="detail-name">{perfume.name}</h1>
 
                     <div className="detail-rating">
-                        <Score value={perfume.avgRating} count={perfume.ratingCount} lg caption="/ 100" />
                         <div className="detail-rating-meta">
                             <Stars value={perfume.avgRating} size={18} />
                             <span>

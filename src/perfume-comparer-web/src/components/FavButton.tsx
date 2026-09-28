@@ -12,8 +12,8 @@ export default function FavButton({ perfume, className }: { perfume: PerfumeRef;
     return (
         <button
             type="button"
-            className={`fav-btn has-tooltip ${active ? "on" : ""} ${className ?? ""}`}
-            data-tooltip={active ? "Favorilerden çıkar" : "Favorilere ekle"}
+            className={`fav-btn ${active ? "on" : ""} ${className ?? ""}`}
+            title={active ? "Favorilerden çıkar" : "Favorilere ekle"}
             aria-pressed={active}
             aria-label={active ? "Favorilerden çıkar" : "Favorilere ekle"}
             onClick={(e) => {
