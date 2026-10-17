@@ -56,7 +56,7 @@ def build_enrichment_prompt(perfume_data: dict) -> str:
     brand = perfume_data.get("brand", "")
     gender = perfume_data.get("targetGender", "")
     family = perfume_data.get("fragranceFamily", "Bilinmiyor")
-    conc = perfume_data.get("concentration", "Edp")
+    conc = perfume_data.get("concentration") or "Bilinmiyor"
     desc = perfume_data.get("description", "")
     
     # Notalar ve akorlar
@@ -137,10 +137,7 @@ Aşağıdaki parfümün resmi verilerini, oylama dağılımlarını ve gerçek k
 3. 'description' (Zenginleştirilmiş Ürün Tanıtım Metni):
    - Orijinal bilgileri (notalar, koku karakteri, çıkış yılı) koruyarak akıcı, özgün, şık bir Türkçe ürün tanıtım paragrafı oluştur.
 
-4. 'concentration' (Esans Tipi):
-   - 'Edp', 'Edt', 'Parfum', 'Extrait', 'Edc', 'EauFraiche', 'RollOn' seçeneklerinden en doğrusunu belirle (belirsizse mevcut '{conc}' değerini koru).
-
-5. 'fragranceFamily' (Koku Ailesi):
+4. 'fragranceFamily' (Koku Ailesi):
    - 'Oriental', 'Woody', 'Fresh', 'Floral', 'Citrus', 'Gourmand', 'Aromatic', 'Fougere', 'Leather', 'Other' arasından en uygununu belirle.
 
 Yalnızca aşağıdaki JSON formatında saf çıktı ver (markdown kod bloğu backtick olmadan):
@@ -150,7 +147,6 @@ Yalnızca aşağıdaki JSON formatında saf çıktı ver (markdown kod bloğu ba
     {{ "question": "...", "answer": "..." }}
   ],
   "description": "...",
-  "concentration": "Edp",
   "fragranceFamily": "Gourmand"
 }}"""
 
@@ -450,7 +446,6 @@ def enrich_single_perfume(
     article = ai_result.get("article", "").strip()
     faq = ai_result.get("faq", [])
     desc_enhanced = (ai_result.get("description") or "").strip()
-    concentration = ai_result.get("concentration")
     fragrance_family = ai_result.get("fragranceFamily")
 
     if not article or not isinstance(faq, list):
@@ -462,8 +457,7 @@ def enrich_single_perfume(
     if desc_enhanced:
         data["description"] = desc_enhanced
         data["description_enhanced"] = desc_enhanced
-    if concentration:
-        data["concentration"] = concentration
+    # Esans tipi AI tahminiyle YAZILMAZ: tek kaynak parfüm adıdır (scripts/concentration.py).
     if fragrance_family:
         data["fragranceFamily"] = fragrance_family
 

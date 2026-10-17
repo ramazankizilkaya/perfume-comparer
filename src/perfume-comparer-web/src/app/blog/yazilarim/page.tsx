@@ -6,7 +6,7 @@ import { PageBreadcrumb } from "@/components/Breadcrumb";
 import LoginPrompt from "@/components/LoginPrompt";
 import Icon from "@/components/Icon";
 import { API_BASE, formatDate, blogHref } from "@/lib/urls";
-import { useAuth } from "@/lib/stores";
+import { useAuth, authFetch } from "@/lib/stores";
 
 interface MyBlogPost {
     id: number;
@@ -28,37 +28,27 @@ const STATUS_LABELS: Record<string, { label: string; badgeClass: string }> = {
 };
 
 export default function MyBlogsPage() {
-    const { user, token, ready } = useAuth();
-    const [blogs, setBlogs] = useState<MyBlogPost[]>([]);
-    const [loading, setLoading] = useState(true);
+    const { token, ready } = useAuth();
+    // null: henüz yüklenmedi. Yükleme durumu buradan türetilir; effect içinde ayrıca setState gerekmez.
+    const [blogs, setBlogs] = useState<MyBlogPost[] | null>(null);
+    const loading = Boolean(token) && blogs === null;
 
     useEffect(() => {
-        if (!ready || !token) {
-            setLoading(false);
-            return;
-        }
+        if (!ready || !token) return;
 
-        async function fetchMyBlogs() {
-            setLoading(true);
+        const controller = new AbortController();
+        (async () => {
             try {
-                const res = await fetch(`${API_BASE}/api/blogs/my`, {
-                    headers: {
-                        Authorization: `Bearer ${token}`,
-                        "X-Requested-With": "XMLHttpRequest",
-                    },
-                });
-                if (res.ok) {
-                    const data = await res.json();
-                    setBlogs(data);
-                }
+                // authFetch: oturum başlıkları eklenir; 401 (süresi dolmuş oturum) gelirse oturum
+                // silinir ve giriş sayfasına yönlendirilir, "yazınız yok" diye yanlış mesaj çıkmaz.
+                const res = await authFetch(`${API_BASE}/api/blogs/my`, { signal: controller.signal });
+                if (controller.signal.aborted) return;
+                setBlogs(res.ok ? await res.json() : []);
             } catch {
-                setBlogs([]);
-            } finally {
-                setLoading(false);
+                if (!controller.signal.aborted) setBlogs([]);
             }
-        }
-
-        fetchMyBlogs();
+        })();
+        return () => controller.abort();
     }, [ready, token]);
 
     return (
@@ -81,7 +71,7 @@ export default function MyBlogsPage() {
             <LoginPrompt label="Yazılarınızı görüntülemek ve yeni yazı göndermek için giriş yapın.">
                 {loading ? (
                     <p className="muted" style={{ padding: "2rem 0" }}>Yazılarınız yükleniyor…</p>
-                ) : blogs.length > 0 ? (
+                ) : blogs && blogs.length > 0 ? (
                     <div style={{ display: "grid", gap: "1rem", marginTop: "1rem" }}>
                         {blogs.map((b) => {
                             const statusInfo = STATUS_LABELS[b.status] ?? { label: b.status, badgeClass: "badge-muted" };

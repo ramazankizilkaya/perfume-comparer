@@ -51,23 +51,31 @@ export default function PerfumePicker({
         // effect gövdesinde senkron setState çağrısı olmuyor.
         if (term.length < 2) return;
 
+        // Hızlı yazarken önceki istek iptal edilir; eski öneriler yeni sorgunun üstüne yazılmaz.
+        const controller = new AbortController();
         const t = setTimeout(async () => {
             setLoading(true);
             try {
-                const res = await fetch(`${API_BASE}/api/search/autocomplete?q=${encodeURIComponent(term)}`);
+                const res = await fetch(`${API_BASE}/api/search/autocomplete?q=${encodeURIComponent(term)}`, {
+                    signal: controller.signal,
+                });
                 if (res.ok) {
                     const data = await res.json();
+                    if (controller.signal.aborted) return;
                     setItems((data.perfumes ?? []).slice(0, 8));
                     setOpen(true);
                 }
             } catch {
-                setItems([]);
+                if (!controller.signal.aborted) setItems([]);
             } finally {
-                setLoading(false);
+                if (!controller.signal.aborted) setLoading(false);
             }
         }, 250);
 
-        return () => clearTimeout(t);
+        return () => {
+            clearTimeout(t);
+            controller.abort();
+        };
     }, [term]);
 
     // Dışarı tıklayınca öneri listesi kapansın.

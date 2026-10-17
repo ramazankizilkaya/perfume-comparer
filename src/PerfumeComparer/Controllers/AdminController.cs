@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using PerfumeComparer.Business.Services;
+using PerfumeComparer.Controllers.Filters;
 using PerfumeComparer.Data;
 using System.Threading;
 using System.Threading.Tasks;
@@ -8,10 +9,12 @@ namespace PerfumeComparer.Controllers;
 
 /// <summary>
 /// Yönetim uçları: tohumlama artık otomatik değil, buradan tetiklenir.
-/// Frontend karşılığı: /admin sayfası.
+/// Frontend karşılığı: /admin sayfası. Tüm uçlar Admin rolü ister
+/// (jeton yoksa 401, rol Admin değilse 403).
 /// </summary>
 [ApiController]
 [Route("api/admin")]
+[RequireAdmin]
 public class AdminController(ISeedService seeder, AiSummaryJob aiJob, IAiSummaryClient ai) : ControllerBase
 {
     /// <summary>Tohumlanabilir şemalar ve kayıt sayıları.</summary>

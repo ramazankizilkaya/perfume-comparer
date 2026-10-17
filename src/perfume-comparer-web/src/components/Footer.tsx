@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { blogHref, localeHref, searchHref } from "@/lib/urls";
+import { SITE_NAME } from "@/lib/seo";
 
 export default function Footer() {
     return (
@@ -58,7 +59,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <p className="footer-note">© {new Date().getFullYear()} AuraCompare · Puanlar ve yorumlar kullanıcılardan gelir.</p>
+                <p className="footer-note">© {new Date().getFullYear()} {SITE_NAME} · Puanlar ve yorumlar kullanıcılardan gelir.</p>
             </div>
         </footer>
     );

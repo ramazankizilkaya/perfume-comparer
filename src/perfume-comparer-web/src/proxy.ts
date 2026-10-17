@@ -8,6 +8,8 @@ import { LOCALES, DEFAULT_LOCALE } from "@/lib/i18n";
  * - /tr/... adresleri arka planda ön eksiz sayfaya rewrite edilir; tarayıcıda /tr kalır.
  * - Henüz çevirisi olmayan diller (/en/...) Türkçe içeriğin kopyası olmasın diye 404 döner.
  * - Eski /ara adresi kalıcı olarak /tr/detayli-arama'ya yönlenir.
+ * - Büyük harfli ön ek (/TR/...) tek adımda küçük harfli asıl adrese (308) yönlenir.
+ * - Noktalı statik yollar (robots.txt, sitemap.xml, manifest.webmanifest, görseller) proxy'ye takılmaz.
  */
 export function proxy(request: NextRequest) {
     const { pathname, search } = request.nextUrl;
@@ -18,9 +20,18 @@ export function proxy(request: NextRequest) {
         pathname.startsWith("/api") ||
         pathname.startsWith("/media") ||
         pathname.startsWith("/stores") ||
-        /\.(ico|png|jpg|jpeg|webp|svg|gif|txt|xml|json|js|css|map|woff|woff2)$/i.test(pathname)
+        /\.(ico|png|jpg|jpeg|webp|svg|gif|txt|xml|json|js|css|map|woff|woff2|webmanifest)$/i.test(pathname)
     ) {
         return NextResponse.next();
+    }
+
+    // Dil ön eki büyük/küçük harfe duyarsız tanınır: /TR/marka tek bir 308 ile /tr/marka olur.
+    // (Önceden /TR önek sayılmıyor, /tr/TR/marka adresine yönlenip 404 veriyordu.)
+    const firstSegment = pathname.split("/")[1] ?? "";
+    const lowerFirst = firstSegment.toLowerCase();
+    if (firstSegment !== lowerFirst && (LOCALES as readonly string[]).includes(lowerFirst)) {
+        const fixedPath = `/${lowerFirst}${pathname.slice(firstSegment.length + 1)}`;
+        return NextResponse.redirect(new URL(`${fixedPath}${search}`, request.url), 308);
     }
 
     // İstek desteklenen bir dil ön ekiyle mi başlıyor? (örn: /tr, /tr/ara, /en)

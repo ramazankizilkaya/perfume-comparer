@@ -1,6 +1,10 @@
+using System.Security.Cryptography;
+using System.Text;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Antiforgery;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.RateLimiting;
+using System.Net;
 using System.Threading.RateLimiting;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.Extensions.FileProviders;
@@ -24,6 +28,10 @@ try
     // deploy'da dosya olmadan da her ayar ezilebilsin.
     builder.Configuration.AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true);
     builder.Configuration.AddEnvironmentVariables();
+
+    // Canlıda eksik/zayıf sırla açılmak yerine ilk saniyede durmak daha güvenli.
+    if (!builder.Environment.IsDevelopment())
+        ValidateProductionConfig(builder.Configuration);
 
     builder.Host.UseSerilog((context, services, configuration) => configuration
         .ReadFrom.Configuration(context.Configuration)
@@ -57,6 +65,8 @@ try
     builder.Services.AddScoped<ISeedService, SeedService>();
     builder.Services.AddSingleton<ITokenService, TokenService>();
     builder.Services.AddSingleton<IGeminiClient, GeminiClient>();
+    builder.Services.AddSingleton<IAiRequestGate, AiRequestGate>();
+    builder.Services.AddSingleton<MediaPaths>();
     builder.Services.AddScoped<IAiSearchPlanner, AiSearchPlanner>();
     builder.Services.AddScoped<ICompareAiService, CompareAiService>();
     builder.Services.AddMemoryCache();
@@ -77,17 +87,35 @@ try
     builder.Services.AddProblemDetails();
     builder.Services.AddHealthChecks().AddDbContextCheck<AppDbContext>();
 
+    // Ters proxy (nginx, Next sunucusu) arkasında gerçek ziyaretçi IP'si ve şeması
+    // X-Forwarded-For / X-Forwarded-Proto başlıklarından okunur. Başlıklara yalnızca
+    // loopback ve ForwardedHeaders:KnownProxies listesindeki adreslerden gelince güvenilir.
+    builder.Services.Configure<ForwardedHeadersOptions>(options =>
+    {
+        options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+        foreach (var proxy in builder.Configuration.GetSection("ForwardedHeaders:KnownProxies").Get<string[]>() ?? [])
+        {
+            if (IPAddress.TryParse(proxy, out var ip))
+                options.KnownProxies.Add(ip);
+            else
+                Log.Warning("ForwardedHeaders:KnownProxies geçersiz IP atlandı: {Proxy}", proxy);
+        }
+    });
+
+    // CORS: geliştirmede her kaynak serbest; canlıda yalnızca Cors:AllowedOrigins listesi.
+    // Tarayıcı API'ye doğrudan gittiği için site alan adı bu listede olmalıdır.
+    var allowedOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>() ?? [];
     builder.Services.AddCors(options =>
     {
-        options.AddPolicy("DevCors", policy =>
-        {
-            policy.AllowAnyOrigin()
-                  .AllowAnyMethod()
-                  .AllowAnyHeader();
-        });
+        options.AddPolicy("DevCors", policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+        options.AddPolicy("ProdCors", policy => policy
+            .WithOrigins(allowedOrigins)
+            .AllowAnyMethod()
+            .AllowAnyHeader());
     });
 
     // Rate Limiting
+    var internalKey = builder.Configuration["Api:InternalKey"];
     builder.Services.AddRateLimiter(options =>
     {
         options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
@@ -97,26 +125,32 @@ try
             await context.HttpContext.Response.WriteAsync("{\"message\":\"Çok fazla istek gönderildi. Lütfen bir süre bekleyin.\"}", token);
         };
 
-        options.AddFixedWindowLimiter("StrictRateLimit", opt =>
-        {
-            opt.PermitLimit = 5;
-            opt.Window = TimeSpan.FromSeconds(10);
-            opt.QueueLimit = 0;
-        });
+        // Sıkı kural: IP başına 10 saniyede 5 istek (uçlara [EnableRateLimiting] ile bağlanır).
+        options.AddPolicy("StrictRateLimit", httpContext =>
+            RateLimitPartition.GetFixedWindowLimiter(ClientIp(httpContext), _ => new FixedWindowRateLimiterOptions
+            {
+                PermitLimit = 5,
+                Window = TimeSpan.FromSeconds(10),
+                QueueLimit = 0,
+            }));
 
         options.GlobalLimiter = PartitionedRateLimiter.Create<HttpContext, string>(httpContext =>
         {
             var path = httpContext.Request.Path;
-            if (path.StartsWithSegments("/media") || 
-                path.StartsWithSegments("/blog_backgrounds") || 
+            if (path.StartsWithSegments("/media") ||
+                path.StartsWithSegments("/blog_backgrounds") ||
                 path.StartsWithSegments("/health") ||
                 path.StartsWithSegments("/openapi"))
             {
                 return RateLimitPartition.GetNoLimiter("unlimited_assets");
             }
 
-            var clientIp = httpContext.Connection.RemoteIpAddress?.ToString() ?? "unknown";
-            return RateLimitPartition.GetFixedWindowLimiter(clientIp, _ => new FixedWindowRateLimiterOptions
+            // Next.js sunucusundan gelen (sunucu tarafı render) istekler tek IP'den
+            // çıkar; gizli X-Internal-Key başlığı taşıyorlarsa IP sınırından muaftır.
+            if (IsInternalRequest(httpContext, internalKey))
+                return RateLimitPartition.GetNoLimiter("internal_server");
+
+            return RateLimitPartition.GetFixedWindowLimiter(ClientIp(httpContext), _ => new FixedWindowRateLimiterOptions
             {
                 PermitLimit = 300,
                 Window = TimeSpan.FromMinutes(1),
@@ -136,10 +170,24 @@ try
 
     var app = builder.Build();
 
+    // IP/şema düzeltmesi, IP'yi okuyan her şeyden (rate limit, görüntülenme sayacı) önce gelmeli.
+    app.UseForwardedHeaders();
+
     app.UseSerilogRequestLogging();
     app.UseExceptionHandler();
-    
-    app.UseCors("DevCors");
+
+    // Tarayıcı, içerik türünü dosya içeriğinden tahmin etmesin (yüklenen dosyalar dahil).
+    app.Use(async (context, next) =>
+    {
+        context.Response.OnStarting(() =>
+        {
+            context.Response.Headers.XContentTypeOptions = "nosniff";
+            return Task.CompletedTask;
+        });
+        await next();
+    });
+
+    app.UseCors(app.Environment.IsDevelopment() ? "DevCors" : "ProdCors");
     app.UseRateLimiter();
     app.UseAntiforgery();
 
@@ -164,41 +212,70 @@ try
         await next();
     });
 
+    // Statik görseller değişmez (dosya adı değişince URL de değişir); tarayıcı ve CDN
+    // bir yıl önbellekte tutabilir.
+    static void CacheForever(StaticFileResponseContext ctx) =>
+        ctx.Context.Response.Headers.CacheControl = "public, max-age=31536000, immutable";
+
+    // Yalnızca görsel uzantıları servis edilir: scrape_files içindeki JSON/TXT gibi ham
+    // veri dosyaları /media üzerinden okunamaz (404).
+    var imageTypes = new FileExtensionContentTypeProvider(new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+    {
+        [".webp"] = "image/webp",
+        [".jpg"] = "image/jpeg",
+        [".jpeg"] = "image/jpeg",
+        [".png"] = "image/png",
+        [".gif"] = "image/gif",
+    });
+
     // wwwroot: blog arka planı gibi uygulamayla birlikte gelen statik görseller
     // (/blog_backgrounds/... olarak servis edilir).
-    app.UseStaticFiles();
+    app.UseStaticFiles(new StaticFileOptions
+    {
+        ContentTypeProvider = imageTypes,
+        ServeUnknownFileTypes = false,
+        OnPrepareResponse = CacheForever,
+    });
+
+    var media = app.Services.GetRequiredService<MediaPaths>();
+
+    // Kullanıcı fotoğrafları: scrape_files dışında, kalıcı bir klasörden /media/user-photos/...
+    Directory.CreateDirectory(media.UserPhotosRoot);
+    app.UseStaticFiles(new StaticFileOptions
+    {
+        FileProvider = new PhysicalFileProvider(media.UserPhotosRoot),
+        RequestPath = MediaPaths.UserPhotosRequestPath,
+        ContentTypeProvider = imageTypes,
+        ServeUnknownFileTypes = false,
+        OnPrepareResponse = CacheForever,
+    });
 
     // Scrape edilen marka ve parfüm görselleri: repo içindeki scrape_files klasörü
     // /media altından servis edilir (DB'de "/media/perfumes/<marka>/<dosya>.webp" durur).
     // Kopyalama yok, tek kaynak scrape_files.
-    var mediaRoot = Path.GetFullPath(Path.Combine(
-        builder.Environment.ContentRootPath,
-        builder.Configuration["Media:Root"] ?? "../../scrape_files"));
-
-    if (Directory.Exists(mediaRoot))
+    if (Directory.Exists(media.ScrapeRoot))
     {
-        var contentTypes = new FileExtensionContentTypeProvider();
-        contentTypes.Mappings[".webp"] = "image/webp";
-
         app.UseStaticFiles(new StaticFileOptions
         {
-            FileProvider = new PhysicalFileProvider(mediaRoot),
+            FileProvider = new PhysicalFileProvider(media.ScrapeRoot),
             RequestPath = "/media",
-            ContentTypeProvider = contentTypes,
+            ContentTypeProvider = imageTypes,
             ServeUnknownFileTypes = false,
+            OnPrepareResponse = CacheForever,
         });
     }
     else
     {
-        Log.Warning("Görsel klasörü bulunamadı, /media kapalı: {MediaRoot}", mediaRoot);
+        Log.Warning("Görsel klasörü bulunamadı, /media kapalı: {MediaRoot}", media.ScrapeRoot);
     }
 
     if (app.Environment.IsDevelopment())
-    {
         app.MapOpenApi();
 
-        // Sadece şema kurulur; veri tohumlama otomatik DEĞİL — /admin sayfasından tetiklenir.
-        using var scope = app.Services.CreateScope();
+    // Her ortamda: şema yoksa kurulur, sonradan eklenen tablo/kolon/index'ler tamamlanır
+    // (idempotent). Veri tohumlama otomatik DEĞİL — /admin sayfasından tetiklenir.
+    using (var scope = app.Services.CreateScope())
+    {
         var seeder = scope.ServiceProvider.GetRequiredService<ISeedService>();
         await seeder.EnsureSchemaAsync();
     }
@@ -233,8 +310,48 @@ try
 catch (Exception ex) when (ex is not HostAbortedException) // EF design-time aracı host'u kasıtlı iptal eder
 {
     Log.Fatal(ex, "Uygulama başlatılamadı");
+    Environment.ExitCode = 1;
 }
 finally
 {
     Log.CloseAndFlush();
+}
+
+static string ClientIp(HttpContext httpContext) =>
+    httpContext.Connection.RemoteIpAddress?.ToString() ?? "unknown";
+
+/// <summary>Next.js sunucusunun gizli anahtarı (Api:InternalKey) ile mi geldi? Anahtar tanımsızsa kimse muaf değildir.</summary>
+static bool IsInternalRequest(HttpContext httpContext, string? internalKey)
+{
+    if (string.IsNullOrWhiteSpace(internalKey)) return false;
+    if (!httpContext.Request.Headers.TryGetValue("X-Internal-Key", out var header)) return false;
+
+    var given = Encoding.UTF8.GetBytes(header.ToString());
+    var expected = Encoding.UTF8.GetBytes(internalKey);
+    return given.Length == expected.Length && CryptographicOperations.FixedTimeEquals(given, expected);
+}
+
+/// <summary>
+/// Development dışındaki ortamlarda açılış öncesi zorunlu ayarlar. Eksikse uygulama
+/// hiç açılmaz; böylece herkesin bildiği JWT anahtarıyla ya da Google audience
+/// kontrolü olmadan canlıya çıkılamaz.
+/// </summary>
+static void ValidateProductionConfig(IConfiguration config)
+{
+    const string defaultSecret = "dev-insecure-secret-please-change-in-production-0123456789";
+    var errors = new List<string>();
+
+    var secret = config["Auth:Secret"];
+    if (string.IsNullOrWhiteSpace(secret))
+        errors.Add("Auth:Secret tanımlı değil (Auth__Secret ortam değişkeni; üretmek için: openssl rand -base64 48).");
+    else if (secret == defaultSecret)
+        errors.Add("Auth:Secret örnek dosyadaki varsayılan değerle aynı; değiştirin.");
+    else if (Encoding.UTF8.GetByteCount(secret) < 32)
+        errors.Add("Auth:Secret en az 32 bayt olmalı.");
+
+    if (string.IsNullOrWhiteSpace(config["Google:ClientId"]))
+        errors.Add("Google:ClientId tanımlı değil (Google__ClientId; NEXT_PUBLIC_GOOGLE_CLIENT_ID ile aynı değer).");
+
+    if (errors.Count > 0)
+        throw new InvalidOperationException("Üretim yapılandırması eksik:\n - " + string.Join("\n - ", errors));
 }

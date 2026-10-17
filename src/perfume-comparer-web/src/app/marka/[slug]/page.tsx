@@ -5,8 +5,11 @@ import Breadcrumb from "@/components/Breadcrumb";
 import BrandPerfumesClient, { type BrandDetail } from "@/components/BrandPerfumesClient";
 import BrandPagination from "@/components/BrandPagination";
 import type { PerfumeCardData } from "@/components/PerfumeCard";
-import { API_BASE, mediaUrl, brandHref, localeHref, perfumeHref } from "@/lib/urls";
+import { mediaUrl, brandHref, localeHref, perfumeHref } from "@/lib/urls";
 import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
+import { apiError, apiFetch } from "@/lib/api";
+import { fullPerfumeName } from "@/lib/perfumeName";
+import { activityLabel, countryLabel, syncPerfumeCountInText } from "@/lib/brandLabels";
 
 interface PageProps {
     params: Promise<{ slug: string }>;
@@ -27,9 +30,9 @@ export async function generateMetadata({ params, searchParams }: PageProps): Pro
         if (pageNum <= 0) notFound();
     }
 
-    const res = await fetch(`${API_BASE}/api/brands/${slug}`, { next: { revalidate: 60 } });
+    const res = await apiFetch(`/api/brands/${slug}`, { next: { revalidate: 60 } });
     if (res.status === 404) notFound();
-    if (!res.ok) throw new Error(`API hatası: ${res.status}`);
+    if (!res.ok) throw apiError(res, "API hatası");
     const brand: BrandDetail = await res.json();
 
     const totalPages = Math.max(1, Math.ceil(brand.perfumeCount / 24));
@@ -38,7 +41,8 @@ export async function generateMetadata({ params, searchParams }: PageProps): Pro
     }
 
     const descParts: string[] = [];
-    if (brand.country) descParts.push(`${brand.country} menşeili`);
+    const country = countryLabel(brand.country);
+    if (country) descParts.push(`${country} menşeili`);
     if (brand.perfumeCount) descParts.push(`${brand.perfumeCount} parfüm`);
     if (brand.firstYear && brand.lastYear) descParts.push(`${brand.firstYear} - ${brand.lastYear}`);
     const summary = descParts.length > 0 ? ` (${descParts.join(", ")})` : "";
@@ -77,17 +81,20 @@ export default async function BrandPage({ params, searchParams }: PageProps) {
         }
     }
 
-    const brandRes = await fetch(`${API_BASE}/api/brands/${slug}`, { next: { revalidate: 60 } });
+    const brandRes = await apiFetch(`/api/brands/${slug}`, { next: { revalidate: 60 } });
     // Marka yoksa 404; API hatasında 500 (geçici kesinti "sayfa silindi" sayılmasın).
+    // 429'da hataya özel digest yazılır ve error.tsx "çok yoğunuz" mesajı gösterir.
     if (brandRes.status === 404) notFound();
-    if (!brandRes.ok) throw new Error(`Marka alınamadı: ${brandRes.status}`);
+    if (!brandRes.ok) throw apiError(brandRes, "Marka alınamadı");
     const brand: BrandDetail = await brandRes.json();
+    // Açıklama metnindeki eski parfüm sayısı tablo ile aynı (güncel) değere çekilir.
+    const description = syncPerfumeCountInText(brand.description, brand.perfumeCount);
 
     let initialPerfumes: PerfumeCardData[] = [];
     let initialTotal = 0;
 
     try {
-        const perfumesRes = await fetch(`${API_BASE}/api/perfumes?brand=${slug}&page=${pageNum}&pageSize=24`, {
+        const perfumesRes = await apiFetch(`/api/perfumes?brand=${slug}&page=${pageNum}&pageSize=24`, {
             next: { revalidate: 60 },
         });
         if (perfumesRes.ok) {
@@ -112,7 +119,7 @@ export default async function BrandPage({ params, searchParams }: PageProps) {
         name: brand.name,
         url: brandUrl,
         ...(brand.logoUrl ? { logo: mediaUrl(brand.logoUrl) } : {}),
-        ...(brand.description ? { description: brand.description } : {}),
+        ...(description ? { description } : {}),
         ...(brand.websiteUrl ? { sameAs: [brand.websiteUrl] } : {}),
     };
 
@@ -125,7 +132,7 @@ export default async function BrandPage({ params, searchParams }: PageProps) {
         itemListElement: initialPerfumes.map((p, idx) => ({
             "@type": "ListItem",
             position: offset + idx + 1,
-            name: p.name.toLowerCase().includes(brand.name.toLowerCase()) ? p.name : `${brand.name} ${p.name}`,
+            name: fullPerfumeName(p),
             url: absoluteUrl(perfumeHref(p.path, p.slug)),
         })),
     };
@@ -174,7 +181,7 @@ export default async function BrandPage({ params, searchParams }: PageProps) {
 
                 <div className="brand-head-main">
                     <h1 className="brand-name">{brand.name}</h1>
-                    {brand.description && <p className="brand-desc">{brand.description}</p>}
+                    {description && <p className="brand-desc">{description}</p>}
                     {brand.websiteUrl && (
                         <a className="link-more" href={brand.websiteUrl} target="_blank" rel="noreferrer noopener">
                             Resmi site <Icon name="arrow-right" size={13} />
@@ -184,8 +191,8 @@ export default async function BrandPage({ params, searchParams }: PageProps) {
 
                 <table className="spec brand-spec">
                     <tbody>
-                        <BrandSpec label="Ülke" value={brand.country} />
-                        <BrandSpec label="Faaliyet" value={brand.mainActivity} />
+                        <BrandSpec label="Ülke" value={countryLabel(brand.country)} />
+                        <BrandSpec label="Faaliyet" value={activityLabel(brand.mainActivity)} />
                         <BrandSpec label="Ana şirket" value={brand.parentCompany} />
                         <BrandSpec label="Parfüm sayısı" value={brand.perfumeCount.toString()} />
                         <BrandSpec
@@ -200,7 +207,9 @@ export default async function BrandPage({ params, searchParams }: PageProps) {
                 </table>
             </header>
 
+            {/* key: ?sayfa= değişince bileşen sıfırdan kurulur; aksi halde eski sayfanın kartları ekranda kalır. */}
             <BrandPerfumesClient
+                key={pageNum}
                 slug={slug}
                 brand={brand}
                 initialPerfumes={initialPerfumes}

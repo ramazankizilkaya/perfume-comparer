@@ -54,5 +54,9 @@ Thumbs.db
 !.env.example
 appsettings.Local.json
 src/PerfumeComparer/appsettings.Local.json
+
+# Kullanıcı fotoğrafları: kalıcı veri, repoya girmez (Media:UserPhotosRoot)
+user-photos/
+scrape_files/user_uploads/
 node_modules
 node_modules

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { localeHref, mediaUrl } from "@/lib/urls";
 import Icon from "./Icon";
 import { useCompare } from "@/lib/stores";
@@ -10,7 +11,11 @@ const PLACEHOLDER =
 
 export default function CompareBar() {
     const { items, remove, clear, ready } = useCompare();
+    const pathname = usePathname();
 
+    // Karşılaştırma sayfasında alttaki sepet çubuğu gizlenir: tablo ile çubuk farklı
+    // parfümleri gösterip kullanıcıyı şaşırtıyordu. Sayfa açılışında sepet URL'ye taşınır.
+    if (pathname?.includes("/karsilastir")) return null;
     if (!ready || items.length === 0) return null;
 
     const href = localeHref(`/karsilastir?items=${items.map((i) => i.slug).join(",")}`);

@@ -7,7 +7,9 @@ namespace PerfumeComparer.Business.Dtos;
 /// /api/perfumes?gender=erkek&amp;brand=dior,chanel&amp;note=oud&amp;sort=rating
 /// </summary>
 public record PerfumeListQuery(
-    /// <summary>Serbest metin araması (parfüm veya marka adında; büyük/küçük harf duyarsız).</summary>
+    /// <summary>Serbest metin araması (parfüm veya marka adında; büyük/küçük harf duyarsız).
+    /// Servis ilk 100 karakter ve 6 kelimeyi dikkate alır.</summary>
+    [StringLength(200, ErrorMessage = "Arama metni en fazla 200 karakter olabilir.")]
     string? Q = null,
     /// <summary>Cinsiyet slug'ları (çoklu): erkek,kadin,unisex</summary>
     string? Gender = null,

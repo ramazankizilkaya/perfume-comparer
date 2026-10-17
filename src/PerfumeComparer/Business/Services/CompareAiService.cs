@@ -23,6 +23,31 @@ public class CompareAiService(
 {
     private static readonly HttpClient HttpClient = new() { Timeout = TimeSpan.FromSeconds(25) };
 
+    public async Task<string?> GetCachedComparisonAnalysisAsync(string p1Slug, string p2Slug, CancellationToken ct = default)
+    {
+        var ids = await db.Perfumes
+            .AsNoTracking()
+            .Where(p => p.Slug == p1Slug || p.Slug == p2Slug)
+            .Select(p => p.Id)
+            .ToListAsync(ct);
+
+        if (ids.Count < 2)
+            return null;
+
+        var (firstId, secondId) = ComparisonComment.NormalizePair(ids[0], ids[1]);
+        return await FindCachedAsync(firstId, secondId, ct);
+    }
+
+    private async Task<string?> FindCachedAsync(int firstId, int secondId, CancellationToken ct)
+    {
+        var cached = await db.ComparisonComments
+            .AsNoTracking()
+            .FirstOrDefaultAsync(c => c.Perfume1Id == firstId && c.Perfume2Id == secondId
+                                      && c.IsAiSummary && c.AiKind == ComparisonAiKind.Analysis, ct);
+
+        return string.IsNullOrWhiteSpace(cached?.Body) ? null : cached.Body;
+    }
+
     public async Task<string?> GetOrGenerateComparisonAnalysisAsync(string p1Slug, string p2Slug, CancellationToken ct = default)
     {
         var perfumes = await db.Perfumes
@@ -44,14 +69,9 @@ public class CompareAiService(
         var (firstId, secondId) = ComparisonComment.NormalizePair(p1.Id, p2.Id);
 
         // 1. Önbellekte (veritabanında) var mı kontrol et
-        var cached = await db.ComparisonComments
-            .AsNoTracking()
-            .FirstOrDefaultAsync(c => c.Perfume1Id == firstId && c.Perfume2Id == secondId && c.IsAiSummary, ct);
-
-        if (cached is not null && !string.IsNullOrWhiteSpace(cached.Body))
-        {
-            return cached.Body;
-        }
+        var cached = await FindCachedAsync(firstId, secondId, ct);
+        if (cached is not null)
+            return cached;
 
         // 2. Yoksa AI ile üret
         var prompt = BuildPrompt(p1, p2);
@@ -73,6 +93,7 @@ public class CompareAiService(
             Perfume2Id = secondId,
             Body = analysis.Trim(),
             IsAiSummary = true,
+            AiKind = ComparisonAiKind.Analysis,
             Status = ModerationStatus.Approved,
             CreatedAt = DateTimeOffset.UtcNow
         };
@@ -85,11 +106,9 @@ public class CompareAiService(
         catch (DbUpdateException ex)
         {
             logger.LogWarning(ex, "AI karşılaştırma özeti kaydedilirken yarış durumu oluştu; mevcut kayıt kullanılacak.");
-            var fallbackCached = await db.ComparisonComments
-                .AsNoTracking()
-                .FirstOrDefaultAsync(c => c.Perfume1Id == firstId && c.Perfume2Id == secondId && c.IsAiSummary, ct);
+            var fallbackCached = await FindCachedAsync(firstId, secondId, ct);
             if (fallbackCached is not null)
-                return fallbackCached.Body;
+                return fallbackCached;
         }
 
         return newSummary.Body;

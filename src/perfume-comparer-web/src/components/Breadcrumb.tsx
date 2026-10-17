@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Icon from "./Icon";
-import { API_BASE } from "@/lib/urls";
+import { API_BASE, brandHref } from "@/lib/urls";
 import { DEFAULT_LOCALE } from "@/lib/i18n";
 
 export interface Crumb {
@@ -62,6 +62,7 @@ export default function Breadcrumb({ items }: { items: Crumb[] }) {
     // Ön ek bulunamazsa (sunucu tarafında iç yol görünebilir) varsayılan dil kullanılır;
     // böylece breadcrumb linkleri hiçbir zaman yönlendirmeye uğramaz.
     const prefix = localeMatch ? `/${localeMatch[1]}` : `/${DEFAULT_LOCALE}`;
+    const locale = prefix.slice(1);
     const searchBase = `${prefix}/detayli-arama`;
 
     const [meta, setMeta] = useState<Meta | null>(null);
@@ -123,11 +124,16 @@ export default function Breadcrumb({ items }: { items: Crumb[] }) {
                     }
                     const selfQuery = selfParams.toString();
                     const selfFallback = selfQuery ? `${searchBase}?${selfQuery}` : searchBase;
-                    const selfHref = item.href ?? selfFallback;
+                    // Marka adımı, markanın kendi sayfasına (/tr/marka/<slug>) gider; arama sayfasına değil.
+                    const isBrand = item.level === "brand";
+                    const selfHref = item.href ?? (isBrand && item.slug ? brandHref(item.slug, locale) : selfFallback);
 
                     // Açılır menüdeki seçenekler: kendisinden önceki seçimleri taşır ve seçilen değeri ekler
                     const rawOptions = optionsFor(item.level);
                     const options: CrumbOption[] = rawOptions.map((o) => {
+                        if (isBrand) {
+                            return { label: o.label, slug: o.slug, href: brandHref(o.slug, locale) };
+                        }
                         const optParams = new URLSearchParams(preceding);
                         if (param) {
                             optParams.set(param, o.slug);

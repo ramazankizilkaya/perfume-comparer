@@ -6,10 +6,10 @@ import Icon from "./Icon";
 import LoginPrompt from "./LoginPrompt";
 import RichTextEditor from "./RichTextEditor";
 import { API_BASE, blogPreviewHref } from "@/lib/urls";
-import { useAuth } from "@/lib/stores";
+import { useAuth, authFetch } from "@/lib/stores";
 
 export default function BlogWriteSection() {
-    const { token, user } = useAuth();
+    const { user } = useAuth();
     const [writing, setWriting] = useState(false);
     const [title, setTitle] = useState("");
     const [content, setContent] = useState("");
@@ -42,13 +42,10 @@ export default function BlogWriteSection() {
         setSending(true);
         setStatus("");
         try {
-            const res = await fetch(`${API_BASE}/api/blogs`, {
+            // authFetch oturum ve X-Requested-With başlıklarını ekler; 401'de oturumu temizler.
+            const res = await authFetch(`${API_BASE}/api/blogs`, {
                 method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    "X-Requested-With": "XMLHttpRequest",
-                    ...(token ? { Authorization: `Bearer ${token}` } : {}),
-                },
+                headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                     title,
                     body: content,

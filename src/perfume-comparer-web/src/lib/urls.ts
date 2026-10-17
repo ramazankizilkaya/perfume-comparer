@@ -54,7 +54,20 @@ export function blogPreviewHref(lang: string = "tr"): string {
     return `/${lang}/blog/onizleme`;
 }
 
-export const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? "http://localhost:5026";
+const IS_PRODUCTION = process.env.NODE_ENV === "production";
+
+/** .env'deki API adresi (sonundaki / atılır). Canlıda build kontrolü bunun gerçek bir adres olmasını zorunlu tutar. */
+const CONFIGURED_API_BASE = (process.env.NEXT_PUBLIC_API_BASE ?? "http://localhost:5026").replace(/\/+$/, "");
+
+/**
+ * API adresi.
+ * - Canlıda (NODE_ENV=production) sunucu da tarayıcı da NEXT_PUBLIC_API_BASE'i kullanır.
+ * - Geliştirmede tarayıcı göreli adres ("") kullanır: /api ve /media istekleri
+ *   next.config.ts'teki rewrite'lar üzerinden yerel API'ye gider. Böylece telefondan
+ *   veya ngrok üzerinden bağlanınca da görseller ve API çalışır. Sunucu tarafı ise
+ *   her zaman tam adresi kullanır.
+ */
+export const API_BASE = !IS_PRODUCTION && typeof window !== "undefined" ? "" : CONFIGURED_API_BASE;
 
 /** Marka sayfası linki. */
 export function brandHref(slug?: string | null, lang: string = "tr"): string {
@@ -69,7 +82,11 @@ export function brandHref(slug?: string | null, lang: string = "tr"): string {
 export function mediaUrl(path?: string | null): string | undefined {
     if (!path) return undefined;
     if (path.startsWith("http://") || path.startsWith("https://")) return path;
-    return `${API_BASE}${path.startsWith("/") ? path : `/${path}`}`;
+    const relative = path.startsWith("/") ? path : `/${path}`;
+    // Geliştirmede hem SSR hem tarayıcı göreli yol üretir (hydration farkı olmaz) ve
+    // görsel next.config.ts'teki /media rewrite'ı ile yerel API'den gelir.
+    if (!IS_PRODUCTION) return relative;
+    return `${CONFIGURED_API_BASE}${relative}`;
 }
 
 /** "Male" | "Female" | "Unisex" -> Türkçe etiket */
@@ -81,9 +98,12 @@ export function genderLabel(gender?: string | null): string {
 
 export function formatDate(value?: string | null): string {
     if (!value) return "";
+    // Sunucunun saat dilimi ne olursa olsun tarih Türkiye saatine göre basılır;
+    // aksi halde gece yarısına yakın yayınlanan yazılar bir gün geride görünür.
     return new Date(value).toLocaleDateString("tr-TR", {
         day: "numeric",
         month: "long",
         year: "numeric",
+        timeZone: "Europe/Istanbul",
     });
 }

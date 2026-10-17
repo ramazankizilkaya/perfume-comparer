@@ -10,7 +10,12 @@ import LoginPrompt from "./LoginPrompt";
 import ImageLightboxModal from "./ImageLightboxModal";
 import { API_BASE, perfumeHref, localeHref, formatDate, genderLabel, mediaUrl } from "@/lib/urls";
 import { noteIcon } from "@/lib/notes";
-import { useCompare, useAuth, MAX_COMPARE } from "@/lib/stores";
+import { useCompare, authFetch, MAX_COMPARE } from "@/lib/stores";
+import { visibleAccords } from "@/lib/accords";
+import { fullPerfumeName } from "@/lib/perfumeName";
+
+/** Yorum gövdesi veritabanında 4000 karakterle sınırlı; daha uzun metin API'den 400 döner. */
+const COMMENT_MAX = 4000;
 
 interface Note {
     name: string;
@@ -93,20 +98,32 @@ export default function CompareClient({
 }) {
     const searchParams = useSearchParams();
     const router = useRouter();
-    const { remove } = useCompare();
+    const { items: basket, remove, ready: basketReady } = useCompare();
 
+    // Aynı slug iki kez geçerse teke iner ("Sauvage vs Sauvage" sayfası oluşmaz).
     const slugs = useMemo(() => {
+        const dedupe = (list: string[]) => [...new Set(list.map((s) => s.trim()).filter(Boolean))].slice(0, MAX_COMPARE);
         const items = searchParams.get("items") || searchParams.get("parfumler");
-        if (items) return items.split(",").filter(Boolean).slice(0, MAX_COMPARE);
+        if (items) return dedupe(items.split(","));
         const pair = [searchParams.get("p1"), searchParams.get("p2")].filter(Boolean) as string[];
-        if (pair.length > 0) return pair;
+        if (pair.length > 0) return dedupe(pair);
         return initialSlugs;
     }, [searchParams, initialSlugs]);
 
-    const [perfumes, setPerfumes] = useState<PerfumeDetail[]>(initialPerfumes);
+    const [fetched, setFetched] = useState<PerfumeDetail[]>(initialPerfumes);
     const [loading, setLoading] = useState(false);
     const [lightboxImage, setLightboxImage] = useState<{ src: string; alt: string } | null>(null);
     const isInitialMount = useRef(true);
+
+    // Adreste parfüm yoksa tablo boştur; state'i sıfırlamak yerine türetilir.
+    const perfumes = slugs.length === 0 ? [] : fetched;
+
+    // Adreste parfüm yok ama alttaki sepette 2+ parfüm varsa sayfa sepeti adrese taşır;
+    // böylece "sepette iki parfüm var ama sayfa boş" durumu oluşmaz.
+    useEffect(() => {
+        if (slugs.length > 0 || !basketReady || basket.length < 2) return;
+        router.replace(localeHref(`/karsilastir?items=${basket.map((i) => i.slug).join(",")}`), { scroll: false });
+    }, [slugs.length, basketReady, basket, router]);
 
     useEffect(() => {
         if (isInitialMount.current) {
@@ -120,25 +137,29 @@ export default function CompareClient({
             }
         }
 
-        if (slugs.length === 0) {
-            setPerfumes([]);
-            setLoading(false);
-            return;
-        }
+        if (slugs.length === 0) return;
 
+        // Adres hızlı değişirse önceki istek iptal edilir; eski cevap yeni tablonun üstüne yazılmaz.
+        const controller = new AbortController();
         (async () => {
             setLoading(true);
             try {
                 const list = await Promise.all(
-                    slugs.map((s) => fetch(`${API_BASE}/api/perfumes/${s}`).then((r) => (r.ok ? r.json() : null))),
+                    slugs.map((s) =>
+                        fetch(`${API_BASE}/api/perfumes/${encodeURIComponent(s)}`, { signal: controller.signal }).then((r) =>
+                            r.ok ? r.json() : null,
+                        ),
+                    ),
                 );
-                setPerfumes(list.filter(Boolean) as PerfumeDetail[]);
+                if (controller.signal.aborted) return;
+                setFetched(list.filter(Boolean) as PerfumeDetail[]);
             } catch {
-                setPerfumes([]);
+                if (!controller.signal.aborted) setFetched([]);
             } finally {
-                setLoading(false);
+                if (!controller.signal.aborted) setLoading(false);
             }
         })();
+        return () => controller.abort();
     }, [slugs]);
 
     const go = (next: string[]) => {
@@ -177,8 +198,9 @@ export default function CompareClient({
                     />
                     {perfumes.length === 2 && (
                         <>
-                            <AiComparisonAnalysis p1={perfumes[0]} p2={perfumes[1]} />
-                            <ComparisonComments p1={perfumes[0]} p2={perfumes[1]} />
+                            {/* key: çift değişince bileşenler sıfırdan kurulur, eski analiz/yorum ekranda kalmaz. */}
+                            <AiComparisonAnalysis key={`${perfumes[0].slug}-vs-${perfumes[1].slug}`} p1={perfumes[0]} p2={perfumes[1]} />
+                            <ComparisonComments key={`${perfumes[0].slug}-vs-${perfumes[1].slug}`} p1={perfumes[0]} p2={perfumes[1]} />
                         </>
                     )}
                     <ImageLightboxModal
@@ -203,7 +225,9 @@ function CompareMatrix({
     onImageClick: (src: string, alt: string) => void;
 }) {
     return (
-        <div className="matrix-wrap">
+        <>
+        {/* data-cols: dar ekranda 2 parfüm sığar, 3-4 parfümde tablo yana kayar (CSS). */}
+        <div className="matrix-wrap" data-cols={perfumes.length}>
             <table className="matrix">
                 <tbody>
                     <tr className="matrix-head">
@@ -249,7 +273,7 @@ function CompareMatrix({
                         perfumes={perfumes}
                         render={(p) => (
                             <div className="matrix-chip-col">
-                                {p.accords.slice(0, 4).map((a) => (
+                                {visibleAccords(p.accords).slice(0, 4).map((a) => (
                                     <span key={a.slug} className="accord-chip">{a.name}</span>
                                 ))}
                             </div>
@@ -308,6 +332,8 @@ function CompareMatrix({
                 </tbody>
             </table>
         </div>
+        <p className="matrix-scroll-hint">Diğer parfümleri görmek için tabloyu yana kaydırın.</p>
+        </>
     );
 }
 
@@ -441,33 +467,32 @@ const FACET_ICONS: Record<string, string> = {
 };
 
 function AiComparisonAnalysis({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }) {
+    // Üst bileşen çift değişince key ile yeniden kurar; bu yüzden başlangıç durumu yeterlidir.
     const [analysis, setAnalysis] = useState<string | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        let active = true;
-        setLoading(true);
-        setAnalysis(null);
+        const controller = new AbortController();
 
         (async () => {
             try {
-                const res = await fetch(`${API_BASE}/api/compare/${p1.slug}-vs-${p2.slug}/ai-analysis`);
+                const res = await fetch(`${API_BASE}/api/compare/${p1.slug}-vs-${p2.slug}/ai-analysis`, {
+                    signal: controller.signal,
+                });
                 if (res.ok) {
                     const data = await res.json();
-                    if (active && data?.summary) {
+                    if (!controller.signal.aborted && data?.summary) {
                         setAnalysis(data.summary);
                     }
                 }
             } catch {
                 /* yoksay */
             } finally {
-                if (active) setLoading(false);
+                if (!controller.signal.aborted) setLoading(false);
             }
         })();
 
-        return () => {
-            active = false;
-        };
+        return () => controller.abort();
     }, [p1.slug, p2.slug]);
 
     if (!loading && !analysis) return null;
@@ -510,53 +535,51 @@ function AiComparisonAnalysis({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail
 }
 
 function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }) {
-    const { token } = useAuth();
     const [comments, setComments] = useState<ComparisonComment[]>([]);
     const [commentText, setCommentText] = useState("");
     const [preferred, setPreferred] = useState("");
     const [posting, setPosting] = useState(false);
-    const [status, setStatus] = useState("");
+    const [status, setStatus] = useState<{ ok: boolean; text: string } | null>(null);
 
     const endpoint = `${API_BASE}/api/compare/${p1.slug}-vs-${p2.slug}/comments`;
 
-    const load = async () => {
-        try {
-            const res = await fetch(endpoint);
-            if (res.ok) setComments(await res.json());
-        } catch {
-            /* yoksay */
-        }
-    };
-
     useEffect(() => {
-        load();
+        const controller = new AbortController();
+        (async () => {
+            try {
+                const res = await fetch(endpoint, { signal: controller.signal });
+                if (res.ok && !controller.signal.aborted) setComments(await res.json());
+            } catch {
+                /* yoksay */
+            }
+        })();
+        return () => controller.abort();
     }, [endpoint]);
 
     const submit = async (e: FormEvent) => {
         e.preventDefault();
         if (!commentText.trim()) return;
         setPosting(true);
-        setStatus("");
+        setStatus(null);
         try {
-            const res = await fetch(endpoint, {
+            const res = await authFetch(endpoint, {
                 method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    "X-Requested-With": "XMLHttpRequest",
-                    ...(token ? { Authorization: `Bearer ${token}` } : {}),
-                },
+                headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ content: commentText, preferredSlug: preferred || null }),
             });
             if (res.ok) {
                 setCommentText("");
                 setPreferred("");
-                setStatus("Yorumunuz eklendi.");
-                await load();
+                setStatus({ ok: true, text: "Yorumunuz eklendi." });
+                const fresh = await fetch(endpoint);
+                if (fresh.ok) setComments(await fresh.json());
             } else {
-                setStatus("Yorum eklenemedi.");
+                // API'nin açıklaması (ör. uzunluk sınırı) kullanıcıya olduğu gibi gösterilir.
+                const data = await res.json().catch(() => ({}));
+                setStatus({ ok: false, text: data.message || "Yorum eklenemedi." });
             }
         } catch {
-            setStatus("Bağlantı hatası.");
+            setStatus({ ok: false, text: "Bağlantı hatası." });
         } finally {
             setPosting(false);
         }
@@ -564,12 +587,8 @@ function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }
 
     const userComments = comments.filter((c) => !c.isAiSummary);
 
-    const p1Label = p1.name.toLowerCase().startsWith(p1.brand.name.toLowerCase())
-        ? p1.name
-        : `${p1.brand.name} ${p1.name}`;
-    const p2Label = p2.name.toLowerCase().startsWith(p2.brand.name.toLowerCase())
-        ? p2.name
-        : `${p2.brand.name} ${p2.name}`;
+    const p1Label = fullPerfumeName(p1);
+    const p2Label = fullPerfumeName(p2);
 
     return (
         <section className="block">
@@ -586,8 +605,12 @@ function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }
                                 placeholder="İkisini karşılaştıran deneyiminizi paylaşın…"
                                 value={commentText}
                                 onChange={(e) => setCommentText(e.target.value)}
+                                maxLength={COMMENT_MAX}
                                 required
                             />
+                            <span className="muted char-counter" style={{ fontSize: "var(--fs-xs)" }}>
+                                {commentText.length} / {COMMENT_MAX}
+                            </span>
                         </div>
                         <div className="form-group">
                             <label>Hangisini tercih ediyorsunuz?</label>
@@ -599,7 +622,7 @@ function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }
                         <button className="btn btn-primary" disabled={posting}>
                             <Icon name="send" size={14} /> Gönder
                         </button>
-                        {status && <p className="form-note ok">{status}</p>}
+                        {status && <p className={`form-note ${status.ok ? "ok" : "err"}`}>{status.text}</p>}
                     </form>
                 </LoginPrompt>
             </div>
@@ -645,28 +668,36 @@ function PerfumePicker({
     label, onPick, disabled,
 }: { label?: string; onPick: (s: Suggestion) => void; disabled?: boolean }) {
     const [query, setQuery] = useState("");
-    const [results, setResults] = useState<Suggestion[]>([]);
+    const [fetched, setFetched] = useState<Suggestion[]>([]);
     const [open, setOpen] = useState(false);
     const boxRef = useRef<HTMLDivElement>(null);
 
+    // Kısa sorguda liste türetilerek boşaltılır (effect içinde setState gerekmez).
+    const results = query.trim().length < 2 ? [] : fetched;
+
     useEffect(() => {
-        if (query.trim().length < 2) {
-            setResults([]);
-            return;
-        }
+        if (query.trim().length < 2) return;
+        // Hızlı yazarken önceki istek iptal edilir; eski öneriler yeni sorgunun üstüne yazılmaz.
+        const controller = new AbortController();
         const t = setTimeout(async () => {
             try {
-                const res = await fetch(`${API_BASE}/api/search/autocomplete?q=${encodeURIComponent(query)}`);
+                const res = await fetch(`${API_BASE}/api/search/autocomplete?q=${encodeURIComponent(query)}`, {
+                    signal: controller.signal,
+                });
                 if (res.ok) {
                     const data = await res.json();
-                    setResults(data.perfumes ?? []);
+                    if (controller.signal.aborted) return;
+                    setFetched(data.perfumes ?? []);
                     setOpen(true);
                 }
             } catch {
                 /* yoksay */
             }
         }, 220);
-        return () => clearTimeout(t);
+        return () => {
+            clearTimeout(t);
+            controller.abort();
+        };
     }, [query]);
 
     useEffect(() => {

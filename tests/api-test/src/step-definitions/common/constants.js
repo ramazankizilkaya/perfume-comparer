@@ -51,12 +51,36 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
                 "Get Brand Detail": `/api/brands/${brandSlug}`,
                 "Get Filter Meta": '/api/meta/filters',
                 "Get Perfumes User Filter": `/api/perfumes?userFilter=${query || 'favorites'}`,
+                "Get Perfumes Huge Page": '/api/perfumes?page=2147483647',
+                "Get Perfumes Random Pool": '/api/perfumes?sort=votes&randomPool=500&pageSize=1',
+                "Get Perfume Photos": `/api/perfumes/${perfumeSlug}/photos`,
             },
             "POST": {
                 "Submit Perfume Comment": `/api/perfumes/${perfumeSlug}/comments`,
                 "Submit Perfume Review": `/api/perfumes/${perfumeSlug}/review`,
                 "Record Usage": `/api/perfumes/${perfumeSlug}/kullaniyorum`,
                 "Toggle Favorite": `/api/perfumes/${perfumeSlug}/favorite`,
+                "Record Perfume View": `/api/perfumes/${perfumeSlug}/view`,
+                "Upload Perfume Photo": `/api/perfumes/${perfumeSlug}/photos`,
+            }
+        },
+
+        // ── Admin ──
+        "Admin": {
+            "GET": {
+                "Admin Seed Status": '/api/admin/seed',
+            },
+            "POST": {
+                "Admin AI Summaries": '/api/admin/ai-summaries',
+            }
+        },
+
+        // ── Media (static files) ──
+        "Media": {
+            "GET": {
+                "Media Raw JSON": '/media/validation_report.json',
+                "Media Brand JSON": '/media/brands/dior_fragrantica_tr.json',
+                "Media Perfume Image": '/media/perfumes/dior/images/addict_peachy_glow_eau_de_parfum_121566.webp',
             }
         },
 
@@ -64,7 +88,7 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
         "Compare": {
             "GET": {
                 "Get Popular Comparisons": '/api/compare/popular',
-                "Get AI Comparison Analysis": '/api/compare/dior-sauvage-edp-vs-versace-versace-pour-homme-dylan-blue-edp/ai-analysis',
+                "Get AI Comparison Analysis": '/api/compare/dior-sauvage-vs-versace-versace-pour-homme-dylan-blue/ai-analysis',
             }
         },
 
@@ -73,6 +97,10 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
             "GET": {
                 "Get Blogs": '/api/blogs',
                 "Get Blog Detail": `/api/blogs/${blogSlug}`,
+                "Get Pending Blogs": '/api/blogs/pending',
+            },
+            "POST": {
+                "Create Blog Post": '/api/blogs',
             }
         },
 
@@ -88,6 +116,8 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
             "GET": {
                 "Search Perfumes": `/api/search?q=${encodeURIComponent(query !== null && query !== undefined ? query : 'sauvage')}`,
                 "Autocomplete": `/api/search/autocomplete?q=${encodeURIComponent(query !== null && query !== undefined ? query : 'dior')}`,
+                "Autocomplete With NUL": '/api/search/autocomplete?q=ab%00',
+                "Search With Many Words": `/api/search?q=${Array.from({ length: 20 }, (_, i) => `kelime${i}`).join('+')}`,
             }
         },
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 import Icon from "./Icon";
@@ -55,48 +55,82 @@ interface AutocompleteData {
 
 const EMPTY: AutocompleteData = { perfumes: [], brands: [], notes: [], accords: [], blogs: [] };
 
+type Theme = "light" | "dark";
+const THEME_KEY = "theme";
+// localStorage kapalıysa (gizli pencere, site verisi engeli) tema sayfa açık kaldığı sürece burada yaşar.
+let memoryTheme: Theme = "light";
+const themeListeners = new Set<() => void>();
+
+function readTheme(): Theme {
+    try {
+        const saved = localStorage.getItem(THEME_KEY);
+        if (saved === "dark" || saved === "light") return saved;
+    } catch {
+        /* erişim yok; bellek yedeği kullanılır */
+    }
+    return memoryTheme;
+}
+
+function writeTheme(next: Theme): void {
+    memoryTheme = next;
+    try {
+        localStorage.setItem(THEME_KEY, next);
+    } catch {
+        /* kaydedilemese de bu oturumda tema değişir */
+    }
+    themeListeners.forEach((fn) => fn());
+}
+
+function subscribeTheme(cb: () => void): () => void {
+    themeListeners.add(cb);
+    return () => {
+        themeListeners.delete(cb);
+    };
+}
+
 export default function Header() {
     const [query, setQuery] = useState("");
-    const [results, setResults] = useState<AutocompleteData>(EMPTY);
-    const [aiResult, setAiResult] = useState<AiSearchResponse | null>(null);
+    // Öneriler ve yapay zekâ sonucu, ait oldukları sorguyla birlikte saklanır; sorgu değişince
+    // eski yapay zekâ sonucu kendiliğinden düşer (yeni aramada eski liste görünmez).
+    const [fetched, setFetched] = useState<{ q: string; data: AutocompleteData } | null>(null);
+    const [ai, setAi] = useState<{ q: string; data: AiSearchResponse } | null>(null);
     const [aiLoading, setAiLoading] = useState(false);
     const [open, setOpen] = useState(false);
-    const [theme, setTheme] = useState<"light" | "dark">("light");
-    const [mobileNavOpen, setMobileNavOpen] = useState(false);
+    // Mobil menü, açıldığı sayfaya bağlıdır: sayfa değişince türetilmiş değer kapanır.
+    const [navOpenPath, setNavOpenPath] = useState<string | null>(null);
 
     const boxRef = useRef<HTMLDivElement>(null);
     const router = useRouter();
     const pathname = usePathname();
     const isSearchPage = pathname?.includes("/ara") || pathname?.includes("/detayli-arama");
+    const mobileNavOpen = navOpenPath !== null && navOpenPath === pathname;
+    const closeMobileNav = () => setNavOpenPath(null);
+
+    // Tema: sunucuda ve hydration sırasında "light", tarayıcıda kayıtlı değer.
+    const theme = useSyncExternalStore(subscribeTheme, readTheme, () => "light" as Theme);
 
     useEffect(() => {
-        setMobileNavOpen(false);
-    }, [pathname]);
+        document.body.classList.toggle("dark-mode", theme === "dark");
+    }, [theme]);
 
-    useEffect(() => {
-        const saved = localStorage.getItem("theme");
-        const next = saved === "dark" ? "dark" : "light";
-        setTheme(next);
-        document.body.classList.toggle("dark-mode", next === "dark");
-    }, []);
+    const toggleTheme = () => writeTheme(theme === "dark" ? "light" : "dark");
 
-    const toggleTheme = () => {
-        const next = theme === "dark" ? "light" : "dark";
-        setTheme(next);
-        document.body.classList.toggle("dark-mode", next === "dark");
-        localStorage.setItem("theme", next);
-    };
+    const q = query.trim();
+    const results: AutocompleteData = q.length >= 2 && fetched ? fetched.data : EMPTY;
+    const aiResult: AiSearchResponse | null = ai && ai.q === q ? ai.data : null;
+    const showDropdown = open && q.length >= 2;
 
     const runAiSearch = async (qText: string) => {
-        const q = qText.trim();
-        if (!q) return;
+        const term = qText.trim();
+        if (!term) return;
         setAiLoading(true);
         setOpen(true);
         try {
-            const res = await fetch(`${API_BASE}/api/search/ai?q=${encodeURIComponent(q)}`);
+            const res = await fetch(`${API_BASE}/api/search/ai?q=${encodeURIComponent(term)}`);
             if (res.ok) {
                 const data = await res.json();
-                setAiResult(data);
+                // Cevap hangi sorguya aitse onunla saklanır; kutudaki metin değiştiyse gösterilmez.
+                setAi({ q: term, data });
             }
         } catch {
             /* sessizce geç */
@@ -106,23 +140,22 @@ export default function Header() {
     };
 
     useEffect(() => {
-        const q = query.trim();
-        if (q.length < 2) {
-            setResults(EMPTY);
-            setAiResult(null);
-            setOpen(false);
-            return;
-        }
+        if (q.length < 2) return;
 
         // Yazarken yalnızca veritabanı önerisi çalışır. Yapay zekâ araması
         // Enter'a basılınca tetiklenir; her tuş vuruşunda modele gitmek hem
         // yavaş hem de günlük istek hakkını birkaç aramada bitiriyordu.
+        // Hızlı yazarken önceki istek iptal edilir; eski cevap yeni öneri listesinin üstüne yazılmaz.
+        const controller = new AbortController();
         const timer = setTimeout(async () => {
             try {
-                const res = await fetch(`${API_BASE}/api/search/autocomplete?q=${encodeURIComponent(q)}`);
+                const res = await fetch(`${API_BASE}/api/search/autocomplete?q=${encodeURIComponent(q)}`, {
+                    signal: controller.signal,
+                });
                 if (res.ok) {
                     const data = await res.json();
-                    setResults(data);
+                    if (controller.signal.aborted) return;
+                    setFetched({ q, data });
                     setOpen(true);
                 }
             } catch {
@@ -130,8 +163,11 @@ export default function Header() {
             }
         }, 150);
 
-        return () => clearTimeout(timer);
-    }, [query]);
+        return () => {
+            clearTimeout(timer);
+            controller.abort();
+        };
+    }, [q]);
 
     useEffect(() => {
         function onClickOutside(e: MouseEvent) {
@@ -144,13 +180,12 @@ export default function Header() {
     const goto = (href: string) => {
         setQuery("");
         setOpen(false);
-        setAiResult(null);
+        setAi(null);
         router.push(href);
     };
 
     const handleSearchSubmit = (e?: React.FormEvent) => {
         if (e) e.preventDefault();
-        const q = query.trim();
         if (!q) return;
 
         // Sayfa yönlendirmesi yapma, sonucu doğrudan input altında aç ve AI ara
@@ -238,7 +273,7 @@ export default function Header() {
                     <button
                         type="button"
                         className="icon-btn mobile-menu-toggle"
-                        onClick={() => setMobileNavOpen((o) => !o)}
+                        onClick={() => setNavOpenPath(mobileNavOpen ? null : pathname)}
                         aria-label="Menüyü aç/kapat"
                         data-tooltip="Menü"
                         aria-expanded={mobileNavOpen}
@@ -251,23 +286,23 @@ export default function Header() {
             {mobileNavOpen && (
                 <div className="mobile-nav-panel" role="dialog" aria-label="Mobil Menü">
                     <div className="shell mobile-nav-links">
-                        <Link href={localeHref("/")} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                        <Link href={localeHref("/")} className="mobile-nav-link" onClick={closeMobileNav}>
                             <Icon name="home" size={16} />
                             <span>Anasayfa</span>
                         </Link>
-                        <Link href={compareHref()} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                        <Link href={compareHref()} className="mobile-nav-link" onClick={closeMobileNav}>
                             <Icon name="swap" size={16} />
                             <span>Karşılaştır</span>
                         </Link>
-                        <Link href={searchHref()} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                        <Link href={searchHref()} className="mobile-nav-link" onClick={closeMobileNav}>
                             <Icon name="search" size={16} />
                             <span>Detaylı Arama</span>
                         </Link>
-                        <Link href={brandHref()} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                        <Link href={brandHref()} className="mobile-nav-link" onClick={closeMobileNav}>
                             <Icon name="layers" size={16} />
                             <span>Markalar</span>
                         </Link>
-                        <Link href={blogHref()} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>
+                        <Link href={blogHref()} className="mobile-nav-link" onClick={closeMobileNav}>
                             <Icon name="calendar" size={16} />
                             <span>Rehber</span>
                         </Link>
@@ -286,7 +321,7 @@ export default function Header() {
                                     placeholder="Parfüm, marka, nota veya doğal dil ile ara (ör. kışlık hafif erkek kokusu)…"
                                     value={query}
                                     onChange={(e) => setQuery(e.target.value)}
-                                    onFocus={() => query.trim().length >= 2 && setOpen(true)}
+                                    onFocus={() => q.length >= 2 && setOpen(true)}
                                     autoComplete="off"
                                     autoCorrect="off"
                                     autoCapitalize="none"
@@ -298,8 +333,8 @@ export default function Header() {
                                     type="button"
                                     onClick={() => {
                                         setQuery("");
-                                        setResults(EMPTY);
-                                        setAiResult(null);
+                                        setFetched(null);
+                                        setAi(null);
                                         setOpen(false);
                                     }}
                                     aria-label="Aramayı temizle"
@@ -309,9 +344,9 @@ export default function Header() {
                             )}
                         </form>
 
-                        {open && (
+                        {showDropdown && (
                             <div className="autocomplete autocomplete-rich">
-                                {query.trim().length >= 2 && !aiLoading && (
+                                {!aiLoading && (
                                     <button
                                         type="button"
                                         className="ac-ai-trigger"
@@ -322,7 +357,7 @@ export default function Header() {
                                         <span className="ac-ai-trigger-text">
                                             {aiPerfumes.length > 0
                                                 ? <>Yapay zeka sonuçları listelendi</>
-                                                : <>Yapay zeka ile arat: <strong>{query.trim()}</strong></>}
+                                                : <>Yapay zeka ile arat: <strong>{q}</strong></>}
                                         </span>
                                         {aiPerfumes.length === 0 && <span className="ac-ai-tag">AI</span>}
                                     </button>
@@ -335,7 +370,7 @@ export default function Header() {
                                     </div>
                                 )}
 
-                                {!hasResults && !aiLoading && query.trim().length >= 2 && (
+                                {!hasResults && !aiLoading && (
                                     <div className="ac-empty">Sonuç bulunamadı.</div>
                                 )}
 

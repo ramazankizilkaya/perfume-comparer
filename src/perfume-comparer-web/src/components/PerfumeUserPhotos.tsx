@@ -75,10 +75,12 @@ export default function PerfumeUserPhotos({
                 onClose={() => setLightboxOpen(false)}
             />
 
+            {/* Yalnızca fotoğraf alan pencere: daha önce puan vermiş kullanıcı da fotoğraf ekleyebilir. */}
             <PerfumeReviewModal
                 slug={slug}
                 perfumeName={perfumeName}
                 isOpen={reviewModalOpen}
+                photoOnly
                 onClose={() => setReviewModalOpen(false)}
                 onPhotoUploaded={(photo) => {
                     setPhotos((prev) => [photo, ...prev]);

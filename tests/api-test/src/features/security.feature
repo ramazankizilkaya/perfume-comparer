@@ -29,3 +29,21 @@ Feature: Security Protections & Passive Controls
         And I send a "POST" request to "Verify AntiForgery Token" endpoint with valid antiforgery token
         Then the response status should be 200
         And the response body should contain "Antiforgery doğrulaması başarılı"
+
+    Scenario: Raw scrape data under /media should not be served
+        When I send a "GET" request to "Media Raw JSON" endpoint
+        Then the response status should be 404
+        When I send a "GET" request to "Media Brand JSON" endpoint
+        Then the response status should be 404
+
+    Scenario: Perfume images under /media are served with nosniff and long cache headers
+        When I send a "GET" request to "Media Perfume Image" endpoint
+        Then the response status should be 200
+        And the response header "Content-Type" should contain "image/webp"
+        And the response header "X-Content-Type-Options" should contain "nosniff"
+        And the response header "Cache-Control" should contain "max-age=31536000"
+
+    Scenario: API responses carry the nosniff header
+        When I send a "GET" request to "Get Random Brands" endpoint
+        Then the response status should be 200
+        And the response header "X-Content-Type-Options" should contain "nosniff"

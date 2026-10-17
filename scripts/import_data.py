@@ -29,6 +29,8 @@ import unicodedata
 from collections import Counter
 from pathlib import Path
 
+from concentration import CONCENTRATION_SLUGS, parse_concentration
+
 ROOT = Path(__file__).resolve().parent.parent
 SCRAPE_DIR = ROOT / "scrape_files"
 BRANDS_DIR = SCRAPE_DIR / "brands"
@@ -160,45 +162,7 @@ def parse_gender(listing_gender, target_gender) -> str:
     return "Unisex"
 
 
-# Uzundan kısaya: "eau de parfum" testi "parfum" testinden önce gelmeli.
-CONCENTRATION_TOKENS = [
-    ("extrait de parfum", "Extrait"),
-    ("parfum extrait", "Extrait"),
-    ("eau de parfum", "Edp"),
-    ("eau de toilette", "Edt"),
-    ("eau de cologne", "Edc"),
-    ("cologne intense", "Cologne"),
-    ("cologne absolue", "Cologne"),
-    ("eau fraiche", "EauFraiche"),
-    ("eau fraîche", "EauFraiche"),
-    ("roll-on", "RollOn"),
-    ("cologne", "Cologne"),
-    ("parfum", "Parfum"),
-    ("edp", "Edp"),
-    ("edt", "Edt"),
-    ("edc", "Edc"),
-]
-
-CONCENTRATION_SLUGS = {
-    "EauFraiche": "eau-fraiche",
-    "Edc": "edc",
-    "Cologne": "cologne",
-    "Edt": "edt",
-    "Edp": "edp",
-    "Parfum": "parfum",
-    "Extrait": "extrait-de-parfum",
-    "RollOn": "roll-on",
-    "Other": "diger",
-}
-
-
-def parse_concentration(name: str):
-    lowered = f" {name.lower()} "
-    for token, value in CONCENTRATION_TOKENS:
-        if f" {token} " in lowered or lowered.endswith(f" {token} "):
-            return value
-    return None
-
+# Esans tipi kuralı scripts/concentration.py içindedir (scraper ile ortak).
 
 # Bu eşleme src/PerfumeComparer/Domain/Lookups.cs -> FamilyFromAccord ile aynı
 # kalmalı; ikisi de en baskın akordan koku ailesini türetir.
@@ -234,9 +198,15 @@ def title_tr(text: str) -> str:
     return first + text[1:]
 
 
-def is_noise_accord(name: str) -> bool:
+def is_noise_accord(name: str, width=None) -> bool:
     lowered = name.strip().lower()
     if lowered in ACCORD_NOISE_NAMES:
+        return True
+    # "4", "3" gibi yalnızca rakamdan oluşan adlar ve oranı 0 olan akorlar sayfadaki
+    # oy/filtre bloklarından sızar; gerçek akor değildir.
+    if lowered.isdigit():
+        return True
+    if width is not None and parse_decimal(width) <= 0:
         return True
     return any(pattern.search(name) for pattern in ACCORD_NOISE_PATTERNS)
 
@@ -419,6 +389,9 @@ class Catalog:
         self.pending_relations: list[tuple[int, str, list, str]] = []
         self.used_slugs: set[str] = set()
         self.skipped = Counter()
+        # Yalnızca scripts/fix_concentration.py kullanır: eski kuralı (JSON'daki "Edp"ye
+        # güven) taklit ederek veritabanındaki mevcut slug'ları yeniden üretir.
+        self.legacy_concentration = False
 
     # -- lookup tabloları
 
@@ -486,7 +459,12 @@ class Catalog:
             self.skipped["adsız"] += 1
             return False
 
-        concentration = data.get("concentration") or parse_concentration(name)
+        # JSON'daki "concentration" alanına GÜVENİLMEZ: eski scraper her parfüme "Edp"
+        # yazıyordu. Tek kaynak parfümün adıdır; adda ipucu yoksa boş kalır.
+        if self.legacy_concentration:
+            concentration = data.get("concentration") or parse_concentration(name)
+        else:
+            concentration = parse_concentration(name)
         conc_slug = CONCENTRATION_SLUGS.get(concentration or "", "")
         base_slug = slugify(f"{brand_slug} {name} {conc_slug}".strip())
         fragrantica_id = re.search(r"-(\d+)\.html$", url or "")
@@ -496,7 +474,7 @@ class Catalog:
 
         # Akorlar: en baskını koku ailesini belirler.
         accords = [a for a in (data.get("mainAccords") or [])
-                   if a.get("name") and not is_noise_accord(a["name"])]
+                   if a.get("name") and not is_noise_accord(a["name"], a.get("width"))]
         for rank, accord in enumerate(accords):
             accord_name = title_tr(accord["name"].strip())
             accord_id = self.accord_id(accord_name)

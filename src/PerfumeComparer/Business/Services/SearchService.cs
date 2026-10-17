@@ -23,6 +23,7 @@ public class SearchService(
     ILogger<SearchService> logger) : ISearchService
 {
     private const int MaxPageSize = 50;
+    private const int MaxPage = 10_000;
     private const int CardAccordCount = 3;
     private const int AiResultLimit = 24;
 
@@ -45,7 +46,8 @@ public class SearchService(
 
     public async Task<PagedResult<PerfumeCardDto>> SearchAsync(string q, int page, int pageSize, CancellationToken ct = default)
     {
-        page = Math.Max(1, page);
+        // Sayfa numarası sınırlandırılır; aksi halde Skip hesabı int sınırını aşıp 500 verir.
+        page = Math.Clamp(page, 1, MaxPage);
         pageSize = Math.Clamp(pageSize, 1, MaxPageSize);
 
         var terms = SearchTextNormalizer.Normalize(q);
@@ -238,7 +240,7 @@ public class SearchService(
 
     // ----------------------------------------------------- doğal dil (AI) arama
 
-    public async Task<AiSearchResultDto> AiSearchAsync(string q, CancellationToken ct = default)
+    public async Task<AiSearchResultDto> AiSearchAsync(string q, Func<bool>? canCallModel = null, CancellationToken ct = default)
     {
         var raw = q?.Trim() ?? "";
         if (string.IsNullOrWhiteSpace(raw))
@@ -252,7 +254,7 @@ public class SearchService(
         if (!await IsNaturalLanguageAsync(terms, ct))
             return await TextFallbackAsync(raw, null, ct);
 
-        var intent = await planner.PlanAsync(raw, ct);
+        var intent = await planner.PlanAsync(raw, canCallModel, ct);
         var aiAnswered = intent is not null;
         intent ??= planner.PlanLocally(terms);
 

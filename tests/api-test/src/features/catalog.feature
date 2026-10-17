@@ -11,7 +11,7 @@ Feature: Catalog Management
         Then the response status should be 200 and should match "Get Perfume Detail" response scheme
 
     Scenario: Retrieve perfume detail with article and faq for enriched perfume
-        Given perfume slug is "abercrombie-fitch-fierce-edp"
+        Given perfume slug is "abercrombie-fitch-fierce"
         When I send a "GET" request to "Get Perfume Detail" endpoint
         Then the response status should be 200 and should match "Get Perfume Detail With Article And Faq" response scheme
 
@@ -94,16 +94,66 @@ Feature: Catalog Management
         Then the response status should be 200
 
     Scenario: Toggle perfume favorite requires authentication
-        Given perfume slug is "dior-sauvage-edp"
+        Given perfume slug is "dior-sauvage"
         When I send a "POST" request to "Toggle Favorite" endpoint
         Then the response status should be 401
 
     Scenario: Submit perfume review requires authentication
-        Given perfume slug is "dior-sauvage-edp"
+        Given perfume slug is "dior-sauvage"
         When I send a "POST" request to "Submit Perfume Review" endpoint with "Submit Review" payload
         Then the response status should be 401
 
     Scenario: Check evaluation status for perfume
-        Given perfume slug is "dior-sauvage-edp"
+        Given perfume slug is "dior-sauvage"
         When I send a "GET" request to "Get Perfume My Evaluation" endpoint
         Then the response status should be 200
+
+    Scenario: Submitting a comment longer than 4000 characters should return 400
+        Given I am authenticated
+        Given perfume slug is "dior-sauvage"
+        When I send a "POST" request to "Submit Perfume Comment" endpoint with "Comment Too Long" payload
+        Then the response status should be 400
+        And the response body should contain "en fazla 4000 karakter"
+
+    Scenario: Review with a comment longer than 4000 characters is rejected before anything is saved
+        Given I am authenticated
+        Given perfume slug is "dior-sauvage"
+        When I send a "POST" request to "Submit Perfume Review" endpoint with "Review Comment Too Long" payload
+        Then the response status should be 400
+        And the response body should contain "en fazla 4000 karakter"
+        When I send a "GET" request to "Get Perfume My Evaluation" endpoint
+        Then the response status should be 200
+        And the response body path "hasEvaluated" should be "false"
+
+    Scenario: Huge page number should not cause a server error
+        When I send a "GET" request to "Get Perfumes Huge Page" endpoint
+        Then the response status should be 200
+
+    Scenario: randomPool with a sort is not capped at 100 records
+        When I send a "GET" request to "Get Perfumes Random Pool" endpoint
+        Then the response status should be 200
+        And the response body path "totalCount" should be greater than 100
+
+    Scenario: Recording a perfume view returns the view count
+        Given perfume slug is "dior-sauvage"
+        When I send a "POST" request to "Record Perfume View" endpoint
+        Then the response status should be 200
+        And the response body should contain "viewCount"
+
+    Scenario: Recording a view for a non-existent perfume returns 404
+        Given perfume slug is "non-existent-perfume-slug-99999"
+        When I send a "POST" request to "Record Perfume View" endpoint
+        Then the response status should be 404
+
+    Scenario: Uploading a non-image file as a perfume photo is rejected
+        Given I am authenticated
+        Given perfume slug is "dior-sauvage"
+        When I upload a text file named "evil.html" as photo to "Upload Perfume Photo" endpoint
+        Then the response status should be 400
+        And the response body should contain "Yalnızca JPG, PNG veya WebP"
+
+    Scenario: Uploading a perfume photo requires authentication
+        Given I clear my authorization token
+        Given perfume slug is "dior-sauvage"
+        When I upload a text file named "photo.png" as photo to "Upload Perfume Photo" endpoint
+        Then the response status should be 401

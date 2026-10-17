@@ -164,7 +164,7 @@ export default function RichTextEditor({
                             type="button"
                             className="toolbar-btn"
                             title="Bağlantı (Link)"
-                            onClick={() => insertFormatting("[", "](https://aura-compare.com)", "bağlantı metni")}
+                            onClick={() => insertFormatting("[", "](https://parfumetre.com)", "bağlantı metni")}
                         >
                             🔗 Link
                         </button>

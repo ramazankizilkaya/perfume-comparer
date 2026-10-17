@@ -16,11 +16,13 @@ public class AuthController(
     IConfiguration config,
     IWebHostEnvironment env) : ControllerBase
 {
-    public record UserDto(int Id, string Email, string? Name, string? Picture);
+    public record UserDto(int Id, string Email, string? Name, string? Picture, string Role);
     public record AuthResponse(string Token, UserDto User);
 
     public record GoogleLoginRequest(string Credential);
-    public record DevLoginRequest(string? Name, string? Email);
+
+    /// <param name="Admin">Development'ta kullanıcıya Admin rolü verir (/tr/admin sayfası için).</param>
+    public record DevLoginRequest(string? Name, string? Email, bool? Admin = null);
 
     /// <summary>Gerçek Google girişi: istemciden gelen ID token (JWT) doğrulanır.</summary>
     [HttpPost("google")]
@@ -32,10 +34,12 @@ public class AuthController(
         GoogleJsonWebSignature.Payload payload;
         try
         {
-            var settings = new GoogleJsonWebSignature.ValidationSettings();
-            var clientId = config["Google:ClientId"];
-            if (!string.IsNullOrWhiteSpace(clientId))
-                settings.Audience = new[] { clientId };
+            // Audience her zaman bizim Client ID'miz: başka bir uygulama için alınmış
+            // Google jetonu burada geçmez. Canlıda Google:ClientId açılışta zorunlu tutulur.
+            var settings = new GoogleJsonWebSignature.ValidationSettings
+            {
+                Audience = [config["Google:ClientId"] ?? ""],
+            };
 
             payload = await GoogleJsonWebSignature.ValidateAsync(req.Credential, settings);
         }
@@ -44,13 +48,18 @@ public class AuthController(
             return Unauthorized(new { message = "Google kimliği doğrulanamadı." });
         }
 
-        var user = await UpsertAsync(payload.Subject, payload.Email, payload.Name, payload.Picture, ct);
+        // Doğrulanmamış e-posta, aynı e-postalı mevcut hesaba bağlanamaz.
+        if (!payload.EmailVerified)
+            return Unauthorized(new { message = "Google hesabınızın e-postası doğrulanmamış." });
+
+        var user = await UpsertAsync(payload.Subject, payload.Email, payload.Name, payload.Picture, makeAdmin: false, ct);
         return Ok(new AuthResponse(tokens.Issue(user), ToDto(user)));
     }
 
     /// <summary>
     /// Geliştirici girişi: gerçek Google olmadan, Google'dan dönecek claim'lerin
     /// aynısını (sub, email, name, picture) mock üretir. Sadece Development ortamında açık.
+    /// <c>admin: true</c> gönderilirse hesap Admin rolü alır (yerelde /tr/admin için).
     /// </summary>
     [HttpPost("dev-login")]
     public async Task<IActionResult> DevLogin([FromBody] DevLoginRequest? req, CancellationToken ct)
@@ -64,7 +73,7 @@ public class AuthController(
             : req!.Email!.Trim();
         var sub = "dev|" + email.ToLowerInvariant();
 
-        var user = await UpsertAsync(sub, email, name, picture: null, ct);
+        var user = await UpsertAsync(sub, email, name, picture: null, makeAdmin: req?.Admin == true, ct);
         return Ok(new AuthResponse(tokens.Issue(user), ToDto(user)));
     }
 
@@ -79,7 +88,7 @@ public class AuthController(
         return user is null ? Unauthorized() : Ok(ToDto(user));
     }
 
-    private async Task<AppUser> UpsertAsync(string sub, string? email, string? name, string? picture, CancellationToken ct)
+    private async Task<AppUser> UpsertAsync(string sub, string? email, string? name, string? picture, bool makeAdmin, CancellationToken ct)
     {
         var user = await db.Users.FirstOrDefaultAsync(u => u.GoogleSubjectId == sub, ct);
         if (user is null && !string.IsNullOrWhiteSpace(email))
@@ -105,11 +114,20 @@ public class AuthController(
             if (!string.IsNullOrWhiteSpace(picture)) user.AvatarUrl = picture;
         }
 
+        // Yönetici: Auth:AdminEmails listesindeki e-postalar her girişte Admin rolü alır
+        // (canlıda yöneticiyi tanımlamanın yolu); dev-login'de admin bayrağı da yeter.
+        if (makeAdmin || IsConfiguredAdmin(user.Email))
+            user.Role = UserRole.Admin;
+
         await db.SaveChangesAsync(ct);
         return user;
     }
 
-    private static UserDto ToDto(AppUser u) => new(u.Id, u.Email, u.DisplayName, u.AvatarUrl);
+    private bool IsConfiguredAdmin(string email) =>
+        (config.GetSection("Auth:AdminEmails").Get<string[]>() ?? [])
+            .Any(a => string.Equals(a?.Trim(), email, StringComparison.OrdinalIgnoreCase));
+
+    private static UserDto ToDto(AppUser u) => new(u.Id, u.Email, u.DisplayName, u.AvatarUrl, u.Role.ToString());
 
     private static readonly string[] Names =
         ["Deniz Yılmaz", "Ece Kaya", "Kerem Demir", "Selin Aydın", "Mert Şahin", "Zeynep Çelik", "Arda Koç", "Naz Öztürk"];

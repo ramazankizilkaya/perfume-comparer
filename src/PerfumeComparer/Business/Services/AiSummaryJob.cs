@@ -99,8 +99,10 @@ public class AiSummaryJob(
     /// <summary>
     /// Tek bir parfüm için istek üzerine özet üretir. Detay sayfası açıldığında
     /// çağrılır: yeterli yorum yoksa null döner, özet güncelse yeniden üretmez.
+    /// <paramref name="canGenerate"/> yalnızca gerçekten yeni bir AI çağrısı gerektiğinde
+    /// sorulur; izin vermezse eldeki (varsa eski) özet döner, ücretli çağrı yapılmaz.
     /// </summary>
-    public async Task<PerfumeComment?> EnsurePerfumeSummaryAsync(string slug, CancellationToken ct)
+    public async Task<PerfumeComment?> EnsurePerfumeSummaryAsync(string slug, Func<bool>? canGenerate, CancellationToken ct)
     {
         if (!ai.IsEnabled) return null;
 
@@ -127,6 +129,9 @@ public class AiSummaryJob(
 
         // Özet zaten aynı yorum sayısıyla üretilmişse tekrar üretme.
         if (existing is not null && existing.SourceCommentCount == count) return existing;
+
+        // Yeni üretim gerekiyor: kapı (giriş ya da IP sınırı) izin vermezse eldekini döndür.
+        if (canGenerate is not null && !canGenerate()) return existing;
 
         var bodies = await db.PerfumeComments
             .AsNoTracking()
@@ -253,10 +258,13 @@ public class AiSummaryJob(
         {
             ct.ThrowIfCancellationRequested();
 
+            // Yalnızca yorum özeti satırı; karşılaştırma sayfasının AI analizi
+            // (AiKind.Analysis) ayrı bir kayıttır ve buradan dokunulmaz.
             var existing = await db.ComparisonComments
                 .FirstOrDefaultAsync(c => c.Perfume1Id == candidate.Perfume1Id
                                           && c.Perfume2Id == candidate.Perfume2Id
-                                          && c.IsAiSummary, ct);
+                                          && c.IsAiSummary
+                                          && c.AiKind == ComparisonAiKind.CommentSummary, ct);
 
             if (existing is not null && existing.SourceCommentCount == candidate.Count)
                 continue;
@@ -293,6 +301,7 @@ public class AiSummaryJob(
                     Perfume2Id = candidate.Perfume2Id,
                     Body = summary,
                     IsAiSummary = true,
+                    AiKind = ComparisonAiKind.CommentSummary,
                     SourceCommentCount = candidate.Count,
                     Status = ModerationStatus.Approved,
                     CreatedAt = DateTimeOffset.UtcNow,

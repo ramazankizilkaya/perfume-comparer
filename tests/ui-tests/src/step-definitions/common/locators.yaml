@@ -73,6 +73,9 @@ Search Filter Toggle Button:
 Search Clear All Button:
   desktop: 'button:has-text("Tümünü Temizle")'
   mobile: 'button:has-text("Tümünü Temizle")'
+Search Page Title:
+  desktop: 'h1.page-title'
+  mobile: 'h1.page-title'
 Search Results Grid:
   desktop: '.perfume-card, a[href*="/parfum/"]'
   mobile: '.perfume-card, a[href*="/parfum/"]'
@@ -115,6 +118,9 @@ Perfume Comments Section:
 Perfume Review Button:
   desktop: 'button:has-text("Değerlendir")'
   mobile: 'button:has-text("Değerlendir")'
+Compare Page Title:
+  desktop: 'h1.page-title'
+  mobile: 'h1.page-title'
 Compare Table:
   desktop: 'table, div[class*="compare"]'
   mobile: 'table, div[class*="compare"]'
@@ -148,6 +154,9 @@ Blog Article Card:
 My Articles Title:
   desktop: 'h1:has-text("Yazılarım")'
   mobile: 'h1:has-text("Yazılarım")'
+Admin Login Prompt:
+  desktop: '.login-prompt a[href*="/giris"]'
+  mobile: '.login-prompt a[href*="/giris"]'
 Admin Title:
   desktop: 'h1:has-text("Veri yönetimi")'
   mobile: 'h1:has-text("Veri yönetimi")'

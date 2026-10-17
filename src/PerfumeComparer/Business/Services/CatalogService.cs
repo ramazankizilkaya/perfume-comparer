@@ -16,14 +16,20 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
 {
     private const int MaxPageSize = 50;
 
+    /// <summary>Skip hesabı int sınırını aşmasın diye sayfa numarası üst sınırı.</summary>
+    private const int MaxPage = 10_000;
+
+    /// <summary>Serbest metin aramasında dikkate alınan en fazla karakter ve kelime sayısı;
+    /// her kelime 4 ILIKE koşulu ürettiği için sınırsız sorgu veritabanını saniyelerce meşgul eder.</summary>
+    private const int MaxQueryLength = 100;
+    private const int MaxQueryWords = 6;
+
     /// <summary>Kartta gösterilen ana akor sayısı.</summary>
     private const int CardAccordCount = 3;
 
-    public async Task<PerfumeDetailDto?> GetPerfumeDetailAsync(string slug, string? ipAddress = null, CancellationToken ct = default)
+    public async Task<PerfumeDetailDto?> GetPerfumeDetailAsync(string slug, CancellationToken ct = default)
     {
-        var perfumeRepo = uow.GetRepository<Perfume>();
-
-        var perfume = await perfumeRepo
+        var perfume = await uow.GetRepository<Perfume>()
             .AsNoTracking()
             .AsSplitQuery()
             .Where(p => p.Slug == slug && p.IsPublished)
@@ -38,37 +44,40 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
 
         if (perfume is null) return null;
 
-        if (!string.IsNullOrWhiteSpace(ipAddress))
-        {
-            var viewRepo = uow.GetRepository<PerfumeView>();
-            var alreadyViewed = await viewRepo.AnyAsync(v => v.PerfumeId == perfume.Id && v.IpAddress == ipAddress, ct);
-            if (!alreadyViewed)
-            {
-                try
-                {
-                    viewRepo.Add(new PerfumeView
-                    {
-                        PerfumeId = perfume.Id,
-                        IpAddress = ipAddress,
-                        ViewedAt = DateTimeOffset.UtcNow,
-                    });
+        return MapDetail(perfume);
+    }
 
-                    var tracked = perfumeRepo.GetById(perfume.Id);
-                    if (tracked is not null)
-                    {
-                        tracked.ViewCount++;
-                        perfume.ViewCount = tracked.ViewCount;
-                    }
-                    await uow.SaveChangesAsync();
-                }
-                catch
-                {
-                    // Concurrency / duplicate unique index race condition
-                }
-            }
+    public async Task<int?> RecordViewAsync(string slug, string? ipAddress, CancellationToken ct = default)
+    {
+        var perfumeRepo = uow.GetRepository<Perfume>();
+        var perfume = await perfumeRepo.FirstOrDefaultAsync(p => p.Slug == slug && p.IsPublished, ct);
+        if (perfume is null) return null;
+
+        if (string.IsNullOrWhiteSpace(ipAddress))
+            return perfume.ViewCount;
+
+        var viewRepo = uow.GetRepository<PerfumeView>();
+        var alreadyViewed = await viewRepo.AnyAsync(v => v.PerfumeId == perfume.Id && v.IpAddress == ipAddress, ct);
+        if (alreadyViewed)
+            return perfume.ViewCount;
+
+        try
+        {
+            viewRepo.Add(new PerfumeView
+            {
+                PerfumeId = perfume.Id,
+                IpAddress = ipAddress,
+                ViewedAt = DateTimeOffset.UtcNow,
+            });
+            perfume.ViewCount++;
+            await uow.SaveChangesAsync();
+        }
+        catch (DbUpdateException)
+        {
+            // Aynı IP'den eşzamanlı ikinci istek: unique index yakaladı, sayaç zaten arttı.
         }
 
-        return MapDetail(perfume);
+        return perfume.ViewCount;
     }
 
     public async Task<PagedResult<PerfumeCardDto>> GetPerfumesAsync(PerfumeListQuery q, int? userId = null, CancellationToken ct = default)
@@ -123,8 +132,10 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
                     break;
             }
 
-            // Sıralama/Liste seçenekleri Top 100 olarak sınırlandırılır
-            query = query.Take(100);
+            // Sıralama/Liste seçenekleri Top 100 olarak sınırlandırılır; randomPool
+            // verildiyse havuz sınırı aşağıda ayrıca uygulanır, 100 ile kısılmaz.
+            if (q.RandomPool is not > 0)
+                query = query.Take(100);
         }
         else
         {
@@ -140,7 +151,7 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
             query = query.Take(poolLimit).OrderBy(_ => EF.Functions.Random());
         }
 
-        var page = Math.Max(1, q.Page);
+        var page = Math.Clamp(q.Page, 1, MaxPage);
         var pageSize = Math.Clamp(q.PageSize, 1, MaxPageSize);
 
         var totalCount = await query.CountAsync(ct);
@@ -357,7 +368,10 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
 
         if (!string.IsNullOrWhiteSpace(q.Q))
         {
-            foreach (var term in q.Q.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries))
+            var text = q.Q.Replace("\0", "").Trim();
+            if (text.Length > MaxQueryLength) text = text[..MaxQueryLength];
+
+            foreach (var term in text.Split(' ', StringSplitOptions.RemoveEmptyEntries).Take(MaxQueryWords))
             {
                 var pat = $"%{term}%";
                 query = query.Where(p => EF.Functions.ILike(p.Name, pat)

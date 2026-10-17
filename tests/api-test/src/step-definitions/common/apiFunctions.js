@@ -4,9 +4,9 @@ const { responseValidationSchemes } = require('./responseValidationSchemes');
 const constants = require('./constants');
 const payloads = require('./payloads');
 
-async function GetToken(world) {
+async function GetToken(world, payloadName = 'Dev Login') {
     const endpoint = constants.resolveEndpoint('Dev Login');
-    const payload = payloads.payloads["Dev Login"]();
+    const payload = payloads.payloads[payloadName]();
 
     const options = {
         headers: { ...world.requestHeaders },
@@ -28,7 +28,7 @@ async function GetToken(world) {
     return body.token;
 }
 
-async function Requestor(world, method, endpoint, body = null, headers = {}, expectedStatus = null, schemeName = null) {
+async function Requestor(world, method, endpoint, body = null, headers = {}, expectedStatus = null, schemeName = null, multipart = null) {
     const token = world.getVar('token');
     const authHeader = token ? { 'Authorization': `Bearer ${token}` } : {};
     let mergedHeaders = { ...world.requestHeaders, ...authHeader, ...headers };
@@ -37,7 +37,11 @@ async function Requestor(world, method, endpoint, body = null, headers = {}, exp
     }
 
     const options = { headers: mergedHeaders };
-    if (body && ['POST', 'PUT', 'PATCH'].includes(method.toUpperCase())) {
+    if (multipart) {
+        // Playwright sets the multipart boundary itself; a fixed JSON content type would break it.
+        delete options.headers['Content-Type'];
+        options.multipart = multipart;
+    } else if (body && ['POST', 'PUT', 'PATCH'].includes(method.toUpperCase())) {
         options.data = typeof body === 'string' ? JSON.parse(body) : body;
     }
 
@@ -95,6 +99,7 @@ async function Requestor(world, method, endpoint, body = null, headers = {}, exp
         payload: body,
         status: actualStatus,
         responseBody,
+        headers: response.headers(),
         duration
     };
 
@@ -136,6 +141,13 @@ function AssertBodyContains(world, text) {
     Logger(`✓ Response contains "${text}"`);
 }
 
+function AssertHeaderContains(world, headerName, text) {
+    const last = GetRequest(world, -1);
+    const value = last.headers?.[headerName.toLowerCase()];
+    Logger(`AssertHeaderContains started. Header "${headerName}": "${value}", expected to contain: "${text}"`);
+    expect(value ?? '').toContain(text);
+}
+
 function AssertBodyValueByKey(world, path, expectedValue) {
     const last = GetRequest(world, -1);
     const actual = ExtractJsonPath(last.responseBody, path);
@@ -168,6 +180,7 @@ module.exports = {
     ValidateResponseScheme,
     AssertStatus,
     AssertBodyContains,
+    AssertHeaderContains,
     AssertBodyValueByKey,
     ExtractJsonPath,
     GetRequest

@@ -11,3 +11,22 @@ Feature: Blog Management
         Given blog slug is "non-existent-blog-slug-99999"
         When I send a "GET" request to "Get Blog Detail" endpoint
         Then the response status should be 404
+
+    Scenario: Creating a blog post without authentication should be rejected with 401
+        Given I clear my authorization token
+        When I send a "POST" request to "Create Blog Post" endpoint with "Create Blog Post" payload
+        Then the response status should be 401
+        And the response body should contain "giriş yapmalısınız"
+
+    Scenario: Pending blog list requires an admin token
+        Given I clear my authorization token
+        When I send a "GET" request to "Get Pending Blogs" endpoint
+        Then the response status should be 401
+        Given I am authenticated
+        When I send a "GET" request to "Get Pending Blogs" endpoint
+        Then the response status should be 403
+
+    Scenario: Admin can list pending blog posts
+        Given I am authenticated as admin
+        When I send a "GET" request to "Get Pending Blogs" endpoint
+        Then the response status should be 200

@@ -15,8 +15,10 @@ const PAGES = {
     'My Articles': '/tr/blog/yazilarim',
     'Login': '/tr/giris',
     'Admin': '/tr/admin',
-    'Sample Perfume': '/tr/parfum/erkek/edp/dior/dior-sauvage-edp',
-    'Sample Brand': '/tr/marka/afnan'
+    'Sample Perfume': '/tr/parfum/erkek/dior/dior-sauvage',
+    'Sample Brand': '/tr/marka/afnan',
+    'Vanilla Accord Search': '/tr/detayli-arama?accord=vanilya',
+    'Sample Compare': '/tr/karsilastir?items=dior-sauvage,versace-versace-pour-homme-dylan-blue'
 };
 
 const TIMEOUTS = {

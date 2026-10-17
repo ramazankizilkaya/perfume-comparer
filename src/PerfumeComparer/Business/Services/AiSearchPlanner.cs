@@ -17,8 +17,11 @@ public interface IAiSearchPlanner
     /// <summary>Yapay zekâ gerçekten çalışabiliyor mu?</summary>
     bool Enabled { get; }
 
-    /// <summary>Doğal dildeki sorguyu veritabanı filtrelerine çevirir; başarısız olursa null döner.</summary>
-    Task<AiSearchIntent?> PlanAsync(string query, CancellationToken ct = default);
+    /// <summary>
+    /// Doğal dildeki sorguyu veritabanı filtrelerine çevirir; başarısız olursa null döner.
+    /// <paramref name="canCallModel"/> önbellekte yoksa ve modele gidilecekse sorulur.
+    /// </summary>
+    Task<AiSearchIntent?> PlanAsync(string query, Func<bool>? canCallModel = null, CancellationToken ct = default);
 
     /// <summary>Yapay zekâ yoksa ya da cevap veremezse kullanılan yerel kelime tarayıcısı.</summary>
     AiSearchIntent PlanLocally(SearchTerms terms);
@@ -35,7 +38,7 @@ public class AiSearchPlanner(IUnitOfWork uow, IGeminiClient gemini, IMemoryCache
 
     public bool Enabled => gemini.Enabled;
 
-    public async Task<AiSearchIntent?> PlanAsync(string query, CancellationToken ct = default)
+    public async Task<AiSearchIntent?> PlanAsync(string query, Func<bool>? canCallModel = null, CancellationToken ct = default)
     {
         if (!gemini.Enabled || string.IsNullOrWhiteSpace(query)) return null;
 
@@ -43,6 +46,9 @@ public class AiSearchPlanner(IUnitOfWork uow, IGeminiClient gemini, IMemoryCache
         var cacheKey = $"ai-search:intent:{SearchTextNormalizer.Fold(query)}";
         if (cache.TryGetValue<AiSearchIntent>(cacheKey, out var cachedIntent) && cachedIntent is not null)
             return cachedIntent;
+
+        // Ücretli çağrı: kapı izin vermezse çağıran yerel çözümleyiciye düşer.
+        if (canCallModel is not null && !canCallModel()) return null;
 
         var accords = await GetAccordVocabularyAsync(ct);
         var prompt = BuildPrompt(query, accords);

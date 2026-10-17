@@ -126,7 +126,8 @@ public static class SearchTextNormalizer
     {
         if (string.IsNullOrWhiteSpace(input)) return "";
 
-        var lowered = input.ToLowerInvariant()
+        // Postgres metinde NUL (\0) kabul etmez; sorguya girmeden atılır.
+        var lowered = input.Replace("\0", "").ToLowerInvariant()
             .Replace('ı', 'i')
             .Replace('İ', 'i')
             .Replace('ş', 's')
@@ -148,7 +149,7 @@ public static class SearchTextNormalizer
 
     public static SearchTerms Normalize(string? raw)
     {
-        var input = raw?.Trim() ?? "";
+        var input = (raw ?? "").Replace("\0", "").Trim();
         var folded = Fold(input);
 
         // "bvlgari'nin", "dior'un" gibi ekleri at.

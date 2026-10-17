@@ -17,12 +17,24 @@ namespace PerfumeComparer.Controllers;
 /// </summary>
 [ApiController]
 [Route("api/compare")]
-public class CompareController(AppDbContext db, ITokenService tokens, ICompareAiService compareAi) : ControllerBase
+public class CompareController(AppDbContext db, ITokenService tokens, ICompareAiService compareAi, IAiRequestGate aiGate) : ControllerBase
 {
-    /// <summary>İki parfümün AI destekli karşılaştırmalı analizi (varsa DB'den, yoksa AI üretip DB'ye kaydeder).</summary>
+    /// <summary>
+    /// İki parfümün AI destekli karşılaştırmalı analizi. Önbellekteki (DB) analiz herkese
+    /// açıktır; yeni üretim giriş yapmış kullanıcıya serbest, anonim ziyaretçiye IP başına
+    /// sınırlıdır (sınır aşılırsa 429).
+    /// </summary>
     [HttpGet("{p1Slug}-vs-{p2Slug}/ai-analysis")]
     public async Task<IActionResult> GetComparisonAiAnalysis(string p1Slug, string p2Slug, CancellationToken ct)
     {
+        var cached = await compareAi.GetCachedComparisonAnalysisAsync(p1Slug, p2Slug, ct);
+        if (cached is not null)
+            return Ok(new { summary = cached });
+
+        if (!aiGate.TryEnter(HttpContext))
+            return StatusCode(StatusCodes.Status429TooManyRequests,
+                new { message = "Çok fazla AI isteği gönderildi. Lütfen giriş yapın ya da biraz bekleyin." });
+
         var analysis = await compareAi.GetOrGenerateComparisonAnalysisAsync(p1Slug, p2Slug, ct);
         if (analysis is null)
             return NotFound(new { message = "Karşılaştırma analizi üretilemedi veya parfümler bulunamadı." });
@@ -147,6 +159,9 @@ public class CompareController(AppDbContext db, ITokenService tokens, ICompareAi
     {
         if (string.IsNullOrWhiteSpace(request.Content))
             return BadRequest(new { message = "Yorum metni boş olamaz." });
+
+        if (request.Content.Trim().Length > ComparisonComment.MaxBodyLength)
+            return BadRequest(new { message = $"Yorum en fazla {ComparisonComment.MaxBodyLength} karakter olabilir." });
 
         var ids = await ResolvePairIdsAsync(p1Slug, p2Slug, ct);
         if (ids is null)

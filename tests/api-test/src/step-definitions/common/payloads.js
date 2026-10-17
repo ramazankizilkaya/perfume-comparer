@@ -3,6 +3,23 @@ const payloads = {
         name: "Aura Test Kullanici",
         email: `test.${Date.now()}@aura.local`
     }),
+    "Dev Login Admin": () => ({
+        name: "Aura Test Admin",
+        email: `admin.${Date.now()}@aura.local`,
+        admin: true
+    }),
+    "Comment Too Long": () => ({
+        rating: 5,
+        content: "a".repeat(4001)
+    }),
+    "Review Comment Too Long": () => ({
+        score: 5,
+        comment: "a".repeat(4001)
+    }),
+    "Create Blog Post": () => ({
+        title: "Test yazısı",
+        body: "Test içeriği."
+    }),
     "Empty Google Credential": () => ({
         credential: ""
     }),

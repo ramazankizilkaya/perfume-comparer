@@ -7,8 +7,10 @@ import type { Metadata } from "next";
  * Canonical, Open Graph, JSON-LD ve sitemap adresleri hep bu dosyadaki yardımcılarla
  * üretilir; böylece Google'a hiçbir yerde yönlendirilen bir adres bildirilmez.
  */
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://auracompare.com").replace(/\/+$/, "");
-export const SITE_NAME = "Aura Compare";
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://parfumetre.com").replace(/\/+$/, "");
+export const SITE_NAME = "Parfümetre";
+/** Sitenin ASCII yazımı (alan adı): JSON-LD alternateName ve benzeri yerlerde kullanılır. */
+export const SITE_ALT_NAME = "Parfumetre";
 export const DEFAULT_OG_IMAGE = "/og-default.png";
 export const LOGO_URL = `${SITE_URL}/logo.png`;
 
@@ -19,10 +21,10 @@ export function absoluteUrl(path: string): string {
 }
 
 interface PageMetadataInput {
-    /** Site adı eklenmemiş başlık; " | Aura Compare" kök şablondan gelir. */
+    /** Site adı eklenmemiş başlık; " | Parfümetre" kök şablondan gelir. */
     title: string;
     description: string;
-    /** Dil ön ekli asıl yol, örn. "/tr/parfum/erkek/edp/dior/sauvage". */
+    /** Dil ön ekli asıl yol, örn. "/tr/parfum/erkek/dior/dior-sauvage" (esans tipi biliniyorsa /erkek/edp/... biçiminde). */
     path: string;
     images?: (string | undefined | null)[];
     type?: "website" | "article";

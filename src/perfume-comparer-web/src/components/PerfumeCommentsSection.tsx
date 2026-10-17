@@ -9,6 +9,9 @@ import { API_BASE, formatDate, loginHref } from "@/lib/urls";
 import { useAuth } from "@/lib/stores";
 import { toast } from "@/lib/toast";
 
+/** Yorum gövdesi veritabanında 4000 karakterle sınırlı; daha uzun metin API'den 400 döner. */
+const COMMENT_MAX = 4000;
+
 export interface CommentData {
     id: number;
     body: string;
@@ -39,8 +42,10 @@ export default function PerfumeCommentsSection({
     slug: string;
     initialComments: CommentData[];
 }) {
-    const { token, user } = useAuth();
+    const { token, user, ready } = useAuth();
     const pathname = usePathname();
+    // Sunucuda ve hydration sırasında yalnızca yol; tarayıcıda sorgu da eklenir (girişten sonra aynı yere dönüş).
+    const loginNext = ready && typeof window !== "undefined" ? `${pathname ?? ""}${window.location.search}` : pathname;
     const [comments, setComments] = useState<CommentData[]>(initialComments);
     const [rating, setRating] = useState(5);
     const [commentText, setCommentText] = useState("");
@@ -114,7 +119,7 @@ export default function PerfumeCommentsSection({
             <div className="comment-form-wrap">
                 {!user && (
                     <p className="login-prompt">
-                        <Link href={loginHref(pathname)} className="link-more">
+                        <Link href={loginHref(loginNext)} className="link-more">
                             Yorum yapmak ve puan vermek için giriş yapın
                         </Link>
                     </p>
@@ -139,13 +144,17 @@ export default function PerfumeCommentsSection({
                             onInvalid={(e) =>
                                 e.currentTarget.setCustomValidity("Lütfen bu alanı doldurun.")
                             }
+                            maxLength={COMMENT_MAX}
                             required
                         />
+                        <span className="muted char-counter" style={{ fontSize: "var(--fs-xs)" }}>
+                            {commentText.length} / {COMMENT_MAX}
+                        </span>
                     </div>
                     <button className="btn btn-primary" disabled={sending || !user}>
                         <Icon name="send" size={14} /> Gönder
                     </button>
-                    {commentStatus && <p className="form-note ok">{commentStatus}</p>}
+                    {commentStatus && <p className={`form-note ${commentStatus === "Yorumunuz eklendi." ? "ok" : "err"}`}>{commentStatus}</p>}
                 </form>
             </div>
 

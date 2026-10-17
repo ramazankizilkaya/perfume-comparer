@@ -34,3 +34,11 @@ Feature: Search & Autocomplete
         Given search query is "xyznonexistentbrand"
         When I send a "GET" request to "Autocomplete" endpoint
         Then the response status should be 200
+
+    Scenario: Autocomplete with a NUL character should not cause a server error
+        When I send a "GET" request to "Autocomplete With NUL" endpoint
+        Then the response status should be 200
+
+    Scenario: Search with many words should still answer without a server error
+        When I send a "GET" request to "Search With Many Words" endpoint
+        Then the response status should be 200

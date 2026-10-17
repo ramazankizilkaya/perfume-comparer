@@ -14,6 +14,8 @@ public class PerfumeComment
     public int? UserId { get; set; }
     public AppUser? User { get; set; }
 
+    public const int MaxBodyLength = 4000;
+
     public required string Body { get; set; }
 
     /// <summary>Arka plan işi tarafından yorumlardan üretilen özet mi?</summary>

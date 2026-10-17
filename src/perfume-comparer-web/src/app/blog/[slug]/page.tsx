@@ -3,7 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import RichTextRenderer from "@/components/RichTextRenderer";
-import { API_BASE, formatDate, mediaUrl, blogHref, localeHref, searchHref } from "@/lib/urls";
+import { formatDate, mediaUrl, blogHref, localeHref, searchHref } from "@/lib/urls";
+import { apiError, apiFetch } from "@/lib/api";
 import { absoluteUrl, jsonLd, LOGO_URL, pageMetadata, SITE_NAME, truncateDescription } from "@/lib/seo";
 
 interface BlogPostDetail {
@@ -27,9 +28,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const { slug } = await params;
     if (!slug) notFound();
 
-    const res = await fetch(`${API_BASE}/api/blogs/${slug}`, { next: { revalidate: 60 } });
+    const res = await apiFetch(`/api/blogs/${slug}`, { next: { revalidate: 60 } });
     if (res.status === 404) notFound();
-    if (!res.ok) throw new Error(`API hatası: ${res.status}`);
+    if (!res.ok) throw apiError(res, "API hatası");
     const blog: BlogPostDetail = await res.json();
 
     return pageMetadata({
@@ -46,10 +47,10 @@ export default async function BlogDetailPage({ params }: PageProps) {
     const { slug } = await params;
 
     // Her ziyarette DB görüntülenme sayısının artması için no-store ile çağırıyoruz
-    const res = await fetch(`${API_BASE}/api/blogs/${slug}`, { cache: "no-store" });
+    const res = await apiFetch(`/api/blogs/${slug}`, { cache: "no-store" });
     // Yazı yoksa 404; API hatasında 500 (geçici kesinti "sayfa silindi" sayılmasın).
     if (res.status === 404) notFound();
-    if (!res.ok) throw new Error(`Blog yazısı alınamadı: ${res.status}`);
+    if (!res.ok) throw apiError(res, "Blog yazısı alınamadı");
     const blog: BlogPostDetail = await res.json();
 
     const wordCount = blog.body ? blog.body.trim().split(/\s+/).length : 0;
@@ -117,7 +118,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
                     <div className="article-meta-bar">
                         <div className="meta-author-group">
                             <div className="meta-avatar">
-                                {(blog.authorName || "Aura").slice(0, 2).toUpperCase()}
+                                {(blog.authorName || SITE_NAME).slice(0, 2).toLocaleUpperCase("tr")}
                             </div>
                             <div className="meta-author-info">
                                 <span className="meta-author-name">{blog.authorName}</span>
@@ -150,11 +151,12 @@ export default async function BlogDetailPage({ params }: PageProps) {
                     <div className="article-footer-card">
                         <div className="footer-author-box">
                             <div className="footer-avatar">
-                                {(blog.authorName || "Aura").slice(0, 2).toUpperCase()}
+                                {(blog.authorName || SITE_NAME).slice(0, 2).toLocaleUpperCase("tr")}
                             </div>
                             <div className="footer-bio">
                                 <h4>{blog.authorName}</h4>
-                                <p>Aura Compare koku topluluğu editörü ve parfüm meraklısı.</p>
+                                {/* Yazar metni sabit bir unvan değil, yazarın verisinden kurulur. */}
+                                <p>{blog.authorName}, {SITE_NAME} için parfüm rehberleri ve koku incelemeleri kaleme alıyor.</p>
                             </div>
                         </div>
 

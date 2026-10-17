@@ -1,8 +1,9 @@
 "use client";
 
 import { useCallback, useEffect, useMemo } from "react";
-import { useLocalState } from "./clientStore";
-import { API_BASE } from "./urls";
+import { readLocal, useLocalState, writeLocal } from "./clientStore";
+import { API_BASE, loginHref } from "./urls";
+import { toast } from "./toast";
 
 export interface PerfumeRef {
     slug: string;
@@ -24,6 +25,57 @@ export interface AuthUser {
 interface Session {
     token: string;
     user: AuthUser;
+}
+
+const SESSION_KEY = "auth-session";
+
+/**
+ * JWT'nin exp alanını okur; süresi geçmişse true döner. Token okunamazsa
+ * "geçerli" sayılır ve karar API'ye bırakılır (401 gelirse oturum zaten silinir).
+ */
+export function isTokenExpired(token: string): boolean {
+    try {
+        const payload = token.split(".")[1];
+        if (!payload) return false;
+        const json = atob(payload.replace(/-/g, "+").replace(/_/g, "/"));
+        const exp = (JSON.parse(json) as { exp?: number }).exp;
+        return typeof exp === "number" && exp * 1000 <= Date.now();
+    } catch {
+        return false;
+    }
+}
+
+function liveSession(session: Session | null): Session | null {
+    return session && !isTokenExpired(session.token) ? session : null;
+}
+
+/** Oturumu siler; aynı anahtarı dinleyen tüm bileşenler anında çıkış yapmış görünür. */
+export function clearSession(): void {
+    writeLocal<Session | null>(SESSION_KEY, null);
+}
+
+/**
+ * Giriş gerektiren istekler için ortak fetch. Oturumdaki token'ı ve zorunlu
+ * X-Requested-With başlığını ekler. API 401 dönerse (süresi dolmuş/geçersiz
+ * oturum) oturum silinir, kullanıcı uyarılır ve giriş sayfasına yönlendirilir;
+ * böylece "girişli görünüp hiçbir şey yapamama" durumu oluşmaz.
+ */
+export async function authFetch(input: string, init: RequestInit = {}): Promise<Response> {
+    const session = liveSession(readLocal<Session | null>(SESSION_KEY, null));
+    const headers = new Headers(init.headers);
+    headers.set("X-Requested-With", "XMLHttpRequest");
+    if (session) headers.set("Authorization", `Bearer ${session.token}`);
+
+    const res = await fetch(input, { ...init, headers });
+
+    if (res.status === 401 && session) {
+        clearSession();
+        toast.error("Oturumunuzun süresi doldu. Lütfen tekrar giriş yapın.");
+        if (typeof window !== "undefined") {
+            window.location.assign(loginHref(`${window.location.pathname}${window.location.search}`));
+        }
+    }
+    return res;
 }
 
 import { MAX_COMPARE } from "./constants";
@@ -104,7 +156,14 @@ export function useFavorites() {
     const has = (slug: string) => items.some((i) => i.slug === slug);
     const toggle = (p: PerfumeRef) =>
         set((prev) => (prev.some((i) => i.slug === p.slug) ? prev.filter((i) => i.slug !== p.slug) : [...prev, p]));
-    return { items, has, toggle, ready };
+    /** Sunucunun döndürdüğü kesin durumu yerel listeye yazar (favorited true/false). */
+    const setPresent = (p: PerfumeRef, present: boolean) =>
+        set((prev) => {
+            const exists = prev.some((i) => i.slug === p.slug);
+            if (present) return exists ? prev : [...prev, p];
+            return exists ? prev.filter((i) => i.slug !== p.slug) : prev;
+        });
+    return { items, has, toggle, setPresent, ready };
 }
 
 export function useCompare() {
@@ -162,7 +221,9 @@ export function useRecentPerfumes() {
  * - signInDev(): gerçek Google olmadan mock Google claim'leri üretir (dev-only).
  */
 export function useAuth() {
-    const [session, setSession, ready] = useLocalState<Session | null>("auth-session", null);
+    const [storedSession, setSession, ready] = useLocalState<Session | null>(SESSION_KEY, null);
+    // Süresi dolmuş token'lı oturum "girişli" sayılmaz; kullanıcı anında çıkış yapmış görünür.
+    const session = liveSession(storedSession);
 
     const signInGoogle = useCallback(
         async (credential: string): Promise<boolean> => {

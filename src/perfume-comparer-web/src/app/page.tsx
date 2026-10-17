@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import HomeFeedClient, { type HomeFeedData } from "@/components/HomeFeedClient";
-import { API_BASE, localeHref } from "@/lib/urls";
-import { pageMetadata } from "@/lib/seo";
+import { localeHref } from "@/lib/urls";
+import { pageMetadata, SITE_NAME } from "@/lib/seo";
+import { apiFetch } from "@/lib/api";
 
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = pageMetadata({
-    title: "Aura Compare - Parfüm Karşılaştırma, Koku Notaları ve Fiyat İnceleme",
+    title: `${SITE_NAME} - Parfüm Karşılaştırma, Koku Notaları ve Fiyat İnceleme`,
     description: "Binlerce parfümün koku piramidi, kalıcılık ve yayılım puanları, kullanıcı yorumları ve detaylı karşılaştırmaları.",
     path: localeHref("/"),
     absoluteTitle: true,
@@ -45,6 +46,11 @@ export default async function Home() {
     const g = normGender && normGender !== "all" ? `&gender=${normGender}` : "";
 
     try {
+        // Anasayfa verisi 60 saniye önbellekte kalır: her ziyarette 9 ayrı API çağrısı
+        // yerine dakikada bir yenilenir. Rastgele bölümler dakikada bir değişir, bu yeterli.
+        // randomPool=100: API sıralı listeleri 100 ile sınırlar; daha büyük havuz istemek
+        // anlamsızdır (bkz. CatalogService Take(100)).
+        const cacheOpt = { next: { revalidate: 60 } } as const;
         const [
             blogsRes,
             exploreRes,
@@ -56,15 +62,15 @@ export default async function Home() {
             votesRes,
             topRes,
         ] = await Promise.all([
-            fetch(`${API_BASE}/api/blogs?random=true&take=5`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/perfumes?sort=random&pageSize=20${g}`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/perfumes?sort=views&randomPool=500&pageSize=20${g}`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/compare/popular`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/brands/random?count=20`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/perfumes?sort=newest&randomPool=500&pageSize=20${g}`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/perfumes?sort=comments&randomPool=500&pageSize=20${g}`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/perfumes?sort=votes&randomPool=500&pageSize=20${g}`, { cache: "no-store" }),
-            fetch(`${API_BASE}/api/perfumes?sort=rating&minVotes=500&randomPool=500&pageSize=20${g}`, { cache: "no-store" }),
+            apiFetch(`/api/blogs?random=true&take=5`, cacheOpt),
+            apiFetch(`/api/perfumes?sort=random&pageSize=20${g}`, cacheOpt),
+            apiFetch(`/api/perfumes?sort=views&randomPool=100&pageSize=20${g}`, cacheOpt),
+            apiFetch(`/api/compare/popular`, cacheOpt),
+            apiFetch(`/api/brands/random?count=20`, cacheOpt),
+            apiFetch(`/api/perfumes?sort=newest&randomPool=100&pageSize=20${g}`, cacheOpt),
+            apiFetch(`/api/perfumes?sort=comments&randomPool=100&pageSize=20${g}`, cacheOpt),
+            apiFetch(`/api/perfumes?sort=votes&randomPool=100&pageSize=20${g}`, cacheOpt),
+            apiFetch(`/api/perfumes?sort=rating&minVotes=500&randomPool=100&pageSize=20${g}`, cacheOpt),
         ]);
 
         initialData = {

@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { brandHref, localeHref, searchHref } from "@/lib/urls";
 
-// robots etiketi burada verilmez: Next.js 404 yanıtına kendisi "noindex" ekler.
+// Kök layout "index, follow" verir; 404 sayfası bunu açıkça ezmezse Next'in eklediği
+// "noindex" ile çelişen iki robots etiketi oluşur. Burada tek ve net kural: indeksleme.
 export const metadata: Metadata = {
     title: "Sayfa bulunamadı",
+    robots: { index: false, follow: true },
 };
 
 /** Olmayan her adres ve notFound() çağrısı bu sayfayı 404 koduyla gösterir. */

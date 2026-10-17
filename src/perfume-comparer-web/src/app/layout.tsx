@@ -5,8 +5,7 @@ import Footer from "@/components/Footer";
 import CompareBar from "@/components/CompareBar";
 import ScrollToTop from "@/components/ScrollToTop";
 import ToastContainer from "@/components/ToastContainer";
-import PwaRegister from "@/components/PwaRegister";
-import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE, LOGO_URL, absoluteUrl, jsonLd } from "@/lib/seo";
+import { SITE_URL, SITE_NAME, SITE_ALT_NAME, DEFAULT_OG_IMAGE, LOGO_URL, absoluteUrl, jsonLd } from "@/lib/seo";
 import { localeHref, searchHref } from "@/lib/urls";
 
 export const viewport: Viewport = {
@@ -21,11 +20,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
     metadataBase: new URL(SITE_URL),
     title: {
-        default: "Aura Compare · Parfüm Karşılaştırma ve Koku Rehberi",
+        default: `${SITE_NAME} · Parfüm Karşılaştırma ve Koku Rehberi`,
         template: `%s | ${SITE_NAME}`,
     },
     description:
-        "Aura Compare: Türkiye'nin kapsamlı parfüm karşılaştırma ve koku rehberi. Binlerce parfümün koku piramidini, kalıcılık ve yayılım puanlarını, kullanıcı yorumlarını tek sayfada inceleyin.",
+        `${SITE_NAME}: Türkiye'nin kapsamlı parfüm karşılaştırma ve koku rehberi. Binlerce parfümün koku piramidini, kalıcılık ve yayılım puanlarını, kullanıcı yorumlarını tek sayfada inceleyin.`,
     keywords: [
         "parfüm",
         "parfüm karşılaştırma",
@@ -85,7 +84,7 @@ export default function RootLayout({
         "@context": "https://schema.org",
         "@type": "WebSite",
         name: SITE_NAME,
-        alternateName: "AuraCompare",
+        alternateName: SITE_ALT_NAME,
         url: absoluteUrl(localeHref("/")),
         inLanguage: "tr-TR",
         description:
@@ -120,8 +119,15 @@ export default function RootLayout({
                     dangerouslySetInnerHTML={{ __html: jsonLd(jsonLdOrg) }}
                 />
             </head>
-            <body>
-                <PwaRegister />
+            {/* Tema, boyama başlamadan önce okunur: koyu temada beyaz ekran parlamasın.
+                Anahtar Header.tsx'teki THEME_KEY ("theme") ile aynıdır. React, hydration
+                sırasında bu sınıfı sorgulamasın diye suppressHydrationWarning verilir. */}
+            <body suppressHydrationWarning>
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: "try{if(localStorage.getItem('theme')==='dark'){document.body.classList.add('dark-mode')}}catch(e){}",
+                    }}
+                />
                 <ScrollToTop />
                 <Header />
                 <main className="main-content">

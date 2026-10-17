@@ -8,6 +8,10 @@ Given('I am authenticated', async function () {
     await apiFunctions.GetToken(this);
 });
 
+Given('I am authenticated as admin', async function () {
+    await apiFunctions.GetToken(this, 'Dev Login Admin');
+});
+
 Given('I have an invalid authorization token', function () {
     this.setVar('token', 'invalid-tampered-jwt-token');
     this.requestHeaders['Authorization'] = 'Bearer invalid-tampered-jwt-token';
@@ -126,6 +130,26 @@ Then('the response status should be {int} and should match {string} response sch
 
 Then('the response body should contain {string}', function (text) {
     apiFunctions.AssertBodyContains(this, text);
+});
+
+Then('the response header {string} should contain {string}', function (headerName, text) {
+    apiFunctions.AssertHeaderContains(this, headerName, text);
+});
+
+Then('the response body path {string} should be greater than {int}', function (path, minValue) {
+    const last = apiFunctions.GetRequest(this, -1);
+    const actual = Number(apiFunctions.ExtractJsonPath(last.responseBody, path));
+    if (!(actual > minValue)) throw new Error(`Expected ${path} (${actual}) to be greater than ${minValue}`);
+    ch.Logger(`✓ ${path} = ${actual} > ${minValue}`);
+});
+
+When('I upload a text file named {string} as photo to {string} endpoint', async function (fileName, endpointName) {
+    const perfumeSlug = this.getVar('perfumeSlug');
+    const url = constants.resolveEndpoint(endpointName, perfumeSlug);
+    const multipart = {
+        photo: { name: fileName, mimeType: 'image/png', buffer: Buffer.from('<script>alert(1)</script>') }
+    };
+    await apiFunctions.Requestor(this, 'POST', url, null, {}, null, endpointName, multipart);
 });
 
 Then('the response body path {string} should be {string}', function (path, expectedValue) {

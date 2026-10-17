@@ -25,12 +25,16 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
     /// <summary>Karşılaştırma yorumu için çift kurulan parfüm havuzu.</summary>
     private const int ComparedPerfumeCount = 40;
 
+    /// <summary>Tohumlanan blog yazılarının tek yazarı.</summary>
+    private const string EditorEmail = "editor@parfumetre.com";
+    private const string EditorName = "Parfümetre Editör";
+
     /// <summary>Adım sırası = bağımlılık sırası. "Hepsini tohumla" bu sırayla çalışır.</summary>
     private static readonly (string Key, string Label, string Description, string Requires)[] Steps =
     [
         ("katalog", "Parfüm ve Marka Kataloğu", "Scrape edilmiş dosyalardan (scrape_files) tüm markalar, parfümler, notalar ve akorlar", ""),
         ("kullanicilar", "Kullanıcılar", "Yorum ve blog yazarı olarak kullanılan örnek hesaplar", ""),
-        ("bloglar", "Blog yazıları", "Koku rehberi yazıları", "kullanicilar"),
+        ("bloglar", "Blog yazıları", "Koku rehberi yazıları (yazar: Parfümetre Editör)", ""),
         ("muadiller", "Muadil Parfümler (Dupes)", "Popüler muadil markalar (Mad, Bargello, Muscent vb.) ve eşleşen ürünler", "katalog"),
         ("yorumlar", "Parfüm yorumları", "Kullanıcı yorumları + puanlar", "katalog, kullanicilar"),
         ("karsilastirma-yorumlari", "Karşılaştırma yorumları", "İki parfüm hakkındaki tartışmalar", "katalog, kullanicilar"),
@@ -82,6 +86,18 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
                 ON perfume_user_photos (perfume_id);
             CREATE INDEX IF NOT EXISTS ix_perfume_user_photos_user_id
                 ON perfume_user_photos (user_id);
+            """, ct);
+
+        // Karşılaştırma AI metinleri iki türe ayrıldı (analiz / yorum özeti): yeni kolon,
+        // eski tek-türlü unique index yerine tür içeren index. Eski analiz satırları
+        // (yorum sayısı olmayanlar) Analysis olarak işaretlenir.
+        await db.Database.ExecuteSqlRawAsync("""
+            ALTER TABLE comparison_comments ADD COLUMN IF NOT EXISTS ai_kind integer NOT NULL DEFAULT 0;
+            UPDATE comparison_comments SET ai_kind = 1
+                WHERE is_ai_summary AND source_comment_count IS NULL AND ai_kind = 0;
+            DROP INDEX IF EXISTS ux_comparison_comments_ai_summary;
+            CREATE UNIQUE INDEX IF NOT EXISTS ux_comparison_comments_ai_summary_kind
+                ON comparison_comments (perfume1id, perfume2id, ai_kind) WHERE is_ai_summary;
             """, ct);
     }
 
@@ -204,12 +220,27 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
         const string key = "bloglar";
         const string label = "Blog yazıları";
 
-        var admin = await db.Users.FirstOrDefaultAsync(u => u.Role == UserRole.Admin, ct)
-                    ?? await db.Users.OrderBy(u => u.Id).FirstOrDefaultAsync(ct);
-        if (admin is null)
-            return new SeedStepResult(key, label, false, "Önce “Kullanıcılar” şemasını tohumlayın.", 0);
+        // Yazıların tamamı tek bir gerçek editör hesabına bağlanır; test/örnek
+        // kullanıcı adları yazar olarak görünmez (E-E-A-T).
+        var editor = await db.Users.FirstOrDefaultAsync(u => u.Email == EditorEmail, ct);
+        if (editor is null)
+        {
+            editor = new AppUser
+            {
+                Email = EditorEmail,
+                DisplayName = EditorName,
+                Role = UserRole.User,
+                GoogleSubjectId = "editor|parfumetre",
+                CreatedAt = DateTimeOffset.UtcNow,
+            };
+            db.Users.Add(editor);
+            await db.SaveChangesAsync(ct);
+        }
+        else if (editor.DisplayName != EditorName)
+        {
+            editor.DisplayName = EditorName;
+        }
 
-        var users = await db.Users.OrderBy(u => u.Id).ToListAsync(ct);
         var mockBlogs = new List<BlogPost>();
 
         // seed_articles.json dosyasını ara (derlenmiş Data klasörü veya scrape_files)
@@ -232,7 +263,7 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
             {
                 using var stream = File.OpenRead(jsonPath);
                 using var doc = System.Text.Json.JsonDocument.Parse(stream);
-                int userIdx = 0;
+                int idx = 0;
                 foreach (var elem in doc.RootElement.EnumerateArray())
                 {
                     var title = elem.GetProperty("title").GetString() ?? "";
@@ -241,12 +272,11 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
                     var cover = elem.GetProperty("coverImageUrl").GetString() ?? "";
                     var body = elem.GetProperty("body").GetString() ?? "";
                     var views = elem.TryGetProperty("viewCount", out var vp) ? vp.GetInt32() : 150;
-                    var author = users[userIdx % users.Count];
-                    userIdx++;
+                    idx++;
 
                     mockBlogs.Add(new BlogPost
                     {
-                        AuthorUserId = author.Id,
+                        AuthorUserId = editor.Id,
                         Title = title,
                         Slug = slug,
                         Excerpt = excerpt,
@@ -254,9 +284,9 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
                         Body = body,
                         ViewCount = views,
                         Status = BlogPostStatus.Published,
-                        PublishedAt = DateTimeOffset.UtcNow.AddDays(-userIdx),
-                        CreatedAt = DateTimeOffset.UtcNow.AddDays(-userIdx),
-                        UpdatedAt = DateTimeOffset.UtcNow.AddDays(-userIdx)
+                        PublishedAt = DateTimeOffset.UtcNow.AddDays(-idx),
+                        CreatedAt = DateTimeOffset.UtcNow.AddDays(-idx),
+                        UpdatedAt = DateTimeOffset.UtcNow.AddDays(-idx)
                     });
                 }
             }
@@ -279,6 +309,7 @@ public class SeedService(AppDbContext db, ILogger<SeedService> logger) : ISeedSe
             }
             else
             {
+                existing.AuthorUserId = editor.Id;
                 existing.Title = b.Title;
                 existing.Body = b.Body;
                 existing.Excerpt = b.Excerpt;

@@ -1,81 +1,122 @@
 "use client";
 
-import { useEffect, useState, useCallback, useRef } from "react";
+import { useCallback, useSyncExternalStore } from "react";
 
 /**
  * Reaktif localStorage state'i. Aynı sekmede birden çok bileşen aynı anahtarı
  * paylaştığında (ör. header rozeti + kart butonu) hepsi senkron güncellenir.
- * SSR uyuşmazlığını önlemek için ilk render fallback ile yapılır, gerçek değer
- * mount'ta yüklenir (`ready` bunu bildirir).
+ *
+ * useSyncExternalStore ile çalışır: sunucuda ve hydration sırasında fallback
+ * döner, tarayıcıda gerçek değer okunur (`ready` bunu bildirir). Böylece SSR
+ * uyuşmazlığı olmaz ve effect içinde setState çağrısına gerek kalmaz.
+ *
+ * localStorage kapalıysa (gizli pencere, site verisi engeli) bellek içi yedek
+ * kullanılır; toggle'lar sayfa açık kaldığı sürece yine çalışır.
  */
 
-function read<T>(key: string, fallback: T): T {
-    if (typeof window === "undefined") return fallback;
+const listeners = new Map<string, Set<() => void>>();
+const memory = new Map<string, string | null>();
+const snapshots = new Map<string, { raw: string | null; value: unknown }>();
+const subscribers = new Map<string, (cb: () => void) => () => void>();
+
+function readRaw(key: string): string | null {
     try {
-        const v = localStorage.getItem(key);
-        return v ? (JSON.parse(v) as T) : fallback;
+        return localStorage.getItem(key);
     } catch {
-        return fallback;
+        return memory.get(key) ?? null;
     }
 }
 
-const listeners = new Map<string, Set<() => void>>();
+function writeRaw(key: string, raw: string | null): void {
+    memory.set(key, raw);
+    try {
+        if (raw === null) localStorage.removeItem(key);
+        else localStorage.setItem(key, raw);
+    } catch {
+        /* kota dolu ya da erişim kapalı; bellek yedeği yeterli */
+    }
+}
 
-function emit(key: string) {
+function emit(key: string): void {
     listeners.get(key)?.forEach((fn) => fn());
+}
+
+/** Anahtarın güncel değerini okur. Değer değişmediyse aynı referansı döner (React bunu ister). */
+export function readLocal<T>(key: string, fallback: T): T {
+    if (typeof window === "undefined") return fallback;
+    const raw = readRaw(key);
+    const cached = snapshots.get(key);
+    if (cached && cached.raw === raw) return cached.value as T;
+
+    let value: T = fallback;
+    if (raw !== null) {
+        try {
+            value = JSON.parse(raw) as T;
+        } catch {
+            value = fallback;
+        }
+    }
+    snapshots.set(key, { raw, value });
+    return value;
+}
+
+/** Değeri yazar ve aynı anahtarı dinleyen tüm bileşenleri günceller. */
+export function writeLocal<T>(key: string, value: T): void {
+    const raw = value === null || value === undefined ? null : JSON.stringify(value);
+    writeRaw(key, raw);
+    snapshots.set(key, { raw, value });
+    emit(key);
+}
+
+function subscribeFor(key: string): (cb: () => void) => () => void {
+    let sub = subscribers.get(key);
+    if (!sub) {
+        sub = (cb: () => void) => {
+            if (!listeners.has(key)) listeners.set(key, new Set());
+            listeners.get(key)!.add(cb);
+            const onStorage = (e: StorageEvent) => {
+                if (e.key === key || e.key === null) cb();
+            };
+            window.addEventListener("storage", onStorage);
+            return () => {
+                listeners.get(key)?.delete(cb);
+                window.removeEventListener("storage", onStorage);
+            };
+        };
+        subscribers.set(key, sub);
+    }
+    return sub;
+}
+
+const subscribeNoop = () => () => {};
+
+/** Hydration bitti mi? Sunucuda false, tarayıcıda ilk client render'dan itibaren true. */
+export function useHydrated(): boolean {
+    return useSyncExternalStore(
+        subscribeNoop,
+        () => true,
+        () => false,
+    );
 }
 
 export function useLocalState<T>(
     key: string,
     fallback: T,
 ): [T, (v: T | ((prev: T) => T)) => void, boolean] {
-    const [state, setState] = useState<T>(fallback);
-    const [ready, setReady] = useState(false);
-
-    // En güncel değeri tutan ref; set() yan etkileri setState updater'ının
-    // DIŞINDA yapar. Aksi halde React Strict Mode updater'ı iki kez çağırıp
-    // localStorage'ı okuyup yazan bir toggle'ı geri alır (net sıfır).
-    const ref = useRef<T>(state);
-    ref.current = state;
-
-    useEffect(() => {
-        const current = read(key, fallback);
-        ref.current = current;
-        setState(current);
-        setReady(true);
-
-        const fn = () => {
-            const next = read(key, fallback);
-            ref.current = next;
-            setState(next);
-        };
-        if (!listeners.has(key)) listeners.set(key, new Set());
-        listeners.get(key)!.add(fn);
-
-        const onStorage = (e: StorageEvent) => {
-            if (e.key === key) fn();
-        };
-        window.addEventListener("storage", onStorage);
-
-        return () => {
-            listeners.get(key)?.delete(fn);
-            window.removeEventListener("storage", onStorage);
-        };
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [key]);
+    const state = useSyncExternalStore(
+        subscribeFor(key),
+        () => readLocal(key, fallback),
+        () => fallback,
+    );
+    const ready = useHydrated();
 
     const set = useCallback(
         (v: T | ((prev: T) => T)) => {
-            const next = typeof v === "function" ? (v as (p: T) => T)(ref.current) : v;
-            ref.current = next;
-            setState(next);
-            try {
-                localStorage.setItem(key, JSON.stringify(next));
-            } catch {
-                /* kota dolabilir; sessiz geç */
-            }
-            emit(key);
+            const next = typeof v === "function" ? (v as (p: T) => T)(readLocal(key, fallback)) : v;
+            writeLocal(key, next);
         },
+        // fallback yalnızca ilk okumada anlam taşır; her render'da yeni nesne gelse de davranış aynıdır.
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         [key],
     );
 

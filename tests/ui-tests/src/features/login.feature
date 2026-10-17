@@ -1,5 +1,8 @@
-@ui @auth
+@ui @auth @dev-only
 Feature: Login and session management
+    # Bu senaryolar "Geliştirici girişi (mock)" düğmesine dayanır. Düğme yalnızca geliştirme
+    # sunucusunda (npm run dev) görünür; production build'de (npm run build && next start)
+    # bilerek gizlidir. Bu dosyayı yalnızca dev sunucuya karşı koşun.
 
     @smoke
     Scenario Outline: As a user on <device>, I should see developer login option, When I navigate to login page

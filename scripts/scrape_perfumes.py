@@ -52,6 +52,7 @@ from PIL import Image
 from playwright.sync_api import sync_playwright
 
 import app_settings
+from concentration import parse_concentration, strip_brand_suffix
 
 class IPBlockedException(Exception):
     pass
@@ -964,7 +965,10 @@ def _scrape_brand_perfumes(brand_identifier, max_perfumes, delay, proxy_state):
                         consecutive_rate_limit_count = 0
                         brand_name = brand_data.get("title", brand_identifier)
 
-                        concentration = p_data.get("concentration") or "Edp"
+                        # Fragrantica esans tipini ayrı vermez; yalnızca parfüm adından okunur,
+                        # adda ipucu yoksa None kalır (eski "Edp" varsayılanı yanlış veri üretiyordu).
+                        concentration = parse_concentration(
+                            strip_brand_suffix(p_data.get("name"), brand_name))
                         desc = p_data.get("description", "")
 
                         existing_article = None

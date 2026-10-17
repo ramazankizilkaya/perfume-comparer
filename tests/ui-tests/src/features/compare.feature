@@ -24,3 +24,15 @@ Feature: Perfume comparison
             | device  | width | height |
             | desktop | 1440  | 900    |
             | mobile  | 375   | 812    |
+
+    Scenario Outline: As a user on <device>, I should see both brand names in the heading, When I open a two-perfume comparison URL
+        Given I set screen size to "<width>"x"<height>" for "<device>"
+        When I navigate to "Sample Compare" page
+        Then element "Compare Page Title" should contain text "Dior Sauvage"
+        And element "Compare Page Title" should contain text "karşılaştırması"
+        And element "Compare Table" should be displayed
+
+        Examples:
+            | device  | width | height |
+            | desktop | 1440  | 900    |
+            | mobile  | 375   | 812    |

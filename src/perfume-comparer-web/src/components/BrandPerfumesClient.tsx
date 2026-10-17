@@ -67,6 +67,8 @@ export default function BrandPerfumesClient({
     const [page, setPage] = useState(currentPage);
     const [listLoading, setListLoading] = useState(false);
     const [loadingMore, setLoadingMore] = useState(false);
+    // Sonsuz kaydırma bir kez hata verince otomatik yükleme durur; kullanıcı "Tekrar dene" der.
+    const [loadError, setLoadError] = useState(false);
 
     const sentinelRef = useRef<HTMLDivElement | null>(null);
     const toolsRef = useRef<HTMLElement | null>(null);
@@ -102,32 +104,32 @@ export default function BrandPerfumesClient({
             if (window.scrollY > top) window.scrollTo({ top, behavior: "smooth" });
         }
 
-        let cancelled = false;
-        setListLoading(true);
+        const controller = new AbortController();
         (async () => {
+            setListLoading(true);
+            setLoadError(false);
             try {
-                const res = await fetch(buildUrl(1));
+                const res = await fetch(buildUrl(1), { signal: controller.signal });
                 if (!res.ok) throw new Error("liste");
                 const data = await res.json();
-                if (cancelled) return;
+                if (controller.signal.aborted) return;
                 setPerfumes(data.items ?? []);
                 setTotal(data.totalCount ?? 0);
                 setPage(1);
             } catch {
-                if (!cancelled) {
+                if (!controller.signal.aborted) {
                     setPerfumes([]);
                     setTotal(0);
                 }
             } finally {
-                if (!cancelled) setListLoading(false);
+                if (!controller.signal.aborted) setListLoading(false);
             }
         })();
-        return () => {
-            cancelled = true;
-        };
+        return () => controller.abort();
     }, [slug, buildUrl]);
 
-    const hasMore = perfumes.length < total;
+    // Önceki sayfalar da sayılır: ?sayfa=13'te 24 kart varken total 302 ise daha fazla yoktur.
+    const hasMore = page * PAGE_SIZE < total;
 
     const loadMore = useCallback(async () => {
         if (loadingMore || listLoading || !hasMore) return;
@@ -135,13 +137,19 @@ export default function BrandPerfumesClient({
         try {
             const next = page + 1;
             const res = await fetch(buildUrl(next));
-            if (res.ok) {
-                const data = await res.json();
-                setPerfumes((prev) => [...prev, ...(data.items ?? [])]);
-                setPage(next);
+            if (!res.ok) throw new Error("liste");
+            const data = await res.json();
+            const items: PerfumeCardData[] = data.items ?? [];
+            if (items.length === 0) {
+                // Boş sayfa: liste bitmiş sayılır, tekrar istek atılmaz.
+                setTotal((prev) => Math.min(prev, page * PAGE_SIZE));
+                return;
             }
+            setPerfumes((prev) => [...prev, ...items]);
+            setPage(next);
+            setLoadError(false);
         } catch {
-            /* sonsuz kaydırma hatası */
+            setLoadError(true);
         } finally {
             setLoadingMore(false);
         }
@@ -149,7 +157,7 @@ export default function BrandPerfumesClient({
 
     useEffect(() => {
         const node = sentinelRef.current;
-        if (!node || !hasMore) return;
+        if (!node || !hasMore || loadError) return;
 
         const observer = new IntersectionObserver(
             (entries) => {
@@ -159,7 +167,7 @@ export default function BrandPerfumesClient({
         );
         observer.observe(node);
         return () => observer.disconnect();
-    }, [hasMore, loadMore]);
+    }, [hasMore, loadError, loadMore]);
 
     const toggleFilter = (key: FilterKey, value: string) =>
         setFilters((prev) => ({ ...prev, [key]: prev[key] === value ? undefined : value }));
@@ -190,21 +198,25 @@ export default function BrandPerfumesClient({
 
                 <div className="quick-filters">
                     <FilterChips
+                        title="Cinsiyet"
                         items={brand.genders}
                         active={filters.gender}
                         onPick={(value) => toggleFilter("gender", value)}
                     />
                     <FilterChips
+                        title="Konsantrasyon"
                         items={brand.concentrations}
                         active={filters.concentration}
                         onPick={(value) => toggleFilter("concentration", value)}
                     />
                     <FilterChips
+                        title="Koku ailesi"
                         items={brand.families.slice(0, 6)}
                         active={filters.family}
                         onPick={(value) => toggleFilter("family", value)}
                     />
                     <FilterChips
+                        title="Akorlar"
                         items={brand.accords.slice(0, 8)}
                         active={filters.accord}
                         onPick={(value) => toggleFilter("accord", value)}
@@ -240,7 +252,14 @@ export default function BrandPerfumesClient({
                     </div>
 
                     <div ref={sentinelRef} className="load-more">
-                        {hasMore ? (
+                        {hasMore && loadError ? (
+                            <>
+                                <span className="form-note err">Liste yüklenemedi.</span>{" "}
+                                <button className="btn btn-ghost" onClick={loadMore} disabled={loadingMore}>
+                                    {loadingMore ? "Yükleniyor…" : "Tekrar dene"}
+                                </button>
+                            </>
+                        ) : hasMore ? (
                             <button className="btn btn-ghost" onClick={loadMore} disabled={loadingMore}>
                                 {loadingMore ? "Yükleniyor…" : "Daha fazla göster"}
                             </button>
@@ -259,17 +278,21 @@ export default function BrandPerfumesClient({
 }
 
 function FilterChips({
+    title,
     items,
     active,
     onPick,
 }: {
+    /** Satırın ne olduğunu söyleyen kısa başlık ("Koku ailesi", "Akorlar"); aynı adlı çipler yan yana karışmasın. */
+    title: string;
     items: Facet[];
     active?: string;
     onPick: (slug: string) => void;
 }) {
     if (!items || items.length === 0) return null;
     return (
-        <div className="quick-filter-row">
+        <div className="quick-filter-row" role="group" aria-label={title}>
+            <span className="quick-filter-row-label">{title}:</span>
             {items.map((item) => (
                 <button
                     key={item.slug}

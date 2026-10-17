@@ -9,7 +9,7 @@ const SITE_HOST = new URL(SITE_URL).host;
 
 /**
  * Link sitenin kendi adresine mi gidiyor? Karar adresin baş kısmına göre değil, çözülmüş
- * host adına göre verilir. Böylece "https://auracompare.com.spam.com" veya "//spam.com"
+ * host adına göre verilir. Böylece "https://parfumetre.com.spam.com" veya "//spam.com"
  * gibi adresler site içi sanılmaz.
  */
 function isInternalHref(href: string): boolean {
@@ -76,7 +76,9 @@ function toHtml(content: string): string {
             ],
             // "class" bilinçli olarak yok: kullanıcı sitenin kendi CSS sınıflarıyla (örn. "sr-only")
             // görünmez spam linki gizleyemesin. "style" da aynı nedenle kapalı.
-            ALLOWED_ATTR: ["href", "src", "alt", "title", "target", "rel", "width", "height"],
+            // "start": marked, satır başındaki "19. yüzyıl" gibi ifadeleri <ol start="19"> yapar;
+            // bu öznitelik silinirse liste "1." diye başlar ve yazı anlamını yitirir.
+            ALLOWED_ATTR: ["href", "src", "alt", "title", "target", "rel", "width", "height", "start"],
             ALLOWED_URI_REGEXP: /^(?:(?:https?|mailto):|[^a-z]|[a-z+.\-]+(?:[^a-z+.\-:]|$))/i,
             FORBID_TAGS: ["script", "iframe", "style", "object", "embed", "link"],
             FORBID_ATTR: ["onerror", "onload", "onclick", "onmouseover", "onfocus", "onblur"],

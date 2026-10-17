@@ -1,9 +1,9 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import Icon from "./Icon";
 import { API_BASE, loginHref } from "@/lib/urls";
-import { useAuth } from "@/lib/stores";
+import { useAuth, authFetch } from "@/lib/stores";
 import { toast } from "@/lib/toast";
 import Link from "next/link";
 import PerfumePicker, { type PickedPerfume } from "./PerfumePicker";
@@ -16,7 +16,17 @@ interface PerfumeReviewModalProps {
     onReviewSubmitted?: () => void;
     onPhotoUploaded?: (photo: { id: number; imageUrl: string; authorName: string; createdAt: string }) => void;
     isAlreadyEvaluated?: boolean;
+    /**
+     * true ise pencere yalnızca fotoğraf alır ve doğrudan /photos adresine yükler.
+     * Daha önce puan vermiş kullanıcı böylece ikinci bir değerlendirme açmadan fotoğraf ekleyebilir.
+     */
+    photoOnly?: boolean;
 }
+
+/** Yorum gövdesi veritabanında 4000 karakterle sınırlı; daha uzun metin API'den 400 döner. */
+const COMMENT_MAX = 4000;
+
+const FOCUSABLE = 'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
 
 const LONGEVITY_OPTS = [
     { value: "very_weak", label: "Çok Az (1-2s)" },
@@ -64,6 +74,7 @@ export default function PerfumeReviewModal({
     onReviewSubmitted,
     onPhotoUploaded,
     isAlreadyEvaluated = false,
+    photoOnly = false,
 }: PerfumeReviewModalProps) {
     const { token } = useAuth();
     const [score, setScore] = useState<number | null>(null);
@@ -85,6 +96,46 @@ export default function PerfumeReviewModal({
 
     const [submitting, setSubmitting] = useState(false);
     const [error, setError] = useState<string | null>(null);
+    const cardRef = useRef<HTMLDivElement>(null);
+
+    // Açıkken: Esc kapatır, Tab odağı pencere içinde döndürür, arkadaki sayfa kaymaz;
+    // kapanınca odak pencereyi açan düğmeye geri verilir.
+    useEffect(() => {
+        if (!isOpen) return;
+        const card = cardRef.current;
+        const previouslyFocused = document.activeElement as HTMLElement | null;
+        const prevOverflow = document.body.style.overflow;
+        document.body.style.overflow = "hidden";
+        card?.focus();
+
+        const onKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "Escape") {
+                e.preventDefault();
+                onClose();
+                return;
+            }
+            if (e.key !== "Tab" || !card) return;
+            const focusables = Array.from(card.querySelectorAll<HTMLElement>(FOCUSABLE));
+            if (focusables.length === 0) return;
+            const first = focusables[0];
+            const last = focusables[focusables.length - 1];
+            const activeEl = document.activeElement;
+            if (e.shiftKey && (activeEl === first || activeEl === card || !card.contains(activeEl))) {
+                e.preventDefault();
+                last.focus();
+            } else if (!e.shiftKey && activeEl === last) {
+                e.preventDefault();
+                first.focus();
+            }
+        };
+
+        document.addEventListener("keydown", onKeyDown);
+        return () => {
+            document.removeEventListener("keydown", onKeyDown);
+            document.body.style.overflow = prevOverflow;
+            previouslyFocused?.focus?.();
+        };
+    }, [isOpen, onClose]);
 
     if (!isOpen) return null;
 
@@ -103,6 +154,51 @@ export default function PerfumeReviewModal({
                 setPhotoPreview(ev.target?.result as string);
             };
             reader.readAsDataURL(file);
+        }
+    };
+
+    const uploadPhoto = async (file: File) => {
+        const formData = new FormData();
+        formData.append("photo", file);
+
+        const photoRes = await authFetch(`${API_BASE}/api/perfumes/${slug}/photos`, {
+            method: "POST",
+            body: formData,
+        });
+
+        if (!photoRes.ok) {
+            const errData = await photoRes.json().catch(() => ({}));
+            throw new Error(errData.message || "Fotoğraf yüklenemedi.");
+        }
+
+        const photoData = await photoRes.json();
+        if (onPhotoUploaded && photoData.photo) {
+            onPhotoUploaded(photoData.photo);
+        }
+    };
+
+    const handleSubmitPhotoOnly = async (e: React.FormEvent) => {
+        e.preventDefault();
+        setError(null);
+        if (!selectedPhoto) {
+            const msg = "Lütfen yüklenecek bir fotoğraf seçin.";
+            setError(msg);
+            toast.error(msg);
+            return;
+        }
+        setSubmitting(true);
+        try {
+            await uploadPhoto(selectedPhoto);
+            toast.success("Fotoğrafınız alındı. Onaylandığında galeride görünecek.");
+            setSelectedPhoto(null);
+            setPhotoPreview(null);
+            onClose();
+        } catch (err: unknown) {
+            const msg = err instanceof Error ? err.message : "Bir hata oluştu.";
+            setError(msg);
+            toast.error(msg);
+        } finally {
+            setSubmitting(false);
         }
     };
 
@@ -128,14 +224,10 @@ export default function PerfumeReviewModal({
         setSubmitting(true);
 
         try {
-            // 1. Submit review / voting criteria
-            const res = await fetch(`${API_BASE}/api/perfumes/${slug}/review`, {
+            // 1. Değerlendirme ve oylar (401'de authFetch oturumu temizler)
+            const res = await authFetch(`${API_BASE}/api/perfumes/${slug}/review`, {
                 method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    "X-Requested-With": "XMLHttpRequest",
-                    Authorization: `Bearer ${token}`,
-                },
+                headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                     score,
                     longevity: longevity || null,
@@ -150,33 +242,14 @@ export default function PerfumeReviewModal({
             });
 
             if (!res.ok) {
+                // API'nin açıklaması (uzunluk sınırı, tekrar değerlendirme vb.) olduğu gibi gösterilir.
                 const errData = await res.json().catch(() => ({}));
                 throw new Error(errData.message || "Değerlendirme kaydedilemedi.");
             }
 
-            // 2. Submit photo if selected
+            // 2. Seçildiyse fotoğraf
             if (selectedPhoto) {
-                const formData = new FormData();
-                formData.append("photo", selectedPhoto);
-
-                const photoRes = await fetch(`${API_BASE}/api/perfumes/${slug}/photos`, {
-                    method: "POST",
-                    headers: {
-                        "X-Requested-With": "XMLHttpRequest",
-                        Authorization: `Bearer ${token}`,
-                    },
-                    body: formData,
-                });
-
-                if (!photoRes.ok) {
-                    const errData = await photoRes.json().catch(() => ({}));
-                    throw new Error(errData.message || "Fotoğraf yüklenemedi.");
-                }
-
-                const photoData = await photoRes.json();
-                if (onPhotoUploaded && photoData.photo) {
-                    onPhotoUploaded(photoData.photo);
-                }
+                await uploadPhoto(selectedPhoto);
             }
 
             toast.success("Değerlendirmeniz başarıyla kaydedildi! Teşekkür ederiz.");
@@ -192,12 +265,12 @@ export default function PerfumeReviewModal({
     };
 
     return (
-        <div className="review-modal-overlay" onClick={onClose} role="dialog" aria-modal="true">
-            <div className="review-modal-card" onClick={(e) => e.stopPropagation()}>
+        <div className="review-modal-overlay" onClick={onClose} role="dialog" aria-modal="true" aria-labelledby="review-modal-title">
+            <div className="review-modal-card" ref={cardRef} tabIndex={-1} onClick={(e) => e.stopPropagation()}>
                 <div className="review-modal-head">
                     <div>
-                        <span className="eyebrow">Parfüm Değerlendirmesi</span>
-                        <h2 className="modal-title">{perfumeName}</h2>
+                        <span className="eyebrow">{photoOnly ? "Fotoğraf Ekle" : "Parfüm Değerlendirmesi"}</span>
+                        <h2 className="modal-title" id="review-modal-title">{perfumeName}</h2>
                     </div>
                     <button className="icon-btn" onClick={onClose} aria-label="Kapat">
                         <Icon name="close" size={16} />
@@ -210,11 +283,61 @@ export default function PerfumeReviewModal({
                             <Icon name="user" size={32} />
                             <h3>Değerlendirme Yapmak İçin Giriş Yapın</h3>
                             <p>Parfüm puanı vermek, kalıcılık/silaj oylamak ve fotoğraf yüklemek için hesabınıza giriş yapmış olmanız gerekmektedir.</p>
-                            <Link href={loginHref()} className="btn btn-primary" style={{ marginBlockStart: "1rem" }}>
+                            {/* Pencere yalnızca tarayıcıda açılır; girişten sonra kullanıcı aynı sayfaya döner. */}
+                            <Link href={loginHref(`${window.location.pathname}${window.location.search}`)} className="btn btn-primary" style={{ marginBlockStart: "1rem" }}>
                                 Giriş Yap veya Kayıt Ol
                             </Link>
                         </div>
                     </div>
+                ) : photoOnly ? (
+                    <form className="review-modal-body" onSubmit={handleSubmitPhotoOnly}>
+                        {error && <div className="alert alert-error">{error}</div>}
+                        <div className="review-section">
+                            <label className="review-section-title">Parfüm Şişenizin Fotoğrafını Yükleyin</label>
+                            <p className="section-hint">
+                                Yüklediğiniz görsel yapay zeka tarafından incelenip onaylandığında parfümün galerisinde yayınlanacaktır.
+                            </p>
+                            <input
+                                ref={fileInputRef}
+                                type="file"
+                                accept="image/*"
+                                onChange={handlePhotoSelect}
+                                style={{ display: "none" }}
+                            />
+                            {photoPreview ? (
+                                <div className="photo-preview-wrap">
+                                    <img src={photoPreview} alt={`${perfumeName} için seçtiğiniz fotoğraf`} className="photo-preview-img" />
+                                    <button
+                                        type="button"
+                                        className="btn btn-ghost btn-sm"
+                                        onClick={() => {
+                                            setSelectedPhoto(null);
+                                            setPhotoPreview(null);
+                                        }}
+                                    >
+                                        Görseli Kaldır
+                                    </button>
+                                </div>
+                            ) : (
+                                <button
+                                    type="button"
+                                    className="btn btn-ghost"
+                                    onClick={() => fileInputRef.current?.click()}
+                                    style={{ width: "100%", justifyContent: "center", borderStyle: "dashed" }}
+                                >
+                                    <Icon name="plus" size={14} /> Fotoğraf Seç / Yükle
+                                </button>
+                            )}
+                        </div>
+                        <div className="review-modal-actions">
+                            <button type="button" className="btn btn-ghost" onClick={onClose} disabled={submitting}>
+                                Vazgeç
+                            </button>
+                            <button type="submit" className="btn btn-primary" disabled={submitting || !selectedPhoto}>
+                                {submitting ? "Yükleniyor…" : "Fotoğrafı Yükle"}
+                            </button>
+                        </div>
+                    </form>
                 ) : (
                     <form className="review-modal-body" onSubmit={handleSubmitReview}>
                         {isAlreadyEvaluated && (
@@ -360,7 +483,7 @@ export default function PerfumeReviewModal({
                             />
                             {photoPreview ? (
                                 <div className="photo-preview-wrap">
-                                    <img src={photoPreview} alt="Yüklenen Görsel" className="photo-preview-img" />
+                                    <img src={photoPreview} alt={`${perfumeName} için seçtiğiniz fotoğraf`} className="photo-preview-img" />
                                     <button
                                         type="button"
                                         className="btn btn-ghost btn-sm"
@@ -419,8 +542,12 @@ export default function PerfumeReviewModal({
                                 placeholder="Bu parfüm hakkındaki deneyimlerinizi, açılış ve dip notalardaki hislerinizi paylaşın…"
                                 value={comment}
                                 onChange={(e) => setComment(e.target.value)}
+                                maxLength={COMMENT_MAX}
                                 rows={3}
                             />
+                            <span className="muted char-counter" style={{ fontSize: "var(--fs-xs)" }}>
+                                {comment.length} / {COMMENT_MAX}
+                            </span>
                         </div>
 
                         {error && (

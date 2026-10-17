@@ -12,8 +12,12 @@ import PerfumeArticleSection from "@/components/PerfumeArticleSection";
 import PerfumeFaqSection, { type FaqItem } from "@/components/PerfumeFaqSection";
 import PerfumeWhereToBuySection from "@/components/PerfumeWhereToBuySection";
 import RecordRecentPerfume from "@/components/RecordRecentPerfume";
-import { API_BASE, genderLabel, brandHref, perfumeHref, mediaUrl, localeHref, searchHref } from "@/lib/urls";
+import PerfumeViewPing from "@/components/PerfumeViewPing";
+import { genderLabel, brandHref, perfumeHref, mediaUrl, localeHref, searchHref } from "@/lib/urls";
 import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/seo";
+import { apiError, apiFetch } from "@/lib/api";
+import { fullPerfumeName } from "@/lib/perfumeName";
+import { visibleAccords } from "@/lib/accords";
 import { noteIcon } from "@/lib/notes";
 import type { PerfumeRef, RecentPerfume } from "@/lib/stores";
 import type { AgeGroupScore } from "@/components/UsageVote";
@@ -126,34 +130,27 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const slug = segments?.[segments.length - 1];
     if (!slug) notFound();
 
-    const res = await fetch(`${API_BASE}/api/perfumes/${slug}`, { next: { revalidate: 60 } });
+    const res = await apiFetch(`/api/perfumes/${slug}`, { next: { revalidate: 60 } });
     if (res.status === 404) notFound();
-    if (!res.ok) throw new Error(`API hatası: ${res.status}`);
+    if (!res.ok) throw apiError(res, "API hatası");
     const perfume: PerfumeDetail = await res.json();
-    const fullPerfumeName = fullNameOf(perfume);
+    const name = fullPerfumeName(perfume);
+    const accords = visibleAccords(perfume.accords);
 
     const descParts: string[] = [];
     if (perfume.gender) descParts.push(genderLabel(perfume.gender));
     if (perfume.fragranceFamily) descParts.push(`${perfume.fragranceFamily} koku ailesi`);
-    if (perfume.accords?.length > 0) {
-        descParts.push(`ana akorlar: ${perfume.accords.slice(0, 3).map((a) => a.name).join(", ")}`);
+    if (accords.length > 0) {
+        descParts.push(`ana akorlar: ${accords.slice(0, 3).map((a) => a.name).join(", ")}`);
     }
     if (perfume.releaseYear) descParts.push(`${perfume.releaseYear} çıkışlı`);
 
     return pageMetadata({
-        title: `${fullPerfumeName} Parfüm İncelemesi ve Notaları`,
-        description: `${fullPerfumeName} ${descParts.join(" · ")}. Koku piramidi, kalıcılık ve kullanıcı yorumları.`,
+        title: `${name} Parfüm İncelemesi ve Notaları`,
+        description: `${name} ${descParts.join(" · ")}. Koku piramidi, kalıcılık ve kullanıcı yorumları.`,
         path: perfumeHref(perfume.path, perfume.slug),
         images: [mediaUrl(perfume.imageUrl)],
     });
-}
-
-/** Başlıklarda marka adı bir kez geçsin: "Dior Sauvage", "Dior Dior Homme" değil. */
-function fullNameOf(perfume: Pick<PerfumeDetail, "name" | "brand">): string {
-    const brandName = perfume.brand?.name ?? "";
-    return perfume.name.toLowerCase().includes(brandName.toLowerCase())
-        ? perfume.name
-        : `${brandName} ${perfume.name}`;
 }
 
 export default async function PerfumeDetailPage({ params }: PageProps) {
@@ -162,12 +159,15 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
 
     if (!slug) notFound();
 
-    const pRes = await fetch(`${API_BASE}/api/perfumes/${slug}`, { next: { revalidate: 60 } });
+    const pRes = await apiFetch(`/api/perfumes/${slug}`, { next: { revalidate: 60 } });
     // Parfüm gerçekten yoksa 404 dönülür; API hatasında ise hata fırlatılır (500),
-    // böylece geçici bir kesinti Google'a "sayfa silindi" diye bildirilmez.
+    // böylece geçici bir kesinti Google'a "sayfa silindi" diye bildirilmez. 429'da
+    // hataya özel digest yazılır ve error.tsx "çok yoğunuz" mesajı gösterir.
     if (pRes.status === 404) notFound();
-    if (!pRes.ok) throw new Error(`Parfüm alınamadı: ${pRes.status}`);
+    if (!pRes.ok) throw apiError(pRes, "Parfüm alınamadı");
     const perfume: PerfumeDetail = await pRes.json();
+    // Sahte ("3", "4") ve %0 oranlı akorlar hiçbir yerde gösterilmez.
+    const accords = visibleAccords(perfume.accords);
 
     // Asıl adres tektir. /tr/parfum/herhangi/bir/sey/<slug> gibi farklı yollar kalıcı
     // olarak API'nin verdiği yola yönlendirilir; kopya adres oluşmaz.
@@ -180,8 +180,8 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
 
     try {
         const [cRes, photosRes] = await Promise.all([
-            fetch(`${API_BASE}/api/perfumes/${slug}/comments`, { next: { revalidate: 60 } }),
-            fetch(`${API_BASE}/api/perfumes/${slug}/photos`, { next: { revalidate: 60 } }),
+            apiFetch(`/api/perfumes/${slug}/comments`, { next: { revalidate: 60 } }),
+            apiFetch(`/api/perfumes/${slug}/photos`, { next: { revalidate: 60 } }),
         ]);
 
         if (cRes.ok) comments = await cRes.json();
@@ -225,32 +225,38 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
     };
 
     const perfumeUrl = absoluteUrl(perfumeHref(perfume.path, perfume.slug));
-    const productImageUrl = mediaUrl(perfume.imageUrl);
+    // JSON-LD'de görsel her zaman tam adres olmalı (geliştirmede mediaUrl göreli döner).
+    const productImageRel = mediaUrl(perfume.imageUrl);
+    const productImageUrl = productImageRel ? absoluteUrl(productImageRel) : undefined;
 
     const brandName = perfume.brand?.name ?? "";
-    const fullPerfumeName = fullNameOf(perfume);
+    const name = fullPerfumeName(perfume);
+
+    // Google yalnızca sitenin kendi kullanıcılarından gelen puanı kabul eder (Fragrantica
+    // topluluk puanı kullanılmaz) ve puan ancak gerçekten oy varsa, 1-5 aralığında geçerliyse
+    // yazılır. Fiyat (offers) verimiz yok; Product bloğu zengin sonuç beklentisi olmadan,
+    // ama geçersiz alan içermeden basılır. Sahte veri asla eklenmez.
+    const userRating = Number(perfume.userAvgRating);
+    const hasValidUserRating =
+        perfume.userRatingCount > 0 && Number.isFinite(userRating) && userRating >= 1 && userRating <= 5;
 
     const jsonLdProduct = {
         "@context": "https://schema.org",
         "@type": "Product",
-        name: fullPerfumeName,
-        image: productImageUrl ? [productImageUrl] : undefined,
-        description:
-            perfume.description ||
-            `${fullPerfumeName} koku piramidi, notaları ve kullanıcı incelemeleri.`,
+        name,
+        ...(productImageUrl ? { image: [productImageUrl] } : {}),
+        description: perfume.description || `${name} koku piramidi, notaları ve kullanıcı incelemeleri.`,
         brand: {
             "@type": "Brand",
             name: perfume.brand.name,
         },
         category: perfume.fragranceFamily || "Parfüm",
         url: perfumeUrl,
-        // Google yalnızca sitenin kendi kullanıcılarından gelen puanı kabul eder.
-        // Fragrantica topluluk puanı (avgRating) burada kullanılmaz.
-        ...(perfume.userRatingCount > 0
+        ...(hasValidUserRating
             ? {
                   aggregateRating: {
                       "@type": "AggregateRating",
-                      ratingValue: Number(perfume.userAvgRating.toFixed(2)),
+                      ratingValue: Number(userRating.toFixed(2)),
                       bestRating: 5,
                       worstRating: 1,
                       ratingCount: perfume.userRatingCount,
@@ -274,6 +280,9 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                 itemUrl = absoluteUrl(localeHref("/"));
             } else if (idx === (perfume.breadcrumb?.length ?? 0) - 1) {
                 itemUrl = perfumeUrl;
+            } else if (item.level === "brand" && item.slug) {
+                // Marka adımı arama sayfasına değil, markanın kendi sayfasına gider.
+                itemUrl = absoluteUrl(brandHref(item.slug));
             } else {
                 const sp = new URLSearchParams();
                 for (let k = 0; k <= idx; k++) {
@@ -297,7 +306,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
 
     const enrichedFaq = buildEnrichedFaq(
         perfume.faq,
-        fullPerfumeName,
+        name,
         perfume.name,
         brandName,
         perfume.fragranceFamily,
@@ -345,6 +354,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                 />
             )}
             <RecordRecentPerfume perfume={recentItem} />
+            <PerfumeViewPing slug={perfume.slug} />
             <Breadcrumb items={perfume.breadcrumb} />
 
             <div className="detail-head">
@@ -354,7 +364,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                     <Link href={brandHref(perfume.brand.slug)} className="detail-brand">
                         {perfume.brand.name}
                     </Link>
-                    <h1 className="detail-name">{perfume.name}</h1>
+                    <h1 className="detail-name">{name}</h1>
 
                     <div className="detail-rating">
                         <div className="detail-rating-meta">
@@ -398,7 +408,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
 
                     {perfume.description && <p className="detail-desc">{perfume.description}</p>}
 
-                    <PerfumeReviewButton slug={perfume.slug} perfumeName={fullPerfumeName} />
+                    <PerfumeReviewButton slug={perfume.slug} perfumeName={name} />
                 </div>
             </div>
 
@@ -420,7 +430,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
             <div className="detail-body">
                 <PerfumeUserPhotos
                     slug={perfume.slug}
-                    perfumeName={fullPerfumeName}
+                    perfumeName={name}
                     initialPhotos={userPhotos}
                 />
 
@@ -429,7 +439,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                     <table className="spec">
                         <tbody>
                             <SpecRow label="Marka">
-                                <SpecLink value={perfume.brand.name} href={searchHref({ brand: perfume.brand.slug })} />
+                                <SpecLink value={perfume.brand.name} href={brandHref(perfume.brand.slug)} />
                             </SpecRow>
                             <SpecRow label="Koku ailesi">
                                 <SpecLink
@@ -455,7 +465,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                                 />
                             </SpecRow>
                             <SpecRow label="Ana akorlar">
-                                <SpecLinkList items={perfume.accords.slice(0, 5)} hrefFor={(s) => searchHref({ accord: s })} />
+                                <SpecLinkList items={accords.slice(0, 5)} hrefFor={(s) => searchHref({ accord: s })} />
                             </SpecRow>
                             {topLongevity && (
                                 <SpecRow label="Kalıcılık">
@@ -486,11 +496,11 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                     </table>
                 </section>
 
-                {perfume.accords.length > 0 && (
+                {accords.length > 0 && (
                     <section className="block">
                         <h2 className="block-title">Ana akorlar</h2>
                         <div className="accord-strips">
-                            {perfume.accords.map((a) => (
+                            {accords.map((a) => (
                                 <Link
                                     key={a.slug}
                                     href={searchHref({ accord: a.slug })}
@@ -524,7 +534,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                     <RelatedBlock
                         title="Benzer kokular"
                         items={perfume.alternatives}
-                        currentPerfumeName={fullPerfumeName}
+                        currentPerfumeName={name}
                         kind="alternative"
                     />
                 )}
@@ -533,7 +543,7 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                     <RelatedBlock
                         title="Bu parfümü sevenler şunları da sevdi"
                         items={perfume.alsoLiked}
-                        currentPerfumeName={fullPerfumeName}
+                        currentPerfumeName={name}
                         kind="alsoLiked"
                     />
                 )}
@@ -558,10 +568,10 @@ export default async function PerfumeDetailPage({ params }: PageProps) {
                     </div>
                 </section>
 
-                <PerfumeWhereToBuySection perfumeName={fullPerfumeName} brandName={perfume.brand.name} />
+                <PerfumeWhereToBuySection perfumeName={name} brandName={perfume.brand.name} />
 
-                <PerfumeArticleSection article={perfume.article} perfumeName={fullPerfumeName} />
-                <PerfumeFaqSection items={enrichedFaq} perfumeName={fullPerfumeName} />
+                <PerfumeArticleSection article={perfume.article} perfumeName={name} />
+                <PerfumeFaqSection items={enrichedFaq} perfumeName={name} />
 
                 <PerfumeCommentsSection
                     key={perfume.slug}
@@ -850,16 +860,18 @@ function RelatedBlock({
             <h2 className="block-title">{title}</h2>
             <div className="related-grid">
                 {items.slice(0, 12).map((r) => {
+                    // Marka adı parfüm adının içinde zaten geçiyorsa ikinci kez yazılmaz.
+                    const relatedName = fullPerfumeName({ name: r.perfumeName, brand: r.brand });
                     const altText =
                         kind === "alsoLiked"
-                            ? `${currentPerfumeName} sevenler ${r.brand.name} ${r.perfumeName} parfümünü de sevdi`
-                            : `${currentPerfumeName} benzeri ${r.brand.name} ${r.perfumeName} parfümü`;
+                            ? `${currentPerfumeName} sevenler ${relatedName} parfümünü de sevdi`
+                            : `${currentPerfumeName} benzeri ${relatedName} parfümü`;
                     return (
                         <Link
                             key={r.perfumeSlug}
                             href={perfumeHref(r.path, r.perfumeSlug)}
                             className="related-item"
-                            title={`${r.brand.name} ${r.perfumeName} incele`}
+                            title={`${relatedName} incele`}
                         >
                             <img
                                 src={mediaUrl(r.imageUrl) || PLACEHOLDER}
@@ -878,7 +890,7 @@ function RelatedBlock({
 
 function buildEnrichedFaq(
     baseFaq: FaqItem[] | undefined,
-    fullPerfumeName: string,
+    fullName: string,
     rawPerfumeName: string,
     brandName: string,
     fragranceFamily?: string,
@@ -894,14 +906,14 @@ function buildEnrichedFaq(
         ? baseFaq.map((f) => {
               let q = f.question;
               let a = f.answer;
-              if (fullPerfumeName !== rawPerfumeName) {
+              if (fullName !== rawPerfumeName) {
                   if (brandName) {
                       const reverseRegex = new RegExp(
                           `\\b(${rawPerfumeName}\\s+${brandName}|${brandName}\\s+${rawPerfumeName})\\b`,
                           "gi"
                       );
-                      q = q.replace(reverseRegex, fullPerfumeName);
-                      a = a.replace(reverseRegex, fullPerfumeName);
+                      q = q.replace(reverseRegex, fullName);
+                      a = a.replace(reverseRegex, fullName);
                   }
                   const rawRegex = new RegExp(`\\b${rawPerfumeName}\\b`, "gi");
                   q = q.replace(rawRegex, (match, offset, str) => {
@@ -912,7 +924,7 @@ function buildEnrichedFaq(
                               return match;
                           }
                       }
-                      return fullPerfumeName;
+                      return fullName;
                   });
                   a = a.replace(rawRegex, (match, offset, str) => {
                       if (brandName) {
@@ -922,7 +934,7 @@ function buildEnrichedFaq(
                               return match;
                           }
                       }
-                      return fullPerfumeName;
+                      return fullName;
                   });
               }
               return { question: q, answer: a };
@@ -933,12 +945,12 @@ function buildEnrichedFaq(
     if (fragranceFamily && fragranceFamily.trim()) {
         const hasFamilyQ = list.some((f) => f.question.toLowerCase().includes("koku ailesi"));
         if (!hasFamilyQ) {
-            const answer = `${fullPerfumeName}, ${fragranceFamily} koku ailesine aittir.${
+            const answer = `${fullName}, ${fragranceFamily} koku ailesine aittir.${
                 fragranceFamilyDescription ? ` ${fragranceFamilyDescription}` : ""
             }`;
             const insertIndex = list.length >= 3 ? 3 : list.length;
             list.splice(insertIndex, 0, {
-                question: `${fullPerfumeName} hangi koku ailesine aittir?`,
+                question: `${fullName} hangi koku ailesine aittir?`,
                 answer,
             });
         }
@@ -964,19 +976,19 @@ function buildEnrichedFaq(
                 if (hasMiddle) parts.push(`orta (kalp) notalarda ${notes.middle.map((n) => n.name).join(", ")}`);
                 if (hasBase) parts.push(`dip notalarda ${notes.base.map((n) => n.name).join(", ")}`);
 
-                const answer = `${fullPerfumeName} koku piramidinde; ${parts.join("; ")} yer almaktadır.`;
+                const answer = `${fullName} koku piramidinde; ${parts.join("; ")} yer almaktadır.`;
                 const insertIndex = list.length >= 4 ? 4 : list.length;
                 list.splice(insertIndex, 0, {
-                    question: `${fullPerfumeName} parfümünün koku piramidi ve notaları nelerdir?`,
+                    question: `${fullName} parfümünün koku piramidi ve notaları nelerdir?`,
                     answer,
                 });
             } else if (hasAll) {
-                const answer = `${fullPerfumeName} parfümünün öne çıkan koku notaları şunlardır: ${notes.all
+                const answer = `${fullName} parfümünün öne çıkan koku notaları şunlardır: ${notes.all
                     .map((n) => n.name)
                     .join(", ")}.`;
                 const insertIndex = list.length >= 4 ? 4 : list.length;
                 list.splice(insertIndex, 0, {
-                    question: `${fullPerfumeName} parfümünün notaları nelerdir?`,
+                    question: `${fullName} parfümünün notaları nelerdir?`,
                     answer,
                 });
             }
@@ -985,10 +997,10 @@ function buildEnrichedFaq(
 
     // Kalıcılık ve Yayılım soruları (kullanıcı oylamalarından)
     const lonTotal = longevity?.reduce((sum, i) => sum + i.votes, 0) ?? 0;
-    const lonSummary = lonTotal > 0 && longevity ? getVoteSummaryText(fullPerfumeName, "longevity", longevity, lonTotal) : null;
+    const lonSummary = lonTotal > 0 && longevity ? getVoteSummaryText(fullName, "longevity", longevity, lonTotal) : null;
 
     const silTotal = sillage?.reduce((sum, i) => sum + i.votes, 0) ?? 0;
-    const silSummary = silTotal > 0 && sillage ? getVoteSummaryText(fullPerfumeName, "sillage", sillage, silTotal) : null;
+    const silSummary = silTotal > 0 && sillage ? getVoteSummaryText(fullName, "sillage", sillage, silTotal) : null;
 
     const combinedIdx = list.findIndex(
         (f) =>
@@ -1006,7 +1018,7 @@ function buildEnrichedFaq(
                 list[idx].answer = `${list[idx].answer} Topluluk oylamasına göre; ${lonSummary}`;
             } else {
                 list.push({
-                    question: `${fullPerfumeName} kalıcılığı nasıl ve ne kadar sürüyor?`,
+                    question: `${fullName} kalıcılığı nasıl ve ne kadar sürüyor?`,
                     answer: lonSummary,
                 });
             }
@@ -1022,7 +1034,7 @@ function buildEnrichedFaq(
                 list[idx].answer = `${list[idx].answer} Topluluk oylamasına göre; ${silSummary}`;
             } else {
                 list.push({
-                    question: `${fullPerfumeName} yayılımı ve fark edilirliği nasıl?`,
+                    question: `${fullName} yayılımı ve fark edilirliği nasıl?`,
                     answer: silSummary,
                 });
             }
@@ -1040,10 +1052,10 @@ function buildEnrichedFaq(
                     f.question.toLowerCase().includes("kullanıcı puanı")
             );
             if (!hasRatingQ) {
-                const answer = getVoteSummaryText(fullPerfumeName, "rating", ratingBreakdown, total);
+                const answer = getVoteSummaryText(fullName, "rating", ratingBreakdown, total);
                 if (answer) {
                     list.push({
-                        question: `${fullPerfumeName} kullanıcılar tarafından beğeniliyor mu?`,
+                        question: `${fullName} kullanıcılar tarafından beğeniliyor mu?`,
                         answer,
                     });
                 }
@@ -1062,10 +1074,10 @@ function buildEnrichedFaq(
                     f.question.toLowerCase().includes("cinsiyet")
             );
             if (!hasGenderQ) {
-                const answer = getVoteSummaryText(fullPerfumeName, "gender", genderVotes, total);
+                const answer = getVoteSummaryText(fullName, "gender", genderVotes, total);
                 if (answer) {
                     list.push({
-                        question: `${fullPerfumeName} kadın parfümü mü erkek parfümü mü?`,
+                        question: `${fullName} kadın parfümü mü erkek parfümü mü?`,
                         answer,
                     });
                 }
@@ -1084,10 +1096,10 @@ function buildEnrichedFaq(
                     f.question.toLowerCase().includes("fiyat/performans")
             );
             if (!hasPriceQ) {
-                const answer = getVoteSummaryText(fullPerfumeName, "price", priceVotes, total);
+                const answer = getVoteSummaryText(fullName, "price", priceVotes, total);
                 if (answer) {
                     list.push({
-                        question: `${fullPerfumeName} fiyatını hak ediyor mu, fiyat/değer performansı nasıl?`,
+                        question: `${fullName} fiyatını hak ediyor mu, fiyat/değer performansı nasıl?`,
                         answer,
                     });
                 }

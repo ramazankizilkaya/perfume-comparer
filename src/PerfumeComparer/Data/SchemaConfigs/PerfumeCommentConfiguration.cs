@@ -8,7 +8,7 @@ public class PerfumeCommentConfiguration : IEntityTypeConfiguration<PerfumeComme
 {
     public void Configure(EntityTypeBuilder<PerfumeComment> builder)
     {
-        builder.Property(c => c.Body).HasMaxLength(4000);
+        builder.Property(c => c.Body).HasMaxLength(PerfumeComment.MaxBodyLength);
         builder.Property(c => c.Status).HasConversion<string>().HasMaxLength(20);
         builder.Property(c => c.CreatedAt).HasDefaultValueSql("now()");
 

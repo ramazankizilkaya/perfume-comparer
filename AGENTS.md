@@ -28,7 +28,7 @@ Goal: keep the implementation simple, extensible and clean (SoC, no spaghetti).
 ## Product Summary
 - Users browse, search and compare perfumes: notes, accords, ratings, longevity, sillage, season/time-of-day voting.
 - Data comes from scraping Fragrantica TR (`scripts/scrape_perfumes.py`), lands as per-perfume JSON + WebP images under `scrape_files/`, and is loaded into Postgres by `scripts/import_data.py`. There is **no mock catalog**: every brand and perfume in the DB comes from `scrape_files/`.
-- Key routes (public URLs carry the `/tr` prefix, e.g. `/tr/marka/dior`): `/tr` home, `/tr/detayli-arama` search (App Router folder: `app/ara`), `/tr/marka` brand index, `/tr/marka/<slug>` brand page, `/tr/parfum/...` detail, `/tr/karsilastir` compare, `/tr/blog`, `/tr/admin`, `/tr/giris` login. Build internal links only with the helpers in `lib/urls.ts`; SEO metadata goes through `pageMetadata()` in `lib/seo.ts`.
+- Key routes (public URLs carry the `/tr` prefix, e.g. `/tr/marka/dior`): `/tr` home, `/tr/detayli-arama` search (App Router folder: `app/ara`, server-rendered first page), `/tr/marka` brand index, `/tr/marka/<slug>` brand page, `/tr/parfum/...` detail, `/tr/karsilastir` compare, `/tr/blog`, `/tr/admin` (Admin role required), `/tr/giris` login. Build internal links only with the helpers in `lib/urls.ts`; SEO metadata goes through `pageMetadata()` in `lib/seo.ts`; server-side API calls go through `apiFetch()` in `lib/api.ts`, logged-in browser calls through `authFetch()` in `lib/stores.ts`. Site name is **Parfümetre** (`SITE_NAME`); "Aura Compare" is only the internal project name.
 
 ## Design Direction (important)
 The UI must read like an **information portal — epey.com is the reference**: dense, tabular, sans-serif, spec-sheet oriented, lots of comparable numbers per screen.
@@ -65,8 +65,8 @@ Every `<img>` element rendered in the frontend must have an explicit, SEO-optimi
 
 ## Repository Layout
 - `src/PerfumeComparer/` — .NET API
-  - `Data/SeedService.cs` — sample **users, blogs and comments only** (triggered from `/admin`). It does not touch the catalog.
-  - `Controllers/` — Catalog, Search, Compare, Blog, Auth, Admin
+  - `Data/SeedService.cs` — sample **users, blogs and comments only** (triggered from `/admin`; blog posts belong to the single "Parfümetre Editör" account). It does not touch the catalog.
+  - `Controllers/` — Catalog, Search, Compare, Blog, Auth, Admin (`/api/admin/*` needs an Admin bearer token; locally `POST /api/auth/dev-login` with `"admin": true`)
 - `src/perfume-comparer-web/` — Next.js client
 - `scripts/`
   - `import_data.py` — loads `scrape_files/` into Postgres (see "Data import")
@@ -74,6 +74,9 @@ Every `<img>` element rendered in the frontend must have an explicit, SEO-optimi
   - `scrape_perfumes.py` — perfume detail scraper (rate-limit aware)
   - `validate_perfumes.js` — Joi schema validation over scraped JSON
   - `rephrase_descriptions.js`
+  - `sql/cleanup_noise_accords.sql` — removes digit-only accords left by old imports (idempotent)
+  - `concentration.py` — the one concentration rule shared by scraper, importer, enricher
+  - `fix_concentration.py` — one-off repair of the old "Edp" default in JSON files + DB (`--dry-run` first)
 - `scrape_files/brands/*.json` — brand → perfume URL lists
 - `scrape_files/perfumes/<brand>/` — `<perfume>.json`, `images/<perfume>.webp`, `report.txt`
 - `docs/` — roadmaps, design samples, outline
@@ -135,14 +138,20 @@ Secrets are split by who consumes them, and **neither file is ever committed**.
 
 **Backend → `src/PerfumeComparer/appsettings.Local.json`** (gitignored; committed template:
 `appsettings.Local.example.json`). Holds `ConnectionStrings:Default`, `Gemini:ApiKey`,
-`Ai:ApiKey`, `Auth:Secret` and the AI tuning values. `Program.cs` loads it after the other
-JSON files and registers `AddEnvironmentVariables()` last, so in production a real
-environment variable overrides any file value and no file is needed at all.
+`Ai:ApiKey`, `Auth:Secret`, `Auth:AdminEmails`, `Google:ClientId`, `Api:InternalKey`,
+`Cors:AllowedOrigins`, `ForwardedHeaders:KnownProxies`, `Media:Root`, `Media:UserPhotosRoot`
+and the AI tuning values. `Program.cs` loads it after the other JSON files and registers
+`AddEnvironmentVariables()` last, so in production a real environment variable overrides
+any file value and no file is needed at all. **Production refuses to start** without a
+strong `Auth:Secret` (≥ 32 bytes, not the old default) and a `Google:ClientId`; deploy with
+`ASPNETCORE_ENVIRONMENT=Production` (dev-login, DevCors and OpenAPI are Development-only).
 
-**Frontend → root `.env`** (gitignored; template `.env.example`). Only `NEXT_PUBLIC_*`
-lives here. `next.config.ts` reads the root `.env` because Next auto-loads only from its
-own folder. Everything `NEXT_PUBLIC_*` ships to the browser, so it is configuration, not
-a secret — never put a real key there.
+**Frontend → root `.env`** (gitignored; template `.env.example`). `NEXT_PUBLIC_*` values
+plus two server-only values: `API_INTERNAL_KEY` (sent to the API as `X-Internal-Key`; must
+equal the backend's `Api:InternalKey`) and `DEPLOY_ENV` (`local` on a dev machine so
+`npm run build` only warns; never `local` in production). `next.config.ts` reads the root
+`.env` because Next auto-loads only from its own folder. Everything `NEXT_PUBLIC_*` ships
+to the browser, so it is configuration, not a secret — never put a real key there.
 
 **Python scripts** read the backend's file through `scripts/app_settings.py`
 (`setting("Gemini:ApiKey", env_var="GEMINI_API_KEY")`), so the Gemini key is stored once.
@@ -171,6 +180,14 @@ DB stores the relative path; the frontend prefixes it with `mediaUrl()` in `lib/
 `longevity`, `sillage`, `genderVoting`, `priceVoting`, `remindsMeOf[]`, `peopleAlsoLike[]`.
 
 `notes`: perfumes whose brand published a pyramid fill `top`/`middle`/`base`; perfumes without one get a single flat, vote-ordered list in `all` (~32% of the dataset). Handle both.
+
+`concentration`: Fragrantica never states the concentration; it only appears in the perfume
+name ("Sauvage" vs "Sauvage Eau de Parfum"). The single rule lives in `scripts/concentration.py`
+(`parse_concentration`): read it from the name, otherwise **`null`** — never invent a default.
+~93% of perfumes have `null`, and their URL simply has no concentration segment
+(`/tr/parfum/erkek/dior/dior-sauvage`). `import_data.py` ignores the JSON value and re-derives it
+from the name; `enrich_perfumes.py` must not write AI guesses into it. `scripts/fix_concentration.py`
+rewrites old files and updates the DB in place (slug + concentration, ids preserved).
 
 Any change to this shape must be mirrored in `scripts/validate_perfumes.js` and the frontend types.
 

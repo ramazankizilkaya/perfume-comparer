@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Icon from "./Icon";
 import { formatDate, API_BASE, mediaUrl, blogHref } from "@/lib/urls";
@@ -27,40 +27,70 @@ const FALLBACK_BACKGROUNDS = [
     "/blog_backgrounds/francis-kurkdjian.webp",
 ];
 
+/** Kendiliğinden geçiş aralığı (ms). Kullanıcı okurken slayt değişmesin diye yavaş tutulur. */
+const AUTO_ADVANCE_MS = 8000;
+
 export default function BlogSlider({ blogs }: { blogs: BlogPost[] }) {
     const displayBlogs = (blogs || []).slice(0, 5);
+    const count = displayBlogs.length;
     const [currentIdx, setCurrentIdx] = useState(0);
-    const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+    // Otomatik geçiş kuralları: imleç/odak üstündeyken durur, kullanıcı bir kez elle
+    // geçiş yapınca kalıcı olarak kapanır, "hareketi azalt" tercihinde hiç çalışmaz.
+    const [engaged, setEngaged] = useState(false);
+    const [interacted, setInteracted] = useState(false);
+    const [reducedMotion, setReducedMotion] = useState(false);
+
+    useEffect(() => {
+        const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+        const apply = () => setReducedMotion(mq.matches);
+        apply();
+        mq.addEventListener("change", apply);
+        return () => mq.removeEventListener("change", apply);
+    }, []);
+
+    const autoPlay = count > 1 && !engaged && !interacted && !reducedMotion;
+
+    useEffect(() => {
+        if (!autoPlay) return;
+        const timer = setTimeout(() => {
+            setCurrentIdx((prev) => (prev + 1) % count);
+        }, AUTO_ADVANCE_MS);
+        return () => clearTimeout(timer);
+    }, [autoPlay, currentIdx, count]);
 
     const nextSlide = () => {
-        if (displayBlogs.length === 0) return;
-        setCurrentIdx((prev) => (prev + 1) % displayBlogs.length);
+        if (count === 0) return;
+        setInteracted(true);
+        setCurrentIdx((prev) => (prev + 1) % count);
     };
 
     const prevSlide = () => {
-        if (displayBlogs.length === 0) return;
-        setCurrentIdx((prev) => (prev - 1 + displayBlogs.length) % displayBlogs.length);
+        if (count === 0) return;
+        setInteracted(true);
+        setCurrentIdx((prev) => (prev - 1 + count) % count);
     };
 
-    useEffect(() => {
-        if (displayBlogs.length <= 1) return;
-        timeoutRef.current = setTimeout(() => {
-            nextSlide();
-        }, 6000);
-        return () => {
-            if (timeoutRef.current) clearTimeout(timeoutRef.current);
-        };
-    }, [currentIdx, displayBlogs.length]);
+    const goTo = (idx: number) => {
+        setInteracted(true);
+        setCurrentIdx(idx);
+    };
 
     if (!displayBlogs || displayBlogs.length === 0) return null;
 
     const current = displayBlogs[currentIdx] || displayBlogs[0];
     const background = current.coverImageUrl
         ? mediaUrl(current.coverImageUrl)
-        : `${API_BASE}${FALLBACK_BACKGROUNDS[currentIdx % FALLBACK_BACKGROUNDS.length]}`;
+        : mediaUrl(FALLBACK_BACKGROUNDS[currentIdx % FALLBACK_BACKGROUNDS.length]);
 
     return (
-        <section className="hero-blog-slider">
+        <section
+            className="hero-blog-slider"
+            aria-roledescription="slayt gösterisi"
+            onMouseEnter={() => setEngaged(true)}
+            onMouseLeave={() => setEngaged(false)}
+            onFocus={() => setEngaged(true)}
+            onBlur={() => setEngaged(false)}
+        >
             {displayBlogs.map((b, idx) => (
                 <div
                     key={b.id}
@@ -70,7 +100,7 @@ export default function BlogSlider({ blogs }: { blogs: BlogPost[] }) {
                             ? background
                             : b.coverImageUrl
                                 ? mediaUrl(b.coverImageUrl)
-                                : `${API_BASE}${FALLBACK_BACKGROUNDS[idx % FALLBACK_BACKGROUNDS.length]}`})`,
+                                : mediaUrl(FALLBACK_BACKGROUNDS[idx % FALLBACK_BACKGROUNDS.length])})`,
                     }}
                     aria-hidden="true"
                 />
@@ -120,8 +150,9 @@ export default function BlogSlider({ blogs }: { blogs: BlogPost[] }) {
                         key={idx}
                         type="button"
                         className={`hero-blog-dot ${idx === currentIdx ? "active" : ""}`}
-                        onClick={() => setCurrentIdx(idx)}
+                        onClick={() => goTo(idx)}
                         aria-label={`Slayt ${idx + 1}`}
+                        aria-current={idx === currentIdx ? "true" : undefined}
                     />
                 ))}
             </div>

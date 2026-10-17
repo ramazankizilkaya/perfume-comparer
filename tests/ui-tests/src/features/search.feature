@@ -25,3 +25,15 @@ Feature: Detailed search
             | device  | width | height |
             | desktop | 1440  | 900    |
             | mobile  | 375   | 812    |
+
+    Scenario Outline: As a user on <device>, I should see a facet-specific heading and server-rendered results, When I open a single-accord search URL
+        Given I set screen size to "<width>"x"<height>" for "<device>"
+        When I navigate to "Vanilla Accord Search" page
+        Then element "Search Page Title" should contain text "akorlu parfümler"
+        And search result cards count should be greater than 0
+        And no horizontal overflow should be detected on the page
+
+        Examples:
+            | device  | width | height |
+            | desktop | 1440  | 900    |
+            | mobile  | 375   | 812    |

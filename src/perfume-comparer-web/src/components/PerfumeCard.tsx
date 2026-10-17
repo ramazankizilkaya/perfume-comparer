@@ -5,6 +5,7 @@ import CompareButton from "./CompareButton";
 import { ConcentrationBadge, FamilyBadge } from "./Badges";
 import { perfumeHref, brandHref, mediaUrl } from "@/lib/urls";
 import type { PerfumeRef } from "@/lib/stores";
+import { fullPerfumeName } from "@/lib/perfumeName";
 
 export interface PerfumeCardData {
     name: string;
@@ -33,12 +34,14 @@ function toRef(p: PerfumeCardData): PerfumeRef {
 export function PerfumeCard({ perfume }: { perfume: PerfumeCardData }) {
     const href = perfumeHref(perfume.path, perfume.slug);
     const ref = toRef(perfume);
+    // "Versace Versace Pour Homme" olmasın: marka adı tam adın içindeyse tekrar yazılmaz.
+    const fullName = fullPerfumeName(perfume);
 
     return (
         <article className="card card-clean">
             <div className="card-media">
-                <Link href={href} className="card-media-link" aria-label={`${perfume.brand.name} ${perfume.name}`}>
-                    <img src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt={`${perfume.brand.name} ${perfume.name} parfümü`} loading="lazy" />
+                <Link href={href} className="card-media-link" aria-label={fullName}>
+                    <img src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt={`${fullName} parfümü`} loading="lazy" />
                 </Link>
                 <div className="card-hover-actions">
                     <FavButton perfume={ref} className="card-action-btn" />
@@ -74,16 +77,17 @@ export function PerfumeCard({ perfume }: { perfume: PerfumeCardData }) {
 
 export function PerfumeRank({ perfume, rank }: { perfume: PerfumeCardData; rank: number }) {
     const href = perfumeHref(perfume.path, perfume.slug);
+    const fullName = fullPerfumeName(perfume);
 
     return (
         <div className="rank-row">
             <span className="rank-num">{rank}</span>
-            <Link href={href} aria-label={`${perfume.brand.name} ${perfume.name}`}>
-                <img className="rank-thumb" src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt={`${perfume.brand.name} ${perfume.name} şişesi`} loading="lazy" />
+            <Link href={href} aria-label={fullName}>
+                <img className="rank-thumb" src={mediaUrl(perfume.imageUrl) || PLACEHOLDER} alt={`${fullName} orijinal parfüm şişesi`} loading="lazy" />
             </Link>
             <div className="rank-body">
                 <Link href={href} className="rank-name">
-                    {perfume.brand.name} {perfume.name}
+                    {fullName}
                 </Link>
             </div>
         </div>

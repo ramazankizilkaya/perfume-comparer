@@ -266,7 +266,15 @@ POPULAR_BRANDS_HTML_SNIPPET = [
     "https://www.fragrantica.com/designers/Diesel.html",
     "https://www.fragrantica.com/designers/Bentley.html",
     "https://www.fragrantica.com/designers/Mercedes-Benz.html",
-    "https://www.fragrantica.com/designers/Alfred-Dunhill.html"
+    "https://www.fragrantica.com/designers/Alfred-Dunhill.html",
+
+    # Türk Giyim, Perakende ve Koku Markaları
+    "https://www.fragrantica.com/designers/DeFacto.html",
+    "https://www.fragrantica.com/designers/LC-Waikiki.html",
+    "https://www.fragrantica.com/designers/Koton.html",
+    "https://www.fragrantica.com/designers/Mavi.html",
+    "https://www.fragrantica.com/designers/Atelier-Rebul.html",
+    "https://www.fragrantica.com/designers/Eyup-Sabri-Tuncer.html"
 ]
 
 def collect_all_designer_urls(lang="tr"):

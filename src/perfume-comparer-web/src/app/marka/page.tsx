@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import BrandsFilterClient, { type BrandCard } from "@/components/BrandsFilterClient";
-import { API_BASE, brandHref } from "@/lib/urls";
+import { brandHref } from "@/lib/urls";
+import { apiFetch } from "@/lib/api";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
@@ -13,7 +14,7 @@ export const metadata: Metadata = pageMetadata({
 export default async function BrandsPage() {
     let brands: BrandCard[] = [];
     try {
-        const res = await fetch(`${API_BASE}/api/brands`, { next: { revalidate: 60 } });
+        const res = await apiFetch(`/api/brands`, { next: { revalidate: 60 } });
         if (res.ok) brands = await res.json();
     } catch {
         brands = [];

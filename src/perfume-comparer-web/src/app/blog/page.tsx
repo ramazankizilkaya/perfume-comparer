@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import BlogWriteSection from "@/components/BlogWriteSection";
-import { API_BASE, formatDate, mediaUrl, blogHref } from "@/lib/urls";
+import { formatDate, mediaUrl, blogHref } from "@/lib/urls";
+import { apiFetch } from "@/lib/api";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
@@ -25,7 +26,7 @@ interface BlogPost {
 export default async function BlogPage() {
     let blogs: BlogPost[] = [];
     try {
-        const res = await fetch(`${API_BASE}/api/blogs`, { cache: "no-store" });
+        const res = await apiFetch(`/api/blogs`, { next: { revalidate: 60 } });
         if (res.ok) blogs = await res.json();
     } catch {
         blogs = [];

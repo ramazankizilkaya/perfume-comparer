@@ -1,11 +1,22 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useMemo, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { PageBreadcrumb } from "@/components/Breadcrumb";
 import RichTextRenderer from "@/components/RichTextRenderer";
 import { formatDate, mediaUrl, blogHref } from "@/lib/urls";
+
+const PREVIEW_KEY = "aura_blog_preview";
+const subscribeNoop = () => () => {};
+
+function readDraftRaw(): string | null {
+    try {
+        return sessionStorage.getItem(PREVIEW_KEY);
+    } catch {
+        return null;
+    }
+}
 
 interface DraftArticle {
     title: string;
@@ -17,21 +28,34 @@ interface DraftArticle {
 
 export default function BlogPreviewPage() {
     const router = useRouter();
-    const [draft, setDraft] = useState<DraftArticle | null>(null);
-    const [mounted, setMounted] = useState(false);
-
-    useEffect(() => {
-        setMounted(true);
+    // Taslak sessionStorage'dan okunur; sunucuda ve hydration sırasında "henüz yok" (undefined).
+    const raw = useSyncExternalStore(subscribeNoop, readDraftRaw, () => undefined);
+    const mounted = raw !== undefined;
+    const draft = useMemo<DraftArticle | null>(() => {
+        if (!raw) return null;
         try {
-            const raw = sessionStorage.getItem("aura_blog_preview");
-            if (raw) {
-                const parsed = JSON.parse(raw);
-                setDraft(parsed);
-            }
+            return JSON.parse(raw) as DraftArticle;
         } catch {
-            setDraft(null);
+            return null;
         }
-    }, []);
+    }, [raw]);
+
+    /**
+     * Önizleme yeni sekmede açılır (window.open), bu sekmenin geçmişi boştur ve router.back()
+     * hiçbir şey yapmaz. Açan sekme varsa bu sekme kapatılır; geçmiş varsa geri gidilir;
+     * ikisi de yoksa blog yazma sayfasına gidilir.
+     */
+    const backToEditor = () => {
+        if (window.opener && !window.opener.closed) {
+            window.close();
+            return;
+        }
+        if (window.history.length > 1) {
+            router.back();
+            return;
+        }
+        router.push(blogHref());
+    };
 
     if (!mounted) return null;
 
@@ -60,7 +84,7 @@ export default function BlogPreviewPage() {
                     <span className="preview-banner-text">Bu makale henüz kaydedilmedi veya yayınlanmadı. Sayfanın canlıda nasıl görüneceğini inceliyorsunuz.</span>
                 </div>
                 <div className="preview-banner-actions">
-                    <button type="button" onClick={() => router.back()} className="btn btn-sm btn-outline">
+                    <button type="button" onClick={backToEditor} className="btn btn-sm btn-outline">
                         ← Düzenlemeye Dön
                     </button>
                     <Link href={blogHref()} className="btn btn-sm btn-ghost">
@@ -83,7 +107,7 @@ export default function BlogPreviewPage() {
                         <img
                             className="article-cover"
                             src={mediaUrl(draft.coverImageUrl)}
-                            alt={`${draft.title} makale kapak görseli`}
+                            alt={`${draft.title || "Başlıksız makale"} - blog kapak görseli`}
                         />
                     </div>
                 )}
@@ -128,7 +152,7 @@ export default function BlogPreviewPage() {
                     <div className="article-footer-card">
                         <h3>Taslağınızı beğendiniz mi?</h3>
                         <p>Düzenleme ekranına dönerek &quot;Taslak Olarak Gönder&quot; butonuna basıp admin onayına iletebilirsiniz.</p>
-                        <button type="button" onClick={() => router.back()} className="btn btn-primary" style={{ marginTop: "1rem" }}>
+                        <button type="button" onClick={backToEditor} className="btn btn-primary" style={{ marginTop: "1rem" }}>
                             ← Düzenlemeye Dön ve Gönder
                         </button>
                     </div>

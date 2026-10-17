@@ -21,13 +21,21 @@ public class ComparisonComment
     public int? UserId { get; set; }
     public AppUser? User { get; set; }
 
+    public const int MaxBodyLength = 4000;
+
     public required string Body { get; set; }
 
     /// <summary>Yorum sahibinin hangi parfümü tercih ettiği (opsiyonel oy).</summary>
     public int? PreferredPerfumeId { get; set; }
 
-    /// <summary>Arka plan işi tarafından yorumlardan üretilen özet mi?</summary>
+    /// <summary>Yapay zekâ metni mi (kullanıcı yorumu değil)?</summary>
     public bool IsAiSummary { get; set; }
+
+    /// <summary>
+    /// AI metninin türü: karşılaştırma sayfasındaki analiz mi, yorum özeti mi?
+    /// Çift başına her türden en fazla bir kayıt olur; biri diğerinin üzerine yazmaz.
+    /// </summary>
+    public ComparisonAiKind AiKind { get; set; } = ComparisonAiKind.CommentSummary;
 
     /// <summary>AI özeti üretilirken kaç yorum vardı; yeniden üretim eşiği için.</summary>
     public int? SourceCommentCount { get; set; }

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PerfumeComparer.Business.Services;
+using PerfumeComparer.Controllers.Filters;
 using PerfumeComparer.Data.Persistence;
 using PerfumeComparer.Domain;
 using PerfumeComparer.Domain.Entities;
@@ -120,6 +121,7 @@ public class BlogController(AppDbContext db, ITokenService tokens) : ControllerB
 
     public record CreateBlogPostDto(string Title, string Body, string? Excerpt, string? CoverImageUrl);
 
+    /// <summary>Yazı gönderimi giriş ister; yazı Pending durumunda kaydedilir ve admin onayı bekler.</summary>
     [HttpPost]
     public async Task<IActionResult> CreateBlog([FromBody] CreateBlogPostDto dto, CancellationToken ct)
     {
@@ -128,28 +130,26 @@ public class BlogController(AppDbContext db, ITokenService tokens) : ControllerB
             return BadRequest(new { message = "Başlık ve içerik alanları zorunludur." });
         }
 
+        if (dto.Title.Trim().Length > 200)
+            return BadRequest(new { message = "Başlık en fazla 200 karakter olabilir." });
+
+        if (dto.Excerpt is { Length: > 500 })
+            return BadRequest(new { message = "Özet en fazla 500 karakter olabilir." });
+
         var principal = tokens.Validate(Request.Headers.Authorization.ToString());
-        int authorId;
-        if (principal != null)
-        {
-            authorId = (int)principal.UserId;
-        }
-        else
-        {
-            var author = await db.Users.FirstOrDefaultAsync(ct);
-            if (author == null)
-            {
-                return BadRequest(new { message = "Yazar bulunamadı. Lütfen önce veritabanını tohumlayın veya giriş yapın." });
-            }
-            authorId = (int)author.Id;
-        }
+        if (principal == null)
+            return Unauthorized(new { message = "Yazı göndermek için giriş yapmalısınız." });
+
+        var authorId = principal.UserId;
+        if (!await db.Users.AnyAsync(u => u.Id == authorId, ct))
+            return Unauthorized(new { message = "Oturum geçersiz. Lütfen tekrar giriş yapın." });
 
         var slug = Domain.SlugHelper.Slugify(dto.Title) + "-" + DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString();
 
         var newPost = new BlogPost
         {
             AuthorUserId = authorId,
-            Title = dto.Title,
+            Title = dto.Title.Trim(),
             Slug = slug,
             Body = dto.Body,
             Excerpt = dto.Excerpt ?? (dto.Body.Length > 150 ? dto.Body[..150] + "..." : dto.Body),
@@ -173,5 +173,59 @@ public class BlogController(AppDbContext db, ITokenService tokens) : ControllerB
                 newPost.Status
             }
         });
+    }
+
+    // ------------------------------------------------------------ moderasyon
+
+    /// <summary>Onay bekleyen yazılar (yalnızca admin).</summary>
+    [HttpGet("pending")]
+    [RequireAdmin]
+    public async Task<IActionResult> GetPendingBlogs(CancellationToken ct)
+    {
+        var posts = await db.BlogPosts
+            .AsNoTracking()
+            .Where(b => b.Status == BlogPostStatus.Pending)
+            .OrderBy(b => b.CreatedAt)
+            .Select(b => new
+            {
+                b.Id,
+                b.Title,
+                b.Slug,
+                b.Excerpt,
+                b.Body,
+                b.CoverImageUrl,
+                b.CreatedAt,
+                AuthorName = b.Author.DisplayName ?? b.Author.Email
+            })
+            .ToListAsync(ct);
+
+        return Ok(posts);
+    }
+
+    /// <summary>Bekleyen yazıyı yayına alır (yalnızca admin).</summary>
+    [HttpPost("{id:int}/approve")]
+    [RequireAdmin]
+    public Task<IActionResult> ApproveBlog(int id, CancellationToken ct) =>
+        ModerateAsync(id, BlogPostStatus.Published, "Yazı yayına alındı.", ct);
+
+    /// <summary>Bekleyen yazıyı reddeder (yalnızca admin).</summary>
+    [HttpPost("{id:int}/reject")]
+    [RequireAdmin]
+    public Task<IActionResult> RejectBlog(int id, CancellationToken ct) =>
+        ModerateAsync(id, BlogPostStatus.Rejected, "Yazı reddedildi.", ct);
+
+    private async Task<IActionResult> ModerateAsync(int id, BlogPostStatus status, string message, CancellationToken ct)
+    {
+        var post = await db.BlogPosts.FirstOrDefaultAsync(b => b.Id == id, ct);
+        if (post == null)
+            return NotFound(new { message = "Yazı bulunamadı." });
+
+        post.Status = status;
+        post.UpdatedAt = DateTimeOffset.UtcNow;
+        if (status == BlogPostStatus.Published)
+            post.PublishedAt ??= DateTimeOffset.UtcNow;
+
+        await db.SaveChangesAsync(ct);
+        return Ok(new { message, post = new { post.Id, post.Slug, Status = post.Status.ToString() } });
     }
 }

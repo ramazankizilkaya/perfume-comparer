@@ -76,9 +76,12 @@ export default function HomeFeedClient({
 
         prevGenderRef.current = gender;
         const g = gender && gender !== "all" ? `&gender=${gender}` : "";
-        setIsFiltering(true);
+        // Cinsiyet hızlı değiştirilirse önceki istekler iptal edilir; eski cevap yeni listenin üstüne yazılmaz.
+        const controller = new AbortController();
+        const { signal } = controller;
 
         (async () => {
+            setIsFiltering(true);
             try {
                 const [
                     exploreRes,
@@ -89,13 +92,13 @@ export default function HomeFeedClient({
                     votesRes,
                     topRes,
                 ] = await Promise.all([
-                    fetch(`${API_BASE}/api/perfumes?sort=random&pageSize=20${g}`),
-                    fetch(`${API_BASE}/api/perfumes?sort=views&randomPool=500&pageSize=20${g}`),
-                    fetch(`${API_BASE}/api/compare/popular`),
-                    fetch(`${API_BASE}/api/perfumes?sort=newest&randomPool=500&pageSize=20${g}`),
-                    fetch(`${API_BASE}/api/perfumes?sort=comments&randomPool=500&pageSize=20${g}`),
-                    fetch(`${API_BASE}/api/perfumes?sort=votes&randomPool=500&pageSize=20${g}`),
-                    fetch(`${API_BASE}/api/perfumes?sort=rating&minVotes=500&randomPool=500&pageSize=20${g}`),
+                    fetch(`${API_BASE}/api/perfumes?sort=random&pageSize=20${g}`, { signal }),
+                    fetch(`${API_BASE}/api/perfumes?sort=views&randomPool=100&pageSize=20${g}`, { signal }),
+                    fetch(`${API_BASE}/api/compare/popular`, { signal }),
+                    fetch(`${API_BASE}/api/perfumes?sort=newest&randomPool=100&pageSize=20${g}`, { signal }),
+                    fetch(`${API_BASE}/api/perfumes?sort=comments&randomPool=100&pageSize=20${g}`, { signal }),
+                    fetch(`${API_BASE}/api/perfumes?sort=votes&randomPool=100&pageSize=20${g}`, { signal }),
+                    fetch(`${API_BASE}/api/perfumes?sort=rating&minVotes=500&randomPool=100&pageSize=20${g}`, { signal }),
                 ]);
 
                 const [
@@ -116,6 +119,7 @@ export default function HomeFeedClient({
                     topRes.ok ? topRes.json() : Promise.resolve(null),
                 ]);
 
+                if (signal.aborted) return;
                 setData((prev) => ({
                     ...prev,
                     explorePerfumes: exploreJson?.items ?? prev.explorePerfumes,
@@ -127,17 +131,24 @@ export default function HomeFeedClient({
                     topRatedPerfumes: topJson?.items ?? prev.topRatedPerfumes,
                 }));
             } catch {
-                /* hata durumunda mevcut veri korunur */
+                /* hata ya da iptal durumunda mevcut veri korunur */
             } finally {
-                setIsFiltering(false);
+                if (!signal.aborted) setIsFiltering(false);
             }
         })();
+
+        return () => controller.abort();
     }, [gender, genderReady]);
 
     const gParam = gender && gender !== "all" ? `&gender=${gender}` : "";
 
     return (
         <div className="home-layout">
+            {/* Sayfanın tek H1'i: görsel olarak küçük tutulur (CSS: .home-page-title), slider'daki başlıklar h2 kalır. */}
+            <header className="home-page-head">
+                <h1 className="page-title home-page-title">Parfüm Karşılaştırma ve Koku Rehberi</h1>
+            </header>
+
             {/* 1. Üst Blog Hero Slider'ı */}
             {data.blogs.length > 0 && <BlogSlider blogs={data.blogs} />}
 

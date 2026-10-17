@@ -20,7 +20,9 @@ public class CatalogController(
     AppDbContext db,
     ITokenService tokens,
     IGeminiClient gemini,
-    AiSummaryJob aiSummary) : ControllerBase
+    AiSummaryJob aiSummary,
+    IAiRequestGate aiGate,
+    MediaPaths media) : ControllerBase
 {
     [HttpGet("perfumes")]
     public async Task<IActionResult> GetPerfumes([FromQuery] PerfumeListQuery query, CancellationToken ct)
@@ -57,32 +59,42 @@ public class CatalogController(
             });
             isFavorited = true;
         }
-        await db.SaveChangesAsync(ct);
+
+        try
+        {
+            await db.SaveChangesAsync(ct);
+        }
+        catch (DbUpdateException)
+        {
+            // İki sekmeden aynı anda gelen istek: (UserId, PerfumeId) anahtarı çakıştı,
+            // 500 yerine güncel durumu döndür.
+            db.ChangeTracker.Clear();
+            isFavorited = await db.Favorites.AsNoTracking()
+                .AnyAsync(f => f.UserId == principal.UserId && f.PerfumeId == perfume.Id, ct);
+        }
+
         return Ok(new { favorited = isFavorited });
     }
 
     [HttpGet("perfumes/{slug}")]
     public async Task<IActionResult> GetPerfumeDetail(string slug, CancellationToken ct)
     {
-        var ip = GetClientIp();
-        var dto = await catalog.GetPerfumeDetailAsync(slug, ip, ct);
+        var dto = await catalog.GetPerfumeDetailAsync(slug, ct);
         return dto is not null ? Ok(dto) : NotFound();
     }
 
-    private string? GetClientIp()
+    /// <summary>
+    /// Görüntülenme bildirimi. Detay sayfası sunucuda render edildiği için GET detay
+    /// isteği ziyaretçinin değil Next sunucusunun IP'sinden gelir; sayım bu yüzden
+    /// tarayıcıdan atılan ayrı bir POST ile yapılır. IP, UseForwardedHeaders ile yalnızca
+    /// güvenilen proxy'den gelen X-Forwarded-For'a göre çözülür; başlık elle taklit edilemez.
+    /// </summary>
+    [HttpPost("perfumes/{slug}/view")]
+    public async Task<IActionResult> RecordView(string slug, CancellationToken ct)
     {
-        if (Request.Headers.TryGetValue("X-Forwarded-For", out var forwarded) && !string.IsNullOrWhiteSpace(forwarded))
-        {
-            var ip = forwarded.ToString().Split(',')[0].Trim();
-            if (!string.IsNullOrWhiteSpace(ip)) return ip;
-        }
-
-        if (Request.Headers.TryGetValue("X-Real-IP", out var realIp) && !string.IsNullOrWhiteSpace(realIp))
-        {
-            return realIp.ToString().Trim();
-        }
-
-        return HttpContext.Connection.RemoteIpAddress?.ToString();
+        var ip = HttpContext.Connection.RemoteIpAddress?.ToString();
+        var viewCount = await catalog.RecordViewAsync(slug, ip, ct);
+        return viewCount is null ? NotFound(new { message = "Parfüm bulunamadı." }) : Ok(new { viewCount });
     }
 
     [HttpGet("brands")]
@@ -137,12 +149,14 @@ public class CatalogController(
 
     /// <summary>
     /// Bir parfümün AI yorum özetini üretir (yoksa) ve döndürür. Detay sayfası
-    /// açılışta bunu çağırır; yorum sayısı eşiğin altındaysa 204 döner.
+    /// açılışta bunu çağırır; yorum sayısı eşiğin altındaysa 204 döner. Eldeki özet
+    /// herkese döner; yeni üretim giriş yapmış kullanıcıya serbest, anonim ziyaretçiye
+    /// IP başına sınırlıdır (IAiRequestGate).
     /// </summary>
     [HttpPost("perfumes/{slug}/ai-summary")]
     public async Task<IActionResult> EnsureAiSummary(string slug, CancellationToken ct)
     {
-        var summary = await aiSummary.EnsurePerfumeSummaryAsync(slug, ct);
+        var summary = await aiSummary.EnsurePerfumeSummaryAsync(slug, () => aiGate.TryEnter(HttpContext), ct);
         if (summary is null) return NoContent();
 
         return Ok(new
@@ -203,6 +217,9 @@ public class CatalogController(
         {
             return BadRequest("Lütfen geçerli bir puan (1-5) ve yorum girin.");
         }
+
+        if (dto.Content.Trim().Length > PerfumeComment.MaxBodyLength)
+            return BadRequest(new { message = $"Yorum en fazla {PerfumeComment.MaxBodyLength} karakter olabilir." });
 
         var perfume = await db.Perfumes.FirstOrDefaultAsync(p => p.Slug == slug, ct);
         if (perfume == null) return NotFound("Parfüm bulunamadı.");
@@ -340,7 +357,11 @@ public class CatalogController(
             return BadRequest(new { message = "Lütfen 1 ile 5 arasında genel bir puan seçin." });
         }
 
-        // 1. Puan kaydı
+        // Yorum sınırı en başta denetlenir ki puan kaydedilip yorum 500 vermesin.
+        if (dto.Comment is not null && dto.Comment.Trim().Length > PerfumeComment.MaxBodyLength)
+            return BadRequest(new { message = $"Yorum en fazla {PerfumeComment.MaxBodyLength} karakter olabilir." });
+
+        // 1. Puan kaydı (tüm kayıtlar tek SaveChanges ile yazılır: ya hepsi ya hiçbiri)
         db.Ratings.Add(new Rating
         {
             PerfumeId = perfume.Id,
@@ -350,10 +371,11 @@ public class CatalogController(
             UpdatedAt = DateTimeOffset.UtcNow
         });
 
-        await db.SaveChangesAsync(ct);
-        var ratings = await db.Ratings.Where(r => r.PerfumeId == perfume.Id).Select(r => r.Score).ToListAsync(ct);
+        var ratings = await db.Ratings.AsNoTracking()
+            .Where(r => r.PerfumeId == perfume.Id).Select(r => (int)r.Score).ToListAsync(ct);
+        ratings.Add(dto.Score.Value);
         perfume.UserRatingCount = ratings.Count;
-        perfume.UserAvgRating = ratings.Count > 0 ? (decimal)ratings.Average(r => r) : 0m;
+        perfume.UserAvgRating = (decimal)ratings.Average();
 
         // 2. Yorum kaydı
         if (!string.IsNullOrWhiteSpace(dto.Comment))
@@ -426,7 +448,16 @@ public class CatalogController(
         await SaveRelationsAsync(perfume.Id, dto.RemindsOfPerfumes, PerfumeRelationKind.RemindsMeOf, ct);
         await SaveRelationsAsync(perfume.Id, dto.SimilarPerfumes, PerfumeRelationKind.PeopleAlsoLike, ct);
 
-        await db.SaveChangesAsync(ct);
+        try
+        {
+            await db.SaveChangesAsync(ct);
+        }
+        catch (DbUpdateException)
+        {
+            // Eşzamanlı ikinci istek (UserId, PerfumeId) anahtarına takıldı; veri bozulmaz.
+            return Conflict(new { message = "Bu parfümü daha önce değerlendirdiniz. Bir parfüm yalnızca bir kez değerlendirilebilir." });
+        }
+
         return Ok(new { message = "Değerlendirmeniz başarıyla kaydedildi!" });
     }
 
@@ -541,56 +572,55 @@ public class CatalogController(
             fileBytes = ms.ToArray();
         }
 
-        // Gemini AI ile görsel doğrulama. Anahtar yoksa ya da çağrı başarısızsa
-        // görsel kabul edilir; doğrulama bir bonus, geçit değil.
-        var mimeType = photo.ContentType.StartsWith("image/") ? photo.ContentType : "image/jpeg";
-        var verdict = await gemini.GenerateJsonAsync<PhotoVerdict>($$"""
-            Sen bir parfüm web sitesi görsel denetleyicisisin.
-            Kullanıcı bu fotoğrafı '{{perfume.Name}}' parfümü için yükledi.
-            Bu görsel gerçekten bir parfüm şişesi / parfüm kutusu / parfüm ürünü fotoğrafı mıdır?
-            Müstehcenlik, uygunsuzluk, alakasız insan veya tamamen ilgisiz nesneler içeriyor mu?
+        // Dosya türü adından değil ilk baytlarından belirlenir; yalnızca JPG, PNG, WebP.
+        var detected = DetectImageType(fileBytes);
+        if (detected is null)
+            return BadRequest(new { message = "Yalnızca JPG, PNG veya WebP görsel yükleyebilirsiniz." });
 
-            Yanıtı yalnızca saf JSON olarak döndür:
-            {
-              "isValid": true veya false,
-              "reason": "Kısa Türkçe açıklama (ör. Uygun parfüm şişesi görseli / Görselde parfüm şişesi tespit edilemedi)"
-            }
-            """, fileBytes, mimeType, ct);
+        var (mimeType, ext) = detected.Value;
 
-        var isAiApproved = verdict?.IsValid ?? true;
-        var rejectionReason = verdict?.Reason;
+        // Gemini AI ile görsel doğrulama. Reddederse dosya kaydedilmez; AI kapalıysa ya da
+        // cevap veremezse fotoğraf kaydedilir ama "onay bekliyor" olarak gizli kalır.
+        PhotoVerdict? verdict = null;
+        if (gemini.Enabled)
+        {
+            verdict = await gemini.GenerateJsonAsync<PhotoVerdict>($$"""
+                Sen bir parfüm web sitesi görsel denetleyicisisin.
+                Kullanıcı bu fotoğrafı '{{perfume.Name}}' parfümü için yükledi.
+                Bu görsel gerçekten bir parfüm şişesi / parfüm kutusu / parfüm ürünü fotoğrafı mıdır?
+                Müstehcenlik, uygunsuzluk, alakasız insan veya tamamen ilgisiz nesneler içeriyor mu?
 
-        if (!isAiApproved)
+                Yanıtı yalnızca saf JSON olarak döndür:
+                {
+                  "isValid": true veya false,
+                  "reason": "Kısa Türkçe açıklama (ör. Uygun parfüm şişesi görseli / Görselde parfüm şişesi tespit edilemedi)"
+                }
+                """, fileBytes, mimeType, ct);
+        }
+
+        if (verdict is { IsValid: false })
         {
             return BadRequest(new
             {
-                message = rejectionReason ?? "Yüklenen görsel parfüm şişesi veya ürünü olarak doğrulanamadı. Lütfen net bir parfüm fotoğrafı yükleyin."
+                message = verdict.Reason ?? "Yüklenen görsel parfüm şişesi veya ürünü olarak doğrulanamadı. Lütfen net bir parfüm fotoğrafı yükleyin."
             });
         }
 
-        // Görseli scrape_files/user_uploads/{slug}/ dizinine kaydet
-        var uploadDir = Path.GetFullPath(Path.Combine(
-            builder_media_root(HttpContext) ?? "scrape_files",
-            "user_uploads",
-            perfume.Slug));
+        var isApproved = verdict is { IsValid: true };
 
+        // Görsel repo dışındaki kalıcı klasöre yazılır: <UserPhotosRoot>/{slug}/
+        var uploadDir = Path.Combine(media.UserPhotosRoot, perfume.Slug);
         Directory.CreateDirectory(uploadDir);
 
-        var ext = Path.GetExtension(photo.FileName).ToLowerInvariant();
-        if (string.IsNullOrWhiteSpace(ext) || ext == ".jfif") ext = ".jpg";
         var fileName = $"{Guid.NewGuid():N}{ext}";
-        var filePath = Path.Combine(uploadDir, fileName);
-
-        await System.IO.File.WriteAllBytesAsync(filePath, fileBytes, ct);
-
-        var relativePath = $"/media/user_uploads/{perfume.Slug}/{fileName}";
+        await System.IO.File.WriteAllBytesAsync(Path.Combine(uploadDir, fileName), fileBytes, ct);
 
         var userPhoto = new PerfumeUserPhoto
         {
             PerfumeId = perfume.Id,
             UserId = user.Id,
-            ImageUrl = relativePath,
-            IsApproved = true,
+            ImageUrl = $"{MediaPaths.UserPhotosRequestPath}/{perfume.Slug}/{fileName}",
+            IsApproved = isApproved,
             CreatedAt = DateTimeOffset.UtcNow
         };
 
@@ -599,7 +629,10 @@ public class CatalogController(
 
         return Ok(new
         {
-            message = "Fotoğrafınız başarıyla yüklendi ve yayına alındı!",
+            message = isApproved
+                ? "Fotoğrafınız başarıyla yüklendi ve yayına alındı!"
+                : "Fotoğrafınız alındı; kontrol edildikten sonra yayınlanacak.",
+            pending = !isApproved,
             photo = new
             {
                 userPhoto.Id,
@@ -610,10 +643,21 @@ public class CatalogController(
         });
     }
 
-    private static string builder_media_root(HttpContext context)
+    /// <summary>Dosyanın sihirli baytlarından (JPEG, PNG, WebP) MIME türü ve uzantısını bulur; tanımadığına null.</summary>
+    private static (string MimeType, string Extension)? DetectImageType(ReadOnlySpan<byte> bytes)
     {
-        var config = context.RequestServices.GetRequiredService<IConfiguration>();
-        var env = context.RequestServices.GetRequiredService<IWebHostEnvironment>();
-        return Path.GetFullPath(Path.Combine(env.ContentRootPath, config["Media:Root"] ?? "../../scrape_files"));
+        if (bytes.Length >= 3 && bytes[0] == 0xFF && bytes[1] == 0xD8 && bytes[2] == 0xFF)
+            return ("image/jpeg", ".jpg");
+
+        ReadOnlySpan<byte> png = [0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A];
+        if (bytes.Length >= 8 && bytes[..8].SequenceEqual(png))
+            return ("image/png", ".png");
+
+        if (bytes.Length >= 12
+            && bytes[..4].SequenceEqual("RIFF"u8)
+            && bytes[8..12].SequenceEqual("WEBP"u8))
+            return ("image/webp", ".webp");
+
+        return null;
     }
 }
