@@ -44,7 +44,8 @@ perfume-comparer/
 │
 └── docs/
     ├── AGENT_QUICK_MAP.md           # [BU DOSYA] Hızlı sistem haritası
-    └── AGENT_DEEP_ARCHITECTURE.md   # Derinlemesine teknik mimari dokümantasyonu
+    ├── AGENT_DEEP_ARCHITECTURE.md   # Derinlemesine teknik mimari dokümantasyonu
+    └── AI_API_USAGE.md              # AI servisleri ve fallback matrisi rehberi
 ```
 
 ---

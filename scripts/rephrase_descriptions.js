@@ -56,8 +56,19 @@ function loadRootDotenv() {
       if (appSettings.Gemini?.ApiKey && !process.env.GEMINI_API_KEY) {
         process.env.GEMINI_API_KEY = appSettings.Gemini.ApiKey;
       }
-      if (appSettings.Ai?.ApiKey && !process.env.OPENAI_API_KEY) {
+      if (appSettings.OpenAI?.ApiKey && !process.env.OPENAI_API_KEY) {
+        process.env.OPENAI_API_KEY = appSettings.OpenAI.ApiKey;
+      } else if (appSettings.Ai?.ApiKey && !process.env.OPENAI_API_KEY) {
         process.env.OPENAI_API_KEY = appSettings.Ai.ApiKey;
+      }
+      if (appSettings.Groq?.ApiKey && !process.env.GROQ_API_KEY) {
+        process.env.GROQ_API_KEY = appSettings.Groq.ApiKey;
+      }
+      if (appSettings.DeepSeek?.ApiKey && !process.env.DEEPSEEK_API_KEY) {
+        process.env.DEEPSEEK_API_KEY = appSettings.DeepSeek.ApiKey;
+      }
+      if (appSettings.Mistral?.ApiKey && !process.env.MISTRAL_API_KEY) {
+        process.env.MISTRAL_API_KEY = appSettings.Mistral.ApiKey;
       }
     } catch (err) {
       // sessizce geç
@@ -69,6 +80,9 @@ loadRootDotenv();
 
 // API Anahtarı Kontrolü
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
+const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
+const MISTRAL_API_KEY = process.env.MISTRAL_API_KEY;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 // 1. AI Ajanı (Rephrase & Knowledge Enrichment) Prompt Hazırlama
@@ -116,7 +130,7 @@ Lütfen SADECE yayınlanmaya hazır nihai metni çıktı olarak ver (başka aç�
  * Gemini API çağrısı yapar (REST API)
  */
 async function callGeminiAPI(promptText) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${GEMINI_API_KEY}`;
   const response = await fetch(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -174,16 +188,158 @@ async function callOpenAIAPI(promptText) {
 }
 
 /**
- * AI Servisini çağırır (Gemini öncelikli, yoksa OpenAI)
+ * DeepSeek API çağrısı yapar (REST API)
+ */
+async function callDeepSeekAPI(promptText) {
+  const url = 'https://api.deepseek.com/chat/completions';
+  const response = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${DEEPSEEK_API_KEY}`
+    },
+    body: JSON.stringify({
+      model: 'deepseek-chat',
+      messages: [{ role: 'user', content: promptText }],
+      temperature: 0.7
+    })
+  });
+
+  if (!response.ok) {
+    const errText = await response.text();
+    throw new Error(`DeepSeek API Hatası (${response.status}): ${errText}`);
+  }
+
+  const data = await response.json();
+  const resultText = data.choices?.[0]?.message?.content;
+  if (!resultText) {
+    throw new Error('DeepSeek API boş yanıt döndürdü.');
+  }
+  return resultText.trim();
+}
+
+/**
+ * Groq API çağrısı yapar (REST API)
+ */
+async function callGroqAPI(promptText) {
+  const url = 'https://api.groq.com/openai/v1/chat/completions';
+  const response = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${GROQ_API_KEY}`
+    },
+    body: JSON.stringify({
+      model: 'llama-3.3-70b-versatile',
+      messages: [{ role: 'user', content: promptText }],
+      temperature: 0.7
+    })
+  });
+
+  if (!response.ok) {
+    const errText = await response.text();
+    throw new Error(`Groq API Hatası (${response.status}): ${errText}`);
+  }
+
+  const data = await response.json();
+  const resultText = data.choices?.[0]?.message?.content;
+  if (!resultText) {
+    throw new Error('Groq API boş yanıt döndürdü.');
+  }
+  return resultText.trim();
+}
+
+/**
+ * Mistral AI API çağrısı yapar (REST API)
+ */
+async function callMistralAPI(promptText) {
+  const url = 'https://api.mistral.ai/v1/chat/completions';
+  const response = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${MISTRAL_API_KEY}`
+    },
+    body: JSON.stringify({
+      model: 'mistral-small-latest',
+      messages: [{ role: 'user', content: promptText }],
+      temperature: 0.7
+    })
+  });
+
+  if (!response.ok) {
+    const errText = await response.text();
+    throw new Error(`Mistral API Hatası (${response.status}): ${errText}`);
+  }
+
+  const data = await response.json();
+  const resultText = data.choices?.[0]?.message?.content;
+  if (!resultText) {
+    throw new Error('Mistral API boş yanıt döndürdü.');
+  }
+  return resultText.trim();
+}
+
+/**
+ * AI Servisini çağırır (DeepSeek öncelikli -> Mistral -> Gemini -> Groq -> OpenAI Fallback ve Otomatik Yeniden Deneme)
  */
 async function generateAIResponse(promptText) {
-  if (GEMINI_API_KEY) {
-    return await callGeminiAPI(promptText);
-  } else if (OPENAI_API_KEY) {
-    return await callOpenAIAPI(promptText);
-  } else {
-    throw new Error('API Anahtarı bulunamadı! Lütfen GEMINI_API_KEY veya OPENAI_API_KEY ortam değişkenini tanımlayın.');
+  const providers = [];
+
+  // DeepSeek ücretli hesap olduğu için paralellik ve hızda ilk sırada
+  if (DEEPSEEK_API_KEY) {
+    providers.push({
+      name: 'DeepSeek (deepseek-chat)',
+      fn: () => callDeepSeekAPI(promptText)
+    });
   }
+  if (MISTRAL_API_KEY) {
+    providers.push({
+      name: 'Mistral (mistral-small-latest)',
+      fn: () => callMistralAPI(promptText)
+    });
+  }
+  if (GEMINI_API_KEY) {
+    providers.push({
+      name: 'Google Gemini (3.5 Flash)',
+      fn: () => callGeminiAPI(promptText)
+    });
+  }
+  if (GROQ_API_KEY) {
+    providers.push({
+      name: 'Groq (Llama 3.3 70B)',
+      fn: () => callGroqAPI(promptText)
+    });
+  }
+  if (OPENAI_API_KEY) {
+    providers.push({
+      name: 'OpenAI (gpt-4o-mini)',
+      fn: () => callOpenAIAPI(promptText)
+    });
+  }
+
+  if (providers.length === 0) {
+    throw new Error('Hiçbir AI API Anahtarı bulunamadı! Lütfen appsettings.Local.json veya .env dosyasını kontrol edin.');
+  }
+
+  let lastError = null;
+
+  for (const provider of providers) {
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        return await provider.fn();
+      } catch (err) {
+        lastError = err;
+        const msg = String(err.message || err);
+        console.warn(`   ⚠️ [${provider.name}] Deneme ${attempt} başarısız: ${msg.slice(0, 100)}...`);
+        // Geçici ağ veya 503/429 durumlarında kısa bekleme
+        await new Promise(r => setTimeout(r, 1200 * attempt));
+      }
+    }
+    console.warn(`   🔄 [Fallback]: ${provider.name} tükendi, sıradaki AI sağlayıcısına geçiliyor...`);
+  }
+
+  throw new Error(`Tüm AI servisleri başarısız oldu. Son hata: ${lastError?.message || lastError}`);
 }
 
 /**
@@ -232,10 +388,14 @@ async function main() {
   let targetBrand = null;
   let limit = Infinity;
   let force = false;
+  let concurrency = 5; // Varsayılan 5 paralel worker
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--limit' && args[i + 1]) {
       limit = parseInt(args[i + 1], 10);
+      i++;
+    } else if (args[i] === '--concurrency' && args[i + 1]) {
+      concurrency = parseInt(args[i + 1], 10);
       i++;
     } else if (args[i] === '--force') {
       force = true;
@@ -247,19 +407,21 @@ async function main() {
   console.log(`==================================================`);
   console.log(`Parfüm Açıklamaları AI Rephrase & Validasyon Scripti`);
   console.log(`==================================================`);
+  console.log(`⚡ Eşzamanlı Çalışan Worker Sayısı : ${concurrency}`);
 
-  if (!GEMINI_API_KEY && !OPENAI_API_KEY) {
-    console.log(`\n⚠️ UYARI: Herhangi bir AI API Anahtarı bulunamadı!`);
-    console.log(`Lütfen terminalinizde aşağıdaki komutlardan birini çalıştırın:\n`);
-    console.log(`  export GEMINI_API_KEY="Sizin-Gemini-API-Anahtarınız"`);
-    console.log(`  # VEYA`);
-    console.log(`  export OPENAI_API_KEY="Sizin-OpenAI-API-Anahtarınız"\n`);
-    console.log(`Ardından scripti tekrar çalıştırın.`);
+  const activeProviders = [];
+  if (DEEPSEEK_API_KEY) activeProviders.push('DeepSeek');
+  if (MISTRAL_API_KEY) activeProviders.push('Mistral');
+  if (GEMINI_API_KEY) activeProviders.push('Gemini');
+  if (GROQ_API_KEY) activeProviders.push('Groq');
+  if (OPENAI_API_KEY) activeProviders.push('OpenAI');
+
+  if (activeProviders.length === 0) {
+    console.error(`\n❌ HATA: appsettings.Local.json veya .env içinde aktif hiçbir API anahtarı bulunamadı!`);
     process.exit(1);
   }
 
-  const provider = GEMINI_API_KEY ? 'Google Gemini (2.0 Flash)' : 'OpenAI (GPT-4o-mini)';
-  console.log(`🤖 Kullanılan AI Sağlayıcı: ${provider}`);
+  console.log(`🤖 Aktif Fallback Sağlayıcı Zinciri : ${activeProviders.join(' -> ')}`);
 
   const perfumesBaseDir = path.join(__dirname, '..', 'scrape_files', 'perfumes');
   if (!fs.existsSync(perfumesBaseDir)) {
@@ -277,39 +439,64 @@ async function main() {
     }
   }
 
-  let totalProcessed = 0;
-  let successCount = 0;
-  let skippedCount = 0;
-
+  // İşlenecek tüm dosyaları topla
+  const allFiles = [];
   for (const bSlug of brandDirs) {
-    if (totalProcessed >= limit) break;
-
     const brandDir = path.join(perfumesBaseDir, bSlug);
     const jsonFiles = fs.readdirSync(brandDir).filter(f => f.endsWith('.json'));
-
     for (const jFile of jsonFiles) {
-      if (totalProcessed >= limit) break;
+      allFiles.push({
+        brand: bSlug,
+        filename: jFile,
+        fullPath: path.join(brandDir, jFile)
+      });
+    }
+  }
 
-      const fullPath = path.join(brandDir, jFile);
+  console.log(`📦 Taranan Toplam Parfüm Dosyası    : ${allFiles.length}`);
+
+  let successCount = 0;
+  let skippedCount = 0;
+  let errorCount = 0;
+  let processedCount = 0;
+
+  // Havuz (Worker Pool) ile kontrollü paralellik
+  let fileIndex = 0;
+  async function worker(workerId) {
+    while (fileIndex < allFiles.length && processedCount < limit) {
+      const current = allFiles[fileIndex++];
+      if (!current) break;
+
       try {
-        const res = await processPerfumeFile(fullPath, force);
+        const res = await processPerfumeFile(current.fullPath, force);
         if (res.status === 'success') {
           successCount++;
-          totalProcessed++;
+          processedCount++;
+          console.log(`  [W#${workerId}] [${processedCount}/${limit === Infinity ? allFiles.length : limit}] Tamamlandı: ${res.name}`);
         } else if (res.status === 'skipped') {
           skippedCount++;
         }
       } catch (err) {
-        console.error(`   ❌ HATA (${jFile}):`, err.message);
+        errorCount++;
+        console.error(`  [W#${workerId}] ❌ HATA (${current.filename}):`, err.message);
       }
     }
   }
 
+  const workerPromises = [];
+  const actualConcurrency = Math.min(concurrency, allFiles.length);
+  for (let i = 1; i <= actualConcurrency; i++) {
+    workerPromises.push(worker(i));
+  }
+
+  await Promise.all(workerPromises);
+
   console.log(`\n==================================================`);
   console.log(`🎉 ÖZET RAPOR`);
   console.log(`==================================================`);
-  console.log(`İşlenen Parfüm Sayısı : ${successCount}`);
-  console.log(`Atlanan (Zaten Var)  : ${skippedCount}`);
+  console.log(`Başarıyla Rephrase Edilen : ${successCount}`);
+  console.log(`Atlanan (Zaten Var)       : ${skippedCount}`);
+  console.log(`Hata Alan Dosyalar        : ${errorCount}`);
   console.log(`==================================================\n`);
 }
 
