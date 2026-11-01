@@ -32,16 +32,33 @@ export function blogHref(slug?: string | null, lang: string = "tr"): string {
     return slug ? `/${lang}/blog/${slug}` : `/${lang}/blog`;
 }
 
+/** Gizlilik politikası ve KVKK aydınlatma metni: /tr/gizlilik-politikasi. */
+export function privacyHref(lang: string = "tr"): string {
+    return `/${lang}/gizlilik-politikasi`;
+}
+
 /** Karşılaştırma sayfası linki. */
 export function compareHref(slug1?: string | null, slug2?: string | null, lang: string = "tr"): string {
     if (!slug1 || !slug2) return `/${lang}/karsilastir`;
     return `/${lang}/karsilastir?items=${encodeURIComponent(slug1)},${encodeURIComponent(slug2)}`;
 }
 
-/** Giriş sayfası linki: /tr/giris (isteğe bağlı yönlendirme adresiyle). */
-export function loginHref(next?: string | null, lang: string = "tr"): string {
-    const base = `/${lang}/giris`;
-    return next ? `${base}?next=${encodeURIComponent(next)}` : base;
+/**
+ * Adres çubuğundaki tek kullanımlık aksiyon parametresini (ör. ?write=1)
+ * okur ve eşleşirse URL'den sessizce temizleyip true döndürür.
+ */
+export function consumeUrlParam(key: string, expectedValue?: string): boolean {
+    if (typeof window === "undefined") return false;
+    const sp = new URLSearchParams(window.location.search);
+    const val = sp.get(key);
+    if (val === null) return false;
+    if (expectedValue !== undefined && val !== expectedValue) return false;
+
+    sp.delete(key);
+    const qs = sp.toString();
+    const cleanUrl = `${window.location.pathname}${qs ? `?${qs}` : ""}${window.location.hash}`;
+    window.history.replaceState(window.history.state, "", cleanUrl);
+    return true;
 }
 
 /** Kullanıcının kendi blog yazıları: /tr/blog/yazilarim */

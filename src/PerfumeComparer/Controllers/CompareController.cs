@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using PerfumeComparer.Business.Services;
 using PerfumeComparer.Data.Persistence;
 using PerfumeComparer.Domain;
 using PerfumeComparer.Domain.Entities;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -17,8 +19,18 @@ namespace PerfumeComparer.Controllers;
 /// </summary>
 [ApiController]
 [Route("api/compare")]
-public class CompareController(AppDbContext db, ITokenService tokens, ICompareAiService compareAi, IAiRequestGate aiGate) : ControllerBase
+public partial class CompareController(
+    AppDbContext db,
+    ITokenService tokens,
+    ICompareAiService compareAi,
+    IAiRequestGate aiGate,
+    IComparisonVoteService comparisonVotes,
+    ICommentContentFilter commentFilter) : ControllerBase
 {
+    /// <summary>Tarayıcının ürettiği anonim seçmen kimliği (UUID benzeri); başka karakter kabul edilmez.</summary>
+    [GeneratedRegex("^[A-Za-z0-9-]{16,64}$")]
+    private static partial Regex VoterIdPattern();
+
     /// <summary>
     /// İki parfümün AI destekli karşılaştırmalı analizi. Önbellekteki (DB) analiz herkese
     /// açıktır; yeni üretim giriş yapmış kullanıcıya serbest, anonim ziyaretçiye IP başına
@@ -163,6 +175,9 @@ public class CompareController(AppDbContext db, ITokenService tokens, ICompareAi
         if (request.Content.Trim().Length > ComparisonComment.MaxBodyLength)
             return BadRequest(new { message = $"Yorum en fazla {ComparisonComment.MaxBodyLength} karakter olabilir." });
 
+        if (commentFilter.ContainsProfanity(request.Content))
+            return BadRequest(new { message = CommentContentFilter.RejectedMessage });
+
         var ids = await ResolvePairIdsAsync(p1Slug, p2Slug, ct);
         if (ids is null)
             return NotFound(new { message = "Karşılaştırılacak parfümlerden biri bulunamadı." });
@@ -201,6 +216,58 @@ public class CompareController(AppDbContext db, ITokenService tokens, ICompareAi
         await db.SaveChangesAsync(ct);
 
         return Ok(new { message = "Yorumunuz eklendi.", id = comment.Id });
+    }
+
+    /// <summary>
+    /// Bir karşılaştırmanın tercih oyları ve (varsa) isteği yapan seçmenin oyu. Herkese açıktır;
+    /// seçmen Bearer token'dan ya da <c>X-Voter-Id</c> başlığından tanınır.
+    /// </summary>
+    [HttpGet("{p1Slug}-vs-{p2Slug}/votes")]
+    public async Task<IActionResult> GetComparisonVotes(string p1Slug, string p2Slug, CancellationToken ct)
+    {
+        var summary = await comparisonVotes.GetAsync(p1Slug, p2Slug, ResolveVoterKey(), ct);
+        return summary is null
+            ? NotFound(new { message = "Karşılaştırılacak parfümlerden biri bulunamadı." })
+            : Ok(summary);
+    }
+
+    public record CastComparisonVoteRequest(string? PreferredSlug);
+
+    /// <summary>
+    /// Tercih oyu verir. Giriş ve yorum gerekmez; seçmen çift başına tek oy kullanır, tekrar
+    /// oy verirse oyu değişir, <c>preferredSlug</c> boşsa oyu geri alınır. IP başına sıkı sınırlıdır.
+    /// </summary>
+    [HttpPost("{p1Slug}-vs-{p2Slug}/votes")]
+    [EnableRateLimiting("StrictRateLimit")]
+    public async Task<IActionResult> CastComparisonVote(
+        string p1Slug, string p2Slug, [FromBody] CastComparisonVoteRequest request, CancellationToken ct)
+    {
+        var voterKey = ResolveVoterKey();
+        if (voterKey is null)
+            return BadRequest(new { message = "Oy vermek için geçerli bir ziyaretçi kimliği (X-Voter-Id) gerekir." });
+
+        try
+        {
+            var summary = await comparisonVotes.CastAsync(p1Slug, p2Slug, voterKey, request.PreferredSlug, ct);
+            return summary is null
+                ? NotFound(new { message = "Karşılaştırılacak parfümlerden biri bulunamadı." })
+                : Ok(summary);
+        }
+        catch (ArgumentException)
+        {
+            return BadRequest(new { message = "Tercih bu karşılaştırmadaki parfümlerden biri olmalıdır." });
+        }
+    }
+
+    /// <summary>Girişli kullanıcıda "u:{id}", misafirde geçerli <c>X-Voter-Id</c> ile "a:{id}"; ikisi de yoksa null.</summary>
+    private string? ResolveVoterKey()
+    {
+        var principal = tokens.Validate(Request.Headers.Authorization.ToString());
+        if (principal is not null)
+            return $"u:{principal.UserId}";
+
+        var voterId = Request.Headers["X-Voter-Id"].ToString();
+        return VoterIdPattern().IsMatch(voterId) ? $"a:{voterId}" : null;
     }
 
     /// <summary>İki slug'ı normalize edilmiş parfüm id çiftine çevirir.</summary>

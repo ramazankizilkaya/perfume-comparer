@@ -35,6 +35,7 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
             "POST": {
                 "Dev Login": '/api/auth/dev-login',
                 "Google Login": '/api/auth/google',
+                "Facebook Login": '/api/auth/facebook',
             }
         },
 
@@ -89,6 +90,11 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
             "GET": {
                 "Get Popular Comparisons": '/api/compare/popular',
                 "Get AI Comparison Analysis": '/api/compare/dior-sauvage-vs-versace-versace-pour-homme-dylan-blue/ai-analysis',
+                "Get Comparison Votes": '/api/compare/dior-sauvage-vs-versace-versace-pour-homme-dylan-blue/votes',
+            },
+            "POST": {
+                "Cast Comparison Vote": '/api/compare/dior-sauvage-vs-versace-versace-pour-homme-dylan-blue/votes',
+                "Submit Comparison Comment": '/api/compare/dior-sauvage-vs-versace-versace-pour-homme-dylan-blue/comments',
             }
         },
 
@@ -118,6 +124,16 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
                 "Autocomplete": `/api/search/autocomplete?q=${encodeURIComponent(query !== null && query !== undefined ? query : 'dior')}`,
                 "Autocomplete With NUL": '/api/search/autocomplete?q=ab%00',
                 "Search With Many Words": `/api/search?q=${Array.from({ length: 20 }, (_, i) => `kelime${i}`).join('+')}`,
+            }
+        },
+
+        // ── Perfume Advisor ──
+        "Perfume Advisor": {
+            "GET": {
+                "Get Advisor Status": '/api/perfume-advisor/status',
+            },
+            "POST": {
+                "Get Perfume Recommendation": '/api/perfume-advisor/recommend',
             }
         },
 

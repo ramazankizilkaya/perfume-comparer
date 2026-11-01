@@ -10,20 +10,48 @@ const GENDER_OPTIONS: { key: "erkek" | "kadin" | "unisex"; label: string; ico: s
     { key: "unisex", label: "Unisex", ico: "⚥" },
 ];
 
+/** Düğmede seçili cinsiyetlerin simgeleri yan yana durur; hiçbiri ya da üçü seçiliyse tek simge ("Hepsi") görünür. */
 function getButtonMeta(selected: string[]) {
     if (selected.length === 0 || selected.length === 3) {
-        return { ico: "⚥", label: "Hepsi" };
+        return { icos: ["⚥"], label: "Hepsi" };
     }
     const labels = selected.map((k) => (k === "erkek" ? "Erkek" : k === "kadin" ? "Kadın" : "Unisex"));
     const icos = selected.map((k) => (k === "erkek" ? "♂" : k === "kadin" ? "♀" : "⚥"));
-    return {
-        ico: icos.join("+"),
-        label: labels.join(", "),
-    };
+    return { icos, label: labels.join(", ") };
+}
+
+/** Mobilde cinsiyet tercihi başlıktaki düğme yerine hamburger menünün içinde çoklu seçimle yapılır. */
+export function MobileGenderOptions() {
+    const { selectedGenders, toggleGender } = useGenderPref();
+
+    return (
+        <div className="mobile-menu-group" role="group" aria-label="Cinsiyet Tercihi">
+            <div className="mobile-menu-group-head">
+                <span className="mobile-menu-group-title">Cinsiyet Tercihi</span>
+            </div>
+            <div className="mobile-gender-chips">
+                {GENDER_OPTIONS.map((o) => {
+                    const isChecked = selectedGenders.includes(o.key);
+                    return (
+                        <button
+                            key={o.key}
+                            type="button"
+                            className={`mobile-gender-opt${isChecked ? " on" : ""}`}
+                            aria-pressed={isChecked}
+                            onClick={() => toggleGender(o.key)}
+                        >
+                            <span className="gender-ico">{o.ico}</span>
+                            <span>{o.label}</span>
+                        </button>
+                    );
+                })}
+            </div>
+        </div>
+    );
 }
 
 export default function GenderControl() {
-    const { selectedGenders, toggleGender, setGender } = useGenderPref();
+    const { selectedGenders, toggleGender } = useGenderPref();
     const [open, setOpen] = useState(false);
     const [flash, setFlash] = useState(false);
 
@@ -56,25 +84,17 @@ export default function GenderControl() {
                 aria-label={`Cinsiyet tercihi: ${cur.label}`}
                 data-tooltip={`Cinsiyet: ${cur.label}`}
             >
-                <span className="gender-ico">{cur.ico}</span>
+                <span className={`gender-ico${cur.icos.length > 1 ? " gender-ico-multi" : ""}`}>
+                    {cur.icos.map((ico, i) => (
+                        <span key={i}>{ico}</span>
+                    ))}
+                </span>
             </button>
 
             {open && (
                 <div className="gender-menu" role="dialog" aria-label="Cinsiyet Filtresi">
                     <div className="gender-menu-header">
                         <span className="gender-menu-title">Cinsiyet Tercihi</span>
-                        {selectedGenders.length > 0 && (
-                            <button
-                                type="button"
-                                className="gender-reset-btn"
-                                onClick={() => {
-                                    setGender(null);
-                                    flashButton();
-                                }}
-                            >
-                                Hepsi
-                            </button>
-                        )}
                     </div>
                     <div className="gender-options-list">
                         {GENDER_OPTIONS.map((o) => {

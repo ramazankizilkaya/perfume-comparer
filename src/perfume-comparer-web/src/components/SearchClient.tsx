@@ -10,7 +10,6 @@ import { useLocalState } from "@/lib/clientStore";
 import {
     buildApiQuery,
     GENDERS,
-    normalizeGender,
     parseSearchQuery,
     SORTS,
     toUrlParams,

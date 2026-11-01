@@ -13,30 +13,42 @@ Header Brands Link:
 Header Blog Link:
   desktop: 'a.nav-link[href*="/blog"]'
   mobile: '.mobile-nav-link[href*="/blog"]'
+Header Logo Image:
+  desktop: '.site-header .site-logo-img.light-only'
+  mobile: '.site-header .site-logo-img.light-only'
 Header Home Button:
   desktop: '.home-btn'
-  mobile: '.home-btn'
+  mobile: '.mobile-nav-link:has-text("Anasayfa")'
 Gender Dropdown Button:
   desktop: '.gender-btn'
-  mobile: '.gender-btn'
+  mobile: '.mobile-gender-chips'
 Gender Option Kadin:
   desktop: '.gender-opt:has-text("Kadın")'
-  mobile: '.gender-opt:has-text("Kadın")'
+  mobile: '.mobile-gender-opt:has-text("Kadın")'
 Gender Option Erkek:
   desktop: '.gender-opt:has-text("Erkek")'
-  mobile: '.gender-opt:has-text("Erkek")'
+  mobile: '.mobile-gender-opt:has-text("Erkek")'
 Gender Option Hepsi:
   desktop: '.gender-opt:has-text("Hepsi"), .gender-reset-btn:has-text("Hepsi")'
-  mobile: '.gender-opt:has-text("Hepsi"), .gender-reset-btn:has-text("Hepsi")'
+  mobile: '.gender-reset-btn:has-text("Hepsi")'
 Theme Toggle Button:
   desktop: '.theme-toggle-btn'
-  mobile: '.theme-toggle-btn'
+  mobile: '.mobile-theme-btn'
+Mobile Menu Gender Options:
+  desktop: '.mobile-gender-chips'
+  mobile: '.mobile-gender-chips'
+Mobile Menu Login Link:
+  desktop: '.mobile-login-link'
+  mobile: '.mobile-login-link'
 User Menu Button:
   desktop: '.user-menu-btn'
   mobile: '.user-menu-btn'
 Mobile Menu Toggle Button:
   desktop: '.mobile-menu-toggle'
   mobile: '.mobile-menu-toggle'
+Hamburger Menu Panel:
+  desktop: '.mobile-nav-links'
+  mobile: '.mobile-nav-links'
 Mobile Nav Panel:
   desktop: '.mobile-nav-panel'
   mobile: '.mobile-nav-panel'
@@ -155,11 +167,62 @@ My Articles Title:
   desktop: 'h1:has-text("Yazılarım")'
   mobile: 'h1:has-text("Yazılarım")'
 Admin Login Prompt:
-  desktop: '.login-prompt a[href*="/giris"]'
-  mobile: '.login-prompt a[href*="/giris"]'
+  desktop: '.login-prompt button'
+  mobile: '.login-prompt button'
 Admin Title:
   desktop: 'h1:has-text("Veri yönetimi")'
   mobile: 'h1:has-text("Veri yönetimi")'
 Admin Seed All Button:
   desktop: 'button:has-text("Tümünü Tohumla"), button:has-text("Tohumla")'
   mobile: 'button:has-text("Tümünü Tohumla"), button:has-text("Tohumla")'
+Login Prompt Link:
+  desktop: '.login-prompt button'
+  mobile: '.login-prompt button'
+Modal Login Link:
+  desktop: '.review-modal-login-prompt button, .advisor-login-box button'
+  mobile: '.review-modal-login-prompt button, .advisor-login-box button'
+Login Modal:
+  desktop: '.login-modal-card'
+  mobile: '.login-modal-card'
+Login Modal Close Button:
+  desktop: '.login-modal-card button[aria-label="Kapat"]'
+  mobile: '.login-modal-card button[aria-label="Kapat"]'
+Login Modal Privacy Link:
+  desktop: '.login-modal-card a[href="/tr/gizlilik-politikasi"]'
+  mobile: '.login-modal-card a[href="/tr/gizlilik-politikasi"]'
+Blog Write Button:
+  desktop: 'button:has-text("Yeni Makale Yaz")'
+  mobile: 'button:has-text("Yeni Makale Yaz")'
+Blog Write Form Title:
+  desktop: 'h2:has-text("Yeni Parfüm Makalesi Oluştur")'
+  mobile: 'h2:has-text("Yeni Parfüm Makalesi Oluştur")'
+Comment Login Link:
+  desktop: '.comment-form-wrap .login-prompt button'
+  mobile: '.comment-form-wrap .login-prompt button'
+Comment Textarea:
+  desktop: '#c-body'
+  mobile: '#c-body'
+Header Advisor Button:
+  desktop: 'button.nav-btn-advisor'
+  mobile: '.mobile-advisor-btn'
+Advisor Modal Content:
+  desktop: '.advisor-modal-card form, .advisor-result-body'
+  mobile: '.advisor-modal-card form, .advisor-result-body'
+Perfume Review Open Button:
+  desktop: 'button.detail-review-btn'
+  mobile: 'button.detail-review-btn'
+Review Modal Form:
+  desktop: '.review-modal-card:has-text("Genel Puanınız")'
+  mobile: '.review-modal-card:has-text("Genel Puanınız")'
+Marketplace Amazon Link:
+  desktop: '#fiyat-pazaryerleri a[href*="amazon.com.tr/s?k="]'
+  mobile: '#fiyat-pazaryerleri a[href*="amazon.com.tr/s?k="]'
+Privacy Policy Title:
+  desktop: 'h1.page-title:has-text("Gizlilik politikası")'
+  mobile: 'h1.page-title:has-text("Gizlilik politikası")'
+Privacy Policy Deletion Section:
+  desktop: '#veri-silme'
+  mobile: '#veri-silme'
+Footer Privacy Link:
+  desktop: 'footer a[href="/tr/gizlilik-politikasi"]'
+  mobile: 'footer a[href="/tr/gizlilik-politikasi"]'

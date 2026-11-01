@@ -115,6 +115,39 @@ Feature: Catalog Management
         Then the response status should be 400
         And the response body should contain "en fazla 4000 karakter"
 
+    Scenario Outline: A perfume comment with profanity is rejected
+        Given I am authenticated
+        Given perfume slug is "dior-sauvage"
+        When I send a "POST" request to "Submit Perfume Comment" endpoint with "<payload>" payload
+        Then the response status should be 400
+        And the response body should contain "uygunsuz ifadeler"
+
+        Examples:
+            | payload                         |
+            | Profane Comment                 |
+            | Profane Comment Capital Letters |
+            | Profane Comment Spaced Out      |
+            | Profane Comment With Digits     |
+            | Profane Comment Stretched       |
+            | Profane Comment Added Words     |
+
+    Scenario: Everyday words that only look like slang pass the profanity check
+        Given I am authenticated
+        Given perfume slug is "non-existent-perfume-slug-99999"
+        When I send a "POST" request to "Submit Perfume Comment" endpoint with "Look Alike Comment" payload
+        Then the response status should be 404
+        And the response body should contain "Parfüm bulunamadı"
+
+    Scenario: Review with profanity in the comment is rejected before anything is saved
+        Given I am authenticated
+        Given perfume slug is "dior-sauvage"
+        When I send a "POST" request to "Submit Perfume Review" endpoint with "Review Profane Comment" payload
+        Then the response status should be 400
+        And the response body should contain "uygunsuz ifadeler"
+        When I send a "GET" request to "Get Perfume My Evaluation" endpoint
+        Then the response status should be 200
+        And the response body path "hasEvaluated" should be "false"
+
     Scenario: Review with a comment longer than 4000 characters is rejected before anything is saved
         Given I am authenticated
         Given perfume slug is "dior-sauvage"

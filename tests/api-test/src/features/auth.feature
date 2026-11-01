@@ -29,3 +29,13 @@ Feature: Authentication & User Profile
         When I send a "POST" request to "Google Login" endpoint with "Invalid Google Credential" payload
         Then the response status should be 401
         And the response body should contain "Google kimliği doğrulanamadı"
+
+    Scenario: Facebook login with empty credential should return validation error
+        When I send a "POST" request to "Facebook Login" endpoint with "Empty Facebook Credential" payload
+        Then the response status should be 400
+        And the response body should contain "credential zorunludur"
+
+    Scenario: Facebook login with invalid credential should return unauthorized
+        When I send a "POST" request to "Facebook Login" endpoint with "Invalid Facebook Credential" payload
+        Then the response status should be 401
+        And the response body should contain "Facebook kimliği doğrulanamadı"

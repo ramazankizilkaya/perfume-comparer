@@ -9,6 +9,8 @@ import type { Metadata } from "next";
  */
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://parfumetre.com").replace(/\/+$/, "");
 export const SITE_NAME = "Parfümetre";
+/** Gizlilik politikasındaki başvuru adresi (KVKK başvuruları ve veri silme talepleri buraya gelir). */
+export const CONTACT_EMAIL = "iletisim@parfumetre.com";
 /** Sitenin ASCII yazımı (alan adı): JSON-LD alternateName ve benzeri yerlerde kullanılır. */
 export const SITE_ALT_NAME = "Parfumetre";
 export const DEFAULT_OG_IMAGE = "/og-default.png";

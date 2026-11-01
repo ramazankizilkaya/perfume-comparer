@@ -40,6 +40,18 @@ Then('element {string} should contain text {string}', async function (elementNam
     await cf.AssertTextContains(elementName, expectedText);
 });
 
+Then('element {string} should be focused', async function (elementName) {
+    await cf.AssertFocused(elementName);
+});
+
+Then('current page path should be {string}', async function (expectedPath) {
+    await cf.AssertPagePath(expectedPath);
+});
+
+Then('current url should not contain {string}', async function (unexpectedText) {
+    await cf.AssertUrlNotContains(unexpectedText);
+});
+
 Then('no horizontal overflow should be detected on the page', async function () {
     await cf.AssertNoHorizontalOverflow();
 });

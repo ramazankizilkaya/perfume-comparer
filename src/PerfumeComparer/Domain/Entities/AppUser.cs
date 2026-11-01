@@ -9,6 +9,9 @@ public class AppUser
     /// <summary>Google OAuth "sub" claim'i.</summary>
     public string? GoogleSubjectId { get; set; }
 
+    /// <summary>Facebook kullanıcı kimliği (Graph API "id").</summary>
+    public string? FacebookSubjectId { get; set; }
+
     public string? AvatarUrl { get; set; }
     public UserRole Role { get; set; } = UserRole.User;
     public DateTimeOffset CreatedAt { get; set; }

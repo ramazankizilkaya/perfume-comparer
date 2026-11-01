@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const yaml = require('js-yaml');
-const { chromium } = require('@playwright/test');
+const { chromium, expect } = require('@playwright/test');
 const { BASE_URL, SCREEN_SIZES, TIMEOUTS, PAGES } = require('./constants');
 const store = require('./store');
 const { Logger, takeScreenshotOnFailure } = require('../../../helpers/custom-helpers');
@@ -162,6 +162,22 @@ async function AssertNoHorizontalOverflow() {
     Logger('Asserted: No horizontal overflow detected on page');
 }
 
+async function AssertPagePath(expectedPath) {
+    Logger(`Asserting current page path is: "${expectedPath}"`);
+    await page.waitForURL(url => url.pathname === expectedPath, { timeout: TIMEOUTS.medium });
+}
+
+async function AssertUrlNotContains(unexpectedText) {
+    Logger(`Asserting current url does not contain: "${unexpectedText}"`);
+    await page.waitForURL(url => !url.href.includes(unexpectedText), { timeout: TIMEOUTS.medium });
+}
+
+async function AssertFocused(elementName) {
+    const selector = GetSelector(elementName);
+    Logger(`Asserting element focused: "${elementName}" with selector: ${selector}`);
+    await expect(page.locator(selector).first()).toBeFocused({ timeout: TIMEOUTS.medium });
+}
+
 async function CloseBrowser() {
     if (context) {
         await context.close().catch(() => {});
@@ -190,6 +206,9 @@ module.exports = {
     StoreCurrentUrl,
     LaunchNewBrowserAndNavigateToStoredUrl,
     AssertNoHorizontalOverflow,
+    AssertPagePath,
+    AssertUrlNotContains,
+    AssertFocused,
     CloseBrowser,
     takeScreenshotOnFailure
 };

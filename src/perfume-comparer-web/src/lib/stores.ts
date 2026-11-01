@@ -2,7 +2,8 @@
 
 import { useCallback, useEffect, useMemo } from "react";
 import { readLocal, useLocalState, writeLocal } from "./clientStore";
-import { API_BASE, loginHref } from "./urls";
+import { API_BASE } from "./urls";
+import { openLogin } from "./loginModal";
 import { toast } from "./toast";
 
 export interface PerfumeRef {
@@ -57,7 +58,7 @@ export function clearSession(): void {
 /**
  * Giriş gerektiren istekler için ortak fetch. Oturumdaki token'ı ve zorunlu
  * X-Requested-With başlığını ekler. API 401 dönerse (süresi dolmuş/geçersiz
- * oturum) oturum silinir, kullanıcı uyarılır ve giriş sayfasına yönlendirilir;
+ * oturum) oturum silinir, kullanıcı uyarılır ve giriş penceresi açılır;
  * böylece "girişli görünüp hiçbir şey yapamama" durumu oluşmaz.
  */
 export async function authFetch(input: string, init: RequestInit = {}): Promise<Response> {
@@ -71,9 +72,7 @@ export async function authFetch(input: string, init: RequestInit = {}): Promise<
     if (res.status === 401 && session) {
         clearSession();
         toast.error("Oturumunuzun süresi doldu. Lütfen tekrar giriş yapın.");
-        if (typeof window !== "undefined") {
-            window.location.assign(loginHref(`${window.location.pathname}${window.location.search}`));
-        }
+        openLogin();
     }
     return res;
 }
@@ -218,6 +217,7 @@ export function useRecentPerfumes() {
  * claim'ler silinir.
  *
  * - signInGoogle(credential): gerçek Google ID token'ı backend'de doğrulanır.
+ * - signInFacebook(credential): Facebook erişim jetonu backend'de Graph API ile doğrulanır.
  * - signInDev(): gerçek Google olmadan mock Google claim'leri üretir (dev-only).
  */
 export function useAuth() {
@@ -225,16 +225,17 @@ export function useAuth() {
     // Süresi dolmuş token'lı oturum "girişli" sayılmaz; kullanıcı anında çıkış yapmış görünür.
     const session = liveSession(storedSession);
 
-    const signInGoogle = useCallback(
-        async (credential: string): Promise<boolean> => {
+    /** Giriş ucuna kimlik bilgisini yollar; başarılıysa oturumu kaydeder. */
+    const exchange = useCallback(
+        async (path: string, body: unknown): Promise<boolean> => {
             try {
-                const res = await fetch(`${API_BASE}/api/auth/google`, {
+                const res = await fetch(`${API_BASE}/api/auth/${path}`, {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
                         "X-Requested-With": "XMLHttpRequest",
                     },
-                    body: JSON.stringify({ credential }),
+                    body: JSON.stringify(body),
                 });
                 if (!res.ok) return false;
                 setSession((await res.json()) as Session);
@@ -246,23 +247,17 @@ export function useAuth() {
         [setSession],
     );
 
-    const signInDev = useCallback(async (): Promise<boolean> => {
-        try {
-            const res = await fetch(`${API_BASE}/api/auth/dev-login`, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    "X-Requested-With": "XMLHttpRequest",
-                },
-                body: JSON.stringify({}),
-            });
-            if (!res.ok) return false;
-            setSession((await res.json()) as Session);
-            return true;
-        } catch {
-            return false;
-        }
-    }, [setSession]);
+    const signInGoogle = useCallback(
+        (credential: string) => exchange("google", { credential }),
+        [exchange],
+    );
+
+    const signInFacebook = useCallback(
+        (credential: string) => exchange("facebook", { credential }),
+        [exchange],
+    );
+
+    const signInDev = useCallback(() => exchange("dev-login", {}), [exchange]);
 
     const signOut = useCallback(() => setSession(null), [setSession]);
 
@@ -270,6 +265,7 @@ export function useAuth() {
         user: session?.user ?? null,
         token: session?.token ?? null,
         signInGoogle,
+        signInFacebook,
         signInDev,
         signOut,
         ready,

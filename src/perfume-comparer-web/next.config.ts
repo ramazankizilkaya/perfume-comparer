@@ -117,7 +117,7 @@ function validateEnvironment(env: Record<string, string>): void {
         errors.push("API_INTERNAL_KEY tanımlı değil (sunucu → API istekleri hız sınırına takılır).");
     }
 
-    // Canlıda tek giriş yolu Google'dır; kimliği yoksa kimse giriş yapamaz.
+    // Google zorunlu giriş sağlayıcısıdır (Facebook isteğe bağlı); kimliği yoksa kimse giriş yapamaz.
     if (!googleClientId) {
         errors.push("NEXT_PUBLIC_GOOGLE_CLIENT_ID tanımlı değil (canlıda Google girişi çalışmaz).");
     }

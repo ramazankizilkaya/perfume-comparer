@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { blogHref, localeHref, searchHref } from "@/lib/urls";
+import { blogHref, localeHref, privacyHref, searchHref } from "@/lib/urls";
 import { SITE_NAME } from "@/lib/seo";
 
 export default function Footer() {
@@ -13,14 +13,14 @@ export default function Footer() {
                                 src="/logo.png"
                                 alt="Parfümetre - Parfüm Karşılaştırma ve Koku Rehberi"
                                 className="site-logo-img light-only"
-                                width={162}
+                                width={178}
                                 height={42}
                             />
                             <img
                                 src="/logo-dark.png"
                                 alt="Parfümetre - Parfüm Karşılaştırma ve Koku Rehberi"
                                 className="site-logo-img dark-only"
-                                width={162}
+                                width={178}
                                 height={42}
                             />
                         </Link>
@@ -59,7 +59,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <p className="footer-note">© {new Date().getFullYear()} {SITE_NAME} · Puanlar ve yorumlar kullanıcılardan gelir.</p>
+                <p className="footer-note">© {new Date().getFullYear()} {SITE_NAME} · Puanlar ve yorumlar kullanıcılardan gelir. · <Link href={privacyHref()}>Gizlilik politikası</Link></p>
             </div>
         </footer>
     );

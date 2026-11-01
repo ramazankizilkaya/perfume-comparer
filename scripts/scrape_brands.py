@@ -273,8 +273,45 @@ POPULAR_BRANDS_HTML_SNIPPET = [
     "https://www.fragrantica.com/designers/LC-Waikiki.html",
     "https://www.fragrantica.com/designers/Koton.html",
     "https://www.fragrantica.com/designers/Mavi.html",
+    "https://www.fragrantica.com/designers/Vakko.html",
+    "https://www.fragrantica.com/designers/Penti.html",
     "https://www.fragrantica.com/designers/Atelier-Rebul.html",
-    "https://www.fragrantica.com/designers/Eyup-Sabri-Tuncer.html"
+    "https://www.fragrantica.com/designers/Eyup-Sabri-Tuncer.html",
+
+    # Kozmetik Market (Gratis, Watsons, Cosmetica) & Uygun Fiyatlı Yerel Parfüm Markaları
+    "https://www.fragrantica.com/designers/Hunca.html",          # Jagler, Caldion, She, Viva Cappio
+    "https://www.fragrantica.com/designers/Bee-Beauty.html",     # Gratis özel markası
+    "https://www.fragrantica.com/designers/Flormar.html",
+    "https://www.fragrantica.com/designers/Golden-Rose.html",
+    "https://www.fragrantica.com/designers/Farmasi.html",
+    "https://www.fragrantica.com/designers/Cream-Co.html",
+    "https://www.fragrantica.com/designers/Pereja.html",
+    "https://www.fragrantica.com/designers/Bargello.html",
+    "https://www.fragrantica.com/designers/Mad-Parfumeur.html",
+    "https://www.fragrantica.com/designers/Loris-Parfum.html",
+    "https://www.fragrantica.com/designers/D-P-Perfumum.html",
+    "https://www.fragrantica.com/designers/LELAS.html",
+    "https://www.fragrantica.com/designers/Martin-Lion.html",
+    "https://www.fragrantica.com/designers/Royal-Platinum.html",
+    "https://www.fragrantica.com/designers/Avon.html",
+    "https://www.fragrantica.com/designers/Oriflame.html",
+
+    # Diğer Yerel & Türk Niş Parfüm Markaları
+    "https://www.fragrantica.com/designers/Unique-e-Luxury.html",
+    "https://www.fragrantica.com/designers/Regalien.html",
+    "https://www.fragrantica.com/designers/Pekji.html",
+    "https://www.fragrantica.com/designers/Anatoline.html",
+    "https://www.fragrantica.com/designers/Nicheend.html",
+    "https://www.fragrantica.com/designers/Mes-Bisous.html",
+    "https://www.fragrantica.com/designers/Attar-Al-Has.html",
+    "https://www.fragrantica.com/designers/Seven-Gates.html",
+    "https://www.fragrantica.com/designers/Alchemist-Perfumery.html",
+    "https://www.fragrantica.com/designers/Eila.html",
+    "https://www.fragrantica.com/designers/Fiolas.html",
+    "https://www.fragrantica.com/designers/La-Fann.html",
+    "https://www.fragrantica.com/designers/Tiyrus.html",
+    "https://www.fragrantica.com/designers/Osmanli-Oud.html",
+    "https://www.fragrantica.com/designers/The-Perfumist.html"
 ]
 
 def collect_all_designer_urls(lang="tr"):

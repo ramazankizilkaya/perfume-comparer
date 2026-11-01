@@ -95,6 +95,22 @@ const responseValidationSchemes = {
         summary: Joi.string().required()
     }).required().unknown(true),
 
+    "Get Comparison Votes": Joi.object({
+        total: Joi.number().integer().min(0).required(),
+        myVote: Joi.string().allow(null),
+        options: Joi.array().length(2).items(
+            Joi.object({
+                slug: Joi.string().required(),
+                votes: Joi.number().integer().min(0).required(),
+                percent: Joi.number().integer().min(0).max(100).required()
+            }).unknown(true)
+        ).required()
+    }).required().unknown(true),
+
+    "Comparison Votes Without My Vote": Joi.object({
+        myVote: Joi.valid(null).required()
+    }).required().unknown(true),
+
     "Get Blogs": Joi.array().items(
         Joi.object({
             id: Joi.number().integer().required(),
@@ -131,7 +147,25 @@ const responseValidationSchemes = {
             slug: Joi.string().required(),
             updatedAt: Joi.date().iso().required()
         })).required()
-    }).required()
+    }).required(),
+
+    "Get Advisor Status": Joi.object({
+        success: Joi.boolean().required(),
+        hasUsedToday: Joi.boolean().required()
+    }).required().unknown(true),
+
+    "Get Perfume Recommendation": Joi.object({
+        success: Joi.boolean().required(),
+        hasUsedToday: Joi.boolean().required(),
+        perfume: Joi.object({
+            id: Joi.number().integer().required(),
+            name: Joi.string().required(),
+            slug: Joi.string().required(),
+            brandName: Joi.string().required(),
+            path: Joi.string().required()
+        }).required().unknown(true),
+        perfumerAdvice: Joi.string().min(10).required()
+    }).required().unknown(true)
 };
 
 module.exports = {

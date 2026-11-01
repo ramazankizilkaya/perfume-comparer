@@ -292,16 +292,18 @@ function FilterChips({
     if (!items || items.length === 0) return null;
     return (
         <div className="quick-filter-row" role="group" aria-label={title}>
-            <span className="quick-filter-row-label">{title}:</span>
-            {items.map((item) => (
-                <button
-                    key={item.slug}
-                    className={`chip ${active === item.slug ? "chip-active" : ""}`}
-                    onClick={() => onPick(item.slug)}
-                >
-                    {item.name} <span className="chip-count">{item.count}</span>
-                </button>
-            ))}
+            <span className="quick-filter-row-label">{title}</span>
+            <div className="quick-filter-row-chips">
+                {items.map((item) => (
+                    <button
+                        key={item.slug}
+                        className={`chip ${active === item.slug ? "chip-active" : ""}`}
+                        onClick={() => onPick(item.slug)}
+                    >
+                        {item.name} <span className="chip-count">{item.count}</span>
+                    </button>
+                ))}
+            </div>
         </div>
     );
 }

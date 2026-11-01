@@ -7,7 +7,7 @@ import { LOCALES, DEFAULT_LOCALE } from "@/lib/i18n";
  * - Ön eksiz adresler (/, /marka/dior) kalıcı (308) olarak /tr/... adresine yönlenir.
  * - /tr/... adresleri arka planda ön eksiz sayfaya rewrite edilir; tarayıcıda /tr kalır.
  * - Henüz çevirisi olmayan diller (/en/...) Türkçe içeriğin kopyası olmasın diye 404 döner.
- * - Eski /ara adresi kalıcı olarak /tr/detayli-arama'ya yönlenir.
+ * - Eski /ara adresi kalıcı olarak /tr/detayli-arama'ya, eski /giris adresi /tr'ye yönlenir.
  * - Büyük harfli ön ek (/TR/...) tek adımda küçük harfli asıl adrese (308) yönlenir.
  * - Noktalı statik yollar (robots.txt, sitemap.xml, manifest.webmanifest, görseller) proxy'ye takılmaz.
  */
@@ -52,6 +52,11 @@ export function proxy(request: NextRequest) {
         if (internalPath === "/ara" || internalPath.startsWith("/ara/")) {
             const redirectUrl = new URL(`/${matchedLocale}/detayli-arama${search}`, request.url);
             return NextResponse.redirect(redirectUrl, 308);
+        }
+
+        // Giriş artık sayfa değil açılır penceredir; eski /giris adresi anasayfaya yönlenir.
+        if (internalPath === "/giris" || internalPath.startsWith("/giris/")) {
+            return NextResponse.redirect(new URL(`/${matchedLocale}`, request.url), 308);
         }
 
         // /detayli-arama isteğini dahili olarak /ara sayfasına yönlendir

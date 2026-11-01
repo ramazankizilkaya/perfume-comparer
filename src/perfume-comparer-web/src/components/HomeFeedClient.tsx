@@ -145,12 +145,14 @@ export default function HomeFeedClient({
     return (
         <div className="home-layout">
             {/* Sayfanın tek H1'i: görsel olarak küçük tutulur (CSS: .home-page-title), slider'daki başlıklar h2 kalır. */}
-            <header className="home-page-head">
-                <h1 className="page-title home-page-title">Parfüm Karşılaştırma ve Koku Rehberi</h1>
-            </header>
+            <div className="home-hero">
+                <header className="home-page-head">
+                    <h1 className="page-title home-page-title">Parfüm Karşılaştırma ve Koku Rehberi</h1>
+                </header>
 
-            {/* 1. Üst Blog Hero Slider'ı */}
-            {data.blogs.length > 0 && <BlogSlider blogs={data.blogs} />}
+                {/* 1. Üst Blog Hero Slider'ı */}
+                {data.blogs.length > 0 && <BlogSlider blogs={data.blogs} />}
+            </div>
 
             {/* 2. Keşfet (Rastgele Parfümler - Havuzsuz, Tüm Katalogdan) */}
             {(isFiltering || data.explorePerfumes.length > 0) && (

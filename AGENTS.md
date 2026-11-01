@@ -28,7 +28,7 @@ Goal: keep the implementation simple, extensible and clean (SoC, no spaghetti).
 ## Product Summary
 - Users browse, search and compare perfumes: notes, accords, ratings, longevity, sillage, season/time-of-day voting.
 - Data comes from scraping Fragrantica TR (`scripts/scrape_perfumes.py`), lands as per-perfume JSON + WebP images under `scrape_files/`, and is loaded into Postgres by `scripts/import_data.py`. There is **no mock catalog**: every brand and perfume in the DB comes from `scrape_files/`.
-- Key routes (public URLs carry the `/tr` prefix, e.g. `/tr/marka/dior`): `/tr` home, `/tr/detayli-arama` search (App Router folder: `app/ara`, server-rendered first page), `/tr/marka` brand index, `/tr/marka/<slug>` brand page, `/tr/parfum/...` detail, `/tr/karsilastir` compare, `/tr/blog`, `/tr/admin` (Admin role required), `/tr/giris` login. Build internal links only with the helpers in `lib/urls.ts`; SEO metadata goes through `pageMetadata()` in `lib/seo.ts`; server-side API calls go through `apiFetch()` in `lib/api.ts`, logged-in browser calls through `authFetch()` in `lib/stores.ts`. Site name is **Parfümetre** (`SITE_NAME`); "Aura Compare" is only the internal project name.
+- Key routes (public URLs carry the `/tr` prefix, e.g. `/tr/marka/dior`): `/tr` home, `/tr/detayli-arama` search (App Router folder: `app/ara`, server-rendered first page), `/tr/marka` brand index, `/tr/marka/<slug>` brand page, `/tr/parfum/...` detail, `/tr/karsilastir` compare, `/tr/blog`, `/tr/admin` (Admin role required), `/tr/gizlilik-politikasi` privacy policy and KVKK notice (Google/Facebook consoles need this URL; contact address is `CONTACT_EMAIL` in `lib/seo.ts`). Login is a modal, not a page: call `openLogin()` from `lib/loginModal.ts` (`LoginModal` is mounted in the layout); `/tr/giris` only redirects to `/tr`. Build internal links only with the helpers in `lib/urls.ts`; SEO metadata goes through `pageMetadata()` in `lib/seo.ts`; server-side API calls go through `apiFetch()` in `lib/api.ts`, logged-in browser calls through `authFetch()` in `lib/stores.ts`. Site name is **Parfümetre** (`SITE_NAME`); "Aura Compare" is only the internal project name.
 
 ## Design Direction (important)
 The UI must read like an **information portal — epey.com is the reference**: dense, tabular, sans-serif, spec-sheet oriented, lots of comparable numbers per screen.
@@ -84,6 +84,7 @@ Every `<img>` element rendered in the frontend must have an explicit, SEO-optimi
 ## Run Commands
 ```bash
 ./start.sh          # backend :5026 + frontend :3000, Ctrl+C stops both
+./start.sh --ngrok  # same, plus an ngrok tunnel to the frontend; prints the public URL
 ```
 
 Separately:
@@ -138,7 +139,8 @@ Secrets are split by who consumes them, and **neither file is ever committed**.
 
 **Backend → `src/PerfumeComparer/appsettings.Local.json`** (gitignored; committed template:
 `appsettings.Local.example.json`). Holds `ConnectionStrings:Default`, `Gemini:ApiKey`,
-`Ai:ApiKey`, `Auth:Secret`, `Auth:AdminEmails`, `Google:ClientId`, `Api:InternalKey`,
+`Ai:ApiKey`, `Auth:Secret`, `Auth:AdminEmails`, `Google:ClientId`, optional
+`Facebook:AppId` / `Facebook:AppSecret` (the Facebook button appears only when `NEXT_PUBLIC_FACEBOOK_APP_ID` is set in `.env`), `Api:InternalKey`,
 `Cors:AllowedOrigins`, `ForwardedHeaders:KnownProxies`, `Media:Root`, `Media:UserPhotosRoot`
 and the AI tuning values. `Program.cs` loads it after the other JSON files and registers
 `AddEnvironmentVariables()` last, so in production a real environment variable overrides

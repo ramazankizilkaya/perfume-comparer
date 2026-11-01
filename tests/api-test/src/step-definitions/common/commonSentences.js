@@ -24,6 +24,12 @@ Given('I clear my authorization token', function () {
     ch.Logger('✓ Cleared authorization token');
 });
 
+Given('I have a new anonymous voter id', function () {
+    const voterId = `test-voter-${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+    this.requestHeaders['X-Voter-Id'] = voterId;
+    ch.Logger(`✓ Set X-Voter-Id as "${voterId}"`);
+});
+
 Given('perfume slug is {string}', function (slug) {
     this.setVar('perfumeSlug', slug);
     ch.Logger(`✓ Set perfumeSlug as "${slug}"`);

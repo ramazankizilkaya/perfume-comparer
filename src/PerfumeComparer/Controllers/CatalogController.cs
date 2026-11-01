@@ -22,6 +22,7 @@ public class CatalogController(
     IGeminiClient gemini,
     AiSummaryJob aiSummary,
     IAiRequestGate aiGate,
+    ICommentContentFilter commentFilter,
     MediaPaths media) : ControllerBase
 {
     [HttpGet("perfumes")]
@@ -221,6 +222,9 @@ public class CatalogController(
         if (dto.Content.Trim().Length > PerfumeComment.MaxBodyLength)
             return BadRequest(new { message = $"Yorum en fazla {PerfumeComment.MaxBodyLength} karakter olabilir." });
 
+        if (commentFilter.ContainsProfanity(dto.Content))
+            return BadRequest(new { message = CommentContentFilter.RejectedMessage });
+
         var perfume = await db.Perfumes.FirstOrDefaultAsync(p => p.Slug == slug, ct);
         if (perfume == null) return NotFound("Parfüm bulunamadı.");
 
@@ -360,6 +364,9 @@ public class CatalogController(
         // Yorum sınırı en başta denetlenir ki puan kaydedilip yorum 500 vermesin.
         if (dto.Comment is not null && dto.Comment.Trim().Length > PerfumeComment.MaxBodyLength)
             return BadRequest(new { message = $"Yorum en fazla {PerfumeComment.MaxBodyLength} karakter olabilir." });
+
+        if (commentFilter.ContainsProfanity(dto.Comment))
+            return BadRequest(new { message = CommentContentFilter.RejectedMessage });
 
         // 1. Puan kaydı (tüm kayıtlar tek SaveChanges ile yazılır: ya hepsi ya hiçbiri)
         db.Ratings.Add(new Rating

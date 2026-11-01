@@ -18,6 +18,7 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
     public DbSet<Rating> Ratings => Set<Rating>();
     public DbSet<PerfumeComment> PerfumeComments => Set<PerfumeComment>();
     public DbSet<ComparisonComment> ComparisonComments => Set<ComparisonComment>();
+    public DbSet<ComparisonVote> ComparisonVotes => Set<ComparisonVote>();
     public DbSet<Favorite> Favorites => Set<Favorite>();
     public DbSet<BlogPost> BlogPosts => Set<BlogPost>();
     public DbSet<DupeBrand> DupeBrands => Set<DupeBrand>();
@@ -25,6 +26,7 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
     public DbSet<PerfumeAlternative> PerfumeAlternatives => Set<PerfumeAlternative>();
     public DbSet<PerfumeView> PerfumeViews => Set<PerfumeView>();
     public DbSet<PerfumeUserPhoto> PerfumeUserPhotos => Set<PerfumeUserPhoto>();
+    public DbSet<UserPerfumeRecommendation> UserPerfumeRecommendations => Set<UserPerfumeRecommendation>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

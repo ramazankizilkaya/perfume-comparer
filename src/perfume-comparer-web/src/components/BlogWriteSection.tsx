@@ -1,11 +1,11 @@
 "use client";
 
-import { useState, FormEvent } from "react";
+import { useState, useEffect, FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import Icon from "./Icon";
 import LoginPrompt from "./LoginPrompt";
 import RichTextEditor from "./RichTextEditor";
-import { API_BASE, blogPreviewHref } from "@/lib/urls";
+import { API_BASE, blogPreviewHref, consumeUrlParam } from "@/lib/urls";
 import { useAuth, authFetch } from "@/lib/stores";
 
 export default function BlogWriteSection() {
@@ -17,6 +17,12 @@ export default function BlogWriteSection() {
     const [status, setStatus] = useState("");
     const [sending, setSending] = useState(false);
     const router = useRouter();
+
+    useEffect(() => {
+        if (consumeUrlParam("write", "1")) {
+            queueMicrotask(() => setWriting(true));
+        }
+    }, []);
 
     const handleOpenPreview = () => {
         try {

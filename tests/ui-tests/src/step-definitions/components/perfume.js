@@ -18,6 +18,17 @@ When('I toggle favorite button on perfume hero', async function () {
     await page.waitForTimeout(400);
 });
 
+Then('store {string} should be listed right after {string} in the marketplace group', async function (storeName, previousStoreName) {
+    const page = cf.GetPage();
+    const storeNames = await page
+        .locator('#fiyat-pazaryerleri .buy-store-card img')
+        .evaluateAll(images => images.map(image => image.alt.split(' - ')[0]));
+    const previousIndex = storeNames.indexOf(previousStoreName);
+    if (previousIndex === -1 || storeNames[previousIndex + 1] !== storeName) {
+        throw new Error(`Expected "${storeName}" right after "${previousStoreName}", but the marketplace order is: ${storeNames.join(', ')}`);
+    }
+});
+
 When('I submit a review with rating {int} and comment {string}', async function (stars, commentText) {
     const page = cf.GetPage();
     const reviewBtn = page.locator('button:has-text("Değerlendir")').first();

@@ -2,10 +2,17 @@
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import Icon from "./Icon";
+import Icon, { type IconName } from "./Icon";
 import { useAuth, type AuthUser } from "@/lib/stores";
-import { searchHref, loginHref, myBlogsHref } from "@/lib/urls";
+import { openLogin } from "@/lib/loginModal";
+import { searchHref, myBlogsHref } from "@/lib/urls";
+
+const ACCOUNT_LINKS: { label: string; icon: IconName; href: string }[] = [
+    { label: "Favorilerim", icon: "heart", href: searchHref({ userFilter: "favorites" }) },
+    { label: "Yorum Yazdıklarım", icon: "message", href: searchHref({ userFilter: "comments" }) },
+    { label: "Puanladıklarım", icon: "star", href: searchHref({ userFilter: "ratings" }) },
+    { label: "Yazılarım", icon: "edit", href: myBlogsHref() },
+];
 
 function initials(u: AuthUser): string {
     const src = (u.name || u.email || "?").trim();
@@ -36,11 +43,66 @@ function Avatar({ user, size = 30 }: { user: AuthUser; size?: number }) {
     );
 }
 
+/** Mobilde hesap seçenekleri başlıktaki düğme yerine hamburger menünün içinde listelenir. */
+export function MobileAccount({ onNavigate }: { onNavigate: () => void }) {
+    const { user, signOut, ready } = useAuth();
+
+    if (!ready || !user) {
+        return (
+            <>
+                <Link href={ACCOUNT_LINKS[0].href} className="mobile-nav-link" onClick={onNavigate}>
+                    <Icon name="heart" size={16} />
+                    <span>{ACCOUNT_LINKS[0].label}</span>
+                </Link>
+                <button
+                    type="button"
+                    className="mobile-nav-link mobile-login-link"
+                    onClick={() => {
+                        onNavigate();
+                        openLogin();
+                    }}
+                >
+                    <Icon name="user" size={16} />
+                    <span>Giriş Yap</span>
+                </button>
+            </>
+        );
+    }
+
+    return (
+        <>
+            <div className="mobile-account-card">
+                <Avatar user={user} size={36} />
+                <div className="user-info-text">
+                    <strong>{user.name || "Kullanıcı"}</strong>
+                    <span>{user.email}</span>
+                </div>
+            </div>
+            {ACCOUNT_LINKS.map((l) => (
+                <Link key={l.label} href={l.href} className="mobile-nav-link" onClick={onNavigate}>
+                    <Icon name={l.icon} size={16} />
+                    <span>{l.label}</span>
+                </Link>
+            ))}
+            <button
+                type="button"
+                className="mobile-nav-link mobile-signout-btn"
+                onClick={() => {
+                    signOut();
+                    onNavigate();
+                }}
+            >
+                <Icon name="close" size={16} />
+                <span>Çıkış yap</span>
+            </button>
+        </>
+    );
+}
+
 export default function UserMenu() {
     const { user, signOut, ready } = useAuth();
     const [open, setOpen] = useState(false);
     const ref = useRef<HTMLDivElement>(null);
-    const pathname = usePathname();
 
     useEffect(() => {
         function onOutside(e: MouseEvent) {
@@ -49,8 +111,6 @@ export default function UserMenu() {
         document.addEventListener("mousedown", onOutside);
         return () => document.removeEventListener("mousedown", onOutside);
     }, []);
-
-    const next = pathname && !pathname.endsWith("/giris") ? `?next=${encodeURIComponent(pathname)}` : "";
 
     // Giriş yapılmamışsa buton menü açar: Favorilerim ve Giriş Yap
     if (!ready || !user) {
@@ -78,15 +138,18 @@ export default function UserMenu() {
                                 <Icon name="heart" size={15} />
                                 <span>Favorilerim</span>
                             </Link>
-                            <Link
-                                href={loginHref(pathname || undefined)}
+                            <button
+                                type="button"
                                 className="user-dropdown-link"
-                                onClick={() => setOpen(false)}
+                                onClick={() => {
+                                    setOpen(false);
+                                    openLogin();
+                                }}
                                 style={{ fontWeight: 600, color: "var(--accent)" }}
                             >
                                 <Icon name="user" size={15} />
                                 <span>Giriş Yap</span>
-                            </Link>
+                            </button>
                         </nav>
                     </div>
                 )}
@@ -116,38 +179,17 @@ export default function UserMenu() {
                         </div>
                     </div>
                     <nav className="user-dropdown-nav">
-                        <Link
-                            href={searchHref({ userFilter: "favorites" })}
-                            className="user-dropdown-link"
-                            onClick={() => setOpen(false)}
-                        >
-                            <Icon name="heart" size={15} />
-                            <span>Favorilerim</span>
-                        </Link>
-                        <Link
-                            href={searchHref({ userFilter: "comments" })}
-                            className="user-dropdown-link"
-                            onClick={() => setOpen(false)}
-                        >
-                            <Icon name="message" size={15} />
-                            <span>Yorum Yazdıklarım</span>
-                        </Link>
-                        <Link
-                            href={searchHref({ userFilter: "ratings" })}
-                            className="user-dropdown-link"
-                            onClick={() => setOpen(false)}
-                        >
-                            <Icon name="star" size={15} />
-                            <span>Puanladıklarım</span>
-                        </Link>
-                        <Link
-                            href={myBlogsHref()}
-                            className="user-dropdown-link"
-                            onClick={() => setOpen(false)}
-                        >
-                            <Icon name="edit" size={15} />
-                            <span>Yazılarım</span>
-                        </Link>
+                        {ACCOUNT_LINKS.map((l) => (
+                            <Link
+                                key={l.label}
+                                href={l.href}
+                                className="user-dropdown-link"
+                                onClick={() => setOpen(false)}
+                            >
+                                <Icon name={l.icon} size={15} />
+                                <span>{l.label}</span>
+                            </Link>
+                        ))}
                     </nav>
                     <button className="user-signout" onClick={() => { signOut(); setOpen(false); }}>
                         Çıkış yap

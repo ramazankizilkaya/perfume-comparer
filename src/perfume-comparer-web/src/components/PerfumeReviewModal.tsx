@@ -2,10 +2,10 @@
 
 import { useEffect, useState, useRef } from "react";
 import Icon from "./Icon";
-import { API_BASE, loginHref } from "@/lib/urls";
+import { openLogin } from "@/lib/loginModal";
+import { API_BASE } from "@/lib/urls";
 import { useAuth, authFetch } from "@/lib/stores";
 import { toast } from "@/lib/toast";
-import Link from "next/link";
 import PerfumePicker, { type PickedPerfume } from "./PerfumePicker";
 
 interface PerfumeReviewModalProps {
@@ -283,10 +283,10 @@ export default function PerfumeReviewModal({
                             <Icon name="user" size={32} />
                             <h3>Değerlendirme Yapmak İçin Giriş Yapın</h3>
                             <p>Parfüm puanı vermek, kalıcılık/silaj oylamak ve fotoğraf yüklemek için hesabınıza giriş yapmış olmanız gerekmektedir.</p>
-                            {/* Pencere yalnızca tarayıcıda açılır; girişten sonra kullanıcı aynı sayfaya döner. */}
-                            <Link href={loginHref(`${window.location.pathname}${window.location.search}`)} className="btn btn-primary" style={{ marginBlockStart: "1rem" }}>
+                            {/* Giriş penceresi bunun üstünde açılır; giriş bitince bu pencere formu gösterir. */}
+                            <button type="button" className="btn btn-primary" onClick={openLogin} style={{ marginBlockStart: "1rem" }}>
                                 Giriş Yap veya Kayıt Ol
-                            </Link>
+                            </button>
                         </div>
                     </div>
                 ) : photoOnly ? (

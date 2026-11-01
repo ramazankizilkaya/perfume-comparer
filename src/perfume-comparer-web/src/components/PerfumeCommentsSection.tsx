@@ -1,11 +1,10 @@
 "use client";
 
 import { useState, useEffect, FormEvent } from "react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import Icon from "./Icon";
 import Stars, { StarInput } from "./Stars";
-import { API_BASE, formatDate, loginHref } from "@/lib/urls";
+import { openLogin } from "@/lib/loginModal";
+import { API_BASE, formatDate } from "@/lib/urls";
 import { useAuth } from "@/lib/stores";
 import { toast } from "@/lib/toast";
 
@@ -42,10 +41,7 @@ export default function PerfumeCommentsSection({
     slug: string;
     initialComments: CommentData[];
 }) {
-    const { token, user, ready } = useAuth();
-    const pathname = usePathname();
-    // Sunucuda ve hydration sırasında yalnızca yol; tarayıcıda sorgu da eklenir (girişten sonra aynı yere dönüş).
-    const loginNext = ready && typeof window !== "undefined" ? `${pathname ?? ""}${window.location.search}` : pathname;
+    const { token, user } = useAuth();
     const [comments, setComments] = useState<CommentData[]>(initialComments);
     const [rating, setRating] = useState(5);
     const [commentText, setCommentText] = useState("");
@@ -119,9 +115,9 @@ export default function PerfumeCommentsSection({
             <div className="comment-form-wrap">
                 {!user && (
                     <p className="login-prompt">
-                        <Link href={loginHref(loginNext)} className="link-more">
+                        <button type="button" className="link-more" onClick={openLogin}>
                             Yorum yapmak ve puan vermek için giriş yapın
-                        </Link>
+                        </button>
                     </p>
                 )}
                 <form onSubmit={submitComment} className={user ? "comment-form" : "comment-form is-locked"}>

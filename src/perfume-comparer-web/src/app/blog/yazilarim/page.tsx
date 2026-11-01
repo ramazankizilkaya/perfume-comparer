@@ -62,7 +62,7 @@ export default function MyBlogsPage() {
                     <p className="section-desc">Toplulukla paylaştığınız makaleler ve onay durumları.</p>
                 </div>
                 <div style={{ display: "flex", gap: "0.5rem" }}>
-                    <Link href={blogHref()} className="btn btn-primary btn-sm">
+                    <Link href={`${blogHref()}?write=1`} className="btn btn-primary btn-sm">
                         <Icon name="plus" size={14} /> Yeni Yazı Yaz
                     </Link>
                 </div>
@@ -125,7 +125,7 @@ export default function MyBlogsPage() {
                 ) : (
                     <div className="panel center" style={{ padding: "3rem 1.5rem" }}>
                         <p className="muted" style={{ marginBottom: "1rem" }}>Henüz yayınlanmış veya onaya gönderilmiş bir yazınız bulunmuyor.</p>
-                        <Link href={blogHref()} className="btn btn-primary">
+                        <Link href={`${blogHref()}?write=1`} className="btn btn-primary">
                             İlk Yazınızı Gönderin
                         </Link>
                     </div>

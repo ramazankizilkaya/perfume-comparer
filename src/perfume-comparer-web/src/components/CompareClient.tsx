@@ -10,7 +10,9 @@ import LoginPrompt from "./LoginPrompt";
 import ImageLightboxModal from "./ImageLightboxModal";
 import { API_BASE, perfumeHref, localeHref, formatDate, genderLabel, mediaUrl } from "@/lib/urls";
 import { noteIcon } from "@/lib/notes";
-import { useCompare, authFetch, MAX_COMPARE } from "@/lib/stores";
+import { useCompare, useRecentPerfumes, authFetch, MAX_COMPARE } from "@/lib/stores";
+import { getVoterId } from "@/lib/compareVoter";
+import { toast } from "@/lib/toast";
 import { visibleAccords } from "@/lib/accords";
 import { fullPerfumeName } from "@/lib/perfumeName";
 
@@ -76,6 +78,18 @@ interface ComparisonComment {
     isAiSummary: boolean;
     authorName?: string | null;
     preferredSlug?: string | null;
+}
+
+interface VoteOption {
+    slug: string;
+    votes: number;
+    percent: number;
+}
+
+interface VoteSummary {
+    total: number;
+    myVote?: string | null;
+    options: VoteOption[];
 }
 
 interface Suggestion {
@@ -199,8 +213,8 @@ export default function CompareClient({
                     {perfumes.length === 2 && (
                         <>
                             {/* key: çift değişince bileşenler sıfırdan kurulur, eski analiz/yorum ekranda kalmaz. */}
-                            <AiComparisonAnalysis key={`${perfumes[0].slug}-vs-${perfumes[1].slug}`} p1={perfumes[0]} p2={perfumes[1]} />
-                            <ComparisonComments key={`${perfumes[0].slug}-vs-${perfumes[1].slug}`} p1={perfumes[0]} p2={perfumes[1]} />
+                            <AiComparisonAnalysis key={`ai-${perfumes[0].slug}-vs-${perfumes[1].slug}`} p1={perfumes[0]} p2={perfumes[1]} />
+                            <ComparisonComments key={`comments-${perfumes[0].slug}-vs-${perfumes[1].slug}`} p1={perfumes[0]} p2={perfumes[1]} />
                         </>
                     )}
                     <ImageLightboxModal
@@ -211,7 +225,55 @@ export default function CompareClient({
                     />
                 </>
             )}
+
+            {!loading && <RecentlyViewed exclude={slugs} full={slugs.length >= MAX_COMPARE} onAdd={add} />}
         </>
+    );
+}
+
+/** Son gezilen parfümler: tek tıkla karşılaştırmaya eklenir. Boş karşılaştırma sayfasını da doldurur. */
+function RecentlyViewed({
+    exclude,
+    full,
+    onAdd,
+}: {
+    exclude: string[];
+    full: boolean;
+    onAdd: (slug: string) => void;
+}) {
+    const { items, ready } = useRecentPerfumes();
+    const list = items.filter((p) => !exclude.includes(p.slug)).slice(0, 12);
+
+    if (!ready || list.length === 0) return null;
+
+    return (
+        <section className="block compare-recent">
+            <h2 className="block-title">Son gezdikleriniz</h2>
+            <div className="compare-recent-list">
+                {list.map((p) => (
+                    <div key={p.slug} className="compare-recent-item">
+                        <Link href={perfumeHref(p.path, p.slug)} className="compare-recent-link" title={fullPerfumeName(p)}>
+                            <img
+                                src={mediaUrl(p.imageUrl) || PLACEHOLDER}
+                                alt={`${fullPerfumeName(p)} parfümü`}
+                                loading="lazy"
+                            />
+                            <span className="compare-recent-brand">{p.brand.name}</span>
+                            <span className="compare-recent-name">{p.name}</span>
+                        </Link>
+                        <button
+                            type="button"
+                            className="btn btn-ghost btn-sm compare-recent-add"
+                            disabled={full}
+                            title={full ? `En fazla ${MAX_COMPARE} parfüm karşılaştırılabilir` : undefined}
+                            onClick={() => onAdd(p.slug)}
+                        >
+                            <Icon name="plus" size={13} /> Ekle
+                        </button>
+                    </div>
+                ))}
+            </div>
+        </section>
     );
 }
 
@@ -251,6 +313,10 @@ function CompareMatrix({
                             </td>
                         ))}
                     </tr>
+
+                    {perfumes.length === 2 && (
+                        <ComparisonVoteRow key={`${perfumes[0].slug}-vs-${perfumes[1].slug}`} p1={perfumes[0]} p2={perfumes[1]} />
+                    )}
 
                     <Row label="Marka / İsim" perfumes={perfumes} render={(p) => <Link href={perfumeHref(p.path, p.slug)} className="matrix-perfume-link"><strong>{p.brand.name}</strong> {p.name}</Link>} />
                     <Row label="Koku ailesi" perfumes={perfumes} render={(p) => p.fragranceFamily ?? "—"} />
@@ -422,6 +488,94 @@ function TopFacetCell({ items }: { items: ScoredRef[] }) {
     );
 }
 
+/**
+ * "Hangisini tercih edersiniz?" oyu. Giriş ve yorum gerekmez; girişsiz ziyaretçi tarayıcıda
+ * saklanan anonim kimlikle, girişli kullanıcı hesabıyla oy verir. Çift başına tek oy sayılır:
+ * başka parfüme basmak oyu değiştirir, seçili olana tekrar basmak geri alır.
+ */
+function ComparisonVoteRow({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }) {
+    const [summary, setSummary] = useState<VoteSummary | null>(null);
+    const [busy, setBusy] = useState(false);
+
+    const endpoint = `${API_BASE}/api/compare/${p1.slug}-vs-${p2.slug}/votes`;
+
+    useEffect(() => {
+        const controller = new AbortController();
+        (async () => {
+            try {
+                const res = await authFetch(endpoint, {
+                    headers: { "X-Voter-Id": getVoterId() },
+                    signal: controller.signal,
+                });
+                if (res.ok && !controller.signal.aborted) setSummary(await res.json());
+            } catch {
+                /* yoksay: oy alanı oylar gelene kadar pasif kalır */
+            }
+        })();
+        return () => controller.abort();
+    }, [endpoint]);
+
+    const cast = async (slug: string) => {
+        if (busy || !summary) return;
+        setBusy(true);
+        try {
+            const res = await authFetch(endpoint, {
+                method: "POST",
+                headers: { "Content-Type": "application/json", "X-Voter-Id": getVoterId() },
+                body: JSON.stringify({ preferredSlug: summary.myVote === slug ? null : slug }),
+            });
+            if (res.ok) {
+                setSummary(await res.json());
+            } else {
+                const data = await res.json().catch(() => ({}));
+                toast.error(data.message || "Oyunuz kaydedilemedi.");
+            }
+        } catch {
+            toast.error("Bağlantı hatası. Oyunuz kaydedilemedi.");
+        } finally {
+            setBusy(false);
+        }
+    };
+
+    return (
+        <tr className="matrix-vote-row">
+            <th className="row-label">
+                Tercihiniz
+                {summary && <small className="matrix-vote-total">Toplam {summary.total.toLocaleString("tr-TR")} oy</small>}
+            </th>
+            {[p1, p2].map((p) => {
+                const option = summary?.options.find((o) => o.slug === p.slug);
+                const chosen = summary?.myVote === p.slug;
+                return (
+                    <td key={p.slug}>
+                        <button
+                            type="button"
+                            className={`matrix-vote-btn${chosen ? " is-chosen" : ""}`}
+                            onClick={() => cast(p.slug)}
+                            disabled={busy || !summary}
+                            aria-pressed={chosen}
+                            aria-label={`${fullPerfumeName(p)} parfümünü tercih ediyorum`}
+                        >
+                            {chosen && <Icon name="check" size={14} />}
+                            {chosen ? "Tercihiniz bu" : "Tercih ediyorum"}
+                        </button>
+                        {summary && (
+                            <>
+                                <span className="matrix-vote-meter" aria-hidden="true">
+                                    <span style={{ width: `${option?.percent ?? 0}%` }} />
+                                </span>
+                                <span className="matrix-vote-count">
+                                    <strong>%{option?.percent ?? 0}</strong> · {(option?.votes ?? 0).toLocaleString("tr-TR")} oy
+                                </span>
+                            </>
+                        )}
+                    </td>
+                );
+            })}
+        </tr>
+    );
+}
+
 function Row({
     label, perfumes, render,
 }: {
@@ -537,7 +691,6 @@ function AiComparisonAnalysis({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail
 function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }) {
     const [comments, setComments] = useState<ComparisonComment[]>([]);
     const [commentText, setCommentText] = useState("");
-    const [preferred, setPreferred] = useState("");
     const [posting, setPosting] = useState(false);
     const [status, setStatus] = useState<{ ok: boolean; text: string } | null>(null);
 
@@ -565,11 +718,10 @@ function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }
             const res = await authFetch(endpoint, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ content: commentText, preferredSlug: preferred || null }),
+                body: JSON.stringify({ content: commentText }),
             });
             if (res.ok) {
                 setCommentText("");
-                setPreferred("");
                 setStatus({ ok: true, text: "Yorumunuz eklendi." });
                 const fresh = await fetch(endpoint);
                 if (fresh.ok) setComments(await fresh.json());
@@ -612,13 +764,6 @@ function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }
                                 {commentText.length} / {COMMENT_MAX}
                             </span>
                         </div>
-                        <div className="form-group">
-                            <label>Hangisini tercih ediyorsunuz?</label>
-                            <div className="tag-row">
-                                <PrefButton label={p1Label} slug={p1.slug} preferred={preferred} setPreferred={setPreferred} />
-                                <PrefButton label={p2Label} slug={p2.slug} preferred={preferred} setPreferred={setPreferred} />
-                            </div>
-                        </div>
                         <button className="btn btn-primary" disabled={posting}>
                             <Icon name="send" size={14} /> Gönder
                         </button>
@@ -646,21 +791,6 @@ function ComparisonComments({ p1, p2 }: { p1: PerfumeDetail; p2: PerfumeDetail }
                 <p className="empty">Bu karşılaştırma için henüz yorum yok.</p>
             )}
         </section>
-    );
-}
-
-function PrefButton({
-    label, slug, preferred, setPreferred,
-}: { label: string; slug: string; preferred: string; setPreferred: (s: string) => void }) {
-    const on = preferred === slug;
-    return (
-        <button
-            type="button"
-            className={on ? "tag tag-family tag-choice" : "tag tag-choice"}
-            onClick={() => setPreferred(on ? "" : slug)}
-        >
-            {label}
-        </button>
     );
 }
 

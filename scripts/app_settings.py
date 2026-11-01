@@ -13,7 +13,34 @@ import os
 from pathlib import Path
 from typing import Any
 
-API_DIR = Path(__file__).resolve().parent.parent / "src" / "PerfumeComparer"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+API_DIR = PROJECT_ROOT / "src" / "PerfumeComparer"
+DOTENV_PATH = PROJECT_ROOT / ".env"
+
+def _load_root_dotenv() -> None:
+    """Kök .env dosyasındaki anahtarları os.environ'a yükler (zaten tanımlı olanları ezmez)."""
+    if not DOTENV_PATH.is_file():
+        return
+    try:
+        lines = DOTENV_PATH.read_text(encoding="utf-8").splitlines()
+        for raw in lines:
+            line = raw.strip().removeprefix("export ").strip()
+            if not line or line.startswith("#"):
+                continue
+            eq = line.find("=")
+            if eq <= 0:
+                continue
+            key = line[:eq].strip()
+            val = line[eq + 1:].strip()
+            if len(val) >= 2 and val[0] == val[-1] and val[0] in ('"', "'"):
+                val = val[1:-1]
+            if key and key not in os.environ:
+                os.environ[key] = val
+    except Exception:
+        pass
+
+# Modül ilk yüklendiğinde .env dosyasını otomatik oku
+_load_root_dotenv()
 
 # Öncelik sırası: yerel sırlar, sonra ortama göre ayarlar, sonra taban ayarlar.
 APPSETTINGS_FILES = [

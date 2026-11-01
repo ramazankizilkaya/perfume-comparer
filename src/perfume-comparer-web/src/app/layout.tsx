@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CompareBar from "@/components/CompareBar";
 import ScrollToTop from "@/components/ScrollToTop";
+import LoginModal from "@/components/LoginModal";
 import ToastContainer from "@/components/ToastContainer";
 import { SITE_URL, SITE_NAME, SITE_ALT_NAME, DEFAULT_OG_IMAGE, LOGO_URL, absoluteUrl, jsonLd } from "@/lib/seo";
 import { localeHref, searchHref } from "@/lib/urls";
@@ -135,6 +136,7 @@ export default function RootLayout({
                 </main>
                 <Footer />
                 <CompareBar />
+                <LoginModal />
                 <ToastContainer />
             </body>
         </html>

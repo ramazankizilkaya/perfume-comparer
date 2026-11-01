@@ -15,5 +15,6 @@ public class AppUserConfiguration : IEntityTypeConfiguration<AppUser>
 
         builder.HasIndex(u => u.Email).IsUnique();
         builder.HasIndex(u => u.GoogleSubjectId).IsUnique();
+        builder.HasIndex(u => u.FacebookSubjectId).IsUnique();
     }
 }

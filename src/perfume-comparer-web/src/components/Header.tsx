@@ -4,8 +4,9 @@ import { useState, useEffect, useRef, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 import Icon from "./Icon";
-import GenderControl from "./GenderControl";
-import UserMenu from "./UserMenu";
+import GenderControl, { MobileGenderOptions } from "./GenderControl";
+import UserMenu, { MobileAccount } from "./UserMenu";
+import PerfumeAdvisorModal from "./PerfumeAdvisorModal";
 import { API_BASE, perfumeHref, brandHref, blogHref, searchHref, compareHref, localeHref, genderLabel, mediaUrl } from "@/lib/urls";
 
 interface AutocompletePerfume {
@@ -98,6 +99,7 @@ export default function Header() {
     const [open, setOpen] = useState(false);
     // Mobil menü, açıldığı sayfaya bağlıdır: sayfa değişince türetilmiş değer kapanır.
     const [navOpenPath, setNavOpenPath] = useState<string | null>(null);
+    const [advisorOpen, setAdvisorOpen] = useState(false);
 
     const boxRef = useRef<HTMLDivElement>(null);
     const router = useRouter();
@@ -169,6 +171,16 @@ export default function Header() {
         };
     }, [q]);
 
+    // Hamburger menü açıkken Esc tuşu menüyü kapatır.
+    useEffect(() => {
+        if (!mobileNavOpen) return;
+        const onKey = (e: KeyboardEvent) => {
+            if (e.key === "Escape") setNavOpenPath(null);
+        };
+        document.addEventListener("keydown", onKey);
+        return () => document.removeEventListener("keydown", onKey);
+    }, [mobileNavOpen]);
+
     useEffect(() => {
         function onClickOutside(e: MouseEvent) {
             if (boxRef.current && !boxRef.current.contains(e.target as Node)) setOpen(false);
@@ -229,86 +241,129 @@ export default function Header() {
 
     return (
         <header className="site-header">
-            <div className="shell header-inner">
-                <Link href={localeHref("/")} className="logo" aria-label="Parfümetre">
-                    <img
-                        src="/logo.png"
-                        alt="Parfümetre - Parfüm Karşılaştırma ve Koku Rehberi"
-                        className="site-logo-img light-only"
-                        width={162}
-                        height={42}
-                    />
-                    <img
-                        src="/logo-dark.png"
-                        alt="Parfümetre - Parfüm Karşılaştırma ve Koku Rehberi"
-                        className="site-logo-img dark-only"
-                        width={162}
-                        height={42}
-                    />
-                </Link>
-
-                <nav className="site-nav">
-                    <Link href={compareHref()} className="nav-link">Karşılaştır</Link>
-                    <Link href={searchHref()} className="nav-link">Detaylı Arama</Link>
-                    <Link href={brandHref()} className="nav-link">Markalar</Link>
-                    <Link href={blogHref()} className="nav-link">Rehber</Link>
-                    <Link
-                        href={localeHref("/")}
-                        className="icon-btn home-btn"
-                        aria-label="Anasayfa"
-                        data-tooltip="Anasayfa"
-                    >
-                        <Icon name="home" size={17} />
+            <div className="header-main">
+                <div className="shell header-inner">
+                    <Link href={localeHref("/")} className="logo" aria-label="Parfümetre">
+                        <img
+                            src="/logo.png"
+                            alt="Parfümetre - Parfüm Karşılaştırma ve Koku Rehberi"
+                            className="site-logo-img light-only"
+                            width={178}
+                            height={42}
+                        />
+                        <img
+                            src="/logo-dark.png"
+                            alt="Parfümetre - Parfüm Karşılaştırma ve Koku Rehberi"
+                            className="site-logo-img dark-only"
+                            width={178}
+                            height={42}
+                        />
                     </Link>
-                    <GenderControl />
-                    <button
-                        className="icon-btn theme-toggle-btn"
-                        onClick={toggleTheme}
-                        aria-label="Temayı değiştir"
-                        data-tooltip={theme === "dark" ? "Aydınlık Mod" : "Karanlık Mod"}
-                    >
-                        <Icon name={theme === "dark" ? "sun" : "moon"} />
-                    </button>
-                    <UserMenu />
-                    <button
-                        type="button"
-                        className="icon-btn mobile-menu-toggle"
-                        onClick={() => setNavOpenPath(mobileNavOpen ? null : pathname)}
-                        aria-label="Menüyü aç/kapat"
-                        data-tooltip="Menü"
-                        aria-expanded={mobileNavOpen}
-                    >
-                        <Icon name={mobileNavOpen ? "close" : "menu"} size={18} />
-                    </button>
-                </nav>
-            </div>
 
-            {mobileNavOpen && (
-                <div className="mobile-nav-panel" role="dialog" aria-label="Mobil Menü">
-                    <div className="shell mobile-nav-links">
-                        <Link href={localeHref("/")} className="mobile-nav-link" onClick={closeMobileNav}>
-                            <Icon name="home" size={16} />
-                            <span>Anasayfa</span>
+                    <nav className="site-nav">
+                        <button
+                            type="button"
+                            className="nav-link nav-btn-advisor"
+                            onClick={() => setAdvisorOpen(true)}
+                            aria-label="Yapay Zekâ ile Parfüm Önerisi Al"
+                        >
+                            <Icon name="sparkle" size={14} />
+                            <span>Bana Parfüm Öner</span>
+                        </button>
+                        <Link href={compareHref()} className="nav-link">Karşılaştır</Link>
+                        <Link href={searchHref()} className="nav-link">Detaylı Arama</Link>
+                        <Link href={brandHref()} className="nav-link nav-link-late">Markalar</Link>
+                        <Link href={blogHref()} className="nav-link nav-link-late">Rehber</Link>
+                        <Link
+                            href={localeHref("/")}
+                            className="icon-btn home-btn"
+                            aria-label="Anasayfa"
+                            data-tooltip="Anasayfa"
+                        >
+                            <Icon name="home" size={17} />
                         </Link>
-                        <Link href={compareHref()} className="mobile-nav-link" onClick={closeMobileNav}>
-                            <Icon name="swap" size={16} />
-                            <span>Karşılaştır</span>
-                        </Link>
-                        <Link href={searchHref()} className="mobile-nav-link" onClick={closeMobileNav}>
-                            <Icon name="search" size={16} />
-                            <span>Detaylı Arama</span>
-                        </Link>
-                        <Link href={brandHref()} className="mobile-nav-link" onClick={closeMobileNav}>
-                            <Icon name="layers" size={16} />
-                            <span>Markalar</span>
-                        </Link>
-                        <Link href={blogHref()} className="mobile-nav-link" onClick={closeMobileNav}>
-                            <Icon name="calendar" size={16} />
-                            <span>Rehber</span>
-                        </Link>
-                    </div>
+                        <GenderControl />
+                        <button
+                            className="icon-btn theme-toggle-btn"
+                            onClick={toggleTheme}
+                            aria-label="Temayı değiştir"
+                            data-tooltip={theme === "dark" ? "Aydınlık Mod" : "Karanlık Mod"}
+                        >
+                            <Icon name={theme === "dark" ? "sun" : "moon"} />
+                        </button>
+                        <UserMenu />
+                        <button
+                            type="button"
+                            className="icon-btn mobile-menu-toggle"
+                            onClick={() => setNavOpenPath(mobileNavOpen ? null : pathname)}
+                            aria-label="Menüyü aç/kapat"
+                            data-tooltip="Menü"
+                            aria-expanded={mobileNavOpen}
+                        >
+                            <Icon name={mobileNavOpen ? "close" : "menu"} size={18} />
+                        </button>
+                    </nav>
                 </div>
-            )}
+
+                {mobileNavOpen && (
+                    <>
+                        <button
+                            type="button"
+                            className="mobile-nav-backdrop"
+                            aria-label="Menüyü kapat"
+                            tabIndex={-1}
+                            onClick={closeMobileNav}
+                        />
+                        <div className="shell mobile-nav-panel">
+                            <div className="mobile-nav-links" role="dialog" aria-label="Mobil Menü">
+                                <button
+                                    type="button"
+                                    className="mobile-nav-link mobile-nav-early mobile-advisor-btn"
+                                    onClick={() => {
+                                        closeMobileNav();
+                                        setAdvisorOpen(true);
+                                    }}
+                                >
+                                    <Icon name="sparkle" size={16} />
+                                    <span>Bana Parfüm Öner</span>
+                                </button>
+                                <Link href={localeHref("/")} className="mobile-nav-link mobile-nav-early" onClick={closeMobileNav}>
+                                    <Icon name="home" size={16} />
+                                    <span>Anasayfa</span>
+                                </Link>
+                                <Link href={compareHref()} className="mobile-nav-link mobile-nav-early" onClick={closeMobileNav}>
+                                    <Icon name="swap" size={16} />
+                                    <span>Karşılaştır</span>
+                                </Link>
+                                <Link href={searchHref()} className="mobile-nav-link mobile-nav-early" onClick={closeMobileNav}>
+                                    <Icon name="search" size={16} />
+                                    <span>Detaylı Arama</span>
+                                </Link>
+                                <Link href={brandHref()} className="mobile-nav-link" onClick={closeMobileNav}>
+                                    <Icon name="layers" size={16} />
+                                    <span>Markalar</span>
+                                </Link>
+                                <Link href={blogHref()} className="mobile-nav-link" onClick={closeMobileNav}>
+                                    <Icon name="calendar" size={16} />
+                                    <span>Rehber</span>
+                                </Link>
+
+                                <div className="mobile-only-group">
+                                    <div className="mobile-menu-divider" />
+                                    <MobileGenderOptions />
+                                    <button type="button" className="mobile-nav-link mobile-theme-btn" onClick={toggleTheme}>
+                                        <Icon name={theme === "dark" ? "sun" : "moon"} size={16} />
+                                        <span>{theme === "dark" ? "Aydınlık Mod" : "Karanlık Mod"}</span>
+                                    </button>
+
+                                    <div className="mobile-menu-divider" />
+                                    <MobileAccount onNavigate={closeMobileNav} />
+                                </div>
+                            </div>
+                        </div>
+                    </>
+                )}
+            </div>
 
             {!isSearchPage && (
                 <div className="header-search-strip">
@@ -465,6 +520,7 @@ export default function Header() {
                 </div>
             </div>
             )}
+            <PerfumeAdvisorModal isOpen={advisorOpen} onClose={() => setAdvisorOpen(false)} />
         </header>
     );
 }

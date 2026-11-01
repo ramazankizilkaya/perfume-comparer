@@ -22,6 +22,51 @@
 const fs = require('fs');
 const path = require('path');
 
+// Kök .env dosyasını oku ve process.env'e ekle
+function loadRootDotenv() {
+  const envPath = path.resolve(__dirname, '..', '.env');
+  if (fs.existsSync(envPath)) {
+    try {
+      const content = fs.readFileSync(envPath, 'utf8');
+      content.split('\n').forEach(line => {
+        const trimmed = line.trim().replace(/^export\s+/, '');
+        if (!trimmed || trimmed.startsWith('#')) return;
+        const eqIdx = trimmed.indexOf('=');
+        if (eqIdx > 0) {
+          const key = trimmed.slice(0, eqIdx).trim();
+          let val = trimmed.slice(eqIdx + 1).trim();
+          if (val.length >= 2 && (val.startsWith('"') && val.endsWith('"') || val.startsWith("'") && val.endsWith("'"))) {
+            val = val.slice(1, -1);
+          }
+          if (key && !process.env[key]) {
+            process.env[key] = val;
+          }
+        }
+      });
+    } catch (err) {
+      // sessizce geç
+    }
+  }
+
+  // Yedek olarak appsettings.Local.json'dan da oku
+  const appSettingsPath = path.resolve(__dirname, '..', 'src', 'PerfumeComparer', 'appsettings.Local.json');
+  if (fs.existsSync(appSettingsPath)) {
+    try {
+      const appSettings = JSON.parse(fs.readFileSync(appSettingsPath, 'utf8'));
+      if (appSettings.Gemini?.ApiKey && !process.env.GEMINI_API_KEY) {
+        process.env.GEMINI_API_KEY = appSettings.Gemini.ApiKey;
+      }
+      if (appSettings.Ai?.ApiKey && !process.env.OPENAI_API_KEY) {
+        process.env.OPENAI_API_KEY = appSettings.Ai.ApiKey;
+      }
+    } catch (err) {
+      // sessizce geç
+    }
+  }
+}
+
+loadRootDotenv();
+
 // API Anahtarı Kontrolü
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;

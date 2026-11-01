@@ -24,6 +24,10 @@
     --signal: #D85D3F;
     --signal-wash: #F9E6E0;
 
+    /* üçüncü taraf giriş düğmeleri: marka renkleri */
+    --brand-facebook-bg: #1877F2;
+    --brand-facebook-fg: #FFFFFF;
+
     /* yıldızlar: dolu = sarı, boş = beyaz + ince kontur */
     --star: #F2A828;
     --star-empty: #FFFFFF;
@@ -256,7 +260,7 @@ button {
     font-size: 1.1rem;
     font-weight: 600;
     letter-spacing: 0;
-    margin: 0 0 0.5rem;
+    margin: 0;
     color: var(--ink-soft);
 }
 
@@ -283,6 +287,8 @@ button {
     border-block-start: 4px solid var(--accent);
     border-block-end: 1px solid var(--line-strong);
     box-shadow: 0 4px 20px rgb(23 33 30 / 0.06);
+    /* Sağdaki düğmenin gizli ipucu kutusu, 961-1100px arasında sayfaya yatay kaydırma çubuğu ekliyordu. */
+    overflow-x: clip;
 }
 
 .header-inner {
@@ -311,7 +317,7 @@ button {
 .site-logo-img {
     height: 42px;
     width: auto;
-    max-width: 175px;
+    max-width: 190px;
     object-fit: contain;
     display: block;
 }
@@ -414,9 +420,49 @@ body.dark-mode .site-logo-img.dark-only {
     display: none !important;
 }
 
+/* Menü, genişlik daraldıkça sondan başlayarak hamburger menüye taşınır. Eşikler masaüstü ölçümünden hesaplanmıştır
+   (logo 178px, bağlantılar 400px, 38px ikon düğmeleri, kenar boşlukları 40px):
+   - 915px ve üstü: menünün tamamı başlıkta.
+   - 850-914px: boşluklar daralır, Anasayfa ikonu gizlenir (logo zaten anasayfaya gider); hamburger yoktur.
+   - 769-849px: Markalar ve Rehber hamburger menüye taşınır.
+   - 768px ve altı (telefon): tüm seçenekler hamburger menüdedir; başlıkta yalnızca menü düğmesi kalır.
+   Menüye bağlantı eklenir veya metinleri değişirse bu eşikler yeniden hesaplanmalıdır. */
+@media (min-width: 769px) and (max-width: 914px) {
+    .site-nav {
+        gap: var(--s3);
+    }
+
+    .site-nav .home-btn {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 849px) {
+    .site-nav .nav-link-late {
+        display: none;
+    }
+
+    .mobile-menu-toggle,
+    .icon-btn.mobile-menu-toggle {
+        display: grid !important;
+    }
+
+    /* Hamburger menüde yalnızca başlıktan taşan bağlantılar kalır. */
+    .mobile-nav-links .mobile-nav-early {
+        display: none;
+    }
+}
+
+@media (min-width: 850px) {
+    .mobile-nav-panel,
+    .mobile-nav-backdrop {
+        display: none !important;
+    }
+}
+
 @media (max-width: 768px) {
     :root {
-        --header-h: 59px;
+        --header-h: 77px;
     }
 
     .header-inner {
@@ -426,15 +472,12 @@ body.dark-mode .site-logo-img.dark-only {
     }
 
     .site-nav {
-        margin-inline-start: auto;
-        justify-content: flex-end;
-        align-items: center;
-        flex-wrap: nowrap;
-        gap: 6px;
-        min-width: 0;
+        margin-inline-start: 0;
+        flex: 0 0 auto;
     }
 
-    .site-nav .nav-link {
+    /* Tüm seçenekler hamburger menünün içindedir; başlıkta yalnızca menü düğmesi kalır. */
+    .site-nav > *:not(.mobile-menu-toggle) {
         display: none;
     }
 
@@ -443,8 +486,23 @@ body.dark-mode .site-logo-img.dark-only {
         display: grid !important;
     }
 
-    .gender-control {
-        margin-inline-start: 0;
+    .icon-btn.mobile-menu-toggle {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Menü düğmesi dışındaki tüm başlık alanı logoya ayrılır. */
+    .site-header .logo {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+
+    .site-header .site-logo-img {
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+        max-height: 56px;
+        object-position: left center;
     }
 
     .gender-btn,
@@ -455,34 +513,58 @@ body.dark-mode .site-logo-img.dark-only {
         min-height: 32px;
         padding: 0;
     }
-
-    .logo {
-        flex-shrink: 0;
-    }
-
-    .site-logo-img {
-        height: 35px;
-        max-width: 145px;
-    }
 }
 
-@media (min-width: 769px) {
-    .mobile-nav-panel {
-        display: none !important;
-    }
+/* Hamburger menü sayfanın üstünde yüzer: sayfayı aşağı itmez, dışına tıklanınca kapanır. */
+.header-main {
+    position: relative;
+    z-index: 1;
+    background: var(--surface);
+}
+
+.mobile-nav-backdrop {
+    position: fixed;
+    inset: var(--header-h) 0 0;
+    z-index: 0;
+    padding: 0;
+    border: 0;
+    background: rgb(23 33 30 / 0.28);
+    cursor: default;
 }
 
 .mobile-nav-panel {
-    background: var(--surface);
-    border-block-end: 1px solid var(--line-strong);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    inset-inline: 0;
+    top: 100%;
+    z-index: 2;
+    pointer-events: none;
 }
 
 .mobile-nav-links {
+    pointer-events: auto;
     display: flex;
     flex-direction: column;
-    padding-block: var(--s2) var(--s3);
     gap: 2px;
+    width: min(360px, 100%);
+    margin: 6px 0 0 auto;
+    padding: var(--s2);
+    background: var(--surface);
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    box-shadow: 0 12px 32px rgb(0 0 0 / 0.18);
+    max-height: calc(100dvh - var(--header-h) - var(--s4));
+    overflow-y: auto;
+}
+
+/* Telefonda tüm seçenekler görünür; daha geniş ekranda yalnızca taşan bağlantılar listelenir. */
+.mobile-only-group {
+    display: contents;
+}
+
+@media (min-width: 769px) {
+    .mobile-only-group {
+        display: none;
+    }
 }
 
 .mobile-nav-link {
@@ -502,6 +584,104 @@ body.dark-mode .site-logo-img.dark-only {
 .mobile-nav-link:active {
     background: var(--surface-alt);
     color: var(--accent);
+}
+
+button.mobile-nav-link {
+    width: 100%;
+    text-align: start;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+button.mobile-nav-link:hover,
+button.mobile-nav-link:active {
+    background: var(--surface-alt);
+}
+
+.mobile-menu-divider {
+    height: 1px;
+    background: var(--line);
+    margin: var(--s2) var(--s3);
+}
+
+.mobile-menu-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s2);
+    padding: var(--s2) var(--s3);
+}
+
+.mobile-menu-group-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-menu-group-title {
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    color: var(--ink-faint);
+    letter-spacing: 0.04em;
+}
+
+.mobile-gender-chips {
+    display: flex;
+    gap: var(--s2);
+}
+
+.mobile-gender-opt {
+    flex: 1 1 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-height: 40px;
+    padding: 0 var(--s3);
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--ink-soft);
+    font-family: inherit;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.mobile-gender-opt.on {
+    background: var(--accent-wash);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.mobile-account-card {
+    display: flex;
+    align-items: center;
+    gap: var(--s3);
+    padding: var(--s2) var(--s3);
+    min-width: 0;
+}
+
+.mobile-account-card .user-info-text {
+    min-width: 0;
+}
+
+.mobile-account-card .user-info-text span {
+    display: block;
+    font-size: var(--fs-xs);
+    color: var(--ink-faint);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.mobile-login-link {
+    color: var(--accent);
+}
+
+.mobile-signout-btn {
+    color: var(--bad);
 }
 
 .nav-link {
@@ -2889,16 +3069,179 @@ body.dark-mode .vs-side img {
     font-weight: 700;
 }
 
+/* Puan alt alta dizilir: sayı, yıldızlar, oy sayısı. Yan yana dizilince 2 sütunlu dar tabloda sayı hücreden taşıyordu. */
 .matrix-score {
     display: flex;
-    align-items: center;
-    gap: var(--s2);
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--s1);
+}
+
+.matrix-score .rating-line {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: var(--s1);
 }
 
 .matrix-score small {
     color: var(--ink-faint);
     font-size: var(--fs-xs);
+}
+
+/* Tercih oyu satırı: parfüm görselinin altında, marka/isim satırının üstünde. */
+.matrix-vote-row td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.matrix-vote-total {
+    display: block;
+    margin-block-start: var(--s1);
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.matrix-vote-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--s1);
+    width: 100%;
+    min-height: 38px;
+    padding: var(--s1) var(--s3);
+    border: 1px solid var(--accent);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--accent);
+    font-size: var(--fs-sm);
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.matrix-vote-btn:hover:not(:disabled) {
+    background: var(--accent-wash);
+}
+
+.matrix-vote-btn.is-chosen {
+    background: var(--accent);
+    color: var(--accent-contrast);
+}
+
+.matrix-vote-btn.is-chosen:hover:not(:disabled) {
+    background: var(--accent-hover);
+}
+
+.matrix-vote-btn:disabled {
+    cursor: default;
+    opacity: 0.6;
+}
+
+.matrix-vote-btn:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.matrix-vote-meter {
+    display: block;
+    height: 6px;
+    margin-block-start: var(--s2);
+    border-radius: 3px;
+    background: var(--surface-sunk);
+    overflow: hidden;
+}
+
+.matrix-vote-meter > span {
+    display: block;
+    height: 100%;
+    background: var(--accent);
+    transition: width 0.3s ease;
+}
+
+.matrix-vote-count {
+    display: block;
+    margin-block-start: var(--s1);
+    font-size: var(--fs-xs);
+    color: var(--ink-faint);
+    font-variant-numeric: tabular-nums;
+}
+
+.matrix-vote-count strong {
+    color: var(--ink);
+}
+
+/* Son gezilen parfümler: boş karşılaştırma sayfasını doldurur, tek tıkla listeye ekler. */
+.compare-recent {
+    margin-block-start: var(--s5);
+}
+
+.compare-recent-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: var(--s3);
+}
+
+.compare-recent-item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s2);
+    min-width: 0;
+    padding: var(--s2);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+}
+
+.compare-recent-link {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+    min-width: 0;
+    color: var(--ink);
+    text-decoration: none;
+}
+
+.compare-recent-link img {
+    width: 100%;
+    height: 110px;
+    object-fit: contain;
+    margin-block-end: var(--s1);
+}
+
+.compare-recent-brand {
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    color: var(--ink-faint);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.compare-recent-name {
+    font-size: var(--fs-sm);
+    font-weight: 700;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.compare-recent-link:hover .compare-recent-name {
+    color: var(--accent);
+}
+
+.compare-recent-add {
+    width: 100%;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .compare-recent-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 /* Tekli sade değerlendirme çubuğu */
@@ -4143,6 +4486,12 @@ body:has(.compare-bar) {
     justify-content: center;
 }
 
+/* Birden çok cinsiyet seçiliyken simgeler küçülür ve yan yana durur; 38px'lik düğmeden taşmaz. */
+.gender-ico-multi {
+    font-size: 0.95rem;
+    gap: 1px;
+}
+
 .gender-menu {
     position: absolute;
     top: calc(100% + 6px);
@@ -4168,21 +4517,6 @@ body:has(.compare-bar) {
     color: var(--ink-faint);
     text-transform: uppercase;
     letter-spacing: 0.04em;
-}
-
-.gender-reset-btn {
-    background: none;
-    border: none;
-    padding: 0;
-    font-size: var(--fs-xs);
-    font-weight: 600;
-    color: var(--accent);
-    cursor: pointer;
-    text-transform: none;
-}
-
-.gender-reset-btn:hover {
-    text-decoration: underline;
 }
 
 .gender-options-list {
@@ -4346,6 +4680,45 @@ body:has(.compare-bar) {
 .google-btn:hover {
     border-color: var(--ink-faint);
     box-shadow: 0 2px 8px rgb(0 0 0 / 0.06);
+}
+
+/* Facebook giriş düğmesi: Google'ın 260x40 düğmesiyle aynı ölçü.
+   Renkler jetondan gelir; koyu temada yalnızca jeton değişir. */
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--s2);
+    width: 260px;
+    max-width: 100%;
+    height: 40px;
+    border: 1px solid var(--social-border);
+    border-radius: var(--radius);
+    background: var(--social-bg);
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: var(--social-fg);
+}
+
+.social-btn-icon {
+    width: 18px;
+    height: 18px;
+    flex: none;
+}
+
+.social-btn:hover:not([disabled]) {
+    filter: brightness(1.12);
+}
+
+.social-btn[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.social-btn-facebook {
+    --social-bg: var(--brand-facebook-bg);
+    --social-fg: var(--brand-facebook-fg);
+    --social-border: var(--brand-facebook-bg);
 }
 
 .dev-login-btn {
@@ -4917,38 +5290,12 @@ body:has(.compare-bar) {
     white-space: nowrap;
 }
 
-.login-card {
-    max-width: 46ch;
-    margin-inline: auto;
-    margin-block: var(--s7);
-    padding: var(--s6);
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius-lg);
-    text-align: center;
-}
-
-.login-card .page-title {
-    margin-block-end: var(--s2);
-}
-
 .login-actions-col {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: var(--s4);
     margin-block-start: var(--s5);
-}
-
-.login-actions {
-    display: flex;
-    justify-content: center;
-    gap: var(--s3);
-    margin-block-start: var(--s4);
-}
-
-.login-signed-in {
-    margin-block-start: var(--s4);
 }
 
 /* Yorum kutusunun yerinde duran giriş linki */
@@ -5327,20 +5674,37 @@ body.dark-mode .brand-logo {
 .quick-filters {
     display: flex;
     flex-direction: column;
-    gap: var(--s2);
+    gap: var(--s4);
 }
 
 .quick-filter-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: var(--s2);
 }
 
 .quick-filter-row-label {
-    align-self: center;
-    font-size: var(--fs-xs);
-    color: var(--ink-soft);
-    margin-inline-end: 0.25rem;
+    display: flex;
+    align-items: center;
+    gap: var(--s3);
+    font-size: var(--fs-sm);
+    font-weight: 700;
+    color: var(--ink);
+}
+
+.quick-filter-row-label::before,
+.quick-filter-row-label::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--line);
+}
+
+.quick-filter-row-chips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--s2);
 }
 
 .chip-active {
@@ -5809,6 +6173,13 @@ a.facet-tile:hover {
     flex-direction: column;
     gap: 2.25rem;
     margin-block-end: 3rem;
+}
+
+/* H1 ve slider tek grup: aralarındaki boşluk bölümler arasındaki boşluktan çok daha küçük. */
+.home-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
 }
 
 /* --- Standard Bootstrap Badges -------------------------------------------- */
@@ -6347,10 +6718,10 @@ body.dark-mode .card-rating-badge {
     position: relative;
     isolation: isolate;
     border-radius: var(--radius-lg);
-    padding: 1rem 1.25rem;
+    padding: 1.25rem 1.5rem;
     color: #FFFFFF;
-    /* Bilgi portalı düzeni: alçak bir şerit, kapak görseli değil. Metin görselin üstünde koyu degrade ile okunur. */
-    min-height: 190px;
+    /* Bilgi portalı düzeni: kısa bir şerit. Kapak görseli üstte ve sağda açık kalır, metin altta koyu degradeyle okunur. */
+    min-height: 260px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -6384,45 +6755,23 @@ body.dark-mode .card-rating-badge {
     z-index: 0;
     pointer-events: none;
     background:
-        linear-gradient(to right, rgb(8 12 11 / 0.88) 0%, rgb(8 12 11 / 0.45) 55%, rgb(8 12 11 / 0.15) 100%),
-        linear-gradient(to top, rgb(8 12 11 / 0.85) 0%, rgb(8 12 11 / 0.35) 55%, rgb(8 12 11 / 0.12) 100%);
+        linear-gradient(to right, rgb(8 12 11 / 0.7) 0%, rgb(8 12 11 / 0.28) 55%, rgb(8 12 11 / 0) 100%),
+        linear-gradient(to top, rgb(8 12 11 / 0.82) 0%, rgb(8 12 11 / 0.4) 40%, rgb(8 12 11 / 0) 70%);
 }
 
 .hero-blog-content {
     position: relative;
     z-index: 1;
-    max-width: 780px;
-}
-
-.hero-blog-meta {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    font-size: var(--fs-xs);
-    color: #D3DBD8;
-    margin-bottom: 0.35rem;
-}
-
-.hero-blog-badge {
-    background: rgb(255 255 255 / 0.16);
-    color: #FFFFFF;
-    border: 1px solid rgb(255 255 255 / 0.34);
-    padding: 0.15rem 0.5rem;
-    border-radius: 9999px;
-    font-weight: 700;
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
+    max-width: 960px;
 }
 
 .hero-blog-title {
-    font-size: clamp(1.05rem, 0.95rem + 0.5vw, 1.35rem);
+    font-size: clamp(1.1rem, 0.95rem + 0.7vw, 1.6rem);
     font-weight: 700;
     color: #FFFFFF;
     line-height: 1.25;
     letter-spacing: -0.01em;
-    margin: 0 0 0.3rem;
+    margin: 0 0 0.4rem;
     text-shadow: 0 2px 14px rgb(0 0 0 / 0.45);
 }
 
@@ -6440,30 +6789,11 @@ body.dark-mode .card-rating-badge {
     color: #E2E8E5;
     line-height: 1.5;
     max-width: 700px;
-    margin: 0 0 0.6rem;
+    margin: 0 0 1.5rem;
     display: -webkit-box;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-}
-
-.hero-blog-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: var(--accent);
-    color: var(--accent-contrast);
-    font-weight: 600;
-    font-size: var(--fs-xs);
-    padding: 0.35rem 0.85rem;
-    border-radius: var(--radius);
-    text-decoration: none;
-    transition: background 0.15s ease;
-    align-self: flex-start;
-}
-
-.hero-blog-btn:hover {
-    background: var(--accent-hover);
 }
 
 .hero-blog-nav {
@@ -6472,9 +6802,9 @@ body.dark-mode .card-rating-badge {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background: rgb(255 255 255 / 0.16);
+    background: rgb(8 12 11 / 0.5);
     backdrop-filter: blur(6px);
-    border: 1px solid rgb(255 255 255 / 0.28);
+    border: 1px solid rgb(255 255 255 / 0.4);
     color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -6485,7 +6815,7 @@ body.dark-mode .card-rating-badge {
 }
 
 .hero-blog-nav:hover {
-    background: rgb(255 255 255 / 0.32);
+    background: rgb(8 12 11 / 0.75);
 }
 
 .hero-blog-prev { inset-inline-end: calc(1.25rem + 40px); }
@@ -6578,12 +6908,18 @@ body.dark-mode .card-rating-badge {
 
 @media (max-width: 768px) {
     .hero-blog-slider {
-        min-height: 200px;
+        min-height: 220px;
         padding: 0.85rem 1rem 2.75rem;
     }
-    .hero-blog-nav {
-        display: none;
+    .hero-blog-excerpt {
+        margin-bottom: 0.25rem;
     }
+    .hero-blog-nav {
+        top: auto;
+        bottom: 0.1rem;
+    }
+    .hero-blog-prev { inset-inline: 0.75rem auto; }
+    .hero-blog-next { inset-inline: auto 0.75rem; }
     .hero-blog-dots {
         bottom: 0.35rem;
         inset-inline: 0;
@@ -7524,4 +7860,420 @@ body.dark-mode .buy-store-card:hover {
     }
 }
 
+/* ==========================================================================
+   Parfüm Danışmanı (Bana Parfüm Öner) Modal Stilleri
+   ========================================================================== */
 
+.nav-btn-advisor {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-family: inherit;
+    color: var(--accent);
+    padding: 0;
+}
+
+.nav-btn-advisor:hover {
+    color: var(--accent-hover);
+}
+
+.mobile-advisor-btn {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    color: var(--accent);
+}
+
+.advisor-modal-card {
+    max-width: 680px;
+}
+
+.advisor-intro-text {
+    font-size: var(--fs-sm);
+    color: var(--ink-muted);
+    line-height: 1.5;
+    background: var(--surface-alt);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    padding: 0.75rem 1rem;
+}
+
+.advisor-segmented-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.advisor-seg-btn {
+    padding: 0.45rem 0.9rem;
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--line);
+    background: var(--surface-alt);
+    color: var(--ink-muted);
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.advisor-seg-btn:hover {
+    border-color: var(--accent);
+    color: var(--ink);
+}
+
+.advisor-seg-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #ffffff;
+}
+
+.advisor-tag-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.advisor-tag-btn {
+    padding: 0.4rem 0.75rem;
+    font-size: var(--fs-xs);
+    font-weight: 500;
+    border-radius: 9999px;
+    border: 1px solid var(--line);
+    background: var(--surface-alt);
+    color: var(--ink-muted);
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.advisor-tag-btn:hover {
+    border-color: var(--line-strong);
+    color: var(--ink);
+}
+
+.advisor-tag-btn.active {
+    background: var(--surface-tint);
+    border-color: var(--accent);
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.advisor-submit-wrap {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--line);
+}
+
+.advisor-submit-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    padding: 0.65rem 1.25rem;
+    border-radius: var(--radius-md);
+}
+
+.advisor-login-box,
+.advisor-loading-box {
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.advisor-icon-circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--surface-tint);
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.advisor-login-box h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 0;
+}
+
+.advisor-login-box p {
+    font-size: var(--fs-sm);
+    color: var(--ink-muted);
+    max-width: 440px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.advisor-spin {
+    animation: advisorSpin 2s linear infinite;
+    color: var(--accent);
+}
+
+@keyframes advisorSpin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Sonuç Kartı ve Mektup */
+.advisor-result-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.advisor-quota-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.85rem;
+    background: var(--surface-tint);
+    border: 1px solid var(--accent);
+    border-radius: var(--radius-sm);
+    color: var(--accent);
+    font-size: var(--fs-xs);
+    font-weight: 600;
+}
+
+.advisor-perfume-card {
+    display: flex;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    background: var(--surface-alt);
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius-md);
+    align-items: center;
+}
+
+.advisor-perfume-img {
+    width: 100px;
+    height: 120px;
+    object-fit: contain;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    padding: 0.5rem;
+    flex-shrink: 0;
+}
+
+.advisor-perfume-noimg {
+    width: 100px;
+    height: 120px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ink-faint);
+    flex-shrink: 0;
+}
+
+.advisor-perfume-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    flex-grow: 1;
+}
+
+.advisor-brand-name {
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    letter-spacing: 0.04em;
+}
+
+.advisor-perfume-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 0;
+}
+
+.advisor-meta-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.2rem;
+}
+
+.advisor-pill {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.2rem 0.55rem;
+    border-radius: var(--radius-sm);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--ink-muted);
+}
+
+.advisor-pill.highlight {
+    background: var(--surface-tint);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.advisor-pill.rating {
+    background: rgb(245 158 11 / 0.15);
+    border-color: rgb(245 158 11 / 0.4);
+    color: rgb(217 119 6);
+}
+
+.advisor-detail-link {
+    margin-top: 0.6rem;
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.advisor-letter {
+    background: var(--surface-alt);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    padding: 1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.advisor-letter-header {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--accent);
+    font-size: var(--fs-sm);
+}
+
+.advisor-letter-content {
+    font-size: var(--fs-sm);
+    color: var(--ink);
+    line-height: 1.65;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+.advisor-footer-note {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--fs-xs);
+    color: var(--ink-faint);
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--line);
+}
+
+@media (max-width: 600px) {
+    .advisor-perfume-card {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .advisor-detail-link {
+        align-self: center;
+    }
+    .advisor-meta-pills {
+        justify-content: center;
+    }
+}
+
+
+
+
+/* --- hukuki metin sayfaları (gizlilik politikası) ---------------------------- */
+.legal-page {
+    max-width: 78ch;
+    margin-block: var(--s5) var(--s7);
+    color: var(--ink-soft);
+    font-size: var(--fs-md);
+    line-height: 1.7;
+}
+
+.legal-page h2 {
+    margin-block: var(--s6) var(--s2);
+    font-size: var(--fs-lg);
+    color: var(--ink);
+}
+
+.legal-page p,
+.legal-page ul {
+    margin-block: 0 var(--s3);
+}
+
+.legal-page ul {
+    padding-inline-start: 1.25rem;
+}
+
+.legal-page li {
+    margin-block-end: var(--s2);
+}
+
+.legal-page a {
+    color: var(--link);
+    overflow-wrap: anywhere;
+}
+
+.legal-page strong {
+    color: var(--ink);
+}
+
+/* --- giriş penceresi ---------------------------------------------------------- */
+/* Parfüm danışmanı ve değerlendirme pencereleri (z-index 900) açıkken de üstte durur. */
+.login-modal-overlay {
+    z-index: 1000;
+}
+
+.login-modal-card {
+    max-width: 420px;
+}
+
+.login-modal-body {
+    padding: var(--s5);
+    text-align: center;
+}
+
+.login-modal-body .login-actions-col {
+    margin-block-start: var(--s4);
+}
+
+.login-modal-note {
+    margin-block: var(--s4) 0;
+    font-size: var(--fs-xs);
+    color: var(--ink-faint);
+}
+
+.login-modal-note a {
+    color: var(--link);
+    text-decoration: underline;
+}
+
+/* Giriş isteyen satır içi düğme: link gibi görünür */
+button.link-more {
+    padding: 0;
+    border: 0;
+    background: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+button.link-more:hover {
+    text-decoration: underline;
+}

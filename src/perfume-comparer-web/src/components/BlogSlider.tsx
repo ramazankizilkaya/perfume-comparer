@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Icon from "./Icon";
-import { formatDate, API_BASE, mediaUrl, blogHref } from "@/lib/urls";
+import { mediaUrl, blogHref } from "@/lib/urls";
 
 export interface BlogPost {
     id: number;
@@ -108,19 +108,10 @@ export default function BlogSlider({ blogs }: { blogs: BlogPost[] }) {
 
             <div className="hero-blog-slide">
                 <div className="hero-blog-content">
-                    <div className="hero-blog-meta">
-                        <span className="hero-blog-badge">Öne çıkan rehber</span>
-                        <span className="hero-blog-author">{current.authorName}</span>
-                        <span>•</span>
-                        <span>{formatDate(current.publishedAt)}</span>
-                    </div>
                     <Link href={blogHref(current.slug)} className="hero-blog-title-link">
                         <h2 className="hero-blog-title">{current.title}</h2>
                     </Link>
                     <p className="hero-blog-excerpt">{current.excerpt}</p>
-                    <Link href={blogHref(current.slug)} className="hero-blog-btn">
-                        Yazıyı Oku <Icon name="arrow-right" size={14} />
-                    </Link>
                 </div>
             </div>
 

@@ -111,7 +111,7 @@ export default function PerfumeWhereToBuySection({
         {
             id: "pazaryerleri",
             title: `Pazaryerlerinde ${fullName} Fiyatları ve Kampanyaları`,
-            seoSubtitle: `Trendyol, Hepsiburada ve N11 üzerindeki farklı satıcıların ${fullName} teklifleri ve kullanıcı yorumları`,
+            seoSubtitle: `Trendyol, Hepsiburada, N11 ve Amazon Türkiye üzerindeki farklı satıcıların ${fullName} teklifleri ve kullanıcı yorumları`,
             icon: "🛍️",
             stores: [
                 {
@@ -128,6 +128,11 @@ export default function PerfumeWhereToBuySection({
                     name: "N11",
                     url: `https://www.n11.com/arama?q=${encoded}`,
                     logoUrl: "/stores/same-size-logos/n11.webp",
+                },
+                {
+                    name: "Amazon Türkiye",
+                    url: `https://www.amazon.com.tr/s?k=${encoded}`,
+                    logoUrl: "/stores/same-size-logos/amazon.webp",
                 },
                 {
                     name: "Çiçeksepeti",

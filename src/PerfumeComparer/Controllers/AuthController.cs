@@ -14,12 +14,18 @@ public class AuthController(
     AppDbContext db,
     ITokenService tokens,
     IConfiguration config,
-    IWebHostEnvironment env) : ControllerBase
+    IWebHostEnvironment env,
+    IFacebookLoginVerifier facebook) : ControllerBase
 {
+    private enum LoginProvider { Google, Facebook }
+
     public record UserDto(int Id, string Email, string? Name, string? Picture, string Role);
     public record AuthResponse(string Token, UserDto User);
 
     public record GoogleLoginRequest(string Credential);
+
+    /// <param name="Credential">Facebook SDK'sının verdiği kullanıcı erişim jetonu.</param>
+    public record FacebookLoginRequest(string Credential);
 
     /// <param name="Admin">Development'ta kullanıcıya Admin rolü verir (/tr/admin sayfası için).</param>
     public record DevLoginRequest(string? Name, string? Email, bool? Admin = null);
@@ -52,7 +58,22 @@ public class AuthController(
         if (!payload.EmailVerified)
             return Unauthorized(new { message = "Google hesabınızın e-postası doğrulanmamış." });
 
-        var user = await UpsertAsync(payload.Subject, payload.Email, payload.Name, payload.Picture, makeAdmin: false, ct);
+        var user = await UpsertAsync(LoginProvider.Google, payload.Subject, payload.Email, payload.Name, payload.Picture, makeAdmin: false, ct);
+        return Ok(new AuthResponse(tokens.Issue(user), ToDto(user)));
+    }
+
+    /// <summary>Facebook ile giriş: kullanıcı erişim jetonu Graph API'de doğrulanır.</summary>
+    [HttpPost("facebook")]
+    public async Task<IActionResult> Facebook([FromBody] FacebookLoginRequest req, CancellationToken ct)
+    {
+        if (string.IsNullOrWhiteSpace(req.Credential))
+            return BadRequest(new { message = "credential zorunludur." });
+
+        var identity = await facebook.VerifyAsync(req.Credential, ct);
+        if (identity is null)
+            return Unauthorized(new { message = "Facebook kimliği doğrulanamadı." });
+
+        var user = await UpsertAsync(LoginProvider.Facebook, identity.Subject, identity.Email, identity.Name, identity.Picture, makeAdmin: false, ct);
         return Ok(new AuthResponse(tokens.Issue(user), ToDto(user)));
     }
 
@@ -73,7 +94,7 @@ public class AuthController(
             : req!.Email!.Trim();
         var sub = "dev|" + email.ToLowerInvariant();
 
-        var user = await UpsertAsync(sub, email, name, picture: null, makeAdmin: req?.Admin == true, ct);
+        var user = await UpsertAsync(LoginProvider.Google, sub, email, name, picture: null, makeAdmin: req?.Admin == true, ct);
         return Ok(new AuthResponse(tokens.Issue(user), ToDto(user)));
     }
 
@@ -88,9 +109,16 @@ public class AuthController(
         return user is null ? Unauthorized() : Ok(ToDto(user));
     }
 
-    private async Task<AppUser> UpsertAsync(string sub, string? email, string? name, string? picture, bool makeAdmin, CancellationToken ct)
+    private async Task<AppUser> UpsertAsync(LoginProvider provider, string sub, string? email, string? name, string? picture, bool makeAdmin, CancellationToken ct)
     {
-        var user = await db.Users.FirstOrDefaultAsync(u => u.GoogleSubjectId == sub, ct);
+        var bySubject = provider switch
+        {
+            LoginProvider.Facebook => db.Users.Where(u => u.FacebookSubjectId == sub),
+            _ => db.Users.Where(u => u.GoogleSubjectId == sub),
+        };
+        var user = await bySubject.FirstOrDefaultAsync(ct);
+
+        // Sağlayıcı e-posta verdiyse aynı e-postalı hesaba bağlanır.
         if (user is null && !string.IsNullOrWhiteSpace(email))
             user = await db.Users.FirstOrDefaultAsync(u => u.Email == email, ct);
 
@@ -98,18 +126,19 @@ public class AuthController(
         {
             user = new AppUser
             {
-                Email = email ?? $"{sub}@unknown.local",
+                // Facebook e-posta vermeyebilir; hesap yine de benzersiz bir adresle açılır.
+                Email = string.IsNullOrWhiteSpace(email) ? $"{provider.ToString().ToLowerInvariant()}.{sub}@unknown.local" : email,
                 DisplayName = name,
-                GoogleSubjectId = sub,
                 AvatarUrl = picture,
                 Role = UserRole.User,
                 CreatedAt = DateTimeOffset.UtcNow,
             };
+            BindSubject(user, provider, sub);
             db.Users.Add(user);
         }
         else
         {
-            user.GoogleSubjectId ??= sub;
+            BindSubject(user, provider, sub);
             if (!string.IsNullOrWhiteSpace(name)) user.DisplayName = name;
             if (!string.IsNullOrWhiteSpace(picture)) user.AvatarUrl = picture;
         }
@@ -121,6 +150,16 @@ public class AuthController(
 
         await db.SaveChangesAsync(ct);
         return user;
+    }
+
+    /// <summary>Sağlayıcı kimliğini kullanıcıya yazar; daha önce bağlanmış bir kimliğin üzerine yazmaz.</summary>
+    private static void BindSubject(AppUser user, LoginProvider provider, string sub)
+    {
+        switch (provider)
+        {
+            case LoginProvider.Facebook: user.FacebookSubjectId ??= sub; break;
+            default: user.GoogleSubjectId ??= sub; break;
+        }
     }
 
     private bool IsConfiguredAdmin(string email) =>

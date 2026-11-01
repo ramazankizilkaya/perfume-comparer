@@ -22,10 +22,9 @@ try
 {
     var builder = WebApplication.CreateBuilder(args);
 
-    // Backend sırları (API anahtarları, bağlantı dizesi, JWT secret) git'e girmesin
-    // diye .gitignore'lu appsettings.Local.json'dan okunur; şablonu
-    // appsettings.Local.example.json. Ortam değişkenleri en sonda eklenir ki
-    // deploy'da dosya olmadan da her ayar ezilebilsin.
+    // Backend sırları kök .env dosyasından ve appsettings.Local.json'dan okunur.
+    // Ortam değişkenleri en sonda eklenir ki deploy'da her ayar ezilebilsin.
+    LoadRootDotEnv(builder.Environment.ContentRootPath);
     builder.Configuration.AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true);
     builder.Configuration.AddEnvironmentVariables();
 
@@ -44,7 +43,8 @@ try
         .AddJsonOptions(options =>
             options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
 
-    builder.Services.AddOpenApi();
+    if (builder.Environment.IsDevelopment())
+        builder.Services.AddOpenApi();
 
     // DbContext
     var connectionString = builder.Configuration.GetConnectionString("Default")
@@ -61,14 +61,18 @@ try
     builder.Services.AddScoped<ICatalogService, CatalogService>();
     builder.Services.AddScoped<ISearchService, SearchService>();
     builder.Services.AddScoped<IUsageService, UsageService>();
+    builder.Services.AddScoped<IComparisonVoteService, ComparisonVoteService>();
     builder.Services.AddScoped<ISitemapService, SitemapService>();
     builder.Services.AddScoped<ISeedService, SeedService>();
     builder.Services.AddSingleton<ITokenService, TokenService>();
+    builder.Services.AddSingleton<ICommentContentFilter, CommentContentFilter>();
+    builder.Services.AddSingleton<IFacebookLoginVerifier, FacebookLoginVerifier>();
     builder.Services.AddSingleton<IGeminiClient, GeminiClient>();
     builder.Services.AddSingleton<IAiRequestGate, AiRequestGate>();
     builder.Services.AddSingleton<MediaPaths>();
     builder.Services.AddScoped<IAiSearchPlanner, AiSearchPlanner>();
     builder.Services.AddScoped<ICompareAiService, CompareAiService>();
+    builder.Services.AddScoped<IPerfumeAdvisorService, PerfumeAdvisorService>();
     builder.Services.AddMemoryCache();
 
     // AI özetleri: arka plan işi belirli aralıklarla yorumları özetleyip
@@ -352,6 +356,67 @@ static void ValidateProductionConfig(IConfiguration config)
     if (string.IsNullOrWhiteSpace(config["Google:ClientId"]))
         errors.Add("Google:ClientId tanımlı değil (Google__ClientId; NEXT_PUBLIC_GOOGLE_CLIENT_ID ile aynı değer).");
 
+    // Facebook isteğe bağlıdır; ama yarım ayar sessizce "giriş çalışmıyor"a dönüşür.
+    if (!string.IsNullOrWhiteSpace(config["Facebook:AppId"]) && string.IsNullOrWhiteSpace(config["Facebook:AppSecret"]))
+        errors.Add("Facebook:AppId tanımlı ama Facebook:AppSecret yok (Facebook__AppSecret).");
+
+    if (string.IsNullOrWhiteSpace(config["Api:InternalKey"]))
+        errors.Add("Api:InternalKey tanımlı değil (Api__InternalKey; Next.js API_INTERNAL_KEY ile aynı değer).");
+
+    var origins = config.GetSection("Cors:AllowedOrigins").Get<string[]>() ?? [];
+    if (origins.Length == 0 || origins.All(string.IsNullOrWhiteSpace))
+        errors.Add("Cors:AllowedOrigins tanımlı değil (tarayıcıdan API erişimi için site alan adları eklenmeli).");
+
     if (errors.Count > 0)
         throw new InvalidOperationException("Üretim yapılandırması eksik:\n - " + string.Join("\n - ", errors));
+}
+
+/// <summary>
+/// Kök dizindeki .env dosyasını bularak ortam değişkenlerine yükler.
+/// </summary>
+static void LoadRootDotEnv(string contentRoot)
+{
+    var current = new DirectoryInfo(contentRoot);
+    string? envFile = null;
+
+    for (int i = 0; i < 5 && current != null; i++)
+    {
+        var candidate = Path.Combine(current.FullName, ".env");
+        if (File.Exists(candidate))
+        {
+            envFile = candidate;
+            break;
+        }
+        current = current.Parent;
+    }
+
+    if (envFile == null) return;
+
+    try
+    {
+        foreach (var raw in File.ReadAllLines(envFile))
+        {
+            var line = raw.Trim();
+            if (line.StartsWith("export ")) line = line[7..].Trim();
+            if (string.IsNullOrEmpty(line) || line.StartsWith('#')) continue;
+
+            var eq = line.IndexOf('=');
+            if (eq <= 0) continue;
+
+            var key = line[..eq].Trim();
+            var val = line[(eq + 1)..].Trim();
+
+            if (val.Length >= 2 && (val.StartsWith('"') && val.EndsWith('"') || val.StartsWith('\'') && val.EndsWith('\'')))
+                val = val[1..^1];
+
+            if (!string.IsNullOrEmpty(key) && Environment.GetEnvironmentVariable(key) == null)
+            {
+                Environment.SetEnvironmentVariable(key, val);
+            }
+        }
+    }
+    catch
+    {
+        // sessizce geç
+    }
 }

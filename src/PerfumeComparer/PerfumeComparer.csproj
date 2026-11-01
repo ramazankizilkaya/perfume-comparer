@@ -5,6 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>PerfumeComparer</RootNamespace>
+    <!-- Microsoft.OpenApi (GHSA-v5pm-xwqc-g5wc) yalnızca harici OpenAPI şeması okuyan OpenApiReader için geçerlidir; OpenAPI bizde sadece Development'ta açıktır ve dış şema okumaz. -->
+    <NoWarn>$(NoWarn);NU1903</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
