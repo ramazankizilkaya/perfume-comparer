@@ -7,6 +7,7 @@ import { openLogin } from "@/lib/loginModal";
 import { API_BASE, formatDate } from "@/lib/urls";
 import { useAuth } from "@/lib/stores";
 import { toast } from "@/lib/toast";
+import { onCommentsChanged } from "@/lib/commentsRefresh";
 
 /** Yorum gövdesi veritabanında 4000 karakterle sınırlı; daha uzun metin API'den 400 döner. */
 const COMMENT_MAX = 4000;
@@ -67,6 +68,21 @@ export default function PerfumeCommentsSection({
             })();
         }
     }, [slug, comments]);
+
+    // Değerlendirme penceresinden yorum gelince liste önbelleği beklemeden yeniden çekilir.
+    useEffect(
+        () =>
+            onCommentsChanged(async (changed) => {
+                if (changed !== slug) return;
+                try {
+                    const fresh = await fetch(`${API_BASE}/api/perfumes/${slug}/comments`, { cache: "no-store" });
+                    if (fresh.ok) setComments(await fresh.json());
+                } catch {
+                    /* liste yenilenemezse sayfa yenilenince gelir */
+                }
+            }),
+        [slug],
+    );
 
     const submitComment = async (e: FormEvent) => {
         e.preventDefault();
@@ -143,13 +159,15 @@ export default function PerfumeCommentsSection({
                             maxLength={COMMENT_MAX}
                             required
                         />
+                    </div>
+                    <div className="comment-form-actions">
+                        <button className="btn btn-primary" disabled={sending || !user}>
+                            <Icon name="send" size={14} /> Gönder
+                        </button>
                         <span className="muted char-counter" style={{ fontSize: "var(--fs-xs)" }}>
                             {commentText.length} / {COMMENT_MAX}
                         </span>
                     </div>
-                    <button className="btn btn-primary" disabled={sending || !user}>
-                        <Icon name="send" size={14} /> Gönder
-                    </button>
                     {commentStatus && <p className={`form-note ${commentStatus === "Yorumunuz eklendi." ? "ok" : "err"}`}>{commentStatus}</p>}
                 </form>
             </div>

@@ -27,6 +27,10 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
     /// <summary>Kartta gösterilen ana akor sayısı.</summary>
     private const int CardAccordCount = 3;
 
+    /// <summary>"votes" ve "comments" sıralamalarında güncel sayılan etkileşim penceresi.
+    /// Bu pencerede etkileşim alan parfümler önce gelir; kalan yer eski ölçütle dolar.</summary>
+    private const int RecentInteractionDays = 30;
+
     public async Task<PerfumeDetailDto?> GetPerfumeDetailAsync(string slug, CancellationToken ct = default)
     {
         var perfume = await uow.GetRepository<Perfume>()
@@ -57,9 +61,19 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
             return perfume.ViewCount;
 
         var viewRepo = uow.GetRepository<PerfumeView>();
-        var alreadyViewed = await viewRepo.AnyAsync(v => v.PerfumeId == perfume.Id && v.IpAddress == ipAddress, ct);
-        if (alreadyViewed)
+        var existing = await viewRepo.FirstOrDefaultAsync(v => v.PerfumeId == perfume.Id && v.IpAddress == ipAddress, ct);
+        if (existing is not null)
+        {
+            // Sayaç artmaz ama son görüntüleme zamanı tazelenir: "trending" sıralaması
+            // son 7 günde parfümü açan farklı IP'leri bu zamana bakarak sayar.
+            // Günde en fazla bir yazma olsun diye 1 günden eski kayıtlar güncellenir.
+            if (existing.ViewedAt < DateTimeOffset.UtcNow.AddDays(-1))
+            {
+                existing.ViewedAt = DateTimeOffset.UtcNow;
+                await uow.SaveChangesAsync();
+            }
             return perfume.ViewCount;
+        }
 
         try
         {
@@ -95,13 +109,39 @@ public class CatalogService(IUnitOfWork uow) : ICatalogService
                                  .ThenByDescending(p => p.RatingCount);
                     break;
                 case "votes":
-                    query = query.OrderByDescending(p => p.RatingCount)
+                {
+                    // Önce son 30 günde sitemizde puan alanlar, kalan yer Fragrantica oy sayısıyla dolar.
+                    var since = DateTimeOffset.UtcNow.AddDays(-RecentInteractionDays);
+                    query = query.OrderByDescending(p => uow.GetRepository<Rating>().AsNoTracking()
+                                     .Count(r => r.PerfumeId == p.Id && (r.CreatedAt >= since || r.UpdatedAt >= since)))
+                                 .ThenByDescending(p => p.RatingCount)
                                  .ThenByDescending(p => p.AvgRating);
                     break;
+                }
                 case "comments":
-                    query = query.OrderByDescending(p => p.UserRatingCount)
+                {
+                    // Önce son 30 günün onaylı yorum sayısı, sonra tüm zamanların yorum sayısı,
+                    // kalan yer Fragrantica oy sayısıyla dolar. AI özetleri yorum sayılmaz.
+                    var since = DateTimeOffset.UtcNow.AddDays(-RecentInteractionDays);
+                    query = query.OrderByDescending(p => uow.GetRepository<PerfumeComment>().AsNoTracking()
+                                     .Count(c => c.PerfumeId == p.Id && c.Status == ModerationStatus.Approved && !c.IsAiSummary && c.CreatedAt >= since))
+                                 .ThenByDescending(p => uow.GetRepository<PerfumeComment>().AsNoTracking()
+                                     .Count(c => c.PerfumeId == p.Id && c.Status == ModerationStatus.Approved && !c.IsAiSummary))
                                  .ThenByDescending(p => p.RatingCount);
                     break;
+                }
+                case "trending":
+                {
+                    // Önce son 7 günde parfümü açan farklı IP sayısı (bkz. RecordViewAsync);
+                    // ziyaret almayanlar tüm zamanların ziyareti ve Fragrantica oy sayısıyla sıralanıp kalan yeri doldurur.
+                    var since = DateTimeOffset.UtcNow.AddDays(-7);
+                    query = query.OrderByDescending(p => uow.GetRepository<PerfumeView>().AsNoTracking()
+                                     .Count(v => v.PerfumeId == p.Id && v.ViewedAt >= since))
+                                 .ThenByDescending(p => p.ViewCount)
+                                 .ThenByDescending(p => p.RatingCount)
+                                 .ThenBy(p => p.Name);
+                    break;
+                }
                 case "newest":
                     query = query.Where(p => p.ReleaseYear != null && p.ReleaseYear > 0)
                                  .OrderByDescending(p => p.ReleaseYear)

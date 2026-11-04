@@ -45,6 +45,7 @@ public class BlogController(AppDbContext db, ITokenService tokens) : ControllerB
                 b.Slug,
                 b.Excerpt,
                 b.CoverImageUrl,
+                b.Category,
                 b.ViewCount,
                 b.PublishedAt,
                 AuthorName = b.Author.DisplayName ?? b.Author.Email
@@ -112,6 +113,7 @@ public class BlogController(AppDbContext db, ITokenService tokens) : ControllerB
             post.Body,
             post.Excerpt,
             post.CoverImageUrl,
+            post.Category,
             post.ViewCount,
             post.PublishedAt,
             AuthorName = post.Author.DisplayName ?? post.Author.Email,

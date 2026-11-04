@@ -1,127 +1,101 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
-import Icon from "./Icon";
+import { useEffect, useState } from "react";
 import { useGenderPref } from "@/lib/stores";
+import { closeGenderPrompt, useGenderPromptOpen } from "@/lib/genderPrompt";
 
-const GENDER_OPTIONS: { key: "erkek" | "kadin" | "unisex"; label: string; ico: string }[] = [
+type GenderKey = "erkek" | "kadin" | "unisex";
+
+const GENDER_OPTIONS: { key: GenderKey; label: string; ico: string }[] = [
     { key: "erkek", label: "Erkek", ico: "♂" },
     { key: "kadin", label: "Kadın", ico: "♀" },
     { key: "unisex", label: "Unisex", ico: "⚥" },
 ];
 
-/** Düğmede seçili cinsiyetlerin simgeleri yan yana durur; hiçbiri ya da üçü seçiliyse tek simge ("Hepsi") görünür. */
-function getButtonMeta(selected: string[]) {
-    if (selected.length === 0 || selected.length === 3) {
-        return { icos: ["⚥"], label: "Hepsi" };
-    }
-    const labels = selected.map((k) => (k === "erkek" ? "Erkek" : k === "kadin" ? "Kadın" : "Unisex"));
-    const icos = selected.map((k) => (k === "erkek" ? "♂" : k === "kadin" ? "♀" : "⚥"));
-    return { icos, label: labels.join(", ") };
-}
+/** Menülerdeki "Anasayfa Parfüm Tercihi" bağlantısının metni. */
+export const GENDER_PROMPT_LABEL = "Anasayfa Parfüm Tercihi";
 
-/** Mobilde cinsiyet tercihi başlıktaki düğme yerine hamburger menünün içinde çoklu seçimle yapılır. */
-export function MobileGenderOptions() {
-    const { selectedGenders, toggleGender } = useGenderPref();
+/**
+ * Anasayfa parfüm tercihi penceresi. Layout'ta tek kez durur; anasayfa ilk ziyarette
+ * (kayıtlı tercih yoksa), kullanıcı menüsü ve hamburger menü tıklanınca açar.
+ * İlk ziyarette seçim yapılmadan kapatılamaz; sonradan açıldığında Esc ya da dışına tıklama kapatır.
+ */
+export function GenderPrompt() {
+    const open = useGenderPromptOpen();
+    const { ready, asked, selectedGenders, setGender } = useGenderPref();
 
+    if (!open || !ready) return null;
+    // Pencere her açılışta yeniden kurulur; böylece kayıtlı seçim işaretli başlar.
     return (
-        <div className="mobile-menu-group" role="group" aria-label="Cinsiyet Tercihi">
-            <div className="mobile-menu-group-head">
-                <span className="mobile-menu-group-title">Cinsiyet Tercihi</span>
-            </div>
-            <div className="mobile-gender-chips">
-                {GENDER_OPTIONS.map((o) => {
-                    const isChecked = selectedGenders.includes(o.key);
-                    return (
-                        <button
-                            key={o.key}
-                            type="button"
-                            className={`mobile-gender-opt${isChecked ? " on" : ""}`}
-                            aria-pressed={isChecked}
-                            onClick={() => toggleGender(o.key)}
-                        >
-                            <span className="gender-ico">{o.ico}</span>
-                            <span>{o.label}</span>
-                        </button>
-                    );
-                })}
-            </div>
-        </div>
+        <GenderPromptDialog
+            initial={selectedGenders as GenderKey[]}
+            dismissible={asked}
+            onSave={(picked) => {
+                // Hiçbiri ya da üçü birden seçiliyse tercih "Hepsi" olarak kaydedilir.
+                setGender(picked.length > 0 ? picked.join(",") : null);
+                closeGenderPrompt();
+            }}
+        />
     );
 }
 
-export default function GenderControl() {
-    const { selectedGenders, toggleGender } = useGenderPref();
-    const [open, setOpen] = useState(false);
-    const [flash, setFlash] = useState(false);
-
-    const boxRef = useRef<HTMLDivElement>(null);
-    const btnRef = useRef<HTMLButtonElement>(null);
+function GenderPromptDialog({
+    initial,
+    dismissible,
+    onSave,
+}: {
+    initial: GenderKey[];
+    dismissible: boolean;
+    onSave: (picked: GenderKey[]) => void;
+}) {
+    const [picked, setPicked] = useState<GenderKey[]>(initial);
 
     useEffect(() => {
-        function onOutside(e: MouseEvent) {
-            if (boxRef.current && !boxRef.current.contains(e.target as Node)) setOpen(false);
-        }
-        document.addEventListener("mousedown", onOutside);
-        return () => document.removeEventListener("mousedown", onOutside);
-    }, []);
+        if (!dismissible) return;
+        const onKey = (e: KeyboardEvent) => {
+            if (e.key === "Escape") closeGenderPrompt();
+        };
+        document.addEventListener("keydown", onKey);
+        return () => document.removeEventListener("keydown", onKey);
+    }, [dismissible]);
 
-    const flashButton = () => {
-        setFlash(true);
-        window.setTimeout(() => setFlash(false), 1500);
-    };
-
-    const cur = getButtonMeta(selectedGenders);
+    const toggle = (k: GenderKey) =>
+        setPicked((prev) => (prev.includes(k) ? prev.filter((x) => x !== k) : [...prev, k]));
 
     return (
-        <div className="gender-control" ref={boxRef}>
-            <button
-                ref={btnRef}
-                className={`icon-btn gender-btn${flash ? " flash" : ""}`}
-                onClick={() => setOpen((o) => !o)}
-                aria-haspopup="dialog"
-                aria-expanded={open}
-                aria-label={`Cinsiyet tercihi: ${cur.label}`}
-                data-tooltip={`Cinsiyet: ${cur.label}`}
-            >
-                <span className={`gender-ico${cur.icos.length > 1 ? " gender-ico-multi" : ""}`}>
-                    {cur.icos.map((ico, i) => (
-                        <span key={i}>{ico}</span>
-                    ))}
-                </span>
-            </button>
-
-            {open && (
-                <div className="gender-menu" role="dialog" aria-label="Cinsiyet Filtresi">
-                    <div className="gender-menu-header">
-                        <span className="gender-menu-title">Cinsiyet Tercihi</span>
-                    </div>
-                    <div className="gender-options-list">
-                        {GENDER_OPTIONS.map((o) => {
-                            const isChecked = selectedGenders.includes(o.key);
-                            return (
-                                <label
-                                    key={o.key}
-                                    className={`gender-opt ${isChecked ? "on" : ""}`}
-                                >
-                                    <input
-                                        type="checkbox"
-                                        checked={isChecked}
-                                        onChange={() => {
-                                            toggleGender(o.key);
-                                            flashButton();
-                                        }}
-                                        className="gender-checkbox"
-                                    />
-                                    <span className="gender-ico">{o.ico}</span>
-                                    <span className="gender-opt-text">{o.label}</span>
-                                    {isChecked && <Icon name="check" size={13} className="gender-check" />}
-                                </label>
-                            );
-                        })}
-                    </div>
+        <div
+            className="modal-scrim"
+            onMouseDown={(e) => {
+                if (dismissible && e.target === e.currentTarget) closeGenderPrompt();
+            }}
+        >
+            <div className="modal gender-modal" role="dialog" aria-modal="true" aria-labelledby="gender-modal-title">
+                <h2 id="gender-modal-title" className="gender-modal-title">Anasayfada hangi tür parfümleri görmek istersiniz?</h2>
+                <p className="muted gender-modal-text">
+                    Anasayfadaki listeler seçiminize göre dolar. Birden fazla seçim yapabilirsiniz. Bu tercihi
+                    menüdeki &quot;{GENDER_PROMPT_LABEL}&quot; bağlantısından istediğiniz zaman değiştirebilirsiniz.
+                </p>
+                <div className="gender-choices">
+                    {GENDER_OPTIONS.map((o) => {
+                        const on = picked.includes(o.key);
+                        return (
+                            <button
+                                key={o.key}
+                                type="button"
+                                className={`gender-choice${on ? " on" : ""}`}
+                                aria-pressed={on}
+                                onClick={() => toggle(o.key)}
+                            >
+                                <span className="gender-choice-ico">{o.ico}</span>
+                                {o.label}
+                            </button>
+                        );
+                    })}
                 </div>
-            )}
+                <button type="button" className="btn btn-primary gender-modal-save" onClick={() => onSave(picked)}>
+                    {picked.length === 0 ? "Hepsini Göster" : "Devam Et"}
+                </button>
+            </div>
         </div>
     );
 }

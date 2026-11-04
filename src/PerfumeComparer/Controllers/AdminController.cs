@@ -1,7 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
+using PerfumeComparer.Business.Ai;
 using PerfumeComparer.Business.Services;
 using PerfumeComparer.Controllers.Filters;
 using PerfumeComparer.Data;
+using PerfumeComparer.Domain;
+using System;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -15,8 +18,92 @@ namespace PerfumeComparer.Controllers;
 [ApiController]
 [Route("api/admin")]
 [RequireAdmin]
-public class AdminController(ISeedService seeder, AiSummaryJob aiJob, IAiSummaryClient ai) : ControllerBase
+public class AdminController(
+    ISeedService seeder,
+    AiSummaryJob aiJob,
+    IAiSummaryClient ai,
+    IAiStatusSource aiStatus,
+    IAdminDashboardService dashboard) : ControllerBase
 {
+    // ------------------------------------------------------------ panel
+
+    /// <summary>Panel analitiği: ziyaretçi, yorum, danışman sayıları, günlük seri ve en çok ziyaret edilenler.</summary>
+    [HttpGet("analytics")]
+    public async Task<IActionResult> GetAnalytics([FromQuery] int days = 30, CancellationToken ct = default) =>
+        Ok(await dashboard.GetAnalyticsAsync(days, ct));
+
+    /// <summary>Blog yazıları (gövde dahil). <c>status</c>: Pending, Published, Rejected, Draft; boşsa hepsi.</summary>
+    [HttpGet("blogs")]
+    public async Task<IActionResult> GetBlogs([FromQuery] string? status, CancellationToken ct)
+    {
+        BlogPostStatus? parsed = null;
+        if (!string.IsNullOrWhiteSpace(status))
+        {
+            if (!Enum.TryParse<BlogPostStatus>(status, ignoreCase: true, out var s))
+                return BadRequest(new { message = "Geçersiz durum." });
+            parsed = s;
+        }
+        return Ok(await dashboard.GetBlogsAsync(parsed, ct));
+    }
+
+    /// <summary>Kullanıcı yorumları. <c>kind</c>: perfume | comparison; <c>status</c>: Approved | Rejected; boşsa hepsi.</summary>
+    [HttpGet("comments")]
+    public async Task<IActionResult> GetComments(
+        [FromQuery] string kind = AdminDashboardService.PerfumeKind,
+        [FromQuery] string? status = null,
+        [FromQuery] int take = 100,
+        CancellationToken ct = default)
+    {
+        if (!IsKnownKind(kind))
+            return BadRequest(new { message = "kind perfume ya da comparison olmalı." });
+
+        ModerationStatus? parsed = null;
+        if (!string.IsNullOrWhiteSpace(status))
+        {
+            if (!Enum.TryParse<ModerationStatus>(status, ignoreCase: true, out var s))
+                return BadRequest(new { message = "Geçersiz durum." });
+            parsed = s;
+        }
+        return Ok(await dashboard.GetCommentsAsync(kind, parsed, take, ct));
+    }
+
+    /// <summary>Yorumu sitede gizler (Rejected).</summary>
+    [HttpPost("comments/{kind}/{id:int}/hide")]
+    public Task<IActionResult> HideComment(string kind, int id, CancellationToken ct) =>
+        SetCommentStatus(kind, id, ModerationStatus.Rejected, "Yorum gizlendi.", ct);
+
+    /// <summary>Gizlenen yorumu yeniden yayına alır (Approved).</summary>
+    [HttpPost("comments/{kind}/{id:int}/restore")]
+    public Task<IActionResult> RestoreComment(string kind, int id, CancellationToken ct) =>
+        SetCommentStatus(kind, id, ModerationStatus.Approved, "Yorum yeniden yayında.", ct);
+
+    /// <summary>"Bana parfüm öner" kayıtları.</summary>
+    [HttpGet("recommendations")]
+    public async Task<IActionResult> GetRecommendations([FromQuery] int take = 100, CancellationToken ct = default) =>
+        Ok(await dashboard.GetRecommendationsAsync(take, ct));
+
+    private async Task<IActionResult> SetCommentStatus(string kind, int id, ModerationStatus status, string message, CancellationToken ct)
+    {
+        if (!IsKnownKind(kind))
+            return BadRequest(new { message = "kind perfume ya da comparison olmalı." });
+
+        return await dashboard.SetCommentStatusAsync(kind, id, status, ct)
+            ? Ok(new { message, status = status.ToString() })
+            : NotFound(new { message = "Yorum bulunamadı." });
+    }
+
+    private static bool IsKnownKind(string kind) =>
+        kind is AdminDashboardService.PerfumeKind or AdminDashboardService.ComparisonKind;
+
+    // ------------------------------------------------------------ bakım
+
+    /// <summary>
+    /// AI sağlayıcılarının anlık durumu: hangisi bekletiliyor, son hatası ne, kaç başarılı
+    /// ve başarısız çağrı yaptı. Süresi dolan anahtar burada <c>lastFailureKind = "Auth"</c> olarak görünür.
+    /// </summary>
+    [HttpGet("ai-status")]
+    public IActionResult GetAiStatus() => Ok(new { enabled = ai.IsEnabled, providers = aiStatus.GetStatus() });
+
     /// <summary>Tohumlanabilir şemalar ve kayıt sayıları.</summary>
     [HttpGet("seed")]
     public async Task<IActionResult> GetSeedStatus(CancellationToken ct)
@@ -54,7 +141,7 @@ public class AdminController(ISeedService seeder, AiSummaryJob aiJob, IAiSummary
     public async Task<IActionResult> RunAiSummaries(CancellationToken ct)
     {
         if (!ai.IsEnabled)
-            return BadRequest(new { message = "AI kapalı: Ai:ApiKey veya ANTHROPIC_API_KEY tanımlayın." });
+            return BadRequest(new { message = "AI kapalı: Gemini, Groq, Mistral veya DeepSeek anahtarı tanımlayın." });
 
         await aiJob.RunOnceAsync(ct);
         return Ok(new { message = "AI özetleri güncellendi." });

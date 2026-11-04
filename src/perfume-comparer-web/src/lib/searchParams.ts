@@ -58,6 +58,7 @@ export const SORTS = [
     { v: "random", label: "Keşfet" },
     { v: "rating", label: "Puanı En Yüksek" },
     { v: "votes", label: "En Çok Değerlendirilen" },
+    { v: "trending", label: "Bu Hafta Popüler" },
     { v: "views", label: "Popüler" },
     { v: "comments", label: "En Çok Yorum Alan" },
     { v: "newest", label: "En Yeni Gelenler" },

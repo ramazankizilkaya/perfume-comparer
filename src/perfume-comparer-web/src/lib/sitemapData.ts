@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { apiError, apiFetch } from "./api";
 import { absoluteUrl } from "./seo";
-import { blogHref, brandHref, localeHref, perfumeHref, privacyHref, searchHref } from "./urls";
+import { blogHref, brandHref, contactHref, localeHref, perfumeHref, privacyHref, searchHref } from "./urls";
 
 /** Tek bir sitemap dosyasına yazılacak en fazla adres (Google sınırı 50.000; pay bırakıldı). */
 export const SITEMAP_CHUNK_SIZE = 45000;
@@ -23,6 +23,7 @@ const STATIC_PAGES: MetadataRoute.Sitemap = [
     { url: absoluteUrl(brandHref()), changeFrequency: "weekly", priority: 0.8 },
     { url: absoluteUrl(blogHref()), changeFrequency: "daily", priority: 0.8 },
     { url: absoluteUrl(privacyHref()), changeFrequency: "yearly", priority: 0.2 },
+    { url: absoluteUrl(contactHref()), changeFrequency: "yearly", priority: 0.3 },
 ];
 
 /**

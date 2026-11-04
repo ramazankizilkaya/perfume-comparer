@@ -5,17 +5,17 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using PerfumeComparer.Business.Ai;
 
 namespace PerfumeComparer.Business.Services;
 
 /// <summary>
-/// Yorum özetlerini ücretsiz Gemini API'si üzerinden üretir. Anthropic anahtarı
-/// tanımlı değilse <see cref="IAiSummaryClient"/> olarak bu istemci devreye girer,
-/// böylece özet üretimi ücretli bir anahtara bağlı kalmaz.
+/// Yorum özetlerini merkezi AI router'ı (<see cref="IAiClient"/>) üzerinden üretir:
+/// önce ücretsiz sağlayıcılar, yetişmezse ücretli DeepSeek.
 /// </summary>
-public class GeminiSummaryClient(IGeminiClient gemini, ILogger<GeminiSummaryClient> logger) : IAiSummaryClient
+public class AiSummaryClient(IAiClient ai, ILogger<AiSummaryClient> logger) : IAiSummaryClient
 {
-    /// <summary>Gemini'den dönen JSON gövdesi.</summary>
+    /// <summary>Modelden dönen JSON gövdesi.</summary>
     private sealed class SummaryResponse
     {
         public string? Summary { get; set; }
@@ -34,7 +34,7 @@ public class GeminiSummaryClient(IGeminiClient gemini, ILogger<GeminiSummaryClie
         - "Kullanıcılar" diye üçüncü şahıs anlat; kendinden bahsetme.
         """;
 
-    public bool IsEnabled => gemini.Enabled;
+    public bool IsEnabled => ai.Enabled;
 
     public Task<string?> SummarizePerfumeAsync(
         string perfumeName, string brandName, IReadOnlyList<string> comments, CancellationToken ct = default)
@@ -78,17 +78,17 @@ public class GeminiSummaryClient(IGeminiClient gemini, ILogger<GeminiSummaryClie
 
     private async Task<string?> GenerateAsync(string prompt, CancellationToken ct)
     {
-        if (!gemini.Enabled) return null;
+        if (!ai.Enabled) return null;
 
         try
         {
-            var result = await gemini.GenerateJsonAsync<SummaryResponse>(prompt, ct);
+            var result = await ai.GenerateJsonAsync<SummaryResponse>(prompt, ct);
             var summary = result?.Summary?.Trim();
             return string.IsNullOrWhiteSpace(summary) ? null : summary;
         }
         catch (Exception ex)
         {
-            logger.LogWarning(ex, "Gemini özeti üretilemedi");
+            logger.LogWarning(ex, "AI özeti üretilemedi");
             return null;
         }
     }

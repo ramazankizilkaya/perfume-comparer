@@ -35,6 +35,82 @@ const responseValidationSchemes = {
 
     "Me": userScheme,
 
+    "Admin Analytics": (() => {
+        const count = Joi.object({ total: Joi.number().integer().min(0).required(), period: Joi.number().integer().min(0).required() }).required();
+        const rank = Joi.array().items(Joi.object({
+            title: Joi.string().required(),
+            subtitle: Joi.string().allow(null, ''),
+            path: Joi.string().allow(null, ''),
+            value: Joi.number().integer().min(0).required()
+        }).unknown(true)).required();
+        return Joi.object({
+            days: Joi.number().valid(30).required(),
+            summary: Joi.object({
+                visitors: Joi.object({
+                    last24h: Joi.number().integer().min(0).required(),
+                    last7d: Joi.number().integer().min(0).required(),
+                    last30d: Joi.number().integer().min(0).required(),
+                    allTime: Joi.number().integer().min(0).required(),
+                    perfumePageViews: Joi.number().integer().min(0).required()
+                }).required(),
+                users: count,
+                perfumeComments: count,
+                comparisonComments: count,
+                recommendations: count,
+                ratings: count,
+                favorites: count,
+                comparisonVotes: count,
+                blogViews: Joi.number().integer().min(0).required(),
+                blogsByStatus: Joi.object({
+                    Pending: Joi.number().integer().min(0).required(),
+                    Published: Joi.number().integer().min(0).required()
+                }).unknown(true).required()
+            }).unknown(true).required(),
+            daily: Joi.array().length(30).items(Joi.object({
+                date: Joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/).required(),
+                comments: Joi.number().integer().min(0).required(),
+                recommendations: Joi.number().integer().min(0).required(),
+                newUsers: Joi.number().integer().min(0).required()
+            }).unknown(true)).required(),
+            topPerfumes: rank,
+            topPerfumesAllTime: rank,
+            topBlogs: rank,
+            mostCommented: rank,
+            mostRecommended: rank,
+            mostFavorited: rank,
+            topComparisons: rank,
+            advisor: Joi.object({
+                gender: Joi.array().required(),
+                occasion: Joi.array().required(),
+                season: Joi.array().required()
+            }).required()
+        }).required().unknown(true);
+    })(),
+
+    "Admin Blogs": Joi.array().items(Joi.object({
+        id: Joi.number().integer().required(),
+        title: Joi.string().required(),
+        slug: Joi.string().required(),
+        body: Joi.string().allow('').required(),
+        status: Joi.string().valid('Draft', 'Pending', 'Published', 'Rejected').required(),
+        authorName: Joi.string().required()
+    }).unknown(true)).required(),
+
+    "Admin Comments": Joi.array().items(Joi.object({
+        id: Joi.number().integer().required(),
+        kind: Joi.string().valid('perfume', 'comparison').required(),
+        body: Joi.string().required(),
+        status: Joi.string().valid('Pending', 'Approved', 'Rejected').required(),
+        subject: Joi.string().required()
+    }).unknown(true)).required(),
+
+    "Admin Recommendations": Joi.array().items(Joi.object({
+        id: Joi.number().integer().required(),
+        perfumeName: Joi.string().required(),
+        promptJson: Joi.string().allow('').required(),
+        advice: Joi.string().allow('').required()
+    }).unknown(true)).required(),
+
     "Get Perfumes": Joi.object({
         items: Joi.array().items(perfumeItemScheme).required(),
         totalCount: Joi.number().integer().min(0).required(),
@@ -116,6 +192,7 @@ const responseValidationSchemes = {
             id: Joi.number().integer().required(),
             title: Joi.string().required(),
             slug: Joi.string().required(),
+            category: Joi.string().allow(null).required(),
             publishedAt: Joi.string().required()
         }).unknown(true)
     ).required(),
@@ -147,6 +224,23 @@ const responseValidationSchemes = {
             slug: Joi.string().required(),
             updatedAt: Joi.date().iso().required()
         })).required()
+    }).required(),
+
+    "Get Contact Form Token": Joi.object({
+        token: Joi.string().min(20).required()
+    }).required(),
+
+    "Admin Contact Messages": Joi.object({
+        items: Joi.array().items(Joi.object({
+            id: Joi.number().integer().required(),
+            name: Joi.string().required(),
+            email: Joi.string().required(),
+            message: Joi.string().required(),
+            isRead: Joi.boolean().required(),
+            createdAt: Joi.string().required()
+        }).unknown(true)).required(),
+        unreadCount: Joi.number().integer().min(0).required(),
+        total: Joi.number().integer().min(0).required()
     }).required(),
 
     "Get Advisor Status": Joi.object({

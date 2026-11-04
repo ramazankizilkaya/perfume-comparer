@@ -167,6 +167,16 @@ Feature: Catalog Management
         Then the response status should be 200
         And the response body path "totalCount" should be greater than 100
 
+    Scenario: Weekly trending sort returns perfumes
+        When I send a "GET" request to "Get Perfumes Trending" endpoint
+        Then the response status should be 200
+        And the response body path "totalCount" should be greater than 0
+
+    Scenario: Most commented sort returns perfumes
+        When I send a "GET" request to "Get Perfumes Most Commented" endpoint
+        Then the response status should be 200
+        And the response body path "totalCount" should be greater than 0
+
     Scenario: Recording a perfume view returns the view count
         Given perfume slug is "dior-sauvage"
         When I send a "POST" request to "Record Perfume View" endpoint

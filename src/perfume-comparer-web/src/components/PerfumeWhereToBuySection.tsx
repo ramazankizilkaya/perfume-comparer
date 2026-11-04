@@ -220,13 +220,20 @@ export default function PerfumeWhereToBuySection({
             id="satin-al"
             aria-labelledby="buy-main-heading"
         >
+            <div className="detail-buy-top-banner">
+                <span className="badge-wip" title="Doğrudan ürün ve fiyat entegrasyonları geliştirme aşamasındadır">
+                    <span className="badge-wip-dot" aria-hidden="true"></span>
+                    🚧 Yapım Aşamasında
+                </span>
+            </div>
+
             <div className="detail-buy-main-header">
                 <div>
                     <h2 id="buy-main-heading" className="block-title">
                         {fullName} Fiyatları, Satış Noktaları ve En Ucuz Nereden Alınır?
                     </h2>
                     <p className="detail-buy-lead">
-                        Yetkili butikler, popüler pazaryerleri, açık parfüm muadilleri ve fiyat karşılaştırma portalları üzerinde anlık arama yapın.
+                        Şu anda bağlantılar ilgili mağazaların arama sayfasına veya anasayfasına yönlendirmektedir.
                     </p>
                 </div>
             </div>

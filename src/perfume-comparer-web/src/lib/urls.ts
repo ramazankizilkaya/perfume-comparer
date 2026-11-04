@@ -37,6 +37,11 @@ export function privacyHref(lang: string = "tr"): string {
     return `/${lang}/gizlilik-politikasi`;
 }
 
+/** İletişim sayfası ve formu: /tr/iletisim. */
+export function contactHref(lang: string = "tr"): string {
+    return `/${lang}/iletisim`;
+}
+
 /** Karşılaştırma sayfası linki. */
 export function compareHref(slug1?: string | null, slug2?: string | null, lang: string = "tr"): string {
     if (!slug1 || !slug2) return `/${lang}/karsilastir`;

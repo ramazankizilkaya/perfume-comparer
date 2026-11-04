@@ -4,8 +4,8 @@ import { localeHref } from "@/lib/urls";
 
 // Yönetim sayfası: arama sonuçlarında görünmemeli (noindex,follow); robots.txt de engeller.
 export const metadata: Metadata = pageMetadata({
-    title: "Veri yönetimi",
-    description: "Yönetim paneli: örnek verileri tohumlama ve bakım işlemleri.",
+    title: "Yönetim paneli",
+    description: "Yönetim paneli: site analitiği, makale onayı, yorum moderasyonu ve bakım işlemleri.",
     path: localeHref("/admin"),
     noIndex: true,
 });

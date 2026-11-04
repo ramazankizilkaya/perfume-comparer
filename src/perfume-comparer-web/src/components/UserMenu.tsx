@@ -3,6 +3,9 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Icon, { type IconName } from "./Icon";
+import { GENDER_PROMPT_LABEL } from "./GenderControl";
+import DarkModeSwitch from "./DarkModeSwitch";
+import { openGenderPrompt } from "@/lib/genderPrompt";
 import { useAuth, type AuthUser } from "@/lib/stores";
 import { openLogin } from "@/lib/loginModal";
 import { searchHref, myBlogsHref } from "@/lib/urls";
@@ -50,10 +53,6 @@ export function MobileAccount({ onNavigate }: { onNavigate: () => void }) {
     if (!ready || !user) {
         return (
             <>
-                <Link href={ACCOUNT_LINKS[0].href} className="mobile-nav-link" onClick={onNavigate}>
-                    <Icon name="heart" size={16} />
-                    <span>{ACCOUNT_LINKS[0].label}</span>
-                </Link>
                 <button
                     type="button"
                     className="mobile-nav-link mobile-login-link"
@@ -65,6 +64,10 @@ export function MobileAccount({ onNavigate }: { onNavigate: () => void }) {
                     <Icon name="user" size={16} />
                     <span>Giriş Yap</span>
                 </button>
+                <Link href={ACCOUNT_LINKS[0].href} className="mobile-nav-link" onClick={onNavigate}>
+                    <Icon name="heart" size={16} />
+                    <span>{ACCOUNT_LINKS[0].label}</span>
+                </Link>
             </>
         );
     }
@@ -112,7 +115,7 @@ export default function UserMenu() {
         return () => document.removeEventListener("mousedown", onOutside);
     }, []);
 
-    // Giriş yapılmamışsa buton menü açar: Favorilerim ve Giriş Yap
+    // Giriş yapılmamışsa buton menü açar: Giriş Yap, Favorilerim, anasayfa tercihi ve karanlık mod
     if (!ready || !user) {
         return (
             <div className="user-menu" ref={ref}>
@@ -128,8 +131,20 @@ export default function UserMenu() {
                 </button>
 
                 {open && (
-                    <div className="user-dropdown" role="menu">
-                        <nav className="user-dropdown-nav" style={{ borderBlockEnd: "none" }}>
+                    <div className="user-dropdown">
+                        <nav className="user-dropdown-nav">
+                            <button
+                                type="button"
+                                className="user-dropdown-link"
+                                onClick={() => {
+                                    setOpen(false);
+                                    openLogin();
+                                }}
+                                style={{ fontWeight: 600, color: "var(--accent)" }}
+                            >
+                                <Icon name="user" size={15} />
+                                <span>Giriş Yap</span>
+                            </button>
                             <Link
                                 href={searchHref({ userFilter: "favorites" })}
                                 className="user-dropdown-link"
@@ -143,13 +158,13 @@ export default function UserMenu() {
                                 className="user-dropdown-link"
                                 onClick={() => {
                                     setOpen(false);
-                                    openLogin();
+                                    openGenderPrompt();
                                 }}
-                                style={{ fontWeight: 600, color: "var(--accent)" }}
                             >
-                                <Icon name="user" size={15} />
-                                <span>Giriş Yap</span>
+                                <Icon name="filter" size={15} />
+                                <span>{GENDER_PROMPT_LABEL}</span>
                             </button>
+                            <DarkModeSwitch className="user-dropdown-link" />
                         </nav>
                     </div>
                 )}
@@ -170,7 +185,7 @@ export default function UserMenu() {
             </button>
 
             {open && (
-                <div className="user-dropdown" role="menu">
+                <div className="user-dropdown">
                     <div className="user-info">
                         <Avatar user={user} size={40} />
                         <div className="user-info-text">
@@ -190,6 +205,18 @@ export default function UserMenu() {
                                 <span>{l.label}</span>
                             </Link>
                         ))}
+                        <button
+                            type="button"
+                            className="user-dropdown-link"
+                            onClick={() => {
+                                setOpen(false);
+                                openGenderPrompt();
+                            }}
+                        >
+                            <Icon name="filter" size={15} />
+                            <span>{GENDER_PROMPT_LABEL}</span>
+                        </button>
+                        <DarkModeSwitch className="user-dropdown-link" />
                     </nav>
                     <button className="user-signout" onClick={() => { signOut(); setOpen(false); }}>
                         Çıkış yap

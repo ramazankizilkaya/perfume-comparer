@@ -1,11 +1,37 @@
+const fs = require('fs');
+const path = require('path');
+
+/**
+ * Panel şifresi: önce ADMIN_PASSWORD ortam değişkeni, yoksa yerel API'nin
+ * appsettings.Local.json dosyasındaki Admin:Password (testler API ile aynı makinede koşar).
+ */
+function adminPanelPassword() {
+    if (process.env.ADMIN_PASSWORD) return process.env.ADMIN_PASSWORD;
+    try {
+        const file = path.resolve(__dirname, '../../../../../src/PerfumeComparer/appsettings.Local.json');
+        return JSON.parse(fs.readFileSync(file, 'utf8'))?.Admin?.Password || '';
+    } catch {
+        return '';
+    }
+}
+
 const payloads = {
     "Dev Login": () => ({
         name: "Aura Test Kullanici",
         email: `test.${Date.now()}@aura.local`
     }),
+    "Admin Login Valid": () => ({
+        password: adminPanelPassword()
+    }),
+    "Admin Login Wrong": () => ({
+        password: `yanlis-${Date.now()}`
+    }),
+    "Admin Login Empty": () => ({
+        password: ""
+    }),
     "Dev Login Admin": () => ({
         name: "Aura Test Admin",
-        email: `admin.${Date.now()}@aura.local`,
+        email: `admin.${Date.now()}.${Math.random().toString(36).slice(2, 8)}@aura.local`,
         admin: true
     }),
     "Comment Too Long": () => ({
@@ -119,6 +145,28 @@ const payloads = {
         occasion: "Günlük / Ofis",
         season: "Dört Mevsim",
         freeText: "Kalıcı ve zarif bir ofis kokusu arıyorum."
+    }),
+    "Contact Message": () => ({
+        name: "Test Kullanıcı",
+        email: "test.contact@aura.local",
+        message: `API testi iletişim mesajı ${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+        website: ""
+    }),
+    "Contact Message Honeypot": () => ({
+        name: "Spam Bot",
+        email: "bot@spam.local",
+        message: "Ucuz takipçi satın alın, hemen tıklayın.",
+        website: "https://spam.example"
+    }),
+    "Contact Message Invalid Email": () => ({
+        name: "Test Kullanıcı",
+        email: "gecersiz-adres",
+        message: "Bu mesajın e-postası geçersiz."
+    }),
+    "Contact Message Too Many Links": () => ({
+        name: "Test Kullanıcı",
+        email: "test.contact@aura.local",
+        message: "http://a.example http://b.example http://c.example bağlantılara bakın."
     }),
     "Perfume Advisor Request Too Long": () => ({
         gender: "erkek",

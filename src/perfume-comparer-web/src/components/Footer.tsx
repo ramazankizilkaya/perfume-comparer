@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { blogHref, localeHref, privacyHref, searchHref } from "@/lib/urls";
+import { blogHref, contactHref, localeHref, privacyHref, searchHref } from "@/lib/urls";
 import { SITE_NAME } from "@/lib/seo";
 
 export default function Footer() {
@@ -59,7 +59,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <p className="footer-note">© {new Date().getFullYear()} {SITE_NAME} · Puanlar ve yorumlar kullanıcılardan gelir. · <Link href={privacyHref()}>Gizlilik politikası</Link></p>
+                <p className="footer-note">© {new Date().getFullYear()} {SITE_NAME} · Puanlar ve yorumlar kullanıcılardan gelir. · <Link href={privacyHref()}>Gizlilik politikası</Link> · <Link href={contactHref()}>İletişim</Link></p>
             </div>
         </footer>
     );

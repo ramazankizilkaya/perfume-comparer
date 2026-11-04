@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
+using PerfumeComparer.Business.Ai;
 using PerfumeComparer.Business.Dtos;
 using PerfumeComparer.Data;
 using PerfumeComparer.Domain.Entities;
@@ -28,19 +29,19 @@ public interface IAiSearchPlanner
 }
 
 /// <summary>
-/// Sorguyu Gemini'ye gönderirken veritabanındaki gerçek akor ve koku ailesi
+/// Sorguyu yapay zekâya gönderirken veritabanındaki gerçek akor ve koku ailesi
 /// listesini de verir; böylece model uydurma değil, sorgulanabilir değerler döner.
 /// </summary>
-public class AiSearchPlanner(IUnitOfWork uow, IGeminiClient gemini, IMemoryCache cache, ILogger<AiSearchPlanner> logger)
+public class AiSearchPlanner(IUnitOfWork uow, IAiClient ai, IMemoryCache cache, ILogger<AiSearchPlanner> logger)
     : IAiSearchPlanner
 {
     private const string VocabularyCacheKey = "ai-search:accord-vocabulary";
 
-    public bool Enabled => gemini.Enabled;
+    public bool Enabled => ai.Enabled;
 
     public async Task<AiSearchIntent?> PlanAsync(string query, Func<bool>? canCallModel = null, CancellationToken ct = default)
     {
-        if (!gemini.Enabled || string.IsNullOrWhiteSpace(query)) return null;
+        if (!ai.Enabled || string.IsNullOrWhiteSpace(query)) return null;
 
         // Aynı sorgu için modele tekrar tekrar gitmeye gerek yok.
         var cacheKey = $"ai-search:intent:{SearchTextNormalizer.Fold(query)}";
@@ -53,7 +54,7 @@ public class AiSearchPlanner(IUnitOfWork uow, IGeminiClient gemini, IMemoryCache
         var accords = await GetAccordVocabularyAsync(ct);
         var prompt = BuildPrompt(query, accords);
 
-        var intent = await gemini.GenerateJsonAsync<AiSearchIntent>(prompt, ct);
+        var intent = await ai.GenerateJsonAsync<AiSearchIntent>(prompt, ct);
         if (intent is null)
         {
             logger.LogInformation("Yapay zekâ sorgu çözümlemesi boş döndü: {Query}", query);

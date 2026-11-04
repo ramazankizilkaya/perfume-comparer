@@ -42,7 +42,7 @@ public class AiSummaryJob(
         if (!ai.IsEnabled)
         {
             logger.LogInformation(
-                "AI özet işi kapalı: Ai:ApiKey veya ANTHROPIC_API_KEY tanımlı değil.");
+                "AI özet işi kapalı: hiçbir AI sağlayıcı anahtarı tanımlı değil.");
             return;
         }
 

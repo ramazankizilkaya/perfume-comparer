@@ -10,11 +10,17 @@ Bu doküman, projede kullanılan tüm Yapay Zekâ (AI) modellerini ve entegrasyo
 
 | Modül / Özellik | İlgili Dosya / Servis | Amaç | Birincil Sağlayıcı (Model) | Yedek Sağlayıcı (Fallback) | Maliyet / Kota Tipi |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Akıllı Arama Planlayıcı** | `AiSearchPlanner.cs` | Kullanıcı doğal dil aramasını (örn: "hafif kışlık kadın kokusu") veritabanı filtrelerine çevirir. | **Google Gemini** (`gemini-3.5-flash`) | Klasik SQL Arama | Ücretsiz / MemoryCache önbellekli |
-| **Parfüm Danışmanı** | `PerfumeAdvisorService.cs` | "Bana Parfüm Öner": Kullanıcı tercihlerinden kişisel parfümör tavsiye mektubu üretir. | **Google Gemini** (`gemini-3.5-flash`) | Kural tabanlı tavsiye | Ücretsiz / Kullanıcı başı günde 1 kota |
-| **Karşılaştırma Analizi** | `CompareAiService.cs` | Karşılaştırılan iki parfüm için koku profili, silaj/kalıcılık kıyaslaması ve kazanan üretir. | **OpenAI** (`gpt-4o-mini`) | Google Gemini (`gemini-3.5-flash`) | DB önbellekli (`comparison_comments`) |
-| **Topluluk Yorum Özeti** | `AiSummaryJob.cs` / `GeminiSummaryClient.cs` | 10+ kullanıcı yorumuna sahip parfümler için arka planda ortak yorum özeti çıkarır. | **Anthropic Claude** (`claude-opus-5`) | Google Gemini (`gemini-3.5-flash`) | Arka plan kuyruğu (30 dk aralık) |
-| **Şişe Fotoğrafı Onayı** | `CatalogController.cs` | Kullanıcının yüklediği görselin gerçek parfüm şişesi olup olmadığını denetler. | **Google Gemini Vision** (`gemini-3.5-flash`) | Admin manuel onayı | Görsel Moderasyonu |
+Uygulama içindeki bütün AI istekleri **merkezi router'dan** (`Business/Ai/CentralAiRouter.cs`, `IAiClient`) geçer. Sağlayıcı sırası her özellik için aynıdır: **Gemini → Groq → Mistral** (ücretsiz), hepsi yetişmezse **DeepSeek** (ücretli). Router da cevap veremezse özelliğin kendi yerel yedeği devreye girer.
+
+| Modül / Özellik | İlgili Dosya / Servis | Amaç | Router çağrısı | Router cevap veremezse | Maliyet / Kota Tipi |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Akıllı Arama Planlayıcı** | `AiSearchPlanner.cs` | Kullanıcı doğal dil aramasını (örn: "hafif kışlık kadın kokusu") veritabanı filtrelerine çevirir. | `GenerateJsonAsync` | Yerel kelime tarayıcısı | MemoryCache önbellekli |
+| **Parfüm Danışmanı** | `PerfumeAdvisorService.cs` | "Bana Parfüm Öner": Kullanıcı tercihlerinden kişisel parfümör tavsiye mektubu üretir. | `GenerateJsonAsync` | Kural tabanlı tavsiye | Kullanıcı başı günde 1 kota |
+| **Karşılaştırma Analizi** | `CompareAiService.cs` | Karşılaştırılan iki parfüm için koku profili ve kullanım önerisi yazar. | `GenerateTextAsync` | Analiz gösterilmez | DB önbellekli (`comparison_comments`) |
+| **Topluluk Yorum Özeti** | `AiSummaryJob.cs` / `AiSummaryClient.cs` | Yeterli yoruma sahip parfümler için arka planda ortak yorum özeti çıkarır. | `GenerateJsonAsync` | Özet bir sonraki turda denenir | Arka plan kuyruğu (30 dk aralık) |
+| **Şişe Fotoğrafı Onayı** | `CatalogController.cs` | Kullanıcının yüklediği görselin gerçek parfüm şişesi olup olmadığını denetler. | `GenerateJsonAsync` + görsel (yalnızca Gemini) | Fotoğraf "onay bekliyor" olarak saklanır | Görsel Moderasyonu |
+
+**Kota ve hata yönetimi:** Anahtar ya da model hatası (401/402/403, 404 ya da Gemini'nin 400 "API key expired") Error logu yazar ve sağlayıcıyı 10 dk atlar. Kota hatası (429) sağlayıcıyı `Retry-After` süresi kadar, bilgi yoksa 60 sn atlar. Zaman aşımı ve 5xx 30 sn atlar. Bozuk JSON sıradaki sağlayıcıya geçer. `<Sağlayıcı>:RequestsPerMinute` verilirse dakikalık sınır dolunca sağlayıcı 429 beklemeden atlanır. Anlık durum: `GET /api/admin/ai-status`.
 
 ---
 
@@ -34,26 +40,26 @@ Bu doküman, projede kullanılan tüm Yapay Zekâ (AI) modellerini ve entegrasyo
 
 1. **Akıllı Arama Planlayıcı (`AiSearchPlanner.cs`)**
    - **Tetiklenme:** Kullanıcı sitedeki header arama kutusuna 2 kelimeden uzun serbest arama terimi yazdığında.
-   - **Ana Model:** `Gemini 3.5 Flash`.
-   - **Yedek / Fallback:** Gemini yanıt vermezse veya kota aşılırsa sistem hata vermez; klasik veritabanı `LIKE / Full-Text` aramasına düşer.
+   - **Sağlayıcı:** Merkezi router (Gemini → Groq → Mistral → DeepSeek).
+   - **Yedek / Fallback:** Router cevap veremezse sistem hata vermez; yerel kelime tarayıcısına düşer.
    - **Önbellek:** Yapılan aramalar `IMemoryCache` üzerinde saklanır, aynı sorgu tekrar modele gitmez.
 
 2. **Yapay Zekâ Parfüm Danışmanı (`PerfumeAdvisorService.cs`)**
    - **Tetiklenme:** Kullanıcı "Bana Parfüm Öner" modalından form gönderdiğinde.
-   - **Ana Model:** `Gemini 3.5 Flash`.
+   - **Sağlayıcı:** Merkezi router (Gemini → Groq → Mistral → DeepSeek).
    - **Kısıtlama:** Kullanıcılar günde 1 kez öneri alabilir (`user_perfume_recommendations`).
-   - **Yedek / Fallback:** Gemini çağrısı başarısız olursa veritabanındaki filtrelenmiş aday parfümlerden en yüksek puanlı olan kural tabanlı bir tavsiye şablonuyla sunulur.
+   - **Yedek / Fallback:** Router cevap veremezse veritabanındaki filtrelenmiş aday parfümlerden en yüksek puanlı olan kural tabanlı bir tavsiye şablonuyla sunulur.
 
 3. **Karşılaştırma Analizi (`CompareAiService.cs`)**
    - **Tetiklenme:** Kullanıcı iki parfümü karşılaştırıp "Yapay Zeka Analizi" sekmesini açtığında.
-   - **Ana Model:** `OpenAI gpt-4o-mini`.
-   - **Yedek / Fallback:** OpenAI anahtarı yoksa veya hata verirse otomatik olarak `Gemini 3.5 Flash`'a geçer.
+   - **Sağlayıcı:** Merkezi router, düz metin modu (Gemini → Groq → Mistral → DeepSeek).
+   - **Yedek / Fallback:** Router cevap veremezse analiz gösterilmez ve veritabanına bir şey yazılmaz.
    - **Kalıcılık:** Üretilen analiz veritabanına (`comparison_comments` tablosuna `is_ai_summary = true`) yazılır. Gelecekteki ziyaretlerde tekrar AI çağrısı yapılmaz.
 
-4. **Yorum Özeti Kuyruğu (`AiSummaryJob.cs` & `GeminiSummaryClient.cs`)**
-   - **Tetiklenme:** Bir parfüm 10 veya daha fazla kullanıcı yorumu aldığında arka plan servisi tetiklenir.
-   - **Ana Model:** `Anthropic Claude (claude-opus-5)` (eğer `Ai:ApiKey` tanımlıysa).
-   - **Yedek / Fallback:** Claude anahtarı yoksa veya istek başarısız olursa `Gemini 3.5 Flash` kullanılır.
+4. **Yorum Özeti Kuyruğu (`AiSummaryJob.cs` & `AiSummaryClient.cs`)**
+   - **Tetiklenme:** Bir parfüm `Ai:MinComments` kadar kullanıcı yorumu aldığında arka plan servisi tetiklenir.
+   - **Sağlayıcı:** Merkezi router (Gemini → Groq → Mistral → DeepSeek). Anthropic Claude artık kullanılmaz.
+   - **Yedek / Fallback:** Router cevap veremezse özet bir sonraki turda yeniden denenir.
 
 ---
 

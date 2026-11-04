@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using PerfumeComparer.Business.Ai;
 using PerfumeComparer.Business.Dtos;
 using PerfumeComparer.Business.Services;
 using PerfumeComparer.Data.Persistence;
@@ -19,7 +20,7 @@ public class CatalogController(
     IUsageService usage,
     AppDbContext db,
     ITokenService tokens,
-    IGeminiClient gemini,
+    IAiClient ai,
     AiSummaryJob aiSummary,
     IAiRequestGate aiGate,
     ICommentContentFilter commentFilter,
@@ -550,7 +551,7 @@ public class CatalogController(
     }
 
     /// <summary>
-    /// Kullanıcı parfüm fotoğrafı yükleme. Gemini AI ile görsel doğrulanır ve kaydedilir.
+    /// Kullanıcı parfüm fotoğrafı yükleme. yapay zekâ ile görsel doğrulanır ve kaydedilir.
     /// </summary>
     [HttpPost("perfumes/{slug}/photos")]
     public async Task<IActionResult> UploadPhoto(string slug, IFormFile photo, CancellationToken ct)
@@ -586,12 +587,12 @@ public class CatalogController(
 
         var (mimeType, ext) = detected.Value;
 
-        // Gemini AI ile görsel doğrulama. Reddederse dosya kaydedilmez; AI kapalıysa ya da
+        // Yapay zekâ ile görsel doğrulama (görsel destekleyen sağlayıcılar). Reddederse dosya kaydedilmez; AI kapalıysa ya da
         // cevap veremezse fotoğraf kaydedilir ama "onay bekliyor" olarak gizli kalır.
         PhotoVerdict? verdict = null;
-        if (gemini.Enabled)
+        if (ai.Enabled)
         {
-            verdict = await gemini.GenerateJsonAsync<PhotoVerdict>($$"""
+            verdict = await ai.GenerateJsonAsync<PhotoVerdict>($$"""
                 Sen bir parfüm web sitesi görsel denetleyicisisin.
                 Kullanıcı bu fotoğrafı '{{perfume.Name}}' parfümü için yükledi.
                 Bu görsel gerçekten bir parfüm şişesi / parfüm kutusu / parfüm ürünü fotoğrafı mıdır?

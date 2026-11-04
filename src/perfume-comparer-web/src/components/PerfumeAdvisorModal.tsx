@@ -64,7 +64,7 @@ export default function PerfumeAdvisorModal({ isOpen, onClose }: PerfumeAdvisorM
     const [result, setResult] = useState<AdvisorResponse | null>(null);
 
     // Form durumları
-    const [gender, setGender] = useState<string>("unisex");
+    const [gender, setGender] = useState<string>("erkek");
     const [likedPerfumes, setLikedPerfumes] = useState("");
     const [dislikedNotes, setDislikedNotes] = useState("");
     const [preferredNotes, setPreferredNotes] = useState("");
@@ -288,8 +288,6 @@ export default function PerfumeAdvisorModal({ isOpen, onClose }: PerfumeAdvisorM
                                 {[
                                     { value: "erkek", label: "Erkek" },
                                     { value: "kadin", label: "Kadın" },
-                                    { value: "unisex", label: "Unisex / Ortak" },
-                                    { value: "", label: "Farketmez" },
                                 ].map((opt) => (
                                     <button
                                         key={opt.value}

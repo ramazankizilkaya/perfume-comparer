@@ -1,14 +1,10 @@
 using System;
 using System.Linq;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text;
-using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using PerfumeComparer.Business.Ai;
 using PerfumeComparer.Data.Persistence;
 using PerfumeComparer.Domain.Entities;
 using PerfumeComparer.Domain;
@@ -17,12 +13,9 @@ namespace PerfumeComparer.Business.Services;
 
 public class CompareAiService(
     AppDbContext db,
-    IConfiguration configuration,
-    IGeminiClient gemini,
+    IAiClient ai,
     ILogger<CompareAiService> logger) : ICompareAiService
 {
-    private static readonly HttpClient HttpClient = new() { Timeout = TimeSpan.FromSeconds(25) };
-
     public async Task<string?> GetCachedComparisonAnalysisAsync(string p1Slug, string p2Slug, CancellationToken ct = default)
     {
         var ids = await db.Perfumes
@@ -73,16 +66,11 @@ public class CompareAiService(
         if (cached is not null)
             return cached;
 
-        // 2. Yoksa AI ile üret
-        var prompt = BuildPrompt(p1, p2);
-        string? analysis = await CallOpenAiAsync(prompt, ct);
+        // 2. Yoksa merkezi AI router'ı ile üret (ücretsizler önce, yetişmezse DeepSeek)
+        if (!ai.Enabled)
+            return null;
 
-        if (string.IsNullOrWhiteSpace(analysis) && gemini.Enabled)
-        {
-            logger.LogInformation("OpenAI yanıt dönmedi, Gemini'ye başvuruluyor ({P1} vs {P2}).", p1.Name, p2.Name);
-            analysis = await CallGeminiFallbackAsync(prompt, ct);
-        }
-
+        var analysis = await ai.GenerateTextAsync(BuildPrompt(p1, p2), ct);
         if (string.IsNullOrWhiteSpace(analysis))
             return null;
 
@@ -123,6 +111,8 @@ public class CompareAiService(
         var p2Notes = string.Join(", ", p2.Notes.Take(8).Select(n => n.Note.Name));
 
         return $"""
+            Sen iki parfüm arasında seçim yapmaya çalışan kullanıcılara samimi, nokta atışı ve gerçekçi tavsiyeler veren tarafsız bir koku ve stil danışmanısın.
+
             İki parfüm arasında kararsız kalmış ve seçim yapmak isteyen bir kullanıcı için doğrudan tavsiye niteliğinde, canlı ve akıcı bir karşılaştırma paragrafı yaz.
             Tablodaki teknik notaları tek tek sayma; kullanıcının aradığı hisse, ortama, yayılıma ve karaktere odaklan.
 
@@ -139,77 +129,5 @@ public class CompareAiService(
             - Robotik veya reklam dilinden kaçın; seçim aşamasındaki birine gerçekçi, zevkli ve nokta atışı bir stil rehberi gibi seslen.
             - Yaklaşık 70 - 130 kelime arasında tut.
             """;
-    }
-
-    private async Task<string?> CallOpenAiAsync(string prompt, CancellationToken ct)
-    {
-        var apiKey = configuration["OpenAI:ApiKey"] ?? Environment.GetEnvironmentVariable("OPENAI_API_KEY");
-        if (string.IsNullOrWhiteSpace(apiKey))
-            return null;
-
-        var requestBody = new
-        {
-            model = "gpt-4o-mini",
-            messages = new object[]
-            {
-                new { role = "system", content = "Sen iki parfüm arasında seçim yapmaya çalışan kullanıcılara samimi, nokta atışı ve gerçekçi tavsiyeler veren tarafsız bir koku ve stil danışmanısın." },
-                new { role = "user", content = prompt }
-            },
-            max_tokens = 350,
-            temperature = 0.7
-        };
-
-        var json = JsonSerializer.Serialize(requestBody);
-        using var request = new HttpRequestMessage(HttpMethod.Post, "https://api.openai.com/v1/chat/completions")
-        {
-            Content = new StringContent(json, Encoding.UTF8, "application/json")
-        };
-        request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", apiKey.Trim());
-
-        try
-        {
-            using var response = await HttpClient.SendAsync(request, ct);
-            if (!response.IsSuccessStatusCode)
-            {
-                var err = await response.Content.ReadAsStringAsync(ct);
-                logger.LogWarning("OpenAI isteği başarısız oldu ({StatusCode}): {Error}", response.StatusCode, err);
-                return null;
-            }
-
-            using var stream = await response.Content.ReadAsStreamAsync(ct);
-            using var doc = await JsonDocument.ParseAsync(stream, cancellationToken: ct);
-            var content = doc.RootElement
-                .GetProperty("choices")[0]
-                .GetProperty("message")
-                .GetProperty("content")
-                .GetString();
-
-            return content;
-        }
-        catch (Exception ex)
-        {
-            logger.LogWarning(ex, "OpenAI servisine bağlanırken hata oluştu.");
-            return null;
-        }
-    }
-
-    private sealed class GeminiFallbackResult
-    {
-        public string? Content { get; set; }
-    }
-
-    private async Task<string?> CallGeminiFallbackAsync(string prompt, CancellationToken ct)
-    {
-        try
-        {
-            var wrappedPrompt = prompt + "\n\nYalnızca şu formatta JSON döndür: {\"content\": \"...\"}";
-            var res = await gemini.GenerateJsonAsync<GeminiFallbackResult>(wrappedPrompt, ct);
-            return res?.Content;
-        }
-        catch (Exception ex)
-        {
-            logger.LogWarning(ex, "Gemini fallback yanıtı alınamadı.");
-            return null;
-        }
     }
 }

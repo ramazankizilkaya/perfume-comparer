@@ -98,6 +98,49 @@ public class AuthController(
         return Ok(new AuthResponse(tokens.Issue(user), ToDto(user)));
     }
 
+    public record AdminLoginRequest(string? Password);
+
+    /// <summary>
+    /// Yönetim paneli girişi: <c>Admin:Password</c> ile eşleşen şifre, panel hesabına
+    /// (<c>Admin:Email</c>, varsayılan panel@parfumetre.local) 12 saatlik Admin jetonu verir.
+    /// Şifre tanımlı değilse 404; IP başına 15 dakikada 10 yanlış deneme, aşımda 429.
+    /// </summary>
+    [HttpPost("admin-login")]
+    public async Task<IActionResult> AdminLogin([FromBody] AdminLoginRequest? req, [FromServices] IAdminPasswordGate gate, CancellationToken ct)
+    {
+        if (!gate.IsEnabled)
+            return NotFound(new { message = "Panel şifresi tanımlı değil (Admin:Password)." });
+
+        var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "unknown";
+        if (gate.IsBlocked(ip))
+            return StatusCode(StatusCodes.Status429TooManyRequests,
+                new { message = "Çok fazla yanlış deneme yapıldı. 15 dakika sonra tekrar deneyin." });
+
+        if (!gate.Verify(ip, req?.Password))
+            return Unauthorized(new { message = "Şifre yanlış." });
+
+        var email = config["Admin:Email"];
+        if (string.IsNullOrWhiteSpace(email)) email = "panel@parfumetre.local";
+        email = email.Trim();
+
+        var user = await db.Users.FirstOrDefaultAsync(u => u.Email == email, ct);
+        if (user is null)
+        {
+            user = new AppUser
+            {
+                Email = email,
+                DisplayName = "Panel Yöneticisi",
+                Role = UserRole.Admin,
+                CreatedAt = DateTimeOffset.UtcNow,
+            };
+            db.Users.Add(user);
+        }
+        user.Role = UserRole.Admin;
+        await db.SaveChangesAsync(ct);
+
+        return Ok(new AuthResponse(tokens.Issue(user, TimeSpan.FromHours(12)), ToDto(user)));
+    }
+
     /// <summary>Geçerli oturum jetonuna karşılık gelen kullanıcıyı döner.</summary>
     [HttpGet("me")]
     public async Task<IActionResult> Me(CancellationToken ct)

@@ -14,6 +14,10 @@ interface FacebookSdk {
 
 const facebookSdk = () => (window as unknown as { FB?: FacebookSdk }).FB;
 
+// FB.init yalnızca bir kez çağrılır. Giriş penceresi her açıldığında yeniden çağrılırsa SDK
+// "You are overriding current access token" hatası verir.
+let initialized = false;
+
 /**
  * "Facebook ile giriş yap" düğmesi. NEXT_PUBLIC_FACEBOOK_APP_ID tanımlı değilse hiçbir şey
  * çizmez. Facebook erişim jetonu verir; backend jetonu Graph API ile doğrular.
@@ -36,7 +40,10 @@ export default function FacebookSignIn({
             .then(() => {
                 const fb = facebookSdk();
                 if (!fb || cancelled) return;
-                fb.init({ appId: APP_ID, version: "v23.0", cookie: false, xfbml: false });
+                if (!initialized) {
+                    fb.init({ appId: APP_ID, version: "v23.0", cookie: false, xfbml: false });
+                    initialized = true;
+                }
                 setReady(true);
             })
             .catch(() => {});

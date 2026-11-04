@@ -167,11 +167,11 @@ My Articles Title:
   desktop: 'h1:has-text("Yazılarım")'
   mobile: 'h1:has-text("Yazılarım")'
 Admin Login Prompt:
-  desktop: '.login-prompt button'
-  mobile: '.login-prompt button'
+  desktop: 'form.admin-login #admin-password'
+  mobile: 'form.admin-login #admin-password'
 Admin Title:
-  desktop: 'h1:has-text("Veri yönetimi")'
-  mobile: 'h1:has-text("Veri yönetimi")'
+  desktop: 'h1:has-text("Yönetim paneli")'
+  mobile: 'h1:has-text("Yönetim paneli")'
 Admin Seed All Button:
   desktop: 'button:has-text("Tümünü Tohumla"), button:has-text("Tohumla")'
   mobile: 'button:has-text("Tümünü Tohumla"), button:has-text("Tohumla")'

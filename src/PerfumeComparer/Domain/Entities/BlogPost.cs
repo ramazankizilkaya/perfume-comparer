@@ -10,6 +10,8 @@ public class BlogPost
     public required string Body { get; set; }
     public string? Excerpt { get; set; }
     public string? CoverImageUrl { get; set; }
+    /// <summary>Yazının bölümü. Null: genel blog yazısı; "kullanim-rehberi": site özelliklerini anlatan rehber.</summary>
+    public string? Category { get; set; }
     public int ViewCount { get; set; } = 0;
     public BlogPostStatus Status { get; set; } = BlogPostStatus.Draft;
     public DateTimeOffset? PublishedAt { get; set; }

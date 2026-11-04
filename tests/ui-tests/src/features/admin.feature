@@ -2,7 +2,7 @@
 Feature: Admin management
 
     @smoke
-    Scenario Outline: As a visitor on <device>, I should see a login prompt instead of seed controls, When I navigate to admin page without signing in
+    Scenario Outline: As a visitor on <device>, I should see the panel password form, When I navigate to admin page without signing in
         Given I set screen size to "<width>"x"<height>" for "<device>"
         When I navigate to "Admin" page
         Then element "Admin Title" should be displayed

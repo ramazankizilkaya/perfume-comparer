@@ -30,3 +30,12 @@ Feature: Blog Management
         Given I am authenticated as admin
         When I send a "GET" request to "Get Pending Blogs" endpoint
         Then the response status should be 200
+
+    Scenario: Usage guide posts are published under the kullanim-rehberi category
+        Given I am authenticated as admin
+        When I send a "POST" request to "Admin Seed Blogs" endpoint
+        Then the response status should be 200
+        Given blog slug is "parfumetre-nasil-kullanilir"
+        When I send a "GET" request to "Get Blog Detail" endpoint
+        Then the response status should be 200
+        And the response body path "category" should be "kullanim-rehberi"

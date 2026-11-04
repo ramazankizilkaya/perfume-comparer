@@ -34,6 +34,7 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
             },
             "POST": {
                 "Dev Login": '/api/auth/dev-login',
+                "Admin Login": '/api/auth/admin-login',
                 "Google Login": '/api/auth/google',
                 "Facebook Login": '/api/auth/facebook',
             }
@@ -54,6 +55,8 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
                 "Get Perfumes User Filter": `/api/perfumes?userFilter=${query || 'favorites'}`,
                 "Get Perfumes Huge Page": '/api/perfumes?page=2147483647',
                 "Get Perfumes Random Pool": '/api/perfumes?sort=votes&randomPool=500&pageSize=1',
+                "Get Perfumes Trending": '/api/perfumes?sort=trending&randomPool=100&pageSize=20',
+                "Get Perfumes Most Commented": '/api/perfumes?sort=comments&pageSize=20',
                 "Get Perfume Photos": `/api/perfumes/${perfumeSlug}/photos`,
             },
             "POST": {
@@ -70,9 +73,21 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
         "Admin": {
             "GET": {
                 "Admin Seed Status": '/api/admin/seed',
+                "Admin AI Status": '/api/admin/ai-status',
+                "Admin Contact Messages": '/api/admin/contact-messages?status=all',
+                "Admin Analytics": '/api/admin/analytics?days=30',
+                "Admin Blogs": '/api/admin/blogs',
+                "Admin Blogs Invalid Status": '/api/admin/blogs?status=gecersiz',
+                "Admin Perfume Comments": '/api/admin/comments?kind=perfume&take=5',
+                "Admin Comparison Comments": '/api/admin/comments?kind=comparison&take=5',
+                "Admin Comments Invalid Kind": '/api/admin/comments?kind=gecersiz',
+                "Admin Recommendations": '/api/admin/recommendations?take=5',
             },
             "POST": {
                 "Admin AI Summaries": '/api/admin/ai-summaries',
+                "Admin Seed Blogs": '/api/admin/seed/bloglar',
+                "Admin Hide Missing Comment": '/api/admin/comments/perfume/2147483647/hide',
+                "Admin Hide Comment Invalid Kind": '/api/admin/comments/gecersiz/1/hide',
             }
         },
 
@@ -107,6 +122,16 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
             },
             "POST": {
                 "Create Blog Post": '/api/blogs',
+            }
+        },
+
+        // ── Contact ──
+        "Contact": {
+            "GET": {
+                "Get Contact Form Token": '/api/contact/form-token',
+            },
+            "POST": {
+                "Submit Contact Message": '/api/contact',
             }
         },
 

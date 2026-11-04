@@ -6,6 +6,7 @@ import RichTextRenderer from "@/components/RichTextRenderer";
 import { formatDate, mediaUrl, blogHref, localeHref, searchHref } from "@/lib/urls";
 import { apiError, apiFetch } from "@/lib/api";
 import { absoluteUrl, jsonLd, LOGO_URL, pageMetadata, SITE_NAME, truncateDescription } from "@/lib/seo";
+import { GUIDE_CATEGORY } from "@/lib/constants";
 
 interface BlogPostDetail {
     id: number;
@@ -14,6 +15,7 @@ interface BlogPostDetail {
     body: string;
     excerpt?: string;
     coverImageUrl?: string;
+    category?: string | null;
     viewCount: number;
     publishedAt: string;
     authorName: string;
@@ -110,7 +112,9 @@ export default async function BlogDetailPage({ params }: PageProps) {
 
                 <header className="article-header">
                     <div className="article-kicker-row">
-                        <span className="article-kicker">Parfüm Rehberi &amp; İnceleme</span>
+                        <span className="article-kicker">
+                            {blog.category === GUIDE_CATEGORY ? "Site Kullanıcı Rehberi" : "Parfüm Rehberi & İnceleme"}
+                        </span>
                     </div>
 
                     <h1 className="article-title">{blog.title}</h1>

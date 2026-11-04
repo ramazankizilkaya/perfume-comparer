@@ -4,8 +4,8 @@ const { responseValidationSchemes } = require('./responseValidationSchemes');
 const constants = require('./constants');
 const payloads = require('./payloads');
 
-async function GetToken(world, payloadName = 'Dev Login') {
-    const endpoint = constants.resolveEndpoint('Dev Login');
+async function GetToken(world, payloadName = 'Dev Login', endpointName = 'Dev Login') {
+    const endpoint = constants.resolveEndpoint(endpointName);
     const payload = payloads.payloads[payloadName]();
 
     const options = {
@@ -24,7 +24,7 @@ async function GetToken(world, payloadName = 'Dev Login') {
     world.setVar('token', body.token);
     world.setVar('currentUser', body.user);
     world.requestHeaders['Authorization'] = `Bearer ${body.token}`;
-    Logger('✓ Authenticated successfully via Dev Login');
+    Logger(`✓ Authenticated successfully via ${endpointName}`);
     return body.token;
 }
 

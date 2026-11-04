@@ -6,6 +6,7 @@ import Icon from "./Icon";
 import PerfumeReviewModal from "./PerfumeReviewModal";
 import { useAuth } from "@/lib/stores";
 import { API_BASE } from "@/lib/urls";
+import { notifyCommentsChanged } from "@/lib/commentsRefresh";
 
 export default function PerfumeReviewButton({
     slug,
@@ -73,6 +74,7 @@ export default function PerfumeReviewButton({
                 onClose={() => setOpen(false)}
                 onReviewSubmitted={() => {
                     setHasEvaluated(true);
+                    notifyCommentsChanged(slug);
                     router.refresh();
                 }}
             />

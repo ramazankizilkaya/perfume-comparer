@@ -2,7 +2,7 @@
 #
 # Aura Compare — geliştirme ortamını tek komutla ayağa kaldırır.
 #   Backend  (.NET API)  -> http://localhost:5026
-#   Frontend (Next.js)   -> http://localhost:3000
+#   Frontend (Next.js)   -> https://localhost:3000
 #
 # Açılmadan önce bu portları tutan eski süreçleri kapatır, böylece
 # "address already in use" hatası almazsınız.
@@ -90,14 +90,16 @@ free_port "$WEB_PORT" "frontend"
 echo "▶  Backend  başlatılıyor → http://localhost:${API_PORT}"
 ( cd "$API_DIR" && exec dotnet run --launch-profile http ) &
 
-echo "▶  Frontend başlatılıyor → http://localhost:${WEB_PORT}"
+# Frontend HTTPS ile açılır: Facebook girişi (FB.login) http sayfalarda çalışmaz.
+# Next ilk açılışta mkcert ile yerel bir sertifika üretir (src/perfume-comparer-web/certificates/).
+echo "▶  Frontend başlatılıyor → https://localhost:${WEB_PORT}"
 rm -rf "$WEB_DIR/.next"
-( cd "$WEB_DIR" && exec env NODE_OPTIONS="--max-old-space-size=4096" npm run dev ) &
+( cd "$WEB_DIR" && exec env NODE_OPTIONS="--max-old-space-size=4096" npm run dev -- --experimental-https ) &
 
 if [ "$USE_NGROK" = 1 ]; then
     echo "▶  ngrok başlatılıyor → localhost:${WEB_PORT}"
     NGROK_LOG="$(mktemp -t ngrok-start)"
-    NGROK_ARGS=(http "$WEB_PORT" --log=stdout --log-level=warn)
+    NGROK_ARGS=(http "https://localhost:${WEB_PORT}" --log=stdout --log-level=warn)
     [ -n "${NGROK_DOMAIN:-}" ] && NGROK_ARGS+=(--url "$NGROK_DOMAIN")
     ( exec ngrok "${NGROK_ARGS[@]}" >"$NGROK_LOG" 2>&1 ) &
 

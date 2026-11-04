@@ -10,9 +10,6 @@ import { closeLogin, useLoginModalOpen } from "@/lib/loginModal";
 import { useAuth } from "@/lib/stores";
 import { privacyHref } from "@/lib/urls";
 
-/** Geliştirici (mock) girişi yalnızca geliştirme ortamında vardır; canlıda API de bu ucu kapatır. */
-const DEV_LOGIN_ENABLED = process.env.NODE_ENV !== "production";
-
 const anyProviderConfigured = googleConfigured || facebookConfigured;
 
 /**
@@ -25,10 +22,9 @@ export default function LoginModal() {
 }
 
 function LoginDialog() {
-    const { user, signInDev } = useAuth();
+    const { user } = useAuth();
     const pathname = usePathname();
     const cardRef = useRef<HTMLDivElement>(null);
-    const [busy, setBusy] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
     // Giriş tamamlanınca (hangi sağlayıcıyla olursa olsun) pencere kapanır.
@@ -77,49 +73,19 @@ function LoginDialog() {
                 onClick={(e) => e.stopPropagation()}
             >
                 <div className="review-modal-head">
-                    <div>
-                        <span className="eyebrow">Hesabınız</span>
-                        <h2 className="modal-title" id="login-modal-title">Giriş yap</h2>
-                    </div>
+                    <h2 className="modal-title" id="login-modal-title">Giriş yap</h2>
                     <button type="button" className="icon-btn" onClick={closeLogin} aria-label="Kapat">
                         <Icon name="close" size={16} />
                     </button>
                 </div>
 
                 <div className="login-modal-body">
-                    <p className="section-desc">Yorum yapmak ve puan vermek için hesabınızla giriş yapın.</p>
-
                     <div className="login-actions-col">
                         <GoogleSignIn onError={setError} />
                         <FacebookSignIn onError={setError} />
 
-                        {!anyProviderConfigured && !DEV_LOGIN_ENABLED && (
+                        {!anyProviderConfigured && (
                             <p className="form-note err">Giriş şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin.</p>
-                        )}
-
-                        {DEV_LOGIN_ENABLED && (
-                            <>
-                                <button
-                                    type="button"
-                                    className="dev-login-btn"
-                                    disabled={busy}
-                                    onClick={async () => {
-                                        setBusy(true);
-                                        setError(null);
-                                        const ok = await signInDev();
-                                        setBusy(false);
-                                        if (!ok) setError("Geliştirici girişi başarısız oldu. API'nin çalıştığından emin olun.");
-                                    }}
-                                >
-                                    {busy ? "Giriş yapılıyor…" : "Geliştirici girişi (mock)"}
-                                </button>
-
-                                {!googleConfigured && (
-                                    <p className="faint" style={{ fontSize: "var(--fs-xs)" }}>
-                                        Gerçek Google girişi için <code>NEXT_PUBLIC_GOOGLE_CLIENT_ID</code> tanımlı olmalı.
-                                    </p>
-                                )}
-                            </>
                         )}
 
                         {error && <p className="form-note err">{error}</p>}

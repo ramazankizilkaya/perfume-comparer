@@ -7,6 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using PerfumeComparer.Business.Ai;
 using PerfumeComparer.Business.Dtos;
 using PerfumeComparer.Data;
 using PerfumeComparer.Domain;
@@ -16,7 +17,7 @@ namespace PerfumeComparer.Business.Services;
 
 public class PerfumeAdvisorService(
     IUnitOfWork uow,
-    IGeminiClient gemini,
+    IAiClient ai,
     ILogger<PerfumeAdvisorService> logger) : IPerfumeAdvisorService
 {
     private static readonly ConcurrentDictionary<int, SemaphoreSlim> UserLocks = new();
@@ -234,7 +235,7 @@ public class PerfumeAdvisorService(
             return (candidates[0], GenerateFallbackAdvice(request, candidates[0]));
         }
 
-        if (!gemini.Enabled)
+        if (!ai.Enabled)
         {
             var fallback = candidates[0];
             return (fallback, GenerateFallbackAdvice(request, fallback));
@@ -282,7 +283,7 @@ public class PerfumeAdvisorService(
 
         try
         {
-            var result = await gemini.GenerateJsonAsync<AiAdvisorResult>(prompt, ct);
+            var result = await ai.GenerateJsonAsync<AiAdvisorResult>(prompt, ct);
             if (result is not null && result.SelectedPerfumeId > 0 && !string.IsNullOrWhiteSpace(result.PerfumerAdvice))
             {
                 var matched = candidates.FirstOrDefault(c => c.Id == result.SelectedPerfumeId);
@@ -294,7 +295,7 @@ public class PerfumeAdvisorService(
         }
         catch (Exception ex)
         {
-            logger.LogWarning(ex, "Parfümör Gemini tavsiyesi üretilemedi, yedek tavsiyeye geçiliyor.");
+            logger.LogWarning(ex, "Parfümör AI tavsiyesi üretilemedi, yedek tavsiyeye geçiliyor.");
         }
 
         var selected = candidates[0];

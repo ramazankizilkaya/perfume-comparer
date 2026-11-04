@@ -57,6 +57,11 @@ export default function PrivacyPolicyPage() {
                             Arama kutusuna yazdığınız
                             cümle ve &quot;Bana Parfüm Öner&quot; formuna girdiğiniz bilgiler.
                         </li>
+                        <li>
+                            <strong>İletişim formu.</strong> İletişim sayfasındaki formdan yazdığınız ad soyad,
+                            e-posta adresi ve mesaj. Bu bilgileri yalnızca size yanıt vermek için kullanırız. Aynı
+                            adresten gelen mesaj sayısını sınırlamak için gönderenin IP adresini de saklarız.
+                        </li>
                     </ul>
                 </section>
 

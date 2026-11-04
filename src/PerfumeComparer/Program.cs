@@ -9,6 +9,7 @@ using System.Threading.RateLimiting;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.EntityFrameworkCore;
+using PerfumeComparer.Business.Ai;
 using PerfumeComparer.Business.Services;
 using PerfumeComparer.Data;
 using PerfumeComparer.Data.Persistence;
@@ -67,24 +68,21 @@ try
     builder.Services.AddSingleton<ITokenService, TokenService>();
     builder.Services.AddSingleton<ICommentContentFilter, CommentContentFilter>();
     builder.Services.AddSingleton<IFacebookLoginVerifier, FacebookLoginVerifier>();
-    builder.Services.AddSingleton<IGeminiClient, GeminiClient>();
+    // Bütün AI istekleri tek router'dan geçer: Gemini → Groq → Mistral (ücretsiz) → DeepSeek (ücretli).
+    builder.Services.AddAiRouter(builder.Configuration);
     builder.Services.AddSingleton<IAiRequestGate, AiRequestGate>();
+    builder.Services.AddSingleton<IAdminPasswordGate, AdminPasswordGate>();
+    builder.Services.AddScoped<IAdminDashboardService, AdminDashboardService>();
     builder.Services.AddSingleton<MediaPaths>();
     builder.Services.AddScoped<IAiSearchPlanner, AiSearchPlanner>();
     builder.Services.AddScoped<ICompareAiService, CompareAiService>();
     builder.Services.AddScoped<IPerfumeAdvisorService, PerfumeAdvisorService>();
+    builder.Services.AddScoped<IContactMessageService, ContactMessageService>();
     builder.Services.AddMemoryCache();
 
     // AI özetleri: arka plan işi belirli aralıklarla yorumları özetleyip
-    // sonucu yorum tablosuna (is_ai_summary) yazar. Anthropic anahtarı varsa o
-    // kullanılır; yoksa ücretsiz Gemini istemcisine düşülür.
-    builder.Services.AddSingleton<AnthropicSummaryClient>();
-    builder.Services.AddSingleton<GeminiSummaryClient>();
-    builder.Services.AddSingleton<IAiSummaryClient>(sp =>
-    {
-        var anthropic = sp.GetRequiredService<AnthropicSummaryClient>();
-        return anthropic.IsEnabled ? anthropic : sp.GetRequiredService<GeminiSummaryClient>();
-    });
+    // sonucu yorum tablosuna (is_ai_summary) yazar. Özetler de merkezi router'dan geçer.
+    builder.Services.AddSingleton<IAiSummaryClient, AiSummaryClient>();
     builder.Services.AddSingleton<AiSummaryJob>();
     builder.Services.AddHostedService(sp => sp.GetRequiredService<AiSummaryJob>());
 
@@ -359,6 +357,11 @@ static void ValidateProductionConfig(IConfiguration config)
     // Facebook isteğe bağlıdır; ama yarım ayar sessizce "giriş çalışmıyor"a dönüşür.
     if (!string.IsNullOrWhiteSpace(config["Facebook:AppId"]) && string.IsNullOrWhiteSpace(config["Facebook:AppSecret"]))
         errors.Add("Facebook:AppId tanımlı ama Facebook:AppSecret yok (Facebook__AppSecret).");
+
+    // Panel şifresi isteğe bağlıdır; tanımlıysa tahmin edilemeyecek uzunlukta olmalı.
+    var adminPassword = config["Admin:Password"];
+    if (!string.IsNullOrWhiteSpace(adminPassword) && adminPassword.Trim().Length < 12)
+        errors.Add("Admin:Password en az 12 karakter olmalı (Admin__Password; üretmek için: openssl rand -base64 18).");
 
     if (string.IsNullOrWhiteSpace(config["Api:InternalKey"]))
         errors.Add("Api:InternalKey tanımlı değil (Api__InternalKey; Next.js API_INTERNAL_KEY ile aynı değer).");

@@ -59,7 +59,8 @@ export default function GoogleSignIn({
             } else {
                 const s = document.createElement("script");
                 s.id = "gsi-client";
-                s.src = "https://accounts.google.com/gsi/client";
+                // hl=tr: Google'ın ilk çizdiği geçici düğme de Türkçe olsun (yoksa önce İngilizce görünür).
+                s.src = "https://accounts.google.com/gsi/client?hl=tr";
                 s.async = true;
                 s.defer = true;
                 s.onload = render;

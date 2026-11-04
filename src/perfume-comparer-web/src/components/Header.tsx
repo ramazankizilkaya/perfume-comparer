@@ -1,12 +1,15 @@
 "use client";
 
-import { useState, useEffect, useRef, useSyncExternalStore } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 import Icon from "./Icon";
-import GenderControl, { MobileGenderOptions } from "./GenderControl";
+import { GenderPrompt, GENDER_PROMPT_LABEL } from "./GenderControl";
+import { openGenderPrompt } from "@/lib/genderPrompt";
 import UserMenu, { MobileAccount } from "./UserMenu";
 import PerfumeAdvisorModal from "./PerfumeAdvisorModal";
+import DarkModeSwitch from "./DarkModeSwitch";
+import { useTheme } from "@/lib/theme";
 import { API_BASE, perfumeHref, brandHref, blogHref, searchHref, compareHref, localeHref, genderLabel, mediaUrl } from "@/lib/urls";
 
 interface AutocompletePerfume {
@@ -56,39 +59,6 @@ interface AutocompleteData {
 
 const EMPTY: AutocompleteData = { perfumes: [], brands: [], notes: [], accords: [], blogs: [] };
 
-type Theme = "light" | "dark";
-const THEME_KEY = "theme";
-// localStorage kapalıysa (gizli pencere, site verisi engeli) tema sayfa açık kaldığı sürece burada yaşar.
-let memoryTheme: Theme = "light";
-const themeListeners = new Set<() => void>();
-
-function readTheme(): Theme {
-    try {
-        const saved = localStorage.getItem(THEME_KEY);
-        if (saved === "dark" || saved === "light") return saved;
-    } catch {
-        /* erişim yok; bellek yedeği kullanılır */
-    }
-    return memoryTheme;
-}
-
-function writeTheme(next: Theme): void {
-    memoryTheme = next;
-    try {
-        localStorage.setItem(THEME_KEY, next);
-    } catch {
-        /* kaydedilemese de bu oturumda tema değişir */
-    }
-    themeListeners.forEach((fn) => fn());
-}
-
-function subscribeTheme(cb: () => void): () => void {
-    themeListeners.add(cb);
-    return () => {
-        themeListeners.delete(cb);
-    };
-}
-
 export default function Header() {
     const [query, setQuery] = useState("");
     // Öneriler ve yapay zekâ sonucu, ait oldukları sorguyla birlikte saklanır; sorgu değişince
@@ -106,16 +76,25 @@ export default function Header() {
     const pathname = usePathname();
     const isSearchPage = pathname?.includes("/ara") || pathname?.includes("/detayli-arama");
     const mobileNavOpen = navOpenPath !== null && navOpenPath === pathname;
+
+    // Bulunulan sayfanın menü bağlantısı vurgulanır. Anasayfa yalnızca tam eşleşmede,
+    // diğerleri alt sayfalarda da (ör. /tr/marka/dior → Markalar) etkin sayılır.
+    const isActive = (href: string) => {
+        const base = href.split("?")[0];
+        const path = pathname?.replace(/\/$/, "") ?? "";
+        if (base === localeHref("/")) return path === base;
+        if (base === searchHref() && isSearchPage) return true;
+        return path === base || path.startsWith(`${base}/`);
+    };
+    const navCls = (base: string, href: string) => `${base}${isActive(href) ? " active" : ""}`;
+    const current = (href: string) => (isActive(href) ? ("page" as const) : undefined);
     const closeMobileNav = () => setNavOpenPath(null);
 
-    // Tema: sunucuda ve hydration sırasında "light", tarayıcıda kayıtlı değer.
-    const theme = useSyncExternalStore(subscribeTheme, readTheme, () => "light" as Theme);
+    const { theme } = useTheme();
 
     useEffect(() => {
         document.body.classList.toggle("dark-mode", theme === "dark");
     }, [theme]);
-
-    const toggleTheme = () => writeTheme(theme === "dark" ? "light" : "dark");
 
     const q = query.trim();
     const results: AutocompleteData = q.length >= 2 && fetched ? fetched.data : EMPTY;
@@ -261,6 +240,7 @@ export default function Header() {
                     </Link>
 
                     <nav className="site-nav">
+                        <Link href={localeHref("/")} className={navCls("nav-link nav-link-home", localeHref("/"))} aria-current={current(localeHref("/"))}>Anasayfa</Link>
                         <button
                             type="button"
                             className="nav-link nav-btn-advisor"
@@ -270,27 +250,10 @@ export default function Header() {
                             <Icon name="sparkle" size={14} />
                             <span>Bana Parfüm Öner</span>
                         </button>
-                        <Link href={compareHref()} className="nav-link">Karşılaştır</Link>
-                        <Link href={searchHref()} className="nav-link">Detaylı Arama</Link>
-                        <Link href={brandHref()} className="nav-link nav-link-late">Markalar</Link>
-                        <Link href={blogHref()} className="nav-link nav-link-late">Rehber</Link>
-                        <Link
-                            href={localeHref("/")}
-                            className="icon-btn home-btn"
-                            aria-label="Anasayfa"
-                            data-tooltip="Anasayfa"
-                        >
-                            <Icon name="home" size={17} />
-                        </Link>
-                        <GenderControl />
-                        <button
-                            className="icon-btn theme-toggle-btn"
-                            onClick={toggleTheme}
-                            aria-label="Temayı değiştir"
-                            data-tooltip={theme === "dark" ? "Aydınlık Mod" : "Karanlık Mod"}
-                        >
-                            <Icon name={theme === "dark" ? "sun" : "moon"} />
-                        </button>
+                        <Link href={compareHref()} className={navCls("nav-link", compareHref())} aria-current={current(compareHref())}>Karşılaştır</Link>
+                        <Link href={searchHref()} className={navCls("nav-link", searchHref())} aria-current={current(searchHref())}>Detaylı Arama</Link>
+                        <Link href={brandHref()} className={navCls("nav-link nav-link-late", brandHref())} aria-current={current(brandHref())}>Markalar</Link>
+                        <Link href={blogHref()} className={navCls("nav-link nav-link-late", blogHref())} aria-current={current(blogHref())}>Rehber</Link>
                         <UserMenu />
                         <button
                             type="button"
@@ -316,6 +279,10 @@ export default function Header() {
                         />
                         <div className="shell mobile-nav-panel">
                             <div className="mobile-nav-links" role="dialog" aria-label="Mobil Menü">
+                                <Link href={localeHref("/")} className={navCls("mobile-nav-link mobile-nav-early", localeHref("/"))} aria-current={current(localeHref("/"))} onClick={closeMobileNav}>
+                                    <Icon name="home" size={16} />
+                                    <span>Anasayfa</span>
+                                </Link>
                                 <button
                                     type="button"
                                     className="mobile-nav-link mobile-nav-early mobile-advisor-btn"
@@ -327,34 +294,37 @@ export default function Header() {
                                     <Icon name="sparkle" size={16} />
                                     <span>Bana Parfüm Öner</span>
                                 </button>
-                                <Link href={localeHref("/")} className="mobile-nav-link mobile-nav-early" onClick={closeMobileNav}>
-                                    <Icon name="home" size={16} />
-                                    <span>Anasayfa</span>
-                                </Link>
-                                <Link href={compareHref()} className="mobile-nav-link mobile-nav-early" onClick={closeMobileNav}>
+                                <Link href={compareHref()} className={navCls("mobile-nav-link mobile-nav-early", compareHref())} aria-current={current(compareHref())} onClick={closeMobileNav}>
                                     <Icon name="swap" size={16} />
                                     <span>Karşılaştır</span>
                                 </Link>
-                                <Link href={searchHref()} className="mobile-nav-link mobile-nav-early" onClick={closeMobileNav}>
+                                <Link href={searchHref()} className={navCls("mobile-nav-link mobile-nav-early", searchHref())} aria-current={current(searchHref())} onClick={closeMobileNav}>
                                     <Icon name="search" size={16} />
                                     <span>Detaylı Arama</span>
                                 </Link>
-                                <Link href={brandHref()} className="mobile-nav-link" onClick={closeMobileNav}>
+                                <Link href={brandHref()} className={navCls("mobile-nav-link", brandHref())} aria-current={current(brandHref())} onClick={closeMobileNav}>
                                     <Icon name="layers" size={16} />
                                     <span>Markalar</span>
                                 </Link>
-                                <Link href={blogHref()} className="mobile-nav-link" onClick={closeMobileNav}>
+                                <Link href={blogHref()} className={navCls("mobile-nav-link", blogHref())} aria-current={current(blogHref())} onClick={closeMobileNav}>
                                     <Icon name="calendar" size={16} />
                                     <span>Rehber</span>
                                 </Link>
 
                                 <div className="mobile-only-group">
                                     <div className="mobile-menu-divider" />
-                                    <MobileGenderOptions />
-                                    <button type="button" className="mobile-nav-link mobile-theme-btn" onClick={toggleTheme}>
-                                        <Icon name={theme === "dark" ? "sun" : "moon"} size={16} />
-                                        <span>{theme === "dark" ? "Aydınlık Mod" : "Karanlık Mod"}</span>
+                                    <button
+                                        type="button"
+                                        className="mobile-nav-link"
+                                        onClick={() => {
+                                            closeMobileNav();
+                                            openGenderPrompt();
+                                        }}
+                                    >
+                                        <Icon name="filter" size={16} />
+                                        <span>{GENDER_PROMPT_LABEL}</span>
                                     </button>
+                                    <DarkModeSwitch className="mobile-nav-link" />
 
                                     <div className="mobile-menu-divider" />
                                     <MobileAccount onNavigate={closeMobileNav} />
@@ -521,6 +491,7 @@ export default function Header() {
             </div>
             )}
             <PerfumeAdvisorModal isOpen={advisorOpen} onClose={() => setAdvisorOpen(false)} />
+            <GenderPrompt />
         </header>
     );
 }

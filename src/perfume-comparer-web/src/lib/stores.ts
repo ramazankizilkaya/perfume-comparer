@@ -80,7 +80,11 @@ export async function authFetch(input: string, init: RequestInit = {}): Promise<
 import { MAX_COMPARE } from "./constants";
 export { MAX_COMPARE };
 
-/** Cinsiyet tercihi: ilk ziyarette null (hepsi) → kullanıcı tek veya çoklu seçebilir ("erkek", "erkek,unisex", vb.). */
+/**
+ * Cinsiyet tercihi: tek veya çoklu seçim ("erkek", "erkek,unisex", vb.).
+ * Saklanan değer null ise kullanıcıya henüz sorulmamıştır (asked=false); "Hepsi" seçimi
+ * "all" olarak saklanır ki ilk ziyaret sorusu bir daha çıkmasın.
+ */
 export function useGenderPref() {
     const [rawGender, setRawGender, ready] = useLocalState<string | null>("gender-pref", null);
 
@@ -113,7 +117,7 @@ export function useGenderPref() {
                 norm = Array.from(new Set(parts)).join(",");
             }
         }
-        setRawGender(norm);
+        setRawGender(norm ?? "all");
         if (typeof document !== "undefined") {
             if (norm) {
                 document.cookie = `gender-pref=${encodeURIComponent(JSON.stringify(norm))}; path=/; max-age=31536000; SameSite=Lax`;
@@ -147,7 +151,9 @@ export function useGenderPref() {
         }
     }, [gender, ready]);
 
-    return { gender, selectedGenders, toggleGender, setGender, ready };
+    const asked = rawGender !== null;
+
+    return { gender, selectedGenders, toggleGender, setGender, ready, asked };
 }
 
 export function useFavorites() {
@@ -218,7 +224,6 @@ export function useRecentPerfumes() {
  *
  * - signInGoogle(credential): gerçek Google ID token'ı backend'de doğrulanır.
  * - signInFacebook(credential): Facebook erişim jetonu backend'de Graph API ile doğrulanır.
- * - signInDev(): gerçek Google olmadan mock Google claim'leri üretir (dev-only).
  */
 export function useAuth() {
     const [storedSession, setSession, ready] = useLocalState<Session | null>(SESSION_KEY, null);
@@ -257,8 +262,6 @@ export function useAuth() {
         [exchange],
     );
 
-    const signInDev = useCallback(() => exchange("dev-login", {}), [exchange]);
-
     const signOut = useCallback(() => setSession(null), [setSession]);
 
     return {
@@ -266,7 +269,6 @@ export function useAuth() {
         token: session?.token ?? null,
         signInGoogle,
         signInFacebook,
-        signInDev,
         signOut,
         ready,
     };

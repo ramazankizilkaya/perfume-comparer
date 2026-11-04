@@ -19,6 +19,7 @@ export default async function Home() {
         blogs: [],
         explorePerfumes: [],
         popularPerfumes: [],
+        mostViewedPerfumes: [],
         comparisons: [],
         randomBrands: [],
         newestPerfumes: [],
@@ -46,7 +47,7 @@ export default async function Home() {
     const g = normGender && normGender !== "all" ? `&gender=${normGender}` : "";
 
     try {
-        // Anasayfa verisi 60 saniye önbellekte kalır: her ziyarette 9 ayrı API çağrısı
+        // Anasayfa verisi 60 saniye önbellekte kalır: her ziyarette 10 ayrı API çağrısı
         // yerine dakikada bir yenilenir. Rastgele bölümler dakikada bir değişir, bu yeterli.
         // randomPool=100: API sıralı listeleri 100 ile sınırlar; daha büyük havuz istemek
         // anlamsızdır (bkz. CatalogService Take(100)).
@@ -55,6 +56,7 @@ export default async function Home() {
             blogsRes,
             exploreRes,
             popRes,
+            viewedRes,
             compRes,
             brandsRes,
             newRes,
@@ -64,7 +66,8 @@ export default async function Home() {
         ] = await Promise.all([
             apiFetch(`/api/blogs?random=true&take=5`, cacheOpt),
             apiFetch(`/api/perfumes?sort=random&pageSize=20${g}`, cacheOpt),
-            apiFetch(`/api/perfumes?sort=views&randomPool=100&pageSize=20${g}`, cacheOpt),
+            apiFetch(`/api/perfumes?sort=trending&randomPool=100&pageSize=20${g}`, cacheOpt),
+            apiFetch(`/api/perfumes?sort=views&pageSize=20${g}`, cacheOpt),
             apiFetch(`/api/compare/popular`, cacheOpt),
             apiFetch(`/api/brands/random?count=20`, cacheOpt),
             apiFetch(`/api/perfumes?sort=newest&randomPool=100&pageSize=20${g}`, cacheOpt),
@@ -77,6 +80,7 @@ export default async function Home() {
             blogs: blogsRes.ok ? (await blogsRes.json()).slice(0, 5) : [],
             explorePerfumes: exploreRes.ok ? (await exploreRes.json()).items ?? [] : [],
             popularPerfumes: popRes.ok ? (await popRes.json()).items ?? [] : [],
+            mostViewedPerfumes: viewedRes.ok ? (await viewedRes.json()).items ?? [] : [],
             comparisons: compRes.ok ? await compRes.json() : [],
             randomBrands: brandsRes.ok ? await brandsRes.json() : [],
             newestPerfumes: newRes.ok ? (await newRes.json()).items ?? [] : [],

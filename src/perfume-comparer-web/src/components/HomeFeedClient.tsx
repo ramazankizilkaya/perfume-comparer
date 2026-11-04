@@ -8,11 +8,13 @@ import BlogSlider, { type BlogPost } from "./BlogSlider";
 import BrandCard, { type BrandCardData } from "./BrandCard";
 import { API_BASE, brandHref, localeHref, searchHref } from "@/lib/urls";
 import { useGenderPref, useRecentPerfumes } from "@/lib/stores";
+import { openGenderPrompt } from "@/lib/genderPrompt";
 
 export interface HomeFeedData {
     blogs: BlogPost[];
     explorePerfumes: PerfumeCardData[];
     popularPerfumes: PerfumeCardData[];
+    mostViewedPerfumes: PerfumeCardData[];
     comparisons: ComparisonPairData[];
     randomBrands: BrandCardData[];
     newestPerfumes: PerfumeCardData[];
@@ -53,26 +55,23 @@ export default function HomeFeedClient({
 }) {
     const [data, setData] = useState<HomeFeedData>(initialData);
     const [isFiltering, setIsFiltering] = useState(false);
-    const { gender, ready: genderReady } = useGenderPref();
+    const { gender, ready: genderReady, asked: genderAsked } = useGenderPref();
     const { items: recentPerfumes, ready: recentReady } = useRecentPerfumes();
-    const mountedRef = useRef(false);
-    const prevGenderRef = useRef<string | null>(initialGender ?? null);
+    // Sunucu verisi (initialData) çerezdeki cinsiyete göre getirilmiştir. Tarayıcıdaki
+    // tercih bununla aynıysa yeniden istek atılmaz; farklıysa (ilk ziyaret sorusu
+    // cevaplandı ya da kullanıcı menüden değiştirdi) slider'lar yeni tercihle doldurulur.
+    const prevGenderRef = useRef<string | null>(
+        initialGender && initialGender !== "all" ? initialGender : null,
+    );
+
+    // Tercih yalnızca anasayfa listelerini etkiler; bu yüzden ilk ziyaret sorusu yalnızca anasayfada açılır.
+    useEffect(() => {
+        if (genderReady && !genderAsked) openGenderPrompt();
+    }, [genderReady, genderAsked]);
 
     useEffect(() => {
         if (!genderReady) return;
-
-        // İlk renderda sunucu verisi (initialData) zaten çerezdeki cinsiyete göre getirilmiştir.
-        // Asla ilk yüklemede tekrar istek atıp slider'daki kartları kullanıcının gözü önünde değiştirmeyiz!
-        if (!mountedRef.current) {
-            mountedRef.current = true;
-            prevGenderRef.current = gender;
-            return;
-        }
-
-        // Kullanıcı dropdown üzerinden cinsiyeti aktif olarak değiştirmediyse istek atma
-        if (prevGenderRef.current === gender) {
-            return;
-        }
+        if (prevGenderRef.current === gender) return;
 
         prevGenderRef.current = gender;
         const g = gender && gender !== "all" ? `&gender=${gender}` : "";
@@ -86,6 +85,7 @@ export default function HomeFeedClient({
                 const [
                     exploreRes,
                     popRes,
+                    viewedRes,
                     compRes,
                     newRes,
                     commRes,
@@ -93,7 +93,8 @@ export default function HomeFeedClient({
                     topRes,
                 ] = await Promise.all([
                     fetch(`${API_BASE}/api/perfumes?sort=random&pageSize=20${g}`, { signal }),
-                    fetch(`${API_BASE}/api/perfumes?sort=views&randomPool=100&pageSize=20${g}`, { signal }),
+                    fetch(`${API_BASE}/api/perfumes?sort=trending&randomPool=100&pageSize=20${g}`, { signal }),
+                    fetch(`${API_BASE}/api/perfumes?sort=views&pageSize=20${g}`, { signal }),
                     fetch(`${API_BASE}/api/compare/popular`, { signal }),
                     fetch(`${API_BASE}/api/perfumes?sort=newest&randomPool=100&pageSize=20${g}`, { signal }),
                     fetch(`${API_BASE}/api/perfumes?sort=comments&randomPool=100&pageSize=20${g}`, { signal }),
@@ -104,6 +105,7 @@ export default function HomeFeedClient({
                 const [
                     exploreJson,
                     popJson,
+                    viewedJson,
                     compJson,
                     newJson,
                     commJson,
@@ -112,6 +114,7 @@ export default function HomeFeedClient({
                 ] = await Promise.all([
                     exploreRes.ok ? exploreRes.json() : Promise.resolve(null),
                     popRes.ok ? popRes.json() : Promise.resolve(null),
+                    viewedRes.ok ? viewedRes.json() : Promise.resolve(null),
                     compRes.ok ? compRes.json() : Promise.resolve(null),
                     newRes.ok ? newRes.json() : Promise.resolve(null),
                     commRes.ok ? commRes.json() : Promise.resolve(null),
@@ -124,6 +127,7 @@ export default function HomeFeedClient({
                     ...prev,
                     explorePerfumes: exploreJson?.items ?? prev.explorePerfumes,
                     popularPerfumes: popJson?.items ?? prev.popularPerfumes,
+                    mostViewedPerfumes: viewedJson?.items ?? prev.mostViewedPerfumes,
                     comparisons: compJson ?? prev.comparisons,
                     newestPerfumes: newJson?.items ?? prev.newestPerfumes,
                     mostCommentedPerfumes: commJson?.items ?? prev.mostCommentedPerfumes,
@@ -172,11 +176,11 @@ export default function HomeFeedClient({
                 </HorizontalSlider>
             )}
 
-            {/* 3. Popüler Parfümler (En İyi 500 Havuzundan Rastgele 20) */}
+            {/* 3. Popüler Parfümler (son 7 günün ziyaretine göre ilk 100'den rastgele 20) */}
             {(isFiltering || data.popularPerfumes.length > 0) && (
                 <HorizontalSlider
                     title="Popüler Parfümler"
-                    viewAllHref={`${searchHref({ sort: "views" })}${gParam}`}
+                    viewAllHref={`${searchHref({ sort: "trending" })}${gParam}`}
                 >
                     {isFiltering ? (
                         <SliderSkeletons />
@@ -215,6 +219,24 @@ export default function HomeFeedClient({
                             <BrandCard brand={b} />
                         </div>
                     ))}
+                </HorizontalSlider>
+            )}
+
+            {/* En Çok Ziyaret Edilenler (tekil ziyaret sayısına göre ilk 20, sıralı) */}
+            {(isFiltering || data.mostViewedPerfumes.length > 0) && (
+                <HorizontalSlider
+                    title="En Çok Ziyaret Edilenler"
+                    viewAllHref={`${searchHref({ sort: "views" })}${gParam}`}
+                >
+                    {isFiltering ? (
+                        <SliderSkeletons />
+                    ) : (
+                        data.mostViewedPerfumes.map((p) => (
+                            <div key={p.slug} className="slider-item">
+                                <PerfumeCard perfume={p} />
+                            </div>
+                        ))
+                    )}
                 </HorizontalSlider>
             )}
 

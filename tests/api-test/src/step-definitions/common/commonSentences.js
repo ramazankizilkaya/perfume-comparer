@@ -12,6 +12,10 @@ Given('I am authenticated as admin', async function () {
     await apiFunctions.GetToken(this, 'Dev Login Admin');
 });
 
+Given('I am authenticated with the admin panel password', async function () {
+    await apiFunctions.GetToken(this, 'Admin Login Valid', 'Admin Login');
+});
+
 Given('I have an invalid authorization token', function () {
     this.setVar('token', 'invalid-tampered-jwt-token');
     this.requestHeaders['Authorization'] = 'Bearer invalid-tampered-jwt-token';
