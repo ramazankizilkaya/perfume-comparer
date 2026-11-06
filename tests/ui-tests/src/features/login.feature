@@ -11,7 +11,7 @@ Feature: Login modal and session management
         When I navigate to "Home" page
         And I open the login modal from the header
         Then element "Login Modal" should be displayed
-        And element "Login Developer Button" should be displayed
+        And element "Login Modal Title" should be displayed
         And element "Login Modal Privacy Link" should be displayed
         And no horizontal overflow should be detected on the page
 

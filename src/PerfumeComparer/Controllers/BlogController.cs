@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PerfumeComparer.Business.Services;
@@ -6,6 +7,7 @@ using PerfumeComparer.Data.Persistence;
 using PerfumeComparer.Domain;
 using PerfumeComparer.Domain.Entities;
 using System;
+using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -14,7 +16,7 @@ namespace PerfumeComparer.Controllers;
 
 [ApiController]
 [Route("api/blogs")]
-public class BlogController(AppDbContext db, ITokenService tokens) : ControllerBase
+public class BlogController(AppDbContext db, ITokenService tokens, IImageWebpService imageWebp) : ControllerBase
 {
     [HttpGet]
     public async Task<IActionResult> GetBlogs([FromQuery] bool random = false, [FromQuery] int? take = null, CancellationToken ct = default)
@@ -123,6 +125,38 @@ public class BlogController(AppDbContext db, ITokenService tokens) : ControllerB
 
     public record CreateBlogPostDto(string Title, string Body, string? Excerpt, string? CoverImageUrl);
 
+    /// <summary>Blog kapak veya içerik görseli yükleme: JPG/PNG/WebP alır, WebP olarak kaydeder.</summary>
+    [HttpPost("upload-image")]
+    public async Task<IActionResult> UploadBlogImage(IFormFile image, CancellationToken ct)
+    {
+        var principal = tokens.Validate(Request.Headers.Authorization.ToString());
+        if (principal == null || !await db.Users.AnyAsync(u => u.Id == principal.UserId, ct))
+            return Unauthorized(new { message = "Görsel yüklemek için giriş yapmalısınız." });
+
+        if (image == null || image.Length == 0)
+            return BadRequest(new { message = "Lütfen geçerli bir görsel dosyası seçin." });
+
+        if (image.Length > ImageWebpService.MaxImageBytes)
+            return BadRequest(new { message = "Görsel boyutu 10MB'dan küçük olmalıdır." });
+
+        byte[] fileBytes;
+        using (var ms = new MemoryStream())
+        {
+            await image.CopyToAsync(ms, ct);
+            fileBytes = ms.ToArray();
+        }
+
+        if (imageWebp.DetectMimeType(fileBytes) is null)
+            return BadRequest(new { message = "Yalnızca JPG, PNG veya WebP görsel yükleyebilirsiniz." });
+
+        var webpBytes = await imageWebp.ConvertToWebpAsync(fileBytes, ct);
+        if (webpBytes is null)
+            return BadRequest(new { message = "Görsel işlenemedi. Lütfen geçerli bir JPG, PNG veya WebP dosyası seçin." });
+
+        var imageUrl = await imageWebp.SaveWebpAsync(webpBytes, "blogs", ct);
+        return Ok(new { imageUrl });
+    }
+
     /// <summary>Yazı gönderimi giriş ister; yazı Pending durumunda kaydedilir ve admin onayı bekler.</summary>
     [HttpPost]
     public async Task<IActionResult> CreateBlog([FromBody] CreateBlogPostDto dto, CancellationToken ct)
@@ -132,11 +166,14 @@ public class BlogController(AppDbContext db, ITokenService tokens) : ControllerB
             return BadRequest(new { message = "Başlık ve içerik alanları zorunludur." });
         }
 
-        if (dto.Title.Trim().Length > 200)
-            return BadRequest(new { message = "Başlık en fazla 200 karakter olabilir." });
+        if (dto.Title.Trim().Length > BlogPost.MaxTitleLength)
+            return BadRequest(new { message = $"Başlık en fazla {BlogPost.MaxTitleLength} karakter olabilir." });
 
-        if (dto.Excerpt is { Length: > 500 })
-            return BadRequest(new { message = "Özet en fazla 500 karakter olabilir." });
+        if (dto.Body.Trim().Length > BlogPost.MaxBodyLength)
+            return BadRequest(new { message = $"İçerik en fazla {BlogPost.MaxBodyLength} karakter olabilir." });
+
+        if (dto.Excerpt is { Length: > BlogPost.MaxExcerptLength })
+            return BadRequest(new { message = $"Özet en fazla {BlogPost.MaxExcerptLength} karakter olabilir." });
 
         var principal = tokens.Validate(Request.Headers.Authorization.ToString());
         if (principal == null)
@@ -146,6 +183,16 @@ public class BlogController(AppDbContext db, ITokenService tokens) : ControllerB
         if (!await db.Users.AnyAsync(u => u.Id == authorId, ct))
             return Unauthorized(new { message = "Oturum geçersiz. Lütfen tekrar giriş yapın." });
 
+        string coverUrl = "/blog_backgrounds/parfum-dunyasinda-2026-sonbahari.webp";
+        if (!string.IsNullOrWhiteSpace(dto.CoverImageUrl))
+        {
+            var normalizedCover = await imageWebp.NormalizeBlogImageAsync(dto.CoverImageUrl, ct);
+            if (normalizedCover is null)
+                return BadRequest(new { message = "Geçersiz kapak görseli. Lütfen geçerli bir görsel yükleyin veya WebP görsel adresi girin." });
+            coverUrl = normalizedCover;
+        }
+
+        var normalizedBody = await imageWebp.NormalizeMarkdownImagesAsync(dto.Body.Trim(), ct);
         var slug = Domain.SlugHelper.Slugify(dto.Title) + "-" + DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString();
 
         var newPost = new BlogPost
@@ -153,9 +200,9 @@ public class BlogController(AppDbContext db, ITokenService tokens) : ControllerB
             AuthorUserId = authorId,
             Title = dto.Title.Trim(),
             Slug = slug,
-            Body = dto.Body,
-            Excerpt = dto.Excerpt ?? (dto.Body.Length > 150 ? dto.Body[..150] + "..." : dto.Body),
-            CoverImageUrl = dto.CoverImageUrl ?? "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=800",
+            Body = normalizedBody,
+            Excerpt = dto.Excerpt ?? (normalizedBody.Length > 150 ? normalizedBody[..150] + "..." : normalizedBody),
+            CoverImageUrl = coverUrl,
             Status = BlogPostStatus.Pending, // Admin onayı bekleyecek
             CreatedAt = DateTimeOffset.UtcNow,
             UpdatedAt = DateTimeOffset.UtcNow

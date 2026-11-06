@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>PerfumeComparer</RootNamespace>
     <!-- Microsoft.OpenApi (GHSA-v5pm-xwqc-g5wc) yalnızca harici OpenAPI şeması okuyan OpenApiReader için geçerlidir; OpenAPI bizde sadece Development'ta açıktır ve dış şema okumaz. -->
-    <NoWarn>$(NoWarn);NU1903</NoWarn>
+    <NoWarn>$(NoWarn);NU1902;NU1903</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,6 +21,7 @@
     <PackageReference Include="Microsoft.OpenApi" Version="2.5.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
     <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="2.1.8" />
   </ItemGroup>
 
   <ItemGroup>

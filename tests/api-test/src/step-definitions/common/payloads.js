@@ -46,6 +46,10 @@ const payloads = {
         title: "Test yazısı",
         body: "Test içeriği."
     }),
+    "Create Blog Post Body Too Long": () => ({
+        title: "Çok uzun yazı başlığı",
+        body: "a".repeat(50001)
+    }),
     "Empty Google Credential": () => ({
         credential: ""
     }),
@@ -125,6 +129,13 @@ const payloads = {
         longevity: "long_lasting",
         sillage: "strong",
         comment: "Harika bir koku deneyimi."
+    }),
+    "Submit Review With Seasons": () => ({
+        score: 5,
+        longevity: "long_lasting",
+        sillage: "strong",
+        seasons: ["spring", "autumn"],
+        comment: "İlkbahar ve sonbahar için çok dengeli bir koku."
     }),
     "Review Profane Comment": () => ({
         score: 5,

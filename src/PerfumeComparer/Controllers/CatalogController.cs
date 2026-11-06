@@ -24,7 +24,7 @@ public class CatalogController(
     AiSummaryJob aiSummary,
     IAiRequestGate aiGate,
     ICommentContentFilter commentFilter,
-    MediaPaths media) : ControllerBase
+    IImageWebpService imageWebp) : ControllerBase
 {
     [HttpGet("perfumes")]
     public async Task<IActionResult> GetPerfumes([FromQuery] PerfumeListQuery query, CancellationToken ct)
@@ -450,7 +450,10 @@ public class CatalogController(
             }
         }
 
-        // 7. Kullanıcının bildirdiği benzer / hatırlatan parfümler.
+        // 7. Mevsim oyları: seçilen mevsimlerin oy sayısını artır ve 0-100 normalize skoru güncelle.
+        await SaveSeasonsAsync(perfume.Id, dto.Seasons, ct);
+
+        // 8. Kullanıcının bildirdiği benzer / hatırlatan parfümler.
         // Slug'lar id'ye çevrilip perfume_alternatives merge tablosuna yazılır;
         // aynı ikili tekrar gelirse tarihi tazelenir, böylece listenin başına geçer.
         await SaveRelationsAsync(perfume.Id, dto.RemindsOfPerfumes, PerfumeRelationKind.RemindsMeOf, ct);
@@ -467,6 +470,62 @@ public class CatalogController(
         }
 
         return Ok(new { message = "Değerlendirmeniz başarıyla kaydedildi!" });
+    }
+
+    private static Season? ParseSeasonVote(string? value) => value?.Trim().ToLowerInvariant() switch
+    {
+        "spring" or "ilkbahar" => Season.Spring,
+        "summer" or "yaz" => Season.Summer,
+        "autumn" or "fall" or "sonbahar" => Season.Autumn,
+        "winter" or "kis" or "kış" => Season.Winter,
+        _ => null,
+    };
+
+    private async Task SaveSeasonsAsync(int perfumeId, string[]? rawSeasons, CancellationToken ct)
+    {
+        if (rawSeasons is null || rawSeasons.Length == 0) return;
+
+        var selected = rawSeasons
+            .Select(ParseSeasonVote)
+            .Where(s => s.HasValue)
+            .Select(s => s!.Value)
+            .Distinct()
+            .ToArray();
+
+        if (selected.Length == 0) return;
+
+        var rows = await db.PerfumeSeasons
+            .Where(s => s.PerfumeId == perfumeId)
+            .ToListAsync(ct);
+
+        foreach (var season in selected)
+        {
+            var row = rows.FirstOrDefault(r => r.Season == season);
+            if (row is null)
+            {
+                row = new PerfumeSeason
+                {
+                    PerfumeId = perfumeId,
+                    Season = season,
+                    Votes = 1,
+                    Score = 0,
+                };
+                rows.Add(row);
+                db.PerfumeSeasons.Add(row);
+            }
+            else
+            {
+                row.Votes++;
+            }
+        }
+
+        var maxVotes = rows.Count > 0 ? rows.Max(r => r.Votes) : 0;
+        foreach (var row in rows)
+        {
+            row.Score = maxVotes > 0
+                ? (short)Math.Round(row.Votes * 100.0 / maxVotes)
+                : (short)0;
+        }
     }
 
     /// <summary>
@@ -581,14 +640,16 @@ public class CatalogController(
         }
 
         // Dosya türü adından değil ilk baytlarından belirlenir; yalnızca JPG, PNG, WebP.
-        var detected = DetectImageType(fileBytes);
-        if (detected is null)
+        var mimeType = imageWebp.DetectMimeType(fileBytes);
+        if (mimeType is null)
             return BadRequest(new { message = "Yalnızca JPG, PNG veya WebP görsel yükleyebilirsiniz." });
 
-        var (mimeType, ext) = detected.Value;
+        var webpBytes = await imageWebp.ConvertToWebpAsync(fileBytes, ct);
+        if (webpBytes is null)
+            return BadRequest(new { message = "Yalnızca JPG, PNG veya WebP görsel yükleyebilirsiniz." });
 
-        // Yapay zekâ ile görsel doğrulama (görsel destekleyen sağlayıcılar). Reddederse dosya kaydedilmez; AI kapalıysa ya da
-        // cevap veremezse fotoğraf kaydedilir ama "onay bekliyor" olarak gizli kalır.
+        // Yapay zekâ ile görsel doğrulama (görsel destekleyen sağlayıcılar). Reddederse dosya kaydedilmez;
+        // geçerse WebP olarak kaydedilir ve admin onayına düşer (IsApproved = false).
         PhotoVerdict? verdict = null;
         if (ai.Enabled)
         {
@@ -603,7 +664,7 @@ public class CatalogController(
                   "isValid": true veya false,
                   "reason": "Kısa Türkçe açıklama (ör. Uygun parfüm şişesi görseli / Görselde parfüm şişesi tespit edilemedi)"
                 }
-                """, fileBytes, mimeType, ct);
+                """, webpBytes, "image/webp", ct);
         }
 
         if (verdict is { IsValid: false })
@@ -614,21 +675,15 @@ public class CatalogController(
             });
         }
 
-        var isApproved = verdict is { IsValid: true };
-
-        // Görsel repo dışındaki kalıcı klasöre yazılır: <UserPhotosRoot>/{slug}/
-        var uploadDir = Path.Combine(media.UserPhotosRoot, perfume.Slug);
-        Directory.CreateDirectory(uploadDir);
-
-        var fileName = $"{Guid.NewGuid():N}{ext}";
-        await System.IO.File.WriteAllBytesAsync(Path.Combine(uploadDir, fileName), fileBytes, ct);
+        // Görsel WebP biçiminde repo dışındaki kalıcı klasöre yazılır ve yönetici onayına sunulur.
+        var imageUrl = await imageWebp.SaveWebpAsync(webpBytes, perfume.Slug, ct);
 
         var userPhoto = new PerfumeUserPhoto
         {
             PerfumeId = perfume.Id,
             UserId = user.Id,
-            ImageUrl = $"{MediaPaths.UserPhotosRequestPath}/{perfume.Slug}/{fileName}",
-            IsApproved = isApproved,
+            ImageUrl = imageUrl,
+            IsApproved = false,
             CreatedAt = DateTimeOffset.UtcNow
         };
 
@@ -637,10 +692,8 @@ public class CatalogController(
 
         return Ok(new
         {
-            message = isApproved
-                ? "Fotoğrafınız başarıyla yüklendi ve yayına alındı!"
-                : "Fotoğrafınız alındı; kontrol edildikten sonra yayınlanacak.",
-            pending = !isApproved,
+            message = "Fotoğrafınız alındı; kontrol edildikten sonra yayınlanacak.",
+            pending = true,
             photo = new
             {
                 userPhoto.Id,
@@ -649,23 +702,5 @@ public class CatalogController(
                 userPhoto.CreatedAt
             }
         });
-    }
-
-    /// <summary>Dosyanın sihirli baytlarından (JPEG, PNG, WebP) MIME türü ve uzantısını bulur; tanımadığına null.</summary>
-    private static (string MimeType, string Extension)? DetectImageType(ReadOnlySpan<byte> bytes)
-    {
-        if (bytes.Length >= 3 && bytes[0] == 0xFF && bytes[1] == 0xD8 && bytes[2] == 0xFF)
-            return ("image/jpeg", ".jpg");
-
-        ReadOnlySpan<byte> png = [0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A];
-        if (bytes.Length >= 8 && bytes[..8].SequenceEqual(png))
-            return ("image/png", ".png");
-
-        if (bytes.Length >= 12
-            && bytes[..4].SequenceEqual("RIFF"u8)
-            && bytes[8..12].SequenceEqual("WEBP"u8))
-            return ("image/webp", ".webp");
-
-        return null;
     }
 }

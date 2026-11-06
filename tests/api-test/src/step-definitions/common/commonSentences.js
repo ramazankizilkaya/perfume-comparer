@@ -162,6 +162,17 @@ When('I upload a text file named {string} as photo to {string} endpoint', async 
     await apiFunctions.Requestor(this, 'POST', url, null, {}, null, endpointName, multipart);
 });
 
+When('I upload a valid PNG image as {string} to {string} endpoint', async function (fieldName, endpointName) {
+    const perfumeSlug = this.getVar('perfumeSlug');
+    const url = constants.resolveEndpoint(endpointName, perfumeSlug);
+    // 1x1 transparent PNG
+    const pngBase64 = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==';
+    const multipart = {
+        [fieldName]: { name: 'sample.png', mimeType: 'image/png', buffer: Buffer.from(pngBase64, 'base64') }
+    };
+    await apiFunctions.Requestor(this, 'POST', url, null, {}, null, endpointName, multipart);
+});
+
 Then('the response body path {string} should be {string}', function (path, expectedValue) {
     apiFunctions.AssertBodyValueByKey(this, path, expectedValue);
 });

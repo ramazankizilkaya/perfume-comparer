@@ -82,6 +82,48 @@ public class AdminController(
     public async Task<IActionResult> GetRecommendations([FromQuery] int take = 100, CancellationToken ct = default) =>
         Ok(await dashboard.GetRecommendationsAsync(take, ct));
 
+    /// <summary>Kullanıcıların yüklediği parfüm fotoğrafları. <c>status</c>: pending | approved | all (veya boş).</summary>
+    [HttpGet("photos")]
+    public async Task<IActionResult> GetPhotos([FromQuery] string? status = null, [FromQuery] int take = 100, CancellationToken ct = default)
+    {
+        bool? isApproved = status?.Trim().ToLowerInvariant() switch
+        {
+            null or "" or "all" => null,
+            "pending" => false,
+            "approved" => true,
+            _ => null,
+        };
+
+        if (!string.IsNullOrWhiteSpace(status) &&
+            status.Trim().ToLowerInvariant() is not ("all" or "pending" or "approved"))
+        {
+            return BadRequest(new { message = "status pending, approved ya da all olmalı." });
+        }
+
+        return Ok(await dashboard.GetPhotosAsync(isApproved, take, ct));
+    }
+
+    /// <summary>Bekleyen kullanıcı fotoğrafını onaylar ve yayına alır.</summary>
+    [HttpPost("photos/{id:int}/approve")]
+    public async Task<IActionResult> ApprovePhoto(int id, CancellationToken ct) =>
+        await dashboard.SetPhotoApprovedAsync(id, true, ct)
+            ? Ok(new { message = "Fotoğraf onaylandı ve yayına alındı.", isApproved = true })
+            : NotFound(new { message = "Fotoğraf bulunamadı." });
+
+    /// <summary>Yayındaki kullanıcı fotoğrafını yayından kaldırır.</summary>
+    [HttpPost("photos/{id:int}/unapprove")]
+    public async Task<IActionResult> UnapprovePhoto(int id, CancellationToken ct) =>
+        await dashboard.SetPhotoApprovedAsync(id, false, ct)
+            ? Ok(new { message = "Fotoğraf yayından kaldırıldı.", isApproved = false })
+            : NotFound(new { message = "Fotoğraf bulunamadı." });
+
+    /// <summary>Kullanıcı fotoğrafını kalıcı olarak siler.</summary>
+    [HttpDelete("photos/{id:int}")]
+    public async Task<IActionResult> DeletePhoto(int id, CancellationToken ct) =>
+        await dashboard.DeletePhotoAsync(id, ct)
+            ? Ok(new { message = "Fotoğraf silindi." })
+            : NotFound(new { message = "Fotoğraf bulunamadı." });
+
     private async Task<IActionResult> SetCommentStatus(string kind, int id, ModerationStatus status, string message, CancellationToken ct)
     {
         if (!IsKnownKind(kind))

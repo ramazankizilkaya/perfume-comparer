@@ -6,6 +6,7 @@ import { openLogin } from "@/lib/loginModal";
 import { API_BASE } from "@/lib/urls";
 import { useAuth, authFetch } from "@/lib/stores";
 import { toast } from "@/lib/toast";
+import { convertFileToWebp } from "@/lib/imageWebp";
 import PerfumePicker, { type PickedPerfume } from "./PerfumePicker";
 
 interface PerfumeReviewModalProps {
@@ -145,21 +146,29 @@ export default function PerfumeReviewModal({
         );
     };
 
-    const handlePhotoSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const handlePhotoSelect = async (e: React.ChangeEvent<HTMLInputElement>) => {
         if (e.target.files && e.target.files[0]) {
-            const file = e.target.files[0];
-            setSelectedPhoto(file);
-            const reader = new FileReader();
-            reader.onload = (ev) => {
-                setPhotoPreview(ev.target?.result as string);
-            };
-            reader.readAsDataURL(file);
+            const rawFile = e.target.files[0];
+            try {
+                const webpFile = await convertFileToWebp(rawFile);
+                setSelectedPhoto(webpFile);
+                const reader = new FileReader();
+                reader.onload = (ev) => {
+                    setPhotoPreview(ev.target?.result as string);
+                };
+                reader.readAsDataURL(webpFile);
+            } catch (err: unknown) {
+                const msg = err instanceof Error ? err.message : "Görsel WebP formatına dönüştürülemedi.";
+                setError(msg);
+                toast.error(msg);
+            }
         }
     };
 
     const uploadPhoto = async (file: File) => {
+        const webpFile = file.type === "image/webp" ? file : await convertFileToWebp(file);
         const formData = new FormData();
-        formData.append("photo", file);
+        formData.append("photo", webpFile);
 
         const photoRes = await authFetch(`${API_BASE}/api/perfumes/${slug}/photos`, {
             method: "POST",
@@ -172,7 +181,7 @@ export default function PerfumeReviewModal({
         }
 
         const photoData = await photoRes.json();
-        if (onPhotoUploaded && photoData.photo) {
+        if (onPhotoUploaded && photoData.photo && !photoData.pending) {
             onPhotoUploaded(photoData.photo);
         }
     };

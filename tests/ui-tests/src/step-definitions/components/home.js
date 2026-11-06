@@ -11,28 +11,39 @@ async function openMobileMenuIfCollapsed(page) {
 
 When('I select gender preference as {string}', async function (genderName) {
     const page = cf.GetPage();
-    if (cf.GetCurrentDevice() === 'mobile') {
-        await openMobileMenuIfCollapsed(page);
-        const chip = page.locator(`.mobile-gender-opt:has-text("${genderName}")`).first();
-        await chip.waitFor({ state: 'visible' });
-        await chip.click();
-        await page.waitForTimeout(500);
-        await page.locator('.mobile-menu-toggle').first().click();
-        await page.locator('.mobile-nav-panel').waitFor({ state: 'hidden' });
-        return;
+    const modal = page.locator('.gender-modal');
+    if (!(await modal.isVisible())) {
+        if (cf.GetCurrentDevice() === 'mobile') {
+            await openMobileMenuIfCollapsed(page);
+            await page.locator('.mobile-nav-link:has-text("Anasayfa Parfüm Tercihi")').first().click();
+        } else {
+            const dropdown = page.locator('.user-dropdown');
+            if (!(await dropdown.isVisible())) {
+                await page.locator('.user-menu .login-btn, .user-menu .user-btn').first().click();
+                await dropdown.waitFor({ state: 'visible' });
+            }
+            await page.locator('.user-dropdown-link:has-text("Anasayfa Parfüm Tercihi")').first().click();
+        }
+        await modal.waitFor({ state: 'visible' });
     }
-    await cf.ClickElement('Gender Dropdown Button');
-    const optSelector = `.gender-opt:has-text("${genderName}")`;
-    const opt = page.locator(optSelector).first();
-    await opt.waitFor({ state: 'visible' });
-    await opt.click();
-    await page.waitForTimeout(500);
+    const choice = page.locator(`.gender-choice:has-text("${genderName}")`).first();
+    await choice.waitFor({ state: 'visible' });
+    await choice.click();
+    await page.locator('.gender-modal-save').first().click();
+    await modal.waitFor({ state: 'hidden' });
+    await page.waitForTimeout(400);
 });
 
 When('I toggle theme between light and dark mode', async function () {
     const page = cf.GetPage();
     if (cf.GetCurrentDevice() === 'mobile') {
         await openMobileMenuIfCollapsed(page);
+    } else {
+        const dropdown = page.locator('.user-dropdown');
+        if (!(await dropdown.isVisible())) {
+            await page.locator('.user-menu .login-btn, .user-menu .user-btn').first().click();
+            await dropdown.waitFor({ state: 'visible' });
+        }
     }
     const wasDark = await page.evaluate(() => document.body.classList.contains('dark-mode'));
     await cf.ClickElement('Theme Toggle Button');

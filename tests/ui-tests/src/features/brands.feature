@@ -19,6 +19,7 @@ Feature: Brand catalog
         When I navigate to "Sample Brand" page
         Then element "Brand Detail Title" should be displayed
         And element "Brand Official Website Link" should be displayed
+        And brand JSON-LD logo should be an absolute URL
         And no horizontal overflow should be detected on the page
 
         Examples:

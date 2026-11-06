@@ -74,6 +74,7 @@ try
     builder.Services.AddSingleton<IAdminPasswordGate, AdminPasswordGate>();
     builder.Services.AddScoped<IAdminDashboardService, AdminDashboardService>();
     builder.Services.AddSingleton<MediaPaths>();
+    builder.Services.AddSingleton<IImageWebpService, ImageWebpService>();
     builder.Services.AddScoped<IAiSearchPlanner, AiSearchPlanner>();
     builder.Services.AddScoped<ICompareAiService, CompareAiService>();
     builder.Services.AddScoped<IPerfumeAdvisorService, PerfumeAdvisorService>();

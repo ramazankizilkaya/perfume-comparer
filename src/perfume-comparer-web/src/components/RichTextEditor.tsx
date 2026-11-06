@@ -2,6 +2,12 @@
 
 import { useRef, useState } from "react";
 import RichTextRenderer from "./RichTextRenderer";
+import { API_BASE } from "@/lib/urls";
+import { authFetch } from "@/lib/stores";
+import { convertFileToWebp } from "@/lib/imageWebp";
+import { toast } from "@/lib/toast";
+
+const BODY_MAX = 50000;
 
 interface RichTextEditorProps {
     value: string;
@@ -17,7 +23,36 @@ export default function RichTextEditor({
     onOpenPreviewPage,
 }: RichTextEditorProps) {
     const textareaRef = useRef<HTMLTextAreaElement>(null);
+    const imageInputRef = useRef<HTMLInputElement>(null);
     const [activeTab, setActiveTab] = useState<"edit" | "preview">("edit");
+    const [uploadingImage, setUploadingImage] = useState(false);
+
+    const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+        const rawFile = e.target.files?.[0];
+        if (!rawFile) return;
+        e.target.value = "";
+        setUploadingImage(true);
+        try {
+            const webpFile = await convertFileToWebp(rawFile);
+            const formData = new FormData();
+            formData.append("image", webpFile);
+            const res = await authFetch(`${API_BASE}/api/blogs/upload-image`, {
+                method: "POST",
+                body: formData,
+            });
+            const data = await res.json().catch(() => ({}));
+            if (!res.ok || !data.imageUrl) {
+                throw new Error(data.message || "Görsel yüklenemedi.");
+            }
+            insertFormatting("![", `](${data.imageUrl})`, "Görsel Açıklaması");
+            toast.success("Görsel WebP formatına dönüştürülüp makaleye eklendi.");
+        } catch (err: unknown) {
+            const msg = err instanceof Error ? err.message : "Görsel yüklenemedi.";
+            toast.error(msg);
+        } finally {
+            setUploadingImage(false);
+        }
+    };
 
     const insertFormatting = (prefix: string, suffix: string = "", defaultText: string = "") => {
         const textarea = textareaRef.current;
@@ -168,13 +203,21 @@ export default function RichTextEditor({
                         >
                             🔗 Link
                         </button>
+                        <input
+                            ref={imageInputRef}
+                            type="file"
+                            accept="image/jpeg,image/png,image/webp"
+                            onChange={handleImageUpload}
+                            style={{ display: "none" }}
+                        />
                         <button
                             type="button"
                             className="toolbar-btn"
-                            title="Görsel Ekle"
-                            onClick={() => insertFormatting("![Görsel Açıklaması](", ")", "https://örnek-resim-url.com/resim.webp")}
+                            title="Bilgisayardan Görsel Yükle (WebP olarak kaydedilir)"
+                            disabled={uploadingImage}
+                            onClick={() => imageInputRef.current?.click()}
                         >
-                            🖼️ Resim
+                            {uploadingImage ? "⏳ Yükleniyor…" : "🖼️ Resim"}
                         </button>
                         <button
                             type="button"
@@ -193,6 +236,7 @@ export default function RichTextEditor({
                         value={value}
                         onChange={(e) => onChange(e.target.value)}
                         onKeyDown={handleKeyDown}
+                        maxLength={BODY_MAX}
                         placeholder={placeholder}
                         required
                     />
@@ -210,7 +254,9 @@ export default function RichTextEditor({
             )}
 
             <div className="rich-editor-footer">
-                <span className="editor-stat">{wordCount} kelime · {charCount} karakter</span>
+                <span className="editor-stat">
+                    {wordCount} kelime · {charCount.toLocaleString("tr-TR")} / {BODY_MAX.toLocaleString("tr-TR")} karakter
+                </span>
                 <span className="editor-stat">Yaklaşık {readingTime} dakika okuma</span>
             </div>
         </div>

@@ -24,3 +24,17 @@ Feature: Blog and articles
             | device  | width | height |
             | desktop | 1440  | 900    |
             | mobile  | 375   | 812    |
+
+    Scenario Outline: As an authenticated user on <device>, I should see character limits and WebP image upload on the article editor, When I open the write form
+        Given I set screen size to "<width>"x"<height>" for "<device>"
+        When I navigate to "Blog" page
+        And I sign in with developer mock login
+        And I click on "Blog Write Button"
+        Then element "Blog Write Form Title" should be displayed
+        And elements "Blog Title Input, Blog Cover Upload Button, Blog Body Textarea, Blog Char Limit Counter" should be displayed
+        And no horizontal overflow should be detected on the page
+
+        Examples:
+            | device  | width | height |
+            | desktop | 1440  | 900    |
+            | mobile  | 375   | 812    |

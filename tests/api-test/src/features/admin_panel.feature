@@ -71,3 +71,21 @@ Feature: Admin Panel (password login, analytics, moderation)
         Given I am authenticated as admin
         When I send a "GET" request to "Admin Recommendations" endpoint
         Then the response status should be 200 and should match "Admin Recommendations" response scheme
+
+    Scenario: Admin lists user uploaded photos for moderation
+        Given I am authenticated as admin
+        When I send a "GET" request to "Admin Photos" endpoint
+        Then the response status should be 200 and should match "Admin Photos" response scheme
+
+    Scenario: Photo list with an unknown status is rejected with 400
+        Given I am authenticated as admin
+        When I send a "GET" request to "Admin Photos Invalid Status" endpoint
+        Then the response status should be 400
+
+    Scenario: Approving a missing photo returns 404 and requires an admin token
+        Given I am authenticated
+        When I send a "POST" request to "Admin Approve Missing Photo" endpoint
+        Then the response status should be 403
+        Given I am authenticated as admin
+        When I send a "POST" request to "Admin Approve Missing Photo" endpoint
+        Then the response status should be 404

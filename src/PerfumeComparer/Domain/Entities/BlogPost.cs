@@ -2,6 +2,10 @@ namespace PerfumeComparer.Domain.Entities;
 
 public class BlogPost
 {
+    public const int MaxTitleLength = 200;
+    public const int MaxExcerptLength = 500;
+    public const int MaxBodyLength = 50000;
+
     public int Id { get; set; }
     public int AuthorUserId { get; set; }
     public AppUser Author { get; set; } = null!;

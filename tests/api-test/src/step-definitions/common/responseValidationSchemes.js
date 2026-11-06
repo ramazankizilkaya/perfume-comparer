@@ -111,6 +111,19 @@ const responseValidationSchemes = {
         advice: Joi.string().allow('').required()
     }).unknown(true)).required(),
 
+    "Admin Photos": Joi.object({
+        items: Joi.array().items(Joi.object({
+            id: Joi.number().integer().required(),
+            imageUrl: Joi.string().required(),
+            isApproved: Joi.boolean().required(),
+            authorName: Joi.string().required(),
+            perfumeName: Joi.string().required(),
+            createdAt: Joi.string().required()
+        }).unknown(true)).required(),
+        pendingCount: Joi.number().integer().min(0).required(),
+        total: Joi.number().integer().min(0).required()
+    }).required(),
+
     "Get Perfumes": Joi.object({
         items: Joi.array().items(perfumeItemScheme).required(),
         totalCount: Joi.number().integer().min(0).required(),

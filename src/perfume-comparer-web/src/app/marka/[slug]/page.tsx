@@ -113,12 +113,14 @@ export default async function BrandPage({ params, searchParams }: PageProps) {
     }
 
     const brandUrl = absoluteUrl(brandHref(brand.slug));
+    const brandLogoRel = mediaUrl(brand.logoUrl);
+    const brandLogoUrl = brandLogoRel ? absoluteUrl(brandLogoRel) : undefined;
     const jsonLdBrand = {
         "@context": "https://schema.org",
         "@type": "Brand",
         name: brand.name,
         url: brandUrl,
-        ...(brand.logoUrl ? { logo: mediaUrl(brand.logoUrl) } : {}),
+        ...(brandLogoUrl ? { logo: brandLogoUrl } : {}),
         ...(description ? { description } : {}),
         ...(brand.websiteUrl ? { sameAs: [brand.websiteUrl] } : {}),
     };

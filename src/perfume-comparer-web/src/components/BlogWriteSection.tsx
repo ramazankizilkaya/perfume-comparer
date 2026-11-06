@@ -1,12 +1,16 @@
 "use client";
 
-import { useState, useEffect, FormEvent } from "react";
+import { useState, useEffect, useRef, FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import Icon from "./Icon";
 import LoginPrompt from "./LoginPrompt";
 import RichTextEditor from "./RichTextEditor";
 import { API_BASE, blogPreviewHref, consumeUrlParam } from "@/lib/urls";
 import { useAuth, authFetch } from "@/lib/stores";
+import { convertFileToWebp } from "@/lib/imageWebp";
+import { toast } from "@/lib/toast";
+
+const TITLE_MAX = 200;
 
 export default function BlogWriteSection() {
     const { user } = useAuth();
@@ -14,8 +18,10 @@ export default function BlogWriteSection() {
     const [title, setTitle] = useState("");
     const [content, setContent] = useState("");
     const [coverImageUrl, setCoverImageUrl] = useState("");
+    const [uploadingCover, setUploadingCover] = useState(false);
     const [status, setStatus] = useState("");
     const [sending, setSending] = useState(false);
+    const coverInputRef = useRef<HTMLInputElement>(null);
     const router = useRouter();
 
     useEffect(() => {
@@ -23,6 +29,33 @@ export default function BlogWriteSection() {
             queueMicrotask(() => setWriting(true));
         }
     }, []);
+
+    const handleCoverFileSelect = async (e: React.ChangeEvent<HTMLInputElement>) => {
+        const rawFile = e.target.files?.[0];
+        if (!rawFile) return;
+        e.target.value = "";
+        setUploadingCover(true);
+        try {
+            const webpFile = await convertFileToWebp(rawFile);
+            const formData = new FormData();
+            formData.append("image", webpFile);
+            const res = await authFetch(`${API_BASE}/api/blogs/upload-image`, {
+                method: "POST",
+                body: formData,
+            });
+            const data = await res.json().catch(() => ({}));
+            if (!res.ok || !data.imageUrl) {
+                throw new Error(data.message || "Kapak görseli yüklenemedi.");
+            }
+            setCoverImageUrl(data.imageUrl);
+            toast.success("Kapak görseli WebP olarak yüklendi.");
+        } catch (err: unknown) {
+            const msg = err instanceof Error ? err.message : "Kapak görseli yüklenemedi.";
+            toast.error(msg);
+        } finally {
+            setUploadingCover(false);
+        }
+    };
 
     const handleOpenPreview = () => {
         try {
@@ -33,7 +66,7 @@ export default function BlogWriteSection() {
                     body: content || "İçerik henüz girilmedi.",
                     coverImageUrl:
                         coverImageUrl ||
-                        "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=800",
+                        "/blog_backgrounds/parfum-dunyasinda-2026-sonbahari.webp",
                     authorName: user?.name || user?.email || "Siz (Yazar)",
                 })
             );
@@ -106,20 +139,43 @@ export default function BlogWriteSection() {
                                 className="input"
                                 value={title}
                                 onChange={(e) => setTitle(e.target.value)}
+                                maxLength={TITLE_MAX}
                                 placeholder="Örn: 2026 Sonbaharında Yükselen Amber ve Odunsu Notalar"
                                 required
                             />
+                            <span className="muted" style={{ fontSize: "var(--fs-xs)" }}>
+                                {title.length} / {TITLE_MAX}
+                            </span>
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="b-cover">Kapak Görseli URL&apos;si (İsteğe bağlı)</label>
-                            <input
-                                id="b-cover"
-                                className="input"
-                                value={coverImageUrl}
-                                onChange={(e) => setCoverImageUrl(e.target.value)}
-                                placeholder="Örn: https://images.unsplash.com/... veya /blog_backgrounds/parfum-lugati.webp"
-                            />
+                            <label htmlFor="b-cover">Kapak Görseli (WebP&apos;e dönüştürülür, isteğe bağlı)</label>
+                            <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
+                                <input
+                                    id="b-cover"
+                                    className="input"
+                                    style={{ flex: "1 1 220px" }}
+                                    value={coverImageUrl}
+                                    onChange={(e) => setCoverImageUrl(e.target.value)}
+                                    maxLength={400}
+                                    placeholder="Görsel URL'si girin veya bilgisayarınızdan yükleyin"
+                                />
+                                <input
+                                    ref={coverInputRef}
+                                    type="file"
+                                    accept="image/jpeg,image/png,image/webp"
+                                    onChange={handleCoverFileSelect}
+                                    style={{ display: "none" }}
+                                />
+                                <button
+                                    type="button"
+                                    className="btn btn-ghost"
+                                    disabled={uploadingCover}
+                                    onClick={() => coverInputRef.current?.click()}
+                                >
+                                    <Icon name="plus" size={14} /> {uploadingCover ? "Yükleniyor…" : "Görsel Yükle (.webp)"}
+                                </button>
+                            </div>
                         </div>
 
                         <div className="form-group">

@@ -32,11 +32,11 @@ Gender Option Hepsi:
   desktop: '.gender-opt:has-text("Hepsi"), .gender-reset-btn:has-text("Hepsi")'
   mobile: '.gender-reset-btn:has-text("Hepsi")'
 Theme Toggle Button:
-  desktop: '.theme-toggle-btn'
-  mobile: '.mobile-theme-btn'
+  desktop: '.dark-mode-switch'
+  mobile: '.mobile-nav-link.dark-mode-switch'
 Mobile Menu Gender Options:
-  desktop: '.mobile-gender-chips'
-  mobile: '.mobile-gender-chips'
+  desktop: 'button:has-text("Anasayfa Parfüm Tercihi")'
+  mobile: '.mobile-nav-link:has-text("Anasayfa Parfüm Tercihi")'
 Mobile Menu Login Link:
   desktop: '.mobile-login-link'
   mobile: '.mobile-login-link'
@@ -169,12 +169,36 @@ My Articles Title:
 Admin Login Prompt:
   desktop: 'form.admin-login #admin-password'
   mobile: 'form.admin-login #admin-password'
+Admin Login Submit:
+  desktop: 'form.admin-login button[type="submit"]'
+  mobile: 'form.admin-login button[type="submit"]'
+Admin Photos Tab:
+  desktop: 'button.admin-tab:has-text("Fotoğraflar")'
+  mobile: 'button.admin-tab:has-text("Fotoğraflar")'
+Admin Photos Title:
+  desktop: 'h2.block-title:has-text("Kullanıcı fotoğrafları onayı")'
+  mobile: 'h2.block-title:has-text("Kullanıcı fotoğrafları onayı")'
+Admin Photos Pending Chip:
+  desktop: 'button.chip:has-text("Onay bekleyenler")'
+  mobile: 'button.chip:has-text("Onay bekleyenler")'
 Admin Title:
   desktop: 'h1:has-text("Yönetim paneli")'
   mobile: 'h1:has-text("Yönetim paneli")'
 Admin Seed All Button:
   desktop: 'button:has-text("Tümünü Tohumla"), button:has-text("Tohumla")'
   mobile: 'button:has-text("Tümünü Tohumla"), button:has-text("Tohumla")'
+Blog Title Input:
+  desktop: '#b-title[maxlength="200"]'
+  mobile: '#b-title[maxlength="200"]'
+Blog Cover Upload Button:
+  desktop: 'button:has-text("Görsel Yükle (.webp)")'
+  mobile: 'button:has-text("Görsel Yükle (.webp)")'
+Blog Body Textarea:
+  desktop: '#b-body[maxlength="50000"]'
+  mobile: '#b-body[maxlength="50000"]'
+Blog Char Limit Counter:
+  desktop: '.editor-stat:has-text("50.000 karakter")'
+  mobile: '.editor-stat:has-text("50.000 karakter")'
 Login Prompt Link:
   desktop: '.login-prompt button'
   mobile: '.login-prompt button'
@@ -184,6 +208,9 @@ Modal Login Link:
 Login Modal:
   desktop: '.login-modal-card'
   mobile: '.login-modal-card'
+Login Modal Title:
+  desktop: '#login-modal-title'
+  mobile: '#login-modal-title'
 Login Modal Close Button:
   desktop: '.login-modal-card button[aria-label="Kapat"]'
   mobile: '.login-modal-card button[aria-label="Kapat"]'

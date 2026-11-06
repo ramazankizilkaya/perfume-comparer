@@ -103,6 +103,15 @@ Feature: Catalog Management
         When I send a "POST" request to "Submit Perfume Review" endpoint with "Submit Review" payload
         Then the response status should be 401
 
+    Scenario: Submitting a perfume review with seasons saves the evaluation and season votes
+        Given I am authenticated
+        Given perfume slug is "dior-sauvage"
+        When I send a "POST" request to "Submit Perfume Review" endpoint with "Submit Review With Seasons" payload
+        Then the response status should be 200
+        When I send a "GET" request to "Get Perfume My Evaluation" endpoint
+        Then the response status should be 200
+        And the response body path "hasEvaluated" should be "true"
+
     Scenario: Check evaluation status for perfume
         Given perfume slug is "dior-sauvage"
         When I send a "GET" request to "Get Perfume My Evaluation" endpoint

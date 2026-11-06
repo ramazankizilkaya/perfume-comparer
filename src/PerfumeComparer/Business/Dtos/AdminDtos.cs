@@ -107,3 +107,20 @@ public record AdminRecommendationDto(
     string PromptJson,
     string Advice,
     DateTimeOffset CreatedAt);
+
+/// <summary>Panelde incelenen kullanıcı parfüm fotoğrafı.</summary>
+public record AdminPhotoDto(
+    int Id,
+    string ImageUrl,
+    bool IsApproved,
+    string AuthorName,
+    string? AuthorEmail,
+    string PerfumeName,
+    string BrandName,
+    string? PerfumePath,
+    DateTimeOffset CreatedAt);
+
+public record AdminPhotoListDto(
+    IReadOnlyList<AdminPhotoDto> Items,
+    int PendingCount,
+    int Total);

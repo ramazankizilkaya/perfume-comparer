@@ -48,6 +48,15 @@ async function CreatePage(viewport = SCREEN_SIZES.desktop) {
     context = await browser.newContext({
         viewport: { width: viewport.width, height: viewport.height }
     });
+    await context.addInitScript(() => {
+        try {
+            if (!localStorage.getItem('gender-pref')) {
+                localStorage.setItem('gender-pref', JSON.stringify('all'));
+            }
+        } catch {
+            // ignore
+        }
+    });
     page = await context.newPage();
     return page;
 }
@@ -147,6 +156,15 @@ async function LaunchNewBrowserAndNavigateToStoredUrl(key = 'storedUrl') {
         await context.close().catch(() => {});
     }
     context = await browser.newContext({ viewport });
+    await context.addInitScript(() => {
+        try {
+            if (!localStorage.getItem('gender-pref')) {
+                localStorage.setItem('gender-pref', JSON.stringify('all'));
+            }
+        } catch {
+            // ignore
+        }
+    });
     page = await context.newPage();
     await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: TIMEOUTS.long });
     await page.waitForTimeout(600);

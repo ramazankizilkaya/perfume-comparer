@@ -5,6 +5,7 @@ import { PageBreadcrumb } from "@/components/Breadcrumb";
 import AdminOverview from "@/components/admin/AdminOverview";
 import AdminBlogs from "@/components/admin/AdminBlogs";
 import AdminComments from "@/components/admin/AdminComments";
+import AdminPhotos from "@/components/admin/AdminPhotos";
 import AdminAdvisor from "@/components/admin/AdminAdvisor";
 import AdminData from "@/components/admin/AdminData";
 import AdminContactMessages from "@/components/admin/AdminContactMessages";
@@ -14,6 +15,7 @@ import { useLocalState } from "@/lib/clientStore";
 const TABS = [
     { key: "overview", label: "Genel bakış" },
     { key: "blogs", label: "Makale onayı" },
+    { key: "photos", label: "Fotoğraflar" },
     { key: "comments", label: "Yorumlar" },
     { key: "advisor", label: "Parfüm önerileri" },
     { key: "contact", label: "İletişim" },
@@ -30,14 +32,17 @@ export default function AdminPage() {
     const { token, ready, login, logout } = useAdminSession();
     const [tab, setTab] = useLocalState<TabKey>("admin-tab", "overview");
     const [pending, setPending] = useState<number | null>(null);
+    const [pendingPhotos, setPendingPhotos] = useState<number | null>(null);
     const [unread, setUnread] = useState<number | null>(null);
 
     const refreshPending = useCallback(async () => {
-        const [rows, contact] = await Promise.all([
+        const [rows, photos, contact] = await Promise.all([
             adminJson<unknown[]>("/api/admin/blogs?status=Pending"),
+            adminJson<{ pendingCount?: number }>("/api/admin/photos?status=pending"),
             adminJson<{ unreadCount?: number }>("/api/admin/contact-messages?status=unread"),
         ]);
         setPending(rows ? rows.length : null);
+        setPendingPhotos(photos?.pendingCount ?? null);
         setUnread(contact?.unreadCount ?? null);
     }, []);
 
@@ -77,6 +82,7 @@ export default function AdminPage() {
                             >
                                 {t.label}
                                 {t.key === "blogs" && pending ? <span className="admin-tab-count">{pending}</span> : null}
+                                {t.key === "photos" && pendingPhotos ? <span className="admin-tab-count">{pendingPhotos}</span> : null}
                                 {t.key === "contact" && unread ? <span className="admin-tab-count">{unread}</span> : null}
                             </button>
                         ))}
@@ -84,6 +90,7 @@ export default function AdminPage() {
 
                     {active === "overview" && <AdminOverview />}
                     {active === "blogs" && <AdminBlogs onChanged={refreshPending} />}
+                    {active === "photos" && <AdminPhotos onChanged={refreshPending} />}
                     {active === "comments" && <AdminComments />}
                     {active === "advisor" && <AdminAdvisor />}
                     {active === "contact" && <AdminContactMessages />}

@@ -82,12 +82,15 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
                 "Admin Comparison Comments": '/api/admin/comments?kind=comparison&take=5',
                 "Admin Comments Invalid Kind": '/api/admin/comments?kind=gecersiz',
                 "Admin Recommendations": '/api/admin/recommendations?take=5',
+                "Admin Photos": '/api/admin/photos?status=all&take=10',
+                "Admin Photos Invalid Status": '/api/admin/photos?status=gecersiz',
             },
             "POST": {
                 "Admin AI Summaries": '/api/admin/ai-summaries',
                 "Admin Seed Blogs": '/api/admin/seed/bloglar',
                 "Admin Hide Missing Comment": '/api/admin/comments/perfume/2147483647/hide',
                 "Admin Hide Comment Invalid Kind": '/api/admin/comments/gecersiz/1/hide',
+                "Admin Approve Missing Photo": '/api/admin/photos/2147483647/approve',
             }
         },
 
@@ -122,6 +125,7 @@ const apiEndpoints = (perfumeSlug = null, brandSlug = null, blogSlug = null, que
             },
             "POST": {
                 "Create Blog Post": '/api/blogs',
+                "Upload Blog Image": '/api/blogs/upload-image',
             }
         },
 

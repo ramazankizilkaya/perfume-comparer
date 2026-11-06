@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Threading;
@@ -11,7 +12,7 @@ using PerfumeComparer.Domain;
 
 namespace PerfumeComparer.Business.Services;
 
-public class AdminDashboardService(AppDbContext db) : IAdminDashboardService
+public class AdminDashboardService(AppDbContext db, MediaPaths media) : IAdminDashboardService
 {
     public const string PerfumeKind = "perfume";
     public const string ComparisonKind = "comparison";
@@ -379,6 +380,84 @@ public class AdminDashboardService(AppDbContext db) : IAdminDashboardService
                 p?.Name ?? $"#{r.PerfumeId}", p?.Brand ?? "", p?.Path ?? "",
                 r.PromptJson, r.PerfumerAdvice, r.CreatedAt);
         }).ToList();
+    }
+
+    public async Task<AdminPhotoListDto> GetPhotosAsync(bool? isApproved, int take, CancellationToken ct = default)
+    {
+        take = Math.Clamp(take, 1, 500);
+        var pendingCount = await db.PerfumeUserPhotos.AsNoTracking().CountAsync(p => !p.IsApproved, ct);
+        var total = await db.PerfumeUserPhotos.AsNoTracking().CountAsync(ct);
+
+        var query = db.PerfumeUserPhotos.AsNoTracking();
+        if (isApproved is not null)
+            query = query.Where(p => p.IsApproved == isApproved.Value);
+
+        var rows = await query
+            .OrderBy(p => p.IsApproved ? 1 : 0)
+            .ThenByDescending(p => p.CreatedAt)
+            .Take(take)
+            .Select(p => new
+            {
+                p.Id,
+                p.PerfumeId,
+                p.ImageUrl,
+                p.IsApproved,
+                p.CreatedAt,
+                AuthorName = p.User != null ? (p.User.DisplayName ?? p.User.Email) : "Misafir",
+                AuthorEmail = p.User != null ? p.User.Email : null,
+            })
+            .ToListAsync(ct);
+
+        var refs = await LoadPerfumeRefsAsync(rows.Select(r => r.PerfumeId).ToHashSet(), ct);
+        var items = rows.Select(r =>
+        {
+            var p = refs.GetValueOrDefault(r.PerfumeId);
+            return new AdminPhotoDto(
+                r.Id,
+                r.ImageUrl,
+                r.IsApproved,
+                r.AuthorName,
+                r.AuthorEmail,
+                p?.Name ?? $"#{r.PerfumeId}",
+                p?.Brand ?? "",
+                p?.Path,
+                r.CreatedAt);
+        }).ToList();
+
+        return new AdminPhotoListDto(items, pendingCount, total);
+    }
+
+    public async Task<bool> SetPhotoApprovedAsync(int id, bool isApproved, CancellationToken ct = default)
+    {
+        var photo = await db.PerfumeUserPhotos.FirstOrDefaultAsync(p => p.Id == id, ct);
+        if (photo is null) return false;
+        photo.IsApproved = isApproved;
+        await db.SaveChangesAsync(ct);
+        return true;
+    }
+
+    public async Task<bool> DeletePhotoAsync(int id, CancellationToken ct = default)
+    {
+        var photo = await db.PerfumeUserPhotos.FirstOrDefaultAsync(p => p.Id == id, ct);
+        if (photo is null) return false;
+
+        var imageUrl = photo.ImageUrl;
+        db.PerfumeUserPhotos.Remove(photo);
+        await db.SaveChangesAsync(ct);
+
+        if (!string.IsNullOrWhiteSpace(imageUrl) &&
+            imageUrl.StartsWith(MediaPaths.UserPhotosRequestPath + "/", StringComparison.Ordinal))
+        {
+            var relPath = imageUrl[(MediaPaths.UserPhotosRequestPath.Length + 1)..];
+            var fullPath = Path.GetFullPath(Path.Combine(media.UserPhotosRoot, relPath));
+            var rootFull = Path.GetFullPath(media.UserPhotosRoot);
+            if (fullPath.StartsWith(rootFull, StringComparison.Ordinal) && File.Exists(fullPath))
+            {
+                try { File.Delete(fullPath); } catch { /* disk silme hatası DB kaydını etkilemez */ }
+            }
+        }
+
+        return true;
     }
 
     private async Task<Dictionary<int, PerfumeRef>> LoadPerfumeRefsAsync(IReadOnlyCollection<int> ids, CancellationToken ct)

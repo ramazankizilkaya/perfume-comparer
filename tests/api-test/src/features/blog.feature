@@ -18,6 +18,18 @@ Feature: Blog Management
         Then the response status should be 401
         And the response body should contain "giriş yapmalısınız"
 
+    Scenario: Creating a blog post with body longer than 50000 characters is rejected with 400
+        Given I am authenticated
+        When I send a "POST" request to "Create Blog Post" endpoint with "Create Blog Post Body Too Long" payload
+        Then the response status should be 400
+        And the response body should contain "50000 karakter"
+
+    Scenario: Uploading a PNG blog image converts it to WebP
+        Given I am authenticated
+        When I upload a valid PNG image as "image" to "Upload Blog Image" endpoint
+        Then the response status should be 200
+        And the response body should contain ".webp"
+
     Scenario: Pending blog list requires an admin token
         Given I clear my authorization token
         When I send a "GET" request to "Get Pending Blogs" endpoint
